@@ -17,4 +17,4 @@ Represents an attribute that is applied to the class definition to identify the 
 ## -examples
 
 ## -see-also
-[Attribute](https://msdn.microsoft.com/library/system.attribute.aspx), [Styling controls](https://msdn.microsoft.com/library/ab469a46-faf5-42d0-9340-948d0edf4150), [Quickstart: control templates](https://msdn.microsoft.com/library/67c424ae-afb1-4560-a6a8-4a3506775d77)
+[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN), [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls), [Quickstart: control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10))

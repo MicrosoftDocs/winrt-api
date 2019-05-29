@@ -21,7 +21,7 @@ When this method completes successfully, it returns a collection (type [IMap](..
 
 ## -remarks
 
-In JavaScript, use [then](https://msdn.microsoft.com/library/c63904fc-465b-4fd5-a1d6-e4fb200248e7) or [done](https://msdn.microsoft.com/library/9a5e6877-a2cf-421f-a91e-37d84ccb40da) to specify handler functions that will capture and process the collection when it is returned.
+In JavaScript, use [then](https://docs.microsoft.com/previous-versions/windows/apps/br229728(v=win.10)) or [done](https://docs.microsoft.com/previous-versions/windows/apps/hh701079(v=win.10)) to specify handler functions that will capture and process the collection when it is returned.
 
 ## -examples
 

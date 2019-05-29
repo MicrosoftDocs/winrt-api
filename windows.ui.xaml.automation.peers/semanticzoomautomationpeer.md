@@ -27,9 +27,9 @@ SemanticZoomAutomationPeer has overrides of **Core** methods such that the assoc
 > "SemanticZoom" is a relatively recent addition to the Microsoft UI Automation set of automation control types, so not all clients are implemented to look for it.
 This peer fires several automation events on behalf of its owner for toggle state changes.
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 
 ## -see-also
-[SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[SemanticZoom](../windows.ui.xaml.controls/semanticzoom.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

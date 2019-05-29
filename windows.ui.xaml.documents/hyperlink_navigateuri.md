@@ -33,7 +33,7 @@ You don't need to handle the [Click](hyperlink_click.md) event to cause the navi
 
 If your intent is that the [Hyperlink](hyperlink.md) should load a specified URI within a [WebView](../windows.ui.xaml.controls/webview.md) control that's also part of your app, then don't specify a value for NavigateUri. Handle the [Click](hyperlink_click.md) event instead, and call [WebView.Navigate](../windows.ui.xaml.controls/webview_navigate_1098085581.md), specifying the URI to load.
 
-You don't have to use **http:** or **https:** schemes. You can use schemes such as **ms-appx:**, **ms-appdata:**, or **ms-resources:**, if there's resource content at these locations that's appropriate to load in a browser. However, the **file:** scheme is specifically blocked. For more info, see [URI schemes](https://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af).
+You don't have to use **http:** or **https:** schemes. You can use schemes such as **ms-appx:**, **ms-appdata:**, or **ms-resources:**, if there's resource content at these locations that's appropriate to load in a browser. However, the **file:** scheme is specifically blocked. For more info, see [URI schemes](https://docs.microsoft.com/previous-versions/windows/apps/jj655406(v=win.10)).
 
 ## -examples
 

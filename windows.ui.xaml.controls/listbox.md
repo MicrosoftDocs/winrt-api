@@ -45,7 +45,7 @@ ListBox has a dedicated control for its items, [ListBoxItem](listboxitem.md). Bu
 
 ### ListBox vs. ListView and GridView
 
-ListBox has many similarities with [ListView](listview.md) or [GridView](gridview.md) (they share the parent class [ItemsControl](itemscontrol.md)), but each control is oriented towards different scenarios. ListBox is best for general UI composition, particularly when the elements are always intended to be selectable, whereas [ListView](listview.md) or [GridView](gridview.md) are best for data binding scenarios, particularly if virtualization or large data sets are involved. For more info on virtualization, see [Using virtualization with a list or grid](https://msdn.microsoft.com/library/c6f8727a-2a3a-4f0d-9a5a-82780994839f).
+ListBox has many similarities with [ListView](listview.md) or [GridView](gridview.md) (they share the parent class [ItemsControl](itemscontrol.md)), but each control is oriented towards different scenarios. ListBox is best for general UI composition, particularly when the elements are always intended to be selectable, whereas [ListView](listview.md) or [GridView](gridview.md) are best for data binding scenarios, particularly if virtualization or large data sets are involved. For more info on virtualization, see [Using virtualization with a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780657(v=win.10)).
 
 ### Version history
 
@@ -110,4 +110,4 @@ End Sub
 
 
 ## -see-also
-[Selector](../windows.ui.xaml.controls.primitives/selector.md), [ItemsControl](itemscontrol.md), [ListBoxItem](listboxitem.md), [ListBox styles and templates](https://msdn.microsoft.com/library/5eb7a713-4669-4da4-b6bb-73acf064d323), [ComboBox](combobox.md), [Controls list](https://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](https://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Selector](../windows.ui.xaml.controls.primitives/selector.md), [ItemsControl](itemscontrol.md), [ListBoxItem](listboxitem.md), [ListBox styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [ComboBox](combobox.md), [Controls list](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/), [Controls by function](https://docs.microsoft.com/windows/uwp/controls-and-patterns/controls-by-function)

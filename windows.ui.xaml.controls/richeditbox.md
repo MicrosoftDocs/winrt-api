@@ -27,9 +27,9 @@ Represents a rich text editing control that supports formatted text, hyperlinks,
 
 RichEditBox is a control that lets a user enter formatted text such as bold, italic, and underlined. RichEditBox can also display Rich Text Format (.rtf) documents including hyperlinks and images (.jpg, .png, etc). This control is designed for advanced text editing scenarios. For simple plain text input, like on a form, consider using [TextBox](textbox.md).
 
-You use the [Document](richeditbox_document.md) property of the RichEditBox to get its content. The content of a RichEditBox is a [Windows.UI.Text.ITextDocument](../windows.ui.text/itextdocument.md) object, which gives you access to the underlying [Text Object Model](https://msdn.microsoft.com/library/windows/desktop/bb787607.aspx) APIs. See the [Windows.UI.Text](../windows.ui.text/windows_ui_text.md) namespace for APIs that you can use to work with the text document.
+You use the [Document](richeditbox_document.md) property of the RichEditBox to get its content. The content of a RichEditBox is a [Windows.UI.Text.ITextDocument](../windows.ui.text/itextdocument.md) object, which gives you access to the underlying [Text Object Model](https://docs.microsoft.com/windows/desktop/Controls/text-object-model) APIs. See the [Windows.UI.Text](../windows.ui.text/windows_ui_text.md) namespace for APIs that you can use to work with the text document.
 
-For more info and examples, see the [RichEditBox control guide](https://msdn.microsoft.com/library/4afc0dfa-3b89-434d-9f86-4309ccff7839).
+For more info and examples, see the [RichEditBox control guide](https://docs.microsoft.com/windows/uwp/controls-and-patterns/rich-edit-box).
 
 ### Pen input
 
@@ -41,9 +41,9 @@ For more info, see [Text input with the handwriting view](https://docs.microsoft
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
 This table shows the resources used by the RichEditBox control. Resources that start with "TextControl" are shared by [TextBox](textbox.md), [PasswordBox](passwordbox.md), RichEditBox, and [AutoSuggestBox](autosuggestbox.md).
 
@@ -265,4 +265,4 @@ private void UnderlineButton_Click(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Control](control.md), [RichEditBox styles and templates](https://msdn.microsoft.com/library/12fc81ba-c638-4b41-8aa4-7c0fb5a43f97), [RichEditBox overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/rich-edit-box), [Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)
+[Control](control.md), [RichEditBox styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [RichEditBox overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/rich-edit-box), [Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)

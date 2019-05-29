@@ -33,4 +33,4 @@ The maximum and minimum values of [ZoomLevel](mapcontrol_zoomlevel.md) depend on
 ## -examples
 
 ## -see-also
-[TrySetViewAsync(Geopoint)](mapcontrol_trysetviewasync_675781320.md), [TrySetViewAsync(Geopoint, IReference(Double), IReference(Double), IReference(Double))](mapcontrol_trysetviewasync_513338662.md), [TrySetViewAsync(Geopoint, IReference(Double), IReference(Double), IReference(Double), MapAnimationKind)](mapcontrol_trysetviewasync_2106504554.md), [Display maps with 2D, 3D, and Streetside views](https://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f)
+[TrySetViewAsync(Geopoint)](mapcontrol_trysetviewasync_675781320.md), [TrySetViewAsync(Geopoint, IReference(Double), IReference(Double), IReference(Double))](mapcontrol_trysetviewasync_513338662.md), [TrySetViewAsync(Geopoint, IReference(Double), IReference(Double), IReference(Double), MapAnimationKind)](mapcontrol_trysetviewasync_2106504554.md), [Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps)

@@ -23,7 +23,7 @@ Use PointAnimation to animate the property value of any dependency property that
 
 Linear interpolation for a [Point](../windows.foundation/point.md) means that **X** and **Y** values are treated as a number and the interpolation is simply a mathematical operation.
 
-Sometimes you'll need to use indirect property targeting in order to target a sub-property of another object that's the value of a property on the target. For example, in order to animate parts of a [PathGeometry](../windows.ui.xaml.media/pathgeometry.md), you need to reference some of the intermediate object-property values, until the last step in the indirect property path is truly a [Point](../windows.foundation/point.md) value. For more info on indirect property targeting and other storyboarded animation concepts, see [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a) or [Property-path syntax](https://msdn.microsoft.com/library/ff3ecf47-d81f-46e3-be01-c839e0398025).
+Sometimes you'll need to use indirect property targeting in order to target a sub-property of another object that's the value of a property on the target. For example, in order to animate parts of a [PathGeometry](../windows.ui.xaml.media/pathgeometry.md), you need to reference some of the intermediate object-property values, until the last step in the indirect property path is truly a [Point](../windows.foundation/point.md) value. For more info on indirect property targeting and other storyboarded animation concepts, see [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations) or [Property-path syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/property-path-syntax).
 
 A PointAnimation typically has at least one of the [From](pointanimation_from.md), [By](pointanimation_by.md) or [To](pointanimation_to.md) properties set, but never all three.
 + **From only:** The animation progresses from the value specified by the **From** property to the base value of the property being animated.
@@ -50,5 +50,5 @@ The following example shows how to use the PointAnimation to animate the [Center
 [!code-vb[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation_cs)]
 
 ## -see-also
-[Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [XAML animation sample](https://go.microsoft.com/fwlink/p/?linkid=238571), [Timeline](timeline.md), [Point](../windows.foundation/point.md), [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [XAML animation sample](https://go.microsoft.com/fwlink/p/?linkid=238571), [Timeline](timeline.md), [Point](../windows.foundation/point.md), [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md)
 md), [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md)

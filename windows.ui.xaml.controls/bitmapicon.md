@@ -34,7 +34,7 @@ All color info is stripped from the bitmap when the BitmapIcon is rendered. The 
 
 The default font size for an AppBarButton Icon is 20px.
 
-You typically specify a [UriSource](bitmapicon_urisource.md) value that references a bitmap that you've included as part of the app, as a resource or otherwise within the app package. For more info on the **ms-appx:** scheme and other URI schemes that you can use to reference resources in your app, see [Uri schemes](https://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af).
+You typically specify a [UriSource](bitmapicon_urisource.md) value that references a bitmap that you've included as part of the app, as a resource or otherwise within the app package. For more info on the **ms-appx:** scheme and other URI schemes that you can use to reference resources in your app, see [Uri schemes](https://docs.microsoft.com/previous-versions/windows/apps/jj655406(v=win.10)).
 
 ### Version history
 

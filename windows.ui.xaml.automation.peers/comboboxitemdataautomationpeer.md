@@ -24,9 +24,9 @@ ComboBoxItemDataAutomationPeer has overrides of **Core** methods such that the a
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.ListItem](automationcontroltype.md).
 + Although [ItemAutomationPeer](itemautomationpeer.md) reported [IVirtualizedItemProvider](../windows.ui.xaml.automation.provider/ivirtualizeditemprovider.md) support, ComboBoxItemDataAutomationPeer re-implements this to call [ScrollIntoView](comboboxitemdataautomationpeer_scrollintoview_1265805467.md).
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 
 ## -see-also
-[SelectorItemAutomationPeer](selectoritemautomationpeer.md), [ComboBoxAutomationPeer](comboboxautomationpeer.md), [IVirtualizedItemProvider](../windows.ui.xaml.automation.provider/ivirtualizeditemprovider.md), [ISelectionItemProvider](../windows.ui.xaml.automation.provider/iselectionitemprovider.md), [IScrollItemProvider](../windows.ui.xaml.automation.provider/iscrollitemprovider.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[SelectorItemAutomationPeer](selectoritemautomationpeer.md), [ComboBoxAutomationPeer](comboboxautomationpeer.md), [IVirtualizedItemProvider](../windows.ui.xaml.automation.provider/ivirtualizeditemprovider.md), [ISelectionItemProvider](../windows.ui.xaml.automation.provider/iselectionitemprovider.md), [IScrollItemProvider](../windows.ui.xaml.automation.provider/iscrollitemprovider.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

@@ -27,7 +27,7 @@ Even though the visual elements of a CalendarViewDayItem are rendered directly b
 
 
 
-Use the [Date](calendarviewdayitem_date.md) property to get the date represented by this day item. The time portions of this property's [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx) value are ignored. If you compare two dates from a [CalendarView](calendarview.md), be sure to compare only the **Date** portion of the [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx) value.
+Use the [Date](calendarviewdayitem_date.md) property to get the date represented by this day item. The time portions of this property's [DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN) value are ignored. If you compare two dates from a [CalendarView](calendarview.md), be sure to compare only the **Date** portion of the [DateTime](https://docs.microsoft.com/dotnet/api/system.datetime?redirectedfrom=MSDN) value.
 
 Use the [IsBlackout](calendarviewdayitem_isblackout.md) property to get or set a value that indicates whether the date is unavailable.
 
@@ -39,4 +39,4 @@ Call the [SetDensityColors](calendarviewdayitem_setdensitycolors_669941734.md) m
 ## -examples
 
 ## -see-also
-[Control](control.md), [CalendarView](calendarview.md), [CalendarView.CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md), [CalendarDatePicker.CalendarViewDayItemChanging](calendardatepicker_calendarviewdayitemchanging.md), [CalendarViewDayItem styles and templates](https://msdn.microsoft.com/library/9fac8c72-02da-44d6-a5be-7b67be5540c3)
+[Control](control.md), [CalendarView](calendarview.md), [CalendarView.CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md), [CalendarDatePicker.CalendarViewDayItemChanging](calendardatepicker_calendarviewdayitemchanging.md), [CalendarViewDayItem styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)

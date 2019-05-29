@@ -14,7 +14,7 @@ public interface IDirect3DDevice : Windows.Foundation.IClosable
 This represents an [IDXGIDevice](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice), and can be used to interop between Windows Runtime components that need to exchange **IDXGIDevice** references.
 
 ## -remarks
-To move back and forth between IDirect3DDevice and [IDXGIDevice](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice), use the [CreateDirect3DDevice](https://msdn.microsoft.com/library/windows/apps/dn895089) and [GetDXGIInterface(IDirect3DDevice^, DXGI_TYPE**)](https://msdn.microsoft.com/library/windows/apps/dn895100) functions.
+To move back and forth between IDirect3DDevice and [IDXGIDevice](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice), use the [CreateDirect3DDevice](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) and [GetDXGIInterface(IDirect3DDevice^, DXGI_TYPE**)](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) functions.
 
 ## -examples
 First include the necessary headers and namespaces.

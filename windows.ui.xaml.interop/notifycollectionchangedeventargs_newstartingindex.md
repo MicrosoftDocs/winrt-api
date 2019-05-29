@@ -16,7 +16,7 @@ Gets the index at which the change occurred.
 The index at which the change occurred.
 
 ## -remarks
-When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://msdn.microsoft.com/library/system.collections.specialized.notifycollectionchangedeventargs.aspx) class.
+When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://docs.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?redirectedfrom=MSDN) class.
 
 NewStartingIndex will contain the following values, depending on the [Action](notifycollectionchangedeventargs_action.md) being reported in the event data. <table>
    <tr><th>Action</th><th>Value</th></tr>

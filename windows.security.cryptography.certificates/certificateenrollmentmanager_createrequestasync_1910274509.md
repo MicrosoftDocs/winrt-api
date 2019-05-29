@@ -24,7 +24,7 @@ Certificate enrollment can be performed in an app container. We recommend that y
 
 
 + [XMLHttpRequest](https://msdn.microsoft.com/library/ms535874(v=vs.85).aspx) (JavaScript)
-+ [HttpWebRequest](https://msdn.microsoft.com/library/system.net.httpwebrequest.aspx) (C#)
++ [HttpWebRequest](https://docs.microsoft.com/dotnet/api/system.net.httpwebrequest?redirectedfrom=MSDN) (C#)
 + [IXMLHTTPRequest](https://msdn.microsoft.com/library/ms759148(v=vs.85).aspx) (C++)
 The [CertificateRequestProperties](certificaterequestproperties.md) object contains the following default values.
 

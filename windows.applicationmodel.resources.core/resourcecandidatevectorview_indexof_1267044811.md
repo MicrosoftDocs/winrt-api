@@ -20,7 +20,7 @@ The [ResourceCandidate](resourcecandidate.md) to find in the set.
 The zero-based index of the [ResourceCandidate](resourcecandidate.md), if the item is found. The method returns zero if the item is not found.
 
 ## -returns
-A [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx) that is **TRUE** if the [ResourceCandidate](resourcecandidate.md) is found, otherwise **FALSE** if the item is not found.
+A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) that is **TRUE** if the [ResourceCandidate](resourcecandidate.md) is found, otherwise **FALSE** if the item is not found.
 
 ## -remarks
 

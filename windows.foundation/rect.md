@@ -63,7 +63,7 @@ You can use a space rather than a comma as the delimiter between values. Mixed d
 
 You must specify all four values. "0,0" is not an implicit default for "x,y", and no other conventions exist that can parse less than 4 components in the string.
 
-A Rect element cannot be declared as a resource in a XAML [ResourceDictionary](../windows.ui.xaml/resourcedictionary.md) because Rect is not a shareable type (for more info see [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)).
+A Rect element cannot be declared as a resource in a XAML [ResourceDictionary](../windows.ui.xaml/resourcedictionary.md) because Rect is not a shareable type (for more info see [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)).
 
 ### Rect values and how they are interpreted by properties
 

@@ -37,9 +37,9 @@ The **CreatePrintTask** method in **PrintTaskRequest** can be used to create the
 
 ```
 
-For more information on this and other printing scenarios, see [Printing](https://msdn.microsoft.com/library/windows/apps/hh465225.aspx) on the Windows Dev Center.
+For more information on this and other printing scenarios, see [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)) on the Windows Dev Center.
 
 ## -examples
 
 ## -see-also
-[Printing](https://msdn.microsoft.com/library/windows/apps/hh465225.aspx)
+[Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10))

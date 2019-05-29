@@ -26,9 +26,9 @@ FlipViewAutomationPeer has overrides of **Core** methods such that the associate
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "FlipView".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.List](automationcontroltype.md).
 + [GetChildren](automationpeer_getchildren_555647254.md) returns peers ([FlipViewItemAutomationPeer](flipviewitemautomationpeer.md) instances) for the item content.
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 
 ## -see-also
-[FlipView](../windows.ui.xaml.controls/flipview.md), [SelectorAutomationPeer](selectorautomationpeer.md), [IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md), [ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[FlipView](../windows.ui.xaml.controls/flipview.md), [SelectorAutomationPeer](selectorautomationpeer.md), [IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md), [ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

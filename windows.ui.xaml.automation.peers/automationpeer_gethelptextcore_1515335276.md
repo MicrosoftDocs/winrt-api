@@ -21,4 +21,4 @@ Specifying a control behavior for help text is uncommon. In most cases, apps tha
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [AutomationProperties.HelpText](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [Accessibility](https://msdn.microsoft.com/library/c89d79c2-b830-493d-b020-f3ff8eb5ffdd)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [AutomationProperties.HelpText](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessibility)

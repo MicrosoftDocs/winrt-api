@@ -31,7 +31,7 @@ The user can enter a single line of non-wrapping text in a PasswordBox control. 
 
 Use the [Password](passwordbox_password.md) property to get or set the content of the PasswordBox. Handle the [PasswordChanged](passwordbox_passwordchanged.md) event to get the [Password](passwordbox_password.md) value while the user enters it.
 
-For more info, see [PasswordBox control guide](https://msdn.microsoft.com/library/4bfdecc6-9bc5-4ff5-8c63-bb36f6ddf2ef).
+For more info, see [PasswordBox control guide](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/password-box).
 
 ### Password reveal mode
 
@@ -41,16 +41,16 @@ Windows 10, version 1607, introduces a new keyboard shortcut for accessibility.
 
 <img src="images/PasswordBox_Revealed.png" alt="A password box with the password shown." />
 
-You can hide the password reveal button, or provide a custom UI to let the user reveal the password. For more info and examples, see [PasswordRevealMode](passwordbox_passwordrevealmode.md) and [PasswordBox control guide](https://msdn.microsoft.com/library/4bfdecc6-9bc5-4ff5-8c63-bb36f6ddf2ef).
+You can hide the password reveal button, or provide a custom UI to let the user reveal the password. For more info and examples, see [PasswordRevealMode](passwordbox_passwordrevealmode.md) and [PasswordBox control guide](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/password-box).
 
 > [!NOTE]
 > Use the [PasswordRevealMode](passwordbox_passwordrevealmode.md) property instead of the [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) property. [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) is deprecated in Windows 10 and any value is ignored.
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
 This table shows the resources used by the PasswordBox control. Resources that start with "TextControl" are shared by [TextBox](textbox.md), PasswordBox, [RichEditBox](richeditbox.md), and [AutoSuggestBox](autosuggestbox.md).
 
@@ -150,4 +150,4 @@ End Sub
 ```
 
 ## -see-also
-[Password box overview](/windows/uwp/design/controls-and-patterns/password-box), [TextBox](textbox.md), [Controls list](https://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee)
+[Password box overview](/windows/uwp/design/controls-and-patterns/password-box), [TextBox](textbox.md), [Controls list](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/)

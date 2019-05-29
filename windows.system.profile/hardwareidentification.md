@@ -13,7 +13,7 @@ public class HardwareIdentification
 Provides the ability to obtain a hardware identifier that represents the current hardware.
 
 ## -remarks
-See [Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](https://msdn.microsoft.com/library/ee93f175-b0ce-42fd-9889-c43cd23eec6c) for more information.
+See [Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](https://docs.microsoft.com/previous-versions/windows/apps/jj553431(v=win.10)) for more information.
 
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
@@ -90,4 +90,4 @@ Dim certificate As Windows.Storage.Streams.IBuffer = packageSpecificToken.Certif
 ```
 
 ## -see-also
-[Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](https://msdn.microsoft.com/library/ee93f175-b0ce-42fd-9889-c43cd23eec6c)
+[Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](https://docs.microsoft.com/previous-versions/windows/apps/jj553431(v=win.10))

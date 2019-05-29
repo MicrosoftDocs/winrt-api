@@ -14,7 +14,7 @@ public Windows.UI.Notifications.TileFlyoutUpdater CreateTileFlyoutUpdaterForAppl
 Creates a new [TileFlyoutUpdater](tileflyoutupdater.md) object for the calling app's tile, for use with a tile flyout (mix view) notification.
 
 ## -returns
-An object that you can use to send notification updates to the calling app's tile flyout, clear the flyout notification, and start and stop [periodic](https://msdn.microsoft.com/library/4615a86a-849f-4d40-9a96-2670a856c468) flyout notifications.
+An object that you can use to send notification updates to the calling app's tile flyout, clear the flyout notification, and start and stop [periodic](https://docs.microsoft.com/previous-versions/windows/apps/jj150587(v=win.10)) flyout notifications.
 
 ## -remarks
 

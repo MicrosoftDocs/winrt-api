@@ -68,4 +68,4 @@ In order to support XAML processor access to the attached properties, and also t
 
 ## -see-also
 
-[Display maps with 2D, 3D, and Streetside views](https://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f), [Control](../windows.ui.xaml.controls/control.md), [MapControl sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MapControl)
+[Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps), [Control](../windows.ui.xaml.controls/control.md), [MapControl sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MapControl)

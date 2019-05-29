@@ -32,4 +32,4 @@ If the device that runs this app supports app data backup, any content placed on
 ## -examples
 
 ## -see-also
-[Quickstart: Local application data (JavaScript)](https://msdn.microsoft.com/library/87dfe8e5-2d01-45cf-bcb1-25f54219a439), [Store and retrieve settings and other app data](https://msdn.microsoft.com/library/41676a02-325a-455e-8565-c9ec0bc3a8fe), [Store and retrieve settings and other app data](https://msdn.microsoft.com/library/41676a02-325a-455e-8565-c9ec0bc3a8fe)
+[Quickstart: Local application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data)

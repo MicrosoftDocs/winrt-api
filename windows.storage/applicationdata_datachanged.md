@@ -85,4 +85,4 @@ End Sub
 ```
 
 ## -see-also
-[Roaming data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data),[Quickstart: Roaming application data (JavaScript)](https://msdn.microsoft.com/library/60f40214-c201-4afe-a2f5-0ef3a7de0076)
+[Roaming data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data),[Quickstart: Roaming application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465123(v=win.10))

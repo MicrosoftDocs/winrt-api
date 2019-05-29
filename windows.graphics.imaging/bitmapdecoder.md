@@ -41,7 +41,7 @@ The BitmapDecoder class implements [IBitmapFrame](ibitmapframe.md). It provides 
 
 ## -examples
 
-Here's a partial example of creating a decoder object. This example assumes you selected a file with [Windows.Storage.Pickers.FileOpenPicker](../windows.storage.pickers/fileopenpicker.md). For full instructions on selecting a file, creating an decoder, and decoding an image see [Imaging](https://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea)
+Here's a partial example of creating a decoder object. This example assumes you selected a file with [Windows.Storage.Pickers.FileOpenPicker](../windows.storage.pickers/fileopenpicker.md). For full instructions on selecting a file, creating an decoder, and decoding an image see [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging)
 
 ```javascript
 file.openAsync(Windows.Storage.FileAccessMode.readWrite).then(function(_stream) {

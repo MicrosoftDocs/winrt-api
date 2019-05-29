@@ -22,7 +22,7 @@ DragEventArgs is used as event data for these events:
 + [UIElement.DragOver](uielement_dragover.md)
 + [UIElement.Drop](uielement_drop.md)
 
-These events are routed events. Changing the value of the [Handled](drageventargs_handled.md) property of DragEventArgs from an event handler can influence how a routed event behaves. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+These events are routed events. Changing the value of the [Handled](drageventargs_handled.md) property of DragEventArgs from an event handler can influence how a routed event behaves. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 The [Control](../windows.ui.xaml.controls/control.md) class has pre-wired event handlers that [Control](../windows.ui.xaml.controls/control.md) derived types can override to provide class-based handling for the drag-drop events, and these methods also use DragEventArgs as a parameter. These methods are:
 

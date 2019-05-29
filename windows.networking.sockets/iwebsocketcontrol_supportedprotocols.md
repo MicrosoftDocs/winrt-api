@@ -23,4 +23,4 @@ An attempt to add a sub-protocol to this collection after a successful call to [
 ## -examples
 
 ## -see-also
-[IWebSocket](iwebsocket.md), [IWebSocketInformation.Protocol](iwebsocketinformation_protocol.md), [How to use advanced WebSocket controls](https://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39)
+[IWebSocket](iwebsocket.md), [IWebSocketInformation.Protocol](iwebsocketinformation_protocol.md), [How to use advanced WebSocket controls](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10))

@@ -23,7 +23,7 @@ Gets or sets the text contents of the [Run](run.md).
 
 
 ## -property-value
-A string that specifies the text contents of the [Run](run.md). The default is [String.Empty](https://msdn.microsoft.com/library/system.string.empty.aspx).
+A string that specifies the text contents of the [Run](run.md). The default is [String.Empty](https://docs.microsoft.com/dotnet/api/system.string.empty?redirectedfrom=MSDN).
 
 ## -remarks
 

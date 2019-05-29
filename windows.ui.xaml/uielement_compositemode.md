@@ -32,4 +32,4 @@ Setting a value of **MinBlend** is typically most relevant for a [SwapChainPanel
 ## -examples
 
 ## -see-also
-[SwapChainBackgroundPanel](../windows.ui.xaml.controls/swapchainbackgroundpanel.md), [DirectX and XAML interop](https://msdn.microsoft.com/library/17987eea-6771-423c-9b68-6b9aeadc7b7f)
+[SwapChainBackgroundPanel](../windows.ui.xaml.controls/swapchainbackgroundpanel.md), [DirectX and XAML interop](https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10))

@@ -21,9 +21,9 @@ Speech recognizer pauses and suspends further processing of speech input when a 
 
 
 ## -remarks
-To use web-service constraints, speech input and dictation support must be enabled in **Settings** by turning on the "Get to know me" option in the Settings -> Privacy -> Speech, inking, and typing page. See "Recognize speech input" in [Speech recognition](https://msdn.microsoft.com/library/553c0fb7-35bc-4894-9ef1-906139e17552).
+To use web-service constraints, speech input and dictation support must be enabled in **Settings** by turning on the "Get to know me" option in the Settings -> Privacy -> Speech, inking, and typing page. See "Recognize speech input" in [Speech recognition](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-recognition).
 
 ## -examples
 
 ## -see-also
-[Windows.Media.SpeechRecognition](windows_media_speechrecognition.md), [Speech interactions](https://msdn.microsoft.com/library/646db3ce-fa81-4727-8c21-936c81079439), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Windows.Media.SpeechRecognition](windows_media_speechrecognition.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)

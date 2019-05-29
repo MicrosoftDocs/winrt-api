@@ -10,7 +10,7 @@ public class DependencyProperty : Windows.UI.Xaml.IDependencyProperty
 # Windows.UI.Xaml.DependencyProperty
 
 ## -description
-Represents a dependency property that is registered with the dependency property system. Dependency properties provide support for value expressions, data binding, animation, and property change notification. For more info on how DependencyProperty values serve as identifiers for dependency properties, see [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+Represents a dependency property that is registered with the dependency property system. Dependency properties provide support for value expressions, data binding, animation, and property change notification. For more info on how DependencyProperty values serve as identifiers for dependency properties, see [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview).
 
 ## -xaml-syntax
 ```xaml
@@ -19,23 +19,23 @@ See Remarks
 
 
 ## -remarks
-Dependency property concepts are covered in detail in the topic [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+Dependency property concepts are covered in detail in the topic [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview).
 
 Instances of DependencyProperty are often referenced in the documentation as dependency property identifiers. The identifiers provide a way to refer to a dependency property that was registered to a particular [DependencyObject](dependencyobject.md) owner type. When the owner type registers the property, the owner type exposes the DependencyProperty instance as the identifier, which is a static member of the owner class.
 
-The owner [DependencyObject](dependencyobject.md) provides the property store for the dependency property. When working with a dependency property in code, you might use a DependencyProperty identifiers as input for calls to property system methods such as [SetValue](dependencyobject_setvalue_52578133.md). However, in most cases, getting or setting a dependency property is simpler by getting or setting the *wrapper*; this concept is explained in [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+The owner [DependencyObject](dependencyobject.md) provides the property store for the dependency property. When working with a dependency property in code, you might use a DependencyProperty identifiers as input for calls to property system methods such as [SetValue](dependencyobject_setvalue_52578133.md). However, in most cases, getting or setting a dependency property is simpler by getting or setting the *wrapper*; this concept is explained in [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview).
 
 DependencyProperty supports a native conversion for XAML attribute syntax for filling values, which is used when a [Setter](setter.md) specifies its [Property](setter_property.md) value. This conversion uses an *ownerTypeName***.***propertyName* form for the input string.
 
 > [!NOTE]
-> A related syntax that can also be used to specify a property by name and is required by certain data and animation API is the *property path syntax*. A property path can be used to reference the structure of a class that has properties and the value of that property. For more info, see [Property-path syntax](https://msdn.microsoft.com/library/ff3ecf47-d81f-46e3-be01-c839e0398025).
+> A related syntax that can also be used to specify a property by name and is required by certain data and animation API is the *property path syntax*. A property path can be used to reference the structure of a class that has properties and the value of that property. For more info, see [Property-path syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/property-path-syntax).
 
 
 
 > [!TIP]
-> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://msdn.microsoft.com/library/system.type.aspx). When programming using C#, it is common to use the **typeof** operator to get references to the [System.Type](https://msdn.microsoft.com/library/system.type.aspx) of a type. In Microsoft Visual Basic, use **GetType**. If you're using Visual C++ component extensions (C++/CX)), where you'll need to create a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct, you can use the [typeid component extension](https://msdn.microsoft.com/library/kwd9abya.aspx).
+> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN). When programming using C#, it is common to use the **typeof** operator to get references to the [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) of a type. In Microsoft Visual Basic, use **GetType**. If you're using Visual C++ component extensions (C++/CX)), where you'll need to create a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct, you can use the [typeid component extension](https://docs.microsoft.com/cpp/windows/typeid-cpp-component-extensions).
 
-The Windows Runtime implements the XAML attached property language feature with DependencyProperty identifiers and property storage on a [DependencyObject](dependencyobject.md). For more info, see [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2).
+The Windows Runtime implements the XAML attached property language feature with DependencyProperty identifiers and property storage on a [DependencyObject](dependencyobject.md). For more info, see [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview).
 
 ### Custom dependency properties
 
@@ -70,15 +70,15 @@ There are several methods that are utility methods for the Windows Runtime prope
 
 
 ## -examples
-This example shows a basic usage where a DependencyProperty is established as a public static member of a class. This is done by calling [Register](dependencyproperty_register_1826645607.md) and storing the return value as a member of the class. For more examples, see [Custom dependency properties](https://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8).
+This example shows a basic usage where a DependencyProperty is established as a public static member of a class. This is done by calling [Register](dependencyproperty_register_1826645607.md) and storing the return value as a member of the class. For more examples, see [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties).
 
 
 
 [!code-csharp[DOSimpleDP](../windows.ui.xaml/code/DOandDP/csharp/Class1.cs#SnippetDOSimpleDP)]
 
 [!code-vb[DOSimpleDP](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOSimpleDP)]
-> A Visual C++ component extensions (C++/CX) example isn't shown here because it must be factored completely differently than the Microsoft .NET examples, and involves several different code files. See examples in [Custom dependency properties](https://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8).
+> A Visual C++ component extensions (C++/CX) example isn't shown here because it must be factored completely differently than the Microsoft .NET examples, and involves several different code files. See examples in [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties).
 
 ## -see-also
-[Custom dependency properties](https://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e), [Custom attached properties](https://msdn.microsoft.com/library/e9c0c57e-6098-4875-aa3e-9d7b36e160e0), [XAML user and custom controls sample](https://go.microsoft.com/fwlink/p/?linkid=238581)
+[Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview), [Custom attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-attached-properties), [XAML user and custom controls sample](https://go.microsoft.com/fwlink/p/?linkid=238581)
 soft.com/fwlink/p/?linkid=238581)

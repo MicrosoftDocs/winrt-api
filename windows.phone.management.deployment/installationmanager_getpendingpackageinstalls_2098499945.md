@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IIterable<Windows.Foundation.IAsyncOperati
 Returns all of the app installations currently in progress.
 
 ## -returns
-A list of the app installations currently in progress. The list contains the [PackageInstallResult](packageinstallresult.md) (pending) for each installation, which are wrapped by the async operation class ([IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md)). See [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e) for more info on how to get progress info.
+A list of the app installations currently in progress. The list contains the [PackageInstallResult](packageinstallresult.md) (pending) for each installation, which are wrapped by the async operation class ([IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md)). See [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps) for more info on how to get progress info.
 
 ## -remarks
 

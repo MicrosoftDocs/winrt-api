@@ -27,4 +27,4 @@ Generally, you can conceive of the object tree of a UWP app using C++, C#, or Vi
 ## -examples
 
 ## -see-also
-[Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079), [XAML overview](https://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823), [VisualTreeHelper.GetParent](../windows.ui.xaml.media/visualtreehelper_getparent_1152000793.md)
+[Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml), [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview), [VisualTreeHelper.GetParent](../windows.ui.xaml.media/visualtreehelper_getparent_1152000793.md)

@@ -16,7 +16,7 @@ Identifies the [AutomationProperties.AcceleratorKey](/uwp/api/windows.ui.xaml.au
 The identifier for the [AutomationProperties.AcceleratorKey](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property.
 
 ## -remarks
-Shortcut key combinations invoke an action. For example, CTRL+O is often used to invoke the Open file common dialog box. An automation element that has the [AcceleratorKey](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) property can implement the [Invoke](https://msdn.microsoft.com/library/windows/desktop/ms221479) control pattern for the action that is equivalent to the shortcut command.
+Shortcut key combinations invoke an action. For example, CTRL+O is often used to invoke the Open file common dialog box. An automation element that has the [AcceleratorKey](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) property can implement the [Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) control pattern for the action that is equivalent to the shortcut command.
 
 ## -examples
 

@@ -11,8 +11,8 @@ The Windows.Devices.Usb defines Windows Runtime classes that a UWP app can use t
 
 <table>
    <tr><th>Resources</th><th>Description</th></tr>
-   <tr><td>[Writing apps for USB devices (UWP apps using C#/VB/C++)](https://msdn.microsoft.com/library/d009ddf2-def6-4c57-a5c7-12b844931631)</td><td>A brief overview about how to use these APIs.</td></tr>
-   <tr><td>[Talking to USB devices, start to finish (UWP app)](https://msdn.microsoft.com/library/dn312121)</td><td>Step-by-step instructions about using these APIs to perform common tasks for communicating with a USB device.</td></tr>
+   <tr><td>[Writing apps for USB devices (UWP apps using C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/dn263144(v=win.10))</td><td>A brief overview about how to use these APIs.</td></tr>
+   <tr><td>[Talking to USB devices, start to finish (UWP app)](https://docs.microsoft.com/windows-hardware/drivers/usbcon/)</td><td>Step-by-step instructions about using these APIs to perform common tasks for communicating with a USB device.</td></tr>
    <tr><td>Samples</td><td><ul><li>[Custom USB device access sample](https://go.microsoft.com/fwlink/p/?LinkID=309716)</li><li>[USB CDC Control sample](https://go.microsoft.com/fwlink/p/?LinkID=309716)</li><li>[Firmware Update USB Device sample](https://go.microsoft.com/fwlink/p/?LinkID=309716)</li></ul></td></tr>
 </table>
 

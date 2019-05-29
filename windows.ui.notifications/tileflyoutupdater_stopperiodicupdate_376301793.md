@@ -11,7 +11,7 @@ public void StopPeriodicUpdate()
 # Windows.UI.Notifications.TileFlyoutUpdater.StopPeriodicUpdate
 
 ## -description
-Cancels the current series of [periodic](https://msdn.microsoft.com/library/4615a86a-849f-4d40-9a96-2670a856c468) tile flyout (mix view) notification updates for the primary or secondary tile associated with the updater.
+Cancels the current series of [periodic](https://docs.microsoft.com/previous-versions/windows/apps/jj150587(v=win.10)) tile flyout (mix view) notification updates for the primary or secondary tile associated with the updater.
 
 ## -remarks
 

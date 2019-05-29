@@ -23,6 +23,6 @@ Event data for the event.
 
 ## -see-also
 
-[UIElement.CharacterReceived](../windows.ui.xaml/uielement_characterreceived.md), [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832)
+[UIElement.CharacterReceived](../windows.ui.xaml/uielement_characterreceived.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)
 
 ## -examples

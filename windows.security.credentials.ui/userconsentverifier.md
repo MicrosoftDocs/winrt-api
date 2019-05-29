@@ -27,4 +27,4 @@ The following example shows a method that requests fingerprint verification and 
 
 ## -see-also
 
-[Fingerprint biometrics](https://msdn.microsoft.com/library/55483729-5f8a-401a-8072-3cd611ddfed2), [UserConsentVerifier sample](https://go.microsoft.com/fwlink/p/?LinkID=303650), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](https://msdn.microsoft.com/library/53e36ddc-200a-4850-aaf0-07eca3662bb9), [UserConsentVerifier sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620615)
+[Fingerprint biometrics](https://docs.microsoft.com/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://go.microsoft.com/fwlink/p/?LinkID=303650), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity), [UserConsentVerifier sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620615)

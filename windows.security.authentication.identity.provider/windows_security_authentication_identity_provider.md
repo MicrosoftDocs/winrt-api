@@ -17,4 +17,4 @@ A companion device is a device that cannot act as a standalone authenticator but
 ## -examples
 
 ## -see-also
-[Windows Unlock with companion (IoT) devices](https://msdn.microsoft.com/windows/uwp/security/companion-device-unlock)
+[Windows Unlock with companion (IoT) devices](https://docs.microsoft.com/windows/uwp/security/companion-device-unlock)

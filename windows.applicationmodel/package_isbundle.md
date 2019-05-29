@@ -13,7 +13,7 @@ public bool IsBundle { get; }
 Indicates whether the package is a bundle package.
 
 ## -property-value
-A [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx) value that indicates whether the package is a bundle package. **TRUE** indicates that the package is a bundle package; otherwise **FALSE**.
+A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value that indicates whether the package is a bundle package. **TRUE** indicates that the package is a bundle package; otherwise **FALSE**.
 
 ## -remarks
 

@@ -25,4 +25,4 @@ This method is a utility method for the property system, and isn't used in most 
 ## -examples
 
 ## -see-also
-[MediaTransportControlsHelper.DropoutOrder](/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper#xaml-attached-properties), [Attached properties overview](https://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
+[MediaTransportControlsHelper.DropoutOrder](/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper#xaml-attached-properties), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)

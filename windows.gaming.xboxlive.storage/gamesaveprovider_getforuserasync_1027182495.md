@@ -22,7 +22,7 @@ User who the game saves are for.
 
 ### -param serviceConfigId
 
-Type: **String** \[JavaScript\] | [System.String](https://msdn.microsoft.com/library/system.string.aspx) \[.NET\] | [Platform::String](https://msdn.microsoft.com/library/windows/apps/hh755812.aspx) \[C++\]
+Type: **String** \[JavaScript\] | [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) \[.NET\] | [Platform::String](https://docs.microsoft.com/cpp/cppcx/platform-string-class) \[C++\]
 
 The service configuration ID (SCID) used by your game.
 

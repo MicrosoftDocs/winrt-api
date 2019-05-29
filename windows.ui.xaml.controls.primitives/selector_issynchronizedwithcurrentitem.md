@@ -24,10 +24,10 @@ Gets or sets a value that indicates whether a [Selector](selector.md) should kee
 **true** if the [SelectedItem](selector_selecteditem.md) is always synchronized with the current item in the [ItemCollection](../windows.ui.xaml.controls/itemcollection.md); **false** if the [SelectedItem](selector_selecteditem.md) is never synchronized with the current item; **null** if the [SelectedItem](selector_selecteditem.md) is synchronized with the current item only if the [Selector](selector.md) uses an [ICollectionView](../windows.ui.xaml.data/icollectionview.md). The default value is **null**/indeterminate.
 
 <!--Projection dochack:-->
-If you are programming using C#or Microsoft Visual Basic, the type of this property is projected as **bool?**(a nullable [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx)).
+If you are programming using C#or Microsoft Visual Basic, the type of this property is projected as **bool?**(a nullable [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)).
 
 ## -remarks
-The nullable value for IsSynchronizedWithCurrentItem enables the value to be indeterminate, neither **true** nor **false**. This is indicated by a value of **null** if accessed in code. To set the value to **null** in XAML, use the [{x:Null} markup extension](https://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037).
+The nullable value for IsSynchronizedWithCurrentItem enables the value to be indeterminate, neither **true** nor **false**. This is indicated by a value of **null** if accessed in code. To set the value to **null** in XAML, use the [{x:Null} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/x-null-markup-extension).
 
 ### Selection behavior and CollectionViewSource
 
@@ -36,4 +36,4 @@ List controls that derive from [Selector](selector.md) have a default selection 
 ## -examples
 
 ## -see-also
-[Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1), [{x:Null} markup extension](https://msdn.microsoft.com/library/e6a4038e-4ada-4e82-9824-582fc16ab037)
+[Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1), [{x:Null} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/x-null-markup-extension)

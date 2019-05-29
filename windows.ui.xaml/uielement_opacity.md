@@ -24,7 +24,7 @@ A value between 0 and 1.0 that declares the opacity factor, with 1.0 meaning ful
 ## -remarks
 When Opacity is set on objects that are nested, the effective opacity for rendering is the product of all applicable opacity factors. For example, if an object that has `Opacity=0.5` is contained in a [Canvas](../windows.ui.xaml.controls/canvas.md) that is also `Opacity=0.5`, the effective Opacity value for rendering is `0.25`. Opacity values greater than 1.0 are treated as 1.0 when the value is used, although obtaining the property value will still give you the original greater-than-one value. Opacity values set as less than 0 are treated as 0 when the value is used. In the factoring logic, setting an Opacity to 2 to cancel out the effects of being contained by an object with 0.5 Opacity does not work; the 2 value is treated as 1.0 even before the nested-object factoring is calculated.
 
-Opacity is a property that's sometimes animated in visual state storyboards, with zero duration. For example, the focus rectangle for "FocusStates" visual states is set with `Opacity="0"` in the original control template, because you don't want this rectangle to appear in a default non-focused states. But the visual states define a zero-duration "Focused" state that sets Opacity to 1 when the control using these templates and states has detected that it's keyboard-focused. For more info on this usage of Opacity, see [Storyboarded animations for visual states](https://msdn.microsoft.com/library/5e715281-d247-4e7f-9f88-2af0d88ed5e4).
+Opacity is a property that's sometimes animated in visual state storyboards, with zero duration. For example, the focus rectangle for "FocusStates" visual states is set with `Opacity="0"` in the original control template, because you don't want this rectangle to appear in a default non-focused states. But the visual states define a zero-duration "Focused" state that sets Opacity to 1 when the control using these templates and states has detected that it's keyboard-focused. For more info on this usage of Opacity, see [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10)).
 
 ### Opacity and hit-testing
 
@@ -42,4 +42,4 @@ This example uses a [Storyboard](../windows.ui.xaml.media.animation/storyboard.m
 [!code-vb[Animation_ovw_intro](../windows.ui.xaml/code/animation_ovw_intro/vbnet/Page.xaml.vb#SnippetAnimation_ovw_intro_code)]
 
 ## -see-also
-[Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832)
+[Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)

@@ -15,7 +15,7 @@ Substitutes for **System.Type** such that type information reported by other API
 
 
 > **.NET**
-> This type appears as [System.Type](https://msdn.microsoft.com/library/system.type.aspx).
+> This type appears as [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN).
 
 ## -struct-fields
 
@@ -28,7 +28,7 @@ Basic guidance regarding the origin of the type.
     
 
 ## -remarks
-When programming with .NET, this type is hidden and developers should use the [System.Type](https://msdn.microsoft.com/library/system.type.aspx) type. All Windows Runtime APIs that use a TypeName per the raw IDL signatures will instead use [System.Type](https://msdn.microsoft.com/library/system.type.aspx) values when you use the API with .NET code.
+When programming with .NET, this type is hidden and developers should use the [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) type. All Windows Runtime APIs that use a TypeName per the raw IDL signatures will instead use [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) values when you use the API with .NET code.
 
 ### Projection and members of TypeName
 
@@ -39,4 +39,4 @@ If you are programming with C++ using the Windows Runtime Template Library (WRL)
 ## -examples
 
 ## -see-also
-[System.Type](https://msdn.microsoft.com/library/system.type.aspx), [IXamlType](../windows.ui.xaml.markup/ixamltype.md), [Type System (C++/CX)](https://docs.microsoft.com/cpp/cppcx/type-system-c-cx)
+[System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN), [IXamlType](../windows.ui.xaml.markup/ixamltype.md), [Type System (C++/CX)](https://docs.microsoft.com/cpp/cppcx/type-system-c-cx)

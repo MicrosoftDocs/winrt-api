@@ -14,7 +14,7 @@ Fires when the user selects one of the suggested results that was provided by th
 
 ## -remarks
 > [!NOTE]
-> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for UWP app using C++, C#, or Visual Basic, [WinJS.UI.SearchBox](https://msdn.microsoft.com/library/58f5cea3-a19b-48a8-abcc-17f38d8fa886) for Windows app using JavaScript) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
+> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for UWP app using C++, C#, or Visual Basic, [WinJS.UI.SearchBox](https://docs.microsoft.com/previous-versions/windows/apps/dn301949(v=win.10)) for Windows app using JavaScript) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
 
 If your app participates in the Search contract and displays suggestions for possible results in the search pane, you should register an event handler to respond when this event fires. In your ResultSuggestionChosen event handler, respond by getting the [SearchPaneResultSuggestionChosenEventArgs](searchpaneresultsuggestionchoseneventargs.md).[Tag](searchpaneresultsuggestionchoseneventargs_tag.md) of the chosen result and using it to take the user to the result in your app UI.
 
@@ -64,4 +64,4 @@ Windows.ApplicationModel.Search.SearchPane.getForCurrentView().onresultsuggestio
 
 
 ## -see-also
-[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [Object class](https://msdn.microsoft.com/library/system.object.aspx), [SearchPane class](searchpane.md), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneResultSuggestionChosenEventArgs class](searchpaneresultsuggestionchoseneventargs.md)
+[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [Object class](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), [SearchPane class](searchpane.md), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneResultSuggestionChosenEventArgs class](searchpaneresultsuggestionchoseneventargs.md)

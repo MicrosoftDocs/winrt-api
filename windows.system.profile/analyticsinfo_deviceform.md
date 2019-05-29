@@ -20,4 +20,4 @@ The device form factor.
 ## -examples
 
 ## -see-also
-[DeviceForm](https://msdn.microsoft.com/windows/hardware/commercialize/customize/desktop/unattend/microsoft-windows-deployment-deviceform)
+[DeviceForm](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-deployment-deviceform)

@@ -25,7 +25,7 @@ Call this method from within the [Run](../windows.applicationmodel.background/ib
 
 Get an instance of [AppServiceConnection](../windows.applicationmodel.appservice/appserviceconnection.md) by casting the [TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md)  property of the [IBackgroundTaskInstance](../windows.applicationmodel.background/ibackgroundtaskinstance.md) passed into the **Run** method to an [AppServiceTriggerDetails](../windows.applicationmodel.appservice/appservicetriggerdetails.md)  object and then accessing the [AppServiceConnection](../windows.applicationmodel.appservice/appservicetriggerdetails_appserviceconnection.md) property. 
 
-In order for your background task to receive an [AppServiceTriggerDetails](../windows.applicationmodel.appservice/appservicetriggerdetails.md) object, you must register it as an app service in you app manifest file. For more information, see [Create and consume an app service](https://msdn.microsoft.com/windows/uwp/launch-resume/how-to-create-and-consume-an-app-service).
+In order for your background task to receive an [AppServiceTriggerDetails](../windows.applicationmodel.appservice/appservicetriggerdetails.md) object, you must register it as an app service in you app manifest file. For more information, see [Create and consume an app service](https://docs.microsoft.com/windows/uwp/launch-resume/how-to-create-and-consume-an-app-service).
 
 ## -see-also
 

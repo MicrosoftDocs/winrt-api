@@ -15,7 +15,7 @@ Lets you add and remove folders from a library like Music or Videos and lets you
 
 ## -remarks
 
-You can only access libraries that you have declared capabilities for in your app manifest. To learn more about capabilities see, [App capability declarations](https://msdn.microsoft.com/library/25b18ba5-e584-4537-9f19-bb2c8c52dfe1).
+You can only access libraries that you have declared capabilities for in your app manifest. To learn more about capabilities see, [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
 
 ### Version history
 

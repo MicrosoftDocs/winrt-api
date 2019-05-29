@@ -63,7 +63,7 @@ In addition to the members listed above, there are other members of the base cla
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-This example creates a [MenuFlyout class](https://msdn.microsoft.com/library/windows/apps/dn299030) and uses the [ContextFlyout](https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement.contextflyout) property, a property available to most controls, to show the [MenuFlyout class](https://msdn.microsoft.com/library/windows/apps/dn299030) as a context menu.
+This example creates a [MenuFlyout class](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.MenuFlyout) and uses the [ContextFlyout](https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement.contextflyout) property, a property available to most controls, to show the [MenuFlyout class](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.MenuFlyout) as a context menu.
 
 ```xaml
 <Rectangle Height="100" Width="100">
@@ -93,7 +93,7 @@ private void ChangeColorItem_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-The next example is nearly identical, but instead of using the [ContextFlyout](https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement.contextflyout) property to show the [MenuFlyout class](https://msdn.microsoft.com/library/windows/apps/dn299030) as a context menu, the example uses the [FlyoutBase.ShowAttachedFlyout](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.showattachedflyout) property to show it as a menu.
+The next example is nearly identical, but instead of using the [ContextFlyout](https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement.contextflyout) property to show the [MenuFlyout class](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.MenuFlyout) as a context menu, the example uses the [FlyoutBase.ShowAttachedFlyout](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.showattachedflyout) property to show it as a menu.
 
 ```xaml
 <Rectangle

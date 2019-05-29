@@ -13,7 +13,7 @@ public bool IsCanceledMeeting { get;  set; }
 Gets or sets a value that indicates whether the appointment has been cancelled.
 
 ## -property-value
-A [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx) value that indicates whether the appointment has been cancelled. **TRUE** indicates that the appointment has been cancelled; otherwise **FALSE**.
+A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value that indicates whether the appointment has been cancelled. **TRUE** indicates that the appointment has been cancelled; otherwise **FALSE**.
 
 ## -remarks
 

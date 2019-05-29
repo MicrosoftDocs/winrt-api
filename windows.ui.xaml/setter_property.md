@@ -40,7 +40,7 @@ As noted, you can only use a [Setter](setter.md) to adjust a property through a 
 
 ### Using a Setter for a custom property
 
-For your own custom properties you should declare the property as a dependency property if you want to support styles, as well as for other scenarios such as data binding or animation. If you do so your custom property is also supported for styling on any [Style](style.md) with a [TargetType](style_targettype.md) that references your custom type. For more info, see [Custom dependency properties](https://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8) or [TargetType](style_targettype.md).
+For your own custom properties you should declare the property as a dependency property if you want to support styles, as well as for other scenarios such as data binding or animation. If you do so your custom property is also supported for styling on any [Style](style.md) with a [TargetType](style_targettype.md) that references your custom type. For more info, see [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties) or [TargetType](style_targettype.md).
 
 ## -examples
 This example creates two styles: one for a [TextBlock](../windows.ui.xaml.controls/textblock.md) and one for a [TextBox](../windows.ui.xaml.controls/textbox.md). When setting Property attribute values in XAML, you are specifying the name of the property.

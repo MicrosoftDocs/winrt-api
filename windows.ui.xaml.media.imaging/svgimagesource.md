@@ -14,7 +14,7 @@ Provides a source object for properties that use a Scalable Vector Graphics (SVG
 
 ## -remarks
 SvgImageSource lets you use a SVG source to be displayed using an [ImageBrush](../windows.ui.xaml.media/imagebrush.md) or directly in an [Image](../windows.ui.xaml.controls/image.md) control. SvgImageSource supports secure static mode from the SVG specification and does not support animations or interactions. 
-The Direct2D API supplies the underlying SVG rendering support and for more info on specific SVG element and attribute support, see [SVG Support](https://msdn.microsoft.com/library/windows/desktop/mt790715%28v=vs.85%29.aspx). For more info on formats and how to use Uniform Resource Identifier (URI) to access image source files that come from app resources, see [Image and ImageBrush](https://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf).
+The Direct2D API supplies the underlying SVG rendering support and for more info on specific SVG element and attribute support, see [SVG Support](https://docs.microsoft.com/windows/desktop/Direct2D/svg-support). For more info on formats and how to use Uniform Resource Identifier (URI) to access image source files that come from app resources, see [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes).
 
 The SvgImageSource represents an abstraction so that a SVG source can be set asynchronously but still be referenced in XAML markup as a property value, or in code as an object that doesn't use awaitable syntax. When you create a SvgImageSource
 object in code, it initially has no valid source. You should then set its source using one of these techniques:
@@ -35,7 +35,7 @@ Depending on your intended use case, you can specify the size of a SvgImageSourc
 
 ### Version compatibility
 The SvgImageSource class is not available prior to Windows 10, version 1703. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you 
-will not be able to use SvgImageSource. For more info, see [Version adaptive code](https://msdn.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+will not be able to use SvgImageSource. For more info, see [Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
 
 To avoid exceptions when your app runs on previous versions of Windows 10, do not set this property in XAML or use it without performing a runtime check. This example shows how to use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this class before you use it.
 

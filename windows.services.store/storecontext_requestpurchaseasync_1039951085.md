@@ -36,4 +36,4 @@ The Store ID for an app or add-on is available in [Partner Center](https://partn
 ## -examples
 
 ## -see-also
-[RequestPurchaseAsync(String)](storecontext_requestpurchaseasync_1017170817.md), [Enable in-app purchases of apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/enable-in-app-purchases-of-apps-and-add-ons)
+[RequestPurchaseAsync(String)](storecontext_requestpurchaseasync_1017170817.md), [Enable in-app purchases of apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/enable-in-app-purchases-of-apps-and-add-ons)

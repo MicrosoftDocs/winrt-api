@@ -13,7 +13,7 @@ public bool IsWwanConnectionProfile { get;  set; }
 Indicates whether connection profiles that represent WWAN (mobile) connections are included in query results.
 
 ## -property-value
-A [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx) value that indicates if WWAN (mobile) connections are included.
+A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value that indicates if WWAN (mobile) connections are included.
 
 ## -remarks
 

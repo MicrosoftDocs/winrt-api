@@ -15,7 +15,7 @@ The total size, in bytes, of the game save container and its blobs.
 
 ## -property-value
 
-Type: **Number** \[JavaScript\] | [System.UInt64](https://msdn.microsoft.com/library/system.uint64.aspx) \[.NET\] | **uint64** \[C++\]
+Type: **Number** \[JavaScript\] | [System.UInt64](https://docs.microsoft.com/dotnet/api/system.uint64?redirectedfrom=MSDN) \[.NET\] | **uint64** \[C++\]
 
 Total size, in bytes, of the game save container and its blobs.
 

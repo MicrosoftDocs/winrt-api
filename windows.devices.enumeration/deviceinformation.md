@@ -25,7 +25,7 @@ The [Name](deviceinformation_name.md) property should only be used for display p
 
 [CreateFromIdAsync](deviceinformation_createfromidasync_270724983.md) creates a DeviceInformation object if successful.
 
-The DeviceInformation class provides device information, but more specifically, it provides properties of the device interface, the interface that represents functionality that the device exposes. Multi-function devices may have more than one device interface. The physical object that a user sees as a device, is known as the device container, and has properties such as **Manufacturer** and **ModelID**. For more information about enumerating devices and recovering properties, see [Enumerate devices](https://msdn.microsoft.com/library/4311d293-94f0-4bbd-a22d-f007382b4db8).
+The DeviceInformation class provides device information, but more specifically, it provides properties of the device interface, the interface that represents functionality that the device exposes. Multi-function devices may have more than one device interface. The physical object that a user sees as a device, is known as the device container, and has properties such as **Manufacturer** and **ModelID**. For more information about enumerating devices and recovering properties, see [Enumerate devices](https://docs.microsoft.com/windows/uwp/devices-sensors/enumerate-devices).
 
 ## -examples
 

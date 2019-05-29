@@ -27,14 +27,14 @@ In this example, we customize the following [InkDrawingAttributes](../windows.ui
 + [PenTip](../windows.ui.input.inking/inkdrawingattributes_pentip.md) is set to [PenTipShape.Circle](../windows.ui.input.inking/pentipshape.md);
 + [Size](../windows.ui.input.inking/inkdrawingattributes_size.md) is set to a [Windows.Foundation.Size](../windows.foundation/size.md) of `(strokeWidth, strokeWidth * 20)`.
 + [Color](../windows.ui.input.inking/inkdrawingattributes_color.md) is set to the [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) selected from the palette, or [Colors.Black](../windows.ui/colors.md) by default.
-+ [PenTipTransform](../windows.ui.input.inking/inkdrawingattributes_pentiptransform.md) (through [Matrix3x2.CreateRotation](https://msdn.microsoft.com/library/dn889081.aspx)) is set to rotate the pen tip by 45°.
++ [PenTipTransform](../windows.ui.input.inking/inkdrawingattributes_pentiptransform.md) (through [Matrix3x2.CreateRotation](https://docs.microsoft.com/dotnet/api/system.numerics.matrix3x2.createrotation?redirectedfrom=MSDN#System_Numerics_Matrix3x2_CreateRotation_System_Single_)) is set to rotate the pen tip by 45°.
 
 
 
 
 
 [!code-csharp[CustomCalligraphicPen](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/CalligraphicPen.cs#SnippetCustomCalligraphicPen)]
-1. In markup, we then bind our custom pen class using a [{StaticResource} markup extension](https://msdn.microsoft.com/library/d50349b5-4588-4ebd-9458-75f629ccc395) reference in the [CustomPen](inktoolbarcustompenbutton_custompen.md) attribute of the [InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) element (alternatively, you can instantiate the custom pen and assign it to [InkToolbarCustomPenButton.CustomPen](inktoolbarcustompenbutton_custompen.md) in code).
+1. In markup, we then bind our custom pen class using a [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension) reference in the [CustomPen](inktoolbarcustompenbutton_custompen.md) attribute of the [InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) element (alternatively, you can instantiate the custom pen and assign it to [InkToolbarCustomPenButton.CustomPen](inktoolbarcustompenbutton_custompen.md) in code).
 
 You can use the built-in [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md) (as shown here) or you can specify a custom [InkToolbarPenConfigurationControl](inktoolbarpenconfigurationcontrol.md) definition in the standard [InkToolbar](inktoolbar.md) pen declaration.
 
@@ -52,10 +52,10 @@ Here's the definition of `CalligraphicPenIcon` from the `MainPage.xaml.cs` file 
 [!code-csharp[CustomCalligraphicPenMain](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomPen.xaml.cs#SnippetCustomCalligraphicPenMain)]
 
 ## -see-also
-[Pen and stylus interactions](https://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar), [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [Windows.UI.Xaml.Controls classes](windows_ui_xaml_controls_classes.md), [InkToolbarPenButton](inktoolbarpenbutton.md), [InkToolbarCustomPenButton](inktoolbarcustompenbutton.md), [DependencyObject](../windows.ui.xaml/dependencyobject.md), [Ink sample (JavaScript)](https://go.microsoft.com/fwlink/p/?LinkID=620308), [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample)
+[Pen and stylus interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar), [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [Windows.UI.Xaml.Controls classes](windows_ui_xaml_controls_classes.md), [InkToolbarPenButton](inktoolbarpenbutton.md), [InkToolbarCustomPenButton](inktoolbarcustompenbutton.md), [DependencyObject](../windows.ui.xaml/dependencyobject.md), [Ink sample (JavaScript)](https://go.microsoft.com/fwlink/p/?LinkID=620308), [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample)
 
 <!--
-[Pen and stylus interactions](https://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43)
+[Pen and stylus interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions)
 
 [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar)
 

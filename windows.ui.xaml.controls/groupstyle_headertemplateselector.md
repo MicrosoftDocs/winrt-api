@@ -25,7 +25,7 @@ Gets or sets a reference to a custom [DataTemplateSelector](datatemplateselector
 An object that derives from [DataTemplateSelector](datatemplateselector.md). The default is **null**.
 
 ## -remarks
-For example XAML that references a custom [DataTemplateSelector](datatemplateselector.md) as the HeaderTemplateSelector value, and example code that shows the overrides for HeaderTemplateSelector methods, see [How to group items in a list or grid](https://msdn.microsoft.com/library/b9ed59b9-651c-40c7-a39c-c4db432dc132).
+For example XAML that references a custom [DataTemplateSelector](datatemplateselector.md) as the HeaderTemplateSelector value, and example code that shows the overrides for HeaderTemplateSelector methods, see [How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10)).
 
 ## -examples
 

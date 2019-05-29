@@ -10,7 +10,7 @@ public class MacAlgorithmProvider : Windows.Security.Cryptography.Core.IMacAlgor
 # Windows.Security.Cryptography.Core.MacAlgorithmProvider
 
 ## -description
-Represents a message authentication code (MAC). A MAC uses symmetric key cryptography to prevent message tampering. For more information, see [MACs, hashes, and signatures](https://msdn.microsoft.com/library/e674312f-6678-44c5-91d9-b489f49c4d3c).
+Represents a message authentication code (MAC). A MAC uses symmetric key cryptography to prevent message tampering. For more information, see [MACs, hashes, and signatures](https://docs.microsoft.com/windows/uwp/security/macs-hashes-and-signatures).
 
 ## -remarks
 You create a MacAlgorithmProvider object by calling the static [OpenAlgorithm](macalgorithmprovider_openalgorithm_637226074.md) method and specifying one of the following algorithm names:

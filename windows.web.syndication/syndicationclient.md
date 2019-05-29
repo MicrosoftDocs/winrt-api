@@ -43,10 +43,10 @@ async Task GetFeedAsync(string feedUri){
 
 ```
 
-For additional examples that demonstrate how this class is used to retrieve syndicated content from the web, see [Quickstart: Accessing a web feed](https://msdn.microsoft.com/library/bde79bfb-f566-4dbe-b861-f849ab8bc574).
+For additional examples that demonstrate how this class is used to retrieve syndicated content from the web, see [Quickstart: Accessing a web feed](https://docs.microsoft.com/previous-versions/windows/apps/hh700374(v=win.10)).
 
 ## -examples
 
 ## -see-also
 
-[Quickstart: Accessing a web feed](https://msdn.microsoft.com/library/bde79bfb-f566-4dbe-b861-f849ab8bc574), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062), [Syndication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620610), [RSS reader end-to-end (JavaScript) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620542)
+[Quickstart: Accessing a web feed](https://docs.microsoft.com/previous-versions/windows/apps/hh700374(v=win.10)), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062), [Syndication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620610), [RSS reader end-to-end (JavaScript) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620542)

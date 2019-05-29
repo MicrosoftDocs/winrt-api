@@ -8,7 +8,7 @@ public delegate void PropertyChangedEventHandler(System.Object sender, Windows.U
 # Windows.UI.Xaml.Data.PropertyChangedEventHandler
 
 ## -description
-Represents the method that will handle the [PropertyChanged](inotifypropertychanged_propertychanged.md) event. When programming with Microsoft .NET this delegate is hidden, use the [System.ComponentModel.PropertyChangedEventHandler](https://msdn.microsoft.com/library/system.componentmodel.propertychangedeventhandler.aspx) delegate.
+Represents the method that will handle the [PropertyChanged](inotifypropertychanged_propertychanged.md) event. When programming with Microsoft .NET this delegate is hidden, use the [System.ComponentModel.PropertyChangedEventHandler](https://docs.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler?redirectedfrom=MSDN) delegate.
 
 ## -parameters
 ### -param sender
@@ -19,7 +19,7 @@ Event data.
 
 
 ## -remarks
-When programming with Microsoft .NET, this delegate is hidden. Microsoft .NET Developers should use the [System.ComponentModel.PropertyChangedEventHandler](https://msdn.microsoft.com/library/system.componentmodel.propertychangedeventhandler.aspx) delegate.
+When programming with Microsoft .NET, this delegate is hidden. Microsoft .NET Developers should use the [System.ComponentModel.PropertyChangedEventHandler](https://docs.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler?redirectedfrom=MSDN) delegate.
 
 ## -examples
 This example demonstrates how to implement the [INotifyPropertyChanged](inotifypropertychanged.md) interface and use PropertyChangedEventHandler. For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
@@ -76,4 +76,4 @@ namespace DataBinding
 
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

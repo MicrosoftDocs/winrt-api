@@ -26,4 +26,4 @@ If the **ErrorCode** property of the exception has the value 0x80070578 (ERROR_I
 ## -examples
 
 ## -see-also
-[RequestPurchaseAsync(StorePurchaseProperties)](storeproduct_requestpurchaseasync_1703896342.md), [Enable in-app purchases of apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/enable-in-app-purchases-of-apps-and-add-ons)
+[RequestPurchaseAsync(StorePurchaseProperties)](storeproduct_requestpurchaseasync_1703896342.md), [Enable in-app purchases of apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/enable-in-app-purchases-of-apps-and-add-ons)

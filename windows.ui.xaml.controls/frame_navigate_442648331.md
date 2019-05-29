@@ -14,7 +14,7 @@ Causes the [Frame](frame.md) to load content represented by the specified [Page]
 
 ## -parameters
 ### -param sourcePageType
-The page to navigate to, specified as a type reference to its partial class type. (A type reference is given as [System.Type](https://msdn.microsoft.com/library/system.type.aspx) for Microsoft .NET, or a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The page to navigate to, specified as a type reference to its partial class type. (A type reference is given as [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, or a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ## -returns
 **false** if a [NavigationFailed](frame_navigationfailed.md) event handler has set [Handled](../windows.ui.xaml.navigation/navigationfailedeventargs_handled.md) to **true**; otherwise, **true**. See Remarks for more info.
@@ -27,9 +27,9 @@ Apps typically use [GetNavigationState](frame_getnavigationstate_1352043812.md) 
 The parameter value can have a complex type if you do not use [GetNavigationState](frame_getnavigationstate_1352043812.md). However, you should still use only basic types in order to avoid excess memory usage caused by the frame’s navigation stack holding a reference to the parameter. A preferred approach is to not pass the actual object, but instead pass an identifier that you can use to look up the object in the target landing page. For example, instead of passing a `Customer` object, pass a reference to the `CustomerID`, then look up the `Customer` after the navigation is complete.
 
 > [!TIP]
-> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://msdn.microsoft.com/library/system.type.aspx). When programming using C#, it is common to use the **typeof** operator to get references to the [System.Type](https://msdn.microsoft.com/library/system.type.aspx) of a type. In Microsoft Visual Basic, use **GetType**. If you're using Visual C++ component extensions (C++/CX), where you'll need to create a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct, you can use the [typeid component extension](https://msdn.microsoft.com/library/kwd9abya.aspx).
+> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN). When programming using C#, it is common to use the **typeof** operator to get references to the [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) of a type. In Microsoft Visual Basic, use **GetType**. If you're using Visual C++ component extensions (C++/CX), where you'll need to create a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct, you can use the [typeid component extension](https://docs.microsoft.com/cpp/windows/typeid-cpp-component-extensions).
 
 ## -examples
 
 ## -see-also
-[Page](page.md), [Navigate(Type, Object)](frame_navigate_1603787821.md), [NavigationFailed](frame_navigationfailed.md), [Navigation](https://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Page](page.md), [Navigate(Type, Object)](frame_navigate_1603787821.md), [NavigationFailed](frame_navigationfailed.md), [Navigation](https://docs.microsoft.com/windows/uwp/layout/navigation-basics), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)

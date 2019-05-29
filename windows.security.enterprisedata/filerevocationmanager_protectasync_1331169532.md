@@ -48,4 +48,4 @@ The ProtectAsync method requires exclusive access to the file or folder being en
 ## -examples
 
 ## -see-also
-[FileRevocationManager sample](https://go.microsoft.com/fwlink/p/?LinkID=299023), [How to protect files with Selective Wipe  (C#/VB/C++)](https://msdn.microsoft.com/library/a1afb4fb-6731-461a-8dd2-51eec5e880a1), [How to protect files with Selective Wipe (JavaScript)](https://msdn.microsoft.com/library/5b8652eb-6462-4bf1-b5b7-4a37957c605f)
+[FileRevocationManager sample](https://go.microsoft.com/fwlink/p/?LinkID=299023), [How to protect files with Selective Wipe  (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/dn456782(v=win.10)), [How to protect files with Selective Wipe (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/dn456781(v=win.10))

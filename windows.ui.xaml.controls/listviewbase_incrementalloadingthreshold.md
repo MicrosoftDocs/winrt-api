@@ -29,4 +29,4 @@ IncrementalLoadingThreshold and [DataFetchSize](listviewbase_datafetchsize.md) b
 ## -examples
 
 ## -see-also
-[DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingTrigger](incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md), [Using virtualization with a list or grid](https://msdn.microsoft.com/library/c6f8727a-2a3a-4f0d-9a5a-82780994839f)
+[DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingTrigger](incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md), [Using virtualization with a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780657(v=win.10))

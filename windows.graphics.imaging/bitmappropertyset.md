@@ -22,4 +22,4 @@ For JavaScript, BitmapPropertySet supports using an index to access items.
 ## -examples
 
 ## -see-also
-[BitmapTypedValue](bitmaptypedvalue.md), [Image Metadata](https://msdn.microsoft.com/library/d5d98044-7221-4c2a-9724-56e59f341ab0), [Image Metadata](https://msdn.microsoft.com/library/d5d98044-7221-4c2a-9724-56e59f341ab0)
+[BitmapTypedValue](bitmaptypedvalue.md), [Image Metadata](https://docs.microsoft.com/windows/uwp/audio-video-camera/image-metadata), [Image Metadata](https://docs.microsoft.com/windows/uwp/audio-video-camera/image-metadata)

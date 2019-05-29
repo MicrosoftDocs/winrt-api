@@ -19,7 +19,7 @@ Use the [IsPlaying](bitmapimage_isplaying.md) property along with the [Play](bit
 
 ### Compatibility notes
 
-If your app runs on releases of Windows 10 prior to version 1607, you must use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this method before you use it. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](https://msdn.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+If your app runs on releases of Windows 10 prior to version 1607, you must use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this method before you use it. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
 
 ## -examples
 Here's how to use the [ApiInformation.IsMethodPresent](../windows.foundation.metadata/apiinformation_ismethodpresent_1062983651.md) to check for the presence of the Stop method before you call it.

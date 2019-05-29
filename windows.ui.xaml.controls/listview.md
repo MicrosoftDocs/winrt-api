@@ -39,7 +39,7 @@ By default, a data item is displayed in the ListView as the string representatio
 > [!NOTE]
 > If you populate the ListView by setting the [ItemsSource](itemscontrol_itemssource.md) property, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item. If you populate the [Items](itemscontrol_items.md) collection directly, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied only if the item is not a [ListViewItem](listviewitem.md). See Examples for more info.
 
-If you use the ListView to display large sets of data, see [Optimize ListView and GridView](https://msdn.microsoft.com/library/26df15e8-2c05-4174-a714-7df2e8273d32) for tips to maintain a smooth and responsive user experience.
+If you use the ListView to display large sets of data, see [Optimize ListView and GridView](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-gridview-and-listview) for tips to maintain a smooth and responsive user experience.
 
 > <div id="main">
 > <strong>Windows 10, version 1709 (SDK 16299) - Behavior change</strong>
@@ -65,7 +65,7 @@ This table shows the ways a user can interact with a ListView, and how you can r
 ListView supports data virtualization to improve performance with large data sets. Random access virtualization is supported when the data source implements the appropriate interfaces, which vary depending on the programming language:
 
 + Visual C++ component extensions (C++/CX) apps should implement [IObservableVector](../windows.foundation.collections/iobservablevector_1.md).
-+ C# or Visual Basic apps should implement [INotifyCollectionChanged](https://msdn.microsoft.com/library/system.collections.specialized.inotifycollectionchanged.aspx) and [System.Collections.IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) (not [IList<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1)). Virtualization requires both of these interfaces.
++ C# or Visual Basic apps should implement [INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?redirectedfrom=MSDN) and [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) (not [IList<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1)). Virtualization requires both of these interfaces.
  Incremental loading virtualization is supported when the data source implements the [ISupportIncrementalLoading](../windows.ui.xaml.data/isupportincrementalloading.md) interface. When incremental loading is supported, you can use these members to control data loading: [DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md).
 
 > **Windows 8**
@@ -111,4 +111,4 @@ In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a ListView 
 
 ## -see-also
 
-[Lists overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/lists), [ListViewBase](listviewbase.md), [ListView styles and templates](https://msdn.microsoft.com/library/f5fba473-bc71-40ec-8df1-ea977c6938ed), [Item templates for ListView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-templates-listview), [Data binding overview](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-quickstart), [RSS reader end-to-end (JavaScript) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620542), [ListView and GridView sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619900), [Navigation menu (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619902)
+[Lists overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/lists), [ListViewBase](listviewbase.md), [ListView styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [Item templates for ListView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-templates-listview), [Data binding overview](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-quickstart), [RSS reader end-to-end (JavaScript) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620542), [ListView and GridView sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619900), [Navigation menu (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619902)

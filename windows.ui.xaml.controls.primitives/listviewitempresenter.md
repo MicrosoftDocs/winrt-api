@@ -21,7 +21,7 @@ Represents the visual elements of a [ListViewItem](../windows.ui.xaml.controls/l
 ## -remarks
 The XAML usage shown is intended to be part of a XAML template or style for a [ListView](../windows.ui.xaml.controls/listview.md) control (or derived type) and its items. For more info, see [ListView](../windows.ui.xaml.controls/listview.md).
 
-For a custom ListViewItemPresenter, use the name of your class as the string within the object element syntax for XAML. You'll probably have to map an **xmlns** definition with a prefix to refer to your class definition. For more info, see [XAML namespaces and namespace mapping](https://msdn.microsoft.com/library/a19dff78-e692-47ae-8221-ab5ea9470e8b).
+For a custom ListViewItemPresenter, use the name of your class as the string within the object element syntax for XAML. You'll probably have to map an **xmlns** definition with a prefix to refer to your class definition. For more info, see [XAML namespaces and namespace mapping](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-namespaces-and-namespace-mapping).
 
 ### Version history
 

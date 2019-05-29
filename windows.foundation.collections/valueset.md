@@ -10,7 +10,7 @@ public class ValueSet : Windows.Foundation.Collections.IIterable<Windows.Foundat
 # Windows.Foundation.Collections.ValueSet
 
 ## -description
-Implements a map with keys of type **String** and values of type [Object](https://msdn.microsoft.com/library/system.object.aspx). This class prevents non-serializable types from being put into the map.
+Implements a map with keys of type **String** and values of type [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN). This class prevents non-serializable types from being put into the map.
 
 > [!NOTE]
 > Some members are only available for the specified language.

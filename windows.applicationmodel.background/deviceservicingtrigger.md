@@ -19,7 +19,7 @@ The DeviceServicingTrigger background task allows your UWP app that interacts wi
 
 + More detail on the policy requirements of the DeviceServicingTrigger background task can be found in the  section of this page.
 + For info about using the DeviceServicingTrigger, see [Device sync and update for UWP device apps](https://go.microsoft.com/fwlink/p/?LinkId=306619 ).
-+ For info about using the [DeviceUseTrigger](deviceusetrigger.md), see [Accessing sensors and devices from a background task](https://msdn.microsoft.com/library/ccde8565-8dae-44fc-aded-3a0fee759930).
++ For info about using the [DeviceUseTrigger](deviceusetrigger.md), see [Accessing sensors and devices from a background task](https://docs.microsoft.com/previous-versions/windows/apps/dn630194(v=win.10)).
 > [!IMPORTANT]
 > This trigger cannot be used with single-process background tasks.
 

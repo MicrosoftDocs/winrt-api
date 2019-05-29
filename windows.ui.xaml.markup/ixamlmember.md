@@ -18,4 +18,4 @@ For more info on [IXamlType](ixamltype.md) and IXamlMember and how these are use
 ## -examples
 
 ## -see-also
-[IXamlMetadataProvider](ixamlmetadataprovider.md), [IXamlType](ixamltype.md), [XAML overview](https://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
+[IXamlMetadataProvider](ixamlmetadataprovider.md), [IXamlType](ixamltype.md), [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)

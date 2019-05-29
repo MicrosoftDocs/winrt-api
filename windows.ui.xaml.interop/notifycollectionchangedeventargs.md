@@ -15,10 +15,10 @@ Provides the event data for a [CollectionChanged](inotifycollectionchanged_colle
 
 
 > **.NET**
-> This class appears as [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://msdn.microsoft.com/library/system.collections.specialized.notifycollectionchangedeventargs.aspx).
+> This class appears as [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://docs.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?redirectedfrom=MSDN).
 
 ## -remarks
-When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://msdn.microsoft.com/library/system.collections.specialized.notifycollectionchangedeventargs.aspx) class.
+When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://docs.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?redirectedfrom=MSDN) class.
 
 ## -examples
 

@@ -24,7 +24,7 @@ FlipViewItemDataAutomationPeer has overrides of **Core** methods such that the a
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.ListItem](automationcontroltype.md).
 + Although [ItemAutomationPeer](itemautomationpeer.md) reported [IVirtualizedItemProvider](../windows.ui.xaml.automation.provider/ivirtualizeditemprovider.md) support, the base didn't have a working [Realize](itemautomationpeer_realize_1392015295.md) implementation. [ComboBoxItemDataAutomationPeer](comboboxitemdataautomationpeer.md) implements this to call [ScrollIntoView](flipviewitemdataautomationpeer_scrollintoview_1265805467.md).
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 

@@ -18,7 +18,7 @@ The MDM policy name value.
 ## -remarks
 
 ## -see-also
-[Policy CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider)
+[Policy CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider)
 
 ## -examples
 

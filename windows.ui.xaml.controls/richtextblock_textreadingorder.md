@@ -25,7 +25,7 @@ Gets or sets a value that indicates how the reading order is determined for the 
 A value that indicates how the reading order is determined for the [RichTextBlock](richtextblock.md). The default is **DetectFromContent**.
 
 ## -remarks
-This property can be useful when the base direction of the text is unknown, and may not match the user's language or direction. For more info, see the Remarks section of the [TextReadingOrder](../windows.ui.xaml/textreadingorder.md) enumeration or [How to support bidirectional UI](https://msdn.microsoft.com/library/66f92aff-6f1c-428f-b06f-b2892a8015b7).
+This property can be useful when the base direction of the text is unknown, and may not match the user's language or direction. For more info, see the Remarks section of the [TextReadingOrder](../windows.ui.xaml/textreadingorder.md) enumeration or [How to support bidirectional UI](https://docs.microsoft.com/previous-versions/windows/apps/jj712703(v=win.10)).
 
 > [!NOTE]
 > In Windows 8.1, the default value is **0**, **Default**. Starting with Windows 10, the enumeration value **0** has the constant name **UseFlowDirection**, and is not the default value.
@@ -33,4 +33,4 @@ This property can be useful when the base direction of the text is unknown, and 
 ## -examples
 
 ## -see-also
-[TextReadingOrder](../windows.ui.xaml/textreadingorder.md), [How to support bidirectional UI](https://msdn.microsoft.com/library/66f92aff-6f1c-428f-b06f-b2892a8015b7)
+[TextReadingOrder](../windows.ui.xaml/textreadingorder.md), [How to support bidirectional UI](https://docs.microsoft.com/previous-versions/windows/apps/jj712703(v=win.10))

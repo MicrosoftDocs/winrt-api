@@ -35,9 +35,9 @@ The dimensions of the space between the presenter and its children as a [Thickne
 ## -remarks
 A Padding value applies to presentation rendering of each presented item and also to the header (if one is specified).
 
-A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For [ItemsPresenter](itemspresenter.md) , margin and padding would typically blend together with the division between them not being apparent in the rendering. So it's typical to specify a [Margin](../windows.ui.xaml/frameworkelement_margin.md) or a Padding, but not both. For more info about the relationship between margin and padding, see [Alignment, margin, and padding](https://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842) or [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
+A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For [ItemsPresenter](itemspresenter.md) , margin and padding would typically blend together with the division between them not being apparent in the rendering. So it's typical to specify a [Margin](../windows.ui.xaml/frameworkelement_margin.md) or a Padding, but not both. For more info about the relationship between margin and padding, see [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
 
 ## -examples
 
 ## -see-also
-[Thickness](../windows.ui.xaml/thickness.md), [Alignment, margin, and padding](https://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842), [Adding ListView and GridView controls](https://msdn.microsoft.com/library/ede8164f-ad0f-4249-b5ab-6f46ca65754a)
+[Thickness](../windows.ui.xaml/thickness.md), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding), [Adding ListView and GridView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780618(v=win.10))

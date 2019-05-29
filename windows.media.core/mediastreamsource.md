@@ -19,7 +19,7 @@ MediaStreamSource is a new generic media source for UWP apps which is introduced
 
 The MediaStreamSourceAPI are very similar to the Microsoft SilverlightAPI of the same name.
 
-MediaStreamSource can be used with [audio](https://msdn.microsoft.com/library/windows/apps/hh441227.aspx) and [video](https://msdn.microsoft.com/library/windows/apps/hh465962.aspx) objects in Windows app using JavaScript, [MediaElement](../windows.ui.xaml.controls/mediaelement.md) objects in UWP apps using C++, C#, or Visual Basic, and the [MediaTranscoder](../windows.media.transcoding/mediatranscoder.md).
+MediaStreamSource can be used with [audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) and [video](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) objects in Windows app using JavaScript, [MediaElement](../windows.ui.xaml.controls/mediaelement.md) objects in UWP apps using C++, C#, or Visual Basic, and the [MediaTranscoder](../windows.media.transcoding/mediatranscoder.md).
 
  The [MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021) demonstrates how to use the MediaStreamSource. Here are some of the main MediaStreamSourceAPI. The order outlines the basic flow of how MediaStreamSource functions. You'll notice that the MediaStreamSource sends request objects to the app through event arguments. These request objects enable the app to interact with the MediaStreamSource and pass data back to it.
 

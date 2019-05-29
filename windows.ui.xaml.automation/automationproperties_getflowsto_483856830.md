@@ -20,7 +20,7 @@ The element for which to get the following reading order elements.
 A list of automation elements that suggests the reading order after the automation element specified by the *element* parameter.
 
 ## -remarks
-Get the list, then call the [Add](https://msdn.microsoft.com/library/windows/apps/63ywd54z) method to add a new element.
+Get the list, then call the [Add](https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add?redirectedfrom=MSDN#System_Collections_Generic_ICollection_1_Add__0_) method to add a new element.
 
 > [!Important] > When modifying the flow, be careful not to create a situation where the user gets stuck in a navigation loop that they can't escape if they are only using a keyboard.
 

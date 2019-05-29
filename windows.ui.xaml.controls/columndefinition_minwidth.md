@@ -19,7 +19,7 @@ Gets or sets a value that represents the minimum width of a [ColumnDefinition](c
 
 
 ## -property-value
-A [Double](https://msdn.microsoft.com/library/system.double.aspx) that represents the minimum width in pixels. The default is 0.
+A [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) that represents the minimum width in pixels. The default is 0.
 
 ## -remarks
 

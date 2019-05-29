@@ -23,9 +23,9 @@ ThumbAutomationPeer has overrides of **Core** methods such that the associated [
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "Thumb".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Thumb](automationcontroltype.md).
 + [IsControlElement](automationpeer_iscontrolelement_1004644794.md) returns a value based on the template parent. If there is a template parent then it returns **true**, otherwise the value is **false**.
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 
 ## -see-also
-[Thumb](../windows.ui.xaml.controls.primitives/thumb.md), [Slider](../windows.ui.xaml.controls/slider.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[Thumb](../windows.ui.xaml.controls.primitives/thumb.md), [Slider](../windows.ui.xaml.controls/slider.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

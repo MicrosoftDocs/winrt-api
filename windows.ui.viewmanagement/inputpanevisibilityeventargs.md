@@ -17,7 +17,7 @@ Your app receives this class in its [Hiding](inputpane_hiding.md) and [Showing](
 
 In some cases, overlay UI such as an [InputPane](inputpane.md) is not fully supported. This includes:
 
-+ apps in full-screen mode, like [games](https://msdn.microsoft.com/windows/uwp/gaming/index).
++ apps in full-screen mode, like [games](https://docs.microsoft.com/windows/uwp/gaming/index).
 + Windows Holographic apps in [holographic view](https://developer.microsoft.com/windows/holographic/app_model#app_views).
 
 > [!NOTE]

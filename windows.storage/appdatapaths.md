@@ -10,7 +10,7 @@ public class AppDataPaths
 # Windows.Storage.AppDataPaths
 
 ## -description
-AppDataPaths returns paths to commonly used application folders based on the [KNOWNFOLDERID](https://msdn.microsoft.com/library/windows/desktop/dd378457.aspx) naming pattern. 
+AppDataPaths returns paths to commonly used application folders based on the [KNOWNFOLDERID](https://docs.microsoft.com/windows/desktop/shell/knownfolderid) naming pattern. 
 
 ## -remarks
 This class returns paths that are always isolated per the caller’s context. For example, this will match expectations of cross-platform app developers who might have used “private” versions of documents in the past. There is no legacy COM interop interface for this type.

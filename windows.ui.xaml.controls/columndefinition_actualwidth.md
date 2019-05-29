@@ -13,7 +13,7 @@ public double ActualWidth { get; }
 Gets a value that represents the actual calculated width of a [ColumnDefinition](columndefinition.md).
 
 ## -property-value
-A [Double](https://msdn.microsoft.com/library/system.double.aspx) that represents the actual calculated width in pixels. The default is 0.
+A [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) that represents the actual calculated width in pixels. The default is 0.
 
 ## -remarks
 

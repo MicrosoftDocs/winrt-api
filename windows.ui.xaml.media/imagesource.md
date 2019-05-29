@@ -16,7 +16,7 @@ Provides an object source type for the [Image.Source](../windows.ui.xaml.control
 > [!IMPORTANT]
 > You don't typically use or create an [ImageSource](imagebrush_imagesource.md) type directly, that's why you don't see code examples on this page. It's more common to create a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) and use that as a value. For code examples and more info, see the reference page for [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md).
 
-ImageSource and [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md) are intermediate base classes for [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md). For more info on how to create an image source to use for [Image.Source](../windows.ui.xaml.controls/image_source.md) and [ImageBrush.ImageSource](imagebrush_imagesource.md), see [Image and ImageBrush](https://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf) and [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md).
+ImageSource and [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md) are intermediate base classes for [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md). For more info on how to create an image source to use for [Image.Source](../windows.ui.xaml.controls/image_source.md) and [ImageBrush.ImageSource](imagebrush_imagesource.md), see [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes) and [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md).
 
 The [ImageSource](imagebrush_imagesource.md) type is also the value to use for the [MediaElement.PosterSource](../windows.ui.xaml.controls/mediaelement_postersource.md) property.
 
@@ -27,4 +27,4 @@ ImageSource is the parent class for [BitmapSource](../windows.ui.xaml.media.imag
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md), [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md), [Image.Source](../windows.ui.xaml.controls/image_source.md), [Image and ImageBrush](https://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md), [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md), [Image.Source](../windows.ui.xaml.controls/image_source.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes)

@@ -18,7 +18,7 @@ The new settings for local content suggestions.
 
 ## -remarks
 > [!NOTE]
-> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for UWP app using C++, C#, or Visual Basic, [WinJS.UI.SearchBox](https://msdn.microsoft.com/library/58f5cea3-a19b-48a8-abcc-17f38d8fa886) for Windows app using JavaScript) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
+> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for UWP app using C++, C#, or Visual Basic, [WinJS.UI.SearchBox](https://docs.microsoft.com/previous-versions/windows/apps/dn301949(v=win.10)) for Windows app using JavaScript) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
 
 When local content suggestions are enabled, Windows will provide search suggestions from the user's local files as the user enters query text. For example, a picture application can configure local content suggestions so that search suggestions come only from a particular kind of image file that is stored in the user's picture library.
 
@@ -53,7 +53,7 @@ settings.aqsFilter = "kind:=music";
 Windows.ApplicationModel.Search.SearchPane.getForCurrentView().setLocalContentSuggestionSettings(settings);
 ```
 
-In the example, suggestions are restricted to one kind of file, music files, using an Advanced Query Syntax (AQS) string. Two of the most common Advanced Query Syntax (AQS) filters restrict based on file kind, like "kind:=.music" in the example; and based on file name extension, like "ext:=.mp3". You can learn more about AQS in [Advanced Query Syntax (AQS)](https://msdn.microsoft.com/library/aa965711.aspx).
+In the example, suggestions are restricted to one kind of file, music files, using an Advanced Query Syntax (AQS) string. Two of the most common Advanced Query Syntax (AQS) filters restrict based on file kind, like "kind:=.music" in the example; and based on file name extension, like "ext:=.mp3". You can learn more about AQS in [Advanced Query Syntax (AQS)](https://docs.microsoft.com/windows/desktop/lwef/-search-2x-wds-aqsreference).
 
 ## -see-also
-[](https://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779), [Quickstart: Adding search](https://msdn.microsoft.com/library/d412c562-22d2-41c4-9f27-27503b89b9e9), [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [LocalContentSuggestionSettings class](localcontentsuggestionsettings.md), [SearchPane class](searchpane.md)
+[](https://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779), [Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)), [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [LocalContentSuggestionSettings class](localcontentsuggestionsettings.md), [SearchPane class](searchpane.md)

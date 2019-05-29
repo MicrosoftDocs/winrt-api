@@ -14,10 +14,10 @@ Converts HTML-formatted data to a string that contains the text content extracte
 
 ## -parameters
 ### -param html
-A [String](https://msdn.microsoft.com/library/system.string.aspx) containing HTML-formatted data.
+A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) containing HTML-formatted data.
 
 ## -returns
-A [String](https://msdn.microsoft.com/library/system.string.aspx) of text content.
+A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) of text content.
 
 ## -remarks
 The ConvertToText method is used to convert HTML-formatted data to a text string. The HTML-formatted data could represent an HTML document or an HTML fragment. When the ConvertToText method parses the HTML-formatted data, no scripts are run and no secondary downloads occur (scripts, images, and stylesheets, for example).

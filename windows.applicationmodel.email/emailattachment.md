@@ -19,7 +19,7 @@ Attachments that you add to an email by using the [EmailAttachment](https://docs
 ## -examples
 
 ## -see-also
-[Object](https://msdn.microsoft.com/library/system.object.aspx)
+[Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)
 
 ## -capabilities
 email, emailSystem

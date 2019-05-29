@@ -24,7 +24,7 @@ If you set [ReportLatency](Inclinometer_reportlatency.md) to a value higher than
 
 Be aware that multiple applications could be dependent on a single sensor. Each of those applications can set a different value for [ReportLatency](Inclinometer_reportlatency.md). In this scenario, the sensor needs to try to accommodate the lowest value for [ReportLatency](Inclinometer_reportlatency.md). Because of this, the actual latency may not match the latency defined by this property in your application. This property corresponds to your ideal latency, which may not be the same latency on the sensor.
 
-For more information about sensor batching, see [Sensors](https://msdn.microsoft.com/library/415f4107-0612-4235-9722-0f5e4e26f957).
+For more information about sensor batching, see [Sensors](https://docs.microsoft.com/windows/uwp/devices-sensors/sensors).
 
 ## -examples
 

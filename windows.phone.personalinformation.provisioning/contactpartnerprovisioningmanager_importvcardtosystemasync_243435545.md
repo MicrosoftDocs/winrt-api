@@ -17,7 +17,7 @@ This API is not intended to be used directly from your code.
 The stream containing the vCard data.
 
 ## -returns
-An asynchronous action. If you use [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is **void**.
+An asynchronous action. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is **void**.
 
 ## -remarks
 

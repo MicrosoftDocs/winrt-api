@@ -24,4 +24,4 @@ Pointer to the context.
 ## -examples
 
 ## -see-also
-[ for Printers](https://msdn.microsoft.com/library/windows/hardware/br259129)
+[ for Printers](https://msdn.microsoft.com/library/windows/hardware/dn265150(v=vs.85).aspx)

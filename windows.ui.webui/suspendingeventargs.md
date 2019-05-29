@@ -25,4 +25,4 @@ This object is accessed when you implement [WebUIApplication.SuspendingEventHand
 ## -examples
 
 ## -see-also
-[App lifecycle](https://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10), [SuspendingOperation](suspendingoperation.md), [App activated, resume, and suspend using the WRL sample](https://go.microsoft.com/fwlink/p/?linkid=226722)
+[App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle), [SuspendingOperation](suspendingoperation.md), [App activated, resume, and suspend using the WRL sample](https://go.microsoft.com/fwlink/p/?linkid=226722)

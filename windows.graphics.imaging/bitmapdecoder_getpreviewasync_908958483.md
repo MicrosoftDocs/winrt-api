@@ -20,7 +20,7 @@ The preview data is returned in the form of an image stream. You can display it 
 ## -remarks
 Some image formats, like JPEG-XR and camera RAW formats, contain an image preview. The preview is generally higher resolution than a thumbnail. This is an advantage because decoding the preview can be faster than decoding the full RAW image, but provides comparable fidelity when displaying images
 
-If the image does not contain a preview, this operation fails with HRESULT [WINCODEC_ERR_UNSUPPORTEDOPERATION](https://msdn.microsoft.com/library/1ded909c-311b-49e3-ba23-b22cd7a77bc6).
+If the image does not contain a preview, this operation fails with HRESULT [WINCODEC_ERR_UNSUPPORTEDOPERATION](https://docs.microsoft.com/windows/desktop/wic/-wic-codec-error-codes).
 
 ## -examples
 

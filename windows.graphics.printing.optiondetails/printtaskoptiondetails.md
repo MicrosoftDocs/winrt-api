@@ -33,7 +33,7 @@ Here is a JavaScript code snippet that shows how to retrieve the advanced option
 
 ```
 
-For more information on this and other printing scenarios, see [Printing](https://msdn.microsoft.com/library/windows/apps/hh465225.aspx) on the Windows Dev Center.
+For more information on this and other printing scenarios, see [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)) on the Windows Dev Center.
 
 ### Version history
 

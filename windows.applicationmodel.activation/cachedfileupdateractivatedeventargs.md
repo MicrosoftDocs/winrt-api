@@ -16,7 +16,7 @@ Provides information about the activated event that fires when the user saves or
 > This type appears as [WebUICachedFileUpdaterActivatedEventArgs](../windows.ui.webui/webuicachedfileupdateractivatedeventargs.md).
 
 ## -remarks
-Learn more about providing updates for files that your app offers in the [Quickstart: Providing file services through ](https://msdn.microsoft.com/library/3a348fea-c4b3-4847-a350-a41a69441c00) and in the [Windows.Storage.Pickers.Provider](../windows.storage.pickers.provider/windows_storage_pickers_provider.md) namespace reference.
+Learn more about providing updates for files that your app offers in the [Quickstart: Providing file services through ](https://docs.microsoft.com/previous-versions/windows/apps/hh465192(v=win.10)) and in the [Windows.Storage.Pickers.Provider](../windows.storage.pickers.provider/windows_storage_pickers_provider.md) namespace reference.
 
 A CachedFileUpdaterActivatedEventArgs object is passed to the app's activated event handler when the user saves a file that requires content management from the app. This type of activation is indicated by the [ActivationKind.CachedFileUpdater](activationkind.md) value returned by the [Kind](cachedfileupdateractivatedeventargs_kind.md) property.
 

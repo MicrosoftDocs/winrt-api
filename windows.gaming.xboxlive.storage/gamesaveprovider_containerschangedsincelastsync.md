@@ -15,7 +15,7 @@ Called on a new [GameSaveProvider](gamesaveprovider.md) instance, returns the na
 
 ## -property-value
 
-Type: **IVectorView\<;String>;** \[JavaScript/C++\] | [System.Collections.Generic.IReadOnlyList\<;String>;](https://msdn.microsoft.com/library/hh192385.aspx) \[.NET\]
+Type: **IVectorView\<;String>;** \[JavaScript/C++\] | [System.Collections.Generic.IReadOnlyList\<;String>;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1?redirectedfrom=MSDN) \[.NET\]
 
 String names of containers that changed since the application last ran.
 

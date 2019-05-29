@@ -24,7 +24,7 @@ Gets or sets the time at which this [Timeline](timeline.md) should begin.
 ## -property-value
 The start time of the time line. The default value is zero. 
 <!--Projection dochack:-->
-If you are programming using C# or Visual Basic, the parameter type of this parameter is projected as **System.TimeSpan?**(a nullable [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx)).
+If you are programming using C# or Visual Basic, the parameter type of this parameter is projected as **System.TimeSpan?**(a nullable [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN)).
 
 ## -remarks
 

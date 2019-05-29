@@ -10,7 +10,7 @@ public class DownloadOperation : Windows.Networking.BackgroundTransfer.IBackgrou
 # Windows.Networking.BackgroundTransfer.DownloadOperation
 
 ## -description
-Performs an asynchronous download operation. The [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) demonstrates this functionality. For an overview of Background Transfer capabilities, see [Transferring data in the background](https://msdn.microsoft.com/library/9e2ed5b4-af57-456a-884f-1e1d2136a8e8). Download the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++/CX.
+Performs an asynchronous download operation. The [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) demonstrates this functionality. For an overview of Background Transfer capabilities, see [Transferring data in the background](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)). Download the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++/CX.
 
 ## -examples
 The following example demonstrates how to configure and begin a basic download operation, and is based on the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) offered in the Windows Sample Gallery.
@@ -99,7 +99,7 @@ However, if Microsoft Visual Studio project updates, like changes to the app man
 | 1803 | 17134 | MakeCurrentInTransferGroup |
 
 ## -see-also
-[Quickstart: Download a file](https://msdn.microsoft.com/library/f7b1a3a0-87b8-4c85-a2a3-be9ff7f04d53), [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064)
+[Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10)), [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064)
 
 ## -capabilities
 internetClient, internetClientServer, privateNetworkClientServer

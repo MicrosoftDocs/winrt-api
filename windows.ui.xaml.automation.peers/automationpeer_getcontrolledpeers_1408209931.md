@@ -18,7 +18,7 @@ A list of the controlled peers for the current automation peer.
 ## -remarks
 Examining controlled peers is an advanced scenario that most peer implementations won't need to use.
 
-The naming of the framework implementation and the Microsoft UI Automation property that clients can use to access this info are slightly different. Microsoft UI Automation clients should use the identifier **UIA_ControllerForPropertyId** to request the value of this property when using the Microsoft UI Automation client interfaces such as [IUIAutomation](https://msdn.microsoft.com/library/46b31ab6-39aa-4df8-a421-6369c32a9605).
+The naming of the framework implementation and the Microsoft UI Automation property that clients can use to access this info are slightly different. Microsoft UI Automation clients should use the identifier **UIA_ControllerForPropertyId** to request the value of this property when using the Microsoft UI Automation client interfaces such as [IUIAutomation](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation).
 
 ## -examples
 

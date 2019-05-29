@@ -11,7 +11,7 @@ public class BackgroundDownloader : Windows.Networking.BackgroundTransfer.IBackg
 
 ## -description
 
-Used to configure downloads prior to the actual creation of the download operation using [CreateDownload](backgrounddownloader_createdownload_1461958690.md). For an overview of Background Transfer capabilities, see [Transferring data in the background](https://msdn.microsoft.com/library/9e2ed5b4-af57-456a-884f-1e1d2136a8e8). Download the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++.
+Used to configure downloads prior to the actual creation of the download operation using [CreateDownload](backgrounddownloader_createdownload_1461958690.md). For an overview of Background Transfer capabilities, see [Transferring data in the background](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)). Download the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++.
 
 > [!NOTE]
 > Background Transfer is primarily designed for long-term transfer operations for resources like video, music, and large images. For short-term operations involving transfers of smaller resources (i.e. a couple KB), use the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace.
@@ -49,7 +49,7 @@ If **Toast capable** is not enabled in the app manifest, then any toast settings
 > [!NOTE]
 > A user can manually disable or enable toast notifications for your app at any time.
 
-For more information on toast notifications, see [Sending toast notifications](https://msdn.microsoft.com/library/9ec1d052-cff8-415c-aba0-90b088c64039) and [How to opt in for toast notifications](https://msdn.microsoft.com/library/2d7db7c4-6f5e-47bf-89b6-8ac7a43e2011).
+For more information on toast notifications, see [Sending toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868266(v=win.10)) and [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)).
 
 **Handling exceptions**
 
@@ -57,7 +57,7 @@ A number of errors can cause exceptions to occur during a download operation. Yo
 
 An app can use the **HRESULT** from the exception to determine the error that caused the exception. An app can then decide how to handle the exception based on the error code. The [BackgroundTransferError.GetStatus](backgroundtransfererror_getstatus_1856274933.md) method can convert most **HRESULT** values returned to a [WebErrorStatus](../windows.web/weberrorstatus.md) enumeration value. Most of the [WebErrorStatus](../windows.web/weberrorstatus.md) enumeration values correspond to an error returned by the native HTTP or FTP client operation. An app can filter on specific [WebErrorStatus](../windows.web/weberrorstatus.md) enumeration values to modify app behavior depending on the cause of the exception.
 
-For information on network exceptions, see [Handling exceptions in network apps](https://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35).
+For information on network exceptions, see [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)).
 
 **Debugging Guidance**
 
@@ -137,7 +137,7 @@ The following example demonstrates how to configure and begin a basic download o
 
 ## -see-also
 
-[DownloadOperation](downloadoperation.md), [Handling exceptions in network apps](https://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [How to opt in for toast notifications](https://msdn.microsoft.com/library/2d7db7c4-6f5e-47bf-89b6-8ac7a43e2011), [Quickstart: Download a file](https://msdn.microsoft.com/library/f7b1a3a0-87b8-4c85-a2a3-be9ff7f04d53), [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064), [Background transfer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620510)
+[DownloadOperation](downloadoperation.md), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)), [Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10)), [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064), [Background transfer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620510)
 
 ## -capabilities
 

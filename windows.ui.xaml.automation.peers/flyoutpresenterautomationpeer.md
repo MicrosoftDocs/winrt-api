@@ -21,8 +21,8 @@ FlyoutPresenterAutomationPeer has overrides of **Core** methods such that the as
 
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "Flyout".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Pane](automationcontroltype.md).
-+ [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.Invoke](patterninterface.md) ([IInvokeProvider](https://msdn.microsoft.com/library/e522b8d5-c6f6-4f71-a8c8-4332f2824f72)).
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.Invoke](patterninterface.md) ([IInvokeProvider](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iinvokeprovider)).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 

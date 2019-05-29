@@ -32,9 +32,9 @@ Local and Internet access.
 
 
 ## -remarks
-For an example of how these values are used to indicate connection changes, see [Quickstart: Managing connection events and changes in availability](https://msdn.microsoft.com/library/464cef85-47c7-4f4a-beba-6494fa080c7d).
+For an example of how these values are used to indicate connection changes, see [Quickstart: Managing connection events and changes in availability](https://docs.microsoft.com/previous-versions/windows/apps/hh700376(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[Quickstart: Managing connection events and changes in availability](https://msdn.microsoft.com/library/464cef85-47c7-4f4a-beba-6494fa080c7d)
+[Quickstart: Managing connection events and changes in availability](https://docs.microsoft.com/previous-versions/windows/apps/hh700376(v=win.10))

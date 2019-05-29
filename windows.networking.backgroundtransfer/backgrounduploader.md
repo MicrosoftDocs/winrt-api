@@ -11,7 +11,7 @@ public class BackgroundUploader : Windows.Networking.BackgroundTransfer.IBackgro
 
 ## -description
 
-Used to configure upload prior to the actual creation of the upload operation using [CreateUpload](backgrounduploader_createupload_1442890857.md). For an overview of Background Transfer capabilities, see [Transferring data in the background](https://msdn.microsoft.com/library/9e2ed5b4-af57-456a-884f-1e1d2136a8e8). Download the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++.
+Used to configure upload prior to the actual creation of the upload operation using [CreateUpload](backgrounduploader_createupload_1442890857.md). For an overview of Background Transfer capabilities, see [Transferring data in the background](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)). Download the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++.
 
 > [!NOTE]
 > Background Transfer is primarily designed for long-term transfer operations for resources like video, music, and large images. For short-term operations involving transfers of smaller resources (i.e. a couple KB), use the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace.
@@ -47,7 +47,7 @@ If **Toast capable** is not enabled in the app manifest, then any toast settings
 > [!NOTE]
 > A user can manually disable or enable toast notifications for your app at any time.
 
-For more information on toast notifications, see [Sending toast notifications](https://msdn.microsoft.com/library/9ec1d052-cff8-415c-aba0-90b088c64039) and [How to opt in for toast notifications](https://msdn.microsoft.com/library/2d7db7c4-6f5e-47bf-89b6-8ac7a43e2011).
+For more information on toast notifications, see [Sending toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868266(v=win.10)) and [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)).
 
 **Handling Exceptions**
 
@@ -57,7 +57,7 @@ An app can use the **HRESULT** from the exception to determine the error that ca
 
 Some **HRESULT** values cannot be converted to a [WebErrorStatus](../windows.web/weberrorstatus.md) enumeration value. When a background POST operation is canceled, an exception is thrown. The operation is not restarted. For more information, see [UploadOperation.StartAsync](uploadoperation_startasync_1931900819.md)
 
-For information on network exceptions, see [Handling exceptions in network apps](https://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35).
+For information on network exceptions, see [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)).
 
 **Debugging Guidance**
 
@@ -140,7 +140,7 @@ The following example demonstrates how to configure and begin a basic upload ope
 
 ## -see-also
 
-[UploadOperation](uploadoperation.md), [Handling exceptions in network apps](https://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [How to opt in for toast notifications](https://msdn.microsoft.com/library/2d7db7c4-6f5e-47bf-89b6-8ac7a43e2011), [Quickstart: Upload a file](https://msdn.microsoft.com/library/9c0d21a9-d253-4671-a0ef-437412a28cd8), [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064), [Background transfer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620510)
+[UploadOperation](uploadoperation.md), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)), [Quickstart: Upload a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700372(v=win.10)), [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064), [Background transfer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620510)
 
 ## -capabilities
 

@@ -17,7 +17,7 @@ Represents a JSON array.
 
 ## -remarks
 
-For an example of how these class methods are used to parse an array from a JSON string and convert it into a JsonArray object, update the values the array contains, and then serialize the updated JsonArray object as a JSON string, see [Using JavaScript Object Notation (JSON)](https://msdn.microsoft.com/library/94875e43-4e0c-499f-b409-317bcd306d3e).
+For an example of how these class methods are used to parse an array from a JSON string and convert it into a JsonArray object, update the values the array contains, and then serialize the updated JsonArray object as a JSON string, see [Using JavaScript Object Notation (JSON)](https://docs.microsoft.com/previous-versions/windows/apps/hh770289(v=win.10)).
 
 <!--Begin NET note for IEnumerable support-->
 
@@ -31,4 +31,4 @@ A JsonArray is enumerable, so you can use language-specific syntax such as **for
 
 ## -see-also
 
-[Using JavaScript Object Notation (JSON)](https://msdn.microsoft.com/library/94875e43-4e0c-499f-b409-317bcd306d3e), [JSON sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620556)
+[Using JavaScript Object Notation (JSON)](https://docs.microsoft.com/previous-versions/windows/apps/hh770289(v=win.10)), [JSON sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620556)

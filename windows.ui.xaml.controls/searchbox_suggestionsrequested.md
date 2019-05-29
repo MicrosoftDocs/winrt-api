@@ -27,7 +27,7 @@ You can get suggestions from several sources:
 + You can get them from a web service or server.
 
 
-For user experience guidelines for displaying suggestions, see [Guidelines and checklist for search](https://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39).
+For user experience guidelines for displaying suggestions, see [Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search).
 
 You can use [LocalContentSuggestionSettings](../windows.applicationmodel.search/localcontentsuggestionsettings.md) to add suggestions, based on local files from Windows, in only a few lines of code. Alternatively, you can register for the search box control's SuggestionsRequested event and build your own list of suggestions that is made up of suggestions you retrieved from another source (like a locally-defined list or a web service).
 
@@ -49,11 +49,11 @@ If you choose to display both query suggestions and result suggestions, you shou
 
 The maximum length of all of the textual fields in a suggestion (such as text, detail text, and image alt text) is 512 characters.
 
-To learn more about using suggestions to create a good search experience for your users in [Guidelines and checklist for search](https://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39).
+To learn more about using suggestions to create a good search experience for your users in [Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search).
 
 ### Handling the SuggestionsRequested event asynchronously
 
-If you want to respond to the SuggestionsRequested event asynchronously, you must obtain a [SearchSuggestionsRequestDeferral](../windows.applicationmodel.search/searchsuggestionsrequestdeferral.md) object before you edit the suggestion list. Here's an example from [Quickstart: Adding search to an app](https://msdn.microsoft.com/library/9fa49c2a-5237-4432-aa93-0829bdc9dfe0) that shows how:
+If you want to respond to the SuggestionsRequested event asynchronously, you must obtain a [SearchSuggestionsRequestDeferral](../windows.applicationmodel.search/searchsuggestionsrequestdeferral.md) object before you edit the suggestion list. Here's an example from [Quickstart: Adding search to an app](https://docs.microsoft.com/previous-versions/windows/apps/hh868180(v=win.10)) that shows how:
 
 ```csharp
         public async static void SearchBox_SuggestionsRequested(
@@ -103,4 +103,4 @@ If you want to respond to the SuggestionsRequested event asynchronously, you mus
 ## -examples
 
 ## -see-also
-[Quickstart: Adding search to an app](https://msdn.microsoft.com/library/9fa49c2a-5237-4432-aa93-0829bdc9dfe0)
+[Quickstart: Adding search to an app](https://docs.microsoft.com/previous-versions/windows/apps/hh868180(v=win.10))

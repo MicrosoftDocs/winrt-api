@@ -23,73 +23,73 @@ You can use this option for any storage location.
 
 ### -field GroupByYear:100
 
-Group files into virtual folders by year based on the [System.ItemDate](https://msdn.microsoft.com/library/windows/desktop/bb760745.aspx) property of each file. Each folder will contain all (and only) files that have values for [System.ItemDate](https://msdn.microsoft.com/library/windows/desktop/bb760745.aspx) within the same year.
+Group files into virtual folders by year based on the [System.ItemDate](https://docs.microsoft.com/windows/desktop/properties/props-system-itemdate) property of each file. Each folder will contain all (and only) files that have values for [System.ItemDate](https://docs.microsoft.com/windows/desktop/properties/props-system-itemdate) within the same year.
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field GroupByMonth:101
 
-Group files into virtual folders by month based on the [System.ItemDate](https://msdn.microsoft.com/library/windows/desktop/bb760745.aspx) property of each file. Each folder will contain all (and only) files that have values for [System.ItemDate](https://msdn.microsoft.com/library/windows/desktop/bb760745.aspx) within the same month.
+Group files into virtual folders by month based on the [System.ItemDate](https://docs.microsoft.com/windows/desktop/properties/props-system-itemdate) property of each file. Each folder will contain all (and only) files that have values for [System.ItemDate](https://docs.microsoft.com/windows/desktop/properties/props-system-itemdate) within the same month.
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field GroupByArtist:102
 
-Group files into virtual folders based on the [System.Music.Artist](https://msdn.microsoft.com/library/windows/desktop/bb787294.aspx) property of each file. Each folder will contain all (and only) files with identical values for [System.Music.Artist](https://msdn.microsoft.com/library/windows/desktop/bb787294.aspx).
+Group files into virtual folders based on the [System.Music.Artist](https://docs.microsoft.com/windows/desktop/properties/props-system-music-artist) property of each file. Each folder will contain all (and only) files with identical values for [System.Music.Artist](https://docs.microsoft.com/windows/desktop/properties/props-system-music-artist).
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field GroupByAlbum:103
 
-Group files into virtual folders by year based on the [System.Music.AlbumTitle](https://msdn.microsoft.com/library/windows/desktop/bb787292.aspx) property of each file. Each folder will contain all (and only) files with identical values for [System.Music.AlbumTitle](https://msdn.microsoft.com/library/windows/desktop/bb787292.aspx).
+Group files into virtual folders by year based on the [System.Music.AlbumTitle](https://docs.microsoft.com/windows/desktop/properties/props-system-music-albumtitle) property of each file. Each folder will contain all (and only) files with identical values for [System.Music.AlbumTitle](https://docs.microsoft.com/windows/desktop/properties/props-system-music-albumtitle).
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field GroupByAlbumArtist:104
 
-Group files into virtual folders based on the [System.Music.AlbumArtist](https://msdn.microsoft.com/library/windows/desktop/bb787290.aspx) property of each file. Each folder will contain all (and only) files with identical values for [System.Music.AlbumArtist](https://msdn.microsoft.com/library/windows/desktop/bb787290.aspx).
+Group files into virtual folders based on the [System.Music.AlbumArtist](https://docs.microsoft.com/windows/desktop/properties/props-system-music-albumartist) property of each file. Each folder will contain all (and only) files with identical values for [System.Music.AlbumArtist](https://docs.microsoft.com/windows/desktop/properties/props-system-music-albumartist).
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field GroupByComposer:105
 
-Group files into virtual folders based on the [System.Music.Composer](https://msdn.microsoft.com/library/windows/desktop/bb787298.aspx) property of each file. Each folder will represent one composer, and contain all files whose [System.Music.Composer](https://msdn.microsoft.com/library/windows/desktop/bb787298.aspx) vector contains that composer. If a file lists multiple composers, it may appear in more than one of the resulting folders.
+Group files into virtual folders based on the [System.Music.Composer](https://docs.microsoft.com/windows/desktop/properties/props-system-music-composer) property of each file. Each folder will represent one composer, and contain all files whose [System.Music.Composer](https://docs.microsoft.com/windows/desktop/properties/props-system-music-composer) vector contains that composer. If a file lists multiple composers, it may appear in more than one of the resulting folders.
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field GroupByGenre:106
 
-Group files into virtual folders based on the [System.Music.Genre](https://msdn.microsoft.com/library/windows/desktop/bb787304.aspx) property of each file. Each folder will contain all (and only) files with identical values for [System.Music.Genre](https://msdn.microsoft.com/library/windows/desktop/bb787304.aspx).
+Group files into virtual folders based on the [System.Music.Genre](https://docs.microsoft.com/windows/desktop/properties/props-system-music-genre) property of each file. Each folder will contain all (and only) files with identical values for [System.Music.Genre](https://docs.microsoft.com/windows/desktop/properties/props-system-music-genre).
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field GroupByPublishedYear:107
 
-Group files into virtual folders by year based on the [System.Media.Year](https://msdn.microsoft.com/library/windows/desktop/bb787424.aspx) property of each file. Each folder will contain all (and only) files that have values for [System.Media.Year](https://msdn.microsoft.com/library/windows/desktop/bb787424.aspx) within the same year.
+Group files into virtual folders by year based on the [System.Media.Year](https://docs.microsoft.com/windows/desktop/properties/props-system-media-year) property of each file. Each folder will contain all (and only) files that have values for [System.Media.Year](https://docs.microsoft.com/windows/desktop/properties/props-system-media-year) within the same year.
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field GroupByRating:108
 
-Group files into virtual folders by rating (1 star, 2 stars, and so on) based on the [System.Rating](https://msdn.microsoft.com/library/windows/desktop/bb787554.aspx) property of each file. Each folder will contain all (and only) files with identical values for [System.Rating](https://msdn.microsoft.com/library/windows/desktop/bb787554.aspx).
+Group files into virtual folders by rating (1 star, 2 stars, and so on) based on the [System.Rating](https://docs.microsoft.com/windows/desktop/properties/props-system-rating) property of each file. Each folder will contain all (and only) files with identical values for [System.Rating](https://docs.microsoft.com/windows/desktop/properties/props-system-rating).
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field GroupByTag:109
 
-Group files into virtual folders based on the [System.Keywords](https://msdn.microsoft.com/library/windows/desktop/bb787519.aspx) property of each file. Each folder will represent one tag, and contain all files whose [System.Keywords](https://msdn.microsoft.com/library/windows/desktop/bb787519.aspx) vector contains that tag. If a file lists multiple tags in its [System.Keywords](https://msdn.microsoft.com/library/windows/desktop/bb787519.aspx) vector, it may appear in more than one of the resulting folders.
+Group files into virtual folders based on the [System.Keywords](https://docs.microsoft.com/windows/desktop/properties/props-system-keywords) property of each file. Each folder will represent one tag, and contain all files whose [System.Keywords](https://docs.microsoft.com/windows/desktop/properties/props-system-keywords) vector contains that tag. If a file lists multiple tags in its [System.Keywords](https://docs.microsoft.com/windows/desktop/properties/props-system-keywords) vector, it may appear in more than one of the resulting folders.
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field GroupByAuthor:110
 
-Group files into virtual folders based on the [System.Author](https://msdn.microsoft.com/library/windows/desktop/bb760652.aspx) property of each file. Each folder will represent one author, and contain all files whose [System.Author](https://msdn.microsoft.com/library/windows/desktop/bb760652.aspx) vector contains that author. If a file lists multiple authors, it may appear in more than one of the resulting folders.
+Group files into virtual folders based on the [System.Author](https://docs.microsoft.com/windows/desktop/properties/props-system-author) property of each file. Each folder will represent one author, and contain all files whose [System.Author](https://docs.microsoft.com/windows/desktop/properties/props-system-author) vector contains that author. If a file lists multiple authors, it may appear in more than one of the resulting folders.
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field GroupByType:111
 
-Group files into virtual folders by type (for example, Microsoft Word documents, text files, and so forth) based on the [System.ItemTypeText](https://msdn.microsoft.com/library/windows/desktop/bb760783.aspx) property of each file.
+Group files into virtual folders by type (for example, Microsoft Word documents, text files, and so forth) based on the [System.ItemTypeText](https://docs.microsoft.com/windows/desktop/properties/props-system-itemtypetext) property of each file.
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
@@ -108,7 +108,7 @@ These methods use the value from the CommonFolderQuery enumeration to initialize
 Call the [StorageFolder.IsCommonFolderQuerySupported](../windows.storage/storagefolder_iscommonfolderquerysupported_1797734947.md) method to determine whether the CommonFolderQuery value that you want to use is available for the current folder.
 
 > > [!TIP]
-> When a query groups files into virtual folders based on a property that can have multiple values (for example, [System.Author](https://msdn.microsoft.com/library/windows/desktop/bb760652.aspx)), a particular file may appear in more than one virtual folder because each folder represents one of the multiple values.
+> When a query groups files into virtual folders based on a property that can have multiple values (for example, [System.Author](https://docs.microsoft.com/windows/desktop/properties/props-system-author)), a particular file may appear in more than one virtual folder because each folder represents one of the multiple values.
 
 Files that don't have a value for the property that the query uses to group files are typically excluded from query results.
 

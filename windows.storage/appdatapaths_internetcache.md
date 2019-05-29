@@ -13,7 +13,7 @@ public string InternetCache { get; }
 Gets the path to the internet cache folder.
 
 ## -property-value
-The full path to the internet cache folder. This is the same folder that is used by the [Windows Internet](https://msdn.microsoft.com/library/windows/desktop/aa385331.aspx) API.
+The full path to the internet cache folder. This is the same folder that is used by the [Windows Internet](https://docs.microsoft.com/windows/desktop/WinInet/portal) API.
 
 ## -remarks
 

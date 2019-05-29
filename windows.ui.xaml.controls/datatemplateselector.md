@@ -28,7 +28,7 @@ The callable methods of DataTemplateSelector are the two [SelectTemplate](datate
 
 App code typically doesn't call [SelectTemplate](datatemplateselector_selecttemplate_375443783.md) methods; the methods exists so that the infrastructure can call it while choosing the correct templates based on using a DataTemplateSelector instance from a property value such as [ItemsControl.ItemsTemplateSelector](itemscontrol_itemtemplateselector.md).
 
-For example XAML that references a custom DataTemplateSelector as the [HeaderTemplateSelector](groupstyle_headertemplateselector.md) value, and example code that shows the overrides for [HeaderTemplateSelector](groupstyle_headertemplateselector.md) methods, see [How to group items in a list or grid](https://msdn.microsoft.com/library/b9ed59b9-651c-40c7-a39c-c4db432dc132).
+For example XAML that references a custom DataTemplateSelector as the [HeaderTemplateSelector](groupstyle_headertemplateselector.md) value, and example code that shows the overrides for [HeaderTemplateSelector](groupstyle_headertemplateselector.md) methods, see [How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10)).
 
 ### Version history
 
@@ -40,4 +40,4 @@ For example XAML that references a custom DataTemplateSelector as the [HeaderTem
 ## -examples
 
 ## -see-also
-[ItemTemplateSelector](itemscontrol_itemtemplateselector.md), [DataTemplate](../windows.ui.xaml/datatemplate.md), [ContentControl.ContentTemplateSelector](contentcontrol_contenttemplateselector.md), [GroupStyle.HeaderTemplateSelector](groupstyle_headertemplateselector.md), [ItemsControl.ItemsTemplateSelector](itemscontrol_itemtemplateselector.md), [How to group items in a list or grid](https://msdn.microsoft.com/library/b9ed59b9-651c-40c7-a39c-c4db432dc132), [Adding ListView and GridView controls](https://msdn.microsoft.com/library/ede8164f-ad0f-4249-b5ab-6f46ca65754a)
+[ItemTemplateSelector](itemscontrol_itemtemplateselector.md), [DataTemplate](../windows.ui.xaml/datatemplate.md), [ContentControl.ContentTemplateSelector](contentcontrol_contenttemplateselector.md), [GroupStyle.HeaderTemplateSelector](groupstyle_headertemplateselector.md), [ItemsControl.ItemsTemplateSelector](itemscontrol_itemtemplateselector.md), [How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10)), [Adding ListView and GridView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780618(v=win.10))

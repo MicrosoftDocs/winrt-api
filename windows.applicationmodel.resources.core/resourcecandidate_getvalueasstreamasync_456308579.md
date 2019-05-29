@@ -10,10 +10,10 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessS
 # Windows.ApplicationModel.Resources.Core.ResourceCandidate.GetValueAsStreamAsync
 
 ## -description
-Asynchronously returns an [IRandomAccessStream](https://msdn.microsoft.com/library/d2eceb3d-d13e-44c1-bfe2-1aa57f7432c6) that accesses the value of this [ResourceCandidate](resourcecandidate.md).
+Asynchronously returns an [IRandomAccessStream](https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)) that accesses the value of this [ResourceCandidate](resourcecandidate.md).
 
 ## -returns
-An asynchronous operation to return the requested [IRandomAccessStream](https://msdn.microsoft.com/library/d2eceb3d-d13e-44c1-bfe2-1aa57f7432c6).
+An asynchronous operation to return the requested [IRandomAccessStream](https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)).
 
 ## -remarks
 

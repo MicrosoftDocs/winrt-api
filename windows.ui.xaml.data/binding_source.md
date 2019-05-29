@@ -57,4 +57,4 @@ The following code example demonstrates how to set this property in XAML. For th
 For an example demonstrates how to set this property in code, see the [Binding](binding.md) class.
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

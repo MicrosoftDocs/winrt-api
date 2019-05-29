@@ -15,10 +15,10 @@ Extends [IIterable](../windows.foundation.collections/iiterable_1.md) to enable 
 
 
 > **.NET**
-> This interface appears as [System.Collections.IEnumerable](https://msdn.microsoft.com/library/system.collections.ienumerable.aspx).
+> This interface appears as [System.Collections.IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable?redirectedfrom=MSDN).
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.IEnumerable](https://msdn.microsoft.com/library/system.collections.ienumerable.aspx) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable?redirectedfrom=MSDN) interface.
 
 ## -examples
 

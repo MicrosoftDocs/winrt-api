@@ -14,7 +14,7 @@ public interface IDirect3DSurface : Windows.Foundation.IClosable
 This represents an [IDXGISurface](/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) and can be used to interop between Windows Runtime components that need to exchange **IDXGISurface** references.
 
 ## -remarks
-To move back and forth between IDirect3DSurface and [IDXGISurface](/windows/desktop/api/dxgi/nn-dxgi-idxgisurface), use the [CreateDirect3DSurface](https://msdn.microsoft.com/en-us/library/windows/apps/dn895090) and [GetDXGIInterface(IDirect3DSurface^, DXGI_TYPE**)](https://msdn.microsoft.com/en-us/library/windows/apps/dn895102) functions.
+To move back and forth between IDirect3DSurface and [IDXGISurface](/windows/desktop/api/dxgi/nn-dxgi-idxgisurface), use the [CreateDirect3DSurface](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) and [GetDXGIInterface(IDirect3DSurface^, DXGI_TYPE**)](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) functions.
 
 ## -examples
 First include the necessary headers and namespaces.

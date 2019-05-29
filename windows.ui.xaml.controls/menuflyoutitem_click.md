@@ -23,4 +23,4 @@ Occurs when a menu item is clicked.
 ## -examples
 
 ## -see-also
-[Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832)
+[Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)

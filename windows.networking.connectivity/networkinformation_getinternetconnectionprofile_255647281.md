@@ -21,7 +21,7 @@ To be notified of changes in connectivity, register a handler with the [NetworkS
 
 The following example demonstrates how to retrieve a [ConnectionProfile](connectionprofile.md). The function calls getInternetConnectionProfile to retrieve the [ConnectionProfile](connectionprofile.md) representing the connection currently used for Internet connectivity. Alternatively, your app can call [getConnectionProfiles](networkinformation_getconnectionprofiles_582657984.md) to retrieve all available connections on a device.
 
-**Note** For the implementation of the GetConnectionProfileInfo method in the code below, and for additional examples of how [NetworkInformation](networkinformation.md) class methods are implemented to retrieve connection profiles, see [Quickstart: Retrieving network connection information](https://msdn.microsoft.com/library/ef383500-f2a9-4b93-8f6b-1f87560305d8).
+**Note** For the implementation of the GetConnectionProfileInfo method in the code below, and for additional examples of how [NetworkInformation](networkinformation.md) class methods are implemented to retrieve connection profiles, see [Quickstart: Retrieving network connection information](https://docs.microsoft.com/previous-versions/windows/apps/hh452990(v=win.10)).
 
 ```csharp
 using Windows.Networking.Connectivity;

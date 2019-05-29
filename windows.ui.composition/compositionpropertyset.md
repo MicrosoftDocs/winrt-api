@@ -18,7 +18,7 @@ Stores values as key-value pairs.
     **CompositionPropertySet**
    s provide the ability to insert key-value pairs or retrieve a value for a given key. For more information on using 
     **CompositionPropertySet**
-   with animations, see the [Animations Overview](https://msdn.microsoft.com/windows/uwp/graphics/composition-animation#animating-with-property-sets) page.
+   with animations, see the [Animations Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-animation) page.
 
 ## -remarks
 CompositionPropertySet does not support a delete function – ensure you use CompositionPropertySet to store values that will be shared across the application.

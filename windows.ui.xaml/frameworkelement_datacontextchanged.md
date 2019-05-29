@@ -36,4 +36,4 @@ DataContextChanged is useful for scenarios where control logic or other code-bas
 ## -examples
 
 ## -see-also
-[DataContext](frameworkelement_datacontext.md), [DataContextChangedEventArgs](datacontextchangedeventargs.md), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[DataContext](frameworkelement_datacontext.md), [DataContextChangedEventArgs](datacontextchangedeventargs.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

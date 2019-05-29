@@ -20,4 +20,4 @@ The application ID and the authentication token required for use of the online m
 ## -examples
 
 ## -see-also
-[Request a maps authentication key](https://msdn.microsoft.com/library/13b400d7-e13f-4f07-acc3-9c34087f0f73)
+[Request a maps authentication key](https://docs.microsoft.com/windows/uwp/maps-and-location/authentication-key)

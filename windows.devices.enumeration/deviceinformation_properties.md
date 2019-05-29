@@ -16,9 +16,9 @@ Property store containing well-known values as well as additional properties tha
 The property store for the device.
 
 ## -remarks
-For more info on what the properties represent, see [Device information properties](https://msdn.microsoft.com/library/4a4c2802-e674-4c04-8a6d-d7c1bbf1bd20).
+For more info on what the properties represent, see [Device information properties](https://docs.microsoft.com/windows/uwp/devices-sensors/device-information-properties).
 
 ## -examples
 
 ## -see-also
-[Device information properties](https://msdn.microsoft.com/library/4a4c2802-e674-4c04-8a6d-d7c1bbf1bd20)
+[Device information properties](https://docs.microsoft.com/windows/uwp/devices-sensors/device-information-properties)

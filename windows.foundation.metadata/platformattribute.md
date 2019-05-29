@@ -17,4 +17,4 @@ Declares the platform that a type should be supported in, when platform-specific
 ## -examples
 
 ## -see-also
-[Attribute](https://msdn.microsoft.com/library/system.attribute.aspx)
+[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN)

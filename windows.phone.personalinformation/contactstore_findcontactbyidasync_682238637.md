@@ -17,14 +17,14 @@ Retrieves the contact with the specified ID from the contact store.
 The ID of the contact to retrieve.
 
 ## -returns
-When this method completes, it returns a [StoredContact](storedcontact.md) object. If you use [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is [StoredContact](storedcontact.md).
+When this method completes, it returns a [StoredContact](storedcontact.md) object. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is [StoredContact](storedcontact.md).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[StoredContact](storedcontact.md), [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)
+[StoredContact](storedcontact.md), [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

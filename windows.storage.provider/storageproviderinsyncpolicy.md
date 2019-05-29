@@ -52,5 +52,5 @@ Value reserved for the sync engine.
 ## -remarks
 
 ## -see-also
-[FileAttributes Enumeration](https://msdn.microsoft.com/library/system.io.fileattributes.aspx)
+[FileAttributes Enumeration](https://docs.microsoft.com/dotnet/api/system.io.fileattributes?redirectedfrom=MSDN)
 

@@ -27,4 +27,4 @@ When this method completes successfully, it returns a walking route contained in
 ## -examples
 
 ## -see-also
-[Display  routes and directions on a map](https://msdn.microsoft.com/library/bbb4c23a-8f10-41d1-81ea-271be01aed81)
+[Display  routes and directions on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/routes-and-directions)

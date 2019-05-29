@@ -374,7 +374,7 @@ Specifies pixel formats, which includes fully-typed and type-less formats. This 
 
 
 ## -remarks
-Refer to [DXGI_FORMAT](https://msdn.microsoft.com/library/windows/desktop/bb173059) for descriptions of these formats.
+Refer to [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) for descriptions of these formats.
 
 ## -examples
 

@@ -16,7 +16,7 @@ Gets or sets a value that indicates whether to display frame-rate and per-frame 
 **true** to display the overlay debug counters; otherwise, **false**.
 
 ## -remarks
-The overlay debug counters have two sets of numbers. The set that appears on the upper left of the screen applies to just your app. The set that appears on the upper right applies to the system overall, and is also accounting for other apps that are drawing to the composited desktop. The right-side counter comes from the Microsoft DirectComposition components that are handling compositing for Microsoft Windows in general. Basically, if you set EnableFrameRateCounter to **true**, this also calls [IDCompositionDeviceDebug.EnableDebugCounters](https://msdn.microsoft.com/library/aa0e913f-d89f-4af1-91de-b57d0c016db7) in the underlying components. The result is that both the counters specific to apps using XAML and the Microsoft DirectComposition counters for all apps appear when you debug your UWP app.
+The overlay debug counters have two sets of numbers. The set that appears on the upper left of the screen applies to just your app. The set that appears on the upper right applies to the system overall, and is also accounting for other apps that are drawing to the composited desktop. The right-side counter comes from the Microsoft DirectComposition components that are handling compositing for Microsoft Windows in general. Basically, if you set EnableFrameRateCounter to **true**, this also calls [IDCompositionDeviceDebug.EnableDebugCounters](https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevicedebug-enabledebugcounters) in the underlying components. The result is that both the counters specific to apps using XAML and the Microsoft DirectComposition counters for all apps appear when you debug your UWP app.
 
 The format for the frame-rate counter displayed in the window chrome is: <table>
    <tr><td>000</td><td>000</td><td>…</td><td>…</td><td>000</td><td>000</td></tr>
@@ -30,7 +30,7 @@ The format for the frame-rate counter displayed in the window chrome is: <table>
 + **Sys CPU: ** The system-wide overall CPU usage of the composition thread per frame, in milliseconds.
 
 
-The *App fps* value is specifically reporting on the UI thread. There could be a much higher apparent refresh rate happening in your app that's related to the composition thread, but not to the UI thread. For more info on what each thread is responsible for, see [Performance best practices for ](https://msdn.microsoft.com/library/567bcefa-5da5-4e42-a4b8-1358c71adfa2).
+The *App fps* value is specifically reporting on the UI thread. There could be a much higher apparent refresh rate happening in your app that's related to the composition thread, but not to the UI thread. For more info on what each thread is responsible for, see [Performance best practices for ](https://docs.microsoft.com/previous-versions/windows/apps/hh750313(v=win.10)).
 
 [OnLaunched](application_onlaunched_859642554.md) is a good place to change [DebugSettings](debugsettings.md) values. Another possibility is the `App()` constructor.
 
@@ -57,4 +57,4 @@ In Windows 8, the counters used a different format and didn't incorporate the M
 ## -examples
 
 ## -see-also
-[Performance best practices for ](https://msdn.microsoft.com/library/567bcefa-5da5-4e42-a4b8-1358c71adfa2)
+[Performance best practices for ](https://docs.microsoft.com/previous-versions/windows/apps/hh750313(v=win.10))

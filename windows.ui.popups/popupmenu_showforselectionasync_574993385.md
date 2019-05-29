@@ -46,4 +46,4 @@ Additionally, the [Context menu sample](https://go.microsoft.com/fwlink/p/?linki
 
 
 ## -see-also
-[Adding context menus](https://msdn.microsoft.com/library/9778aea7-c959-4b3e-bd79-9659f07095a6), [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891), [Guidelines and checklist for ](https://msdn.microsoft.com/library/23063edd-ed89-4a82-9857-44001fad770b), [IUICommand](iuicommand.md), [oncontextmenu](https://msdn.microsoft.com/library/aa704010(v=vs.85).aspx), [Rect](../windows.foundation/rect.md), [ShowForSelectionAsync(Rect, Placement)](popupmenu_showforselectionasync_655080999.md), [UICommand](uicommand.md)
+[Adding context menus](https://docs.microsoft.com/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891), [Guidelines and checklist for ](https://developer.microsoft.com/windows/design/controls-patterns), [IUICommand](iuicommand.md), [oncontextmenu](https://msdn.microsoft.com/library/aa704010(v=vs.85).aspx), [Rect](../windows.foundation/rect.md), [ShowForSelectionAsync(Rect, Placement)](popupmenu_showforselectionasync_655080999.md), [UICommand](uicommand.md)

@@ -41,7 +41,7 @@ You can place a DataTemplate as the direct child of an [ItemTemplate](../windows
 
 The XAML usage for contents of a data template is not exposed as a settable code property. It is special behavior built into the XAML processing for a DataTemplate.
 
-For advanced data binding scenarios, you might want to have properties of the data determine which template should produce their UI representations. For this scenario, you can use a [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md) and set properties such as [ItemTemplateSelector](../windows.ui.xaml.controls/itemscontrol_itemtemplateselector.md) to assign it to a data view. A [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md) is a logic class you write yourself, which has a method that returns exactly one DataTemplate to the binding engine based on your own logic interacting with your data. For more info, see [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
+For advanced data binding scenarios, you might want to have properties of the data determine which template should produce their UI representations. For this scenario, you can use a [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md) and set properties such as [ItemTemplateSelector](../windows.ui.xaml.controls/itemscontrol_itemtemplateselector.md) to assign it to a data view. A [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md) is a logic class you write yourself, which has a method that returns exactly one DataTemplate to the binding engine based on your own logic interacting with your data. For more info, see [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth).
 
 ### XAML attached properties
 
@@ -61,7 +61,7 @@ In order to support XAML processor access to the attached properties, and also t
 | 1809 | 17763 | RecycleElement |
 
 ## -examples
-The following example uses a DataTemplate to display the items of a [ListBox](../windows.ui.xaml.controls/listbox.md). In this example, the [ListBox](../windows.ui.xaml.controls/listbox.md) is bound to a collection of `Customer` objects. The DataTemplate contains [TextBlock](../windows.ui.xaml.controls/textblock.md) controls that bind to the `FirstName`, `LastName`, and `Address` properties. For more info on data binding, see [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
+The following example uses a DataTemplate to display the items of a [ListBox](../windows.ui.xaml.controls/listbox.md). In this example, the [ListBox](../windows.ui.xaml.controls/listbox.md) is bound to a collection of `Customer` objects. The DataTemplate contains [TextBlock](../windows.ui.xaml.controls/textblock.md) controls that bind to the `FirstName`, `LastName`, and `Address` properties. For more info on data binding, see [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth).
 
 
 
@@ -77,4 +77,4 @@ The following example uses a DataTemplate to display the items of a [ListBox](..
 [!code-vb[Snippet101_VB](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/vbnet/Page.xaml.vb#Snippet101_VB)]
 
 ## -see-also
-[FrameworkTemplate](frameworktemplate.md), [ItemsControl.ItemTemplate](../windows.ui.xaml.controls/itemscontrol_itemtemplate.md), [ContentControl.ContentTemplate](../windows.ui.xaml.controls/contentcontrol_contenttemplate.md), [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)
+[FrameworkTemplate](frameworktemplate.md), [ItemsControl.ItemTemplate](../windows.ui.xaml.controls/itemscontrol_itemtemplate.md), [ContentControl.ContentTemplate](../windows.ui.xaml.controls/contentcontrol_contenttemplate.md), [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

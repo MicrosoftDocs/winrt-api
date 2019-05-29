@@ -65,7 +65,7 @@ The edges of the three rectangles appear to be contiguous because they share a c
 
 ### Animating CompositeTransform3D
 
-You can animate each property of a [CompositeTransform3D](../windows.ui.xaml.media.media3d/compositetransform3d.md) independently. For more info about animations, see [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a) and [Key-frame and easing function animations](https://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
+You can animate each property of a [CompositeTransform3D](../windows.ui.xaml.media.media3d/compositetransform3d.md) independently. For more info about animations, see [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations) and [Key-frame and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations).
 
 In this example, animations are applied the [RotationY](../windows.ui.xaml.media.media3d/compositetransform3d_rotationy.md) and [TranslateZ](../windows.ui.xaml.media.media3d/compositetransform3d_translatez.md) properties to make the middle rectangle appear to drop into place. The end result when the animations have stopped is the same as the previous example.
 

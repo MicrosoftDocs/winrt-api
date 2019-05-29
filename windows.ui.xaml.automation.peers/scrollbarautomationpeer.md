@@ -25,9 +25,9 @@ ScrollBarAutomationPeer has overrides of **Core** methods such that the associat
 + [GetClickablePoint](automationpeer_getclickablepoint_955785073.md) returns a "not a number"[Point](../windows.foundation/point.md) value that indicates that there isn't just one such point; clicking at various points along the range has different results.
 + [GetOrientation](automationpeer_getorientation_419829207.md) reports a value that parallels the [Orientation](../windows.ui.xaml.controls.primitives/scrollbar_orientation.md) of the [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md) owner.
 + [IsContentElement](automationpeer_iscontentelement_545450603.md) returns **false**.
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 
 ## -see-also
-[RangeBaseAutomationPeer](rangebaseautomationpeer.md), [IRangeValueProvider](../windows.ui.xaml.automation.provider/irangevalueprovider.md), [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[RangeBaseAutomationPeer](rangebaseautomationpeer.md), [IRangeValueProvider](../windows.ui.xaml.automation.provider/irangevalueprovider.md), [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

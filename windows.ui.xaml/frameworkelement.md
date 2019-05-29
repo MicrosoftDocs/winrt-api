@@ -28,40 +28,40 @@ FrameworkElement extends [UIElement](uielement.md), which is another base elemen
 
 ### Layout
 
-The layout system recognizes all objects that derive from FrameworkElement to be elements that potentially participate in layout and should have a display area in the app UI. The layout system reads various properties that are defined at FrameworkElement level, such as [MinWidth](frameworkelement_minwidth.md). Most UI elements use the FrameworkElement-defined [Width](frameworkelement_width.md) and [Height](frameworkelement_height.md) for their basic sizing information. FrameworkElement provides extensible methods for specialized layout behavior that panels and controls with content can override in their class implementations. For more info, see [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
+The layout system recognizes all objects that derive from FrameworkElement to be elements that potentially participate in layout and should have a display area in the app UI. The layout system reads various properties that are defined at FrameworkElement level, such as [MinWidth](frameworkelement_minwidth.md). Most UI elements use the FrameworkElement-defined [Width](frameworkelement_width.md) and [Height](frameworkelement_height.md) for their basic sizing information. FrameworkElement provides extensible methods for specialized layout behavior that panels and controls with content can override in their class implementations. For more info, see [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
 
 Prominent API of FrameworkElement that support layout: [Height](frameworkelement_height.md), [Width](frameworkelement_width.md), [ActualHeight](frameworkelement_actualheight.md), [ActualWidth](frameworkelement_actualwidth.md), [Margin](frameworkelement_margin.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [HorizontalAlignment](frameworkelement_horizontalalignment.md), [VerticalAlignment](frameworkelement_verticalalignment.md), [LayoutUpdated](frameworkelement_layoutupdated.md).
 
 ### Object lifetime events
 
-You often want to know when an object is first loaded (*loaded* is defined as when an object becomes attached to an object tree that connects to the root visual). FrameworkElement defines events related to object lifetime that provide useful hooks for code-behind operations. For example you need object lifetime info to add child objects to a collection or set properties on child objects just prior to use, with assurance that the necessary objects in the object tree have already been instantiated from XAML markup. For more info, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+You often want to know when an object is first loaded (*loaded* is defined as when an object becomes attached to an object tree that connects to the root visual). FrameworkElement defines events related to object lifetime that provide useful hooks for code-behind operations. For example you need object lifetime info to add child objects to a collection or set properties on child objects just prior to use, with assurance that the necessary objects in the object tree have already been instantiated from XAML markup. For more info, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 Prominent API of FrameworkElement that support object lifetime events: [Loaded](frameworkelement_loaded.md), [SizeChanged](frameworkelement_sizechanged.md), [Unloaded](frameworkelement_unloaded.md), [OnApplyTemplate](frameworkelement_onapplytemplate_1955470198.md).
 
 ### Data binding
 
-The ability to set a value for a potentially inherited data context for a data binding is implemented by FrameworkElement. FrameworkElement also has API for establishing data binding in code rather than in XAML. For more info, see [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
+The ability to set a value for a potentially inherited data context for a data binding is implemented by FrameworkElement. FrameworkElement also has API for establishing data binding in code rather than in XAML. For more info, see [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth).
 
 Prominent API of FrameworkElement that support data binding: [DataContext](frameworkelement_datacontext.md), [DataContextChanged](frameworkelement_datacontextchanged.md), [SetBinding](frameworkelement_setbinding_28713777.md), [GetBindingExpression](frameworkelement_getbindingexpression_1210399878.md).
 
 ### XAML language and programming model integration
 
-Usually your app's element structure resembles the XAML markup that you defined to create the UI, but sometimes that structure changes after the XAML was parsed. FrameworkElement defines the [Name](frameworkelement_name.md) property and related API, which are useful for finding elements and element relationships at run-time. For more info, see [XAML namescopes](https://msdn.microsoft.com/library/eb060cbd-a589-475e-b83d-b24068b54c21).
+Usually your app's element structure resembles the XAML markup that you defined to create the UI, but sometimes that structure changes after the XAML was parsed. FrameworkElement defines the [Name](frameworkelement_name.md) property and related API, which are useful for finding elements and element relationships at run-time. For more info, see [XAML namescopes](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-namescopes).
 
 Prominent API of FrameworkElement that support XAML and programming model: [Name](frameworkelement_name.md), [FindName](frameworkelement_findname_634111277.md), [Parent](frameworkelement_parent.md), [BaseUri](frameworkelement_baseuri.md), [OnApplyTemplate](frameworkelement_onapplytemplate_1955470198.md).
 
 ### Globalization
 
-The FrameworkElement class defines the [Language](frameworkelement_language.md) property and the [FlowDirection](frameworkelement_flowdirection.md) property. For more info, see [Globalizing your app](https://msdn.microsoft.com/library/fc8fa294-98ac-4fd0-a445-cd252e84cd65).
+The FrameworkElement class defines the [Language](frameworkelement_language.md) property and the [FlowDirection](frameworkelement_flowdirection.md) property. For more info, see [Globalizing your app](https://docs.microsoft.com/previous-versions/windows/apps/hh965328(v=win.10)).
 
 ### Style and theme support
 
-The FrameworkElement class defines the [Style](style.md) property and the [RequestedTheme](frameworkelement_requestedtheme.md) property. Also, the [Resources](frameworkelement_resources.md) property is used to define the page-level XAML resource dictionaries that typically define styles and templates, as well as other shared resources. For more info, see [Styling controls](https://msdn.microsoft.com/library/ab469a46-faf5-42d0-9340-948d0edf4150) and [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce).
+The FrameworkElement class defines the [Style](style.md) property and the [RequestedTheme](frameworkelement_requestedtheme.md) property. Also, the [Resources](frameworkelement_resources.md) property is used to define the page-level XAML resource dictionaries that typically define styles and templates, as well as other shared resources. For more info, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) and [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
 <!--link for req theme?-->
 
 ### **FrameworkElement** dependency properties
 
-Many of the read-write properties of the FrameworkElement base element class are dependency properties. Dependency properties support some of the basic programming model features for a UWP app using C++, C#, or Visual Basic, such as styles and templates, data binding, XAML resource references, and property-changed logic. For more info on dependency properties and the features they support, see [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+Many of the read-write properties of the FrameworkElement base element class are dependency properties. Dependency properties support some of the basic programming model features for a UWP app using C++, C#, or Visual Basic, such as styles and templates, data binding, XAML resource references, and property-changed logic. For more info on dependency properties and the features they support, see [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview).
 
 ### **FrameworkElement** derived classes
 
@@ -97,4 +97,4 @@ FrameworkElement is the parent class for several immediately derived classes tha
 ## -examples
 
 ## -see-also
-[UIElement](uielement.md), [Creating a UI](XREF:TODO:nodepage.creating_an_app_ui_xaml), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[UIElement](uielement.md), [Creating a UI](XREF:TODO:nodepage.creating_an_app_ui_xaml), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

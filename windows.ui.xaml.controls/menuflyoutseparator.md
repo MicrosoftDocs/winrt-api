@@ -28,4 +28,4 @@ There are three elements that you can use to compose the menu items in a [MenuFl
 ## -examples
 
 ## -see-also
-[MenuFlyoutItemBase](menuflyoutitembase.md), [MenuFlyoutSeparator styles and templates](https://msdn.microsoft.com/library/35dd11ce-1043-4874-b1c8-b9b55de2d226)
+[MenuFlyoutItemBase](menuflyoutitembase.md), [MenuFlyoutSeparator styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)

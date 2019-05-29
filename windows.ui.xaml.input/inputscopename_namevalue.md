@@ -20,4 +20,4 @@ A value of the enumeration.
 ## -examples
 
 ## -see-also
-[Use input scope to change the touch keyboard](https://msdn.microsoft.com/library/6e5f55d7-24d6-47cc-b457-b6231ede2a71)
+[Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

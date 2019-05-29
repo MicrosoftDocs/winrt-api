@@ -17,4 +17,4 @@ Contains instructions for placing a cryptogram in an outgoing message.
 ## -examples
 
 ## -see-also
-[SmartCardEmulatorApduReceivedEventArgs](smartcardemulatorapdureceivedeventargs.md), [TryRespondWithCryptogramsAsync](smartcardemulatorapdureceivedeventargs_tryrespondwithcryptogramsasync_340048536.md), [Create an NFC Smart Card app](https://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)
+[SmartCardEmulatorApduReceivedEventArgs](smartcardemulatorapdureceivedeventargs.md), [TryRespondWithCryptogramsAsync](smartcardemulatorapdureceivedeventargs_tryrespondwithcryptogramsasync_340048536.md), [Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)

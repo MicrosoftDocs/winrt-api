@@ -36,7 +36,7 @@ This method completes successfully when the CoreDispatcher starts to shut down, 
 
 When you update your UI from a background thread by calling RunAsync, it schedules the work on the UI thread and returns control to the caller immediately. If you need to wait for async work to complete before returning, for example, waiting for user input in a dialog box, do not use RunAsync alone. RunAsync also does not provide a way for the task to return a result to the caller.
 
-In this example, RunAsync returns without waiting for the user input from the dialog box. (RunAsync returns as soon as the code in the [lambda expression](https://msdn.microsoft.com/library/bb397687.aspx) begins executing.)
+In this example, RunAsync returns without waiting for the user input from the dialog box. (RunAsync returns as soon as the code in the [lambda expression](https://docs.microsoft.com/dotnet/articles/csharp/programming-guide/statements-expressions-operators/lambda-expressions) begins executing.)
 
 ```csharp
 //DO NOT USE THIS CODE.
@@ -48,7 +48,7 @@ await dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
 // Execution continues here before the call to ShowAsync completes.
 ```
 
-In this case, you need to use a [TaskCompletionSource](https://msdn.microsoft.com/library/dd449174.aspx) in combination with RunAsync to return a Task that you can await from your background thread, thereby pausing execution until the UI task completes. We recommend that you use the [RunTaskAsync extension method](https://github.com/Microsoft/Windows-task-snippets/blob/master/tasks/UI-thread-task-await-from-background-thread.md) from our task snippet library for this. It provides a robust solution that enables code running on a background thread to await a task that must run on the UI thread. See the [Await a UI task sent from a background thread](https://github.com/Microsoft/Windows-task-snippets/blob/master/tasks/UI-thread-task-await-from-background-thread.md) page for the code and example usage.
+In this case, you need to use a [TaskCompletionSource](https://docs.microsoft.com/dotnet/api/system.threading.tasks.taskcompletionsource-1?redirectedfrom=MSDN) in combination with RunAsync to return a Task that you can await from your background thread, thereby pausing execution until the UI task completes. We recommend that you use the [RunTaskAsync extension method](https://github.com/Microsoft/Windows-task-snippets/blob/master/tasks/UI-thread-task-await-from-background-thread.md) from our task snippet library for this. It provides a robust solution that enables code running on a background thread to await a task that must run on the UI thread. See the [Await a UI task sent from a background thread](https://github.com/Microsoft/Windows-task-snippets/blob/master/tasks/UI-thread-task-await-from-background-thread.md) page for the code and example usage.
 
 ### Porting from .NET
 
@@ -100,4 +100,4 @@ void Playback::DisplayStatus(Platform::String^ text)
 ```
 
 ## -see-also
-[Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)
+[Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)

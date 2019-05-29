@@ -27,4 +27,4 @@ On the desktop device family the title is displayed both in the title bar of the
 ## -examples
 
 ## -see-also
-[MessageDialog.Content](messagedialog_content.md), [Quickstart: Designing a message dialog](https://msdn.microsoft.com/library/2e183b56-46ac-4ad2-93fd-34ffff886c74)
+[MessageDialog.Content](messagedialog_content.md), [Quickstart: Designing a message dialog](https://docs.microsoft.com/previous-versions/windows/apps/hh738364(v=win.10))

@@ -21,4 +21,4 @@ This method is very rarely overridden by peers. So long as you provide a value f
 ## -examples
 
 ## -see-also
-[Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

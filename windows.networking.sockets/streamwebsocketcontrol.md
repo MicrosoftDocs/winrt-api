@@ -82,7 +82,7 @@ clientWebSocket.control.noDelay = false;
 // Now you can call the ConnectAsync method to connect the StreamWebSocket.
 ```
 
-For more information about using StreamWebSocketControl, see [How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39) and [How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a).
+For more information about using StreamWebSocketControl, see [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)) and [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)).
 
 ### Version history
 
@@ -97,8 +97,8 @@ For more information about using StreamWebSocketControl, see [How to use advance
 
 ## -see-also
 
-[How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39),
-[How to use advanced WebSocket controls ](https://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a),
+[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)),
+[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)),
 [StreamWebSocket](streamwebsocket.md),
 StreamWebSocketControl,
 [StreamWebSocketInformation](streamwebsocketinformation.md),

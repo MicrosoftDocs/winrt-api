@@ -17,7 +17,7 @@ The user name.
 
 ## -remarks
 > [!NOTE]
->  *username*:*password***@** preceding the *host* part of a URI are mainly relevant for File Transfer Protocol (FTP)  Uniform Resource Identifier (URI). File Transfer Protocol (FTP)  Uniform Resource Identifier (URI) have limited support in Windows Runtime; see "Transferring data in the background" ([HTML](https://msdn.microsoft.com/library/9e2ed5b4-af57-456a-884f-1e1d2136a8e8) or [XAML](https://msdn.microsoft.com/library/dfc4d2a2-8825-4c12-87db-9743ba3bd167)).
+>  *username*:*password***@** preceding the *host* part of a URI are mainly relevant for File Transfer Protocol (FTP)  Uniform Resource Identifier (URI). File Transfer Protocol (FTP)  Uniform Resource Identifier (URI) have limited support in Windows Runtime; see "Transferring data in the background" ([HTML](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)) or [XAML](https://docs.microsoft.com/previous-versions/windows/apps/hh452975(v=win.10))).
 
 ## -examples
 

@@ -13,7 +13,7 @@ public string GeographicRegion { get; }
 Gets the region of the user's content restrictions.
 
 ## -property-value
-A [String](https://msdn.microsoft.com/library/system.string.aspx), representing the geographic region.
+A [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN), representing the geographic region.
 
 ## -remarks
 

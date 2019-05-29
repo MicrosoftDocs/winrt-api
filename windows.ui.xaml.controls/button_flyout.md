@@ -39,4 +39,4 @@ By default, the flyout that's set as the value of the Flyout property displays w
 ## -examples
 
 ## -see-also
-[Flyout](flyout.md), [MenuFlyout](menuflyout.md), [Quickstart: Adding a Flyout](https://msdn.microsoft.com/library/de211e9b-6de8-4014-9264-c278a5c3f7bd), [XAML Flyout and MenuFlyout sample](https://go.microsoft.com/fwlink/p/?LinkID=310074)
+[Flyout](flyout.md), [MenuFlyout](menuflyout.md), [Quickstart: Adding a Flyout](https://docs.microsoft.com/previous-versions/windows/apps/dn308515(v=win.10)), [XAML Flyout and MenuFlyout sample](https://go.microsoft.com/fwlink/p/?LinkID=310074)

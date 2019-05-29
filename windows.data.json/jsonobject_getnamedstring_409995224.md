@@ -10,17 +10,17 @@ public string GetNamedString(System.String name)
 # Windows.Data.Json.JsonObject.GetNamedString
 
 ## -description
-Gets the [String](https://msdn.microsoft.com/library/system.string.aspx) value with the specified name.
+Gets the [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) value with the specified name.
 
 ## -parameters
 ### -param name
 The name.
 
 ## -returns
-The [String](https://msdn.microsoft.com/library/system.string.aspx) value with the specified name.
+The [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) value with the specified name.
 
 ## -remarks
-This method should always used with a try/catch block because it throws an exception if the name found is not a [String](https://msdn.microsoft.com/library/system.string.aspx) type or the name is not found.
+This method should always used with a try/catch block because it throws an exception if the name found is not a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) type or the name is not found.
 
 ## -examples
 

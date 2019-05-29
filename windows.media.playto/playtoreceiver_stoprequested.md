@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler StopRequested<Windows.Media.Pl
 Occurs when a request has been made for the Play To receiver to stop playing the streamed media.
 
 ## -remarks
-For an example of creating a software Play To receiver, see [Media casting](https://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e) or [Media casting](https://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e).
+For an example of creating a software Play To receiver, see [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting) or [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting).
 
 
 

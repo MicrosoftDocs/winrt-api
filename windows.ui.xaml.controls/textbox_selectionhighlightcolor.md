@@ -37,4 +37,4 @@ The control template sets the default selection highlight color to the system re
 ## -examples
 
 ## -see-also
-[Use brushes](https://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)

@@ -15,10 +15,10 @@ Provides a collection-changed pattern interface for C++ bindable classes.
 
 
 > **.NET**
-> This interface appears as [System.Collections.Specialized.INotifyCollectionChanged](https://msdn.microsoft.com/library/system.collections.specialized.inotifycollectionchanged.aspx).
+> This interface appears as [System.Collections.Specialized.INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?redirectedfrom=MSDN).
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Specialized.INotifyCollectionChanged](https://msdn.microsoft.com/library/system.collections.specialized.inotifycollectionchanged.aspx) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.Specialized.INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?redirectedfrom=MSDN) interface.
 
 ## -examples
 

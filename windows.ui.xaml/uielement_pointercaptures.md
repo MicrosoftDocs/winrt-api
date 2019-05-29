@@ -19,11 +19,11 @@ For more info on how to capture a pointer and why you might want to do so, see [
 
 Because there are input scenarios such as manipulations that involve more than one pointer point, the Windows Runtime enables capturing more than one pointer at a time. The PointerCaptures property exposes a view of which pointer points are currently captured by the [UIElement](uielement.md).
 
-This property's value is calculated based on the results of other actions. Calling [CapturePointer](uielement_capturepointer_916768934.md) adds to the internal collection that PointerCaptures provides a read-only view of. Calling [ReleasePointerCapture](uielement_releasepointercapture_962192786.md) removes from the collection. [ReleasePointerCaptures](uielement_releasepointercaptures_190109337.md) clears the collection. User action that invalidates pointer capture such as releasing from a pointer point also changes capture state and thus the collection. For more info, see [Mouse interactions](https://msdn.microsoft.com/library/c8a158ef-70a9-4ba2-a270-7d08125700ac) and [Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82).
+This property's value is calculated based on the results of other actions. Calling [CapturePointer](uielement_capturepointer_916768934.md) adds to the internal collection that PointerCaptures provides a read-only view of. Calling [ReleasePointerCapture](uielement_releasepointercapture_962192786.md) removes from the collection. [ReleasePointerCaptures](uielement_releasepointercaptures_190109337.md) clears the collection. User action that invalidates pointer capture such as releasing from a pointer point also changes capture state and thus the collection. For more info, see [Mouse interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/mouse-interactions) and [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input).
 
 The collection is not necessarily indexed by [PointerId](../windows.ui.xaml.input/pointer_pointerid.md). To find a specific [PointerId](../windows.ui.xaml.input/pointer_pointerid.md), you must check the items in the collection and reference a specific [Pointer](../windows.ui.xaml.input/pointer.md).
 
 ## -examples
 
 ## -see-also
-[CapturePointer](uielement_capturepointer_916768934.md), PointerCaptures, [Pointer](../windows.ui.xaml.input/pointer.md), [Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82)
+[CapturePointer](uielement_capturepointer_916768934.md), PointerCaptures, [Pointer](../windows.ui.xaml.input/pointer.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)

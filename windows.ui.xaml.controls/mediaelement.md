@@ -30,9 +30,9 @@ Represents an object that renders audio and video to the display. See Remarks.
 
 Use a MediaElement control to play audio and video files in your app. Built– in media transport controls let users interact with their media by providing a default playback experience comprised of various buttons including play, pause, closed captions, and others. See [MediaTransportControls](mediatransportcontrols.md) for more info.
 
-For info about the media formats that MediaElement supports, see [Supported codecs](https://msdn.microsoft.com/library/9347ad7c-3a90-4073-bff4-9e8237398343).
+For info about the media formats that MediaElement supports, see [Supported codecs](https://docs.microsoft.com/windows/uwp/audio-video-camera/supported-codecs).
 
-For info about performance related to MediaElement, see [Optimize animations and media](https://msdn.microsoft.com/library/de5b084c-dac1-430b-a15b-5b3d5fb698f7).
+For info about performance related to MediaElement, see [Optimize animations and media](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-animations-and-media).
 
 ### Set the media source
 
@@ -72,13 +72,13 @@ You can create your own media transport controls by setting [AreTransportControl
 > [!TIP]
 > For better performance, avoid data binding to the [Position](mediaelement_position.md) property to reflect frequent position updates (for example with a progress bar). Instead, use the [DispatcherTimer](../windows.ui.xaml/dispatchertimer.md) to query the [Position](mediaelement_position.md) property.
 
-For more info and examples, see [Create custom transport controls](https://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b).
+For more info and examples, see [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls).
 
 ### Open local media files
 
 To open files on the local system or from Microsoft OneDrive, you can use the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) to get the file and [SetSource](mediaelement_setsource_1817094346.md) to set the media source, or you can programmatically access the user media folders.
 
-If your app needs access without user interaction to the **Music** or **Video** folders, for example if you are enumerating all the music or video files in the user's collection and displaying them in your app, then you need to declare the **Music Library** and **Video Library** capabilities. For more info, see [Files and folders in the Music, Pictures, and Videos libraries](https://msdn.microsoft.com/windows/uwp/files/quickstart-managing-folders-in-the-music-pictures-and-videos-libraries).
+If your app needs access without user interaction to the **Music** or **Video** folders, for example if you are enumerating all the music or video files in the user's collection and displaying them in your app, then you need to declare the **Music Library** and **Video Library** capabilities. For more info, see [Files and folders in the Music, Pictures, and Videos libraries](https://docs.microsoft.com/windows/uwp/files/quickstart-managing-folders-in-the-music-pictures-and-videos-libraries).
 
 The [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) does not require special Capabilities to access files on the local file system, such as the user's **Music** or **Video** folders, since the user has complete control over which file is being accessed. From a security and privacy standpoint, it is best to minimize the number of capabilities your app uses.
 
@@ -246,7 +246,7 @@ Prior to Windows 8.1, the [IsFullWindow](mediaelement_isfullwindow.md) property
 
 Prior to Windows 8.1, the **Opacity** property is not supported on MediaElement.
 
-Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) property and built-in transport controls are not available. You must provide your own transport controls. For more info and examples, see [Create custom transport controls](https://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b) and scenario 4 of the [XAML media playback sample](https://go.microsoft.com/fwlink/p/?linkid=226859).
+Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) property and built-in transport controls are not available. You must provide your own transport controls. For more info and examples, see [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls) and scenario 4 of the [XAML media playback sample](https://go.microsoft.com/fwlink/p/?linkid=226859).
 
 ### Windows Phone 8
 
@@ -330,5 +330,5 @@ private void ShowPopupClicked(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Control](control.md), [MediaElement control guide](https://msdn.microsoft.com/library/af2f2008-9b53-430c-bbc3-8888f631b0b0), [Create custom transport controls](https://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b), [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600)
+[Control](control.md), [MediaElement control guide](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/media-playback), [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls), [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600)
 e](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

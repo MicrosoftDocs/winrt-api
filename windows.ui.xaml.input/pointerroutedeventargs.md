@@ -47,7 +47,7 @@ Specific events often have information available in the various pointer device a
 
 The object retrieved by the GetCurrentPoint and GetIntermediatePoints methods provide access to extended pointer info through the [Properties](../windows.ui.input/pointerpoint_properties.md) property, which gets a [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) object.
 
-In the following example, we get extended pointer properties through the [PointerPoint](../windows.ui.input/pointerpoint.md) and [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) objects. (See [Quickstart: Pointers](https://msdn.microsoft.com/library/90967981-40c0-4a7c-9ba9-86c28c78e154) for the complete example.)
+In the following example, we get extended pointer properties through the [PointerPoint](../windows.ui.input/pointerpoint.md) and [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) objects. (See [Quickstart: Pointers](https://docs.microsoft.com/previous-versions/windows/apps/hh465383(v=win.10)) for the complete example.)
 
 [!code-csharp[SnippetQueryPointer](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
 

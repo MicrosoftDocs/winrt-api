@@ -21,4 +21,4 @@ Use the AQS string returned by GetDeviceSelector with the [DeviceInformation](..
 ## -examples
 
 ## -see-also
-[Get battery information](https://msdn.microsoft.com/library/a9fb0f39-8827-420a-922d-dcee6fb9c9d2)
+[Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10))

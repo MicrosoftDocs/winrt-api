@@ -24,7 +24,7 @@ RangeBaseAutomationPeer has overrides of **Core** methods such that the associat
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports pattern support for [PatternInterface.RangeValue](patterninterface.md) ([IRangeValueProvider](../windows.ui.xaml.automation.provider/irangevalueprovider.md)).
 + [GetClassName](automationpeer_getclassname_614238974.md) and [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) don't have implementations. It's expected that you will implement these. A typical [GetAutomationControlTypeCore](automationpeer_getautomationcontroltypecore_1718556232.md) implementation would return [AutomationControlType.ProgressBar](automationcontroltype.md), [AutomationControlType.ScrollBar](automationcontroltype.md) or [AutomationControlType.Slider](automationcontroltype.md).
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 ### **RangeBaseAutomationPeer** derived classes
 
@@ -37,4 +37,4 @@ RangeBaseAutomationPeer is the parent class for these classes:
 ## -examples
 
 ## -see-also
-[RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IRangeValueProvider](../windows.ui.xaml.automation.provider/irangevalueprovider.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IRangeValueProvider](../windows.ui.xaml.automation.provider/irangevalueprovider.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

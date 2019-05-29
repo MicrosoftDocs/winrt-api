@@ -24,4 +24,4 @@ AdvertisingManager is a static runtime object and does not need to be retrieved 
 ## -examples
 
 ## -see-also
-[Microsoft Advertising SDK](https://aka.ms/ads-sdk-uwp), [Microsoft Store policies for advertising conduct and content](https://msdn.microsoft.com/library/windows/apps/dn764944.aspx#pol_10_10)
+[Microsoft Advertising SDK](https://aka.ms/ads-sdk-uwp), [Microsoft Store policies for advertising conduct and content](https://docs.microsoft.com/legal/windows/agreements/store-policies)

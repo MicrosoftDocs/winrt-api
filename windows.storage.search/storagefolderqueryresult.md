@@ -98,7 +98,7 @@ queryResult.getFoldersAsync().done(function(folders) {
 The `queryResult` variable gets the storageFolderQueryResult that is used to retrieve file groups (or folders) that meet the criteria of the query.
 
 > [!NOTE]
-> You need the Pictures library capability to access the library using [KnownFolders.PicturesLibrary](../windows.storage/knownfolders_pictureslibrary.md). To learn more about capabilities and file access, see [File access permissions](https://msdn.microsoft.com/library/3a404cc0-a997-45c8-b2e8-44745539759d).
+> You need the Pictures library capability to access the library using [KnownFolders.PicturesLibrary](../windows.storage/knownfolders_pictureslibrary.md). To learn more about capabilities and file access, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
 
 ## -see-also
 

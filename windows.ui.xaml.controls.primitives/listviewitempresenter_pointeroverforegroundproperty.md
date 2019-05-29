@@ -20,4 +20,4 @@ The identifier for the [PointerOverForeground](listviewitempresenter_pointerover
 ## -examples
 
 ## -see-also
-[PointerOverForeground](listviewitempresenter_pointeroverforeground.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[PointerOverForeground](listviewitempresenter_pointeroverforeground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

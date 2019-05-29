@@ -24,5 +24,5 @@ Information about a game save container.
 
 ## -see-also
 
-[Object](https://msdn.microsoft.com/library/system.object.aspx)
+[Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)
 [GameSaveProvider.CreateContainerInfoQuery](gamesaveprovider_createcontainerinfoquery_424994130.md)

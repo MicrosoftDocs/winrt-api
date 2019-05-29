@@ -16,7 +16,7 @@ Creates a new [GameSaveContainer](gamesavecontainer.md) to store a game save.
 ## -parameters
 ### -param name
 
-Type: **String** \[JavaScript\] | [System.String](https://msdn.microsoft.com/library/system.string.aspx) \[.NET\] | [Platform::String](https://msdn.microsoft.com/library/windows/apps/hh755812.aspx) \[C++\]
+Type: **String** \[JavaScript\] | [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) \[.NET\] | [Platform::String](https://docs.microsoft.com/cpp/cppcx/platform-string-class) \[C++\]
 
 Name of the new game save container. The maximum length for the container name is 256 characters.
 

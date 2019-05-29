@@ -14,9 +14,9 @@ public class DataPlanUsage : Windows.Networking.Connectivity.IDataPlanUsage
 Represents data plan specific data usage information for a connection.
 
 ## -remarks
-For more information on using cost data to manage connectivity, see [Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/9dc2c020-06c0-41dd-bf36-203432ad9d4f).
+For more information on using cost data to manage connectivity, see [Quickstart: Managing metered network cost constraints](https://docs.microsoft.com/previous-versions/windows/apps/hh750310(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/9dc2c020-06c0-41dd-bf36-203432ad9d4f)
+[Quickstart: Managing metered network cost constraints](https://docs.microsoft.com/previous-versions/windows/apps/hh750310(v=win.10))

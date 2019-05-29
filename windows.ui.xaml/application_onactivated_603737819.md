@@ -28,7 +28,7 @@ For most kinds of activation, you can perform initialization specific to the act
 + [OnCachedFileUpdaterActivated](application_oncachedfileupdateractivated_383584449.md)
 
 
-For more info, see [App lifecycle](https://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10).
+For more info, see [App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle).
 
 ## -examples
 

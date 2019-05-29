@@ -14,7 +14,7 @@ Gets the device selector from the given interface identifier.
 
 ## -parameters
 ### -param interfaceId
-The interface [Guid](https://msdn.microsoft.com/library/system.guid.aspx) that is associated with the custom sensor. This [Guid](https://msdn.microsoft.com/library/system.guid.aspx) is defined and registered by the sensor.
+The interface [Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN) that is associated with the custom sensor. This [Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN) is defined and registered by the sensor.
 
 ## -returns
 Returns the device selector, if it exists; otherwise, null.

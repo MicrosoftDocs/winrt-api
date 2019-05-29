@@ -17,11 +17,11 @@ Loads one or more resource index ("PRI") files and adds their contents to the de
 The files you want to add.
 
 ## -remarks
-The LoadPRIFiles method accepts files only from inside the app package or dependent packages. See [How to load string resources](https://msdn.microsoft.com/library/849f5bbf-6d85-4760-8832-75d3eff9bd96).
+The LoadPRIFiles method accepts files only from inside the app package or dependent packages. See [How to load string resources](https://docs.microsoft.com/previous-versions/windows/apps/hh465248(v=win.10)).
 
 If resource packs are used by an app, this method will always fail.
 
 ## -examples
 
 ## -see-also
-[How to load string resources](https://msdn.microsoft.com/library/849f5bbf-6d85-4760-8832-75d3eff9bd96)
+[How to load string resources](https://docs.microsoft.com/previous-versions/windows/apps/hh465248(v=win.10))

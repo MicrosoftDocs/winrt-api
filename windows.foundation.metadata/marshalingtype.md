@@ -20,7 +20,7 @@ The class prevents marshaling on all interfaces.
 The class marshals and unmarshals to the same pointer value on all interfaces.
 
 ### -field Standard:3
-The class does not implement [IMarshal](https://msdn.microsoft.com/library/e6f08949-f27d-4aba-adff-eaf9c356a928) or forwards to [CoGetStandardMarshal](https://msdn.microsoft.com/library/0cb74adc-e192-4ae5-9267-02c79e301681) on all interfaces.
+The class does not implement [IMarshal](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal) or forwards to [CoGetStandardMarshal](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetstandardmarshal) on all interfaces.
 
 ### -field InvalidMarshaling:0
 The class can't be marshaled.

@@ -31,5 +31,5 @@ The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demon
 [!code-js[all_savepicker_setprops](../windows.storage.pickers/code/FilePicker/js/js/scenario4.js#Snippetall_savepicker_setprops)]
 
 ## -see-also
-[File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with file pickers (HTML)](https://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [Open files and folders with a picker](https://msdn.microsoft.com/library/f87dbe2f-77db-4573-8172-29e11abefd34), [FileSavePicker.FileTypeChoices property](filesavepicker_filetypechoices.md)
+[File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with file pickers (HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers), [FileSavePicker.FileTypeChoices property](filesavepicker_filetypechoices.md)
 ilesavepicker_filetypechoices.md)

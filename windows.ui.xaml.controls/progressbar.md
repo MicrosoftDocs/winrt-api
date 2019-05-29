@@ -77,4 +77,4 @@ private void RepeatButton_Click(object sender, RoutedEventArgs e)
 ```
 
 ## -see-also
-[Progress controls overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/progress-controls), [ProgressRing](progressring.md), [Controls list](https://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee)
+[Progress controls overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/progress-controls), [ProgressRing](progressring.md), [Controls list](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/)

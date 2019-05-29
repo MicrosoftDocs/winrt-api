@@ -84,13 +84,13 @@ clientSocket.control.QualityOfService = SocketQualityOfService.lowLatency;
 // Now you can call the ConnectAsync method to connect the DatagramSocket.
 ```
 
-For more information on using DatagramSocketControl, see [How to use advanced socket controls ](https://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4) and [How to use advanced socket controls ](https://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682).
+For more information on using DatagramSocketControl, see [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)) and [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)).
 
 ## -examples
 
 ## -see-also
 
-[How to use advanced socket controls  ](https://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4), [How to use advanced socket controls  ](https://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682), [DatagramSocket](datagramsocket.md), [DatagramSocket.Control](datagramsocket_control.md), [DatagramSocketInformation](datagramsocketinformation.md), [DatagramSocket sample](https://go.microsoft.com/fwlink/p/?LinkID=243037), [DatagramSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
+[How to use advanced socket controls  ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls  ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.Control](datagramsocket_control.md), [DatagramSocketInformation](datagramsocketinformation.md), [DatagramSocket sample](https://go.microsoft.com/fwlink/p/?LinkID=243037), [DatagramSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
 
 ## -capabilities
 

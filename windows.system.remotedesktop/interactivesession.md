@@ -14,7 +14,7 @@ Provides Remote Desktop information about the current session.
 
 ## -remarks
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment](https://msdn.microsoft.com/library/windows/apps/jj157115.aspx).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment](https://docs.microsoft.com/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
 
 ## -examples
 

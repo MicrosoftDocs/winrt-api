@@ -11,7 +11,7 @@ public class SettingsPaneCommandsRequestedEventArgs : Windows.UI.ApplicationSett
 
 ## -description
 > [!NOTE]
-> SettingsPaneCommandsRequestedEventArgs is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](https://msdn.microsoft.com/library/2d765e90-3fa0-42f5-a5cb-bedc14c3f60a).
+> SettingsPaneCommandsRequestedEventArgs is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](https://docs.microsoft.com/windows/uwp/app-settings/guidelines-for-app-settings).
 
 Contains arguments that are available from the event object during the [CommandsRequested](settingspane_commandsrequested.md) event.
 
