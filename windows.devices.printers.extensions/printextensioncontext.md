@@ -43,4 +43,4 @@ For more information about using the **PrinterExtensionContext** class, see the 
 ## -examples
 
 ## -see-also
-[DeviceInformation class](https://msdn.microsoft.com/library/windows/apps/windows.devices.enumeration.deviceinformation), [UWP device apps for printers](https://msdn.microsoft.com/library/windows/hardware/br259129)
+[DeviceInformation class](https://docs.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation), [UWP device apps for printers](https://msdn.microsoft.com/library/windows/hardware/br259129)
