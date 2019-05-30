@@ -37,4 +37,4 @@ This method should be used instead of [GetPixelDataAsync](bitmapdecoder_getpixel
 ## -examples
 
 ## -see-also
-[Imaging](https://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea), [Imaging](https://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea), [GetPixelDataAsync](bitmapdecoder_getpixeldataasync_1391309547.md)
+[Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging), [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging), [GetPixelDataAsync](bitmapdecoder_getpixeldataasync_1391309547.md)

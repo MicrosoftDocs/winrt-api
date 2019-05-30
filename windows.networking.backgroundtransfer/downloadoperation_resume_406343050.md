@@ -18,4 +18,4 @@ This method can be called on a paused download operation to resume the download.
 ## -examples
 
 ## -see-also
-[Quickstart: Download a file](https://msdn.microsoft.com/library/f7b1a3a0-87b8-4c85-a2a3-be9ff7f04d53), [Background Transfer Download sample](https://go.microsoft.com/fwlink/p/?linkid=245064)
+[Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10)), [Background Transfer Download sample](https://go.microsoft.com/fwlink/p/?linkid=245064)

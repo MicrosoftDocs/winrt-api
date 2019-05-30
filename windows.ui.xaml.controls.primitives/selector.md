@@ -41,4 +41,4 @@ Selector is the parent class for these controls:
 ## -examples
 
 ## -see-also
-[ItemsControl](../windows.ui.xaml.controls/itemscontrol.md), [Adding ListView and GridView controls](https://msdn.microsoft.com/library/ede8164f-ad0f-4249-b5ab-6f46ca65754a), [Adding ListView, SemanticZoom, and other data controls](https://msdn.microsoft.com/library/d43a9e84-6b76-4d33-86bd-505cc7e73145), [How to add a list box](https://msdn.microsoft.com/library/da62d0a1-60e6-42b6-9f72-70e2ed047c0d)
+[ItemsControl](../windows.ui.xaml.controls/itemscontrol.md), [Adding ListView and GridView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780618(v=win.10)), [Adding ListView, SemanticZoom, and other data controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780615(v=win.10)), [How to add a list box](https://docs.microsoft.com/previous-versions/windows/apps/hh868196(v=win.10))

@@ -25,4 +25,4 @@ A UITextFont recommendation is available for every supported language or script.
 ## -examples
 
 ## -see-also
-[Guidelines and checklist for text and typography](https://msdn.microsoft.com/library/1b8b90ad-cdc4-4997-acde-871c1e94a929), [Understanding the Windows 8 silhouette](https://msdn.microsoft.com/library/2d4ec23b-185e-4f44-a302-02b77b0d4cee)
+[Guidelines and checklist for text and typography](https://docs.microsoft.com/windows/uwp/controls-and-patterns/fonts), [Understanding the Windows 8 silhouette](https://docs.microsoft.com/previous-versions/windows/apps/hh872191(v=win.10))

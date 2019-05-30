@@ -20,7 +20,7 @@ The zero-based index of the item in the vector to return.
 The item at the specified index.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) interface.
 
 ## -examples
 

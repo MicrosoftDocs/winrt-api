@@ -19,7 +19,7 @@ Gets or sets the content of the current selection in the text box.
 
 
 ## -property-value
-The currently selected text in the text box. If no text is selected, the value is [String.Empty](https://msdn.microsoft.com/library/system.string.empty.aspx).
+The currently selected text in the text box. If no text is selected, the value is [String.Empty](https://docs.microsoft.com/dotnet/api/system.string.empty?redirectedfrom=MSDN).
 
 ## -remarks
 

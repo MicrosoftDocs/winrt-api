@@ -18,4 +18,4 @@ This object is accessed when your app supports the [ReadingChanged](compass_read
 ## -examples
 
 ## -see-also
-[Sensor data and display orientation](https://msdn.microsoft.com/library/f90937f1-edaf-469c-b360-2ed67cb4fad0)
+[Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10))

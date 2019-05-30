@@ -22,7 +22,7 @@ The system raises the [CoreWindow.SizeChanged](../windows.ui.core/corewindow_siz
 
 ### User experience
 
-Full-screen mode is not the same as maximized or Tablet Mode. (Tablet Mode is a feature of [Continuum](https://msdn.microsoft.com/library/windows/hardware/dn917883.aspx).) When an app is in full-screen mode, it takes up the entirety of the screen. System elements, like title bars, status bars, or the taskbar, are hidden by default. In cases where a windowed mode is not available and apps always fill the entire screen, such as on phones or devices in Tablet Mode, full-screen mode still causes the system elements to be hidden.
+Full-screen mode is not the same as maximized or Tablet Mode. (Tablet Mode is a feature of [Continuum](https://docs.microsoft.com/windows-hardware/design/device-experiences/continuum).) When an app is in full-screen mode, it takes up the entirety of the screen. System elements, like title bars, status bars, or the taskbar, are hidden by default. In cases where a windowed mode is not available and apps always fill the entire screen, such as on phones or devices in Tablet Mode, full-screen mode still causes the system elements to be hidden.
 
 When the user switches away from the app to use another app, the full-screen nature of the app is preserved. When the user switches to the app again, it is full-screen.
 

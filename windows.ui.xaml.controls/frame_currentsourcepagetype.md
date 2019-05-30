@@ -21,7 +21,7 @@ CurrentSourcePageType and [SourcePageType](frame_sourcepagetype.md) are normally
 
 
 > [!TIP]
-> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://msdn.microsoft.com/library/system.type.aspx). When programming using C#, it is common to use the **typeof** operator to get references to the [System.Type](https://msdn.microsoft.com/library/system.type.aspx) of a type. In Microsoft Visual Basic, use **GetType**.
+> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN). When programming using C#, it is common to use the **typeof** operator to get references to the [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) of a type. In Microsoft Visual Basic, use **GetType**.
 
 ## -examples
 

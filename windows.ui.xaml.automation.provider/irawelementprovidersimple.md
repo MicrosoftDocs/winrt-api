@@ -20,4 +20,4 @@ Because it's a class, IRawElementProviderSimple can't be used for the COM scenar
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [IRawElementProviderSimple (COM interface)](https://msdn.microsoft.com/library/f0ec6185-acd0-4df7-88f4-fd00747f98bf), [FindItemByProperty](iitemcontainerprovider_finditembyproperty_1997743353.md)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [IRawElementProviderSimple (COM interface)](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple), [FindItemByProperty](iitemcontainerprovider_finditembyproperty_1997743353.md)

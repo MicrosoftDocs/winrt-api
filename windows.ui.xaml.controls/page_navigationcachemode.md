@@ -29,7 +29,7 @@ If you want to change the value of NavigationCacheMode programmatically to **Ena
 If you change the value of NavigationCacheMode from **Required** or **Enabled** to **Disabled**, the page is flushed from the cache. The page is not simply marked as available to be flushed when the configured [CacheSize](frame_cachesize.md) is exceeded.
 
 ## -examples
-For example code that uses NavigationCacheMode, see [Navigation](https://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec). For a complete sample that uses many of the [Page](page.md) and [Frame](frame.md) features together, see [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214).
+For example code that uses NavigationCacheMode, see [Navigation](https://docs.microsoft.com/windows/uwp/layout/navigation-basics). For a complete sample that uses many of the [Page](page.md) and [Frame](frame.md) features together, see [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214).
 
 ## -see-also
-[Frame](frame.md), [Frame.CacheSize](frame_cachesize.md), [NavigationCacheMode](../windows.ui.xaml.navigation/navigationcachemode.md), [Navigation](https://msdn.microsoft.com/library/742c1c18-c7b1-47b7-866c-726eeb8235ec), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Frame](frame.md), [Frame.CacheSize](frame_cachesize.md), [NavigationCacheMode](../windows.ui.xaml.navigation/navigationcachemode.md), [Navigation](https://docs.microsoft.com/windows/uwp/layout/navigation-basics), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)

@@ -29,7 +29,7 @@ function getConnectionProfileInfo(connectionProfile) {
 
 ```
 
-For more examples of how these class methods are implemented to access connection information, see [Quickstart: Retrieving network connection information](https://msdn.microsoft.com/library/ef383500-f2a9-4b93-8f6b-1f87560305d8).
+For more examples of how these class methods are implemented to access connection information, see [Quickstart: Retrieving network connection information](https://docs.microsoft.com/previous-versions/windows/apps/hh452990(v=win.10)).
 
 ### Version history
 

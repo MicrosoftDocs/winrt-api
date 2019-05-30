@@ -20,4 +20,4 @@ The identifier for the [VerticalFirstOfMonthLabelAlignment](calendarview_vertica
 ## -examples
 
 ## -see-also
-[VerticalFirstOfMonthLabelAlignment](calendarview_verticalfirstofmonthlabelalignment.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[VerticalFirstOfMonthLabelAlignment](calendarview_verticalfirstofmonthlabelalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

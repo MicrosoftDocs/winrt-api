@@ -19,7 +19,7 @@ The height, in pixels, of the object. The default is 0. The default might be enc
 > [!NOTE]
 > Although it has an [ActualHeightProperty](frameworkelement_actualheightproperty.md) backing field, ActualHeight does not raise property change notifications and it should be thought of as a regular CLR property and not a dependency property.
 
-ActualHeight is a calculated property. The calculations are a result of a layout pass, where the object is sized in layout according to the logic of its successive layout parents. For more info see [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
+ActualHeight is a calculated property. The calculations are a result of a layout pass, where the object is sized in layout according to the logic of its successive layout parents. For more info see [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
 
 
 <!--BUG this is a terrible formoreinfo. Need meaty stuff about how layout actually works.-->

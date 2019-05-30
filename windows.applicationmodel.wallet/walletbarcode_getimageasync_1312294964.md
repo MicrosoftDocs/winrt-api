@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessS
 Creates and returns a bitmap image stream for the barcode (or returns the custom image used during instantiation).
 
 ## -returns
-An asynchronous operation. If you use [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type on successful completion is an [IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md) instance. This can be assigned as the source for an image (with some additional code).
+An asynchronous operation. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type on successful completion is an [IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md) instance. This can be assigned as the source for an image (with some additional code).
 
 ## -remarks
 If the [WalletBarcode](walletbarcode.md) object was instantiated using the [WalletBarcode](walletbarcode_walletbarcode_199548425.md) constructor that takes a custom image as a parameter, that custom image is returned on completion. Otherwise, an image of the system-defined barcode is created and then returned.
@@ -38,4 +38,4 @@ wbc.getImageAsync().done(function (img) {
 ## -examples
 
 ## -see-also
-[IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), [Asynchronous programming in JavaScript](https://msdn.microsoft.com/library/b1544667-77f5-4269-8d58-ad81d3ca5dcf)
+[IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), [Asynchronous programming in JavaScript](https://docs.microsoft.com/previous-versions/windows/apps/hh700330(v=win.10))

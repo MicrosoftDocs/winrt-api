@@ -57,4 +57,4 @@ To provide general error handling for any exceptions that your app code doesn't 
 ## -examples
 
 ## -see-also
-[Handle app activation](https://msdn.microsoft.com/library/da9a6a43-f09d-4512-a2ab-9b6132431007), [Handle app suspend](https://msdn.microsoft.com/library/f84f1512-24b9-45ec-bf23-a09e0ac985b0), [Handle app resume](https://msdn.microsoft.com/library/daccc556-b814-4600-a10a-90b82664ea15), [Window](window.md)
+[Handle app activation](https://docs.microsoft.com/windows/uwp/launch-resume/activate-an-app), [Handle app suspend](https://docs.microsoft.com/windows/uwp/launch-resume/suspend-an-app), [Handle app resume](https://docs.microsoft.com/windows/uwp/launch-resume/resume-an-app), [Window](window.md)

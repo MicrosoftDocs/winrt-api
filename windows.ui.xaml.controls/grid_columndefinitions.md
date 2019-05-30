@@ -38,4 +38,4 @@ The following example creates a [Grid](grid.md) with two columns by using [Colum
 [!code-xml[ColumnDefinitions](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml#SnippetColumnDefinitions)]
 
 ## -see-also
-[RowDefinitions](grid_rowdefinitions.md), [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[RowDefinitions](grid_rowdefinitions.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)

@@ -16,7 +16,7 @@ Gets the action that is associated with the activated contact.
 The action that is associated with the activated contact.
 
 ## -remarks
-For info about how to handle app activation through contact actions, see [Quickstart: Handling contact actions ](https://msdn.microsoft.com/library/397d8b2a-6255-4f37-8556-449a3be2ef3f) and [Quickstart: Handling contact actions ](https://msdn.microsoft.com/library/61bacc8a-24c9-4b3d-b77b-e0822467700c).
+For info about how to handle app activation through contact actions, see [Quickstart: Handling contact actions ](https://docs.microsoft.com/previous-versions/windows/apps/dn518236(v=win.10)) and [Quickstart: Handling contact actions ](https://docs.microsoft.com/previous-versions/windows/apps/dn518338(v=win.10)).
 
 ## -examples
 

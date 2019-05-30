@@ -15,7 +15,7 @@ Gets the most relevant date for the item.
 ## -property-value
 The item's date.
 
-The system determines the most relevant date based on the type of the item. For example, if the item is a photo the date in [System.Photo.DateTaken](https://msdn.microsoft.com/library/windows/desktop/bb760410.aspx) is returned. Or if the item is a song the date in [System.Media.DateReleased](https://msdn.microsoft.com/library/windows/desktop/bb787397.aspx) is returned.
+The system determines the most relevant date based on the type of the item. For example, if the item is a photo the date in [System.Photo.DateTaken](https://docs.microsoft.com/windows/desktop/properties/props-system-photo-datetaken) is returned. Or if the item is a song the date in [System.Media.DateReleased](https://docs.microsoft.com/windows/desktop/properties/props-system-media-datereleased) is returned.
 
 ## -remarks
 This property lets you get the most relevant date for an item without the need to access item-specific properties.

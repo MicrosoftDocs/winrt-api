@@ -10,10 +10,10 @@ public string Title { get; }
 # Windows.Storage.SystemProperties.Title
 
 ## -description
-Gets the name of the [System.Title](https://msdn.microsoft.com/library/windows/desktop/bb787584.aspx) property (one of the [Windows file properties](https://msdn.microsoft.com/library/7532e58f-bbf2-4e36-9d81-c8e04b92cb7c).
+Gets the name of the [System.Title](https://docs.microsoft.com/windows/desktop/properties/props-system-title) property (one of the [Windows file properties](https://docs.microsoft.com/windows/desktop/properties/props).
 
 ## -property-value
-The name of the [System.Title](https://msdn.microsoft.com/library/windows/desktop/bb787584.aspx) file property.
+The name of the [System.Title](https://docs.microsoft.com/windows/desktop/properties/props-system-title) file property.
 
 ## -remarks
 

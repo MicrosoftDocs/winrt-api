@@ -27,9 +27,9 @@ AppBarAutomationPeer has overrides of **Core** methods such that the associated 
 > [!NOTE]
 > Windows 8: returns [AutomationControlType.Custom](automationcontroltype.md)
 + The peer can fire the [PropertyChanged](automationevents.md) automation event when [ToggleState](appbarautomationpeer_togglestate.md) of the peer and owner control changes.
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [AppBar](../windows.ui.xaml.controls/appbar.md), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [AppBar](../windows.ui.xaml.controls/appbar.md), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md)

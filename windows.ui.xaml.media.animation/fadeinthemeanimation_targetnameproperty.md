@@ -20,4 +20,4 @@ The identifier for the [TargetName](fadeinthemeanimation_targetname.md) dependen
 ## -examples
 
 ## -see-also
-[Animating fades](https://msdn.microsoft.com/library/21be4a46-8d63-451f-ae34-23c9e11f62da), [Guidelines and checklist for fade animations](https://msdn.microsoft.com/library/975e5ee3-efbe-4159-8d10-3c94143dd07f)
+[Animating fades](https://docs.microsoft.com/previous-versions/windows/apps/jj649429(v=win.10)), [Guidelines and checklist for fade animations](https://docs.microsoft.com/windows/uwp/style/motion-fade)

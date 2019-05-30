@@ -17,13 +17,13 @@ Declares alternate composition and blending modes for elements in mixed XAML / M
 Uses values from successive parents in the visual tree. This is the default.
 
 ### -field SourceOver:1
-Uses standard XAML source-over-destination mode. This corresponds to [D2D1_PRIMITIVE_BLEND_SOURCE_OVER](https://msdn.microsoft.com/library/411a42c9-f8d7-46f3-a6e6-51afc83375ad).
+Uses standard XAML source-over-destination mode. This corresponds to [D2D1_PRIMITIVE_BLEND_SOURCE_OVER](https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_primitive_blend).
 
 ### -field MinBlend:2
-Uses the minimum of the source and destination value for each pixel. This corresponds to [D2D1_PRIMITIVE_BLEND_MIN](https://msdn.microsoft.com/library/411a42c9-f8d7-46f3-a6e6-51afc83375ad).
+Uses the minimum of the source and destination value for each pixel. This corresponds to [D2D1_PRIMITIVE_BLEND_MIN](https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_primitive_blend).
 
 ### -field (not named):3
-Uses destination invert behavior. This corresponds to [D2D1_COMPOSITE_MODE_MASK_INVERT](https://msdn.microsoft.com/library/4f01e805-aed7-4bfc-9793-42a9fdde3473).
+Uses destination invert behavior. This corresponds to [D2D1_COMPOSITE_MODE_MASK_INVERT](https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_composite_mode).
 
 
 ## -remarks

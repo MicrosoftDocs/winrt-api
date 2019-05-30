@@ -25,4 +25,4 @@ You can iterate through a [ResourceDictionary](resourcedictionary.md) in C# or M
 ## -examples
 
 ## -see-also
-[ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)
+[ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

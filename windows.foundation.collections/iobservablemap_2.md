@@ -15,7 +15,7 @@ Notifies listeners of dynamic changes to a map, such as when items are added or 
 ## -remarks
 The IObservableMap&lt;K,V&gt; interface enables clients to register for notification events to [IMap&lt;K,V&gt;](imap_2.md) collections. For example, you might use IObservableMap&lt;K,V&gt; when you need to keep two map structures synchronized. In this case, use the IObservableMap&lt;K,V&gt; interface to receive notification of changes, so that the associated data structure can be updated.
 
-Observable collections are mainly useful for XAML data binding scenarios. For more info, see [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
+Observable collections are mainly useful for XAML data binding scenarios. For more info, see [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth).
 
 ### Interface inheritance
 
@@ -28,4 +28,4 @@ IObservableMap&lt;K,V&gt; isn't hidden for .NET usage. However, it's more common
 ## -examples
 
 ## -see-also
-[IObservableVector&lt;T&gt;](iobservablevector_1.md), [Collections (C++/CX)](https://docs.microsoft.com/cpp/cppcx/collections-c-cx), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[IObservableVector&lt;T&gt;](iobservablevector_1.md), [Collections (C++/CX)](https://docs.microsoft.com/cpp/cppcx/collections-c-cx), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

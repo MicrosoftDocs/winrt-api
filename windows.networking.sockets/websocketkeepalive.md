@@ -19,7 +19,7 @@ A UWP app is normally suspended when it is no longer in the foreground. There ar
 
 WebSocketKeepAlive is used as the [TaskEntryPoint](../windows.applicationmodel.background/backgroundtaskbuilder_taskentrypoint.md) for a keep-alive in [ControlChannelTrigger](controlchanneltrigger.md). A developer will need to write code to handle receiving data.
 
-For more information about suspending and waking up an app, [How to set background connectivity options](https://msdn.microsoft.com/library/b6042b5f-5cee-4dee-8cb4-8f376f878e97).
+For more information about suspending and waking up an app, [How to set background connectivity options](https://docs.microsoft.com/previous-versions/windows/apps/hh771189(v=win.10)).
 
 For more information on the WebSocket keep-alive control frames, see the [WebSocket Protocol](https://go.microsoft.com/fwlink/p/?linkid=240292).
 

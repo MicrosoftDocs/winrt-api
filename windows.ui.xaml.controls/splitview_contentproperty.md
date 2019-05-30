@@ -20,4 +20,4 @@ The identifier for the [Content](splitview_content.md)  dependency property.
 ## -examples
 
 ## -see-also
-[Content](splitview_content.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[Content](splitview_content.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

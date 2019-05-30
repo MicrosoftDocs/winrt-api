@@ -17,7 +17,7 @@ Modifies the target data before passing it to the source object. This method is 
 The target data being passed to the source.
 
 ### -param targetType
-The type of the target property, as a type reference ([System.Type](https://msdn.microsoft.com/library/system.type.aspx) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The type of the target property, as a type reference ([System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param parameter
 An optional parameter to be used in the converter logic.
@@ -34,4 +34,4 @@ If you don't use a converter for **TwoWay** bindings it's acceptable to leave Co
 ## -examples
 
 ## -see-also
-[Convert](ivalueconverter_convert_101701969.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[Convert](ivalueconverter_convert_101701969.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

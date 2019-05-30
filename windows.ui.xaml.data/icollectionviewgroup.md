@@ -18,4 +18,4 @@ ICollectionViewGroup is used like a view model to represent a group within a col
 ## -examples
 
 ## -see-also
-[CollectionViewSource](collectionviewsource.md), [Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[CollectionViewSource](collectionviewsource.md), [Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

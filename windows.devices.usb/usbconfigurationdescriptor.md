@@ -18,9 +18,9 @@ Derives information from the first 9 bytes of a USB configuration descriptor. Th
 
 
 ## -remarks
-A USB device exposes its capabilities in the form of a USB configuration. A USB configuration is described in a configuration descriptor that the UsbConfigurationDescriptor class represents. For information about the descriptor, see [USB configuration descriptors](https://msdn.microsoft.com/library/6bc00e49-cbfe-42a3-ad45-f6dbc6820415).
+A USB device exposes its capabilities in the form of a USB configuration. A USB configuration is described in a configuration descriptor that the UsbConfigurationDescriptor class represents. For information about the descriptor, see [USB configuration descriptors](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index).
 
 ## -examples
 
 ## -see-also
-[USB configuration descriptors](https://msdn.microsoft.com/library/6bc00e49-cbfe-42a3-ad45-f6dbc6820415)
+[USB configuration descriptors](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index)

@@ -23,4 +23,4 @@ The identifier for the [GridViewItemPresenterPadding](gridviewitempresenter_grid
 ## -examples
 
 ## -see-also
-[GridViewItemPresenterPadding](gridviewitempresenter_gridviewitempresenterpadding.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[GridViewItemPresenterPadding](gridviewitempresenter_gridviewitempresenterpadding.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

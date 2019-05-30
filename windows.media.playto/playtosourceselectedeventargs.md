@@ -13,7 +13,7 @@ public class PlayToSourceSelectedEventArgs : Windows.Media.PlayTo.IPlayToSourceS
 Provides information about the [SourceSelected](playtomanager_sourceselected.md) event.
 
 ## -remarks
-For an example of how to use Play To in an application, see [Quickstart: Using Play To in applications (JavaScript)](https://msdn.microsoft.com/library/90ee116a-ee6d-4e1d-8b91-8f7f4f958b9c) or [PlayReady DRM](https://msdn.microsoft.com/library/dd8ffa8c-dff0-41e3-8f7a-345c5a248fc2).
+For an example of how to use Play To in an application, see [Quickstart: Using Play To in applications (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465184(v=win.10)) or [PlayReady DRM](https://docs.microsoft.com/windows/uwp/audio-video-camera/playready-client-sdk).
 
 ## -examples
 

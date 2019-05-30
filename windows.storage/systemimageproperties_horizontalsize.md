@@ -10,10 +10,10 @@ public string HorizontalSize { get; }
 # Windows.Storage.SystemImageProperties.HorizontalSize
 
 ## -description
-Gets the name of the [System.Image.HorizontalSize](https://msdn.microsoft.com/library/windows/desktop/bb787462.aspx) property (one of the [Windows image file properties](https://msdn.microsoft.com/library/windows/desktop/ff521691.aspx).
+Gets the name of the [System.Image.HorizontalSize](https://docs.microsoft.com/windows/desktop/properties/props-system-image-horizontalsize) property (one of the [Windows image file properties](https://docs.microsoft.com/windows/desktop/properties/image-bumper).
 
 ## -property-value
-The name of the [System.Image.HorizontalSize](https://msdn.microsoft.com/library/windows/desktop/bb787462.aspx) file property.
+The name of the [System.Image.HorizontalSize](https://docs.microsoft.com/windows/desktop/properties/props-system-image-horizontalsize) file property.
 
 ## -remarks
 

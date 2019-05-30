@@ -37,7 +37,7 @@ In this example, we define a custom tool button that, when selected, causes subs
 The following example steps through how to enable stroke selection through a custom tool button.
 
 > [!NOTE]
-> See [Inking controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/inking-controls) for both [InkCanvas](inkcanvas.md) and [InkToolbar](inktoolbar.md) UX guidelines. The following recommendation is relevant to this example:
+> See [Inking controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/inking-controls) for both [InkCanvas](inkcanvas.md) and [InkToolbar](inktoolbar.md) UX guidelines. The following recommendation is relevant to this example:
 + If providing stroke selection, we recommend using the "EF20" icon from the "Segoe MLD2 Assets" font for the tool button, with a "Selection tool" tooltip.
 
 
@@ -58,9 +58,9 @@ This handler configures the [InkPresenter](inkcanvas_inkpresenter.md) to pass un
 
 
 > **For a more detailed step through of this code**
-> See the [Pass-through input for advanced processing](https://msdn.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions#pass-through-input-for-advanced-processing) section of [Pen interactions and Windows Ink in UWP apps](https://msdn.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions).
+> See the [Pass-through input for advanced processing](https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions) section of [Pen interactions and Windows Ink in UWP apps](https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions).
 
-We also specified an icon for the button using the [SymbolIcon](symbolicon.md) element and the [{x:Bind} markup extension](https://msdn.microsoft.com/library/529fbeb5-e589-486f-a204-b310acdc5c06) that binds it to a field defined in the code-behind file (`SelectIcon`).
+We also specified an icon for the button using the [SymbolIcon](symbolicon.md) element and the [{x:Bind} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/x-bind-markup-extension) that binds it to a field defined in the code-behind file (`SelectIcon`).
 
 The following snippet includes both the [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event handler and the definition of `SelectIcon` for this example.
 
@@ -69,5 +69,5 @@ The following snippet includes both the [Click](../windows.ui.xaml.controls.prim
 [!code-csharp[SnippetCustomToolMain](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomTool.xaml.cs#SnippetCustomToolMain)]
 
 ## -see-also
-[Pen and stylus interactions](https://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar), [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [Ink sample (JavaScript)](https://go.microsoft.com/fwlink/p/?LinkID=620308), [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample)
+[Pen and stylus interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar), [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [Ink sample (JavaScript)](https://go.microsoft.com/fwlink/p/?LinkID=620308), [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample)
 

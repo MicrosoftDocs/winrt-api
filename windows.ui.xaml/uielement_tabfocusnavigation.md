@@ -34,5 +34,5 @@ Use this property instead of the [Control.TabNavigation](../windows.ui.xaml.cont
 ## -examples
 
 ## -see-also
-[Keyboard interactions](https://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), [Keyboard accessibility](https://msdn.microsoft.com/library/ddae8c4b-7907-49fe-9645-f105f8dfad8b)
+[Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](https://docs.microsoft.com/windows/uwp/accessibility/keyboard-accessibility)
 

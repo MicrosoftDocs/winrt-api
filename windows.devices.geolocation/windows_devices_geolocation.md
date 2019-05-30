@@ -7,7 +7,7 @@
 
 ## -description
 
-Provides APIs for [getting the current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8) or tracking the device's location over time. Location information may come from estimating a position from beacons like Wi-Fi access points and cell towers, from the device's IP address, or it may come from other sources such as a GNSS or GPS device. The Windows.Devices.Geolocation API provides the most appropriate geolocation data from all available sources.
+Provides APIs for [getting the current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location) or tracking the device's location over time. Location information may come from estimating a position from beacons like Wi-Fi access points and cell towers, from the device's IP address, or it may come from other sources such as a GNSS or GPS device. The Windows.Devices.Geolocation API provides the most appropriate geolocation data from all available sources.
 
 The accuracy of the location information depends on the source. The latitude and longitude may vary within the following ranges:
 
@@ -39,7 +39,7 @@ The first layer of the location services architecture consists of hardware in th
 
 ## -see-also
 
-[Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](https://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [geolocation sample](https://go.microsoft.com/fwlink/p/?linkid=533278), [Geotag sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geotag)
+[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [geolocation sample](https://go.microsoft.com/fwlink/p/?linkid=533278), [Geotag sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geotag)
 
 ## -capabilities
 

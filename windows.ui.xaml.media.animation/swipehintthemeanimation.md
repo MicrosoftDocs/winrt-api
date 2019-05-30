@@ -24,4 +24,4 @@ Note that setting the [Duration](timeline_duration.md) property has no effect on
 See the code example in [SwipeBackThemeAnimation](swipebackthemeanimation.md).
 
 ## -see-also
-[Timeline](timeline.md), [Animating swipe gestures](https://msdn.microsoft.com/library/fd1921de-ae4e-4f8e-b917-3e8a33810f23)
+[Timeline](timeline.md), [Animating swipe gestures](https://docs.microsoft.com/previous-versions/windows/apps/jj649435(v=win.10))

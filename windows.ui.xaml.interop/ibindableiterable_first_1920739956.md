@@ -16,7 +16,7 @@ Returns a bindable iterator that iterates over the items in the collection.
 The bindable iterator.
 
 ## -remarks
-This interface supports the creation of data bindable collections in C++. When programming with .NET, this interface is hidden and developers should use the [System.Collections.IEnumerable](https://msdn.microsoft.com/library/system.collections.ienumerable.aspx) interface instead.
+This interface supports the creation of data bindable collections in C++. When programming with .NET, this interface is hidden and developers should use the [System.Collections.IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable?redirectedfrom=MSDN) interface instead.
 
 ## -examples
 

@@ -30,9 +30,9 @@ When you add print capabilities to your UWP app, you have to implement an event 
 
 ```
 
-To see the complete listing for this and other printing scenarios using **PrintTaskRequested**, see [Printing](https://msdn.microsoft.com/library/windows/apps/hh465225.aspx).
+To see the complete listing for this and other printing scenarios using **PrintTaskRequested**, see [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[Printing](https://msdn.microsoft.com/library/windows/apps/hh465225.aspx)
+[Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10))

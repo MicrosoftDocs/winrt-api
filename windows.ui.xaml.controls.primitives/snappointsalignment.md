@@ -34,7 +34,7 @@ This enumeration is used as a value by [ScrollViewer.HorizontalSnapPointsAlignme
 
 For a vertically oriented element, **Near** is the top and **Far** is the bottom. For a horizontally oriented element, **Near** is left and **Far** is right.
 
-To learn more about the swipe gesture and panning, see the "Panning behaviors" section of [Guidelines for panning](https://msdn.microsoft.com/library/b419f538-c7fb-4e7c-9547-5fb2494c0b71).
+To learn more about the swipe gesture and panning, see the "Panning behaviors" section of [Guidelines for panning](https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-panning).
 
 
 <!--Does RTL change these assumptions?-->

@@ -19,7 +19,7 @@ Provides a data source that adds grouping and current-item support to collection
 
 
 ## -remarks
-Use CollectionViewSource when you want to bind list controls to collections, but you want to display those collections in groups and maintain a current item independent from the list control. This is particularly useful when you want to bind multiple controls to the same collection and you want the current item in one control to change the current item in the other bound controls. You typically define a CollectionViewSource as a XAML resource and bind to it using the [{StaticResource} markup extension](https://msdn.microsoft.com/library/d50349b5-4588-4ebd-9458-75f629ccc395). You can then set its [Source](collectionviewsource_source.md) property in code-behind to a supported collection type.
+Use CollectionViewSource when you want to bind list controls to collections, but you want to display those collections in groups and maintain a current item independent from the list control. This is particularly useful when you want to bind multiple controls to the same collection and you want the current item in one control to change the current item in the other bound controls. You typically define a CollectionViewSource as a XAML resource and bind to it using the [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension). You can then set its [Source](collectionviewsource_source.md) property in code-behind to a supported collection type.
 
 Any controls that you bind to the same CollectionViewSource will always have the same current item. You can access the current item programmatically through the [ICollectionView.CurrentItem](icollectionview_currentitem.md) property of the [CollectionViewSource.View](collectionviewsource_view.md) property value.
 
@@ -87,4 +87,4 @@ groupInfoCVS.Source = result;
 
 
 ## -see-also
-[Binding](binding.md), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [XAML GridView grouping and SemanticZoom sample](https://go.microsoft.com/fwlink/p/?linkid=226564)
+[Binding](binding.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [XAML GridView grouping and SemanticZoom sample](https://go.microsoft.com/fwlink/p/?linkid=226564)

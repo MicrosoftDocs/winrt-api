@@ -31,7 +31,7 @@ If you're accessing a Setter instance using code, you cannot change the value of
 
 ### Migration notes
 
-+ Windows Presentation Foundation (WPF) and Microsoft Silverlight supported the ability to use a [Binding](../windows.ui.xaml.data/binding.md) expression to supply the [Value](setter_value.md) for a Setter in a [Style](style.md). The Windows Runtime doesn't support a [Binding](../windows.ui.xaml.data/binding.md) usage for [Setter.Value](../windows.ui.xaml.data/binding.md) (the [Binding](../windows.ui.xaml.data/binding.md) won't evaluate and the Setter has no effect, you won't get errors, but you won't get the desired result either). When you convert XAML styles from Windows Presentation Foundation (WPF) or Microsoft Silverlight XAML, replace any [Binding](../windows.ui.xaml.data/binding.md) expression usages with strings or objects that set values, or refactor the values as shared [{StaticResource} markup extension](https://msdn.microsoft.com/library/d50349b5-4588-4ebd-9458-75f629ccc395) values rather than [Binding](../windows.ui.xaml.data/binding.md)-obtained values.
++ Windows Presentation Foundation (WPF) and Microsoft Silverlight supported the ability to use a [Binding](../windows.ui.xaml.data/binding.md) expression to supply the [Value](setter_value.md) for a Setter in a [Style](style.md). The Windows Runtime doesn't support a [Binding](../windows.ui.xaml.data/binding.md) usage for [Setter.Value](../windows.ui.xaml.data/binding.md) (the [Binding](../windows.ui.xaml.data/binding.md) won't evaluate and the Setter has no effect, you won't get errors, but you won't get the desired result either). When you convert XAML styles from Windows Presentation Foundation (WPF) or Microsoft Silverlight XAML, replace any [Binding](../windows.ui.xaml.data/binding.md) expression usages with strings or objects that set values, or refactor the values as shared [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension) values rather than [Binding](../windows.ui.xaml.data/binding.md)-obtained values.
 
 
 ## -examples
@@ -88,4 +88,4 @@ This example shows how to use multiple Setter statements inside the [VisualState
 
 
 ## -see-also
-[SetterBase](setterbase.md), [TargetPropertyPath](targetpropertypath.md), [VisualState.Setters](visualstate_setters.md), [Style](style.md), [Migrating  or  XAML/code to a ](https://msdn.microsoft.com/library/f5957d92-1c41-4d55-a213-feaed62d9571)
+[SetterBase](setterbase.md), [TargetPropertyPath](targetpropertypath.md), [VisualState.Setters](visualstate_setters.md), [Style](style.md), [Migrating  or  XAML/code to a ](https://docs.microsoft.com/previous-versions/windows/apps/br229571(v=win.10))

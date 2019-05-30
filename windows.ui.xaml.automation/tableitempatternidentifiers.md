@@ -15,9 +15,9 @@ Contains values used as identifiers by [ITableProvider](../windows.ui.xaml.autom
 ## -remarks
 Classes such as TableItemPatternIdentifiers are the identifiers for the Windows Runtime implementation of a common provider pattern for Microsoft UI Automation. You might use these identifiers if you are implementing a Windows Runtime custom automation peer that reports support for [ITableItemProvider](../windows.ui.xaml.automation.provider/itableitemprovider.md) in its [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) implementation. These identifiers are needed for the [RaisePropertyChangedEvent](../windows.ui.xaml.automation.peers/automationpeer_raisepropertychangedevent_715050195.md) calls that you make from control code that references your own peer, or for [FindItemByProperty](../windows.ui.xaml.automation.provider/iitemcontainerprovider_finditembyproperty_1997743353.md) in an items container peer.
 
-This same pattern is usually exposed to clients in a different way, depending on which technology they use to implement the client and examine the Microsoft UI Automation tree. [ITableItemProvider](https://msdn.microsoft.com/library/73cba491-1aa6-4bd7-bcd6-95b5d85c9457) is also presented as a Component Object Model (COM) interface.
+This same pattern is usually exposed to clients in a different way, depending on which technology they use to implement the client and examine the Microsoft UI Automation tree. [ITableItemProvider](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itableitemprovider) is also presented as a Component Object Model (COM) interface.
 
 ## -examples
 
 ## -see-also
-[ITableItemProvider](../windows.ui.xaml.automation.provider/itableitemprovider.md), [Control patterns and interfaces](https://msdn.microsoft.com/library/2091883c-5d0c-44ed-936a-709022926a42), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[ITableItemProvider](../windows.ui.xaml.automation.provider/itableitemprovider.md), [Control patterns and interfaces](https://docs.microsoft.com/windows/uwp/accessibility/control-patterns-and-interfaces), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

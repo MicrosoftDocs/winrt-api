@@ -14,7 +14,7 @@ Fires when the user's query text changes and the app needs to provide new sugges
 
 ## -remarks
 > [!NOTE]
-> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for UWP app using C++, C#, or Visual Basic, [WinJS.UI.SearchBox](https://msdn.microsoft.com/library/58f5cea3-a19b-48a8-abcc-17f38d8fa886) for Windows app using JavaScript) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
+> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for UWP app using C++, C#, or Visual Basic, [WinJS.UI.SearchBox](https://docs.microsoft.com/previous-versions/windows/apps/dn301949(v=win.10)) for Windows app using JavaScript) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
 
 Suggestions can come from three sources: search history, local files, or from a source specified by the app. Suggestions are grouped by their source and display in the following order in the search pane: search history, local files, and then app-specified sources.
 
@@ -47,7 +47,7 @@ After you obtain suggestions, you display them in the search pane by adding them
 
 At most, the search pane can display 5 suggestions. If you choose to display both query suggestions and result suggestions, you should group the suggestions by suggestion type (query or result) and separate the groups using [AppendSearchSeparator](searchsuggestioncollection_appendsearchseparator_842802100.md). Each separator takes the place of a suggestion and must be followed by at least one suggestion, decreasing the number of suggestions that you can display.
 
-To learn more about using suggestions to create a good search experience for your users in [Guidelines and checklist for search](https://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39).
+To learn more about using suggestions to create a good search experience for your users in [Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search).
 
 <!--<section  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><title>Automatic suggestions</title><sectioncontents><p>If you want your app to display suggestions that are automatically provided</p><p>By default, suggestions are automatically provided based on the user's local files that are accessible by your app and the previous searches the user has performed with your app.</p><p>If automatic suggestions are enabled, you do not need to do additional the <xref targtype="class_winrt" rid="w_appmod_search.searchsuggestioncollection">searchSuggestionCollection</xref> object is pre-populated with suggestions. </p><p>If you want your app to provide its own suggestions to the user, you can disable one or both sources of automatic suggestions. Disable automatic suggestions based on the user's local files with the <xref targtype="method_winrt" rid="w_appmod_search.searchpane_setlocalcontentsuggestionsettings">SetLocalContentSuggestionSettings</xref> method and disable automatic suggestions based on the user's search history in your app with the <xref targtype="property_winrt" rid="w_appmod_search.searchpane_searchhistoryenabled">SearchHistoryEnabled</xref> property.</p></sectioncontents></section>-->
 
@@ -88,6 +88,6 @@ protected override void OnWindowCreated(WindowCreatedEventArgs args)
 
 
 ## -see-also
-[Guidelines and checklist for search](https://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39), [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection class](searchsuggestioncollection.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md)
+[Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search), [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection class](searchsuggestioncollection.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md)
 tionsrequestedeventargs.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md)
 st_searchsuggestioncollection.md)

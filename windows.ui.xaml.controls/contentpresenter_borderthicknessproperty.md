@@ -20,4 +20,4 @@ The identifier for the [BorderThickness](contentpresenter_borderthickness.md) de
 ## -examples
 
 ## -see-also
-[BorderThickness](contentpresenter_borderthickness.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[BorderThickness](contentpresenter_borderthickness.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

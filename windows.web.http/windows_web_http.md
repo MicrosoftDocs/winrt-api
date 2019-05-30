@@ -15,7 +15,7 @@ The Windows.Web.Http namespace and the related [Windows.Web.Http.Headers](../win
 
 This new API replaces the use of three different APIs with differing features that previously were needed for each language projection in Windows 8.
 
-+ [WinJS.xhr](https://msdn.microsoft.com/library/62fc3e32-3d52-4654-8807-8c0563150f01) for JavaScript
++ [WinJS.xhr](https://docs.microsoft.com/previous-versions/windows/apps/br229787(v=win.10)) for JavaScript
 + [HttpClient](https://go.microsoft.com/fwlink/p/?linkid=241637) in the [System.Net.Http](https://go.microsoft.com/fwlink/p/?linkid=227894) namespace for C# and VB.
 + [IXMLHTTPRequest2](https://msdn.microsoft.com/library/windows/desktop/hh831151(v=vs.85).aspx) for C++
 
@@ -49,9 +49,9 @@ Classes in the Windows.Web.Http namespace can use filters based on the classes i
 
 If an app that uses the Windows.Web.Http namespace and the related [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) and [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md) namespaces downloads large amounts of data (50 megabytes or more), then the app should stream those downloads and not use the default buffering. If the default buffering is used the client memory usage gets very large, potentially resulting in reduced performance.
 
-For sample code in C#/VB/C++ and XAML that shows how to use [HttpClient](httpclient.md) to connect to an HTTP server, see [HttpClient](https://msdn.microsoft.com/library/ec9820d3-3a46-474f-8a01-ae1c27442750).
+For sample code in C#/VB/C++ and XAML that shows how to use [HttpClient](httpclient.md) to connect to an HTTP server, see [HttpClient](https://docs.microsoft.com/windows/uwp/networking/httpclient).
 
-For sample code in JavaScript and HTML that shows how to use [HttpClient](httpclient.md) to connect to an HTTP server, see [Connecting to an HTTP server using Windows.Web.Http](https://msdn.microsoft.com/library/dfc2a92c-e84a-4def-9203-e348e64befe5).
+For sample code in JavaScript and HTML that shows how to use [HttpClient](httpclient.md) to connect to an HTTP server, see [Connecting to an HTTP server using Windows.Web.Http](https://docs.microsoft.com/previous-versions/windows/apps/dn469430(v=win.10)).
 
 ## -examples
 
@@ -152,4 +152,4 @@ catch (Exception ^ ex)
 
 ## -see-also
 
-[HttpClient](https://msdn.microsoft.com/library/ec9820d3-3a46-474f-8a01-ae1c27442750), [Connecting to an HTTP server using Windows.Web.Http](https://msdn.microsoft.com/library/dfc2a92c-e84a-4def-9203-e348e64befe5), [Handling exceptions in network apps](https://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [System.Uri](https://msdn.microsoft.com/library/system.uri.aspx), [Windows.Foundation.Uri](../windows.foundation/uri.md), Windows.Web.Http, [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md), [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md), [HttpClient Sample]( http://go.microsoft.com/fwlink/p/?linkid=242550), [HttpClient sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620551), [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer), [JSON sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Json)
+[HttpClient](https://docs.microsoft.com/windows/uwp/networking/httpclient), [Connecting to an HTTP server using Windows.Web.Http](https://docs.microsoft.com/previous-versions/windows/apps/dn469430(v=win.10)), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN), [Windows.Foundation.Uri](../windows.foundation/uri.md), Windows.Web.Http, [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md), [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md), [HttpClient Sample]( http://go.microsoft.com/fwlink/p/?linkid=242550), [HttpClient sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620551), [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer), [JSON sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Json)

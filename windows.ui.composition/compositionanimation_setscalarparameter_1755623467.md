@@ -17,7 +17,7 @@ Sets a Scalar value parameter for use with an [ExpressionAnimation](expressionan
 The name of the parameter to set.
 
 ### -param value
-The [Single](https://msdn.microsoft.com/library/system.single.aspx) value.
+The [Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN) value.
 
 ## -remarks
 

@@ -66,7 +66,7 @@ Specifies the scale of a display as 500 percent.
 
 
 ## -remarks
-For more info on scaling to pixel density, see [UX guidelines for layout and scaling](https://msdn.microsoft.com/library/c388f639-6f35-4d52-bffe-53ff3f537d4b).
+For more info on scaling to pixel density, see [UX guidelines for layout and scaling](https://developer.microsoft.com/windows/design).
 
 The [Scaling according to DPI sample](https://go.microsoft.com/fwlink/p/?linkid=231577) shows how to use the ResolutionScale enumeration.
 

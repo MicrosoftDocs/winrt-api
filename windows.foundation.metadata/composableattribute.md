@@ -17,4 +17,4 @@ Indicates how a programming element is composed.
 ## -examples
 
 ## -see-also
-[Attribute](https://msdn.microsoft.com/library/system.attribute.aspx)
+[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN)

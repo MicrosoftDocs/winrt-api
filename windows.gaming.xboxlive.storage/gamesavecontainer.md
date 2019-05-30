@@ -24,4 +24,4 @@ A GameSaveContainer represents a single saved game, and consists of a collection
 
 ## -see-also
 
-[Object](https://msdn.microsoft.com/library/system.object.aspx)
+[Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)

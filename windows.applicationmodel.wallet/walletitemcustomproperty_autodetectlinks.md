@@ -21,4 +21,4 @@ Gets or sets whether this [WalletItemCustomProperty](walletitemcustomproperty.md
 ## -examples
 
 ## -see-also
-[Quickstart: Using the   APIs](https://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7)
+[Quickstart: Using the   APIs](https://docs.microsoft.com/previous-versions/windows/apps/dn631257(v=win.10))

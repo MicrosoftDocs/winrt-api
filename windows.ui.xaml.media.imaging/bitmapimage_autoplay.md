@@ -25,7 +25,7 @@ Use the AutoPlay property, which defaults to **true**, to specify whether or not
 
 ### Compatibility notes
 
-If your app runs on releases of Windows 10 prior to version 1607, you must set this property in code and use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you use it. If you set this property in XAML, you will get a XAML compiler error. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](https://msdn.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+If your app runs on releases of Windows 10 prior to version 1607, you must set this property in code and use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you use it. If you set this property in XAML, you will get a XAML compiler error. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
 
 ## -examples
 This example shows how to use version adaptive code to use this property in an app that runs on all versions of Windows 10. On versions prior to version 1607, the first frame of the GIF is shown, but it is not animated.

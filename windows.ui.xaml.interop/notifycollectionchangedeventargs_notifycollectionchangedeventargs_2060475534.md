@@ -29,7 +29,7 @@ The [NewStartingIndex](notifycollectionchangedeventargs_newstartingindex.md) val
 The [OldStartingIndex](notifycollectionchangedeventargs_oldstartingindex.md) value to report.
 
 ## -remarks
-When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://msdn.microsoft.com/library/system.collections.specialized.notifycollectionchangedeventargs.aspx) class.
+When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://docs.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?redirectedfrom=MSDN) class.
 
 Other than *action*, any of the values for this constructor can potentially be passed as null, depending on the collection change and corresponding [Action](notifycollectionchangedeventargs_action.md) being reported.
 

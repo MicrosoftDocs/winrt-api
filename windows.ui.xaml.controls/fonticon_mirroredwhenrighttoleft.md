@@ -21,4 +21,4 @@ You can set the MirroredWhenRightToLeft property to have the glyph appear mirror
 ## -examples
 
 ## -see-also
-[FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md), [How to support bidirectional UI](https://msdn.microsoft.com/library/66f92aff-6f1c-428f-b06f-b2892a8015b7), [How to adjust layout and fonts for various languages, and support RTL layouts](https://msdn.microsoft.com/library/885508d1-ce07-4312-bc33-ea3204f09263)
+[FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md), [How to support bidirectional UI](https://docs.microsoft.com/previous-versions/windows/apps/jj712703(v=win.10)), [How to adjust layout and fonts for various languages, and support RTL layouts](https://docs.microsoft.com/previous-versions/windows/apps/hh967760(v=win.10))

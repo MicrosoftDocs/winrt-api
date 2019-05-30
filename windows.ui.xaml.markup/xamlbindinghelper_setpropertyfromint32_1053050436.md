@@ -10,7 +10,7 @@ public void SetPropertyFromInt32(System.Object dependencyObject, Windows.UI.Xaml
 # Windows.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromInt32
 
 ## -description
-Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Int32](https://msdn.microsoft.com/library/system.int32.aspx) value.
+Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN) value.
 
 ## -parameters
 ### -param dependencyObject

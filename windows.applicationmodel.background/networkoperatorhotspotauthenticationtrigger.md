@@ -13,7 +13,7 @@ public class NetworkOperatorHotspotAuthenticationTrigger : Windows.ApplicationMo
 Represents a mobile network operator hotspot authentication trigger.
 
 > [!NOTE]
-> An app can only instantiate this object and register for the hotspot authentication event after a WLAN profile has been provisioned that references this app to handle hotspot authentication. For more info, see [Windows 8 Integration for Wireless Hotspot Operators](https://msdn.microsoft.com/library/windows/hardware/hh770516.aspx).
+> An app can only instantiate this object and register for the hotspot authentication event after a WLAN profile has been provisioned that references this app to handle hotspot authentication. For more info, see [Windows 8 Integration for Wireless Hotspot Operators](https://docs.microsoft.com/windows-hardware/drivers/mobilebroadband/integrating-windows-with-wireless-hotspots).
 
 ## -remarks
 > [!NOTE]

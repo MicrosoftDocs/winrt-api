@@ -15,12 +15,12 @@ Releases system resources that are exposed by a Windows Runtime object.
 
 
 > **.NET**
-> This interface appears as [System.IDisposable](https://msdn.microsoft.com/library/system.idisposable.aspx).
+> This interface appears as [System.IDisposable](https://docs.microsoft.com/dotnet/api/system.idisposable?redirectedfrom=MSDN).
 
 
 
 > **C++/CX**
-> This interface appears as [Platform::IDisposable](https://msdn.microsoft.com/library/f4344056-7030-42ed-bc98-b140edffddcd).
+> This interface appears as [Platform::IDisposable](https://docs.microsoft.com/cpp/cppcx/platform-idisposable-interface).
 
 ## -remarks
 Implementation / caller notes that follow are mainly relevant for WRL.

@@ -24,7 +24,7 @@ Alternatively, you can statically allocate and dynamically manage a pool of reus
 > [!NOTE]
 > : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
-For more detail on how to use cross-slide functionality, see [Guidelines for cross-slide](https://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5). The threshold distances used by the cross-slide interaction are shown in the following diagram.
+For more detail on how to use cross-slide functionality, see [Guidelines for cross-slide](https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-cross-slide). The threshold distances used by the cross-slide interaction are shown in the following diagram.
 
 <img src="images/crossslide_threshold.png" border="1" width="536" height="276" alt="Screen shot showing the select and drag and drop processes." />
 
@@ -226,9 +226,9 @@ class ManipulationInputProcessor
 
 ### Conceptual
 
-- [Custom user interactions](https://msdn.microsoft.com/library/9403c46c-60da-4c13-a381-6fbd069dd9ce)
-- [UX guidelines for custom user interactions](https://msdn.microsoft.com/library/52f9607d-e2d0-44e4-9e1c-f856f7072a1e)
-- [Touch design guidelines](https://msdn.microsoft.com/library/3250f729-4fdd-4ad4-b856-b8ba575c3375)
+- [Custom user interactions](https://developer.microsoft.com/windows/design/inputs-devices)
+- [UX guidelines for custom user interactions](https://developer.microsoft.com/windows/design/inputs-devices)
+- [Touch design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-user-interaction)
 
 ### Samples
 

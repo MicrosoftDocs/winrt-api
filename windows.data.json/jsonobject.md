@@ -17,10 +17,10 @@ JsonObject is an activatable class that implements [JsonValue](jsonvalue.md) and
 
 ## -remarks
 
-For an example of how these class methods are used to parse an object from a JSON string and convert it into a JsonObject object, update the name/value pairs the object contains, and then serialize the updated JsonObject object as a JSON string, see [Using JavaScript Object Notation (JSON)](https://msdn.microsoft.com/library/94875e43-4e0c-499f-b409-317bcd306d3e).
+For an example of how these class methods are used to parse an object from a JSON string and convert it into a JsonObject object, update the name/value pairs the object contains, and then serialize the updated JsonObject object as a JSON string, see [Using JavaScript Object Notation (JSON)](https://docs.microsoft.com/previous-versions/windows/apps/hh770289(v=win.10)).
 
 ## -examples
 
 ## -see-also
 
-[Using JavaScript Object Notation (JSON)](https://msdn.microsoft.com/library/94875e43-4e0c-499f-b409-317bcd306d3e), [JSON sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620556)
+[Using JavaScript Object Notation (JSON)](https://docs.microsoft.com/previous-versions/windows/apps/hh770289(v=win.10)), [JSON sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620556)

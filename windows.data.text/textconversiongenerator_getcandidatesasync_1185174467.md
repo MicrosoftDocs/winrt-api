@@ -21,7 +21,7 @@ The phonetic characters of the words to be returned.
 The maximum number of candidate words to return.
 
 ## -returns
-An asynchronous operation to return an [IVectorView](https://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) of the list of candidate words.
+An asynchronous operation to return an [IVectorView](https://docs.microsoft.com/previous-versions//br224594(v=vs.85)) of the list of candidate words.
 
 ## -remarks
 

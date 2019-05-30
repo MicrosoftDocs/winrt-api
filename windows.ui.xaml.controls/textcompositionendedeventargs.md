@@ -18,4 +18,4 @@ For more info, see the [TextBox.TextCompositionEnded](textbox_textcompositionend
 ## -examples
 
 ## -see-also
-[TextBox.TextCompositionEnded](textbox_textcompositionended.md), [RichEditBox.TextCompositionEnded](richeditbox_textcompositionended.md), [Input Method Editor (IME)](https://msdn.microsoft.com/library/5fcc73e6-f499-47e6-8e81-0014ca4d241c)
+[TextBox.TextCompositionEnded](textbox_textcompositionended.md), [RichEditBox.TextCompositionEnded](richeditbox_textcompositionended.md), [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10))

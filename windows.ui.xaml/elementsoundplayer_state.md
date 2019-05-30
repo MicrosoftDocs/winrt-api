@@ -18,7 +18,7 @@ A value of the enumeration that specifies whether the system plays control sound
 ## -remarks
 By default, control sounds are played on the Xbox, and are not played on other devices families. You can set [ElementSoundPlayerState](elementsoundplayerstate.md) to **On** to make your app play sounds on all device families, or set it to **Off** to disable sounds on all device families.
 
-For more info, see [Sound in UWP apps](https://msdn.microsoft.com/windows/uwp/style/sound).
+For more info, see [Sound in UWP apps](https://docs.microsoft.com/windows/uwp/style/sound).
 
 ## -examples
 

@@ -32,4 +32,4 @@ This enumeration is used as a value for [IAsyncInfo.Status](iasyncinfo_status.md
 ## -examples
 
 ## -see-also
-[IAsyncInfo.Status](iasyncinfo_status.md), [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)
+[IAsyncInfo.Status](iasyncinfo_status.md), [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)

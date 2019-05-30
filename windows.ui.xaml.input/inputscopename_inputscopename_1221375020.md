@@ -17,4 +17,4 @@ Initializes a new instance of the [InputScopeName](inputscopename.md) class with
 ## -examples
 
 ## -see-also
-[InputScopeName(InputScopeNameValue)](inputscopename_inputscopename_16759151.md), [Use input scope to change the touch keyboard](https://msdn.microsoft.com/library/6e5f55d7-24d6-47cc-b457-b6231ede2a71)
+[InputScopeName(InputScopeNameValue)](inputscopename_inputscopename_16759151.md), [Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

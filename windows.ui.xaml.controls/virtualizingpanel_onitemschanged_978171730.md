@@ -14,7 +14,7 @@ Called when the [Items](itemscontrol_items.md) collection that is associated wit
 
 ## -parameters
 ### -param sender
-The [Object](https://msdn.microsoft.com/library/system.object.aspx) that raised the event.
+The [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) that raised the event.
 
 ### -param args
 Provides data for the [ItemsChanged](itemcontainergenerator_itemschanged.md) event.

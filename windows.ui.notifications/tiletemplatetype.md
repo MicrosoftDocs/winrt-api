@@ -11,14 +11,14 @@ public enum Windows.UI.Notifications.TileTemplateType : int
 # TileTemplateType
 
 ## -description
-Specifies the content template to use in a tile update. For a more detailed discussion of each tile, including an example of its XML coding, specifics on each template's image sizes, and use with different versions of the tile XML schema, see [The tile template catalog](https://msdn.microsoft.com/library/2d3dd627-9a34-493c-bda4-ff7b80817e4f).
+Specifies the content template to use in a tile update. For a more detailed discussion of each tile, including an example of its XML coding, specifics on each template's image sizes, and use with different versions of the tile XML schema, see [The tile template catalog](https://docs.microsoft.com/previous-versions/windows/apps/hh761491(v=win.10)).
 
 When displayed on a device set to a right-to-left (RTL) language, some templates are flipped from their left and right descriptions here.
 
-In many of the templates, the last line of text will not display if your tile includes a logo or display name. This does not apply to the large (310 x 310) tiles. For more information on the logo/short name, see [Quickstart: Creating a default tile using the  manifest editor](https://msdn.microsoft.com/library/a7b18bb3-0c86-43c9-8fd1-f04fb9e44229).
+In many of the templates, the last line of text will not display if your tile includes a logo or display name. This does not apply to the large (310 x 310) tiles. For more information on the logo/short name, see [Quickstart: Creating a default tile using the  manifest editor](https://docs.microsoft.com/previous-versions/windows/apps/hh465437(v=win.10)).
 
 > [!IMPORTANT]
-> Windows 8.1 added new templates for large, square tiles. To distinguish large tiles from medium tiles (known as square tiles in Windows 8), all of the older templates were renamed. To account for this, notification payloads can be declared with a specific version. For compatibility across systems, a fallback attribute has been added so that both the old name and the new name are present. You must understand the distinctions between versions to ensure that your notifications are displayed. For more information, see [Versioned templates](https://msdn.microsoft.com/library/2d3dd627-9a34-493c-bda4-ff7b80817e4f).
+> Windows 8.1 added new templates for large, square tiles. To distinguish large tiles from medium tiles (known as square tiles in Windows 8), all of the older templates were renamed. To account for this, notification payloads can be declared with a specific version. For compatibility across systems, a fallback attribute has been added so that both the old name and the new name are present. You must understand the distinctions between versions to ensure that your notifications are displayed. For more information, see [Versioned templates](https://docs.microsoft.com/previous-versions/windows/apps/hh761491(v=win.10)).
 
 > When displayed on Windows Phone 8.1, some templates do not appear quite the same as they do when displayed on Windows. For instance, peek templates on the phone flip from front to back rather than scrolling up and down. The number of lines of displayed text might be different, sometimes less on the phone, but usually more. Wide tile images on the phone fill the tile with the text overlaid on them rather than having a solid colored text area. Image collection tiles are animated and appear very differently. Differences that you need to be aware of are called out for each value.
 
@@ -1183,4 +1183,4 @@ One rectangular image that fills the entire tile, no text.
 ## -examples
 
 ## -see-also
-[App tiles and badges sample](https://go.microsoft.com/fwlink/p/?linkid=231469), [The tile template catalog](https://msdn.microsoft.com/library/2d3dd627-9a34-493c-bda4-ff7b80817e4f), [Tiles XML schema](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/schema-root), [Tile and tile notification overview](https://msdn.microsoft.com/library/10a05b52-42c4-4f85-9310-57663e378b9e), [Tile and toast image sizes](https://msdn.microsoft.com/library/af16123d-09dc-4f13-ba41-bca7cfff7d61)
+[App tiles and badges sample](https://go.microsoft.com/fwlink/p/?linkid=231469), [The tile template catalog](https://docs.microsoft.com/previous-versions/windows/apps/hh761491(v=win.10)), [Tiles XML schema](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/schema-root), [Tile and tile notification overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779724(v=win.10)), [Tile and toast image sizes](https://docs.microsoft.com/previous-versions/windows/apps/hh781198(v=win.10))

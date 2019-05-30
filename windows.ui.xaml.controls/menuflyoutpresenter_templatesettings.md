@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Controls.Primitives.MenuFlyoutPresenterTemplateSettings T
 # Windows.UI.Xaml.Controls.MenuFlyoutPresenter.TemplateSettings
 
 ## -description
-Gets an object that provides calculated values that can be referenced as [TemplateBinding](https://msdn.microsoft.com/library/33a52463-699a-4634-9dd0-3fd62476e069) sources when defining templates for a [MenuFlyoutPresenter](menuflyoutpresenter.md) control.
+Gets an object that provides calculated values that can be referenced as [TemplateBinding](https://docs.microsoft.com/previous-versions/windows/apps/hh758288(v=win.10)) sources when defining templates for a [MenuFlyoutPresenter](menuflyoutpresenter.md) control.
 
 ## -property-value
 An object that provides calculated values for templates.

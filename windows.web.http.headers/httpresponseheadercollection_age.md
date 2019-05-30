@@ -18,7 +18,7 @@ The object that represents the value of an **Age** HTTP header on an HTTP respon
 ## -remarks
 The Age property represents the value of he **Age** header on an HTTP response. The **Age** header is the age of the entity in the cache.
 
-When programming with .NET, this structure is hidden and developers should use the [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) structure. The value can be **null**, because it's typed as `TimeSpan?` (a nullable [TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx)).
+When programming with .NET, this structure is hidden and developers should use the [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) structure. The value can be **null**, because it's typed as `TimeSpan?` (a nullable [TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN)).
 
 In JavaScript, this structure is accessed as a value, not as an object. For example, use `var a = 10000`, not `var a = { duration: 10000 }`.
 

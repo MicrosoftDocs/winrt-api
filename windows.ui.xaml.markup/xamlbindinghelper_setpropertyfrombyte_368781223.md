@@ -10,7 +10,7 @@ public void SetPropertyFromByte(System.Object dependencyObject, Windows.UI.Xaml.
 # Windows.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromByte
 
 ## -description
-Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Byte](https://msdn.microsoft.com/library/system.byte.aspx) value.
+Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Byte](https://docs.microsoft.com/dotnet/api/system.byte?redirectedfrom=MSDN) value.
 
 ## -parameters
 ### -param dependencyObject

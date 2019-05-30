@@ -36,4 +36,4 @@ FlyoutPresenter exists as a class and has a default constructor basically to sat
 ## -examples
 
 ## -see-also
-[ContentControl](contentcontrol.md), [Flyout](flyout.md), [FlyoutPresenter styles and templates](https://msdn.microsoft.com/library/eefbb325-9c9b-4c52-936a-c009377da75d)
+[ContentControl](contentcontrol.md), [Flyout](flyout.md), [FlyoutPresenter styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)

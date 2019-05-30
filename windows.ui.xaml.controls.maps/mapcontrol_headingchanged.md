@@ -17,4 +17,4 @@ Occurs when the value of the [Heading](mapcontrol_heading.md) property of the [M
 ## -examples
 
 ## -see-also
-[Display maps with 2D, 3D, and Streetside views](https://msdn.microsoft.com/library/3839e00b-2c1e-4627-a45f-6dda98d7077f)
+[Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps)

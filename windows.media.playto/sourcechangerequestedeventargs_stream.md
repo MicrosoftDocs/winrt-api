@@ -16,7 +16,7 @@ Gets the media stream for the Play To receiver.
 The media stream for the Play To receiver.
 
 ## -remarks
-For an example of creating a software Play To receiver, see [Media casting](https://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e).
+For an example of creating a software Play To receiver, see [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting).
 
 ## -examples
 

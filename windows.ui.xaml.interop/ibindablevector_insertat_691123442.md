@@ -20,7 +20,7 @@ The index at which to insert.
 The item to insert.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) interface.
 
 ## -examples
 

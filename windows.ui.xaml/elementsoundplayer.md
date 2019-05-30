@@ -13,7 +13,7 @@ public class ElementSoundPlayer : Windows.UI.Xaml.IElementSoundPlayer
 Represents a player for XAML control sounds.
 
 ## -remarks
-For more info, see [Sound in UWP apps](https://msdn.microsoft.com/windows/uwp/style/sound).
+For more info, see [Sound in UWP apps](https://docs.microsoft.com/windows/uwp/style/sound).
 
 ### Version history
 
@@ -24,4 +24,4 @@ For more info, see [Sound in UWP apps](https://msdn.microsoft.com/windows/uwp/st
 ## -examples
 
 ## -see-also
-[Sound in UWP apps](https://msdn.microsoft.com/windows/uwp/style/sound)
+[Sound in UWP apps](https://docs.microsoft.com/windows/uwp/style/sound)

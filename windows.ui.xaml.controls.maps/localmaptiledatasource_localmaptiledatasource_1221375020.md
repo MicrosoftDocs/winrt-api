@@ -17,4 +17,4 @@ Initializes a new instance of the [LocalMapTileDataSource](localmaptiledatasourc
 ## -examples
 
 ## -see-also
-[LocalMapTileDataSource(String)](localmaptiledatasource_localmaptiledatasource_290278668.md), [Overlay tiled images on a map](https://msdn.microsoft.com/library/066bd6e2-c22b-4f5b-aa94-5d6c86a09bdf)
+[LocalMapTileDataSource(String)](localmaptiledatasource_localmaptiledatasource_290278668.md), [Overlay tiled images on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/overlay-tiled-images)

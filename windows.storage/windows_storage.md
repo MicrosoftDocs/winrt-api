@@ -11,8 +11,8 @@ Provides classes for managing files, folders, and application settings.
 
 For info about how to use the objects in the Windows.Storage namespace, see the following sections.
 
-+ [Files, folders, and libraries](https://msdn.microsoft.com/library/1901c4c2-5161-435d-bc7b-f40c69cdb138)
-+ [Store and retrieve settings and other app data](https://msdn.microsoft.com/library/41676a02-325a-455e-8565-c9ec0bc3a8fe)
++ [Files, folders, and libraries](https://docs.microsoft.com/windows/uwp/files/index)
++ [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data)
 
 ## -remarks
 

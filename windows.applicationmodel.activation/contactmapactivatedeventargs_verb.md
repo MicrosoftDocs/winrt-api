@@ -18,7 +18,7 @@ The action to be performed.
 ## -remarks
 Use the Verb property to determine the action to perform when your app is activated with [ActivationKind.Contact](activationkind.md). For map activations, the Verb property is set to the value of [Windows.ApplicationModel.Contacts.ContactLaunchActionVerbs.Map](../windows.applicationmodel.contacts/contactlaunchactionverbs_map.md).
 
-For info about how to handle app activation through contact actions, see [Quickstart: Handling contact actions ](https://msdn.microsoft.com/library/397d8b2a-6255-4f37-8556-449a3be2ef3f) and [Quickstart: Handling contact actions ](https://msdn.microsoft.com/library/61bacc8a-24c9-4b3d-b77b-e0822467700c).
+For info about how to handle app activation through contact actions, see [Quickstart: Handling contact actions ](https://docs.microsoft.com/previous-versions/windows/apps/dn518236(v=win.10)) and [Quickstart: Handling contact actions ](https://docs.microsoft.com/previous-versions/windows/apps/dn518338(v=win.10)).
 
 ## -examples
 

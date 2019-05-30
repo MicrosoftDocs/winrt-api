@@ -27,9 +27,9 @@ This method returns listing info for the specified products that are associated 
 
 The Store ID for a product is available in [Partner Center](https://partner.microsoft.com/dashboard), and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the product. For more information, see [Store IDs](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
 
-For more information about using this method, including a code example, see [Get product info for apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
+For more information about using this method, including a code example, see [Get product info for apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
 
 ## -examples
 
 ## -see-also
-[Get product info for apps and add-ons](https://msdn.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons)
+[Get product info for apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons)

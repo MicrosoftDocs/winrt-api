@@ -23,7 +23,7 @@ If another application has requested more frequent updates, by specifying a smal
 ## -examples
 
 ## -see-also
-[Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Get current location](https://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](https://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba)
+[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence)
 
 ## -capabilities
 location

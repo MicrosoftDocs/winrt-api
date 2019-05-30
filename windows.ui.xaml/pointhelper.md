@@ -23,4 +23,4 @@ PointHelper is one of several **Helper** classes that are intended to provide ut
 
 ## -see-also
 
-[Point](../windows.foundation/point.md), [Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82)
+[Point](../windows.foundation/point.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)

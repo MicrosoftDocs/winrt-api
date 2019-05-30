@@ -20,4 +20,4 @@ The underlying type, with relevant information as the values of the [TypeName](.
 ## -examples
 
 ## -see-also
-[typeid component extension](https://msdn.microsoft.com/library/kwd9abya.aspx)
+[typeid component extension](https://docs.microsoft.com/cpp/windows/typeid-cpp-component-extensions)

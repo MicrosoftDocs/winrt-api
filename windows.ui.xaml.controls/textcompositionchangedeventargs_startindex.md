@@ -13,11 +13,11 @@ public int StartIndex { get; }
 Gets the starting location of the text that the user is composing with an Input Method Editor (IME).
 
 ## -property-value
-The starting location of the text that the user is composing with an [Input Method Editor (IME)](https://msdn.microsoft.com/library/5fcc73e6-f499-47e6-8e81-0014ca4d241c).
+The starting location of the text that the user is composing with an [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10)).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[TextBox.TextCompositionChanged](textbox_textcompositionchanged.md), [RichEditBox.TextCompositionChanged](richeditbox_textcompositionchanged.md), [Input Method Editor (IME)](https://msdn.microsoft.com/library/5fcc73e6-f499-47e6-8e81-0014ca4d241c)
+[TextBox.TextCompositionChanged](textbox_textcompositionchanged.md), [RichEditBox.TextCompositionChanged](richeditbox_textcompositionchanged.md), [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10))

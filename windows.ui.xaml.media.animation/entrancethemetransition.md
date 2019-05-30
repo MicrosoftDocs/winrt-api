@@ -73,4 +73,4 @@ private void Button_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[Transition](transition.md), [Animating page transitions](https://msdn.microsoft.com/library/57659b10-39c2-4ff4-95ff-51a349d01911), [Guidelines and checklist for page transition animations](https://msdn.microsoft.com/library/a5784163-05a0-414f-872c-f14793d00a91)
+[Transition](transition.md), [Animating page transitions](https://docs.microsoft.com/previous-versions/windows/apps/jj649426(v=win.10)), [Guidelines and checklist for page transition animations](https://msdn.microsoft.com/library/windows/apps/jj635239.aspx)

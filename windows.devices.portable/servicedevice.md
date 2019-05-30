@@ -15,7 +15,7 @@ Provides methods for identifying a device service for a portable device that sup
 ## -remarks
 To access these services, you must declare the device service in the device capabilities section of the app manifest file.  For a list of the GUIDs representing the device services, see [Windows.Devices.Portable](https://docs.microsoft.com/uwp/api/Windows.Devices.Portable). To access the device services, you must declare the device service in the capabilities section of the app manifest file. For a list of the GUIDs representing the device services, see [Windows.Devices.Portable](windows_devices_portable.md).
 
-The [GetDeviceSelector](servicedevice_getdeviceselector_1045577800.md) and [GetDeviceSelectorFromServiceId](servicedevice_getdeviceselectorfromserviceid_818600602.md) methods get selector strings that are passed to the [Windows.Devices.Enumeration](../windows.devices.enumeration/windows_devices_enumeration.md) API to find portable device services. The [Enumerating Common Devices](https://msdn.microsoft.com/library/2deddbba-de46-409e-ac76-87419cb03eba) tutorial explains how to use selector strings to discover available devices.
+The [GetDeviceSelector](servicedevice_getdeviceselector_1045577800.md) and [GetDeviceSelectorFromServiceId](servicedevice_getdeviceselectorfromserviceid_818600602.md) methods get selector strings that are passed to the [Windows.Devices.Enumeration](../windows.devices.enumeration/windows_devices_enumeration.md) API to find portable device services. The [Enumerating Common Devices](https://docs.microsoft.com/previous-versions/windows/apps/hh464974(v=win.10)) tutorial explains how to use selector strings to discover available devices.
 
 Examples of device services are the Media Transfer Protocol (MTP) device services that allow access to device status, contacts, calendar, tasks, and ringtones on a device. For more information, see [MTP Device Services for Windows](https://go.microsoft.com/fwlink/p/?LinkID=264914).
 
@@ -27,4 +27,4 @@ The [Portable Device Services Sample]( http://go.microsoft.com/fwlink/p/?linkid=
 ## -examples
 
 ## -see-also
-[Windows 8 Device Experience: ](https://go.microsoft.com/fwlink/p/?linkid=241442), [Portable Device Services Sample]( http://go.microsoft.com/fwlink/p/?linkid=242031), [Enumerating Common Devices](https://msdn.microsoft.com/library/2deddbba-de46-409e-ac76-87419cb03eba)
+[Windows 8 Device Experience: ](https://go.microsoft.com/fwlink/p/?linkid=241442), [Portable Device Services Sample]( http://go.microsoft.com/fwlink/p/?linkid=242031), [Enumerating Common Devices](https://docs.microsoft.com/previous-versions/windows/apps/hh464974(v=win.10))

@@ -17,11 +17,11 @@ Displays the item with the given ID in the Wallet UI.
 The ID of the item to display.
 
 ## -returns
-An asynchronous action. If you use [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is **void**.
+An asynchronous action. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is **void**.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[ShowAsync](walletitemstore_showasync_1714076542.md), [Quickstart: Using the   APIs](https://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7), [Asynchronous programming](https://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)
+[ShowAsync](walletitemstore_showasync_1714076542.md), [Quickstart: Using the   APIs](https://docs.microsoft.com/previous-versions/windows/apps/dn631257(v=win.10)), [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)

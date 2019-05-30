@@ -24,4 +24,4 @@ GroupItem can technically be used as an object element in XAML. However, the mor
 ## -examples
 
 ## -see-also
-[ContentControl](contentcontrol.md), [GroupStyle](groupstyle.md), [GroupItem styles and templates](https://msdn.microsoft.com/library/38f03fac-11c9-4a17-a30b-eea52ce322dc)
+[ContentControl](contentcontrol.md), [GroupStyle](groupstyle.md), [GroupItem styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)

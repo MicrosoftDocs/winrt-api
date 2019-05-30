@@ -47,4 +47,4 @@ The following code demonstrates how to access a service document and retrieve ed
 
 
 ## -see-also
-[Quickstart: Managing Feed Entries](https://msdn.microsoft.com/library/239d42bc-5812-4ead-a91c-b3696fc3ef75), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061)
+[Quickstart: Managing Feed Entries](https://docs.microsoft.com/previous-versions/windows/apps/hh700368(v=win.10)), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061)

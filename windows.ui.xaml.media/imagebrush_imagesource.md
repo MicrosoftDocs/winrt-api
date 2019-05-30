@@ -40,15 +40,15 @@ If you define an [ImageBrush](imagebrush.md) using code, ImageBrush.ImageSource 
 If you need to compose a URI in relation to another object in the UI to help scope the resource request, you can sometimes use the [FrameworkElement.BaseUri](../windows.ui.xaml/frameworkelement_baseuri.md) property as called on another object in the UI. This provides a base URI that is where the XAML page comes from within the app's project structure.
 
 > [!NOTE]
-> You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](https://msdn.microsoft.com/library/a090a59f-a8fa-489f-a600-9e7bfb67e5ad).
+> You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](https://docs.microsoft.com/previous-versions/windows/apps/jj552947(v=win.10)).
 
 ### Image sources and scaling
 
-You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows 8 scales it. When specifying an ImageSource for an [ImageBrush](imagebrush.md), you can use a naming convention that will automatically reference the correct resource for the current scaling. For specifics of the naming convention and more info, see [Quickstart: Using file or image resources](https://msdn.microsoft.com/library/a3e91a0e-9a74-4e92-a6e4-ddd633660a3a).
+You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows 8 scales it. When specifying an ImageSource for an [ImageBrush](imagebrush.md), you can use a naming convention that will automatically reference the correct resource for the current scaling. For specifics of the naming convention and more info, see [Quickstart: Using file or image resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965325(v=win.10)).
 
-For more info on how to design for scaling, see [UX guidelines for layout and scaling](https://msdn.microsoft.com/library/c388f639-6f35-4d52-bffe-53ff3f537d4b).
+For more info on how to design for scaling, see [UX guidelines for layout and scaling](https://developer.microsoft.com/windows/design).
 
-For more info on app resources and how to package image sources in an app, see [Defining app resources](https://msdn.microsoft.com/library/476ea844-632c-4467-9ce3-966be1350dd4).
+For more info on app resources and how to package image sources in an app, see [Defining app resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965321(v=win.10)).
 
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 462561-->
@@ -61,4 +61,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md), [Image](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](https://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf)
+[BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md), [Image](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes)

@@ -76,7 +76,7 @@ private void DisplayCurrentItem()
 }
 ```
 
-For additional examples that demonstrate how this class is used to represent feed content, see [Quickstart: Accessing a web feed](https://msdn.microsoft.com/library/bde79bfb-f566-4dbe-b861-f849ab8bc574).
+For additional examples that demonstrate how this class is used to represent feed content, see [Quickstart: Accessing a web feed](https://docs.microsoft.com/previous-versions/windows/apps/hh700374(v=win.10)).
 
 The following table maps SyndicationItem properties to RSS and Atom feed elements.
 
@@ -112,4 +112,4 @@ The following table maps SyndicationItem properties to RSS and Atom feed element
 
 ## -see-also
 
-[Quickstart: Accessing a web feed](https://msdn.microsoft.com/library/bde79bfb-f566-4dbe-b861-f849ab8bc574), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061), [Syndication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620610)
+[Quickstart: Accessing a web feed](https://docs.microsoft.com/previous-versions/windows/apps/hh700374(v=win.10)), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061), [Syndication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620610)

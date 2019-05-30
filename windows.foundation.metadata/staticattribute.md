@@ -20,4 +20,4 @@ A runtime class may have an [ActivatableAttribute](activatableattribute.md) to i
 ## -examples
 
 ## -see-also
-[Attribute](https://msdn.microsoft.com/library/system.attribute.aspx), [ActivatableAttribute](activatableattribute.md)
+[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN), [ActivatableAttribute](activatableattribute.md)

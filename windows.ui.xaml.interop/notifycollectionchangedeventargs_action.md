@@ -16,7 +16,7 @@ Gets the description of the action that caused the event.
 The description of the action that caused the event, as a value of the enumeration.
 
 ## -remarks
-When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://msdn.microsoft.com/library/system.collections.specialized.notifycollectionchangedeventargs.aspx) class.
+When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://docs.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?redirectedfrom=MSDN) class.
 
 ## -examples
 

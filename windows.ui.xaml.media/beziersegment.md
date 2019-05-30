@@ -21,7 +21,7 @@ Represents a cubic Bezier curve drawn between two points.
 ## -remarks
 This class is relevant for setting the vector data for either a [Path](../windows.ui.xaml.shapes/path.md) or a [PathIcon](../windows.ui.xaml.controls/pathicon.md).
 
-Rather than creating an instance or an object element, you can also define a BezierSegment as part of a vector within the string for a [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9).
+Rather than creating an instance or an object element, you can also define a BezierSegment as part of a vector within the string for a [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax).
 
 ## -examples
 This example uses a BezierSegment as one of the [PathSegment](pathsegment.md) items in a [PathGeometry](pathgeometry.md).
@@ -31,4 +31,4 @@ This example uses a BezierSegment as one of the [PathSegment](pathsegment.md) it
 [!code-xml[GeometryOvw6](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw6.xaml#SnippetGeometryOvw6)]
 
 ## -see-also
-[PathSegment](pathsegment.md), [PolyBezierSegment](polybeziersegment.md), [Path](../windows.ui.xaml.shapes/path.md), [PathGeometry](pathgeometry.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://msdn.microsoft.com/library/54cc0bd4-1961-44d7-ab40-6e8b58e42d65), [Move and draw commands syntax](https://msdn.microsoft.com/library/7772bc3e-a631-46ff-9940-3dd5b9d0e0d9)
+[PathSegment](pathsegment.md), [PolyBezierSegment](polybeziersegment.md), [Path](../windows.ui.xaml.shapes/path.md), [PathGeometry](pathgeometry.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes), [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax)

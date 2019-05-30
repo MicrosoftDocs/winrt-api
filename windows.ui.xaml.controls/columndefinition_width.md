@@ -35,9 +35,9 @@ The default value of Width is a [GridLength](../windows.ui.xaml/gridlength.md) r
 
 The value you set for Width can be constrained if you also set a value for [MinWidth](columndefinition_minwidth.md) or [MaxWidth](columndefinition_maxwidth.md). Each of these properties can take only pixel measurements, not **Star** sizing. If a [ColumnDefinition](columndefinition.md) uses **Star** or **Auto** sizing but also has [MinWidth](columndefinition_minwidth.md) or [MaxWidth](columndefinition_maxwidth.md) constraints, the [MinWidth](columndefinition_minwidth.md) or [MaxWidth](columndefinition_maxwidth.md) must be honored by the [Grid](grid.md) layout behavior, even if that means giving or taking layout space from other **Star** sizing columns defined in the [Grid](grid.md) that don't have constraints.
 
-It's more common to use **Star** sizing than absolute pixel values for a [Grid](grid.md) definition in a UWP app using C++, C#, or Visual Basic. **Star** sizing supports the dynamic layout concept, which helps your app look great on screens with different sizes, pixel densities and orientations. For more info, see [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
+It's more common to use **Star** sizing than absolute pixel values for a [Grid](grid.md) definition in a UWP app using C++, C#, or Visual Basic. **Star** sizing supports the dynamic layout concept, which helps your app look great on screens with different sizes, pixel densities and orientations. For more info, see [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
 
 ## -examples
 
 ## -see-also
-[Grid](grid.md), [Grid.ColumnDefinitions](grid_columndefinitions.md), [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties), [Define layouts with XAML](https://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[Grid](grid.md), [Grid.ColumnDefinitions](grid_columndefinitions.md), [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)

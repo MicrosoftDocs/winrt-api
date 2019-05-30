@@ -18,4 +18,4 @@ WalletItemCustomProperty values are stored in the [DisplayProperties](walletitem
 ## -examples
 
 ## -see-also
-[WalletItem](walletitem.md), [WalletItem.DisplayProperties](walletitem_displayproperties.md), [Quickstart: Using the   APIs](https://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7)
+[WalletItem](walletitem.md), [WalletItem.DisplayProperties](walletitem_displayproperties.md), [Quickstart: Using the   APIs](https://docs.microsoft.com/previous-versions/windows/apps/dn631257(v=win.10))

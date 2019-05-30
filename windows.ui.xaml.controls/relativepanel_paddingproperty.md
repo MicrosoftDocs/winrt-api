@@ -20,4 +20,4 @@ The identifier for the [Padding](relativepanel_padding.md) dependency property.
 ## -examples
 
 ## -see-also
-[Padding](relativepanel_padding.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[Padding](relativepanel_padding.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -26,5 +26,5 @@ For more info, see [Control.Focus](../windows.ui.xaml.controls/control_focus_195
 ## -examples
 
 ## -see-also
-[Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Hyperlink.GotFocus](hyperlink_gotfocus.md), [Hyperlink.LostFocus](hyperlink_lostfocus.md), [Keyboard interactions](https://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), [Keyboard accessibility](https://msdn.microsoft.com/library/ddae8c4b-7907-49fe-9645-f105f8dfad8b), [Touch keyboard sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TouchKeyboard)
+[Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Hyperlink.GotFocus](hyperlink_gotfocus.md), [Hyperlink.LostFocus](hyperlink_lostfocus.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](https://docs.microsoft.com/windows/uwp/accessibility/keyboard-accessibility), [Touch keyboard sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TouchKeyboard)
 

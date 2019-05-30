@@ -25,7 +25,7 @@ You must write code to handle exceptions when you call asynchronous methods on t
 
 The [Windows.Networking.Sockets](windows_networking_sockets.md) namespace has a convenient helper method and enumeration for handling errors when using WebSockets. This can be useful for handling specific network exceptions differently in your app. An app can also use the **HRESULT** from the exception on parameter validation errors to learn more detailed information on the error that caused the exception.
 
-For more information on possible exceptions and how to handle exceptions, see [Handling exceptions in network apps](https://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35).
+For more information on possible exceptions and how to handle exceptions, see [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)).
 
 ### Using MessageWebSocket on Windows Server 2012
 
@@ -47,7 +47,7 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 
 ## -see-also
 
-[WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](https://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [MessageWebSocketControl](messagewebsocketcontrol.md), [MessageWebSocketInformation](messagewebsocketinformation.md), [StreamWebSocket](streamwebsocket.md), [WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623)
+[WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [MessageWebSocketControl](messagewebsocketcontrol.md), [MessageWebSocketInformation](messagewebsocketinformation.md), [StreamWebSocket](streamwebsocket.md), [WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623)
 
 ## -capabilities
 

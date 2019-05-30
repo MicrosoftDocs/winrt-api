@@ -35,7 +35,7 @@ The keyed resources in any MergedDictionaries XAML do not have to be unique vers
 
 You can include more than one [ResourceDictionary](resourcedictionary.md) in a MergedDictionaries set in order to provide a fallback sequence even within the MergedDictionaries set.
 
-For more info on how to use MergedDictionaries and the resource lookup sequence, see [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce).
+For more info on how to use MergedDictionaries and the resource lookup sequence, see [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
 
 [ThemeDictionaries](resourcedictionary_themedictionaries.md) is a related property that also merges additional XAML [ResourceDictionary](resourcedictionary.md) sources into the overall keyed resource set, where the scenario is for providing theme-related resources for controls.
 
@@ -61,4 +61,4 @@ The starting Microsoft Visual Studio templates for a UWP app using C++, C#, or V
 
 
 ## -see-also
-[ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)
+[ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

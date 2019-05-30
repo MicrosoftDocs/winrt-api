@@ -32,4 +32,4 @@ A TimelineCollection is enumerable, so you can use language-specific syntax such
 ## -examples
 
 ## -see-also
-[IVector&lt;T&gt;](../windows.foundation.collections/ivector_1.md), [IIterable&lt;T&gt;](../windows.foundation.collections/iiterable_1.md), [IList<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1), [Storyboard](storyboard.md), [Storyboard.Children](storyboard_children.md), [Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)
+[IVector&lt;T&gt;](../windows.foundation.collections/ivector_1.md), [IIterable&lt;T&gt;](../windows.foundation.collections/iiterable_1.md), [IList<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1), [Storyboard](storyboard.md), [Storyboard.Children](storyboard_children.md), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)

@@ -44,7 +44,7 @@ When applied to properties that represent UI information, the width and height v
 
 The only Windows Runtime property that uses a Size as a value for XAML is [ArcSegment.Size](../windows.ui.xaml.media/arcsegment_size.md). [Rect](rect.md) is more common.
 
-Object attribute usage is technically permitted by the Windows Runtime XAML parsing rules. However, that usage isn't shown in syntax because it's not common. A Size can't be used as a XAML resource (for more info see [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)).
+Object attribute usage is technically permitted by the Windows Runtime XAML parsing rules. However, that usage isn't shown in syntax because it's not common. A Size can't be used as a XAML resource (for more info see [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)).
 
 You can use a space rather than a comma as the delimiter between values.
 

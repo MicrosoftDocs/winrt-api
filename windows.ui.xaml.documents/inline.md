@@ -39,9 +39,9 @@ Inline is the parent class for several immediately derived classes that further 
 + [Span](span.md)
 
 
-[Span](span.md) has several derived classes too: [Bold](bold.md), [Hyperlink](hyperlink.md), [Italic](italic.md), and [Underline](underline.md). Span can also be used as a formatting element to apply [TextElement](textelement.md) properties to mixed content (inlines and plain text). [Block](block.md) and Inline are both considered base classes (you don't typically see a `<Inline>` tag in XAML). For more info on how to use block and inline elements, see [Quickstart: Displaying text](https://msdn.microsoft.com/library/3efa9d2a-71a5-41d3-bba4-ec6cc356d47f).
+[Span](span.md) has several derived classes too: [Bold](bold.md), [Hyperlink](hyperlink.md), [Italic](italic.md), and [Underline](underline.md). Span can also be used as a formatting element to apply [TextElement](textelement.md) properties to mixed content (inlines and plain text). [Block](block.md) and Inline are both considered base classes (you don't typically see a `<Inline>` tag in XAML). For more info on how to use block and inline elements, see [Quickstart: Displaying text](https://docs.microsoft.com/previous-versions/windows/apps/hh700392(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[TextElement](textelement.md), [Run](run.md), [Span](span.md), [Paragraph.Inlines](paragraph_inlines.md), [TextBlock.Inlines](../windows.ui.xaml.controls/textblock_inlines.md), [Quickstart: Displaying text](https://msdn.microsoft.com/library/3efa9d2a-71a5-41d3-bba4-ec6cc356d47f)
+[TextElement](textelement.md), [Run](run.md), [Span](span.md), [Paragraph.Inlines](paragraph_inlines.md), [TextBlock.Inlines](../windows.ui.xaml.controls/textblock_inlines.md), [Quickstart: Displaying text](https://docs.microsoft.com/previous-versions/windows/apps/hh700392(v=win.10))

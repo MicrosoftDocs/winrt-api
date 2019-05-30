@@ -62,7 +62,7 @@ webView1.Navigate(new Uri("http://www.contoso.com"));
 
 To navigate to a Uniform Resource Identifier (URI) with a POST request and HTTP headers, use the [NavigateWithHttpRequestMessage](webview_NavigateWithHttpRequestMessage.md) method. This method supports only [HttpMethod.Post](../windows.web.http/httpmethod_post.md) and [HttpMethod.Get](../windows.web.http/httpmethod_get.md) for the [HttpRequestMessage.Method](../windows.web.http/httprequestmessage_method.md) property value.
 
-To load uncompressed and unencrypted content from your app’s [LocalFolder](../windows.storage/applicationdata_localfolder.md) or [TemporaryFolder](../windows.storage/applicationdata_temporaryfolder.md) data stores, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appdata scheme](https://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af). The WebView support for this scheme requires you to place your content in a subfolder under the local or temporary folder. This enables navigation to Uniform Resource Identifier (URI) such as ms-appdata:///local/*folder*/*file*.html and ms-appdata:///temp/*folder*/*file*.html. (To load compressed or encrypted files, see [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md).)
+To load uncompressed and unencrypted content from your app’s [LocalFolder](../windows.storage/applicationdata_localfolder.md) or [TemporaryFolder](../windows.storage/applicationdata_temporaryfolder.md) data stores, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appdata scheme](https://docs.microsoft.com/previous-versions/windows/apps/jj655406(v=win.10)). The WebView support for this scheme requires you to place your content in a subfolder under the local or temporary folder. This enables navigation to Uniform Resource Identifier (URI) such as ms-appdata:///local/*folder*/*file*.html and ms-appdata:///temp/*folder*/*file*.html. (To load compressed or encrypted files, see [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md).)
 
 Each of these first-level subfolders is isolated from the content in other first-level subfolders. For example, you can navigate to ms-appdata:///temp/folder1/file.html, but you can’t have a link in this file to ms-appdata:///temp/folder2/file.html. However, you can still link to HTML content in the app package using the **ms-appx-web** scheme, and to web content using the **http** and **https**  Uniform Resource Identifier (URI) schemes.
 
@@ -70,7 +70,7 @@ Each of these first-level subfolders is isolated from the content in other first
 webView1.Navigate(new Uri("ms-appdata:///local/intro/welcome.html"));
 ```
 
-To load content from the your app package, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appx-web scheme](https://msdn.microsoft.com/library/f3b3ae74-aaea-4f00-8f0a-4c231b8745af).
+To load content from the your app package, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appx-web scheme](https://docs.microsoft.com/previous-versions/windows/apps/jj655406(v=win.10)).
 
 ```csharp
 webView1.Navigate(new Uri("ms-appx-web:///help/about.html"));

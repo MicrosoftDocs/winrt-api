@@ -15,7 +15,7 @@ Enables arbitrary enumerations, structures, and delegate types to be used as an 
 ## -remarks
 You can't implement the IReferenceArray interface or include it in a signature. IReferenceArray is mainly an internal implementation detail of how the Windows Runtime implements boxing and nullable values.
 
-(C++/CX only) In C++/CX, this interface is exposed as [Platform::IBoxArray&lt;T&gt;](https://msdn.microsoft.com/library/6cd82c9e-4230-4147-9edb-7a652875dbf1). In scenarios such as XAML data-binding in which a collection of either reference types or value types is passed as type Platform::Object^, you can use safe_cast to convert the object to IBoxArray, and then use the [IBoxArray::Value](https://msdn.microsoft.com/library/96f33f35-5e3f-459c-b35e-c7d53d315fc7) property to access the strongly typed Platform::Array object that contains the elements of the collection.
+(C++/CX only) In C++/CX, this interface is exposed as [Platform::IBoxArray&lt;T&gt;](https://docs.microsoft.com/cpp/cppcx/platform-iboxarray-interface). In scenarios such as XAML data-binding in which a collection of either reference types or value types is passed as type Platform::Object^, you can use safe_cast to convert the object to IBoxArray, and then use the [IBoxArray::Value](https://docs.microsoft.com/cpp/cppcx/platform-array-class#value) property to access the strongly typed Platform::Array object that contains the elements of the collection.
 
 ### Interface inheritance
 
@@ -24,4 +24,4 @@ IReferenceArray inherits [IPropertyValue](ipropertyvalue.md). Types that impleme
 ## -examples
 
 ## -see-also
-[IPropertyValue](ipropertyvalue.md), [Nullable&lt;T&gt;](https://msdn.microsoft.com/library/windows/apps/b3h38hb0)
+[IPropertyValue](ipropertyvalue.md), [Nullable&lt;T&gt;](https://docs.microsoft.com/dotnet/api/system.nullable-1?redirectedfrom=MSDN)

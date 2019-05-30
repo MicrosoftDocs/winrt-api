@@ -22,7 +22,7 @@ The object that implements the pattern interface; **null** if the peer does not 
 ## -remarks
 The standard implementation at the [AutomationPeer](automationpeer.md) level returns **null**, because the basic peer class doesn't support any patterns. The majority of existing Windows Runtime peer classes override this method to report the patterns that a particular peer supports.
 
-Overriding this method to return the implementation of patterns that your peer class supports is one of the most common scenarios for implementing an automation peer. See [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+Overriding this method to return the implementation of patterns that your peer class supports is one of the most common scenarios for implementing an automation peer. See [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 > [!NOTE]
 >
@@ -42,4 +42,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [Control patterns and interfaces](https://msdn.microsoft.com/library/2091883c-5d0c-44ed-936a-709022926a42), [Accessibility](https://msdn.microsoft.com/library/c89d79c2-b830-493d-b020-f3ff8eb5ffdd), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](https://docs.microsoft.com/accessibility-tools-docs/)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Control patterns and interfaces](https://docs.microsoft.com/windows/uwp/accessibility/control-patterns-and-interfaces), [Accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessibility), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](https://docs.microsoft.com/accessibility-tools-docs/)

@@ -30,4 +30,4 @@ Represents a segment of a [PathFigure](pathfigure.md) object. Derived classes of
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [ArcSegment](arcsegment.md), [BezierSegment](beziersegment.md), [LineSegment](linesegment.md), [PolyBezierSegment](polybeziersegment.md), [PolyQuadraticBezierSegment](polyquadraticbeziersegment.md), [QuadraticBezierSegment](quadraticbeziersegment.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://msdn.microsoft.com/library/54cc0bd4-1961-44d7-ab40-6e8b58e42d65)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [ArcSegment](arcsegment.md), [BezierSegment](beziersegment.md), [LineSegment](linesegment.md), [PolyBezierSegment](polybeziersegment.md), [PolyQuadraticBezierSegment](polyquadraticbeziersegment.md), [QuadraticBezierSegment](quadraticbeziersegment.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)

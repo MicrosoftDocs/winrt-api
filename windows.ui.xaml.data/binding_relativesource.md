@@ -29,7 +29,7 @@ Gets or sets the binding source by specifying its location relative to the posit
 The relative location of the binding source to use. The default is **null**.
 
 ## -remarks
-[Source](binding_source.md), RelativeSource, and [ElementName](binding_elementname.md) are mutually exclusive in a binding. If you have set one of these attributes, then setting either of the other two in a binding (through XAML or through code) will cause an exception. Setting RelativeSource in XAML always requires the use of the [{RelativeSource} markup extension](https://msdn.microsoft.com/library/b87def36-be1f-4c16-b32e-7a896bd09272). This is also true if you are creating the entire binding as a [{Binding} markup extension](https://msdn.microsoft.com/library/3bafe7b5-af33-487f-9ad5-beafd65d04c3), in which case the [{RelativeSource} markup extension](https://msdn.microsoft.com/library/b87def36-be1f-4c16-b32e-7a896bd09272) is nested within the RelativeSource component of the expression.
+[Source](binding_source.md), RelativeSource, and [ElementName](binding_elementname.md) are mutually exclusive in a binding. If you have set one of these attributes, then setting either of the other two in a binding (through XAML or through code) will cause an exception. Setting RelativeSource in XAML always requires the use of the [{RelativeSource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/relativesource-markup-extension). This is also true if you are creating the entire binding as a [{Binding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/binding-markup-extension), in which case the [{RelativeSource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/relativesource-markup-extension) is nested within the RelativeSource component of the expression.
 
 You can't set the property values of a [Binding](binding.md) object after that binding has been attached to a target element and target property. If you attempt this you'll get a run-time exception.
 
@@ -62,4 +62,4 @@ This XAML example is taken from the generic.xaml file that defines the default v
 
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [{Binding} markup extension](https://msdn.microsoft.com/library/3bafe7b5-af33-487f-9ad5-beafd65d04c3), [{RelativeSource} markup extension](https://msdn.microsoft.com/library/b87def36-be1f-4c16-b32e-7a896bd09272)
+[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [{Binding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/binding-markup-extension), [{RelativeSource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/relativesource-markup-extension)

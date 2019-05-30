@@ -21,7 +21,7 @@ Returns the Account Experience URL associated with the Mobile Broadband account.
 The URL of the operator’s website used to configure Mobile Broadband.
 
 ## -remarks
-An Account Experience URL represents a mobile broadband account and its related information about the network provider. For more information, see [Microsoft Store mobile broadband apps](https://msdn.microsoft.com/windows/hardware/drivers/mobilebroadband/windows-store-mobile-broadband-apps).
+An Account Experience URL represents a mobile broadband account and its related information about the network provider. For more information, see [Microsoft Store mobile broadband apps](https://docs.microsoft.com/windows-hardware/drivers/mobilebroadband/windows-store-mobile-broadband-apps).
 
 ## -see-also
 

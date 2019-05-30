@@ -27,4 +27,4 @@ To customize the context menu, call [preventDefault](https://msdn.microsoft.com/
 [!code-js[newcontextmenu_js](../windows.ui.popups/code/ContextMenu/js/js/scenario1.js#Snippetnewcontextmenu_js)]
 
 ## -see-also
-[Adding context menus](https://msdn.microsoft.com/library/9778aea7-c959-4b3e-bd79-9659f07095a6), [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891), [Guidelines and checklist for ](https://msdn.microsoft.com/library/23063edd-ed89-4a82-9857-44001fad770b), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md)
+[Adding context menus](https://docs.microsoft.com/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891), [Guidelines and checklist for ](https://developer.microsoft.com/windows/design/controls-patterns), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md)

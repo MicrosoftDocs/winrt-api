@@ -28,4 +28,4 @@ The second [RepeatBehavior](repeatbehavior.md) to compare.
 ## -examples
 
 ## -see-also
-[Equals(Object)](https://msdn.microsoft.com/library/bsc2ak47.aspx)
+[Equals(Object)](https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_)

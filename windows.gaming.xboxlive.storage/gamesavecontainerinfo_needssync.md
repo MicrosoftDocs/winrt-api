@@ -15,7 +15,7 @@ Indicates whether the container needs to sync before updates can be submitted wi
 
 ## -property-value
 
-Type: **Boolean** \[JavaScript\] | [System.Boolean](https://msdn.microsoft.com/library/system.boolean.aspx) \[.NET\] | [Platform::Boolean](https://msdn.microsoft.com/library/windows/apps/hh755815.aspx) \[C++\]
+Type: **Boolean** \[JavaScript\] | [System.Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) \[.NET\] | [Platform::Boolean](https://docs.microsoft.com/cpp/cppcx/platform-boolean-value-class) \[C++\]
 
 True if the container needs to sync before updates can be submitted; false otherwise.
 

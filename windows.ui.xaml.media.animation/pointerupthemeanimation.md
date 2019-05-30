@@ -29,4 +29,4 @@ PointerUpThemeAnimation overrides the current values of [Projection](../windows.
 See the code example in [PointerDownThemeAnimation](pointerdownthemeanimation.md).
 
 ## -see-also
-[Timeline](timeline.md), [Animating pointer clicks](https://msdn.microsoft.com/library/b100b9c1-dfd7-43ac-99ed-a742a029c39b), [Guidelines and checklist for pointer click animations](https://msdn.microsoft.com/library/eeb10a2c-629a-4705-8468-4d019d74ddff)
+[Timeline](timeline.md), [Animating pointer clicks](https://docs.microsoft.com/previous-versions/windows/apps/jj649432(v=win.10)), [Guidelines and checklist for pointer click animations](https://docs.microsoft.com/windows/uwp/style/motion-pointer)

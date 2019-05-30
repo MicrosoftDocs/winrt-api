@@ -35,7 +35,7 @@ If PointerCanceled fires, any pointer captures by that pointer are released. For
 
 When handling a PointerCanceled event, anticipate that some of the event data normally available for a pointer event won't be meaningful in the [PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md) object you get through your handler. For example, the [Position](../windows.ui.input/pointerpoint_position.md) of the pointer is invalid because the pointer no longer exists.
 
-PointerCanceled is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+PointerCanceled is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 PointerCanceled supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/pointerroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
@@ -43,4 +43,4 @@ PointerCanceled supports the ability to attach event handlers to the route that 
 
 ## -see-also
 
-[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [PointerReleased](uielement_pointerreleased.md), [PointerPressed](uielement_pointerpressed.md), [CapturePointer](uielement_capturepointer_916768934.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
+[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [PointerReleased](uielement_pointerreleased.md), [PointerPressed](uielement_pointerpressed.md), [CapturePointer](uielement_capturepointer_916768934.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)

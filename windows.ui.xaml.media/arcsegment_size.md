@@ -29,4 +29,4 @@ A [Size](../windows.foundation/size.md) structure that describes the x-radius an
 ## -examples
 
 ## -see-also
-[Draw shapes](https://msdn.microsoft.com/library/54cc0bd4-1961-44d7-ab40-6e8b58e42d65)
+[Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)

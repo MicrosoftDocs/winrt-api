@@ -17,4 +17,4 @@ Occurs when the [PrintManager](../windows.graphics.printing/printmanager.md) req
 ## -examples
 
 ## -see-also
-[Print from your app](https://msdn.microsoft.com/library/9a0f1852-a76b-4f43-acfc-2cc56aad1c03)
+[Print from your app](https://docs.microsoft.com/windows/uwp/devices-sensors/print-from-your-app)

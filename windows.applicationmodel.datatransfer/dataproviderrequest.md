@@ -13,7 +13,7 @@ public class DataProviderRequest : Windows.ApplicationModel.DataTransfer.IDataPr
 An object of this type is passed to the [DataProviderHandler](dataproviderhandler.md) delegate.
 
 ## -remarks
-Use this object when you need to delay, or defer, a share for a few milliseconds. To learn more, check out [How to delay sharing](https://msdn.microsoft.com/library/34c8bda2-807c-4142-a0fc-d80e62d9b6b2).
+Use this object when you need to delay, or defer, a share for a few milliseconds. To learn more, check out [How to delay sharing](https://docs.microsoft.com/previous-versions/windows/apps/hh770847(v=win.10)).
 
 ## -examples
 

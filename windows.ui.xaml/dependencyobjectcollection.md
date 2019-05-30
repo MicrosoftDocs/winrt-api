@@ -15,7 +15,7 @@ Implements a practical collection class that can contain [DependencyObject](depe
 ## -remarks
 The purpose of the DependencyObjectCollection class is mainly to support the tooling and portability of behaviors. Behaviors are a technique for defining certain basic interactions of a UI element entirely in XAML, without requiring an event handler and code-behind.
 
-If you're interested in implementing a business object class that supports collection-changed notifications you should use **ObservableCollection** or one of the interface patterns that supports changed events. For more info see [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011).
+If you're interested in implementing a business object class that supports collection-changed notifications you should use **ObservableCollection** or one of the interface patterns that supports changed events. For more info see [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth).
 
 
 <!--Begin NET note for IEnumerable support-->

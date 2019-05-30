@@ -53,9 +53,9 @@ When SelectionMode is **Single**, use the [Selector.SelectedItem](../windows.ui.
 
 When item selection is disabled, you can make items respond to a user click like a button instead of being selected. To do this, set SelectionMode to [None](listviewselectionmode.md), the [IsItemClickEnabled](listviewbase_isitemclickenabled.md) property to **true**, and handle the [ItemClick](listviewbase_itemclick.md) event.
 
-For more info and examples, see [How to change the interaction mode](https://msdn.microsoft.com/library/7591268b-3835-4a48-a4ba-b2e6c9db73e6).
+For more info and examples, see [How to change the interaction mode](https://docs.microsoft.com/previous-versions/windows/apps/hh780625(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[SelectedItems](listviewbase_selecteditems.md), [Selector.SelectedItem](../windows.ui.xaml.controls.primitives/selector_selecteditem.md), [Selector.SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md), [Selector.SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md), [How to change the interaction mode](https://msdn.microsoft.com/library/7591268b-3835-4a48-a4ba-b2e6c9db73e6)
+[SelectedItems](listviewbase_selecteditems.md), [Selector.SelectedItem](../windows.ui.xaml.controls.primitives/selector_selecteditem.md), [Selector.SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md), [Selector.SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md), [How to change the interaction mode](https://docs.microsoft.com/previous-versions/windows/apps/hh780625(v=win.10))

@@ -20,4 +20,4 @@ This same pattern is usually exposed to clients in a different way, depending on
 ## -examples
 
 ## -see-also
-[IGridProvider](../windows.ui.xaml.automation.provider/igridprovider.md), [Control patterns and interfaces](https://msdn.microsoft.com/library/2091883c-5d0c-44ed-936a-709022926a42), [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[IGridProvider](../windows.ui.xaml.automation.provider/igridprovider.md), [Control patterns and interfaces](https://docs.microsoft.com/windows/uwp/accessibility/control-patterns-and-interfaces), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

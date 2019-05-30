@@ -13,7 +13,7 @@ public object Value { get; }
 Gets the stored value.
 
 ## -property-value
-The stored value [Object](https://msdn.microsoft.com/library/system.object.aspx).
+The stored value [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN).
 
 ## -remarks
 

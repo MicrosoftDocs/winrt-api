@@ -33,4 +33,4 @@ The existing [TriggerActionCollection](triggeractioncollection.md).
 ## -examples
 
 ## -see-also
-[XAML syntax guide](https://msdn.microsoft.com/library/a57fe7b4-9947-4aa0-bc99-5fe4686b611d)
+[XAML syntax guide](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-syntax-guide)

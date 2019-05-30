@@ -20,4 +20,4 @@ The identifier for the [ExitTargetName](drillinthemeanimation_exittargetname.md)
 ## -examples
 
 ## -see-also
-[ExitTargetName](drillinthemeanimation_exittargetname.md), [Dependency properties overview](https://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[ExitTargetName](drillinthemeanimation_exittargetname.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

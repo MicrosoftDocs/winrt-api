@@ -23,9 +23,9 @@ A **false** value for AllowDependentAnimations overrides all cases where **Enabl
 
 
 > [!NOTE]
-> If you're using [UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md), you may have unintentionally created dependent animations, even when using default XAML controls; for more info, see [UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md) and [Optimize animations and media](https://msdn.microsoft.com/library/de5b084c-dac1-430b-a15b-5b3d5fb698f7).
+> If you're using [UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md), you may have unintentionally created dependent animations, even when using default XAML controls; for more info, see [UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md) and [Optimize animations and media](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-animations-and-media).
 
 ## -examples
 
 ## -see-also
-[Storyboarded animations](https://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Optimize animations and media](https://msdn.microsoft.com/library/de5b084c-dac1-430b-a15b-5b3d5fb698f7)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Optimize animations and media](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-animations-and-media)

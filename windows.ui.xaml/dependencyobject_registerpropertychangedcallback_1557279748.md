@@ -27,7 +27,7 @@ Use RegisterPropertyChangedCallback to get property-changed notification for dep
 
 To unregister the callback, call [UnregisterPropertyChangedCallback](dependencyobject_unregisterpropertychangedcallback_129400824.md) and pass in the token returned by this method.
 
-You don't typically use RegisterPropertyChangedCallback for notifications on a custom dependency property, because custom dependency properties already have a way to register a property-changed handler that provides more data in the event args. For more info, see [Custom dependency properties](https://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8).
+You don't typically use RegisterPropertyChangedCallback for notifications on a custom dependency property, because custom dependency properties already have a way to register a property-changed handler that provides more data in the event args. For more info, see [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties).
 
 ## -examples
 This example shows how to use a [DependencyPropertyChangedCallback](dependencypropertychangedcallback.md) delegate to listen for changes to the [Tag](frameworkelement_tag.md) property on a [TextBlock](../windows.ui.xaml.controls/textblock.md).

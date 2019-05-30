@@ -22,11 +22,11 @@ An asynchronous operation that returns a [VideoFrame](../windows.media/videofram
 ## -remarks
 To get a preview frame without going through a copy or conversion operation, use the no argument overload of GetPreviewFrameAsync.
 
-For how-to guidance on preview frames, see [Get a preview frame](https://msdn.microsoft.com/windows/uwp/audio-video-camera/get-a-preview-frame).
+For how-to guidance on preview frames, see [Get a preview frame](https://docs.microsoft.com/windows/uwp/audio-video-camera/get-a-preview-frame).
 
 ## -examples
 
 ## -see-also
-[GetPreviewFrameAsync](mediacapture_getpreviewframeasync_211909276.md), [Get a preview frame](https://msdn.microsoft.com/windows/uwp/audio-video-camera/get-a-preview-frame)
+[GetPreviewFrameAsync](mediacapture_getpreviewframeasync_211909276.md), [Get a preview frame](https://docs.microsoft.com/windows/uwp/audio-video-camera/get-a-preview-frame)
 ## -capabilities
 backgroundMediaRecording

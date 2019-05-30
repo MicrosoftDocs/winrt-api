@@ -17,7 +17,7 @@ Returns a batch list of chat messages from the message store.
 An asynchronous operation that returns a list of chat messages upon successful completion.
 
 ## -remarks
-This method returns an [IReadOnlyList](https://msdn.microsoft.com/library/hh192385.aspx) of [ChatMessage class](chatmessage.md) objects. The method is invoked as an [IAsyncOperation](https://msdn.microsoft.com/library/a20e6057-c46a-4dbf-88b0-5dc954dc0362) as shown in the following example:
+This method returns an [IReadOnlyList](https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1?redirectedfrom=MSDN) of [ChatMessage class](chatmessage.md) objects. The method is invoked as an [IAsyncOperation](https://docs.microsoft.com/previous-versions//bb776309(v=vs.85)) as shown in the following example:
 
 ```
 IReadOnlyList<ChatMessage> msgList = await messageStore.GetMessageReader.ReadBatchAsync();

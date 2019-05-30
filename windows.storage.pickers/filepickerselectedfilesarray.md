@@ -23,7 +23,7 @@ For JavaScript, FilePickerSelectedFilesArray has the members shown in the member
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 
-FilePickerSelectedFilesArray is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<StorageFile>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://msdn.microsoft.com/library/system.collections.ienumerable.getenumerator.aspx), cast to [IEnumerable&lt;T&gt;](https://msdn.microsoft.com/library/system.collections.ienumerable.aspx) with a [StorageFile](../windows.storage/storagefile.md) constraint.
+FilePickerSelectedFilesArray is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<StorageFile>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator?redirectedfrom=MSDN#System_Collections_IEnumerable_GetEnumerator), cast to [IEnumerable&lt;T&gt;](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable?redirectedfrom=MSDN) with a [StorageFile](../windows.storage/storagefile.md) constraint.
 
 
 <!--End NET note for IEnumerable support-->
@@ -41,5 +41,5 @@ The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demon
 [!code-js[all_openpicker_showmulti](../windows.storage.pickers/code/FilePicker/js/js/scenario2.js#Snippetall_openpicker_showmulti)]
 
 ## -see-also
-[File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](https://msdn.microsoft.com/library/df082239-381c-462f-9f97-d2b390a2052e), [fileOpenPicker.pickMultipleFilesAsync method](fileopenpicker_pickmultiplefilesasync_1324933367.md)
+[File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker.pickMultipleFilesAsync method](fileopenpicker_pickmultiplefilesasync_1324933367.md)
 picker_pickmultiplefilesasync.md)

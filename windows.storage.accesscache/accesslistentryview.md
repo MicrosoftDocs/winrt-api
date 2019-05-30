@@ -23,7 +23,7 @@ For JavaScript, AccessListEntryView has the members shown in the member lists. I
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 
-AccessListEntryView is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<AccessListEntry>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://msdn.microsoft.com/library/system.collections.ienumerable.getenumerator.aspx), cast to [IEnumerable&lt;T&gt;](https://msdn.microsoft.com/library/9eekhta0.aspx) with an [AccessListEntry](accesslistentry.md) constraint.
+AccessListEntryView is enumerable, so you can use language-specific syntax such as **foreach** in C# to enumerate the items in the collection. The compiler does the type-casting for you and you won't need to cast to `IEnumerable<AccessListEntry>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator?redirectedfrom=MSDN#System_Collections_IEnumerable_GetEnumerator), cast to [IEnumerable&lt;T&gt;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1?redirectedfrom=MSDN) with an [AccessListEntry](accesslistentry.md) constraint.
 
 
 <!--End NET note for IEnumerable support-->

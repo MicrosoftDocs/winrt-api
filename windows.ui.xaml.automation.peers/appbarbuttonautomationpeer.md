@@ -23,7 +23,7 @@ AppBarButtonAutomationPeer has overrides of **Core** methods such that the assoc
 + [GetName](automationpeer_getname_1386609741.md) does not use the [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md) behavior that returns a string based on **Content**. Instead, it looks for a label / **LabeledBy** value. Otherwise, values from apps should come from [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) usages in XAML UI definitions, not from values forwarded from the control by the peer.
 This peer has the base class [ButtonAutomationPeer](buttonautomationpeer.md) and inherits its behavior other than the overrides indicated above. This includes the pattern support for [IInvokeProvider](../windows.ui.xaml.automation.provider/iinvokeprovider.md) and the [GetPattern](automationpeer_getpattern_2046576749.md) behavior that returns that pattern when requested, and [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Button](automationcontroltype.md).
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 

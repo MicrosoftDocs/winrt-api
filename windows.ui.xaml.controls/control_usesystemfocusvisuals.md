@@ -30,7 +30,7 @@ In the [ControlTemplate](controltemplate.md), do the following:
 ## -examples
 This example shows a [ControlTemplate](controltemplate.md) that defines custom focus visuals for a [Button](button.md).
 
-Some elements of the control template aren't shown to make the relevant parts more clear. To see the full control template for [Button](button.md), see [Button styles and templates](https://msdn.microsoft.com/library/05f2b757-6a25-42a7-824a-45776e76c2d2).
+Some elements of the control template aren't shown to make the relevant parts more clear. To see the full control template for [Button](button.md), see [Button styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles).
 
 ```xaml
 <Style TargetType="Button">
@@ -111,4 +111,4 @@ Some elements of the control template aren't shown to make the relevant parts mo
 
 
 ## -see-also
-[FocusState](control_focusstate.md), [Control.IsTemplateFocusTarget](/uwp/api/windows.ui.xaml.controls.control#xaml-attached-properties), [Button styles and templates](https://msdn.microsoft.com/library/05f2b757-6a25-42a7-824a-45776e76c2d2)
+[FocusState](control_focusstate.md), [Control.IsTemplateFocusTarget](/uwp/api/windows.ui.xaml.controls.control#xaml-attached-properties), [Button styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)

@@ -23,7 +23,7 @@ To enable Play To in your application, register for the [SourceRequested](playto
 
 When a user selects a Play To target from the **Devices** charm, Play To  fires the [SourceRequested](playtomanager_sourcerequested.md) event. Play To then streams the media element that was passed to the [SetSource](playtosourcerequest_setsource_1024738425.md) method to the target device  that the user has   selected.
 
-For an example of how to use  Play To in an application, see [PlayReady DRM](https://msdn.microsoft.com/library/dd8ffa8c-dff0-41e3-8f7a-345c5a248fc2).
+For an example of how to use  Play To in an application, see [PlayReady DRM](https://docs.microsoft.com/windows/uwp/audio-video-camera/playready-client-sdk).
 
 
 ## -examples

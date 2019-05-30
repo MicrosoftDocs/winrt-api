@@ -23,13 +23,13 @@ You can use this option for any storage location.
 
 ### -field OrderByName:1
 
-A deep, flat list of files in a folder and its subfolders, sorted by [System.ItemNameDisplay](https://msdn.microsoft.com/library/windows/desktop/bb760770.aspx).
+A deep, flat list of files in a folder and its subfolders, sorted by [System.ItemNameDisplay](https://docs.microsoft.com/windows/desktop/properties/props-system-itemnamedisplay).
 
 You can use this option for any storage location.
 
 ### -field OrderByTitle:2
 
-A deep, flat list of files in a folder and its subfolders, sorted by [System.Title](https://msdn.microsoft.com/library/windows/desktop/bb787584.aspx).
+A deep, flat list of files in a folder and its subfolders, sorted by [System.Title](https://docs.microsoft.com/windows/desktop/properties/props-system-title).
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
@@ -41,18 +41,18 @@ You can use this option only for folders in a library or the HomeGroup folder.
 
 ### -field OrderBySearchRank:4
 
-A deep, flat list of files in a folder and its subfolders, sorted by [System.Search.Rank](https://msdn.microsoft.com/library/windows/desktop/bb760173.aspx) followed by [System.DateModified](https://msdn.microsoft.com/library/windows/desktop/bb760685.aspx).
+A deep, flat list of files in a folder and its subfolders, sorted by [System.Search.Rank](https://docs.microsoft.com/windows/desktop/properties/props-system-search-rank) followed by [System.DateModified](https://docs.microsoft.com/windows/desktop/properties/props-system-datemodified).
 
 You can use this option for any storage location.
 
 ### -field OrderByDate:5
 
-A deep, flat list of files in a folder and its subfolders, sorted by [System.ItemDate](https://msdn.microsoft.com/library/windows/desktop/bb760745.aspx).
+A deep, flat list of files in a folder and its subfolders, sorted by [System.ItemDate](https://docs.microsoft.com/windows/desktop/properties/props-system-itemdate).
 
 You can use this option only for folders in a library or the HomeGroup folder.
 
 > [!NOTE]
-> [System.ItemDate](https://msdn.microsoft.com/library/windows/desktop/bb760745.aspx) is a computed property that changes based on the content type; for example, it maps to [System.Photo.DateTaken](https://msdn.microsoft.com/library/windows/desktop/bb760410.aspx) for photos.
+> [System.ItemDate](https://docs.microsoft.com/windows/desktop/properties/props-system-itemdate) is a computed property that changes based on the content type; for example, it maps to [System.Photo.DateTaken](https://docs.microsoft.com/windows/desktop/properties/props-system-photo-datetaken) for photos.
 
 ## -remarks
 

@@ -37,4 +37,4 @@ You can't set the property values of a [Binding](binding.md) object after that b
 ## -examples
 
 ## -see-also
-[Converter](binding_converter.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[Converter](binding_converter.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

@@ -21,7 +21,7 @@ The rounded number. This result is a double precision floating point number, whi
 
 ## -remarks
 > [!NOTE]
-> This method is precise only within the limits of the [Double](https://msdn.microsoft.com/library/system.double.aspx) data type: approximately 15 digits.
+> This method is precise only within the limits of the [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) data type: approximately 15 digits.
 
 ## -examples
 

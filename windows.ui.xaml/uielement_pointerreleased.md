@@ -21,7 +21,7 @@ Occurs when the pointer device that previously initiated a **Press** action is r
 
 ## -remarks
 
-Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these interactions can produce a PointerReleased event. For more info, see [Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82).
+Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these interactions can produce a PointerReleased event. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input).
 
 Other events instead of PointerReleased may fire at the end of the action— for example, [PointerCanceled](uielement_pointercanceled.md) or [PointerCaptureLost](uielement_pointercapturelost.md). Don't rely on [PointerPressed](uielement_pointerpressed.md) and PointerReleased events always occurring in pairs. To function properly, your app must listen for and handle all events that represent likely conclusions to the **Press** action. Some of the reasons why you might not get a PointerReleased occurrence are:
 
@@ -38,13 +38,13 @@ Mouse input is associated with a single pointer assigned when mouse input is fir
 
 [!code-csharp[PointerMoved](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetPointerMoved)]
 
-PointerReleased is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+PointerReleased is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
-For touch actions and also for interaction-specific or manipulation events that are consequences of a touch action, an element must be hit-test visible in order to be the event source and fire the event that is associated with the action. [UIElement.Visibility](uielement_visibility.md) must be [Visible](visibility.md). Other properties of derived types also affect hit-test visibility. For more info, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+For touch actions and also for interaction-specific or manipulation events that are consequences of a touch action, an element must be hit-test visible in order to be the event source and fire the event that is associated with the action. [UIElement.Visibility](uielement_visibility.md) must be [Visible](visibility.md). Other properties of derived types also affect hit-test visibility. For more info, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 PointerReleased supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/pointerroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
-Specific Windows Runtime controls may have class-based handling for the PointerReleased input event. If so, the control probably has an override for the method [OnPointerReleased](../windows.ui.xaml.controls/control_onpointerreleased_2120631493.md). Typically the event is marked handled by the class handler, and the PointerReleased event is not raised for handling by any user code handlers on that control. For more info on how class-based handling for events works, see [Events and routed events overview](https://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+Specific Windows Runtime controls may have class-based handling for the PointerReleased input event. If so, the control probably has an override for the method [OnPointerReleased](../windows.ui.xaml.controls/control_onpointerreleased_2120631493.md). Typically the event is marked handled by the class handler, and the PointerReleased event is not raised for handling by any user code handlers on that control. For more info on how class-based handling for events works, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 Controls may also have a [PointerUpThemeAnimation](../windows.ui.xaml.media.animation/pointerupthemeanimation.md) personality animation that run independently of the event.
 

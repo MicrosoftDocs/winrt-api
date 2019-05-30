@@ -20,7 +20,7 @@ Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.contr
 
 ### Compatibility notes
 
-If your app runs on releases of Windows 10 prior to version 1607, you must use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you use it. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](https://msdn.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+If your app runs on releases of Windows 10 prior to version 1607, you must use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you use it. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
 
 ## -examples
 This example shows how to use an animated GIF. A button lets the user start or stop the animation. The IsAnimatedBitmap property is checked to determine whether the button is shown or hidden.

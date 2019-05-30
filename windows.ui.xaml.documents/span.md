@@ -41,7 +41,7 @@ Span supports mixed content if you set the content in XAML. What this means is t
 When mixed content is parsed from XAML, and the text object model is examined at run time, any text area that came from the plain text generates a [Run](run.md) object at the appropriate reading-order position in the [InlineCollection](inlinecollection.md) collection class that enables run-time access. That [Run](run.md) element contains the text but otherwise has no properties set.
 
 > [!NOTE]
-> Placing XAML content whether tags or text directly within a Span element is supported because Span denotes that its [Inlines](span_inlines.md) property is the XAML content property. For more info on XAML content properties, see "XAML content properties" section of [XAML syntax guide](https://msdn.microsoft.com/library/a57fe7b4-9947-4aa0-bc99-5fe4686b611d).
+> Placing XAML content whether tags or text directly within a Span element is supported because Span denotes that its [Inlines](span_inlines.md) property is the XAML content property. For more info on XAML content properties, see "XAML content properties" section of [XAML syntax guide](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-syntax-guide).
 
 Span elements are typically used as elements within an [InlineCollection](inlinecollection.md), either as child elements of a [Paragraph](paragraph.md) (becomes part of [Paragraph.Inlines](paragraph_inlines.md)) or as the content of another Span (becomes part of [Span.Inlines](span_inlines.md)).
 

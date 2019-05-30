@@ -10,7 +10,7 @@ public class SystemAudioProperties : Windows.Storage.ISystemAudioProperties
 # Windows.Storage.SystemAudioProperties
 
 ## -description
-A helper object that provides indexing names for [Windows audio file properties](https://msdn.microsoft.com/library/ed8fe840-f26f-43dc-b94f-f57941c2801f).
+A helper object that provides indexing names for [Windows audio file properties](https://docs.microsoft.com/windows/desktop/properties/audio-bumper).
 
 ## -remarks
 

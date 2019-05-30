@@ -10,7 +10,7 @@ public void AddString(System.String name, System.String value, Windows.Foundatio
 # Windows.Foundation.Diagnostics.LoggingFields.AddString
 
 ## -description
-Adds a [String](https://msdn.microsoft.com/library/system.string.aspx) field with the specified field name and format.
+Adds a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) field with the specified field name and format.
 
 ## -parameters
 ### -param name

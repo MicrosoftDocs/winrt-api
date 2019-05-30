@@ -20,4 +20,4 @@ TileBrush is the parent class for [ImageBrush](imagebrush.md) and [WebViewBrush]
 ## -examples
 
 ## -see-also
-[Brush](brush.md), [ImageBrush](imagebrush.md), [WebViewBrush](../windows.ui.xaml.controls/webviewbrush.md), [Use brushes](https://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Brush](brush.md), [ImageBrush](imagebrush.md), [WebViewBrush](../windows.ui.xaml.controls/webviewbrush.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)

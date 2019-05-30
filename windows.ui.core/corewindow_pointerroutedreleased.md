@@ -17,4 +17,4 @@ Occurs on a process associated with, but not currently receiving input from, a p
 ## -examples
 
 ## -see-also
-[Handle pointer input](https://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82)
+[Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)
