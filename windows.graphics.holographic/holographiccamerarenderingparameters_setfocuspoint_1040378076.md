@@ -27,7 +27,7 @@ The normal of the focus point in the specified coordinate system, if known. If t
 The velocity vector of the focus point in the specified coordinate system.
 
 ## -remarks
-There are two types of LSR your app can use - Planar LSR and Depth LSR. 
+There are two types of LSR your app can use - Planar LSR and Depth LSR. Planar LSR is used by HoloLens and Windows Mixed Reality devices. Depth LSR is available on HoloLens 2.
 
 Planar LSR is the default mode where the platform stabilizes a single plane in the scene. This function allows you to specify that plane. If you set a manual focus point, you must set it again each frame, or it will reset to its default.  Otherwise, the default focus point will be 2 meters away from the headset, with a normal facing the headset.
 
