@@ -17,7 +17,7 @@ Gets or sets the unique identifier of this notification within the notification 
 Gets or sets the unique identifier of this notification within the notification [Group](toastnotification_group.md).
 
 ## -remarks
-The tag can be maximum 16 characters long. Build 14971 (Creators Update) extends this limit to 64 characters.
+The tag can be maximum 16 characters long. However, the Creators Update (15063) extends this limit to 64 characters.
 
 ## -examples
 
