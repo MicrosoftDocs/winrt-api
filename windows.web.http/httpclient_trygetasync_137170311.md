@@ -11,7 +11,7 @@ public IAsyncOperationWithProgress<HttpProgress> HttpClient.TryGetAsync(Uri uri)
 # Windows.Web.Http.HttpClient.TryGetAsync
 
 ## -description
-Sends a GET request to the specified [Uri](../windows.foundation/uri.md) as an asynchronous operation.
+Sends a GET request to the specified [Uri](../windows.foundation/uri.md) as an asynchronous operation. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -parameters
 ### -param uri
@@ -26,7 +26,7 @@ This operation will not throw an exception on network errors. Instead you should
 This operation will not block. The returned [IAsyncOperationWithProgress(HttpRequestResult,HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response (including content) is read.
 
 ## -see-also
-[HttpRequestResult](httprequestresult.md), [HttpProgress](httpprogress.md), [HttpResponseMessage](httpresponsemessage.md)
+[HttpRequestResult](httprequestresult.md), [HttpProgress](httpprogress.md), [HttpResponseMessage](httpresponsemessage.md), [HttpClient](/windows/uwp/networking/httpclient)
 
 ## -examples
 

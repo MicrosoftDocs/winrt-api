@@ -10,7 +10,7 @@ public HttpClient(Windows.Web.Http.Filters.IHttpFilter filter)
 # Windows.Web.Http.HttpClient.HttpClient
 
 ## -description
-Initializes a new instance of the [HttpClient](httpclient.md) class with a specific filter for handling HTTP response messages.
+Initializes a new instance of the [HttpClient](httpclient.md) class with a specific filter for handling HTTP response messages. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -parameters
 ### -param filter
@@ -44,4 +44,4 @@ internal static void CreateHttpClient(ref HttpClient httpClient)
 
 
 ## -see-also
-[HttpClient constructor](httpclient_httpclient_1221375020.md), [IHttpFilter](../windows.web.http.filters/ihttpfilter.md), [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md)
+[HttpClient constructor](httpclient_httpclient_1221375020.md), [IHttpFilter](../windows.web.http.filters/ihttpfilter.md), [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md), [HttpClient](/windows/uwp/networking/httpclient)

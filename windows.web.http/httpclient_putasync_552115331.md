@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Web.Http.HttpRespo
 # Windows.Web.Http.HttpClient.PutAsync
 
 ## -description
-Send a PUT request to the specified Uri as an asynchronous operation.
+Send a PUT request to the specified Uri as an asynchronous operation. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -parameters
 ### -param uri
@@ -36,4 +36,4 @@ The *uri* parameter was a **null** reference (**Nothing** in Visual Basic).
 ## -examples
 
 ## -see-also
-[PostAsync](httpclient_postasync_1466488101.md), [SendRequestAsync](/uwp/api/windows.web.http.httpclient.sendrequestasync)
+[PostAsync](httpclient_postasync_1466488101.md), [SendRequestAsync](/uwp/api/windows.web.http.httpclient.sendrequestasync), [HttpClient](/windows/uwp/networking/httpclient)

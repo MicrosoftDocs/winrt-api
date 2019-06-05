@@ -11,7 +11,7 @@ public class HttpClient : Windows.Foundation.IClosable, Windows.Foundation.IStri
 
 ## -description
 
-Sends HTTP requests and receives HTTP responses from a resource identified by a URI.
+Sends HTTP requests and receives HTTP responses from a resource identified by a URI. For programming guidance for the **HttpClient** class, and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -remarks
 
@@ -21,9 +21,9 @@ The HttpClient also acts as a class to use with filters for more specific HTTP c
 
 If an app using HttpClient and related classes in the [Windows.Web.Http](windows_web_http.md) namespace downloads large amounts of data (50 megabytes or more), then the app should stream those downloads and not use the default buffering. If the default buffering is used the client memory usage will get very large, potentially resulting in reduced performance.
 
-For sample code in C#/VB/C++ and XAML that shows how to use HttpClient to connect to an HTTP server, see [HttpClient](https://docs.microsoft.com/windows/uwp/networking/httpclient).
+For sample code in C# and C++/WinRT that shows how to use HttpClient to connect to an HTTP server, see [HttpClient](/windows/uwp/networking/httpclient).
 
-For sample code in JavaScript and HTML that shows how to use HttpClient to connect to an HTTP server, see [Connecting to an HTTP server using Windows.Web.Http](https://docs.microsoft.com/previous-versions/windows/apps/dn469430(v=win.10)).
+For sample code in JavaScript and HTML that shows how to use HttpClient to connect to an HTTP server, see [Connecting to an HTTP server using Windows.Web.Http](/previous-versions/windows/apps/dn469430(v=win.10)).
 
 ### Version history
 
@@ -133,4 +133,4 @@ The HttpClient class is often used by an app to download and then parse text. It
 
 ## -see-also
 
-[HttpClient](https://docs.microsoft.com/windows/uwp/networking/httpclient), [Connecting to an HTTP server using Windows.Web.Http](https://docs.microsoft.com/previous-versions/windows/apps/dn469430(v=win.10)), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [IClosable](../windows.foundation/iclosable.md), [IStringable](../windows.foundation/istringable.md), [System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN), [Windows.Foundation.Uri](../windows.foundation/uri.md), [Windows.Web.Http](windows_web_http.md), [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md), [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md), [HttpClient Sample]( http://go.microsoft.com/fwlink/p/?linkid=242550), [Background transfer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620510), [HttpClient sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620551), [JSON sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620556)
+[HttpClient](/windows/uwp/networking/httpclient), [Connecting to an HTTP server using Windows.Web.Http](/previous-versions/windows/apps/dn469430(v=win.10)), [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)), [IClosable](../windows.foundation/iclosable.md), [IStringable](../windows.foundation/istringable.md), [System.Uri](/dotnet/api/system.uri?redirectedfrom=MSDN), [Windows.Foundation.Uri](../windows.foundation/uri.md), [Windows.Web.Http](windows_web_http.md), [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md), [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md), [HttpClient Sample]( http://go.microsoft.com/fwlink/p/?linkid=242550), [Background transfer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620510), [HttpClient sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620551), [JSON sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620556)

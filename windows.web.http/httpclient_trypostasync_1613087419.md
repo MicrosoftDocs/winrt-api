@@ -11,7 +11,7 @@ public IAsyncOperationWithProgress<HttpProgress> HttpClient.TryPostAsync(Uri uri
 # Windows.Web.Http.HttpClient.TryPostAsync
 
 ## -description
-Sends a POST request to the specified [Uri](../windows.foundation/uri.md) as an asynchronous operation.
+Sends a POST request to the specified [Uri](../windows.foundation/uri.md) as an asynchronous operation. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -parameters
 ### -param uri
@@ -31,7 +31,7 @@ This operation will not block. The returned [IAsyncOperationWithProgress(HttpReq
 The [TryPutAsync](httpclient_tryputasync_1991770449.md) and TryPostAsync methods only allow setting a limited number of HTTP content headers. In contrast, the [TrySendRequestAsync](httpclient_trysendrequestasync_1392908712.md) method allows setting headers on the request message as well as on the HTTP content to be sent.
 
 ## -see-also
-[HttpRequestResult](httprequestresult.md), [IHttpContent](ihttpcontent.md), [HttpProgress](httpprogress.md), [HttpResponseMessage](httpresponsemessage.md)
+[HttpRequestResult](httprequestresult.md), [IHttpContent](ihttpcontent.md), [HttpProgress](httpprogress.md), [HttpResponseMessage](httpresponsemessage.md), [HttpClient](/windows/uwp/networking/httpclient)
 
 ## -examples
 

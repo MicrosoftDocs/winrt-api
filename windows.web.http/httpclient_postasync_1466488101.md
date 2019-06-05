@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Web.Http.HttpRespo
 
 ## -description
 
-Send a POST request to the specified URI as an asynchronous operation.
+Send a POST request to the specified URI as an asynchronous operation. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -parameters
 
@@ -49,4 +49,4 @@ See [HttpClient](https://docs.microsoft.com/windows/uwp/networking/httpclient) f
 
 ## -see-also
 
-[IHttpContent](ihttpcontent.md), [IAsyncOperationWithProgress(String, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [PutAsync](httpclient_putasync_552115331.md), [SendRequestAsync](httpclient_sendrequestasync_234300504.md), [Uri](../windows.foundation/uri.md)
+[IHttpContent](ihttpcontent.md), [IAsyncOperationWithProgress(String, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [PutAsync](httpclient_putasync_552115331.md), [SendRequestAsync](httpclient_sendrequestasync_234300504.md), [Uri](../windows.foundation/uri.md), [HttpClient](/windows/uwp/networking/httpclient)

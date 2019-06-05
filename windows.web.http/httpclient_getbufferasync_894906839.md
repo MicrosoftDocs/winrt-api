@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IB
 # Windows.Web.Http.HttpClient.GetBufferAsync
 
 ## -description
-Send a GET request to the specified Uri and return the response body as a buffer in an asynchronous operation.
+Send a GET request to the specified Uri and return the response body as a buffer in an asynchronous operation. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -parameters
 ### -param uri
@@ -36,4 +36,4 @@ The *uri* parameter was a **null** reference (**Nothing** in Visual Basic).
 ## -examples
 
 ## -see-also
-[IAsyncOperationWithProgress(IBuffer, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [Uri](../windows.foundation/uri.md)
+[IAsyncOperationWithProgress(IBuffer, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [Uri](../windows.foundation/uri.md), [HttpClient](/windows/uwp/networking/httpclient)

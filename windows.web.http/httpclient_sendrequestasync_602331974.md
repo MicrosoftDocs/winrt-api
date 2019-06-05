@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Web.Http.HttpRespo
 # Windows.Web.Http.HttpClient.SendRequestAsync
 
 ## -description
-Send an HTTP request as an asynchronous operation.
+Send an HTTP request as an asynchronous operation. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -parameters
 ### -param request
@@ -36,4 +36,4 @@ The request message was already sent by the [HttpClient](httpclient.md) instance
 ## -examples
 
 ## -see-also
-[HttpRequestMessage](httprequestmessage.md), [PostAsync](httpclient_postasync_1466488101.md), [PutAsync](httpclient_putasync_552115331.md), [SendRequestAsync(HttpRequestMessage, HttpCompletionOption)](httpclient_sendrequestasync_234300504.md)
+[HttpRequestMessage](httprequestmessage.md), [PostAsync](httpclient_postasync_1466488101.md), [PutAsync](httpclient_putasync_552115331.md), [SendRequestAsync(HttpRequestMessage, HttpCompletionOption)](httpclient_sendrequestasync_234300504.md), [HttpClient](/windows/uwp/networking/httpclient)
