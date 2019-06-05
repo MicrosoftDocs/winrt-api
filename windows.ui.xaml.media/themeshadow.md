@@ -28,14 +28,14 @@ A ThemeShadow can be applied to any XAML element to draw shadows based on the re
 
 ### ThemeShadows in Popups
 
-ThemeShadow automatically casts shadows when applied to any XAML element in a [Popup](../windows.ui.xaml.controls.primitives.popup). It will cast shadows on the app background content behind it and any other open Popups below it.
+ThemeShadow automatically casts shadows when applied to any XAML element in a [Popup](../windows.ui.xaml.controls.primitives/popup.md). It will cast shadows on the app background content behind it and any other open Popups below it.
 
 To use ThemeShadow with Popups, use the [UIElement.Shadow](../windows.ui.xaml/uielement_shadow.md) property to apply a ThemeShadow to a XAML element. Then, elevate the element from other elements behind it, for example by using the z component of the [UIElement.Translation](../windows.ui.xaml/uielement_translation.md) property.
 For most Popup UI, the recommended default elevation relative to the app background content is 32 effective pixels.
 
 ### ThemeShadow in other elements
 
-To cast a shadow from a XAML element that isn't in a [Popup](../windows.ui.xaml.controls.primitives.popup), you must explicitly specify the other elements that can receive the shadow in the [ThemeShadow.Receivers](themeshadow_receivers.md) collection. Receivers cannot be an ancestor of the caster in the visual tree.
+To cast a shadow from a XAML element that isn't in a [Popup](../windows.ui.xaml.controls.primitives/popup.md), you must explicitly specify the other elements that can receive the shadow in the [ThemeShadow.Receivers](themeshadow_receivers.md) collection. Receivers cannot be an ancestor of the caster in the visual tree.
 
 ### Performance best practices for ThemeShadow
 
