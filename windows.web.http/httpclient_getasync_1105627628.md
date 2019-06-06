@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Web.Http.HttpRespo
 # Windows.Web.Http.HttpClient.GetAsync
 
 ## -description
-Send a GET request to the specified [Uri](../windows.foundation/uri.md) with an HTTP completion option as an asynchronous operation.
+Send a GET request to the specified [Uri](../windows.foundation/uri.md) with an HTTP completion option as an asynchronous operation. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -parameters
 ### -param uri
@@ -54,4 +54,4 @@ Thrown when insufficient memory is available to complete the operation.
 ## -examples
 
 ## -see-also
-[Connecting to an HTTP server using Windows.Web.Http](https://docs.microsoft.com/previous-versions/windows/apps/dn469430(v=win.10)), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [GetAsync(Uri)](httpclient_getasync_1878488818.md), [HttpCompletionOption](httpcompletionoption.md), [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN), [Windows.Foundation.Uri](../windows.foundation/uri.md), [Windows.Web.Http](windows_web_http.md)
+[Connecting to an HTTP server using Windows.Web.Http](https://docs.microsoft.com/previous-versions/windows/apps/dn469430(v=win.10)), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [GetAsync(Uri)](httpclient_getasync_1878488818.md), [HttpCompletionOption](httpcompletionoption.md), [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN), [Windows.Foundation.Uri](../windows.foundation/uri.md), [Windows.Web.Http](windows_web_http.md), [HttpClient](/windows/uwp/networking/httpclient)

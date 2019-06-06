@@ -11,7 +11,7 @@ public void Close()
 # Windows.Web.Http.HttpClient.Close
 
 ## -description
-Closes the [HttpClient](httpclient.md) instance and releases allocated resources.
+Closes the [HttpClient](httpclient.md) instance and releases allocated resources. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -remarks
 The Close method releases allocated resources used by the [HttpClient](httpclient.md) instance. The Close method can manage the lifetime of system resources (the underlying socket and memory for the [HttpClient](httpclient.md), for example) used by a Windows Runtime object.
@@ -25,3 +25,4 @@ Apps written in C++ or CX don't have a Close method since these apps can destroy
 ## -examples
 
 ## -see-also
+[HttpClient](/windows/uwp/networking/httpclient)

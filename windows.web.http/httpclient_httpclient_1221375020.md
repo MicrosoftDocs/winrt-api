@@ -10,11 +10,11 @@ public HttpClient()
 # Windows.Web.Http.HttpClient.HttpClient
 
 ## -description
-Initializes a new instance of the [HttpClient](httpclient.md) class.
+Initializes a new instance of the [HttpClient](httpclient.md) class. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[HttpClient(IHttpFilter)](httpclient_httpclient_782807480.md)
+[HttpClient(IHttpFilter)](httpclient_httpclient_782807480.md), [HttpClient](/windows/uwp/networking/httpclient)

@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Web.Http.HttpRespo
 # Windows.Web.Http.HttpClient.DeleteAsync
 
 ## -description
-Send a DELETE request to the specified [Uri](../windows.foundation/uri.md) as an asynchronous operation.
+Send a DELETE request to the specified [Uri](../windows.foundation/uri.md) as an asynchronous operation. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -parameters
 ### -param uri
@@ -34,4 +34,4 @@ The *uri* parameter was **null** reference (**Nothing** in Visual Basic).
 ## -examples
 
 ## -see-also
-[IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [Uri](../windows.foundation/uri.md)
+[IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [Uri](../windows.foundation/uri.md), [HttpClient](/windows/uwp/networking/httpclient)

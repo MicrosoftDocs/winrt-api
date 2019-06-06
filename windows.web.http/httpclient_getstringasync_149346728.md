@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<string, Windows.Web.Http.H
 # Windows.Web.Http.HttpClient.GetStringAsync
 
 ## -description
-Send a GET request to the specified Uri and return the response body as a string in an asynchronous operation.
+Send a GET request to the specified Uri and return the response body as a string in an asynchronous operation. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -parameters
 ### -param uri
@@ -37,4 +37,4 @@ You must write code to handle exceptions when you call this method. Exceptions c
 ## -examples
 
 ## -see-also
-[IAsyncOperationWithProgress(String, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [Uri](../windows.foundation/uri.md)
+[IAsyncOperationWithProgress(String, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [Uri](../windows.foundation/uri.md), [HttpClient](/windows/uwp/networking/httpclient)
