@@ -15,7 +15,7 @@ Enables apps to handle state changes, manage windows, and integrate with a varie
 
 ## -remarks
 
-The system creates this object as a singleton when it runs the app. It is run as an Application Single-Threaded Apartment (ASTA). Threads created from the app singleton, such as the view provider (seen in the sample below), should be attributed as Multi-Threaded Apartment (MTAThread). Put another way, any thread that you spin off from the ASTA must be in an MTA. MTAThread is suitable for DirectX applications, see the DirectX swap chain implementation sample linked at the bottom of the page.
+The system creates this object as a singleton when it runs the app. It is run as an Application Single-Threaded Apartment (ASTA). Threads created from the app singleton, such as the view provider (seen in the sample below), should be attributed as Multi-Threaded Apartment (MTAThread). 
 
 This API is supported in native apps only, except for the [Properties](coreapplication_properties.md) property, which is always available.
 
@@ -82,4 +82,4 @@ public static int Main()
 
 ## -see-also
 
-[DirectX swap chain implementation sample](https://go.microsoft.com/fwlink/p/?linkid=258452), [CoreApplicationView](coreapplicationview.md), [Multiple views sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MultipleViews)
+[DirectX swap chain implementation sample](https://go.microsoft.com/fwlink/p/?linkid=258452), [CoreApplicationView](coreapplicationview.md), [Multiple views sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MultipleViews), [MTAThreadAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.mtathreadattribute?view=dotnet-uwp-10.0)
