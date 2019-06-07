@@ -35,7 +35,7 @@ Limitations in the current preview version of AppWindow include (this is a non-e
 
 * Any API that uses the GetForCurrentView pattern is not working for AppWindow since the CurrentView refers to the ApplicationView which is a separate entity from the AppWindow.
 * Fullscreen media playback is unavailable in MediaElement or MediaPlayerElement.
-* MessageDialog will not be modal to the correct window, recommendation is to use ContentDialog instead.
+* MessageDialog will not be modal to the correct window, recommendation is to use [ContentDialog](/uwp/api/Windows.UI.Xaml.Controls.ContentDialog#contentdialog-in-appwindow-or-xaml-islands) instead.
 * WebView is not fully supported. You can use an in-proc WebView, but anything outside of static HTML content may or may not work properly.
 * If you set the Window.Current.Content property in XAML, it destroys all the XAML content in your AppWindow. Avoid using this as a pattern to reset your content when suspending your app if you use AppWindow.
 * Smooth Window Resize is not working for AppWindows. The frame and the content will resize independently, which can look unpolished when content layout is slow.
