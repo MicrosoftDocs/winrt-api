@@ -49,6 +49,38 @@ You may wish to do some work before the dialog closes (for example, to verify th
 
 Only one ContentDialog can be shown at a time. To chain together more than one ContentDialog, handle the [Closing](contentdialog_closing.md) event of the first ContentDialog. In the [Closing](contentdialog_closing.md) event handler, call [ShowAsync](contentdialog_showasync_1208475713.md) on the second dialog to show it.
 
+## ContentDialog in AppWindow or Xaml Islands
+
+> NOTE: This section applies only to apps that target Windows 10, version 1903 or later. AppWindow and XAML Islands are not available in earlier versions. For more info about versioning, see [Version adaptive apps](/windows/uwp/debug-test-perf/version-adaptive-apps).
+
+By default, content dialogs display modally relative to the root [ApplicationView](../windows.ui.viewmanagement/applicationview.md). When you use ContentDialog inside of either an [AppWindow](../windows.ui.windowmanagement/appwindow.md) or a [XAML Island](/apps/desktop/modernize/xaml-islands), you need to manually set the [XamlRoot](../windows.ui.xaml/uielement_xamlroot.md) on the dialog to the root of the XAML host.
+
+To do so, set the ContentDialog's XamlRoot property to the same XamlRoot as an element already in the AppWindow or XAML Island, as shown here.
+
+```csharp
+private async void DisplayNoWifiDialog()
+{
+    ContentDialog noWifiDialog = new ContentDialog
+    {
+        Title = "No wifi connection",
+        Content = "Check your connection and try again.",
+        CloseButtonText = "Ok"
+    };
+
+    // Use this code to associate the dialog to the appropriate AppWindow by setting
+    // the dialog's XamlRoot to the same XamlRoot as an element that is already present in the AppWindow.
+    if (ApiInformation.IsApiContractPresent("Windows.Foundation.UniversalApiContract", 8))
+    {
+        noWifiDialog.XamlRoot = elementAlreadyInMyAppWindow.XamlRoot;
+    }
+
+    ContentDialogResult result = await noWifiDialog.ShowAsync();
+}
+```
+
+> [!WARNING]
+> There can only be one ContentDialog open per thread at a time. Attempting to open two ContentDialogs will throw an exception, even if they are attempting to open in separate AppWindows.
+
 ### Control style and template
 
 You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.

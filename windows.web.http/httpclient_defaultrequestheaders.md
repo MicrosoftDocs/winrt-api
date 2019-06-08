@@ -10,7 +10,7 @@ public Windows.Web.Http.Headers.HttpRequestHeaderCollection DefaultRequestHeader
 # Windows.Web.Http.HttpClient.DefaultRequestHeaders
 
 ## -description
-Gets a collection of headers that should be sent with each request.
+Gets a collection of headers that should be sent with each request. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -property-value
 The headers that should be sent with each request.
@@ -42,3 +42,4 @@ If you are writing for versions before Windows 10, do not set these header valu
 ## -examples
 
 ## -see-also
+[HttpClient](/windows/uwp/networking/httpclient)
