@@ -28,4 +28,4 @@ Always call [GetTetheringCapability](networkoperatortetheringmanager_gettetherin
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl
