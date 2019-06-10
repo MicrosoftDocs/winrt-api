@@ -21,4 +21,4 @@ Your code does not instantiate this class directly. Instead, use [NetworkOperato
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl

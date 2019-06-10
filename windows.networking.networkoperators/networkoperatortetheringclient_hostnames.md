@@ -23,4 +23,4 @@ List of hostnames.
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl

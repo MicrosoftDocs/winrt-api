@@ -23,4 +23,4 @@ The mobile operator defined error context.
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl

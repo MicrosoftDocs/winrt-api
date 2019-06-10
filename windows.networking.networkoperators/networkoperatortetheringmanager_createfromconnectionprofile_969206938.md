@@ -42,5 +42,6 @@ Your code can determine whether the capability is set at runtime by calling [Get
 
 ## -see-also
 [CreateFromConnectionProfile(ConnectionProfile)](networkoperatortetheringmanager_createfromconnectionprofile_195211386.md)
+
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl

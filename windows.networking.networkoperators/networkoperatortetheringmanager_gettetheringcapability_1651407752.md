@@ -28,4 +28,4 @@ Always call GetTetheringCapability prior to the creation of the tethering networ
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl
