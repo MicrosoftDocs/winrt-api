@@ -26,4 +26,4 @@ This interface exposes the methods and properties used to control and configure 
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl

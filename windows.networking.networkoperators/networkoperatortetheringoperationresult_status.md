@@ -23,4 +23,4 @@ The result of a tethering operation.
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl

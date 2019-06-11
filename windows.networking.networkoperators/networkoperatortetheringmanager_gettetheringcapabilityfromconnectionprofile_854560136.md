@@ -27,4 +27,4 @@ Tethering capabilities of the connection profile.
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl
