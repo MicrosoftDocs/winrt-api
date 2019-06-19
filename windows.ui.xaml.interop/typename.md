@@ -12,20 +12,19 @@ public struct TypeName
 ## -description
 Substitutes for **System.Type** such that type information reported by other API does not have a dependency on the common language runtime (CLR). This structure is used as a value by properties such as [UnderlyingType](../windows.ui.xaml.markup/ixamltype_underlyingtype.md) and [Type](../windows.ui.xaml.data/icustomproperty_type.md).
 
-
-
 > **.NET**
 > This type appears as [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN).
+
+> **[C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index)**
+> You can use the **winrt::xaml_typename\<T\>()** helper function to create a **TypeName** object. See [winrt::xaml_typename function template](/uwp/cpp-ref-for-winrt/xaml-typename) for more details, and a code example.
 
 ## -struct-fields
 
 ### -field Name
 Name of the type.
-    
 
 ### -field Kind
 Basic guidance regarding the origin of the type.
-    
 
 ## -remarks
 When programming with .NET, this type is hidden and developers should use the [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) type. All Windows Runtime APIs that use a TypeName per the raw IDL signatures will instead use [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) values when you use the API with .NET code.
