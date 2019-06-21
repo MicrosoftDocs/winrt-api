@@ -11,7 +11,7 @@ public ColorSpectrumComponents ColorSpectrumComponents { get;  set; }
 
 ## -description
 
-Gets or sets a value that indicates how the Hue-Saturation-Value (HSV) color components are mapped onto the [ColorSpectrum](colorspectrum.md).
+Gets or sets a value that indicates how the Hue-Saturation-Value (HSV) color components are mapped onto the [ColorSpectrum](../windows.ui.xaml.controls.primitives/colorspectrum.md).
 
 ## -xaml-syntax
 
