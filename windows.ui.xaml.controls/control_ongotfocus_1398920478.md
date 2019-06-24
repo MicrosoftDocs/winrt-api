@@ -21,4 +21,4 @@ The data for the event.
 ## -examples
 
 ## -see-also
-[UIElement.GotFocus](../windows.ui.xaml/uielement_gotfocus.md), [RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [Focus](control_focus_195503898.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Custom user interactions](https://developer.microsoft.com/windows/design/inputs-devices), [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)
+[UIElement.GotFocus](../windows.ui.xaml/uielement_gotfocus.md), [RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [Focus](control_focus_195503898.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index), [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)

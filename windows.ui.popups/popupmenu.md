@@ -27,7 +27,7 @@ Provide users with a context menu by adding an event listener for the `"contextm
 
 [!code-js[addcontextmenueventlistener_js](../windows.ui.popups/code/ContextMenu/js/js/scenario1.js#Snippetaddcontextmenueventlistener_js)]
 
-To customize the context menu, call [preventDefault](https://msdn.microsoft.com/library/ff975967(v=vs.85).aspx) on the event to suppress the default, and then create a new, empty context menu as shown in the [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891).
+To customize the context menu, call [preventDefault](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ff975967(v=vs.85)) on the event to suppress the default, and then create a new, empty context menu as shown in the [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891).
 
 
 
@@ -36,5 +36,5 @@ To customize the context menu, call [preventDefault](https://msdn.microsoft.com/
 [!code-js[newcontextmenu_js](../windows.ui.popups/code/ContextMenu/js/js/scenario1.js#Snippetnewcontextmenu_js)]
 
 ## -see-also
-[Adding context menus](https://docs.microsoft.com/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891), [Guidelines and checklist for ](https://developer.microsoft.com/windows/design/controls-patterns), [PopupMenu.Commands](popupmenu_commands.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525)
+[Adding context menus](https://docs.microsoft.com/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891), [Guidelines and checklist for ](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/index), [PopupMenu.Commands](popupmenu_commands.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525)
 pMenu.Commands](popupmenu_commands.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525)

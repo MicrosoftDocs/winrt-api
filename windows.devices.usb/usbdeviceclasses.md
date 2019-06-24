@@ -10,7 +10,7 @@ public class UsbDeviceClasses : Windows.Devices.Usb.IUsbDeviceClasses
 # Windows.Devices.Usb.UsbDeviceClasses
 
 ## -description
-Provides a way for the app to create a [UsbDeviceClass](usbdeviceclass.md) object by specifying the USB device class of the device. The properties defined in this class represent the supported USB device classes and are passed in the constructor call to instantiate [UsbDeviceClass](usbdeviceclass.md). For information about USB device classes, see the official USB Website for [ Approved Class Specification Documents](https://www.usb.org/developers/docs/devclass_docs/).
+Provides a way for the app to create a [UsbDeviceClass](usbdeviceclass.md) object by specifying the USB device class of the device. The properties defined in this class represent the supported USB device classes and are passed in the constructor call to instantiate [UsbDeviceClass](usbdeviceclass.md). For information about USB device classes, see the official USB Website for [ Approved Class Specification Documents](https://www.usb.org/documents?search=&type%5B0%5D=55&items_per_page=50).
 
 ## -remarks
 

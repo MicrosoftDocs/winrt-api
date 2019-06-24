@@ -25,7 +25,7 @@ The entire audio graph must operate at the same sample rate. Sources can have di
 > If no audio devices are available, the audio graph cannot be instantiated.
 
 > AudioGraph cannot be instantiated on the N and KN editions of Windows 8 and Windows 10, unless the optional Media Feature Pack has been installed.
-For more information, see [Media Feature Pack for Windows N editions](https://support.microsoft.com/help/3145500).
+For more information, see [Media Feature Pack for Windows N editions](https://support.microsoft.com/help/3145500/media-feature-pack-list-for-windows-n-editions).
 
 ### Version history
 

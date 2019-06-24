@@ -22,4 +22,4 @@ As it's implemented directly on [Control](control.md), OnPointerPressed has an e
 ## -examples
 
 ## -see-also
-[UIElement.PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md), [PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Custom user interactions](https://developer.microsoft.com/windows/design/inputs-devices), [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)
+[UIElement.PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md), [PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index), [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)

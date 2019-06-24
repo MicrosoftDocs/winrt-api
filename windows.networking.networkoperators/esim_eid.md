@@ -21,7 +21,7 @@ Gets the eSIM ID (EID).
 The eSIM ID (EID).
 
 ## -remarks
-EID is defined in [SGP.02](https://www.gsma.com/newsroom/all-documents/sgp-02-v3-2-remote-provisioning-architecture-for-embedded-uicc-technical-specification).
+EID is defined in [SGP.02](https://www.gsma.com/newsroom/resources/sgp-02-v3-2-remote-provisioning-architecture-for-embedded-uicc-technical-specification/).
 
 ## -see-also
 

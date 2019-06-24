@@ -139,7 +139,7 @@ Use the [AudioStreamIndex](mediaelement_audiostreamindex.md) property and the [G
 To search for a track in a specific language, start by iterating through each audio track on the video. Use [AudioStreamCount](mediaelement_audiostreamcount.md) as the max value for a **for** loop.
 1. Get the language of the audio track.
 
-Use the [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage_366720426.md) method to get the language of the track. The language of the track is identified by a [language code](https://msdn.microsoft.com/library/ms533052(vs.85).aspx), such as **"en"** for English or **"ja"** for Japanese.
+Use the [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage_366720426.md) method to get the language of the track. The language of the track is identified by a [language code](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/), such as **"en"** for English or **"ja"** for Japanese.
 1. Set the active audio track.
 
 When you find the track with the desired language, set the [AudioStreamIndex](mediaelement_audiostreamindex.md) to the index of the track. Setting [AudioStreamIndex](mediaelement_audiostreamindex.md) to **null** selects the default audio track which is defined by the content.

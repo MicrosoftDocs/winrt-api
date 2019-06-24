@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncAction SetDisplayPictureAsync(Windows.Storage.St
 # Windows.Phone.PersonalInformation.ContactInformation.SetDisplayPictureAsync
 
 ## -description
-Sets the display picture for a contact using an [IInputStream](https://docs.microsoft.com/previous-versions//hh438387(v=vs.85)) object.
+Sets the display picture for a contact using an [IInputStream](https://docs.microsoft.com/previous-versions/hh438387(v=vs.85)) object.
 
 ## -parameters
 ### -param stream

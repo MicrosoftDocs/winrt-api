@@ -46,7 +46,7 @@ If you need to compose a URI in relation to another object in the UI to help sco
 
 You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows 8 scales it. When specifying an ImageSource for an [ImageBrush](imagebrush.md), you can use a naming convention that will automatically reference the correct resource for the current scaling. For specifics of the naming convention and more info, see [Quickstart: Using file or image resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965325(v=win.10)).
 
-For more info on how to design for scaling, see [UX guidelines for layout and scaling](https://developer.microsoft.com/windows/design).
+For more info on how to design for scaling, see [UX guidelines for layout and scaling](https://developer.microsoft.com/windows/apps/design).
 
 For more info on app resources and how to package image sources in an app, see [Defining app resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965321(v=win.10)).
 

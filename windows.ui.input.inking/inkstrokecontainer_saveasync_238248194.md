@@ -20,7 +20,7 @@ The target stream. An [IRandomAccessStream](../windows.storage.streams/irandomac
 The format in which to save the ink input.
 
 ## -returns
-The status of the asynchronous operation as the number of bytes sent. For more information, see [WriteAsync](https://docs.microsoft.com/previous-versions//hh438392(v=vs.85)) method.
+The status of the asynchronous operation as the number of bytes sent. For more information, see [WriteAsync](https://docs.microsoft.com/previous-versions/hh438392(v=vs.85)) method.
 
 ## -remarks
 

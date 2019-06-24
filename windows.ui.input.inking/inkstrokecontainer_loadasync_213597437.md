@@ -20,7 +20,7 @@ Asynchronously loads all [InkStroke](inkstroke.md) objects from the specified st
 The target stream.
 
 ## -returns
-The status of the asynchronous operation as the number of bytes fetched. For more information, see [ReadAsync](https://docs.microsoft.com/previous-versions//hh438388(v=vs.85)) method.
+The status of the asynchronous operation as the number of bytes fetched. For more information, see [ReadAsync](https://docs.microsoft.com/previous-versions/hh438388(v=vs.85)) method.
 
 ## -remarks
 

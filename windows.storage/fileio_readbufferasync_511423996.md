@@ -67,6 +67,6 @@ if (file !== null) {
 
 In the example, `file` is a local variable that contains a [storageFile](storagefile.md) that represents the file to read.
 
-After [readTextAsync](fileio_readtextasync_1063800.md) completes, the `buffer` variable gets the contents of the file as an [IBuffer](https://docs.microsoft.com/previous-versions//hh438362(v=vs.85)) object. You can then read from the buffer using a [dataReader](../windows.storage.streams/datareader.md) object and process the file contents as appropriate (as shown in the example.)
+After [readTextAsync](fileio_readtextasync_1063800.md) completes, the `buffer` variable gets the contents of the file as an [IBuffer](https://docs.microsoft.com/previous-versions/hh438362(v=vs.85)) object. You can then read from the buffer using a [dataReader](../windows.storage.streams/datareader.md) object and process the file contents as appropriate (as shown in the example.)
 
 ## -see-also

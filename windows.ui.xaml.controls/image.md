@@ -170,7 +170,7 @@ Using the [NineGrid](image_ninegrid.md) technique is another option for sizing i
 
 You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows 8 scales it. When specifying a [Source](image_source.md) for an Image, you can use a naming convention for resources that will use the correct resource for device-specific scaling factors. This is determined by the app automatically at run-time. For specifics of the naming conventions to use and more info, see [Quickstart: Using file or image resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965325(v=win.10)).
 
-For more info on how to design images properly for scaling, see [UX guidelines for layout and scaling](https://developer.microsoft.com/windows/design).
+For more info on how to design images properly for scaling, see [UX guidelines for layout and scaling](https://developer.microsoft.com/windows/apps/design).
 
 ### Using unqualified resources
 
@@ -206,7 +206,7 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 > For more info, design guidance, and code examples, see [Images and image brushes](/windows/uwp/design/controls-and-patterns/images-imagebrushes).
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Image in action](xamlcontrolsgallery:/item/Image).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 ## -see-also
