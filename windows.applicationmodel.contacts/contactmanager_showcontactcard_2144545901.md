@@ -30,6 +30,6 @@ See the remarks section of this overload: [ShowContactCard](contactmanager_showc
 ## -examples
 
 ## -see-also
-[Contact manager API sample](https://go.microsoft.com/fwlink/p/?LinkID=310079), [IContactManagerInterop.ShowContactCardForWindow](https://docs.microsoft.com/previous-versions//dn302110(v=vs.85)), [ShowContactCard(Contact, Rect)](contactmanager_showcontactcard_1968125937.md)
+[Contact manager API sample](https://go.microsoft.com/fwlink/p/?LinkID=310079), [IContactManagerInterop.ShowContactCardForWindow](https://docs.microsoft.com/previous-versions/dn302110(v=vs.85)), [ShowContactCard(Contact, Rect)](contactmanager_showcontactcard_1968125937.md)
 ## -capabilities
 contactsSystem

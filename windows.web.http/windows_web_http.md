@@ -17,7 +17,7 @@ This new API replaces the use of three different APIs with differing features th
 
 + [WinJS.xhr](https://docs.microsoft.com/previous-versions/windows/apps/br229787(v=win.10)) for JavaScript
 + [HttpClient](https://go.microsoft.com/fwlink/p/?linkid=241637) in the [System.Net.Http](https://go.microsoft.com/fwlink/p/?linkid=227894) namespace for C# and VB.
-+ [IXMLHTTPRequest2](https://msdn.microsoft.com/library/windows/desktop/hh831151(v=vs.85).aspx) for C++
++ [IXMLHTTPRequest2](https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2) for C++
 
 Classes in the Windows.Web.Http and related namespaces are targeted at all levels of HTTP and REST development:
 

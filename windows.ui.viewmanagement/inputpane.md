@@ -25,7 +25,7 @@ The input pane appears when the user performs an action that requires them to en
 In some cases, overlay UI such as an InputPane is not fully supported. This includes:
 
 + apps in full-screen mode, like [games](https://docs.microsoft.com/windows/uwp/gaming/index).
-+ Windows Holographic apps in [holographic view](https://developer.microsoft.com/windows/holographic/app_model#app_views).
++ Windows Holographic apps in [holographic view](https://developer.microsoft.com/mixed-reality#app_views).
 
 Call [GetForCurrentView](inputpane_getforcurrentview_1363600702.md) to get an InputPane object.
 

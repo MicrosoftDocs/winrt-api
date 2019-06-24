@@ -19,7 +19,7 @@ The HTML content.
 ## -remarks
 To ensure that a target app can process the HTML content, use [HtmlFormatHelper.CreateHtmlFormat](htmlformathelper_createhtmlformat_180504809.md). It adds the required headers and other information the string containing the HTML.
 
-If your app supports selection or copying/pasting of HTML content that contains [img](https://msdn.microsoft.com/library/ms535259(v=vs.85).aspx) elements, be sure that the **src** attributes specify fully-qualified absolute paths to the images, not relative paths.
+If your app supports selection or copying/pasting of HTML content that contains [img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) elements, be sure that the **src** attributes specify fully-qualified absolute paths to the images, not relative paths.
 
 ## -examples
 

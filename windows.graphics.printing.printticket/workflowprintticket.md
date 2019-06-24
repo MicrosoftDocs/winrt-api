@@ -15,7 +15,7 @@ This class represents an XML *PrintTicket document* and allows it to be modified
 ## -remarks
 
 ## -see-also
-[IPrintSchemaTicket interface](https://msdn.microsoft.com/library/windows/hardware/hh451398(v=vs.85).aspx)
+[IPrintSchemaTicket interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschematicket)
 
 ## -examples
 

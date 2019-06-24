@@ -37,4 +37,4 @@ Apps may define and document the properties that they use so other applications 
 ## -examples
 
 ## -see-also
-[storageItemContentProperties class](storageitemcontentproperties.md), [storageItemContentProperties.savePropertiesAsync methods, [storageItemContentProperties.savePropertiesAsync() method](storageitemcontentproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md), [System.Dynamic.ExpandoObject](https://msdn.microsoft.com/library/system.dynamic.expandoobject(v=vs.110).aspx)
+[storageItemContentProperties class](storageitemcontentproperties.md), [storageItemContentProperties.savePropertiesAsync methods, [storageItemContentProperties.savePropertiesAsync() method](storageitemcontentproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md), [System.Dynamic.ExpandoObject](https://docs.microsoft.com/dotnet/api/system.dynamic.expandoobject?redirectedfrom=MSDN)

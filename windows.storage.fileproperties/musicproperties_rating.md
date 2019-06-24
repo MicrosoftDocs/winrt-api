@@ -18,7 +18,7 @@ The media file rating, as a value between 0 and 99.
 ## -remarks
 The rating property for this media file type is obtained from the [Windows file properties](https://docs.microsoft.com/windows/desktop/properties/props), specifically from [System.Rating](https://docs.microsoft.com/windows/desktop/properties/props-system-rating). [System.Rating](https://docs.microsoft.com/windows/desktop/properties/props-system-rating) has a value from 0 to 99. A value of 0 indicates that the file has not been rated.
 
-Rating info is often presented to the user as a “star” metaphor, where a star rating can be from 0 to 5 stars. This is shown as the outline of 5 star shapes, with the current rating indicated by a horizontal color bar within the 5 star shapes. For more info, see [Guidelines for the Rating control](https://developer.microsoft.com/windows/design/controls-patterns).
+Rating info is often presented to the user as a “star” metaphor, where a star rating can be from 0 to 5 stars. This is shown as the outline of 5 star shapes, with the current rating indicated by a horizontal color bar within the 5 star shapes. For more info, see [Guidelines for the Rating control](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/index).
 
 For HTML UI, the [Rating](https://docs.microsoft.com/previous-versions/windows/apps/br211895(v=win.10)) control implements a star-rating behavior, but you’ll have convert a **Rating** property value into the star-count values that the [Rating](https://docs.microsoft.com/previous-versions/windows/apps/br211895(v=win.10)) control uses for its properties.
 
@@ -30,4 +30,4 @@ Here’s some suggested logic for converting the 0-99 possible value of a **Rati
 ## -examples
 
 ## -see-also
-[Guidelines for the Rating control](https://developer.microsoft.com/windows/design/controls-patterns)
+[Guidelines for the Rating control](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/index)

@@ -18,7 +18,7 @@ Asynchronously saves all [InkStroke](inkstroke.md) objects in the [InkStroke](in
 The target stream. An [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md) (requires [IOutputStream](../windows.storage.streams/ioutputstream.md)) object can be specified instead.
 
 ## -returns
-The size of the saved stream and the status of the asynchronous operation as the number of bytes sent. For more information, see [WriteAsync](https://docs.microsoft.com/previous-versions//hh438392(v=vs.85)) method.
+The size of the saved stream and the status of the asynchronous operation as the number of bytes sent. For more information, see [WriteAsync](https://docs.microsoft.com/previous-versions/hh438392(v=vs.85)) method.
 
 ## -remarks
 

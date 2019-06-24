@@ -46,4 +46,4 @@ For more examples involving the print manager and to see some sample code for pr
 ## -examples
 
 ## -see-also
-[Authoring a  for Printers](https://msdn.microsoft.com/library/windows/hardware/dn265150(v=vs.85).aspx), [Developing v4 Print Drivers](https://msdn.microsoft.com/library/windows/hardware/hh706306(v=vs.85).aspx), [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10))
+[Authoring a  for Printers](https://docs.microsoft.com/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers), [Developing v4 Print Drivers](https://docs.microsoft.com/windows-hardware/drivers/print/v4-printer-driver), [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10))
