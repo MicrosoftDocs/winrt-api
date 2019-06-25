@@ -23,7 +23,7 @@ Handle this event so that you can get the [QueryText](searchbox_querytext.md) va
 
 For a complete example of how to handle QuerySubmitted as part of a complete example that also does search suggestions, see [SearchBox control sample](https://go.microsoft.com/fwlink/p/?LinkId=317444).
 
-The handler signature for QuerySubmitted uses [TypedEventHandler](https://docs.microsoft.com/previous-versions//hh438424(v=vs.85)) and enforces that the *sender* parameter be a [SearchBox](searchbox.md) instance, not just **Object**.
+The handler signature for QuerySubmitted uses [TypedEventHandler](https://docs.microsoft.com/previous-versions/hh438424(v=vs.85)) and enforces that the *sender* parameter be a [SearchBox](searchbox.md) instance, not just **Object**.
 
 ## -examples
 Here's a basic XAML definition for a [SearchBox](searchbox.md), and an implementation of the QuerySubmitted handler. It calls [Frame.Navigate](frame_navigate_1426351961.md) to load a search query result page (not shown) that's named `SearchResultsPage1`. The **this**/**Me** reference in the handlers is the containing page instance, as is typical for on-page input event handling code. You can see similar code as part of [Quickstart: Adding search to an app](https://docs.microsoft.com/previous-versions/windows/apps/hh868180(v=win.10)) and [Enabling users to search for information in your ](https://docs.microsoft.com/previous-versions/windows/apps/hh868180(v=win.10)).

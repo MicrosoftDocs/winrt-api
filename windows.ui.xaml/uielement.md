@@ -36,7 +36,7 @@ UIElement extends [DependencyObject](dependencyobject.md), which is another base
 
 ### Input, and events for responding to user interaction
 
-Much of the input behavior for visible elements in a UI is defined in the UIElement class. This includes the events for keyboard, mouse, touch, drag-drop, and focus interactions. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), and [Custom user interactions](https://developer.microsoft.com/windows/design/inputs-devices).
+Much of the input behavior for visible elements in a UI is defined in the UIElement class. This includes the events for keyboard, mouse, touch, drag-drop, and focus interactions. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), and [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index).
 
 Prominent API of UIElement that support input and user interaction:
 
@@ -49,7 +49,7 @@ Prominent API of UIElement that support input and user interaction:
 
 ### Gestures and manipulations
 
-Gestures and manipulations are also a way to handle input and user interaction. The API are listed out separately here because these events represent how the system interacts with device-level input actions and interprets them as a user interaction. Manipulations are a way to handle dynamic multi-touch interactions such as pinching and stretching. Together, the gestures and manipulations provide the touch patterns for touch interaction with UWP app. For more info, see [Custom user interactions](https://developer.microsoft.com/windows/design/inputs-devices) and [Touch interaction design](https://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a).
+Gestures and manipulations are also a way to handle input and user interaction. The API are listed out separately here because these events represent how the system interacts with device-level input actions and interprets them as a user interaction. Manipulations are a way to handle dynamic multi-touch interactions such as pinching and stretching. Together, the gestures and manipulations provide the touch patterns for touch interaction with UWP app. For more info, see [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index) and [Touch interaction design](https://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a).
 
 Prominent API of UIElement that support gestures and manipulations:
 

@@ -33,7 +33,7 @@ If no command is invoked, [ShowForSelectionAsync](popupmenu_showforselectionasyn
 You can see complete code examples that demonstrate how to create and customize context menu in the [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891) on the [ sample home page](https://go.microsoft.com/fwlink/p/?linkid=226952).
 
 ## -examples
-Before you can show a context menu, you must add an event listener for the [oncontextmenu](https://msdn.microsoft.com/library/aa704010(v=vs.85).aspx) event. For example, the [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891) listens for the event on specific HTML elements, and then calls the `scenario1AttachmentHandler` function.
+Before you can show a context menu, you must add an event listener for the [oncontextmenu](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa704010(v=vs.85)) event. For example, the [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891) listens for the event on specific HTML elements, and then calls the `scenario1AttachmentHandler` function.
 
 
 
@@ -44,4 +44,4 @@ Before you can show a context menu, you must add an event listener for the [onco
 [!code-js[selectionrect_js](../windows.ui.popups/code/ContextMenu/js/js/scenario2.js#Snippetselectionrect_js)]
 
 ## -see-also
-[Adding context menus](https://docs.microsoft.com/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891), [Guidelines and checklist for ](https://developer.microsoft.com/windows/design/controls-patterns), [IUICommand](iuicommand.md), [oncontextmenu](https://msdn.microsoft.com/library/aa704010(v=vs.85).aspx), [Rect](../windows.foundation/rect.md), [ShowForSelectionAsync(Rect)](popupmenu_showforselectionasync_574993385.md), [UICommand](uicommand.md)
+[Adding context menus](https://docs.microsoft.com/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891), [Guidelines and checklist for ](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/index), [IUICommand](iuicommand.md), [oncontextmenu](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa704010(v=vs.85)), [Rect](../windows.foundation/rect.md), [ShowForSelectionAsync(Rect)](popupmenu_showforselectionasync_574993385.md), [UICommand](uicommand.md)

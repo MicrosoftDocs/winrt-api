@@ -13,6 +13,7 @@ public event Windows.Foundation.TypedEventHandler Completed<Windows.Media.Speech
 Occurs when a continuous recognition session ends.
 
 ## -remarks
+When an application suspends and resumes during a speech recognition session, it is important to check the [SpeechContinuousRecognitionCompletedEventArgs](speechcontinuousrecognitioncompletedeventargs.md) Status property for Success.  The API may give a UserCanceled result indicating that speech recognition needs to be restarted.
 
 ## -examples
 

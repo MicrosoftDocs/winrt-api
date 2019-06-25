@@ -17,7 +17,7 @@ The default app name assigned by the manufacturer- either the developer or the O
 The default app name.
 
 ## -remarks
-By default the returned value is a single entry that indicates in the [DefaultLanguage](alljoynaboutdataview_defaultlanguage.md), with value either pulled from the "Display name" field in a UWP app 's app manifest, or the [ProductName](https://msdn.microsoft.com/library/windows/desktop/bb760158(v=vs.85).aspx) property of a Desktop app.
+By default the returned value is a single entry that indicates in the [DefaultLanguage](alljoynaboutdataview_defaultlanguage.md), with value either pulled from the "Display name" field in a UWP app 's app manifest, or the [ProductName](https://docs.microsoft.com/windows/desktop/properties/props-system-software-productname) property of a Desktop app.
 
 This property serves as a shortcut to the entry in the [Descriptions](alljoynaboutdata_descriptions.md) property for the [DefaultLanguage](alljoynaboutdataview_defaultlanguage.md).
 

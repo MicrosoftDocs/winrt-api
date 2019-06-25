@@ -27,7 +27,7 @@ When implementing a library for Background Transfer operations, and this same li
 
 Upload operations via FTP are not supported.
 
-Security concerns can exist when upload operations require a username and password for authentication. If the authentication model to be used is supported by **WinINet**, use the [ServerCredential](backgrounduploader_servercredential.md) or [ProxyCredential](backgrounduploader_proxycredential.md) properties. These values will be securely saved in **WinVault**. For information on supported authentication methods, see [Handling Authentication](https://msdn.microsoft.com/library/windows/desktop/aa384220(v=vs.85).aspx).
+Security concerns can exist when upload operations require a username and password for authentication. If the authentication model to be used is supported by **WinINet**, use the [ServerCredential](backgrounduploader_servercredential.md) or [ProxyCredential](backgrounduploader_proxycredential.md) properties. These values will be securely saved in **WinVault**. For information on supported authentication methods, see [Handling Authentication](https://docs.microsoft.com/windows/desktop/WinInet/handling-authentication).
 
 If the authentication model is not supported by **WinINet**, use [HttpClient](../windows.web.http/httpclient.md) to implement custom authentication and obtain an upload-specific secure token (cookie). Set the appropriate header to have the secure token value used for background transfer. The service should limit the validity of the secure token only to the file that is being uploaded. 
 

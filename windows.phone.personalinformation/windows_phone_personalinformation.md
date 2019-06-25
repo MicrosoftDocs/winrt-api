@@ -20,7 +20,7 @@ APIs in this namespace are typically used for a Microsoft Silverlight app for Wi
 ## -examples
 
 ## -see-also
-[Implementing contact bindings in a Windows Phone Silverlight 8.1 app](https://msdn.microsoft.com/library/windows/apps/dn642083(v=vs.105).aspx)
+[Implementing contact bindings in a Windows Phone Silverlight 8.1 app](https://docs.microsoft.com/previous-versions/windows/apps/dn642083(v=vs.105))
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

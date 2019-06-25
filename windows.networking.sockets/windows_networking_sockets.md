@@ -63,7 +63,7 @@ If your app uses socket activity triggers, you must specify the pushNotification
 
 There are some scenarios where either kind of trigger would be suitable. When you are choosing which kind of trigger to use in your app, consider the following advice.
 
-+ If you are using [IXMLHTTPRequest2](https://msdn.microsoft.com/library/windows/desktop/hh831151(v=vs.85).aspx), [System.Net.Http.HttpClient](../windows.web.http/httpclient.md) or [System.Net.Http.HttpClientHandler](https://go.microsoft.com/fwlink/p/?linkid=241638), you must use [ControlChannelTrigger](controlchanneltrigger.md).
++ If you are using [IXMLHTTPRequest2](https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2), [System.Net.Http.HttpClient](../windows.web.http/httpclient.md) or [System.Net.Http.HttpClientHandler](https://go.microsoft.com/fwlink/p/?linkid=241638), you must use [ControlChannelTrigger](controlchanneltrigger.md).
 + If you are using push-enabled **StreamSockets**, prefer [SocketActivityTrigger](../windows.applicationmodel.background/socketactivitytrigger.md). It allows the system to free up memory and reduce power requirements when the connection is not being actively used.
 + If you want to minimize the memory footprint of your app when it is not actively servicing network requests, prefer [SocketActivityTrigger](../windows.applicationmodel.background/socketactivitytrigger.md).
 + If you want your app to be able to receive data while the system is in Connected Standby mode, use [SocketActivityTrigger](../windows.applicationmodel.background/socketactivitytrigger.md).

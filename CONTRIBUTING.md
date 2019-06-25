@@ -25,7 +25,7 @@ After you create the pull request, a member of the Windows docs team will review
 
 To make substantial changes to an existing article, add or change images, or contribute a new article, we recommend forking the official repo into your GitHub account, and then creating a local clone.
 
-For more info, see [Fork a Repo](https://help.github.com/articles/fork-a-repo/).
+For more info, see [Fork a Repo](https://help.github.com/articles/fork-a-repo).
 
 ## Resources
 

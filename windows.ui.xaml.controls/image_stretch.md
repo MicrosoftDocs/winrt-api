@@ -31,7 +31,7 @@ The value of the Stretch property is only relevant if the [Image](image.md) inst
 
 You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows 8 scales it because of device scaling and resolution. This is often a better way to handling image resizing rather than applying a nondefault Stretch value. When specifying a [Source](image_source.md) for an [Image](image.md), you can use a naming convention that will automatically reference the correct resource for the current scaling. For specifics of the naming convention and more info, see [Quickstart: Using file or image resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965325(v=win.10)).
 
-For more info on how to design for scaling, see [UX guidelines for layout and scaling](https://developer.microsoft.com/windows/design).
+For more info on how to design for scaling, see [UX guidelines for layout and scaling](https://developer.microsoft.com/windows/apps/design).
 
 > [!NOTE]
 > A Stretch value of **None** doesn't work for image resources that are intended to support scaling. The scaling will be detected and the appropriate scaled resource is loaded before the layout decisions implied by the **None** value are applied.
