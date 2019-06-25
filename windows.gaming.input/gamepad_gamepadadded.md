@@ -13,7 +13,7 @@ static public event Windows.Foundation.EventHandler GamepadAdded<Windows.Gaming.
 Signals when a new gamepad is connected.
 
 ## -remarks
-To identify controllers that have already been added, you query the list of conected controllers using [Gamepad.Gamepads](gamepad_gamepads.md).
+To identify controllers that have already been added, you query the list of connected controllers using [Gamepad.Gamepads](gamepad_gamepads.md).
 
 ## -examples
 

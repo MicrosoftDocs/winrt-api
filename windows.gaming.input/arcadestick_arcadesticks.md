@@ -21,7 +21,7 @@ The list of all connected arcade sticks.
 
 **ArcadeStick** objects are managed by the system, therefore you don't have to create or initialize them. Instead, you can access connected arcade sticks through this property. Because you might only be interested in some of the connected arcade sticks, we recommend that you maintain your own collection.
 
-This list is initally empty and will not list arcade sticks even if they are already connected. After a short period this will return a complete list of arcade sticks.
+This list is initially empty and will not list arcade sticks even if they are already connected. After a short period this will return a complete list of arcade sticks.
 
 ## -examples
 
