@@ -24,6 +24,9 @@ To get a preview frame without going through a copy or conversion operation, use
 
 For how-to guidance on preview frames, see [Get a preview frame](https://docs.microsoft.com/windows/uwp/audio-video-camera/get-a-preview-frame).
 
+> [!NOTE] 
+> For app scenarios that call for capturing a large number of frames in a sequence, such as computer vision scenarios, it is recommended that you use the [MediaFrameReader](https://docs.microsoft.com/uwp/api/Windows.Media.Capture.Frames.MediaFrameReader) class instead of **GetPreviewFrameAsync**. For more information and how-to guidance, see [Process media frames with MediaFrameReader](https://docs.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
+
 ## -examples
 
 ## -see-also
