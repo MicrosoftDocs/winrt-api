@@ -11,15 +11,14 @@ public TimeSpan SystemRelativeTime { get; }
 
 ## -description
 
-The amount of time that has passed since the frame was captured.
+The [QPC (Query Performance Counter)](https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter) time at which the compositor rendered the frame.
 
 ## -property-value
 
-The amount of time that has passed since the frame was captured.
+The QPC (Query Performance Counter) time at which the compositor rendered the frame.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

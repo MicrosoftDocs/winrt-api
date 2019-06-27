@@ -39,37 +39,28 @@ If you are deriving from an existing control, instead of handling Loaded on a pe
 For app code that uses navigation between pages, do not use [Page.OnNavigatedTo](../windows.ui.xaml.controls/page_onnavigatedto_1083052518.md) for element manipulation or state change of controls on the destination page. The [OnNavigatedTo](../windows.ui.xaml.controls/page_onnavigatedto_1083052518.md) virtual method is invoked before the template is loaded, thus elements from templates aren't available yet. Instead, attach a Loaded event handler at the root of the newly loaded page's content, and perform any element manipulations, state changes, event wiring and so on in the Loaded event handler.
 
 ## -examples
+
 Handlers for Loaded and [Unloaded](frameworkelement_unloaded.md) are automatically attached to any page that uses the **NavigationHelper** class from the project templates for support. The event wiring is done in the constructor. The handler is written using a lambda, and attaches other event handlers so that page navigation can use mouse or keyboard events.
 
 ```csharp
-            this.Page.Loaded += (sender, e) =>
-            {
-                // Keyboard and mouse navigation only apply when occupying the entire window
-                if (this.Page.ActualHeight == Window.Current.Bounds.Height &&
-                    this.Page.ActualWidth == Window.Current.Bounds.Width)
-                {
-                    // Listen to the window directly so focus isn't required
-                    Window.Current.CoreWindow.Dispatcher.AcceleratorKeyActivated +=
-                        CoreDispatcher_AcceleratorKeyActivated;
-                    Window.Current.CoreWindow.PointerPressed +=
-                        this.CoreWindow_PointerPressed;
-                }
-            };
+this.Page.Loaded += (sender, e) =>
+{
+// Keyboard and mouse navigation only apply when occupying the entire window
+if (this.Page.ActualHeight == Window.Current.Bounds.Height &&
+    this.Page.ActualWidth == Window.Current.Bounds.Width)
+    {
+        // Listen to the window directly so focus isn't required
+        Window.Current.CoreWindow.Dispatcher.AcceleratorKeyActivated +=
+            CoreDispatcher_AcceleratorKeyActivated;
+            Window.Current.CoreWindow.PointerPressed +=
+            this.CoreWindow_PointerPressed;
+    }
+};
 ```
 
 The Loaded event is a good time to start decorative animations that aren't tied to theme animations or other triggers. This example shows triggering a [PointAnimation](../windows.ui.xaml.media.animation/pointanimation.md) in XAML, by wiring a Loaded handler to a method that calls [Begin](../windows.ui.xaml.media.animation/storyboard_begin_1621727531.md) on an animation [Storyboard](../windows.ui.xaml.media.animation/storyboard.md).
 
-
-
-[!code-cpp[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation_cs)]
-
-[!code-xml[Pointanimation](../windows.ui.xaml/code/pointanimation/csharp/Page.xaml#SnippetPointanimation)]
-
-[!code-vb[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/vbnet/Page.xaml.vb#SnippetPointanimation_cs)]
-
-[!code-xml[SnippetPointanimationusingkeyframes](../windows.ui.xaml/code/pointanimationusingkeyframes/csharp/Page.xaml#SnippetPointanimationusingkeyframes)]
-
-[!code-vb[Pointanimationusingkeyframes_cs](../windows.ui.xaml/code/pointanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetPointanimationusingkeyframes_cs)]
+[!code-xaml[Pointanimation](../windows.ui.xaml/code/pointanimation/csharp/Page.xaml#SnippetPointanimation)]
 
 [!code-cpp[Pointanimation_cs](../windows.ui.xaml/code/pointanimation/cpp/Page.xaml.cpp#SnippetPointanimation_cs)]
 
