@@ -25,7 +25,7 @@ This example shows how to toggle full-screen mode and set the [PreferredLaunchWi
 
 ```xaml
 <Button x:Name="ToggleFullScreenModeButton" Content="Toggle full screen" 
-        Click="ToggleFullScreenModeButton_Click">
+        Click="ToggleFullScreenModeButton_Click"/>
 ```
 
 ```csharp
