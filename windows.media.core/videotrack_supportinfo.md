@@ -10,7 +10,7 @@ public Windows.Media.Core.VideoTrackSupportInfo SupportInfo { get; }
 # Windows.Media.Core.VideoTrack.SupportInfo
 
 ## -description
-Gets support information for the [VideoTrack](videotrack.md). This information includes the status of the video decoder, information about any audio degradation applied by the decoder, and the status of the [MediaSource](mediasource.md) with which the video track is associated.
+Gets support information for the [VideoTrack](videotrack.md). This information includes the status of the video decoder and the status of the [MediaSource](mediasource.md) with which the video track is associated.
 
 ## -property-value
 The support information for the [VideoTrack](videotrack.md).
