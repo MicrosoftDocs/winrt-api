@@ -16,7 +16,7 @@ Gets a value that indicates the kind of presentation the app window is using.
 
 ## -property-value
 
-A value od the enumeration that indicates the kind of presentation the app window is using.
+A value of the enumeration that indicates the kind of presentation the app window is using.
 
 ## -remarks
 
