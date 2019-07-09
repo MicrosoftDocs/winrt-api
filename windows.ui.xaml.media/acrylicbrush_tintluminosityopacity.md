@@ -15,7 +15,7 @@ Gets or sets the brightness amount between the TintColor and the underlying pixe
 
 ## -property-value
 
-The amount of color saturation that is visible through the surface where Acrylic is applied.
+The amount of luminosity that is visible through the surface where Acrylic is applied.
 
 ## -remarks
 
