@@ -10,13 +10,13 @@ public IAsyncOperation<AppDiagnosticInfo>> AppDiagnosticInfo.RequestInfoForAppAs
 # Windows.System.AppDiagnosticInfo.RequestInfoForAppAsync
 
 ## -description
-Gets a collection of **[AppDiagnosticInfo](appdiagnosticinfo.md)** objects for all running instances of this app. 
+Gets a collection of [AppDiagnosticInfo](appdiagnosticinfo.md) objects for all running instances of this app. 
 
 ## -returns
-A collection of **[AppDiagnosticInfo](appdiagnosticinfo.md)** objects for all running instances of this app. 
+A collection of [AppDiagnosticInfo](appdiagnosticinfo.md) objects for all running instances of this app. 
 
 ## -remarks
-When an app calls this method, it is calling about itself and there is no capability check, and no user prompt.
+When an app calls this method, it is calling about itself and there is no capability check.
 
 ## -see-also
 
