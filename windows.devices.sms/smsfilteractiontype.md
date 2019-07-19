@@ -20,7 +20,7 @@ Messaging apps use SMS filters when they use SMS to communicate app-specific dat
 
 ## -enum-fields
 ### -field AcceptImmediately:0
-The first action type to be taken. Messages filtered on this action type are delivered to your application and are not delivered to the messaging application to be shown to the user. Note that if multiple applications register the same filter with this action type, each application gets its own copy of the message.
+The first action type to be taken. Messages filtered on this action type are delivered to your application and are not delivered to the messaging application to be shown to the user. Note that if multiple applications register the same filter with this action type, each application gets its own copy of the message. To prevent the application from accidentally consuming all user text messages, there is an additional requirement for [SMS filter rule](smsfilterrule.md) with [SMS message type](smsmessagetype.md) Text and [SMS action type](smsfilteractiontype.md) **AcceptImmediately** to provide atleast one [TextMessagePrefixes](smsfilterrule_textmessageprefixes.md) with minimum 3 characters in the prefix. 
 
 ### -field Drop:1
 Filters with this action type are applied after **AcceptImmediately** filters. Messages filtered on this action type are dropped, and neither your app nor the messaging app receive the message or any notification that a message arrived and was dropped.
