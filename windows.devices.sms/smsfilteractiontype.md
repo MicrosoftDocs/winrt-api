@@ -40,6 +40,7 @@ Note that the messaging app shows only text and broadcast messages to the user. 
 ## -remarks
 
 ## -examples
+(SMS send and receive)[https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SmsSendAndReceive]
 
 ## -see-also
 
