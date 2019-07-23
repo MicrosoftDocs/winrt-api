@@ -10,7 +10,7 @@ public Windows.Media.Audio.AudioFrameOutputNode CreateFrameOutputNode(Windows.Me
 # Windows.Media.Audio.AudioGraph.CreateFrameOutputNode
 
 ## -description
-Creates a new [AudioDeviceOutputNode](audiodeviceoutputnode.md), with the specified encoding properties, that outputs audio data from the audio graph to app-implemented code.
+Creates a new [AudioFrameOutputNode](audioframeoutputnode.md), with the specified encoding properties, that outputs audio data from the audio graph to app-implemented code.
 
 ## -parameters
 ### -param encodingProperties
