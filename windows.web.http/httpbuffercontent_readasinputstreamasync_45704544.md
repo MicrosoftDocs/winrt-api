@@ -16,8 +16,9 @@ Serialize the [HttpBufferContent](httpbuffercontent.md) and return an input stre
 The object that represents the asynchronous operation.
 
 ## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(IInputStream, UInt64)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after all of the content has been written to the stream.
+This operation will not block. The returned [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) (of [IInputStream](/uwp/api/windows.storage.streams.iinputstream) and unsigned 64-bit int) completes after all of the content has been written to the stream.
 
 ## -examples
 
 ## -see-also
+[IInputStream](/uwp/api/windows.storage.streams.iinputstream)

@@ -21,7 +21,7 @@ The Uri the request is sent to.
 The object representing the asynchronous operation.
 
 ## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(HttpGetInputStreamResult, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response body is read. This method does not buffer the stream, so this method can support long streams of arbitrary length.
+This operation will not block. The returned [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) (of [HttpGetInputStreamResult](/uwp/api/windows.web.http.httpgetinputstreamresult) and [HttpProgress](/uwp/api/windows.web.http.httpprogress)) completes after the whole response body is read. This method does not buffer the stream, so this method can support long streams of arbitrary length.
 
 ## -see-also
 [HttpGetInputStreamResult](httpgetinputstreamresult.md), [HttpProgress](httpprogress.md), [IInputStream](../windows.storage.streams/iinputstream.md), [HttpClient](/windows/uwp/networking/httpclient)
