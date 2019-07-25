@@ -20,7 +20,7 @@ The Uri the request is sent to.
 The object representing the asynchronous operation.
 
 ## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response (including content) is read.
+This operation will not block. The returned [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) (of [HttpResponseMessage](/uwp/api/windows.web.http.httpresponsemessage) and [HttpProgress](/uwp/api/windows.web.http.httpprogress)) completes after the whole response (including content) is read.
 
 ### Exception Handling
 
@@ -34,4 +34,4 @@ The *uri* parameter was **null** reference (**Nothing** in Visual Basic).
 ## -examples
 
 ## -see-also
-[IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [Uri](../windows.foundation/uri.md), [HttpClient](/windows/uwp/networking/httpclient)
+[IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md), [Uri](../windows.foundation/uri.md), [HttpClient](/windows/uwp/networking/httpclient), [HttpResponseMessage](/uwp/api/windows.web.http.httpresponsemessage), [HttpProgress](/uwp/api/windows.web.http.httpprogress)

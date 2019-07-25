@@ -23,7 +23,7 @@ An HTTP completion option value that indicates when the operation should be cons
 The object representing the asynchronous operation.
 
 ## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete based on the *completionOption* parameter after part or all of the response (including content) is read.
+This operation will not block. The returned [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) (of [HttpResponseMessage](/uwp/api/windows.web.http.httpresponsemessage) and [HttpProgress](/uwp/api/windows.web.http.httpprogress)) completes based on the *completionOption* parameter after part or all of the response (including content) is read.
 
 Below are the exceptions that this content throws.
 
@@ -54,4 +54,4 @@ Thrown when insufficient memory is available to complete the operation.
 ## -examples
 
 ## -see-also
-[Connecting to an HTTP server using Windows.Web.Http](https://docs.microsoft.com/previous-versions/windows/apps/dn469430(v=win.10)), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [GetAsync(Uri)](httpclient_getasync_1878488818.md), [HttpCompletionOption](httpcompletionoption.md), [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN), [Windows.Foundation.Uri](../windows.foundation/uri.md), [Windows.Web.Http](windows_web_http.md), [HttpClient](/windows/uwp/networking/httpclient)
+[Connecting to an HTTP server using Windows.Web.Http](https://docs.microsoft.com/previous-versions/windows/apps/dn469430(v=win.10)), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [GetAsync(Uri)](httpclient_getasync_1878488818.md), [HttpCompletionOption](httpcompletionoption.md), [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md), [HttpResponseMessage](/uwp/api/windows.web.http.httpresponsemessage), [HttpProgress](/uwp/api/windows.web.http.httpprogress), [System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN), [Windows.Foundation.Uri](../windows.foundation/uri.md), [Windows.Web.Http](windows_web_http.md), [HttpClient](/windows/uwp/networking/httpclient)
