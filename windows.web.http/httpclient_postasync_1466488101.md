@@ -29,7 +29,7 @@ The object representing the asynchronous operation.
 
 ## -remarks
 
-This operation will not block. The returned [IAsyncOperationWithProgress<HttpResponseMessage, HttpProgress>](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response (including content) is read.
+This operation will not block. The returned [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) (of[HttpResponseMessage](/uwp/api/windows.web.http.httpresponsemessage) and [HttpProgress](/uwp/api/windows.web.http.httpprogress)) completes after the whole response (including content) is read.
 
 The PostAsync and [PutAsync](httpclient_putasync_552115331.md) methods only allow setting a limited number of HTTP content headers. In contrast, the [SendRequestAsync](httpclient_sendrequestasync_234300504.md) method allows setting headers on the request message as well as on the HTTP content to be sent.
 
@@ -49,4 +49,4 @@ See [HttpClient](https://docs.microsoft.com/windows/uwp/networking/httpclient) f
 
 ## -see-also
 
-[IHttpContent](ihttpcontent.md), [IAsyncOperationWithProgress(String, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md), [PutAsync](httpclient_putasync_552115331.md), [SendRequestAsync](httpclient_sendrequestasync_234300504.md), [Uri](../windows.foundation/uri.md), [HttpClient](/windows/uwp/networking/httpclient)
+[IHttpContent](ihttpcontent.md), [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md), [HttpResponseMessage](/uwp/api/windows.web.http.httpresponsemessage), [HttpProgress](/uwp/api/windows.web.http.httpprogress), [PutAsync](httpclient_putasync_552115331.md), [SendRequestAsync](httpclient_sendrequestasync_234300504.md), [Uri](../windows.foundation/uri.md), [HttpClient](/windows/uwp/networking/httpclient)

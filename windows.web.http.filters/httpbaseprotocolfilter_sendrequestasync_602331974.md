@@ -20,7 +20,7 @@ The HTTP request message to send.
 The object representing the asynchronous operation.
 
 ## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(HttpResponseMessage, HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete once the entire HTTP response message is received.
+This operation will not block. The returned [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) (of [HttpResponseMessage](/uwp/api/windows.web.http.httpresponsemessage) and [HttpProgress](/uwp/api/windows.web.http.httpprogress)) completes once the entire HTTP response message is received.
 
 Below are exceptions that this function throws.
 
