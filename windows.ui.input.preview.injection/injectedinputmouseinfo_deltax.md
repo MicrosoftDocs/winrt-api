@@ -39,19 +39,14 @@ The windows constant, WHEEL_DELTA (defined as a value of 120), describes one det
 A positive value indicates that the wheel was rotated forward (away from the user) or tilted to the right; a negative value indicates that the wheel was rotated backward (toward the user) or tilted to the left.
 + [XDown](injectedinputmouseinfo_mousedata.md) or [XUp](injectedinputmouseinfo_mousedata.md): 1 for XBUTTON1 or 2 for XBUTTON2XBUTTON1 and XBUTTON2 are additional buttons used on many mouse devices, often for forward and backward navigation in Web browsers. They return the same data as standard mouse buttons.
 
-
-
 ## -examples
 
-## -see-also
+Here are some downloadable samples demonstrating basic input and input injection:
 
-### Conceptual
-
-[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
-
-### Samples
-
-- [Simulate user input through input injection](https://review.docs.microsoft.com/windows/uwp/design/input/input-injection?branch=kbridge-inputinjection)
 - [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
 - [Touch injection sample](https://go.microsoft.com/fwlink/p/?LinkID=267906)
 - [Input: XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
+
+## -see-also
+
+[Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)
