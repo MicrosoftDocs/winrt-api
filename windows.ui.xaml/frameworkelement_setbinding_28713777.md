@@ -10,9 +10,7 @@ public void SetBinding(Windows.UI.Xaml.DependencyProperty dp, Windows.UI.Xaml.Da
 # Windows.UI.Xaml.FrameworkElement.SetBinding
 
 ## -description
-Attaches a binding to a [FrameworkElement](frameworkelement.md), using the provided binding object
-<!--, and returns a <see cref="T:Windows.UI.Xaml.Data.BindingExpressionBase"/> for possible later use-->
-.
+Attaches a binding to a [FrameworkElement](frameworkelement.md), using the provided binding object.
 
 ## -parameters
 ### -param dp
