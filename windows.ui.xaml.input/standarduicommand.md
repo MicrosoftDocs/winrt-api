@@ -20,22 +20,24 @@ Derives from [XamlUICommand](xamluicommand.md), adding a set of standard platfor
 
 The platform provides the following set of commands.
 
-- Cut
-- Copy
-- Paste
-- Select All
-- Delete
-- Share
-- Save
-- Open
-- Close
-- Pause
-- Play
-- Stop
-- Forward
-- Backward
-- Undo
-- Redo
+| Command | Icon | Keyboard shortcut | Label | Description |
+| ------- | ---- | ----------------- | ----- | ----------- |
+| Cut |  |  |  |  |  |
+| Copy |  |  |  |  |  |
+| Paste |  |  |  |  |  |
+| Select All |  |  |  |  |  |
+| Delete |  |  |  |  |  |
+| Share |  |  |  |  |  |
+| Save |  |  |  |  |  |
+| Open |  |  |  |  |  |
+| Close |  |  |  |  |  |
+| Pause |  |  |  |  |  |
+| Play |  |  |  |  |  |
+| Stop |  |  |  |  |  |
+| Forward |  |  |  |  |  |
+| Backward |  |  |  |  |  |
+| Undo |  |  |  |  |  |
+| Redo |  |  |  |  |  |
 
 ## -see-also
 
