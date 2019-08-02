@@ -112,5 +112,5 @@ auto myBrush = ref new SolidColorBrush(ColorHelper::FromArgb(255, 90, 200, 90));
 ```
 
 ## -see-also
-[Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md), [Brush](brush.md), [Color.FromArgb](../windows.ui/color_fromargb.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md), [Brush](brush.md), [Color.FromArgb](/dotnet/api/windows.ui.color.fromargb?view=dotnet-uwp-10.0), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
 p://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)
