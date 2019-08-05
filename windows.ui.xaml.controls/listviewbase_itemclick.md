@@ -19,7 +19,7 @@ Occurs when an item in the list view receives an interaction, and the [IsItemCli
 
 
 ## -remarks
-If the list view is one of the views in a [SemanticZoom](semanticzoom.md), selection entails additional behavior that might change between the views. This behavior is built in to the [ListViewBase](listviewbase.md) class, not the[SemanticZoom](semanticzoom.md) class.
+If the list view is one of the views in a [SemanticZoom](semanticzoom.md), selection entails additional behavior that might change between the views. This behavior is built in to the [ListViewBase](listviewbase.md) class, not the [SemanticZoom](semanticzoom.md) class.
 
 ## -examples
 
