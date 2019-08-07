@@ -10,7 +10,7 @@ public void SetToMax()
 # Windows.Globalization.Calendar.SetToMax
 
 ## -description
-Sets the components of this [Calendar](calendar.md) object to the latest date and time that are supported.
+Sets the components of this [Calendar](calendar.md) object to the latest [DateTime](../windows.foundation/datetime.md) supported.
 
 ## -remarks
 If you're using a .NET language (for example, C#, or Visual Basic), then use the Coordinated Universal Time (UTC) time zone with a **Calendar** object if you wish to follow this set of steps.
