@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler PointerMoved<Windows.UI.Core.C
 # Windows.UI.Core.CoreWindow.PointerMoved
 
 ## -description
+
 Occurs when a pointer moves within the bounding box of the app.
 
 ## -remarks
@@ -17,4 +18,5 @@ Occurs when a pointer moves within the bounding box of the app.
 ## -examples
 
 ## -see-also
-[Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)
+
+[Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)

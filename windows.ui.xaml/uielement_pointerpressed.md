@@ -21,7 +21,7 @@ Occurs when the pointer device initiates a **Press** action within this element.
 
 ## -remarks
 
-Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these interactions can produce a PointerPressed event. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input). Pointer events are intended for scenarios where you're interested in multiple pointers and their relationships, or when you are examining specifics of each pointer such as exact coordinate position. Otherwise, you might consider handling gesture events such as [Tapped](uielement_tapped.md).
+Touch, mouse, and pen/stylus interactions are received, processed, and managed as pointer input in UWP app. Any of these interactions can produce a PointerPressed event. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input). Pointer events are intended for scenarios where you're interested in multiple pointers and their relationships, or when you are examining specifics of each pointer such as exact coordinate position. Otherwise, you might consider handling gesture events such as [Tapped](uielement_tapped.md).
 
 Use a handler based on [PointerEventHandler](../windows.ui.xaml.input/pointereventhandler.md) to handle this event.
 
@@ -70,5 +70,5 @@ Other events instead of [PointerReleased](uielement_pointerreleased.md) may fire
 
 ## -see-also
 
-[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [Tapped](uielement_tapped.md), [PointerReleased](uielement_pointerreleased.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
+[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [Tapped](uielement_tapped.md), [PointerReleased](uielement_pointerreleased.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
 soft.com/fwlink/p/?linkid=231524)
