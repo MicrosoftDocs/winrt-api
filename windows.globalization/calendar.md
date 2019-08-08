@@ -11,7 +11,7 @@ public class Calendar : Windows.Globalization.ICalendar, Windows.Globalization.I
 
 ## -description
 
-Manipulates the representation of a date and time within a given calendar and clock.
+Manipulates the representation of a [DateTime](../windows.foundation/datetime.md) within a given calendar and clock.
 
 ## -remarks
 

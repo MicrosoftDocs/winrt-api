@@ -23,12 +23,13 @@ MediaStreamSource can be used with [audio](https://developer.mozilla.org/en-US/d
 
  The [MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021) demonstrates how to use the MediaStreamSource. Here are some of the main MediaStreamSourceAPI. The order outlines the basic flow of how MediaStreamSource functions. You'll notice that the MediaStreamSource sends request objects to the app through event arguments. These request objects enable the app to interact with the MediaStreamSource and pass data back to it.
 
-<table>
-   <tr><td>API</td><td>Description</td></tr>
-   <tr><td>MediaStreamSource</td><td>Represents a media source that delivers media samples directly to the media pipeline. MediaStreamSource consumes [MediaStreamSample](mediastreamsample.md) objects that are provided by the application.</td></tr>
-   <tr><td>[MediaStreamSample](mediastreamsample.md)</td><td>Represents a media sample used by the MediaStreamSource.</td></tr>
-   <tr><td>[MediaStreamSource.Starting](mediastreamsource_starting.md) (event)</td><td>The MediaStreamSource uses this event to notify the app that it is ready to start processing media data.</td></tr>
-   <tr><td>[MediaStreamSourceStartingRequest](mediastreamsourcestartingrequest.md)</td><td>Represents a request from the MediaStreamSource that it is ready to start processing media data.
+
+| API                   | Description                                   |
+|-----------------------|-----------------------------------------------|
+| **MediaStreamSource** | Represents a media source that delivers media samples directly to the media pipeline. MediaStreamSource consumes [MediaStreamSample](mediastreamsample.md) objects that are provided by the application. |
+| [MediaStreamSample](mediastreamsample.md) | Represents a media sample used by the MediaStreamSource. |
+| [MediaStreamSource.Starting](mediastreamsource_starting.md) (event) | The MediaStreamSource uses this event to notify the app that it is ready to start processing media data. |
+| [MediaStreamSourceStartingRequest](mediastreamsourcestartingrequest.md) | Represents a request from the MediaStreamSource that it is ready to start processing media data.
 
 Apps should reply as soon as possible to this request by calling [SetActualStartPosition](mediastreamsourcestartingrequest_setactualstartposition_661405035.md) on the request. If an app needs to delay the MediaStreamSource from processing data, it can get an asynchronous deferral from [MediaStreamSourceStartingRequest.GetDeferral](mediastreamsourcestartingrequest_getdeferral_254836512.md). When the app is ready for the MediaStreamSource to start, it calls [Complete](mediastreamsourcestartingrequestdeferral_complete_1807836922.md) on the deferral object.
 
