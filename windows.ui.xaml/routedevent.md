@@ -66,4 +66,3 @@ This example shows the basic syntax for wiring an event handler with [AddHandler
 
 ## -see-also
 [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [UIElement.AddHandler](uielement_addhandler_2121467075.md), [UIElement.RemoveHandler](uielement_removehandler_661998757.md), [RoutedEventArgs](routedeventargs.md)
-tedEventArgs](routedeventargs.md)
