@@ -23,7 +23,7 @@ An L3 IP packets originated by the client machine TCP/IP stack and that needs to
 An buffer containing an encapsulated IP packet (framed in a specific VPN protocol message and or potentially encrypted) that is ready to be sent to the VPN server through the **outerTunnelTransport.**
 
 ## -remarks
-If an error occurs the packet will be simply dropped. Once the method returns the ownership of any **IVpnPacketBuffer** objects returned in *encapulatedPackets* and the original IP packet is transferred to the VPN framework. The VPN framework will send the returned **IVpnPacketBuffer *** encapulatedPackets* directly into the **outerTunnelTransport**.
+If an error occurs the packets will simply be dropped. It is required that any **IVpnPacketBuffer** object, either passed to the method in the *packets* parameter or requested by the plugin, be returned to the VPN framework. The VPN framework will then send the **IVpnPacketBuffer** objects in *encapulatedPackets* via one of the transports specified during Connect and will clean up the remaining **IVpnPacketBuffer** objects in *packets*.
 
 ## -examples
 
