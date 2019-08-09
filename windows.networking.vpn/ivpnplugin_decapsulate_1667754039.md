@@ -26,10 +26,7 @@ An **IVpnPacketBuffer** chain representing any L3 IP packets extracted and decap
 An **IVpnPacketBuffer** chain representing any control messages that VPN plug-in is required by its protocol specification to reply back to the VPN server.
 
 ## -remarks
-If an error occurs the packets will simply be dropped.
-
-The VPN framework will send all the [VpnPacketBufferList](vpnpacketbufferlist.md) chained on *decapsulatedPackets* as unique IP packets to the VPN interface.
-
+If an error occurs the packets will simply be dropped. It is required that any **IVpnPacketBuffer** objects requested by the plugin be returned to the VPN framework via either the *decapsulatedPackets* chain, to inject into the client TCP/IP stack, or the *controlPacketsToSend* chain, to reply back to the VPN server. The VPN framework will send all the [VpnPacketBufferList](vpnpacketbufferlist.md) chained on *decapsulatedPackets* as unique IP packets to the VPN interface.
 
 
 ## -examples
