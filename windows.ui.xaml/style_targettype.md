@@ -81,8 +81,51 @@ Getting a TargetType in code is also uncommon, but there are perhaps a few more 
 ## -examples
 This example creates two styles: one for a [TextBlock](../windows.ui.xaml.controls/textblock.md) and one for a [TextBox](../windows.ui.xaml.controls/textbox.md). Each style is applied to two instances of a control to create a uniform appearance for each [TextBlock](../windows.ui.xaml.controls/textblock.md) and [TextBox](../windows.ui.xaml.controls/textbox.md). The example sets the [FrameworkElement.Style](frameworkelement_style.md) property of each control by referencing the [Style](style.md) as a [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension).
 
+```xaml
+<StackPanel x:Name="rootPanel">
+  <StackPanel.Resources>
+    <!--Create a Style for a TextBlock to specify that the
+              Foreground equals Navy, FontSize equals 14, and
+              VerticalAlignment equals Botton.-->
+    <Style TargetType="TextBlock" x:Key="TextBlockStyle">
+      <Setter Property="Foreground" Value="Navy"/>
+      <Setter Property="FontSize" Value="14"/>
+      <Setter Property="VerticalAlignment" Value="Bottom"/>
+    </Style>
 
+    <!--Create a Style for a TextBox that specifies that
+              the Width is 200, Height is 30, Margin is 4,
+              Background is LightBlue, and FontSize is 14.-->
+    <Style TargetType="TextBox" x:Key="TextBoxStyle">
+      <Setter Property="Width" Value="200"/>
+      <Setter Property="Height" Value="30"/>
+      <Setter Property="Margin" Value="4"/>
+      <Setter Property="FontSize" Value="14"/>
+      <Setter Property="Background">
+        <Setter.Value>
+          <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+            <GradientStop Color="White" Offset="0.0"/>
+            <GradientStop Color="LightBlue" Offset="0.5"/>
+            <GradientStop Color="Navy" Offset="1"/>
+          </LinearGradientBrush>
+        </Setter.Value>
+      </Setter>
+    </Style>
+  </StackPanel.Resources>
 
-[!code-xml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
+  <!--Apply the TextBlockStyle and TextBoxStyle to each 
+      TextBlock and TextBox, respectively.-->
+  <StackPanel Orientation="Horizontal">
+    <TextBlock Text="First Name:" Style="{StaticResource TextBlockStyle}"/>
+    <TextBox Style="{StaticResource TextBoxStyle}"/>
+  </StackPanel>
+  <StackPanel Orientation="Horizontal">
+    <TextBlock Text="Last Name:" Style="{StaticResource TextBlockStyle}"/>
+    <TextBox Style="{StaticResource TextBoxStyle}"
+             Margin="6,4,4,4"/>
+  </StackPanel>
+  <StackPanel x:Name="emailAddressPanel" Orientation="Horizontal"/>
+</StackPanel>
+```
 
 ## -see-also
