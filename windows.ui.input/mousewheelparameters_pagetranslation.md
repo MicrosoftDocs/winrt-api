@@ -11,7 +11,7 @@ public Windows.Foundation.Point PageTranslation { get;  set; }
 
 ## -description
 
-Gets or sets the device-independent pixel (DIP) conversion factors for both page width and height units (as set in the **Wheel** settings of the **Mouse** control panel).
+Gets or sets the conversion factors for both page width and height units, in device-independent pixel (DIP).
 
 ## -property-value
 
