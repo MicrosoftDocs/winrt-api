@@ -25,7 +25,7 @@ Represents the container for an item in a [ComboBox](combobox.md) control.
 ## -remarks
 The ComboBoxItem class provides the container for items displayed in a [ComboBox](combobox.md) control. You populate the [ComboBox](combobox.md) by adding objects directly to its [Items](itemscontrol_items.md) collection or by binding its [ItemsSource](itemscontrol_itemssource.md) property to a data source. When items are added to the [ComboBox](combobox.md), a ComboBoxItem container is created automatically for each item in the collection.
 
-You can specify the look of the ComboBoxItem by setting the [ComboBox](combobox.md) 's [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of ComboBoxItem.
+You can specify the look of the ComboBoxItem by setting the [ComboBox](combobox.md)'s [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of ComboBoxItem.
 
 ### Control style and template
 

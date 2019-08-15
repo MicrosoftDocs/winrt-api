@@ -10,7 +10,7 @@ public Windows.UI.Xaml.SetterBaseCollection Setters { get; }
 # Windows.UI.Xaml.VisualState.Setters
 
 ## -description
-Gets a collection of [Setter](setter.md) objects that define discrete property values that control the appearance of [UIElement](uielement.md) s when this [VisualState](visualstate.md) is applied.
+Gets a collection of [Setter](setter.md) objects that define discrete property values that control the appearance of [UIElement](uielement.md)s when this [VisualState](visualstate.md) is applied.
 
 ## -property-value
 A collection of [Setter](setter.md) objects. The default is an empty collection.

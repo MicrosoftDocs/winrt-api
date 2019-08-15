@@ -22,7 +22,7 @@ Gets or sets a value that indicates whether the current date is highlighted in t
 **true** if the current date is highlighted; otherwise, **false**. The default is **true**.
 
 ## -remarks
-This property affects the [CalendarDatePicker](calendardatepicker.md) 's internal [CalendarView](calendarview.md). For more info, see [CalendarView.IsTodayHighlighted](calendarview_istodayhighlighted.md).
+This property affects the [CalendarDatePicker](calendardatepicker.md)'s internal [CalendarView](calendarview.md). For more info, see [CalendarView.IsTodayHighlighted](calendarview_istodayhighlighted.md).
 
 ## -examples
 

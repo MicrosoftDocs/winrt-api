@@ -171,11 +171,11 @@ public MainPage()
 
 MediaTransportControls is a composite control made up of several other XAML controls, which are all contained within a root [Grid](grid.md) element.
 
-In the default mode, the [Grid](grid.md) has 2 rows. The first row contains a [Slider](slider.md) (the seek bar) that shows the progress of the media file, and lets the user seek forward or backward through the media. Below the [Slider](slider.md) are two [TextBlock](textblock.md) s. These display the elapsed and remaining time. The second row contains a [CommandBar](commandbar.md) with [AppBarButton](appbarbutton.md) s. The [AppBarButton](appbarbutton.md) s let the user perform actions like play and pause the media, change the volume, and make the video full screen.
+In the default mode, the [Grid](grid.md) has 2 rows. The first row contains a [Slider](slider.md) (the seek bar) that shows the progress of the media file, and lets the user seek forward or backward through the media. Below the [Slider](slider.md) are two [TextBlock](textblock.md) s. These display the elapsed and remaining time. The second row contains a [CommandBar](commandbar.md) with [AppBarButton](appbarbutton.md) s. The [AppBarButton](appbarbutton.md)s let the user perform actions like play and pause the media, change the volume, and make the video full screen.
 
 <img alt="Default media transport control parts" src="images/MediaTransportControls_Anatomy.png" />
 
-In the compact mode, the [Slider](slider.md) and [CommandBar](commandbar.md) are shown in a single row. The [TextBlock](textblock.md) s for elapsed and remaining time are hidden.
+In the compact mode, the [Slider](slider.md) and [CommandBar](commandbar.md) are shown in a single row. The [TextBlock](textblock.md)s for elapsed and remaining time are hidden.
 
 <img alt="Compact media transport control parts" src="images/MediaTransportControls_Anatomy_Compact.png" />
 
