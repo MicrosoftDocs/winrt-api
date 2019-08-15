@@ -212,8 +212,8 @@ In practice, the vast majority of the resources defined in a ResourceDictionary 
 
 The API that your code uses to access the resources in a ResourceDictionary depends on which programming language you use:
 + For C# or Microsoft Visual Basic you use API that implement 
-[IDictionary&lt;TKey,TValue&gt;](https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2) and 
-[IEnumerable&lt;T&gt;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1). For example, [TryGetValue](resourcedictionary_trygetvalue.md) or the [Item](resourcedictionary_item.md) indexer.
+[IDictionary&lt;TKey,TValue&gt;](https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2?view=dotnet-uwp-10.0) and 
+[IEnumerable&lt;T&gt;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0). For example, [TryGetValue](/dotnet/api/system.collections.generic.idictionary-2.trygetvalue?view=dotnet-uwp-10.0) or the [Item](/dotnet/api/system.collections.generic.idictionary-2.item?view=dotnet-uwp-10.0) indexer.
 + For Visual C++ component extensions (C++/CX) you use API that implement [IMap&lt;K,V&gt;](../windows.foundation.collections/imap_2.md) and [IIterable&lt;T&gt;](../windows.foundation.collections/iiterable_1.md). For example, [Lookup](resourcedictionary_lookup_786690417.md).
 + API that aren't part of collection support, like [Source](resourcedictionary_source.md), are the same in all languages.
 
