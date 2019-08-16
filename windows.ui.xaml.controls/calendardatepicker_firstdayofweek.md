@@ -25,7 +25,7 @@ Gets or sets a value that indicates which day is shown as the first day of the w
 A value of the enumeration that indicates which day is shown as the first day of the week.
 
 ## -remarks
-This property affects the [CalendarDatePicker](calendardatepicker.md) 's internal [CalendarView](calendarview.md). For more info, see [CalendarView.FirstDayOfWeek](calendarview_firstdayofweek.md).
+This property affects the [CalendarDatePicker](calendardatepicker.md)'s internal [CalendarView](calendarview.md). For more info, see [CalendarView.FirstDayOfWeek](calendarview_firstdayofweek.md).
 
 ## -examples
 

@@ -12,7 +12,7 @@ public void ConfigurePositionYInertiaModifiers(Windows.Foundation.Collections.II
 ## -description
 Applies a collection of InteractionTrackerInertiaModifier objects to the y inertia of an InteractionTracker.
 
-The ConfigurePositionYInertiaModifiers method applies an individual or a collection of [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md) s to the y component of [InteractionTracker](interactiontracker.md). The system will evaluate each of Y modifier’s condition property in the order they were added to [InteractionTracker](interactiontracker.md). Thus, the order that the [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md) have in the collection will be the same order that the system will evaluate with.
+The ConfigurePositionYInertiaModifiers method applies an individual or a collection of [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md)s to the y component of [InteractionTracker](interactiontracker.md). The system will evaluate each of Y modifier’s condition property in the order they were added to [InteractionTracker](interactiontracker.md). Thus, the order that the [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md) have in the collection will be the same order that the system will evaluate with.
 
 ## -parameters
 ### -param modifiers

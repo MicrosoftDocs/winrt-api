@@ -12,7 +12,7 @@ public class QuaternionKeyFrameAnimation : Windows.UI.Composition.KeyFrameAnimat
 ## -description
 A time-based animation that targets the Orientation property with one or more key frames.
 
-The QuaternionKeyFrameAnimation class is one of the supported types of [KeyFrameAnimation](keyframeanimation.md) s that is used to animate the [Orientation](visual_orientation.md) property on a [Visual](visual.md). Quaternions are a useful and sometimes simpler way to think about rotations – Quaternions take the shortest path between angles and avoid issues like Gimbal Lock that rotation angle/axis and rotation matrices run into. A Quaternion is made up of two components: a scalar and vector part.
+The QuaternionKeyFrameAnimation class is one of the supported types of [KeyFrameAnimation](keyframeanimation.md)s that is used to animate the [Orientation](visual_orientation.md) property on a [Visual](visual.md). Quaternions are a useful and sometimes simpler way to think about rotations – Quaternions take the shortest path between angles and avoid issues like Gimbal Lock that rotation angle/axis and rotation matrices run into. A Quaternion is made up of two components: a scalar and vector part.
 
 ## -remarks
 An animation is associated with an object's property by calling [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) and specifying the property name and the animation. See the remarks section of [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) for a list of animatable properties.

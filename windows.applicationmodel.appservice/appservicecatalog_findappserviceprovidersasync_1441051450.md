@@ -17,7 +17,7 @@ Returns the list of app service providers that match a specific app service name
 The name of the app service to find.
 
 ## -returns
-A list of [AppInfo](../windows.applicationmodel/appinfo.md) s for the app service provider(s) that are available for the specified app service name.
+A list of [AppInfo](../windows.applicationmodel/appinfo.md)s for the app service provider(s) that are available for the specified app service name.
 
 > [!TIP]
 > In C++, the return value is [IAsyncOperation&lt;IVectorView&lt;AppInfo&gt;&gt;](../windows.foundation/iasyncoperation_1.md)

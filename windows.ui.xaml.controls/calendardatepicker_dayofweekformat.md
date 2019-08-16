@@ -25,7 +25,7 @@ Gets or sets the display format for the day of the week headers in the picker's 
 The string format to use to display the day of the week headers in the picker's [CalendarView](calendarview.md).
 
 ## -remarks
-This property affects the [CalendarDatePicker](calendardatepicker.md) 's internal [CalendarView](calendarview.md). For more info, see [CalendarView.DayOfWeekFormat](calendarview_dayofweekformat.md).
+This property affects the [CalendarDatePicker](calendardatepicker.md)'s internal [CalendarView](calendarview.md). For more info, see [CalendarView.DayOfWeekFormat](calendarview_dayofweekformat.md).
 
 ## -examples
 

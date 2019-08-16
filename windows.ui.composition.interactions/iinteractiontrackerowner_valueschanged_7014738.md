@@ -10,7 +10,7 @@ public void ValuesChanged(Windows.UI.Composition.Interactions.InteractionTracker
 # Windows.UI.Composition.Interactions.IInteractionTrackerOwner.ValuesChanged
 
 ## -description
-Callback that is triggered when the [InteractionTracker](interactiontracker.md) 's output values have changed.
+Callback that is triggered when the [InteractionTracker](interactiontracker.md)'s output values have changed.
 
 ## -parameters
 ### -param sender

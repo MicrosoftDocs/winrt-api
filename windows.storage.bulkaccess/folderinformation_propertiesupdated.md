@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler PropertiesUpdated<Windows.Stor
 # Windows.Storage.BulkAccess.FolderInformation.PropertiesUpdated
 
 ## -description
-Occurs when one or more of the [StorageFolder](../windows.storage/storagefolder.md) 's properties is updated.
+Occurs when one or more of the [StorageFolder](../windows.storage/storagefolder.md)'s properties is updated.
 
 ## -remarks
 

@@ -28,7 +28,7 @@ Represents a control that creates a pop-up window that displays information for 
 
 ## -remarks
 
-A ToolTip is a short description that is linked to another control or object. ToolTip s help users understand unfamiliar objects that aren't described directly in the UI. They display automatically when the user presses and holds or hovers the mouse pointer over a control. The ToolTip disappears after a short time, or when the user moves the pointer.
+A ToolTip is a short description that is linked to another control or object. ToolTips help users understand unfamiliar objects that aren't described directly in the UI. They display automatically when the user presses and holds or hovers the mouse pointer over a control. The ToolTip disappears after a short time, or when the user moves the pointer.
 
 Here's a ToolTip for a [Button](button.md).
 

@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.ApplicationModel.Resou
 Gets the qualifiers associated with this [ResourceCandidate](resourcecandidate.md).
 
 ## -property-value
-The [ResourceQualifier](resourcequalifier.md) s associated with this [ResourceCandidate](resourcecandidate.md).
+The [ResourceQualifier](resourcequalifier.md)s associated with this [ResourceCandidate](resourcecandidate.md).
 
 ## -remarks
 

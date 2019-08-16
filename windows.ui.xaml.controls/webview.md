@@ -304,7 +304,7 @@ Starting in Windows 10, you can use the [WebView.Settings](webview_settings.md)
 
 To enable sharing WebView content with other apps, use the [CaptureSelectedContentToDataPackageAsync](webview_captureselectedcontenttodatapackageasync_1187796026.md) method, which returns the selected content as a [DataPackage](../windows.applicationmodel.datatransfer/datapackage.md). This method is asynchronous, so you must use a deferral to prevent your [DataRequested](../windows.applicationmodel.datatransfer/datatransfermanager_datarequested.md) event handler from returning before the asynchronous call is complete.
 
-To get a preview image of the WebView 's current content, use the [CapturePreviewToStreamAsync](webview_capturepreviewtostreamasync_1169189879.md) method. This method creates an image of the current content and writes it to the specified stream.
+To get a preview image of the WebView's current content, use the [CapturePreviewToStreamAsync](webview_capturepreviewtostreamasync_1169189879.md) method. This method creates an image of the current content and writes it to the specified stream.
 
 ### Execution modes
 
