@@ -57,7 +57,7 @@ public sealed class StreamUriWinRTResolver : IUriToStreamResolver
         string path = uri.AbsolutePath;
 
         // Because of the signature of the this method, it can't use await, so we 
-        // call into a seperate helper method that can use the C# await pattern.
+        // call into a separate helper method that can use the C# await pattern.
         return GetContent(path).AsAsyncOperation();
     }
 
