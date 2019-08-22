@@ -10,10 +10,10 @@ public int NumberOfSecondsInThisMinute { get; }
 # Windows.Globalization.Calendar.NumberOfSecondsInThisMinute
 
 ## -description
-Gets the number of [Second](calendar_second.md) s in the current [Minute](calendar_minute.md).
+Gets the number of [Second](calendar_second.md)s in the current [Minute](calendar_minute.md).
 
 ## -property-value
-The number of [Second](calendar_second.md) s in the current [Minute](calendar_minute.md).
+The number of [Second](calendar_second.md)s in the current [Minute](calendar_minute.md).
 
 ## -remarks
 

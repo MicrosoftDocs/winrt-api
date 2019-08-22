@@ -23,7 +23,7 @@ An iterable list of additional properties to include in the [Properties](pnpobje
 A [PnpObjectWatcher](pnpobjectwatcher.md) object used to enumerate the collection by registering event notification delegates and by issuing start and stop event notifications.
 
 ## -remarks
-[CreateWatcher](pnpobject_createwatcher_1842907357.md) is a primary starting point method for enumerating device objects. A client should use this API to enumerate [PnpObject](pnpobject.md) s if they want the enumeration to happen incrementally, or if they want the results to be updated as things change. For example, if a [PnpObject](pnpobject.md) is added, removed or its properties are updated, the client will register event handlers with the returned watcher object to receive the enumerated [PnpObject](pnpobject.md) as well as the later updates.
+[CreateWatcher](pnpobject_createwatcher_1842907357.md) is a primary starting point method for enumerating device objects. A client should use this API to enumerate [PnpObject](pnpobject.md)s if they want the enumeration to happen incrementally, or if they want the results to be updated as things change. For example, if a [PnpObject](pnpobject.md) is added, removed or its properties are updated, the client will register event handlers with the returned watcher object to receive the enumerated [PnpObject](pnpobject.md) as well as the later updates.
 
 ## -examples
 

@@ -21,7 +21,7 @@ Gets or sets a value that indicates whether the header is always visible.
 
 ## -property-value
 
-**true** if the header is always visible; otherwise, **false**.
+**true** if the header is always visible; otherwise, **false**. The default is **true**.
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public int TryUpdatePositionWithAnimation(Windows.UI.Composition.CompositionAnim
 # Windows.UI.Composition.Interactions.InteractionTracker.TryUpdatePositionWithAnimation
 
 ## -description
-Tries to update the [InteractionTracker](interactiontracker.md) 's position by applying an animation.
+Tries to update the [InteractionTracker](interactiontracker.md)'s position by applying an animation.
 
 The TryUpdatePositionWithAnimation method updates the position of [InteractionTracker](interactiontracker.md) based on the [CompositionAnimation](../windows.ui.composition/compositionanimation.md) input as a parameter. This method is used in situations in which the motion of [InteractionTracker](interactiontracker.md) needs to be defined by a specific animation, instead of the traditional Inertia experience. TryUpdatePositionWithAnimation can be called from the Idle or Inertia state – doing so, [InteractionTracker](interactiontracker.md) ’s position will be driven by the defined animation and enter the CustomAnimation state.
 

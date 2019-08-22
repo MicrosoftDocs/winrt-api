@@ -55,7 +55,7 @@ In this case, you need to use a [TaskCompletionSource](https://docs.microsoft.co
 If you are porting from .NET code and using **Dispatcher.BeginInvoke** and **Dispatcher.Invoke** methods, note that CoreDispatcher.RunAsync is asynchronous. There is no synchronous version. After you change **Dispatcher.Invoke** to CoreDispatcher.RunAsync, your code must support the Windows Runtime**async** pattern and use the specific lambda syntax for your chosen language.
 
 ## -examples
-The following examples demonstrate the use of CoreDispatcher.RunAsync to schedule work on the main UI thread using the [CoreWindow](corewindow.md) 's event dispatcher.
+The following examples demonstrate the use of CoreDispatcher.RunAsync to schedule work on the main UI thread using the [CoreWindow](corewindow.md)'s event dispatcher.
 
 ```csharp
 await dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>

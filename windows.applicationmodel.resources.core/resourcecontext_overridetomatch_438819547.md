@@ -10,11 +10,11 @@ public void OverrideToMatch(Windows.Foundation.Collections.IIterable<Windows.App
 # Windows.ApplicationModel.Resources.Core.ResourceContext.OverrideToMatch
 
 ## -description
- Overrides the qualifier values supplied by this context to match a specified list of resolved [ResourceQualifier](resourcequalifier.md) s. Typically the resolved [ResourceQualifier](resourcequalifier.md) s are associated with a resource that was looked up earlier. 
+ Overrides the qualifier values supplied by this context to match a specified list of resolved [ResourceQualifier](resourcequalifier.md) s. Typically the resolved [ResourceQualifier](resourcequalifier.md)s are associated with a resource that was looked up earlier. 
 
 ## -parameters
 ### -param result
-The [ResourceQualifier](resourcequalifier.md) s to be applied to the context.
+The [ResourceQualifier](resourcequalifier.md)s to be applied to the context.
 
 ## -remarks
 
