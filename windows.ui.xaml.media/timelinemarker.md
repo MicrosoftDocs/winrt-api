@@ -20,7 +20,7 @@ The following example creates a [MediaElement](../windows.ui.xaml.controls/media
 
 
 
-[!code-xml[TimelineMarkerXAML](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml#SnippetTimelineMarkerXAML)]
+[!code-xaml[TimelineMarkerXAML](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml#SnippetTimelineMarkerXAML)]
 
 [!code-csharp[TimelineMarker](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml.cs#SnippetTimelineMarker)]
 

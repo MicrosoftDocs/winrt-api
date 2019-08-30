@@ -40,13 +40,13 @@ The following example shows how to use ColorAnimation to animate the background 
 
 
 
-[!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation/csharp/Page.xaml#SnippetColoranimation)]
+[!code-xaml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation/csharp/Page.xaml#SnippetColoranimation)]
 
 
-[!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationUsingKeyframes)]
+[!code-xaml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationUsingKeyframes)]
 
 
-[!code-xml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml#SnippetColoranimation_direct_targeting)]
+[!code-xaml[Coloranimation](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml#SnippetColoranimation_direct_targeting)]
 
 
 [!code-csharp[Coloranimation_cs](../windows.ui.xaml.media.animation/code/coloranimation/csharp/Page.xaml.cs#SnippetColoranimation_cs)]
@@ -61,7 +61,7 @@ Alternatively, you could explicitly create the [SolidColorBrush](../windows.ui.x
 
 
 
-[!code-xml[Coloranimation_direct_targeting](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml#SnippetColoranimation_direct_targeting)]
+[!code-xaml[Coloranimation_direct_targeting](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml#SnippetColoranimation_direct_targeting)]
 
 
 [!code-csharp[Coloranimation_direct_targeting_cs](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/csharp/Page.xaml.cs#SnippetColoranimation_direct_targeting_cs)]

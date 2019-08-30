@@ -25,7 +25,7 @@ The following code example shows scenario 3 from the [Input sample](https://go.m
 
 
 
-[!code-xml[Scenario3Xaml](../windows.ui.xaml/code/input/csharp/Scenario3.xaml#SnippetScenario3Xaml)]
+[!code-xaml[Scenario3Xaml](../windows.ui.xaml/code/input/csharp/Scenario3.xaml#SnippetScenario3Xaml)]
 
 [!code-csharp[Scenario3Code](../windows.ui.xaml/code/input/csharp/Scenario3.xaml.cs#SnippetScenario3Code)]
 

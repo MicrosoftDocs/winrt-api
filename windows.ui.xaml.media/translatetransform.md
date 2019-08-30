@@ -25,11 +25,11 @@ This example uses a TranslateTransform to offset text. In this example, a slight
 
 
 
-[!code-xml[TranslateTransform_1](../windows.ui.xaml/code/transforms/csharp/Translate_Transform_1.xaml#SnippetTranslateTransform_1)]
+[!code-xaml[TranslateTransform_1](../windows.ui.xaml/code/transforms/csharp/Translate_Transform_1.xaml#SnippetTranslateTransform_1)]
 
 
 
-[!code-xml[TranslateTransform_2](../windows.ui.xaml/code/transforms/csharp/Translate_Transform_2.xaml#SnippetTranslateTransform_2)]
+[!code-xaml[TranslateTransform_2](../windows.ui.xaml/code/transforms/csharp/Translate_Transform_2.xaml#SnippetTranslateTransform_2)]
 
 [!code-csharp[TranslateTransform_2_code](../windows.ui.xaml/code/transforms/csharp/Translate_Transform_2.xaml.cs#SnippetTranslateTransform_2_code)]
 

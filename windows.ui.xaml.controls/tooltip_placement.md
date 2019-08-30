@@ -34,7 +34,7 @@ The following code example demonstrates the placement modes for a [ToolTip](tool
 
 
 
-[!code-xml[1](../windows.ui.xaml.data/code/ToolTipServicePlacementEx/csharp/MainPage.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.data/code/ToolTipServicePlacementEx/csharp/MainPage.xaml#Snippet1)]
 
 ## -see-also
 [PlacementMode](../windows.ui.xaml.controls.primitives/placementmode.md), [PlacementTarget](tooltip_placementtarget.md)

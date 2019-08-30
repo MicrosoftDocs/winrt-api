@@ -88,7 +88,7 @@ If you are defining a custom control that has visual states in its control templ
 
 This example creates a [VisualStateGroup](visualstategroup.md) in the [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) of a [Button](../windows.ui.xaml.controls/button.md) called "CommonStates" and adds VisualState objects for the states, "Normal", "Pressed", and "PointerOver". The [Button](../windows.ui.xaml.controls/button.md) also defines a state called "Disabled" that is in the "CommonStates" named [VisualStateGroup](visualstategroup.md), but the example omits it for brevity.
 
-[!code-xml[VisualStates](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#SnippetVisualStates)]
+[!code-xaml[VisualStates](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#SnippetVisualStates)]
 
 ```xaml
 <Page>

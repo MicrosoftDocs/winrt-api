@@ -36,7 +36,7 @@ The following example shows how to use the AddDeleteThemeTransition to animate r
 
 
 
-[!code-xml[AddDeleteThemeTransition](../windows.ui.xaml.media.animation/code/AddDeleteThemeTransition/csharp/BlankPage.xaml#SnippetAddDeleteThemeTransition)]
+[!code-xaml[AddDeleteThemeTransition](../windows.ui.xaml.media.animation/code/AddDeleteThemeTransition/csharp/BlankPage.xaml#SnippetAddDeleteThemeTransition)]
 
 [!code-csharp[AddDeleteThemeTransition_code](../windows.ui.xaml.media.animation/code/AddDeleteThemeTransition/csharp/BlankPage.xaml.cs#SnippetAddDeleteThemeTransition_code)]
 

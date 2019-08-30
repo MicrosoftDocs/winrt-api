@@ -28,7 +28,7 @@ This XAML example shows how to use key frames that have easing functions associa
 
 
 
-[!code-xml[EasingFunctionDoubleKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionDoubleKeyFrame/csharp/Page.xaml#SnippetEasingFunctionDoubleKeyFrame)]
+[!code-xaml[EasingFunctionDoubleKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionDoubleKeyFrame/csharp/Page.xaml#SnippetEasingFunctionDoubleKeyFrame)]
 
 [!code-csharp[EasingFunctionDoubleKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionDoubleKeyFrame/csharp/Page.xaml.cs#SnippetEasingFunctionDoubleKeyFrame_code)]
 

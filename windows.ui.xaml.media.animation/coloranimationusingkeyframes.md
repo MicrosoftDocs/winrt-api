@@ -41,7 +41,7 @@ The following example uses the ColorAnimationUsingKeyFrames class to animate the
 
 
 
-[!code-xml[Coloranimationusingkeyframes](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationusingkeyframes)]
+[!code-xaml[Coloranimationusingkeyframes](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationusingkeyframes)]
 
 
 

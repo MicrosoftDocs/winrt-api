@@ -31,6 +31,6 @@ This example creates two curves using a [PolyQuadraticBezierSegment](polyquadrat
 
 
 
-[!code-xml[PolyQuadraticBezierSegment](../windows.ui.xaml/code/geometries_snip/csharp/PolyQuadraticBezierSegment.xaml#SnippetPolyQuadraticBezierSegment)]
+[!code-xaml[PolyQuadraticBezierSegment](../windows.ui.xaml/code/geometries_snip/csharp/PolyQuadraticBezierSegment.xaml#SnippetPolyQuadraticBezierSegment)]
 
 ## -see-also

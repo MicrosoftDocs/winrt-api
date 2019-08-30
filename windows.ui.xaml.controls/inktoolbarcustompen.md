@@ -43,7 +43,7 @@ Here's the declaration for the custom pen defined in the previous snippet.
 
 
 
-[!code-xml[UI_AddCustomPen](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomPen.xaml#SnippetUI_AddCustomPen)]
+[!code-xaml[UI_AddCustomPen](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomPen.xaml#SnippetUI_AddCustomPen)]
 
 Here's the definition of `CalligraphicPenIcon` from the `MainPage.xaml.cs` file of this example.
 

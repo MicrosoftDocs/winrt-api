@@ -110,7 +110,7 @@ In order to support XAML processor access to the attached properties, and also t
 
 This XAML example shows how to design a layout by using a Grid.
 
-[!code-xml[GridClassXAML](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml#SnippetGridClassXAML)]
+[!code-xaml[GridClassXAML](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml#SnippetGridClassXAML)]
 
 [!code-csharp[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml.cs#SnippetGridClassCode)]
 

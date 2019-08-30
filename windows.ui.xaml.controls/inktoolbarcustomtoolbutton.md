@@ -48,7 +48,7 @@ First, we set up the UI in MainPage.xaml.
 + We also add a [Canvas](canvas.md) element for drawing our selection stroke. Using a separate layer to draw the selection stroke leaves the [InkCanvas](inkcanvas.md) and its content untouched.
 
 
-[!code-xml[SnippetUI_AddCustomTool](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomTool.xaml#SnippetUI_AddCustomTool)]
+[!code-xaml[SnippetUI_AddCustomTool](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomTool.xaml#SnippetUI_AddCustomTool)]
 
 
 We then handle the [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event for the InkToolbarCustomToolButton in the `MainPage.xaml.cs` code-behind file.

@@ -34,7 +34,7 @@ This XAML example applies a CircleEase easing function to a [DoubleAnimation](do
 
 
 
-[!code-xml[CircleEase](../windows.ui.xaml.media.animation/code/CircleEase/csharp/Page.xaml#SnippetCircleEase)]
+[!code-xaml[CircleEase](../windows.ui.xaml.media.animation/code/CircleEase/csharp/Page.xaml#SnippetCircleEase)]
 
 [!code-csharp[CircleEase_code](../windows.ui.xaml.media.animation/code/CircleEase/csharp/Page.xaml.cs#SnippetCircleEase_code)]
 

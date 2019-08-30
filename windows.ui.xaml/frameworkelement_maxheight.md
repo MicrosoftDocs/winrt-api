@@ -32,7 +32,7 @@ This XAML example shows a technique of specifying a MaxHeight for a [ViewBox](..
 
 
 
-[!code-xml[ViewBoxXAML](../windows.ui.xaml/code/ViewBoxSnippet/csharp/MainPage.xaml#SnippetViewBoxXAML)]
+[!code-xaml[ViewBoxXAML](../windows.ui.xaml/code/ViewBoxSnippet/csharp/MainPage.xaml#SnippetViewBoxXAML)]
 
 ## -see-also
 [ActualHeight](frameworkelement_actualheight.md), [Height](frameworkelement_height.md), [MinHeight](frameworkelement_minheight.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)

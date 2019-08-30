@@ -31,17 +31,17 @@ This example uses a simple [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.
 
 
 
-[!code-xml[Matrix3DProjectionSimple](../windows.ui.xaml.media/code/Matrix3DProjectionSimple/csharp/MainPage.xaml#SnippetMatrix3DProjectionSimple)]
+[!code-xaml[Matrix3DProjectionSimple](../windows.ui.xaml.media/code/Matrix3DProjectionSimple/csharp/MainPage.xaml#SnippetMatrix3DProjectionSimple)]
 
 [!code-csharp[Matrix3DProjectionSimple_code](../windows.ui.xaml.media/code/Matrix3DProjectionSimple/csharp/MainPage.xaml.cs#SnippetMatrix3DProjectionSimple_code)]
 
 
 
-[!code-xml[Matrix3DProjectionXAML](../windows.ui.xaml.media/code/Matrix3DProjectionXAML/csharp/MainPage.xaml#SnippetMatrix3DProjectionXAML)]
+[!code-xaml[Matrix3DProjectionXAML](../windows.ui.xaml.media/code/Matrix3DProjectionXAML/csharp/MainPage.xaml#SnippetMatrix3DProjectionXAML)]
 
 
 
-[!code-xml[Matrix3DProjectionSample](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml#SnippetMatrix3DProjectionSample)]
+[!code-xaml[Matrix3DProjectionSample](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml#SnippetMatrix3DProjectionSample)]
 
 [!code-csharp[Matrix3DProjectionSample_code](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml.cs#SnippetMatrix3DProjectionSample_code)]
 

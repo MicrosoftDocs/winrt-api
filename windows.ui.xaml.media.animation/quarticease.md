@@ -38,7 +38,7 @@ This XAML example applies a QuarticEase easing function to a [DoubleAnimation](d
 
 
 
-[!code-xml[QuarticEase](../windows.ui.xaml.media.animation/code/QuarticEase/csharp/Page.xaml#SnippetQuarticEase)]
+[!code-xaml[QuarticEase](../windows.ui.xaml.media.animation/code/QuarticEase/csharp/Page.xaml#SnippetQuarticEase)]
 
 [!code-csharp[QuarticEase_code](../windows.ui.xaml.media.animation/code/QuarticEase/csharp/Page.xaml.cs#SnippetQuarticEase_code)]
 

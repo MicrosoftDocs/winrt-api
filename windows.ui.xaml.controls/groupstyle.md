@@ -26,7 +26,7 @@ Here, a GroupStyle is applied to a [GridView](gridview.md) control that contains
 
 
 
-[!code-xml[GroupedGridViewXAML](../windows.ui.xaml.controls/code/ItemsControlGroupingSnippets/csharp/MainPage.xaml#SnippetGroupedGridViewXAML)]
+[!code-xaml[GroupedGridViewXAML](../windows.ui.xaml.controls/code/ItemsControlGroupingSnippets/csharp/MainPage.xaml#SnippetGroupedGridViewXAML)]
 
 ## -see-also
 [ItemsControl.GroupStyle](itemscontrol_groupstyle.md), [GroupItem](groupitem.md), [INotifyPropertyChanged](../windows.ui.xaml.data/inotifypropertychanged.md), [How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10))

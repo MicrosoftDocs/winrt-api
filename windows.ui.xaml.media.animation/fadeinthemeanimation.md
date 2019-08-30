@@ -36,7 +36,7 @@ The following example applies a FadeInThemeAnimation and [FadeOutThemeAnimation]
 
 
 
-[!code-xml[FadeThemeAnimation](../windows.ui.xaml.media.animation/code/FadeInThemeAnimation/csharp/BlankPage.xaml#SnippetFadeThemeAnimation)]
+[!code-xaml[FadeThemeAnimation](../windows.ui.xaml.media.animation/code/FadeInThemeAnimation/csharp/BlankPage.xaml#SnippetFadeThemeAnimation)]
 
 [!code-csharp[FadeThemeAnimation_code](../windows.ui.xaml.media.animation/code/FadeInThemeAnimation/csharp/BlankPage.xaml.cs#SnippetFadeThemeAnimation_code)]
 

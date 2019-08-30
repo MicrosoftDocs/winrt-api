@@ -45,7 +45,7 @@ Here's a [GridView](gridview.md) header that contains a [StackPanel](stackpanel.
 
 
 
-[!code-xml[GridViewHeader](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/SplitPage.xaml#SnippetGridViewHeader)]
+[!code-xaml[GridViewHeader](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/SplitPage.xaml#SnippetGridViewHeader)]
 
 ## -see-also
 [HeaderTemplate](listviewbase_headertemplate.md), [HeaderTransitions](listviewbase_headertransitions.md), [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md)
