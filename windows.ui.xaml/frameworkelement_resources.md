@@ -44,7 +44,7 @@ This example shows a XAML definition of a simple Resources dictionary that conta
 
 
 
-[!code-xml[3](../windows.ui.xaml.data/code/DataTemplates/csharp/Page.xaml#Snippet3)]
+[!code-xaml[3](../windows.ui.xaml.data/code/DataTemplates/csharp/Page.xaml#Snippet3)]
 
 ```xaml
 <GridView ItemTemplate="{StaticResource CBTemplate}" .../>

@@ -43,7 +43,7 @@ The following Windows 8-specific code example demonstrates how to use a WebView
 
 
 
-[!code-xml[WebViewBrushXaml](../windows.ui.xaml.input/code/Controls_WebView/csharp/Scenario6.xaml#SnippetWebViewBrushXaml)]
+[!code-xaml[WebViewBrushXaml](../windows.ui.xaml.input/code/Controls_WebView/csharp/Scenario6.xaml#SnippetWebViewBrushXaml)]
 
 [!code-cpp[WebViewBrushCode](../windows.ui.xaml.input/code/Controls_WebView/cpp/Scenario6.xaml.cpp#SnippetWebViewBrushCode)]
 

@@ -28,7 +28,7 @@ The following example applies a QuadraticEase easing function to a [DoubleAnimat
 
 
 
-[!code-xml[QuadraticEase](../windows.ui.xaml.media.animation/code/QuadraticEase/csharp/Page.xaml#SnippetQuadraticEase)]
+[!code-xaml[QuadraticEase](../windows.ui.xaml.media.animation/code/QuadraticEase/csharp/Page.xaml#SnippetQuadraticEase)]
 
 [!code-csharp[QuadraticEase_code](../windows.ui.xaml.media.animation/code/QuadraticEase/csharp/Page.xaml.cs#SnippetQuadraticEase_code)]
 

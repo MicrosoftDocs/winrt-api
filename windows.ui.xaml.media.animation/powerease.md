@@ -30,7 +30,7 @@ This XAML example applies a PowerEase easing function with a [Power](powerease_p
 
 
 
-[!code-xml[PowerEase](../windows.ui.xaml.media.animation/code/PowerEase/csharp/Page.xaml#SnippetPowerEase)]
+[!code-xaml[PowerEase](../windows.ui.xaml.media.animation/code/PowerEase/csharp/Page.xaml#SnippetPowerEase)]
 
 [!code-csharp[PowerEase_code](../windows.ui.xaml.media.animation/code/PowerEase/csharp/Page.xaml.cs#SnippetPowerEase_code)]
 

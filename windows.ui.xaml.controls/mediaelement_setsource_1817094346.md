@@ -27,7 +27,7 @@ Here is some code that creates [MediaElement](mediaelement.md) object and sets t
 
 
 
-[!code-xml[MediaElementXaml](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml#SnippetMediaElementXaml)]
+[!code-xaml[MediaElementXaml](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml#SnippetMediaElementXaml)]
 
 [!code-csharp[PlaybackLocalFileAll](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml.cs#SnippetPlaybackLocalFileAll)]
 

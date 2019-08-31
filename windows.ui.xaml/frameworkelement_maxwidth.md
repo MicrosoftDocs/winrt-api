@@ -32,7 +32,7 @@ This XAML example shows a technique of specifying a MaxWidth for a [ViewBox](../
 
 
 
-[!code-xml[ViewBoxXAML](../windows.ui.xaml/code/ViewBoxSnippet/csharp/MainPage.xaml#SnippetViewBoxXAML)]
+[!code-xaml[ViewBoxXAML](../windows.ui.xaml/code/ViewBoxSnippet/csharp/MainPage.xaml#SnippetViewBoxXAML)]
 
 ## -see-also
 [Width](frameworkelement_width.md), [MinWidth](frameworkelement_minwidth.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)

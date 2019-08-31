@@ -30,7 +30,7 @@ The following examples demonstrate creating a UserControl and using it multiple 
 
 
 
-[!code-xml[1](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/NameReporter.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/NameReporter.xaml#Snippet1)]
 
 [!code-csharp[2](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/NameReporter.xaml.cs#Snippet2)]
 
@@ -41,7 +41,7 @@ The following examples demonstrate creating a UserControl and using it multiple 
 
 
 
-[!code-xml[3](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/Page.xaml#Snippet3)]
+[!code-xaml[3](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/csharp/Page.xaml#Snippet3)]
 
 ## -see-also
 [Control](control.md)

@@ -34,7 +34,7 @@ This XAML example applies an ElasticEase easing function to a [DoubleAnimation](
 
 
 
-[!code-xml[ElasticEase](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml#SnippetElasticEase)]
+[!code-xaml[ElasticEase](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml#SnippetElasticEase)]
 
 [!code-csharp[ElasticEase_code](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml.cs#SnippetElasticEase_code)]
 

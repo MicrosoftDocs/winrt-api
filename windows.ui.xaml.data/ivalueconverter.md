@@ -18,7 +18,7 @@ The following example shows how to implement the IValueConverter interface and u
 > [!NOTE]
 > If you're using [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) (or C++/CX), then see [Formatting or converting data values for display](/windows/uwp/data-binding/data-binding-quickstart#formatting-or-converting-data-values-for-display) for more code examples of authoring your own value converter. That topic also discusses how you could use the [ConverterParameter](binding_converterparameter.md) attribute with C++ string-formatting functions.
 
-[!code-xml[1](../windows.ui.xaml.controls.primitives/code/DataBindingConverterParameterEx/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.controls.primitives/code/DataBindingConverterParameterEx/csharp/Page.xaml#Snippet1)]
 
 [!code-cpp[2](../windows.ui.xaml.controls.primitives/code/DataBindingConverterParameterEx/cpp/MainPage.xaml.h#Snippet2)]
 

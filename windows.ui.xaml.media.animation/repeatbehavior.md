@@ -71,7 +71,7 @@ This example shows several different ways to set the [RepeatBehavior](timeline_r
 
 
 
-[!code-xml[RepeatBehavior](../windows.ui.xaml.media.animation/code/RepeatBehavior/csharp/MainPage.xaml#SnippetRepeatBehavior)]
+[!code-xaml[RepeatBehavior](../windows.ui.xaml.media.animation/code/RepeatBehavior/csharp/MainPage.xaml#SnippetRepeatBehavior)]
 
 [!code-csharp[RepeatBehavior_code](../windows.ui.xaml.media.animation/code/RepeatBehavior/csharp/MainPage.xaml.cs#SnippetRepeatBehavior_code)]
 

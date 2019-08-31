@@ -35,9 +35,9 @@ This example shows a scenario for calling TransformToVisual in order to interpre
 
 
 
-[!code-xml[UI](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml#SnippetUI)]
+[!code-xaml[UI](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml#SnippetUI)]
 
-[!code-xml[UI](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml#SnippetUI)]
+[!code-xaml[UI](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml#SnippetUI)]
 
 [!code-csharp[QueryPointer](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
 

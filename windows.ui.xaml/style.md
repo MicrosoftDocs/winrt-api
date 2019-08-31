@@ -148,11 +148,11 @@ private void ShowEmailAddressBox()
 
 This example creates two style elements. The TargetType for the first style element is set to TextBox and the TargetType for the second style element is set to Button. These are then applied as the implicit style for a TextBox control and a Button control.
 
-[!code-xml[ImplicitStyle](../windows.ui.xaml/code/ImplicitStyleSnippet/csharp/MainPage.xaml#SnippetImplicitStyle)]
+[!code-xaml[ImplicitStyle](../windows.ui.xaml/code/ImplicitStyleSnippet/csharp/MainPage.xaml#SnippetImplicitStyle)]
 
 This example creates a Style named InheritedStyle that is based on a Style named BaseStyle. InheritedStyle inherits the Background value of Yellow from BaseStyle and adds a Foreground value of Red.
 
-[!code-xml[BasedOn](../windows.ui.xaml/code/BasedOnSnippet/csharp/MainPage.xaml#SnippetBasedOn)]
+[!code-xaml[BasedOn](../windows.ui.xaml/code/BasedOnSnippet/csharp/MainPage.xaml#SnippetBasedOn)]
 
 ## -see-also
 

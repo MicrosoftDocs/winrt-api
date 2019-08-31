@@ -72,7 +72,7 @@ This table shows the resources used by the FlipView control.
 
 In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a FlipView is defined inline.
 
-[!code-xml[FlipViewItemTemplate](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/SplitPage.xaml#SnippetFlipViewItemTemplate)]
+[!code-xaml[FlipViewItemTemplate](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/SplitPage.xaml#SnippetFlipViewItemTemplate)]
 
 ## -see-also
 [Selector](../windows.ui.xaml.controls.primitives/selector.md), [FlipView styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML FlipView sample](https://go.microsoft.com/fwlink/p/?LinkID=311760), [Guidelines for flip view controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/flipview)

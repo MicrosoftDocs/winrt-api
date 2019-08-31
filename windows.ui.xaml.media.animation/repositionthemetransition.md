@@ -43,7 +43,7 @@ The following example applies a RepositionThemeTransition to a button. When you 
 
 
 
-[!code-xml[RepositionThemeTransitionSimple](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransitionSimple)]
+[!code-xaml[RepositionThemeTransitionSimple](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransitionSimple)]
 
 [!code-csharp[RepositionThemeTransitionSimple_code](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml.cs#SnippetRepositionThemeTransitionSimple_code)]
 
@@ -60,7 +60,7 @@ The following example applies a RepositionThemeTransition to a button. When you 
 
 
 
-[!code-xml[RepositionThemeTransition](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransition)]
+[!code-xaml[RepositionThemeTransition](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransition)]
 
 [!code-csharp[RepositionThemeTransition_code](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml.cs#SnippetRepositionThemeTransition_code)]
 

@@ -38,7 +38,7 @@ The following example uses the ObjectAnimationUsingKeyFrames class to animate th
 
 
 
-[!code-xml[Objectanimationusingkeyframes](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/csharp/Page.xaml#SnippetObjectanimationusingkeyframes)]
+[!code-xaml[Objectanimationusingkeyframes](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/csharp/Page.xaml#SnippetObjectanimationusingkeyframes)]
 
 [!code-csharp[Objectanimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/csharp/Page.xaml.cs#SnippetObjectanimationusingkeyframes_cs)]
 

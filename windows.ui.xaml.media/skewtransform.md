@@ -25,11 +25,11 @@ This example uses a SkewTransform to skew text. A *skew*, also known as a *shear
 
 
 
-[!code-xml[SkewTransform_1](../windows.ui.xaml/code/transforms/csharp/Skew_Transform_1.xaml#SnippetSkewTransform_1)]
+[!code-xaml[SkewTransform_1](../windows.ui.xaml/code/transforms/csharp/Skew_Transform_1.xaml#SnippetSkewTransform_1)]
 
 
 
-[!code-xml[SkewTransform](../windows.ui.xaml/code/transforms/csharp/Skew_Transform.xaml#SnippetSkewTransform)]
+[!code-xaml[SkewTransform](../windows.ui.xaml/code/transforms/csharp/Skew_Transform.xaml#SnippetSkewTransform)]
 
 [!code-csharp[SkewTransform_code](../windows.ui.xaml/code/transforms/csharp/Skew_Transform.xaml.cs#SnippetSkewTransform_code)]
 

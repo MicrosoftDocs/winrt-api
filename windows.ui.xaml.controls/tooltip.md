@@ -111,7 +111,7 @@ This table shows the resources used by the ToolTip control.
 
 This example demonstrates basic tooltips and the properties for placement.
 
-[!code-xml[1](../windows.ui.xaml.controls.primitives/code/System.Windows.Controls.ToolTip/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.controls.primitives/code/System.Windows.Controls.ToolTip/csharp/Page.xaml#Snippet1)]
 
 ## -see-also
 [ContentControl](contentcontrol.md), [ToolTipService](tooltipservice.md), [Tooltips overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/tooltips), [ToolTip styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML essential controls sample](https://go.microsoft.com/fwlink/p/?linkid=226951)

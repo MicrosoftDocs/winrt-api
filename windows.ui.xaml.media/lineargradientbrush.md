@@ -42,7 +42,7 @@ This example creates a linear gradient with four colors and uses it to paint a *
 
 
 
-[!code-xml[Gradient3](../windows.ui.xaml.media/code/Gradients/csharp/Page2.xaml#SnippetGradient3)]
+[!code-xaml[Gradient3](../windows.ui.xaml.media/code/Gradients/csharp/Page2.xaml#SnippetGradient3)]
 
 <img alt="Gradient axis for a vertical gradient" src="Images/graphicsmm_verticalgradient.png" />
 

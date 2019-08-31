@@ -30,7 +30,7 @@ This XAML example applies a ExponentialEase easing function to a [DoubleAnimatio
 
 
 
-[!code-xml[ExponentialEase](../windows.ui.xaml.media.animation/code/ExponentialEase/csharp/Page.xaml#SnippetExponentialEase)]
+[!code-xaml[ExponentialEase](../windows.ui.xaml.media.animation/code/ExponentialEase/csharp/Page.xaml#SnippetExponentialEase)]
 
 [!code-csharp[ExponentialEase_code](../windows.ui.xaml.media.animation/code/ExponentialEase/csharp/Page.xaml.cs#SnippetExponentialEase_code)]
 

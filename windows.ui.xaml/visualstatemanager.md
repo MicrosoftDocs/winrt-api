@@ -79,7 +79,7 @@ The particular set of visual states contains one [VisualStateGroup](visualstateg
 
 
 
-[!code-xml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
+[!code-xaml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
 
 ```xaml
 <common:LayoutAwarePage>

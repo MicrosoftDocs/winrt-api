@@ -88,7 +88,7 @@ List controls that derive from [Selector](../windows.ui.xaml.controls.primitives
 
 In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a ListView is defined inline. Because the [ItemsSource](itemscontrol_itemssource.md) is set, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item.
 
-[!code-xml[ListViewItemTemplate](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/MainPage.xaml#SnippetListViewItemTemplate)]
+[!code-xaml[ListViewItemTemplate](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/MainPage.xaml#SnippetListViewItemTemplate)]
 
 ```xaml
 <ListView>

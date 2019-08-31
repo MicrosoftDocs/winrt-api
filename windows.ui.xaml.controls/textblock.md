@@ -235,7 +235,7 @@ The rendered text looks like this:
 
 <img alt="Text block line stacking strategies" src="images/text-block-line-stacking-strategies.png" />
 
-[!code-xml[LineStackingStrategyExampleWholePage](../windows.ui.xaml.controls/code/TextBlock.LineStackingStrategy/csharp/Page.xaml#SnippetLineStackingStrategyExampleWholePage)]
+[!code-xaml[LineStackingStrategyExampleWholePage](../windows.ui.xaml.controls/code/TextBlock.LineStackingStrategy/csharp/Page.xaml#SnippetLineStackingStrategyExampleWholePage)]
 
 ## -see-also
 

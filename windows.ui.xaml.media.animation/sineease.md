@@ -32,7 +32,7 @@ This XAML example applies a SineEase easing function to a [DoubleAnimation](doub
 
 
 
-[!code-xml[SineEase](../windows.ui.xaml.media.animation/code/SineEase/csharp/Page.xaml#SnippetSineEase)]
+[!code-xaml[SineEase](../windows.ui.xaml.media.animation/code/SineEase/csharp/Page.xaml#SnippetSineEase)]
 
 [!code-csharp[SineEase_code](../windows.ui.xaml.media.animation/code/SineEase/csharp/Page.xaml.cs#SnippetSineEase_code)]
 
