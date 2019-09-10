@@ -32,11 +32,11 @@ To use your converter in a binding, first create an instance of your converter c
 
 
 
-[!code-xml[ConverterResource](../windows.ui.xaml.controls.primitives/code/Binding_Collection/csharp/BlankPage.xaml#SnippetConverterResource)]
+[!code-xaml[ConverterResource](../windows.ui.xaml.controls.primitives/code/Binding_Collection/csharp/BlankPage.xaml#SnippetConverterResource)]
 
 
 
-[!code-xml[SetConverter](../windows.ui.xaml.controls.primitives/code/Binding_Collection/csharp/BlankPage.xaml#SnippetSetConverter)]
+[!code-xaml[SetConverter](../windows.ui.xaml.controls.primitives/code/Binding_Collection/csharp/BlankPage.xaml#SnippetSetConverter)]
 
 
 

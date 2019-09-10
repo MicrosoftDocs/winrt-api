@@ -34,7 +34,7 @@ You can open and close the app bar programmatically by setting the IsOpen proper
 ## -examples
 
 
-[!code-xml[IsOpenXAML](../windows.ui.xaml.controls/code/AppBarSample/CS/SnippetsPage.xaml#SnippetIsOpenXAML)]
+[!code-xaml[IsOpenXAML](../windows.ui.xaml.controls/code/AppBarSample/CS/SnippetsPage.xaml#SnippetIsOpenXAML)]
 
 ## -see-also
 [Quickstart: Adding app bars](https://docs.microsoft.com/previous-versions/windows/apps/hh781232(v=win.10))

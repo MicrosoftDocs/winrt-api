@@ -41,7 +41,7 @@ Here, we declare a InkToolbarCustomToggleButton element (`toggleButton`) with a 
 
 
 
-[!code-xml[UI_AddCustomToggle](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomToggle.xaml#SnippetUI_AddCustomToggle)]
+[!code-xaml[UI_AddCustomToggle](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_AddCustomToggle.xaml#SnippetUI_AddCustomToggle)]
 
 In the previous snippet, we declared a [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event listener and handler (`Toggle_Custom`) on the custom toggle button for touch inking (`toggleButton`). This handler simply toggles support for [CoreInputDeviceTypes.Touch](../windows.ui.core/coreinputdevicetypes.md) through the [InputDeviceTypes](../windows.ui.input.inking/inkpresenter_inputdevicetypes.md) property of the [InkPresenter](inkcanvas_inkpresenter.md).
 

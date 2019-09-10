@@ -33,7 +33,7 @@ Here, a [RichTextBlock](richtextblock.md) targets a RichTextBlockOverflow elemen
 
 
 
-[!code-xml[RichTextOverflow](../windows.ui.xaml.controls/code/TextDisplaySnippets/CS/MainPage.xaml#SnippetRichTextOverflow)]
+[!code-xaml[RichTextOverflow](../windows.ui.xaml.controls/code/TextDisplaySnippets/CS/MainPage.xaml#SnippetRichTextOverflow)]
 
 ## -see-also
 [FrameworkElement](../windows.ui.xaml/frameworkelement.md), [OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md), [RichTextBlock](richtextblock.md), [RichTextBock.OverflowContentTarget](richtextblock_overflowcontenttarget.md), [XAML text display sample](https://go.microsoft.com/fwlink/p/?linkid=238579)

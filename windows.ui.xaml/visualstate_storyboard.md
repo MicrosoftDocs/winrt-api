@@ -36,7 +36,7 @@ This example creates a simple [ControlTemplate](../windows.ui.xaml.controls/cont
 
 
 
-[!code-xml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
+[!code-xaml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
 
 ## -see-also
 [Storyboard](../windows.ui.xaml.media.animation/storyboard.md), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10)), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [XAML control and app styling sample](https://go.microsoft.com/fwlink/p/?LinkID=258670)

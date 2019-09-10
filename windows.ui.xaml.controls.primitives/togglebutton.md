@@ -50,7 +50,7 @@ ToggleButton is the parent class for several immediately derived controls that t
 
 The following example shows how to create a three-state ToggleButton control.
 
-[!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ToggleButtonThreeState/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ToggleButtonThreeState/csharp/Page.xaml#Snippet1)]
 
 ## -see-also
 

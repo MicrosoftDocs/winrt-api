@@ -186,7 +186,7 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 
 The following XAML creates a large [TextBlock](textblock.md) inside a ScrollViewer, along with another copy of the [TextBlock](textblock.md) for comparison.
 
-[!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ScrollViewer/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ScrollViewer/csharp/Page.xaml#Snippet1)]
 
 ## -see-also
 [Scroll viewer controls overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/scroll-controls)

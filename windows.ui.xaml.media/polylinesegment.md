@@ -25,7 +25,7 @@ This example creates a [PathGeometry](pathgeometry.md) with two [PathFigure](pat
 
 
 
-[!code-xml[GeometryOvw7](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw7.xaml#SnippetGeometryOvw7)]
+[!code-xaml[GeometryOvw7](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw7.xaml#SnippetGeometryOvw7)]
 
 <img src="Images/PolyLineSegment_curves.gif" alt="Various line shapes created by the example" />
 

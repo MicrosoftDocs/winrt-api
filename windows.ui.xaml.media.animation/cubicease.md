@@ -38,7 +38,7 @@ This XAML example applies a CubicEase easing function to a [DoubleAnimation](dou
 
 
 
-[!code-xml[CubicEase](../windows.ui.xaml.media.animation/code/CubicEase/csharp/Page.xaml#SnippetCubicEase)]
+[!code-xaml[CubicEase](../windows.ui.xaml.media.animation/code/CubicEase/csharp/Page.xaml#SnippetCubicEase)]
 
 
 [!code-csharp[CubicEase_code](../windows.ui.xaml.media.animation/code/CubicEase/csharp/Page.xaml.cs#SnippetCubicEase_code)]

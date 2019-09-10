@@ -25,7 +25,7 @@ This example shows how to create and render a RectangleGeometry object. The posi
 
 
 
-[!code-xml[GeometryOvw3](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw3.xaml#SnippetGeometryOvw3)]
+[!code-xaml[GeometryOvw3](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw3.xaml#SnippetGeometryOvw3)]
 
 ## -see-also
 [Geometry](geometry.md)

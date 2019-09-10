@@ -263,9 +263,9 @@ Windows Phone 8.x app must use [PickSingleFileAndContinue](../windows.storage.pi
 
 This code creates a MediaElement with the [AutoPlay](mediaelement_autoplay.md) property explicitly set to **true** and the [Source](mediaelement_source.md) set to the path of a video file that is included in the app.
 
-[!code-xml[MediaPlayer_SimpleXamlMediaElement](../windows.ui.xaml/code/MediaPlayerQuickStart/csharp/BasicSnippets.xaml#SnippetMediaPlayer_SimpleXamlMediaElement)]
+[!code-xaml[MediaPlayer_SimpleXamlMediaElement](../windows.ui.xaml/code/MediaPlayerQuickStart/csharp/BasicSnippets.xaml#SnippetMediaPlayer_SimpleXamlMediaElement)]
 
-[!code-xml[BasicMediaElementControls](../windows.ui.xaml.controls/code/MediaPlayback2/csharp/MainPage.xaml#SnippetBasicMediaElementControls)]
+[!code-xaml[BasicMediaElementControls](../windows.ui.xaml.controls/code/MediaPlayback2/csharp/MainPage.xaml#SnippetBasicMediaElementControls)]
 
 ```xaml
 <Grid>

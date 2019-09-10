@@ -52,7 +52,7 @@ This XAML example shows how to set the [Foreground](../windows.ui.xaml.controls/
 
 
 
-[!code-xml[imaging_ovw_painting_with_an_image](../windows.ui.xaml.media/code/imaging_ovw_painting_with_an_image/csharp/Page.xaml#Snippetimaging_ovw_painting_with_an_image)]
+[!code-xaml[imaging_ovw_painting_with_an_image](../windows.ui.xaml.media/code/imaging_ovw_painting_with_an_image/csharp/Page.xaml#Snippetimaging_ovw_painting_with_an_image)]
 
 <img src="Images/shrubbery.gif" alt="An ImageBrush applied to text" />
 

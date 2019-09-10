@@ -31,6 +31,6 @@ This example shows how to use a [PolyBezierSegment](polybeziersegment.md) to cre
 
 
 
-[!code-xml[PolyBezierSegment](../windows.ui.xaml/code/geometries_snip/csharp/PolyBezierSegment.xaml#SnippetPolyBezierSegment)]
+[!code-xaml[PolyBezierSegment](../windows.ui.xaml/code/geometries_snip/csharp/PolyBezierSegment.xaml#SnippetPolyBezierSegment)]
 
 ## -see-also

@@ -27,7 +27,7 @@ This example shows the markup for using a TransformGroup to fill the [RenderTran
 
 
 
-[!code-xml[TransformGroup](../windows.ui.xaml/code/transforms/csharp/TransformGroup.xaml#SnippetTransformGroup)]
+[!code-xaml[TransformGroup](../windows.ui.xaml/code/transforms/csharp/TransformGroup.xaml#SnippetTransformGroup)]
 
 ## -see-also
 [Transform](transform.md)

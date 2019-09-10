@@ -33,7 +33,7 @@ Here's a [HyperlinkButton](hyperlinkbutton.md) as declared in XAML. It declares 
 
 
 
-[!code-xml[BasicHyperlinkButtonXAML](../windows.ui.xaml.controls/code/BasicControlSnippets/CS/MainPage.xaml#SnippetBasicHyperlinkButtonXAML)]
+[!code-xaml[BasicHyperlinkButtonXAML](../windows.ui.xaml.controls/code/BasicControlSnippets/CS/MainPage.xaml#SnippetBasicHyperlinkButtonXAML)]
 
 ## -see-also
 [Quickstart: Adding button controls](https://docs.microsoft.com/previous-versions/windows/apps/jj153346(v=win.10))

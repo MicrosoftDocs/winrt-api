@@ -48,11 +48,11 @@ XAML
 
 
 
-[!code-xml[UI](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage.xaml#SnippetUI)]
+[!code-xaml[UI](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage.xaml#SnippetUI)]
 
 
 
-[!code-xml[UI_CB](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_CodeBehind.xaml#SnippetUI_CB)]
+[!code-xaml[UI_CB](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_CodeBehind.xaml#SnippetUI_CB)]
 
 [!code-csharp[InkToolbarMainPageCB](../windows.ui.input.inking/code/Ink_Basic_InkToolbar/csharp/MainPage_CodeBehind.xaml.cs#SnippetInkToolbarMainPageCB)]
 

@@ -29,7 +29,7 @@ Here's a slider with its [TickFrequency](slider_tickfrequency.md) set to 2 and i
 
 
 
-[!code-xml[3](../windows.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/csharp/Page.xaml#Snippet3)]
+[!code-xaml[3](../windows.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/csharp/Page.xaml#Snippet3)]
 
 ## -see-also
 [TickFrequency](slider_tickfrequency.md)

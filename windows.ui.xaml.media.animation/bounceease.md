@@ -30,7 +30,7 @@ The following example applies a BounceEase easing function to a [DoubleAnimation
 
 
 
-[!code-xml[BounceEase](../windows.ui.xaml.media.animation/code/BounceEase/csharp/Page.xaml#SnippetBounceEase)]
+[!code-xaml[BounceEase](../windows.ui.xaml.media.animation/code/BounceEase/csharp/Page.xaml#SnippetBounceEase)]
 
 
 [!code-csharp[BounceEase_code](../windows.ui.xaml.media.animation/code/BounceEase/csharp/Page.xaml.cs#SnippetBounceEase_code)]

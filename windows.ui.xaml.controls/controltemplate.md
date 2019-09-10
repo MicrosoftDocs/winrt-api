@@ -43,7 +43,7 @@ The following example creates a simple ControlTemplate for a [Button](button.md)
 + When the user puts the mouse over the [Button](button.md), the [Grid](grid.md) changes from green to red over one half second.
 + When the user moves the mouse away from the button, the [Grid](grid.md) immediately changes back to green.
 
-[!code-xml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
+[!code-xaml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
 
 You can see the complete template for each XAML control in the _generic.xaml_ file. This file is found in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\<SDK version>\Generic folder. 
 
