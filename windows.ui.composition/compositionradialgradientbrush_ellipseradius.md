@@ -16,7 +16,7 @@ Gets or sets the radii of the ellipse that contains the gradient.
 
 ## -property-value
 
-The radii of the ellipse that contains the gradient. The default is a Vector2 with values (1,1).
+The radii of the ellipse that contains the gradient. The default is a Vector2 with values (0.5, 0.5).
 
 ## -remarks
 
