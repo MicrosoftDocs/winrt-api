@@ -4,7 +4,7 @@
 ---
 
 <!-- Event syntax
-static public event Windows.Foundation.EventHandler CallStateChanged<object>
+public static event Windows.Foundation.EventHandler CallStateChanged<object>
 -->
 
 # Windows.ApplicationModel.Calls.PhoneCallManager.CallStateChanged
