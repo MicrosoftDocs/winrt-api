@@ -454,6 +454,13 @@ WebView always uses Internet Explorer 10 in document mode.
 
 ## -examples
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Web view](/windows/uwp/design/controls-and-patterns/web-view).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the WebView in action](xamlcontrolsgallery:/item/WebView).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
 The following code example demonstrates how to navigate a WebView to a URI contained in a [TextBox](textbox.md) named `Address`.
 
 ```csharp

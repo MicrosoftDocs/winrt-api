@@ -20,6 +20,14 @@ When you call [PrepareToAnimate](connectedanimationservice_preparetoanimate_9105
 See the [Connected animation sample](https://github.com/microsoft/WindowsCompositionSamples/tree/master/SampleGallery/Samples/SDK 14393/ConnectedAnimationSample) for a complete example of ConnectedAnimationService.
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Connected animation](/windows/uwp/design/motion/connected-animation).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see Connected Animation in action](xamlcontrolsgallery:/item/Connected-Animation).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
 This example shows how to animate an image between two pages during a navigation.
 
 SourcePage.xaml/SourcePage.xaml.cs
