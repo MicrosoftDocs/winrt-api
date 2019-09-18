@@ -44,7 +44,6 @@ This is a short list of some of the possible types for transitions:
 + [ReorderThemeTransition](../windows.ui.xaml.media.animation/reorderthemetransition.md)
 + [RepositionThemeTransition](../windows.ui.xaml.media.animation/repositionthemetransition.md)
 
-
 Specific classes that derive from [UIElement](uielement.md) sometimes have their own properties that hold other types of transitions for class-specific scenarios. For example, [Popup.ChildTransitions](../windows.ui.xaml.controls.primitives/popup_childtransitions.md) and [ItemsControl.ItemContainerTransitions](../windows.ui.xaml.controls/itemscontrol_itemcontainertransitions.md).
 
 Transition animations play a particular role in the UI design of your app. The basic idea is that when there is a change or transition, the animation draws the attention of the user to the change.
@@ -55,11 +54,18 @@ It's not common to set the value of the Transitions property directly on a [UIEl
 [VisualTransition](visualtransition.md) is not one of the types you put in the UIElement.Transitions collection. [VisualTransition](visualtransition.md) is specifically for animations in visual state groups, and is used by the [VisualStateGroup.Transitions](visualstategroup_transitions.md) property.
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Motion](/windows/uwp/design/motion/).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to open the app and see [Implicit Transitions](xamlcontrolsgallery:/item/Implicit-Transitions) and [Theme Transitions](xamlcontrolsgallery:/item/Theme-Transitions) in action.
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
 This XAML example shows a single [EntranceThemeTransition](../windows.ui.xaml.media.animation/entrancethemetransition.md) as defined in a [Style](style.md) for a [Button](../windows.ui.xaml.controls/button.md). Transition animation properties are typically set in styles and templates rather than as properties directly in a UI definition. Styles are typically stored as a XAML resource.
-
-
 
 [!code-xaml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
 
 ## -see-also
+
 [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md)

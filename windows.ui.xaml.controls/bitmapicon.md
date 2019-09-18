@@ -43,6 +43,14 @@ You typically specify a [UriSource](bitmapicon_urisource.md) value that referenc
 | 1703 | 15063 | ShowAsMonochrome |
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Command bar](/windows/uwp/controls-and-patterns/app-bars).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the BitmapIcon in action](xamlcontrolsgallery:/item/AppBarButton).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
 This example shows an [AppBarButton](appbarbutton.md) with a BitmapIcon. The [UriSource](bitmapicon_urisource.md) specifies an image that's included in the app package.
 
 ```xaml

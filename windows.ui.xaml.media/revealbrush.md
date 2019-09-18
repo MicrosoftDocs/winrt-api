@@ -26,7 +26,12 @@ In order to support XAML processor access to the attached properties, and also t
 | State | Gets or sets a value that indicates the pointer state of the element that this brush is used on.<ul><li>Type: [RevealBrushState](revealbrushstate.md)</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.revealbrush.stateproperty">StateProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.revealbrush.getstate">GetState</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.revealbrush.setstate">SetState</a></li></ul> |
 
 ## -see-also
-[Reveal highlight overview](https://docs.microsoft.com/windows/uwp/design/style/reveal)
 
 ## -examples
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Reveal Highlight](/en-us/windows/uwp/design/style/reveal).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see Reveal in action](xamlcontrolsgallery:/item/Reveal).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)

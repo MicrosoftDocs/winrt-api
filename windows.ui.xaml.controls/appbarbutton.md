@@ -84,6 +84,13 @@ This table shows the resources used by the AppBarButton control.
 
 ## -examples
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Command bar](/windows/uwp/controls-and-patterns/app-bars).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the AppBarButton in action](xamlcontrolsgallery:/item/AppBarButton).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
 This example shows AppBarButton controls with each type of icon:
 
 <img src="images/AppBarButtons.png" alt="App bar button icon examples." />
@@ -191,14 +198,12 @@ void AppBarButton_Click(object sender, RoutedEventArgs e)
 This example shows how to change the [Icon](appbarbutton_icon.md) and [Label](appbarbutton_label.md) of an AppBarButton that's initially defined in Extensible Application Markup Language (XAML). This code toggles a button between `Play` and `Pause`.
 
 ```xaml
-
 <Page.BottomAppBar>
     <CommandBar>
         <AppBarButton x:Name="PlayPauseButton" Tag="play" Icon="Play" Label="Play" Click="PlayPauseButton_Click"/>
         <AppBarButton Icon="Stop" Label="Stop" Click="StopButton_Click"/>
     </CommandBar>
 </Page.BottomAppBar>
-
 ```
 
 ```csharp
@@ -223,4 +228,4 @@ private void PlayPauseButton_Click(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[AppBar](appbar.md), [CommandBar](commandbar.md), [Guidelines for command and app bars](https://docs.microsoft.com/windows/uwp/controls-and-patterns/app-bars), [Commanding sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620019), [AppBarButton styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML AppBar control sample (Windows 8)](https://go.microsoft.com/fwlink/p/?LinkID=242388)
+[AppBar](appbar.md), [CommandBar](commandbar.md), [Commanding sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620019), [AppBarButton styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML AppBar control sample (Windows 8)](https://go.microsoft.com/fwlink/p/?LinkID=242388)
