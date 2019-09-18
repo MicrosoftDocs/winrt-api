@@ -88,7 +88,7 @@ Frame.Navigate(typeof(MainPage), null, new SuppressNavigationTransitionInfo());
 > [!TIP]
 > For more info, design guidance, and code examples, see [Page transitions](/windows/uwp/design/motion/page-transitions).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see Page Transitions in action](xamlcontrolsgallery:/item/Page-Transitions).
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see Page Transitions in action](xamlcontrolsgallery:/item/PageTransitions).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
