@@ -42,4 +42,3 @@ This example shows how to position some [TextBlock](../windows.ui.xaml.controls/
 
 ## -see-also
 [Grid](../windows.ui.xaml.controls/grid.md)
-Grid](../windows.ui.xaml.controls/grid.md)
