@@ -17,7 +17,7 @@ Writes audio and video content of the current app to the specified destination f
 The file to which the recorded media is written.
 
 ## -returns
-An asynchronous operation that returns an [AppRecordingResult](C:\Users\drewbat\Source\Repos\winrt-api\windows.media.apprecording\apprecordingresult.md) object upon completion, which contains information about the status of the recording operation.
+An asynchronous operation that returns an [AppRecordingResult](https://docs.microsoft.com/uwp/api/windows.media.apprecording.apprecordingresult) object upon completion, which contains information about the status of the recording operation.
 
 Before calling this method, call [GetStatus](apprecordingmanager_recordtimespantofileasync_583577299.md) and check the value of the [CanRecord](apprecordingstatus_canrecord.md) to determine if the current app is currently able to make an app recording.
 
