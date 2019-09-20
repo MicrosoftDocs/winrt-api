@@ -45,4 +45,3 @@ This example shows a scenario for calling TransformToVisual in order to interpre
 
 ## -see-also
 [GeneralTransform](../windows.ui.xaml.media/generaltransform.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868)
- transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868)
