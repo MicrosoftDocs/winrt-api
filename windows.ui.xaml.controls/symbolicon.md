@@ -10,15 +10,17 @@ public class SymbolIcon : Windows.UI.Xaml.Controls.IconElement, Windows.UI.Xaml.
 # Windows.UI.Xaml.Controls.SymbolIcon
 
 ## -description
+
 Represents an icon that uses a glyph from the Segoe MDL2 Assets font as its content.
 
 ## -xaml-syntax
+
 ```xaml
 <SymbolIcon .../>
 ```
 
-
 ## -remarks
+
 The most common way to specify the icon for an app bar button is to use one of the standard glyphs provided by the Segoe MDL2 Assets font, as specified in the [Symbol](symbol.md) enumeration. You can use a SymbolIcon by setting the [Icon](appbarbutton_icon.md) property of an [AppBarButton](appbarbutton.md) directly to a value of the [Symbol](symbol.md) enumeration.
 
 > [!NOTE]
@@ -28,6 +30,14 @@ The most common way to specify the icon for an app bar button is to use one of t
 > On Windows 8, the standard glyphs are provided by the Segoe UI Symbol font.
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Command bar](/windows/uwp/controls-and-patterns/app-bars).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the SymbolIcon in action](xamlcontrolsgallery:/item/AppBarButton).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
 This example shows two ways to use a SymbolIcon an [AppBarButton](appbarbutton.md). The second button icon has its [Foreground](iconelement_foreground.md) set to "Green".
 
 ```xaml
@@ -40,8 +50,6 @@ This example shows two ways to use a SymbolIcon an [AppBarButton](appbarbutton.m
     </AppBarButton.Icon>
 </AppBarButton>
 ```
-
-
 
 ## -see-also
 [IconElement](iconelement.md), [Symbol enumeration](symbol.md), [Quickstart: Adding app bar buttons](https://docs.microsoft.com/previous-versions/windows/apps/jj662743(v=win.10)), [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), [BitmapIcon](bitmapicon.md), [FontIcon](fonticon.md), [PathIcon](pathicon.md), [Controls list](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/), [Controls by function](https://docs.microsoft.com/windows/uwp/controls-and-patterns/controls-by-function)
