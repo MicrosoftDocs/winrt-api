@@ -53,7 +53,7 @@ Only one ContentDialog can be shown at a time. To chain together more than one C
 
 > NOTE: This section applies only to apps that target Windows 10, version 1903 or later. AppWindow and XAML Islands are not available in earlier versions. For more info about versioning, see [Version adaptive apps](/windows/uwp/debug-test-perf/version-adaptive-apps).
 
-By default, content dialogs display modally relative to the root [ApplicationView](../windows.ui.viewmanagement/applicationview.md). When you use ContentDialog inside of either an [AppWindow](../windows.ui.windowmanagement/appwindow.md) or a [XAML Island](/apps/desktop/modernize/xaml-islands), you need to manually set the [XamlRoot](../windows.ui.xaml/uielement_xamlroot.md) on the dialog to the root of the XAML host.
+By default, content dialogs display modally relative to the root [ApplicationView](../windows.ui.viewmanagement/applicationview.md). When you use ContentDialog inside of either an [AppWindow](../windows.ui.windowmanagement/appwindow.md) or a [XAML Island](/windows/apps/desktop/modernize/xaml-islands), you need to manually set the [XamlRoot](../windows.ui.xaml/uielement_xamlroot.md) on the dialog to the root of the XAML host.
 
 To do so, set the ContentDialog's XamlRoot property to the same XamlRoot as an element already in the AppWindow or XAML Island, as shown here.
 
