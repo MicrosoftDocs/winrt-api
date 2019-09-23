@@ -23,7 +23,7 @@ An optional **IInspectable** object for socket transport. This object can be a [
 If the function succeeds, the return value is **S_OK**, otherwise the function will return an error hresult value describing the specific failure. If the plug-in is not connected, the error will be **E_ACCESSDENIED**.
 
 > [!NOTE]
-> Any call to this API outside of a connected VPN plug-in will fail, as activity and interactions between the VPN plug-in and the system are controlled by the VPN profile. The call will fail if the VPN framework does not support the specified type of transport implemented by the *outerTunnelTransport* object. The socket must have not been connected at the time of this call, otherwise the call will fail with an invalid parameter error.
+> Any call to this API outside of a connected VPN plug-in will fail, as activity and interactions between the VPN plug-in and the system are controlled by the VPN profile. The call will fail if the VPN framework does not support the specified type of transport implemented by the *outerTunnelTransport* object. The socket should have been fully connected and authenticated to the remote VPN gateway at the time of this call.
 
 A plugin may choose between the following combinations of sockets: 
 + One TCP socket ([StreamSocket](../windows.networking.sockets/streamsocket.md)/[StreamWebSocket](../windows.networking.sockets/streamwebsocket.md)),
