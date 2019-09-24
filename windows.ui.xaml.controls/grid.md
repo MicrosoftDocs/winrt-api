@@ -31,15 +31,6 @@ Grid is a layout panel that supports arranging child elements in rows and column
 
 <img alt="Grid layout panel" src="images/controls/Grid.png" />
 
-> [!TIP]
-> Starting in Windows 10, Grid defines new border properties that let you draw a border around the Grid without using an additional [Border](border.md) element. The new properties are [Grid.BorderBrush](grid_borderbrush.md), [Grid.BorderThickness](grid_borderthickness.md), [Grid.CornerRadius](grid_cornerradius.md), and [Grid.Padding](grid_padding.md).
-
-```xaml
-<Grid BorderBrush="Red" BorderThickness="2" CornerRadius="10" Padding="12">
-    <TextBlock Text="Hello World!"/>
-</Grid>
-```
-
 You typically define layout behavior for a Grid in XAML by providing one or more [RowDefinition](rowdefinition.md) elements as the value of [Grid.RowDefinitions](grid_rowdefinitions.md), and one or more [ColumnDefinition](columndefinition.md) elements as the value of [Grid.ColumnDefinitions](grid_columndefinitions.md). Then, you apply the [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) attached properties to each of the element children of the Grid, to indicate which row/column combination is used to position that element within the parent Grid.
 
 To set the height of rows and the width of columns, you set [RowDefinition.Height](rowdefinition_height.md) for each [RowDefinition](rowdefinition.md) and [ColumnDefinition.Width](columndefinition_width.md) for each [ColumnDefinition](columndefinition.md). By default, each row or column divides layout space equally. You can change this behavior either by providing absolute pixel values, or a **Star** sizing that divides available space using a weighted factor. For more info on how to use **Star** sizing in a Grid, see [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml) or [GridLength](../windows.ui.xaml/gridlength.md). You also can use an **Auto** sizing that sizes to content.
@@ -70,6 +61,16 @@ An element in the first column that spans multiple rows can affect the height of
     <Ellipse   Grid.Row="0" Grid.Column="0"  Height="50" Fill="Red" Grid.RowSpan="2"/>
     <Rectangle Grid.Row="0" Grid.Column="1" Fill="Green" Height="100"/>
     <Rectangle Grid.Row="1" Grid.Column="1" Fill="Blue" Height="100"/>
+</Grid>
+```
+
+### Border properties
+
+Grid defines border properties that let you draw a border around the Grid without using an additional [Border](border.md) element. The properties are [Grid.BorderBrush](grid_borderbrush.md), [Grid.BorderThickness](grid_borderthickness.md), [Grid.CornerRadius](grid_cornerradius.md), and [Grid.Padding](grid_padding.md).
+
+```xaml
+<Grid BorderBrush="Red" BorderThickness="2" CornerRadius="10" Padding="12">
+    <TextBlock Text="Hello World!"/>
 </Grid>
 ```
 
