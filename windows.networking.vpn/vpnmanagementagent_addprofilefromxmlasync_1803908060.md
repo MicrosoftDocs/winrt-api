@@ -10,9 +10,10 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.Vpn.VpnManagementEr
 # Windows.Networking.Vpn.VpnManagementAgent.AddProfileFromXmlAsync
 
 ## -description
-Creates a new VPN connection based on a [ProfileXML-encoded](https://docs.microsoft.com/en-us/windows/client-management/mdm/vpnv2-profile-xsd) string.
+Creates a new VPN connection based on a ProfileXML-encoded string (see [ProfileXML XSD](/windows/client-management/mdm/vpnv2-profile-xsd)).
 
 ## -parameters
+
 ### -param xml
 A **VpnProfile** object.
 
@@ -25,7 +26,6 @@ This method should only be used with versions of Windows as of the July 27 2019 
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 networkingVpnProvider
