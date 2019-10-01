@@ -21,7 +21,7 @@ A **VpnProfile** object.
 An enum value indicating the error status.
 
 ## -remarks
-This method should only be used with versions of Windows as of the July 27 2019 update to the Windows 10 May 2019 Update. In prior versions of Windows, this method would simply return an error code and not add a profile.
+You should use this method only with a version of Windows with build number 18362.267, or later. The Windows 10 May 2019 Update (version 1903) has build number 18362; then, an update on July 27 2019 revised that build number to 18362.267. In build numbers prior to 18362.267, this method returns an error code, but does not add a profile.
 
 ## -examples
 
