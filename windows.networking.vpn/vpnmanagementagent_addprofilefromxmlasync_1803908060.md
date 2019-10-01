@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.Vpn.VpnManagementEr
 # Windows.Networking.Vpn.VpnManagementAgent.AddProfileFromXmlAsync
 
 ## -description
-Creates a new VPN connection based on a WAP xml string for the VPNv2 CSP.
+Creates a new VPN connection based on a [ProfileXML-encoded](https://docs.microsoft.com/en-us/windows/client-management/mdm/vpnv2-profile-xsd) string.
 
 ## -parameters
 ### -param xml
@@ -20,6 +20,7 @@ A **VpnProfile** object.
 An enum value indicating the error status.
 
 ## -remarks
+This method should only be used with versions of Windows as of the July 27 2019 update to the Windows 10 May 2019 Update. In prior versions of Windows, this method would simply return an error code and not add a profile.
 
 ## -examples
 
