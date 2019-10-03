@@ -10,7 +10,7 @@ public string Language { get; }
 # Windows.Media.Core.AudioTrack.Language
 
 ## -description
-Gets or sets a string indicating the language of the audio track.
+Gets a string indicating the language of the audio track.
 
 ## -property-value
 A string indicating the language of the audio track.
