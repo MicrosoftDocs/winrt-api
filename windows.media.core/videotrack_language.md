@@ -10,7 +10,7 @@ public string Language { get; }
 # Windows.Media.Core.VideoTrack.Language
 
 ## -description
-Gets or sets a string indicating the language of the video track.
+Gets a string indicating the language of the video track.
 
 ## -property-value
 A string indicating the language of the video track.
