@@ -13,12 +13,17 @@ public void EnableTransferOwnership(System.Guid taskId)
 Enables your app's background task to be triggered by the socket broker when traffic for this [StreamSocket](streamsocket.md) arrives while the app is not active.
 
 ## -parameters
+
 ### -param taskId
+
 The [IBackgroundTaskRegistration.TaskId](../windows.applicationmodel.background/ibackgroundtaskregistration_taskid.md) of the background task that will be triggered by the socket broker when traffic arrives for this [StreamSocket](streamsocket.md).
 
 ## -remarks
 
+For info about error conditions, see the **Remarks** section for [EnableTransferOwnership(Guid, SocketActivityConnectedStandbyAction)](streamsocket_enabletransferownership_452874301.md).
+
 ## -examples
 
 ## -see-also
+
 [EnableTransferOwnership(Guid, SocketActivityConnectedStandbyAction)](streamsocket_enabletransferownership_452874301.md)
