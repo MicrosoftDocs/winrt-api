@@ -66,7 +66,6 @@ HRESULT hr = GetDXGIInterface(d3dDevice, nativeDevice.GetAddressOf());
 
 // To create a new Direct3DDevice object wrapping a native DirectX device.
 
-```cppcx
 ComPtr<IDXGIDevice> nativeDevice = ...;
 IDirect3DDevice^ winRTDevice = CreateDirect3DDevice(nativeDevice.Get());
 ```
