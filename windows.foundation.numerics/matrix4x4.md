@@ -12,6 +12,8 @@ public struct Matrix4x4
 ## -description
 Describes a 4*4 floating point matrix.
 
+In C++, **Matrix4x4** is projected as the [float4x4 structure](/windows/win32/numerics_h/float4x4-structure).
+
 ## -struct-fields
 
 ### -field M11
@@ -83,3 +85,4 @@ The row four and column four element of the matrix.
 ## -examples
 
 ## -see-also
+[float4x4 structure](/windows/win32/numerics_h/float4x4-structure)
