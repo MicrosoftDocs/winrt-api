@@ -16,7 +16,7 @@ Gets the path to the Public folder on the machine.
 The full path to the Public folder.
 
 ## -remarks
-The Public folder typically contains additional public folders, e.g., Public Documents, Public Pictures, etc.
+The Public folder typically contains additional public folders, for example, Public Documents, Public Pictures, etc.
 
 ## -see-also
 

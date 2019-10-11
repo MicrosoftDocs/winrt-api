@@ -23,7 +23,7 @@ The transfer is currently in progress.
 The application has paused the transfer operation.
 
 ### -field PausedCostedNetwork:3
-The transfer operation is paused due to cost policy (e.g. transitioned to a costed network).
+The transfer operation is paused due to cost policy (for example, transitioned to a costed network).
 
 ### -field PausedNoNetwork:4
 The transfer operation is paused due to a lack of network connectivity.

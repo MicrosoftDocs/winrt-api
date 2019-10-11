@@ -33,7 +33,7 @@ The stream ended without error.
 
 ### -field FailedToStartStreaming:4
 
-The app was unable to start streaming, e.g., a connection error.
+The app was unable to start streaming, for example, a connection error.
 
 ### -field DisconnectedByUser:3
 
