@@ -12,16 +12,24 @@ public bool LampArrayEffectPlaylist.IndexOf(ILampArrayEffect value, UInt32 index
 
 ## -description
 
+Retrieves the index, within a playlist, of the specified lamp array effect.
+
 ## -parameters
+
 ### -param value
+
+An [ILampArrayEffect](ilamparrayeffect.md) representing the lamp array effect whose index to retrieve.
 
 ### -param index
 
+The index of the effect within the playlist, as an out parameter. If the *value* is found, then the method will update *index* with the zero-based index of the effect within the playlist.
+
 ## -returns
+
+`true` if the effect is found, otherwise `false`.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also

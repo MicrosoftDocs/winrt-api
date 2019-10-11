@@ -12,11 +12,14 @@ public IIterator<ILampArrayEffect> LampArrayEffectPlaylist.First()
 
 ## -description
 
+Retrieves an iterator representing the first item in a lamp array effect playlist.
+
 ## -returns
+
+An iterator (of [ILampArrayEffect](ilamparrayeffect.md)) representing the first item in a lamp array effect playlist.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also

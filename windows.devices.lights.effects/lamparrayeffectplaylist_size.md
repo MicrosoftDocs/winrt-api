@@ -12,7 +12,11 @@ public uint Size { get; }
 
 ## -description
 
+Gets the size of (the number of elements in) the playlist.
+
 ## -property-value
+
+The size of (the number of elements in) the playlist.
 
 ## -remarks
 

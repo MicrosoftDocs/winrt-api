@@ -12,9 +12,10 @@ public interface ILampArrayEffect
 
 ## -description
 
+The base interface for lamp array effects.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
