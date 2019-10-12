@@ -12,7 +12,7 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Store.Listing
 ## -description
 Loads the simulated app listing information asynchronously. 
 
-The returned ListingInformation object contains listing information (e.g. name, price, age rating) specific to the market the user currently resides in. Additionally, listing information for products available via in-app products is also provided.
+The returned ListingInformation object contains listing information (for example, name, price, age rating) specific to the market the user currently resides in. Additionally, listing information for products available via in-app products is also provided.
 
 > [!NOTE]
 > For simulation purposes, this method uses the  element in the WindowsStoreProxy.xml file as the data source for the members of the returned object. For more info, see the code examples in [CurrentAppSimulator](currentappsimulator.md).

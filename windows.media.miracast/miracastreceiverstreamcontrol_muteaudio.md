@@ -20,7 +20,7 @@ True if the Miracast Transmitter should mute the audio stream.
 
 ## -remarks
 
-If the Miracast Receiver app does not want to receive the audio stream, e.g., because audio playback is muted, then it can set the MuteAudio property to true.
+If the Miracast Receiver app does not want to receive the audio stream, for example, because audio playback is muted, then it can set the MuteAudio property to true.
 This will request the Miracast Transmitter to stop transmitting audio data, which can save network bandwidth and extend battery life. 
 Not all Miracast Transmitters suppport this request, so the app should not assume that audio data will cease to be transmitted.
 

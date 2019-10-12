@@ -39,7 +39,7 @@ The following sample code shows a method to set the **Transfer-Encoding** header
         // A collection of HttpTransferCodingHeaderValue
 
         // HttpTransferCodingHeaderValue has three items:
-        // Value (string); e.g. "compress"
+        // Value (string); for example, "compress"
         // Parameter (IList<HttpNameValueHeaderValue>)
         //
 

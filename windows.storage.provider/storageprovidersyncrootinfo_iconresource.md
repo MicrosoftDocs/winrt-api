@@ -13,7 +13,7 @@ public string IconResource { get;  set; }
 A path to an icon resource for the custom state of a file or folder.
 
 ## -property-value
-The path to the icon resource, e.g. "SyncProvider.dll,-100", or "SyncProvider.dll,-101"
+The path to the icon resource, for example, "SyncProvider.dll,-100", or "SyncProvider.dll,-101"
 
 ## -remarks
 

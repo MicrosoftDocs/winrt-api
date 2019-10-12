@@ -23,7 +23,7 @@ After app termination, an app should enumerate all existing [UploadOperation](up
 > [!NOTE]
 > When an app is uninstalled any current or persisted Background Transfer operations associated with it are cleaned up.
 
-When implementing a library for Background Transfer operations, and this same library is used by other apps or components, specify a unique*group* name string (e.g. a GUID) when creating uploads. An upload with a group name string can only be enumerated by providing the matching string to [GetCurrentDownloadsAsync(String)](backgrounddownloader_getcurrentdownloadsasync_405117897.md), and will not appear in [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync_1101292265.md) calls without. This will ensure that other apps implementing that same library for uploads will not see your uploads
+When implementing a library for Background Transfer operations, and this same library is used by other apps or components, specify a unique*group* name string (for example, a GUID) when creating uploads. An upload with a group name string can only be enumerated by providing the matching string to [GetCurrentDownloadsAsync(String)](backgrounddownloader_getcurrentdownloadsasync_405117897.md), and will not appear in [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync_1101292265.md) calls without. This will ensure that other apps implementing that same library for uploads will not see your uploads
 
 Upload operations via FTP are not supported.
 

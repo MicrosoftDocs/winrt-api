@@ -35,7 +35,7 @@ When an active (still connected) StreamSocket object goes out of scope, an abort
 
 Whenever a read or write operation is cancelled, the I/O operation completes with Error state and the associated StreamSocket object immediately tears down the connection, which leads to an ungraceful disconnect (RST) if any unread or unsent data remains on the socket.
 
-Ungraceful disconnects (RST) will always occur if: An abnormal termination occurs (e.g., the app crashes); or an abnormal connection failure is detected by the networking stack (e.g., TCP retransmit timeout).
+Ungraceful disconnects (RST) will always occur if: An abnormal termination occurs (for example, the app crashes); or an abnormal connection failure is detected by the networking stack (for example, TCP retransmit timeout).
 
 The StreamSocket object is also used in conjunction with the [StreamSocketListener](streamsocketlistener.md) object to listen for incoming connections over TCP or Bluetooth RFCOMM in server apps or peer-to-peer apps. A StreamSocket object is returned by the [Socket](streamsocketlistenerconnectionreceivedeventargs_socket.md) property on the [ConnectionReceived](streamsocketlistener_connectionreceived.md) event when a [StreamSocketListener](streamsocketlistener.md) object receives a TCP or Bluetooth RFCOMM connection request. For more information, see [StreamSocketListener](streamsocketlistener.md).
 
