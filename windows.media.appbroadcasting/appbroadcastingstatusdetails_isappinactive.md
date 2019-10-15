@@ -16,7 +16,7 @@ Gets a value specifying if the current app's window is inactive.
 True is the current app's window is inactive; otherwise, false.
 
 ## -remarks
-An app can only begin broadcasting when it's window is the currently active window.
+An app can only begin broadcasting when its window is the currently active window.
 
 ## -see-also
 

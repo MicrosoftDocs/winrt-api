@@ -25,6 +25,8 @@ The operation failed because the media frame source device is unavailable.
 ### -field OutputFormatNotSupported:3
 The operation failed because the requested output format is not supported by the media frame source.
 
+### -field ExclusiveControlNotAvailable:4
+The operation failed because exclusive control of the media frame source device is unavailable.
 
 ## -remarks
 
@@ -38,5 +40,5 @@ The operation failed because the requested output format is not supported by the
 
 ## -see-also
 
-### -field ExclusiveControlNotAvailable:4
+
 

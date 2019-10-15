@@ -20,7 +20,7 @@ The overriding zIndex.
 ## -remarks
 Effects added after OverrideZIndex is called will still be overridden.
 
-After the playlist has started, all zIndexes are locked and is not possible to override further.
+After the playlist has started, all zIndexes are locked and it's not possible to override further.
 
 ## -see-also
 

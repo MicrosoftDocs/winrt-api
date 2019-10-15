@@ -12,14 +12,20 @@ public ILampArrayEffect LampArrayEffectPlaylist.GetAt(UInt32 index)
 
 ## -description
 
+Retrieves the lamp array effect at the specified index within a playlist.
+
 ## -parameters
+
 ### -param index
+
+The zero-based index of the lamp array effect to retrieve.
 
 ## -returns
 
-## -remarks
+An [ILampArrayEffect](ilamparrayeffect.md) representing the lamp array effect at the specified index within the playlist.
 
-## -see-also
+## -remarks
 
 ## -examples
 
+## -see-also

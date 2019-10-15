@@ -12,6 +12,8 @@ public struct Quaternion
 ## -description
 Describes a quaternion, which is an abstract representation of an orientation in space that is based on complex numbers.
 
+In C++, **Quaternion** is projected as the [quaternion structure](/windows/win32/numerics_h/quaternion-structure).
+
 ## -struct-fields
 
 ### -field X
@@ -41,3 +43,5 @@ For more information about quaternions, see [Quaternion]( https://go.microsoft.c
 
 ## -see-also
 [SpatialLocation.Orientation](../windows.perception.spatial/spatiallocation_orientation.md)
+
+[quaternion structure](/windows/win32/numerics_h/quaternion-structure)

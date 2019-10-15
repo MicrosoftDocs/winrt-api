@@ -12,11 +12,14 @@ public int ZIndex { get;  set; }
 
 ## -description
 
+Gets and sets the front-to-back z-index of a lamp array effect within a collection.
+
 ## -property-value
+
+The front-to-back z-index of a lamp array effect within a collection.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

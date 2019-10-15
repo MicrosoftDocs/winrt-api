@@ -14,7 +14,7 @@ Used with the [NetworkUsageStates](networkusagestates.md) structure to define th
 
 ## -enum-fields
 ### -field DoNotCare:0
-Used when the corresponding state should not be used as a filter, e.g., both yes and no.
+Used when the corresponding state should not be used as a filter, for example, both yes and no.
 
 ### -field No:1
 The corresponding state is not set.

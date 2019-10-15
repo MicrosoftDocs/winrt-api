@@ -11,14 +11,18 @@ public void LampArrayEffectPlaylist.PauseAll(IIterable<LampArrayEffectPlaylist> 
 # Windows.Devices.Lights.Effects.LampArrayEffectPlaylist.PauseAll
 
 ## -description
+
 Guarantees that all playlists will pause at the same time.
 
 ## -parameters
+
 ### -param value
+
 Playlists to pause simultaneously.
 
 ## -remarks
-This removes the small lag time that occurs if called on each [LampArrayEffectPlaylist](lamparrayeffectplaylist.md) from within a for-loop.
+
+This removes the small time lag that occurs if called on each [LampArrayEffectPlaylist](lamparrayeffectplaylist.md) from within a for-loop.
 
 ## -see-also
 
