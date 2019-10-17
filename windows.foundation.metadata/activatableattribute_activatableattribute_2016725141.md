@@ -10,18 +10,23 @@ public ActivatableAttribute(System.UInt32 version, System.String type)
 # Windows.Foundation.Metadata.ActivatableAttribute.ActivatableAttribute
 
 ## -description
-Creates and initializes a new instance of the attribute.
+Indicates that the runtime class can be activated with no parameters, starting in a particular version of a particular API contract.
 
 ## -parameters
 ### -param version
-The version of the class.
+The version of the API contract that can activate the runtime class with no parameters. The major version is in the high-order 16-bits and the minor version is in the low-order 16 bits.
 
 ### -param type
-A string representing the type of the factory interface.
+The name of the API contract that can activate the runtime class with no parameters.
+(This parameter should have been named `contractName`.)
 
 ## -remarks
+Activation with no parameters is performed by [the RoActivateInstance function](https://docs.microsoft.com/en-us/windows/desktop/api/roapi/nf-roapi-roactivateinstance).
 
 ## -examples
 
 ## -see-also
-[ActivatableAttribute(UInt32)](activatableattribute_activatableattribute_885572907.md), [ActivatableAttribute(UInt32, Platform)](activatableattribute_activatableattribute_1177778147.md), [ActivatableAttribute(Type, UInt32)](activatableattribute_activatableattribute_810136521.md), [ActivatableAttribute(Type, UInt32, String)](activatableattribute_activatableattribute_1447974729.md), [ActivatableAttribute(Type, UInt32, Platform)](activatableattribute_activatableattribute_708913573.md)
+[ActivatableAttribute(Type, UInt32)](activatableattribute_activatableattribute_810136521.md),
+[ActivatableAttribute(Type, UInt32, String)](activatableattribute_activatableattribute_1447974729.md),
+[ActivatableAttribute(UInt32)](activatableattribute_activatableattribute_885572907.md),
+[ActivatableAttribute(UInt32, String)](activatableattribute_activatableattribute_2016725141.md)
