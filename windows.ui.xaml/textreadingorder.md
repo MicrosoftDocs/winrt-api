@@ -20,7 +20,7 @@ Provides a value for **TextReadingOrder** properties.
 
 ## -enum-fields
 ### -field Default:0
-Do not detect flow direction from content. Use [FlowDirection](flowdirection.md) value (if any) for reading order decisions. (Windows 8.1)
+Do not detect flow direction from content. Use [FlowDirection](flowdirection.md) value (if any) for reading order decisions. (This value is only used by Windows 8.1 apps. This is not the default value for Windows 10 apps, and it shouldn't be used in Windows 10 apps)
 
 ### -field UseFlowDirection:0
 Do not detect flow direction from content. Use [FlowDirection](flowdirection.md) value (if any) for reading order decisions. (Starting with Windows 10)
