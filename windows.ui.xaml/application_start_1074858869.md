@@ -19,6 +19,8 @@ The callback that should be invoked during the initialization sequence.
 ## -remarks
 Typically, you will not need to call this method directly. If you use Visual Studio to develop your apps, the build system will generate code that includes the necessary call for you.
 
+The callback runs in the same thread as the main view.
+
 ## -examples
 
 ## -see-also
