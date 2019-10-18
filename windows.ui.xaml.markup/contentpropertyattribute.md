@@ -26,7 +26,8 @@ This code approximates how [Panel](../windows.ui.xaml.controls/panel.md) applies
 
 
 
-Using [Panel](../windows.ui.xaml.controls/panel.md) and its derived class [StackPanel](../windows.ui.xaml.controls/stackpanel.md) as the illustration of the XAML content property concept, you may have the following XAML: ```xaml
+Using [Panel](../windows.ui.xaml.controls/panel.md) and its derived class [StackPanel](../windows.ui.xaml.controls/stackpanel.md) as the illustration of the XAML content property concept, you may have the following XAML:
+```xaml
 <StackPanel>
   <StackPanel.Children>
     <TextBlock>Testing content attribute</TextBlock>
