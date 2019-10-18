@@ -25,7 +25,7 @@ Represents an icon that uses a bitmap as its content.
 
 To use a BitmapIcon as the [Icon](appbarbutton_icon.md) for an [AppBarButton](appbarbutton.md), you specify the URI of an image file.
 
-The file that you use should be a solid image on a transparent background. The bitmap image as retrieved from the [UriSource](bitmapicon_urisource.md) location is expected to be a true bitmap that has transparent pixels and non-transparent pixels. The recommended format is PNG. Other file-format image sources will load apparently without error but result in a solid block of the foreground color inside the [AppBarButton](appbarbutton.md).
+The file that you use should be a solid image on a transparent background. The bitmap image as retrieved from the [UriSource](bitmapicon_urisource.md) location is expected to be a true bitmap that has transparent pixels and non-transparent pixels. The recommended format is PNG. Other file-format image sources will load apparently without error but result in a solid block of the foreground color inside the [AppBarButton](appbarbutton.md). This behavior can be ignored by setting the [ShowAsMonochrome](bitmapicon_showasmonochrome.md) property to false.
 
 All color info is stripped from the bitmap when the BitmapIcon is rendered. The remaining non-transparent colors are combined to produce an image that's entirely the foreground color as set by the [Foreground](iconelement_foreground.md) property (this typically comes from styles or templates, such as the default template resolving to a theme resource).
 
