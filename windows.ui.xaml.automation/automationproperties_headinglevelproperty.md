@@ -42,7 +42,7 @@ public sealed partial class MainPage : Page
     {
         this.InitializeComponent();
 
-        AutomationProperties.SetHeadingLevel(AutomationHeadingLevel.HeadingLevel3);
+        AutomationProperties.SetHeadingLevel(this, AutomationHeadingLevel.HeadingLevel3);
     }
 }
 

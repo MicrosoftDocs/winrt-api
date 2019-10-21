@@ -14,7 +14,7 @@ Retrieves information about a specified family of packages installed for a speci
 
 ## -parameters
 ### -param userSecurityId
-The user security identifier (SID). If this parameter is **null**, the packages are retrieved for the current user.
+The user security identifier (SID). If this parameter is String.Empty, the packages are retrieved for the current user.
 
 ### -param packageFamilyName
 The family name of packages to find. This parameter cannot be **null**.
