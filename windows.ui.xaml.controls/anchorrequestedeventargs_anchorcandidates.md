@@ -12,7 +12,7 @@ public IVector<UIElement> AnchorCandidates { get; }
 
 ## -description
 
-Gets the set of anchor candidates that are currently registered with the scrolling control (e.g. ScrollViewer).
+Gets the set of anchor candidates that are currently registered with the scrolling control (for example, ScrollViewer).
 
 ## -property-value
 

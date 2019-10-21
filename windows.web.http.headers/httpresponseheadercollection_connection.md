@@ -18,7 +18,7 @@ The collection of [HttpConnectionOptionHeaderValue](httpconnectionoptionheaderva
 ## -remarks
 
 
-The following sample code shows a method to get and set the **Connection** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the [Connection](httpresponseheadercollection_connection.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
+The following sample code shows a method to get and set the **Connection** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the Connection property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
 
 ```csharp
 // Connection:keep-alive

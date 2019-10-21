@@ -9,7 +9,7 @@
 
 This namespace gives your UWP app access to devices that support the Human Interface Device (HID) protocol.
 
-For an introduction to the HID API, see [Supporting human interface devices (HID)](http://msdn.microsoft.com/library/469bc2b7-ac21-40ed-a515-bace31e22634).
+For an introduction to the HID API, see [Supporting human interface devices (HID)](https://docs.microsoft.com/previous-versions/windows/apps/dn263140(v=win.10)).
 
 This namespace supports most HID devices. However, it blocks the top-level application collection represented by the following usage pages:
 
@@ -31,4 +31,4 @@ This namespace supports most HID devices. However, it blocks the top-level appli
 
 ## -see-also
 
-[How to specify device capabilities for HID](http://msdn.microsoft.com/library/4c5c4ab6-e1d1-4631-ab8e-f0c33af8b464), [Supporting human interface devices (HID)](http://msdn.microsoft.com/library/469bc2b7-ac21-40ed-a515-bace31e22634), [Sample Windows Runtime app for HID](http://go.microsoft.com/fwlink/p/?LinkID=391699), [Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess), [Apps for HID devices video]( http://go.microsoft.com/fwlink/p/?LinkID=317592)
+[How to specify device capabilities for HID](https://docs.microsoft.com/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-hid), [Supporting human interface devices (HID)](https://docs.microsoft.com/previous-versions/windows/apps/dn263140(v=win.10)), [Sample Windows Runtime app for HID](https://go.microsoft.com/fwlink/p/?LinkID=391699), [Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess), [Apps for HID devices video]( http://go.microsoft.com/fwlink/p/?LinkID=317592)

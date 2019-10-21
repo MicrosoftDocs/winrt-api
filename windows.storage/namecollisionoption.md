@@ -24,7 +24,7 @@ Replace the existing item if the file or folder already exists.
 ### -field FailIfExists:2
 Raise an exception of type **System.Exception** if the file or folder already exists.
 
-Methods that don't explicitly pass a value from the [NameCollisionOption](namecollisionoption.md) enumeration use the **FailIfExists** value as the default when you try to create, rename, copy, or move a file or folder.
+Methods that don't explicitly pass a value from the NameCollisionOption enumeration use the **FailIfExists** value as the default when you try to create, rename, copy, or move a file or folder.
 
 
 ## -remarks

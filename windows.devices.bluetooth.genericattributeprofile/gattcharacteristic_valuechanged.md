@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler ValueChanged<Windows.Devices.B
 An App can register an event handler in order to receive events when notification or indications are received from a device, after setting the Client Characteristic Configuration Descriptor.
 
 ## -remarks
-The [GattValueChangedEventArgs](gattvaluechangedeventargs.md) object represents the arguments received by a [ValueChanged](gattcharacteristic_valuechanged.md) event handler used to process characteristic value change notification and indication events sent by a Bluetooth LE device.
+The [GattValueChangedEventArgs](gattvaluechangedeventargs.md) object represents the arguments received by a ValueChanged event handler used to process characteristic value change notification and indication events sent by a Bluetooth LE device.
 
 ## -examples
 

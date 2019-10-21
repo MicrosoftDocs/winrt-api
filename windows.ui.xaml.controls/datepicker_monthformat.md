@@ -25,7 +25,7 @@ Gets or sets the display format for the month value.
 The display format for the month value.
 
 ## -remarks
-Change the format of the month picker by setting the [MonthFormat](datepicker_monthformat.md) property.
+Change the format of the month picker by setting the MonthFormat property.
 
 The string content of each [ComboBox](combobox.md) in the [DatePicker](datepicker.md) is created by a [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md). You instruct the [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) how to format the month value by providing a string that is either a *format template* or a *format pattern*. Common templates and patterns for month values are listed in the following table.
 
@@ -64,4 +64,4 @@ Here's a [DatePicker](datepicker.md) that combines 2 format patterns to display 
 
 
 ## -see-also
-[DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md), [DayFormat](datepicker_dayformat.md), [YearFormat](datepicker_yearformat.md), [MonthVisible](datepicker_monthvisible.md), [Quickstart: Adding a DatePicker](http://msdn.microsoft.com/library/feae870d-e423-457b-9d0a-3929247952a9), [How to use patterns to format dates and times](http://msdn.microsoft.com/library/4d281463-2acc-43ab-bffb-7d901e05cf25)
+[DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md), [DayFormat](datepicker_dayformat.md), [YearFormat](datepicker_yearformat.md), [MonthVisible](datepicker_monthvisible.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10)), [How to use patterns to format dates and times](https://docs.microsoft.com/previous-versions/windows/apps/jj673581(v=win.10))

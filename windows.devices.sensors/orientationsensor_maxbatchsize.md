@@ -16,7 +16,7 @@ Gets the maximum number of events that can be batched by the sensor.
 The maximum number of batched events.
 
 ## -remarks
-A sensor may not support batched data collection. In that case, this property will be 0. Otherwise, this determines the maximum number of events the sensor can gather before submitting them. This in turn will determine the maximum supported [ReportLatency](OrientationSensor_reportlatency.md). The maximum latency equals the [ReportInterval](OrientationSensor_reportinterval.md) times the [MaxBatchSize](OrientationSensor_maxbatchsize.md). For more information about sensor batching, see [Sensors](http://msdn.microsoft.com/library/415f4107-0612-4235-9722-0f5e4e26f957).
+A sensor may not support batched data collection. In that case, this property will be 0. Otherwise, this determines the maximum number of events the sensor can gather before submitting them. This in turn will determine the maximum supported [ReportLatency](OrientationSensor_reportlatency.md). The maximum latency equals the [ReportInterval](OrientationSensor_reportinterval.md) times the [MaxBatchSize](OrientationSensor_maxbatchsize.md). For more information about sensor batching, see [Sensors](https://docs.microsoft.com/windows/uwp/devices-sensors/sensors).
 
 ## -examples
 

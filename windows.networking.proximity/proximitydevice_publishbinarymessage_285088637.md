@@ -26,7 +26,7 @@ A unique publication ID for the published message.
 ## -remarks
 You can publish multiple messages of the same message type, and each publication will have a unique ID associated with it.
 
-You can stop publishing a message by passing the publication ID (retrieved by [PublishBinaryMessage](proximitydevice_publishbinarymessage_285088637.md)) to [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md).
+You can stop publishing a message by passing the publication ID (retrieved by PublishBinaryMessage) to [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md).
 
 Messages continue to be published until [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md) is called, or the [ProximityDevice](proximitydevice.md) is released.
 
@@ -59,7 +59,7 @@ The message data contains a UTF-16LE encoded string that is a Uniform Resource I
 
 Windows handles messages with a protocol of "WindowsUri" by prompting the user to view the received URI in the app that is configured as the default for that specific URI protocol. For example, **http://** URIs open in the default web browser. Windows opens a URI in the default app even if another app is also subscribed to "WindowsUri".
 
-Instead of calling the [PublishBinaryMessage](proximitydevice_publishbinarymessage_285088637.md) method with this protocol, use the [PublishUriMessage](proximitydevice_publishurimessage_632953271.md) method.
+Instead of calling the PublishBinaryMessage method with this protocol, use the [PublishUriMessage](proximitydevice_publishurimessage_632953271.md) method.
 
 If you publish a URI to a computer that is not running Windows, the URI is automatically formatted based on the proximity technology that your computer supports. For example, if your computer uses NFC hardware for proximity, then the URI is formatted as an NDEF URI record.
 
@@ -155,7 +155,7 @@ The message data is an untyped NDEF message (TNF field value of 0x05).This proto
 [!code-vb[LaunchAppWriteTag2](../windows.networking.proximity/code/Proximity_PublishBinaryMessage/vbnet/MainPage.xaml.vb#SnippetLaunchAppWriteTag2)]
 
 ## -see-also
-[PublishBinaryMessage(String, IBuffer, MessageTransmittedHandler)](proximitydevice_publishbinarymessage_374148007.md), [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+[PublishBinaryMessage(String, IBuffer, MessageTransmittedHandler)](proximitydevice_publishbinarymessage_374148007.md), [Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
 
 ## -capabilities
 proximity

@@ -22,4 +22,4 @@ The recognizer finalizes each operation when the specified time span elapses.
 ## -examples
 
 ## -see-also
-[Windows.Media.SpeechRecognition](windows_media_speechrecognition.md), [Set speech recognition timeouts](http://msdn.microsoft.com/library/58f446ac-4a56-454d-8125-62a2c4dbfcc8), [Speech interactions](http://msdn.microsoft.com/library/646db3ce-fa81-4727-8c21-936c81079439), [Speech design guidelines](http://msdn.microsoft.com/library/4a63a8c4-4182-4e36-ba12-4c343a56fca9), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Windows.Media.SpeechRecognition](windows_media_speechrecognition.md), [Set speech recognition timeouts](https://docs.microsoft.com/windows/uwp/input-and-devices/set-speech-recognition-timeouts), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)

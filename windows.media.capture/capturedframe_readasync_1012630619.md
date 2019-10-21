@@ -17,7 +17,7 @@ Returns an asynchronous byte reader object.
 The buffer into which the asynchronous read operation places the bytes that are read.
 
 ### -param count
-The number of bytes to read that is less than or equal to the [Capacity](http://msdn.microsoft.com/library/79f2f46c-3cf5-4926-8e62-6b578550f9a8) value.
+The number of bytes to read that is less than or equal to the [Capacity](https://docs.microsoft.com/previous-versions/hh438363(v=vs.85)) value.
 
 ### -param options
 Specifies the type of the asynchronous read operation.

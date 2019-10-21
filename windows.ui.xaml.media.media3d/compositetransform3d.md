@@ -15,7 +15,7 @@ Represents 3-D scale, rotation, and translate transforms to be applied to an ele
 
 ## -remarks
 
-For examples and more info about using [CompositeTransform3D class](compositetransform3d.md), see the [UIElement.Transform3D](../windows.ui.xaml/uielement_transform3d.md) property.
+For examples and more info about using [CompositeTransform3D class, see the [UIElement.Transform3D](../windows.ui.xaml/uielement_transform3d.md) property.
 
 The available transforms are applied in the following order:
 
@@ -25,10 +25,10 @@ The available transforms are applied in the following order:
 
 All transformations occur around the same center point defined by [CenterX](compositetransform3d_centerx.md), [CenterY](compositetransform3d_centery.md), and [CenterZ](compositetransform3d_centerz.md).
 
-You can animate each property of a [CompositeTransform3D](compositetransform3d.md) independently.
+You can animate each property of a CompositeTransform3D independently.
 
 ## -examples
 
 ## -see-also
 
-[Transform3D](transform3d.md), [PerspectiveTransform3D class](perspectivetransform3d.md), [UIElement.Transform3D property](../windows.ui.xaml/uielement_transform3d.md), [Transform3D parallax sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620638), [Transform3D animations sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620637)
+[Transform3D](transform3d.md), [PerspectiveTransform3D class](perspectivetransform3d.md), [UIElement.Transform3D property](../windows.ui.xaml/uielement_transform3d.md), [Transform3D parallax sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620638), [Transform3D animations sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620637)

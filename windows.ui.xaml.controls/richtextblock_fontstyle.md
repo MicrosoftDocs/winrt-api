@@ -25,7 +25,7 @@ Gets or sets the font style for the content in this element.
 The requested font style, which is a [FontStyle](../windows.ui.text/fontstyle.md) enumeration named constant. The default is Normal.
 
 ## -remarks
-Set the [FontStyle](richtextblock_fontstyle.md) property to specify the default font stretch to use for all text in the [RichTextBlock](richtextblock.md). You can override this value for specific text elements in the [RichTextBlock](richtextblock.md) by setting the [TextElement.FontStyle](../windows.ui.xaml.documents/textelement_fontstyle.md) property.
+Set the FontStyle property to specify the default font stretch to use for all text in the [RichTextBlock](richtextblock.md). You can override this value for specific text elements in the [RichTextBlock](richtextblock.md) by setting the [TextElement.FontStyle](../windows.ui.xaml.documents/textelement_fontstyle.md) property.
 
 ## -examples
 

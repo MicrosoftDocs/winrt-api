@@ -17,9 +17,9 @@ The classes included in this namespace enable you to:
 + Receive MIDI messages.
 + Destroy the MIDI port object, which also closes the stream to the port.
 
-For more info on the MIDI specification see [MIDI Manufacturers Association](http://www.midi.org/).
+For more info on the MIDI specification see [MIDI Manufacturers Association](https://www.midi.org/).
 
-See the [MIDI  sample](http://go.microsoft.com/fwlink/p/?LinkID=394281) for an example of how to use these classes.
+See the [MIDI  sample](https://go.microsoft.com/fwlink/p/?LinkID=394281) for an example of how to use these classes.
 
 ## -remarks
 
@@ -27,4 +27,4 @@ See the [MIDI  sample](http://go.microsoft.com/fwlink/p/?LinkID=394281) for an e
 
 ## -see-also
 
-[MIDI sample](http://go.microsoft.com/fwlink/p/?LinkID=394281)
+[MIDI sample](https://go.microsoft.com/fwlink/p/?LinkID=394281)

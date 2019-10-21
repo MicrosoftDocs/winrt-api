@@ -10,7 +10,7 @@ public class RichTextBlock : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.C
 # Windows.UI.Xaml.Controls.RichTextBlock
 
 ## -description
-Represents a rich text display container that supports formatted text, hyperlinks, inline images, and other rich content. [RichTextBlock](richtextblock.md) supports a built-in overflow model.
+Represents a rich text display container that supports formatted text, hyperlinks, inline images, and other rich content. RichTextBlock supports a built-in overflow model.
 
 ## -xaml-syntax
 ```xaml
@@ -27,29 +27,41 @@ Represents a rich text display container that supports formatted text, hyperlink
 > [!TIP]
 > For more info, design guidance, and code examples, see [Rich text block](/windows/uwp/design/controls-and-patterns/rich-text-block).
 
-The [RichTextBlock](richtextblock.md) control displays read-only text, and provides several features for advanced text layout. Use a [RichTextBlock](richtextblock.md) when you need support for paragraphs, inline UI elements, or overflow text.
+The RichTextBlock control displays read-only text, and provides several features for advanced text layout. Use a RichTextBlock when you need support for paragraphs, inline UI elements, or overflow text.
 
-[TextBlock](textblock.md) provides a simpler content model, so it’s typically easier to use, and it can provide better text rendering performance than [RichTextBlock](richtextblock.md). It also provides many of the same formatting options for customizing how your text is rendered. However, [RichTextBlock](richtextblock.md) provides several unique features that [TextBlock](textblock.md) doesn’t provide.
+[TextBlock](textblock.md) provides a simpler content model, so it’s typically easier to use, and it can provide better text rendering performance than RichTextBlock. It also provides many of the same formatting options for customizing how your text is rendered. However, RichTextBlock provides several unique features that [TextBlock](textblock.md) doesn’t provide.
 
-For more info and examples, see the [RichTextBlock control guide](http://msdn.microsoft.com/library/e4be4b1b-418e-4075-88f1-22c09ddf8e45).
+For more info and examples, see the [RichTextBlock control guide](https://docs.microsoft.com/windows/uwp/controls-and-patterns/rich-text-block).
 
 ### Paragraphs and formatting
 
-The content property of [RichTextBlock](richtextblock.md) is the [Blocks](richtextblock_blocks.md) property, which is based on the [Paragraph](../windows.ui.xaml.documents/paragraph.md) element. Set the indentation for paragraphs by setting the [TextIndent](richtextblock_textindent.md) property.
+The content property of RichTextBlock is the [Blocks](richtextblock_blocks.md) property, which is based on the [Paragraph](../windows.ui.xaml.documents/paragraph.md) element. Set the indentation for paragraphs by setting the [TextIndent](richtextblock_textindent.md) property.
 
-You can use text elements and the attached properties of the [Typography](../windows.ui.xaml.documents/typography.md) class to apply character and paragraph formatting to the text in the [RichTextBlock](richtextblock.md). For example, you can apply [Bold](../windows.ui.xaml.documents/bold.md), [Italic](../windows.ui.xaml.documents/italic.md), and [Underline](../windows.ui.xaml.documents/underline.md) to any portion of the text in the control.
+You can use text elements and the attached properties of the [Typography](../windows.ui.xaml.documents/typography.md) class to apply character and paragraph formatting to the text in the RichTextBlock. For example, you can apply [Bold](../windows.ui.xaml.documents/bold.md), [Italic](../windows.ui.xaml.documents/italic.md), and [Underline](../windows.ui.xaml.documents/underline.md) to any portion of the text in the control.
 
 ### Inline UI elements
 
-You can use an [InlineUIContainer](../windows.ui.xaml.documents/inlineuicontainer.md) in the content of a [RichTextBlock](richtextblock.md) to embed elements that are derived from [UIElement](../windows.ui.xaml/uielement.md), such as images, in your text.
+You can use an [InlineUIContainer](../windows.ui.xaml.documents/inlineuicontainer.md) in the content of a RichTextBlock to embed elements that are derived from [UIElement](../windows.ui.xaml/uielement.md), such as images, in your text.
 
 ### Overflow content
 
-You can use a [RichTextBlock](richtextblock.md) with [RichTextBlockOverflow](richtextblockoverflow.md) elements to create advanced page layouts, such as multi-column text. The content for a [RichTextBlockOverflow](richtextblockoverflow.md) element always comes from a [RichTextBlock](richtextblock.md) element. You link [RichTextBlockOverflow](richtextblockoverflow.md) elements by setting them as the [OverflowContentTarget](richtextblock_overflowcontenttarget.md) of a [RichTextBlock](richtextblock.md) or another [RichTextBlockOverflow](richtextblockoverflow.md).
+You can use a RichTextBlock with [RichTextBlockOverflow](richtextblockoverflow.md) elements to create advanced page layouts, such as multi-column text. The content for a [RichTextBlockOverflow](richtextblockoverflow.md) element always comes from a RichTextBlock element. You link [RichTextBlockOverflow](richtextblockoverflow.md) elements by setting them as the [OverflowContentTarget](richtextblock_overflowcontenttarget.md) of a RichTextBlock or another [RichTextBlockOverflow](richtextblockoverflow.md).
 
 ### Font fallback
 
-The default [FontFamily](richtextblock_fontfamily.md) for [RichTextBlock](richtextblock.md) is Segoe UI and the default [FontSize](richtextblock_fontsize.md) is 15 device-independent pixel (DIP). By default, [RichTextBlock](richtextblock.md) utilizes a font fallback mechanism to show glyphs that are not included in the specified font. If the glyph that is needed in a [RichTextBlock](richtextblock.md) is not available in the specified font, the font fallback mechanism goes through a list of fonts on the system to try and display the required characters in a different font.
+The default [FontFamily](richtextblock_fontfamily.md) for RichTextBlock is Segoe UI and the default [FontSize](richtextblock_fontsize.md) is 15 device-independent pixel (DIP). By default, RichTextBlock utilizes a font fallback mechanism to show glyphs that are not included in the specified font. If the glyph that is needed in a RichTextBlock is not available in the specified font, the font fallback mechanism goes through a list of fonts on the system to try and display the required characters in a different font.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | TextDecorations |
+| 1709 | 16299 | HorizontalTextAlignment |
+| 1709 | 16299 | IsTextTrimmed |
+| 1709 | 16299 | IsTextTrimmedChanged |
+| 1709 | 16299 | TextHighlighters |
+| 1809 | 17763 | CopySelectionToClipboard |
+| 1809 | 17763 | SelectionFlyout |
 
 ## -examples
 
@@ -58,11 +70,11 @@ The default [FontFamily](richtextblock_fontfamily.md) for [RichTextBlock](richte
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the RichTextBlock in action](xamlcontrolsgallery:/item/RichTextBlock).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-This example shows a [RichTextBlock](richtextblock.md) with text selection and text wrapping enabled.
+This example shows a RichTextBlock with text selection and text wrapping enabled.
 
-In XAML, the creation of content elements is implicit, so you can add the text directly to the [Paragraph](../windows.ui.xaml.documents/paragraph.md) element, and the [Paragraph](../windows.ui.xaml.documents/paragraph.md) directly to the [RichTextBlock](richtextblock.md) element.
+In XAML, the creation of content elements is implicit, so you can add the text directly to the [Paragraph](../windows.ui.xaml.documents/paragraph.md) element, and the [Paragraph](../windows.ui.xaml.documents/paragraph.md) directly to the RichTextBlock element.
 
 In code, you have to explicitly create each [Run](../windows.ui.xaml.documents/run.md) element, set its [Text](../windows.ui.xaml.documents/run_text.md) property, and add it to the [Paragraph.Inlines](../windows.ui.xaml.documents/paragraph_inlines.md) collection. Then, add each [Paragraph](../windows.ui.xaml.documents/paragraph.md) to the [RichTextBlock.Blocks](richtextblock_blocks.md) collection.
 
@@ -94,9 +106,9 @@ richTextBlock.Blocks.Add(paragraph);
 stackPanel.Children.Add(richTextBlock);
 ```
 
-This example shows a [RichTextBlock](richtextblock.md) with customization of [FontWeight](richtextblock_fontweight.md), [FontFamily](richtextblock_fontfamily.md), [FontStyle](richtextblock_fontstyle.md), [Foreground](richtextblock_foreground.md), and [SelectionHighlightColor](richtextblock_selectionhighlightcolor.md) for a single run of text.
+This example shows a RichTextBlock with customization of [FontWeight](richtextblock_fontweight.md), [FontFamily](richtextblock_fontfamily.md), [FontStyle](richtextblock_fontstyle.md), [Foreground](richtextblock_foreground.md), and [SelectionHighlightColor](richtextblock_selectionhighlightcolor.md) for a single run of text.
 
-In XAML, the creation of content elements is implicit, so you can add the text directly to the [Paragraph](../windows.ui.xaml.documents/paragraph.md) element, and the [Paragraph](../windows.ui.xaml.documents/paragraph.md) directly to the [RichTextBlock](richtextblock.md) element.
+In XAML, the creation of content elements is implicit, so you can add the text directly to the [Paragraph](../windows.ui.xaml.documents/paragraph.md) element, and the [Paragraph](../windows.ui.xaml.documents/paragraph.md) directly to the RichTextBlock element.
 
 In code, you have to explicitly create each [Run](../windows.ui.xaml.documents/run.md) element, set its [Text](../windows.ui.xaml.documents/run_text.md) property, and add it to the [Paragraph.Inlines](../windows.ui.xaml.documents/paragraph_inlines.md) collection. Then, add each [Paragraph](../windows.ui.xaml.documents/paragraph.md) to the [RichTextBlock.Blocks](richtextblock_blocks.md) collection.
 
@@ -133,9 +145,9 @@ richTextBlock.Blocks.Add(paragraph);
 stackPanel.Children.Add(richTextBlock);
 ```
 
-This example shows a [RichTextBlock](richtextblock.md) with customization of [FontWeight](richtextblock_fontweight.md), [FontFamily](richtextblock_fontfamily.md), [FontStyle](richtextblock_fontstyle.md), [Foreground](richtextblock_foreground.md), and [SelectionHighlightColor](richtextblock_selectionhighlightcolor.md) for different runs of text.
+This example shows a RichTextBlock with customization of [FontWeight](richtextblock_fontweight.md), [FontFamily](richtextblock_fontfamily.md), [FontStyle](richtextblock_fontstyle.md), [Foreground](richtextblock_foreground.md), and [SelectionHighlightColor](richtextblock_selectionhighlightcolor.md) for different runs of text.
 
-In XAML, the creation of content elements is implicit, so you can add the text directly to the [Paragraph](../windows.ui.xaml.documents/paragraph.md) element, and the [Paragraph](../windows.ui.xaml.documents/paragraph.md) directly to the [RichTextBlock](richtextblock.md) element.
+In XAML, the creation of content elements is implicit, so you can add the text directly to the [Paragraph](../windows.ui.xaml.documents/paragraph.md) element, and the [Paragraph](../windows.ui.xaml.documents/paragraph.md) directly to the RichTextBlock element.
 
 In code, you have to explicitly create each [Run](../windows.ui.xaml.documents/run.md) element, set its [Text](../windows.ui.xaml.documents/run_text.md) property, and add it to the [Paragraph.Inlines](../windows.ui.xaml.documents/paragraph_inlines.md) collection. Then, add each [Paragraph](../windows.ui.xaml.documents/paragraph.md) to the [RichTextBlock.Blocks](richtextblock_blocks.md) collection.
 
@@ -184,11 +196,11 @@ richTextBlock.Blocks.Add(paragraph);
 stackPanel.Children.Add(richTextBlock);
 ```
 
-Here, a [RichTextBlock](richtextblock.md) targets a [RichTextBlockOverflow](richtextblockoverflow.md) element to create a multi-column text layout. The first [RichTextBlockOverflow](richtextblockoverflow.md) element then targets a second [RichTextBlockOverflow](richtextblockoverflow.md) element that receives its content overflow. The controlling layout factor for how the text overflow is calculated is the constrained [Width](../windows.ui.xaml/frameworkelement_width.md) and [Height](../windows.ui.xaml/frameworkelement_height.md) of the parent [Grid](grid.md), and the [ColumnDefinition](columndefinition.md) settings that divide the [Grid](grid.md) into three equal columns of 300 pixels height/width. Overflow is also affected by [FontSize](richtextblock_fontsize.md) and many other text formatting properties that change characters in the text.
+Here, a RichTextBlock targets a [RichTextBlockOverflow](richtextblockoverflow.md) element to create a multi-column text layout. The first [RichTextBlockOverflow](richtextblockoverflow.md) element then targets a second [RichTextBlockOverflow](richtextblockoverflow.md) element that receives its content overflow. The controlling layout factor for how the text overflow is calculated is the constrained [Width](../windows.ui.xaml/frameworkelement_width.md) and [Height](../windows.ui.xaml/frameworkelement_height.md) of the parent [Grid](grid.md), and the [ColumnDefinition](columndefinition.md) settings that divide the [Grid](grid.md) into three equal columns of 300 pixels height/width. Overflow is also affected by [FontSize](richtextblock_fontsize.md) and many other text formatting properties that change characters in the text.
 
 
 
-[!code-xml[RichTextOverflow](../windows.ui.xaml.controls/code/TextDisplaySnippets/CS/MainPage.xaml#SnippetRichTextOverflow)]
+[!code-xaml[RichTextOverflow](../windows.ui.xaml.controls/code/TextDisplaySnippets/CS/MainPage.xaml#SnippetRichTextOverflow)]
 
 ## -see-also
-[Rich text block overview](/windows/uwp/design/controls-and-patterns/rich-text-block), [Paragraph](../windows.ui.xaml.documents/paragraph.md), [OverflowContentTarget](richtextblock_overflowcontenttarget.md), [RichTextBlockOverflow](richtextblockoverflow.md), [RichTextBlockOverflow.OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md), [XAML text display sample](http://go.microsoft.com/fwlink/p/?linkid=238579)
+[Rich text block overview](/windows/uwp/design/controls-and-patterns/rich-text-block), [Paragraph](../windows.ui.xaml.documents/paragraph.md), [OverflowContentTarget](richtextblock_overflowcontenttarget.md), [RichTextBlockOverflow](richtextblockoverflow.md), [RichTextBlockOverflow.OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md), [XAML text display sample](https://go.microsoft.com/fwlink/p/?linkid=238579)

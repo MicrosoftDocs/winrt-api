@@ -19,7 +19,7 @@ If the method succeeds, an enumerable collection of package objects is returned.
 This method requires administrative privileges. Otherwise, an **AccessDeniedException** is thrown.
 
 ## -examples
-This example uses [FindPackages()](packagemanager_findpackages_1246181969.md) to enumerate the installed packages for all users.
+This example uses FindPackages() to enumerate the installed packages for all users.
 
 ```csharp
 using Windows.Management.Deployment;
@@ -64,7 +64,7 @@ private static void DisplayPackageInfo(Windows.ApplicationModel.Package package)
 }
 ```
 
-Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
+Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-xaml-the-vsix-extension-and-the-nuget-package).
 
 ```cppwinrt
 // main.cpp : In Visual Studio, create a new Windows Console Application (C++/WinRT), and run it (or run Visual Studio) as administrator.
@@ -162,7 +162,7 @@ void DisplayPackageInfo(Windows::ApplicationModel::Package^ package)
 
 
 ## -see-also
-[Enumerate app packages sample](http://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [FindPackages(String)](packagemanager_findpackages_331793265.md), [FindPackages(String, String)](packagemanager_findpackages_1597689551.md)
+[Enumerate app packages sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [FindPackages(String)](packagemanager_findpackages_331793265.md), [FindPackages(String, String)](packagemanager_findpackages_1597689551.md)
 
 ## -capabilities
 packageQuery

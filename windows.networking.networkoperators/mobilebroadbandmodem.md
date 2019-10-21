@@ -18,10 +18,19 @@ Represents a mobile broadband modem.
 
 
 
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations). 
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations). 
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | GetIsPassthroughEnabledAsync |
+| 1709 | 16299 | SetIsPassthroughEnabledAsync |
+| 1803 | 17134 | IsInEmergencyCallMode |
+| 1803 | 17134 | IsInEmergencyCallModeChanged |
+| 1803 | 17134 | TryGetPcoAsync |
 
 ## -examples
 

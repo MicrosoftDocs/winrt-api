@@ -110,7 +110,7 @@ The [IDropTargetProvider](../windows.ui.xaml.automation.provider/idroptargetprov
 **Introduced in .** The [ISynchronizedInputProvider](../windows.ui.xaml.automation.provider/isynchronizedinputprovider.md) interface.
 
 ### -field TextEdit:32
-The [TextEdit](http://msdn.microsoft.com/library/6aa3f2a5-b34c-f7cb-13b3-6c62e2b67326) control pattern interface.
+The [TextEdit](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itexteditprovider) control pattern interface.
 
 ### -field CustomNavigation:33
 The [CustomNavigation](../windows.ui.xaml.automation.provider/icustomnavigationprovider.md) control pattern interface.
@@ -121,4 +121,4 @@ The [CustomNavigation](../windows.ui.xaml.automation.provider/icustomnavigationp
 ## -examples
 
 ## -see-also
-[GetPattern](automationpeer_getpattern_2046576749.md), [GetPatternCore](automationpeer_getpatterncore_1167667011.md), [Control patterns and interfaces](http://msdn.microsoft.com/library/2091883c-5d0c-44ed-936a-709022926a42), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[GetPattern](automationpeer_getpattern_2046576749.md), [GetPatternCore](automationpeer_getpatterncore_1167667011.md), [Control patterns and interfaces](https://docs.microsoft.com/windows/uwp/accessibility/control-patterns-and-interfaces), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

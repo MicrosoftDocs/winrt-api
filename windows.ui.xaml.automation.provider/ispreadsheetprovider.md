@@ -17,4 +17,4 @@ Provides access to items (cells) in a spreadsheet.
 ## -examples
 
 ## -see-also
-[ISpreadsheetItemProvider](ispreadsheetitemprovider.md), [ISpreadsheetProvider (COM interface)](http://msdn.microsoft.com/library/5d27761c-41f3-4908-b116-3ed9a379ea51)
+[ISpreadsheetItemProvider](ispreadsheetitemprovider.md), [ISpreadsheetProvider (COM interface)](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ispreadsheetprovider)

@@ -14,11 +14,11 @@ Fires when the user's query text changes and the app needs to provide new sugges
 
 ## -remarks
 > [!NOTE]
-> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for UWP app using C++, C#, or Visual Basic, [WinJS.UI.SearchBox](http://msdn.microsoft.com/library/58f5cea3-a19b-48a8-abcc-17f38d8fa886) for Windows app using JavaScript) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
+> An app can't use both the search box ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md) for UWP app using C++, C#, or Visual Basic, [WinJS.UI.SearchBox](https://docs.microsoft.com/previous-versions/windows/apps/dn301949(v=win.10)) for Windows app using JavaScript) and the [SearchPane](searchpane.md). Using both the search box and the search pane in the same app causes the app to throw an exception with this message: "Cannot create instance of type 'Windows.UI.Xaml.Controls.SearchBox.'"
 
 Suggestions can come from three sources: search history, local files, or from a source specified by the app. Suggestions are grouped by their source and display in the following order in the search pane: search history, local files, and then app-specified sources.
 
-If your app participates in the Search contract and you want your app to display suggestions from sources that you specify, you must register a handler to respond when this event fires. In your [SuggestionsRequested](searchpane_suggestionsrequested.md) event handler, respond by obtaining suggestions and populating the [SearchSuggestionCollection](searchsuggestioncollection.md) based on the user's [SearchPaneSuggestionsRequestedEventArgs](searchpanesuggestionsrequestedeventargs.md).[QueryText](searchpanesuggestionsrequestedeventargs_querytext.md).
+If your app participates in the Search contract and you want your app to display suggestions from sources that you specify, you must register a handler to respond when this event fires. In your SuggestionsRequested event handler, respond by obtaining suggestions and populating the [SearchSuggestionCollection](searchsuggestioncollection.md) based on the user's [SearchPaneSuggestionsRequestedEventArgs](searchpanesuggestionsrequestedeventargs.md).[QueryText](searchpanesuggestionsrequestedeventargs_querytext.md).
 
 > [!NOTE]
 > If you want to respond to this event asynchronously, you must use [SearchPaneSuggestionsRequestedEventArgs](searchpanesuggestionsrequestedeventargs.md).[Request](searchpanesuggestionsrequestedeventargs_request.md).[GetDeferral](searchpanesuggestionsrequest_getdeferral_254836512.md).
@@ -38,7 +38,7 @@ If you provide result suggestions, you must also register a [ResultSuggestionCho
 Here are a few examples of sources your app can use to obtain suggestions:
 
 + From an app-defined, static, local list
-+ From a URL that supports suggestions in [OpenSearch format](http://go.microsoft.com/fwlink/p/?linkid=251110)
++ From a URL that supports suggestions in [OpenSearch format](https://go.microsoft.com/fwlink/p/?linkid=251110)
 
 
 ### Displaying app-provided suggestions in the search pane
@@ -47,12 +47,12 @@ After you obtain suggestions, you display them in the search pane by adding them
 
 At most, the search pane can display 5 suggestions. If you choose to display both query suggestions and result suggestions, you should group the suggestions by suggestion type (query or result) and separate the groups using [AppendSearchSeparator](searchsuggestioncollection_appendsearchseparator_842802100.md). Each separator takes the place of a suggestion and must be followed by at least one suggestion, decreasing the number of suggestions that you can display.
 
-To learn more about using suggestions to create a good search experience for your users in [Guidelines and checklist for search](http://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39).
+To learn more about using suggestions to create a good search experience for your users in [Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search).
 
 <!--<section  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><title>Automatic suggestions</title><sectioncontents><p>If you want your app to display suggestions that are automatically provided</p><p>By default, suggestions are automatically provided based on the user's local files that are accessible by your app and the previous searches the user has performed with your app.</p><p>If automatic suggestions are enabled, you do not need to do additional the <xref targtype="class_winrt" rid="w_appmod_search.searchsuggestioncollection">searchSuggestionCollection</xref> object is pre-populated with suggestions. </p><p>If you want your app to provide its own suggestions to the user, you can disable one or both sources of automatic suggestions. Disable automatic suggestions based on the user's local files with the <xref targtype="method_winrt" rid="w_appmod_search.searchpane_setlocalcontentsuggestionsettings">SetLocalContentSuggestionSettings</xref> method and disable automatic suggestions based on the user's search history in your app with the <xref targtype="property_winrt" rid="w_appmod_search.searchpane_searchhistoryenabled">SearchHistoryEnabled</xref> property.</p></sectioncontents></section>-->
 
 ## -examples
-The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to access the [searchPane](searchpane.md) to respond to a [suggestionsrequested](searchpane_suggestionsrequested.md) event.
+The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to access the [searchPane](searchpane.md) to respond to a suggestionsrequested event.
 
 > **For Javascript**
 > To ensure that your app can respond to user queries at any time, make sure your [searchPane](searchpane.md) event handlers are registered in your app's global scope.
@@ -88,6 +88,6 @@ protected override void OnWindowCreated(WindowCreatedEventArgs args)
 
 
 ## -see-also
-[Guidelines and checklist for search](http://msdn.microsoft.com/library/c328faa3-f6ae-4970-8372-b413f1290c39), [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection class](searchsuggestioncollection.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md)
+[Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search), [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection class](searchsuggestioncollection.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md)
 tionsrequestedeventargs.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md)
 st_searchsuggestioncollection.md)

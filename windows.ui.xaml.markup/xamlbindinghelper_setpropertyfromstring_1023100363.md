@@ -10,7 +10,7 @@ public void SetPropertyFromString(System.Object dependencyObject, Windows.UI.Xam
 # Windows.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromString
 
 ## -description
-Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [String](https://msdn.microsoft.com/library/system.string.aspx) value.
+Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) value.
 
 ## -parameters
 ### -param dependencyObject

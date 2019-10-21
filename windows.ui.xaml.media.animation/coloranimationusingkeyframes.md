@@ -23,7 +23,7 @@ Animates the value of a [Color](../windows.ui/color.md) property along a set of 
 ## -remarks
 
 ## -examples
-The following example uses the [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md) class to animate the [Background](../windows.ui.xaml.controls/panel_background.md) property of a [StackPanel](../windows.ui.xaml.controls/stackpanel.md). This animation uses three key frames in the following manner:
+The following example uses the ColorAnimationUsingKeyFrames class to animate the [Background](../windows.ui.xaml.controls/panel_background.md) property of a [StackPanel](../windows.ui.xaml.controls/stackpanel.md). This animation uses three key frames in the following manner:
 
 
 1. During the first two seconds, [LinearColorKeyFrame](linearcolorkeyframe.md) gradually changes the color from green to red. Linear key frames like [LinearColorKeyFrame](linearcolorkeyframe.md) create a smooth linear transition between values.
@@ -41,7 +41,7 @@ The following example uses the [ColorAnimationUsingKeyFrames](coloranimationusin
 
 
 
-[!code-xml[Coloranimationusingkeyframes](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationusingkeyframes)]
+[!code-xaml[Coloranimationusingkeyframes](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationusingkeyframes)]
 
 
 
@@ -50,5 +50,5 @@ The following example uses the [ColorAnimationUsingKeyFrames](coloranimationusin
 [!code-vb[Coloranimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/vbnet/Page.xaml.vb#SnippetColoranimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)
 p://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)

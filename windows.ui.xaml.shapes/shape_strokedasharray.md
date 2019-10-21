@@ -11,7 +11,7 @@ public Windows.UI.Xaml.Media.DoubleCollection StrokeDashArray { get;  set; }
 
 ## -description
 
-Gets or sets a collection of [Double](https://msdn.microsoft.com/library/system.double.aspx) values that indicates the pattern of dashes and gaps that is used to outline shapes.
+Gets or sets a collection of [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) values that indicates the pattern of dashes and gaps that is used to outline shapes.
 
 ## -xaml-syntax
 
@@ -27,7 +27,7 @@ Gets or sets a collection of [Double](https://msdn.microsoft.com/library/system.
 
 ## -property-value
 
-A collection of [Double](https://msdn.microsoft.com/library/system.double.aspx) values that specifies the pattern of dashes and gaps.
+A collection of [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) values that specifies the pattern of dashes and gaps.
 
 ## -remarks
 

@@ -21,4 +21,4 @@ This event is not implemented in a [MapControl](../windows.ui.xaml.controls.maps
 ## -examples
 
 ## -see-also
-[UIElement.Tapped](control_ondoubletapped_1132552853.md), [TappedRoutedEventArgs](../windows.ui.xaml.input/tappedroutedeventargs.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [Custom user interactions](http://msdn.microsoft.com/library/9403c46c-60da-4c13-a381-6fbd069dd9ce), [Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82)
+[UIElement.Tapped](control_ondoubletapped_1132552853.md), [TappedRoutedEventArgs](../windows.ui.xaml.input/tappedroutedeventargs.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index), [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)

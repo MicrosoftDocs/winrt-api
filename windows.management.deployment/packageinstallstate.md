@@ -30,11 +30,11 @@ The installation of the package has been paused.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | Paused |
 
 ## -examples
 
 ## -see-also
-[Packaging apps](http://msdn.microsoft.com/library/1abcbb13-80f0-4bf1-a812-649ee8bd1915), [PackageUserInformation.InstallState](packageuserinformation_installstate.md)
+[Packaging apps](https://docs.microsoft.com/windows/uwp/packaging/index), [PackageUserInformation.InstallState](packageuserinformation_installstate.md)

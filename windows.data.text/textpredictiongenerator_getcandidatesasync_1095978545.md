@@ -19,7 +19,7 @@ Asynchronously retrieves a list of candidate words based on the provided phoneti
 The beginning phonetic characters of the words to be returned.
 
 ## -returns
-An asynchronous operation object which, when it completes, contains an [IVectorView](http://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) of strings, which are the predicted words.
+An asynchronous operation object which, when it completes, contains an [IVectorView](https://docs.microsoft.com/previous-versions/br224594(v=vs.85)) of strings, which are the predicted words.
 
 ## -remarks
 

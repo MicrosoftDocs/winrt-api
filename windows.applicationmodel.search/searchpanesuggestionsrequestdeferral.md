@@ -20,7 +20,7 @@ Use the [searchPaneSuggestionsRequestDeferral.complete](searchpanesuggestionsreq
 An app retrieves this object by calling the [searchPaneSuggestionsRequest.getDeferral](searchpanesuggestionsrequest_getdeferral_254836512.md) method while handling the [suggestionsrequested](searchpane_suggestionsrequested.md) event.
 
 ## -examples
-The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to respond to a [suggestionsrequested](searchpane_suggestionsrequested.md) event, including how to get a deferral.
+The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to respond to a [suggestionsrequested](searchpane_suggestionsrequested.md) event, including how to get a deferral.
 
 
 

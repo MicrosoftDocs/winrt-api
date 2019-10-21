@@ -15,4 +15,4 @@ Provides optical character recognition (OCR) API for reading text from images.
 
 ## -see-also
 
-[OCR sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620579)
+[OCR sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620579)

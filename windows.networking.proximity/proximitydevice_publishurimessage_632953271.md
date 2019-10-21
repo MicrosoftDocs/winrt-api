@@ -23,7 +23,7 @@ The publication ID of the message.
 ## -remarks
 Only one URI can be published at a time for each proximity device.
 
-You can stop publishing a URI by passing the publication ID returned by the [PublishUriMessage](proximitydevice_publishurimessage_632953271.md) method to the [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md) method.
+You can stop publishing a URI by passing the publication ID returned by the PublishUriMessage method to the [StopPublishingMessage](proximitydevice_stoppublishingmessage_1046474884.md) method.
 
 Unlike the other publish methods for a proximity device, URI publishing is handled by the default protocol handler for the URI. A subscription to a URI message publication is not required. You can receive URI messages by registering a default handler for a URI protocol such as the HTTP protocol.
 
@@ -64,7 +64,7 @@ You can use the [PublishMessage](proximitydevice_publishmessage_1881696512.md) m
 [!code-vb[PublishSubscribeUri](../windows.networking.proximity/code/Proximity_PublishUri/vbnet/MainPage.xaml.vb#SnippetPublishSubscribeUri)]
 
 ## -see-also
-[PublishUriMessage(Uri, MessageTransmittedHandler)](proximitydevice_publishurimessage_652448219.md), [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+[PublishUriMessage(Uri, MessageTransmittedHandler)](proximitydevice_publishurimessage_652448219.md), [Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
 
 
 ## -capabilities

@@ -16,7 +16,7 @@ Gets the template-defined offset position of the "Ellipse" element that is anima
 The offset in pixels.
 
 ## -remarks
-[EllipseOffset](progressringtemplatesettings_ellipseoffset.md) alternates between 4, 7, and 9 pixels. This is controlled by the animations that exist in default [ProgressRing](../windows.ui.xaml.controls/progressring.md) templates.
+EllipseOffset alternates between 4, 7, and 9 pixels. This is controlled by the animations that exist in default [ProgressRing](../windows.ui.xaml.controls/progressring.md) templates.
 
 ## -examples
 

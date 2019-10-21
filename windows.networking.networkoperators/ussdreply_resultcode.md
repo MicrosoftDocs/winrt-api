@@ -18,13 +18,13 @@ Gets the result code for the USSD response.
 
 
 
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations). 
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations). 
 
 ## -property-value
 The result code for the USSD response.
 
 ## -remarks
-If the [ResultCode](ussdreply_resultcode.md) property returns **ActionRequired**, the session is still open and you can respond by sending a message or closing the session.
+If the ResultCode property returns **ActionRequired**, the session is still open and you can respond by sending a message or closing the session.
 
 > [!NOTE]
 > The USSD protocol supports only a single USSD session at a time. An application must ensure that a session is closed when it is no longer needed. If an unused USSD session is not explicitly closed, other applications cannot use USSD until the unused USSD session times out.

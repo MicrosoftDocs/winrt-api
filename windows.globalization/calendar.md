@@ -11,13 +11,13 @@ public class Calendar : Windows.Globalization.ICalendar, Windows.Globalization.I
 
 ## -description
 
-Manipulates the representation of a date and time within a given calendar and clock.
+Manipulates the representation of a [DateTime](../windows.foundation/datetime.md) within a given calendar and clock.
 
 ## -remarks
 
-If your app passes language tags used in this class to any [National Language Support](http://msdn.microsoft.com/library/7a548074-0782-45e1-8051-80c3b9d81885) functions, it must first convert the tags by calling [ResolveLocaleName](http://msdn.microsoft.com/library/99264b22-3fb5-47e2-b0b9-42a6768e67c1).
+If your app passes language tags used in this class to any [National Language Support](https://docs.microsoft.com/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
 
-**Starting in :** Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](http://go.microsoft.com/fwlink/p/?LinkId=308919).) Note that these extensions can affect the calendar used by [Calendar](calendar.md) objects.
+**Starting in :** Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919).) Note that these extensions can affect the calendar used by Calendar objects.
 
 > [!NOTE]
 > This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See [Prepare your application for the Japanese era change](https://docs.microsoft.com/windows/uwp/design/globalizing/japanese-era-change) for more information.
@@ -26,4 +26,4 @@ If your app passes language tags used in this class to any [National Language Su
 
 ## -see-also
 
-[Calendar sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624043), [Globalization preferences sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624045)
+[Calendar sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624043), [Globalization preferences sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624045)

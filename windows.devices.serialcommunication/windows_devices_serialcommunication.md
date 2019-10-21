@@ -7,7 +7,7 @@
 
 ## -description
 
-The [Windows.Devices.SerialCommunication](windows_devices_serialcommunication.md) namespace defines Windows Runtime classes that a UWP app can use to communicate with a device that exposes a serial port or some abstraction of a serial port. The classes provide functionality to discover such serial device, read and write data, and control serial-specific properties for flow control, such as setting baud rate, signal states.
+The Windows.Devices.SerialCommunication namespace defines Windows Runtime classes that a UWP app can use to communicate with a device that exposes a serial port or some abstraction of a serial port. The classes provide functionality to discover such serial device, read and write data, and control serial-specific properties for flow control, such as setting baud rate, signal states.
 
 The namespace also supports devices that belong to the USB CDC device class. This includes ports exposed by Serial-to-USB adapters and internal USB to serial bridge chips like those used in Arduino Uno R3s. See note below on compatible IDs.
 
@@ -18,7 +18,7 @@ It is possible that the **DeviceInformation** collection returned by [DeviceInfo
 + Filtering such serial ports from the user's view, so that the user will not be able to interact with such an unsupported serial port at all.
 + If the app decides to let the user interact with such a serial port, then note that when the app calls the [DeviceAccessInformation.CreateFromId()](../windows.devices.enumeration/deviceaccessinformation_createfromid_1774777795.md) function, an exception with the message: "The system cannot find the file specified. (Exception from HRESULT: 0x80070002)" will be thrown. The app should handle such an exception and let the user know that the port is unsupported.
 
-Serial devices that use the following compatible IDs can be supported by the in-box Windows 10 usbser.sys driver; these are automatically supported by [Windows.Devices.SerialCommunication](windows_devices_serialcommunication.md). In addition, USB serial devices that use other compatible IDs are supported through a vendor-supplied driver.
+Serial devices that use the following compatible IDs can be supported by the in-box Windows 10 usbser.sys driver; these are automatically supported by Windows.Devices.SerialCommunication. In addition, USB serial devices that use other compatible IDs are supported through a vendor-supplied driver.
 <!--Removed mention of PRO SKU for now-->
 
 + USB\Class_02&amp;SubClass_02&amp;Prot_01
@@ -28,7 +28,7 @@ Serial devices that use the following compatible IDs can be supported by the in-
 
 Your UWP app must include certain device capabilities in its App package manifest. The capabilities identify the device and its purpose. Here are the required elements in hierarchical order:
 
-+ [&lt;DeviceCapability&gt;](http://msdn.microsoft.com/library/4353c4fd-f038-4986-81ed-d2ec0c6235ef): The **Name** attribute must be "serialcommunication".
++ [&lt;DeviceCapability&gt;](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-devicecapability): The **Name** attribute must be "serialcommunication".
 
    + **&lt;Device&gt;**: The **Id** attribute must specify the device identifier. If you are using a Serial-to-USB adapter, **Id** must specify vendor/product identifiers or can be "any" to allow access to any device that matches the function type.
 

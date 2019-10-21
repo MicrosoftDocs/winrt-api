@@ -20,7 +20,7 @@ The text unit to use to expand the range. The default value is **Word**.
 The number of characters added to the text range, if the range was expanded to include a partially contained *unit*.
 
 ## -remarks
-For example, if the insertion point is at the beginning, the end, or inside a word, the [Expand](itextrange_expand_1312677017.md) method expands the range to include that word. If the range already includes one word and part of another, [Expand](itextrange_expand_1312677017.md) expands the range to include both words.
+For example, if the insertion point is at the beginning, the end, or inside a word, the Expand method expands the range to include that word. If the range already includes one word and part of another, Expand expands the range to include both words.
 
 ## -examples
 

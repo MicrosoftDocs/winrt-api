@@ -10,7 +10,7 @@ public enum XYFocusNavigationStrategy : int
 # Windows.UI.Xaml.Input.XYFocusNavigationStrategy
 
 ## -description
-Specifies the disambiguation strategy used for navigating between multiple candidate targets using [XYFocusDownNavigationStrategy](..\windows.ui.xaml\uielement_xyfocusdownnavigationstrategy.md), [XYFocusLeftNavigationStrategy](..\windows.ui.xaml\uielement_xyfocusleftnavigationstrategy.md), [XYFocusRightNavigationStrategy](..\windows.ui.xaml\uielement_xyfocusrightnavigationstrategy.md), and [XYFocusUpNavigationStrategy](..\windows.ui.xaml\uielement_xyfocusupnavigationstrategy.md). 
+Specifies the disambiguation strategy used for navigating between multiple candidate targets using [XYFocusDownNavigationStrategy](../windows.ui.xaml/uielement_xyfocusdownnavigationstrategy.md), [XYFocusLeftNavigationStrategy](../windows.ui.xaml/uielement_xyfocusleftnavigationstrategy.md), [XYFocusRightNavigationStrategy](../windows.ui.xaml/uielement_xyfocusrightnavigationstrategy.md), and [XYFocusUpNavigationStrategy](../windows.ui.xaml/uielement_xyfocusupnavigationstrategy.md). 
 
 > [!NOTE]
 > Other factors, such as the previously focused element or proximity to the axis of the navigation direction, can influence the navigation end result.
@@ -53,7 +53,7 @@ Here we show how focus moves from A to B based on rectilinear distance.
 *Focus moves from A to B based on rectilinear distance*
 
 ## -remarks
-XY navigation is used to navigate a user interface (UI) with a gamepad, remote control, or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](https://msdn.microsoft.com/windows/uwp/input-and-devices/gamepad-and-remote-interactions)
+XY navigation is used to navigate a user interface (UI) with a gamepad, remote control, or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/gamepad-and-remote-interactions)
 
 ## -examples
 
@@ -64,7 +64,7 @@ XY navigation is used to navigate a user interface (UI) with a gamepad, remote c
 
 ### Conceptual
 - [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/input-and-devices/focus-navigation-programmatic)
-- [Desiging for Xbox - XY focus navigation and interaction](https://msdn.microsoft.com/windows/uwp/input-and-devices/designing-for-tv#xy-focus-navigation-and-interaction)
+- [Desiging for Xbox - XY focus navigation and interaction](https://docs.microsoft.com/windows/uwp/input-and-devices/designing-for-tv)
 
 
 

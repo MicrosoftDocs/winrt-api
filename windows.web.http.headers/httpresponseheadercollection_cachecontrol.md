@@ -16,9 +16,9 @@ Gets the [HttpCacheDirectiveHeaderValueCollection](httpcachedirectiveheadervalue
 The collection of objects that represent the value of a **Cache-Control** HTTP header on an HTTP response. An empty collection means that the header is absent.
 
 ## -remarks
-The [CacheControl](httpresponseheadercollection_cachecontrol.md) property represents the value of a **Cache-Control** HTTP header on an HTTP response.
+The CacheControl property represents the value of a **Cache-Control** HTTP header on an HTTP response.
 
-Some of the objects in the [HttpCacheDirectiveHeaderValueCollection](httpcachedirectiveheadervaluecollection.md) for the **Cache-Control** header use the [Windows.Foundation.TimeSpan](../windows.foundation/timespan.md) structure. When programming with .NET, this structure is hidden and developers should use the [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) structure. The value can be **null**, because it's typed as `TimeSpan?` (a nullable [TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx)).
+Some of the objects in the [HttpCacheDirectiveHeaderValueCollection](httpcachedirectiveheadervaluecollection.md) for the **Cache-Control** header use the [Windows.Foundation.TimeSpan](../windows.foundation/timespan.md) structure. When programming with .NET, this structure is hidden and developers should use the [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) structure. The value can be **null**, because it's typed as `TimeSpan?` (a nullable [TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN)).
 
 In JavaScript, this structure is accessed as a value, not as an object. For example, use `var a = 10000`, not `var a = { duration: 10000 }`.
 

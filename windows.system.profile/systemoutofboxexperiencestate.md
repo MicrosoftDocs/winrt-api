@@ -15,13 +15,13 @@ Defines constants that specify the current stage in the lifecycle of the Out-of-
 
 ## -enum-fields
 ### -field Completed:2
-Indicates that the OOBE has completed on this device.
+Indicates that the OOBE has completed on this device. This is the value reported for devices that have no OOBE.
 
 ### -field InProgress:1
 Indicates that the OOBE has started and is in progress on this device.
 
 ### -field NotStarted:0
-Indicates that the OOBE has not yet started on this device. This is the value reported for devices that have no OOBE.
+Indicates that the OOBE has not yet started on this device.
 
 ## -remarks
 The Out-of-Box Experience (OOBE) is the flow that occurs the first time the user turns on a Windows 10 device. The OOBE obtains acceptance of the EULA, sets the system default locale, and helps set up the initial user account.

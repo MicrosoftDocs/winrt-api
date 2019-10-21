@@ -14,9 +14,16 @@ public class PosPrinter : Windows.Devices.PointOfService.IPosPrinter, Windows.Fo
 Represents a point-of-service printer.
 
 ## -remarks
-To get a [PosPrinter](posprinter.md) object, use the [FromIdAsync](posprinter_fromidasync_1322863552.md) or [GetDefaultAsync](posprinter_getdefaultasync_1549573963.md) static methods.
+To get a PosPrinter object, use the [FromIdAsync](posprinter_fromidasync_1322863552.md) or [GetDefaultAsync](posprinter_getdefaultasync_1549573963.md) static methods.
 
 See the [POS printer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/PosPrinter) for an example implementation.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GetDeviceSelector(PosConnectionTypes) |
+| 1903 | 18362 | SupportedBarcodeSymbologies |
 
 ## -examples
 

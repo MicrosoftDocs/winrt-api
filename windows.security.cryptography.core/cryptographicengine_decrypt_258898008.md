@@ -28,7 +28,7 @@ Decrypted data.
 ## -remarks
 The *key* parameter can be a persisted key obtained from a certificate using the [PersistedKeyProvider](persistedkeyprovider.md) class.
 
-If the key is a persisted key and the decrypt operation requires UI or takes a long time, use the [DecryptAsync](cryptographicengine_decryptasync_155595670.md) method instead. For example, UI is required when decrypting using a key that is strongly protected. In the case where a persisted key is used and UI is expected, use the [DecryptAsync](cryptographicengine_decryptasync_155595670.md) method as the [Decrypt](cryptographicengine_decrypt_258898008.md) method will fail.
+If the key is a persisted key and the decrypt operation requires UI or takes a long time, use the [DecryptAsync](cryptographicengine_decryptasync_155595670.md) method instead. For example, UI is required when decrypting using a key that is strongly protected. In the case where a persisted key is used and UI is expected, use the [DecryptAsync](cryptographicengine_decryptasync_155595670.md) method as the Decrypt method will fail.
 
 ## -examples
 
@@ -36,4 +36,4 @@ If the key is a persisted key and the decrypt operation requires UI or takes a l
 [!code-csharp[ShowSymmDecryption](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowSymmDecryption)]
 
 ## -see-also
-[AsymmetricKeyAlgorithmProvider](asymmetrickeyalgorithmprovider.md), [Cryptographic keys](http://msdn.microsoft.com/library/f35bebdf-28c5-4f91-a94e-f7d862b6ed59), [Encrypt](cryptographicengine_encrypt_241662071.md), [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md)
+[AsymmetricKeyAlgorithmProvider](asymmetrickeyalgorithmprovider.md), [Cryptographic keys](https://docs.microsoft.com/windows/uwp/security/cryptographic-keys), [Encrypt](cryptographicengine_encrypt_241662071.md), [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md)

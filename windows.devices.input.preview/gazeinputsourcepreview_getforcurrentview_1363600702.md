@@ -15,7 +15,7 @@ Retrieves a reference to the user identified by an eye-tracking device, bound to
 
 ## -returns
 
-A [GazeInputSourcePreview](gazeinputsourcepreview_getforcurrentview_1363600702.md) object bound to the active application.
+A GazeInputSourcePreview object bound to the active application.
 
 ## -remarks
 
@@ -27,16 +27,6 @@ Windows automatically prompts users with a consent dialog (when the app is first
 
 ## -see-also
 
-### Conceptual
-
-[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
-
-### Samples
-
-[Gaze input sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-gazeinput-basic.zip)
-
-### Resources
-
-[Windows Community Toolkit Gaze library](https://docs.microsoft.com/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary)
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions), [Gaze input sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-gazeinput-basic.zip), [Windows Community Toolkit Gaze library](https://docs.microsoft.com/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary)
 
 ## -examples

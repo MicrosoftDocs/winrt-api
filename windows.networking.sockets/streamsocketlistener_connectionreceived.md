@@ -20,7 +20,7 @@ To listen for a connection on the [StreamSocketListener](streamsocketlistener.md
 ## -examples
 
 ## -see-also
-[StreamSocket](streamsocket.md), [StreamSocketListenerConnectionReceivedEventArgs](streamsocketlistenerconnectionreceivedeventargs.md), [StreamSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620609)
+[StreamSocket](streamsocket.md), [StreamSocketListenerConnectionReceivedEventArgs](streamsocketlistenerconnectionreceivedeventargs.md), [StreamSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620609)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

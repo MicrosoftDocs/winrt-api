@@ -19,25 +19,25 @@ Represents an easing function that creates an animation that accelerates and/or 
 
 
 ## -remarks
-[SineEase](sineease.md) is an easing function that has a function-over-time formula that resembles a sine curve when represented as a function-time graph. When [EasingMode](easingfunctionbase_easingmode.md) is **EaseIn** (the default), this easing function starts slow and accelerates gradually as it reaches the end. It reaches about 30% value halfway through the duration.
+SineEase is an easing function that has a function-over-time formula that resembles a sine curve when represented as a function-time graph. When [EasingMode](easingfunctionbase_easingmode.md) is **EaseIn** (the default), this easing function starts slow and accelerates gradually as it reaches the end. It reaches about 30% value halfway through the duration.
 
 The formula used for this function is:
 
 <img src="images/sineease_ft.png" alt="Formula of f(t) equals 1 minus sin times (1-t) times Pi over 2" />
 
-An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
+An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations).
 
 ## -examples
-This XAML example applies a [SineEase](sineease.md) easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
+This XAML example applies a SineEase easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
 
 
 
-[!code-xml[SineEase](../windows.ui.xaml.media.animation/code/SineEase/csharp/Page.xaml#SnippetSineEase)]
+[!code-xaml[SineEase](../windows.ui.xaml.media.animation/code/SineEase/csharp/Page.xaml#SnippetSineEase)]
 
 [!code-csharp[SineEase_code](../windows.ui.xaml.media.animation/code/SineEase/csharp/Page.xaml.cs#SnippetSineEase_code)]
 
 [!code-vb[SineEase_code](../windows.ui.xaml.media.animation/code/SineEase/vbnet/MainPage.xaml.vb#SnippetSineEase_code)]
 
 ## -see-also
-[Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md)
+[Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md)
 se.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md)

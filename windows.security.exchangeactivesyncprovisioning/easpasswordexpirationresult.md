@@ -11,7 +11,7 @@ public enum Windows.Security.ExchangeActiveSyncProvisioning.EasPasswordExpiratio
 
 ## -description
 > [!NOTE]
-> [EasPasswordExpirationResult](easpasswordexpirationresult.md) may be unavailable for releases after Windows 10.
+> EasPasswordExpirationResult may be unavailable for releases after Windows 10.
 
 Results of querying on the password expiration information. These values are mapped against the HRESULT codes returned from the EAS policy engine.
 

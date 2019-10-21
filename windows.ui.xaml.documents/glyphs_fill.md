@@ -40,9 +40,9 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that is used to rend
 The brush to use to render the glyphs. The default is **null**, which is evaluated as [Transparent](../windows.ui/colors_transparent.md) for rendering.
 
 ## -remarks
-Because the default is **null**, you almost always should define a value for [Fill](glyphs_fill.md) somehow if you want your [Glyphs](glyphs.md) to render in UI.
+Because the default is **null**, you almost always should define a value for Fill somehow if you want your [Glyphs](glyphs.md) to render in UI.
 
 ## -examples
 
 ## -see-also
-[Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)

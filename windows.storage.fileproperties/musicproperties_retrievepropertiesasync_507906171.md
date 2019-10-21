@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IMap<st
 # Windows.Storage.FileProperties.MusicProperties.RetrievePropertiesAsync
 
 ## -description
-Retrieves the specified properties associated with the item.
+Retrieves the specified music-related Windows file properties associated with the item.
 
 ## -parameters
 ### -param propertiesToRetrieve
@@ -20,7 +20,9 @@ A collection that contains the names of the properties to retrieve.
 When this method completes successfully, it returns a collection (type [IMap](../windows.foundation.collections/imap_2.md)) that contains the specified properties and values as key-value pairs.
 
 ## -remarks
-In JavaScript, use [then](http://msdn.microsoft.com/library/c63904fc-465b-4fd5-a1d6-e4fb200248e7) or [done](http://msdn.microsoft.com/library/9a5e6877-a2cf-421f-a91e-37d84ccb40da) to specify handler functions that will capture and process the collection when it is returned.
+For more information about the music-related file properties you can retrieve using this method, see [Music Windows Properties](https://docs.microsoft.com/windows/desktop/properties/music-bumper).
+
+In JavaScript, use [then](https://docs.microsoft.com/previous-versions/windows/apps/br229728(v=win.10)) or [done](https://docs.microsoft.com/previous-versions/windows/apps/hh701079(v=win.10)) to specify handler functions that will capture and process the collection when it is returned.
 
 ## -examples
 

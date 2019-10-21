@@ -13,7 +13,7 @@ public class UsbDeviceClass : Windows.Devices.Usb.IUsbDeviceClass
 Provides a way for the app to get an Advanced Query Syntax (AQS) string by specifying the class code, subclass code, and the protocol code defined by the device. The properties in this class are passed in the call to [GetDeviceClassSelector](usbdevice_getdeviceclassselector_1975723348.md).
 
 ## -remarks
-You can create a [UsbDeviceClass](usbdeviceclass.md) object by specifying any one of the following sets of properties:
+You can create a UsbDeviceClass object by specifying any one of the following sets of properties:
 + Class code.
 + Class and subclass codes.
 + Class, subclass, and protocol codes.

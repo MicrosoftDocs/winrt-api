@@ -16,7 +16,7 @@ Gets the [Binding](binding.md) object of this [BindingExpression](bindingexpress
 The [Binding](binding.md) object of the current binding expression.
 
 ## -remarks
-You can't set the property values of a [Binding](binding.md) object after that binding has been attached to a target element and target property. If you attempt this you'll get a run-time exception. Any [Binding](binding.md) value you get back from [ParentBinding](bindingexpression_parentbinding.md) is by definition a binding that's already been applied to a target, because you obtained the [BindingExpression](bindingexpression.md) by calling [FrameworkElement.GetBindingExpression](../windows.ui.xaml/frameworkelement_getbindingexpression_1210399878.md).
+You can't set the property values of a [Binding](binding.md) object after that binding has been attached to a target element and target property. If you attempt this you'll get a run-time exception. Any [Binding](binding.md) value you get back from ParentBinding is by definition a binding that's already been applied to a target, because you obtained the [BindingExpression](bindingexpression.md) by calling [FrameworkElement.GetBindingExpression](../windows.ui.xaml/frameworkelement_getbindingexpression_1210399878.md).
 
 ## -examples
 

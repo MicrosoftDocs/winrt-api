@@ -15,7 +15,7 @@ Raised when a client starts listening to the causality trace.
 ## -remarks
 The logging level and flags are passed to enable fine-grained decisions about which instrumentation points should be enabled.
 
-The [TracingStatusChanged](asynccausalitytracer_tracingstatuschanged.md) event is raised when logging is disabled.
+The TracingStatusChanged event is raised when logging is disabled.
 
 ## -examples
 

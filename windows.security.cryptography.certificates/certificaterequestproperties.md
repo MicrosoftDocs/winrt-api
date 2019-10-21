@@ -14,6 +14,14 @@ Represents the properties of a certificate request.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Extensions |
+| 1703 | 15063 | SubjectAlternativeName |
+| 1703 | 15063 | SuppressedDefaults |
+
 ## -examples
 
 ## -see-also

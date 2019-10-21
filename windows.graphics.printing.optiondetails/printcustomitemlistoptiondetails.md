@@ -16,10 +16,6 @@ Represents a list of the custom print task option items.
 ## -remarks
 Here is a JavaScript code snippet that shows how to retrieve the object:
 
-
-
-
-
 ```javascript
 // Create a new list option
 // This code creates a new item list option that will be shown to the user
@@ -39,7 +35,13 @@ var printCustomItemListOptionDetails =
 
 ```
 
+### Version history
 
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | AddItem(String,String,String,IRandomAccessStreamWithContentType) |
+| 1803 | 17134 | Description |
+| 1803 | 17134 | WarningText |
 
 ## -examples
 

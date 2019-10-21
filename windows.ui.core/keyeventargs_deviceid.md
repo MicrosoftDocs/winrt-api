@@ -12,9 +12,9 @@ public string DeviceId { get; }
 ## -description
 Gets a unique ID for the input device that generated this key event.
 
-Use [DeviceId](keyeventargs_deviceid.md) to differentiate between devices that can generate key events, such as multiple Xbox controllers.
+Use DeviceId to differentiate between devices that can generate key events, such as multiple Xbox controllers.
 
-> [DeviceId](keyeventargs_deviceid.md) is not supported for all input devices.
+> DeviceId is not supported for all input devices.
 
 ## -property-value
 A unique identifier for the input device associated with the key event, or an empty string. The same device can be assigned a different ID each time it is connected.

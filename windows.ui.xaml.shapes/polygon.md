@@ -19,7 +19,7 @@ Draws a polygon, which is a connected series of lines that form a closed shape.
 
 
 ## -remarks
-The [Polygon](polygon.md) object is similar to the [Polyline](polyline.md) object, except that [Polygon](polygon.md) must be a closed shape.
+The Polygon object is similar to the [Polyline](polyline.md) object, except that Polygon must be a closed shape.
 
 You define the shape by adding vertices to the [Points](polygon_points.md) collection. For example, two points could form a line, three points could form a triangle, and four points could form a quadrilateral.
 
@@ -28,7 +28,7 @@ The [FillRule](polygon_fillrule.md) property specifies how the interior area of 
 You can set the [Fill](shape_fill.md) property to give the shape a background fill, like a solid color, gradient, or image. You can set the [Stroke](shape_stroke.md) and other related stroke properties to specify the look of the shape's outline.
 
 ## -examples
-This example shows how to use a [Polygon](polygon.md) to create a triangle.
+This example shows how to use a Polygon to create a triangle.
 
 ```xaml
 <Canvas>
@@ -54,4 +54,4 @@ This example shows how to use a [Polygon](polygon.md) to create a triangle.
 
 
 ## -see-also
-[Shape](shape.md), [XAML vector-based drawing sample](http://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](http://msdn.microsoft.com/library/54cc0bd4-1961-44d7-ab40-6e8b58e42d65)
+[Shape](shape.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)

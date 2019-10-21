@@ -19,28 +19,28 @@ Provides a visual representation of letters, characters, or symbols, in a specif
 
 
 ## -remarks
-The [Glyphs](glyphs.md) class provides a light weight text element that you can use to display small amounts of text, such as icons. The [Glyphs](glyphs.md) element can be faster than a [TextBlock](../windows.ui.xaml.controls/textblock.md) in some cases, so you should consider using [Glyphs](glyphs.md) when performance is a concern. However, the [Glyphs](glyphs.md) element doesn't have the same localization and stylistic properties as a [TextBlock](../windows.ui.xaml.controls/textblock.md) control. For example, [Glyphs](glyphs.md) does not support [FontWeight](../windows.ui.xaml.controls/textblock_fontweight.md) or bidirectional text.
+The Glyphs class provides a light weight text element that you can use to display small amounts of text, such as icons. The Glyphs element can be faster than a [TextBlock](../windows.ui.xaml.controls/textblock.md) in some cases, so you should consider using Glyphs when performance is a concern. However, the Glyphs element doesn't have the same localization and stylistic properties as a [TextBlock](../windows.ui.xaml.controls/textblock.md) control. For example, Glyphs does not support [FontWeight](../windows.ui.xaml.controls/textblock_fontweight.md) or bidirectional text.
 
-The [Glyphs](glyphs.md) element can be used only with a font that is included in the app package as a resource. Only use fonts that you have the rights to ship with your app. Take this into consideration when choosing between [TextBlock](../windows.ui.xaml.controls/textblock.md) and [Glyphs](glyphs.md).
+The Glyphs element can be used only with a font that is included in the app package as a resource. Only use fonts that you have the rights to ship with your app. Take this into consideration when choosing between [TextBlock](../windows.ui.xaml.controls/textblock.md) and Glyphs.
 
-Starting in Windows 10, the [Glyphs](glyphs.md) control supports the display of color fonts. (See [IsColorFontEnabled](glyphs_iscolorfontenabled.md) and [ColorFontPaletteIndex](glyphs_colorfontpaletteindex.md).)
+Starting in Windows 10, the Glyphs control supports the display of color fonts. (See [IsColorFontEnabled](glyphs_iscolorfontenabled.md) and [ColorFontPaletteIndex](glyphs_colorfontpaletteindex.md).)
 
 ### Usage
 
-To use the [Glyphs](glyphs.md) control, you must include the font file in your project as a resource with its **Build Action** set to **Content**.
+To use the Glyphs control, you must include the font file in your project as a resource with its **Build Action** set to **Content**.
 
 
 
 (The examples here use the Segoe UI Emoji Regular font and assume that it's been added to the Assets folder of the project. This font is included by default with Windows 10 systems in the location C:\Windows\Fonts\seguiemj.ttf. To try this code yourself, you can copy the file from there into your project.)
 
-With the font file added to your project, you can add a [Glyphs](glyphs.md) element to display text. You must set 4 properties to make the [Glyphs](glyphs.md) element show in your app.
+With the font file added to your project, you can add a Glyphs element to display text. You must set 4 properties to make the Glyphs element show in your app.
 + [FontUri](glyphs_fonturi.md): set to the path of the font file that you add to the project.
 + [FontRenderingEmSize](glyphs_fontrenderingemsize.md): specify the Em size at which to render the font.
 + [Indices](glyphs_indices.md): specify the glyphs you want to use from the font.
 + [Fill](glyphs_fill.md): specify the color in which to render glyphs.
 
 
-Here's how to use a [Glyphs](glyphs.md) element in XAML and in code.
+Here's how to use a Glyphs element in XAML and in code.
 
 ```xaml
 <Glyphs FontUri="ms-appx:///Assets/seguiemj.ttf" 

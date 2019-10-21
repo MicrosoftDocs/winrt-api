@@ -14,6 +14,10 @@ Occurs when the app moves from the background to the foreground.
 
 ## -remarks
 
+The LeavingBackground event runs in the same apartment it was registered in.
+
 ## -examples
 
 ## -see-also
+
+[Processes threads and apartments](https://docs.microsoft.com/en-us/windows/win32/com/processes--threads--and-apartments)

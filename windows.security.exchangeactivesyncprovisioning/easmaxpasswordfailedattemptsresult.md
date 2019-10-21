@@ -11,7 +11,7 @@ public enum Windows.Security.ExchangeActiveSyncProvisioning.EasMaxPasswordFailed
 
 ## -description
 > [!NOTE]
-> [EasMaxPasswordFailedAttemptsResult](easmaxpasswordfailedattemptsresult.md) may be unavailable for releases after Windows 10.
+> EasMaxPasswordFailedAttemptsResult may be unavailable for releases after Windows 10.
 
 Represents the maximum number of password attempts results. These values are mapped against the HRESULT codes returned from the EAS policy engine.
 

@@ -22,7 +22,7 @@ The start time over which to retrieve data. Can be no more than 60 days prior to
 The end time over which to retrieve data.
 
 ### -param granularity
-The desired granularity of the returned usage statistics. Each elements in the list corresponds to the network usage per the specified granularity, e.g., usage per hour.
+The desired granularity of the returned usage statistics. Each elements in the list corresponds to the network usage per the specified granularity, for example, usage per hour.
 
 ### -param states
 The state of the connection profile for which usage data should be returned.
@@ -31,7 +31,7 @@ The state of the connection profile for which usage data should be returned.
 When the method completes, it returns a list of [NetworkUsage](networkusage.md) objects, which indicate the sent and received values, in bytes, and the total amount of time the profile was connected during the corresponding time interval.
 
 ## -remarks
-For an example of how these methods are used, see [How to retrieve connection usage data for a specific period of time](http://msdn.microsoft.com/library/c9409429-7712-42e9-a2af-3940a7375c21).
+For an example of how these methods are used, see [How to retrieve connection usage data for a specific period of time](https://docs.microsoft.com/previous-versions/windows/apps/hh465162(v=win.10)).
 
 ## -examples
 

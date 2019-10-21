@@ -12,7 +12,7 @@ public string ShortName { get;  set; }
 
 ## -description
 > [!NOTE]
-> [ShortName](secondarytile_shortname.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTile.DisplayName](secondarytile_displayname.md).
+> ShortName may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTile.DisplayName](secondarytile_displayname.md).
 
 Gets or sets a short name to display directly on the tile. 
 

@@ -20,4 +20,4 @@ The identifier for the [MaxDate](calendardatepicker_maxdate.md) dependency prope
 ## -examples
 
 ## -see-also
-[MaxDate](calendardatepicker_maxdate.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[MaxDate](calendardatepicker_maxdate.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

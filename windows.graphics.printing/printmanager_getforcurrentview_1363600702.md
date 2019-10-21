@@ -21,4 +21,4 @@ The **PrintManager** object.
 ## -examples
 
 ## -see-also
-[Authoring a  for Printers](http://msdn.microsoft.com/library/windows/hardware/br259129), [Printing](http://msdn.microsoft.com/library/windows/apps/hh465225.aspx)
+[Authoring a  for Printers](https://docs.microsoft.com/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers), [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10))

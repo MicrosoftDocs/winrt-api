@@ -18,7 +18,7 @@ The type of the message received.
 ## -remarks
 The WebSocket protocol currently supports two message types: UTF-8 and binary messages. If a message is sent as a binary message, it is up to the app to correctly interpret the binary data. Note that it is perfectly legal to return a binary message where the binary data is a UTF-8 string.
 
-The value of [MessageType](messagewebsocketmessagereceivedeventargs_messagetype.md) property is informative. It does not affect what methods are supported on the returned data by the [MessageWebSocket](messagewebsocket.md) object.
+The value of MessageType property is informative. It does not affect what methods are supported on the returned data by the [MessageWebSocket](messagewebsocket.md) object.
 
 ## -examples
 

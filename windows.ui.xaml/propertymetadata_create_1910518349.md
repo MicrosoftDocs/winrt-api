@@ -27,4 +27,4 @@ The newly created dependency property metadata.
 ## -examples
 
 ## -see-also
-[Create(Object)](propertymetadata_create_1554665429.md), [Create(Object, PropertyChangedCallback)](propertymetadata_create_266737649.md), [Create(CreateDefaultValueCallback)](propertymetadata_create_581724777.md), [Custom dependency properties](http://msdn.microsoft.com/library/5adf7935-f2cf-4bb6-b1a5-f535c2ed8ef8), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[Create(Object)](propertymetadata_create_1554665429.md), [Create(Object, PropertyChangedCallback)](propertymetadata_create_266737649.md), [Create(CreateDefaultValueCallback)](propertymetadata_create_581724777.md), [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

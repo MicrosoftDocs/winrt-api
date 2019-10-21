@@ -15,6 +15,12 @@ Creates a media session and binds license acquisition to that media session.
 ## -remarks
 You must maintain the **PlayReadyLicenseSession** instance until playback has completed. If the app fails to do this, the garbage collector may, at its discretion, release the object. This can cause playback to fail.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CreateLicenseIterable |
+
 ## -examples
 
 ## -see-also

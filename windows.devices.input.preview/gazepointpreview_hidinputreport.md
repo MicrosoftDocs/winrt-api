@@ -11,7 +11,7 @@ public HidInputReport HidInputReport { get; }
 
 ## -description
 
-Gets a [Human Interface Device (HID)](http://www.usb.org/developers/hidpage/) input report for the eye-tracking device.
+Gets a [Human Interface Device (HID)](https://www.usb.org/hid) input report for the eye-tracking device.
 
 ## -property-value
 
@@ -23,16 +23,6 @@ Devices issue input reports to describe state changes, user-input, and other dev
 
 ## -see-also
 
-### Conceptual
-
-[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
-
-### Samples
-
-[Gaze input sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-gazeinput-basic.zip)
-
-### Resources
-
-[Windows Community Toolkit Gaze library](https://docs.microsoft.com/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary)
+[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions), [Gaze input sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-gazeinput-basic.zip), [Windows Community Toolkit Gaze library](https://docs.microsoft.com/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary)
 
 ## -examples

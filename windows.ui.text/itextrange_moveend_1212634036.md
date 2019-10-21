@@ -17,10 +17,10 @@ Moves the end position of the text range.
 The unit by which to move the end position of the text range. The default value is **Character**.
 
 ### -param count
-The number of *unit* s to move the end position of the text range. The default value is 1. If *count* is greater than zero, the end position moves forward, toward the end of the story. If *count* is less than zero, the end position move backward, toward the beginning of the story. If *count* is zero, the end position does not move.
+The number of *unit*s to move the end position of the text range. The default value is 1. If *count* is greater than zero, the end position moves forward, toward the end of the story. If *count* is less than zero, the end position move backward, toward the beginning of the story. If *count* is zero, the end position does not move.
 
 ## -returns
-The actual number of *unit* s that the end position of the text range moved.
+The actual number of *unit*s that the end position of the text range moved.
 
 ## -remarks
 If you move the end position of the text range so that it precedes the original start position, this method sets the start position to be equal to the new end position; that is, the text range becomes a degenerate range (insertion point).

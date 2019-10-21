@@ -14,6 +14,12 @@ Used by the platform to manage a memory buffer. **VpnPacketBuffer** allows buffe
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | TransportContext |
+
 ## -examples
 
 ## -see-also

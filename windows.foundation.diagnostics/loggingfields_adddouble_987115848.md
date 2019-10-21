@@ -10,7 +10,7 @@ public void AddDouble(System.String name, System.Double value)
 # Windows.Foundation.Diagnostics.LoggingFields.AddDouble
 
 ## -description
-Adds a [Double](https://msdn.microsoft.com/library/system.double.aspx) field with the specified field name.
+Adds a [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) field with the specified field name.
 
 ## -parameters
 ### -param name

@@ -37,4 +37,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 use the new W
 ## -examples
 
 ## -see-also
-[Image and ImageBrush](http://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf), [XAML images sample](http://go.microsoft.com/fwlink/p/?linkid=238575)
+[Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575)

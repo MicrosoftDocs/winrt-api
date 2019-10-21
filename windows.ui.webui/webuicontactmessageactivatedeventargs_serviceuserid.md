@@ -16,7 +16,7 @@ Gets the user identifier of the service used for the message.
 The user identifier of the service used for the message.
 
 ## -remarks
-For standard text messaging, the [ServiceUserId](webuicontactmessageactivatedeventargs_serviceuserid.md) property is set to the mobile number for the contact. For web-based services, the [ServiceUserId](webuicontactmessageactivatedeventargs_serviceuserid.md) property is set to the contact’s user id for that particular service.
+For standard text messaging, the ServiceUserId property is set to the mobile number for the contact. For web-based services, the ServiceUserId property is set to the contact’s user id for that particular service.
 
 ## -examples
 

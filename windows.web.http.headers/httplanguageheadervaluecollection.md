@@ -13,9 +13,9 @@ public class HttpLanguageHeaderValueCollection : Windows.Foundation.Collections.
 Represents the value of the **Content-Language** HTTP header on HTTP content in a request or a response.
 
 ## -remarks
-The [HttpLanguageHeaderValueCollection](httplanguageheadervaluecollection.md) class represents the value of the **Content-Language** HTTP header on HTTP content sent in an HTTP request or received in an response.
+The HttpLanguageHeaderValueCollection class represents the value of the **Content-Language** HTTP header on HTTP content sent in an HTTP request or received in an response.
 
-The [ContentLanguage](httpcontentheadercollection_contentlanguage.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an [HttpLanguageHeaderValueCollection](httplanguageheadervaluecollection.md) object.
+The [ContentLanguage](httpcontentheadercollection_contentlanguage.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) returns an HttpLanguageHeaderValueCollection object.
 
 ## -examples
 

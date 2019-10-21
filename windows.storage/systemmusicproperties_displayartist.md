@@ -10,10 +10,10 @@ public string DisplayArtist { get; }
 # Windows.Storage.SystemMusicProperties.DisplayArtist
 
 ## -description
-Gets the name of the [System.Music.DisplayArtist](https://msdn.microsoft.com/library/windows/desktop/dd807135.aspx) property (one of the [Windows music file properties](http://msdn.microsoft.com/library/affb4d7a-b8ef-432c-bcf4-18d90424f9b8).
+Gets the name of the [System.Music.DisplayArtist](https://docs.microsoft.com/windows/desktop/properties/props-system-music-displayartist) property (one of the [Windows music file properties](https://docs.microsoft.com/windows/desktop/properties/music-bumper).
 
 ## -property-value
-The name of the [System.Music.DisplayArtist](https://msdn.microsoft.com/library/windows/desktop/dd807135.aspx) file property.
+The name of the [System.Music.DisplayArtist](https://docs.microsoft.com/windows/desktop/properties/props-system-music-displayartist) file property.
 
 ## -remarks
 

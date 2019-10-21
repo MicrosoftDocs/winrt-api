@@ -23,7 +23,7 @@ cortanaSurface
 
 ## -remarks
 
-The [CortanaActionableInsightsOptions](cortanaactionableinsightsoptions.md) properties are used to identify the contextual metadata for the specified text and image content.
+The CortanaActionableInsightsOptions properties are used to identify the contextual metadata for the specified text and image content.
 
 The [CortanaActionableInsights](cortanaactionableinsights.md) class requires the following be added to the Package.appxmanifest:
 

@@ -18,9 +18,9 @@ To conserve power and extend battery life, the system reduces power to the compu
 Apps that show video or run for extended periods without user input can request that the display remain on by calling [DisplayRequest.RequestActive](displayrequest_requestactive_1312599685.md). When a display request is activated, the device's display remains on while the app is visible. When the user moves the app out of the foreground, the system deactivates the app's display requests and reactivates them when the app returns to the foreground.
 
 Display requests are cumulative - each display request must be released with a separate call to [DisplayRequest.RequestRelease](displayrequest_requestrelease_966711579.md). An app should keep track of the number of active display requests and make sure all are released (each with a corresponding call to [DisplayRequest.RequestRelease](displayrequest_requestrelease_966711579.md)) when the app no longer requires the display to remain on. For more information see:
-+ [How to keep the display on during audio/video playback ](http://msdn.microsoft.com/library/2e03ee87-1adf-4d07-9ded-47d8f1953327)
-+ [MediaElement](http://msdn.microsoft.com/library/af2f2008-9b53-430c-bbc3-8888f631b0b0)
-+ [Display power state sample](http://go.microsoft.com/fwlink/p/?linkid=258327)
++ [How to keep the display on during audio/video playback ](https://docs.microsoft.com/previous-versions/windows/apps/jj152725(v=win.10))
++ [MediaElement](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/media-playback)
++ [Display power state sample](https://go.microsoft.com/fwlink/p/?linkid=258327)
 
 
 Using display requests to keep the display on consumes a lot of power. Use these guidelines for best app behavior when using display requests.
@@ -29,14 +29,14 @@ Using display requests to keep the display on consumes a lot of power. Use these
 
 
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ### Windows Phone 8
 
 This API is supported in native apps only.
 
 ## -examples
-The following code (taken from the [display power state sample](http://go.microsoft.com/fwlink/p/?linkid=258327)) shows how to activate, track, and release display requests.
+The following code (taken from the [display power state sample](https://go.microsoft.com/fwlink/p/?linkid=258327)) shows how to activate, track, and release display requests.
 
 ```javascript
 var g_dispRequest = null;
@@ -86,59 +86,72 @@ function releaseRequest() {
 ```
 
 ```csharp
+        /// <param name="sender"></param> 
+        /// <param name="e"></param> 
+        private void Activate_Click(object sender, RoutedEventArgs e)
+        {
+            Error.Text = string.Empty;
+            Button b = sender as Button;
+            if (b != null)
+            {
+                try
+                {
+                    if (g_DisplayRequest == null)
+                    {
+                        // This call creates an instance of the displayRequest object 
+                        g_DisplayRequest = new DisplayRequest();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    rootPage.NotifyUser("Error Creating Display Request: " + ex.Message, NotifyType.ErrorMessage);
+                }
 
-/// <param name="sender"></param> 
-/// <param name="e"></param> 
-private void Activate_Click(object sender, RoutedEventArgs e) 
-{ 
-    Error.Text = string.Empty; 
-    Button b = sender as Button; 
-    if (b != null) { 
-        try { 
-            if (g_DisplayRequest == null) { 
-                // This call creates an instance of the displayRequest object 
-                g_DisplayRequest = new DisplayRequest(); 
-            } 
-        } catch (Exception ex) { 
-            rootPage.NotifyUser("Error Creating Display Request: " + ex.Message, NotifyType.ErrorMessage); 
-        } 
- 
-        if (g_DisplayRequest != null) { 
-            try { 
-                // This call activates a display-required request. If successful,  
-                // the screen is guaranteed not to turn off automatically due to user inactivity. 
-                g_DisplayRequest.RequestActive(); 
-                drCount += 1; 
-                rootPage.NotifyUser("Display request activated (" + drCount + ")", NotifyType.StatusMessage); 
-            } catch (Exception ex) { 
-                rootPage.NotifyUser("Error: " + ex.Message, NotifyType.ErrorMessage); 
-            } 
-        } 
-    } 
-}
+                if (g_DisplayRequest != null)
+                {
+                    try
+                    {
+                        // This call activates a display-required request. If successful,  
+                        // the screen is guaranteed not to turn off automatically due to user inactivity. 
+                        g_DisplayRequest.RequestActive();
+                        drCount += 1;
+                        rootPage.NotifyUser("Display request activated (" + drCount + ")", NotifyType.StatusMessage);
+                    }
+                    catch (Exception ex)
+                    {
+                        rootPage.NotifyUser("Error: " + ex.Message, NotifyType.ErrorMessage);
+                    }
+                }
+            }
+        }
 
-/// <param name="sender"></param> 
-/// <param name="e"></param> 
-private void Release_Click(object sender, RoutedEventArgs e) 
-{ 
-    Error.Text = string.Empty; 
-    Button b = sender as Button; 
-    if (b != null) { 
-        if (g_DisplayRequest != null) { 
-            try { 
-                // This call de-activates the display-required request. If successful, the screen 
-                // might be turned off automatically due to a user inactivity, depending on the 
-                // power policy settings of the system. The requestRelease method throws an exception  
-                // if it is called before a successful requestActive call on this object. 
-                g_DisplayRequest.RequestRelease(); 
-                drCount -= 1; 
-                rootPage.NotifyUser("Display request released (" + drCount + ")", NotifyType.StatusMessage); 
-            } catch (Exception ex) { 
-                rootPage.NotifyUser("Error: " + ex.Message, NotifyType.ErrorMessage); 
-            } 
-        } 
-    } 
-} 
+        /// <param name="sender"></param> 
+        /// <param name="e"></param> 
+        private void Release_Click(object sender, RoutedEventArgs e)
+        {
+            Error.Text = string.Empty;
+            Button b = sender as Button;
+            if (b != null)
+            {
+                if (g_DisplayRequest != null)
+                {
+                    try
+                    {
+                        // This call de-activates the display-required request. If successful, the screen 
+                        // might be turned off automatically due to a user inactivity, depending on the 
+                        // power policy settings of the system. The requestRelease method throws an exception  
+                        // if it is called before a successful requestActive call on this object. 
+                        g_DisplayRequest.RequestRelease();
+                        drCount -= 1;
+                        rootPage.NotifyUser("Display request released (" + drCount + ")", NotifyType.StatusMessage);
+                    }
+                    catch (Exception ex)
+                    {
+                        rootPage.NotifyUser("Error: " + ex.Message, NotifyType.ErrorMessage);
+                    }
+                }
+            }
+        }
 ```
 
 ```vb

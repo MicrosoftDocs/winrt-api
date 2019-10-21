@@ -17,6 +17,14 @@ Provides navigational guidance.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | AudioNotificationRequested |
+| 1511 | 10586 | IsGuidanceAudioMuted |
+| 1511 | 10586 | UseAppProvidedVoice |
+
 ## -examples
 
 ## -see-also

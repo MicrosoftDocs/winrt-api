@@ -13,9 +13,9 @@ public class MessageWebSocketControl : Windows.Networking.Sockets.IMessageWebSoc
 Provides socket control data on a [MessageWebSocket](messagewebsocket.md).
 
 ## -remarks
-The [MessageWebSocketControl](messagewebsocketcontrol.md) class provides access to advanced socket control data on a [MessageWebSocket](messagewebsocket.md) object.
+The MessageWebSocketControl class provides access to advanced socket control data on a [MessageWebSocket](messagewebsocket.md) object.
 
-A [MessageWebSocketControl](messagewebsocketcontrol.md) object is automatically created with the parent [MessageWebSocket](messagewebsocket.md) object. The [MessageWebSocket.Control](messagewebsocket_control.md) property provides access to the associated [MessageWebSocket](messagewebsocket.md) object.
+A MessageWebSocketControl object is automatically created with the parent [MessageWebSocket](messagewebsocket.md) object. The [MessageWebSocket.Control](messagewebsocket_control.md) property provides access to the associated [MessageWebSocket](messagewebsocket.md) object.
 
 The [SupportedProtocols](messagewebsocketcontrol_supportedprotocols.md) property gets the value of this property and can be called at any time.
 
@@ -23,7 +23,7 @@ The [MessageType](messagewebsocketcontrol_messagetype.md) property can be change
 
 The [OutboundBufferSizeInBytes](messagewebsocketcontrol_outboundbuffersizeinbytes.md) property must be set before the [MessageWebSocket](messagewebsocket.md) is connected. Setting this property after the [MessageWebSocket](messagewebsocket.md) is connected has no effect.
 
-Any changes to the other property values on the [MessageWebSocketControl](messagewebsocketcontrol.md) must be set before the [DatagramSocket](datagramsocket.md) is bound or connected. As a result if you need to make changes to the [MaxMessageSize](messagewebsocketcontrol_maxmessagesize.md), [ProxyCredential](messagewebsocketcontrol_proxycredential.md), [OutboundBufferSizeInBytes](messagewebsocketcontrol_outboundbuffersizeinbytes.md), or [ServerCredential](messagewebsocketcontrol_servercredential.md) properties, then these changes must occur before a successful call to the [ConnectAsync](messagewebsocket_connectasync_682685111.md) method on the [MessageWebSocket](messagewebsocket.md).
+Any changes to the other property values on the MessageWebSocketControl must be set before the [DatagramSocket](datagramsocket.md) is bound or connected. As a result if you need to make changes to the [MaxMessageSize](messagewebsocketcontrol_maxmessagesize.md), [ProxyCredential](messagewebsocketcontrol_proxycredential.md), [OutboundBufferSizeInBytes](messagewebsocketcontrol_outboundbuffersizeinbytes.md), or [ServerCredential](messagewebsocketcontrol_servercredential.md) properties, then these changes must occur before a successful call to the [ConnectAsync](messagewebsocket_connectasync_682685111.md) method on the [MessageWebSocket](messagewebsocket.md).
 
 The following example creates a [MessageWebSocket](messagewebsocket.md), and then demonstrates how to set the [MessageWebSocketControl.MessageType](messagewebsocketcontrol_messagetype.md) property to **binary**. (Other properties may be set in a similar manner.) After this is done, the app can connect the [MessageWebSocket](messagewebsocket.md).
 
@@ -86,15 +86,25 @@ clientWebSocket.control.messageType = Windows.Networking.Sockets.SocketMessageTy
 // Now you can call the ConnectAsync method to connect the MessageWebSocket.
 ```
 
-For more information on using [MessageWebSocketControl](messagewebsocketcontrol.md), see [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39) and [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a).
+For more information on using MessageWebSocketControl, see [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)) and [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IgnorableServerCertificateErrors |
+| 1709 | 16299 | ActualUnsolicitedPongInterval |
+| 1709 | 16299 | ClientCertificate |
+| 1709 | 16299 | DesiredUnsolicitedPongInterval |
+| 1709 | 16299 | ReceiveMode |
 
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39),
-[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a),
+[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)),
+[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)),
 [MessageWebSocket](messagewebsocket.md),
 [MessageWebSocket.Control](messagewebsocket_control.md),
 [MessageWebSocketInformation](messagewebsocketinformation.md),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
-[WebSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620623)
+[WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623)

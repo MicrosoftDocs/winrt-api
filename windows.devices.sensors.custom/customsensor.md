@@ -16,6 +16,13 @@ This class reuses the same [ReadingChanged](customsensor_readingchanged.md) even
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | MaxBatchSize |
+| 1709 | 16299 | ReportLatency |
+
 ## -examples
 
 ## -see-also

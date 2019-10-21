@@ -18,7 +18,7 @@ The text to search for.
 ## -remarks
 
 ## -examples
-The [Search contract sample](http://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to use the [queryText](webuisearchactivatedeventargs_querytext.md) property in the app's activated event handler to determine whether the app should display a view of search results or the app's default, home view (if [queryText](webuisearchactivatedeventargs_querytext.md) is empty).
+The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to use the queryText property in the app's activated event handler to determine whether the app should display a view of search results or the app's default, home view (if queryText is empty).
 
 
 

@@ -10,12 +10,15 @@ public event Windows.Foundation.TypedEventHandler PointerExited<Windows.UI.Core.
 # Windows.UI.Core.CoreWindow.PointerExited
 
 ## -description
+
 Occurs when the pointer moves outside the bounding box of the app.
 
 ## -remarks
+
 For touch input, the app receives this event before a [PointerReleased](icorewindow_pointerpressed.md) event.
 
 ## -examples
 
 ## -see-also
-[Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82)
+
+[Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)

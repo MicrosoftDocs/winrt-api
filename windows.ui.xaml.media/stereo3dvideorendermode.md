@@ -30,7 +30,7 @@ Stereo 3-D video.
 Setting the attribute to **stereo** enables stereo display mode. A value of **mono** disables it. The default is **mono**.
 
 ## -examples
-This example creates a [MediaElement](mediaelementstate.md) with [Stereo3DVideoRenderMode](stereo3dvideorendermode.md) set.
+This example creates a [MediaElement](mediaelementstate.md) with Stereo3DVideoRenderMode set.
 
 ```xaml
 <MediaElement Stereo3DVideoRenderMode="Stereo"/>

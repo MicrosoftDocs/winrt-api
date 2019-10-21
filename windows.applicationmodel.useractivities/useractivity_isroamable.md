@@ -20,7 +20,7 @@ The boolean representing whether metadata should uploaded. If not set, this prop
 
 ## -remarks
 
-When this property is set to False, the activity and its associated metadata will not be uploaded. The activity can still be serialized to JSON, put on the clipboard, and otherwise made available to other applications. In that case, it is the responsibility of the application recieving the activity to determine whether or not to enforce this property.
+When this property is set to False, the activity and its associated metadata will not be uploaded. The activity can still be serialized to JSON, put on the clipboard, and otherwise made available to other applications. In that case, it is the responsibility of the application receiving the activity to determine whether or not to enforce this property.
 
 ## -see-also
 

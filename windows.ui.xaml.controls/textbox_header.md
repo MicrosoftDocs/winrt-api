@@ -34,7 +34,7 @@ Gets or sets the content for the control's header.
 The content of the control's header. The default is **null**.
 
 ## -remarks
-You can set a data template for the [Header](textbox_header.md) by using the [HeaderTemplate](textbox_headertemplate.md) property.
+You can set a data template for the Header by using the [HeaderTemplate](textbox_headertemplate.md) property.
 
 ## -examples
 

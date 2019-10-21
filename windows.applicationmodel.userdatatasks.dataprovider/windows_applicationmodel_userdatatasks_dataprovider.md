@@ -10,7 +10,7 @@ namespace Windows.ApplicationModel.UserDataTasks.DataProvider
 # Windows.ApplicationModel.UserDataTasks.DataProvider
 
 ## -description
-This API is implemented by a server to provide contact information to client apps.
+This API is implemented by a server to provide task information to client apps.
 
 ## -remarks
 

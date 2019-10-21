@@ -13,18 +13,13 @@ public NavigationViewDisplayMode DisplayMode { get; }
 
 Gets a value that specifies how the pane and content areas of a NavigationView are being shown.
 
-
-## -xaml-syntax
-
-```xaml
-<NavigationView DisplayMode="displayModeName" .../>
-```
-
 ## -property-value
 
 A value of the enumeration that specifies how the pane and content areas of a NavigationView are being shown.
 
 ## -remarks
+
+To set the state of the pane and content areas, use the [PaneDisplayMode](navigationview_panedisplaymode.md) property.
 
 ## -see-also
 

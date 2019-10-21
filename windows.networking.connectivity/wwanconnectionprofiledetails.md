@@ -14,7 +14,14 @@ Used to access information specific to a WWAN connection.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | IPKind |
+| 1803 | 17134 | PurposeGuids |
+
 ## -examples
 
 ## -see-also
-[ConnectionProfile.WwanConnectionProfileDetails](https://docs.microsoft.com/en-us/uwp/api/windows.networking.connectivity.connectionprofile.WwanConnectionProfileDetails)
+[ConnectionProfile.WwanConnectionProfileDetails](https://docs.microsoft.com/uwp/api/windows.networking.connectivity.connectionprofile.WwanConnectionProfileDetails)

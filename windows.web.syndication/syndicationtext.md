@@ -13,7 +13,7 @@ public class SyndicationText : Windows.Web.Syndication.ISyndicationNode, Windows
 Implements the [ISyndicationText](isyndicationtext.md) interface that encapsulates elements in *RSS 2.0* or *Atom 1.0* that can have either text, HTML, or XHTML. In *Atom 1.0*, this object maps to an **atomTextConstruct** in the schema, which can be **atom:title**, **atom:subtitle**, **atom:rights**, or **atom:summary** elements.
 
 ## -remarks
-The following table maps [SyndicationText](syndicationtext.md) properties to RSS and Atom feed elements.
+The following table maps SyndicationText properties to RSS and Atom feed elements.
 
 <table>
    <tr><th>SyndicationText</th><th>RSS</th><th>Atom</th></tr>
@@ -25,4 +25,4 @@ The following table maps [SyndicationText](syndicationtext.md) properties to RSS
 ## -examples
 
 ## -see-also
-[Quickstart: Accessing a web feed](http://msdn.microsoft.com/library/bde79bfb-f566-4dbe-b861-f849ab8bc574), [Syndication sample](http://go.microsoft.com/fwlink/p/?linkid=245062), [AtomPub sample](http://go.microsoft.com/fwlink/p/?linkid=245061)
+[Quickstart: Accessing a web feed](https://docs.microsoft.com/previous-versions/windows/apps/hh700374(v=win.10)), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061)

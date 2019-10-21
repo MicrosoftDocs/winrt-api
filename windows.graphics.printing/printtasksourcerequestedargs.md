@@ -14,7 +14,7 @@ public class PrintTaskSourceRequestedArgs : Windows.Graphics.Printing.IPrintTask
 Arguments associated with the [PrintTaskSourceRequestedHandler](printtasksourcerequestedhandler.md) delegate. Provides a method for handing the content to be printed to the Print Task.
 
 ## -remarks
-[PrintTaskSourceRequestedArgs](printtasksourcerequestedargs.md) can, for example, be used to retrieve the deadline for a print task. Here is a JavaScript code snippet that retrieves a print task deadline:
+PrintTaskSourceRequestedArgs can, for example, be used to retrieve the deadline for a print task. Here is a JavaScript code snippet that retrieves a print task deadline:
 
 
 

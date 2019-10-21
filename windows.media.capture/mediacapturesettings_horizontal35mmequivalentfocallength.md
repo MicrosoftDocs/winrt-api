@@ -16,7 +16,7 @@ Gets the horizontal 35mm equivalent focal length of the camera lens on the captu
 The horizontal 35mm equivalent focal length of the camera lens.
 
 ## -remarks
-The value of [Horizontal35mmEquivalentFocalLength](mediacapturesettings_horizontal35mmequivalentfocallength.md) is for the current preview resolution and may change each time the resolution is changed using [VideoDeviceController.SetMediaStreamPropertiesAsync](../windows.media.devices/videodevicecontroller_setmediastreampropertiesasync_835261048.md).
+The value of Horizontal35mmEquivalentFocalLength is for the current preview resolution and may change each time the resolution is changed using [VideoDeviceController.SetMediaStreamPropertiesAsync](../windows.media.devices/videodevicecontroller_setmediastreampropertiesasync_835261048.md).
 
 ## -examples
 

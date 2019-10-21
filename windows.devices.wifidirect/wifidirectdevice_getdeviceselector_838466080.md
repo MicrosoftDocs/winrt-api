@@ -22,4 +22,4 @@ This method only returns Wi-Fi Direct device interfaces.
 ## -examples
 
 ## -see-also
-[GetDeviceSelector(WiFiDirectDeviceSelectorType)](wifidirectdevice_getdeviceselector_185243134.md), [WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)
+[GetDeviceSelector(WiFiDirectDeviceSelectorType)](wifidirectdevice_getdeviceselector_185243134.md), [WiFiDirectDevice sample](https://go.microsoft.com/fwlink/p/?LinkID=301419)

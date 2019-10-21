@@ -12,7 +12,7 @@ public Windows.UI.Color BackgroundColor { get;  set; }
 
 ## -description
 > [!NOTE]
-> [BackgroundColor](secondarytile_backgroundcolor.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTileVisualElements.BackgroundColor](secondarytilevisualelements_backgroundcolor.md).
+> BackgroundColor may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTileVisualElements.BackgroundColor](secondarytilevisualelements_backgroundcolor.md).
 
 Gets or sets the tile's background color.
 

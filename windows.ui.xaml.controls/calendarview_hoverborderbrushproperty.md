@@ -20,4 +20,4 @@ The identifier for the [HoverBorderBrush](calendarview_hoverborderbrush.md)   d
 ## -examples
 
 ## -see-also
-[HoverBorderBrush](calendarview_hoverborderbrush.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[HoverBorderBrush](calendarview_hoverborderbrush.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

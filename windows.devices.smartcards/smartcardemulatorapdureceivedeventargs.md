@@ -15,7 +15,16 @@ Provides data for the [ApduReceived](smartcardemulator_apdureceived.md) event.
 ## -remarks
 The system generates an instance of this class and passes it as an argument to the application's [ApduReceived](smartcardemulator_apdureceived.md) event handler.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | State |
+| 1511 | 10586 | TryRespondAsync(IBuffer,Nullable<UInt32>) |
+| 1511 | 10586 | TryRespondWithCryptogramsAsync(IBuffer,IEnumerable<SmartCardCryptogramPlacementStep>) |
+| 1511 | 10586 | TryRespondWithCryptogramsAsync(IBuffer,IEnumerable<SmartCardCryptogramPlacementStep>,Nullable<UInt32>) |
+
 ## -examples
 
 ## -see-also
-[Create an NFC Smart Card app](http://msdn.microsoft.com/library/26834a51-512b-485b-84c8-abf713787588)
+[Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)

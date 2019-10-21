@@ -12,7 +12,7 @@ public RadialController AppController { get;  set; }
 ## -description
 Gets or sets whether the [RadialController](radialcontroller.md) object is bound to the main application process rather than a specific app view (or top-level window). 
 
-If [AppController](radialcontrollerconfiguration_appcontroller.md) is set, that radial controller (and menu) is used for the top-level window and all views in the application process (overriding any individual view controllers you have defined). 
+If AppController is set, that radial controller (and menu) is used for the top-level window and all views in the application process (overriding any individual view controllers you have defined). 
 
 > [!NOTE]
 > You must also set [IsAppControllerEnabled](radialcontrollerconfiguration_isappcontrollerenabled.md) to **true**. 

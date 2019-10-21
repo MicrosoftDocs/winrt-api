@@ -16,6 +16,12 @@ Exposes a method that retrieves the arguments associated with a toast action ini
 ## -remarks
 This object is provided to an event handler when a [ToastNotification.Activated](toastnotification_activated.md) event is raised.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | UserInput |
+
 ## -examples
 
 ## -see-also

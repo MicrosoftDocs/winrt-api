@@ -15,8 +15,18 @@ Contains the calendar identifiers for the supported calendars, as static propert
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | ChineseLunar |
+| 1607 | 14393 | JapaneseLunar |
+| 1607 | 14393 | KoreanLunar |
+| 1607 | 14393 | TaiwanLunar |
+| 1607 | 14393 | VietnameseLunar |
+
 ## -examples
 
 ## -see-also
 
-[Date and time formatting sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624044), [Calendar sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624043)
+[Date and time formatting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624044), [Calendar sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624043)

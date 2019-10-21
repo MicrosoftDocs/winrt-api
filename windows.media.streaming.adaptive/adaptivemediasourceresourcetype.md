@@ -30,9 +30,15 @@ The resource is a cryptographic initialization vector.
 
 
 ### -field MediaSegmentIndex:5
-
+The resource is a media segment index.
 
 ## -remarks
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | MediaSegmentIndex |
 
 ## -examples
 

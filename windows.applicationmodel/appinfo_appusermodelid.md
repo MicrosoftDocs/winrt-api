@@ -16,9 +16,9 @@ An identifier that uniquely identifies the app.
 The application user model ID for the application.
 
 ## -remarks
-An application user model identifier is used to associate processes, files, and windows with a particular application. See [Application User Model IDs](http://msdn.microsoft.com/library/ebce2d99-6f20-4545-9f12-d79cd8d0828f) for more details.
+An application user model identifier is used to associate processes, files, and windows with a particular application. See [Application User Model IDs](https://docs.microsoft.com/windows/desktop/shell/appids) for more details.
 
 ## -examples
 
 ## -see-also
-[System.AppUserModel.ID](https://msdn.microsoft.com/en-us/library/windows/desktop/dd391569(v=vs.85).aspx)
+[System.AppUserModel.ID](https://docs.microsoft.com/windows/desktop/properties/props-system-appusermodel-id)

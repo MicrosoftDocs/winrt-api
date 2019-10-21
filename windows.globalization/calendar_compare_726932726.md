@@ -10,7 +10,7 @@ public int Compare(Windows.Globalization.Calendar other)
 # Windows.Globalization.Calendar.Compare
 
 ## -description
-Compares this calendar to another [Calendar](calendar.md) object and indicates whether the date and time of one is earlier, equal to, or later than that of the other.
+Compares this calendar to another [Calendar](calendar.md) object and indicates whether the [DateTime](../windows.foundation/datetime.md) of one is earlier, equal to, or later than that of the other.
 
 ## -parameters
 ### -param other

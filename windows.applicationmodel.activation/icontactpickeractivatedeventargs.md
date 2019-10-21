@@ -15,7 +15,7 @@ Provides data when an app is activated because it uses the Contact Picker.
 ## -remarks
 ### Interface inheritance
 
-[IContactPickerActivatedEventArgs](icontactpickeractivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [IContactPickerActivatedEventArgs](icontactpickeractivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+IContactPickerActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement IContactPickerActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

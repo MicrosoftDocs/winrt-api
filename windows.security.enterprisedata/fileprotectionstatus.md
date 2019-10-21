@@ -66,7 +66,7 @@ The item is being used by another process. You can apply enterprise protection t
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | AccessSuspended |
 | 1511 | 10586 | LicenseExpired |

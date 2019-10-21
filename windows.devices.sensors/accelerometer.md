@@ -23,7 +23,7 @@ Applications use the methods in this class to determine whether the sensor readi
 
 Applications use the properties in this class to retrieve and adjust the sensor report interval.
 
-Sensor data is provided relative to the device's fixed sensor coordinate system, and is independent of display orientation. For applications that rely on sensor data for input control or to manipulate elements on the screen, the developer must take current display orientation into account and compensate the data appropriately. For more info about the sensor coordinate system, see [Sensor data and display orientation](http://msdn.microsoft.com/library/f90937f1-edaf-469c-b360-2ed67cb4fad0).
+Sensor data is provided relative to the device's fixed sensor coordinate system, and is independent of display orientation. For applications that rely on sensor data for input control or to manipulate elements on the screen, the developer must take current display orientation into account and compensate the data appropriately. For more info about the sensor coordinate system, see [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)).
 
 The following example demonstrates how a UWP app built with XAML and C# uses the [GetDefault](accelerometer_getdefault_702418228.md) method to establish a connection to an accelerometer. If no integrated accelerometer is found, the method will return a null value.
 
@@ -37,8 +37,17 @@ The following example shows the [ReadingChanged](accelerometer_readingchanged.md
 
 [!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario1.xaml.cs#SnippetReadingChangedCS)]
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetDefault(AccelerometerReadingType) |
+| 1607 | 14393 | ReadingType |
+| 1709 | 16299 | FromIdAsync |
+| 1709 | 16299 | GetDeviceSelector |
+
 ## -examples
 
 ## -see-also
 
-[Accelerometer Sample](http://go.microsoft.com/fwlink/p/?linkid=241377), [Sensor data and display orientation](http://msdn.microsoft.com/library/f90937f1-edaf-469c-b360-2ed67cb4fad0), [Accelerometer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620477), [Background sensors sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620509)
+[Accelerometer Sample](https://go.microsoft.com/fwlink/p/?linkid=241377), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Accelerometer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620477), [Background sensors sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620509)

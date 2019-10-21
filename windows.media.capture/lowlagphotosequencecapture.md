@@ -19,7 +19,7 @@ You can access the [LowLagPhotoSequenceControl](../windows.media.devices/lowlagp
 
 You can find out if the device supports photo sequence mode by checking [LowLagPhotoSequenceControl.Supported](../windows.media.devices/lowlagphotosequencecontrol_supported.md).
 
-Use [MediaCapture.PrepareLowLagPhotoSequenceCaptureAsync](mediacapture_preparelowlagphotosequencecaptureasync_2130225421.md) to initialize the photo sequence capture. This is an asynchronous call which returns a [LowLagPhotoSequenceCapture](lowlagphotosequencecapture.md) object when it is finished. This must be called before [StartAsync](lowlagphotosequencecapture_startasync_1931900819.md).
+Use [MediaCapture.PrepareLowLagPhotoSequenceCaptureAsync](mediacapture_preparelowlagphotosequencecaptureasync_2130225421.md) to initialize the photo sequence capture. This is an asynchronous call which returns a LowLagPhotoSequenceCapture object when it is finished. This must be called before [StartAsync](lowlagphotosequencecapture_startasync_1931900819.md).
 
 To start capturing photos, call [StartAsync](lowlagphotosequencecapture_startasync_1931900819.md). The app will continue to receive photos from the device until the operation is stopped.
 
@@ -27,7 +27,7 @@ To start capturing photos, call [StartAsync](lowlagphotosequencecapture_startasy
 
 Add a handler to the [PhotoCaptured](lowlagphotosequencecapture_photocaptured.md) event in order to get the captured photos in the sequence. [PhotoCapturedEventArgs](photocapturedeventargs.md) provides the data for the captured frames. [PhotoCapturedEventArgs.Frame](photocapturedeventargs_frame.md) contains the captured photo and [PhotoCapturedEventArgs.Thumbnail](photocapturedeventargs_thumbnail.md) contains the thumbnail.
 
-[FinishAsync](lowlagphotosequencecapture_finishasync_1182664592.md) stops the photo sequence capture operation and releases the [LowLagPhotoSequenceCapture](lowlagphotosequencecapture.md) object and resources used by the photo sequence operation. If you want to restart the photo sequence operation after calling [FinishAsync](lowlagphotosequencecapture_finishasync_1182664592.md), you must call [MediaCapture.PrepareLowLagPhotoSequenceCaptureAsync](mediacapture_preparelowlagphotosequencecaptureasync_2130225421.md) to initialize a new [LowLagPhotoSequenceCapture](lowlagphotosequencecapture.md) object.
+[FinishAsync](lowlagphotosequencecapture_finishasync_1182664592.md) stops the photo sequence capture operation and releases the LowLagPhotoSequenceCapture object and resources used by the photo sequence operation. If you want to restart the photo sequence operation after calling [FinishAsync](lowlagphotosequencecapture_finishasync_1182664592.md), you must call [MediaCapture.PrepareLowLagPhotoSequenceCaptureAsync](mediacapture_preparelowlagphotosequencecaptureasync_2130225421.md) to initialize a new LowLagPhotoSequenceCapture object.
 
 If the media type is changed or an effect is added, you must call [MediaCapture.PrepareLowLagPhotoSequenceCaptureAsync](mediacapture_preparelowlagphotosequencecaptureasync_2130225421.md) to create a new [LowLagPhotoCapture](lowlagphotocapture.md) object.
 

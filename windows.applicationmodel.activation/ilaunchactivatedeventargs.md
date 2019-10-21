@@ -15,7 +15,7 @@ Provides event information when an app is launched.
 ## -remarks
 ### Interface inheritance
 
-[ILaunchActivatedEventArgs](ilaunchactivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [ILaunchActivatedEventArgs](ilaunchactivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+ILaunchActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement ILaunchActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

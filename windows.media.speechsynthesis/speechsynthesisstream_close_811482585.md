@@ -13,9 +13,9 @@ public void Close()
 Releases system resources that are exposed by [SpeechSynthesisStream](speechsynthesisstream.md).
 
 ## -remarks
-All outstanding asynchronous operations must complete before calling [Close](speechsynthesisstream_close_811482585.md).
+All outstanding asynchronous operations must complete before calling Close.
 
 ## -examples
 
 ## -see-also
-[Speech interactions](https://docs.microsoft.com/en-us/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)

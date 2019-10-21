@@ -17,7 +17,7 @@ Retrieves the implementation of an activation factory.
 The Activation ID (ACID) of the activatable type produced by the factory.
 
 ## -returns
-An instance of an activation factory type. This type must implement [IActivationFactory](http://msdn.microsoft.com/library/c6a2ed6e-9c45-4cf3-a301-72a5daeb4dfc).
+An instance of an activation factory type. This type must implement [IActivationFactory](https://docs.microsoft.com/windows/desktop/api/activation/nn-activation-iactivationfactory).
 
 ## -remarks
 

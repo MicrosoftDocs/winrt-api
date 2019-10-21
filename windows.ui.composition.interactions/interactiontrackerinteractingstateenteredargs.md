@@ -14,6 +14,12 @@ Arguments for the [IInteractionTrackerOwner.InteractingStateEntered](iinteractio
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | IsFromBinding |
+
 ## -examples
 
 ## -see-also

@@ -14,7 +14,7 @@ public class CashDrawerStatus : Windows.Devices.PointOfService.ICashDrawerStatus
 Provides the current power and availability status of the cash drawer.
 
 ## -remarks
-[CashDrawerStatus](cashdrawerstatus.md) comes from the [StatusUpdated](cashdrawer_statusupdated.md) event or from the [Status](cashdrawer_status.md) property.
+CashDrawerStatus comes from the [StatusUpdated](cashdrawer_statusupdated.md) event or from the [Status](cashdrawer_status.md) property.
 
 ## -examples
 

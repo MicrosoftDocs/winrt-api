@@ -28,7 +28,7 @@ The file or folder to get the selective wipe protection status for.
 An aysnchronous operation that retrieves the selective wipe protection status for the *storageItem*.
 
 ## -remarks
-You can use the [GetStatusAsync](filerevocationmanager_getstatusasync_872885170.md) method to determine the Selective Wipe protection status of a file or folder. This will tell you if a file is protected or not, if a file is protected by another user on the computer, and so on. A common use of the [GetStatusAsync](filerevocationmanager_getstatusasync_872885170.md) method is to determine when a protected file should be deleted. For example, when a protected file is revoked, an attempt to access the file contents will result in an "Access is denied" exception. When you encounter that exception, you can use the [GetStatusAsync](filerevocationmanager_getstatusasync_872885170.md) method to determine if the file has been revoked by Selective Wipe and then delete the file if it has, as shown in the following example.
+You can use the GetStatusAsync method to determine the Selective Wipe protection status of a file or folder. This will tell you if a file is protected or not, if a file is protected by another user on the computer, and so on. A common use of the GetStatusAsync method is to determine when a protected file should be deleted. For example, when a protected file is revoked, an attempt to access the file contents will result in an "Access is denied" exception. When you encounter that exception, you can use the GetStatusAsync method to determine if the file has been revoked by Selective Wipe and then delete the file if it has, as shown in the following example.
 
 
 
@@ -43,4 +43,4 @@ You can use the [GetStatusAsync](filerevocationmanager_getstatusasync_872885170.
 ## -examples
 
 ## -see-also
-[FileRevocationManager sample](http://go.microsoft.com/fwlink/p/?LinkID=299023), [How to protect files with Selective Wipe  (C#/VB/C++)](http://msdn.microsoft.com/library/a1afb4fb-6731-461a-8dd2-51eec5e880a1), [How to protect files with Selective Wipe (JavaScript)](http://msdn.microsoft.com/library/5b8652eb-6462-4bf1-b5b7-4a37957c605f)
+[FileRevocationManager sample](https://go.microsoft.com/fwlink/p/?LinkID=299023), [How to protect files with Selective Wipe  (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/dn456782(v=win.10)), [How to protect files with Selective Wipe (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/dn456781(v=win.10))

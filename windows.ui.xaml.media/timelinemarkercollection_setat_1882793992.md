@@ -24,7 +24,7 @@ The value to set.
 
 A [TimelineMarkerCollection](timelinemarkercollection.md) is an ordered list where the order is determined by the [Time](timelinemarker_time.md) value of each [TimelineMarker](timelinemarker.md) item contained in the collection. The collection API for [TimelineMarkerCollection](timelinemarkercollection.md) internally processes each new item that is added to the collection and adds it at an index location that corresponds to an updated ordering of all [Time](timelinemarker_time.md) values for all [TimelineMarker](timelinemarker.md) items in the collection.
 
-We recommend you don't use [SetAt](timelinemarkercollection_setat_1882793992.md) to set (change) values because the integer index position is controlled by the internal logic. Instead, iterate the collection and delete items with specific [Time](timelinemarker_time.md) values or that match a complete [TimelineMarker](timelinemarker.md) set of values.
+We recommend you don't use SetAt to set (change) values because the integer index position is controlled by the internal logic. Instead, iterate the collection and delete items with specific [Time](timelinemarker_time.md) values or that match a complete [TimelineMarker](timelinemarker.md) set of values.
 
 ## -examples
 

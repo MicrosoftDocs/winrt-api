@@ -15,12 +15,12 @@ APIs in this namespace are typically used for a Microsoft Silverlight app for Wi
 
 
 > [!NOTE]
-> There are some scenarios where you will need [Windows.Phone.PersonalInformation](windows_phone_personalinformation.md) API even when writing a Windows Runtime app. For example, see the [Contact Picker app sample](http://go.microsoft.com/fwlink/p/?linkid=231575). For Windows Phone, the sample uses the [Windows.Phone.PersonalInformation](windows_phone_personalinformation.md) API to prepopulate the contact store for demonstration purposes.
+> There are some scenarios where you will need Windows.Phone.PersonalInformation API even when writing a Windows Runtime app. For example, see the [Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575). For Windows Phone, the sample uses the Windows.Phone.PersonalInformation API to prepopulate the contact store for demonstration purposes.
 
 ## -examples
 
 ## -see-also
-[Implementing contact bindings in a Windows Phone Silverlight 8.1 app](https://msdn.microsoft.com/en-us/library/windows/apps/dn642083(v=vs.105).aspx)
+[Implementing contact bindings in a Windows Phone Silverlight 8.1 app](https://docs.microsoft.com/previous-versions/windows/apps/dn642083(v=vs.105))
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

@@ -20,9 +20,9 @@ The cryptographic *nonce* is optional. The *nonce* is recommended when **ASHWID*
 The hardware Id information.
 
 ## -remarks
-The [GetPackageSpecificToken](hardwareidentification_getpackagespecifictoken_1192424865.md) is designed for use by professional developers who have experience with licensing content and with sufficient expertise in cryptography
+The GetPackageSpecificToken is designed for use by professional developers who have experience with licensing content and with sufficient expertise in cryptography
 
 ## -examples
 
 ## -see-also
-[Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](http://msdn.microsoft.com/library/ee93f175-b0ce-42fd-9889-c43cd23eec6c)
+[Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](https://docs.microsoft.com/previous-versions/windows/apps/jj553431(v=win.10))

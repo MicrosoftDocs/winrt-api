@@ -22,7 +22,7 @@ Draws a rectangle with a given [Height](../windows.ui.xaml/frameworkelement_heig
 You can set the [Fill](shape_fill.md) property to give the shape a background fill, like a solid color, gradient, or image. You can set the [Stroke](shape_stroke.md) and other related stroke properties to specify the look of the shape's outline.
 
 ## -examples
-This example shows how to create a [Rectangle](rectangle.md) in XAML and set some of its common properties as attribute values.
+This example shows how to create a Rectangle in XAML and set some of its common properties as attribute values.
 
 ```xaml
 <Canvas>  
@@ -34,4 +34,4 @@ This example shows how to create a [Rectangle](rectangle.md) in XAML and set som
 
 
 ## -see-also
-[Shape](shape.md), [XAML vector-based drawing sample](http://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](http://msdn.microsoft.com/library/54cc0bd4-1961-44d7-ab40-6e8b58e42d65)
+[Shape](shape.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)

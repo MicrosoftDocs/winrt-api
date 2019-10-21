@@ -15,9 +15,9 @@ Represents text, HTML, or XHTML content. This interface encapsulates elements in
 ## -remarks
 ### Interface inheritance
 
-[ISyndicationText](isyndicationtext.md) inherits [ISyndicationNode](isyndicationnode.md). Types that implement [ISyndicationText](isyndicationtext.md) also implement the interface members of [ISyndicationNode](isyndicationnode.md).
+ISyndicationText inherits [ISyndicationNode](isyndicationnode.md). Types that implement ISyndicationText also implement the interface members of [ISyndicationNode](isyndicationnode.md).
 
 ## -examples
 
 ## -see-also
-[ISyndicationNode](isyndicationnode.md), [Syndication sample](http://go.microsoft.com/fwlink/p/?linkid=245062)
+[ISyndicationNode](isyndicationnode.md), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062)

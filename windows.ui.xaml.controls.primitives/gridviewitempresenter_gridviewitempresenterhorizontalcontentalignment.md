@@ -11,7 +11,7 @@ public Windows.UI.Xaml.HorizontalAlignment GridViewItemPresenterHorizontalConten
 
 ## -description
 > [!NOTE]
-> [GridViewItemPresenterHorizontalContentAlignment](gridviewitempresenter_gridviewitempresenterhorizontalcontentalignment.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.HorizontalContentAlignment](../windows.ui.xaml.controls/contentpresenter_horizontalcontentalignment.md).
+> GridViewItemPresenterHorizontalContentAlignment may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.HorizontalContentAlignment](../windows.ui.xaml.controls/contentpresenter_horizontalcontentalignment.md).
 
 Gets or sets the horizontal alignment of the content being presented.
 
@@ -20,7 +20,7 @@ A value of the enumeration.
 
 ## -remarks
 > [!IMPORTANT]
-> [GridViewItemPresenterHorizontalContentAlignment](gridviewitempresenter_gridviewitempresenterhorizontalcontentalignment.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.HorizontalContentAlignment](../windows.ui.xaml.controls/contentpresenter_horizontalcontentalignment.md).
+> GridViewItemPresenterHorizontalContentAlignment may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.HorizontalContentAlignment](../windows.ui.xaml.controls/contentpresenter_horizontalcontentalignment.md).
 
 ## -examples
 

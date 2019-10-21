@@ -28,18 +28,18 @@ Gets or sets the perspective projection (3-D effect) to apply when rendering thi
 ## -property-value
 A 3-D projection effect applied to the element.
 ## -remarks
-[Projection](uielement_projection.md) and [RenderTransform](uielement_rendertransform.md) with a [SkewTransform](../windows.ui.xaml.media/skewtransform.md) can achieve similar results, a [Projection](uielement_projection.md) is probably more versatile, especially if you want a sense of perspective change applied to the element.
+Projection and [RenderTransform](uielement_rendertransform.md) with a [SkewTransform](../windows.ui.xaml.media/skewtransform.md) can achieve similar results, a Projection is probably more versatile, especially if you want a sense of perspective change applied to the element.
 
-[Projection](uielement_projection.md) is the base class type that this property uses, but [Projection](uielement_projection.md) does not implement a practical behavior. Use either [Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md) or [PlaneProjection](../windows.ui.xaml.media/planeprojection.md).
+Projection is the base class type that this property uses, but Projection does not implement a practical behavior. Use either [Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md) or [PlaneProjection](../windows.ui.xaml.media/planeprojection.md).
 
-The value of [Projection](uielement_projection.md) is overridden by [PointerDownThemeAnimation](../windows.ui.xaml.media.animation/pointerdownthemeanimation.md) and [PointerUpThemeAnimation](../windows.ui.xaml.media.animation/pointerupthemeanimation.md).
+The value of Projection is overridden by [PointerDownThemeAnimation](../windows.ui.xaml.media.animation/pointerdownthemeanimation.md) and [PointerUpThemeAnimation](../windows.ui.xaml.media.animation/pointerupthemeanimation.md).
 
 ## -examples
 This example shows how to apply a basic [PlaneProjection](../windows.ui.xaml.media/planeprojection.md) in the initial page XAML.
 
 
 
-[!code-xml[BasicPerspectiveTransforms](../windows.ui.xaml/code/BasicPerspectiveTransforms/csharp/MainPage.xaml#SnippetBasicPerspectiveTransforms)]
+[!code-xaml[BasicPerspectiveTransforms](../windows.ui.xaml/code/BasicPerspectiveTransforms/csharp/MainPage.xaml#SnippetBasicPerspectiveTransforms)]
 
 ## -see-also
-[Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D effects for  using XAML](http://msdn.microsoft.com/library/abcbbdb6-02a5-4e4e-a8dc-ceacedb91913), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=238580)
+[Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D effects for  using XAML](https://docs.microsoft.com/previous-versions/windows/apps/hh700359(v=win.10)), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580)

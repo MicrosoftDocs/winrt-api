@@ -17,7 +17,7 @@ Searches the Credential Locker for credentials matching the resource specified.
 The resource to be searched for. If a match does not exist, an exception will throw. 
 
 ## -returns
-When this method returns, contains an [IVectorView](http://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) of credential objects that match the search criteria.
+When this method returns, contains an [IVectorView](https://docs.microsoft.com/previous-versions/br224594(v=vs.85)) of credential objects that match the search criteria.
 
 ## -remarks
 Each object returned will have the proper resource and user name, but it will not include the password.

@@ -17,9 +17,9 @@ Invoked when the application is activated by some means other than normal launch
 Event data for the event.
 
 ## -remarks
-When a user launches your app normally (for example, by tapping the app tile), only the [OnLaunched](application_onlaunched_859642554.md) method is called. Override the [OnActivated](application_onactivated_603737819.md) method to perform any general app initialization that should occur only when the app is not launched normally (for example, from another app through the Search contract). You can determine how the app was activated through the [IActivatedEventArgs.Kind](../windows.applicationmodel.activation/iactivatedeventargs_kind.md) property.
+When a user launches your app normally (for example, by tapping the app tile), only the [OnLaunched](application_onlaunched_859642554.md) method is called. Override the OnActivated method to perform any general app initialization that should occur only when the app is not launched normally (for example, from another app through the Search contract). You can determine how the app was activated through the [IActivatedEventArgs.Kind](../windows.applicationmodel.activation/iactivatedeventargs_kind.md) property.
 
-For most kinds of activation, you can perform initialization specific to the activation type by overriding one of the following methods instead of the [OnActivated](application_onactivated_603737819.md) method:
+For most kinds of activation, you can perform initialization specific to the activation type by overriding one of the following methods instead of the OnActivated method:
 + [OnFileActivated](application_onfileactivated_2046716329.md)
 + [OnSearchActivated](application_onsearchactivated_1291367716.md)
 + [OnShareTargetActivated](application_onsharetargetactivated_169511293.md)
@@ -28,9 +28,9 @@ For most kinds of activation, you can perform initialization specific to the act
 + [OnCachedFileUpdaterActivated](application_oncachedfileupdateractivated_383584449.md)
 
 
-For more info, see [App lifecycle](http://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10).
+For more info, see [App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle).
 
 ## -examples
 
 ## -see-also
-[Launching and resuming apps](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/)
+[Launching and resuming apps](https://docs.microsoft.com/windows/uwp/launch-resume/)

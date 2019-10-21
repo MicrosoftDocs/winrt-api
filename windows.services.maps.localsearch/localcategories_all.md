@@ -19,7 +19,7 @@ Gets a value that represents all search categories.
 A value that indicates search results are not limited by search categories.
 
 ## -remarks
-If the [All](localcategories_all.md) category is specified, the [FindLocalLocationsAsync](locallocationfinder_findlocallocationsasync_1108099862.md) method returns results for all search categories.
+If the All category is specified, the [FindLocalLocationsAsync](locallocationfinder_findlocallocationsasync_1108099862.md) method returns results for all search categories.
 
 ## -examples
 

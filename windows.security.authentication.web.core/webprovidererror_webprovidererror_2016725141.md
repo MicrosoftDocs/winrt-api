@@ -24,4 +24,4 @@ The error message.
 ## -examples
 
 ## -see-also
-[Web account management code sample](http://go.microsoft.com/fwlink/p/?LinkId=620621)
+[Web account management code sample](https://go.microsoft.com/fwlink/p/?LinkId=620621)

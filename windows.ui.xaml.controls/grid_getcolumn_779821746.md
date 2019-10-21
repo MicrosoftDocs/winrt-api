@@ -10,17 +10,17 @@ public int GetColumn(Windows.UI.Xaml.FrameworkElement element)
 # Windows.UI.Xaml.Controls.Grid.GetColumn
 
 ## -description
-Gets the value of the [Grid.Column](grid_column.md) XAML attached property from the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
+Gets the value of the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property from the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
 
 ## -parameters
 ### -param element
 The element from which to read the property value.
 
 ## -returns
-The value of the [Grid.Column](grid_column.md) XAML attached property on the target element. This is a zero-based index.
+The value of the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property on the target element. This is a zero-based index.
 
 ## -remarks
-This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [Grid.Column](grid_column.md)  XAML attached property in XAML and won't need this method. For more info, see the [Grid.Column](grid_column.md) XAML attached property.
+This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property in XAML and won't need this method. For more info, see the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property.
 
 ## -examples
 The following example shows how to get the row and column of the element that raised an event.
@@ -38,7 +38,7 @@ The following example shows how to get the row and column of the element that ra
 
 
 
-[!code-xml[1](../windows.ui.xaml.controls.primitives/code/GridGetSet/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.controls.primitives/code/GridGetSet/csharp/Page.xaml#Snippet1)]
 
 [!code-csharp[2](../windows.ui.xaml.controls.primitives/code/GridGetSet/csharp/Page.xaml.cs#Snippet2)]
 <!--     <desc><p xml:space="preserve">The preceding example produces output that is similar to the following illustration.</p>
@@ -50,4 +50,4 @@ The following example shows how to get the row and column of the element that ra
  -->
 
 ## -see-also
-[Grid.Column](grid_column.md)
+[Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties)

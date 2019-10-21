@@ -21,4 +21,4 @@ If you are not using a PKCS#7 block padding algorithm (which automatically pads 
 ## -examples
 
 ## -see-also
-[Cryptographic keys](http://msdn.microsoft.com/library/f35bebdf-28c5-4f91-a94e-f7d862b6ed59)
+[Cryptographic keys](https://docs.microsoft.com/windows/uwp/security/cryptographic-keys)

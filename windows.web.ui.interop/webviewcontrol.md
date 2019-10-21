@@ -14,6 +14,14 @@ This class is an implementation of an [IWebViewControl](../windows.web.ui/iwebvi
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | AddInitializeScript |
+| 1809 | 17763 | GotFocus |
+| 1809 | 17763 | LostFocus |
+
 ## -see-also
 
 ## -examples

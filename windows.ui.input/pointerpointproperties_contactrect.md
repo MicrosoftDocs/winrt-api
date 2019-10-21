@@ -16,7 +16,7 @@ Gets the bounding rectangle of the contact area (typically from touch input).
 The bounding rectangle of the contact area, using client window coordinates in device-independent pixel (DIP).
 
 ## -remarks
-[ContactRect](pointerpointproperties_contactrect.md) contains the bounding rectangle of the contact area as interpreted by the system. Under some circumstances, such as input prediction, this data can be modified by the system to compensate for hardware latency or message latency due to inherent delays in sensing and processing the pointer location on the digitizer.
+ContactRect contains the bounding rectangle of the contact area as interpreted by the system. Under some circumstances, such as input prediction, this data can be modified by the system to compensate for hardware latency or message latency due to inherent delays in sensing and processing the pointer location on the digitizer.
 
 See [ContactRectRaw](pointerpointproperties_contactrectraw.md) for more information on raw input data.
 

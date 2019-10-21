@@ -14,6 +14,12 @@ Provides the result of a deployment request.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | IsRegistered |
+
 ## -examples
 
 ## -see-also

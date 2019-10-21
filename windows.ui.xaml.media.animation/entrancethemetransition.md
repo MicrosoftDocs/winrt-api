@@ -21,13 +21,13 @@ Provides the animated transition behavior on controls when they first appear. Yo
 ## -remarks
 
 ## -examples
-This example shows a how to apply an [EntranceThemeTransition](entrancethemetransition.md) to a [Button](../windows.ui.xaml.controls/button.md).
+This example shows a how to apply an EntranceThemeTransition to a [Button](../windows.ui.xaml.controls/button.md).
 
-[!code-xml[EntranceThemeTransitionSimple](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionSimple)]
+[!code-xaml[EntranceThemeTransitionSimple](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionSimple)]
 
 Here, the EntranceThemeTransition is applied using a Style resource.
 
-[!code-xml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
+[!code-xaml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
 
 If you set an EntranceThemeTransition animation on a panel, the children of the panel will automatically offset when they animate into view to create a visually appealing entrance.
 
@@ -73,4 +73,4 @@ private void Button_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[Transition](transition.md), [Animating page transitions](http://msdn.microsoft.com/library/57659b10-39c2-4ff4-95ff-51a349d01911), [Guidelines and checklist for page transition animations](http://msdn.microsoft.com/library/a5784163-05a0-414f-872c-f14793d00a91)
+[Transition](transition.md), [Animating page transitions](https://docs.microsoft.com/previous-versions/windows/apps/jj649426(v=win.10)), [Guidelines and checklist for page transition animations](https://msdn.microsoft.com/library/windows/apps/jj635239.aspx)

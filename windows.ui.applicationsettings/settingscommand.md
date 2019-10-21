@@ -12,16 +12,16 @@ public class SettingsCommand : Windows.UI.Popups.IUICommand
 
 ## -description
 > [!NOTE]
-> [SettingsPane](settingspane.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](http://msdn.microsoft.com/library/2d765e90-3fa0-42f5-a5cb-bedc14c3f60a).
+> [SettingsPane](settingspane.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](https://docs.microsoft.com/windows/uwp/app-settings/guidelines-for-app-settings).
 
 Creates a settings command object that represents a settings entry. This settings command can be appended to the [ApplicationCommands](settingspanecommandsrequest_applicationcommands.md) vector.
 
 ## -remarks
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-The following code shows how to add app commands by using the [SettingsPane](settingspane.md) and [SettingsCommand](settingscommand.md) classes. For the full example, see [App settings sample](http://go.microsoft.com/fwlink/p/?linkid=226738).
+The following code shows how to add app commands by using the [SettingsPane](settingspane.md) and SettingsCommand classes. For the full example, see [App settings sample](https://go.microsoft.com/fwlink/p/?linkid=226738).
 
 ```csharp
 using Windows.UI.ApplicationSettings;
@@ -245,4 +245,4 @@ Imports System
 ```
 
 ## -see-also
-[SettingsPane](settingspane.md), [App settings sample](http://go.microsoft.com/fwlink/p/?linkid=226738)
+[SettingsPane](settingspane.md), [App settings sample](https://go.microsoft.com/fwlink/p/?linkid=226738)

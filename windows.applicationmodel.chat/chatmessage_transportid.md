@@ -19,7 +19,7 @@ The transport ID of the message.
 ## -remarks
 Setting this property assigns the transport, SIM slot, to use for sending the chat message. Querying this property will identify the transport that the message was received on or is currently set for sending.
 
-The value for [TransportId](chatmessage_transportid.md) is the string representation of the SIM slot number.
+The value for TransportId is the string representation of the SIM slot number.
 
 ## -examples
 

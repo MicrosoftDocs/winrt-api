@@ -23,9 +23,9 @@ If **Toast capable** is not enabled in the app manifest, then any toast settings
 > [!NOTE]
 > A user can manually disable or enable toast notifications for your app at any time.
 
-For more information on toast notifications, see [Sending toast notifications](http://msdn.microsoft.com/library/9ec1d052-cff8-415c-aba0-90b088c64039) and [How to opt in for toast notifications](http://msdn.microsoft.com/library/2d7db7c4-6f5e-47bf-89b6-8ac7a43e2011).
+For more information on toast notifications, see [Sending toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868266(v=win.10)) and [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[How to opt in for toast notifications](http://msdn.microsoft.com/library/2d7db7c4-6f5e-47bf-89b6-8ac7a43e2011), [ToastNotification](../windows.ui.notifications/toastnotification.md)
+[How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)), [ToastNotification](../windows.ui.notifications/toastnotification.md)

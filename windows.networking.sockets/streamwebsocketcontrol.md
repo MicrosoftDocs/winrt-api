@@ -15,11 +15,11 @@ Provides socket control data on a [StreamWebSocket](streamwebsocket.md) object.
 
 ## -remarks
 
-The [StreamWebSocketControl](streamwebsocketcontrol.md) class provides access to advanced socket control data on a [StreamWebSocket](streamwebsocket.md) object.
+The StreamWebSocketControl class provides access to advanced socket control data on a [StreamWebSocket](streamwebsocket.md) object.
 
-A [StreamWebSocketControl](streamwebsocketcontrol.md) object is automatically created with the parent [StreamWebSocket](streamwebsocket.md) object. The [StreamWebSocket.Control](streamwebsocket_control.md) property provides access to the associated [StreamWebSocketControl](streamwebsocketcontrol.md) object.
+A StreamWebSocketControl object is automatically created with the parent [StreamWebSocket](streamwebsocket.md) object. The [StreamWebSocket.Control](streamwebsocket_control.md) property provides access to the associated StreamWebSocketControl object.
 
-Any changes to the [StreamWebSocketControl](streamwebsocketcontrol.md) property values must be set before the [StreamWebSocket](streamwebsocket.md) is connected. As a result if you need to make changes to the [NoDelay](streamwebsocketcontrol_nodelay.md), [OutboundBufferSizeInBytes](streamwebsocketcontrol_outboundbuffersizeinbytes.md), [ProxyCredential](streamwebsocketcontrol_proxycredential.md), [ServerCredential](streamwebsocketcontrol_servercredential.md), or [SupportedProtocols](streamwebsocketcontrol_supportedprotocols.md) properties, then these changes must occur before a successful call to the [ConnectAsync](streamsocket_connectasync_13692504.md) method on the [StreamWebSocket](streamwebsocket.md).
+Any changes to the StreamWebSocketControl property values must be set before the [StreamWebSocket](streamwebsocket.md) is connected. As a result if you need to make changes to the [NoDelay](streamwebsocketcontrol_nodelay.md), [OutboundBufferSizeInBytes](streamwebsocketcontrol_outboundbuffersizeinbytes.md), [ProxyCredential](streamwebsocketcontrol_proxycredential.md), [ServerCredential](streamwebsocketcontrol_servercredential.md), or [SupportedProtocols](streamwebsocketcontrol_supportedprotocols.md) properties, then these changes must occur before a successful call to the [ConnectAsync](streamsocket_connectasync_13692504.md) method on the [StreamWebSocket](streamwebsocket.md).
 
 The following example creates a [StreamWebSocket](streamwebsocket.md), and then demonstrates how to set the [StreamWebSocketControl.NoDelay](streamwebsocketcontrol_nodelay.md) property to **false**. (Other properties may be set in a similar manner.) After this is done, the app can connect the [StreamWebSocket](streamwebsocket.md).
 
@@ -82,20 +82,29 @@ clientWebSocket.control.noDelay = false;
 // Now you can call the ConnectAsync method to connect the StreamWebSocket.
 ```
 
-For more information about using [StreamWebSocketControl](streamwebsocketcontrol.md), see [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39) and [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a).
+For more information about using StreamWebSocketControl, see [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)) and [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IgnorableServerCertificateErrors |
+| 1709 | 16299 | ActualUnsolicitedPongInterval |
+| 1709 | 16299 | ClientCertificate |
+| 1709 | 16299 | DesiredUnsolicitedPongInterval |
 
 ## -examples
 
 ## -see-also
 
-[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39),
-[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a),
+[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)),
+[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)),
 [StreamWebSocket](streamwebsocket.md),
-[StreamWebSocketControl](streamwebsocketcontrol.md),
+StreamWebSocketControl,
 [StreamWebSocketInformation](streamwebsocketinformation.md),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
-[WebSocket sample](http://go.microsoft.com/fwlink/p/?LinkId=620623),
-[ControlChannelTrigger StreamWebSocket sample](http://go.microsoft.com/fwlink/p/?linkid=251232)
+[WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623),
+[ControlChannelTrigger StreamWebSocket sample](https://go.microsoft.com/fwlink/p/?linkid=251232)
 
 ## -capabilities
 

@@ -10,10 +10,10 @@ public class HashAlgorithmProvider : Windows.Security.Cryptography.Core.IHashAlg
 # Windows.Security.Cryptography.Core.HashAlgorithmProvider
 
 ## -description
-Represents a cryptographic hash provider. For more information about hashes, see [MACs, hashes, and signatures](http://msdn.microsoft.com/library/e674312f-6678-44c5-91d9-b489f49c4d3c).
+Represents a cryptographic hash provider. For more information about hashes, see [MACs, hashes, and signatures](https://docs.microsoft.com/windows/uwp/security/macs-hashes-and-signatures).
 
 ## -remarks
-You create a [HashAlgorithmProvider](hashalgorithmprovider.md) object by calling the static [OpenAlgorithm](hashalgorithmprovider_openalgorithm_637226074.md) method and specifying one of the following algorithm names:
+You create a HashAlgorithmProvider object by calling the static [OpenAlgorithm](hashalgorithmprovider_openalgorithm_637226074.md) method and specifying one of the following algorithm names:
 + MD5
 + SHA1
 + SHA256
@@ -27,4 +27,4 @@ You create a [HashAlgorithmProvider](hashalgorithmprovider.md) object by calling
 [!code-csharp[ShowHashAlgProviderClass](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#ShowHashAlgProviderClass)]
 
 ## -see-also
-[MACs, hashes, and signatures](http://msdn.microsoft.com/library/e674312f-6678-44c5-91d9-b489f49c4d3c)
+[MACs, hashes, and signatures](https://docs.microsoft.com/windows/uwp/security/macs-hashes-and-signatures)

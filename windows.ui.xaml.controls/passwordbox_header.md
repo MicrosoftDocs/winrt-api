@@ -34,9 +34,9 @@ Gets or sets the content for the control's header.
 The content of the control's header. The default is **null**.
 
 ## -remarks
-You can set a data template for the [Header](passwordbox_header.md) value by using the [HeaderTemplate](passwordbox_headertemplate.md) property.
+You can set a data template for the Header value by using the [HeaderTemplate](passwordbox_headertemplate.md) property.
 
 ## -examples
 
 ## -see-also
-[Password](passwordbox_password.md), [HeaderTemplate](passwordbox_headertemplate.md), [PasswordBox styles and templates](http://msdn.microsoft.com/library/2e6e0ed5-c763-4713-8749-0621a123568b)
+[Password](passwordbox_password.md), [HeaderTemplate](passwordbox_headertemplate.md), [PasswordBox styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)

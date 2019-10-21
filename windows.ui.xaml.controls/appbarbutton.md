@@ -27,7 +27,7 @@ App bar buttons differ from standard buttons in several ways:
 + You use the [Label](appbarbutton_label.md) and [Icon](appbarbutton_icon.md) properties to set the content instead of the [Content](contentcontrol_content.md) property. The [Content](contentcontrol_content.md) property is ignored if the [Icon](appbarbutton_icon.md) is set.
 + The button has the [IsCompact](appbarbutton_iscompact.md) property to control its size.
 
-[AppBarButton](appbarbutton.md) has two sizes; normal and compact. By default, it's shown with a text label and full padding. When the [IsCompact](appbarbutton_iscompact.md) property is set to **true**, the text label is hidden and the height of the button is reduced.
+AppBarButton has two sizes; normal and compact. By default, it's shown with a text label and full padding. When the [IsCompact](appbarbutton_iscompact.md) property is set to **true**, the text label is hidden and the height of the button is reduced.
 
 <p>Here are the same commands shown in their normal state,  and then in their compact state.</p>
 <p>
@@ -50,11 +50,11 @@ AppBarButton icons have a default font size of 20px.
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\&lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
 
-Starting in Windows 10, version 1607 (Windows Software Development Kit (SDK) version 10.0.14393.0), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [AppBarButton](appbarbutton.md) control.
+This table shows the resources used by the AppBarButton control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -72,9 +72,26 @@ This table shows the resources used by the [AppBarButton](appbarbutton.md) contr
    <tr><td>AppBarButtonBorderBrushDisabled</td><td>Border color when disabled</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | DynamicOverflowOrder |
+| 1607 | 14393 | IsInOverflow |
+| 1607 | 14393 | LabelPosition |
+| 1803 | 17134 | KeyboardAcceleratorTextOverride |
+| 1803 | 17134 | TemplateSettings |
+
 ## -examples
 
-This example shows [AppBarButton](appbarbutton.md) controls with each type of icon:
+> [!TIP]
+> For more info, design guidance, and code examples, see [Command bar](/windows/uwp/controls-and-patterns/app-bars).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the AppBarButton in action](xamlcontrolsgallery:/item/AppBarButton).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
+This example shows AppBarButton controls with each type of icon:
 
 <img src="images/AppBarButtons.png" alt="App bar button icon examples." />
 
@@ -104,7 +121,7 @@ This example shows [AppBarButton](appbarbutton.md) controls with each type of ic
 </AppBarButton>
 ```
 
-Here's how to create the same [AppBarButton](appbarbutton.md) controls in code.
+Here's how to create the same AppBarButton controls in code.
 
 ```csharp
 void MainPage_Loaded(object sender, RoutedEventArgs e)
@@ -178,17 +195,15 @@ void AppBarButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-This example shows how to change the [Icon](appbarbutton_icon.md) and [Label](appbarbutton_label.md) of an [AppBarButton](appbarbutton.md) that's initially defined in Extensible Application Markup Language (XAML). This code toggles a button between `Play` and `Pause`.
+This example shows how to change the [Icon](appbarbutton_icon.md) and [Label](appbarbutton_label.md) of an AppBarButton that's initially defined in Extensible Application Markup Language (XAML). This code toggles a button between `Play` and `Pause`.
 
 ```xaml
-
 <Page.BottomAppBar>
     <CommandBar>
         <AppBarButton x:Name="PlayPauseButton" Tag="play" Icon="Play" Label="Play" Click="PlayPauseButton_Click"/>
         <AppBarButton Icon="Stop" Label="Stop" Click="StopButton_Click"/>
     </CommandBar>
 </Page.BottomAppBar>
-
 ```
 
 ```csharp
@@ -213,4 +228,4 @@ private void PlayPauseButton_Click(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[AppBar](appbar.md), [CommandBar](commandbar.md), [Guidelines for command and app bars](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/app-bars), [Commanding sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620019), [AppBarButton styles and templates](http://msdn.microsoft.com/library/ca990fce-3698-441d-ac8d-ba85197e67df), [XAML AppBar control sample (Windows 8)](http://go.microsoft.com/fwlink/p/?LinkID=242388)
+[AppBar](appbar.md), [CommandBar](commandbar.md), [Commanding sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620019), [AppBarButton styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML AppBar control sample (Windows 8)](https://go.microsoft.com/fwlink/p/?LinkID=242388)

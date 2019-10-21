@@ -17,6 +17,14 @@ Represents a business or place.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Category |
+| 1607 | 14393 | HoursOfOperation |
+| 1607 | 14393 | RatingInfo |
+
 ## -examples
 
 ## -see-also

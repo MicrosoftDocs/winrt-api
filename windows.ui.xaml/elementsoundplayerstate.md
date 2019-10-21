@@ -26,9 +26,9 @@ Sounds are played on all platforms.
 ## -remarks
 This enumeration is used by the [ElementSoundPlayer.State](elementsoundplayer_state.md) property.
 
-For more info, see [Sound in UWP apps](https://msdn.microsoft.com/windows/uwp/style/sound).
+For more info, see [Sound in UWP apps](https://docs.microsoft.com/windows/uwp/style/sound).
 
 ## -examples
 
 ## -see-also
-[Sound in UWP apps](https://msdn.microsoft.com/windows/uwp/style/sound), [ElementSoundPlayer.State](elementsoundplayer_state.md), [ElementSoundPlayer](elementsoundplayer.md)
+[Sound in UWP apps](https://docs.microsoft.com/windows/uwp/style/sound), [ElementSoundPlayer.State](elementsoundplayer_state.md), [ElementSoundPlayer](elementsoundplayer.md)

@@ -16,19 +16,19 @@ Submits a set of changes to the game save blobs in this container. Changes can b
 ## -parameters
 ### -param blobsToWrite
 
-Type: **IMapView\<;String, IBuffer>;** \[JavaScript/C++\] | [System.Collections.Generic.IReadOnlyDictionary\<;String, IBuffer>;](https://msdn.microsoft.com/library/hh136548.aspx) \[.NET\]
+Type: **IMapView\<;String, IBuffer>;** \[JavaScript/C++\] | [System.Collections.Generic.IReadOnlyDictionary\<;String, IBuffer>;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2?redirectedfrom=MSDN) \[.NET\]
 
 Collection of blob names and the data to write for each blob. The max length for a blob name is 63 characters.
 
 ### -param blobsToDelete
 
-Type: **IIterable\<;String>;** \[JavaScript/C++\] | [System.Collections.Generic.IEnumerable\<;String>;](https://msdn.microsoft.com/library/9eekhta0.aspx) \[.NET\]
+Type: **IIterable\<;String>;** \[JavaScript/C++\] | [System.Collections.Generic.IEnumerable\<;String>;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1?redirectedfrom=MSDN) \[.NET\]
 
 Collection containing the string names of blobs to delete. The max length for a blob name is 63 characters.
 
 ### -param displayName
 
-Type: **String** \[JavaScript\] | [System.String](https://msdn.microsoft.com/library/system.string.aspx) \[.NET\] | [Platform::String](https://msdn.microsoft.com/library/windows/apps/hh755812.aspx) \[C++\]
+Type: **String** \[JavaScript\] | [System.String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) \[.NET\] | [Platform::String](https://docs.microsoft.com/cpp/cppcx/platform-string-class) \[C++\]
 
 The save game container's display name. Set this to the name that will be displayed for the game save. The max length for the display name is 127 characters.
 

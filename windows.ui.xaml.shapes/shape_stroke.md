@@ -44,4 +44,4 @@ A [Brush](../windows.ui.xaml.media/brush.md) that specifies how the [Shape](shap
 ## -examples
 
 ## -see-also
-[Fill](shape_fill.md), [Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Fill](shape_fill.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)

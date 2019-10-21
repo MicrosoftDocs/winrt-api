@@ -10,25 +10,29 @@ public struct TypeName
 # TypeName
 
 ## -description
-Substitutes for **System.Type** such that type information reported by other API does not have a dependency on the common language runtime (CLR). This structure is used as a value by properties such as [UnderlyingType](../windows.ui.xaml.markup/ixamltype_underlyingtype.md) and [Type](../windows.ui.xaml.data/icustomproperty_type.md).
-
-
+Substitutes for **System.Type** such that type information reported by other APIs doesn't have a dependency on the common language runtime (CLR). This structure is used as a value by properties such as [UnderlyingType](../windows.ui.xaml.markup/ixamltype_underlyingtype.md) and [Type](../windows.ui.xaml.data/icustomproperty_type.md).
 
 > **.NET**
-> This type appears as [System.Type](https://msdn.microsoft.com/library/system.type.aspx).
+> When programming with .NET, this type is hidden and you should use the [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) type. All Windows Runtime APIs that use a **TypeName** per the raw IDL signatures will instead use [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) values when you use the API with .NET code.
+
+> **[C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index)**
+> You can use the **winrt::xaml_typename\<T\>()** helper function to create a **TypeName** object. See [winrt::xaml_typename function template](/uwp/cpp-ref-for-winrt/xaml-typename) for more details, and a code example.
 
 ## -struct-fields
 
 ### -field Name
-Name of the type.
-    
+
+The name of the type. Depending on the value of *Kind* (see below), *Name* can contain any of the following.
+
+- If *Kind* is set to **TypeKind::Custom**, then the contents of *Name* is unspecified, and language-projection-dependent (in the case of C#, the value is a fully-qualified name).
+- If *Kind* is set to **TypeKind::Metadata**, then *Name* contains the Windows Runtime class name, such as "Windows.UI.Xaml.Controls.Button".
+- If *Kind* is set to **TypeKind::Primitive**, then *Name* contains a primitive name, such as "Int32".
 
 ### -field Kind
-Basic guidance regarding the origin of the type.
-    
+
+A [TypeKind](/uwp/api/windows.ui.xaml.interop.typekind) value containing basic guidance regarding the origin of the type.
 
 ## -remarks
-When programming with .NET, this type is hidden and developers should use the [System.Type](https://msdn.microsoft.com/library/system.type.aspx) type. All Windows Runtime APIs that use a [TypeName](typename.md) per the raw IDL signatures will instead use [System.Type](https://msdn.microsoft.com/library/system.type.aspx) values when you use the API with .NET code.
 
 ### Projection and members of TypeName
 
@@ -39,4 +43,4 @@ If you are programming with C++ using the Windows Runtime Template Library (WRL)
 ## -examples
 
 ## -see-also
-[System.Type](https://msdn.microsoft.com/library/system.type.aspx), [IXamlType](../windows.ui.xaml.markup/ixamltype.md), [Type System (C++/CX)](https://docs.microsoft.com/en-us/cpp/cppcx/type-system-c-cx)
+[System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN), [IXamlType](../windows.ui.xaml.markup/ixamltype.md), [Type System (C++/CX)](https://docs.microsoft.com/cpp/cppcx/type-system-c-cx)

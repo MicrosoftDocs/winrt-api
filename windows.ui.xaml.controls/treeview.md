@@ -15,6 +15,25 @@ Represents a hierarchical list with expanding and collapsing nodes that contain 
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | CanDragItems |
+| 1809 | 17763 | CanReorderItems |
+| 1809 | 17763 | ContainerFromItem |
+| 1809 | 17763 | ContainerFromNode |
+| 1809 | 17763 | DragItemsCompleted |
+| 1809 | 17763 | DragItemsStarting |
+| 1809 | 17763 | ItemContainerStyle |
+| 1809 | 17763 | ItemContainerStyleSelector |
+| 1809 | 17763 | ItemContainerTransitions |
+| 1809 | 17763 | ItemFromContainer |
+| 1809 | 17763 | ItemsSource |
+| 1809 | 17763 | ItemTemplate |
+| 1809 | 17763 | ItemTemplateSelector |
+| 1809 | 17763 | NodeFromContainer |
+
 ## -see-also
 
 ## -examples
@@ -24,4 +43,4 @@ Represents a hierarchical list with expanding and collapsing nodes that contain 
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the TreeView in action](xamlcontrolsgallery:/item/TreeView).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)

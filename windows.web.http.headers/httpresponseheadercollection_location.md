@@ -18,7 +18,7 @@ The object that represents the value of a **Location** HTTP header on an HTTP re
 ## -remarks
 
 
-The following sample code shows a method to set the **Location** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the [Location](httpresponseheadercollection_location.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
+The following sample code shows a method to set the **Location** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the Location property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
 
 ```csharp
     public void DemonstrateHeaderResponseLocation() {

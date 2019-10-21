@@ -21,6 +21,12 @@ The **ImageFeatureValue** created from the given video frame.
 
 ## -remarks
 
+### Windows Server
+To use this API on Windows Server, you must use Windows Server 2019 with Desktop Experience.
+
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 
 ## -examples

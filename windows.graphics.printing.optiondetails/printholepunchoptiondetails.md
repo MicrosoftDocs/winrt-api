@@ -16,10 +16,6 @@ Represents the list of punch hole options.
 ## -remarks
 Here is a JavaScript code snippet that shows how to retrieve the object:
 
-
-
-
-
 ```javascript
 //  Retrieve the advanced Print Task Options
 var printDetailedOptions = 
@@ -30,7 +26,12 @@ var printHolePunchOptionDetails =
      printDetailedOptions.options.lookup(Windows.Graphics.Printing.StandardPrintTaskOptions.holePunch);
 ```
 
+### Version history
 
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | Description |
+| 1803 | 17134 | WarningText |
 
 ## -examples
 

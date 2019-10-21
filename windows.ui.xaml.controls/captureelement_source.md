@@ -19,7 +19,7 @@ The source [MediaCapture](../windows.media.capture/mediacapture.md)
 This property should not be set in XAML, because XAML represents initial state, and there is no good way to reference a [MediaCapture](../windows.media.capture/mediacapture.md) through XAML resources. Initializing a [MediaCapture](../windows.media.capture/mediacapture.md) is typically done by async operations or only when a capture is about to begin.
 
 > [!IMPORTANT]
-> You should always set the Source property to null when you are shutting down media capture in your app. For more information on properly cleaning up media capture resources, see [Capture photos and video with MediaCapture](http://msdn.microsoft.com/library/1361e82a-202f-40f7-9239-56f00dfca54b).
+> You should always set the Source property to null when you are shutting down media capture in your app. For more information on properly cleaning up media capture resources, see [Capture photos and video with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-photos-and-video-with-mediacapture).
 
 ## -examples
 

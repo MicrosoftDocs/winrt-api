@@ -10,17 +10,17 @@ public Windows.Web.Http.Headers.HttpRequestHeaderCollection DefaultRequestHeader
 # Windows.Web.Http.HttpClient.DefaultRequestHeaders
 
 ## -description
-Gets a collection of headers that should be sent with each request.
+Gets a collection of headers that should be sent with each request. For programming guidance for the [HttpClient class](/uwp/api/windows.web.http.httpclient), and code examples, see the [HttpClient](/windows/uwp/networking/httpclient) conceptual topic.
 
 ## -property-value
 The headers that should be sent with each request.
 
 ## -remarks
-The [DefaultRequestHeaders](httpclient_defaultrequestheaders.md) property returns an [HttpRequestHeaderCollection](../windows.web.http.headers/httprequestheadercollection.md) object that can be used to get or set the specific headers on the [HttpClient](httpclient.md) instance. HTTP headers set on this property will be sent on all request messages sent on this [HttpClient](httpclient.md) instance and don't need to be set on each [HttpRequestMessage](httprequestmessage.md) instance.
+The DefaultRequestHeaders property returns an [HttpRequestHeaderCollection](../windows.web.http.headers/httprequestheadercollection.md) object that can be used to get or set the specific headers on the [HttpClient](httpclient.md) instance. HTTP headers set on this property will be sent on all request messages sent on this [HttpClient](httpclient.md) instance and don't need to be set on each [HttpRequestMessage](httprequestmessage.md) instance.
 
 The [Headers](httprequestmessage_headers.md) property on the [HttpRequestMessage](httprequestmessage.md) object returns an [HttpRequestHeaderCollection](../windows.web.http.headers/httprequestheadercollection.md) object that can be used to get or set the specific headers on a specific HTTP request.
 
-The [DefaultRequestHeaders](httpclient_defaultrequestheaders.md) property represents the headers that an app developer can set, not all of the headers that may eventually be sent with the request. The [HttpBaseProtocolFilter](../windows.web.http.filters/httpbaseprotocolfilter.md) will add some additional headers.
+The DefaultRequestHeaders property represents the headers that an app developer can set, not all of the headers that may eventually be sent with the request. The [HttpBaseProtocolFilter](../windows.web.http.filters/httpbaseprotocolfilter.md) will add some additional headers.
 
 
 
@@ -42,3 +42,4 @@ If you are writing for versions before Windows 10, do not set these header valu
 ## -examples
 
 ## -see-also
+[HttpClient](/windows/uwp/networking/httpclient)

@@ -2,6 +2,7 @@
 -api-id: E:Windows.UI.Input.Spatial.SpatialGestureRecognizer.HoldCanceled
 -api-type: winrt event
 -api-device-family-note: xbox
+ms.custom: 19H1
 ---
 
 <!-- Event syntax
@@ -11,14 +12,16 @@ public event Windows.Foundation.TypedEventHandler HoldCanceled<Windows.UI.Input.
 # Windows.UI.Input.Spatial.SpatialGestureRecognizer.HoldCanceled
 
 ## -description
-Occurs when a Hold gesture is canceled.
+
+Occurs when a [Hold](spatialgesturesettings.md) gesture is canceled.
 
 ## -remarks
-For hand interactions, the [SpatialHoldCanceledEventArgs](spatialholdcanceledeventargs.md) event fires when the relevant hand that had a HoldStarted is lost during the gesture.
 
-For voice interactions, this event does not fire.
+For hand interactions, the [SpatialHoldCanceledEventArgs](spatialholdcanceledeventargs.md) event fires when the [HoldStarted](spatialgesturerecognizer_holdstarted.md) hand is lost during the gesture.
 
-For motion controllers, this event fires when the relevant controller that had a HoldStarted is lost during the gesture.
+For speech interactions, this event does not fire.
+
+For motion controller interactions, this event fires when the [HoldStarted](spatialgesturerecognizer_holdstarted.md) controller is lost during the gesture.
 
 ## -examples
 

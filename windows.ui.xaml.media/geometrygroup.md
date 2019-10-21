@@ -23,11 +23,11 @@ Represents a composite geometry, composed of other [Geometry](geometry.md) objec
 ## -remarks
 
 ## -examples
-Composite geometry objects can be created using a [GeometryGroup](geometrygroup.md). The [GeometryGroup](geometrygroup.md) object creates an amalgamation of the [Geometry](geometry.md) objects it contains without combining their area. Any number of [Geometry](geometry.md) objects can be added to a [GeometryGroup](geometrygroup.md). This example uses a [GeometryGroup](geometrygroup.md) to create a composite geometry.
+Composite geometry objects can be created using a GeometryGroup. The GeometryGroup object creates an amalgamation of the [Geometry](geometry.md) objects it contains without combining their area. Any number of [Geometry](geometry.md) objects can be added to a GeometryGroup. This example uses a GeometryGroup to create a composite geometry.
 
 
 
-[!code-xml[GeometryOvw8](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw8.xaml#SnippetGeometryOvw8)]
+[!code-xaml[GeometryOvw8](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw8.xaml#SnippetGeometryOvw8)]
 
 ## -see-also
 [Geometry](geometry.md)

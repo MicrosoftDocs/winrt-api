@@ -16,9 +16,9 @@ Gets or sets the [DateTime](../windows.foundation/datetime.md) object that repre
 The [DateTime](../windows.foundation/datetime.md) object that represents the value of an **If-Unmodified-Since** HTTP header on an HTTP request. A null value means that the header is absent.
 
 ## -remarks
-The [IfUnmodifiedSince](httprequestheadercollection_ifunmodifiedsince.md) property represents the value of an **If-Unmodified-Since** HTTP header on an HTTP request message. The **If-Unmodified-Since** header is the date and time the content was not modified since.
+The IfUnmodifiedSince property represents the value of an **If-Unmodified-Since** HTTP header on an HTTP request message. The **If-Unmodified-Since** header is the date and time the content was not modified since.
 
-Javascript and .NET languages do not use the [DateTime](../windows.foundation/datetime.md) object directly. In Javascript a [DateTime](../windows.foundation/datetime.md) is projected as a  object, and in .NET it is projected as a [System.DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx). Each language transparently handles the conversion to the granularity and date ranges for the respective language.
+Javascript and .NET languages do not use the [DateTime](../windows.foundation/datetime.md) object directly. In Javascript a [DateTime](../windows.foundation/datetime.md) is projected as a  object, and in .NET it is projected as a [System.DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN). Each language transparently handles the conversion to the granularity and date ranges for the respective language.
 
 In C++, a  value has the same granularity as a  and supports the date ranges required by Javascript and .NET.
 
@@ -26,7 +26,7 @@ For more detailed information, see the [Windows.Foundation.DateTime](../windows.
 
 
 
-The following sample code shows a method to set the **If-Unmodified-Since** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the [IfUnmodifiedSince](httprequestheadercollection_ifunmodifiedsince.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
+The following sample code shows a method to set the **If-Unmodified-Since** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the IfUnmodifiedSince property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
 
 ```csharp
     public void DemonstrateHeaderRequestIfUnmodifiedSince() {

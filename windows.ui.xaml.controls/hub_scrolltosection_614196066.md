@@ -17,7 +17,7 @@ Scrolls the hub to bring the specified hub section into view.
 The hub section to bring into view.
 
 ## -remarks
-You use the [ScrollToSection](hub_scrolltosection_614196066.md) method to bring a section into view when the [Hub](hub.md) control is not used as a view in a [SemanticZoom](semanticzoom.md) control. To bring a section into view when the [Hub](hub.md) control is used in a [SemanticZoom](semanticzoom.md), use the [MakeVisible](hub_makevisible_1148837317.md) method instead.
+You use the ScrollToSection method to bring a section into view when the [Hub](hub.md) control is not used as a view in a [SemanticZoom](semanticzoom.md) control. To bring a section into view when the [Hub](hub.md) control is used in a [SemanticZoom](semanticzoom.md), use the [MakeVisible](hub_makevisible_1148837317.md) method instead.
 
 
 <!--Add remarks/example showing how to get and specify the section. Hub.Sections index, etc.-->

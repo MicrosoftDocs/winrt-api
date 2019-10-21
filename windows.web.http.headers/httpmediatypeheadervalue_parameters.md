@@ -16,9 +16,9 @@ Gets a set of parameters included in the **Content-Type** HTTP header.
 A set of parameters.
 
 ## -remarks
-The [Parameters](httpmediatypeheadervalue_parameters.md) property contains a set of zero or more name/value pairs associated with the [MediaType](httpmediatypeheadervalue_mediatype.md).
+The Parameters property contains a set of zero or more name/value pairs associated with the [MediaType](httpmediatypeheadervalue_mediatype.md).
 
-The [CharSet](httpmediatypeheadervalue_charset.md) property is one name/value pair. The [CharSet](httpmediatypeheadervalue_charset.md) property is a shortcut to access the value of the entry in the [Parameters](httpmediatypeheadervalue_parameters.md) list whose name is **charset**.
+The [CharSet](httpmediatypeheadervalue_charset.md) property is one name/value pair. The [CharSet](httpmediatypeheadervalue_charset.md) property is a shortcut to access the value of the entry in the Parameters list whose name is **charset**.
 
 ## -examples
 

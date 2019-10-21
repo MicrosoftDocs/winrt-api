@@ -16,9 +16,9 @@ Gets the collection of custom buttons displayed on the [InkToolbar](inktoolbar.m
 A collection of [InkToolbar](inktoolbar.md) custom buttons.
 
 ## -remarks
-[Children](inktoolbar_children.md) returns only the number of buttons on the [InkToolbar](inktoolbar.md) that have been added manually (see [ActiveTool](inktoolbar_activetool.md) and [InitialControls](inktoolbar_initialcontrols.md)). The default [InkToolbar](inktoolbar.md) does not add any buttons to the value of this property.
+Children returns only the number of buttons on the [InkToolbar](inktoolbar.md) that have been added manually (see [ActiveTool](inktoolbar_activetool.md) and [InitialControls](inktoolbar_initialcontrols.md)). The default [InkToolbar](inktoolbar.md) does not add any buttons to the value of this property.
 
-[Children](inktoolbar_children.md) does not include buttons declared in markup.
+Children does not include buttons declared in markup.
 
 
 The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:
@@ -34,4 +34,4 @@ The [InkToolbar](inktoolbar.md) consists of two distinct groups of button types:
 ## -examples
 
 ## -see-also
-[Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar), [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [ChildrenProperty](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.inktoolbar.ChildrenProperty), [Simple ink sample (C#/C++)](http://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample (C++)](http://go.microsoft.com/fwlink/p/?LinkID=620314), [Ink sample (JavaScript)](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample)
+[Pen and stylus interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar), [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [ChildrenProperty](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.inktoolbar.ChildrenProperty), [Simple ink sample (C#/C++)](https://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample (C++)](https://go.microsoft.com/fwlink/p/?LinkID=620314), [Ink sample (JavaScript)](https://go.microsoft.com/fwlink/p/?LinkID=620308), [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample)

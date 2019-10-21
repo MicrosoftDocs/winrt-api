@@ -40,14 +40,14 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that is applied to t
 The brush that fills the border. The default is **null**, (a null brush) which is evaluated as [Transparent](../windows.ui/colors_transparent.md) for rendering.
 
 ## -remarks
-The [BorderThickness](border_borderthickness.md) value must be greater than 0 in order to see the [BorderBrush](border_borderbrush.md) value take effect.
+The [BorderThickness](border_borderthickness.md) value must be greater than 0 in order to see the BorderBrush value take effect.
 
 ## -examples
-This example shows how to set the [BorderBrush](border_borderbrush.md) value to a solid color using an inline-defined attribute value "Blue". The XAML parser uses this "Blue" value to refer to the named color [Colors.Blue](../windows.ui/colors_blue.md), and to create the [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) instance that supplies the runtime value.
+This example shows how to set the BorderBrush value to a solid color using an inline-defined attribute value "Blue". The XAML parser uses this "Blue" value to refer to the named color [Colors.Blue](../windows.ui/colors_blue.md), and to create the [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) instance that supplies the runtime value.
 
 
 
-[!code-xml[BorderContainer](../windows.ui.xaml.controls/code/BorderSample2/csharp/Page.xaml#SnippetBorderContainer)]
+[!code-xaml[BorderContainer](../windows.ui.xaml.controls/code/BorderSample2/csharp/Page.xaml#SnippetBorderContainer)]
 
 ## -see-also
-[Use brushes](http://msdn.microsoft.com/library/02141f86-355e-4046-86ea-2a89d615b7db)
+[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)

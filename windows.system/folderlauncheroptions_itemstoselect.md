@@ -17,7 +17,7 @@ Provides the list of items to select when File Explorer displays the contents of
 The list of items to select when File Explorer displays the contents of the specified folder.
 
 ## -remarks
-You can add and remove items in this collection. The [ItemsToSelect](folderlauncheroptions_itemstoselect.md) property is read-only, however, because you can't delete the collection that it returns or provide another instance of a collection.
+You can add and remove items in this collection. The ItemsToSelect property is read-only, however, because you can't delete the collection that it returns or provide another instance of a collection.
 
 ## -examples
 

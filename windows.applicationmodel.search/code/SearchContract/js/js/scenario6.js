@@ -28,7 +28,7 @@
                 var deferral = suggestionRequest.getDeferral();
 
                 // Use the web service Uri entered in the urlInput that supports this standard in order to see suggestions come from the web service.
-                // See http://msdn.microsoft.com/en-us/library/cc848863(v=vs.85).aspx for details on XML Search Suggestions format.
+                // See http://msdn.microsoft.com/library/cc848863(v=vs.85).aspx for details on XML Search Suggestions format.
                 // And replace "{searchTerms}" with the query string, which should be encoded into the URI.
                 var suggestionUri = document.getElementById("urlInput").innerText.replace("{searchTerms}", encodeURIComponent(queryText));
 

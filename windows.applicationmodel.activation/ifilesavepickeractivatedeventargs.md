@@ -15,7 +15,7 @@ Provides information about the activated event that fires when the user saves a 
 ## -remarks
 ### Interface inheritance
 
-[IFileSavePickerActivatedEventArgs](ifilesavepickeractivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [IFileSavePickerActivatedEventArgs](ifilesavepickeractivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+IFileSavePickerActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement IFileSavePickerActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

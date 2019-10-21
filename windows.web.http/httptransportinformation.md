@@ -13,7 +13,7 @@ public class HttpTransportInformation : Windows.Foundation.IStringable, Windows.
 Provides information about the underlying transport used by the HTTP connection.
 
 ## -remarks
-The primary use of the [HttpTransportInformation](httptransportinformation.md) object is to get SSL information when SSL is used for the HTTP connection.
+The primary use of the HttpTransportInformation object is to get SSL information when SSL is used for the HTTP connection.
 
 ## -examples
 

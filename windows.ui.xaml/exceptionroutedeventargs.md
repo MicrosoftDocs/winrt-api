@@ -15,7 +15,7 @@ Provides event data for exceptions that are raised as events by asynchronous ope
 ## -remarks
 Don't display [ErrorMessage](exceptionroutedeventargs_errormessage.md) strings to end users. Instead, use substrings and codes within the string to positively identify the error condition, and have your app take appropriate action or display user-appropriate information in the app UI.
 
-[ExceptionRoutedEventArgs](exceptionroutedeventargs.md) is the event data for several events that use the [ExceptionRoutedEventHandler](exceptionroutedeventhandler.md) delegate. These include:
+ExceptionRoutedEventArgs is the event data for several events that use the [ExceptionRoutedEventHandler](exceptionroutedeventhandler.md) delegate. These include:
 + [Image.ImageFailed](../windows.ui.xaml.controls/image_imagefailed.md)
 + [ImageBrush.ImageFailed](../windows.ui.xaml.media/imagebrush_imagefailed.md)
 + [BitmapImage.ImageFailed](../windows.ui.xaml.media.imaging/bitmapimage_imagefailed.md)
@@ -24,10 +24,10 @@ Don't display [ErrorMessage](exceptionroutedeventargs_errormessage.md) strings t
 
 ### **ExceptionRoutedEventArgs** derived classes
 
-[ExceptionRoutedEventArgs](exceptionroutedeventargs.md) is the parent class for [MediaFailedRoutedEventArgs](mediafailedroutedeventargs.md).
+ExceptionRoutedEventArgs is the parent class for [MediaFailedRoutedEventArgs](mediafailedroutedeventargs.md).
 
 ## -examples
-This example shows use of [ExceptionRoutedEventArgs](exceptionroutedeventargs.md) in a handler in order to get the **HResult** and error message.
+This example shows use of ExceptionRoutedEventArgs in a handler in order to get the **HResult** and error message.
 
 
 

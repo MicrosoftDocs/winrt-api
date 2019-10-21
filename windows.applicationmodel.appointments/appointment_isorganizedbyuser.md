@@ -13,7 +13,7 @@ public bool IsOrganizedByUser { get;  set; }
 Gets or sets a value that indicates whether the appointment was organized by the current user.
 
 ## -property-value
-A [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx) value that indicates whether the appointment was organized by the current user **TRUE** indicates that the appointment was organized by the user; otherwise **FALSE**.
+A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value that indicates whether the appointment was organized by the current user **TRUE** indicates that the appointment was organized by the user; otherwise **FALSE**.
 
 ## -remarks
 

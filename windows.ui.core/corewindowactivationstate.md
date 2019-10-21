@@ -10,7 +10,7 @@ public enum Windows.UI.Core.CoreWindowActivationState : int
 # CoreWindowActivationState
 
 ## -description
-Specifies the set of reasons that a [CoreWindow](corewindow.md) 's [Activated](corewindow_activated.md) event was raised.
+Specifies the set of reasons that a [CoreWindow](corewindow.md)'s [Activated](corewindow_activated.md) event was raised.
 
 ## -enum-fields
 ### -field CodeActivated:0

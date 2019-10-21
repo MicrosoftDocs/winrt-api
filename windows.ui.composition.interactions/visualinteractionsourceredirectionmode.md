@@ -30,7 +30,7 @@ Pointer input goes to the UI thread, Precision Touchpad input goes to the compos
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | CapableTouchpadAndPointerWheel |
 | 1803 | 17134 | PointerWheelOnly |

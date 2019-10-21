@@ -11,13 +11,13 @@ public void Show()
 
 ## -description
 > [!NOTE]
-> [SettingsPane](settingspane.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](http://msdn.microsoft.com/library/2d765e90-3fa0-42f5-a5cb-bedc14c3f60a).
+> [SettingsPane](settingspane.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](https://docs.microsoft.com/windows/uwp/app-settings/guidelines-for-app-settings).
 
 Displays the Settings Charm pane to the user.
 
 ## -remarks
 
-The [Show](settingspane_show_392493604.md) method raises an exception if one of the following is true:
+The Show method raises an exception if one of the following is true:
 
 + It is called from a snapped app.
 + It is called when the current app does not have focus.

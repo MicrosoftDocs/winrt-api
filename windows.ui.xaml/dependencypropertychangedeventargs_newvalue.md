@@ -20,4 +20,4 @@ The dependency property value after the change.
 ## -examples
 
 ## -see-also
-[Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

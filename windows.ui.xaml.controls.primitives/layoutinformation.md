@@ -14,12 +14,18 @@ Defines methods that provide additional information about the layout of an eleme
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | GetAvailableSize |
+
 ## -examples
 The following example shows how to use [GetLayoutSlot](layoutinformation_getlayoutslot_399246493.md) and draw the bounding box for the [Rectangle](../windows.ui.xaml.shapes/rectangle.md).
 
 
 
-[!code-xml[1](../windows.ui.xaml.controls.primitives/code/GetLayoutInfo/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.controls.primitives/code/GetLayoutInfo/csharp/Page.xaml#Snippet1)]
 
 [!code-csharp[2](../windows.ui.xaml.controls.primitives/code/GetLayoutInfo/csharp/Page.xaml.cs#Snippet2)]
 

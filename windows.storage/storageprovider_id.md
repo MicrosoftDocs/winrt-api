@@ -16,7 +16,7 @@ Gets an identifier for the current provider of files and folders.
 The identifier for the provider.
 
 ## -remarks
-The ID can be `Local`, `Network`, or `OneDrive` depending on your provider.
+The ID that is returned will depend on your provider. Examples include `Local`, `Network`, `OneDrive`, or `Computer`.
 
 ## -examples
 

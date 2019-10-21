@@ -18,7 +18,7 @@ Gets or sets a value that specifies whether KeyTips are shown for access keys.
 ## -remarks
 
 ## -see-also
-[UIElement.KeyTipPlacementMode](../windows.ui.xaml/uielement_keytipplacementmode.md), [Access keys](https://msdn.microsoft.com/windows/uwp/input-and-devices/access-keys)
+[UIElement.KeyTipPlacementMode](../windows.ui.xaml/uielement_keytipplacementmode.md), [Access keys](https://docs.microsoft.com/windows/uwp/input-and-devices/access-keys)
 
 ## -examples
 [Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)

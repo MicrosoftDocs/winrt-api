@@ -20,4 +20,4 @@ The pattern that provides the requested components in the template. See the rema
 ## -examples
 
 ## -see-also
-[Date and time formatting sample](http://go.microsoft.com/fwlink/p/?LinkId=231618)
+[Date and time formatting sample](https://go.microsoft.com/fwlink/p/?LinkId=231618)

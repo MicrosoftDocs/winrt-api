@@ -10,9 +10,9 @@ Enables an app to replace the existing account management and syncing functional
 
 ## -remarks
 > [!IMPORTANT]
-> In order to be recognized, the app must have the restricted **userDataAccountsProvider** capability. See [App capability declarations](http://msdn.microsoft.com/library/25b18ba5-e584-4537-9f19-bb2c8c52dfe1) for more information.
+> In order to be recognized, the app must have the restricted **userDataAccountsProvider** capability. See [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations) for more information.
 
 ## -examples
 
 ## -see-also
-[App capability declarations](http://msdn.microsoft.com/library/25b18ba5-e584-4537-9f19-bb2c8c52dfe1)
+[App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations)

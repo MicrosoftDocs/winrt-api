@@ -10,10 +10,10 @@ public Windows.Media.Devices.Core.VariablePhotoSequenceController VariablePhotoS
 # Windows.Media.Devices.VideoDeviceController.VariablePhotoSequenceController
 
 ## -description
-Gets the [VariablePhotoSequenceController](videodevicecontroller_variablephotosequencecontroller.md) associated with the [VideoDeviceController](videodevicecontroller.md).
+Gets the VariablePhotoSequenceController associated with the [VideoDeviceController](videodevicecontroller.md).
 
 ## -property-value
-The [VariablePhotoSequenceController](videodevicecontroller_variablephotosequencecontroller.md) associated with the [VideoDeviceController](videodevicecontroller.md).
+The VariablePhotoSequenceController associated with the [VideoDeviceController](videodevicecontroller.md).
 
 ## -remarks
 

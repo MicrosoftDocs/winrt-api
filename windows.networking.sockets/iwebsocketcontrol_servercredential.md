@@ -16,7 +16,7 @@ The credential to use to authenticate to the WebSocket server through HTTP heade
 The credential to use to authenticate to the WebSocket server through HTTP header authentication.
 
 ## -remarks
-The [ServerCredential](iwebsocketcontrol_servercredential.md) property must be set before calling the [ConnectAsync](iwebsocket_connectasync_682685111.md) method on the [IWebSocket](iwebsocket.md) object. An attempt to set the [ServerCredential](iwebsocketcontrol_servercredential.md) property after calling the [ConnectAsync](iwebsocket_connectasync_682685111.md) method will result in an error.
+The ServerCredential property must be set before calling the [ConnectAsync](iwebsocket_connectasync_682685111.md) method on the [IWebSocket](iwebsocket.md) object. An attempt to set the ServerCredential property after calling the [ConnectAsync](iwebsocket_connectasync_682685111.md) method will result in an error.
 
 ## -examples
 

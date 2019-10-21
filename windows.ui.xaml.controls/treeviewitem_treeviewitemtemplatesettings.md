@@ -11,7 +11,7 @@ public TreeViewItemTemplateSettings TreeViewItemTemplateSettings { get; }
 
 ## -description
 
-Gets an object that provides calculated values that can be referenced as [{TemplateBinding} markup extension](http://msdn.microsoft.com/library/fde71086-9d42-4287-89ed-8fbfcdf169dc) sources when defining templates for a TreeViewItem control.
+Gets an object that provides calculated values that can be referenced as [{TemplateBinding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/templatebinding-markup-extension) sources when defining templates for a TreeViewItem control.
 
 ## -property-value
 

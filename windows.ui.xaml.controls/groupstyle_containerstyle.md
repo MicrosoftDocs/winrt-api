@@ -11,7 +11,7 @@ public Windows.UI.Xaml.Style ContainerStyle { get;  set; }
 
 ## -description
 > [!NOTE]
-> [ContainerStyle](groupstyle_containerstyle.md) may be altered or unavailable for releases after Windows 8.1 and is not supported for [ItemsControl.GroupStyle](itemscontrol_groupstyle.md).
+> ContainerStyle may be altered or unavailable for releases after Windows 8.1 and is not supported for [ItemsControl.GroupStyle](itemscontrol_groupstyle.md).
 
 Gets or sets the style that is applied to the [GroupItem](groupitem.md) generated for each item.
 
@@ -41,4 +41,4 @@ The style that is applied to the [GroupItem](groupitem.md) generated for each it
 ## -examples
 
 ## -see-also
-[HeaderContainerStyle](groupstyle_headercontainerstyle.md), [How to group items in a list or grid](http://msdn.microsoft.com/library/b9ed59b9-651c-40c7-a39c-c4db432dc132)
+[HeaderContainerStyle](groupstyle_headercontainerstyle.md), [How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10))

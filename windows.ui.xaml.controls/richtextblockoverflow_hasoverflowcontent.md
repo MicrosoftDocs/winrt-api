@@ -16,7 +16,7 @@ Gets a value that indicates whether the [RichTextBlockOverflow](richtextblockove
 **True** if the [RichTextBlockOverflow](richtextblockoverflow.md) has content that extends beyond its bounds; otherwise, **false**.
 
 ## -remarks
-If [HasOverflowContent](richtextblockoverflow_hasoverflowcontent.md) is **true** and the [OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md) property is set, the extra content flows into the [OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md) element.
+If HasOverflowContent is **true** and the [OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md) property is set, the extra content flows into the [OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md) element.
 
 ## -examples
 

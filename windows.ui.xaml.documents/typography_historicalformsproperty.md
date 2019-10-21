@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty HistoricalFormsProperty { get; }
 # Windows.UI.Xaml.Documents.Typography.HistoricalFormsProperty
 
 ## -description
-Identifies the [HistoricalForms](typography_historicalforms.md) attached property.
+Identifies the [HistoricalForms](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -property-value
-The identifier for the [HistoricalForms](typography_historicalforms.md) attached property.
+The identifier for the [HistoricalForms](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -remarks
 

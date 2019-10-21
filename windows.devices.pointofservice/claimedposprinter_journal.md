@@ -21,7 +21,7 @@ There is only one instance of this object per [ClaimedPosPrinter](claimedposprin
 An object that represents the journal station for a claimed point-of-service printer. Null if a journal station is not present.
 
 ## -remarks
-You should check the value of the [JournalPrinterCapabilities.IsPrinterPresent](journalprintercapabilities_isprinterpresent.md) property before you try to use the [ClaimedPosPrinter.Journal](claimedposprinter_journal.md) property.
+You should check the value of the [JournalPrinterCapabilities.IsPrinterPresent](journalprintercapabilities_isprinterpresent.md) property before you try to use the ClaimedPosPrinter.Journal property.
 
 ## -examples
 

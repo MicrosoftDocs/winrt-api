@@ -14,11 +14,11 @@ public class ProximityDevice : Windows.Networking.Proximity.IProximityDevice
 Enables you to publish messages to proximate devices or subscribe to messages from proximate devices.
 
 ## -remarks
-The [ProximityDevice](proximitydevice.md) class enables applications to communicate with running applications on devices, typically within a range of 3 centimeters to 4 centimeters.
+The ProximityDevice class enables applications to communicate with running applications on devices, typically within a range of 3 centimeters to 4 centimeters.
 
-You can create an instance of [ProximityDevice](proximitydevice.md) by using the [GetDefault](proximitydevice_getdefault_846721868.md) or [FromId](proximitydevice_fromid_114571398.md) static method.
+You can create an instance of ProximityDevice by using the [GetDefault](proximitydevice_getdefault_846721868.md) or [FromId](proximitydevice_fromid_114571398.md) static method.
 
-The [ProximityDevice](proximitydevice.md) class uses publish/subscribe semantics and is useful for advertising and receiving small blocks of data. For larger amounts of data, or for persistent communications, use the [PeerFinder](peerfinder.md) and [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket_1221375020.md) classes. For UWP apps, publications and subscriptions are active only if the calling app is in the foreground.
+The ProximityDevice class uses publish/subscribe semantics and is useful for advertising and receiving small blocks of data. For larger amounts of data, or for persistent communications, use the [PeerFinder](peerfinder.md) and [StreamSocket](../windows.networking.sockets/streamsocket_streamsocket_1221375020.md) classes. For UWP apps, publications and subscriptions are active only if the calling app is in the foreground.
 
 
 
@@ -35,7 +35,7 @@ The [ProximityDevice](proximitydevice.md) class uses publish/subscribe semantics
 [!code-vb[ArriveDepart](../windows.networking.proximity/code/ProximityReferenceSample/vbnet/MainPage.xaml.vb#SnippetArriveDepart)]
 
 ## -see-also
-[Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+[Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
 
 ## -capabilities
 proximity

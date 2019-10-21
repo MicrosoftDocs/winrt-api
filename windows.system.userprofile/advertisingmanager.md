@@ -13,9 +13,15 @@ public class AdvertisingManager
 Provides a property that lets the caller retrieve the advertising ID.
 
 ## -remarks
-[AdvertisingManager](advertisingmanager.md) is a static runtime object and does not need to be retrieved or created.
+AdvertisingManager is a static runtime object and does not need to be retrieved or created.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetForUser |
 
 ## -examples
 
 ## -see-also
-[Microsoft Advertising SDK](http://aka.ms/ads-sdk-uwp), [Microsoft Store policies for advertising conduct and content](https://msdn.microsoft.com/en-us/library/windows/apps/dn764944.aspx#pol_10_10)
+[Microsoft Advertising SDK](https://aka.ms/ads-sdk-uwp), [Microsoft Store policies for advertising conduct and content](https://docs.microsoft.com/legal/windows/agreements/store-policies)

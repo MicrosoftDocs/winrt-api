@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler MapElementPointerEntered<Windo
 Occurs when a pointer moves into the bounding area of a [MapElement](mapelement.md) on a [MapControl](mapcontrol.md).
 
 ## -remarks
-Mouse interactions are received, processed, and managed as pointers. The [MapElementPointerEntered](mapcontrol_mapelementpointerentered.md) event is triggered as the user moves their mouse over an element. An instance of [MapElementPointerEnteredEventArgs](mapelementpointerenteredeventargs.md) provides data for this event.
+Mouse interactions are received, processed, and managed as pointers. The MapElementPointerEntered event is triggered as the user moves their mouse over an element. An instance of [MapElementPointerEnteredEventArgs](mapelementpointerenteredeventargs.md) provides data for this event.
 
 ## -examples
 

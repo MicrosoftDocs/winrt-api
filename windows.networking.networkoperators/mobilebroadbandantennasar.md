@@ -14,6 +14,12 @@ Represents the antenna on a broadband modem.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | MobileBroadbandAntennaSar |
+
 ## -see-also
 
 ## -examples

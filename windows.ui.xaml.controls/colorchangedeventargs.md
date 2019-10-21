@@ -17,8 +17,7 @@ Provides event data for the ColorChanged event.
 
 ## -see-also
 
-[ColorPicker.ColorChanged](colorpicker_colorchanged.md)
-[ColorSpectrum.ColorChanged](colorspectrum_colorchanged.md)
+[ColorPicker.ColorChanged](/uwp/api/windows.ui.xaml.controls.colorpicker.colorchanged), [ColorSpectrum.ColorChanged](/uwp/api/windows.ui.xaml.controls.primitives.colorspectrum.colorchanged)
 
 ## -examples
 

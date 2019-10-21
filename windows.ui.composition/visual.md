@@ -44,8 +44,16 @@ Visual supports two forms of rotation:
 
     Rotation by orientation uses the [Orientation](visual_orientation.md) property to specify a quaternion describing an orientation and rotation in 3D space.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ParentForTransform |
+| 1703 | 15063 | RelativeOffsetAdjustment |
+| 1703 | 15063 | RelativeSizeAdjustment |
+
 ## -examples
 
 ## -see-also
 
-[Composition Visual Tree Overview](http://go.microsoft.com/fwlink/p/?LinkID=699335), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620483)
+[Composition Visual Tree Overview](https://go.microsoft.com/fwlink/p/?LinkID=699335), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620483)

@@ -20,7 +20,7 @@ Register a [Geofence](geofence.md) to be monitored by the system by adding it to
 
 Geofences are persisted to disk, so they only need to be added to the system once. Attempting to add a [Geofence](geofence.md) with an [Id](geofence_id.md) that is already registered will throw an exception.
 
-Attempting to remove a [Geofence](geofence.md) from the [Geofences](geofencemonitor_geofences.md) property will fail with an exception if the specified [Geofence](geofence.md) is registered with the system but does not belong to the calling application's collection.
+Attempting to remove a [Geofence](geofence.md) from the Geofences property will fail with an exception if the specified [Geofence](geofence.md) is registered with the system but does not belong to the calling application's collection.
 
 This vector reflects only updates made by the app. To view changes made by the system, as in after a single-use [Geofence](geofence.md) is triggered and removed, the app can call this property again or safely remove the removed [Geofence](geofence.md) from a previously returned vector.
 

@@ -16,7 +16,7 @@ Gets or sets the character repertoire.
 The character repertoire.
 
 ## -remarks
-To learn more about character repertoires, see [RichEdit Font Binding](http://go.microsoft.com/fwlink/p/?linkid=239967). Character repertoires are typically scripts like Arabic and Latin, but there are also character repertoires for symbols and Emoji.
+To learn more about character repertoires, see [RichEdit Font Binding](https://go.microsoft.com/fwlink/p/?linkid=239967). Character repertoires are typically scripts like Arabic and Latin, but there are also character repertoires for symbols and Emoji.
 
 ## -examples
 

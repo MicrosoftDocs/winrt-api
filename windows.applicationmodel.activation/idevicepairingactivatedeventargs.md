@@ -15,7 +15,7 @@ Provides information when an app is activated as a result of a device pairing.
 ## -remarks
 ### Interface inheritance
 
-[IDevicePairingActivatedEventArgs](idevicepairingactivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [IDevicePairingActivatedEventArgs](idevicepairingactivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+IDevicePairingActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement IDevicePairingActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

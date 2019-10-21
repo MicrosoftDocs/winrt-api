@@ -84,7 +84,7 @@ public static int Main(string[] args)
 }
 ```
 
-Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
+Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-xaml-the-vsix-extension-and-the-nuget-package).
 
 ```cppwinrt
 // main.cpp : In Visual Studio, create a new Windows Console Application (C++/WinRT).
@@ -197,7 +197,7 @@ int __cdecl main(Platform::Array<String^>^ args)
 ```
 
 ## -see-also
-[Add app package sample](http://go.microsoft.com/fwlink/p/?linkid=236968), [AddPackageAsync(Uri, IIterable(Uri), DeploymentOptions, PackageVolume)](packagemanager_addpackageasync_2048203939.md)
+[Add app package sample](https://go.microsoft.com/fwlink/p/?linkid=236968), [AddPackageAsync(Uri, IIterable(Uri), DeploymentOptions, PackageVolume)](packagemanager_addpackageasync_2048203939.md)
 
 ## -capabilities
 packageManagement

@@ -15,6 +15,13 @@ Creates objects that you use to retrieve push notification channels from the Win
 ## -remarks
 This class does not have a constructor. For more information about usage, see the examples section.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CreateRawPushNotificationChannelWithAlternateKeyForApplicationAsync(IBuffer,String) |
+| 1703 | 15063 | CreateRawPushNotificationChannelWithAlternateKeyForApplicationAsync(IBuffer,String,String) |
+
 ## -examples
 The following example shows the use of the [CreatePushNotificationChannelForApplicationAsync](pushnotificationchannelmanagerforuser_createpushnotificationchannelforapplicationasync_1900738870.md) method to retrieve a push notification channel for the calling app.
 

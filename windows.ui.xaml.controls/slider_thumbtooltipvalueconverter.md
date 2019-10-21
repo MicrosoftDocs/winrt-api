@@ -25,7 +25,7 @@ Gets or sets the converter logic that converts the range value of the [Slider](s
 A converter implementation.
 
 ## -remarks
-By default, the [Slider](slider.md) 's thumb tooltip shows the numeric value of the slider. To show other values in the thumb tooltip, you create a custom value converter and assign it to the [ThumbToolTipValueConverter](slider_thumbtooltipvalueconverter.md) property.
+By default, the [Slider](slider.md)'s thumb tooltip shows the numeric value of the slider. To show other values in the thumb tooltip, you create a custom value converter and assign it to the ThumbToolTipValueConverter property.
 
 ## -examples
 

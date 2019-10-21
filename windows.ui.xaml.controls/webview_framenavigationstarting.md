@@ -32,7 +32,7 @@ You can cancel navigation in a handler for this event by setting the [WebViewNav
 
 
 Similar events occur in the same order for each **iframe** in the [WebView](webview.md) content: 
-+ [FrameNavigationStarting](webview_framenavigationstarting.md)
++ FrameNavigationStarting
 + [FrameContentLoading](webview_framecontentloading.md)
 + [FrameDOMContentLoaded](webview_framedomcontentloaded.md)
 + [FrameNavigationCompleted](webview_framenavigationcompleted.md)

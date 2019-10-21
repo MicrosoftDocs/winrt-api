@@ -24,4 +24,4 @@ This is a static member of the [ApplicationView](applicationview.md) class. For 
 ## -examples
 
 ## -see-also
-[Snap sample](http://go.microsoft.com/fwlink/p/?linkid=231523)
+[Snap sample](https://go.microsoft.com/fwlink/p/?linkid=231523)

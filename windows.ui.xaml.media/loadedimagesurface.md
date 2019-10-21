@@ -29,7 +29,7 @@ If the image source is a stream, that stream is expected to contain an image fil
 
 ### LoadedImageSurface encoding and decoding
 The underlying codec support for image files is supplied by Windows Imaging Component (WIC) API in Windows. For more info on specific image formats as documented for the codes, see
-[Native WIC Codecs](http://msdn.microsoft.com/library/8d3e4b3a-fa39-475c-b177-61fc81e5ffcc).
+[Native WIC Codecs](https://docs.microsoft.com/windows/desktop/wic/native-wic-codecs).
 
 Using one of the factory methods, you can create an instance of **LoadedImageSurface** from different types of image sources and control the max size that the image decodes at. If 
 no max size is specified, then the image will decode to its natural size.

@@ -30,7 +30,7 @@ One of the [TextAlignment](../windows.ui.xaml/textalignment.md) enumeration valu
 
 ## -remarks
 
-This property supports [XAML Standard](http://aka.ms/xamlstandard). It provides the same functionality as the **TextAlignement** property. If both properties are set to conflicting values, the last one set is used.
+This property supports [XAML Standard](https://aka.ms/xamlstandard). It provides the same functionality as the **TextAlignement** property. If both properties are set to conflicting values, the last one set is used.
 
 ## -see-also
 

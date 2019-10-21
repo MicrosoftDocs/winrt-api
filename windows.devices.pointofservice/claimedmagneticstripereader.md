@@ -16,6 +16,12 @@ Represents the claimed magnetic stripe reader.
 ## -remarks
 This object is created when [ClaimReaderAsync](magneticstripereader_claimreaderasync_1639218756.md) method completes.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | Closed |
+
 ## -examples
 
 ## -see-also

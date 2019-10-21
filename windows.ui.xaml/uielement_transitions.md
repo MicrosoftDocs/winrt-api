@@ -44,22 +44,28 @@ This is a short list of some of the possible types for transitions:
 + [ReorderThemeTransition](../windows.ui.xaml.media.animation/reorderthemetransition.md)
 + [RepositionThemeTransition](../windows.ui.xaml.media.animation/repositionthemetransition.md)
 
-
 Specific classes that derive from [UIElement](uielement.md) sometimes have their own properties that hold other types of transitions for class-specific scenarios. For example, [Popup.ChildTransitions](../windows.ui.xaml.controls.primitives/popup_childtransitions.md) and [ItemsControl.ItemContainerTransitions](../windows.ui.xaml.controls/itemscontrol_itemcontainertransitions.md).
 
 Transition animations play a particular role in the UI design of your app. The basic idea is that when there is a change or transition, the animation draws the attention of the user to the change.
 <!-- For more info, see  Transition animations and theme animations.-->
 
-It's not common to set the value of the [Transitions](uielement_transitions.md) property directly on a [UIElement](uielement.md) that is a direct element of app UI. It's more common to have a transitions collection be a part of a visual state, template or style. In this case you use mechanisms such as [Setter](setter.md) of a [Style](style.md) to specify the [Transitions](uielement_transitions.md) property, and set the value using XAML-defined content that is typically stored as a XAML resource.
+It's not common to set the value of the Transitions property directly on a [UIElement](uielement.md) that is a direct element of app UI. It's more common to have a transitions collection be a part of a visual state, template or style. In this case you use mechanisms such as [Setter](setter.md) of a [Style](style.md) to specify the Transitions property, and set the value using XAML-defined content that is typically stored as a XAML resource.
 
-[VisualTransition](visualtransition.md) is not one of the types you put in the [UIElement.Transitions](uielement_transitions.md) collection. [VisualTransition](visualtransition.md) is specifically for animations in visual state groups, and is used by the [VisualStateGroup.Transitions](visualstategroup_transitions.md) property.
+[VisualTransition](visualtransition.md) is not one of the types you put in the UIElement.Transitions collection. [VisualTransition](visualtransition.md) is specifically for animations in visual state groups, and is used by the [VisualStateGroup.Transitions](visualstategroup_transitions.md) property.
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Motion](/windows/uwp/design/motion/).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to open the app and see [Implicit Transitions](xamlcontrolsgallery:/item/ImplicitTransitions) and [Theme Transitions](xamlcontrolsgallery:/item/ThemeTransitions) in action.
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
 This XAML example shows a single [EntranceThemeTransition](../windows.ui.xaml.media.animation/entrancethemetransition.md) as defined in a [Style](style.md) for a [Button](../windows.ui.xaml.controls/button.md). Transition animation properties are typically set in styles and templates rather than as properties directly in a UI definition. Styles are typically stored as a XAML resource.
 
-
-
-[!code-xml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
+[!code-xaml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
 
 ## -see-also
-[Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md)
+
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md)

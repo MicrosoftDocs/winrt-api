@@ -10,9 +10,9 @@ public int TryUpdatePositionWithAnimation(Windows.UI.Composition.CompositionAnim
 # Windows.UI.Composition.Interactions.InteractionTracker.TryUpdatePositionWithAnimation
 
 ## -description
-Tries to update the [InteractionTracker](interactiontracker.md) 's position by applying an animation.
+Tries to update the [InteractionTracker](interactiontracker.md)'s position by applying an animation.
 
-The [TryUpdatePositionWithAnimation](interactiontracker_tryupdatepositionwithanimation_1152201970.md) method updates the position of [InteractionTracker](interactiontracker.md) based on the [CompositionAnimation](../windows.ui.composition/compositionanimation.md) input as a parameter. This method is used in situations in which the motion of [InteractionTracker](interactiontracker.md) needs to be defined by a specific animation, instead of the traditional Inertia experience. [TryUpdatePositionWithAnimation](interactiontracker_tryupdatepositionwithanimation_1152201970.md) can be called from the Idle or Inertia state – doing so, [InteractionTracker](interactiontracker.md) ’s position will be driven by the defined animation and enter the CustomAnimation state.
+The TryUpdatePositionWithAnimation method updates the position of [InteractionTracker](interactiontracker.md) based on the [CompositionAnimation](../windows.ui.composition/compositionanimation.md) input as a parameter. This method is used in situations in which the motion of [InteractionTracker](interactiontracker.md) needs to be defined by a specific animation, instead of the traditional Inertia experience. TryUpdatePositionWithAnimation can be called from the Idle or Inertia state – doing so, [InteractionTracker](interactiontracker.md) ’s position will be driven by the defined animation and enter the CustomAnimation state.
 
 ## -parameters
 ### -param animation
@@ -22,7 +22,7 @@ The animation to apply to the [InteractionTracker](interactiontracker.md).
 Returns the request ID. On state transitions, the request which caused the change in state will be included in the args. These IDs will start at 1 and increase with each try call during the lifetime of the application.
 
 ## -remarks
-When creating the animation you want to update [InteractionTracker](interactiontracker.md) ’s position with, you do not need to call [StartAnimation](../windows.ui.composition/compositionobject_startanimation_709050842.md). The system will take care of this behind the scenes once the animation is passed in via [TryUpdatePositionWithAnimation](interactiontracker_tryupdatepositionwithanimation_1152201970.md).
+When creating the animation you want to update [InteractionTracker](interactiontracker.md) ’s position with, you do not need to call [StartAnimation](../windows.ui.composition/compositionobject_startanimation_709050842.md). The system will take care of this behind the scenes once the animation is passed in via TryUpdatePositionWithAnimation.
 
 When defining the animation that will animate [InteractionTracker](interactiontracker.md) ’s position, be sure to either use a [Vector3KeyFrameAnimation](../windows.ui.composition/vector3keyframeanimation.md) or an [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) that resolves to a Vector3.
 

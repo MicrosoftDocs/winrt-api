@@ -23,6 +23,15 @@ The account and credential command classes in the [Windows.UI.ApplicationSetting
    <tr><td>[PasswordCredential](../windows.security.credentials/passwordcredential.md)</td><td>[CredentialCommand](credentialcommand.md)</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | ShowAddAccountAsync |
+| 1607 | 14393 | ShowManageAccountsAsync |
+| 1803 | 17134 | ShowAddAccountForUserAsync |
+| 1803 | 17134 | ShowManageAccountsForUserAsync |
+
 ## -examples
 
 ## -see-also

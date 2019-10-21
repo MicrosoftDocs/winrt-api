@@ -15,11 +15,20 @@ Provides configuration details for the [RadialController](radialcontroller.md) m
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ActiveControllerWhenMenuIsSuppressed |
+| 1703 | 15063 | IsMenuSuppressed |
+| 1709 | 16299 | AppController |
+| 1709 | 16299 | IsAppControllerEnabled |
+
 ## -examples
 
 In this example, we specify which built-in tools are displayed on the menu, and set the default tool.
 
-1. First, in the `ModifySystemDefaults` function, we get a reference to the [RadialControllerConfiguration](radialcontrollerconfiguration.md) object for the Surface Dial (`config`) by calling [GetForCurrentView](radialcontrollerconfiguration_getforcurrentview_1363600702.md).
+1. First, in the `ModifySystemDefaults` function, we get a reference to the RadialControllerConfiguration object for the Surface Dial (`config`) by calling [GetForCurrentView](radialcontrollerconfiguration_getforcurrentview_1363600702.md).
 1. Then, we call [SetDefaultMenuItems](radialcontrollerconfiguration_setdefaultmenuitems_1318008085.md) to specify the default collection of built-in menu items ([Volume](radialcontrollersystemmenuitemkind.md) and [Scroll](radialcontrollersystemmenuitemkind.md)).
 1. In the `Select_Volume` function, we attempt to set the default menu item to [Volume](radialcontrollersystemmenuitemkind.md) by calling [TrySelectDefaultMenuItem](radialcontrollerconfiguration_tryselectdefaultmenuitem_1342621095.md).
 
@@ -60,4 +69,4 @@ In this example, we clear all built-in tools by calling [SetDefaultMenuItems](ra
 
 ## -see-also
 
-[Windows.UI.Input Classes](windows_ui_input_classes.md), [Surface Dial interactions](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample), [Radial controller sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RadialController)
+[Windows.UI.Input Classes](windows_ui_input_classes.md), [Surface Dial interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample), [Radial controller sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RadialController)

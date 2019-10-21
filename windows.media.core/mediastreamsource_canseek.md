@@ -16,7 +16,7 @@ Gets or sets whether or not the application supports changing its position in th
 **true** if the application supports changing its position in the media time-line; otherwise, **false**. The default value is **false**.
 
 ## -remarks
-Setting the [CanSeek](mediastreamsource_canseek.md) property to **true** implies that the application is able to handle a [Starting](mediastreamsource_starting.md) event that specifies a start offset other than the current position.
+Setting the CanSeek property to **true** implies that the application is able to handle a [Starting](mediastreamsource_starting.md) event that specifies a start offset other than the current position.
 
 The default value is **false**.
 

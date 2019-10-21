@@ -13,9 +13,9 @@ public interface IRandomAccessStream : Windows.Foundation.IClosable, Windows.Sto
 Supports random access of data in input and output streams.
 
 ## -remarks
-For more info, see [Quickstart: Reading and writing a file](http://msdn.microsoft.com/library/bc062c66-ba64-4d1c-931d-6d88ac2fcf7c), which shows how to read and write bytes to a file by using a [RandomAccessStream](randomaccessstream.md). To encode an image by using a stream, see [Imaging](http://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea).
+For more info, see [Quickstart: Reading and writing a file](https://docs.microsoft.com/previous-versions/windows/apps/hh464978(v=win.10)), which shows how to read and write bytes to a file by using a [RandomAccessStream](randomaccessstream.md). To encode an image by using a stream, see [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging).
 
 ## -examples
 
 ## -see-also
-[Reading and writing data sample](http://go.microsoft.com/fwlink/p/?linkid=231581), [Imaging](http://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea), [FileRandomAccessStream](filerandomaccessstream.md), [InMemoryRandomAccessStream](inmemoryrandomaccessstream.md), [RandomAccessStreamOverStream](randomaccessstreamoverstream.md), [RandomAccessStreamReference](randomaccessstreamreference.md)
+[Reading and writing data sample](https://go.microsoft.com/fwlink/p/?linkid=231581), [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging), [FileRandomAccessStream](filerandomaccessstream.md), [InMemoryRandomAccessStream](inmemoryrandomaccessstream.md), [RandomAccessStreamOverStream](randomaccessstreamoverstream.md), [RandomAccessStreamReference](randomaccessstreamreference.md)

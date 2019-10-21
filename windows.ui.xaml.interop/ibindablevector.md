@@ -15,16 +15,16 @@ Represents a writeable vector collection of objects that is bindable.
 
 
 > **.NET**
-> This interface appears as [System.Collections.IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx).
+> This interface appears as [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN).
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](https://msdn.microsoft.com/library/system.collections.ilist.aspx) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) interface.
 
 ### Interface inheritance
 
-[IBindableVector](ibindablevector.md) inherits [IBindableIterable](ibindableiterable.md). Types that implement [IBindableVector](ibindablevector.md) also implement the interface members of [IBindableIterable](ibindableiterable.md) for C++ usage.
+IBindableVector inherits [IBindableIterable](ibindableiterable.md). Types that implement IBindableVector also implement the interface members of [IBindableIterable](ibindableiterable.md) for C++ usage.
 
 ## -examples
 
 ## -see-also
-[IBindableIterable](ibindableiterable.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854)
+[IBindableIterable](ibindableiterable.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)

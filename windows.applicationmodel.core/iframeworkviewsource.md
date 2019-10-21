@@ -59,4 +59,4 @@ int main(Platform::Array<Platform::String^>^)
 ## -examples
 
 ## -see-also
-[DirectX swap chain implementation sample](http://go.microsoft.com/fwlink/p/?linkid=258452), [IFrameworkView](iframeworkview.md)
+[DirectX swap chain implementation sample](https://go.microsoft.com/fwlink/p/?linkid=258452), [IFrameworkView](iframeworkview.md)

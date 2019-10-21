@@ -10,7 +10,7 @@ public Windows.Foundation.IReference<Windows.Foundation.DateTime> Until { get;  
 # Windows.ApplicationModel.Appointments.AppointmentRecurrence.Until
 
 ## -description
-Gets or sets the date and time until which an appointment is valid. [Until](appointmentrecurrence_until.md) is of type [IReference(DateTime)](../windows.foundation/ireference_1.md) and is **NULL** by default. [Until](appointmentrecurrence_until.md) is mutually exclusive with [Occurrences](appointmentrecurrence_occurrences.md).
+Gets or sets the date and time until which an appointment is valid. Until is of type [IReference(DateTime)](../windows.foundation/ireference_1.md) and is **NULL** by default. Until is mutually exclusive with [Occurrences](appointmentrecurrence_occurrences.md).
 
 ## -property-value
 The date and time until which an appointment is valid.

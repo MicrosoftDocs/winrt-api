@@ -10,7 +10,7 @@ public uint DisplayAdapterTargetId { get; }
 # Windows.Devices.Display.DisplayMonitor.DisplayAdapterTargetId
 
 ## -description
-Gets an opaque ID used by the display adapter to identify which connector the monitor is attached to. This target ID can be used with [DisplayConfig](https://msdn.microsoft.com/library/windows/hardware/ff553954) APIs.
+Gets an opaque ID used by the display adapter to identify which connector the monitor is attached to. This target ID can be used with [DisplayConfig](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info) APIs.
 
 ## -property-value
 An opaque ID used by the display adapter to identify which connector the monitor is attached to.

@@ -17,7 +17,7 @@ Gets a list of alternate appId values to match with peer applications on other p
 A list of alternate appId values to match with peer applications on other platforms.
 
 ## -remarks
-The [AlternateIdentities](peerfinder_alternateidentities.md) property is used to add alternate proximity app Ids that match the proximity app Ids of peer apps running on other platforms. The [PeerFinder](peerfinder.md) class uses the alternate app Ids to match a peer app running on a Windows 8 computer with a peer app running on another platform. For example, if you create an app for Windows 8 and also create the same app for Windows Phone, the apps will not have the same unique app Id on both platforms. You can use the [PeerFinder](peerfinder.md) class to match the peer apps by adding the app Id from the Windows Phone to the [AlternateIdentities](peerfinder_alternateidentities.md) property of your Windows app, and by adding the app Id for your Windows app to the alternate identities of the Windows Phone.
+The AlternateIdentities property is used to add alternate proximity app Ids that match the proximity app Ids of peer apps running on other platforms. The [PeerFinder](peerfinder.md) class uses the alternate app Ids to match a peer app running on a Windows 8 computer with a peer app running on another platform. For example, if you create an app for Windows 8 and also create the same app for Windows Phone, the apps will not have the same unique app Id on both platforms. You can use the [PeerFinder](peerfinder.md) class to match the peer apps by adding the app Id from the Windows Phone to the AlternateIdentities property of your Windows app, and by adding the app Id for your Windows app to the alternate identities of the Windows Phone.
 
 The other platform must also support adding alternate identities so that the proximity app Id can be specified on that platform. You must include the proximity app Id on the other platform for the [PeerFinder](peerfinder.md) class to connect your apps when tapping with a Windows device. The format of the alternate identity string for a specific platform is determined by the implementation of the other platform. For example, to get the correct alternate identity string for Windows Phone, refer to the Windows Phone proximity API documentation.
 
@@ -25,12 +25,12 @@ The format of the proximity app Id is **&lt;package family name&gt;!&lt;app Id&g
 
 ### Browsing within wireless range (FindAllPeersAsync)
 
-When you connect peer apps by browsing for devices within wireless range using the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method, you can only match one app Id at a time. By default peer matching when browsing uses the Windows 8 proximity app Id . You can browse to connect peer apps running on different platforms by adding a unique "browse" app Id to the [AlternateIdentities](peerfinder_alternateidentities.md) property. You can then add that same "browse" app Id to your peer app on the other platforms. If the "browse" alternate identity strings match, then the [PeerFinder](peerfinder.md) class can find the peer apps when you call the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method.
+When you connect peer apps by browsing for devices within wireless range using the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method, you can only match one app Id at a time. By default peer matching when browsing uses the Windows 8 proximity app Id . You can browse to connect peer apps running on different platforms by adding a unique "browse" app Id to the AlternateIdentities property. You can then add that same "browse" app Id to your peer app on the other platforms. If the "browse" alternate identity strings match, then the [PeerFinder](peerfinder.md) class can find the peer apps when you call the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method.
 
 ## -examples
 
 ## -see-also
-[Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+[Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
 
 ## -capabilities
 proximity

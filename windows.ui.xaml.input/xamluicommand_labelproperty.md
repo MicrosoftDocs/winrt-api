@@ -22,4 +22,6 @@ The identifier for the [Label](xamluicommand_label.md) dependency property.
 
 ## -see-also
 
+[StandardUICommand](standarduicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+
 ## -examples

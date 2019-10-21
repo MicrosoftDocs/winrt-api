@@ -16,7 +16,7 @@ Gets the user identifier of the service used for the call.
 The user identifier of the service used for the call.
 
 ## -remarks
-For PSTN calls, the [ServiceUserId](webuicontactcallactivatedeventargs_serviceuserid.md) property is set to the PSTN number for the contact. For web-based services, the [ServiceUserId](webuicontactcallactivatedeventargs_serviceuserid.md) property is set to the contact’s user id for that particular service.
+For PSTN calls, the ServiceUserId property is set to the PSTN number for the contact. For web-based services, the ServiceUserId property is set to the contact’s user id for that particular service.
 
 ## -examples
 

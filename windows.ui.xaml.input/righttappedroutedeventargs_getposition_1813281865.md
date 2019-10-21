@@ -23,7 +23,7 @@ A [Point](../windows.foundation/point.md) that represents the current x- and y-c
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 458128-->
 ### Windows 8 behavior
 
-Windows 8 had an issue with the data for the [RightTapped](../windows.ui.xaml/uielement_righttapped.md) event, where the **X** and **Y** values for the point you'd get from [RightTappedRoutedEventArgs.GetPosition](righttappedroutedeventargs_getposition_1813281865.md) were reversed (**X** was really **Y**; **Y** was really **X**). This issue has been fixed starting with Windows 8.1. But if you're retargeting a Windows 8 app for Windows 8.1, you might have had code that worked around this issue by swapping the **X** and **Y** back. If so, remove that code when you retarget because the issue is now fixed.
+Windows 8 had an issue with the data for the [RightTapped](../windows.ui.xaml/uielement_righttapped.md) event, where the **X** and **Y** values for the point you'd get from RightTappedRoutedEventArgs.GetPosition were reversed (**X** was really **Y**; **Y** was really **X**). This issue has been fixed starting with Windows 8.1. But if you're retargeting a Windows 8 app for Windows 8.1, you might have had code that worked around this issue by swapping the **X** and **Y** back. If so, remove that code when you retarget because the issue is now fixed.
 
 Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
 

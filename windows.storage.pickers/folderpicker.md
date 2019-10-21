@@ -16,7 +16,14 @@ Represents a UI element that lets the user choose folders.
 
 ## -remarks
 
-To get started accessing files and folders file picker, see [Open files and folders with a picker](http://msdn.microsoft.com/library/f87dbe2f-77db-4573-8172-29e11abefd34).
+To get started accessing files and folders file picker, see [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | CreateForUser |
+| 1903 | 18362 | User |
 
 ## -examples
 

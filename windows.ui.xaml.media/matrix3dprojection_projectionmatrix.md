@@ -34,11 +34,11 @@ The [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md) that is used for th
 ## -remarks
 The XAML syntax shown requires specifying the 16 properties of a [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md) structure in a particular order. For a guide to the string format and the order that's needed for this, see [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md).
 
-If you use an explicit [Matrix3D](matrix3dprojection.md) object element rather than the [ProjectionMatrix](matrix3dprojection_projectionmatrix.md) attribute syntax, you need to map a XAML namespace for [Windows.UI.Xaml.Media.Media3D](../windows.ui.xaml.media.media3d/windows_ui_xaml_media_media3d.md) to use the [Matrix3D](matrix3dprojection.md) type. For more info, see "XAML syntax for **Matrix3D** " in Remarks for [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md).
+If you use an explicit [Matrix3D](matrix3dprojection.md) object element rather than the ProjectionMatrix attribute syntax, you need to map a XAML namespace for [Windows.UI.Xaml.Media.Media3D](../windows.ui.xaml.media.media3d/windows_ui_xaml_media_media3d.md) to use the [Matrix3D](matrix3dprojection.md) type. For more info, see "XAML syntax for **Matrix3D** " in Remarks for [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md).
 
-[ProjectionMatrix](matrix3dprojection_projectionmatrix.md) is the XAML content property for [Matrix3DProjection](matrix3dprojection.md), so you can omit XAML property elements if you do use the explicit [Matrix3D](matrix3dprojection.md) object element rather than the attribute form with initialization string.
+ProjectionMatrix is the XAML content property for [Matrix3DProjection](matrix3dprojection.md), so you can omit XAML property elements if you do use the explicit [Matrix3D](matrix3dprojection.md) object element rather than the attribute form with initialization string.
 
 ## -examples
 
 ## -see-also
-[Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](http://msdn.microsoft.com/library/90f07341-01f4-4205-8161-92dd2eb49860)
+[Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](https://docs.microsoft.com/windows/uwp/graphics/3-d-perspective-effects)

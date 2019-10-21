@@ -16,7 +16,7 @@ Represents a control that allows a user to pick one or more items from a list. S
 ## -remarks
 
 > [!IMPORTANT]
-> [ListPickerFlyout](listpickerflyout.md) is not supported for use in Universal Windows Platform (UWP) app for Windows 10. Instead, to let a user to pick one item from a list use a [MenuFlyout](menuflyout.md). To let a user pick multiple items, use a [Flyout](flyout.md) with a list that has multiple-selection enabled.
+> ListPickerFlyout is not supported for use in Universal Windows Platform (UWP) app for Windows 10. Instead, to let a user to pick one item from a list use a [MenuFlyout](menuflyout.md). To let a user pick multiple items, use a [Flyout](flyout.md) with a list that has multiple-selection enabled.
 
 ## -examples
 

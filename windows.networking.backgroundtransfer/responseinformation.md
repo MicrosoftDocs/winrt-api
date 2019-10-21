@@ -17,7 +17,7 @@ Represents data that is returned by a server response.
 ## -examples
 
 ## -see-also
-[Background Transfer sample](http://go.microsoft.com/fwlink/p/?linkid=245064)
+[Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064)
 
 ## -capabilities
 internetClient, internetClientServer, privateNetworkClientServer

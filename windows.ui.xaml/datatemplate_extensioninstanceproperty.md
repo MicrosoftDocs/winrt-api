@@ -10,14 +10,14 @@ public Windows.UI.Xaml.DependencyProperty ExtensionInstanceProperty { get; }
 # Windows.UI.Xaml.DataTemplate.ExtensionInstanceProperty
 
 ## -description
-Identifies the [ExtensionInstance](datatemplate_extensioninstance.md)  XAML attached property.
+Identifies the [ExtensionInstance](/uwp/api/windows.ui.xaml.datatemplate#xaml-attached-properties) XAML attached property.
 
 ## -property-value
-The identifier for the [ExtensionInstance](datatemplate_extensioninstance.md)  XAML attached property.
+The identifier for the [ExtensionInstance](/uwp/api/windows.ui.xaml.datatemplate#xaml-attached-properties) XAML attached property.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[ExtensionInstance](datatemplate_extensioninstance.md), [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)
+[ExtensionInstance](/uwp/api/windows.ui.xaml.datatemplate#xaml-attached-properties), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)

@@ -39,4 +39,4 @@ If you set the *exifOrientationMode* parameter to **RespectExifOrientation**, th
 ## -examples
 
 ## -see-also
-[Imaging](http://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea), [Imaging](http://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea), [GetPixelDataAsync](bitmapframe_getpixeldataasync_1391309547.md)
+[Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging), [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging), [GetPixelDataAsync](bitmapframe_getpixeldataasync_1391309547.md)

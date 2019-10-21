@@ -13,7 +13,7 @@ public void Close()
 Closes the asynchronous operation.
 
 ## -remarks
-Calling this method indicates that you have finished with the results of the operation. After calling [Close](iasyncinfo_close_811482585.md), do not call the **GetResults** method again (each of the 4 [IAsyncInfo](iasyncinfo.md) derived interfaces have their own implementation of **GetResults**.)
+Calling this method indicates that you have finished with the results of the operation. After calling Close, do not call the **GetResults** method again (each of the 4 [IAsyncInfo](iasyncinfo.md) derived interfaces have their own implementation of **GetResults**.)
 
 <!--Is this a Notes to Callers? It's a weird note for implementation purposes.-->
 

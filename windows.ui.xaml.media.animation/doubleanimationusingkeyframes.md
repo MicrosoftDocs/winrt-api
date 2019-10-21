@@ -10,7 +10,7 @@ public class DoubleAnimationUsingKeyFrames : Windows.UI.Xaml.Media.Animation.Tim
 # Windows.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames
 
 ## -description
-Animates the value of a [Double](https://msdn.microsoft.com/library/system.double.aspx) property along a set of key frames.
+Animates the value of a [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) property along a set of key frames.
 
 ## -xaml-syntax
 ```xaml
@@ -41,11 +41,11 @@ The following example moves a rectangle across a screen. The example uses the **
 
 
 
-[!code-xml[Doubleanimationusingkeyframes2](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml#SnippetDoubleanimationusingkeyframes2_cs)]
+[!code-xaml[Doubleanimationusingkeyframes2](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml#SnippetDoubleanimationusingkeyframes2_cs)]
 
 [!code-vb[Doubleanimationusingkeyframes2](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/vbnet/Page.xaml.vb#SnippetDoubleanimationusingkeyframes2)]
 
 [!code-csharp[SnippetDoubleanimationusingkeyframes2](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml.cs#SnippetDoubleanimationusingkeyframes2)]
 
 ## -see-also
-[Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)

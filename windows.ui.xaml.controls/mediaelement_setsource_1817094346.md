@@ -27,9 +27,9 @@ Here is some code that creates [MediaElement](mediaelement.md) object and sets t
 
 
 
-[!code-xml[MediaElementXaml](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml#SnippetMediaElementXaml)]
+[!code-xaml[MediaElementXaml](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml#SnippetMediaElementXaml)]
 
 [!code-csharp[PlaybackLocalFileAll](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml.cs#SnippetPlaybackLocalFileAll)]
 
 ## -see-also
-[Audio, video, and camera](http://msdn.microsoft.com/library/0fc12d26-f1cf-4da7-b5a7-735a5074b74a), [Create custom transport controls](http://msdn.microsoft.com/library/6643a108-a6eb-42bc-b800-22eabd7b731b), [Supported audio and video formats](http://msdn.microsoft.com/library/6037c242-f39c-49bf-b206-c3b6a3e30165)
+[Audio, video, and camera](https://docs.microsoft.com/windows/uwp/audio-video-camera/index), [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls), [Supported audio and video formats](https://docs.microsoft.com/previous-versions/windows/apps/hh986969(v=win.10))

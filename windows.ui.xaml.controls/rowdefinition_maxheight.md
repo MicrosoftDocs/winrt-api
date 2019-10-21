@@ -19,7 +19,7 @@ Gets or sets a value that represents the maximum height of a [RowDefinition](row
 
 
 ## -property-value
-A [Double](https://msdn.microsoft.com/library/system.double.aspx) that represents the maximum height.
+A [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) that represents the maximum height.
 
 ## -remarks
 

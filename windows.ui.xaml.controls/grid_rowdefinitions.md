@@ -35,7 +35,7 @@ The following example creates a [Grid](grid.md) with three rows. The [Height](ro
 
 
 
-[!code-xml[RowDefinitions](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml#SnippetRowDefinitions)]
+[!code-xaml[RowDefinitions](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml#SnippetRowDefinitions)]
 
 ## -see-also
-[ColumnDefinitions](grid_columndefinitions.md), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[ColumnDefinitions](grid_columndefinitions.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)

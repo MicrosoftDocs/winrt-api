@@ -13,7 +13,7 @@ public string Method { get; }
 Gets the HTTP method.
 
 ## -property-value
-An HTTP method represented as a [String](https://msdn.microsoft.com/library/system.string.aspx).
+An HTTP method represented as a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN).
 
 ## -remarks
 

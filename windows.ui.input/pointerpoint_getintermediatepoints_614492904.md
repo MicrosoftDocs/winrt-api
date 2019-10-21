@@ -29,7 +29,7 @@ The transform to apply to the pointer.
 The transformed pointer properties (current and historic).
 
 ## -remarks
-[GetIntermediatePoints](pointerpoint_getintermediatepoints_614492904.md) is a static method.
+GetIntermediatePoints is a static method.
 
 This method is useful for getting pointer information relative to a specific element.
 

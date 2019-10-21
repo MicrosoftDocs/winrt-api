@@ -17,6 +17,12 @@ Provides APIs to interact with the user’s data accounts including those implem
 
 Call static methods to display UI so that the user can perform tasks including adding and deleting accounts.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetForUser |
+
 ## -examples
 
 ## -see-also

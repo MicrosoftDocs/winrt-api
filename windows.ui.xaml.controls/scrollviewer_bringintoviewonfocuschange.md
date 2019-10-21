@@ -24,7 +24,7 @@ Gets or sets a value that determines whether the [ScrollViewer](scrollviewer.md)
 **true** to use a behavior that brings focused items into view. **false** to use a behavior that focused items do not automatically scroll into view. The default is **true**.
 
 ## -remarks
-For XAML usage, [BringIntoViewOnFocusChange](scrollviewer_bringintoviewonfocuschange.md) can either be an attribute on an explicit [ScrollViewer](scrollviewer.md) element, or a **ScrollViewer.BringIntoViewOnFocusChange** attached property usage on an element that is a child of a control that supports scrollview implicitly in its template.
+For XAML usage, BringIntoViewOnFocusChange can either be an attribute on an explicit [ScrollViewer](scrollviewer.md) element, or a **ScrollViewer.BringIntoViewOnFocusChange** attached property usage on an element that is a child of a control that supports scrollview implicitly in its template.
 
 ## -examples
 

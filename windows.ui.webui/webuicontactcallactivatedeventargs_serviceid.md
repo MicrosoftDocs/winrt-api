@@ -16,7 +16,7 @@ Gets the identifier of the service used for the call.
 The identifier of the service used for the call.
 
 ## -remarks
-For PSTN calls, the [ServiceId](webuicontactcallactivatedeventargs_serviceid.md) property is set to "telephone." For web-based services, the [ServiceId](webuicontactcallactivatedeventargs_serviceid.md) property is set to the domain name of the service to be used for calling, for example “skype.com”. Your app will only receive call activations for ServiceIds that match the "ServiceId" elements that your app has registered in its manifest.
+For PSTN calls, the ServiceId property is set to "telephone." For web-based services, the ServiceId property is set to the domain name of the service to be used for calling, for example “skype.com”. Your app will only receive call activations for ServiceIds that match the "ServiceId" elements that your app has registered in its manifest.
 
 ## -examples
 

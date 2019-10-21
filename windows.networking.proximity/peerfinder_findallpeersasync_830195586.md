@@ -21,11 +21,11 @@ If your app is running on a PC, you can browse for peer PCs that are running you
 
 When the asynchronous browsing operation finishes successfully, it returns a list of peers that are within wireless range. A peer is a device that has an app running in the foreground with a matching app Id. A peer can also have a matching browse Id that's specified as an alternate identity. For more information, see [AlternateIdentities](peerfinder_alternateidentities.md).
 
-If an app calls the [ConnectAsync](peerfinder_connectasync_380619906.md) method to create a connection with a peer, the app will no longer advertise for a connection and will not be found by the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method until the app calls the [Close](../windows.networking.sockets/streamsocket_close_811482585.md) method to close the socket connection.
+If an app calls the [ConnectAsync](peerfinder_connectasync_380619906.md) method to create a connection with a peer, the app will no longer advertise for a connection and will not be found by the FindAllPeersAsync method until the app calls the [Close](../windows.networking.sockets/streamsocket_close_811482585.md) method to close the socket connection.
 
 You will only find peers where the device is within wireless range and the peer app is running in the foreground. If a peer app is running in the background, proximity does not advertise for peer connections.
 
-As an alternative to the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) method, you can dynamically search for peer apps as they are discovered within range using the [PeerWatcher](peerwatcher.md) object.
+As an alternative to the FindAllPeersAsync method, you can dynamically search for peer apps as they are discovered within range using the [PeerWatcher](peerwatcher.md) object.
 
 ### Windows Phone 8
 
@@ -41,7 +41,7 @@ Wi-Fi Direct is not supported on Windows Phone 8.
 [!code-vb[Connect_CS](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/vbnet/BlankPage.xaml.vb#SnippetConnect_CS)]
 
 ## -see-also
-[AlternateIdentities](peerfinder_alternateidentities.md), [SupportedDiscoveryTypes](peerfinder_supporteddiscoverytypes.md), [PeerWatcher](peerwatcher.md), [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+[AlternateIdentities](peerfinder_alternateidentities.md), [SupportedDiscoveryTypes](peerfinder_supporteddiscoverytypes.md), [PeerWatcher](peerwatcher.md), [Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
 
 ## -capabilities
 proximity

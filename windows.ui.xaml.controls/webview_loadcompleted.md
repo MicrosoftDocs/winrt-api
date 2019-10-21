@@ -11,7 +11,7 @@ public event Windows.UI.Xaml.Navigation.LoadCompletedEventHandler LoadCompleted
 
 ## -description
 > [!NOTE]
-> [LoadCompleted](webview_loadcompleted.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [NavigationCompleted](webview_navigationcompleted.md).
+> LoadCompleted may be altered or unavailable for releases after Windows 8.1. Instead, use [NavigationCompleted](webview_navigationcompleted.md).
 
 Occurs when top-level navigation completes and the content loads into the [WebView](webview.md) control or when an error occurs during loading.
 

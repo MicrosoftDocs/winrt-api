@@ -23,7 +23,7 @@ Don't use side bearings that come from font typography values, and align the sid
 ## -remarks
 This enumeration is used as a value by [TextBlock.OpticalMarginAlignment](../windows.ui.xaml.controls/textblock_opticalmarginalignment.md) and [RichTextBlock.OpticalMarginAlignment](../windows.ui.xaml.controls/richtextblock_opticalmarginalignment.md).
 
-When fonts of different sizes are aligned vertically in the same or nearby containers, the advance width and side bearing of the characters can cause the alignment to appear ragged. This can be prevented by setting a property that uses [OpticalMarginAlignment](opticalmarginalignment.md) to use the **TrimSideBearings** constant.
+When fonts of different sizes are aligned vertically in the same or nearby containers, the advance width and side bearing of the characters can cause the alignment to appear ragged. This can be prevented by setting a property that uses OpticalMarginAlignment to use the **TrimSideBearings** constant.
 
 ## -examples
 

@@ -21,4 +21,4 @@ The connection status for the WiFi-Direct device.
 ## -examples
 
 ## -see-also
-[WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)
+[WiFiDirectDevice sample](https://go.microsoft.com/fwlink/p/?LinkID=301419)

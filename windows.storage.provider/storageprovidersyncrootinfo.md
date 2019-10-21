@@ -14,6 +14,12 @@ Contains the properties of a Cloud Storage Provider's sync root to be registered
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | ProviderId |
+
 ## -see-also
 
 ## -examples

@@ -49,7 +49,7 @@
                        Foreground="SteelBlue"
                        Text="Scaled Text">
                 <TextBlock.RenderTransform>
-                    <ScaleTransform ScaleX="1.0" ScaleY="1.5" />
+                    <ScaleTransform ScaleX="1.0" ScaleY="2.0" />
                 </TextBlock.RenderTransform>
             </TextBlock>
         </StackPanel>

@@ -14,6 +14,12 @@ Represents a rich text document that can be loaded, saved, and edited.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | ClearUndoRedoHistory |
+
 ## -see-also
 
 ## -examples

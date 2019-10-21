@@ -16,10 +16,6 @@ Represents the list of print binding options.
 ## -remarks
 Here is a JavaScript code snippet that shows how to retrieve the object:
 
-
-
-
-
 ```javascript
 //  Retrieve the advanced Print Task Options
 var printDetailedOptions = 
@@ -31,7 +27,12 @@ var printBindingOptionDetails =
 
 ```
 
+### Version history
 
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | Description |
+| 1803 | 17134 | WarningText |
 
 ## -examples
 

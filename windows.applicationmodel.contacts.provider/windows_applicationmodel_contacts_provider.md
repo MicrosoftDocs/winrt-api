@@ -22,6 +22,6 @@ To be launched as a Contact provider and let other apps access your app's contac
 ## -examples
 
 ## -see-also
-[Windows.ApplicationModel.Contacts](windows_applicationmodel_contacts_provider.md)
+Windows.ApplicationModel.Contacts
 ## -capabilities
 contactsSystem

@@ -13,6 +13,8 @@ public class XamlDirect
 ## -description
 Represents the base class for all XamlDirect APIs. All of the XamlDirect APIs are instance methods off of this class.
 
+[XamlDirect](windows_ui_xaml_core_direct.md) is an API for accessing Xaml at a more primitive level for better CPU and working set performance.
+
 ## -see-also
 
 * [XamlDirect.GetDefault](xamldirect_getdefault_846721868.md)

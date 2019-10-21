@@ -13,11 +13,11 @@ public class Projection : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Medi
 Provides a base class for projections, which describe how to transform an object in 3-D space using perspective transforms.
 
 ## -remarks
-A [Projection](projection.md) is the property type used by the [UIElement.Projection](../windows.ui.xaml/uielement_projection.md) property. Use either a [Matrix3DProjection](matrix3dprojection.md) or [PlaneProjection](planeprojection.md) to supply this property value.
+A Projection is the property type used by the [UIElement.Projection](../windows.ui.xaml/uielement_projection.md) property. Use either a [Matrix3DProjection](matrix3dprojection.md) or [PlaneProjection](planeprojection.md) to supply this property value.
 
 ### **Projection** derived classes
 
-[Projection](projection.md) is the parent class for several derived classes that define different categories of projection effects:
+Projection is the parent class for several derived classes that define different categories of projection effects:
 
 + [Matrix3DProjection](matrix3dprojection.md)
 + [PlaneProjection](planeprojection.md)

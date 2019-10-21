@@ -13,7 +13,7 @@ public class Print3DWorkflowActivatedEventArgs : Windows.ApplicationModel.Activa
 Provides information about an event that occurs when the app is launched as a 3D printing workflow.
 
 ## -remarks
-[Print3DWorkflowActivatedEventArgs](print3dworkflowactivatedeventargs.md) is passed to the event handler that you implement for the activation event that occurs when the app is launched as a workflow for three-dimensional printing.
+Print3DWorkflowActivatedEventArgs is passed to the event handler that you implement for the activation event that occurs when the app is launched as a workflow for three-dimensional printing.
 
 ## -examples
 

@@ -31,4 +31,4 @@ This API must be called from within an ASTA thread (also known as a UI thread).
 ## -examples
 
 ## -see-also
-[LaunchUriForResultsAsync(Uri, LauncherOptions, ValueSet)](launcher_launchuriforresultsasync_148601521.md), [Launch an app for results](http://msdn.microsoft.com/library/afc53d75-b3dd-4ff6-9fc0-9335242ee327)
+[LaunchUriForResultsAsync(Uri, LauncherOptions, ValueSet)](launcher_launchuriforresultsasync_148601521.md), [Launch an app for results](https://docs.microsoft.com/windows/uwp/launch-resume/how-to-launch-an-app-for-results)

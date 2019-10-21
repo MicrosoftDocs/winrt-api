@@ -15,6 +15,13 @@ Represents the encryption and signing policies associates with an email mailbox.
 ## -remarks
 The **Policies ** property provides access to an instance of this class.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | MustEncryptSmimeMessages |
+| 1511 | 10586 | MustSignSmimeMessages |
+
 ## -examples
 
 ## -see-also

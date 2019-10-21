@@ -11,7 +11,7 @@ public enum Windows.UI.Xaml.Automation.SynchronizedInputType : int
 
 
 ## -description
-Provides a of set constants that identify, as used by the [ISynchronizedInputProvider](http://msdn.microsoft.com/library/70495eba-172a-432e-951d-1092fd676d5e)  Microsoft UI Automation interface.
+Provides a of set constants that identify, as used by the [ISynchronizedInputProvider](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-isynchronizedinputprovider)  Microsoft UI Automation interface.
 
 
 ## -enum-fields
@@ -35,9 +35,9 @@ The right mouse button has been pressed.
 
 
 ## -remarks
-Values of [SynchronizedInputType](synchronizedinputtype.md) are used as an input parameter by the [StartListening](../windows.ui.xaml.automation.provider/isynchronizedinputprovider_startlistening_125371983.md) method.
+Values of SynchronizedInputType are used as an input parameter by the [StartListening](../windows.ui.xaml.automation.provider/isynchronizedinputprovider_startlistening_125371983.md) method.
 
-The values in [SynchronizedInputType](synchronizedinputtype.md) parallel the values in the [SynchronizedInputType](http://msdn.microsoft.com/library/28c66392-89f0-40eb-be19-ac84c64dacb7) enumeration.
+The values in SynchronizedInputType parallel the values in the [SynchronizedInputType](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-synchronizedinputtype) enumeration.
 
 
 ## -examples

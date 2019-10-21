@@ -15,12 +15,12 @@ Provides data for the [PropertyChanged](inotifypropertychanged_propertychanged.m
 
 
 > **.NET**
-> This class appears as [System.ComponentModel.PropertyChangedEventArgs](https://msdn.microsoft.com/library/system.componentmodel.propertychangedeventargs.aspx).
+> This class appears as [System.ComponentModel.PropertyChangedEventArgs](https://docs.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs?redirectedfrom=MSDN).
 
 ## -remarks
-When programming with .NET, this class is hidden and developers should use the [System.ComponentModel.PropertyChangedEventArgs](https://msdn.microsoft.com/library/system.componentmodel.propertychangedeventargs.aspx) class.
+When programming with .NET, this class is hidden and developers should use the [System.ComponentModel.PropertyChangedEventArgs](https://docs.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs?redirectedfrom=MSDN) class.
 
 ## -examples
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

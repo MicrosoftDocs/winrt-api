@@ -15,10 +15,16 @@ Contains read-only configuration settings for the [MediaCapture](mediacapture.md
 ## -remarks
 To get an instance of this class, retrieve the [MediaCapture.MediaCaptureSettings](mediacapture_mediacapturesettings.md) property.
 
-For how-to guidance for using the [MediaCapture](mediacapture.md) object to capture audio, photos, and video, see [Camera](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/camera).
+For how-to guidance for using the [MediaCapture](mediacapture.md) object to capture audio, photos, and video, see [Camera](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera).
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | Direct3D11Device |
 
 ## -examples
 

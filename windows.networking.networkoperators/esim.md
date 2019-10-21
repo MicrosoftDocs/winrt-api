@@ -22,6 +22,15 @@ A traditional SIM card stores a single identity that the modem can use to regist
 
 There are several steps in the process of installing a profile onto an eSIM. The end-user provides an activation code, which is a string that contains the uniform resource location (URL) of a profile-distributing server together with some identifying information. Next, the eSIM-capable device uses the data in the activation code to contact the server. The server returns the metadata for a specific profile, together with information that's then presented to the user asking for consent to download the profile. Having received consent, the eSIM-capable device downloads the profile and sends the profile binary blob to the eSIM. Lastly, the profile is ready to be activated when the profile is successfully written to the eSIM. LpaSvc is a service for handling all eSIM-related operation requests. For end-users, there is a *Managing eSIM profiles* page in **Settings** to provide a UI for managing the eSIM.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | Discover |
+| 1903 | 18362 | Discover(String,String) |
+| 1903 | 18362 | DiscoverAsync |
+| 1903 | 18362 | DiscoverAsync(String,String) |
+
 ## -see-also
 
 ## -examples

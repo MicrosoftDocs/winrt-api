@@ -13,7 +13,7 @@ public bool HasRinger { get; }
 Indicates whether the telephony device has a built-in ringer.
 
 ## -property-value
-A [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx) value that is **True** if the telephony device has a ringer, and **False** if it does not.
+A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value that is **True** if the telephony device has a ringer, and **False** if it does not.
 
 ## -remarks
 

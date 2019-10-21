@@ -21,7 +21,7 @@ There is only one instance of this object per [ClaimedPosPrinter](claimedposprin
 An object that represents the receipt station for a claimed point-of-service printer. Null if a receipt station is not present.
 
 ## -remarks
-You should check the value of the [ReceiptPrinterCapabilities.IsPrinterPresent](receiptprintercapabilities_isprinterpresent.md) property before you try to use the [ClaimedPosPrinter.Receipt](claimedposprinter_receipt.md) property.
+You should check the value of the [ReceiptPrinterCapabilities.IsPrinterPresent](receiptprintercapabilities_isprinterpresent.md) property before you try to use the ClaimedPosPrinter.Receipt property.
 
 ## -examples
 

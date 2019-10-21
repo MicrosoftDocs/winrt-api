@@ -16,7 +16,7 @@ Informs the system that the background task might continue to perform work after
 A background task deferral.
 
 ## -remarks
-This method is not applicable for background tasks written in JavaScript. JavaScript background tasks use the Web Workers [close](http://go.microsoft.com/fwlink/p/?linkid=237467) method to finish the task after all asynchronous operations have completed.
+This method is not applicable for background tasks written in JavaScript. JavaScript background tasks use the Web Workers [close](https://go.microsoft.com/fwlink/p/?linkid=237467) method to finish the task after all asynchronous operations have completed.
 
 ## -examples
 

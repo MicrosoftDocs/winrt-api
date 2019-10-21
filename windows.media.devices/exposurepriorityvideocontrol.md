@@ -13,11 +13,11 @@ public class ExposurePriorityVideoControl : Windows.Media.Devices.IExposurePrior
 When supported, allows an app to specify whether the camera driver can dynamically adjust the frame rate of video capture in order to improve video quality in low-light conditions.
 
 ## -remarks
-When the [ExposurePriorityVideoControl](exposurepriorityvideocontrol.md) is enabled, the driver may adjust the frame rate in order to compensate for low-light conditions. Apps that require a constant frame rate should disable this control.
+When the ExposurePriorityVideoControl is enabled, the driver may adjust the frame rate in order to compensate for low-light conditions. Apps that require a constant frame rate should disable this control.
 
-For how-to guidance for using manual video capture controls, see [Manual camera controls for video capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/capture-device-controls-for-video-capture).
+For how-to guidance for using manual video capture controls, see [Manual camera controls for video capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-video-capture).
 
 ## -examples
 
 ## -see-also
-[Manual camera controls for video capture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/capture-device-controls-for-video-capture)
+[Manual camera controls for video capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-video-capture)

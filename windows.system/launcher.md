@@ -17,7 +17,24 @@ Starts the default app associated with the specified file or URI.
 ## -remarks
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | FindAppUriHandlersAsync |
+| 1607 | 14393 | LaunchUriForResultsForUserAsync(User,Uri,LauncherOptions) |
+| 1607 | 14393 | LaunchUriForResultsForUserAsync(User,Uri,LauncherOptions,ValueSet) |
+| 1607 | 14393 | LaunchUriForUserAsync(User,Uri) |
+| 1607 | 14393 | LaunchUriForUserAsync(User,Uri,LauncherOptions) |
+| 1607 | 14393 | LaunchUriForUserAsync(User,Uri,LauncherOptions,ValueSet) |
+| 1607 | 14393 | QueryAppUriSupportAsync(Uri) |
+| 1607 | 14393 | QueryAppUriSupportAsync(Uri,String) |
+| 1809 | 17763 | LaunchFolderPathAsync(String) |
+| 1809 | 17763 | LaunchFolderPathAsync(String,FolderLauncherOptions) |
+| 1809 | 17763 | LaunchFolderPathForUserAsync(User,String) |
+| 1809 | 17763 | LaunchFolderPathForUserAsync(User,String,FolderLauncherOptions) |
 
 ## -examples
 
@@ -34,7 +51,7 @@ See the code example in the [LaunchUriAsync(Uri)](launcher_launchuriasync_536919
 This example calls [launchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md) to launch a URI with a warning. Use the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property to indicate that the system should display a warning.
 
 > [!NOTE]
-> For a Windows app using JavaScript, call [preventDefault](https://msdn.microsoft.com/library/ff975967) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [anchor](https://msdn.microsoft.com/library/ms535173) element to launch the URI.
+> For a Windows app using JavaScript, call [preventDefault](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ff975967(v=vs.85)) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) element to launch the URI.
 
 ```javascript
 function linkClickHandler(eventInfo) {
@@ -70,4 +87,4 @@ function linkClickHandler(eventInfo) {
 
 ## -see-also
 
-[How to launch the default app for a file (JavaScript)](http://msdn.microsoft.com/library/876edae5-f1a8-45f9-a1a6-50efb1025f96), [Launch the default app for a file](http://msdn.microsoft.com/library/bb45fcaf-df93-4c99-a8b5-59b799c7bd98), [How to launch the default app for a URI (JavaScript)](http://msdn.microsoft.com/library/0f9fa8db-3e51-4cf8-879d-2b79a8ddbb7d), [Launch the default app for a URI](http://msdn.microsoft.com/library/7b0d0af5-d89e-4db0-9b79-90201d79974f), [Association launching sample](http://go.microsoft.com/fwlink/p/?linkid=231484), [Guidelines for file types and URIs](http://msdn.microsoft.com/library/a6653b8f-763f-4d67-9d12-6af73a673bc5), [LauncherOptions](launcheroptions.md), [LauncherUIOptions](launcheruioptions.md)
+[How to launch the default app for a file (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452687(v=win.10)), [Launch the default app for a file](https://docs.microsoft.com/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [How to launch the default app for a URI (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452690(v=win.10)), [Launch the default app for a URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app), [Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [LauncherOptions](launcheroptions.md), [LauncherUIOptions](launcheruioptions.md)

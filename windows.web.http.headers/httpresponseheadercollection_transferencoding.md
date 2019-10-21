@@ -18,7 +18,7 @@ The collection of [HttpTransferCodingHeaderValue](httptransfercodingheadervalue.
 ## -remarks
 
 
-The following sample code shows a method to get and set the **Transfer-Encoding** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the [TransferEncoding](httpresponseheadercollection_transferencoding.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
+The following sample code shows a method to get and set the **Transfer-Encoding** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the TransferEncoding property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
 
 ```csharp
     // HttpTransferCodingHeaderValueCollection

@@ -10,10 +10,10 @@ public Windows.Graphics.Imaging.SoftwareBitmap SoftwareBitmap { get; }
 # Windows.Media.Capture.CapturedFrame.SoftwareBitmap
 
 ## -description
-Gets a [SoftwareBitmap](capturedframe_softwarebitmap.md) object representing the captured frame.
+Gets a SoftwareBitmap object representing the captured frame.
 
 ## -property-value
-A [SoftwareBitmap](capturedframe_softwarebitmap.md) object representing the captured frame.
+A SoftwareBitmap object representing the captured frame.
 
 ## -remarks
 

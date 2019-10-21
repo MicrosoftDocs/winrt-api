@@ -10,7 +10,7 @@ public IReference<int> Day { get;  set; }
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskRecurrenceProperties.Day
 
 ## -description
-Gets or sets the day on which a task occurs. [Day](userdatataskrecurrenceproperties_day.md) is of type [UInt32](https://msdn.microsoft.com/library/system.uint32.aspx), has a default value of 1, and can be a value from 1 to 31.
+Gets or sets the day on which a task occurs. Day is of type [UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN), has a default value of 1, and can be a value from 1 to 31.
 
 ## -property-value
 The day on which an appointment occurs.

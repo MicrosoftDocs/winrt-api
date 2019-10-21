@@ -27,7 +27,7 @@ For more explanation on usage, see [OpenAsync](istoragefile2_openasync_154221791
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | AllowReadersAndWriters |
 

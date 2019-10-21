@@ -11,7 +11,7 @@ public enum Windows.Security.ExchangeActiveSyncProvisioning.EasEncryptionProvide
 
 ## -description
 > [!NOTE]
-> [EasEncryptionProviderType](easencryptionprovidertype.md) may be unavailable for releases after Windows 10.
+> EasEncryptionProviderType may be unavailable for releases after Windows 10.
 
 Describes the type of Exchange ActiveSync encryption provider.
 

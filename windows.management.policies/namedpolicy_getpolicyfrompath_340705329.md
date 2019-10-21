@@ -24,7 +24,7 @@ A string representing the name of the policy.
 The NamedPolicyData for the policy specified by the area and name parameters.
 
 ## -remarks
-For a complete list of valid area names and policy names, see the Policy Tables in [Policy CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider).
+For a complete list of valid area names and policy names, see the Policy Tables in [Policy CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider).
 
 ## -see-also
 

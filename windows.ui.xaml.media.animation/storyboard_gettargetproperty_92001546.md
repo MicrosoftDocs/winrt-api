@@ -10,14 +10,14 @@ public string GetTargetProperty(Windows.UI.Xaml.Media.Animation.Timeline element
 # Windows.UI.Xaml.Media.Animation.Storyboard.GetTargetProperty
 
 ## -description
-Gets the value of the [Storyboard.TargetProperty](storyboard_targetproperty.md)  XAML attached property from a target element.
+Gets the value of the [Storyboard.TargetProperty](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) XAML attached property from a target element.
 
 ## -parameters
 ### -param element
 The target element from which to get the value.
 
 ## -returns
-The [Storyboard.TargetProperty](storyboard_targetproperty.md) value of the target element.
+The [Storyboard.TargetProperty](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) value of the target element.
 
 ## -remarks
 

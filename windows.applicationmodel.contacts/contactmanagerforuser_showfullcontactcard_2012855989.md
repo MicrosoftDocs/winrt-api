@@ -23,7 +23,7 @@ Specifies how to display the full contact card.
 ## -remarks
 This method must be called from the main UI thread.
 ## -see-also
-[ContactManager](contactmanager.md), [Contact cards sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624040)
+[ContactManager](contactmanager.md), [Contact cards sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624040)
 ## -examples
 
 ## -capabilities

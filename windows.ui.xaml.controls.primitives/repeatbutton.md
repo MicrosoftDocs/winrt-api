@@ -25,10 +25,18 @@ Represents a control that raises its [Click](buttonbase_click.md) event repeated
 
 
 ## -remarks
-A [RepeatButton](repeatbutton.md) is a button that raises [Click](buttonbase_click.md) events repeatedly from the time it is pressed until it is released. Set the [Delay](repeatbutton_delay.md) property to specify the time that the [RepeatButton](repeatbutton.md) waits after it is pressed before it starts repeating the click action. Set the [Interval](repeatbutton_interval.md) property to specify the time between repetitions of the click action. Times for both properties are specified in milliseconds.
+A RepeatButton is a button that raises [Click](buttonbase_click.md) events repeatedly from the time it is pressed until it is released. Set the [Delay](repeatbutton_delay.md) property to specify the time that the RepeatButton waits after it is pressed before it starts repeating the click action. Set the [Interval](repeatbutton_interval.md) property to specify the time between repetitions of the click action. Times for both properties are specified in milliseconds.
 
 ## -examples
-The following example shows two [RepeatButton](repeatbutton.md) controls whose respective [Click](buttonbase_click.md) events are used to increase and decrease the value shown in a [TextBlock](../windows.ui.xaml.controls/textblock.md).
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Buttons](/windows/uwp/design/controls-and-patterns/buttons).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the RepeatButton in action](xamlcontrolsgallery:/item/RepeatButton).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
+The following example shows two RepeatButton controls whose respective [Click](buttonbase_click.md) events are used to increase and decrease the value shown in a [TextBlock](../windows.ui.xaml.controls/textblock.md).
 
 ```csharp
 <StackPanel>

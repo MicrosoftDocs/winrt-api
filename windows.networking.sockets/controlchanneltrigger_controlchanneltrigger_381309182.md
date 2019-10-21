@@ -25,11 +25,11 @@ The keep-alive interval, in minutes, registered with the system to indicate when
 The minimum value that can be set for this parameter is 15 minutes. The maximum value that can be set is 1439 minutes (approximately 24 hours).
 
 ## -remarks
-The [ControlChannelTrigger(String, UInt32)](controlchanneltrigger_controlchanneltrigger_381309182.md) constructor creates a [ControlChannelTrigger](controlchanneltrigger.md) object. By default, the resource type requested for the control channel trigger is a [ControlChannelTriggerResourceType](controlchanneltriggerresourcetype.md) set to **RequestSoftwareSlot**.
+The [ControlChannelTrigger(String, UInt32) constructor creates a [ControlChannelTrigger](controlchanneltrigger.md) object. By default, the resource type requested for the control channel trigger is a [ControlChannelTriggerResourceType](controlchanneltriggerresourcetype.md) set to **RequestSoftwareSlot**.
 
 If an app needs a hardware slot to support connected standby, then the [ControlChannelTrigger(String, UInt32, ControlChannelTriggerResourceType)](controlchanneltrigger_controlchanneltrigger_2092736614.md) constructor should be used to create the [ControlChannelTrigger](controlchanneltrigger.md) object since this allows an app to specific the requested resource type.
 
 ## -examples
 
 ## -see-also
-[How to set background connectivity options](http://msdn.microsoft.com/library/b6042b5f-5cee-4dee-8cb4-8f376f878e97), [ControlChannelTrigger(String, UInt32, ControlChannelTriggerResourceType)](controlchanneltrigger_controlchanneltrigger_2092736614.md), [ControlChannelTriggerResourceType](controlchanneltriggerresourcetype.md)
+[How to set background connectivity options](https://docs.microsoft.com/previous-versions/windows/apps/hh771189(v=win.10)), [ControlChannelTrigger(String, UInt32, ControlChannelTriggerResourceType)](controlchanneltrigger_controlchanneltrigger_2092736614.md), [ControlChannelTriggerResourceType](controlchanneltriggerresourcetype.md)

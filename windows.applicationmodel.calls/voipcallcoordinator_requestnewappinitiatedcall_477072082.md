@@ -26,7 +26,7 @@ The phone number of the caller to be displayed on the incoming call UI. The maxi
 The name of the VoIP service or application. The maximum length is 128 characters.
 
 ### -param media
-The media types of the new incoming call.
+The media types of the new incoming call (either audio and video or audio only). Pass **Audio|Video** if the user should have the option of answering the call with outgoing video. This assumes that the user's device has a camera available for the app to use at the time the call arrives. If this is not the case, or the user should only use audio, pass **Audio**.
 
 ## -returns
 The object representing the new initiated call.

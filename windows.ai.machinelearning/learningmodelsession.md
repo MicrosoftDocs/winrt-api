@@ -15,6 +15,18 @@ Used to evaluate machine learning models.
 
 ## -remarks
 
+### Windows Server
+To use this API on Windows Server, you must use Windows Server 2019 with Desktop Experience.
+
+### Thread safety
+This API is thread-safe.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | LearningModelSession(LearningModel,LearningModelDevice,LearningModelSessionOptions) |
+
 ## -see-also
 [Windows ML](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
 

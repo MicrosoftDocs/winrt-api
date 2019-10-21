@@ -14,6 +14,12 @@ Represents the information associated with a meeting.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | IsReportedOutOfDateByServer |
+
 ## -examples
 
 ## -see-also

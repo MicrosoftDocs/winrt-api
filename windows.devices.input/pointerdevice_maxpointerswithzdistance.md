@@ -16,7 +16,7 @@ Gets the maximum number of hover contacts supported by the input device.
 The default value is 0.
 
 > [!NOTE]
-> [MaxPointersWithZDistance](pointerdevice_maxpointerswithzdistance.md) might not be equal to [MaxContacts](pointerdevice_maxcontacts.md).
+> MaxPointersWithZDistance might not be equal to [MaxContacts](pointerdevice_maxcontacts.md).
 
 ## -remarks
 

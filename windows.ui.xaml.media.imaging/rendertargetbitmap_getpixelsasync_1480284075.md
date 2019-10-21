@@ -20,9 +20,9 @@ The [IBuffer](../windows.storage.streams/ibuffer.md) return value enables passin
 
 Through the [IAsyncOperation](../windows.foundation/iasyncoperation_1.md) intermediate value, this method returns the pixels of the image source that was produced by the most recent call to [RenderAsync](rendertargetbitmap_renderasync_1804035726.md).
 
-Always call [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) before calling [GetPixelsAsync](rendertargetbitmap_getpixelsasync_1480284075.md). If you call [GetPixelsAsync](rendertargetbitmap_getpixelsasync_1480284075.md) and never called [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) previously on that [RenderTargetBitmap](rendertargetbitmap.md) instance, [GetPixelsAsync](rendertargetbitmap_getpixelsasync_1480284075.md) will return an empty buffer stream, and no error will occur (async [Status](../windows.foundation/iasyncinfo_status.md) is **Completed**, so you can't use that as an indicator).
+Always call [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) before calling GetPixelsAsync. If you call GetPixelsAsync and never called [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) previously on that [RenderTargetBitmap](rendertargetbitmap.md) instance, GetPixelsAsync will return an empty buffer stream, and no error will occur (async [Status](../windows.foundation/iasyncinfo_status.md) is **Completed**, so you can't use that as an indicator).
 
 ## -examples
 
 ## -see-also
-[BitmapEncoder](../windows.graphics.imaging/bitmapencoder.md), [DataTransferManager](../windows.applicationmodel.datatransfer/datatransfermanager.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML render to bitmap sample](http://go.microsoft.com/fwlink/p/?LinkID=309153)
+[BitmapEncoder](../windows.graphics.imaging/bitmapencoder.md), [DataTransferManager](../windows.applicationmodel.datatransfer/datatransfermanager.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153)

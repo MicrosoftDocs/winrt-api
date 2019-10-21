@@ -30,4 +30,4 @@ _spotLight.QuadraticAttenuation = .0007F;
 
 
 ## -see-also
-[LinearAttenuation](spotlight_linearattenuation.md), [QuadraticAttenuation](spotlight_quadraticattenuation.md)
+[LinearAttenuation](spotlight_linearattenuation.md), QuadraticAttenuation

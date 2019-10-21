@@ -15,4 +15,4 @@ Retrieves connection profiles that provide connectivity, usage, and data plan in
 
 ## -see-also
 
-[Quickstart: Retrieving network connection information](http://msdn.microsoft.com/library/ef383500-f2a9-4b93-8f6b-1f87560305d8), [Quickstart: Managing connection events and changes in availability](http://msdn.microsoft.com/library/464cef85-47c7-4f4a-beba-6494fa080c7d), [Quickstart: Managing metered network cost constraints](http://msdn.microsoft.com/library/9dc2c020-06c0-41dd-bf36-203432ad9d4f), [RSS reader end-to-end (JavaScript) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FeedReader)
+[Quickstart: Retrieving network connection information](https://docs.microsoft.com/previous-versions/windows/apps/hh452990(v=win.10)), [Quickstart: Managing connection events and changes in availability](https://docs.microsoft.com/previous-versions/windows/apps/hh700376(v=win.10)), [Quickstart: Managing metered network cost constraints](https://docs.microsoft.com/previous-versions/windows/apps/hh750310(v=win.10)), [RSS reader end-to-end (JavaScript) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FeedReader)

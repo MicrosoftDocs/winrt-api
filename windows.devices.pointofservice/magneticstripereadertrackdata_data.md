@@ -17,9 +17,9 @@ Gets the raw or decoded data from the swiped card.
 The track data from the swiped card.
 
 ## -remarks
-If [IsDecodeDataEnabled](claimedmagneticstripereader_isdecodedataenabled.md) is true, then [Data](magneticstripereadertrackdata_data.md) contains decoded data.
+If [IsDecodeDataEnabled](claimedmagneticstripereader_isdecodedataenabled.md) is true, then Data contains decoded data.
 
-If [IsTransmitSentinelsEnabled](claimedmagneticstripereader_istransmitsentinelsenabled.md) is false, then [Data](magneticstripereadertrackdata_data.md) contains the track data between sentinels, but not including the start and end sentinels. If [IsTransmitSentinelsEnabled](claimedmagneticstripereader_istransmitsentinelsenabled.md) is true, then the track data includes the start and end sentinels.
+If [IsTransmitSentinelsEnabled](claimedmagneticstripereader_istransmitsentinelsenabled.md) is false, then Data contains the track data between sentinels, but not including the start and end sentinels. If [IsTransmitSentinelsEnabled](claimedmagneticstripereader_istransmitsentinelsenabled.md) is true, then the track data includes the start and end sentinels.
 
 ## -examples
 

@@ -14,7 +14,14 @@ Represents a request to an online identity provider for an authentication token.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | AppProperties |
+| 1703 | 15063 | CorrelationId |
+
 ## -examples
 
 ## -see-also
-[Connect to identity providers with Web Account Manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager), [Web account management sample](http://go.microsoft.com/fwlink/p/?LinkId=620621)
+[Connect to identity providers with Web Account Manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager), [Web account management sample](https://go.microsoft.com/fwlink/p/?LinkId=620621)

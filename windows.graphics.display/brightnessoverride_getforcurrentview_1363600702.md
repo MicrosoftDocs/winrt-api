@@ -10,7 +10,7 @@ public BrightnessOverride BrightnessOverride.GetForCurrentView()
 # Windows.Graphics.Display.BrightnessOverride.GetForCurrentView
 
 ## -description
-Returns a brightness override object. This method requires [CoreWindow](../windows.ui.core/corewindow.md) so it can only be used by apps that are currently running in a window. The returned [BrightnessOverride](brightnessoverride.md) object may not be the same between multiple [GetForCurrentView()](brightnessoverride_getforcurrentview_1363600702.md) calls on the same thread.
+Returns a brightness override object. This method requires [CoreWindow](../windows.ui.core/corewindow.md) so it can only be used by apps that are currently running in a window. The returned [BrightnessOverride](brightnessoverride.md) object may not be the same between multiple GetForCurrentView() calls on the same thread.
 
 ## -returns
 The brightness override object.
@@ -18,7 +18,7 @@ The brightness override object.
 ## -remarks
 This method throws an access is denied exception if there is no [CoreWindow](../windows.ui.core/corewindow.md) on the calling thread.
 
-If you call the [StartOverride()](brightnessoverride_startoverride_1290413150.md) method on multiple instances in succession, the override with highest `brightenss` value will be take precedence over subsequent calls on instances with lower values. To avoid problems, cache the instance retrieved from [GetForCurrentView()](brightnessoverride_getforcurrentview_1363600702.md) and reuse this instance or always call [StopOverride()](brightnessoverride_stopoverride_1207260318.md) on previously applied [BrightnessOverride](brightnessoverride.md).
+If you call the [StartOverride()](brightnessoverride_startoverride_1290413150.md) method on multiple instances in succession, the override with highest `brightenss` value will be take precedence over subsequent calls on instances with lower values. To avoid problems, cache the instance retrieved from GetForCurrentView() and reuse this instance or always call [StopOverride()](brightnessoverride_stopoverride_1207260318.md) on previously applied [BrightnessOverride](brightnessoverride.md).
 
 ## -see-also
 

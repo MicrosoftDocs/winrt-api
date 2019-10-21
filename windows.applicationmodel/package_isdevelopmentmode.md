@@ -13,11 +13,11 @@ public bool IsDevelopmentMode { get; }
 Indicates whether the package is installed in development mode.
 
 ## -property-value
-A [Boolean](https://msdn.microsoft.com/library/system.boolean.aspx) value that indicates whether the package is installed in development mode. **TRUE** indicates that the package is installed in development mode; otherwise **FALSE**.
+A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value that indicates whether the package is installed in development mode. **TRUE** indicates that the package is installed in development mode; otherwise **FALSE**.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[App package information sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620581)
+[App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)

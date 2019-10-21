@@ -30,4 +30,4 @@ The request prompt type.
 ## -examples
 
 ## -see-also
-[Web account management code sample](http://go.microsoft.com/fwlink/p/?LinkId=620621), [WebTokenRequest(WebAccountProvider, String, String)](webtokenrequest_webtokenrequest_817645895.md)
+[Web account management code sample](https://go.microsoft.com/fwlink/p/?LinkId=620621), [WebTokenRequest(WebAccountProvider, String, String)](webtokenrequest_webtokenrequest_817645895.md)

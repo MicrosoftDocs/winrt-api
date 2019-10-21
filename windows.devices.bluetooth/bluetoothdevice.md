@@ -15,6 +15,25 @@ Represents a Bluetooth device.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | DeviceInformation |
+| 1511 | 10586 | GetDeviceSelectorFromBluetoothAddress |
+| 1511 | 10586 | GetDeviceSelectorFromClassOfDevice |
+| 1511 | 10586 | GetDeviceSelectorFromConnectionStatus |
+| 1511 | 10586 | GetDeviceSelectorFromDeviceName |
+| 1511 | 10586 | GetDeviceSelectorFromPairingState |
+| 1607 | 14393 | DeviceAccessInformation |
+| 1607 | 14393 | GetRfcommServicesAsync |
+| 1607 | 14393 | GetRfcommServicesAsync(BluetoothCacheMode) |
+| 1607 | 14393 | GetRfcommServicesForIdAsync(RfcommServiceId) |
+| 1607 | 14393 | GetRfcommServicesForIdAsync(RfcommServiceId,BluetoothCacheMode) |
+| 1607 | 14393 | RequestAccessAsync |
+| 1709 | 16299 | BluetoothDeviceId |
+| 1803 | 17134 | WasSecureConnectionUsedForPairing |
+
 ## -examples
 
 ## -see-also

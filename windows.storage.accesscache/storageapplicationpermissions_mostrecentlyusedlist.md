@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.Storage.AccessCache.StorageApplicationPermissions.MostRecentlyUsedList
 -api-type: winrt property
+ms.custom: 19H1
 ---
 
 <!-- Property syntax
@@ -16,7 +17,7 @@ Gets an object that represents a list that an app can use to track the files and
 The most recently used (MRU) list object.
 
 ## -remarks
-If you want to respond to [StorageItemMostRecentlyUsedList](storageitemmostrecentlyusedlist.md).[ItemRemoved](storageitemmostrecentlyusedlist_itemremoved.md) events you must register your event handle every time you get a new reference to the [StorageItemMostRecentlyUsedList](storageitemmostrecentlyusedlist.md).
+If you want to respond to [ItemRemoved](storageitemmostrecentlyusedlist_itemremoved.md) events, you must register your event handler every time you get a new reference to the [StorageItemMostRecentlyUsedList](storageitemmostrecentlyusedlist.md).
 
 ## -examples
 

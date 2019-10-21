@@ -24,11 +24,11 @@ By default, the [CompositionSurface](../windows.ui.composition/icompositionsurfa
 
 You can obtain multiple surfaces from a single [MediaPlayer](mediaplayer.md) instance by calling [MediaPlayer](mediaplayer.md) multiple times.
 
-For more information on using the [Windows.UI.Composition](../windows.ui.composition/windows_ui_composition.md) APIs to render visuals, see [Visual layer](https://msdn.microsoft.com/en-us/windows/uwp/graphics/visual-layer).
+For more information on using the [Windows.UI.Composition](../windows.ui.composition/windows_ui_composition.md) APIs to render visuals, see [Visual layer](https://docs.microsoft.com/windows/uwp/graphics/visual-layer).
 
-For how-to guidance for rendering video to a composition surface, see [Play audio and video with MediaPlayer](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer#use-mediaplayersurface-to-render-video-to-a-windowsuicomposition-surface).
+For how-to guidance for rendering video to a composition surface, see [Play audio and video with MediaPlayer](https://docs.microsoft.com/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer).
 
 ## -examples
 
 ## -see-also
-[Play audio and video with MediaPlayer](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer#use-mediaplayersurface-to-render-video-to-a-windowsuicomposition-surface)
+[Play audio and video with MediaPlayer](https://docs.microsoft.com/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer)

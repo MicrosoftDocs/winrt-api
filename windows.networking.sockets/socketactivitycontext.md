@@ -13,7 +13,7 @@ public class SocketActivityContext : Windows.Networking.Sockets.ISocketActivityC
 The context associated with a socket while transferring ownership of the socket between an app and the socket brokering service.
 
 ## -remarks
-The [SocketActivityContext](socketactivitycontext.md) class used by an app to pass serialized data to associate the app context to a transferred socket.
+The SocketActivityContext class used by an app to pass serialized data to associate the app context to a transferred socket.
 
 ## -examples
 

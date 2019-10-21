@@ -21,4 +21,4 @@ An instance of this class is passed to the [DragEventHandler](drageventhandler.m
 
 ## -see-also
 
-[Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)
+[Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)

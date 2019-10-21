@@ -20,9 +20,9 @@ A message to display to the user for this biometric verification request.
 A [UserConsentVerificationResult](userconsentverificationresult.md) value that describes the result of the biometric verification.
 
 ## -remarks
-You can use the [RequestVerificationAsync](userconsentverifier_requestverificationasync_1054783001.md) method to request user consent for authentication. For example, you can require fingerprint authentication before authorizing an in-app purchase, or access to restricted resources. You can use the [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md) method to determine if authentication is supported for the current computer .
+You can use the RequestVerificationAsync method to request user consent for authentication. For example, you can require fingerprint authentication before authorizing an in-app purchase, or access to restricted resources. You can use the [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md) method to determine if authentication is supported for the current computer .
 
 ## -examples
 
 ## -see-also
-[Fingerprint biometrics](http://msdn.microsoft.com/library/55483729-5f8a-401a-8072-3cd611ddfed2), [UserConsentVerifier sample](http://go.microsoft.com/fwlink/p/?LinkID=303650), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](http://msdn.microsoft.com/library/53e36ddc-200a-4850-aaf0-07eca3662bb9)
+[Fingerprint biometrics](https://docs.microsoft.com/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://go.microsoft.com/fwlink/p/?LinkID=303650), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity)

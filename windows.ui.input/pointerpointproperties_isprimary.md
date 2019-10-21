@@ -20,11 +20,11 @@ The primary pointer is a single pointer (touch, mouse, and pen/stylus) in the cu
 
 For mouse, the primary pointer is the only pointer for which mouse events can be generated.
 
-For touch (where there can be multiple concurrent pointers), the primary pointer is the first contact in an interaction. For any interaction after the first **[PointerPressed](..\windows.ui.xaml\uielement_pointerpressed.md)** event, [IsPrimary](pointerpointproperties_isprimary.md) returns false.
+For touch (where there can be multiple concurrent pointers), the primary pointer is the first contact in an interaction. For any interaction after the first **[PointerPressed](..\windows.ui.xaml\uielement_pointerpressed.md)** event, IsPrimary returns false.
 
 A new primary pointer is only registered when all contacts in that interaction are removed and a new contact is subsequently detected.
 
-A primary pointer can perform actions that are not available to other pointers. For example, when a primary pointer generates a [WM_POINTERDOWN](https://msdn.microsoft.com/library/windows/desktop/hh454923(v=vs.85).aspx) message on an inactive window, a [WM_POINTERACTIVATE](https://msdn.microsoft.com/library/windows/desktop/hh454921.aspx)] message is also sent to that window.
+A primary pointer can perform actions that are not available to other pointers. For example, when a primary pointer generates a [WM_POINTERDOWN](https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdown) message on an inactive window, a [WM_POINTERACTIVATE](https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointeractivate)] message is also sent to that window.
 
 ## -examples
 This example uses different colored ellipses to show whether the pointer associated with the [PointerRoutedEventArgs](https://docs.microsoft.com/uwp/api/windows.ui.xaml.input.pointerroutedeventargs) is the primary pointer.

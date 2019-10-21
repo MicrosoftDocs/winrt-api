@@ -30,7 +30,7 @@ You can also get a list of items in the current folder asynchronously by calling
 To specify additional query options, call the [CreateItemQueryWithOptions](storagefolder_createitemquerywithoptions_1519361285.md) method.
 
 ## -examples
-The following example shows how to get the files and subfolders in the current folder by calling the [CreateItemQuery()](storagefolder_createitemquery_543424716.md) method.
+The following example shows how to get the files and subfolders in the current folder by calling the CreateItemQuery() method.
 
 ```csharp
 using Windows.Storage;

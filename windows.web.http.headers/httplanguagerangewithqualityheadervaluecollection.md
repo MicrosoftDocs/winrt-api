@@ -13,14 +13,14 @@ public class HttpLanguageRangeWithQualityHeaderValueCollection : Windows.Foundat
 Represents the value of the **Accept-Language** HTTP header on an HTTP request.
 
 ## -remarks
-The [HttpLanguageRangeWithQualityHeaderValueCollection](httplanguagerangewithqualityheadervaluecollection.md) class represents the value of the **Accept-Language** HTTP header on an HTTP request.
+The HttpLanguageRangeWithQualityHeaderValueCollection class represents the value of the **Accept-Language** HTTP header on an HTTP request.
 
-The [HttpLanguageRangeWithQualityHeaderValueCollection](httplanguagerangewithqualityheadervaluecollection.md) provides a collection container for instances of the [HttpLanguageRangeWithQualityHeaderValue](httplanguagerangewithqualityheadervalue.md) class used for accept language information in the **Accept-Language** HTTP header.
+The HttpLanguageRangeWithQualityHeaderValueCollection provides a collection container for instances of the [HttpLanguageRangeWithQualityHeaderValue](httplanguagerangewithqualityheadervalue.md) class used for accept language information in the **Accept-Language** HTTP header.
 
-The [AcceptLanguage](httprequestheadercollection_acceptlanguage.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an [HttpLanguageRangeWithQualityHeaderValueCollection](httplanguagerangewithqualityheadervaluecollection.md) object.
+The [AcceptLanguage](httprequestheadercollection_acceptlanguage.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) returns an HttpLanguageRangeWithQualityHeaderValueCollection object.
 
 ## -examples
-The following sample code shows a method to get and set the **Accept-Language** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the [HttpLanguageRangeWithQualityHeaderValueCollection](httplanguagerangewithqualityheadervaluecollection.md) and [HttpLanguageRangeWithQualityHeaderValue](httplanguagerangewithqualityheadervalue.md) classes.
+The following sample code shows a method to get and set the **Accept-Language** HTTP header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties and methods on the HttpLanguageRangeWithQualityHeaderValueCollection and [HttpLanguageRangeWithQualityHeaderValue](httplanguagerangewithqualityheadervalue.md) classes.
 
 ```csharp
 using System;

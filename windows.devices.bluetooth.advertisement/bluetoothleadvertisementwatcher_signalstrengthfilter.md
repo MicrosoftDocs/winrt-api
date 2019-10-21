@@ -17,7 +17,7 @@ Gets or sets a [BluetoothSignalStrengthFilter](../windows.devices.bluetooth/blue
 Configuration of Bluetooth LE advertisement filtering that uses signal strength-based filtering.
 
 ## -remarks
-The [SignalStrengthFilter](bluetoothleadvertisementwatcher_signalstrengthfilter.md) has additional limitations on its properties when used by the [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md) class. An exception will be thrown when the watcher is started with parameters outside of the valid range. If the properties are left as **NULL**, a default value is selected.
+The SignalStrengthFilter has additional limitations on its properties when used by the [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md) class. An exception will be thrown when the watcher is started with parameters outside of the valid range. If the properties are left as **NULL**, a default value is selected.
 
 The additional restrictions and default values are as follows:
 

@@ -17,6 +17,13 @@ This object is created when a [GetDefaultAsync](linedisplay_getdefaultasync_1549
 
 See the [line display sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LineDisplay) for an example implementation.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | CheckPowerStatusAsync |
+| 1709 | 16299 | StatisticsCategorySelector |
+
 ## -see-also
 
 ## -examples

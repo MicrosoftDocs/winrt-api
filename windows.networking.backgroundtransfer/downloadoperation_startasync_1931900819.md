@@ -44,7 +44,7 @@ Thrown when insufficient memory is available to complete the operation.
 
 Background transfer doesn't support concurrent downloads of the same [Uri](../windows.foundation/uri.md). So an app can download *http://example.com/myfile.wmv* once, or download it again after a previous download completed. An app shouldn't start two downloads of the same [Uri](../windows.foundation/uri.md) concurrently, since this may result in truncated files.
 
-A download operation must be scheduled using one of the [BackgroundDownloader.CreateDownload](backgrounddownloader_createdownload_1461958690.md) or [BackgroundDownloader.CreateDownloadAsync](backgrounddownloader_createdownloadasync_282410561.md) methods before the [StartAsync](downloadoperation_startasync_1931900819.md) method is called.
+A download operation must be scheduled using one of the [BackgroundDownloader.CreateDownload](backgrounddownloader_createdownload_1461958690.md) or [BackgroundDownloader.CreateDownloadAsync](backgrounddownloader_createdownloadasync_282410561.md) methods before the StartAsync method is called.
 
 > [!IMPORTANT]
 > Queuing up a large number of transfers on the main UI thread can result in degraded performance of your app's UI, even though the call is awaitable. If you are queuing up a large number of transfers, it is recommended that you call **StartAsync** on a background worker thread as in the following example.
@@ -59,4 +59,4 @@ operation = await Task.Run(() => { return myDownloadOperation.StartAsync(); });
 ## -examples
 
 ## -see-also
-[Background Transfer Download sample](http://go.microsoft.com/fwlink/p/?linkid=245064), [BackgroundTransferError.GetStatus](backgroundtransfererror_getstatus_1856274933.md), [Handling exceptions in network apps](http://msdn.microsoft.com/library/76fafcc9-c674-4cf8-baa0-2400638fae35), [Quickstart: Download a file](http://msdn.microsoft.com/library/f7b1a3a0-87b8-4c85-a2a3-be9ff7f04d53)
+[Background Transfer Download sample](https://go.microsoft.com/fwlink/p/?linkid=245064), [BackgroundTransferError.GetStatus](backgroundtransfererror_getstatus_1856274933.md), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10))

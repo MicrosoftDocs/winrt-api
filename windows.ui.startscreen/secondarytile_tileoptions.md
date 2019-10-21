@@ -12,7 +12,7 @@ public Windows.UI.StartScreen.TileOptions TileOptions { get;  set; }
 
 ## -description
 > [!NOTE]
-> [TileOptions](secondarytile_tileoptions.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTile.VisualElements](secondarytile_visualelements.md).
+> TileOptions may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTile.VisualElements](secondarytile_visualelements.md).
 
 Gets or sets options available to a secondary tile.
 

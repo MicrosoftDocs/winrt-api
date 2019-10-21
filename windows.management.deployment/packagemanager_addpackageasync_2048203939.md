@@ -33,7 +33,7 @@ The status of the deployment request. The [DeploymentResult](deploymentresult.md
 ## -examples
 
 ## -see-also
-[Add app package sample](http://go.microsoft.com/fwlink/p/?linkid=236968), [AddPackageAsync(Uri, IIterable(Uri), DeploymentOptions)](packagemanager_addpackageasync_973949101.md)
+[Add app package sample](https://go.microsoft.com/fwlink/p/?linkid=236968), [AddPackageAsync(Uri, IIterable(Uri), DeploymentOptions)](packagemanager_addpackageasync_973949101.md)
 
 ## -capabilities
 packageManagement

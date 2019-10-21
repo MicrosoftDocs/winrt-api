@@ -14,6 +14,12 @@ Provides information about an activated event that fires after the app was suspe
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 
 ## -see-also

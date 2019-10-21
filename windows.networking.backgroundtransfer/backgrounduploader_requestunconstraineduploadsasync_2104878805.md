@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.BackgroundTransfer.
 
 ## -description
 > [!NOTE]
-> [RequestUnconstrainedUploadsAsync](backgrounduploader_requestunconstraineduploadsasync_2104878805.md) may be altered or unavailable for releases after Windows 10, version 1607. Instead, use [CreateUploadAsync](backgrounduploader_createuploadasync_844456383.md).
+> RequestUnconstrainedUploadsAsync may be altered or unavailable for releases after Windows 10, version 1607. Instead, use [CreateUploadAsync](backgrounduploader_createuploadasync_844456383.md).
 
 Used to request an unconstrained upload operation. When this method is called the user is provided with a UI prompt that they can use to indicate their consent for an unconstrained operation.An unconstrained transfer operation will run without the resource restrictions normally associated with background network operations while a device is running on battery.
 

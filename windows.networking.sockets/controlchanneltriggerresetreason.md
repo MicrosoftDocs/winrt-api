@@ -34,7 +34,7 @@ This value is supported on Windows 8.1, Windows Server 2012 R2, and later.
 
 
 ## -remarks
-This [ControlChannelTriggerResetReason](controlchanneltriggerresetreason.md) enumeration is used to indicate the reason why a [ControlChannelTrigger](controlchanneltrigger.md) was reset and needs to be reestablished. The reset reason provides details to the app about the reason for the reset which could be a result of fast user switching or a low power exit (the computer entering Connected standby mode). This allows the app to recreate the connection to the remote destination by re-establishing the [ControlChannelTrigger](controlchanneltrigger.md) and the underlying transport connection.
+This ControlChannelTriggerResetReason enumeration is used to indicate the reason why a [ControlChannelTrigger](controlchanneltrigger.md) was reset and needs to be reestablished. The reset reason provides details to the app about the reason for the reset which could be a result of fast user switching or a low power exit (the computer entering Connected standby mode). This allows the app to recreate the connection to the remote destination by re-establishing the [ControlChannelTrigger](controlchanneltrigger.md) and the underlying transport connection.
 
 ## -examples
 

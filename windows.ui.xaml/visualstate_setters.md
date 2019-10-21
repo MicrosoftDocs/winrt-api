@@ -10,7 +10,7 @@ public Windows.UI.Xaml.SetterBaseCollection Setters { get; }
 # Windows.UI.Xaml.VisualState.Setters
 
 ## -description
-Gets a collection of [Setter](setter.md) objects that define discrete property values that control the appearance of [UIElement](uielement.md) s when this [VisualState](visualstate.md) is applied.
+Gets a collection of [Setter](setter.md) objects that define discrete property values that control the appearance of [UIElement](uielement.md)s when this [VisualState](visualstate.md) is applied.
 
 ## -property-value
 A collection of [Setter](setter.md) objects. The default is an empty collection.
@@ -19,7 +19,7 @@ A collection of [Setter](setter.md) objects. The default is an empty collection.
 Use this property to make discrete property value changes on multiple UI elements at one time when a [VisualState](visualstate.md) is applied.
 
 ## -examples
-The following example shows how to use multiple [Setter](setter.md) statements inside the [VisualState.Setters](visualstate_setters.md) property to apply multiple discrete property value changes on 2 different elements when a [VisualState](visualstate.md) is applied.
+The following example shows how to use multiple [Setter](setter.md) statements inside the VisualState.Setters property to apply multiple discrete property value changes on 2 different elements when a [VisualState](visualstate.md) is applied.
 
 ```xaml
 <Page>

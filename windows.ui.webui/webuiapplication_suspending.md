@@ -19,7 +19,7 @@ The system attempts to keep your app and its data in memory while it's suspended
 
 The system doesn't notify an app when it's terminated, so your app must save its application data and release exclusive resources and file handles when it's suspended, and restore them when the app is activated after termination.
 
-You should also release any exclusive resources, like file handles at suspend, so that they can be used by other apps while your app is suspended. Your app can also listen to the [Oncheckpoint](http://msdn.microsoft.com/library/a7620c81-f769-46e5-b030-dde21b8c2d5b) event to handle the app being suspended.
+You should also release any exclusive resources, like file handles at suspend, so that they can be used by other apps while your app is suspended. Your app can also listen to the [Oncheckpoint](https://docs.microsoft.com/previous-versions/windows/apps/br229839(v=win.10)) event to handle the app being suspended.
 
 > [!NOTE]
 > If you need to do asynchronous work when your app is being suspended, you will need to defer completion of suspend until after your work completes. You can use the [suspendingOperation.getDeferral](suspendingoperation_getdeferral_254836512.md) method to delay completion of suspend until after you complete the deferral.
@@ -27,4 +27,4 @@ You should also release any exclusive resources, like file handles at suspend, s
 ## -examples
 
 ## -see-also
-[App lifecycle](http://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10), [Oncheckpoint event](http://msdn.microsoft.com/library/a7620c81-f769-46e5-b030-dde21b8c2d5b), [App activated, resume, and suspend using the WRL sample](http://go.microsoft.com/fwlink/p/?linkid=226722)
+[App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle), [Oncheckpoint event](https://docs.microsoft.com/previous-versions/windows/apps/br229839(v=win.10)), [App activated, resume, and suspend using the WRL sample](https://go.microsoft.com/fwlink/p/?linkid=226722)

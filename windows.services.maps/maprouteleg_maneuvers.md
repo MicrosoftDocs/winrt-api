@@ -20,4 +20,4 @@ The list of maneuvers associated with the route leg. This property returns a col
 ## -examples
 
 ## -see-also
-[Display  routes and directions on a map](http://msdn.microsoft.com/library/bbb4c23a-8f10-41d1-81ea-271be01aed81)
+[Display  routes and directions on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/routes-and-directions)

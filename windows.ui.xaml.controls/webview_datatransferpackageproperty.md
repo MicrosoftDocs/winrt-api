@@ -11,7 +11,7 @@ public Windows.UI.Xaml.DependencyProperty DataTransferPackageProperty { get; }
 
 ## -description
 > [!NOTE]
-> [DataTransferPackageProperty](webview_datatransferpackageproperty.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [CaptureSelectedContentToDataPackageAsync](webview_captureselectedcontenttodatapackageasync_1187796026.md).
+> DataTransferPackageProperty may be altered or unavailable for releases after Windows 8.1. Instead, use [CaptureSelectedContentToDataPackageAsync](webview_captureselectedcontenttodatapackageasync_1187796026.md).
 
 Identifies the [DataTransferPackage](webview_datatransferpackage.md) dependency property.
 

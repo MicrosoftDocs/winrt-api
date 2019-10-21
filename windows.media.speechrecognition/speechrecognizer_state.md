@@ -20,4 +20,4 @@ The speech recognizer state.
 ## -examples
 
 ## -see-also
-[Speech interactions](http://msdn.microsoft.com/library/646db3ce-fa81-4727-8c21-936c81079439), [StateChanged](speechrecognizer_statechanged.md), [Speech design guidelines](http://msdn.microsoft.com/library/4a63a8c4-4182-4e36-ba12-4c343a56fca9), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [StateChanged](speechrecognizer_statechanged.md), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)

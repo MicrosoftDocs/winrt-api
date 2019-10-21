@@ -19,7 +19,7 @@ Applies multiple transform operations to an object.
 
 
 ## -remarks
-[CompositeTransform](compositetransform.md) applies multiple transforms in this order:
+CompositeTransform applies multiple transforms in this order:
 
 
 1. Scale ([ScaleX](compositetransform_scalex.md), [ScaleY](compositetransform_scaley.md) )
@@ -29,14 +29,14 @@ Applies multiple transform operations to an object.
 
 If you want to apply multiple transforms to an object in a different order, you can create a [TransformGroup](transformgroup.md) and insert the transforms in your intended order.
 
-[CompositeTransform](compositetransform.md) uses the same center point ([CenterX](compositetransform_centerx.md), [CenterY](compositetransform_centery.md)) for all transformations. If you want to specify different center points per transform, use [TransformGroup](transformgroup.md).
+CompositeTransform uses the same center point ([CenterX](compositetransform_centerx.md), [CenterY](compositetransform_centery.md)) for all transformations. If you want to specify different center points per transform, use [TransformGroup](transformgroup.md).
 
 ## -examples
-This example shows how to apply the same transforms to an object by using either a [CompositeTransform](compositetransform.md) or a [TransformGroup](transformgroup.md).
+This example shows how to apply the same transforms to an object by using either a CompositeTransform or a [TransformGroup](transformgroup.md).
 
 
 
-[!code-xml[CompositeTransform](../windows.ui.xaml/code/transforms/csharp/CompositeTransform.xaml#SnippetCompositeTransform)]
+[!code-xaml[CompositeTransform](../windows.ui.xaml/code/transforms/csharp/CompositeTransform.xaml#SnippetCompositeTransform)]
 
 ## -see-also
-[Transform](transform.md), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=226868), [TransformGroup](transformgroup.md)
+[Transform](transform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868), [TransformGroup](transformgroup.md)

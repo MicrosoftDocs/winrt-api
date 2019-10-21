@@ -17,4 +17,4 @@ Specifies the event that occurs when a pointer moves within the bounding box of 
 ## -examples
 
 ## -see-also
-[Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82)
+[Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)

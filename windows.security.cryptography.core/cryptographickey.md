@@ -14,7 +14,7 @@ Represents a symmetric key or an asymmetric key pair.
 
 ## -remarks
 
-A [CryptographicKey](cryptographickey.md) object is created when you use methods that create or import keys in the following classes:
+A CryptographicKey object is created when you use methods that create or import keys in the following classes:
 
 + [AsymmetricKeyAlgorithmProvider](asymmetrickeyalgorithmprovider.md)
 + [KeyDerivationAlgorithmProvider](keyderivationalgorithmprovider.md)

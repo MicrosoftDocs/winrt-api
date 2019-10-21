@@ -13,16 +13,16 @@ public class MenuFlyoutItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.Fra
 Exposes [MenuFlyoutItem](../windows.ui.xaml.controls/menuflyoutitem.md) types to Microsoft UI Automation.
 
 ## -remarks
-The Windows Runtime  [MenuFlyoutItem](../windows.ui.xaml.controls/menuflyoutitem.md) class creates a new [MenuFlyoutItemAutomationPeer](menuflyoutitemautomationpeer.md) as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from [MenuFlyoutItemAutomationPeer](menuflyoutitemautomationpeer.md) if you are deriving a custom class from [MenuFlyoutItem](../windows.ui.xaml.controls/menuflyoutitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
+The Windows Runtime  [MenuFlyoutItem](../windows.ui.xaml.controls/menuflyoutitem.md) class creates a new MenuFlyoutItemAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from MenuFlyoutItemAutomationPeer if you are deriving a custom class from [MenuFlyoutItem](../windows.ui.xaml.controls/menuflyoutitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
 ### Default peer implementation and overrides in **MenuFlyoutItemAutomationPeer**
 
-[MenuFlyoutItemAutomationPeer](menuflyoutitemautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
+MenuFlyoutItemAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.Invoke](patterninterface.md) ([IInvokeProvider](http://msdn.microsoft.com/library/e522b8d5-c6f6-4f71-a8c8-4332f2824f72)).
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for [PatternInterface.Invoke](patterninterface.md) ([IInvokeProvider](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iinvokeprovider)).
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "MenuFlyoutItem".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.MenuItem](automationcontroltype.md).
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 

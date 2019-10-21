@@ -15,6 +15,13 @@ Controls which application is responsible for determining the origin of incoming
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | RequestSetAsActiveCallOriginAppAsync |
+| 1903 | 18362 | IsSupported |
+
 ## -examples
 
 ## -see-also

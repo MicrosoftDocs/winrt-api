@@ -17,7 +17,7 @@ Specifies the algorithm used to round numbers.
 
 ### -field None:0
 
-No rounding is performed.
+**Do not use.**
 
 ### -field RoundDown:1
 
@@ -65,4 +65,4 @@ Round to the integer, increment, or significant digit that is closest to the inp
 
 ## -see-also
 
-[Number formatting and parsing sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620578)
+[CurrencyFormatter.ApplyRoundingForCurrency](currencyformatter_applyroundingforcurrency_1365585652.md), [IncrementNumberRounder](incrementnumberrounder.md), [SignificantDigitsNumberRounder](significantdigitsnumberrounder.md), [Number formatting and parsing sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620578)

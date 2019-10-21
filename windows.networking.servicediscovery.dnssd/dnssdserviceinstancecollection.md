@@ -16,7 +16,7 @@ A collection of DNS Service Discovery (DNS-SD) service instances.
 > DnssdServiceInstanceCollection is not supported and may be altered or unavailable in the future. Instead, use the Windows.Devices.Enumeration API.
 
 ## -remarks
-Your code does not create a [DnssdServiceInstanceCollection](dnssdserviceinstancecollection.md) directly. Instead, handle the [DnssdServiceWatcher.EnumerationCompleted](dnssdservicewatcher_enumerationcompleted.md) event. When that event is triggered, the second argument to the event handler is a pointer to a [DnssdServiceInstanceCollection](dnssdserviceinstancecollection.md) object that contains information about the discovered service instances.
+Your code does not create a DnssdServiceInstanceCollection directly. Instead, handle the [DnssdServiceWatcher.EnumerationCompleted](dnssdservicewatcher_enumerationcompleted.md) event. When that event is triggered, the second argument to the event handler is a pointer to a DnssdServiceInstanceCollection object that contains information about the discovered service instances.
 
 ## -examples
 

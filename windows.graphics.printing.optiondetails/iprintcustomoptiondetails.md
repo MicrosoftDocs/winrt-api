@@ -16,7 +16,7 @@ Represents the base class for all CustomPrintTaskOptionXxx objects.
 ## -remarks
 ### Interface inheritance
 
-[IPrintCustomOptionDetails](iprintcustomoptiondetails.md) inherits [IPrintOptionDetails](iprintoptiondetails.md). Types that implement [IPrintCustomOptionDetails](iprintcustomoptiondetails.md) also implement the interface members of [IPrintOptionDetails](iprintoptiondetails.md).
+IPrintCustomOptionDetails inherits [IPrintOptionDetails](iprintoptiondetails.md). Types that implement IPrintCustomOptionDetails also implement the interface members of [IPrintOptionDetails](iprintoptiondetails.md).
 
 ## -examples
 

@@ -14,6 +14,13 @@ Represents a Bluetooth adapter.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | AreClassicSecureConnectionsSupported |
+| 1803 | 17134 | AreLowEnergySecureConnectionsSupported |
+
 ## -see-also
 
 ## -examples

@@ -22,7 +22,7 @@ Gets or sets the property path that is used to get the [SelectedValue](selector_
 <dl><dt>propertyPath</dt><dd>propertyPathA string that is evaluated as a simple dot syntax path to an object property.</dd>
 </dl>
 ## -property-value
-The property path that is used to get the [SelectedValue](selector_selectedvalue.md) property of the [SelectedItem](selector_selecteditem.md) property. The default is [String.Empty](https://msdn.microsoft.com/library/system.string.empty.aspx).
+The property path that is used to get the [SelectedValue](selector_selectedvalue.md) property of the [SelectedItem](selector_selecteditem.md) property. The default is [String.Empty](https://docs.microsoft.com/dotnet/api/system.string.empty?redirectedfrom=MSDN).
 
 ## -remarks
 

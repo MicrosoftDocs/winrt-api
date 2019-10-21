@@ -10,7 +10,7 @@ public enum Windows.ApplicationModel.Store.Preview.InstallControl.AppInstallStat
 # AppInstallState
 
 ## -description
-Defines the app install states that are returned by the [InstallState](appinstallstate.md) property of the [AppInstallStatus](appinstallstatus.md) class.
+Defines the app install states that are returned by the InstallState property of the [AppInstallStatus](appinstallstatus.md) class.
 
 ## -enum-fields
 ### -field Pending:0

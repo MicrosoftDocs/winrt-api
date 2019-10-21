@@ -37,8 +37,11 @@ The Windows Runtime provides limited support for metafiles. Specifically, the Wi
 + Supports requesting data in "EnhancedMetafile" format, but not providing it; that is, calling `SetData("EnhancedMetafile", <data>)` won't work.
 + Provides limited support through the clipboard API for exchanging metafiles between UWP app and desktop apps.
 
+### Version history
 
-
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | UserActivityJsonArray |
 
 ## -examples
 This example shows how to retrieve shared text.

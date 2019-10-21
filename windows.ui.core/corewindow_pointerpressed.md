@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler PointerPressed<Windows.UI.Core
 # Windows.UI.Core.CoreWindow.PointerPressed
 
 ## -description
+
 Occurs when a mouse button is clicked, or the digitizer surface has been touched by a finger or pen, within the bounding rectangle of the app.
 
 An interaction session starts when a single contact is detected and ends when that contact, and all subsequent contacts in the same session, are no longer detected.
@@ -21,4 +22,5 @@ This event is fired for the first contact detected in the interaction session. D
 ## -examples
 
 ## -see-also
-[Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82)
+
+[Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)

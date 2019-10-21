@@ -18,7 +18,7 @@ Occurs when the [FrameworkElement](frameworkelement.md)'s *effective viewport* c
 
 A scrolling control allows the user to pan/scroll through content that takes up more space than is available in the UI. The portion of the content that the user sees is called the *viewport*.
 
-The [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md) event provides multiple pieces of information:
+The EffectiveViewportChanged event provides multiple pieces of information:
 
 1. The actual [EffectiveViewport](effectiveviewportchangedeventargs_effectiveviewport.md)
 1. A calculation for the [MaxViewport](effectiveviewportchangedeventargs_maxviewport.md)
@@ -26,7 +26,7 @@ The [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md) eve
 
 ### EffectiveViewport
 
-The *EffectiveViewport* is the intersection of all known viewports that contain the [FrameworkElement](frameworkelement.md) in their sub-tree. If there are two or more viewports (e.g. a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) nested inside another [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md)) that do not overlap, then the EffectiveViewport is an empty [Rect](../windows.foundation/rect.md).
+The *EffectiveViewport* is the intersection of all known viewports that contain the [FrameworkElement](frameworkelement.md) in their sub-tree. If there are two or more viewports (for example, a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) nested inside another [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md)) that do not overlap, then the EffectiveViewport is an empty [Rect](../windows.foundation/rect.md).
 
 > [!NOTE]
 > For a scrolling control's viewport to be *known* to the framework, the control must have previously registered it using the [UIElement.RegisterAsScrollPort](uielement_registerasscrollport_591917999.md) method. The framework uses the [Clip](uielement_clip.md) of the registered element when determining the effective viewport.
@@ -35,7 +35,7 @@ The *EffectiveViewport* is the intersection of all known viewports that contain 
 
 The [EffectiveViewport](effectiveviewportchangedeventargs_effectiveviewport.md) is given in the coordinate space of the [FrameworkElement](frameworkelement.md). There's no need to perform a [TransformToVisual](uielement_transformtovisual_799251735.md) with the viewport [Rect](../windows.foundation/rect.md).
 
-In a simple scenario where there is a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) that contains a single element, the [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md) event provides viewport updates similar to the [ViewChanged](../windows.ui.xaml.controls/scrollviewer_viewchanged.md) event. The main difference is that the EffectiveViewportChanged event is raised *after* the arrange pass of layout.
+In a simple scenario where there is a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) that contains a single element, the EffectiveViewportChanged event provides viewport updates similar to the [ViewChanged](../windows.ui.xaml.controls/scrollviewer_viewchanged.md) event. The main difference is that the EffectiveViewportChanged event is raised *after* the arrange pass of layout.
 
 For example, this ...
 
@@ -125,7 +125,7 @@ private void Item_EffectiveViewportChanged(FrameworkElement sender, EffectiveVie
 ## -see-also
 
 - [UIElement.RegisterAsScrollPort](uielement_registerasscrollport_591917999.md)
-- [FrameworkElement.EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
+- FrameworkElement.EffectiveViewportChanged
 - [FrameworkElement.InvalidateViewport](frameworkelement_invalidateviewport_528063221.md)
 
 ## -examples

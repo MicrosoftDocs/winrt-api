@@ -15,7 +15,7 @@ Represents the base class for all button controls, such as [Button](../windows.u
 ## -remarks
 ### **ButtonBase** derived classes
 
-[ButtonBase](buttonbase.md) is the parent class for several immediately derived controls that refine specific button behaviors for UI interaction:
+ButtonBase is the parent class for several immediately derived controls that refine specific button behaviors for UI interaction:
 
 + [Button](../windows.ui.xaml.controls/button.md)
 + [HyperlinkButton](../windows.ui.xaml.controls/hyperlinkbutton.md)
@@ -24,11 +24,11 @@ Represents the base class for all button controls, such as [Button](../windows.u
 
 
 ## -examples
-The following example demonstrates handling the [Click](buttonbase_click.md) event and setting the [IsEnabled](../windows.ui.xaml.controls/control_isenabled.md) property of a [Button](../windows.ui.xaml.controls/button.md), which inherits from [ButtonBase](buttonbase.md).
+The following example demonstrates handling the [Click](buttonbase_click.md) event and setting the [IsEnabled](../windows.ui.xaml.controls/control_isenabled.md) property of a [Button](../windows.ui.xaml.controls/button.md), which inherits from ButtonBase.
 
 
 
-[!code-xml[4](../windows.ui.xaml/code/System.Windows.Controls.ButtonClickEx/csharp/Page.xaml#Snippet4)]
+[!code-xaml[4](../windows.ui.xaml/code/System.Windows.Controls.ButtonClickEx/csharp/Page.xaml#Snippet4)]
 
 
 [!code-csharp[41](../windows.ui.xaml/code/System.Windows.Controls.ButtonClickEx/csharp/Page.xaml.cs#Snippet41)]

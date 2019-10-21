@@ -31,7 +31,7 @@ The enterprise id that the file or folder is protected for. The *enterpriseIdent
 An asynchronous operation that retrieves the selective wipe protection status for the *storageItem*.
 
 ## -remarks
-You can use the [ProtectAsync](filerevocationmanager_protectasync_1331169532.md) method to protect a file or folder using Selective Wipe. This identifies the file as protected for your enterprise identifier, such as "example.com", as shown in the previous code example. If you protect a folder using the [ProtectAsync](filerevocationmanager_protectasync_1331169532.md) method, then all files in that folder inherit the same protection.
+You can use the ProtectAsync method to protect a file or folder using Selective Wipe. This identifies the file as protected for your enterprise identifier, such as "example.com", as shown in the previous code example. If you protect a folder using the ProtectAsync method, then all files in that folder inherit the same protection.
 
 
 
@@ -43,9 +43,9 @@ You can use the [ProtectAsync](filerevocationmanager_protectasync_1331169532.md)
 
 [!code-js[_Protect_JS](../windows.security.enterprisedata/code/SelectiveWipeSnippets/js/default.js#Snippet_Protect_JS)]
 
-The [ProtectAsync](filerevocationmanager_protectasync_1331169532.md) method requires exclusive access to the file or folder being encrypted, and will fail if another process is using has a handle open to the file or folder.
+The ProtectAsync method requires exclusive access to the file or folder being encrypted, and will fail if another process is using has a handle open to the file or folder.
 
 ## -examples
 
 ## -see-also
-[FileRevocationManager sample](http://go.microsoft.com/fwlink/p/?LinkID=299023), [How to protect files with Selective Wipe  (C#/VB/C++)](http://msdn.microsoft.com/library/a1afb4fb-6731-461a-8dd2-51eec5e880a1), [How to protect files with Selective Wipe (JavaScript)](http://msdn.microsoft.com/library/5b8652eb-6462-4bf1-b5b7-4a37957c605f)
+[FileRevocationManager sample](https://go.microsoft.com/fwlink/p/?LinkID=299023), [How to protect files with Selective Wipe  (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/dn456782(v=win.10)), [How to protect files with Selective Wipe (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/dn456781(v=win.10))

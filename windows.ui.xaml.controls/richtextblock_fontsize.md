@@ -22,7 +22,7 @@ Gets or sets the font size for the text content in this element.
 A non-negative value that specifies the font size, measured in pixels. The default is 11.
 
 ## -remarks
-Set the [FontSize](richtextblock_fontsize.md) property to specify the default font size to use for all text in the [RichTextBlock](richtextblock.md). You can override this value for specific text elements in the [RichTextBlock](richtextblock.md) by setting the [TextElement.FontSize](../windows.ui.xaml.documents/textelement_fontsize.md) property.
+Set the FontSize property to specify the default font size to use for all text in the [RichTextBlock](richtextblock.md). You can override this value for specific text elements in the [RichTextBlock](richtextblock.md) by setting the [TextElement.FontSize](../windows.ui.xaml.documents/textelement_fontsize.md) property.
 
 ## -examples
 

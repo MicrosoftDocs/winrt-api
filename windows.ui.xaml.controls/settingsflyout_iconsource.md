@@ -26,15 +26,15 @@ The icon image displayed in the [SettingsFlyout](settingsflyout.md) header area,
 
 ## -remarks
 > [!NOTE]
-> Even though the default property value is **null**, the Microsoft Visual Studio Settings Flyout item template sets the [IconSource](settingsflyout_iconsource.md) to your app’s small logo (`IconSource="Assets/SmallLogo.png"`).
+> Even though the default property value is **null**, the Microsoft Visual Studio Settings Flyout item template sets the IconSource to your app’s small logo (`IconSource="Assets/SmallLogo.png"`).
 
-The [IconSource](settingsflyout_iconsource.md) property is typically set in XAML to take advantage of the built-in conversion from string.
+The IconSource property is typically set in XAML to take advantage of the built-in conversion from string.
 
-If you do set the [IconSource](settingsflyout_iconsource.md) property in code, you can use a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) object, constructed with the Uniform Resource Identifier (URI) that describes the path to a valid image source file. You can also initialize a [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md) with a stream, perhaps a stream from a storage file, but that's not typical for a [SettingsFlyout](settingsflyout.md) UI scenario.
+If you do set the IconSource property in code, you can use a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) object, constructed with the Uniform Resource Identifier (URI) that describes the path to a valid image source file. You can also initialize a [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md) with a stream, perhaps a stream from a storage file, but that's not typical for a [SettingsFlyout](settingsflyout.md) UI scenario.
 
 ### Setting **IconSource** in XAML
 
-If you set the [IconSource](settingsflyout_iconsource.md) property as an attribute in XAML, you are setting the [IconSource](settingsflyout_iconsource.md) property using a Uniform Resource Identifier (URI). This behavior relies on underlying type conversion that processes the string as a Uniform Resource Identifier (URI), and calls the equivalent of the [BitmapImage(Uri)](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor. The XAML parser interprets any strings that represent a relative Uniform Resource Identifier (URI), using the base Uniform Resource Identifier (URI) of the XAML page that is being parsed. For example, if you specify a value "Images/myimage.png" in XAML, that string is interpreted as a relative path suffix that is appended to the base Uniform Resource Identifier (URI) location within the app package where the XAML page itself exists.
+If you set the IconSource property as an attribute in XAML, you are setting the IconSource property using a Uniform Resource Identifier (URI). This behavior relies on underlying type conversion that processes the string as a Uniform Resource Identifier (URI), and calls the equivalent of the [BitmapImage(Uri)](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor. The XAML parser interprets any strings that represent a relative Uniform Resource Identifier (URI), using the base Uniform Resource Identifier (URI) of the XAML page that is being parsed. For example, if you specify a value "Images/myimage.png" in XAML, that string is interpreted as a relative path suffix that is appended to the base Uniform Resource Identifier (URI) location within the app package where the XAML page itself exists.
 
 ```xaml
 <SettingsFlyout Width="346" IconSource="Images/myimage.png" />

@@ -8,6 +8,7 @@ virtual protected Windows.UI.Xaml.DataTemplate SelectTemplateCore(System.Object 
 -->
 
 # Windows.UI.Xaml.Controls.DataTemplateSelector.SelectTemplateCore
+This API is depricated and will not be called by certain controls like TreeView and ItemsRepeater where the template creates the container as well. Please use the overload without the container.
 
 ## -description
 When implemented by a derived class, returns a specific [DataTemplate](../windows.ui.xaml/datatemplate.md) for a given item or container.
@@ -28,4 +29,4 @@ Most implementations will choose to implement the selection logic based on the v
 ## -examples
 
 ## -see-also
-[DataTemplate](../windows.ui.xaml/datatemplate.md), [SelectTemplateCore(Object)](datatemplateselector_selecttemplatecore_402628248.md), [Adding ListView and GridView controls](http://msdn.microsoft.com/library/ede8164f-ad0f-4249-b5ab-6f46ca65754a)
+[DataTemplate](../windows.ui.xaml/datatemplate.md), [SelectTemplateCore(Object)](datatemplateselector_selecttemplatecore_402628248.md), [Adding ListView and GridView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780618(v=win.10))

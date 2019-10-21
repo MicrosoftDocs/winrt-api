@@ -15,10 +15,14 @@ Contains the results of a window (app view) consolidation operation.
 ## -remarks
 Your app receives this class in its [Consolidated](applicationview_consolidated.md) event handler.
 
-
-
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | IsAppInitiated |
 
 ## -examples
 

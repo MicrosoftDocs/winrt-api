@@ -26,7 +26,7 @@ Some voices have minimum speaking rates faster than 0.5 and maximum speaking rat
 
 ## -remarks
 
-If Speech Synthesis Markup Language (SSML) is used, [SpeakingRate](speechsynthesizeroptions_speakingrate.md) is combined with any prosody tags in the markup.
+If Speech Synthesis Markup Language (SSML) is used, SpeakingRate is combined with any prosody tags in the markup.
 
 > [!NOTE]
 > Prosody are properties of syllables and larger units of speech, not individual phonetic segments (vowels and consonants).
@@ -35,6 +35,6 @@ By default, approximately 750ms of silence is appended after each utterance and 
 
 ## -see-also
 
-[PunctuationSilence](speechsynthesizeroptions_punctuationsilence.md), [AppendedSilence](speechsynthesizeroptions_appendedsilence.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
+[PunctuationSilence](speechsynthesizeroptions_punctuationsilence.md), [AppendedSilence](speechsynthesizeroptions_appendedsilence.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
 
 ## -examples

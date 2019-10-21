@@ -23,7 +23,7 @@ The left indent of all lines except the first line in a paragraph, relative to t
 The right indent of all lines in a paragraph, relative to the right margin. The value is in floating-point points and can be positive or negative. This value is optional.
 
 ## -remarks
-Line indents cannot position text in the margins. If the first-line indent is set to a negative value, for an outdented paragraph, while the left indent is zero, the first-line indent is reset to zero. To avoid this problem while retaining property sets, explicitly set the first-line indent value equal to zero, and then call [SetIndents](itextparagraphformat_setindents_1806531478.md) to set a nonnegative, left-indent value and set the desired first-line indent.
+Line indents cannot position text in the margins. If the first-line indent is set to a negative value, for an outdented paragraph, while the left indent is zero, the first-line indent is reset to zero. To avoid this problem while retaining property sets, explicitly set the first-line indent value equal to zero, and then call SetIndents to set a nonnegative, left-indent value and set the desired first-line indent.
 
 ## -examples
 

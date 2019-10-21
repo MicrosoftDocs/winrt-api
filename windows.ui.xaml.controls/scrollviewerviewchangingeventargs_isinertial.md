@@ -17,13 +17,13 @@ Gets a value that indicates whether the pan/zoom manipulation has an inertial co
 
 ## -remarks
 
-[IsInertial](scrollviewerviewchangingeventargs_isinertial.md) is **true** for manipulations that occur:
+IsInertial is **true** for manipulations that occur:
 
 + using a mouse wheel.
 + using key strokes on [ScrollViewer](scrollviewer.md) and other controls that support direct manipulation.
 + by calling [ChangeView](scrollviewer_changeview_579623452.md) with animation enabled.
 
-[IsInertial](scrollviewerviewchangingeventargs_isinertial.md) is **false** for manipulations that occur:
+IsInertial is **false** for manipulations that occur:
 
 + by dragging the [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) on a scrollbar.
 + using key strokes on controls that don't support direct manipulation.

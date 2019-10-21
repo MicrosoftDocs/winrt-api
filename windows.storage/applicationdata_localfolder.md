@@ -27,9 +27,9 @@ To request that Windows index your app data for search, create a folder named "I
 > [!NOTE]
 > Content in the indexed folder will not be surfaced in a system search, but can be searched by the app. 
 
-If the device that runs this app supports app data backup, any content placed on [LocalFolder](applicationdata_localfolder.md) will be eligible to be backed up to the cloud. Therefore if you want to persist data and keep it local to the device you should consider using [LocalCacheFolder](applicationdata_localcachefolder.md).
+If the device that runs this app supports app data backup, any content placed on LocalFolder will be eligible to be backed up to the cloud. Therefore if you want to persist data and keep it local to the device you should consider using [LocalCacheFolder](applicationdata_localcachefolder.md).
 
 ## -examples
 
 ## -see-also
-[Quickstart: Local application data (JavaScript)](http://msdn.microsoft.com/library/87dfe8e5-2d01-45cf-bcb1-25f54219a439), [Store and retrieve settings and other app data](http://msdn.microsoft.com/library/41676a02-325a-455e-8565-c9ec0bc3a8fe), [Store and retrieve settings and other app data](http://msdn.microsoft.com/library/41676a02-325a-455e-8565-c9ec0bc3a8fe)
+[Quickstart: Local application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data)

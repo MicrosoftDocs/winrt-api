@@ -17,12 +17,12 @@ The error string.
 
 ## -remarks
 Error codes are exposed as different types depending on the programming language you are using. Similarly, each language has different techniques for wrapping asynchronous method calls so that error conditions or cancellation can be handled. For more info see one of these topics:
-+ [Exception handling for  in C# or Visual Basic](http://msdn.microsoft.com/library/825c5d4f-5ce0-ee93-fd1e-aca1372b1670)
-+ [Exceptions (C++/CX)](http://msdn.microsoft.com/library/6cbdc1f1-e4d7-4707-a670-86365146432f)
-+ [JavaScript Run-time Errors](http://msdn.microsoft.com/library/c111469d-8f31-4bde-9d46-16d58775db7d)
++ [Exception handling for  in C# or Visual Basic](https://docs.microsoft.com/previous-versions/windows/apps/dn532194(v=win.10))
++ [Exceptions (C++/CX)](https://docs.microsoft.com/cpp/cppcx/exceptions-c-cx)
++ [JavaScript Run-time Errors](https://docs.microsoft.com/scripting/javascript/reference/javascript-run-time-errors)
 
 
 ## -examples
 
 ## -see-also
-[HResult](hresult.md), [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)
+[HResult](hresult.md), [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)

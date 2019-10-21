@@ -16,7 +16,7 @@ Gets or sets a value that indicates whether the [CurrentItem](icollectionview_cu
 **true** if the event should be canceled; otherwise, **false**. The default is **false**.
 
 ## -remarks
-If the [IsCancelable](currentchangingeventargs_iscancelable.md) property value is **false**, setting the [Cancel](currentchangingeventargs_cancel.md) property to **true** will throw an **InvalidOperationException**.
+If the [IsCancelable](currentchangingeventargs_iscancelable.md) property value is **false**, setting the Cancel property to **true** will throw an **InvalidOperationException**.
 
 ## -examples
 

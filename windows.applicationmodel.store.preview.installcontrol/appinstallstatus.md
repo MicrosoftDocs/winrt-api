@@ -18,6 +18,14 @@ To retrieve an instance of this class, use the [GetCurrentStatus](appinstallitem
 > [!IMPORTANT]
 > Access to this API is protected by a private capability that is restricted to apps that are developed by Microsoft.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | ReadyForLaunch |
+| 1607 | 14393 | User |
+| 1803 | 17134 | IsStaged |
+
 ## -examples
 
 ## -see-also

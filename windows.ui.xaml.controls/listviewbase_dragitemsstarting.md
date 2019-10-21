@@ -28,4 +28,4 @@ You can cancel the drag operation by setting the [DragItemsStartingEventArgs.Can
 ## -examples
 
 ## -see-also
-[DragItemsStartingEventArgs](dragitemsstartingeventargs.md), [Drag and drop sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620634)
+[DragItemsStartingEventArgs](dragitemsstartingeventargs.md), [Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)

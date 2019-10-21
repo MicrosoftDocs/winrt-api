@@ -18,7 +18,7 @@ The number of past photos to store. To determine the maximum number of past phot
 ## -remarks
 To determine the maximum number of past photos that can be stored, check the [MaxPastPhotos](lowlagphotosequencecontrol_maxpastphotos.md) property.
 
-The actual number of past photos cannot be more than [MaxPastPhotos](lowlagphotosequencecontrol_maxpastphotos.md), which is the maximum number of past photos that is supported by the driver. The number of past photos returned will be the smaller of the following values: [PastPhotoLimit](lowlagphotosequencecontrol_pastphotolimit.md), [MaxPastPhotos](lowlagphotosequencecontrol_maxpastphotos.md), or the current number of available past photos.
+The actual number of past photos cannot be more than [MaxPastPhotos](lowlagphotosequencecontrol_maxpastphotos.md), which is the maximum number of past photos that is supported by the driver. The number of past photos returned will be the smaller of the following values: PastPhotoLimit, [MaxPastPhotos](lowlagphotosequencecontrol_maxpastphotos.md), or the current number of available past photos.
 
 ## -examples
 

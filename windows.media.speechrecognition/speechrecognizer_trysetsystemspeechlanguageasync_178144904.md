@@ -33,22 +33,22 @@ The systemManagement capability must include the iot namespace when you declare 
 
 Use [SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md) to get the current system speech recognition language.
 
-Use [Windows.Globalization.Language.IsWellFormed](https://docs.microsoft.com/en-us/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_) to validate *speechLanguage*.
+Use [Windows.Globalization.Language.IsWellFormed](https://docs.microsoft.com/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_) to validate *speechLanguage*.
 
 ## -see-also
 - [SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md)
-- [Windows.Globalization.Language.IsWellFormed](https://docs.microsoft.com/en-us/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_)
+- [Windows.Globalization.Language.IsWellFormed](https://docs.microsoft.com/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_)
 
 ### How-to's
 - [Embedded mode](https://developer.microsoft.com/windows/iot/docs/embeddedmode)
 - [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations)
-- [Set speech recognition timeouts](http://msdn.microsoft.com/library/58f446ac-4a56-454d-8125-62a2c4dbfcc8)
-- [Speech interactions](http://msdn.microsoft.com/library/646db3ce-fa81-4727-8c21-936c81079439)
-- [Speech design guidelines](http://msdn.microsoft.com/library/4a63a8c4-4182-4e36-ba12-4c343a56fca9)
+- [Set speech recognition timeouts](https://docs.microsoft.com/windows/uwp/input-and-devices/set-speech-recognition-timeouts)
+- [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions)
+- [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions)
 
 
 ### Samples
-- [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
+- [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
 
 ## -examples
 

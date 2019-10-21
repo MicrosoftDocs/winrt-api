@@ -16,10 +16,10 @@ Associates a command with a [WebAccount](../windows.security.credentials/webacco
 
 ## -remarks
 
-Add instances of the [WebAccountCommand](webaccountcommand.md) class to the [WebAccountCommands](accountssettingspanecommandsrequestedeventargs_webaccountcommands.md) collection.
+Add instances of the WebAccountCommand class to the [WebAccountCommands](accountssettingspanecommandsrequestedeventargs_webaccountcommands.md) collection.
 
 ## -examples
 
 ## -see-also
 
-[WebAccount](../windows.security.credentials/webaccount.md), [WebAccountCommands](accountssettingspanecommandsrequestedeventargs_webaccountcommands.md), [WebAuthenticationBroker sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620622)
+[WebAccount](../windows.security.credentials/webaccount.md), [WebAccountCommands](accountssettingspanecommandsrequestedeventargs_webaccountcommands.md), [WebAuthenticationBroker sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620622)

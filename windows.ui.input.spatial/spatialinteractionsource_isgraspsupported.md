@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Input.Spatial.SpatialInteractionSource.IsGraspSupported
 -api-type: winrt property
+ms.custom: 19H1
 ---
 
 <!-- Property syntax.
@@ -10,15 +11,15 @@ public bool IsGraspSupported { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionSource.IsGraspSupported
 
 ## -description
-Gets whether the source supports detecting grasps.
+
+Gets whether the source supports grasps.
 
 ## -property-value
-Whether the source supports grasps.
+
+True for some motion controllers, and false for other interaction sources.
 
 ## -remarks
-This will be true for some motion controllers and false for other interaction sources.
 
 ## -see-also
 
 ## -examples
-

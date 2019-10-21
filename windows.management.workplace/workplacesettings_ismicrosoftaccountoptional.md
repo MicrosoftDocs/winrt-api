@@ -16,7 +16,7 @@ Gets a value that indicates whether an enterprise ID can be used instead of a Mi
 **true** if an enterprise ID can be used instead of a Microsoft account; otherwise, **false**.
 
 ## -remarks
-Some apps, such as the Mail app, require that a user sign in with a Microsoft account. If [IsMicrosoftAccountOptional](workplacesettings_ismicrosoftaccountoptional.md) is **true**, the app can provide a different experience in an enterprise setting, and let a user sign in with an enterprise ID instead of a Microsoft account.
+Some apps, such as the Mail app, require that a user sign in with a Microsoft account. If IsMicrosoftAccountOptional is **true**, the app can provide a different experience in an enterprise setting, and let a user sign in with an enterprise ID instead of a Microsoft account.
 
 ## -examples
 

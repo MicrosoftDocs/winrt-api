@@ -20,7 +20,13 @@ Represents the container for an item in a [NavigationView](navigationview.md) co
 ```
 
 ## -remarks
-Note that you can only place **NavigationViewItems** in **NavigationView.MenuItems**.
+Note that prior to Windows 10, version 1809 (10.0; Build 17763) you could only place **NavigationViewItems** in **NavigationView.MenuItems**.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | SelectsOnInvoked |
 
 ## -see-also
 

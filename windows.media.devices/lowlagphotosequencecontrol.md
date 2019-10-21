@@ -15,7 +15,7 @@ Provides functionality for managing the low shutter lag photo sequence mode on t
 ## -remarks
 Photo sequence mode takes a rapid sequence of photos. A key scenario for photo sequence is getting photos in the past, that is prior to when the user takes a photo.
 
-You can access the [LowLagPhotoSequenceControl](lowlagphotosequencecontrol.md) for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
+You can access the LowLagPhotoSequenceControl for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
 
 You can find out if the device supports photo sequence mode by checking [LowLagPhotoSequenceControl.Supported](lowlagphotosequencecontrol_supported.md).
 

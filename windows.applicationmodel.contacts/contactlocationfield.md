@@ -13,7 +13,7 @@ public class ContactLocationField : Windows.ApplicationModel.Contacts.IContactFi
 Contains information about a user's location and address.
 
 ## -remarks
-Your app receives a collection of [ContactLocationField](contactlocationfield.md) objects when a contact provider returns the requested contact information. You can access these objects through the [ContactInformation.Location](contactlocationfield.md) property.
+Your app receives a collection of ContactLocationField objects when a contact provider returns the requested contact information. You can access these objects through the ContactInformation.Location property.
 
 ## -examples
 This code example demonstrates the use of the **ContactInstantMessageField**

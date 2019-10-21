@@ -20,9 +20,9 @@ A string that contains a valid XAML fragment.
 The root object of the created object tree.
 
 ## -remarks
-Usage for [LoadWithInitialTemplateValidation](xamlreader_loadwithinitialtemplatevalidation_516035070.md) is generally the same as for [XamlReader.Load](xamlreader_load_1077941801.md). For more info, see "Remarks" section of [XamlReader.Load](xamlreader_load_1077941801.md). Most apps won't need the template validation feature; that aspect is more intended for design tools that are actively changing and reloading XAML, and perhaps enabling real-time XAML template editing.
+Usage for LoadWithInitialTemplateValidation is generally the same as for [XamlReader.Load](xamlreader_load_1077941801.md). For more info, see "Remarks" section of [XamlReader.Load](xamlreader_load_1077941801.md). Most apps won't need the template validation feature; that aspect is more intended for design tools that are actively changing and reloading XAML, and perhaps enabling real-time XAML template editing.
 
 ## -examples
 
 ## -see-also
-[XamlReader.Load](xamlreader_load_1077941801.md), [XAML syntax guide](http://msdn.microsoft.com/library/a57fe7b4-9947-4aa0-bc99-5fe4686b611d), [XAML overview](http://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823)
+[XamlReader.Load](xamlreader_load_1077941801.md), [XAML syntax guide](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-syntax-guide), [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)

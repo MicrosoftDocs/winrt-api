@@ -1,7 +1,7 @@
 ---
 -api-id: T:Windows.UI.Xaml.Core.Direct.XamlPropertyIndex
 -api-type: winrt enum
-ms.custom: RS5
+ms.custom: RS5, 19H1
 ---
 
 <!-- Enumeration syntax.
@@ -4808,8 +4808,81 @@ The _MinWindowWidth_ property for the [AdaptiveTrigger](../windows.ui.xaml/adapt
 ### -field AdaptiveTrigger_MinWindowHeight:1560
 The _MinWindowHeight_ property for the [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) type.
 
+### -field AppBarTemplateSettings_NegativeCompactVerticalDelta:2367
+The _NegativeCompactVerticalDelta_ property for the [AppBarTemplateSettings](../windows.ui.xaml.controls.primitives/appbartemplatesettings.md) type.
+
+
+### -field AppBarTemplateSettings_NegativeHiddenVerticalDelta:2368
+The _NegativeHiddenVerticalDelta_ property for the [AppBarTemplateSettings](../windows.ui.xaml.controls.primitives/appbartemplatesettings.md) type.
+
+
+### -field AppBarTemplateSettings_NegativeMinimalVerticalDelta:2369
+The _NegativeMinimalVerticalDelta_ property for the [AppBarTemplateSettings](../windows.ui.xaml.controls.primitives/appbartemplatesettings.md) type.
+
+
+### -field CommandBarTemplateSettings_OverflowContentCompactYTranslation:2384
+The _OverflowContentCompactYTranslation_ property for the [CommandBarTemplateSettings](../windows.ui.xaml.controls.primitives/commandbartemplatesettings.md) type.
+
+
+### -field CommandBarTemplateSettings_OverflowContentHiddenYTranslation:2385
+The _OverflowContentHiddenYTranslation_ property for the [CommandBarTemplateSettings](../windows.ui.xaml.controls.primitives/commandbartemplatesettings.md) type.
+
+
+### -field CommandBarTemplateSettings_OverflowContentMinimalYTranslation:2386
+The _OverflowContentMinimalYTranslation_ property for the [CommandBarTemplateSettings](../windows.ui.xaml.controls.primitives/commandbartemplatesettings.md) type.
+
+
+### -field FlyoutBase_ShouldConstrainToRootBounds:2378
+The _ShouldConstrainToRootBounds_ property for the [FlyoutBase](../windows.ui.xaml.controls/flyoutbase.md) type.
+
+
+### -field FlyoutPresenter_IsDefaultShadowEnabled:2380
+The _IsDefaultShadowEnabled_ property for the [FlyoutPresenter](../windows.ui.xaml.controls/flyoutpresenter.md) type.
+
+
+### -field MenuFlyoutPresenter_IsDefaultShadowEnabled:2381
+The _IsDefaultShadowEnabled_ property for the [MenuFlyoutPresenter](../windows.ui.xaml.controls/menuflyoutpresenter.md) type.
+
+
+### -field Popup_ShouldConstrainToRootBounds:2379
+The _ShouldConstrainToRootBounds_ property for the [Popup](../windows.ui.xaml.controls.primitives/popup.md) type.
+
+
+### -field ThemeShadow_Receivers:2279
+The _Receivers_ property for the [ThemeShadow](../windows.ui.xaml.media/themeshadow.md) type.
+
+
+### -field UIElement_ActualOffset:2382
+The _ActualOffset_ property for the [UIElement](../windows.ui.xaml/uielement.md) type.
+
+
+### -field UIElement_ActualSize:2383
+The _ActualSize_ property for the [UIElement](../windows.ui.xaml/uielement.md) type.
+
+
+### -field UIElement_Shadow:2130
+The _Shadow_ property for the [UIElement](../windows.ui.xaml/uielement.md) type.
+
+
 ## -see-also
 * [XamlDirect](xamldirect.md)
 * [IXamlDirectObject](ixamldirectobject.md)
 * [XamlTypeIndex](xamltypeindex.md)
 * [XamlEventIndex](xamleventindex.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

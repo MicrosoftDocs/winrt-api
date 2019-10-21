@@ -375,4 +375,4 @@ void SwipeControl::GestureRecognizer_CrossSliding(GestureRecognizer^ sender, Cro
 ```
 
 ## -see-also
-[Timeline](timeline.md), [Animating swipe gestures](http://msdn.microsoft.com/library/fd1921de-ae4e-4f8e-b917-3e8a33810f23)
+[Timeline](timeline.md), [Animating swipe gestures](https://docs.microsoft.com/previous-versions/windows/apps/jj649435(v=win.10))

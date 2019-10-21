@@ -15,6 +15,12 @@ Represents the details of a toast history changed trigger.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CollectionId |
+
 ## -examples
 
 ## -see-also

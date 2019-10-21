@@ -18,6 +18,6 @@ Notifies the system that the command state has changed.
 
 ## -see-also
 
-[CanExecuteChanged](xamluicommand_canexecutechanged.md)
+[CanExecuteChanged](xamluicommand_canexecutechanged.md), [StandardUICommand](standarduicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples

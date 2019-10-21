@@ -24,7 +24,7 @@ Call this method to dispatch events from your view provider's main app loop defi
 If you are using another app model, such as XAML or JavaScript, you do not need to call this method. To avoid reentrancy scenarios in your UWP app using C++, C#, or Visual Basic with XAML, use the types and methods in the provided XAML namespaces, which call this method in the appropriate context.
  
 ## -warning
-This method fails if called recursively. When it fails, call [RoOriginateError](http://msdn.microsoft.com/library/ed647880-5a18-4f75-b7e5-3b9bf36229d3) to obtain the error and the message supplied to an attached debugger.
+This method fails if called recursively. When it fails, call [RoOriginateError](https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror) to obtain the error and the message supplied to an attached debugger.
 
 ## -examples
 

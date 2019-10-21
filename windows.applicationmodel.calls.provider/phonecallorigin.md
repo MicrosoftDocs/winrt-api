@@ -15,6 +15,13 @@ A collection of information about the origin of a phone call.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | DisplayName |
+| 1709 | 16299 | DisplayPicture |
+
 ## -examples
 
 ## -see-also

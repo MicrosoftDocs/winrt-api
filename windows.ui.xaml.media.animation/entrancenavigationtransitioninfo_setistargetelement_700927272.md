@@ -10,7 +10,7 @@ public void SetIsTargetElement(Windows.UI.Xaml.UIElement element, System.Boolean
 # Windows.UI.Xaml.Media.Animation.EntranceNavigationTransitionInfo.SetIsTargetElement
 
 ## -description
-Sets the value of the [EntranceNavigationTransitionInfo.IsTargetElement](entrancenavigationtransitioninfo_istargetelement.md) XAML attached property for a target element.
+Sets the value of the [EntranceNavigationTransitionInfo.IsTargetElement](/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo#xaml-attached-properties) XAML attached property for a target element.
 
 ## -parameters
 ### -param element
@@ -24,4 +24,4 @@ The value to set. **true** if the element is the animation target; otherwise, **
 ## -examples
 
 ## -see-also
-[EntranceNavigationTransitionInfo.IsTargetElement](entrancenavigationtransitioninfo_istargetelement.md)
+[EntranceNavigationTransitionInfo.IsTargetElement](/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo#xaml-attached-properties)

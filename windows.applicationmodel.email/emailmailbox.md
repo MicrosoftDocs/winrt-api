@@ -13,7 +13,19 @@ public class EmailMailbox : Windows.ApplicationModel.Email.IEmailMailbox, Window
 Represents an email mailbox located on a remote email server.
 
 ## -remarks
-The functionality described in this topic is not available to all Windows and Windows Phone apps. For your code to call these APIs, Microsoft must approve your use of them and provision your developer account. Otherwise the calls will fail at runtime.
+The functionality described in this topic is not available to all UWP apps. As part of the store app submission process, Microsoft must approve your use of these APIs and provision your developer account before you can publish an app that uses them.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | ResolveRecipientsAsync |
+| 1511 | 10586 | TryCreateFolderAsync |
+| 1511 | 10586 | TryDeleteFolderAsync |
+| 1511 | 10586 | TryEmptyFolderAsync |
+| 1511 | 10586 | ValidateCertificatesAsync |
+| 1607 | 14393 | RegisterSyncManagerAsync |
+| 1709 | 16299 | GetChangeTracker |
 
 ## -examples
 

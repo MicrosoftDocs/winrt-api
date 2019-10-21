@@ -10,7 +10,7 @@ public double Minimum { get;  set; }
 # Windows.UI.Xaml.Controls.Primitives.RangeBase.Minimum
 
 ## -description
-Gets or sets the [Minimum](rangebase_minimum.md) possible [Value](rangebase_value.md) of the range element.
+Gets or sets the Minimum possible [Value](rangebase_value.md) of the range element.
 
 ## -xaml-syntax
 ```xaml
@@ -19,15 +19,15 @@ Gets or sets the [Minimum](rangebase_minimum.md) possible [Value](rangebase_valu
 
 
 ## -property-value
-[Minimum](rangebase_minimum.md) possible [Value](rangebase_value.md) of the range element. The default is 0.
+Minimum possible [Value](rangebase_value.md) of the range element. The default is 0.
 
 ## -remarks
 > [!NOTE]
-> When binding [Minimum](rangebase_minimum.md) and [Maximum](rangebase_maximum.md) values in Extensible Application Markup Language (XAML), declare the [Binding](../windows.ui.xaml.data/binding.md) for [Maximum](rangebase_maximum.md) first. If the [Binding](../windows.ui.xaml.data/binding.md) for [Maximum](rangebase_maximum.md) is declared after [Minimum](rangebase_minimum.md), the bound value for [Maximum](rangebase_maximum.md) is ignored and the following situations can occur: + If the bound [Minimum](rangebase_minimum.md) value is negative, the [Maximum](rangebase_maximum.md) value is set to 0.
-+ If the bound [Minimum](rangebase_minimum.md) value is greater than the default [Maximum](rangebase_maximum.md) (100 for [Slider](../windows.ui.xaml.controls/slider.md) and [ProgressBar](../windows.ui.xaml.controls/progressbar.md)), the [Maximum](rangebase_maximum.md) value is set equal to the [Minimum](rangebase_minimum.md) value.
+> When binding Minimum and [Maximum](rangebase_maximum.md) values in Extensible Application Markup Language (XAML), declare the [Binding](../windows.ui.xaml.data/binding.md) for [Maximum](rangebase_maximum.md) first. If the [Binding](../windows.ui.xaml.data/binding.md) for [Maximum](rangebase_maximum.md) is declared after Minimum, the bound value for [Maximum](rangebase_maximum.md) is ignored and the following situations can occur: + If the bound Minimum value is negative, the [Maximum](rangebase_maximum.md) value is set to 0.
++ If the bound Minimum value is greater than the default [Maximum](rangebase_maximum.md) (100 for [Slider](../windows.ui.xaml.controls/slider.md) and [ProgressBar](../windows.ui.xaml.controls/progressbar.md)), the [Maximum](rangebase_maximum.md) value is set equal to the Minimum value.
 To avoid this behavior, declare the [Binding](../windows.ui.xaml.data/binding.md) for [Maximum](rangebase_maximum.md) first in your Extensible Application Markup Language (XAML).
 
-These behaviors can also occur if you set the [Minimum](rangebase_minimum.md) value without also explicitly setting the [Maximum](rangebase_maximum.md) value.
+These behaviors can also occur if you set the Minimum value without also explicitly setting the [Maximum](rangebase_maximum.md) value.
 
 ## -examples
 

@@ -21,7 +21,7 @@ Gets the policy for the eSIM, regarding whether the eSIM should be shown on the 
 The policy for the eSIM, regarding whether the eSIM should be shown on the LUI for eSIM management.
 
 ## -remarks
-LUI is defined in [SGP.22](https://www.gsma.com/newsroom/all-documents/sgp-22-v2-2-technical-specification) (the published eSIM standard).
+LUI is defined in [SGP.22](https://www.gsma.com/newsroom/resources/sgp-22-v2-2-technical-specification/) (the published eSIM standard).
 
 ## -see-also
 

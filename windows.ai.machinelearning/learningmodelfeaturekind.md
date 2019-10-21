@@ -29,6 +29,12 @@ The feature is an image, so use [ImageFeatureDescriptor](imagefeaturedescriptor.
 ## -remarks
 Each of these maps to a corresponding feature descriptor that can be used to learn more about how to pass the feature into and out of the model.
 
+### Windows Server
+To use this API on Windows Server, you must use Windows Server 2019 with Desktop Experience.
+
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 [Windows ML](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
 

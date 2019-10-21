@@ -26,4 +26,4 @@ Learn more about responding asynchronously to a [targetfilerequested](filesavepi
 ## -examples
 
 ## -see-also
-[FileSavePickerUI.TargetFileRequested event](filesavepickerui_targetfilerequested.md), [Object class](https://msdn.microsoft.com/library/system.object.aspx), [TargetFileRequest class](targetfilerequest.md), [TargetFileRequestDeferral class](targetfilerequestdeferral.md), [TargetFileRequestDeferral.Complete method](targetfilerequestdeferral_complete_1807836922.md), [TargetFileRequestedEventArgs class](targetfilerequestedeventargs.md), [Windows.Storage.StorageFile class](../windows.storage/storagefile.md)
+[FileSavePickerUI.TargetFileRequested event](filesavepickerui_targetfilerequested.md), [Object class](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), [TargetFileRequest class](targetfilerequest.md), [TargetFileRequestDeferral class](targetfilerequestdeferral.md), [TargetFileRequestDeferral.Complete method](targetfilerequestdeferral_complete_1807836922.md), [TargetFileRequestedEventArgs class](targetfilerequestedeventargs.md), [Windows.Storage.StorageFile class](../windows.storage/storagefile.md)

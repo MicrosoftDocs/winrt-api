@@ -19,7 +19,7 @@ See Remarks
 
 
 ## -remarks
-The base [StyleSelector](styleselector.md) class is not used as an object element in XAML. However, it is a common scenario to derive a custom [StyleSelector](styleselector.md), map a xmlns prefix for the custom class and its namespace/assembly, and then refer to an instance of the custom class as defined in a [Resources](../windows.ui.xaml/frameworkelement_resources.md) block in XAML. This makes it possible to refer to the custom template selector class by **x:Key**, and use that reference to set the value of properties such as [ItemContainerStyleSelector](itemscontrol_itemcontainerstyleselector.md) in XAML templates and particular visual states.
+The base StyleSelector class is not used as an object element in XAML. However, it is a common scenario to derive a custom StyleSelector, map a xmlns prefix for the custom class and its namespace/assembly, and then refer to an instance of the custom class as defined in a [Resources](../windows.ui.xaml/frameworkelement_resources.md) block in XAML. This makes it possible to refer to the custom template selector class by **x:Key**, and use that reference to set the value of properties such as [ItemContainerStyleSelector](itemscontrol_itemcontainerstyleselector.md) in XAML templates and particular visual states.
 
 ## -examples
 

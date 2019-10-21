@@ -24,7 +24,7 @@ Gets or sets a value that indicates whether source data is grouped.
 ## -remarks
 
 ## -examples
-The following code example demonstrates how to bind a [ListBox](../windows.ui.xaml.controls/listbox.md) control to the results of a grouping LINQ query. In this example, a collection of teams is grouped by city and displayed with the city name as the group headers. For the complete code listing, see the [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854). For additional example code on grouping, see the [Grouped GridView sample](http://go.microsoft.com/fwlink/p/?linkid=226564).
+The following code example demonstrates how to bind a [ListBox](../windows.ui.xaml.controls/listbox.md) control to the results of a grouping LINQ query. In this example, a collection of teams is grouped by city and displayed with the city name as the group headers. For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854). For additional example code on grouping, see the [Grouped GridView sample](https://go.microsoft.com/fwlink/p/?linkid=226564).
 
 ```xaml
 <Grid>
@@ -82,4 +82,4 @@ groupInfoCVS.Source = result;
 
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011)
+[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

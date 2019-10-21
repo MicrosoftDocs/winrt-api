@@ -11,7 +11,7 @@ public Windows.UI.Xaml.Controls.StyleSelector ContainerStyleSelector { get;  set
 
 ## -description
 > [!NOTE]
-> [ContainerStyleSelector](groupstyle_containerstyleselector.md) may be altered or unavailable for releases after Windows 8.1 and is not supported for [ItemsControl.GroupStyle](itemscontrol_groupstyle.md).
+> ContainerStyleSelector may be altered or unavailable for releases after Windows 8.1 and is not supported for [ItemsControl.GroupStyle](itemscontrol_groupstyle.md).
 
 Gets or sets a reference to a custom [StyleSelector](styleselector.md) logic class. The [StyleSelector](styleselector.md) referenced by this property returns a style to apply to each generated [GroupItem](groupitem.md).
 

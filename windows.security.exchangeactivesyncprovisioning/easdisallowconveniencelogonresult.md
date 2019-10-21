@@ -11,7 +11,7 @@ public enum Windows.Security.ExchangeActiveSyncProvisioning.EasDisallowConvenien
 
 ## -description
 > [!NOTE]
-> [EasDisallowConvenienceLogonResult](easdisallowconveniencelogonresult.md) may be unavailable for releases after Windows 10.
+> EasDisallowConvenienceLogonResult may be unavailable for releases after Windows 10.
 
 Results of whether the logon can occur. These values are mapped against the HRESULT codes returned from the EAS policy engine.
 

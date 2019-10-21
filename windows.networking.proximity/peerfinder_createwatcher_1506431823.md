@@ -17,9 +17,9 @@ Creates a new instance of a [PeerWatcher](peerwatcher.md) object for dynamic dis
 An instance of a [PeerWatcher](peerwatcher.md) object for dynamic discovery of peer apps.
 
 ## -remarks
-You must first call the [Start](peerfinder_start_119778276.md) method before calling the [CreateWatcher](peerfinder_createwatcher_1506431823.md) method.
+You must first call the [Start](peerfinder_start_119778276.md) method before calling the CreateWatcher method.
 
-If you call the [CreateWatcher](peerfinder_createwatcher_1506431823.md) method multiple times, you will receive a reference to the same [PeerWatcher](peerwatcher.md) instance. 
+If you call the CreateWatcher method multiple times, you will receive a reference to the same [PeerWatcher](peerwatcher.md) instance. 
 
 
 
@@ -32,7 +32,7 @@ If you call the [CreateWatcher](peerfinder_createwatcher_1506431823.md) method m
 ## -examples
 
 ## -see-also
-[Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+[Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
 
 ## -capabilities
 proximity

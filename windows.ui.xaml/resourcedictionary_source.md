@@ -26,4 +26,4 @@ A Uniform Resource Identifier (URI) that provides the source location of a merge
 ## -examples
 
 ## -see-also
-[ResourceDictionary and XAML resource references](http://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)
+[ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

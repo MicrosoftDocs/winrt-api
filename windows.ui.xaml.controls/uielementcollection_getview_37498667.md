@@ -16,7 +16,6 @@ Gets an immutable view into the collection.
 An object representing the immutable collection view. This object implements [IVectorView&lt;T&gt;](../windows.foundation.collections/ivectorview_1.md) with a [UIElement](../windows.ui.xaml/uielement.md) constraint.
 
 ## -remarks
-If you are programming using C# or Microsoft Visual Basic, see [CopyTo](uielementcollection_copyto.md).
 
 ## -examples
 

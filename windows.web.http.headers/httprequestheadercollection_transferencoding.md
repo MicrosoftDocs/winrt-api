@@ -22,7 +22,7 @@ There is no need to set the transfer encoding value manually to chunked if the [
 
 
 
-The following sample code shows a method to set the **Transfer-Encoding** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the [TransferEncoding](httprequestheadercollection_transferencoding.md) property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
+The following sample code shows a method to set the **Transfer-Encoding** header on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the TransferEncoding property on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
 
 ```csharp
     void DemoTransferEncoding(HttpRequestMessage m) {
@@ -39,7 +39,7 @@ The following sample code shows a method to set the **Transfer-Encoding** header
         // A collection of HttpTransferCodingHeaderValue
 
         // HttpTransferCodingHeaderValue has three items:
-        // Value (string); e.g. "compress"
+        // Value (string); for example, "compress"
         // Parameter (IList<HttpNameValueHeaderValue>)
         //
 

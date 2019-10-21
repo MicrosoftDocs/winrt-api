@@ -23,4 +23,4 @@ The maximum number of client connections
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl

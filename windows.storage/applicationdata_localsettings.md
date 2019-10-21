@@ -16,12 +16,12 @@ Gets the application settings container in the local app data store.
 The application settings container.
 
 ## -remarks
-For both [LocalSettings](applicationdata_localsettings.md) and [RoamingSettings](applicationdata_roamingsettings.md), the name of each setting can be 255 characters in length at most. Each setting can be up to 8K bytes in size and each composite setting can be up to 64K bytes in size.
+For both LocalSettings and [RoamingSettings](applicationdata_roamingsettings.md), the name of each setting can be 255 characters in length at most. Each setting can be up to 8K bytes in size and each composite setting can be up to 64K bytes in size.
 
-The [Windows Runtime data types](http://msdn.microsoft.com/library/b5735851-ec07-48c1-92b4-ca9f768096f6) are supported for app settings.
+The [Windows Runtime data types](https://docs.microsoft.com/windows/desktop/WinRT/base-data-types) are supported for app settings.
 
 ## -examples
-Use the [LocalSettings](applicationdata_localsettings.md) property to get the settings in an [ApplicationDataContainer](applicationdatacontainer.md) object. Use the [ApplicationDataContainer.Values](applicationdatacontainer_values.md) property to access the settings in the `localSettings` container. This example creates and reads a setting named `exampleSetting`.
+Use the LocalSettings property to get the settings in an [ApplicationDataContainer](applicationdatacontainer.md) object. Use the [ApplicationDataContainer.Values](applicationdatacontainer_values.md) property to access the settings in the `localSettings` container. This example creates and reads a setting named `exampleSetting`.
 
 Call the [ApplicationDataContainerSettings.Remove](applicationdatacontainersettings_remove_1498489487.md) method to delete the `exampleSetting` setting when you have finished with it.
 
@@ -139,4 +139,4 @@ localSettings.Values.Remove("exampleSetting")
 ```
 
 ## -see-also
-[Quickstart: Local application data (JavaScript)](http://msdn.microsoft.com/library/87dfe8e5-2d01-45cf-bcb1-25f54219a439), [Store and retrieve settings and other app data](http://msdn.microsoft.com/library/41676a02-325a-455e-8565-c9ec0bc3a8fe), [Content indexer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620524)
+[Quickstart: Local application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data), [Content indexer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620524)

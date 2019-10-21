@@ -15,7 +15,7 @@ Represents the text content of an element or attribute.
 ## -remarks
 ### Interface inheritance
 
-[IXmlText](ixmltext.md) inherits [IXmlCharacterData](ixmlcharacterdata.md), [IXmlNode](ixmlnode.md), [IXmlNodeSelector](ixmlnodeselector.md), and [IXmlNodeSerializer](ixmlnodeserializer.md). Types that implement [IXmlText](ixmltext.md) also implement the interface members of [IXmlCharacterData](ixmlcharacterdata.md), [IXmlNode](ixmlnode.md), [IXmlNodeSelector](ixmlnodeselector.md), and [IXmlNodeSerializer](ixmlnodeserializer.md).
+IXmlText inherits [IXmlCharacterData](ixmlcharacterdata.md), [IXmlNode](ixmlnode.md), [IXmlNodeSelector](ixmlnodeselector.md), and [IXmlNodeSerializer](ixmlnodeserializer.md). Types that implement IXmlText also implement the interface members of [IXmlCharacterData](ixmlcharacterdata.md), [IXmlNode](ixmlnode.md), [IXmlNodeSelector](ixmlnodeselector.md), and [IXmlNodeSerializer](ixmlnodeserializer.md).
 
 ## -examples
 

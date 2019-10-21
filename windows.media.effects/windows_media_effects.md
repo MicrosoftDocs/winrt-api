@@ -9,11 +9,11 @@
 Contains classes for discovering the audio processing chain on a device.
 
 ## -remarks
-See the [Audio effects discovery sample](http://go.microsoft.com/fwlink/p/?LinkID=309019) for an example of how to query and monitor audio effects on render and capture audio devices.
+See the [Audio effects discovery sample](https://go.microsoft.com/fwlink/p/?LinkID=309019) for an example of how to query and monitor audio effects on render and capture audio devices.
 
-For how-to guidance for implementing your own effects, see [Custom video effects](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/custom-video-effects) and [Custom video effects](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/custom-audio-effects).
+For how-to guidance for implementing your own effects, see [Custom video effects](https://docs.microsoft.com/windows/uwp/audio-video-camera/custom-video-effects) and [Custom audio effects](https://docs.microsoft.com/windows/uwp/audio-video-camera/custom-audio-effects).
 
 ## -examples
 
 ## -see-also
-[Audio effects discovery sample](http://go.microsoft.com/fwlink/p/?LinkID=309019), [Custom video effects](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/custom-video-effects)
+[Audio effects discovery sample](https://go.microsoft.com/fwlink/p/?LinkID=309019), [Custom video effects](https://docs.microsoft.com/windows/uwp/audio-video-camera/custom-video-effects)

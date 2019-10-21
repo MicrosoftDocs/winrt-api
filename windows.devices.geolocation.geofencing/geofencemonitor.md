@@ -13,13 +13,13 @@ public class GeofenceMonitor : Windows.Devices.Geolocation.Geofencing.IGeofenceM
 Contains the information about the monitored [Geofence](geofence.md) objects.
 
 ## -remarks
-Use the static [Current](geofencemonitor_current.md) property to get the [GeofenceMonitor](geofencemonitor.md) object which contains all of an app’s geofence information.
+Use the static [Current](geofencemonitor_current.md) property to get the GeofenceMonitor object which contains all of an app’s geofence information.
 
-You will receive an **IDS_GEOFENCEMONITOR_OUT_OF_SYNC** exception if the Location Framework Service event state is out of synchronization with the [GeofenceMonitor](geofencemonitor.md). You can attempt to recover by removing all event handlers on the [GeofenceMonitor](geofencemonitor.md) or restarting the application. Once all event handlers have been removed, you may add back any event handlers and retry the operation.
+You will receive an **IDS_GEOFENCEMONITOR_OUT_OF_SYNC** exception if the Location Framework Service event state is out of synchronization with the GeofenceMonitor. You can attempt to recover by removing all event handlers on the GeofenceMonitor or restarting the application. Once all event handlers have been removed, you may add back any event handlers and retry the operation.
 
 ## -examples
 
 ## -see-also
-[Geofencing, start to finish](http://msdn.microsoft.com/library/eee6b589-2eab-4279-ac61-22bfa5e06d8e), [Windows.Devices.Geolocation](windows_devices_geolocation_geofencing.md), [Geofence](geofence.md)
+[Geofencing, start to finish](https://docs.microsoft.com/previous-versions/windows/apps/dn263199(v=win.10)), [Windows.Devices.Geolocation](windows_devices_geolocation_geofencing.md), [Geofence](geofence.md)
 ## -capabilities
 location

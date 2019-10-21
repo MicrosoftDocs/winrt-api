@@ -13,7 +13,7 @@ public class AsyncCausalityTracer
 Enables tracing control flow across asynchronous operations.
 
 ## -remarks
-The [AsyncCausalityTracer](asynccausalitytracer.md) class provides methods that enable creating, propagating, and tracking causality as control flows across asynchronous operations. The causality is an abstraction for tracking both asynchronous and synchronous activities. You can use the collected data to develop causality graphs that are useful for debugging. Causality tracing uses event tracing for Windows (ETW) for logging.
+The AsyncCausalityTracer class provides methods that enable creating, propagating, and tracking causality as control flows across asynchronous operations. The causality is an abstraction for tracking both asynchronous and synchronous activities. You can use the collected data to develop causality graphs that are useful for debugging. Causality tracing uses event tracing for Windows (ETW) for logging.
 
 ## -examples
 

@@ -24,7 +24,7 @@ Gets or sets a value that determines whether the standard transport controls are
 ## -remarks
 The transport controls are exposed as a [MediaTransportControls](mediatransportcontrols.md) object that you can access through the [MediaElement.TransportControls](mediaelement_transportcontrols.md) property. See [MediaTransportControls](mediatransportcontrols.md) for more info.
 
-If [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) is **true**, the standard transport controls are enabled and displayed on the [MediaElement](mediaelement.md). If [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) is **false**, the standard transport controls are not enabled and are not displayed.
+If AreTransportControlsEnabled is **true**, the standard transport controls are enabled and displayed on the [MediaElement](mediaelement.md). If AreTransportControlsEnabled is **false**, the standard transport controls are not enabled and are not displayed.
 
 The transport controls hide themselves after a short period of no user interaction with the [MediaElement](mediaelement.md). They reappear when the user interacts with the [MediaElement](mediaelement.md).
 
@@ -40,6 +40,6 @@ Here is some code that creates a [MediaElement](mediaelement.md) with the built-
 
 
 
-[!code-xml[BasicMediaElementControls](../windows.ui.xaml.controls/code/MediaPlayback2/csharp/MainPage.xaml#SnippetBasicMediaElementControls)]
+[!code-xaml[BasicMediaElementControls](../windows.ui.xaml.controls/code/MediaPlayback2/csharp/MainPage.xaml#SnippetBasicMediaElementControls)]
 
 ## -see-also

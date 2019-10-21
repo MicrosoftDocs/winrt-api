@@ -101,18 +101,18 @@ The event that is raised when the conversion target has changed.
 The event that is raised when the text was changed in an edit control.
 
 ### -field LayoutInvalidated:29
-The event that is raised when the window layout has become invalidated. This event is also used for [Auto-suggest accessibility](https://docs.microsoft.com/en-us/windows/uwp/accessibility/accessible-text-requirements#auto-suggest_accessibility).
+The event that is raised when the window layout has become invalidated. This event is also used for [Auto-suggest accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessible-text-requirements#auto-suggest_accessibility).
 
 
 ## -remarks
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | LayoutInvalidated |
 
 ## -examples
 
 ## -see-also
-[RaiseAutomationEvent](automationpeer_raiseautomationevent_2027563412.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[RaiseAutomationEvent](automationpeer_raiseautomationevent_2027563412.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

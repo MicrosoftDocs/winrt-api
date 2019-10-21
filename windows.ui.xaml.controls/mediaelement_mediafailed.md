@@ -19,10 +19,10 @@ Occurs when there is an error associated with the media [Source](mediaelement_so
 
 
 ## -remarks
-It is a best practice to always handle the [MediaFailed](mediaelement_mediafailed.md) event and take appropriate action.
+It is a best practice to always handle the MediaFailed event and take appropriate action.
 
 ## -examples
-The following code creates a [MediaFailed](mediaelement_mediafailed.md) event handler that calls a helper function to retrieve the **HRESULT** from the event arguments.
+The following code creates a MediaFailed event handler that calls a helper function to retrieve the **HRESULT** from the event arguments.
 
 
 

@@ -25,11 +25,11 @@ Represents a rich text editing control that supports formatted text, hyperlinks,
 > [!TIP]
 > For more info, design guidance, and code examples, see [Rich edit box](/windows/uwp/design/controls-and-patterns/rich-edit-box).
 
-[RichEditBox](richeditbox.md) is a control that lets a user enter formatted text such as bold, italic, and underlined. [RichEditBox](richeditbox.md) can also display Rich Text Format (.rtf) documents including hyperlinks and images (.jpg, .png, etc). This control is designed for advanced text editing scenarios. For simple plain text input, like on a form, consider using [TextBox](textbox.md).
+RichEditBox is a control that lets a user enter formatted text such as bold, italic, and underlined. RichEditBox can also display Rich Text Format (.rtf) documents including hyperlinks and images (.jpg, .png, etc). This control is designed for advanced text editing scenarios. For simple plain text input, like on a form, consider using [TextBox](textbox.md).
 
-You use the [Document](richeditbox_document.md) property of the [RichEditBox](richeditbox.md) to get its content. The content of a [RichEditBox](richeditbox.md) is a [Windows.UI.Text.ITextDocument](../windows.ui.text/itextdocument.md) object, which gives you access to the underlying [Text Object Model](https://msdn.microsoft.com/library/windows/desktop/bb787607.aspx) APIs. See the [Windows.UI.Text](../windows.ui.text/windows_ui_text.md) namespace for APIs that you can use to work with the text document.
+You use the [Document](richeditbox_document.md) property of the RichEditBox to get its content. The content of a RichEditBox is a [Windows.UI.Text.ITextDocument](../windows.ui.text/itextdocument.md) object, which gives you access to the underlying [Text Object Model](https://docs.microsoft.com/windows/desktop/Controls/text-object-model) APIs. See the [Windows.UI.Text](../windows.ui.text/windows_ui_text.md) namespace for APIs that you can use to work with the text document.
 
-For more info and examples, see the [RichEditBox control guide](http://msdn.microsoft.com/library/4afc0dfa-3b89-434d-9f86-4309ccff7839).
+For more info and examples, see the [RichEditBox control guide](https://docs.microsoft.com/windows/uwp/controls-and-patterns/rich-edit-box).
 
 ### Pen input
 
@@ -41,11 +41,11 @@ For more info, see [Text input with the handwriting view](https://docs.microsoft
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\&lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
 
-Starting in Windows 10, version 1607 (Windows Software Development Kit (SDK) version 10.0.14393.0), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [RichEditBox](richeditbox.md) control. Resources that start with "TextControl" are shared by [TextBox](textbox.md), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), and [AutoSuggestBox](autosuggestbox.md).
+This table shows the resources used by the RichEditBox control. Resources that start with "TextControl" are shared by [TextBox](textbox.md), [PasswordBox](passwordbox.md), RichEditBox, and [AutoSuggestBox](autosuggestbox.md).
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -79,6 +79,32 @@ This table shows the resources used by the [RichEditBox](richeditbox.md) control
    <tr><td>TextControlButtonForegroundPressed</td><td>Foreground color of delete button when pressed</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | ClipboardCopyFormat |
+| 1511 | 10586 | GetLinguisticAlternativesAsync |
+| 1703 | 15063 | MaxLength |
+| 1703 | 15063 | SelectionHighlightColorWhenNotFocused |
+| 1709 | 16299 | CharacterCasing |
+| 1709 | 16299 | CopyingToClipboard |
+| 1709 | 16299 | CuttingToClipboard |
+| 1709 | 16299 | DisabledFormattingAccelerators |
+| 1709 | 16299 | HorizontalTextAlignment |
+| 1803 | 17134 | ContentLinkBackgroundColor |
+| 1803 | 17134 | ContentLinkChanged |
+| 1803 | 17134 | ContentLinkForegroundColor |
+| 1803 | 17134 | ContentLinkInvoked |
+| 1803 | 17134 | ContentLinkProviders |
+| 1803 | 17134 | HandwritingView |
+| 1803 | 17134 | IsHandwritingViewEnabled |
+| 1809 | 17763 | Description |
+| 1809 | 17763 | ProofingMenuFlyout |
+| 1809 | 17763 | SelectionChanging |
+| 1809 | 17763 | SelectionFlyout |
+| 1809 | 17763 | TextDocument |
+
 ## -examples
 
 > [!TIP]
@@ -86,9 +112,9 @@ This table shows the resources used by the [RichEditBox](richeditbox.md) control
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the RichEditBox in action](xamlcontrolsgallery:/item/RichEditBox).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-This example shows how to use the [ITextDocument.SetText](../windows.ui.text/itextdocument_settext_522499431.md) method to programmatically add text to a [RichEditBox](richeditbox.md).
+This example shows how to use the [ITextDocument.SetText](../windows.ui.text/itextdocument_settext_522499431.md) method to programmatically add text to a RichEditBox.
 
 ```xaml
 <RichEditBox x:Name="richEditBox" Width="500" Header="Notes"/>
@@ -98,7 +124,7 @@ This example shows how to use the [ITextDocument.SetText](../windows.ui.text/ite
 richEditBox.Document.SetText(Windows.UI.Text.TextSetOptions.None, "This is some sample text");
 ```
 
-This example shows how to edit, load, and save a Rich Text Format (.rtf) file in a [RichEditBox](richeditbox.md).
+This example shows how to edit, load, and save a Rich Text Format (.rtf) file in a RichEditBox.
 
 ```xaml
  <RelativePanel Margin="20" HorizontalAlignment="Stretch">
@@ -239,4 +265,4 @@ private void UnderlineButton_Click(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Control](control.md), [RichEditBox styles and templates](http://msdn.microsoft.com/library/12fc81ba-c638-4b41-8aa4-7c0fb5a43f97), [RichEditBox overview](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/rich-edit-box), [Touch keyboard text input sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=690716)
+[Control](control.md), [RichEditBox styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [RichEditBox overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/rich-edit-box), [Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)

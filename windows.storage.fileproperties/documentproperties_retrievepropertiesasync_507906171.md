@@ -20,7 +20,7 @@ A collection that contains the names of the properties to retrieve.
 An object for managing the asynchronous property retrieval operation.
 
 ## -remarks
-In JavaScript, use [then](http://msdn.microsoft.com/library/c63904fc-465b-4fd5-a1d6-e4fb200248e7) or [done](http://msdn.microsoft.com/library/9a5e6877-a2cf-421f-a91e-37d84ccb40da) to specify handler functions that will capture and process the collection when it is returned.
+In JavaScript, use [then](https://docs.microsoft.com/previous-versions/windows/apps/br229728(v=win.10)) or [done](https://docs.microsoft.com/previous-versions/windows/apps/hh701079(v=win.10)) to specify handler functions that will capture and process the collection when it is returned.
 
 ## -examples
 

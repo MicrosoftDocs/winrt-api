@@ -22,7 +22,7 @@ The default colors are dependent on the [RequestedTheme](application_requestedth
 For more info:
 
 + [FocusVisualPrimaryBrush](frameworkelement_focusvisualprimarybrush.md)
-+ [FocusVisualSecondaryBrush](frameworkelement_focusvisualsecondarybrush.md)
++ FocusVisualSecondaryBrush
 + [FocusVisualPrimaryThickness](frameworkelement_focusvisualprimarythickness.md)
 + [FocusVisualSecondaryThickness](frameworkelement_focusvisualsecondarythickness.md)
 

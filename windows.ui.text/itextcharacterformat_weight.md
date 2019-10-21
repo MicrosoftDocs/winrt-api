@@ -16,9 +16,9 @@ Gets or sets the font weight of the characters.
 The font weight expressed as a numeric value. See Remarks.
 
 ## -remarks
-In standard typography API, the weight of a font is typically expressed as a constant name, such as "Bold". Using constant names to set the [Weight](itextcharacterformat_weight.md) property is supported through type converter behaviors and by the [FontWeights](fontweights.md) support class.
+In standard typography API, the weight of a font is typically expressed as a constant name, such as "Bold". Using constant names to set the Weight property is supported through type converter behaviors and by the [FontWeights](fontweights.md) support class.
 
-The [FontWeights](fontweights.md) values correspond to the "usWeightClass" definition in the [OpenType specification](http://go.microsoft.com/fwlink/p/?linkid=238197). The "usWeightClass" represents an integer value between 1 and 999. Lower values indicate lighter weights; higher values indicate heavier weights.
+The [FontWeights](fontweights.md) values correspond to the "usWeightClass" definition in the [OpenType specification](https://go.microsoft.com/fwlink/p/?linkid=238197). The "usWeightClass" represents an integer value between 1 and 999. Lower values indicate lighter weights; higher values indicate heavier weights.
 
 ## -examples
 

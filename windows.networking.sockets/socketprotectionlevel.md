@@ -68,19 +68,19 @@ This value is supported on Windows 8.1, Windows Server 2012 R2, and later.
 The protection level is unspecified.
 
 ## -remarks
-The [SocketProtectionLevel](socketprotectionlevel.md) enumeration allow clients to control protocol negotiation for security options with servers when using the [StreamSocket](streamsocket.md) object.
+The SocketProtectionLevel enumeration allow clients to control protocol negotiation for security options with servers when using the [StreamSocket](streamsocket.md) object.
 
 For TCP sockets, the various enum values allow app developers to control the use of the TLS 1.2, TLS 1.1, TLS 1.0, and SSL 3.0 protocols and restrict the use of the RC4 and other weak ciphers which are considered insecure. This allows developers to configure apps that are compatible across a very wide set of servers.
 
 For Bluetooth RFCOMM sockets, the various enum values allow app developers to control the use of Bluetooth encryption.
 
-The users of non-domain joined machines can also disable ciphers and protocols by using registry settings. For more information, see [How to Restrict the Use of Certain Cryptographic Algorithms and Protocols in Schannel.dll](http://support.microsoft.com/kb/245030).
+The users of non-domain joined machines can also disable ciphers and protocols by using registry settings. For more information, see [How to Restrict the Use of Certain Cryptographic Algorithms and Protocols in Schannel.dll](https://support.microsoft.com/help/245030/how-to-restrict-the-use-of-certain-cryptographic-algorithms-and-protoc).
 
-The [SocketProtectionLevel](socketprotectionlevel.md) enumeration also allow servers to control protocol negotiation for security with clients when using the [StreamSocketListener](streamsocketlistener.md) object to listen and bind to sockets over Bluetooth. When the [StreamSocketListener](streamsocketlistener.md) object is used over Bluetooth, the supported [SocketProtectionLevel](socketprotectionlevel.md) values are **PlainSocket**, **BluetoothEncryptionAllowNullAuthentication**, or **BluetoothEncryptionWithAuthentication**. When the [StreamSocketListener](streamsocketlistener.md) object is used to listen and bind to TCP sockets, the only supported [SocketProtectionLevel](socketprotectionlevel.md) value is **PlainSocket**.
+The SocketProtectionLevel enumeration also allow servers to control protocol negotiation for security with clients when using the [StreamSocketListener](streamsocketlistener.md) object to listen and bind to sockets over Bluetooth. When the [StreamSocketListener](streamsocketlistener.md) object is used over Bluetooth, the supported SocketProtectionLevel values are **PlainSocket**, **BluetoothEncryptionAllowNullAuthentication**, or **BluetoothEncryptionWithAuthentication**. When the [StreamSocketListener](streamsocketlistener.md) object is used to listen and bind to TCP sockets, the only supported SocketProtectionLevel value is **PlainSocket**.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1709 | 16299 | Unspecified |
 

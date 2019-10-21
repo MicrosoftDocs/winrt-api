@@ -15,6 +15,12 @@ Describes the properties of the image the model is expecting.
 
 ## -remarks
 
+### Windows Server
+To use this API on Windows Server, you must use Windows Server 2019 with Desktop Experience.
+
+### Thread safety
+This API is thread-safe.
+
 ## -see-also
 [Windows ML](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
 

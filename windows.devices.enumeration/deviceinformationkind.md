@@ -25,7 +25,7 @@ The [DeviceInformation](deviceinformation.md) object represents a PnP device int
 
 This type of [DeviceInformation](deviceinformation.md) object contains all the properties of the PnP *DeviceInterface* object plus some properties from the parent PnP *DeviceContainer* object. This combination of properties can be presented to the user when the user needs to select a device to complete an app scenario. A *DeviceInterface* object can only be a child to one *DeviceContainer* object.
 
-This is the default [DeviceInformationKind](deviceinformationkind.md) when enumerating devices without specifying a specific kind.
+This is the default DeviceInformationKind when enumerating devices without specifying a specific kind.
 
 The [Id](deviceinformation_id.md) for this object is the device interface id, or the device interface path.
 
@@ -49,7 +49,7 @@ The [Id](deviceinformation_id.md) for this object is the device interface class 
 
 ### -field AssociationEndpoint:5
 
-The [DeviceInformation](deviceinformation.md) object represents a device association endpoint (AEP). AEPs usually represent a device discovered over a wireless or network protocol. Some of these endpoints can be used without needing to first pair the device. Use [CanPair](deviceinformationpairing_canpair.md) to determine if a device supports pairing and [IsPaired](deviceinformationpairing_ispaired.md) to determine if a device is already paired with the system. Only *AssociationEndpoint* objects have a non-NULL value for [Pairing](deviceinformation_pairing.md). For more information about pairing over a network, see [Enumerate devices over a network](http://msdn.microsoft.com/library/e0b9532f-1195-4927-99be-f41565d891ad). An *AssociationEndpoint* object is a child of a single *AssociationEndpointContainer* object and can contain 0 or more *AssociationEndpointService* objects.
+The [DeviceInformation](deviceinformation.md) object represents a device association endpoint (AEP). AEPs usually represent a device discovered over a wireless or network protocol. Some of these endpoints can be used without needing to first pair the device. Use [CanPair](deviceinformationpairing_canpair.md) to determine if a device supports pairing and [IsPaired](deviceinformationpairing_ispaired.md) to determine if a device is already paired with the system. Only *AssociationEndpoint* objects have a non-NULL value for [Pairing](deviceinformation_pairing.md). For more information about pairing over a network, see [Enumerate devices over a network](https://docs.microsoft.com/windows/uwp/devices-sensors/enumerate-devices-over-a-network). An *AssociationEndpoint* object is a child of a single *AssociationEndpointContainer* object and can contain 0 or more *AssociationEndpointService* objects.
 
 The [Id](deviceinformation_id.md) for this object.
 
@@ -73,11 +73,17 @@ The [Id](deviceinformation_id.md) for this object as a string.
 
 ## -remarks
 
-A [DeviceInformationKind](deviceinformationkind.md) value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over specific kinds of devices using [DeviceInformationKind](deviceinformationkind.md), see [Enumerate devices](http://msdn.microsoft.com/library/4311d293-94f0-4bbd-a22d-f007382b4db8).
+A DeviceInformationKind value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over specific kinds of devices using DeviceInformationKind, see [Enumerate devices](https://docs.microsoft.com/windows/uwp/devices-sensors/enumerate-devices).
 
 The following diagram show how the different device types interact with each other. It also indicates the properties that tie the relationships together. For performance reasons, many of the relationship connections only go in one direction. The exception to this is **AepContainer**. It contains a list of its child objects thanks to **AepContainer.Children**.
 
 <img src="images/device_type_interaction.png" alt="DeviceInformationKind relationships" />
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | DevicePanel |
 
 ## -examples
 

@@ -20,7 +20,7 @@ The identifier of the routed event for which the handler is attached.
 The specific handler implementation to remove from the event handler collection on this [UIElement](uielement.md).
 
 ## -remarks
-[RemoveHandler](uielement_removehandler_661998757.md) can only be used for the event handlers of the events that are supported by [AddHandler](uielement_addhandler_2121467075.md), which is approximately the input-specific events of [UIElement](uielement.md). More precisely, the event must have a ***Event** property of type [RoutedEvent](routedevent.md), which is true only of certain events on [UIElement](uielement.md). You cannot use [RemoveHandler](uielement_removehandler_661998757.md) to unhook event handlers for Windows Runtime events on runtime class instances in general. Instead, you should use the specific event handler unhooking syntax: 
+RemoveHandler can only be used for the event handlers of the events that are supported by [AddHandler](uielement_addhandler_2121467075.md), which is approximately the input-specific events of [UIElement](uielement.md). More precisely, the event must have a ***Event** property of type [RoutedEvent](routedevent.md), which is true only of certain events on [UIElement](uielement.md). You cannot use RemoveHandler to unhook event handlers for Windows Runtime events on runtime class instances in general. Instead, you should use the specific event handler unhooking syntax: 
 + `-=` in C#
 + **RemoveHandler** in Microsoft Visual Basic
 + `-=` in Visual C++ component extensions (C++/CX)
@@ -38,4 +38,4 @@ This method ignores whether *handledEventsToo* parameter was **true** in the [Ad
 ## -examples
 
 ## -see-also
-[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832), [RoutedEvent](routedevent.md)
+[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [RoutedEvent](routedevent.md)

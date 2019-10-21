@@ -13,13 +13,13 @@ public interface ITextChildProvider :
 Provides access to a text-based control that is a child of another text-based control. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.TextChild](../windows.ui.xaml.automation.peers/patterninterface.md).
 
 ## -remarks
-This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [TextChild Control Pattern](http://msdn.microsoft.com/library/b33bcbef-9ad2-4a5a-871e-e97e69be8195).
+This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [TextChild Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/textchild-control-pattern).
 
-[ITextChildProvider](itextchildprovider.md) isn't implemented by any existing Windows Runtime automation peers. The interface exists so that custom control authors can support the automation pattern in a custom control, and implement their automation support using the same Windows Runtime managed or C++ API as they use to define control logic or other automation support.
+ITextChildProvider isn't implemented by any existing Windows Runtime automation peers. The interface exists so that custom control authors can support the automation pattern in a custom control, and implement their automation support using the same Windows Runtime managed or C++ API as they use to define control logic or other automation support.
 
 The [ITableItemProvider](itableitemprovider.md) pattern doesn't have a pattern property identifier class.
 
 ## -examples
 
 ## -see-also
-[ITextChildProvider (COM interface)](http://msdn.microsoft.com/library/370a772a-0ad9-4183-b316-cadc4fe117ae), [TextChild Control Pattern](http://msdn.microsoft.com/library/b33bcbef-9ad2-4a5a-871e-e97e69be8195), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[ITextChildProvider (COM interface)](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextchildprovider), [TextChild Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/textchild-control-pattern), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

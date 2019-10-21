@@ -25,13 +25,13 @@ Gets or sets the source for the image.
 An object that represents the image source file for the drawn image. Typically you set this with a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) object, constructed with the Uniform Resource Identifier (URI) that describes the path to a valid image source file. Or, you can initialize a [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md) with a stream, perhaps a stream from a storage file.
 
 ## -remarks
-Setting the [Source](image_source.md) property is inherently an asynchronous action. Because it's a property, there isn't an awaitable syntax, but for most scenarios you don't need to interact with the asynchronous aspects of image source file loading. The framework will wait for the image source to be returned, and will rerun layout when the image source file becomes available.
+Setting the Source property is inherently an asynchronous action. Because it's a property, there isn't an awaitable syntax, but for most scenarios you don't need to interact with the asynchronous aspects of image source file loading. The framework will wait for the image source to be returned, and will rerun layout when the image source file becomes available.
 
 Setting the source to a Uniform Resource Identifier (URI) value that can't be resolved to a valid image source file does not throw an exception. Instead, it fires an [ImageFailed](image_imagefailed.md) event. Decoding failures also fire [ImageFailed](image_imagefailed.md). You can write an [ImageFailed](image_imagefailed.md) handler and attach it to the [Image](image.md) object to detect this, and possibly use the [ErrorMessage](../windows.ui.xaml/exceptionroutedeventargs_errormessage.md) in event data to determine the nature of the failure. Also, if you want to verify that an image source file was loaded correctly, you can handle the [ImageOpened](image_imageopened.md) event on the [Image](image.md) element.
 
 ### Setting Source in XAML
 
-You can set the [Source](image_source.md) property as an attribute in XAML. In this case, you're setting the [Source](image_source.md) attribute value as a Uniform Resource Identifier (URI) string that describes the location of the source image file. This behavior relies on underlying type conversion that processes the string as a Uniform Resource Identifier (URI), and calls the equivalent of the [BitmapImage(Uri)](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor. Setting the [Source](image_source.md) property using a Uniform Resource Identifier (URI) string is a shortcut enabled by XAML. Note that the Uniform Resource Identifier (URI) here appears to be a relative Uniform Resource Identifier (URI); supporting partial Uniform Resource Identifier (URI) is another XAML shortcut.
+You can set the Source property as an attribute in XAML. In this case, you're setting the Source attribute value as a Uniform Resource Identifier (URI) string that describes the location of the source image file. This behavior relies on underlying type conversion that processes the string as a Uniform Resource Identifier (URI), and calls the equivalent of the [BitmapImage(Uri)](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor. Setting the Source property using a Uniform Resource Identifier (URI) string is a shortcut enabled by XAML. Note that the Uniform Resource Identifier (URI) here appears to be a relative Uniform Resource Identifier (URI); supporting partial Uniform Resource Identifier (URI) is another XAML shortcut.
 
 ```xaml
 <Image Width="200" Source="Images/myImage.png"/>
@@ -39,17 +39,17 @@ You can set the [Source](image_source.md) property as an attribute in XAML. In t
 
 The XAML parser interprets any strings that represent a relative Uniform Resource Identifier (URI) using the base Uniform Resource Identifier (URI) of the XAML page that is being parsed. For example, if you specify a value "Images/myImage.png" in XAML, that string is interpreted as a relative path suffix that is appended to the base Uniform Resource Identifier (URI) location within the app package where the XAML page itself exists. If the previous [Image](image.md) element is added to a page that’s in the root of the app package, the Uniform Resource Identifier (URI) is interpreted as ms-appx:///Images/myImage.png. If the [Image](image.md) is added to a page that’s in a Pages folder in the app, the Uniform Resource Identifier (URI) is interpreted as ms-appx:///Pages/Images/myImage.png.
 
-If the source image is not part of the app package, you must use an absolute Uniform Resource Identifier (URI) to set the [Source](image_source.md) property in XAML. For more info, see [How to load file resources](http://msdn.microsoft.com/library/a1bfa080-757c-49f7-8b7e-dcf64234edac), and examples later in this document.
+If the source image is not part of the app package, you must use an absolute Uniform Resource Identifier (URI) to set the Source property in XAML. For more info, see [How to load file resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965322(v=win.10)), and examples later in this document.
 
 A property element syntax in XAML is also possible, specifying a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) object element with valid source as the property value.
 
 ### Setting Source in code
 
-To set the [Image.Source](image_source.md) property in code requires an instance of [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) (or [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md)), which you also must construct. If your image source is a stream, use the async [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync_1118221574.md) method of [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) to define the image information from the stream. For more info, see the  section.
+To set the Image.Source property in code requires an instance of [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) (or [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md)), which you also must construct. If your image source is a stream, use the async [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync_1118221574.md) method of [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) to define the image information from the stream. For more info, see the  section.
 
-If your image source is a file referenced by Uniform Resource Identifier (URI), set the [BitmapImage.UriSource](../windows.ui.xaml.media.imaging/bitmapimage_urisource.md) property, or use the [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor that takes a Uniform Resource Identifier (URI) parameter. The Windows Runtime enforces that a Uniform Resource Identifier (URI) must be absolute; you can't use relative Uniform Resource Identifier (URI) in Windows Runtime code. If you are using a .NET Framework  [System.Uri](https://msdn.microsoft.com/library/system.uri.aspx) value, and you use a signature that requires a [UriKind](https://msdn.microsoft.com/library/system.urikind.aspx) value, make sure to specify **Absolute**.
+If your image source is a file referenced by Uniform Resource Identifier (URI), set the [BitmapImage.UriSource](../windows.ui.xaml.media.imaging/bitmapimage_urisource.md) property, or use the [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor that takes a Uniform Resource Identifier (URI) parameter. The Windows Runtime enforces that a Uniform Resource Identifier (URI) must be absolute; you can't use relative Uniform Resource Identifier (URI) in Windows Runtime code. If you are using a .NET Framework  [System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN) value, and you use a signature that requires a [UriKind](https://docs.microsoft.com/dotnet/api/system.urikind?redirectedfrom=MSDN) value, make sure to specify **Absolute**.
 
-When you reference local content, you must include the **ms-appx:** scheme in the absolute Uniform Resource Identifier (URI) that you use as the [BitmapImage.UriSource](../windows.ui.xaml.media.imaging/bitmapimage_urisource.md). In code, you don't get the processing shortcuts for combining relative Uniform Resource Identifier (URI) parts and the **ms-appx:** scheme that happens automatically if you specify [Source](image_source.md) as a XAML attribute. Instead you must explicitly construct an absolute Uniform Resource Identifier (URI) with the appropriate scheme.
+When you reference local content, you must include the **ms-appx:** scheme in the absolute Uniform Resource Identifier (URI) that you use as the [BitmapImage.UriSource](../windows.ui.xaml.media.imaging/bitmapimage_urisource.md). In code, you don't get the processing shortcuts for combining relative Uniform Resource Identifier (URI) parts and the **ms-appx:** scheme that happens automatically if you specify Source as a XAML attribute. Instead you must explicitly construct an absolute Uniform Resource Identifier (URI) with the appropriate scheme.
 
 Here's how to set the source to an image from the app package.
 
@@ -92,12 +92,12 @@ auto img = ref new Image();
 img->Source = ref new BitmapImage(ref new Windows::Foundation::Uri("ms-appx:///Assets/Logo.png"));
 ```
 
-If you need to ensure that the [Image](image.md) control is ready before trying to use it in code, handle the [Loaded](../windows.ui.xaml/frameworkelement_loaded.md) event, and set the [Source](image_source.md) property in the event handler.
+If you need to ensure that the [Image](image.md) control is ready before trying to use it in code, handle the [Loaded](../windows.ui.xaml/frameworkelement_loaded.md) event, and set the Source property in the event handler.
 
 > [!NOTE]
 > The [FrameworkElement.Loaded](../windows.ui.xaml/frameworkelement_loaded.md) event occurs when the [Image](image.md) control is loaded into the XAML page. The [ImageOpened](image_imageopened.md) event occurs when the image file is opened in the [Image](image.md) control.
 
-Here's an example of setting [Image.Source](image_source.md) in the handler for the [Loaded](../windows.ui.xaml/frameworkelement_loaded.md) event. In this example, the [Image](image.md) object was created in XAML but doesn't have a source or any other property values; instead these values are provided at run-time when the [Image](image.md) is loaded from XAML.
+Here's an example of setting Image.Source in the handler for the [Loaded](../windows.ui.xaml/frameworkelement_loaded.md) event. In this example, the [Image](image.md) object was created in XAML but doesn't have a source or any other property values; instead these values are provided at run-time when the [Image](image.md) is loaded from XAML.
 
 ```xaml
 <Image Loaded="Image_Loaded"/>
@@ -143,13 +143,13 @@ void App1::MainPage::Image_Loaded(Platform::Object^ sender, Windows::UI::Xaml::R
 }
 ```
 
-You can handle the [ImageOpened](image_imageopened.md) event if there are any timing issues with retrieving or decoding the image source, where you might need alternate content to display until the image source is available. See [XAML images sample](http://go.microsoft.com/fwlink/p/?linkid=238575) for example code.
+You can handle the [ImageOpened](image_imageopened.md) event if there are any timing issues with retrieving or decoding the image source, where you might need alternate content to display until the image source is available. See [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575) for example code.
 
 ### Using a relative URI in code
 
 We saw previously that the XAML parser interprets a relative Uniform Resource Identifier (URI) using the base Uniform Resource Identifier (URI) of the XAML page that is being parsed. To achieve the same result in code, you can construct a **Uri** using one of the constructors that creates a Uniform Resource Identifier (URI) by combining an absolute base and then a relative path within that location. For the first parameter, call [BaseUri](../windows.ui.xaml/frameworkelement_baseuri.md) on [Page](page.md) where the [Image](image.md) is loaded. (You can also call [BaseUri](../windows.ui.xaml/frameworkelement_baseuri.md) on the [Image](image.md) instance where you are setting the source, or another element on the page. See the Caution below.) This creates a Uniform Resource Identifier (URI) with the **ms-appx:** scheme and adds the path that is part of the XAML page's location. For the second parameter, pass the relative Uniform Resource Identifier (URI) string that describes the source image location.
 
-In C# or Microsoft Visual Basic, the **Uri** type is projected as [System.Uri](https://msdn.microsoft.com/library/system.uri.aspx), so use the [System.Uri(Uri, String)](https://msdn.microsoft.com/library/system.uri.aspx) constructor that takes a string as the second parameter. In Visual C++ component extensions (C++/CX) use [Uri(String,String)](../windows.foundation/uri_uri_290278668.md).
+In C# or Microsoft Visual Basic, the **Uri** type is projected as [System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN), so use the [System.Uri(Uri, String)](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN) constructor that takes a string as the second parameter. In Visual C++ component extensions (C++/CX) use [Uri(String,String)](../windows.foundation/uri_uri_290278668.md).
 
 ```xaml
 <Image x:Name="capturedPhoto"/>
@@ -172,7 +172,7 @@ capturedPhoto->Source = bitmapImage;
 ```
 
 > [!NOTE]
-> If you instantiate a new [Image](image.md) in code, the [BaseUri](../windows.ui.xaml/frameworkelement_baseuri.md) property is **null** until the [Image](image.md) is added to the visual tree of the a page. For example, the following code throws an **ArgumentNull** exception. To avoid the exception, add the [Image](image.md) to the visual tree before setting the [Source](image_source.md) property.
+> If you instantiate a new [Image](image.md) in code, the [BaseUri](../windows.ui.xaml/frameworkelement_baseuri.md) property is **null** until the [Image](image.md) is added to the visual tree of the a page. For example, the following code throws an **ArgumentNull** exception. To avoid the exception, add the [Image](image.md) to the visual tree before setting the Source property.
 
 This example throws an exception because it calls [BaseUri](../windows.ui.xaml/frameworkelement_baseuri.md) on the [Image](image.md) before the [Image](image.md) is added to the page. It's assumed that 'stackPanel1' is a [StackPanel](stackpanel.md) element declared in XAML.
 
@@ -231,7 +231,7 @@ img->Source = bitmapImage;
 
 ### Using files from a network
 
-To use a file from a network location as an image source, use the **http:** or **https:** schemes, as shown here. Specify the absolute Uniform Resource Identifier (URI). For more info, see [How to load file resources](http://msdn.microsoft.com/library/a1bfa080-757c-49f7-8b7e-dcf64234edac).
+To use a file from a network location as an image source, use the **http:** or **https:** schemes, as shown here. Specify the absolute Uniform Resource Identifier (URI). For more info, see [How to load file resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965322(v=win.10)).
 
 ```xaml
 <Image Source="http://www.contoso.com/images/logo.png"/>
@@ -249,7 +249,7 @@ img->Source = ref new BitmapImage(ref new Windows::Foundation::Uri("http://www.c
 
 ### Using files from local storage
 
-To use files that are placed in your app's local storage as an image source , use the **ms-appdata:** scheme, as shown here. Specify the absolute Uniform Resource Identifier (URI). For more info, see [How to load file resources](http://msdn.microsoft.com/library/a1bfa080-757c-49f7-8b7e-dcf64234edac).
+To use files that are placed in your app's local storage as an image source , use the **ms-appdata:** scheme, as shown here. Specify the absolute Uniform Resource Identifier (URI). For more info, see [How to load file resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965322(v=win.10)).
 
 ```xaml
 <!-- Access an image file stored in the local folder -->
@@ -285,10 +285,7 @@ A typical use of [Image](image.md) elements in an app is to show pictures from t
 
 To display an individual image, use the [StorageFile](../windows.storage/storagefile.md) objects from enumerating the library and call [OpenAsync](../windows.storage/storagefile_openasync_1542217918.md) to obtain a stream. Use this stream to set the image source, by creating a new [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md), then calling [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync_1118221574.md) and passing the stream to use as the *streamSource* parameter.
 
-This example shows how to use a [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) to access an image file from the Pictures library and set it as the [Source](image_source.md) of an [Image](image.md) control. The code is already awaitable because it's waiting for the user to choose a file and it only runs after that happens. The stream to use comes from [StorageFile.OpenAsync](../windows.storage/storagefile_openasync_1542217918.md) after a [StorageFile](../windows.storage/storagefile.md) instance is returned from the async picker actions. For more info on using file pickers, see [Open files and folders with a picker](http://msdn.microsoft.com/library/f87dbe2f-77db-4573-8172-29e11abefd34).
-
-> > [!IMPORTANT]
-> Using a file picker in Windows Phone 8.x app requires additional steps that are beyond the scope of this example. For more info, see [How to continue your Windows Phone app after calling a file picker](http://msdn.microsoft.com/library/465bbb7a-9ed1-4b57-b60f-e5c6e7cd1470).
+This example shows how to use a [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) to access an image file from the Pictures library and set it as the Source of an [Image](image.md) control. The code is already awaitable because it's waiting for the user to choose a file and it only runs after that happens. The stream to use comes from [StorageFile.OpenAsync](../windows.storage/storagefile_openasync_1542217918.md) after a [StorageFile](../windows.storage/storagefile.md) instance is returned from the async picker actions. For more info on using file pickers, see [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
 ```xaml
 <Button Content="Get photo" Click="GetPhotoButton_Click"/>
@@ -338,7 +335,7 @@ private async void GetPhotoButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-This example shows how to programmatically access an image file from the Pictures library and set it as the [Source](image_source.md) of an [Image](image.md) control. To access the content of the Pictures library programmatically, call [StorageFolder.GetFilesAsync](../windows.storage/storagefolder_getfilesasync_1429382825.md). Remember that you need to specify a capability to access the Pictures library programmatically.
+This example shows how to programmatically access an image file from the Pictures library and set it as the Source of an [Image](image.md) control. To access the content of the Pictures library programmatically, call [StorageFolder.GetFilesAsync](../windows.storage/storagefolder_getfilesasync_1429382825.md). Remember that you need to specify a capability to access the Pictures library programmatically.
 
 ```csharp
 protected async override void OnNavigatedTo(NavigationEventArgs e)
@@ -386,16 +383,16 @@ protected async override void OnNavigatedTo(NavigationEventArgs e)
 
 ### Image sources and scaling
 
-If you are referencing images that are packaged in your app, you should create your image sources at several recommended sizes, to ensure that your app looks great when the Windows Runtime scales it. When specifying a [Source](image_source.md) for an [Image](image.md) as a Uniform Resource Identifier (URI), you can use a naming convention that will automatically reference the correct image resource for the current scaling as detected by the system at run-time. For specifics of the naming convention and more info, see [Quickstart: Using file or image resources](http://msdn.microsoft.com/library/a3e91a0e-9a74-4e92-a6e4-ddd633660a3a).
+If you are referencing images that are packaged in your app, you should create your image sources at several recommended sizes, to ensure that your app looks great when the Windows Runtime scales it. When specifying a Source for an [Image](image.md) as a Uniform Resource Identifier (URI), you can use a naming convention that will automatically reference the correct image resource for the current scaling as detected by the system at run-time. For specifics of the naming convention and more info, see [Quickstart: Using file or image resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965325(v=win.10)).
 
 For more info on how to design for scaling, see [
-      Responsive design 101 for ](http://msdn.microsoft.com/library/bf42e810-cdc8-47d2-9c30-baa19dcbe2da) or Remarks in [Image](image.md).
+      Responsive design 101 for ](https://docs.microsoft.com/windows/uwp/layout/screen-sizes-and-breakpoints-for-responsive-design) or Remarks in [Image](image.md).
 
 ### Image sources and resource qualifiers
 
-You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](http://msdn.microsoft.com/library/a090a59f-a8fa-489f-a600-9e7bfb67e5ad) or Remarks in [Image](image.md). For more info on app resources and how to package image sources in an app, see [Defining app resources](http://msdn.microsoft.com/library/476ea844-632c-4467-9ce3-966be1350dd4).
+You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](https://docs.microsoft.com/previous-versions/windows/apps/jj552947(v=win.10)) or Remarks in [Image](image.md). For more info on app resources and how to package image sources in an app, see [Defining app resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965321(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[ImageFailed](image_imagefailed.md), [ImageOpened](image_imageopened.md), [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md), [Image and ImageBrush](http://msdn.microsoft.com/library/cea8780c-71a3-4168-a6e8-6361cdfb2faf), [XAML images sample](http://go.microsoft.com/fwlink/p/?linkid=238575)
+[ImageFailed](image_imagefailed.md), [ImageOpened](image_imageopened.md), [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575)

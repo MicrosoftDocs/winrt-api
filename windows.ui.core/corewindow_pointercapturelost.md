@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler PointerCaptureLost<Windows.UI.
 # Windows.UI.Core.CoreWindow.PointerCaptureLost
 
 ## -description
+
 Occurs when a pointer moves to another app. This event is raised after [PointerExited](corewindow_pointerexited.md) and is the final event received by the app for this pointer.
 
 ## -remarks
@@ -17,4 +18,5 @@ Occurs when a pointer moves to another app. This event is raised after [PointerE
 ## -examples
 
 ## -see-also
-[Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82)
+
+[Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)

@@ -21,4 +21,4 @@ If any one of the property values is invalid, none of the values will be saved.
 ## -examples
 
 ## -see-also
-[basicProperties.savePropertiesAsync methods](basicproperties_savepropertiesasync_330113698.md), [basicProperties.savePropertiesAsync(IIterable(IKeyValuePair)) method](basicproperties_savepropertiesasync_132989229.md)
+[basicProperties.savePropertiesAsync methods, [basicProperties.savePropertiesAsync(IIterable(IKeyValuePair)) method](basicproperties_savepropertiesasync_132989229.md)

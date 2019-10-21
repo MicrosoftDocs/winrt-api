@@ -13,11 +13,11 @@ public class InfraredMediaFrame : Windows.Media.Capture.Frames.IInfraredMediaFra
 Represents a [VideoMediaFrame](videomediaframe.md) that contains infrared video data.
 
 ## -remarks
-Get an instance of this class by accessing the [InfraredMediaFrame](infraredmediaframe.md) property of the [VideoMediaFrame](videomediaframe.md) class.
+Get an instance of this class by accessing the InfraredMediaFrame property of the [VideoMediaFrame](videomediaframe.md) class.
 
-For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
+For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://docs.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
 
 ## -examples
 
 ## -see-also
-[Process media frames with MediaFrameReader](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)
+[Process media frames with MediaFrameReader](https://docs.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)

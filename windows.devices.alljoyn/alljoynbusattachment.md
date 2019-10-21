@@ -15,6 +15,17 @@ Represents a connection to the underlying communication pipeline (transport agno
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AcceptSessionJoinerRequested |
+| 1607 | 14393 | GetAboutDataAsync(AllJoynServiceInfo) |
+| 1607 | 14393 | GetAboutDataAsync(AllJoynServiceInfo,Language) |
+| 1607 | 14393 | GetDefault |
+| 1607 | 14393 | GetWatcher |
+| 1607 | 14393 | SessionJoined |
+
 ## -examples
 
 ## -see-also

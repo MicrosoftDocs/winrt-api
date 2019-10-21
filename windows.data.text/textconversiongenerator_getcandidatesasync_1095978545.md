@@ -18,7 +18,7 @@ Asynchronously gets a list of candidate words based on the provided phonetic cha
 The phonetic characters of the words to be returned.
 
 ## -returns
-An asynchronous operation to return an [IVectorView](http://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) of the list of candidate words.
+An asynchronous operation to return an [IVectorView](https://docs.microsoft.com/previous-versions/br224594(v=vs.85)) of the list of candidate words.
 
 ## -remarks
 

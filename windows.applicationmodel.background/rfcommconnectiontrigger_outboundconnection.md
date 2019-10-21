@@ -18,7 +18,7 @@ The [RfcommOutboundConnectionInformation](../windows.devices.bluetooth.backgroun
 ## -remarks
 If this property is null, the system will not create outgoing connections.
 
-At least one of the [InboundConnection](rfcommconnectiontrigger_inboundconnection.md) and [OutboundConnection](rfcommconnectiontrigger_outboundconnection.md) properties must be non-null.
+At least one of the [InboundConnection](rfcommconnectiontrigger_inboundconnection.md) and OutboundConnection properties must be non-null.
 
 ## -examples
 

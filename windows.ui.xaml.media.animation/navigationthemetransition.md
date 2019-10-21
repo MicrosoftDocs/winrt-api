@@ -23,9 +23,9 @@ Provides page navigation animations.
 
 With Windows 10, version 1803, a Frame uses **NavigationThemeTransition** to animate navigation between Pages by default. 
 
-You can use [NavigationThemeTransition](navigationthemetransition.md) to add animated transitions when your app navigates between different pieces of content in a [Frame](../windows.ui.xaml.controls/frame.md). You can add [NavigationThemeTransition](navigationthemetransition.md) to the [Transitions](../windows.ui.xaml/uielement_transitions.md) collection of the [Page](../windows.ui.xaml.controls/page.md) that is being navigated to, or the [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) collection for the navigation [Frame](../windows.ui.xaml.controls/frame.md). In general, we recommend that you use the frame's [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) property to ensure that transitions occur for all navigation pages.
+You can use NavigationThemeTransition to add animated transitions when your app navigates between different pieces of content in a [Frame](../windows.ui.xaml.controls/frame.md). You can add NavigationThemeTransition to the [Transitions](../windows.ui.xaml/uielement_transitions.md) collection of the [Page](../windows.ui.xaml.controls/page.md) that is being navigated to, or the [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) collection for the navigation [Frame](../windows.ui.xaml.controls/frame.md). In general, we recommend that you use the frame's [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) property to ensure that transitions occur for all navigation pages.
 
-This example shows [NavigationThemeTransition](navigationthemetransition.md) added to the [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) collection of a [Frame](../windows.ui.xaml.controls/frame.md).
+This example shows NavigationThemeTransition added to the [ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md) collection of a [Frame](../windows.ui.xaml.controls/frame.md).
 
 ```xaml
 <Frame ...>
@@ -50,13 +50,13 @@ In Windows 10, two different animations are provided for navigation between pag
 
 + *Page Refresh*: Page refresh is the default animation for page navigation. It is a combination of a *slide up* animation and a *fade in* animation for the incoming content. You should use page refresh when you use top level navigation like a navigation menu.
 
-The page refresh animation is represented by the [EntranceNavigationTransitionInfo](entrancenavigationtransitioninfo.md) class. You can use the [EntranceNavigationTransitionInfo.IsTargetElement](entrancenavigationtransitioninfo_istargetelement.md) attached property to apply the page refresh motion to a subset of the page; for example, all content excluding the commanding UI of the page.
+The page refresh animation is represented by the [EntranceNavigationTransitionInfo](entrancenavigationtransitioninfo.md) class. You can use the [EntranceNavigationTransitionInfo.IsTargetElement](/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo#xaml-attached-properties) attached property to apply the page refresh motion to a subset of the page; for example, all content excluding the commanding UI of the page.
 
 + *Drill In*: You should use the drill in animation when a user interacts with UI on a page that represents a link to another page. For example, in a page that represents a list of albums, when a user clicks on an album item, there should be a drill in transition to the album page.
 
 The drill in animation is represented by the [DrillInNavigationTransitionInfo](drillinnavigationtransitioninfo.md) class.
 
-By default, [NavigationThemeTransition](navigationthemetransition.md) plays a page refresh animation. However, you can override this behavior by setting the [DefaultNavigationTransitionInfo](navigationthemetransition_defaultnavigationtransitioninfo.md) property of [NavigationThemeTransition](navigationthemetransition.md). The [NavigationTransitionInfo](navigationtransitioninfo.md) value of this property is used for all navigation by default.
+By default, NavigationThemeTransition plays a page refresh animation. However, you can override this behavior by setting the [DefaultNavigationTransitionInfo](navigationthemetransition_defaultnavigationtransitioninfo.md) property of NavigationThemeTransition. The [NavigationTransitionInfo](navigationtransitioninfo.md) value of this property is used for all navigation by default.
 
 You can specify the animation to use for a particular navigation by using the overload of [Frame.Navigate](../windows.ui.xaml.controls/frame_navigate_1426351961.md) that takes 3 parameters.
 
@@ -71,7 +71,7 @@ void AlbumsListView_ItemClick(object sender, ItemClickEventArgs e)
 
 ```
 
-In addition, you can use the [Frame.GoBack(NavigationTransitionInfo)](../windows.ui.xaml.controls/frame_goback_1076978387.md) to play a specific transition when navigating back in the [Frame](../windows.ui.xaml.controls/frame.md) back stack. This can be useful when you modify navigation behavior dynamically based on screen size; for example, in a responsive master/detail scenario. For more examples, see the [XAML master/detail sample](http://go.microsoft.com/fwlink/p/?LinkId=619901).
+In addition, you can use the [Frame.GoBack(NavigationTransitionInfo)](../windows.ui.xaml.controls/frame_goback_1076978387.md) to play a specific transition when navigating back in the [Frame](../windows.ui.xaml.controls/frame.md) back stack. This can be useful when you modify navigation behavior dynamically based on screen size; for example, in a responsive master/detail scenario. For more examples, see the [XAML master/detail sample](https://go.microsoft.com/fwlink/p/?LinkId=619901).
 
 ### SuppressNavigationTransitionInfo
 
@@ -85,6 +85,13 @@ Frame.Navigate(typeof(MainPage), null, new SuppressNavigationTransitionInfo());
 
 ## -examples
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Page transitions](/windows/uwp/design/motion/page-transitions).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see Page Transitions in action](xamlcontrolsgallery:/item/PageTransitions).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
 ## -see-also
 
-[Transition](transition.md), [EntranceNavigationTransitionInfo](entrancenavigationtransitioninfo.md), [DrillInNavigationTransitionInfo](drillinnavigationtransitioninfo.md), [SuppressNavigationTransitionInfo](suppressnavigationtransitioninfo.md), [Frame.Navigate(Type, object, NavigationTransitionInfo)](../windows.ui.xaml.controls/frame_navigate_1426351961.md), [Frame.GoBack(NavigationTransitionInfo)](../windows.ui.xaml.controls/frame_goback_1076978387.md), [XAML Master/detail sample](http://go.microsoft.com/fwlink/p/?LinkId=619901)
+[Transition](transition.md), [EntranceNavigationTransitionInfo](entrancenavigationtransitioninfo.md), [DrillInNavigationTransitionInfo](drillinnavigationtransitioninfo.md), [SuppressNavigationTransitionInfo](suppressnavigationtransitioninfo.md), [Frame.Navigate(Type, object, NavigationTransitionInfo)](../windows.ui.xaml.controls/frame_navigate_1426351961.md), [Frame.GoBack(NavigationTransitionInfo)](../windows.ui.xaml.controls/frame_goback_1076978387.md), [XAML Master/detail sample](https://go.microsoft.com/fwlink/p/?LinkId=619901)

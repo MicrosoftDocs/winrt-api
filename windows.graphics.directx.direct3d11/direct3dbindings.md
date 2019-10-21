@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.DirectX.Direct3D11.Direct3DBindings
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax
@@ -10,7 +11,7 @@ public enum Windows.Graphics.DirectX.Direct3D11.Direct3DBindings : uint
 # Direct3DBindings
 
 ## -description
-A Windows Runtime projection of the [D3D11_BIND_FLAG](http://msdn.microsoft.com/library/4ffa1714-bd85-4d5a-930d-20526f46e4b9) enumeration. Identifies the ways in which a resource may be bound to the graphics pipeline.
+This is a Windows Runtime equivalent of the Desktop [D3D11_BIND_FLAG](/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag) enumeration. Identifies the ways in which a resource may be bound to the graphics pipeline.
 
 ## -enum-fields
 ### -field VertexBuffer:1
@@ -42,7 +43,6 @@ Set this flag to indicate that a 2D texture is used to receive output from the d
 
 ### -field VideoEncoder:1024
 Set this flag to indicate that a 2D texture is used to receive input from the video encoder API.
-
 
 ## -remarks
 

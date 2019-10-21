@@ -29,7 +29,7 @@ A value of the enumeration that indicates when the [Click](buttonbase_click.md) 
 ## -remarks
 
 ## -examples
-The following example shows three buttons that respond to clicks in three different ways based on their [ClickMode](buttonbase_clickmode.md) property value.
+The following example shows three buttons that respond to clicks in three different ways based on their ClickMode property value.
 
 
 + Hover - When the mouse pointer hovers over the first button, the foreground color of the button changes.
@@ -39,7 +39,7 @@ The following example shows three buttons that respond to clicks in three differ
 
 
 
-[!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml#Snippet1)]
 
 
 [!code-csharp[11](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml.cs#Snippet11)]

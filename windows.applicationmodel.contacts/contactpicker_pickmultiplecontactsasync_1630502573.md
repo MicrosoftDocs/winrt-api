@@ -24,7 +24,7 @@ To pick only a single contact, use [PickSingleContactAsync](contactpicker_picksi
 Use the [SelectionMode](contactpicker_selectionmode.md) property to control whether your app receives all of a contact's information, or just specific fields.
 
 ## -examples
-This example demonstrates how to use [PickMultipleContactsAsync](contactpicker_pickmultiplecontactsasync_1630502573.md) to get multiple contacts.
+This example demonstrates how to use PickMultipleContactsAsync to get multiple contacts.
 
 
 

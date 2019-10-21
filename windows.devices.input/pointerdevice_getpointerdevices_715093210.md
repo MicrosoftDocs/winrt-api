@@ -16,9 +16,9 @@ Gets information about the pointer devices attached to the system.
 The collection of [PointerDevice](pointerdevice.md) objects that represent the pointer devices attached to the system.
 
 ## -remarks
-[GetPointerDevices](pointerdevice_getpointerdevices_715093210.md) is a static method.
+GetPointerDevices is a static method.
 
 ## -examples
 
 ## -see-also
-[Quickstart: Identifying input devices](https://docs.microsoft.com/en-us/windows/uwp/design/input/identify-input-devices)
+[Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices)

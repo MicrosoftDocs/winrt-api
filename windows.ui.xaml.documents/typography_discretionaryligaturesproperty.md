@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty DiscretionaryLigaturesProperty { get; 
 # Windows.UI.Xaml.Documents.Typography.DiscretionaryLigaturesProperty
 
 ## -description
-Identifies the [DiscretionaryLigatures](typography_discretionaryligatures.md) attached property.
+Identifies the [DiscretionaryLigatures](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -property-value
-The identifier for the [DiscretionaryLigatures](typography_discretionaryligatures.md) attached property.
+The identifier for the [DiscretionaryLigatures](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -remarks
 

@@ -14,6 +14,12 @@ Represents app memory usage at a single point in time.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | ExpectedTotalCommitLimit |
+
 ## -examples
 
 ## -see-also

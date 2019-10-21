@@ -16,7 +16,7 @@ Gets socket control data on a [MessageWebSocket](messagewebsocket.md) object.
 Socket control data on a [MessageWebSocket](messagewebsocket.md) object.
 
 ## -remarks
-The [Control](messagewebsocket_control.md) property gets the [MessageWebSocketControl](messagewebsocketcontrol.md) instance associated with a [MessageWebSocket](messagewebsocket.md) object.
+The Control property gets the [MessageWebSocketControl](messagewebsocketcontrol.md) instance associated with a [MessageWebSocket](messagewebsocket.md) object.
 
 A [MessageWebSocketControl](messagewebsocketcontrol.md) object is automatically created with the parent [MessageWebSocket](messagewebsocket.md) object. The [MessageWebSocketControl](messagewebsocketcontrol.md) instance can then be used to get or set control data used by the [MessageWebSocket](messagewebsocket.md) object. These properties on the [MessageWebSocketControl](messagewebsocketcontrol.md) instance include the following:
 
@@ -40,4 +40,4 @@ Changes to any other property values on the [MessageWebSocketControl](messageweb
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39), [MaxMessageSize](messagewebsocketcontrol_maxmessagesize.md), [MessageType](messagewebsocketcontrol_messagetype.md), [MessageWebSocketControl](messagewebsocketcontrol.md), [OutboundBufferSizeInBytes](messagewebsocketcontrol_outboundbuffersizeinbytes.md), [ProxyCredential](messagewebsocketcontrol_proxycredential.md), [SupportedProtocols](messagewebsocketcontrol_supportedprotocols.md)
+[How to use advanced WebSocket controls](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)), [MaxMessageSize](messagewebsocketcontrol_maxmessagesize.md), [MessageType](messagewebsocketcontrol_messagetype.md), [MessageWebSocketControl](messagewebsocketcontrol.md), [OutboundBufferSizeInBytes](messagewebsocketcontrol_outboundbuffersizeinbytes.md), [ProxyCredential](messagewebsocketcontrol_proxycredential.md), [SupportedProtocols](messagewebsocketcontrol_supportedprotocols.md)

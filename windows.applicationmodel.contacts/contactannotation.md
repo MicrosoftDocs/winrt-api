@@ -14,9 +14,15 @@ Provides a way to tag existing user contacts with additional information, specif
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ContactListId |
+
 ## -examples
 
 ## -see-also
-[Contact Card integration sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703783)
+[Contact Card integration sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703783)
 ## -capabilities
 contactsSystem

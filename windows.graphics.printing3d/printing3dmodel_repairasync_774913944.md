@@ -17,9 +17,9 @@ Executes the 3D model repair algorithm on the model.
 Results of the operation.
 
 ## -remarks
-To learn more about the 3D model repair algorithm and test it out quickly, go to the [3D Model Repair service](http://aka.ms/modelrepair).
+To learn more about the 3D model repair algorithm and test it out quickly, go to the [3D Model Repair service](https://aka.ms/modelrepair).
 
 ## -examples
 
 ## -see-also
-[3D Model Repair service](http://aka.ms/modelrepair)
+[3D Model Repair service](https://aka.ms/modelrepair)

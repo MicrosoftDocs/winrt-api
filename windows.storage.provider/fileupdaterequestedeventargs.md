@@ -14,10 +14,10 @@ public class FileUpdateRequestedEventArgs : Windows.Storage.Provider.IFileUpdate
 Provides information about a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event.
 
 ## -remarks
-If your app participates in the Cached File Updater contract, a [FileUpdateRequestedEventArgs](fileupdaterequestedeventargs.md) is passed to your app's [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event handler when the event fires. Use the [FileUpdateRequestedEventArgs.Request](fileupdaterequestedeventargs_request.md) property to get details about the requested update.
+If your app participates in the Cached File Updater contract, a FileUpdateRequestedEventArgs is passed to your app's [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event handler when the event fires. Use the [FileUpdateRequestedEventArgs.Request](fileupdaterequestedeventargs_request.md) property to get details about the requested update.
 
 ## -examples
-The [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event.
+The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event.
 
 ```csharp
 
@@ -72,6 +72,6 @@ function onFileUpdateRequest(e) {
 cachedFileUpdaterUI.addEventListener("fileupdaterequested", onFileUpdateRequest);
 ```
 
-Both `args` and `e` (in C# and JS respectively) contain a [FileUpdateRequestedEventArgs](fileupdaterequestedeventargs.md) object.
+Both `args` and `e` (in C# and JS respectively) contain a FileUpdateRequestedEventArgs object.
 
 ## -see-also

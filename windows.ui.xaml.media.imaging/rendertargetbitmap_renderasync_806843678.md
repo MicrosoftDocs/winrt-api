@@ -44,19 +44,21 @@ If either *scaledWidth* or *scaledHeight* but not both is specified, the value y
 
 You can call this method and leave the *scaledWidth* and *scaledHeight* values both as 0. In this case the [UIElement](../windows.ui.xaml/uielement.md) tree will be rendered at its native size. This is the same behavior as the [RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md) overload.
 
-The maximum rendered size of a XAML visual tree is restricted by the maximum dimensions of a Microsoft DirectX texture; for more info see [Resource Limits ()](http://msdn.microsoft.com/library/80ae49f2-4a6d-4cfc-95d6-510685ab9736). This resource limit can vary depending on the hardware where the app runs. Very large content that exceeds this limit might be scaled to fit. If scaling limits are applied in this way, the rendered size after scaling can be queried using the [PixelWidth](rendertargetbitmap_pixelwidth.md) and [PixelHeight](rendertargetbitmap_pixelheight.md) properties. For example, a 10000 by 10000 pixel XAML visual tree might be scaled to 4096 by 4096 pixels, an example of a particular resource limit on 2D textures being applied.
+The maximum rendered size of a XAML visual tree is restricted by the maximum dimensions of a Microsoft DirectX texture; for more info see [Resource Limits ()](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-limits). This resource limit can vary depending on the hardware where the app runs. Very large content that exceeds this limit might be scaled to fit. If scaling limits are applied in this way, the rendered size after scaling can be queried using the [PixelWidth](rendertargetbitmap_pixelwidth.md) and [PixelHeight](rendertargetbitmap_pixelheight.md) properties. For example, a 10000 by 10000 pixel XAML visual tree might be scaled to 4096 by 4096 pixels, an example of a particular resource limit on 2D textures being applied.
 
 ### XAML visuals and **RenderTargetBitmap** capture capabilities
 
 There are a few scenarios for XAML-composed visual content that you can't capture to a [RenderTargetBitmap](rendertargetbitmap.md):
 + Video content in a [MediaElement](../windows.ui.xaml.controls/mediaelement.md) or [CaptureElement](../windows.ui.xaml.controls/captureelement.md) can't be captured using [RenderTargetBitmap](rendertargetbitmap.md). That includes capturing frames from within video content.
 + Custom Microsoft DirectX content (your own swap chain) inside a [SwapChainBackgroundPanel](../windows.ui.xaml.controls/swapchainbackgroundpanel.md) or [SwapChainPanel](../windows.ui.xaml.controls/swapchainpanel.md) can't be captured using [RenderTargetBitmap](rendertargetbitmap.md).
-+ Content that's in the XAML visual tree but offscreen won't be captured. Content that's in the tree but with its [Visibility](../windows.ui.xaml/uielement_visibility.md) set to **Collapsed** won't be captured.
++ Content that's in the tree but with its [Visibility](../windows.ui.xaml/uielement_visibility.md) set to **Collapsed** won't be captured.
 + Content that's not directly connected to the XAML visual tree and the content of the main window won't be captured. This includes [Popup](../windows.ui.xaml.controls.primitives/popup.md) content, which is considered to be like a sub-window.
++ For Windows Phone 8.x app: the contents of a [WebView](../windows.ui.xaml.controls/webview.md) control can't be rendered into a [RenderTargetBitmap](rendertargetbitmap.md).
 + Content that can't be captured will appear as blank in the captured image, but other content in the same visual tree can still be captured and will render (the presence of content that can't be captured won't invalidate the entire capture of that XAML composition).
++ Content that's in the XAML visual tree but offscreen can be captured, so long as it's not [Visibility](../windows.ui.xaml/uielement_visibility.md) = **Collapsed** or in the other restricted cases.
 
 
 ## -examples
 
 ## -see-also
-[RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md), [XAML render to bitmap sample](http://go.microsoft.com/fwlink/p/?LinkID=309153)
+[RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md), [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153)

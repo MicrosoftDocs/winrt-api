@@ -20,4 +20,4 @@ When this method completes, it returns the sequential-access stream (type [IInpu
 ## -examples
 
 ## -see-also
-[Serializing and deserializing data sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620535)
+[Serializing and deserializing data sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620535)

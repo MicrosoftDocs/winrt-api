@@ -22,7 +22,7 @@ Gets or sets a value that indicates how the [Slider](slider.md) conforms the thu
 An enumeration value that specifies whether the [Slider](slider.md) snaps to steps or tick marks. The default is **StepValues**.
 
 ## -remarks
-Set the [SnapsTo](slider_snapsto.md) property to specify whether the [Slider](slider.md) snaps to tick marks or step values. Set the [TickFrequency](slider_tickfrequency.md) or [StepFrequency](slider_stepfrequency.md) property to specify the interval between snap points.
+Set the SnapsTo property to specify whether the [Slider](slider.md) snaps to tick marks or step values. Set the [TickFrequency](slider_tickfrequency.md) or [StepFrequency](slider_stepfrequency.md) property to specify the interval between snap points.
 
 ## -examples
 

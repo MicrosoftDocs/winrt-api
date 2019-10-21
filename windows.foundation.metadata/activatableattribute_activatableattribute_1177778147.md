@@ -10,18 +10,25 @@ public ActivatableAttribute(System.UInt32 version, Windows.Foundation.Metadata.P
 # Windows.Foundation.Metadata.ActivatableAttribute.ActivatableAttribute
 
 ## -description
-Creates and initializes a new instance of the attribute.
+Indicates that the runtime class can be activated with no parameters, starting in a particular version of a particular platform.
 
 ## -parameters
 ### -param version
-The version of the class.
+The minimum version of the platform that can activate the runtime class with no parameters.
 
 ### -param platform
-A value of the enumeration. The default is **Windows**.
+The platform that can activate the runtime class with no parameters.
 
 ## -remarks
+This version of the `ActivatableAttribute` constructor is obsolete.
+
+Activation with no parameters is performed by [the RoActivateInstance function](https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roactivateinstance).
 
 ## -examples
 
 ## -see-also
-[ActivatableAttribute(UInt32)](activatableattribute_activatableattribute_885572907.md), [ActivatableAttribute(Type, UInt32)](activatableattribute_activatableattribute_810136521.md), [ActivatableAttribute(Type, UInt32, Platform)](activatableattribute_activatableattribute_708913573.md)
+[ActivatableAttribute(Type, UInt32)](activatableattribute_activatableattribute_810136521.md),
+[ActivatableAttribute(Type, UInt32, Platform)](activatableattribute_activatableattribute_708913573.md),
+[ActivatableAttribute(Type, UInt32, String)](activatableattribute_activatableattribute_1447974729.md),
+[ActivatableAttribute(UInt32)](activatableattribute_activatableattribute_885572907.md),
+[ActivatableAttribute(UInt32, String)](activatableattribute_activatableattribute_2016725141.md)

@@ -22,13 +22,15 @@ The back button is not shown and space is not reserved for it in the layout.
 
 ### -field Disabled:2
 
+The back button is shown, but not enabled.
+
 
 ## -remarks
 This enumeration provides values for the [SystemNavigationManager.AppViewBackButtonVisibility](systemnavigationmanager_appviewbackbuttonvisibility.md) property.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | Disabled |
 

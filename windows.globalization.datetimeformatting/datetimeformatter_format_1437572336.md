@@ -10,13 +10,17 @@ public string Format(Windows.Foundation.DateTime value)
 # Windows.Globalization.DateTimeFormatting.DateTimeFormatter.Format
 
 ## -description
+
 Returns a string representation of the provided date and time.
 
 ## -parameters
+
 ### -param value
-The date and time to be formatted.
+
+The [DateTime](../windows.foundation/datetime.md) to be formatted.
 
 ## -returns
+
 A string that represents the date and time.
 
 ## -remarks
@@ -27,4 +31,5 @@ A string that represents the date and time.
 ## -examples
 
 ## -see-also
-[Format(DateTime, String)](datetimeformatter_format_424907088.md)
+
+[Date and time formatting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624044)

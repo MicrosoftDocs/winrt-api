@@ -37,9 +37,9 @@ An [ItemsPanelTemplate](itemspaneltemplate.md) object that creates the panel use
 An [ItemsPanelTemplate](itemspaneltemplate.md) object element should contain exactly one [FrameworkElement](../windows.ui.xaml/frameworkelement.md)-derived class that serves as the root element for items. In most cases this is a [Panel](panel.md)-derived class. The expanded template serves as the parent for the realized items and there generally is more than one item. Therefore the XAML content property of the intended root element of an [ItemsPanelTemplate](itemspaneltemplate.md) should support a collection, as [Panel.Children](panel_children.md) does.
 
 > [!IMPORTANT]
-> The root element of the template declared for the [ItemsPanelTemplate](itemspaneltemplate.md) in the [GroupStyle.Panel](groupstyle_panel.md) property cannot be a virtualizing panel. Virtualizing panels are defined as any type that derives from [VirtualizingPanel](virtualizingpanel.md), for example the [VirtualizingStackPanel](virtualizingstackpanel.md) class.
+> The root element of the template declared for the [ItemsPanelTemplate](itemspaneltemplate.md) in the GroupStyle.Panel property cannot be a virtualizing panel. Virtualizing panels are defined as any type that derives from [VirtualizingPanel](virtualizingpanel.md), for example the [VirtualizingStackPanel](virtualizingstackpanel.md) class.
 
 ## -examples
 
 ## -see-also
-[How to group items in a list or grid](http://msdn.microsoft.com/library/b9ed59b9-651c-40c7-a39c-c4db432dc132)
+[How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10))

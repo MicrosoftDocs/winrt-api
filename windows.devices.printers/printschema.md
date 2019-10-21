@@ -14,7 +14,7 @@ public class PrintSchema : Windows.Devices.Printers.IPrintSchema
 Provides APIs to access a 3D printer's capabilities and print tickets.
 
 ## -remarks
-For more information about the XML documents returned by the methods of this class, see the [Print Schema Specification](https://msdn.microsoft.com/library/windows/hardware/gg463385).
+For more information about the XML documents returned by the methods of this class, see the [Print Schema Specification](/previous-versions/gg463385(v=msdn.10)).
 
 ## -examples
 

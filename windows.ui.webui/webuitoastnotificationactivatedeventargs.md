@@ -14,6 +14,11 @@ Provides information about an event that occurs when the app is activated becaus
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
 
 ## -examples
 

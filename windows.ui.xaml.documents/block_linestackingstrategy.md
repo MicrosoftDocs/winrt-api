@@ -24,7 +24,7 @@ Gets or sets a value that indicates how a line box is determined for each line o
 A value that indicates how a line box is determined for each line of text in the [Block](block.md). The default is **MaxHeight**.
 
 ## -remarks
-[Block](block.md) is a base class for [Paragraph](paragraph.md). [Paragraph](paragraph.md) is the only element that you can set a [LineStackingStrategy](block_linestackingstrategy.md) value on in Windows Runtime XAML, unless you create a custom class based on [Block](block.md).
+[Block](block.md) is a base class for [Paragraph](paragraph.md). [Paragraph](paragraph.md) is the only element that you can set a LineStackingStrategy value on in Windows Runtime XAML, unless you create a custom class based on [Block](block.md).
 
 **BlockLineHeight** and **MaxHeight** are the only two constant names that exist in the [LineStackingStrategy](../windows.ui.xaml/linestackingstrategy.md) enumeration, so the XAML syntax shows those two choices.
 

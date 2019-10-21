@@ -13,9 +13,9 @@ public class DeviceInformationUpdate : Windows.Devices.Enumeration.IDeviceInform
 Contains updated properties for a [DeviceInformation](deviceinformation.md) object.
 
 ## -remarks
-The [Updated](devicewatcher_updated.md) event receives a [DeviceInformationUpdate](deviceinformationupdate.md), as shown in the example.
+The [Updated](devicewatcher_updated.md) event receives a DeviceInformationUpdate, as shown in the example.
 
-You can also instantiate a [DeviceInformationUpdate](deviceinformationupdate.md) object to pass to [Update](deviceinformation_update_1167410501.md).
+You can also instantiate a DeviceInformationUpdate object to pass to [Update](deviceinformation_update_1167410501.md).
 
 ## -examples
 This example incrementally enumerates devices, adding them to a list each time a device is found, and also watching for updates. Once enumeration is complete, the app prints a list of devices. The app also prints a message if devices are added, updated, or removed after the initial enumeration completes.

@@ -11,7 +11,7 @@ public enum ColorSpectrumComponents : int
 
 ## -description
 
-Defines constants that specify how the Hue-Saturation-Value (HSV) color components are mapped onto the [ColorSpectrum](colorspectrum.md).
+Defines constants that specify how the Hue-Saturation-Value (HSV) color components are mapped onto the [ColorSpectrum](../windows.ui.xaml.controls.primitives/colorspectrum.md).
 
 ## -enum-fields
 
@@ -45,8 +45,7 @@ The order of the two components in each value indicates the X/Y axis when the sp
 
 ## -see-also
 
-[ColorPicker.ColorSpectrumComponents](colorpicker_colorspectrumcomponents.md)
-[ColorSpectrum.Components](colorspectrum_components.md)
+[ColorPicker.ColorSpectrumComponents](/uwp/api/windows.ui.xaml.controls.colorpicker.colorspectrumcomponents), [ColorSpectrum.Components](/uwp/api/windows.ui.xaml.controls.primitives.colorspectrum.components)
 
 ## -examples
 

@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty EastAsianLanguageProperty { get; }
 # Windows.UI.Xaml.Documents.Typography.EastAsianLanguageProperty
 
 ## -description
-Identifies the [EastAsianLanguage](typography_eastasianlanguage.md) attached property.
+Identifies the [EastAsianLanguage](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -property-value
-The identifier for the [EastAsianLanguage](typography_eastasianlanguage.md) attached property.
+The identifier for the [EastAsianLanguage](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -remarks
 

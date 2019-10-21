@@ -11,7 +11,7 @@ public class BluetoothLEAdvertisementWatcherStoppedEventArgs : Windows.Devices.B
 # Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementWatcherStoppedEventArgs
 
 ## -description
-Provides data for a [Stopped](bluetoothleadvertisementwatcher_stopped.md) event on a [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md). A [BluetoothLEAdvertisementWatcherStoppedEventArgs](bluetoothleadvertisementwatcherstoppedeventargs.md) instance is created when the [Stopped](bluetoothleadvertisementwatcher_stopped.md) event occurs on a [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md) object.
+Provides data for a [Stopped](bluetoothleadvertisementwatcher_stopped.md) event on a [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md). A BluetoothLEAdvertisementWatcherStoppedEventArgs instance is created when the [Stopped](bluetoothleadvertisementwatcher_stopped.md) event occurs on a [BluetoothLEAdvertisementWatcher](bluetoothleadvertisementwatcher.md) object.
 
 ## -remarks
 

@@ -16,7 +16,7 @@ Gets the collection of HTTP response headers associated with the [HttpResponseMe
 The collection of HTTP response headers.
 
 ## -remarks
-The [Headers](httpresponsemessage_headers.md) property returns an [HttpResponseHeaderCollection](../windows.web.http.headers/httpresponseheadercollection.md) object that can be used to get or set the specific headers on the HTTP response.
+The Headers property returns an [HttpResponseHeaderCollection](../windows.web.http.headers/httpresponseheadercollection.md) object that can be used to get or set the specific headers on the HTTP response.
 
 ## -examples
 

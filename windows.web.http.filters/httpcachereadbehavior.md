@@ -14,7 +14,7 @@ Indicates if read requests by class methods in the [Windows.Web.Http](../windows
 
 ## -enum-fields
 ### -field Default:0
-Always use the cache algorithm specified in [RFC 2616](http://go.microsoft.com/fwlink/p/?LinkID=241642) by the IETF to optimize network bandwidth.
+Always use the cache algorithm specified in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642) by the IETF to optimize network bandwidth.
 
 ### -field MostRecent:1
 Use the local HTTP cache if possible but always ask the server if more recent content is available.
@@ -32,7 +32,7 @@ Do not use cache nor do a conditional request. This ensures that all HTTP reques
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | NoCache |
 

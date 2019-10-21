@@ -38,33 +38,33 @@ Represents a 3 × 3 affine transformation matrix used for transformations in two
 ## -struct-fields
 
 ### -field M11
-The value of the first row and first column of this [Matrix](matrix.md) structure.
+The value of the first row and first column of this Matrix structure.
     
 
 ### -field M12
-The value of the first row and second column of this [Matrix](matrix.md) structure.
+The value of the first row and second column of this Matrix structure.
     
 
 ### -field M21
-The value of the second row and first column of this [Matrix](matrix.md) structure.
+The value of the second row and first column of this Matrix structure.
     
 
 ### -field M22
-The value of the second row and second column of this [Matrix](matrix.md) structure.
+The value of the second row and second column of this Matrix structure.
     
 
 ### -field OffsetX
-Gets or sets the value of the third row and first column of this [Matrix](matrix.md) structure.
+Gets or sets the value of the third row and first column of this Matrix structure.
     
 
 ### -field OffsetY
-Gets or sets the value of the third row and second column of this [Matrix](matrix.md) structure.
+Gets or sets the value of the third row and second column of this Matrix structure.
     
 
 ## -remarks
 A 3×3 matrix is used for transformations in a two-dimensional x-y plane. Affine transformation matrices can be multiplied to form any number of linear transformations, such as rotation and skew (shear), followed by translation. An affine transformation matrix has its final column equal to (0, 0, 1), so only the members in the first two columns need to be specified. Note that vectors are expressed as row-vectors, not column vectors.
 
-A [Matrix](matrix.md) is stored using row-major order and has the following structure:
+A Matrix is stored using row-major order and has the following structure:
 
 <table>
    <tr><td>M11</td><td>M12</td><td>0</td></tr>
@@ -76,28 +76,28 @@ The members in the last row, **OffsetX** and **OffsetY**, represent translation 
 
 In methods and properties, the transformation matrix is usually specified as a vector with only six members, as follows: (**M11**, **M12**, **M21**, **M22**, **OffsetX**, **OffsetY**)
 
-Although you can use a [Matrix](matrix.md) structure directly to translate individual points, or with a [MatrixTransform](matrixtransform.md) to transform objects, the Windows Runtime also provides a set of classes that can transform objects without working directly with matrices:
+Although you can use a Matrix structure directly to translate individual points, or with a [MatrixTransform](matrixtransform.md) to transform objects, the Windows Runtime also provides a set of classes that can transform objects without working directly with matrices:
 + [RotateTransform](rotatetransform.md)
 + [ScaleTransform](scaletransform.md)
 + [SkewTransform](skewtransform.md)
 + [TranslateTransform](translatetransform.md)
 
 
-Properties of a [Matrix](matrix.md) can be animated (as one or more [DoubleAnimation](../windows.ui.xaml.media.animation/doubleanimation.md) animations or [DoubleAnimationUsingKeyFrames](../windows.ui.xaml.media.animation/doubleanimationusingkeyframes.md)).
+Properties of a Matrix can be animated (as one or more [DoubleAnimation](../windows.ui.xaml.media.animation/doubleanimation.md) animations or [DoubleAnimationUsingKeyFrames](../windows.ui.xaml.media.animation/doubleanimationusingkeyframes.md)).
 
-[Matrix](matrix.md) is the property value for the [MatrixTransform.Matrix](matrixtransform_matrix.md) property. Related types can be used for transformation matrices in three-dimensional space and then used for a projection. See [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md) and [Matrix3DProjection](matrix3dprojection.md).
+Matrix is the property value for the [MatrixTransform.Matrix](matrixtransform_matrix.md) property. Related types can be used for transformation matrices in three-dimensional space and then used for a projection. See [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md) and [Matrix3DProjection](matrix3dprojection.md).
 
 ### Language projections and members of Matrix
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or in Visual C++ component extensions (C++/CX) then [Matrix](matrix.md) has non-data members available, and its data members are exposed as read-write properties, not fields.
+If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or in Visual C++ component extensions (C++/CX) then Matrix has non-data members available, and its data members are exposed as read-write properties, not fields.
 
-If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member fields exist as members of [Matrix](matrix.md), and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that exist on the [MatrixHelper](matrixhelper.md) class.
+If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member fields exist as members of Matrix, and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that exist on the [MatrixHelper](matrixhelper.md) class.
 
 ## -examples
-This example XAML defines a [Matrix](matrix.md) that provides data for a [MatrixTransform](matrixtransform.md) applied to a rectangular shape. In this case, the matrix combines an offset ([OffsetX](matrix_offsetx.md) and [OffsetY](matrix_offsety.md)) and a skew ([M12](matrix_m12.md)). Note that this same effect could have been produced by combining a [TranslateTransform](translatetransform.md) and a [SkewTransform](skewtransform.md). Whether to use a single [Matrix](matrix.md) or combinations of discrete transforms is a matter of coding style; the results are identical.
+This example XAML defines a Matrix that provides data for a [MatrixTransform](matrixtransform.md) applied to a rectangular shape. In this case, the matrix combines an offset ([OffsetX](matrix_offsetx.md) and [OffsetY](matrix_offsety.md)) and a skew ([M12](matrix_m12.md)). Note that this same effect could have been produced by combining a [TranslateTransform](translatetransform.md) and a [SkewTransform](skewtransform.md). Whether to use a single Matrix or combinations of discrete transforms is a matter of coding style; the results are identical.
 
 
 
-[!code-xml[matrixtransform](../windows.ui.xaml/code/transforms/csharp/Matrix_Transform.xaml#Snippetmatrixtransform)]
+[!code-xaml[matrixtransform](../windows.ui.xaml/code/transforms/csharp/Matrix_Transform.xaml#Snippetmatrixtransform)]
 
 ## -see-also

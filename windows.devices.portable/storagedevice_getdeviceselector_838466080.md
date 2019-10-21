@@ -20,7 +20,7 @@ An AQS string for identifying storage devices.
 ## -examples
 
 ## -see-also
-[Removable Storage Sample](http://go.microsoft.com/fwlink/p/?linkid=242035)
+[Removable Storage Sample](https://go.microsoft.com/fwlink/p/?linkid=242035)
 
 ## -capabilities
 removableStorage

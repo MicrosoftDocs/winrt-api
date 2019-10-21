@@ -10,7 +10,7 @@ public Calendar()
 # Windows.Globalization.Calendar.Calendar
 
 ## -description
-Creates a [Calendar](calendar.md) object and initializes it to the current date and time.
+Creates a [Calendar](calendar.md) object and initializes it to the current [DateTime](../windows.foundation/datetime.md).
 
 ## -remarks
 

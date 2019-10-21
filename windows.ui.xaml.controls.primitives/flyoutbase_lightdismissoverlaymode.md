@@ -18,7 +18,7 @@ A value of the enumeration that specifies whether the area outside of a light-di
 ## -remarks
 Transient UI, such as a [Flyout](../windows.ui.xaml.controls/flyout.md) or [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md), closes when you click or tap outside of it. This is called light-dismiss. "Overlay" refers to the area outside of a light-dismiss UI.
 
-By default, the "overlay" is darkened on the Xbox, and not darkened on other devices families. You can set [LightDismissOverlayMode](flyoutbase_lightdismissoverlaymode.md) to **On** to make your app darken the "overlay" area on all device families, or set it to **Off** to not darken the "overlay" area on all device families.
+By default, the "overlay" is darkened on the Xbox, and not darkened on other devices families. You can set LightDismissOverlayMode to **On** to make your app darken the "overlay" area on all device families, or set it to **Off** to not darken the "overlay" area on all device families.
 
 ## -examples
 

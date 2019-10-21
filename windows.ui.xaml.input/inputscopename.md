@@ -29,4 +29,4 @@ Identifies a particular named input scope that is relevant to an overall [InputS
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [TextBox.InputScope](../windows.ui.xaml.controls/textbox_inputscope.md), [RichEditBox.InputScope](../windows.ui.xaml.controls/richeditbox_inputscope.md), [InputScope](inputscope.md), [InputScopeNameValue](inputscopenamevalue.md), [Use input scope to change the touch keyboard](http://msdn.microsoft.com/library/6e5f55d7-24d6-47cc-b457-b6231ede2a71)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [TextBox.InputScope](../windows.ui.xaml.controls/textbox_inputscope.md), [RichEditBox.InputScope](../windows.ui.xaml.controls/richeditbox_inputscope.md), [InputScope](inputscope.md), [InputScopeNameValue](inputscopenamevalue.md), [Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

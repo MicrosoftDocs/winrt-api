@@ -21,7 +21,7 @@ The following example demonstrates how a UWP app built with C# and XAML register
 
 [!code-csharp[EnableReadingChangedCS](../windows.devices.sensors/code/Accelerometer/cs/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
 
-The following example shows the [ReadingChanged](accelerometer_readingchanged.md) event handler.
+The following example shows the ReadingChanged event handler.
 
 
 
@@ -33,7 +33,7 @@ The following example demonstrates how a UWP app built with JavaScript registers
 
 [!code-js[EnableDataChangedJS](../windows.devices.sensors/code/Accelerometer/javascript/scenario1.js#SnippetEnableDataChangedJS)]
 
-The following example shows the [ReadingChanged](accelerometer_readingchanged.md) event handler.
+The following example shows the ReadingChanged event handler.
 
 
 
@@ -42,4 +42,4 @@ The following example shows the [ReadingChanged](accelerometer_readingchanged.md
 ## -examples
 
 ## -see-also
-[Accelerometer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620477)
+[Accelerometer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620477)

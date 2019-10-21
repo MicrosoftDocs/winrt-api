@@ -18,10 +18,10 @@ This object is passed to the event handler for [fileremoved](fileopenpickerui_fi
 
 If your app participates in the File Open Picker contract and a [fileremoved](fileopenpickerui_fileremoved.md) event fires, you should respond by updating its file picker app page to reflect the change in the list of chosen files.
 
-Register for this event by adding an event listener to the [fileOpenPickerUI](fileopenpickerui.md) and assigning a handler function for the event. You can access information about the event from the [fileRemovedEventArgs](fileremovedeventargs.md) object that is passed to your event handler.
+Register for this event by adding an event listener to the [fileOpenPickerUI](fileopenpickerui.md) and assigning a handler function for the event. You can access information about the event from the fileRemovedEventArgs object that is passed to your event handler.
 
 ## -examples
-The [File picker sample](http://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [fileremoved](fileopenpickerui_fileremoved.md) event.
+The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [fileremoved](fileopenpickerui_fileremoved.md) event.
 
 ```csharp
 
@@ -64,7 +64,7 @@ function onFileRemovedFromBasket(e) {
 fileOpenPickerUI.addEventListener("fileremoved", onFileRemovedFromBasket, false);
 ```
 
-Both `args` and `e` (in C# and JS respectively) contain a [FileRemovedEventArgs](fileremovedeventargs.md) object.
+Both `args` and `e` (in C# and JS respectively) contain a FileRemovedEventArgs object.
 
 For JavaScript, `SdkSample.fileRemoved` is an app variable that contains a string that used to used to notify the user.
 

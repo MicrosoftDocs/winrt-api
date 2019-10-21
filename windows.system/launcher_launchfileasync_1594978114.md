@@ -36,7 +36,7 @@ To display a warning that the file is potentially unsafe, set the [LauncherOptio
 The file is passed to the associated app. If the associated app is a desktop app, the file is passed using shell execution mechanisms.
 
 ## -examples
-This example uses [LaunchFileAsync(IStorageFile)](launcher_launchfileasync_1594978114.md) to launch a file contained in the app package.
+This example uses LaunchFileAsync(IStorageFile) to launch a file contained in the app package.
 
 ```csharp
 async void DefaultLaunch()
@@ -170,4 +170,4 @@ End Sub
 ```
 
 ## -see-also
-[Association launching sample](http://go.microsoft.com/fwlink/p/?linkid=231484), [Guidelines for file types and URIs](http://msdn.microsoft.com/library/a6653b8f-763f-4d67-9d12-6af73a673bc5), [How to launch the default app for a file (JavaScript)](http://msdn.microsoft.com/library/876edae5-f1a8-45f9-a1a6-50efb1025f96), [Launch the default app for a file](http://msdn.microsoft.com/library/bb45fcaf-df93-4c99-a8b5-59b799c7bd98), [LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md)
+[Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [How to launch the default app for a file (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452687(v=win.10)), [Launch the default app for a file](https://docs.microsoft.com/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md)

@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Automation.Peers.AutomationLiveSetting GetLiveSetting(Win
 # Windows.UI.Xaml.Automation.AutomationProperties.GetLiveSetting
 
 ## -description
-Gets the value of the [AutomationProperties.LiveSetting](automationproperties_livesetting.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Gets the value of the [AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 ## -parameters
 ### -param element
@@ -24,4 +24,4 @@ The live setting value for the specified element.
 ## -examples
 
 ## -see-also
-[AutomationProperties.LiveSetting](automationproperties_livesetting.md)
+[AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties)

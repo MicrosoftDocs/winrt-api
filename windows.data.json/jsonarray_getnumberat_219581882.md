@@ -10,7 +10,7 @@ public double GetNumberAt(System.UInt32 index)
 # Windows.Data.Json.JsonArray.GetNumberAt
 
 ## -description
-Gets the number (a [Double](https://msdn.microsoft.com/library/system.double.aspx)) at the specified index if the [ValueType](ijsonvalue_valuetype.md) of the value at that index is **Number**.
+Gets the number (a [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)) at the specified index if the [ValueType](ijsonvalue_valuetype.md) of the value at that index is **Number**.
 
 ## -parameters
 ### -param index

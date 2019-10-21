@@ -14,9 +14,9 @@ public event Windows.Foundation.TypedEventHandler ReportUpdated<Windows.Devices.
 Occurs when the charge, capacity, or status of a battery changes.
 
 ## -remarks
-The [ReportUpdated](battery_reportupdated.md) event is triggered by any change in status, charge rate, or power capacity on any of the batteries connected to the device. This typically happens immediately for status changes and periodically for all other changes.
+The ReportUpdated event is triggered by any change in status, charge rate, or power capacity on any of the batteries connected to the device. This typically happens immediately for status changes and periodically for all other changes.
 
 ## -examples
 
 ## -see-also
-[Get battery information](http://msdn.microsoft.com/library/a9fb0f39-8827-420a-922d-dcee6fb9c9d2)
+[Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10))

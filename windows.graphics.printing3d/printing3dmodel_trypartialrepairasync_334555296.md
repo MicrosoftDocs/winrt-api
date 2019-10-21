@@ -17,7 +17,7 @@ Executes the 3D model repair algorithm until complete or an exception is thrown.
 **true** if the asynchronous operation succeeded; otherwise, **false**.
 
 ## -remarks
-To learn more about the 3D model repair algorithm and test it out quickly, go to the [3D Model Repair service](http://aka.ms/modelrepair).
+To learn more about the 3D model repair algorithm and test it out quickly, go to the [3D Model Repair service](https://aka.ms/modelrepair).
 
 ## -examples
 

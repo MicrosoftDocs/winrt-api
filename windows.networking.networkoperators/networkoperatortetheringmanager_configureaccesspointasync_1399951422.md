@@ -27,4 +27,4 @@ The asynchronous action.
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl

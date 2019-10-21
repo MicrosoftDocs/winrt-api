@@ -14,7 +14,7 @@ public void Stop()
 Stops advertising for a peer connection.
 
 ## -remarks
-You can call the [Stop](peerfinder_stop_1201535524.md) method to stop the [PeerFinder](peerfinder.md) when you no longer want to advertise for or accept new triggered (tapped) or browsed connections. [Stop](peerfinder_stop_1201535524.md) does not close an existing connection. However, the [Stop](peerfinder_stop_1201535524.md) method will cancel outstanding calls to the [ConnectAsync](peerfinder_connectasync_380619906.md) method and triggered connection requests. The [Stop](peerfinder_stop_1201535524.md) method does not wait for the cancellation to complete.
+You can call the Stop method to stop the [PeerFinder](peerfinder.md) when you no longer want to advertise for or accept new triggered (tapped) or browsed connections. Stop does not close an existing connection. However, the Stop method will cancel outstanding calls to the [ConnectAsync](peerfinder_connectasync_380619906.md) method and triggered connection requests. The Stop method does not wait for the cancellation to complete.
 
 ## -examples
 
@@ -26,7 +26,7 @@ You can call the [Stop](peerfinder_stop_1201535524.md) method to stop the [PeerF
 [!code-vb[Connect_CS](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/vbnet/BlankPage.xaml.vb#SnippetConnect_CS)]
 
 ## -see-also
-[Start](peerfinder_start_119778276.md), [Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+[Start](peerfinder_start_119778276.md), [Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
 
 ## -capabilities
 proximity

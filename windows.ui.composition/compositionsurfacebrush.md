@@ -28,11 +28,24 @@ CompositionSurfaceBrush also has the following properties that enable custom tra
 
 The order of transformation operations on a CompositionSurfaceBrush is as follows:
 
-1. The content of the [CompositionSurfaceBrush](compositionsurfacebrush.md) is stretched and aligned onto the [SpriteVisual](spritevisual.md) (see [Stretch](compositionsurfacebrush_stretch.md), [HorizontalAlignmentRatio](compositionsurfacebrush_horizontalalignmentratio.md), and [VerticalAlignmentRatio](compositionsurfacebrush_verticalalignmentratio.md) properties).
+1. The content of the CompositionSurfaceBrush is stretched and aligned onto the [SpriteVisual](spritevisual.md) (see [Stretch](compositionsurfacebrush_stretch.md), [HorizontalAlignmentRatio](compositionsurfacebrush_horizontalalignmentratio.md), and [VerticalAlignmentRatio](compositionsurfacebrush_verticalalignmentratio.md) properties).
 
-1. Any other transformation properties set on the [CompositionSurfaceBrush](compositionsurfacebrush.md) are applied.
+1. Any other transformation properties set on the CompositionSurfaceBrush are applied.
 
     Custom transformations applied to a CompositionSurfaceBrush are therefore evaluated in the coordinate space of the SpriteVisual that the brush is painted onto. For example, setting an Offset of Vector2(100, 0) offsets the brush’s stretched and aligned contents by 100 units to the right relative to the left edge of the [SpriteVisual](spritevisual.md) it is painted onto.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | AnchorPoint |
+| 1607 | 14393 | CenterPoint |
+| 1607 | 14393 | Offset |
+| 1607 | 14393 | RotationAngle |
+| 1607 | 14393 | RotationAngleInDegrees |
+| 1607 | 14393 | Scale |
+| 1607 | 14393 | TransformMatrix |
+| 1903 | 18362 | SnapToPixels |
 
 ## -examples
 Draw an image asset onto a SpriteVisual

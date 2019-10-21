@@ -16,7 +16,7 @@ Gets or sets the desired size for thumbnails, which is the largest length of the
 The desired thumbnail size.
 
 ## -remarks
-The actual dimension of the thumbnail is not guaranteed to be the value specified by [DesiredThumbnailSize](lowlagphotocontrol_desiredthumbnailsize.md), but the system will attempt to create thumbnails as close as possible to this value.
+The actual dimension of the thumbnail is not guaranteed to be the value specified by DesiredThumbnailSize, but the system will attempt to create thumbnails as close as possible to this value.
 
 ## -examples
 

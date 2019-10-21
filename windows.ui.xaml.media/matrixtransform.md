@@ -27,11 +27,11 @@ Creates an arbitrary affine matrix transformation that is used to manipulate obj
 ## -remarks
 
 ## -examples
-This example transforms the position and skew of a rectangle using a [MatrixTransform](matrixtransform.md).
+This example transforms the position and skew of a rectangle using a MatrixTransform.
 
 
 
-[!code-xml[matrixtransform](../windows.ui.xaml/code/transforms/csharp/Matrix_Transform.xaml#Snippetmatrixtransform)]
+[!code-xaml[matrixtransform](../windows.ui.xaml/code/transforms/csharp/Matrix_Transform.xaml#Snippetmatrixtransform)]
 
 ## -see-also
 [Transform](transform.md)

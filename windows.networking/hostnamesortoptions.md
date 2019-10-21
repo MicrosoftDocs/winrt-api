@@ -21,7 +21,7 @@ Sort a list of [EndpointPair](endpointpair.md) objects to optimize for long conn
 
 
 ## -remarks
-The [HostNameSortOptions](hostnamesortoptions.md) enumeration affects how a list of [EndpointPair](endpointpair.md) objects are sorted.
+The HostNameSortOptions enumeration affects how a list of [EndpointPair](endpointpair.md) objects are sorted.
 
 Given an array of sorted address pairs, the **None** value returns a sorted list ordering the [EndpointPair](endpointpair.md) entries such that pairs with least tried source and destination addresses are prioritized over pairs whose addresses have been tried before and were unsuccessful. The goal is to minimize the connection establishment delay by trying [EndpointPair](endpointpair.md) entries with unique addresses first. This might result in less efficient address pairs to be preferred over efficient ones when considering network transfer speeds for long running connections, but that is considered less important than minimizing connection delays for short connections.
 

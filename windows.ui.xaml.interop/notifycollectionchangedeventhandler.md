@@ -13,7 +13,7 @@ Represents the method that will handle the [CollectionChanged](inotifycollection
 
 
 > **.NET**
-> This interface appears as [System.Collections.Specialized.NotifyCollectionChangedEventHandler](https://msdn.microsoft.com/library/system.collections.specialized.notifycollectionchangedeventhandler.aspx).
+> This interface appears as [System.Collections.Specialized.NotifyCollectionChangedEventHandler](https://docs.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler?redirectedfrom=MSDN).
 
 ## -parameters
 ### -param sender
@@ -24,9 +24,9 @@ Event data for the event.
 
 
 ## -remarks
-When programming with .NET, this delegate is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventHandler](https://msdn.microsoft.com/library/system.collections.specialized.notifycollectionchangedeventhandler.aspx) delegate.
+When programming with .NET, this delegate is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventHandler](https://docs.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler?redirectedfrom=MSDN) delegate.
 
 ## -examples
 
 ## -see-also
-[XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)

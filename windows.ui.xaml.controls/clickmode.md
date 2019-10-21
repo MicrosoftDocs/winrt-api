@@ -32,7 +32,7 @@ Specifies that the [Click](../windows.ui.xaml.controls.primitives/buttonbase_cli
 ## -remarks
 
 ## -examples
-The following example demonstrates the [ClickMode](clickmode.md) enumeration.
+The following example demonstrates the ClickMode enumeration.
 
 
 + Hover - When the mouse pointer hovers over the first button, the foreground color of the button changes.
@@ -42,7 +42,7 @@ The following example demonstrates the [ClickMode](clickmode.md) enumeration.
 
 
 
-[!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml#Snippet1)]
 
 
 [!code-csharp[11](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml.cs#Snippet11)]

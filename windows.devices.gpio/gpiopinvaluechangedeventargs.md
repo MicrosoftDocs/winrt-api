@@ -13,7 +13,7 @@ public class GpioPinValueChangedEventArgs : Windows.Devices.Gpio.IGpioPinValueCh
 Provides data about the [GpioPin.ValueChanged](gpiopin_valuechanged.md) event that occurs when the value of the general-purpose I/O (GPIO) pin changes, either because of an external stimulus when the pin is configured as an input, or when a value is written to the pin when the pin in configured as an output.
 
 ## -remarks
-[GpioPinValueChangedEventArgs](gpiopinvaluechangedeventargs.md) is passed to the event handler that you implement for the [GpioPin.ValueChanged](gpiopin_valuechanged.md) event.
+GpioPinValueChangedEventArgs is passed to the event handler that you implement for the [GpioPin.ValueChanged](gpiopin_valuechanged.md) event.
 
 ## -examples
 

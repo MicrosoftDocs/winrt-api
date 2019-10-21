@@ -23,7 +23,7 @@ The buffer to be unprotected.
 When the call to this method completes successfully, it returns a [BufferProtectUnprotectResult](bufferprotectunprotectresult.md) object that contains the status of the unprotected buffer.
 
 ## -remarks
-[UnprotectAsync](dataprotectionmanager_unprotectasync_996207260.md) never returns a status of **Unprotected** since it requires that the input resource be protected. (It is not possible to reliably verify that a resource is unprotected.) If your app compares the result to **Unprotected**, it contains a design flaw because it implies that it lost track of whether the buffer is protected.
+UnprotectAsync never returns a status of **Unprotected** since it requires that the input resource be protected. (It is not possible to reliably verify that a resource is unprotected.) If your app compares the result to **Unprotected**, it contains a design flaw because it implies that it lost track of whether the buffer is protected.
 
 ## -examples
 

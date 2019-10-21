@@ -12,13 +12,13 @@ public Windows.Foundation.IReference<Windows.Foundation.Numerics.Vector3> Positi
 ## -description
 Inertia decay rate for position. Range is from 0 to 1.
 
-The [PositionInertiaDecayRate](interactiontracker_positioninertiadecayrate.md) property defines the rate at which [InteractionTracker](interactiontracker.md) will slow to a stop when it has entered Inertia and position is changing. The closer to 1, the faster [InteractionTracker](interactiontracker.md) will slow to a stop and vice versa. Defined as a Vector3, each component represents the inertia decay rate for x, y, z accordingly.
+The PositionInertiaDecayRate property defines the rate at which [InteractionTracker](interactiontracker.md) will slow to a stop when it has entered Inertia and position is changing. The closer to 1, the faster [InteractionTracker](interactiontracker.md) will slow to a stop and vice versa. Defined as a Vector3, each component represents the inertia decay rate for x, y, z accordingly.
 
 ## -property-value
 Inertia decay rate for position. Range is from 0 to 1.
 
 ## -remarks
-Below is a graph of the equation that models the [PositionInertiaDecayRate](interactiontracker_positioninertiadecayrate.md) property against the position from the starting position of [InteractionTracker](interactiontracker.md) after entering inertia. Note that as the value of the property approaches 1, the impact of inertia increases more significantly.
+Below is a graph of the equation that models the PositionInertiaDecayRate property against the position from the starting position of [InteractionTracker](interactiontracker.md) after entering inertia. Note that as the value of the property approaches 1, the impact of inertia increases more significantly.
 
 In the graph, time is on the X axis, and position from the start of the interaction is on the Y. Notice that with a much larger value (closer to 1), the position from start is much smaller and plateaus earlier.
 

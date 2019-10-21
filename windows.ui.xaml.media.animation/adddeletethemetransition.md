@@ -21,7 +21,7 @@ Provides the animated transition behavior for when controls add or delete childr
 ## -remarks
 
 ## -examples
-The following example shows how to use the [AddDeleteThemeTransition](adddeletethemetransition.md) to animate rectangles as they are added and deleted from a panel. Notice how the other child elements of the panel re-flow when one of them is removed.
+The following example shows how to use the AddDeleteThemeTransition to animate rectangles as they are added and deleted from a panel. Notice how the other child elements of the panel re-flow when one of them is removed.
 
 
 <!--  
@@ -36,7 +36,7 @@ The following example shows how to use the [AddDeleteThemeTransition](adddeletet
 
 
 
-[!code-xml[AddDeleteThemeTransition](../windows.ui.xaml.media.animation/code/AddDeleteThemeTransition/csharp/BlankPage.xaml#SnippetAddDeleteThemeTransition)]
+[!code-xaml[AddDeleteThemeTransition](../windows.ui.xaml.media.animation/code/AddDeleteThemeTransition/csharp/BlankPage.xaml#SnippetAddDeleteThemeTransition)]
 
 [!code-csharp[AddDeleteThemeTransition_code](../windows.ui.xaml.media.animation/code/AddDeleteThemeTransition/csharp/BlankPage.xaml.cs#SnippetAddDeleteThemeTransition_code)]
 

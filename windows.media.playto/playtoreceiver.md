@@ -13,9 +13,9 @@ public class PlayToReceiver : Windows.Media.PlayTo.IPlayToReceiver
 Represents a Play To target.
 
 ## -remarks
-You can use the [PlayToReceiver](playtoreceiver.md) class to create a custom software Play To receiver that is a digital media renderer for computers on your network. You can include a [PlayToReceiver](playtoreceiver.md) object in your app to handle communication with Play To client computers, and then play or display content streamed from those computers using your own media elements or controls.
+You can use the PlayToReceiver class to create a custom software Play To receiver that is a digital media renderer for computers on your network. You can include a PlayToReceiver object in your app to handle communication with Play To client computers, and then play or display content streamed from those computers using your own media elements or controls.
 
-The members of the [PlayToReceiver](playtoreceiver.md) class consist of the following:
+The members of the PlayToReceiver class consist of the following:
 + The [FriendlyName](playtoreceiver_friendlyname.md) property that identifies the name of the Play To receiver when it is advertised on the network.
 + Properties that identify the type of media that your Play To receiver supports: [SupportsAudio](playtoreceiver_supportsaudio.md), [SupportsVideo](playtoreceiver_supportsvideo.md), [SupportsImage](playtoreceiver_supportsimage.md).
 + The [StartAsync](playtoreceiver_startasync_1931900819.md) method that starts the Play To receiver and advertises it on the network as a digital media renderer. The [StopAsync](playtoreceiver_stopasync_1648475005.md) method that stops the Play To receiver and stops advertising it on the network.
@@ -25,7 +25,7 @@ The members of the [PlayToReceiver](playtoreceiver.md) class consist of the foll
 
 In Play To, video starts from the current position. If you want to start the video from the beginning, simply seek to the beginning of the video as soon as the Play To connection is established.
 
-For an example of creating a software Play To receiver, see [Media casting](http://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e) or [Media casting](http://msdn.microsoft.com/library/40b97e0c-eb1b-40c2-a022-1ab95dfb085e).
+For an example of creating a software Play To receiver, see [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting) or [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting).
 
 
 
@@ -38,12 +38,12 @@ For an example of creating a software Play To receiver, see [Media casting](http
 PlayTo apps will not be suspended as long as video or music is playing on the Play To receiver or images are continuously sent to the Play To receiver. Apps have approximately 10 seconds to send a new image after the current one is displayed and approximately 10 seconds to send the next audio or video after the current one has ended.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 
 ## -see-also
-[Play To sample](http://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](http://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](http://go.microsoft.com/fwlink/p/?linkid=245168)
+[Play To sample](https://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)
 
 ## -capabilities
 privateNetworkClientServer

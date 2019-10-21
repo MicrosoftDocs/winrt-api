@@ -24,4 +24,4 @@ The content properties to update.
 ## -examples
 
 ## -see-also
-[Content indexer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620524)
+[Content indexer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620524)

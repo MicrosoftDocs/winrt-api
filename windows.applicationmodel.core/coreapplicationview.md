@@ -14,7 +14,7 @@ Represents an app window and its thread.
 
 ## -remarks
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 
 The following code snippet demonstrates the activation of the CoreApplicationView and the associated CoreWindow in a view provider implementation.
 
@@ -62,7 +62,14 @@ void OnActivated(
 }
 ```
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Properties |
+| 1709 | 16299 | DispatcherQueue |
+
 ## -examples
 
 ## -see-also
-[DirectX swap chain implementation sample](http://go.microsoft.com/fwlink/p/?linkid=258452), [CoreApplication.CreateNewView](/uwp/api/windows.applicationmodel.core.coreapplication.createnewview), [CoreApplication.GetCurrentView](coreapplication_getcurrentview_176591067.md)
+[DirectX swap chain implementation sample](https://go.microsoft.com/fwlink/p/?linkid=258452), [CoreApplication.CreateNewView](/uwp/api/windows.applicationmodel.core.coreapplication.createnewview), [CoreApplication.GetCurrentView](coreapplication_getcurrentview_176591067.md)

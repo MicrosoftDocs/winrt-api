@@ -13,9 +13,15 @@ public class ComboBoxTemplateSettings : Windows.UI.Xaml.DependencyObject, Window
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for a [ComboBox](../windows.ui.xaml.controls/combobox.md) control. Not intended for general use.
 
 ## -remarks
-Get instances of [ComboBoxTemplateSettings](comboboxtemplatesettings.md) by querying the value of [TemplateSettings](../windows.ui.xaml.controls/combobox_templatesettings.md).
+Get instances of ComboBoxTemplateSettings by querying the value of [TemplateSettings](../windows.ui.xaml.controls/combobox_templatesettings.md).
 
-The values from [ComboBoxTemplateSettings](comboboxtemplatesettings.md) are typically used as either the **To** or **From** values of theme animations or transitions.
+The values from ComboBoxTemplateSettings are typically used as either the **To** or **From** values of theme animations or transitions.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | DropDownContentMinWidth |
 
 ## -examples
 

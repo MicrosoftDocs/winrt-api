@@ -15,6 +15,12 @@ This class contains properties used to specify an Access Point Name (APN) for a 
 ## -remarks
 A **CellularApnContext** object is passed with a [ConnectivityManager.AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md) call to establish a connection to a specific access point.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | ProfileName |
+
 ## -examples
 
 ## -see-also

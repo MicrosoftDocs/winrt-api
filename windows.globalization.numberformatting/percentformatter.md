@@ -16,7 +16,7 @@ Formats and parses percentages.
 ## -remarks
 
 > [!NOTE]
-> If your app passes language tags used in this class to any [National Language Support](http://msdn.microsoft.com/library/7a548074-0782-45e1-8051-80c3b9d81885) functions, it must first convert the tags by calling [ResolveLocaleName](http://msdn.microsoft.com/library/99264b22-3fb5-47e2-b0b9-42a6768e67c1).
+> If your app passes language tags used in this class to any [National Language Support](https://docs.microsoft.com/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
 
 ## -examples
 
@@ -122,4 +122,4 @@ sb.AppendLine("Percent formatted (always with a decimal point): " + defaultPerce
 
 ## -see-also
 
-[Number formatting and parsing sample](http://go.microsoft.com/fwlink/p/?linkid=231620), [INumberFormatterOptions](inumberformatteroptions.md), [INumberFormatter](inumberformatter.md), [INumberFormatter2](inumberformatter2.md), [INumberParser](inumberparser.md), [ISignificantDigitsOption](isignificantdigitsoption.md), [INumberRounderOption](inumberrounderoption.md), [Number formatting and parsing sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620578)
+[Number formatting and parsing sample](https://go.microsoft.com/fwlink/p/?linkid=231620), [INumberFormatterOptions](inumberformatteroptions.md), [INumberFormatter](inumberformatter.md), [INumberFormatter2](inumberformatter2.md), [INumberParser](inumberparser.md), [ISignificantDigitsOption](isignificantdigitsoption.md), [INumberRounderOption](inumberrounderoption.md), [Number formatting and parsing sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620578)

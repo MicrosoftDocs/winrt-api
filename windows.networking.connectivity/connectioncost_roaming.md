@@ -16,7 +16,7 @@ Gets a value that indicates whether the connection is connected to a network out
 TRUE if the connection on a roaming network; otherwise, FALSE.
 
 ## -remarks
-> On Windows Phone 8.1, the [Roaming](connectioncost_roaming.md) property indicates roaming for international roaming only.
+> On Windows Phone 8.1, the Roaming property indicates roaming for international roaming only.
 
 ## -examples
 

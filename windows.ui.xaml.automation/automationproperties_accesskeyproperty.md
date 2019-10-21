@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty AccessKeyProperty { get; }
 # Windows.UI.Xaml.Automation.AutomationProperties.AccessKeyProperty
 
 ## -description
-Identifies the [AutomationProperties.AccessKey](automationproperties_accesskey.md) attached property, which is a string containing the access key character for the automation element.
+Identifies the [AutomationProperties.AccessKey](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property, which is a string containing the access key character for the automation element.
 
 ## -property-value
-The identifier for the [AutomationProperties.AccessKey](automationproperties_accesskey.md) attached property.
+The identifier for the [AutomationProperties.AccessKey](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property.
 
 ## -remarks
 An access key (sometimes called a mnemonic) is a character in the text of a menu, menu item, or label of a control such as a button, that activates the associated menu function. For example, to open the File menu, for which the access key is typically F, the user would press ALT+F.

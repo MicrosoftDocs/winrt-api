@@ -11,7 +11,7 @@ public string Group { get; }
 
 ## -description
 > [!NOTE]
-> [Group](uploadoperation_group.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [TransferGroup](uploadoperation_transfergroup.md).
+> Group may be altered or unavailable for releases after Windows 8.1. Instead, use [TransferGroup](uploadoperation_transfergroup.md).
 
 Gets a string value indicating the group the upload belongs to.
 

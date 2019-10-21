@@ -13,7 +13,7 @@ public class SyndicationFeed : Windows.Web.Syndication.ISyndicationFeed, Windows
 Contains information about a feed. This class encapsulates the information in the **/rss/channel** element in *RSS 2.0* or the **atom:feed** element in *Atom 1.0*.
 
 ## -remarks
-The following table maps [SyndicationFeed](syndicationfeed.md) properties to RSS and Atom feed elements.
+The following table maps SyndicationFeed properties to RSS and Atom feed elements.
 
 <table>
    <tr><th>SyndicationFeed</th><th>RSS Channel</th><th>Atom Feed</th></tr>
@@ -40,4 +40,4 @@ The following table maps [SyndicationFeed](syndicationfeed.md) properties to RSS
 ## -examples
 
 ## -see-also
-[Quickstart: Accessing a web feed](http://msdn.microsoft.com/library/bde79bfb-f566-4dbe-b861-f849ab8bc574), [Syndication sample](http://go.microsoft.com/fwlink/p/?linkid=245062), [AtomPub sample](http://go.microsoft.com/fwlink/p/?linkid=245061)
+[Quickstart: Accessing a web feed](https://docs.microsoft.com/previous-versions/windows/apps/hh700374(v=win.10)), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061)

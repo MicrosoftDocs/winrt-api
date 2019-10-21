@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncActionWithProgress<Windows.Web.Syndication.Trans
 # Windows.Web.AtomPub.AtomPubClient.UpdateResourceAsync
 
 ## -description
-Updates an existing Entry or Media Link resource. If an ETag: header has previously been seen while retrieving this resource (in a response to [RetrieveResourceAsync](atompubclient_retrieveresourceasync_1946100714.md), [CreateResourceAsync](atompubclient_createresourceasync_823380555.md) or a previous call to [UpdateResourceAsync](atompubclient_updateresourceasync_241802746.md)), this method automatically sends an If-Match: header with the remembered value.
+Updates an existing Entry or Media Link resource. If an ETag: header has previously been seen while retrieving this resource (in a response to [RetrieveResourceAsync](atompubclient_retrieveresourceasync_1946100714.md), [CreateResourceAsync](atompubclient_createresourceasync_823380555.md) or a previous call to UpdateResourceAsync), this method automatically sends an If-Match: header with the remembered value.
 
 ## -parameters
 ### -param uri
@@ -23,9 +23,9 @@ The resource to be updated.
 The object that is used to update the resource asynchronously and to report the progress and completion status of the operation.
 
 ## -remarks
-For an example of how this method is implemented to update syndicated content see [Quickstart: Managing Feed Entries](http://msdn.microsoft.com/library/239d42bc-5812-4ead-a91c-b3696fc3ef75).
+For an example of how this method is implemented to update syndicated content see [Quickstart: Managing Feed Entries](https://docs.microsoft.com/previous-versions/windows/apps/hh700368(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[Quickstart: Managing Feed Entries](http://msdn.microsoft.com/library/239d42bc-5812-4ead-a91c-b3696fc3ef75), [AtomPub sample](http://go.microsoft.com/fwlink/p/?linkid=245061)
+[Quickstart: Managing Feed Entries](https://docs.microsoft.com/previous-versions/windows/apps/hh700368(v=win.10)), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061)

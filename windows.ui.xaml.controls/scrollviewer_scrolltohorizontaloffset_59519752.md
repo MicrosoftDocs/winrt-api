@@ -11,7 +11,7 @@ public void ScrollToHorizontalOffset(System.Double offset)
 
 ## -description
 > [!NOTE]
-> [ScrollToHorizontalOffset](scrollviewer_scrolltohorizontaloffset_59519752.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ChangeView](scrollviewer_changeview_1425504772.md).
+> ScrollToHorizontalOffset may be altered or unavailable for releases after Windows 8.1. Instead, use [ChangeView](scrollviewer_changeview_1425504772.md).
 
 Scrolls the content that is within the [ScrollViewer](scrollviewer.md) to the specified horizontal offset position.
 

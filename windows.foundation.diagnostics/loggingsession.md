@@ -15,13 +15,13 @@ Represents the destination of logged messages from [LoggingChannel](loggingchann
 
 ## -remarks
 
-Use the [LoggingSession](loggingsession.md) class to log messages and data to an in-memory circular buffer as your app runs. Use the [SaveToFileAsync](loggingsession_savetofileasync_705962807.md) method to save the buffer to a file. You can view the log files by using the Windows Performance Toolkit (WPT) and other utilities like tracerpt.exe.
+Use the LoggingSession class to log messages and data to an in-memory circular buffer as your app runs. Use the [SaveToFileAsync](loggingsession_savetofileasync_705962807.md) method to save the buffer to a file. You can view the log files by using the Windows Performance Toolkit (WPT) and other utilities like tracerpt.exe.
 
-[LoggingSession](loggingsession.md) instances keep logged messages in memory until the [SaveToFileAsync](loggingsession_savetofileasync_705962807.md) method is called. This enables on-demand saving of events until the app saves the in-memory messages.
+LoggingSession instances keep logged messages in memory until the [SaveToFileAsync](loggingsession_savetofileasync_705962807.md) method is called. This enables on-demand saving of events until the app saves the in-memory messages.
 
-Add [LoggingChannel](loggingchannel.md) instances to a [LoggingSession](loggingsession.md), and call [LoggingSession](loggingsession.md) instance methods to remove channels, dispose, and perform other operations.
+Add [LoggingChannel](loggingchannel.md) instances to a LoggingSession, and call LoggingSession instance methods to remove channels, dispose, and perform other operations.
 
-[LoggingSession](loggingsession.md) records the most recent 260KB of events, after which it will begin overwriting older events.
+LoggingSession records the most recent 260KB of events, after which it will begin overwriting older events.
 
 You cannot have more than one session with the same name. In addition, each app is limited to 4 sessions total.
 
@@ -29,4 +29,4 @@ You cannot have more than one session with the same name. In addition, each app 
 
 ## -see-also
 
-[LoggingChannel](loggingchannel.md), [ILoggingSession](iloggingsession.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620565)
+[LoggingChannel](loggingchannel.md), [ILoggingSession](iloggingsession.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620565)

@@ -13,14 +13,14 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 Retrieves contacts from the contact store.
 
 ## -returns
-When this method completes, it returns an [IVectorView](http://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) containing [StoredContact](storedcontact.md) objects. If you use [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e), the result type is a read-only list/vector of [StoredContact](storedcontact.md) items. (You can use APIs of [IVectorView&lt;StoredContact&gt;](../windows.foundation.collections/ivectorview_1.md) for C++, APIs of [IReadOnlyList<StoredContact>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1) for .NET.)
+When this method completes, it returns an [IVectorView](https://docs.microsoft.com/previous-versions/br224594(v=vs.85)) containing [StoredContact](storedcontact.md) objects. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is a read-only list/vector of [StoredContact](storedcontact.md) items. (You can use APIs of [IVectorView&lt;StoredContact&gt;](../windows.foundation.collections/ivectorview_1.md) for C++, APIs of [IReadOnlyList<StoredContact>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1) for .NET.)
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[GetContactsAsync(UInt32, UInt32)](contactqueryresult_getcontactsasync_1075020628.md), [StoredContact](storedcontact.md), [Asynchronous programming](http://msdn.microsoft.com/library/23fe28f1-89c5-4a17-a732-a722648f9c5e)
+[GetContactsAsync(UInt32, UInt32)](contactqueryresult_getcontactsasync_1075020628.md), [StoredContact](storedcontact.md), [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

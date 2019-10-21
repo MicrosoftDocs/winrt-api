@@ -16,9 +16,9 @@ Gets or sets the [TimeSpan](../windows.foundation/timespan.md) object that repre
 The object that represents the value of an **Age** HTTP header on an HTTP response. A **null** value means that the header is absent.
 
 ## -remarks
-The [Age](httpresponseheadercollection_age.md) property represents the value of he **Age** header on an HTTP response. The **Age** header is the age of the entity in the cache.
+The Age property represents the value of he **Age** header on an HTTP response. The **Age** header is the age of the entity in the cache.
 
-When programming with .NET, this structure is hidden and developers should use the [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) structure. The value can be **null**, because it's typed as `TimeSpan?` (a nullable [TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx)).
+When programming with .NET, this structure is hidden and developers should use the [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) structure. The value can be **null**, because it's typed as `TimeSpan?` (a nullable [TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN)).
 
 In JavaScript, this structure is accessed as a value, not as an object. For example, use `var a = 10000`, not `var a = { duration: 10000 }`.
 
@@ -29,7 +29,7 @@ For more detailed information, see the [Windows.Foundation.TimeSpan](../windows.
 
 
 
-The following sample code shows a method to set the **Age** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the [Age](httpresponseheadercollection_age.md) property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
+The following sample code shows a method to set the **Age** header on an [HttpResponseMessage](../windows.web.http/httpresponsemessage.md) object using the Age property on the [HttpResponseHeaderCollection](httpresponseheadercollection.md) object.
 
 ```csharp
     public void DemonstrateHeaderResponseAge() {

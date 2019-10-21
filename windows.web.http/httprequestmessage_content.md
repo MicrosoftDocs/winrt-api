@@ -30,7 +30,7 @@ A number of classes and an interface can be used for HTTP content. These include
 + [HttpStringContent](httpstringcontent.md) - HTTP content based on a string.
 
 
-A number of [HttpClient](httpclient.md) methods don't need to set the [Content](httprequestmessage_content.md) property on the [HttpRequestMessage](httprequestmessage.md). These include the following:
+A number of [HttpClient](httpclient.md) methods don't need to set the Content property on the [HttpRequestMessage](httprequestmessage.md). These include the following:
 + The [HttpClient.GetAsync](/uwp/api/windows.web.http.httpclient.getasync) methods.
 + [HttpClient.GetBufferAsync](httpclient_getbufferasync_894906839.md).
 + [HttpClient.GetInputStreamAsync](httpclient_getinputstreamasync_1910746187.md).

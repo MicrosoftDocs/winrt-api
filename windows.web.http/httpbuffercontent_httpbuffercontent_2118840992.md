@@ -36,8 +36,9 @@ The *offset* parameter is greater than the length of content specified by the *c
 
 The *count* parameter is less than zero or the *count* parameter is greater than the length of content specified by the *count* parameter minus the *offset* parameter.
 
-
 ## -examples
+
+See [POST binary data over HTTP](/windows/uwp/networking/httpclient#post-binary-data-over-http).
 
 ## -see-also
 [HttpBufferContent(IBuffer)](httpbuffercontent_httpbuffercontent_1985205386.md)

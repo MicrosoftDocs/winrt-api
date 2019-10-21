@@ -15,9 +15,9 @@ Provides data for the [MediaStreamSource.Closed](mediastreamsource_closed.md) ev
 ## -remarks
 This object is not instantiated directly, it is created by the [MediaStreamSource.Closed](mediastreamsource_closed.md) event.
 
-See the [MediaStreamSource Sample](http://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a Universal Windows app.
+See the [MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a Universal Windows app.
 
 ## -examples
 
 ## -see-also
-[MediaStreamSource Sample](http://go.microsoft.com/fwlink/p/?LinkID=309021)
+[MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021)

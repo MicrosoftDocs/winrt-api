@@ -13,7 +13,7 @@ public double Maximum { get; }
 Gets the maximum range value that is supported by the control.
 
 ## -property-value
-The maximum value that is supported by the control, or null if the control does not support [Maximum](irangevalueprovider_maximum.md).
+The maximum value that is supported by the control, or null if the control does not support Maximum.
 
 ## -remarks
 

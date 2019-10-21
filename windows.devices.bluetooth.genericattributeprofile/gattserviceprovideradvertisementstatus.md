@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceProviderAdvertisementStatus
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax.
@@ -25,7 +26,16 @@ The GATT service was created.
 ### -field Aborted:3
 The GATT service was aborted.
 
+### -field StartedWithoutAllAdvertisementData:4
+Indicates that the system was successfully able to issue the advertisement request, but not all of the requested data could be included in the advertisement.
+
 ## -remarks
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | StartedWithoutAllAdvertisementData |
 
 ## -see-also
 
@@ -34,3 +44,4 @@ The GATT service was aborted.
 
 ## -capabilities
 bluetooth
+

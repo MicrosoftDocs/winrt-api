@@ -16,7 +16,7 @@ Contains event data for a [MediaProtectionManager](mediaprotectionmanager_mediap
 This object is not instantiated directly. It is created by the [MediaProtectionManager.ComponentLoadFailed](mediaprotectionmanager_componentloadfailed.md) event and is returned as an argument to the [ComponentLoadFailedEventHandler](componentloadfailedeventhandler.md) delegate.
 
 ## -examples
-The following example shows how to create a [MediaProtectionManager](mediaprotectionmanager.md), set the [Properties](mediaprotectionmanager_properties.md) property, and add event listeners for [ComponentLoadFailed](mediaprotectionmanager_componentloadfailed.md) and [ServiceRequested](mediaprotectionmanager_servicerequested.md). See the [How to use pluggable DRM](http://msdn.microsoft.com/library/3b7d0373-7c59-4b9e-a0a4-fc787738f7a1) topic for the full example. ```javascript
+The following example shows how to create a [MediaProtectionManager](mediaprotectionmanager.md), set the [Properties](mediaprotectionmanager_properties.md) property, and add event listeners for [ComponentLoadFailed](mediaprotectionmanager_componentloadfailed.md) and [ServiceRequested](mediaprotectionmanager_servicerequested.md). See the [How to use pluggable DRM](https://docs.microsoft.com/previous-versions/windows/apps/hh452779(v=win.10)) topic for the full example. ```javascript
 
 mediaProtectionManager = 
     new Windows.Media.Protection.MediaProtectionManager();

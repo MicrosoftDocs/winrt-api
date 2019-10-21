@@ -18,7 +18,7 @@ A sequential stream of bytes to be written to the remote destination.
 ## -remarks
 This property is used with the [DataWriter](../windows.storage.streams/datawriter.md) object to write outgoing data to be sent to the remote network destination on a [StreamWebSocket](streamwebsocket.md) object.
 
-The following specific errors can occur when you call [IOutputStream.FlushAsync](../windows.storage.streams/ioutputstream_flushasync_491532439.md) on the [OutputStream](streamwebsocket_outputstream.md) of a [StreamWebSocket](streamwebsocket.md) if the websocket is in an invalid state at the time.
+The following specific errors can occur when you call [IOutputStream.FlushAsync](../windows.storage.streams/ioutputstream_flushasync_491532439.md) on the OutputStream of a [StreamWebSocket](streamwebsocket.md) if the websocket is in an invalid state at the time.
 
 
 + If the websocket instance has been explicitly closed (via delete, **Dispose**, or **Close**) or implicitly closed (fallen out of scope), [FlushAsync](../windows.storage.streams/ioutputstream_flushasync_491532439.md) throws an **RO_E_CLOSED** exception.

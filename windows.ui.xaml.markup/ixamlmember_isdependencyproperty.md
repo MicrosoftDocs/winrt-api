@@ -20,4 +20,4 @@ Gets a value that indicates whether the XAML member is implemented as a dependen
 ## -examples
 
 ## -see-also
-[XAML overview](http://msdn.microsoft.com/library/48041b37-f1a8-44a4-bb8e-1d4de30e7823), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -24,4 +24,4 @@ A value of the enumeration that specifies how to determine the page count.
 ## -examples
 
 ## -see-also
-[Print from your app](http://msdn.microsoft.com/library/9a0f1852-a76b-4f43-acfc-2cc56aad1c03)
+[Print from your app](https://docs.microsoft.com/windows/uwp/devices-sensors/print-from-your-app)

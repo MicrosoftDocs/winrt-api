@@ -14,7 +14,25 @@ Manages the software available to a user.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetPackageVolumesAsync |
+| 1703 | 15063 | AddPackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>) |
+| 1703 | 15063 | DebugSettings |
+| 1703 | 15063 | RegisterPackageByFamilyNameAsync |
+| 1703 | 15063 | StagePackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>) |
+| 1709 | 16299 | AddPackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>,IEnumerable<Uri>) |
+| 1709 | 16299 | AddPackageByAppInstallerFileAsync |
+| 1709 | 16299 | ProvisionPackageForAllUsersAsync |
+| 1709 | 16299 | RequestAddPackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>) |
+| 1709 | 16299 | RequestAddPackageByAppInstallerFileAsync |
+| 1709 | 16299 | StagePackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>,IEnumerable<Uri>) |
+| 1803 | 17134 | RequestAddPackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>,IEnumerable<Uri>) |
+| 1809 | 17763 | DeprovisionPackageForAllUsersAsync |
+
 ## -examples
 
 ## -see-also
-[Add app package sample](http://go.microsoft.com/fwlink/p/?linkid=236968), [Enumerate app packages sample](http://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [Enumerate app packages by name and publisher sample](http://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a), [Enumerate app packages by user SID sample](http://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-5bee970a), [Remove app package sample](http://go.microsoft.com/fwlink/p/?linkid=236972), [Packaging apps](http://msdn.microsoft.com/library/1abcbb13-80f0-4bf1-a812-649ee8bd1915), [DeploymentResult](deploymentresult.md), [PackageUserInformation](packageuserinformation.md)
+[Add app package sample](https://go.microsoft.com/fwlink/p/?linkid=236968), [Enumerate app packages sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [Enumerate app packages by name and publisher sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a), [Enumerate app packages by user SID sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-5bee970a), [Remove app package sample](https://go.microsoft.com/fwlink/p/?linkid=236972), [Packaging apps](https://docs.microsoft.com/windows/uwp/packaging/index), [DeploymentResult](deploymentresult.md), [PackageUserInformation](packageuserinformation.md)

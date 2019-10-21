@@ -10,7 +10,7 @@ public void SetTop(Windows.UI.Xaml.UIElement element, System.Double length)
 # Windows.UI.Xaml.Controls.Canvas.SetTop
 
 ## -description
-Sets the value of the [Canvas.Top](canvas_top.md)  XAML attached property for a target element.
+Sets the value of the [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property for a target element.
 
 ## -parameters
 ### -param element
@@ -20,9 +20,9 @@ The object to which the property value is written.
 The value to set.
 
 ## -remarks
-This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [Canvas.Top](canvas_top.md)  XAML attached property in XAML and won't need this method. For more info, see the [Canvas.Top](canvas_top.md)  attached property.
+This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property in XAML and won't need this method. For more info, see the [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) attached property.
 
 ## -examples
 
 ## -see-also
-[Canvas.Top](canvas_top.md)
+[Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties)

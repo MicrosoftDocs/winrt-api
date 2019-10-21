@@ -38,7 +38,7 @@ Starting with Windows 10, version 1709, this enumeration supports the values **A
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1709 | 16299 | Aes128Cbc |
 | 1709 | 16299 | Unspecified |

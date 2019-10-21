@@ -13,9 +13,9 @@ public class Transform3D : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Med
 The base class for the [CompositeTransform3D](compositetransform3d.md) and [PerspectiveTransform3D](perspectivetransform3d.md) classes.
 
 ## -remarks
-[Transform3D](transform3d.md) serves as a base class for the [CompositeTransform3D class](compositetransform3d.md) and the [PerspectiveTransform3D class](perspectivetransform3d.md), but it has no methods and cannot be publically instantiated on its own.
+Transform3D serves as a base class for the [CompositeTransform3D class](compositetransform3d.md) and the [PerspectiveTransform3D class](perspectivetransform3d.md), but it has no methods and cannot be publicly instantiated on its own.
 
-For more info about using [Transform3D](transform3d.md), see the [UIElement.Transform3D](../windows.ui.xaml/uielement_transform3d.md) property.
+For more info about using Transform3D, see the [UIElement.Transform3D](../windows.ui.xaml/uielement_transform3d.md) property.
 
 ## -examples
 

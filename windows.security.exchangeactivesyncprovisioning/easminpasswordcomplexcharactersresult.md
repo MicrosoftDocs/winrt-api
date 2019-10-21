@@ -11,7 +11,7 @@ public enum Windows.Security.ExchangeActiveSyncProvisioning.EasMinPasswordComple
 
 ## -description
 > [!NOTE]
-> [EasMinPasswordComplexCharactersResult](easminpasswordcomplexcharactersresult.md) may be unavailable for releases after Windows 10.
+> EasMinPasswordComplexCharactersResult may be unavailable for releases after Windows 10.
 
 Represents the minimum complexity result for passwords. These values are mapped against the HRESULT codes returned from the EAS policy engine.
 

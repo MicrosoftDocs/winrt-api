@@ -13,7 +13,7 @@ public void Clear()
 Removes all items from the collection.
 
 ## -remarks
-The [Clear](uielementcollection_clear_556466.md) method can be used when programming in C#, Microsoft Visual Basic or Visual C++ component extensions (C++/CX). The method signature is the same in each of these languages, and the behavior is the same.
+The Clear method can be used when programming in C#, Microsoft Visual Basic or Visual C++ component extensions (C++/CX). The method signature is the same in each of these languages, and the behavior is the same.
 
 ## -examples
 

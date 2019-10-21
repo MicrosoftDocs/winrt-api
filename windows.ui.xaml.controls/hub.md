@@ -10,6 +10,7 @@ public class Hub : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Controls.IH
 # Windows.UI.Xaml.Controls.Hub
 
 ## -description
+
 Represents a control that displays groups of content in a panning view.
 
 ## -xaml-syntax
@@ -21,19 +22,17 @@ Represents a control that displays groups of content in a panning view.
 </Hub>
 ```
 
-
 ## -remarks
 
-> [!TIP]
-> For more info, design guidance, and code examples, see [Hub control/pattern](/windows/uwp/design/controls-and-patterns/hub).
+**For Windows 10 and later: We recommend against using this control; use one of the other navigation controls instead. For a list, see the [Navigation basics](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics) article.**
 
-Use a [Hub](hub.md) to show different collections of data, either from the same source or from different sources.
+Use a Hub to show different collections of data, either from the same source or from different sources.
 
 ### Hub content
 
-Add content to the [Hub](hub.md) by adding [HubSection](hubsection.md) objects to the [Sections](hub_sections.md) collection. These sections use a [DataTemplate](../windows.ui.xaml/datatemplate.md) to define the content for the section, and a [Header](hubsection_header.md) property, which can be any content. If the [Header](hubsection_header.md) object is a complex data type as opposed to just a string, you can define the look of the header using the [HeaderTemplate](hubsection_headertemplate.md) property.
+Add content to the Hub by adding [HubSection](hubsection.md) objects to the [Sections](hub_sections.md) collection. These sections use a [DataTemplate](../windows.ui.xaml/datatemplate.md) to define the content for the section, and a [Header](hubsection_header.md) property, which can be any content. If the [Header](hubsection_header.md) object is a complex data type as opposed to just a string, you can define the look of the header using the [HeaderTemplate](hubsection_headertemplate.md) property.
 
-The [Hub](hub.md) uses virtualization to load sections as the user pans. You can handle the [SectionsInViewChanged](hub_sectionsinviewchanged.md) event to respond to changes.
+The Hub uses virtualization to load sections as the user pans. You can handle the [SectionsInViewChanged](hub_sectionsinviewchanged.md) event to respond to changes.
 
 ### Interactive section headers
 
@@ -45,15 +44,15 @@ You can handle the [SectionHeaderClick](hub_sectionheaderclick.md) event to resp
 
 ### Hub and SemanticZoom
 
-If you declare a [Hub](hub.md) as the [ZoomedInView](semanticzoom_zoomedinview.md) of a [SemanticZoom](semanticzoom.md), the section headers change to [HyperlinkButton](hyperlinkbutton.md) s that invoke the [ZoomedOutView](semanticzoom_zoomedoutview.md) of the [SemanticZoom](semanticzoom.md) when they're clicked.
+If you declare a Hub as the [ZoomedInView](semanticzoom_zoomedinview.md) of a [SemanticZoom](semanticzoom.md), the section headers change to [HyperlinkButton](hyperlinkbutton.md)s that invoke the [ZoomedOutView](semanticzoom_zoomedoutview.md) of the [SemanticZoom](semanticzoom.md) when they're clicked.
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\&lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
 
-Starting in Windows 10, version 1607 (Windows Software Development Kit (SDK) version 10.0.14393.0), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [Hub](hub.md) control.
+This table shows the resources used by the Hub control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -62,14 +61,7 @@ This table shows the resources used by the [Hub](hub.md) control.
 
 ## -examples
 
-> [!TIP]
-> For more info, design guidance, and code examples, see [Hub control/pattern](/windows/uwp/design/controls-and-patterns/hub).
->
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Hub in action](xamlcontrolsgallery:/item/Hub).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
-
-This example shows the basic XAML used to create a [Hub](hub.md).
+This example shows the basic XAML used to create a Hub.
 
 ```xaml
 <Hub Header="News" SectionHeaderClick="Hub_SectionHeaderClick">
@@ -126,4 +118,4 @@ private void Hub_SectionHeaderClick(object sender, HubSectionHeaderClickEventArg
 
 
 ## -see-also
-[Hub overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/hub), [Hub styles and templates](http://msdn.microsoft.com/library/534813df-ce43-497e-b7e2-9348df034c8a), [XAML Hub control sample (Windows 8)](http://go.microsoft.com/fwlink/p/?LinkID=310072), [ISemanticZoomInformation](isemanticzoominformation.md)
+[Navigation basics](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics)

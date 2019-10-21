@@ -25,7 +25,7 @@ Gets or sets a value that indicates whether the calendar shows selections for mo
 A value of the enumeration that indicates whether the calendar shows selections for month, year, or decade. The default is **Month**.
 
 ## -remarks
-This property affects the [CalendarDatePicker](calendardatepicker.md) 's internal [CalendarView](calendarview.md). For more info, see [CalendarView.DisplayMode](calendarview_displaymode.md).
+This property affects the [CalendarDatePicker](calendardatepicker.md)'s internal [CalendarView](calendarview.md). For more info, see [CalendarView.DisplayMode](calendarview_displaymode.md).
 
 ## -examples
 

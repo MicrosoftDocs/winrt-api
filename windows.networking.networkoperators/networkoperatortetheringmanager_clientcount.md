@@ -23,4 +23,4 @@ The current number of clients.
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl

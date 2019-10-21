@@ -10,7 +10,7 @@ public enum Windows.UI.Xaml.FontVariants : int
 # FontVariants
 
 ## -description
-Describes a font variant value for the [Typography.Variants](../windows.ui.xaml.documents/typography_variants.md) attached property.
+Describes a font variant value for the [Typography.Variants](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -xaml-syntax
 ```xaml
@@ -40,7 +40,7 @@ Replaces a default glyph with a smaller Japanese Kana glyph. This is used to cla
 
 
 ## -remarks
-This enumeration is used by the [Typography.Variants](../windows.ui.xaml.documents/typography_variants.md) attached property.
+This enumeration is used by the [Typography.Variants](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
 ## -examples
 

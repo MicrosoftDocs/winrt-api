@@ -16,7 +16,7 @@ Gets the number of objects in the [HttpRequestHeaderCollection](httprequestheade
 The number of objects in the [HttpRequestHeaderCollection](httprequestheadercollection.md).
 
 ## -remarks
-The [Size](httprequestheadercollection_size.md) property returns the true number of items.
+The Size property returns the true number of items.
 
 If you are programming using C# or Microsoft Visual Basic, the equivalent method is [Count](httprequestheadercollection_count.md).
 

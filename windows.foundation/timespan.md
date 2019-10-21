@@ -13,7 +13,7 @@ public struct TimeSpan
 Represents a time interval as a signed 64-bit integer value.
 
 > **.NET**
-> When programming with .NET, this structure is hidden, and developers should use the [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) type.
+> When programming with .NET, this structure is hidden, and developers should use the [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) type.
 
 > **C++/WinRT**
 > This type is a specialization of [std::chrono::duration](/cpp/standard-library/duration-class).
@@ -27,14 +27,14 @@ A time period expressed in 100-nanosecond units.
 > In C++/WinRT, this field does not exist, because in that language projection **TimeSpan** is a specialization of [std::chrono::duration](/cpp/standard-library/duration-class). If you need the raw integer value, use [duration::count](/cpp/standard-library/duration-class#count) to obtain the raw count.
 
 ## -remarks
-When programming with .NET, this structure is hidden and developers should use the [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx) structure.
+When programming with .NET, this structure is hidden and developers should use the [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) structure.
 
 In JavaScript, this structure is accessed as a value, not as an object. For example, use `var a = 10000`, not `var a = { duration: 10000 }`.
 
 > [!NOTE]
-> In JavaScript, [TimeSpan](timespan.md) values interpreted as **Number** are treated as the number of millisecond intervals, not the number of 100-nanosecond intervals. Therefore, [Windows.Foundation.TimeSpan](timespan.md) values can lose precision when being ported between languages.
+> In JavaScript, TimeSpan values interpreted as **Number** are treated as the number of millisecond intervals, not the number of 100-nanosecond intervals. Therefore, Windows.Foundation.TimeSpan values can lose precision when being ported between languages.
 
 ## -examples
 
 ## -see-also
-[DateTime](datetime.md), [System.TimeSpan](https://msdn.microsoft.com/library/system.timespan.aspx)
+[DateTime](datetime.md), [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN)

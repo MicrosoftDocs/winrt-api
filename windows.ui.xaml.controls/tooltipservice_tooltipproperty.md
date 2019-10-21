@@ -10,10 +10,10 @@ public Windows.UI.Xaml.DependencyProperty ToolTipProperty { get; }
 # Windows.UI.Xaml.Controls.ToolTipService.ToolTipProperty
 
 ## -description
-Identifies the [ToolTipService.ToolTip](tooltipservice_tooltip.md) XAML attached property.
+Identifies the [ToolTipService.ToolTip](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) XAML attached property.
 
 ## -property-value
-The identifier for the [ToolTipService.ToolTip](tooltipservice_tooltip.md) XAML attached property.
+The identifier for the [ToolTipService.ToolTip](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) XAML attached property.
 
 ## -remarks
 

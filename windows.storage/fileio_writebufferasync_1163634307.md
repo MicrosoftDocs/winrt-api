@@ -25,7 +25,7 @@ No object or value is returned when this method completes.
 ## -remarks
 
 ## -examples
-The [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use [WriteBufferAsync](fileio_writebufferasync_1163634307.md) to write data from a buffer to a file.
+The [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use WriteBufferAsync to write data from a buffer to a file.
 
 ```csharp
 
@@ -33,7 +33,7 @@ try
 {
     if (file != null)
     {
-        IBuffer buffer = GetBufferFromString("Swift as a shadow");
+        IBuffer buffer = CryptographicBuffer.GenerateRandom(10);
         await FileIO.WriteBufferAsync(file, buffer);
         // Perform additional tasks after file is written
     }
@@ -49,11 +49,7 @@ catch (FileNotFoundException)
 
 if (file !== null) {
     // Create buffer
-    var memoryStream = new Windows.Storage.Streams.InMemoryRandomAccessStream();
-    var dataWriter = new Windows.Storage.Streams.DataWriter(memoryStream);
-    dataWriter.writeString("Swift as a shadow");
-    var buffer = dataWriter.detachBuffer();
-    dataWriter.close();
+    var buffer = Windows.Security.Cryptography.CryptographicBuffer.generateRandom(10);
 
     // Write buffer to file
     Windows.Storage.FileIO.writeBufferAsync(file, buffer).done(function () {
@@ -68,6 +64,6 @@ if (file !== null) {
 
 In the example, `file` is a local variable that contains a [storageFile](storagefile.md) that represents the file to write.
 
-Although the [writeBufferAsync](fileio_writebufferasync_1163634307.md) methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.
+Although the writeBufferAsync methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.
 
 ## -see-also

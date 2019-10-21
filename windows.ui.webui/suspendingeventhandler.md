@@ -23,4 +23,4 @@ The event data.
 ## -examples
 
 ## -see-also
-[App lifecycle](http://msdn.microsoft.com/library/6c469e77-f1e3-4859-a27b-c326f9616d10), [Oncheckpoint event](http://msdn.microsoft.com/library/a7620c81-f769-46e5-b030-dde21b8c2d5b), [WebUIApplication](webuiapplication.md), [App activated, resume, and suspend using the WRL sample](http://go.microsoft.com/fwlink/p/?linkid=226722)
+[App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle), [Oncheckpoint event](https://docs.microsoft.com/previous-versions/windows/apps/br229839(v=win.10)), [WebUIApplication](webuiapplication.md), [App activated, resume, and suspend using the WRL sample](https://go.microsoft.com/fwlink/p/?linkid=226722)

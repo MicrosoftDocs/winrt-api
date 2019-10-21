@@ -11,7 +11,7 @@ public void StartPeriodicUpdate(Windows.Foundation.Uri tileFlyoutContent, Window
 # Windows.UI.Notifications.TileFlyoutUpdater.StartPeriodicUpdate
 
 ## -description
-Launches a series of [periodic](http://msdn.microsoft.com/library/4615a86a-849f-4d40-9a96-2670a856c468) updates for a tile flyout (mix view) notification, beginning at a specified time. Update content is retrieved from a specified Uniform Resource Identifier (URI).
+Launches a series of [periodic](https://docs.microsoft.com/previous-versions/windows/apps/jj150587(v=win.10)) updates for a tile flyout (mix view) notification, beginning at a specified time. Update content is retrieved from a specified Uniform Resource Identifier (URI).
 
 ## -parameters
 ### -param tileFlyoutContent

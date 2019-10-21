@@ -15,7 +15,7 @@ Provides data when an app is activated because it is the program associated with
 ## -remarks
 ### Interface inheritance
 
-[IFileActivatedEventArgs](ifileactivatedeventargs.md) inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement [IFileActivatedEventArgs](ifileactivatedeventargs.md) also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
+IFileActivatedEventArgs inherits [IActivatedEventArgs](iactivatedeventargs.md). Types that implement IFileActivatedEventArgs also implement the interface members of [IActivatedEventArgs](iactivatedeventargs.md).
 
 ## -examples
 

@@ -18,11 +18,11 @@ The operation that launches the Contact Picker.
 ## -remarks
 To pick multiple contacts at once, use [PickContactsAsync](contactpicker_pickcontactsasync_540067144.md).
 
-For info about how to select contacts, see [Selecting contacts](http://msdn.microsoft.com/library/35fedee6-2b0e-4391-84ba-5e9191d4e442) and [Quickstart: Selecting user contacts ](http://msdn.microsoft.com/library/1330470e-efd2-41e1-934e-08ec081ba3c2).
+For info about how to select contacts, see [Selecting contacts](https://docs.microsoft.com/windows/uwp/contacts-and-calendar/selecting-contacts) and [Quickstart: Selecting user contacts ](https://docs.microsoft.com/previous-versions/windows/apps/jj153343(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[Contact Picker app sample](http://go.microsoft.com/fwlink/p/?linkid=231575)
+[Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575)
 ## -capabilities
 contactsSystem

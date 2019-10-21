@@ -23,7 +23,7 @@ If the method succeeds, an enumerable collection of package user information obj
 This method requires administrative privileges.
 
 ## -examples
-Call the [PackageManager.FindUsers](packagemanager_findusers_1161384994.md) method to enumerate the users who have installed a package. This example displays the information in the [PackageUserInformation.UserSecurityId](packageuserinformation_usersecurityid.md) property.
+Call the PackageManager.FindUsers method to enumerate the users who have installed a package. This example displays the information in the [PackageUserInformation.UserSecurityId](packageuserinformation_usersecurityid.md) property.
 
 ```csharp
 using System.Security.Principal;
@@ -61,7 +61,7 @@ private static string SidToAccountName(string sidString)
 }
 ```
 
-Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
+Also see [Visual Studio support for C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-xaml-the-vsix-extension-and-the-nuget-package).
 
 ```cppwinrt
 // main.cpp : In Visual Studio, create a new Windows Console Application (C++/WinRT), and run it (or run Visual Studio) as administrator.
@@ -215,7 +215,7 @@ void SidToAccountName(wstring sidString, wstring& stringSid)
 ```
 
 ## -see-also
-[Enumerate app packages sample](http://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [Enumerate app packages by name and publisher sample](http://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a)
+[Enumerate app packages sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [Enumerate app packages by name and publisher sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a)
 
 ## -capabilities
 packageManagement

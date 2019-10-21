@@ -17,26 +17,26 @@ Provides gesture and manipulation recognition, event listeners, and settings.
 
 You can create a gesture object for each appropriate element when your app starts. However, this approach might not scale well depending on the number of gesture objects you need to create (for example, a jigsaw puzzle with hundreds of pieces).
 
-In this case, you can create gesture objects dynamically on a [pointerdown](https://msdn.microsoft.com/en-us/library/jj191898(v=vs.85).aspx) event and destroy them on an [MSGestureEnd](https://msdn.microsoft.com/en-us/library/jj191886(v=vs.85).aspx) event. This approach scales well, but does incur some overhead due to creating and releasing these objects.
+In this case, you can create gesture objects dynamically on a [pointerdown](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/jj191898(v=vs.85)) event and destroy them on an [MSGestureEnd](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/jj191886(v=vs.85)) event. This approach scales well, but does incur some overhead due to creating and releasing these objects.
 
 Alternatively, you can statically allocate and dynamically manage a pool of reusable gesture objects.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](http://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
-For more detail on how to use cross-slide functionality, see [Guidelines for cross-slide](http://msdn.microsoft.com/library/897555e2-c567-4bbe-b600-553daeb223d5). The threshold distances used by the cross-slide interaction are shown in the following diagram.
+For more detail on how to use cross-slide functionality, see [Guidelines for cross-slide](https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-cross-slide). The threshold distances used by the cross-slide interaction are shown in the following diagram.
 
 <img src="images/crossslide_threshold.png" border="1" width="536" height="276" alt="Screen shot showing the select and drag and drop processes." />
 
 The [PivotRadius](gesturerecognizer_pivotradius.md) and [PivotCenter](gesturerecognizer_pivotcenter.md) properties are used only when single pointer input is detected. They have no effect on multiple pointer input. The value for these properties should be updated regularly during the interaction.
 
-Rotation is supported by a [GestureRecognizer](gesturerecognizer.md) only when [manipulationRotate](gesturesettings.md) is set through the [GestureSettings](gesturerecognizer_gesturesettings.md) property.
+Rotation is supported by a GestureRecognizer only when [manipulationRotate](gesturesettings.md) is set through the [GestureSettings](gesturerecognizer_gesturesettings.md) property.
 
 Rotation is not supported for single pointer input if the value of [PivotRadius](gesturerecognizer_pivotradius.md) is set to 0.
 
 ## -examples
 
-Here we set up a [GestureRecognizer](gesturerecognizer.md) object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/events-and-routed-events-overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](http://go.microsoft.com/fwlink/p/?LinkId=620514) for the full implementation.
+Here we set up a GestureRecognizer object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](https://go.microsoft.com/fwlink/p/?LinkId=620514) for the full implementation.
 
 ```csharp
 class ManipulationInputProcessor
@@ -226,22 +226,22 @@ class ManipulationInputProcessor
 
 ### Conceptual
 
-- [Custom user interactions](http://msdn.microsoft.com/library/9403c46c-60da-4c13-a381-6fbd069dd9ce)
-- [UX guidelines for custom user interactions](http://msdn.microsoft.com/library/52f9607d-e2d0-44e4-9e1c-f856f7072a1e)
-- [Touch design guidelines](http://msdn.microsoft.com/library/3250f729-4fdd-4ad4-b856-b8ba575c3375)
+- [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index)
+- [UX guidelines for custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index)
+- [Touch design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-user-interaction)
 
 ### Samples
 
-- [User interaction mode sample](http://go.microsoft.com/fwlink/p/?LinkID=619894)
-- [Focus visuals sample](http://go.microsoft.com/fwlink/p/?LinkID=619895)
-- [Basic input sample](http://go.microsoft.com/fwlink/p/?LinkId=620514)
+- [User interaction mode sample](https://go.microsoft.com/fwlink/p/?LinkID=619894)
+- [Focus visuals sample](https://go.microsoft.com/fwlink/p/?LinkID=619895)
+- [Basic input sample](https://go.microsoft.com/fwlink/p/?LinkId=620514)
 - [Direct3D game sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Simple3DGameDX)
 - [DirectX and XAML game sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Simple3DGameXaml)
 
 ### Archived samples
 
-- [Input: Manipulations and gestures sample](http://go.microsoft.com/fwlink/p/?linkid=231638)
-- [Input: XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=226855)
-- [XAML scrolling, panning, and zooming sample](http://go.microsoft.com/fwlink/p/?linkid=251717)
-- [DirectX touch input sample](http://go.microsoft.com/fwlink/p/?LinkID=231627)
-- [Input: Manipulations and gestures sample](http://go.microsoft.com/fwlink/p/?linkid=231605)
+- [Input: Manipulations and gestures sample](https://go.microsoft.com/fwlink/p/?linkid=231638)
+- [Input: XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
+- [XAML scrolling, panning, and zooming sample](https://go.microsoft.com/fwlink/p/?linkid=251717)
+- [DirectX touch input sample](https://go.microsoft.com/fwlink/p/?LinkID=231627)
+- [Input: Manipulations and gestures sample](https://go.microsoft.com/fwlink/p/?linkid=231605)

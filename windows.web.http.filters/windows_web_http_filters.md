@@ -11,11 +11,11 @@ Provides classes to send HTTP requests and an interface to create filters to tar
 
 ## -remarks
 
-The [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace and the related [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) and [Windows.Web.Http.Filters](windows_web_http_filters.md) namespaces provides an HTTP programming interface for UWP app that want to connect to HTTP services. The HTTP API provides consistent support in JavaScript, C#, VB.NET, and C++ for developers. The API also supports adding custom filters on requests and responses. Filters can simplify handling more complex network issues. The API also lets an app control read and write caching behavior.
+The [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace and the related [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) and Windows.Web.Http.Filters namespaces provides an HTTP programming interface for UWP app that want to connect to HTTP services. The HTTP API provides consistent support in JavaScript, C#, VB.NET, and C++ for developers. The API also supports adding custom filters on requests and responses. Filters can simplify handling more complex network issues. The API also lets an app control read and write caching behavior.
 
-Classes in the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace support the use of filters based on the classes in the [Windows.Web.Http.Filters](windows_web_http_filters.md) namespace. Classes in the [Windows.Web.Http.Filters](windows_web_http_filters.md) namespace also let an app control read and write caching behavior on the client. The [HttpCacheDirectiveHeaderValueCollection](../windows.web.http.headers/httpcachedirectiveheadervaluecollection.md) in the [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) provides a collection container for instances of the cache directives in **Cache-Control** HTTP header on HTTP content associated with an HTTP request or response. The **Cache-Control** header lets an app have more control over caching behavior.
+Classes in the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace support the use of filters based on the classes in the Windows.Web.Http.Filters namespace. Classes in the Windows.Web.Http.Filters namespace also let an app control read and write caching behavior on the client. The [HttpCacheDirectiveHeaderValueCollection](../windows.web.http.headers/httpcachedirectiveheadervaluecollection.md) in the [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) provides a collection container for instances of the cache directives in **Cache-Control** HTTP header on HTTP content associated with an HTTP request or response. The **Cache-Control** header lets an app have more control over caching behavior.
 
-Classes in the [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) namespace represent HTTP headers as defined in [RFC 2616](http://go.microsoft.com/fwlink/p/?LinkID=241642) by the IETF.
+Classes in the [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) namespace represent HTTP headers as defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642) by the IETF.
 
 The [HttpClient](../windows.web.http/httpclient.md) class in the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace provides a base class for sending HTTP requests and receiving HTTP responses. Filters provide a handler mechanism to help with common HTTP service issues. Simple filters can be chained together in a sequence to handle more complex HTTP service issues.
 
@@ -30,7 +30,7 @@ Many apps that use HTTP for network access often need to respond to a variety of
 + Authentication to social network sites.
 + Logging and telemetry.
 
-It’s not hard to handle any of these network issues by themselves. This becomes a complex problem when several of these issues are combined. Support for custom filters in the [Windows.Web.Http.Filters](windows_web_http_filters.md) namespace enables developers to create modular code for simple filters. A series of simple filters can be linked into a chain of filters to handle complex combinations of issues. The developer chooses everything about the filter chain:
+It’s not hard to handle any of these network issues by themselves. This becomes a complex problem when several of these issues are combined. Support for custom filters in the Windows.Web.Http.Filters namespace enables developers to create modular code for simple filters. A series of simple filters can be linked into a chain of filters to handle complex combinations of issues. The developer chooses everything about the filter chain:
 
 + The filters to add.
 + The order to place them in the filter chain.
@@ -105,4 +105,4 @@ internal static void CreateHttpClient(ref HttpClient httpClient)
 
 ## -see-also
 
-[HttpClient](../windows.web.http/httpclient.md), [Windows.Web.Http](../windows.web.http/windows_web_http.md), [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md), [HttpClient sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620551)
+[HttpClient](../windows.web.http/httpclient.md), [Windows.Web.Http](../windows.web.http/windows_web_http.md), [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md), [HttpClient sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620551)

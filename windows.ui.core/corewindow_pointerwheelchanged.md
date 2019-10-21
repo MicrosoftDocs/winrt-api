@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler PointerWheelChanged<Windows.UI
 # Windows.UI.Core.CoreWindow.PointerWheelChanged
 
 ## -description
+
 Occurs when the wheel button is rotated.
 
 ## -remarks
@@ -17,4 +18,5 @@ Occurs when the wheel button is rotated.
 ## -examples
 
 ## -see-also
-[Handle pointer input](http://msdn.microsoft.com/library/bdbc9e33-4037-4671-9596-471dcf855c82)
+
+[Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)

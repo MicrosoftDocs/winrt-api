@@ -27,7 +27,7 @@ The number above the line in a fraction.
 If you are representing a whole number, the denominator should be 1.
 
 ## -see-also
-[DXGI_RATIONAL structure](https://msdn.microsoft.com/library/windows/desktop/bb173069)
+[DXGI_RATIONAL structure](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational)
 
 ## -examples
 

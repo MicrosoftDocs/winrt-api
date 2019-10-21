@@ -21,6 +21,7 @@ The audio track was degraded due to a licensing requirement.
 
 
 ### -field SpatialAudioNotSupported:2
+The audio track was degraded because the device does not support spatial audio.
 
 
 ## -remarks
@@ -28,7 +29,7 @@ Get the **AudioDecoderDegradation** value for an audio track by checking the [De
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | SpatialAudioNotSupported |
 

@@ -14,7 +14,7 @@ Provides a base class for all built-in and custom buttons on an [InkToolbar](ink
 
 ## -remarks
 
-The [InkToolbarToolButton](inktoolbartoolbutton.md) class cannot be instantiated directly. Use the various built-in and custom [InkToolbar](inktoolbar.md) pen buttons instead.
+The InkToolbarToolButton class cannot be instantiated directly. Use the various built-in and custom [InkToolbar](inktoolbar.md) pen buttons instead.
 
 By default, the [InkToolbar](inktoolbar.md) contains the following built-in buttons:
 
@@ -32,7 +32,7 @@ Standalone toggle button
 
 ### **InkToolbarToolButton** derived classes
 
-[InkToolbarToolButton](inktoolbartoolbutton.md) is the base class for:
+InkToolbarToolButton is the base class for:
 
 Pen buttons
 
@@ -40,7 +40,7 @@ Pen buttons
 
 Tool buttons
 
-+ [InkToolbarToolButton](inktoolbartoolbutton.md)
++ InkToolbarToolButton
 
 Custom pen buttons
 
@@ -65,4 +65,4 @@ Standalone toggle button (built-in)
 ## -examples
 
 ## -see-also
-[Pen and stylus interactions](http://msdn.microsoft.com/library/3da4f2d2-5405-42a1-9ed9-3a87bcd84c43), [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar), [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [Ink sample (JavaScript)](http://go.microsoft.com/fwlink/p/?LinkID=620308), [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample)
+[Pen and stylus interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Add an InkToolbar to a Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/uwp/input-and-devices/ink-toolbar), [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [Ink sample (JavaScript)](https://go.microsoft.com/fwlink/p/?LinkID=620308), [Get Started Tutorial: Support ink in your UWP app](https://aka.ms/appsample-ink), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample)

@@ -21,4 +21,4 @@ Methods of this class return an **STG_E_READFAULT** error if there is a problem 
 
 ## -see-also
 
-[PDF document sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703785)
+[PDF document sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703785)

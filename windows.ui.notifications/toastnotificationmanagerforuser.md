@@ -14,6 +14,14 @@ Creates [ToastNotifier](toastnotifier.md) objects that you use to raise toast no
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GetHistoryForToastCollectionIdAsync |
+| 1703 | 15063 | GetToastCollectionManager |
+| 1703 | 15063 | GetToastCollectionManager(String) |
+| 1703 | 15063 | GetToastNotifierForToastCollectionIdAsync |
 
 ## -examples
 

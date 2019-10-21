@@ -21,7 +21,7 @@ Occurs when a keyboard key is released while the [UIElement](uielement.md) has f
 
 ## -remarks
 
-[PreviewKeyDown](uielement_previewkeydown.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+[PreviewKeyDown](uielement_previewkeydown.md) is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 This event uses the tunneling routing strategy. The corresponding bubbling event is [KeyUp](uielement_keyup.md).
 

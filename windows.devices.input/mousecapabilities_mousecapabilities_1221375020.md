@@ -10,12 +10,12 @@ public MouseCapabilities()
 # Windows.Devices.Input.MouseCapabilities.MouseCapabilities
 
 ## -description
-Initializes a new instance of the [MouseCapabilities](mousecapabilities_mousecapabilities_1221375020.md) class.
+Initializes a new instance of the MouseCapabilities class.
 
 ## -remarks
 
 ## -examples
-The following code shows how to create an instance of the [MouseCapabilities](mousecapabilities_mousecapabilities_1221375020.md) class.
+The following code shows how to create an instance of the MouseCapabilities class.
 
 ```javascript
 function getMouseCapabilities() {
@@ -27,4 +27,4 @@ function getMouseCapabilities() {
 
 
 ## -see-also
-[Quickstart: Identifying input devices](https://docs.microsoft.com/en-us/windows/uwp/design/input/identify-input-devices)
+[Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices)

@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Controls.Maps.MapZoomLevelRange ZoomLevelRange { get;  se
 # Windows.UI.Xaml.Controls.Maps.MapTileSource.ZoomLevelRange
 
 ## -description
-Gets or sets the minimum and maximum zoom level of the tiles. Tiles are only visible when the [ZoomLevel](mapcontrol_zoomlevel.md) of the [MapControl](mapcontrol.md) is within the [ZoomLevelRange](maptilesource_zoomlevelrange.md).
+Gets or sets the minimum and maximum zoom level of the tiles. Tiles are only visible when the [ZoomLevel](mapcontrol_zoomlevel.md) of the [MapControl](mapcontrol.md) is within the ZoomLevelRange.
 
 ## -property-value
 The minimum and maximum zoom level of the tiles.
@@ -20,4 +20,4 @@ The minimum and maximum zoom level of the tiles.
 ## -examples
 
 ## -see-also
-[Overlay tiled images on a map](http://msdn.microsoft.com/library/066bd6e2-c22b-4f5b-aa94-5d6c86a09bdf)
+[Overlay tiled images on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/overlay-tiled-images)

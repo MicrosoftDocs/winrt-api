@@ -2,6 +2,7 @@
 -api-id: E:Windows.UI.Input.Spatial.SpatialGestureRecognizer.RecognitionEnded
 -api-type: winrt event
 -api-device-family-note: xbox
+ms.custom: 19H1
 ---
 
 <!-- Event syntax
@@ -11,16 +12,18 @@ public event Windows.Foundation.TypedEventHandler RecognitionEnded<Windows.UI.In
 # Windows.UI.Input.Spatial.SpatialGestureRecognizer.RecognitionEnded
 
 ## -description
-Occurs when recognition of gestures is done, either due to completion of a gesture or cancellation. This is the last event to fire.
+
+Occurs when gesture recognition ends, due to completion or cancellation of a gesture (this is the last event to fire).
 
 ## -remarks
+
 For hand interactions, the [SpatialRecognitionEndedEventArgs](spatialrecognitionendedeventargs.md) event fires on finger release.
 
-For voice interactions, this event fires after a system voice command like "Select" has been processed.
+For speech interactions, this event fires after a system voice command such as "Select" has been processed.
 
 For motion controllers, this event fires when the Select trigger or button is released.
 
-This also fires if the relevant interaction source is lost during recognition.
+This event also fires if the relevant interaction source is lost during recognition.
 
 ## -examples
 

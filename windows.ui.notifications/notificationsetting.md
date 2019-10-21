@@ -35,4 +35,4 @@ This app has not declared itself toast capable in its package.appxmanifest file.
 ## -examples
 
 ## -see-also
-[TileUpdater.Setting](tileupdater_setting.md), [ToastNotifier.Setting](toastnotifier_setting.md), [App tiles and badges sample](http://go.microsoft.com/fwlink/p/?linkid=231469), [Toast notifications sample](http://go.microsoft.com/fwlink/p/?linkid=231503)
+[TileUpdater.Setting](tileupdater_setting.md), [ToastNotifier.Setting](toastnotifier_setting.md), [App tiles and badges sample](https://go.microsoft.com/fwlink/p/?linkid=231469), [Toast notifications sample](https://go.microsoft.com/fwlink/p/?linkid=231503)

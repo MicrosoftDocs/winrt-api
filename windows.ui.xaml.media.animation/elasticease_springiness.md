@@ -10,7 +10,7 @@ public double Springiness { get;  set; }
 # Windows.UI.Xaml.Media.Animation.ElasticEase.Springiness
 
 ## -description
-Gets or sets the stiffness of the spring. The smaller the [Springiness](elasticease_springiness.md) value is, the stiffer the spring and the faster the elasticity decreases in intensity over each oscillation.
+Gets or sets the stiffness of the spring. The smaller the Springiness value is, the stiffer the spring and the faster the elasticity decreases in intensity over each oscillation.
 
 ## -xaml-syntax
 ```xaml

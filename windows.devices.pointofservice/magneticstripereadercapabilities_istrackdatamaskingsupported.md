@@ -17,7 +17,7 @@ Indicates whether the device is capable of masking track data.
 True if the device is capable of masking track data; otherwise, false.
 
 ## -remarks
-When [IsTrackDataMaskingSupported](magneticstripereadercapabilities_istrackdatamaskingsupported.md) is true and encryption is enabled, the data returned from a data event contains masked data.
+When IsTrackDataMaskingSupported is true and encryption is enabled, the data returned from a data event contains masked data.
 
 ## -examples
 

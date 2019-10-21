@@ -17,4 +17,4 @@ Exposes [GridViewHeaderItem](../windows.ui.xaml.controls/gridviewheaderitem.md) 
 ## -examples
 
 ## -see-also
-[ListViewBaseHeaderItemAutomationPeer](listviewbaseheaderitemautomationpeer.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4)
+[ListViewBaseHeaderItemAutomationPeer](listviewbaseheaderitemautomationpeer.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)

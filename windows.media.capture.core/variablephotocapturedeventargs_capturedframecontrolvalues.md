@@ -10,10 +10,10 @@ public Windows.Media.Capture.CapturedFrameControlValues CapturedFrameControlValu
 # Windows.Media.Capture.Core.VariablePhotoCapturedEventArgs.CapturedFrameControlValues
 
 ## -description
-Gets a [CapturedFrameControlValues](variablephotocapturedeventargs_capturedframecontrolvalues.md) object that indicates the capture settings used for the associated frame in a variable photo sequence.
+Gets a CapturedFrameControlValues object that indicates the capture settings used for the associated frame in a variable photo sequence.
 
 ## -property-value
-A [CapturedFrameControlValues](variablephotocapturedeventargs_capturedframecontrolvalues.md) object that indicates the capture settings used for the associated frame in a variable photo sequence.
+A CapturedFrameControlValues object that indicates the capture settings used for the associated frame in a variable photo sequence.
 
 ## -remarks
 

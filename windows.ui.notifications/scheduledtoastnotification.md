@@ -16,6 +16,14 @@ Contains the XML that defines the toast notification that will display at the sc
 ## -remarks
 Create and initialize a new instance of this object by calling [ScheduledToastNotification](scheduledtoastnotification_scheduledtoastnotification_1365784316.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | NotificationMirroring |
+| 1607 | 14393 | RemoteId |
+| 1803 | 17134 | ExpirationTime |
+
 ## -examples
 The following example shows a toast notification scheduled to display in one hour.
 
@@ -44,4 +52,4 @@ Notifications.ToastNotificationManager.createToastNotifier().addToSchedule(toast
 
 
 ## -see-also
-[Scheduled notifications sample](http://go.microsoft.com/fwlink/p/?linkid=241614), [Toast schema](https://docs.microsoft.com/uwp/schemas/tiles/toastschema/schema-root), [Guidelines and checklist for scheduled notifications](http://msdn.microsoft.com/library/ca9e9121-d1b1-461f-9c7e-b25225d917ca)
+[Scheduled notifications sample](https://go.microsoft.com/fwlink/p/?linkid=241614), [Toast schema](https://docs.microsoft.com/uwp/schemas/tiles/toastschema/schema-root), [Guidelines and checklist for scheduled notifications](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-choosing-a-notification-delivery-method)

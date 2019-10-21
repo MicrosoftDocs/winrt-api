@@ -17,7 +17,7 @@ Gets the name of the manufacturer of the mobile broadband network device.
 The name of the manufacturer of the mobile broadband network device.
 
 ## -remarks
-You can use the [Manufacturer](mobilebroadbanddeviceinformation_manufacturer.md) property value to determine the provisioning that must occur for the mobile broadband network device.
+You can use the Manufacturer property value to determine the provisioning that must occur for the mobile broadband network device.
 
 ## -examples
 

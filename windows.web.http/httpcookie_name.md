@@ -16,11 +16,11 @@ Get the token that represents the [HttpCookie](httpcookie.md) name.
 The token that represents the [HttpCookie](httpcookie.md) name.
 
 ## -remarks
-The [Name](httpcookie_name.md) property must be set when [HttpCookie](httpcookie.md) is initialized by the constructor.
+The Name property must be set when [HttpCookie](httpcookie.md) is initialized by the constructor.
 
-The [Name](httpcookie_name.md) of the [HttpCookie](httpcookie.md) can't be **null** (**Nothing** in Visual Basic).
+The Name of the [HttpCookie](httpcookie.md) can't be **null** (**Nothing** in Visual Basic).
 
-The property should be a token as defined in [RFC 2616](http://go.microsoft.com/fwlink/p/?LinkID=241642) and [RFC 6265](http://tools.ietf.org/html/rfc6265).
+The property should be a token as defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642) and [RFC 6265](https://tools.ietf.org/html/rfc6265).
 
 The following characters are used as separators and can't be used in the cookie name: 
 + left paren ('(')

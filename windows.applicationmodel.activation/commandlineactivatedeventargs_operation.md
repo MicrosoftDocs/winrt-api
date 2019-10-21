@@ -19,6 +19,6 @@ The activation info.
 The app supplies the exit code which is passed back to the caller.
  
 ## -see-also
-[CommandLineActivatedEventArgs.Operation](commandlineactivatedeventargs_operation.md)
+CommandLineActivatedEventArgs.Operation
 
 ## -examples

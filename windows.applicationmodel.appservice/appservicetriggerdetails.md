@@ -15,10 +15,18 @@ Represents details associated with the background task for the app service. App 
 
 ## -remarks
 
-To get the [AppServiceTriggerDetails](appservicetriggerdetails.md) for an app service, use the [IBackgroundTaskInstance.TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md) property.
+To get the AppServiceTriggerDetails for an app service, use the [IBackgroundTaskInstance.TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md) property.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IsRemoteSystemConnection |
+| 1709 | 16299 | CheckCallerForCapabilityAsync |
+| 1903 | 18362 | CallerRemoteConnectionToken |
 
 ## -examples
 
 ## -see-also
 
-[IBackgroundTaskInstance.TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md), [App services sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620489)
+[IBackgroundTaskInstance.TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md), [App services sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620489)

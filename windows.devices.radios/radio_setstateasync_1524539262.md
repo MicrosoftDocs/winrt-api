@@ -18,7 +18,7 @@ An asynchronous operation that attempts to set the state of the radio represente
 The desired radio state. 
 
 > [!NOTE]
-> Only **RadioStateOn** and **RadioStateOff** may be set using [SetStateAsync](radio_setstateasync_1524539262.md).
+> Only **RadioStateOn** and **RadioStateOff** may be set using SetStateAsync.
 
 ## -returns
 An asynchronous state setting operation. On successful completion, contains an enumeration value describing status of the state change request.

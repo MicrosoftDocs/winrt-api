@@ -20,9 +20,9 @@ A reference to the data item for which a [UIElement](uielement.md) should be rea
 
 ## -remarks
 
-The implementation on [DataTemplate](datatemplate.md) for [GetElement](ielementfactory_getelement_92222689.md) does not use the [Data](elementfactorygetargs_data.md) value.
+The implementation on [DataTemplate](datatemplate.md) for [GetElement](ielementfactory_getelement_92222689.md) does not use the Data value.
 
-However, [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md)'s implementation does use the [Data](elementfactorygetargs_data.md) value as the *item* argument when it invokes the [SelectTemplate](../windows.ui.xaml.controls/datatemplateselector_selecttemplate_737484049.md) method.
+However, [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md)'s implementation does use the Data value as the *item* argument when it invokes the [SelectTemplate](../windows.ui.xaml.controls/datatemplateselector_selecttemplate_737484049.md) method.
 
 ## -see-also
 

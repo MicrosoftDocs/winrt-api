@@ -16,13 +16,13 @@ The maximum message size, in bytes, for a WebSocket message to be configured on 
 The maximum message size, in bytes, to be configured on the [MessageWebSocket](messagewebsocket.md) object.
 
 ## -remarks
-The [MaxMessageSize](messagewebsocketcontrol_maxmessagesize.md) property is used to configure the maximum size of a WebSocket message on a [MessageWebSocket](messagewebsocket.md) object. If a message exceeds this size, [MessageReceived](messagewebsocket_messagereceived.md) event will be raised on the [MessageWebSocket](messagewebsocket.md) object, and the [GetDataReader](messagewebsocketmessagereceivedeventargs_getdatareader_509392724.md) or [GetDataStream](messagewebsocketmessagereceivedeventargs_getdatastream_1357691687.md) method on the [MessageWebSocketMessageReceivedEventArgs](messagewebsocketmessagereceivedeventargs.md) callback parameter will fail (with an error code indicating that the maximum message size has been exceeded).
+The MaxMessageSize property is used to configure the maximum size of a WebSocket message on a [MessageWebSocket](messagewebsocket.md) object. If a message exceeds this size, [MessageReceived](messagewebsocket_messagereceived.md) event will be raised on the [MessageWebSocket](messagewebsocket.md) object, and the [GetDataReader](messagewebsocketmessagereceivedeventargs_getdatareader_509392724.md) or [GetDataStream](messagewebsocketmessagereceivedeventargs_getdatastream_1357691687.md) method on the [MessageWebSocketMessageReceivedEventArgs](messagewebsocketmessagereceivedeventargs.md) callback parameter will fail (with an error code indicating that the maximum message size has been exceeded).
 
-The default value for the [MaxMessageSize](messagewebsocketcontrol_maxmessagesize.md) property is INFINITE.
+The default value for the MaxMessageSize property is INFINITE.
 
-The [MaxMessageSize](messagewebsocketcontrol_maxmessagesize.md) property can only be set before calling the [ConnectAsync](messagewebsocket_connectasync_682685111.md) method on the [MessageWebSocket](messagewebsocket.md) object. If the [MessageWebSocket](messagewebsocket.md) is already connected, an attempt to set this property will return an error.
+The MaxMessageSize property can only be set before calling the [ConnectAsync](messagewebsocket_connectasync_682685111.md) method on the [MessageWebSocket](messagewebsocket.md) object. If the [MessageWebSocket](messagewebsocket.md) is already connected, an attempt to set this property will return an error.
 
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/0a47f7c3-66f9-4315-886e-bd1afe77bf39), [How to use advanced WebSocket controls ](http://msdn.microsoft.com/library/4ab9621e-90e5-420e-88d0-09f1c7239d7a), [MessageWebSocket](messagewebsocket.md)
+[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)), [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)), [MessageWebSocket](messagewebsocket.md)

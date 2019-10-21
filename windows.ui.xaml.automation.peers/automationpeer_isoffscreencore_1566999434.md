@@ -21,4 +21,4 @@ The standard implementation returns a result that is based on the owner's [Visib
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [UIElement.Visibility](../windows.ui.xaml/uielement_visibility.md), [Custom automation peers](http://msdn.microsoft.com/library/aa8da53b-fe6e-40ac-9f0a-cb09637c87b4), [Accessibility](http://msdn.microsoft.com/library/c89d79c2-b830-493d-b020-f3ff8eb5ffdd)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [UIElement.Visibility](../windows.ui.xaml/uielement_visibility.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessibility)

@@ -24,9 +24,15 @@ UWP app using C++, C#, or Visual Basic typically implement activation points by 
 
 All [Application](../windows.ui.xaml/application.md) overrides involved in an activation scenario should call [Window.Activate](../windows.ui.xaml/window_activate_1797342875.md) in their implementations.
 
-For example code, see [Share target activation sample](http://go.microsoft.com/fwlink/p/?LinkID=231519).
+For example code, see [Share target activation sample](https://go.microsoft.com/fwlink/p/?LinkID=231519).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
 
 ## -examples
 
 ## -see-also
-[Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Share target activation sample](http://go.microsoft.com/fwlink/p/?LinkID=231519)
+[Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Share target activation sample](https://go.microsoft.com/fwlink/p/?LinkID=231519)

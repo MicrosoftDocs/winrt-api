@@ -10,7 +10,7 @@ public double GetNumber()
 # Windows.Data.Json.JsonValue.GetNumber
 
 ## -description
-Gets the number (a [Double](https://msdn.microsoft.com/library/system.double.aspx)) if the [ValueType](ijsonvalue_valuetype.md) of the encapsulated value is **Number**.
+Gets the number (a [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)) if the [ValueType](ijsonvalue_valuetype.md) of the encapsulated value is **Number**.
 
 ## -returns
 The number value.

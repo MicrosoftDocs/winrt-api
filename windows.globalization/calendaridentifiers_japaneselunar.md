@@ -19,7 +19,7 @@ This name is reserved for a future update. Do not access or use this property in
 The string "JapaneseLunarCalendar", which is the identifier for the Japanese lunar calendar.
 
 ## -remarks
-<!--Use https://msdn.microsoft.com/en-us/library/system.globalization.japaneselunisolarcalendar.aspx ?-->
+<!--Use https://msdn.microsoft.com/library/system.globalization.japaneselunisolarcalendar.aspx ?-->
 This name is reserved for a future update. Do not access or use this property in your code, as accessing the property will result in errors or exceptions being thrown.
 
 ## -examples

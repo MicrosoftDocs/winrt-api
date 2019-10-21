@@ -18,13 +18,13 @@ Occurs when a Mobile Broadband Account is updated on the client.
 
 
 
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations). 
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations). 
 
 ## -remarks
 The network account id of the account is available in the event handler from the [NetworkAccountId](mobilebroadbandaccountupdatedeventargs_networkaccountid.md) property.
 
 
-The [AccountUpdated](mobilebroadbandaccountwatcher_accountupdated.md) event is triggered when any of the following properties change:
+The AccountUpdated event is triggered when any of the following properties change:
 
 + [MobileBroadbandDeviceInformation](mobilebroadbanddeviceinformation.md) class:
 
@@ -43,7 +43,6 @@ The [AccountUpdated](mobilebroadbandaccountwatcher_accountupdated.md) event is t
 
 + [MobileBroadbandNetwork](mobilebroadbandnetwork.md) class:
 
-+ [AccessPointName](mobilebroadbandnetwork_accesspointname.md)
 + [AccessPointName](mobilebroadbandnetwork_accesspointname.md)
 + [NetworkRegistrationState](mobilebroadbandnetwork_networkregistrationstate.md)
 + [PacketAttachNetworkError](mobilebroadbandnetwork_packetattachnetworkerror.md)

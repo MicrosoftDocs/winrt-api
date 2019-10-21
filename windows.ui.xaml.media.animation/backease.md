@@ -19,18 +19,18 @@ Represents an easing function that changes a value in the opposite direction of 
 
 
 ## -remarks
-[BackEase](backease.md) is one of the two easing functions that can produce a value outside of the normal **From**/**To** range. (The other is [ElasticEase](elasticease.md).)
+BackEase is one of the two easing functions that can produce a value outside of the normal **From**/**To** range. (The other is [ElasticEase](elasticease.md).)
 + If [EasingMode](easingmode.md) is **EaseIn** (the default) then the function starts by changing the value in the opposite direction of the value change that **From** and **To** indicate, in other words it initially produces a value that's less than the **From** value.
 + If [EasingMode](easingmode.md) is **EaseOut** then the function starts in a typical way, but near the end will exceed the **To** value and then come back to the **To** value at the end.
 + If [EasingMode](easingmode.md) is **EaseInOut** then the function gives values that are less than **From** at the beginning and greater than **To** near the end.
- This illustration shows a function-over-time graph approximation for a [BackEase](backease.md) for each of the three possible [EasingMode](easingmode.md) values, with [Amplitude](backease_amplitude.md) as its default value.<img src="images/backease_concept.png" alt="Illustration of function-over-time graph for the BackEase easing function. The graph shows curves where the x axis is time t and the y axis is function-over-time f(t)" />
+ This illustration shows a function-over-time graph approximation for a BackEase for each of the three possible [EasingMode](easingmode.md) values, with [Amplitude](backease_amplitude.md) as its default value.<img src="images/backease_concept.png" alt="Illustration of function-over-time graph for the BackEase easing function. The graph shows curves where the x axis is time t and the y axis is function-over-time f(t)" />
 
 You might get best results by just experimenting with the [Springiness](elasticease_springiness.md) and [EasingMode](easingfunctionbase_easingmode.md) properties until the animation is visually doing what you want for your animated property value scenario.
 
-An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
+An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations).
 
 ## -examples
-The following example applies a [BackEase](backease.md) easing function to a [DoubleAnimation](doubleanimation.md) to create an animation that retracts slightly at the beginning and end of the animation.
+The following example applies a BackEase easing function to a [DoubleAnimation](doubleanimation.md) to create an animation that retracts slightly at the beginning and end of the animation.
 
 
 <!--  
@@ -45,7 +45,7 @@ The following example applies a [BackEase](backease.md) easing function to a [Do
 
 
 
-[!code-xml[BackEase_scale](../windows.ui.xaml.media.animation/code/BackEase_scale/csharp/Page.xaml#SnippetBackEase_scale)]
+[!code-xaml[BackEase_scale](../windows.ui.xaml.media.animation/code/BackEase_scale/csharp/Page.xaml#SnippetBackEase_scale)]
 
 
 [!code-csharp[BackEase_scale_code](../windows.ui.xaml.media.animation/code/BackEase_scale/csharp/Page.xaml.cs#SnippetBackEase_scale_code)]
@@ -53,5 +53,5 @@ The following example applies a [BackEase](backease.md) easing function to a [Do
 [!code-vb[BackEase_scale_code](../windows.ui.xaml.media.animation/code/BackEase_scale/vbnet/MainPage.xaml.vb#SnippetBackEase_scale_code)]
 
 ## -see-also
-[Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [PowerEase](powerease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [PowerEase](powerease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)
 rticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

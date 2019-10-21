@@ -20,6 +20,14 @@ Calling this method acquires a buffer that will be used to update the primary la
 
 Your app will generally achieve optimal visual quality by calling CommitDirect3D11DepthBuffer to commit an accurate depth buffer whose pixels can be mapped back to meters using your specified near and far planes and then not calling SetFocusPoint.  This enables depth-based stabilization of the holograms in your frame.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | CommitDirect3D11DepthBuffer |
+| 1703 | 15063 | ReprojectionMode |
+| 1709 | 16299 | IsContentProtectionEnabled |
+
 ## -examples
 
 ## -see-also

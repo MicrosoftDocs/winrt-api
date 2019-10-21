@@ -18,7 +18,7 @@ The value of the HTTP **Content-Length** header value on the HTTP content. A nul
 ## -remarks
 
 
-The following sample code shows a method to get or set the **Content-Length** header on HTTP content using the [ContentLength](httpcontentheadercollection_contentlength.md) property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
+The following sample code shows a method to get or set the **Content-Length** header on HTTP content using the ContentLength property on the [HttpContentHeaderCollection](httpcontentheadercollection.md) object.
 
 ```csharp
     // Content-Length header

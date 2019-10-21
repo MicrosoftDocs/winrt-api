@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<string> RequestProductPurchaseAsync(Sy
 
 ## -description
 > [!NOTE]
-> [RequestProductPurchaseAsync(String, Boolean)](currentappsimulator_requestproductpurchaseasync_1631257175.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [RequestProductPurchaseAsync(String)](currentappsimulator_requestproductpurchaseasync_2091240017.md).
+> [RequestProductPurchaseAsync(String, Boolean) may be altered or unavailable for releases after Windows 8.1. Instead, use [RequestProductPurchaseAsync(String)](currentappsimulator_requestproductpurchaseasync_2091240017.md).
 
 Creates the async operation that displays the UI that is used to simulate the purchase of an add-on (also called an in-app product or IAP) from the Microsoft Store.
 
@@ -30,7 +30,7 @@ The remarks for [RequestProductPurchaseAsync(String)](currentappsimulator_reques
 
 To confirm whether the product license is active after a successful call to this overload, use the [LicenseInformation.IsActive](licenseinformation_isactive.md) property.
 
-You can see an example of how to use this method in our [code sample](http://go.microsoft.com/fwlink/p/?linkid=231569).
+You can see an example of how to use this method in our [code sample](https://go.microsoft.com/fwlink/p/?linkid=231569).
 
 ## -examples
 

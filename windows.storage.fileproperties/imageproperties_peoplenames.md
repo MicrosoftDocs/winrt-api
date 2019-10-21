@@ -16,7 +16,7 @@ Gets the names of people who are tagged in the photo.
 A list of the names of people who are tagged in the photo.
 
 ## -remarks
-This property is read-only, similar to the [Keywords](imageproperties_keywords.md) property.
+This property is read-only. You can't delete or replace the collection itself, and the contents of the collection are also read-only.
 
 ## -examples
 

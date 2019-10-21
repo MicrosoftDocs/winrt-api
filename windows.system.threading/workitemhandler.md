@@ -16,7 +16,7 @@ The work item to associate with the callback method.
 
 
 ## -remarks
-The thread pool calls a work item's [WorkItemHandler](workitemhandler.md) delegate when a thread becomes available to run the work item. If a work item is canceled, [WorkItemHandler](workitemhandler.md) delegates that have not yet started running are not called. [WorkItemHandler](workitemhandler.md) delegates that are already running are allowed to finish unless the application stops them. If a work item might run for a relatively long time, the application should check if cancellation has been requested and stop the handler in an orderly way.
+The thread pool calls a work item's WorkItemHandler delegate when a thread becomes available to run the work item. If a work item is canceled, WorkItemHandler delegates that have not yet started running are not called. WorkItemHandler delegates that are already running are allowed to finish unless the application stops them. If a work item might run for a relatively long time, the application should check if cancellation has been requested and stop the handler in an orderly way.
 
 For an example, see [Submit a work item to the thread pool](https://docs.microsoft.com/windows/uwp/threading-async/submit-a-work-item-to-the-thread-pool).
 

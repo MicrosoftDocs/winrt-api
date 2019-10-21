@@ -30,4 +30,4 @@ This method only allows you to create an encoder of the same image format as the
 ## -examples
 
 ## -see-also
-[Imaging](http://msdn.microsoft.com/library/3fd2aa71-ef67-47b2-9332-3ffa5d3703ea)
+[Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging)

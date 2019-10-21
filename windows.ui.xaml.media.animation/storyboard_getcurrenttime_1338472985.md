@@ -20,4 +20,4 @@ The current animation time of the [Storyboard](storyboard.md) per the running an
 ## -examples
 
 ## -see-also
-[GetCurrentState](storyboard_getcurrentstate_114562419.md), [Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)
+[GetCurrentState](storyboard_getcurrentstate_114562419.md), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)

@@ -15,12 +15,12 @@ Provides access to media playback functionality such as play, pause, fast-forwar
 
 ## -remarks
 
-The [Media playback](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/media-playback) section of the documentation contains how-to articles that provide detailed guidance for adding media playback features to your app. The following table lists some of the available articles.
+The [Media playback](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback) section of the documentation contains how-to articles that provide detailed guidance for adding media playback features to your app. The following table lists some of the available articles.
 
 | Topic                                                                                             | Description                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Play audio and video with MediaPlayer](https://docs.microsoft.com/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer) | Shows you how to take advantage of the new features and improvements to the media playback system for UWP apps.                                                                                                          |
-| [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource)                         | Shows you how to use the [**MediaSource**](https://msdn.microsoft.com/library/windows/apps/Windows.Media.Core.MediaSource) class, which provides a common way to reference and play back media from different sources such as local or remote files and exposes a common model for accessing media data, regardless of the underlying media format.                                                                                                               |
+| [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource)                         | Shows you how to use the [**MediaSource**](https://docs.microsoft.com/uwp/api/Windows.Media.Core.MediaSource) class, which provides a common way to reference and play back media from different sources such as local or remote files and exposes a common model for accessing media data, regardless of the underlying media format.                                                                                                               |
 | [Integrate with the System Media Transport Controls](https://docs.microsoft.com/windows/uwp/audio-video-camera/integrate-with-systemmediatransportcontrols)                               | Shows you how to integrate your app with the System Media Transport Controls (SMTC).                                    |
 | [System-supported timed metadata cues](https://docs.microsoft.com/windows/uwp/audio-video-camera/system-supported-metadata-cues)                               | Describes how to take advantage of several formats of timed metadata that may be embedded in media files or streams.                                   |
 | [Create, schedule, and manage media breaks](https://docs.microsoft.com/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks)                                                                             | Shows you how to create, schedule, and manage media breaks to your media playback app.                                                                                                                      |
@@ -39,6 +39,39 @@ The following SDK samples demonstrate the media playback features available to U
 * [360-degree Video Playback sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/360VideoPlayback)
 * [Background media playback sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/BackgroundMediaPlayback)
 * [Video playback synchronization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VideoPlaybackSynchronization)
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | AddAudioEffect |
+| 1511 | 10586 | RemoveAllEffects |
+| 1607 | 14393 | AddVideoEffect |
+| 1607 | 14393 | AudioBalance |
+| 1607 | 14393 | AudioDevice |
+| 1607 | 14393 | BreakManager |
+| 1607 | 14393 | CommandManager |
+| 1607 | 14393 | GetAsCastingSource |
+| 1607 | 14393 | GetSurface |
+| 1607 | 14393 | IsMutedChanged |
+| 1607 | 14393 | PlaybackSession |
+| 1607 | 14393 | RealTimePlayback |
+| 1607 | 14393 | SetSurfaceSize |
+| 1607 | 14393 | SourceChanged |
+| 1607 | 14393 | StepBackwardOneFrame |
+| 1607 | 14393 | StepForwardOneFrame |
+| 1607 | 14393 | StereoscopicVideoRenderMode |
+| 1607 | 14393 | TimelineController |
+| 1607 | 14393 | TimelineControllerPositionOffset |
+| 1703 | 15063 | CopyFrameToStereoscopicVideoSurfaces |
+| 1703 | 15063 | CopyFrameToVideoSurface(IDirect3DSurface) |
+| 1703 | 15063 | CopyFrameToVideoSurface(IDirect3DSurface,Rect) |
+| 1703 | 15063 | IsVideoFrameServerEnabled |
+| 1703 | 15063 | VideoFrameAvailable |
+| 1709 | 16299 | RenderSubtitlesToSurface(IDirect3DSurface) |
+| 1709 | 16299 | RenderSubtitlesToSurface(IDirect3DSurface,Rect) |
+| 1709 | 16299 | SubtitleFrameChanged |
+| 1803 | 17134 | AudioStateMonitor |
 
 ## -examples
 

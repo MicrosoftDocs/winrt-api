@@ -32,4 +32,4 @@ The string "Kali", which identifies the Kayah Li decimal numeral system. This sy
 ## -examples
 
 ## -see-also
-[NumeralSystem values](http://msdn.microsoft.com/library/69ef3b67-7c16-4d44-9e6a-2c5fde0fdc8f)
+[NumeralSystem values](https://docs.microsoft.com/previous-versions/windows/apps/jj236471(v=win.10))

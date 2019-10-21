@@ -18,7 +18,7 @@ A list of [ChainValidationResult](../windows.security.cryptography.certificates/
 ## -remarks
 
 ## -examples
-The following example demonstrates how to ignore the [ChainValidationResult.Untrusted](../windows.security.cryptography.certificates/chainvalidationresult.md) error when you are connecting to a server that uses a self-signed certificate. The code adds the appropriate value to the [IgnorableServerCertificateErrors](streamwebsocketcontrol_ignorableservercertificateerrors.md) list before calling [ConnectAsync](streamwebsocket_connectasync_682685111.md) on the web socket. The server's self-signed certificate will not cause validation to fail, but other errors in validating the server certificate would still result in [ConnectAsync](streamwebsocket_connectasync_682685111.md) failing.
+The following example demonstrates how to ignore the [ChainValidationResult.Untrusted](../windows.security.cryptography.certificates/chainvalidationresult.md) error when you are connecting to a server that uses a self-signed certificate. The code adds the appropriate value to the IgnorableServerCertificateErrors list before calling [ConnectAsync](streamwebsocket_connectasync_682685111.md) on the web socket. The server's self-signed certificate will not cause validation to fail, but other errors in validating the server certificate would still result in [ConnectAsync](streamwebsocket_connectasync_682685111.md) failing.
 
 ```csharp
             private async void CreateAndConnectWebSocket()

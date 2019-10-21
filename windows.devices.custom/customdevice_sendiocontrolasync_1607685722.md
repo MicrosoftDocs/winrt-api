@@ -26,7 +26,7 @@ The output buffer.
 The result of the async operation.
 
 ## -remarks
-[SendIOControlAsync](customdevice_sendiocontrolasync_1607685722.md) is like [TrySendIOControlAsync](customdevice_trysendiocontrolasync_260174567.md), except this method throws an exception if the operation fails. If you want to handle any exceptions that occur during the operation, use the [SendIOControlAsync](customdevice_sendiocontrolasync_1607685722.md) method. If you just want to be notified whether the operation is successful, but not handle any specific exceptions, use [TrySendIOControlAsync](customdevice_trysendiocontrolasync_260174567.md).
+SendIOControlAsync is like [TrySendIOControlAsync](customdevice_trysendiocontrolasync_260174567.md), except this method throws an exception if the operation fails. If you want to handle any exceptions that occur during the operation, use the SendIOControlAsync method. If you just want to be notified whether the operation is successful, but not handle any specific exceptions, use [TrySendIOControlAsync](customdevice_trysendiocontrolasync_260174567.md).
 
 ## -examples
 

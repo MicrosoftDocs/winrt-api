@@ -16,7 +16,7 @@ Contains the set of arguments returned to an app after a window input or behavio
 This object is passed to the app in the corresponding event delegate. The app can use this to set the [Handled](icorewindoweventargs_handled.md) property, which, when true, informs the framework to perform default processing of the event.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 
 ## -examples
 

@@ -10,11 +10,11 @@ public KeyboardCapabilities()
 # Windows.Devices.Input.KeyboardCapabilities.KeyboardCapabilities
 
 ## -description
-Initializes a new instance of the [KeyboardCapabilities](keyboardcapabilities_keyboardcapabilities_1221375020.md) class.
+Initializes a new instance of the KeyboardCapabilities class.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Quickstart: Identifying input devices](https://docs.microsoft.com/en-us/windows/uwp/design/input/identify-input-devices)
+[Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices)

@@ -21,16 +21,16 @@ This property is **false** by default so that a custom [ControlTemplate](control
 To define custom focus visuals for a control, you need to provide a custom [ControlTemplate](controltemplate.md). 
 In the [ControlTemplate](controltemplate.md), do the following:
 
-+ If you're modifying a default [ControlTemplate](controltemplate.md), be sure to set the [UseSystemFocusVisuals](control_usesystemfocusvisuals.md) property to **false** to turn off the system focus visuals. When set to **false**, the focus states in the [VisualStateManager](../windows.ui.xaml/visualstatemanager.md) are called.
++ If you're modifying a default [ControlTemplate](controltemplate.md), be sure to set the UseSystemFocusVisuals property to **false** to turn off the system focus visuals. When set to **false**, the focus states in the [VisualStateManager](../windows.ui.xaml/visualstatemanager.md) are called.
 + Define a [VisualStateGroup](../windows.ui.xaml/visualstategroup.md) for `FocusStates`.
-+ In the `FocusStates` group, define [VisualState](../windows.ui.xaml/visualstate.md) s for `Focused`, `Unfocused`, and `PointerFocused`.
++ In the `FocusStates` group, define [VisualState](../windows.ui.xaml/visualstate.md)s for `Focused`, `Unfocused`, and `PointerFocused`.
 + Define the focus visuals.
 
 
 ## -examples
 This example shows a [ControlTemplate](controltemplate.md) that defines custom focus visuals for a [Button](button.md).
 
-Some elements of the control template aren't shown to make the relevant parts more clear. To see the full control template for [Button](button.md), see [Button styles and templates](http://msdn.microsoft.com/library/05f2b757-6a25-42a7-824a-45776e76c2d2).
+Some elements of the control template aren't shown to make the relevant parts more clear. To see the full control template for [Button](button.md), see [Button styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles).
 
 ```xaml
 <Style TargetType="Button">
@@ -111,4 +111,4 @@ Some elements of the control template aren't shown to make the relevant parts mo
 
 
 ## -see-also
-[FocusState](control_focusstate.md), [Control.IsTemplateFocusTarget](control_istemplatefocustarget.md), [Button styles and templates](http://msdn.microsoft.com/library/05f2b757-6a25-42a7-824a-45776e76c2d2)
+[FocusState](control_focusstate.md), [Control.IsTemplateFocusTarget](/uwp/api/windows.ui.xaml.controls.control#xaml-attached-properties), [Button styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)

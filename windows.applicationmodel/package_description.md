@@ -22,4 +22,4 @@ The description of the package.
 ## -examples
 
 ## -see-also
-[App package information sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620581)
+[App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)

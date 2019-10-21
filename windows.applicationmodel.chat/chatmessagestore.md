@@ -16,6 +16,12 @@ Provides the methods and properties to read, manage and send messages. An applic
 ## -remarks
 Obtain an instance of this class by calling [RequestStoreAsync](chatmessagemanager_requeststoreasync_428591920.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | GetMessageBySyncIdAsync |
+
 ## -examples
 
 ## -see-also

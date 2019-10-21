@@ -17,17 +17,14 @@ Composition objects are the visual tree structure on which all other features of
 ## -remarks
 Objects are created using a [Compositor](compositor.md) object. The composition objects can be containers only or can hold content. The API allows for ease of use by providing a clear set of Visual objects for specific tasks that exist in a hierarchy:
 
-
 + [Visual](visual.md) – base object, the majority of the properties are here, and inherited by the other Visual objects.
 + [ContainerVisual](containervisual.md) – derives from [Visual](visual.md), and adds the ability to create children.
 + [SpriteVisual](spritevisual.md) – derives from [ContainerVisual](containervisual.md), and contains content in the form of images, effects, and swapchains.
 + [Compositor](compositor.md) – manages the relationship between an application and the system compositor process.
 Animations update the properties of any animatable composition object (such as Visual). There are two types of Animations:
 
-
 + [KeyFrameAnimation](keyframeanimation.md): Time-based animations with two or more key frames. These frames are markers, allowing developers to define what the animated value should be at the specified time. Animations can additionally be fine-tuned by specifying how the animation interpolates (blends) the values between key frames. [KeyFrameAnimation](keyframeanimation.md) has many subclasses each supporting a different type of key frame value.
-+ [ExpressionAnimation](expressionanimation.md): Animations that use a mathematical expression to specify how the animated value should be calculated each frame. The expressions can reference properties from composition objects. [ExpressionAnimation](expressionanimation.md) s are not time-based and are processed each frame (if necessary).
-
++ [ExpressionAnimation](expressionanimation.md): Animations that use a mathematical expression to specify how the animated value should be calculated each frame. The expressions can reference properties from composition objects. [ExpressionAnimation](expressionanimation.md)s are not time-based and are processed each frame (if necessary).
 
 ### Primitive Visuals
 
@@ -40,6 +37,20 @@ Effects can be attached to the visual tree in order to cause dynamic pixel chang
 An effect can be simple operations such as a desaturation, more complicated operations such as blurs, or very complex A B blend operations such as cross fades.
 
 See the remarks section of [CompositionEffectBrush](compositioneffectbrush.md) for additional information on creating and using effects.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Comment |
+| 1607 | 14393 | ImplicitAnimations |
+| 1607 | 14393 | StartAnimationGroup |
+| 1607 | 14393 | StopAnimationGroup |
+| 1709 | 16299 | DispatcherQueue |
+| 1803 | 17134 | TryGetAnimationController |
+| 1809 | 17763 | PopulatePropertyInfo |
+| 1809 | 17763 | StartAnimationGroupWithIAnimationObject |
+| 1809 | 17763 | StartAnimationWithIAnimationObject |
 
 ## -examples
 This sample shows how the composition API can be used to create a self-contained app without using XAML, WWA, or DirectX. The sample initializes a new [Compositor](compositor.md), and then creates a scene graph with two [SpriteVisual](spritevisual.md) objects.

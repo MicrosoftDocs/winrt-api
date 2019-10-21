@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 Returns a list of the [PhoneCallHistoryEntry](phonecallhistoryentry.md) objects.
 
 ## -returns
-An asynchronous operation that returns an [IVectorView](http://msdn.microsoft.com/library/644aa3d0-6f4d-406e-9adc-7f02fe575e90) upon successful completion.
+An asynchronous operation that returns an [IVectorView](https://docs.microsoft.com/previous-versions/br224594(v=vs.85)) upon successful completion.
 
 ## -remarks
 

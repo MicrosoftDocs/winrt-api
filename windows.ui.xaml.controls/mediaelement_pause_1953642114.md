@@ -13,6 +13,7 @@ public void Pause()
 Pauses media at the current position.
 
 ## -remarks
+Any calls to [Play](mediaelement_play_848564459.md), Pause, and [Stop](mediaelement_stop_1201535524.md) methods that occur before the [MediaOpened](mediaelement_mediaopened.md) event is raised are ignored.
 
 ## -examples
 

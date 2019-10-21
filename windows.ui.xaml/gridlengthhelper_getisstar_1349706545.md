@@ -10,7 +10,7 @@ public bool GetIsStar(Windows.UI.Xaml.GridLength target)
 # Windows.UI.Xaml.GridLengthHelper.GetIsStar
 
 ## -description
-Returns whether the evaluated [GridLength](gridlength.md) is the special "*" (star sizing) value. C# and Microsoft Visual Basic code should use [IsStar](gridlength_isstar.md) instead.
+Returns whether the evaluated [GridLength](gridlength.md) is the special "*" (star sizing) value. C# and Microsoft Visual Basic code should use [GridLength.IsStar](/dotnet/api/windows.ui.xaml.gridlength.isstar) instead.
 
 ## -parameters
 ### -param target

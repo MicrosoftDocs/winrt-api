@@ -19,9 +19,9 @@ See Remarks
 
 
 ## -remarks
-[GroupItem](groupitem.md) can technically be used as an object element in XAML. However, the more common XAML usage that involves [GroupItem](groupitem.md) indirectly is when declaring a [ContainerStyle](groupstyle_containerstyle.md). In this case, the "GroupItem" type is specified as the [TargetType](controltemplate_targettype.md) for the style/template.
+GroupItem can technically be used as an object element in XAML. However, the more common XAML usage that involves GroupItem indirectly is when declaring a [ContainerStyle](groupstyle_containerstyle.md). In this case, the "GroupItem" type is specified as the [TargetType](controltemplate_targettype.md) for the style/template.
 
 ## -examples
 
 ## -see-also
-[ContentControl](contentcontrol.md), [GroupStyle](groupstyle.md), [GroupItem styles and templates](http://msdn.microsoft.com/library/38f03fac-11c9-4a17-a30b-eea52ce322dc)
+[ContentControl](contentcontrol.md), [GroupStyle](groupstyle.md), [GroupItem styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)

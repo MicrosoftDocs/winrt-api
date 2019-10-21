@@ -17,6 +17,14 @@ Resource groups allow you to group components for the purposes of resource manag
 
 Resource groups are specified in the manifest with the **ResourceGroup** tag.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | StartResumeAsync |
+| 1803 | 17134 | StartSuspendAsync |
+| 1803 | 17134 | StartTerminateAsync |
+
 ## -see-also
 
 ## -examples

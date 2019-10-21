@@ -14,7 +14,7 @@ public class BluetoothLEAdvertisementPublisherStatusChangedEventArgs : Windows.D
 Provides data for a [StatusChanged](bluetoothleadvertisementpublisher_statuschanged.md) event on a [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md).
 
 ## -remarks
-A [BluetoothLEAdvertisementPublisherStatusChangedEventArgs](bluetoothleadvertisementpublisherstatuschangedeventargs.md) instance is created when the [StatusChanged](bluetoothleadvertisementpublisher_statuschanged.md) event occurs on a [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md) object.
+A BluetoothLEAdvertisementPublisherStatusChangedEventArgs instance is created when the [StatusChanged](bluetoothleadvertisementpublisher_statuschanged.md) event occurs on a [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md) object.
 
 ## -examples
 

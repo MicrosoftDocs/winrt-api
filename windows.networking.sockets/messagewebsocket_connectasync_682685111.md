@@ -20,11 +20,11 @@ An absolute [Uri](../windows.foundation/uri.md) for the server to connect to.
 An asynchronous connect operation on a [MessageWebSocket](messagewebsocket.md) object.
 
 ## -remarks
-The [ConnectAsync](messagewebsocket_connectasync_682685111.md) method initiates the WebSocket handshake with a remote network destination, and then negotiates the subprotocol.
+The ConnectAsync method initiates the WebSocket handshake with a remote network destination, and then negotiates the subprotocol.
 
 For WebSocket connections over TCP, use the **ws://** scheme in the *uri*. For secure WebSocket connections over TLS/SSL, use the **wss://** scheme.
 
 ## -examples
 
 ## -see-also
-[Uri](../windows.foundation/uri.md), [How to secure WebSocket connections with TLS/SSL](http://msdn.microsoft.com/library/0edaa6c3-f16d-4578-a039-60c547e99ad4)
+[Uri](../windows.foundation/uri.md), [How to secure WebSocket connections with TLS/SSL](https://docs.microsoft.com/previous-versions/windows/apps/hh761446(v=win.10))

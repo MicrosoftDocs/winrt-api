@@ -13,4 +13,4 @@ Defines the support types for Microsoft UI Automation infrastructure. These supp
 ## -examples
 
 ## -see-also
-[Windows.UI.Xaml.Automation.Peers](../windows.ui.xaml.automation.peers/windows_ui_xaml_automation_peers.md), [Windows.UI.Xaml.Automation.Provider](../windows.ui.xaml.automation.provider/windows_ui_xaml_automation_provider.md), [Accessibility](http://msdn.microsoft.com/library/c89d79c2-b830-493d-b020-f3ff8eb5ffdd)
+[Windows.UI.Xaml.Automation.Peers](../windows.ui.xaml.automation.peers/windows_ui_xaml_automation_peers.md), [Windows.UI.Xaml.Automation.Provider](../windows.ui.xaml.automation.provider/windows_ui_xaml_automation_provider.md), [Accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessibility)

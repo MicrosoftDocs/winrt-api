@@ -20,11 +20,11 @@ The local service name or TCP port on which to bind the [StreamSocketListener](s
 The asynchronous bind operation on a [StreamSocketListener](streamsocketlistener.md) object.
 
 ## -remarks
-The [BindServiceNameAsync(String)](streamsocketlistener_bindservicenameasync_673478814.md) method binds to the local IP addresses of all network interfaces on the local computer and to the local service name or TCP port specified in the *localServiceName* parameter. If the *localServiceName* parameter is an empty string, then the system will select the local TCP port on which to bind.
+The BindServiceNameAsync(String) method binds to the local IP addresses of all network interfaces on the local computer and to the local service name or TCP port specified in the *localServiceName* parameter. If the *localServiceName* parameter is an empty string, then the system will select the local TCP port on which to bind.
 
 For Bluetooth RFCOMM, this method binds to the Bluetooth Service ID specified in the *localServiceName* parameter on all Bluetooth interfaces. A Bluetooth Service ID must be supplied to bind for Bluetooth.
 
-The [BindServiceNameAsync(String)](streamsocketlistener_bindservicenameasync_673478814.md) method will fail if another app (another [StreamSocketListener](streamsocketlistener.md), for example) has already been bound to the local TCP port or Bluetooth Service ID specified in the *localServiceName* parameter.
+The BindServiceNameAsync(String) method will fail if another app (another [StreamSocketListener](streamsocketlistener.md), for example) has already been bound to the local TCP port or Bluetooth Service ID specified in the *localServiceName* parameter.
 
 ## -examples
 

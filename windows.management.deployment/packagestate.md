@@ -31,4 +31,4 @@ The package payload was tampered with intentionally.
 ## -examples
 
 ## -see-also
-[Packaging apps](http://msdn.microsoft.com/library/1abcbb13-80f0-4bf1-a812-649ee8bd1915), [PackageManager.SetPackageState](packagemanager_setpackagestate_175933383.md)
+[Packaging apps](https://docs.microsoft.com/windows/uwp/packaging/index), [PackageManager.SetPackageState](packagemanager_setpackagestate_175933383.md)

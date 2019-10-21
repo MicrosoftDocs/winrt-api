@@ -16,7 +16,7 @@ Gets or sets whether the currency is formatted with the currency symbol or curre
 The [CurrencyFormatterMode](currencyformattermode.md) value which specifies how the currency is formatted.
 
 ## -remarks
-See the remarks for [CurrencyFormatter((String, IIterable(String), String))](currencyformatter_currencyformatter_1781948400.md) for an explanation of how the currency code may be displayed when the currency symbol is ambiguous even if the [Mode](currencyformatter_mode.md) property is **UseSymbol**.
+See the remarks for [CurrencyFormatter((String, IIterable(String), String))](currencyformatter_currencyformatter_1781948400.md) for an explanation of how the currency code may be displayed when the currency symbol is ambiguous even if the Mode property is **UseSymbol**.
 
 ## -examples
 

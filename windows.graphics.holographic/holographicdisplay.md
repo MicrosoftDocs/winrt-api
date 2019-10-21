@@ -14,6 +14,13 @@ Provides metadata for a display to which a holographic view must render each fra
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | RefreshRate |
+| 1903 | 18362 | TryGetViewConfiguration |
+
 ## -see-also
 
 ## -examples

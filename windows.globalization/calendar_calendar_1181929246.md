@@ -21,4 +21,4 @@ The list of language identifiers, in priority order, that represents the choice 
 ## -examples
 
 ## -see-also
-[Calendar(IIterable(String), String, String)](calendar_calendar_1820927522.md), [Unicode Key/Type Definitions](http://go.microsoft.com/fwlink/p/?LinkId=308919)
+[Calendar(IIterable(String), String, String)](calendar_calendar_1820927522.md), [Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919)

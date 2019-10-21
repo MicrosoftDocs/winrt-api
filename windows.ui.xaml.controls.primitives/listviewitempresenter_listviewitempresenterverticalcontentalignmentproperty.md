@@ -11,7 +11,7 @@ public Windows.UI.Xaml.DependencyProperty ListViewItemPresenterVerticalContentAl
 
 ## -description
 > [!NOTE]
-> [ListViewItemPresenterVerticalContentAlignmentProperty](listviewitempresenter_listviewitempresenterverticalcontentalignmentproperty.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignmentProperty](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignmentproperty.md).
+> ListViewItemPresenterVerticalContentAlignmentProperty may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignmentProperty](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignmentproperty.md).
 
 Identifies the [ListViewItemPresenterVerticalContentAlignment](listviewitempresenter_listviewitempresenterverticalcontentalignment.md) dependency property.
 
@@ -20,9 +20,9 @@ The identifier for the [ListViewItemPresenterVerticalContentAlignment](listviewi
 
 ## -remarks
 > [!IMPORTANT]
-> [ListViewItemPresenterVerticalContentAlignmentProperty](listviewitempresenter_listviewitempresenterverticalcontentalignmentproperty.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignmentProperty](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignmentproperty.md).
+> ListViewItemPresenterVerticalContentAlignmentProperty may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.VerticalContentAlignmentProperty](../windows.ui.xaml.controls/contentpresenter_verticalcontentalignmentproperty.md).
 
 ## -examples
 
 ## -see-also
-[ListViewItemPresenterVerticalContentAlignment](listviewitempresenter_listviewitempresenterverticalcontentalignment.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[ListViewItemPresenterVerticalContentAlignment](listviewitempresenter_listviewitempresenterverticalcontentalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

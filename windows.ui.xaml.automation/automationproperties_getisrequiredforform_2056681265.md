@@ -10,7 +10,7 @@ public bool GetIsRequiredForForm(Windows.UI.Xaml.DependencyObject element)
 # Windows.UI.Xaml.Automation.AutomationProperties.GetIsRequiredForForm
 
 ## -description
-Gets the value of the [AutomationProperties.IsRequiredForForm](automationproperties_isrequiredforform.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Gets the value of the [AutomationProperties.IsRequiredForForm](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 ## -parameters
 ### -param element

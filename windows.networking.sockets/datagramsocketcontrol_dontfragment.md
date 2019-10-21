@@ -18,13 +18,13 @@ Whether the [DatagramSocket](datagramsocket.md) allows datagrams to be fragmente
 **true** if the [DatagramSocket](datagramsocket.md) shouldn't fragment datagrams; otherwise, **false**. The default is **false** which allows datagrams to be fragmented.
 
 ## -remarks
-The [DontFragment](datagramsocketcontrol_dontfragment.md) property lets your app decide whether the [DatagramSocket](datagramsocket.md) allows datagrams to be fragmented. The default value is **false** which allows datagrams to be fragmented.
+The DontFragment property lets your app decide whether the [DatagramSocket](datagramsocket.md) allows datagrams to be fragmented. The default value is **false** which allows datagrams to be fragmented.
 
-IP datagrams used by UDP require fragmentation when their size exceeds the Maximum Transfer Unit (MTU) of the network transmission hardware. Datagrams may be fragmented by the sending app or by an intermediate router (IPv4 only). If a datagram must be fragmented, and the [DontFragment](datagramsocketcontrol_dontfragment.md) property is set to **true**, the datagram is discarded, and an Internet Control Message Protocol (ICMP) error message is sent back to the sender of the datagram.
+IP datagrams used by UDP require fragmentation when their size exceeds the Maximum Transfer Unit (MTU) of the network transmission hardware. Datagrams may be fragmented by the sending app or by an intermediate router (IPv4 only). If a datagram must be fragmented, and the DontFragment property is set to **true**, the datagram is discarded, and an Internet Control Message Protocol (ICMP) error message is sent back to the sender of the datagram.
 
 This property may be set before the [DatagramSocket](datagramsocket.md) is bound or connected. After the [DatagramSocket](datagramsocket.md) is bound or connected, setting this property will result in an error.
 
 ## -examples
 
 ## -see-also
-[How to use advanced socket controls  ](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4), [How to use advanced socket controls  ](http://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682), [DatagramSocket](datagramsocket.md)
+[How to use advanced socket controls  ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls  ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md)

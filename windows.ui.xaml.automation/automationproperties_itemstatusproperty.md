@@ -10,15 +10,18 @@ public Windows.UI.Xaml.DependencyProperty ItemStatusProperty { get; }
 # Windows.UI.Xaml.Automation.AutomationProperties.ItemStatusProperty
 
 ## -description
-Identifies the [AutomationProperties.ItemStatus](automationproperties_itemstatus.md) attached property, which is a text string describing the status of an item of the automation element.
+
+Identifies the ItemStatus attached property, which describes the status of an automation element item.
 
 ## -property-value
-The identifier for the [AutomationProperties.ItemStatus](automationproperties_itemstatus.md) attached property.
+
+A text string containing an identifier for the ItemStatus attached property.
 
 ## -remarks
-[ItemStatus](automationproperties_itemstatus.md) enables a client to ascertain whether an element is conveying status about an item as well as what the status is. For example, an item associated with a contact in a messaging application might be "Busy" or "Connected".
 
-When [ItemStatus](automationproperties_itemstatus.md) is supported, the string must match the application UI language or the operating system default UI language.
+The ItemStatus property lets a client ascertain whether an element is conveying status about an item as well as what the status is. For example, an item associated with a contact in a messaging application might be "Busy" or "Connected".
+
+When [ItemStatus](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) is supported, the string must match the application UI language or the operating system default UI language.
 
 ## -examples
 

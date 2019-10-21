@@ -15,6 +15,12 @@ Represents the display mode of a connected device such as a TV or a monitor. It 
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | IsDolbyVisionLowLatencySupported |
+
 ## -see-also
 
 ## -examples

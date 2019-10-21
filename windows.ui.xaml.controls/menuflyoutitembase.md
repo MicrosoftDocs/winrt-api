@@ -17,9 +17,9 @@ There are three elements that you can use to compose the menu items in a [MenuFl
 
 ### **MenuFlyoutItemBase** derived classes
 
-[MenuFlyoutItemBase](menuflyoutitembase.md) is the parent class for [MenuFlyoutItem](menuflyoutitem.md) and [MenuFlyoutSeparator](menuflyoutseparator.md).
+MenuFlyoutItemBase is the parent class for [MenuFlyoutItem](menuflyoutitem.md) and [MenuFlyoutSeparator](menuflyoutseparator.md).
 
 ## -examples
 
 ## -see-also
-[Control](control.md), [MenuFlyoutItem](menuflyoutitem.md), [MenuFlyoutSeparator](menuflyoutseparator.md), [ToggleMenuFlyoutItem](togglemenuflyoutitem.md), [Quickstart: Adding a MenuFlyout](http://msdn.microsoft.com/library/0261a056-9b91-41f7-88ff-a104cbb9ac26)
+[Control](control.md), [MenuFlyoutItem](menuflyoutitem.md), [MenuFlyoutSeparator](menuflyoutseparator.md), [ToggleMenuFlyoutItem](togglemenuflyoutitem.md), [Quickstart: Adding a MenuFlyout](https://docs.microsoft.com/previous-versions/windows/apps/dn308516(v=win.10))

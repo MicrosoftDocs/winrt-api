@@ -13,7 +13,7 @@ public class ContactAnnotationList : Windows.ApplicationModel.Contacts.IContactA
 Represents a list of [ContactAnnotation](contactannotation.md) objects.
 
 ## -remarks
-Call one of the following methods to create or get an existing [ContactAnnotationList](contactannotationlist.md):
+Call one of the following methods to create or get an existing ContactAnnotationList:
 
 
 + [CreateAnnotationListAsync](contactannotationstore_createannotationlistasync_777171367.md)
@@ -25,6 +25,6 @@ Call one of the following methods to create or get an existing [ContactAnnotatio
 ## -examples
 
 ## -see-also
-[Contact Card integration sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703783)
+[Contact Card integration sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703783)
 ## -capabilities
 contactsSystem

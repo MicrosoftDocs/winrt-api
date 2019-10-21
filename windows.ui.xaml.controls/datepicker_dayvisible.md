@@ -22,9 +22,9 @@ Gets or sets a value that indicates whether the day selector is shown.
 **true** if the day selector is shown; otherwise, **false**. The default is **true**.
 
 ## -remarks
-By default, the [DatePicker](datepicker.md) shows [ComboBox](combobox.md) elements to select the month, day, and year. Set [DayVisible](datepicker_dayvisible.md) to **false** to hide the [ComboBox](combobox.md) that displays or changes the day component of a date.
+By default, the [DatePicker](datepicker.md) shows [ComboBox](combobox.md) elements to select the month, day, and year. Set DayVisible to **false** to hide the [ComboBox](combobox.md) that displays or changes the day component of a date.
 
 ## -examples
 
 ## -see-also
-[MonthVisible](datepicker_monthvisible.md), [YearVisible](datepicker_yearvisible.md), [Quickstart: Adding a DatePicker](http://msdn.microsoft.com/library/feae870d-e423-457b-9d0a-3929247952a9)
+[MonthVisible](datepicker_monthvisible.md), [YearVisible](datepicker_yearvisible.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10))

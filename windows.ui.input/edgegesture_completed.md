@@ -21,4 +21,4 @@ When the handler for this event is called, an app can do one of two things: show
 ## -examples
 
 ## -see-also
-[Edge gesture invocation sample](http://go.microsoft.com/fwlink/p/?linkid=242153)
+[Edge gesture invocation sample](https://go.microsoft.com/fwlink/p/?linkid=242153)

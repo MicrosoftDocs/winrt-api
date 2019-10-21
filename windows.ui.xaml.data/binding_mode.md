@@ -25,7 +25,7 @@ Gets or sets a value that indicates the direction of the data flow in the bindin
 One of the [BindingMode](bindingmode.md) values. The default is **OneWay**: the source updates the target, but changes to the target value do not update the source.
 
 ## -remarks
-For **OneWay** and **TwoWay** bindings, dynamic changes to the source don't automatically propagate to the target without providing some support from the source. You must implement the **INotifyPropertyChanged** interface on the source object so that the source can report changes through events that the binding engine listens for. For C# or Microsoft Visual Basic, implement [System.ComponentModel.INotifyPropertyChanged](https://msdn.microsoft.com/library/system.componentmodel.inotifypropertychanged.aspx). For Visual C++ component extensions (C++/CX), implement [Windows::UI::Xaml::Data::INotifyPropertyChanged](inotifypropertychanged.md).
+For **OneWay** and **TwoWay** bindings, dynamic changes to the source don't automatically propagate to the target without providing some support from the source. You must implement the **INotifyPropertyChanged** interface on the source object so that the source can report changes through events that the binding engine listens for. For C# or Microsoft Visual Basic, implement [System.ComponentModel.INotifyPropertyChanged](https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged?redirectedfrom=MSDN). For Visual C++ component extensions (C++/CX), implement [Windows::UI::Xaml::Data::INotifyPropertyChanged](inotifypropertychanged.md).
 
 For **TwoWay** bindings, changes to the target automatically propagate to the source, except if the binding target is the [TextBox.Text](../windows.ui.xaml.controls/textbox_text.md) property. In that case, the update happens only when the [TextBox](../windows.ui.xaml.controls/textbox.md) loses focus. Also, it's possible to set [UpdateSourceTrigger](binding_updatesourcetrigger.md) on **TwoWay** bindings to **Explicit**, in which case you control the updates to the source explicitly by calling [UpdateSource](bindingexpression_updatesource_190615267.md).
 
@@ -41,7 +41,7 @@ This example demonstrates how to set the binding mode in XAML.
 
 
 
-[!code-xml[BindingMode](../windows.ui.xaml.controls.primitives/code/Binding_Simple/csharp/Page.xaml#SnippetBindingMode)]
+[!code-xaml[BindingMode](../windows.ui.xaml.controls.primitives/code/Binding_Simple/csharp/Page.xaml#SnippetBindingMode)]
 
 ## -see-also
-[XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [UpdateSourceTrigger](binding_updatesourcetrigger.md), [System.ComponentModel.INotifyPropertyChanged](https://msdn.microsoft.com/library/system.componentmodel.inotifypropertychanged.aspx)
+[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [UpdateSourceTrigger](binding_updatesourcetrigger.md), [System.ComponentModel.INotifyPropertyChanged](https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged?redirectedfrom=MSDN)

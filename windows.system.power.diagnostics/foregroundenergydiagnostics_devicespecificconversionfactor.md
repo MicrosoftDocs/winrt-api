@@ -19,7 +19,7 @@ Gets the device-specific conversion factor used to convert energy usage (mW) to 
 The device-specific conversion factor used to convert energy usage (mW) to a normalized percentage
 
 ## -remarks
-To determine the estimated energy usage for the device in units of milliwatts (mW), divide the computed total energy usage by the [DeviceSpecificConversionFactor](foregroundenergydiagnostics_devicespecificconversionfactor.md).
+To determine the estimated energy usage for the device in units of milliwatts (mW), divide the computed total energy usage by the DeviceSpecificConversionFactor.
 
 ## -examples
 

@@ -16,7 +16,7 @@ Gets the fully qualified domain name.
 The fully qualified domain name.
 
 ## -remarks
-If the domain name is subject to *Punycode* encoding as shown in [AbsoluteCanonicalUri](uri_absolutecanonicaluri.md), the [Host](uri_host.md) property shows the decoded value, not the *Punycode* encoded value.
+If the domain name is subject to *Punycode* encoding as shown in [AbsoluteCanonicalUri](uri_absolutecanonicaluri.md), the Host property shows the decoded value, not the *Punycode* encoded value.
 
 ## -examples
 

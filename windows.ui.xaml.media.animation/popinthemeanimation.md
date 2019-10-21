@@ -24,7 +24,7 @@ This animation does not move or change the object or its neighbors. This animati
 Note that setting the [Duration](timeline_duration.md) property has no effect on this object since the duration is preconfigured.
 
 ## -examples
-The following shows an example template for a [ToolTip](../windows.ui.xaml.controls/tooltip.md) control that uses [PopInThemeAnimation](popinthemeanimation.md) and [PopOutThemeAnimation](popoutthemeanimation.md).
+The following shows an example template for a [ToolTip](../windows.ui.xaml.controls/tooltip.md) control that uses PopInThemeAnimation and [PopOutThemeAnimation](popoutthemeanimation.md).
 
 ```xaml
 <Style x:Key="ToolTipStyle1" TargetType="ToolTip">
@@ -71,4 +71,4 @@ The following shows an example template for a [ToolTip](../windows.ui.xaml.contr
 
 
 ## -see-also
-[Timeline](timeline.md), [Animating pop-up UI](http://msdn.microsoft.com/library/181dfd21-fca3-445a-bae4-b7927cb13e58), [Guidelines and checklist for pop-up UI animations](http://msdn.microsoft.com/library/4e9025ce-fc90-4d4c-9de6-ec6b6f2ad9df)
+[Timeline](timeline.md), [Animating pop-up UI](https://docs.microsoft.com/previous-versions/windows/apps/jj649433(v=win.10)), [Guidelines and checklist for pop-up UI animations](https://docs.microsoft.com/windows/uwp/style/motion-popup-animations)

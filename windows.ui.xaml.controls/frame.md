@@ -18,7 +18,7 @@ Displays [Page](page.md) instances, supports navigation to new pages, and mainta
 ```
 
 ## -remarks
-You use the [Frame](frame.md) control to support navigation to [Page](page.md) instances. You create as many different page types as needed to present the content in your app, and then navigate to those pages by calling the [Navigate](frame_navigate_1426351961.md) method and passing in the type of the page to navigate to. You can also pass in a parameter object to initialize the page to a particular state.
+You use the Frame control to support navigation to [Page](page.md) instances. You create as many different page types as needed to present the content in your app, and then navigate to those pages by calling the [Navigate](frame_navigate_1426351961.md) method and passing in the type of the page to navigate to. You can also pass in a parameter object to initialize the page to a particular state.
 
 The frame maintains a history of pages it has navigated to. You can get the type of the current page through the [CurrentSourcePageType](frame_currentsourcepagetype.md) property, and navigate forward or backward with the [GoBack](frame_goback_1030386674.md) and [GoForward](frame_goforward_1537152893.md) methods. The [CanGoBack](frame_cangoback.md) and [CanGoForward](frame_cangoforward.md) properties indicate whether a page is available in the desired direction. One common practice is to bind the [IsEnabled](control_isenabled.md) properties of navigation buttons to [CanGoBack](frame_cangoback.md) and [CanGoForward](frame_cangoforward.md) so that users can't navigate to a page that doesn't exist.
 
@@ -30,8 +30,16 @@ By default, each navigation creates a new instance of the specific [Page](page.m
 
 The [INavigate](inavigate.md) interface is mainly infrastructure. It's not expected that typical app will implement this interface.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | SetNavigationState(String,Boolean) |
+| 1809 | 17763 | IsNavigationStackEnabled |
+| 1809 | 17763 | NavigateToType |
+
 ## -examples
-The following code example is from the Blank App template in Microsoft Visual Studio. This code shows how an [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md) method override initializes the app window. If the app is resuming after being suspended, then the window might already be initialized. If not, this code sets the app window to a new [Frame](frame.md), then navigates the frame to the default initial page.
+The following code example is from the Blank App template in Microsoft Visual Studio. This code shows how an [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md) method override initializes the app window. If the app is resuming after being suspended, then the window might already be initialized. If not, this code sets the app window to a new Frame, then navigates the frame to the default initial page.
 
 ```csharp
 protected override void OnLaunched(LaunchActivatedEventArgs e)
@@ -226,7 +234,7 @@ Private Sub OnNavigationFailed(sender As Object, e As NavigationFailedEventArgs)
 End Sub
 ```
 
-For a complete sample that uses many of the [Page](page.md) and [Frame](frame.md) features together, see [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214).
+For a complete sample that uses many of the [Page](page.md) and Frame features together, see [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214).
 
 ## -see-also
-[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md), [Navigation design basics overview](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](http://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md), [Navigation design basics overview](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)

@@ -19,20 +19,6 @@ Gets a reference to the eye-tracker device being monitored through the [GazeDevi
 
 ## -see-also
 
-### Reference
-
-[GazeDeviceWatcherPreview.Updated](gazedevicewatcherpreview_updated.md)
-
-### Conceptual
-
-[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
-
-### Samples
-
-[Gaze input sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-gazeinput-basic.zip)
-
-### Resources
-
-[Windows Community Toolkit Gaze library](https://docs.microsoft.com/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary)
+[GazeDeviceWatcherPreview.Updated](gazedevicewatcherpreview_updated.md), [Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions), [Gaze input sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-gazeinput-basic.zip), [Windows Community Toolkit Gaze library](https://docs.microsoft.com/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary)
 
 ## -examples

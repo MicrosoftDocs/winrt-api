@@ -14,9 +14,9 @@ public event Windows.Foundation.TypedEventHandler ConnectionStatusChanged<Window
 Occurs when a Wi-Fi Direct device connection is connected or disconnected.
 
 ## -remarks
-You can add a handler for the [ConnectionStatusChanged](wifidirectdevice_connectionstatuschanged.md) event to be notified when the connection has been established or disconnected.
+You can add a handler for the ConnectionStatusChanged event to be notified when the connection has been established or disconnected.
 
 ## -examples
 
 ## -see-also
-[GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134.md), [WiFiDirectDevice sample](http://go.microsoft.com/fwlink/p/?LinkID=301419)
+[GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134.md), [WiFiDirectDevice sample](https://go.microsoft.com/fwlink/p/?LinkID=301419)

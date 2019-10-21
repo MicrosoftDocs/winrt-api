@@ -17,9 +17,9 @@ Gets the remaining power capacity of the battery.
 The remaining power capacity of the battery, in milliwatt-hours.
 
 ## -remarks
-To calculate the battery level, divide [RemainingCapacityInMilliwattHours](batteryreport_remainingcapacityinmilliwatthours.md) by [FullChargeCapacityInMilliwattHours](batteryreport_fullchargecapacityinmilliwatthours.md).
+To calculate the battery level, divide RemainingCapacityInMilliwattHours by [FullChargeCapacityInMilliwattHours](batteryreport_fullchargecapacityinmilliwatthours.md).
 
 ## -examples
 
 ## -see-also
-[Get battery information](http://msdn.microsoft.com/library/a9fb0f39-8827-420a-922d-dcee6fb9c9d2)
+[Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10))

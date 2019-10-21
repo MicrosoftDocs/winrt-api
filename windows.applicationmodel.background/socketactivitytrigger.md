@@ -15,10 +15,16 @@ Represents a trigger that launches a background task for handling socket activit
 
 ## -remarks
 
-For information about how to use this event and the socket broker with your app, see [Network communications in the background](https://msdn.microsoft.com/en-us/windows/uwp/networking/network-communications-in-the-background).
+For information about how to use this event and the socket broker with your app, see [Network communications in the background](https://docs.microsoft.com/windows/uwp/networking/network-communications-in-the-background).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | IsWakeFromLowPowerSupported |
 
 ## -examples
 
 ## -see-also
 
-[IBackgroundTrigger](ibackgroundtrigger.md), [DatagramSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620534), [StreamSocket sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620609)
+[IBackgroundTrigger](ibackgroundtrigger.md), [DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534), [StreamSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620609)

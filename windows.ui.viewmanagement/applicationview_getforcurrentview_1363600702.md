@@ -16,7 +16,7 @@ Gets the view state and behavior settings of the active application.
 An [ApplicationView](applicationview.md) instance that can be used to get and set app display properties.
 
 ## -remarks
-This is a static member of the [ApplicationView](applicationview.md) class. For JavaScript this means that it is a method of the [ApplicationView](applicationview.md) class, not of the window object that [getForCurrentView](applicationview_getforcurrentview_1363600702.md) creates.
+This is a static member of the [ApplicationView](applicationview.md) class. For JavaScript this means that it is a method of the [ApplicationView](applicationview.md) class, not of the window object that getForCurrentView creates.
 
 ## -examples
 

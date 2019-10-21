@@ -19,7 +19,7 @@ Sets the text for the confirmation button in the Contact Picker user interface.
 The text of the button.
 
 ## -remarks
-We recommend you set [CommitButtonText](contactpicker_commitbuttontext.md) to provide an indication to the user that they have selected a contact or set of contacts.
+We recommend you set CommitButtonText to provide an indication to the user that they have selected a contact or set of contacts.
 
 ## -examples
 

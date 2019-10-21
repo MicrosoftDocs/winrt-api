@@ -10,7 +10,7 @@ public string Address { get;  set; }
 # Windows.ApplicationModel.Appointments.IAppointmentParticipant.Address
 
 ## -description
-Gets or sets a string that communicates the address of a participant of an appointment. The address is required and is a Simple Mail Transfer Protocol (SMTP) e-mail address. It is also of type [String](https://msdn.microsoft.com/library/system.string.aspx) and between 1 and 321 characters in length (non-empty).
+Gets or sets a string that communicates the address of a participant of an appointment. The address is required and is a Simple Mail Transfer Protocol (SMTP) e-mail address. It is also of type [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) and between 1 and 321 characters in length (non-empty).
 
 ## -property-value
 The address of a participant of an appointment.

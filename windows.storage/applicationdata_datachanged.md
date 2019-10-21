@@ -10,12 +10,16 @@ public event Windows.Foundation.TypedEventHandler DataChanged<Windows.Storage.Ap
 # Windows.Storage.ApplicationData.DataChanged
 
 ## -description
+
 Occurs when roaming application data is synchronized.
 
 ## -remarks
 
+The event handler receives an [ApplicationData](applicationdata.md) object that provides access to the changed roaming data containers. For more information, see [Roaming data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data).
+
 ## -examples
-This example registers for the [DataChanged](applicationdata_datachanged.md) event.
+
+This example registers for the DataChanged event.
 
 ```csharp
 void InitHandlers()
@@ -81,4 +85,4 @@ End Sub
 ```
 
 ## -see-also
-[Quickstart: Roaming application data (JavaScript)](http://msdn.microsoft.com/library/60f40214-c201-4afe-a2f5-0ef3a7de0076), [Store and retrieve settings and other app data](http://msdn.microsoft.com/library/41676a02-325a-455e-8565-c9ec0bc3a8fe), [Store and retrieve settings and other app data](http://msdn.microsoft.com/library/41676a02-325a-455e-8565-c9ec0bc3a8fe)
+[Roaming data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data),[Quickstart: Roaming application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465123(v=win.10))

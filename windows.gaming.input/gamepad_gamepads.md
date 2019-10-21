@@ -21,7 +21,7 @@ The list of all connected gamepads.
 
 **Gamepad** objects are managed by the system, therefore you don't have to create or initialize them. Instead, you can access connected gamepads through this property. Because you might only be interested in some of the connected gamepads, we recommend that you maintain your own collection.
 
-This list is initally empty and will not list gamepads even if they are already connected. After a short period this will return a complete list of gamepads.
+This list is initially empty and will not list gamepads even if they are already connected. After a short period this will return a complete list of gamepads.
 
 ## -examples
 

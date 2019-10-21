@@ -15,7 +15,7 @@ Describes the action that caused a [CollectionChanged](inotifycollectionchanged_
 
 
 > **.NET**
-> This type appears as [System.Collections.Specialized.NotifyCollectionChangedAction](https://msdn.microsoft.com/library/system.collections.specialized.notifycollectionchangedaction.aspx).
+> This type appears as [System.Collections.Specialized.NotifyCollectionChangedAction](https://docs.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedaction?redirectedfrom=MSDN).
 
 ## -enum-fields
 ### -field Add:0
@@ -35,9 +35,9 @@ The content of the collection changed dramatically.
 
 
 ## -remarks
-When programming with .NET, this type is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedAction](https://msdn.microsoft.com/library/system.collections.specialized.notifycollectionchangedaction.aspx) type.
+When programming with .NET, this type is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedAction](https://docs.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedaction?redirectedfrom=MSDN) type.
 
 ## -examples
 
 ## -see-also
-[XAML data binding sample](http://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)

@@ -39,11 +39,11 @@ When an object runs in the app process, the following focus events occur as expe
 
 However, if the newly focused object is running in a separate process some of these event behaviors can differ. 
 
-- [GetFocusedElement](focusmanager_getfocusedelement_1183614552.md) does not return the newly focused object until the [TryFocusAsync](focusmanager_tryfocusasync_1779533284.md) operation completes. 
+- [GetFocusedElement](focusmanager_getfocusedelement_1183614552.md) does not return the newly focused object until the TryFocusAsync operation completes. 
 - The control losing focus receives its [LosingFocus](../windows.ui.xaml/uielement_losingfocus.md) event synchronously, but does not receive [LostFocus](../windows.ui.xaml/uielement_lostfocus.md) until the asynchronous operation completes. 
 - The control getting focus receieves its [GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md) event synchronously, but does not receive [GotFocus](../windows.ui.xaml/uielement_gotfocus.md) until the asynchronous operation completes. 
  
-[TryFocusAsync](focusmanager_tryfocusasync_1779533284.md) completes synchronously when called on an element running in the app process. 
+TryFocusAsync completes synchronously when called on an element running in the app process. 
  
 ## -examples
 

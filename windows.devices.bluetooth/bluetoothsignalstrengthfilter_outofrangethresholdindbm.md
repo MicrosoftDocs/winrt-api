@@ -19,7 +19,7 @@ The minimum RSSI value in dBm on which RSSI events will be considered out of ran
 ## -remarks
 The valid range for this property is between -128 and 127.
 
-RSSI events are considered out of range after their RSSI values are kept lower than or equal to [OutOfRangeThresholdInDBm](bluetoothsignalstrengthfilter_outofrangethresholdindbm.md) within [OutOfRangeTimeout](bluetoothsignalstrengthfilter_outofrangetimeout.md). RSSI events are also considered out of range if no events are received within [OutOfRangeTimeout](bluetoothsignalstrengthfilter_outofrangetimeout.md).
+RSSI events are considered out of range after their RSSI values are kept lower than or equal to OutOfRangeThresholdInDBm within [OutOfRangeTimeout](bluetoothsignalstrengthfilter_outofrangetimeout.md). RSSI events are also considered out of range if no events are received within [OutOfRangeTimeout](bluetoothsignalstrengthfilter_outofrangetimeout.md).
 
 ## -examples
 

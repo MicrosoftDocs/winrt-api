@@ -12,7 +12,7 @@ public class VisualInteractionSource : Windows.UI.Composition.CompositionObject,
 ## -description
 Object for configuring input to the InteractionTracker relative to a visual.
 
-The [VisualInteractionSource](visualinteractionsource.md) is designed to be used only with [InteractionTracker](interactiontracker.md) and defines which input will be sent to the [InteractionTracker](interactiontracker.md) to drive its state and properties. This class contains both the visual to be used for hit-testing, as well as a variety of configuration properties for which gestures and types of input will be sent to the [InteractionTracker](interactiontracker.md).
+The VisualInteractionSource is designed to be used only with [InteractionTracker](interactiontracker.md) and defines which input will be sent to the [InteractionTracker](interactiontracker.md) to drive its state and properties. This class contains both the visual to be used for hit-testing, as well as a variety of configuration properties for which gestures and types of input will be sent to the [InteractionTracker](interactiontracker.md).
 
 ## -remarks
 The VisualInteractionSource is used to define important properties about the types of interactions that should drive the InteractionTracker’s state and properties. The source property is used both for hit-testing, as well as the coordinate space for gesture detection. As a result, it is important to use a Visual that is not going to be in motion during the manipulation. Multiple VisualInteractionSources can be associated with the same InteractionTracker if there are multiple hit-test regions, but the most common cases require only one VisualInteractionSource for a given InteractionTracker.
@@ -22,7 +22,6 @@ VisualInteractionSource is the class for configuring which types of gestures sho
 The rails configurations indicate how the gesture will be detected. Turning on rails indicates that the horizontal or vertical pan will lock to a particular axis when started primarily on that axis. This is explained in more detail on the railing property pages.
 
 The chaining configuration indicates whether input that is processed by one VisualInteractionSource can flow to another entity when the InteractionTracker reaches the min or max in that direction. This configuration will allow input to chain to either another InteractionTracker via another VisualInteractionSource, or to a ScrollViewer if the VisualInteractionSource’s source visual is a child of the ScrollViewer.
-
 
 <!--
      <section><title>Compositor Hit-testing</title>
@@ -73,6 +72,24 @@ The chaining configuration indicates whether input that is processed by one Visu
     </sectioncontents>
 </section>
 -->
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ConfigureCenterPointXModifiers |
+| 1703 | 15063 | ConfigureCenterPointYModifiers |
+| 1703 | 15063 | ConfigureDeltaPositionXModifiers |
+| 1703 | 15063 | ConfigureDeltaPositionYModifiers |
+| 1703 | 15063 | ConfigureDeltaScaleModifiers |
+| 1703 | 15063 | DeltaPosition |
+| 1703 | 15063 | DeltaScale |
+| 1703 | 15063 | Position |
+| 1703 | 15063 | PositionVelocity |
+| 1703 | 15063 | Scale |
+| 1703 | 15063 | ScaleVelocity |
+| 1809 | 17763 | PointerWheelConfig |
+| 1903 | 18362 | CreateFromIVisualElement |
 
 ## -examples
 ```csharp

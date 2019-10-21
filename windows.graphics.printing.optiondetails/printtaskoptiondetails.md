@@ -18,10 +18,6 @@ You can use **PrintTaskOptionDetails** to retrieve information about the availab
 
 Here is a JavaScript code snippet that shows how to retrieve the advanced options for a print task and then set the order in which they will be displayed in the print window of the app.
 
-
-
-
-
 ```javascript
    //  Retrieve the advanced Print Task Options
         var printDetailedOptions = 
@@ -37,7 +33,13 @@ Here is a JavaScript code snippet that shows how to retrieve the advanced option
 
 ```
 
-For more information on this and other printing scenarios, see [Printing](http://msdn.microsoft.com/library/windows/apps/hh465225.aspx) on the Windows Dev Center.
+For more information on this and other printing scenarios, see [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)) on the Windows Dev Center.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | CreateToggleOption |
 
 ## -examples
 

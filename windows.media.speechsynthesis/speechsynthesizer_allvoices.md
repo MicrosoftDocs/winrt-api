@@ -23,7 +23,7 @@ Only Microsoft-signed voices installed on the system can be used to generate spe
 
 By default, a new [SpeechSynthesizer](speechsynthesizer.md) object uses the current system voice (call [DefaultVoice](speechsynthesizer_defaultvoice.md) to find out what the default voice is).
 
-To specify any of the other speech synthesis (text-to-speech) voices installed on the user's system, use the [Voice](speechsynthesizer_voice.md) method (to find out which [voices](voiceinformation.md) are installed on the system, call [AllVoices](speechsynthesizer_allvoices.md)).
+To specify any of the other speech synthesis (text-to-speech) voices installed on the user's system, use the [Voice](speechsynthesizer_voice.md) method (to find out which [voices](voiceinformation.md) are installed on the system, call AllVoices).
 
 If you don't specify a language, the voice that most closely corresponds to the language selected in the Language control panel is loaded.
 
@@ -50,4 +50,4 @@ using (SpeechSynthesizer synthesizer = new SpeechSynthesizer())
 
 ## -see-also
 
-[Voice](speechsynthesizer_voice.md), [TrySetDefaultVoiceAsync](speechsynthesizer_trysetdefaultvoiceasync_2101787546.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](http://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Voice](speechsynthesizer_voice.md), [TrySetDefaultVoiceAsync](speechsynthesizer_trysetdefaultvoiceasync_2101787546.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)

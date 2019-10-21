@@ -13,7 +13,7 @@ public ulong AppMemoryUsage { get; }
 Gets the app's current memory usage.
 
 ## -property-value
-The app's current memory usage.
+The app's current memory usage in bytes.
 
 ## -remarks
 

@@ -16,11 +16,11 @@ Gets a font that is recommended for typical document body text following traditi
 The recommended [LanguageFont](languagefont.md).
 
 ## -remarks
-The [TraditionalDocumentFont](languagefontgroup_traditionaldocumentfont.md) property provides a font recommendation for typical document body text following traditional styling conventions. These fonts can also be used in headings or other document elements.
+The TraditionalDocumentFont property provides a font recommendation for typical document body text following traditional styling conventions. These fonts can also be used in headings or other document elements.
 
 The font recommended for this usage case will always be a "regular" font (regular weight, normal style, normal stretch). Apps might want to apply other weight/style/stretch formatting, as may be appropriate for the app scenario.
 
-A [TraditionalDocumentFont](languagefontgroup_traditionaldocumentfont.md) recommendation is available for every supported language or script.
+A TraditionalDocumentFont recommendation is available for every supported language or script.
 
 ## -examples
 

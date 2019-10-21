@@ -29,4 +29,4 @@ In the HomeGroup folder, the app sees only the libraries that correspond to the 
 ## -examples
 
 ## -see-also
-[HomeGroup app sample](http://go.microsoft.com/fwlink/p/?linkid=231631), [HomeGroup sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620549)
+[HomeGroup app sample](https://go.microsoft.com/fwlink/p/?linkid=231631), [HomeGroup sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620549)

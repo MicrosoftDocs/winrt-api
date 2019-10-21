@@ -21,7 +21,7 @@ Defines the amount of time (in seconds) that the algorithm can run for. A value 
 **true** if the asynchronous operation succeeded; otherwise, **false**.
 
 ## -remarks
-To learn more about the 3D model repair algorithm and test it out quickly, go to the [3D Model Repair service](http://aka.ms/modelrepair).
+To learn more about the 3D model repair algorithm and test it out quickly, go to the [3D Model Repair service](https://aka.ms/modelrepair).
 
 ## -examples
 

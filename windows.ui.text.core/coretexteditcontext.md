@@ -17,6 +17,12 @@ The primary object used by text input controls to communicate with the text inpu
 
 To obtain an object of this type, call [CoreTextServicesManager.CreateEditContext](coretextservicesmanager_createeditcontext_759770.md).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | NotifyFocusLeaveCompleted |
+
 ## -examples
 
 ## -see-also

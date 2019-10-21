@@ -11,7 +11,7 @@ public Windows.UI.Xaml.Thickness ListViewItemPresenterPadding { get;  set; }
 
 ## -description
 > [!NOTE]
-> [ListViewItemPresenterPadding](listviewitempresenter_listviewitempresenterpadding.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.Padding](../windows.ui.xaml.controls/contentpresenter_padding.md).
+> ListViewItemPresenterPadding may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.Padding](../windows.ui.xaml.controls/contentpresenter_padding.md).
 
 Gets or sets the padding around the presenter.
 
@@ -20,7 +20,7 @@ A [Thickness](../windows.ui.xaml/thickness.md) value.
 
 ## -remarks
 > [!IMPORTANT]
-> [ListViewItemPresenterPadding](listviewitempresenter_listviewitempresenterpadding.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.Padding](../windows.ui.xaml.controls/contentpresenter_padding.md).
+> ListViewItemPresenterPadding may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.Padding](../windows.ui.xaml.controls/contentpresenter_padding.md).
 
 ## -examples
 

@@ -20,7 +20,7 @@ The index at which to set the value.
 The value to set.
 
 ## -remarks
-[InsertAt](geometrycollection_insertat_521140324.md) expands the collection and moves all subsequent index items by one.
+InsertAt expands the collection and moves all subsequent index items by one.
 
 In contrast, [SetAt](geometrycollection_setat_1850775572.md) replaces the item at the index, and the collection count remains the same.
 

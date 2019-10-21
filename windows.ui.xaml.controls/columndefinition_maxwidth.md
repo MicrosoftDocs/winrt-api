@@ -19,7 +19,7 @@ Gets or sets a value that represents the maximum width of a [ColumnDefinition](c
 
 
 ## -property-value
-A [Double](https://msdn.microsoft.com/library/system.double.aspx) that represents the maximum width in pixels. The default is [PositiveInfinity](http://msdn.microsoft.com/library/7c4k7y8t).
+A [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) that represents the maximum width in pixels. The default is [PositiveInfinity](https://docs.microsoft.com/dotnet/api/system.double.positiveinfinity?redirectedfrom=MSDN).
 
 ## -remarks
 

@@ -15,7 +15,7 @@ A helper class that enables global management of focus actions and events across
 
 ## -remarks
 
-We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
+We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of FocusManager events whenever possible.
 
 FocusManager is intended for advanced scenarios where specific elements in an application do not receive bubbled events from a [UIElement](../windows.ui.xaml/uielement.md). For example, visual "overlay" objects such as [Popup](../windows.ui.xaml.controls.primitives/popup.md), [Tooltip](../windows.ui.xaml.controls/tooltip.md), or [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md) that appear as part of the app UI but are actually their own focus scope and not part of the visual tree hierarchy. In the case of a [Popup](../windows.ui.xaml.controls.primitives/popup.md), this occurs when you programmatically set [IsOpen](../windows.ui.xaml.controls.primitives/popup_isopen.md) to true and focus moves in and out of the popup.
 
@@ -50,6 +50,24 @@ In this case, a Popup contains StackPanel3, which, in turn, contains Button5. Wh
 An application can have multiple elements with logical focus (depending on the number of focus scopes). However, only one element in the application can have keyboard focus.
 
 There can be multiple elements with logical focus, but only one element with logical focus per focus scope. An element with logical focus does not necessarily have keyboard focus, but an element with keyboard focus does have logical focus.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | FindFirstFocusableElement |
+| 1703 | 15063 | FindLastFocusableElement |
+| 1703 | 15063 | FindNextElement(FocusNavigationDirection) |
+| 1703 | 15063 | FindNextElement(FocusNavigationDirection,FindNextElementOptions) |
+| 1703 | 15063 | TryMoveFocus(FocusNavigationDirection,FindNextElementOptions) |
+| 1803 | 17134 | TryFocusAsync |
+| 1803 | 17134 | TryMoveFocusAsync(FocusNavigationDirection) |
+| 1803 | 17134 | TryMoveFocusAsync(FocusNavigationDirection,FindNextElementOptions) |
+| 1809 | 17763 | GettingFocus |
+| 1809 | 17763 | GotFocus |
+| 1809 | 17763 | LosingFocus |
+| 1809 | 17763 | LostFocus |
+| 1903 | 18362 | GetFocusedElement(XamlRoot) |
 
 ## -examples
 

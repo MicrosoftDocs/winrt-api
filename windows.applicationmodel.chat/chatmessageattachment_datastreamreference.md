@@ -17,7 +17,7 @@ Gets or sets a stream reference for a message attachment.
 The data stream for the attachment.
 
 ## -remarks
-The data source for an attachment is accessed through a [IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md) interface. The [DataStreamReference](chatmessageattachment_datastreamreference.md) property is set to the stream reference that encapsulates the attachment data.
+The data source for an attachment is accessed through a [IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md) interface. The DataStreamReference property is set to the stream reference that encapsulates the attachment data.
 
 ## -examples
 

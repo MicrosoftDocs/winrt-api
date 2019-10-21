@@ -24,4 +24,4 @@ Call [GameSaveContainer.CreateBlobInfoQuery](gamesavecontainer_createblobinfoque
 
 ## -see-also
 
-[Object](https://msdn.microsoft.com/library/system.object.aspx)
+[Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)

@@ -16,13 +16,13 @@ Used to interact with the file picker if your app provides file updates through 
 
 ## -remarks
 
-In JavaScript, retrieve a [CachedFileUpdaterUI](cachedfileupdaterui.md) object using the [webuiCachedFileUpdaterActivatedEventArgs.cachedFileUpdaterUI](../windows.ui.webui/webuicachedfileupdateractivatedeventargs_cachedfileupdaterui.md) property.
+In JavaScript, retrieve a CachedFileUpdaterUI object using the [webuiCachedFileUpdaterActivatedEventArgs.cachedFileUpdaterUI](../windows.ui.webui/webuicachedfileupdateractivatedeventargs_cachedfileupdaterui.md) property.
 
-In C#, C++, and VB, retrieve a [CachedFileUpdaterUI](cachedfileupdaterui.md) object using the [CachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs_cachedfileupdaterui.md) property.
+In C#, C++, and VB, retrieve a CachedFileUpdaterUI object using the [CachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs_cachedfileupdaterui.md) property.
 
 ## -examples
 
-The [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [cachedFileUpdater](../windows.applicationmodel.activation/activationkind.md) activated event.
+The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [cachedFileUpdater](../windows.applicationmodel.activation/activationkind.md) activated event.
 
 ```csharp
 
@@ -88,8 +88,8 @@ WinJS.Application.addEventListener("activated", activated, false);
 
 For JavaScript, `eventObject` contains a [webUICachedFileUpdaterActivatedEventArgs](../windows.ui.webui/webuicachedfileupdateractivatedeventargs.md) object.
 
-For C#, `args` contains a [CachedFileUpdaterActivatedEventArgs](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs.md) object. Additionally, the `OnCachedFileUpdaterActivated` is in the App.xaml.cs file and the `Activate` method is in the CachedFileUpdaterPage.xaml.cs file of the [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536).
+For C#, `args` contains a [CachedFileUpdaterActivatedEventArgs](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs.md) object. Additionally, the `OnCachedFileUpdaterActivated` is in the App.xaml.cs file and the `Activate` method is in the CachedFileUpdaterPage.xaml.cs file of the [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536).
 
 ## -see-also
 
-[File picker provider sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620543)
+[File picker provider sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620543)

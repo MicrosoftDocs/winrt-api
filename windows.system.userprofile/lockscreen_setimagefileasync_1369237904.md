@@ -24,4 +24,4 @@ The object used to set the image for the lock screen.
 ## -examples
 
 ## -see-also
-[Personalization app sample](http://go.microsoft.com/fwlink/p/?linkid=231592), [LockScreen.getImageStream](lockscreen_getimagestream_155459607.md), [LockScreen.originalImageFile](lockscreen_originalimagefile.md), [LockScreen.setImageStreamAsync](lockscreen_setimagestreamasync_1444410973.md), [Lock screen overview](http://msdn.microsoft.com/library/07fefb48-f55c-4ab7-8b68-a8aed11074fd)
+[Personalization app sample](https://go.microsoft.com/fwlink/p/?linkid=231592), [LockScreen.getImageStream](lockscreen_getimagestream_155459607.md), [LockScreen.originalImageFile](lockscreen_originalimagefile.md), [LockScreen.setImageStreamAsync](lockscreen_setimagestreamasync_1444410973.md), [Lock screen overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779720(v=win.10))

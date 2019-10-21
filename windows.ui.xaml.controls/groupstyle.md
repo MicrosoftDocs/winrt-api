@@ -19,14 +19,14 @@ Describes how to display the grouped items in a collection, such as the collecti
 
 
 ## -remarks
-A [GroupStyle](groupstyle.md) is typically defined in Extensible Application Markup Language (XAML) and then set as the value of the [ItemsControl.GroupStyle](itemscontrol_groupstyle.md) property to define the visual look of the groups.
+A GroupStyle is typically defined in Extensible Application Markup Language (XAML) and then set as the value of the [ItemsControl.GroupStyle](itemscontrol_groupstyle.md) property to define the visual look of the groups.
 
 ## -examples
-Here, a [GroupStyle](groupstyle.md) is applied to a [GridView](gridview.md) control that contains grouped data. For more info, and to see the full example code, see [How to group items in a list or grid](http://msdn.microsoft.com/library/b9ed59b9-651c-40c7-a39c-c4db432dc132).
+Here, a GroupStyle is applied to a [GridView](gridview.md) control that contains grouped data. For more info, and to see the full example code, see [How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10)).
 
 
 
-[!code-xml[GroupedGridViewXAML](../windows.ui.xaml.controls/code/ItemsControlGroupingSnippets/csharp/MainPage.xaml#SnippetGroupedGridViewXAML)]
+[!code-xaml[GroupedGridViewXAML](../windows.ui.xaml.controls/code/ItemsControlGroupingSnippets/csharp/MainPage.xaml#SnippetGroupedGridViewXAML)]
 
 ## -see-also
-[ItemsControl.GroupStyle](itemscontrol_groupstyle.md), [GroupItem](groupitem.md), [INotifyPropertyChanged](../windows.ui.xaml.data/inotifypropertychanged.md), [How to group items in a list or grid](http://msdn.microsoft.com/library/b9ed59b9-651c-40c7-a39c-c4db432dc132)
+[ItemsControl.GroupStyle](itemscontrol_groupstyle.md), [GroupItem](groupitem.md), [INotifyPropertyChanged](../windows.ui.xaml.data/inotifypropertychanged.md), [How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10))

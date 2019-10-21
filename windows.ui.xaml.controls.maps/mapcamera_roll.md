@@ -17,7 +17,7 @@ The roll of the camera in degrees, where -90 is tilting to the left and +90 is t
 
 ## -remarks
 > [!NOTE]
-> Adjusting [Roll](mapcamera_roll.md) may interfere with normal gesture operations and leave the map in an inconsistent state. We do not recommend adjusting [Roll](mapcamera_roll.md) without thoroughly testing your app.
+> Adjusting Roll may interfere with normal gesture operations and leave the map in an inconsistent state. We do not recommend adjusting Roll without thoroughly testing your app.
 
 ## -examples
 

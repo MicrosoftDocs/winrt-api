@@ -17,10 +17,10 @@ Moves the start position of a text range.
 The unit by which to move the start position of the text range. The default value is **Character**.
 
 ### -param count
-The number of *unit* s to move the start position of the text range. The default value is 1. If *count* is greater than zero, the start position of the text range moves forward, toward the end of the story. If *count* is less than zero, the start position of the text range moves backward, toward the beginning of the story. If *count* is zero, the start position doesn't move.
+The number of *unit*s to move the start position of the text range. The default value is 1. If *count* is greater than zero, the start position of the text range moves forward, toward the end of the story. If *count* is less than zero, the start position of the text range moves backward, toward the beginning of the story. If *count* is zero, the start position doesn't move.
 
 ## -returns
-The actual number of *unit* s that the start position moved. The pointer can be **NULL**.
+The actual number of *unit*s that the start position moved. The pointer can be **NULL**.
 
 ## -remarks
 If you move the start position of the text range so that it follows the original end position, this method sets the end position to be equal to the new start position; that is, the text range becomes a degenerate range (insertion point).

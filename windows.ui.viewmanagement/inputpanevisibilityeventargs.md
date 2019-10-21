@@ -17,11 +17,11 @@ Your app receives this class in its [Hiding](inputpane_hiding.md) and [Showing](
 
 In some cases, overlay UI such as an [InputPane](inputpane.md) is not fully supported. This includes:
 
-+ apps in full-screen mode, like [games](https://msdn.microsoft.com/windows/uwp/gaming/index).
-+ Windows Holographic apps in [holographic view](https://developer.microsoft.com/windows/holographic/app_model#app_views).
++ apps in full-screen mode, like [games](https://docs.microsoft.com/windows/uwp/gaming/index).
++ Windows Holographic apps in [holographic view](https://developer.microsoft.com/mixed-reality#app_views).
 
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://go.microsoft.com/fwlink/p/?linkid=258275).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
 
 ## -examples
 

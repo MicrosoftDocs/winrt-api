@@ -10,9 +10,9 @@ public int TryUpdatePositionWithAdditionalVelocity(Windows.Foundation.Numerics.V
 # Windows.UI.Composition.Interactions.InteractionTracker.TryUpdatePositionWithAdditionalVelocity
 
 ## -description
-Tries to update the [InteractionTracker](interactiontracker.md) 's position by adding velocity.
+Tries to update the [InteractionTracker](interactiontracker.md)'s position by adding velocity.
 
-The [TryUpdatePositionWithAdditionalVelocity](interactiontracker_tryupdatepositionwithadditionalvelocity_1400272004.md) method adds the input Vector3 representing additional velocity to the current velocity of [InteractionTracker](interactiontracker.md). As a result, because the velocity of [InteractionTracker](interactiontracker.md) has now changed, the targeted rest position for [InteractionTracker](interactiontracker.md) now changes. [TryUpdatePositionWithAdditionalVelocity](interactiontracker_tryupdatepositionwithadditionalvelocity_1400272004.md) can be called from either Idle, Inertia or CustomAnimation states – doing so will either add or update the velocity of [InteractionTracker](interactiontracker.md) and enter the Inertia state.
+The TryUpdatePositionWithAdditionalVelocity method adds the input Vector3 representing additional velocity to the current velocity of [InteractionTracker](interactiontracker.md). As a result, because the velocity of [InteractionTracker](interactiontracker.md) has now changed, the targeted rest position for [InteractionTracker](interactiontracker.md) now changes. TryUpdatePositionWithAdditionalVelocity can be called from either Idle, Inertia or CustomAnimation states – doing so will either add or update the velocity of [InteractionTracker](interactiontracker.md) and enter the Inertia state.
 
 ## -parameters
 ### -param velocityInPixelsPerSecond
@@ -22,7 +22,7 @@ The velocity to add in pixels per second.
 Returns the request ID. On state transitions, the request which caused the change in state will be included in the args. These IDs will start at 1 and increase with each try call during the lifetime of the application.
 
 ## -remarks
-If [InteractionTracker](interactiontracker.md) is in its Interacting State (user actively manipulating), and [TryUpdatePositionWithAdditionalVelocity](interactiontracker_tryupdatepositionwithadditionalvelocity_1400272004.md) is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) and check the RequestId property that identifies which request triggered the callback. The table below summarizes the expected behavior when this method is called in a particular state:
+If [InteractionTracker](interactiontracker.md) is in its Interacting State (user actively manipulating), and TryUpdatePositionWithAdditionalVelocity is called, the system will ignore this request – an event gets fired when this occurs that can be listened for. If sent from one of the other states, listen for the event fired for [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) and check the RequestId property that identifies which request triggered the callback. The table below summarizes the expected behavior when this method is called in a particular state:
 
 <table>
    <tr><th>Current State</th><th>Outcome</th></tr>

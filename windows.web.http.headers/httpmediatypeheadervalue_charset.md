@@ -16,9 +16,9 @@ Gets or sets the character set of the entity-body used in the **Content-Type** H
 The character set of the entity-body.
 
 ## -remarks
-HTTP uses character set names to indicate or negotiate the character encoding scheme of a textual representation [RFC6365]. A [CharSet](httpmediatypeheadervalue_charset.md) property is identified by a case-insensitive token.
+HTTP uses character set names to indicate or negotiate the character encoding scheme of a textual representation [RFC6365]. A CharSet property is identified by a case-insensitive token.
 
-Character set names ought to be registered in the [IANA Character Set registry](http://www.iana.org/assignments/character-sets/character-sets.xml).
+Character set names ought to be registered in the [IANA Character Set registry](https://www.iana.org/assignments/character-sets/character-sets.xml).
 
 ## -examples
 

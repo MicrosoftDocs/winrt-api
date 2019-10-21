@@ -37,7 +37,7 @@ The strongly typed collection of [Transition](../windows.ui.xaml.media.animation
 
 Transition animations play a particular role in the UI design of your app. The basic idea is that when there is a change or transition, the animation draws the attention of the user to the change.
 <!-- For more info, see  Transition animations and theme animations.-->
-It's not common to set the value of the [ChildTransitions](popup_childtransitions.md)property directly on a [Popup](popup.md)that is a direct element of app UI. It's more common to have a transitions collection be a part of a visual state, template or style. In this case you use mechanisms such as [Setter](../windows.ui.xaml/setter.md)of a [Style](../windows.ui.xaml/style.md)to specify the [ChildTransitions](popup_childtransitions.md)property. Styles are typically stored as a XAML resource.
+It's not common to set the value of the ChildTransitionsproperty directly on a [Popup](popup.md)that is a direct element of app UI. It's more common to have a transitions collection be a part of a visual state, template or style. In this case you use mechanisms such as [Setter](../windows.ui.xaml/setter.md)of a [Style](../windows.ui.xaml/style.md)to specify the ChildTransitionsproperty. Styles are typically stored as a XAML resource.
 
 
 

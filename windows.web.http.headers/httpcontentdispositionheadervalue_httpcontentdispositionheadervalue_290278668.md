@@ -13,11 +13,16 @@ public HttpContentDispositionHeaderValue(System.String dispositionType)
 Initializes a new instance of the [HttpContentDispositionHeaderValue](httpcontentdispositionheadervalue.md) class with **content-coding** information for use in the **Content-Disposition** HTTP header.
 
 ## -parameters
+
 ### -param dispositionType
-The value of the **disposition-type** information to be used in the **Content-Disposition** HTTP header.
+The content disposition value to be used in the **Content-Disposition** HTTP header. For valid values, see [Content Disposition Values](https://www.iana.org/assignments/cont-disp/cont-disp.xhtml) and [Content-Disposition
+](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Disposition).
 
 ## -remarks
 
 ## -examples
+See the code example in [HttpContentHeaderCollection class](httpcontentheadercollection.md).
 
 ## -see-also
+
+[Content Disposition Values](https://www.iana.org/assignments/cont-disp/cont-disp.xhtml), [Content-Disposition](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Disposition)

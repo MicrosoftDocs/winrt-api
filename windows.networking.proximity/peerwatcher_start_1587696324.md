@@ -14,11 +14,11 @@ public void Start()
 Begin dynamically searching for peer apps within wireless range.
 
 ## -remarks
-You must register an event handler for [Added](peerwatcher_added.md) event before calling the [Start](peerwatcher_start_1587696324.md) method.
+You must register an event handler for [Added](peerwatcher_added.md) event before calling the Start method.
 
 You can call the [Stop](peerwatcher_stop_1201535524.md) method to stop dynamically searching for peer apps within wireless range.
 
-You can use the [Status](peerwatcher_status.md) property to determine the status of the [PeerWatcher](peerwatcher.md) object. You cannot call the [Start](peerwatcher_start_1587696324.md) method if the [Status](peerwatcher_status.md) value is **Started**, **EnumerationCompleted**, or **Stopping.**
+You can use the [Status](peerwatcher_status.md) property to determine the status of the [PeerWatcher](peerwatcher.md) object. You cannot call the Start method if the [Status](peerwatcher_status.md) value is **Started**, **EnumerationCompleted**, or **Stopping.**
 
 
 
@@ -31,7 +31,7 @@ You can use the [Status](peerwatcher_status.md) property to determine the status
 ## -examples
 
 ## -see-also
-[Proximity and Tapping (JavaScript)](http://msdn.microsoft.com/library/84a30dcf-ef14-4a93-9e7c-7a3de867d46b), [Proximity and Tapping (C#/VB/C++)](http://msdn.microsoft.com/library/f25bb1df-1cfd-45cd-8c67-04eec73ebfbd), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082)
+[Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
 
 ## -capabilities
 proximity

@@ -28,7 +28,7 @@ An asynchronous operation that returns an [AppRecordingResult](C:\Users\drewbat\
 ## -remarks
 The stored file containing the app recording is created as an MP4 with h.264 video and AAC audio. Video files recorded using **AppRecordingManager** are not ingested into first-party experiences like GameDVR or the XBox app.
 
-Before calling this method, call [GetStatus](apprecordingmanager_recordtimespantofileasync_583577299.md) and check the value of the [CanRecordTimeSpan](apprecordingstatus_canrecordtimespan.md) to determine if the current app is currently able to make a time span recording.
+Before calling this method, call GetStatus and check the value of the [CanRecordTimeSpan](apprecordingstatus_canrecordtimespan.md) to determine if the current app is currently able to make a time span recording.
 
 Use [StartRecordingToFileAsync](apprecordingmanager_startrecordingtofileasync_706691331.md) to begin an app recording at the current time.
 

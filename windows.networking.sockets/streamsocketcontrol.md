@@ -13,11 +13,11 @@ public class StreamSocketControl : Windows.Networking.Sockets.IStreamSocketContr
 Provides socket control data on a [StreamSocket](streamsocket.md) object.
 
 ## -remarks
-The [StreamSocketControl](streamsocketcontrol.md) class provides access to advanced socket control data on a [StreamSocket](streamsocket.md) object.
+The StreamSocketControl class provides access to advanced socket control data on a [StreamSocket](streamsocket.md) object.
 
-A [StreamSocketControl](streamsocketcontrol.md) object is automatically created with the parent [StreamSocket](streamsocket.md) object. The [StreamSocket.Control](streamsocket_control.md) property provides access to the associated [StreamSocketControl](streamsocketcontrol.md) object.
+A StreamSocketControl object is automatically created with the parent [StreamSocket](streamsocket.md) object. The [StreamSocket.Control](streamsocket_control.md) property provides access to the associated StreamSocketControl object.
 
-Any changes to the property values on the [StreamSocketControl](streamsocketcontrol.md) must be set before the [StreamSocket](streamsocket.md) is connected. As a result if you need to make changes to the [ClientCertificate](streamsocketcontrol_clientcertificate.md), [IgnorableServerCertificateErrors](streamsocketcontrol_ignorableservercertificateerrors.md), [KeepAlive](streamsocketcontrol_keepalive.md), [NoDelay](streamsocketcontrol_nodelay.md), [OutboundBufferSizeInBytes](streamsocketcontrol_outboundbuffersizeinbytes.md) , [OutboundUnicastHopLimit](streamsocketcontrol_outboundunicasthoplimit.md), or [QualityOfService](streamsocketcontrol_qualityofservice.md) properties, then these changes must occur before a successful call to one of the [ConnectAsync](streamsocket_connectasync_13692504.md) methods on the [StreamSocket](streamsocket.md).
+Any changes to the property values on the StreamSocketControl must be set before the [StreamSocket](streamsocket.md) is connected. As a result if you need to make changes to the [ClientCertificate](streamsocketcontrol_clientcertificate.md), [IgnorableServerCertificateErrors](streamsocketcontrol_ignorableservercertificateerrors.md), [KeepAlive](streamsocketcontrol_keepalive.md), [NoDelay](streamsocketcontrol_nodelay.md), [OutboundBufferSizeInBytes](streamsocketcontrol_outboundbuffersizeinbytes.md) , [OutboundUnicastHopLimit](streamsocketcontrol_outboundunicasthoplimit.md), or [QualityOfService](streamsocketcontrol_qualityofservice.md) properties, then these changes must occur before a successful call to one of the [ConnectAsync](streamsocket_connectasync_13692504.md) methods on the [StreamSocket](streamsocket.md).
 
 Use the [ClientCertificate](streamsocketcontrol_clientcertificate.md) to set a client certificate to be used to make secure connections over the associated [StreamSocket](streamsocket.md) object.
 
@@ -82,12 +82,18 @@ clientSocket.control.noDelay = false;
 // Now you can call the ConnectAsync method to connect the StreamWebSocket.
 ```
 
-For more information on using [StreamSocketControl](streamsocketcontrol.md), see [How to use advanced socket controls ](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4) and [How to use advanced socket controls ](http://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682).
+For more information on using StreamSocketControl, see [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)) and [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | MinProtectionLevel |
 
 ## -examples
 
 ## -see-also
-[Connecting with sockets ](http://msdn.microsoft.com/library/67cfa78f-570f-4dd4-a0f2-cd6c891f5446), [Connecting with sockets ](http://msdn.microsoft.com/library/2a6448d0-e21f-4963-bca5-aae001ae4fc7), [How to use advanced socket controls ](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4), [How to use advanced socket controls ](http://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682), [StreamSocket](streamsocket.md), [StreamSocket.Control](streamsocket_control.md), [StreamSocketInformation](datagramsocketinformation.md), [ControlChannelTrigger StreamSocket sample](http://go.microsoft.com/fwlink/p/?linkid=243039), [StreamSocket sample](http://go.microsoft.com/fwlink/p/?linkid=243037)
+[Connecting with sockets ](https://docs.microsoft.com/previous-versions/windows/apps/hh452977(v=win.10)), [Connecting with sockets ](https://docs.microsoft.com/previous-versions/windows/apps/hh452976(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocket](streamsocket.md), [StreamSocket.Control](streamsocket_control.md), [StreamSocketInformation](datagramsocketinformation.md), [ControlChannelTrigger StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243039), [StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243037)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone], bluetooth.rfcomm

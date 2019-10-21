@@ -26,6 +26,12 @@ All [Application](../windows.ui.xaml/application.md) overrides involved in an ac
 
 Note that when your app is activated for the file contract you must access the data using the [StorageFile](../windows.storage/storagefile.md) objects passed to your app through the [Files](fileactivatedeventargs_files.md) property. You should not attempt to access the path of the file since your app may not have permission to the file’s location.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | User |
+
 ## -examples
 
 The [OnFileActivated](../windows.ui.xaml/application_onfileactivated_2046716329.md) event handler on the [Application](../windows.ui.xaml/application.md) object receives all file activation events.
@@ -71,4 +77,4 @@ void App::OnFileActivated(Windows::ApplicationModel::Activation::FileActivatedEv
 
 ## -see-also
 
-[Association launching sample](http://go.microsoft.com/fwlink/p/?linkid=231484), [Handle file activation](http://msdn.microsoft.com/library/a0f914c5-62bc-4ff7-9236-e34c5277c363), [Guidelines for file types and URIs](http://msdn.microsoft.com/library/a6653b8f-763f-4d67-9d12-6af73a673bc5), [Windows.Storage](../windows.storage/windows_storage.md), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Windows.UI.Xaml.Application.OnFileActivated](../windows.ui.xaml/application_onfileactivated_2046716329.md), [Association launching sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620490)
+[Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Handle file activation](https://docs.microsoft.com/windows/uwp/launch-resume/handle-file-activation), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [Windows.Storage](../windows.storage/windows_storage.md), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Windows.UI.Xaml.Application.OnFileActivated](../windows.ui.xaml/application_onfileactivated_2046716329.md), [Association launching sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620490)

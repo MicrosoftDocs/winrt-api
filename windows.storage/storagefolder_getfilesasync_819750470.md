@@ -34,7 +34,7 @@ To get deep query results from a folder that's not a library folder, call the [C
 
 <table>
    <tr><th>Method</th><th>Create a shallow query that only returns files from the current folder</th><th>Create a deep query that returns files from the current folder and from its subfolders</th></tr>
-   <tr><td>[GetFilesAsync()](storagefolder_getfilesasync_819750470.md)</td><td>Default behavior of this method.</td><td>N/A</td></tr>
+   <tr><td>GetFilesAsync()</td><td>Default behavior of this method.</td><td>N/A</td></tr>
    <tr><td>[GetFilesAsync(CommonFileQuery)](storagefolder_getfilesasync_1429382825.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
    <tr><td>[GetFilesAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
    <tr><td>[CreateFileQuery()](storagefolder_createfilequery_70815642.md)</td><td>Default behavior of this method.</td><td>N/A</td></tr>

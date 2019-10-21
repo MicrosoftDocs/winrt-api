@@ -21,17 +21,17 @@ Represents a discrete section of formatted or unformatted text.
 
 
 ## -remarks
-A [Run](run.md) represents a discrete section of formatted or unformatted text and can be used in a [TextBlock](../windows.ui.xaml.controls/textblock.md) or [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md). You can place multiple [Run](run.md) elements inside of a [Span](span.md).
+A Run represents a discrete section of formatted or unformatted text and can be used in a [TextBlock](../windows.ui.xaml.controls/textblock.md) or [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md). You can place multiple Run elements inside of a [Span](span.md).
 
-When you use a [TextBlock](../windows.ui.xaml.controls/textblock.md), set the [TextBlock.Text](../windows.ui.xaml.controls/textblock_text.md) property directly for best performance. You typically use the [Run](run.md) element only when you want to format a discrete section of text within the [TextBlock](../windows.ui.xaml.controls/textblock.md).
+When you use a [TextBlock](../windows.ui.xaml.controls/textblock.md), set the [TextBlock.Text](../windows.ui.xaml.controls/textblock_text.md) property directly for best performance. You typically use the Run element only when you want to format a discrete section of text within the [TextBlock](../windows.ui.xaml.controls/textblock.md).
 
 
 For more examples, see
 
 + [TextBlock](../windows.ui.xaml.controls/textblock.md)
-+ [TextBlock control guide](http://msdn.microsoft.com/library/da562509-d893-425a-aae6-b2ae9e9f8a19)
++ [TextBlock control guide](https://docs.microsoft.com/windows/uwp/controls-and-patterns/text-block)
 + [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md)
-+ [RichTextBlock control guide](http://msdn.microsoft.com/library/e4be4b1b-418e-4075-88f1-22c09ddf8e45)
++ [RichTextBlock control guide](https://docs.microsoft.com/windows/uwp/controls-and-patterns/rich-text-block)
 
 
 ## -examples

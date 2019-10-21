@@ -10,7 +10,7 @@ public void TraceSynchronousWorkStart(Windows.Foundation.Diagnostics.CausalityTr
 # Windows.Foundation.Diagnostics.AsyncCausalityTracer.TraceSynchronousWorkStart
 
 ## -description
-Indicates that the specified asynchronous operation is scheduling synchronous work on the thread that the [TraceSynchronousWorkStart](asynccausalitytracer_tracesynchronousworkstart_590757521.md) method is called on.
+Indicates that the specified asynchronous operation is scheduling synchronous work on the thread that the TraceSynchronousWorkStart method is called on.
 
 ## -parameters
 ### -param traceLevel

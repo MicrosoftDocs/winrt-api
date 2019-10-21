@@ -23,7 +23,7 @@ Represents the beginning of the time span for which positions are to be returned
 Positions (of type [Geoposition](geoposition.md)) that were collected during the specified time span.
 
 ## -remarks
-The [GetGeopositionHistoryAsync](geolocator_getgeopositionhistoryasync_1254824286.md) method allows your app to asynchronously fetch a list of positions that have been collected by location services. Only positions that have been collected since the specified *startTime* will be returned. If no positions are available from that time span, an empty list will be returned.
+The GetGeopositionHistoryAsync method allows your app to asynchronously fetch a list of positions that have been collected by location services. Only positions that have been collected since the specified *startTime* will be returned. If no positions are available from that time span, an empty list will be returned.
 
 This method returns only positions that have already been collected by location services in the last 24 hours; it does not resolve new positions. Specifying a time span that exceeds this 24-hour window will not yield any additional positions.
 
@@ -35,7 +35,7 @@ Location services collects positions only when an app or services queries for th
 ## -examples
 
 ## -see-also
-[Get current location](http://msdn.microsoft.com/library/24dc9a41-8cc1-48b0-bc6d-24bf571afcc8), [Set up a geofence](http://msdn.microsoft.com/library/a3a46e03-0751-4dbd-a2a1-2323db09bdba), [GetGeopositionHistoryAsync(DateTime, TimeSpan)](geolocator_getgeopositionhistoryasync_544182854.md), [geolocation sample](http://go.microsoft.com/fwlink/p/?linkid=533278)
+[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [GetGeopositionHistoryAsync(DateTime, TimeSpan)](geolocator_getgeopositionhistoryasync_544182854.md), [geolocation sample](https://go.microsoft.com/fwlink/p/?linkid=533278)
 
 ## -capabilities
 locationHistory

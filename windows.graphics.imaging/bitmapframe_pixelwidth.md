@@ -16,7 +16,7 @@ The width of the frame in pixels.
 The width of the frame in pixels.
 
 ## -remarks
-If you need pixel dimensions of the image as it is natively stored, use the [PixelWidth](bitmapframe_pixelwidth.md) property.
+If you need pixel dimensions of the image as it is natively stored, use the PixelWidth property.
 
 ## -examples
 

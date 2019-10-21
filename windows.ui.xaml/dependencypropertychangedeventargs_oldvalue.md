@@ -16,9 +16,9 @@ Gets the value of the dependency property before the reported change.
 The dependency property value before the change.
 
 ## -remarks
-The [OldValue](dependencypropertychangedeventargs_oldvalue.md) value is often used as the value that the property is set to from within the callback, in case the [NewValue](dependencypropertychangedeventargs_newvalue.md) value is not considered a valid value for your property's logic . For example, if you are using the callback for validation of an input value for a property that the user can set in UI, the previous value is typically a better value to use as the current value rather than resetting the value to a default. The callback is effectively canceling a change.
+The OldValue value is often used as the value that the property is set to from within the callback, in case the [NewValue](dependencypropertychangedeventargs_newvalue.md) value is not considered a valid value for your property's logic . For example, if you are using the callback for validation of an input value for a property that the user can set in UI, the previous value is typically a better value to use as the current value rather than resetting the value to a default. The callback is effectively canceling a change.
 
 ## -examples
 
 ## -see-also
-[Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

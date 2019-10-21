@@ -61,14 +61,14 @@ Manually enter XML similar to the following example in the app manifest to regis
 
 **To access data in the publisher's shared storage folder**
 
-Call the [GetPublisherCacheFolder](applicationdata_getpublishercachefolder_572269963.md) method to get one of the registered subfolders from the shared storage folder.
+Call the GetPublisherCacheFolder method to get one of the registered subfolders from the shared storage folder.
 
 Then use the properties and methods of the [StorageFolder](storagefolder.md) class to read and write files and subfolders in the shared folder.
 
 Access to the shared storage folder has the following requirements and restrictions.
 
 
-+ There is no default subfolder. You have to specify a subfolder when you call the [GetPublisherCacheFolder](applicationdata_getpublishercachefolder_572269963.md) method.
++ There is no default subfolder. You have to specify a subfolder when you call the GetPublisherCacheFolder method.
 + You can only access subfolders registered in the app manifest.
 + You can't access the root of the shared storage folder.
 

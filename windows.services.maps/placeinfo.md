@@ -14,6 +14,13 @@ Displays a map location and information that describes that location in a light-
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | CreateFromAddress(String) |
+| 1803 | 17134 | CreateFromAddress(String,String) |
+
 ## -examples
 This example shows the location of the Seattle Space Needle below the button that the user clicks to see that location.
 

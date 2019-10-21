@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Graphics.DirectX.DirectXAlphaMode
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax
@@ -10,7 +11,7 @@ public enum Windows.Graphics.DirectX.DirectXAlphaMode : int
 # DirectXAlphaMode
 
 ## -description
-Identifies the alpha value, transparency behavior, of a surface. This is a managed version of the [DXGI_APLAHA_MODE](http://msdn.microsoft.com/library/dd3d1e49-06d2-4fb9-a41b-86453d8e566f) enumeration.
+Identifies the alpha value, transparency behavior, of a surface. This is a Windows Runtime equivalent of the Desktop [DXGI_ALPHA_MODE](/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_alpha_mode) enumeration.
 
 ## -enum-fields
 ### -field Unspecified:0
@@ -24,7 +25,6 @@ Indicates that the transparency behavior is not premultiplied. The alpha channel
 
 ### -field Ignore:3
 Indicates to ignore the transparency behavior.
-
 
 ## -remarks
 

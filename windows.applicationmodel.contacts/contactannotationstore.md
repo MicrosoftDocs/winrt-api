@@ -13,7 +13,13 @@ public class ContactAnnotationStore : Windows.ApplicationModel.Contacts.IContact
 Represents a data store that contains contact annotations.
 
 ## -remarks
-Call [ContactManager.RequestAnnotationStoreAsync](contactmanager_requestannotationstoreasync_2147083254.md) to get an instance of [ContactAnnotationStore](contactannotationstore.md).
+Call [ContactManager.RequestAnnotationStoreAsync](contactmanager_requestannotationstoreasync_2147083254.md) to get an instance of ContactAnnotationStore.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | FindAnnotationsForContactListAsync |
 
 ## -examples
 

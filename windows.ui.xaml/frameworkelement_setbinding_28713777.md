@@ -10,9 +10,7 @@ public void SetBinding(Windows.UI.Xaml.DependencyProperty dp, Windows.UI.Xaml.Da
 # Windows.UI.Xaml.FrameworkElement.SetBinding
 
 ## -description
-Attaches a binding to a [FrameworkElement](frameworkelement.md), using the provided binding object
-<!--, and returns a <see cref="T:Windows.UI.Xaml.Data.BindingExpressionBase"/> for possible later use-->
-.
+Attaches a binding to a [FrameworkElement](frameworkelement.md), using the provided binding object.
 
 ## -parameters
 ### -param dp
@@ -26,7 +24,7 @@ This method is a convenience method that calls [BindingOperations.SetBinding](..
 
 The type of the *binding* parameter is [BindingBase](../windows.ui.xaml.data/bindingbase.md) for compatibility reasons, but in the Windows Runtime you always pass a [Binding](../windows.ui.xaml.data/binding.md) instance. [Binding](../windows.ui.xaml.data/binding.md) is derived from [BindingBase](../windows.ui.xaml.data/bindingbase.md).
 
-The *dp* parameter takes a dependency property identifier. For more info on dependency properties and how a [DependencyProperty](dependencyproperty.md) value serves as the identifier, see [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e).
+The *dp* parameter takes a dependency property identifier. For more info on dependency properties and how a [DependencyProperty](dependencyproperty.md) value serves as the identifier, see [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview).
 
 You can bind to custom dependency properties or custom attached properties, the identifier you pass as the *dp* parameter doesn't have to be a Windows Runtime defined property.
 
@@ -35,14 +33,14 @@ Whether a binding created from code will be able to use an acting data context d
 
 
 > [!NOTE]
-> Calling the [SetBinding](frameworkelement_setbinding_28713777.md) method and passing in a new [Binding](../windows.ui.xaml.data/binding.md) object won't necessarily remove an existing binding. Instead, you should first call the [DependencyObject.ClearValue](dependencyobject_clearvalue_1095854009.md) method, then call [SetBinding](frameworkelement_setbinding_28713777.md).
+> Calling the SetBinding method and passing in a new [Binding](../windows.ui.xaml.data/binding.md) object won't necessarily remove an existing binding. Instead, you should first call the [DependencyObject.ClearValue](dependencyobject_clearvalue_1095854009.md) method, then call SetBinding.
 
 ### Binding to attached properties
 
-You can put data bindings on any attached properties that a target object supports. Technically an [DependencyObject](dependencyobject.md) supports all the possible attached properties, but you'd usually only set a binding on an attached property that's relevant to that object or your scenario. For example you would set a binding on [Grid.Row](../windows.ui.xaml.controls/grid_row.md) only if you anticipate that the target element has a [Grid](../windows.ui.xaml.controls/grid.md) parent that will use that info. Specify the *dp* parameter as the dependency property identifier that exists on the attached property's owner class (for the [Grid.Row](../windows.ui.xaml.controls/grid_row.md) example, that identifier is [Grid.RowProperty](../windows.ui.xaml.controls/grid_rowproperty.md)). You won't find that identifier on the target because it's an attached property. For more info on attached properties, see [Attached properties overview](http://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2).
+You can put data bindings on any attached properties that a target object supports. Technically an [DependencyObject](dependencyobject.md) supports all the possible attached properties, but you'd usually only set a binding on an attached property that's relevant to that object or your scenario. For example you would set a binding on [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) only if you anticipate that the target element has a [Grid](../windows.ui.xaml.controls/grid.md) parent that will use that info. Specify the *dp* parameter as the dependency property identifier that exists on the attached property's owner class (for the [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) example, that identifier is [Grid.RowProperty](../windows.ui.xaml.controls/grid_rowproperty.md)). You won't find that identifier on the target because it's an attached property. For more info on attached properties, see [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview).
 
 ## -examples
-This example establishes a binding to a dependency property on an object by calling [SetBinding](frameworkelement_setbinding_28713777.md).
+This example establishes a binding to a dependency property on an object by calling SetBinding.
 
 
 
@@ -51,5 +49,5 @@ This example establishes a binding to a dependency property on an object by call
 [!code-vb[BindingObject](../windows.ui.xaml/code/BindingInCode/vbnet/BlankPage.xaml.vb#SnippetBindingObject)]
 
 ## -see-also
-[Binding](../windows.ui.xaml.data/binding.md), [BindingOperations](../windows.ui.xaml.data/bindingoperations.md), [Data binding in depth](http://msdn.microsoft.com/library/41e1b4f1-6caf-4128-a61a-4e400b149011), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[Binding](../windows.ui.xaml.data/binding.md), [BindingOperations](../windows.ui.xaml.data/bindingoperations.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
 9e66-f71c-4daa-9994-617c886fda7e)

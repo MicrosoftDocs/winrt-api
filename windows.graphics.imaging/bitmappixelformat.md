@@ -41,13 +41,13 @@ The pixel format is YUY2.
 The pixel format is P010.
 
 ## -remarks
-[BitmapPixelFormat](bitmappixelformat.md) is used in conjunction with [BitmapAlphaMode](bitmapalphamode.md) to fully describe the pixel data.
+BitmapPixelFormat is used in conjunction with [BitmapAlphaMode](bitmapalphamode.md) to fully describe the pixel data.
 
-The set of pixel formats represented by [BitmapPixelFormat](bitmappixelformat.md) is smaller than the set of native pixel formats that can be supported by the bitmap codecs. For example, certain codecs support 32 bit floating point values. In these cases there will be a loss in fidelity when obtaining pixel data from the bitmap.
+The set of pixel formats represented by BitmapPixelFormat is smaller than the set of native pixel formats that can be supported by the bitmap codecs. For example, certain codecs support 32 bit floating point values. In these cases there will be a loss in fidelity when obtaining pixel data from the bitmap.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | P010 |
 

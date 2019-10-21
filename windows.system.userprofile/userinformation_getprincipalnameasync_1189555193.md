@@ -24,7 +24,7 @@ The user's principal name.
 
 Only domain users have a principal name. Access to the principal name can be blocked by privacy settings (for example, if the [UserInformation.NameAccessAllowed](userinformation_nameaccessallowed.md) property is false). If access is blocked, this method returns an empty string.
 
-This method requires the [enterpriseAuthentication](http://msdn.microsoft.com/library/25b18ba5-e584-4537-9f19-bb2c8c52dfe1) capability.
+This method requires the [enterpriseAuthentication](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations) capability.
 
 This method does not throw an exception.
 

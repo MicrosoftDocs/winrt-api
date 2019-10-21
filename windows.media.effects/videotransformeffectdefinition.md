@@ -15,6 +15,12 @@ Represents the definition of a video transform effect.
 ## -remarks
 Use this class to add transformation effects to a video stream. Supported effects include rotation, mirroring, source clipping, destination mapping, spherical projection, and setting a padding color for areas in the frame that are not filled with input video.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | SphericalProjection |
+
 ## -examples
 
 ## -see-also

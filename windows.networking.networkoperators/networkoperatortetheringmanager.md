@@ -15,10 +15,15 @@ This interface exposes the methods and properties used to control and configure 
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | CreateFromConnectionProfile(ConnectionProfile,NetworkAdapter) |
 
 ## -examples
 
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl

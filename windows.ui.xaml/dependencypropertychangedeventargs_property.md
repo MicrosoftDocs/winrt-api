@@ -16,7 +16,7 @@ Gets the identifier for the dependency property where the value change occurred.
 The identifier field of the dependency property where the value change occurred.
 
 ## -remarks
-In many cases the dependency property being changed is known implicitly, because you're checking the [DependencyPropertyChangedEventArgs](dependencypropertychangedeventargs.md) data in a callback that's dedicated for use only by one defined dependency property. The [Property](dependencypropertychangedeventargs_property.md) property makes it possible to share a [PropertyChangedCallback](propertychangedcallback.md) as a common callback for more than one [PropertyMetadata](propertymetadata.md) instance and more than one dependency property. For example, you might have handler logic that first checks [Property](dependencypropertychangedeventargs_property.md) and then branches behavior (like knowing how to cast [NewValue](dependencypropertychangedeventargs_newvalue.md)) depending on which property's change invoked the handler in this event case:
+In many cases the dependency property being changed is known implicitly, because you're checking the [DependencyPropertyChangedEventArgs](dependencypropertychangedeventargs.md) data in a callback that's dedicated for use only by one defined dependency property. The Property property makes it possible to share a [PropertyChangedCallback](propertychangedcallback.md) as a common callback for more than one [PropertyMetadata](propertymetadata.md) instance and more than one dependency property. For example, you might have handler logic that first checks Property and then branches behavior (like knowing how to cast [NewValue](dependencypropertychangedeventargs_newvalue.md)) depending on which property's change invoked the handler in this event case:
 
 ```
 private static void OnGravityPropertiesChanged(DependencyObject d, DependencyPropertyChangedEventArgs e) {
@@ -34,4 +34,4 @@ private static void OnGravityPropertiesChanged(DependencyObject d, DependencyPro
 ## -examples
 
 ## -see-also
-[Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

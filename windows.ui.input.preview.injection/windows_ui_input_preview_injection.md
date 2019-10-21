@@ -21,8 +21,8 @@ Using input injection requires the following be added to the Package.appxmanifes
     - `<rescap:Capability Name="inputInjectionBrokered" />`
 
 
-
 ## -examples
+
 Here's an example of a touch input injection function.
 
 First, we call [TryCreate](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.inputinjector.trycreate) to instantiate the [InputInjector](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.inputinjector) object.
@@ -133,15 +133,12 @@ private void InjectTouchForMouse(PointerPoint pointerPoint)
 }
 ```
 
+Here are some downloadable samples demonstrating basic input and input injection:
+
+- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
+- [Touch injection sample](https://go.microsoft.com/fwlink/p/?LinkID=267906)
+- [Input: XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
+
 ## -see-also
 
-### Conceptual
-
-[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
-
-### Samples
-
-- [Simulate user input through input injection](https://review.docs.microsoft.com/windows/uwp/design/input/input-injection?branch=kbridge-inputinjection)
-- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
-- [Touch injection sample](http://go.microsoft.com/fwlink/p/?LinkID=267906)
-- [Input: XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=226855)
+[InitializeTouchInjection](inputinjector_initializetouchinjection_1509714255.md), [Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)

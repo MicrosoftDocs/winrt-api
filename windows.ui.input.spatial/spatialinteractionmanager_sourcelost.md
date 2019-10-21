@@ -2,6 +2,7 @@
 -api-id: E:Windows.UI.Input.Spatial.SpatialInteractionManager.SourceLost
 -api-type: winrt event
 -api-device-family-note: xbox
+ms.custom: 19H1
 ---
 
 <!-- Event syntax
@@ -11,7 +12,8 @@ public event Windows.Foundation.TypedEventHandler SourceLost<Windows.UI.Input.Sp
 # Windows.UI.Input.Spatial.SpatialInteractionManager.SourceLost
 
 ## -description
-Occurs when a hand, motion controller, or source of voice commands is no longer available.
+
+Occurs when a hand, motion controller, or speech source is no longer available.
 
 ## -remarks
 

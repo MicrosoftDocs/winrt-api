@@ -17,6 +17,16 @@ Provides access to operations that manage files that are protected to an enterpr
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | IsContainerAsync |
+| 1511 | 10586 | LoadFileFromContainerAsync(IStorageFile,IStorageItem,NameCollisionOption) |
+| 1511 | 10586 | SaveFileAsContainerAsync(IStorageFile,IEnumerable<String>) |
+| 1703 | 15063 | UnprotectAsync(IStorageItem) |
+| 1703 | 15063 | UnprotectAsync(IStorageItem,FileUnprotectOptions) |
+
 ## -examples
 
 ## -see-also

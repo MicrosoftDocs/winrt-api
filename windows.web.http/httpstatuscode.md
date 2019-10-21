@@ -25,7 +25,7 @@ The HTTP protocol version or protocol is being changed.
 ### -field Processing:102
 The server has received a Web Distributed Authoring and Versioning (WebDAV) request and is processing the request.
 
-This status code is an HTTP extension used with WebDAV. It can only be returned if the client HTTP request included the DAV header in the request. This status code is documented in IETF [RFC 2518](http://tools.ietf.org/html/rfc2518).
+This status code is an HTTP extension used with WebDAV. It can only be returned if the client HTTP request included the DAV header in the request. This status code is documented in IETF [RFC 2518](https://tools.ietf.org/html/rfc2518).
 
 ### -field Ok:200
 The request succeeded and that the requested information is in the response. This is the most common status code to receive.
@@ -51,17 +51,17 @@ The response is a partial response as requested by a **GET** request that includ
 ### -field MultiStatus:207
 The response provides status for multiple independent operations. Specific error messages appear in the body of the multi- status response.
 
-This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). This status code is documented in IETF [RFC 4918](http://tools.ietf.org/html/rfc4918).
+This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). This status code is documented in IETF [RFC 4918](https://tools.ietf.org/html/rfc4918).
 
 ### -field AlreadyReported:208
 Some of the results of the requested operation were already reported.
 
-This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). It can only be returned if the client HTTP request included the DAV header in the request. This status code is documented in IETF [RFC 5842](http://tools.ietf.org/html/rfc5842).
+This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). It can only be returned if the client HTTP request included the DAV header in the request. This status code is documented in IETF [RFC 5842](https://tools.ietf.org/html/rfc5842).
 
 ### -field IMUsed:226
 The server has fulfilled a **GET** request for the resource and the response is the result of one or more actions applied to the current instance.
 
-This status code is documented in IETF [RFC 3229](http://tools.ietf.org/html/rfc3229).
+This status code is documented in IETF [RFC 3229](https://tools.ietf.org/html/rfc3229).
 
 ### -field MultipleChoices:300
 The requested information has multiple representations. The default action is to treat this status as a redirect and follow the contents of the **Location** header associated with this response.
@@ -87,7 +87,7 @@ The request information is located at the URI specified in the **Location** head
 ### -field PermanentRedirect:308
 The target resource has been assigned a new permanent URI and any future references to this resource should use one of the returned URIs specified in the **Location** header.
 
-This status code is documented in IETF draft [draft-reschke-http-status-308](http://tools.ietf.org/html/draft-reschke-http-status-308-07).
+This status code is documented in IETF draft [draft-reschke-http-status-308](https://tools.ietf.org/html/draft-reschke-http-status-308-07).
 
 ### -field BadRequest:400
 The request could not be understood by the server. This status code is sent when no other error is applicable, or if the exact error is unknown or does not have its own error code.
@@ -146,37 +146,37 @@ An expectation given in an **Expect** header could not be met by the server.
 ### -field UnprocessableEntity:422
 The server understands the content type of the request entity and the syntax of the request entity is correct, but the server was unable to process the contained instructions.
 
-This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). This status code is documented in IETF [RFC 4918](http://tools.ietf.org/html/rfc4918).
+This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). This status code is documented in IETF [RFC 4918](https://tools.ietf.org/html/rfc4918).
 
 ### -field Locked:423
 The source or destination resource of a method is locked. This response should contain an appropriate precondition or post-condition code.
 
-This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). This status code is documented in IETF [RFC 4918](http://tools.ietf.org/html/rfc4918).
+This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). This status code is documented in IETF [RFC 4918](https://tools.ietf.org/html/rfc4918).
 
 ### -field FailedDependency:424
 The method could not be performed on the resource because the requested action depended on another action and that action failed.
 
-This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). This status code is documented in IETF [RFC 4918](http://tools.ietf.org/html/rfc4918).
+This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). This status code is documented in IETF [RFC 4918](https://tools.ietf.org/html/rfc4918).
 
 ### -field UpgradeRequired:426
 The client should switch to a different protocol such as TLS/1.0.
 
-This status code is documented in IETF [RFC 2917](http://tools.ietf.org/html/rfc2817).
+This status code is documented in IETF [RFC 2917](https://tools.ietf.org/html/rfc2817).
 
 ### -field PreconditionRequired:428
 The origin server requires the request to be conditional.
 
-This status code is documented in IETF [RFC 6585](http://tools.ietf.org/html/rfc6585).
+This status code is documented in IETF [RFC 6585](https://tools.ietf.org/html/rfc6585).
 
 ### -field TooManyRequests:429
 The user has sent too many requests in a given amount of time. The response should include details explaining the condition, and may include a **Retry-After** header indicating how long to wait before making a new request.
 
-This status code is documented in IETF [RFC 6585](http://tools.ietf.org/html/rfc6585).
+This status code is documented in IETF [RFC 6585](https://tools.ietf.org/html/rfc6585).
 
 ### -field RequestHeaderFieldsTooLarge:431
 The server is unwilling to process the request because its header fields are too large. The request may be resubmitted after reducing the size of the request header fields.
 
-This status code is documented in IETF [RFC 6585](http://tools.ietf.org/html/rfc6585).
+This status code is documented in IETF [RFC 6585](https://tools.ietf.org/html/rfc6585).
 
 ### -field InternalServerError:500
 A generic error has occurred on the server.
@@ -199,31 +199,31 @@ The requested HTTP version is not supported by the server.
 ### -field VariantAlsoNegotiates:506
 The server has an internal configuration error. The chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process.
 
-This status code is documented in IETF [RFC 2295](http://tools.ietf.org/html/rfc2295).
+This status code is documented in IETF [RFC 2295](https://tools.ietf.org/html/rfc2295).
 
 ### -field InsufficientStorage:507
 The method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request. This condition is considered to be temporary.
 
-This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). This status code is documented in IETF [RFC 4918](http://tools.ietf.org/html/rfc4918).
+This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). This status code is documented in IETF [RFC 4918](https://tools.ietf.org/html/rfc4918).
 
 ### -field LoopDetected:508
 The server terminated an operation because it encountered an infinite loop while processing a request. This status indicates that the entire operation failed.
 
-This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). It can only be returned if the client HTTP request included the DAV header in the request. This status code is documented in IETF [RFC 5842](http://tools.ietf.org/html/rfc5842).
+This status code is an HTTP extension used with Web Distributed Authoring and Versioning (WebDAV). It can only be returned if the client HTTP request included the DAV header in the request. This status code is documented in IETF [RFC 5842](https://tools.ietf.org/html/rfc5842).
 
 ### -field NotExtended:510
 The policy for accessing the resource has not been met in the request.
 
-This status code is documented in IETF [RFC 2774](http://tools.ietf.org/html/rfc2774).
+This status code is documented in IETF [RFC 2774](https://tools.ietf.org/html/rfc2774).
 
 ### -field NetworkAuthenticationRequired:511
 The server indicates that the client needs to authenticate to gain network access. The response should contain a link to a resource that allows the user to submit credentials.
 
-This status code is documented in IETF [RFC 6585](http://tools.ietf.org/html/rfc6585).
+This status code is documented in IETF [RFC 6585](https://tools.ietf.org/html/rfc6585).
 
 
 ## -remarks
-The [HttpStatusCode](httpstatuscode.md) enumeration contains the values of the status codes defined by the IETF in [RFC 2616](http://go.microsoft.com/fwlink/p/?LinkID=241642) for HTTP 1.1 and related RFCs.
+The HttpStatusCode enumeration contains the values of the status codes defined by the IETF in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642) for HTTP 1.1 and related RFCs.
 
 The status of an HTTP request is contained in the [StatusCode](httpresponsemessage_statuscode.md) property on the [HttpResponseMessage](httpresponsemessage.md) object.
 

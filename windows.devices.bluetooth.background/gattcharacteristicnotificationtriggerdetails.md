@@ -15,6 +15,14 @@ Provides information about the Bluetooth LE device that caused this trigger to f
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | Error |
+| 1703 | 15063 | EventTriggeringMode |
+| 1703 | 15063 | ValueChangedEvents |
+
 ## -examples
 
 ## -see-also

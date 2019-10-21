@@ -10,7 +10,7 @@ public class CheckBox : Windows.UI.Xaml.Controls.Primitives.ToggleButton, Window
 # Windows.UI.Xaml.Controls.CheckBox
 
 ## -description
-Represents a control that a user can select (check) or clear (uncheck). A [CheckBox](checkbox.md) can also report its value as indeterminate.
+Represents a control that a user can select (check) or clear (uncheck). A CheckBox can also report its value as indeterminate.
 
 ## -xaml-syntax
 ```xaml
@@ -29,28 +29,28 @@ Represents a control that a user can select (check) or clear (uncheck). A [Check
 > [!TIP]
 > For more info, design guidance, and code examples, see [Check boxes](/windows/uwp/design/controls-and-patterns/checkbox).
 
-[CheckBox](checkbox.md) is a control that a user can select or clear.
+CheckBox is a control that a user can select or clear.
 
 <img alt="The 3 states of a check box" src="images/controls/CheckBox_DefaultStates.png" />
 
-Use the [CheckBox](checkbox.md) control to provide a list of options that a user can select, such as a list of settings to apply to an application. Both [CheckBox](checkbox.md) and [RadioButton](radiobutton.md) controls allow the user to select from a list of options. [CheckBox](checkbox.md) controls allow the user to select a combination of options. In contrast, [RadioButton](radiobutton.md) controls allow the user to select from mutually exclusive options.
+Use the CheckBox control to provide a list of options that a user can select, such as a list of settings to apply to an application. Both CheckBox and [RadioButton](radiobutton.md) controls allow the user to select from a list of options. CheckBox controls allow the user to select a combination of options. In contrast, [RadioButton](radiobutton.md) controls allow the user to select from mutually exclusive options.
 
-The [CheckBox](checkbox.md) control inherits from [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) and can have three states: <table>
+The CheckBox control inherits from [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) and can have three states: <table>
    <tr><th>State</th><th>Property</th><th>Value</th></tr>
    <tr><td>checked</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**true**</td></tr>
    <tr><td>unchecked</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**false**</td></tr>
    <tr><td>indeterminate</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**null**</td></tr>
 </table>
 
- For the [CheckBox](checkbox.md) to report the indeterminate state, you must set the [IsThreeState](../windows.ui.xaml.controls.primitives/togglebutton_isthreestate.md) property to **true**.
+ For the CheckBox to report the indeterminate state, you must set the [IsThreeState](../windows.ui.xaml.controls.primitives/togglebutton_isthreestate.md) property to **true**.
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\&lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
 
-Starting in Windows 10, version 1607 (Windows Software Development Kit (SDK) version 10.0.14393.0), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://msdn.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
 
-This table shows the resources used by the [CheckBox](checkbox.md) control.
+This table shows the resources used by the CheckBox control.
 
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
@@ -135,11 +135,11 @@ This table shows the resources used by the [CheckBox](checkbox.md) control.
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the CheckBox in action](xamlcontrolsgallery:/item/CheckBox).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 The following example shows two check box controls. The first check box demonstrates the checked and unchecked states. The second check box demonstrates the checked, unchecked, and indeterminate states. You can select the controls to change their appearance and see which state they are in.
 
-[!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml#Snippet1)]
 
 [!code-csharp[11](../windows.ui.xaml.data/code/System.Windows.Controls.CheckBoxEx/csharp/Page.xaml.cs#Snippet11)]
 
@@ -229,5 +229,5 @@ private void Option_Unchecked(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[Check boxes overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/checkbox), [CheckBox styles and templates](http://msdn.microsoft.com/library/d0f9240d-1165-4fc2-b76c-6eaa9e173e86), [RadioButton](radiobutton.md), [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md), [Controls list](http://msdn.microsoft.com/library/11172840-a63d-4f48-9db4-7baca06308ee), [Controls by function](http://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)
+[Check boxes overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/checkbox), [CheckBox styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [RadioButton](radiobutton.md), [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md), [Controls list](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/), [Controls by function](https://docs.microsoft.com/windows/uwp/controls-and-patterns/controls-by-function)
 p://msdn.microsoft.com/library/8db4347b-91d6-4659-91f2-80ecf7bbb596)

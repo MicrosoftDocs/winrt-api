@@ -19,7 +19,7 @@ Gets the name of the field.
 The name of the field.
 
 ## -remarks
-If the [ContactField](contactfield.md) was created using a [ContactFieldType](contactfieldtype.md) enumeration, then the [Name](contactfield_name.md) property is the same as the [ContactFieldType](contactfieldtype.md) value (such as Email or PhoneNumber). If the [ContactField](contactfield.md) contains a custom field, the [Name](contactfield_name.md) property is the name of the field.
+If the [ContactField](contactfield.md) was created using a [ContactFieldType](contactfieldtype.md) enumeration, then the Name property is the same as the [ContactFieldType](contactfieldtype.md) value (such as Email or PhoneNumber). If the [ContactField](contactfield.md) contains a custom field, the Name property is the name of the field.
 
 ## -examples
 

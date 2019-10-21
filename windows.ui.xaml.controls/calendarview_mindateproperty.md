@@ -20,4 +20,4 @@ The identifier for the   [MinDate](calendarview_mindate.md) dependency property
 ## -examples
 
 ## -see-also
-[MinDate](calendarview_mindate.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[MinDate](calendarview_mindate.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

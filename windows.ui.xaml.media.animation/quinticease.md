@@ -19,21 +19,21 @@ Represents an easing function that creates an animation that accelerates and/or 
 
 
 ## -remarks
-[QuinticEase](quinticease.md) has the same behavior as does a [PowerEase](powerease.md) with [Power](powerease_power.md) value of 5. When [EasingMode](easingfunctionbase_easingmode.md) is **EaseIn** (the default), this easing function starts slow, remains slow for most of the duration, and accelerates very rapidly very near the end of the duration time.
+QuinticEase has the same behavior as does a [PowerEase](powerease.md) with [Power](powerease_power.md) value of 5. When [EasingMode](easingfunctionbase_easingmode.md) is **EaseIn** (the default), this easing function starts slow, remains slow for most of the duration, and accelerates very rapidly very near the end of the duration time.
 
-An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677).
+An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations).
 
 ## -examples
-This XAML example applies a [QuinticEase](quinticease.md) easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
+This XAML example applies a QuinticEase easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
 
 
 
-[!code-xml[QuinticEase](../windows.ui.xaml.media.animation/code/QuinticEase/csharp/Page.xaml#SnippetQuinticEase)]
+[!code-xaml[QuinticEase](../windows.ui.xaml.media.animation/code/QuinticEase/csharp/Page.xaml#SnippetQuinticEase)]
 
 [!code-csharp[QuinticEase_code](../windows.ui.xaml.media.animation/code/QuinticEase/csharp/Page.xaml.cs#SnippetQuinticEase_code)]
 
 [!code-vb[QuinticEase_code](../windows.ui.xaml.media.animation/code/QuinticEase/vbnet/MainPage.xaml.vb#SnippetQuinticEase_code)]
 
 ## -see-also
-[Storyboarded animations](http://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a), [Key-frame animations and easing function animations](http://msdn.microsoft.com/library/d8af24cd-f4c2-4562-afd7-25010955d677), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [SineEase](sineease.md)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [SineEase](sineease.md)
 aticease.md), [QuarticEase](quarticease.md), [SineEase](sineease.md)

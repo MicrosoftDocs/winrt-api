@@ -13,11 +13,11 @@ public class StaticAttribute : System.Attribute
 Indicates an interface that contains only static methods.
 
 ## -remarks
-The [StaticAttribute](staticattribute.md) specifies an interface with methods that language projections supply as static methods of the class. A runtime class may specify zero or more static attributes.
+The StaticAttribute specifies an interface with methods that language projections supply as static methods of the class. A runtime class may specify zero or more static attributes.
 
 A runtime class may have an [ActivatableAttribute](activatableattribute.md) to indicate that instances of the class can be constructed. Also, a runtime class may have instance interfaces, which indicate the instance methods that language projections supply on each object instance.
 
 ## -examples
 
 ## -see-also
-[Attribute](https://msdn.microsoft.com/library/system.attribute.aspx), [ActivatableAttribute](activatableattribute.md)
+[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN), [ActivatableAttribute](activatableattribute.md)

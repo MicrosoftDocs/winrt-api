@@ -15,6 +15,12 @@ Represents a brush that describes a gradient, composed of gradient stops.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1809 | 17763 | MappingMode |
+
 ## -see-also
 
 ## -examples

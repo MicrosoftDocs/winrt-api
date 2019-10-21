@@ -30,7 +30,7 @@ The power-line frequency is determined automatically by the system.
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | Auto |
 

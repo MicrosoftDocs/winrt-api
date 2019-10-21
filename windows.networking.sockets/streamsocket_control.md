@@ -16,7 +16,7 @@ Gets socket control data on a [StreamSocket](streamsocket.md) object.
 Socket control data on a [StreamSocket](streamsocket.md) object.
 
 ## -remarks
-The [Control](streamsocket_control.md) property gets the [StreamSocketControl](streamsocketcontrol.md) instance associated with a [StreamSocket](streamsocket.md) object.
+The Control property gets the [StreamSocketControl](streamsocketcontrol.md) instance associated with a [StreamSocket](streamsocket.md) object.
 
 A [StreamSocketControl](streamsocketcontrol.md) object is automatically created with the parent [StreamSocket](streamsocket.md) object. The [StreamSocketControl](streamsocketcontrol.md) instance can then be used to get or set control data used by the [StreamSocket](streamsocket.md) object. These properties on the [StreamSocketControl](streamsocketcontrol.md) instance include the following:
 
@@ -34,7 +34,7 @@ Any changes to the property values on the [StreamSocketControl](streamsocketcont
 ## -examples
 
 ## -see-also
-[How to use advanced socket controls](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4), [IgnorableServerCertificateErrors](streamsocketcontrol_ignorableservercertificateerrors.md), [KeepAlive](streamsocketcontrol_keepalive.md), [NoDelay](streamsocketcontrol_nodelay.md), [OutboundBufferSizeInBytes](streamsocketcontrol_outboundbuffersizeinbytes.md), [OutboundUnicastHopLimit](streamsocketcontrol_outboundunicasthoplimit.md), [QualityOfService](streamsocketcontrol_qualityofservice.md), [StreamSocketControl](streamsocketcontrol.md)
+[How to use advanced socket controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [IgnorableServerCertificateErrors](streamsocketcontrol_ignorableservercertificateerrors.md), [KeepAlive](streamsocketcontrol_keepalive.md), [NoDelay](streamsocketcontrol_nodelay.md), [OutboundBufferSizeInBytes](streamsocketcontrol_outboundbuffersizeinbytes.md), [OutboundUnicastHopLimit](streamsocketcontrol_outboundunicasthoplimit.md), [QualityOfService](streamsocketcontrol_qualityofservice.md), [StreamSocketControl](streamsocketcontrol.md)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

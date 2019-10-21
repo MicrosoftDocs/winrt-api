@@ -84,4 +84,4 @@ These values are pre-defined by the MIDI specification. The reserved system mess
 ## -examples
 
 ## -see-also
-[MIDI  sample](http://go.microsoft.com/fwlink/p/?LinkID=394281)
+[MIDI  sample](https://go.microsoft.com/fwlink/p/?LinkID=394281)

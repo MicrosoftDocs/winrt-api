@@ -20,4 +20,4 @@ The identifier for the [TodayForeground](calendarview_todayforeground.md)   dep
 ## -examples
 
 ## -see-also
-[TodayForeground](calendarview_todayforeground.md), [Dependency properties overview](http://msdn.microsoft.com/library/ad649e66-f71c-4daa-9994-617c886fda7e)
+[TodayForeground](calendarview_todayforeground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)

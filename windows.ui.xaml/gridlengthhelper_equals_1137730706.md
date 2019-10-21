@@ -10,8 +10,7 @@ public bool Equals(Windows.UI.Xaml.GridLength target, Windows.UI.Xaml.GridLength
 # Windows.UI.Xaml.GridLengthHelper.Equals
 
 ## -description
-Provides comparison of the values of two [GridLength](gridlength.md) values. C# and Microsoft Visual Basic code should use the = operator instead. 
-<!--Link if we ever add GridLength.Equals-->
+Provides comparison of the values of two [GridLength](gridlength.md) values. C# and Microsoft Visual Basic code should use the [Equality](/dotnet/api/windows.ui.xaml.gridlength.op_equality) operator or [GridLength.Equals](/dotnet/api/windows.ui.xaml.gridlength.equals) method instead.
 
 ## -parameters
 ### -param target
@@ -28,4 +27,4 @@ The second [GridLength](gridlength.md) to compare.
 ## -examples
 
 ## -see-also
-[Equals(Object)](https://msdn.microsoft.com/library/bsc2ak47.aspx)
+[Equals(Object)](https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_)

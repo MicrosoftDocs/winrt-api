@@ -18,10 +18,10 @@ Displays the connect UI for a specific mobile network.
 
 
 
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations). 
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations). 
 
 ## -remarks
-The [ShowConnectionUI](mobilebroadbandnetwork_showconnectionui_1443464048.md) method is useful if you determine that connecting to a different network is preferred due to a roaming relationship, pricing changes, and so on. For example, when your app determines that a different network is preferred, you can inform the user of the preferred network. If the user decides to change networks, you can call the [ShowConnectionUI](mobilebroadbandnetwork_showconnectionui_1443464048.md) for the preferred network to complete the connection.
+The ShowConnectionUI method is useful if you determine that connecting to a different network is preferred due to a roaming relationship, pricing changes, and so on. For example, when your app determines that a different network is preferred, you can inform the user of the preferred network. If the user decides to change networks, you can call the ShowConnectionUI for the preferred network to complete the connection.
 
 ## -examples
 

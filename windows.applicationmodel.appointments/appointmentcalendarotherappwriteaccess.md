@@ -27,7 +27,7 @@ Other apps on the device can perform any write-level actions that use a [DataPro
 
 ### Version history
 
-| Version | SDK version | Value added |
+| Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | Limited |
 

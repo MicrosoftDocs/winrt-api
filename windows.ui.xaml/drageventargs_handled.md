@@ -16,9 +16,9 @@ Gets or sets a value that indicates the present state of the event handling for 
 **true** if the event is marked handled; otherwise, **false**. The default value is **false**.
 
 ## -remarks
-The events that use [DragEventArgs](drageventargs.md) for event data are routed events. Setting the value of the [Handled](drageventargs_handled.md) property to **true** from an event handler can influence how a routed event behaves: it prevents handlers further along the route from being invoked. However, a handler that was attached by calling [AddHandler](uielement_addhandler_2121467075.md) with *handledEventsToo* is still invoked. For more info on the routed event concept, see [Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832).
+The events that use [DragEventArgs](drageventargs.md) for event data are routed events. Setting the value of the Handled property to **true** from an event handler can influence how a routed event behaves: it prevents handlers further along the route from being invoked. However, a handler that was attached by calling [AddHandler](uielement_addhandler_2121467075.md) with *handledEventsToo* is still invoked. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 ## -examples
 
 ## -see-also
-[Events and routed events overview](http://msdn.microsoft.com/library/34c219e8-3efb-45bc-8bbd-6fd937698832)
+[Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)

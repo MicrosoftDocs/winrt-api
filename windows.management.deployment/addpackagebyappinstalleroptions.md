@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Management.Deployment.AddPackageByAppInstallerOptions
 -api-type: winrt enum
+ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax.
@@ -25,11 +26,22 @@ If this package is currently in use, the processes associated with the package a
 ### -field RequiredContentGroupOnly:256
 When you set this option, only the required content group will be staged. An app can be installed as a package with the required content group alone.
 
+### -field LimitToExistingPackages:512
+Do not download missing referenced packages
+
+
 ## -remarks
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1903 | 18362 | LimitToExistingPackages |
 
 ## -see-also
 [AddPackageByAppInstallerFileAsync()](packagemanager_addpackagebyappinstallerfileasync_1097728195.md)
 [RequestAddPackageByAppInstallerFileAsync](packagemanager_requestaddpackagebyappinstallerfileasync_1360655875.md)
 
 ## -examples
+
 

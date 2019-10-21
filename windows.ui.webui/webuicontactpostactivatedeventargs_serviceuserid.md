@@ -16,7 +16,7 @@ Gets the user identifier of the service used for the post.
 The user identifier of the service used for the post.
 
 ## -remarks
-The [ServiceUserId](webuicontactpostactivatedeventargs_serviceuserid.md) property is set to the contact’s user id for the service that is being posted to.
+The ServiceUserId property is set to the contact’s user id for the service that is being posted to.
 
 ## -examples
 

@@ -13,25 +13,25 @@ public class HttpRequestHeaderCollection : Windows.Foundation.Collections.IItera
 Provides a collection of the HTTP headers associated with an HTTP request.
 
 ## -remarks
-The [HttpRequestHeaderCollection](httprequestheadercollection.md) is a collection of the HTTP headers associated with an HTTP request. The [HttpRequestHeaderCollection](httprequestheadercollection.md) object can be used to get or set the specific headers on an HTTP request. Most of the properties on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object provide access to the value of a specific HTTP header.
+The HttpRequestHeaderCollection is a collection of the HTTP headers associated with an HTTP request. The HttpRequestHeaderCollection object can be used to get or set the specific headers on an HTTP request. Most of the properties on the HttpRequestHeaderCollection object provide access to the value of a specific HTTP header.
 
-The [Headers](../windows.web.http/httprequestmessage_headers.md) property on [HttpRequestMessage](../windows.web.http/httprequestmessage.md) returns an [HttpRequestHeaderCollection](httprequestheadercollection.md) object. The [DefaultRequestHeaders](../windows.web.http/httpclient_defaultrequestheaders.md) property on [HttpClient](../windows.web.http/httpclient.md) also returns an [HttpRequestHeaderCollection](httprequestheadercollection.md) object. These are the two methods to construct an [HttpRequestHeaderCollection](httprequestheadercollection.md) object.
+The [Headers](../windows.web.http/httprequestmessage_headers.md) property on [HttpRequestMessage](../windows.web.http/httprequestmessage.md) returns an HttpRequestHeaderCollection object. The [DefaultRequestHeaders](../windows.web.http/httpclient_defaultrequestheaders.md) property on [HttpClient](../windows.web.http/httpclient.md) also returns an HttpRequestHeaderCollection object. These are the two methods to construct an HttpRequestHeaderCollection object.
 
-The [HttpRequestHeaderCollection](httprequestheadercollection.md) represents HTTP headers on an HTTP request that an app developer can set, not all of the headers that may eventually be sent with the request. The [HttpBaseProtocolFilter](../windows.web.http.filters/httpbaseprotocolfilter.md) will add some additional headers.
+The HttpRequestHeaderCollection represents HTTP headers on an HTTP request that an app developer can set, not all of the headers that may eventually be sent with the request. The [HttpBaseProtocolFilter](../windows.web.http.filters/httpbaseprotocolfilter.md) will add some additional headers.
 
-Headers on an HTTP request can be changed by the underlying stack. This would be why an app might want to get a header value from the [HttpRequestHeaderCollection](httprequestheadercollection.md) after the request has completed.
+Headers on an HTTP request can be changed by the underlying stack. This would be why an app might want to get a header value from the HttpRequestHeaderCollection after the request has completed.
 
 
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic
 
-You can iterate through an [HttpRequestHeaderCollection](httprequestheadercollection.md) object in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable.getenumerator), cast the collection object to [IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) with a [KeyValuePair](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.keyvaluepair-2) of [String](https://msdn.microsoft.com/library/system.string.aspx) and [String](https://msdn.microsoft.com/library/system.string.aspx) as the constraint.
+You can iterate through an HttpRequestHeaderCollection object in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator), cast the collection object to [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) with a [KeyValuePair](https://docs.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2) of [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) and [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) as the constraint.
 
 
 <!--End NET note for IEnumerable support-->
 
 ## -examples
-The following sample code shows a method to get and set request headers on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties on the [HttpRequestHeaderCollection](httprequestheadercollection.md) object. The [Windows.Web.Http.Headers](windows_web_http_headers.md) namespace also has a number of strongly-typed header collection and value classes for specific HTTP headers that can be used to get and set headers with validation.
+The following sample code shows a method to get and set request headers on an [HttpRequestMessage](../windows.web.http/httprequestmessage.md) object using the properties on the HttpRequestHeaderCollection object. The [Windows.Web.Http.Headers](windows_web_http_headers.md) namespace also has a number of strongly-typed header collection and value classes for specific HTTP headers that can be used to get and set headers with validation.
 
 ```csharp
 

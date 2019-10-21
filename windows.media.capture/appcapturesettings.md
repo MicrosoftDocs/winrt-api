@@ -17,11 +17,22 @@ Represents app capture settings.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | IsMicrophoneCaptureEnabled |
+| 1607 | 14393 | IsMicrophoneCaptureEnabledByDefault |
+| 1607 | 14393 | MicrophoneGain |
+| 1607 | 14393 | SystemAudioGain |
+| 1607 | 14393 | VideoEncodingFrameRateMode |
+| 1703 | 15063 | IsCursorImageCaptureEnabled |
+| 1703 | 15063 | IsEchoCancellationEnabled |
 
 ## -examples
 
 ## -see-also
-[Object](https://msdn.microsoft.com/library/system.object.aspx)
+[Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)
 
 ## -capabilities
 appCaptureSettings

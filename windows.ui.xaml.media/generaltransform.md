@@ -10,7 +10,7 @@ public class GeneralTransform : Windows.UI.Xaml.DependencyObject, Windows.UI.Xam
 # Windows.UI.Xaml.Media.GeneralTransform
 
 ## -description
-Provides generalized transformation support for objects. [GeneralTransform](generaltransform.md) is a base class that's in the hierarchy of practical transform classes such as [TranslateTransform](translatetransform.md).
+Provides generalized transformation support for objects. GeneralTransform is a base class that's in the hierarchy of practical transform classes such as [TranslateTransform](translatetransform.md).
 
 ## -remarks
 Transformation types include rotation ([RotateTransform](rotatetransform.md)), scale ([ScaleTransform](scaletransform.md)), skew/shear ([SkewTransform](skewtransform.md)), and translation ([TranslateTransform](translatetransform.md)).
@@ -19,7 +19,7 @@ Transformation types include rotation ([RotateTransform](rotatetransform.md)), s
 
 [CompositeTransform](compositetransform.md) and [TransformGroup](transformgroup.md) both support specifying multiple transforms for a combined transformation logic.
 
-There's also an intermediate base class, [Transform](transform.md). Properties sometimes are typed as [GeneralTransform](generaltransform.md) or [Transform](transform.md) so that you can use any of the practical transforms to provide values.
+There's also an intermediate base class, [Transform](transform.md). Properties sometimes are typed as GeneralTransform or [Transform](transform.md) so that you can use any of the practical transforms to provide values.
 
 You can animate properties of a transform. For XAML syntaxes that take a [Transform](transform.md), you need to specify a nonabstract derived type of [Transform](transform.md) as an object element. Typically, this is one of: [MatrixTransform](matrixtransform.md), [RotateTransform](rotatetransform.md), [ScaleTransform](scaletransform.md), [SkewTransform](skewtransform.md), or [TranslateTransform](translatetransform.md). See the syntax sections on the appropriate class.
 
@@ -32,9 +32,9 @@ You cannot extract the matrix-specific information from the nonmatrix transforma
 
 ### **GeneralTransform** derived classes
 
-[GeneralTransform](generaltransform.md) is the parent class for [Transform](transform.md). [Transform](transform.md) is the parent class for the practical transforms.
+GeneralTransform is the parent class for [Transform](transform.md). [Transform](transform.md) is the parent class for the practical transforms.
 
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Transform](transform.md), [XAML two-dimensional transforms sample](http://go.microsoft.com/fwlink/p/?linkid=226868)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Transform](transform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868)

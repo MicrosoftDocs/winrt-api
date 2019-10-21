@@ -57,7 +57,7 @@ To display a warning that the URI is potentially unsafe, set the [LauncherOption
 The URI is passed to the associated app. If the associated app is a desktop app, the URI is passed using shell execution mechanisms.
 
 ## -examples
-This sample uses [LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md) to launch a URI with a warning. The [TreatAsUntrusted](launcheroptions_treatasuntrusted.md) property indicates that the system should display a warning.
+This sample uses [LaunchUriAsync(Uri, LauncherOptions) to launch a URI with a warning. The [TreatAsUntrusted](launcheroptions_treatasuntrusted.md) property indicates that the system should display a warning.
 
 ```csharp
 // The URI to launch
@@ -133,7 +133,7 @@ void MainPage::DefaultLaunch()
 ```
 
 > [!NOTE]
-> For Windows app using JavaScript, call [preventDefault](https://msdn.microsoft.com/en-us/library/ff975967(v=vs.85).aspx) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [a](https://msdn.microsoft.com/en-us/library/ms535173(v=vs.85).aspx) element to launch the URI.
+> For Windows app using JavaScript, call [preventDefault](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ff975967(v=vs.85)) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [a](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) element to launch the URI.
 
 ```javascript
 // The URI to launch
@@ -179,4 +179,4 @@ End Sub
 ```
 
 ## -see-also
-[LaunchUriAsync(Uri)](launcher_launchuriasync_53691900.md), [LaunchUriAsync(Uri, LauncherOptions, ValueSet)](launcher_launchuriasync_569877360.md), [Association launching sample](http://go.microsoft.com/fwlink/p/?linkid=231484), [Guidelines for file types and URIs](http://msdn.microsoft.com/library/a6653b8f-763f-4d67-9d12-6af73a673bc5), [How to launch the default app for a URI (JavaScript)](http://msdn.microsoft.com/library/0f9fa8db-3e51-4cf8-879d-2b79a8ddbb7d), [Launch the default app for a URI](http://msdn.microsoft.com/library/7b0d0af5-d89e-4db0-9b79-90201d79974f)
+[LaunchUriAsync(Uri)](launcher_launchuriasync_53691900.md), [LaunchUriAsync(Uri, LauncherOptions, ValueSet)](launcher_launchuriasync_569877360.md), [Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [How to launch the default app for a URI (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452690(v=win.10)), [Launch the default app for a URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app)

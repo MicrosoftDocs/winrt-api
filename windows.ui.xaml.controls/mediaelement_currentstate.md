@@ -18,11 +18,11 @@ The current state of this [MediaElement](mediaelement.md). The state can be one 
 ## -remarks
 
 ## -examples
-The following example demonstrates one way to display the [CurrentState](mediaelement_currentstate.md) of a [MediaElement](mediaelement.md). It creates a [MediaElement](mediaelement.md) and several buttons for controlling media playback. To display the current state of the [MediaElement](mediaelement.md), the example registers for the [CurrentStateChanged](mediaelement_currentstatechanged.md) event and uses an event handler to update a [TextBlock](textblock.md).
+The following example demonstrates one way to display the CurrentState of a [MediaElement](mediaelement.md). It creates a [MediaElement](mediaelement.md) and several buttons for controlling media playback. To display the current state of the [MediaElement](mediaelement.md), the example registers for the [CurrentStateChanged](mediaelement_currentstatechanged.md) event and uses an event handler to update a [TextBlock](textblock.md).
 
 
 
-[!code-xml[media_ovw_controlling_media_with_currentstate](../windows.ui.xaml.controls/code/media_ovw_controlling_media_with_currentstate/csharp/Page.xaml#Snippetmedia_ovw_controlling_media_with_currentstate)]
+[!code-xaml[media_ovw_controlling_media_with_currentstate](../windows.ui.xaml.controls/code/media_ovw_controlling_media_with_currentstate/csharp/Page.xaml#Snippetmedia_ovw_controlling_media_with_currentstate)]
 
 
 [!code-csharp[media_ovw_controlling_media_with_currentstate_code](../windows.ui.xaml.controls/code/media_ovw_controlling_media_with_currentstate/csharp/Page.xaml.cs#Snippetmedia_ovw_controlling_media_with_currentstate_code)]

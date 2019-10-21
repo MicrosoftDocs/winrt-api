@@ -19,4 +19,4 @@ When you call the [RecognizeAsync](ocrengine_recognizeasync_614325911.md) method
 ## -examples
 
 ## -see-also
-[Object ](https://msdn.microsoft.com/library/system.object.aspx),
+[Object ](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN),

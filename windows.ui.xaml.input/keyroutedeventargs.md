@@ -35,9 +35,15 @@ This table provides the mapping detail for these devices.
    <tr><td><img src="images/GamePadView.png" alt="Gamepad View button" height="100" width="100" /></td><td>GamepadView</td><td>GamepadView or NavigationView</td></tr>
 </table>
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | DeviceId |
+
 ## -examples
 
-Here, we demonstrate how to handle the [KeyUp](../windows.ui.xaml/uielement_keyup.md) event to navigate to a URL if the [virtual key](../windows.system/virtualkey.md) associated with the event is the **Enter** key. For the complete code listing, see the [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582).
+Here, we demonstrate how to handle the [KeyUp](../windows.ui.xaml/uielement_keyup.md) event to navigate to a URL if the [virtual key](../windows.system/virtualkey.md) associated with the event is the **Enter** key. For the complete code listing, see the [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582).
 
 [!code-cpp[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/cpp/Scenario1.xaml.cpp#SnippetWebViewNavigation)]
 
@@ -47,5 +53,5 @@ Here, we demonstrate how to handle the [KeyUp](../windows.ui.xaml/uielement_keyu
 
 ## -see-also
 
-[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [WebView](../windows.ui.xaml.controls/webview.md), [XAML WebView control sample](http://go.microsoft.com/fwlink/p/?linkid=238582)
+[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [WebView](../windows.ui.xaml.controls/webview.md), [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582)
 soft.com/fwlink/p/?linkid=238582)

@@ -14,12 +14,18 @@ Hosts 2D boxed content of type [CompositionBrush](compositionbrush.md). Any part
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Shadow |
+
 ## -examples
 
 
 ```csharp
 
-SpriteVisual visual= compositor.CreateSpriteVisual();
+SpriteVisual visual = compositor.CreateSpriteVisual();
 visual.Brush = compositor.CreateColorBrush  (Colors.White);
           
 ```
@@ -28,7 +34,7 @@ visual.Brush = compositor.CreateColorBrush  (Colors.White);
 
 ```csharp
 
-SpriteVisual visual= compositor.CreateSpriteVisual();
+SpriteVisual visual = compositor.CreateSpriteVisual();
 var surface = graphicsDevice.CreateDrawingSurface(new Size(300, 50), 
                                                   Windows.Graphics.DirectX.DirectXPixelFormat.B8G8R8A8UIntNormalized, 
                                                   CompositionAlphaMode.Ignore); 
@@ -63,4 +69,4 @@ visual.Shadow = shadow;
 
 
 ## -see-also
-[Composition Visual Tree Overview](http://go.microsoft.com/fwlink/p/?LinkID=699335), [ContainerVisual](containervisual.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Visual Tree Overview](https://go.microsoft.com/fwlink/p/?LinkID=699335), [ContainerVisual](containervisual.md), [IClosable](../windows.foundation/iclosable.md)

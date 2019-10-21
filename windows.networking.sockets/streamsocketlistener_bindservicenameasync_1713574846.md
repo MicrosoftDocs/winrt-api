@@ -26,15 +26,15 @@ The network adapter on which to bind the [StreamSocketListener](streamsocketlist
 The asynchronous bind operation on a [StreamSocketListener](streamsocketlistener.md) object.
 
 ## -remarks
-The [BindServiceNameAsync(String, SocketProtectionLevel, NetworkAdapter)](streamsocketlistener_bindservicenameasync_1713574846.md) method binds to the local service name or TCP port specified in the *localServiceName* parameter on the network adapter specified in the *adapter* parameter on the local computer. For Bluetooth RFCOMM, this method binds to the Bluetooth Service ID specified in the *localServiceName* parameter if the *adapter* parameter is **null**. A Bluetooth Service ID must be supplied to bind for Bluetooth. If a network adapter is specified in the *adapter* parameter and the *localServiceName* parameter contains a Bluetooth Service ID, then this method will fail.
+The [BindServiceNameAsync(String, SocketProtectionLevel, NetworkAdapter) method binds to the local service name or TCP port specified in the *localServiceName* parameter on the network adapter specified in the *adapter* parameter on the local computer. For Bluetooth RFCOMM, this method binds to the Bluetooth Service ID specified in the *localServiceName* parameter if the *adapter* parameter is **null**. A Bluetooth Service ID must be supplied to bind for Bluetooth. If a network adapter is specified in the *adapter* parameter and the *localServiceName* parameter contains a Bluetooth Service ID, then this method will fail.
 
 This method sets the protection level for encryption on any bound sockets to the *protectionLevel* parameter.
 
 If the *localServiceName* parameter is an empty string, then the system will select the local TCP port on which to bind. If the *adapter* parameter is **null** for a TCP socket bind, an error will occur.
 
-The name resolution mechanism used by the [BindServiceNameAsync(String, SocketProtectionLevel, NetworkAdapter)](streamsocketlistener_bindservicenameasync_1713574846.md) method is limited to the specified interface for the domain name system (DNS) namespace.
+The name resolution mechanism used by the [BindServiceNameAsync(String, SocketProtectionLevel, NetworkAdapter) method is limited to the specified interface for the domain name system (DNS) namespace.
 
-The [BindServiceNameAsync(String, SocketProtectionLevel, NetworkAdapter)](streamsocketlistener_bindservicenameasync_1713574846.md) method will fail if another app (another [StreamSocketListener](streamsocketlistener.md), for example) has already been bound to the local TCP port specified in the *localServiceName* parameter on the network adapter specified in the *adapter* parameter. For Bluetooth, this method will fail if another app (another [StreamSocketListener](streamsocketlistener.md), for example) has already been bound to the Bluetooth Service ID specified in the *localServiceName* parameter.
+The [BindServiceNameAsync(String, SocketProtectionLevel, NetworkAdapter) method will fail if another app (another [StreamSocketListener](streamsocketlistener.md), for example) has already been bound to the local TCP port specified in the *localServiceName* parameter on the network adapter specified in the *adapter* parameter. For Bluetooth, this method will fail if another app (another [StreamSocketListener](streamsocketlistener.md), for example) has already been bound to the Bluetooth Service ID specified in the *localServiceName* parameter.
 
 Using the specified network adapter is on a best-effort basis. A system with adapters configured in weak-host or forwarding modes may use an adapter other than the specified adapter.
 

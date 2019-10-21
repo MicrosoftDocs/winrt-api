@@ -15,4 +15,4 @@ SPI is a high speed interface used to communicate among integrated components on
 
 ## -see-also
 
-[Serial Peripheral Interface (SPI) sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=624151)
+[Serial Peripheral Interface (SPI) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624151)

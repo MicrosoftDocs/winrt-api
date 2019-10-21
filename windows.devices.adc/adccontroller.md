@@ -14,6 +14,12 @@ Represents an ADC controller on the system
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | GetDefaultAsync |
+
 ## -examples
 
 ## -see-also

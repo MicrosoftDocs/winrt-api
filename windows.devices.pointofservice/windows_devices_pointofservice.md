@@ -34,10 +34,10 @@ Enables application developers to access Point of Service (POS) peripheral devic
 
 ## -remarks
 
-Applications which require this namespace require the addition of the “pointOfService” [DeviceCapability](https://msdn.microsoft.com/en-us/library/windows/apps/4353c4fd-f038-4986-81ed-d2ec0c6235ef) to the app package manifest.
+Applications which require this namespace require the addition of the “pointOfService” [DeviceCapability](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-devicecapability) to the app package manifest.
 
 ## -examples
 
 ## -see-also
 
-[Cash drawer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620015), [Magnetic stripe reader sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620017), [POS printer sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620018), [Barcode scanner sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620014)
+[Cash drawer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620015), [Magnetic stripe reader sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620017), [POS printer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620018), [Barcode scanner sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620014)

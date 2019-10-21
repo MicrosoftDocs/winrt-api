@@ -16,7 +16,7 @@ Gets the **Anniversary** property name.
 The **Anniversary** property name.
 
 ## -remarks
-The value returned for the **Anniversary** key in a contact **Properties** collection is a [DateTime](../windows.foundation/datetime.md) for C++, a [DateTimeOffset](https://msdn.microsoft.com/library/system.datetimeoffset.aspx) for C#/Visual Basic.
+The value returned for the **Anniversary** key in a contact **Properties** collection is a [DateTime](../windows.foundation/datetime.md) for C++, a [DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN) for C#/Visual Basic.
 
 ## -examples
 

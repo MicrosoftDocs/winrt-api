@@ -29,7 +29,7 @@ Gets the collection of primary command elements for the [CommandBar](commandbar.
 The collection of primary command elements for the [CommandBar](commandbar.md). The default is an empty collection.
 
 ## -remarks
-The [PrimaryCommands](commandbar_primarycommands.md) collection can contain only [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), or [AppBarSeparator](appbarseparator.md) command elements. The primary commands are shown on the right side of the [CommandBar](commandbar.md), to the left of the More button (...) when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is **LeftToRight**. The layout is reversed when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is **RightToLeft**.
+The PrimaryCommands collection can contain only [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), or [AppBarSeparator](appbarseparator.md) command elements. The primary commands are shown on the right side of the [CommandBar](commandbar.md), to the left of the More button (...) when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is **LeftToRight**. The layout is reversed when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is **RightToLeft**.
 
 ## -examples
 

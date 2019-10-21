@@ -17,7 +17,7 @@ Forces content in the view to scroll until the item that's specified by [Semanti
 The item in the view to scroll to.
 
 ## -remarks
-You use the [MakeVisible](listviewbase_makevisible_1148837317.md) method to bring an item into view when the [ListViewBase](listviewbase.md) control is used as a view in a [SemanticZoom](semanticzoom.md) control. To bring an item into view when the [ListViewBase](listviewbase.md) control is not used in a [SemanticZoom](semanticzoom.md), use the [ScrollIntoView](listviewbase_scrollintoview_2024050476.md) method instead.
+You use the MakeVisible method to bring an item into view when the [ListViewBase](listviewbase.md) control is used as a view in a [SemanticZoom](semanticzoom.md) control. To bring an item into view when the [ListViewBase](listviewbase.md) control is not used in a [SemanticZoom](semanticzoom.md), use the [ScrollIntoView](listviewbase_scrollintoview_2024050476.md) method instead.
 
 ## -examples
 

@@ -13,11 +13,11 @@ public class StreamSocketListenerControl : Windows.Networking.Sockets.IStreamSoc
 Provides socket control data on a [StreamSocketListener](streamsocketlistener.md) object.
 
 ## -remarks
-The [StreamSocketListenerControl](streamsocketlistenercontrol.md) class provides access to advanced socket control data on a [StreamSocketListener](streamsocketlistener.md) object.
+The StreamSocketListenerControl class provides access to advanced socket control data on a [StreamSocketListener](streamsocketlistener.md) object.
 
-A [StreamSocketListenerControl](streamsocketlistenercontrol.md) object is automatically created with the parent [StreamSocketListener](streamsocketlistener.md) object. The [StreamSocketListener.Control](streamsocketlistener_control.md) property provides access to the associated [StreamSocketListenerControl](streamsocketlistenercontrol.md) object.
+A StreamSocketListenerControl object is automatically created with the parent [StreamSocketListener](streamsocketlistener.md) object. The [StreamSocketListener.Control](streamsocketlistener_control.md) property provides access to the associated StreamSocketListenerControl object.
 
-Any changes to the [StreamSocketListenerControl](streamsocketlistenercontrol.md) property values must be set before the [StreamSocketListener](streamsocketlistener.md) is bound. So changes to the [QualityOfService](streamsocketlistenercontrol_qualityofservice.md) property must be set before the [BindServiceNameAsync](streamsocketlistener_bindservicenameasync_1713574846.md) or [BindEndpointAsync](streamsocketlistener_bindendpointasync_1396029045.md) method is called on the [StreamSocketListener](streamsocketlistener.md).
+Any changes to the StreamSocketListenerControl property values must be set before the [StreamSocketListener](streamsocketlistener.md) is bound. So changes to the [QualityOfService](streamsocketlistenercontrol_qualityofservice.md) property must be set before the [BindServiceNameAsync](streamsocketlistener_bindservicenameasync_1713574846.md) or [BindEndpointAsync](streamsocketlistener_bindendpointasync_1396029045.md) method is called on the [StreamSocketListener](streamsocketlistener.md).
 
 The following example creates a [StreamSocketListener](streamsocketlistener.md), and then demonstrates how to set the [QualityOfService](datagramsocketcontrol_qualityofservice.md) property to **LowLatency**. After this is done, the app can bind and listen on the [StreamSocketListener](streamsocketlistener.md).
 
@@ -80,12 +80,12 @@ listenerSocket.Control.QualityOfService = SocketQualityOfService.lowLatency;
 // Now you can call the BindServiceNameAsync or BindEndpointAsync method to listen for connections.
 ```
 
-For more information on using [StreamSocketListenerControl](streamsocketlistenercontrol.md), see [How to use advanced socket controls ](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4) and [How to use advanced socket controls ](http://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682).
+For more information on using StreamSocketListenerControl, see [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)) and [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[Connecting with sockets ](http://msdn.microsoft.com/library/67cfa78f-570f-4dd4-a0f2-cd6c891f5446), [Connecting with sockets ](http://msdn.microsoft.com/library/2a6448d0-e21f-4963-bca5-aae001ae4fc7), [How to use advanced socket controls ](http://msdn.microsoft.com/library/2e1071d8-a1c7-44c0-b93a-31a701d431c4), [How to use advanced socket controls ](http://msdn.microsoft.com/library/f2c5be73-3461-452e-a38f-d2ddef9b5682), [StreamSocketListener](streamsocketlistener.md), [StreamSocketListener.Control](streamsocketlistener_control.md), [StreamSocketListenerInformation](streamsocketlistenerinformation.md), [Bluetooth Rfcomm Chat sample](http://go.microsoft.com/fwlink/p/?LinkID=306047), [ControlChannelTrigger StreamSocket sample](http://go.microsoft.com/fwlink/p/?linkid=243039), [Proximity sample](http://go.microsoft.com/fwlink/p/?linkid=245082), [StreamSocket sample](http://go.microsoft.com/fwlink/p/?linkid=243037)
+[Connecting with sockets ](https://docs.microsoft.com/previous-versions/windows/apps/hh452977(v=win.10)), [Connecting with sockets ](https://docs.microsoft.com/previous-versions/windows/apps/hh452976(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocketListener](streamsocketlistener.md), [StreamSocketListener.Control](streamsocketlistener_control.md), [StreamSocketListenerInformation](streamsocketlistenerinformation.md), [Bluetooth Rfcomm Chat sample](https://go.microsoft.com/fwlink/p/?LinkID=306047), [ControlChannelTrigger StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243039), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082), [StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243037)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

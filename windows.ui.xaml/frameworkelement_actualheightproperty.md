@@ -17,7 +17,7 @@ The identifier for the [ActualHeight](frameworkelement_actualheight.md)  depend
 
 ## -remarks
 > [!NOTE]
-> Although it has an [ActualHeightProperty](frameworkelement_actualheightproperty.md) backing field, [ActualHeight](frameworkelement_actualheight.md) does not raise property change notifications and it should be thought of as a regular CLR property and not a dependency property.
+> Although it has an ActualHeightProperty backing field, [ActualHeight](frameworkelement_actualheight.md) does not raise property change notifications and it should be thought of as a regular CLR property and not a dependency property.
 
 ## -examples
 

@@ -14,6 +14,12 @@ A frame source that provides color frames.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1511 | 10586 | DeviceId |
+
 ## -examples
 
 ## -see-also

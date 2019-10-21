@@ -23,4 +23,17 @@ A settings object that contains the user's current assigned access settings.
 ## -see-also
 
 ## -examples
+```csharp
+using Windows.System.UserProfile; 
 
+// Retrieve AssignedAccessSettings for current user
+void GetAssignedAccessSettingsForCurrentUser()
+{
+    AssignedAccessSettings settings = AssignedAccessSettings.GetDefault();
+    var assignedAccessEnabled = settings.IsEnabled;
+    var singleAppKioskMode = settings.IsSingleAppKioskMode;
+    
+    // determine the behavior according to the AssignedAccessSettings
+}
+
+```

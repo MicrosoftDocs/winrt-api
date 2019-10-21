@@ -15,7 +15,7 @@ Exposes a collection of individual animation effects that are performed on a spe
 ## -remarks
 
 ## -examples
-This example shows the creation of an [AnimationDescription](animationdescription.md) object and its use. The *effect* and *target* parameters are assumed to have been previously assigned.
+This example shows the creation of an AnimationDescription object and its use. The *effect* and *target* parameters are assumed to have been previously assigned.
 
 ```csharp
 using Windows.UI.Core.AnimationMetrics;
@@ -86,4 +86,4 @@ for (var i = 0; i < animations.size; i++) {
 ```
 
 ## -see-also
-[Animation metrics sample](http://go.microsoft.com/fwlink/p/?linkid=242462), [OpacityAnimation](opacityanimation.md), [ScaleAnimation](scaleanimation.md), [TranslationAnimation](translationanimation.md)
+[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462), [OpacityAnimation](opacityanimation.md), [ScaleAnimation](scaleanimation.md), [TranslationAnimation](translationanimation.md)

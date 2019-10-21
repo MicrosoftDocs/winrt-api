@@ -14,7 +14,13 @@ Manage permission to run background tasks.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | RequestAccessKindAsync |
+
 ## -examples
 
 ## -see-also
-[Background task sample](http://go.microsoft.com/fwlink/p/?linkid=618666)
+[Background task sample](https://go.microsoft.com/fwlink/p/?linkid=618666)

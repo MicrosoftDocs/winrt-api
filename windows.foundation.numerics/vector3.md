@@ -12,6 +12,8 @@ public struct Vector3
 ## -description
 Describes a vector of three floating-point components.
 
+In C++, **Vector3** is projected as the [float3 structure](/windows/win32/numerics_h/float3-structure).
+
 ## -struct-fields
 
 ### -field X
@@ -31,3 +33,4 @@ The z component of the vector.
 ## -examples
 
 ## -see-also
+[float3 structure](/windows/win32/numerics_h/float3-structure)

@@ -11,7 +11,7 @@ public enum Windows.ApplicationModel.Contacts.ContactFieldCategory : int
 
 ## -description
 > [!NOTE]
-> [ContactFieldCategory](contactfieldcategory.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactPhoneKind](contactphonekind.md), [ContactEmailKind](contactemailkind.md), and [ContactAddressKind](contactaddresskind.md).
+> ContactFieldCategory may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactPhoneKind](contactphonekind.md), [ContactEmailKind](contactemailkind.md), and [ContactAddressKind](contactaddresskind.md).
 
 Defines the categories that contact data can belong to.
 

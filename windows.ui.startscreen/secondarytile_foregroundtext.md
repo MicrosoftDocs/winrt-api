@@ -12,7 +12,7 @@ public Windows.UI.StartScreen.ForegroundText ForegroundText { get;  set; }
 
 ## -description
 > [!NOTE]
-> [ForegroundText](secondarytile_foregroundtext.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTileVisualElements.ForegroundText](secondarytilevisualelements_foregroundtext.md).
+> ForegroundText may be altered or unavailable for releases after Windows 8.1. Instead, use [SecondaryTileVisualElements.ForegroundText](secondarytilevisualelements_foregroundtext.md).
 
 Gets or sets whether the tile should use dark or light text.
 

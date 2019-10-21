@@ -15,7 +15,7 @@ Provides info about a range of items in the data source.
 
 ## -remarks
 
-The [IItemsRangeInfo](iitemsrangeinfo.md) interface supports virtualization of large data sources for efficient presentation by XAML list controls. The other classes and interfaces that support data source virtualization are the following.
+The IItemsRangeInfo interface supports virtualization of large data sources for efficient presentation by XAML list controls. The other classes and interfaces that support data source virtualization are the following.
 
 + [ISelectionInfo](iselectioninfo.md) interface
 + [ItemIndexRange](itemindexrange.md) class
@@ -24,4 +24,4 @@ The [IItemsRangeInfo](iitemsrangeinfo.md) interface supports virtualization of l
 
 ## -see-also
 
-[IClosable](../windows.foundation/iclosable.md), [Data virtualization sample (Windows 10)](http://go.microsoft.com/fwlink/?LinkID=703784)
+[IClosable](../windows.foundation/iclosable.md), [Data virtualization sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703784)

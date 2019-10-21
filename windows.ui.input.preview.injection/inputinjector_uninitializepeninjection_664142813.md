@@ -28,15 +28,12 @@ Using input injection requires the following be added to the Package.appxmanifes
 
 ## -examples
 
+Here are some downloadable samples demonstrating basic input and input injection:
+
+- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
+- [Touch injection sample](https://go.microsoft.com/fwlink/p/?LinkID=267906)
+- [Input: XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
+
 ## -see-also
 
-### Conceptual
-
-[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
-
-### Samples
-
-- [Simulate user input through input injection](https://review.docs.microsoft.com/windows/uwp/design/input/input-injection?branch=kbridge-inputinjection)
-- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
-- [Touch injection sample](http://go.microsoft.com/fwlink/p/?LinkID=267906)
-- [Input: XAML user input events sample](http://go.microsoft.com/fwlink/p/?linkid=226855)
+[InitializePenInjection](inputinjector_initializepeninjection_260722924.md), [Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)

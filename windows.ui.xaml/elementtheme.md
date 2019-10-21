@@ -36,7 +36,7 @@ This enumeration is used as a value by the [RequestedTheme](frameworkelement_req
 
 
 > [!NOTE]
-> On Windows, setting [RequestedTheme](application_requestedtheme.md) to [Default](elementtheme.md) will always result in "Dark" being the theme. On Windows Phone, using the [Default](elementtheme.md) value will result in a query for the system theme, as set by the user.
+> On Windows, setting [RequestedTheme](application_requestedtheme.md) to Default will always result in "Dark" being the theme. On Windows Phone, using the Default value will result in a query for the system theme, as set by the user.
 
 ## -examples
 

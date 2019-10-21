@@ -16,7 +16,7 @@ Gets or sets the custom property value.
 The custom property value.
 
 ## -remarks
-Setting the value that's reported by [Value](walletitemcustomproperty_value.md) is a required parameter when you construct a new [WalletItemCustomProperty](walletitemcustomproperty.md) (see [WalletItemCustomProperty constructor](walletitemcustomproperty_walletitemcustomproperty_1571897524.md)). In most cases you won't be setting the [Value](walletitemcustomproperty_value.md) property of an existing [WalletItemCustomProperty](walletitemcustomproperty.md), as opposed to constructing a new one.
+Setting the value that's reported by Value is a required parameter when you construct a new [WalletItemCustomProperty](walletitemcustomproperty.md) (see [WalletItemCustomProperty constructor](walletitemcustomproperty_walletitemcustomproperty_1571897524.md)). In most cases you won't be setting the Value property of an existing [WalletItemCustomProperty](walletitemcustomproperty.md), as opposed to constructing a new one.
 
 ## -examples
 

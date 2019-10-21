@@ -30,3 +30,5 @@ Typically, a command source calls this method when the [CanExecuteChanged](icomm
 ## -examples
 
 ## -see-also
+
+[Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding), [XamlUICommand](xamluicommand.md), [StandardUICommand](standarduicommand.md)

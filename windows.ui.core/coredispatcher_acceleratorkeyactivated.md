@@ -1,6 +1,7 @@
 ---
 -api-id: E:Windows.UI.Core.CoreDispatcher.AcceleratorKeyActivated
 -api-type: winrt event
+ms.custom: 19H1
 ---
 
 <!-- Event syntax
@@ -10,10 +11,10 @@ public event Windows.Foundation.TypedEventHandler AcceleratorKeyActivated<Window
 # Windows.UI.Core.CoreDispatcher.AcceleratorKeyActivated
 
 ## -description
+
 Fired when an accelerator key is activated (pressed or held down).
 
 ## -remarks
-** behavior**
 
 XAML processes CTRL+TAB or CTRL+SHIFT+TAB key presses for tab navigation, and apps do not get a chance to handle them from the **AcceleratorKeyActivated** event. Starting in Windows 8.1, we will allow the tab navigation processing with CTRL+TAB or ALT+TAB or SHIFT+TAB.
 

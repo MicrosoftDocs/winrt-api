@@ -17,4 +17,4 @@ Occurs when the view is activated.
 ## -examples
 
 ## -see-also
-[Splash screen sample (Windows 10)](http://go.microsoft.com/fwlink/p/?LinkId=620608)
+[Splash screen sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620608)

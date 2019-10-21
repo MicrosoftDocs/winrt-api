@@ -13,8 +13,14 @@ public class SharedModeSettings
 Provides access to the settings for shared mode. For example, devices with large screens could support communal shared apps.
 
 ## -remarks
- For more info on when **SharedModeSettings** is used on Desktop, see [Set up a shared or guest PC with Windows 10](https://technet.microsoft.com/en-us/itpro/windows/manage/set-up-shared-or-guest-pc).  
+ For more info on when **SharedModeSettings** is used on Desktop, see [Set up a shared or guest PC with Windows 10](https://docs.microsoft.com/windows/manage/set-up-shared-or-guest-pc).  
  
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | ShouldAvoidLocalStorage |
+
 ## -examples
 
 ## -see-also

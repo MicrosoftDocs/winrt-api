@@ -17,4 +17,4 @@ Represents a deferral that can be used by an app to respond asynchronously to a 
 ## -examples
 
 ## -see-also
-[Overlay tiled images on a map](http://msdn.microsoft.com/library/066bd6e2-c22b-4f5b-aa94-5d6c86a09bdf)
+[Overlay tiled images on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/overlay-tiled-images)

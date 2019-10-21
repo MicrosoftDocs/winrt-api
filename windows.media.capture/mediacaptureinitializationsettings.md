@@ -15,7 +15,16 @@ Contains initialization settings for the [MediaCapture](mediacapture.md) object 
 
 ## -remarks
 
-For how-to guidance on initializing and shutting down the **MediaCapture** object, see [Basic photo, video, and audio capture with MediaCapture](https://msdn.microsoft.com/en-us/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+For how-to guidance on initializing and shutting down the **MediaCapture** object, see [Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | MemoryPreference |
+| 1607 | 14393 | SharingMode |
+| 1607 | 14393 | SourceGroup |
+| 1703 | 15063 | AlwaysPlaySystemShutterSound |
 
 ## -examples
 

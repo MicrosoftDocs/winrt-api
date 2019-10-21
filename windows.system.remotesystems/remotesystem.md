@@ -17,13 +17,28 @@ This class manages the attributes of a discovered remote system (device) and pro
 
 This class is instantiated whenever a remote system (device) is discovered, is updated, or disappears (the instance is referenced as a property of the [RemoteSystemAddedEventArgs](remotesystemaddedeventargs.md), [RemoteSystemUpdatedEventArgs](remotesystemupdatedeventargs.md), or [RemoteSystemRemovedEventArgs](remotesystemremovedeventargs.md) class).
 
-The properties of the [RemoteSystem](remotesystem.md) class are used to determine the operations that can be done on a given remote system.
+The properties of the RemoteSystem class are used to determine the operations that can be done on a given remote system.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1703 | 15063 | GetCapabilitySupportedAsync |
+| 1703 | 15063 | IsAuthorizationKindEnabled |
+| 1703 | 15063 | IsAvailableBySpatialProximity |
+| 1709 | 16299 | ManufacturerDisplayName |
+| 1709 | 16299 | ModelDisplayName |
+| 1803 | 17134 | Platform |
+| 1809 | 17763 | Apps |
+| 1903 | 18362 | CreateWatcherForUser(User) |
+| 1903 | 18362 | CreateWatcherForUser(User,IEnumerable<IRemoteSystemFilter>) |
+| 1903 | 18362 | User |
 
 ## -examples
 
 ## -see-also
 
-[Connected apps and devices (Project Rome)](https://msdn.microsoft.com/en-us/windows/uwp/launch-resume/connected-apps-and-devices), [Remote systems sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RemoteSystems)
+[Connected apps and devices (Project Rome)](https://docs.microsoft.com/windows/uwp/launch-resume/connected-apps-and-devices), [Remote systems sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RemoteSystems)
 
 ## -capabilities
 

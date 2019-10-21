@@ -114,4 +114,4 @@ void App::OnActivated(IActivatedEventArgs^ args)
 ```
 
 ## -see-also
-[IContactPostActivatedEventArgs](icontactpostactivatedeventargs.md), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md), [Handling Contact Actions sample](http://go.microsoft.com/fwlink/p/?LinkID=320151)
+[IContactPostActivatedEventArgs](icontactpostactivatedeventargs.md), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md), [Handling Contact Actions sample](https://go.microsoft.com/fwlink/p/?LinkID=320151)

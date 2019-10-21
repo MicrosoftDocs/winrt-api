@@ -12,9 +12,6 @@ public KeyboardNavigationMode TabFocusNavigation { get;  set; }
 ## -description
 Gets or sets a value that modifies how tabbing and [TabIndex](../windows.ui.xaml.controls/control_tabindex.md) work for this control.
 
-> [!NOTE]
-> For Windows 10 Creators Update (build 10.0.15063) and newer, use this property of the [UIElement]() base class instead of the [TabNavigation](../windows.ui.xaml.controls/control_tabnavigation.md) property of a [Control](../windows.ui.xaml.controls/control.md) object.
-
 ## -xaml-syntax
 ```xaml
 <uiElement TabFocusNavigation="keyboardNavigationModeMemberName"/>
@@ -31,8 +28,11 @@ A value of the enumeration. The default is **Local**.
 
 Use this property instead of the [Control.TabNavigation](../windows.ui.xaml.controls/control_tabnavigation.md) property for objects that do not use a [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) to define their appearance.
 
+> [!NOTE]
+> For Windows 10 Creators Update (build 10.0.15063) and newer, use this property of the [UIElement](../windows.ui.xaml/uielement.md) base class instead of the [TabNavigation](../windows.ui.xaml.controls/control_tabnavigation.md) property of a [Control](../windows.ui.xaml.controls/control.md) object.
+
 ## -examples
 
 ## -see-also
-[Keyboard interactions](http://msdn.microsoft.com/library/ff819bac-67c0-4ec9-8921-f087be188138), [Keyboard accessibility](http://msdn.microsoft.com/library/ddae8c4b-7907-49fe-9645-f105f8dfad8b)
+[Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](https://docs.microsoft.com/windows/uwp/accessibility/keyboard-accessibility)
 

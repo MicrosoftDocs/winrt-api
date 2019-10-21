@@ -11,7 +11,7 @@ public class MediaControl
 
 ## -description
 > [!NOTE]
-> [MediaControl](mediacontrol.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [SystemMediaTransportControls](systemmediatransportcontrols.md).
+> MediaControl may be altered or unavailable for releases after Windows 8.1. Instead, use [SystemMediaTransportControls](systemmediatransportcontrols.md).
 
 Describes the object that applications register with, to receive media focus and transport control notifications.
 
@@ -53,9 +53,9 @@ mediaControls.addEventListener(“SoundLevelChanged”, soundlevelchanged, false
 
 ```
 
-To see the complete listing for this example, see [How to configure keys for media controls](http://go.microsoft.com/fwlink/p/?linkid=241436).
+To see the complete listing for this example, see [How to configure keys for media controls](https://go.microsoft.com/fwlink/p/?linkid=241436).
 
 ## -examples
 
 ## -see-also
-[How to configure keys for media controls](http://go.microsoft.com/fwlink/p/?linkid=241436)
+[How to configure keys for media controls](https://go.microsoft.com/fwlink/p/?linkid=241436)

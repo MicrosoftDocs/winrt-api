@@ -20,4 +20,4 @@ The optional position of this property when shown in the summary view for a wall
 ## -examples
 
 ## -see-also
-[Quickstart: Using the   APIs](http://msdn.microsoft.com/library/4312628c-37a3-48a7-b41f-14605d478cf7)
+[Quickstart: Using the   APIs](https://docs.microsoft.com/previous-versions/windows/apps/dn631257(v=win.10))

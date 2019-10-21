@@ -25,4 +25,4 @@ To save file properties, create a **[PropertySet](https://docs.microsoft.com/uwp
 ## -examples
 
 ## -see-also
-[documentProperties.savePropertiesAsync methods](documentproperties_savepropertiesasync_132989229.md), [documentProperties.savePropertiesAsync() method](documentproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md)
+[documentProperties.savePropertiesAsync methods, [documentProperties.savePropertiesAsync() method](documentproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md)

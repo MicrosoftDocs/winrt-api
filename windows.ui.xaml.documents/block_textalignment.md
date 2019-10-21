@@ -25,7 +25,7 @@ Gets or sets the horizontal alignment of the text content.
 The horizontal alignment of the text content. The default is **Left**.
 
 ## -remarks
-[Block](block.md) is a base class for [Paragraph](paragraph.md). [Paragraph](paragraph.md) is the only element that you can set a [TextAlignment](block_textalignment.md) value on in Windows Runtime XAML, unless you create a custom class based on [Block](block.md).
+[Block](block.md) is a base class for [Paragraph](paragraph.md). [Paragraph](paragraph.md) is the only element that you can set a TextAlignment value on in Windows Runtime XAML, unless you create a custom class based on [Block](block.md).
 
 ## -examples
 

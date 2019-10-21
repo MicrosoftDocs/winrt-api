@@ -10,7 +10,7 @@ public class VpnChannelActivityStateChangedArgs : Windows.Networking.Vpn.IVpnCha
 # Windows.Networking.Vpn.VpnChannelActivityStateChangedArgs
 
 ## -description
-Represents the [ActivityStateChanged](vpnchannelactivitystatechangedargs.md) event specifying the new VPN channel state (idle or active).
+Represents the ActivityStateChanged event specifying the new VPN channel state (idle or active).
 
 ## -remarks
 An instance of this class is created externally and passed to your app's handler for the [ActivityStateChanged](vpnchannel_activitystatechange.md) event.

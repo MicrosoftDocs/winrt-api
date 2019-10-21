@@ -42,7 +42,7 @@ A margin value greater than 0 applies space outside the object's [ActualWidth](f
 
 Margins are additive for peer objects in a layout; for example, two horizontally or vertically adjacent objects both with a margin of 30 set on the adjoining edge would have 60 pixels of space between them.
 
-Objects that have margins set will not typically constrain the size of the specified [Margin](frameworkelement_margin.md) if the allotted rectangle space is not large enough for the margin plus the object's content area. The content area will be constrained instead when layout is calculated. The only case where margins would be constrained also is if the content is already constrained all the way to zero. However, this behavior is ultimately controlled by the specific type that is interpreting [Margin](frameworkelement_margin.md), as well as the layout container of that object.
+Objects that have margins set will not typically constrain the size of the specified Margin if the allotted rectangle space is not large enough for the margin plus the object's content area. The content area will be constrained instead when layout is calculated. The only case where margins would be constrained also is if the content is already constrained all the way to zero. However, this behavior is ultimately controlled by the specific type that is interpreting Margin, as well as the layout container of that object.
 
 Negative values for margin dimensions are permitted, but should be used with caution (and be aware that negative margins can be interpreted differently by different class layout implementations). Negative margins typically clip the content of the object in that direction.
 
@@ -61,10 +61,10 @@ A related concept is padding. For an object and its bounding box, the margin is 
 + [TextBlock.Padding](../windows.ui.xaml.controls/textblock_padding.md)
 + [RichTextBlock.Padding](../windows.ui.xaml.controls/richtextblock_padding.md)
 + [ItemsPresenter.Padding](../windows.ui.xaml.controls/itemspresenter_padding.md)
- For more info about the relationship between margin and padding, see [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842) or [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079).
+ For more info about the relationship between margin and padding, see [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
 
 ## -examples
-This example sets [Margin](frameworkelement_margin.md) in code as part of a larger scenario of creating a UI element at run time, and then setting various layout-related properties. This is often done prior to adding a new element to an existing XAML UI page's object tree. In this case several [Margin](frameworkelement_margin.md) properties are set using a new [Thickness](thickness.md) created with the uniform-value constructor.
+This example sets Margin in code as part of a larger scenario of creating a UI element at run time, and then setting various layout-related properties. This is often done prior to adding a new element to an existing XAML UI page's object tree. In this case several Margin properties are set using a new [Thickness](thickness.md) created with the uniform-value constructor.
 
 
 
@@ -73,5 +73,5 @@ This example sets [Margin](frameworkelement_margin.md) in code as part of a larg
 [!code-vb[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/vbnet/Page.xaml.vb#SnippetGridClassCode)]
 
 ## -see-also
-[Thickness](thickness.md), [Alignment, margin, and padding](http://msdn.microsoft.com/library/9412abd4-3674-4865-b07d-64c7c26e4842), [Define layouts with XAML](http://msdn.microsoft.com/library/8d4e4162-1c9c-48f4-8a94-34976fb17079)
+[Thickness](thickness.md), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
 4162-1c9c-48f4-8a94-34976fb17079)

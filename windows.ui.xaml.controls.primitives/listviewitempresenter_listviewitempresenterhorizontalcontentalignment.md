@@ -11,7 +11,7 @@ public Windows.UI.Xaml.HorizontalAlignment ListViewItemPresenterHorizontalConten
 
 ## -description
 > [!NOTE]
-> [ListViewItemPresenterHorizontalContentAlignment](listviewitempresenter_listviewitempresenterhorizontalcontentalignment.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.HorizontalContentAlignment](../windows.ui.xaml.controls/contentpresenter_horizontalcontentalignment.md).
+> ListViewItemPresenterHorizontalContentAlignment may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.HorizontalContentAlignment](../windows.ui.xaml.controls/contentpresenter_horizontalcontentalignment.md).
 
 Gets or sets the horizontal alignment of the content being presented.
 
@@ -20,7 +20,7 @@ A value of the enumeration.
 
 ## -remarks
 > [!IMPORTANT]
-> [ListViewItemPresenterHorizontalContentAlignment](listviewitempresenter_listviewitempresenterhorizontalcontentalignment.md) may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.HorizontalContentAlignment](../windows.ui.xaml.controls/contentpresenter_horizontalcontentalignment.md).
+> ListViewItemPresenterHorizontalContentAlignment may be altered or unavailable for releases after Windows 10. Instead, use [ContentPresenter.HorizontalContentAlignment](../windows.ui.xaml.controls/contentpresenter_horizontalcontentalignment.md).
 
 ## -examples
 
