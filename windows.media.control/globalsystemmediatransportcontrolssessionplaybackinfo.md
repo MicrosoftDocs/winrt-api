@@ -19,3 +19,6 @@ The object that holds all of the playback information about a session (Play stat
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

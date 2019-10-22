@@ -19,3 +19,6 @@ Provides access to playback sessions throughout the system that have integrated 
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

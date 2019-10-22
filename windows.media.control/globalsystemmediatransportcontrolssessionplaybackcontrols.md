@@ -19,3 +19,6 @@ An object that describes what controls a session currently has enabled.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

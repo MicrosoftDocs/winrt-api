@@ -22,3 +22,6 @@ True indicates success; False otherwise
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

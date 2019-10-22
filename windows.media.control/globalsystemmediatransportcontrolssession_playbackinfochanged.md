@@ -19,3 +19,6 @@ Occurs when the session's playback info has changed.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

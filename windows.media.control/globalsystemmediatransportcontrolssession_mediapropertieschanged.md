@@ -19,3 +19,6 @@ Occurs when the session's MediaProperties have changed.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+
