@@ -23,4 +23,4 @@ The sharing mode.
 
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

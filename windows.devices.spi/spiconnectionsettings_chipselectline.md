@@ -23,4 +23,4 @@ The chip select line.
 
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

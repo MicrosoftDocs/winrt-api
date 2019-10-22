@@ -33,4 +33,4 @@ The GPIO pin is open in shared read-only mode. To write to the pin, close the pi
 [GpioPinValue](gpiopinvalue.md), [GpioPin.Read](gpiopin_read_431746835.md)
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel
