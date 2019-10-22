@@ -23,4 +23,4 @@ The default GPIO controller for the system, or null if the system has no GPIO co
 
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

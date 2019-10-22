@@ -23,4 +23,4 @@ The connection settings.
 
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

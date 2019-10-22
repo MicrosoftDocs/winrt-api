@@ -27,4 +27,4 @@ True if the GPIO pin supports the drive mode that *driveMode* specifies; otherwi
 [GpioPinDriveMode](gpiopindrivemode.md), [GetDriveMode](gpiopin_getdrivemode_1456675415.md), [SetDriveMode](gpiopin_setdrivemode_419000462.md)
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

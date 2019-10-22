@@ -33,4 +33,4 @@ The I<sup>2</sup> C device negatively acknowledged the data transfer before the 
 [WritePartial](i2cdevice_writepartial_1107922632.md), [Read](i2cdevice_read_1437850332.md), [WriteRead](i2cdevice_writeread_1176071171.md), [I2cConnectionSetting](i2cconnectionsettings.md)
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

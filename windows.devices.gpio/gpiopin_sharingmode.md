@@ -23,4 +23,4 @@ The sharing mode in which the GPIO pin is open.
 [GpioSharingMode](gpiosharingmode.md), [GpioController.OpenPin](gpiocontroller_openpin_1000658948.md)
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel
