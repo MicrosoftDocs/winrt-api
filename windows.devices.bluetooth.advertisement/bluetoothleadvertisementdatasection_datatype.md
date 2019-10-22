@@ -21,8 +21,7 @@ The Bluetooth LE advertisement data type.
 ## -examples
 
 ## -see-also
-* [BluetoothLEAdvertisement](bluetoothleadvertisement.md)
-* [Assigned numbers and GAP](https://www.bluetooth.com/specifications/assigned-numbers/generic-access-profile/)
+[BluetoothLEAdvertisement](bluetoothleadvertisement.md), [Assigned numbers and GAP](https://www.bluetooth.com/specifications/assigned-numbers/generic-access-profile/)
 
 ## -capabilities
 bluetooth
