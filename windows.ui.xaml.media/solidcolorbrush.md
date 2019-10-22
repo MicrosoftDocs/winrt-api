@@ -97,7 +97,7 @@ Windows::UI::Xaml::Media::SolidColorBrush greenBrush{ Windows::UI::Colors::Green
 auto greenBrush = ref new SolidColorBrush(Colors::Green);
 ```
 
-Another way to define a new SolidColorBrush object is to use the [FromArgb](../windows.ui/color_fromargb.md) static utility method. This is useful if there is no named [Colors](../windows.ui/colors.md) value for the color you want.
+Another way to define a new SolidColorBrush object is to use the [FromArgb](/dotnet/api/windows.ui.color.fromargb?view=dotnet-uwp-10.0) static utility method. This is useful if there is no named [Colors](../windows.ui/colors.md) value for the color you want.
 
 ```csharp
 SolidColorBrush myBrush = new SolidColorBrush(Color.FromArgb(255, 20, 20, 90));
