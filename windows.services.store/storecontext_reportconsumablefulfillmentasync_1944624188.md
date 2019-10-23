@@ -20,7 +20,7 @@ The Store ID of the consumable add-on that you want to report as fulfilled.
 The number of units of the consumable add-on that you want to report as fulfilled. For a Store-managed consumable (that is, a consumable where Microsoft keeps track of the balance), specify the number of units that have been consumed. For a developer-managed consumable (that is, a consumable where the developer keeps track of the balance), specify 1.
 
 ### -param trackingId
-A developer-supplied GUID that identifies the specific transaction that the fulfillment operation is associated with for tracking purposes. For more information, see the remarks.
+A developer-supplied [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) that identifies the specific transaction that the fulfillment operation is associated with for tracking purposes. For more information, see the remarks.
 
 ## -returns
 An asynchronous operation that, on successful completion, returns a [StoreConsumableResult](storeconsumableresult.md) object that contains info about the fulfillment operation, such as the remaining balance of add-on units.

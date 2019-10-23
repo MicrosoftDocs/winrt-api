@@ -15,7 +15,7 @@ Allows a spatial audio format companion app to report that the license has chang
 
 ## -parameters
 ### -param subtype
-String of the GUID for the spatial audio format that's license has changed.
+String of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the spatial audio format that's license has changed.
 
 ## -returns
 An async action.

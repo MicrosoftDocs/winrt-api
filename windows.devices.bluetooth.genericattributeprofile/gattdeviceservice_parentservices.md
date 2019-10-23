@@ -11,6 +11,10 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.Bluetooth.Gene
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.ParentServices
 
 ## -description
+
+> [!NOTE]
+> **GattDeviceService.ParentServices** is obsolete, and it may be altered or unavailable in future releases.
+
 Gets the read-only list of parent services for this service.
 
 ## -property-value

@@ -17,7 +17,7 @@ Causes the [Frame](frame.md) to load content represented by the specified [Page]
 The page to navigate to, specified as a type reference to its partial class type. (A type reference is given as [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, or a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param parameter
-The navigation parameter to pass to the target page; must have a basic type (string, char, numeric, or GUID) to support parameter serialization using [GetNavigationState](frame_getnavigationstate_1352043812.md).
+The navigation parameter to pass to the target page; must have a basic type (string, char, numeric, or [GUID](/windows/win32/api/guiddef/ns-guiddef-guid)) to support parameter serialization using [GetNavigationState](frame_getnavigationstate_1352043812.md).
 
 ### -param infoOverride
 Info about the animated transition.

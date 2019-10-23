@@ -22,7 +22,7 @@ Gets the context of an authentication attempt.
 
 ## -parameters
 ### -param evenToken
-The event token retrieved from the network operator hotspot authentication [event](hotspotauthenticationeventdetails.md). The token is a GUID in string format.
+The event token retrieved from the network operator hotspot authentication [event](hotspotauthenticationeventdetails.md). The token is a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) in string format.
 
 ### -param context
 The network operator hotspot authentication context.

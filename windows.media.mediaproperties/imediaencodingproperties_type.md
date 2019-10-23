@@ -13,7 +13,7 @@ public string Type { get; }
 Gets the format type.
 
 ## -property-value
-The format type. The value can be the string representation of a GUID in canonical form, or one of the predefined values listed in the following table.<table>
+The format type. The value can be the string representation of a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) in canonical form, or one of the predefined values listed in the following table.<table>
    <tr><th>Value</th><th>Description</th></tr>
    <tr><td>"Audio"</td><td>Audio stream. To get details of the audio format, use [AudioEncodingProperties](audioencodingproperties.md).</td></tr>
    <tr><td>"Container"</td><td>Media container.</td></tr>

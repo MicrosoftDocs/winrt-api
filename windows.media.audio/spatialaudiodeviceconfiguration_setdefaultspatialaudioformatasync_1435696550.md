@@ -15,7 +15,7 @@ Tries to set the specified spatial audio format for this device. The caller must
 
 ## -parameters
 ### -param subtype
-A string of the GUID for the spatial audio format to set. SpatialAudioFormatSubtype enum will return the neccesary string.
+A string of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the spatial audio format to set. SpatialAudioFormatSubtype enum will return the neccesary string.
 
 ## -returns
 A result indicating success or why the call failed to set the specified format.

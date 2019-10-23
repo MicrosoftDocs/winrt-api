@@ -11,6 +11,10 @@ public Windows.Devices.Bluetooth.BluetoothLEDevice Device { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.Device
 
 ## -description
+
+> [!NOTE]
+> **GattDeviceService.Device** is obsolete. Use [Session](gattdeviceservice_session.md) instead.
+
 Gets the [BluetoothLEDevice](../windows.devices.bluetooth/bluetoothledevice.md) object describing the device associated with the current [GattDeviceService](gattdeviceservice.md) object.
 
 ## -property-value

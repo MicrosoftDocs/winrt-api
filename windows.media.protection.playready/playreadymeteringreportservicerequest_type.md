@@ -10,7 +10,7 @@ public System.Guid Type { get; }
 # Windows.Media.Protection.PlayReady.PlayReadyMeteringReportServiceRequest.Type
 
 ## -description
-Gets the GUID for the type of operation that the PlayReady metering report service request performs.
+Gets the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the type of operation that the PlayReady metering report service request performs.
 
 ## -property-value
 The GUID for the type of operation. This property value is sensitive to the underlying platform's endianness. Carefully test your app on all platforms you intend to support to ensure that correct endianness is used on each platform.

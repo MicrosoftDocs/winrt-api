@@ -16,7 +16,7 @@ Returns the identifier of the local device.
 The identifier of the local device. The value range is 16 bytes.
 
 ## -remarks
-> UWP apps only. The Id property represents the DeviceId using the GUID truncated from the first 16 bytes of the SHA256 hash of the MachineID, User SID, and Package Family Name where the MachineID uses the SID of the local users group. Each component of the GUID is returned in network byte order.
+> UWP apps only. The Id property represents the DeviceId using the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) truncated from the first 16 bytes of the SHA256 hash of the MachineID, User SID, and Package Family Name where the MachineID uses the SID of the local users group. Each component of the GUID is returned in network byte order.
 
 ## -examples
 

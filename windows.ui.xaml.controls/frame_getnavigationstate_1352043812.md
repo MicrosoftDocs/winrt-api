@@ -23,7 +23,7 @@ Calling this method will call [Page.OnNavigatedFrom](page_onnavigatedfrom_138975
 
 
 > [!NOTE]
-> The serialization format used by these methods is for internal use only. Your app should not form any dependencies on it. Additionally, this format supports serialization only for basic types like string, char, numeric and GUID types.
+> The serialization format used by these methods is for internal use only. Your app should not form any dependencies on it. Additionally, this format supports serialization only for basic types like string, char, numeric and [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) types.
 
 ## -examples
 

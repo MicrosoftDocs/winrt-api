@@ -10,7 +10,7 @@ public object CreateGuid(System.Guid value)
 # Windows.Foundation.PropertyValue.CreateGuid
 
 ## -description
-Creates a property value from a GUID.
+Creates a property value from a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid).
 
 ## -parameters
 ### -param value

@@ -16,7 +16,7 @@ The trigger identifier that uniquely identifies the background task that needs t
 The trigger identifier string.
 
 ## -remarks
-Consider using a GUID in string form.
+Consider using a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) in string form.
 
 ## -see-also
 

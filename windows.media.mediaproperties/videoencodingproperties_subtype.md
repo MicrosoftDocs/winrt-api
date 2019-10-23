@@ -16,7 +16,7 @@ Gets or sets the subtype of the format.
 The subtype.
 
 ## -remarks
-The value can be the string representation of a GUID in canonical form, or one of the predefined values listed in the following table.<table>
+The value can be the string representation of a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) in canonical form, or one of the predefined values listed in the following table.<table>
    <tr><th>Value</th><th>Description</th></tr>
    <tr><td>"ARGB32"</td><td>RGB, 32 bpp with alpha channel.</td></tr>
    <tr><td>"BGRA8"</td><td>BGRA, 32 bpp with alpha channel.</td></tr>

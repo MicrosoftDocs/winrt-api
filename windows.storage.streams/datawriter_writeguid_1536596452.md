@@ -10,7 +10,7 @@ public void WriteGuid(System.Guid value)
 # Windows.Storage.Streams.DataWriter.WriteGuid
 
 ## -description
-Writes a GUID value to the output stream.
+Writes a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) value to the output stream.
 
 ## -parameters
 ### -param value
