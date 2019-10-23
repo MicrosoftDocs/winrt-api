@@ -22,3 +22,6 @@ The object representing the timeline property values.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

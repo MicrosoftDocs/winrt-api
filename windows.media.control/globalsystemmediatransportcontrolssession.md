@@ -19,3 +19,6 @@ Represents a playback session from another app providing info about that session
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

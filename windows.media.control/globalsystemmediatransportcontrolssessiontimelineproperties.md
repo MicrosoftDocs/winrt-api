@@ -19,3 +19,6 @@ Represents the timeline state of the session (Position, seek ranges etc.).
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

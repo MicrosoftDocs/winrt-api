@@ -19,3 +19,6 @@ Holds information about the content that the current session has.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

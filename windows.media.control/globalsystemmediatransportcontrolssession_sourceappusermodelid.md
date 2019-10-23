@@ -22,3 +22,6 @@ The app user model id.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

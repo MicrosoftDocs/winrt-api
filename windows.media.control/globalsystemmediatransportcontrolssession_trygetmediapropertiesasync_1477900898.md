@@ -22,3 +22,6 @@ GlobalSystemMediaTransportControlsSessionMediaProperties instance representing t
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

@@ -19,3 +19,6 @@ Occurs when the list of available sessions has changed due to a new session conn
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

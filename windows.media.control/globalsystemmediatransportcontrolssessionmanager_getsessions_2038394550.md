@@ -22,3 +22,6 @@ A vector of all available sessions.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+
