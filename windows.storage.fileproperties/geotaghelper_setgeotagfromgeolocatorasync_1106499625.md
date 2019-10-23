@@ -20,7 +20,7 @@ The file into which the geographic metadata is set.
 The Geolocator object that will be used to determine the device's current location.
 
 ## -returns
-An asychronous action.
+An asynchronous action.
 
 ## -remarks
 
