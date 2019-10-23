@@ -14,7 +14,7 @@ Terminates a cellular call in order to upgrade to a VoIP call.
 
 ## -parameters
 ### -param callUpgradeGuid
-The GUID for the VoIP call.
+The [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the VoIP call.
 
 ## -remarks
 

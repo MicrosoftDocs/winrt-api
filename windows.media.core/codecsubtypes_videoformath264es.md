@@ -10,7 +10,7 @@ public string VideoFormatH264ES { get; }
 # Windows.Media.Core.CodecSubtypes.VideoFormatH264ES
 
 ## -description
-Gets the string representation of the GUID for the H.264 elementary stream video subtype.
+Gets the string representation of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the H.264 elementary stream video subtype.
 
 ## -property-value
 The string representation of the GUID for the H.264 elementary stream video subtype.

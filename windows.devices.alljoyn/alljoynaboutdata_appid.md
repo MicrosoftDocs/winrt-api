@@ -14,7 +14,7 @@ public System.Guid AppId { get;  set; }
 A globally unique identifier associated with the app.
 
 ## -property-value
-A GUID representing the globally unique identifier.
+A [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) representing the globally unique identifier.
 
 ## -remarks
 

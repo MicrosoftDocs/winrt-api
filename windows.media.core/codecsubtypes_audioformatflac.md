@@ -10,7 +10,7 @@ public string AudioFormatFlac { get; }
 # Windows.Media.Core.CodecSubtypes.AudioFormatFlac
 
 ## -description
-Gets the string representation of the GUID for the Free Lossless Audio Codec (FLAC) audio subtype.
+Gets the string representation of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the Free Lossless Audio Codec (FLAC) audio subtype.
 
 ## -property-value
 The string representation of the GUID for the Free Lossless Audio Codec (FLAC) audio subtype.

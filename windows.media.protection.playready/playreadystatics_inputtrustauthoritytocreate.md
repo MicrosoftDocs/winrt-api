@@ -16,7 +16,7 @@ Gets the PlayReady Trusted Input activation string.
 The PlayReady Trusted Input activation string. This string is used by the Media Protection Manager to tell the media source which Input Trust Authority (ITA) to create.
 
 ## -remarks
-Previous releases of the PlayReady API required callers to hard-code a well-known string and GUID in their code. These APIs provide those values to the caller so they can request them rather than hard-coding them.
+Previous releases of the PlayReady API required callers to hard-code a well-known string and [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) in their code. These APIs provide those values to the caller so they can request them rather than hard-coding them.
 
 In the [MediaProtectionManager.Properties](https://docs.microsoft.com/uwp/api/windows.media.protection.mediaprotectionmanager.properties) property (a [PropertySet](https://docs.microsoft.com/uwp/api/windows.foundation.collections.propertyset) object), the "Windows.Media.Protection.MediaProtectionSystemIdMapping" string maps to another **PropertySet**. This in turn will typically have the string "Windows.Media.Protection.PlayReady.PlayReadyStatics.MediaProtectionSystemId" map to **Windows.Media.Protection.PlayReady.PlayReadyStatics.InputTrustAuthorityToCreate**.
 

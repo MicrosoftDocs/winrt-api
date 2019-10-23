@@ -15,7 +15,7 @@ Represents a USB device. The object provides methods and properties that an app 
 ## -remarks
 Before getting a reference to the UsbDevice object, you must have one of these identifiers:
 + The vendor and product identifiers for the physical device. Those identifiers are part of the hardware ID string. You can obtain that string from the [Models](https://docs.microsoft.com/windows-hardware/drivers/install/inf-models-section) section in the INF file. Alternatively, if WinUSB was loaded based on the compatible ID specified in the device descriptor, you can derive the identifiers from the **Hardware Ids** property in **Device Manager**. For example, if **Hardware Id** is "USB\VID_045E&amp;PID_078E", vendor ID is "0x045E" and product Id is "0x078E".
-+ The device interface GUID. You can obtain that GUID from the **DeviceInterfaceGuids** registry entry under this key:**HKEY_LOCAL_MACHINE**\**System**\**CurrentControlSet**\**Enum**\**USB**\***&lt;Device Identifier&gt;***\***&lt;Instance Identifier&gt;***\**Device Parameters**
++ The device interface [GUID](/windows/win32/api/guiddef/ns-guiddef-guid). You can obtain that GUID from the **DeviceInterfaceGuids** registry entry under this key:**HKEY_LOCAL_MACHINE**\**System**\**CurrentControlSet**\**Enum**\**USB**\***&lt;Device Identifier&gt;***\***&lt;Instance Identifier&gt;***\**Device Parameters**
 + The device's class, subclass, and protocol codes. You can obtain that information from the **CompatibleIds** registry entry, found under the **Device Parameters** key.
 
 

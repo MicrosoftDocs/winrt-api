@@ -14,7 +14,7 @@ public string DefaultSpatialAudioFormat { get; }
 Provides the default spatial audio format for this device. This is the format the user has selected.
 
 ## -property-value
-A string of the GUID for the default spatial audio format.
+A string of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the default spatial audio format.
 
 ## -remarks
 

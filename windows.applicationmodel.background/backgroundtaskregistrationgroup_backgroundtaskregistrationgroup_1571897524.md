@@ -21,7 +21,7 @@ The group ID.
 The friendly name for this group.
 
 ## -remarks
-To reduce collisions with other group identifiers, consider including your domain name in the group ID. For example: `"com.contoso.appname.tasks"`. Or use the string form of a GUID.
+To reduce collisions with other group identifiers, consider including your domain name in the group ID. For example: `"com.contoso.appname.tasks"`. Or use the string form of a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid).
 
 The friendly name can be useful for debugging purposes if your group IDs are difficult to distinguish.
 

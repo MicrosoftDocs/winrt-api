@@ -14,7 +14,7 @@ public string ActiveSpatialAudioFormat { get; }
 Provides the currently active spatial audio format for this device. This could have been changed by the system and therefore may not be the same as the default.
 
 ## -property-value
-A string of the GUID for the active spatial audio format.
+A string of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the active spatial audio format.
 
 ## -remarks
 

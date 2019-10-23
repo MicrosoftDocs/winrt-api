@@ -10,7 +10,7 @@ public string VideoFormatMjpg { get; }
 # Windows.Media.Core.CodecSubtypes.VideoFormatMjpg
 
 ## -description
-Gets the string representation of the GUID for the Motion JPEG video subtype.
+Gets the string representation of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the Motion JPEG video subtype.
 
 ## -property-value
 The string representation of the GUID for the Motion JPEG video subtype.

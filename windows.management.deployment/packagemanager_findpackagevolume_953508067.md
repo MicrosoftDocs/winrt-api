@@ -14,7 +14,7 @@ Gets the specified volume.
 
 ## -parameters
 ### -param volumeName
-The volume media ID, which is a GUID value.
+The volume media ID, which is a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) value.
 
 ## -returns
 The requested volume.

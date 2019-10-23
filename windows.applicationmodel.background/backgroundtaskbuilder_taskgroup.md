@@ -16,7 +16,7 @@ Gets and sets the group identifier.
 The group identifier.
 
 ## -remarks
-To reduce collisions with other group identifiers, consider including your domain name in the group identifier. For example: `"com.contoso.appname.tasks"`. Or use the string form of a GUID.
+To reduce collisions with other group identifiers, consider including your domain name in the group identifier. For example: `"com.contoso.appname.tasks"`. Or use the string form of a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid).
 
 ## -see-also
 [Launching, resuming, and background tasks](https://docs.microsoft.com/windows/uwp/launch-resume/index)

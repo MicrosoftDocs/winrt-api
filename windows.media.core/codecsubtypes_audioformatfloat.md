@@ -10,7 +10,7 @@ public string AudioFormatFloat { get; }
 # Windows.Media.Core.CodecSubtypes.AudioFormatFloat
 
 ## -description
-Gets the string representation of the GUID for the uncompressed IEEE floating-point audio subtype.
+Gets the string representation of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the uncompressed IEEE floating-point audio subtype.
 
 ## -property-value
 The string representation of the GUID for the uncompressed IEEE floating-point audio subtype.

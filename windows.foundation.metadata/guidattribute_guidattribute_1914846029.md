@@ -14,7 +14,7 @@ Creates and initializes a new instance of the attribute.
 
 ## -parameters
 ### -param a
-The first 4 bytes of the GUID.
+The first 4 bytes of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid).
 
 ### -param b
 The next 2 bytes of the GUID.

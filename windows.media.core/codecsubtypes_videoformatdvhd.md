@@ -10,7 +10,7 @@ public string VideoFormatDvhD { get; }
 # Windows.Media.Core.CodecSubtypes.VideoFormatDvhD
 
 ## -description
-Gets the string representation of the GUID for the HD-DVCR (1125-60 or 1250-50) video subtype.
+Gets the string representation of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the HD-DVCR (1125-60 or 1250-50) video subtype.
 
 ## -property-value
 The string representation of the GUID for the HD-DVCR (1125-60 or 1250-50) video subtype.

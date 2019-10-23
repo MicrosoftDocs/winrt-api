@@ -10,7 +10,7 @@ public void AddGuidArray(System.String name, System.Guid[] value, Windows.Founda
 # Windows.Foundation.Diagnostics.LoggingFields.AddGuidArray
 
 ## -description
-Adds a GUID array field with the specified field name, format, and tags.
+Adds a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) array field with the specified field name, format, and tags.
 
 ## -parameters
 ### -param name
