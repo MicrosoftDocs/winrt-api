@@ -102,4 +102,4 @@ ref class MyClass
 
 ## -see-also
 
-[Visual](visual.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620483)
+[Visual](visual.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CompositionVisual)
