@@ -82,4 +82,4 @@ New instances of Compositor must be created on a thread that has a CoreDispatche
 
 ## -see-also
 
-[Composition UI Overview](https://go.microsoft.com/fwlink/p/?LinkID=699334), [Composition Visual Tree Overview](https://go.microsoft.com/fwlink/p/?LinkID=699335), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620483), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[Composition UI Overview](https://go.microsoft.com/fwlink/p/?LinkID=699334), [Composition Visual Tree Overview](https://go.microsoft.com/fwlink/p/?LinkID=699335), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CompositionVisual), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
