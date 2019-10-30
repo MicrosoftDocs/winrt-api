@@ -56,4 +56,4 @@ Visual supports two forms of rotation:
 
 ## -see-also
 
-[Composition Visual Tree Overview](https://go.microsoft.com/fwlink/p/?LinkID=699335), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620483)
+[Composition Visual Tree Overview](https://go.microsoft.com/fwlink/p/?LinkID=699335), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CompositionVisual)

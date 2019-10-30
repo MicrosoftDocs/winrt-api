@@ -20,6 +20,7 @@ The [StorageFile](../windows.storage/storagefile.md) object that contains the ne
 The object used to set the image for the lock screen.
 
 ## -remarks
+The SetImageFileAsync API is not supported when called from x86 Console Apps on x64 machines.
 
 ## -examples
 
