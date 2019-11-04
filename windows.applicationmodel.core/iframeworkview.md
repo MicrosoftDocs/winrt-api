@@ -287,7 +287,7 @@ private:
 
 int __stdcall wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
 {
-    CoreApplication::Run(App());
+    CoreApplication::Run(make<App>());
 }
 ```
 
