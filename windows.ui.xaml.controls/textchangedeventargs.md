@@ -10,6 +10,7 @@ public class TextChangedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.
 # Windows.UI.Xaml.Controls.TextChangedEventArgs
 
 ## -description
+
 Provides data for the [TextChanged](textbox_textchanged.md) event.
 
 ## -remarks
@@ -17,4 +18,5 @@ Provides data for the [TextChanged](textbox_textchanged.md) event.
 ## -examples
 
 ## -see-also
+
 [RoutedEventArgs](../windows.ui.xaml/routedeventargs.md)

@@ -24,5 +24,6 @@ Occurs when the text selection starts to change.
 
 ## -see-also
 
-## -examples
+[TextBoxSelectionChangingEventArgs](textboxselectionchangingeventargs.md)
 
+## -examples
