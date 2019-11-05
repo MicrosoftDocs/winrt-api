@@ -12,6 +12,9 @@ public void VpnChannel.StartReconnectingTransport(Object transport, Object conte
 ## -description
 Reconnect the socket transport. Transport and transport context are the only parameters that can be changed on a socket transport reconnection.
 
+> [!IMPORTANT]
+> This API is not implemented, and we recommend that you do not call it.
+
 ## -parameters
 ### -param transport
 An **IInspectable** object for socket transport. This object can be a [Windows.Networking.StreamSocket](../windows.networking.sockets/streamsocket.md), a [Windows.Networking.StreamWebSocket](../windows.networking.sockets/streamwebsocket.md), or a [Windows.Networking.DatagramSocket](../windows.networking.sockets/datagramsocket.md). This socket will control the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data. The socket must be unconnected at the point of the call.
