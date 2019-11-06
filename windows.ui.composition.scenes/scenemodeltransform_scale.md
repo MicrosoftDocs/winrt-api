@@ -12,14 +12,15 @@ public Vector3 Scale { get;  set; }
 
 ## -description
 
-Gets or sets the relative size of the node on the x, y, and z axes.
+Gets or sets the relative size of the node on the x, y, and x axes.
 
 ## -property-value
 
-A vector that describes the relative size of the node on the x, y, and z axes.
+A vector that describes the relative size of the node on the x, y, and x axes.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+

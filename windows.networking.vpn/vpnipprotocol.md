@@ -10,11 +10,11 @@ public enum Windows.Networking.Vpn.VpnIPProtocol : int
 # VpnIPProtocol
 
 ## -description
-Defines constants that specify IP protocols (numeric values).
+Specifies the IP protocols (numeric values).
 
 ## -enum-fields
 ### -field None:0
-Specifies no protocol.
+None
 
 ### -field Icmp:1
 Internet Control Message Protocol (ICMP)
@@ -32,13 +32,15 @@ User Datagram Protocol (UDP)
 Internet Protocol version 6 (IPv6) Internet Control Message Protocol (ICMP)
 
 ### -field Pgm:113
-Pragmatic General Multicast (PGM)
+Pragmatic General Mulitcast (PGM)
+
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 
 ## -capabilities
 networkingVpnProvider

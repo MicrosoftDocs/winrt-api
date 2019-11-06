@@ -12,11 +12,9 @@ public class ConversationalAgentSignal
 
 ## -description
 
-A signal detected by an agent that corresponds to an [ActivationSignalDetectionConfiguration](activationsignaldetectionconfiguration.md). This signal indicates that the matching agent should be activated to handle an interaction.
+The audible signal detected by a digital signal processor (DSP) that indicates the digital assistant should be activated. This signal can include audio events such as a *wake* utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other sounds (door slam, smoke detector).
 
 ## -remarks
-
-This signal can include audio events such as a keyword, a hardware signal sent via Bluetooth or a keyboard accelerator, in-app speech recognition, or another appropriate detection.
 
 ## -see-also
 

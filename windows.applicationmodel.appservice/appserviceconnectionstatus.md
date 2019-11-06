@@ -37,19 +37,6 @@ The app on the remote device does not support remote connections. It needs to sp
 ### -field NotAuthorized:7
 The user for your app is not authorized to connect to the service.
 
-### -field AuthenticationError:8
-The operation failed due to unsuccessful account authentication. The user must re-validate the account to continue.
-
-### -field DisabledByPolicy:10
-The operation failed, as the app service needed service or capabilities disabled by some policies on the local or remote device.
-
-### -field NetworkNotAvailable:9
-The operation failed due to lack of an internet connection.
-
-
-### -field WebServiceUnavailable:11
-The operation failed because one or more necessary cloud services were temporarily unavailable.
-
 
 ## -remarks
 

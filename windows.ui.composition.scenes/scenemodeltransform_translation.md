@@ -12,14 +12,15 @@ public Vector3 Translation { get;  set; }
 
 ## -description
 
-Gets or sets the position of the node on the x, y, and z axes.
+Gets or sets the position of the node on the x, y, and x axes.
 
 ## -property-value
 
-A vector that describes the position of the node on the x, y, and z axes.
+A vector that describes the position of the node on the x, y, and x axes.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+

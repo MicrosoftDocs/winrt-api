@@ -38,8 +38,6 @@ Force a specific version of a package to be staged/registered, regardless of if 
 ### -field RetainFilesOnFailure:2097152
 In the case of a failed deployment, do not remove files that have been created on the target machine during the install process. 
 
-### -field StageInPlace:4194304
-When you set this option, the package will be staged in place. This field is useful for notifying the system to prepare for app registration in virtual desktop scenarios.  
 
 ## -remarks
 You can use the **DevelopmentMode** option to install apps without requiring an app package. Instead, the deployment engine processes the AppxManifest.xml file directly, which allows for a more rapid development cycle. The BlockMap.xml, [Content_Types].xml, and digital signature files are not required for app installation in **DevelopmentMode**.

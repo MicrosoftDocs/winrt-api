@@ -28,4 +28,6 @@ The result of the asynchronous operation as an [AudioDeviceInputNode](../windows
 
 ## -see-also
 
+[CreateAudioDeviceInputNode](conversationalagentsession_createaudiodeviceinputnode_1348849001.md)
+
 ## -examples

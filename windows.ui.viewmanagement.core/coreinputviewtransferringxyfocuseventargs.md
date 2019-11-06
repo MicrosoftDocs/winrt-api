@@ -10,7 +10,6 @@ public class CoreInputViewTransferringXYFocusEventArgs
 # Windows.UI.ViewManagement.Core.CoreInputViewTransferringXYFocusEventArgs
 
 ## -description
-
 Contains event data for the [XYFocusTransferringFromPrimaryView](coreinputview_xyfocustransferringfromprimaryview.md) event.
 
 ## -remarks
@@ -18,3 +17,4 @@ Contains event data for the [XYFocusTransferringFromPrimaryView](coreinputview_x
 ## -see-also
 
 ## -examples
+

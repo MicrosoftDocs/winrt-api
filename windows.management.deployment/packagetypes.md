@@ -34,11 +34,14 @@ Include the XAP packages when you enumerate the package repository.
 ### -field Optional:32
 Include the optional packages when you enumerate the package repository.
 
-### -field All:4294967295
-Include all packages when you enumerate the package repository.
-
 
 ## -remarks
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Optional |
 
 ## -examples
 

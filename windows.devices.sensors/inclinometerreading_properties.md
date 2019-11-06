@@ -10,12 +10,10 @@ public IMapView<string, object> Properties { get; }
 # Windows.Devices.Sensors.InclinometerReading.Properties
 
 ## -description
-
-Gets a collection of key-value pairs that represent data properties reported by the sensor for the given reading.
+Gets the data properties reported by the sensor.
 
 ## -property-value
-
-A collection of key-value pairs that represent data properties reported by the sensor for the given reading.
+Contains a key/value pair for each data property reported by the sensor for the given reading. The key is a string of the property key, and the value is the value of the property that the key represents.
 
 ## -remarks
 

@@ -11,15 +11,12 @@ public Windows.Storage.StorageFolder InstalledLocation { get; }
 # Windows.ApplicationModel.Package.InstalledLocation
 
 ## -description
-
 Gets the current package's path in the original install folder for the current package.
 
 ## -property-value
-
 The current package's path in the original install folder for the current package.
 
 ## -remarks
-
 There are several other ways to refer to a file in a package.
 
 
@@ -33,5 +30,4 @@ For more info about how to refer to files in an app's package, see [URI schemes]
 ## -examples
 
 ## -see-also
-
 [MutableLocation](package_mutablelocation.md),[EffectiveLocation](package_effectivelocation.md),[App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)

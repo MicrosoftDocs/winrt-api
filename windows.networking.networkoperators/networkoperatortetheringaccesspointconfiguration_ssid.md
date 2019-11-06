@@ -26,4 +26,4 @@ The network account ID
 ## -see-also
 
 ## -capabilities
-wiFiControl
+cellularDeviceIdentity, cellularDeviceControl

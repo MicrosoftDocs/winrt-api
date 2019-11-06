@@ -10,11 +10,9 @@ public CoreInputView CoreInputView.GetForCurrentView()
 # Windows.UI.ViewManagement.Core.CoreInputView.GetForCurrentView
 
 ## -description
-
 Retrieves the [CoreInputView](coreinputview.md) object associated with the current window.
 
 ## -returns
-
 The [CoreInputView](coreinputview.md) object associated with the current window.
 
 ## -remarks
@@ -22,3 +20,4 @@ The [CoreInputView](coreinputview.md) object associated with the current window.
 ## -see-also
 
 ## -examples
+
