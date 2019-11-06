@@ -22,6 +22,6 @@ The result of the asynchronous operation as an [IAudioClient](https://docs.micro
 
 ## -see-also
 
-[GetAudioRenderDeviceIdAsync](conversationalagentsession_getaudiorenderdeviceidasync_1057232923.md), [GetAudioRenderDeviceIdAsync](conversationalagentsession_getaudiorenderdeviceidasync_1057232923.md)
+[GetAudioRenderDeviceIdAsync](conversationalagentsession_getaudiorenderdeviceidasync_1057232923.md)
 
 ## -examples

@@ -16,6 +16,8 @@ Makes a request to position the window next to the current view.
 
 ## -remarks
 
+The move request is ignored if the [AppWindow.WindowingEnvironment](appwindow_windowingenvironment.md) is `Tiled`.
+
 ## -see-also
 
 ## -examples

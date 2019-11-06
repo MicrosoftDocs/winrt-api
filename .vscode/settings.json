@@ -1,0 +1,17 @@
+{
+    "favorites.resources": [
+        "windows.system.remotesystems\\remotesystem_createwatcherforuser_380170586.md",
+        "windows.system.remotesystems\\remotesystem_createwatcherforuser_608864326.md",
+        "windows.system.remotesystems\\remotesystem_user.md",
+        "windows.system.remotesystems\\remotesystemapp_connectiontoken.md",
+        "windows.system.remotesystems\\remotesystemapp_user.md",
+        "windows.system.remotesystems\\remotesystemconnectionrequest_connectiontoken.md",
+        "windows.system.remotesystems\\remotesystemconnectionrequest_createfromconnectiontoken_1615549595.md",
+        "windows.system.remotesystems\\remotesystemconnectionrequest_createfromconnectiontokenforuser_1550514484.md",
+        "windows.system.remotesystems\\remotesystemwatcher_user.md",
+        "windows.security.authorization.appcapabilityaccess",
+        "windows.security.authentication.web.core",
+        "windows.security.isolation",
+        "windows.security.dataprotection"
+    ]
+}

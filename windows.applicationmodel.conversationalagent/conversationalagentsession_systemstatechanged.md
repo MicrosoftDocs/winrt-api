@@ -16,7 +16,7 @@ Occurs when either the system or the user changes a setting that restricts the a
 
 ## -remarks
 
-Typical triggers for this event include changes to policies on voice activation, privacy, screen/display, privacy, and Agent Activation Runtime (AAR) capabilities.
+Typical triggers for this event include changes to policies on voice activation, privacy, screen/display, privacy, and Windows Conversational Agent platform capabilities.
 
 ## -see-also
 

@@ -16,7 +16,7 @@ Occurs when a [Signal](conversationalagentsignal.md) for activating a digital as
 
 ## -remarks
 
-Examples of activation [Signals](conversationalagentsignal.md) can include a *wake* utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other sounds (door slam, smoke detector).
+Examples of activation [Signals](conversationalagentsignal.md) can include a keyword utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other sounds (door slam, smoke detector).
 
 ## -see-also
 

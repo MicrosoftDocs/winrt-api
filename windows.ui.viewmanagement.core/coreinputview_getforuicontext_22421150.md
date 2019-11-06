@@ -15,6 +15,7 @@ public CoreInputView CoreInputView.GetForUIContext(UIContext context)
 Gets a [CoreInputView](coreinputview.md) object associated with the view with the specified context identifier.
 
 ## -parameters
+
 ### -param context
 
 The context identifier of the view to get the [CoreInputView](coreinputview.md) for.
@@ -30,4 +31,3 @@ This method fails if it is called in a windowless thread.
 ## -see-also
 
 ## -examples
-

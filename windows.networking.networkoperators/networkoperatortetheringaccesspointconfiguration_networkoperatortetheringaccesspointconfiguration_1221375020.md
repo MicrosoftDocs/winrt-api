@@ -19,4 +19,4 @@ Creates an instance of the [NetworkOperatorTetheringAccessPointConfiguration](ne
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl
