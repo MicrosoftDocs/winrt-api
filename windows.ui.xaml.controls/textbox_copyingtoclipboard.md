@@ -23,5 +23,6 @@ Occurs before copied text is moved to the clipboard.
 
 ## -see-also
 
-## -examples
+[TextControlCopyingToClipboardEventArgs](textcontrolcopyingtoclipboardeventargs.md)
 
+## -examples
