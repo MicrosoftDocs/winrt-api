@@ -16,6 +16,9 @@ Gets all the controllers that are connected to the system asynchronously.
 ### -param provider
 The GPIO provider for the controllers on the system.
 
+> [!NOTE]
+> For info about providers, see the note at the beginning of the [Windows.Devices.Gpio.Provider](/uwp/api/windows.devices.gpio.provider) namespace topic.
+
 ## -returns
 When the method completes successfully, it returns a list of values that represent the controllers available on the system.
 
