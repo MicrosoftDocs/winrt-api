@@ -20,6 +20,7 @@ The required level of protection to use for the pairing action.
 The result of the pairing action.
 
 ## -remarks
+For all protocols other than Bluetooth, the *minProtectionLevel* value is ignored and the default behavior is always assumed. For the Bluetooth protocol, the pairing attempt will fail if the device doesn’t support the specified minimum protection level or a higher level. If the device doesn’t support the specified minimum protection level but does support a higher protection level, the higher protection level is used.
 
 ## -examples
 
