@@ -14,7 +14,7 @@ Gets or sets localization/globalization language information that applies to a [
 
 ## -xaml-syntax
 ```xaml
-<frameworkElement Language="languageString" .../.
+<frameworkElement Language="languageString" />
 ```
 
 
