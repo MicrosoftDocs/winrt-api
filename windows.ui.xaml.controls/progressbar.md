@@ -21,7 +21,7 @@ Represents a control that indicates the progress of an operation, where the typi
 ## -remarks
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [[Progress controls](/windows/uwp/controls-and-patterns/progress-controls).
+> For more info, design guidance, and code examples, see [Progress controls](/windows/uwp/controls-and-patterns/progress-controls).
 
 A ProgressBar control visually indicates progress of an operation with one of two styles: a bar that displays a repeating pattern, or a bar that fills based on a value.
 
@@ -42,7 +42,7 @@ The [IsIndeterminate](progressbar_isindeterminate.md) property determines the ap
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [[Progress controls](/windows/uwp/controls-and-patterns/progress-controls).
+> For more info, design guidance, and code examples, see [Progress controls](/windows/uwp/controls-and-patterns/progress-controls).
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ProgressBar in action](xamlcontrolsgallery:/item/ProgressBar).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
