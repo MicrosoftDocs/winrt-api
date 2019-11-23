@@ -11,7 +11,7 @@ public enum CoreInputViewOcclusionKind : int
 
 ## -description
 
-Specifies the types of input panes supported by the [CoreInputViewOcclusion](coreoccludinginputview.md) object.
+Specifies the types of input panes supported by the [CoreInputViewOcclusion](coreinputviewocclusion.md) object.
 
 > [!NOTE]
 > Not supported on HoloLens.
