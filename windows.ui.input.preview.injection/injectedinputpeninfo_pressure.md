@@ -10,10 +10,12 @@ public double Pressure { get;  set; }
 # Windows.UI.Input.Preview.Injection.InjectedInputPenInfo.Pressure
 
 ## -description
+
 Gets or sets the force exerted by the pointer device on the surface of the digitizer.
 
 ## -property-value
-The pen contact force exerted on the digitizer surface, normalized to a range between 0 and 1024. The default is 0.
+
+A value between 0 and 1 that represents the pen contact force exerted on the digitizer surface. The default is 0.
 
 ## -remarks
 
