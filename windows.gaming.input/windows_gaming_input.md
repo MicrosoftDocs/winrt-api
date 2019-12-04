@@ -7,10 +7,14 @@
 
 ## -description
 
-Provides access to game controller input.
+Provides access to game controller input for Windows applications.
 
 ## -remarks
-UWP apps cannot receive input from an Xbox One Controller while the app is not in focus.
+
+A Windows application must have focus to receive input from an Xbox One Controller.
+
+> [!Important]
+> Legacy Win32 console applications should use the [XInput Game Controller APIs](https://docs.microsoft.com/windows/win32/xinput/xinput-game-controller-apis-portal) instead.
 
 ## -examples
 
