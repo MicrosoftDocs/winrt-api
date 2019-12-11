@@ -160,7 +160,7 @@ By default, the commands shown in the TextBox context menu depend on the state o
    <tr><td>Undo</td><td>text has been changed.</td></tr>
 </table>
 
-To modify the commands shown in the context menu, handle the [ContextMenuOpening](textbox_contextmenuopening.md) event. For an example of this, see Scenario 2 of the [ContextMenu sample](https://go.microsoft.com/fwlink/p/?linkid=234891). For design info, see [Guidelines for context menus](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/index).
+To modify the commands shown in the context menu, handle the [ContextMenuOpening](textbox_contextmenuopening.md) event. For an example of this, see the **Customizing RichEditBox's CommandBarFlyout - adding 'Share'** example in the <a href="xamlcontrolsgallery:/item/RichEditBox">XAML Controls Gallery</a>. For design info, see [Guidelines for context menus](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/menus).
 
 ### Selection, copy, and paste
 
