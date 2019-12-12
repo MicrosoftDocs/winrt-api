@@ -31,7 +31,7 @@ The hexadecimal character code for the icon glyph.
 ```csharp
 var newAppBarButton = new AppBarButton();
 var fontIcon = new FontIcon();
-fontIcon = new FontFamily("Segoe MDL2 Assets");
+fontIcon.FontFamily = new FontFamily("Segoe MDL2 Assets");
 fontIcon.Glyph = "\xE790";
 newAppBarButton.Icon = fontIcon;
 ```
