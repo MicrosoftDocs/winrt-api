@@ -21,7 +21,7 @@ Occurs when the system processes an interaction that displays a context menu.
 
 ## -remarks
 
-To override the context menu, you can handle the ContextMenuOpening event and replace the default menu with a custom menu. For an example of this, see Scenario 2 of the [ContextMenu sample](https://go.microsoft.com/fwlink/p/?linkid=234891). For design info, see [Guidelines for context menus](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/index).
+To override or add commands to the context menu, you can handle the ContextMenuOpening event and replace the default menu with a custom menu. For an example of this, see the **Customizing RichEditBox's CommandBarFlyout - adding 'Share'** example in the <a href="xamlcontrolsgallery:/item/RichEditBox">XAML Controls Gallery</a>. For design info, see [Guidelines for context menus](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/menus).
 
 ## -examples
 
