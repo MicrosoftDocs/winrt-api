@@ -42,9 +42,28 @@ This example shows an [AppBarToggleButton](appbartogglebutton.md) with a FontIco
 ```xaml
 <AppBarToggleButton Label="FontIcon" Click="AppBarButton_Click">
     <AppBarToggleButton.Icon>
-        <FontIcon FontFamily="Candara" Glyph="&#x03A3;"/>
+        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE790;"/>
     </AppBarToggleButton.Icon>
 </AppBarToggleButton>
+```
+
+```csharp
+var newAppBarButton = new AppBarButton();
+var fontIcon = new FontIcon();
+fontIcon.FontFamily = new FontFamily("Segoe MDL2 Assets");
+fontIcon.Glyph = "\xE790";
+newAppBarButton.Icon = fontIcon;
+```
+
+```cppwinrt
+using namespace winrt::Windows::UI::Xaml;
+...
+
+auto newAppBarButton = Controls::AppBarButton{};
+auto fontIcon = Controls::FontIcon{};
+fontIcon.FontFamily(Media::FontFamily{ L"Segoe MDL2 Assets" });
+fontIcon.Glyph(L"\xE790");
+newAppBarButton.Icon(fontIcon);
 ```
 
 
