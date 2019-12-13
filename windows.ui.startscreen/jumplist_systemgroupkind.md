@@ -13,7 +13,7 @@ public Windows.UI.StartScreen.JumpListSystemGroupKind SystemGroupKind { get;  se
 Gets or sets the current type of the system managed jump list group.
 
 ## -property-value
-The [JumpListItemKind](jumplistitemkind.md) enumeration value of the jump list.
+The [JumpListSystemGroupKind](jumplistsystemgroupkind.md) enumeration value of the jump list.
 
 ## -remarks
 
