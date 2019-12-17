@@ -24,4 +24,4 @@ The error status value for a web service operation.
 ## -examples
 
 ## -see-also
-[Background Transfer Download sample](https://go.microsoft.com/fwlink/p/?linkid=245064)
+[Background Transfer Download sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)
