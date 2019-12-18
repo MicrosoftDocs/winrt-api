@@ -16,6 +16,7 @@ Asynchronously retrieves a list of the available media frame source groups on th
 An asynchronous operation that returns a list of [MediaFrameSourceGroup](mediaframesourcegroup.md) objects upon completion.
 
 ## -remarks
+If MediaFrameSourceGroup.FindAllAsync() returns zero groups, request the Webcam capability in your Package.appxmanifest file.
 
 ## -examples
 
