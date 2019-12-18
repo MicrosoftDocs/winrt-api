@@ -15,7 +15,7 @@ Represents a content part of a multi-part transfer request. Each BackgroundTrans
 ## -remarks
 
 ## -examples
-The following example demonstrates how to configure and begin a multi-part upload operation, and is based on the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) offered in the Windows Sample Gallery.
+The following example demonstrates how to configure and begin a multi-part upload operation, and is based on the [Background Transfer sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample) offered in the Windows Sample Gallery.
 
 ```javascript
         

@@ -10,10 +10,10 @@ public class DownloadOperation : Windows.Networking.BackgroundTransfer.IBackgrou
 # Windows.Networking.BackgroundTransfer.DownloadOperation
 
 ## -description
-Performs an asynchronous download operation. The [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) demonstrates this functionality. For an overview of Background Transfer capabilities, see [Transferring data in the background](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)). Download the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++/CX.
+Performs an asynchronous download operation. The [Background Transfer sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample) demonstrates this functionality. For an overview of Background Transfer capabilities, see [Transferring data in the background](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)). Download the [Background Transfer sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample) for examples in JavaScript, C#, and C++/CX.
 
 ## -examples
-The following example demonstrates how to configure and begin a basic download operation, and is based on the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) offered in the Windows Sample Gallery.
+The following example demonstrates how to configure and begin a basic download operation, and is based on the [Background Transfer sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample) offered in the Windows Sample Gallery.
 
 ```javascript
 var download = null;
@@ -99,7 +99,7 @@ However, if Microsoft Visual Studio project updates, like changes to the app man
 | 1803 | 17134 | MakeCurrentInTransferGroup |
 
 ## -see-also
-[Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10)), [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064)
+[Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10)), [Background Transfer sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)
 
 ## -capabilities
 internetClient, internetClientServer, privateNetworkClientServer
