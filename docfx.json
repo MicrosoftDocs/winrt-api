@@ -257,6 +257,15 @@
        "windows.ui.xaml.resources**.yml": "kbridge",
        "windows.web**.yml": "stwhi",
        "windows.web.ui**.yml": "jimwalk"
+     },
+     "ms.technology":
+     {
+       "windows.ui**.yml": "winui",
+       "windows.ui.xaml**.yml": "winui",
+       "windows.ui.xaml.automation**.yml": "winui",
+       "windows.ui.xaml.controls.maps**.yml": "winui",
+       "windows.ui.xaml.input**.yml": "winui",
+       "windows.ui.xaml.resources**.yml": "winui"
      }		 		 
     },
     "template": [],
