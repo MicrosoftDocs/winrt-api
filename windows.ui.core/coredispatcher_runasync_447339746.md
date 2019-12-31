@@ -41,7 +41,7 @@ In this example, RunAsync returns without waiting for the user input from the di
 ```csharp
 //DO NOT USE THIS CODE.
 
-await dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
+await Dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
 {
    await signInDialog.ShowAsync(); 
 });
@@ -58,12 +58,12 @@ If you are porting from .NET code and using **Dispatcher.BeginInvoke** and **Dis
 The following examples demonstrate the use of CoreDispatcher.RunAsync to schedule work on the main UI thread using the [CoreWindow](corewindow.md)'s event dispatcher.
 
 ```csharp
-await dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+await Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
 {
    rootPage.NotifyUser("The toast encountered an error", NotifyType.ErrorMessage);
 });
 
-var ignored = dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+var ignored = Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
 {
    Scenario3OutputText.Text += outputText;
 });
@@ -81,7 +81,7 @@ TimerTextBlock().Dispatcher().RunAsync(Windows::UI::Core::CoreDispatcherPriority
 
 ```cpp
 // 
-_dispatcher->RunAsync(Windows::UI::Core::CoreDispatcherPriority::Normal, 
+_Dispatcher->RunAsync(Windows::UI::Core::CoreDispatcherPriority::Normal, 
                      ref new Windows::UI::Core::DispatchedHandler([this]()
 {
   _count++;
@@ -91,7 +91,7 @@ _dispatcher->RunAsync(Windows::UI::Core::CoreDispatcherPriority::Normal,
 // using CallbackContext::Any
 void Playback::DisplayStatus(Platform::String^ text)
 {
-  _dispatcher->RunAsync(Windows::UI::Core::CoreDispatcherPriority::Normal, 
+  _Dispatcher->RunAsync(Windows::UI::Core::CoreDispatcherPriority::Normal, 
                         ref new Windows::UI::Core::DispatchedHandler([=]()
   {
     _OutputStatus->Text += text + "\n";
