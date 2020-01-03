@@ -11,7 +11,7 @@ public class SystemMediaTransportControls : Windows.Media.ISystemMediaTransportC
 
 ## -description
 
-Represents an object that enables integrate with the system media transport controls and support for media commands.
+Represents an object that enables integration with the system media transport controls and support for media commands.
 
 ## -remarks
 
