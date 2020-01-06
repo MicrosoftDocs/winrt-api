@@ -21,15 +21,15 @@ The value can be the string representation of a [GUID](/windows/win32/api/guidde
 | Subtype | GUID |  
 |--------------|------------|
 |ASF          |430f6f6e-b6bf-4fc1-a0bd-9ee46eee2afb | 
-|MP3          |0xe438b912-83f1-4de6-9e3a-9ffbc6dd24d1 |
-|MPEG4        |0xdc6cd05d-b9d0-40ef-bd35-fa622c1ab28a |
-|AVI          |0x7edfe8af-402f-4d76-a33c-619fd157d0f1 |
-|MPEG2        |0xbfc2dbf9-7bb4-4f8f-afde-e112c44ba882 |
-|WAVE         |0x64c3453c-0f26-4741-be63-87bdf8bb935b |
-|AACADTS      |0x132fd27d-0f02-43de-a301-38fbbbb3834e |
-|ADTS         |0x132fd27d-0f02-43de-a301-38fbbbb3834e |
-|3GP          |0x34c50167-4472-4f34-9ea0-c49fbacf037d |
-|AMR          |25d5ad3-621a-475b-964d-66b1c824f079 |
+|MP3          |e438b912-83f1-4de6-9e3a-9ffbc6dd24d1 |
+|MPEG4        |dc6cd05d-b9d0-40ef-bd35-fa622c1ab28a |
+|AVI          |7edfe8af-402f-4d76-a33c-619fd157d0f1 |
+|MPEG2        |bfc2dbf9-7bb4-4f8f-afde-e112c44ba882 |
+|WAVE         |64c3453c-0f26-4741-be63-87bdf8bb935b |
+|AACADTS      |132fd27d-0f02-43de-a301-38fbbbb3834e |
+|ADTS         |132fd27d-0f02-43de-a301-38fbbbb3834e |
+|3GP          |34c50167-4472-4f34-9ea0-c49fbacf037d |
+|AMR          |025d5ad3-621a-475b-964d-66b1c824f079 |
 |FLAC         |31344aa3-05a9-42b5-901b-8e9d4257f75e |
 
 
