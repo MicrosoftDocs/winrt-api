@@ -52,6 +52,8 @@ The ItemsControl can respond to changes if the ItemsSource property value also i
 | -- | -- |
 | [IObservableVector](/uwp/api/windows.foundation.collections.iobservablevector_t_)&lt;[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)&gt; | [INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0) |
 
+In order for the collection-changed events to be handled, the ItemsSource property must also implement the non-generic `IList` interface.
+
 ## -examples
 
 ## -see-also
