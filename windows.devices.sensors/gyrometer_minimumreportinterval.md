@@ -10,14 +10,15 @@ public uint MinimumReportInterval { get; }
 # Windows.Devices.Sensors.Gyrometer.MinimumReportInterval
 
 ## -description
+
 Gets the minimum report interval supported by the gyrometer.
 
 ## -property-value
-The minimum [ReportInterval](gyrometer_reportinterval.md) supported by the sensor.
+
+The minimum [ReportInterval](gyrometer_reportinterval.md) supported by the sensor, in milliseconds.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[ReportInterval](gyrometer_reportinterval.md)
