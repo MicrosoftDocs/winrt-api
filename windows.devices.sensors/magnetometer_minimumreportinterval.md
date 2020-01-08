@@ -10,13 +10,14 @@ public uint MinimumReportInterval { get; }
 # Windows.Devices.Sensors.Magnetometer.MinimumReportInterval
 
 ## -description
+
 Gets the minimum report interval supported by the magnetometer.
 
 ## -property-value
-The minimum [ReportInterval](compass_reportinterval.md) supported by the sensor.
+
+The minimum [ReportInterval](compass_reportinterval.md) supported by the sensor, in milliseconds.
 
 ## -remarks
-The interval is specified in milliseconds.
 
 ## -examples
 

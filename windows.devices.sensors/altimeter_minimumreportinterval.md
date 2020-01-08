@@ -10,10 +10,12 @@ public uint MinimumReportInterval { get; }
 # Windows.Devices.Sensors.Altimeter.MinimumReportInterval
 
 ## -description
+
 The smallest report interval that is supported by this altimeter sensor.
 
 ## -property-value
-The smallest [ReportInterval](altimeter_reportinterval.md) supported by the sensor.
+
+The smallest [ReportInterval](altimeter_reportinterval.md) supported by the sensor, in milliseconds.
 
 ## -remarks
 
