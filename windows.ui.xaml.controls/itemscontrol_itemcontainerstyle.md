@@ -15,21 +15,21 @@ Gets or sets the style that is used when rendering the item containers for an [I
 
 ## -xaml-syntax
 ```xaml
-<itemsControl>
-  <itemsControl.ItemContainerStyle>
+<ItemsControl>
+  <ItemsControl.ItemContainerStyle>
     inlineStyle
-  </itemsControl.ItemContainerStyle>
-</itemsControl>
+  </ItemsControl.ItemContainerStyle>
+</ItemsControl>
 ```
 
 ```xaml
-<itemsControl ItemContainerStyle="resourceReferenceToStyle"/>
+<ItemsControl ItemContainerStyle="resourceReferenceToStyle"/>
 ```
 
 
 ## -xaml-values
-<dl><dt>inlineStyle</dt><dd>inlineStyleA single Style object element. That Style would typically have multiple setters that set properties on the item container type being targeted. (For ListBox, that type is ListBoxItem.)</dd>
-<dt>resourceReferenceToStyle</dt><dd>resourceReferenceToStyleA {StaticResource} markup extension reference to an existing Style from a XAML resource dictionary.</dd>
+<dl><dt>inlineStyle</dt><dd>inlineStyle A single Style object element. That Style would typically have multiple setters that set properties on the item container type being targeted. (For ListBox, that type is ListBoxItem.)</dd>
+<dt>resourceReferenceToStyle</dt><dd>resourceReferenceToStyle A {StaticResource} markup extension reference to an existing Style from a XAML resource dictionary.</dd>
 </dl>
 ## -property-value
 The style applied to the item containers. The default is null.
