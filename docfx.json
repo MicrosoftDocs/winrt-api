@@ -289,7 +289,6 @@
       },
       "ms.technology":
       {
-        "windows.ui**.yml": "winui",
         "windows.ui.xaml**.yml": "winui",
         "windows.ui.xaml.automation**.yml": "winui",
         "windows.ui.xaml.controls.maps**.yml": "winui",

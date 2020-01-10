@@ -20,7 +20,7 @@ The change in x-y screen coordinates, in device-independent pixel (DIP).
 
 ### -field Scale
 
-The change in distance between touch contacts, as a percentage. For example, if the distance between two contacts changes from 100 device-independent pixel (DIP) to 200 device-independent pixel (DIP) during a manipulation, the value of **Scale** would be 1.0.
+The change in distance between touch contacts, as a percentage. For example, if the distance between two contacts changes from 100 device-independent pixel (DIP) to 200 device-independent pixel (DIP) during a manipulation, the value of **Scale** would be 2.0.
 
 ### -field Rotation
 
