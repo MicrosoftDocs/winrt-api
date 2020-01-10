@@ -83,7 +83,7 @@
         "windows.ui.xaml.navigation/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
         "windows.ui.xaml.printing/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
         "windows.ui.xaml.resources/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.shapes/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
+        "windows.ui.xaml.shapes/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose"
       },
       "author":
       {
