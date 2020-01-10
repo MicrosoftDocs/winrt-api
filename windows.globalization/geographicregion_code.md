@@ -22,7 +22,7 @@ Returns a string that contains:
 + otherwise, the three-digit numeric identifier code, if one exists (and is not "999");
 + otherwise, "ZZ".
 
-For a list of standard country/region codes used by Microsoft, see the [Official Country/Region List](https://globalready.azurewebsites.net/marketreadiness/OfficialCountryregion).
+For a list of standard country/region codes used by Microsoft, see the [Official Country/Region List](/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
 
 ## -remarks
 
