@@ -162,7 +162,7 @@ void DisplayPackageInfo(Windows::ApplicationModel::Package^ package)
 
 
 ## -see-also
-[Enumerate app packages sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [FindPackages(String)](packagemanager_findpackages_331793265.md), [FindPackages(String, String)](packagemanager_findpackages_1597689551.md)
+[Enumerate app packages sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindProvisionedPackages), [FindPackages(String)](packagemanager_findpackages_331793265.md), [FindPackages(String, String)](packagemanager_findpackages_1597689551.md)
 
 ## -capabilities
 packageQuery
