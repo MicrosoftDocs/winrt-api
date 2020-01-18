@@ -57,8 +57,6 @@
       "langs": {
         "winrt-api-build/*.yml": ["csharp", "vb", "fsharp","cppcx","cppwinrt","cpp"]
       },
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/winrt-api",
       "feedback_product_url": 
       {
         "windows.ui.xaml/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose", 
@@ -83,7 +81,7 @@
         "windows.ui.xaml.navigation/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
         "windows.ui.xaml.printing/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
         "windows.ui.xaml.resources/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.shapes/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
+        "windows.ui.xaml.shapes/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose"
       },
       "author":
       {
@@ -289,11 +287,11 @@
       },
       "ms.technology":
       {
-        "windows.ui.xaml**.yml": "winui",
-        "windows.ui.xaml.automation**.yml": "winui",
-        "windows.ui.xaml.controls.maps**.yml": "winui",
-        "windows.ui.xaml.input**.yml": "winui",
-        "windows.ui.xaml.resources**.yml": "winui"
+        "windows.ui.xaml/*.md": "winui",
+        "windows.ui.xaml.automation/*.md": "winui",
+        "windows.ui.xaml.controls.maps/*.md": "winui",
+        "windows.ui.xaml.input/*.md": "winui",
+        "windows.ui.xaml.resources/*.md": "winui"
       }	 		 
     },
     "template": [],
