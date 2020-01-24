@@ -23,6 +23,7 @@ Gets or sets whether the [ToggleButton](togglebutton.md) is checked.
 ## -xaml-values
 <dl><dt>togglebutton</dt><dd>togglebuttonA literal ToggleButton, or a derived type such as CheckBox or RadioButton.</dd>
 </dl>
+
 ## -property-value
 **true** if the [ToggleButton](togglebutton.md) is checked; **false** if the [ToggleButton](togglebutton.md) is unchecked; otherwise **null**. The default is **false**.
 
