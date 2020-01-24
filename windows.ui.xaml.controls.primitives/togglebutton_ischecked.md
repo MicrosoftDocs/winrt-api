@@ -27,14 +27,14 @@ Gets or sets whether the [ToggleButton](togglebutton.md) is checked.
 **true** if the [ToggleButton](togglebutton.md) is checked; **false** if the [ToggleButton](togglebutton.md) is unchecked; otherwise **null**. The default is **false**.
 
 <!--Projection dochack:-->
-If you are programming using C#or Microsoft Visual Basic, the type of this property is projected as **bool?**(a nullable [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)).
+If you are programming using C# or Microsoft Visual Basic, the type of this property is projected as **bool?** (a nullable [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)).
 
 ## -remarks
 [ToggleButton](togglebutton.md) and can have three states: <table>
    <tr><th>State</th><th>Property</th><th>Value</th></tr>
-   <tr><td>checked</td><td>[  IsChecked</td><td>**true**</td></tr>
-   <tr><td>unchecked</td><td>[  IsChecked</td><td>**false**</td></tr>
-   <tr><td>indeterminate</td><td>[  IsChecked</td><td>**null**</td></tr>
+   <tr><td>checked</td><td>IsChecked</td><td><b>true</b></td></tr>
+   <tr><td>unchecked</td><td>IsChecked</td><td><b>false</b></td></tr>
+   <tr><td>indeterminate</td><td>IsChecked</td><td><b>null</b></td></tr>
 </table>
 
  For the [ToggleButton](togglebutton.md) to report the indeterminate state, you must set the [IsThreeState](togglebutton_isthreestate.md) property to **true**.
