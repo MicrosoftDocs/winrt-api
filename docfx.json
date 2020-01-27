@@ -55,7 +55,7 @@
      },
     "fileMetadata": {
       "langs": {
-        "winrt-api-build/*.yml": ["csharp", "vb", "fsharp","cppcx","cppwinrt","cpp"]
+        "winrt-api-build/**.yml": ["csharp", "vb", "fsharp","cppcx","cppwinrt","cpp"]
       },
       "feedback_product_url": 
       {
