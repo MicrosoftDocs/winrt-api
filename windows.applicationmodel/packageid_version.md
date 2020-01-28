@@ -20,4 +20,4 @@ The package version information.
 ## -examples
 
 ## -see-also
-[App package information sample](https://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa), [PackageVersion](packageversion.md)
+[App package information sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package), [PackageVersion](packageversion.md)

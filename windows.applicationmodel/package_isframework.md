@@ -20,4 +20,4 @@ True if other packages can declare a dependency on this package; otherwise false
 ## -examples
 
 ## -see-also
-[App package information sample](https://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa)
+[App package information sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package)

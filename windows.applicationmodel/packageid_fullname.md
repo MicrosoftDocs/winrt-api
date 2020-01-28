@@ -20,4 +20,4 @@ The full name.
 ## -examples
 
 ## -see-also
-[App package information sample](https://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa), [PackageId.FamilyName](packageid_familyname.md)
+[App package information sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package), [PackageId.FamilyName](packageid_familyname.md)
