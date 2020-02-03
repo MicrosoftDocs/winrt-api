@@ -28,4 +28,4 @@ When the contents of the [ItemsSource](itemscontrol_itemssource.md) collection c
 You can find a full sample focusing around how to use ScrollIntoView [here](https://github.com/microsoft/Windows-universal-samples/tree/v5.0.0/Samples/XamlListView/cs/Samples/ScrollIntoViewSample). 
 
 ## -see-also
-[ScrollIntoView(Object)](listviewbase_scrollintoview_376937206.md) and [MakeVisible](listviewbase_makevisible_1148837317.md).
+[ScrollIntoView(Object)](listviewbase_scrollintoview_376937206.md), [MakeVisible](listviewbase_makevisible_1148837317.md)
