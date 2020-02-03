@@ -55,8 +55,4 @@ In order to support XAML processor access to the attached properties, and also t
 
 ## -see-also
 
-- [DependencyObject](../windows.ui.xaml/dependencyobject.md)
-- [Flyout](../windows.ui.xaml.controls/flyout.md)
-- [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md)
-- [Button.Flyout](../windows.ui.xaml.controls/button_flyout.md)
-- [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md), [Button.Flyout](../windows.ui.xaml.controls/button_flyout.md), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
