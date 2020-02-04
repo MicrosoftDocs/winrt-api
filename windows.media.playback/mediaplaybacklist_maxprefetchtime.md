@@ -10,12 +10,14 @@ public Windows.Foundation.IReference<Windows.Foundation.TimeSpan> MaxPrefetchTim
 # Windows.Media.Playback.MediaPlaybackList.MaxPrefetchTime
 
 ## -description
-Gets or sets the maximum time before a [MediaPlaybackItem](mediaplaybackitem.md) in the list is expected to play that the media content associated with the item is retrieved.
+Gets or sets the maximum prefetch time for [MediaPlaybackItem](mediaplaybackitem.md) objects in the playback list. The prefetch time is the amount of time before an item is expected to begin playing that the system retrieves the item's media content.
 
 ## -property-value
-The maximum time before a [MediaPlaybackItem](mediaplaybackitem.md) in the list is expected to play that the media content associated with the item is retrieved.
+The maximum prefetch time for [MediaPlaybackItem](mediaplaybackitem.md) objects in the playback list.
 
 ## -remarks
+
+Prefetching allows the system to provide a more seamless playback experience because media content is retrieved before it is needed for playback. Setting a smaller maximum prefetch time can reduce bandwidth usage if the user stops playback before an item begins playing.
 
 ## -examples
 
