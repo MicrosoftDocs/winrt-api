@@ -12,6 +12,7 @@ public class CompositionGradientBrush : CompositionBrush, CompositionBrush
 ## -description
 
 Represents a brush that describes a gradient, composed of gradient stops.
+CompositionGradientBrush is only supported with Rgb and RgbLinear CompositionColorSpace.
 
 ## -remarks
 
