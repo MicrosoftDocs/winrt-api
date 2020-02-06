@@ -21,4 +21,6 @@ This method is only valid for devices that support authentication.
 
 ## -examples
 
+For a code example showing how to retrieve a string from an **IBuffer**, see [IBuffer interface](/uwp/api/windows.storage.streams.ibuffer#examples)
+
 ## -see-also
