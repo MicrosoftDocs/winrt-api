@@ -13,6 +13,9 @@ public string GetDeviceSelectorFromShortId(System.UInt16 serviceShortId)
 ## -description
 Creates a suitable AQS Filter string for use with the [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher_4958831.md) method, from a 16-bit Bluetooth GATT Service UUID.
 
+> [!IMPORTANT]
+> The **GetDeviceSelectorFromShortId** API is deprecated, and it may not be available in future versions of Windows. Instead, use [GetDeviceSelectorFromUuid](/uwp/api/windows.devices.bluetooth.genericattributeprofile.gattdeviceservice.getdeviceselectorfromuuid).
+
 ## -parameters
 ### -param serviceShortId
 A 16-bit Bluetooth GATT Service UUID.

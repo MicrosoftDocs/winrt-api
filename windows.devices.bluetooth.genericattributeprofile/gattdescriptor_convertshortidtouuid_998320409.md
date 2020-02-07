@@ -13,6 +13,9 @@ public System.Guid ConvertShortIdToUuid(System.UInt16 shortId)
 ## -description
 Converts a Bluetooth SIG defined short Id to a full GATT UUID.
 
+> [!IMPORTANT]
+> The **ConvertShortIdToUuid** API is deprecated, and it may not be available in future versions of Windows. Instead, use [BluetoothUuidHelper.FromShortId](/uwp/api/windows.devices.bluetooth.bluetoothuuidhelper.fromshortid).
+
 ## -parameters
 ### -param shortId
 A 16-bit Bluetooth GATT Descriptor UUID.
