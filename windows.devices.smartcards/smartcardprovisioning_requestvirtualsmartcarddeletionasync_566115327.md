@@ -25,4 +25,4 @@ When this method is called, it displays a UI to enable the user to consent to th
 ## -examples
 
 ## -see-also
-[Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)

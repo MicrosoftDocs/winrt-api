@@ -17,4 +17,4 @@ Represents info about a smart card reader.
 ## -examples
 
 ## -see-also
-[Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)
