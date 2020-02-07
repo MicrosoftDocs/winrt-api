@@ -13,6 +13,9 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.Bluetooth.Gene
 ## -description
 Returns a vector of included services, that are identified by the specified UUID and belong to this GattDeviceService instance.
 
+> [!IMPORTANT]
+> The **GetIncludedServices** API is deprecated, and it may not be available in future versions of Windows. Instead, use [GetIncludedServicesForUuidAsync](/uwp/api/windows.devices.bluetooth.genericattributeprofile.gattdeviceservice.getincludedservicesforuuidasync).
+
 ## -parameters
 ### -param serviceUuid
 The UUID for the included services to be retrieved.

@@ -13,6 +13,9 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.Bluetooth.Gene
 ## -description
 Gets the read-only list of GATT services supported by the device.
 
+> [!IMPORTANT]
+> The **GattServices** API is deprecated, and it may not be available in future versions of Windows. Instead, use [GetGattServicesAsync](/uwp/api/windows.devices.bluetooth.bluetoothledevice.getgattservicesasync).
+
 ## -property-value
 The read-only list of GATT services supported by this Bluetooth LE device.
 
@@ -21,7 +24,6 @@ The read-only list of GATT services supported by this Bluetooth LE device.
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 bluetooth
