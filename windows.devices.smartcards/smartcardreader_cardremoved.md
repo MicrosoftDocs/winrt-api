@@ -17,4 +17,4 @@ Occurs when a smart card is taken out of the smart card reader.
 ## -examples
 
 ## -see-also
-[CardRemovedEventArgs](cardremovedeventargs.md), [Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[CardRemovedEventArgs](cardremovedeventargs.md), [Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)

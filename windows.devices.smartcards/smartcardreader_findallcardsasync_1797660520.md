@@ -20,4 +20,4 @@ After the operation completes, returns the list of info about all smart cards th
 ## -examples
 
 ## -see-also
-[Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)

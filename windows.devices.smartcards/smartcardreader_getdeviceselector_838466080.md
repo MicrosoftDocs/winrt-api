@@ -21,4 +21,4 @@ For info about AQS, see [Using Advanced Query Syntax Programmatically](https://m
 ## -examples
 
 ## -see-also
-[GetDeviceSelector(SmartCardReaderKind)](smartcardreader_getdeviceselector_1037956577.md), [Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[GetDeviceSelector(SmartCardReaderKind)](smartcardreader_getdeviceselector_1037956577.md), [Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)

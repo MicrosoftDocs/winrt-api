@@ -24,4 +24,4 @@ A Boolean value indicating if the app launched successfully.
 ## -examples
 
 ## -see-also
-[TryLaunchCurrentAppAsync(String, SmartCardLaunchBehavior)](smartcardtriggerdetails_trylaunchcurrentappasync_1866940933.md), [Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[TryLaunchCurrentAppAsync(String, SmartCardLaunchBehavior)](smartcardtriggerdetails_trylaunchcurrentappasync_1866940933.md), [Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)

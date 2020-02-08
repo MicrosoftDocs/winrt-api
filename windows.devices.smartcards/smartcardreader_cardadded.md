@@ -17,4 +17,4 @@ Occurs when a smart card is inserted into the smart card reader or tapped on an 
 ## -examples
 
 ## -see-also
-[CardAddedEventArgs](cardaddedeventargs.md), [Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[CardAddedEventArgs](cardaddedeventargs.md), [Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)
