@@ -13,7 +13,7 @@ public class JsonObject : Windows.Data.Json.IJsonObject, Windows.Data.Json.IJson
 
 Represents a JSON object containing a collection of name and [JsonValue](jsonvalue.md) pairs.
 
-JsonObject is an activatable class that implements [JsonValue](jsonvalue.md) and the [IMap(String, IJsonValue)](../windows.foundation.collections/imap_2.md) interface such that its name/value pairs can be manipulated like a dictionary. When there are values with duplicated names, the last name/value pair will be stored.
+JsonObject is an activatable class that implements [JsonValue](jsonvalue.md) and the [IMap&lt;String,IJsonValue&gt;](../windows.foundation.collections/imap_2.md) interface such that its name/value pairs can be manipulated like a dictionary. When there are values with duplicated names, the last name/value pair will be stored.
 
 ## -remarks
 
