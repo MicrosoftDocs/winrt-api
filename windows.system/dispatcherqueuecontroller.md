@@ -20,4 +20,7 @@ Manages the lifetime of a [DispatcherQueue](dispatcherqueue.md). Provides method
 
 ## -see-also
 
+[CreateDispatcherQueueController](https://docs.microsoft.com/windows/win32/api/dispatcherqueue/nf-dispatcherqueue-createdispatcherqueuecontroller)
+
+
 ## -examples
