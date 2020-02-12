@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.Bluetooth.Rfcomm.Rfcom
 # Windows.Devices.Bluetooth.Rfcomm.RfcommServiceProvider.CreateAsync
 
 ## -description
-Gets a RfcommServiceProvider object from a [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) Id for a RFCOMM service instance.
+Gets a RfcommServiceProvider object from a [RfcommServiceId](rfcommserviceid.md) for an RFCOMM service instance.
 
 ## -parameters
 ### -param serviceId
