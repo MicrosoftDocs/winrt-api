@@ -11,7 +11,7 @@ public class BackgroundDownloader : Windows.Networking.BackgroundTransfer.IBackg
 
 ## -description
 
-Used to configure downloads prior to the actual creation of the download operation using [CreateDownload](backgrounddownloader_createdownload_1461958690.md). For an overview of Background Transfer capabilities, see [Transferring data in the background](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)). Download the [Background Transfer sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample) for examples in JavaScript, C#, and C++.
+Used to configure downloads prior to the actual creation of the download operation using [CreateDownload](backgrounddownloader_createdownload_1461958690.md). For an overview of Background Transfer capabilities, see [Transferring data in the background](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)). Download the [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer) for a code example.
 
 > [!NOTE]
 > Background Transfer is primarily designed for long-term transfer operations for resources like video, music, and large images. For short-term operations involving transfers of smaller resources (i.e. a couple KB), use the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace.
@@ -81,8 +81,7 @@ To work around this issue, completely uninstall all versions of the app and re-d
 
 ## -examples
 
-The following example demonstrates how to configure and begin a basic download operation, and is based on the [Background Transfer sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample
-).
+The following example demonstrates how to configure and begin a basic download operation.
 
 ```javascript
         var download = null;
@@ -138,7 +137,7 @@ The following example demonstrates how to configure and begin a basic download o
 
 ## -see-also
 
-[DownloadOperation](downloadoperation.md), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)), [Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10)), [Background Transfer sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample), [Background transfer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620510)
+[DownloadOperation](downloadoperation.md), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)), [Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10)), [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer), [Background transfer sample (Windows 8.x)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)
 
 ## -capabilities
 
