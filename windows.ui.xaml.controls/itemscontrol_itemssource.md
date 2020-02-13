@@ -30,29 +30,30 @@ The object that is used to generate the content of the [ItemsControl](itemscontr
 
 ## -remarks
 
-The ItemsSource property value must implement one of these interfaces:
+The type of the object that you set the **ItemsSource** property to must implement one of these interfaces.
 
-| C++ | .NET |
-| -- | -- |
-| [IIterable](/uwp/api/windows.foundation.collections.iiterable_t_)&lt;[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)&gt; | [IEnumerable&lt;Object&gt;](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0) |
-| [IBindableIterable](/uwp/api/windows.ui.xaml.interop.ibindableiterable) | [IEnumerable](/dotnet/api/system.collections.ienumerable?view=dotnet-uwp-10.0) |
+|.NET|C++/WinRT|C++/CX|
+|-|-|-|
+|[IEnumerable\<Object\>](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0)|[IVector](/uwp/api/windows.foundation.collections.ivector_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|[IIterable](/uwp/api/windows.foundation.collections.iiterable_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|
+|[IEnumerable](/dotnet/api/system.collections.ienumerable?view=dotnet-uwp-10.0)|[IBindableObservableVector](/uwp/api/windows.ui.xaml.interop.ibindableobservablevector)|[IBindableIterable](/uwp/api/windows.ui.xaml.interop.ibindableiterable)|
 
-The ItemsControl can provide better performance if the ItemsSource property value also implements a random-access list interface:
+The **ItemsControl** can provide better performance if the **ItemsSource** property value also implements a random-access list interface.
 
-| C++ | .NET |
-| -- | -- |
-| [IVector](/uwp/api/windows.foundation.collections.ivector_t_)&lt;[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)&gt; | [IList&lt;Object&gt;](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0) |
-| [IVectorView](/uwp/api/windows.foundation.collections.ivectorview_t_)&lt;[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)&gt; | [IReadOnlyCollection&lt;Object&gt;](/dotnet/api/system.collections.generic.ireadonlylist-1?view=dotnet-uwp-10.0) |
-| [IBindableVector](/uwp/api/windows.ui.xaml.interop.ibindablevector) | [IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0) |
-| [IBindableVectorView](/uwp/api/windows.ui.xaml.interop.ibindablevectorview) | IList |
+|.NET|C++/WinRT|C++/CX|
+|-|-|-|
+|[IList\<Object\>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0)|[IVector](/uwp/api/windows.foundation.collections.ivector_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|[IVector](/uwp/api/windows.foundation.collections.ivector_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|
+|[IReadOnlyCollection\<Object\>](/dotnet/api/system.collections.generic.ireadonlylist-1?view=dotnet-uwp-10.0)|[IVector](/uwp/api/windows.foundation.collections.ivector_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|[IVectorView](/uwp/api/windows.foundation.collections.ivectorview_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|
+|[IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0)|[IBindableObservableVector](/uwp/api/windows.ui.xaml.interop.ibindableobservablevector)|[IBindableVector](/uwp/api/windows.ui.xaml.interop.ibindablevector)|
+|[IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0)|[IBindableObservableVector](/uwp/api/windows.ui.xaml.interop.ibindableobservablevector)|[IBindableVectorView](/uwp/api/windows.ui.xaml.interop.ibindablevectorview)|
+||||
 
-The ItemsControl can respond to changes if the ItemsSource property value also implements a change notification interface:
+The **ItemsControl** can raise collection-changed notification events if the **ItemsSource** property value also implements a collection-changed notification interface.
 
-| C++ | .NET |
-| -- | -- |
-| [IObservableVector](/uwp/api/windows.foundation.collections.iobservablevector_t_)&lt;[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)&gt; | [INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0) |
+|.NET|C++/WinRT|C++/CX|
+|-|-|-|
+|[INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0)|[IObservableVector](/uwp/api/windows.foundation.collections.iobservablevector_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|[IObservableVector](/uwp/api/windows.foundation.collections.iobservablevector_t_)\<[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\>|
 
-In order for the collection-changed events to be handled, the ItemsSource property must also implement the non-generic `IList` interface.
+For .NET, in order for the collection-changed events to be handled, the **ItemsSource** property must also implement the non-generic [IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0) interface.
 
 ## -examples
 
