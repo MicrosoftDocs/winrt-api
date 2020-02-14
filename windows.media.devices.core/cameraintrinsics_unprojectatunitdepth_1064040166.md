@@ -20,7 +20,7 @@ The pixel coordinates to unproject into camera space.
 The X, Y coordinates of the unprojected pixel on the plane at Z = 1.0.
 
 ## -remarks
-The image coordinate must be expressed in pixels, with the origin in the top-left corner of the image; that is, +X pointing right, and +Y pointing down. The unprojected coordinate will be expressed in meters, using a left-handed coordinate system, with +X pointing right, +Y pointing up, and +Z pointing forward out from a plane located at the center (principal point) of the image, one meter away from the camera.
+The image coordinate must be expressed in pixels, with the origin in the top-left corner of the image; that is, +X pointing right, and +Y pointing down. The unprojected coordinate will be expressed in meters, with +X pointing right, and +Y pointing up, on a plane located at the center (principal point) of the image, one meter away from the camera.
 
 ## -examples
 
