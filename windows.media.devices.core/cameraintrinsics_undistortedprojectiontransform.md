@@ -16,7 +16,12 @@ Gets a matrix that transforms a 3D point to video frame pixel coordinates withou
 Gets a matrix that transforms a 3D point to the video frame pixel coordinates without compensating for the distortion model of the camera.
 
 ## -remarks
+The transform converts from a left-handed 3D coordinate system in meters with +X pointing right, +Y pointing up, and +Z pointing forward out from the camera through the center (principal point) of the image, to a 2D coordinate system in pixels with the origin at the top-left corner of the image, and +X pointing to the right, and +Y pointing down.
 
+<div class="alert"><b>Important</b>
+  <p class="note">This transform will only produce correct results for 3D coordinates with Z=1.0. To produce a transform which will work for 3D coordinates with arbitrary Z values, swap the third and fourth rows of the matrix.
+</div>
+  
 ## -examples
 
 ## -see-also
