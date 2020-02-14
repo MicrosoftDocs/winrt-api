@@ -10,7 +10,7 @@ public void UnprojectPixelsAtUnitDepth(Windows.Foundation.Point[] pixelCoordinat
 # Windows.Media.Devices.Core.CameraIntrinsics.UnprojectPixelsAtUnitDepth
 
 ## -description
-Unprojects an array pixel coordinates into a camera space rays from the camera origin, expressed as a X, Y coordinates on a plane one meter from the camera.
+Unprojects an array of pixel coordinates into an array of camera space rays from the camera origin, expressed as a X, Y coordinates on a plane one meter from the camera.
 
 ## -parameters
 ### -param pixelCoordinates
