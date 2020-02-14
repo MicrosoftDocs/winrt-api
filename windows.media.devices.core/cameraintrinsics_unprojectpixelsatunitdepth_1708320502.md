@@ -20,6 +20,7 @@ The array of pixel coordinates to unproject into camera space.
 The array of X, Y coordinates of the unprojected pixels on the plane at Z = 1.0.
 
 ## -remarks
+The image coordinates must be expressed in pixels, with the origin in the top-left corner of the image; that is, +X pointing right, and +Y pointing down. The unprojected coordinates will be expressed in meters, with +X pointing right, and +Y pointing up,on a plane located at the center (principal point) of the image, one meter away from the camera.
 
 ## -examples
 
