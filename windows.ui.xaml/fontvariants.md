@@ -42,6 +42,8 @@ Replaces a default glyph with a smaller Japanese Kana glyph. This is used to cla
 ## -remarks
 This enumeration is used by the [Typography.Variants](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
+Fonts that do not support variants may have an algorithmic approximation of the font form, or may ignore the Variants setting. Variants may also only be supported for a subset of characters in a font.
+
 ## -examples
 
 ## -see-also
