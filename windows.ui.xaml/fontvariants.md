@@ -35,15 +35,15 @@ Replaces a default glyph with a subscript glyph.
 
 ### -field Ordinal:3
 
-Replaces a default glyph with an ordinal glyph, or it may combine glyph substitution with positioning adjustments for proper placement. Ordinal forms are normally associated with numeric notation of an ordinal word, such as "1st" for "first".
+Replaces a default glyph with an ordinal glyph, or it might combine glyph substitution with positioning adjustments for proper placement. Ordinal forms are normally associated with numeric notation of an ordinal word, such as "1st" for "first".
 
 ### -field Inferior:4
 
-Replaces a default glyph with an inferior glyph, or it may combine glyph substitution with positioning adjustments for proper placement. Inferior forms are typically used in chemical formulas or mathematical notation.
+Replaces a default glyph with an inferior glyph, or it might combine glyph substitution with positioning adjustments for proper placement. Inferior forms are typically used in chemical formulas or mathematical notation.
 
 ### -field Ruby:5
 
-Replaces a default glyph with a smaller Japanese Kana glyph. This is used to clarify the meaning of Kanji, which may be unfamiliar to the reader.
+Replaces a default glyph with a smaller Japanese Kana glyph. This is used to clarify the meaning of Kanji, which might be unfamiliar to the reader.
 
 ## -remarks
 
