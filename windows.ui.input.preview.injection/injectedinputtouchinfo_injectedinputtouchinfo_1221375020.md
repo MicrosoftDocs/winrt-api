@@ -9,10 +9,10 @@ public InjectedInputTouchInfo.InjectedInputTouchInfo()
 
 # Windows.UI.Input.Preview.Injection.InjectedInputTouchInfo.InjectedInputTouchInfo
 
-## -description
-Creates a new [InjectedInputTouchInfo](injectedinputtouchinfo.md) object that is used to specify the touch input to inject.
 
-## -parameters
+## -description
+
+Creates a new [InjectedInputTouchInfo](injectedinputtouchinfo.md) object that is used to specify the touch input to inject.
 
 ## -remarks
 
@@ -38,3 +38,4 @@ Here are some downloadable samples demonstrating basic input and input injection
 ## -see-also
 
 [Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)
+

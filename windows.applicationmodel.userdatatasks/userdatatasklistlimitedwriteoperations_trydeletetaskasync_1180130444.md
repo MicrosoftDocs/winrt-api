@@ -9,14 +9,19 @@ public IAsyncOperation<bool> UserDataTaskListLimitedWriteOperations.TryDeleteTas
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskListLimitedWriteOperations.TryDeleteTaskAsync
 
-## -description
-Asynchronously attempts to delete a task.
-## -params
 
-## -param userDataTaskId
+## -description
+
+Asynchronously attempts to delete a task.
+
+## -parameters
+
+### -param userDataTaskId
+
 The ID of the task to delete.
 
 ## -returns
+
 A Boolean value indicating if the operation was successful.
 
 ## -remarks
@@ -24,3 +29,4 @@ A Boolean value indicating if the operation was successful.
 ## -see-also
 
 ## -examples
+

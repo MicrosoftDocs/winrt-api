@@ -9,10 +9,10 @@ public ApiContractAttribute.ApiContractAttribute()
 
 # Windows.Foundation.Metadata.ApiContractAttribute.ApiContractAttribute
 
-## -description
-Creates and initializes a new instance of the attribute.  
 
-## -parameters
+## -description
+
+Creates and initializes a new instance of the attribute.
 
 ## -remarks
 

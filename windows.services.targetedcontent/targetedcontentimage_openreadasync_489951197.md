@@ -9,9 +9,10 @@ public IAsyncOperation<IRandomAccessStreamWithContentType> TargetedContentImage.
 
 # Windows.Services.TargetedContent.TargetedContentImage.OpenReadAsync
 
+
 ## -description
+
 Opens a stream for read-only, random access.
-## -parameters
 
 ## -returns
 
@@ -21,6 +22,7 @@ Opens a stream for read-only, random access.
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor
+

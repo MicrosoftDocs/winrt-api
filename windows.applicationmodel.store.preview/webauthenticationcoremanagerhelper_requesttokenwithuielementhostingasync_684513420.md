@@ -9,21 +9,27 @@ public IAsyncOperation<WebTokenRequestResult> WebAuthenticationCoreManagerHelper
 
 # Windows.ApplicationModel.Store.Preview.WebAuthenticationCoreManagerHelper.RequestTokenWithUIElementHostingAsync
 
+
 ## -description
+
 Requests an authentication token for the specified account using the specified custom UI.
 
-## -params
+## -parameters
 
-## -param request
+### -param request
+
 An object that represents the request to an online identity provider for an authentication token.
 
-## -param webAccount
+### -param webAccount
+
 An object that identifies the account for which to request the authentication token.
 
-## -param uiElement
+### -param uiElement
+
 The custom UI that is shown to the user to retrieve information needed for the authentication token (such as a user ID or password).
 
 ## -returns
+
 An asynchronous operation that, on successful completion, returns a [WebTokenRequestResult](../windows.security.authentication.web.core/webtokenrequestresult.md) object that represents the results of the web token request.
 
 ## -remarks
@@ -31,3 +37,4 @@ An asynchronous operation that, on successful completion, returns a [WebTokenReq
 ## -see-also
 
 ## -examples
+

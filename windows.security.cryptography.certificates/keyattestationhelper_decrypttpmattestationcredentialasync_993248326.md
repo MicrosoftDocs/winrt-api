@@ -9,18 +9,20 @@ public Windows.Foundation.IAsyncOperation<string> DecryptTpmAttestationCredentia
 
 # Windows.Security.Cryptography.Certificates.KeyAttestationHelper.DecryptTpmAttestationCredentialAsync
 
+
 ## -description
+
 Decrypts a TPM key attestation credential.
+
+## -parameters
+
+### -param credential
+
+## -returns
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-### -param credential
-
-
-
-## -returns
-
 

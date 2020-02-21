@@ -9,13 +9,14 @@ public IAsyncOperation<UserActivity> UserActivityChannel.GetOrCreateUserActivity
 
 # Windows.ApplicationModel.UserActivities.UserActivityChannel.GetOrCreateUserActivityAsync
 
+
 ## -description
 
 Create (or get) a [UserActivity](useractivity.md) with the specified id.
 
-## -params
+## -parameters
 
-## -param activityId
+### -param activityId
 
 The identifier for the **UserActivity**.
 
@@ -28,3 +29,4 @@ An existing **UserActivity** if the **activityId** matches; otherwise a new **Us
 ## -see-also
 
 ## -examples
+

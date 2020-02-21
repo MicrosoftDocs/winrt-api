@@ -9,15 +9,19 @@ public MediaEncodingProfile MediaEncodingProfile.CreateAlac(AudioEncodingQuality
 
 # Windows.Media.MediaProperties.MediaEncodingProfile.CreateAlac
 
+
 ## -description
+
 Creates an instance of [MediaEncodingProfile](mediaencodingprofile.md) for Apple Lossless Audio Codec (ALAC) audio.
 
-## -params
+## -parameters
 
-## -param quality
+### -param quality
+
 The ecoding quality.
 
 ## -returns
+
 The media encoding profile.
 
 ## -remarks

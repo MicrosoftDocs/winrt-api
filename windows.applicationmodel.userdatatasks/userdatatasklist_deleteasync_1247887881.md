@@ -9,11 +9,13 @@ public IAsyncAction UserDataTaskList.DeleteAsync()
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskList.DeleteAsync
 
+
 ## -description
+
 Asynchronously deletes this [UserDataTaskList](userdatatasklist.md), including all [UserDataTask](userdatatask.md) objects in the [UserDataTaskStore](userdatataskstore.md).
-## -params
 
 ## -returns
+
 An async action indicating that the method is complete.
 
 ## -remarks
@@ -21,3 +23,4 @@ An async action indicating that the method is complete.
 ## -see-also
 
 ## -examples
+

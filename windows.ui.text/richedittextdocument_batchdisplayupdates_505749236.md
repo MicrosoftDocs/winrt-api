@@ -9,12 +9,13 @@ public int RichEditTextDocument.BatchDisplayUpdates()
 
 # Windows.UI.Text.RichEditTextDocument.BatchDisplayUpdates
 
+
 ## -description
+
 Increments an internal counter that controls whether text updates are displayed immediately or batched.
 
-## -parameters
-
 ## -returns
+
 The value of the internal counter.
 
 ## -remarks

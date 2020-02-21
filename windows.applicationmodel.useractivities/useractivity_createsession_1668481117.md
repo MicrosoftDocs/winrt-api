@@ -9,11 +9,10 @@ public UserActivitySession UserActivity.CreateSession()
 
 # Windows.ApplicationModel.UserActivities.UserActivity.CreateSession
 
+
 ## -description
 
 Creates a [UserActivitySession](useractivitysession.md) that this user activity will be associated with. You must call this method on the UI thread.
-
-## -params
 
 ## -returns
 
@@ -26,3 +25,4 @@ When a [UserActivity](useractivity.md) is associated with a **UserActivitySessio
 ## -see-also
 
 ## -examples
+

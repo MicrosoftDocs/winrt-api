@@ -9,10 +9,10 @@ public NotesWindowManagerPreviewShowNoteOptions.NotesWindowManagerPreviewShowNot
 
 # Windows.ApplicationModel.Preview.Notes.NotesWindowManagerPreviewShowNoteOptions.NotesWindowManagerPreviewShowNoteOptions
 
-## -description
-Creates a new instance of the [NotesWindowManagerPreviewShowNoteOptions](noteswindowmanagerpreviewshownoteoptions.md) class.
 
-## -params
+## -description
+
+Creates a new instance of the [NotesWindowManagerPreviewShowNoteOptions](noteswindowmanagerpreviewshownoteoptions.md) class.
 
 ## -remarks
 

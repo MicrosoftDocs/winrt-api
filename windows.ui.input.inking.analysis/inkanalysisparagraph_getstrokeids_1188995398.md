@@ -9,10 +9,10 @@ public IVectorView<uint> InkAnalysisParagraph.GetStrokeIds()
 
 # Windows.UI.Input.Inking.Analysis.InkAnalysisParagraph.GetStrokeIds
 
-## -description
-Retrieves the unique identifiers of all nodes belonging to the InkAnalysisParagraph object. 
 
-## -params
+## -description
+
+Retrieves the unique identifiers of all nodes belonging to the InkAnalysisParagraph object.
 
 ## -returns
 

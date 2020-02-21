@@ -9,10 +9,10 @@ public void InkAnalyzer.ClearDataForAllStrokes()
 
 # Windows.UI.Input.Inking.Analysis.InkAnalyzer.ClearDataForAllStrokes
 
-## -description
-Delete all nodes from the last ink analysis process.
 
-## -params
+## -description
+
+Delete all nodes from the last ink analysis process.
 
 ## -remarks
 

@@ -9,13 +9,14 @@ public GameControllerSwitchKind RawGameController.GetSwitchKind(Int32 switchInde
 
 # Windows.Gaming.Input.RawGameController.GetSwitchKind
 
+
 ## -description
 
-Gets the type of the specified switch on the raw game controller. 
+Gets the type of the specified switch on the raw game controller.
 
-## -params
+## -parameters
 
-## -param switchIndex
+### -param switchIndex
 
 The index in the raw game controller's switch array of the switch whose type you are querying.
 
@@ -32,3 +33,4 @@ This function takes an integer, which is the index in the raw game controller's 
 * [Windows.Gaming.Input.GameControllerSwitchKind](gamecontrollerswitchkind.md)
 
 ## -examples
+

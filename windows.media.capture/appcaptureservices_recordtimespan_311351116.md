@@ -9,15 +9,19 @@ public AppCaptureRecordOperation AppCaptureServices.RecordTimeSpan(DateTime star
 
 # Windows.Media.Capture.AppCaptureServices.RecordTimeSpan
 
+
 ## -description
+
 Initiates an app capture record operation beginning at the specified time, for the specified duration.
 
-## -params
+## -parameters
 
-## -param startTime
+### -param startTime
+
 The time at which the app capture record operation is initiated.
 
-## -param duration
+### -param duration
+
 The duration of the app capture record operation.
 
 ## -returns
@@ -28,7 +32,7 @@ The duration of the app capture record operation.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appCaptureSettings
+

@@ -9,16 +9,24 @@ public EnhancedWaypoint.EnhancedWaypoint(Geopoint point, WaypointKind kind)
 
 # Windows.Services.Maps.EnhancedWaypoint.EnhancedWaypoint
 
-## -description
-Creates an instance of the [EnhancedWayPoint](enhancedwaypoint.md) class.
-## -params
 
-## -param point
+## -description
+
+Creates an instance of the [EnhancedWayPoint](enhancedwaypoint.md) class.
+
+## -parameters
+
+### -param point
+
 The coordinates of a geographic location.
-## -param kind
+
+### -param kind
+
 The type of waypoint.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
+

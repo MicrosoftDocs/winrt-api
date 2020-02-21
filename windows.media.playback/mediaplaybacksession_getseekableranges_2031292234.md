@@ -9,12 +9,13 @@ public IVectorView<MediaTimeRange> MediaPlaybackSession.GetSeekableRanges()
 
 # Windows.Media.Playback.MediaPlaybackSession.GetSeekableRanges
 
+
 ## -description
+
 Retrieves a read-only list of time ranges in which the playack position can be seeked to. For live streaming, these ranges represent the times ranges for which data is still available.
 
-## -parameters
-
 ## -returns
+
 A read-only list of time ranges.
 
 ## -remarks

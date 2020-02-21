@@ -9,15 +9,19 @@ public IAsyncOperation<uint> AppBroadcastServices.EnterBroadcastModeAsync(AppBro
 
 # Windows.Media.Capture.AppBroadcastServices.EnterBroadcastModeAsync
 
+
 ## -description
+
 Causes the app broadcast service to enter broadcast mode with the specified app broadcast plugin.
 
-## -params
+## -parameters
 
-## -param plugIn
+### -param plugIn
+
 The app broadcast plugin with which broadcast mode is entered.
 
 ## -returns
+
 An asynchronous operation that returns a status code on successful completion.
 
 ## -remarks
@@ -26,7 +30,7 @@ An asynchronous operation that returns a status code on successful completion.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appBroadcast, appBroadcastSettings
+

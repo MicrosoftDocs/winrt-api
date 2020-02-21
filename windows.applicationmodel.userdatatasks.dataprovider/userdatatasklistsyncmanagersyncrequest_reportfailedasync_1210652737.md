@@ -9,11 +9,13 @@ public IAsyncAction UserDataTaskListSyncManagerSyncRequest.ReportFailedAsync()
 
 # Windows.ApplicationModel.UserDataTasks.DataProvider.UserDataTaskListSyncManagerSyncRequest.ReportFailedAsync
 
+
 ## -description
+
 Informs the client that the request was not processed successfully.
-## -params
 
 ## -returns
+
 An asynchronous sync operation.
 
 ## -remarks
@@ -21,3 +23,4 @@ An asynchronous sync operation.
 ## -see-also
 
 ## -examples
+

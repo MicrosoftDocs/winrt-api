@@ -9,12 +9,15 @@ public void InkAnalyzer.RemoveDataForStroke(UInt32 strokeId)
 
 # Windows.UI.Input.Inking.Analysis.InkAnalyzer.RemoveDataForStroke
 
+
 ## -description
+
 Delete all nodes for the specified ink stroke from the last ink analysis process.
 
-## -params
+## -parameters
 
-## -param strokeId
+### -param strokeId
+
 The unique identifier of the ink stroke.
 
 ## -remarks

@@ -9,9 +9,10 @@ public Deferral TargetedContentChangedEventArgs.GetDeferral()
 
 # Windows.Services.TargetedContent.TargetedContentChangedEventArgs.GetDeferral
 
+
 ## -description
+
 Gets the deferral. Required for async handlers. The caller is responsible for calling Complete when the event is handled.
-## -parameters
 
 ## -returns
 
@@ -21,6 +22,7 @@ Gets the deferral. Required for async handlers. The caller is responsible for ca
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor
+

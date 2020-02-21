@@ -9,10 +9,10 @@ public void AppBroadcastServices.PauseBroadcast()
 
 # Windows.Media.Capture.AppBroadcastServices.PauseBroadcast
 
-## -description
-Pauses the app broadcasting.
 
-## -params
+## -description
+
+Pauses the app broadcasting.
 
 ## -remarks
 
@@ -20,7 +20,7 @@ Pauses the app broadcasting.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appBroadcast, appBroadcastSettings
+

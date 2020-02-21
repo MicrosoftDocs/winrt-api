@@ -9,15 +9,19 @@ public void AppBroadcastBackgroundService.TerminateBroadcast(AppBroadcastTermina
 
 # Windows.Media.Capture.AppBroadcastBackgroundService.TerminateBroadcast
 
+
 ## -description
+
 Terminates a broadcast.
 
-## -params
+## -parameters
 
-## -param reason
+### -param reason
+
 A value indicating the reason that the broadcast is being terminated.
 
-## -param providerSpecificReason
+### -param providerSpecificReason
+
 An integer that conveys a provider-specific reason that the broadcast is being terminated.
 
 ## -remarks
@@ -26,7 +30,7 @@ An integer that conveys a provider-specific reason that the broadcast is being t
 
 ## -examples
 
-
-
 ## -capabilities
+
 appBroadcast, appBroadcastSettings
+

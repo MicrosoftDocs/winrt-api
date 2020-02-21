@@ -9,14 +9,19 @@ public IAsyncAction MdmSession.StartAsync(IIterable<MdmAlert> alerts)
 
 # Windows.Management.MdmSession.StartAsync
 
-## -description
-Starts an MDM session with custom alerts. 
 
-## -params
-## -param alerts
+## -description
+
+Starts an MDM session with custom alerts.
+
+## -parameters
+
+### -param alerts
+
 An iterable list of all custom [MdmAlerts](MdmAlert.md).
 
 ## -returns
+
 Results of the operation.
 
 ## -remarks

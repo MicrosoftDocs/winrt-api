@@ -9,11 +9,12 @@ public IAsyncOperation<string> UserDataAccount.TryShowCreateContactGroupAsync()
 
 # Windows.ApplicationModel.UserDataAccounts.UserDataAccount.TryShowCreateContactGroupAsync
 
+
 ## -description
+
 This API supports the product infrastructure and is not intended to be used directly from your code.
 
 Microsoft Internal Use Only.
-## -params
 
 ## -returns
 
@@ -22,3 +23,4 @@ Microsoft Internal Use Only.
 ## -see-also
 
 ## -examples
+

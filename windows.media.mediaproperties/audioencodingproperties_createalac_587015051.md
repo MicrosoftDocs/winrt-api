@@ -9,21 +9,27 @@ public AudioEncodingProperties AudioEncodingProperties.CreateAlac(UInt32 sampleR
 
 # Windows.Media.MediaProperties.AudioEncodingProperties.CreateAlac
 
+
 ## -description
+
 Creates an instance of [AudioEncodingProperties](audioencodingproperties.md) for Apple Lossless Audio Codec (ALAC) audio.
 
-## -params
+## -parameters
 
-## -param sampleRate
+### -param sampleRate
+
 The audio sampling rate.
 
-## -param channelCount
+### -param channelCount
+
 The number of audio channels.
 
-## -param bitsPerSample
+### -param bitsPerSample
+
 The number of bits per sample.
 
 ## -returns
+
 The audio encoding properties.
 
 ## -remarks
