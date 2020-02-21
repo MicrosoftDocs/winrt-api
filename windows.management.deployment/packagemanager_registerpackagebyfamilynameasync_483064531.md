@@ -9,27 +9,35 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.RegisterPa
 
 # Windows.Management.Deployment.PackageManager.RegisterPackageByFamilyNameAsync
 
+
 ## -description
+
 Registers a package (the main package) by its family name and its dependency packages for the current user.
 
-## -params
+## -parameters
 
-## -param mainPackageFamilyName
+### -param mainPackageFamilyName
+
 A string that specifies the family name of the main package to be registered.
 
-## -param dependencyPackageFamilyNames
+### -param dependencyPackageFamilyNames
+
 Strings that specify the family names of the dependency packages to be registered.
 
-## -param deploymentOptions
+### -param deploymentOptions
+
 A [DeploymentOptions](deploymentoptions.md)-typed value that specifies the package deployment option.
 
-## -param appDataVolume
+### -param appDataVolume
+
 The package volume to store that app data on.
 
-## -param optionalPackageFamilyNames
-Strings that specify the optional package family names from the main bundle to be registered. 
+### -param optionalPackageFamilyNames
+
+Strings that specify the optional package family names from the main bundle to be registered.
 
 ## -returns
+
 A report of the deployment progress. The object implements the **IAsyncOperationWithProgress** pattern.
 
 ## -remarks

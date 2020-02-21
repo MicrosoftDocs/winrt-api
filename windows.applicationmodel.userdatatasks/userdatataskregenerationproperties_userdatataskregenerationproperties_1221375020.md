@@ -9,13 +9,14 @@ public UserDataTaskRegenerationProperties.UserDataTaskRegenerationProperties()
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskRegenerationProperties.UserDataTaskRegenerationProperties
 
-## -description
-Initializes a new instance of the [UserDataTaskRegenerationProperties](userdatataskregenerationproperties.md) class.
 
-## -params
+## -description
+
+Initializes a new instance of the [UserDataTaskRegenerationProperties](userdatataskregenerationproperties.md) class.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+

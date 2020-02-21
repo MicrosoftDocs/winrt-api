@@ -9,13 +9,14 @@ public GameControllerButtonLabel FlightStick.GetButtonLabel(FlightStickButtons b
 
 # Windows.Gaming.Input.FlightStick.GetButtonLabel
 
+
 ## -description
 
 Retrieves the button label for the specified button.
 
-## -params
+## -parameters
 
-## -param button
+### -param button
 
 The button for which to retrieve the label.
 
@@ -50,3 +51,4 @@ void ShowFlightStickFirePrimaryButtonIcon(FlightStick flightStick)
 * [Windows.Gaming.Input.FlightStickButtons](flightstickbuttons.md)
 
 ## -examples
+

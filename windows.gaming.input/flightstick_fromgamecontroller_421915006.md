@@ -9,13 +9,14 @@ public FlightStick FlightStick.FromGameController(IGameController gameController
 
 # Windows.Gaming.Input.FlightStick.FromGameController
 
+
 ## -description
 
 Returns the given game controller as a flight stick.
 
-## -params
+## -parameters
 
-## -param gameController
+### -param gameController
 
 The game controller to be returned as a flight stick.
 
@@ -51,3 +52,4 @@ if (flightStick != nullptr)
     // Assign a standard button mapping to this controller.
 }
 ```
+

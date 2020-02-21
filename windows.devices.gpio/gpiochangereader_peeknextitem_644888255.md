@@ -9,12 +9,13 @@ public GpioChangeRecord GpioChangeReader.PeekNextItem()
 
 # Windows.Devices.Gpio.GpioChangeReader.PeekNextItem
 
+
 ## -description
+
 Retrieves the earlier inserted change record from the reader's buffer, without removing it.
 
-## -parameters
-
 ## -returns
+
 A [GpioChangeRecord](gpiochangerecord.md) structure containing the timestamp and polarity (rising or falling) of the change.
 
 ## -remarks

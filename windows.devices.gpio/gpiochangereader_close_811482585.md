@@ -9,12 +9,13 @@ public void GpioChangeReader.Close()
 
 # Windows.Devices.Gpio.GpioChangeReader.Close
 
+
 ## -description
+
 Closes the change reader, releasing the associated memory buffer and disassociating the reader from its pin.
 
-## -parameters
-
 ## -remarks
+
 Calling this method will also cancel any pending [WaitForItemsAsync()](gpiochangereader_waitforitemsasync_799637968.md) actions.
 
 ## -see-also

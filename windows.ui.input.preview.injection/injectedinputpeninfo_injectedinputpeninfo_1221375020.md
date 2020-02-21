@@ -9,10 +9,10 @@ public InjectedInputPenInfo.InjectedInputPenInfo()
 
 # Windows.UI.Input.Preview.Injection.InjectedInputPenInfo.InjectedInputPenInfo
 
-## -description
-Creates a new [InjectedInputPenInfo](injectedinputpeninfo.md) object that is used to specify the pen input to inject.
 
-## -parameters
+## -description
+
+Creates a new [InjectedInputPenInfo](injectedinputpeninfo.md) object that is used to specify the pen input to inject.
 
 ## -remarks
 
@@ -38,3 +38,4 @@ Here are some downloadable samples demonstrating basic input and input injection
 ## -see-also
 
 [Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)
+

@@ -9,10 +9,10 @@ public InjectedInputKeyboardInfo.InjectedInputKeyboardInfo()
 
 # Windows.UI.Input.Preview.Injection.InjectedInputKeyboardInfo.InjectedInputKeyboardInfo
 
-## -description
-Creates a new [InjectedInputKeyboardInfo](injectedinputkeyboardinfo.md) object that is used to specify the keyboard input to inject.
 
-## -parameters
+## -description
+
+Creates a new [InjectedInputKeyboardInfo](injectedinputkeyboardinfo.md) object that is used to specify the keyboard input to inject.
 
 ## -remarks
 
@@ -38,3 +38,4 @@ Here are some downloadable samples demonstrating basic input and input injection
 ## -see-also
 
 [Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)
+

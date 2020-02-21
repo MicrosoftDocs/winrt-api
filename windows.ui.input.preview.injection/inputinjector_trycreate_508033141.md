@@ -9,13 +9,13 @@ public InputInjector InputInjector.TryCreate()
 
 # Windows.UI.Input.Preview.Injection.InputInjector.TryCreate
 
+
 ## -description
+
 Attempts to create a new instance of the [InputInjector](inputinjector.md) class.
 
 > [!NOTE]
 > The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
-
-## -parameters
 
 ## -returns
 
@@ -34,7 +34,7 @@ Using input injection requires the following be added to the Package.appxmanifes
 - To `<Capabilities>`
     - `<rescap:Capability Name="inputInjectionBrokered" />`
 
-Use [TryCreateForAppBroadcastOnly](inputinjector_trycreateforappbroadcastonly_1904430574.md) when input injection should be restricted to the process that is actively being captured for broadcast using an [App​Broadcast​Services](https://docs.microsoft.com/uwp/api/windows.media.capture.appbroadcastservices) object. 
+Use [TryCreateForAppBroadcastOnly](inputinjector_trycreateforappbroadcastonly_1904430574.md) when input injection should be restricted to the process that is actively being captured for broadcast using an [App​Broadcast​Services](https://docs.microsoft.com/uwp/api/windows.media.capture.appbroadcastservices) object.
 
 ## -examples
 
@@ -47,3 +47,4 @@ Here are some downloadable samples demonstrating basic input and input injection
 ## -see-also
 
 [Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)
+

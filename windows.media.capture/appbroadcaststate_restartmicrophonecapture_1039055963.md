@@ -9,10 +9,10 @@ public void AppBroadcastState.RestartMicrophoneCapture()
 
 # Windows.Media.Capture.AppBroadcastState.RestartMicrophoneCapture
 
-## -description
-Restarts microphone capture for the app broadcast.
 
-## -params
+## -description
+
+Restarts microphone capture for the app broadcast.
 
 ## -remarks
 
@@ -20,7 +20,7 @@ Restarts microphone capture for the app broadcast.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appBroadcast, appBroadcastSettings
+

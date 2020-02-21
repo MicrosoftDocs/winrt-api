@@ -9,11 +9,13 @@ public IAsyncAction UserDataTaskListSkipOccurrenceRequest.ReportFailedAsync()
 
 # Windows.ApplicationModel.UserDataTasks.DataProvider.UserDataTaskListSkipOccurrenceRequest.ReportFailedAsync
 
+
 ## -description
+
 Informs the client that the request was not processed successfully.
-## -params
 
 ## -returns
+
 An asynchronous operation.
 
 ## -remarks
@@ -21,3 +23,4 @@ An asynchronous operation.
 ## -see-also
 
 ## -examples
+

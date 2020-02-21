@@ -9,16 +9,21 @@ public ContactPicker ContactPicker.CreateForUser(User user)
 
 # Windows.ApplicationModel.Contacts.ContactPicker.CreateForUser
 
+
 ## -description
+
 Creates a new [ContactPicker](contactpicker.md) for a specific [User](./windows.system/user.md).
 
-## -params
+## -parameters
 
-## -param user
+### -param user
+
 The [User](./windows.system/user.md) for which you want to create the [ContactPicker](contactpicker.md).
 
 ## -returns
+
 Returns a [ContactPicker](contactpicker.md) for the account specified by the *user* parameter.
+
 ## -remarks
 
 ## -see-also
@@ -26,4 +31,6 @@ Returns a [ContactPicker](contactpicker.md) for the account specified by the *us
 ## -examples
 
 ## -capabilities
+
 contactsSystem
+

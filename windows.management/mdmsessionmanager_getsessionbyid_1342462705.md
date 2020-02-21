@@ -9,14 +9,19 @@ public MdmSession MdmSessionManager.GetSessionById(String sessionId)
 
 # Windows.Management.MdmSessionManager.GetSessionById
 
+
 ## -description
+
 Gets the MDM session's information given the session's ID.
 
-## -params
-## -param sessionId
+## -parameters
+
+### -param sessionId
+
 The string value of the MDM session ID.
 
 ## -returns
+
 The [MdmSession](MdmSession.md) corresponding to the provided session ID.
 
 ## -remarks

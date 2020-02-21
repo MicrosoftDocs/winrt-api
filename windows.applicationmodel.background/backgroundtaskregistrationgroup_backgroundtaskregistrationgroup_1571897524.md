@@ -9,18 +9,23 @@ public BackgroundTaskRegistrationGroup.BackgroundTaskRegistrationGroup(String id
 
 # Windows.ApplicationModel.Background.BackgroundTaskRegistrationGroup.BackgroundTaskRegistrationGroup
 
+
 ## -description
+
 Creates a **BackgroundTaskRegistrationGroup** with the specified group ID and
 
-## -params
+## -parameters
 
-## -param id
+### -param id
+
 The group ID.
 
-## -param name
+### -param name
+
 The friendly name for this group.
 
 ## -remarks
+
 To reduce collisions with other group identifiers, consider including your domain name in the group ID. For example: `"com.contoso.appname.tasks"`. Or use the string form of a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid).
 
 The friendly name can be useful for debugging purposes if your group IDs are difficult to distinguish.
@@ -28,3 +33,4 @@ The friendly name can be useful for debugging purposes if your group IDs are dif
 ## -see-also
 
 ## -examples
+

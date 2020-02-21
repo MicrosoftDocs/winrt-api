@@ -9,12 +9,13 @@ public bool RichEditTextDocument.CanCopy()
 
 # Windows.UI.Text.RichEditTextDocument.CanCopy
 
+
 ## -description
+
 Determines whether document content can be copied to the Clipboard.
 
-## -parameters
-
 ## -returns
+
 **true** if copying to the Clipboard is allowed; otherwise, **false**.
 
 ## -remarks

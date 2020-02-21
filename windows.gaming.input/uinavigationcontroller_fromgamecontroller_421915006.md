@@ -9,13 +9,14 @@ public UINavigationController UINavigationController.FromGameController(IGameCon
 
 # Windows.Gaming.Input.UINavigationController.FromGameController
 
+
 ## -description
 
 Returns the given game controller as a UI navigation controller.
 
-## -params
+## -parameters
 
-## -param gameController
+### -param gameController
 
 The game controller to be returned as a UI navigation controller.
 
@@ -52,3 +53,4 @@ if (uiNavigationController != nullptr)
     // Assign a standard button mapping to this controller.
 }
 ```
+

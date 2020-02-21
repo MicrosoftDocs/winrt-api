@@ -9,12 +9,13 @@ public IAsyncOperation<bool> LineDisplayWindow.TryRefreshAsync()
 
 # Windows.Devices.PointOfService.LineDisplayWindow.TryRefreshAsync
 
+
 ## -description
+
 Refresh the line display window.
 
-## -parameters
-
 ## -returns
+
 True if the window was successfully refreshed; otherwise, false.
 
 ## -remarks
@@ -22,3 +23,4 @@ True if the window was successfully refreshed; otherwise, false.
 ## -see-also
 
 ## -examples
+

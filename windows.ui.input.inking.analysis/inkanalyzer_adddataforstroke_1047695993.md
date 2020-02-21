@@ -9,12 +9,15 @@ public void InkAnalyzer.AddDataForStroke(InkStroke stroke)
 
 # Windows.UI.Input.Inking.Analysis.InkAnalyzer.AddDataForStroke
 
+
 ## -description
+
 Adds data for a single ink stroke to the ink analysis results.
 
-## -params
+## -parameters
 
-## -param stroke
+### -param stroke
+
 The ink stroke from which to extract the data to add to the ink analysis results.
 
 ## -remarks

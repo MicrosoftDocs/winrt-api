@@ -9,12 +9,13 @@ public IAsyncAction UserDataTaskListCreateOrUpdateTaskRequest.ReportFailedAsync(
 
 # Windows.ApplicationModel.UserDataTasks.DataProvider.UserDataTaskListCreateOrUpdateTaskRequest.ReportFailedAsync
 
+
 ## -description
+
 Informs the client that the request was not processed successfully.
 
-## -params
-
 ## -returns
+
 An asynchronous operation.
 
 ## -remarks
@@ -22,3 +23,4 @@ An asynchronous operation.
 ## -see-also
 
 ## -examples
+

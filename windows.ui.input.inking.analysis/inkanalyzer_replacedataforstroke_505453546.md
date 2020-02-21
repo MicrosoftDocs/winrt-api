@@ -9,12 +9,14 @@ public void InkAnalyzer.ReplaceDataForStroke(InkStroke stroke)
 
 # Windows.UI.Input.Inking.Analysis.InkAnalyzer.ReplaceDataForStroke
 
+
 ## -description
+
 Update all nodes for the specified ink stroke from the last ink analysis process.
 
-## -params
+## -parameters
 
-## -param stroke
+### -param stroke
 
 ## -remarks
 

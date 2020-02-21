@@ -9,10 +9,10 @@ public void GattServiceProvider.StopAdvertising()
 
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceProvider.StopAdvertising
 
-## -description
-Stop advertising the GATT service.
 
-## -parameters
+## -description
+
+Stop advertising the GATT service.
 
 ## -remarks
 
@@ -20,6 +20,7 @@ Stop advertising the GATT service.
 
 ## -examples
 
-
 ## -capabilities
+
 bluetooth
+
