@@ -9,15 +9,19 @@ public IAsyncOperation<bool> UserDataTaskListLimitedWriteOperations.TrySkipOccur
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskListLimitedWriteOperations.TrySkipOccurrenceAsync
 
+
 ## -description
+
 Asynchronously attempts to skip the current instance of a reoccurring task and move to the next instance.
 
-## -params
+## -parameters
 
-## -param userDataTaskId
+### -param userDataTaskId
+
 The ID of the reoccurring task.
 
 ## -returns
+
 A Boolean value indicating if the operation was successful.
 
 ## -remarks
@@ -25,3 +29,4 @@ A Boolean value indicating if the operation was successful.
 ## -see-also
 
 ## -examples
+

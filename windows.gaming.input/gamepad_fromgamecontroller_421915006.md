@@ -9,13 +9,14 @@ public Gamepad Gamepad.FromGameController(IGameController gameController)
 
 # Windows.Gaming.Input.Gamepad.FromGameController
 
+
 ## -description
 
 Returns the given game controller as a gamepad.
 
-## -params
+## -parameters
 
-## -param gameController
+### -param gameController
 
 The game controller to be returned as a gamepad.
 
@@ -64,3 +65,4 @@ if (gamepad != null)
     // Assign a standard button mapping to this controller.
 }
 ```
+

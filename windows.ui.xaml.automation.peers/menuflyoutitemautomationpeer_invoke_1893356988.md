@@ -9,10 +9,10 @@ public void MenuFlyoutItemAutomationPeer.Invoke()
 
 # Windows.UI.Xaml.Automation.Peers.MenuFlyoutItemAutomationPeer.Invoke
 
-## -description
-Sends a request to invoke the menu flyout associated with the automation peer.  
 
-## -parameters
+## -description
+
+Sends a request to invoke the menu flyout associated with the automation peer.
 
 ## -remarks
 

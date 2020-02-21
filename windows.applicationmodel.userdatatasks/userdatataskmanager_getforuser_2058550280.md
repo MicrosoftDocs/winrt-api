@@ -9,15 +9,19 @@ public UserDataTaskManager UserDataTaskManager.GetForUser(User user)
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskManager.GetForUser
 
+
 ## -description
+
 Gets the [UserTaskManager](userdatataskmanager.md) object for the specified user.
 
-## -params
+## -parameters
 
-## -param user
+### -param user
+
 The user account to use to get the [UserTaskManager](userdatataskmanager.md) object.
 
 ## -returns
+
 The [UserTaskManager](userdatataskmanager.md) object for the specified user.
 
 ## -remarks
@@ -25,3 +29,4 @@ The [UserTaskManager](userdatataskmanager.md) object for the specified user.
 ## -see-also
 
 ## -examples
+

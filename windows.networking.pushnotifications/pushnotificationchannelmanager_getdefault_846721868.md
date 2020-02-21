@@ -9,12 +9,13 @@ public PushNotificationChannelManagerForUser PushNotificationChannelManager.GetD
 
 # Windows.Networking.PushNotifications.PushNotificationChannelManager.GetDefault
 
+
 ## -description
+
 Gets the manager for the active user.
 
-## -parameters
-
 ## -returns
+
 A [PushNotificationChannelManagerForUser](PushNotificationChannelManagerForUser,md) object.
 
 ## -remarks

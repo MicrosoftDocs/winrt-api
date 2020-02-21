@@ -9,10 +9,10 @@ public void AppBroadcastPreview.StopPreview()
 
 # Windows.Media.Capture.AppBroadcastPreview.StopPreview
 
-## -description
-Stope the app broadcast preview.
 
-## -params
+## -description
+
+Stope the app broadcast preview.
 
 ## -remarks
 
@@ -20,7 +20,7 @@ Stope the app broadcast preview.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appBroadcast, appBroadcastSettings
+

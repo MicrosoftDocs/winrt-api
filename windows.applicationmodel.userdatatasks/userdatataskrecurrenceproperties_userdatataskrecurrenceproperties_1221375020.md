@@ -9,13 +9,14 @@ public UserDataTaskRecurrenceProperties.UserDataTaskRecurrenceProperties()
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskRecurrenceProperties.UserDataTaskRecurrenceProperties
 
-## -description
-Initializes a new instance of the [UserDataTaskRecurrenceProperties](userdatataskrecurrenceproperties.md) class.
 
-## -params
+## -description
+
+Initializes a new instance of the [UserDataTaskRecurrenceProperties](userdatataskrecurrenceproperties.md) class.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+

@@ -9,18 +9,23 @@ public void NotesWindowManagerPreview.ShowNoteRelativeTo(Int32 noteViewId, Int32
 
 # Windows.ApplicationModel.Preview.Notes.NotesWindowManagerPreview.ShowNoteRelativeTo
 
+
 ## -description
+
 Makes a note visible and places it adjacent to a specified "anchor" view.
 
-## -params
+## -parameters
 
-## -param noteViewId
+### -param noteViewId
+
 The unique identifier of the note to be shown.
 
-## -param anchorNoteViewId
+### -param anchorNoteViewId
+
 The Id of the "anchor" view. If this value is 0 (not assigned to any view), the note will appear at the center of the screen.
 
-## -param options
+### -param options
+
 Options for showing the note specified by the *noteViewId* parameter. For example, show the note with focus.
 
 ## -remarks
@@ -28,4 +33,6 @@ Options for showing the note specified by the *noteViewId* parameter. For exampl
 ## -examples
 
 ## -see-also
+
 [NotesWindowManagerPreviewShowNoteOptions](noteswindowmanagerpreviewshownoteoptions.md)
+

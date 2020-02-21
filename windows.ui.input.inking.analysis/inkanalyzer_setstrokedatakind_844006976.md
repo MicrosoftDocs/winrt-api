@@ -9,17 +9,18 @@ public void InkAnalyzer.SetStrokeDataKind(UInt32 strokeId, InkAnalysisStrokeKind
 
 # Windows.UI.Input.Inking.Analysis.InkAnalyzer.SetStrokeDataKind
 
+
 ## -description
 
 Sets the ink analysis category for the [InkAnalysisNode](inkanalysisnode.md) associated with the ink stroke.
 
-## -params
+## -parameters
 
-## -param strokeId
+### -param strokeId
 
 The unique identifier for the ink stroke being categorized.
 
-## -param strokeKind
+### -param strokeKind
 
 The [InkAnalysisStrokeKind](inkanalysisstrokekind.md) category to assign to the [InkAnalysisNode](inkanalysisnode.md).
 
@@ -30,3 +31,4 @@ Use [**SetStrokeDataKind**](https://docs.microsoft.com/en-us/uwp/api/windows.ui.
 ## -see-also
 
 ## -examples
+

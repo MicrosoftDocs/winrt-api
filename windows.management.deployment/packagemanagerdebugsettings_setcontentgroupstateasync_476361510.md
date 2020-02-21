@@ -9,21 +9,27 @@ public IAsyncAction PackageManagerDebugSettings.SetContentGroupStateAsync(Packag
 
 # Windows.Management.Deployment.PackageManagerDebugSettings.SetContentGroupStateAsync
 
+
 ## -description
+
 Sets the staging state of a content group for debugging.
 
-## -params
+## -parameters
 
-## -param package
-The app package. 
+### -param package
 
-## -param contentGroupName
+The app package.
+
+### -param contentGroupName
+
 The content group name. An AppxContentGroupMap.xml must be present when the app is registered for this API to work.
 
-## -param state
+### -param state
+
 The [PackageContentGroupState](../Windows.ApplicationModel/PackageContentGroupState.md) enum value.
 
 ## -returns
+
 Returns an IAsyncAction that completes when the state has changed.
 
 ## -remarks
@@ -31,3 +37,4 @@ Returns an IAsyncAction that completes when the state has changed.
 ## -see-also
 
 ## -examples
+

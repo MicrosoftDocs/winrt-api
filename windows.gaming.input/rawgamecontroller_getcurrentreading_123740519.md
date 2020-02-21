@@ -9,21 +9,22 @@ public ulong RawGameController.GetCurrentReading(Boolean[] buttonArray, GameCont
 
 # Windows.Gaming.Input.RawGameController.GetCurrentReading
 
+
 ## -description
 
 Gets a snapshot of the raw game controller's state.
 
-## -params
+## -parameters
 
-## -param buttonArray
+### -param buttonArray
 
 The button array for the raw game controller to be populated with the current state of each button.
 
-## -param switchArray
+### -param switchArray
 
 The switch array for the raw game controller to be populated with the current state of each switch.
 
-## -param axisArray
+### -param axisArray
 
 The axis array for the raw game controller to be populated with the current state of each axis.
 
@@ -44,3 +45,4 @@ See [Raw game controller](https://docs.microsoft.com/windows/uwp/gaming/raw-game
 * [Windows.Gaming.Input.GameControllerSwitchPosition](gamecontrollerswitchposition.md)
 
 ## -examples
+

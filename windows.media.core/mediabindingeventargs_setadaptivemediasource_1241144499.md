@@ -9,12 +9,15 @@ public void MediaBindingEventArgs.SetAdaptiveMediaSource(AdaptiveMediaSource med
 
 # Windows.Media.Core.MediaBindingEventArgs.SetAdaptiveMediaSource
 
+
 ## -description
+
 Binds an adaptive media source to the [MediaSource](mediasource.md) associated with the event.
 
-## -params
+## -parameters
 
-## -param mediaSource
+### -param mediaSource
+
 The [AdaptiveMediaSource](../windows.media.streaming.adaptive./adaptivemediasource.md) representing the media content.
 
 ## -remarks

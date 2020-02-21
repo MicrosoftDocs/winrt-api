@@ -9,13 +9,14 @@ public RacingWheel RacingWheel.FromGameController(IGameController gameController
 
 # Windows.Gaming.Input.RacingWheel.FromGameController
 
+
 ## -description
 
 Returns the given game controller as a racing wheel.
 
-## -params
+## -parameters
 
-## -param gameController
+### -param gameController
 
 The game controller to be returned as a racing wheel.
 
@@ -51,3 +52,4 @@ if (racingWheel != nullptr)
     // Assign a standard button mapping to this controller.
 }
 ```
+

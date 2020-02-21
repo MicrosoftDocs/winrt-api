@@ -9,13 +9,18 @@ public PlatformDiagnosticTraceRuntimeInfo PlatformDiagnosticActions.GetActiveTra
 
 # Windows.System.Diagnostics.TraceReporting.PlatformDiagnosticActions.GetActiveTraceRuntime
 
+
 ## -description
+
 Returns the amount of time that a trace in the specified slot has been running.
 
-## -params
+## -parameters
 
 ### -param slotType
-Which slot to query.  
+
+Which slot to query.
 
 ## -returns
+
 How long the trace in the specified slot has been running.
+

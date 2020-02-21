@@ -7,12 +7,14 @@
 public delegate void ShareProviderHandler(ShareProviderOperation operation)
 -->
 
-### -param operation
-
-
-# Windows.ApplicationModel.DataTransfer.ShareProviderHandler
 
 ## -description
+
 A delegate that handles share providers.
 
+## -parameters
+
+### -param operation
+
+# Windows.ApplicationModel.DataTransfer.ShareProviderHandler
 

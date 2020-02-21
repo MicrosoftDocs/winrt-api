@@ -9,10 +9,10 @@ public void GameBarServices.DisableCapture()
 
 # Windows.Media.Capture.GameBarServices.DisableCapture
 
-## -description
-Disables app capture.
 
-## -params
+## -description
+
+Disables app capture.
 
 ## -remarks
 
@@ -20,7 +20,7 @@ Disables app capture.
 
 ## -examples
 
-
-
 ## -capabilities
+
 gameBarServices
+

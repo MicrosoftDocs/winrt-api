@@ -9,12 +9,13 @@ public IAsyncOperation<GattDeviceServicesResult> GattDeviceService.GetIncludedSe
 
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.GetIncludedServicesAsync
 
+
 ## -description
+
 Gets the included services that are associated with this GattDeviceService instance.
 
-## -parameters
-
 ## -returns
+
 An asynchronous operation that completes with a GattDeviceServicesResult object.
 
 ## -remarks
@@ -23,6 +24,7 @@ An asynchronous operation that completes with a GattDeviceServicesResult object.
 
 ## -examples
 
-
 ## -capabilities
+
 bluetooth
+

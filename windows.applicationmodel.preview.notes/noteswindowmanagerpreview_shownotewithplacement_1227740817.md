@@ -9,24 +9,31 @@ public void NotesWindowManagerPreview.ShowNoteWithPlacement(Int32 noteViewId, IB
 
 # Windows.ApplicationModel.Preview.Notes.NotesWindowManagerPreview.ShowNoteWithPlacement
 
+
 ## -description
+
 Makes a note visible and sets its placement data (dimensions and location) as specified.
 
-## -params
+## -parameters
 
-## -param noteViewId
+### -param noteViewId
+
 The unique identifier of the note to be shown.
 
-## -param data
+### -param data
+
 An array of bytes holding note placement data.
 
-## -param options
+### -param options
+
 Options for showing the note specified by the *noteViewId* parameter. For example, show the note with focus.
 
 ## -remarks
+
 [GetNotePlacement](noteswindowmanagerpreview_getnoteplacement_639894587.md) and ShowNoteWithPlacement can be used together to store the placement of a note (say, while the application is exiting) and then restore the note to its previous placement on the screen (when the application is opened again).
 
 ## -see-also
+
 [NotesWindowManagerPreviewShowNoteOptions](noteswindowmanagerpreviewshownoteoptions.md)
 
 ## -examples

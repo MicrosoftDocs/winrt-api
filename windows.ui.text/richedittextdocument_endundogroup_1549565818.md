@@ -9,10 +9,10 @@ public void RichEditTextDocument.EndUndoGroup()
 
 # Windows.UI.Text.RichEditTextDocument.EndUndoGroup
 
-## -description
-Turns off undo grouping.
 
-## -parameters
+## -description
+
+Turns off undo grouping.
 
 ## -remarks
 

@@ -9,15 +9,19 @@ public void MapControl.StartContinuousPan(Double horizontalPixelsPerSecond, Doub
 
 # Windows.UI.Xaml.Controls.Maps.MapControl.StartContinuousPan
 
+
 ## -description
+
 Starts an asynchronous operation to pan the map continuously from its current position.
 
-## -params
+## -parameters
 
-## -param horizontalPixelsPerSecond
+### -param horizontalPixelsPerSecond
+
 The pixels per second to pan horizontally.
 
-## -param verticalPixelsPerSecond
+### -param verticalPixelsPerSecond
+
 The pixels per second to pan vertically.
 
 ## -remarks
@@ -25,3 +29,4 @@ The pixels per second to pan vertically.
 ## -see-also
 
 ## -examples
+

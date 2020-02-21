@@ -9,12 +9,13 @@ public AppBroadcastPlugInManager AppBroadcastPlugInManager.GetDefault()
 
 # Windows.Media.Capture.AppBroadcastPlugInManager.GetDefault
 
+
 ## -description
+
 Gets the default plugin for app broadcast.
 
-## -params
-
 ## -returns
+
 The default plugin for app broadcast.
 
 ## -remarks
@@ -23,7 +24,7 @@ The default plugin for app broadcast.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appBroadcast, appBroadcastSettings
+

@@ -9,15 +9,19 @@ public MediaEncodingProfile MediaEncodingProfile.CreateHevc(VideoEncodingQuality
 
 # Windows.Media.MediaProperties.MediaEncodingProfile.CreateHevc
 
+
 ## -description
+
 Creates an instance of [MediaEncodingProfile](mediaencodingprofile.md) for High Efficiency Video Coding (HEVC) video, also known as H.265 video.
 
-## -params
+## -parameters
 
-## -param quality
+### -param quality
+
 The video quality.
 
 ## -returns
+
 The media encoding profile.
 
 ## -remarks

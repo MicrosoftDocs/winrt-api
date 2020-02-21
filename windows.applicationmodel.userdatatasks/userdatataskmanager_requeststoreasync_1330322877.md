@@ -9,15 +9,19 @@ public IAsyncOperation<UserDataTaskStore> UserDataTaskManager.RequestStoreAsync(
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskManager.RequestStoreAsync
 
+
 ## -description
+
 Retrieves a [UserDataTaskStore](userdatataskstore.md) object that enables searching or retrieving contacts on the device.
 
-## -params
+## -parameters
 
-## -param accessType
+### -param accessType
+
 Specifies the type of read/write access requested.
 
 ## -returns
+
 An asynchronous operation that returns a [UserDataTaskStore](userdatataskstore.md) object on successful completion.
 
 ## -remarks
@@ -27,4 +31,6 @@ An asynchronous operation that returns a [UserDataTaskStore](userdatataskstore.m
 ## -examples
 
 ## -capabilities
+
 userDataTasks
+

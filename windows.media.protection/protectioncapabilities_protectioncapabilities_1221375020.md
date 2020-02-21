@@ -9,10 +9,10 @@ public ProtectionCapabilities.ProtectionCapabilities()
 
 # Windows.Media.Protection.ProtectionCapabilities.ProtectionCapabilities
 
-## -description
-Initializes a new instance of the **ProtectionCapabilities** class.
 
-## -parameters
+## -description
+
+Initializes a new instance of the **ProtectionCapabilities** class.
 
 ## -remarks
 

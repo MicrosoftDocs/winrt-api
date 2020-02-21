@@ -9,11 +9,13 @@ public UserDataTaskReader UserDataTaskList.GetTaskReader()
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskList.GetTaskReader
 
+
 ## -description
+
 Gets a [UserDataTaskReader](userdatataskreader.md) object associated with this [UserDataTaskList](userdatatasklist.md).
-## -params
 
 ## -returns
+
 A [UserDataTaskReader](userdatataskreader.md) object associated with this [UserDataTaskList](userdatatasklist.md).
 
 ## -remarks
@@ -21,3 +23,4 @@ A [UserDataTaskReader](userdatataskreader.md) object associated with this [UserD
 ## -see-also
 
 ## -examples
+

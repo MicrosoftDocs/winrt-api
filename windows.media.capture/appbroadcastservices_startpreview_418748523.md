@@ -9,12 +9,15 @@ public AppBroadcastPreview AppBroadcastServices.StartPreview(Size desiredSize)
 
 # Windows.Media.Capture.AppBroadcastServices.StartPreview
 
+
 ## -description
+
 Starts the app broadcast preview.
 
-## -params
+## -parameters
 
-## -param desiredSize
+### -param desiredSize
+
 An object specifying the size, in pixels, of the app broadcast preview.
 
 ## -returns
@@ -25,7 +28,7 @@ An object specifying the size, in pixels, of the app broadcast preview.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appBroadcast, appBroadcastSettings
+

@@ -9,10 +9,10 @@ public InkAnalyzer.InkAnalyzer()
 
 # Windows.UI.Input.Inking.Analysis.InkAnalyzer.InkAnalyzer
 
-## -description
-Creates a new [InkAnalyzer](inkanalyzer.md) object to manage [InkAnalysisNode](inkanalysisnode.md) objects generated from ink analysis.
 
-## -params
+## -description
+
+Creates a new [InkAnalyzer](inkanalyzer.md) object to manage [InkAnalysisNode](inkanalysisnode.md) objects generated from ink analysis.
 
 ## -remarks
 

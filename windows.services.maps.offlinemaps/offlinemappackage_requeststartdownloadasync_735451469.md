@@ -9,12 +9,13 @@ public IAsyncOperation<OfflineMapPackageStartDownloadResult> OfflineMapPackage.R
 
 # Windows.Services.Maps.OfflineMaps.OfflineMapPackage.RequestStartDownloadAsync
 
+
 ## -description
+
 Starts an asynchronous operation to request the download of a map package to your local system.
 
-## -params
-
 ## -returns
+
 An [OfflineMapPackageStartDownloadResult](offlinemappackagestartdownloadresult.md) that contains the result of the operation.
 
 ## -remarks
@@ -22,3 +23,4 @@ An [OfflineMapPackageStartDownloadResult](offlinemappackagestartdownloadresult.m
 ## -see-also
 
 ## -examples
+

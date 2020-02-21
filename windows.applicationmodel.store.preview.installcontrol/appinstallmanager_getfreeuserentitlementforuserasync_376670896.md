@@ -9,24 +9,31 @@ public IAsyncOperation<GetEntitlementResult> AppInstallManager.GetFreeUserEntitl
 
 # Windows.ApplicationModel.Store.Preview.InstallControl.AppInstallManager.GetFreeUserEntitlementForUserAsync
 
+
 ## -description
+
 Grants a free entitlement for the specified app to the specified user.
 
-## -params
+## -parameters
 
-## -param user
+### -param user
+
 A [Windows.System.User](../windows.system/user.md) object that represents the user to which you want to grant the entitlement.
 
-## -param storeId
+### -param storeId
+
 The Store ID of the app for which you want to grant the entitlement.
 
-## -param campaignId
+### -param campaignId
+
 The ID of the campaign that is associated with the entitlement.
 
-## -param correlationVector
+### -param correlationVector
+
 A correlation vector string that can be used to generate telemetry data.
 
 ## -returns
+
 An asynchronous operation that, on successful completion, returns a [GetEntitlementResult](getentitlementresult.md) object that indicates the status of the entitlement grant.
 
 ## -remarks
@@ -36,4 +43,6 @@ An asynchronous operation that, on successful completion, returns a [GetEntitlem
 ## -examples
 
 ## -capabilities
+
 runFullTrust
+

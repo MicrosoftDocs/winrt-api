@@ -9,13 +9,14 @@ public ArcadeStick ArcadeStick.FromGameController(IGameController gameController
 
 # Windows.Gaming.Input.ArcadeStick.FromGameController
 
+
 ## -description
 
 Returns the given game controller as an arcade stick.
 
-## -params
+## -parameters
 
-## -param gameController
+### -param gameController
 
 The game controller to be returned as an arcade stick.
 
@@ -49,3 +50,4 @@ if (arcadeStick != nullptr)
     // Assign a standard button mapping to this controller.
 }
 ```
+
