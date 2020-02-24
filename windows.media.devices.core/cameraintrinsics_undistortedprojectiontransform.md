@@ -68,7 +68,7 @@ void ProjectCameraCoordinatesToPixelCoordinates(
         rightToLeft * undistortedProjectionTransform);
 
     std::transform(pixelCoordinateVectors.begin(), pixelCoordinateVectors.end(), pixelCoordinates.begin(),
-        [](const XMFLOAT4& v) { return winrt::Windows::Foundation::Point{ v.x, v.y }; });
+        [](const XMFLOAT3& v) { return winrt::Windows::Foundation::Point{ v.x, v.y }; });
 }
 ```
   
