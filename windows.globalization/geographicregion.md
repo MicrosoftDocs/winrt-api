@@ -15,7 +15,7 @@ Describes a region. This is usually a country, but may be a macroregion.
 
 ## -remarks
 
-For a list of standard country/region codes used by Microsoft, see the [Official Country/Region List](https://globalready.azurewebsites.net/marketreadiness/OfficialCountryregion).
+For a list of standard country/region codes used by Microsoft, see the [Official Country/Region List](/windows/uwp/publish/supported-languages).
 
 ## -examples
 
