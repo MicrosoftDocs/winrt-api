@@ -20,4 +20,5 @@ A string representation of the day period.
 ## -examples
 
 ## -see-also
-[PeriodAsString(Int32)](calendar_periodasstring_1590229662.md)
+[PeriodAsString(Int32)](calendar_periodasstring_1590229662.md), 
+[Calendar, date, and time controls](/windows/uwp/design/controls-and-patterns/date-and-time), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [Date and time formatting sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)

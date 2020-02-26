@@ -10,13 +10,17 @@ public string EraAsString(System.Int32 idealLength)
 # Windows.Globalization.Calendar.EraAsString
 
 ## -description
+
 Returns a string representation of the era. The string chosen is closest in length to the ideal length.
 
 ## -parameters
+
 ### -param idealLength
+
 A positive integer specifying the ideal length, in characters, for the returned string, or 0 specifying the most common abbreviation available.
 
 ## -returns
+
 A string representation of the era.
 
 ## -remarks
@@ -27,4 +31,5 @@ A string representation of the era.
 ## -examples
 
 ## -see-also
-[EraAsString](calendar_eraasstring_1742852677.md)
+
+[EraAsString](calendar_eraasstring_1742852677.md), [Calendar, date, and time controls](/windows/uwp/design/controls-and-patterns/date-and-time), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [Date and time formatting sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)
