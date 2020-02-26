@@ -11,7 +11,7 @@ Provides phone number formatting, validation, and matching with wide global supp
 
 ## -remarks
 
-For a list of standard country/region codes used by Microsoft, see the [Official Country/Region List](https://globalready.azurewebsites.net/marketreadiness/OfficialCountryregion).
+For a list of standard country/region codes used by Microsoft, see the [Official Country/Region List](/windows/uwp/publish/supported-languages).
 
 ## -examples
 
