@@ -34,7 +34,7 @@ In addition, this namespace provides access to the following motion (or movement
 
 Sensor data is provided relative to the device's fixed sensor coordinate system, and is independent of display orientation. For applications that rely on sensor data for input control or to manipulate elements on the screen, the developer must take current display orientation into account and compensate the data appropriately. For more info about the sensor coordinate system, see [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)).
 
-For some samples that demonstrate using various sensors, see [Windows Sensor Samples](https://go.microsoft.com/fwlink/?LinkID=616041).
+For some samples that demonstrate using various sensors, see [Windows Sensor Samples](https://github.com/Microsoft/Windows-driver-samples/tree/master/sensors).
 
 ## -examples
 
