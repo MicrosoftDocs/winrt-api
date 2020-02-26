@@ -26,4 +26,4 @@ If your app passes language tags used in this class to any [National Language Su
 
 ## -see-also
 
-[Calendar sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624043), [Globalization preferences sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624045)
+[Calendar, date, and time controls](/windows/uwp/design/controls-and-patterns/date-and-time), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [Date and time formatting sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting), [Globalization preferences sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624045)

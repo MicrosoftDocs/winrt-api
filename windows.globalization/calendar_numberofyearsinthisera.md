@@ -23,3 +23,5 @@ The number of years in the current era, or – 1 if there is no known bound to t
 ## -examples
 
 ## -see-also
+
+[Calendar, date, and time controls](/windows/uwp/design/controls-and-patterns/date-and-time), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [Date and time formatting sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)

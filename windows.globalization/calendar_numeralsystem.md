@@ -20,4 +20,5 @@ A string that indicates the numeral system of the calendar, such as "Latn" for t
 ## -examples
 
 ## -see-also
-[NumeralSystem values](https://docs.microsoft.com/previous-versions/windows/apps/jj236471(v=win.10))
+[NumeralSystem values](https://docs.microsoft.com/previous-versions/windows/apps/jj236471(v=win.10)), [Calendar, date, and time controls](/windows/uwp/design/controls-and-patterns/date-and-time), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [Date and time formatting sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)
+
