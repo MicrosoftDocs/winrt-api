@@ -16,7 +16,7 @@ Gets the window of the current thread.
 The currently activated window.
 
 ## -remarks
-The value of this property depends on the thread from which it is called. If called from a UI thread, this the value is the Window instance for that thread. On any other thread the value is null.
+The value of this property depends on the thread from which it is called. If called from a UI thread, the value is the Window instance for that thread. On any other thread, the value is `null`.
 
 ## -examples
 
