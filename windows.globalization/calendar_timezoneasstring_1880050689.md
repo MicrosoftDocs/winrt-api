@@ -20,4 +20,4 @@ The full time zone name. This usually differs depending on whether the time zone
 ## -examples
 
 ## -see-also
-[TimeZoneAsString(Int32)](calendar_timezoneasstring_347556679.md)
+[TimeZoneAsString(Int32)](calendar_timezoneasstring_347556679.md), [Calendar, date, and time controls](/windows/uwp/design/controls-and-patterns/date-and-time), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [Date and time formatting sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)

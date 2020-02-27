@@ -20,4 +20,5 @@ A string representation of the day of the week, using the most common abbreviati
 ## -examples
 
 ## -see-also
-[DayOfWeekAsSoloString(Int32)](calendar_dayofweekassolostring_158875511.md)
+
+[DayOfWeekAsSoloString(Int32)](calendar_dayofweekassolostring_158875511.md), [Calendar, date, and time controls](/windows/uwp/design/controls-and-patterns/date-and-time), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [Date and time formatting sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)

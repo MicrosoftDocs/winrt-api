@@ -20,4 +20,4 @@ A string representation of the month, using the most common abbreviation availab
 ## -examples
 
 ## -see-also
-[MonthAsSoloString(Int32)](calendar_monthassolostring_1163050283.md)
+[MonthAsSoloString(Int32)](calendar_monthassolostring_1163050283.md), [Calendar, date, and time controls](/windows/uwp/design/controls-and-patterns/date-and-time), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [Date and time formatting sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)
