@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IMap<string, string> Properties { get; }
 Gets the error properties.
 
 ## -property-value
-The error properties. See [WebProviderError.ErrorCode Property](webprovidererrorcode_errorcode) for a list of error codes.
+The error properties. See [WebProviderError.ErrorCode Property](webprovidererror_errorcode.md) for a list of error codes.
 
 
 ## -remarks
