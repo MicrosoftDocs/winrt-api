@@ -10,7 +10,7 @@ public Windows.Networking.BackgroundTransfer.ResponseInformation GetResponseInfo
 # Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.GetResponseInformation
 
 ## -description
-Gets the response infomation.
+Gets the response information.
 
 ## -returns
 Contains the data returned by a server response.
