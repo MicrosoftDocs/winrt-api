@@ -13,7 +13,7 @@ public string ErrorMessage { get; }
 Gets the error message.
 
 ## -property-value
-The error message. See [WebProviderError.ErrorCode Property](webprovidererrorcode) for a list of error codes.
+The error message. See [WebProviderError.ErrorCode Property](webprovidererror_errorcode.md) for a list of error codes.
 
 ## -remarks
 
