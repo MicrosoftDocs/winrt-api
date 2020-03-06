@@ -10,10 +10,14 @@ public void TargetedContentCollection.ReportInteraction(TargetedContentInteracti
 # Windows.Services.TargetedContent.TargetedContentCollection.ReportInteraction
 
 ## -description
-Reports interaction for a TargetedContentCollection object.
+
+Reports interaction types for a [TargetedContentCollection](targetedcontentcollection.md) object.
+
 ## -parameters
 
 ### -param interaction
+
+The type of interaction supported by the [TargetedContentCollection](targetedcontentcollection.md) object in a [TargetedContentContainer](targetedcontentcontainer.md).
 
 ## -remarks
 
@@ -21,6 +25,6 @@ Reports interaction for a TargetedContentCollection object.
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

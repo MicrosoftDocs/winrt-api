@@ -10,7 +10,9 @@ public string Path { get; }
 # Windows.Services.TargetedContent.TargetedContentCollection.Path
 
 ## -description
-Gets the path of TargetedContentCollection object.
+
+Gets the path to an item in the content collection.
+
 ## -property-value
 
 ## -remarks
@@ -19,6 +21,22 @@ Gets the path of TargetedContentCollection object.
 
 ## -examples
 
+This example shows how to get a specific object from a known path. Specifically, item 0 under collection 1 ("\collection1\item1") as described by the data contract.
+
+We assume that `container` is a pre-existing subscription content container.
+
+Finally, we launch the URI associated with the item.
+
+```csharp
+private async void LaunchObjectUriFromPath(TargetedContentContainer container)
+{
+    TargetedContentObject contentObject = container.SelectSingleObject("//collection[1]/item[0]");
+
+    await contentObject.Item.Properties["onClick"].Uri.LauchUriAsync();
+    }
+}
+```
 
 ## -capabilities
+
 secondaryAuthenticationFactor

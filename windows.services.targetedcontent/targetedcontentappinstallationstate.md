@@ -10,20 +10,31 @@ public enum TargetedContentAppInstallationState : int
 # Windows.Services.TargetedContent.TargetedContentAppInstallationState
 
 ## -description
-Enum that defines all vaules for that TargetedContentAppInstallState can hold:  NotApplicable, NotInstalled or Installed.
+
+Defines the possible installation states for [TargetedContentValue.File](targetedcontentvalue_file.md)/[TargetedContentValue.Files](targetedcontentvalue_files.md) content in a [TargetedContentContainer](targetedcontentcontainer.md).
+
 ## -enum-fields
+
 ### -field NotInstalled:1
+
+File(s) is not installed.
 
 ### -field NotApplicable:0
 
+File(s) cannot be installed.
+
 ### -field Installed:2
+
+File(s) is installed.
 
 ## -remarks
 
 ## -see-also
 
+[TargetedContentItemState.AppInstallationState](targetedcontentitemstate_appinstallationstate.md)
+
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

@@ -83,7 +83,6 @@
         "windows.ui.xaml.resources*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
         "windows.ui.xaml.shapes*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose"
       },
-      // While this repo exists on devops, and we have an intermediate -build repo, we need to specify both yml and md filepaths for automated PRs and Issues to work on GitHub.
       "author":
       {
         "windows.ai.machinelearning*.yml": "QuinnRadich",
