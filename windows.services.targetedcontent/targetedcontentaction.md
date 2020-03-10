@@ -10,7 +10,9 @@ public class TargetedContentAction
 # Windows.Services.TargetedContent.TargetedContentAction
 
 ## -description
-Represents the TargetedContentValue of the TargetedContentValueKind action.
+
+Represents the [TargetedContentValue](targetedcontentvalue.md) of the [TargetedContentValueKind](targetedcontentvaluekind.md) of type Action.
+
 ## -remarks
 
 ## -see-also
@@ -18,5 +20,6 @@ Represents the TargetedContentValue of the TargetedContentValueKind action.
 ## -examples
 
 ## -capabilities
+
 secondaryAuthenticationFactor
 targetedContent

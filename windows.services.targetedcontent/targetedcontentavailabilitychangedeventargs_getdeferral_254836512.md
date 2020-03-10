@@ -9,10 +9,9 @@ public Deferral TargetedContentAvailabilityChangedEventArgs.GetDeferral()
 
 # Windows.Services.TargetedContent.TargetedContentAvailabilityChangedEventArgs.GetDeferral
 
-
 ## -description
 
-Represents the arguments for the Availability Changed event.
+Represents the arguments for the [TargetedContentSubscription.AvailabilityChanged](targetedcontentsubscription_availabilitychanged.md) event.
 
 ## -returns
 
@@ -25,4 +24,3 @@ Represents the arguments for the Availability Changed event.
 ## -capabilities
 
 secondaryAuthenticationFactor
-

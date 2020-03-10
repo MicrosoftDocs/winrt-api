@@ -10,7 +10,9 @@ public string Id { get; }
 # Windows.Services.TargetedContent.TargetedContentCollection.Id
 
 ## -description
+
 Gets the ID of the Collection.
+
 ## -property-value
 
 ## -remarks
@@ -19,6 +21,6 @@ Gets the ID of the Collection.
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor
