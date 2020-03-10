@@ -17,6 +17,8 @@ The date on which the application package was installed or last updated.
 
 ## -remarks
 
+Note that this property will not be updated when installing updates from Visual Studio directly to a device.
+
 ## -examples
 
 ## -see-also
