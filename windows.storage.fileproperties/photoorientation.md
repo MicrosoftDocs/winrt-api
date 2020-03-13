@@ -29,13 +29,13 @@ Rotate the photo 180 degrees.
 Flip the photo vertically.
 
 ### -field Transpose:5
-Rotate the photo counter-clockwise 90 degrees and then flip it horizontally.
+Rotate the photo counter-clockwise 270 degrees and then flip it horizontally.
 
 ### -field Rotate270:6
 Rotate the photo counter-clockwise 270 degrees.
 
 ### -field Transverse:7
-Rotate the photo counter-clockwise 270 degrees and then flip it horizontally.
+Rotate the photo counter-clockwise 90 degrees and then flip it horizontally.
 
 ### -field Rotate90:8
 Rotate the photo counter-clockwise 90 degrees.
