@@ -401,4 +401,16 @@ function transferData() {
 
 ## -see-also
 
-[Reading and writing data sample](https://go.microsoft.com/fwlink/p/?linkid=231581), [StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=231543), [DataReaderLoadOperation](datareaderloadoperation.md), [DataWriter](datawriter.md), [Serializing and deserializing data sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620535), [File access sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619995), [StreamSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620609), [Custom USB device sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620530), [DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534)
+[Serializing and deserializing data sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620535)
+
+[File access sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619995)
+
+[StreamSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620609)
+
+[Custom USB device sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620530)
+
+[DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534)
+
+[DataReaderLoadOperation](datareaderloadoperation.md)
+
+[DataWriter](datawriter.md)
