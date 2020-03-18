@@ -8,20 +8,15 @@ public class HdmiDisplayMode
 -->
 
 # Windows.Graphics.Display.Core.HdmiDisplayMode
+var hasApplied = await dataHDMI.RequestSetCurrentDisplayModeAsync(selectedHdmiDisplayModes);
 
-## -description
+if (hasApplied)
+{
+   // Applied
+}
+else
+{
+   // Not applied
 
-Represents the display mode of a connected device such as a TV or a monitor. It provides info about the display capabilities of the device, such as the number of bits per pixel, colorspace, type of pixel encoding, refresh rate, and more.
 
-## -remarks
-
-### Version history
-
-| Windows version | SDK version | Value added |
-| -- | -- | -- |
-| 1809 | 17763 | IsDolbyVisionLowLatencySupported |
-
-## -see-also
-
-## -examples
 
