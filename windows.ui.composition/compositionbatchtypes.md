@@ -22,11 +22,13 @@ The batch contains animations.
 ### -field Effect:2
 The batch contains effects.
 
-
 ### -field AllAnimations:5
 
+The batch contains all animations.
 
 ### -field InfiniteAnimation:4
+
+The batch contains an infinite animation.
 
 
 ## -remarks

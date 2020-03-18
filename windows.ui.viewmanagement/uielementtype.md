@@ -37,7 +37,7 @@ The text displayed in a caption.
 
 ### -field GrayText:5
 
-Greyed text.
+Grayed text.
 
 ### -field Highlight:6
 
