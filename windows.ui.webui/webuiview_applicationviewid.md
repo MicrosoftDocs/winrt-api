@@ -12,7 +12,11 @@ public int ApplicationViewId { get; }
 
 ## -description
 
+Gets the identifier for this view.
+
 ## -property-value
+
+The identifier for this view.
 
 ## -remarks
 

@@ -17,17 +17,20 @@ Specifies the color space for interpolating color values in [ColorKeyFrameAnimat
 Use the default color space for interpolation.
 
 ### -field Hsl:1
+
 Use the HSL color space for interpolation.
 
 ### -field Rgb:2
-Use the ARGB color space for interpolation.
 
+Use the ARGB color space for interpolation.
 
 ### -field HslLinear:3
 
+Use the linear HSL color space for interpolation.
 
 ### -field RgbLinear:4
 
+Use the linear ARGB color space for interpolation.
 
 ## -remarks
 

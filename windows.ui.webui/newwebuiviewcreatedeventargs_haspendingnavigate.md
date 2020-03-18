@@ -12,7 +12,11 @@ public bool HasPendingNavigate { get; }
 
 ## -description
 
+Gets a value that indicates whether the view has a pending navigation.
+
 ## -property-value
+
+`true` if the view has a pending navigation; otherwise, `false`.
 
 ## -remarks
 
