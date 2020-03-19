@@ -12,7 +12,11 @@ public bool ExpiresOnReboot { get;  set; }
 
 ## -description
 
+Indicates whether the toast notification will remain in the Notification Center after a reboot.
+
 ## -property-value
+
+If **true**, notification will expire when the computer is rebooted.
 
 ## -remarks
 

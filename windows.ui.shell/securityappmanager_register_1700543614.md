@@ -12,16 +12,28 @@ public Guid SecurityAppManager.Register(SecurityAppKind kind, String displayName
 
 ## -description
 
+No description
+
 ## -parameters
 ### -param kind
 
+No description
+
 ### -param displayName
+
+No description
 
 ### -param detailsUri
 
+No description
+
 ### -param registerPerUser
 
+No description
+
 ## -returns
+
+No description
 
 ## -remarks
 
