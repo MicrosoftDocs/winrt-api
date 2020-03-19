@@ -42,4 +42,3 @@ The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demon
 
 ## -see-also
 [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker.pickMultipleFilesAsync method](fileopenpicker_pickmultiplefilesasync_1324933367.md)
-picker_pickmultiplefilesasync.md)

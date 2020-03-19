@@ -43,4 +43,3 @@ The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demon
 
 ## -see-also
 [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker.fileTypeFilter property](fileopenpicker_filetypefilter.md), [folderPicker.fileTypeFilter property](folderpicker_filetypefilter.md)
-olderPicker.fileTypeFilter property](folderpicker_filetypefilter.md)

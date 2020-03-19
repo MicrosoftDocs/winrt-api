@@ -18,6 +18,6 @@ Releases all system resources associated with the [PalmRejectionDelayZonePreview
 
 ## -see-also
 
-[IClosable.Close](..\windows.foundation\iclosable_close_811482585.md)
+[IClosable.Close](../windows.foundation/iclosable_close_811482585.md)
 
 ## -examples

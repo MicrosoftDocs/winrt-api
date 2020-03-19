@@ -155,5 +155,5 @@ switch (startupTask.State)
 
 ## -see-also
 
-[Startup app code sample](https://github.com/Microsoft/AppModelSamples/tree/master/Samples/TestStartup)  
+[Startup app code sample](https://github.com/Microsoft/AppModelSamples/tree/master/Samples/TestStartup),  
 [Configure your app to start at log-in](https://blogs.windows.com/buildingapps/2017/08/01/configure-app-start-log/#ezTx08j9to6Mc0uy.97)

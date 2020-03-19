@@ -32,4 +32,3 @@ The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demon
 
 ## -see-also
 [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with file pickers (HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers), [FileSavePicker.FileTypeChoices property](filesavepicker_filetypechoices.md)
-ilesavepicker_filetypechoices.md)

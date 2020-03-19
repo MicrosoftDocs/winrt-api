@@ -45,5 +45,4 @@ The following example uses the ObjectAnimationUsingKeyFrames class to animate th
 [!code-vb[Objectanimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetObjectanimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md)
-32f3a), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md)

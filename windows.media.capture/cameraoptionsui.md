@@ -26,7 +26,7 @@ The following example shows how to use this class to display the camera options.
 [!code-js[MediaCaptureVideo_UIShow](../windows.media.capture/code/MediaCaptureVideo/javascript/default.js#SnippetMediaCaptureVideo_UIShow)]
 
 ## -see-also
-[Audio, video, and camera](https://docs.microsoft.com/windows/uwp/audio-video-camera/index), [Audio, video, and camera](https://docs.microsoft.com/windows/uwp/audio-video-camera/index), [Camera capture UI sample](https://go.microsoft.com/fwlink/p/?linkid=249441), [Camera options UI sample](https://go.microsoft.com/fwlink/p/?linkid=228588 )
+[Audio, video, and camera](https://docs.microsoft.com/windows/uwp/audio-video-camera/index), [Audio, video, and camera](https://docs.microsoft.com/windows/uwp/audio-video-camera/index), [Camera capture UI sample](https://go.microsoft.com/fwlink/p/?linkid=249441), [Camera options UI sample](https://go.microsoft.com/fwlink/p/?linkid=228588)
 
 ## -capabilities
 microphone, webcam

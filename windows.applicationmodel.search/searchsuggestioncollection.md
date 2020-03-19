@@ -28,4 +28,3 @@ The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) d
 
 ## -see-also
 [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequestedEventArgs.Request property](searchpanesuggestionsrequestedeventargs_request.md), [SearchPaneSuggestionsRequest class](searchpanesuggestionsrequest.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md)
-st_searchsuggestioncollection.md)

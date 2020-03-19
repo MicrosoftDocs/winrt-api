@@ -39,4 +39,4 @@ if (Boolean(canSignOut)){
 
 
 ## -see-also
-[Windows Account Authorization sample]( http://go.microsoft.com/fwlink/p/?linkid=251224)
+[Windows Account Authorization sample](http://go.microsoft.com/fwlink/p/?linkid=251224)
