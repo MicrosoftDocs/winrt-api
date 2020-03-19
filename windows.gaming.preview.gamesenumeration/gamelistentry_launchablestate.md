@@ -14,12 +14,13 @@ This API is not available to all apps. Unless your developer account is speciall
 
 ## -property-value
 
+A [GameListEntryLaunchableState](gamelistentrylaunchablestate.md) object.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
 
 ## -capabilities
 gameList

@@ -25,8 +25,8 @@ True if the bitmap is stored successfully, False if a failure occurs.
 - Up to 100 bitmaps can be stored using this method. Attempting to store more than 100 bitmaps will result in an exception. Delete unused bitmaps using [LineDisplayStoredBitmap.TryDeleteAsync](linedisplaystoredbitmap_trydeleteasync_41251962.md).
 
 ## -see-also
-[LineDisplayStoredBitmap.EscapeSequence](LineDisplayStoredBitmap_EscapeSequence.md)
-[LineDisplayWindow.TryDisplayStoredBitmapAtCursorAsync(LineDisplayStoredBitmap)](linedisplaywindow_trydisplaystoredbitmapatcursorasync_100389007.md)
+[LineDisplayStoredBitmap.EscapeSequence](LineDisplayStoredBitmap_EscapeSequence.md),
+[LineDisplayWindow.TryDisplayStoredBitmapAtCursorAsync(LineDisplayStoredBitmap)](linedisplaywindow_trydisplaystoredbitmapatcursorasync_100389007.md),
 [LineDisplayStoredBitmap.TryDeleteAsync()](linedisplaystoredbitmap_trydeleteasync_41251962.md)
 
 ## -examples

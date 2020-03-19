@@ -12,10 +12,17 @@ public DisplayView DisplayState.GetViewForTarget(DisplayTarget target)
 
 ## -description
 
+Retrieves a [DisplayView](displayview.md) object representing the view to which the target is connected.
+
 ## -parameters
+
 ### -param target
 
+A [DisplayTarget](displaytarget.md) object.
+
 ## -returns
+
+A [DisplayView](displayview.md) object representing the view to which the target is connected.
 
 ## -remarks
 

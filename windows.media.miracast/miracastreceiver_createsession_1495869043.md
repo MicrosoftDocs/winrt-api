@@ -29,7 +29,7 @@ Because this method may block for a noticeable period of time, you should not ca
 
 ## -see-also
 
-[CoreApplicationView](..\Windows.ApplicationModel.Core\coreapplicationview.md),
+[CoreApplicationView](../Windows.ApplicationModel.Core/coreapplicationview.md),
 [CreateSessionAsync](miracastreceiver_createsessionasync_1751251082.md),
 [MiracastReceiverSession](miracastreceiversession.md)
 

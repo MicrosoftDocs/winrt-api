@@ -12,8 +12,13 @@ public void DisplayState.DisconnectTarget(DisplayTarget target)
 
 ## -description
 
+Disconnects the specified target.
+
 ## -parameters
+
 ### -param target
+
+A [DisplayTarget](displaytarget.md) object.
 
 ## -remarks
 

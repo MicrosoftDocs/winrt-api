@@ -48,4 +48,3 @@ This example creates a linear gradient with four colors and uses it to paint a *
 
 ## -see-also
 [GradientBrush](gradientbrush.md), [SolidColorBrush](solidcolorbrush.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
- XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)

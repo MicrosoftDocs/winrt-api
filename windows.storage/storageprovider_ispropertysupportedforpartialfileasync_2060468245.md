@@ -22,7 +22,7 @@ The name of the property. E.g., "System.Photo.DateTaken" or "System.Music.Artist
 ## -remarks
 
 ## -see-also
-[Windows Properties](https://docs.microsoft.com/windows/desktop/properties/props)  
+[Windows Properties](https://docs.microsoft.com/windows/desktop/properties/props),  
 [SystemProperties class](https://docs.microsoft.com/uwp/api/windows.storage.systemproperties)  
 
 ## -examples

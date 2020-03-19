@@ -15,11 +15,6 @@ public enum SceneComponentType : int
 Defines constants that specify what kind a scene component is.
 
 ## -enum-fields
-### -field None:0
-
-### -field MeshRendererComponent:1
-
-The component is a mesh renderer.
 
 ### -field MeshRendererComponent:0
 
@@ -30,6 +25,8 @@ The component is a mesh renderer.
 This enumeration is used by the [SceneComponent.ComponentType](scenecomponent_componenttype.md) property.
 
 ## -see-also
+
+[SceneComponent.ComponentType](scenecomponent_componenttype.md), [SceneNode.FindFirstComponentOfType](scenenode_findfirstcomponentoftype_1924195804.md)
 
 ## -examples
 

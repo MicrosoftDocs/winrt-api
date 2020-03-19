@@ -26,7 +26,7 @@ An asynchronous find operation. On successful completion, contains a [WebAccount
 The device token feature is intended for cases in which a service needs to connect to cloud resources before a user ever signs into the device (for example, in out-of-box experiences where there are System Center Configuration Manager (SCCM) policies that must be applied right away). Only first-party ID providers (Xbox, MSA, AAD) allow device-wide tokens; other ID providers do not.
 
 ## -see-also
-**[IsSystemProvider](../windows.security.credentials/webaccountprovider_issystemprovider.md)**
+[IsSystemProvider](../windows.security.credentials/webaccountprovider_issystemprovider.md)
 
 ## -examples
 The following is an example of this special case of device-wide token retrieval.

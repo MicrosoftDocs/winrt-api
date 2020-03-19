@@ -37,8 +37,8 @@ The Windows Runtime  **HResult** is based on the [Windows Error codes model](htt
 ## -examples
 
 ## -see-also
-[Exception handling in C# or Visual Basic](https://docs.microsoft.com/previous-versions/windows/apps/dn532194(v=win.10))  
-[Exceptions (C++/CX)](https://docs.microsoft.com/cpp/cppcx/exceptions-c-cx)  
-[JavaScript Run-time Errors](https://docs.microsoft.com/scripting/javascript/reference/javascript-run-time-errors)  
-[Application.UnhandledException](../windows.ui.xaml/application_unhandledexception.md)  
+[Exception handling in C# or Visual Basic](https://docs.microsoft.com/previous-versions/windows/apps/dn532194(v=win.10)),  
+[Exceptions (C++/CX)](https://docs.microsoft.com/cpp/cppcx/exceptions-c-cx),  
+[JavaScript Run-time Errors](https://docs.microsoft.com/scripting/javascript/reference/javascript-run-time-errors),  
+[Application.UnhandledException](../windows.ui.xaml/application_unhandledexception.md),  
 [Debug apps in Visual Studio](https://docs.microsoft.com/visualstudio/debugger/debug-store-apps-in-visual-studio?view=vs-2015)

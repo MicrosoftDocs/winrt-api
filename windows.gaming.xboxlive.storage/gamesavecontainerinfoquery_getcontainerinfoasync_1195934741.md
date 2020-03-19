@@ -27,5 +27,5 @@ After the asynchronous operation completes, check the [Status](gamesavecontainer
 
 ## -see-also
 
-[GameSaveContainerInfoQuery](gamesavecontainerinfoquery.md)
+[GameSaveContainerInfoQuery](gamesavecontainerinfoquery.md),
 [GetContainerInfoAsync(UInt32, UInt32)](gamesavecontainerinfoquery_getcontainerinfoasync_1018947810.md)
