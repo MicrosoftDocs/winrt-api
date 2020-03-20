@@ -42,5 +42,4 @@ Use [Windows.Globalization.ApplicationLanguages.Languages](https://docs.microsof
 
 ## -see-also
 
-[Embedded mode](https://developer.microsoft.com/windows/iot/docs/embeddedmode)
-[App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Embedded mode](https://developer.microsoft.com/windows/iot/docs/embeddedmode), [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)

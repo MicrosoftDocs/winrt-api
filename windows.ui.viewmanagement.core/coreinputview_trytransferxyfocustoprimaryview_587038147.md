@@ -25,7 +25,7 @@ True, if the input pane received focus; otherwise, false.
 ## -remarks
 
 ## -see-also
-[Rect](../windows.foundation/rect.md), [CoreInputViewXYFocusTransferDirection](coreinputviewxyfocustransferdirection.md) [XYFocusTransferredToPrimaryView](coreinputview_xyfocustransferredtoprimaryview.md), [XYFocusTransferringFromPrimaryView](coreinputview_xyfocustransferringfromprimaryview.md)
+[Rect](../windows.foundation/rect.md), [CoreInputViewXYFocusTransferDirection](coreinputviewxyfocustransferdirection.md), [XYFocusTransferredToPrimaryView](coreinputview_xyfocustransferredtoprimaryview.md), [XYFocusTransferringFromPrimaryView](coreinputview_xyfocustransferringfromprimaryview.md)
 
 ## -examples
 

@@ -17,7 +17,7 @@ This class implements the same computational photography algorithms as the [Adva
 
 
 ## -see-also
-[AdvancedPhotoCapture](https://docs.microsoft.com/uwp/api/windows.media.capture.advancedphotocapture)
+[AdvancedPhotoCapture](https://docs.microsoft.com/uwp/api/windows.media.capture.advancedphotocapture),
 [High dynamic range (HDR) and low-light photo capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/high-dynamic-range-hdr-photo-capture#low-light-photo-capture)
 
 ## -examples

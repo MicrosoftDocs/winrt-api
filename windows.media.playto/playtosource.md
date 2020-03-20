@@ -33,4 +33,3 @@ For an example of using the PlayToSource class, see [Streaming a slide show usin
 
 ## -see-also
 [Play To sample](https://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)
-edia Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)

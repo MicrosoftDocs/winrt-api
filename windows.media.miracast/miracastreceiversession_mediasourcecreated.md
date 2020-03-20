@@ -20,7 +20,7 @@ The app must subscribe to this event before invoking the [MiracastReceiverSessio
 
 ## -see-also
 
-[MediaSource](..\windows.media.core\mediasource.md),
+[MediaSource](../windows.media.core/mediasource.md),
 [MiracastReceiverConnection](miracastreceiverconnection.md)
 
 ## -examples

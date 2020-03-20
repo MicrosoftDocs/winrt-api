@@ -71,5 +71,4 @@ The following code example shows scenario 2 from the [Input sample](https://go.m
 [!code-vb[Scenario2Code](../windows.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
 
 ## -see-also
-[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)
-d), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)
+[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)

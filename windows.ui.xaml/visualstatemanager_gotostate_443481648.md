@@ -102,5 +102,4 @@ This example demonstrates control logic that uses the GoToState method to transi
 [!code-xaml[NUDTemplate](../windows.ui.xaml/code/NumericUpDownCustomControl/csharp/themes/Generic.xaml#SnippetNUDTemplate)]
 
 ## -see-also
-[Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [GoToStateCore](visualstatemanager_gotostatecore_681569745.md), [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute), [TemplateVisualStateAttribute](templatevisualstateattribute.md), [VisualStateGroup](visualstategroup.md), [VisualState](visualstate.md)
-d), [VisualState](visualstate.md)
+[Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [GoToStateCore](visualstatemanager_gotostatecore_681569745.md), [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute), [TemplateVisualStateAttribute](templatevisualstateattribute.md), [VisualStateGroup](visualstategroup.md), [VisualState](visualstate.md), [VisualState](visualstate.md)

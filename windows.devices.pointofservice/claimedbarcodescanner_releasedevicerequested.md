@@ -33,4 +33,3 @@ The following example shows how to setup the event handler.
 
 ## -see-also
 [Barcode scanner sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620014)
-ample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620014)
