@@ -59,4 +59,4 @@ private async void bookmarkBtn_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)
+[XAML WebView control sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/XAML%20WebView%20control%20sample), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)
