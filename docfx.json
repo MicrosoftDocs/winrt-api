@@ -280,9 +280,9 @@
         "windows.ui.xaml.resources*.yml": "Karl-Bridge-Microsoft",
         "windows.ui.xaml.resources/**/*.md": "Karl-Bridge-Microsoft",
         "windows.web*.yml": "stevewhims",
-        "windows.web/**/*.md": "stevewhims",
+        "windows.web/*.md": "stevewhims",
         "windows.web.ui*.yml": "jwmsft",
-        "windows.web.ui/**/*.md": "jwmsft"
+        "windows.web.ui/**": "jwmsft"
       },
       "ms.author":
       {
