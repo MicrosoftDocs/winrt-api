@@ -7,7 +7,7 @@
 
 ## -description
 
-Enables HTTP CRUD access to Web resources using the AtomPub protocol. The [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061) demonstrates this implementation.
+Enables HTTP CRUD access to Web resources using the AtomPub protocol. The [AtomPub sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%23%5D-Windows%208%20app%20samples/C%23/Windows%208%20app%20samples/AtomPub%20sample%20(Windows%208)) demonstrates this implementation.
 
 ## -remarks
 
