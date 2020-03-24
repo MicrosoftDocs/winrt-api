@@ -20,3 +20,4 @@ Provides a method to translate a URI to a content stream for use by the [WebView
 ## -see-also
 
 [WebView.NavigateToLocalStreamUri](../windows.ui.xaml.controls/webview_navigatetolocalstreamuri_1538250901.md), [WebView control (XAML) sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)
+
