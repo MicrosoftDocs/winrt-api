@@ -29,6 +29,8 @@ A dislike action.
 
 ### -field Conversion:11
 
+A conversion action, such as when a user becomes a paying customer.
+
 ### -field Canceled:10
 
 A cancel action.
@@ -79,3 +81,4 @@ An accept action.
 ## -capabilities
 
 secondaryAuthenticationFactor
+                        
