@@ -7,7 +7,7 @@
 
 ## -description
 
-Provides information on errors resulting from web service operations. 
+Provides information on errors resulting from web service operations.
 
 ## -remarks
 
