@@ -10,7 +10,7 @@ namespace Windows.ApplicationModel.ConversationalAgent
 
 # Windows.ApplicationModel.ConversationalAgent
 
-## -description
+## -description 
 
 Provides applications the ability to expose functionality through any digital assistant supported by the Windows platform Agent Activation Runtime (AAR).
 
