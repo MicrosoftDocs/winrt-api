@@ -10,7 +10,7 @@ public AudioDeviceInputNode ConversationalAgentSession.CreateAudioDeviceInputNod
 
 # Windows.ApplicationModel.ConversationalAgent.ConversationalAgentSession.CreateAudioDeviceInputNode
 
-## -description
+## -description 
 
 Synchronously creates an audio graph input node.
 
