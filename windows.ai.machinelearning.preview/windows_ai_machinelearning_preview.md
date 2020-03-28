@@ -9,7 +9,7 @@ namespace Windows.AI.MachineLearning.Preview
 
 # Windows.AI.MachineLearning.Preview
 
-## -description
+## -description 
 
 This namespace contains deprecated APIs. Please use [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) instead.
 
