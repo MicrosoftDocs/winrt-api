@@ -14,7 +14,7 @@ Prepares, marks, and creates the transport for use by the VPN framework as a tra
 
 ## -parameters
 ### -param transport
-An **IInspectable** object for socket transport. This object can be a [Windows.Networking.StreamSocket](../windows.networking.sockets/streamsocket.md) or a [Windows.Networking.DatagramSocket](../windows.networking.sockets/datagramsocket.md). This socket will control the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data. The socket must be unconnected at the point of the call.
+An **IInspectable** object for socket transport. This object can be a [Windows.Networking.Sockets.StreamSocket](/uwp/api/windows.networking.sockets.streamsocket) or a [Windows.Networking.DatagramSocket](../windows.networking.sockets/datagramsocket.md). This socket will control the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data. The socket must be unconnected at the point of the call.
 
 ### -param context
 The transport context object to use, for example the name of a host or server.
