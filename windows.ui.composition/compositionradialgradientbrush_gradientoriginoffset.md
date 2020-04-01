@@ -20,6 +20,8 @@ The two-dimensional coordinates of the origin of the gradient. The default is a 
 
 ## -remarks
 
+The coordinates are a ratio relative to the object being painted. The upper left corner of the object's bounding rectangle has coordinates (-0.5,-0.5), and the lower right corner has coordinates (0.5,0.5).
+
 ## -see-also
 
 ## -examples
