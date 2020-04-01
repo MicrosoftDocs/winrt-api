@@ -30,7 +30,9 @@ Here's an example.
     <rescap:Capability Name="runFullTrust"/>
   </Capabilities>
   <Applications>
-       …
+    …
+    <Application>
+      …
       <Extensions>
         <desktop:Extension Category="windows.fullTrustProcess" Executable="fulltrustprocess.exe">
           <desktop:FullTrustProcess>
