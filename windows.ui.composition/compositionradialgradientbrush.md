@@ -70,13 +70,13 @@ This example shows how to animate the color of the first gradient stop of a radi
 
 ```csharp
 private SpriteVisual GetRadialGradientVisualWithAnimation(Vector2 size,
-                                                          Vector2 gradientOrigin,
+                                                          Vector2 gradientOriginOffset,
                                                           Vector2 ellipseCenter,
                                                           Vector2 ellipseRadius)
 {
     // Create radial gradient brush.
     var gradientBrush = compositor.CreateRadialGradientBrush();
-    gradientBrush.GradientOrigin = gradientOrigin;
+    gradientBrush.GradientOriginOffset = gradientOriginOffset;
     gradientBrush.EllipseCenter = ellipseCenter;
     gradientBrush.EllipseRadius = ellipseRadius;
 
