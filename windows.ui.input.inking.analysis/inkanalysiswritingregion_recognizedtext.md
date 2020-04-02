@@ -10,7 +10,10 @@ public string RecognizedText { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisWritingRegion.RecognizedText
 
 ## -description
-Gets the recognized text associated with the InkAnalysisWritingRegion object.  
+
+Gets the recognized text associated with the InkAnalysisWritingRegion object.
+
+## -property-value
 
 ## -remarks
 
