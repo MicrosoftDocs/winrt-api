@@ -10,7 +10,10 @@ public uint Id { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisNode.Id
 
 ## -description
-Gets the unique identifier of the InkAnalysisNode object. 
+
+Gets the unique identifier of the InkAnalysisNode object.
+
+## -property-value
 
 ## -remarks
 

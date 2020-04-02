@@ -10,7 +10,10 @@ public uint Id { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisParagraph.Id
 
 ## -description
-Gets the unique identifier of the InkAnalysisParagraph object. 
+
+Gets the unique identifier of the InkAnalysisParagraph object.
+
+## -property-value
 
 ## -remarks
 

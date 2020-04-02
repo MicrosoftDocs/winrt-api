@@ -10,7 +10,10 @@ public IInkAnalysisNode Parent { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisRoot.Parent
 
 ## -description
-Gets the parent node of the InkAnalysisRoot object.  
+
+Gets the parent node of the InkAnalysisRoot object.
+
+## -property-value
 
 ## -remarks
 
