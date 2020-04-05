@@ -16,7 +16,7 @@ Gets or sets a value that indicates whether the current item has child items tha
 
 ## -property-value
 
-**true** of the current item has child items that haven't been shown; otherwise, **false**.
+**true** if the current item has child items that haven't been shown; otherwise, **false**.
 
 ## -remarks
 
