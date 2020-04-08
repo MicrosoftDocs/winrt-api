@@ -9,4 +9,5 @@ _themes*/
 
 *.sdf
 *.ipch
+.favorites.json
 mwgendiff.config
