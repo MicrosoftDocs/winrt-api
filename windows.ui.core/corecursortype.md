@@ -16,6 +16,7 @@ Specifies the set of cursor types.
 ## -enum-fields
 
 ### -field Arrow:0
+
 ![arrow cursor](./images/cursors/arrow-cursor.png)
 
 The left-upward (northwest) arrow Windows cursor.
