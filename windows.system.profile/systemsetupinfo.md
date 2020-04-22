@@ -28,7 +28,7 @@ private bool ShouldUseSimpleUserInterface()
 
     // When this UWP is shown before OOBE is complete, use a simplified UI
     // with limited options, which matches the style of the rest of OOBE.
-    return (oobeState != OutOfBoxExperienceState.Completed);
+    return (oobeState != SystemOutOfBoxExperienceState.Completed);
 }
 ```
 
