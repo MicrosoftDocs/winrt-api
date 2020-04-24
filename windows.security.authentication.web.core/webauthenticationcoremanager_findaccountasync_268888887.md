@@ -27,4 +27,4 @@ An asynchronous find operation. On successful completion, contains a [WebAccount
 ## -examples
 
 ## -see-also
-[Web account management code sample](https://go.microsoft.com/fwlink/p/?LinkId=620621)
+[Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement)

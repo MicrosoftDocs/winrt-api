@@ -19,7 +19,7 @@ The classes included in this namespace enable you to:
 
 For more info on the MIDI specification see [MIDI Manufacturers Association](https://www.midi.org/).
 
-See the [MIDI  sample](https://go.microsoft.com/fwlink/p/?LinkID=394281) for an example of how to use these classes.
+See the [MIDI  sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MIDI) for an example of how to use these classes.
 
 ## -remarks
 
@@ -27,4 +27,4 @@ See the [MIDI  sample](https://go.microsoft.com/fwlink/p/?LinkID=394281) for an 
 
 ## -see-also
 
-[MIDI sample](https://go.microsoft.com/fwlink/p/?LinkID=394281)
+[MIDI sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MIDI)

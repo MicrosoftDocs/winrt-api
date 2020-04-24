@@ -45,4 +45,4 @@ It also shows code for capturing the pointer initially, and a pattern for tracki
 
 ## -see-also
 
-[Windows.UI.Xaml.UIElement.ReleasePointerCaptures](uielement_releasepointercaptures_190109337.md), [CapturePointer](uielement_capturepointer_916768934.md), [PointerReleased](uielement_pointerreleased.md), [PointerCaptureLost](uielement_pointercapturelost.md), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
+[Windows.UI.Xaml.UIElement.ReleasePointerCaptures](uielement_releasepointercaptures_190109337.md), [CapturePointer](uielement_capturepointer_916768934.md), [PointerReleased](uielement_pointerreleased.md), [PointerCaptureLost](uielement_pointercapturelost.md), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [Input sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)

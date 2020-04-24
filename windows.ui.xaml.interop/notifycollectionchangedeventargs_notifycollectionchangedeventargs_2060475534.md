@@ -36,4 +36,4 @@ Other than *action*, any of the values for this constructor can potentially be p
 ## -examples
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind)

@@ -39,4 +39,4 @@ This XAML example uses a **Path** with a [GeometryGroup](../windows.ui.xaml.medi
 
 
 ## -see-also
-[Shape](shape.md), [Data](path_data.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes), [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax), [Windows.UI.Xaml.Media namespace](../windows.ui.xaml.media/windows_ui_xaml_media.md)
+[Shape](shape.md), [Data](path_data.md), [XAML vector-based drawing sample](http://code.msdn.microsoft.com/windowsapps/Drawing-bfc39296), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes), [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax), [Windows.UI.Xaml.Media namespace](../windows.ui.xaml.media/windows_ui_xaml_media.md)

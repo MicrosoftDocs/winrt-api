@@ -118,7 +118,7 @@ This table shows the built-in transport controls with their associated propertie
 
 There are no properties to hide, show, enable, or disable the play/pause button, closed caption button, audio track selection button, or the cast button. The play/pause and cast buttons are always visible and enabled. The closed caption button is visible whenever closed caption tracks are available, and the audio track selection button is visible whenever multiple audio tracks are available.
 
-To remove these buttons, or to add custom buttons, you must re-template the MediaTransportControls. If you re-template the control, you can also specify the order in which buttons drop out at different screen sizes. For more info, see [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls) and the [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409).
+To remove these buttons, or to add custom buttons, you must re-template the MediaTransportControls. If you re-template the control, you can also specify the order in which buttons drop out at different screen sizes. For more info, see [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls) and the [Media transport controls sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCustomMediaTransportControls?amp;amp;clcid=0x409).
 
 Here's how to configure transport control buttons in XAML. In this example, the aspect ratio button is hidden and disabled, and the playback rate button is shown and enabled.
 
@@ -210,4 +210,4 @@ In the compact mode, the [Slider](slider.md) and [CommandBar](commandbar.md) are
 
 ## -see-also
 
-[Control](control.md), [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls), [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Media transport controls sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620023)
+[Control](control.md), [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls), [Media transport controls sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCustomMediaTransportControls?amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Media transport controls sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620023)

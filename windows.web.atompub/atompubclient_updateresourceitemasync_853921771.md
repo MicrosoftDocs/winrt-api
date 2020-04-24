@@ -24,4 +24,4 @@ The object that is used to update the resource asynchronously and to report the 
 ## -examples
 
 ## -see-also
-[Quickstart: Managing Feed Entries](https://docs.microsoft.com/previous-versions/windows/apps/hh700368(v=win.10)), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061)
+[Quickstart: Managing Feed Entries](https://docs.microsoft.com/previous-versions/windows/apps/hh700368(v=win.10)), [AtomPub sample](http://code.msdn.microsoft.com/windowsapps/AtomPub-sample-c1fcdc8e)

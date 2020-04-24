@@ -17,7 +17,7 @@ For info about how to manage appointments, see [Managing appointments](https://d
 
 ## -see-also
 
-[Appointments API sample](https://go.microsoft.com/fwlink/p/?linkid=309836), [Appointment calendar sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620488)
+[Appointments API sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Appointments), [Appointment calendar sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620488)
 
 ## -capabilities
 

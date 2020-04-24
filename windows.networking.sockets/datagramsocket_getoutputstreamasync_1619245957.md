@@ -56,7 +56,7 @@ The GetOutputStreamAsync methods also differ from the [ConnectAsync](datagramsoc
 ## -examples
 
 ## -see-also
-[HostName](../windows.networking/hostname.md), [GetOutputStreamAsync(EndpointPair)](datagramsocket_getoutputstreamasync_228240991.md), [IOutputStream](../windows.storage.streams/ioutputstream.md), [DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534)
+[HostName](../windows.networking/hostname.md), [GetOutputStreamAsync(EndpointPair)](datagramsocket_getoutputstreamasync_228240991.md), [IOutputStream](../windows.storage.streams/ioutputstream.md), [DatagramSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

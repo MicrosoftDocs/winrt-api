@@ -43,4 +43,4 @@ There are a few scenarios for XAML-composed visual content that you can't captur
 ## -examples
 
 ## -see-also
-[RenderAsync(UIElement, Int32, Int32)](rendertargetbitmap_renderasync_806843678.md), [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153)
+[RenderAsync(UIElement, Int32, Int32)](rendertargetbitmap_renderasync_806843678.md), [XAML render to bitmap sample](http://code.msdn.microsoft.com/windowsapps/XAML-render-to-bitmap-dd4f549f)

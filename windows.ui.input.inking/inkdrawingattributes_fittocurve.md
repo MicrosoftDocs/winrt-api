@@ -32,7 +32,7 @@ inkManager.setDefaultDrawingAttributes(drawingAttributes);
 
 ```
 
-For the complete example, see [Ink App sample](https://go.microsoft.com/fwlink/p/?linkid=231622).
+For the complete example, see [Ink App sample](http://code.msdn.microsoft.com/windowsapps/Ink-App-sample-61abaec3).
 
 ## -see-also
 

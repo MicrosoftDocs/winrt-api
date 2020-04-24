@@ -26,4 +26,4 @@ You can use the [GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134
 ## -examples
 
 ## -see-also
-[FromIdAsync(String, WiFiDirectConnectionParameters)](wifidirectdevice_fromidasync_1400638850.md), [GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134.md), [WiFiDirectDevice sample](https://go.microsoft.com/fwlink/p/?LinkID=301419)
+[FromIdAsync(String, WiFiDirectConnectionParameters)](wifidirectdevice_fromidasync_1400638850.md), [GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134.md), [WiFiDirectDevice sample](http://code.msdn.microsoft.com/windowsapps/WiFiDirectDevice-sample-59a6e5e0)

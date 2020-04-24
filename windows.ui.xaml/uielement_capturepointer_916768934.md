@@ -52,5 +52,5 @@ This example shows calling CapturePointer based on handling [PointerPressed](uie
 [!code-vb[Scenario2Code](../windows.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
 
 ## -see-also
-[Pointer](../windows.ui.xaml.input/pointer.md), [ReleasePointerCapture](uielement_releasepointercapture_962192786.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
+[Pointer](../windows.ui.xaml.input/pointer.md), [ReleasePointerCapture](uielement_releasepointercapture_962192786.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [Input sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)
 soft.com/fwlink/p/?linkid=226855)

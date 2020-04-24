@@ -31,7 +31,7 @@ There is not currently a "MoveAsync" or similar method. One simple implementatio
 
 ## -see-also
 
-[StorageFile](storagefile.md), [Folder enumeration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619993), [Content indexer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer), [File access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess), [File search sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileSearch)
+[StorageFile](storagefile.md), [Folder enumeration sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration), [Content indexer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer), [File access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess), [File search sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileSearch)
 
 ## -capabilities
 

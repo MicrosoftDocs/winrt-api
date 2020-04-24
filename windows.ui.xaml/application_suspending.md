@@ -27,7 +27,7 @@ If your app is terminated, you can restore the app state in an [OnLaunched](appl
 The Suspending event runs in the same apartment it was registered in.
 
 ## -examples
-This code example demonstrates a typical usage pattern for this event. This code is used by many of the XAML samples, for example the [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855), as part of the code-behind for the app.xaml file. If you browse the XAML samples, you can find the source code for the `SuspensionManager` class API as referenced in this code.
+This code example demonstrates a typical usage pattern for this event. This code is used by many of the XAML samples, for example the [Input sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b), as part of the code-behind for the app.xaml file. If you browse the XAML samples, you can find the source code for the `SuspensionManager` class API as referenced in this code.
 
 ```csharp
 async protected void OnSuspending(object sender, SuspendingEventArgs args)

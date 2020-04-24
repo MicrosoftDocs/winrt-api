@@ -37,4 +37,4 @@ This example shows how you can access and modify a transform in code at runtime.
 
 
 ## -see-also
-[Transform](transform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580)
+[Transform](transform.md), [XAML two-dimensional transforms sample](http://code.msdn.microsoft.com/windowsapps/transforms-95647b6f)

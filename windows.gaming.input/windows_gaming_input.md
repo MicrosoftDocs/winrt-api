@@ -20,4 +20,4 @@ A Windows application must have focus to receive input from an Xbox One Controll
 
 ## -see-also
 
-[Direct3D game sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620598), [DirectX and XAML game sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620599)
+[Direct3D game sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Simple3DGameDX), [DirectX and XAML game sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620599)

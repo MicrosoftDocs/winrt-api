@@ -25,7 +25,7 @@ The RenderTargetBitmap  API you'll use the most often is [RenderAsync](rendertar
 
 A RenderTargetBitmap object isn't typically declared in a XAML UI, because you need to call [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) in code before you have a useful, image-populated instance of RenderTargetBitmap for UI display purposes.
 
-For more code examples of using RenderTargetBitmap, see [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153).
+For more code examples of using RenderTargetBitmap, see [XAML render to bitmap sample](http://code.msdn.microsoft.com/windowsapps/XAML-render-to-bitmap-dd4f549f).
 
 The contents of a RenderTargetBitmap can be lost in rare cases because of interaction with other lower-level systems, for example if the video driver is reset as part of a recovery (see [Timeout Detection and Recovery (TDR)](XREF:TODO:display.timeout_detection_and_recovery)). If that happens, the [CompositionTarget.SurfaceContentsLost](../windows.ui.xaml.media/compositiontarget_surfacecontentslost.md) event will fire. To account for this case and similar info-loss cases, apps should listen for the [CompositionTarget.SurfaceContentsLost](../windows.ui.xaml.media/compositiontarget_surfacecontentslost.md) event and re-render the contents of a RenderTargetBitmap by calling [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) again.
 
@@ -42,7 +42,7 @@ There are a few scenarios for XAML-composed visual content that you can't captur
 + Content that's in the XAML visual tree but offscreen can be captured, so long as it's not [Visibility](../windows.ui.xaml/uielement_visibility.md) = **Collapsed**.
 
 ## -examples
-This basic code outline is adapted from the first scenario XAML and code of the [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153). Note how all the code, even the constructor, is within an **async** method. Here it's an event handler for a button that a user clicks to initiate the rendering request.
+This basic code outline is adapted from the first scenario XAML and code of the [XAML render to bitmap sample](http://code.msdn.microsoft.com/windowsapps/XAML-render-to-bitmap-dd4f549f). Note how all the code, even the constructor, is within an **async** method. Here it's an event handler for a button that a user clicks to initiate the rendering request.
 
 ```xaml
 <StackPanel> 
@@ -70,4 +70,4 @@ private async void SaveImageSource_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[ImageSource](../windows.ui.xaml.media/imagesource.md), [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md)
+[ImageSource](../windows.ui.xaml.media/imagesource.md), [XAML render to bitmap sample](http://code.msdn.microsoft.com/windowsapps/XAML-render-to-bitmap-dd4f549f), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md)

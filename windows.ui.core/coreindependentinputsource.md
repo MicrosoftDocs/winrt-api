@@ -98,7 +98,7 @@ auto workItemHandler = ref new WorkItemHandler([this] (IAsyncAction ^)
 m_inputLoopWorker = ThreadPool::RunAsync(workItemHandler, WorkItemPriority::High, WorkItemOptions::TimeSliced);
 ```
 
-For more example code of how to use [CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md) and CoreIndependentInputSource, see the `DrawingPanel` class definition that is part of the [XAML SwapChainPanel DirectX interop sample](https://go.microsoft.com/fwlink/p/?LinkID=309155).
+For more example code of how to use [CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md) and CoreIndependentInputSource, see the `DrawingPanel` class definition that is part of the [XAML SwapChainPanel DirectX interop sample](http://code.msdn.microsoft.com/windowsapps/XAML-SwapChainPanel-00cb688b).
 
 ## -see-also
 [ICoreInputSourceBase](icoreinputsourcebase.md), [ICorePointerInputSource](icorepointerinputsource.md), [SwapChainPanel](../windows.ui.xaml.controls/swapchainpanel.md), [Threading and async programming](https://docs.microsoft.com/windows/uwp/threading-async/index)

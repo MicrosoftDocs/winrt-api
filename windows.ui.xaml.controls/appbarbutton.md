@@ -228,4 +228,4 @@ private void PlayPauseButton_Click(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[AppBar](appbar.md), [CommandBar](commandbar.md), [Commanding sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620019), [AppBarButton styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML AppBar control sample (Windows 8)](https://go.microsoft.com/fwlink/p/?LinkID=242388)
+[AppBar](appbar.md), [CommandBar](commandbar.md), [Commanding sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCommanding), [AppBarButton styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML AppBar control sample (Windows 8)](https://go.microsoft.com/fwlink/p/?LinkID=242388)

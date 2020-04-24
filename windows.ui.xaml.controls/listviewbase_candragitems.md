@@ -35,4 +35,4 @@ CanDragItems does not reflect transient states that might influence the ability 
 ## -examples
 
 ## -see-also
-[AllowDrop](../windows.ui.xaml/uielement_allowdrop.md), [CanReorderItems](listviewbase_canreorderitems.md), [Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)
+[AllowDrop](../windows.ui.xaml/uielement_allowdrop.md), [CanReorderItems](listviewbase_canreorderitems.md), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

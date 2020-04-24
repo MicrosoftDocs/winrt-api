@@ -21,4 +21,4 @@ For a Windows 8.x sample application showing how mail clients can retrieve devic
 
 ## -see-also
 
-[EAS policies for mail clients Windows 8.x sample](https://code.msdn.microsoft.com/windowsapps/Web-authentication-for-b9b8ed1a), [Client Device Information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620540)
+[EAS policies for mail clients Windows 8.x sample](https://code.msdn.microsoft.com/windowsapps/Web-authentication-for-b9b8ed1a), [Client Device Information sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ClientDeviceInformation)

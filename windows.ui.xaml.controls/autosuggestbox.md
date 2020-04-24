@@ -159,7 +159,7 @@ This table shows the resources used by the AutoSuggestBox control. Resources tha
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-To see a complete working example of AutoSuggestBox, see the [AutoSuggestBox migration sample](https://go.microsoft.com/fwlink/p/?LinkId=619996&amp;amp;clcid=0x409).
+To see a complete working example of AutoSuggestBox, see the [AutoSuggestBox migration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox?amp;amp;clcid=0x409).
 
 Here is a simple AutoSuggestBox with the required event handlers.
 
@@ -206,4 +206,4 @@ private void AutoSuggestBox_QuerySubmitted(AutoSuggestBox sender, AutoSuggestBox
 
 
 ## -see-also
-[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [AutoSuggestBox styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [AutoSuggestBox migration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619996), [Guidelines for auto-suggest boxes](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/auto-suggest-box), [Search and find-in-page](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/search)
+[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [AutoSuggestBox styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [AutoSuggestBox migration sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox), [Guidelines for auto-suggest boxes](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/auto-suggest-box), [Search and find-in-page](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/search)

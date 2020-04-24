@@ -26,4 +26,4 @@ If Kind is **CameraSettings**, the app should open using a flyout. If Kind is **
 ## -examples
 
 ## -see-also
-[Microsoft Store device app for camera sample](https://go.microsoft.com/fwlink/p/?LinkID=249442), [Developing  device apps for cameras](https://go.microsoft.com/fwlink/p/?LinkId=226802)
+[Microsoft Store device app for camera sample](https://code.msdn.microsoft.com/windowsapps/Windows-Store-device-app-10bf3e5e), [Developing  device apps for cameras](https://go.microsoft.com/fwlink/p/?LinkId=226802)

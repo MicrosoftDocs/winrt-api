@@ -27,7 +27,7 @@ A FileExtensionVector is enumerable, so you can use language-specific syntax suc
 <!--End NET note for IEnumerable support-->
 
 ## -examples
-The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to specify the file types that the user can see and pick from in the file picker.
+The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how to specify the file types that the user can see and pick from in the file picker.
 
 
 
@@ -42,4 +42,4 @@ The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demon
 [!code-js[all_openpicker_displayAllTypes](../windows.storage.pickers/code/FilePicker/js/js/scenario2.js#Snippetall_openpicker_displayAllTypes)]
 
 ## -see-also
-[File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890), [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker.fileTypeFilter property](fileopenpicker_filetypefilter.md), [folderPicker.fileTypeFilter property](folderpicker_filetypefilter.md)
+[File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba), [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker.fileTypeFilter property](fileopenpicker_filetypefilter.md), [folderPicker.fileTypeFilter property](folderpicker_filetypefilter.md)

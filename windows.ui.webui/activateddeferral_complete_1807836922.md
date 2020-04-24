@@ -17,4 +17,4 @@ Notifies the system that the app has set up its state and initial UI and is read
 ## -examples
 
 ## -see-also
-[App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle), [ActivatedOperation.getDeferral](activatedoperation_getdeferral_254836512.md), [App activated, resume, and suspend using the WRL sample](https://go.microsoft.com/fwlink/p/?linkid=226722)
+[App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle), [ActivatedOperation.getDeferral](activatedoperation_getdeferral_254836512.md), [App activated, resume, and suspend using the WRL sample](http://code.msdn.microsoft.com/windowsapps/App-activating-and-ec15b168)

@@ -21,7 +21,7 @@ Learn more about responding to update requests in [FileUpdateRequested](cachedfi
 If your app can't complete the update before returning from its [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event handler, you can use the [GetDeferral](fileupdaterequest_getdeferral_254836512.md) property to finish the update asynchronously.
 
 ## -examples
-The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event, including how to use [Request](fileupdaterequestedeventargs_request.md) to get the FileUpdateRequest.
+The [File picker contracts sample](http://code.msdn.microsoft.com/windowsapps/File-picker-app-extension-0cb95155) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event, including how to use [Request](fileupdaterequestedeventargs_request.md) to get the FileUpdateRequest.
 
 ```csharp
 

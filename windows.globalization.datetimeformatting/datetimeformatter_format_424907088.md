@@ -21,7 +21,7 @@ The [DateTime](../windows.foundation/datetime.md) to be formatted.
 
 ### -param timeZoneId
 
-An identifier from the [IANA Time Zone Database](https://go.microsoft.com/fwlink/p/?LinkId=302107) that identifies the time zone to use (for example, "Americas/Los_Angeles" for Pacific Time).
+An identifier from the [IANA Time Zone Database](http://www.iana.org/time-zones) that identifies the time zone to use (for example, "Americas/Los_Angeles" for Pacific Time).
 
 ## -returns
 
@@ -36,4 +36,4 @@ A string that represents the date, time, and time zone.
 
 ## -see-also
 
-[Date and time formatting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624044)
+[Date and time formatting sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)

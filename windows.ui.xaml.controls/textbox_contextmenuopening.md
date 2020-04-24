@@ -27,4 +27,4 @@ To override or add commands to the context menu, you can handle the ContextMenuO
 
 ## -see-also
 
-[ContextMenuOpeningEventHandler](contextmenuopeningeventhandler.md), [Guidelines for context menus](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/index), [ContextMenu sample](https://go.microsoft.com/fwlink/p/?linkid=234891)
+[ContextMenuOpeningEventHandler](contextmenuopeningeventhandler.md), [Guidelines for context menus](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/index), [ContextMenu sample](http://code.msdn.microsoft.com/windowsapps/Context-menu-sample-40840351)

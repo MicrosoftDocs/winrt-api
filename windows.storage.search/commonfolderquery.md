@@ -116,4 +116,4 @@ Files that don't have a value for the property that the query uses to group file
 
 ## -see-also
 
-[queryOptions class](queryoptions_queryoptions_1209951623.md), [Windows.Storage.storageFolder class](../windows.storage/storagefolder.md), [Folder enumeration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619993)
+[queryOptions class](queryoptions_queryoptions_1209951623.md), [Windows.Storage.storageFolder class](../windows.storage/storagefolder.md), [Folder enumeration sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration)

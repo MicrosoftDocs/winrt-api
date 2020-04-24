@@ -38,4 +38,4 @@ The differences between these two modes are:
 
 ## -see-also
 
-[LoggingSession](loggingsession.md), [FileLoggingSession](fileloggingsession.md), [ILoggingChannel](iloggingchannel.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620565)
+[LoggingSession](loggingsession.md), [FileLoggingSession](fileloggingsession.md), [ILoggingChannel](iloggingchannel.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Logging)

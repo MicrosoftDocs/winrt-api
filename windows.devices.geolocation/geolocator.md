@@ -62,7 +62,7 @@ switch (accessStatus)
 
 ## -see-also
 
-[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [geolocation sample](https://go.microsoft.com/fwlink/p/?linkid=533278), [Geotag sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620547)
+[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation), [Geotag sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620547)
 
 ## -capabilities
 

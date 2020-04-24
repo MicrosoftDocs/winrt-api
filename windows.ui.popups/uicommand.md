@@ -18,4 +18,4 @@ Use the [PopupMenu.Commands](popupmenu_commands.md) property to add or modify th
 ## -examples
 
 ## -see-also
-[Adding context menus](https://docs.microsoft.com/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://go.microsoft.com/fwlink/p/?linkid=234891), [Guidelines and checklist for ](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/index), [PopupMenu.Commands](popupmenu_commands.md), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525)
+[Adding context menus](https://docs.microsoft.com/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](http://code.msdn.microsoft.com/windowsapps/Context-menu-sample-40840351), [Guidelines and checklist for ](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/index), [PopupMenu.Commands](popupmenu_commands.md), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525)

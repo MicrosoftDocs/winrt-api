@@ -18,7 +18,7 @@ The object that provides splash screen information.
 ## -remarks
 
 ## -examples
-The [Splash screen sample](https://go.microsoft.com/fwlink/p/?linkid=234889) demonstrates how to retrieve a [splashScreen](../windows.applicationmodel.activation/splashscreen.md) object in its [activated](webuiapplication_activated.md) event handler, if the app was launched:
+The [Splash screen sample](http://code.msdn.microsoft.com/windowsapps/Splash-screen-sample-89c1dc78) demonstrates how to retrieve a [splashScreen](../windows.applicationmodel.activation/splashscreen.md) object in its [activated](webuiapplication_activated.md) event handler, if the app was launched:
 
 ```javascript
 

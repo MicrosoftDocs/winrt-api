@@ -37,4 +37,4 @@ The API supports the *Atom 0.3* format.
 ## -examples
 
 ## -see-also
-[Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062)
+[Syndication sample](http://code.msdn.microsoft.com/windowsapps/Syndication-sample-07ef6b0d)

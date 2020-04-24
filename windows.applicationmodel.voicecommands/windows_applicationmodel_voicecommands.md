@@ -18,4 +18,4 @@ A Voice Command Definition (VCD) file must be registered by the app to enable vo
 ## -examples
 
 ## -see-also
-[Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index), [ elements and attributes v1.2](https://docs.microsoft.com/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2), [Cortana design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/cortana-design-guidelines), [Cortana voice command sample](https://go.microsoft.com/fwlink/p/?LinkID=619899)
+[Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index), [ elements and attributes v1.2](https://docs.microsoft.com/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2), [Cortana design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/cortana-design-guidelines), [Cortana voice command sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CortanaVoiceCommand)

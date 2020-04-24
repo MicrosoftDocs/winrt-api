@@ -57,4 +57,4 @@ Windows.ApplicationModel.Search.SearchPane.getForCurrentView().onquerysubmitted 
 
 
 ## -see-also
-[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane class](searchpane.md), [SearchPane.QueryChanged event](searchpane_querychanged.md), [SearchPaneQuerySubmittedEventArgs class](searchpanequerysubmittedeventargs.md)
+[Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5), [SearchPane class](searchpane.md), [SearchPane.QueryChanged event](searchpane_querychanged.md), [SearchPaneQuerySubmittedEventArgs class](searchpanequerysubmittedeventargs.md)

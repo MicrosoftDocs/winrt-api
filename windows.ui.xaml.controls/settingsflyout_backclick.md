@@ -38,7 +38,7 @@ void AccountSettingsFlyout_BackClick(object sender, BackClickEventArgs e)
 }
 ```
 
-For more code in context, see Scenario 5 of the [App settings sample](https://go.microsoft.com/fwlink/p/?LinkID=310073).
+For more code in context, see Scenario 5 of the [App settings sample](http://code.msdn.microsoft.com/windowsapps/App-settings-sample-1f762f49).
 
 ## -see-also
 [BackClickEventArgs](backclickeventargs.md)

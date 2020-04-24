@@ -44,4 +44,4 @@ secondaryTileVisualElements.backgroundColor = Windows.UI.Colors.magenta;
 ```
 
 ## -see-also
-[Secondary tiles sample](https://go.microsoft.com/fwlink/p/?linkid=231487)
+[Secondary tiles sample](http://code.msdn.microsoft.com/windowsapps/secondary-tiles-sample-edf2a178)

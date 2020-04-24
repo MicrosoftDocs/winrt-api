@@ -34,7 +34,7 @@ A StreamWebSocketInformation object is automatically created with the parent [St
 [StreamWebSocket](streamwebsocket.md),
 [StreamWebSocket.Information](streamwebsocket_information.md),
 [StreamWebSocketControl](streamwebsocketcontrol.md),
-[ControlChannelTrigger StreamWebSocket sample](https://go.microsoft.com/fwlink/p/?linkid=251232),
+[ControlChannelTrigger StreamWebSocket sample](http://code.msdn.microsoft.com/windowsapps/ControlChannelTrigger-91f6bed8),
 [WebSockets](/windows/uwp/networking/websockets?branch=live)
 
 ## -capabilities

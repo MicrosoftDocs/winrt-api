@@ -19,7 +19,7 @@ This class can be used in UWP app and Windows Phone 8.x app. However, a **Device
 > [!IMPORTANT]
 > This trigger cannot be used with single-process background tasks.
 
-For a sample that shows how to use **DeviceUseTrigger** on a PC, see the [Custom USB device sample](https://go.microsoft.com/fwlink/p/?LinkId=301975 ). For a phone sample, see the [Background Sensors sample](https://go.microsoft.com/fwlink/p/?LinkId=393307).
+For a sample that shows how to use **DeviceUseTrigger** on a PC, see the [Custom USB device sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomUsbDeviceAccess). For a phone sample, see the [Background Sensors sample](https://go.microsoft.com/fwlink/p/?LinkId=393307).
 
 ## -remarks
 For more about policy requirements, see [Accessing sensors and devices from a background task](https://docs.microsoft.com/previous-versions/windows/apps/dn630194(v=win.10))

@@ -20,4 +20,4 @@ The identifier for the [ItemsPath](collectionviewsource_itemspath.md) dependency
 ## -examples
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

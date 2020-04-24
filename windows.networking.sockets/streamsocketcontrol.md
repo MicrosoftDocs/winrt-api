@@ -93,7 +93,7 @@ For more information on using StreamSocketControl, see [How to use advanced sock
 ## -examples
 
 ## -see-also
-[Connecting with sockets ](https://docs.microsoft.com/previous-versions/windows/apps/hh452977(v=win.10)), [Connecting with sockets ](https://docs.microsoft.com/previous-versions/windows/apps/hh452976(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocket](streamsocket.md), [StreamSocket.Control](streamsocket_control.md), [StreamSocketInformation](datagramsocketinformation.md), [ControlChannelTrigger StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243039), [StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243037)
+[Connecting with sockets ](https://docs.microsoft.com/previous-versions/windows/apps/hh452977(v=win.10)), [Connecting with sockets ](https://docs.microsoft.com/previous-versions/windows/apps/hh452976(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocket](streamsocket.md), [StreamSocket.Control](streamsocket_control.md), [StreamSocketInformation](datagramsocketinformation.md), [ControlChannelTrigger StreamSocket sample](http://code.msdn.microsoft.com/windowsapps/ControlChannelTrigger-TCP-20c56711), [StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243037)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone], bluetooth.rfcomm

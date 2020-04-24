@@ -139,4 +139,4 @@ localSettings.Values.Remove("exampleSetting")
 ```
 
 ## -see-also
-[Quickstart: Local application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data), [Content indexer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620524)
+[Quickstart: Local application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data), [Content indexer sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer)

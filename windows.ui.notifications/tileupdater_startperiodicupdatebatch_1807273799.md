@@ -67,9 +67,9 @@ For periodic notifications, the expiration time is set in the X-WNS-Expires head
 + Sun Nov 6 08:49:37 1994
 
 
-For more information on the HTTP-date format, see the World Wide Web Consortium (W3C) [3 Protocol Parameters](https://go.microsoft.com/fwlink/p/?linkid=133333) document.
+For more information on the HTTP-date format, see the World Wide Web Consortium (W3C) [3 Protocol Parameters](http://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html) document.
 
-For an example of a full implementation of periodic notifications used in conjunction with the notification queue, see Scenario 3 in the [Push and periodic notifications sample](https://go.microsoft.com/fwlink/p/?linkid=231476).
+For an example of a full implementation of periodic notifications used in conjunction with the notification queue, see Scenario 3 in the [Push and periodic notifications sample](http://code.msdn.microsoft.com/windowsapps/push-and-periodic-de225603).
 
 ## -examples
 

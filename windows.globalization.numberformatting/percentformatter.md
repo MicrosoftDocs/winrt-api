@@ -122,4 +122,4 @@ sb.AppendLine("Percent formatted (always with a decimal point): " + defaultPerce
 
 ## -see-also
 
-[Number formatting and parsing sample](https://go.microsoft.com/fwlink/p/?linkid=231620), [INumberFormatterOptions](inumberformatteroptions.md), [INumberFormatter](inumberformatter.md), [INumberFormatter2](inumberformatter2.md), [INumberParser](inumberparser.md), [ISignificantDigitsOption](isignificantdigitsoption.md), [INumberRounderOption](inumberrounderoption.md), [Number formatting and parsing sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620578)
+[Number formatting and parsing sample](http://code.msdn.microsoft.com/windowsapps/Number-formatting-and-bb10ba3d), [INumberFormatterOptions](inumberformatteroptions.md), [INumberFormatter](inumberformatter.md), [INumberFormatter2](inumberformatter2.md), [INumberParser](inumberparser.md), [ISignificantDigitsOption](isignificantdigitsoption.md), [INumberRounderOption](inumberrounderoption.md), [Number formatting and parsing sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620578)

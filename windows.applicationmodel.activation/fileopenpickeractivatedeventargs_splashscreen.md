@@ -20,4 +20,4 @@ The object that provides splash screen information.
 ## -examples
 
 ## -see-also
-[FileOpenPickerActivatedEventArgs class](fileopenpickeractivatedeventargs.md), [SplashScreen class](splashscreen.md), [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536)
+[FileOpenPickerActivatedEventArgs class](fileopenpickeractivatedeventargs.md), [SplashScreen class](splashscreen.md), [File picker contracts sample](http://code.msdn.microsoft.com/windowsapps/File-picker-app-extension-0cb95155)

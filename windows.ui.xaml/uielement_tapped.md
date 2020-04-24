@@ -59,4 +59,4 @@ These controls do not raise the **Tapped** event:
 
 ## -see-also
 
-[TappedRoutedEventArgs](../windows.ui.xaml.input/tappedroutedeventargs.md), [IsTapEnabled](uielement_istapenabled.md), [PointerPressed](uielement_pointerpressed.md), [DoubleTapped](uielement_doubletapped.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
+[TappedRoutedEventArgs](../windows.ui.xaml.input/tappedroutedeventargs.md), [IsTapEnabled](uielement_istapenabled.md), [PointerPressed](uielement_pointerpressed.md), [DoubleTapped](uielement_doubletapped.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)

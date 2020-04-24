@@ -28,4 +28,4 @@ This method cannot be called from background threads.
 ## -examples
 
 ## -see-also
-[Web account management code sample](https://go.microsoft.com/fwlink/p/?LinkId=620621), [RequestTokenAsync(WebTokenRequest)](webauthenticationcoremanager_requesttokenasync_1777535178.md)
+[Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [RequestTokenAsync(WebTokenRequest)](webauthenticationcoremanager_requesttokenasync_1777535178.md)

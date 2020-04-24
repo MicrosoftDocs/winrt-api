@@ -25,7 +25,7 @@ All members of this class are static. You can access them without creating an ob
 
 ## -see-also
 
-[Authentication and user identity (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/dn448918(v=win.10)), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity), [Quickstart: Connecting to an online identity provider (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/jj856915(v=win.10)), [Web authentication broker](https://docs.microsoft.com/windows/uwp/security/web-authentication-broker), [Windows authentication broker sample](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122), [WebAuthenticationBroker sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620622)
+[Authentication and user identity (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/dn448918(v=win.10)), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity), [Quickstart: Connecting to an online identity provider (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/jj856915(v=win.10)), [Web authentication broker](https://docs.microsoft.com/windows/uwp/security/web-authentication-broker), [Windows authentication broker sample](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122), [WebAuthenticationBroker sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 
 ## -capabilities
 

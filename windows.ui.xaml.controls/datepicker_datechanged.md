@@ -24,4 +24,4 @@ When you handle this event, use the [OldDate](datepickervaluechangedeventargs_ol
 ## -examples
 
 ## -see-also
-[DatePickerValueChangedEventArgs](datepickervaluechangedeventargs.md), [XAML DatePicker and TimePicker controls sample](https://go.microsoft.com/fwlink/p/?LinkID=310075), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10))
+[DatePickerValueChangedEventArgs](datepickervaluechangedeventargs.md), [XAML DatePicker and TimePicker controls sample](http://code.msdn.microsoft.com/windowsapps/XAML-DatePicker-and-94ef5709), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10))

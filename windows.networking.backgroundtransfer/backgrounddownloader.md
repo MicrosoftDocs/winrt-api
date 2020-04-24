@@ -65,7 +65,7 @@ Stopping a debugging session in Microsoft Visual Studio is comparable to closing
 
 If there are Microsoft Visual Studio project updates, like changes to the app manifest, and the app is uninstalled and re-deployed, [GetCurrentUploadsAsync](backgrounduploader_getcurrentuploadsasync_1938169689.md) cannot enumerate operations created using the previous app deployment.
 
-See [Debugging and testing UWP apps](https://go.microsoft.com/fwlink/p/?LinkID=258252) for more information.
+See [Debugging and testing UWP apps](https://msdn.microsoft.com/library/dd264943(v=vs.140).aspx) for more information.
 
 When using Background Transfer during development, you may get into a situation where the internal caches of active and completed transfer operations can get out of sync. This may result in the inability to start new transfer operations or interact with existing operations and [BackgroundTransferGroup](backgroundtransfergroup.md) objects. In some cases, attempting to interact with existing operations may trigger a crash. This result can occur if the [TransferBehavior](backgroundtransfergroup_transferbehavior.md) property is set to **Parallel**. This issue occurs only in certain scenarios during development and is not applicable to end users of your app.
 

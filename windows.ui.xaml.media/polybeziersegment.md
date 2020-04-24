@@ -28,4 +28,4 @@ This example shows how to use a **PolyBezierSegment** to create a series of curv
 [!code-xaml[PolyBezierSegment](../windows.ui.xaml.media/code/PolyBezierSegment/csharp/Page.xaml#SnippetPolyBezierSegment)]
 
 ## -see-also
-[PathSegment](pathsegment.md), [Path](../windows.ui.xaml.shapes/path.md), [PathGeometry](pathgeometry.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[PathSegment](pathsegment.md), [Path](../windows.ui.xaml.shapes/path.md), [PathGeometry](pathgeometry.md), [XAML vector-based drawing sample](http://code.msdn.microsoft.com/windowsapps/Drawing-bfc39296), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)

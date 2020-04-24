@@ -90,4 +90,4 @@ Public ReadWrite Property IsHitTestVisible As bool
 
 ## -see-also
 
-[Composition Visual Tree Overview](https://go.microsoft.com/fwlink/p/?LinkID=699335), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CompositionVisual)
+[Composition Visual Tree Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/composition-visual-tree), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CompositionVisual)

@@ -25,4 +25,4 @@ If the index is reset (which can be caused by either the index getting corrupted
 ## -examples
 
 ## -see-also
-[Content indexer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620524)
+[Content indexer sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer)

@@ -22,4 +22,4 @@ The publisher display name.
 ## -examples
 
 ## -see-also
-[App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)
+[App package information sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package)

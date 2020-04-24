@@ -27,7 +27,7 @@ For more information on the properties available to use, see the [Windows Proper
 
 ## -examples
 
-[Content indexer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620524)
+[Content indexer sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer)
 
 [Video Walkthrough of a demo app](https://channel9.msdn.com/events/Build/2016/P407)
 

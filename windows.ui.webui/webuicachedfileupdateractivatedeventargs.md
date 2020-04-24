@@ -23,7 +23,7 @@ Learn more about providing updates for files that your app offers in the [Quicks
 This object is accessed when you implement an event handler for the [WinJS.Application.Onactivated](https://docs.microsoft.com/previous-versions/windows/apps/br212679(v=win.10)) or the [Windows.UI.WebUI.WebUIApplication.activated](webuiapplication_activated.md) events when [ActivationKind](../windows.applicationmodel.activation/activationkind.md) is **cachedFileUpdater**.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275)
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx)
 <!--[jjacks - removed this link (https://go.microsoft.com/fwlink/p/?linkid=258277 404->http://msdn.microsoft.com/library/windows/apps/jj157115.aspx) because it doesn't work] and Using Windows Runtime objects in a multithreaded environment (.NET)-->
 .
 
@@ -35,7 +35,7 @@ This object is accessed when you implement an event handler for the [WinJS.Appli
 
 ## -examples
 
-The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [cachedFileUpdater](../windows.applicationmodel.activation/activationkind.md) activated event.
+The [File picker contracts sample](http://code.msdn.microsoft.com/windowsapps/File-picker-app-extension-0cb95155) demonstrates how to respond to a [cachedFileUpdater](../windows.applicationmodel.activation/activationkind.md) activated event.
 
 ```javascript
 
@@ -71,4 +71,4 @@ For JavaScript, `eventObject` contains a webUICachedFileUpdaterActivatedEventArg
 
 ## -see-also
 
-[Quickstart: Providing file services through ](https://docs.microsoft.com/previous-versions/windows/apps/hh465192(v=win.10)), [File picker provider sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620543)
+[Quickstart: Providing file services through ](https://docs.microsoft.com/previous-versions/windows/apps/hh465192(v=win.10)), [File picker provider sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)

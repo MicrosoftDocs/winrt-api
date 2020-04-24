@@ -30,4 +30,4 @@ For more info about how to refer to files in an app's package, see [URI schemes]
 ## -examples
 
 ## -see-also
-[MutableLocation](package_mutablelocation.md),[EffectiveLocation](package_effectivelocation.md),[App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)
+[MutableLocation](package_mutablelocation.md),[EffectiveLocation](package_effectivelocation.md),[App package information sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package)

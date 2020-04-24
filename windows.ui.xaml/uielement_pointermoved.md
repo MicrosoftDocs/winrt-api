@@ -49,4 +49,4 @@ Some applications, such as games, need to track relative mouse movements for spe
 
 ## -see-also
 
-[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [PointerEntered](uielement_pointerentered.md), [OnPointerMoved](../windows.ui.xaml.controls/control_onpointermoved_600528909.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
+[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [PointerEntered](uielement_pointerentered.md), [OnPointerMoved](../windows.ui.xaml.controls/control_onpointermoved_600528909.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)

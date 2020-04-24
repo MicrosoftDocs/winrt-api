@@ -38,7 +38,7 @@ Wi-Fi Direct is not supported on Windows Phone 8.
 ## -examples
 
 ## -see-also
-[AlternateIdentities](peerfinder_alternateidentities.md), [Start](peerfinder_start_1587696324.md), [Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
+[AlternateIdentities](peerfinder_alternateidentities.md), [Start](peerfinder_start_1587696324.md), [Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](http://code.msdn.microsoft.com/windowsapps/Proximity-Sample-88129731)
 
 ## -capabilities
 proximity

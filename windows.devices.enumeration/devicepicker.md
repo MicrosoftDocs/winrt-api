@@ -18,4 +18,4 @@ Represents a picker flyout that contains a list of devices for the user to choos
 ## -examples
 
 ## -see-also
-[Advanced casting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620480)
+[Advanced casting sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AdvancedCasting)

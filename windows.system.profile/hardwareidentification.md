@@ -16,7 +16,7 @@ Provides the ability to obtain a hardware identifier that represents the current
 See [Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](https://docs.microsoft.com/previous-versions/windows/apps/jj553431(v=win.10)) for more information.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 The following code shows how to get the hardware id of a device using [GetPackageSpecificToken](hardwareidentification_getpackagespecifictoken_1192424865.md).

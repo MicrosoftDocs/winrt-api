@@ -336,4 +336,4 @@ var mydate = formatter.Format(dateToFormat);
 
 ## -see-also
 
-[Date and time formatting sample](https://go.microsoft.com/fwlink/p/?LinkId=231618), [Date and time formatting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624044)
+[Date and time formatting sample](http://code.msdn.microsoft.com/windowsapps/Date-and-time-formatting-2361f348), [Date and time formatting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624044)

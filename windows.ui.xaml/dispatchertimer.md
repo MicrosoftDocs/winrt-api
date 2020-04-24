@@ -15,7 +15,7 @@ Provides a timer that is integrated into the **Dispatcher** queue, which is proc
 ## -remarks
 The DispatcherTimer can be used to run code on the same thread that produces the UI thread. Code running on this thread has the privilege to create and modify objects that can only be created and modified on the UI thread. To specify that code should run on the UI thread, set the [Interval](dispatchertimer_interval.md) property and then call the [Start](dispatchertimer_start_1587696324.md) method. The [Tick](dispatchertimer_tick.md) event fires after the time specified in [Interval](dispatchertimer_interval.md) has elapsed. [Tick](dispatchertimer_tick.md) continues firing at the same [Interval](dispatchertimer_interval.md) until the [Stop](dispatchertimer_stop_1201535524.md) method is called, the app terminates, or the app is suspended (fires [Suspending](application_suspending.md)).
 
-One scenario for DispatcherTimer is to check properties on sensors where changes to the sensor values are not purely event-driven, or the events don't give you the granularity you want. You can see this in the [Accelerometer sample](https://go.microsoft.com/fwlink/p/?linkid=231463).
+One scenario for DispatcherTimer is to check properties on sensors where changes to the sensor values are not purely event-driven, or the events don't give you the granularity you want. You can see this in the [Accelerometer sample](http://code.msdn.microsoft.com/windowsapps/Accelerometer-Sensor-Sample-22982671).
 
 Other scenarios for DispatcherTimer include checking for state changes that don't have related events, or for periodic UI updates that can't use a storyboarded animation or a two-way binding.
 

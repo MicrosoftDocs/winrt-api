@@ -75,4 +75,4 @@ for (var i = 0; i < animations.size; i++) {
 ```
 
 ## -see-also
-[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462), [AnimationDescription](animationdescription.md)
+[Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c), [AnimationDescription](animationdescription.md)

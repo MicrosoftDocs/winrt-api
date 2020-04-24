@@ -44,4 +44,4 @@ In C++/WinRT, **DateTime** is similar to C++/CX in that it has the same granular
 ## -examples
 
 ## -see-also
-[System.DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN), [Date object](https://docs.microsoft.com/scripting/javascript/reference/date-object-javascript), [FILETIME](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime), [Calendar sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624043)
+[System.DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN), [Date object](https://docs.microsoft.com/scripting/javascript/reference/date-object-javascript), [FILETIME](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime), [Calendar sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar)

@@ -15,4 +15,4 @@ Provides ways for apps to integrate with the Start screen, such as the creation 
 
 ## -see-also
 
-[Secondary tiles sample](https://go.microsoft.com/fwlink/p/?linkid=231487), [Jump list customization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/JumpList), [Mixed Reality Model sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MixedRealityModel), [Notifications sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Notifications)
+[Secondary tiles sample](http://code.msdn.microsoft.com/windowsapps/secondary-tiles-sample-edf2a178), [Jump list customization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/JumpList), [Mixed Reality Model sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MixedRealityModel), [Notifications sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Notifications)

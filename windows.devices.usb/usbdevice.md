@@ -69,4 +69,4 @@ protected override async void OnLaunched1(LaunchActivatedEventArgs args)
 
 
 ## -see-also
-[IClosable](../windows.foundation/iclosable.md), [Custom USB device sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620530)
+[IClosable](../windows.foundation/iclosable.md), [Custom USB device sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomUsbDeviceAccess)

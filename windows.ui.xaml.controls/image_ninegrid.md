@@ -50,4 +50,4 @@ A NineGrid value is only relevant for image rendering if the image does not have
 ## -examples
 
 ## -see-also
-[Thickness](../windows.ui.xaml/thickness.md), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575)
+[Thickness](../windows.ui.xaml/thickness.md), [XAML images sample](http://code.msdn.microsoft.com/windowsapps/0f5d56ae-5e57-48e1-9cd9-993115b027b9)

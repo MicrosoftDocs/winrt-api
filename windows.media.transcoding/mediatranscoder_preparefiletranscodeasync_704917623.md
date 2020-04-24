@@ -30,4 +30,4 @@ When this method completes, a [PrepareTranscodeResult](preparetranscoderesult.md
 ## -examples
 
 ## -see-also
-[Transcoding media sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620569)
+[Transcoding media sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MediaTranscoding)

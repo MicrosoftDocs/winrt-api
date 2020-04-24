@@ -20,4 +20,4 @@ One of the enumeration values.
 ## -examples
 
 ## -see-also
-[Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Handle URI activation](https://docs.microsoft.com/windows/uwp/launch-resume/handle-uri-activation), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Windows.UI.Xaml.Application.OnActivated](../windows.ui.xaml/application_onactivated_603737819.md), [URI](../windows.foundation/uri.md)
+[Association launching sample](http://code.msdn.microsoft.com/windowsapps/Association-Launching-535d2cec), [Handle URI activation](https://docs.microsoft.com/windows/uwp/launch-resume/handle-uri-activation), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Windows.UI.Xaml.Application.OnActivated](../windows.ui.xaml/application_onactivated_603737819.md), [URI](../windows.foundation/uri.md)

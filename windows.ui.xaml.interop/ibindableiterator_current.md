@@ -21,4 +21,4 @@ This interface supports the creation of data bindable collections in C++. When p
 ## -examples
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind)

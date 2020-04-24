@@ -29,7 +29,7 @@ This code shows how your app can take an app-specific contact object and use it 
 
 ## -see-also
 
-[Contact manager API sample](https://go.microsoft.com/fwlink/p/?LinkID=310079), [Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575), [Handling Contact Actions sample](https://go.microsoft.com/fwlink/p/?LinkID=320151), [Contact cards sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624040)
+[Contact manager API sample](http://code.msdn.microsoft.com/windowsapps/Contact-manager-API-sample-319bdcef), [Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575), [Handling Contact Actions sample](https://go.microsoft.com/fwlink/p/?LinkID=320151), [Contact cards sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624040)
 
 ## -capabilities
 

@@ -44,8 +44,8 @@ A positive value indicates that the wheel was rotated forward (away from the use
 Here are some downloadable samples demonstrating basic input and input injection:
 
 - [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
-- [Touch injection sample](https://go.microsoft.com/fwlink/p/?LinkID=267906)
-- [Input: XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
+- [Touch injection sample](http://code.msdn.microsoft.com/Touch-Injection-Sample-444d9bf7)
+- [Input: XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)
 
 ## -see-also
 

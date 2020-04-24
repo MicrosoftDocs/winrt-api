@@ -20,4 +20,4 @@ The Internet Engineering Task Force (IETF) BCP 47 standard language tag.
 ## -examples
 
 ## -see-also
-[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [Object class](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md)
+[Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5), [Object class](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md)

@@ -24,7 +24,7 @@ You should override this method in a custom class where you want to supply a cus
 >
 > **This sample is not maintained and might not compile.**
 >
-> See [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570) for an implementation of OnCreateAutomationPeer that defines the custom peer returned by OnCreateAutomationPeer (the peer implementation is part of Scenario 3 in this sample). 
+> See [XAML accessibility sample](http://code.msdn.microsoft.com/windowsapps/XAML-accessibility-sample-d63e820d) for an implementation of OnCreateAutomationPeer that defines the custom peer returned by OnCreateAutomationPeer (the peer implementation is part of Scenario 3 in this sample). 
 
 We recommend that the OnCreateAutomationPeer implementation should do nothing more than initialize a new instance of your custom automation peer, passing the calling control as owner, and return that instance. Do not attempt additional logic in this method. In particular, any logic that could potentially lead to destruction of the [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md) within the same call may result in unexpected runtime behavior.
 

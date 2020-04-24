@@ -18,4 +18,4 @@ If the MidiInPort becomes disconnected for any reason, it should be disposed and
 ## -examples
 
 ## -see-also
-[IClosable](../windows.foundation/iclosable.md), [MIDI  sample](https://go.microsoft.com/fwlink/p/?LinkID=394281)
+[IClosable](../windows.foundation/iclosable.md), [MIDI  sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MIDI)

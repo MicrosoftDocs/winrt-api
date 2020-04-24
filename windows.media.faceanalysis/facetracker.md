@@ -17,4 +17,4 @@ Detects faces in [VideoFrame](../windows.media/videoframe.md) objects and tracks
 ## -examples
 
 ## -see-also
-[Basic face tracking sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620513)
+[Basic face tracking sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicFaceTracking)

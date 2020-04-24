@@ -37,4 +37,4 @@ The following example demonstrates how a UWP app built for Windows using JavaScr
 ## -examples
 
 ## -see-also
-[Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Accelerometer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620477)
+[Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Accelerometer sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Accelerometer)

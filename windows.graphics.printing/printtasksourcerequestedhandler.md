@@ -23,7 +23,7 @@ For example, consider an app that needs to download information from the Cloud t
 
 An app has two options for creating a print document source object:
 + **Use a framework provided print document source.** Both the HTML5/JavaScript and XAML frameworks provide implementations of objects which implement the [IPrintDocumentSource](iprintdocumentsource.md) interface. For HTML5/JavaScript apps see [MSApp.getHtmlPrintDocumentSource](https://msdn.microsoft.com/library/Hh772325). For information about developing print-capable apps with the extensible application markup language (XAML), see [Windows.UI.Xaml.Printing.PrintDocument](../windows.ui.xaml.printing/printdocument.md).
-+ **Provide a custom print document source.** An app may choose to provide its own custom implementation of an [IPrintDocumentSource](iprintdocumentsource.md) object. Doing so requires a good understanding of Direct2D and/or the XPS APIs. For an example of how an app can provide its own custom print document source, see the [D2D Printing sample](https://go.microsoft.com/fwlink/p/?linkid=242999).
++ **Provide a custom print document source.** An app may choose to provide its own custom implementation of an [IPrintDocumentSource](iprintdocumentsource.md) object. Doing so requires a good understanding of Direct2D and/or the XPS APIs. For an example of how an app can provide its own custom print document source, see the [D2D Printing sample](http://code.msdn.microsoft.com/windowsapps/Print-Sample-c544cce6).
 
 
 ## -examples

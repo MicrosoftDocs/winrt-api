@@ -29,7 +29,7 @@ If the items in the collection are collections themselves, or are objects that c
 > Setting the [Source](collectionviewsource_source.md) property to another CollectionViewSource instance is not supported.
 
 ## -examples
-The following code example demonstrates how to bind a [ListBox](../windows.ui.xaml.controls/listbox.md) control to the results of a grouping LINQ query. In this example, a collection of teams is grouped by city and displayed with the city name as the group headers. For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854). For additional example code on grouping, see the [XAML GridView grouping and SemanticZoom sample](https://go.microsoft.com/fwlink/p/?linkid=226564).
+The following code example demonstrates how to bind a [ListBox](../windows.ui.xaml.controls/listbox.md) control to the results of a grouping LINQ query. In this example, a collection of teams is grouped by city and displayed with the city name as the group headers. For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind). For additional example code on grouping, see the [XAML GridView grouping and SemanticZoom sample](https://go.microsoft.com/fwlink/p/?linkid=226564).
 
 ```xaml
 <Grid>
@@ -87,4 +87,4 @@ groupInfoCVS.Source = result;
 
 
 ## -see-also
-[Binding](binding.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [XAML GridView grouping and SemanticZoom sample](https://go.microsoft.com/fwlink/p/?linkid=226564)
+[Binding](binding.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [XAML GridView grouping and SemanticZoom sample](https://go.microsoft.com/fwlink/p/?linkid=226564)

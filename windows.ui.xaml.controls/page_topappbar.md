@@ -29,7 +29,7 @@ A reference to an [AppBar](appbar.md) displayed at the top of the page, or **nul
 In XAML, make sure you specify the `Page.TopAppBar` property element in the same area as other property elements that may already be defined, like `Page.BottomAppBar` or `Page.Resources`. The XAML language enforces that you can't mix the property elements between the XAML content that is setting [Content](usercontrol_content.md), such as the typical root [Grid](grid.md) element. For more info on XAML syntax, see [XAML syntax guide](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-syntax-guide).
 
 ## -examples
-For example code that adds an [AppBar](appbar.md) to a page, see [Quickstart: adding app bars](https://docs.microsoft.com/previous-versions/windows/apps/hh781230(v=win.10)) or [How to share an app bar across pages](https://docs.microsoft.com/previous-versions/windows/apps/jj150604(v=win.10)). For a complete sample that uses many of the [Page](page.md) and [Frame](frame.md) features together, see [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214).
+For example code that adds an [AppBar](appbar.md) to a page, see [Quickstart: adding app bars](https://docs.microsoft.com/previous-versions/windows/apps/hh781230(v=win.10)) or [How to share an app bar across pages](https://docs.microsoft.com/previous-versions/windows/apps/jj150604(v=win.10)). For a complete sample that uses many of the [Page](page.md) and [Frame](frame.md) features together, see [XAML Navigation sample](http://code.msdn.microsoft.com/windowsapps/XAML-Navigation-sample-dbd7116c).
 
 ## -see-also
 [AppBar](appbar.md), [Quickstart: adding app bars](https://docs.microsoft.com/previous-versions/windows/apps/hh781230(v=win.10))

@@ -20,4 +20,4 @@ You need a valid Windows Store developer account to interact with the Windows St
 ## -examples
 
 ## -see-also
-[Store sample ()](https://github.com/Microsoft/Windows-universal-samples/tree/win10-1507/Samples/Store), [Trial app and in-app purchase sample ()](https://go.microsoft.com/fwlink/p/?LinkID=144754)
+[Store sample ()](https://github.com/Microsoft/Windows-universal-samples/tree/win10-1507/Samples/Store), [Trial app and in-app purchase sample ()](http://code.msdn.microsoft.com/windowsapps/Licensing-API-Sample-19712f1a)

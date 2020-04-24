@@ -82,4 +82,4 @@ Not all animations can be applied to all targets. See the specific documentation
 ## -examples
 
 ## -see-also
-[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462), [AnimationEffect](animationeffect.md)
+[Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c), [AnimationEffect](animationeffect.md)

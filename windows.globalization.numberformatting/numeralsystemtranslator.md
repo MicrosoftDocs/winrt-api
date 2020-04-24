@@ -21,4 +21,4 @@ If your app passes language tags used in this class to any [National Language Su
 
 ## -see-also
 
-[NumeralSystem values](https://docs.microsoft.com/previous-versions/windows/apps/jj236471(v=win.10)), [Number formatting and parsing sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620578)
+[NumeralSystem values](https://docs.microsoft.com/previous-versions/windows/apps/jj236471(v=win.10)), [Number formatting and parsing sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/NumberFormatting)

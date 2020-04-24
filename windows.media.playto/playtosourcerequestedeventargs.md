@@ -28,5 +28,5 @@ For an example of how to use Play To in an application, see [Quickstart: Using P
 [!code-vb[SourceRequested](../windows.media.playto/code/PlayTo_Reference/vbnet/MainPage.xaml.vb#SnippetSourceRequested)]
 
 ## -see-also
-[SourceRequested](playtomanager_sourcerequested.md), [Play To sample](https://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)
+[SourceRequested](playtomanager_sourcerequested.md), [Play To sample](http://code.msdn.microsoft.com/windowsapps/Media-PlayTo-Sample-fedcb0f9), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)
 soft.com/fwlink/p/?linkid=245168)

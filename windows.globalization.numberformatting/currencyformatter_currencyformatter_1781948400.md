@@ -27,9 +27,9 @@ In the case that the symbol for the provided currency is the same symbol as that
 
 If your app passes language tags used in this class to any [National Language Support](https://docs.microsoft.com/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
 
-**Starting in :** Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919).) Note that the "nu-" extension can affect the numeral system used by [CurrencyFormatter](currencyformatter.md) objects.
+**Starting in :** Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](http://www.unicode.org/reports/tr35/#Key_Type_Definitions).) Note that the "nu-" extension can affect the numeral system used by [CurrencyFormatter](currencyformatter.md) objects.
 
 ## -examples
 
 ## -see-also
-[CurrencyFormatter(String)](currencyformatter_currencyformatter_290278668.md), [Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919)
+[CurrencyFormatter(String)](currencyformatter_currencyformatter_290278668.md), [Unicode Key/Type Definitions](http://www.unicode.org/reports/tr35/#Key_Type_Definitions)

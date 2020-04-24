@@ -24,4 +24,4 @@ The content properties to index.
 ## -examples
 
 ## -see-also
-[IndexableContent](indexablecontent.md), [Content indexer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620524)
+[IndexableContent](indexablecontent.md), [Content indexer sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer)

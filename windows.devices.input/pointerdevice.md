@@ -15,10 +15,10 @@ Supports the ability to identify the connected pointer devices and determine the
 ## -remarks
 The values returned by the properties discussed here are based on the total number of pointer devices connected: Boolean properties return true if one device supports a specific capability and numeric properties return the maximum value exposed by all devices.
 
-The [Device Capabilities Sample](https://go.microsoft.com/fwlink/p/?linkid=231530) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
+The [Device Capabilities Sample](http://code.msdn.microsoft.com/windowsapps/Input-device-capabilities-31b67745) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 The following code shows how to use PointerDevice.

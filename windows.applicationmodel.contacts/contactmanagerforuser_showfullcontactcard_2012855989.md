@@ -32,7 +32,7 @@ This method must be called from the main UI thread.
 
 ## -see-also
 
-[ContactManager](contactmanager.md), [Contact cards sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624040)
+[ContactManager](contactmanager.md), [Contact cards sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContactCards)
 
 ## -examples
 

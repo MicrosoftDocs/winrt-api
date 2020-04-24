@@ -53,4 +53,4 @@ myFrame.Navigate(typeof(Page2), null, new SuppressNavigationTransitionInfo());
 ```
 
 ## -see-also
-[Navigate(Type, Object)](frame_navigate_1603787821.md), [Navigate(Type)](frame_navigate_442648331.md), [Navigation](https://docs.microsoft.com/windows/uwp/layout/navigation-basics), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Navigate(Type, Object)](frame_navigate_1603787821.md), [Navigate(Type)](frame_navigate_442648331.md), [Navigation](https://docs.microsoft.com/windows/uwp/layout/navigation-basics), [XAML Navigation sample](http://code.msdn.microsoft.com/windowsapps/XAML-Navigation-sample-dbd7116c)

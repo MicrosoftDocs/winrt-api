@@ -20,7 +20,7 @@ Contains classes that support Mobile Broadband Account management.
 
 ## -see-also
 
-[Mobile broadband sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620572), [USSD protocol sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UssdProtcol)
+[Mobile broadband sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MobileBroadband), [USSD protocol sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UssdProtcol)
 
 ## -capabilities
 

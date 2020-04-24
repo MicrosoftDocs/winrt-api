@@ -38,7 +38,7 @@ If you provide result suggestions, you must also register a [ResultSuggestionCho
 Here are a few examples of sources your app can use to obtain suggestions:
 
 + From an app-defined, static, local list
-+ From a URL that supports suggestions in [OpenSearch format](https://go.microsoft.com/fwlink/p/?linkid=251110)
++ From a URL that supports suggestions in [OpenSearch format](http://www.opensearch.org/Specifications/OpenSearch/Extensions/Suggestions/1.1)
 
 
 ### Displaying app-provided suggestions in the search pane
@@ -52,7 +52,7 @@ To learn more about using suggestions to create a good search experience for you
 <!--<section  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><title>Automatic suggestions</title><sectioncontents><p>If you want your app to display suggestions that are automatically provided</p><p>By default, suggestions are automatically provided based on the user's local files that are accessible by your app and the previous searches the user has performed with your app.</p><p>If automatic suggestions are enabled, you do not need to do additional the <xref targtype="class_winrt" rid="w_appmod_search.searchsuggestioncollection">searchSuggestionCollection</xref> object is pre-populated with suggestions. </p><p>If you want your app to provide its own suggestions to the user, you can disable one or both sources of automatic suggestions. Disable automatic suggestions based on the user's local files with the <xref targtype="method_winrt" rid="w_appmod_search.searchpane_setlocalcontentsuggestionsettings">SetLocalContentSuggestionSettings</xref> method and disable automatic suggestions based on the user's search history in your app with the <xref targtype="property_winrt" rid="w_appmod_search.searchpane_searchhistoryenabled">SearchHistoryEnabled</xref> property.</p></sectioncontents></section>-->
 
 ## -examples
-The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to access the [searchPane](searchpane.md) to respond to a suggestionsrequested event.
+The [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to access the [searchPane](searchpane.md) to respond to a suggestionsrequested event.
 
 > **For Javascript**
 > To ensure that your app can respond to user queries at any time, make sure your [searchPane](searchpane.md) event handlers are registered in your app's global scope.
@@ -88,4 +88,4 @@ protected override void OnWindowCreated(WindowCreatedEventArgs args)
 
 
 ## -see-also
-[Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search), [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection class](searchsuggestioncollection.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md)
+[Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search), [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection class](searchsuggestioncollection.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md), [SearchPaneSuggestionsRequest.SearchSuggestionCollection property](searchpanesuggestionsrequest_searchsuggestioncollection.md)

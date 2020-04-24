@@ -65,7 +65,7 @@ FrameworkElementAutomationPeer is the parent class for several immediately deriv
 ## -examples
 This example shows the basic subclass requirements for deriving a peer from FrameworkElementAutomationPeer and supporting at least one control pattern.
 
-This code is an excerpt from the [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570).
+This code is an excerpt from the [XAML accessibility sample](http://code.msdn.microsoft.com/windowsapps/XAML-accessibility-sample-d63e820d).
 
 > [!NOTE]
 > **This sample is not maintained and might not compile.**

@@ -27,5 +27,5 @@ Represents a connection to the endpoint for an app service. App services enable 
 
 ## -see-also
 
-[IClosable](../windows.foundation/iclosable.md), [App services sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620489), [AppServiceTriggerDetails](https://docs.microsoft.com/uwp/api/windows.applicationmodel.appservice.appservicetriggerdetails)
+[IClosable](../windows.foundation/iclosable.md), [App services sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AppServices), [AppServiceTriggerDetails](https://docs.microsoft.com/uwp/api/windows.applicationmodel.appservice.appservicetriggerdetails)
 

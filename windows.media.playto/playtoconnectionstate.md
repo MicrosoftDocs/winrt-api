@@ -29,4 +29,4 @@ The connection is rendering media on the Play To target device.
 ## -examples
 
 ## -see-also
-[PlayToConnection.StateChanged Event](playtoconnection_statechanged.md), [PlayToConnectionStateChangedEventArgs](playtoconnectionstatechangedeventargs.md), [Play To sample](https://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)
+[PlayToConnection.StateChanged Event](playtoconnection_statechanged.md), [PlayToConnectionStateChangedEventArgs](playtoconnectionstatechangedeventargs.md), [Play To sample](http://code.msdn.microsoft.com/windowsapps/Media-PlayTo-Sample-fedcb0f9), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)

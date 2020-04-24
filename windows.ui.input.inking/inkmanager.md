@@ -22,7 +22,7 @@ If recognition is not required, use an [InkStrokeContainer](inkstrokecontainer.m
 If only recognition is required, and not storage, use an [InkRecognizerContainer](inkrecognizercontainer.md) instead of an InkManager.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 This example shows how to create an InkManager object.
@@ -49,7 +49,7 @@ function selectAll()
 
 ```
 
-For the complete example, see [Ink App sample](https://go.microsoft.com/fwlink/p/?linkid=231622).
+For the complete example, see [Ink App sample](http://code.msdn.microsoft.com/windowsapps/Ink-App-sample-61abaec3).
 
 ## -see-also
 

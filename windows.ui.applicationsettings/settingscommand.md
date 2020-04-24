@@ -18,10 +18,10 @@ Creates a settings command object that represents a settings entry. This setting
 
 ## -remarks
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-The following code shows how to add app commands by using the [SettingsPane](settingspane.md) and SettingsCommand classes. For the full example, see [App settings sample](https://go.microsoft.com/fwlink/p/?linkid=226738).
+The following code shows how to add app commands by using the [SettingsPane](settingspane.md) and SettingsCommand classes. For the full example, see [App settings sample](http://code.msdn.microsoft.com/windowsapps/app-settings-sample-1f762f49).
 
 ```csharp
 using Windows.UI.ApplicationSettings;
@@ -245,4 +245,4 @@ Imports System
 ```
 
 ## -see-also
-[SettingsPane](settingspane.md), [App settings sample](https://go.microsoft.com/fwlink/p/?linkid=226738)
+[SettingsPane](settingspane.md), [App settings sample](http://code.msdn.microsoft.com/windowsapps/app-settings-sample-1f762f49)

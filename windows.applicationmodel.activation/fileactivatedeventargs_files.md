@@ -20,4 +20,4 @@ The [StorageFile](../windows.storage/storagefile.md) objects representing the fi
 ## -examples
 
 ## -see-also
-[Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Windows.Storage](../windows.storage/windows_storage.md)
+[Association launching sample](http://code.msdn.microsoft.com/windowsapps/Association-Launching-535d2cec), [Windows.Storage](../windows.storage/windows_storage.md)

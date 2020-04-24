@@ -17,7 +17,7 @@ Lets an app that provides a save location specify the [storageFile](../windows.s
 If your app participates in the File Save Picker contract and a [targetfilerequested](filesavepickerui_targetfilerequested.md) event fires, your app should create a new [storageFile](../windows.storage/storagefile.md) that represents the file the user wants to save. The name of the [storageFile](../windows.storage/storagefile.md) you create must match the name of the file specified by the [fileName](filesavepickerui_filename.md) property. The [storageFile](../windows.storage/storagefile.md) you create is returned to the app that called the file picker (the calling app) so that the calling app can write content to the file. Learn more about responding to this event in [targetFileRequestedEventArgs](targetfilerequestedeventargs.md).
 
 ## -examples
-The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event handler, including how to use the [Request](targetfilerequestedeventargs_request.md) property to get the TargetFileRequest.
+The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how to respond to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event handler, including how to use the [Request](targetfilerequestedeventargs_request.md) property to get the TargetFileRequest.
 
 ```csharp
 

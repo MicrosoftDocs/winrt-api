@@ -126,4 +126,4 @@ function (error) {
 
 ## -see-also
 
-[File search sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620544), [Folder enumeration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration)
+[File search sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileSearch), [Folder enumeration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration)

@@ -21,4 +21,4 @@ True if suggestions from local files are displayed; otherwise, false. The defaul
 ## -examples
 
 ## -see-also
-[Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)), [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [Object class](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), [LocalContentSuggestionSettings class](localcontentsuggestionsettings.md), [SearchPane.SetLocalContentSuggestionSettings method](searchpane_setlocalcontentsuggestionsettings_156524340.md)
+[Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)), [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5), [Object class](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), [LocalContentSuggestionSettings class](localcontentsuggestionsettings.md), [SearchPane.SetLocalContentSuggestionSettings method](searchpane_setlocalcontentsuggestionsettings_156524340.md)

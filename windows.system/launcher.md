@@ -17,7 +17,7 @@ Starts the default app associated with the specified file or URI.
 ## -remarks
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ### Version history
 
@@ -87,4 +87,4 @@ function linkClickHandler(eventInfo) {
 
 ## -see-also
 
-[How to launch the default app for a file (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452687(v=win.10)), [Launch the default app for a file](https://docs.microsoft.com/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [How to launch the default app for a URI (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452690(v=win.10)), [Launch the default app for a URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app), [Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [LauncherOptions](launcheroptions.md), [LauncherUIOptions](launcheruioptions.md)
+[How to launch the default app for a file (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452687(v=win.10)), [Launch the default app for a file](https://docs.microsoft.com/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [How to launch the default app for a URI (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452690(v=win.10)), [Launch the default app for a URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app), [Association launching sample](http://code.msdn.microsoft.com/windowsapps/Association-Launching-535d2cec), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [LauncherOptions](launcheroptions.md), [LauncherUIOptions](launcheruioptions.md)

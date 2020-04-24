@@ -17,4 +17,4 @@ For how-to guidance on transcoding media files, see [Transcode media files](http
 
 ## -see-also
 
-[Transcoding media sample](https://go.microsoft.com/fwlink/p/?linkid=242136), [Media extension sample](https://go.microsoft.com/fwlink/p/?linkid=241427), [Real-Time communication sample](https://go.microsoft.com/fwlink/p/?linkid=245973), [Transcoding media sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620569), [Transcode media files](https://docs.microsoft.com/windows/uwp/audio-video-camera/transcode-media-files)
+[Transcoding media sample](http://code.msdn.microsoft.com/windowsapps/media-transcode-sample-f7ba5269), [Media extension sample](https://go.microsoft.com/fwlink/p/?linkid=241427), [Real-Time communication sample](https://go.microsoft.com/fwlink/p/?linkid=245973), [Transcoding media sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620569), [Transcode media files](https://docs.microsoft.com/windows/uwp/audio-video-camera/transcode-media-files)

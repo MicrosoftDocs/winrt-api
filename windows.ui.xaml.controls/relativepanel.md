@@ -51,7 +51,7 @@ Here's an example of a UI using a RelativePanel for its layout:
 </RelativePanel>
 ```
 
-RelativePanel, used in conjunction with [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) s, can be a powerful tool to create responsive UI that scales well across different screen sizes. For more examples, see the [XAML Responsive Techniques sample](https://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409).
+RelativePanel, used in conjunction with [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) s, can be a powerful tool to create responsive UI that scales well across different screen sizes. For more examples, see the [XAML Responsive Techniques sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlResponsiveTechniques?amp;amp;clcid=0x409).
 
 ### Default position
 

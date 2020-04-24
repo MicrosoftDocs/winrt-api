@@ -50,4 +50,4 @@ Notifications.ToastNotificationManager.createToastNotifier().addToSchedule(toast
 
 
 ## -see-also
-[ScheduledToastNotification(XmlDocument, DateTime, TimeSpan, UInt32)](scheduledtoastnotification_scheduledtoastnotification_1365784316.md), [Scheduled notifications sample](https://go.microsoft.com/fwlink/p/?linkid=241614), [Toast schema](https://docs.microsoft.com/uwp/schemas/tiles/toastschema/schema-root), [Guidelines and checklist for scheduled notifications](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-choosing-a-notification-delivery-method)
+[ScheduledToastNotification(XmlDocument, DateTime, TimeSpan, UInt32)](scheduledtoastnotification_scheduledtoastnotification_1365784316.md), [Scheduled notifications sample](http://code.msdn.microsoft.com/windowsapps/scheduled-notifications-da477093), [Toast schema](https://docs.microsoft.com/uwp/schemas/tiles/toastschema/schema-root), [Guidelines and checklist for scheduled notifications](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-choosing-a-notification-delivery-method)

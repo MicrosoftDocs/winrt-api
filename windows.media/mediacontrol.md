@@ -53,9 +53,9 @@ mediaControls.addEventListener(“SoundLevelChanged”, soundlevelchanged, false
 
 ```
 
-To see the complete listing for this example, see [How to configure keys for media controls](https://go.microsoft.com/fwlink/p/?linkid=241436).
+To see the complete listing for this example, see [How to configure keys for media controls](http://msdn.microsoft.com/en-us/library/windows/apps/hh452722.aspx).
 
 ## -examples
 
 ## -see-also
-[How to configure keys for media controls](https://go.microsoft.com/fwlink/p/?linkid=241436)
+[How to configure keys for media controls](http://msdn.microsoft.com/en-us/library/windows/apps/hh452722.aspx)

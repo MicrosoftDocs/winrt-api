@@ -20,4 +20,4 @@ The [ActivationKind.FileOpenPicker](activationkind.md) enumeration value.
 ## -examples
 
 ## -see-also
-[ActivationKind enumeration](activationkind.md), [FileOpenPickerActivatedEventArgs class](fileopenpickeractivatedeventargs.md), [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536)
+[ActivationKind enumeration](activationkind.md), [FileOpenPickerActivatedEventArgs class](fileopenpickeractivatedeventargs.md), [File picker contracts sample](http://code.msdn.microsoft.com/windowsapps/File-picker-app-extension-0cb95155)

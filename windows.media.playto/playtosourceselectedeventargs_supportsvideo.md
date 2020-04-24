@@ -21,4 +21,4 @@ True if the selected Play To source supports video; otherwise false.
 ## -examples
 
 ## -see-also
-[PlayToManager.SourceSelected Event](playtomanager_sourceselected.md), [Play To sample](https://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)
+[PlayToManager.SourceSelected Event](playtomanager_sourceselected.md), [Play To sample](http://code.msdn.microsoft.com/windowsapps/Media-PlayTo-Sample-fedcb0f9), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)

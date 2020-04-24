@@ -43,4 +43,4 @@ Specific Windows Runtime controls may have class-based handling for the DoubleTa
 
 ## -see-also
 
-[DoubleTappedRoutedEventArgs](../windows.ui.xaml.input/doubletappedroutedeventargs.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
+[DoubleTappedRoutedEventArgs](../windows.ui.xaml.input/doubletappedroutedeventargs.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)

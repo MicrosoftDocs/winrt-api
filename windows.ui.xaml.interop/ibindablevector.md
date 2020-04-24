@@ -27,4 +27,4 @@ IBindableVector inherits [IBindableIterable](ibindableiterable.md). Types that i
 ## -examples
 
 ## -see-also
-[IBindableIterable](ibindableiterable.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)
+[IBindableIterable](ibindableiterable.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind)

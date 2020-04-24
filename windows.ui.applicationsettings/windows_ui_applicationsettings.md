@@ -15,4 +15,4 @@ Provides classes that allow developers to define the app settings that appear in
 
 ## -see-also
 
-[Application settings sample](https://go.microsoft.com/fwlink/p/?linkid=226738), [WebAuthenticationBroker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
+[Application settings sample](http://code.msdn.microsoft.com/windowsapps/app-settings-sample-1f762f49), [WebAuthenticationBroker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)

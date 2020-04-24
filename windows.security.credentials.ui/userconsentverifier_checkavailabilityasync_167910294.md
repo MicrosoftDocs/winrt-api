@@ -85,4 +85,4 @@ function checkConsentAvailability() {
 ## -examples
 
 ## -see-also
-[Fingerprint biometrics](https://docs.microsoft.com/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://go.microsoft.com/fwlink/p/?LinkID=303650), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity)
+[Fingerprint biometrics](https://docs.microsoft.com/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](http://code.msdn.microsoft.com/windowsapps/UserConsentVerifier-Sample-ecc40a81), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity)

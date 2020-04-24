@@ -24,10 +24,10 @@ Call [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md) to launc
 You must specify the **webcam** or **microphone** capabilities in your app manifest file if you are using [MediaCapture](mediacapture.md) to capture audio, photos, or video programmatically.
 
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-This code shows how to use the **CameraCaptureUI** class to take a picture. The code is from file CapturePhoto.xaml.cs of the [Camera capture UI sample](https://go.microsoft.com/fwlink/p/?linkid=249441). The dialog with the user occurs when you call the asynchronous method [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md).
+This code shows how to use the **CameraCaptureUI** class to take a picture. The code is from file CapturePhoto.xaml.cs of the [Camera capture UI sample](http://code.msdn.microsoft.com/windowsapps/CameraCaptureUI-Sample-845a53ac). The dialog with the user occurs when you call the asynchronous method [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md).
 
 
 

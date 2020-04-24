@@ -20,7 +20,7 @@ Fires when the user removes a file from the list of files that the user has chos
 If your app participates in the File Open Picker contract and your app uses the app page that is hosted in the file picker to visually indicate which items the user selects, you should respond to this event. When a fileremoved event fires you should update your app's file picker page to reflect the change. Learn more about responding to this event in [fileRemovedEventArgs](fileremovedeventargs.md).
 
 ## -examples
-The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a fileremoved event handler.
+The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how to respond to a fileremoved event handler.
 
 ```csharp
 

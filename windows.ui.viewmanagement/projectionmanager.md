@@ -19,4 +19,4 @@ Defines a set of methods for managing the windows (app views) sent to secondary 
 
 ## -see-also
 
-[Advanced casting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620480), [Projection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620587)
+[Advanced casting sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AdvancedCasting), [Projection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620587)

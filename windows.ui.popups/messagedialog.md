@@ -19,7 +19,7 @@ Represents a dialog for showing messages to the user.
 > You should use MessageDialog only when you are upgrading a Universal Windows 8 app that uses MessageDialog, and need to minimize changes. For new apps in Windows 10, we recommend using the [ContentDialog](./../windows.ui.xaml.controls/contentdialog.md) control instead.
 
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 The dialog has a command bar that can support up to 3 commands in desktop apps, or 2 commands in mobile apps. If you don't specify any commands, then a default command is added to close the dialog.
 
@@ -33,7 +33,7 @@ Here's an example of a dialog created by the code in the Examples section.
 
 ## -examples
 
-The following example shows how to add commands to a message dialog and display it. For the full code example, see [Message dialog sample](https://go.microsoft.com/fwlink/p/?linkid=231551).
+The following example shows how to add commands to a message dialog and display it. For the full code example, see [Message dialog sample](http://code.msdn.microsoft.com/windowsapps/Message-dialog-sample-00c928f5).
 
 ```csharp
 using Windows.UI.Popups;
@@ -271,4 +271,4 @@ End Class
 
 ## -see-also
 
-[Message dialog sample](https://go.microsoft.com/fwlink/p/?linkid=231551), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570)
+[Message dialog sample](http://code.msdn.microsoft.com/windowsapps/Message-dialog-sample-00c928f5), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570)

@@ -15,4 +15,4 @@ Contains components to determine aspects of a physical display.
 
 ## -see-also
 
-[Scaling according to DPI sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620537), [Video stabilization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraVideoStabilization), [Display orientation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DisplayOrientation)
+[Scaling according to DPI sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DpiScaling), [Video stabilization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraVideoStabilization), [Display orientation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DisplayOrientation)

@@ -52,4 +52,4 @@ private async void myImage_PointerPressed(object sender, PointerRoutedEventArgs 
 
 
 ## -see-also
-[DragStarting](uielement_dragstarting.md), [CanDrag](uielement_candrag.md), [Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)
+[DragStarting](uielement_dragstarting.md), [CanDrag](uielement_candrag.md), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

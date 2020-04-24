@@ -20,7 +20,7 @@ For info about how to manage contacts, see [Managing contact cards](https://docs
 
 ## -see-also
 
-[Contact manager API sample](https://go.microsoft.com/fwlink/p/?LinkID=310079), [Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575), [Handling Contact Actions sample](https://go.microsoft.com/fwlink/p/?LinkID=320151), [Windows.ApplicationModel.Contacts.Provider](../windows.applicationmodel.contacts.provider/windows_applicationmodel_contacts_provider.md), [Contact Card integration sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703783), [Contact cards sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624040), [Contact Panel sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContactPanel), [My People Notifications sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MyPeopleNotifications)
+[Contact manager API sample](http://code.msdn.microsoft.com/windowsapps/Contact-manager-API-sample-319bdcef), [Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575), [Handling Contact Actions sample](https://go.microsoft.com/fwlink/p/?LinkID=320151), [Windows.ApplicationModel.Contacts.Provider](../windows.applicationmodel.contacts.provider/windows_applicationmodel_contacts_provider.md), [Contact Card integration sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703783), [Contact cards sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624040), [Contact Panel sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContactPanel), [My People Notifications sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MyPeopleNotifications)
 
 ## -capabilities
 

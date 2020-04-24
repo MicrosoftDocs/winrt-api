@@ -33,7 +33,7 @@ All [Application](../windows.ui.xaml/application.md) overrides involved in an ac
 | 1607 | 14393 | User |
 
 ## -examples
-The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a **CachedFileUpdater** activation point.
+The [File picker contracts sample](http://code.msdn.microsoft.com/windowsapps/File-picker-app-extension-0cb95155) demonstrates how to respond to a **CachedFileUpdater** activation point.
 
 ```csharp
 
@@ -67,7 +67,7 @@ public void Activate(CachedFileUpdaterActivatedEventArgs args)
         }
 ```
 
-For C#, `args` for an [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) override on the [Application](../windows.ui.xaml/application.md) object references a CachedFileUpdaterActivatedEventArgs object. The [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) override is in the App.xaml.cs file and the `Activate` method is in the CachedFileUpdaterPage.xaml.cs file of the [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536).
+For C#, `args` for an [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) override on the [Application](../windows.ui.xaml/application.md) object references a CachedFileUpdaterActivatedEventArgs object. The [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md) override is in the App.xaml.cs file and the `Activate` method is in the CachedFileUpdaterPage.xaml.cs file of the [File picker contracts sample](http://code.msdn.microsoft.com/windowsapps/File-picker-app-extension-0cb95155).
 
 ## -see-also
-[ActivationKind enumeration](activationkind.md), [Windows.Storage.Provider namespace](../windows.storage.provider/windows_storage_provider.md), [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536), [Windows.UI.Core.CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md), [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md), [Application](../windows.ui.xaml/application.md)
+[ActivationKind enumeration](activationkind.md), [Windows.Storage.Provider namespace](../windows.storage.provider/windows_storage_provider.md), [File picker contracts sample](http://code.msdn.microsoft.com/windowsapps/File-picker-app-extension-0cb95155), [Windows.UI.Core.CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md), [OnCachedFileUpdaterActivated](../windows.ui.xaml/application_oncachedfileupdateractivated_383584449.md), [Application](../windows.ui.xaml/application.md)

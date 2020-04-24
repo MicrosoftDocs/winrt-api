@@ -37,4 +37,4 @@ The tile will be reacquired from the cloud when the parent app is installed by t
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](https://go.microsoft.com/fwlink/p/?linkid=231487)
+[Secondary tiles sample](http://code.msdn.microsoft.com/windowsapps/secondary-tiles-sample-edf2a178)

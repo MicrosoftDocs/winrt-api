@@ -87,4 +87,4 @@ function renderCandidate(candidate, index, output) {
 
 
 ## -see-also
-[ResourceQualifier](resourcequalifier.md), [Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=227301)
+[ResourceQualifier](resourcequalifier.md), [Application resources and localization sample](http://code.msdn.microsoft.com/windowsapps/Application-resources-and-cd0c6eaa)

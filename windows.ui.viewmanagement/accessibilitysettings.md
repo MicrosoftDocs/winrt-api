@@ -17,4 +17,4 @@ Provides access to the high contrast accessibility settings.
 ## -examples
 
 ## -see-also
-[UI contrast and settings sample](https://go.microsoft.com/fwlink/p/?linkid=258421)
+[UI contrast and settings sample](http://code.msdn.microsoft.com/windowsapps/High-Contrast-UI-Settings-9a310961)

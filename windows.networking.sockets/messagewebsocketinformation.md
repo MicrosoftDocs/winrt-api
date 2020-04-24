@@ -35,4 +35,4 @@ A MessageWebSocketInformation object is automatically created with the parent [M
 [MessageWebSocket.Information](messagewebsocket_information.md),
 [MessageWebSocketControl](messagewebsocketcontrol.md),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
-[WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623),
+[WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket),

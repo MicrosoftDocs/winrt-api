@@ -19,4 +19,4 @@ Represents the top level of the XML source. This class includes members for retr
 
 ## -see-also
 
-[XML DOM sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620639)
+[XML DOM sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XmlDocument)

@@ -21,4 +21,4 @@ See the code example in the [DataReader](datareader.md) topic.
 
 ## -see-also
 
-[FileRandomAccessStream](filerandomaccessstream.md), [RandomAccessStream](randomaccessstream.md), , [Serializing and deserializing data sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620535)
+[FileRandomAccessStream](filerandomaccessstream.md), [RandomAccessStream](randomaccessstream.md), , [Serializing and deserializing data sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DataReaderWriter)

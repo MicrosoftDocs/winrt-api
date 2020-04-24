@@ -23,7 +23,7 @@ This object is returned by a delegate registered for one of the following events
 + [CoreWindow.PointerWheelChanged](corewindow_pointerwheelchanged.md)
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx).
 
 ## -examples
 ```cppwinrt
@@ -69,4 +69,4 @@ void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication:
 ```
 
 ## -see-also
-[Input: Manipulations and gestures (C++) sample](https://go.microsoft.com/fwlink/p/?linkid=231605), [Input: Simplified ink  sample](https://go.microsoft.com/fwlink/p/?linkid=246570), [Input: Touch hit testing sample](https://go.microsoft.com/fwlink/p/?linkid=231590)
+[Input: Manipulations and gestures (C++) sample](http://code.msdn.microsoft.com/windowsapps/Manipulations-and-gestures-362b6b59), [Input: Simplified ink  sample](https://go.microsoft.com/fwlink/p/?linkid=246570), [Input: Touch hit testing sample](https://go.microsoft.com/fwlink/p/?linkid=231590)

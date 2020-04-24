@@ -156,4 +156,4 @@ function disconnect() {
 
 ## -see-also
 
-[WiFiDirectDevice sample](https://go.microsoft.com/fwlink/p/?LinkID=301419), [Wi-Fi Direct sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620626)
+[WiFiDirectDevice sample](http://code.msdn.microsoft.com/windowsapps/WiFiDirectDevice-sample-59a6e5e0), [Wi-Fi Direct sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620626)

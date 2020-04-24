@@ -69,4 +69,4 @@ void MyWebView_ScriptNotify(object sender, NotifyEventArgs e)
 
 
 ## -see-also
-[AllowedScriptNotifyUris](webview_allowedscriptnotifyuris.md), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)
+[AllowedScriptNotifyUris](webview_allowedscriptnotifyuris.md), [WebView control (XAML) sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

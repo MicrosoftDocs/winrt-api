@@ -21,4 +21,4 @@ The z-order value is used only for arranging [AnimationDescription](animationdes
 ## -examples
 
 ## -see-also
-[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462)
+[Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c)

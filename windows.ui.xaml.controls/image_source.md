@@ -143,7 +143,7 @@ void App1::MainPage::Image_Loaded(Platform::Object^ sender, Windows::UI::Xaml::R
 }
 ```
 
-You can handle the [ImageOpened](image_imageopened.md) event if there are any timing issues with retrieving or decoding the image source, where you might need alternate content to display until the image source is available. See [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575) for example code.
+You can handle the [ImageOpened](image_imageopened.md) event if there are any timing issues with retrieving or decoding the image source, where you might need alternate content to display until the image source is available. See [XAML images sample](http://code.msdn.microsoft.com/windowsapps/0f5d56ae-5e57-48e1-9cd9-993115b027b9) for example code.
 
 ### Using a relative URI in code
 
@@ -395,4 +395,4 @@ You can use automatic handling for accessing unqualified resources with current 
 ## -examples
 
 ## -see-also
-[ImageFailed](image_imagefailed.md), [ImageOpened](image_imageopened.md), [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575)
+[ImageFailed](image_imagefailed.md), [ImageOpened](image_imageopened.md), [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [XAML images sample](http://code.msdn.microsoft.com/windowsapps/0f5d56ae-5e57-48e1-9cd9-993115b027b9)

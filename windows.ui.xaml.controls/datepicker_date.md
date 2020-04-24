@@ -26,4 +26,4 @@ Another possible technique is to define a date that's available as a data object
 ## -examples
 
 ## -see-also
-[DateChanged](datepicker_datechanged.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10)), [XAML DatePicker and TimePicker controls sample](https://go.microsoft.com/fwlink/p/?LinkID=310075)
+[DateChanged](datepicker_datechanged.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10)), [XAML DatePicker and TimePicker controls sample](http://code.msdn.microsoft.com/windowsapps/XAML-DatePicker-and-94ef5709)

@@ -15,7 +15,7 @@ Provides data for the [ManipulationCompleted](../windows.ui.xaml/uielement_manip
 ## -remarks
 
 ## -examples
-The following code example shows scenario 4 from the [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855). This code shows some usage patterns for direct manipulation using the [ManipulationStarting](../windows.ui.xaml/uielement_manipulationstarting.md), [ManipulationStarted](../windows.ui.xaml/uielement_manipulationstarted.md), [ManipulationDelta](../windows.ui.xaml/uielement_manipulationdelta.md), [ManipulationInertiaStarting](../windows.ui.xaml/uielement_manipulationinertiastarting.md), and [ManipulationCompleted](../windows.ui.xaml/uielement_manipulationcompleted.md) events.
+The following code example shows scenario 4 from the [Input sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b). This code shows some usage patterns for direct manipulation using the [ManipulationStarting](../windows.ui.xaml/uielement_manipulationstarting.md), [ManipulationStarted](../windows.ui.xaml/uielement_manipulationstarted.md), [ManipulationDelta](../windows.ui.xaml/uielement_manipulationdelta.md), [ManipulationInertiaStarting](../windows.ui.xaml/uielement_manipulationinertiastarting.md), and [ManipulationCompleted](../windows.ui.xaml/uielement_manipulationcompleted.md) events.
 
 
 

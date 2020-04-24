@@ -24,9 +24,9 @@ The INotifyPropertyChanged interface is used to notify clients, typically bindin
 
 The [PropertyChanged](inotifypropertychanged_propertychanged.md) event can indicate that all properties on the object have changed by using [String.Empty](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) for the [PropertyName](propertychangedeventargs_propertyname.md) property of the [PropertyChangedEventArgs](propertychangedeventargs.md). Note that you cannot use **null** (**Nothing** in Microsoft Visual Basic) for this like you can in Windows Presentation Foundation (WPF) and Microsoft Silverlight.
 
-The [PropertyChanged](inotifypropertychanged_propertychanged.md) event can indicate that indexer properties on the object have changed by using a [PropertyName](propertychangedeventargs_propertyname.md) value of "Item[*indexer* ]" for specific indexers or "Item[]" for all indexers. Note that C++ does not currently support binding to indexers. For a workaround, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
+The [PropertyChanged](inotifypropertychanged_propertychanged.md) event can indicate that indexer properties on the object have changed by using a [PropertyName](propertychangedeventargs_propertyname.md) value of "Item[*indexer* ]" for specific indexers or "Item[]" for all indexers. Note that C++ does not currently support binding to indexers. For a workaround, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind).
 
 ## -examples
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

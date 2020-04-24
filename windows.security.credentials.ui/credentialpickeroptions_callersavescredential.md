@@ -16,7 +16,7 @@ Gets or sets whether the caller wants to save the credentials.
 Gets or sets whether the caller wants to save the credentials. The default value is False.
 
 ## -remarks
-If CallerSavesCredential is False and the user checks the **Save Credentials** check box, the entered credentials are stored in [Credential Manager](https://go.microsoft.com/fwlink/p/?LinkID=287069) by default. However, if CallerSavesCredential is set to True and the user checks the **Save Credentials** check box, it is up to caller to store the entered credentials securely. For secure credential storage, please refer to [Credential Locker](../windows.security.credentials/passwordvault.md).
+If CallerSavesCredential is False and the user checks the **Save Credentials** check box, the entered credentials are stored in [Credential Manager](http://windows.microsoft.com/en-US/Windows7/What-is-Credential-Manager) by default. However, if CallerSavesCredential is set to True and the user checks the **Save Credentials** check box, it is up to caller to store the entered credentials securely. For secure credential storage, please refer to [Credential Locker](../windows.security.credentials/passwordvault.md).
 
 ## -examples
 

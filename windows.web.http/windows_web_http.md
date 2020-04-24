@@ -11,7 +11,7 @@ Provides a modern HTTP client API for UWP app.
 
 ## -remarks
 
-The Windows.Web.Http namespace and the related [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) and [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md) namespaces provide a programming interface for UWP app that target HTTP and REST services. This features of this new HTTP API are designed to be in compliance with HTTP as defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642) by the IETF. The new HTTP API provides consistent support in JavaScript, C#, VB.NET, and C++ for developers.
+The Windows.Web.Http namespace and the related [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) and [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md) namespaces provide a programming interface for UWP app that target HTTP and REST services. This features of this new HTTP API are designed to be in compliance with HTTP as defined in [RFC 2616](http://tools.ietf.org/html/rfc2616) by the IETF. The new HTTP API provides consistent support in JavaScript, C#, VB.NET, and C++ for developers.
 
 This new API replaces the use of three different APIs with differing features that previously were needed for each language projection in Windows 8.
 
@@ -30,10 +30,10 @@ For basic HTTP developers, the new API has a simple interface to handle the most
 The Windows.Web.Http namespace and the related namespaces provide these components:
 
 + [HttpClient](httpclient.md) - the main class that sends and receives requests over HTTP.
-+ [HttpRequestMessage](httprequestmessage.md) - HTTP request messages defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642).
-+ [HttpResponseMessage](httpresponsemessage.md) - HTTP response messages defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642).
++ [HttpRequestMessage](httprequestmessage.md) - HTTP request messages defined in [RFC 2616](http://tools.ietf.org/html/rfc2616).
++ [HttpResponseMessage](httpresponsemessage.md) - HTTP response messages defined in [RFC 2616](http://tools.ietf.org/html/rfc2616).
 
-The contents of an HTTP message corresponds to the entity body defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642). Several classes and an interface in the Windows.Web.Http namespace can be used for HTTP content, including:
+The contents of an HTTP message corresponds to the entity body defined in [RFC 2616](http://tools.ietf.org/html/rfc2616). Several classes and an interface in the Windows.Web.Http namespace can be used for HTTP content, including:
 
 + [IHttpContent](ihttpcontent.md) - A base interface for developers to create their own content objects. It represents an HTTP entity body and content headers. This interface has methods that get and set the actual content data. It also provides properties that get and set content related headers.
 + [HttpBufferContent](httpbuffercontent.md) - HTTP content that uses a buffer.
@@ -43,7 +43,7 @@ The contents of an HTTP message corresponds to the entity body defined in [RFC 2
 + [HttpStreamContent](httpstreamcontent.md) - HTTP content that uses a stream. This content type is used by the HTTP GET method to receive data and the HTTP POST method to upload data.
 + [HttpStringContent](httpstringcontent.md) - HTTP content that uses a string.
 
-Classes in the [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) namespace represent HTTP headers defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642). HTTP headers are associated with [HttpRequestMessage](httprequestmessage.md) and [HttpResponseMessage](httpresponsemessage.md) as properties that are retrieved or set.
+Classes in the [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) namespace represent HTTP headers defined in [RFC 2616](http://tools.ietf.org/html/rfc2616). HTTP headers are associated with [HttpRequestMessage](httprequestmessage.md) and [HttpResponseMessage](httpresponsemessage.md) as properties that are retrieved or set.
 
 Classes in the Windows.Web.Http namespace can use filters based on the classes in the [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md) namespace. Filters provide handlers to help with common HTTP service issues. Filters can be chained together in a sequence to address more complex HTTP service issues. Several ready-to-use filters are included with Windows 8.1 to help library developers fix common HTTP service issues. These filters include handlers for monitored network connections and retry. Library developers can write their own filters for site-specific issues (for example, a site might use the 503 (Server Unavailable) response to indicate the request should be retried).
 

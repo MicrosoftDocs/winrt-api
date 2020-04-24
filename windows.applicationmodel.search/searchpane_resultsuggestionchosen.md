@@ -64,4 +64,4 @@ Windows.ApplicationModel.Search.SearchPane.getForCurrentView().onresultsuggestio
 
 
 ## -see-also
-[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [Object class](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), [SearchPane class](searchpane.md), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneResultSuggestionChosenEventArgs class](searchpaneresultsuggestionchoseneventargs.md)
+[Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5), [Object class](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), [SearchPane class](searchpane.md), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneResultSuggestionChosenEventArgs class](searchpaneresultsuggestionchoseneventargs.md)
