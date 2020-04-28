@@ -22,4 +22,4 @@ GradientBrush is the parent class for [LinearGradientBrush](lineargradientbrush.
 ## -examples
 
 ## -see-also
-[Brush](brush.md), [LinearGradientBrush](lineargradientbrush.md), [GradientStop](gradientstop.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Brush](brush.md), [LinearGradientBrush](lineargradientbrush.md), [RadialGradientBrush](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.radialgradientbrush), [GradientStop](gradientstop.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
