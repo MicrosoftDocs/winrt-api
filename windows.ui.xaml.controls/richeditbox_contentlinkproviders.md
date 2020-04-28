@@ -11,11 +11,11 @@ public ContentLinkProviderCollection ContentLinkProviders { get;  set; }
 
 ## -description
 
-Get or sets the collection of [ContentLinkProvider](../windows.ui.xaml.documents/contentlinkprovider.md)s that define the types of [ContentLink](contentlink.md)s used in this RichEditBox.
+Gets or sets the collection of [ContentLinkProvider](../windows.ui.xaml.documents/contentlinkprovider.md)s that define the types of [ContentLink](../windows.ui.xaml.documents/contentlink.md)s used in this RichEditBox.
 
 ## -property-value
 
-The collection of [ContentLinkProvider](../windows.ui.xaml.documents/contentlinkprovider.md)s that define the types of [ContentLink](contentlink.md)s used in this RichEditBox.
+The collection of [ContentLinkProvider](../windows.ui.xaml.documents/contentlinkprovider.md)s that define the types of [ContentLink](../windows.ui.xaml.documents/contentlink.md)s used in this RichEditBox.
 
 ## -remarks
 
