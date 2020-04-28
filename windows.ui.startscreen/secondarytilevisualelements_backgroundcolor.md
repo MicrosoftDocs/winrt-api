@@ -34,7 +34,7 @@ secondaryTileVisualElements.BackgroundColor(Windows::UI::Colors::Magenta());
 secondaryTileVisualElements.BackgroundColor(Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120));
 ```
 
-```cpp
+```cppcx
 secondaryTileVisualElements->BackgroundColor = Windows::UI::Colors::Magenta;
 secondaryTileVisualElements->BackgroundColor = Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120);
 ```

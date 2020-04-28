@@ -114,7 +114,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
 //Get the users's pictures folder
 //Enable the corresponding capability in the app manifest file
 StorageFolder^ picturesFolder = KnownFolders::PicturesLibrary;

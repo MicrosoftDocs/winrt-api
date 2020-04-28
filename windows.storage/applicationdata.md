@@ -153,7 +153,7 @@ IAsyncAction MainPage::ClickHandler(IInspectable const&, RoutedEventArgs const&)
 }
 ```
 
-```cpp
+```cppcx
 // This example code can be used to read or write to an ApplicationData folder of your choice.
 
 // Change this to StorageFolder^ roamingFolder = ApplicationData::Current->RoamingFolder; to 

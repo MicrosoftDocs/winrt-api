@@ -131,7 +131,7 @@ void AddSettingsScenario::OnCommandsRequested(
 }
 ```
 
-```cpp
+```cppcx
 #include "pch.h"
 #include "AddSettingsScenario.xaml.h"
 

@@ -198,7 +198,7 @@ winrt::Windows::Foundation::IAsyncAction WriteReadStream::TransferData(
 }
 ```
 
-```cpp
+```cppcx
 #include "pch.h"
 #include "WriteReadStream.xaml.h"
 

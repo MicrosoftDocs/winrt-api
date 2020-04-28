@@ -81,7 +81,7 @@ if (hasContainer)
 localSettings.DeleteContainer(L"exampleContainer");
 ```
 
-```cpp
+```cppcx
 ApplicationDataContainer^ localSettings = ApplicationData::Current->LocalSettings;
 
 // Create a setting in a container

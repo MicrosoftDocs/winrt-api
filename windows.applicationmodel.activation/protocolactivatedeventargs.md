@@ -74,7 +74,7 @@ void App::OnActivated(Windows::ApplicationModel::Activation::IActivatedEventArgs
 }
 ```
 
-```cpp
+```cppcx
 void App::OnActivated(Windows::ApplicationModel::Activation::IActivatedEventArgs^ args)
 {
    if (args->Kind == Windows::ApplicationModel::Activation::ActivationKind::Protocol)

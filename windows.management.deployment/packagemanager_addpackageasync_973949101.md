@@ -136,7 +136,7 @@ int wmain(int /* argc */, wchar_t *argv[], wchar_t * /* envp[] */)
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Foundation;
 using namespace Windows::Management::Deployment;
 

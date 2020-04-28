@@ -66,7 +66,7 @@ winrt::hstring value{ winrt::unbox_value<winrt::hstring>(values.Lookup(L"example
 values.Remove(L"exampleSetting");
 ```
 
-```cpp
+```cppcx
 ApplicationDataContainer^ localSettings = ApplicationData::Current->LocalSettings;
 
 // Create a simple setting.

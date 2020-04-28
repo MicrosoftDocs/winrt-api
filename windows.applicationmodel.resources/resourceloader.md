@@ -44,7 +44,7 @@ auto resourceLoader{ Windows::ApplicationModel::Resources::ResourceLoader::GetFo
 winrt::hstring text{ resourceLoader.GetString(L"Farewell") };
 ```
 
-```cpp
+```cppcx
 auto resourceLoader = Windows::ApplicationModel::Resources::ResourceLoader::GetForCurrentView();
 String^ text = resourceLoader->GetString("Farewell");
 ```

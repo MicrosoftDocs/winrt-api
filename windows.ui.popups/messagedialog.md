@@ -128,7 +128,7 @@ void MainPage::CommandInvokedHandler(Windows::UI::Popups::IUICommand const& comm
 }
 ```
 
-```cpp
+```cppcx
 #include "pch.h"
 #include "CancelCommand.xaml.h"
 

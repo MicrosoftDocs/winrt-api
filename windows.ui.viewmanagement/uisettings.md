@@ -78,7 +78,7 @@ void MainPage::ClickHandler(IInspectable const&, RoutedEventArgs const&)
 }
 ```
 
-```cpp
+```cppcx
 void SDKSample::HighContrast::UI::UIGetSettings_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 { 
   Button^ b = safe_cast<Button^>(sender);

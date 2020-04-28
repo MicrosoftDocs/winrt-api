@@ -23,7 +23,7 @@ To identify controllers that have already been added, you query the list of conn
 
 The following example starts tracking a raw game controller that's been added. `myRawGameControllers` is a `Vector<RawGameController^>` that contains the raw game controllers that your game is tracking.
 
-```cpp
+```cppcx
 RawGameController::RawGameControllerAdded += ref new EventHandler<RawGameController^>(
 		[] (Platform::Object^, RawGameController^ args)
 {

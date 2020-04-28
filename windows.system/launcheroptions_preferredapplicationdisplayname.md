@@ -98,7 +98,7 @@ Windows::Foundation::IAsyncAction MainPage::DefaultLaunch()
 }
 ```
 
-```cpp
+```cppcx
 void MainPage::DefaultLaunch()
 {
    auto installFolder = Windows::ApplicationModel::Package::Current->InstalledLocation;

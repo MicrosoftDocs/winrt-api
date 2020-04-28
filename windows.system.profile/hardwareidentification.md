@@ -50,7 +50,7 @@ void MainPage::DefaultLaunch()
 }
 ```
 
-```cpp
+```cppcx
 // nonce is an IBuffer object that would be sent from the cloud service.
 HardwareToken^ packageSpecificToken;
 

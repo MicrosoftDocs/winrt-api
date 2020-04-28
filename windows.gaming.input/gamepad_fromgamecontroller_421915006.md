@@ -36,7 +36,7 @@ This method checks if the provided game controller has a gamepad implementation,
 
 In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **Gamepad** class:
 
-```cpp
+```cppcx
 Gamepad^ gamepad;
 
 if (RawGameController::RawGameControllers->Size > 0)

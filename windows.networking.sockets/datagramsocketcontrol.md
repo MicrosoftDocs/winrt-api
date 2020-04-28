@@ -56,7 +56,7 @@ clientSocket.Control().QualityOfService(Windows::Networking::Sockets::SocketQual
 // Now you can call the ConnectAsync function to connect the DatagramSocket.
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Networking::Sockets;
 
 DatagramSocket^ clientSocket = ref new DatagramSocket();

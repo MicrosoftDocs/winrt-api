@@ -99,7 +99,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
 StorageFolder^ localFolder = ApplicationData::Current->LocalFolder;
 
 String^ folderName = "test";

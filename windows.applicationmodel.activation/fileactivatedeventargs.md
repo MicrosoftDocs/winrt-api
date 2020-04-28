@@ -65,7 +65,7 @@ void App::OnFileActivated(Windows::ApplicationModel::Activation::FileActivatedEv
 }
 ```
 
-```cpp
+```cppcx
 void App::OnFileActivated(Windows::ApplicationModel::Activation::FileActivatedEventArgs^ args)
 {
        // TODO: Handle file activation

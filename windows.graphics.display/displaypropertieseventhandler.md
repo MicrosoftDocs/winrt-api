@@ -24,7 +24,7 @@ The [Direct3D 11.1 Simple Stereo 3D Sample](http://code.msdn.microsoft.com/Direc
 
 ## -examples
 
-```cpp
+```cppcx
 void GameRenderer::Initialize()
 {
     DisplayProperties::StereoEnabledChanged += 

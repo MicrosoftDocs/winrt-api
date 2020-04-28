@@ -83,7 +83,7 @@ void App::OnActivated(Windows::ApplicationModel::Activation::IActivatedEventArgs
 }
 ```
 
-```cpp
+```cppcx
 void App::OnActivated(IActivatedEventArgs^ args)
 {
     if (args->Kind == ActivationKind::Contact)

@@ -48,7 +48,7 @@ public:
     }
 ```
 
-```cpp
+```cppcx
 protected:
     virtual AutomationPeer^ OnCreateAutomationPeer() override
     {

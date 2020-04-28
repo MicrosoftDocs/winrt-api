@@ -81,7 +81,7 @@ std::wstring uriToLaunch{ L"http://www.bing.com" };
 Windows::Foundation::Uri uri{ uriToLaunch };
 ```
 
-```cpp
+```cppcx
 // The URI string
 var uriToLaunch = L"http://www.bing.com";
 
@@ -107,7 +107,7 @@ std::wstring uriImage{ L"ms-appx:///images/SecondaryTileDefault-sdk.png" };
 Windows::Foundation::Uri uri{ uriImage };
 ```
 
-```cpp
+```cppcx
 // The URI string
 var uriImage = ;
 
@@ -133,7 +133,7 @@ std::wstring uriFile{ L"ms-appdata:///local/file.ext" };
 Windows::Foundation::Uri uri{ uriFile };
 ```
 
-```cpp
+```cppcx
 // The URI string
 var uriFile = "ms-appdata:///local/file.ext";
 

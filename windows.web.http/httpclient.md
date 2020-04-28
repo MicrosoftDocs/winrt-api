@@ -108,7 +108,7 @@ Windows::Foundation::IAsyncAction HttpClientExample()
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Foundation;
 using namespace Windows::Web::Http;
 

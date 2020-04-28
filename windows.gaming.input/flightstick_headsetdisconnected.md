@@ -26,7 +26,7 @@ For more information on detecting, tracking, and using headsets, see [Headset](h
 
 The following example shows how to register a handler for this event. `flightStick` is a **FlightStick** that's connected to the device.
 
-```cpp
+```cppcx
 flightStick.HeadsetDisconnected += ref new TypedEventHandler<IGameController^, Headset^>(
     [] (IGameController^ device, Headset^ headset)
 {

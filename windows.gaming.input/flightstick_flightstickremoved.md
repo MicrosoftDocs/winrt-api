@@ -17,7 +17,7 @@ Signals when a flight stick is disconnected.
 
 The following example stops tracking a flight stick that's been removed. `myFlightSticks` is a `Vector<FlightStick^>` that contains the flight sticks that your game is tracking.
 
-```cpp
+```cppcx
 FlightStick::FlightStickRemoved += 
     ref new EventHandler<FlightStick^>([] (Platform::Object^, FlightStick^ args)
 {

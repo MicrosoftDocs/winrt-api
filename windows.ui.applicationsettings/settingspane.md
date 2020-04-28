@@ -128,7 +128,7 @@ Imports System
 
 ```
 
-```cpp
+```cppcx
 #include "pch.h"
 #include "AddSettingsScenario.xaml.h"
 
@@ -184,10 +184,7 @@ void ApplicationSettings::AddSettingsScenario::onCommandsRequested(
     SettingsCommand^ helpCommand = ref new SettingsCommand("helpPage", "Help", handler);
     eventArgs->Request->ApplicationCommands->Append(helpCommand);
 }
-
 ```
-
-
 
 ## -see-also
 [SettingsCommand](settingscommand.md), [App settings sample](http://code.msdn.microsoft.com/windowsapps/app-settings-sample-1f762f49)

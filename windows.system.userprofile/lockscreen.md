@@ -30,7 +30,7 @@ Windows::Foundation::IAsyncAction MainPage::ExampleCoroutineAsync(Windows::Stora
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::System::UserProfile;
 LockScreen::SetImageFileAsync(file)
 ```
@@ -51,7 +51,7 @@ Windows::Storage::Streams::IRandomAccessStream imageStream{
 };
 ```
 
-```cpp
+```cppcx
 auto imageStream = Windows::System::UserProfile::LockScreen::GetImageStream();
 ```
 

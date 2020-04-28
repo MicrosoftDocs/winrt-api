@@ -31,7 +31,7 @@ Windows::Storage::Streams::IRandomAccessStream imageStream{
 };
 ```
 
-```cpp
+```cppcx
 auto imageStream = Windows::System::UserProfile::LockScreen::GetImageStream();
 ```
 

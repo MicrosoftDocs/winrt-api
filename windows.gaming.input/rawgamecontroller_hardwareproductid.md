@@ -27,7 +27,7 @@ If you have a specific controller that you want to support, you can get this val
 
 The following example checks if the given raw game controller's PID and VID (Product ID and Vendor ID, respectively) match the given PID and VID.
 
-```cpp
+```cppcx
 void CheckIfMatch(RawGameController rawGameController, unsigned short pid, unsigned short vid)
 {
 	if ((rawGameController.HardwareProductId == pid) &&

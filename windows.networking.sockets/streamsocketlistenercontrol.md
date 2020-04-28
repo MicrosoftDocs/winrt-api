@@ -52,7 +52,7 @@ listenerSocket.Control().QualityOfService(Windows::Networking::Sockets::SocketQu
 // Now you can call the BindServiceNameAsync or BindEndpointAsync method to listen for connections.
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Networking::Sockets;
 
 StreamSocketListener^ listenerSocket = ref new StreamSocketListener();

@@ -74,7 +74,7 @@ void MainPage::SCP_OnPointerReleased(Windows::Foundation::IInspectable const& /*
     Windows::UI::Core::PointerEventArgs const& /* args */) {}
 ```
 
-```cpp
+```cppcx
 // Create a task to register for independent input and begin processing input messages.
 auto workItemHandler = ref new WorkItemHandler([this] (IAsyncAction ^)
 {

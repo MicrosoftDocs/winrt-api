@@ -40,7 +40,7 @@ Windows::Foundation::TimeSpan delay{ std::chrono::seconds(1) };
 ThreadPoolTimer timer{ ThreadPoolTimer::CreateTimer(TimerElapsedHandler(timerDelegate), delay) };
 ```
 
-```cpp
+```cppcx
 auto timerDelegate = [ussdSession](Windows::System::Threading::ThreadPoolTimer^ timer) {};
 Windows::Foundation::TimeSpan delay;
 delay.Duration = 1; // non-zero value

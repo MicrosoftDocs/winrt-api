@@ -92,7 +92,7 @@ protected override void OnNavigatedTo(NavigationEventArgs e)
 }
 ```
 
-```cpp
+```cppcx
 void SDKSample::DeviceCaps::Pointer::PointerGetSettings_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e) 
 { 
     Button^ b = safe_cast<Button^>(sender); 

@@ -36,7 +36,7 @@ This method checks if the provided game controller has an arcade stick implement
 
 In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **ArcadeStick** class:
 
-```cpp
+```cppcx
 ArcadeStick^ arcadeStick;
 
 if (RawGameController::RawGameControllers->Size > 0)

@@ -79,7 +79,7 @@ Windows::UI::Xaml::Controls::Image img;
 img.Source(Windows::UI::Xaml::Media::Imaging::BitmapImage{ Windows::Foundation::Uri{ L"ms-appx:///Assets/LockScreenLogo.png" } });
 ```
 
-```cpp
+```cppwinrt
 auto img = ref new Image();
 auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/Logo.png");
@@ -129,7 +129,7 @@ void MainPage::Image_Loaded(winrt::Windows::Foundation::IInspectable const& send
 }
 ```
 
-```cpp
+```cppwinrt
 void App1::MainPage::Image_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
  auto img = dynamic_cast<Image^>(sender);
@@ -163,7 +163,7 @@ bitmapImage.UriSource = new Uri(this.BaseUri, "Assets/placeholder.png");
 capturedPhoto.Source = bitmapImage;
 ```
 
-```cpp
+```cppwinrt
 auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 // Call BaseUri on the root Page element and combine it with a relative path
 // to consruct an absolute URI.
@@ -188,7 +188,7 @@ img.Source = bitmapImage;
 stackPanel1.Children.Add(img);
 ```
 
-```cpp
+```cppwinrt
 auto img = ref new Image();
 auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 
@@ -217,7 +217,7 @@ bitmapImage.UriSource = uri;
 img.Source = bitmapImage;
 ```
 
-```cpp
+```cppwinrt
 auto img = ref new Image();
 // Add the image to the page.
 stackPanel1->Children->Append(img);
@@ -242,7 +242,7 @@ Image img = new Image();
 img.Source = new BitmapImage(new Uri("http://www.contoso.com/images/logo.png"));
 ```
 
-```cpp
+```cppwinrt
 auto img = ref new Image();
 img->Source = ref new BitmapImage(ref new Windows::Foundation::Uri("http://www.contoso.com/images/logo.png"));
 ```

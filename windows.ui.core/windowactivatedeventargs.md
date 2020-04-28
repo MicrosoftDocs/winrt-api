@@ -30,7 +30,7 @@ void SetWindow(CoreWindow const & window)
 void OnActivated(Windows::UI::Core::CoreWindow const& /* sender */, Windows::UI::Core::WindowActivatedEventArgs const& /* args */) {}
 ```
 
-```cpp
+```cppcx
 // returning window activation events data through WindowActivatedEventArgs
 void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context
     _In_ CoreWindow^ window

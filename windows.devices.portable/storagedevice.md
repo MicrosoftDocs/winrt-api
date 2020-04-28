@@ -71,7 +71,7 @@ var folder = StorageDevice.FromId(deviceInformationId);
 StorageFolder folder{ StorageDevice::FromId(deviceInformationId) };
 ```
 
-```cpp
+```cppcx
 StorageFolder^ folder = StorageDevice::FromId(deviceInformationId);
 ```
 

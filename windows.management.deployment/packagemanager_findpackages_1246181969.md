@@ -118,7 +118,7 @@ int wmain()
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Management::Deployment;
 
 [STAThread]

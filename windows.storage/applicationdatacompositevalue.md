@@ -85,7 +85,7 @@ auto values{ localSettings.Values() };
 values.Remove(L"exampleCompositeSetting");
 ```
 
-```cpp
+```cppcx
 ApplicationDataContainer^ localSettings = ApplicationData::Current->LocalSettings;
 
 // Create a composite setting

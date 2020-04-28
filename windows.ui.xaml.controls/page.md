@@ -143,7 +143,7 @@ void App::OnLaunched(LaunchActivatedEventArgs const& e)
 }
 ```
 
-```cpp
+```cppcx
 void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEventArgs^ e)
 {
     auto rootFrame = dynamic_cast<Frame^>(Window::Current->Content);

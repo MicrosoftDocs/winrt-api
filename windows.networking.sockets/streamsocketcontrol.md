@@ -54,7 +54,7 @@ clientSocket.Control().NoDelay(false);
 // Now you can call the ConnectAsync function to connect the StreamSocket.
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Networking::Sockets;
 
 StreamSocket^ clientSocket = ref new StreamSocket();

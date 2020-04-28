@@ -23,7 +23,7 @@ To identify flight sticks that have already been added, you query the list of co
 
 The following example starts tracking a flight stick that's been added. `myFlightSticks` is a `Vector<FlightStick^>` that contains the flight sticks that your game is tracking.
 
-```cpp
+```cppcx
 FlightStick::FlightStickAdded += 
     ref new EventHandler<FlightStick^>([] (Platform::Object^, FlightStick^ args)
 {

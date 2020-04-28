@@ -28,7 +28,7 @@ while (iterator1.HasCurrent())
 }
 ```
 
-```cpp
+```cppcx
 auto iterator1 = uieCollection->First();
 while (iterator1->HasCurrent)
 {

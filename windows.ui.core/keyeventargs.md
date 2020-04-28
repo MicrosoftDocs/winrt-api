@@ -40,7 +40,7 @@ void OnKeyUp(Windows::UI::Core::CoreWindow const& /* sender */,
     Windows::UI::Core::KeyEventArgs const& /* args */) {}
 ```
 
-```cpp
+```cppcx
 // returning keypress events data through KeyEventArgs
 void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context
     _In_ CoreWindow^ window

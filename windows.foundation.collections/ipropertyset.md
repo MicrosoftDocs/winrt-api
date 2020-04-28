@@ -95,7 +95,7 @@ else
 }
 ```
 
-```cpp
+```cppcx
 // In this example, the channel name has been hardcoded to look up the property bag
 // for any previous contexts. The channel name may be used in more sophisticated ways
 // in case an app has multiple ControlChannelTrigger objects.

@@ -36,7 +36,7 @@ This method checks if the provided game controller has a racing wheel implementa
 
 In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **RacingWheel** class:
 
-```cpp
+```cppcx
 RacingWheel^ racingWheel;
 
 if (RawGameController::RawGameControllers->Size > 0)

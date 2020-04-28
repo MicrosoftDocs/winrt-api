@@ -35,7 +35,7 @@ int __stdcall wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
 
 If you're using C++/CX, then a view provider must be attributed as **MTAThread.**
 
-```cpp
+```cppcx
 ref class MyFrameworkViewSource : IFrameworkViewSource
 {
 public:

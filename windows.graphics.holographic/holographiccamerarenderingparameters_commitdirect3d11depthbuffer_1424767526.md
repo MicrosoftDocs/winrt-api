@@ -24,7 +24,7 @@ This method will make use of the Direct3D device you provided to the Holographic
 
 The following code example shows how to convert a depth buffer resource from a native [ID3D11Texture2D](/windows/win32/api/d3d11/nn-d3d11-id3d11texture2d) to a WinRT [IDirect3DSurface](/uwp/api/windows.graphics.directx.direct3d11.idirect3dsurface) interface that can be passed into **CommitDirect3D11DepthBuffer**. The **ID3D11Texture2D** must have been created with the [D3D11_BIND_SHADER_RESOURCE](/windows/win32/api/d3d11/ne-d3d11-d3d11_bind_flag) to be read by the system.
 
-```cpp
+```cppcx
 inline winrt::Windows::Graphics::DirectX::Direct3D11::IDirect3DSurface CreateDepthTextureInteropObject(
         const Microsoft::WRL::ComPtr<ID3D11Texture2D> spTexture2D)
 {

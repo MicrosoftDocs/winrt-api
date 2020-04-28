@@ -33,7 +33,7 @@ void SetWindow(CoreWindow const & window)
 void OnWindowSizeChanged(Windows::UI::Core::CoreWindow const& /* sender */, Windows::UI::Core::WindowSizeChangedEventArgs const& /* args */) {}
 ```
 
-```cpp
+```cppcx
 // returning window size change events data through WindowSizeChangedEventArgs
 void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context
     _In_ CoreWindow^ window

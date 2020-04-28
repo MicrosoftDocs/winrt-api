@@ -38,7 +38,7 @@ void OnCharacterReceived(
 }
 ```
 
-```cpp
+```cppcx
 // returning character received events data through CharacterReceivedEventArgs
 
 void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context

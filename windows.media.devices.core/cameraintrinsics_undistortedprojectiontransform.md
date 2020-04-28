@@ -20,7 +20,7 @@ The transform converts from a 2D coordinate in meters on the image plane (origin
 
 To convert a 3D coordinate in the camera's coordinate system to pixel coordinates, the X and Y components of the coordinate must first be divided by the distance from the camera (i.e. the Z coordinate) to project them onto the image plane. Note that camera coordinate systems are right-handed by convention, with +X pointing right, +Y pointing up, and -Z pointing out from the camera through the center (principal point) of the image. In that convention, the Z coordinate must be negated when dividing into the X and Y components. For example:
 
-```cpp
+```cppwinrt
 using namespace winrt::Windows::Foundation::Numerics;
 winrt::Windows::Foundation::Point ProjectCameraCoordinateToPixelCoordinate(
     const winrt::Windows::Media::Devices::Core::CameraIntrinsics& cameraIntrinsics,
@@ -34,7 +34,7 @@ winrt::Windows::Foundation::Point ProjectCameraCoordinateToPixelCoordinate(
 
 An equivalent result can be acheived using a vector with four components by setting the Z component to 1 and the W component to the distance from the camera. Note that the resulting X and Y components must be divided by the resulting W component to yield the final pixel coordinates:
 
-```cpp
+```cppwinrt
 using namespace winrt::Windows::Foundation::Numerics;
 winrt::Windows::Foundation::Point ProjectCameraCoordinateToPixelCoordinate(
     const winrt::Windows::Media::Devices::Core::CameraIntrinsics& cameraIntrinsics,
@@ -48,7 +48,7 @@ winrt::Windows::Foundation::Point ProjectCameraCoordinateToPixelCoordinate(
 
 If this transform will be applied to many 3D coordinates, it may be more convenient to adjust the matrix itself, rather than each input coordinate. This can be accomplished by swapping the third and fourth rows of the matrix, and using a homogeneous coordinate transform function like <a href="https://docs.microsoft.com/en-us/windows/win32/api/directxmath/nf-directxmath-xmvector3transformcoordstream">XMVector3TransformCoordStream</a>. Note that a right-handed-to-left-handed conversion is also applied as part of the transform so that the distance from the camera is a positive value:
 
-```cpp
+```cppwinrt
 using namespace DirectX;
 void ProjectCameraCoordinatesToPixelCoordinates(
     const winrt::Windows::Media::Devices::Core::CameraIntrinsics& cameraIntrinsics,

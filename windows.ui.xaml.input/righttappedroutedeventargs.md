@@ -21,7 +21,7 @@ A [RightTapped](../windows.ui.xaml/uielement_righttapped.md) event is sent whene
 
 The following snippets are from *Scenario 1 - Input events* of the [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/fe8567faf2efdea3672c2ba642ba7b925ff6467e/Samples/BasicInput).
 
-```cpp
+```cppcx
 Scenario1::Scenario1()
 {
     InitializeComponent();

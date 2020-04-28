@@ -17,7 +17,7 @@ Signals when a raw game controller is disconnected.
 
 The following example stops tracking a raw game controller that's been removed. `myRawGameControllers` is a `Vector<RawGameController^>` that contains the raw game controllers that your game is tracking.
 
-```cpp
+```cppcx
 RawGameController::RawGameControllerRemoved += 
     ref new EventHandler<RawGameController^>(
         [] (Platform::Object^, RawGameController^ args)

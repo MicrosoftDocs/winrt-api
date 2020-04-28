@@ -36,7 +36,7 @@ This method checks if the provided game controller has a UI navigation controlle
 
 In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **UINavigationController** class:
 
-```cpp
+```cppcx
 UINavigationController^ uiNavigationController;
 
 if (RawGameController::RawGameControllers->Size > 0)

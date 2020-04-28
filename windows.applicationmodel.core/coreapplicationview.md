@@ -35,7 +35,7 @@ struct App : implements<App, IFrameworkViewSource, IFrameworkView>
 }
 ```
 
-```cpp
+```cppcx
 ref class MyFrameworkView : public IFrameworkView
 {
 // ...

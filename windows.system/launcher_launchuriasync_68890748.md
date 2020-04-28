@@ -106,7 +106,7 @@ Windows::Foundation::IAsyncAction MainPage::DefaultLaunch()
 }
 ```
 
-```cpp
+```cppcx
 // The URI to launch
 auto uri = ref new Windows::Foundation::Uri("http://www.bing.com");
 

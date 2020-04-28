@@ -42,7 +42,7 @@ See [Raw game controller](https://docs.microsoft.com/windows/uwp/gaming/raw-game
 
 The following code snippet shows how to loop through the **RawGameController.RawGameControllers** list and add each **RawGameController** to a vector. You'll need to put a lock on the vector, because things can change at any time (a controller might be disconnected or reconnected, for example).
 
-```cpp
+```cppcx
 void GetRawGameControllers()
 {
     auto myControllers{ std::vector<RawGameController>() };

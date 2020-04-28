@@ -24,7 +24,7 @@ This class provides methods to get the default game chat overlay instance, set t
 
 This sample demonstrates setting up game chat and adding text messages to it.
 
-```cpp
+```cppcx
 void ChatSample::SetUpGameChat(GameChatOverlayPosition position)
 {
     // Get the default game chat overlay object. Platforms that don't support

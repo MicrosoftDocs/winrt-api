@@ -177,7 +177,7 @@ struct MediaContainerAP : MediaContainerAPT<MediaContainerAP>
 };
 ```
 
-```cpp
+```cppcx
 // header
         public ref class MediaContainerAP sealed :  Windows::UI::Xaml::Automation::Peers::FrameworkElementAutomationPeer
                                                     ,Windows::UI::Xaml::Automation::Provider::IRangeValueProvider

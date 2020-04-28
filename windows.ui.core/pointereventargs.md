@@ -47,7 +47,7 @@ void OnPointerMoved(Windows::UI::Core::CoreWindow const& /* sender */,
     Windows::UI::Core::PointerEventArgs const& /* args */) {}
 ```
 
-```cpp
+```cppcx
 // returning pointer events data through PointerEventArgs
 
 void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context

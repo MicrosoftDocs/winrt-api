@@ -49,7 +49,7 @@ void MainPage::OnTick(Windows::Foundation::IInspectable const& /* sender */,
 }
 ```
 
-```cpp
+```cppcx
 // .cpp definition, .h not shown
 void MainPage::StartTimerAndRegisterHandler() {
     auto timer = ref new Windows::UI::Xaml::DispatcherTimer();
