@@ -10,7 +10,7 @@ public Vector2[] HiddenAreaMesh { get; }
 # Windows.Graphics.Holographic.HolographicCameraViewportParameters.HiddenAreaMesh
 
 ## -description
-Gets screen-space vertices that define the viewport area the user cannot see, given the headset's lens geometry.
+Gets vertices in NDC space that define the viewport area the user cannot see, given the headset's lens geometry.
 
 ## -property-value
 The hidden area mesh vertices.

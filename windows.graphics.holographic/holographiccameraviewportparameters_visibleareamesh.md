@@ -10,7 +10,7 @@ public Vector2[] VisibleAreaMesh { get; }
 # Windows.Graphics.Holographic.HolographicCameraViewportParameters.VisibleAreaMesh
 
 ## -description
-Gets screen-space vertices that define the viewport area the user can see, given the headset's lens geometry.
+Gets vertices in NDC space that define the viewport area the user can see, given the headset's lens geometry.
 
 ## -property-value
 The visible area mesh vertices.
