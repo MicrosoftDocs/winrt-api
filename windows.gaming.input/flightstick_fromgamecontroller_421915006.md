@@ -34,7 +34,26 @@ This method checks if the provided game controller has a flight stick implementa
 
 ## -examples
 
-In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **FlightStick** class:
+In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **FlightStick** class.
+
+```cppwinrt
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+...
+FlightStick flightStick{ nullptr };
+
+if (RawGameController::RawGameControllers().Size() > 0)
+{
+    RawGameController rawGameController{ RawGameController::RawGameControllers().GetAt(0) };
+    flightStick = FlightStick::FromGameController(rawGameController);
+}
+
+if (flightStick)
+{
+    // Assign a standard button mapping to this controller.
+}
+```
 
 ```cppcx
 FlightStick^ flightStick;
@@ -52,4 +71,3 @@ if (flightStick != nullptr)
     // Assign a standard button mapping to this controller.
 }
 ```
-

@@ -24,12 +24,26 @@ For more information on detecting, tracking, and using headsets, see [Headset](h
 
 ## -examples
 
-The following example shows how to register a handler for this event. `rawGameController` is a **RawGameController** that's connected to the device.
+The following example shows how to register a handler for this event.
+
+```cppwinrt
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+...
+RawGameController m_rawGameController{ nullptr }; // Need to initialize this to a **RawGameController** that's connected to the device.
+...
+m_rawGameController.HeadsetDisconnected([this](IGameController const& /* sender */, Headset const& /* args */)
+    {
+        // Disable headset capture and playback on this device.
+    });
+```
 
 ```cppcx
+// `rawGameController` is a **RawGameController** that's connected to the device.
 rawGameController.HeadsetDisconnected += ref new TypedEventHandler<IGameController^, Headset^>(
 		[] (IGameController^ device, Headset^ headset)
 {
-    // Enable headset capture and playback on this device.
+    // DIsable headset capture and playback on this device.
 });
 ```

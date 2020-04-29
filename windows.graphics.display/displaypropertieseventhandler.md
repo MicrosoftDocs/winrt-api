@@ -24,6 +24,22 @@ The [Direct3D 11.1 Simple Stereo 3D Sample](http://code.msdn.microsoft.com/Direc
 
 ## -examples
 
+```cppwinrt
+#include <winrt/Windows.Graphics.Display.h>
+using namespace winrt;
+using namespace Windows::Graphics::Display;
+...
+void GameRenderer::Initialize()
+{
+    DisplayProperties::StereoEnabledChanged({ this, &GameRenderer::OnStereoEnableChanged });
+}
+
+void GameRenderer::OnStereoEnableChanged(winrt::Windows::Foundation::IInspectable const& sender)
+{
+    UpdateForStereoChange();
+}
+```
+
 ```cppcx
 void GameRenderer::Initialize()
 {

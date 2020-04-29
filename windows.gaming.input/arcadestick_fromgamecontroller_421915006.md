@@ -34,7 +34,26 @@ This method checks if the provided game controller has an arcade stick implement
 
 ## -examples
 
-In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **ArcadeStick** class:
+In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **ArcadeStick** class.
+
+```cppwinrt
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+...
+ArcadeStick arcadeStick{ nullptr };
+
+if (RawGameController::RawGameControllers().Size() > 0)
+{
+    RawGameController rawGameController{ RawGameController::RawGameControllers().GetAt(0) };
+    arcadeStick = ArcadeStick::FromGameController(rawGameController);
+}
+
+if (arcadeStick)
+{
+    // Assign a standard button mapping to this controller.
+}
+```
 
 ```cppcx
 ArcadeStick^ arcadeStick;
@@ -50,4 +69,3 @@ if (arcadeStick != nullptr)
     // Assign a standard button mapping to this controller.
 }
 ```
-
