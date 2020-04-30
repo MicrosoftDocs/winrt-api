@@ -20,4 +20,4 @@ One of the enumeration values.
 ## -examples
 
 ## -see-also
-[Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [How to handle protocol activation](https://docs.microsoft.com/previous-versions/windows/apps/hh452686(v=win.10)), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [URI](../windows.foundation/uri.md), [WebUIApplication.ActivatedEventHandler](activatedeventhandler.md), [WinJS.Application.onactivated](https://docs.microsoft.com/previous-versions/windows/apps/br212679(v=win.10))
+[Association launching sample](http://code.msdn.microsoft.com/windowsapps/Association-Launching-535d2cec), [How to handle protocol activation](https://docs.microsoft.com/previous-versions/windows/apps/hh452686(v=win.10)), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [URI](../windows.foundation/uri.md), [WebUIApplication.ActivatedEventHandler](activatedeventhandler.md), [WinJS.Application.onactivated](https://docs.microsoft.com/previous-versions/windows/apps/br212679(v=win.10))

@@ -18,7 +18,7 @@ A reference to the pixel buffer.
 ## -examples
 This code example uses the **PixelBuffer** property of [WriteableBitmap](writeablebitmap.md) to write to its pixel content.
 
-The C# example comes from a larger code sample&mdash;the SDK [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575). The C# code shown is part of a transcoding scenario that eventually uses the [WriteableBitmap](writeablebitmap.md) as an [Image.Source](../windows.ui.xaml.controls/image_source.md) value, and displays the image.
+The C# example comes from a larger code sample&mdash;the SDK [XAML images sample](http://code.msdn.microsoft.com/windowsapps/0f5d56ae-5e57-48e1-9cd9-993115b027b9). The C# code shown is part of a transcoding scenario that eventually uses the [WriteableBitmap](writeablebitmap.md) as an [Image.Source](../windows.ui.xaml.controls/image_source.md) value, and displays the image.
 
 The examples in the other languages are a little more scoped and/or self-contained.
 
@@ -157,4 +157,4 @@ The [IBuffer](/uwp/api/windows.storage.streams.ibuffer) returned by **PixelBuffe
 - To access the pixel content from C++/CX, you can query **PixelBuffer** for the [IBufferByteAccess interface](/previous-versions/hh846267(v%3Dvs.85)), which is a COM interface. Include `robuffer.h`. You can then call the the [IBufferByteAccess::Buffer method](/previous-versions/hh846268%28v%3dvs.85%29) to retrieve a pointer to the buffer of bytes that represents the pixel content. This is shown in the C++/CX code example.
 
 ## -see-also
-[BitmapSource](bitmapsource.md), [BitmapDecoder](../windows.graphics.imaging/bitmapdecoder.md), [IBuffer](/uwp/api/windows.storage.streams.ibuffer), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575)
+[BitmapSource](bitmapsource.md), [BitmapDecoder](../windows.graphics.imaging/bitmapdecoder.md), [IBuffer](/uwp/api/windows.storage.streams.ibuffer), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML images sample](http://code.msdn.microsoft.com/windowsapps/0f5d56ae-5e57-48e1-9cd9-993115b027b9)

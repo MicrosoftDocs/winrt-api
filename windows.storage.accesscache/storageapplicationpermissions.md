@@ -17,7 +17,7 @@ Provides static properties for you to get your app's most recently used list (MR
 
 Access the methods and properties of this class statically.
 
-To see more code examples, see the [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) and the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
+To see more code examples, see the [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) and the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
 
 To learn about using the [FutureAccessList](storageapplicationpermissions_futureaccesslist.md) and [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md), see [How to track recently used files and folders](https://docs.microsoft.com/previous-versions/windows/apps/hh972603(v=win.10)).
 

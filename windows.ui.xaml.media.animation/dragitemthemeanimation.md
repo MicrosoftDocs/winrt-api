@@ -122,7 +122,7 @@ void DraggableControl::OnPointerMoved(Windows::UI::Xaml::Input::PointerRoutedEve
 }
 ```
 
-```cpp
+```cppcx
 // DraggableControl.h:
 public ref class DraggableControl sealed : public Windows::UI::Xaml::Controls::Control
 {

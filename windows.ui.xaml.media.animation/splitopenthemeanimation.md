@@ -161,7 +161,7 @@ void SplitOpenControl::OnPointerReleased(Windows::UI::Xaml::Input::PointerRouted
 }
 ```
 
-```cpp
+```cppcx
 // SplitOpenControl.h:
 public ref class SplitOpenControl sealed : public Windows::UI::Xaml::Controls::Control
 {

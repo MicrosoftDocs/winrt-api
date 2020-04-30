@@ -48,7 +48,7 @@ Use [Windows.Globalization.Language.IsWellFormed](https://docs.microsoft.com/uwp
 
 
 ### Samples
-- [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+- [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)
 
 ## -examples
 

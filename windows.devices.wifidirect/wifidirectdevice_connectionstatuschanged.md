@@ -19,4 +19,4 @@ You can add a handler for the ConnectionStatusChanged event to be notified when 
 ## -examples
 
 ## -see-also
-[GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134.md), [WiFiDirectDevice sample](https://go.microsoft.com/fwlink/p/?LinkID=301419)
+[GetDeviceSelector](wifidirectdevice_getdeviceselector_185243134.md), [WiFiDirectDevice sample](http://code.msdn.microsoft.com/windowsapps/WiFiDirectDevice-sample-59a6e5e0)

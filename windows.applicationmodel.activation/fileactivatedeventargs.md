@@ -65,7 +65,7 @@ void App::OnFileActivated(Windows::ApplicationModel::Activation::FileActivatedEv
 }
 ```
 
-```cpp
+```cppcx
 void App::OnFileActivated(Windows::ApplicationModel::Activation::FileActivatedEventArgs^ args)
 {
        // TODO: Handle file activation
@@ -77,4 +77,4 @@ void App::OnFileActivated(Windows::ApplicationModel::Activation::FileActivatedEv
 
 ## -see-also
 
-[Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Handle file activation](https://docs.microsoft.com/windows/uwp/launch-resume/handle-file-activation), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [Windows.Storage](../windows.storage/windows_storage.md), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Windows.UI.Xaml.Application.OnFileActivated](../windows.ui.xaml/application_onfileactivated_2046716329.md), [Association launching sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620490)
+[Association launching sample](http://code.msdn.microsoft.com/windowsapps/Association-Launching-535d2cec), [Handle file activation](https://docs.microsoft.com/windows/uwp/launch-resume/handle-file-activation), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [Windows.Storage](../windows.storage/windows_storage.md), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Windows.UI.Xaml.Application.OnFileActivated](../windows.ui.xaml/application_onfileactivated_2046716329.md), [Association launching sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620490)

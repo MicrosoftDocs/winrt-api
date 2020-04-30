@@ -35,7 +35,7 @@ canvas1.CacheMode = new BitmapCache(); //canvas1 is an existing named element in
 canvas1().CacheMode(Windows::UI::Xaml::Media::BitmapCache{});
 ```
 
-```cpp
+```cppcx
 canvas1->CacheMode = ref new BitmapCache(); //canvas1 is an existing named element in UI
 ```
 

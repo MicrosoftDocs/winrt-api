@@ -22,7 +22,7 @@ In this case, you can create gesture objects dynamically on a [pointerdown](http
 Alternatively, you can statically allocate and dynamically manage a pool of reusable gesture objects.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 For more detail on how to use cross-slide functionality, see [Guidelines for cross-slide](https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-cross-slide). The threshold distances used by the cross-slide interaction are shown in the following diagram.
 
@@ -36,7 +36,7 @@ Rotation is not supported for single pointer input if the value of [PivotRadius]
 
 ## -examples
 
-Here we set up a GestureRecognizer object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](https://go.microsoft.com/fwlink/p/?LinkId=620514) for the full implementation.
+Here we set up a GestureRecognizer object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput) for the full implementation.
 
 ```csharp
 class ManipulationInputProcessor
@@ -232,16 +232,16 @@ class ManipulationInputProcessor
 
 ### Samples
 
-- [User interaction mode sample](https://go.microsoft.com/fwlink/p/?LinkID=619894)
-- [Focus visuals sample](https://go.microsoft.com/fwlink/p/?LinkID=619895)
-- [Basic input sample](https://go.microsoft.com/fwlink/p/?LinkId=620514)
+- [User interaction mode sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UserInteractionMode)
+- [Focus visuals sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlFocusVisuals)
+- [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput)
 - [Direct3D game sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Simple3DGameDX)
 - [DirectX and XAML game sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Simple3DGameXaml)
 
 ### Archived samples
 
-- [Input: Manipulations and gestures sample](https://go.microsoft.com/fwlink/p/?linkid=231638)
-- [Input: XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
-- [XAML scrolling, panning, and zooming sample](https://go.microsoft.com/fwlink/p/?linkid=251717)
-- [DirectX touch input sample](https://go.microsoft.com/fwlink/p/?LinkID=231627)
-- [Input: Manipulations and gestures sample](https://go.microsoft.com/fwlink/p/?linkid=231605)
+- [Input: Manipulations and gestures sample](http://code.msdn.microsoft.com/windowsapps/Manipulations-and-gestures-362b6b59)
+- [Input: XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)
+- [XAML scrolling, panning, and zooming sample](http://code.msdn.microsoft.com/windowsapps/xaml-scrollviewer-pan-and-949d29e9)
+- [DirectX touch input sample](http://code.msdn.microsoft.com/windowsapps/Simple-Direct3D-Touch-f98db97e)
+- [Input: Manipulations and gestures sample](http://code.msdn.microsoft.com/windowsapps/Manipulations-and-gestures-362b6b59)

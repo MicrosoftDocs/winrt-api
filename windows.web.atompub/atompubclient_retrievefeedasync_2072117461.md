@@ -22,7 +22,7 @@ Contains the results of the operation.
 ## -remarks
 
 ## -examples
-The following code demonstrates how a feed is retrieved at a specific service address using [AtomPubClient](atompubclient.md). For additional examples of how AtomPub can be used to manage feed content, download the [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061).
+The following code demonstrates how a feed is retrieved at a specific service address using [AtomPubClient](atompubclient.md). For additional examples of how AtomPub can be used to manage feed content, download the [AtomPub sample](http://code.msdn.microsoft.com/windowsapps/AtomPub-sample-c1fcdc8e).
 
 ```javascript
 
@@ -53,4 +53,4 @@ The following code demonstrates how a feed is retrieved at a specific service ad
 
 
 ## -see-also
-[Quickstart: Managing Feed Entries](https://docs.microsoft.com/previous-versions/windows/apps/hh700368(v=win.10)), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061)
+[Quickstart: Managing Feed Entries](https://docs.microsoft.com/previous-versions/windows/apps/hh700368(v=win.10)), [AtomPub sample](http://code.msdn.microsoft.com/windowsapps/AtomPub-sample-c1fcdc8e)

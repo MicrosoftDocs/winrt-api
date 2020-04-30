@@ -20,11 +20,27 @@ The object that raised the event.
 ## -remarks
 We recommend that applications use a single delegate to handle most display events because in most cases the change to each display property requires that the application redraw itself. Also, many property changes result from a single mode change that affects the entire operating system.
 
-The [Direct3D 11.1 Simple Stereo 3D Sample](https://go.microsoft.com/fwlink/p/?linkid=238402) shows how to handle system stereo changes.
+The [Direct3D 11.1 Simple Stereo 3D Sample](http://code.msdn.microsoft.com/Direct3D-111-Simple-Stereo-9b2b61aa) shows how to handle system stereo changes.
 
 ## -examples
 
-```cpp
+```cppwinrt
+#include <winrt/Windows.Graphics.Display.h>
+using namespace winrt;
+using namespace Windows::Graphics::Display;
+...
+void GameRenderer::Initialize()
+{
+    DisplayProperties::StereoEnabledChanged({ this, &GameRenderer::OnStereoEnableChanged });
+}
+
+void GameRenderer::OnStereoEnableChanged(winrt::Windows::Foundation::IInspectable const& sender)
+{
+    UpdateForStereoChange();
+}
+```
+
+```cppcx
 void GameRenderer::Initialize()
 {
     DisplayProperties::StereoEnabledChanged += 

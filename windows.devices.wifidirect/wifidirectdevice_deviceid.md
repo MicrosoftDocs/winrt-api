@@ -21,4 +21,4 @@ The [DeviceInformation Id](../windows.devices.enumeration/deviceinformation_id.m
 ## -examples
 
 ## -see-also
-[WiFiDirectDevice sample](https://go.microsoft.com/fwlink/p/?LinkID=301419)
+[WiFiDirectDevice sample](http://code.msdn.microsoft.com/windowsapps/WiFiDirectDevice-sample-59a6e5e0)

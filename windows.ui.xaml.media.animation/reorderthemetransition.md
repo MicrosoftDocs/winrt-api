@@ -83,7 +83,7 @@ void DocsCppWinRT::MainPage::AddItemButton_Click(Windows::Foundation::IInspectab
 }
 ```
 
-```cpp
+```cppcx
 void DocsCPP::MainPage::AddItemButton_Click(Object^ sender,RoutedEventArgs^ e)
 {
     Rectangle^ newItem = ref new Rectangle();

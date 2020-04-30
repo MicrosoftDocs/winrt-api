@@ -19,7 +19,7 @@ Instances of DataReader objects do not support concurrent read operations. If an
 
 ## -examples
 
-The following code example shows how to write and read strings to an in-memory stream. For the full sample application in C# and in C++/CX, see [Serializing and deserializing data sample](https://go.microsoft.com/fwlink/p/?LinkId=620535).
+The following code example shows how to write and read strings to an in-memory stream. For the full sample application in C# and in C++/CX, see [Serializing and deserializing data sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DataReaderWriter).
 
 ```csharp
 using System;
@@ -198,7 +198,7 @@ winrt::Windows::Foundation::IAsyncAction WriteReadStream::TransferData(
 }
 ```
 
-```cpp
+```cppcx
 #include "pch.h"
 #include "WriteReadStream.xaml.h"
 
@@ -401,15 +401,15 @@ function transferData() {
 
 ## -see-also
 
-[Serializing and deserializing data sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620535)
+[Serializing and deserializing data sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DataReaderWriter)
 
-[File access sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619995)
+[File access sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess)
 
-[StreamSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620609)
+[StreamSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/StreamSocket)
 
-[Custom USB device sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620530)
+[Custom USB device sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomUsbDeviceAccess)
 
-[DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534)
+[DatagramSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
 
 [DataReaderLoadOperation](datareaderloadoperation.md)
 

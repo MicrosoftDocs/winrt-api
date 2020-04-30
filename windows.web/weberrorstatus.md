@@ -222,7 +222,7 @@ else
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Web;
 using namespace Windows::Networking::Sockets;
 

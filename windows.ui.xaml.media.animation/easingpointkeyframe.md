@@ -33,5 +33,5 @@ This XAML example shows how to use key frames that have easing functions associa
 [!code-vb[EasingFunctionPointKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionKeyFrames/vbnet/MainPage.xaml.vb#SnippetEasingFunctionPointKeyFrame_code)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [XAML animation sample](https://go.microsoft.com/fwlink/p/?linkid=238571), [PointKeyFrame](pointkeyframe.md), EasingPointKeyFrame, [EasingDoubleKeyFrame](easingdoublekeyframe.md), [KeyTime](pointkeyframe_keytime.md), [Value](pointkeyframe_value.md)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [XAML animation sample](http://code.msdn.microsoft.com/windowsapps/animations-f758de70), [PointKeyFrame](pointkeyframe.md), EasingPointKeyFrame, [EasingDoubleKeyFrame](easingdoublekeyframe.md), [KeyTime](pointkeyframe_keytime.md), [Value](pointkeyframe_value.md)
 [KeyTime](pointkeyframe_keytime.md), [Value](pointkeyframe_value.md)

@@ -41,7 +41,7 @@ For more info on XAML attribute usage for properties that can take a Binding, or
 The property that is the target of a data binding must be a dependency property. For more info, see [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview).
 
 ## -examples
-The following code example demonstrates how to create a binding in XAML. For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
+The following code example demonstrates how to create a binding in XAML. For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind).
 
 ```xaml
 <StackPanel Margin="5">
@@ -73,5 +73,5 @@ The following example code demonstrates how to create a binding in code.
 [!code-vb[BindingObject](../windows.ui.xaml/code/BindingInCode/vbnet/BlankPage.xaml.vb#SnippetBindingObject)]
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview), [Property-path syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/property-path-syntax), [BindingOperations.SetBinding](bindingoperations_setbinding_746099660.md)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview), [Property-path syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/property-path-syntax), [BindingOperations.SetBinding](bindingoperations_setbinding_746099660.md)
 (bindingoperations_setbinding_746099660.md)

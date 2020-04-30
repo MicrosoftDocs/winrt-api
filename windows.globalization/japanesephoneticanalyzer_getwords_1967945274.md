@@ -31,4 +31,4 @@ A collection of [JapanesePhoneme](japanesephoneme.md) objects that represent pro
 
 ## -see-also
 
-[JapanesePhoneme](japanesephoneme.md), [GetWords(String, Boolean)](japanesephoneticanalyzer_getwords_1758641726.md), [Japanese phonetic analysis sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620555)
+[JapanesePhoneme](japanesephoneme.md), [GetWords(String, Boolean)](japanesephoneticanalyzer_getwords_1758641726.md), [Japanese phonetic analysis sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/JapanesePhoneticAnalysis)

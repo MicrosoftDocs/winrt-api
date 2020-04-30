@@ -15,4 +15,4 @@ Contains core media APIs that are used by several different features related to 
 
 ## -see-also
 
-[MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021), [DASH streaming sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/LiveDash)
+[MediaStreamSource Sample](http://code.msdn.microsoft.com/windowsapps/MediaStreamSource-media-dfd55dff), [DASH streaming sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/LiveDash)

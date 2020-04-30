@@ -44,4 +44,4 @@ This example shows a scenario for calling TransformToVisual in order to interpre
 [!code-csharp[QueryPointer](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
 
 ## -see-also
-[GeneralTransform](../windows.ui.xaml.media/generaltransform.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868)
+[GeneralTransform](../windows.ui.xaml.media/generaltransform.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml), [XAML two-dimensional transforms sample](http://code.msdn.microsoft.com/windowsapps/Transforms-95647b6f)

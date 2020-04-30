@@ -14,7 +14,7 @@ public class Printing3DColorMaterial : Windows.Graphics.Printing3D.IPrinting3DCo
 Represents a color material used in the 3D model.
 
 ## -remarks
-The Printing3DColorMaterial class corresponds to the `<color>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
+The Printing3DColorMaterial class corresponds to the `<color>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](http://3mf.io/what-is-3mf/3mf-specification/).
 
 ### Version history
 

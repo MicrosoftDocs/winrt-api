@@ -19,4 +19,4 @@ Represents a query for content properties in the [ContentIndexer](contentindexer
 
 ## -see-also
 
-[CreateQuery(String, IIterable(String), IIterable(SortEntry), String)](contentindexer_createquery_2143311724.md), [CreateQuery(String, IIterable(String), IIterable(SortEntry))](contentindexer_createquery_1278239124.md), [CreateQuery(String, IIterable(String))](contentindexer_createquery_293378840.md), [Content indexer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620524)
+[CreateQuery(String, IIterable(String), IIterable(SortEntry), String)](contentindexer_createquery_2143311724.md), [CreateQuery(String, IIterable(String), IIterable(SortEntry))](contentindexer_createquery_1278239124.md), [CreateQuery(String, IIterable(String))](contentindexer_createquery_293378840.md), [Content indexer sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer)

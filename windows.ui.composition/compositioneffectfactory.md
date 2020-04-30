@@ -42,4 +42,4 @@ CompositionEffectFactory blurEffectFactory = _compositor.CreateEffectFactory(blu
 
 
 ## -see-also
-[Composition Brushes Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](https://go.microsoft.com/fwlink/p/?LinkID=692063), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Brushes Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/composition-effects), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

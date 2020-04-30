@@ -79,7 +79,7 @@ TimerTextBlock().Dispatcher().RunAsync(Windows::UI::Core::CoreDispatcherPriority
 });
 ```
 
-```cpp
+```cppcx
 // 
 _Dispatcher->RunAsync(Windows::UI::Core::CoreDispatcherPriority::Normal, 
                      ref new Windows::UI::Core::DispatchedHandler([this]()

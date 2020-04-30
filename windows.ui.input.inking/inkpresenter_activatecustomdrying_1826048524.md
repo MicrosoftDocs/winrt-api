@@ -25,7 +25,7 @@ By calling ActivateCustomDrying (before the [InkCanvas](../windows.ui.xaml.contr
 
 Win32 apps can host an [InkPresenter](inkpresenter.md) in an [InkDesktopHost](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt622161(v=vs.85))  using the DirectComposition visual tree.  
 
-This requires an [IInkD2DRenderer](https://docs.microsoft.com/windows/desktop/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) object to manage the ink input (see the [Complex ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620314)).
+This requires an [IInkD2DRenderer](https://docs.microsoft.com/windows/desktop/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) object to manage the ink input (see the [Complex ink sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk)).
 
 **[CoreInkPresenterHost](../windows.ui.input.inking.core/coreinkpresenterhost.md)** (Windows 10 Fall Creators Update and newer)
 

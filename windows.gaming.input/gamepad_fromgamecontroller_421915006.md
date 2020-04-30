@@ -34,9 +34,28 @@ This method checks if the provided game controller has a gamepad implementation,
 
 ## -examples
 
-In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **Gamepad** class:
+In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **Gamepad** class.
 
-```cpp
+```cppwinrt
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+...
+Gamepad gamepad{ nullptr };
+
+if (RawGameController::RawGameControllers().Size() > 0)
+{
+    RawGameController rawGameController{ RawGameController::RawGameControllers().GetAt(0) };
+    gamepad = Gamepad::FromGameController(rawGameController);
+}
+
+if (gamepad)
+{
+    // Assign a standard button mapping to this controller.
+}
+```
+
+```cppcx
 Gamepad^ gamepad;
 
 if (RawGameController::RawGameControllers->Size > 0)
@@ -65,4 +84,3 @@ if (gamepad != null)
     // Assign a standard button mapping to this controller.
 }
 ```
-

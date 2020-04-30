@@ -35,7 +35,7 @@ var advertisingId = Windows.System.UserProfile.AdvertisingManager.AdvertisingId;
 winrt::hstring advertisingId{ Windows::System::UserProfile::AdvertisingManager::AdvertisingId() };
 ```
 
-```cpp
+```cppcx
 auto advertisingId = Windows::System::UserProfile::AdvertisingManager::AdvertisingId;
 ```
 

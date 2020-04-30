@@ -56,7 +56,7 @@ clientSocket.Control().QualityOfService(Windows::Networking::Sockets::SocketQual
 // Now you can call the ConnectAsync function to connect the DatagramSocket.
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Networking::Sockets;
 
 DatagramSocket^ clientSocket = ref new DatagramSocket();
@@ -90,7 +90,7 @@ For more information on using DatagramSocketControl, see [How to use advanced so
 
 ## -see-also
 
-[How to use advanced socket controls  ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls  ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.Control](datagramsocket_control.md), [DatagramSocketInformation](datagramsocketinformation.md), [DatagramSocket sample](https://go.microsoft.com/fwlink/p/?LinkID=243037), [DatagramSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
+[How to use advanced socket controls  ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls  ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.Control](datagramsocket_control.md), [DatagramSocketInformation](datagramsocketinformation.md), [DatagramSocket sample](http://code.msdn.microsoft.com/windowsapps/StreamSocket-Sample-8c573931), [DatagramSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
 
 ## -capabilities
 

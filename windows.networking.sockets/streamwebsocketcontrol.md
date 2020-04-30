@@ -54,7 +54,7 @@ clientWebSocket.Control().NoDelay(false);
 // Now you can call the ConnectAsync method to connect the StreamWebSocket.
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Networking::Sockets;
 
 StreamWebSocket^ clientWebSocket = ref new StreamWebSocket();
@@ -103,8 +103,8 @@ For more information about using StreamWebSocketControl, see [How to use advance
 StreamWebSocketControl,
 [StreamWebSocketInformation](streamwebsocketinformation.md),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
-[WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623),
-[ControlChannelTrigger StreamWebSocket sample](https://go.microsoft.com/fwlink/p/?linkid=251232)
+[WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket),
+[ControlChannelTrigger StreamWebSocket sample](http://code.msdn.microsoft.com/windowsapps/ControlChannelTrigger-91f6bed8)
 
 ## -capabilities
 

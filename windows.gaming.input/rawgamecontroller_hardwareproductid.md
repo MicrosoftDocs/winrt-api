@@ -27,14 +27,18 @@ If you have a specific controller that you want to support, you can get this val
 
 The following example checks if the given raw game controller's PID and VID (Product ID and Vendor ID, respectively) match the given PID and VID.
 
-```cpp
-void CheckIfMatch(RawGameController rawGameController, unsigned short pid, unsigned short vid)
+```cppwinrt
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+...
+void CheckIfMatch(RawGameController rawGameController, uint16_t pid, uint16_t vid)
 {
-	if ((rawGameController.HardwareProductId == pid) &&
-		(rawGameController.HardwareVendorId == vid))
-	{
-		/* This controller is the type that we're checking for, so we can assign a
-		specific input mapping. */
-	}
+    if ((rawGameController.HardwareProductId() == pid) &&
+        (rawGameController.HardwareVendorId() == vid))
+    {
+        /* This controller is the type that we're checking for, so we can assign a
+        specific input mapping. */
+    }
 }
 ```

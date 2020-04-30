@@ -1183,4 +1183,4 @@ One rectangular image that fills the entire tile, no text.
 ## -examples
 
 ## -see-also
-[App tiles and badges sample](https://go.microsoft.com/fwlink/p/?linkid=231469), [The tile template catalog](https://docs.microsoft.com/previous-versions/windows/apps/hh761491(v=win.10)), [Tiles XML schema](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/schema-root), [Tile and tile notification overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779724(v=win.10)), [Tile and toast image sizes](https://docs.microsoft.com/previous-versions/windows/apps/hh781198(v=win.10))
+[App tiles and badges sample](http://code.msdn.microsoft.com/windowsapps/app-tiles-and-badges-sample-5fc49148), [The tile template catalog](https://docs.microsoft.com/previous-versions/windows/apps/hh761491(v=win.10)), [Tiles XML schema](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/schema-root), [Tile and tile notification overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779724(v=win.10)), [Tile and toast image sizes](https://docs.microsoft.com/previous-versions/windows/apps/hh781198(v=win.10))

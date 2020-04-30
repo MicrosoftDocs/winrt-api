@@ -35,7 +35,7 @@ Detect flow direction from text content. For bidirectional text, text containers
 >
 > In Windows 8.1, the value **0** has the constant name **Default**. Do not use in Windows 10 apps.
 
-The **TextReadingOrder** property influences the reading order (left-to-right or right-to-left) of individual UI elements that contain bidirectional text. In Windows 10 text controls this property has the default value of `DetectFromContent` so that content can be detected dynamically, rather than using the [FlowDirection](frameworkelement_flowdirection.md) property on a content parent. The `DetectFromContent` logic uses the first strong character in each paragraph to determine the reading direction for the paragraph, based on the [Unicode Bidirectional Algorithm, P2](https://go.microsoft.com/fwlink/p/?LinkId=306404).
+The **TextReadingOrder** property influences the reading order (left-to-right or right-to-left) of individual UI elements that contain bidirectional text. In Windows 10 text controls this property has the default value of `DetectFromContent` so that content can be detected dynamically, rather than using the [FlowDirection](frameworkelement_flowdirection.md) property on a content parent. The `DetectFromContent` logic uses the first strong character in each paragraph to determine the reading direction for the paragraph, based on the [Unicode Bidirectional Algorithm, P2](http://www.unicode.org/reports/tr9/#P2).
 
 This property can be useful when the base direction of the text is unknown, and may not match the user's language or direction. For more info see [How to support bidirectional UI](https://docs.microsoft.com/previous-versions/windows/apps/jj712703(v=win.10)).
 

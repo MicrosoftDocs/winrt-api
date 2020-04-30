@@ -20,7 +20,7 @@ This list can store up to 25 items. While the app must add items to the MRU in o
 > [!NOTE]
 > If you want to respond to [ItemRemoved](storageitemmostrecentlyusedlist_itemremoved.md) events you must register your event handle every time you get a new reference to the StorageItemMostRecentlyUsedList.
 
-To see more code examples, see the [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) and the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
+To see more code examples, see the [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) and the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
 
 To learn about using the [FutureAccessList](storageapplicationpermissions_futureaccesslist.md) and [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md), see [How to track recently used files and folders](https://docs.microsoft.com/previous-versions/windows/apps/hh972603(v=win.10)).
 

@@ -34,9 +34,28 @@ This method checks if the provided game controller has a racing wheel implementa
 
 ## -examples
 
-In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **RacingWheel** class:
+In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **RacingWheel** class.
 
-```cpp
+```cppwinrt
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+...
+RacingWheel racingWheel{ nullptr };
+
+if (RawGameController::RawGameControllers().Size() > 0)
+{
+    RawGameController rawGameController{ RawGameController::RawGameControllers().GetAt(0) };
+    racingWheel = RacingWheel::FromGameController(rawGameController);
+}
+
+if (racingWheel)
+{
+    // Assign a standard button mapping to this controller.
+}
+```
+
+```cppcx
 RacingWheel^ racingWheel;
 
 if (RawGameController::RawGameControllers->Size > 0)

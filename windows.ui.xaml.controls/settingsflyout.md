@@ -164,7 +164,7 @@ private void UpdateSettingsButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-For more code in context, see the [App settings sample](https://go.microsoft.com/fwlink/p/?LinkID=310073).
+For more code in context, see the [App settings sample](http://code.msdn.microsoft.com/windowsapps/App-settings-sample-1f762f49).
 
 ## -see-also
-[ContentControl](contentcontrol.md), [Quickstart: Add app settings](https://docs.microsoft.com/previous-versions/windows/apps/hh872190(v=win.10)), [Quickstart: Add app help](https://docs.microsoft.com/previous-versions/windows/apps/jj649425(v=win.10)), [App settings sample](https://go.microsoft.com/fwlink/p/?LinkID=310073)
+[ContentControl](contentcontrol.md), [Quickstart: Add app settings](https://docs.microsoft.com/previous-versions/windows/apps/hh872190(v=win.10)), [Quickstart: Add app help](https://docs.microsoft.com/previous-versions/windows/apps/jj649425(v=win.10)), [App settings sample](http://code.msdn.microsoft.com/windowsapps/App-settings-sample-1f762f49)

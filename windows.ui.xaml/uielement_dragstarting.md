@@ -27,4 +27,4 @@ DragStarting is a routed event. For more info on the routed event concept, see [
 
 ## -see-also
 
-[DragStartingEventArgs](dragstartingeventargs.md), [Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)
+[DragStartingEventArgs](dragstartingeventargs.md), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

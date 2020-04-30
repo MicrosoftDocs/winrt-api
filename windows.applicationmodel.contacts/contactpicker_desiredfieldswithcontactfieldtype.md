@@ -22,6 +22,6 @@ For info about how to select contacts, see [Selecting contacts](https://docs.mic
 
 
 ## -see-also
-[Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575)
+[Contact Picker app sample](http://code.msdn.microsoft.com/windowsapps/Contact-Picker-App-sample-fc6677a1)
 ## -capabilities
 contactsSystem

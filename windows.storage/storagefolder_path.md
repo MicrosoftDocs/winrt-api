@@ -45,7 +45,7 @@ Windows::Storage::StorageFolder appFolder{ Windows::ApplicationModel::Package::C
 ::OutputDebugString(appFolder.Path().c_str());
 ```
 
-```cpp
+```cppcx
  // Get the app's installation folder
  StorageFolder^ appFolder = Windows::ApplicationModel::Package::Current->InstalledLocation;
 

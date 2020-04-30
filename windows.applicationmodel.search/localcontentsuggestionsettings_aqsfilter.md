@@ -24,11 +24,11 @@ Use an AQS filter to help keep local suggestions relevant. For example, if your 
 <!--This allows the developer to refine the file types or kinds that they want to be used for local content suggestions since they may only service specific files in their Search Results.  For example, if the developer specifies �Kind:music or Type:avi� they will only receive suggestions from music or avi files.-->
 
 ## -examples
-The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to use Advanced Query Syntax (AQS) to provide local suggestions from music files:
+The [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to use Advanced Query Syntax (AQS) to provide local suggestions from music files:
 
 
 
 [!code-js[lssettings_aqs_js](../windows.applicationmodel.search/code/SearchContract/js/js/scenario4.js#Snippetlssettings_aqs_js)]
 
 ## -see-also
-[](https://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779), [Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)), [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [Object class](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), [LocalContentSuggestionSettings class](localcontentsuggestionsettings.md), [SearchPane.SetLocalContentSuggestionSettings method](searchpane_setlocalcontentsuggestionsettings_156524340.md)
+[](https://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779), [Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)), [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5), [Object class](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), [LocalContentSuggestionSettings class](localcontentsuggestionsettings.md), [SearchPane.SetLocalContentSuggestionSettings method](searchpane_setlocalcontentsuggestionsettings_156524340.md)

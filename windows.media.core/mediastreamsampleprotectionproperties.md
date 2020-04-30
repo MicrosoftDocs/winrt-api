@@ -13,9 +13,9 @@ public class MediaStreamSampleProtectionProperties : Windows.Media.Core.IMediaSt
 Represents a collection properties that are specific to the Digital Rights Management (DRM) protection of the [MediaStreamSample](mediastreamsample.md).
 
 ## -remarks
-See the [MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a Universal Windows app.
+See the [MediaStreamSource Sample](http://code.msdn.microsoft.com/windowsapps/MediaStreamSource-media-dfd55dff) for an example of using Media Stream Source in a Universal Windows app.
 
 ## -examples
 
 ## -see-also
-[MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021)
+[MediaStreamSource Sample](http://code.msdn.microsoft.com/windowsapps/MediaStreamSource-media-dfd55dff)

@@ -26,7 +26,7 @@ When local content suggestions are enabled, Windows will provide search suggesti
 
 
 ## -examples
-The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to customize local suggestions by restricting the locations and kinds of files that the suggestions are based on.
+The [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to customize local suggestions by restricting the locations and kinds of files that the suggestions are based on.
 
 > [!TIP]
 > You should add this code to your app's global scope and run it as soon as your app is launched.
@@ -56,4 +56,4 @@ Windows.ApplicationModel.Search.SearchPane.getForCurrentView().setLocalContentSu
 In the example, suggestions are restricted to one kind of file, music files, using an Advanced Query Syntax (AQS) string. Two of the most common Advanced Query Syntax (AQS) filters restrict based on file kind, like "kind:=.music" in the example; and based on file name extension, like "ext:=.mp3". You can learn more about AQS in [Advanced Query Syntax (AQS)](https://docs.microsoft.com/windows/desktop/lwef/-search-2x-wds-aqsreference).
 
 ## -see-also
-[](https://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779), [Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)), [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [LocalContentSuggestionSettings class](localcontentsuggestionsettings.md), [SearchPane class](searchpane.md)
+[](https://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779), [Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)), [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5), [LocalContentSuggestionSettings class](localcontentsuggestionsettings.md), [SearchPane class](searchpane.md)

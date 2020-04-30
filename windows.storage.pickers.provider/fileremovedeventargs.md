@@ -21,7 +21,7 @@ If your app participates in the File Open Picker contract and a [fileremoved](fi
 Register for this event by adding an event listener to the [fileOpenPickerUI](fileopenpickerui.md) and assigning a handler function for the event. You can access information about the event from the fileRemovedEventArgs object that is passed to your event handler.
 
 ## -examples
-The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [fileremoved](fileopenpickerui_fileremoved.md) event.
+The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how to respond to a [fileremoved](fileopenpickerui_fileremoved.md) event.
 
 ```csharp
 

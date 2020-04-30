@@ -26,9 +26,13 @@ The label for the specified button. If the button label is blank or there is no 
 
 ## -remarks
 
-The following example gets the label on the **FirePrimary** button on the flight stick, and shows an icon based on the label:
+The following example gets the label on the **FirePrimary** button on the flight stick, and shows an icon based on the label.
 
-```cpp
+```cppwinrt
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+
 void ShowFlightStickFirePrimaryButtonIcon(FlightStick flightStick)
 {
 	GameControllerButtonLabel label =

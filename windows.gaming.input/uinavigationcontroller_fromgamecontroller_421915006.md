@@ -34,9 +34,28 @@ This method checks if the provided game controller has a UI navigation controlle
 
 ## -examples
 
-In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **UINavigationController** class:
+In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **UINavigationController** class.
 
-```cpp
+```cppwinrt
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+...
+UINavigationController uiNavigationController{ nullptr };
+
+if (RawGameController::RawGameControllers().Size() > 0)
+{
+    RawGameController rawGameController{ RawGameController::RawGameControllers().GetAt(0) };
+    uiNavigationController = UINavigationController::FromGameController(rawGameController);
+}
+
+if (uiNavigationController)
+{
+    // Assign a standard button mapping to this controller.
+}
+```
+
+```cppcx
 UINavigationController^ uiNavigationController;
 
 if (RawGameController::RawGameControllers->Size > 0)

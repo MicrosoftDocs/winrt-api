@@ -38,7 +38,7 @@ Of these, [Rectangle](rectangle.md), [Path](path.md) and [Ellipse](ellipse.md) a
 | 1607 | 14393 | GetAlphaMask |
 
 ## -examples
-For example code of how to use Shape derived classes such as [Rectangle](rectangle.md) and [Path](path.md), see [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866).
+For example code of how to use Shape derived classes such as [Rectangle](rectangle.md) and [Path](path.md), see [XAML vector-based drawing sample](http://code.msdn.microsoft.com/windowsapps/Drawing-bfc39296).
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [XAML vector-based drawing sample](http://code.msdn.microsoft.com/windowsapps/Drawing-bfc39296), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)

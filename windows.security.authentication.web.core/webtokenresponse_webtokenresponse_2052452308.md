@@ -27,4 +27,4 @@ The web provider error.
 ## -examples
 
 ## -see-also
-[Web account management code sample](https://go.microsoft.com/fwlink/p/?LinkId=620621), [WebTokenResponse(String)](webtokenresponse_webtokenresponse_290278668.md), [WebTokenResponse(String, WebAccount)](webtokenresponse_webtokenresponse_1372244988.md)
+[Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [WebTokenResponse(String)](webtokenresponse_webtokenresponse_290278668.md), [WebTokenResponse(String, WebAccount)](webtokenresponse_webtokenresponse_1372244988.md)

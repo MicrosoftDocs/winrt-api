@@ -18,4 +18,4 @@ For info about how to handle app activation through contact actions, see [Quicks
 ## -examples
 
 ## -see-also
-[Handling Contact Actions sample](https://go.microsoft.com/fwlink/p/?LinkID=320151), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md)
+[Handling Contact Actions sample](http://code.msdn.microsoft.com/windowsapps/Handling-Contact-Actions-359380e2), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md)

@@ -43,4 +43,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 
 ## -see-also
 
-[ManipulationStartingRoutedEventArgs](../windows.ui.xaml.input/manipulationstartingroutedeventargs.md), [OnManipulationStarting](../windows.ui.xaml.controls/control_onmanipulationstarting_1590761399.md), [ManipulationStarted](uielement_manipulationstarted.md), [Using manipulation events](https://docs.microsoft.com/previous-versions/windows/apps/hh465387(v=win.10)), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
+[ManipulationStartingRoutedEventArgs](../windows.ui.xaml.input/manipulationstartingroutedeventargs.md), [OnManipulationStarting](../windows.ui.xaml.controls/control_onmanipulationstarting_1590761399.md), [ManipulationStarted](uielement_manipulationstarted.md), [Using manipulation events](https://docs.microsoft.com/previous-versions/windows/apps/hh465387(v=win.10)), [XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)

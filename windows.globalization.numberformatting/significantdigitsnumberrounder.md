@@ -19,4 +19,4 @@ Rounds numbers to a specified number of significant digits.
 
 ## -see-also
 
-[INumberRounder](inumberrounder.md), [Number formatting and parsing sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620578)
+[INumberRounder](inumberrounder.md), [Number formatting and parsing sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/NumberFormatting)

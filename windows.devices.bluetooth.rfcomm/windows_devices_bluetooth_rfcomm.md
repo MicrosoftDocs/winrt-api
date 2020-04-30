@@ -15,7 +15,7 @@ The **Windows.Devices.Bluetooth.Rfcomm** namespace defines Windows Runtime class
 
 ## -see-also
 
-[Bluetooth](https://docs.microsoft.com/windows/uwp/devices-sensors/bluetooth), [How to specify device capabilities for Bluetooth](https://docs.microsoft.com/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth), [Bluetooth RFCOMM chat sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=626688)
+[Bluetooth](https://docs.microsoft.com/windows/uwp/devices-sensors/bluetooth), [How to specify device capabilities for Bluetooth](https://docs.microsoft.com/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth), [Bluetooth RFCOMM chat sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BluetoothRfcommChat)
 
 ## -capabilities
 

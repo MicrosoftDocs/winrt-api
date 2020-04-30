@@ -30,7 +30,7 @@ This method yields a result of **true** if the export succeeded. The export can 
 
 **Note:** If you're using JavaScript, you can't create the *anchors* parameter directly, because it's of type IIterable&lt;IKeyValuePair&lt;Platform::String^, Windows::Perception::Spatial::SpatialAnchor^&gt;&gt;. Instead, create a native WinRT helper component that has a **CreateMap** function:
 
-```cpp
+```cppcx
 #include "pch.h"
 #include "SpatialAnchorHelper.h"
  

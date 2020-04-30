@@ -47,4 +47,4 @@ Transform is the parent class for several derived classes that define different 
 ## -examples
 
 ## -see-also
-[GeneralTransform](generaltransform.md), [MatrixTransform](matrixtransform.md), [RotateTransform](rotatetransform.md), [SkewTransform](skewtransform.md), [TransformGroup](transformgroup.md), [TranslateTransform](translatetransform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868)
+[GeneralTransform](generaltransform.md), [MatrixTransform](matrixtransform.md), [RotateTransform](rotatetransform.md), [SkewTransform](skewtransform.md), [TransformGroup](transformgroup.md), [TranslateTransform](translatetransform.md), [XAML two-dimensional transforms sample](http://code.msdn.microsoft.com/windowsapps/Transforms-95647b6f)

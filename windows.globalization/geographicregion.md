@@ -33,4 +33,4 @@ var displayName = geographicRegion.DisplayName;
 
 ## -see-also
 
-[Globalization preferences sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624045)
+[Globalization preferences sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/GlobalizationPreferences)

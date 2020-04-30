@@ -93,7 +93,7 @@ SolidColorBrush greenBrush = new SolidColorBrush(Colors.Green);
 Windows::UI::Xaml::Media::SolidColorBrush greenBrush{ Windows::UI::Colors::Green() };
 ```
 
-```cpp
+```cppcx
 auto greenBrush = ref new SolidColorBrush(Colors::Green);
 ```
 
@@ -103,11 +103,11 @@ Another way to define a new SolidColorBrush object is to use the [FromArgb](/dot
 SolidColorBrush myBrush = new SolidColorBrush(Color.FromArgb(255, 20, 20, 90));
 ```
 
-```cpp
+```cppwinrt
 Windows::UI::Xaml::Media::SolidColorBrush myBrush{ Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90) };
 ```
 
-```cpp
+```cppcx
 auto myBrush = ref new SolidColorBrush(ColorHelper::FromArgb(255, 90, 200, 90));
 ```
 

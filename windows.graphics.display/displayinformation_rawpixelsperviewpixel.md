@@ -20,4 +20,4 @@ A value representing the number of raw (physical) pixels for each view (layout) 
 ## -examples
 
 ## -see-also
-[Scaling according to DPI sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620537)
+[Scaling according to DPI sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DpiScaling)

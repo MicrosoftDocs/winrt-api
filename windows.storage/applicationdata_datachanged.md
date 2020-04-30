@@ -46,7 +46,7 @@ void MainPage::DataChangeHandler(Windows::Storage::ApplicationData const& /* app
 }
 ```
 
-```cpp
+```cppcx
 void MainPage::InitHandlers()
 {
    Windows::Storage::ApplicationData::Current->DataChanged += 

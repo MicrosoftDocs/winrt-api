@@ -26,4 +26,4 @@ The following table maps SyndicationContent properties to RSS and Atom feed elem
 ## -examples
 
 ## -see-also
-[Quickstart: Accessing a web feed](https://docs.microsoft.com/previous-versions/windows/apps/hh700374(v=win.10)), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061)
+[Quickstart: Accessing a web feed](https://docs.microsoft.com/previous-versions/windows/apps/hh700374(v=win.10)), [Syndication sample](http://code.msdn.microsoft.com/windowsapps/Syndication-sample-07ef6b0d), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061)

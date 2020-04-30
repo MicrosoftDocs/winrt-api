@@ -83,7 +83,7 @@ void App::OnActivated(Windows::ApplicationModel::Activation::IActivatedEventArgs
 }
 ```
 
-```cpp
+```cppcx
 void App::OnActivated(IActivatedEventArgs^ args)
 {
     if (args->Kind == ActivationKind::Contact)
@@ -105,4 +105,4 @@ void App::OnActivated(IActivatedEventArgs^ args)
 ```
 
 ## -see-also
-[IContactMapActivatedEventArgs](icontactmapactivatedeventargs.md), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md), [Handling Contact Actions sample](https://go.microsoft.com/fwlink/p/?LinkID=320151)
+[IContactMapActivatedEventArgs](icontactmapactivatedeventargs.md), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md), [Handling Contact Actions sample](http://code.msdn.microsoft.com/windowsapps/Handling-Contact-Actions-359380e2)

@@ -26,7 +26,7 @@ if (m_windowSizeChangeInProgress)
 }
 ```
 
-```cpp
+```cppcx
 if (m_windowSizeChangeInProgress)
 {
  // A window size change has been initiated and the app has just completed presenting

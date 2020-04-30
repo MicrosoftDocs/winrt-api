@@ -25,7 +25,7 @@ In many cases where a Windows Runtime API uses a [PropertySet](propertyset.md) a
 IPropertySet is also implemented by the [ValueSet](valueset.md) class. [ValueSet](valueset.md) is the value type of several **ContinuationData** properties, which enable restoring state when apps resume after calling an **AndContinue** method that might deactivate the app. [ValueSet](valueset.md) and all the **ContinuationData** properties and **AndContinue** methods are Windows Phone only APIs because it's only Windows Phone that has this behavior. For more info, see [How to continue your Windows Phone Store app after calling an AndContinue method](https://docs.microsoft.com/previous-versions/windows/apps/dn631755(v=win.10)). The difference between [ValueSet](valueset.md) and [PropertySet](propertyset.md) is that the [ValueSet](valueset.md) implementation of methods like [Insert](valueset_insert_2123640444.md)/[Add](valueset_add_1.md) enforces that its property values are value types.
 
 ## -examples
-This example shows how to check for an item within the IPropertySet object returned by a Windows Runtime property. Specifically, this is from the [CoreApplication.Properties](../windows.applicationmodel.core/coreapplication_properties.md) property. This code snippet comes from the [ControlChannelT​rigger HTTP client sample](https://go.microsoft.com/fwlink/p/?linkid=258323). Note how the C# version casts to [IDictionary<string,object>](https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2) so that it can use the indexer, whereas the Visual C++ component extensions (C++/CX) version uses [HasKey](propertyset_haskey_425964900.md) and [Lookup](propertyset_lookup_711408188.md). Typically this is all you do with an IPropertySet object that you get from the various Windows Runtime properties that return the type: look for specific keys in the property set, and then set some app property to the corresponding value if it exists.
+This example shows how to check for an item within the IPropertySet object returned by a Windows Runtime property. Specifically, this is from the [CoreApplication.Properties](../windows.applicationmodel.core/coreapplication_properties.md) property. This code snippet comes from the [ControlChannelT​rigger HTTP client sample](http://code.msdn.microsoft.com/windowsapps/ControlChannelTrigger-HTTP-9d7a6b3d). Note how the C# version casts to [IDictionary<string,object>](https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2) so that it can use the indexer, whereas the Visual C++ component extensions (C++/CX) version uses [HasKey](propertyset_haskey_425964900.md) and [Lookup](propertyset_lookup_711408188.md). Typically this is all you do with an IPropertySet object that you get from the various Windows Runtime properties that return the type: look for specific keys in the property set, and then set some app property to the corresponding value if it exists.
 
 ```csharp
 // In this example, the channel name has been hardcoded to lookup the property bag 
@@ -95,7 +95,7 @@ else
 }
 ```
 
-```cpp
+```cppcx
 // In this example, the channel name has been hardcoded to look up the property bag
 // for any previous contexts. The channel name may be used in more sophisticated ways
 // in case an app has multiple ControlChannelTrigger objects.

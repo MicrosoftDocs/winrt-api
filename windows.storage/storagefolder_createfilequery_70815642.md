@@ -68,7 +68,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
  //Get the app's installation folder
  StorageFolder^ appFolder = Windows::ApplicationModel::Package::Current->InstalledLocation;
  //Get the files in the current folder

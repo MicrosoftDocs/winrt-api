@@ -29,4 +29,4 @@ A named constant of the enumeration that indicates where the flyout is placed in
 ## -examples
 
 ## -see-also
-[FlyoutPlacementMode](flyoutplacementmode.md), [XAML Flyout and MenuFlyout sample](https://go.microsoft.com/fwlink/p/?LinkID=310074)
+[FlyoutPlacementMode](flyoutplacementmode.md), [XAML Flyout and MenuFlyout sample](http://code.msdn.microsoft.com/windowsapps/XAML-Flyout-and-MenuFlyout-78629692)

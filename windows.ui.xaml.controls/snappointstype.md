@@ -41,9 +41,9 @@ For panning actions, there are often natural stopping places. Snap points provid
 
 The SnapPointsType enumeration is used as a value for the [ScrollViewer.HorizontalSnapPointsType](scrollviewer_horizontalsnappointstype.md) and [ScrollViewer.VerticalSnapPointsType](scrollviewer_verticalsnappointstype.md) properties.
 
-To see the effects of snap points on [ScrollViewer](scrollviewer.md) behavior yourself, get the [XAML scrolling, panning and zooming sample](https://go.microsoft.com/fwlink/p/?LinkID=242393). Run the sample on a touch device (not the simulator). Try out the SnapPointsType values when you view the "Panning with snap-points" example page of the sample.
+To see the effects of snap points on [ScrollViewer](scrollviewer.md) behavior yourself, get the [XAML scrolling, panning and zooming sample](http://code.msdn.microsoft.com/windowsapps/XAML-ScrollViewer-pan-and-949d29e9). Run the sample on a touch device (not the simulator). Try out the SnapPointsType values when you view the "Panning with snap-points" example page of the sample.
 
 ## -examples
 
 ## -see-also
-[ScrollViewer](scrollviewer.md), [ScrollViewer.HorizontalSnapPointsType](scrollviewer_horizontalsnappointstype.md), [ScrollViewer.VerticalSnapPointsType](scrollviewer_verticalsnappointstype.md), [XAML scrolling, panning and zooming sample](https://go.microsoft.com/fwlink/p/?LinkID=242393)
+[ScrollViewer](scrollviewer.md), [ScrollViewer.HorizontalSnapPointsType](scrollviewer_horizontalsnappointstype.md), [ScrollViewer.VerticalSnapPointsType](scrollviewer_verticalsnappointstype.md), [XAML scrolling, panning and zooming sample](http://code.msdn.microsoft.com/windowsapps/XAML-ScrollViewer-pan-and-949d29e9)

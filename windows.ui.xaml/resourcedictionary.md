@@ -61,7 +61,7 @@ You can use Microsoft Visual Studio to create resource dictionaries. This exampl
 
 ```
 
-This XAML, from the AppPage.xaml file of the [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061), shows the use of an [Application.Resources](application_resources.md) property. The XAML places two [Style](style.md) elements into the resource dictionary, making them available throughout the application.
+This XAML, from the AppPage.xaml file of the [AtomPub sample](http://code.msdn.microsoft.com/windowsapps/AtomPub-sample-c1fcdc8e), shows the use of an [Application.Resources](application_resources.md) property. The XAML places two [Style](style.md) elements into the resource dictionary, making them available throughout the application.
 
 ```xaml
 <Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"

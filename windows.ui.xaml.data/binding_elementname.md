@@ -39,7 +39,7 @@ The value of ElementName can technically be any string, but the values of [Name]
 You can't set the property values of a [Binding](binding.md) object after that binding has been attached to a target element and target property. If you attempt this you'll get a run-time exception.
 
 ## -examples
-The following code example demonstrates how to establish a two-way binding between a [TextBox](../windows.ui.xaml.controls/textbox.md) and a [Slider](../windows.ui.xaml.controls/slider.md) control. For the complete code listing, see scenario 1 in the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
+The following code example demonstrates how to establish a two-way binding between a [TextBox](../windows.ui.xaml.controls/textbox.md) and a [Slider](../windows.ui.xaml.controls/slider.md) control. For the complete code listing, see scenario 1 in the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind).
 
 ```xaml
 <Slider x:Name="slider1" Minimum="1" Maximum="100"/>
@@ -50,4 +50,4 @@ The following code example demonstrates how to establish a two-way binding betwe
 
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [XAML namescopes](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-namescopes), [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [XAML namescopes](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-namescopes), [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute)

@@ -93,4 +93,4 @@ public static int Main()
 
 ## -see-also
 
-[COM Processes, Threads, and Apartments](https://docs.microsoft.com/windows/desktop/com/processes--threads--and-apartments), [DirectX swap chain implementation sample](https://go.microsoft.com/fwlink/p/?linkid=258452), [CoreApplicationView](coreapplicationview.md), [Multiple views sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MultipleViews), [MTAThreadAttribute](https://docs.microsoft.com/dotnet/api/system.mtathreadattribute?view=dotnet-uwp-10.0)
+[COM Processes, Threads, and Apartments](https://docs.microsoft.com/windows/desktop/com/processes--threads--and-apartments), [DirectX swap chain implementation sample](http://code.msdn.microsoft.com/windowsapps/CoreWindow-Sample-b51b01f2), [CoreApplicationView](coreapplicationview.md), [Multiple views sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MultipleViews), [MTAThreadAttribute](https://docs.microsoft.com/dotnet/api/system.mtathreadattribute?view=dotnet-uwp-10.0)

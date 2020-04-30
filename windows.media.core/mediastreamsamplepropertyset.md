@@ -13,7 +13,7 @@ public class MediaStreamSamplePropertySet : Windows.Foundation.Collections.IIter
 Contains properties for the [MediaStreamSample](mediastreamsample.md).
 
 ## -remarks
-See the [MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a Universal Windows app.
+See the [MediaStreamSource Sample](http://code.msdn.microsoft.com/windowsapps/MediaStreamSource-media-dfd55dff) for an example of using Media Stream Source in a Universal Windows app.
 
 
 <!--Begin NET note for IEnumerable support-->
@@ -27,4 +27,4 @@ You can iterate through a MediaStreamSamplePropertySet object in C# or Microsoft
 ## -examples
 
 ## -see-also
-[IMap(Guid, Object)](../windows.foundation.collections/imap_2.md), [IIterable(IKeyValuePair)](../windows.foundation.collections/iiterable_1.md), [ExtendedProperties](mediastreamsample_extendedproperties.md), [MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021)
+[IMap(Guid, Object)](../windows.foundation.collections/imap_2.md), [IIterable(IKeyValuePair)](../windows.foundation.collections/iiterable_1.md), [ExtendedProperties](mediastreamsample_extendedproperties.md), [MediaStreamSource Sample](http://code.msdn.microsoft.com/windowsapps/MediaStreamSource-media-dfd55dff)

@@ -80,5 +80,5 @@ This example shows a basic usage where a DependencyProperty is established as a 
 > A Visual C++ component extensions (C++/CX) example isn't shown here because it must be factored completely differently than the Microsoft .NET examples, and involves several different code files. See examples in [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties).
 
 ## -see-also
-[Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview), [Custom attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-attached-properties), [XAML user and custom controls sample](https://go.microsoft.com/fwlink/p/?linkid=238581)
+[Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview), [Custom attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-attached-properties), [XAML user and custom controls sample](http://code.msdn.microsoft.com/windowsapps/XAML-user-and-custom-a8a9505e)
 soft.com/fwlink/p/?linkid=238581)

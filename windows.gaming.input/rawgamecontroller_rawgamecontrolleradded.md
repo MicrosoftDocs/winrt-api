@@ -21,9 +21,23 @@ To identify controllers that have already been added, you query the list of conn
 
 ## -examples
 
-The following example starts tracking a raw game controller that's been added. `myRawGameControllers` is a `Vector<RawGameController^>` that contains the raw game controllers that your game is tracking.
+The following example starts tracking a raw game controller that's been added.
 
-```cpp
+```cppwinrt
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+...
+std::vector<RawGameController> m_myRawGameControllers;
+...
+RawGameController::RawGameControllerAdded([this](IInspectable const& /* sender */, RawGameController const& args)
+    {
+        m_myRawGameControllers.push_back(args);
+    });
+```
+
+```cppcx
+// `myRawGameControllers` is a `Vector<RawGameController^>` that contains the raw game controllers that your game is tracking.
 RawGameController::RawGameControllerAdded += ref new EventHandler<RawGameController^>(
 		[] (Platform::Object^, RawGameController^ args)
 {

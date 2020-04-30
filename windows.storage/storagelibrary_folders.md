@@ -20,4 +20,4 @@ The folders in the current storage library.
 ## -examples
 
 ## -see-also
-[Library management sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620560)
+[Library management sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LibraryManagement)

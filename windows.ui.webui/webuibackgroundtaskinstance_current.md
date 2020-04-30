@@ -22,7 +22,7 @@ The app must also specify the JavaScript file in the `<Extensions>` section of t
 
 When a background task is run, it can use the object returned from the Current property to set the success or failure of the background task and to access properties of the task.
 
-After the background task finishes its work, the task must call the Web Workers [close](https://go.microsoft.com/fwlink/p/?linkid=237467) method to terminate itself. This way it doesn't continue to consume the user's memory and battery. Additionally only one background task for the same trigger can run at a time so the previous task must be closed before a new one can be triggered. 
+After the background task finishes its work, the task must call the Web Workers [close](http://msdn.microsoft.com/en-us/library/hh673568(v=VS.85).aspx) method to terminate itself. This way it doesn't continue to consume the user's memory and battery. Additionally only one background task for the same trigger can run at a time so the previous task must be closed before a new one can be triggered. 
 
 > [!NOTE]
 > Background tasks are meant to be short lived tasks. In general you should not register for event callbacks in a background task. In the case that you do register for a Windows Runtime event and the foreground instance of your app also registers for that event, the callback in your background task may be unreliable.

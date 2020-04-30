@@ -566,4 +566,4 @@ private:
 ## -examples
 
 ## -see-also
-[DirectX swap chain implementation sample](https://go.microsoft.com/fwlink/p/?linkid=258452), [IFrameworkViewSource](iframeworkviewsource.md)
+[DirectX swap chain implementation sample](http://code.msdn.microsoft.com/windowsapps/CoreWindow-Sample-b51b01f2), [IFrameworkViewSource](iframeworkviewsource.md)

@@ -37,4 +37,4 @@ KeyUp supports the ability to attach event handlers to the route that will be in
 
 ## -see-also
 
-[KeyRoutedEventArgs](../windows.ui.xaml.input/keyroutedeventargs.md), [KeyDown](uielement_keydown.md), [GotFocus](uielement_gotfocus.md), [OnKeyUp](../windows.ui.xaml.controls/control_onkeyup_802918872.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
+[KeyRoutedEventArgs](../windows.ui.xaml.input/keyroutedeventargs.md), [KeyDown](uielement_keydown.md), [GotFocus](uielement_gotfocus.md), [OnKeyUp](../windows.ui.xaml.controls/control_onkeyup_802918872.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)

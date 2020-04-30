@@ -16,7 +16,7 @@ Provides access to a media playlist.
 This API is used to save and load playlist files to and from disk. For information about playing lists of media items, see [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ## -examples
-This example is an excerpt from the [Playlist sample](https://go.microsoft.com/fwlink/p/?linkid=231538). See the sample for the complete solution.
+This example is an excerpt from the [Playlist sample](http://code.msdn.microsoft.com/windowsapps/Playlist-sample-3d80daee). See the sample for the complete solution.
 
 ```javascript
 // App namespace.
@@ -104,4 +104,4 @@ function scenario2Display() {
 
 
 ## -see-also
-[Playlist sample](https://go.microsoft.com/fwlink/p/?linkid=231538), [Playlists sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624039)
+[Playlist sample](http://code.msdn.microsoft.com/windowsapps/Playlist-sample-3d80daee), [Playlists sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624039)

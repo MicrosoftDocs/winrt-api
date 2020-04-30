@@ -35,4 +35,4 @@ ManipulationDelta supports the ability to attach event handlers to the route tha
 
 ## -see-also
 
-[ManipulationDeltaRoutedEventArgs](../windows.ui.xaml.input/manipulationdeltaroutedeventargs.md), [OnManipulationDelta](../windows.ui.xaml.controls/control_onmanipulationdelta_1383871802.md), [ManipulationStarted](uielement_manipulationstarted.md), [Delta](../windows.ui.input/manipulationdelta.md), [Using manipulation events](https://docs.microsoft.com/previous-versions/windows/apps/hh465387(v=win.10)), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
+[ManipulationDeltaRoutedEventArgs](../windows.ui.xaml.input/manipulationdeltaroutedeventargs.md), [OnManipulationDelta](../windows.ui.xaml.controls/control_onmanipulationdelta_1383871802.md), [ManipulationStarted](uielement_manipulationstarted.md), [Delta](../windows.ui.input/manipulationdelta.md), [Using manipulation events](https://docs.microsoft.com/previous-versions/windows/apps/hh465387(v=win.10)), [XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)

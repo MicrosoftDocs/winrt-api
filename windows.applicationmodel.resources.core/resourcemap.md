@@ -24,7 +24,7 @@ Do not use "?" or "#" in resource identifiers, because they terminate the resour
 For JavaScript, ResourceMap supports using an index to access items.
 
 ## -examples
-This example is based on scenario 13 of the [Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=227301). See the sample for the more complete solution.
+This example is based on scenario 13 of the [Application resources and localization sample](http://code.msdn.microsoft.com/windowsapps/Application-resources-and-cd0c6eaa). See the sample for the more complete solution.
 
 ```javascript
 // Create a ResourceContext.
@@ -84,4 +84,4 @@ function renderCandidate(candidate, index, output) {
 
 
 ## -see-also
-[Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=227301)
+[Application resources and localization sample](http://code.msdn.microsoft.com/windowsapps/Application-resources-and-cd0c6eaa)

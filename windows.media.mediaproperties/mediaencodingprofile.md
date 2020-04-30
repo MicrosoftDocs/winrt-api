@@ -43,4 +43,4 @@ For how-to guidance for using **MediaEncodingProfile** to set the encoding prope
 
 ## -see-also
 
-[Transcoding media sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620569), [Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture), [Transcode media files](https://docs.microsoft.com/windows/uwp/audio-video-camera/transcode-media-files)
+[Transcoding media sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MediaTranscoding), [Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture), [Transcode media files](https://docs.microsoft.com/windows/uwp/audio-video-camera/transcode-media-files)

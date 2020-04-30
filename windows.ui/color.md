@@ -135,7 +135,7 @@ Here's the syntax for defining a Color value as a resource in a XAML [ResourceDi
 
 ```
 
-This code shows a two-way converter for [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) and Color values. This can be useful for databinding scenarios, because it implements the [IValueConverter](../windows.ui.xaml.data/ivalueconverter.md) pattern that the [Converter](../windows.ui.xaml.data/binding_converter.md) property of a data binding can use, and you can then bind a [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) source to a Color target and vice versa. To see this code in context, see the source for the [SwapChainPanel sample](https://go.microsoft.com/fwlink/p/?LinkID=309155).
+This code shows a two-way converter for [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) and Color values. This can be useful for databinding scenarios, because it implements the [IValueConverter](../windows.ui.xaml.data/ivalueconverter.md) pattern that the [Converter](../windows.ui.xaml.data/binding_converter.md) property of a data binding can use, and you can then bind a [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) source to a Color target and vice versa. To see this code in context, see the source for the [SwapChainPanel sample](http://code.msdn.microsoft.com/windowsapps/XAML-SwapChainPanel-00cb688b).
 
 ```csharp
     class BrushConverter : IValueConverter

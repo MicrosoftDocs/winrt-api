@@ -42,7 +42,7 @@ This example shows how to create a Color.
 Windows::UI::Color orangeColor{ Windows::UI::ColorHelper::FromArgb(255, 255, 128, 0) };
 ```
 
-```cpp
+```cppcx
 auto orangeColor = Windows::UI::ColorHelper::FromArgb(255, 255, 128, 0);
 ```
 
@@ -53,7 +53,7 @@ Windows::UI::Xaml::Media::SolidColorBrush greenBrush{
     Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90) };
 ```
 
-```cpp
+```cppcx
 auto greenBrush = ref new SolidColorBrush(Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90));
 ```
 

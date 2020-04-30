@@ -54,7 +54,7 @@ video.PlayToPreferredSourceUri =
     new Uri("http://www.contoso.com/catalogid=1234"); 
 ```
 
-```cpp
+```cppcx
 auto video = ref new Windows::UI::Xaml::Controls::MediaElement();
 
 video->Source = 

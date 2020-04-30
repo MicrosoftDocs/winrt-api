@@ -37,4 +37,4 @@ KeyDown supports the ability to attach event handlers to the route that will be 
 
 ## -see-also
 
-[KeyRoutedEventArgs](../windows.ui.xaml.input/keyroutedeventargs.md), [KeyUp](uielement_keyup.md), [GotFocus](uielement_gotfocus.md), [OnKeyDown](../windows.ui.xaml.controls/control_onkeydown_1048103922.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
+[KeyRoutedEventArgs](../windows.ui.xaml.input/keyroutedeventargs.md), [KeyUp](uielement_keyup.md), [GotFocus](uielement_gotfocus.md), [OnKeyDown](../windows.ui.xaml.controls/control_onkeydown_1048103922.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)

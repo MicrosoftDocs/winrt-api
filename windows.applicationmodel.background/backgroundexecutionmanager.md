@@ -23,4 +23,4 @@ Manage permission to run background tasks.
 ## -examples
 
 ## -see-also
-[Background task sample](https://go.microsoft.com/fwlink/p/?linkid=618666)
+[Background task sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTask)

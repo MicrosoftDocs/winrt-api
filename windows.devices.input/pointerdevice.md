@@ -15,10 +15,10 @@ Supports the ability to identify the connected pointer devices and determine the
 ## -remarks
 The values returned by the properties discussed here are based on the total number of pointer devices connected: Boolean properties return true if one device supports a specific capability and numeric properties return the maximum value exposed by all devices.
 
-The [Device Capabilities Sample](https://go.microsoft.com/fwlink/p/?linkid=231530) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
+The [Device Capabilities Sample](http://code.msdn.microsoft.com/windowsapps/Input-device-capabilities-31b67745) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 The following code shows how to use PointerDevice.
@@ -92,7 +92,66 @@ protected override void OnNavigatedTo(NavigationEventArgs e)
 }
 ```
 
-```cpp
+```cppwinrt
+#include <sstream>
+#include <winrt/Windows.Devices.Input.h>
+#include <winrt/Windows.Foundation.Collections.h>
+#include <winrt/Windows.UI.Xaml.Controls.h>
+using namespace winrt;
+using namespace Windows::Devices::Input;
+using namespace Windows::UI::Xaml::Controls;
+
+...
+
+void PointerGetSettings_Click(Windows::Foundation::IInspectable const& sender, Windows::UI::Xaml::RoutedEventArgs const& args)
+{
+    auto b{ sender.try_as<Button>() };
+    if (b)
+    {
+        Windows::Foundation::Collections::IVectorView<PointerDevice> pointerDeviceList{ PointerDevice::GetPointerDevices() };
+        std::wostringstream buffer;
+
+        for (uint32_t i = 0; i < pointerDeviceList.Size(); i++)
+        {
+            winrt::hstring displayIndex{ winrt::to_hstring(i + 1) };
+            buffer << L"Pointer device " << displayIndex.c_str() << std::endl;
+            buffer << L"This pointer device type is ";
+
+            switch (pointerDeviceList.GetAt(i).PointerDeviceType())
+            {
+            case PointerDeviceType::Mouse:
+                buffer << L"Mouse" << std::endl;
+                break;
+            case PointerDeviceType::Pen:
+                buffer << L"Pen" << std::endl;
+                break;
+            case PointerDeviceType::Touch:
+                buffer << L"Touch" << std::endl;
+                break;
+            default:
+                buffer << L"unknown" << std::endl;
+            }
+
+            buffer << L"This pointer device is " << (pointerDeviceList.GetAt(i).IsIntegrated() ? L"not " : L"") << L"external" << std::endl;
+            buffer << L"This pointer device has a maximum of " << pointerDeviceList.GetAt(i).MaxContacts() << L" contacts" << std::endl;
+            buffer << L"The physical device rect is " <<
+                pointerDeviceList.GetAt(i).PhysicalDeviceRect().X << L", " <<
+                pointerDeviceList.GetAt(i).PhysicalDeviceRect().Y << L", " <<
+                pointerDeviceList.GetAt(i).PhysicalDeviceRect().Width << L", " <<
+                pointerDeviceList.GetAt(i).PhysicalDeviceRect().Height << std::endl;
+            buffer << L"The screen rect is " <<
+                pointerDeviceList.GetAt(i).ScreenRect().X << L", " <<
+                pointerDeviceList.GetAt(i).ScreenRect().Y << L", " <<
+                pointerDeviceList.GetAt(i).ScreenRect().Width << L", " <<
+                pointerDeviceList.GetAt(i).ScreenRect().Height << std::endl << std::endl;
+        }
+
+        PointerOutputTextBlock().Text(buffer.str());
+    }
+}
+```
+
+```cppcx
 void SDKSample::DeviceCaps::Pointer::PointerGetSettings_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e) 
 { 
     Button^ b = safe_cast<Button^>(sender); 

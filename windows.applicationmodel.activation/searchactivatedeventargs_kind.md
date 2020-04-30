@@ -20,4 +20,4 @@ The [ActivationKind.Search](activationkind.md) enumeration value.
 ## -examples
 
 ## -see-also
-[Search app extension sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [ActivationKind enumeration](activationkind.md), [SearchActivatedEventArgs class](searchactivatedeventargs.md), [Windows.ApplicationModel.Search namespace](../windows.applicationmodel.search/windows_applicationmodel_search.md)
+[Search app extension sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5), [ActivationKind enumeration](activationkind.md), [SearchActivatedEventArgs class](searchactivatedeventargs.md), [Windows.ApplicationModel.Search namespace](../windows.applicationmodel.search/windows_applicationmodel_search.md)

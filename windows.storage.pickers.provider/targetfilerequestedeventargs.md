@@ -40,7 +40,7 @@ Your app, as the provider of the save location, can defer in order to respond to
 
 
 ## -examples
-The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event.
+The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how to respond to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event.
 
 ```csharp
 

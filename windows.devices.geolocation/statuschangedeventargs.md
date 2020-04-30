@@ -83,7 +83,7 @@ async private void OnStatusChanged(Geolocator sender, StatusChangedEventArgs e)
 
 ## -see-also
 
-[Geolocation sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=533278)
+[Geolocation sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
 
 ## -capabilities
 

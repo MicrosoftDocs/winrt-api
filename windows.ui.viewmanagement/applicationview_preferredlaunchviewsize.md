@@ -23,4 +23,4 @@ For the very first launch of an app the [PreferredLaunchWindowingMode](applicati
 ## -examples
 
 ## -see-also
-[Window resizing sample](https://go.microsoft.com/fwlink/p/?LinkId=620026)
+[Window resizing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ResizeAppView)

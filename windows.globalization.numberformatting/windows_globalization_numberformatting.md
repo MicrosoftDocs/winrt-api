@@ -19,4 +19,4 @@ For a list of standard country/region codes used by Microsoft, see the [Official
 
 ## -see-also
 
-[Number formatting and parsing sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620578)
+[Number formatting and parsing sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/NumberFormatting)

@@ -68,7 +68,7 @@ private:
 };
 ```
 
-```cpp
+```cppcx
 ref class MyClass
 {
     Compositor ^ _compositor;

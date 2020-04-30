@@ -24,4 +24,4 @@ Represents the asynchronous operation for loading the playlist. The [GetResults]
 ## -examples
 
 ## -see-also
-[Playlists sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624039)
+[Playlists sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Playlists)

@@ -15,4 +15,4 @@ Enables apps get information about users, set globalization preferences, and con
 
 ## -see-also
 
-[Lock screen personalization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620585), [Globalization preferences sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624045), [User information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620617), [OCR sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/OCR)
+[Lock screen personalization sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Personalization), [Globalization preferences sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624045), [User information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620617), [OCR sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/OCR)

@@ -22,7 +22,7 @@ Gets or sets localization/globalization language information that applies to a [
 <dl><dt>languageString</dt><dd>languageStringA string specifying language and culture that follows the BCP 47 standards. For example, U.S. English is "en-US".</dd>
 </dl>
 ## -property-value
-A string specifying language and culture that follows the Internet Engineering Task Force (IETF)  [BCP 47](https://go.microsoft.com/fwlink/p/?linkid=227302) standards. For example, U.S. English is "en-US".
+A string specifying language and culture that follows the Internet Engineering Task Force (IETF)  [BCP 47](http://tools.ietf.org/html/bcp47) standards. For example, U.S. English is "en-US".
 
 ## -remarks
 The Language property is intended for setting a per-element language setting on selected elements in a larger UI. The main reason for doing this is to influence text-related properties and settings, such as what the default or fallback [FontFamily](../windows.ui.xaml.media/fontfamily.md) should be for text presentation.
@@ -59,4 +59,4 @@ This API takes a string. In the equivalent Microsoft Silverlight and Windows Pre
 ## -examples
 
 ## -see-also
-[Globalizing your app](https://docs.microsoft.com/previous-versions/windows/apps/hh965328(v=win.10)), [FlowDirection](frameworkelement_flowdirection.md), [IANA list of languages](https://go.microsoft.com/fwlink/p/?linkid=227303), [x:Uid directive](https://docs.microsoft.com/windows/uwp/xaml-platform/x-uid-directive)
+[Globalizing your app](https://docs.microsoft.com/previous-versions/windows/apps/hh965328(v=win.10)), [FlowDirection](frameworkelement_flowdirection.md), [IANA list of languages](http://www.iana.org/assignments/language-subtag-registry), [x:Uid directive](https://docs.microsoft.com/windows/uwp/xaml-platform/x-uid-directive)

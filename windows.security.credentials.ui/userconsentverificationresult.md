@@ -45,4 +45,4 @@ The following example shows a method that requests fingerprint verification and 
 ## -examples
 
 ## -see-also
-[Fingerprint biometrics](https://docs.microsoft.com/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://go.microsoft.com/fwlink/p/?LinkID=303650), [RequestVerificationAsync](userconsentverifier_requestverificationasync_1054783001.md), [UserConsentVerifier](userconsentverifier.md), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity)
+[Fingerprint biometrics](https://docs.microsoft.com/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](http://code.msdn.microsoft.com/windowsapps/UserConsentVerifier-Sample-ecc40a81), [RequestVerificationAsync](userconsentverifier_requestverificationasync_1054783001.md), [UserConsentVerifier](userconsentverifier.md), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity)

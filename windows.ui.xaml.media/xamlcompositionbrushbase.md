@@ -245,7 +245,7 @@ void BackdropBlurBrush::OnDisconnected()
 }
 ```
 
-```cpp
+```cppcx
 // WindowBlurBrush.h:
 public ref class BackdropBlurBrush sealed :
     public Windows::UI::Xaml::Media::XamlCompositionBrushBase

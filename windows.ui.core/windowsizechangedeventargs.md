@@ -18,7 +18,7 @@ This object is returned by a delegate registered for the [CoreWindow.SizeChanged
 
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx).
 
 ## -examples
 
@@ -33,7 +33,7 @@ void SetWindow(CoreWindow const & window)
 void OnWindowSizeChanged(Windows::UI::Core::CoreWindow const& /* sender */, Windows::UI::Core::WindowSizeChangedEventArgs const& /* args */) {}
 ```
 
-```cpp
+```cppcx
 // returning window size change events data through WindowSizeChangedEventArgs
 void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication::Run(), provided for context
     _In_ CoreWindow^ window

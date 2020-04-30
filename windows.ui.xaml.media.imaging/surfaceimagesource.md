@@ -26,4 +26,4 @@ SurfaceImageSource is the parent class for [VirtualSurfaceImageSource](virtualsu
 ## -examples
 
 ## -see-also
-[DirectX and XAML interop](https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)), [VirtualSurfaceImageSource](virtualsurfaceimagesource.md), [SwapChainBackgroundPanel](../windows.ui.xaml.controls/swapchainbackgroundpanel.md), [SurfaceImageSource sample](https://go.microsoft.com/fwlink/p/?LinkID=258343)
+[DirectX and XAML interop](https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)), [VirtualSurfaceImageSource](virtualsurfaceimagesource.md), [SwapChainBackgroundPanel](../windows.ui.xaml.controls/swapchainbackgroundpanel.md), [SurfaceImageSource sample](http://code.msdn.microsoft.com/windowsapps/XAML-SurfaceImageSource-58f7e4d5)

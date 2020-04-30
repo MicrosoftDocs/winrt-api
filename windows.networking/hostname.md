@@ -47,7 +47,7 @@ int main()
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Networking;
 using namespace Windows::Networking::Sockets;
 

@@ -42,23 +42,25 @@ See [Raw game controller](https://docs.microsoft.com/windows/uwp/gaming/raw-game
 
 The following code snippet shows how to loop through the **RawGameController.RawGameControllers** list and add each **RawGameController** to a vector. You'll need to put a lock on the vector, because things can change at any time (a controller might be disconnected or reconnected, for example).
 
-```cpp
-void GetRawGameControllers()
+```cppwinrt
+#include <concrt.h>
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+...
+std::vector<RawGameController> myRawGameControllers;
+concurrency::critical_section myLock{};
+
+for (auto const& rawGameController : RawGameController::RawGameControllers())
 {
-    auto myControllers{ std::vector<RawGameController>() };
-    critical_section myLock{};
+    // Test whether the raw game controller is already in myRawGameControllers; if it isn't, add it.
+    concurrency::critical_section::scoped_lock lock{ myLock };
+    auto it{ std::find(begin(myRawGameControllers), end(myRawGameControllers), rawGameController) };
 
-    for (auto controller : RawGameController::RawGameControllers())
+    if (it == end(myRawGameControllers))
     {
-        // Check if the controller is already in myControllers; if it isn't, add it.
-        critical_section::scoped_lock lock{ myLock };
-        auto it = std::find(begin(myControllers), end(myControllers), controller);
-
-        if (it == end(myControllers))
-        {
-            // This code assumes that you're interested in all controllers.
-            myControllers.emplace_back(controller);
-        }
+        // This code assumes that you're interested in all raw game controllers.
+        myRawGameControllers.push_back(rawGameController);
     }
 }
 ```

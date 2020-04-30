@@ -25,4 +25,4 @@ The SetImageFileAsync API is not supported when called from x86 Console Apps on 
 ## -examples
 
 ## -see-also
-[Personalization app sample](https://go.microsoft.com/fwlink/p/?linkid=231592), [LockScreen.getImageStream](lockscreen_getimagestream_155459607.md), [LockScreen.originalImageFile](lockscreen_originalimagefile.md), [LockScreen.setImageStreamAsync](lockscreen_setimagestreamasync_1444410973.md), [Lock screen overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779720(v=win.10))
+[Personalization app sample](http://code.msdn.microsoft.com/windowsapps/Personalization-App-sample-9ebfe147), [LockScreen.getImageStream](lockscreen_getimagestream_155459607.md), [LockScreen.originalImageFile](lockscreen_originalimagefile.md), [LockScreen.setImageStreamAsync](lockscreen_setimagestreamasync_1444410973.md), [Lock screen overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779720(v=win.10))

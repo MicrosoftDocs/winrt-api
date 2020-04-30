@@ -25,6 +25,6 @@ For info about how to manage contacts, see [Managing contact cards ](https://doc
 ## -examples
 
 ## -see-also
-[Contact manager API sample](https://go.microsoft.com/fwlink/p/?LinkID=310079)
+[Contact manager API sample](http://code.msdn.microsoft.com/windowsapps/Contact-manager-API-sample-319bdcef)
 ## -capabilities
 contactsSystem

@@ -27,7 +27,7 @@ For info about how to manage appointments, see [Managing appointments](https://d
 
 ## -see-also
 
-[Appointments API sample](https://go.microsoft.com/fwlink/p/?linkid=309836)
+[Appointments API sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Appointments)
 
 ## -capabilities
 

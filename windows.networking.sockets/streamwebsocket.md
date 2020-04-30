@@ -15,7 +15,7 @@ Supports network communication that allows reading and writing streams using a W
 
 ## -remarks
 
-The StreamWebSocket class provides a stream-based abstraction of the message-based [WebSocket protocol](https://go.microsoft.com/fwlink/p/?linkid=240293). This is useful for scenarios in which large files (such as photos or movies) need to be transferred. Using StreamWebSocket allows sections of a message to be read with each read operation, rather than requiring the entire message to be read in a single operation (as with [MessageWebSocket](messagewebsocket.md)).
+The StreamWebSocket class provides a stream-based abstraction of the message-based [WebSocket protocol](http://tools.ietf.org/html/rfc6455). This is useful for scenarios in which large files (such as photos or movies) need to be transferred. Using StreamWebSocket allows sections of a message to be read with each read operation, rather than requiring the entire message to be read in a single operation (as with [MessageWebSocket](messagewebsocket.md)).
 
 StreamWebSocket only supports binary messages. For UTF-8 messages, [MessageWebSocket](messagewebsocket.md) must be used.
 
@@ -45,7 +45,7 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 
 ## -see-also
 
-[WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [MessageWebSocket](messagewebsocket.md), [StreamWebSocketControl](streamwebsocketcontrol.md), [StreamWebSocketInformation](streamwebsocketinformation.md), [WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623), [ControlChannelTrigger StreamWebSocket sample](https://go.microsoft.com/fwlink/p/?linkid=251232)
+[WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [MessageWebSocket](messagewebsocket.md), [StreamWebSocketControl](streamwebsocketcontrol.md), [StreamWebSocketInformation](streamwebsocketinformation.md), [WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket), [ControlChannelTrigger StreamWebSocket sample](https://go.microsoft.com/fwlink/p/?linkid=251232)
 
 ## -capabilities
 

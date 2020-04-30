@@ -15,4 +15,4 @@ Enables and manages access to the most recently used (MRU) list of storage items
 
 ## -see-also
 
-[File access sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619995)
+[File access sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess)

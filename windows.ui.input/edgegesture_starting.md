@@ -21,4 +21,4 @@ When the handler for this event is called, an app could be called to do one of t
 ## -examples
 
 ## -see-also
-[Edge gesture invocation sample](https://go.microsoft.com/fwlink/p/?linkid=242153)
+[Edge gesture invocation sample](http://code.msdn.microsoft.com/windowsapps/edge-gesture-invocation-76a474dd)

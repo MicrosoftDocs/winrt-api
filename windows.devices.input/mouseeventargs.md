@@ -15,10 +15,10 @@ Contains event data for the [MouseMoved](mousedevice_mousemoved.md) event.
 ## -remarks
 **JavaScript:** This object is accessed when you implement a handler to respond to [MouseMoved](mousedevice_mousemoved.md) events.
 
-The [Device Capabilities Sample](https://go.microsoft.com/fwlink/p/?linkid=231530) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
+The [Device Capabilities Sample](http://code.msdn.microsoft.com/windowsapps/Input-device-capabilities-31b67745) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
 
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 

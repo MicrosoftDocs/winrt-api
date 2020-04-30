@@ -48,7 +48,7 @@ A device that is first oriented in portrait mode has the following angles of rot
 + **Landscape** = 270 degrees
 
 
-The [Scaling according to DPI sample](https://go.microsoft.com/fwlink/p/?LinkId=624042) shows how to use the DisplayOrientations enumeration.
+The [Scaling according to DPI sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DisplayOrientation) shows how to use the DisplayOrientations enumeration.
 
 The DisplayOrientations values describe the orientation of the display or monitor and not necessarily the orientation of your app. To determine the orientation of your app for layout purposes, use the [ApplicationView.Orientation](../windows.ui.viewmanagement/applicationview_orientation.md) property.
 

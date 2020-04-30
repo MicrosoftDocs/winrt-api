@@ -15,7 +15,7 @@ Gets the identifier that identifies the time zone that is used by this [Calendar
 
 ## -returns
 
-The identifier from the [IANA Time Zone Database](https://go.microsoft.com/fwlink/p/?LinkId=302107) that identifies the time zone that is used by this [Calendar](calendar.md) object. (An example is "America/Los_Angeles" for Pacific Time.)
+The identifier from the [IANA Time Zone Database](http://www.iana.org/time-zones) that identifies the time zone that is used by this [Calendar](calendar.md) object. (An example is "America/Los_Angeles" for Pacific Time.)
 
 ## -remarks
 

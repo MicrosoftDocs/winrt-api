@@ -28,4 +28,4 @@ A more typical scenario for SourcePageType in code is to only read its value, an
 ## -examples
 
 ## -see-also
-[Page](page.md), [Frame.Navigate](frame_navigate_1426351961.md), [CurrentSourcePageType](frame_currentsourcepagetype.md), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Page](page.md), [Frame.Navigate](frame_navigate_1426351961.md), [CurrentSourcePageType](frame_currentsourcepagetype.md), [XAML Navigation sample](http://code.msdn.microsoft.com/windowsapps/XAML-Navigation-sample-dbd7116c)

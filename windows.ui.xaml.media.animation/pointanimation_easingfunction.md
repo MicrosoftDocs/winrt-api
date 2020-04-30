@@ -34,4 +34,4 @@ Easing functions allow you to apply custom mathematical formulas to your animati
 ## -examples
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [XAML animation sample](https://go.microsoft.com/fwlink/p/?linkid=238571)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [XAML animation sample](http://code.msdn.microsoft.com/windowsapps/animations-f758de70)

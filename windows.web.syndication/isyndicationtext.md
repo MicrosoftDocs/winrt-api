@@ -20,4 +20,4 @@ ISyndicationText inherits [ISyndicationNode](isyndicationnode.md). Types that im
 ## -examples
 
 ## -see-also
-[ISyndicationNode](isyndicationnode.md), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062)
+[ISyndicationNode](isyndicationnode.md), [Syndication sample](http://code.msdn.microsoft.com/windowsapps/Syndication-sample-07ef6b0d)

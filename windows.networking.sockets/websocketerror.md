@@ -20,4 +20,4 @@ Provides socket error status on a [MessageWebSocket](messagewebsocket.md) or [St
 [MessageWebSocket](messagewebsocket.md),
 [StreamWebSocket](streamwebsocket.md),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
-[WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623)
+[WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket)

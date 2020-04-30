@@ -34,4 +34,4 @@ This example uses a TranslateTransform to offset text. In this example, a slight
 [!code-csharp[TranslateTransform_2_code](../windows.ui.xaml/code/transforms/csharp/Translate_Transform_2.xaml.cs#SnippetTranslateTransform_2_code)]
 
 ## -see-also
-[XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580), [Transform](transform.md)
+[XAML two-dimensional transforms sample](http://code.msdn.microsoft.com/windowsapps/transforms-95647b6f), [Transform](transform.md)

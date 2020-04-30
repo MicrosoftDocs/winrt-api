@@ -42,5 +42,5 @@ You should always implement [Convert](ivalueconverter_convert_101701969.md) with
 In the Windows Runtime, the language parameters for IValueConverter methods use strings, as opposed to using [CultureInfo](https://docs.microsoft.com/dotnet/api/system.globalization.cultureinfo?redirectedfrom=MSDN) objects as they do in the Windows Presentation Foundation (WPF) and Microsoft Silverlight definitions of the interface.
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
 b4f1-6caf-4128-a61a-4e400b149011)

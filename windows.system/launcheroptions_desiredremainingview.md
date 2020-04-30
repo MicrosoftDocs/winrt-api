@@ -31,4 +31,4 @@ Source apps that call [LaunchUriAsync](launcher_launchuriasync_53691900.md) or [
 ## -examples
 
 ## -see-also
-[ViewSizePreference](../windows.ui.viewmanagement/viewsizepreference.md), [Association launching sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620490)
+[ViewSizePreference](../windows.ui.viewmanagement/viewsizepreference.md), [Association launching sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AssociationLaunching)

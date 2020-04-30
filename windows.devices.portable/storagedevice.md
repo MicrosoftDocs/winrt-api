@@ -71,12 +71,12 @@ var folder = StorageDevice.FromId(deviceInformationId);
 StorageFolder folder{ StorageDevice::FromId(deviceInformationId) };
 ```
 
-```cpp
+```cppcx
 StorageFolder^ folder = StorageDevice::FromId(deviceInformationId);
 ```
 
 ## -see-also
-[Removable Storage Sample](https://go.microsoft.com/fwlink/p/?linkid=242035)
+[Removable Storage Sample](http://code.msdn.microsoft.com/windowsapps/Removable-Storage-52cc49f0)
 
 ## -capabilities
 removableStorage

@@ -29,4 +29,4 @@ Because all properties of the [AnimationDescription](animationdescription.md) ob
 ## -examples
 
 ## -see-also
-[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462)
+[Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c)

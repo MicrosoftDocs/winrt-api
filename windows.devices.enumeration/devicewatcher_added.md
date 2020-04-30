@@ -19,4 +19,4 @@ Event that is raised when a device is added to the collection enumerated by the 
 ## -examples
 
 ## -see-also
-[Custom USB device sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620530)
+[Custom USB device sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomUsbDeviceAccess)

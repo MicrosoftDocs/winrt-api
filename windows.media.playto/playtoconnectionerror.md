@@ -35,4 +35,4 @@ The Play To target device failed to play the protected content.
 ## -examples
 
 ## -see-also
-[PlayToConnectionErrorEventArgs.Code Property](playtoconnectionerroreventargs_code.md), [PlayToConnection.Error Event](playtoconnection_error.md), [Play To sample](https://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)
+[PlayToConnectionErrorEventArgs.Code Property](playtoconnectionerroreventargs_code.md), [PlayToConnection.Error Event](playtoconnection_error.md), [Play To sample](http://code.msdn.microsoft.com/windowsapps/Media-PlayTo-Sample-fedcb0f9), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)

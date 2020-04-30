@@ -111,7 +111,7 @@ Windows::Foundation::IAsyncOperation<Windows::Storage::Streams::InMemoryRandomAc
 }
 ```
 
-```cpp
+```cppcx
 InMemoryRandomAccessStream^ TileSources::CustomRandomAccessStream::get()
 {
        int pixelHeight = 256;

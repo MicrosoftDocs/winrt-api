@@ -23,4 +23,4 @@ In Windows 8.1UWP apps, Code is set to either **DeviceError** or **ProtectedPla
 ## -examples
 
 ## -see-also
-[PlayToConnection.Error event](playtoconnection_error.md), [Play To sample](https://go.microsoft.com/fwlink/p/?linkid=245166), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)
+[PlayToConnection.Error event](playtoconnection_error.md), [Play To sample](http://code.msdn.microsoft.com/windowsapps/Media-PlayTo-Sample-fedcb0f9), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)

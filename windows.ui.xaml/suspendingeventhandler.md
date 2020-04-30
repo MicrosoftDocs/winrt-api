@@ -31,7 +31,7 @@ The [Suspending](application_suspending.md) event is the only indication your ap
 If your app is terminated, you can restore the app state in an [OnLaunched](application_onlaunched_859642554.md) method override. If your app resumes before it is terminated, the system restores the app state automatically. You should handle the [Resuming](application_resuming.md) event only if you need to refresh any displayed content that might have changed while the app is suspended, such as news feeds or the user's location.
 
 ## -examples
-This code example demonstrates a typical usage pattern for this event. This code is used by many of the XAML samples, for example the [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855), as part of the code-behind for the app.xaml file. If you browse the XAML samples, you can find the source code for the `SuspensionManager` class API as referenced in this code.
+This code example demonstrates a typical usage pattern for this event. This code is used by many of the XAML samples, for example the [Input sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b), as part of the code-behind for the app.xaml file. If you browse the XAML samples, you can find the source code for the `SuspensionManager` class API as referenced in this code.
 
 ```csharp
 async protected void OnSuspending(object sender, SuspendingEventArgs args)

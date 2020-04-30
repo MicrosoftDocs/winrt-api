@@ -146,7 +146,7 @@ int wmain()
 }
 ```
 
-```cpp
+```cppcx
 using Windows::Management::Deployment;
 
 void DisplayPackageUsers(

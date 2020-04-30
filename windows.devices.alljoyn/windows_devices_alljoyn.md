@@ -13,7 +13,7 @@ The Windows.Devices.AllJoyn namespace allows apps to create endpoints on a distr
 
 To get started, check out the following:
 
-+ For the all-up AllJoyn system description, head over to the [Open Connectivity Foundation](https://go.microsoft.com/fwlink/p/?LinkId=526503) website.
++ For the all-up AllJoyn system description, head over to the [Open Connectivity Foundation](https://openconnectivity.org/developer/reference-implementation/alljoyn) website.
 + More information can also be found on the [AllJoyn Open Source Project github wiki](https://github.com/alljoyn/alljoyn.github.com/wiki).
 
 ## -remarks

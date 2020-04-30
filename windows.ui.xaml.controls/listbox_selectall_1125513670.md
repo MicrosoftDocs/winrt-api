@@ -31,7 +31,7 @@ if (listBox().SelectionMode() != Windows::UI::Xaml::Controls::SelectionMode::Sin
 }
 ```
 
-```cpp
+```cppcx
 if (listBox->SelectionMode != SelectionMode::Single)
 {
     listBox->SelectAll();

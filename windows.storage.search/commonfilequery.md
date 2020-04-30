@@ -75,4 +75,4 @@ Call the [StorageFolder.IsCommonFileQuerySupported](../windows.storage/storagefo
 
 ## -see-also
 
-[Folder enumeration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619993)
+[Folder enumeration sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration)
