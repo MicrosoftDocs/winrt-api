@@ -17,7 +17,7 @@ Creates a new [MidiTimeCodeMessage](miditimecodemessage.md) object.
 The frame type from 0-7.
 
 ### -param values
-The time code from 0-32.
+The time code from 0-15.
 
 ## -remarks
 If any values passed into the constructor fo not adhere to the specified requirements, an invalid argument exception will be thrown.
