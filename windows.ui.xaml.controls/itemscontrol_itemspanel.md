@@ -39,9 +39,9 @@ An [ItemsPanelTemplate](itemspaneltemplate.md) that defines the panel to use for
 
 ## -examples
 
-Replace the default panel used in a ListView with an [ItemsStackPanel](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.ItemsStackPanel) that has its Orientation changed set to Horizontal.
+Replace the default panel used in a ListView with an [ItemsStackPanel](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.ItemsStackPanel) that has its Orientation changed to Horizontal.
 
-```xml
+```xaml
 <ListView>
     <x:String>Hello</x:String>
     <x:String>World</x:String>
