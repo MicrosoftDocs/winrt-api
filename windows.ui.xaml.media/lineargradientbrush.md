@@ -47,4 +47,4 @@ This example creates a linear gradient with four colors and uses it to paint a *
 <img alt="Gradient axis for a vertical gradient" src="Images/graphicsmm_verticalgradient.png" />
 
 ## -see-also
-[GradientBrush](gradientbrush.md), [RadialGradientBrush](radialgradientbrush.md), [SolidColorBrush](solidcolorbrush.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[GradientBrush](gradientbrush.md), [RadialGradientBrush](/uwp/api/microsoft.ui.xaml.media.radialgradientbrush), [SolidColorBrush](solidcolorbrush.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
