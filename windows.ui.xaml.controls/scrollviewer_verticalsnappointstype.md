@@ -65,4 +65,4 @@ This XAML is from the default template for a [Hub](hub.md) control. A [Hub](hub.
 
 
 ## -see-also
-[SnapPointsType](snappointstype.md), [XAML scrolling, panning and zooming sample](http://code.msdn.microsoft.com/windowsapps/XAML-ScrollViewer-pan-and-949d29e9)
+[SnapPointsType](snappointstype.md), [XAML scrolling, panning and zooming sample](http://code.msdn.microsoft.com/windowsapps/XAML-ScrollViewer-pan-and-949d29e9), [Scroll viewer controls](/windows/uwp/design/controls-and-patterns/scroll-controls), [Guidelines for panning](/windows/uwp/design/input/guidelines-for-panning)
