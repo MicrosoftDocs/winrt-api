@@ -14,6 +14,9 @@ public AudioDeviceInputNode ConversationalAgentSession.CreateAudioDeviceInputNod
 
 Synchronously creates an audio graph input node.
 
+> [!Important]
+> To avoid possible concurrency issues, we recommend using [CreateAudioDeviceInputNodeAsync](conversationalagentsession_createaudiodeviceinputnodeasync_1477409751.md) instead.
+
 ## -parameters
 
 ### -param graph

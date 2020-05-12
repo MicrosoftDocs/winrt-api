@@ -20,7 +20,7 @@ Gets or sets the time span of the [ConversationalAgentSignal](conversationalagen
 
 If the SignalStart and [SignalEnd](conversationalagentsignal_signalend.md) time spans are the same, this indicates that the signal is not a voice activation (for example, a keyboard press or Bluetooth activation).
 
-If the SignalStart and [SignalEnd](conversationalagentsignal_signalend.md) time spans are different, they indicate the position of the *wake* utterance in the audio stream.
+If the SignalStart and [SignalEnd](conversationalagentsignal_signalend.md) time spans are different, they indicate the position of the keyword utterance in the audio stream.
 
 ## -see-also
 

@@ -26,11 +26,11 @@ Operation failed due to an access condition not being met.
 ### -field UiccBusy:3
 Operation failed because the UICC was busy.
 
-
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl

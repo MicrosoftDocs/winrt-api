@@ -1120,15 +1120,6 @@ Three stacked notices, each containing one header string in larger text over one
 
 <img src="images/TileSquare310x310TextList03.jpg" alt="TileSquare310x310TextList03 example" />
 
-### -field TileSquare99x99IconWithBadge:1000
-**Windows only; not supported on **
-
-### -field TileSquare210x210IconWithBadge:1001
-**Windows only; not supported on **
-
-### -field TileWide432x210IconWithBadgeAndText:1002
-**Windows only; not supported on **
-
 ### -field TileSquare71x71IconWithBadge:75
 ** only**.
 

@@ -44,15 +44,13 @@ The transport (cellular or voice over IP) for the phone line.
 ### -field Voicemail:256
 The voice mail account associated with the phone line.
 
-
-### -field BluetoothDetails:512
-
-
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 ## -capabilities
 phoneCallHistory, phoneCallHistorySystem
+
 

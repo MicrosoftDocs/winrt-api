@@ -10,7 +10,7 @@ public IAsyncOperation<AppCapabilityAccessStatus> AppCapability.RequestAccessAsy
 # Windows.Security.Authorization.AppCapabilityAccess.AppCapability.RequestAccessAsync
 
 ## -description
-Requests access for the object’s stored capability and user.
+Requests access for the object's stored capability and user.
 
 ## -returns
 Returns an AppCapabilityAccessStatus enum.

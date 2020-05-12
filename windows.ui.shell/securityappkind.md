@@ -12,8 +12,12 @@ public enum SecurityAppKind : int
 
 ## -description
 
+No description.
+
 ## -enum-fields
 ### -field WebProtection:0
+
+No description.
 
 ## -remarks
 

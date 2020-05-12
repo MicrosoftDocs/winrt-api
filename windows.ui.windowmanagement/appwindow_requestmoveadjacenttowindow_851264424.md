@@ -22,6 +22,8 @@ The window to position this window next to.
 
 ## -remarks
 
+The move request is ignored if the [AppWindow.WindowingEnvironment](appwindow_windowingenvironment.md) is `Tiled`.
+
 ## -see-also
 
 ## -examples

@@ -10,7 +10,7 @@ public enum AppCapabilityAccessStatus : int
 # Windows.Security.Authorization.AppCapabilityAccess.AppCapabilityAccessStatus
 
 ## -description
-Describes an application’s access to a single capability. 
+Describes an application's access to a single capability. 
 
 ## -enum-fields
 ### -field UserPromptRequired:3
@@ -29,7 +29,7 @@ State: Denied by System.
 State: Allowed.
 
 ## -remarks
-“Requesting" access means to ask the system to do a full access check, which may involve a user prompt. Requests will never return “UserPromptRequired". "Checking" access will simply query your status and is guaranteed to not prompt, as such may return the status "UserPromptRequired".
+"Requesting" access means to ask the system to do a full access check, which may involve a user prompt. Requests will never return "UserPromptRequired". "Checking" access will simply query your status and is guaranteed to not prompt, as such may return the status "UserPromptRequired".
 
 ## -see-also
 

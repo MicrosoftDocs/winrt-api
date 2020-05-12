@@ -11,7 +11,7 @@ public bool IsLocked { get; }
 
 ## -description
 
-Gets the state of the hardware Function button lock for the [SystemFunctionLockChanged](systembuttoneventcontroller_systemfunctionlockchanged.md) event.
+Gets the state of the **Fn** hardware system button lock for the [SystemFunctionLockChanged](systembuttoneventcontroller_systemfunctionlockchanged.md) event.
 
 ## -property-value
 
@@ -25,6 +25,6 @@ This API is intended for use by Accessibility tools as a low level hook for inte
 
 ## -see-also
 
-[Hooks Overview](/windows/win32/winmsg/about-hooks)
+[Screen readers and hardware system buttons](/windows/uwp/design/accessibility/system-button-narration), [Hooks Overview](/windows/win32/winmsg/about-hooks)
 
 ## -examples

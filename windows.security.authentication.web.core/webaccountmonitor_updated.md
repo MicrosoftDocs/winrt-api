@@ -10,10 +10,11 @@ public event Windows.Foundation.TypedEventHandler Updated<Windows.Security.Authe
 # Windows.Security.Authentication.Web.Core.WebAccountMonitor.Updated
 
 ## -description
-Fires when one of the monitored [WebAccount](../windows.security.credentials/webaccount.md) is updated.
+Fires when a monitored [WebAccount](../windows.security.credentials/webaccount.md) is updated.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+[AccountPictureUpdated](webaccountmonitor_accountpictureupdated.md)

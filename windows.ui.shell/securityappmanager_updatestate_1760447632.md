@@ -12,16 +12,28 @@ public void SecurityAppManager.UpdateState(SecurityAppKind kind, Guid guidRegist
 
 ## -description
 
+No description.
+
 ## -parameters
 ### -param kind
 
+No description.
+
 ### -param guidRegistration
+
+No description.
 
 ### -param state
 
+No description.
+
 ### -param substatus
 
+No description.
+
 ### -param detailsUri
+
+No description.
 
 ## -remarks
 

@@ -31,6 +31,20 @@ The device to which the message was sent is not available.
 ### -field MessageSizeTooLarge:5
 The app service failed to process the message because it is too large.
 
+### -field AppUnavailable:6
+The operation failed due to the app failing to start.
+
+### -field AuthenticationError:7
+The operation failed due to unsuccessful account authentication. The user must re-validate the account to continue.
+
+### -field DisabledByPolicy:9
+The operation failed, as the app service needed service or capabilities disabled by some policies on the local or remote device.
+
+### -field NetworkNotAvailable:8
+The operation failed due to lack of an internet connection.
+
+### -field WebServiceUnavailable:10
+The operation failed because one or more necessary cloud services were temporarily unavailable.
 
 ## -remarks
 
