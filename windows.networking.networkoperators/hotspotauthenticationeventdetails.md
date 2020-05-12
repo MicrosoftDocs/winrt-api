@@ -24,6 +24,6 @@ An application can register for the hotspot authentication event through the [Ne
 ## -examples
 
 ## -see-also
-[HotspotAuthenticationContext](HotspotAuthenticationContext.md), [Wi-Fi hotpost authentication sample](https://code.msdn.microsoft.com/windowsapps/Wi-Fi-hotspot-authenticatio-943569eb)
+[HotspotAuthenticationContext](HotspotAuthenticationContext.md), [Wi-Fi hotpost authentication sample](https://github.com/microsoft/VCSamples/tree/master/VC2012Samples/Windows%208%20samples/C%2B%2B/Windows%208%20app%20samples/Wi-Fi%20hotspot%20authentication%20sample%20(Windows%208))
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl
