@@ -10,6 +10,7 @@ public void LearningModelSession.Close()
 # Windows.AI.MachineLearning.LearningModelSession.Close
 
 ## -description
+Closes the current LearningModelSession.
 
 ## -remarks
 

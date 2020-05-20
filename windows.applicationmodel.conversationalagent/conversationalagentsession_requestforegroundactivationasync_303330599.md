@@ -24,6 +24,4 @@ Use this method to provide some kind of UI response in your app. Digital assista
 
 ## -see-also
 
-[RequestForegroundActivation](conversationalagentsession_requestforegroundactivation_1391115984.md)
-
 ## -examples

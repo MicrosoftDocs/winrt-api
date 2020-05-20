@@ -12,10 +12,15 @@ public void SecurityAppManager.Unregister(SecurityAppKind kind, Guid guidRegistr
 
 ## -description
 
+No description.
+
 ## -parameters
 ### -param kind
 
+No description.
 ### -param guidRegistration
+
+No description.
 
 ## -remarks
 

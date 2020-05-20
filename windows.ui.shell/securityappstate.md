@@ -12,10 +12,16 @@ public enum SecurityAppState : int
 
 ## -description
 
+No description.
+
 ## -enum-fields
 ### -field Enabled:1
 
+No description.
+
 ### -field Disabled:0
+
+No description.
 
 ## -remarks
 

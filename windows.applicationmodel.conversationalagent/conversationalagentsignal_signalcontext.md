@@ -20,7 +20,7 @@ The signal context.
 
 ## -remarks
 
-The Agent Activation Runtime (AAR) can detect other [ConversationalAgentSignal](conversationalagentsignal.md) during an active [ConversationalAgentSession](conversationalagentsession.md) (see [ConversationalAgentState](conversationalagentstate.md)). As a session is already in progress, first-stage detection is not initiated, instead second or third-stage detection is triggered and the [ConversationalAgent](windows_applicationmodel_conversationalagent.md) will decide to use it in the context of the current session, or ignore it.
+The Windows Conversational Agent platform can detect other [ConversationalAgentSignal](conversationalagentsignal.md) during an active [ConversationalAgentSession](conversationalagentsession.md) (see [ConversationalAgentState](conversationalagentstate.md)). As a session is already in progress, the [ConversationalAgent](windows_applicationmodel_conversationalagent.md) can decide to use it in the context of the current session, or ignore it.
 
 An example of this behavior is when the user utters "Hey Cortana, set a reminder", Cortana begins to respond with “What would you like... [to be reminded of?]”, and the user interrupts the response with additional instructions like "pick up flowers for mom". Cortana gets this new signal and stops speaking to process the new input in the context of the original intent detection.
 

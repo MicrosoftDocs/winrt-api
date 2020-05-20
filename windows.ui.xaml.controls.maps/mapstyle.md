@@ -34,6 +34,8 @@ An aerial 3D map.
 ### -field Aerial3DWithRoads:6
 A hybrid map that combines an aerial 3D map with roads.
 
+### -field Custom:7
+A map that uses a custom [Style](mapcontrol_style.md).
 
 ## -remarks
 

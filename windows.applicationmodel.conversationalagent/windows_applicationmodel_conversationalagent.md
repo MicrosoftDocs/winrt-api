@@ -12,19 +12,19 @@ namespace Windows.ApplicationModel.ConversationalAgent
 
 ## -description
 
-Provides applications the ability to expose functionality through any digital assistant supported by the Windows platform Agent Activation Runtime (AAR).
+Provides applications the ability to expose functionality through any digital assistant supported by the Windows Conversational Agent platform.
 
 ## -remarks
 
-Users can enable a first-stage signal for a digital assistant in Settings. This signal can include a *wake* utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other sounds (door slam, smoke detector). For example, the "Hey Cortana" keywords enable listening mode for a Cortana interaction.
+Users can enable a platform-level detection signal for a conversational agent in Settings. This signal can include a keyword utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other sounds (door slam, smoke detector). For example, the "Hey Cortana" keyword that begins a voice interaction with Cortana.
 
-A second-stage utterance (or keyword detection) is part of the intent phase. For example, "Hey Cortana, *what's the forecast for today?*".
+Platform-level signal detectors act as a "first-pass" filter and can result in too many unintended activations. For this reason, we recommend that you consider additional verification of an activation signal, such as using a more stringent keyword detector from the context of the agent application.
 
-Third-stage keyword detection involves a remote cloud service.
+If a [ConversationalAgentSignal](conversationalagentsignal.md) is detected while the application is not running, or is not able to respond to the [ConversationalAgentSession.SignalDetected](conversationalagentsession_signaldetected.md) event, the application is activated in the background using a task registered with a [ConversationalAgentTrigger](../windows.applicationmodel.background/conversationalagenttrigger.md).
 
-If a [ConversationalAgentSignal](conversationalagentsignal.md) is detected while a [ConversationalAgentSession](conversationalagentsession.md) is **inactive**, the AAR raises a [ConversationalAgentTrigger](../windows.applicationmodel.background/conversationalagenttrigger.md) background event. Your app can then use the Signal property to process the conversation.
+If a [ConversationalAgentSignal](conversationalagentsignal.md) is detected while the application is able to respond to a [ConversationalAgentSession.SignalDetected](conversationalagentsession_signaldetected.md) event (by calling [ConversationalAgentSession.RequestAgentStateChangeAsync](conversationalagentsession_requestagentstatechangeasync_1892921766.md)), no background activation occurs, as the signal has already been handled.
 
-If a [ConversationalAgentSignal](conversationalagentsignal.md) is detected while a [ConversationalAgentSession](conversationalagentsession.md) is **active** (listening, speaking, detecting), the AAR does not raise  a [ConversationalAgentTrigger](../windows.applicationmodel.background/conversationalagenttrigger.md) background event. Instead, it raises the [SessionInterrupted](conversationalagentsession_sessioninterrupted.md) event to indicate that the digital assistant app should set itself to inactive and stop processing input. The digital assistant can then decide to ignore the new signal or use it in the [context](conversationalagentsignal_signalcontext.md) of the current session.
+If a [ConversationalAgentSignal](conversationalagentsignal.md) is detected for a conversational agent while an interruptible session (see [RequestInterruptableAsync](conversationalagentsession_requestinterruptibleasync_1030348212.md)) is already active, the session will receive a [ConversationalAgentSession.SessionInterrupted](conversationalagentsession_sessioninterrupted.md) event to indicate that a new signal event has been raised.
 
 > [!NOTE]
 > Some digital assistant sessions cannot be interrupted by another signal. For example, Cortana requires the user to issue a cancel or stop command to end the current session (the user cannot be in a Cortana session and issue commands to Alexa).

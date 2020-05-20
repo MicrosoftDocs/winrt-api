@@ -25,9 +25,16 @@ Gets or sets a value that indicates whether scroll chaining is enabled from this
 **true** to enable horizontal scroll chaining from child to parent; otherwise, **false**.
 
 ## -remarks
+
+After a user hits a scroll limit on an element that has been nested within another scrollable element, you can specify whether that parent element should continue the scrolling operation begun in its child element. This is called scroll chaining.
+
+For more info, see [Guidelines for panning](/windows/uwp/design/input/guidelines-for-panning).
+
 For XAML usage, IsHorizontalScrollChainingEnabled can either be an attribute on an explicit [ScrollViewer](scrollviewer.md) element, or a **ScrollViewer.IsHorizontalScrollChainingEnabled** attached property usage on an element that is a child of a control that supports scrollview implicitly in its template.
-<!--May not work because there is no apparent templatebinding linkage in most of the generic templates.-->
+
 
 ## -examples
 
 ## -see-also
+
+[Scroll viewer controls](/windows/uwp/design/controls-and-patterns/scroll-controls), [Guidelines for panning](/windows/uwp/design/input/guidelines-for-panning)

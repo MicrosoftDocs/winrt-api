@@ -11,7 +11,7 @@ public event TypedEventHandler SystemFunctionButtonReleased<SystemButtonEventCon
 
 ## -description
 
-Occurs when a hardware Function (also know as Function Shift) button, which is currently pressed, is released.
+Occurs when a **Fn** hardware system (also know as Function Shift) button, which is currently pressed, is released.
 
 ## -remarks
 
@@ -21,6 +21,6 @@ This API is intended for use by Accessibility tools as a low level hook for inte
 
 ## -see-also
 
-[SystemFunctionButtonEventArgs](systemfunctionbuttoneventargs.md), [SystemFunctionButtonPressed](systembuttoneventcontroller_systemfunctionbuttonpressed.md), [Hooks Overview](/windows/win32/winmsg/about-hooks)
+[SystemFunctionButtonEventArgs](systemfunctionbuttoneventargs.md), [SystemFunctionButtonPressed](systembuttoneventcontroller_systemfunctionbuttonpressed.md), [Screen readers and hardware system buttons](/windows/uwp/design/accessibility/system-button-narration), [Hooks Overview](/windows/win32/winmsg/about-hooks)
 
 ## -examples

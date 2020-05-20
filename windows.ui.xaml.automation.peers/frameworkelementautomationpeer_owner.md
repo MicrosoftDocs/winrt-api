@@ -1,4 +1,4 @@
-F---
+---
 -api-id: P:Windows.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer.Owner
 -api-type: winrt property
 ---

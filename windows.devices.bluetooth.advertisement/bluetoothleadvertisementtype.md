@@ -39,6 +39,10 @@ This advertisement is a scan response to a scan request issued for a scannable a
 
 This corresponds with the SCAN_RSP type defined in the Bluetooth LE specifications.
 
+### -field Extended:5
+This advertisement is a 5.0 extended advertisement. This advertisement type may have different properties, and is not necessarily directed, connected, scannable, nor a scan response.
+
+See the [advertisement event properties](bluetoothleadvertisementreceivedeventargs.md) to determine the advertisement details.
 
 ## -remarks
 

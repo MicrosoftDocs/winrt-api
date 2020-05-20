@@ -10,22 +10,20 @@ public enum Windows.Networking.Vpn.VpnPacketBufferStatus : int
 # VpnPacketBufferStatus
 
 ## -description
-Describes the possible states of the VPN packet buffer.
+Defines constants that specify the possible states of the VPN packet buffer.
 
 ## -enum-fields
 ### -field Ok:0
-OK
+Specifies that the state is ok.
 
 ### -field InvalidBufferSize:1
-Invalid buffer size
-
+Specifies an invalid buffer size.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 networkingVpnProvider

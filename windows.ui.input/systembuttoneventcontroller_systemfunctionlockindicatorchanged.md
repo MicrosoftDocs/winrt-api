@@ -11,7 +11,7 @@ public event TypedEventHandler SystemFunctionLockIndicatorChanged<SystemButtonEv
 
 ## -description
 
-Occurs on changes to the state of the visual indicator for the hardware Function (also know as Function Shift) button lock.
+Occurs on changes to the state of the visual indicator for the **Fn** hardware system (also know as Function Shift) button lock.
 
 ## -remarks
 
@@ -21,6 +21,6 @@ This API is intended for use by Accessibility tools as a low level hook for inte
 
 ## -see-also
 
-[SystemFunctionLockIndicatorChangedEventArgs](systemfunctionlockindicatorchangedeventargs.md), [Hooks Overview](/windows/win32/winmsg/about-hooks)
+[SystemFunctionLockIndicatorChangedEventArgs](systemfunctionlockindicatorchangedeventargs.md), [Screen readers and hardware system buttons](/windows/uwp/design/accessibility/system-button-narration), [Hooks Overview](/windows/win32/winmsg/about-hooks)
 
 ## -examples

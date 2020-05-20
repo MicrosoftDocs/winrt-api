@@ -14,6 +14,9 @@ public ConversationalAgentSessionUpdateResponse ConversationalAgentSession.Reque
 
 Synchronously requests that the digital assistant be activated to the foreground.
 
+> [!Important]
+> To avoid possible concurrency issues, we recommend using [RequestForegroundActivationAsync](conversationalagentsession_requestforegroundactivationasync_303330599.md) instead.
+
 ## -returns
 
 A [ConversationalAgentSessionUpdateResponse](conversationalagentsessionupdateresponse.md).
@@ -24,6 +27,6 @@ Use this method to provide some kind of UI response in your app. Digital assista
 
 ## -see-also
 
-RequestForegroundActivation
+[RequestForegroundActivationAsync](conversationalagentsession_requestforegroundactivationasync_303330599.md)
 
 ## -examples

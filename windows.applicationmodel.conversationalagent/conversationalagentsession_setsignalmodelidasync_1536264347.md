@@ -28,6 +28,4 @@ An asynchronous operation with a value of **true** if the model identifier was s
 
 ## -see-also
 
-[Windows.ApplicationModel.ConversationalAgent.ConversationalAgentSession.SetSignalModelId](conversationalagentsession_setsignalmodelid_1936435254.md)
-
 ## -examples

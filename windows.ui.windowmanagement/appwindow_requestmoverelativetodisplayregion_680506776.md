@@ -26,6 +26,8 @@ The offset of the window in the display region.
 
 ## -remarks
 
+The `displayRegionOffset` parameter is ignored if the [AppWindow.WindowingEnvironment](appwindow_windowingenvironment.md) is `Tiled`.
+
 ## -see-also
 
 ## -examples

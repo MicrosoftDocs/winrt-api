@@ -25,4 +25,4 @@ The network passphrase.
 ## -see-also
 
 ## -capabilities
-cellularDeviceIdentity, cellularDeviceControl
+wiFiControl
