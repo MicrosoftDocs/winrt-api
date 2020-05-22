@@ -17,7 +17,7 @@ Registers a sync root with the operating system.
 The sync root to register.
 
 ## -remarks
-Multiple sync roots cannot be registered with the same [path](syncrootinformation_path.md).
+Multiple sync roots cannot be registered with the same [path](storageprovidersyncrootinfo_path.md).
 
 ## -see-also
 
