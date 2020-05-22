@@ -21,9 +21,9 @@ Occurs when an otherwise unhandled **Tap** interaction occurs over the hit test 
 
 ## -remarks
 
-Touch, mouse devices and pen devices can all produce a **Tap** action. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
+Touch, mouse devices and pen devices can all produce a **Tap** action. For more info, see [Handle pointer input](/windows/uwp/design/input/handle-pointer-input).
 
-See [Touch interaction design](https://msdn.microsoft.com/library/9ba7f613-e5d1-40d4-920b-143094209e3a) for more info on how to use a **Tap** interaction in your app design. The general idea is that a **Tap** interaction on an element invokes the element's primary action in your app.
+See [Touch interaction design](/windows/uwp/design/input/touch-interactions) for more info on how to use a **Tap** interaction in your app design. The general idea is that a **Tap** interaction on an element invokes the element's primary action in your app.
 
 A Tapped event represents a gesture, whereas a [PointerPressed](uielement_pointerpressed.md) event is a lower-level input event. Tapped and [PointerPressed](uielement_pointerpressed.md) events can be raised as the result of a single user interaction. If the event source has a nondefault [ManipulationMode](uielement_manipulationmode.md), [ManipulationStarting](uielement_manipulationstarting.md) can be raised too. Even if a control is already handling [PointerPressed](uielement_pointerpressed.md) in the control logic, or is handling manipulations, that doesn't prevent Tapped from being raised.
 
