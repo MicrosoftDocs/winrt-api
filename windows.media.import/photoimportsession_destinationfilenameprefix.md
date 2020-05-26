@@ -17,6 +17,8 @@ Gets or sets the prefix for the destination file name.
 The prefix for the destination file name.
 
 ## -remarks
+The prefix must consist of valid filename characters and may not exceed 64 characters.
+It may not begin with a space or end in multiple spaces.
 
 ## -examples
 
