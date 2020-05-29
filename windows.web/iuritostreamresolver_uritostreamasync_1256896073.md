@@ -17,7 +17,8 @@ Translates a URI to a content stream for use by the [WebView.NavigateToLocalStre
 The URI to translate.
 
 ## -returns
-When this method returns, the content stream.
+
+An asynchronous operation object from which, on successful completion, you can retrieve the content stream.
 
 ## -remarks
 If you need to perform a seek operation on the content stream, be sure to return an [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md). For example, suppose the stream represents a page with embedded media, and you return the result of a [GetInputStreamAt](../windows.storage.streams/irandomaccessstream_getinputstreamat_1916887525.md) call, which is an [IInputStream](../windows.storage.streams/iinputstream.md), but not an [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md). In this case, the media will play, but the user will not be able to change the playback position.

@@ -17,7 +17,7 @@ Renders a snapshot of a [UIElement](../windows.ui.xaml/uielement.md) visual tree
 A [UIElement](../windows.ui.xaml/uielement.md) that represents the visual tree fragment to render.
 
 ## -returns
-When this method returns, an [IAsyncAction](../windows.foundation/iasyncaction.md) object that can be used to control the asynchronous operation.
+An [IAsyncAction](../windows.foundation/iasyncaction.md) object that you can use to control the asynchronous operation.
 
 ## -remarks
 The rendered image isn't returned by this method. But after it returns, so long as the async [Status](../windows.foundation/iasyncinfo_status.md) value doesn't indicate an error, the [RenderTargetBitmap](rendertargetbitmap.md) that called it will have valid image info. The [RenderTargetBitmap](rendertargetbitmap.md) can then be assigned in code as an image source for an [Image](../windows.ui.xaml.controls/image.md) control or [ImageBrush](../windows.ui.xaml.media/imagebrush.md) instance.

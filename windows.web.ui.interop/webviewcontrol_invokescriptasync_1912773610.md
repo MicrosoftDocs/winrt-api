@@ -22,7 +22,7 @@ The name of the script function to invoke.
 A string array that packages arguments to the script function.
 
 ## -returns
-When this method returns, the string result of the script invocation.
+An asynchronous operation object from which, on successful completion, you can retrieve the string result of the script invocation.
 
 ## -remarks
 
