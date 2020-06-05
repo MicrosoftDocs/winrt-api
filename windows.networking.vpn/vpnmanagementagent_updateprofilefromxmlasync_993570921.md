@@ -9,12 +9,15 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.Vpn.VpnManagementEr
 
 # Windows.Networking.Vpn.VpnManagementAgent.UpdateProfileFromXmlAsync
 
+> [!IMPORTANT]
+> This API is not implemented, and we recommend that you do not call it.
+
 ## -description
-Updates an existing VPN profile based on an input WAP XML string.
+Updates an existing VPN profile based on an input ProfileXML-encoded string (see [ProfileXML XSD](/windows/client-management/mdm/vpnv2-profile-xsd)).
 
 ## -parameters
 ### -param xml
-A Wireless Application Protocol (WAP) XML string.
+A ProfileXML XML string.
 
 ## -returns
 An enum value indicating the error status.
