@@ -27,7 +27,7 @@ For how-to guidance on initializing and shutting down the **MediaCapture** objec
 | 1703 | 15063 | AlwaysPlaySystemShutterSound |
 
 > [!NOTE]
-> When **MediaCaptureSharingMode::SharedReadOnly** is used, some of the MediaCaptureInitializationSettings properties could not be configured. See [SharingMode](mediacaptureinitializationsettings_sharingmode.md) for details.
+> When **MediaCaptureSharingMode::SharedReadOnly** is used, some of the MediaCaptureInitializationSettings properties can't be configured. See [SharingMode](mediacaptureinitializationsettings_sharingmode.md) for details.
 
 ## -examples
 
