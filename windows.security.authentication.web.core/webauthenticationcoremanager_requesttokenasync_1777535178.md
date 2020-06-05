@@ -27,7 +27,10 @@ For an equivalent of this method for desktop apps, see
 ## -examples
 
 ## -see-also
-[Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement),
-[RequestTokenAsync(WebTokenRequest, WebAccount)](webauthenticationcoremanager_requesttokenasync_695504446.md),
-[IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenforwindowasync), 
-[IWebAuthenticationCoreManagerInterop](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop) interface
+[Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement)
+
+[RequestTokenAsync(WebTokenRequest, WebAccount)](webauthenticationcoremanager_requesttokenasync_695504446.md)
+
+[IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenforwindowasync)
+
+[IWebAuthenticationCoreManagerInterop interface](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop)
