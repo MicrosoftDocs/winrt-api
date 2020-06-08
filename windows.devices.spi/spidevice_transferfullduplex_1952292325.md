@@ -10,7 +10,7 @@ public void TransferFullDuplex(System.Byte[] writeBuffer, System.Byte[] readBuff
 # Windows.Devices.Spi.SpiDevice.TransferFullDuplex
 
 ## -description
-Transfer data using a full duplex communication system. Full duplex allows both the master and the slave to communicate simultaneously.
+Transfer data using a full duplex communication system. Full duplex allows both the master and the subordinate to communicate simultaneously.
 
 ## -parameters
 ### -param writeBuffer
