@@ -11,7 +11,7 @@ public class InkWorkspaceHostedAppManager
 
 ## -description
 
-Represents the manager for apps hosted in the Windws Ink Workspace.
+Represents the manager for apps hosted in the Windows Ink Workspace.
 
 ## -remarks
 
