@@ -26,4 +26,4 @@ CurrentSourcePageType and [SourcePageType](frame_sourcepagetype.md) are normally
 ## -examples
 
 ## -see-also
-[Navigating](frame_navigating.md), [Page.OnNavigatingFrom](page_onnavigatingfrom_425696585.md), [XAML Navigation sample](http://code.msdn.microsoft.com/windowsapps/XAML-Navigation-sample-dbd7116c)
+[Navigating](frame_navigating.md), [Page.OnNavigatingFrom](page_onnavigatingfrom_425696585.md), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)

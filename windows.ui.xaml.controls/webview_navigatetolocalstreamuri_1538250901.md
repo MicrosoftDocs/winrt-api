@@ -30,7 +30,7 @@ The [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) interface has
 > Your [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) implementation must be agile to prevent deadlock that can occur when the UI thread waits for the [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) to finish its work before continuing. For more info, see [Threading and Marshaling](https://docs.microsoft.com/cpp/cppcx/threading-and-marshaling-c-cx)
 
 ## -examples
-The following code example shows how to create and use a resolver that will serve a file from the app package. For a complete example, see the [XAML WebView control sample](http://code.msdn.microsoft.com/windowsapps/XAML-WebView-control-sample-58ad63f7).
+The following code example shows how to create and use a resolver that will serve a file from the app package. For a complete example, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
 
 ```csharp
 
@@ -86,6 +86,6 @@ public sealed class StreamUriWinRTResolver : IUriToStreamResolver
 
 
 ## -see-also
-[IUriToStreamResolver](../windows.web/iuritostreamresolver.md), [BuildLocalStreamUri](webview_buildlocalstreamuri_803594427.md), [XAML WebView control sample](http://code.msdn.microsoft.com/windowsapps/XAML-WebView-control-sample-58ad63f7), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)
+[IUriToStreamResolver](../windows.web/iuritostreamresolver.md), [BuildLocalStreamUri](webview_buildlocalstreamuri_803594427.md), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)
 ## -capabilities
 enterpriseCloudSS

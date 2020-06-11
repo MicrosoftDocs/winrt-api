@@ -16,7 +16,7 @@ Gets or sets the dedicated object for media content protection that is associate
 The dedicated object for media content protection.
 
 ## -remarks
-See the [PlayReady sample for ](http://code.msdn.microsoft.com/windowsapps/Simple-PlayReady-sample-5c1aefaf) for an example of using ProtectionManager.
+See the [PlayReady sample](https://github.com/microsoft/Windows-universal-samples/tree/master/archived/PlayReady) for an example of using ProtectionManager.
 
 ## -examples
 

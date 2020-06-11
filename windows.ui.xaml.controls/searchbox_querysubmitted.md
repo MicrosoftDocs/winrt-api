@@ -21,7 +21,7 @@ Occurs when the user submits a search query.
 ## -remarks
 Handle this event so that you can get the [QueryText](searchbox_querytext.md) value from [SearchBoxQuerySubmittedEventArgs](searchboxquerysubmittedeventargs.md), and pass it on as navigation data when you load a search results page to display to the user.
 
-For a complete example of how to handle QuerySubmitted as part of a complete example that also does search suggestions, see [SearchBox control sample](http://code.msdn.microsoft.com/windowsapps/SearchBox-control-sample-0f64f94d).
+For a complete example of how to handle QuerySubmitted as part of a complete example that also does search suggestions, see [SearchBox control sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/SearchBox%20control%20sample).
 
 The handler signature for QuerySubmitted uses [TypedEventHandler](https://docs.microsoft.com/previous-versions/hh438424(v=vs.85)) and enforces that the *sender* parameter be a [SearchBox](searchbox.md) instance, not just **Object**.
 
@@ -52,4 +52,4 @@ End Sub
 
 
 ## -see-also
-[SearchBoxQuerySubmittedEventArgs](searchboxquerysubmittedeventargs.md), [Enabling users to search for information in your ](https://docs.microsoft.com/previous-versions/windows/apps/hh868180(v=win.10)), [Quickstart: Adding search to an app](https://docs.microsoft.com/previous-versions/windows/apps/hh868180(v=win.10)), [SearchBox control sample](http://code.msdn.microsoft.com/windowsapps/SearchBox-control-sample-0f64f94d)
+[SearchBoxQuerySubmittedEventArgs](searchboxquerysubmittedeventargs.md), [Enabling users to search for information in your ](https://docs.microsoft.com/previous-versions/windows/apps/hh868180(v=win.10)), [Quickstart: Adding search to an app](https://docs.microsoft.com/previous-versions/windows/apps/hh868180(v=win.10)), [SearchBox control sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/SearchBox%20control%20sample)

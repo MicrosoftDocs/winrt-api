@@ -234,7 +234,7 @@ Private Sub OnNavigationFailed(sender As Object, e As NavigationFailedEventArgs)
 End Sub
 ```
 
-For a complete sample that uses many of the [Page](page.md) and Frame features together, see [XAML Navigation sample](http://code.msdn.microsoft.com/windowsapps/XAML-Navigation-sample-dbd7116c).
+For a complete sample that uses many of the [Page](page.md) and Frame features together, see [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation).
 
 ## -see-also
-[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md), [Navigation design basics overview](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](http://code.msdn.microsoft.com/windowsapps/XAML-Navigation-sample-dbd7116c)
+[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md), [Navigation design basics overview](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)

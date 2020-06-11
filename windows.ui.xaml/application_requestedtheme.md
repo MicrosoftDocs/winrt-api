@@ -31,7 +31,7 @@ The theme can only be set when the app is started, not while it’s running. Att
 
 You can change specific theme values at run-time after Application.RequestedTheme is applied, if you use the [FrameworkElement.RequestedTheme](frameworkelement_requestedtheme.md) property and sets values on specific elements in the UI.
 
-There is also a "HighContrast" theme that uses system values, but apps and app code use a different technique for switching the app to high contrast. The RequestedTheme property is ignored if the user is running in high contrast mode. See [High-contrast themes](https://docs.microsoft.com/windows/uwp/accessibility/high-contrast-themes) and [XAML high contrast style sample](http://code.msdn.microsoft.com/windowsapps/XAML-high-contrast-style-c0ce936f).
+There is also a "HighContrast" theme that uses system values, but apps and app code use a different technique for switching the app to high contrast. The RequestedTheme property is ignored if the user is running in high contrast mode. See [High-contrast themes](https://docs.microsoft.com/windows/uwp/accessibility/high-contrast-themes) and [XAML high contrast style sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20high%20contrast%20style%20sample).
 
 Although the app can't switch the themes at run-time, the user can (starting with Windows 8.1). For example, a user might enable a high-contrast theme while your app is running, by using the Alt+Shift+PrtScn key shortcut. If this happens, the XAML resource system will recalculate the resource values for any [{ThemeResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/themeresource-markup-extension) usage. Theme-appropriate resources such as colors and brushes then use values appropriate for the current theme, even though it wasn't the app that requested that theme originally.
 
@@ -49,4 +49,4 @@ On Windows, setting RequestedTheme to [ElementTheme.Default](elementtheme.md) wi
 
 ## -see-also
 
-[FrameworkElement.RequestedTheme](frameworkelement_requestedtheme.md), [XAML requested theme sample](http://code.msdn.microsoft.com/windowsapps/XAML-requested-theme-sample-e6d46def), [High-contrast themes](https://docs.microsoft.com/windows/uwp/accessibility/high-contrast-themes)
+[FrameworkElement.RequestedTheme](frameworkelement_requestedtheme.md), [XAML requested theme sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20requested%20theme%20sample), [High-contrast themes](https://docs.microsoft.com/windows/uwp/accessibility/high-contrast-themes)

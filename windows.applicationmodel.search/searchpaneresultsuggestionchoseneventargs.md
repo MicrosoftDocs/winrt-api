@@ -16,7 +16,7 @@ Provides data for a [resultsuggestionchosen](searchpane_resultsuggestionchosen.m
 This object is passed to an app's [resultsuggestionchosen](searchpane_resultsuggestionchosen.md) event handler.
 
 ## -examples
-The [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to register a [resultsuggestionchosen](searchpane_resultsuggestionchosen.md) event handler.
+The [Search contract sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Search%20contract%20sample) demonstrates how to register a [resultsuggestionchosen](searchpane_resultsuggestionchosen.md) event handler.
 
 > [!NOTE]
 > You can get information about the event from the searchPaneResultSuggestionChosenEventArgs object that is passed to your [resultsuggestionchosen](searchpane_resultsuggestionchosen.md) event handler.
@@ -28,4 +28,4 @@ The [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-a
 [!code-js[all_suggestionchosen_register](../windows.applicationmodel.search/code/SearchContract/js/js/scenario6.js#Snippetall_suggestionchosen_register)]
 
 ## -see-also
-[Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection.AppendResultSuggestion method](searchsuggestioncollection_appendresultsuggestion_603544202.md)
+[Search contract sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Search%20contract%20sample), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection.AppendResultSuggestion method](searchsuggestioncollection_appendresultsuggestion_603544202.md)
