@@ -10,6 +10,7 @@ public void TransferFullDuplex(System.Byte[] writeBuffer, System.Byte[] readBuff
 # Windows.Devices.Spi.SpiDevice.TransferFullDuplex
 
 ## -description
+
 Transfer data using a full duplex communication system. Full duplex allows both the host and the peripheral to communicate simultaneously.
 
 For definitions of *host* and *peripheral*, see [Windows.Devices.Spi namespace](/uwp/api/windows.devices.spi).
