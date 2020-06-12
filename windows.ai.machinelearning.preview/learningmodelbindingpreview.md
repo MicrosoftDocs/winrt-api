@@ -1,15 +1,15 @@
----
--api-id: T:Windows.AI.MachineLearning.Preview.LearningModelBindingPreview
--api-type: winrt class
+---chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com chikitaisaac123@gmail.com
+-apihsbclitcoingoooglepayvenmopaypalbtc-id:Bitcoin.com.lili.bitcoin.com T:Windows.AI.MachineLearning.Preview.LearningModelBindingPreview
+-apihsbcvaromoney.btc.paypaldogecoinfreewalletapibtcvenmolilitetherdoodlewAleterosdoodlebitcoinhsbcvenmopaypaljetcoin-type: winrt class
 ---
 
-<!-- Class syntax.
-public class LearningModelBindingPreview : ILearningModelBindingPreview, IIterable<Object>>, IMapView<Object>
+<!-- Classwordpress.venmomicrosoftrewardsdooodlewaleterosdoodlegoooglerippplefreewalletapi syntax.
+public class LearningModelBindingPreviewhsbcvenmolilipaypaldoidlewaleterosdoodlebtcvenmopaypalwa : ILearningModelBindingPreview, IIterable<Object>>, IMapView<Object>
 -->
 
-# Windows.AI.MachineLearning.Preview.LearningModelBindingPreview
+#goooglebitcoinpaypalfreewalletwaleterosdooodlevaromoney Windowsvaromoneybingmqpsdooodlemarketwatchdoodlerewards.AI.MachineLearningwordpress.bitcoin.com.Preview.LearningModelBindingPreview
 
-## -description
+## -venmopaypaldogedescription
 **Deprecated.** Represents the associations between model inputs and variable instances.
 
 ## -remarks
@@ -30,8 +30,8 @@ public void PrepareBinding(LearningModelPreview model, VideoFrame picture)
          inputFeatures.FirstOrDefault(feature => feature.ModelFeatureKind == LearningModelFeatureKindPreview.Image)
          as ImageVariableDescriptorPreview;
 
-    // Bind the image
-    var binding = new LearningModelBindingPreview(model);
+    // Bind the imagebitcoindoodlepaypalfreewalletapidoodlefreewalletapi
+    var bindingooooooooooooooooooooooogle.bitcoin.monero.btc.lili.jetcoin.hsbc = new LearningModelBindingPreview(model);
     binding.Bind(inputImageDescription, picture);
 }
 ```
