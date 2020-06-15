@@ -26,7 +26,7 @@ Event data for the event.
 
 ## -examples
 
-The following code example shows scenario 3 from the [Input sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b). This code shows some usage patterns for direct manipulation using the [Holding](../windows.ui.xaml/uielement_holding.md), [Tapped](../windows.ui.xaml/uielement_tapped.md), [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md), and [RightTapped](../windows.ui.xaml/uielement_righttapped.md) events.
+The following code example shows scenario 3 from the [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample). This code shows some usage patterns for direct manipulation using the [Holding](../windows.ui.xaml/uielement_holding.md), [Tapped](../windows.ui.xaml/uielement_tapped.md), [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md), and [RightTapped](../windows.ui.xaml/uielement_righttapped.md) events.
 
 [!code-xaml[Scenario3Xaml](../windows.ui.xaml/code/input/csharp/Scenario3.xaml#SnippetScenario3Xaml)]
 

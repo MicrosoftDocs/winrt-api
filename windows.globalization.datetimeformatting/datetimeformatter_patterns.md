@@ -20,4 +20,4 @@ The pattern that provides the requested components in the template. See the rema
 ## -examples
 
 ## -see-also
-[Date and time formatting sample](http://code.msdn.microsoft.com/windowsapps/Date-and-time-formatting-2361f348)
+[Date and time formatting sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Date%20and%20time%20formatting%20sample)

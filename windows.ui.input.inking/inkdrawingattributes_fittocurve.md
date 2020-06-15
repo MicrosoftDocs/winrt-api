@@ -21,8 +21,7 @@ Gets or sets a value that indicates whether a Bezier curve or a collection of st
 ## -examples
 The following example demonstrates how to set the FitToCurve attribute for all strokes managed by this [InkManager](inkmanager.md) object (`inkManager`) that are created after the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md) method call.
 
-```
-
+```csharp
 var inkManager = new Windows.UI.Input.Inking.InkManager();
 var drawingAttributes = 
      new Windows.UI.Input.Inking.InkDrawingAttributes();
@@ -31,8 +30,6 @@ drawingAttributes.fitToCurve = false;
 inkManager.setDefaultDrawingAttributes(drawingAttributes);
 
 ```
-
-For the complete example, see [Ink App sample](http://code.msdn.microsoft.com/windowsapps/Ink-App-sample-61abaec3).
 
 ## -see-also
 

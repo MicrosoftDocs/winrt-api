@@ -57,4 +57,4 @@ var modernDocumentFontScaleFactor = modernDocumentFont.ScaleFactor;           //
 
 
 ## -see-also
-[Language font mapping sample](http://code.msdn.microsoft.com/windowsapps/Language-font-mapping-919f08d4)
+[Language font mapping sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BJavaScript%5D-Windows%208%20app%20samples/JavaScript/Windows%208%20app%20samples/Language%20font%20mapping%20sample%20(Windows%208))
