@@ -21,4 +21,4 @@ This property's value might not be set when this method is called. In that case,
 ## -examples
 
 ## -see-also
-[InitialScaleX](scaleanimation_initialscalex.md), [Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c)
+[InitialScaleX](scaleanimation_initialscalex.md), [Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

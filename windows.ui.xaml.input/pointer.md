@@ -24,10 +24,10 @@ Pointer is an abstract class that is used to describe an input device. This clas
 
 ## -examples
 
-The following code example shows the usage of Pointer class to find the unique [PointerId](pointer_pointerid.md) of each input contact in an app, use the [PointerDeviceType](pointer_pointerdevicetype.md) to ignore specific forms of input (for example, mouse input) and store the Pointer positions. For additional code that uses the Pointer class, see the [Input sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b).
+The following code example shows the usage of Pointer class to find the unique [PointerId](pointer_pointerid.md) of each input contact in an app, use the [PointerDeviceType](pointer_pointerdevicetype.md) to ignore specific forms of input (for example, mouse input) and store the Pointer positions. For additional code that uses the Pointer class, see the [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample).
 
 
 [!code-csharp[Code](../windows.ui.xaml.input/code/PointerExample/csharp/BlankPage.xaml.cs#SnippetCode)]
 
 ## -see-also
-[Input sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)
+[Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)

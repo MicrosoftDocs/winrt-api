@@ -43,4 +43,4 @@ The following example shows the [ReadingChanged](compass_readingchanged.md) even
 ## -examples
 
 ## -see-also
-[Compass Sample](http://code.msdn.microsoft.com/windowsapps/Compass-Sensor-Sample-0ed09c55), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Compass sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620521)
+[Compass Sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Compass), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Compass sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620521)

@@ -33,8 +33,7 @@ Here we show how to test whether the content on the clipboard can be added to an
 
 This example specifies the insertion point for the bounding rectangle at (100, 60), but this can be customized as required.
 
-```
-
+```csharp
 function paste(evt)
 {
     var insertionPoint = {x: 100, y: 60};
@@ -51,8 +50,6 @@ function paste(evt)
     }
 }
 ```
-
-For the complete example, see [Ink App sample](http://code.msdn.microsoft.com/windowsapps/Ink-App-sample-61abaec3).
 
 ## -see-also
 

@@ -18,7 +18,7 @@ A [fileExtensionVector](fileextensionvector.md) object that contains a collectio
 ## -remarks
 
 ## -examples
-The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how to specify the file types that the user can see and pick from in the file picker.
+The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) demonstrates how to specify the file types that the user can see and pick from in the file picker.
 
 
 
@@ -33,4 +33,4 @@ The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-
 [!code-js[all_openpicker_displayAllTypes](../windows.storage.pickers/code/FilePicker/js/js/scenario2.js#Snippetall_openpicker_displayAllTypes)]
 
 ## -see-also
-[File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba), [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker class](fileopenpicker.md), [fileExtensionVector class](fileextensionvector.md), [fileExtensionVector class](fileextensionvector.md)
+[File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker class](fileopenpicker.md), [fileExtensionVector class](fileextensionvector.md), [fileExtensionVector class](fileextensionvector.md)

@@ -19,7 +19,7 @@ A [FileExtensionVector](fileextensionvector.md) object that contains a collectio
 ## -remarks
 
 ## -examples
-The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how to show files of any type in the file picker.
+The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) demonstrates how to show files of any type in the file picker.
 
 ```csharp
 FolderPicker folderPicker = new FolderPicker();

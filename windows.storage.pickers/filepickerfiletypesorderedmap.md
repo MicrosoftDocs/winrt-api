@@ -22,7 +22,7 @@ The key for an entry in a FilePickerFileTypesOrderedMap is a string that represe
 For JavaScript, FilePickerFileTypesOrderedMap supports using an index to access items.
 
 ## -examples
-The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how to add file type choices with a display name.
+The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) demonstrates how to add file type choices with a display name.
 
 
 
@@ -31,4 +31,4 @@ The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-
 [!code-js[all_savepicker_setprops](../windows.storage.pickers/code/FilePicker/js/js/scenario4.js#Snippetall_savepicker_setprops)]
 
 ## -see-also
-[File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba), [Quickstart: Accessing files with file pickers (HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers), [FileSavePicker.FileTypeChoices property](filesavepicker_filetypechoices.md)
+[File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with file pickers (HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers), [FileSavePicker.FileTypeChoices property](filesavepicker_filetypechoices.md)

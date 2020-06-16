@@ -20,4 +20,4 @@ The final horizontal scale factor by which to multiply the value.
 ## -examples
 
 ## -see-also
-[FinalScaleY](scaleanimation_finalscaley.md), [Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c)
+[FinalScaleY](scaleanimation_finalscaley.md), [Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

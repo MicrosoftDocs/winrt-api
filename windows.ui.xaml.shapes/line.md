@@ -55,4 +55,4 @@ This example shows how to use the Line class to create three lines.
 
 
 ## -see-also
-[Shape](shape.md), [XAML vector-based drawing sample](http://code.msdn.microsoft.com/windowsapps/Drawing-bfc39296), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[Shape](shape.md), [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)

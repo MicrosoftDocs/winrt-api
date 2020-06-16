@@ -25,4 +25,4 @@ The [PointerCaptures](uielement_pointercaptures.md) property exposes a view of w
 
 ## -see-also
 
-[ReleasePointerCapture](uielement_releasepointercapture_962192786.md), [CapturePointer](uielement_capturepointer_916768934.md), [PointerReleased](uielement_pointerreleased.md), [PointerCaptureLost](uielement_pointercapturelost.md), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [Input sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)
+[ReleasePointerCapture](uielement_releasepointercapture_962192786.md), [CapturePointer](uielement_capturepointer_916768934.md), [PointerReleased](uielement_pointerreleased.md), [PointerCaptureLost](uielement_pointercapturelost.md), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)

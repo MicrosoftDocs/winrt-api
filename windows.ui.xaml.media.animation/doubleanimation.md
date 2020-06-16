@@ -58,5 +58,5 @@ The following example shows how to use **DoubleAnimation** to create a rectangle
 
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [XAML animation sample](http://code.msdn.microsoft.com/windowsapps/animations-f758de70), [Timeline](timeline.md), [DoubleAnimationUsingKeyFrames](doubleanimationusingkeyframes.md), [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [XAML animation sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20animation%20library%20sample), [Timeline](timeline.md), [DoubleAnimationUsingKeyFrames](doubleanimationusingkeyframes.md), [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)
 md), [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)

@@ -22,4 +22,4 @@ The data type of the target page, as a type reference ([System.Type](https://doc
 ## -examples
 
 ## -see-also
-[XAML Navigation sample](http://code.msdn.microsoft.com/windowsapps/XAML-Navigation-sample-dbd7116c)
+[XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)

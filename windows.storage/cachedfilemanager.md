@@ -21,7 +21,7 @@ Typically, Windows implicitly initiates updates for files that are provided by o
 
 ## -examples
 
-The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) shows you how to use a CachedFileManager to defer updates to a file until the app finishes modifying the file.
+The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) shows you how to use a CachedFileManager to defer updates to a file until the app finishes modifying the file.
 
 ```javascript
 

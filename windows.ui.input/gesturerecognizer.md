@@ -240,8 +240,7 @@ class ManipulationInputProcessor
 
 ### Archived samples
 
-- [Input: Manipulations and gestures sample](http://code.msdn.microsoft.com/windowsapps/Manipulations-and-gestures-362b6b59)
-- [Input: XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)
-- [XAML scrolling, panning, and zooming sample](http://code.msdn.microsoft.com/windowsapps/xaml-scrollviewer-pan-and-949d29e9)
-- [DirectX touch input sample](http://code.msdn.microsoft.com/windowsapps/Simple-Direct3D-Touch-f98db97e)
-- [Input: Manipulations and gestures sample](http://code.msdn.microsoft.com/windowsapps/Manipulations-and-gestures-362b6b59)
+- [Input: Manipulations and gestures sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20Gestures%20and%20manipulations%20with%20GestureRecognizer)
+- [Input: XAML user input events sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)
+- [XAML scrolling, panning, and zooming sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Universal%20Windows%20app%20samples/111487-Universal%20Windows%20app%20samples/XAML%20scrolling%2C%20panning%2C%20and%20zooming%20sample)
+- [DirectX touch input sample](https://docs.microsoft.com/en-us/samples/microsoft/windows-universal-samples/simple3dgamedx/)

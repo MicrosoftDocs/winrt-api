@@ -23,9 +23,9 @@ This event is raised only if the list or grid's [ItemsPanel](itemscontrol_itemsp
 
 For info and examples, see the [Update ListView and GridView items incrementally](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-gridview-and-listview) section of [Optimize ListView and GridView](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-gridview-and-listview).
 
-For more examples, download the [XAML GridView grouping and SemanticZoom sample](http://code.msdn.microsoft.com/windowsapps/groupedgridview-77c59e8e).
+For more examples, download the [XAML GridView grouping and SemanticZoom sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20GridView%20grouping%20and%20SemanticZoom%20sample).
 
 ## -examples
 
 ## -see-also
-[Optimize ListView and GridView](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-gridview-and-listview), [XAML GridView grouping and SemanticZoom sample](http://code.msdn.microsoft.com/windowsapps/groupedgridview-77c59e8e)
+[Optimize ListView and GridView](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-gridview-and-listview), [XAML GridView grouping and SemanticZoom sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20GridView%20grouping%20and%20SemanticZoom%20sample)

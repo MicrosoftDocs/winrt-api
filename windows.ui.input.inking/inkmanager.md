@@ -35,8 +35,7 @@ var inkManager = new Windows.UI.Input.Inking.InkManager();
 
 The following function demonstrates how to select all ink strokes on a [canvas](XREF:TODO:wwa.HTMLCanvasElement) that are part of the stroke collection of this InkManager (`inkManager`).
 
-```
-
+```csharp
 function selectAll()
 {
     inkManager.getStrokes().forEach(
@@ -46,10 +45,7 @@ function selectAll()
         }
     );
 }
-
 ```
-
-For the complete example, see [Ink App sample](http://code.msdn.microsoft.com/windowsapps/Ink-App-sample-61abaec3).
 
 ## -see-also
 
