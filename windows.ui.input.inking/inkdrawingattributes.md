@@ -76,7 +76,6 @@ inkManager.getStrokes().forEach(function (stroke)
 ```
 
 ```csharp
-
 // Get the InkStroke objects.
 IReadOnlyList<InkStroke> inkStrokes = inkManager.GetStrokes();
 Windows.UI.Input.Inking.InkStroke cloneStroke = 
@@ -86,8 +85,6 @@ Windows.UI.Input.Inking.InkDrawingAttributes drawingAttributes =
 drawingAttributes.PenTip = Windows.UI.Input.Inking.PenTipShape.Rectangle;
 cloneStroke.DrawingAttributes = drawingAttributes;
 ```
-
-For the complete example, see [Ink App sample](http://code.msdn.microsoft.com/windowsapps/Ink-App-sample-61abaec3).
 
 ## -see-also
 [Windows.UI.Input.Inking.InkManager.SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md), [Windows.UI.Input.Inking.InkStroke.DrawingAttributes](inkstroke_drawingattributes.md), [UI.Xaml.Controls.InkToolbar.InkDrawingAttributes](../windows.ui.xaml.controls/inktoolbar_inkdrawingattributes.md), [Pen and stylus interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Get started: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [Ink analysis sample (basic) (C#)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-analysis-basic.zip), [Ink handwriting recognition sample (C#)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-handwriting-reco.zip), [Save and load ink strokes from an Ink Serialized Format (ISF) file](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-store.zip), [Save and load ink strokes from the clipboard](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-store-clipboard.zip), [Ink toolbar location and orientation sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-toolbar-handedness.zip), [Ink toolbar location and orientation sample (dynamic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-toolbar-handedness-dynamic.zip), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample), [Inking sample (JavaScript)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink), [Simple inking sample (C#/C++)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk), [Complex inking sample (C++)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk), [Ink analysis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/InkAnalysis)

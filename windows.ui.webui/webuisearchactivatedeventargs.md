@@ -28,7 +28,7 @@ Learn how to let users search with your app in [Quickstart: Adding search](https
 .
 
 ## -examples
-The [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to respond to a [search](../windows.applicationmodel.activation/activationkind.md) activated event.
+The [Search contract sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Search%20contract%20sample) demonstrates how to respond to a [search](../windows.applicationmodel.activation/activationkind.md) activated event.
 
 ```javascript
 function activated(eventObject) {
@@ -62,4 +62,4 @@ function activated(eventObject) {
 For JavaScript, `eventObject` contains a webUISearchActivatedEventArgs object.
 
 ## -see-also
-[Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5)
+[Search contract sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Search%20contract%20sample)

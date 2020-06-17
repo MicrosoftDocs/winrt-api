@@ -28,7 +28,7 @@ Overriding this method to return the implementation of patterns that your peer c
 >
 > **This sample is not maintained and might not compile.**
 >
-> See [XAML accessibility sample](http://code.msdn.microsoft.com/windowsapps/XAML-accessibility-sample-d63e820d) for an implementation of [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) that defines the custom peer returned by [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) (the peer implementation is part of Scenario 3 in this sample). 
+> See [XAML accessibility sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/XAML%20accessibility%20sample) for an implementation of [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) that defines the custom peer returned by [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) (the peer implementation is part of Scenario 3 in this sample). 
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 466373-->
 ### Windows 8 behavior

@@ -22,4 +22,4 @@ The value of the *SourcePageType* parameter from the originating [Navigate](../w
 ## -examples
 
 ## -see-also
-[XAML Navigation sample](http://code.msdn.microsoft.com/windowsapps/XAML-Navigation-sample-dbd7116c)
+[XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)

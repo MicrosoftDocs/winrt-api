@@ -37,4 +37,4 @@ ManipulationStarted supports the ability to attach event handlers to the route t
 
 ## -see-also
 
-[ManipulationStartedRoutedEventArgs](../windows.ui.xaml.input/manipulationstartedroutedeventargs.md), [OnManipulationStarted](../windows.ui.xaml.controls/control_onmanipulationstarted_1992945826.md), [ManipulationStarting](uielement_manipulationstarting.md), [Using manipulation events](https://docs.microsoft.com/previous-versions/windows/apps/hh465387(v=win.10)), [XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)
+[ManipulationStartedRoutedEventArgs](../windows.ui.xaml.input/manipulationstartedroutedeventargs.md), [OnManipulationStarted](../windows.ui.xaml.controls/control_onmanipulationstarted_1992945826.md), [ManipulationStarting](uielement_manipulationstarting.md), [Using manipulation events](https://docs.microsoft.com/previous-versions/windows/apps/hh465387(v=win.10)), [XAML user input events sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)

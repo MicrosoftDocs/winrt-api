@@ -43,4 +43,4 @@ The following example shows the [ReadingChanged](gyrometer_readingchanged.md) ev
 ## -examples
 
 ## -see-also
-[Gyrometer Sample](http://code.msdn.microsoft.com/windowsapps/Gyrometer-Sensor-Sample-4fe891d9), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Gyrometer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620548)
+[Gyrometer Sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Gyrometer), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10))

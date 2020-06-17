@@ -16,4 +16,4 @@ The classes and their properties that are exposed through this namespace retriev
 
 ## -see-also
 
-[Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c), [Animation metrics sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620484)
+[Animation metrics sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

@@ -23,4 +23,4 @@ Play To is part of the Devices charm. Users open the Devices charm to select dev
 ## -examples
 
 ## -see-also
-[PlayToManager](../windows.media.playto/playtomanager.md), [PlayReady DRM](https://docs.microsoft.com/windows/uwp/audio-video-camera/playready-client-sdk), [Play To sample](http://code.msdn.microsoft.com/windowsapps/Media-PlayTo-Sample-fedcb0f9)
+[PlayToManager](../windows.media.playto/playtomanager.md), [PlayReady DRM](https://docs.microsoft.com/windows/uwp/audio-video-camera/playready-client-sdk), [Play To sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Media%20Play%20To%20sample)

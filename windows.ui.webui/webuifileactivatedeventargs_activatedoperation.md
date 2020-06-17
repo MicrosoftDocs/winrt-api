@@ -20,4 +20,4 @@ The activation operation.
 ## -examples
 
 ## -see-also
-[Association launching sample](http://code.msdn.microsoft.com/windowsapps/Association-Launching-535d2cec), [How to handle file activation](https://docs.microsoft.com/previous-versions/windows/apps/hh452684(v=win.10)), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [Windows.Storage](../windows.storage/windows_storage.md)
+[Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Association%20launching%20sample), [How to handle file activation](https://docs.microsoft.com/previous-versions/windows/apps/hh452684(v=win.10)), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [Windows.Storage](../windows.storage/windows_storage.md)

@@ -72,4 +72,4 @@ void OnActivated(
 ## -examples
 
 ## -see-also
-[DirectX swap chain implementation sample](http://code.msdn.microsoft.com/windowsapps/CoreWindow-Sample-b51b01f2), [CoreApplication.CreateNewView](/uwp/api/windows.applicationmodel.core.coreapplication.createnewview), [CoreApplication.GetCurrentView](coreapplication_getcurrentview_176591067.md)
+[DirectX swap chain implementation sample](https://github.com/microsoft/Win2D/tree/master/samples/CoreWindowExample), [CoreApplication.CreateNewView](/uwp/api/windows.applicationmodel.core.coreapplication.createnewview), [CoreApplication.GetCurrentView](coreapplication_getcurrentview_176591067.md)

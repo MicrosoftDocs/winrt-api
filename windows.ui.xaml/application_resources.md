@@ -66,4 +66,4 @@ This example shows how to declare an app-specific resource (this one creates a c
 
 
 ## -see-also
-[x:Key attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-key-attribute), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references), [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension), [Application resources and localization sample](http://code.msdn.microsoft.com/windowsapps/Application-resources-and-cd0c6eaa)
+[x:Key attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-key-attribute), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references), [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension), [Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources)

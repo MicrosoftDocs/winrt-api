@@ -24,4 +24,4 @@ A [wide tile image](secondarytilevisualelements_wide310x150logo.md) must also be
 ## -examples
 
 ## -see-also
-[Square150x150Logo](secondarytilevisualelements_square150x150logo.md), [Square30x30Logo](secondarytilevisualelements_square30x30logo.md), [Square70x70Logo](secondarytilevisualelements_square70x70logo.md), [Wide310x150Logo](secondarytilevisualelements_wide310x150logo.md), [Secondary tiles sample](http://code.msdn.microsoft.com/windowsapps/secondary-tiles-sample-edf2a178)
+[Square150x150Logo](secondarytilevisualelements_square150x150logo.md), [Square30x30Logo](secondarytilevisualelements_square30x30logo.md), [Square70x70Logo](secondarytilevisualelements_square70x70logo.md), [Wide310x150Logo](secondarytilevisualelements_wide310x150logo.md), [Secondary tiles sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Secondary%20tiles%20sample)

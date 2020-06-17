@@ -25,4 +25,4 @@ Note that an animation can have its own inherent [delay](propertyanimation_delay
 ## -examples
 
 ## -see-also
-[StaggerDelayFactor](animationdescription_staggerdelayfactor.md), [DelayLimit](animationdescription_delaylimit.md), [Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c)
+[StaggerDelayFactor](animationdescription_staggerdelayfactor.md), [DelayLimit](animationdescription_delaylimit.md), [Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

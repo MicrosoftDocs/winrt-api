@@ -37,4 +37,4 @@ GeneralTransform is the parent class for [Transform](transform.md). [Transform](
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Transform](transform.md), [XAML two-dimensional transforms sample](http://code.msdn.microsoft.com/windowsapps/Transforms-95647b6f)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Transform](transform.md), [XAML two-dimensional transforms sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20two-dimensional%20transforms%20sample)

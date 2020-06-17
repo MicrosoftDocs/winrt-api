@@ -29,7 +29,7 @@ FilePickerSelectedFilesArray is enumerable, so you can use language-specific syn
 <!--End NET note for IEnumerable support-->
 
 ## -examples
-The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how capture the filePickerSelectedFilesArray (`files` in the example) of picked files after calling [fileOpenPicker.pickMultipleFilesAsync](fileopenpicker_pickmultiplefilesasync_1324933367.md).
+The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) demonstrates how capture the filePickerSelectedFilesArray (`files` in the example) of picked files after calling [fileOpenPicker.pickMultipleFilesAsync](fileopenpicker_pickmultiplefilesasync_1324933367.md).
 
 > [!NOTE]
 > You should always make sure that your app is not snapped (or that it can be unsnapped) and set file picker properties regardless of whether the user is picking a single file or multiple files.
@@ -41,4 +41,4 @@ The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-
 [!code-js[all_openpicker_showmulti](../windows.storage.pickers/code/FilePicker/js/js/scenario2.js#Snippetall_openpicker_showmulti)]
 
 ## -see-also
-[File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba), [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker.pickMultipleFilesAsync method](fileopenpicker_pickmultiplefilesasync_1324933367.md)
+[File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker.pickMultipleFilesAsync method](fileopenpicker_pickmultiplefilesasync_1324933367.md)

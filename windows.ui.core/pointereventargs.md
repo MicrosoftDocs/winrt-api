@@ -69,4 +69,4 @@ void MyCoreWindowEvents::SetWindow( // implementation called by CoreApplication:
 ```
 
 ## -see-also
-[Input: Manipulations and gestures (C++) sample](http://code.msdn.microsoft.com/windowsapps/Manipulations-and-gestures-362b6b59), [Input: Simplified ink  sample](https://go.microsoft.com/fwlink/p/?linkid=246570), [Input: Touch hit testing sample](https://go.microsoft.com/fwlink/p/?linkid=231590)
+[Input: Manipulations and gestures (C++) sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20Gestures%20and%20manipulations%20with%20GestureRecognizer), [Input: Simplified ink  sample](https://go.microsoft.com/fwlink/p/?linkid=246570), [Input: Touch hit testing sample](https://go.microsoft.com/fwlink/p/?linkid=231590)

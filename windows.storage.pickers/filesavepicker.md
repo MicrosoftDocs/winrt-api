@@ -23,7 +23,7 @@ To learn how to save files through the file picker, see [How to save files throu
 To get started accessing files and folders file picker, see [Files, folders, and libraries ](https://docs.microsoft.com/windows/uwp/files/index).
 
 > [!WARNING]
-> If you try to show the file picker while your app is snapped the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The following code examples and the [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) show you how.
+> If you try to show the file picker while your app is snapped the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The following code examples and the [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) show you how.
 
 ### Version history
 
@@ -34,7 +34,7 @@ To get started accessing files and folders file picker, see [Files, folders, and
 
 ## -examples
 
-The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how to check whether the app is snapped, how to set file picker properties, and how to show a file picker so that the user can save a file.
+The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) demonstrates how to check whether the app is snapped, how to set file picker properties, and how to show a file picker so that the user can save a file.
 
 [!code-csharp[all_savepicker_checksnapped_show](../windows.storage.pickers/code/FilePicker/CS/Scenario4.xaml.cs#Snippetall_savepicker_checksnapped_show)]
 

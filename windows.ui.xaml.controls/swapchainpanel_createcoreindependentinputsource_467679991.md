@@ -28,7 +28,7 @@ You typically use [CoreDispatcher.ProcessEvents](../windows.ui.core/coredispatch
 
 You can call CreateCoreIndependentInputSource multiple times. Each time CreateCoreIndependentInputSource is called, the previous [CoreIndependentInputSource](../windows.ui.core/coreindependentinputsource.md) object is disassociated with the [SwapChainPanel](swapchainpanel_swapchainpanel_1221375020.md). In other words, only one [CoreIndependentInputSource](../windows.ui.core/coreindependentinputsource.md) object can get events at a time.
 
-For example code of how to use CreateCoreIndependentInputSource, see the `DrawingPanel` class definition that is part of the [XAML SwapChainPanel DirectX interop sample](http://code.msdn.microsoft.com/windowsapps/XAML-SwapChainPanel-00cb688b).
+For example code of how to use CreateCoreIndependentInputSource, see the `DrawingPanel` class definition that is part of the [XAML SwapChainPanel DirectX interop sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20SwapChainPanel%20DirectX%20interop%20sample).
 
 CreateCoreIndependentInputSource d can return **null** if *deviceTypes* was passed as [CoreInputDeviceTypes.None](../windows.ui.core/coreinputdevicetypes.md) (that's not a typical way to call CreateCoreIndependentInputSource though).
 
@@ -38,4 +38,4 @@ CreateCoreIndependentInputSource d can return **null** if *deviceTypes* was pass
 ## -examples
 
 ## -see-also
-[CoreIndependentInputSource](../windows.ui.core/coreindependentinputsource.md), [ThreadPool](../windows.system.threading/threadpool.md), [Threading and async programming](https://docs.microsoft.com/windows/uwp/threading-async/index), [DirectX and XAML interop](https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)), [XAML SwapChainPanel DirectX interop sample](http://code.msdn.microsoft.com/windowsapps/XAML-SwapChainPanel-00cb688b), [Low latency input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620566)
+[CoreIndependentInputSource](../windows.ui.core/coreindependentinputsource.md), [ThreadPool](../windows.system.threading/threadpool.md), [Threading and async programming](https://docs.microsoft.com/windows/uwp/threading-async/index), [DirectX and XAML interop](https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)), [XAML SwapChainPanel DirectX interop sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20SwapChainPanel%20DirectX%20interop%20sample), [Low latency input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620566)

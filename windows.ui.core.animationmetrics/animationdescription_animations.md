@@ -26,4 +26,4 @@ If the animations are being applied to more than one object, then the stagger-re
 ## -examples
 
 ## -see-also
-[PropertyAnimationType](propertyanimationtype.md), [Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c)
+[PropertyAnimationType](propertyanimationtype.md), [Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

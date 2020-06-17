@@ -21,4 +21,4 @@ The duration can be 0, in which case the object instantly jumps to its final siz
 ## -examples
 
 ## -see-also
-[Delay](scaleanimation_delay.md), [Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c)
+[Delay](scaleanimation_delay.md), [Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

@@ -28,4 +28,4 @@ This example creates two curves using a PolyQuadraticBezierSegment to specify th
 [!code-xaml[PolyQuadraticBezierSegment](../windows.ui.xaml/code/geometries_snip/csharp/PolyQuadraticBezierSegment.xaml#SnippetPolyQuadraticBezierSegment)]
 
 ## -see-also
-[PathSegment](pathsegment.md), [QuadraticBezierSegment](quadraticbeziersegment.md), [Path](../windows.ui.xaml.shapes/path.md), [PathGeometry](pathgeometry.md), [XAML vector-based drawing sample](http://code.msdn.microsoft.com/windowsapps/Drawing-bfc39296), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[PathSegment](pathsegment.md), [QuadraticBezierSegment](quadraticbeziersegment.md), [Path](../windows.ui.xaml.shapes/path.md), [PathGeometry](pathgeometry.md), [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)

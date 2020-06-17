@@ -36,5 +36,4 @@ Here, a [RichTextBlock](richtextblock.md) targets a RichTextBlockOverflow elemen
 [!code-xaml[RichTextOverflow](../windows.ui.xaml.controls/code/TextDisplaySnippets/CS/MainPage.xaml#SnippetRichTextOverflow)]
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md), [RichTextBlock](richtextblock.md), [RichTextBock.OverflowContentTarget](richtextblock_overflowcontenttarget.md), [XAML text display sample](http://code.msdn.microsoft.com/windowsapps/XAML-text-display-sample-2593ba0a)
-flowcontenttarget.md), [XAML text display sample](http://code.msdn.microsoft.com/windowsapps/XAML-text-display-sample-2593ba0a)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md), [RichTextBlock](richtextblock.md), [RichTextBock.OverflowContentTarget](richtextblock_overflowcontenttarget.md), [XAML text display sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20text%20display%20sample)

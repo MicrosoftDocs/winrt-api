@@ -26,4 +26,4 @@ All [Application](application.md) overrides involved in an activation scenario s
 ## -examples
 
 ## -see-also
-[How to handle file activation](https://docs.microsoft.com/previous-versions/windows/apps/hh779669(v=win.10)), [Handle app activation](https://docs.microsoft.com/windows/uwp/launch-resume/activate-an-app), [Association launching sample](http://code.msdn.microsoft.com/windowsapps/Association-Launching-535d2cec)
+[How to handle file activation](https://docs.microsoft.com/previous-versions/windows/apps/hh779669(v=win.10)), [Handle app activation](https://docs.microsoft.com/windows/uwp/launch-resume/activate-an-app), [Association launching sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AssociationLaunching)
