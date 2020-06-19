@@ -28,4 +28,4 @@ XML (not escaped)
 ## -examples
 
 ## -see-also
-[Syndication sample](http://code.msdn.microsoft.com/windowsapps/Syndication-sample-07ef6b0d)
+[Syndication sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/%5BC%23%5D-Windows%208.1%20Store%20app%20samples/Syndication%20sample/C%23)

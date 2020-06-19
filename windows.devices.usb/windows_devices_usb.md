@@ -9,12 +9,12 @@
 
 The Windows.Devices.Usb defines Windows Runtime classes that a UWP app can use to communicate with a USB device that does not belong to a device class, or for which Microsoft does not provide an in-box driver.
 
-<table>
-   <tr><th>Resources</th><th>Description</th></tr>
-   <tr><td>[Writing apps for USB devices (UWP apps using C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/dn263144(v=win.10))</td><td>A brief overview about how to use these APIs.</td></tr>
-   <tr><td>[Talking to USB devices, start to finish (UWP app)](https://docs.microsoft.com/windows-hardware/drivers/usbcon/)</td><td>Step-by-step instructions about using these APIs to perform common tasks for communicating with a USB device.</td></tr>
-   <tr><td>Samples</td><td><ul><li>[Custom USB device access sample](http://code.msdn.microsoft.com/windowsapps/site/search?query=usb&f%5B0%5D.Value=usb&f%5B0%5D.Type=SearchText&ac=4)</li><li>[USB CDC Control sample](http://code.msdn.microsoft.com/windowsapps/site/search?query=usb&f%5B0%5D.Value=usb&f%5B0%5D.Type=SearchText&ac=4)</li><li>[Firmware Update USB Device sample](http://code.msdn.microsoft.com/windowsapps/site/search?query=usb&f%5B0%5D.Value=usb&f%5B0%5D.Type=SearchText&ac=4)</li></ul></td></tr>
-</table>
+|Resources|Description|
+|-|-|
+|[Writing apps for USB devices (UWP apps using C#/VB/C++)](/previous-versions/windows/apps/dn263144(v=win.10))|A brief overview about how to use these APIs.|
+|[Talking to USB devices, start to finish (UWP app)](/windows-hardware/drivers/usbcon/)|Step-by-step instructions about using these APIs to perform common tasks for communicating with a USB device.|
+|Sample apps|[Custom USB device access sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Custom%20USB%20device%20access%20sample)<br>[USB CDC control sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/USB%20CDC%20Control%20sample)<br>[Firmware Update USB Device sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Firmware%20Update%20USB%20Device%20sample)
+|
 
 ## -remarks
 
@@ -22,4 +22,4 @@ The Windows.Devices.Usb defines Windows Runtime classes that a UWP app can use t
 
 ## -see-also
 
-[Talking to USB devices, start to finish (UWP app)](https://docs.microsoft.com/windows-hardware/drivers/usbcon/talking-to-usb-devices-start-to-finish), [Custom USB device sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomUsbDeviceAccess)
+[Talking to USB devices, start to finish (UWP app)](/windows-hardware/drivers/usbcon/talking-to-usb-devices-start-to-finish), [Custom USB device sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomUsbDeviceAccess)
