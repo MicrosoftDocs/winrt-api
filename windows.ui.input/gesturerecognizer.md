@@ -21,8 +21,9 @@ In this case, you can create gesture objects dynamically on a [pointerdown](http
 
 Alternatively, you can statically allocate and dynamically manage a pool of reusable gesture objects.
 
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 For more detail on how to use cross-slide functionality, see [Guidelines for cross-slide](https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-cross-slide). The threshold distances used by the cross-slide interaction are shown in the following diagram.
 

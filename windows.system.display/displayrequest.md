@@ -27,7 +27,7 @@ Using display requests to keep the display on consumes a lot of power. Use these
 + Use display requests only when required, that is, times when no user input is expected but the display should remain on. For example, during full screen presentations or when the user is reading an e-book.
 + Release each display request as soon as it is no longer required.
 
-
+<!-- confirmed -->
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 

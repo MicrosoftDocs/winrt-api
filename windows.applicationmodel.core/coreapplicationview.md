@@ -13,8 +13,6 @@ public class CoreApplicationView : Windows.ApplicationModel.Core.ICoreApplicatio
 Represents an app window and its thread.
 
 ## -remarks
-> [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx).
 
 The following code snippet demonstrates the activation of the CoreApplicationView and the associated CoreWindow in a view provider implementation.
 

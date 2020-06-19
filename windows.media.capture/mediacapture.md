@@ -50,8 +50,9 @@ MediaCapture only supports one pass CBR encoding.
 
 **Notes on H.264:** If the native type is H.264, you can record using a video media type with type identical to the native type. You cannot add an effect to an H.264 native type stream. To capture video, the image encoding profile can be set to Auto or you need to specify an encoding profile that matches the native type.
 
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ### Version history
 

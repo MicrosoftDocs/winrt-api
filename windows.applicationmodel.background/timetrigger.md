@@ -17,6 +17,7 @@ The background task must be declared in the manifest before the registration can
 
 TimeTriggers do not work when the device is in battery saver mode. If the user wants the app to be able to perform background activity when the device is in battery saver mode, they can make an exception for that app in the **Let apps run in the background** settings panel.
 
+<!-- confirmed -->
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 

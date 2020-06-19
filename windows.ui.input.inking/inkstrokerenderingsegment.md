@@ -20,9 +20,6 @@ Each stroke is a vector of InkStrokeRenderingSegment objects with the first segm
 ## -remarks
 Set the [FitToCurve](inkdrawingattributes_fittocurve.md) property of [DrawingAttributes](inkstroke_drawingattributes.md) to true if you want an ink stroke to be rendered with cubic Bezier curves. Otherwise, the stroke is rendered with straight line segments.
 
-> [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
-
 ## -examples
 The function in the following example demonstrates how a cubic Bezier curve can be derived for each segment of an ink stroke (`stroke`).
 

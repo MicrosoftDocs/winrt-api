@@ -16,9 +16,6 @@ Provides properties associated with the drawing of an [InkStroke](inkstroke.md).
 ## -remarks
 InkDrawingAttributes can be set globally through the [SetDefaultDrawingAttributes](inkmanager_setdefaultdrawingattributes_1436218448.md) method of an [InkManager](inkmanager.md) object or an [InkStrokeBuilder](inkstrokebuilder.md) object. They can also be set on an individual [InkStroke](inkstroke.md) object through the [DrawingAttributes](inkstroke_drawingattributes.md) property.
 
-> [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
-
 ### Version history
 
 | Windows version | SDK version | Value added |

@@ -20,6 +20,7 @@ In some cases, overlay UI such as an [InputPane](inputpane.md) is not fully supp
 + apps in full-screen mode, like [games](https://docs.microsoft.com/windows/uwp/gaming/index).
 + Windows Holographic apps in [holographic view](https://developer.microsoft.com/mixed-reality#app_views).
 
+<!-- confirmed -->
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx).
 
