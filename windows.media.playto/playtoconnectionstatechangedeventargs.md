@@ -25,5 +25,5 @@ For an example of how to use Play To in an application, see [Quickstart: Using P
 [!code-vb[PlayToEvents](../windows.media.playto/code/PlayTo_Reference/vbnet/MainPage.xaml.vb#SnippetPlayToEvents)]
 
 ## -see-also
-[Play To sample](http://code.msdn.microsoft.com/windowsapps/Media-PlayTo-Sample-fedcb0f9), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)
+[Play To sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Media%20Play%20To%20sample%20(Windows%208)), [PlayToReceiver sample](https://go.microsoft.com/fwlink/p/?linkid=245167), [Media Server sample](https://go.microsoft.com/fwlink/p/?linkid=245168)
 soft.com/fwlink/p/?linkid=245168)

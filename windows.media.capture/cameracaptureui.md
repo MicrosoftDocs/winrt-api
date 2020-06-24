@@ -28,7 +28,7 @@ You must specify the **webcam** or **microphone** capabilities in your app manif
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-This code shows how to use the **CameraCaptureUI** class to take a picture. The code is from file CapturePhoto.xaml.cs of the [Camera capture UI sample](http://code.msdn.microsoft.com/windowsapps/CameraCaptureUI-Sample-845a53ac). The dialog with the user occurs when you call the asynchronous method [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md).
+This code shows how to use the **CameraCaptureUI** class to take a picture. The code is from file CapturePhoto.xaml.cs of the [Camera capture UI sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/CameraCaptureUI%20Sample%20(Windows%208)). The dialog with the user occurs when you call the asynchronous method [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md).
 
 
 

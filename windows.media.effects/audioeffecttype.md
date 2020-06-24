@@ -69,9 +69,9 @@ A dynamic range compression effect.
 
 
 ## -remarks
-See the [Audio effects discovery sample](http://code.msdn.microsoft.com/windowsapps/Audio-effects-discovery-5fd65c15) for an example of how to query and monitor audio effects on render and capture audio devices.
+See the [Audio effects discovery sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Audio%20effects%20discovery%20sample) for an example of how to query and monitor audio effects on render and capture audio devices.
 
 ## -examples
 
 ## -see-also
-[Audio effects discovery sample](http://code.msdn.microsoft.com/windowsapps/Audio-effects-discovery-5fd65c15)
+[Audio effects discovery sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Audio%20effects%20discovery%20sample)
