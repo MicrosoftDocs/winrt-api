@@ -26,4 +26,12 @@ The node removed from the collection. This method returns Null if the named node
 
 ## -examples
 
+```csharp
+var removedNode = attributes.RemoveNamedItemNS("http://schemas.microsoft.com/winfx/2006/xaml", "Name");
+```
+
+```cppwinrt
+auto removedNode = attributes.RemoveNamedItemNS(winrt::box_value(L"http://schemas.microsoft.com/winfx/2006/xaml"), L"Name");
+```
+
 ## -see-also

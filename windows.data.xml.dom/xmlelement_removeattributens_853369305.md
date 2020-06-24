@@ -23,4 +23,12 @@ The name of the attribute without the namespace prefix.
 
 ## -examples
 
+```csharp
+element.RemoveAttributeNS("http://www.w3.org/2000/svg", "width");
+```
+
+```cppwinrt
+element.RemoveAttributeNS(winrt::box_value(L"http://www.w3.org/2000/svg"), L"width");
+```
+
 ## -see-also

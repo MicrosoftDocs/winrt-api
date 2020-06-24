@@ -26,4 +26,12 @@ The newly created object.
 
 ## -examples
 
+```csharp
+var element = document.CreateElementNS("http://www.w3.org/2000/svg", "svg");
+```
+
+```cppwinrt
+auto element = document.CreateElementNS(winrt::box_value(L"http://www.w3.org/2000/svg"), L"svg");
+```
+
 ## -see-also
