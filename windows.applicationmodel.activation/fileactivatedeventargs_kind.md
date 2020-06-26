@@ -20,4 +20,4 @@ One of the enumeration values.
 ## -examples
 
 ## -see-also
-[Association launching sample](http://code.msdn.microsoft.com/windowsapps/Association-Launching-535d2cec), [Windows.Storage](../windows.storage/windows_storage.md)
+[Association launching sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AssociationLaunching), [Windows.Storage](../windows.storage/windows_storage.md)
