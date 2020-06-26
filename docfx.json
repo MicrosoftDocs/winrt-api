@@ -52,7 +52,7 @@
        "ms.date": "02/08/2017",
        "keywords": "windows 10, uwp, winrt, api",
        "searchScope": ["UWP"],
-       "APILocation": "windows.dll"
+       "api_location": "windows.dll"
      },
     "fileMetadata": {
       "langs": {
