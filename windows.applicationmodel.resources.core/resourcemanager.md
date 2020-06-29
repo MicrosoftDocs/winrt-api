@@ -17,7 +17,7 @@ Provides access to application resource maps and more advanced resource function
 
 ## -examples
 
-This example is based on scenario 13 of the [Application resources and localization sample](http://code.msdn.microsoft.com/windowsapps/Application-resources-and-cd0c6eaa). See the sample for the more complete solution.
+This example is based on scenario 13 of the [Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources). See the sample for the more complete solution.
 
 ```javascript
 // Create a ResourceContext.
@@ -76,4 +76,4 @@ function renderCandidate(candidate, index, output) {
 
 ## -see-also
 
-[Creating and retrieving resources in ](http://msdn.microsoft.com/en-us/library/windows/apps/hh694557.aspx), [App resources and localization sample](http://code.msdn.microsoft.com/windowsapps/Application-resources-and-cd0c6eaa), [Application resources and localization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620487)
+[Creating and retrieving resources in ](http://msdn.microsoft.com/en-us/library/windows/apps/hh694557.aspx), [App resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources), [Application resources and localization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620487)

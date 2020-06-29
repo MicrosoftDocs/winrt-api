@@ -135,4 +135,4 @@ void App::OnActivated(IActivatedEventArgs^ args)
 ```
 
 ## -see-also
-[IContactCallActivatedEventArgs](icontactcallactivatedeventargs.md), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md), [Handling Contact Actions sample](http://code.msdn.microsoft.com/windowsapps/Handling-Contact-Actions-359380e2)
+[IContactCallActivatedEventArgs](icontactcallactivatedeventargs.md), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md), [Handling Contact Actions sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Handling%20Contact%20Actions)

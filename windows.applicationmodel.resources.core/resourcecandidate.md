@@ -82,4 +82,4 @@ function renderCandidate(candidate, index, output) {
 
 
 ## -see-also
-[Application resources and localization sample](http://code.msdn.microsoft.com/windowsapps/Application-resources-and-cd0c6eaa)
+[Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources)
