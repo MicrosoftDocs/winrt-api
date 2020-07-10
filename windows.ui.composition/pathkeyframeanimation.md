@@ -11,6 +11,9 @@ public class PathKeyFrameAnimation : KeyFrameAnimation, KeyFrameAnimation
 
 ## -description
 
+> [!WARNING]
+> This API is not currently supported. Do not call this API in your code.
+
 Represents a time-based animation with one or more key frames where each key frame value is represented by a
 [CompositionPath](compositionpath.md). The easing specifies the interopolation between paths.
 
