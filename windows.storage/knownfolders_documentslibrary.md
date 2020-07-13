@@ -21,7 +21,7 @@ The Documents library.
 
 If your app has to create and update files that only your app uses, consider using the app's [LocalCache](applicationdata_localcachefolder.md) folder. For more information on which folders you should use for your app's data, see [ApplicationData](applicationdata.md) class.
 
-Alternatively, let the user select the file location by using a file picker. For more info, see [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers) and in particular the [`SuggestedStartLocation` property](https://docs.microsoft.com/en-us/uwp/api/windows.storage.pickers.fileopenpicker.suggestedstartlocation?view=winrt-19041) which can be set to [`DocumentsLibrary`](https://docs.microsoft.com/en-us/uwp/api/windows.storage.pickers.pickerlocationid?view=winrt-19041). If the user selects the Documents Library from within the picker, you **do not** need to use this property nor do you need the **documentsLibrary** capability. 
+Alternatively, let the user select the file location by using a file picker. For more info, see [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers) and in particular the [`SuggestedStartLocation` property](https://docs.microsoft.com/uwp/api/windows.storage.pickers.fileopenpicker.suggestedstartlocation?view=winrt-19041) which can be set to [`DocumentsLibrary`](https://docs.microsoft.com/uwp/api/windows.storage.pickers.pickerlocationid?view=winrt-19041). If the user selects the Documents Library from within the picker, you **do not** need to use this property nor do you need the **documentsLibrary** capability. 
 
 ### Prerequisites
 
