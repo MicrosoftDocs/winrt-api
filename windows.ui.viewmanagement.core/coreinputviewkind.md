@@ -44,6 +44,12 @@ Pass this parameter in the [TryShow(CoreInputViewKind)](coreinputview_tryshow_15
 
 This allows apps to build specific experiences around certain input views, if that view is available.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | Symbols |
+
 ## -see-also
 
 [TryShow(CoreInputViewKind)](coreinputview_tryshow_154132369.md)

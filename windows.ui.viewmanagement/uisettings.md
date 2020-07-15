@@ -22,6 +22,8 @@ Contains a set of common app user interface settings and operations.
 | 1703 | 15063 | AdvancedEffectsEnabledChanged |
 | 1903 | 18362 | AutoHideScrollBars |
 | 1903 | 18362 | AutoHideScrollBarsChanged |
+| 2004 | 19041 | AnimationsEnabledChanged |
+| 2004 | 19041 | MessageDurationChanged |
 
 ## -examples
 

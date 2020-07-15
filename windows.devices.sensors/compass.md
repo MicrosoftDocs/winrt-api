@@ -39,6 +39,7 @@ The following example shows the [ReadingChanged](compass_readingchanged.md) even
 | 1709 | 16299 | GetDeviceSelector |
 | 1709 | 16299 | MaxBatchSize |
 | 1709 | 16299 | ReportLatency |
+| 2004 | 19041 | ReportThreshold |
 
 ## -examples
 

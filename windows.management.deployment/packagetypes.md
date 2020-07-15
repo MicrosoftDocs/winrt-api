@@ -40,6 +40,13 @@ Include all packages when you enumerate the package repository.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1607 | 14393 | Optional |
+| 2004 | 19041 | All |
+
 ## -examples
 
 ## -see-also

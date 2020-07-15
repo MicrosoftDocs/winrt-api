@@ -15,6 +15,12 @@ An object to receive Bluetooth Low Energy (LE) advertisements.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | AllowExtendedAdvertisements |
+
 ## -examples
 
 ## -see-also

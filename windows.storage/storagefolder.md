@@ -26,6 +26,7 @@ There is not currently a "MoveAsync" or similar method. One simple implementatio
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | TryGetChangeTracker |
+| 2004 | 19041 | GetFolderFromPathForUserAsync |
 
 ## -examples
 

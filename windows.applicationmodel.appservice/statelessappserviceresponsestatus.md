@@ -62,6 +62,15 @@ The operation failed because one or more necessary cloud services were temporari
 ## -remarks
 Indicates success or failure of a SendStatelessMessageAsync operation.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | AuthenticationError |
+| 2004 | 19041 | DisabledByPolicy |
+| 2004 | 19041 | NetworkNotAvailable |
+| 2004 | 19041 | WebServiceUnavailable |
+
 ## -see-also
 
 ## -examples

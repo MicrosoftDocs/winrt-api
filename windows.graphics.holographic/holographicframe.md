@@ -21,6 +21,7 @@ Each HolographicFrame tracks end-to-end latency from the CreateNextFrame call un
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1709 | 16299 | GetQuadLayerUpdateParameters |
+| 2004 | 19041 | Id |
 
 ## -examples
 

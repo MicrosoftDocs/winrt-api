@@ -36,6 +36,7 @@ Regardless of the trigger you use, set [IsNetworkRequested](backgroundtaskbuilde
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | TaskGroup |
+| 2004 | 19041 | SetTaskEntryPointClsid |
 
 ## -examples
 

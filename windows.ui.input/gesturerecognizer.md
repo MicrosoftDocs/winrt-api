@@ -35,6 +35,19 @@ Rotation is supported by a GestureRecognizer only when [manipulationRotate](gest
 
 Rotation is not supported for single pointer input if the value of [PivotRadius](gesturerecognizer_pivotradius.md) is set to 0.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | HoldMaxContactCount |
+| 2004 | 19041 | HoldMinContactCount |
+| 2004 | 19041 | HoldRadius |
+| 2004 | 19041 | HoldStartDelay |
+| 2004 | 19041 | TapMaxContactCount |
+| 2004 | 19041 | TapMinContactCount |
+| 2004 | 19041 | TranslationMaxContactCount |
+| 2004 | 19041 | TranslationMinContactCount |
+
 ## -examples
 
 Here we set up a GestureRecognizer object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput) for the full implementation.

@@ -51,6 +51,8 @@ After you register to receive input pane notifications, the system calls your ev
 | 1809 | 17763 | TryShow |
 | 1809 | 17763 | TryShow(CoreInputViewKind) |
 | 1903 | 18362 | GetForUIContext |
+| 2004 | 19041 | PrimaryViewHiding |
+| 2004 | 19041 | PrimaryViewShowing |
 
 ## -see-also
 

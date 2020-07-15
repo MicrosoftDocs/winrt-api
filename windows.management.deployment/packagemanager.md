@@ -31,6 +31,13 @@ Manages the software available to a user.
 | 1709 | 16299 | StagePackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>,IEnumerable<Uri>) |
 | 1803 | 17134 | RequestAddPackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>,IEnumerable<Uri>) |
 | 1809 | 17763 | DeprovisionPackageForAllUsersAsync |
+| 2004 | 19041 | AddPackageByUriAsync |
+| 2004 | 19041 | FindProvisionedPackages |
+| 2004 | 19041 | GetPackageStubPreference |
+| 2004 | 19041 | RegisterPackageByUriAsync |
+| 2004 | 19041 | RegisterPackagesByFullNameAsync |
+| 2004 | 19041 | SetPackageStubPreference |
+| 2004 | 19041 | StagePackageByUriAsync |
 
 ## -examples
 

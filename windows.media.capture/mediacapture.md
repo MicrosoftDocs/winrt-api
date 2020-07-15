@@ -67,6 +67,7 @@ MediaCapture only supports one pass CBR encoding.
 | 1607 | 14393 | StopRecordWithResultAsync |
 | 1703 | 15063 | CaptureDeviceExclusiveControlStatusChanged |
 | 1703 | 15063 | CreateMultiSourceFrameReaderAsync |
+| 2004 | 19041 | CreateRelativePanelWatcher |
 
 ## -examples
 

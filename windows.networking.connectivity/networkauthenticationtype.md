@@ -61,6 +61,7 @@ Specifies an opportunistic wireless encryption (OWE) algorithm. OWE provides opp
 | -- | -- | -- |
 | 1903 | 18362 | Wpa3 |
 | 1903 | 18362 | Wpa3Sae |
+| 2004 | 19041 | Owe |
 
 ## -examples
 

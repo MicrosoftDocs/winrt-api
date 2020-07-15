@@ -17,6 +17,9 @@ Contains initialization settings for the [MediaCapture](mediacapture.md) object 
 
 For how-to guidance on initializing and shutting down the **MediaCapture** object, see [Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 
+> [!NOTE]
+> When **MediaCaptureSharingMode::SharedReadOnly** is used, some of the MediaCaptureInitializationSettings properties can't be configured. See [SharingMode](mediacaptureinitializationsettings_sharingmode.md) for details.
+
 ### Version history
 
 | Windows version | SDK version | Value added |
@@ -25,9 +28,8 @@ For how-to guidance on initializing and shutting down the **MediaCapture** objec
 | 1607 | 14393 | SharingMode |
 | 1607 | 14393 | SourceGroup |
 | 1703 | 15063 | AlwaysPlaySystemShutterSound |
-
-> [!NOTE]
-> When **MediaCaptureSharingMode::SharedReadOnly** is used, some of the MediaCaptureInitializationSettings properties can't be configured. See [SharingMode](mediacaptureinitializationsettings_sharingmode.md) for details.
+| 2004 | 19041 | DeviceUri |
+| 2004 | 19041 | DeviceUriPasswordCredential |
 
 ## -examples
 

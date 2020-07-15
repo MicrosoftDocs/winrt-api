@@ -19,6 +19,13 @@ Contains event data for the [ManipulationUpdated](gesturerecognizer_manipulation
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | ContactCount |
+| 2004 | 19041 | CurrentContactCount |
+
 ## -examples
 
 ## -see-also

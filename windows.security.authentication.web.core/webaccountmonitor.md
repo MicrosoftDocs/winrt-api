@@ -14,6 +14,12 @@ Allows an app to monitor specific web accounts and raises events when those web 
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | AccountPictureUpdated |
+
 ## -examples
 
 ## -see-also

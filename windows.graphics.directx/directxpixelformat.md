@@ -503,6 +503,13 @@ See [DXGI_FORMAT_SAMPLER_FEEDBACK_MIP_REGION_USED_OPAQUE](/windows/win32/api/dxg
 
 Refer to [DXGI_FORMAT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) for descriptions of these formats.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | SamplerFeedbackMinMipOpaque |
+| 2004 | 19041 | SamplerFeedbackMipRegionUsedOpaque |
+
 ## -examples
 
 ## -see-also
