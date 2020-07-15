@@ -26,4 +26,12 @@ The attribute with the specified namespace and name. This method returns Null if
 
 ## -examples
 
+```csharp
+var node = attributes.GetNamedItemNS("http://schemas.microsoft.com/winfx/2006/xaml", "Name");
+```
+
+```cppwinrt
+auto node = attributes.GetNamedItemNS(winrt::box_value(L"http://schemas.microsoft.com/winfx/2006/xaml"), L"Name");
+```
+
 ## -see-also

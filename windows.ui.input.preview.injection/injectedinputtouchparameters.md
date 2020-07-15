@@ -44,8 +44,8 @@ Using input injection requires the following be added to the Package.appxmanifes
 Here are some downloadable samples demonstrating basic input and input injection:
 
 - [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
-- [Touch injection sample](http://code.msdn.microsoft.com/Touch-Injection-Sample-444d9bf7)
-- [Input: XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b)
+- [Touch injection sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20Touch%20injection%20sample)
+- [Input: XAML user input events sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)
 
 ## -see-also
 

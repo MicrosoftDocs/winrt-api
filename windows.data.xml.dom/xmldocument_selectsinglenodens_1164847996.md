@@ -27,4 +27,12 @@ Prefixes in the query are resolved using the specified namespace declarations.
 
 ## -examples
 
+```csharp
+var input = document.SelectSingleNodeNS("//*[@x:Name='Input']", "xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'");
+```
+
+```cppwinrt
+auto input = document.SelectSingleNodeNS(L"//*[@x:Name='Input']", winrt::box_value(L"xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'"));
+```
+
 ## -see-also

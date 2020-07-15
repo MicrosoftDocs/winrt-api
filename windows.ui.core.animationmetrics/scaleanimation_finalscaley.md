@@ -20,4 +20,4 @@ The final vertical scale factor by which to multiply the value.
 ## -examples
 
 ## -see-also
-[FinalScaleX](scaleanimation_finalscalex.md), [Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c)
+[FinalScaleX](scaleanimation_finalscalex.md), [Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

@@ -15,7 +15,7 @@ Represents a description an audio media stream.
 ## -remarks
 When creating a [MediaEncodingProfile](../windows.media.mediaproperties/mediaencodingprofile.md), call [SetAudioTracks](../windows.media.mediaproperties/mediaencodingprofile_setaudiotracks_1151007226.md), passing in one or more **AudioStreamDescriptor** objects to provide information about the audio tracks to be encoded.
 
-See the [MediaStreamSource Sample](http://code.msdn.microsoft.com/windowsapps/MediaStreamSource-media-dfd55dff) for an example of using Media Stream Source in a UWP app.
+See the [MediaStreamSource Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/MediaStreamSource%20streaming%20sample) for an example of using Media Stream Source in a UWP app.
 
 ### Version history
 
@@ -29,4 +29,4 @@ See the [MediaStreamSource Sample](http://code.msdn.microsoft.com/windowsapps/Me
 ## -examples
 
 ## -see-also
-[IMediaStreamDescriptor](imediastreamdescriptor.md), [MediaStreamSource Sample](http://code.msdn.microsoft.com/windowsapps/MediaStreamSource-media-dfd55dff)
+[IMediaStreamDescriptor](imediastreamdescriptor.md), [MediaStreamSource Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/MediaStreamSource%20streaming%20sample)

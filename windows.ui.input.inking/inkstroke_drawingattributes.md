@@ -24,18 +24,7 @@ The following example demonstrates how to set a drawing attribute for a specific
 > [!NOTE]
 > You cannot set the DrawingAttributes property of the stroke directly. You must create a copy of the [InkDrawingAttributes](inkdrawingattributes.md) of the stroke, set the desired values for that [InkDrawingAttributes](inkdrawingattributes.md) object, and then assign the new [InkDrawingAttributes](inkdrawingattributes.md) to the DrawingAttributes of the stroke, as shown here.
 
-```javascript
-inkManager.getStrokes().forEach(function (stroke)
-{
-  var drawingAttributes = stroke.drawingAttributes;
-  drawingAttributes.penTip = 
-       Windows.UI.Input.Inking.PenTipShape.rectangle;
-  stroke.drawingAttributes = drawingAttributes;
-}
-```
-
 ```csharp
-
 // Get the InkStroke objects.
 IReadOnlyList<InkStroke> inkStrokes = inkManager.GetStrokes();
 Windows.UI.Input.Inking.InkStroke cloneStroke = 
@@ -45,8 +34,6 @@ Windows.UI.Input.Inking.InkDrawingAttributes drawingAttributes =
 drawingAttributes.PenTip = Windows.UI.Input.Inking.PenTipShape.Rectangle;
 cloneStroke.DrawingAttributes = drawingAttributes;
 ```
-
-For the complete example, see [Ink App sample](http://code.msdn.microsoft.com/windowsapps/Ink-App-sample-61abaec3).
 
 ## -see-also
 

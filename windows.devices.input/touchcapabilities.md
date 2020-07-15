@@ -17,7 +17,7 @@ Supports the ability to determine the touch capabilities of any connected touch 
 
 The values returned by the properties discussed here are based on the total number of touch digitizers connected: Boolean properties return true if one digitizer supports a specific capability and numeric properties return the maximum value exposed by all digitizers.
 
-The [Device Capabilities Sample](http://code.msdn.microsoft.com/windowsapps/Input-device-capabilities-31b67745) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
+The [Device Capabilities Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20Device%20capabilities%20sample) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
 
 The following code shows how to use this class to determine touch capabilities.
 

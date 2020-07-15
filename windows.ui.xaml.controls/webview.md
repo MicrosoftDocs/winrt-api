@@ -404,7 +404,7 @@ If a web page hosted in a WebView uses the JavaScript **Alert** function, it wil
 
 You might be able to intercept the information displayed by an **Alert** and do what you want with it in the host application. Whether this is possible depends on how the page is written and whether you have control of it. A sample is available that demonstrates one possible technique to do this. The sample is written for Windows 8.1 and Windows Phone 8.1, but will also work for apps using the Universal Windows Platform (UWP). However, this might not work for every scenario.
 
-[How to intercept JavaScript alert in WebView in universal Windows apps sample](https://code.msdn.microsoft.com/windowsapps/How-to-intercept-854d33da)
+[How to intercept JavaScript alert in WebView in Universal Windows apps sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/How%20to%20intercept%20JavaScript%20alert%20in%20WebView%20in%20universal%20Windows%20apps)
 
 ### Notes for previous versions
 
@@ -485,4 +485,4 @@ webView2.NavigateToString(
 
 ## -see-also
 
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [WebView guidelines](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/web-view), [XAML WebView control sample](http://code.msdn.microsoft.com/windowsapps/XAML-WebView-control-sample-58ad63f7), [WebView control (HTML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620624), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [WebView guidelines](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/web-view), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

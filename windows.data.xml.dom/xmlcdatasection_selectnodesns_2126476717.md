@@ -27,4 +27,12 @@ Prefixes in the query are resolved using the specified namespace declarations.
 
 ## -examples
 
+```csharp
+var nodes = node.SelectNodesNS("//mux:TreeView", "xmlns:mux='using:Microsoft.UI.Xaml.Controls'");
+```
+
+```cppwinrt
+auto nodes = node.SelectNodesNS(L"//mux:TreeView", winrt::box_value(L"xmlns:mux='using:Microsoft.UI.Xaml.Controls'"));
+```
+
 ## -see-also

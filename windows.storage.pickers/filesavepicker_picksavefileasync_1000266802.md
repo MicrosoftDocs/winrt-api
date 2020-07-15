@@ -23,7 +23,7 @@ To save the content of the file, your app must write the content to this [storag
 
 
 > [!WARNING]
-> If you try to show the file picker while your app is snapped the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The code examples in [FileSavePicker](filesavepicker.md) and the [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) show you how.
+> If you try to show the file picker while your app is snapped the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The code examples in [FileSavePicker](filesavepicker.md) and the [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) show you how.
 
 ## -examples
 

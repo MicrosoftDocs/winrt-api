@@ -20,8 +20,9 @@ The **DataTransferManager** class includes a [ShowShareUI](datatransfermanager_s
 
 The **DataTransferManager** class also has a [TargetApplicationChosen](datatransfermanager_targetapplicationchosen.md) event. Use this event when you want to capture what applications a user selects when sharing content from your app.
 
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ### Windows Phone 8
 

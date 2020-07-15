@@ -57,4 +57,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 do not use th
 
 ## -see-also
 
-[RightTappedRoutedEventArgs](../windows.ui.xaml.input/righttappedroutedeventargs.md), [IsRightTapEnabled](uielement_isrighttapenabled.md), [PopupMenu](../windows.ui.popups/popupmenu.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](http://code.msdn.microsoft.com/windowsapps/Input-3dff271b), [Context  menu sample](https://code.msdn.microsoft.com/windowsapps/Context-menu-sample-40840351/view/SourceCode)
+[RightTappedRoutedEventArgs](../windows.ui.xaml.input/righttappedroutedeventargs.md), [IsRightTapEnabled](uielement_isrighttapenabled.md), [PopupMenu](../windows.ui.popups/popupmenu.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [XAML user input events sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample), [Context  menu sample](https://code.msdn.microsoft.com/windowsapps/Context-menu-sample-40840351/view/SourceCode)

@@ -32,4 +32,4 @@ For app user-code, calling SetValue is not typically necessary. Usually, a Windo
 ## -examples
 
 ## -see-also
-[Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview), [XAML user and custom controls sample](http://code.msdn.microsoft.com/windowsapps/XAML-user-and-custom-a8a9505e)
+[Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview), [XAML user and custom controls sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20user%20and%20custom%20controls%20sample)

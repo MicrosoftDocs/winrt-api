@@ -36,7 +36,7 @@ The RequestedTheme value you set on a [FrameworkElement](frameworkelement.md) wi
 
 
 
-The RequestedTheme property is ignored if the user is running in high contrast mode. See [High-contrast themes](https://docs.microsoft.com/windows/uwp/accessibility/high-contrast-themes) and [XAML high contrast style sample](http://code.msdn.microsoft.com/windowsapps/XAML-high-contrast-style-c0ce936f).
+The RequestedTheme property is ignored if the user is running in high contrast mode. See [High-contrast themes](https://docs.microsoft.com/windows/uwp/accessibility/high-contrast-themes) and [XAML high contrast style sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20high%20contrast%20style%20sample).
 
 
 
@@ -46,4 +46,4 @@ The RequestedTheme property is ignored if the user is running in high contrast m
 ## -examples
 
 ## -see-also
-[Application.RequestedTheme](application_requestedtheme.md), [XAML requested theme sample](http://code.msdn.microsoft.com/windowsapps/XAML-requested-theme-sample-e6d46def), [{ThemeResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/themeresource-markup-extension)
+[Application.RequestedTheme](application_requestedtheme.md), [XAML requested theme sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20requested%20theme%20sample), [{ThemeResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/themeresource-markup-extension)

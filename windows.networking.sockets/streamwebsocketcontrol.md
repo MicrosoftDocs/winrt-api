@@ -104,7 +104,7 @@ StreamWebSocketControl,
 [StreamWebSocketInformation](streamwebsocketinformation.md),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
 [WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket),
-[ControlChannelTrigger StreamWebSocket sample](http://code.msdn.microsoft.com/windowsapps/ControlChannelTrigger-91f6bed8)
+[ControlChannelTrigger StreamWebSocket sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/%5BC%23%5D-Windows%208.1%20Store%20app%20samples/ControlChannelTrigger%20StreamWebSocket%20sample/C%23)
 
 ## -capabilities
 

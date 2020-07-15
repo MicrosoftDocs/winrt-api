@@ -17,8 +17,9 @@ context menu can show a maximum of six commands. This limit helps to ensure that
 
 You can see complete code examples that demonstrate how to create and customize context menu in the [Context menu sample](http://code.msdn.microsoft.com/windowsapps/Context-menu-sample-40840351) on the [ sample home page](https://go.microsoft.com/fwlink/p/?linkid=226952).
 
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 Provide users with a context menu by adding an event listener for the `"contextmenu"` event. For example, the [Context menu sample](http://code.msdn.microsoft.com/windowsapps/Context-menu-sample-40840351) listens for the event on specific HTML elements, and then calls the `scenario1AttachmentHandler` function.

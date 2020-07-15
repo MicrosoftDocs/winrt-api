@@ -43,4 +43,4 @@ This example creates a simple [PathGeometry](pathgeometry.md) made up of a singl
  
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [PathGeometry](pathgeometry.md), [PathSegment](pathsegment.md), [PathFigureCollection](pathfigurecollection.md), [XAML vector-based drawing sample](http://code.msdn.microsoft.com/windowsapps/Drawing-bfc39296), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes), [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [PathGeometry](pathgeometry.md), [PathSegment](pathsegment.md), [PathFigureCollection](pathfigurecollection.md), [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes), [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax)

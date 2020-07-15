@@ -128,4 +128,4 @@ The [AnimationDescription](animationdescription.md) constructor uses the values 
 ## -examples
 
 ## -see-also
-[Animation metrics sample](http://code.msdn.microsoft.com/windowsapps/animation-metrics-sample-acb0220c)
+[Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

@@ -49,4 +49,4 @@ The following example shows the [ReadingChanged](orientationsensor_readingchange
 
 ## -see-also
 
-[OrientationSensor Sample](http://code.msdn.microsoft.com/windowsapps/orientationsensor-sample-0b1732be), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Orientation sensor sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620580), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[OrientationSensor Sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/OrientationSensor), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Orientation sensor sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620580), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

@@ -29,7 +29,7 @@ If you have a Microsoft .NET stream that you want to use as a source, you can us
 In low memory situations (most likely on lower-memory phones), it is possible for an exception to be raised with the message "The image is unrecognized" and an HRESULT of 0x88982F60. While this exception ordinarily indicates bad data, if your app is close to its memory limit then the cause of the exception is likely to be low memory. In that case, we recommend that you free memory and try again.
 
 ## -examples
-This example shown here uses a file stream (obtained using a file picker, not shown) to load an image source by calling SetSourceAsync. The file picker, stream and call to SetSourceAsync are all asynchronous. The code shown here comes from a larger code sample, the SDK [XAML images sample](http://code.msdn.microsoft.com/windowsapps/0f5d56ae-5e57-48e1-9cd9-993115b027b9).
+This example shown here uses a file stream (obtained using a file picker, not shown) to load an image source by calling SetSourceAsync. The file picker, stream and call to SetSourceAsync are all asynchronous. The code shown here comes from a larger code sample, the SDK [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample).
 
 ```csharp
 // Ensure the stream is disposed once the image is loaded
@@ -48,4 +48,4 @@ using (IRandomAccessStream fileStream = await file.OpenAsync(Windows.Storage.Fil
 
 
 ## -see-also
-[Image](../windows.ui.xaml.controls/image.md), [Image.Source](../windows.ui.xaml.controls/image_source.md), [Call asynchronous APIs in C# or Visual Basic](https://docs.microsoft.com/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic), [XAML images sample](http://code.msdn.microsoft.com/windowsapps/0f5d56ae-5e57-48e1-9cd9-993115b027b9)
+[Image](../windows.ui.xaml.controls/image.md), [Image.Source](../windows.ui.xaml.controls/image_source.md), [Call asynchronous APIs in C# or Visual Basic](https://docs.microsoft.com/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic), [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample)

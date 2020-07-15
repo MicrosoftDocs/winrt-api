@@ -27,7 +27,7 @@ The system computes this coordinate using the following file properties:
 ## -remarks
 To set the latitude or longitude of the video, you must set all four of the file properties that are used to compute the latitude or longitude coordinates.
 
-For code examples that demonstrate working with Latitude, [Longitude](videoproperties_longitude.md) and their underlying file properties, see the [Simple imaging sample](http://code.msdn.microsoft.com/windowsapps/Simple-Imaging-Sample-a2dec2b0).
+For code examples that demonstrate working with Latitude, [Longitude](videoproperties_longitude.md) and their underlying file properties, see the [Simple imaging sample](https://github.com/microsoft/Windows-universal-samples/blob/master/Samples/SimpleImaging/README.md).
 
 ## -examples
 

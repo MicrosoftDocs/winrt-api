@@ -19,11 +19,12 @@ If enabled, local suggestions are displayed in the search pane when the user ent
 
 Disable these suggestions by setting the [enabled](localcontentsuggestionsettings_enabled.md) property to false.
 
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
-The [Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to customize local suggestions by restricting the locations and kinds of files that the suggestions are based on.
+The [Search contract sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Search%20contract%20sample) demonstrates how to customize local suggestions by restricting the locations and kinds of files that the suggestions are based on.
 
 > [!TIP]
 > You should add this code to your app's global scope and run it as soon as your app is launched.
@@ -53,4 +54,4 @@ Windows.ApplicationModel.Search.SearchPane.getForCurrentView().setLocalContentSu
 In the example, suggestions are restricted to one kind of file, music files, using an Advanced Query Syntax (AQS) string. Two of the most common Advanced Query Syntax (AQS) filters restrict based on file kind, like "kind:=.music" in the example; and based on file name extension, like "ext:=.mp3". You can learn more about Advanced Query Syntax (AQS) in [](https://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779).
 
 ## -see-also
-[Search contract sample](http://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5), [Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)), [](https://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779), [SearchPane class](searchpane.md), [SearchPane.setLocalContentSuggestionSettings method](searchpane_setlocalcontentsuggestionsettings_156524340.md)
+[Search contract sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Search%20contract%20sample), [Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)), [](https://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779), [SearchPane class](searchpane.md), [SearchPane.setLocalContentSuggestionSettings method](searchpane_setlocalcontentsuggestionsettings_156524340.md)

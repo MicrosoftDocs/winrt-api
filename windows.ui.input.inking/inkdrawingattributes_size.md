@@ -21,8 +21,7 @@ The [Width](../windows.foundation/size.md) and [Height](../windows.foundation/si
 ## -examples
 The following example includes a function that shows how to set the Size (`strokeSize`) of an [InkStroke](inkstroke.md) (`stroke`).
 
-```
-
+```csharp
 function shapeStroke(stroke, width)
 {
     var att = stroke.drawingAttributes;
@@ -39,10 +38,7 @@ function shapeStroke(stroke, width)
         return false;
     }
 }
-
 ```
-
-For the complete example, see [Ink App sample](http://code.msdn.microsoft.com/windowsapps/Ink-App-sample-61abaec3).
 
 ## -see-also
 

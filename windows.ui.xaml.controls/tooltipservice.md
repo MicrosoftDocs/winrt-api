@@ -51,4 +51,4 @@ The following code example demonstrates the placement modes for a [ToolTip](tool
 [!code-xaml[1](../windows.ui.xaml.data/code/ToolTipServicePlacementEx/csharp/MainPage.xaml#Snippet1)]
 
 ## -see-also
-[ToolTip](tooltip.md), [How to add a tooltip](https://docs.microsoft.com/previous-versions/windows/apps/hh868199(v=win.10)), [XAML essential controls sample](http://code.msdn.microsoft.com/windowsapps/Basic-Controls-29318599)
+[ToolTip](tooltip.md), [How to add a tooltip](https://docs.microsoft.com/previous-versions/windows/apps/hh868199(v=win.10)), [XAML essential controls sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20essential%20controls%20sample)

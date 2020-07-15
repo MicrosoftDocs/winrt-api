@@ -11,6 +11,9 @@ public class CompositionRectangleGeometry : CompositionGeometry, CompositionGeom
 
 ## -description
 
+> [!WARNING]
+> This API contains a known issue in Windows 10, versions 2004 and below. Do not use this API in your code.
+
 Represents a rectangle shape of the specified size.
 
 ## -remarks

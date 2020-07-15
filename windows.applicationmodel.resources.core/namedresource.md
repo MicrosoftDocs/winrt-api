@@ -15,7 +15,7 @@ Represents a single logical, named resource, such as a string resource named 'He
 ## -remarks
 
 ## -examples
-This example is based on scenario 13 of the [Application resources and localization sample](http://code.msdn.microsoft.com/windowsapps/Application-resources-and-cd0c6eaa). See the sample for the more complete solution.
+This example is based on scenario 13 of the [Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources). See the sample for the more complete solution.
 
 ```javascript
 // Create a ResourceContext.
@@ -75,4 +75,4 @@ function renderCandidate(candidate, index, output) {
 
 
 ## -see-also
-[Application resources and localization sample](http://code.msdn.microsoft.com/windowsapps/Application-resources-and-cd0c6eaa)
+[Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources)

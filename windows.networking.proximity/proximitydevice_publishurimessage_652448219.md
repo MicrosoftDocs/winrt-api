@@ -61,7 +61,7 @@ You can use the [PublishMessage](proximitydevice_publishmessage_1881696512.md) m
 [!code-vb[PublishSubscribeUri2](../windows.networking.proximity/code/Proximity_PublishUri/vbnet/MainPage.xaml.vb#SnippetPublishSubscribeUri2)]
 
 ## -see-also
-[PublishUriMessage(Uri)](proximitydevice_publishurimessage_632953271.md), [Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](http://code.msdn.microsoft.com/windowsapps/Proximity-Sample-88129731)
+[PublishUriMessage(Uri)](proximitydevice_publishurimessage_632953271.md), [Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Proximity%20sample)
 
 
 

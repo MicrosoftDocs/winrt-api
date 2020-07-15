@@ -38,4 +38,4 @@ This example shows how you can access and modify a transform in code at runtime.
 [!code-vb[transforms_ovw_interactive_transforms_code](../windows.ui.xaml.media/code/transforms_ovw_interactive_transforms/vbnet/Page.xaml.vb#Snippettransforms_ovw_interactive_transforms_code)]
 
 ## -see-also
-[Transform](transform.md), [XAML two-dimensional transforms sample](http://code.msdn.microsoft.com/windowsapps/transforms-95647b6f)
+[Transform](transform.md), [XAML two-dimensional transforms sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20two-dimensional%20transforms%20sample)

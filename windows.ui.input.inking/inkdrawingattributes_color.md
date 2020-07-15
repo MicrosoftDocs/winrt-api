@@ -22,20 +22,19 @@ The value of Color is an ARGB value. However, the value of the transparency comp
 The value of the transparency component is not discarded. It is stored with all other stroke data in the Ink Serialized Format (ISF) file when the [InkStroke](inkstroke.md) is saved.
 
 ## -examples
+
 The following example demonstrates how to set the Color property (`color`) of an [InkStroke](inkstroke.md) (`stroke`) using the [Windows.UI.ColorHelper.FromArgb](../windows.ui/colorhelper_fromargb_1449236110.md) method.
 
-```
-
+```csharp
 var drawingAttributes = stroke.drawingAttributes;
 drawingAttributes.color = 
      Windows.UI.ColorHelper.fromArgb(255, 255, 0, 0);
 stroke.drawingAttributes = drawingAttributes;
-
 ```
 
 The following alternative demonstrates how to set the Color property (`color`) of an [InkStroke](inkstroke.md) (`stroke`) without using the [Windows.UI.ColorHelper.FromArgb](../windows.ui/colorhelper_fromargb_1449236110.md) method.
 
-```
+```csharp
 var drawingAttributes = stroke.drawingAttributes;
 var color = drawingAttributes.color;
 color.a = 255;
@@ -44,10 +43,7 @@ color.g = 0;
 color.b = 0;
 drawingAttributes.color = color;
 stroke.drawingAttributes = drawingAttributes;
-
 ```
-
-For the complete example, see [Ink App sample](http://code.msdn.microsoft.com/windowsapps/Ink-App-sample-61abaec3).
 
 ## -see-also
 

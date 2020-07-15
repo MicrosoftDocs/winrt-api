@@ -20,10 +20,10 @@ The device is not connected.
 ### -field Connected:1
 The device is connected to an associated Wi-Fi Direct device.
 
-
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[ConnectionStatusChanged](wifidirectdevice_connectionstatuschanged.md), [WiFiDirectDevice sample](http://code.msdn.microsoft.com/windowsapps/WiFiDirectDevice-sample-59a6e5e0)
+
+[ConnectionStatusChanged](wifidirectdevice_connectionstatuschanged.md), [WiFiDirectDevice sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/WiFiDirectDevice%20sample)

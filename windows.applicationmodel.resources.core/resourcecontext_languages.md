@@ -20,6 +20,9 @@ The language qualifier is a list of valid [BCP-47](http://tools.ietf.org/html/bc
 
 The language qualifier value is represented as a string containing a semicolon-delimited list. The Languages property wraps it in a container for convenience.
 
+> [!NOTE]
+> This property yields the same values as the language list exposed by [Windows.Globalization.ApplicationLanguages.Languages](../windows.globalization/applicationlanguages_languages.md).
+
 ## -examples
 
 ## -see-also

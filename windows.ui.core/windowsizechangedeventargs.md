@@ -16,9 +16,9 @@ Contains the argument returned by a window size change event.
 This object is returned by a delegate registered for the [CoreWindow.SizeChanged](corewindow_sizechanged.md) event.
 
 
-
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx).
 
 ## -examples
 

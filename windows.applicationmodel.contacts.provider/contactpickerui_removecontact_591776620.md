@@ -25,6 +25,6 @@ The ID of the contact to remove.
 ## -examples
 
 ## -see-also
-[Contact Picker app sample](http://code.msdn.microsoft.com/windowsapps/Contact-Picker-App-sample-fc6677a1)
+[Contact Picker app sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ContactPicker)
 ## -capabilities
 contactsSystem

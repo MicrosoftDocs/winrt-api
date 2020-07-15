@@ -20,14 +20,14 @@ Apps that show video or run for extended periods without user input can request 
 Display requests are cumulative - each display request must be released with a separate call to [DisplayRequest.RequestRelease](displayrequest_requestrelease_966711579.md). An app should keep track of the number of active display requests and make sure all are released (each with a corresponding call to [DisplayRequest.RequestRelease](displayrequest_requestrelease_966711579.md)) when the app no longer requires the display to remain on. For more information see:
 + [How to keep the display on during audio/video playback ](https://docs.microsoft.com/previous-versions/windows/apps/jj152725(v=win.10))
 + [MediaElement](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/media-playback)
-+ [Display power state sample](http://code.msdn.microsoft.com/windowsapps/Display-Request-Sample-e667f8aa/)
++ [Display power state sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Display%20power%20state%20sample)
 
 
 Using display requests to keep the display on consumes a lot of power. Use these guidelines for best app behavior when using display requests.
 + Use display requests only when required, that is, times when no user input is expected but the display should remain on. For example, during full screen presentations or when the user is reading an e-book.
 + Release each display request as soon as it is no longer required.
 
-
+<!-- confirmed -->
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
@@ -36,7 +36,7 @@ Using display requests to keep the display on consumes a lot of power. Use these
 This API is supported in native apps only.
 
 ## -examples
-The following code (taken from the [display power state sample](http://code.msdn.microsoft.com/windowsapps/Display-Request-Sample-e667f8aa/)) shows how to activate, track, and release display requests.
+The following code (taken from the [display power state sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Display%20power%20state%20sample)) shows how to activate, track, and release display requests.
 
 ```javascript
 var g_dispRequest = null;

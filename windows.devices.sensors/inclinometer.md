@@ -47,4 +47,4 @@ The following example shows the [ReadingChanged](inclinometer_readingchanged.md)
 
 ## -see-also
 
-[Inclinometer Sample](http://code.msdn.microsoft.com/windowsapps/Inclinometer-Sensor-Sample-0cd0bf84), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Inclinometer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620552), [Relative inclinometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RelativeInclinometer)
+[Inclinometer Sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Inclinometer), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Relative inclinometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RelativeInclinometer)

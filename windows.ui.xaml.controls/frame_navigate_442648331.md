@@ -32,4 +32,4 @@ The parameter value can have a complex type if you do not use [GetNavigationStat
 ## -examples
 
 ## -see-also
-[Page](page.md), [Navigate(Type, Object)](frame_navigate_1603787821.md), [NavigationFailed](frame_navigationfailed.md), [Navigation](https://docs.microsoft.com/windows/uwp/layout/navigation-basics), [XAML Navigation sample](http://code.msdn.microsoft.com/windowsapps/XAML-Navigation-sample-dbd7116c)
+[Page](page.md), [Navigate(Type, Object)](frame_navigate_1603787821.md), [NavigationFailed](frame_navigationfailed.md), [Navigation](https://docs.microsoft.com/windows/uwp/layout/navigation-basics), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)
