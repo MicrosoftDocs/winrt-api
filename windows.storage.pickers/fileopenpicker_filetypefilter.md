@@ -33,4 +33,6 @@ The [File picker sample](https://github.com/microsoft/Windows-universal-samples/
 [!code-js[all_openpicker_displayAllTypes](../windows.storage.pickers/code/FilePicker/js/js/scenario2.js#Snippetall_openpicker_displayAllTypes)]
 
 ## -see-also
-[File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker class](fileopenpicker.md), [fileExtensionVector class](fileextensionvector.md), [fileExtensionVector class](fileextensionvector.md)
+
+[File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba), [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker class](fileopenpicker.md), [fileExtensionVector class](fileextensionvector.md)
+
