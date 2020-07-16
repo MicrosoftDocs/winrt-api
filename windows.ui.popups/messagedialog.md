@@ -34,7 +34,7 @@ Here's an example of a dialog created by the code in the Examples section.
 
 ## -examples
 
-The following example shows how to add commands to a message dialog and display it. For the full code example, see [Message dialog sample](http://code.msdn.microsoft.com/windowsapps/Message-dialog-sample-00c928f5).
+The following example shows how to add commands to a message dialog and display it. For the full code example, see [Message dialog sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Message%20dialog%20sample).
 
 ```csharp
 using Windows.UI.Popups;
@@ -272,4 +272,4 @@ End Class
 
 ## -see-also
 
-[Message dialog sample](http://code.msdn.microsoft.com/windowsapps/Message-dialog-sample-00c928f5), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570)
+[Message dialog sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Message%20dialog%20sample), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570)
