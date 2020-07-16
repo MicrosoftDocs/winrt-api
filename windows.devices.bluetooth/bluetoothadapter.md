@@ -20,6 +20,8 @@ Represents a Bluetooth adapter.
 | -- | -- | -- |
 | 1803 | 17134 | AreClassicSecureConnectionsSupported |
 | 1803 | 17134 | AreLowEnergySecureConnectionsSupported |
+| 2004 | 19041 | IsExtendedAdvertisingSupported |
+| 2004 | 19041 | MaxAdvertisementDataLength |
 
 ## -see-also
 

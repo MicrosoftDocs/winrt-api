@@ -29,4 +29,4 @@ NavigateToString supports content with references to external files such as CSS,
 ## -see-also
 [LoadCompleted](webview_loadcompleted.md), [NavigationCompleted](webview_navigationcompleted.md), [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md), [WebView control (XAML) sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)
 ## -capabilities
-enterpriseCloudSS
+enterpriseCloudSSO

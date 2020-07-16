@@ -97,6 +97,8 @@ However, if Microsoft Visual Studio project updates, like changes to the app man
 | 1709 | 16299 | RangesDownloaded |
 | 1709 | 16299 | RecoverableWebErrorStatuses |
 | 1803 | 17134 | MakeCurrentInTransferGroup |
+| 2004 | 19041 | RemoveRequestHeader |
+| 2004 | 19041 | SetRequestHeader |
 
 ## -see-also
 [Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10)), [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer), [Background transfer sample (Windows 8.x)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)

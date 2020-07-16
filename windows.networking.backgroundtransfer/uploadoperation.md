@@ -30,6 +30,8 @@ However, if Microsoft Visual Studio project updates, like changes to the app man
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | MakeCurrentInTransferGroup |
+| 2004 | 19041 | RemoveRequestHeader |
+| 2004 | 19041 | SetRequestHeader |
 
 ## -examples
 The following example demonstrates how to configure and begin a basic upload operation.

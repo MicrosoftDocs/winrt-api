@@ -14,6 +14,15 @@ Describes the encoding properties of a timed metadata stream. Timed metadata str
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | CreatePgs |
+| 2004 | 19041 | CreateSrt |
+| 2004 | 19041 | CreateSsa |
+| 2004 | 19041 | CreateVobSub |
+
 ## -see-also
 
 ## -examples

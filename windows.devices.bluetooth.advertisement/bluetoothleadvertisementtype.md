@@ -46,6 +46,12 @@ See the [advertisement event properties](bluetoothleadvertisementreceivedeventar
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | Extended |
+
 ## -examples
 
 ## -see-also

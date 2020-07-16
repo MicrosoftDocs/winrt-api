@@ -26,6 +26,8 @@ Initialize this class with a [BCP-47](http://tools.ietf.org/html/bcp47) language
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1803 | 17134 | LayoutDirection |
+| 2004 | 19041 | AbbreviatedName |
+| 2004 | 19041 | GetMuiCompatibleLanguageListFromLanguageTags |
 
 ## -examples
 

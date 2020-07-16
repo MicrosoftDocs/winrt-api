@@ -35,6 +35,7 @@ Some drivers may require that the camera device preview to be in a running state
 | 1703 | 15063 | SetDevicePropertyById |
 | 1803 | 17134 | VideoTemporalDenoisingControl |
 | 1903 | 18362 | InfraredTorchControl |
+| 2004 | 19041 | PanelBasedOptimizationControl |
 
 ## -examples
 

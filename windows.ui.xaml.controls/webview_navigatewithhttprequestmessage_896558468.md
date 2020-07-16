@@ -37,4 +37,4 @@ myWebView.NavigateWithHttpRequestMessage(httpRequestMessage);
 ## -see-also
 
 ## -capabilities
-enterpriseCloudSS
+enterpriseCloudSSO

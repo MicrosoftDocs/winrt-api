@@ -20,6 +20,11 @@ This interface exposes the methods and properties used to control and configure 
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1607 | 14393 | CreateFromConnectionProfile(ConnectionProfile,NetworkAdapter) |
+| 2004 | 19041 | DisableNoConnectionsTimeout |
+| 2004 | 19041 | DisableNoConnectionsTimeoutAsync |
+| 2004 | 19041 | EnableNoConnectionsTimeout |
+| 2004 | 19041 | EnableNoConnectionsTimeoutAsync |
+| 2004 | 19041 | IsNoConnectionsTimeoutEnabled |
 
 ## -examples
 

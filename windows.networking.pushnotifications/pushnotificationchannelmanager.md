@@ -20,6 +20,7 @@ Creates objects that you use to retrieve push notification channels from the Win
 | -- | -- | -- |
 | 1607 | 14393 | GetForUser |
 | 1703 | 15063 | GetDefault |
+| 2004 | 19041 | ChannelsRevoked |
 
 ## -examples
 The following example shows the use of the [CreatePushNotificationChannelForApplicationAsync](pushnotificationchannelmanager_createpushnotificationchannelforapplicationasync_684392470.md) method to retrieve a push notification channel for the calling app.

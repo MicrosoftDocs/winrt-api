@@ -94,6 +94,7 @@ After being configured, InteractionTracker still requires one last step to actua
 | 1809 | 17763 | TryUpdatePositionBy(Vector3,InteractionTrackerClampingOption) |
 | 1903 | 18362 | GetBindingMode |
 | 1903 | 18362 | SetBindingMode |
+| 2004 | 19041 | TryUpdatePosition(Vector3,InteractionTrackerClampingOption,InteractionTrackerPositionUpdateOption) |
 
 ## -examples
 

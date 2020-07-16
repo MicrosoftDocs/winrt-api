@@ -28,6 +28,7 @@ This API is supported in native apps only.
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | ShareCompleted |
+| 2004 | 19041 | ShareCanceled |
 
 ## -examples
 

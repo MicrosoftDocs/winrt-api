@@ -16,6 +16,12 @@ Describes inference options that are used during the creation of [LearningModelS
 ## -remarks
 The **LearningModelSessionOptions** object can be used to configure [LearningModelSession](learningmodelsession.md) construction.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | CloseModelOnSessionCreation |
+
 ## -see-also
 
 ## -examples

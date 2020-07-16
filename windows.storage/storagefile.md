@@ -22,6 +22,12 @@ Additionally, whenever you call a file picker to let the user pick a file (or fi
 > [!NOTE]
 > StorageFile objects can't represent files that are ".lnk", ".url", or ".wsh" file types.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | GetFileFromPathForUserAsync |
+
 ## -examples
 
 This example shows you how to call a file picker, using [FileOpenPicker.PickSingleFileAsync](../windows.storage.pickers/fileopenpicker_picksinglefileasync_1320627792.md) to capture and process a file that the users picks.

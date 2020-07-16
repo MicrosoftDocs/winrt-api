@@ -15,6 +15,18 @@ Provides data for a [Received](bluetoothleadvertisementwatcher_received.md) even
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | BluetoothAddressType |
+| 2004 | 19041 | IsAnonymous |
+| 2004 | 19041 | IsConnectable |
+| 2004 | 19041 | IsDirected |
+| 2004 | 19041 | IsScannable |
+| 2004 | 19041 | IsScanResponse |
+| 2004 | 19041 | TransmitPowerLevelInDBm |
+
 ## -examples
 
 ## -see-also

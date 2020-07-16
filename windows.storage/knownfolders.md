@@ -44,6 +44,9 @@ To learn more about the locations that your app can access, see [File access per
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | GetFolderForUserAsync |
+| 2004 | 19041 | GetFolderAsync |
+| 2004 | 19041 | RequestAccessAsync |
+| 2004 | 19041 | RequestAccessForUserAsync |
 
 ## -examples
 

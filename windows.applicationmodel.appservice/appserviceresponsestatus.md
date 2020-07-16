@@ -54,6 +54,11 @@ The operation failed because one or more necessary cloud services were temporari
 | -- | -- | -- |
 | 1607 | 14393 | MessageSizeTooLarge |
 | 1607 | 14393 | RemoteSystemUnavailable |
+| 2004 | 19041 | AppUnavailable |
+| 2004 | 19041 | AuthenticationError |
+| 2004 | 19041 | DisabledByPolicy |
+| 2004 | 19041 | NetworkNotAvailable |
+| 2004 | 19041 | WebServiceUnavailable |
 
 ## -examples
 

@@ -30,6 +30,12 @@ Specifies no scanning mode. The watcher will provide advertisements as the syste
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | None |
+
 ## -examples
 
 ## -see-also

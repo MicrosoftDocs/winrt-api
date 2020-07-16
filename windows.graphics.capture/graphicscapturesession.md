@@ -15,6 +15,12 @@ Allows the application to take screen captures.
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | IsCursorCaptureEnabled |
+
 ## -see-also
 
 [Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)

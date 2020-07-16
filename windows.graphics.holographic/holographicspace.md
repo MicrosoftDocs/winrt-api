@@ -28,6 +28,7 @@ Represents a holographic scene, with one or more holographic cameras rendering i
 | 1803 | 17134 | UserPresenceChanged |
 | 1803 | 17134 | WaitForNextFrameReady |
 | 1803 | 17134 | WaitForNextFrameReadyWithHeadStart |
+| 2004 | 19041 | CreateFrameScanoutMonitor |
 
 ## -examples
 

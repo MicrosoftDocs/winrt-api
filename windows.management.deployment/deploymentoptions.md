@@ -69,6 +69,7 @@ Additionally, to simplify and enhance the app development experience, these key 
 | 1703 | 15063 | RequiredContentGroupOnly |
 | 1809 | 17763 | ForceUpdateFromAnyVersion |
 | 1903 | 18362 | RetainFilesOnFailure |
+| 2004 | 19041 | StageInPlace |
 
 ## -examples
 

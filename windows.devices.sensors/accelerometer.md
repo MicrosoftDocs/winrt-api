@@ -45,6 +45,7 @@ The following example shows the [ReadingChanged](accelerometer_readingchanged.md
 | 1607 | 14393 | ReadingType |
 | 1709 | 16299 | FromIdAsync |
 | 1709 | 16299 | GetDeviceSelector |
+| 2004 | 19041 | ReportThreshold |
 
 ## -examples
 

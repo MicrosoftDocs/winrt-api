@@ -32,6 +32,10 @@ For how-to guidance for setting the encoding properties for media, see [Set medi
 | 1703 | 15063 | Vp9 |
 | 1803 | 17134 | P010 |
 | 1809 | 17763 | Heif |
+| 2004 | 19041 | Pgs |
+| 2004 | 19041 | Srt |
+| 2004 | 19041 | Ssa |
+| 2004 | 19041 | VobSub |
 
 ## -examples
 

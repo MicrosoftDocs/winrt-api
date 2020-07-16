@@ -31,6 +31,18 @@ Although Package is supported in desktop apps, some members of this class are su
 | 1809 | 17763 | GetAppInstallerInfo |
 | 1903 | 18362 | EffectiveLocation |
 | 1903 | 18362 | MutableLocation |
+| 2004 | 19041 | EffectiveExternalLocation |
+| 2004 | 19041 | EffectiveExternalPath |
+| 2004 | 19041 | EffectivePath |
+| 2004 | 19041 | GetAppListEntries |
+| 2004 | 19041 | GetLogoAsRandomAccessStreamReference |
+| 2004 | 19041 | InstalledPath |
+| 2004 | 19041 | IsStub |
+| 2004 | 19041 | MachineExternalLocation |
+| 2004 | 19041 | MachineExternalPath |
+| 2004 | 19041 | MutablePath |
+| 2004 | 19041 | UserExternalLocation |
+| 2004 | 19041 | UserExternalPath |
 
 ## -examples
 

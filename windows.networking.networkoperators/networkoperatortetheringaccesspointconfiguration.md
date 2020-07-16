@@ -17,6 +17,14 @@ Tethering allows a Windows device to function as a mobile hotspot providing inte
 ## -remarks
 Windows 10, version 1607, supports Mobile Hotspot, an enhanced version of the mobile broadband tethering feature. The Mobile Hotspot and Wi-Fi Direct technology can't both run at the same time. Mobile Hotspot takes precedence over all Wi-Fi Direct scenarios. For example, screen projection and tethering can't both run at the same time.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | Band |
+| 2004 | 19041 | IsBandSupported |
+| 2004 | 19041 | IsBandSupportedAsync |
+
 ## -examples
 
 ## -see-also

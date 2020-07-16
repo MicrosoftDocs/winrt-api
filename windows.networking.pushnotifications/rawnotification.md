@@ -23,6 +23,7 @@ A background task that is intended to run in response to a notification must be 
 | -- | -- | -- |
 | 1703 | 15063 | ChannelId |
 | 1703 | 15063 | Headers |
+| 2004 | 19041 | ContentBytes |
 
 ## -examples
 
