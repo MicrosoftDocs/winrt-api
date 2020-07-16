@@ -22,7 +22,7 @@ A [PurchaseResults](purchaseresults.md) that contains the results of the in-app 
 ## -remarks
 The product ID is the string that the app uses to identify the add-on. You enter the product ID when [submitting your add-on](https://docs.microsoft.com/windows/uwp/publish/set-your-add-on-product-id) in [Partner Center](https://partner.microsoft.com/dashboard), where it is associated with the description, price tier and lifetime. For more information, see [How to use product IDs for add-ons in your code](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#how-to-use-product-ids-for-add-ons-in-your-code).
 
-You can see an example of how to use this method in our [code sample](http://code.msdn.microsoft.com/windowsapps/Licensing-API-Sample-19712f1a).
+You can see an example of how to use this method in our [code sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Trial%20app%20and%20in-app%20purchase%20sample).
 
 ## -examples
 

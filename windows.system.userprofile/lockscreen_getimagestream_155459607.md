@@ -19,7 +19,7 @@ The stream that contains the lock screen image data.
 This method can be called only by apps that have set the "Picture Library Access" capability in the package manifest or by the app that set this image on the lock screen.
 
 ## -examples
-The following example demonstrates this method being used to retrieve the current lock screen image. For a full sample, see the [Personalization app sample](http://code.msdn.microsoft.com/windowsapps/Personalization-App-sample-9ebfe147).
+The following example demonstrates this method being used to retrieve the current lock screen image. For a full sample, see the [Personalization app sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/blob/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%23%5D-Windows%208%20app%20samples/C%23/Windows%208%20app%20samples/Lock%20screen%20personalization%20sample%20(Windows%208)/C%23/Package.appxmanifest).
 
 ```csharp
 IRandomAccessStream imageStream = LockScreen.GetImageStream();

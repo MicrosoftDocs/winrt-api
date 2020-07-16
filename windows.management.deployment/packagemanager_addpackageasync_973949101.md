@@ -197,7 +197,7 @@ int __cdecl main(Platform::Array<String^>^ args)
 ```
 
 ## -see-also
-[Add app package sample](http://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Deployment-f4a89ec0), [AddPackageAsync(Uri, IIterable(Uri), DeploymentOptions, PackageVolume)](packagemanager_addpackageasync_2048203939.md)
+[Add app package sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Add%20app%20package%20sample), [AddPackageAsync(Uri, IIterable(Uri), DeploymentOptions, PackageVolume)](packagemanager_addpackageasync_2048203939.md)
 
 ## -capabilities
 packageManagement
