@@ -29,6 +29,10 @@ The [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) interface has
 > [!NOTE]
 > Your [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) implementation must be agile to prevent deadlock that can occur when the UI thread waits for the [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) to finish its work before continuing. For more info, see [Threading and Marshaling](https://docs.microsoft.com/cpp/cppcx/threading-and-marshaling-c-cx)
 
+If the app possesses the `enterpriseCloudSSO` capability,
+then web pages hosted inside the WebView control
+can use single sign on with Azure Active Directory (AAD) resources.
+
 ## -examples
 The following code example shows how to create and use a resolver that will serve a file from the app package. For a complete example, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
 
