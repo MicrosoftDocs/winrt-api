@@ -18,6 +18,10 @@ The Uniform Resource Identifier (URI) to load.
 
 ## -remarks
 
+If the app possesses the `enterpriseCloudSSO` capability,
+then web pages hosted inside the WebView control
+can use single sign on with Azure Active Directory (AAD) resources.
+
 ## -examples
 
 ## -see-also
