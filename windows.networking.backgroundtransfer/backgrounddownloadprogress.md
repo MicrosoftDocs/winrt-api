@@ -15,7 +15,7 @@ Contains status information about the download operation.
 ## -struct-fields
 
 ### -field BytesReceived
-The total number of bytes received. This value does not include bytes received as response headers. If the download operation has restarted, this value may be smaller than in the previous progress report.
+The total number of data bytes received. This value does not include bytes received as response headers. Download operations can be restarted (for example, after a network outage). When operations are restarted, they might have to discard previously downloaded bytes and therefore the number of bytes downloaded might not always increase from one report to the next.
 
 ### -field TotalBytesToReceive
 The total number of bytes of data to download. If this number is unknown, this value is set to 0.
