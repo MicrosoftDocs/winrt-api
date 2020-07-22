@@ -10,23 +10,33 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IB
 # Windows.Storage.Streams.InputStreamOverStream.ReadAsync
 
 ## -description
+
 Returns an asynchronous byte reader object.
 
 ## -parameters
+
 ### -param buffer
+
 The buffer into which the asynchronous read operation places the bytes that are read.
 
 ### -param count
+
 The number of bytes to read that is less than or equal to the [Capacity](ibuffer_capacity.md) value.
 
 ### -param options
+
 Specifies the type of the asynchronous read operation.
 
 ## -returns
+
 The asynchronous operation.
 
 ## -remarks
 
 ## -examples
 
+See the code example in [ControlChannelTrigger with WebSockets](/windows/uwp/networking/network-communications-in-the-background#controlchanneltrigger-with-websockets).
+
 ## -see-also
+
+[ControlChannelTrigger with WebSockets](/windows/uwp/networking/network-communications-in-the-background#controlchanneltrigger-with-websockets)
