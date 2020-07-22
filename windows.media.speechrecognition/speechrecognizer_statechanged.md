@@ -17,4 +17,4 @@ This event is raised when a change occurs to the [State](speechrecognizer_state.
 ## -examples
 
 ## -see-also
-[SpeechRecognizerStateChangedEventArgs](speechrecognizerstatechangedeventargs.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)
+[SpeechRecognizerStateChangedEventArgs](speechrecognizerstatechangedeventargs.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)
