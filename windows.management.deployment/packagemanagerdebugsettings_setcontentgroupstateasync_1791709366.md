@@ -18,7 +18,7 @@ Sets the staging state of a content group for debugging.
 
 ### -param package
 
-The app package.
+The app [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package).
 
 ### -param contentGroupName
 
@@ -42,5 +42,4 @@ The state of the required content group (which is specified by PackageContentGro
 
 ## -see-also
 
-## -examples
-
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)

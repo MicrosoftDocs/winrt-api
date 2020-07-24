@@ -5,7 +5,7 @@
 
 ## -description
 
-Registers the specified packages by their full name for the current user.
+Registers the specified [Packages](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) by their full name for the current user.
 
 ## -parameters
 
@@ -25,5 +25,4 @@ The status of the deployment request. The [DeploymentResult](deploymentresult.md
 
 ## -see-also
 
-## -examples
-
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)

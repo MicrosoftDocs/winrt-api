@@ -5,7 +5,7 @@
 
 ## -description
 
-Represents whether an app package currently prefers to run as a full app or a stub app.
+Represents whether an app [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) currently prefers to run as a full app or a stub app.
 
 ## -enum-fields
 
@@ -22,7 +22,5 @@ The app package currently prefers to run as a stub app.
 
 ## -see-also
 
-[GetPackageStubPreference](packagemanager_getpackagestubpreference_1409668630.md),[SetPackageStubPreference](packagemanager_setpackagestubpreference_5665446.md)
-
-## -examples
-
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [GetPackageStubPreference](packagemanager_getpackagestubpreference_1409668630.md),[SetPackageStubPreference](packagemanager_setpackagestubpreference_5665446.md)

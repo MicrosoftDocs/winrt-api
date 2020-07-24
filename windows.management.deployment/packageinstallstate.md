@@ -10,7 +10,7 @@ public enum Windows.Management.Deployment.PackageInstallState : int
 # PackageInstallState
 
 ## -description
-Represents the install state of the package.
+Represents the install state of the [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package).
 
 ## -enum-fields
 ### -field NotInstalled:0
@@ -37,4 +37,7 @@ The installation of the package has been paused.
 ## -examples
 
 ## -see-also
-[Packaging apps](https://docs.microsoft.com/windows/uwp/packaging/index), [PackageUserInformation.InstallState](packageuserinformation_installstate.md)
+
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Packaging apps](https://docs.microsoft.com/windows/uwp/packaging/index)
+- [PackageUserInformation.InstallState](packageuserinformation_installstate.md)

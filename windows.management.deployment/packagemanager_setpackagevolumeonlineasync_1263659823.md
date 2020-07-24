@@ -25,6 +25,7 @@ An object that the caller can observe to track progress and completion for the c
 
 ## -see-also
 
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

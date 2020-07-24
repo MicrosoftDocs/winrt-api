@@ -12,7 +12,7 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.RegisterPa
 
 ## -description
 
-Registers a package (the main package) by its family name and its dependency packages for the current user.
+Registers a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) (the main package) by its family name and its dependency packages for the current user.
 
 ## -parameters
 
@@ -44,5 +44,4 @@ A report of the deployment progress. The object implements the **IAsyncOperation
 
 ## -see-also
 
-## -examples
-
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)

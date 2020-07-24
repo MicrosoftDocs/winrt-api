@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IVector<Windows.ApplicationModel.Package> 
 # Windows.Management.Deployment.PackageVolume.FindPackagesForUser
 
 ## -description
-Gets a collection of info about all installed instances of the specified package from the specified publisher for the specified user or users.
+Gets a collection of info about all installed instances of the specified [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) from the specified publisher for the specified user or users.
 
 ## -parameters
 ### -param userSecurityId
@@ -30,4 +30,6 @@ A collection of info about the specified packages.
 ## -examples
 
 ## -see-also
-[FindPackagesForUser(String)](packagevolume_findpackagesforuser_999371492.md), [FindPackagesForUser(String, String)](packagevolume_findpackagesforuser_2003648348.md)
+
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [FindPackagesForUser(String)](packagevolume_findpackagesforuser_999371492.md), [FindPackagesForUser(String, String)](packagevolume_findpackagesforuser_2003648348.md)

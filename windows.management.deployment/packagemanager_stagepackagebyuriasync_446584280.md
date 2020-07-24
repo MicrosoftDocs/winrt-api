@@ -5,7 +5,7 @@
 
 ## -description
 
-Stages a package to the system without registering it, using the specified deployment options.
+Stages a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) to the system without registering it, using the specified deployment options.
 
 ## -parameters
 
@@ -31,7 +31,5 @@ This method simplifies the existing [StagePackageAsync](https://docs.microsoft.c
 
 ## -see-also
 
-[StagePackageOptions](stagepackageoptions.md)
-
-## -examples
-
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [StagePackageOptions](stagepackageoptions.md)

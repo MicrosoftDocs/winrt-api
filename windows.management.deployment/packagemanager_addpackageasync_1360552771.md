@@ -12,7 +12,7 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.AddPackage
 
 ## -description
 
-Adds a package and its dependency packages to the specified volume for the current user, using the specified deployment options.
+Adds a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) and its dependency packages to the specified volume for the current user, using the specified deployment options.
 
 ## -parameters
 
@@ -48,7 +48,8 @@ The DeploymentProgress percentage of completion over the entire course of the de
 
 ## -see-also
 
-[DeploymentOptions](deploymentoptions.md)
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [DeploymentOptions](deploymentoptions.md)
 
 ## -examples
 

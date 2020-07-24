@@ -5,7 +5,7 @@
 
 ## -description
 
-Registers a package (the main package) and its dependency packages for the current user, using the specified deployment options.
+Registers a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) (the main package) and its dependency packages for the current user, using the specified deployment options.
 
 ## -parameters
 
@@ -31,6 +31,7 @@ This method simplifies the existing [RegisterPackageAsync](https://docs.microsof
 
 ## -see-also
 
-[RegisterPackageOptions](registerpackageoptions.md),[Grant identity to non-packaged desktop apps](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps),[Hosted apps](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps)
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [RegisterPackageOptions](registerpackageoptions.md),[Grant identity to non-packaged desktop apps](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps),[Hosted apps](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps)
 
 ## -examples

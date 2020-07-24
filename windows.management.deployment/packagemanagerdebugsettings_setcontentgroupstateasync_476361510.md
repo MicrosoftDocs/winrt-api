@@ -18,7 +18,7 @@ Sets the staging state of a content group for debugging.
 
 ### -param package
 
-The app package.
+The app [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package).
 
 ### -param contentGroupName
 
@@ -36,5 +36,4 @@ Returns an IAsyncAction that completes when the state has changed.
 
 ## -see-also
 
-## -examples
-
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
