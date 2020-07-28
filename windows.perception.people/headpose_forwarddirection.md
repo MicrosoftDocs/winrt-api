@@ -17,6 +17,7 @@ Gets the forward direction of the user's head gaze in the specified coordinate s
 The forward direction unit vector.
 
 ## -remarks
+>[!NOTE] On most Windows Mixed Reality devices, the forward direction vector is parallel to the ground when the user's head is in a neutral position looking forward. However, earlier versions of HoloLens 2 aligned the vector to be perpendicular to the display panels instead, which is tilted downward a few degrees relative to the ideal orientation. Newer versions of HoloLens 2 have corrected this to ensure semantic consistency across form factors.
 
 ## -examples
 
