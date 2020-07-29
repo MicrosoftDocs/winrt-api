@@ -5,7 +5,7 @@
 
 ## -description
 
-Gets or sets a value that indicates whether the processes associated with the package will be shut down forcibly so that registration can continue if the package is currently in use.
+Gets or sets a value that indicates whether the processes associated with the [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) will be shut down forcibly so that registration can continue if the package is currently in use.
 
 ## -property-value
 
@@ -15,7 +15,8 @@ Gets or sets a value that indicates whether the processes associated with the pa
 
 ## -see-also
 
-[RegisterPackageOptions][registerpackageoptions.md]
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [RegisterPackageOptions][registerpackageoptions.md]
 
 ## -examples
 

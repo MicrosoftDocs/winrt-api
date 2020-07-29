@@ -27,7 +27,7 @@ A value of the enumeration. The initial value is the default theme set by the us
 
 There are two built in themes: "Light" and "Dark". By default your app runs using the theme set by the user in Windows settings (Settings > Personalization > Colors > Choose your default app mode). You can set the app's RequestedTheme property to override the user default and specify which theme is used.
 
-The theme can only be set when the app is started, not while it’s running. Attempting to set RequestedTheme while the app is running throws an exception (**NotSupportedException** for Microsoft .NET code). If you give the user an option to pick a theme that's part of app UI, you must save the setting in the app data and apply it when the app is restarted.
+The theme can only be set when the app is started, not while it's running. Attempting to set RequestedTheme while the app is running throws an exception (**NotSupportedException** for Microsoft .NET code). If you give the user an option to pick a theme that's part of app UI, you must save the setting in the app data and apply it when the app is restarted. (For more info about app settings, see [Store and retrieve settings and other app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data)).
 
 You can change specific theme values at run-time after Application.RequestedTheme is applied, if you use the [FrameworkElement.RequestedTheme](frameworkelement_requestedtheme.md) property and sets values on specific elements in the UI.
 
@@ -46,6 +46,46 @@ By default your app runs using the "Dark" theme (in the themeresources.xaml file
 On Windows, setting RequestedTheme to [ElementTheme.Default](elementtheme.md) will always result in "Dark" being the theme. On Windows Phone, using the [ElementTheme.Default](elementtheme.md) value will result in a query for the system theme, as set by the user.
 
 ## -examples
+
+This example shows how to save the requested theme in local app settings, and then retrieve and apply it when the app is restarted.
+
+```xaml
+<ToggleSwitch Header="Theme" OnContent="Light" OffContent="Dark"
+              Toggled="ToggleSwitch_Toggled" Loaded="ToggleSwitch_Loaded"/>
+```
+
+```csharp
+private void ToggleSwitch_Toggled(object sender, RoutedEventArgs e)
+{
+    // Save theme choice to LocalSettings. 
+    // ApplicationTheme enum values: 0 = Light, 1 = Dark
+    ApplicationData.Current.LocalSettings.Values["themeSetting"] =
+                                                     ((ToggleSwitch)sender).IsOn ? 0 : 1;
+}
+
+private void ToggleSwitch_Loaded(object sender, RoutedEventArgs e)
+{
+    ((ToggleSwitch)sender).IsOn = App.Current.RequestedTheme == ApplicationTheme.Light;
+}
+```
+
+**App.xaml.cs**
+
+```csharp
+public App()
+{
+    this.InitializeComponent();
+
+    // Get theme choice from LocalSettings.
+    object value = ApplicationData.Current.LocalSettings.Values["themeSetting"];
+
+    if (value != null)
+    {
+        // Apply theme choice.
+        App.Current.RequestedTheme = (ApplicationTheme)(int)value;
+    }
+}
+```
 
 ## -see-also
 

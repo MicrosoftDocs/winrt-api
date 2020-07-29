@@ -20,3 +20,5 @@ Returns an asynchronous operation that will complete with the available space.
 ## -examples
 
 ## -see-also
+
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)

@@ -22,40 +22,105 @@ To get an instance of this class, call [GetForCurrentView](uiviewsettings_getfor
 Users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
 
 ## -examples
-Here, we show how to use the interaction mode to optimize the app layout on launch or when the device mode is changed.
+
+Here, we show how to detect and respond to the user interaction mode.
 
 ```csharp
-using Windows.UI.Xaml;
+using System.ComponentModel;
+using Windows.UI.Core;
 using Windows.UI.ViewManagement;
- 
-public sealed partial class MainPage : Page
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Navigation;
+
+namespace SDKTemplate
 {
-  public MainPage()
-  {
-    InitializeComponent();
-    // Every view gets an initial SizeChanged, so we will do all our 
-    // work there. This means that our view also responds to dynamic
-    // changes in user interaction mode.
-    Window.Current.SizeChanged += SizeChanged;
-  }
- 
-  private void SizeChanged(object sender, RoutedEventArgs e)
-  {
-    switch(UIViewSettings.GetForCurrentView().UserInteractionMode)
+    public sealed partial class Scenario1_Basic : Page, INotifyPropertyChanged
     {
-      case UserInteractionMode.Mouse:
-        VisualStateManager.GoToState(this, "MouseLayout", true);
-        break;
- 
-      case UserInteractionMode.Touch:
-      default:
-        VisualStateManager.GoToState(this, "TouchLayout", true);
-        break;
+        private MainPage rootPage;
+
+        public Scenario1_Basic()
+        {
+            this.InitializeComponent();
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            rootPage = MainPage.Current;
+
+            // The SizeChanged event is raised when the
+            // user interaction mode changes.
+            Window.Current.SizeChanged += OnWindowResize;
+            UpdateContent();
+        }
+
+        protected override void OnNavigatedFrom(NavigationEventArgs e)
+        {
+            Window.Current.SizeChanged -= OnWindowResize;
+        }
+
+        void OnWindowResize(object sender, WindowSizeChangedEventArgs e)
+        {
+            UpdateContent();
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        #region InteractionMode data binding
+        private UserInteractionMode interactionMode;
+
+        public UserInteractionMode InteractionMode
+        {
+            get { return interactionMode; }
+            set
+            {
+                if (interactionMode != value)
+                {
+                    interactionMode = value;
+                    if (PropertyChanged != null)
+                    {
+                        PropertyChanged(this, 
+                            new PropertyChangedEventArgs("InteractionMode"));
+                    }
+                }
+            }
+        }
+
+        #region CheckBoxStyle data binding
+        private Style checkBoxStyle;
+
+        public Style CheckBoxStyle
+        {
+            get { return checkBoxStyle; }
+            set
+            {
+                if (checkBoxStyle != value)
+                {
+                    checkBoxStyle = value;
+                    if (PropertyChanged != null)
+                    {
+                        PropertyChanged(this, 
+                            new PropertyChangedEventArgs("CheckBoxStyle"));
+                    }
+                }
+            }
+        }
+
+        void UpdateContent()
+        {
+            InteractionMode = 
+                UIViewSettings.GetForCurrentView().UserInteractionMode;
+
+            // Update styles
+            CheckBoxStyle = 
+                InteractionMode == 
+                    UserInteractionMode.Mouse ? 
+                        MouseCheckBoxStyle : TouchCheckBoxStyle;
+        }
     }
-  }
 }
 ```
 
-
-
 ## -see-also
+
+[User interaction mode sample](https://github.com/microsoft/Windows-universal-samples/tree/fe8567faf2efdea3672c2ba642ba7b925ff6467e/Samples/UserInteractionMode)

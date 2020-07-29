@@ -5,7 +5,7 @@
 
 ## -description
 
-Gets or sets the URI of an external disk location outside of the MSIX package where the package manifest can reference application content.
+Gets or sets the URI of an external disk location outside of the MSIX [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) where the package manifest can reference application content.
 
 ## -property-value
 
@@ -21,7 +21,8 @@ In most cases, we recommend that you use the [ExternalLocationUri](addpackageopt
 
 ## -see-also
 
-[RegisterPackageOptions](registerpackageoptions.md)
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [RegisterPackageOptions](registerpackageoptions.md)
 
 ## -examples
 

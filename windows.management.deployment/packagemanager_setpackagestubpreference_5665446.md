@@ -5,7 +5,7 @@
 
 ## -description
 
-Sets a value that indicates whether the specified app package currently prefers to run as a full app or a stub app.
+Sets a value that indicates whether the specified app [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) currently prefers to run as a full app or a stub app.
 
 ## -parameters
 
@@ -24,7 +24,8 @@ A value that indicates whether the specified app package currently prefers to ru
 
 ## -see-also
 
-[GetPackageStubPreference](packagemanager_getpackagestubpreference_1409668630.md)
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [GetPackageStubPreference](packagemanager_getpackagestubpreference_1409668630.md)
 
 ## -examples
 

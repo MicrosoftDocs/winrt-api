@@ -28,7 +28,9 @@ This method and its overloads require administrative privileges if the user SID 
 ## -examples
 
 ## -see-also
-[FindPackagesForUserWithPackageTypes(String, String, String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1875427314.md), [FindPackagesForUserWithPackageTypes(String, String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1110730286.md)
+
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [FindPackagesForUserWithPackageTypes(String, String, String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1875427314.md), [FindPackagesForUserWithPackageTypes(String, String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1110730286.md)
 
 ## -capabilities
 packageQuery

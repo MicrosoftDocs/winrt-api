@@ -5,7 +5,7 @@
 
 ## -description
 
-Gets the list of all installed packages on the device.
+Gets the list of all installed [Packages](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) on the device.
 
 ## -returns
 
@@ -15,5 +15,4 @@ The list of all installed packages on the device.
 
 ## -see-also
 
-## -examples
-
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)

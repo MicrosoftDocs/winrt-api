@@ -5,7 +5,7 @@
 
 ## -description
 
-Gets or sets a value that indicates whether to delay registration of the main package or dependency packages if the packages are currently in use.
+Gets or sets a value that indicates whether to delay registration of the main [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) or dependency packages if the packages are currently in use.
 
 ## -property-value
 
@@ -15,7 +15,8 @@ Gets or sets a value that indicates whether to delay registration of the main pa
 
 ## -see-also
 
-[RegisterPackageOptions][registerpackageoptions.md]
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [RegisterPackageOptions][registerpackageoptions.md]
 
 ## -examples
 

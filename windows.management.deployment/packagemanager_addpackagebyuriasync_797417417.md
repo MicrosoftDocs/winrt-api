@@ -5,7 +5,7 @@
 
 ## -description
 
-Adds a package (the main package) and any additional dependency packages for the current user, using the specified deployment options.
+Adds a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) (the main package) and any additional dependency packages for the current user, using the specified deployment options.
 
 ## -parameters
 
@@ -31,6 +31,7 @@ This method simplifies the existing [AddPackageAsync](https://docs.microsoft.com
 
 ## -see-also
 
-[AddPackageOptions](addpackageoptions.md),[Grant identity to non-packaged desktop apps](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps),[Hosted apps](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps)
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [AddPackageOptions](addpackageoptions.md),[Grant identity to non-packaged desktop apps](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps),[Hosted apps](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps)
 
 ## -examples

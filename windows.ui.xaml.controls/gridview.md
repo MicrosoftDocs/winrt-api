@@ -36,8 +36,26 @@ GridView is an [ItemsControl](itemscontrol.md), so it can contain a collection o
 
 By default, a data item is displayed in the GridView as the string representation of the data object it's bound to. To specify exactly how items in the GridView are displayed, you create a [DataTemplate](../windows.ui.xaml/datatemplate.md) to define the layout of controls used to display an individual item. The controls in the layout can be bound to properties of a data object, or have content defined inline. You assign the [DataTemplate](../windows.ui.xaml/datatemplate.md) to the [ItemTemplate](itemscontrol_itemtemplate.md) property of the GridView. For common templates you can use in your app, see [Item templates for GridView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-templates-gridview).
 
-> [!NOTE]
-> If you populate the GridView by setting the [ItemsSource](itemscontrol_itemssource.md) property, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item. If you populate the [Items](itemscontrol_items.md) collection directly, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied only if the item is not a [GridViewItem](gridviewitem.md). See Examples for more info.
+If you populate the GridView by setting the [ItemsSource](itemscontrol_itemssource.md) property, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item. If you populate the [Items](itemscontrol_items.md) collection directly, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied only if the item is not a [GridViewItem](gridviewitem.md). In this example, the template is applied to the first item, but not the second item.
+
+```xaml
+<GridView>
+    <GridView.ItemTemplate>
+        <DataTemplate>
+            <Grid>
+                <Border Background="LightGray" Height="200" Width="200">
+                    <TextBlock Text="{Binding}" 
+                               FontSize="48" Foreground="Green"/>
+                </Border>
+            </Grid>
+        </DataTemplate>
+    </GridView.ItemTemplate>
+    <GridView.Items>
+        <x:String>One</x:String>
+        <GridViewItem>Two</GridViewItem>
+    </GridView.Items>
+</GridView>
+```
 
 If you use the GridView to display large sets of data, see [Optimize ListView and GridView](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-gridview-and-listview) for tips to maintain a smooth and responsive user experience.
 
@@ -93,25 +111,124 @@ List controls that derive from [Selector](../windows.ui.xaml.controls.primitives
 
 Here, a GridView is bound to a grouped [CollectionViewSource](../windows.ui.xaml.data/collectionviewsource.md) named `cvsProjects`. The appearance of individual items in each group is defined by the [ItemTemplate](itemscontrol_itemtemplate.md). The [ItemsPanel](itemscontrol_itemspanel.md) specifies how the groups are arranged in the GridView. The [GroupStyle.Panel](groupstyle_panel.md) specifies how individual items are arranged within each group. The [GroupStyle.ContainerStyle](groupstyle_containerstyle.md) is used to add a border around each group, and set its minimum size and margins. The [HidesIfEmpty](groupstyle_hidesifempty.md) property is set to **true** to hide any empty groups.
 
-[!code-xaml[GroupedGridViewXAML](../windows.ui.xaml.controls/code/ItemsControlGroupingSnippets/csharp/MainPage.xaml#SnippetGroupedGridViewXAML)]
-
 ```xaml
-<GridView>
-    <GridView.ItemTemplate>
-        <DataTemplate>
-            <Grid>
-                <Border Background="LightGray" Height="200" Width="200">
-                    <TextBlock Text="{Binding}" 
-                               FontSize="48" Foreground="Green"/>
-                </Border>
-            </Grid>
-        </DataTemplate>
-    </GridView.ItemTemplate>
-    <GridView.Items>
-        <x:String>One</x:String>
-        <GridViewItem>Two</GridViewItem>
-    </GridView.Items>
-</GridView>
+<Page
+    x:Class="GroupedGridViewApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GroupedGridViewApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <CollectionViewSource x:Name="cvsProjects" IsSourceGrouped="True" 
+                              ItemsPath="Activities"/>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <GridView ItemsSource="{Binding Source={StaticResource cvsProjects}}" MaxHeight="500">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="20">
+                        <TextBlock Text="{Binding Name}" FontWeight="Bold" 
+                                   Style="{StaticResource BaseTextBlockStyle}"/>
+                        <TextBlock Text="{Binding DueDate}" TextWrapping="NoWrap" 
+                                   Style="{StaticResource BodyTextBlockStyle}" />
+                        <CheckBox Content="Complete" IsChecked="{Binding Complete}" 
+                                  IsEnabled="False"/>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <ItemsWrapGrid MaximumRowsOrColumns="3"/>
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+
+            <GridView.GroupStyle>
+                <GroupStyle HidesIfEmpty="True">
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <Grid Background="LightGray" Margin="0">
+                                <TextBlock Text='{Binding Name}' 
+                                           Foreground="Black" Margin="12"
+                                           Style="{StaticResource HeaderTextBlockStyle}"/>
+                            </Grid>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </GridView.GroupStyle>
+        </GridView>
+</Page>
+```
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using Windows.UI.Xaml.Controls;
+
+namespace GroupedGridViewApp
+{
+    public sealed partial class MainPage : Page
+    {
+        DateTime startDate = DateTime.Now;
+
+        public MainPage()
+        {
+            this.InitializeComponent();
+
+            PopulateProjects();
+        }
+
+        private void PopulateProjects()
+        {
+            List<Project> Projects = new List<Project>();
+
+            Project newProject = new Project();
+            newProject.Name = "Project 1";
+            newProject.Activities.Add(new Activity()
+            { Name = "Activity 1", Complete = true, DueDate = startDate.AddDays(4) });
+            newProject.Activities.Add(new Activity()
+            { Name = "Activity 2", Complete = true, DueDate = startDate.AddDays(5) });
+            Projects.Add(newProject);
+
+            newProject = new Project();
+            newProject.Name = "Project 2";
+            newProject.Activities.Add(new Activity()
+            { Name = "Activity A", Complete = true, DueDate = startDate.AddDays(2) });
+            newProject.Activities.Add(new Activity()
+            { Name = "Activity B", Complete = false, DueDate = startDate.AddDays(3) });
+            Projects.Add(newProject);
+
+            newProject = new Project();
+            newProject.Name = "Project 3";
+            Projects.Add(newProject);
+
+            cvsProjects.Source = Projects;
+        }
+    }
+
+    public class Project
+    {
+        public Project()
+        {
+            Activities = new ObservableCollection<Activity>();
+        }
+
+        public string Name { get; set; }
+        public ObservableCollection<Activity> Activities { get; private set; }
+    }
+
+    public class Activity
+    {
+        public string Name { get; set; }
+        public DateTime DueDate { get; set; }
+        public bool Complete { get; set; }
+        public string Project { get; set; }
+    }
+}
 ```
 
 ## -see-also
