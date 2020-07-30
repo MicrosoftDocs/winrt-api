@@ -12,6 +12,9 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.Vpn.VpnManagementEr
 ## -description
 Updates a VPN profile based on an input object.
 
+## -remarks
+A UWP VPN app can only update per-app profiles; it cannot update any other VPN profile. Apps that attempt to modify a per-user profile may instead create or modify a per-app profile; the new per-app profile will have the same name as the per-user profile.
+
 ## -parameters
 ### -param profile
 A **VpnProfile** object.
