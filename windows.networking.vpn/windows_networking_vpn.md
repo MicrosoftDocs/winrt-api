@@ -13,6 +13,8 @@ The classes in this namespace enable you to create, edit, and manage Virtual Pri
 
 ## -remarks
 
+Enterprise VPN developers should consider their organizational licensing options. Many information technology (IT) admins will want to use disconnected (offline) licensing in order to distribute a VPN app to users even when the user does not have access to the store. See [Organizational Licensing Options](https://docs.microsoft.com/en-us/windows/uwp/publish/organizational-licensing) for more details.
+
 ## -examples
 
 ## -see-also
