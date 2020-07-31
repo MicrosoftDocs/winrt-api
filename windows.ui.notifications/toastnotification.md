@@ -86,8 +86,8 @@ yourToastNotification.addEventListener("dismissed", function (e) {
 
 The following example shows how to add an event handler for toast activation on running desktop apps. ToastNotifications need to be persisted in a list to maintain a reference to the toast for later callbacks.
 
->[!NOTE]
->It is recommended for Windows Applications,such as UWP or MSIX packaged applications, to use [OnActivated](..\windows.ui.xaml\application_onactivated_603737819.md) for handling activation.
+> [!NOTE]
+> It is recommended for Windows Applications,such as UWP or MSIX packaged applications, to use [OnActivated](..\windows.ui.xaml\application_onactivated_603737819.md) for handling activation.
   
 ```csharp
 
