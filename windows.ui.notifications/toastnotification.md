@@ -15,7 +15,6 @@ Defines the content, associated metadata and events, and expiration time of a to
 
 ## -remarks
 - A desktop app must subscribe to at least the [Activated](toastnotification_activated.md) event to handle activation. 
-- Starting WinRT 19041, MSIX packaged desktop applications should use the [OnActivated](\\windows.ui.xaml\application_onactivated_603737819.md) for handling toast activations rather than subscribing to the event.
 
 ### Version history
 
@@ -84,22 +83,20 @@ yourToastNotification.addEventListener("dismissed", function (e) {
 }
 ```
 
-The following example shows how to add an event handler for toast activation on running desktop apps. ToastNotifications need to be persisted in a list to maintain a reference to the toast for later callbacks.
+The following example shows how to add an event handler for toast activation on running desktop apps. ToastNotifications need to be persisted in a list to maintain a reference to the toast for later callbacks. A similar pattern can be followed for dismissed and expired toast events
 
-> [!NOTE]
-> It is recommended for Windows Applications,such as UWP or MSIX packaged applications, to use [OnActivated](..\windows.ui.xaml\application_onactivated_603737819.md) for handling activation.
-  
 ```csharp
 
-class ...{
+class AppNotification
+    {
+        
+        protected List<ToastNotification> toastNotificationList = new List<ToastNotification>();
 
-    private List<ToastNotification> toastNotificationList = new List<ToastNotification>();
-
-        private void SendToastNotification()
+        public void SendToastNotification()
         {
             // Constructs the content
             ToastContent content = new ToastContentBuilder()
-                .AddText("Firing follow on toast")
+                .AddText("Firing Toast")
                 .GetToastContent();
 
             // Creates the notification
@@ -108,20 +105,31 @@ class ...{
             //Add an in memory event handler
             notification.Activated += ToastNotificationCallback_Activated;
 
-            //Adds to list to be persisted
+            //Adds toast notification to list to persist toast
             toastNotificationList.Add(notification);
 
             //Sends the notification
             ToastNotificationManager.CreateToastNotifier().Show(notification);
         }
 
-
-
         private void ToastNotificationCallback_Activated(ToastNotification sender, object args)
         {
-            //Handle activation of the toast here
+            //
+            //Handle activation here
+            //
+
+            //Removes ToastNotification from list and cleans up reference
+            Destruct(sender);
+
         }
-}
+
+        private void Destruct(ToastNotification notification)
+        {
+            toastNotificationList.Remove(notification);
+            GC.Collect();
+        }
+
+    }
 
 ```
 
