@@ -93,44 +93,42 @@ The following example shows how to add an event handler for toast activation on 
 
 ```csharp
 class AppNotification
+{
+    protected List<ToastNotification> toastNotificationList = new List<ToastNotification>();
+
+    public void SendToastNotification()
     {
-        protected List<ToastNotification> toastNotificationList = new List<ToastNotification>();
+        // Constructs the content
+        ToastContent content = new ToastContentBuilder()
+            .AddText("Firing Toast")
+            .GetToastContent();
 
-        public void SendToastNotification()
-        {
-            // Constructs the content
-            ToastContent content = new ToastContentBuilder()
-                .AddText("Firing Toast")
-                .GetToastContent();
+        // Creates the notification
+        ToastNotification notification = new ToastNotification(content.GetXml());
 
-            // Creates the notification
-            ToastNotification notification = new ToastNotification(content.GetXml());
+        //Add an in memory event handler
+        notification.Activated += ToastNotificationCallback_Activated;
 
-            //Add an in memory event handler
-            notification.Activated += ToastNotificationCallback_Activated;
+        //Adds toast notification to list to persist toast
+        toastNotificationList.Add(notification);
 
-            //Adds toast notification to list to persist toast
-            toastNotificationList.Add(notification);
-
-            //Sends the notification
-            ToastNotificationManager.CreateToastNotifier().Show(notification);
-        }
-
-        private void ToastNotificationCallback_Activated(ToastNotification sender, object args)
-        {
-            //Handle Activation Here
-        }
-
-        ~AppNotification()
-        {
-            foreach(ToastNotification tn in toastNotificationList)
-            {
-                tn.Activated -= ToastNotificationCallback_Activated;
-            }
-        }
-
+        //Sends the notification
+        ToastNotificationManager.CreateToastNotifier().Show(notification);
     }
 
+    private void ToastNotificationCallback_Activated(ToastNotification sender, object args)
+    {
+        //Handle Activation Here
+    }
+
+    ~AppNotification()
+    {
+        foreach(ToastNotification tn in toastNotificationList)
+        {
+            tn.Activated -= ToastNotificationCallback_Activated;
+        }
+    }
+}
 ```
 
 
