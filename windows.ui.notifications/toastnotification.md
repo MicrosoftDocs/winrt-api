@@ -14,7 +14,12 @@ public class ToastNotification : Windows.UI.Notifications.IToastNotification, Wi
 Defines the content, associated metadata and events, and expiration time of a toast notification.
 
 ## -remarks
-- A desktop app must subscribe to at least the [Activated](toastnotification_activated.md) event to handle activation. 
+- A desktop app must subscribe to at least the [Activated](toastnotification_activated.md) event to handle activation.
+- Handling activation guidance
+    - UWP Applications should use the [OnActivated](\\windows.ui.xaml\application_onactivated_603737819.md) for handling toast activations.
+    - Staring WinRT Build 19041, MSIX and Sparsed Sign Packaged applications are able to use [ToastNotificationActionTrigger](\\windows.applicationmodel.background\toastnotificationactiontrigger.md) for handling activations [for more details](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/create-and-register-a-winmain-background-task#add-the-support-code-to-instantiate-the-com-class).
+    - Desktop apps can use COM activation by following [Desktop - Send Local Toast](https://docs.microsoft.com/en-us/windows/uwp/design/shell/tiles-and-notifications/send-local-toast-desktop?tabs=msix-sparse#step-1-install-the-notifications-library).
+    - If none of the options does not fit your application, follow the example in this document for properly using event handlers.
 
 ### Version history
 
@@ -82,14 +87,13 @@ yourToastNotification.addEventListener("dismissed", function (e) {
     }
 }
 ```
+**Using Event Handlers**
 
-The following example shows how to add an event handler for toast activation on running desktop apps. ToastNotifications need to be persisted in a list to maintain a reference to the toast for later callbacks. A similar pattern can be followed for dismissed and expired toast events
+The following example shows how to add an event handler for toast activation on running desktop apps. ToastNotifications need to be persisted in a list to maintain a reference to the toast for later callbacks. A similar pattern can be followed for dismissed and expired toast events.
 
 ```csharp
-
 class AppNotification
     {
-        
         protected List<ToastNotification> toastNotificationList = new List<ToastNotification>();
 
         public void SendToastNotification()
@@ -114,20 +118,15 @@ class AppNotification
 
         private void ToastNotificationCallback_Activated(ToastNotification sender, object args)
         {
-            //
-            //Handle activation here
-            //
-
-            //Removes ToastNotification from list and cleans up reference
-            Destruct(sender);
-
+            //Handle Activation Here
         }
 
-        private void Destruct(ToastNotification notification)
+        ~AppNotification()
         {
-            notification.Activated -= ToastNotificationCallback_Activated;
-            toastNotificationList.Remove(notification);
-            GC.Collect();
+            foreach(ToastNotification tn in toastNotificationList)
+            {
+                tn.Activated -= ToastNotificationCallback_Activated;
+            }
         }
 
     }
