@@ -125,6 +125,7 @@ class AppNotification
 
         private void Destruct(ToastNotification notification)
         {
+            notification.Activated -= ToastNotificationCallback_Activated;
             toastNotificationList.Remove(notification);
             GC.Collect();
         }
