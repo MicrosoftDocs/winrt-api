@@ -18,7 +18,7 @@ Gets or sets the transformation matrix to apply to the element.
 The transformation matrix to apply to the element.
 
 ## -remarks
-This property is not compatible with [`ElementCompositionPreview.GetElementVisual`](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.hosting.elementcompositionpreview.getelementvisual?view=winrt-19041#Windows_UI_Xaml_Hosting_ElementCompositionPreview_GetElementVisual_Windows_UI_Xaml_UIElement_). Attempting to use `TransformMatrix` after calling `GetElementVisual` will fail with the following error: 
+This property is not compatible with [`ElementCompositionPreview.GetElementVisual`](https://docs.microsoft.com/uwp/api/windows.ui.xaml.hosting.elementcompositionpreview.getelementvisual?view=winrt-19041#Windows_UI_Xaml_Hosting_ElementCompositionPreview_GetElementVisual_Windows_UI_Xaml_UIElement_). Attempting to use `TransformMatrix` after calling `GetElementVisual` will fail with the following error: 
 > Access denied.  Calling TransformMatrix API is not allowed on this object at this time, as this object currently has the ElementCompositionPreview.GetElementVisual property in use.
 
 
