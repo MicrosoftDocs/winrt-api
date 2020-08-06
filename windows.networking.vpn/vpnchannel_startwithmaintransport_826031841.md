@@ -38,14 +38,14 @@ A UINT16 value specifying the max size of the frame defined by the VPN protocol 
 Reserved
 
 ### -param mainOuterTunnelTransport
-An **IInspectable** object for socket transport. This object can be a [Windows.Networking.Sockets.DatagramSocket](/uwp/api/windows.networking.sockets.datagramsocket), a [Windows.Networking.Sockets.StreamSocket](/uwp/api/windows.networking.sockets.streamsocket), or a [Windows.Networking.Sockets.StreamWebSocket](/uwp/api/windows.networking.sockets.streamwebsocket). This socket object controls the connection to the VPN server, and is used to send encapsulated IP packets and to receive encapsulated data. The socket must be unconnected at the time of the call.
+An **IInspectable** object for socket transport. This object can be a [Windows.Networking.Sockets.DatagramSocket](/uwp/api/windows.networking.sockets.datagramsocket) or a [Windows.Networking.Sockets.StreamSocket](/uwp/api/windows.networking.sockets.streamsocket). This socket object controls the connection to the VPN server, and is used to send encapsulated IP packets and to receive encapsulated data. The socket must be unconnected at the time of the call.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Windows.Networking.Sockets.DatagramSocket](/uwp/api/windows.networking.sockets.datagramsocket), [Windows.Networking.Sockets.StreamSocket](/uwp/api/windows.networking.sockets.streamsocket), [Windows.Networking.Sockets.StreamWebSocket](/uwp/api/windows.networking.sockets.streamwebsocket)
+[Windows.Networking.Sockets.DatagramSocket](/uwp/api/windows.networking.sockets.datagramsocket), [Windows.Networking.Sockets.StreamSocket](/uwp/api/windows.networking.sockets.streamsocket)
 
 ## -capabilities
 networkingVpnProvider
