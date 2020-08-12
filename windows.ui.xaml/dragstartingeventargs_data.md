@@ -21,3 +21,5 @@ In your [DragStarting](uielement_dragstarting.md) event handler, use the [DataPa
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

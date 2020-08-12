@@ -20,3 +20,5 @@ A member of the [DataPackageOperation](../windows.applicationmodel.datatransfer/
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

@@ -20,3 +20,5 @@ The caption text that overlays the drag visual.
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

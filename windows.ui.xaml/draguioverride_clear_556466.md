@@ -17,3 +17,5 @@ Clears the content, caption, and glyph of the drag visual.
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

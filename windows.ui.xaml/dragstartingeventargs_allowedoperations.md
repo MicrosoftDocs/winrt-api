@@ -21,4 +21,5 @@ For more info about the allowed data operations, see [DataPackageOperation](../w
 ## -examples
 
 ## -see-also
-[DragEventArgs.AllowedOperations](drageventargs_allowedoperations.md), [CoreDragOperation.AllowedOperations](../windows.applicationmodel.datatransfer.dragdrop.core/coredragoperation_allowedoperations.md)
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop), [DragEventArgs.AllowedOperations](drageventargs_allowedoperations.md), [CoreDragOperation.AllowedOperations](../windows.applicationmodel.datatransfer.dragdrop.core/coredragoperation_allowedoperations.md)

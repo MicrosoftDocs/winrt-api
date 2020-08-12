@@ -20,3 +20,5 @@ An enumeration value that indicates the type of drag-and-drop operation, and whe
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

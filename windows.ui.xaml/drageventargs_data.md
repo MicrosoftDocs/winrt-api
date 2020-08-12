@@ -20,4 +20,4 @@ The data object that contains data payload that is associated with the correspon
 ## -examples
 
 ## -see-also
-[ListViewBase](../windows.ui.xaml.controls/listviewbase.md), [AllowDrop](uielement_allowdrop.md), [UIElement.Drop](uielement_drop.md)
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop), [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), [AllowDrop](uielement_allowdrop.md), [UIElement.Drop](uielement_drop.md)

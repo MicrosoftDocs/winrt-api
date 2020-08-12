@@ -20,3 +20,5 @@ Gets or sets a value that indicates whether the caption text is shown.
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)
