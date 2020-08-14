@@ -26,5 +26,8 @@ You will need to call this method to load the data before the data can be read f
 
 ## -examples
 
+Sample applications that use this method include [Serializing and deserializing data sample](/samples/microsoft/windows-universal-samples/datareaderwriter/), [3D Printing Sample](/samples/microsoft/windows-universal-samples/3dprinting/), [Bluetooth RFCOMM chat sample](/samples/microsoft/windows-universal-samples/bluetoothrfcommchat/), and [Compression sample](/samples/microsoft/windows-universal-samples/compression/).
+
+
 ## -see-also
-[InputStreamOptions](inputstreamoptions.md)
+[InputStreamOptions](inputstreamoptions.md), [Serializing and deserializing data sample](/samples/microsoft/windows-universal-samples/datareaderwriter/)

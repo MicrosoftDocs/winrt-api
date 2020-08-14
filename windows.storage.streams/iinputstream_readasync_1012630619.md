@@ -32,4 +32,8 @@ Also consider reading a buffer into an [IInputStream](iinputstream.md) by using 
 
 ## -examples
 
+Sample applications that use this method include the [HttpClient sample](/samples/microsoft/windows-universal-samples/httpclient/).
+
 ## -see-also
+
+[HttpClient sample](/samples/microsoft/windows-universal-samples/httpclient/)

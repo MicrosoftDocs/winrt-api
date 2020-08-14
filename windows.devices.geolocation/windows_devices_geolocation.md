@@ -37,9 +37,11 @@ The first layer of the location services architecture consists of hardware in th
 
 ## -examples
 
+Sample applications that use classes from this namespace include the [Geolocation sample](/samples/microsoft/windows-universal-samples/geolocation/) and the [Geotag sample](/samples/microsoft/windows-universal-samples/geotag/).
+
 ## -see-also
 
-[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation), [Geotag sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geotag)
+[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [Geolocation sample](/samples/microsoft/windows-universal-samples/geolocation/), [Geotag sample](/samples/microsoft/windows-universal-samples/geotag/)
 
 ## -capabilities
 
