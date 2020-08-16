@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler DefaultSignInAccountChanged<Wi
 # Windows.Security.Authentication.Web.Core.WebAccountMonitor.DefaultSignInAccountChanged
 
 ## -description
-Fires when the default sign account changes.
+Fires when the default sign in account changes.
 
 ## -remarks
 

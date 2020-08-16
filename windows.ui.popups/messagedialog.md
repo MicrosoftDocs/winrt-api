@@ -18,8 +18,9 @@ Represents a dialog for showing messages to the user.
 > [!IMPORTANT]
 > You should use MessageDialog only when you are upgrading a Universal Windows 8 app that uses MessageDialog, and need to minimize changes. For new apps in Windows 10, we recommend using the [ContentDialog](./../windows.ui.xaml.controls/contentdialog.md) control instead.
 
+<!-- confirmed -->
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 The dialog has a command bar that can support up to 3 commands in desktop apps, or 2 commands in mobile apps. If you don't specify any commands, then a default command is added to close the dialog.
 
@@ -33,7 +34,7 @@ Here's an example of a dialog created by the code in the Examples section.
 
 ## -examples
 
-The following example shows how to add commands to a message dialog and display it. For the full code example, see [Message dialog sample](https://go.microsoft.com/fwlink/p/?linkid=231551).
+The following example shows how to add commands to a message dialog and display it. For the full code example, see [Message dialog sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Message%20dialog%20sample).
 
 ```csharp
 using Windows.UI.Popups;
@@ -128,7 +129,7 @@ void MainPage::CommandInvokedHandler(Windows::UI::Popups::IUICommand const& comm
 }
 ```
 
-```cpp
+```cppcx
 #include "pch.h"
 #include "CancelCommand.xaml.h"
 
@@ -271,4 +272,4 @@ End Class
 
 ## -see-also
 
-[Message dialog sample](https://go.microsoft.com/fwlink/p/?linkid=231551), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570)
+[Message dialog sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Message%20dialog%20sample), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570)

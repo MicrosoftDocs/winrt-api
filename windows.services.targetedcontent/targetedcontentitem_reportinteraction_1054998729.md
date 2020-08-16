@@ -10,10 +10,14 @@ public void TargetedContentItem.ReportInteraction(TargetedContentInteraction int
 # Windows.Services.TargetedContent.TargetedContentItem.ReportInteraction
 
 ## -description
-Reports TargetedContentInteraction for the item.
+
+Reports the [TargetedContentInteraction](targetedcontentinteraction.md) for the item.
+
 ## -parameters
 
 ### -param interaction
+
+The type of interaction supported by the [TargetedContentItem](targetedcontentitem.md) object in a [TargetedContentContainer](targetedcontentcontainer.md).
 
 ## -remarks
 
@@ -21,6 +25,6 @@ Reports TargetedContentInteraction for the item.
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

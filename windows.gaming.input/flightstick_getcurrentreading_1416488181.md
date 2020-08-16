@@ -9,11 +9,10 @@ public FlightStickReading FlightStick.GetCurrentReading()
 
 # Windows.Gaming.Input.FlightStick.GetCurrentReading
 
+
 ## -description
 
 Gets a snapshot of the flight stick state.
-
-## -params
 
 ## -returns
 
@@ -28,3 +27,4 @@ To gather input from a flight stick, you must *poll* the flight stick using this
 * [Windows.Gaming.Input.FlightStickReading](flightstickreading.md)
 
 ## -examples
+

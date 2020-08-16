@@ -10,7 +10,7 @@ public string Id { get; }
 # Windows.Media.Core.VideoTrack.Id
 
 ## -description
-Gets or sets the identifier for the video track.
+Gets the identifier for the video track.
 
 ## -property-value
 The identifier for the video track.

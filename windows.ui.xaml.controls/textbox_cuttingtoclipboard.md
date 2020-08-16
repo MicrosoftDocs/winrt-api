@@ -23,5 +23,6 @@ Occurs before cut text is moved to the clipboard.
 
 ## -see-also
 
-## -examples
+[TextControlCuttingToClipboardEventArgs](textcontrolcuttingtoclipboardeventargs.md)
 
+## -examples

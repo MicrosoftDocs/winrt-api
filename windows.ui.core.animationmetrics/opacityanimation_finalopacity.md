@@ -20,4 +20,4 @@ The final opacity. A value of 0.0 represents full transparency and a value of 1.
 ## -examples
 
 ## -see-also
-[InitialOpacity](opacityanimation_initialopacity.md), [Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462)
+[InitialOpacity](opacityanimation_initialopacity.md), [Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

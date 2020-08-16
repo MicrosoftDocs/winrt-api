@@ -39,8 +39,9 @@ The following example shows the [ReadingChanged](gyrometer_readingchanged.md) ev
 | 1709 | 16299 | GetDeviceSelector |
 | 1709 | 16299 | MaxBatchSize |
 | 1709 | 16299 | ReportLatency |
+| 2004 | 19041 | ReportThreshold |
 
 ## -examples
 
 ## -see-also
-[Gyrometer Sample](https://go.microsoft.com/fwlink/p/?linkid=241379), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Gyrometer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620548)
+[Gyrometer Sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Gyrometer), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10))

@@ -15,7 +15,7 @@ Specifies whether this device can support the given spatial audio format.
 
 ## -parameters
 ### -param subtype
-A string of the GUID for the spatial audo format to check. SpatialAudioFormatSubtype enum will return the neccesary strings.
+A string of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the spatial audo format to check. SpatialAudioFormatSubtype enum will return the neccesary strings.
 
 ## -returns
 Bool indicating whether the format is supported or not.

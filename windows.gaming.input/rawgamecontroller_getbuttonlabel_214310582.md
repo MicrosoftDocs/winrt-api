@@ -9,13 +9,14 @@ public GameControllerButtonLabel RawGameController.GetButtonLabel(Int32 buttonIn
 
 # Windows.Gaming.Input.RawGameController.GetButtonLabel
 
+
 ## -description
 
 Retrieves the button label for the specified button.
 
-## -params
+## -parameters
 
-## -param buttonIndex
+### -param buttonIndex
 
 The button for which to retrieve the label.
 
@@ -34,3 +35,4 @@ You can create your own buttons array and then populate it with values represent
 * [Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md)
 
 ## -examples
+

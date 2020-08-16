@@ -19,3 +19,6 @@ Occurs when the current session has changed. This is the session that the system
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

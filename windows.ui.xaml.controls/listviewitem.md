@@ -25,7 +25,7 @@ Represents the container for an item in a [ListView](listview.md) control.
 ## -remarks
 The ListViewItem class provides the container for items displayed in a [ListView](listview.md) control. You populate the [ListView](listview.md) by adding objects directly to its [Items](itemscontrol_items.md) collection or by binding its [ItemsSource](itemscontrol_itemssource.md) property to a data source. When items are added to the [ListView](listview.md), a ListViewItem container is created automatically for each item in the collection.
 
-You can specify the look of the ListViewItem by setting the [ListView](listview.md) 's [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of ListViewItem.
+You can specify the look of the ListViewItem by setting the [ListView](listview.md)'s [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of ListViewItem.
 
 ### Control style and template
 

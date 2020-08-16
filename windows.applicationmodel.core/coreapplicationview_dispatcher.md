@@ -17,6 +17,10 @@ The event message dispatcher.
 
 ## -remarks
 
+There's one `CoreDispatcher` per thread.  
+
+The `Dispatcher` property of any class within the `CoreApplicationView` namespace will refer to the same object.
+
 ## -examples
 
 ## -see-also

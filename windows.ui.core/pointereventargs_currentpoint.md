@@ -19,6 +19,7 @@ Information about the state and screen position of the pointer.
 CurrentPoint corresponds to the last point retrieved by [GetIntermediatePoints](pointereventargs_getintermediatepoints_1956108759.md).
 
 ## -examples
+
 ```cppwinrt
 void OnPointerPressed(Windows::UI::Core::CoreWindow const& /* sender */, Windows::UI::Core::PointerEventArgs const& args)
 {
@@ -26,7 +27,7 @@ void OnPointerPressed(Windows::UI::Core::CoreWindow const& /* sender */, Windows
 }
 ```
 
-```cpp
+```cppcx
 void MyCoreWindowEvents::GetPointerInfo(
     _In_ PointerEventArgs^ args)
 {

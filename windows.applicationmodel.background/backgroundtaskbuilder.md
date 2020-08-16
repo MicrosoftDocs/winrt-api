@@ -13,8 +13,10 @@ public class BackgroundTaskBuilder : Windows.ApplicationModel.Background.IBackgr
 Represents a background task to register with the system.
 
 ## -remarks
+
+<!-- confirmed -->
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 If your background task requires network connectivity, be aware of the following:
 
@@ -34,6 +36,7 @@ Regardless of the trigger you use, set [IsNetworkRequested](backgroundtaskbuilde
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | TaskGroup |
+| 2004 | 19041 | SetTaskEntryPointClsid |
 
 ## -examples
 

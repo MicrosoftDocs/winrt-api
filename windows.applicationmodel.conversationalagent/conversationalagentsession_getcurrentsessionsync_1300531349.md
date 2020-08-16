@@ -14,6 +14,9 @@ public ConversationalAgentSession ConversationalAgentSession.GetCurrentSessionSy
 
 Synchronously retrieves a reference to the current [ConversationalAgentSession](conversationalagentsession.md).
 
+> [!Important]
+> To avoid possible concurrency issues, we recommend using [GetCurrentSessionAsync](conversationalagentsession_getcurrentsessionasync_1431188224.md) instead.
+
 ## -returns
 
 A reference to the current [ConversationalAgentSession](conversationalagentsession.md).

@@ -16,7 +16,7 @@ Gets or sets the two-dimensional coordinates of the origin of the gradient.
 
 ## -property-value
 
-The two-dimensional coordinates of the origin of the gradient. The default is a Vector2 with values (0.5, 0.5).
+The two-dimensional coordinates of the origin of the gradient. The default is a Vector2 with values (0, 0).
 
 ## -remarks
 

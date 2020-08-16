@@ -36,7 +36,7 @@ Most usages of Path involve setting its value. For scenarios where you are getti
 You can't set the property values of a [Binding](binding.md) object after that binding has been attached to a target element and target property. If you attempt this you'll get a run-time exception.
 
 ## -examples
-The following XAML demonstrates how to set the Path using the [{Binding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/binding-markup-extension). For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
+The following XAML demonstrates how to set the Path using the [{Binding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/binding-markup-extension). For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind).
 
 ```xaml
 <StackPanel Margin="5">
@@ -58,7 +58,7 @@ The following XAML demonstrates how to set the Path using the [{Binding} markup 
 
 ```
 
-The following XAML demonstrates how to set the Path using integer and string indexers. For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
+The following XAML demonstrates how to set the Path using integer and string indexers. For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind).
 
 > [!NOTE]
 > Visual C++ component extensions (C++/CX) does not currently support indexer binding. See the sample for a workaround.
@@ -94,4 +94,4 @@ The following XAML demonstrates how to set the Path using integer and string ind
 
 
 ## -see-also
-[PropertyPath](../windows.ui.xaml/propertypath.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[PropertyPath](../windows.ui.xaml/propertypath.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)

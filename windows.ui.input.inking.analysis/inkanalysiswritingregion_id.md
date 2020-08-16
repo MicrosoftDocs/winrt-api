@@ -10,7 +10,10 @@ public uint Id { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisWritingRegion.Id
 
 ## -description
-Gets the unique identifier of the InkAnalysisWritingRegion object. 
+
+Gets the unique identifier of the InkAnalysisWritingRegion object.
+
+## -property-value
 
 ## -remarks
 

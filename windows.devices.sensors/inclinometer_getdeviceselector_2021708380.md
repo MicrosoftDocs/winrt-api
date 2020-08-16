@@ -10,17 +10,23 @@ public string Inclinometer.GetDeviceSelector(SensorReadingType readingType)
 # Windows.Devices.Sensors.Inclinometer.GetDeviceSelector
 
 ## -description
+
 Gets the device selector.
 
 ## -parameters
+
 ### -param readingType
-The type of sesnsor to retrieve.
+
+The type of sensor to retrieve.
 
 ## -returns
+
 Returns the device selector, if it exists; otherwise, null.
 
 ## -remarks
 
 ## -see-also
+
+[Build a device selector](/uwp/devices-sensors/build-a-device-selector)
 
 ## -examples

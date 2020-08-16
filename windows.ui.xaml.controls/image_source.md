@@ -45,7 +45,7 @@ A property element syntax in XAML is also possible, specifying a [BitmapImage](.
 
 ### Setting Source in code
 
-To set the Image.Source property in code requires an instance of [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) (or [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md)), which you also must construct. If your image source is a stream, use the async [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync_1118221574.md) method of [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) to define the image information from the stream. For more info, see the  section.
+To set the Image.Source property in code requires an instance of [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) (or [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md)), which you also must construct. If your image source is a stream, use the async [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync_1118221574.md) method of [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) to define the image information from the stream.
 
 If your image source is a file referenced by Uniform Resource Identifier (URI), set the [BitmapImage.UriSource](../windows.ui.xaml.media.imaging/bitmapimage_urisource.md) property, or use the [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor that takes a Uniform Resource Identifier (URI) parameter. The Windows Runtime enforces that a Uniform Resource Identifier (URI) must be absolute; you can't use relative Uniform Resource Identifier (URI) in Windows Runtime code. If you are using a .NET Framework  [System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN) value, and you use a signature that requires a [UriKind](https://docs.microsoft.com/dotnet/api/system.urikind?redirectedfrom=MSDN) value, make sure to specify **Absolute**.
 
@@ -79,7 +79,7 @@ Windows::UI::Xaml::Controls::Image img;
 img.Source(Windows::UI::Xaml::Media::Imaging::BitmapImage{ Windows::Foundation::Uri{ L"ms-appx:///Assets/LockScreenLogo.png" } });
 ```
 
-```cpp
+```cppwinrt
 auto img = ref new Image();
 auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/Logo.png");
@@ -129,7 +129,7 @@ void MainPage::Image_Loaded(winrt::Windows::Foundation::IInspectable const& send
 }
 ```
 
-```cpp
+```cppwinrt
 void App1::MainPage::Image_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
  auto img = dynamic_cast<Image^>(sender);
@@ -143,7 +143,7 @@ void App1::MainPage::Image_Loaded(Platform::Object^ sender, Windows::UI::Xaml::R
 }
 ```
 
-You can handle the [ImageOpened](image_imageopened.md) event if there are any timing issues with retrieving or decoding the image source, where you might need alternate content to display until the image source is available. See [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575) for example code.
+You can handle the [ImageOpened](image_imageopened.md) event if there are any timing issues with retrieving or decoding the image source, where you might need alternate content to display until the image source is available. See [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample) for example code.
 
 ### Using a relative URI in code
 
@@ -163,7 +163,7 @@ bitmapImage.UriSource = new Uri(this.BaseUri, "Assets/placeholder.png");
 capturedPhoto.Source = bitmapImage;
 ```
 
-```cpp
+```cppwinrt
 auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 // Call BaseUri on the root Page element and combine it with a relative path
 // to consruct an absolute URI.
@@ -188,7 +188,7 @@ img.Source = bitmapImage;
 stackPanel1.Children.Add(img);
 ```
 
-```cpp
+```cppwinrt
 auto img = ref new Image();
 auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 
@@ -217,7 +217,7 @@ bitmapImage.UriSource = uri;
 img.Source = bitmapImage;
 ```
 
-```cpp
+```cppwinrt
 auto img = ref new Image();
 // Add the image to the page.
 stackPanel1->Children->Append(img);
@@ -242,7 +242,7 @@ Image img = new Image();
 img.Source = new BitmapImage(new Uri("http://www.contoso.com/images/logo.png"));
 ```
 
-```cpp
+```cppwinrt
 auto img = ref new Image();
 img->Source = ref new BitmapImage(ref new Windows::Foundation::Uri("http://www.contoso.com/images/logo.png"));
 ```
@@ -395,4 +395,4 @@ You can use automatic handling for accessing unqualified resources with current 
 ## -examples
 
 ## -see-also
-[ImageFailed](image_imagefailed.md), [ImageOpened](image_imageopened.md), [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575)
+[ImageFailed](image_imagefailed.md), [ImageOpened](image_imageopened.md), [BitmapSource](../windows.ui.xaml.media.imaging/bitmapsource.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample)

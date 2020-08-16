@@ -31,5 +31,4 @@ The following example shows how to setup the event handler.
 [!code-csharp[MagStripeReaderReleaseDeviceRequested](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetMagStripeReaderReleaseDeviceRequested)]
 
 ## -see-also
-[Magnetic stripe reader sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620017)
-ample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620017)
+[Magnetic stripe reader sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MagneticStripeReader)

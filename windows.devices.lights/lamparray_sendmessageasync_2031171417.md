@@ -12,16 +12,24 @@ public IAsyncAction LampArray.SendMessageAsync(Int32 messageId, IBuffer message)
 
 ## -description
 
+Asynchronously sends a message identified by the message identifer argument.
+
 ## -parameters
+
 ### -param messageId
+
+The identifer of a message.
 
 ### -param message
 
+An [IBuffer](/uwp/api/windows.storage.streams.ibuffer) representing the message.
+
 ## -returns
+
+An asynchronous object, which can be awaited.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also

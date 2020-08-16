@@ -10,7 +10,9 @@ public TargetedContentValueKind ValueKind { get; }
 # Windows.Services.TargetedContent.TargetedContentValue.ValueKind
 
 ## -description
-Gets the TargetedContentValueKind object for the TargetedContentValue object.
+
+Gets the [TargetedContentValueKind](targetedcontentvaluekind.md) for the [TargetedContentValue](targetedcontentvalue.md) object.
+
 ## -property-value
 
 ## -remarks
@@ -19,6 +21,6 @@ Gets the TargetedContentValueKind object for the TargetedContentValue object.
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

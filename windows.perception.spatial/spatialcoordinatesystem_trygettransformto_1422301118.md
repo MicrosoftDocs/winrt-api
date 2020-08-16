@@ -25,4 +25,8 @@ This method will return null if the target coordinate system cannot be located r
 
 ## -examples
 
+See [Camera stream coordinate mapper sample](/samples/microsoft/windows-universal-samples/camerastreamcoordinatemapper/), [Camera stream correlation sample](/samples/microsoft/windows-universal-samples/camerastreamcorrelation/), [Holographic face tracking sample](/samples/microsoft/windows-universal-samples/holographicfacetracking/), [Holographic spatial mapping sample](/samples/microsoft/windows-universal-samples/holographicspatialmapping/), [Holographic spatial stage sample](/samples/microsoft/windows-universal-samples/holographicspatialstage/), and [Tag-along hologram sample](/samples/microsoft/windows-universal-samples/holographictagalong/).
+
 ## -see-also
+
+[Camera stream coordinate mapper sample](/samples/microsoft/windows-universal-samples/camerastreamcoordinatemapper/), [Camera stream correlation sample](/samples/microsoft/windows-universal-samples/camerastreamcorrelation/), [Holographic face tracking sample](/samples/microsoft/windows-universal-samples/holographicfacetracking/), [Holographic spatial mapping sample](/samples/microsoft/windows-universal-samples/holographicspatialmapping/), [Holographic spatial stage sample](/samples/microsoft/windows-universal-samples/holographicspatialstage/), [Tag-along hologram sample](/samples/microsoft/windows-universal-samples/holographictagalong/)

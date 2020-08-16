@@ -49,4 +49,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 
 ## -see-also
 
-[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)
+[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement)

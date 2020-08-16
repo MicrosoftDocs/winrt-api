@@ -13,7 +13,7 @@ public Windows.UI.Text.FormatEffect WidowControl { get;  set; }
 Gets or sets whether widow and orphan suppression is on or off.
 
 ## -property-value
-The state of window and orphan suppression.
+The state of widow and orphan suppression.
 
 ## -remarks
 A widow is created when the last line of a paragraph is printed by itself at the top of a page. An orphan is when the first line of a paragraph is printed by itself at the bottom of a page.

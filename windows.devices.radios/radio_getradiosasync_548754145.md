@@ -19,7 +19,7 @@ An asynchronous retrieval operation. When the operation is complete, contains a 
 ## -remarks
 When called from a UWP app, there is no architecture requirement. This method will work on the native architecture, as well as x86 architecture on x64 or ARM64 architectures.
 
-When this method is called from a desktop application (Win32), it will only retrieve radio instances when the application is in the native architecture, and x86 architectures running on x64 architectures will not see any radio instances.
+When this method is called from a desktop application (Win32), it will retrieve radio instances only when the application is natively compiled for the target architecture (in other words, when the application matches the computer architecture; so an x86 application running on an x64 architecture computer won't see any radio instances).
 
 ## -examples
 

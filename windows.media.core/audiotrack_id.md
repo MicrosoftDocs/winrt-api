@@ -10,7 +10,7 @@ public string Id { get; }
 # Windows.Media.Core.AudioTrack.Id
 
 ## -description
-Gets or sets the identifier for the audio track.
+Gets the identifier for the audio track.
 
 ## -property-value
 The identifier for the audio track.

@@ -114,7 +114,7 @@ void TapControl::OnPointerReleased(Windows::UI::Xaml::Input::PointerRoutedEventA
 }
 ```
 
-```cpp
+```cppcx
 // TapControl.h:
 public ref class TapControl sealed : public Windows::UI::Xaml::Controls::Control
 {

@@ -35,6 +35,6 @@ This example is simple XAML markup that specifies a Clip using an inline [Rectan
 
 
 
-[!code-xml[GeometryOvw4](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw4.xaml#SnippetGeometryOvw4)]
+[!code-xaml[GeometryOvw4](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw4.xaml#SnippetGeometryOvw4)]
 
 ## -see-also

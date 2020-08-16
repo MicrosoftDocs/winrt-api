@@ -34,7 +34,13 @@ This API is thread-safe.
 
 The following example demonstrates how to enable trace log output:
 
-```cpp
+```cppwinrt
+#include <winrt/Windows.AI.MachineLearning.h>
+using namespace winrt;
+using namespace Windows::AI::MachineLearning;
+
+...
+
 void EnableDebugOutput(LearningModelSession _session)
 {
     // Enables trace log output.

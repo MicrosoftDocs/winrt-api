@@ -11,6 +11,7 @@ public interface ILearningModelOperatorProvider
 # Windows.AI.MachineLearning.ILearningModelOperatorProvider
 
 ## -description
+Describes the operaators for a learning model.
 
 ## -remarks
 

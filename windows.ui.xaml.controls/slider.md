@@ -27,7 +27,7 @@ Slider is a control that lets the user select from a range of values by moving a
 
 <img alt="Slider control" src="images/controls/Slider.png" />
 
-Use a Slider control when you want your users to be able to set defined, contiguous values (such as volume or brightness) or a range of discrete values (such as screen resolution settings). Slider s are for user interaction. If a user can't ever change the value, use read-only text instead. For more information on when to use a Slider, see [Guidelines for sliders](https://docs.microsoft.com/windows/uwp/controls-and-patterns/slider).
+Use a Slider control when you want your users to be able to set defined, contiguous values (such as volume or brightness) or a range of discrete values (such as screen resolution settings). Sliders are for user interaction. If a user can't ever change the value, use read-only text instead. For more information on when to use a Slider, see [Guidelines for sliders](https://docs.microsoft.com/windows/uwp/controls-and-patterns/slider).
 
 ### Binding Minimum and Maximum values
 
@@ -86,7 +86,7 @@ The following code example shows several slider controls and how to handle the [
 
 
 
-[!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/csharp/Page.xaml#Snippet1)]
 
 [!code-csharp[11](../windows.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/csharp/Page.xaml.cs#Snippet11)]
 

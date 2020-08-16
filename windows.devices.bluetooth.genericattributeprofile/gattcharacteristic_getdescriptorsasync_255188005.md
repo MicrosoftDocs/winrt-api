@@ -9,12 +9,13 @@ public IAsyncOperation<GattDescriptorsResult> GattCharacteristic.GetDescriptorsA
 
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic.GetDescriptorsAsync
 
+
 ## -description
+
 Returns the descriptors for this GattCharacteristic instance.
 
-## -parameters
-
 ## -returns
+
 An asynchronous operation that completes with the descriptors for this GattCharacteristic instance.
 
 ## -remarks
@@ -23,6 +24,7 @@ An asynchronous operation that completes with the descriptors for this GattChara
 
 ## -examples
 
-
 ## -capabilities
+
 bluetooth
+

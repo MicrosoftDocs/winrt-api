@@ -45,7 +45,7 @@ When you call GoToState to change the visual state of a control, the [VisualStat
 
 If the control is already in the [VisualState](visualstate.md) requested as *stateName*, GoToState returns **true**, but there is otherwise no action (the storyboard won't be restarted).
 
-A common control implementation pattern is to define a single private method of the control class that takes care of all possible [VisualState](visualstate.md) changes for the control. Which visual state to use is determined by checking the control's properties. These properties might be public or private. Values of properties are adjusted by handlers in control logic for events such as [OnGotFocus](../windows.ui.xaml.controls/control_ongotfocus_1398920478.md), and are checked just-in-time immediately before setting the visual state. The code example in this topic uses this implementation pattern. Alternatively, you can call GoToState for individual states from within event handlers, from control event handler overrides (the **On*** methods), or from helper methods that are called by all possible impetus for changing states (user-driven events, automation events, initialization logic).
+A common control implementation pattern is to define a single private method of the control class that takes care of all possible [VisualState](visualstate.md) changes for the control. Which visual state to use is determined by checking the control's properties. These properties might be public or private. Values of properties are adjusted by handlers in control logic for events such as [OnGotFocus](../windows.ui.xaml.controls/control_ongotfocus_1398920478.md), and are checked just-in-time immediately before setting the visual state. The code example in this topic uses this implementation pattern. Alternatively, you can call GoToState for individual states from within event handlers, from control event handler overrides (the **On**_Event_ methods), or from helper methods that are called by all possible impetus for changing states (user-driven events, automation events, initialization logic).
 
 You might also call GoToState from within the [PropertyChangedCallback](propertychangedcallback.md) implementation for a custom dependency property.
 
@@ -99,8 +99,7 @@ This example demonstrates control logic that uses the GoToState method to transi
 
 
 
-[!code-xml[NUDTemplate](../windows.ui.xaml/code/NumericUpDownCustomControl/csharp/themes/Generic.xaml#SnippetNUDTemplate)]
+[!code-xaml[NUDTemplate](../windows.ui.xaml/code/NumericUpDownCustomControl/csharp/themes/Generic.xaml#SnippetNUDTemplate)]
 
 ## -see-also
-[Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [GoToStateCore](visualstatemanager_gotostatecore_681569745.md), [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute), [TemplateVisualStateAttribute](templatevisualstateattribute.md), [VisualStateGroup](visualstategroup.md), [VisualState](visualstate.md)
-d), [VisualState](visualstate.md)
+[Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [GoToStateCore](visualstatemanager_gotostatecore_681569745.md), [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute), [TemplateVisualStateAttribute](templatevisualstateattribute.md), [VisualStateGroup](visualstategroup.md), [VisualState](visualstate.md), [VisualState](visualstate.md)

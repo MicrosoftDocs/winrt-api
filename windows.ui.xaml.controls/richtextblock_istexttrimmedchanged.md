@@ -11,7 +11,7 @@ public event TypedEventHandler IsTextTrimmedChanged<RichTextBlock, IsTextTrimmed
 
 ## -description
 
-Occurs when the **IsTextTrimmed** property value has changed.
+Occurs when the [IsTextTrimmed](richtextblock_istexttrimmed.md) property value has changed.
 
 ## -xaml-syntax
 
@@ -20,6 +20,8 @@ Occurs when the **IsTextTrimmed** property value has changed.
 ```
 
 ## -remarks
+
+If the [TextTrimming](richtextblock_texttrimming.md) property is set to None (default), no trim indicator is drawn and the [IsTextTrimmedChanged](richtextblock_istexttrimmedchanged.md) event does not fire.
 
 ## -see-also
 

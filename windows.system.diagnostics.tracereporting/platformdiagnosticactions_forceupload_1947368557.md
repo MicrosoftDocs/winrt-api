@@ -9,19 +9,22 @@ public PlatformDiagnosticActionState PlatformDiagnosticActions.ForceUpload(Platf
 
 # Windows.System.Diagnostics.TraceReporting.PlatformDiagnosticActions.ForceUpload
 
+
 ## -description
+
 Cause diagnostic data to be uploaded within the specified parameters.
 
-## -params
+## -parameters
 
 ### -param latency
 
 ### -param uploadOverCostedNetwork
+
 True to upload even if the device only has access to a cellular data connection; false otherwise.
 
 ### -param uploadOverBattery
+
 **True** to upload even if the device is running on battery; **false** otherwise.
 
 ## -returns
-
 

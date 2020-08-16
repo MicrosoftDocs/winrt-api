@@ -21,4 +21,4 @@ The duration can be 0, in which case the opacity is instantly set to its final v
 ## -examples
 
 ## -see-also
-[Delay](opacityanimation_delay.md), [Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462)
+[Delay](opacityanimation_delay.md), [Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

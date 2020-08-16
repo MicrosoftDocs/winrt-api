@@ -11,7 +11,7 @@ public class WebAuthenticationBroker
 
 ## -description
 
-Starts the authentication operation. You can call the methods of this class multiple times in a single application or across multiple applications at the same time. The [Web authentication broker sample](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122) in the Samples gallery is an example of how to use the WebAuthenticationBroker class for single sign on (SSO) connections.
+Starts the authentication operation. You can call the methods of this class multiple times in a single application or across multiple applications at the same time. The [Web authentication broker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker) in the Samples gallery is an example of how to use the WebAuthenticationBroker class for single sign on (SSO) connections.
 
 ## -remarks
 
@@ -21,11 +21,11 @@ All members of this class are static. You can access them without creating an ob
 
 [!code-csharp[webauthenticationbroker](../windows.security.authentication.web/code/webauthenticationbroker/cs/ScenarioInput1.xaml.cs#Snippetwebauthenticationbroker)]
 
-[!code-xml[WebAuthenticationBrokerXAML](../windows.security.authentication.web/code/webauthenticationbroker/cs/Scenario1.xaml#SnippetWebAuthenticationBrokerXAML)]
+[!code-xaml[WebAuthenticationBrokerXAML](../windows.security.authentication.web/code/webauthenticationbroker/cs/Scenario1.xaml#SnippetWebAuthenticationBrokerXAML)]
 
 ## -see-also
 
-[Authentication and user identity (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/dn448918(v=win.10)), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity), [Quickstart: Connecting to an online identity provider (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/jj856915(v=win.10)), [Web authentication broker](https://docs.microsoft.com/windows/uwp/security/web-authentication-broker), [Windows authentication broker sample](https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122), [WebAuthenticationBroker sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620622)
+[Authentication and user identity (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/dn448918(v=win.10)), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity), [Quickstart: Connecting to an online identity provider (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/jj856915(v=win.10)), [Web authentication broker](https://docs.microsoft.com/windows/uwp/security/web-authentication-broker), [Windows authentication broker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker), [WebAuthenticationBroker sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 
 ## -capabilities
 

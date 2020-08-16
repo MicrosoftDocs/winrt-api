@@ -28,4 +28,4 @@ None of the characters in the specified character class can be in the PIN.
 ## -examples
 
 ## -see-also
-[Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)

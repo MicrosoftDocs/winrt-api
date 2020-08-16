@@ -9,12 +9,13 @@ public MapStyleSheet MapStyleSheet.Aerial()
 
 # Windows.UI.Xaml.Controls.Maps.MapStyleSheet.Aerial
 
+
 ## -description
+
 Gets a [MapStyleSheet](mapstylesheet.md) that presents an aerial view of the map.
 
-## -params
-
 ## -returns
+
 A [MapStyleSheet](mapstylesheet.md) that presents an aerial view of the map.
 
 ## -remarks
@@ -22,3 +23,4 @@ A [MapStyleSheet](mapstylesheet.md) that presents an aerial view of the map.
 ## -see-also
 
 ## -examples
+

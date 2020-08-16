@@ -52,7 +52,7 @@ CustomControl1::CustomControl1() // public: in the header.
 
 + For a control that has its logic written in Visual C++ component extensions (C++/CX), the value of DefaultStyleKey should be a namespace-qualified string that is the name of the custom control class. Typically you set this value in the default constructor:
 
-```cpp
+```cppcx
 CustomControl1::CustomControl1() //public: in the header
 {
     DefaultStyleKey = "App1.CustomControl1";

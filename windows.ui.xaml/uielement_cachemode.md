@@ -44,7 +44,7 @@ canvas1.CacheMode = new BitmapCache();
 canvas1().CacheMode(Windows::UI::Xaml::Media::BitmapCache{});
 ```
 
-```cpp
+```cppcx
 canvas1->CacheMode = ref new BitmapCache();
 ```
 

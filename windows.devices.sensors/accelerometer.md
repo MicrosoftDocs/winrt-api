@@ -45,9 +45,10 @@ The following example shows the [ReadingChanged](accelerometer_readingchanged.md
 | 1607 | 14393 | ReadingType |
 | 1709 | 16299 | FromIdAsync |
 | 1709 | 16299 | GetDeviceSelector |
+| 2004 | 19041 | ReportThreshold |
 
 ## -examples
 
 ## -see-also
 
-[Accelerometer Sample](https://go.microsoft.com/fwlink/p/?linkid=241377), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Accelerometer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620477), [Background sensors sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620509)
+[Accelerometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Accelerometer), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Accelerometer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620477), [Background sensors sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620509)

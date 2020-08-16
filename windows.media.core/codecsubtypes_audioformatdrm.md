@@ -10,7 +10,7 @@ public string AudioFormatDrm { get; }
 # Windows.Media.Core.CodecSubtypes.AudioFormatDrm
 
 ## -description
-Gets the string representation of the GUID for the encrypted audio data used with secure audio path audio subtype.
+Gets the string representation of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the encrypted audio data used with secure audio path audio subtype.
 
 ## -property-value
 The string representation of the GUID for the encrypted audio data used with secure audio path audio subtype.

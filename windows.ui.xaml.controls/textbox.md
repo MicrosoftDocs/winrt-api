@@ -160,7 +160,7 @@ By default, the commands shown in the TextBox context menu depend on the state o
    <tr><td>Undo</td><td>text has been changed.</td></tr>
 </table>
 
-To modify the commands shown in the context menu, handle the [ContextMenuOpening](textbox_contextmenuopening.md) event. For an example of this, see Scenario 2 of the [ContextMenu sample](https://go.microsoft.com/fwlink/p/?linkid=234891). For design info, see [Guidelines for context menus](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/index).
+To modify the commands shown in the context menu, handle the [ContextMenuOpening](textbox_contextmenuopening.md) event. For an example of this, see the **Customizing RichEditBox's CommandBarFlyout - adding 'Share'** example in the <a href="xamlcontrolsgallery:/item/RichEditBox">XAML Controls Gallery</a>. For design info, see [Guidelines for context menus](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/menus).
 
 ### Selection, copy, and paste
 
@@ -277,4 +277,4 @@ private void Button_Click(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Text box overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-box), [How to use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard), [XAML text editing sample](https://go.microsoft.com/fwlink/p/?linkid=251417), [Guidelines for spell checking](https://docs.microsoft.com/windows/uwp/controls-and-patterns/spell-checking-and-prediction), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), [RichTextBlock](richtextblock.md), [SearchBox](searchbox.md), [Controls list](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/), [Controls by function](https://docs.microsoft.com/windows/uwp/controls-and-patterns/controls-by-function), [Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)
+[Text box overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-box), [How to use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard), [XAML text editing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20text%20editing%20sample), [Guidelines for spell checking](https://docs.microsoft.com/windows/uwp/controls-and-patterns/spell-checking-and-prediction), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), [RichTextBlock](richtextblock.md), [SearchBox](searchbox.md), [Controls list](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/), [Controls by function](https://docs.microsoft.com/windows/uwp/controls-and-patterns/controls-by-function), [Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)

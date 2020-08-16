@@ -56,6 +56,44 @@ mediaProtectionManager.addEventListener("rebootneeded", RebootNeeded, false);
 
 ```
 
+```csharp
+private void InitMediaProtectionManager()
+{
+   mediaProtectionManager = new Windows.Media.Protection.MediaProtectionManager();
+   mediaProtectionManager.ServiceRequested += MediaProtectionManager_ServiceRequested;
+   mediaProtectionManager.ComponentLoadFailed += MediaProtectionManager_ComponentLoadFailed;
+   mediaProtectionManager.RebootNeeded += MediaProtectionManager_RebootNeeded;
+}
 
+
+
+private void MediaProtectionManager_RebootNeeded(MediaProtectionManager sender)
+{
+   LogMessage("Reboot Required");
+}
+
+private void MediaProtectionManager_ComponentLoadFailed(MediaProtectionManager sender, ComponentLoadFailedEventArgs e)
+{
+   LogMessage(e.Information.Items.Count.ToString() + " failed components");
+   LogMessage("<h2>Components:</h2>");
+
+   //  List the failing components
+   for (var i = 0; i < e.Information.Items.Count; i++)
+   {
+         LogMessage("<h3>" + e.Information.Items[i].Name + "</h3>" +
+               "<p>Reasons=0x" + e.Information.Items[i].Reasons.ToString() +
+               "<p>Renewal Id=" + e.Information.Items[i].RenewalId);
+   }
+
+   e.Completion.Complete(true);
+}
+
+private void MediaProtectionManager_ServiceRequested(MediaProtectionManager sender, ServiceRequestedEventArgs e)
+{
+   LogMessage("Got Enabler - system/type: {" + e.Request.ProtectionSystem + "}/{" + e.Request.Type + "}");
+   e.Completion.Complete(true);
+}
+
+```
 
 ## -see-also

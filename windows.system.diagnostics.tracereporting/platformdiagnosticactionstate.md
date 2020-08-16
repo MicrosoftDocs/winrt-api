@@ -32,5 +32,5 @@ The operation failed because the device is running on battery power.
 > Only first-party applications should use this type.
 
 ## -see-also
-[DownloadLatestSettingsForNamespace](DownloadLatestSettingsForNamespace.md)
+[DownloadLatestSettingsForNamespace](DownloadLatestSettingsForNamespace.md),
 [ForceUpload](ForceUpload.md)

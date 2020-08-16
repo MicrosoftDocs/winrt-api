@@ -23,7 +23,7 @@ The profile provides hints to the driver to optimize for high-quality photo capt
 The profile provides hints to the driver to allow for photo capture during video capture with balanced quality between both.
 
 ### -field VideoConferencing:3
-The profile provides hints to the driver to optimize for VoIP scenarios, prioritizing lower power consumption, lower latency, and concurrency (e.g. using the front and back cameras of a device simultaneously) while deprioritizing higher resolution.
+The profile provides hints to the driver to optimize for VoIP scenarios, prioritizing lower power consumption, lower latency, and concurrency (for example, using the front and back cameras of a device simultaneously) while deprioritizing higher resolution.
 
 ### -field PhotoSequence:4
 The profile provides hints to the driver to optimize for capturing photo sequences.

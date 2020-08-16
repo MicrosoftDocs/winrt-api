@@ -23,7 +23,7 @@ The type of the property, as a type reference ([System.Type](https://docs.micros
 The owner type that is registering the dependency property, as a type reference ([System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param typeMetadata
-A property metadata instance. This can contain a [PropertyChangedCallback](propertychangedcallback.md) implementation reference.
+A property metadata instance. This can contain a default value and a [PropertyChangedCallback](propertychangedcallback.md) implementation reference. Passing `null` for this parameter is equivalent to passing a new PropertyMetadata instance created by calling [PropertyMetadata.Create](propertymetadata_create_581724777.md) with `null` as the default value parameter.
 
 ## -returns
 A dependency property identifier that typically is stored in a public static read-only field in your [DependencyObject](dependencyobject.md) derived class. The identifier is then used both by your own code and any third-party user code to reference the dependency property later, for operations such as setting its value programmatically or attaching a [Binding](../windows.ui.xaml.data/binding.md) in code.
@@ -36,4 +36,4 @@ Registering a dependency property is typically something that you only do when a
 ## -examples
 
 ## -see-also
-[Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview), [XAML user and custom controls sample](https://go.microsoft.com/fwlink/p/?linkid=238581)
+[Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview), [XAML user and custom controls sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20user%20and%20custom%20controls%20sample)

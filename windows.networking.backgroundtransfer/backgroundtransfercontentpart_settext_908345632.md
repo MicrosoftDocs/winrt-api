@@ -14,7 +14,7 @@ Use this method to set text information that the [BackgroundTransferContentPart]
 
 ## -parameters
 ### -param value
-A string value used to represent text information. (e.g. api_sig, api_key, auth_token, etc...)
+A string value used to represent text information. (for example, api_sig, api_key, auth_token, etc...)
 
 ## -remarks
 

@@ -9,11 +9,10 @@ public void UserActivitySession.Close()
 
 # Windows.ApplicationModel.UserActivities.UserActivitySession.Close
 
+
 ## -description
 
 Indicates that the user is no longer engaged in the activities associated with this session.
-
-## -params
 
 ## -remarks
 
@@ -22,3 +21,4 @@ You can also use the dispose pattern to close a **UserActivitySession**.
 ## -see-also
 
 ## -examples
+

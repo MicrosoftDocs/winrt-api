@@ -12,16 +12,24 @@ public uint LampArrayEffectPlaylist.GetMany(UInt32 startIndex, ILampArrayEffect[
 
 ## -description
 
+Retrieves a range of lamp array effects, beginning at the specified index within a playlist.
+
 ## -parameters
+
 ### -param startIndex
+
+The zero-based index of the first lamp array effect to retrieve.
 
 ### -param items
 
+An array of [ILampArrayEffect](ilamparrayeffect.md), which the method will update with the requested effects.
+
 ## -returns
+
+The number of effects returned in *items*.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also

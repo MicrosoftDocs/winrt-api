@@ -31,7 +31,7 @@ This example transforms the position and skew of a rectangle using a MatrixTrans
 
 
 
-[!code-xml[matrixtransform](../windows.ui.xaml/code/transforms/csharp/Matrix_Transform.xaml#Snippetmatrixtransform)]
+[!code-xaml[matrixtransform](../windows.ui.xaml/code/transforms/csharp/Matrix_Transform.xaml#Snippetmatrixtransform)]
 
 ## -see-also
 [Transform](transform.md)

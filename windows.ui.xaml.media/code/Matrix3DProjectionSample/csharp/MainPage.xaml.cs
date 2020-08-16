@@ -29,7 +29,7 @@ namespace Matrix3DProjectionSample
             double theta = 20.0 * Math.PI / 180.0;
 
             // You can create a 3D effect by creating a number of simple 
-            // tranformation Matrix3D matrixes and then multiply them together.
+            // tranformation Matrix3D matrices and then multiply them together.
             Matrix3D centerImageAtOrigin = TranslationTransform(
                      -BeachImage.ActualWidth / 2.0,
                      -BeachImage.ActualHeight / 2.0, 0);

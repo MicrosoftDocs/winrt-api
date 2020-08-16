@@ -10,7 +10,7 @@ public IReference<Guid> PurposeGuid { get;  set; }
 # Windows.Networking.Connectivity.ConnectionProfileFilter.PurposeGuid
 
 ## -description
-Gets or sets the purpose group GUID that a connection profile must match in order to be included in query results.
+Gets or sets the purpose group [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) that a connection profile must match in order to be included in query results.
 
 ## -property-value
 The purpose group GUID that a connection profile must match.

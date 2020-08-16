@@ -22,6 +22,4 @@ When this method completes successfully, it returns a unique model identifier.
 
 ## -see-also
 
-[Windows.ApplicationModel.ConversationalAgent.ConversationalAgentSession.GetSignalModelId](conversationalagentsession_getsignalmodelid_255946581.md)
-
 ## -examples

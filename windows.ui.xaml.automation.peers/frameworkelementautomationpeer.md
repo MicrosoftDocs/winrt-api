@@ -65,7 +65,7 @@ FrameworkElementAutomationPeer is the parent class for several immediately deriv
 ## -examples
 This example shows the basic subclass requirements for deriving a peer from FrameworkElementAutomationPeer and supporting at least one control pattern.
 
-This code is an excerpt from the [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570).
+This code is an excerpt from the [XAML accessibility sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/XAML%20accessibility%20sample).
 
 > [!NOTE]
 > **This sample is not maintained and might not compile.**
@@ -177,7 +177,7 @@ struct MediaContainerAP : MediaContainerAPT<MediaContainerAP>
 };
 ```
 
-```cpp
+```cppcx
 // header
         public ref class MediaContainerAP sealed :  Windows::UI::Xaml::Automation::Peers::FrameworkElementAutomationPeer
                                                     ,Windows::UI::Xaml::Automation::Provider::IRangeValueProvider

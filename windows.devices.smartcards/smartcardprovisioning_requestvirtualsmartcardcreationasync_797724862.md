@@ -31,4 +31,4 @@ When this method is called, it displays a UI to get the PIN from the user.
 ## -examples
 
 ## -see-also
-[RequestVirtualSmartCardCreationAsync(String, IBuffer, SmartCardPinPolicy, Guid)](smartcardprovisioning_requestvirtualsmartcardcreationasync_1650468110.md), [Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[RequestVirtualSmartCardCreationAsync(String, IBuffer, SmartCardPinPolicy, Guid)](smartcardprovisioning_requestvirtualsmartcardcreationasync_1650468110.md), [Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)

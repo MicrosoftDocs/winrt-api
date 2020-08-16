@@ -66,7 +66,7 @@ The following example uses a DataTemplate to display the items of a [ListBox](..
 
 
 
-[!code-xml[Snippet4_XAML](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/csharp/Page.xaml#Snippet4_XAML)]
+[!code-xaml[Snippet4_XAML](../windows.ui.xaml.data/code/System.Windows.Controls.ListBoxEx/csharp/Page.xaml#Snippet4_XAML)]
 
 
 

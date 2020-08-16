@@ -20,7 +20,7 @@ Use this property to create rules in XAML that specify when a particular [Visual
 
 You can use the built-in [AdaptiveTrigger](adaptivetrigger.md) to create rules based on window size, which is useful for creating responsive UI. You can also extend [StateTriggerBase](statetriggerbase.md) to create your own custom triggers and use them within the StateTriggers property.
 
-For more examples, see the [XAML Responsive Techniques sample](https://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409) and the [State Triggers sample](https://go.microsoft.com/fwlink/p/?LinkId=620025&amp;amp;clcid=0x409).
+For more examples, see the [XAML Responsive Techniques sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlResponsiveTechniques?amp;amp;clcid=0x409) and the [State Triggers sample](https://go.microsoft.com/fwlink/p/?LinkId=620025&amp;amp;clcid=0x409).
 
 ## -examples
 This example shows how to use the StateTriggers property with an [AdaptiveTrigger](adaptivetrigger.md) to create a declarative rule in XAML markup based on window size. By default, the [StackPanel](../windows.ui.xaml.controls/stackpanel.md) orientation is **Vertical**. When the window width is &gt;= 720 effective pixels, the [VisualState](visualstate.md) change is triggered, and the [StackPanel](../windows.ui.xaml.controls/stackpanel.md) orientation is changed to **Horizontal**.
@@ -58,4 +58,4 @@ This example shows how to use the StateTriggers property with an [AdaptiveTrigge
 
 
 ## -see-also
-[AdaptiveTrigger](adaptivetrigger.md), [StateTriggerBase](statetriggerbase.md), [XAML Responsive Techniques sample](https://go.microsoft.com/fwlink/p/?LinkId=620024&amp;amp;clcid=0x409), [State Triggers sample](https://go.microsoft.com/fwlink/p/?LinkId=620025&amp;amp;clcid=0x409)
+[AdaptiveTrigger](adaptivetrigger.md), [StateTriggerBase](statetriggerbase.md), [XAML Responsive Techniques sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlResponsiveTechniques?amp;amp;clcid=0x409), [State Triggers sample](https://go.microsoft.com/fwlink/p/?LinkId=620025&amp;amp;clcid=0x409)

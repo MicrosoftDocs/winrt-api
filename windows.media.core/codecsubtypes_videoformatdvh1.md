@@ -10,7 +10,7 @@ public string VideoFormatDvh1 { get; }
 # Windows.Media.Core.CodecSubtypes.VideoFormatDvh1
 
 ## -description
-Gets the string representation of the GUID for the DVCPRO 100 (1080/60i, 1080/50i, or 720/60P) video subtype.
+Gets the string representation of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the DVCPRO 100 (1080/60i, 1080/50i, or 720/60P) video subtype.
 
 ## -property-value
 The string representation of the GUID for the DVCPRO 100 (1080/60i, 1080/50i, or 720/60P) video subtype.

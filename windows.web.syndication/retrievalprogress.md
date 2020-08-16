@@ -27,4 +27,4 @@ The total number of bytes to be received during this data retrieval operation.
 ## -examples
 
 ## -see-also
-[SyndicationClient](syndicationclient.md), [AtomPubClient](../windows.web.atompub/atompubclient.md), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062)
+[SyndicationClient](syndicationclient.md), [AtomPubClient](../windows.web.atompub/atompubclient.md), [Syndication sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/%5BC%23%5D-Windows%208.1%20Store%20app%20samples/Syndication%20sample/C%23)

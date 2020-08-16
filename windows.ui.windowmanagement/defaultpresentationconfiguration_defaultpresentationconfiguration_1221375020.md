@@ -12,7 +12,7 @@ public DefaultPresentationConfiguration.DefaultPresentationConfiguration()
 
 ## -description
 
-Initializes a new instance of the DefaultPresentationConfiguration class.
+Initializes a new instance of the [DefaultPresentationConfiguration](defaultpresentationconfiguration.md) class.
 
 ## -remarks
 

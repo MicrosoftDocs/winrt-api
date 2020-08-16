@@ -22,7 +22,7 @@ The start time over which to retrieve data. Can be no more than 60 days prior to
 The end time over which to retrieve data.
 
 ### -param granularity
-The desired granularity of the returned usage statistics. Each elements in the list corresponds to the network usage per the specified granularity, e.g., usage per hour.
+The desired granularity of the returned usage statistics. Each elements in the list corresponds to the network usage per the specified granularity, for example, usage per hour.
 
 ### -param states
 The state of the connection profile for which usage data should be returned.

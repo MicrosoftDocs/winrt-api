@@ -10,7 +10,7 @@ public void GetGuidArray(System.Guid[] value)
 # Windows.Foundation.IPropertyValue.GetGuidArray
 
 ## -description
-Returns the array of GUID values stored as a property value.
+Returns the array of [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) values stored as a property value.
 
 ## -parameters
 ### -param value

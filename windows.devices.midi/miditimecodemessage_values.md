@@ -10,10 +10,10 @@ public byte Values { get; }
 # Windows.Devices.Midi.MidiTimeCodeMessage.Values
 
 ## -description
-Gets the time code value from 0-32.
+Gets the time code value from 0-15.
 
 ## -property-value
-The time code value from 0-32.
+The time code value from 0-15.
 
 ## -remarks
 

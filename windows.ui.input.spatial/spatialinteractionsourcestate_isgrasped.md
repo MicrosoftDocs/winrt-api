@@ -10,17 +10,29 @@ public bool IsGrasped { get; }
 # Windows.UI.Input.Spatial.SpatialInteractionSourceState.IsGrasped
 
 ## -description
-Gets whether a motion controller is experiencing a grasp.
+
+Gets whether an input device detects a grasp/grab action (how users take direct action on objects in order to manipulate them).
 
 ## -property-value
-Whether the source is experiencing a grasp.
+
+True, if the source detects a grasp/grab action. Otherwise, false.
 
 ## -remarks
-For motion controllers, a grasp represents the user squeezing their fist tightly.  This may be detected by grip buttons or a palm trigger.
 
-For all other spatial interaction sources, IsGrasped will be false.
+A [SpatialInteractionSource](spatialinteractionsource.md) represents one of three possible sources of input.
+
+- [Hand](/windows/mixed-reality/hands-and-motion-controllers-in-directx#articulated-hand-tracking) - The user's hand, which supports different features based on the input device. This ranges from basic gestures on HoloLens to fully articulated hand tracking on HoloLens 2.
+- [Controller](/windows/mixed-reality/hands-and-motion-controllers-in-directx#controller-specific-input-properties) - A motion controller, which supports input options such as select triggers, menu buttons, grasp buttons, palm triggers, touchpads, or thumbsticks.
+- [Speech](/windows/mixed-reality/voice-input-in-directx) - System keywords such as "Select" (which represents a press and release gesture).
+
+| Source | Support |
+| ------ | ------- |
+| Hololens hand gesture | None |
+| Articulated hand gestures | Pinch or closed hand |
+| Controller | Grab button pressed or hand squeezed |
 
 ## -see-also
 
-## -examples
+[Hands and motion controllers](/windows/mixed-reality/hands-and-motion-controllers-in-directx), [Speech input](/windows/mixed-reality/voice-input-in-directx), [Instinctual interactions](/windows/mixed-reality/interaction-fundamentals)
 
+## -examples

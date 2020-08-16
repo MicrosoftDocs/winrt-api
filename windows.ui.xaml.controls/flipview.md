@@ -37,7 +37,7 @@ For more info, see these topics:
 > [!NOTE]
 > When a user flips through FlipView content using touch interaction, a [SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md) event occurs only when touch manipulations are complete. This means that when a user flips through content quickly, individual [SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md) events are not always generated for every item because the manipulation is still occurring.
 
-For more examples, see [XAML FlipView sample](https://go.microsoft.com/fwlink/p/?LinkID=311760).
+For more examples, see [XAML FlipView sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20FlipView%20control%20sample).
 
 ### Control style and template
 
@@ -72,7 +72,7 @@ This table shows the resources used by the FlipView control.
 
 In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a FlipView is defined inline.
 
-[!code-xml[FlipViewItemTemplate](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/SplitPage.xaml#SnippetFlipViewItemTemplate)]
+[!code-xaml[FlipViewItemTemplate](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/SplitPage.xaml#SnippetFlipViewItemTemplate)]
 
 ## -see-also
-[Selector](../windows.ui.xaml.controls.primitives/selector.md), [FlipView styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML FlipView sample](https://go.microsoft.com/fwlink/p/?LinkID=311760), [Guidelines for flip view controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/flipview)
+[Selector](../windows.ui.xaml.controls.primitives/selector.md), [FlipView styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML FlipView sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20FlipView%20control%20sample), [Guidelines for flip view controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/flipview)

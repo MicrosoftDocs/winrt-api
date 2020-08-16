@@ -76,14 +76,14 @@ There are several different ways to define a SolidColorBrush as an inline UI val
 
 + Select a predefined color by name, and rely on the XAML "shortcut" that this color will create a SolidColorBrush when it's parsed. For example, you can set the [Fill](../windows.ui.xaml.shapes/shape_fill.md) of a [Rectangle](../windows.ui.xaml.shapes/rectangle.md) to "Red" like this:
 
-[!code-xml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
+[!code-xaml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
 
-[!code-xml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
+[!code-xaml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
 + Create a color within a 32-bit color palette by specifying the amounts of red, green, and blue to combine into a single solid color.
 
-[!code-xml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
+[!code-xaml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
 
-[!code-xml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
+[!code-xaml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
 
 ```csharp
 SolidColorBrush greenBrush = new SolidColorBrush(Colors.Green);
@@ -93,24 +93,24 @@ SolidColorBrush greenBrush = new SolidColorBrush(Colors.Green);
 Windows::UI::Xaml::Media::SolidColorBrush greenBrush{ Windows::UI::Colors::Green() };
 ```
 
-```cpp
+```cppcx
 auto greenBrush = ref new SolidColorBrush(Colors::Green);
 ```
 
-Another way to define a new SolidColorBrush object is to use the [FromArgb](../windows.ui/color_fromargb.md) static utility method. This is useful if there is no named [Colors](../windows.ui/colors.md) value for the color you want.
+Another way to define a new SolidColorBrush object is to use the [FromArgb](/dotnet/api/windows.ui.color.fromargb?view=dotnet-uwp-10.0) static utility method. This is useful if there is no named [Colors](../windows.ui/colors.md) value for the color you want.
 
 ```csharp
 SolidColorBrush myBrush = new SolidColorBrush(Color.FromArgb(255, 20, 20, 90));
 ```
 
-```cpp
+```cppwinrt
 Windows::UI::Xaml::Media::SolidColorBrush myBrush{ Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90) };
 ```
 
-```cpp
+```cppcx
 auto myBrush = ref new SolidColorBrush(ColorHelper::FromArgb(255, 90, 200, 90));
 ```
 
 ## -see-also
-[Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md), [Brush](brush.md), [Color.FromArgb](../windows.ui/color_fromargb.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md), [Brush](brush.md), [Color.FromArgb](/dotnet/api/windows.ui.color.fromargb?view=dotnet-uwp-10.0), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
 p://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)

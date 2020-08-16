@@ -17,4 +17,4 @@ Represents the properties of images to scan.
 ## -examples
 
 ## -see-also
-[Scan Sample](https://go.microsoft.com/fwlink/p/?LinkId=301980)
+[Scan Runtime API sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Scan%20Runtime%20API%20Sample)

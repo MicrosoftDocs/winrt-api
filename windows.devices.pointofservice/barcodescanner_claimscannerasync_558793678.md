@@ -28,5 +28,5 @@ When the method completes, it returns a [ClaimedBarcodeScanner](claimedbarcodesc
 [!code-js[CreateBarcodeScannerJS](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetCreateBarcodeScannerJS)]
 
 ## -see-also
-[Barcode scanner sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620014)
+[Barcode scanner sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BarcodeScanner)
 soft.com/fwlink/p/?LinkId=620014)

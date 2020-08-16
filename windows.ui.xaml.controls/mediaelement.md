@@ -246,7 +246,7 @@ Prior to Windows 8.1, the [IsFullWindow](mediaelement_isfullwindow.md) property
 
 Prior to Windows 8.1, the **Opacity** property is not supported on MediaElement.
 
-Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) property and built-in transport controls are not available. You must provide your own transport controls. For more info and examples, see [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls) and scenario 4 of the [XAML media playback sample](https://go.microsoft.com/fwlink/p/?linkid=226859).
+Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) property and built-in transport controls are not available. You must provide your own transport controls. For more info and examples, see [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls) and scenario 4 of the [XAML media playback sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20media%20playback%20sample).
 
 ### Windows Phone 8
 
@@ -263,9 +263,9 @@ Windows Phone 8.x app must use [PickSingleFileAndContinue](../windows.storage.pi
 
 This code creates a MediaElement with the [AutoPlay](mediaelement_autoplay.md) property explicitly set to **true** and the [Source](mediaelement_source.md) set to the path of a video file that is included in the app.
 
-[!code-xml[MediaPlayer_SimpleXamlMediaElement](../windows.ui.xaml/code/MediaPlayerQuickStart/csharp/BasicSnippets.xaml#SnippetMediaPlayer_SimpleXamlMediaElement)]
+[!code-xaml[MediaPlayer_SimpleXamlMediaElement](../windows.ui.xaml/code/MediaPlayerQuickStart/csharp/BasicSnippets.xaml#SnippetMediaPlayer_SimpleXamlMediaElement)]
 
-[!code-xml[BasicMediaElementControls](../windows.ui.xaml.controls/code/MediaPlayback2/csharp/MainPage.xaml#SnippetBasicMediaElementControls)]
+[!code-xaml[BasicMediaElementControls](../windows.ui.xaml.controls/code/MediaPlayback2/csharp/MainPage.xaml#SnippetBasicMediaElementControls)]
 
 ```xaml
 <Grid>
@@ -330,5 +330,4 @@ private void ShowPopupClicked(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Control](control.md), [MediaElement control guide](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/media-playback), [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls), [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600)
-e](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[Control](control.md), [MediaElement control guide](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/media-playback), [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls), [Media transport controls sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCustomMediaTransportControls?amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

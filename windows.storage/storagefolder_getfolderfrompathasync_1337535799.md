@@ -61,7 +61,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
 // Get the path to the app's installation folder.
 String^ root = Windows::ApplicationModel::Package::Current->InstalledLocation->Path;
 

@@ -31,6 +31,6 @@ This example creates a [LinearGradientBrush](lineargradientbrush.md) with four g
 
 
 
-[!code-xml[Gradient1](../windows.ui.xaml.media/code/Gradients/csharp/Page.xaml#SnippetGradient1)]
+[!code-xaml[Gradient1](../windows.ui.xaml.media/code/Gradients/csharp/Page.xaml#SnippetGradient1)]
 
 ## -see-also

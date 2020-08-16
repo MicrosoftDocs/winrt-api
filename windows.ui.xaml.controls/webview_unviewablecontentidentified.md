@@ -22,7 +22,7 @@ Occurs when the [WebView](webview.md) attempts to download an unsupported file.
 The [WebView](webview.md) control cannot host arbitrary file types, but you can handle this event and use the [Launcher](../windows.system/launcher.md) class to redirect the file to the browser or another app.
 
 ## -examples
-The following code example demonstrates how to handle this event to launch an external browser when the [WebView](webview.md) control cannot render the target content. For the complete example, see the [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582).
+The following code example demonstrates how to handle this event to launch an external browser when the [WebView](webview.md) control cannot render the target content. For the complete example, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
 
 ```csharp
 void webView1_UnviewableContentIdentified(WebView sender, 
@@ -43,4 +43,4 @@ void webView1_UnviewableContentIdentified(WebView sender,
 
 
 ## -see-also
-[WebViewUnviewableContentIdentifiedEventArgs](webviewunviewablecontentidentifiedeventargs.md), [Launcher](../windows.system/launcher.md), [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582)
+[WebViewUnviewableContentIdentifiedEventArgs](webviewunviewablecontentidentifiedeventargs.md), [Launcher](../windows.system/launcher.md), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

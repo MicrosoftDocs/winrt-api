@@ -21,6 +21,8 @@ The buffer containing pixel data.
 
 ## -remarks
 
+Because the returned **BitmapBuffer** represents an exclusive lock on the associated bitmap, apps should not keep the reference to it indefinitely.
+
 ## -examples
 
 ## -see-also

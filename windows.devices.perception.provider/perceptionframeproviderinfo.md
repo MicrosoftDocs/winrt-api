@@ -15,7 +15,7 @@ A specific set of properties describing a unique IPerceptionFrameProvider.
 ## -remarks
 The properties are:
 
-Id - A unique identifier of the IPerceptionFrameProvider, for example, a GUID or "com.contoso.depthcamera.x500.serialNumber1234".
+Id - A unique identifier of the IPerceptionFrameProvider, for example, a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) or "com.contoso.depthcamera.x500.serialNumber1234".
 + This id must be persistent across reboots.
 + This id must be different between devices for a single manufacturer.
 + This id must be approximately globally unique such that there are no conflicts on any one host.

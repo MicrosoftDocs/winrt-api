@@ -27,4 +27,4 @@ For information about how to use this event and the socket broker with your app,
 
 ## -see-also
 
-[IBackgroundTrigger](ibackgroundtrigger.md), [DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534), [StreamSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620609)
+[IBackgroundTrigger](ibackgroundtrigger.md), [DatagramSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket), [StreamSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620609)

@@ -15,12 +15,12 @@ Provides APIs for user interface composition.
 
 | Item | Description
 |---- | ---- |
-| [Windows.UI.Composition Overview](https://go.microsoft.com/fwlink/p/?LinkID=699334) | Overview and architecture of the API |
-| [Windows.UI.Composition Samples](https://go.microsoft.com/fwlink/p/?LinkID=534547) | API samples in the official Github |
-| [Known Issues and Latest Information](https://go.microsoft.com/fwlink/p/?LinkID=534542) | Latest updates on the API in the MSDN Forums |
+| [Windows.UI.Composition Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/visual-layer) | Overview and architecture of the API |
+| [Windows.UI.Composition Samples](https://github.com/Microsoft/WindowsUIDevLabs) | API samples in the official Github |
+| [Known Issues and Latest Information](https://social.msdn.microsoft.com/Forums/en-US/home?forum=Win10SDKToolsIssues) | Latest updates on the API in the MSDN Forums |
 
 ## -examples
 
 ## -see-also
 
-[ElementCompositionPreview](../windows.ui.xaml.hosting/elementcompositionpreview.md), [Composition visual without framework sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620483), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[ElementCompositionPreview](../windows.ui.xaml.hosting/elementcompositionpreview.md), [Composition visual without framework sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CompositionVisual), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

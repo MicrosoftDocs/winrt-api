@@ -23,6 +23,6 @@ For info about how to select contacts, see [Selecting contacts](https://docs.mic
 ## -examples
 
 ## -see-also
-[Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575)
+[Contact Picker app sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ContactPicker)
 ## -capabilities
 contactsSystem

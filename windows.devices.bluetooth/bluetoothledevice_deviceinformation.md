@@ -11,10 +11,10 @@ public Windows.Devices.Enumeration.DeviceInformation DeviceInformation { get; }
 # Windows.Devices.Bluetooth.BluetoothLEDevice.DeviceInformation
 
 ## -description
-Gets the [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) object for the Bluetooth LE device.
+Gets the device information for the Bluetooth LE device.
 
 ## -property-value
-The device information.
+A [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) object representing the device information.
 
 ## -remarks
 

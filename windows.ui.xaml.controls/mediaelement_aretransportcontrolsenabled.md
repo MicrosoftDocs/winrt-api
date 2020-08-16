@@ -40,6 +40,6 @@ Here is some code that creates a [MediaElement](mediaelement.md) with the built-
 
 
 
-[!code-xml[BasicMediaElementControls](../windows.ui.xaml.controls/code/MediaPlayback2/csharp/MainPage.xaml#SnippetBasicMediaElementControls)]
+[!code-xaml[BasicMediaElementControls](../windows.ui.xaml.controls/code/MediaPlayback2/csharp/MainPage.xaml#SnippetBasicMediaElementControls)]
 
 ## -see-also

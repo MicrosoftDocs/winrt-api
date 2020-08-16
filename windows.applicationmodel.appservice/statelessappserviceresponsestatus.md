@@ -5,7 +5,7 @@ ms.custom: 19H1
 ---
 
 <!-- Enumeration syntax.
-public enum StatelessAppServiceResponseStatus : int 
+public enum StatelessAppServiceResponseStatus : int
 -->
 
 # Windows.ApplicationModel.AppService.StatelessAppServiceResponseStatus
@@ -36,7 +36,7 @@ The operation failed due to authorization.
 The operation failed due to the message size being too large.
 
 ### -field Failure:9
-The operation failed. 
+The operation failed.
 
 ### -field AppUnavailable:2
 The operation failed due to the app failing to start.
@@ -47,10 +47,30 @@ The operation failed due to the app not supporting the requested app service.
 ### -field AppNotInstalled:1
 The operation failed due to the app not being presented on the remote system.
 
+### -field AuthenticationError:11
+The operation failed due to unsuccessful account authentication. The user must re-validate the account to continue.
+
+### -field DisabledByPolicy:13
+The operation failed, as the app service needed service or capabilities disabled by some policies on the local or remote device.
+
+### -field NetworkNotAvailable:12
+The operation failed due to lack of an internet connection.
+
+### -field WebServiceUnavailable:14
+The operation failed because one or more necessary cloud services were temporarily unavailable.
+
 ## -remarks
 Indicates success or failure of a SendStatelessMessageAsync operation.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | AuthenticationError |
+| 2004 | 19041 | DisabledByPolicy |
+| 2004 | 19041 | NetworkNotAvailable |
+| 2004 | 19041 | WebServiceUnavailable |
 
 ## -see-also
 
 ## -examples
-

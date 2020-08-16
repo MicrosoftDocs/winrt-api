@@ -18,7 +18,7 @@ Represents a near-simultaneous sampling of the number of times a pin has changed
 ## -struct-fields
 
 ### -field Count
-The number of times the transition of polarity specified by [GpioChangeCounter.Polarity](gpiochangecounter_polarity.md) occured on the pin.
+The number of times the transition of polarity specified by [GpioChangeCounter.Polarity](gpiochangecounter_polarity.md) occurred on the pin.
 
 ### -field RelativeTime
 The time at which this count was sampled. The time is sampled close to (but not simultaneously with) the count. This timestamp can be used to determine the elapsed time between two GpioChangeCount records. It does not correspond to any absolute or system time.

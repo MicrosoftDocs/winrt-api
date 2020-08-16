@@ -22,4 +22,4 @@ IBindableObservableVector inherits [IBindableVector](ibindablevector.md) and [IB
 ## -examples
 
 ## -see-also
-[IBindableVector](ibindablevector.md), [IBindableIterable](ibindableiterable.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)
+[IBindableVector](ibindablevector.md), [IBindableIterable](ibindableiterable.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind)

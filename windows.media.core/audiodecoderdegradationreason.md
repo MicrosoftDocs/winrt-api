@@ -21,6 +21,7 @@ The audio track was degraded due to a licensing requirement.
 
 
 ### -field SpatialAudioNotSupported:2
+The audio track was degraded because the device does not support spatial audio.
 
 
 ## -remarks

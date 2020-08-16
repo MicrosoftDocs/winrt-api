@@ -9,18 +9,23 @@ public IAsyncOperation<GattServiceProviderTriggerResult> GattServiceProviderTrig
 
 # Windows.ApplicationModel.Background.GattServiceProviderTrigger.CreateAsync
 
+
 ## -description
+
 Creates a GATT provider service.
 
-## -params
+## -parameters
 
-## -param triggerId
+### -param triggerId
+
 The identifier for the trigger.
 
-## -param serviceUuid
+### -param serviceUuid
+
 The universally unique identifier for the trigger.
 
 ## -returns
+
 Await the asynchronous operation to get the **GattServiceProviderTriggerResult**.
 
 ## -remarks
@@ -28,3 +33,4 @@ Await the asynchronous operation to get the **GattServiceProviderTriggerResult**
 ## -see-also
 
 ## -examples
+

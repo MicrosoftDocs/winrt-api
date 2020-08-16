@@ -12,10 +12,17 @@ public DisplayPath DisplayState.GetPathForTarget(DisplayTarget target)
 
 ## -description
 
+Retrieves a [DisplayPath](displaypath.md) object representing the specified target.
+
 ## -parameters
+
 ### -param target
 
+A [DisplayTarget](displaytarget.md) object.
+
 ## -returns
+
+A [DisplayPath](displaypath.md) object representing the target.
 
 ## -remarks
 

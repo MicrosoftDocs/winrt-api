@@ -12,7 +12,10 @@ public ConversationalAgentSessionUpdateResponse ConversationalAgentSession.Reque
 
 ## -description
 
-Synchronously requests that this [ConversationalAgentSession](conversationalagentsession.md) be interruptible if the *wake* word for another digital assistant is detected.
+Synchronously requests that this [ConversationalAgentSession](conversationalagentsession.md) be interruptible if the keyword for another digital assistant is detected.
+
+> [!Important]
+> To avoid possible concurrency issues, we recommend using [RequestInterruptibleAsync](conversationalagentsession_requestinterruptibleasync_1030348212.md) instead.
 
 ## -parameters
 
@@ -28,7 +31,7 @@ A [ConversationalAgentSessionUpdateResponse](conversationalagentsessionupdateres
 
 Some digital assistant sessions cannot be interrupted by another signal. For example, Cortana requires the user to issue a cancel or stop command to end the current session (the user cannot be in a Cortana session and issue commands to Alexa).
 
-If a session can be interrupted, the Agent Activation Runtime (AAR) raises the [SessionInterrupted](conversationalagentsession_sessioninterrupted.md) event to indicate that the digital assistant app should set itself to inactive and stop processing input.
+If a session can be interrupted, the Windows Conversational Agent platform raises the [SessionInterrupted](conversationalagentsession_sessioninterrupted.md) event to indicate that the digital assistant app should set itself to inactive and stop processing input.
 
 ## -see-also
 

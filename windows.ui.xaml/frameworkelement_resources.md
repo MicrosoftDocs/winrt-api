@@ -44,7 +44,7 @@ This example shows a XAML definition of a simple Resources dictionary that conta
 
 
 
-[!code-xml[3](../windows.ui.xaml.data/code/DataTemplates/csharp/Page.xaml#Snippet3)]
+[!code-xaml[3](../windows.ui.xaml.data/code/DataTemplates/csharp/Page.xaml#Snippet3)]
 
 ```xaml
 <GridView ItemTemplate="{StaticResource CBTemplate}" .../>
@@ -77,5 +77,5 @@ Using XAML resource definitions and resource references is the typical way to us
 
 
 ## -see-also
-[ResourceDictionary](resourcedictionary.md), [x:Key attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-key-attribute), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references), [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension), [{ThemeResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/themeresource-markup-extension), [Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=231501), [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)
+[ResourceDictionary](resourcedictionary.md), [x:Key attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-key-attribute), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references), [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension), [{ThemeResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/themeresource-markup-extension), [Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources), [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)
 1b37-f1a8-44a4-bb8e-1d4de30e7823)

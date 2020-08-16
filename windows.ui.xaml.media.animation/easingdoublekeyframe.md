@@ -28,12 +28,11 @@ This XAML example shows how to use key frames that have easing functions associa
 
 
 
-[!code-xml[EasingFunctionDoubleKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionDoubleKeyFrame/csharp/Page.xaml#SnippetEasingFunctionDoubleKeyFrame)]
+[!code-xaml[EasingFunctionDoubleKeyFrame](../windows.ui.xaml.media.animation/code/EasingFunctionDoubleKeyFrame/csharp/Page.xaml#SnippetEasingFunctionDoubleKeyFrame)]
 
 [!code-csharp[EasingFunctionDoubleKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionDoubleKeyFrame/csharp/Page.xaml.cs#SnippetEasingFunctionDoubleKeyFrame_code)]
 
 [!code-vb[EasingFunctionDoubleKeyFrame_code](../windows.ui.xaml.media.animation/code/EasingFunctionDoubleKeyFrame/vbnet/MainPage.xaml.vb#SnippetEasingFunctionDoubleKeyFrame_code)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [XAML animation sample](https://go.microsoft.com/fwlink/p/?linkid=238571), [DoubleKeyFrame](doublekeyframe.md), [EasingColorKeyFrame](easingcolorkeyframe.md), [EasingPointKeyFrame](easingpointkeyframe.md), [KeyTime](doublekeyframe_keytime.md), [Value](doublekeyframe_value.md)
-eyTime](doublekeyframe_keytime.md), [Value](doublekeyframe_value.md)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [XAML animation sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20animation%20library%20sample), [DoubleKeyFrame](doublekeyframe.md), [EasingColorKeyFrame](easingcolorkeyframe.md), [EasingPointKeyFrame](easingpointkeyframe.md), [KeyTime](doublekeyframe_keytime.md), [Value](doublekeyframe_value.md)

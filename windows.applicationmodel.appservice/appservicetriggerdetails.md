@@ -29,4 +29,4 @@ To get the AppServiceTriggerDetails for an app service, use the [IBackgroundTask
 
 ## -see-also
 
-[IBackgroundTaskInstance.TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md), [App services sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620489)
+[IBackgroundTaskInstance.TriggerDetails](../windows.applicationmodel.background/ibackgroundtaskinstance_triggerdetails.md), [App services sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AppServices)

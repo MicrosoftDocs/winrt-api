@@ -72,7 +72,7 @@ void ContentHost_PointerPressed(Windows::Foundation::IInspectable const& /* send
 }
 ```
 
-```cpp
+```cppcx
 void MyPage::ContentHost_PointerPressed(Object^ sender, PointerRoutedEventArgs^ e)
 {
     // Replace the ContentControl's content with a new Rectangle of a random color.

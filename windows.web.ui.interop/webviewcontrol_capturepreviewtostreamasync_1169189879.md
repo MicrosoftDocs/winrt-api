@@ -10,15 +10,19 @@ public IAsyncAction WebViewControl.CapturePreviewToStreamAsync(IRandomAccessStre
 # Windows.Web.UI.Interop.WebViewControl.CapturePreviewToStreamAsync
 
 ## -description
+
 Creates an image of the current control contents and writes it to the specified stream.
 
 For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewcontrol.md)
 
 ## -parameters
+
 ### -param stream
+
 The stream to write the image to.
 
 ## -returns
+
 An asynchronous action to await the capture operation.
 
 ## -remarks

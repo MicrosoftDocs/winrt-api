@@ -88,7 +88,7 @@ If you are defining a custom control that has visual states in its control templ
 
 This example creates a [VisualStateGroup](visualstategroup.md) in the [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) of a [Button](../windows.ui.xaml.controls/button.md) called "CommonStates" and adds VisualState objects for the states, "Normal", "Pressed", and "PointerOver". The [Button](../windows.ui.xaml.controls/button.md) also defines a state called "Disabled" that is in the "CommonStates" named [VisualStateGroup](visualstategroup.md), but the example omits it for brevity.
 
-[!code-xml[VisualStates](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#SnippetVisualStates)]
+[!code-xaml[VisualStates](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#SnippetVisualStates)]
 
 ```xaml
 <Page>
@@ -116,4 +116,4 @@ This example creates a [VisualStateGroup](visualstategroup.md) in the [ControlTe
 
 ## -see-also
 
-[DependencyObject](dependencyobject.md), [VisualStateGroup](visualstategroup.md), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10)), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [XAML control and app styling sample](https://go.microsoft.com/fwlink/p/?LinkID=258670), [Master/detail sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619901)
+[DependencyObject](dependencyobject.md), [VisualStateGroup](visualstategroup.md), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10)), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [XAML control and app styling sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20control%20and%20app%20styling%20sample/C%23), [Master/detail sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619901)

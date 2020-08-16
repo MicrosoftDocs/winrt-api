@@ -20,4 +20,4 @@ When this method completes successfully, it returns a [MusicProperties](musicpro
 ## -examples
 
 ## -see-also
-[storageItemContentProperties class](storageitemcontentproperties.md), [musicProperties class](musicproperties.md), [Windows.Storage.storageFile class](../windows.storage/storagefile.md), [Windows.Storage.storageFolder class](../windows.storage/storagefolder.md), [Playlists sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624039)
+[storageItemContentProperties class](storageitemcontentproperties.md), [musicProperties class](musicproperties.md), [Windows.Storage.storageFile class](../windows.storage/storagefile.md), [Windows.Storage.storageFolder class](../windows.storage/storagefolder.md), [Playlists sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Playlists)

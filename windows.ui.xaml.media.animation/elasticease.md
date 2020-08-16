@@ -34,12 +34,11 @@ This XAML example applies an ElasticEase easing function to a [DoubleAnimation](
 
 
 
-[!code-xml[ElasticEase](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml#SnippetElasticEase)]
+[!code-xaml[ElasticEase](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml#SnippetElasticEase)]
 
 [!code-csharp[ElasticEase_code](../windows.ui.xaml.media.animation/code/ElasticEase/csharp/Page.xaml.cs#SnippetElasticEase_code)]
 
 [!code-vb[ElasticEase_code](../windows.ui.xaml.media.animation/code/ElasticEase/vbnet/MainPage.xaml.vb#SnippetElasticEase_code)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)
-rticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

@@ -17,6 +17,8 @@ The effect to be applied to the flattened representation of the children of a [L
 
 ## -remarks
 
+This CompositionEffectBrush cannot take a [CompositionBackdropBrush](compositionbackdropbrush.md) as input, including HostBackdropBrush.
+
 ## -examples
 
 ## -see-also

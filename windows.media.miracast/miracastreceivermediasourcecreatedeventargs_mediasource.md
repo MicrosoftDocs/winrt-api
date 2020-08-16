@@ -22,7 +22,7 @@ The MediaSource object.
 
 ## -see-also
 
-[MediaSource](..\windows.media.core\mediasource.md)
+[MediaSource](../windows.media.core/mediasource.md)
 
 ## -examples
 

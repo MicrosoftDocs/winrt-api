@@ -24,4 +24,4 @@ If this image is not specified, the parent app's 30 x 30 image is used.
 ## -examples
 
 ## -see-also
-[Square150x150Logo](secondarytilevisualelements_square150x150logo.md), [Square310x310Logo](secondarytilevisualelements_square310x310logo.md), [Square70x70Logo](secondarytilevisualelements_square70x70logo.md), [Wide310x150Logo](secondarytilevisualelements_wide310x150logo.md), [Secondary tiles sample](https://go.microsoft.com/fwlink/p/?linkid=231487)
+[Square150x150Logo](secondarytilevisualelements_square150x150logo.md), [Square310x310Logo](secondarytilevisualelements_square310x310logo.md), [Square70x70Logo](secondarytilevisualelements_square70x70logo.md), [Wide310x150Logo](secondarytilevisualelements_wide310x150logo.md), [Secondary tiles sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Secondary%20tiles%20sample)

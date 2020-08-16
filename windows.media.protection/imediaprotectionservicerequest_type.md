@@ -10,7 +10,7 @@ public System.Guid Type { get; }
 # Windows.Media.Protection.IMediaProtectionServiceRequest.Type
 
 ## -description
-Retrieves the GUID for the type of operation that the [IMediaProtectionServiceRequest](imediaprotectionservicerequest.md) performs.
+Retrieves the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the type of operation that the [IMediaProtectionServiceRequest](imediaprotectionservicerequest.md) performs.
 
 ## -property-value
 The GUID to retrieve.

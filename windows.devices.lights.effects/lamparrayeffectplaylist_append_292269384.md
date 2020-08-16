@@ -14,15 +14,15 @@ public void LampArrayEffectPlaylist.Append(ILampArrayEffect effect)
 Appends the effect to the end of the playlist.
 
 ## -parameters
+
 ### -param effect
 Effect to append to the playlist.
 
 ## -remarks
-Once an effect has been Appended, it cannot be Appended to a second playlist. A new instance of the effect must be created.
+Once an effect has been appended to a playlist, it cannot be appended to another. Instead, you must create a new instance of the effect.
 
-After playlist has started, the state is locked and is not possible to Append further effects.
-
-## -see-also
+After a playlist has started, its state is locked, and you can't append further effects to it.
 
 ## -examples
 
+## -see-also

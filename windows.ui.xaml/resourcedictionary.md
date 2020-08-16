@@ -61,7 +61,7 @@ You can use Microsoft Visual Studio to create resource dictionaries. This exampl
 
 ```
 
-This XAML, from the AppPage.xaml file of the [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061), shows the use of an [Application.Resources](application_resources.md) property. The XAML places two [Style](style.md) elements into the resource dictionary, making them available throughout the application.
+This XAML, from the AppPage.xaml file of the [AtomPub sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/AtomPub%20sample), shows the use of an [Application.Resources](application_resources.md) property. The XAML places two [Style](style.md) elements into the resource dictionary, making them available throughout the application.
 
 ```xaml
 <Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -212,8 +212,8 @@ In practice, the vast majority of the resources defined in a ResourceDictionary 
 
 The API that your code uses to access the resources in a ResourceDictionary depends on which programming language you use:
 + For C# or Microsoft Visual Basic you use API that implement 
-[IDictionary&lt;TKey,TValue&gt;](https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2) and 
-[IEnumerable&lt;T&gt;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1). For example, [TryGetValue](resourcedictionary_trygetvalue.md) or the [Item](resourcedictionary_item.md) indexer.
+[IDictionary&lt;TKey,TValue&gt;](https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2?view=dotnet-uwp-10.0) and 
+[IEnumerable&lt;T&gt;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0). For example, [TryGetValue](/dotnet/api/system.collections.generic.idictionary-2.trygetvalue?view=dotnet-uwp-10.0) or the [Item](/dotnet/api/system.collections.generic.idictionary-2.item?view=dotnet-uwp-10.0) indexer.
 + For Visual C++ component extensions (C++/CX) you use API that implement [IMap&lt;K,V&gt;](../windows.foundation.collections/imap_2.md) and [IIterable&lt;T&gt;](../windows.foundation.collections/iiterable_1.md). For example, [Lookup](resourcedictionary_lookup_786690417.md).
 + API that aren't part of collection support, like [Source](resourcedictionary_source.md), are the same in all languages.
 

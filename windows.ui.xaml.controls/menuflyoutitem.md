@@ -10,17 +10,19 @@ public class MenuFlyoutItem : Windows.UI.Xaml.Controls.MenuFlyoutItemBase, Windo
 # Windows.UI.Xaml.Controls.MenuFlyoutItem
 
 ## -description
+
 Represents a command in a [MenuFlyout](menuflyout.md) control.
 
 ## -xaml-syntax
+
 ```xaml
 <MenuFlyoutItem .../>
 -or-
 <MenuFlyoutItem>string</MenuFlyoutItem>
 ```
 
-
 ## -remarks
+
 Use a [Flyout](flyout.md) control to display single items and a [MenuFlyout](menuflyout.md) control to show a menu of items.
 
 ### **MenuFlyoutItem** derived classes
@@ -56,6 +58,13 @@ This table shows the resources used by the MenuFlyoutItem control.
 | 1803 | 17134 | TemplateSettings |
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Menus and context menus](/windows/uwp/design/controls-and-patterns/menus).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the MenuFlyoutItem in action](xamlcontrolsgallery:/item/MenuFlyout).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 ## -see-also
 [MenuFlyoutItemBase](menuflyoutitembase.md), [MenuFlyout](menuflyout.md), [MenuFlyoutItem styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)

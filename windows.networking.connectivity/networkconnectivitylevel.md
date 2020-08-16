@@ -22,7 +22,7 @@ Local network access only.
 ### -field ConstrainedInternetAccess:2
 Limited internet access.
 
-This value indicates captive portal connectivity, where local access to a web portal is provided, but access to the Internet requires that specific credentials are provided via the portal. This level of connectivity is generally encountered when using connections hosted in public locations (e.g. coffee shops and book stores).
+This value indicates captive portal connectivity, where local access to a web portal is provided, but access to the Internet requires that specific credentials are provided via the portal. This level of connectivity is generally encountered when using connections hosted in public locations (for example, coffee shops and book stores).
 
 > [!NOTE]
 > This doesn't guarantee detection of a captive portal. UWP apps should also test if the captive portal can be reached using a URL for the captive portal, or by attempting access to a public web site which will then redirect to the captive portal when Windows reports **LocalAccess** as the current NetworkConnectivityLevel.

@@ -11,7 +11,7 @@ public int Occurrences { get;  set; }
 # Windows.Devices.Lights.Effects.LampArrayEffectPlaylist.Occurrences
 
 ## -description
-Number of occurrences this playlist will play.
+Gets or sets the number of occurrences that this playlist will play.
 
 ## -property-value
 Number of occurrences. Default is 0.

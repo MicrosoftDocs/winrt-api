@@ -10,7 +10,9 @@ public TargetedContentAppInstallationState AppInstallationState { get; }
 # Windows.Services.TargetedContent.TargetedContentItemState.AppInstallationState
 
 ## -description
-Gets TargetedContentAppInstallationState for the item.
+
+Gets [TargetedContentAppInstallationState](targetedcontentappinstallationstate.md) for the item.
+
 ## -property-value
 
 ## -remarks
@@ -19,6 +21,6 @@ Gets TargetedContentAppInstallationState for the item.
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

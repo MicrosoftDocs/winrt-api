@@ -42,10 +42,9 @@ This example creates a linear gradient with four colors and uses it to paint a *
 
 
 
-[!code-xml[Gradient3](../windows.ui.xaml.media/code/Gradients/csharp/Page2.xaml#SnippetGradient3)]
+[!code-xaml[Gradient3](../windows.ui.xaml.media/code/Gradients/csharp/Page2.xaml#SnippetGradient3)]
 
 <img alt="Gradient axis for a vertical gradient" src="Images/graphicsmm_verticalgradient.png" />
 
 ## -see-also
-[GradientBrush](gradientbrush.md), [SolidColorBrush](solidcolorbrush.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
- XAML resource references](https://msdn.microsoft.com/library/e3cbfa3d-6af5-44e1-b9f9-c3d3ea8a25ce)
+[GradientBrush](gradientbrush.md), [RadialGradientBrush](/uwp/api/microsoft.ui.xaml.media.radialgradientbrush), [SolidColorBrush](solidcolorbrush.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

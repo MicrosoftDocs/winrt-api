@@ -35,8 +35,8 @@ True if the bitmap is stored successfully, False if a failure occurs.
 - Passing a bitmap width greater than [ClaimedLineDisplay.MaxBitmapSizeInPixels](claimedlinedisplay_maxbitmapsizeinpixels.md) will result in an exception.
 
 ## -see-also
-[LineDisplayStoredBitmap.EscapeSequence](LineDisplayStoredBitmap_EscapeSequence.md)
-[LineDisplayWindow.TryDisplayStoredBitmapAtCursorAsync(LineDisplayStoredBitmap)](linedisplaywindow_trydisplaystoredbitmapatcursorasync_100389007.md)
+[LineDisplayStoredBitmap.EscapeSequence](LineDisplayStoredBitmap_EscapeSequence.md),
+[LineDisplayWindow.TryDisplayStoredBitmapAtCursorAsync(LineDisplayStoredBitmap)](linedisplaywindow_trydisplaystoredbitmapatcursorasync_100389007.md),
 [LineDisplayStoredBitmap.TryDeleteAsync()](linedisplaystoredbitmap_trydeleteasync_41251962.md)
 
 ## -see-also

@@ -23,7 +23,7 @@ To have your background task be notified when an SMS has been received, handle t
 
 ## -see-also
 
-[App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations), [SMS send and receive sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SmsSendAndReceive), [SMS send and receive sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620605)
+[App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations), [SMS send and receive sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SmsSendAndReceive), [SMS send and receive sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SmsSendAndReceive)
 
 ## -capabilities
 

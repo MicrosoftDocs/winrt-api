@@ -17,4 +17,4 @@ Represents a MIDI message which is implemented by all MIDI message classes.
 ## -examples
 
 ## -see-also
-[MIDI  sample ](https://go.microsoft.com/fwlink/p/?LinkID=394281)
+[MIDI  sample ](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MIDI)

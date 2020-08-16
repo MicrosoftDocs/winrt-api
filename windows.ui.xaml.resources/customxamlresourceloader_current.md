@@ -10,9 +10,11 @@ public Windows.UI.Xaml.Resources.CustomXamlResourceLoader Current { get;  set; }
 # Windows.UI.Xaml.Resources.CustomXamlResourceLoader.Current
 
 ## -description
+
 Returns the active [CustomXamlResourceLoader](customxamlresourceloader.md) instance.
 
 ## -property-value
+
 The active [CustomXamlResourceLoader](customxamlresourceloader.md) instance.
 
 ## -remarks

@@ -29,4 +29,4 @@ For how-to guidance for using adaptive streaming in your app, see [Adaptive stre
 
 ## -see-also
 
-[Adaptive streaming sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620479), [Adaptive streaming](https://docs.microsoft.com/windows/uwp/audio-video-camera/adaptive-streaming), [PlayReady sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/PlayReady)
+[Adaptive streaming sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AdaptiveStreaming), [Adaptive streaming](https://docs.microsoft.com/windows/uwp/audio-video-camera/adaptive-streaming), [PlayReady sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/PlayReady)

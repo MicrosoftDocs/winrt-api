@@ -17,6 +17,8 @@ Gets or sets the vertical alignment ratio of the view box.
 
 The vertical alignment ratio of the view box.
 
+The default value is set to 0.5.
+
 ## -remarks
 
 ## -see-also

@@ -74,7 +74,7 @@ IAsyncAction MainPage::CopyFileAsync()
 }
 ```
 
-```cpp
+```cppcx
 //Get the app's temporary folder
 StorageFolder^ sourceFolder = ApplicationData::Current->TemporaryFolder;
 StorageFolder^ targetFolder = ApplicationData::Current->LocalFolder;

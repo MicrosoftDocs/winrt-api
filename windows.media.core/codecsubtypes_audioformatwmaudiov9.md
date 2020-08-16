@@ -10,7 +10,7 @@ public string AudioFormatWMAudioV9 { get; }
 # Windows.Media.Core.CodecSubtypes.AudioFormatWMAudioV9
 
 ## -description
-Gets the string representation of the GUID for the Windows Media Audio 9 Professional codec or Windows Media Audio 9.1 Professional codec audio subtype.
+Gets the string representation of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the Windows Media Audio 9 Professional codec or Windows Media Audio 9.1 Professional codec audio subtype.
 
 ## -property-value
 The string representation of the GUID for the Windows Media Audio 9 Professional codec or Windows Media Audio 9.1 Professional codec audio subtype.

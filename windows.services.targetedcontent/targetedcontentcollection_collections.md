@@ -10,7 +10,9 @@ public IVectorView<TargetedContentCollection> Collections { get; }
 # Windows.Services.TargetedContent.TargetedContentCollection.Collections
 
 ## -description
-Gets the TargetedContentCollection object in a TargetedContentContainer object.
+
+Gets a collection of [TargetedContentCollection](targetedcontentcollection.md) objects in this content collection.
+
 ## -property-value
 
 ## -remarks
@@ -19,6 +21,6 @@ Gets the TargetedContentCollection object in a TargetedContentContainer object.
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

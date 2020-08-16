@@ -61,4 +61,4 @@ An unspecified location.
 
 ## -see-also
 
-[fileOpenPicker.suggestedStartLocation property](fileopenpicker_suggestedstartlocation.md), [fileSavePicker.suggestedStartLocation property](filesavepicker_suggestedstartlocation.md), [folderPicker.suggestedStartLocation property](folderpicker_suggestedstartlocation.md), [HomeGroup sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620549)
+[fileOpenPicker.suggestedStartLocation property](fileopenpicker_suggestedstartlocation.md), [fileSavePicker.suggestedStartLocation property](filesavepicker_suggestedstartlocation.md), [folderPicker.suggestedStartLocation property](folderpicker_suggestedstartlocation.md), [HomeGroup sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HomeGroup)

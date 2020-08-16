@@ -38,7 +38,7 @@ The following example shows how to get the row and column of the element that ra
 
 
 
-[!code-xml[1](../windows.ui.xaml.controls.primitives/code/GridGetSet/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.controls.primitives/code/GridGetSet/csharp/Page.xaml#Snippet1)]
 
 [!code-csharp[2](../windows.ui.xaml.controls.primitives/code/GridGetSet/csharp/Page.xaml.cs#Snippet2)]
 <!--     <desc><p xml:space="preserve">The preceding example produces output that is similar to the following illustration.</p>

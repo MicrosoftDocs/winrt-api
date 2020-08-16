@@ -29,6 +29,11 @@ To connect content to your AppWindow, call [ElementCompositionPreview.SetAppWind
 
 You can only connect XAML content to your AppWindow, there is no support for native DirectX or Holographic content.
 
+> [!TIP]
+>For more info and code demonstrating AppWindow, see [Show multiple views for an app](/windows/uwp/design/layout/show-multiple-views) and [Show multiple views with AppWindow](/windows/uwp/design/layout/app-window).
+>
+> A sample that shows how to use the AppWindow API can be found in the Windows Universal Samples repo on GitHub under [Samples/AppWindow](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AppWindow).
+
 ### Limitations
 
 Limitations in the current preview version of AppWindow include (this is a non-exhaustive list):

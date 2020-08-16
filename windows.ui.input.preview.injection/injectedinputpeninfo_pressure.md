@@ -10,10 +10,12 @@ public double Pressure { get;  set; }
 # Windows.UI.Input.Preview.Injection.InjectedInputPenInfo.Pressure
 
 ## -description
+
 Gets or sets the force exerted by the pointer device on the surface of the digitizer.
 
 ## -property-value
-The pen contact force exerted on the digitizer surface, normalized to a range between 0 and 1024. The default is 0.
+
+A value between 0 and 1 that represents the pen contact force exerted on the digitizer surface. The default is 0.
 
 ## -remarks
 
@@ -28,18 +30,14 @@ Using input injection requires the following be added to the Package.appxmanifes
 - To `<Capabilities>`
     - `<rescap:Capability Name="inputInjectionBrokered" />`
 
-
 ## -examples
+
+Here are some downloadable samples demonstrating basic input and input injection:
+
+- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
+- [Touch injection sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20Touch%20injection%20sample)
+- [Input: XAML user input events sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)
 
 ## -see-also
 
-### Conceptual
-
-[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions)
-
-### Samples
-
-- [Simulate user input through input injection](https://review.docs.microsoft.com/windows/uwp/design/input/input-injection?branch=kbridge-inputinjection)
-- [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
-- [Touch injection sample](https://go.microsoft.com/fwlink/p/?LinkID=267906)
-- [Input: XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
+[Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)

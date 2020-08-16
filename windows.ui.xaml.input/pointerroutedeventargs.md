@@ -60,16 +60,15 @@ Typically, the object returned by this method is used to feed pointer data to a 
 | 1709 | 16299 | IsGenerated |
 
 ## -examples
-The following code example shows scenario 2 from the [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855). This code shows some usage patterns for direct manipulation using the [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md), [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md), [PointerEntered](../windows.ui.xaml/uielement_pointerentered.md), [PointerExited](../windows.ui.xaml/uielement_pointerexited.md), and [PointerMoved](../windows.ui.xaml/uielement_pointermoved.md) events.
+The following code example shows scenario 2 from the [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample). This code shows some usage patterns for direct manipulation using the [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md), [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md), [PointerEntered](../windows.ui.xaml/uielement_pointerentered.md), [PointerExited](../windows.ui.xaml/uielement_pointerexited.md), and [PointerMoved](../windows.ui.xaml/uielement_pointermoved.md) events.
 
 
 
-[!code-xml[Scenario2Xaml](../windows.ui.xaml/code/input/csharp/Scenario2.xaml#SnippetScenario2Xaml)]
+[!code-xaml[Scenario2Xaml](../windows.ui.xaml/code/input/csharp/Scenario2.xaml#SnippetScenario2Xaml)]
 
 [!code-csharp[Scenario2Code](../windows.ui.xaml/code/input/csharp/Scenario2.xaml.cs#SnippetScenario2Code)]
 
 [!code-vb[Scenario2Code](../windows.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
 
 ## -see-also
-[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)
-d), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)
+[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)

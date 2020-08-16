@@ -44,6 +44,9 @@ To learn more about the locations that your app can access, see [File access per
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | GetFolderForUserAsync |
+| 2004 | 19041 | GetFolderAsync |
+| 2004 | 19041 | RequestAccessAsync |
+| 2004 | 19041 | RequestAccessForUserAsync |
 
 ## -examples
 
@@ -71,4 +74,4 @@ After the [CreateFileAsync](storagefolder_createfileasync_1058061470.md) method 
 
 ## -see-also
 
-[File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445), [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions), [Enumerate and query files and folders](https://docs.microsoft.com/windows/uwp/files/quickstart-listing-files-and-folders), [StorageFile class](storagefile.md), [StorageFolder class](storagefolder.md), [Windows.Storage.Search namespace](../windows.storage.search/windows_storage_search.md), [HomeGroup sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620549)
+[File access sample](http://go.microsoft.com/fwlink/p/?linkid=231445), [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions), [Enumerate and query files and folders](https://docs.microsoft.com/windows/uwp/files/quickstart-listing-files-and-folders), [StorageFile class](storagefile.md), [StorageFolder class](storagefolder.md), [Windows.Storage.Search namespace](../windows.storage.search/windows_storage_search.md), [HomeGroup sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HomeGroup)

@@ -43,7 +43,7 @@ The following Windows 8-specific code example demonstrates how to use a WebView
 
 
 
-[!code-xml[WebViewBrushXaml](../windows.ui.xaml.input/code/Controls_WebView/csharp/Scenario6.xaml#SnippetWebViewBrushXaml)]
+[!code-xaml[WebViewBrushXaml](../windows.ui.xaml.input/code/Controls_WebView/csharp/Scenario6.xaml#SnippetWebViewBrushXaml)]
 
 [!code-cpp[WebViewBrushCode](../windows.ui.xaml.input/code/Controls_WebView/cpp/Scenario6.xaml.cpp#SnippetWebViewBrushCode)]
 
@@ -52,5 +52,4 @@ The following Windows 8-specific code example demonstrates how to use a WebView
 [!code-vb[WebViewBrushCode](../windows.ui.xaml.input/code/Controls_WebView/vbnet/Scenario6.xaml.vb#SnippetWebViewBrushCode)]
 
 ## -see-also
-[TileBrush](../windows.ui.xaml.media/tilebrush.md), [Brush](../windows.ui.xaml.media/brush.md), [WebView](webview.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582)
-soft.com/fwlink/p/?linkid=238582)
+[TileBrush](../windows.ui.xaml.media/tilebrush.md), [Brush](../windows.ui.xaml.media/brush.md), [WebView](webview.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

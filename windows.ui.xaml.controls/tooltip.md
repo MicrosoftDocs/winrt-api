@@ -28,7 +28,7 @@ Represents a control that creates a pop-up window that displays information for 
 
 ## -remarks
 
-A ToolTip is a short description that is linked to another control or object. ToolTip s help users understand unfamiliar objects that aren't described directly in the UI. They display automatically when the user presses and holds or hovers the mouse pointer over a control. The ToolTip disappears after a short time, or when the user moves the pointer.
+A ToolTip is a short description that is linked to another control or object. ToolTips help users understand unfamiliar objects that aren't described directly in the UI. They display automatically when the user presses and holds or hovers the mouse pointer over a control. The ToolTip disappears after a short time, or when the user moves the pointer.
 
 Here's a ToolTip for a [Button](button.md).
 
@@ -111,7 +111,7 @@ This table shows the resources used by the ToolTip control.
 
 This example demonstrates basic tooltips and the properties for placement.
 
-[!code-xml[1](../windows.ui.xaml.controls.primitives/code/System.Windows.Controls.ToolTip/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.controls.primitives/code/System.Windows.Controls.ToolTip/csharp/Page.xaml#Snippet1)]
 
 ## -see-also
-[ContentControl](contentcontrol.md), [ToolTipService](tooltipservice.md), [Tooltips overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/tooltips), [ToolTip styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML essential controls sample](https://go.microsoft.com/fwlink/p/?linkid=226951)
+[ContentControl](contentcontrol.md), [ToolTipService](tooltipservice.md), [Tooltips overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/tooltips), [ToolTip styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML essential controls sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20essential%20controls%20sample)

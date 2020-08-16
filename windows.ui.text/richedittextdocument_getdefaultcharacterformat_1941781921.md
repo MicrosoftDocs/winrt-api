@@ -9,12 +9,13 @@ public ITextCharacterFormat RichEditTextDocument.GetDefaultCharacterFormat()
 
 # Windows.UI.Text.RichEditTextDocument.GetDefaultCharacterFormat
 
+
 ## -description
+
 Retrieves the default character formatting attributes of the document.
 
-## -parameters
-
 ## -returns
+
 The default character formatting attributes.
 
 ## -remarks

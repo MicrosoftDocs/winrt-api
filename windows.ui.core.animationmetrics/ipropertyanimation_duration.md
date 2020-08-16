@@ -21,4 +21,4 @@ The duration can be 0, in which case all animated properties are instantly set t
 ## -examples
 
 ## -see-also
-[Delay](ipropertyanimation_delay.md), [Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462)
+[Delay](ipropertyanimation_delay.md), [Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

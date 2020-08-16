@@ -19,4 +19,4 @@ Represents a cellular protocol configuration option change event that triggers a
 ## -examples
 
 ## -capabilities
-CellularDeviceControl
+cellularDeviceControl

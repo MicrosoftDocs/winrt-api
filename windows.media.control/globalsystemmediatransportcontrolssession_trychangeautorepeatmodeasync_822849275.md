@@ -26,3 +26,6 @@ Bool indicating success.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

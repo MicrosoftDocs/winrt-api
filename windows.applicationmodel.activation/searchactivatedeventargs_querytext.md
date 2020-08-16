@@ -20,4 +20,4 @@ The text to search for.
 ## -examples
 
 ## -see-also
-[Search app extension sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [SearchActivatedEventArgs class](searchactivatedeventargs.md), [Windows.ApplicationModel.Search namespace](../windows.applicationmodel.search/windows_applicationmodel_search.md)
+[Search app extension sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Search%20contract%20sample), [SearchActivatedEventArgs class](searchactivatedeventargs.md), [Windows.ApplicationModel.Search namespace](../windows.applicationmodel.search/windows_applicationmodel_search.md)

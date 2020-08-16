@@ -75,11 +75,11 @@ This example creates a VisualTransition that specifies that when the user moves 
 
 
 
-[!code-xml[8](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/SkinnedButton.xaml#Snippet8)]
+[!code-xaml[8](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/SkinnedButton.xaml#Snippet8)]
 
 
 
-[!code-xml[VisualTransitions](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#SnippetVisualTransitions)]
+[!code-xaml[VisualTransitions](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#SnippetVisualTransitions)]
 
 ## -see-also
 [DependencyObject](dependencyobject.md), [Transitions](uielement_transitions.md), [VisualStateGroup](visualstategroup.md), [VisualStateManager](visualstatemanager.md), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10))

@@ -12,12 +12,21 @@ public bool DisplayState.CanConnectTargetToView(DisplayTarget target, DisplayVie
 
 ## -description
 
+Indicates whether or not the specified target can be connected to the specified view.
+
 ## -parameters
+
 ### -param target
+
+A [DisplayTarget](displaytarget.md) object.
 
 ### -param view
 
+A [DisplayView](displayview.md) object.
+
 ## -returns
+
+`true` if *target* can be connected to *view*, otherwise `false`.
 
 ## -remarks
 

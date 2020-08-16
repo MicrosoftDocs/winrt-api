@@ -58,7 +58,7 @@ clientSocket.Control().MessageType(Windows::Networking::Sockets::SocketMessageTy
 // Now you can call the ConnectAsync function to connect the MessageWebSocket.
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Networking::Sockets;
 
 MessageWebSocket^ clientWebSocket = ref new MessageWebSocket();
@@ -107,4 +107,4 @@ For more information on using MessageWebSocketControl, see [How to use advanced 
 [MessageWebSocket.Control](messagewebsocket_control.md),
 [MessageWebSocketInformation](messagewebsocketinformation.md),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
-[WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623)
+[WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket)

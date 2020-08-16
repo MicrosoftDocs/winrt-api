@@ -28,6 +28,7 @@ This API is supported in native apps only.
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | ShareCompleted |
+| 2004 | 19041 | ShareCanceled |
 
 ## -examples
 
@@ -37,5 +38,5 @@ This API is supported in native apps only.
 [!code-js[HowToShareTextBasic](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareText.js#SnippetHowToShareTextBasic)]
 
 ## -see-also
-[Clipboard sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620520), [Sharing content source app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620596)
+[Clipboard sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Clipboard), [Sharing content source app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620596)
 soft.com/fwlink/p/?LinkId=620596)

@@ -19,7 +19,6 @@ This trigger works similarly to the BluetoothAdvertisementPublisher class with t
 
 The local advertisement resource is limited at the protocol layer. Usage of this resource is best suited for controlled scenarios such as enterprise use cases. Other apps may compete for this limited resource and regular broadcast of advertisements for any specific use case cannot be guaranteed.
 
-
 The following advertisement types are allowed:
 
 + Manufacturer Specific Information (0xFF)
@@ -59,6 +58,14 @@ The following advertisement types are system-reserved and are not allowed:
 + Simple Pairing Randomizer R256 (0x1E)
 + 3D Information Data (0x3D)
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | IncludeTransmitPowerLevel |
+| 2004 | 19041 | IsAnonymous |
+| 2004 | 19041 | PreferredTransmitPowerLevelInDBm |
+| 2004 | 19041 | UseExtendedFormat |
 
 ## -examples
 

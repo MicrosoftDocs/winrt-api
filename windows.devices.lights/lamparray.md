@@ -13,9 +13,9 @@ public class LampArray
 ## -description
 Represents a LampArray device attached the system.  Currently, only [HID LampArrays](https://www.usb.org/sites/default/files/hutrr84_-_lighting_and_illumination_page.pdf) are supported.
 ## -remarks
-LampArray devices have one or more lamp indexes (e.g. lights/LEDs/bulbs, etc…) whose color state can be directly manipulated.  Static information (retrieved from the device) describe supported colors, geometric positions and intended purposes for each lamp index.
+LampArray devices have one or more lamp indexes (for example, lights/LEDs/bulbs, etc…) whose color state can be directly manipulated.  Static information (retrieved from the device) describe supported colors, geometric positions and intended purposes for each lamp index.
 
-These devices can be found as part of composite devices (e.g. keyboard with RGB lighting) or as standalone.
+These devices can be found as part of composite devices (for example, keyboard with RGB lighting) or as standalone.
 
 An application can set lamp state at any time, but state will only be applied by the system while application is in focus.
 

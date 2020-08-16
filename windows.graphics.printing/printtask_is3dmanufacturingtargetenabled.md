@@ -29,4 +29,4 @@ By default, [IsPrinterTargetEnabled](printtask_isprintertargetenabled.md) is **t
 ## -examples
 
 ## -see-also
-[3D printing](https://go.microsoft.com/fwlink/p/?LinkID=304231)
+[3D printing](http://msdn.microsoft.com/en-us/windows/hardware/bg183398)

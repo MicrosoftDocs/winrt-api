@@ -18,23 +18,22 @@ You can create a UsbDeviceClass object by specifying any one of the following se
 + Class and subclass codes.
 + Class, subclass, and protocol codes.
 
+## -examples
 
-This code example shows how to specify the device class and subclass codes to obtain a [UsbDevice](usbdevice.md) object.
+This C# code example shows how to specify the device class and subclass codes to obtain a [UsbDevice](usbdevice.md) object.
 
 ```csharp
-    byte deviceClass = 0xf0;
-    byte deviceSubclass = 0x01;
-    
-    var myDevices = await 
-                          Windows.Devices.Enumeration.DeviceInformation.FindAllAsync(
-                          UsbDevice.GetDeviceClassSelector(
-                          new UsbDeviceClass() {
-                          Class = deviceClass, Subclass = deviceSubclass }));
+byte deviceClass = 0xf0;
+byte deviceSubclass = 0x01;
 
+var myDevices = await
+    Windows.Devices.Enumeration.DeviceInformation.FindAllAsync(
+        Windows.Devices.Usb.UsbDevice.GetDeviceClassSelector(
+            new Windows.Devices.Usb.UsbDeviceClass()
+            {
+                ClassCode = deviceClass,
+                SubclassCode = deviceSubclass
+            }));
 ```
-
-
-
-## -examples
 
 ## -see-also

@@ -9,12 +9,13 @@ public bool RichEditTextDocument.CanRedo()
 
 # Windows.UI.Text.RichEditTextDocument.CanRedo
 
+
 ## -description
+
 Determines whether one or more redo operations exist.
 
-## -parameters
-
 ## -returns
+
 **true** if one or more redo operations exist; otherwise, **false**.
 
 ## -remarks

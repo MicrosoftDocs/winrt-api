@@ -18,7 +18,7 @@ The [activationKind.search](../windows.applicationmodel.activation/activationkin
 ## -remarks
 
 ## -examples
-The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to determine when an app is activated for search in the app's activated event handler.
+The [Search contract sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Search%20contract%20sample) demonstrates how to determine when an app is activated for search in the app's activated event handler.
 
 
 [!code-csharp[Snippetsearchkind_js](../windows.applicationmodel.search/code/SearchContract/js/js/default.js#Snippetsearchkind_js)]

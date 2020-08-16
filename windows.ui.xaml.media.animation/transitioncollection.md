@@ -57,11 +57,11 @@ This example shows the XAML syntax for setting a TransitionCollection object ele
 
 
 
-[!code-xml[EntranceThemeTransitionSimple](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionSimple)]
+[!code-xaml[EntranceThemeTransitionSimple](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionSimple)]
 
 
 
-[!code-xml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
+[!code-xaml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
 
 ## -see-also
 [UIElement.Transitions](../windows.ui.xaml/uielement_transitions.md), [ContentControl.ContentTransitions](../windows.ui.xaml.controls/contentcontrol_contenttransitions.md), [Panel.ChildrenTransitions](../windows.ui.xaml.controls/panel_childrentransitions.md), [IVector&lt;T&gt;](../windows.foundation.collections/ivector_1.md), [IIterable&lt;T&gt;](../windows.foundation.collections/iiterable_1.md), [IList<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1)

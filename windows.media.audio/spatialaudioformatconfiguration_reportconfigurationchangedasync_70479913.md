@@ -15,7 +15,7 @@ Allows a spatial audio format companion app to report that the configuration has
 
 ## -parameters
 ### -param subtype
-String of the GUID for the spatial audio format that's configuration has changed.
+String of the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the spatial audio format that's configuration has changed.
 
 ## -returns
 An async action.

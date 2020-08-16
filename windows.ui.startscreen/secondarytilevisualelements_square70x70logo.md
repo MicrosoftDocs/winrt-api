@@ -24,4 +24,4 @@ If this image is not specified, the [Square150x150Logo](secondarytilevisualeleme
 ## -examples
 
 ## -see-also
-[Square150x150Logo](secondarytilevisualelements_square150x150logo.md), [Square30x30Logo](secondarytilevisualelements_square30x30logo.md), [Square310x310Logo](secondarytilevisualelements_square310x310logo.md), [Wide310x150Logo](secondarytilevisualelements_wide310x150logo.md), [Secondary tiles sample](https://go.microsoft.com/fwlink/p/?linkid=231487)
+[Square150x150Logo](secondarytilevisualelements_square150x150logo.md), [Square30x30Logo](secondarytilevisualelements_square30x30logo.md), [Square310x310Logo](secondarytilevisualelements_square310x310logo.md), [Wide310x150Logo](secondarytilevisualelements_wide310x150logo.md), [Secondary tiles sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Secondary%20tiles%20sample)

@@ -9,19 +9,24 @@ public IAsyncOperation<string> WebView.InvokeScriptAsync(String scriptName, IIte
 
 # Windows.UI.Xaml.Controls.WebView.InvokeScriptAsync
 
+
 ## -description
+
 Executes the specified script function from the currently loaded HTML, with specific arguments, as an asynchronous action.
 
-## -params
+## -parameters
 
 ### -param scriptName
+
 The name of the script function to invoke.
 
 ### -param arguments
+
 A string array that packages arguments to the script function.
 
 ## -returns
-When this method returns, the string result of the script invocation.
+
+An asynchronous operation object from which, on successful completion, you can retrieve the string result of the script invocation.
 
 ## -remarks
 

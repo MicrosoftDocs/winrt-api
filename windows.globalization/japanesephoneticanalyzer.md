@@ -34,4 +34,4 @@ You can also use the method overload [JapanesePhoneticAnalyzer.GetWords(input, m
 
 ## -see-also
 
-[JapanesePhoneme](japanesephoneme.md), [Japanese phonetic analysis sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620555)
+[JapanesePhoneme](japanesephoneme.md), [Japanese phonetic analysis sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/JapanesePhoneticAnalysis)

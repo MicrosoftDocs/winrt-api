@@ -9,15 +9,19 @@ public IAsyncAction UserDataTaskListCreateOrUpdateTaskRequest.ReportCompletedAsy
 
 # Windows.ApplicationModel.UserDataTasks.DataProvider.UserDataTaskListCreateOrUpdateTaskRequest.ReportCompletedAsync
 
+
 ## -description
+
 Informs the client app that the request was processed successfully.
 
-## -params
+## -parameters
 
-## -param createdOrUpdatedUserDataTask
+### -param createdOrUpdatedUserDataTask
+
 The [UserDataTask](../windows.applicationmodel.userdatatasks/userdatatask.md) of the task that was created or updated.
 
 ## -returns
+
 An asynchronous operation.
 
 ## -remarks
@@ -25,3 +29,4 @@ An asynchronous operation.
 ## -see-also
 
 ## -examples
+

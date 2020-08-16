@@ -10,21 +10,17 @@ public class CompositionPropertySet : Windows.UI.Composition.CompositionObject, 
 # Windows.UI.Composition.CompositionPropertySet
 
 ## -description
+
 Stores values as key-value pairs.
-    **CompositionPropertySet**
-   s are [CompositionObject](compositionobject.md) s that allow storage of key values pairs that can be shared across the application and are not tied to the lifetime of another composition object. 
-    **CompositionPropertySet**
-   s are most commonly used with animations, where they maintain key-value pairs that are referenced to drive portions of composition animations. 
-    **CompositionPropertySet**
-   s provide the ability to insert key-value pairs or retrieve a value for a given key. For more information on using 
-    **CompositionPropertySet**
-   with animations, see the [Animations Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-animation) page.
 
 ## -remarks
+
+**CompositionPropertySet**s are [CompositionObject](compositionobject.md)s that allow storage of key values pairs that can be shared across the application and are not tied to the lifetime of another composition object. **CompositionPropertySet**s are most commonly used with animations, where they maintain key-value pairs that are referenced to drive portions of composition animations. **CompositionPropertySet**s provide the ability to insert key-value pairs or retrieve a value for a given key. For more information on using **CompositionPropertySet** with animations, see the [Animations Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-animation) page.
+
 CompositionPropertySet does not support a delete function – ensure you use CompositionPropertySet to store values that will be shared across the application.
 
 > [!NOTE]
-> Inserting a new value into a CompositionPropertySet for a key that already exists with overwrite the old value with the new one.
+> Inserting a new value into a CompositionPropertySet for a key that already exists will overwrite the old value with the new one.
 
 ### Version history
 

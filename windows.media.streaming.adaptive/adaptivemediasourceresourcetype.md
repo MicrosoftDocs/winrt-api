@@ -30,7 +30,7 @@ The resource is a cryptographic initialization vector.
 
 
 ### -field MediaSegmentIndex:5
-
+The resource is a media segment index.
 
 ## -remarks
 

@@ -304,7 +304,7 @@ Starting in Windows 10, you can use the [WebView.Settings](webview_settings.md)
 
 To enable sharing WebView content with other apps, use the [CaptureSelectedContentToDataPackageAsync](webview_captureselectedcontenttodatapackageasync_1187796026.md) method, which returns the selected content as a [DataPackage](../windows.applicationmodel.datatransfer/datapackage.md). This method is asynchronous, so you must use a deferral to prevent your [DataRequested](../windows.applicationmodel.datatransfer/datatransfermanager_datarequested.md) event handler from returning before the asynchronous call is complete.
 
-To get a preview image of the WebView 's current content, use the [CapturePreviewToStreamAsync](webview_capturepreviewtostreamasync_1169189879.md) method. This method creates an image of the current content and writes it to the specified stream.
+To get a preview image of the WebView's current content, use the [CapturePreviewToStreamAsync](webview_capturepreviewtostreamasync_1169189879.md) method. This method creates an image of the current content and writes it to the specified stream.
 
 ### Execution modes
 
@@ -318,7 +318,7 @@ The supported [WebViewExecutionMode](wevbviewexecutionmode.md) values are:
 
 When running in a separate process, WebView exibits two behavior differences:
 
-- The WebView process could terminate. You can be notified of this by listening to the [SeparateProcessLost](webview_seperateprocesslost.md) event.
+- The WebView process could terminate. You can be notified of this by listening to the [SeparateProcessLost](webview_separateprocesslost.md) event.
 - The WebView process could asynchronously reject keyboard focus. In this case, the WebView.Focus method returns **true**, and then immediately (but asynchronously), focus moves away from the WebView. (Other ways of moving focus behave similarly, such as FocusManager.TryMoveFocus.) You can track this more explicitly by using the [FocusManager.TryFocusAsync](../windows.ui.xaml.input/focusmanager_tryfocusasync_1779533284.md) or [FocusManager.TryMoveFocusAsync](../windows.ui.xaml.input/focusmanager_trymovefocus_582274934.md) APIs.
 
 This example demonstrates how to create a WebView control that runs in a separate process from the host app, and will be re-created if the separate process is lost.
@@ -404,7 +404,7 @@ If a web page hosted in a WebView uses the JavaScript **Alert** function, it wil
 
 You might be able to intercept the information displayed by an **Alert** and do what you want with it in the host application. Whether this is possible depends on how the page is written and whether you have control of it. A sample is available that demonstrates one possible technique to do this. The sample is written for Windows 8.1 and Windows Phone 8.1, but will also work for apps using the Universal Windows Platform (UWP). However, this might not work for every scenario.
 
-[How to intercept JavaScript alert in WebView in universal Windows apps sample](https://code.msdn.microsoft.com/windowsapps/How-to-intercept-854d33da)
+[How to intercept JavaScript alert in WebView in Universal Windows apps sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/How%20to%20intercept%20JavaScript%20alert%20in%20WebView%20in%20universal%20Windows%20apps)
 
 ### Notes for previous versions
 
@@ -454,6 +454,13 @@ WebView always uses Internet Explorer 10 in document mode.
 
 ## -examples
 
+> [!TIP]
+> For more info, design guidance, and code examples, see [Web view](/windows/uwp/design/controls-and-patterns/web-view).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the WebView in action](xamlcontrolsgallery:/item/WebView).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
 The following code example demonstrates how to navigate a WebView to a URI contained in a [TextBox](textbox.md) named `Address`.
 
 ```csharp
@@ -478,4 +485,4 @@ webView2.NavigateToString(
 
 ## -see-also
 
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [WebView guidelines](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/web-view), [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (HTML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620624), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [WebView guidelines](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/web-view), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

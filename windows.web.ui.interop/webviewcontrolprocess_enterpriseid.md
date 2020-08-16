@@ -10,9 +10,11 @@ public string EnterpriseId { get; }
 # Windows.Web.UI.Interop.WebViewControlProcess.EnterpriseId
 
 ## -description
+
 Gets the enterprise ID of this proces.
 
 ## -property-value
+
 The enterprise ID of this process.
 
 ## -remarks

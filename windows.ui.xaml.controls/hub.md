@@ -44,7 +44,7 @@ You can handle the [SectionHeaderClick](hub_sectionheaderclick.md) event to resp
 
 ### Hub and SemanticZoom
 
-If you declare a Hub as the [ZoomedInView](semanticzoom_zoomedinview.md) of a [SemanticZoom](semanticzoom.md), the section headers change to [HyperlinkButton](hyperlinkbutton.md) s that invoke the [ZoomedOutView](semanticzoom_zoomedoutview.md) of the [SemanticZoom](semanticzoom.md) when they're clicked.
+If you declare a Hub as the [ZoomedInView](semanticzoom_zoomedinview.md) of a [SemanticZoom](semanticzoom.md), the section headers change to [HyperlinkButton](hyperlinkbutton.md)s that invoke the [ZoomedOutView](semanticzoom_zoomedoutview.md) of the [SemanticZoom](semanticzoom.md) when they're clicked.
 
 ### Control style and template
 

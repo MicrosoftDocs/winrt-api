@@ -18,4 +18,4 @@ Represents a connection to a smart card.
 ## -examples
 
 ## -see-also
-[IClosable](../windows.foundation/iclosable.md), [Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[IClosable](../windows.foundation/iclosable.md), [Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)

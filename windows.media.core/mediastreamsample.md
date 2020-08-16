@@ -13,7 +13,7 @@ public class MediaStreamSample : Windows.Media.Core.IMediaStreamSample
 Represents a media sample used by the [MediaStreamSource](mediastreamsource.md).
 
 ## -remarks
-See the [MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021) for an example of using Media Stream Source in a Universal Windows app.
+See the [MediaStreamSource Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/MediaStreamSource%20streaming%20sample) for an example of using Media Stream Source in a Universal Windows app.
 
 ### Version history
 
@@ -25,4 +25,4 @@ See the [MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309
 ## -examples
 
 ## -see-also
-[MediaStreamSource Sample](https://go.microsoft.com/fwlink/p/?LinkID=309021)
+[MediaStreamSource Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/MediaStreamSource%20streaming%20sample)

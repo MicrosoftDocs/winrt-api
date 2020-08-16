@@ -9,15 +9,19 @@ public string StoreConfiguration.GetStoreWebAccountIdForUser(User user)
 
 # Windows.ApplicationModel.Store.Preview.StoreConfiguration.GetStoreWebAccountIdForUser
 
+
 ## -description
+
 Gets the Store user account ID for the specified user who is signed in to the Store.
 
-## -params
+## -parameters
 
-## -param user
+### -param user
+
 A [Windows.System.User](../windows.system/user.md) object that identifies the user for which you want to retrieve the Store user account ID.
 
 ## -returns
+
 The Store user account ID for the specified user.
 
 ## -remarks
@@ -25,3 +29,4 @@ The Store user account ID for the specified user.
 ## -see-also
 
 ## -examples
+

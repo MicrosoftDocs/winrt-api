@@ -25,7 +25,7 @@ The URI created by combining and normalizing the *contentIdentifier* and *relati
 ## -remarks
 
 ## -examples
-The following code example shows how to use this method with a resolver that will serve a file from the app package. For a complete example, see the [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582).
+The following code example shows how to use this method with a resolver that will serve a file from the app package. For a complete example, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
 
 ```csharp
 
@@ -57,7 +57,7 @@ public sealed class StreamUriWinRTResolver : IUriToStreamResolver
         string path = uri.AbsolutePath;
 
         // Because of the signature of the this method, it can't use await, so we 
-        // call into a seperate helper method that can use the C# await pattern.
+        // call into a separate helper method that can use the C# await pattern.
         return GetContent(path).AsAsyncOperation();
     }
 
@@ -81,4 +81,4 @@ public sealed class StreamUriWinRTResolver : IUriToStreamResolver
 
 
 ## -see-also
-[NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md), [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582)
+[NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

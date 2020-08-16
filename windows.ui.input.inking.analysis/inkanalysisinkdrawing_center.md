@@ -10,7 +10,10 @@ public Point Center { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisInkDrawing.Center
 
 ## -description
+
 Gets the X, Y coordinates of the of the InkAnalysisInkDrawing object, in device-independent pixel (DIP), relative to the upper left-hand corner of the inking area.
+
+## -property-value
 
 ## -remarks
 

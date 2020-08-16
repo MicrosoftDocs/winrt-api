@@ -11,11 +11,11 @@ public System.Guid Uuid { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService.Uuid
 
 ## -description
-The GATT Service UUID associated with this GattDeviceService.
+Gets the GATT Service UUID associated with this **GattDeviceService**.
 
 ## -property-value
 
-    **A 128-bit Bluetooth GATT Service UUID, represented as a standard GUID object.**
+**A 128-bit Bluetooth GATT Service UUID, represented as a standard [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) object.**
   
 
 ## -remarks

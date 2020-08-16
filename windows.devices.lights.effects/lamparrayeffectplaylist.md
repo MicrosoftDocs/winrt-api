@@ -11,12 +11,13 @@ public class LampArrayEffectPlaylist : IIterable<ILampArrayEffect>, IVectorView<
 # Windows.Devices.Lights.Effects.LampArrayEffectPlaylist
 
 ## -description
-Used to either chain multiple effects together or start effects simultaneously.
+
+Used to either chain multiple effects together, or to start effects simultaneously.
 
 ## -remarks
-An effect must be [Appended](lamparrayeffectplaylist_append_292269384.md) to a LampArrayEffectPlaylist before it can be played.
-
-## -see-also
+ 
+Before you can play an effect, you must append it to a **LampArrayEffectPlaylist** (see [Append](lamparrayeffectplaylist_append_292269384.md)).
 
 ## -examples
 
+## -see-also

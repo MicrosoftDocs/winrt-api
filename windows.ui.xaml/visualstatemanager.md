@@ -79,7 +79,7 @@ The particular set of visual states contains one [VisualStateGroup](visualstateg
 
 
 
-[!code-xml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
+[!code-xaml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
 
 ```xaml
 <common:LayoutAwarePage>
@@ -127,4 +127,4 @@ VisualStateManager.GoToState(this, state, false); // 'this' is the LayoutAwarePa
 
 ## -see-also
 
-[DependencyObject](dependencyobject.md), [VisualStateGroup](visualstategroup.md), [VisualState](visualstate.md), [Storyboard](../windows.ui.xaml.media.animation/storyboard.md), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10)), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview),  [XAML control and app styling sample](https://go.microsoft.com/fwlink/p/?LinkID=258670)
+[DependencyObject](dependencyobject.md), [VisualStateGroup](visualstategroup.md), [VisualState](visualstate.md), [Storyboard](../windows.ui.xaml.media.animation/storyboard.md), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10)), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview),  [XAML control and app styling sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20control%20and%20app%20styling%20sample/C%23)

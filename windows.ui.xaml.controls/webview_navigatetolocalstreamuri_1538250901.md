@@ -29,8 +29,12 @@ The [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) interface has
 > [!NOTE]
 > Your [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) implementation must be agile to prevent deadlock that can occur when the UI thread waits for the [IUriToStreamResolver](../windows.web/iuritostreamresolver.md) to finish its work before continuing. For more info, see [Threading and Marshaling](https://docs.microsoft.com/cpp/cppcx/threading-and-marshaling-c-cx)
 
+If the app possesses the `enterpriseCloudSSO` capability,
+then web pages hosted inside the WebView control
+can use single sign on with Azure Active Directory (AAD) resources.
+
 ## -examples
-The following code example shows how to create and use a resolver that will serve a file from the app package. For a complete example, see the [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582).
+The following code example shows how to create and use a resolver that will serve a file from the app package. For a complete example, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
 
 ```csharp
 
@@ -62,7 +66,7 @@ public sealed class StreamUriWinRTResolver : IUriToStreamResolver
         string path = uri.AbsolutePath;
 
         // Because of the signature of the this method, it can't use await, so we 
-        // call into a seperate helper method that can use the C# await pattern.
+        // call into a separate helper method that can use the C# await pattern.
         return GetContent(path).AsAsyncOperation();
     }
 
@@ -86,6 +90,6 @@ public sealed class StreamUriWinRTResolver : IUriToStreamResolver
 
 
 ## -see-also
-[IUriToStreamResolver](../windows.web/iuritostreamresolver.md), [BuildLocalStreamUri](webview_buildlocalstreamuri_803594427.md), [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)
+[IUriToStreamResolver](../windows.web/iuritostreamresolver.md), [BuildLocalStreamUri](webview_buildlocalstreamuri_803594427.md), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)
 ## -capabilities
-enterpriseCloudSS
+enterpriseCloudSSO

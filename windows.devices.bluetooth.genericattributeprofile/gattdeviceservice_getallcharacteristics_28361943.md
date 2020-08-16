@@ -13,6 +13,9 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.Bluetooth.Gene
 ## -description
 Gets the collection of all characteristics belonging to this GattDeviceService instance.
 
+> [!IMPORTANT]
+> The **GetAllCharacteristics** API is deprecated, and it may not be available in future versions of Windows. Instead, use [GetCharacteristicsAsync](/uwp/api/windows.devices.bluetooth.genericattributeprofile.gattdeviceservice.getcharacteristicsasync).
+
 ## -returns
 The collection of all characteristics belonging to this GattDeviceService instance.
 

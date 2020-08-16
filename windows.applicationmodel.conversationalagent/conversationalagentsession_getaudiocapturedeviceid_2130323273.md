@@ -14,6 +14,9 @@ public string ConversationalAgentSession.GetAudioCaptureDeviceId()
 
 Synchronously retrieves the device ID for the current speech input device.
 
+> [!Important]
+> To avoid possible concurrency issues, we recommend using [GetAudioCaptureDeviceIdAsync](conversationalagentsession_getaudiocapturedeviceidasync_634409861.md) instead.
+
 ## -returns
 
 The ID as a string.

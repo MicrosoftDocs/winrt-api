@@ -35,7 +35,7 @@ Windows::ApplicationModel::Core::CoreApplication::UnhandledErrorDetected([](auto
 });
 ```
 
-```cpp
+```cppcx
 CoreApplication::UnhandledErrorDetected += ref new EventHandler<UnhandledErrorDetectedEventArgs^ >(
     [](Platform::Object^ sender, UnhandledErrorDetectedEventArgs^ ea) ->
 {

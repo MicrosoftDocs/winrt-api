@@ -10,7 +10,7 @@ public object CreateGuidArray(System.Guid[] value)
 # Windows.Foundation.PropertyValue.CreateGuidArray
 
 ## -description
-Creates a property value from an array of GUID.
+Creates a property value from an array of [GUID](/windows/win32/api/guiddef/ns-guiddef-guid)s.
 
 ## -parameters
 ### -param value

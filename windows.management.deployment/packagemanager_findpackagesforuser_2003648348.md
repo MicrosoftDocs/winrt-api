@@ -10,11 +10,11 @@ public Windows.Foundation.Collections.IIterable<Windows.ApplicationModel.Package
 # Windows.Management.Deployment.PackageManager.FindPackagesForUser
 
 ## -description
-Retrieves information about a specified family of packages installed for a specific user.
+Retrieves information about a specified family of [Packages](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) installed for a specific user.
 
 ## -parameters
 ### -param userSecurityId
-The user security identifier (SID). If this parameter is **null**, the packages are retrieved for the current user.
+The user security identifier (SID). If this parameter is String.Empty, the packages are retrieved for the current user.
 
 ### -param packageFamilyName
 The family name of packages to find. This parameter cannot be **null**.
@@ -27,7 +27,9 @@ If the method succeeds, an enumerable collection of package objects is returned.
 ## -examples
 
 ## -see-also
-[FindPackagesForUser(String)](packagemanager_findpackagesforuser_999371492.md), [FindPackagesForUser(String, String, String)](packagemanager_findpackagesforuser_292215772.md)
+
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [FindPackagesForUser(String)](packagemanager_findpackagesforuser_999371492.md), [FindPackagesForUser(String, String, String)](packagemanager_findpackagesforuser_292215772.md)
 
 ## -capabilities
 packageQuery

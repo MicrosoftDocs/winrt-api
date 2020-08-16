@@ -39,7 +39,7 @@ if (itemGridView().SelectionMode() == Windows::UI::Xaml::Controls::ListViewSelec
 }
 ```
 
-```cpp
+```cppcx
 if (itemGridView->SelectionMode == ListViewSelectionMode::Multiple ||
     itemGridView->SelectionMode == ListViewSelectionMode::Extended)
 {

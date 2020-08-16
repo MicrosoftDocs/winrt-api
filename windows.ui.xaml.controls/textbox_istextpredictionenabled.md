@@ -32,4 +32,4 @@ This property doesn't affect Input Method Editor (IME) for Japanese or Chinese l
 ## -examples
 
 ## -see-also
-[Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)
+[Touch keyboard text input sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TouchKeyboardTextInput)

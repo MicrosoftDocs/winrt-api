@@ -27,7 +27,7 @@ For scenarios like working with app data, when you have a PropertySet you have i
 
 There are other Windows Runtime APIs that use a PropertySet value as a direct value rather than wrapped in another class like [ApplicationDataContainer](../windows.storage/applicationdatacontainer.md). For example, [CoreApplication.Properties](../windows.applicationmodel.core/coreapplication_properties.md) returns a PropertySet.
 
-Various properties that report info from media and devices use PropertySet, for example [PlayToReceiver.Properties](../windows.media.playto/playtoreceiver_properties.md). However, there are other media/devices property sets that don't use PropertySet and instead use [MediaPropertySet](../windows.media.mediaproperties/mediapropertyset.md), because the identifier for those properties is better represented when keyed as a GUID rather than a string.
+Various properties that report info from media and devices use PropertySet, for example [PlayToReceiver.Properties](../windows.media.playto/playtoreceiver_properties.md). However, there are other media/devices property sets that don't use PropertySet and instead use [MediaPropertySet](../windows.media.mediaproperties/mediapropertyset.md), because the identifier for those properties is better represented when keyed as a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) rather than a string.
 
 In many cases where a Windows Runtime API uses a PropertySet as a value, it's actually shown as [IPropertySet](ipropertyset.md) in the signatures. PropertySet can be considered the practical implementation of [IPropertySet](ipropertyset.md) that's ready for use by app code. JavaScript code can treat any [IPropertySet](ipropertyset.md) value as if it implemented the PropertySet prototypes.
 

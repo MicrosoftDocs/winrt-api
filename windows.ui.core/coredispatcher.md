@@ -35,7 +35,7 @@ int __stdcall wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
 }
 ```
 
-```cpp
+```cppcx
 void MyCoreWindowEvents::Run() // this is an implementation of IFrameworkView::Run() used to show context. It is called by CoreApplication::Run().
 {
     CoreWindow::GetForCurrentThread()->Activate();

@@ -14,7 +14,7 @@ Provides access to the sorting criteria of the query results as a collection of 
 
 ## -remarks
 > [!NOTE]
-> Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
+> Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx).
 <!--W8B 988884 v2-->
 
 You can retrieve this object using [QueryOptions.SortOrder](queryoptions_sortorder.md).

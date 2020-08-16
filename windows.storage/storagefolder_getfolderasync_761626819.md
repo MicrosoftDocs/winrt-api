@@ -77,7 +77,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
 // Get the app's local folder
 StorageFolder^ localFolder = ApplicationData::Current->LocalFolder;
 

@@ -10,7 +10,7 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.ProvisionP
 # Windows.Management.Deployment.PackageManager.ProvisionPackageForAllUsersAsync
 
 ## -description
-Enables an app package to be installed for all users on a device.
+Enables an app [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) to be installed for all users on a device.
 
 ## -parameters
 
@@ -29,6 +29,8 @@ If the package is already provisioned, this perform a "clean" reprovision. A "cl
 > If you are provisioning optional packages, you must specify each optional package individually with its own method call.
 
 ## -see-also
+
+- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
 
 ## -examples
 This example demonstrates adding a staged or existing registered package for all users on a device.

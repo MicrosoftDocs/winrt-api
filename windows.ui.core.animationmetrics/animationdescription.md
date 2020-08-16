@@ -86,4 +86,4 @@ for (var i = 0; i < animations.size; i++) {
 ```
 
 ## -see-also
-[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462), [OpacityAnimation](opacityanimation.md), [ScaleAnimation](scaleanimation.md), [TranslationAnimation](translationanimation.md)
+[Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics), [OpacityAnimation](opacityanimation.md), [ScaleAnimation](scaleanimation.md), [TranslationAnimation](translationanimation.md)

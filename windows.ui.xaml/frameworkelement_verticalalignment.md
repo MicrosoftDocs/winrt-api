@@ -40,7 +40,7 @@ In this example, the value **Center** is assigned to [HorizontalAlignment](frame
 
 
 
-[!code-xml[LayoutOvwProperties2](../windows.ui.xaml/code/layout_ovw_all/CSharp/MainPage.xaml#SnippetLayoutOvwProperties2)]
+[!code-xaml[LayoutOvwProperties2](../windows.ui.xaml/code/layout_ovw_all/CSharp/MainPage.xaml#SnippetLayoutOvwProperties2)]
 
 ## -see-also
 [Width](frameworkelement_width.md), [HorizontalAlignment](frameworkelement_horizontalalignment.md), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding)

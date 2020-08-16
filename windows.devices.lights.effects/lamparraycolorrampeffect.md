@@ -18,9 +18,9 @@ Transition is via a simple linear curve over the prescribed [RampDuration](lampa
 
 Behavior across lamps is not guaranteed to be identical as lamp/s can start from different colors.
 
-Must be [Appended](lamparrayeffectplaylist_append_292269384.md) to a [LampArrayEffectPlaylist](lamparrayeffectplaylist.md) before can be played.
+Before you can play an effect, you must append it to a **LampArrayEffectPlaylist** (see [Append](lamparrayeffectplaylist_append_292269384.md)).
 
-If a [LampArray](../windows.devices.lights/lamparray.md) is bound to a LampArrayColorRampEffect and it disconnects, progress of the effect continues as a no-op.  No exception/error is thrown/returned.
+If a [LampArray](../windows.devices.lights/lamparray.md) is bound to a LampArrayColorRampEffect and it disconnects, progress of the effect continues as a no-op. No exception/error is thrown/returned.
 
 ## -see-also
 

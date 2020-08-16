@@ -11,8 +11,10 @@ public HResult ExtendedErrorCode { get; }
 # Windows.Devices.Display.Core.DisplayStateOperationResult.ExtendedErrorCode
 
 ## -description
+Gets the extended error code of the result.
 
 ## -property-value
+An [HResult](/uwp/API/windows.foundation.hresult) value.
 
 ## -remarks
 

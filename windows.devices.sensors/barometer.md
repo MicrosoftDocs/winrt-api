@@ -25,6 +25,7 @@ For an example implementation, see the [barometer sample](https://github.com/Mic
 | 1709 | 16299 | GetDeviceSelector |
 | 1709 | 16299 | MaxBatchSize |
 | 1709 | 16299 | ReportLatency |
+| 2004 | 19041 | ReportThreshold |
 
 ## -examples
 

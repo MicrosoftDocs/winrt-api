@@ -10,7 +10,7 @@ public void SetToMin()
 # Windows.Globalization.Calendar.SetToMin
 
 ## -description
-Sets the components of this [Calendar](calendar.md) object to the earliest date and time that are supported.
+Sets the components of this [Calendar](calendar.md) object to the earliest [DateTime](../windows.foundation/datetime.md) supported.
 
 ## -remarks
 If you're using a .NET language (for example, C#, or Visual Basic), then use the Coordinated Universal Time (UTC) time zone with a **Calendar** object if you wish to follow this set of steps.
@@ -22,3 +22,5 @@ If you don't use the Coordinated Universal Time (UTC) time zone, then **GetDateT
 ## -examples
 
 ## -see-also
+
+[Calendar, date, and time controls](/windows/uwp/design/controls-and-patterns/date-and-time), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [Date and time formatting sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)

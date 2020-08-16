@@ -29,4 +29,4 @@ All of the animation objects inherit from [IPropertyAnimation](ipropertyanimatio
 ## -examples
 
 ## -see-also
-[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462)
+[Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

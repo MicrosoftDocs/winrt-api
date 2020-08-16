@@ -10,7 +10,9 @@ public class TargetedContentChangedEventArgs
 # Windows.Services.TargetedContent.TargetedContentChangedEventArgs
 
 ## -description
-Represents the arguments for the Content Changed event.
+
+Represents the arguments for the [TargetedContentSubscription.ContentChanged](targetedcontentsubscription_contentchanged.md) Content Changed event.
+
 ## -remarks
 
 ## -see-also
@@ -18,5 +20,6 @@ Represents the arguments for the Content Changed event.
 ## -examples
 
 ## -capabilities
+
 secondaryAuthenticationFactor
 targetedContent

@@ -1120,15 +1120,6 @@ Three stacked notices, each containing one header string in larger text over one
 
 <img src="images/TileSquare310x310TextList03.jpg" alt="TileSquare310x310TextList03 example" />
 
-### -field TileSquare99x99IconWithBadge:1000
-**Windows only; not supported on **
-
-### -field TileSquare210x210IconWithBadge:1001
-**Windows only; not supported on **
-
-### -field TileWide432x210IconWithBadgeAndText:1002
-**Windows only; not supported on **
-
 ### -field TileSquare71x71IconWithBadge:75
 ** only**.
 
@@ -1183,4 +1174,4 @@ One rectangular image that fills the entire tile, no text.
 ## -examples
 
 ## -see-also
-[App tiles and badges sample](https://go.microsoft.com/fwlink/p/?linkid=231469), [The tile template catalog](https://docs.microsoft.com/previous-versions/windows/apps/hh761491(v=win.10)), [Tiles XML schema](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/schema-root), [Tile and tile notification overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779724(v=win.10)), [Tile and toast image sizes](https://docs.microsoft.com/previous-versions/windows/apps/hh781198(v=win.10))
+[App tiles and badges sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/App%20tiles%20and%20badges%20sample), [The tile template catalog](https://docs.microsoft.com/previous-versions/windows/apps/hh761491(v=win.10)), [Tiles XML schema](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/schema-root), [Tile and tile notification overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779724(v=win.10)), [Tile and toast image sizes](https://docs.microsoft.com/previous-versions/windows/apps/hh781198(v=win.10))

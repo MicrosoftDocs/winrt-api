@@ -10,7 +10,10 @@ public bool IsAnalyzing { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalyzer.IsAnalyzing
 
 ## -description
+
 Gets the state of the ink analysis process.
+
+## -property-value
 
 ## -remarks
 

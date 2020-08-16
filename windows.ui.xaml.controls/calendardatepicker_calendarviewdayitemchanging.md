@@ -19,7 +19,7 @@ Occurs when a [CalendarViewDayItem](calendarviewdayitem.md) is loading in the pi
 
 
 ## -remarks
-This method is comes from the [CalendarDatePicker](calendardatepicker.md) 's internal [CalendarView](calendarview.md). For more info, see [CalendarView.CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md).
+This method is comes from the [CalendarDatePicker](calendardatepicker.md)'s internal [CalendarView](calendarview.md). For more info, see [CalendarView.CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md).
 
 ## -examples
 

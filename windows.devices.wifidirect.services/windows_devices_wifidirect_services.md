@@ -65,4 +65,4 @@ private async void Unpair_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e
 
 ## -see-also
 
-[Wi-Fi Direct services sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620627)
+[Wi-Fi Direct services sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WiFiDirectServices)

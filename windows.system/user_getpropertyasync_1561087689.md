@@ -25,7 +25,7 @@ See the [GetPropertiesAsync](user_getpropertiesasync_1952817514.md) method for d
 ## -examples
 
 ## -see-also
-[User information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620617)
+[User information sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UserInfo)
 
 ## -capabilities
 userAccountInformation

@@ -25,6 +25,8 @@ Instead of using IAsyncAction, some Windows Runtime asynchronous methods use cus
 
 > [!NOTE]
 > The **get** function exists on the C++/WinRT projection type **winrt::Windows::Foundation::IAsyncAction**, so you can call the function from within any C++/WinRT project. You will not find the function listed as a member of the **IAsyncAction** interface, because **get** is not part of the application binary interface (ABI) surface of the actual Windows Runtime type **IAsyncAction**. For more info, and code examples showing how to call **get**, see [Write a coroutine](/windows/uwp/cpp-and-winrt-apis/concurrency#write-a-coroutine).
+>
+> Like **get**, the **wait_for** function exists only on the C++/WinRT projection. For more info, and code examples showing how to call **wait_for**, see [Asynchronous timeouts made easy](/windows/uwp/cpp-and-winrt-apis/concurrency-2#asynchronous-timeouts-made-easy).
 
 ### Interface inheritance
 

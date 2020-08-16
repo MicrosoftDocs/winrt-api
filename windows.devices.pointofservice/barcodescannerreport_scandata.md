@@ -14,10 +14,11 @@ public Windows.Storage.Streams.IBuffer ScanData { get; }
 Gets the full raw data from the [DataReceived](claimedbarcodescanner_datareceived.md) event.
 
 ## -property-value
-The raw data stream from the scanning event.
+The raw data stream from the scanning event. For details of the format of the raw data, see the `RawData` property in the [UnifiedPOS](https://www.omg.org/retail/unified-pos.htm) architectural specification.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+[UnifiedPOS architectural specification](https://www.omg.org/retail/unified-pos.htm)

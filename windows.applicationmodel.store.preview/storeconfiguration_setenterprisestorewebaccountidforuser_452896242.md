@@ -9,15 +9,19 @@ public void StoreConfiguration.SetEnterpriseStoreWebAccountIdForUser(User user, 
 
 # Windows.ApplicationModel.Store.Preview.StoreConfiguration.SetEnterpriseStoreWebAccountIdForUser
 
+
 ## -description
+
 Sets the Store user account ID for the specified Azure AD user so that other apps can query against this ID.
 
-## -params
+## -parameters
 
-## -param user
+### -param user
+
 A [Windows.System.User](../windows.system/user.md) object that identifies the Azure AD user whose Store user account ID you want to set.
 
-## -param webAccountId
+### -param webAccountId
+
 The Store user account ID (typically obtained from the [WebAccount.Id](../windows.security.credentials/webaccount_id.md) property) to set for the specified Azure AD user.
 
 ## -remarks
@@ -25,3 +29,4 @@ The Store user account ID (typically obtained from the [WebAccount.Id](../window
 ## -see-also
 
 ## -examples
+

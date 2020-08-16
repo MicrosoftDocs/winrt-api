@@ -9,13 +9,18 @@ public GattCharacteristicNotificationTrigger.GattCharacteristicNotificationTrigg
 
 # Windows.ApplicationModel.Background.GattCharacteristicNotificationTrigger.GattCharacteristicNotificationTrigger
 
+
 ## -description
+
 Initializes a new instance of the **GattCharacteristicNotificationTrigger** class with the specified characteristic and triggering mode.
 
-## -params
+## -parameters
 
-## -param characteristic
+### -param characteristic
+
 The GATT characteristic that you want value change notifications for.
 
-## -param eventTriggeringMode
+### -param eventTriggeringMode
+
 Specifies when the trigger is activated.
+

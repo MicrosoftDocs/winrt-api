@@ -17,8 +17,10 @@ Gets the decoded barcode label, which does not include the header, checksum, and
 The data stream containing the decoded barcode label.
 
 ## -remarks
-If [IsDecodeDataEnabled](claimedbarcodescanner_isdecodedataenabled.md) is true, this property contains the decodes barcode label. If [IsDecodeDataEnabled](claimedbarcodescanner_isdecodedataenabled.md) is false, this property is set to null.
+If [IsDecodeDataEnabled](claimedbarcodescanner_isdecodedataenabled.md) is true, then this property contains the decoded barcode label. If [IsDecodeDataEnabled](claimedbarcodescanner_isdecodedataenabled.md) is false, then this property is set to `null`.
 
 ## -examples
+
+For a code example showing how to retrieve a string from an **IBuffer**, see [IBuffer interface](/uwp/api/windows.storage.streams.ibuffer#examples)
 
 ## -see-also

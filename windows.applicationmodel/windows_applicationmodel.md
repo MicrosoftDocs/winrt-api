@@ -14,4 +14,4 @@ To improve system responsiveness, apps are given low priority access to resource
 ## -examples
 
 ## -see-also
-[App activated, resume, and suspend using the WRL sample](https://go.microsoft.com/fwlink/p/?linkid=258455)
+[App activated, resume, and suspend using the WRL sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WRLInProcessWinRTComponent)

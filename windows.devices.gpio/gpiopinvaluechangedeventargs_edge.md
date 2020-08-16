@@ -23,4 +23,4 @@ An enumeration value that indicates the type of change that occurred to the valu
 [GpioPin.ValueChanged](gpiopin_valuechanged.md), [GpioPinEdge](gpiopinedge.md)
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

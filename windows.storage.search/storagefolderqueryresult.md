@@ -16,7 +16,7 @@ Provides access to the results of a query that lists the folder (or file groups)
 ## -remarks
 
 > [!NOTE]
-> Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
+> Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx).
 <!--W8B 988884 v2-->
 
 You can get a storageFolderQueryResult object by calling the following methods from a [storageFolder](../windows.storage/storagefolder.md) or a [folderInformation](../windows.storage.bulkaccess/folderinformation.md) object:
@@ -26,7 +26,7 @@ You can get a storageFolderQueryResult object by calling the following methods f
 + [folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery_325438332.md)
 + [folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions_573382953.md)
 
-For more code examples that show you how to use storageFolderQueryResult objects, see the [Folder enumeration sample](https://go.microsoft.com/fwlink/p/?linkid=231512).
+For more code examples that show you how to use storageFolderQueryResult objects, see the [Folder enumeration sample](http://code.msdn.microsoft.com/windowsapps/Folder-enumeration-sample-33ebd000).
 
 To get a StorageFolderQueryResult object to enumerate the folders or file groups in a location, you must get a [storageFolder](../windows.storage/storagefolder.md) that represents the location and then create a folder query
 
@@ -102,4 +102,4 @@ The `queryResult` variable gets the storageFolderQueryResult that is used to ret
 
 ## -see-also
 
-[Windows.Storage.storageFolder.createFolderQuery methods](../windows.storage/storagefolder_createfolderquery_325438332.md), [Windows.Storage.storageFolder.createFolderQueryWithOptions method](../windows.storage/storagefolder_createfolderquerywithoptions_573382953.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery_325438332.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions_573382953.md), [Folder enumeration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619993)
+[Windows.Storage.storageFolder.createFolderQuery methods](../windows.storage/storagefolder_createfolderquery_325438332.md), [Windows.Storage.storageFolder.createFolderQueryWithOptions method](../windows.storage/storagefolder_createfolderquerywithoptions_573382953.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery_325438332.md), [Windows.Storage.BulkAccess.folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions_573382953.md), [Folder enumeration sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration)

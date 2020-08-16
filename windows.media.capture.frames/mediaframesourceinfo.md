@@ -23,6 +23,7 @@ For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture 
 | -- | -- | -- |
 | 1803 | 17134 | ProfileId |
 | 1803 | 17134 | VideoProfileMediaDescription |
+| 2004 | 19041 | GetRelativePanel |
 
 ## -examples
 

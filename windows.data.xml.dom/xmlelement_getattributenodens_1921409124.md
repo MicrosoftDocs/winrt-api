@@ -26,4 +26,12 @@ The returned attribute pointer.
 
 ## -examples
 
+```csharp
+var width = element.GetAttributeNodeNS("http://www.w3.org/2000/svg", "width");
+```
+
+```cppwinrt
+auto width = element.GetAttributeNodeNS(winrt::box_value(L"http://www.w3.org/2000/svg"), L"width");
+```
+
 ## -see-also

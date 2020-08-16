@@ -10,7 +10,7 @@ public System.Guid GetGuid()
 # Windows.Foundation.IPropertyValue.GetGuid
 
 ## -description
-Returns the GUID value stored as a property value.
+Returns the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) value stored as a property value.
 
 ## -returns
 The value.

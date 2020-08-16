@@ -19,5 +19,18 @@ For more info, see [Create, write, and read a file](https://docs.microsoft.com/w
 
 ## -examples
 
+This code example shows how to retrieve a string from an **IBuffer** of UTF-8 bytes.
+
+```csharp
+public string RetrieveStringFromUtf8IBuffer(Windows.Storage.Streams.IBuffer theBuffer)
+{
+    using (var dataReader = Windows.Storage.Streams.DataReader.FromBuffer(theBuffer))
+    {
+        dataReader.UnicodeEncoding = Windows.Storage.Streams.UnicodeEncoding.Utf8;
+        return dataReader.ReadString(theBuffer.Length);
+    }
+}
+```
+
 ## -see-also
 [Create, write, and read a file](https://docs.microsoft.com/windows/uwp/files/quickstart-reading-and-writing-files), [Buffer class](buffer.md), [WriteableBitmap.PixelBuffer](/uwp/api/windows.ui.xaml.media.imaging.writeablebitmap.pixelbuffer)

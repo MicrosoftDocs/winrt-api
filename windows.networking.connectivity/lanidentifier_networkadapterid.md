@@ -11,7 +11,7 @@ public System.Guid NetworkAdapterId { get; }
 # Windows.Networking.Connectivity.LanIdentifier.NetworkAdapterId
 
 ## -description
-Gets the adapter GUID that identifies the network adapter to associate with the locality information.
+Gets the adapter [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) that identifies the network adapter to associate with the locality information.
 
 ## -property-value
 The adapter ID for the network adapter associated with the [LanIdentifier](lanidentifier.md) information.

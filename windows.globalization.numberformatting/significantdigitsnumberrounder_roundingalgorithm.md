@@ -10,13 +10,16 @@ public Windows.Globalization.NumberFormatting.RoundingAlgorithm RoundingAlgorith
 # Windows.Globalization.NumberFormatting.SignificantDigitsNumberRounder.RoundingAlgorithm
 
 ## -description
+
 Gets or sets the rounding strategy value for this [SignificantDigitsNumberRounder](significantdigitsnumberrounder.md) object.
 
 ## -property-value
+
 A value of the [RoundingAlgorithm](roundingalgorithm.md) enumeration.
 
 ## -remarks
-This property is initialized to a default value of [RoundingAlgorithm](roundingalgorithm.md).**RoundHalfUp**.
+
+This property is initialized to a default value of [RoundingAlgorithm.RoundHalfUp](roundingalgorithm.md).
 
 ## -examples
 

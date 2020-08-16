@@ -15,7 +15,7 @@ Creates a suitable AQS Filter string for use with the [CreateWatcher](../windows
 
 ## -parameters
 ### -param serviceUuid
-A 128-bit Bluetooth GATT Service UUID, represented as a standard GUID object.
+A 128-bit Bluetooth GATT Service UUID, represented as a standard [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) object.
 
 ## -returns
 A suitable AQS Selector String which can be passed as a parameter to the [CreateWatcher](../windows.devices.enumeration/deviceinformation_createwatcher_4958831.md) method, in order to retrieve a GATT service instance path.

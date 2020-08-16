@@ -40,7 +40,7 @@ This example shows how to use a [DependencyPropertyChangedCallback](dependencypr
 long tagToken;
 protected override void OnNavigatedTo(NavigationEventArgs e)
 {
-    long tagToken = textBlock1.RegisterPropertyChangedCallback(TextBlock.TagProperty, tbTagChangedCallback);
+    tagToken = textBlock1.RegisterPropertyChangedCallback(TextBlock.TagProperty, tbTagChangedCallback);
     base.OnNavigatedTo(e);
 
     textBlock1.Tag = "name";

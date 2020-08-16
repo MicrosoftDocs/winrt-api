@@ -20,25 +20,34 @@ Derives from [XamlUICommand](xamluicommand.md), adding a set of standard platfor
 
 The platform provides the following set of commands.
 
-- Cut
-- Copy
-- Paste
-- Select All
-- Delete
-- Share
-- Save
-- Open
-- Close
-- Pause
-- Play
-- Stop
-- Forward
-- Backward
-- Undo
-- Redo
+| Command | Icon | Keyboard shortcut | Label | Description |
+| ------- | ---- | ----------------- | ----- | ----------- |
+| Cut |  |  |  |  |  |
+| Copy |  |  |  |  |  |
+| Paste |  |  |  |  |  |
+| Select All |  |  |  |  |  |
+| Delete |  |  |  |  |  |
+| Share |  |  |  |  |  |
+| Save |  |  |  |  |  |
+| Open |  |  |  |  |  |
+| Close |  |  |  |  |  |
+| Pause |  |  |  |  |  |
+| Play |  |  |  |  |  |
+| Stop |  |  |  |  |  |
+| Forward |  |  |  |  |  |
+| Backward |  |  |  |  |  |
+| Undo |  |  |  |  |  |
+| Redo |  |  |  |  |  |
 
 ## -see-also
 
-[XamlUICommand](xamluicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+[XamlUICommand](xamluicommand.md), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Command design basics](/windows/uwp/layout/commanding-basics).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the StandardUICommand in action](xamlcontrolsgallery:/item/StandardUICommand).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)

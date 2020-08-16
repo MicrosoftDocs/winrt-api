@@ -12,10 +12,6 @@ public class VisibilityChangedEventArgs : Windows.UI.Core.ICoreWindowEventArgs, 
 ## -description
 Contains the arguments returned by the event fired when a [CoreWindow](corewindow.md) instance's visibility changes.
 
-## -remarks
-> [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
-
 ## -examples
 
 ## -see-also

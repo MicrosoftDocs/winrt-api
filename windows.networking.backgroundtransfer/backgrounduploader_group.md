@@ -13,7 +13,7 @@ public string Group { get;  set; }
 > [!NOTE]
 > Group may be altered or unavailable for releases after Windows 8.1. Instead, use [TransferGroup](backgrounduploader_transfergroup.md).
 
-Gets or sets a string value (e.g. a GUID) indicating the group the upload will belong to. An upload operation with a group ID will only appear in operation enumerations using [GetCurrentDownloadsAsync(String)](backgrounddownloader_getcurrentdownloadsasync_405117897.md) with the specific group string value.
+Gets or sets a string value (for example, a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid)) indicating the group the upload will belong to. An upload operation with a group ID will only appear in operation enumerations using [GetCurrentDownloadsAsync(String)](backgrounddownloader_getcurrentdownloadsasync_405117897.md) with the specific group string value.
 
 ## -property-value
 The group name.

@@ -46,9 +46,9 @@ A Border can contain only one child object. If you want to put a border around m
 
 This example shows how to put a Border around several [Rectangle](../windows.ui.xaml.shapes/rectangle.md) objects contained in a [StackPanel](stackpanel.md).
 
-[!code-xml[BasicBorderXAML](../windows.ui.xaml.controls/code/BasicLayoutSnippets/CS/BlankPage.xaml#SnippetBasicBorderXAML)]
+[!code-xaml[BasicBorderXAML](../windows.ui.xaml.controls/code/BasicLayoutSnippets/CS/BlankPage.xaml#SnippetBasicBorderXAML)]
 
-[!code-xml[LayoutOvwBorder](../windows.ui.xaml/code/layout_ovw_all/CSharp/MainPage.xaml#SnippetLayoutOvwBorder)]
+[!code-xaml[LayoutOvwBorder](../windows.ui.xaml/code/layout_ovw_all/CSharp/MainPage.xaml#SnippetLayoutOvwBorder)]
 
 ## -see-also
 [FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding)

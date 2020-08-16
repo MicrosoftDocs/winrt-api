@@ -23,4 +23,4 @@ The current value of the GPIO pin. If the pin is configured as an output, this v
 [GpioPinValue](gpiopinvalue.md), [GpioPin.Write](gpiopin_write_1817827092.md)
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

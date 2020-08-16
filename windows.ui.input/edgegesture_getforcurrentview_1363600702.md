@@ -22,4 +22,4 @@ This method uses the current [CoreWindow](../windows.ui.core/corewindow.md) of y
 ## -examples
 
 ## -see-also
-[Edge gesture invocation sample](https://go.microsoft.com/fwlink/p/?linkid=242153)
+[Edge gesture invocation sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BJavaScript%5D-Windows%208%20app%20samples/JavaScript/Windows%208%20app%20samples/Edge%20gesture%20invocation%20sample%20(Windows%208))

@@ -22,7 +22,7 @@ Injects a script into a [WebViewControl](https://docs.microsoft.com/uwp/api/wind
 
 ## -examples
 
-The follow is a C# sample of script injection on page load:
+The following code is a C# sample of script injection on page load:
 
 ```csharp
 WebViewControl webViewControl; 
@@ -30,23 +30,22 @@ WebViewControl webViewControl;
 // Replace the window.external with a custom object that does postMessage. The app 
 // script uses ScriptNotify and InvokeScriptAsync to implement PostMessage and invoke 
 // a messageReceived handler. 
-String script = @“var realExternal = window.external;  
+String script = @"var realExternal = window.external;  
 var customExternal = { 
-    postMessage: (message) => { realExternal.notify(‘PostMessage: ‘ + message); }, 
+    postMessage: (message) => { realExternal.notify('PostMessage: ' + message); }, 
     messageReceived: null, 
 }; 
-window.external = customExternal;”; 
+window.external = customExternal;"; 
  
 void ScriptNotifyCallback(WebViewControl sender, WebViewControlScriptNotifyEventArgs args) 
 { 
     String response = GetResponseForPostFromWebView(args.value); 
-    sender.InvokeScriptAsync(“eval”, 
-        “window.external.messageReceived(“ + response + “);”); 
+    sender.InvokeScriptAsync("eval", $"window.external.messageReceived({response});");
 } 
  
 webViewControl.ScriptNotify += ScriptNotifyCallback; 
 webViewControl.AddInitializeScript(script); 
-webViewControl.Navigate(new Uri(“http://mydomain.com”)); 
+webViewControl.Navigate(new Uri("http://mydomain.com")); 
 ```
 
-An app can currently inject script into a WebViewControl to provide additional functionality or alter the page, however, the app is not able to execute its script before any other script in the page loads. InvokeScriptAsync has no guarantees when the script is executed, and if the app calls before DOMContentLoaded, there is a risk that the script gets injected into the previous page. This example offers a way for the app to provide script before navigation (or during navigation starting) that will run before any script in the page is executed. 
+Using [InvokeScriptAsync](https://docs.microsoft.com/uwp/api/windows.web.ui.iwebviewcontrol.invokescriptasync), an app can inject scripts into a WebViewControl to provide additional functionality or alter the page. However, InvokeScriptAsync has no guarantees about when the script is executed, and if the app calls it before [DOMContentLoaded](https://docs.microsoft.com/uwp/api/windows.web.ui.iwebviewcontrol.domcontentloaded) is raised, there is a risk that the script gets injected into the previous page. This example offers a way for the app to provide a script before navigation (or during [NavigationStarting](https://docs.microsoft.com/uwp/api/windows.web.ui.iwebviewcontrol.navigationstarting)) that will run before any script in the page is executed. 

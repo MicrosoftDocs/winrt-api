@@ -21,7 +21,7 @@ The scheme name that you find to find handlers for. For example, "ms-lens".
 Filter the list of handlers by whether they can be launched for results or not.
 
 ## -returns
-A list of [AppInfo](../windows.applicationmodel/appinfo.md) s for each application that handles the specified scheme.
+A list of [AppInfo](../windows.applicationmodel/appinfo.md)s for each application that handles the specified scheme.
 
 ## -remarks
 This API may also be called from Windows desktop application but does not return Windows desktop application.

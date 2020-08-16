@@ -25,7 +25,7 @@ The following example shows how to use [GetLayoutSlot](layoutinformation_getlayo
 
 
 
-[!code-xml[1](../windows.ui.xaml.controls.primitives/code/GetLayoutInfo/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.controls.primitives/code/GetLayoutInfo/csharp/Page.xaml#Snippet1)]
 
 [!code-csharp[2](../windows.ui.xaml.controls.primitives/code/GetLayoutInfo/csharp/Page.xaml.cs#Snippet2)]
 

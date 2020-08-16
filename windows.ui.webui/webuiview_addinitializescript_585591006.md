@@ -12,8 +12,12 @@ public void WebUIView.AddInitializeScript(String script)
 
 ## -description
 
+Adds a script to initialize the view.
+
 ## -parameters
 ### -param script
+
+The script to initialize the view.
 
 ## -remarks
 

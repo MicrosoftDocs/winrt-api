@@ -18,9 +18,13 @@ The Uniform Resource Identifier (URI) to load.
 
 ## -remarks
 
+If the app possesses the `enterpriseCloudSSO` capability,
+then web pages hosted inside the WebView control
+can use single sign on with Azure Active Directory (AAD) resources.
+
 ## -examples
 
 ## -see-also
-[Uri](../windows.foundation/uri.md), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)
+[Uri](../windows.foundation/uri.md), [WebView control (XAML) sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)
 ## -capabilities
-enterpriseCloudSS
+enterpriseCloudSSO

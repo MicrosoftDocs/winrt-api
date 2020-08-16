@@ -14,6 +14,7 @@ public enum FeatureElementKindPreview : int
 
 ## -enum-fields
 ### -field Undefined:0
+Feature element is undefined.
 
 ### -field UInt8:2
 Feature element is of type UInt8.

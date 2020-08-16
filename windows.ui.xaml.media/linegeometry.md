@@ -25,7 +25,7 @@ This example shows how to create and render a LineGeometry object. A [Geometry](
 
 
 
-[!code-xml[GeometryOvw1](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw1.xaml#SnippetGeometryOvw1)]
+[!code-xaml[GeometryOvw1](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw1.xaml#SnippetGeometryOvw1)]
 
 ## -see-also
 [Geometry](geometry.md), [LineSegment](linesegment.md), [PolyLineSegment](polylinesegment.md)

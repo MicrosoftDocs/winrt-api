@@ -57,7 +57,7 @@ Windows::ApplicationModel::PackageId packageId{ package.Id() };
 Windows::ApplicationModel::PackageVersion version{ packageId.Version() };
 ```
 
-```cpp
+```cppcx
 Windows::ApplicationModel::Package^ package = Windows::ApplicationModel::Package::Current;
 Windows::ApplicationModel::PackageId^ packageId = package->Id;
 Windows::ApplicationModel::PackageVersion version = packageId->Version;

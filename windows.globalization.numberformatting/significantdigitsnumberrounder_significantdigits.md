@@ -10,12 +10,15 @@ public uint SignificantDigits { get;  set; }
 # Windows.Globalization.NumberFormatting.SignificantDigitsNumberRounder.SignificantDigits
 
 ## -description
+
 Gets or sets the number of significant digits this [SignificantDigitsNumberRounder](significantdigitsnumberrounder.md) object uses for rounding.
 
 ## -property-value
+
 The number of significant digits used for rounding.
 
 ## -remarks
+
 This property is initialized to a default value of 1.
 
 If this property is 0, no rounding is performed by the [SignificantDigitsNumberRounder](significantdigitsnumberrounder.md) object.

@@ -35,7 +35,7 @@ Here's a slider with its TickFrequency set to 2 and its [TickPlacement](slider_t
 
 
 
-[!code-xml[3](../windows.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/csharp/Page.xaml#Snippet3)]
+[!code-xaml[3](../windows.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/csharp/Page.xaml#Snippet3)]
 
 ## -see-also
 [SliderSnapsTo](../windows.ui.xaml.controls.primitives/slidersnapsto.md), [SnapsTo](slider_snapsto.md), [StepFrequency](slider_stepfrequency.md), [TickPlacement](slider_tickplacement.md)

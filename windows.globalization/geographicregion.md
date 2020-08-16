@@ -15,7 +15,7 @@ Describes a region. This is usually a country, but may be a macroregion.
 
 ## -remarks
 
-For a list of standard country/region codes used by Microsoft, see the [Official Country/Region List](https://globalready.azurewebsites.net/marketreadiness/OfficialCountryregion).
+For a list of standard country/region codes used by Microsoft, see the [Official Country/Region List](/windows/uwp/publish/supported-languages).
 
 ## -examples
 
@@ -33,4 +33,4 @@ var displayName = geographicRegion.DisplayName;
 
 ## -see-also
 
-[Globalization preferences sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624045)
+[Globalization preferences sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/GlobalizationPreferences)

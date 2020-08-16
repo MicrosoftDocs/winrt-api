@@ -30,7 +30,12 @@ secondaryTile.BackgroundColor = Windows.UI.Color.Magenta;
 secondaryTile.BackgroundColor = Windows.UI.Color.FromArgb(255, 255, 255, 255);
 ```
 
-```cpp
+```cppwinrt
+secondaryTile.BackgroundColor(Windows::UI::Colors::Magenta());
+secondaryTile.BackgroundColor(Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120));
+```
+
+```cppcx
 secondaryTile->BackgroundColor = Windows::UI::Colors::Magenta;
 secondaryTile->BackgroundColor = Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120);
 ```

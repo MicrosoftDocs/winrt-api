@@ -11,8 +11,10 @@ public DisplayWireFormatColorSpace ColorSpace { get; }
 # Windows.Devices.Display.Core.DisplayWireFormat.ColorSpace
 
 ## -description
+Gets the color format.
 
 ## -property-value
+A [DisplayWireFormatColorSpace](displaywireformatcolorspace.md) value.
 
 ## -remarks
 

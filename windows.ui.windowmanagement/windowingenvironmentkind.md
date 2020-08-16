@@ -16,7 +16,7 @@ Defines constants the specify what kind a windowing environment is.
 
 ## -enum-fields
 
-### -field Tiled:1
+### -field Tiled:2
 
 The windowing environment supports only windows that do not overlap.
 
@@ -24,7 +24,7 @@ The windowing environment supports only windows that do not overlap.
 
 The windowing environment is not known.
 
-### -field Overlapped:2
+### -field Overlapped:1
 
 The windowing environment supports windows that overlap.
 

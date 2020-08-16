@@ -11,12 +11,11 @@ public void LampArrayEffectPlaylist.Pause()
 # Windows.Devices.Lights.Effects.LampArrayEffectPlaylist.Pause
 
 ## -description
-Pauses the playlist and persists the last state set by the internally playing effect.
+Pauses the playlist, and persists the last state set by the internally playing effect.
 
 ## -remarks
-Can be 'unpaused' by called [Start](lamparrayeffectplaylist_start_1587696324.md).
-
-## -see-also
+Can be resumed by called [Start](lamparrayeffectplaylist_start_1587696324.md).
 
 ## -examples
 
+## -see-also

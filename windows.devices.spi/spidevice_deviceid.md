@@ -23,4 +23,4 @@ The ID.
 
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

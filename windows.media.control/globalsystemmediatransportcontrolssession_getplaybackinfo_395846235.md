@@ -22,3 +22,6 @@ The current playback info for this session.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

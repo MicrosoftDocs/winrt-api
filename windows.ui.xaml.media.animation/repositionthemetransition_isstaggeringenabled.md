@@ -54,7 +54,7 @@ transition.IsStaggeringEnabled(false);
 lv.ItemContainerTransitions().Append(transition);
 ```
 
-```cpp
+```cppcx
 auto lv = ref new ListView();
 auto transition = ref new RepositionThemeTransition();
 transition->IsStaggeringEnabled = false;

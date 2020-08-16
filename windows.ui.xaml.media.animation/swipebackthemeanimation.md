@@ -273,7 +273,7 @@ void SwipeControl::GestureRecognizer_CrossSliding(Windows::UI::Input::GestureRec
 }
 ```
 
-```cpp
+```cppcx
 // SwipeControl.h:
 public ref class SwipeControl sealed : public Windows::UI::Xaml::Controls::Control
 {

@@ -9,15 +9,19 @@ public IAsyncOperation<PackageContentGroup> Package.GetContentGroupAsync(String 
 
 # Windows.ApplicationModel.Package.GetContentGroupAsync
 
+
 ## -description
+
 Provides information about the package content group such as its state, name, whether it is required, and so on.
 
-## -params
+## -parameters
 
-## -param name
+### -param name
+
 The name of the content group to get.
 
 ## -returns
+
 A [PackageContentGroup](packagecontentgroup.md) that contains information such as whether the content group is required, its state, the package associated with the content group, and so on.
 Returns **Null** if the named content group is not part of this package.
 
@@ -26,3 +30,4 @@ Returns **Null** if the named content group is not part of this package.
 ## -see-also
 
 ## -examples
+

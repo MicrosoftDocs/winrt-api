@@ -27,4 +27,4 @@ Returns an asynchronous operation that returns a boolean when the operation comp
 ## -examples
 
 ## -see-also
-[TryRespondAsync(IBuffer)](smartcardemulatorapdureceivedeventargs_tryrespondasync_1062726120.md), [Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[TryRespondAsync(IBuffer)](smartcardemulatorapdureceivedeventargs_tryrespondasync_1062726120.md), [Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)

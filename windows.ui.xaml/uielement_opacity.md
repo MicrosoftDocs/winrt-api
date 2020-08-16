@@ -37,7 +37,7 @@ This example uses a [Storyboard](../windows.ui.xaml.media.animation/storyboard.m
 
 
 
-[!code-xml[Animation_ovw_intro](../windows.ui.xaml/code/animation_ovw_intro/csharp/Page.xaml#SnippetAnimation_ovw_intro)]
+[!code-xaml[Animation_ovw_intro](../windows.ui.xaml/code/animation_ovw_intro/csharp/Page.xaml#SnippetAnimation_ovw_intro)]
 
 [!code-vb[Animation_ovw_intro](../windows.ui.xaml/code/animation_ovw_intro/vbnet/Page.xaml.vb#SnippetAnimation_ovw_intro_code)]
 

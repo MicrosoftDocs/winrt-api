@@ -18,7 +18,7 @@ Creates a [SemanticTextQuery](semantictextquery.md) from an Advanced Query Synta
 An Advanced Query Syntax (AQS) string that contains the desired query. Learn more about Advanced Query Syntax (AQS) in [](https://msdn.microsoft.com/library/8e55bd40-c7cf-44a6-bc18-24bc7a267779).
 
 ### -param filterLanguage
-The [BCP-47](https://go.microsoft.com/fwlink/p/?LinkId=227302) language tag to be employed in the query.
+The [BCP-47](http://tools.ietf.org/html/bcp47) language tag to be employed in the query.
 
 To see a list of the language tags specifically supported by the Microsoft Store, see [Choosing your languages](https://docs.microsoft.com/windows/uwp/publish/supported-languages).
 

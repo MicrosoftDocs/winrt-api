@@ -10,7 +10,9 @@ public class TargetedContentContainer
 # Windows.Services.TargetedContent.TargetedContentContainer
 
 ## -description
+
 Represents a container for all the content in a TargetedContentSubscription object.
+
 ## -remarks
 
 ## -see-also
@@ -18,5 +20,6 @@ Represents a container for all the content in a TargetedContentSubscription obje
 ## -examples
 
 ## -capabilities
+
 secondaryAuthenticationFactor
 targetedContent

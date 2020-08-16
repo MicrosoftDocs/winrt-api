@@ -22,3 +22,6 @@ A new instance of the Session Manager.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

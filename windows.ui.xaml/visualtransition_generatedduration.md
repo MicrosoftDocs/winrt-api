@@ -37,7 +37,7 @@ This example specifies that the control takes one half second to go into the "Po
 
 
 
-[!code-xml[PointerOverTransition](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/SkinnedButton.xaml#SnippetPointerOverTransition)]
+[!code-xaml[PointerOverTransition](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/SkinnedButton.xaml#SnippetPointerOverTransition)]
 
 ## -see-also
 [GeneratedEasingFunction](visualtransition_generatedeasingfunction.md), [VisualStateManager](visualstatemanager.md), [GoToState](visualstatemanager_gotostate_443481648.md), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10))

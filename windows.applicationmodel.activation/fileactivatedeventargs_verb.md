@@ -20,4 +20,4 @@ The action.
 ## -examples
 
 ## -see-also
-[Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Windows.Storage](../windows.storage/windows_storage.md)
+[Association launching sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AssociationLaunching), [Windows.Storage](../windows.storage/windows_storage.md)

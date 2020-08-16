@@ -9,12 +9,13 @@ public IVectorView<MediaTimeRange> MediaPlaybackSession.GetPlayedRanges()
 
 # Windows.Media.Playback.MediaPlaybackSession.GetPlayedRanges
 
+
 ## -description
+
 Retrieves a read-only list of time ranges for which content has been played back.
 
-## -parameters
-
 ## -returns
+
 A read-only list of time ranges.
 
 ## -remarks

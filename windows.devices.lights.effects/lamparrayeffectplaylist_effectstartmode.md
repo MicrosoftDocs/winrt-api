@@ -14,12 +14,11 @@ public LampArrayEffectStartMode EffectStartMode { get;  set; }
 Gets or sets the starting behavior for the effects.
 
 ## -property-value
-The LampArrayEffectStartMode. Default is [Sequential](lamparrayeffectstartmode.md).
+A lamp array effect start mode specifying the starting behavior for the effects. The default is [Sequential](lamparrayeffectstartmode.md).
 
 ## -remarks
-After playlist has started, the value is locked and is no longer possible to set the value.
+After a playlist has started, the value is locked and it's no longer possible to set the value.
 
 ## -see-also
 
 ## -examples
-

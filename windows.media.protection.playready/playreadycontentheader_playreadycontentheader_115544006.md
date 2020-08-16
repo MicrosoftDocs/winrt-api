@@ -59,7 +59,7 @@ if (supportsAes128CbcAndUnspecified)
 }
 else
 {
-    // Application chooses behavior, e.g. picks different content
+    // Application chooses behavior, for example, picks different content
     // or tells user that their system doesn’t support the selected content
 }
 ```

@@ -11,7 +11,7 @@ public System.Guid AlertCategoryIdBitMask { get; }
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertCategoryIdBitMask
 
 ## -description
-Gets the Bluetooth SIG-Defined AlertCategoryIdBitMask characteristic UUID. To view a list of all Bluetooth SIG-defined characteristic UUIDs, see [Bluetooth SIG-defined Characteristic UUIDs](https://go.microsoft.com/fwlink/p/?LinkId=391800).
+Gets the Bluetooth SIG-Defined AlertCategoryIdBitMask characteristic UUID. To view a list of all Bluetooth SIG-defined characteristic UUIDs, see [Bluetooth SIG-defined Characteristic UUIDs](https://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicsHome.aspx).
 
 ## -property-value
 The Bluetooth SIG-defined AlertCategoryIdBitMask characteristic UUID.

@@ -26,6 +26,6 @@ The RequestAccessAsync method prompts the user for permission to access their lo
 ## -examples
 
 ## -see-also
-[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [geolocation sample](https://go.microsoft.com/fwlink/p/?linkid=533278)
+[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
 ## -capabilities
 location

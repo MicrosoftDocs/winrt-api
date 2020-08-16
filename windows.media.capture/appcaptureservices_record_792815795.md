@@ -9,12 +9,13 @@ public AppCaptureRecordOperation AppCaptureServices.Record()
 
 # Windows.Media.Capture.AppCaptureServices.Record
 
+
 ## -description
+
 Initiates an app capture record operation.
 
-## -params
-
 ## -returns
+
 An object representing the record operation.
 
 ## -remarks
@@ -23,7 +24,7 @@ An object representing the record operation.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appCaptureSettings
+

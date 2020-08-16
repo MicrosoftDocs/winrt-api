@@ -9,12 +9,15 @@ public void AppBroadcastServices.ExitBroadcastMode(AppBroadcastExitBroadcastMode
 
 # Windows.Media.Capture.AppBroadcastServices.ExitBroadcastMode
 
+
 ## -description
+
 Causes the app broadcast service to exit broadcast mode with the specified reason.
 
-## -params
+## -parameters
 
-## -param reason
+### -param reason
+
 An object that specifies the reason that broadcast mode is being exited.
 
 ## -remarks
@@ -23,7 +26,7 @@ An object that specifies the reason that broadcast mode is being exited.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appBroadcast, appBroadcastSettings
+

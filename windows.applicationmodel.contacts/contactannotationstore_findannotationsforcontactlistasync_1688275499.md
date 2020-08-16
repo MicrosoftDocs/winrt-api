@@ -9,22 +9,28 @@ public IAsyncOperation<ContactAnnotation>> ContactAnnotationStore.FindAnnotation
 
 # Windows.ApplicationModel.Contacts.ContactAnnotationStore.FindAnnotationsForContactListAsync
 
-## -description
-Gets the annotations for the specified [ContactList](contactlist.md).
-## -params
 
-## -param contactListId
+## -description
+
+Gets the annotations for the specified [ContactList](contactlist.md).
+
+## -parameters
+
+### -param contactListId
+
 The ID of the [ContactList](contactlist.md) for which to retrieve annotations.
 
 ## -returns
+
 The list of [ContactAnnotation](contactannotation.md) objects.
 
 ## -remarks
 
 ## -see-also
 
-
 ## -examples
 
 ## -capabilities
+
 contactsSystem
+

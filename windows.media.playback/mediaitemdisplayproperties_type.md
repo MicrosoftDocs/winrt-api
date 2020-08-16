@@ -17,6 +17,8 @@ A value indicating the type of media that is represented by the [MediaPlaybackIt
 
 ## -remarks
 
+Apps should set a value for the **Type** property even if they aren't supplying other media metadata to be displayed by the System Media Transport Controls. This value helps the system handle your media content correctly, including preventing the screen saver from activating during playback.
+
 ## -examples
 
 ## -see-also

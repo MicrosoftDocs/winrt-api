@@ -81,4 +81,4 @@ catch (FileNotFoundException)
 For more, related examples, see [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) and [FileIO](fileio.md).
 
 ## -see-also
-[File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445), [FileIO](fileio.md)
+[File Access sample](http://go.microsoft.com/fwlink/p/?linkid=231445), [FileIO](fileio.md)

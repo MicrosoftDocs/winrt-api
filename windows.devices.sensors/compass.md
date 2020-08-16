@@ -39,8 +39,9 @@ The following example shows the [ReadingChanged](compass_readingchanged.md) even
 | 1709 | 16299 | GetDeviceSelector |
 | 1709 | 16299 | MaxBatchSize |
 | 1709 | 16299 | ReportLatency |
+| 2004 | 19041 | ReportThreshold |
 
 ## -examples
 
 ## -see-also
-[Compass Sample](https://go.microsoft.com/fwlink/p/?linkid=241378), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Compass sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620521)
+[Compass Sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Compass), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Compass sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620521)

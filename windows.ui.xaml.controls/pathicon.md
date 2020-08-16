@@ -10,19 +10,29 @@ public class PathIcon : Windows.UI.Xaml.Controls.IconElement, Windows.UI.Xaml.Co
 # Windows.UI.Xaml.Controls.PathIcon
 
 ## -description
+
 Represents an icon that uses a vector path as its content.
 
 ## -xaml-syntax
+
 ```xaml
 <PathIcon .../>
 ```
 
-
 ## -remarks
+
 > [!NOTE]
 > You can set the **Foreground** property on the [AppBarButton](appbarbutton.md) or on the PathIcon. If you set the [Foreground](control_foreground.md) on the [AppBarButton](appbarbutton.md), it's applied only to the default visual state. It's not applied to the other visual states defined in the [AppBarButton](appbarbutton.md) template, like `MouseOver`. If you set the [Foreground](iconelement_foreground.md) on the PathIcon, the color is applied to all visual states.
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Command bar](/windows/uwp/controls-and-patterns/app-bars).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the PathIcon in action](xamlcontrolsgallery:/item/AppBarButton).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
 This example shows an [AppBarButton](appbarbutton.md) with a PathIcon.
 
 ```xaml

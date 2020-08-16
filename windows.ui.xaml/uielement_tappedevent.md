@@ -10,9 +10,11 @@ public Windows.UI.Xaml.RoutedEvent TappedEvent { get; }
 # Windows.UI.Xaml.UIElement.TappedEvent
 
 ## -description
+
 Gets the identifier for the [Tapped](uielement_tapped.md) routed event.
 
 ## -property-value
+
 The identifier for the [Tapped](uielement_tapped.md) routed event.
 
 ## -remarks
@@ -20,4 +22,5 @@ The identifier for the [Tapped](uielement_tapped.md) routed event.
 ## -examples
 
 ## -see-also
+
 [AddHandler](uielement_addhandler_2121467075.md)

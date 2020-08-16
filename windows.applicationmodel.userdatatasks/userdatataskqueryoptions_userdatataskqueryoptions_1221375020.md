@@ -9,13 +9,14 @@ public UserDataTaskQueryOptions.UserDataTaskQueryOptions()
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskQueryOptions.UserDataTaskQueryOptions
 
-## -description
-Instantiates a new instance of the [UserDataTaskQueryOptions](userdatataskqueryoptions.md) class.
 
-## -params
+## -description
+
+Instantiates a new instance of the [UserDataTaskQueryOptions](userdatataskqueryoptions.md) class.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+

@@ -10,7 +10,7 @@ public Windows.Media.Core.HighDynamicRangeControl HighDynamicRangeAnalyzer { get
 # Windows.Media.Core.SceneAnalysisEffect.HighDynamicRangeAnalyzer
 
 ## -description
-Gets or sets a [HighDynamicRangeControl](highdynamicrangecontrol.md) object that is used to enable or disable High Dynamic Range (HDR) analysis.
+Gets a [HighDynamicRangeControl](highdynamicrangecontrol.md) object that is used to enable or disable High Dynamic Range (HDR) analysis.
 
 ## -property-value
 A [HighDynamicRangeControl](highdynamicrangecontrol.md) object that is used to enable or disable High Dynamic Range (HDR) analysis.

@@ -23,4 +23,4 @@ Value of the clock frequency in Hz.
 
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

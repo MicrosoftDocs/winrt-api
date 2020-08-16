@@ -17,4 +17,4 @@ Used to provide the [DeviceInformation.ID](../windows.devices.enumeration/device
 ## -examples
 
 ## -see-also
-[DeviceInformation.ID enumeration](../windows.devices.enumeration/deviceinformation_id.md), [Custom USB device sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620530)
+[DeviceInformation.ID enumeration](../windows.devices.enumeration/deviceinformation_id.md), [Custom USB device sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CustomUsbDeviceAccess)

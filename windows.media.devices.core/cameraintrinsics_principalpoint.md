@@ -16,6 +16,7 @@ Gets the principal point of the camera.
 The principal point of the camera.
 
 ## -remarks
+The principal point is expressed in pixels, not in normalized coordinates. The origin [0,0] is the bottom, left corner of the image (+Y pointing up). Note that this differs from typical image coordinates which have the origin in the top, left corner of the image (+Y pointing down).
 
 ## -examples
 

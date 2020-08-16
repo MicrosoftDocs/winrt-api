@@ -35,7 +35,7 @@ int __stdcall wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
 
 If you're using C++/CX, then a view provider must be attributed as **MTAThread.**
 
-```cpp
+```cppcx
 ref class MyFrameworkViewSource : IFrameworkViewSource
 {
 public:
@@ -59,4 +59,4 @@ int main(Platform::Array<Platform::String^>^)
 ## -examples
 
 ## -see-also
-[DirectX swap chain implementation sample](https://go.microsoft.com/fwlink/p/?linkid=258452), [IFrameworkView](iframeworkview.md)
+[DirectX swap chain implementation sample](https://github.com/microsoft/Win2D/tree/master/samples/CoreWindowExample), [IFrameworkView](iframeworkview.md)

@@ -13,4 +13,4 @@ The DIAL protocol (**DI** scover **A** nd **L** aunch) lets people launches medi
 ## -examples
 
 ## -see-also
-[Advanced casting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620480)
+[Advanced casting sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AdvancedCasting)

@@ -21,7 +21,7 @@ Represents the container for an item in a [FlipView](flipview.md) control.
 ## -remarks
 The FlipViewItem class provides the container for items displayed in a [FlipView](flipview.md) control. You populate the [FlipView](flipview.md) by adding objects directly to its [Items](itemscontrol_items.md) collection or by binding its [ItemsSource](itemscontrol_itemssource.md) property to a data source. When items are added to the [FlipView](flipview.md), a FlipViewItem container is created automatically for each item in the collection.
 
-You can specify the look of the FlipViewItem by setting the [FlipView](flipview.md) 's [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of FlipViewItem.
+You can specify the look of the FlipViewItem by setting the [FlipView](flipview.md)'s [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) property to a [Style](../windows.ui.xaml/style.md) with a [TargetType](../windows.ui.xaml/style_targettype.md) of FlipViewItem.
 
 ### Control style and template
 

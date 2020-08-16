@@ -20,7 +20,7 @@ Allow transfers on metered networks.
 Do not allow transfers on metered networks.
 
 ### -field Always:2
-Always download regardless of network cost. (e.g. even while a user is roaming)
+Always download regardless of network cost. (for example, even while a user is roaming)
 
 > [!NOTE]
 > This behavior is based only on network cost policy, and doesn't affect other app scenarios, like system suspension.

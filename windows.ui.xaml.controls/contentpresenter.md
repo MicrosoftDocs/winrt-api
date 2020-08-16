@@ -23,17 +23,17 @@ Typically, you use the ContentPresenter directly within the [ControlTemplate](co
 
 A ContentPresenter is often used to apply characteristics to text content, which are set into a **Content** property using only a string for the text (or some indirect equivalent such as a [Binding](../windows.ui.xaml.data/binding.md) or a RESX resource). For this reason the properties of a ContentPresenter are similar to the properties of the [TextElement](../windows.ui.xaml.documents/textelement.md) class. (The [TextElement](../windows.ui.xaml.documents/textelement.md) class is a base class for several elements that aren't controls but are used to format the text that might appear in a control or layout container.)
 
-> [!TIP]
-> Starting in Windows 10, ContentPresenter defines new border properties that let you draw a border around the ContentPresenter without using an additional [Border](border.md) element. The new properties are [ContentPresenter.BorderBrush](contentpresenter_borderbrush.md), [ContentPresenter.BorderThickness](contentpresenter_borderthickness.md), [ContentPresenter.CornerRadius](contentpresenter_cornerradius.md), and [ContentPresenter.Padding](contentpresenter_padding.md).
-
-```xaml
-<ContentPresenter BorderBrush="Red" BorderThickness="2" CornerRadius="10" Padding="12">
-</ContentPresenter>
-```
-
 A ContentPresenter can use a logic class to influence which template to use for templated data content at run-time. For more info, see the [ContentTemplateSelector](contentcontrol_contenttemplateselector.md) property.
 
 If the ContentPresenter is in the [ControlTemplate](controltemplate.md) of a [ContentControl](contentcontrol.md), the ContentPresenter behavior will implicitly bind to the [ContentTemplate](contentcontrol_contenttemplate.md) and [Content](contentcontrol_content.md) properties of the templated [ContentControl](contentcontrol.md).
+
+### Border properties
+
+ContentPresenter defines border properties that let you draw a border around the ContentPresenter without using an additional [Border](border.md) element. The properties are [ContentPresenter.BorderBrush](contentpresenter_borderbrush.md), [ContentPresenter.BorderThickness](contentpresenter_borderthickness.md), [ContentPresenter.CornerRadius](contentpresenter_cornerradius.md), and [ContentPresenter.Padding](contentpresenter_padding.md).
+
+```xaml
+<ContentPresenter BorderBrush="Red" BorderThickness="2" CornerRadius="10" Padding="12"/>
+```
 
 ### **ContentPresenter** derived classes
 

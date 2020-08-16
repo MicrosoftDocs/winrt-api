@@ -16,6 +16,12 @@ Provides data for a [StatusChanged](bluetoothleadvertisementpublisher_statuschan
 ## -remarks
 A BluetoothLEAdvertisementPublisherStatusChangedEventArgs instance is created when the [StatusChanged](bluetoothleadvertisementpublisher_statuschanged.md) event occurs on a [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md) object.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | SelectedTransmitPowerLevelInDBm |
+
 ## -examples
 
 ## -see-also

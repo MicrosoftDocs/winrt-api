@@ -38,7 +38,7 @@ This example demonstrates using the ContactPicker to get the name and email addr
 
 ## -see-also
 
-[Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575), [Contact picker sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624041), [My People Notifications sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MyPeopleNotifications)
+[Contact Picker app sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ContactPicker), [Contact picker sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624041), [My People Notifications sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MyPeopleNotifications)
 
 ## -capabilities
 

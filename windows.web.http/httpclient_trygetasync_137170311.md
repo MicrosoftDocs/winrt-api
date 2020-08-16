@@ -23,7 +23,7 @@ The object representing the asynchronous operation.
 ## -remarks
 This operation will not throw an exception on network errors. Instead you should examine the [HttpRequestResult](httprequestresult.md) to learn about the original HTTP request, the resulting HTTP response (if any) and error (if any). This operation will throw when the operation is canceled.
 
-This operation will not block. The returned [IAsyncOperationWithProgress(HttpRequestResult,HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response (including content) is read.
+This operation will not block. The returned [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) (of [HttpRequestResult](/uwp/api/windows.web.http.httprequestresult) and [HttpProgress](/uwp/api/windows.web.http.httpprogress)) completes after the whole response (including content) is read.
 
 ## -see-also
 [HttpRequestResult](httprequestresult.md), [HttpProgress](httpprogress.md), [HttpResponseMessage](httpresponsemessage.md), [HttpClient](/windows/uwp/networking/httpclient)

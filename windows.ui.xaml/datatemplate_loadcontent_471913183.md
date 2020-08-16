@@ -24,7 +24,7 @@ The following examples demonstrate using the LoadContent method to change the ap
 
 
 
-[!code-xml[Snippet1_XAML](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml#Snippet1_XAML)]
+[!code-xaml[Snippet1_XAML](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml#Snippet1_XAML)]
 
 
 [!code-csharp[Snippet2_CS](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml.cs#Snippet2_CS)]

@@ -61,7 +61,7 @@ void DocsCppWinRT::MainPage::Rectangle_PointerReleased(
 }
 ```
 
-```cpp
+```cppcx
 void MyPage::Rectangle_PointerReleased(Object^ sender, PointerRoutedEventArgs^ e)
 {
     myRectangle->Margin = Thickness(400, 0, 0, 0);

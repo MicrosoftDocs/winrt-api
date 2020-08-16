@@ -10,7 +10,7 @@ public void Write(System.Byte[] buffer)
 # Windows.Devices.I2c.I2cDevice.Write
 
 ## -description
-Writes data to the inter-integrated circuit (I<sup>2</sup> C) bus on which the device is connected, based on the bus address specified in the [I2cConnectionSetting](i2cconnectionsettings.md) s object that you used to create the [I2cDevice](i2cdevice.md) object.
+Writes data to the inter-integrated circuit (I<sup>2</sup> C) bus on which the device is connected, based on the bus address specified in the [I2cConnectionSetting](i2cconnectionsettings.md)s object that you used to create the [I2cDevice](i2cdevice.md) object.
 
 ## -parameters
 ### -param buffer
@@ -33,4 +33,4 @@ The I<sup>2</sup> C device negatively acknowledged the data transfer before the 
 [WritePartial](i2cdevice_writepartial_1107922632.md), [Read](i2cdevice_read_1437850332.md), [WriteRead](i2cdevice_writeread_1176071171.md), [I2cConnectionSetting](i2cconnectionsettings.md)
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

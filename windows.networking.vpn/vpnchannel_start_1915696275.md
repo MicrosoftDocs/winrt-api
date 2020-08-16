@@ -38,10 +38,10 @@ A UINT16 value specifying the max size of the frame defined by the VPN protocol 
 A **Boolean** specifying whether the VPN framework should monitor and use low cost networks as they are available. If **TRUE** the VPN framework will invoke the connect() callback to the VPN plug-in to reconnect it whenever the old network was costed and a new low cost network becomes available.
 
 ### -param mainOuterTunnelTransport
-An *IInspectable* object for socket transport. The object can be a [Windows.Networking.StreamSocket](../windows.networking.sockets/windows_networking_sockets.md), Windows.Networking.WebStreamSocket or Windows.Networking.DatagramSocket. This socket controls the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data.
+An *IInspectable* object for socket transport. This object can be a [Windows.Networking.Sockets.DatagramSocket](/uwp/api/windows.networking.sockets.datagramsocket) or a [Windows.Networking.Sockets.StreamSocket](/uwp/api/windows.networking.sockets.streamsocket). This socket controls the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data.
 
 ### -param optionalOuterTunnelTransport
-An optional *IInspectable* object for socket transport. The object can be a [Windows.Networking.StreamSocket](../windows.networking.sockets/windows_networking_sockets.md), Windows.Networking.WebStreamSocket or Windows.Networking.DatagramSocket. This socket controls the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data.
+An optional *IInspectable* object for socket transport. This object can be a [Windows.Networking.Sockets.DatagramSocket](/uwp/api/windows.networking.sockets.datagramsocket) or a [Windows.Networking.Sockets.StreamSocket](/uwp/api/windows.networking.sockets.streamsocket). This socket controls the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data.
 
 ## -remarks
 If the function succeeds, the return value is **S_OK**, otherwise the function will return an error hresult value describing the specific failure. If the plug-in is not connected, the error will be **E_ACCESSDENIED**.

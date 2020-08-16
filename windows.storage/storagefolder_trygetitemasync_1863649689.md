@@ -74,7 +74,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
 String^ imageName = "Logo.scale-140.png";
 // Get the app'ss Assets folder
 String^ path = Windows::ApplicationModel::Package::Current->InstalledLocation->Path + "\\Assets";

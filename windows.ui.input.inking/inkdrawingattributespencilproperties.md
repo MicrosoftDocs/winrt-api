@@ -70,7 +70,7 @@ struct MainPage : MainPageT<MainPage>
 }
 ```
 
-```cpp
+```cppcx
 public sealed partial class Sample : Page
 {
   public SetPencilInkStyle()

@@ -27,7 +27,7 @@ The command to invoke when the item is pressed. The default is **null**.
 ## -remarks
 The **ICommand** interface comes from a different source depending on whether the data source is implemented in Visual C++ component extensions (C++/CX) or for Microsoft .NET. Visual C++ component extensions (C++/CX) implements [Windows::UI::Xaml::Input::ICommand](../windows.ui.xaml.input/icommand.md). Microsoft .NET implements [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand?redirectedfrom=MSDN). Both interfaces have the same template. Which interface you call from your app code is analogous: use [Windows::UI::Xaml::Input::ICommand](../windows.ui.xaml.input/icommand.md) for Visual C++ component extensions (C++/CX) code and [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand?redirectedfrom=MSDN) for Microsoft .NET code.
 
-The XAML syntax shown for Microsoft .NET 's [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand?redirectedfrom=MSDN) type does not work for Windows Runtime XAML. You should always use a **Binding** reference. Constructs such as named commands and **x:Static** are not supported.
+The XAML syntax shown for Microsoft .NET's [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand?redirectedfrom=MSDN) type does not work for Windows Runtime XAML. You should always use a **Binding** reference. Constructs such as named commands and **x:Static** are not supported.
 
 ## -examples
 

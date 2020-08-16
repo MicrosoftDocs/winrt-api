@@ -1138,7 +1138,7 @@ var InvalidHandler = "Invalid data-win-control attribute";
     function addScript(scriptTag, fragmentHref, position) {
         // We synthesize a name for inline scripts because today we put the 
         // inline scripts in the same processing pipeline as src scripts. If
-        // we seperated inline scripts into their own logic, we could simplify
+        // we separated inline scripts into their own logic, we could simplify
         // this somewhat.
         //
         var src = scriptTag.src;

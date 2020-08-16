@@ -124,7 +124,7 @@ void playButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-For more examples, see the [Animated GIF playback sample](https://go.microsoft.com/fwlink/p/?LinkId=624046).
+For more examples, see the [Animated GIF playback sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAnimatedGif).
 
 ### Version history
 

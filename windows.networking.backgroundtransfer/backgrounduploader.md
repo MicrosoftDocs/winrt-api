@@ -11,7 +11,7 @@ public class BackgroundUploader : Windows.Networking.BackgroundTransfer.IBackgro
 
 ## -description
 
-Used to configure upload prior to the actual creation of the upload operation using [CreateUpload](backgrounduploader_createupload_1442890857.md). For an overview of Background Transfer capabilities, see [Transferring data in the background](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)). Download the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++.
+Used to configure upload prior to the actual creation of the upload operation using [CreateUpload](backgrounduploader_createupload_1442890857.md). For an overview of Background Transfer capabilities, see [Transferring data in the background](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)). Download the [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer) for a code example.
 
 > [!NOTE]
 > Background Transfer is primarily designed for long-term transfer operations for resources like video, music, and large images. For short-term operations involving transfers of smaller resources (i.e. a couple KB), use the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace.
@@ -23,7 +23,7 @@ After app termination, an app should enumerate all existing [UploadOperation](up
 > [!NOTE]
 > When an app is uninstalled any current or persisted Background Transfer operations associated with it are cleaned up.
 
-When implementing a library for Background Transfer operations, and this same library is used by other apps or components, specify a unique*group* name string (e.g. a GUID) when creating uploads. An upload with a group name string can only be enumerated by providing the matching string to [GetCurrentDownloadsAsync(String)](backgrounddownloader_getcurrentdownloadsasync_405117897.md), and will not appear in [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync_1101292265.md) calls without. This will ensure that other apps implementing that same library for uploads will not see your uploads
+When implementing a library for Background Transfer operations, and this same library is used by other apps or components, specify a unique*group* name string (for example, a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid)) when creating uploads. An upload with a group name string can only be enumerated by providing the matching string to [GetCurrentDownloadsAsync(String)](backgrounddownloader_getcurrentdownloadsasync_405117897.md), and will not appear in [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync_1101292265.md) calls without. This will ensure that other apps implementing that same library for uploads will not see your uploads
 
 Upload operations via FTP are not supported.
 
@@ -65,7 +65,7 @@ Stopping a debugging session in Microsoft Visual Studio is comparable to closing
 
 While enumerating downloads/uploads on app startup during a debug session, you can have your app cancel them if there is no interest in previous operations for that debug session. Note that if there are Microsoft Visual Studio project updates, like changes to the app manifest, and the app is uninstalled and re-deployed, [GetCurrentUploadsAsync](backgrounduploader_getcurrentuploadsasync_1938169689.md) cannot enumerate operations created using the previous app deployment.
 
-See [Debugging and testing UWP apps](https://go.microsoft.com/fwlink/p/?LinkID=258252) for more information.
+See [Debugging and testing UWP apps](https://msdn.microsoft.com/library/dd264943(v=vs.140).aspx) for more information.
 
 When using Background Transfer during development, you may get into a situation where the internal caches of active and completed transfer operations can get out of sync. This may result in the inability to start new transfer operations or interact with existing operations and [BackgroundTransferGroup](backgroundtransfergroup.md) objects. In some cases, attempting to interact with existing operations may trigger a crash. This result can occur if the [TransferBehavior](backgroundtransfergroup_transferbehavior.md) property is set to **Parallel**. This issue occurs only in certain scenarios during development and is not applicable to end users of your app.
 
@@ -81,7 +81,7 @@ To work around this issue, completely uninstall all versions of the app and re-d
 
 ## -examples
 
-The following example demonstrates how to configure and begin a basic upload operation, and is based on the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) offered in the Windows Sample Gallery.
+The following example demonstrates how to configure and begin a basic upload operation.
 
 ```javascript
         var upload = null;
@@ -140,7 +140,7 @@ The following example demonstrates how to configure and begin a basic upload ope
 
 ## -see-also
 
-[UploadOperation](uploadoperation.md), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)), [Quickstart: Upload a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700372(v=win.10)), [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064), [Background transfer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620510)
+[UploadOperation](uploadoperation.md), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)), [Quickstart: Upload a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700372(v=win.10)), [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer), [Background transfer sample (Windows 8.x)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)
 
 ## -capabilities
 

@@ -47,6 +47,6 @@ The following example shows how to use the ScrollBarVisibility enumeration membe
 
 
 
-[!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ScrollBarVisibilityEx/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ScrollBarVisibilityEx/csharp/Page.xaml#Snippet1)]
 
 ## -see-also

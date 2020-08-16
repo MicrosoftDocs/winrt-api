@@ -20,3 +20,5 @@ The identifier for the [VerticalSnapPointsAlignment](scrollviewer_verticalsnappo
 ## -examples
 
 ## -see-also
+
+[Scroll viewer controls](/windows/uwp/design/controls-and-patterns/scroll-controls), [Guidelines for panning](/windows/uwp/design/input/guidelines-for-panning)

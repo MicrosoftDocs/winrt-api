@@ -15,9 +15,9 @@ Represent an audio render effects manager which can be used to discover the audi
 ## -remarks
 To create an instance of AudioRenderEffectsManager, call [AudioEffectsManager.CreateAudioRenderEffectsManager](audioeffectsmanager_createaudiorendereffectsmanager_1253909866.md).
 
-See the [Audio effects discovery sample](https://go.microsoft.com/fwlink/p/?LinkID=309019) for an example of how to query and monitor audio effects on render and capture audio devices.
+See the [Audio effects discovery sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Audio%20effects%20discovery%20sample) for an example of how to query and monitor audio effects on render and capture audio devices.
 
 ## -examples
 
 ## -see-also
-[Audio effects discovery sample](https://go.microsoft.com/fwlink/p/?LinkID=309019)
+[Audio effects discovery sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Audio%20effects%20discovery%20sample)

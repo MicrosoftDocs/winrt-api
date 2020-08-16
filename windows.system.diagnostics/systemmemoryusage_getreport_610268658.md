@@ -9,13 +9,14 @@ public SystemMemoryUsageReport SystemMemoryUsage.GetReport()
 
 # Windows.System.Diagnostics.SystemMemoryUsage.GetReport
 
-## -description
-Gets the memory usage report for the system.  
 
-## -parameters
+## -description
+
+Gets the memory usage report for the system.
 
 ## -returns
-The [SystemMemoryUsageReport](systemmemoryusagereport.md).  
+
+The [SystemMemoryUsageReport](systemmemoryusagereport.md).
 
 ## -remarks
 

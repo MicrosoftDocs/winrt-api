@@ -25,4 +25,4 @@ The animation should loop forever.
 ## -examples
 
 ## -see-also
-[Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060)
+[Composition Animations Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/composition-animation)

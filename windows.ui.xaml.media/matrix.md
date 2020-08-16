@@ -98,6 +98,6 @@ This example XAML defines a Matrix that provides data for a [MatrixTransform](ma
 
 
 
-[!code-xml[matrixtransform](../windows.ui.xaml/code/transforms/csharp/Matrix_Transform.xaml#Snippetmatrixtransform)]
+[!code-xaml[matrixtransform](../windows.ui.xaml/code/transforms/csharp/Matrix_Transform.xaml#Snippetmatrixtransform)]
 
 ## -see-also

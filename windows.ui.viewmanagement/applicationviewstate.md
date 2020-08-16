@@ -35,4 +35,3 @@ The current app's view is in full-screen (has no snapped app adjacent to it), an
 ## -examples
 
 ## -see-also
-[Snap sample](https://go.microsoft.com/fwlink/p/?linkid=231523)

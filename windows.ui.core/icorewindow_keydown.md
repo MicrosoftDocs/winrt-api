@@ -10,10 +10,15 @@ abstract public event Windows.Foundation.TypedEventHandler KeyDown<Windows.UI.Co
 # Windows.UI.Core.ICoreWindow.KeyDown
 
 ## -description
-Specifies the event that is fired when a non-system key is pressed down.
+
+The event that's raised when a non-system key is pressed.
+
+The delegate type for this event is [TypedEventHandler\<TSender,TResult\>](/uwp/api/windows.foundation.typedeventhandler-2), where **TSender** is of type [CoreWindow](/uwp/api/windows.ui.core.corewindow?view=winrt-19041), and **TResult** is of type [KeyEventArgs](/uwp/api/windows.ui.core.keyeventargs).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[TypedEventHandler\<TSender,TResult\>](/uwp/api/windows.foundation.typedeventhandler-2), [CoreWindow](/uwp/api/windows.ui.core.corewindow?view=winrt-19041), [KeyEventArgs](/uwp/api/windows.ui.core.keyeventargs)

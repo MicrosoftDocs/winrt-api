@@ -9,10 +9,10 @@ public CodecQuery.CodecQuery()
 
 # Windows.Media.Core.CodecQuery.CodecQuery
 
-## -description
-Initializes a new instance of the **CodecQuery** class.
 
-## -params
+## -description
+
+Initializes a new instance of the **CodecQuery** class.
 
 ## -remarks
 

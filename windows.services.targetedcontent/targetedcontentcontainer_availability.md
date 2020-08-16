@@ -10,15 +10,19 @@ public TargetedContentAvailability Availability { get; }
 # Windows.Services.TargetedContent.TargetedContentContainer.Availability
 
 ## -description
-Gets TargetedContentAvailability for a TargetedContentContainer object.
+
+Gets the [TargetedContentAvailability](targetedcontentavailability.md) for the content in a [TargetedContentContainer](targetedcontentcontainer.md).
+
 ## -property-value
 
 ## -remarks
 
 ## -see-also
 
+[TargetedContentSubscription.AvailabilityChanged](targetedcontentsubscription_availabilitychanged.md), [TargetedContentAvailabilityChangedEventArgs](targetedcontentavailabilitychangedeventargs.md)
+
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

@@ -10,10 +10,10 @@ public double CenterY { get; }
 # Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.CenterY
 
 ## -description
-Gets the Y coordinate of the [CalendarView](../windows.ui.xaml.controls/calendarview.md) 's center point.
+Gets the Y coordinate of the [CalendarView](../windows.ui.xaml.controls/calendarview.md)'s center point.
 
 ## -property-value
-The Y coordinate of the [CalendarView](../windows.ui.xaml.controls/calendarview.md) 's center point.
+The Y coordinate of the [CalendarView](../windows.ui.xaml.controls/calendarview.md)'s center point.
 
 ## -remarks
 

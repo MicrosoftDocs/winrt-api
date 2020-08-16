@@ -33,6 +33,13 @@ XamlUICommand lets you specify UI through the control binding, such as an icon, 
 
 ## -see-also
 
-[StandardUICommand](standarduicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+[StandardUICommand](standarduicommand.md), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Command design basics](/windows/uwp/layout/commanding-basics).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the StandardUICommand in action](xamlcontrolsgallery:/item/StandardUICommand).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)

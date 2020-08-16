@@ -34,6 +34,8 @@ The object that is used to generate the content of the TreeViewItem. The default
 
 ## -remarks
 
+TThe type of the object that you set the **ItemsSource** property to must implement particular interface(s). For more details, see the [Remarks](/uwp/api/windows.ui.xaml.controls.itemscontrol.itemssource#remarks) section of **ItemsControl.ItemsSource**.
+
 ## -see-also
 
 ## -examples

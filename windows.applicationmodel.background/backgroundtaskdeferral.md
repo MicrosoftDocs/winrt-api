@@ -12,10 +12,6 @@ public class BackgroundTaskDeferral : Windows.ApplicationModel.Background.IBackg
 ## -description
 Represents a background task deferral returned by the [IBackgroundTaskInstance.GetDeferral](ibackgroundtaskinstance_getdeferral_254836512.md) method.
 
-## -remarks
-> [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
-
 ## -examples
 The following example shows how to use a background task deferral to delay a task from closing prematurely while asynchronous code is still running. Ensure that you complete all background task deferrals. Most background tasks have a timeout after which the app will be suspended or terminated regardless of whether there are any pending deferrals. However, leaving outstanding background task deferrals interferes with the system's ability to manage process lifetimes in a timely way.
 

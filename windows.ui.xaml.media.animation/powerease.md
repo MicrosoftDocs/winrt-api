@@ -30,12 +30,11 @@ This XAML example applies a PowerEase easing function with a [Power](powerease_p
 
 
 
-[!code-xml[PowerEase](../windows.ui.xaml.media.animation/code/PowerEase/csharp/Page.xaml#SnippetPowerEase)]
+[!code-xaml[PowerEase](../windows.ui.xaml.media.animation/code/PowerEase/csharp/Page.xaml#SnippetPowerEase)]
 
 [!code-csharp[PowerEase_code](../windows.ui.xaml.media.animation/code/PowerEase/csharp/Page.xaml.cs#SnippetPowerEase_code)]
 
 [!code-vb[PowerEase_code](../windows.ui.xaml.media.animation/code/PowerEase/vbnet/MainPage.xaml.vb#SnippetPowerEase_code)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)
-rticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

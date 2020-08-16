@@ -26,7 +26,7 @@ The object representing the asynchronous operation.
 ## -remarks
 This operation will not throw an exception on network errors. Instead you should examine the [HttpRequestResult](httprequestresult.md) to learn about the original HTTP request, the resulting HTTP response (if any) and error (if any). This operation will throw when the operation is canceled.
 
-This operation will not block. The returned [IAsyncOperationWithProgress(HttpRequestResult,HttpProgress)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after the whole response (including content) is read.
+This operation will not block. The returned [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) (of [HttpRequestResult](/uwp/api/windows.web.http.httprequestresult) and [HttpProgress](/uwp/api/windows.web.http.httpprogress)) completes after the whole response (including content) is read.
 
 The [TryPutAsync](httpclient_tryputasync_1991770449.md) and TryPostAsync methods only allow setting a limited number of HTTP content headers. In contrast, the [TrySendRequestAsync](httpclient_trysendrequestasync_1392908712.md) method allows setting headers on the request message as well as on the HTTP content to be sent.
 

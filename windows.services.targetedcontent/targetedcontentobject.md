@@ -10,7 +10,9 @@ public class TargetedContentObject
 # Windows.Services.TargetedContent.TargetedContentObject
 
 ## -description
+
 Represents a single object within the TargetedContentContainer.
+
 ## -remarks
 
 ## -see-also
@@ -18,5 +20,6 @@ Represents a single object within the TargetedContentContainer.
 ## -examples
 
 ## -capabilities
+
 secondaryAuthenticationFactor
 targetedContent

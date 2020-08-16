@@ -9,21 +9,27 @@ public AudioEncodingProperties AudioEncodingProperties.CreateFlac(UInt32 sampleR
 
 # Windows.Media.MediaProperties.AudioEncodingProperties.CreateFlac
 
+
 ## -description
+
 Creates an instance of [AudioEncodingProperties](audioencodingproperties.md) for Free Lossless Audio Codec (FLAC) audio.
 
-## -params
+## -parameters
 
-## -param sampleRate
+### -param sampleRate
+
 The audio sampling rate.
 
-## -param channelCount
+### -param channelCount
+
 The number of audio channels.
 
-## -param bitsPerSample
+### -param bitsPerSample
+
 The number of bits per sample.
 
 ## -returns
+
 The audio encoding properties.
 
 ## -remarks

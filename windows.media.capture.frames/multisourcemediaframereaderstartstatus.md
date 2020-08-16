@@ -20,8 +20,7 @@ Specifies the status of a [MultiSourceMediaFrameReader](multisourcemediaframerea
 
 ## -enum-fields
 
-## -field UnknownFailure:4
-There was an unknown failure.
+.
 
 ## -field Success:0
 The frame reader was started successfully.
@@ -34,6 +33,9 @@ The reader could not be started due to insufficient system resources.
 
 ## -field DeviceNotAvailable:3
 The reader could not be started because the capture device is unavailable.
+
+## -field UnknownFailure:4
+There was an unknown failure
 
 ## -remarks
 

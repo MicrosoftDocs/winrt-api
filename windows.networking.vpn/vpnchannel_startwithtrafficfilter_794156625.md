@@ -38,7 +38,7 @@ A UINT16 value specifying the max size of the frame defined by the VPN protocol 
 Reserved.
 
 ### -param transports
-A list of **IInspectable** objects for socket transport. Each can be a **Windows.Networking.StreamSocket**, a **Windows.Networking.WebStreamSocket**, or a **Windows.NetworkingDatagramSocket**. They will control the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data. The sockets must be unconnected at the point of the call.
+A list of **IInspectable** objects for socket transport. Each object can be a [Windows.Networking.Sockets.DatagramSocket](/uwp/api/windows.networking.sockets.datagramsocket) or a [Windows.Networking.Sockets.StreamSocket](/uwp/api/windows.networking.sockets.streamsocket). They will control the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data. The sockets must be unconnected at the point of the call.
 
 ### -param assignedTrafficFilters
 A **VpnTrafficFilterAssignment** object, which allows the specification of traffic filters to a VPN channel.

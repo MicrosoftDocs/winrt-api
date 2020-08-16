@@ -13,7 +13,7 @@ public string Id { get;  set; }
 Gets or sets the unique identifier of the IPerceptionFrameProvider.
 
 ## -property-value
-The unique identifier of the IPerceptionFrameProvider, for example, a GUID, or "com.contoso.depthcamera.x500.serialNumber1234".
+The unique identifier of the IPerceptionFrameProvider, for example, a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid), or "com.contoso.depthcamera.x500.serialNumber1234".
 
 ## -remarks
 

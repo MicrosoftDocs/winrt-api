@@ -25,4 +25,4 @@ Provides event data for the [DragStarting](uielement_dragstarting.md) event.
 
 ## -see-also
 
-[RoutedEventArgs](routedeventargs.md), [Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)
+[RoutedEventArgs](routedeventargs.md), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

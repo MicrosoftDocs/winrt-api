@@ -23,7 +23,7 @@ If you try to use this method on the [Package](package.md) object returned by th
 This method is not supported in JavaScript. However, you can create a Windows Runtime component that calls this method and then call this component from a JavaScript UWP app. For more information, see [App Installer file API issues](https://docs.microsoft.com/windows/msix/app-installer/app-installer-api-issues).
 
 ## -see-also
-[PackageUpdateAvailabilityResult](packageupdateavailabilityresult.md),[PackageManager.FindPackageForUser](../windows.management.deployment/packagemanager_findpackageforuser_526853699.md),[App Installer APIs](https://docs.microsoft.com/windows/msix/app-installer/app-installer-apis)
+[PackageUpdateAvailabilityResult](packageupdateavailabilityresult.md),[PackageManager.FindPackageForUser](../windows.management.deployment/packagemanager_findpackageforuser_526853699.md),[App Installer APIs](https://docs.microsoft.com/windows/msix/app-installer/app-installer-documentation#app-installer-file-apis)
 
 ## -examples
 

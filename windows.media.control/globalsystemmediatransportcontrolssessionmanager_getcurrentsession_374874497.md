@@ -22,3 +22,6 @@ A session object that represents this remote session.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

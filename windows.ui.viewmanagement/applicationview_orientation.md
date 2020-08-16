@@ -16,7 +16,7 @@ Gets the current orientation (landscape or portrait) of the window (app view) wi
 The current orientation of the calling window.
 
 ## -remarks
-For an example of using the [Orientation](applicationview_isscreencaptureenabled.md) property, see the [Application Views](https://code.msdn.microsoft.com/windowsapps/Application-Views-98825022) sample.
+For an example of using the [Orientation](applicationview_isscreencaptureenabled.md) property, see the [Application Views](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Application%20Views) sample.
 
 The property is a nonstatic member of the window object. For JavaScript, this means that it is a method of the window object that [getForCurrentView](applicationview_getforcurrentview_1363600702.md) creates, not of the [ApplicationView](applicationview.md) class.
 

@@ -11,8 +11,10 @@ public DisplayMonitorUsageKind UsageKind { get; }
 # Windows.Devices.Display.Core.DisplayTarget.UsageKind
 
 ## -description
+Gets a value representing the usage kind.
 
 ## -property-value
+A [DisplayMonitorUsageKind](/uwp/api/windows.devices.display.displaymonitorusagekind) value.
 
 ## -remarks
 

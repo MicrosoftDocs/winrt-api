@@ -17,7 +17,7 @@ Used to provide errors encountered during a transfer operation.
 ## -examples
 
 ## -see-also
-[Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064)
+[Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer), [Background transfer sample (Windows 8.x)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)
 
 ## -capabilities
 internetClient, internetClientServer, privateNetworkClientServer

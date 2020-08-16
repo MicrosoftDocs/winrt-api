@@ -10,15 +10,20 @@ public Windows.Foundation.Point CharTranslation { get;  set; }
 # Windows.UI.Input.MouseWheelParameters.CharTranslation
 
 ## -description
-Gets or sets the device-independent pixel (DIP) conversion factors for both character width and line height units (as set in the **Wheel** settings of the **Mouse** control panel).
+
+Gets or sets the conversion factors for both character width and line height units, in device-independent pixel (DIP).
 
 ## -property-value
+
 The conversion factors for the character width (x) and line height (y).
 
 ## -remarks
+
 The following image shows the default control panel settings for the button wheel. These settings map a single detent to a specific unit of distance in the UI (character width and line height). CharTranslation provides the means to redefine these distances and specify them in terms of device-independent pixel (DIP).
 
 <img src="images/MouseProperties_ButtonWheel.png" alt="Mouse properties dialog with wheel settings displayed" />
+
+*Mouse properties dialog with wheel settings displayed*
 
 If the wheel button is set to scroll three lines at a time for each detent and the value of CharTranslation is set to (8,16), vertical scrolling is applied at 3 x 16 = 48 device-independent pixel (DIP) per detent. Horizontal scrolling through the mouse tilt wheel is applied at 3 x 8 = 24 device-independent pixel (DIP) per detent.
 

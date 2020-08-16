@@ -14,7 +14,7 @@ Notifies the system of a new outgoing video call that will replace an existing c
 
 ## -parameters
 ### -param callUpgradeGuid
-The GUID of the call.
+The [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) of the call.
 
 ### -param context
 A string that is passed to the associated foreground app as a deep link. This might be a contact name or other data that can be used to populate the app's UI more quickly. The maximum length is 128 characters. This parameter must be non-null and must refer to a task defined in the app's manifest file.

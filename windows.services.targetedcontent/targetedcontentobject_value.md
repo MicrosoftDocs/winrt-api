@@ -10,7 +10,9 @@ public TargetedContentValue Value { get; }
 # Windows.Services.TargetedContent.TargetedContentObject.Value
 
 ## -description
-Gets the TargetedContentValue object for the TargetedContentObject object.
+
+Gets the [TargetedContentValue](targetedcontentvalue.md) object for the [TargetedContentObject](targetedcontentobject.md) object.
+
 ## -property-value
 
 ## -remarks
@@ -19,6 +21,6 @@ Gets the TargetedContentValue object for the TargetedContentObject object.
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

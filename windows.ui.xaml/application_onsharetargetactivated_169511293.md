@@ -19,7 +19,7 @@ Event data for the event.
 ## -remarks
 All [Application](application.md) overrides involved in an activation scenario should call [Window.Activate](window_activate_1797342875.md) in their implementations.
 
-For example code, see [Share target activation sample](https://go.microsoft.com/fwlink/p/?LinkID=231519).
+For example code, see [Share target activation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ShareTarget).
 
 ### Notes for previous versions
 
@@ -29,4 +29,4 @@ For example code, see [Share target activation sample](https://go.microsoft.com/
 ## -examples
 
 ## -see-also
-[ShareOperation](https://msdn.microsoft.com/library/0794ca7c-8c1f-467d-b3c7-a005d09f4a6f), [Share target activation sample](https://go.microsoft.com/fwlink/p/?LinkID=231519)
+[ShareOperation](../windows.applicationmodel.datatransfer.sharetarget/shareoperation.md), [Share target activation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ShareTarget)

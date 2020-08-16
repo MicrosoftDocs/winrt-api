@@ -69,4 +69,4 @@ visual.Shadow = shadow;
 
 
 ## -see-also
-[Composition Visual Tree Overview](https://go.microsoft.com/fwlink/p/?LinkID=699335), [ContainerVisual](containervisual.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Visual Tree Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/composition-visual-tree), [ContainerVisual](containervisual.md), [IClosable](../windows.foundation/iclosable.md)

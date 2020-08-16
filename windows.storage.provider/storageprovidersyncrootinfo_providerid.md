@@ -10,7 +10,7 @@ public Guid ProviderId { get;  set; }
 # Windows.Storage.Provider.StorageProviderSyncRootInfo.ProviderId
 
 ## -description
-Gets or sets a GUID that represents the ID of the storage provider.
+Gets or sets a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) that represents the ID of the storage provider.
 
 ## -property-value
 A GUID that represents the ID of the storage provider.

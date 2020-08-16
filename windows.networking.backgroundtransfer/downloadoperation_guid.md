@@ -10,7 +10,7 @@ public System.Guid Guid { get; }
 # Windows.Networking.BackgroundTransfer.DownloadOperation.Guid
 
 ## -description
-This is a unique identifier for a specific download operation. A GUID associated to a download operation will not change for the duration of the download.
+This is a unique identifier for a specific download operation. A [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) associated to a download operation will not change for the duration of the download.
 
 ## -property-value
 The unique ID for this download operation.

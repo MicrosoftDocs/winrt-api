@@ -26,4 +26,12 @@ The new value for the attribute.
 
 ## -examples
 
+```csharp
+element.SetAttributeNS("http://www.w3.org/2000/svg", "width", "3");
+```
+
+```cppwinrt
+element.SetAttributeNS(winrt::box_value(L"http://www.w3.org/2000/svg"), L"width", L"3");
+```
+
 ## -see-also

@@ -19,3 +19,6 @@ Occurs when the timeline properties of this session change.
 
 ## -examples
 
+## -capabilities
+globalMediaControl
+

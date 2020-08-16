@@ -36,7 +36,7 @@ UIElement extends [DependencyObject](dependencyobject.md), which is another base
 
 ### Input, and events for responding to user interaction
 
-Much of the input behavior for visible elements in a UI is defined in the UIElement class. This includes the events for keyboard, mouse, touch, drag-drop, and focus interactions. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), and [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index).
+Much of the input behavior for visible elements in a UI is defined in the UIElement class. This includes the events for keyboard, mouse, touch, drag-drop, and focus interactions. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), and [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index).
 
 Prominent API of UIElement that support input and user interaction:
 

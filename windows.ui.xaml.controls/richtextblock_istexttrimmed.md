@@ -23,5 +23,6 @@ See the TextTrimming property and [TextTrimming](../windows.ui.xaml/texttrimming
 
 ## -see-also
 
-## -examples
+[IsTextTrimmedChanged](richtextblock_istexttrimmedchanged.md)
 
+## -examples

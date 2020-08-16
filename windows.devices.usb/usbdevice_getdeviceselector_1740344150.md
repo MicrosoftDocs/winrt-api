@@ -10,7 +10,7 @@ public string GetDeviceSelector(System.Guid winUsbInterfaceClass)
 # Windows.Devices.Usb.UsbDevice.GetDeviceSelector
 
 ## -description
-Gets an Advanced Query Syntax (AQS) string, based on the device interface GUID identifier, specified by the app. The app passes the string to [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) in order to find a specific type of USB device.
+Gets an Advanced Query Syntax (AQS) string, based on the device interface [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) identifier, specified by the app. The app passes the string to [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) in order to find a specific type of USB device.
 
 
 

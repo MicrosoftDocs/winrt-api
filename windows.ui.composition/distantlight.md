@@ -14,8 +14,7 @@ An infinitely large distant light source that emits light in a single direction.
 
 ## -remarks
 
-    **DistantLight**
-   s and [SpotLight](spotlight.md) s support direction.
+**DistantLight**s and [SpotLight](spotlight.md)s support direction.
 
 DistantLight is one of the four light types derived from [CompositionLight](compositionlight.md).
 

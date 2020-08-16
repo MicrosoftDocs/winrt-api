@@ -23,4 +23,4 @@ The property is a nonstatic member of the window object. For JavaScript, this me
 ## -examples
 
 ## -see-also
-[Disabling screen capture sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624047)
+[Disabling screen capture sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DisablingScreenCapture)

@@ -10,13 +10,17 @@ public event TypedEventHandler ContentChanged<TargetedContentSubscription, Targe
 # Windows.Services.TargetedContent.TargetedContentSubscription.ContentChanged
 
 ## -description
-Event invoked when TargetedContentSubscription Content has changed.
+
+Occurs when the content in this subscription changes.
+
 ## -remarks
 
 ## -see-also
 
+[TargetedContentChangedEventArgs](targetedcontentchangedeventargs.md)
+
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

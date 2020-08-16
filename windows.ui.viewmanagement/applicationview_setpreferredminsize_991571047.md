@@ -33,5 +33,5 @@ If you set a preferred minimum size that is larger than the current size, the ap
 ## -examples
 
 ## -see-also
-[Window resizing sample](https://go.microsoft.com/fwlink/p/?LinkId=620026), [
+[Window resizing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ResizeAppView), [
       Responsive design 101 for ](https://docs.microsoft.com/windows/uwp/layout/screen-sizes-and-breakpoints-for-responsive-design)

@@ -9,11 +9,13 @@ public IAsyncAction UserDataTaskList.RegisterSyncManagerAsync()
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskList.RegisterSyncManagerAsync
 
+
 ## -description
+
 Adds a [SyncManager](userdatatasklist_syncmanager.md) to the [UserDataTaskList](userdatatasklist.md).
-## -params
 
 ## -returns
+
 An asynchronous registration operation that you can await.
 
 ## -remarks
@@ -21,3 +23,4 @@ An asynchronous registration operation that you can await.
 ## -see-also
 
 ## -examples
+

@@ -1,4 +1,4 @@
-.---
+---
 -api-id: T:Windows.ApplicationModel.Contacts.ContactListOtherAppReadAccess
 -api-type: winrt enum
 ---

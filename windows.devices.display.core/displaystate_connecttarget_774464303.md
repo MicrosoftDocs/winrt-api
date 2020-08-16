@@ -12,10 +12,17 @@ public DisplayPath DisplayState.ConnectTarget(DisplayTarget target)
 
 ## -description
 
+Connects the specified target, and returns the resulting path.
+
 ## -parameters
+
 ### -param target
 
+A [DisplayTarget](displaytarget.md) object.
+
 ## -returns
+
+A [DisplayPath](displaypath.md) object representing the target.
 
 ## -remarks
 

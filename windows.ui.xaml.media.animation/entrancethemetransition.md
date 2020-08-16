@@ -23,11 +23,11 @@ Provides the animated transition behavior on controls when they first appear. Yo
 ## -examples
 This example shows a how to apply an EntranceThemeTransition to a [Button](../windows.ui.xaml.controls/button.md).
 
-[!code-xml[EntranceThemeTransitionSimple](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionSimple)]
+[!code-xaml[EntranceThemeTransitionSimple](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionSimple)]
 
 Here, the EntranceThemeTransition is applied using a Style resource.
 
-[!code-xml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
+[!code-xaml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
 
 If you set an EntranceThemeTransition animation on a panel, the children of the panel will automatically offset when they animate into view to create a visually appealing entrance.
 

@@ -29,7 +29,15 @@ This API is thread-safe.
 ## -examples
 The following trivial example shows how you could create an [ImageFeatureValue](imagefeaturevalue.md) from a [VideoFrame](../windows.media/videoframe.md), and then later how you could get the **VideoFrame** from which an **ImageFeatureValue** was created.
 
-```cpp
+```cppwinrt
+#include <winrt/Windows.AI.MachineLearning.h>
+#include <winrt/Windows.Media.h>
+using namespace winrt;
+using namespace Windows::AI::MachineLearning;
+using namespace Windows::Media;
+
+...
+
 ImageFeatureValue CreateInputFeature(VideoFrame videoFrame)
 {
 	ImageFeatureValue imageFeatureValue{ ImageFeatureValue::CreateFromVideoFrame(videoFrame) };

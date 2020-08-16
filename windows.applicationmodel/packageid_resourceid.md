@@ -20,4 +20,4 @@ The resource ID. If there is no resource ID for the package, this property is nu
 ## -examples
 
 ## -see-also
-[App package information sample](https://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa)
+[App package information sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package)

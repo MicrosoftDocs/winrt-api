@@ -9,18 +9,23 @@ public IAsyncOperation<bool> MapControl.TryPanAsync(Double horizontalPixels, Dou
 
 # Windows.UI.Xaml.Controls.Maps.MapControl.TryPanAsync
 
+
 ## -description
+
 Starts an asynchronous operation to pan the map from its current position.
 
-## -params
+## -parameters
 
-## -param horizontalPixels
+### -param horizontalPixels
+
 The pixels to pan horizontally.
 
-## -param verticalPixels
+### -param verticalPixels
+
 The pixels to pan vertically.
 
 ## -returns
+
 Contains the results of the operation: **true** if the operation completed successfully; otherwise, **false**.
 
 ## -remarks
@@ -28,3 +33,4 @@ Contains the results of the operation: **true** if the operation completed succe
 ## -see-also
 
 ## -examples
+

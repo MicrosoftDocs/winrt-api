@@ -43,7 +43,7 @@ This XAML example uses the **ColorAnimationUsingKeyFrames** class to animate the
 
 
 
-[!code-xml[Coloranimationusingkeyframes](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationusingkeyframes)]
+[!code-xaml[Coloranimationusingkeyframes](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml#SnippetColoranimationusingkeyframes)]
 
 
 [!code-csharp[Coloranimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/csharp/Page.xaml.cs#SnippetColoranimationusingkeyframes_cs)]
@@ -51,5 +51,4 @@ This XAML example uses the **ColorAnimationUsingKeyFrames** class to animate the
 [!code-vb[Coloranimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/vbnet/Page.xaml.vb#SnippetColoranimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [ColorKeyFrame](colorkeyframe.md), [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md), [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md)
-[KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [ColorKeyFrame](colorkeyframe.md), [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md), [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md), [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md)

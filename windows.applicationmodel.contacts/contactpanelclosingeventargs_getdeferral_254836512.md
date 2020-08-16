@@ -9,12 +9,15 @@ public Deferral ContactPanelClosingEventArgs.GetDeferral()
 
 # Windows.ApplicationModel.Contacts.ContactPanelClosingEventArgs.GetDeferral
 
+
 ## -description
+
 Gets the deferral object for the [Closing](contactpanel_closing.md) event.
-## -params
 
 ## -returns
+
 The deferral object for the [Closing](contactpanel_closing.md) event.
+
 ## -remarks
 
 ## -see-also
@@ -22,4 +25,6 @@ The deferral object for the [Closing](contactpanel_closing.md) event.
 ## -examples
 
 ## -capabilities
+
 contactsSystem
+

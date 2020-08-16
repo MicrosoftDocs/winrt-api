@@ -9,6 +9,9 @@
 
 Contains types that you can use to communicate with peripheral devices connected through a inter-integrated circuit (I<sup>2</sup> C) bus from an application.
 
+> [!NOTE]
+> For info about providers, see the note at the beginning of the [Windows.Devices.Gpio.Provider](/uwp/api/windows.devices.gpio.provider) namespace topic.
+
 ## -remarks
 
 ## -examples

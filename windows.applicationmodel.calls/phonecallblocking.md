@@ -21,7 +21,7 @@ For more information about how communication blocking works, and how to implemen
 
 ## -see-also
 
-[Windows.ApplicationModel.CommunicationBlocking](../windows.applicationmodel.communicationblocking/windows_applicationmodel_communicationblocking.md), [Communication blocking and filtering sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624164)
+[Windows.ApplicationModel.CommunicationBlocking](../windows.applicationmodel.communicationblocking/windows_applicationmodel_communicationblocking.md), [Communication blocking and filtering sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CommunicationBlockAndFilter)
 
 ## -capabilities
 

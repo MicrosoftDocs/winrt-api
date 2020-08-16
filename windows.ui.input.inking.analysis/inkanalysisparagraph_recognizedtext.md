@@ -10,7 +10,10 @@ public string RecognizedText { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisParagraph.RecognizedText
 
 ## -description
-Gets the recognized text associated with the InkAnalysisParagraph object.  
+
+Gets the recognized text associated with the InkAnalysisParagraph object.
+
+## -property-value
 
 ## -remarks
 

@@ -21,4 +21,4 @@ A collection of network addresses for the Wi-Fi Direct device as endpoint pairs.
 ## -examples
 
 ## -see-also
-[WiFiDirectDevice sample](https://go.microsoft.com/fwlink/p/?LinkID=301419)
+[WiFiDirectDevice sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/WiFiDirectDevice%20sample)

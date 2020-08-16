@@ -22,6 +22,8 @@ Contains a set of common app user interface settings and operations.
 | 1703 | 15063 | AdvancedEffectsEnabledChanged |
 | 1903 | 18362 | AutoHideScrollBars |
 | 1903 | 18362 | AutoHideScrollBarsChanged |
+| 2004 | 19041 | AnimationsEnabledChanged |
+| 2004 | 19041 | MessageDurationChanged |
 
 ## -examples
 
@@ -78,7 +80,7 @@ void MainPage::ClickHandler(IInspectable const&, RoutedEventArgs const&)
 }
 ```
 
-```cpp
+```cppcx
 void SDKSample::HighContrast::UI::UIGetSettings_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 { 
   Button^ b = safe_cast<Button^>(sender);
@@ -136,4 +138,4 @@ void SDKSample::HighContrast::UI::UIGetSettings_Click(Platform::Object^ sender, 
 ```
 
 ## -see-also
-[UI contrast and settings sample](https://go.microsoft.com/fwlink/p/?linkid=258421)
+[UI contrast and settings sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/UI%20contrast%20and%20settings%20sample%20(Windows%208))

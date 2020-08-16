@@ -12,6 +12,8 @@ public struct Vector2
 ## -description
 Describes a vector of two floating-point components.
 
+In C++, **Vector2** is projected as the [float2 structure](/windows/win32/numerics_h/float2-structure).
+
 ## -struct-fields
 
 ### -field X
@@ -27,3 +29,4 @@ The y component of the vector.
 ## -examples
 
 ## -see-also
+[float2 structure](/windows/win32/numerics_h/float2-structure)

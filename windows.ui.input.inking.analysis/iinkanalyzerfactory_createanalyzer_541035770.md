@@ -9,10 +9,10 @@ public InkAnalyzer IInkAnalyzerFactory.CreateAnalyzer()
 
 # Windows.UI.Input.Inking.Analysis.IInkAnalyzerFactory.CreateAnalyzer
 
-## -description
-Retrieves a new instance of an [InkAnalyzer](inkanalyzer.md) object.
 
-## -params
+## -description
+
+Retrieves a new instance of an [InkAnalyzer](inkanalyzer.md) object.
 
 ## -returns
 

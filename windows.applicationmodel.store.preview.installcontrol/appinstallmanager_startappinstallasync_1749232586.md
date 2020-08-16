@@ -29,7 +29,7 @@ True to install the app to non-removable storage even if the user has configured
 An asynchronous operation that, on successful completion, returns an [AppInstallItem](appinstallitem.md) that represents the app that was added to the installation queue.
 
 ## -remarks
-When this method successfully returns, the app has been added to the installation queue; it does not necessarily mean that the app has finished installed. To determine the installation status, check the [GetCurrentStatus](appinstallitem_getcurrentstatus_1536936899.md) method of the [AppInstallItem](appinstallitem.md) return value.
+When this method successfully returns, the app has been added to the installation queue; it does not necessarily mean that the app has finished being installed. To determine the installation status, check the [GetCurrentStatus](appinstallitem_getcurrentstatus_1536936899.md) method of the [AppInstallItem](appinstallitem.md) return value.
 
 ## -examples
 

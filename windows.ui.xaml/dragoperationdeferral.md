@@ -19,4 +19,4 @@ Enables you to drag-and-drop content with a target app asynchronously.
 
 ## -see-also
 
-[Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)
+[Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

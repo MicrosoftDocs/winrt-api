@@ -26,7 +26,7 @@ The event data.
 
 ## -examples
 
-The following example code demonstrates the use of this type. For the complete code listing, see the [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582).
+The following example code demonstrates the use of this type. For the complete code listing, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
 
 
 
@@ -37,5 +37,4 @@ The following example code demonstrates the use of this type. For the complete c
 [!code-vb[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/vbnet/Scenario1.xaml.vb#SnippetWebViewNavigation)]
 
 ## -see-also
-[WebView](../windows.ui.xaml.controls/webview.md), [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582)
-soft.com/fwlink/p/?linkid=238582)
+[WebView](../windows.ui.xaml.controls/webview.md), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

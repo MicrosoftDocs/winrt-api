@@ -27,7 +27,7 @@ Composite geometry objects can be created using a GeometryGroup. The GeometryGro
 
 
 
-[!code-xml[GeometryOvw8](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw8.xaml#SnippetGeometryOvw8)]
+[!code-xaml[GeometryOvw8](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw8.xaml#SnippetGeometryOvw8)]
 
 ## -see-also
 [Geometry](geometry.md)

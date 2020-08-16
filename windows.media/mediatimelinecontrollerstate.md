@@ -21,10 +21,10 @@ The **MediaTimelineController** is running.
 
 
 ### -field Error:3
-
+The **MediaTimelineController** has encountered an error.
 
 ### -field Stalled:2
-
+The **MediaTimelineController** is stalled due to starvation of streaming data. Apps may choose to show a buffering indicator when the timeline controller is stalled.
 
 ## -remarks
 

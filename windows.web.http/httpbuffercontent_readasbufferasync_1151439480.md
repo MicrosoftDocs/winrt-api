@@ -16,8 +16,9 @@ Serialize the [HttpBufferContent](httpbuffercontent.md) to a buffer as an asynch
 The object that represents the asynchronous operation.
 
 ## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(IBuffer, UInt64)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after all of the content has been written to the buffer.
+This operation will not block. The returned [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) (of [IBuffer](/uwp/api/windows.storage.streams.ibuffer) and unsigned 64-bit int) completes after all of the content has been written to the buffer.
 
 ## -examples
 
 ## -see-also
+[IBuffer](/uwp/api/windows.storage.streams.ibuffer), [Buffer](../windows.storage.streams/buffer.md)

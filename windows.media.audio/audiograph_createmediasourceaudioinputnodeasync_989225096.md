@@ -23,8 +23,8 @@ An [IAsyncOperation](../windows.foundation/iasyncoperation_1.md) object that ret
 The [MediaSource](../windows.media.core/mediasource.md) class provides a common representation of media content from different kinds of sources, such as files or network streams. For more information on working with **MediaSource**, see [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ## -see-also
-[MediaSourceAudioInputNode](mediasourceaudioinputnode.md)
-[MediaSource](../windows.media.core/mediasource.md)
+[MediaSourceAudioInputNode](mediasourceaudioinputnode.md),
+[MediaSource](../windows.media.core/mediasource.md),
 [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource)
 
 ## -examples

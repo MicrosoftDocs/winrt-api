@@ -62,4 +62,4 @@ This XAML example is taken from the generic.xaml file that defines the default v
 
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [{Binding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/binding-markup-extension), [{RelativeSource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/relativesource-markup-extension)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [{Binding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/binding-markup-extension), [{RelativeSource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/relativesource-markup-extension)

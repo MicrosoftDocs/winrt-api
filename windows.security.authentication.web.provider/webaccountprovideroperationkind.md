@@ -34,10 +34,6 @@ Retrieve cookies.
 ### -field SignOutAccount:6
 Sign out a web account.
 
-### -field InvalidateCache:7
-Clear the web account cache.
-
-
 ## -remarks
 
 ## -examples

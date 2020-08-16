@@ -11,17 +11,16 @@ public IVector<KeyboardAccelerator> KeyboardAccelerators { get; }
 
 ## -description
 
-Gets the collection of key combinations that invoke an action using the keyboard. 
+Gets the collection of key combinations that invoke an action using the keyboard.
 
 Accelerators are typically assigned to buttons or menu items.
 
-![Example of a menu showing keyboard accelerators for various menu items](images/keyboard-accelerators.png)
-
+![Example of a menu showing keyboard accelerators for various menu items](images/keyboard-accelerators.png)<br/>
 *Example of a menu showing keyboard accelerators for various menu items*
 
 ## -property-value
 
-The collection of [**KeyboardAccelerator**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.input.keyboardaccelerator) objects. 
+The collection of [**KeyboardAccelerator**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.input.keyboardaccelerator) objects.
 
 ## -remarks
 
@@ -42,9 +41,9 @@ Depending on the control, you can override the default key combination string as
 
 An accelerator key can be a single key, such as F1 - F12 and Esc, or a combination of keys (Ctrl + Shift + B, or Ctrl C) that invoke a command. They differ from access keys (mnemonics), which are typically modified with the Alt key and simply activate a command or control.
 
-An accelerator can be executed even if the element associated with the accelerator is not visible. For example, an item in the [**SecondaryCommands**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.commandbar.SecondaryCommands) collection of the [**CommandBar**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.commandbar) can be invoked using an accelerator without expanding the overflow menu and displaying the element.
+An accelerator can be executed even if the element associated with the accelerator is not visible. For example, an item in the [CommandBar.SecondaryCommands](../windows.ui.xaml.controls/commandbar_secondarycommands.md) collection of the [CommandBar](../windows.ui.xaml.controls/commandbar.md) can be invoked using an accelerator without expanding the overflow menu and displaying the element.
 
-By default, an accelerator has global scope. However, you can constrain scope using [ScopeOwner](keyboardaccelerator_scopeowner.md) or disable an accelerator completely using [IsEnabled](keyboardaccelerator_isenabled.md).
+By default, an accelerator has global scope. However, you can constrain scope using [KeyboardAccelerator.ScopeOwner](../windows.ui.xaml.input/keyboardaccelerator_scopeowner.md) or disable an accelerator completely using [KeyboardAccelerator.IsEnabled](../windows.ui.xaml.input/keyboardaccelerator_isenabled.md).
 
 ## -examples
 
@@ -53,7 +52,7 @@ Here we specify keyboard accelerators for a set of buttons (we specify a tooltip
 ```xaml
 <StackPanel x:Name="Container" Grid.Row="0" Background="AliceBlue">
     <Button Content="Button1" Margin="20"
-            KeyboardAcceleratorPlacementMode="Auto" 
+            KeyboardAcceleratorPlacementMode="Auto"
             ToolTipService.ToolTip="Tooltip">
         <Button.KeyboardAccelerators>
             <KeyboardAccelerator  Key="A" Modifiers="Windows"/>
@@ -128,5 +127,3 @@ Here, we show how to use the KeyboardAcceleratorPlacementTarget property to disp
 ## -see-also
 
 [Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
-
-

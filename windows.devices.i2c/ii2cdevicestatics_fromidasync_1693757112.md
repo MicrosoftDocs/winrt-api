@@ -30,4 +30,4 @@ An asynchronous operation that returns the [I2cDevice](i2cdevice.md) object.
 [I2cConnectionSettings](i2cconnectionsettings.md), [GetDeviceSelector](ii2cdevicestatics_getdeviceselector_1752695616.md), [I2cDevice.Close](i2cdevice_close_811482585.md), [I2cDevice.DeviceId](i2cdevice_deviceid.md), [I2cDevice.FromIdAsync](i2cdevice_fromidasync_1693757112.md)
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

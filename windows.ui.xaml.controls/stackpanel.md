@@ -36,8 +36,9 @@ By default, StackPanel stacks items vertically from top to bottom in the order t
 
 You can insert items into a StackPanel at a specific location using the [Insert](uielementcollection_insert.md) method in code-behind.
 
-> [!TIP]
-> Starting in Windows 10, StackPanel defines new border properties that let you draw a border around the StackPanel without using an additional [Border](border.md) element. The new properties are [StackPanel.BorderBrush](stackpanel_borderbrush.md), [StackPanel.BorderThickness](stackpanel_borderthickness.md), [StackPanel.CornerRadius](stackpanel_cornerradius.md), and [StackPanel.Padding](stackpanel_padding.md).
+### Border properties
+
+StackPanel defines border properties that let you draw a border around the StackPanel without using an additional [Border](border.md) element. The properties are [StackPanel.BorderBrush](stackpanel_borderbrush.md), [StackPanel.BorderThickness](stackpanel_borderthickness.md), [StackPanel.CornerRadius](stackpanel_cornerradius.md), and [StackPanel.Padding](stackpanel_padding.md).
 
 ```xaml
 <StackPanel BorderBrush="Red" BorderThickness="2" CornerRadius="10" Padding="12">
@@ -64,9 +65,9 @@ You can insert items into a StackPanel at a specific location using the [Insert]
 
 The following example shows how to create a StackPanel of items.
 
-[!code-xml[LayoutOvwStackPanel_1](../windows.ui.xaml/code/layout_ovw_all/CSharp/MainPage.xaml#SnippetLayoutOvwStackPanel_1)]
+[!code-xaml[LayoutOvwStackPanel_1](../windows.ui.xaml/code/layout_ovw_all/CSharp/MainPage.xaml#SnippetLayoutOvwStackPanel_1)]
 
-[!code-xml[02](../windows.ui.xaml.controls/code/StackPanel1/csharp/Page.xaml#Snippet02)]
+[!code-xaml[02](../windows.ui.xaml.controls/code/StackPanel1/csharp/Page.xaml#Snippet02)]
 
 [!code-csharp[01](../windows.ui.xaml.controls/code/StackPanel1/csharp/Page.xaml.cs#Snippet01)]
 

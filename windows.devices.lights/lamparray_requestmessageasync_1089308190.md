@@ -12,14 +12,20 @@ public IAsyncOperation<IBuffer> LampArray.RequestMessageAsync(Int32 messageId)
 
 ## -description
 
+Asynchronously retrieves an [IBuffer](/uwp/api/windows.storage.streams.ibuffer) representing the message identified by the message identifer argument.
+
 ## -parameters
+
 ### -param messageId
+
+The identifer of a message.
 
 ## -returns
 
-## -remarks
+An asynchronous object which, on completion, contains the requested message.
 
-## -see-also
+## -remarks
 
 ## -examples
 
+## -see-also

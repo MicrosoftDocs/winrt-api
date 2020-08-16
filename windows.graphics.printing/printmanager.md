@@ -11,10 +11,10 @@ public class PrintManager : Windows.Graphics.Printing.IPrintManager
 # Windows.Graphics.Printing.PrintManager
 
 ## -description
-Informs Windows that an application wishes to participate in printing. The PrintManager class is also used for programmatically initiating printing.
+Provides the entry-point for printing within an application.
 
 ## -remarks
-The PrintManager class is responsible for orchestrating the printing flow for UWP app. To use this class, you must first call the [GetForCurrentView](printmanager_getforcurrentview_1363600702.md) method. This method returns the PrintManager object that is specific to the current active window. Next, you must add an event listener for the [PrintTaskRequested](printmanager_printtaskrequested.md) event. This event is raised by the system when a user indicates the possibility of initiating a printing operation. Typically this occurs when the user taps the Devices charm, but the event may also be invoked programmatically.
+The PrintManager class is responsible for orchestrating the printing flow for UWP app. To use this class, you must first call the [GetForCurrentView](printmanager_getforcurrentview_1363600702.md) method. This method returns the PrintManager object that is specific to the current active window. Next, you must add an event listener for the [PrintTaskRequested](printmanager_printtaskrequested.md) event. This event is raised when the application invokes the printing dialog via the **ShowPrintUIAsync** method.
 
 When a UWP app registers its "intention" to print, it creates a print contract with the print manager. Here is a JavaScript code snippet to show how to register your app for a print contract using a PrintManager:
 

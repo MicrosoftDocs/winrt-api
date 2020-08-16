@@ -30,4 +30,4 @@ IReadOnlyList<Package> dependencies = currentPackage.Dependencies;
 ```
 
 ## -see-also
-[App package information sample](https://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa), [App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)
+[App package information sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package)

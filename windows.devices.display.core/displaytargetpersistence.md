@@ -15,12 +15,16 @@ Defines constants that specify how a monitor connected to a target should be vir
 
 ## -enum-fields
 ### -field BootPersisted:1
+Specifies persistence until reboot.
 
 ### -field None:0
+Specifies no persistence.
 
 ### -field PathPersisted:3
+Specifies persistence via a path.
 
 ### -field TemporaryPersisted:2
+Specifies temporary persistence.
 
 ## -remarks
 

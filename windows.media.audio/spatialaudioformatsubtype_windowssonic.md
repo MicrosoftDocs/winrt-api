@@ -14,7 +14,7 @@ public string WindowsSonic { get; }
 GUID for WindowsSonic.
 
 ## -property-value
-A string representation of the formats GUID.
+A string representation of the format's [GUID](/windows/win32/api/guiddef/ns-guiddef-guid).
 
 ## -remarks
 

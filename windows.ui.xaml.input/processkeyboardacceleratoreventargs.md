@@ -10,7 +10,7 @@ public class ProcessKeyboardAcceleratorEventArgs
 # Windows.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs
 
 ## -description
-Provides event data for the [ProcessKeyboardAccelerators](..\windows.ui.xaml\uielement_processkeyboardaccelerators.md) event.
+Provides event data for the [ProcessKeyboardAccelerators](../windows.ui.xaml/uielement_processkeyboardaccelerators.md) event.
 
 ## -remarks
 

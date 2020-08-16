@@ -9,11 +9,10 @@ public IAsyncAction UserActivity.SaveAsync()
 
 # Windows.ApplicationModel.UserActivities.UserActivity.SaveAsync
 
+
 ## -description
 
 Publish the [UserActivity](useractivity.md).
-
-## -params
 
 ## -returns
 
@@ -28,3 +27,4 @@ Saving a **UserActivity** converts its state to [UserActivityState.Published](us
 ## -see-also
 
 ## -examples
+

@@ -42,13 +42,13 @@ The following example shows how to use **DoubleAnimation** to create a rectangle
 
 
 
-[!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimation/csharp/Page.xaml#SnippetDoubleanimation)]
+[!code-xaml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimation/csharp/Page.xaml#SnippetDoubleanimation)]
 
 [!code-csharp[Doubleanimation_cs](../windows.ui.xaml.media.animation/code/doubleanimation/csharp/Page.xaml.cs#SnippetDoubleanimation_cs)]
 
 [!code-vb[Doubleanimation_cs](../windows.ui.xaml.media.animation/code/doubleanimation/vbnet/Page.xaml.vb#SnippetDoubleanimation_cs)]
 
-[!code-xml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/csharp/Page.xaml#SnippetDoubleanimationUsingKeyFrames)]
+[!code-xaml[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes/csharp/Page.xaml#SnippetDoubleanimationUsingKeyFrames)]
 
 
 [!code-csharp[Doubleanimation](../windows.ui.xaml.media.animation/code/doubleanimationusingkeyframes2/csharp/Page.xaml.cs#SnippetDoubleanimationUsingKeyframes2)]
@@ -58,5 +58,5 @@ The following example shows how to use **DoubleAnimation** to create a rectangle
 
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [XAML animation sample](https://go.microsoft.com/fwlink/p/?linkid=238571), [Timeline](timeline.md), [DoubleAnimationUsingKeyFrames](doubleanimationusingkeyframes.md), [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)
+[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [XAML animation sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20animation%20library%20sample), [Timeline](timeline.md), [DoubleAnimationUsingKeyFrames](doubleanimationusingkeyframes.md), [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)
 md), [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)

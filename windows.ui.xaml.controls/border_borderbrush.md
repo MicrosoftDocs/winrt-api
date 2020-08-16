@@ -47,7 +47,7 @@ This example shows how to set the BorderBrush value to a solid color using an in
 
 
 
-[!code-xml[BorderContainer](../windows.ui.xaml.controls/code/BorderSample2/csharp/Page.xaml#SnippetBorderContainer)]
+[!code-xaml[BorderContainer](../windows.ui.xaml.controls/code/BorderSample2/csharp/Page.xaml#SnippetBorderContainer)]
 
 ## -see-also
 [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)

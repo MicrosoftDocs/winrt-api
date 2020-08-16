@@ -81,7 +81,7 @@ std::wstring uriToLaunch{ L"http://www.bing.com" };
 Windows::Foundation::Uri uri{ uriToLaunch };
 ```
 
-```cpp
+```cppcx
 // The URI string
 var uriToLaunch = L"http://www.bing.com";
 
@@ -107,7 +107,7 @@ std::wstring uriImage{ L"ms-appx:///images/SecondaryTileDefault-sdk.png" };
 Windows::Foundation::Uri uri{ uriImage };
 ```
 
-```cpp
+```cppcx
 // The URI string
 var uriImage = ;
 
@@ -133,7 +133,7 @@ std::wstring uriFile{ L"ms-appdata:///local/file.ext" };
 Windows::Foundation::Uri uri{ uriFile };
 ```
 
-```cpp
+```cppcx
 // The URI string
 var uriFile = "ms-appdata:///local/file.ext";
 
@@ -142,4 +142,4 @@ auto uri = ref new Windows::Foundation::Uri(uriFile);
 ```
 
 ## -see-also
-[System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN), [How to reference content (HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh781215(v=win.10)), [How to load file resources (XAML)](https://docs.microsoft.com/previous-versions/windows/apps/hh965322(v=win.10)), [Connecting to networks and web services](https://docs.microsoft.com/windows/uwp/networking/index), [WwwFormUrlDecoder](wwwformurldecoder.md), [createObjectURL (for HTML/JavaScript)](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL), [RFC 3986](https://go.microsoft.com/fwlink/p/?LinkId=263444), [RFC 3987](https://tools.ietf.org/html/rfc3987), [RSS reader end-to-end (JavaScript) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620542)
+[System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN), [How to reference content (HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh781215(v=win.10)), [How to load file resources (XAML)](https://docs.microsoft.com/previous-versions/windows/apps/hh965322(v=win.10)), [Connecting to networks and web services](https://docs.microsoft.com/windows/uwp/networking/index), [WwwFormUrlDecoder](wwwformurldecoder.md), [createObjectURL (for HTML/JavaScript)](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL), [RFC 3986](http://www.ietf.org/rfc/rfc3986.txt), [RFC 3987](https://tools.ietf.org/html/rfc3987), [RSS reader end-to-end (JavaScript) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620542)

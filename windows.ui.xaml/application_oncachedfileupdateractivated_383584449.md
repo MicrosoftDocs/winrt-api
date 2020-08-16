@@ -21,9 +21,9 @@ Event data for the event.
 
 All [Application](application.md) overrides involved in an activation scenario should call [Window.Activate](window_activate_1797342875.md) in their implementations.
 
-For example code that overrides [OnFileOpenPickerActivated](application_onfileopenpickeractivated_101387531.md), see [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536).
+For example code that overrides [OnFileOpenPickerActivated](application_onfileopenpickeractivated_101387531.md), see [File picker contracts sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/File%20picker%20contracts%20sample).
 
 ## -examples
 
 ## -see-also
-[CachedFileUpdaterActivatedEventArgs](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs.md), [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536)
+[CachedFileUpdaterActivatedEventArgs](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs.md), [File picker contracts sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/File%20picker%20contracts%20sample)

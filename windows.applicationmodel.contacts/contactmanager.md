@@ -28,6 +28,6 @@ For info about how to manage contacts, see [Managing contact cards ](https://doc
 ## -examples
 
 ## -see-also
-[Contact manager API sample](https://go.microsoft.com/fwlink/p/?LinkID=310079), [IContactManagerInterop](https://docs.microsoft.com/previous-versions/dn302109(v=vs.85)), [Contact cards sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624040)
+[Contact manager API sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Contact%20manager%20API%20sample), [IContactManagerInterop](https://docs.microsoft.com/previous-versions/dn302109(v=vs.85)), [Contact cards sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624040)
 ## -capabilities
 contactsSystem

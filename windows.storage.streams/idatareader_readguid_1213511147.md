@@ -10,7 +10,7 @@ public System.Guid ReadGuid()
 # Windows.Storage.Streams.IDataReader.ReadGuid
 
 ## -description
-Reads a GUID value from the input stream.
+Reads a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) value from the input stream.
 
 ## -returns
 The value.

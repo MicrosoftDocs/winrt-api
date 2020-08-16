@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler ThumbnailUpdated<Windows.Stora
 # Windows.Storage.BulkAccess.FolderInformation.ThumbnailUpdated
 
 ## -description
-Fires when the [StorageFolder](../windows.storage/storagefolder.md) 's thumbnail is updated or a better quality thumbnail is available.
+Fires when the [StorageFolder](../windows.storage/storagefolder.md)'s thumbnail is updated or a better quality thumbnail is available.
 
 ## -remarks
 

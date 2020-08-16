@@ -14,10 +14,10 @@ Creates a [LanguageFontGroup](languagefontgroup.md) object for a given language 
 
 ## -parameters
 ### -param languageTag
-A [BCP-47](https://go.microsoft.com/fwlink/p/?linkid=227302) language tag, or an [ISO 15924](https://www.unicode.org/iso15924/) script identifier.
+A [BCP-47](http://tools.ietf.org/html/bcp47) language tag, or an [ISO 15924](https://www.unicode.org/iso15924/) script identifier.
 
 ## -remarks
-The *languageTag* parameter can be any valid [BCP-47](https://go.microsoft.com/fwlink/p/?linkid=227302) language tag, such as "en", "de-CH", or "zh-Hans". The only limitations are that the language tag must include an explicit script subtag or be for a language for which the script is implicitly known. (For instance, "en" is assumed to imply Latin script.) Moreover, the script must be one that Windows supports.
+The *languageTag* parameter can be any valid [BCP-47](http://tools.ietf.org/html/bcp47) language tag, such as "en", "de-CH", or "zh-Hans". The only limitations are that the language tag must include an explicit script subtag or be for a language for which the script is implicitly known. (For instance, "en" is assumed to imply Latin script.) Moreover, the script must be one that Windows supports.
 
 The *languageTag* parameter can also be a valid ISO 15924 script identifier, such as "Latn", "Cyrl", or "Deva". The only limitation is that the script must be one that Windows supports.
 
@@ -27,4 +27,4 @@ The *languageTag* parameter can also be a valid ISO 15924 script identifier, suc
 ## -examples
 
 ## -see-also
-[BCP-47 language tags](https://go.microsoft.com/fwlink/p/?linkid=227302)
+[BCP-47 language tags](http://tools.ietf.org/html/bcp47)

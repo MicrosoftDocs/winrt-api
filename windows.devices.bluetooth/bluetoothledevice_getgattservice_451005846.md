@@ -13,7 +13,11 @@ public Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceService GetGa
 ## -description
 Returns the GATT service with the given service Id.
 
+> [!IMPORTANT]
+> The **GetGattService** API is deprecated, and it may not be available in future versions of Windows. Instead, use [GetGattServicesAsync](/uwp/api/windows.devices.bluetooth.bluetoothledevice.getgattservicesasync).
+
 ## -parameters
+
 ### -param serviceUuid
 The service Id of the GATT service.
 
@@ -25,7 +29,6 @@ The GATT service represented by the given service Id.
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 bluetooth

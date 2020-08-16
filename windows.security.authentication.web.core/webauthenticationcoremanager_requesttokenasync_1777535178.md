@@ -20,9 +20,17 @@ The web token request.
 An asynchronous request operation. On successful completion, contains a [WebTokenRequestResult](webtokenrequestresult.md) object representing the result of the web token request.
 
 ## -remarks
-This method cannot be called from background threads.
+This method cannot be called from desktop apps or from background threads of UWP apps.
+For an equivalent of this method for desktop apps, see
+[IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenforwindowasync).
 
 ## -examples
 
 ## -see-also
-[Web account management code sample](https://go.microsoft.com/fwlink/p/?LinkId=620621), [RequestTokenAsync(WebTokenRequest, WebAccount)](webauthenticationcoremanager_requesttokenasync_695504446.md)
+[Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement)
+
+[RequestTokenAsync(WebTokenRequest, WebAccount)](webauthenticationcoremanager_requesttokenasync_695504446.md)
+
+[IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenforwindowasync)
+
+[IWebAuthenticationCoreManagerInterop interface](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop)

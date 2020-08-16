@@ -118,7 +118,7 @@ This table shows the built-in transport controls with their associated propertie
 
 There are no properties to hide, show, enable, or disable the play/pause button, closed caption button, audio track selection button, or the cast button. The play/pause and cast buttons are always visible and enabled. The closed caption button is visible whenever closed caption tracks are available, and the audio track selection button is visible whenever multiple audio tracks are available.
 
-To remove these buttons, or to add custom buttons, you must re-template the MediaTransportControls. If you re-template the control, you can also specify the order in which buttons drop out at different screen sizes. For more info, see [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls) and the [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409).
+To remove these buttons, or to add custom buttons, you must re-template the MediaTransportControls. If you re-template the control, you can also specify the order in which buttons drop out at different screen sizes. For more info, see [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls) and the [Media transport controls sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCustomMediaTransportControls?amp;amp;clcid=0x409).
 
 Here's how to configure transport control buttons in XAML. In this example, the aspect ratio button is hidden and disabled, and the playback rate button is shown and enabled.
 
@@ -171,11 +171,11 @@ public MainPage()
 
 MediaTransportControls is a composite control made up of several other XAML controls, which are all contained within a root [Grid](grid.md) element.
 
-In the default mode, the [Grid](grid.md) has 2 rows. The first row contains a [Slider](slider.md) (the seek bar) that shows the progress of the media file, and lets the user seek forward or backward through the media. Below the [Slider](slider.md) are two [TextBlock](textblock.md) s. These display the elapsed and remaining time. The second row contains a [CommandBar](commandbar.md) with [AppBarButton](appbarbutton.md) s. The [AppBarButton](appbarbutton.md) s let the user perform actions like play and pause the media, change the volume, and make the video full screen.
+In the default mode, the [Grid](grid.md) has 2 rows. The first row contains a [Slider](slider.md) (the seek bar) that shows the progress of the media file, and lets the user seek forward or backward through the media. Below the [Slider](slider.md) are two [TextBlock](textblock.md) s. These display the elapsed and remaining time. The second row contains a [CommandBar](commandbar.md) with [AppBarButton](appbarbutton.md) s. The [AppBarButton](appbarbutton.md)s let the user perform actions like play and pause the media, change the volume, and make the video full screen.
 
 <img alt="Default media transport control parts" src="images/MediaTransportControls_Anatomy.png" />
 
-In the compact mode, the [Slider](slider.md) and [CommandBar](commandbar.md) are shown in a single row. The [TextBlock](textblock.md) s for elapsed and remaining time are hidden.
+In the compact mode, the [Slider](slider.md) and [CommandBar](commandbar.md) are shown in a single row. The [TextBlock](textblock.md)s for elapsed and remaining time are hidden.
 
 <img alt="Compact media transport control parts" src="images/MediaTransportControls_Anatomy_Compact.png" />
 
@@ -210,4 +210,4 @@ In the compact mode, the [Slider](slider.md) and [CommandBar](commandbar.md) are
 
 ## -see-also
 
-[Control](control.md), [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls), [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Media transport controls sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620023)
+[Control](control.md), [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls), [Media transport controls sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCustomMediaTransportControls?amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Media transport controls sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620023)

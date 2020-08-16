@@ -17,10 +17,7 @@ Gets and sets information from the clipboard object.
 
 Because the Clipboard class is a static class, you don't need to create an instance of it to access its methods.
 
-> [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
-
-You can only access the clipboard when the calling application is in focus on the UI thread (e.g., when it's [CoreWindow](../windows.ui.core/corewindow.md) is active). Use the [CoreWindow.Activated](../windows.ui.core/corewindow_activated.md) event to track the state of the calling app.
+You can only access the clipboard when the calling application is in focus on the UI thread (for example, when its [CoreWindow](../windows.ui.core/corewindow.md) is active). Use the [CoreWindow.Activated](../windows.ui.core/corewindow_activated.md) event to track the state of the calling app.
 
 ### Version history
 
@@ -45,4 +42,4 @@ The following sample shows how to track changes to the Clipboard. If the Clipboa
 
 ## -see-also
 
-[Clipboard sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620520)
+[Clipboard sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Clipboard)

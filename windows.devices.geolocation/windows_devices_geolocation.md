@@ -24,7 +24,7 @@ The user sets the privacy of their location data with the **location privacy set
 + The location services setting, **Location**, is turned **on**
 + Under **Choose apps that can use your location**, your app is set to **on**
 
-For more information about location privacy, see the [Windows Privacy Statement](https://go.microsoft.com/fwlink/p/?LinkId=521839).
+For more information about location privacy, see the [Windows Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
 
 > [!IMPORTANT]
 > Starting in Windows 10, call the [RequestAccessAsync](geolocator_requestaccessasync_380675631.md) before accessing the user’s location. At that time, your app must be in the foreground and RequestAccessAsync must be called from the UI thread. Until the user grants your app permission to their location, your app can't access location data.
@@ -39,7 +39,7 @@ The first layer of the location services architecture consists of hardware in th
 
 ## -see-also
 
-[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [geolocation sample](https://go.microsoft.com/fwlink/p/?linkid=533278), [Geotag sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geotag)
+[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation), [Geotag sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geotag)
 
 ## -capabilities
 

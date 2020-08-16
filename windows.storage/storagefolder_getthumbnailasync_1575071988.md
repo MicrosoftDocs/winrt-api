@@ -22,7 +22,7 @@ For guidance about choosing the best thumbnail mode, see [Guidelines and checkli
 When this method completes successfully, it returns a [StorageItemThumbnail](../windows.storage.fileproperties/storageitemthumbnail.md) that represents the thumbnail image, or **null** if there is no thumbnail image associated with the folder.
 
 ## -remarks
-For a sample that demonstrates the **GetThumbnailAsync** method, see [File and folder thumbnail sample](https://code.msdn.microsoft.com/windowsapps/File-thumbnails-sample-17575959).
+For a sample that demonstrates the **GetThumbnailAsync** method, see [File and folder thumbnail sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FileThumbnails).
 
 For guidance about choosing the best thumbnail mode, see [Guidelines and checklist for thumbnails](https://docs.microsoft.com/windows/uwp/files/index).
 

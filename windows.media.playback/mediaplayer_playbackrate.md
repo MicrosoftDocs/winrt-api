@@ -16,7 +16,7 @@ Gets or sets the playback rate, expressed as a ratio.
 > **MediaPlayer.PlaybackRate** may be altered or unavailable after Windows 10, version 1607. Instead, use the [MediaPlayer.PlaybackSession](mediaplayer_playbacksession.md) property to get a [MediaPlaybackSession](mediaplaybacksession.md) object and then use the [MediaPlaybackSession.PlaybackRate](mediaplaybacksession_playbackrate.md) property.
 
 ## -property-value
-The playback rate, expressed as a percentage.
+The playback rate, expressed as a ratio.
 
 ## -remarks
 This value is expressed as a ratio of the desired playback speed to normal playback speed. For example, a value of 1.5 sets the playback rate to 150% of the original.

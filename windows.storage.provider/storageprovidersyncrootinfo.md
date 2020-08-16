@@ -19,6 +19,7 @@ Contains the properties of a Cloud Storage Provider's sync root to be registered
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1809 | 17763 | ProviderId |
+| 2004 | 19041 | FallbackFileTypeInfo |
 
 ## -see-also
 

@@ -26,7 +26,7 @@ The XAML [FlipView](flipview.md) control supports three modes of navigation; tou
 
 <!--Windows Blue bug 467555-->
 > **Windows 8**
-> In Windows 8, the [FlipView](flipview.md) navigation animation occurs only when the user navigates by touch. If you recompile an app built for Windows 8 for Windows 8.1 and need to keep the Windows 8 behavior, set this property to **false**. For example, if you check the [HorizontalOffset](scrollviewer_horizontaloffset.md) property value of [FlipView](flipview.md) 's internal [ScrollViewer](scrollviewer.md) while the selection is changing, the value is not fixed until the animation is complete. If your app has a dependency on this value, you can set this property to **false**.
+> In Windows 8, the [FlipView](flipview.md) navigation animation occurs only when the user navigates by touch. If you recompile an app built for Windows 8 for Windows 8.1 and need to keep the Windows 8 behavior, set this property to **false**. For example, if you check the [HorizontalOffset](scrollviewer_horizontaloffset.md) property value of [FlipView](flipview.md)'s internal [ScrollViewer](scrollviewer.md) while the selection is changing, the value is not fixed until the animation is complete. If your app has a dependency on this value, you can set this property to **false**.
 
 ## -examples
 

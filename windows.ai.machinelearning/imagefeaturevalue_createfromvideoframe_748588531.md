@@ -30,24 +30,5 @@ This API is thread-safe.
 ## -see-also
 
 ## -examples
-The following example creates a [LearningModelSession](learningmodelsession.md) and a [LearningModelBinding](learningmodelbinding.md), binds the input to an **ImageFeatureValue** created from a [VideoFrame](../windows.media/videoframe.md), and then binds the output.
 
-```cpp
-void BindModel(
-    LearningModel model, 
-    LearningModelDeviceKind deviceKind,
-    hstring inputName,
-    hstring outputName,
-    VideoFrame imageFrame)
-{
-	// Create a session and binding
-	LearningModelSession session = LearningModelSession{ model, LearningModelDevice(deviceKind) };
-	LearningModelBinding binding = LearningModelBinding{ session };
-
-	// Bind the intput image
-	binding.Bind(inputName, ImageFeatureValue::CreateFromVideoFrame(imageFrame));
-
-	// Bind the output
-	vector<int64_t> shape({ 1, 1000, 1, 1 });
-	binding.Bind(outputName, TensorFloat::Create(shape));
-}
+For a code example, see [ImageFeatureValue](/uwp/api/windows.ai.machinelearning.imagefeaturevalue).

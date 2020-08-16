@@ -10,7 +10,7 @@ public IAsyncOperation<TargetedContentContainer> TargetedContentContainer.GetAsy
 # Windows.Services.TargetedContent.TargetedContentContainer.GetAsync
 
 ## -description
-Returns a TargetedContainerContainer object for specified ContentId.
+Returns a TargetedContentContainer object for specified ContentId.
 ## -parameters
 
 ### -param contentId

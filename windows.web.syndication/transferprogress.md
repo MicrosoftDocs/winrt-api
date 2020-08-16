@@ -35,4 +35,4 @@ The total number of bytes that will be received during the transfer operation.
 ## -examples
 
 ## -see-also
-[AtomPubClient](../windows.web.atompub/atompubclient.md), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062)
+[AtomPubClient](../windows.web.atompub/atompubclient.md), [Syndication sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/%5BC%23%5D-Windows%208.1%20Store%20app%20samples/Syndication%20sample/C%23)

@@ -10,7 +10,7 @@ public void AddGuid(System.String name, System.Guid value)
 # Windows.Foundation.Diagnostics.LoggingFields.AddGuid
 
 ## -description
-Adds a GUID field with the specified field name.
+Adds a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) field with the specified field name.
 
 ## -parameters
 ### -param name

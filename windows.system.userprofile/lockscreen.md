@@ -30,7 +30,7 @@ Windows::Foundation::IAsyncAction MainPage::ExampleCoroutineAsync(Windows::Stora
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::System::UserProfile;
 LockScreen::SetImageFileAsync(file)
 ```
@@ -51,10 +51,10 @@ Windows::Storage::Streams::IRandomAccessStream imageStream{
 };
 ```
 
-```cpp
+```cppcx
 auto imageStream = Windows::System::UserProfile::LockScreen::GetImageStream();
 ```
 
 ## -see-also
 
-[Lock screen overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779720(v=win.10)), [Personalization app sample](https://go.microsoft.com/fwlink/p/?linkid=231592), [Lock screen personalization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620585)
+[Lock screen overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779720(v=win.10)), [Personalization app sample](http://code.msdn.microsoft.com/windowsapps/Personalization-App-sample-9ebfe147), [Lock screen personalization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620585)

@@ -54,7 +54,7 @@ int main()
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Networking::Connectivity;
 
 // Retrieve the ConnectionProfile.

@@ -44,7 +44,7 @@ For the complete list of format templates and format patterns, see the Remarks s
 > Some date formats should be avoided if the date picker might be displayed in a small area, such as adding the full string value of the day of week. These strings can be long and might be clipped if the DatePicker's width is forced to be small.
 
 ## -examples
-Here's a [DatePicker](datepicker.md) formatted using format templates, and a [DatePicker](datepicker.md) formatted using format strings. Both [DatePicker](datepicker.md) s look the same when the app is run because the formatting is equivalent.
+Here's a [DatePicker](datepicker.md) formatted using format templates, and a [DatePicker](datepicker.md) formatted using format strings. Both [DatePicker](datepicker.md)s look the same when the app is run because the formatting is equivalent.
 
 
 <!--Add screenshots for examples-->

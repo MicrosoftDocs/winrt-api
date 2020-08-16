@@ -32,7 +32,7 @@ A human-readable description of the asynchronous work.
 Additional information related to this operation.
 
 ## -remarks
-Use the TraceOperationCreation method to log the creation of an asynchronous operation. An asynchronous operation represents a group of zero or more related synchronous work items that may be scheduled in an asynchronous way. Each asynchronous operation has a 128-bit GUID that identifies the operation type, like BCL task and WinJS Promise, and a **UInt64** operation identifier that must be unique within the platform for the lifetime of the asynchronous operation. Good choices for *operationId* include a native pointer to an underlying object, or an integer that's incremented for each new operation. The *operationName* should be a human readable description of the asynchronous work. The *relatedContext* associates any additional information related to this operation.
+Use the TraceOperationCreation method to log the creation of an asynchronous operation. An asynchronous operation represents a group of zero or more related synchronous work items that may be scheduled in an asynchronous way. Each asynchronous operation has a 128-bit [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) that identifies the operation type, like BCL task and WinJS Promise, and a **UInt64** operation identifier that must be unique within the platform for the lifetime of the asynchronous operation. Good choices for *operationId* include a native pointer to an underlying object, or an integer that's incremented for each new operation. The *operationName* should be a human readable description of the asynchronous work. The *relatedContext* associates any additional information related to this operation.
 
 ## -examples
 

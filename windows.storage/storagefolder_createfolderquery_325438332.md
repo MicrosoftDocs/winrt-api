@@ -82,7 +82,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
  // Get user's pictures folder
  StorageFolder^ picturesFolder = KnownFolders::PicturesLibrary;
 

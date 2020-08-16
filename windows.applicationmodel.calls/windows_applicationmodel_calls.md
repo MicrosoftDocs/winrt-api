@@ -23,13 +23,16 @@ The telephony options and information classes use the **CallsPhoneContract**. In
 > [!IMPORTANT]
 > If your application uses the **phoneCall** capability, you must request a waiver if you want to publish your application in China. Contact your premier support representative if you need the waiver.
 
-An example that demonstrates how to use much of the functionality of the Windows.ApplicationModel.Calls API can be found [here](https://go.microsoft.com/fwlink/p/?linkid=620586).
+An example that demonstrates how to use much of the functionality of the Windows.ApplicationModel.Calls API can be found
+[here](https://github.com/microsoft/Windows-universal-samples/tree/v8.0.7/archived/PhoneCall).
 
 ## -examples
 
 ## -see-also
 
-[Phone call sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620586), [Communication blocking and filtering sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624164), [Voice over IP (VoIP) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VoIP)
+[Phone call sample](https://github.com/microsoft/Windows-universal-samples/tree/v8.0.7/archived/PhoneCall),
+[Communication blocking and filtering sample](https://github.com/microsoft/Windows-universal-samples/tree/v8.0.7/archived/CommunicationBlockAndFilter),
+[Voice over IP (VoIP) sample](/samples/microsoft/windows-universal-samples/voip/)
 
 ## -capabilities
 

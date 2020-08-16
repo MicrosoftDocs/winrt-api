@@ -18,7 +18,7 @@ Enumerate the file handlers on the device.
 The file extension that you want to find handlers for. For example, ".bat". Include the leading period '.'.
 
 ## -returns
-A list of [AppInfo](../windows.applicationmodel/appinfo.md) s for each application that handles the specified file extension.
+A list of [AppInfo](../windows.applicationmodel/appinfo.md)s for each application that handles the specified file extension.
 
 ## -remarks
 This API may also be called from Windows desktop application but does not return Windows desktop application.

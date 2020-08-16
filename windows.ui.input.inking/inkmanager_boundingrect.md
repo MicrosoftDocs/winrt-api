@@ -24,11 +24,9 @@ The bounding rectangle of the [InkStroke](inkstroke.md) collection.
 ## -examples
 This example shows how to get the BoundingRect for the [InkStroke](inkstroke.md) collection of an [InkManager](inkmanager.md) object.
 
-```
+```csharp
 var rect = inkManager.boundingRect;
 ```
-
-For the complete example, see [Ink App sample](https://go.microsoft.com/fwlink/p/?linkid=231622).
 
 ## -see-also
 

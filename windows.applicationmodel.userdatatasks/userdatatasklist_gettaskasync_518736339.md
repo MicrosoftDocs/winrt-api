@@ -9,14 +9,19 @@ public IAsyncOperation<UserDataTask> UserDataTaskList.GetTaskAsync(String userDa
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskList.GetTaskAsync
 
-## -description
-Asynchronously retrieves the specified [UserDataTask](userdatatask.md) object from the [UserDataTaskList](userdatatasklist.md).
-## -params
 
-## -param userDataTask
+## -description
+
+Asynchronously retrieves the specified [UserDataTask](userdatatask.md) object from the [UserDataTaskList](userdatatasklist.md).
+
+## -parameters
+
+### -param userDataTask
+
 The string that identifies the [UserDataTask](userdatatask.md) to return.
 
 ## -returns
+
 The [UserDataTask](userdatatask.md) identified by the *UserDataTask* parameter.
 
 ## -remarks
@@ -24,3 +29,4 @@ The [UserDataTask](userdatatask.md) identified by the *UserDataTask* parameter.
 ## -see-also
 
 ## -examples
+
