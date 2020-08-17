@@ -15,9 +15,9 @@ Defines the content, associated metadata and events, and expiration time of a to
 
 ## -remarks
 - Handling activation guidance
-    - UWP Applications should use the [OnActivated](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.application.onactivated) for handling toast activations.
-    - Staring WinRT Build 19041, MSIX and Sparsed Sign Packaged applications are able to use [ToastNotificationActionTrigger](https://docs.microsoft.com/en-us/uwp/api/Windows.ApplicationModel.Background.ToastNotificationActionTrigger) for handling activations [for more details](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/create-and-register-a-winmain-background-task#add-the-support-code-to-instantiate-the-com-class).
-    - Desktop apps can use COM activation by following [Desktop - Send Local Toast](https://docs.microsoft.com/en-us/windows/uwp/design/shell/tiles-and-notifications/send-local-toast-desktop?tabs=msix-sparse#step-1-install-the-notifications-library).
+    - UWP Applications should use the [OnActivated](https://github.com/MicrosoftDocs/winrt-api/blob/docs/windows.ui.xaml/application_onactivated_603737819.md) for handling toast activations.
+    - Staring WinRT Build 19041, MSIX and Sparsed Sign Packaged applications are able to use [ToastNotificationActionTrigger](https://github.com/MicrosoftDocs/winrt-api/blob/docs/windows.applicationmodel.background/toastnotificationactiontrigger.md) for handling activations [for more details](https://docs.microsoft.com/windows/uwp/launch-resume/create-and-register-a-winmain-background-task#add-the-support-code-to-instantiate-the-com-class).
+    - Desktop apps can use COM activation by following [Desktop - Send Local Toast](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/send-local-toast-desktop?tabs=msix-sparse#step-1-install-the-notifications-library).
     - If none of the activation options fit your application, follow the example in this document for properly using event handlers.
 
 ### Version history
