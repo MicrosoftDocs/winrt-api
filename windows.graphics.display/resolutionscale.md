@@ -14,7 +14,7 @@ Describes the scale factor of the immersive environment. The scale factor is det
 
 ## -enum-fields
 ### -field Invalid:0
-Specifies the scale of a display is invalid.
+Specifies that the scale of a display is invalid.
 
 ### -field Scale100Percent:100
 Specifies the scale of a display as 100 percent. This percentage indicates a minimum screen resolution for Windows all up is 1024x768.
@@ -29,10 +29,10 @@ Specifies the scale of a display as 125 percent.
 Specifies the scale of a display as 140 percent. This percentage indicates a minimum screen resolution to scale at 140 is 1440x1080.
 
 ### -field Scale150Percent:150
-Applies to Windows Phone 8.
+Specifies the scale of a display as 150 percent. Also applies to Windows Phone 8.
 
 ### -field Scale160Percent:160
-Applies to Windows Phone 8.
+Specifies the scale of a display as 160 percent. Applies to Windows Phone 8.
 
 ### -field Scale175Percent:175
 Specifies the scale of a display as 175 percent.
@@ -78,4 +78,4 @@ For UWP apps and Windows Phone apps, we recommend these scale factors:
 ## -examples
 
 ## -see-also
-[ResolutionScale Property](displayinformation_resolutionscale.md)
+[DisplayInformation.ResolutionScale property](/uwp/api/windows.graphics.display.displayinformation.resolutionscale#Windows_Graphics_Display_DisplayInformation_ResolutionScale)
