@@ -17,3 +17,5 @@ Creates a system provided visual element that represents the format of the dragg
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

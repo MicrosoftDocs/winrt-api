@@ -10,7 +10,8 @@ public interface IDevicePairingSettings :
 # Windows.Devices.Enumeration.IDevicePairingSettings
 
 ## -description
-Identifies a collection of settings for device pairing.
+
+Identifies a collection of settings for device pairing. [WiFiDirectConnectionParameters](/uwp/api/windows.devices.wifidirect.wifidirectconnectionparameters) implements **IDevicePairingSettings**.
 
 ## -remarks
 

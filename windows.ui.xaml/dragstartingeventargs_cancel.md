@@ -21,3 +21,5 @@ Set this property to **true** in a handler in order to cancel a drag action.
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

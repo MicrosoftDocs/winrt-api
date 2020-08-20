@@ -20,6 +20,8 @@ This property can be used to read incoming data received from the remote network
 
 ## -examples
 
+See [StreamSocket class](/uwp/api/windows.networking.sockets.streamsocket).
+
 ## -see-also
 [DataReader](../windows.storage.streams/datareader.md), [IInputStream](../windows.storage.streams/iinputstream.md)
 

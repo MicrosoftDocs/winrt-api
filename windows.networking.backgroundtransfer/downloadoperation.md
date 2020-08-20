@@ -13,6 +13,9 @@ public class DownloadOperation : Windows.Networking.BackgroundTransfer.IBackgrou
 Performs an asynchronous download operation. The [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer) demonstrates this functionality. For an overview of Background Transfer capabilities, see [Transferring data in the background](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)).
 
 ## -examples
+
+Sample applications that use this class include the [Background transfer sample](/samples/microsoft/windows-universal-samples/backgroundtransfer/).
+
 The following example demonstrates how to configure and begin a basic download operation.
 
 ```javascript
@@ -101,7 +104,7 @@ However, if Microsoft Visual Studio project updates, like changes to the app man
 | 2004 | 19041 | SetRequestHeader |
 
 ## -see-also
-[Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10)), [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer), [Background transfer sample (Windows 8.x)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)
+[Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10)), [Background transfer sample](/samples/microsoft/windows-universal-samples/backgroundtransfer/), [Background transfer sample (Windows 8.x)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)
 
 ## -capabilities
 internetClient, internetClientServer, privateNetworkClientServer

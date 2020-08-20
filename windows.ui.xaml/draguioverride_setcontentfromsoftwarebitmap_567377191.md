@@ -24,4 +24,5 @@ The relative position of the drag visual from the pointer.
 ## -examples
 
 ## -see-also
-[SetContentFromSoftwareBitmap(SoftwareBitmap)](draguioverride_setcontentfromsoftwarebitmap_1475637163.md)
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop), [SetContentFromSoftwareBitmap(SoftwareBitmap)](draguioverride_setcontentfromsoftwarebitmap_1475637163.md)

@@ -20,3 +20,5 @@ A deferral object that you can use to identify when the generation of the data p
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

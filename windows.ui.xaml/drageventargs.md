@@ -43,4 +43,4 @@ The Windows Runtime implementation of drag-drop concepts permits only certain co
 
 ## -see-also
 
-[RoutedEventArgs](routedeventargs.md), [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), [UIElement](uielement.md), [AllowDrop](uielement_allowdrop.md), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop), [RoutedEventArgs](routedeventargs.md), [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), [UIElement](uielement.md), [AllowDrop](uielement_allowdrop.md), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

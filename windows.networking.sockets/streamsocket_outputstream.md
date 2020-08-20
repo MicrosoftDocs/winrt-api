@@ -20,6 +20,8 @@ This property can be used to write outgoing data to be sent to the remote networ
 
 ## -examples
 
+See [StreamSocket class](/uwp/api/windows.networking.sockets.streamsocket).
+
 ## -see-also
 [DataWriter](../windows.storage.streams/datawriter.md), [IOutputStream](../windows.storage.streams/ioutputstream.md)
 

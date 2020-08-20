@@ -28,4 +28,4 @@ If this [DragEventArgs](drageventargs.md) is associated with the [UIElement.Drop
 ## -examples
 
 ## -see-also
-[Point](../windows.foundation/point.md)
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop), [Point](../windows.foundation/point.md)

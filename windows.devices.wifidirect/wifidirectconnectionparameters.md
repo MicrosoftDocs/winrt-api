@@ -11,7 +11,10 @@ public class WiFiDirectConnectionParameters : Windows.Devices.Enumeration.IDevic
 # Windows.Devices.WiFiDirect.WiFiDirectConnectionParameters
 
 ## -description
+
 Used by an app to specify the connection parameters for a Wi-Fi Direct connect/pairing operation.
+
+Sample applications that use this class include the [Wi-Fi Direct sample](/samples/microsoft/windows-universal-samples/wifidirect/).
 
 ## -remarks
 
@@ -26,4 +29,5 @@ Used by an app to specify the connection parameters for a Wi-Fi Direct connect/p
 ## -examples
 
 ## -see-also
-[WiFiDirectConnectionListener](wifidirectconnectionlistener.md)
+
+[WiFiDirectConnectionListener](wifidirectconnectionlistener.md), [Wi-Fi Direct sample](/samples/microsoft/windows-universal-samples/wifidirect/)

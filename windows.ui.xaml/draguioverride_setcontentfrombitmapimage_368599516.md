@@ -21,4 +21,5 @@ The source image used to create the drag visual.
 ## -examples
 
 ## -see-also
-[SetContentFromBitmapImage(BitmapImage, Point)](draguioverride_setcontentfrombitmapimage_1675457366.md)
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop), [SetContentFromBitmapImage(BitmapImage, Point)](draguioverride_setcontentfrombitmapimage_1675457366.md)

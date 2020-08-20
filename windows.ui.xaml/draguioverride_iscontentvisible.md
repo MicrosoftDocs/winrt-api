@@ -20,3 +20,5 @@ Gets or sets a value that indicates whether the content of the drag visual is sh
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

@@ -24,3 +24,5 @@ The GetDeferral method allows your app to call a function during a drag-and-drop
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

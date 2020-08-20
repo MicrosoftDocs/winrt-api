@@ -20,3 +20,5 @@ The visual representation of the data being dragged. The default is **null**.
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

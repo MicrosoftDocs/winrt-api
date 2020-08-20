@@ -17,5 +17,7 @@ This class provides a representation of a bitmap that makes it easy to use with 
 
 ## -examples
 
+Sample applications that use this class include the [Camera frames sample](/samples/microsoft/windows-universal-samples/cameraframes/).
+
 ## -see-also
-[IClosable](../windows.foundation/iclosable.md)
+[IClosable](../windows.foundation/iclosable.md), [Camera frames sample](/samples/microsoft/windows-universal-samples/cameraframes/)
