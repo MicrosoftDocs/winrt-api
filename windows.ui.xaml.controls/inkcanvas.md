@@ -38,7 +38,7 @@ The configuration of the [InkPresenter](../windows.ui.input.inking/inkpresenter.
 
 To handle pointer events with the InkPresenter object, you must set [RightDragAction](../windows.ui.input.inking/inkinputprocessingconfiguration_rightdragaction.md) to [LeaveUnprocessed](../windows.ui.input.inking/inkinputrightdragaction.md) to pass the input through as [UnprocessedInput](../windows.ui.input.inking/inkpresenter_unprocessedinput.md) for custom processing by your app.
 
-The InkCanvas control will not work if a [`Transform3D`](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.uielement.transform3d) is set on it or any elements in the XAML tree above it.
+The InkCanvas control doesn't work if a [Transform3D](../windows.ui.xaml/uielement_transform3d.md) is set on the control or on any element in the XAML tree above the control.
 
 ## -examples
 
