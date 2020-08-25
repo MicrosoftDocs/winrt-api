@@ -27,7 +27,7 @@ CubicBezierEasingFunction cubicBezier = _compositor.CreateCubicBezierEasingFunct
 ScalarKeyFrameAnimation animation = _compositor.CreateScalarKeyFrameAnimation();
 
 // Apply the cubic-bezier to a KeyFrame
-animation.InsertKeyFrame(0.0f, 1.0f);
+animation.InsertKeyFrame(0.0f, 1.0f, cubicBezier);
           
 ```
 
