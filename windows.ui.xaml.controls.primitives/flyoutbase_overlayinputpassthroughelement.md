@@ -19,7 +19,11 @@ The element that should receive pointer input events even when underneath the fl
 
 ## -remarks
 
+For more info, see [Light dismiss behavior](/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/flyouts#light-dismiss-behavior) in the Flyouts article.
+
 ## -see-also
+
+[Flyouts](/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/flyouts), [LightDismissOverlayMode](flyoutbase_lightdismissoverlaymode.md)
 
 ## -examples
 

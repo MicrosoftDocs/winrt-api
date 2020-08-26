@@ -11,7 +11,7 @@ public class Flyout : Windows.UI.Xaml.Controls.Primitives.FlyoutBase, Windows.UI
 
 ## -description
 
-Represents a control that displays lightweight UI that is either information, or requires user interaction. Unlike a dialog, a Flyout can be light dismissed by clicking or tapping outside of it, pressing the device’s back button, or pressing the ‘Esc’ key.
+Represents a control that displays lightweight UI that is either information, or requires user interaction. Unlike a dialog, a Flyout can be light dismissed by clicking or tapping outside of it, pressing the device's back button, or pressing the 'Esc' key.
 
 ## -xaml-syntax
 
@@ -40,11 +40,11 @@ In addition to the members listed in this reference topic, there are other membe
 
 ### Accessibility
 
-If you use a Flyout with no focusable content-for example, with only text, as shown here-you should take some additional steps to ensure that your content is accessible. Specifically, you need to ensure that Windows Narrator or other screen readers can read the flyout’s content.
+If you use a Flyout with no focusable content-for example, with only text, as shown here-you should take some additional steps to ensure that your content is accessible. Specifically, you need to ensure that Windows Narrator or other screen readers can read the flyout's content.
 
 <img src="images/flyout-text.png" alt="Flyout control with text content" />
 
-By default, there are properties set on the [FlyoutPresenter](flyoutpresenter.md) that prevent it from receiving focus. This is the desired behavior when content inside the Flyout can receive focus. However, if the content inside the Flyout can’t receive focus, you should update to the [FlyoutPresenterStyle](flyout_flyoutpresenterstyle.md) to let the [FlyoutPresenter](flyoutpresenter.md) receive focus instead. To do this, set [IsTabStop](control_istabstop.md) to **true** and [TabNavigation](control_tabnavigation.md) to **Cycle** on the flyout presenter style.
+By default, there are properties set on the [FlyoutPresenter](flyoutpresenter.md) that prevent it from receiving focus. This is the desired behavior when content inside the Flyout can receive focus. However, if the content inside the Flyout can't receive focus, you should update to the [FlyoutPresenterStyle](flyout_flyoutpresenterstyle.md) to let the [FlyoutPresenter](flyoutpresenter.md) receive focus instead. To do this, set [IsTabStop](control_istabstop.md) to **true** and [TabNavigation](control_tabnavigation.md) to **Cycle** on the flyout presenter style.
 
 This example shows how to let the [FlyoutPresenter](flyoutpresenter.md) receive focus so that the content is accessible.
 
@@ -81,4 +81,4 @@ This example shows how to let the [FlyoutPresenter](flyoutpresenter.md) receive 
 
 ## -see-also
 
-[FlyoutBase](../windows.ui.xaml.controls.primitives/flyoutbase.md), [FlyoutPresenter](flyoutpresenter.md), [Button.Flyout](button_flyout.md), [MenuFlyout](menuflyout.md), [Dialogs v. flyouts](https://docs.microsoft.com/windows/uwp/controls-and-patterns/dialogs), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview), [Commanding sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCommanding), [XAML Flyout and MenuFlyout sample (Windows 8)](https://go.microsoft.com/fwlink/p/?LinkID=310074)
+[Flyouts](/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/flyouts), [FlyoutBase](../windows.ui.xaml.controls.primitives/flyoutbase.md), [FlyoutPresenter](flyoutpresenter.md), [Button.Flyout](button_flyout.md), [MenuFlyout](menuflyout.md), [Dialogs v. flyouts](https://docs.microsoft.com/windows/uwp/controls-and-patterns/dialogs), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview), [Commanding sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCommanding), [XAML Flyout and MenuFlyout sample (Windows 8)](https://go.microsoft.com/fwlink/p/?LinkID=310074)
