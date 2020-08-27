@@ -155,7 +155,7 @@ This example creates the command bar shown in Remarks.
     </CommandBar.SecondaryCommands>
 
     <CommandBar.Content>
-        <TextBlock Text="Now playing..." Margin="12,14"/>
+        <TextBlock Text="Now playing..." Margin="12,8"/>
     </CommandBar.Content>
 </CommandBar>
 ```
