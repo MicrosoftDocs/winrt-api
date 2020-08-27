@@ -10,13 +10,12 @@ public class ValueSet : Windows.Foundation.Collections.IIterable<Windows.Foundat
 # Windows.Foundation.Collections.ValueSet
 
 ## -description
-Implements a map with keys of type **String** and values of type [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN). This class prevents non-serializable types from being put into the map.
+Implements a map with keys of type **String** and values of type [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN). Object must be a WinRT [PropertyValue](https://docs.microsoft.com/en-us/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) or ValueSet. As a PropertyValue, it can be any type except [PropertyType](https://docs.microsoft.com/en-us/windows/win32/api/windows.foundation/ne-windows-foundation-propertytype) **InspectableArray**. This limitation exists to ensure that the value can be serialized; passed by value accoss a process boundary.
 
 > [!NOTE]
 > Some members are only available for the specified language.
 
 ## -remarks
-Custom types must implement the [IInspectable](https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable) interface in order to be serializable.
 
 ## -examples
 
