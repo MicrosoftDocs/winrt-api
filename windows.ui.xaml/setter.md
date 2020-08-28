@@ -83,7 +83,13 @@ This example shows how to use multiple Setter statements inside the [VisualState
 
 ```
 
-To update a value of an attached property, place the attached property path inside parentheses. This example shows how to update the `RelativePanel.AlignRightWithPanel` value on an element with the name 'TitleTextBlock'. 
+You can also apply setters to attached property values, by specifying the attached property name in the *AttachedPropertyProvider*.*PropertyName* form. For example, to use a [Setter](setter.md) for the attached property [Canvas.Left](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties), use this XAML.
+
+```xaml
+<Setter Property="Canvas.Left" Value="100"/>
+```
+
+To update a value of an attached property using `Target`, place the attached property path inside parentheses. This example shows how to update the `RelativePanel.AlignRightWithPanel` value on an element with the name 'TitleTextBlock'. 
 
 ```xaml
 <RelativePanel>
