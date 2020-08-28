@@ -17,3 +17,5 @@ Occurs when the contents of the items collection changes.
 ## -examples
 
 ## -see-also
+
+[ItemsChangedEventArgs](/uwp/api/windows.ui.xaml.controls.primitives.itemschangedeventargs)
