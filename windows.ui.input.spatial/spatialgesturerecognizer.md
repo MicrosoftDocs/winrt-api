@@ -31,6 +31,8 @@ When targeting a spatial interaction, such as a hand gesture, motion controller 
 
 The app should then intersect the chosen pointing ray with its own holograms or with the spatial mapping mesh to render cursors and determine what the user is intending to interact with.
 
+For applications using the gaze-and-commit input model, particularly on HoloLens (first gen), SpatialGestureRecognizer can be used to to enable composite gestures built on top of the 'select' event. By routing interactions from the SpatialInteractionManager to a hologram's SpatialGestureRecognizer, apps can detect Tap, Hold, Manipulation, and Navigation events uniformly across hands, voice, and spatial input devices, without having to handle presses and releases manually.
+
 ## -examples
 
 ## -see-also
