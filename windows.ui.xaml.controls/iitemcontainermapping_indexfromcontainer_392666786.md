@@ -17,7 +17,7 @@ Returns the index to the item that has the specified, generated container.
 The generated container to retrieve the item index for.
 
 ## -returns
-The index to the item that corresponds to the specified generated container.
+The index to the item that corresponds to the specified generated container, or -1 if `container` is not found.
 
 ## -remarks
 
