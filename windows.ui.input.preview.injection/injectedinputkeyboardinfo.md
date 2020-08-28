@@ -10,7 +10,8 @@ public class InjectedInputKeyboardInfo : Windows.UI.Input.Preview.Injection.IInj
 # Windows.UI.Input.Preview.Injection.InjectedInputKeyboardInfo
 
 ## -description
-Represents programmatically generated keyboard input.
+
+Represents programmatically generated keyboard input, such as a Tab or Shift+Tab (Reverse Tabbing).
 
 ## -remarks
 
@@ -24,6 +25,8 @@ Using input injection requires the following be added to the Package.appxmanifes
     - `IgnorableNamespaces="rescap"`
 - To `<Capabilities>`
     - `<rescap:Capability Name="inputInjectionBrokered" />`
+
+Injecting too many keystrokes in a single call to [InjectKeyboardInput](inputinjector_injectkeyboardinput_329566807.md) can result in an ArgumentException.
 
 ## -examples
 
