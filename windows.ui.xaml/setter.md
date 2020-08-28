@@ -57,8 +57,6 @@ This example shows how to use Setter statements in a style for [TextBlock](../wi
 
 ```
 
-
-<!--<auto_snippet sample_id="StylingTemplatingOverview" snippet_id="1"/>-->
 This example shows how to use multiple Setter statements inside the [VisualState.Setters](visualstate_setters.md) property to apply discrete property value changes on various elements (without animations) when a [VisualState](visualstate.md) is applied.
 
 ```xaml
@@ -85,6 +83,17 @@ This example shows how to use multiple Setter statements inside the [VisualState
 
 ```
 
+To update a value of an attached property, place the attached property path inside parentheses. This example shows how to update the `RelativePanel.AlignRightWithPanel` value on an element with the name 'TitleTextBlock'. 
+
+```xaml
+<RelativePanel>
+    <TextBlock x:Name="TitleTextBlock" Text="Title"/>
+</RelativePanel>
+
+...
+
+<Setter Target="TitleTextBlock.(RelativePanel.AlignRightWithPanel)" Value="True"/>
+```
 
 
 ## -see-also
