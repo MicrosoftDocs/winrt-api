@@ -13,7 +13,7 @@ public VisitMonitoringScope MonitoringScope { get;  set; }
 Gets and sets the scope of Visits to monitor.
 
 ## -property-value
-A [VisitMonitoringScope](https://docs.microsoft.com/uwp/api/windows.devices.geolocation.visitmonitoringscope) value representing the scope of location monitoring.
+A [VisitMonitoringScope](/uwp/api/windows.devices.geolocation.visitmonitoringscope) value representing the scope of location monitoring.
 
 ## -remarks
 

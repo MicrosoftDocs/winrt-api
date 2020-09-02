@@ -20,4 +20,4 @@ The identifier for the [MonthYearItemFontFamily](calendarview_monthyearitemfontf
 ## -examples
 
 ## -see-also
-[MonthYearItemFontFamily](calendarview_monthyearitemfontfamily.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MonthYearItemFontFamily](calendarview_monthyearitemfontfamily.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

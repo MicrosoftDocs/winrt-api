@@ -10,7 +10,7 @@ public class SystemPhotoProperties : Windows.Storage.ISystemPhotoProperties
 # Windows.Storage.SystemPhotoProperties
 
 ## -description
-A helper object that provides indexing names for [Windows photo file properties](https://docs.microsoft.com/windows/desktop/properties/photo-bumper).
+A helper object that provides indexing names for [Windows photo file properties](/windows/desktop/properties/photo-bumper).
 
 ## -remarks
 

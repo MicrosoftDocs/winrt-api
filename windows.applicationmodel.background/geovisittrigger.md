@@ -13,7 +13,7 @@ public class GeovisitTrigger : IBackgroundTrigger
 Represents an event that triggers a Visits-related background task.
 
 ## -remarks
-For more information, see the [Guidelines for using Visits tracking](https://docs.microsoft.com/windows/uwp/maps-and-location/guidelines-for-visits).
+For more information, see the [Guidelines for using Visits tracking](/windows/uwp/maps-and-location/guidelines-for-visits).
 
 ## -see-also
 

@@ -20,4 +20,4 @@ The identifier for the [IsOutOfScopeEnabled](calendardatepicker_isoutofscopeenab
 ## -examples
 
 ## -see-also
-[IsOutOfScopeEnabled](calendardatepicker_isoutofscopeenabled.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsOutOfScopeEnabled](calendardatepicker_isoutofscopeenabled.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -10,7 +10,7 @@ public string EnterpriseId { get;  set; }
 # Windows.ApplicationModel.DataTransfer.DataPackagePropertySet.EnterpriseId
 
 ## -description
-Gets or sets the enterprise identity (see [Enterprise data protection](https://docs.microsoft.com/windows/uwp/enterprise/wip-hub)).
+Gets or sets the enterprise identity (see [Enterprise data protection](/windows/uwp/enterprise/wip-hub)).
 
 ## -property-value
 The enterprise Id.

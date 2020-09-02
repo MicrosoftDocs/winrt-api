@@ -17,7 +17,7 @@ True if the key press event has been handled by the appropriate delegate; false 
 
 ## -remarks
 > **Windows 10**
-> Apps do not receive this event when an [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10)) is enabled. The Input Method Editor (IME) handles all keyboard input and sets Handled to **true**.
+> Apps do not receive this event when an [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10)) is enabled. The Input Method Editor (IME) handles all keyboard input and sets Handled to **true**.
 
 > **Windows Phone**
 > This API is supported in native apps only.

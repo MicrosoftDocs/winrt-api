@@ -20,4 +20,4 @@ The identifier for the [HorizontalFirstOfMonthLabelAlignment](calendarview_horiz
 ## -examples
 
 ## -see-also
-[HorizontalFirstOfMonthLabelAlignment](calendarview_horizontalfirstofmonthlabelalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[HorizontalFirstOfMonthLabelAlignment](calendarview_horizontalfirstofmonthlabelalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

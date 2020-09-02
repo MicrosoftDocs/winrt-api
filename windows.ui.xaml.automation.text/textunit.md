@@ -36,9 +36,9 @@ Specifies that the text unit is an entire document in length.
 
 
 ## -remarks
-TextUnit defines an input for the [Move](../windows.ui.text/itextrange_move_1126378751.md) method and related methods of the **TextRange** automation control pattern. [ITextRangeProvider](../windows.ui.xaml.automation.provider/itextrangeprovider.md) is the definition interface if you want to support the **TextRange** automation pattern as part of a Windows Runtime custom control. For more info, see [ITextRangeProvider](../windows.ui.xaml.automation.provider/itextrangeprovider.md) or [Text and TextRange Control Patterns](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).
+TextUnit defines an input for the [Move](../windows.ui.text/itextrange_move_1126378751.md) method and related methods of the **TextRange** automation control pattern. [ITextRangeProvider](../windows.ui.xaml.automation.provider/itextrangeprovider.md) is the definition interface if you want to support the **TextRange** automation pattern as part of a Windows Runtime custom control. For more info, see [ITextRangeProvider](../windows.ui.xaml.automation.provider/itextrangeprovider.md) or [Text and TextRange Control Patterns](/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).
 
 ## -examples
 
 ## -see-also
-[ITextRangeProvider](../windows.ui.xaml.automation.provider/itextrangeprovider.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[ITextRangeProvider](../windows.ui.xaml.automation.provider/itextrangeprovider.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

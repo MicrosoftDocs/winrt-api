@@ -24,4 +24,4 @@ Pointer to the context.
 ## -examples
 
 ## -see-also
-[ for Printers](https://docs.microsoft.com/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers)
+[ for Printers](/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers)

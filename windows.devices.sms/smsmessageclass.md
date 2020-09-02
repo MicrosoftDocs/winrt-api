@@ -14,7 +14,7 @@ public enum Windows.Devices.Sms.SmsMessageClass : int
 This enumerated type specifies the message class of a message. The message class typically originates on the network, not the mobile device.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](https://docs.microsoft.com/windows-hardware/drivers/mobilebroadband/index).
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](/windows-hardware/drivers/mobilebroadband/index).
 
 ## -enum-fields
 ### -field None:0

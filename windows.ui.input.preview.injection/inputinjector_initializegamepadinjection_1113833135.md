@@ -15,7 +15,7 @@ Initializes a virtual gamepad device that can synthesize input events and provid
 ## -remarks
 
 > [!Important]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
 
 Using input injection requires the following be added to the Package.appxmanifest:
 
@@ -25,7 +25,7 @@ Using input injection requires the following be added to the Package.appxmanifes
 - To `<Capabilities>`
     - `<rescap:Capability Name="inputInjectionBrokered" />`
 
-Calling this method is analogous to connecting a physical gamepad, which also triggers a [GamepadAdded](https://docs.microsoft.com/uwp/api/windows.gaming.input.gamepad.GamepadAdded) event.
+Calling this method is analogous to connecting a physical gamepad, which also triggers a [GamepadAdded](/uwp/api/windows.gaming.input.gamepad.GamepadAdded) event.
 
 A physical gamepad is assigned a persistent unique ID (see [NonRoamableId](..\windows.gaming.input\rawgamecontroller_nonroamableid.md)) that does not change when the device is connected and disconnected. Similarly, a virtual gamepad created with InitializeGamepadInjection is also assigned a unique ID that persists across calls to UninitializeGamepadInjection and InitializeGamepadInjection for the same [InputInjector](inputinjector.md) instance.
 
@@ -39,4 +39,4 @@ Here are some downloadable samples demonstrating basic input and input injection
 
 ## -see-also
 
-[UninitializeGamepadInjection](inputinjector_uninitializegamepadinjection_370962456.md), [Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)
+[UninitializeGamepadInjection](inputinjector_uninitializegamepadinjection_370962456.md), [Simulate user input through input injection](/windows/uwp/design/input/input-injection)

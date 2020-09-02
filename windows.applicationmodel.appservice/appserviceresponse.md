@@ -18,4 +18,4 @@ In JavaScript, an instance of this class is passed to the event handler that you
 ## -examples
 
 ## -see-also
-[Create and consume an app service](https://docs.microsoft.com/windows/uwp/launch-resume/how-to-create-and-consume-an-app-service)
+[Create and consume an app service](/windows/uwp/launch-resume/how-to-create-and-consume-an-app-service)

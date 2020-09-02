@@ -21,4 +21,4 @@ See the [Title bar sample](/samples/microsoft/windows-universal-samples/titlebar
 
 ## -see-also
 
-[Title bar customization](https://docs.microsoft.com/windows/uwp/design/shell/title-bar), [Title bar sample](/samples/microsoft/windows-universal-samples/titlebar/)
+[Title bar customization](/windows/uwp/design/shell/title-bar), [Title bar sample](/samples/microsoft/windows-universal-samples/titlebar/)

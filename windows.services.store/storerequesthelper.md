@@ -18,4 +18,4 @@ Provides a helper method that can be used to send requests to the Microsoft Stor
 ## -examples
 
 ## -see-also
-[Send requests to the Store](https://docs.microsoft.com/windows/uwp/monetize/send-requests-to-the-store)
+[Send requests to the Store](/windows/uwp/monetize/send-requests-to-the-store)

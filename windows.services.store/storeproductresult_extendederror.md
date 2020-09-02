@@ -20,4 +20,4 @@ The error code for the request.
 ## -examples
 
 ## -see-also
-[Error codes for Store operations](https://docs.microsoft.com/windows/uwp/monetize/error-codes-for-store-operations)
+[Error codes for Store operations](/windows/uwp/monetize/error-codes-for-store-operations)

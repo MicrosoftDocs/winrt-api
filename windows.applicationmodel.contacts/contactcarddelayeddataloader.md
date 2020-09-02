@@ -17,7 +17,7 @@ Represents a delayed data loader for a contact card.
 
 Call [ContactManager.ShowDelayLoadedContactCard](contactmanager_showdelayloadedcontactcard_1685487355.md) to show a contact card with delayed data loader.
 
-For info about how to manage contacts, see [Managing contact cards](https://docs.microsoft.com/previous-versions/windows/apps/dn518181(v=win.10)) and [Managing contact cards](https://docs.microsoft.com/previous-versions/windows/apps/dn518237(v=win.10)).
+For info about how to manage contacts, see [Managing contact cards](/previous-versions/windows/apps/dn518181(v=win.10)) and [Managing contact cards](/previous-versions/windows/apps/dn518237(v=win.10)).
 
 ## -examples
 

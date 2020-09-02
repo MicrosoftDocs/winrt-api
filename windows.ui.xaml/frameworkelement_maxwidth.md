@@ -20,7 +20,7 @@ Gets or sets the maximum width constraint of a [FrameworkElement](frameworkeleme
 
 
 ## -property-value
-The maximum width of the object, in pixels. The default is [PositiveInfinity](https://docs.microsoft.com/dotnet/api/system.double.positiveinfinity?redirectedfrom=MSDN). This value can be any value equal to or greater than 0. [PositiveInfinity](https://docs.microsoft.com/dotnet/api/system.double.positiveinfinity?redirectedfrom=MSDN) is also valid.
+The maximum width of the object, in pixels. The default is [PositiveInfinity](/dotnet/api/system.double.positiveinfinity?redirectedfrom=MSDN). This value can be any value equal to or greater than 0. [PositiveInfinity](/dotnet/api/system.double.positiveinfinity?redirectedfrom=MSDN) is also valid.
 
 ## -remarks
 MaxWidth is one of three writable properties on [FrameworkElement](frameworkelement.md) that specify width information. The other two are [MinWidth](frameworkelement_minwidth.md) and [Width](frameworkelement_width.md). If there is a conflict between these values, the order of application for actual width determination is that first [MinWidth](frameworkelement_minwidth.md) must be honored, then MaxWidth, and finally, if it is within bounds, [Width](frameworkelement_width.md). All of these properties are recommendations to the layout behavior of the element's parent in the object tree. The width of the object after layout runs is available as the [ActualWidth](frameworkelement_actualwidth.md) property value.
@@ -35,4 +35,4 @@ This XAML example shows a technique of specifying a MaxWidth for a [ViewBox](../
 [!code-xaml[ViewBoxXAML](../windows.ui.xaml/code/ViewBoxSnippet/csharp/MainPage.xaml#SnippetViewBoxXAML)]
 
 ## -see-also
-[Width](frameworkelement_width.md), [MinWidth](frameworkelement_minwidth.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Width](frameworkelement_width.md), [MinWidth](frameworkelement_minwidth.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

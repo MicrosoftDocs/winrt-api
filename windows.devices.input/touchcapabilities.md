@@ -32,4 +32,4 @@ The following code shows how to use this class to determine touch capabilities.
 
 ## -see-also
 
-[Windows.Devices.Input](windows_devices_input.md), [Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices), [Basic input sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput)
+[Windows.Devices.Input](windows_devices_input.md), [Quickstart: Identifying input devices](/windows/uwp/design/input/identify-input-devices), [Basic input sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput)

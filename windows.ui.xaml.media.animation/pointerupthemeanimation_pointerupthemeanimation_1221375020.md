@@ -17,4 +17,4 @@ Initializes a new instance of the [PointerDownThemeAnimation](pointerdownthemean
 ## -examples
 
 ## -see-also
-[Animating pointer clicks](https://docs.microsoft.com/previous-versions/windows/apps/jj649432(v=win.10)), [Guidelines and checklist for pointer click animations](https://docs.microsoft.com/windows/uwp/style/motion-pointer)
+[Animating pointer clicks](/previous-versions/windows/apps/jj649432(v=win.10)), [Guidelines and checklist for pointer click animations](/windows/uwp/style/motion-pointer)

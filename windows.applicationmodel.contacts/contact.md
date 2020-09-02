@@ -17,7 +17,7 @@ Represents a contact.
 
 No matter how you store contact information in your app, you must be able to put that information into a Contact object. This way, other apps that allow users to select contacts can use your app and process the contact information it provides.
 
-For info about how to manage contacts, see [Managing contact cards](https://docs.microsoft.com/previous-versions/windows/apps/dn518181(v=win.10)) and [Managing contact cards](https://docs.microsoft.com/previous-versions/windows/apps/dn518237(v=win.10)).
+For info about how to manage contacts, see [Managing contact cards](/previous-versions/windows/apps/dn518181(v=win.10)) and [Managing contact cards](/previous-versions/windows/apps/dn518237(v=win.10)).
 
 ## -examples
 

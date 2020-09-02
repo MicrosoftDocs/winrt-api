@@ -19,7 +19,7 @@ Gets or sets the title to be optionally set above the headers.
 
 
 ## -property-value
-Returns [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN).
+Returns [String](/dotnet/api/system.string?redirectedfrom=MSDN).
 
 ## -remarks
 

@@ -26,7 +26,7 @@ The end date/time for the usage data request.
 The requested local data usage information.
 
 ## -remarks
-For an example of how this method is used, see [How to retrieve connection usage data for a specific period of time](https://docs.microsoft.com/previous-versions/windows/apps/hh465162(v=win.10)).
+For an example of how this method is used, see [How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10)).
 
 ## -examples
 

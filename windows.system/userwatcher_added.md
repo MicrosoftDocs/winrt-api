@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler Added<Windows.System.UserWatch
 # Windows.System.UserWatcher.Added
 
 ## -description
-Fires when a user is added to the collection of users returned by [User.FindAllAsync](https://docs.microsoft.com/uwp/api/windows.system.user.findallasync).
+Fires when a user is added to the collection of users returned by [User.FindAllAsync](/uwp/api/windows.system.user.findallasync).
 
 ## -remarks
 

@@ -30,4 +30,4 @@ An object that manages the asynchronous creation of a new [BitmapEncoder](bitmap
 ## -examples
 
 ## -see-also
-[BitmapPropertySet](bitmappropertyset.md), [BitmapTypedValue](bitmaptypedvalue.md), [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging), [CreateAsync(Guid, IRandomAccessStream)](bitmapencoder_createasync_1315566040.md)
+[BitmapPropertySet](bitmappropertyset.md), [BitmapTypedValue](bitmaptypedvalue.md), [Imaging](/windows/uwp/audio-video-camera/imaging), [CreateAsync(Guid, IRandomAccessStream)](bitmapencoder_createasync_1315566040.md)

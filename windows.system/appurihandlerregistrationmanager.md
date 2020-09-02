@@ -17,7 +17,7 @@ Retrieves [AppUriHandlerRegistrations](appurihandlerregistration.md) for the cal
 In order to create this object to manage host registrations in addition to those declared in the AppxManifest, a windows.AppUriHandler contract registration must exist in the manifest with a name field provided.
 
 ## -see-also
-[AppUriHandler](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking)
+[AppUriHandler](/windows/uwp/launch-resume/web-to-app-linking)
 
 ## -examples
 

@@ -29,4 +29,4 @@ A value of the enumeration that specifies the style of checkbox to show. The def
 ## -examples
 
 ## -see-also
-[XAML theme resources](https://docs.microsoft.com/windows/uwp/controls-and-patterns/xaml-theme-resources)
+[XAML theme resources](/windows/uwp/controls-and-patterns/xaml-theme-resources)

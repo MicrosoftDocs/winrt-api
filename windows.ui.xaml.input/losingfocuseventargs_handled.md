@@ -18,8 +18,8 @@ Gets or sets a value that marks the routed event as handled. A **true** value fo
 ## -remarks
 
 ## -see-also
-[Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
-, [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)
+[Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
+, [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)
 
 ## -examples
 

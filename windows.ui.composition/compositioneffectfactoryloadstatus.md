@@ -31,4 +31,4 @@ Other error.
 ## -examples
 
 ## -see-also
-[Composition Brushes Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/composition-effects)
+[Composition Brushes Overview](/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](/en-us/windows/uwp/composition/composition-effects)

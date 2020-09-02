@@ -22,7 +22,7 @@ The WindowsStoreProxy.xml file that the simulator uses.
 The async operation that reloads the simulator.
 
 ## -remarks
-For more information about using this method, see [Using the WindowsStoreProxy.xml file with CurrentAppSimulator](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials-using-the-windows-applicationmodel-store-namespace).
+For more information about using this method, see [Using the WindowsStoreProxy.xml file with CurrentAppSimulator](/windows/uwp/monetize/in-app-purchases-and-trials-using-the-windows-applicationmodel-store-namespace).
 
 ## -examples
 

@@ -27,4 +27,4 @@ There's no public attached property for **ControlledPeers** because this is an a
 
 ## -see-also
 
-[Accessible text requirements](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility), [Custom automation peers](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/custom-automation-peers)
+[Accessible text requirements](/en-us/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility), [Custom automation peers](/en-us/windows/uwp/design/accessibility/custom-automation-peers)

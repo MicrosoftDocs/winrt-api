@@ -33,7 +33,7 @@ For non-H.264 cameras, when you call SetEncoderProperty after you get the record
 
 If you call SetEncoderProperty after you issue a call to start recording or previewing and before you get the record or preview started completion callback, you will receive an **MF_E_INVALIDREQUEST** error since the property cannot be applied to static nor dynamic settings.
 
-To rotate the preview stream, use the **GUID** defined as [MF_MT_VIDEO_ROTATION](https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-rotation). For how-to guidance on handling orientation when using the camera, see [Handle device orientation with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/handle-device-orientation-with-mediacapture).
+To rotate the preview stream, use the **GUID** defined as [MF_MT_VIDEO_ROTATION](/windows/desktop/medfound/mf-mt-video-rotation). For how-to guidance on handling orientation when using the camera, see [Handle device orientation with MediaCapture](/windows/uwp/audio-video-camera/handle-device-orientation-with-mediacapture).
 
 ## -examples
 

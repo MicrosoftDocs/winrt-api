@@ -43,4 +43,4 @@ public ref class Employee sealed : Windows::UI::Xaml::Data::INotifyPropertyChang
 ```
 
 ## -see-also
-[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN), [Binding](binding.md), [ICustomPropertyProvider](icustompropertyprovider.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property)
+[Attribute](/dotnet/api/system.attribute?redirectedfrom=MSDN), [Binding](binding.md), [ICustomPropertyProvider](icustompropertyprovider.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property)

@@ -10,7 +10,7 @@ public IWebViewControl NewWindow { get;  set; }
 # Windows.Web.UI.WebViewControlNewWindowRequestedEventArgs.NewWindow
 
 ## -description
-Provides a new [`WebViewControl`](https://docs.microsoft.com/uwp/api/windows.web.ui.interop.webviewcontrol) as the target for a `window.open` script call from inside the requesting `WebViewControl`. The content in target webview is always considered cross-origin to the content in opener webview and vice versa and subject to cross-origin restrictions. The `WebViewControl` provided in the `NewWindow` property must be new, running on the same process as the opener webview and cannot have been navigated. Setting the `NewWindow` property takes priority over the `Handled` property. If `NewWindow` is set, then the provided `WebViewControl` is used. If `NewWindow` is not set, then `Handled` is checked to determine behavior for the new window request.
+Provides a new [`WebViewControl`](/uwp/api/windows.web.ui.interop.webviewcontrol) as the target for a `window.open` script call from inside the requesting `WebViewControl`. The content in target webview is always considered cross-origin to the content in opener webview and vice versa and subject to cross-origin restrictions. The `WebViewControl` provided in the `NewWindow` property must be new, running on the same process as the opener webview and cannot have been navigated. Setting the `NewWindow` property takes priority over the `Handled` property. If `NewWindow` is set, then the provided `WebViewControl` is used. If `NewWindow` is not set, then `Handled` is checked to determine behavior for the new window request.
 
 ## -property-value
 

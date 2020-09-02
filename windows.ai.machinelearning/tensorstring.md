@@ -31,6 +31,6 @@ This API is thread-safe.
 | 1903 | 18362 | CreateFromShapeArrayAndDataArray |
 
 ## -see-also
-[Windows ML](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
+[Windows ML](/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
 
 ## -examples

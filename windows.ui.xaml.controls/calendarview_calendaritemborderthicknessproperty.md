@@ -20,4 +20,4 @@ The identifier for the [CalendarItemBorderThickness](calendarview_calendaritembo
 ## -examples
 
 ## -see-also
-[CalendarItemBorderThickness](calendarview_calendaritemborderthickness.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CalendarItemBorderThickness](calendarview_calendaritemborderthickness.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

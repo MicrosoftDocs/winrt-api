@@ -21,7 +21,7 @@ Use this property to associate the [Id](storedcontact_id.md) of the contact with
 ## -examples
 
 ## -see-also
-[Implementing contact bindings in a Windows Phone Silverlight 8.1 app](https://docs.microsoft.com/previous-versions/windows/apps/dn642083(v=vs.105))
+[Implementing contact bindings in a Windows Phone Silverlight 8.1 app](/previous-versions/windows/apps/dn642083(v=vs.105))
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

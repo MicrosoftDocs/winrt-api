@@ -15,11 +15,11 @@ Provides access to a [ICompositionSurface](../windows.ui.composition/icompositio
 ## -remarks
 Get an instance of this class by calling [MediaPlayer.GetSurface](mediaplayer_getsurface_812026623.md).
 
-For more information on using the [Windows.UI.Composition](../windows.ui.composition/windows_ui_composition.md) APIs to render visuals, see [Visual layer](https://docs.microsoft.com/windows/uwp/graphics/visual-layer).
+For more information on using the [Windows.UI.Composition](../windows.ui.composition/windows_ui_composition.md) APIs to render visuals, see [Visual layer](/windows/uwp/graphics/visual-layer).
 
-For how-to guidance for rendering video to a composition surface, see [Play audio and video with MediaPlayer](https://docs.microsoft.com/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer).
+For how-to guidance for rendering video to a composition surface, see [Play audio and video with MediaPlayer](/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer).
 
 ## -examples
 
 ## -see-also
-[IClosable](../windows.foundation/iclosable.md), [Visual layer](https://docs.microsoft.com/windows/uwp/graphics/visual-layer), [Play audio and video with MediaPlayer](https://docs.microsoft.com/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer)
+[IClosable](../windows.foundation/iclosable.md), [Visual layer](/windows/uwp/graphics/visual-layer), [Play audio and video with MediaPlayer](/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer)

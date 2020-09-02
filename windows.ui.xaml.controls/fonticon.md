@@ -68,4 +68,4 @@ newAppBarButton.Icon(fontIcon);
 
 
 ## -see-also
-[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Icons for UWP apps](https://docs.microsoft.com/windows/uwp/style/icons)
+[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Icons for UWP apps](/windows/uwp/style/icons)

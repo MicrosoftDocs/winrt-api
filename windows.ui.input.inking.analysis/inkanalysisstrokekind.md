@@ -33,7 +33,7 @@ Indicates a non-specific ink stroke.
 
 ## -remarks
 
-Use InkAnalysisStrokeKind with the [**SetStrokeDataKind**](https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.inking.analysis.inkanalyzer.setstrokedatakind) method to specify the type of ink stroke you're interested in analyzing: text (including document structure and bullet lists), drawing (including shape recognition), or non-specific. This can improve both efficiency and recognition accuracy.
+Use InkAnalysisStrokeKind with the [**SetStrokeDataKind**](/en-us/uwp/api/windows.ui.input.inking.analysis.inkanalyzer.setstrokedatakind) method to specify the type of ink stroke you're interested in analyzing: text (including document structure and bullet lists), drawing (including shape recognition), or non-specific. This can improve both efficiency and recognition accuracy.
 
 ## -see-also
 

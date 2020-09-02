@@ -10,7 +10,7 @@ public class AsymmetricKeyAlgorithmProvider : Windows.Security.Cryptography.Core
 # Windows.Security.Cryptography.Core.AsymmetricKeyAlgorithmProvider
 
 ## -description
-Represents a provider of asymmetric (public) key algorithms. For more information, see [Cryptographic keys](https://docs.microsoft.com/windows/uwp/security/cryptographic-keys).
+Represents a provider of asymmetric (public) key algorithms. For more information, see [Cryptographic keys](/windows/uwp/security/cryptographic-keys).
 
 ## -remarks
 You create an AsymmetricKeyAlgorithmProvider object by calling the static [OpenAlgorithm](asymmetrickeyalgorithmprovider_openalgorithm_637226074.md) method.

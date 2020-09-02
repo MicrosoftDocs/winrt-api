@@ -15,9 +15,9 @@ Indicates that an app package is staging.
 ## -remarks
 An app package is staged when it is added to the device but is not yet registered.
 
-If the PackageCatalog is obtained using **[OpenForCurrentPackage](https://docs.microsoft.com/uwp/api/windows.applicationmodel.packagecatalog.OpenForCurrentPackage)**, the app only receives package events for itself or its related packages such as optional packages.
+If the PackageCatalog is obtained using **[OpenForCurrentPackage](/uwp/api/windows.applicationmodel.packagecatalog.OpenForCurrentPackage)**, the app only receives package events for itself or its related packages such as optional packages.
 
-To get package events for all packages being staged by a user, obtain the PackageCatalog using **[OpenForCurrentUser](https://docs.microsoft.com/uwp/api/windows.applicationmodel.packagecatalog.OpenForCurrentUser)** instead.
+To get package events for all packages being staged by a user, obtain the PackageCatalog using **[OpenForCurrentUser](/uwp/api/windows.applicationmodel.packagecatalog.OpenForCurrentUser)** instead.
 
 ## -examples
 

@@ -19,7 +19,7 @@ The data to send to the device.
 ## -remarks
 If this method fails with **RO_E_CLOSED**, it can be assumed that the [MidiOutPort](midioutport.md) has been disconnected from the device.
 
-See [Obtaining pointers to data buffers (C++/CX)](https://docs.microsoft.com/cpp/cppcx/obtaining-pointers-to-data-buffers-c-cx) for more info.
+See [Obtaining pointers to data buffers (C++/CX)](/cpp/cppcx/obtaining-pointers-to-data-buffers-c-cx) for more info.
 
 ## -examples
 

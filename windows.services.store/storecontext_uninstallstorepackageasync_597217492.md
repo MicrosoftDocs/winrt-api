@@ -31,7 +31,7 @@ When you call this method, the OS silently uninstalls the app package without di
 > The restricted **storePackageManagement** capability is only available to desktop applications and games that use the [Desktop Bridge](https://developer.microsoft.com/windows/bridges/desktop) and to Xbox games that use XVC packages and are developed as part of a managed partner program, such as the [ID@Xbox](https://www.xbox.com/developers/id) program. These applications and games have this capability by default.
 
 ## -see-also
-[UninstallStorePackageByStoreIdAsync](storecontext_uninstallstorepackagebystoreidasync_262618884.md),[RequestUninstallStorePackageAsync](storecontext_requestuninstallstorepackageasync_1329597038.md),[RequestUninstallStorePackageByStoreIdAsync](storecontext_requestuninstallstorepackagebystoreidasync_1267943069.md), [Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
+[UninstallStorePackageByStoreIdAsync](storecontext_uninstallstorepackagebystoreidasync_262618884.md),[RequestUninstallStorePackageAsync](storecontext_requestuninstallstorepackageasync_1329597038.md),[RequestUninstallStorePackageByStoreIdAsync](storecontext_requestuninstallstorepackagebystoreidasync_1267943069.md), [Optional packages and related set authoring](/windows/uwp/packaging/optional-packages)
 
 ## -examples
 

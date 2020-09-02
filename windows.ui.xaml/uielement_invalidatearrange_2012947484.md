@@ -22,4 +22,4 @@ Layout updates can be forced by app code rather than relying on the built-in lay
 ## -examples
 
 ## -see-also
-[Arrange](uielement_arrange_958316931.md), [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [InvalidateMeasure](uielement_invalidatemeasure_969784920.md), [UpdateLayout](uielement_updatelayout_1243658106.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Arrange](uielement_arrange_958316931.md), [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [InvalidateMeasure](uielement_invalidatemeasure_969784920.md), [UpdateLayout](uielement_updatelayout_1243658106.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

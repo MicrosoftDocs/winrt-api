@@ -29,4 +29,4 @@ The supplementary Unicode character.
 ## -examples
 
 ## -see-also
-[GetSurrogatePairFromCodepoint](unicodecharacters_getsurrogatepairfromcodepoint_381440991.md), [IsHighSurrogate](unicodecharacters_ishighsurrogate_1444937275.md), [IsLowSurrogate](unicodecharacters_islowsurrogate_645121110.md), [Surrogates and Supplementary Characters](https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters)
+[GetSurrogatePairFromCodepoint](unicodecharacters_getsurrogatepairfromcodepoint_381440991.md), [IsHighSurrogate](unicodecharacters_ishighsurrogate_1444937275.md), [IsLowSurrogate](unicodecharacters_islowsurrogate_645121110.md), [Surrogates and Supplementary Characters](/windows/desktop/Intl/surrogates-and-supplementary-characters)

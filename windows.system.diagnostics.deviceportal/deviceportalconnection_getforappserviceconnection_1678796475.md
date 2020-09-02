@@ -15,7 +15,7 @@ Initializes an instance of [DevicePortalConnection](DevicePortalConnection.md) b
 ## -parameters
 
 ### -param appServiceConnection
-The [AppServiceConnection](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.AppService.AppServiceConnection) that was used to launch the background task calling this method.
+The [AppServiceConnection](/uwp/api/Windows.ApplicationModel.AppService.AppServiceConnection) that was used to launch the background task calling this method.
 
 ## -returns
 The [DevicePortalConnection](DevicePortalConnection.md) object.

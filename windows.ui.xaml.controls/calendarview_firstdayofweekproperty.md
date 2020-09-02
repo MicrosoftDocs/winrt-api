@@ -20,4 +20,4 @@ The identifier for the   [FirstDayOfWeek](calendarview_firstdayofweek.md) depen
 ## -examples
 
 ## -see-also
-[FirstDayOfWeek](calendarview_firstdayofweek.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[FirstDayOfWeek](calendarview_firstdayofweek.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

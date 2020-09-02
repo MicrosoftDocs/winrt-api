@@ -29,8 +29,8 @@ A StreamWebSocketInformation object is automatically created with the parent [St
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)),
-[How to use advanced WebSocket controls](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)),
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh761447(v=win.10)),
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)),
 [StreamWebSocket](streamwebsocket.md),
 [StreamWebSocket.Information](streamwebsocket_information.md),
 [StreamWebSocketControl](streamwebsocketcontrol.md),

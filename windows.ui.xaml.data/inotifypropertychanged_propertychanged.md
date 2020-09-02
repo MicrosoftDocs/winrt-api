@@ -13,9 +13,9 @@ abstract public event Windows.UI.Xaml.Data.PropertyChangedEventHandler PropertyC
 Occurs when a property value changes.
 
 ## -remarks
-When building UWP app with the Microsoft .NET Framework, this interface is hidden and developers should use the [System.ComponentModel.INotifyPropertyChanged](https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged?redirectedfrom=MSDN) interface.
+When building UWP app with the Microsoft .NET Framework, this interface is hidden and developers should use the [System.ComponentModel.INotifyPropertyChanged](/dotnet/api/system.componentmodel.inotifypropertychanged?redirectedfrom=MSDN) interface.
 
-The PropertyChanged event can indicate that all properties on the object have changed by using [String.Empty](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) for the [PropertyName](propertychangedeventargs_propertyname.md) property of the [PropertyChangedEventArgs](propertychangedeventargs.md). Note that you cannot use **null** for this like you can in Windows Presentation Foundation (WPF) and Microsoft Silverlight.
+The PropertyChanged event can indicate that all properties on the object have changed by using [String.Empty](/dotnet/api/system.string?redirectedfrom=MSDN) for the [PropertyName](propertychangedeventargs_propertyname.md) property of the [PropertyChangedEventArgs](propertychangedeventargs.md). Note that you cannot use **null** for this like you can in Windows Presentation Foundation (WPF) and Microsoft Silverlight.
 
 ## -examples
 This example demonstrates how to implement the [INotifyPropertyChanged](inotifypropertychanged.md) interface and fire the PropertyChanged event whenever property values change. For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind).
@@ -72,4 +72,4 @@ namespace DataBinding
 
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

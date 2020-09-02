@@ -20,7 +20,7 @@ The type of the [PnpObject](pnpobject.md).
 The string value identifying the [PnpObject](pnpobject.md).
 
 ### -param requestedProperties
-An iterable list of additional properties to include in the [Properties](../windows.devices.enumeration/deviceinformation_properties.md) property of the [PnpObject](pnpobject.md) object to create. For more info on what the properties represent, see [Device information properties](https://docs.microsoft.com/windows/uwp/devices-sensors/device-information-properties).
+An iterable list of additional properties to include in the [Properties](../windows.devices.enumeration/deviceinformation_properties.md) property of the [PnpObject](pnpobject.md) object to create. For more info on what the properties represent, see [Device information properties](/windows/uwp/devices-sensors/device-information-properties).
 
 ## -returns
 The [PnpObject](pnpobject.md) created from the previously saved [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) ID.

@@ -20,4 +20,4 @@ The identifier for the [IsTodayHighlighted](calendarview_istodayhighlighted.md) 
 ## -examples
 
 ## -see-also
-[IsTodayHighlighted](calendarview_istodayhighlighted.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsTodayHighlighted](calendarview_istodayhighlighted.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

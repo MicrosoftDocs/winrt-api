@@ -17,15 +17,15 @@ Provides gesture and manipulation recognition, event listeners, and settings.
 
 You can create a gesture object for each appropriate element when your app starts. However, this approach might not scale well depending on the number of gesture objects you need to create (for example, a jigsaw puzzle with hundreds of pieces).
 
-In this case, you can create gesture objects dynamically on a [pointerdown](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/jj191898(v=vs.85)) event and destroy them on an [MSGestureEnd](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/jj191886(v=vs.85)) event. This approach scales well, but does incur some overhead due to creating and releasing these objects.
+In this case, you can create gesture objects dynamically on a [pointerdown](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/jj191898(v=vs.85)) event and destroy them on an [MSGestureEnd](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/jj191886(v=vs.85)) event. This approach scales well, but does incur some overhead due to creating and releasing these objects.
 
 Alternatively, you can statically allocate and dynamically manage a pool of reusable gesture objects.
 
 <!-- confirmed -->
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
-For more detail on how to use cross-slide functionality, see [Guidelines for cross-slide](https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-cross-slide). The threshold distances used by the cross-slide interaction are shown in the following diagram.
+For more detail on how to use cross-slide functionality, see [Guidelines for cross-slide](/windows/uwp/input-and-devices/guidelines-for-cross-slide). The threshold distances used by the cross-slide interaction are shown in the following diagram.
 
 <img src="images/crossslide_threshold.png" border="1" width="536" height="276" alt="Screen shot showing the select and drag and drop processes." />
 
@@ -50,7 +50,7 @@ Rotation is not supported for single pointer input if the value of [PivotRadius]
 
 ## -examples
 
-Here we set up a GestureRecognizer object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput) for the full implementation.
+Here we set up a GestureRecognizer object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview](/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput) for the full implementation.
 
 ```csharp
 class ManipulationInputProcessor
@@ -240,9 +240,9 @@ class ManipulationInputProcessor
 
 ### Conceptual
 
-- [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index)
-- [UX guidelines for custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index)
-- [Touch design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-user-interaction)
+- [Custom user interactions](/windows/uwp/design/layout/index)
+- [UX guidelines for custom user interactions](/windows/uwp/design/layout/index)
+- [Touch design guidelines](/windows/uwp/input-and-devices/guidelines-for-user-interaction)
 
 ### Samples
 
@@ -257,4 +257,4 @@ class ManipulationInputProcessor
 - [Input: Manipulations and gestures sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20Gestures%20and%20manipulations%20with%20GestureRecognizer)
 - [Input: XAML user input events sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)
 - [XAML scrolling, panning, and zooming sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Universal%20Windows%20app%20samples/111487-Universal%20Windows%20app%20samples/XAML%20scrolling%2C%20panning%2C%20and%20zooming%20sample)
-- [DirectX touch input sample](https://docs.microsoft.com/en-us/samples/microsoft/windows-universal-samples/simple3dgamedx/)
+- [DirectX touch input sample](/en-us/samples/microsoft/windows-universal-samples/simple3dgamedx/)

@@ -24,4 +24,4 @@ The value ranges from 1 to 2.25.
 
 ## -see-also
 
-[TextScaleFactor](uisettings_textscalefactor.md), [Text scaling](https://docs.microsoft.com/windows/uwp/design/input/text-scaling), [Accessible text requirements](https://docs.microsoft.com/windows/uwp/design/accessibility/accessible-text-requirements)
+[TextScaleFactor](uisettings_textscalefactor.md), [Text scaling](/windows/uwp/design/input/text-scaling), [Accessible text requirements](/windows/uwp/design/accessibility/accessible-text-requirements)

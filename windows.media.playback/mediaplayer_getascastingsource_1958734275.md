@@ -16,7 +16,7 @@ Gets a [CastingSource](../windows.media.casting/castingsource.md) representing t
 The casting source.
 
 ## -remarks
-For more information on casting media to remote devices, see [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting).
+For more information on casting media to remote devices, see [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 ## -examples
 

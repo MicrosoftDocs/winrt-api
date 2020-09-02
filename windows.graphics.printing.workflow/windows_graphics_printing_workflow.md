@@ -15,7 +15,7 @@ This namespace provides the functionality for writing a print workflow app. Prin
 ## -remarks
 
 ## -see-also
-[PrintWorkflowBackgroundSession class](PrintWorkflowBackgroundSession.md), [PrintWorkflowForegroundSession class](PrintWorkflowForegroundSession.md), [Print Workflow sample](https://github.com/Microsoft/print-oem-samples), [Windows.Graphics.Printing.PrintTicket namespace](https://docs.microsoft.com/uwp/api/windows.graphics.printing.printticket)
+[PrintWorkflowBackgroundSession class](PrintWorkflowBackgroundSession.md), [PrintWorkflowForegroundSession class](PrintWorkflowForegroundSession.md), [Print Workflow sample](https://github.com/Microsoft/print-oem-samples), [Windows.Graphics.Printing.PrintTicket namespace](/uwp/api/windows.graphics.printing.printticket)
 
 ## -examples
 

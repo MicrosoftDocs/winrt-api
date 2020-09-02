@@ -16,9 +16,9 @@ Gets a value that indicates whether the add-on (also called an in-app product or
 Returns true if the in-app product is on sale, and otherwise false.
 
 ## -remarks
-For information about putting add-ons on sale, see [Put apps and add-ons on sale](https://docs.microsoft.com/windows/uwp/publish/put-apps-and-add-ons-on-sale).
+For information about putting add-ons on sale, see [Put apps and add-ons on sale](/windows/uwp/publish/put-apps-and-add-ons-on-sale).
 
 ## -examples
 
 ## -see-also
-[Put apps and add-ons on sale](https://docs.microsoft.com/windows/uwp/publish/put-apps-and-add-ons-on-sale)
+[Put apps and add-ons on sale](/windows/uwp/publish/put-apps-and-add-ons-on-sale)

@@ -10,10 +10,10 @@ public Windows.Foundation.Collections.IMap<string, string> Hints { get; }
 # Windows.UI.Notifications.AdaptiveNotificationText.Hints
 
 ## -description
-Specifies hints for formatting the notification, such as the text style, text wrapping, and alignment. For a complete list of hints, see the [text element entry of the Adaptive notifications schema](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-adaptive-tiles-schema).
+Specifies hints for formatting the notification, such as the text style, text wrapping, and alignment. For a complete list of hints, see the [text element entry of the Adaptive notifications schema](/windows/uwp/controls-and-patterns/tiles-and-notifications-adaptive-tiles-schema).
 
 ## -property-value
-A collection of name-value pairs that provide hints for formatting the notification, such as the text style, text wrapping, and alignment. For a complete list of hints, see the [text element entry of the Adaptive notifications schema](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-adaptive-tiles-schema).
+A collection of name-value pairs that provide hints for formatting the notification, such as the text style, text wrapping, and alignment. For a complete list of hints, see the [text element entry of the Adaptive notifications schema](/windows/uwp/controls-and-patterns/tiles-and-notifications-adaptive-tiles-schema).
 
 ## -remarks
 

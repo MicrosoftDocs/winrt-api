@@ -17,4 +17,4 @@ Closes the current stream and releases system resources.
 ## -examples
 
 ## -see-also
-[IClosable](https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-iclosable)
+[IClosable](/windows/desktop/api/windows.foundation/nn-windows-foundation-iclosable)

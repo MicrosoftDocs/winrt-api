@@ -13,7 +13,7 @@ public interface ISmsDevice :
 This interface controls a mobile broadband SMS device. It is the primary entry point to SMS services on the device.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](https://docs.microsoft.com/windows-hardware/drivers/mobilebroadband/index).
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](/windows-hardware/drivers/mobilebroadband/index).
 
 ## -remarks
 

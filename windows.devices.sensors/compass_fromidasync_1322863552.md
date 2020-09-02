@@ -14,7 +14,7 @@ Asynchronously obtains the sensor from its identifier.
 
 ## -parameters
 ### -param deviceId
-The [sensor identifier](https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids)
+The [sensor identifier](/windows-hardware/drivers/install/device-instance-ids)
 
 ## -returns
 Returns the [Compass](Compass.md) object from its identifier.

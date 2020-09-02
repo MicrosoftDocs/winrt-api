@@ -18,4 +18,4 @@ For touch points this event will be raised before the [PointerReleased](icorewin
 ## -examples
 
 ## -see-also
-[Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)
+[Handle pointer input](/windows/uwp/input-and-devices/handle-pointer-input)

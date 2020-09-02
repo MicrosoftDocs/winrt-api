@@ -10,7 +10,7 @@ public class SystemMusicProperties : Windows.Storage.ISystemMusicProperties
 # Windows.Storage.SystemMusicProperties
 
 ## -description
-A helper object that provides indexing names for [Windows music file properties](https://docs.microsoft.com/windows/desktop/properties/music-bumper).
+A helper object that provides indexing names for [Windows music file properties](/windows/desktop/properties/music-bumper).
 
 ## -remarks
 

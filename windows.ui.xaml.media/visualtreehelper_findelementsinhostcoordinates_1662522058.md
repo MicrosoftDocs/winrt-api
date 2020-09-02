@@ -83,4 +83,4 @@ private void Test(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[Point](../windows.foundation/point.md), [FindElementsInHostCoordinates(Point, UIElement)](visualtreehelper_findelementsinhostcoordinates_1478853318.md), [FindElementsInHostCoordinates(Rect, UIElement)](visualtreehelper_findelementsinhostcoordinates_241596294.md), [FindElementsInHostCoordinates(Rect, UIElement, Boolean)](visualtreehelper_findelementsinhostcoordinates_895215498.md), [Mouse interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/mouse-interactions)
+[Point](../windows.foundation/point.md), [FindElementsInHostCoordinates(Point, UIElement)](visualtreehelper_findelementsinhostcoordinates_1478853318.md), [FindElementsInHostCoordinates(Rect, UIElement)](visualtreehelper_findelementsinhostcoordinates_241596294.md), [FindElementsInHostCoordinates(Rect, UIElement, Boolean)](visualtreehelper_findelementsinhostcoordinates_895215498.md), [Mouse interactions](/windows/uwp/input-and-devices/mouse-interactions)

@@ -16,7 +16,7 @@ Gets the language that was most recently used to format or parse numbers.
 The language from the [priority list of language identifiers](inumberformatteroptions_languages.md) that was most recently used to format or parse numbers.
 
 ## -remarks
-If your app passes language tags from this interface to any [National Language Support](https://docs.microsoft.com/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
+If your app passes language tags from this interface to any [National Language Support](/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
 
 ## -examples
 

@@ -17,4 +17,4 @@ Not intended for general use. See also [IndependentlyAnimatableAttribute](indepe
 ## -examples
 
 ## -see-also
-[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN)
+[Attribute](/dotnet/api/system.attribute?redirectedfrom=MSDN)

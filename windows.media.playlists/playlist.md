@@ -13,7 +13,7 @@ public class Playlist : Windows.Media.Playlists.IPlaylist
 Provides access to a media playlist.
 
 ## -remarks
-This API is used to save and load playlist files to and from disk. For information about playing lists of media items, see [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
+This API is used to save and load playlist files to and from disk. For information about playing lists of media items, see [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ## -examples
 This example is an excerpt from the [Playlist sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/Playlists). See the sample for the complete solution.

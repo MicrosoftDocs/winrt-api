@@ -26,4 +26,4 @@ A Unicode character. This must be in the proper range: 0 &lt;= *codepoint* &lt;=
 ## -examples
 
 ## -see-also
-[GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md), [Surrogates and Supplementary Characters](https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters)
+[GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md), [Surrogates and Supplementary Characters](/windows/desktop/Intl/surrogates-and-supplementary-characters)

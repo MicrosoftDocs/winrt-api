@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler VolumeChangeRequested<Windows.
 Occurs when the volume for the source audio or video has changed.
 
 ## -remarks
-For an example of creating a software Play To receiver, see [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting) or [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting).
+For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting) or [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 
 

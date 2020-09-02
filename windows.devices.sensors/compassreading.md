@@ -25,4 +25,4 @@ This object is accessed when you invoke the [GetCurrentReading](compass_getcurre
 ## -examples
 
 ## -see-also
-[Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10))
+[Sensor data and display orientation](/previous-versions/windows/apps/dn440593(v=win.10))

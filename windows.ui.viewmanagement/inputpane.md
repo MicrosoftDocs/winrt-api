@@ -24,7 +24,7 @@ The input pane appears when the user performs an action that requires them to en
 
 In some cases, overlay UI such as an InputPane is not fully supported. This includes:
 
-+ apps in full-screen mode, like [games](https://docs.microsoft.com/windows/uwp/gaming/index).
++ apps in full-screen mode, like [games](/windows/uwp/gaming/index).
 + Windows Holographic apps in [holographic view](https://developer.microsoft.com/mixed-reality#app_views).
 
 Call [GetForCurrentView](inputpane_getforcurrentview_1363600702.md) to get an InputPane object.
@@ -33,7 +33,7 @@ After you register to receive input pane notifications, the system calls your ev
 
 <!-- confirmed -->
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx).
 
 ### Version history
 
@@ -44,4 +44,4 @@ After you register to receive input pane notifications, the system calls your ev
 ## -examples
 
 ## -see-also
-[Respond to the presence of the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/respond-to-the-presence-of-the-touch-keyboard)
+[Respond to the presence of the touch keyboard](/windows/uwp/design/input/respond-to-the-presence-of-the-touch-keyboard)

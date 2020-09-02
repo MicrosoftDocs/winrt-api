@@ -19,4 +19,4 @@ The ReportUpdated event is triggered by any change in status, charge rate, or po
 ## -examples
 
 ## -see-also
-[Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10))
+[Get battery information](/previous-versions/windows/apps/dn895210(v=win.10))

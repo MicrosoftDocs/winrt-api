@@ -44,4 +44,4 @@ The brush that provides the foreground of the [SettingsFlyout](settingsflyout.md
 ## -examples
 
 ## -see-also
-[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Use brushes](/windows/uwp/graphics/using-brushes)

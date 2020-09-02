@@ -15,7 +15,7 @@ Represents a video frame that includes the results of the scene analysis operati
 ## -remarks
 Get an instance of this class by handling the [SceneAnalysisEffect.SceneAnalyzed](sceneanalysiseffect_sceneanalyzed.md) event.
 
-For how-to guidance on using the **SceneAnalysisEffect**, see [Scene anlysis for MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/scene-analysis-for-media-capture).
+For how-to guidance on using the **SceneAnalysisEffect**, see [Scene anlysis for MediaCapture](/windows/uwp/audio-video-camera/scene-analysis-for-media-capture).
 
 ### Version history
 
@@ -26,4 +26,4 @@ For how-to guidance on using the **SceneAnalysisEffect**, see [Scene anlysis for
 ## -examples
 
 ## -see-also
-[IMediaFrame](../windows.media/imediaframe.md), [IClosable](../windows.foundation/iclosable.md), [Scene anlysis for MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/scene-analysis-for-media-capture)
+[IMediaFrame](../windows.media/imediaframe.md), [IClosable](../windows.foundation/iclosable.md), [Scene anlysis for MediaCapture](/windows/uwp/audio-video-camera/scene-analysis-for-media-capture)

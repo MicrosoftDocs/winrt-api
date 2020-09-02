@@ -19,7 +19,7 @@ The amount of luminosity that is visible through the surface where Acrylic is ap
 
 ## -remarks
 
-The TintLuminosityOpacity determines how much brightness, from the underlying pixels behind the Acrylic, to let through the blurred surface. A lower value means more brightness from the underlying pixels will be allowed through and a higher value means more brightness from the [TintColor](https://docs.microsoft.com/uwp/api/microsoft.ui.xaml.media.acrylicbrush.tintcolor?view=winui-2.2) property will be applied across the Acrylic surface.
+The TintLuminosityOpacity determines how much brightness, from the underlying pixels behind the Acrylic, to let through the blurred surface. A lower value means more brightness from the underlying pixels will be allowed through and a higher value means more brightness from the [TintColor](/uwp/api/microsoft.ui.xaml.media.acrylicbrush.tintcolor?view=winui-2.2) property will be applied across the Acrylic surface.
 
 TintLuminosityOpacity also helps balance any blacks or whites behind the Acrylic.
 

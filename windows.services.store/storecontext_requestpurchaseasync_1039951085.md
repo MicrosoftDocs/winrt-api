@@ -28,7 +28,7 @@ An asynchronous operation that, on successful completion, returns a [StorePurcha
 ## -exceptions
 ### System.Runtime.InteropServices.COMException
 
-If the **ErrorCode** property of the exception has the value 0x80070578 (ERROR_INVALID_WINDOW_HANDLE), this indicates that the method was not called on the UI thread. If you are calling this method in a desktop application that uses the Desktop Bridge, this can also indicate that you did not configure the [StoreContext](storecontext.md) object to specify which application window is the owner window for modal dialogs shown by this method. For more information, see [this article](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#desktop).
+If the **ErrorCode** property of the exception has the value 0x80070578 (ERROR_INVALID_WINDOW_HANDLE), this indicates that the method was not called on the UI thread. If you are calling this method in a desktop application that uses the Desktop Bridge, this can also indicate that you did not configure the [StoreContext](storecontext.md) object to specify which application window is the owner window for modal dialogs shown by this method. For more information, see [this article](/windows/uwp/monetize/in-app-purchases-and-trials#desktop).
 
 ## -remarks
 The Store ID for an app or add-on is available in [Partner Center](https://partner.microsoft.com/dashboard), and it is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the app or add-on.
@@ -36,4 +36,4 @@ The Store ID for an app or add-on is available in [Partner Center](https://partn
 ## -examples
 
 ## -see-also
-[RequestPurchaseAsync(String)](storecontext_requestpurchaseasync_1017170817.md), [Enable in-app purchases of apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/enable-in-app-purchases-of-apps-and-add-ons)
+[RequestPurchaseAsync(String)](storecontext_requestpurchaseasync_1017170817.md), [Enable in-app purchases of apps and add-ons](/windows/uwp/monetize/enable-in-app-purchases-of-apps-and-add-ons)

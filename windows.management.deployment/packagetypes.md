@@ -10,7 +10,7 @@ public enum Windows.Management.Deployment.PackageTypes : uint
 # PackageTypes
 
 ## -description
-Defines the types of [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) to be included in the result set of a query.
+Defines the types of [Package](/uwp/api/windows.applicationmodel.package) to be included in the result set of a query.
 
 ## -enum-fields
 ### -field None:0
@@ -51,5 +51,5 @@ Include all packages when you enumerate the package repository.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [FindPackagesForUserWithPackageTypes](/uwp/api/windows.management.deployment.packagemanager.findpackagesforuserwithpackagetypes), [FindPackagesWithPackageTypes](/uwp/api/windows.management.deployment.packagemanager.findpackageswithpackagetypes)

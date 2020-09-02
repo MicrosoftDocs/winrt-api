@@ -27,4 +27,4 @@ The [Image](surfaceimagesource.md) class also has an [ImageOpened](../windows.ui
 ## -examples
 
 ## -see-also
-[ImageFailed](bitmapimage_imagefailed.md), [Image control](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes)
+[ImageFailed](bitmapimage_imagefailed.md), [Image control](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes)

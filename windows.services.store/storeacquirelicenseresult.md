@@ -21,4 +21,4 @@ The [StoreContext.AcquireStoreLicenseForOptionalPackageAsync](storecontext_acqui
 ## -examples
 
 ## -see-also
-[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
+[Optional packages and related set authoring](/windows/uwp/packaging/optional-packages)

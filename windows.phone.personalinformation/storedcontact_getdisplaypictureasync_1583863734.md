@@ -13,14 +13,14 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessS
 Gets the display picture of a stored contact.
 
 ## -returns
-An asynchronous operation that returns an [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md) object on successful completion. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md). This is the image source file as a bitmap stream.
+An asynchronous operation that returns an [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md) object on successful completion. If you use [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md). This is the image source file as a bitmap stream.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md), [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
+[IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md), [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

@@ -17,9 +17,9 @@ The region of interest specifies the rectangular area of preview that functions 
 
 You can access the RegionsOfInterestControl for the capture device through the [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
 
-For how-to guidance for using the **RegionOfInterest** object, see [Effects for analyzing camera frames](https://docs.microsoft.com/windows/uwp/audio-video-camera/scene-analysis-for-media-capture).
+For how-to guidance for using the **RegionOfInterest** object, see [Effects for analyzing camera frames](/windows/uwp/audio-video-camera/scene-analysis-for-media-capture).
 
 ## -examples
 
 ## -see-also
-[RegionOfInterest](regionofinterest.md), [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md), [Effects for analyzing camera frames](https://docs.microsoft.com/windows/uwp/audio-video-camera/scene-analysis-for-media-capture)
+[RegionOfInterest](regionofinterest.md), [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md), [Effects for analyzing camera frames](/windows/uwp/audio-video-camera/scene-analysis-for-media-capture)

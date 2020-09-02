@@ -16,7 +16,7 @@ Retrieves the document properties of the item (like a file of folder).
 When this method completes successfully, it returns a [DocumentProperties](documentproperties.md) object.
 
 ## -remarks
-In JavaScript, use [then](https://docs.microsoft.com/previous-versions/windows/apps/br229728(v=win.10)) or [done](https://docs.microsoft.com/previous-versions/windows/apps/hh701079(v=win.10)) to specify handler functions that will capture and process the [documentProperties](documentproperties.md) object when it is returned.
+In JavaScript, use [then](/previous-versions/windows/apps/br229728(v=win.10)) or [done](/previous-versions/windows/apps/hh701079(v=win.10)) to specify handler functions that will capture and process the [documentProperties](documentproperties.md) object when it is returned.
 
 ## -examples
 

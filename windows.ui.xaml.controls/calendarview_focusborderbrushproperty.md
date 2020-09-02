@@ -20,4 +20,4 @@ The identifier for the [FocusBorderBrush](calendarview_focusborderbrush.md)   d
 ## -examples
 
 ## -see-also
-[FocusBorderBrush](calendarview_focusborderbrush.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[FocusBorderBrush](calendarview_focusborderbrush.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -26,7 +26,7 @@ Visual objects are thread-agile and not bound to the UI thread.
 
 ### Animatable properties
 
-The following properties can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate the property with a [CompositionAnimation](https://docs.microsoft.com/windows/uwp/composition/composition-animation).
+The following properties can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate the property with a [CompositionAnimation](/windows/uwp/composition/composition-animation).
 
 + [Size](visual_size.md)
 + [Offset](visual_offset.md)
@@ -90,4 +90,4 @@ Public ReadWrite Property IsHitTestVisible As bool
 
 ## -see-also
 
-[Composition Visual Tree Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/composition-visual-tree), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CompositionVisual)
+[Composition Visual Tree Overview](/en-us/windows/uwp/composition/composition-visual-tree), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CompositionVisual)

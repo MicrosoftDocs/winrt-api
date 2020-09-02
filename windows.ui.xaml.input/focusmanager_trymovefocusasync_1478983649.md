@@ -60,4 +60,4 @@ async void MoveFocus(WebView webView))
 
 ## -see-also
 
-[FocusManager.TryMoveFocusAsync(FocusNavigationDirection focusNavigationDirection)](focusmanager_trymovefocusasync_1020299191.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[FocusManager.TryMoveFocusAsync(FocusNavigationDirection focusNavigationDirection)](focusmanager_trymovefocusasync_1020299191.md), [Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)

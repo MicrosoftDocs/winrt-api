@@ -30,7 +30,7 @@ The NamedPolicyData for the policy specified by the area and name parameters.
 
 ## -remarks
 
-For a complete list of valid area names and policy names, see the Policy Tables in [Policy CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider).
+For a complete list of valid area names and policy names, see the Policy Tables in [Policy CSP](/windows/client-management/mdm/policy-configuration-service-provider).
 
 ## -see-also
 

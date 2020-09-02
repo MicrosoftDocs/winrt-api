@@ -30,4 +30,4 @@ When this method completes successfully, it returns a driving route contained in
 ## -examples
 
 ## -see-also
-[Display  routes and directions on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/routes-and-directions), [GetDrivingRouteAsync(Geopoint, Geopoint)](maproutefinder_getdrivingrouteasync_1041948120.md), [GetDrivingRouteAsync(Geopoint, Geopoint, MapRouteOptimization, MapRouteRestrictions)](maproutefinder_getdrivingrouteasync_1850077408.md), [GetDrivingRouteAsync(Geopoint, Geopoint, MapRouteOptimization, MapRouteRestrictions, Double)](maproutefinder_getdrivingrouteasync_2095433792.md)
+[Display  routes and directions on a map](/windows/uwp/maps-and-location/routes-and-directions), [GetDrivingRouteAsync(Geopoint, Geopoint)](maproutefinder_getdrivingrouteasync_1041948120.md), [GetDrivingRouteAsync(Geopoint, Geopoint, MapRouteOptimization, MapRouteRestrictions)](maproutefinder_getdrivingrouteasync_1850077408.md), [GetDrivingRouteAsync(Geopoint, Geopoint, MapRouteOptimization, MapRouteRestrictions, Double)](maproutefinder_getdrivingrouteasync_2095433792.md)

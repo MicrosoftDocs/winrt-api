@@ -12,7 +12,7 @@ public class MobileBroadbandRegistrationStateChangeTrigger : Windows.Application
 ## -description
 Represents a trigger that indicates when mobile broadband registration state has changed. For example, this trigger activates when a mobile device transitions to or from Roaming.
 
-This functionality is only available to mobile operator apps and UWP app given privileged access by mobile network operators. For more information, see [Mobile Broadband: ](https://docs.microsoft.com/windows-hardware/drivers/mobilebroadband/index).
+This functionality is only available to mobile operator apps and UWP app given privileged access by mobile network operators. For more information, see [Mobile Broadband: ](/windows-hardware/drivers/mobilebroadband/index).
 
 ## -remarks
 When this trigger activates, the [IBackgroundTaskInstance.TriggerDetails](ibackgroundtaskinstance_triggerdetails.md) for the background task is a [MobileBroadbandNetworkRegistrationStateChangeTriggerDetails](../windows.networking.networkoperators/mobilebroadbandnetworkregistrationstatechangetriggerdetails.md) instance.

@@ -21,4 +21,4 @@ Event data for the event.
 ## -examples
 
 ## -see-also
-[UIElement.DragEnter](../windows.ui.xaml/uielement_dragenter.md), [DragEventArgs](../windows.ui.xaml/drageventargs.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)
+[UIElement.DragEnter](../windows.ui.xaml/uielement_dragenter.md), [DragEventArgs](../windows.ui.xaml/drageventargs.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)

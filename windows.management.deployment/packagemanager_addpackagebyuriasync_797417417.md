@@ -5,7 +5,7 @@
 
 ## -description
 
-Adds a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) (the main package) and any additional dependency packages for the current user, using the specified deployment options.
+Adds a [Package](/uwp/api/windows.applicationmodel.package) (the main package) and any additional dependency packages for the current user, using the specified deployment options.
 
 ## -parameters
 
@@ -23,15 +23,15 @@ The status of the deployment request. The [DeploymentResult](deploymentresult.md
 
 ## -remarks
 
-This method simplifies the existing [AddPackageAsync](https://docs.microsoft.com/uwp/api/windows.management.deployment.packagemanager.addpackageasync) overloads by consolidating all of the deployment options into a single parameter. This method also supports the following features not available with the the [AddPackageAsync](https://docs.microsoft.com/uwp/api/windows.management.deployment.packagemanager.addpackageasync) overloads:
+This method simplifies the existing [AddPackageAsync](/uwp/api/windows.management.deployment.packagemanager.addpackageasync) overloads by consolidating all of the deployment options into a single parameter. This method also supports the following features not available with the the [AddPackageAsync](/uwp/api/windows.management.deployment.packagemanager.addpackageasync) overloads:
 
-* You can use the [ExternalLocationURI](addpackageoptions_externallocationuri.md) property of the *options* parameter to specify the URI of an external disk location outside of the MSIX package where the package manifest can reference application content. For more information about this scenario and a related code sample, see [Grant identity to non-packaged desktop apps](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
+* You can use the [ExternalLocationURI](addpackageoptions_externallocationuri.md) property of the *options* parameter to specify the URI of an external disk location outside of the MSIX package where the package manifest can reference application content. For more information about this scenario and a related code sample, see [Grant identity to non-packaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
 
-* You can use the [AllowUnsigned](addpackageoptions_allowunsigned.md) property of the *options* parameter to allow activation information from an executable in an unsigned package. For more information about this scenario and a related code sample, see [Hosted apps](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps).
+* You can use the [AllowUnsigned](addpackageoptions_allowunsigned.md) property of the *options* parameter to allow activation information from an executable in an unsigned package. For more information about this scenario and a related code sample, see [Hosted apps](/windows/uwp/launch-resume/hosted-apps).
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
-- [AddPackageOptions](addpackageoptions.md),[Grant identity to non-packaged desktop apps](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps),[Hosted apps](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps)
+- [Package](/uwp/api/windows.applicationmodel.package)
+- [AddPackageOptions](addpackageoptions.md),[Grant identity to non-packaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps),[Hosted apps](/windows/uwp/launch-resume/hosted-apps)
 
 ## -examples

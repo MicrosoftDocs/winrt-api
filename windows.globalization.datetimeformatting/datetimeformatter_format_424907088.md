@@ -21,7 +21,7 @@ The [DateTime](../windows.foundation/datetime.md) to be formatted.
 
 ### -param timeZoneId
 
-An identifier from the [IANA Time Zone Database](http://www.iana.org/time-zones) that identifies the time zone to use (for example, "Americas/Los_Angeles" for Pacific Time).
+An identifier from the [IANA Time Zone Database](https://www.iana.org/time-zones) that identifies the time zone to use (for example, "Americas/Los_Angeles" for Pacific Time).
 
 ## -returns
 
@@ -30,7 +30,7 @@ A string that represents the date, time, and time zone.
 ## -remarks
 
 > [!NOTE]
-> This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See [Prepare your application for the Japanese era change](https://docs.microsoft.com/windows/uwp/design/globalizing/japanese-era-change) for more information.
+> This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See [Prepare your application for the Japanese era change](/windows/uwp/design/globalizing/japanese-era-change) for more information.
 
 ## -examples
 

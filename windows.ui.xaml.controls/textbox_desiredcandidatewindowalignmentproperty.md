@@ -20,4 +20,4 @@ The identifier for the [DesiredCandidateWindowAlignment](textbox_desiredcandidat
 ## -examples
 
 ## -see-also
-[DesiredCandidateWindowAlignment](textbox_desiredcandidatewindowalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DesiredCandidateWindowAlignment](textbox_desiredcandidatewindowalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

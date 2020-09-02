@@ -20,4 +20,4 @@ The display name of a geographic location.
 ## -examples
 
 ## -see-also
-[Perform geocoding and reverse geocoding](https://docs.microsoft.com/windows/uwp/maps-and-location/geocoding)
+[Perform geocoding and reverse geocoding](/windows/uwp/maps-and-location/geocoding)

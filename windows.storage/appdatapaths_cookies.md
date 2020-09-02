@@ -13,7 +13,7 @@ public string Cookies { get; }
 Gets the path to the app's cookies.
 
 ## -property-value
-The full path to the app's cookies. This is the same folder that is used by the [Windows Internet](https://docs.microsoft.com/windows/desktop/WinInet/portal) API.
+The full path to the app's cookies. This is the same folder that is used by the [Windows Internet](/windows/desktop/WinInet/portal) API.
 
 ## -remarks
 

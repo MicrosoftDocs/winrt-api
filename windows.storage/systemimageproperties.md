@@ -10,7 +10,7 @@ public class SystemImageProperties : Windows.Storage.ISystemImageProperties
 # Windows.Storage.SystemImageProperties
 
 ## -description
-A helper object that provides indexing names for [Windows image file properties](https://docs.microsoft.com/windows/desktop/properties/image-bumper).
+A helper object that provides indexing names for [Windows image file properties](/windows/desktop/properties/image-bumper).
 
 ## -remarks
 

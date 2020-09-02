@@ -15,7 +15,7 @@ Signals when a headset is disconnected from the flight stick.
 
 ## -remarks
 
-For more information on detecting, tracking, and using headsets, see [Headset](https://docs.microsoft.com/windows/uwp/gaming/headset).
+For more information on detecting, tracking, and using headsets, see [Headset](/windows/uwp/gaming/headset).
 
 ## -see-also
 

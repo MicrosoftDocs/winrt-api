@@ -24,11 +24,11 @@ Use the [BackgroundDownloader](../windows.networking.backgroundtransfer/backgrou
 
 Use the [MediaSource.DownloadOperation](../windows.networking.backgroundtransfer/downloadoperation.md) property to get a reference to the download operation set with this method from the **MediaSource**. 
 
-You can use the [MediaBinder](mediabinder.md) class to defer associating the **DownloadOperation** with the **MediaSource** until the system preparing to play the item. For more information on late binding media content, see [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
+You can use the [MediaBinder](mediabinder.md) class to defer associating the **DownloadOperation** with the **MediaSource** until the system preparing to play the item. For more information on late binding media content, see [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ## -see-also
 [BackgroundDownloader](../windows.networking.backgroundtransfer/backgrounddownloader.md),[MediaBinder](mediabinder.md),
-[Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource)
+[Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource)
 
 ## -examples
 

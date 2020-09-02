@@ -65,4 +65,4 @@ End Sub
 
 
 ## -see-also
-[OnLaunched](application_onlaunched_859642554.md), [Handle app activation](https://docs.microsoft.com/windows/uwp/launch-resume/activate-an-app), [CoreWindow](../windows.ui.core/corewindow.md)
+[OnLaunched](application_onlaunched_859642554.md), [Handle app activation](/windows/uwp/launch-resume/activate-an-app), [CoreWindow](../windows.ui.core/corewindow.md)

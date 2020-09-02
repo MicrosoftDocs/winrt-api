@@ -19,4 +19,4 @@ The CompositionEasingFunction class is the base class for easing functions that 
 ## -examples
 
 ## -see-also
-[Composition Animations Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/composition-animation), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

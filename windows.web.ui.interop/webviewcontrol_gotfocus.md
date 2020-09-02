@@ -11,7 +11,7 @@ public event TypedEventHandler GotFocus<WebViewControl,  object>
 # Windows.Web.UI.Interop.WebViewControl.GotFocus
 
 ## -description
-Informs your app when the [WebViewControl](https://docs.microsoft.com/uwp/api/windows.web.ui.interop.webviewcontrol) receives focus (due to the user clicking inside/outside the WebViewControl). Use in combination with the [LostFocus]() event and programmatic focus changes using the [WebViewControl.MoveFocus](https://docs.microsoft.com/uwp/api/windows.web.ui.interop.webviewcontrol.movefocus) method.
+Informs your app when the [WebViewControl](/uwp/api/windows.web.ui.interop.webviewcontrol) receives focus (due to the user clicking inside/outside the WebViewControl). Use in combination with the [LostFocus]() event and programmatic focus changes using the [WebViewControl.MoveFocus](/uwp/api/windows.web.ui.interop.webviewcontrol.movefocus) method.
 
 ## -remarks
 

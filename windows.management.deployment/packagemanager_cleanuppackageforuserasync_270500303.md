@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Management.Deploym
 # Windows.Management.Deployment.PackageManager.CleanupPackageForUserAsync
 
 ## -description
-Cleans up a specified [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) for a specified user. Used to cleanup packages installed for a user after their user profile is deleted.
+Cleans up a specified [Package](/uwp/api/windows.applicationmodel.package) for a specified user. Used to cleanup packages installed for a user after their user profile is deleted.
 
 ## -parameters
 ### -param packageName
@@ -29,7 +29,7 @@ The app binaries are not cleaned up unless the app is installed for has no other
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [Deploy Roaming User Profiles](XREF:TODO:65840ed4-02af-49fc-a99d-292a4b50dfd4)
 
 ## -capabilities

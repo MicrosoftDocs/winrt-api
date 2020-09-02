@@ -16,7 +16,7 @@ Asynchronously retrieves blobs from the container.
 ## -parameters
 ### -param blobsToRead
 
-Type: **IIterable\<;String>;** \[JavaScript/C++\] | [System.Collections.Generic.IEnumerable\<;String>;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1?redirectedfrom=MSDN) \[.NET\]
+Type: **IIterable\<;String>;** \[JavaScript/C++\] | [System.Collections.Generic.IEnumerable\<;String>;](/dotnet/api/system.collections.generic.ienumerable-1?redirectedfrom=MSDN) \[.NET\]
 
 String names of the blobs to read
 

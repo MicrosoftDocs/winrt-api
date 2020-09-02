@@ -19,7 +19,7 @@ Here is the sequence of steps that enables an app to share a file with another a
 + The source app calls the [AddFile](sharedstorageaccessmanager_addfile_731286892.md) method to get the sharing token that it passes to the target app, which it launches with a Uri.
 + The target app calls the [RedeemTokenForFileAsync](sharedstorageaccessmanager_redeemtokenforfileasync_2095026872.md) method to get the shared file.
 + Optionally, the source app can call the [RemoveFile](sharedstorageaccessmanager_removefile_245169084.md) method to revoke a token that it obtained previously by calling the [AddFile](sharedstorageaccessmanager_addfile_731286892.md) method.
-For more info about Uri activation, see [Launch the default app for a URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app).
+For more info about Uri activation, see [Launch the default app for a URI](/windows/uwp/launch-resume/launch-default-app).
 
 The use of the SharedStorageAccessManager class and of sharing tokens is subject to the following requirements and restrictions.
 

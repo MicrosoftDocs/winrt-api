@@ -11,11 +11,11 @@ public string Language { get; }
 
 ## -description
 
-Gets the normalized [BCP-47 language tag](http://tools.ietf.org/html/bcp47) of the speech synthesis engine (voice).
+Gets the normalized [BCP-47 language tag](https://tools.ietf.org/html/bcp47) of the speech synthesis engine (voice).
 
 ## -property-value
 
-The normalized [BCP-47 language tag](http://tools.ietf.org/html/bcp47).
+The normalized [BCP-47 language tag](https://tools.ietf.org/html/bcp47).
 
 ## -remarks
 
@@ -23,4 +23,4 @@ The normalized [BCP-47 language tag](http://tools.ietf.org/html/bcp47).
 
 ## -see-also
 
-[Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)
+[Speech interactions](/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

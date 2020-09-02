@@ -5,7 +5,7 @@
 
 ## -description
 
-Gets or sets a value that indicates whether to stage the [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) in place.
+Gets or sets a value that indicates whether to stage the [Package](/uwp/api/windows.applicationmodel.package) in place.
 
 ## -property-value
 
@@ -17,7 +17,7 @@ This property is useful for notifying the system to prepare for app registration
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [RegisterPackageOptions][registerpackageoptions.md]
 
 ## -examples

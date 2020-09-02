@@ -19,7 +19,7 @@ An array of [ConnectionProfile](connectionprofile.md) objects.
 ## -remarks
 The following example demonstrates how to retrieve a [ConnectionProfile](connectionprofile.md). The function calls [getConnectionProfiles](networkinformation_getinternetconnectionprofile_255647281.md) to retrieve all available connections on a device and display using a list. Alternatively, your app can call [getInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md) to retrieve the [ConnectionProfile](connectionprofile.md) representing the connection currently used for Internet connectivity.
 
-**Note** For the implementation of the getConnectionProfileInfo method in the code below, and for additional examples of how [NetworkInformation](networkinformation.md) class methods are implemented to retrieve connection profiles, see [Quickstart: Retrieving network connection information](https://docs.microsoft.com/previous-versions/windows/apps/hh452990(v=win.10)).
+**Note** For the implementation of the getConnectionProfileInfo method in the code below, and for additional examples of how [NetworkInformation](networkinformation.md) class methods are implemented to retrieve connection profiles, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
 
 ```javascript
 function DisplayConnectionProfileList() {

@@ -13,7 +13,7 @@ public int StyleId { get; }
 Gets the identifier for a visual style of an element in a document.
 
 ## -property-value
-The style identifier. For a list of possible values, see [Style Identifiers](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-style-identifiers).
+The style identifier. For a list of possible values, see [Style Identifiers](/windows/desktop/WinAuto/uiauto-style-identifiers).
 
 ## -remarks
 

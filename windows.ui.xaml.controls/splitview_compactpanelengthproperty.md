@@ -20,4 +20,4 @@ The identifier for the [CompactPaneLength](splitview_compactpanelength.md)  dep
 ## -examples
 
 ## -see-also
-[CompactPaneLength](splitview_compactpanelength.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CompactPaneLength](splitview_compactpanelength.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

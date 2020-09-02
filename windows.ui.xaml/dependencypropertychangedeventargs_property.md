@@ -34,4 +34,4 @@ private static void OnGravityPropertiesChanged(DependencyObject d, DependencyPro
 ## -examples
 
 ## -see-also
-[Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

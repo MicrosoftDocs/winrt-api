@@ -20,7 +20,7 @@ A stream containing the image data.
 ## -examples
 
 ## -see-also
-[Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
+[Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

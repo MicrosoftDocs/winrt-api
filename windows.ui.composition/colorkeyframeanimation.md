@@ -47,4 +47,4 @@ void ColorAnimation(SpriteVisual visual)
 
 
 ## -see-also
-[Composition Animations Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/composition-animation), [KeyFrameAnimation](keyframeanimation.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation), [KeyFrameAnimation](keyframeanimation.md), [IClosable](../windows.foundation/iclosable.md)

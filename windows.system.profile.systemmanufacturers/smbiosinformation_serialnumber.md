@@ -20,7 +20,7 @@ The SerialNumber property securely retrieves the serial number from the SMBIOS f
 For a UWP app to access the serial number,
 the app must possess the `smbios` capability,
 or the app must be designated as a
-[Privileged App](https://docs.microsoft.com/windows-hardware/drivers/devapps/step-2--create-device-metadata)
+[Privileged App](/windows-hardware/drivers/devapps/step-2--create-device-metadata)
 by the system manufacturer.
 
 System manufacturers typically use the SerialNumber property to aid in identification of devices for servicing and troubleshooting operations.

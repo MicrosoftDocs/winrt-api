@@ -18,7 +18,7 @@ The application settings container.
 ## -remarks
 For both LocalSettings and [RoamingSettings](applicationdata_roamingsettings.md), the name of each setting can be 255 characters in length at most. Each setting can be up to 8K bytes in size and each composite setting can be up to 64K bytes in size.
 
-The [Windows Runtime data types](https://docs.microsoft.com/windows/desktop/WinRT/base-data-types) are supported for app settings.
+The [Windows Runtime data types](/windows/desktop/WinRT/base-data-types) are supported for app settings.
 
 ## -examples
 Use the LocalSettings property to get the settings in an [ApplicationDataContainer](applicationdatacontainer.md) object. Use the [ApplicationDataContainer.Values](applicationdatacontainer_values.md) property to access the settings in the `localSettings` container. This example creates and reads a setting named `exampleSetting`.
@@ -139,4 +139,4 @@ localSettings.Values.Remove("exampleSetting")
 ```
 
 ## -see-also
-[Quickstart: Local application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data), [Content indexer sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer)
+[Quickstart: Local application data (JavaScript)](/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data), [Content indexer sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer)

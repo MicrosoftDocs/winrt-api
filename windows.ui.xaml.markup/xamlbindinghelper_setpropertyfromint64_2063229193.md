@@ -10,7 +10,7 @@ public void SetPropertyFromInt64(System.Object dependencyObject, Windows.UI.Xaml
 # Windows.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromInt64
 
 ## -description
-Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN) value.
+Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Int64](/dotnet/api/system.int64?redirectedfrom=MSDN) value.
 
 ## -parameters
 ### -param dependencyObject

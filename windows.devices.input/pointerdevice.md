@@ -19,7 +19,7 @@ The [Device Capabilities Sample](https://github.com/microsoftarchive/msdn-code-g
 
 <!-- confirmed -->
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 The following code shows how to use PointerDevice.
@@ -187,4 +187,4 @@ void SDKSample::DeviceCaps::Pointer::PointerGetSettings_Click(Platform::Object^ 
 ## -see-also
 
 - [Windows.Devices.Input](windows_devices_input.md)
-- [Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices)
+- [Quickstart: Identifying input devices](/windows/uwp/design/input/identify-input-devices)

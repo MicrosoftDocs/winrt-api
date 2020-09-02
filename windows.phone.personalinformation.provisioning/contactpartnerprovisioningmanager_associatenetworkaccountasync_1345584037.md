@@ -23,7 +23,7 @@ The network name.
 The account ID.
 
 ## -returns
-An asynchronous action. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is **void**.
+An asynchronous action. If you use [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is **void**.
 
 ## -remarks
 

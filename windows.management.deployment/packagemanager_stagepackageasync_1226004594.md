@@ -10,7 +10,7 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.StagePacka
 # Windows.Management.Deployment.PackageManager.StagePackageAsync
 
 ## -description
-Stages a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) to the system without registering it.
+Stages a [Package](/uwp/api/windows.applicationmodel.package) to the system without registering it.
 
 ## -parameters
 ### -param packageUri
@@ -40,4 +40,4 @@ The status of the deployment request. The [DeploymentResult](deploymentresult.md
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)

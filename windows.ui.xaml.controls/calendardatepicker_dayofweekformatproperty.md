@@ -20,4 +20,4 @@ The identifier for the [DayOfWeekFormat](calendardatepicker_dayofweekformat.md) 
 ## -examples
 
 ## -see-also
-[DayOfWeekFormat](calendardatepicker_dayofweekformat.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DayOfWeekFormat](calendardatepicker_dayofweekformat.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -21,7 +21,7 @@ Provides event data for the [Invoked](keyboardaccelerator_invoked.md) event.
 | 1803 | 17134 | KeyboardAccelerator |
 
 ## -see-also
-[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
+[Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

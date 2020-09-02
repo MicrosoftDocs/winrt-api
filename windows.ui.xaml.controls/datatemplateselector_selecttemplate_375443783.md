@@ -27,4 +27,4 @@ The template to use for the given item and/or container.
 ## -examples
 
 ## -see-also
-[SelectTemplate(Object)](datatemplateselector_selecttemplate_737484049.md), [Adding ListView and GridView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780618(v=win.10))
+[SelectTemplate(Object)](datatemplateselector_selecttemplate_737484049.md), [Adding ListView and GridView controls](/previous-versions/windows/apps/hh780618(v=win.10))

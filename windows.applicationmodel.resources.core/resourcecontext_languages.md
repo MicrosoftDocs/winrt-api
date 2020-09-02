@@ -13,10 +13,10 @@ public Windows.Foundation.Collections.IVectorView<string> Languages { get;  set;
 Gets or sets the language qualifier for this context.
 
 ## -property-value
-A collection of [BCP-47](http://tools.ietf.org/html/bcp47) language tags.
+A collection of [BCP-47](https://tools.ietf.org/html/bcp47) language tags.
 
 ## -remarks
-The language qualifier is a list of valid [BCP-47](http://tools.ietf.org/html/bcp47) tags. The default value for the language qualifier is drawn from the app-specific language setting and the user language profile.
+The language qualifier is a list of valid [BCP-47](https://tools.ietf.org/html/bcp47) tags. The default value for the language qualifier is drawn from the app-specific language setting and the user language profile.
 
 The language qualifier value is represented as a string containing a semicolon-delimited list. The Languages property wraps it in a container for convenience.
 
@@ -26,4 +26,4 @@ The language qualifier value is represented as a string containing a semicolon-d
 ## -examples
 
 ## -see-also
-[BCP-47 language tags](http://tools.ietf.org/html/bcp47)
+[BCP-47 language tags](https://tools.ietf.org/html/bcp47)

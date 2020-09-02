@@ -29,4 +29,4 @@ A value of the enumeration. The default is **Auto**.
 
 ## -see-also
 
-[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
+[Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators)

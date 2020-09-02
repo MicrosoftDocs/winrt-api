@@ -20,7 +20,7 @@ A [MediaCaptureVideoProfile](../windows.media.capture/mediacapturevideoprofile.m
 
 ## -see-also
 [MediaCaptureVideoProfile](../windows.media.capture/mediacapturevideoprofile.md)
-[Discover and select camera capabilities with camera profiles](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera-profiles)
+[Discover and select camera capabilities with camera profiles](/windows/uwp/audio-video-camera/camera-profiles)
 
 
 

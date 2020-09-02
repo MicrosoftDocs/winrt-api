@@ -142,5 +142,5 @@ This example uses a simple Matrix3D matrix to transform the image in the X and Y
 [!code-csharp[Matrix3DProjectionSample_code](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml.cs#SnippetMatrix3DProjectionSample_code)]
 
 ## -see-also
-[Matrix3DHelper](matrix3dhelper.md), [Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](https://docs.microsoft.com/windows/uwp/graphics/3-d-perspective-effects)
-projection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](https://docs.microsoft.com/windows/uwp/graphics/3-d-perspective-effects)
+[Matrix3DHelper](matrix3dhelper.md), [Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](/windows/uwp/graphics/3-d-perspective-effects)
+projection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](/windows/uwp/graphics/3-d-perspective-effects)

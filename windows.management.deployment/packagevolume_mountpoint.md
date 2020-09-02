@@ -22,4 +22,4 @@ This is a cached value. It may not represent the current state of the device or 
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)

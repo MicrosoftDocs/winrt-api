@@ -11,7 +11,7 @@ public Windows.UI.ApplicationSettings.SettingsPaneCommandsRequest Request { get;
 
 ## -description
 > [!NOTE]
-> [SettingsPaneCommandsRequestedEventArgs](settingspanecommandsrequestedeventargs.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](https://docs.microsoft.com/windows/uwp/app-settings/guidelines-for-app-settings).
+> [SettingsPaneCommandsRequestedEventArgs](settingspanecommandsrequestedeventargs.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](/windows/uwp/app-settings/guidelines-for-app-settings).
 
 An instance of [SettingsPaneCommandsRequest](settingspanecommandsrequest.md) that is made available during the [CommandsRequested](settingspane_commandsrequested.md) event.
 

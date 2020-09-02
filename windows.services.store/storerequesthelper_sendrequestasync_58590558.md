@@ -26,9 +26,9 @@ A JSON-formatted string that contains the arguments to pass to the request.
 An asynchronous operation that, on successful completion, returns a [StoreSendRequestResult](storesendrequestresult.md) object that provides status and error info about the request.
 
 ## -remarks
-This method is intended to be used to send requests to the Windows Store for operations that do not yet have a corresponding API available in the Windows SDK. For more information about using this method, including details about the requests that are currently available, see [Send requests to the Store](https://docs.microsoft.com/windows/uwp/monetize/send-requests-to-the-store).
+This method is intended to be used to send requests to the Windows Store for operations that do not yet have a corresponding API available in the Windows SDK. For more information about using this method, including details about the requests that are currently available, see [Send requests to the Store](/windows/uwp/monetize/send-requests-to-the-store).
 
 ## -examples
 
 ## -see-also
-[Send requests to the Store](https://docs.microsoft.com/windows/uwp/monetize/send-requests-to-the-store)
+[Send requests to the Store](/windows/uwp/monetize/send-requests-to-the-store)

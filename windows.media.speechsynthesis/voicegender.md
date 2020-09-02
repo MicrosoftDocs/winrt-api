@@ -48,4 +48,4 @@ using (SpeechSynthesizer synthesizer = new SpeechSynthesizer())
 
 ## -see-also
 
-[Windows.Media.SpeechSynthesis](windows_media_speechsynthesis.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)
+[Windows.Media.SpeechSynthesis](windows_media_speechsynthesis.md), [Speech interactions](/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

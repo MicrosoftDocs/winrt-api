@@ -21,4 +21,4 @@ This property always returns 1 if an instance of the Microsoft Visual Studio sim
 ## -examples
 
 ## -see-also
-[Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices)
+[Quickstart: Identifying input devices](/windows/uwp/design/input/identify-input-devices)

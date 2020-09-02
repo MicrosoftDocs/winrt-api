@@ -35,4 +35,4 @@ The FlowDirection enumeration is used as a value by the [FrameworkElement.FlowDi
 ## -examples
 
 ## -see-also
-[FrameworkElement.FlowDirection](frameworkelement_flowdirection.md), [How to adjust layout and fonts for various languages, and support RTL layouts](https://docs.microsoft.com/previous-versions/windows/apps/hh967760(v=win.10))
+[FrameworkElement.FlowDirection](frameworkelement_flowdirection.md), [How to adjust layout and fonts for various languages, and support RTL layouts](/previous-versions/windows/apps/hh967760(v=win.10))

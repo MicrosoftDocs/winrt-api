@@ -16,7 +16,7 @@ Indicates whether the app terminates when the last window is closed.
 **true** if the app terminates when the last open window is closed; **false** if it doesn't terminate.
 
 ## -remarks
-For info about using this property, see [App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle).
+For info about using this property, see [App lifecycle](/windows/uwp/launch-resume/app-lifecycle).
 
 This is a static member of the [ApplicationView](applicationview.md) class. For JavaScript this means that it is a method of the [ApplicationView](applicationview.md) class, not of the window object that [getForCurrentView](applicationview_getforcurrentview_1363600702.md) creates.
 

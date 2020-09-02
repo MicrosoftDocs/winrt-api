@@ -13,7 +13,7 @@ public IVectorView<Geovisit> GeovisitTriggerDetails.ReadReports()
 Gets a list of Visit-related state changes that the user has logged since they were last queried.
 
 ## -returns
-An [IVectorView](https://docs.microsoft.com/uwp/api/windows.foundation.collections.ivectorview_t_) of [Geovisit](Geovisit.md) instances representing the user's Visit-related state changes.
+An [IVectorView](/uwp/api/windows.foundation.collections.ivectorview_t_) of [Geovisit](Geovisit.md) instances representing the user's Visit-related state changes.
 
 ## -remarks
 

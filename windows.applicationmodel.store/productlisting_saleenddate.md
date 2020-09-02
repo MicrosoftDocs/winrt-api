@@ -20,4 +20,4 @@ The date and time that the add-on's sale period will end.
 ## -examples
 
 ## -see-also
-[Put apps and add-ons on sale](https://docs.microsoft.com/windows/uwp/publish/put-apps-and-add-ons-on-sale)
+[Put apps and add-ons on sale](/windows/uwp/publish/put-apps-and-add-ons-on-sale)

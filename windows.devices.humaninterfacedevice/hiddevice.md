@@ -16,9 +16,9 @@ Represents a top-level collection and the corresponding device.
 
 ## -remarks
 
-For more information about using this class, including limitations, see [Supporting human interface devices (HID)](https://docs.microsoft.com/previous-versions/windows/apps/dn263140(v=win.10)) and [Custom HID device sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/CustomHidDeviceAccess).
+For more information about using this class, including limitations, see [Supporting human interface devices (HID)](/previous-versions/windows/apps/dn263140(v=win.10)) and [Custom HID device sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/CustomHidDeviceAccess).
 
-Apps that use this class to access a HID device must include specific **DeviceCapability** data in the **Capabilities** node of its manifest. This data identifies the device and its purpose (or function). For more information, see [How to specify device capabilities for HID](https://docs.microsoft.com/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-hid).
+Apps that use this class to access a HID device must include specific **DeviceCapability** data in the **Capabilities** node of its manifest. This data identifies the device and its purpose (or function). For more information, see [How to specify device capabilities for HID](/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-hid).
 
 ## -examples
 
@@ -119,4 +119,4 @@ namespace HIDdeviceTest
 
 ## -see-also
 
-[How to specify device capabilities for HID](https://docs.microsoft.com/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-hid), [Supporting human interface devices (HID)](https://docs.microsoft.com/previous-versions/windows/apps/dn263140(v=win.10)), [Custom HID device sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/CustomHidDeviceAccess)
+[How to specify device capabilities for HID](/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-hid), [Supporting human interface devices (HID)](/previous-versions/windows/apps/dn263140(v=win.10)), [Custom HID device sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/CustomHidDeviceAccess)

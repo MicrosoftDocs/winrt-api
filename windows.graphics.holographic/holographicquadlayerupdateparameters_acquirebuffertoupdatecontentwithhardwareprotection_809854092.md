@@ -22,7 +22,7 @@ This method call will fail unless [CanAcquireWithHardwareProtection](holographic
 
 To avoid repeated texture load costs, applications may load a single quad layer buffer containing a texture atlas and then call [UpdateViewport](holographicquadlayerupdateparameters_updateviewport_1003624236.md) to select a subset rectangle within the texture to display.
 
-This method will make use of the Direct3D device you provided to the [HolographicSpace](holographicspace.md).  If you've specified the [D3D11_CREATE_DEVICE_SINGLETHREADED](https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag) flag on your device, be sure to call this method from your single Direct3D thread to avoid undefined behavior.
+This method will make use of the Direct3D device you provided to the [HolographicSpace](holographicspace.md).  If you've specified the [D3D11_CREATE_DEVICE_SINGLETHREADED](/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag) flag on your device, be sure to call this method from your single Direct3D thread to avoid undefined behavior.
 
 To enable hardware content protection for the primary layer's buffer, set [HolographicCamera.IsHardwareContentProtectionEnabled](holographiccamera_ishardwarecontentprotectionenabled.md) to true.
 

@@ -27,4 +27,4 @@ One scenario for UpdateLayout is when you have linked containers like [RichTextB
 ## -examples
 
 ## -see-also
-[Arrange](uielement_arrange_958316931.md), [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [InvalidateArrange](uielement_invalidatearrange_2012947484.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Arrange](uielement_arrange_958316931.md), [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [InvalidateArrange](uielement_invalidatearrange_2012947484.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

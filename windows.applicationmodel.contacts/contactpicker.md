@@ -20,7 +20,7 @@ The ContactPicker class enables users to select one or more contacts from any ap
 > [!NOTE]
 > Apps that were compiled for Windows 8 but running on Windows 8.1 may encounter runtime errors without compile-time errors.
 
-For info about how to select contacts, see [Selecting contacts](https://docs.microsoft.com/windows/uwp/contacts-and-calendar/selecting-contacts) and [Quickstart: Selecting user contacts](https://docs.microsoft.com/previous-versions/windows/apps/jj153343(v=win.10)).
+For info about how to select contacts, see [Selecting contacts](/windows/uwp/contacts-and-calendar/selecting-contacts) and [Quickstart: Selecting user contacts](/previous-versions/windows/apps/jj153343(v=win.10)).
 
 ### Version history
 

@@ -20,4 +20,4 @@ True if the current product SKU is a recurring billing subscription; otherwise, 
 ## -examples
 
 ## -see-also
-[Enable subscription add-ons for your app](https://docs.microsoft.com/windows/uwp/monetize/enable-subscription-add-ons-for-your-app)
+[Enable subscription add-ons for your app](/windows/uwp/monetize/enable-subscription-add-ons-for-your-app)

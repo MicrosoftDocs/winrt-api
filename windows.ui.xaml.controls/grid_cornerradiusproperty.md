@@ -20,4 +20,4 @@ The identifier for the [CornerRadius](grid_cornerradius.md) dependency property.
 ## -examples
 
 ## -see-also
-[CornerRadius](grid_cornerradius.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CornerRadius](grid_cornerradius.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

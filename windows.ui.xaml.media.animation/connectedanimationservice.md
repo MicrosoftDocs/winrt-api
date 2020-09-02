@@ -75,4 +75,4 @@ protected override void OnNavigatedTo(NavigationEventArgs e)
 
 
 ## -see-also
-[Connected animation overview](https://docs.microsoft.com/windows/uwp/design/motion/connected-animation)
+[Connected animation overview](/windows/uwp/design/motion/connected-animation)

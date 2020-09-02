@@ -19,7 +19,7 @@ The scenario that IGetActivationFactory supports is if you are defining Windows 
 
 ### Notes to implementers
 
-The implementation of a type that supports this interface must have a method called [GetActivationFactory](igetactivationfactory_getactivationfactory_505965722.md) that takes an Activation ID (ACID) as a parameter and returns a type that implements [IActivationFactory](https://docs.microsoft.com/windows/desktop/api/activation/nn-activation-iactivationfactory).
+The implementation of a type that supports this interface must have a method called [GetActivationFactory](igetactivationfactory_getactivationfactory_505965722.md) that takes an Activation ID (ACID) as a parameter and returns a type that implements [IActivationFactory](/windows/desktop/api/activation/nn-activation-iactivationfactory).
 
 ## -examples
 

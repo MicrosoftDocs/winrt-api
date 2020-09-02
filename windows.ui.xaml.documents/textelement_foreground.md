@@ -45,4 +45,4 @@ Setting Foreground has no visible effect for [LineBreak](linebreak.md) or [Inlin
 ## -examples
 
 ## -see-also
-[Quickstart: Displaying text](https://docs.microsoft.com/previous-versions/windows/apps/hh700392(v=win.10)), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Quickstart: Displaying text](/previous-versions/windows/apps/hh700392(v=win.10)), [Use brushes](/windows/uwp/graphics/using-brushes)

@@ -20,4 +20,4 @@ The identifier for the [FirstOfMonthLabelFontStyle](calendarview_firstofmonthlab
 ## -examples
 
 ## -see-also
-[FirstOfMonthLabelFontStyle](calendarview_firstofmonthlabelfontstyle.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[FirstOfMonthLabelFontStyle](calendarview_firstofmonthlabelfontstyle.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

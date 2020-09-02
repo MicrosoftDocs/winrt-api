@@ -15,7 +15,7 @@ Provides information about an activated event that fires after the app was suspe
 ## -remarks
 You access a FileOpenPickerContinuationEventArgs object when you implement an event handler that responds to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events when [ActivationKind](activationkind.md) is **PickFileContinuation**.
 
-For an example that uses the FileOpenPickerContinuationEventArgs class, see [How to continue your Windows Phone 8.x app after calling an AndContinue method](https://docs.microsoft.com/previous-versions/windows/apps/dn631755(v=win.10)).
+For an example that uses the FileOpenPickerContinuationEventArgs class, see [How to continue your Windows Phone 8.x app after calling an AndContinue method](/previous-versions/windows/apps/dn631755(v=win.10)).
 
 ### Version history
 

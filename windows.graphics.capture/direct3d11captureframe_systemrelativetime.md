@@ -11,7 +11,7 @@ public TimeSpan SystemRelativeTime { get; }
 
 ## -description
 
-The [QPC (Query Performance Counter)](https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter) time at which the compositor rendered the frame.
+The [QPC (Query Performance Counter)](/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter) time at which the compositor rendered the frame.
 
 ## -property-value
 

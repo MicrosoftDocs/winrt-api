@@ -23,7 +23,7 @@ The transaction ID for the purchase of the consumable add-on.
 A [FulfillmentResult](fulfillmentresult.md) value that indicates the fulfillment status for the consumable add-on.
 
 ## -remarks
-The product ID is the string that the app uses to identify the add-on. You enter the product ID when [submitting your add-on](https://docs.microsoft.com/windows/uwp/publish/set-your-add-on-product-id) in [Partner Center](https://partner.microsoft.com/dashboard), where it is associated with the description, price tier and lifetime. For more information, see [How to use product IDs for add-ons in your code](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#how-to-use-product-ids-for-add-ons-in-your-code).
+The product ID is the string that the app uses to identify the add-on. You enter the product ID when [submitting your add-on](/windows/uwp/publish/set-your-add-on-product-id) in [Partner Center](https://partner.microsoft.com/dashboard), where it is associated with the description, price tier and lifetime. For more information, see [How to use product IDs for add-ons in your code](/windows/uwp/monetize/in-app-purchases-and-trials#how-to-use-product-ids-for-add-ons-in-your-code).
 
 A unique transaction ID is required for each instance of a consumable product that has been purchased more than once.
 

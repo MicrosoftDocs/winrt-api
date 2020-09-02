@@ -11,7 +11,7 @@ public struct Thickness
 
 ## -description
 
-Describes the thickness of a frame around a rectangle. Four [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) values describe the **Left**, **Top**, **Right**, and **Bottom** sides of the rectangle, respectively.
+Describes the thickness of a frame around a rectangle. Four [Double](/dotnet/api/system.double?redirectedfrom=MSDN) values describe the **Left**, **Top**, **Right**, and **Bottom** sides of the rectangle, respectively.
 
 ## -xaml-syntax
 
@@ -100,4 +100,4 @@ This table shows the equivalent methods available in .NET and C++.
 
 ## -see-also
 
-[Border](../windows.ui.xaml.controls/border.md), [Control](../windows.ui.xaml.controls/control.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Border](../windows.ui.xaml.controls/border.md), [Control](../windows.ui.xaml.controls/control.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

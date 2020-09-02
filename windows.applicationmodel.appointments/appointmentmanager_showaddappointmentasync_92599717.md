@@ -27,7 +27,7 @@ When you call this method, the Appointment provider app displays in a light-dism
 
 > On Windows Phone, this method behaves the same as [ShowEditNewAppointmentAsync](appointmentmanager_showeditnewappointmentasync_372535555.md), in that the fields in the Add Appointment UI are editable by the user.
 
-For info about how to manage appointments, see [Manage appointments](https://docs.microsoft.com/windows/uwp/contacts-and-calendar/managing-appointments).
+For info about how to manage appointments, see [Manage appointments](/windows/uwp/contacts-and-calendar/managing-appointments).
 
 ## -examples
 

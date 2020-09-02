@@ -43,4 +43,4 @@ The brush used to highlight the selected text. The default is a null brush from 
 
 ## -see-also
 
-[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Use brushes](/windows/uwp/graphics/using-brushes)

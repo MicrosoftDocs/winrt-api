@@ -20,4 +20,4 @@ The identifier for the [BlackoutForeground](calendarview_blackoutforeground.md) 
 ## -examples
 
 ## -see-also
-[BlackoutForeground](calendarview_blackoutforeground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[BlackoutForeground](calendarview_blackoutforeground.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

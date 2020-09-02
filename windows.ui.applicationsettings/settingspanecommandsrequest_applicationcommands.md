@@ -11,7 +11,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.ApplicationSettings.Set
 
 ## -description
 > [!NOTE]
-> [SettingsPaneCommandsRequest](settingspanecommandsrequest.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](https://docs.microsoft.com/windows/uwp/app-settings/guidelines-for-app-settings).
+> [SettingsPaneCommandsRequest](settingspanecommandsrequest.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](/windows/uwp/app-settings/guidelines-for-app-settings).
 
 A vector that is available during the [CommandsRequested](settingspane_commandsrequested.md) event. Append [SettingsCommand](settingscommand.md) objects to it to make them available to the [SettingsPane](settingspane.md)UI.
 

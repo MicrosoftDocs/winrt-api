@@ -17,7 +17,7 @@ Rotates the video preview stream.
 The amount by which to rotate the video.
 
 ## -remarks
-For how-to guidance on handling orientation when using the camera, see [Handle device orientation with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/handle-device-orientation-with-mediacapture).
+For how-to guidance on handling orientation when using the camera, see [Handle device orientation with MediaCapture](/windows/uwp/audio-video-camera/handle-device-orientation-with-mediacapture).
 
 ## -examples
 

@@ -20,7 +20,7 @@ The location of the mutable folder for the installed package.
 
 ## -remarks
 
-If the app is declared to be mutable by including the [windows.mutablePackageDirectories extension](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) in its package manifest, it exposes a folder under C:\Program Files\ModifiableWindowsApps where the contents of the application's install folder are projected so that users can modify the installation files. This folder is called the *mutable folder*. The mutable folder feature is currently available only for certain types of desktop PC games that are published by Microsoft and our partners, and it enables these types of games to support mods.
+If the app is declared to be mutable by including the [windows.mutablePackageDirectories extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) in its package manifest, it exposes a folder under C:\Program Files\ModifiableWindowsApps where the contents of the application's install folder are projected so that users can modify the installation files. This folder is called the *mutable folder*. The mutable folder feature is currently available only for certain types of desktop PC games that are published by Microsoft and our partners, and it enables these types of games to support mods.
 
 ## -see-also
 

@@ -45,4 +45,4 @@ Because the default is **null**, you almost always should define a value for Fil
 ## -examples
 
 ## -see-also
-[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Use brushes](/windows/uwp/graphics/using-brushes)

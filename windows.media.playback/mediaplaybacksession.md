@@ -15,7 +15,7 @@ Provides information about the state of the current playback session of a [Media
 ## -remarks
 Get an instance of this class by accessing the [PlaybackSession](mediaplayer_playbacksession.md) property of a [MediaPlayer](mediaplayer.md) or the [PlaybackSession](mediabreakmanager_playbacksession.md) property of a [MediaBreakManager](mediabreakmanager.md).
 
-For how-to guidance for working with **MediaPlayer** and playback sessions, see [Play audio and video with MediaPlayer](https://docs.microsoft.com/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer).
+For how-to guidance for working with **MediaPlayer** and playback sessions, see [Play audio and video with MediaPlayer](/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer).
 
 ### Version history
 
@@ -37,4 +37,4 @@ For how-to guidance for working with **MediaPlayer** and playback sessions, see 
 ## -examples
 
 ## -see-also
-[Play audio and video with MediaPlayer](https://docs.microsoft.com/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer)
+[Play audio and video with MediaPlayer](/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer)

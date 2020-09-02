@@ -34,4 +34,4 @@ The element sends interruptive notifications if the content of the live region h
 ## -examples
 
 ## -see-also
-[AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties), [GetLiveSetting](automationpeer_getlivesetting_295263812.md), [GetLiveSettingCore](automationpeer_getlivesettingcore_2008424374.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Practices to avoid](https://docs.microsoft.com/windows/uwp/accessibility/practices-to-avoid)
+[AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties), [GetLiveSetting](automationpeer_getlivesetting_295263812.md), [GetLiveSettingCore](automationpeer_getlivesettingcore_2008424374.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Practices to avoid](/windows/uwp/accessibility/practices-to-avoid)

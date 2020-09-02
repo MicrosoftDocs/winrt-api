@@ -15,9 +15,9 @@ Specifies the behavior of and receives events from the System Media Transport Co
 ## -remarks
 Get an instance of the **MediaPlaybackCommandManager** by accessing the [CommandManager](mediaplayer_commandmanager.md) property of a [MediaPlayer](mediaplayer.md) object.
 
-For how-to guidance for integrating with the SMTC, see [Integrate with the System Media Transport Controls](https://docs.microsoft.com/windows/uwp/audio-video-camera/integrate-with-systemmediatransportcontrols).
+For how-to guidance for integrating with the SMTC, see [Integrate with the System Media Transport Controls](/windows/uwp/audio-video-camera/integrate-with-systemmediatransportcontrols).
 
 ## -examples
 
 ## -see-also
-[Integrate with the System Media Transport Controls](https://docs.microsoft.com/windows/uwp/audio-video-camera/integrate-with-systemmediatransportcontrols)
+[Integrate with the System Media Transport Controls](/windows/uwp/audio-video-camera/integrate-with-systemmediatransportcontrols)

@@ -16,7 +16,7 @@ The changed properties in a update to a [DeviceInformation](deviceinformation.md
 The changed properties.
 
 ## -remarks
-For more info on what the properties represent, see [Device information properties](https://docs.microsoft.com/windows/uwp/devices-sensors/device-information-properties).
+For more info on what the properties represent, see [Device information properties](/windows/uwp/devices-sensors/device-information-properties).
 
 ## -examples
 

@@ -17,4 +17,4 @@ Represents a Credential Locker of credentials. The contents of the locker are sp
 ## -examples
 
 ## -see-also
-[Credential locker](https://docs.microsoft.com/windows/uwp/security/credential-locker)
+[Credential locker](/windows/uwp/security/credential-locker)

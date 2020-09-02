@@ -34,4 +34,4 @@ Tells the web authentication broker to render the webpage in an app container th
 ## -examples
 
 ## -see-also
-[Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity), [Web authentication broker](https://docs.microsoft.com/windows/uwp/security/web-authentication-broker), [Windows authentication broker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
+[Authentication and user identity](/windows/uwp/security/authentication-and-user-identity), [Web authentication broker](/windows/uwp/security/web-authentication-broker), [Windows authentication broker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)

@@ -24,5 +24,5 @@ For more info, see [UIElement.LostFocus](../windows.ui.xaml/uielement_lostfocus.
 ## -examples
 
 ## -see-also
-[UIElement.LostFocus](../windows.ui.xaml/uielement_lostfocus.md), [GotFocus](hyperlink_gotfocus.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions)
+[UIElement.LostFocus](../windows.ui.xaml/uielement_lostfocus.md), [GotFocus](hyperlink_gotfocus.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Keyboard interactions](/windows/uwp/input-and-devices/keyboard-interactions)
 

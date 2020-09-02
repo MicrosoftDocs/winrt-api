@@ -19,9 +19,9 @@ This class provides access to the list of [VideoTrack](../windows.media.core/vid
 
 Note that this class does not represent a playlist of video tracks that are played sequentially. To play a sequential list of tracks, use [MediaPlaybackList](mediaplaybacklist.md).
 
-For how-to guidance for working with the video tracks of a media item, see [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
+For how-to guidance for working with the video tracks of a media item, see [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ## -examples
 
 ## -see-also
-[IVectorView(VideoTrack)](../windows.foundation.collections/ivectorview_1.md), [IIterable(VideoTrack)](../windows.foundation.collections/iiterable_1.md), [ISingleSelectMediaTrackList](../windows.media.core/isingleselectmediatracklist.md), [VideoTrack](../windows.media.core/videotrack.md), [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource)
+[IVectorView(VideoTrack)](../windows.foundation.collections/ivectorview_1.md), [IIterable(VideoTrack)](../windows.foundation.collections/iiterable_1.md), [ISingleSelectMediaTrackList](../windows.media.core/isingleselectmediatracklist.md), [VideoTrack](../windows.media.core/videotrack.md), [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource)

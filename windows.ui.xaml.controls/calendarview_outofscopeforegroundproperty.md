@@ -20,4 +20,4 @@ The identifier for the [OutOfScopeForeground](calendarview_outofscopeforeground.
 ## -examples
 
 ## -see-also
-[OutOfScopeForeground](calendarview_outofscopeforeground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[OutOfScopeForeground](calendarview_outofscopeforeground.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

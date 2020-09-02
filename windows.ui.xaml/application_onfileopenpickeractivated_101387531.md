@@ -24,4 +24,4 @@ All [Application](application.md) overrides involved in an activation scenario s
 ## -examples
 
 ## -see-also
-[ActivationKind](../windows.applicationmodel.activation/activationkind.md), [Handle app activation](https://docs.microsoft.com/windows/uwp/launch-resume/activate-an-app), [Association launching sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AssociationLaunching)
+[ActivationKind](../windows.applicationmodel.activation/activationkind.md), [Handle app activation](/windows/uwp/launch-resume/activate-an-app), [Association launching sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AssociationLaunching)

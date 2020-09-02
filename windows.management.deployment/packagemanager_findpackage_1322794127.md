@@ -10,7 +10,7 @@ public Windows.ApplicationModel.Package FindPackage(System.String packageFullNam
 # Windows.Management.Deployment.PackageManager.FindPackage
 
 ## -description
-Retrieves information about the specified [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) installed for any user.
+Retrieves information about the specified [Package](/uwp/api/windows.applicationmodel.package) installed for any user.
 
 ## -parameters
 ### -param packageFullName
@@ -26,7 +26,7 @@ This method requires administrative privileges. The returned package may be inst
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageQuery

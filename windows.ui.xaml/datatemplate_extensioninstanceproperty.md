@@ -20,4 +20,4 @@ The identifier for the [ExtensionInstance](/uwp/api/windows.ui.xaml.datatemplate
 ## -examples
 
 ## -see-also
-[ExtensionInstance](/uwp/api/windows.ui.xaml.datatemplate#xaml-attached-properties), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)
+[ExtensionInstance](/uwp/api/windows.ui.xaml.datatemplate#xaml-attached-properties), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

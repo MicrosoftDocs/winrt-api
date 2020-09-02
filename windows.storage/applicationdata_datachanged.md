@@ -15,7 +15,7 @@ Occurs when roaming application data is synchronized.
 
 ## -remarks
 
-The event handler receives an [ApplicationData](applicationdata.md) object that provides access to the changed roaming data containers. For more information, see [Roaming data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data).
+The event handler receives an [ApplicationData](applicationdata.md) object that provides access to the changed roaming data containers. For more information, see [Roaming data](/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data).
 
 ## -examples
 
@@ -85,4 +85,4 @@ End Sub
 ```
 
 ## -see-also
-[Roaming data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data),[Quickstart: Roaming application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465123(v=win.10))
+[Roaming data](/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data),[Quickstart: Roaming application data (JavaScript)](/previous-versions/windows/apps/hh465123(v=win.10))

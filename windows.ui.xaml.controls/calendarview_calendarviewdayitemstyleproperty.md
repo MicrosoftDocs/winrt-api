@@ -20,4 +20,4 @@ The identifier for the [CalendarViewDayItemStyle](calendarview_calendarviewdayit
 ## -examples
 
 ## -see-also
-[CalendarViewDayItemStyle](calendarview_calendarviewdayitemstyle.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CalendarViewDayItemStyle](calendarview_calendarviewdayitemstyle.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

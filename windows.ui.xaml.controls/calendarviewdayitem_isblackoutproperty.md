@@ -20,4 +20,4 @@ The identifier for the [IsBlackout](calendarviewdayitem_isblackout.md)  depende
 ## -examples
 
 ## -see-also
-[IsBlackout](calendarviewdayitem_isblackout.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsBlackout](calendarviewdayitem_isblackout.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -26,7 +26,7 @@ An asynchronous request operation. On successful completion, contains a member o
    <tr><td>Version</td><td>Behavior</td></tr>
    <tr><td>Windows 8/Windows 8.1</td><td>Prompts the user with a dialog box that requests that an app be added to the lock screen. Must be called before registering any background tasks.</td></tr>
    <tr><td>Windows Phone 8.1</td><td>Does not prompt the user, but must be called before registering any background tasks.</td></tr>
-   <tr><td>Windows 10</td><td>Does not prompt the user, but must be called before registering any background tasks. You do not need to add the app to the lock screen in order to use background tasks in Windows 10, but you still need to call this method, or  [RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync), to request background access.</td></tr>
+   <tr><td>Windows 10</td><td>Does not prompt the user, but must be called before registering any background tasks. You do not need to add the app to the lock screen in order to use background tasks in Windows 10, but you still need to call this method, or  [RequestAccessAsync](/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync), to request background access.</td></tr>
 </table>
 
 > [!TIP]
@@ -35,4 +35,4 @@ An asynchronous request operation. On successful completion, contains a member o
 ## -examples
 
 ## -see-also
-[RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync)
+[RequestAccessAsync](/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync)

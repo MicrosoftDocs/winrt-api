@@ -16,7 +16,7 @@ A full receipt that provides a transaction history for the purchase of an in-app
 An XML-formatted string.
 
 ## -remarks
-For information about the contents of the receipt, see [Using receipts to verify product purchases](https://docs.microsoft.com/windows/uwp/monetize/use-receipts-to-verify-product-purchases).
+For information about the contents of the receipt, see [Using receipts to verify product purchases](/windows/uwp/monetize/use-receipts-to-verify-product-purchases).
 
 ## -examples
 

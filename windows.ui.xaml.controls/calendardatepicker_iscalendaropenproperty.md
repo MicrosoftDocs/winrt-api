@@ -20,4 +20,4 @@ The identifier for the [IsCalendarOpen](calendardatepicker_iscalendaropen.md) de
 ## -examples
 
 ## -see-also
-[IsCalendarOpen](calendardatepicker_iscalendaropen.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsCalendarOpen](calendardatepicker_iscalendaropen.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

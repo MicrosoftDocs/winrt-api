@@ -21,4 +21,4 @@ When the [Battery](battery.md) object represents an individual battery controlle
 ## -examples
 
 ## -see-also
-[Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10))
+[Get battery information](/previous-versions/windows/apps/dn895210(v=win.10))

@@ -12,14 +12,14 @@ public object ConversationalAgentSession.GetAudioClient()
 
 ## -description
 
-Synchronously retrieves an [IAudioClient](https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient) object that creates and initializes an audio stream between your application and the audio rendering device.
+Synchronously retrieves an [IAudioClient](/windows/desktop/api/audioclient/nn-audioclient-iaudioclient) object that creates and initializes an audio stream between your application and the audio rendering device.
 
 > [!Important]
 > To avoid possible concurrency issues, we recommend using [GetAudioClientAsync](conversationalagentsession_getaudioclientasync_428364567.md) instead.
 
 ## -returns
 
-The [IAudioClient](https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient) object.
+The [IAudioClient](/windows/desktop/api/audioclient/nn-audioclient-iaudioclient) object.
 
 ## -remarks
 

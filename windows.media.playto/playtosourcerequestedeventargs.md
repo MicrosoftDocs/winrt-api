@@ -16,7 +16,7 @@ Provides information about the [SourceRequested](playtomanager_sourcerequested.m
 
 You use the [SourceRequest](playtosourcerequestedeventargs_sourcerequest.md) property of the  class to pass media from your application to Play To during the [SourceRequested](playtomanager_sourcerequested.md) event.
 
-For an example of how to use Play To in an application, see [Quickstart: Using Play To in applications (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465184(v=win.10)) or [PlayReady DRM](https://docs.microsoft.com/windows/uwp/audio-video-camera/playready-client-sdk).
+For an example of how to use Play To in an application, see [Quickstart: Using Play To in applications (JavaScript)](/previous-versions/windows/apps/hh465184(v=win.10)) or [PlayReady DRM](/windows/uwp/audio-video-camera/playready-client-sdk).
 
 ## -examples
 

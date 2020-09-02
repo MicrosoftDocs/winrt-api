@@ -19,7 +19,7 @@ The error code for the request.
 ## -remarks
 
 ## -see-also
-[Error codes for Store operations](https://docs.microsoft.com/windows/uwp/monetize/error-codes-for-store-operations)
+[Error codes for Store operations](/windows/uwp/monetize/error-codes-for-store-operations)
 [StoreRateAndReviewResult](storerateandreviewresult.md)
 
 ## -examples

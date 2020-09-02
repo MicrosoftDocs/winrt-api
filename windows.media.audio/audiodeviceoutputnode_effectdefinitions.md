@@ -24,11 +24,11 @@ Several platform-provided effects can be found in the **Windows.Media.Audio** na
 * [LimiterEffectDefinition](limitereffectdefinition.md)
 * [ReverbEffectDefinition](reverbeffectdefinition.md)
 
-Also, you can create your own custom audio effects by creating a Windows Runtime component that implements the [IBasicAudioEffect](../windows.media.effects/ibasicaudioeffect.md) interface. For a walkthrough of creating a custom audio effect, see [Custom audio effects](https://docs.microsoft.com/windows/uwp/audio-video-camera/custom-audio-effects).
+Also, you can create your own custom audio effects by creating a Windows Runtime component that implements the [IBasicAudioEffect](../windows.media.effects/ibasicaudioeffect.md) interface. For a walkthrough of creating a custom audio effect, see [Custom audio effects](/windows/uwp/audio-video-camera/custom-audio-effects).
 
 
 ## -see-also
-[Custom audio effects](https://docs.microsoft.com/windows/uwp/audio-video-camera/custom-audio-effects)
+[Custom audio effects](/windows/uwp/audio-video-camera/custom-audio-effects)
 [IAudioEffectDefinition](../windows.media.effects/iaudioeffectdefinition.md)
 [EchoEffectDefinition](echoeffectdefinition.md)
 [EqualizerEffectDefinition](equalizereffectdefinition.md)

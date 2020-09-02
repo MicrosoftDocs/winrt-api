@@ -20,4 +20,4 @@ The identifier for the  [Pane](splitview_pane.md) dependency property.
 ## -examples
 
 ## -see-also
-[Pane](splitview_pane.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Pane](splitview_pane.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

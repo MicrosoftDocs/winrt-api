@@ -13,7 +13,7 @@ public Windows.Media.Playback.PlaybackMediaMarkerSequence PlaybackMediaMarkers {
 Gets the collection of timeline markers for the media. 
 
 > [!NOTE]
-> **MediaPlayer.PlaybackMediaMarkers** may be altered or unavailable after Windows 10, version 1607. Instead, use [MediaPlaybackItem.TimedMetadataTracks](mediaplaybackitem_timedmetadatatracks.md) to manage data or text cues. For more information, see [Media playback with MediaSource](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
+> **MediaPlayer.PlaybackMediaMarkers** may be altered or unavailable after Windows 10, version 1607. Instead, use [MediaPlaybackItem.TimedMetadataTracks](mediaplaybackitem_timedmetadatatracks.md) to manage data or text cues. For more information, see [Media playback with MediaSource](/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ## -property-value
 The collection of timeline markers for the media.

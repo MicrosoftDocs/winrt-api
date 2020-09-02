@@ -17,4 +17,4 @@ Occurs when the tile is requested for an [HttpMapTileDataSource](httpmaptiledata
 ## -examples
 
 ## -see-also
-[MapTileUriRequestedEventArgs](maptileurirequestedeventargs.md), [Overlay tiled images on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/overlay-tiled-images)
+[MapTileUriRequestedEventArgs](maptileurirequestedeventargs.md), [Overlay tiled images on a map](/windows/uwp/maps-and-location/overlay-tiled-images)

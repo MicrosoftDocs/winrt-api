@@ -9,7 +9,7 @@
 
 The Windows.Media.Import namespace provides APIs for discovering and importing photos and videos from devices including cameras, mass storage devices, phones, and other devices that support photo import.
 
-For how-to guidance for adding media import to your app, see [Import media from a device](https://docs.microsoft.com/windows/uwp/audio-video-camera/import-media-from-a-device).
+For how-to guidance for adding media import to your app, see [Import media from a device](/windows/uwp/audio-video-camera/import-media-from-a-device).
 
 ## -remarks
 
@@ -17,4 +17,4 @@ For how-to guidance for adding media import to your app, see [Import media from 
 
 ## -see-also
 
-[Import media from a device](https://docs.microsoft.com/windows/uwp/audio-video-camera/import-media-from-a-device), [Windows media import sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/MediaImport)
+[Import media from a device](/windows/uwp/audio-video-camera/import-media-from-a-device), [Windows media import sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/MediaImport)

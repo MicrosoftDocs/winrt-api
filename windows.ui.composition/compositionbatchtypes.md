@@ -43,5 +43,5 @@ The batch contains an infinite animation.
 ## -examples
 
 ## -see-also
-[Composition Animations Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/composition-animation)
+[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation)
 

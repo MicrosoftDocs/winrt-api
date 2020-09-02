@@ -17,4 +17,4 @@ Initializes a new instance of the [InputScope](inputscope.md) class.
 ## -examples
 
 ## -see-also
-[Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

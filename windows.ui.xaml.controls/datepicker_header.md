@@ -39,4 +39,4 @@ You can set a data template for the Header value by using the [HeaderTemplate](d
 ## -examples
 
 ## -see-also
-[HeaderTemplate](datepicker_headertemplate.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10))
+[HeaderTemplate](datepicker_headertemplate.md), [Quickstart: Adding a DatePicker](/previous-versions/windows/apps/dn308514(v=win.10))

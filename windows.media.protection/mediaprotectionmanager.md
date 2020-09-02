@@ -14,11 +14,11 @@ Contains a content protection manager object for an application that handles pro
 
 ## -remarks
 The MediaProtectionManager can be passed to the media playback infrastructure in either of two ways: 
-+ As an attribute for a `<video>` or `<audio>` tag using the [msSetMediaProtectionManager](https://docs.microsoft.com/previous-versions/hh772532(v=vs.85)) method.
++ As an attribute for a `<video>` or `<audio>` tag using the [msSetMediaProtectionManager](/previous-versions/hh772532(v=vs.85)) method.
 + Directly to a media playback API. The MediaProtectionManager object is notified of content enabler objects. These objects must be processed by the application, to establish access to protected content. Each MediaProtectionManager object is associated with a single instance of playback.
 
 ## -examples
-The following example shows how to create a MediaProtectionManager, set the [Properties](mediaprotectionmanager_properties.md) property, and add event listeners for [ComponentLoadFailed](mediaprotectionmanager_componentloadfailed.md) and [ServiceRequested](mediaprotectionmanager_servicerequested.md). See the [How to use pluggable DRM](https://docs.microsoft.com/previous-versions/windows/apps/hh452779(v=win.10)) topic for the full example. 
+The following example shows how to create a MediaProtectionManager, set the [Properties](mediaprotectionmanager_properties.md) property, and add event listeners for [ComponentLoadFailed](mediaprotectionmanager_componentloadfailed.md) and [ServiceRequested](mediaprotectionmanager_servicerequested.md). See the [How to use pluggable DRM](/previous-versions/windows/apps/hh452779(v=win.10)) topic for the full example. 
 
 ```javascript
 

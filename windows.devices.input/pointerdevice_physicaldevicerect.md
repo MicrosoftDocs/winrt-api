@@ -20,4 +20,4 @@ The bounding rectangle at 96 dots per inch (dpi).
 ## -examples
 
 ## -see-also
-[Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices)
+[Quickstart: Identifying input devices](/windows/uwp/design/input/identify-input-devices)

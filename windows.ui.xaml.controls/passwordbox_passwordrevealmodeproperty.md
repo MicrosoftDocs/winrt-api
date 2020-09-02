@@ -20,4 +20,4 @@ The identifier for the [PasswordRevealMode](passwordbox_passwordrevealmode.md) d
 ## -examples
 
 ## -see-also
-[PasswordRevealMode](passwordbox_passwordrevealmode.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[PasswordRevealMode](passwordbox_passwordrevealmode.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -16,7 +16,7 @@ Gets or sets the enterprise ID for apps that are WIP-enabled.
 The enterprise ID for apps that are WIP-enabled.
 
 ## -remarks
-To learn more about Windows Information Protection (WIP), see [Protect your enterprise data using WIP](https://docs.microsoft.com/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip).
+To learn more about Windows Information Protection (WIP), see [Protect your enterprise data using WIP](/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip).
 
 ## -see-also
 

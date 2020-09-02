@@ -23,7 +23,7 @@ The stream where the image data is written.
 Returns a [IAsyncAction](../windows.foundation/iasyncaction.md) object that is used to control the asynchronous operation.
 
 ## -remarks
-For how-to guidance on recording to a file, see [Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+For how-to guidance on recording to a file, see [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 
 ## -examples
 

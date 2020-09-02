@@ -25,11 +25,11 @@ Use one of the following properties to access a FileOpenPickerUI:
 + > **C#/C++/VB**
 > [Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs.FileOpenPickerUI](../windows.applicationmodel.activation/fileopenpickeractivatedeventargs_fileopenpickerui.md)
 
-Learn about creating a good experience for users when they access your files through the file picker by reading the UX guidelines for providing files in [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers).
+Learn about creating a good experience for users when they access your files through the file picker by reading the UX guidelines for providing files in [Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
 ## -examples
 
-The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how to respond to a [fileOpenPicker](../windows.applicationmodel.activation/activationkind.md) activated event.
+The [File picker sample](/samples/browse/) demonstrates how to respond to a [fileOpenPicker](../windows.applicationmodel.activation/activationkind.md) activated event.
 
 ```csharp
 
@@ -82,8 +82,8 @@ WinJS.Application.addEventListener("activated", activated, false);
 
 For JavaScript, `eventObject` contains a [webUIFileOpenPickerActivatedEventArgs](../windows.ui.webui/webuifileopenpickeractivatedeventargs.md) object.
 
-For C#, `args` contains a [FileOpenPickerActivatedEventArgs](../windows.applicationmodel.activation/fileopenpickeractivatedeventargs.md) object. Additionally, the `OnFileOpenPickerActivated` is in the App.xaml.cs file and the `Activate` method is in the FileOpenPickerPage.xaml.cs file of the [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba).
+For C#, `args` contains a [FileOpenPickerActivatedEventArgs](../windows.applicationmodel.activation/fileopenpickeractivatedeventargs.md) object. Additionally, the `OnFileOpenPickerActivated` is in the App.xaml.cs file and the `Activate` method is in the FileOpenPickerPage.xaml.cs file of the [File picker sample](/samples/browse/).
 
 ## -see-also
 
-[Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Windows.ApplicationModel.Activation.activationKind enumeration](../windows.applicationmodel.activation/activationkind.md), [Windows.UI.WebUI.webUIFileOpenPickerActivatedEventArgs class](../windows.ui.webui/webuifileopenpickeractivatedeventargs.md), [Windows.ApplicationModel.Activation.ActivationKind enumeration](../windows.applicationmodel.activation/activationkind.md), [Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs class](../windows.applicationmodel.activation/fileopenpickeractivatedeventargs.md), [File picker provider sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)
+[Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Windows.ApplicationModel.Activation.activationKind enumeration](../windows.applicationmodel.activation/activationkind.md), [Windows.UI.WebUI.webUIFileOpenPickerActivatedEventArgs class](../windows.ui.webui/webuifileopenpickeractivatedeventargs.md), [Windows.ApplicationModel.Activation.ActivationKind enumeration](../windows.applicationmodel.activation/activationkind.md), [Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs class](../windows.applicationmodel.activation/fileopenpickeractivatedeventargs.md), [File picker provider sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)

@@ -28,4 +28,4 @@ To apply a perspective transform to a [UIElement](../windows.ui.xaml/uielement.m
 [!code-xaml[BasicPerspectiveTransforms](../windows.ui.xaml/code/BasicPerspectiveTransforms/csharp/MainPage.xaml#SnippetBasicPerspectiveTransforms)]
 
 ## -see-also
-[3-D effects for ](https://docs.microsoft.com/previous-versions/windows/apps/hh700359(v=win.10)), [Projection](projection.md)
+[3-D effects for ](/previous-versions/windows/apps/hh700359(v=win.10)), [Projection](projection.md)

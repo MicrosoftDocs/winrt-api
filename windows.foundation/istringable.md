@@ -14,7 +14,7 @@ Provides a way to represent the current object as a string.
 
 ## -remarks
 > [!IMPORTANT]
-> Managed types should not implement the IStringable interface. For more info, see [Object.ToString Method](http://msdn.microsoft.com/en-us/library/system.object.tostring.aspx).
+> Managed types should not implement the IStringable interface. For more info, see [Object.ToString Method](/dotnet/api/system.object.tostring#System_Object_ToString).
 
 
 

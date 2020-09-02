@@ -14,13 +14,13 @@ Asynchronously retrieves one or more bitmap properties.
 
 ## -parameters
 ### -param propertiesToRetrieve
-A collection of strings representing the property keys or queries that are being requested. Valid strings include [Windows properties](https://docs.microsoft.com/windows/desktop/wic/photo-metadata-policies) and [Windows Imaging Component metadata queries](https://docs.microsoft.com/windows/desktop/wic/-wic-native-image-format-metadata-queries).
+A collection of strings representing the property keys or queries that are being requested. Valid strings include [Windows properties](/windows/desktop/wic/photo-metadata-policies) and [Windows Imaging Component metadata queries](/windows/desktop/wic/-wic-native-image-format-metadata-queries).
 
 ## -returns
 Object that manages the asynchronous retrieval of the bitmap properties.
 
 ## -remarks
-The asynchronous operation produces a collection representing the requested image property keys and their values. The values are stored as [BitmapTypedValue](bitmaptypedvalue.md), which contains both the actual data as well as the [PropertyType](https://docs.microsoft.com/windows/desktop/api/windows.foundation/ne-windows-foundation-propertytype) of the data.
+The asynchronous operation produces a collection representing the requested image property keys and their values. The values are stored as [BitmapTypedValue](bitmaptypedvalue.md), which contains both the actual data as well as the [PropertyType](/windows/desktop/api/windows.foundation/ne-windows-foundation-propertytype) of the data.
 
 A particular image may only contain some (or none) of the requested properties. In this case the collection will only have key-value pairs for the properties which were found in the image. You need to check for the existence of the property before you attempt to get data from it: 
 
@@ -71,7 +71,7 @@ bitmapPropertiesView.getPropertiesAsync([]).done(function (retrievedProperties) 
 
 
 
-If the image format does not support metadata, it will fail with HRESULT [WINCODEC_ERR_UNSUPPORTEDOPERATION](https://docs.microsoft.com/windows/desktop/wic/-wic-codec-error-codes).
+If the image format does not support metadata, it will fail with HRESULT [WINCODEC_ERR_UNSUPPORTEDOPERATION](/windows/desktop/wic/-wic-codec-error-codes).
 
 ## -examples
 

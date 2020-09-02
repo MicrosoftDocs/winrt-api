@@ -10,7 +10,7 @@ public enum Windows.Management.Deployment.PackageStatus : uint
 # PackageStatus
 
 ## -description
-Provides info about the status of a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package).
+Provides info about the status of a [Package](/uwp/api/windows.applicationmodel.package).
 
 ## -enum-fields
 ### -field OK:0
@@ -34,4 +34,4 @@ The package is not available for use. It can still be serviced.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)

@@ -16,7 +16,7 @@ Gets the simulated license metadata for the current app as provided by the simul
 The license metadata for the current app as provided by the simulation.
 
 ## -remarks
-Uses the **LicenseInformation** element in the WindowsStoreProxy.xml file as the data source for the members of the returned object. For more information, see [Using the WindowsStoreProxy.xml file with CurrentAppSimulator](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials-using-the-windows-applicationmodel-store-namespace).
+Uses the **LicenseInformation** element in the WindowsStoreProxy.xml file as the data source for the members of the returned object. For more information, see [Using the WindowsStoreProxy.xml file with CurrentAppSimulator](/windows/uwp/monetize/in-app-purchases-and-trials-using-the-windows-applicationmodel-store-namespace).
 
 This API does not require a network connection.
 

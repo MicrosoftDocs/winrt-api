@@ -47,4 +47,4 @@ Geometry is the parent class for several derived classes that define different c
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [EllipseGeometry](ellipsegeometry.md), [GeometryGroup](geometrygroup.md), [LineGeometry](linegeometry.md), [PathGeometry](pathgeometry.md), [RectangleGeometry](rectanglegeometry.md), [GeometryCollection](geometrycollection.md), [PathIcon.Data](../windows.ui.xaml.controls/pathicon_data.md), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [EllipseGeometry](ellipsegeometry.md), [GeometryGroup](geometrygroup.md), [LineGeometry](linegeometry.md), [PathGeometry](pathgeometry.md), [RectangleGeometry](rectanglegeometry.md), [GeometryCollection](geometrycollection.md), [PathIcon.Data](../windows.ui.xaml.controls/pathicon_data.md), [Draw shapes](/windows/uwp/graphics/drawing-shapes)

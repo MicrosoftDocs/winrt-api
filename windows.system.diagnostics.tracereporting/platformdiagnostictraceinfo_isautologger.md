@@ -16,4 +16,4 @@ Indicates whether the trace is from an ETW AutoLogger session.
 **True** if the trace is from an ETW autologger session; **false** otherwise.
 
 ## -see-also
-[Configuring and Starting an AutoLogger Session](https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-an-autologger-session)
+[Configuring and Starting an AutoLogger Session](/windows/desktop/ETW/configuring-and-starting-an-autologger-session)

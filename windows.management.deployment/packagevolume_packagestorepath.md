@@ -10,7 +10,7 @@ public string PackageStorePath { get; }
 # Windows.Management.Deployment.PackageVolume.PackageStorePath
 
 ## -description
-Gets the absolute path for the [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) store on the volume.
+Gets the absolute path for the [Package](/uwp/api/windows.applicationmodel.package) store on the volume.
 
 ## -property-value
 The absolute path for the package store on the volume.
@@ -21,4 +21,4 @@ The absolute path for the package store on the volume.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)

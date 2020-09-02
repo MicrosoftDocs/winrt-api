@@ -16,7 +16,7 @@ Represents the composited display surface for an app. This class provides applic
 
 CompositionTarget events are useful for rendering scenarios like:
 
-- synchronizing [DirectX interop rendering](https://docs.microsoft.com/windows/uwp/gaming/directx-and-xaml-interop) using the [Rendering](compositiontarget_rendering.md) event
+- synchronizing [DirectX interop rendering](/windows/uwp/gaming/directx-and-xaml-interop) using the [Rendering](compositiontarget_rendering.md) event
 
 - measuring frame rendering time using the [Rendered](compositiontarget_rendered.md) event
 
@@ -33,4 +33,4 @@ For scenarios that don't involve custom rendering or frame time measurement you 
 ## -examples
 
 ## -see-also
-[DirectX and XAML interop](https://docs.microsoft.com/windows/uwp/gaming/directx-and-xaml-interop), [Optimize animations and media](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-animations-and-media)
+[DirectX and XAML interop](/windows/uwp/gaming/directx-and-xaml-interop), [Optimize animations and media](/windows/uwp/debug-test-perf/optimize-animations-and-media)

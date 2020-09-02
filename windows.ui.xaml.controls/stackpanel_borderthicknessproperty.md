@@ -20,4 +20,4 @@ The identifier for the [BorderThickness](stackpanel_borderthickness.md) dependen
 ## -examples
 
 ## -see-also
-[BorderThickness](stackpanel_borderthickness.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[BorderThickness](stackpanel_borderthickness.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

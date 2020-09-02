@@ -20,4 +20,4 @@ The identifier for the   [SelectedDates](calendarview_selecteddates.md) depende
 ## -examples
 
 ## -see-also
-[SelectedDates](calendarview_selecteddates.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[SelectedDates](calendarview_selecteddates.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

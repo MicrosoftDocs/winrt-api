@@ -16,7 +16,7 @@ Provides access to network connection information for the local machine.
 
 ## -remarks
 
-For examples of how NetworkInformation class methods are implemented, see [Quickstart: Retrieving network connection information](https://docs.microsoft.com/previous-versions/windows/apps/hh452990(v=win.10)).
+For examples of how NetworkInformation class methods are implemented, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
 
 ## -examples
 

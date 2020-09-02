@@ -19,13 +19,13 @@ The Windows Runtime  [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md)
 
 GridViewItemAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern_2046576749.md) defers to base peers. [GetPattern](automationpeer_getpattern_2046576749.md) returns a pattern for [IDragProvider](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider) though an internal base class. The content of the [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md) might also have a specific peer, for example if it is a [TextBox](../windows.ui.xaml.controls/textbox.md). The parent [GridView](../windows.ui.xaml.controls/gridview.md) has the support for any selection-related automation behavior.
++ [GetPattern](automationpeer_getpattern_2046576749.md) defers to base peers. [GetPattern](automationpeer_getpattern_2046576749.md) returns a pattern for [IDragProvider](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider) though an internal base class. The content of the [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md) might also have a specific peer, for example if it is a [TextBox](../windows.ui.xaml.controls/textbox.md). The parent [GridView](../windows.ui.xaml.controls/gridview.md) has the support for any selection-related automation behavior.
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "GridViewItem".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.ListItem](automationcontroltype.md).
 <!--Is actually a mystery how, because I don't see this done in the code, but it tests out-->
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [GridView](../windows.ui.xaml.controls/gridview.md), [GridViewItemDataAutomationPeer](gridviewitemdataautomationpeer.md), [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [GridView](../windows.ui.xaml.controls/gridview.md), [GridViewItemDataAutomationPeer](gridviewitemdataautomationpeer.md), [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

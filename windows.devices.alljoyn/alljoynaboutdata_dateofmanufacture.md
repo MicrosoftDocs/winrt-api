@@ -17,7 +17,7 @@ The date of manufacture.
 The date of manufacture in a **YYYY-MM-DD** format.
 
 ## -remarks
-By default the returned value is an empty string for UWP app, or the [DateModified](https://docs.microsoft.com/windows/desktop/properties/props-system-datemodified) property of the EXE for Desktop apps.
+By default the returned value is an empty string for UWP app, or the [DateModified](/windows/desktop/properties/props-system-datemodified) property of the EXE for Desktop apps.
 
 ## -examples
 

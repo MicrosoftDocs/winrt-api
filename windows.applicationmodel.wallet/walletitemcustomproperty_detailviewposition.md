@@ -20,4 +20,4 @@ The optional position of this property when shown in the wallet item's detail vi
 ## -examples
 
 ## -see-also
-[WalletDetailViewPosition](walletdetailviewposition.md), [Quickstart: Using the   APIs](https://docs.microsoft.com/previous-versions/windows/apps/dn631257(v=win.10))
+[WalletDetailViewPosition](walletdetailviewposition.md), [Quickstart: Using the   APIs](/previous-versions/windows/apps/dn631257(v=win.10))

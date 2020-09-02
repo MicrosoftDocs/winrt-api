@@ -20,4 +20,4 @@ The identifier for the [SelectedBorderBrush](calendarview_selectedborderbrush.md
 ## -examples
 
 ## -see-also
-[SelectedBorderBrush](calendarview_selectedborderbrush.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[SelectedBorderBrush](calendarview_selectedborderbrush.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

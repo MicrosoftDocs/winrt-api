@@ -25,7 +25,7 @@ There are several other ways to refer to a file in a package.
 + You can use the "ms-appx:///" protocol: `<img src="ms-appx://packageFullName/file.png" alt="" />`
 + You can also omit the package name to let the system fill in the domain: `<img src="ms-appx:///file.png" alt="" />`
 
-For more info about how to refer to files in an app's package, see [URI schemes](https://docs.microsoft.com/windows/uwp/app-resources/uri-schemes) and [Reference an image or other asset from XAML markup and code](https://docs.microsoft.com/windows/uwp/app-resources/images-tailored-for-scale-theme-contrast#reference-an-image-or-other-asset-from-xaml-markup-and-code).
+For more info about how to refer to files in an app's package, see [URI schemes](/windows/uwp/app-resources/uri-schemes) and [Reference an image or other asset from XAML markup and code](/windows/uwp/app-resources/images-tailored-for-scale-theme-contrast#reference-an-image-or-other-asset-from-xaml-markup-and-code).
 
 ## -examples
 

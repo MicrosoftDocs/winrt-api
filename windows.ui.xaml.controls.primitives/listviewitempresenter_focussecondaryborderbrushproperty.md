@@ -20,4 +20,4 @@ The identifier for the [FocusSecondaryBorderBrush](listviewitempresenter_focusse
 ## -examples
 
 ## -see-also
-[FocusSecondaryBorderBrush](listviewitempresenter_focussecondaryborderbrush.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[FocusSecondaryBorderBrush](listviewitempresenter_focussecondaryborderbrush.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

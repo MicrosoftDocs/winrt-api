@@ -237,4 +237,4 @@ End Sub
 For a complete sample that uses many of the [Page](page.md) and Frame features together, see the [XAML Controls Gallery](https://github.com/microsoft/Xaml-Controls-Gallery).
 
 ## -see-also
-[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md), [Navigation design basics overview](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)
+[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md), [Navigation design basics overview](/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)

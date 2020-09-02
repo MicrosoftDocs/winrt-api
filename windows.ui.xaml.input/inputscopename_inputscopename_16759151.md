@@ -21,4 +21,4 @@ An input name based on the [InputScopeNameValue](inputscopenamevalue.md) enumera
 ## -examples
 
 ## -see-also
-[Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

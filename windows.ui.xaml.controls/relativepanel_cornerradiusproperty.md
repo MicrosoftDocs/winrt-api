@@ -20,4 +20,4 @@ The identifier for the [CornerRadius](relativepanel_cornerradius.md) dependency 
 ## -examples
 
 ## -see-also
-[CornerRadius](relativepanel_cornerradius.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CornerRadius](relativepanel_cornerradius.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

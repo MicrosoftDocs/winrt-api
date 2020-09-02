@@ -19,7 +19,7 @@ Specifies the PlayReady content protection system ID inside a PSSH box. This par
 Previous releases of the PlayReady API required callers to hard-code a well-known string and [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) in their code. These APIs provide those values to the caller so they can request them rather than hard-coding them.
 
 
-In the [MediaProtectionManager.Properties](https://docs.microsoft.com/uwp/api/windows.media.protection.mediaprotectionmanager.properties) property (a [PropertySet](https://docs.microsoft.com/uwp/api/windows.foundation.collections.propertyset) object), the "Windows.Media.Protection.MediaProtectionContainerGuid" string maps to a GUID, which will typically be the following string: ```csharp
+In the [MediaProtectionManager.Properties](/uwp/api/windows.media.protection.mediaprotectionmanager.properties) property (a [PropertySet](/uwp/api/windows.foundation.collections.propertyset) object), the "Windows.Media.Protection.MediaProtectionContainerGuid" string maps to a GUID, which will typically be the following string: ```csharp
 "{" +  Windows.Media.Protection.PlayReady.PlayReadyStatics.ProtectionSystemId.ToString().ToUpper() + "}"
 ```
 

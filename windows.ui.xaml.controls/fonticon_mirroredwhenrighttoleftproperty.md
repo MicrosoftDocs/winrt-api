@@ -20,4 +20,4 @@ The identifier for the [MirroredWhenRightToLeft](fonticon_mirroredwhenrighttolef
 ## -examples
 
 ## -see-also
-[MirroredWhenRightToLeft](fonticon_mirroredwhenrighttoleft.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MirroredWhenRightToLeft](fonticon_mirroredwhenrighttoleft.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

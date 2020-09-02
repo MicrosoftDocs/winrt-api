@@ -20,4 +20,4 @@ The identifier for the [IsColorFontEnabled](glyphs_iscolorfontenabled.md) depend
 ## -examples
 
 ## -see-also
-[IsColorFontEnabled](glyphs_iscolorfontenabled.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsColorFontEnabled](glyphs_iscolorfontenabled.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

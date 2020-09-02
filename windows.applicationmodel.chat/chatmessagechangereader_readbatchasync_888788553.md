@@ -17,7 +17,7 @@ Returns a batch list of chat message change objects from the message store’s c
 An asynchronous operation that returns a list of changes.
 
 ## -remarks
-This method returns an IReadOnlyList of [ChatMessageChange class](chatmessagechange.md) objects. The method is invoked as an [IAsyncOperation](https://docs.microsoft.com/previous-versions/bb776309(v=vs.85)) as shown in the following example:
+This method returns an IReadOnlyList of [ChatMessageChange class](chatmessagechange.md) objects. The method is invoked as an [IAsyncOperation](/previous-versions/bb776309(v=vs.85)) as shown in the following example:
 
 ```
 ChatMessageChangeTracker tracker = messageStore.ChangeTracker;

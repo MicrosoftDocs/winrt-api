@@ -16,9 +16,9 @@ Gets Microsoft Store listing info for the current app and provides access to a m
 An asynchronous operation that, on successful completion, returns a [StoreProductResult](storeproductresult.md) object that contains Microsoft Store listing info for the current app and any relevant error info.
 
 ## -remarks
-For more information about using this method, including a code example, see [Get product info for apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
+For more information about using this method, including a code example, see [Get product info for apps and add-ons](/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
 
 ## -examples
 
 ## -see-also
-[Get product info for apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store)
+[Get product info for apps and add-ons](/windows/uwp/monetize/get-product-info-for-apps-and-add-ons), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store)

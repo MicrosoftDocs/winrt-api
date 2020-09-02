@@ -36,5 +36,5 @@ Use this method to get Store product details (such as the Store ID) for a packag
 
 ## -see-also
 
-[StoreContext](storecontext.md), [StoreProduct](storeproduct.md), [Get product info for apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons)
+[StoreContext](storecontext.md), [StoreProduct](storeproduct.md), [Get product info for apps and add-ons](/windows/uwp/monetize/get-product-info-for-apps-and-add-ons)
 

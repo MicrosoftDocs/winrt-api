@@ -58,4 +58,4 @@ operation = await Task.Run(() => { return myUploadOperation.StartAsync(); });
 ## -examples
 
 ## -see-also
-[BackgroundTransferError.GetStatus](backgroundtransfererror_getstatus_1856274933.md), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [WebErrorStatus](../windows.web/weberrorstatus.md)
+[BackgroundTransferError.GetStatus](backgroundtransfererror_getstatus_1856274933.md), [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)), [WebErrorStatus](../windows.web/weberrorstatus.md)

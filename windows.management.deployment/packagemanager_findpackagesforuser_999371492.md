@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IIterable<Windows.ApplicationModel.Package
 # Windows.Management.Deployment.PackageManager.FindPackagesForUser
 
 ## -description
-Finds all [Packages](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) installed for the specified user.
+Finds all [Packages](/uwp/api/windows.applicationmodel.package) installed for the specified user.
 
 ## -parameters
 ### -param userSecurityId
@@ -26,7 +26,7 @@ This method and its overloads require administrative privileges if the user secu
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [Enumerate app packages by user SID sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByUserSecurityId), [FindPackagesForUser(String, String)](packagemanager_findpackagesforuser_2003648348.md), [FindPackagesForUser(String, String, String)](packagemanager_findpackagesforuser_292215772.md)
 
 ## -capabilities

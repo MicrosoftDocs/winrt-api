@@ -24,4 +24,4 @@ To determine whether the product has downloadable content, use the [HasDigitalDo
 ## -examples
 
 ## -see-also
-[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
+[Optional packages and related set authoring](/windows/uwp/packaging/optional-packages)

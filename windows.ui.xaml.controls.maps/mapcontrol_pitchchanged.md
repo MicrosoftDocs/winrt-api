@@ -17,4 +17,4 @@ Occurs when the value of the [Pitch](mapcontrol_pitch.md) property of the [MapCo
 ## -examples
 
 ## -see-also
-[Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps)
+[Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps)

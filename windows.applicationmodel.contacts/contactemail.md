@@ -13,7 +13,7 @@ public class ContactEmail : Windows.ApplicationModel.Contacts.IContactEmail
 Represents an email address of a contact.
 
 ## -remarks
-For info about how to manage contacts, see [Managing contact cards ](https://docs.microsoft.com/previous-versions/windows/apps/dn518181(v=win.10)) and [Managing contact cards ](https://docs.microsoft.com/previous-versions/windows/apps/dn518237(v=win.10)).
+For info about how to manage contacts, see [Managing contact cards ](/previous-versions/windows/apps/dn518181(v=win.10)) and [Managing contact cards ](/previous-versions/windows/apps/dn518237(v=win.10)).
 
 ## -examples
 

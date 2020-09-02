@@ -23,4 +23,4 @@ To access the [RelativePanel.Below](/uwp/api/windows.ui.xaml.controls.relativepa
 ## -examples
 
 ## -see-also
-[RelativePanel.Below](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)
+[RelativePanel.Below](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

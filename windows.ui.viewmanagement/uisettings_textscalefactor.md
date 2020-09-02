@@ -28,4 +28,4 @@ This property is useful when attempting to scale non-text visuals proportionatel
 
 ## -see-also
 
-[Control.IsTextScaleFactorEanbled](../windows.ui.xaml.controls/control_istextscalefactorenabled.md), [Text scaling](https://docs.microsoft.com/windows/uwp/design/input/text-scaling), [Accessible text requirements](https://docs.microsoft.com/windows/uwp/design/accessibility/accessible-text-requirements)
+[Control.IsTextScaleFactorEanbled](../windows.ui.xaml.controls/control_istextscalefactorenabled.md), [Text scaling](/windows/uwp/design/input/text-scaling), [Accessible text requirements](/windows/uwp/design/accessibility/accessible-text-requirements)

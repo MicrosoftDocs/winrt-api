@@ -39,4 +39,4 @@ See the remarks section of the [TryZoomInAsync](mapcontrol_tryzoominasync_125171
 ## -examples
 
 ## -see-also
-[Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps)
+[Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps)

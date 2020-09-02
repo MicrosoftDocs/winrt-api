@@ -18,10 +18,10 @@ The latitude coordinate where the photo was taken.
 
 The system computes this coordinate using the following file properties:
 
-+ [System.GPS.Latitude](https://docs.microsoft.com/windows/desktop/properties/props-system-gps-latitude)
-+ [System.GPS.LatitudeDenominator](https://docs.microsoft.com/windows/desktop/properties/props-system-gps-latitudedenominator)
-+ [System.GPS.LatitudeNumerator](https://docs.microsoft.com/windows/desktop/properties/props-system-gps-latitudenumerator)
-+ [System.GPS.LatitudeRef](https://docs.microsoft.com/windows/desktop/properties/props-system-gps-latituderef)
++ [System.GPS.Latitude](/windows/desktop/properties/props-system-gps-latitude)
++ [System.GPS.LatitudeDenominator](/windows/desktop/properties/props-system-gps-latitudedenominator)
++ [System.GPS.LatitudeNumerator](/windows/desktop/properties/props-system-gps-latitudenumerator)
++ [System.GPS.LatitudeRef](/windows/desktop/properties/props-system-gps-latituderef)
 
 
 ## -remarks

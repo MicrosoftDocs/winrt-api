@@ -11,7 +11,7 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.Deprovisio
 # Windows.Management.Deployment.PackageManager.DeprovisionPackageForAllUsersAsync
 
 ## -description
-Deprovisions an app [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) so new users on the device will no longer have the app automatically installed. 
+Deprovisions an app [Package](/uwp/api/windows.applicationmodel.package) so new users on the device will no longer have the app automatically installed. 
 
 ## -parameters
 ### -param packageFamilyName
@@ -24,7 +24,7 @@ An async operation with the current [DeploymentProgress](deploymentprogress.md) 
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [PackageManager::RemovePackageAsync(String, RemovalOptions)](packagemanager_removepackageasync_1331217245.md)
 
 ## -examples

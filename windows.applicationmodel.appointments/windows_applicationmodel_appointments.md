@@ -11,7 +11,7 @@ Contains the [Appointment](appointment.md) class and related support classes. An
 
 ## -remarks
 
-For info about how to manage appointments, see [Managing appointments](https://docs.microsoft.com/windows/uwp/contacts-and-calendar/managing-appointments) and [Quickstart: Managing appointments ](https://docs.microsoft.com/previous-versions/windows/apps/dn495338(v=win.10)).
+For info about how to manage appointments, see [Managing appointments](/windows/uwp/contacts-and-calendar/managing-appointments) and [Quickstart: Managing appointments ](/previous-versions/windows/apps/dn495338(v=win.10)).
 
 ## -examples
 

@@ -16,7 +16,7 @@ Gets the list of keywords associated with the add-on (also called an in-app prod
 The keywords associated with the add-on.
 
 ## -remarks
-For more information about setting the keywords for an add-on in the dashboard, see [Enter add-on properties](https://docs.microsoft.com/windows/uwp/publish/enter-add-on-properties).
+For more information about setting the keywords for an add-on in the dashboard, see [Enter add-on properties](/windows/uwp/publish/enter-add-on-properties).
 
 ## -examples
 

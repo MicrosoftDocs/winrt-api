@@ -18,7 +18,7 @@ Creates a new [TileFlyoutUpdater](tileflyoutupdater.md) object for a specified t
 The ID of the app.
 
 ## -returns
-An object that you can use to send notification updates to the tile flyout for the specified app, clear the flyout notification, and start and stop [periodic](https://docs.microsoft.com/previous-versions/windows/apps/jj150587(v=win.10)) flyout notifications.
+An object that you can use to send notification updates to the tile flyout for the specified app, clear the flyout notification, and start and stop [periodic](/previous-versions/windows/apps/jj150587(v=win.10)) flyout notifications.
 
 ## -remarks
 

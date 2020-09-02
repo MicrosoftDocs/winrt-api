@@ -18,10 +18,10 @@ Removes installed optional app packages from the user account.
 A list of optional package family name strings.
 
 ## -returns
-The result of removing the optional package in the form of: [PackageCatalogRemoveOptionalPackagesResult](https://docs.microsoft.com/uwp/api/windows.applicationmodel.packagecatalogremoveoptionalpackagesresult).
+The result of removing the optional package in the form of: [PackageCatalogRemoveOptionalPackagesResult](/uwp/api/windows.applicationmodel.packagecatalogremoveoptionalpackagesresult).
 
 ## -remarks
-A package family name can be found in the FamilyName property of the [PackageId](https://docs.microsoft.com/uwp/api/windows.applicationmodel.packageid).
+A package family name can be found in the FamilyName property of the [PackageId](/uwp/api/windows.applicationmodel.packageid).
 
 ## -see-also
 

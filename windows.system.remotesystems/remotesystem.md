@@ -38,7 +38,7 @@ The properties of the RemoteSystem class are used to determine the operations th
 
 ## -see-also
 
-[Connected apps and devices (Project Rome)](https://docs.microsoft.com/windows/uwp/launch-resume/connected-apps-and-devices), [Remote systems sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RemoteSystems)
+[Connected apps and devices (Project Rome)](/windows/uwp/launch-resume/connected-apps-and-devices), [Remote systems sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RemoteSystems)
 
 ## -capabilities
 

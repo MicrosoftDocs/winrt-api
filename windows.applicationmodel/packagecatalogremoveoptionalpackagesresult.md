@@ -15,7 +15,7 @@ Provides information on the status of removing optional packages.
 ## -remarks
 
 ## -see-also
-[PackageCatalog](https://docs.microsoft.com/uwp/api/windows.applicationmodel.packagecatalog)
+[PackageCatalog](/uwp/api/windows.applicationmodel.packagecatalog)
 
 ## -examples
 

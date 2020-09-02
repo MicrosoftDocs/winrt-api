@@ -20,4 +20,4 @@ The identifier for the [CalendarIdentifier](calendardatepicker_calendaridentifie
 ## -examples
 
 ## -see-also
-[CalendarIdentifier](calendardatepicker_calendaridentifier.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CalendarIdentifier](calendardatepicker_calendaridentifier.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

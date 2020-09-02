@@ -19,9 +19,9 @@ Event data that is issued by any event that tracks changes to the effective valu
 
 
 ## -remarks
-You implement callbacks based on this delegate to provide the property-changed behavior for a custom dependency property. You might use this callback to provide value constraints, or to initiate value changes in other properties that depend on the value of the property that is being changed. For more info see [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties).
+You implement callbacks based on this delegate to provide the property-changed behavior for a custom dependency property. You might use this callback to provide value constraints, or to initiate value changes in other properties that depend on the value of the property that is being changed. For more info see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 
 ## -examples
 
 ## -see-also
-[Register](dependencyproperty_register_1826645607.md), [RegisterAttached](dependencyproperty_registerattached_1163670284.md), [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Register](dependencyproperty_register_1826645607.md), [RegisterAttached](dependencyproperty_registerattached_1163670284.md), [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -36,7 +36,7 @@ The value of the [Foreground](iconelement_foreground.md) property must be a [Sol
 
 The default font size for an AppBarButton Icon is 20px.
 
-You typically specify a [UriSource](bitmapicon_urisource.md) value that references a bitmap that you've included as part of the app, as a resource or otherwise within the app package. For more info on the **ms-appx:** scheme and other URI schemes that you can use to reference resources in your app, see [Uri schemes](https://docs.microsoft.com/previous-versions/windows/apps/jj655406(v=win.10)).
+You typically specify a [UriSource](bitmapicon_urisource.md) value that references a bitmap that you've included as part of the app, as a resource or otherwise within the app package. For more info on the **ms-appx:** scheme and other URI schemes that you can use to reference resources in your app, see [Uri schemes](/previous-versions/windows/apps/jj655406(v=win.10)).
 
 ### Version history
 
@@ -65,4 +65,4 @@ This example shows an [AppBarButton](appbarbutton.md) with a BitmapIcon. The [Ur
 
 
 ## -see-also
-[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Icons for UWP apps](https://docs.microsoft.com/windows/uwp/style/icons)
+[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Icons for UWP apps](/windows/uwp/style/icons)

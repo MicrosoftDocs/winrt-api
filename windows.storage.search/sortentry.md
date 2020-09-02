@@ -15,9 +15,9 @@ An entry in the [SortOrder](queryoptions_sortorder.md) list the specifies a prop
 ## -struct-fields
 
 ### -field PropertyName
-The name of the property to use for sorting, like [System.Author](https://docs.microsoft.com/windows/desktop/properties/props-system-author). The property must be registered on the system.
+The name of the property to use for sorting, like [System.Author](/windows/desktop/properties/props-system-author). The property must be registered on the system.
 
-For more information, see the [Windows Property System](https://docs.microsoft.com/windows/desktop/properties/windows-properties-system).
+For more information, see the [Windows Property System](/windows/desktop/properties/windows-properties-system).
     
 
 ### -field AscendingOrder

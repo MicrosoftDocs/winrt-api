@@ -17,4 +17,4 @@ Occurs when the user double-taps the [MapControl](mapcontrol.md). An instance of
 ## -examples
 
 ## -see-also
-[MapInputEventArgs](mapinputeventargs.md), [Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps)
+[MapInputEventArgs](mapinputeventargs.md), [Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps)

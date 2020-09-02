@@ -28,7 +28,7 @@ Gets or sets whether the [ToggleButton](togglebutton.md) is checked.
 **true** if the [ToggleButton](togglebutton.md) is checked; **false** if the [ToggleButton](togglebutton.md) is unchecked; otherwise **null**. The default is **false**.
 
 <!--Projection dochack:-->
-If you are programming using C# or Microsoft Visual Basic, the type of this property is projected as **bool?** (a nullable [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN)).
+If you are programming using C# or Microsoft Visual Basic, the type of this property is projected as **bool?** (a nullable [Boolean](/dotnet/api/system.boolean?redirectedfrom=MSDN)).
 
 ## -remarks
 [ToggleButton](togglebutton.md) and can have three states: <table>
@@ -43,9 +43,9 @@ If you are programming using C# or Microsoft Visual Basic, the type of this prop
 > [!NOTE]
 > [ToggleButton](togglebutton.md) has the same visual state for the indeterminate and unchecked states. Derived controls, like [CheckBox](../windows.ui.xaml.controls/checkbox.md), may define different visual states for each state.
 
-To set the value to **null** in XAML, use the [{x:Null} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/x-null-markup-extension).
+To set the value to **null** in XAML, use the [{x:Null} markup extension](/windows/uwp/xaml-platform/x-null-markup-extension).
 
 ## -examples
 
 ## -see-also
-[Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1), [{x:Null} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/x-null-markup-extension)
+[Nullable](/dotnet/api/system.nullable-1), [{x:Null} markup extension](/windows/uwp/xaml-platform/x-null-markup-extension)

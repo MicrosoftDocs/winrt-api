@@ -13,7 +13,7 @@ public double BaselineOffset { get; }
 Returns a value by which each line of text is offset from a baseline.
 
 ## -property-value
-The amount by which each line of text is offset from the baseline, in device independent pixels. [System.Double.NaN](https://docs.microsoft.com/dotnet/api/system.double.nan?redirectedfrom=MSDN) indicates that an optimal baseline offset is automatically calculated from the current font characteristics. The default is [System.Double.NaN](https://docs.microsoft.com/dotnet/api/system.double.nan?redirectedfrom=MSDN).
+The amount by which each line of text is offset from the baseline, in device independent pixels. [System.Double.NaN](/dotnet/api/system.double.nan?redirectedfrom=MSDN) indicates that an optimal baseline offset is automatically calculated from the current font characteristics. The default is [System.Double.NaN](/dotnet/api/system.double.nan?redirectedfrom=MSDN).
 
 ## -remarks
 > [!NOTE]

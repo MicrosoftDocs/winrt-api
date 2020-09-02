@@ -17,7 +17,7 @@ The next Play To source element.
 
 ## -remarks
 For an example of using the Next property, see [Streaming a slide show using Play To
-(JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh770876(v=win.10)) or [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting).
+(JavaScript)](/previous-versions/windows/apps/hh770876(v=win.10)) or [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 ## -examples
 

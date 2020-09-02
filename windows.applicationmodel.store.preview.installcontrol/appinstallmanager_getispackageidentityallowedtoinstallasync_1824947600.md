@@ -26,7 +26,7 @@ The publisher name of the package, as specified in the package manifest.
 True if the package with the specified identity info is allowed to be installed on the current device; otherwise, false.
 
 ## -remarks
-For more details about identity names and publisher names, see [Identity](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-identity) in the package manifest schema reference.
+For more details about identity names and publisher names, see [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity) in the package manifest schema reference.
 
 ## -see-also
 

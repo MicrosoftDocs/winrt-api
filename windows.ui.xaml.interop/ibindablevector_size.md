@@ -16,7 +16,7 @@ Gets the number of items in the vector.
 The number of items in the vector.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) interface.
 
 ## -examples
 

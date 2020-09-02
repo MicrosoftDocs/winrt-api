@@ -16,7 +16,7 @@ Gets the simulated Uniform Resource Identifier (URI) that represents a Microsoft
 The Uniform Resource Identifier (URI) of the Microsoft Store listing page for the current app as defined by the simulation.
 
 ## -remarks
-Gets the value of the **LinkUri** element in the WindowsStoreProxy.xml file. For more information, see [Using the WindowsStoreProxy.xml file with CurrentAppSimulator](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials-using-the-windows-applicationmodel-store-namespace).
+Gets the value of the **LinkUri** element in the WindowsStoreProxy.xml file. For more information, see [Using the WindowsStoreProxy.xml file with CurrentAppSimulator](/windows/uwp/monetize/in-app-purchases-and-trials-using-the-windows-applicationmodel-store-namespace).
 
 ## -examples
 

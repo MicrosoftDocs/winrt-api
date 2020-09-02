@@ -20,4 +20,4 @@ The identifier for the   [PanePlacement](splitview_paneplacement.md) dependency
 ## -examples
 
 ## -see-also
-[PanePlacement](splitview_paneplacement.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[PanePlacement](splitview_paneplacement.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

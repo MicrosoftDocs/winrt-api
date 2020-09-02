@@ -14,7 +14,7 @@ Monitors changes to the set of entities that participants add, update, or remove
 
 ## -remarks
 > [!IMPORTANT]
-> The [SpatialEntityStore](spatialentitystore.md) approach of synchronizing spatial anchors between devices is not currently supported.  Consider using [Azure Spatial Anchors](https://docs.microsoft.com/azure/spatial-anchors) instead.
+> The [SpatialEntityStore](spatialentitystore.md) approach of synchronizing spatial anchors between devices is not currently supported.  Consider using [Azure Spatial Anchors](/azure/spatial-anchors) instead.
 
 ## -see-also
 

@@ -44,4 +44,4 @@ This value is a collection of flags. It is possible to have multiple values set 
 ## -examples
 
 ## -see-also
-[Device enumeration and pairing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DeviceEnumerationAndPairing),[Pair devices](https://docs.microsoft.com/windows/uwp/devices-sensors/pair-devices)
+[Device enumeration and pairing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DeviceEnumerationAndPairing),[Pair devices](/windows/uwp/devices-sensors/pair-devices)

@@ -20,9 +20,9 @@ A collection that contains the names of the properties to retrieve.
 When this method completes successfully, it returns a collection (type [IMap](../windows.foundation.collections/imap_2.md)) that contains the specified properties and values as key-value pairs.
 
 ## -remarks
-For more information about the music-related file properties you can retrieve using this method, see [Music Windows Properties](https://docs.microsoft.com/windows/desktop/properties/music-bumper).
+For more information about the music-related file properties you can retrieve using this method, see [Music Windows Properties](/windows/desktop/properties/music-bumper).
 
-In JavaScript, use [then](https://docs.microsoft.com/previous-versions/windows/apps/br229728(v=win.10)) or [done](https://docs.microsoft.com/previous-versions/windows/apps/hh701079(v=win.10)) to specify handler functions that will capture and process the collection when it is returned.
+In JavaScript, use [then](/previous-versions/windows/apps/br229728(v=win.10)) or [done](/previous-versions/windows/apps/hh701079(v=win.10)) to specify handler functions that will capture and process the collection when it is returned.
 
 ## -examples
 

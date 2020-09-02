@@ -11,7 +11,7 @@ public AppBarButtonTemplateSettings TemplateSettings { get; }
 
 ## -description
 
-Gets an object that provides calculated values that can be referenced as [{TemplateBinding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/templatebinding-markup-extension) sources when defining templates for an AppBarButton control.
+Gets an object that provides calculated values that can be referenced as [{TemplateBinding} markup extension](/windows/uwp/xaml-platform/templatebinding-markup-extension) sources when defining templates for an AppBarButton control.
 
 ## -property-value
 

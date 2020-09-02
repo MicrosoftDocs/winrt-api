@@ -20,4 +20,4 @@ Layout updates can be forced by app code rather than relying on the built-in lay
 ## -examples
 
 ## -see-also
-[Measure](uielement_measure_1722732750.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Measure](uielement_measure_1722732750.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

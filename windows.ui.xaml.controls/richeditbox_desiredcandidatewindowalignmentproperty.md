@@ -20,4 +20,4 @@ The identifier for the [DesiredCandidateWindowAlignment](richeditbox_desiredcand
 ## -examples
 
 ## -see-also
-[DesiredCandidateWindowAlignment](richeditbox_desiredcandidatewindowalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DesiredCandidateWindowAlignment](richeditbox_desiredcandidatewindowalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

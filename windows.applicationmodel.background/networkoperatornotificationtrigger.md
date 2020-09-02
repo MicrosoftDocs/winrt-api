@@ -17,9 +17,9 @@ In preference to using **NetworkOperatorNotificationTrigger** and handling a **D
 
 <!-- confirmed -->
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ## -examples
 
 ## -see-also
-[HotspotAuthenticationEventDetails](../windows.networking.networkoperators/hotspotauthenticationeventdetails.md), [Wi-Fi hotpost authentication sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/hotspotauthentication/), [Windows 8 Integration for Wireless Hotspot Operators](https://docs.microsoft.com/windows-hardware/drivers/mobilebroadband/integrating-windows-with-wireless-hotspots), [Mobile operator notification event technical details](/windows-hardware/drivers/mobilebroadband/mobile-operator-notification-event-technical-details?branch=live)
+[HotspotAuthenticationEventDetails](../windows.networking.networkoperators/hotspotauthenticationeventdetails.md), [Wi-Fi hotpost authentication sample](/samples/microsoft/windows-universal-samples/hotspotauthentication/), [Windows 8 Integration for Wireless Hotspot Operators](/windows-hardware/drivers/mobilebroadband/integrating-windows-with-wireless-hotspots), [Mobile operator notification event technical details](/windows-hardware/drivers/mobilebroadband/mobile-operator-notification-event-technical-details?branch=live)

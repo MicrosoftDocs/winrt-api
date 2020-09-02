@@ -31,4 +31,4 @@ The unit measure for FontSize is pixels, measuring the line height of the charac
 
 ## -see-also
 
-[Text controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-controls), [Text scaling](https://docs.microsoft.com/windows/uwp/design/input/text-scaling), [Adjust layout and fonts, and support RTL](/windows/uwp/design/globalizing/adjust-layout-and-fonts--and-support-rtl)
+[Text controls](/windows/uwp/design/controls-and-patterns/text-controls), [Text scaling](/windows/uwp/design/input/text-scaling), [Adjust layout and fonts, and support RTL](/windows/uwp/design/globalizing/adjust-layout-and-fonts--and-support-rtl)

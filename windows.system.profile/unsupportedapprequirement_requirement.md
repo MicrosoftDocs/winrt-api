@@ -12,7 +12,7 @@ public string Requirement { get; }
 
 ## -description
 
-The name of the [App Capability](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations) that is not supported
+The name of the [App Capability](/en-us/windows/uwp/packaging/app-capability-declarations) that is not supported
 
 ## -property-value
 
@@ -20,7 +20,7 @@ The name of the [App Capability](https://docs.microsoft.com/en-us/windows/uwp/pa
 
 ## -see-also
 
-[App Capability Declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations)
+[App Capability Declarations](/en-us/windows/uwp/packaging/app-capability-declarations)
 
 ## -examples
 

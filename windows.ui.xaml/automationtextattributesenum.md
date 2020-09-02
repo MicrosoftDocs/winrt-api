@@ -135,9 +135,9 @@ Identifies the **CaretBidiMode** text attribute, which indicates the direction o
 
 
 ## -remarks
-For more info, see [Text Attribute Identifiers](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids).
+For more info, see [Text Attribute Identifiers](/windows/desktop/WinAuto/uiauto-textattribute-ids).
 
 ## -examples
 
 ## -see-also
-[ITextRangeProvider.GetAttributeValue](../windows.ui.xaml.automation.provider/itextrangeprovider_getattributevalue_221990744.md), [Text Attribute Identifiers](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids)
+[ITextRangeProvider.GetAttributeValue](../windows.ui.xaml.automation.provider/itextrangeprovider_getattributevalue_221990744.md), [Text Attribute Identifiers](/windows/desktop/WinAuto/uiauto-textattribute-ids)

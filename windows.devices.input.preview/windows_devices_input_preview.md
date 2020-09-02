@@ -14,7 +14,7 @@ namespace Windows.Devices.Input.Preview
 Provide support for tracking a user's gaze, attention, and presence based on the location and movement of their eyes and head.
 
 > [!NOTE]
-> For gaze input in [Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/), see [Gaze](https://docs.microsoft.com/windows/mixed-reality/gaze).
+> For gaze input in [Windows Mixed Reality](/windows/mixed-reality/), see [Gaze](/windows/mixed-reality/gaze).
 
 ## -remarks
 
@@ -32,6 +32,6 @@ To use the gaze input APIs and access both internal and peripheral devices such 
 
 ## -see-also
 
-[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions), [Gaze input sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-gazeinput-basic.zip), [Windows Community Toolkit Gaze library](https://docs.microsoft.com/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary)
+[Gaze interactions and eye tracking in UWP apps](/windows/uwp/design/input/gaze-interactions), [Gaze input sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-gazeinput-basic.zip), [Windows Community Toolkit Gaze library](/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary)
 
 ## -examples

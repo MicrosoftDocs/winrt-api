@@ -19,7 +19,7 @@ Create an **AudioStateMonitor** by calling one of its factory methods that deter
 
 Use the [SoundLevel](../windows.media/soundlevel.md) property to determine the current sound level of the monitored streams. You can check the value of this property, to determine if a category of audio streams will be muted or have its volume lowered, before initiating audio capture or playback. You can register a handler for the [SoundLevelChanged](audiostatemonitor_soundlevelchanged.md) event to receive notifications when the sound level for a category of audio streams changes, and then check the **SoundLevel** property to determine the new current audio level.
 
-For more information on using **AudioStateMonitor** in a UWP app, see [Detect and respond to audio state changes](https://docs.microsoft.com/windows/uwp/audio-video-camera/detect-and-respond-to-audio-state-changes).
+For more information on using **AudioStateMonitor** in a UWP app, see [Detect and respond to audio state changes](/windows/uwp/audio-video-camera/detect-and-respond-to-audio-state-changes).
 
 ## -see-also
 

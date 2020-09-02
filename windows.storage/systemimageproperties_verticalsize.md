@@ -10,10 +10,10 @@ public string VerticalSize { get; }
 # Windows.Storage.SystemImageProperties.VerticalSize
 
 ## -description
-Gets the name of the [System.Image.VerticalSize](https://docs.microsoft.com/windows/desktop/properties/props-system-image-verticalsize) property (one of the [Windows image file properties](https://docs.microsoft.com/windows/desktop/properties/image-bumper)).
+Gets the name of the [System.Image.VerticalSize](/windows/desktop/properties/props-system-image-verticalsize) property (one of the [Windows image file properties](/windows/desktop/properties/image-bumper)).
 
 ## -property-value
-The name of the [System.Image.VerticalSize](https://docs.microsoft.com/windows/desktop/properties/props-system-image-verticalsize) file property.
+The name of the [System.Image.VerticalSize](/windows/desktop/properties/props-system-image-verticalsize) file property.
 
 ## -remarks
 

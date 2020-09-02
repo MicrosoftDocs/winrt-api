@@ -14,10 +14,10 @@ public class SmsSendMessageResult : Windows.Devices.Sms.ISmsSendMessageResult
 Encapsulates the results of calling [SmsDevice2.SendMessageAndGetResultAsync](smsdevice2_sendmessageandgetresultasync_123752871.md).
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](https://docs.microsoft.com/windows-hardware/drivers/mobilebroadband/index).
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](/windows-hardware/drivers/mobilebroadband/index).
 
 ## -remarks
-You access an SmsSendMessageResult object through the asynchronous result of the [SmsDevice2.SendMessageAndGetResultAsync](smsdevice2_sendmessageandgetresultasync_123752871.md) method. For information about working with the results of asynchronous methods, see [Asynchronous programming (Windows Runtime apps)](https://docs.microsoft.com/previous-versions/windows/apps/hh464924(v=win.10)).
+You access an SmsSendMessageResult object through the asynchronous result of the [SmsDevice2.SendMessageAndGetResultAsync](smsdevice2_sendmessageandgetresultasync_123752871.md) method. For information about working with the results of asynchronous methods, see [Asynchronous programming (Windows Runtime apps)](/previous-versions/windows/apps/hh464924(v=win.10)).
 
 ## -examples
 

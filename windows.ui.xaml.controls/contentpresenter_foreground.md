@@ -44,4 +44,4 @@ The brush used as the foreground brush for the text contents. The default is a n
 ## -examples
 
 ## -see-also
-[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Use brushes](/windows/uwp/graphics/using-brushes)

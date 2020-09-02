@@ -21,4 +21,4 @@ The Windows Runtime is a native Component Object Model (COM) based API. You can 
 ## -examples
 
 ## -see-also
-[IXamlMetadataProvider](ixamlmetadataprovider.md), [IXamlMember](ixamlmember.md), [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)
+[IXamlMetadataProvider](ixamlmetadataprovider.md), [IXamlMember](ixamlmember.md), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)

@@ -20,4 +20,4 @@ The authentication key required for using the [MapControl](mapcontrol.md) and on
 ## -examples
 
 ## -see-also
-[Request a maps authentication key](https://docs.microsoft.com/windows/uwp/maps-and-location/authentication-key), [Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps)
+[Request a maps authentication key](/windows/uwp/maps-and-location/authentication-key), [Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps)

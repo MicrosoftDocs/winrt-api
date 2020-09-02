@@ -60,7 +60,7 @@ To add a SettingsFlyout control to an app project in Microsoft Visual Studio:
 
 To instantiate your SettingsFlyout control, use the class name you specified and the default constructor for it. For example, if you named your SettingsFlyout class as `UpdateSettingsFlyout`, you'd call `new UpdateSettingsFlyout()`.
 
-For more information and detailed steps, see [Quickstart: Add app settings](https://docs.microsoft.com/previous-versions/windows/apps/hh872190(v=win.10)) and [Quickstart: Add app help](https://docs.microsoft.com/previous-versions/windows/apps/jj649425(v=win.10)).
+For more information and detailed steps, see [Quickstart: Add app settings](/previous-versions/windows/apps/hh872190(v=win.10)) and [Quickstart: Add app help](/previous-versions/windows/apps/jj649425(v=win.10)).
 
 ## -examples
 This example shows the result of adding a templated item for **Settings Flyout** and naming the class `UpdateSettingsFlyout`. Then, the `SettingsFlyoutSectionStyle` resource is redefined, and appropriate strings and controls are added to the XAML composition of the SettingsFlyout XAML so that the user can adjust the settings.
@@ -167,4 +167,4 @@ private void UpdateSettingsButton_Click(object sender, RoutedEventArgs e)
 For more code in context, see the [App settings sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/App%20settings%20sample).
 
 ## -see-also
-[ContentControl](contentcontrol.md), [Quickstart: Add app settings](https://docs.microsoft.com/previous-versions/windows/apps/hh872190(v=win.10)), [Quickstart: Add app help](https://docs.microsoft.com/previous-versions/windows/apps/jj649425(v=win.10)), [App settings sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/App%20settings%20sample)
+[ContentControl](contentcontrol.md), [Quickstart: Add app settings](/previous-versions/windows/apps/hh872190(v=win.10)), [Quickstart: Add app help](/previous-versions/windows/apps/jj649425(v=win.10)), [App settings sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/App%20settings%20sample)

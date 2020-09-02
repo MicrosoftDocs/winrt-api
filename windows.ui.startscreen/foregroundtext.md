@@ -28,4 +28,4 @@ A Windows-specified default light text color.
 ## -examples
 
 ## -see-also
-[ForegroundText property](secondarytile_foregroundtext.md), [Secondary tiles sample](http://code.msdn.microsoft.com/windowsapps/secondary-tiles-sample-edf2a178)
+[ForegroundText property](secondarytile_foregroundtext.md), [Secondary tiles sample](/samples/browse/)

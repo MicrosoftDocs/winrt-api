@@ -15,7 +15,7 @@ Activate the full-trust Win32 component of an application from a Universal Windo
 ## -remarks
 The methods in this class may only be called by packages that have the **runFullTrust** capability.
 
-To use this class, we recommend that you add a **Windows Application Packaging Project** to your solution ([Learn more](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)). Then, in the package manifest of that project, add the ``windows.fullTrustProcess`` extension.
+To use this class, we recommend that you add a **Windows Application Packaging Project** to your solution ([Learn more](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)). Then, in the package manifest of that project, add the ``windows.fullTrustProcess`` extension.
 
 Here's an example.
 

@@ -26,4 +26,4 @@ For secondary windows, you also need to call Activate. For more info about secon
 ## -examples
 
 ## -see-also
-[Application](application.md), [OnLaunched](application_onlaunched_859642554.md), [Activated](window_activated.md), [Handle app activation](https://docs.microsoft.com/windows/uwp/launch-resume/activate-an-app), [Navigation](https://docs.microsoft.com/windows/uwp/layout/navigation-basics)
+[Application](application.md), [OnLaunched](application_onlaunched_859642554.md), [Activated](window_activated.md), [Handle app activation](/windows/uwp/launch-resume/activate-an-app), [Navigation](/windows/uwp/layout/navigation-basics)

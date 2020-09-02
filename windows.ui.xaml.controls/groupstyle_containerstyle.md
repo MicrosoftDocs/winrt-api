@@ -41,4 +41,4 @@ The style that is applied to the [GroupItem](groupitem.md) generated for each it
 ## -examples
 
 ## -see-also
-[HeaderContainerStyle](groupstyle_headercontainerstyle.md), [How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10))
+[HeaderContainerStyle](groupstyle_headercontainerstyle.md), [How to group items in a list or grid](/previous-versions/windows/apps/hh780627(v=win.10))

@@ -12,13 +12,13 @@ public IVectorView<UnsupportedAppRequirement> AppApplicability.GetUnsupportedApp
 
 ## -description
 
-Given a list of [App Capabilities](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations) required by an app, returns a list of [UnsupportedAppRequirement](unsupportedapprequirement.md) objects representing capabilities in the list that are not supported on the current device
+Given a list of [App Capabilities](/en-us/windows/uwp/packaging/app-capability-declarations) required by an app, returns a list of [UnsupportedAppRequirement](unsupportedapprequirement.md) objects representing capabilities in the list that are not supported on the current device
 
 ## -parameters
 
 ### -param capabilities
 
-A list of [App Capability](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations) strings
+A list of [App Capability](/en-us/windows/uwp/packaging/app-capability-declarations) strings
 
 ## -returns
 
@@ -28,7 +28,7 @@ A collection of [UnsupportedAppRequirement](unsupportedapprequirement.md) object
 
 ## -see-also
 
-[App Capability Declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations)
+[App Capability Declarations](/en-us/windows/uwp/packaging/app-capability-declarations)
 
 ## -examples
 

@@ -23,9 +23,9 @@ The FocusControl gives apps additional control over the focus settings on a devi
 
 You can use one of the [FocusPreset](focuspreset.md) values by calling [SetPresetAsync](focuscontrol_setpresetasync_183048954.md). Or call [SetValueAsync](focuscontrol_setvalueasync_2096210171.md) to set a specific [Value](focuscontrol_value.md) between the [Min](focuscontrol_min.md) and [Max](focuscontrol_max.md).
 
-For how-to guidance for using the **FocusControl**, see [Manual camera controls for photo and video capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture).
+For how-to guidance for using the **FocusControl**, see [Manual camera controls for photo and video capture](/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture).
 
 ## -examples
 
 ## -see-also
-[MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md), [Manual camera controls for photo and video capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture)
+[MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md), [Manual camera controls for photo and video capture](/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture)

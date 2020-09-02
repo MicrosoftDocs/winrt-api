@@ -20,4 +20,4 @@ ThicknessHelper is one of several **Helper** classes that are intended to provid
 ## -examples
 
 ## -see-also
-[Thickness](thickness.md), [Margin](frameworkelement_margin.md), [Padding](../windows.ui.xaml.controls/control_padding.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Thickness](thickness.md), [Margin](frameworkelement_margin.md), [Padding](../windows.ui.xaml.controls/control_padding.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

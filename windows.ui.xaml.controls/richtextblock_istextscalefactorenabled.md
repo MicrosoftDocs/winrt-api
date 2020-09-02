@@ -26,4 +26,4 @@ Gets or sets whether automatic text enlargement, to reflect the system text size
 ## -examples
 
 ## -see-also
-[Accessible text requirements](https://docs.microsoft.com/windows/uwp/accessibility/accessible-text-requirements)
+[Accessible text requirements](/windows/uwp/accessibility/accessible-text-requirements)

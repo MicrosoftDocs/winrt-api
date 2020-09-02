@@ -17,7 +17,7 @@ Provides functionality for registering clients with the Connected User Experienc
 > Only first-party applications should use this property.
 
 ## -see-also
-[Configure Windows telemetry in your organization](https://docs.microsoft.com/windows/manage/configure-windows-telemetry-in-your-organization)
+[Configure Windows telemetry in your organization](/windows/manage/configure-windows-telemetry-in-your-organization)
 
 ## -examples
 

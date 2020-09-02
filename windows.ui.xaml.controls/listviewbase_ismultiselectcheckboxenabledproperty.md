@@ -20,4 +20,4 @@ The identifier for the [IsMultiSelectCheckBoxEnabled](listviewbase_ismultiselect
 ## -examples
 
 ## -see-also
-[IsMultiSelectCheckBoxEnabled](listviewbase_ismultiselectcheckboxenabled.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsMultiSelectCheckBoxEnabled](listviewbase_ismultiselectcheckboxenabled.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

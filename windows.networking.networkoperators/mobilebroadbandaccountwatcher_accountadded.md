@@ -18,7 +18,7 @@ Occurs when a Mobile Broadband Account is added to the client.
 
 
 
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations). 
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations). 
 
 ## -remarks
 The network account id of the account is available in the event handler from the [NetworkAccountId](mobilebroadbandaccounteventargs_networkaccountid.md) property.

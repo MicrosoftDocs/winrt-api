@@ -21,7 +21,7 @@ You configure the capture device to use a particular video profile by using the 
 
 Before using video profiles, you should check the value returned by [MediaCapture.IsVideoProfileSupported](mediacapture_isvideoprofilesupported_190014579.md) to make sure that video profiles are supported by the capture device.
 
-For how-to guidance for working with video profiles, see [Discover and select camera capabilities with camera profiles](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera-profiles).
+For how-to guidance for working with video profiles, see [Discover and select camera capabilities with camera profiles](/windows/uwp/audio-video-camera/camera-profiles).
 
 ### Version history
 
@@ -33,6 +33,6 @@ For how-to guidance for working with video profiles, see [Discover and select ca
 ## -examples
 
 ## -see-also
-[FindKnownVideoProfiles](mediacapture_findknownvideoprofiles_875917242.md), [FindAllVideoProfiles](mediacapture_findallvideoprofiles_690787568.md), [FindConcurrentProfiles](mediacapture_findconcurrentprofiles_834250833.md), [MediaCaptureVideoProfileMediaDescription](mediacapturevideoprofilemediadescription.md), [Discover and select camera capabilities with camera profiles](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera-profiles)
+[FindKnownVideoProfiles](mediacapture_findknownvideoprofiles_875917242.md), [FindAllVideoProfiles](mediacapture_findallvideoprofiles_690787568.md), [FindConcurrentProfiles](mediacapture_findconcurrentprofiles_834250833.md), [MediaCaptureVideoProfileMediaDescription](mediacapturevideoprofilemediadescription.md), [Discover and select camera capabilities with camera profiles](/windows/uwp/audio-video-camera/camera-profiles)
 ## -capabilities
 backgroundMediaRecording

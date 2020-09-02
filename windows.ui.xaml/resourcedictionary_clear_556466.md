@@ -18,4 +18,4 @@ Removes all items from this [ResourceDictionary](resourcedictionary.md).
 ## -examples
 
 ## -see-also
-[Clear](https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear#System_Collections_Generic_ICollection_1_Clear), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Clear](/dotnet/api/system.collections.generic.icollection-1.clear#System_Collections_Generic_ICollection_1_Clear), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

@@ -22,7 +22,7 @@ Call **GetForUser** if your app supports multiple users. Call **GetDefault** if 
 
 ## -see-also
 
-[Configure kiosks and digital signs on Windows desktop editions](https://docs.microsoft.com/windows/configuration/kiosk-methods)
+[Configure kiosks and digital signs on Windows desktop editions](/windows/configuration/kiosk-methods)
 
 ## -examples
 

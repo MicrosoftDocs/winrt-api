@@ -20,4 +20,4 @@ Gets whether the XAML member is read-only in its backing implementation.
 ## -examples
 
 ## -see-also
-[XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)
+[XAML overview](/windows/uwp/xaml-platform/xaml-overview)

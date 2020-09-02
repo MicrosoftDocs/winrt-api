@@ -15,10 +15,10 @@ Represents a writeable vector collection of objects that is bindable.
 
 
 > **.NET**
-> This interface appears as [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN).
+> This interface appears as [System.Collections.IList](/dotnet/api/system.collections.ilist?redirectedfrom=MSDN).
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) interface.
 
 ### Interface inheritance
 

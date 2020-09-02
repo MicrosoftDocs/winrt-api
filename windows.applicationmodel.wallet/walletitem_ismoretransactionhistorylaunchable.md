@@ -16,9 +16,9 @@ Gets or sets whether your app should be launched when the user taps "see more tr
 **true** if your app should be launched when the user taps on "see more transaction history", Otherwise, **false**.
 
 ## -remarks
-For more info on using **Wallet** activation, see the "Handling app activation by Wallet " section of [Quickstart: Using the   APIs](https://docs.microsoft.com/previous-versions/windows/apps/dn631257(v=win.10)).
+For more info on using **Wallet** activation, see the "Handling app activation by Wallet " section of [Quickstart: Using the   APIs](/previous-versions/windows/apps/dn631257(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[WalletActionActivatedEventArgs](../windows.applicationmodel.activation/walletactionactivatedeventargs.md), [App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle)
+[WalletActionActivatedEventArgs](../windows.applicationmodel.activation/walletactionactivatedeventargs.md), [App lifecycle](/windows/uwp/launch-resume/app-lifecycle)

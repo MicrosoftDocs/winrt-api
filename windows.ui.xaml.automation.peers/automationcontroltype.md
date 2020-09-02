@@ -142,4 +142,4 @@ A semantic zoom control.
 ## -examples
 
 ## -see-also
-[GetAutomationControlTypeCore](automationpeer_getautomationcontroltypecore_1718556232.md), [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[GetAutomationControlTypeCore](automationpeer_getautomationcontroltypecore_1718556232.md), [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

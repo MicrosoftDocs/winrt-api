@@ -16,7 +16,7 @@ Gets the [HdrVideoControl](hdrvideocontrol.md) associated with the [VideoDeviceC
 The [HdrVideoControl](hdrvideocontrol.md) associated with the [VideoDeviceController](videodevicecontroller.md).
 
 ## -remarks
-For how-to guidance and sample code for using HDR video capture, see [Manual camera controls for video capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-video-capture).
+For how-to guidance and sample code for using HDR video capture, see [Manual camera controls for video capture](/windows/uwp/audio-video-camera/capture-device-controls-for-video-capture).
 
 ## -examples
 

@@ -10,7 +10,7 @@ public class ExtendedExecutionSession : Windows.ApplicationModel.ExtendedExecuti
 # Windows.ApplicationModel.ExtendedExecution.ExtendedExecutionSession
 
 ## -description
-Supports managing a request for background execution. For more information on how to use Extended Execution, see [Run while minimized with Extended Execution](https://docs.microsoft.com/windows/uwp/launch-resume/run-minimized-with-extended-execution)
+Supports managing a request for background execution. For more information on how to use Extended Execution, see [Run while minimized with Extended Execution](/windows/uwp/launch-resume/run-minimized-with-extended-execution)
 
 ## -remarks
 The amount of time available to perform background execution may be several minutes, but you must be prepared to handle the session being revoked at any time.

@@ -18,4 +18,4 @@ For more info on IXamlMetadataProvider, [IXamlType](ixamltype.md) and [IXamlMemb
 ## -examples
 
 ## -see-also
-[IXamlType](ixamltype.md), [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)
+[IXamlType](ixamltype.md), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)

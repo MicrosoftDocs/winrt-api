@@ -20,4 +20,4 @@ The identifier for the [FirstOfYearDecadeLabelFontSize](calendarview_firstofyear
 ## -examples
 
 ## -see-also
-[FirstOfYearDecadeLabelFontSize](calendarview_firstofyeardecadelabelfontsize.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[FirstOfYearDecadeLabelFontSize](calendarview_firstofyeardecadelabelfontsize.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

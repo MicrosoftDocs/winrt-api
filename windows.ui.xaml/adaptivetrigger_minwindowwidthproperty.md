@@ -23,4 +23,4 @@ To access the [MinWindowWidth](adaptivetrigger_minwindowwidth.md) dependency pro
 ## -examples
 
 ## -see-also
-[MinWindowWidth](adaptivetrigger_minwindowwidth.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MinWindowWidth](adaptivetrigger_minwindowwidth.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

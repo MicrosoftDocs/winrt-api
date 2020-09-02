@@ -25,4 +25,4 @@ The identifier for the [GridViewItemPresenterVerticalContentAlignment](gridviewi
 ## -examples
 
 ## -see-also
-[GridViewItemPresenterVerticalContentAlignment](gridviewitempresenter_gridviewitempresenterverticalcontentalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[GridViewItemPresenterVerticalContentAlignment](gridviewitempresenter_gridviewitempresenterverticalcontentalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

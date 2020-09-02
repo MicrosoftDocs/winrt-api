@@ -16,10 +16,10 @@ Gets complete data for the current SKU availability from the Store in JSON forma
 A JSON-formatted string that contains complete data for the current SKU availability from the Store.
 
 ## -remarks
-Use the **ExtendedJsonData** property to access the complete data for the [StoreAvailability](storeavailability.md) object as a JSON-formatted string in your code. For more information about the structure of the data, see [Data schemas for Store products](https://docs.microsoft.com/windows/uwp/monetize/data-schemas-for-store-products).
+Use the **ExtendedJsonData** property to access the complete data for the [StoreAvailability](storeavailability.md) object as a JSON-formatted string in your code. For more information about the structure of the data, see [Data schemas for Store products](/windows/uwp/monetize/data-schemas-for-store-products).
 
 
 ## -examples
 
 ## -see-also
-[Data schemas for Store products](https://docs.microsoft.com/windows/uwp/monetize/data-schemas-for-store-products)
+[Data schemas for Store products](/windows/uwp/monetize/data-schemas-for-store-products)

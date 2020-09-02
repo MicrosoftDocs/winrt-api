@@ -19,7 +19,7 @@ An enumeration value that specifies the control's preference for whether it play
 
 ## -remarks
 
-For more info, see [Sound in UWP apps](https://docs.microsoft.com/windows/uwp/design/style/sound).
+For more info, see [Sound in UWP apps](/windows/uwp/design/style/sound).
 
 ## -see-also
 

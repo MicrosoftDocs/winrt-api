@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IIterable<Windows.Management.Deployment.Pa
 # Windows.Management.Deployment.PackageManager.FindUsers
 
 ## -description
-Finds the users who have installed the specified [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package).
+Finds the users who have installed the specified [Package](/uwp/api/windows.applicationmodel.package).
 
 ## -parameters
 ### -param packageFullName
@@ -216,7 +216,7 @@ void SidToAccountName(wstring sidString, wstring& stringSid)
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [Enumerate app packages sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindProvisionedPackages), [Enumerate app packages by name and publisher sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher)
 
 ## -capabilities

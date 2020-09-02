@@ -13,7 +13,7 @@ public IVectorView<HostName> RemoteSystemSessionParticipant.GetHostNames()
 Retrieves a list of host names for this remote session participant that are resolvable by the other remote systems in the session.
 
 ## -returns
-A list of [HostName](https://docs.microsoft.com/uwp/api/windows.networking.hostname) objects for the IP/Bluetooth addresses of this remote system.
+A list of [HostName](/uwp/api/windows.networking.hostname) objects for the IP/Bluetooth addresses of this remote system.
 
 ## -remarks
 

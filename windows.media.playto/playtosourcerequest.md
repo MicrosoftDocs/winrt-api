@@ -17,7 +17,7 @@ The PlayToSourceRequest class represents a user request for source media to stre
 
 You can use the [GetDeferral](playtosourcerequest_getdeferral_254836512.md) method to create a deferral for when you want to make an asynchronous call to retrieve the media element to stream. Play To will then wait for you to supply the media element until you mark the deferral as complete.
 
-For an example of how to use Play To in an application, see [Quickstart: Using Play To in applications (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465184(v=win.10)) or [PlayReady DRM](https://docs.microsoft.com/windows/uwp/audio-video-camera/playready-client-sdk).
+For an example of how to use Play To in an application, see [Quickstart: Using Play To in applications (JavaScript)](/previous-versions/windows/apps/hh465184(v=win.10)) or [PlayReady DRM](/windows/uwp/audio-video-camera/playready-client-sdk).
 
 ## -examples
 

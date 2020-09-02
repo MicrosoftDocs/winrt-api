@@ -20,4 +20,4 @@ The identifier for the [DayOfWeekFormat](calendarview_dayofweekformat.md)   dep
 ## -examples
 
 ## -see-also
-[DayOfWeekFormat](calendarview_dayofweekformat.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DayOfWeekFormat](calendarview_dayofweekformat.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

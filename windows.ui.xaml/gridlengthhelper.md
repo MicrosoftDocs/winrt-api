@@ -23,4 +23,4 @@ GridLengthHelper is one of several **Helper** classes that are intended to provi
 
 ## -see-also
 
-[Grid](../windows.ui.xaml.controls/grid.md), GridLength, [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Grid](../windows.ui.xaml.controls/grid.md), GridLength, [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

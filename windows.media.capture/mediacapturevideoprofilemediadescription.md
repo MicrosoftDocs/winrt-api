@@ -17,7 +17,7 @@ An instance of MediaCaptureVideoProfileMediaDescription defines a group of captu
 
 You configure the capture device to use a particular MediaCaptureVideoProfileMediaDescription by using the [MediaCaptureInitializationSettings](mediacaptureinitializationsettings.md) object. It is important that the video profile media description values you use when configuring the device are compatible with the other initialization settings. For more information on how to correctly use media profile descriptions in the [MediaCaptureInitializationSettings](mediacaptureinitializationsettings.md), see [MediaCaptureInitializationSettings.PhotoMediaDescription](mediacaptureinitializationsettings_photomediadescription.md), [MediaCaptureInitializationSettings.PreviewMediaDescription](mediacaptureinitializationsettings_previewmediadescription.md), and [MediaCaptureInitializationSettings.RecordMediaDescription](mediacaptureinitializationsettings_recordmediadescription.md).
 
-For how-to guidance for working with video profiles, see [Discover and select camera capabilities with camera profiles](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera-profiles).
+For how-to guidance for working with video profiles, see [Discover and select camera capabilities with camera profiles](/windows/uwp/audio-video-camera/camera-profiles).
 
 ### Version history
 
@@ -29,6 +29,6 @@ For how-to guidance for working with video profiles, see [Discover and select ca
 ## -examples
 
 ## -see-also
-[MediaCaptureVideoProfile](mediacapturevideoprofile.md), [MediaCaptureInitializationSettings](mediacaptureinitializationsettings.md), [Discover and select camera capabilities with camera profiles](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera-profiles)
+[MediaCaptureVideoProfile](mediacapturevideoprofile.md), [MediaCaptureInitializationSettings](mediacaptureinitializationsettings.md), [Discover and select camera capabilities with camera profiles](/windows/uwp/audio-video-camera/camera-profiles)
 ## -capabilities
 backgroundMediaRecording

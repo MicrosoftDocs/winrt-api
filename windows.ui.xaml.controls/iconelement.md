@@ -26,4 +26,4 @@ IconElement is the parent class for these classes:
 ## -examples
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [AppBarButton](appbarbutton.md), [Icons for UWP apps](https://docs.microsoft.com/windows/uwp/style/icons)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [AppBarButton](appbarbutton.md), [Icons for UWP apps](/windows/uwp/style/icons)

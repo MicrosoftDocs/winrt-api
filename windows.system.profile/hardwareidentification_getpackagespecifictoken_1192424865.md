@@ -25,4 +25,4 @@ The GetPackageSpecificToken is designed for use by professional developers who h
 ## -examples
 
 ## -see-also
-[Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](https://docs.microsoft.com/previous-versions/windows/apps/jj553431(v=win.10))
+[Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](/previous-versions/windows/apps/jj553431(v=win.10))

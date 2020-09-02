@@ -17,6 +17,6 @@ A system picker UI control that allows the customer to select an item on the scr
 
 ## -see-also
 
-[Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)
+[Screen capture](/windows/uwp/audio-video-camera/screen-capture)
 
 ## -examples

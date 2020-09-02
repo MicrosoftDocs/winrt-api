@@ -15,7 +15,7 @@ The target volume on which to store app data.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [RegisterPackageOptions][registerpackageoptions.md]
 
 ## -examples

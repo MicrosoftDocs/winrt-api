@@ -16,7 +16,7 @@ Provides access to the results of a query that lists the folder (or file groups)
 ## -remarks
 
 > [!NOTE]
-> Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx).
+> Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx).
 <!--W8B 988884 v2-->
 
 You can get a storageFolderQueryResult object by calling the following methods from a [storageFolder](../windows.storage/storagefolder.md) or a [folderInformation](../windows.storage.bulkaccess/folderinformation.md) object:
@@ -26,7 +26,7 @@ You can get a storageFolderQueryResult object by calling the following methods f
 + [folderInformation.createFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery_325438332.md)
 + [folderInformation.createFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions_573382953.md)
 
-For more code examples that show you how to use storageFolderQueryResult objects, see the [Folder enumeration sample](http://code.msdn.microsoft.com/windowsapps/Folder-enumeration-sample-33ebd000).
+For more code examples that show you how to use storageFolderQueryResult objects, see the [Folder enumeration sample](/samples/browse/).
 
 To get a StorageFolderQueryResult object to enumerate the folders or file groups in a location, you must get a [storageFolder](../windows.storage/storagefolder.md) that represents the location and then create a folder query
 
@@ -98,7 +98,7 @@ queryResult.getFoldersAsync().done(function(folders) {
 The `queryResult` variable gets the storageFolderQueryResult that is used to retrieve file groups (or folders) that meet the criteria of the query.
 
 > [!NOTE]
-> You need the Pictures library capability to access the library using [KnownFolders.PicturesLibrary](../windows.storage/knownfolders_pictureslibrary.md). To learn more about capabilities and file access, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
+> You need the Pictures library capability to access the library using [KnownFolders.PicturesLibrary](../windows.storage/knownfolders_pictureslibrary.md). To learn more about capabilities and file access, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
 ## -see-also
 

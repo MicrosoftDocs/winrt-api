@@ -7,7 +7,7 @@
 
 ## -description
 
-Provides APIs for [getting the current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location) or tracking the device's location over time. Location information may come from estimating a position from beacons like Wi-Fi access points and cell towers, from the device's IP address, or it may come from other sources such as a GNSS or GPS device. The Windows.Devices.Geolocation API provides the most appropriate geolocation data from all available sources.
+Provides APIs for [getting the current location](/windows/uwp/maps-and-location/get-location) or tracking the device's location over time. Location information may come from estimating a position from beacons like Wi-Fi access points and cell towers, from the device's IP address, or it may come from other sources such as a GNSS or GPS device. The Windows.Devices.Geolocation API provides the most appropriate geolocation data from all available sources.
 
 The accuracy of the location information depends on the source. The latitude and longitude may vary within the following ranges:
 
@@ -41,7 +41,7 @@ Sample applications that use classes from this namespace include the [Geolocatio
 
 ## -see-also
 
-[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [Geolocation sample](/samples/microsoft/windows-universal-samples/geolocation/), [Geotag sample](/samples/microsoft/windows-universal-samples/geotag/)
+[Get current location](/windows/uwp/maps-and-location/get-location), [Set up a geofence](/windows/uwp/maps-and-location/set-up-a-geofence), [Geolocation sample](/samples/microsoft/windows-universal-samples/geolocation/), [Geotag sample](/samples/microsoft/windows-universal-samples/geotag/)
 
 ## -capabilities
 

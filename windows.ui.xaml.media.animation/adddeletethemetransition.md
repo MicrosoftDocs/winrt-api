@@ -41,4 +41,4 @@ The following example shows how to use the AddDeleteThemeTransition to animate r
 [!code-csharp[AddDeleteThemeTransition_code](../windows.ui.xaml.media.animation/code/AddDeleteThemeTransition/csharp/BlankPage.xaml.cs#SnippetAddDeleteThemeTransition_code)]
 
 ## -see-also
-[Transition](transition.md), [Guidelines for add and delete animations](https://docs.microsoft.com/windows/uwp/design/motion/motion-list)
+[Transition](transition.md), [Guidelines for add and delete animations](/windows/uwp/design/motion/motion-list)

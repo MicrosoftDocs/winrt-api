@@ -77,5 +77,5 @@ for (auto gamepad : Gamepad::Gamepads)
 ## -see-also
 
 [Windows.Gaming.Input.IGameController](igamecontroller.md),
-[Gamepad and vibration](https://docs.microsoft.com/windows/uwp/gaming/gamepad-and-vibration),
-[Input practices for games](https://docs.microsoft.com/windows/uwp/gaming/input-practices-for-games)
+[Gamepad and vibration](/windows/uwp/gaming/gamepad-and-vibration),
+[Input practices for games](/windows/uwp/gaming/input-practices-for-games)

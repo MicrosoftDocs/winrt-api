@@ -13,7 +13,7 @@ public HydrationPolicy HydrationPolicy { get;  set; }
 The hydration policy of the sync root registration.
 
 ## -property-value
-A [storage provider hydration policy](https://docs.microsoft.com/uwp/api/windows.storage.provider.storageproviderhydrationpolicy) enum value.
+A [storage provider hydration policy](/uwp/api/windows.storage.provider.storageproviderhydrationpolicy) enum value.
 
 ## -remarks
 

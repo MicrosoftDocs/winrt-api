@@ -17,7 +17,7 @@ Represents the custom contact store for a Windows Phone app.
 ## -examples
 
 ## -see-also
-[ContactQueryResult class](contactqueryresult.md), [Implementing contact bindings in a   app](https://docs.microsoft.com/previous-versions/windows/apps/dn642083(v=vs.105))
+[ContactQueryResult class](contactqueryresult.md), [Implementing contact bindings in a   app](/previous-versions/windows/apps/dn642083(v=vs.105))
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

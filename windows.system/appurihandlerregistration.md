@@ -23,7 +23,7 @@ Registrations follow the same structure as entries in the AppxManifest:
 </uap3:Extension>
 
 ## -see-also
-[AppUriHandler](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking)
+[AppUriHandler](/windows/uwp/launch-resume/web-to-app-linking)
 
 ## -examples
 ```csharp

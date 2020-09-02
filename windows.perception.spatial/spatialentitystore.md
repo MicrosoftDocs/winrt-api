@@ -14,7 +14,7 @@ Represents a shared pool of spatial entities, synchronized automatically among t
 
 ## -remarks
 > [!IMPORTANT]
-> The **SpatialEntityStore** approach of synchronizing spatial anchors between devices is not currently supported.  Consider using [Azure Spatial Anchors](https://docs.microsoft.com/azure/spatial-anchors) instead.
+> The **SpatialEntityStore** approach of synchronizing spatial anchors between devices is not currently supported.  Consider using [Azure Spatial Anchors](/azure/spatial-anchors) instead.
 
 ## -see-also
 

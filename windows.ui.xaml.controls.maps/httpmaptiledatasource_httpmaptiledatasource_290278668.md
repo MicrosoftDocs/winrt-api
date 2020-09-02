@@ -21,4 +21,4 @@ The Uri format to use.
 ## -examples
 
 ## -see-also
-[Overlay tiled images on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/overlay-tiled-images)
+[Overlay tiled images on a map](/windows/uwp/maps-and-location/overlay-tiled-images)

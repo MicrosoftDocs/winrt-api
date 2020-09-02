@@ -17,7 +17,7 @@ Used by the server app to send a set of data in key/value pairs to the DIAL REST
 The set of key/value pairs to send to the DIAL REST service.
 
 ## -returns
-Clients retrieve the additional data by making an HTTP GET request to the DIAL REST service application URL.  UWP client apps can perform this task by calling [DialDevice.GetDialApp](https://docs.microsoft.com/uwp/api/windows.media.dialprotocol.dialdevice#Windows_Media_DialProtocol_DialDevice_GetDialApp_System_String_) followed by [DialApp.GetAppStateAsync](https://docs.microsoft.com/uwp/api/windows.media.dialprotocol.dialapp.GetAppStateAsync), and then accessing the [DialAppStateDetails.FullXml](https://docs.microsoft.com/uwp/api/windows.media.dialprotocol.dialappstatedetails.FullXml) property to retrieve the additional data.  The additional data is added to the DIAL app XML in accordance with the DIAL specification.
+Clients retrieve the additional data by making an HTTP GET request to the DIAL REST service application URL.  UWP client apps can perform this task by calling [DialDevice.GetDialApp](/uwp/api/windows.media.dialprotocol.dialdevice#Windows_Media_DialProtocol_DialDevice_GetDialApp_System_String_) followed by [DialApp.GetAppStateAsync](/uwp/api/windows.media.dialprotocol.dialapp.GetAppStateAsync), and then accessing the [DialAppStateDetails.FullXml](/uwp/api/windows.media.dialprotocol.dialappstatedetails.FullXml) property to retrieve the additional data.  The additional data is added to the DIAL app XML in accordance with the DIAL specification.
 
 ## -remarks
 

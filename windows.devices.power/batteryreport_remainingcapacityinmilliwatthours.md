@@ -22,4 +22,4 @@ To calculate the battery level, divide RemainingCapacityInMilliwattHours by [Ful
 ## -examples
 
 ## -see-also
-[Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10))
+[Get battery information](/previous-versions/windows/apps/dn895210(v=win.10))

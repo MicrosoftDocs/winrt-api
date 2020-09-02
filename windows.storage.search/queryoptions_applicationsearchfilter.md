@@ -16,7 +16,7 @@ Gets or sets an application-defined Advanced Query Syntax (AQS) string for filte
 A simple keyword, or a string that conforms to Advanced Query Syntax (AQS). For more information, see [Using Advanced Query Syntax Programmatically](/windows/win32/search/-search-3x-advancedquerysyntax).
 
 ## -remarks
-The application search filter should always use locale-invariant Advanced Query Syntax (AQS) syntax (such as [System.FileName](https://docs.microsoft.com/windows/desktop/properties/props-system-filename) instead of "filename" (because the term "filename" that is associated with the property [System.FileName](https://docs.microsoft.com/windows/desktop/properties/props-system-filename) is localized differently in different languages). This will ensure that the query returns the expected results on systems with non-English locales. Windows builds the search query by combining this property with the [UserSearchFilter](queryoptions_usersearchfilter.md) property.
+The application search filter should always use locale-invariant Advanced Query Syntax (AQS) syntax (such as [System.FileName](/windows/desktop/properties/props-system-filename) instead of "filename" (because the term "filename" that is associated with the property [System.FileName](/windows/desktop/properties/props-system-filename) is localized differently in different languages). This will ensure that the query returns the expected results on systems with non-English locales. Windows builds the search query by combining this property with the [UserSearchFilter](queryoptions_usersearchfilter.md) property.
 
 ## -examples
 

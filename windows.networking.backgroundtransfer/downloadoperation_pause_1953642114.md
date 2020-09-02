@@ -18,4 +18,4 @@ Calling this method aborts the HTTP request, but preserves state for the downloa
 ## -examples
 
 ## -see-also
-[Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10)), [Background Transfer Download sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)
+[Quickstart: Download a file](/previous-versions/windows/apps/hh700370(v=win.10)), [Background Transfer Download sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)

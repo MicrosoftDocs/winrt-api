@@ -20,4 +20,4 @@ The identifier for the [BorderBrush](relativepanel_borderbrush.md) dependency pr
 ## -examples
 
 ## -see-also
-[BorderBrush](relativepanel_borderbrush.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[BorderBrush](relativepanel_borderbrush.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

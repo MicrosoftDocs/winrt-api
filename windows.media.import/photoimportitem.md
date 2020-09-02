@@ -21,7 +21,7 @@ Get an instance of this class by calling one of the following methods.
 + [DeleteImportedItemsFromSourceAsync](photoimportimportitemsresult_deleteimporteditemsfromsourceasync_1949343605.md)
 Or, handle the [PhotoImportFindItemsResult.ItemImported](photoimportfinditemsresult_itemimported.md) event.
 
-For how-to guidance for adding media import to your app, see [Import media from a device](https://docs.microsoft.com/windows/uwp/audio-video-camera/import-media-from-a-device).
+For how-to guidance for adding media import to your app, see [Import media from a device](/windows/uwp/audio-video-camera/import-media-from-a-device).
 
 ### Version history
 
@@ -32,4 +32,4 @@ For how-to guidance for adding media import to your app, see [Import media from 
 ## -examples
 
 ## -see-also
-[Import media from a device](https://docs.microsoft.com/windows/uwp/audio-video-camera/import-media-from-a-device)
+[Import media from a device](/windows/uwp/audio-video-camera/import-media-from-a-device)

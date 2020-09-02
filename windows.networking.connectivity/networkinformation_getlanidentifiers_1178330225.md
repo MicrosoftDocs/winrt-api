@@ -17,7 +17,7 @@ Gets an array of [LanIdentifier](lanidentifier.md) objects that contain locality
 An array of **LanIdentifier** objects.
 
 ## -remarks
-For examples of how to retrieve [LanIdentifier](lanidentifier.md) objects and access the information they represent, see [How to retrieve network adapter and locality information](https://docs.microsoft.com/previous-versions/windows/apps/hh465167(v=win.10)).
+For examples of how to retrieve [LanIdentifier](lanidentifier.md) objects and access the information they represent, see [How to retrieve network adapter and locality information](/previous-versions/windows/apps/hh465167(v=win.10)).
 
 ## -examples
 

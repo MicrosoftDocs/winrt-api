@@ -133,4 +133,4 @@ void ColorExpression(SpriteVisual targetVisual, float screenWidth )
 
 
 ## -see-also
-[Composition Brushes Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/composition-effects), [CompositionBrush](compositionbrush.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Brushes Overview](/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](/en-us/windows/uwp/composition/composition-effects), [CompositionBrush](compositionbrush.md), [IClosable](../windows.foundation/iclosable.md)

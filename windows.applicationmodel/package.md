@@ -47,4 +47,4 @@ Although Package is supported in desktop apps, some members of this class are su
 ## -examples
 
 ## -see-also
-[App package information sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package), [Packaging apps](https://docs.microsoft.com/windows/uwp/packaging/index), [Package.Current](package_current.md), [PackageId](packageid.md)
+[App package information sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package), [Packaging apps](/windows/uwp/packaging/index), [Package.Current](package_current.md), [PackageId](packageid.md)

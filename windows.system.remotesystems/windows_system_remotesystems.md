@@ -15,7 +15,7 @@ Provides an app with the ability to discover and communicate with other devices.
 
 ## -see-also
 
-[Connected apps and devices (Project Rome)](https://docs.microsoft.com/windows/uwp/launch-resume/connected-apps-and-devices), [Remote systems sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RemoteSystems)
+[Connected apps and devices (Project Rome)](/windows/uwp/launch-resume/connected-apps-and-devices), [Remote systems sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/RemoteSystems)
 
 ## -capabilities
 

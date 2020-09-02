@@ -23,7 +23,7 @@ Defines the desired sharing state of the network connection.
     
 
 ## -remarks
-The Shared NetworkUsageState corresponds to when a network connection is made available to provide internet access for other devices. For an example of how NetworkUsageStates is used, see [How to retrieve connection usage data for a specific period of time](https://docs.microsoft.com/previous-versions/windows/apps/hh465162(v=win.10)).
+The Shared NetworkUsageState corresponds to when a network connection is made available to provide internet access for other devices. For an example of how NetworkUsageStates is used, see [How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10)).
 
 ## -examples
 

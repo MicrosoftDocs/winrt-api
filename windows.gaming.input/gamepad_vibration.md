@@ -16,7 +16,7 @@ Describes the gamepad motor speed.
 Describes the gamepad motor speed.
 
 ## -remarks
-When an application enters an [ApplicationExecutionState.Suspended](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Activation.ApplicationExecutionState) state, the gamepad motor cannot be activated. This applies even if an [ExtendedExecutionSession](https://docs.microsoft.com/uwp/api/windows.applicationmodel.extendedexecution.extendedexecutionsession) is acquired.
+When an application enters an [ApplicationExecutionState.Suspended](/uwp/api/Windows.ApplicationModel.Activation.ApplicationExecutionState) state, the gamepad motor cannot be activated. This applies even if an [ExtendedExecutionSession](/uwp/api/windows.applicationmodel.extendedexecution.extendedexecutionsession) is acquired.
 
 ## -examples
 

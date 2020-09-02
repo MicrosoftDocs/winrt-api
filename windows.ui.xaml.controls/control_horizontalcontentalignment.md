@@ -33,4 +33,4 @@ A value for the HorizontalContentAlignment property only affects layout behavior
 ## -examples
 
 ## -see-also
-[VerticalContentAlignment](control_verticalcontentalignment.md), [FrameworkElement.HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignment.md), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding)
+[VerticalContentAlignment](control_verticalcontentalignment.md), [FrameworkElement.HorizontalAlignment](../windows.ui.xaml/frameworkelement_horizontalalignment.md), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding)

@@ -11,7 +11,7 @@ public FileOpenPicker FileOpenPicker.CreateForUser(User user)
 # Windows.Storage.Pickers.FileOpenPicker.CreateForUser
 
 ## -description
-Creates a [FileOpenPicker](fileopenpicker.md) that is scoped to the personal directory of the specified user. Use this method for [multi-user applications](https://docs.microsoft.com/windows/uwp/xbox-apps/multi-user-applications).
+Creates a [FileOpenPicker](fileopenpicker.md) that is scoped to the personal directory of the specified user. Use this method for [multi-user applications](/windows/uwp/xbox-apps/multi-user-applications).
 
 ## -parameters
 ### -param user
@@ -23,7 +23,7 @@ The new [FileOpenPicker](fileopenpicker.md) that was created.
 ## -remarks
 
 ## -see-also
-[Introduction to multi-user applications](https://docs.microsoft.com/windows/uwp/xbox-apps/multi-user-applications),[User](fileopenpicker_user.md)
+[Introduction to multi-user applications](/windows/uwp/xbox-apps/multi-user-applications),[User](fileopenpicker_user.md)
 
 ## -examples
 

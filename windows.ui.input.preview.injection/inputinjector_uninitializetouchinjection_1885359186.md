@@ -13,12 +13,12 @@ public void UninitializeTouchInjection()
 Shuts down the virtual touch device created with [InitializeTouchInjection](inputinjector_initializetouchinjection_1509714255.md).
 
 > [!NOTE]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
 
 ## -remarks
 
 > [!Important]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
 
 Using input injection requires the following be added to the Package.appxmanifest:
 
@@ -38,4 +38,4 @@ Here are some downloadable samples demonstrating basic input and input injection
 
 ## -see-also
 
-[InitializeTouchInjection](inputinjector_initializetouchinjection_1509714255.md), [Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)
+[InitializeTouchInjection](inputinjector_initializetouchinjection_1509714255.md), [Simulate user input through input injection](/windows/uwp/design/input/input-injection)

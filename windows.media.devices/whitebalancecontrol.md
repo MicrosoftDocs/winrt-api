@@ -23,9 +23,9 @@ You can access the WhiteBalanceControl for the capture device through [MediaCapt
 
 White balance is specified as a color temperature in degrees Kelvin.
 
-For how-to guidance for using the **FocusControl**, see [Manual camera controls for photo and video capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture).
+For how-to guidance for using the **FocusControl**, see [Manual camera controls for photo and video capture](/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture).
 
 ## -examples
 
 ## -see-also
-[MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md), [Manual camera controls for photo and video capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture)
+[MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md), [Manual camera controls for photo and video capture](/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture)

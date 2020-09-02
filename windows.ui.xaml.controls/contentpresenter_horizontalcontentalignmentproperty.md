@@ -20,4 +20,4 @@ The identifier for the [HorizontalContentAlignment](contentpresenter_horizontalc
 ## -examples
 
 ## -see-also
-[HorizontalContentAlignment](contentpresenter_horizontalcontentalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[HorizontalContentAlignment](contentpresenter_horizontalcontentalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

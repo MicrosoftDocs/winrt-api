@@ -12,13 +12,13 @@ public class UnsupportedAppRequirement
 
 ## -description
 
-Provides a reason why a particular [App Capability](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations) is not supported on a particular device
+Provides a reason why a particular [App Capability](/en-us/windows/uwp/packaging/app-capability-declarations) is not supported on a particular device
 
 ## -remarks
 
 ## -see-also
 
-[App Capability Declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations)
+[App Capability Declarations](/en-us/windows/uwp/packaging/app-capability-declarations)
 
 ## -examples
 

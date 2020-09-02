@@ -20,4 +20,4 @@ The identifier for the [IsPaneOpen](splitview_ispaneopen.md)  dependency proper
 ## -examples
 
 ## -see-also
-[IsPaneOpen](splitview_ispaneopen.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsPaneOpen](splitview_ispaneopen.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

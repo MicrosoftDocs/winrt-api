@@ -27,4 +27,4 @@ By default, the [DatePicker](datepicker.md) shows [ComboBox](combobox.md) elemen
 ## -examples
 
 ## -see-also
-[MonthVisible](datepicker_monthvisible.md), [YearVisible](datepicker_yearvisible.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10))
+[MonthVisible](datepicker_monthvisible.md), [YearVisible](datepicker_yearvisible.md), [Quickstart: Adding a DatePicker](/previous-versions/windows/apps/dn308514(v=win.10))

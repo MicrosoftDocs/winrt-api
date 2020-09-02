@@ -21,7 +21,7 @@ This method must be called from the UI thread.
 Some of the conditions that are tested by calls to this method are: 
 * The application has added the `remoteSystem` capability.
 * Remote Systems scenarios are allowed by the [Group Policy](https://www.microsoft.com/download/details.aspx?id=25250) setting (**HKLM\Software\Policies\Microsoft\Windows\System!EnableCdp**). 
-* Remote Systems scenarios are allowed by the [mobile device management (MDM)](https://docs.microsoft.com/windows/client-management/mdm/new-in-windows-mdm-enrollment-management) policy setting (**Connectivity/AllowConnectedDevices**).
+* Remote Systems scenarios are allowed by the [mobile device management (MDM)](/windows/client-management/mdm/new-in-windows-mdm-enrollment-management) policy setting (**Connectivity/AllowConnectedDevices**).
 
 ## -examples
 

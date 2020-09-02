@@ -15,7 +15,7 @@ Provides APIs for user interface composition.
 
 | Item | Description
 |---- | ---- |
-| [Windows.UI.Composition Overview](https://docs.microsoft.com/en-us/windows/uwp/composition/visual-layer) | Overview and architecture of the API |
+| [Windows.UI.Composition Overview](/en-us/windows/uwp/composition/visual-layer) | Overview and architecture of the API |
 | [Windows.UI.Composition Samples](https://github.com/Microsoft/WindowsUIDevLabs) | API samples in the official Github |
 | [Known Issues and Latest Information](https://social.msdn.microsoft.com/Forums/en-US/home?forum=Win10SDKToolsIssues) | Latest updates on the API in the MSDN Forums |
 

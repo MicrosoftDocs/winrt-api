@@ -16,7 +16,7 @@ Gets or sets the name of the key storage provider (KSP) that will be used to gen
 The KSP name. The default value is "Microsoft Software Key Storage Provider".
 
 ## -remarks
-The name of a [cryptographic service provider](https://docs.microsoft.com/windows/desktop/SecGloss/c-gly) ([CSP](https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-service-providers)) cannot be used.
+The name of a [cryptographic service provider](/windows/desktop/SecGloss/c-gly) ([CSP](/windows/desktop/SecCrypto/cryptographic-service-providers)) cannot be used.
 
 ## -examples
 

@@ -18,7 +18,7 @@ Represents the result of a mobile broadband device service command.
 
 
 
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations). 
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations). 
 
 ## -remarks
 A MobileBroadbandDeviceServiceCommandResult instance is created when the [SendQueryCommandAsync](mobilebroadbanddeviceservicecommandsession_sendquerycommandasync_1203981658.md) or [SendSetCommandAsync](mobilebroadbanddeviceservicecommandsession_sendsetcommandasync_422276589.md) method is called on the [MobileBroadbandDeviceServiceCommandSession](mobilebroadbanddeviceservicecommandsession.md) and the result of the command has been received.

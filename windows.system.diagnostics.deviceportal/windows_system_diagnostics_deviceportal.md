@@ -10,7 +10,7 @@ namespace Windows.System.Diagnostics.DevicePortal
 # Windows.System.Diagnostics.DevicePortal
 
 ## -description
-Provides functionality for implementing a custom appx plugin for the [Windows Device Portal](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal).
+Provides functionality for implementing a custom appx plugin for the [Windows Device Portal](/windows/uwp/debug-test-perf/device-portal).
 
 ## -remarks
 

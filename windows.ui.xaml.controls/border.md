@@ -51,4 +51,4 @@ This example shows how to put a Border around several [Rectangle](../windows.ui.
 [!code-xaml[LayoutOvwBorder](../windows.ui.xaml/code/layout_ovw_all/CSharp/MainPage.xaml#SnippetLayoutOvwBorder)]
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding)

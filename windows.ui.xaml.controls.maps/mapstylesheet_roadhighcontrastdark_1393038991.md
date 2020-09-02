@@ -22,7 +22,7 @@ A [MapStyleSheet](mapstylesheet.md) styles the map with a high contrast dark the
 
 High contrast themes use a small palette of contrasting colors that makes the interface easier to see.
 
-See [High contrast themes](https://docs.microsoft.com/windows/uwp/accessibility/high-contrast-themes).
+See [High contrast themes](/windows/uwp/accessibility/high-contrast-themes).
 
 ## -see-also
 

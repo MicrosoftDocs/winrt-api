@@ -21,6 +21,6 @@ The identifier for the [CornerRadius](control_cornerradius.md) dependency proper
 
 ## -see-also
 - [CornerRadius](control_cornerradius.md)
-- [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+- [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)
 
 

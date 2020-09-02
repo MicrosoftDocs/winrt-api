@@ -20,4 +20,4 @@ The LeavingBackground event runs in the same apartment it was registered in.
 
 ## -see-also
 
-[Processes threads and apartments](https://docs.microsoft.com/en-us/windows/win32/com/processes--threads--and-apartments)
+[Processes threads and apartments](/en-us/windows/win32/com/processes--threads--and-apartments)

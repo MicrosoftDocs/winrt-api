@@ -18,7 +18,7 @@ This class is used to store information about a contact. It has a set of commonl
 ## -examples
 
 ## -see-also
-[IContactInformation](icontactinformation.md), [Implementing contact bindings in a Windows Phone Silverlight 8.1 app](https://docs.microsoft.com/previous-versions/windows/apps/dn642083(v=vs.105))
+[IContactInformation](icontactinformation.md), [Implementing contact bindings in a Windows Phone Silverlight 8.1 app](/previous-versions/windows/apps/dn642083(v=vs.105))
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

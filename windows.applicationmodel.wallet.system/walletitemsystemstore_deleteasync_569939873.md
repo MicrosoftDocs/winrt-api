@@ -20,7 +20,7 @@ Asynchronously removes a specific wallet item with the given ID from the wallet 
 The ID of the wallet item to remove from the system data store.
 
 ## -returns
-An asynchronous action. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is **void**.
+An asynchronous action. If you use [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is **void**.
 
 ## -remarks
 

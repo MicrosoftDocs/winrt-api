@@ -20,4 +20,4 @@ Gets a value that indicates whether the XAML member is an attachable member.
 ## -examples
 
 ## -see-also
-[Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)
+[Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

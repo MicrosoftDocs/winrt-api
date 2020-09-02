@@ -20,4 +20,4 @@ The identifier for the [ZoomLevelRange](maptilesource_zoomlevelrange.md) depende
 ## -examples
 
 ## -see-also
-[Overlay tiled images on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/overlay-tiled-images)
+[Overlay tiled images on a map](/windows/uwp/maps-and-location/overlay-tiled-images)

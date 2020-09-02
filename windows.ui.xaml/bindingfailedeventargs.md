@@ -18,4 +18,4 @@ BindingFailedEventArgs is used for debugging bindings, using a technique that yo
 ## -examples
 
 ## -see-also
-[DebugSettings.BindingFailed](debugsettings_bindingfailed.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[DebugSettings.BindingFailed](debugsettings_bindingfailed.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

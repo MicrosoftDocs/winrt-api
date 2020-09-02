@@ -12,7 +12,7 @@ public enum UnsupportedAppRequirementReasons : uint
 
 ## -description
 
-Indicate why an [App Capability](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations) is unsupported on the current device
+Indicate why an [App Capability](/en-us/windows/uwp/packaging/app-capability-declarations) is unsupported on the current device
 
 ## -enum-fields
 
@@ -28,7 +28,7 @@ The system has indicated that the capability is not available
 
 ## -see-also
 
-[App Capability Declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations)
+[App Capability Declarations](/en-us/windows/uwp/packaging/app-capability-declarations)
 
 ## -examples
 

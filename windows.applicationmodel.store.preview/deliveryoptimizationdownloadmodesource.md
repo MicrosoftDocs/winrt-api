@@ -21,7 +21,7 @@ The download mode is configured by policy (Group Policy or an MDM solution).
 The download mode is based on default values.
 
 ## -remarks
-For more information about download modes, see [Configure Delivery Optimization for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization#download-mode).
+For more information about download modes, see [Configure Delivery Optimization for Windows 10 updates](/windows/deployment/update/waas-delivery-optimization#download-mode).
 
 ## -see-also
 

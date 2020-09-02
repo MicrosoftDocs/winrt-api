@@ -17,4 +17,4 @@ Enumerate the available app service providers on the device. App service provide
 ## -examples
 
 ## -see-also
-[Create and consume an app service](https://docs.microsoft.com/windows/uwp/launch-resume/how-to-create-and-consume-an-app-service)
+[Create and consume an app service](/windows/uwp/launch-resume/how-to-create-and-consume-an-app-service)

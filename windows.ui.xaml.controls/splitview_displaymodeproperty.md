@@ -20,4 +20,4 @@ The identifier for the [DisplayMode](splitview_displaymode.md)  dependency prop
 ## -examples
 
 ## -see-also
-[DisplayMode](splitview_displaymode.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DisplayMode](splitview_displaymode.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

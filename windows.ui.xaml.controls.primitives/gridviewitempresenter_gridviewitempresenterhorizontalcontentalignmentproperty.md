@@ -23,4 +23,4 @@ The identifier for the [GridViewItemPresenterHorizontalContentAlignment](gridvie
 ## -examples
 
 ## -see-also
-[GridViewItemPresenterHorizontalContentAlignment](gridviewitempresenter_gridviewitempresenterhorizontalcontentalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[GridViewItemPresenterHorizontalContentAlignment](gridviewitempresenter_gridviewitempresenterhorizontalcontentalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

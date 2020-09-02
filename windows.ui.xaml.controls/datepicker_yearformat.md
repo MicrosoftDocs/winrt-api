@@ -59,4 +59,4 @@ Here's a [DatePicker](datepicker.md) formatted using format templates, and a [Da
 
 
 ## -see-also
-[DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10)), [How to use patterns to format dates and times](https://docs.microsoft.com/previous-versions/windows/apps/jj673581(v=win.10))
+[DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md), [Quickstart: Adding a DatePicker](/previous-versions/windows/apps/dn308514(v=win.10)), [How to use patterns to format dates and times](/previous-versions/windows/apps/jj673581(v=win.10))

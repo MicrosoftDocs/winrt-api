@@ -17,9 +17,9 @@ Get a reference to the currently playing **MediaBreak** using the constructor or
 
 Get or set a pre-roll or post-roll media break for a media item by accessing the [PrerollBreak](mediabreakschedule_prerollbreak.md) or [PostrollBreak](mediabreakschedule_postrollbreak.md) property of the [MediaBreakSchedule](mediabreakschedule.md) object associated with a [MediaPlaybackItem](mediaplaybackitem.md).
 
-For how-to guidance for working with media breaks, see [Create, schedule, and manage media breaks](https://docs.microsoft.com/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks).
+For how-to guidance for working with media breaks, see [Create, schedule, and manage media breaks](/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks).
 
 ## -examples
 
 ## -see-also
-[Create, schedule, and manage media breaks](https://docs.microsoft.com/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks)
+[Create, schedule, and manage media breaks](/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks)

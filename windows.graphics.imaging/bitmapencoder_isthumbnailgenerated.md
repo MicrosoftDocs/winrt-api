@@ -20,7 +20,7 @@ When this value is true, the bitmap encoder will generate a new thumbnail by dow
 
 If the [BitmapEncoder](bitmapencoder.md) was created using the [CreateForTranscodingAsync](bitmapencoder_createfortranscodingasync_1673967352.md) method and **IsThumbnailGenerated** is false, the bitmap encoder will leave any existing thumbnail data untouched. In this case, if the bitmap was modified before encoding, it's possible for the output file to have a thumbnail that does not match the new contents of the image.
 
-Only JPEG, TIFF and JPEG-XR image types support encoding thumbnails. If the image format being encoded does not support thumbnails and you set **IsThumbnailGenerated** to true, then the call to [FlushAsync](bitmapencoder_flushasync_491532439.md) will fail with HRESULT [WINCODEC_ERR_UNSUPPORTEDOPERATION](https://docs.microsoft.com/windows/desktop/wic/-wic-codec-error-codes). You should catch this exception and retry encoding with thumbnail generation disabled. If your app only encodes image formats that support thumbnails, you can skip this step.
+Only JPEG, TIFF and JPEG-XR image types support encoding thumbnails. If the image format being encoded does not support thumbnails and you set **IsThumbnailGenerated** to true, then the call to [FlushAsync](bitmapencoder_flushasync_491532439.md) will fail with HRESULT [WINCODEC_ERR_UNSUPPORTEDOPERATION](/windows/desktop/wic/-wic-codec-error-codes). You should catch this exception and retry encoding with thumbnail generation disabled. If your app only encodes image formats that support thumbnails, you can skip this step.
 
 
 

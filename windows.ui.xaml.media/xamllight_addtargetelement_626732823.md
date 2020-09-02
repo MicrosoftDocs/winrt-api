@@ -12,17 +12,17 @@ public void XamlLight.AddTargetElement(String lightId, UIElement element)
 
 ## -description
 
-Sets a [UIElement](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.UIElement) as a target of a [XamlLight](XamlLight.md).
+Sets a [UIElement](/uwp/api/Windows.UI.Xaml.UIElement) as a target of a [XamlLight](XamlLight.md).
 
 ## -parameters
 
 ### -param lightId
 
-The identifier for the [XamlLight](XamlLight.md) that should target the [UIElement](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.UIElement).
+The identifier for the [XamlLight](XamlLight.md) that should target the [UIElement](/uwp/api/Windows.UI.Xaml.UIElement).
 
 ### -param element
 
-The [UIElement](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.UIElement) that the light should target.
+The [UIElement](/uwp/api/Windows.UI.Xaml.UIElement) that the light should target.
 
 ## -remarks
 

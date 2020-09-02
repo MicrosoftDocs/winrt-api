@@ -20,4 +20,4 @@ The identifier for the [IsCompact](mediatransportcontrols_iscompact.md)   depen
 ## -examples
 
 ## -see-also
-[IsCompact](mediatransportcontrols_iscompact.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsCompact](mediatransportcontrols_iscompact.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

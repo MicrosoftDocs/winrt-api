@@ -15,7 +15,7 @@ Sends a message to all other participants in this remote session messaging chann
 ## -parameters
 
 ### -param messageData
-A [ValueSet](https://docs.microsoft.com/uwp/api/Windows.Foundation.Collections.ValueSet) object containing the data to be sent to all participants in the channel.
+A [ValueSet](/uwp/api/Windows.Foundation.Collections.ValueSet) object containing the data to be sent to all participants in the channel.
 
 ## -returns
 An asynchronous operation containing a boolean value: **true** if the send operation was a success, otherwise **false**.
