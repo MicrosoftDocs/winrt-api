@@ -18,6 +18,7 @@ The line ID of the phone line to retrieve.
 
 ## -returns
 An asynchronous operation that returns a [PhoneLine](phoneline.md) object that represents a specific phone line on the device based on the line ID.
+It will throw an exception on failure. 
 
 ## -remarks
 The following example shows how to get the default [PhoneLine](phoneline.md).
