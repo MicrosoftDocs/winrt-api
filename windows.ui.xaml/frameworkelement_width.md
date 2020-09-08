@@ -40,7 +40,7 @@ The return value of this property is always the same as any value that was set t
 Negative values for Width are not permitted. 
 <!--Non-integral values for Height are technically permitted, but should generally be avoided and are normally rounded by the default layout rounding behavior. For more information, see Layout Rounding.
 TODO investigate voldemort layout rounding-->
-Also, do not set Widthto a value that is significantly larger than the maximum size of any possible visual display.
+Also, do not set Width to a value that is significantly larger than the maximum size of any possible visual display.
 
 ### "Auto" layout and Double.NaN
 
