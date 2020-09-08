@@ -15,10 +15,7 @@ Gets or sets the brush used to highlight the selected text when the RichEditBox 
 ## -xaml-syntax
 ```xaml
 <RichEditBox SelectionHighlightColorWhenNotFocused="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <RichEditBox SelectionHighlightColorWhenNotFocused="colorString"/>
 
 ```

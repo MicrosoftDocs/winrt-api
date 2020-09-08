@@ -15,15 +15,9 @@ Gets or sets a brush that describes the border fill of a control.
 ## -xaml-syntax
 ```xaml
 <control Background="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <control Background="colorString"/>
-
-```
-
-```xaml
+- or -
 <control>
   <control.Background>singleBrush</control.Background>
 </control>

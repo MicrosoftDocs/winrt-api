@@ -21,9 +21,7 @@ Gets or sets an [AutoSuggestBox](autosuggestbox.md) to be displayed in the Navig
     <AutoSuggestBox .../>
   </NavigationView.AutoSuggestBox>
 </NavigationView>
-```
-
-```xaml
+- or -
 <NavigationView AutoSuggestBox="resourceReferenceToAutoSuggestBox"/>
 ```
 

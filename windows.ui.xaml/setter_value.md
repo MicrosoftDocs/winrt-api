@@ -19,9 +19,7 @@ Gets or sets the value to apply to the property that is specified by the [Setter
     objectValue
   </Setter.Value>
 </Setter>
-```
-
-```xaml
+- or -
 <Setter Value="attributeValue"/>
 -or-
 <Setter Value="extensionUsage"/>

@@ -15,9 +15,7 @@ Gets or sets a template that creates the panel used to lay out the items.
 ## -xaml-syntax
 ```xaml
 <GroupStyle Panel="itemsPanelTemplateReference" />
-```
-
-```xaml
+- or -
 <GroupStyle>
   <GroupStyle.Panel>
     singleItemsPanelTemplate

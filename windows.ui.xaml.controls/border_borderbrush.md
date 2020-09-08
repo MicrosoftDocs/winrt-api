@@ -15,15 +15,9 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that is applied to t
 ## -xaml-syntax
 ```xaml
 <Border BorderBrush="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <Border BorderBrush="colorString"/>
-
-```
-
-```xaml
+- or -
 <Border>
   <Border.BorderBrush>singleBrush</Border.BorderBrush>
 </Border>

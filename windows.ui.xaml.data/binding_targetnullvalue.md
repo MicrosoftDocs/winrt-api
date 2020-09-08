@@ -15,16 +15,12 @@ Gets or sets the value that is used in the target when the value of the source i
 ## -xaml-syntax
 ```xaml
 <Binding TargetNullValue="nullValueString" />
-```
-
-```xaml
-
+- or -
 <Binding>
   <Binding.TargetNullValue>
     nullValue
   </Binding.TargetNullValue>
 </Binding>
-
 ```
 
 

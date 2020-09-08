@@ -19,9 +19,7 @@ Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies t
     singleGeometry
   </PathIcon.Data>
 </PathIcon>
-```
-
-```xaml
+- or -
 <PathIcon Data="moveAndDrawCommands"/>
 ```
 

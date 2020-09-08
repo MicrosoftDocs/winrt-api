@@ -18,10 +18,7 @@ Gets or sets the brush used to highlight the selected text.
 
 ```xaml
 <TextBlock SelectionHighlightColor="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <TextBlock SelectionHighlightColor="colorString"/>
 
 ```

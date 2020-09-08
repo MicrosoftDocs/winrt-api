@@ -15,10 +15,7 @@ Gets or sets the content for the control's header.
 ## -xaml-syntax
 ```xaml
 <PasswordBox Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <PasswordBox>
   <PasswordBox.Header>headerObject</PasswordBox.Header>
 </PasswordBox>

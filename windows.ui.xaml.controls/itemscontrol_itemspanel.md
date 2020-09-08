@@ -19,9 +19,7 @@ Gets or sets the template that defines the panel that controls the layout of ite
     singlePanelTemplate
   </itemsControl.ItemsPanel>
 </itemsControl>
-```
-
-```xaml
+- or -
 <itemsControl ItemsPanel="resourceReferenceToPanelTemplate"/>
 ```
 

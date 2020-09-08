@@ -15,19 +15,12 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the cont
 ## -xaml-syntax
 ```xaml
 <textElementForeground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <textElementForeground="colorString"/>
-
-```
-
-```xaml
+- or -
 <textElement>
   <textElement.Foreground>singleBrush</textElement.Foreground>
 </textElement>
-
 ```
 
 

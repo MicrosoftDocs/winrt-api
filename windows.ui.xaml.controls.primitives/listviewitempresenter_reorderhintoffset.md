@@ -15,10 +15,7 @@ Gets or sets the amount that the reorder hint is offset. This property is ignore
 ## -xaml-syntax
 ```xaml
 <listViewItemPresenterReorderHintOffset="themeResourceReference"/>
-
-```
-
-```xaml
+- or -
 <listViewItemPresenter ReorderHintOffset="double"/>
 ```
 

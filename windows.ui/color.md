@@ -26,9 +26,7 @@ Describes a color in terms of alpha, red, green, and blue channels.
 <Color ...>sc#scR,scG,scB</Color>
 - or -
 <Color ...>sc#scA,scR,scG,scB</Color>
-```
-
-```xaml
+- or -
 <object property="predefinedColor"/>
 - or -
 <object property="#rgb"/>

@@ -19,9 +19,7 @@ Gets or sets an arbitrary object value that can be used to store custom informat
     object*
   </frameworkElement.Tag>
 </frameworkElement>
-```
-
-```xaml
+- or -
 <frameworkElement Tag="string"/>
 ```
 

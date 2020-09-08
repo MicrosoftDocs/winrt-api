@@ -15,10 +15,7 @@ Gets or sets the opacity of an item that's being dragged.
 ## -xaml-syntax
 ```xaml
 <gridViewItemPresenterDragOpacity="themeResourceReference"/>
-
-```
-
-```xaml
+- or -
 <gridViewItemPresenter DragOpacity="double"/>
 ```
 

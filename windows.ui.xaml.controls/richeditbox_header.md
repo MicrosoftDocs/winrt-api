@@ -15,10 +15,7 @@ Gets or sets the content for the control's header.
 ## -xaml-syntax
 ```xaml
 <RichEditBox Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <RichEditBox>
   <RichEditBox.Header>headerObject</RichEditBox.Header>
 </RichEditBox>

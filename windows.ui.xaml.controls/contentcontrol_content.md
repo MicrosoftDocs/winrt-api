@@ -19,9 +19,7 @@ Gets or sets the content of a [ContentControl](contentcontrol.md).
 </contentControl>
 -or-
 <contentControl>stringContent</contentControl>
-```
-
-```xaml
+- or -
 <contentControl Content="stringContent"/>
 ```
 

@@ -15,10 +15,7 @@ Gets or sets the header for the [PivotItem](pivotitem.md).
 ## -xaml-syntax
 ```xaml
 <PivotItem Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <PivotItem>
   <PivotItem.Header>
     headerObject

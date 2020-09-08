@@ -15,15 +15,9 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the back
 ## -xaml-syntax
 ```xaml
 <SplitView PaneBackground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <SplitView PaneBackground="colorString"/>
-
-```
-
-```xaml
+- or -
 <SplitView>
   <SplitView.PaneBackground>singleBrush</SplitView.PaneBackground>
 </SplitView>

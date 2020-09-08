@@ -15,10 +15,7 @@ Gets or sets a brush that describes the foreground color.
 ## -xaml-syntax
 ```xaml
 <icon Foreground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <icon Foreground="colorString"/>
 
 ```

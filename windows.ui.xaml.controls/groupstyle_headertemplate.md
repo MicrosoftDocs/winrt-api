@@ -15,9 +15,7 @@ Gets or sets the template that is used to display the group header.
 ## -xaml-syntax
 ```xaml
 <GroupStyle HeaderTemplate="dataTemplateReference" />
-```
-
-```xaml
+- or -
 <GroupStyle>
   <GroupStyle.HeaderTemplate>
     <DataTemplate>

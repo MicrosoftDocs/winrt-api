@@ -17,9 +17,7 @@ Gets a collection of [Setter](setter.md) objects.
 <Style ...>
   oneOrMoreSetters
 </Style>
-```
-
-```xaml
+- or -
 <Style>
   <Style.Setters>
     oneOrMoreSetters

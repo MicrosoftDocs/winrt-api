@@ -17,9 +17,7 @@ Gets or sets the total amount by which the animation changes its starting value.
 <ColorAnimation By="colorString"/>
 -or-
 <ColorAnimation By="referenceToColor"/>
-```
-
-```xaml
+- or -
 <ColorAnimation>
   <ColorAnimation.By>
     <Color>colorString</Color>

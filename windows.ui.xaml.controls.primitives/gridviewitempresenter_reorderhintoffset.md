@@ -15,10 +15,7 @@ Gets or sets the amount that the reorder hint is offset.
 ## -xaml-syntax
 ```xaml
 <gridViewItemPresenterReorderHintOffset="themeResourceReference"/>
-
-```
-
-```xaml
+- or -
 <gridViewItemPresenter ReorderHintOffset="double"/>
 ```
 

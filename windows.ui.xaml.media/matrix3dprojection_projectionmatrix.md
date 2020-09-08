@@ -15,9 +15,7 @@ Gets or sets the [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md) that i
 ## -xaml-syntax
 ```xaml
 <Matrix3DProjection ProjectionMatrix="matrix3DInitializationString" />
-```
-
-```xaml
+- or -
 <!--xmlns:m3d="using:Windows.UI.Xaml.Media.Media3D"-->
 <Matrix3DProjection>
   <m3d:Matrix3D>matrix3DInitializationString</m3d:Matrix3D>

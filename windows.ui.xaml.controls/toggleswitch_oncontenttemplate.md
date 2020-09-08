@@ -19,9 +19,7 @@ Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to disp
     singleDataTemplate
   </ToggleSwitch.OnContentTemplate>
 </ToggleSwitch>
-```
-
-```xaml
+- or -
 <ToggleSwitch OnContentTemplate="resourceReferenceToDataTemplate"/>
 ```
 

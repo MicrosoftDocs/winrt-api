@@ -15,10 +15,7 @@ Gets or sets the content for the hub section header.
 ## -xaml-syntax
 ```xaml
 <HubSection Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <HubSection>
   <HubSection.Header>
     headerObject

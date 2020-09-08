@@ -15,10 +15,7 @@ Gets or sets the brush used to highlight the selected text.
 ## -xaml-syntax
 ```xaml
 <RichEditBox SelectionHighlightColor="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <RichEditBox SelectionHighlightColor="colorString"/>
 
 ```

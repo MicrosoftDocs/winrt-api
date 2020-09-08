@@ -15,9 +15,7 @@ Gets or sets the collection of [PathFigure](pathfigure.md) objects that describe
 ## -xaml-syntax
 ```xaml
 <PathGeometry Figures="moveAndDrawCommands"/>
-```
-
-```xaml
+- or -
 <PathGeometry>
   <PathGeometry.Figures>
     oneOrMoreFigures

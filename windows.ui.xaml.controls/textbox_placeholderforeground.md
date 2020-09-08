@@ -17,9 +17,7 @@ Gets or sets a brush that describes the color of placeholder text.
 
 ```xaml
 <TextBox PlaceholderForeground="{StaticResource resourceName}"/>
-```
-
-```xaml
+- or -
 <TextBox PlaceholderForeground="colorString"/>
 ```
 

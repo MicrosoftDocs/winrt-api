@@ -15,19 +15,12 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that draws on the ba
 ## -xaml-syntax
 ```xaml
 <TickBar Fill="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <TickBar Fill="colorString"/>
-
-```
-
-```xaml
+- or -
 <TickBar>
   <TickBar.Fill>singleBrush<TickBar.Fill>
 </TickBar>
-
 ```
 
 

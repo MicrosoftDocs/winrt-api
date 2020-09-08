@@ -17,9 +17,7 @@ Paints an area with a solid color. The solid color is defined by a [Color](../wi
 <SolidColorBrush .../>
 -or-
 <SolidColorBrush>colorString</SolidColorBrush>
-```
-
-```xaml
+- or -
 <SolidColorBrush Color="predefinedColorName"/>
 - or -
 <SolidColorBrush Color="#rgb"/>

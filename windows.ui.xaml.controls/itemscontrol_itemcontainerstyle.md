@@ -20,9 +20,7 @@ Gets or sets the style that is used when rendering the item containers for an [I
     inlineStyle
   </ItemsControl.ItemContainerStyle>
 </ItemsControl>
-```
-
-```xaml
+- or -
 <ItemsControl ItemContainerStyle="resourceReferenceToStyle"/>
 ```
 

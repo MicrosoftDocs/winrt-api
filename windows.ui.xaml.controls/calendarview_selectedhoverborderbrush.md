@@ -15,15 +15,9 @@ Gets or sets a brush that provides the border of a selected calendar item while 
 ## -xaml-syntax
 ```xaml
 <CalendarView SelectedHoverBorderBrush="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <CalendarView SelectedHoverBorderBrush="colorString"/>
-
-```
-
-```xaml
+- or -
 <CalendarView>
   CalendarView.SelectedHoverBorderBrush>singleBrush</CalendarView.SelectedHoverBorderBrush>
 </CalendarView>

@@ -14,12 +14,8 @@ Gets or sets the [Style](../windows.ui.xaml/style.md) applied to the [Flyout](fl
 
 ## -xaml-syntax
 ```xaml
-
 <Flyout FlyoutPresenterStyle={StaticResource styleResourceKey}/>
-
-```
-
-```xaml
+- or -
 <Flyout>
   <Flyout.FlyoutPresenterStyle>
     <Style TargetType="FlyoutPresenter">

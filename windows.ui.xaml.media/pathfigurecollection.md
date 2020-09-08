@@ -19,9 +19,7 @@ Represents a collection of [PathFigure](pathfigure.md) objects that collectively
     oneOrMorePathFigures
   </object.property>
 </object>
-```
-
-```xaml
+- or -
 <object property="drawingCommands" ...>
 ```
 

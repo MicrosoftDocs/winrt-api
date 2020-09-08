@@ -15,15 +15,9 @@ Gets or sets a brush that provides the foreground of a date that can't be select
 ## -xaml-syntax
 ```xaml
 <CalendarView BlackoutForeground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <CalendarView BlackoutForeground="colorString"/>
-
-```
-
-```xaml
+- or -
 <CalendarView>
   CalendarView.BlackoutForeground>singleBrush</CalendarView.BlackoutForeground>
 </CalendarView>

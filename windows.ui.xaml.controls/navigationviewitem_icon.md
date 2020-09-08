@@ -17,9 +17,7 @@ Gets or sets the icon to show next to the menu item text.
 
 ```xaml
 <NavigationViewItem Icon="symbolName" .../>
-```
-
-```xaml
+- or -
 <NavigationViewItem>
   <NavigationViewItem.Icon>
     iconElement

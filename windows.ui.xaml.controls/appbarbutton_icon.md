@@ -15,10 +15,7 @@ Gets or sets the graphic content of the app bar button.
 ## -xaml-syntax
 ```xaml
 <AppBarButton Icon="symbolName" .../>
-```
-
-```xaml
-
+- or -
 <AppBarButton>
     <AppBarButton.Icon>
         iconElement

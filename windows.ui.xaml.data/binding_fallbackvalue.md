@@ -15,15 +15,12 @@ Gets or sets the value to use when the binding is unable to return a value.
 ## -xaml-syntax
 ```xaml
 <Binding FallbackValue="fallbackValue" />
-```
-
-```xaml
+- or -
 <Binding>
   <Binding.FallbackValue>
     fallbackValue
     </Binding.FallbackValue>
 </Binding>
-
 ```
 
 

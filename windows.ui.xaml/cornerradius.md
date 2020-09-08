@@ -19,9 +19,7 @@ Describes the characteristics of a rounded corner, such as can be applied to a [
 <CornerRadius>uniformRadius</CornerRadius>
 -or-
 <CornerRadius>topLeft,topRight,bottomRight,bottomLeft</CornerRadius>
-```
-
-```xaml
+- or -
 <object property="uniformRadius"/>
 - or -
 <object property="topLeft,topRight,bottomRight,bottomLeft"/>

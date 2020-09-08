@@ -18,9 +18,7 @@ Gets or sets the style that is applied to the [GroupItem](groupitem.md) generate
 ## -xaml-syntax
 ```xaml
 <GroupStyle ContainerStyle="styleReference" />
-```
-
-```xaml
+- or -
 <GroupStyle>
   <GroupStyle.ContainerStyle>
     singleStyle

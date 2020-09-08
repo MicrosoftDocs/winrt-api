@@ -15,10 +15,7 @@ Gets or sets the brush used to highlight the selected text.
 ## -xaml-syntax
 ```xaml
 <PasswordBox SelectionHighlightColor="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <PasswordBox SelectionHighlightColor="colorString"/>
 
 ```

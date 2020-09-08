@@ -21,9 +21,7 @@ Describes the thickness of a frame around a rectangle. Four [Double](/dotnet/api
 <Thickness ...>left&right,top&bottom</Thickness>
 - or -
 <Thickness ...>left,top,right,bottom</Thickness>
-```
-
-```xaml
+- or -
 <object property="uniform"/>
 - or -
 <object property="left&right,top&bottom"/>

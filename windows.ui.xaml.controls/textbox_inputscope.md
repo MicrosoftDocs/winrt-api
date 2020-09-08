@@ -15,9 +15,7 @@ Gets or sets the context for input used by this [TextBox](textbox.md).
 ## -xaml-syntax
 ```xaml
 <TextBox InputScope="inputScopeName" .../>
-```
-
-```xaml
+- or -
 <TextBox>
   <TextBox.InputScope>
     <InputScope>

@@ -15,10 +15,7 @@ Gets or sets the content for the control's header.
 ## -xaml-syntax
 ```xaml
 <DatePicker Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <DatePicker>
   <DatePicker.Header>headerObject</DatePicker.Header>
 </DatePicker>

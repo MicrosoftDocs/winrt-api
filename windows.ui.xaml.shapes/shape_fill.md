@@ -15,19 +15,12 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that paints the inte
 ## -xaml-syntax
 ```xaml
 <shape Fill="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <shape Fill="colorString"/>
-
-```
-
-```xaml
+- or -
 <shape>
   <shape.Fill>singleBrush</shape.Fill>
 </shape>
-
 ```
 
 

@@ -15,10 +15,7 @@ Gets or sets the graphic content of the menu flyout subitem.
 ## -xaml-syntax
 ```xaml
 <MenuFlyoutSubItem Icon="symbolName" .../>
-```
-
-```xaml
-
+- or -
 <MenuFlyoutSubItem>
     <MenuFlyoutSubItem.Icon>
         iconElement

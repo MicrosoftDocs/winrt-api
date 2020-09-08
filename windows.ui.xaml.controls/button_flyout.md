@@ -17,10 +17,7 @@ Gets or sets the flyout associated with this button.
 <Button>
   <Button.Flyout>flyout</Button.Flyout>
 </Button>
-
-```
-
-```xaml
+- or -
 <Button Flyout="{StaticResurce flyoutResourceKey"/>
 
 ```

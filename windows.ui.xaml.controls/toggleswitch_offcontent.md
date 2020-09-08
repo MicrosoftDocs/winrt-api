@@ -15,9 +15,7 @@ Provides the object content that should be displayed using the [OffContentTempla
 ## -xaml-syntax
 ```xaml
 <ToggleSwitch OffContent="stringContent"/>
-```
-
-```xaml
+- or -
 <ToggleSwitch>
   <ToggleSwitch.OffContent>
     singleContentElement

@@ -15,9 +15,7 @@ Gets or sets the text contents of the [Run](run.md).
 ## -xaml-syntax
 ```xaml
 <Run Text="text"/>
-```
-
-```xaml
+- or -
 <Run ...>text</Run>
 ```
 

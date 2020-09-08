@@ -15,9 +15,7 @@ Identifies a particular named input scope that is relevant to an overall [InputS
 ## -xaml-syntax
 ```xaml
 <InputScopeName .../>
-```
-
-```xaml
+- or -
 <TextBox InputScope="inputScopeNameValue" .../>
 -or-
 <RichEditBox InputScope="inputScopeNameValue" .../>

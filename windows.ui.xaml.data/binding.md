@@ -15,9 +15,7 @@ Defines a binding that connects the properties of binding targets and data sourc
 ## -xaml-syntax
 ```xaml
 <Binding .../>
-```
-
-```xaml
+- or -
 <dependencyobject dependencyproperty="{Binding bindingArgs}" />
 ```
 

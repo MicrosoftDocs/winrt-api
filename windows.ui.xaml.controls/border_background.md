@@ -15,15 +15,9 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that fills the backg
 ## -xaml-syntax
 ```xaml
 <Border Background="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <Border Background="colorString"/>
-
-```
-
-```xaml
+- or -
 <Border>
   <Border.Background>singleBrush</Border.Background>
 </Border>

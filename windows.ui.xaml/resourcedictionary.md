@@ -17,9 +17,7 @@ Defines a repository for XAML resources, such as styles, that your app uses. You
 <ResourceDictionary>
   oneOrMoreResources
 </ResourceDictionary>
-```
-
-```xaml
+- or -
 <frameworkElement>
   <frameworkElement.Resources>
     oneOrMoreResources

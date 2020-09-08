@@ -15,9 +15,7 @@ Gets or sets the template for the [Header](pivotitem_header.md) property of [Piv
 ## -xaml-syntax
 ```xaml
 <Pivot HeaderTemplate="resourceReferenceToDataTemplate"/>
-```
-
-```xaml
+- or -
 <Pivot>
   <Pivot.HeaderTemplate>
      <DataTemplate>

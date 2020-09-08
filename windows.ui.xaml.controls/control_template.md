@@ -15,9 +15,7 @@ Gets or sets a control template. The control template defines the visual appeara
 ## -xaml-syntax
 ```xaml
 <control Template="{StaticResource templateResourceKey}"/>
-```
-
-```xaml
+- or -
 <Style TargetType="controlTypeName">
   <Setter Property="Template">
     <Setter.Value>

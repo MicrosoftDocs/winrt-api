@@ -15,15 +15,9 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the text
 ## -xaml-syntax
 ```xaml
 <RichTextBlock Foreground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <RichTextBlock Foreground="colorString"/>
-
-```
-
-```xaml
+- or -
 <RichTextBlock>
   <RichTextBlock.Foreground>singleBrush</RichTextBlock.Foreground>
 </RichTextBlock>

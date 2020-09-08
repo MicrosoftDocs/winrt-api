@@ -15,10 +15,7 @@ Gets or sets the content for the calendar picker's header.
 ## -xaml-syntax
 ```xaml
 <CalendarDatePicker Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <CalendarDatePicker>
   <CalendarDatePicker.Header>headerObject</CalendarDatePicker.Header>
 </CalendarDatePicker>

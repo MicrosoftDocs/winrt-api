@@ -15,19 +15,12 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that is used to rend
 ## -xaml-syntax
 ```xaml
 <Glyphs Fill="{StaticResource resourceName"/>
-
-```
-
-```xaml
+- or -
 <Glyphs Fill="colorString"/>
-
-```
-
-```xaml
+- or -
 <Glyphs>
   <Glyphs.Fill>singleBrush</Glyphs.Fill>
 </Glyphs>
-
 ```
 
 

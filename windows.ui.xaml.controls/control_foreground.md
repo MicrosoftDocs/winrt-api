@@ -15,15 +15,9 @@ Gets or sets a brush that describes the foreground color.
 ## -xaml-syntax
 ```xaml
 <control Foreground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <control Foreground="colorString"/>
-
-```
-
-```xaml
+- or -
 <control>
   <control.Foreground>singleBrush</control.Foreground>
 </control>

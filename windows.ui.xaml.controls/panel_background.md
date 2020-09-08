@@ -15,15 +15,9 @@ Gets or sets a [Brush](../windows.ui.xaml.media/brush.md) that fills the panel c
 ## -xaml-syntax
 ```xaml
 <panel Background="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <panel Background="colorString"/>
-
-```
-
-```xaml
+- or -
 <panel>
   <panel.Background>singleBrush</panel.Background>
 </panel>

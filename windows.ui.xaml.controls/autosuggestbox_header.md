@@ -15,16 +15,12 @@ Gets or sets the header object for the text box portion of this control.
 ## -xaml-syntax
 ```xaml
 <AutoSuggestBox Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <AutoSuggestBox>
   <AutoSuggestBox.Header>
     headerObject
   </AutoSuggestBox.Header>
 </AutoSuggestBox>
-
 ```
 
 

@@ -15,10 +15,7 @@ Gets or sets the opacity of an item that is disabled.
 ## -xaml-syntax
 ```xaml
 <gridViewItemPresenterDisabledOpacity="themeResourceReference"/>
-
-```
-
-```xaml
+- or -
 <gridViewItemPresenter DisabledOpacity="double"/>
 ```
 
