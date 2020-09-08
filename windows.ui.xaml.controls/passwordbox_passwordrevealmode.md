@@ -26,7 +26,7 @@ By default, the password reveal button (or "peek" button) is shown. The user mus
 
 <img src="images/PasswordBox_Revealed.png" alt="A password box with the password shown." />
 
-The value of this property is not the only factor that determines whether a password reveal button is visible to the user. Other factors include whether the control is displayed above a minimum width, whether the [PasswordBox](passwordbox.md) has focus, and whether the text entry field contains at least one character. The password reveal button is shown only when the [PasswordBox](passwordbox.md) receives focus for the first time and a character is entered. If the [PasswordBox](passwordbox.md) loses focus and then regains focus, the reveal button is not shown again unless the password is cleared and character entry starts over.
+The value of this property is not the only factor that determines whether a password reveal button is visible to the user. Other factors include whether the control is displayed above a minimum width, whether the [PasswordBox](passwordbox.md) has focus, and whether the text entry field contains at least one character. Note that due to security reasons the password reveal button is shown only when the [PasswordBox](passwordbox.md) receives focus for the first time and a character is entered. If the [PasswordBox](passwordbox.md) loses focus and then regains focus, the reveal button is not shown again unless the password is cleared and character entry starts over.
 
 > [!NOTE]
 > Prior to Windows 10, the password reveal button was not shown by default. If the security of your app requires that the password is always obscured, be sure to set PasswordRevealMode to **Hidden**.
