@@ -34,4 +34,4 @@ Panel is the parent class for several immediately derived classes. Some of these
 ## -examples
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Canvas](canvas.md), [Grid](grid.md), [StackPanel](stackpanel.md), [RelativePanel](relativepanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [WrapGrid](wrapgrid.md), [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md), [Quickstart: Adding layout controls](https://docs.microsoft.com/previous-versions/windows/apps/hh969155(v=win.10))
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Canvas](canvas.md), [Grid](grid.md), [StackPanel](stackpanel.md), [RelativePanel](relativepanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [WrapGrid](wrapgrid.md), [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md), [Quickstart: Adding layout controls](/previous-versions/windows/apps/hh969155(v=win.10))

@@ -15,9 +15,7 @@ Gets or sets the template for the header on the control's left side.
 ## -xaml-syntax
 ```xaml
 <Pivot LeftHeaderTemplate="resourceReferenceToDataTemplate"/>
-```
-
-```xaml
+- or -
 <Pivot>
   <Pivot.LeftHeaderTemplate>
      <DataTemplate>

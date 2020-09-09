@@ -22,7 +22,7 @@ The maximum number of candidates to return.
 A collection of previously input words (to assist text prediction).
 
 ## -returns
-An asynchronous operation object which, when it completes, contains an [IVectorView](https://docs.microsoft.com/previous-versions/br224594(v=vs.85)) of strings, which are the next-word-prediction candidates.
+An asynchronous operation object which, when it completes, contains an [IVectorView](/previous-versions/br224594(v=vs.85)) of strings, which are the next-word-prediction candidates.
 
 ## -remarks
 

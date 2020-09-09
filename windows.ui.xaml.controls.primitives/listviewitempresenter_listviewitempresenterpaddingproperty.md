@@ -23,4 +23,4 @@ The identifier for the [ListViewItemPresenterPadding](listviewitempresenter_list
 ## -examples
 
 ## -see-also
-[ListViewItemPresenterPadding](listviewitempresenter_listviewitempresenterpadding.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[ListViewItemPresenterPadding](listviewitempresenter_listviewitempresenterpadding.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

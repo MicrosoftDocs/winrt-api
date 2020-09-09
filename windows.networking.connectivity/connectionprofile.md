@@ -29,7 +29,7 @@ function getConnectionProfileInfo(connectionProfile) {
 
 ```
 
-For more examples of how these class methods are implemented to access connection information, see [Quickstart: Retrieving network connection information](https://docs.microsoft.com/previous-versions/windows/apps/hh452990(v=win.10)).
+For more examples of how these class methods are implemented to access connection information, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
 
 ### Version history
 
@@ -42,4 +42,4 @@ For more examples of how these class methods are implemented to access connectio
 ## -examples
 
 ## -see-also
-[NetworkInformation.FindConnectionProfilesAsync](https://docs.microsoft.com/uwp/api/windows.networking.connectivity.networkinformation#Windows_Networking_Connectivity_NetworkInformation_FindConnectionProfilesAsync_Windows_Networking_Connectivity_ConnectionProfileFilter_)
+[NetworkInformation.FindConnectionProfilesAsync](/uwp/api/windows.networking.connectivity.networkinformation#Windows_Networking_Connectivity_NetworkInformation_FindConnectionProfilesAsync_Windows_Networking_Connectivity_ConnectionProfileFilter_)

@@ -22,7 +22,7 @@ Specifies the content that the [DataPackage](datapackage.md) contains.
 ## -remarks
 To add data using this method, your app must convert the data into an object. You must also specify a *formatId* that target apps can use to request the data. Note that the target app can request this data only if it knows the *formatId*.
 
-This method is often used when you use a delegate function to share data. For more information, see [How to support pull operations](https://docs.microsoft.com/previous-versions/windows/apps/hh770848(v=win.10)).
+This method is often used when you use a delegate function to share data. For more information, see [How to support pull operations](/previous-versions/windows/apps/hh770848(v=win.10)).
 
 ## -examples
 

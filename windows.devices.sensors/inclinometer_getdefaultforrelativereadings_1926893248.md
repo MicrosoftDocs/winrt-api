@@ -10,7 +10,7 @@ public Windows.Devices.Sensors.Inclinometer GetDefaultForRelativeReadings()
 # Windows.Devices.Sensors.Inclinometer.GetDefaultForRelativeReadings
 
 ## -description
-Returns the default inclinometer for [relative readings](https://docs.microsoft.com/uwp/api/windows.devices.sensors.sensorreadingtype).
+Returns the default inclinometer for [relative readings](/uwp/api/windows.devices.sensors.sensorreadingtype).
 
 ## -returns
 The default inclinometer or null if no inclinometers are found.

@@ -20,4 +20,4 @@ The identifier for the [EntranceTarget](drillinthemeanimation_entrancetarget.md)
 ## -examples
 
 ## -see-also
-[EntranceTarget](drillinthemeanimation_entrancetarget.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[EntranceTarget](drillinthemeanimation_entrancetarget.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

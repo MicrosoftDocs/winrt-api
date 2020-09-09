@@ -228,6 +228,6 @@ Expected input does not include emoji. Advises input processors to not display t
 ## -examples
 
 ## -see-also
-[Windows.UI.Text.Core](windows_ui_text_core.md), [Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[Windows.UI.Text.Core](windows_ui_text_core.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
 
 

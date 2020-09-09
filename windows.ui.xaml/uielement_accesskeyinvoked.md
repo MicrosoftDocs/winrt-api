@@ -31,4 +31,4 @@ This event occurs when the key is pressed, not when it's released.
 
 ## -see-also
 
-[AccessKeyInvokedEventArgs](../windows.ui.xaml.input/accesskeyinvokedeventargs.md), [Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)
+[AccessKeyInvokedEventArgs](../windows.ui.xaml.input/accesskeyinvokedeventargs.md), [Access keys](/windows/uwp/design/input/access-keys)

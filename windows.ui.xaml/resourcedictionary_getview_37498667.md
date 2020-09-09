@@ -22,4 +22,4 @@ The view object.
 ## -examples
 
 ## -see-also
-[CopyTo](resourcedictionary_copyto.md), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[CopyTo](resourcedictionary_copyto.md), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

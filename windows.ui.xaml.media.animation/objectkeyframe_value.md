@@ -19,9 +19,7 @@ Gets or sets the key frame's target value.
     singleObject
   </DiscreteObjectKeyFrame.Value>
 </DiscreteObjectKeyFrame>
-```
-
-```xaml
+- or -
 <DiscreteObjectKeyFrame Value="stringForObject"/>
 ```
 

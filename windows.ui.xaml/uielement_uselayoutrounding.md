@@ -31,4 +31,4 @@ Possible scenarios for setting UseLayoutRounding to **false** are not documented
 ## -examples
 
 ## -see-also
-[Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

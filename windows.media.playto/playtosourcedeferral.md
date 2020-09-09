@@ -19,7 +19,7 @@ You can use a deferral when you want to make an asynchronous call to retrieve th
 
 To create a deferral, call the [GetDeferral](playtosourcerequest_getdeferral_254836512.md) method to instruct the [PlayToManager](playtomanager.md) class to wait to receive a source media element to stream to the Play To target. After you've supplied the source media element to the [SetSource](playtosourcerequest_setsource_1024738425.md) method, call the [Complete](playtosourcedeferral_complete_1807836922.md) method to end the deferral. If you create a deferral and the wait time exceeds the [Deadline](playtosourcerequest_deadline.md) property, Play To will continue without a source element from your app.
 
-For an example of how to use Play To in an application, see [Quickstart: Using Play To in applications (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465184(v=win.10)) or [PlayReady DRM](https://docs.microsoft.com/windows/uwp/audio-video-camera/playready-client-sdk).
+For an example of how to use Play To in an application, see [Quickstart: Using Play To in applications (JavaScript)](/previous-versions/windows/apps/hh465184(v=win.10)) or [PlayReady DRM](/windows/uwp/audio-video-camera/playready-client-sdk).
 
 ## -examples
 

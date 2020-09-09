@@ -10,7 +10,7 @@ public class ProtectionCapabilities
 # Windows.Media.Protection.ProtectionCapabilities
 
 ## -description
-Exposes Microsoft PlayReady digital rights management (DRM) capabilities for video decoding, video display, and video output protection subsystems used by the Windows Media Foundation pipeline under a XAML [MediaElement](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.MediaElement) or  C++ Media Engine to a WinRT caller.  The caller may use this information to select the most appropriate encoding of DRM’ed content for playback. 
+Exposes Microsoft PlayReady digital rights management (DRM) capabilities for video decoding, video display, and video output protection subsystems used by the Windows Media Foundation pipeline under a XAML [MediaElement](/uwp/api/Windows.UI.Xaml.Controls.MediaElement) or  C++ Media Engine to a WinRT caller.  The caller may use this information to select the most appropriate encoding of DRM’ed content for playback. 
 
 ## -remarks
 Software DRM typically does not need this information, and may rely on **MediaElement** or Media Engine **CanPlayType**.  Capabilities for hardware DRM may be a constrained subset of those for software DRM, and are controlled by Graphics IHVs’ hardware and firmware.  For example, a specific graphics adapter’s decoder may be able to handle HEVC 10-bit video streams for software DRM and clear content, and not for hardware DRM.  The capability queries are therefore targeted at responses for hardware DRM, although the class does support limited queries for software DRM.

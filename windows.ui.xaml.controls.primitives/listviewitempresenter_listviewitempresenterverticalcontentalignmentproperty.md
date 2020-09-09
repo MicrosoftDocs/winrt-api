@@ -25,4 +25,4 @@ The identifier for the [ListViewItemPresenterVerticalContentAlignment](listviewi
 ## -examples
 
 ## -see-also
-[ListViewItemPresenterVerticalContentAlignment](listviewitempresenter_listviewitempresenterverticalcontentalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[ListViewItemPresenterVerticalContentAlignment](listviewitempresenter_listviewitempresenterverticalcontentalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

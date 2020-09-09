@@ -13,7 +13,7 @@ public class HtmlFormatHelper
 Responsible for formatting HTML content that you want to share or add to the Clipboard. Also allows you to get HTML fragments from the content.
 
 ## -remarks
-For more information on how to use this class, check out [DataPackage.SetHtmlFormat](datapackage_sethtmlformat_1162235403.md). You might also want to look at our topic, [How to share HTML](https://docs.microsoft.com/previous-versions/windows/apps/hh758310(v=win.10)).
+For more information on how to use this class, check out [DataPackage.SetHtmlFormat](datapackage_sethtmlformat_1162235403.md). You might also want to look at our topic, [How to share HTML](/previous-versions/windows/apps/hh758310(v=win.10)).
 
 ## -examples
 

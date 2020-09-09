@@ -28,7 +28,7 @@ Represents a symbolic or photorealistic map of the Earth.
 
 ### XAML attached properties
 
-MapControl is the host service class for several [XAML attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview).
+MapControl is the host service class for several [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview).
 
 In order to support XAML processor access to the attached properties, and also to expose equivalent _get_ and _set_ operations to code, each XAML attached property has a pair of Get and Set accessor methods. Another way to get or set the value in code is to use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md) and passing the identifier field as the dependency property identifier.
 
@@ -68,4 +68,4 @@ In order to support XAML processor access to the attached properties, and also t
 
 ## -see-also
 
-[Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps), [Control](../windows.ui.xaml.controls/control.md), [MapControl sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MapControl)
+[Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps), [Control](../windows.ui.xaml.controls/control.md), [MapControl sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MapControl)

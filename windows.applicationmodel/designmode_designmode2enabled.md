@@ -26,8 +26,8 @@ The following table lists differences in functionality supported by the XAML des
 
 |           | XAML designer that targets the Windows 10 Creators Update SDK or earlier  | Xaml designer that targets the Windows 10 Fall Creators Update SDK or later |
 |-----------|:------------------:|:------------------:|
-|[CoreWindow](https://docs.microsoft.com/uwp/api/windows.ui.core.corewindow) |:x:|:heavy_check_mark:|
-|[CoreDispatcher](https://docs.microsoft.com/uwp/api/windows.ui.core.coredispatcher) |:x:|:heavy_check_mark:|
+|[CoreWindow](/uwp/api/windows.ui.core.corewindow) |:x:|:heavy_check_mark:|
+|[CoreDispatcher](/uwp/api/windows.ui.core.coredispatcher) |:x:|:heavy_check_mark:|
 |Threading model | Single-threaded apartment (STA) | Application single-threaded apartment (ASTA) |
 |.NET Framework | Desktop | Core |
 |UI Composition support |:x:|:heavy_check_mark:|

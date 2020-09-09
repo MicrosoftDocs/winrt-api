@@ -33,4 +33,4 @@ The [ControlChannelTrigger(String, UInt32, ControlChannelTriggerResourceType) co
 ## -examples
 
 ## -see-also
-[How to set background connectivity options](https://docs.microsoft.com/previous-versions/windows/apps/hh771189(v=win.10)), [ControlChannelTrigger(String, UInt32)](controlchanneltrigger_controlchanneltrigger_381309182.md), [ControlChannelTriggerResourceType](controlchanneltriggerresourcetype.md)
+[How to set background connectivity options](/previous-versions/windows/apps/hh771189(v=win.10)), [ControlChannelTrigger(String, UInt32)](controlchanneltrigger_controlchanneltrigger_381309182.md), [ControlChannelTriggerResourceType](controlchanneltriggerresourcetype.md)

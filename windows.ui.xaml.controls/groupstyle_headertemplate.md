@@ -15,9 +15,7 @@ Gets or sets the template that is used to display the group header.
 ## -xaml-syntax
 ```xaml
 <GroupStyle HeaderTemplate="dataTemplateReference" />
-```
-
-```xaml
+- or -
 <GroupStyle>
   <GroupStyle.HeaderTemplate>
     <DataTemplate>
@@ -40,4 +38,4 @@ A [DataTemplate](../windows.ui.xaml/datatemplate.md) object that is used to disp
 ## -examples
 
 ## -see-also
-[How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10))
+[How to group items in a list or grid](/previous-versions/windows/apps/hh780627(v=win.10))

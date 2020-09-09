@@ -15,10 +15,7 @@ Gets or sets the graphic content of the button that is clicked to initiate a que
 ## -xaml-syntax
 ```xaml
 <AutoSuggestBox QueryIcon="symbolName" .../>
-```
-
-```xaml
-
+- or -
 <AutoSuggestBox>
     <AutoSuggestBox.QueryIcon>
         iconElement

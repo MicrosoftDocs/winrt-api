@@ -17,8 +17,8 @@ Allows for classes that implement this interface to be expressed as a [Compositi
 
 ## -see-also
 
-[Windows.UI.Xaml.Media.Geometry Class](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.geometry),
-[Windows.UI.Composition.CompositionPath Class](https://docs.microsoft.com/uwp/api/windows.ui.composition.compositionpath),
-[Windows.UI.Composition Namespace](https://docs.microsoft.com/uwp/api/windows.ui.composition)
+[Windows.UI.Xaml.Media.Geometry Class](/uwp/api/windows.ui.xaml.media.geometry),
+[Windows.UI.Composition.CompositionPath Class](/uwp/api/windows.ui.composition.compositionpath),
+[Windows.UI.Composition Namespace](/uwp/api/windows.ui.composition)
 
 ## -examples

@@ -17,10 +17,7 @@ Gets or sets the animation's starting value.
 <ColorAnimation From="colorString"/>
 -or-
 <ColorAnimation From="referenceToColor"/>
-
-```
-
-```xaml
+- or -
 <ColorAnimation>
   <ColorAnimation.From>
     <Color>colorString</Color>

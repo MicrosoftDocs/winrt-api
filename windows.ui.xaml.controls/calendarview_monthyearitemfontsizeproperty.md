@@ -20,4 +20,4 @@ The identifier for the   [MonthYearItemFontSize](calendarview_monthyearitemfont
 ## -examples
 
 ## -see-also
-[MonthYearItemFontSize](calendarview_monthyearitemfontsize.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MonthYearItemFontSize](calendarview_monthyearitemfontsize.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

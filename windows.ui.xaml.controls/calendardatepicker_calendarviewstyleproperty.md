@@ -20,4 +20,4 @@ The identifier for the [CalendarViewStyle](calendardatepicker_calendarviewstyle.
 ## -examples
 
 ## -see-also
-[CalendarViewStyle](calendardatepicker_calendarviewstyle.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CalendarViewStyle](calendardatepicker_calendarviewstyle.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

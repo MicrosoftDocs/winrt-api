@@ -68,7 +68,7 @@ query.getFilesAsync().done(function (files) {
 The `query` variable gets the storageFileQueryResult that is used to retrieve files that meet the criteria of the query.
 
 > [!NOTE]
-> You need the Pictures library capability to access the library using [KnownFolders.PicturesLibrary](../windows.storage/knownfolders_pictureslibrary.md). To learn more about capabilities and file access, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
+> You need the Pictures library capability to access the library using [KnownFolders.PicturesLibrary](../windows.storage/knownfolders_pictureslibrary.md). To learn more about capabilities and file access, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
 ## -see-also
 

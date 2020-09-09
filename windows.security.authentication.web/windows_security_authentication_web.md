@@ -13,7 +13,7 @@ The single sign-on (SSO) mode of the web authentication broker APIs is provided 
 
 The [Web authentication broker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker) in the Samples gallery is an example of how to use single sign on (SSO) for connections.
 
-If your app or its companion website accesses user data in Outlook.com or Microsoft OneDrive, the Live Connect API hides some of the complexities of authentication tokens and make it a bit easier to write code to work with these cloud services. For more information about the Live Connect API, see [Using Live Connect to personalize apps (HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh770853(v=win.10)) or [Using Live Connect to personalize apps (XAML)](https://docs.microsoft.com/previous-versions/windows/apps/hh770854(v=win.10)).
+If your app or its companion website accesses user data in Outlook.com or Microsoft OneDrive, the Live Connect API hides some of the complexities of authentication tokens and make it a bit easier to write code to work with these cloud services. For more information about the Live Connect API, see [Using Live Connect to personalize apps (HTML)](/previous-versions/windows/apps/hh770853(v=win.10)) or [Using Live Connect to personalize apps (XAML)](/previous-versions/windows/apps/hh770854(v=win.10)).
 
 ## -remarks
 
@@ -21,4 +21,4 @@ If your app or its companion website accesses user data in Outlook.com or Micros
 
 ## -see-also
 
-[Authentication and user identity (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/dn448918(v=win.10)), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity), [Quickstart: Connecting to an online identity provider (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/jj856915(v=win.10)), [Web authentication broker](https://docs.microsoft.com/windows/uwp/security/web-authentication-broker), [Windows authentication broker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker), [WebAuthenticationBroker sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
+[Authentication and user identity (JavaScript)](/previous-versions/windows/apps/dn448918(v=win.10)), [Authentication and user identity](/windows/uwp/security/authentication-and-user-identity), [Quickstart: Connecting to an online identity provider (JavaScript)](/previous-versions/windows/apps/jj856915(v=win.10)), [Web authentication broker](/windows/uwp/security/web-authentication-broker), [Windows authentication broker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker), [WebAuthenticationBroker sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)

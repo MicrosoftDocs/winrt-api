@@ -15,9 +15,7 @@ Gets or sets the title template used for displaying the title above the headers 
 ## -xaml-syntax
 ```xaml
 <Pivot TitleTemplate="resourceReferenceToDataTemplate"/>
-```
-
-```xaml
+- or -
 <Pivot>
   <Pivot.TitleTemplate>
      <DataTemplate>

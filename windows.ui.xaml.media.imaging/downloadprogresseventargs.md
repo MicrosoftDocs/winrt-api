@@ -17,4 +17,4 @@ Provides event data for the [DownloadProgress](bitmapimage_downloadprogress.md) 
 ## -examples
 
 ## -see-also
-[DownloadProgress](bitmapimage_downloadprogress.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes)
+[DownloadProgress](bitmapimage_downloadprogress.md), [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes)

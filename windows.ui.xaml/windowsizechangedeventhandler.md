@@ -26,4 +26,4 @@ The [SizeChanged](window_sizechanged.md) event fires when the [Window](window.md
 ## -examples
 
 ## -see-also
-[ApplicationView](../windows.ui.viewmanagement/applicationview.md), [Window](window.md), [FrameworkElement.SizeChanged](frameworkelement_sizechanged.md), [Quickstart: Designing apps for different window sizes](https://docs.microsoft.com/previous-versions/windows/apps/dn297195(v=win.10))
+[ApplicationView](../windows.ui.viewmanagement/applicationview.md), [Window](window.md), [FrameworkElement.SizeChanged](frameworkelement_sizechanged.md), [Quickstart: Designing apps for different window sizes](/previous-versions/windows/apps/dn297195(v=win.10))

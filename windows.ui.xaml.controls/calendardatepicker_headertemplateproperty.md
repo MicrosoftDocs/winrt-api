@@ -20,4 +20,4 @@ The identifier for the [HeaderTemplate](calendardatepicker_headertemplate.md) de
 ## -examples
 
 ## -see-also
-[HeaderTemplate](calendardatepicker_headertemplate.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[HeaderTemplate](calendardatepicker_headertemplate.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

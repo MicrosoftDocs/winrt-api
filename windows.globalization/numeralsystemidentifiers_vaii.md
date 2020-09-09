@@ -20,4 +20,4 @@ The string "Vaii", which identifies the Vai decimal numeral system. This system 
 ## -examples
 
 ## -see-also
-[NumeralSystem values](https://docs.microsoft.com/previous-versions/windows/apps/jj236471(v=win.10))
+[NumeralSystem values](/previous-versions/windows/apps/jj236471(v=win.10))

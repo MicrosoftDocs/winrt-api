@@ -24,7 +24,7 @@ Indicates a vendor-specified USB control request and depends on the requests sup
 
 
 ## -remarks
-For conceptual information about USB control transfers, see "Microsoft-defined methods for sending control transfer requests" in [How to send a USB control transfer](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index).
+For conceptual information about USB control transfers, see "Microsoft-defined methods for sending control transfer requests" in [How to send a USB control transfer](/windows-hardware/drivers/ddi/content/index).
 
 ## -examples
 

@@ -31,7 +31,7 @@ Access is denied to this app by the System; the app hasn't requested the proper 
 ## -examples
 
 ## -see-also
-[Connected apps and devices (Project Rome)](https://docs.microsoft.com/windows/uwp/launch-resume/connected-apps-and-devices)
+[Connected apps and devices (Project Rome)](/windows/uwp/launch-resume/connected-apps-and-devices)
 
 ## -capabilities
 remoteSystem

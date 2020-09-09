@@ -18,4 +18,4 @@ Represents the visual element of a notification. The visual element contains bin
 ## -examples
 
 ## -see-also
-[Adaptive and interactive toast notifications](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-adaptive-interactive-toasts)
+[Adaptive and interactive toast notifications](/windows/uwp/controls-and-patterns/tiles-and-notifications-adaptive-interactive-toasts)

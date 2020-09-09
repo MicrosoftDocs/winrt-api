@@ -24,9 +24,9 @@ The high surrogate value returned.
 The low surrogate value returned.
 
 ## -remarks
-See [Surrogates and Supplementary Characters](https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters) for a discussion of supplementary Unicode characters.
+See [Surrogates and Supplementary Characters](/windows/desktop/Intl/surrogates-and-supplementary-characters) for a discussion of supplementary Unicode characters.
 
 ## -examples
 
 ## -see-also
-[GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md), [Surrogates and Supplementary Characters](https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters)
+[GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md), [Surrogates and Supplementary Characters](/windows/desktop/Intl/surrogates-and-supplementary-characters)

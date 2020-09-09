@@ -16,9 +16,9 @@ Returns the media element as a [CastingSource](../windows.media.casting/castings
 The media element as a [CastingSource](../windows.media.casting/castingsource.md).
 
 ## -remarks
-For more info about using [MediaElement](mediaelement.md) as a casting source, see [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting).
+For more info about using [MediaElement](mediaelement.md) as a casting source, see [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 ## -examples
 
 ## -see-also
-[Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting)
+[Media casting](/windows/uwp/audio-video-camera/media-casting)

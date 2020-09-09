@@ -10,14 +10,14 @@ public string GetStringAt(System.UInt32 index)
 # Windows.Data.Json.JsonArray.GetStringAt
 
 ## -description
-Gets the [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) at the specified index if the [ValueType](ijsonvalue_valuetype.md) of the encapsulated value is **String**.
+Gets the [String](/dotnet/api/system.string?redirectedfrom=MSDN) at the specified index if the [ValueType](ijsonvalue_valuetype.md) of the encapsulated value is **String**.
 
 ## -parameters
 ### -param index
 The specified index.
 
 ## -returns
-The [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) value at the specified index.
+The [String](/dotnet/api/system.string?redirectedfrom=MSDN) value at the specified index.
 
 ## -remarks
 

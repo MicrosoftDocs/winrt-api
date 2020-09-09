@@ -20,7 +20,7 @@ The storage item.
 An iterable list of the [StorageProviderItemProperty](StorageProviderItemProperty.md) states for the storage item.
 
 ## -returns
-An asynchronous action. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the return type is void.
+An asynchronous action. If you use [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the return type is void.
 
 ## -remarks
 

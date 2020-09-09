@@ -41,4 +41,4 @@ protected override void OnLaunched(LaunchActivatedEventArgs args) {
 
 
 ## -see-also
-[Application.DebugSettings](application_debugsettings.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [Performance best practices for ](https://docs.microsoft.com/previous-versions/windows/apps/hh750313(v=win.10))
+[Application.DebugSettings](application_debugsettings.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [Performance best practices for ](/previous-versions/windows/apps/hh750313(v=win.10))

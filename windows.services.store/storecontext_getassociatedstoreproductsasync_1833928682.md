@@ -20,9 +20,9 @@ An array of strings that specify the types of products you want to get. For a li
 An asynchronous operation that, on successful completion, returns a [StoreProductQueryResult](storeproductqueryresult.md) that provides access to the associated products and relevant error info.
 
 ## -remarks
-For more information about using this method, including a code example, see [Get product info for apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
+For more information about using this method, including a code example, see [Get product info for apps and add-ons](/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
 
 ## -examples
 
 ## -see-also
-[StoreProductQueryResult](storeproductqueryresult.md), [Get product info for apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store)
+[StoreProductQueryResult](storeproductqueryresult.md), [Get product info for apps and add-ons](/windows/uwp/monetize/get-product-info-for-apps-and-add-ons), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store)

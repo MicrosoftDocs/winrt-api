@@ -20,4 +20,4 @@ The identifier for the [Scene](mapcontrol_scene.md) dependency property.
 ## -examples
 
 ## -see-also
-[Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

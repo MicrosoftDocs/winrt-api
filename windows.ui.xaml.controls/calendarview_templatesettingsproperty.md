@@ -20,4 +20,4 @@ The identifier for the [TemplateSettings](calendarview_templatesettings.md)   d
 ## -examples
 
 ## -see-also
-[TemplateSettings](calendarview_templatesettings.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[TemplateSettings](calendarview_templatesettings.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

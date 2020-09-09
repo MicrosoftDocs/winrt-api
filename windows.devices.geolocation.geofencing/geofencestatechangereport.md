@@ -18,6 +18,6 @@ Use the [GeofenceMonitor.ReadReports](geofencemonitor_readreports_231406138.md) 
 ## -examples
 
 ## -see-also
-[Geofencing, start to finish](https://docs.microsoft.com/previous-versions/windows/apps/dn263199(v=win.10)), [GeofenceMonitor](geofencemonitor.md), [Geofence](geofence.md)
+[Geofencing, start to finish](/previous-versions/windows/apps/dn263199(v=win.10)), [GeofenceMonitor](geofencemonitor.md), [Geofence](geofence.md)
 ## -capabilities
 location

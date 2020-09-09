@@ -21,4 +21,4 @@ Event data for the event.
 ## -examples
 
 ## -see-also
-[UIElement.Drop](../windows.ui.xaml/uielement_drop.md), [DragEventArgs](../windows.ui.xaml/drageventargs.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)
+[UIElement.Drop](../windows.ui.xaml/uielement_drop.md), [DragEventArgs](../windows.ui.xaml/drageventargs.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)

@@ -24,4 +24,4 @@ The event data.
 ## -examples
 
 ## -see-also
-[BindingFailed](debugsettings_bindingfailed.md), [DebugSettings](debugsettings.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[BindingFailed](debugsettings_bindingfailed.md), [DebugSettings](debugsettings.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

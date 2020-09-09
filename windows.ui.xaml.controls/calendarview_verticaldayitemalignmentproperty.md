@@ -20,4 +20,4 @@ The identifier for the [VerticalDayItemAlignment](calendarview_verticaldayitemal
 ## -examples
 
 ## -see-also
-[VerticalDayItemAlignment](calendarview_verticaldayitemalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[VerticalDayItemAlignment](calendarview_verticaldayitemalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

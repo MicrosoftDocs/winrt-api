@@ -21,4 +21,4 @@ You might call this method if you want the target [UIElement](uielement.md) to b
 ## -examples
 
 ## -see-also
-[ManipulationMode](uielement_manipulationmode.md), [Gestures, manipulations, and interactions](https://docs.microsoft.com/previous-versions/windows/apps/hh761498(v=win.10))
+[ManipulationMode](uielement_manipulationmode.md), [Gestures, manipulations, and interactions](/previous-versions/windows/apps/hh761498(v=win.10))

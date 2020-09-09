@@ -20,4 +20,4 @@ The identifier for the [PressedBorderBrush](calendarview_pressedborderbrush.md) 
 ## -examples
 
 ## -see-also
-[PressedBorderBrush](calendarview_pressedborderbrush.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[PressedBorderBrush](calendarview_pressedborderbrush.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

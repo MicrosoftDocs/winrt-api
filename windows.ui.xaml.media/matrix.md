@@ -14,9 +14,7 @@ Represents a 3 × 3 affine transformation matrix used for transformations in two
 ## -xaml-syntax
 ```xaml
 <Matrix .../>
-```
-
-```xaml
+- or -
 <object property="m11,m12,m21,m22,offsetX,offsetY"/>
 - or -
 <object property="m11 m12 m21 m22 offsetX offsetY"/>

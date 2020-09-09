@@ -28,4 +28,4 @@ Provides the animated transition behavior for a panel UI transition.
 ## -examples
 
 ## -see-also
-[Transition](transition.md), [EdgeUIThemeTransition](edgeuithemetransition.md), [Animating edge-based UI](https://docs.microsoft.com/previous-versions/windows/apps/jj649428(v=win.10)), [Guidelines and checklist for edge-based UI animations](https://docs.microsoft.com/windows/uwp/style/motion-edgebased)
+[Transition](transition.md), [EdgeUIThemeTransition](edgeuithemetransition.md), [Animating edge-based UI](/previous-versions/windows/apps/jj649428(v=win.10)), [Guidelines and checklist for edge-based UI animations](/windows/uwp/style/motion-edgebased)

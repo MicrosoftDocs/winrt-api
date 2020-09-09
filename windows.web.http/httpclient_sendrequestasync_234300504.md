@@ -29,17 +29,13 @@ The [HttpRequestMessage](httprequestmessage.md) passed in the *request* paramete
 
 Below are the exceptions that this function throws.
 
-### E_INVALIDARG
-
-The *request* parameter was a **null** reference (**Nothing** in Visual Basic).
-
 ### E_ILLEGAL_METHOD_CALL
 
 The request message was already sent by the [HttpClient](httpclient.md) instance.
 
-### Exception Handling
+### Exception handling
 
-You must write code to handle exceptions when you call this method. Exceptions can result from parameter validation errors, name resolutions failures, and network errors. Exceptions from network errors (loss of connectivity, connection failures, and HTTP server failures, for example) can happen at any time. These errors result in exceptions being thrown. If not handled by your app, an exception can cause your entire app to be terminated by the runtime. For more information on how to handle exceptions, see [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)).
+You must write code to handle exceptions when you call this method. Exceptions can result from parameter validation errors, name resolutions failures, and network errors. Exceptions from network errors (loss of connectivity, connection failures, and HTTP server failures, for example) can happen at any time. These errors result in exceptions being thrown. If not handled by your app, an exception can cause your entire app to be terminated by the runtime. For more information on how to handle exceptions, see [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)) and [How to: Map HRESULTs and Exceptions](/dotnet/framework/interop/how-to-map-hresults-and-exceptions).
 
 ## -examples
 

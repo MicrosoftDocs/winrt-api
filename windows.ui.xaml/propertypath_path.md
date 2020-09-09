@@ -21,4 +21,4 @@ To establish a value for [Path](propertypath_path_1221375020.md), create a new [
 ## -examples
 
 ## -see-also
-[Property-path syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/property-path-syntax), [{Binding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/binding-markup-extension)
+[Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax), [{Binding} markup extension](/windows/uwp/xaml-platform/binding-markup-extension)

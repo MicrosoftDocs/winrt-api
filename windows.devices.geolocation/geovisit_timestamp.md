@@ -13,7 +13,7 @@ public DateTime Timestamp { get; }
 Gets the time that this Visit-related state change happened.
 
 ## -property-value
-A [DateTime](https://docs.microsoft.com/uwp/api/windows.foundation.datetime) instance representing the time the state change happened.
+A [DateTime](/uwp/api/windows.foundation.datetime) instance representing the time the state change happened.
 
 ## -remarks
 

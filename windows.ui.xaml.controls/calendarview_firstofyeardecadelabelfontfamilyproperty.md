@@ -20,4 +20,4 @@ The identifier for the [FirstOfYearDecadeLabelFontFamily](calendarview_firstofye
 ## -examples
 
 ## -see-also
-[FirstOfYearDecadeLabelFontFamily](calendarview_firstofyeardecadelabelfontfamily.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[FirstOfYearDecadeLabelFontFamily](calendarview_firstofyeardecadelabelfontfamily.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

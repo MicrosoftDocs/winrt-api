@@ -11,7 +11,7 @@ public FileSavePicker FileSavePicker.CreateForUser(User user)
 # Windows.Storage.Pickers.FileSavePicker.CreateForUser
 
 ## -description
-Creates a [FileSavePicker](filesavepicker.md) that is scoped to the personal directory of the specified user. Use this method for [multi-user applications](https://docs.microsoft.com/windows/uwp/xbox-apps/multi-user-applications).
+Creates a [FileSavePicker](filesavepicker.md) that is scoped to the personal directory of the specified user. Use this method for [multi-user applications](/windows/uwp/xbox-apps/multi-user-applications).
 
 ## -parameters
 ### -param user
@@ -23,7 +23,7 @@ The new [FileSavePicker](filesavepicker.md) that was created.
 ## -remarks
 
 ## -see-also
-[Introduction to multi-user applications](https://docs.microsoft.com/windows/uwp/xbox-apps/multi-user-applications),[User](filesavepicker_user.md)
+[Introduction to multi-user applications](/windows/uwp/xbox-apps/multi-user-applications),[User](filesavepicker_user.md)
 
 ## -examples
 

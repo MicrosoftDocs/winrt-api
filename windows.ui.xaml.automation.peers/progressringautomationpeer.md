@@ -23,9 +23,9 @@ ProgressRingAutomationPeer has overrides of **Core** methods such that the assoc
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "ProgressRing".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.ProgressBar](automationcontroltype.md).
 + [GetName](automationpeer_getname_1386609741.md) has an implementation that reports a localized string for "Busy" whenever the [ProgressRing](../windows.ui.xaml.controls/progressring.md) owner reports [IsActive](../windows.ui.xaml.controls/progressring_isactive.md) as **true**.
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [ProgressRing](../windows.ui.xaml.controls/progressring.md), [ProgressBar](../windows.ui.xaml.controls/progressbar.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [ProgressRing](../windows.ui.xaml.controls/progressring.md), [ProgressBar](../windows.ui.xaml.controls/progressbar.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

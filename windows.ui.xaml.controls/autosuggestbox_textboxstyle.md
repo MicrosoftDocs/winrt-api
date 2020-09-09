@@ -16,10 +16,7 @@ Gets or sets the style of the auto-suggest text box.
 ```xaml
 
 <AutoSuggestBox TextBoxStyle={StaticResource styleResourceKey}/>
-
-```
-
-```xaml
+- or -
 <AutoSuggestBox>
   <AutoSuggestBox.TextBoxStyle>
     <Style TargetType="TextBox">

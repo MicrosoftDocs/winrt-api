@@ -36,7 +36,7 @@ If there's an error, such as an invalid input for the *contact* parameter, no UI
 
 For querying purposes, phone numbers support characters 0-9 and a-z/A-Z. If you put any other characters in a phone number, they are ignored when you query the contact.
 
-For info about how to manage contacts, see [Managing contact cards ](https://docs.microsoft.com/previous-versions/windows/apps/dn518181(v=win.10)) and [Managing contact cards ](https://docs.microsoft.com/previous-versions/windows/apps/dn518237(v=win.10)).
+For info about how to manage contacts, see [Managing contact cards ](/previous-versions/windows/apps/dn518181(v=win.10)) and [Managing contact cards ](/previous-versions/windows/apps/dn518237(v=win.10)).
 
 For querying purposes, phone numbers support characters 0-9 and a-z/A-Z. If you put any other characters in a phone number, they are ignored when you query the contact.
 

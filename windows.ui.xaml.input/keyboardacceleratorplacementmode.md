@@ -23,7 +23,7 @@ The keyboard accelerator is displayed. Default.
 This enumeration is used by the [UIElement.KeyboardAcceleratorPlacementMode](../windows.ui.xaml/uielement_keyboardacceleratorplacementmode.md) property.
 
 ## -see-also
-[UIElement.KeyboardAcceleratorPlacementMode](../windows.ui.xaml/uielement_keyboardacceleratorplacementmode.md), [Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
+[UIElement.KeyboardAcceleratorPlacementMode](../windows.ui.xaml/uielement_keyboardacceleratorplacementmode.md), [Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

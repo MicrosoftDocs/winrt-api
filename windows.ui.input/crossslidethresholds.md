@@ -31,7 +31,7 @@ The distance, in device-independent pixel (DIP), from the initial point of conta
     
 
 ## -remarks
-A speed bump is a [CrossSliding](gesturerecognizer_crosssliding.md) region in which the user experiences a slight drag (or friction) during the [swipe](https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-cross-slide) or [slide](https://docs.microsoft.com/windows/uwp/input-and-devices/guidelines-for-cross-slide) gesture.
+A speed bump is a [CrossSliding](gesturerecognizer_crosssliding.md) region in which the user experiences a slight drag (or friction) during the [swipe](/windows/uwp/input-and-devices/guidelines-for-cross-slide) or [slide](/windows/uwp/input-and-devices/guidelines-for-cross-slide) gesture.
 
 The following diagram shows the [CrossSliding](gesturerecognizer_crosssliding.md) regions and thresholds. The areas highlighted in blue are the selection/speed bump regions. (The region on the left shows the distance the tile must travel while the region on the right shows the equivalent distance that the touch contact must travel due to the speed bump behavior).
 

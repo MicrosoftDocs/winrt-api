@@ -19,11 +19,11 @@ Use [MediaCapture.PrepareLowLagPhotoCaptureAsync](mediacapture_preparelowlagphot
 
 If the media type is changed or an effect is added, you must call [MediaCapture.PrepareLowLagPhotoCaptureAsync](mediacapture_preparelowlagphotocaptureasync_1426375994.md) to create a new LowLagPhotoCapture object.
 
-For how-to guidance for using **LowLagPhotoCapture** to capture photos, see [Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+For how-to guidance for using **LowLagPhotoCapture** to capture photos, see [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 
 
 
 ## -examples
 
 ## -see-also
-[Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture), [MediaCapture.PrepareLowLagPhotoCapture](mediacapture_preparelowlagphotocaptureasync_1426375994.md), [CapturedPhoto](capturedphoto.md), [LowLagPhotoControl](../windows.media.devices/lowlagphotocontrol.md), [MediaControl.VideoDeviceController](mediacapture_videodevicecontroller.md), [LowLagPhotoSequenceCapture](lowlagphotosequencecapture.md)
+[Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture), [MediaCapture.PrepareLowLagPhotoCapture](mediacapture_preparelowlagphotocaptureasync_1426375994.md), [CapturedPhoto](capturedphoto.md), [LowLagPhotoControl](../windows.media.devices/lowlagphotocontrol.md), [MediaControl.VideoDeviceController](mediacapture_videodevicecontroller.md), [LowLagPhotoSequenceCapture](lowlagphotosequencecapture.md)

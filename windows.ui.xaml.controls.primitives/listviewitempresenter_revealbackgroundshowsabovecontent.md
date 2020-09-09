@@ -19,7 +19,7 @@ Gets or sets a value that indicates whether the reveal backgound is shown on top
 
 ## -remarks
 
-For more info, see [Reveal](https://docs.microsoft.com/windows/uwp/style/reveal).
+For more info, see [Reveal](/windows/uwp/style/reveal).
 
 ## -see-also
 

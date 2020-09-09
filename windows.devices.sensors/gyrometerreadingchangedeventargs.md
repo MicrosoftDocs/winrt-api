@@ -18,4 +18,4 @@ This object is accessed when your app supports the [ReadingChanged](gyrometer_re
 ## -examples
 
 ## -see-also
-[Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10))
+[Sensor data and display orientation](/previous-versions/windows/apps/dn440593(v=win.10))

@@ -15,9 +15,7 @@ Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to disp
 ## -xaml-syntax
 ```xaml
 <TimePicker HeaderTemplate="resourceReferenceToDataTemplate"/>
-```
-
-```xaml
+- or -
 <TimePicker>
   <TimePicker.HeaderTemplate>
     singleDataTemplate

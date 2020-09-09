@@ -15,7 +15,7 @@ Allows apps to export spatial anchors for sharing and relocalization across devi
 
 ## -remarks
 > [!NOTE]
-> This type supports [Azure Spatial Anchors](https://docs.microsoft.com/azure/spatial-anchors), which enables you to create durable cloud-backed spatial anchors that your app can then locate across multiple HoloLens, iOS and Android devices.
+> This type supports [Azure Spatial Anchors](/azure/spatial-anchors), which enables you to create durable cloud-backed spatial anchors that your app can then locate across multiple HoloLens, iOS and Android devices.
 
 ## -see-also
 

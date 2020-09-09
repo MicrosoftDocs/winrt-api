@@ -14,12 +14,8 @@ Gets or sets the [Style](../windows.ui.xaml/style.md) applied to the [Flyout](fl
 
 ## -xaml-syntax
 ```xaml
-
 <Flyout FlyoutPresenterStyle={StaticResource styleResourceKey}/>
-
-```
-
-```xaml
+- or -
 <Flyout>
   <Flyout.FlyoutPresenterStyle>
     <Style TargetType="FlyoutPresenter">
@@ -45,4 +41,4 @@ A [Flyout](flyout.md) itself isn't a control or even a [UIElement](../windows.ui
 ## -examples
 
 ## -see-also
-[Content](flyout_content.md), [FlyoutPresenter](flyoutpresenter.md), [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls)
+[Content](flyout_content.md), [FlyoutPresenter](flyoutpresenter.md), [Styling controls](/windows/uwp/controls-and-patterns/styling-controls)

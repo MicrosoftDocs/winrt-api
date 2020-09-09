@@ -20,4 +20,4 @@ The identifier for the [DateFormat](calendardatepicker_dateformat.md) dependency
 ## -examples
 
 ## -see-also
-[DateFormat](calendardatepicker_dateformat.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DateFormat](calendardatepicker_dateformat.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -26,4 +26,4 @@ In some cases, *sender* is not interesting, and you are instead interested in in
 ## -examples
 
 ## -see-also
-[Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10))
+[Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))

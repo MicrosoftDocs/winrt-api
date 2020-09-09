@@ -13,7 +13,7 @@ public class PlaybackRateChangeRequestedEventArgs : Windows.Media.PlayTo.IPlayba
 Provides information about the [PlaybackRateChangeRequested](playtoreceiver_playbackratechangerequested.md) event.
 
 ## -remarks
-For an example of creating a software Play To receiver, see [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting) or [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting).
+For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting) or [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 
 

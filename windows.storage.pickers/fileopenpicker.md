@@ -15,7 +15,7 @@ Represents a UI element that lets the user choose and open files.
 
 ## -remarks
 
-To get started accessing files and folders file picker, see [Quickstart: Accessing files with File Pickers](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers).
+To get started accessing files and folders file picker, see [Quickstart: Accessing files with File Pickers](/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
 ### Version history
 
@@ -43,4 +43,4 @@ The [File picker sample](https://github.com/Microsoft/Windows-universal-samples/
 
 ## -see-also
 
-[File picker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with File Pickers ](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Blobs sample](https://go.microsoft.com/fwlink/p/?LinkId=620573)
+[File picker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with File Pickers ](/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Blobs sample](https://go.microsoft.com/fwlink/p/?LinkId=620573)

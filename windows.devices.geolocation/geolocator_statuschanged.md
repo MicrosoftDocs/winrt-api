@@ -18,7 +18,7 @@ You can access information about the event with the [StatusChangedEventArgs](sta
 When using a geofence, use the [GeofenceMonitor](../windows.devices.geolocation.geofencing/geofencemonitor.md)'s [StatusChanged](../windows.devices.geolocation.geofencing/geofencemonitor_statuschanged.md) event to monitor changes in location permissions instead of this  event from the [Geolocator](geolocator.md) class. A [GeofenceMonitorStatus](../windows.devices.geolocation.geofencing/geofencemonitorstatus.md) of **Disabled** is equivalent to a **Disabled** [PositionStatus](positionstatus.md) - both indicate that the app does not have permission to access location.
 
 ## -examples
-This code example demonstrates how the StatusChanged event is handled. The [Geolocator](geolocator.md) object triggers the StatusChanged event to indicate that the user's location settings changed. That event passes the corresponding status via the argument's **Status** property (of type [PositionStatus](positionstatus.md)). Note that this method is not called from the UI thread and the [Dispatcher](../windows.ui.core/coredispatcher.md) object invokes the UI changes. For more info, see [Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location).
+This code example demonstrates how the StatusChanged event is handled. The [Geolocator](geolocator.md) object triggers the StatusChanged event to indicate that the user's location settings changed. That event passes the corresponding status via the argument's **Status** property (of type [PositionStatus](positionstatus.md)). Note that this method is not called from the UI thread and the [Dispatcher](../windows.ui.core/coredispatcher.md) object invokes the UI changes. For more info, see [Get current location](/windows/uwp/maps-and-location/get-location).
 
 ```csharp
 
@@ -79,7 +79,7 @@ async private void OnStatusChanged(Geolocator sender, StatusChangedEventArgs e)
 
 
 ## -see-also
-[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [StatusChangedEventArgs](statuschangedeventargs.md), [geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
+[Get current location](/windows/uwp/maps-and-location/get-location), [Get current location](/windows/uwp/maps-and-location/get-location), [Set up a geofence](/windows/uwp/maps-and-location/set-up-a-geofence), [StatusChangedEventArgs](statuschangedeventargs.md), [geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
 
 ## -capabilities
 location

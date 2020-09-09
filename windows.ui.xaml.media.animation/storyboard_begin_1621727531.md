@@ -20,4 +20,4 @@ Begin starts the animations within the [Storyboard](storyboard.md) from their in
 ## -examples
 
 ## -see-also
-[Stop](storyboard_stop_1201535524.md), [GetCurrentTime](storyboard_getcurrenttime_1338472985.md), [Children](storyboard_children.md), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)
+[Stop](storyboard_stop_1201535524.md), [GetCurrentTime](storyboard_getcurrenttime_1338472985.md), [Children](storyboard_children.md), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)

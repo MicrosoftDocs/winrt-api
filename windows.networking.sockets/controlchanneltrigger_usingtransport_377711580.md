@@ -28,11 +28,11 @@ For a [StreamSocket](streamsocket.md), the constructor for the [StreamSocket](st
 
 For [HttpClient](../windows.web.http/httpclient.md) in the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace, the UsingTransport method needs to be called with the initialized [HttpClient](../windows.web.http/httpclient.md) instance before any of the GET, PUT, POST, SEND, OR DELETE request methods on the [HttpClient](../windows.web.http/httpclient.md) or related classes are invoked.
 
-For [IXMLHTTPRequest2](https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2) interface, the HTTP request must be opened first using the [Open](https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open) method and passed to the UsingTransport method. Then the [Send](https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send) method on the [IXMLHTTPRequest2](https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2) object can be invoked to send the HTTP request.
+For [IXMLHTTPRequest2](/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2) interface, the HTTP request must be opened first using the [Open](/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open) method and passed to the UsingTransport method. Then the [Send](/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send) method on the [IXMLHTTPRequest2](/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2) object can be invoked to send the HTTP request.
 
 For , the UsingTransport method needs to be called with the initialized  instance before any of the GET, PUT, POST, SEND, OR DELETE request methods on the  or related classes are invoked.
 
 ## -examples
 
 ## -see-also
-[How to set background connectivity options](https://docs.microsoft.com/previous-versions/windows/apps/hh771189(v=win.10)), [IXMLHTTPRequest2](https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2), [StreamSocket](streamsocket.md), , [Windows.Web.Http.HttpClient](../windows.web.http/httpclient.md)
+[How to set background connectivity options](/previous-versions/windows/apps/hh771189(v=win.10)), [IXMLHTTPRequest2](/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2), [StreamSocket](streamsocket.md), , [Windows.Web.Http.HttpClient](../windows.web.http/httpclient.md)

@@ -32,7 +32,7 @@ By using this value, an app can omit the interface number in an interface-recipi
 
 
 ## -remarks
-For conceptual information about USB control transfers, see "About the default endpoint" and "Layout of a control transfer" in [How to send a USB control transfer](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index).
+For conceptual information about USB control transfers, see "About the default endpoint" and "Layout of a control transfer" in [How to send a USB control transfer](/windows-hardware/drivers/ddi/content/index).
 
 ## -examples
 

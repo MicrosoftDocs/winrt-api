@@ -10,7 +10,7 @@ public class SystemMediaProperties : Windows.Storage.ISystemMediaProperties
 # Windows.Storage.SystemMediaProperties
 
 ## -description
-A helper object that provides indexing names for [Windows media file properties](https://docs.microsoft.com/windows/desktop/properties/media-bumper).
+A helper object that provides indexing names for [Windows media file properties](/windows/desktop/properties/media-bumper).
 
 ## -remarks
 

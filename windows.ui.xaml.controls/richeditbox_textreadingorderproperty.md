@@ -20,4 +20,4 @@ The identifier for the [TextReadingOrder](richeditbox_textreadingorder.md) depen
 ## -examples
 
 ## -see-also
-[TextReadingOrder](richeditbox_textreadingorder.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[TextReadingOrder](richeditbox_textreadingorder.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

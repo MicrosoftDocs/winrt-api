@@ -26,7 +26,7 @@ Signature previously computed over the message to be verified.
 **true** if the message is verified.
 
 ## -remarks
-To sign content, the sender typically creates a hash over the message, signs (encrypts) the hash, and then sends both the signature and the unencrypted message. The recipient uses the same key and algorithm to calculate a hash over the message, decrypts the signature, and compares the decrypted signature to the hash value. If they match, the recipient can be fairly certain that the message did, in fact, come from the sender and was not altered during transmission. For more information, see [MACs, hashes, and signatures](https://docs.microsoft.com/windows/uwp/security/macs-hashes-and-signatures).
+To sign content, the sender typically creates a hash over the message, signs (encrypts) the hash, and then sends both the signature and the unencrypted message. The recipient uses the same key and algorithm to calculate a hash over the message, decrypts the signature, and compares the decrypted signature to the hash value. If they match, the recipient can be fairly certain that the message did, in fact, come from the sender and was not altered during transmission. For more information, see [MACs, hashes, and signatures](/windows/uwp/security/macs-hashes-and-signatures).
 
 ## -examples
 

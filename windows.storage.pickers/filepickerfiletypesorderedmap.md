@@ -31,4 +31,4 @@ The [File picker sample](https://github.com/microsoft/Windows-universal-samples/
 [!code-js[all_savepicker_setprops](../windows.storage.pickers/code/FilePicker/js/js/scenario4.js#Snippetall_savepicker_setprops)]
 
 ## -see-also
-[File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with file pickers (HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)), [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers), [FileSavePicker.FileTypeChoices property](filesavepicker_filetypechoices.md)
+[File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with file pickers (HTML)](/previous-versions/windows/apps/hh465199(v=win.10)), [Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers), [FileSavePicker.FileTypeChoices property](filesavepicker_filetypechoices.md)

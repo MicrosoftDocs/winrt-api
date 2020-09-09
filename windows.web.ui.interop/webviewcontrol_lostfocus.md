@@ -11,7 +11,7 @@ public event TypedEventHandler LostFocus<WebViewControl,  object>
 # Windows.Web.UI.Interop.WebViewControl.LostFocus
 
 ## -description
-Informs your app when the [WebViewControl](https://docs.microsoft.com/uwp/api/windows.web.ui.interop.webviewcontrol) loses focus. May be initiated by the user clicking inside/outside the WebViewControl or by a programmatic focus change, such as the app calling [SetFocus](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus) on a window that is not the WebViewControl or a [MoveFocus](https://docs.microsoft.com/uwp/api/windows.web.ui.interop.webviewcontrol.movefocus) method call.
+Informs your app when the [WebViewControl](/uwp/api/windows.web.ui.interop.webviewcontrol) loses focus. May be initiated by the user clicking inside/outside the WebViewControl or by a programmatic focus change, such as the app calling [SetFocus](/windows/desktop/api/winuser/nf-winuser-setfocus) on a window that is not the WebViewControl or a [MoveFocus](/uwp/api/windows.web.ui.interop.webviewcontrol.movefocus) method call.
 
 ## -remarks
 

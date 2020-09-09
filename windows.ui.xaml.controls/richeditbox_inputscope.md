@@ -15,9 +15,7 @@ Gets or sets the context for input used by this [RichEditBox](richeditbox.md).
 ## -xaml-syntax
 ```xaml
 <RichEditBox InputScope="inputScopeName" .../>
-```
-
-```xaml
+- or -
 <RichEditBox>
   <RichEditBox.InputScope>
     <InputScope>

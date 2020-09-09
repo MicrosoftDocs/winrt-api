@@ -27,4 +27,4 @@ To learn more about the possible default behavior of specific peer classes for d
 ## -examples
 
 ## -see-also
-[Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

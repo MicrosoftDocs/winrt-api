@@ -22,7 +22,7 @@ Gets or sets the name of the source [WebView](webview.md) control that provides 
 <dl><dt>nameOfWebView</dt><dd>nameOfWebViewThe x:Name or reference name of an existing WebView control in the same UI.</dd>
 </dl>
 ## -property-value
-The [Name](../windows.ui.xaml/frameworkelement_name.md) or [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute) of the [WebView](webview.md) that provides the HTML content.
+The [Name](../windows.ui.xaml/frameworkelement_name.md) or [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute) of the [WebView](webview.md) that provides the HTML content.
 
 ## -remarks
 There are two alternatives for associating a [WebViewBrush](webviewbrush.md) with a [WebView](webview.md) control source:

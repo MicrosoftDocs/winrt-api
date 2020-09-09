@@ -21,9 +21,7 @@ Gets or sets the parameter to pass to the Command property.
     object
   </SwipeItem.CommandParameter>
 </SwipeItem>
-```
-
-```xaml
+- or -
 <SwipeItem CommandParameter="objectAsString"/>
 ```
 

@@ -26,6 +26,6 @@ When a user taps into a text input box using a Windows pen, the text box transfo
 
 ## -see-also
 
-[TextBox](textbox.md), [RichEditBox](richeditbox.md), [AutoSuggestBox](autosuggestbox.md), [Text input with the handwriting view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-handwriting-view)
+[TextBox](textbox.md), [RichEditBox](richeditbox.md), [AutoSuggestBox](autosuggestbox.md), [Text input with the handwriting view](/windows/uwp/design/controls-and-patterns/text-handwriting-view)
 
 ## -examples

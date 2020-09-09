@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler Removed<Windows.System.UserWat
 # Windows.System.UserWatcher.Removed
 
 ## -description
-Fires when a user is removed from the collection of users returned by [User.FindAllAsync](https://docs.microsoft.com/uwp/api/windows.system.user.findallasync).
+Fires when a user is removed from the collection of users returned by [User.FindAllAsync](/uwp/api/windows.system.user.findallasync).
 
 ## -remarks
 

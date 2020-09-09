@@ -17,4 +17,4 @@ Specifies the event that occurs when a pointer moves to another window. This eve
 ## -examples
 
 ## -see-also
-[Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)
+[Handle pointer input](/windows/uwp/input-and-devices/handle-pointer-input)

@@ -22,4 +22,4 @@ True if the product has optional downloadable content; otherwise, false.
 ## -examples
 
 ## -see-also
-[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
+[Optional packages and related set authoring](/windows/uwp/packaging/optional-packages)

@@ -15,15 +15,9 @@ Gets or sets a brush that describes the border fill of the panel.
 ## -xaml-syntax
 ```xaml
 <RelativePanel BorderBrush="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <RelativePanel BorderBrush="colorString"/>
-
-```
-
-```xaml
+- or -
 <RelativePanel>
   <RelativePanel.BorderBrush>singleBrush</RelativePanel.BorderBrush>
 </RelativePanel>

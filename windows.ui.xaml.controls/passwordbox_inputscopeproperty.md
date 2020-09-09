@@ -20,4 +20,4 @@ The identifier for the [InputScope](passwordbox_inputscope.md) dependency proper
 ## -examples
 
 ## -see-also
-[InputScope](passwordbox_inputscope.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[InputScope](passwordbox_inputscope.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

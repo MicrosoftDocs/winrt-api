@@ -13,7 +13,7 @@ public HttpResponseMessage ResponseMessage { get; }
 Gets the HTTP response message for this request.
 
 ## -property-value
-An [HttpResponseMessage](https://docs.microsoft.com/uwp/api/Windows.Web.Http.HttpResponseMessage) instance that will contain the device portal plugin's response to an HTTP request. Its properties must be set by the plugin app.
+An [HttpResponseMessage](/uwp/api/Windows.Web.Http.HttpResponseMessage) instance that will contain the device portal plugin's response to an HTTP request. Its properties must be set by the plugin app.
 
 ## -remarks
 

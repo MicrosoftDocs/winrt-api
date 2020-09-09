@@ -10,7 +10,7 @@ public class SystemVideoProperties : Windows.Storage.ISystemVideoProperties
 # Windows.Storage.SystemVideoProperties
 
 ## -description
-A helper object that provides indexing names for [video file properties](https://docs.microsoft.com/windows/desktop/properties/video-bumper).
+A helper object that provides indexing names for [video file properties](/windows/desktop/properties/video-bumper).
 
 ## -remarks
 

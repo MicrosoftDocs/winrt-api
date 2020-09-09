@@ -10,12 +10,12 @@ public IAsyncOperation<PwmController> PwmController.FromIdAsync(String deviceId)
 # Windows.Devices.Pwm.PwmController.FromIdAsync
 
 ## -description
-Initializes a PWM controller instance based on the given [DeviceInformation ID](https://docs.microsoft.com/uwp/api/Windows.Devices.Enumeration.DeviceInformation.Id).
+Initializes a PWM controller instance based on the given [DeviceInformation ID](/uwp/api/Windows.Devices.Enumeration.DeviceInformation.Id).
 
 ## -parameters
 
 ### -param deviceId
-The acquired [DeviceInformation ID](https://docs.microsoft.com/uwp/api/Windows.Devices.Enumeration.DeviceInformation.Id).
+The acquired [DeviceInformation ID](/uwp/api/Windows.Devices.Enumeration.DeviceInformation.Id).
 
 ## -returns
 

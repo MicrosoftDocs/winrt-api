@@ -5,7 +5,7 @@
 
 ## -description
 
-Gets the list of [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) family names from the main bundle to be registered.
+Gets the list of [Package](/uwp/api/windows.applicationmodel.package) family names from the main bundle to be registered.
 
 ## -property-value
 
@@ -15,7 +15,7 @@ The list of package family names from the main bundle to be registered.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [RegisterPackageOptions][registerpackageoptions.md]
 
 ## -examples

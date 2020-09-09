@@ -17,7 +17,7 @@ The packages on which the current package depends.
 
 ## -remarks
 > [!IMPORTANT]
-> Although [Package](package.md) is supported in desktop apps, this member is supported only in UWP app. To access a package's dependencies from a desktop app, use [GetPackageInfo](https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackageinfo).
+> Although [Package](package.md) is supported in desktop apps, this member is supported only in UWP app. To access a package's dependencies from a desktop app, use [GetPackageInfo](/windows/desktop/api/appmodel/nf-appmodel-getpackageinfo).
 
 ## -examples
 

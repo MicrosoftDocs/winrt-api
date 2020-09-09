@@ -15,9 +15,9 @@ Represents a single media object.
 ## -remarks
 Add media clips to a composition by adding them to a [MediaComposition](mediacomposition.md) object's [Clips](mediacomposition_clips.md) collection.
 
-For how-to guidance on adding media editing to your app, see [Media compositions and editing](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-compositions-and-editing).
+For how-to guidance on adding media editing to your app, see [Media compositions and editing](/windows/uwp/audio-video-camera/media-compositions-and-editing).
 
 ## -examples
 
 ## -see-also
-[Media compositions and editing](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-compositions-and-editing)
+[Media compositions and editing](/windows/uwp/audio-video-camera/media-compositions-and-editing)

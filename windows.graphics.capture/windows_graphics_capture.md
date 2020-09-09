@@ -15,10 +15,10 @@ Enables apps to capture environments, application windows, and displays in a sec
 
 ## -remarks
 
-You must also add the **Graphics Capture** capability to your UWP application. See [Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture#add-the-screen-capture-capability) for more information.
+You must also add the **Graphics Capture** capability to your UWP application. See [Screen capture](/windows/uwp/audio-video-camera/screen-capture#add-the-screen-capture-capability) for more information.
 
 ## -see-also
 
-[Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)
+[Screen capture](/windows/uwp/audio-video-camera/screen-capture)
 
 ## -examples

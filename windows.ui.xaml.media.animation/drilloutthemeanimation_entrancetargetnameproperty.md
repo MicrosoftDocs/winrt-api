@@ -20,4 +20,4 @@ The identifier for the [EntranceTargetName](drilloutthemeanimation_entrancetarge
 ## -examples
 
 ## -see-also
-[EntranceTargetName](drilloutthemeanimation_entrancetargetname.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[EntranceTargetName](drilloutthemeanimation_entrancetargetname.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

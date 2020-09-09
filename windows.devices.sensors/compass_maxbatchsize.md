@@ -16,7 +16,7 @@ Gets the maximum number of events that can be batched by the sensor.
 The maximum number of batched events.
 
 ## -remarks
-A sensor may not support batched data collection. In that case, this property will be 0. Otherwise, this determines the maximum number of events the sensor can gather before submitting them. This in turn will determine the maximum supported [ReportLatency](Compass_reportlatency.md). The maximum latency equals the [ReportInterval](Compass_reportinterval.md) times the [MaxBatchSize](Compass_maxbatchsize.md). For more information about sensor batching, see [Sensors](https://docs.microsoft.com/windows/uwp/devices-sensors/sensors).
+A sensor may not support batched data collection. In that case, this property will be 0. Otherwise, this determines the maximum number of events the sensor can gather before submitting them. This in turn will determine the maximum supported [ReportLatency](Compass_reportlatency.md). The maximum latency equals the [ReportInterval](Compass_reportinterval.md) times the [MaxBatchSize](Compass_maxbatchsize.md). For more information about sensor batching, see [Sensors](/windows/uwp/devices-sensors/sensors).
 
 ## -examples
 

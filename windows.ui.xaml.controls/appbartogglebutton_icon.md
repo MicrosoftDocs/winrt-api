@@ -15,16 +15,12 @@ Gets or sets the graphic content of the app bar toggle button.
 ## -xaml-syntax
 ```xaml
 <AppBarToggleButton Icon="symbolName" .../>
-```
-
-```xaml
-
+- or -
 <AppBarToggleButton>
     <AppBarToggleButton.Icon>
         iconElement
     </AppBarToggleButton.Icon>
 </AppBarToggleButton>
-
 ```
 
 

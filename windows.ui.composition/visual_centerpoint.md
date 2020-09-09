@@ -19,7 +19,7 @@ The point about which rotation or scaling occurs.
 
 CenterPoint is relative to the offset specified in the [AnchorPoint](visual_anchorpoint.md) property.
 
-This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](https://docs.microsoft.com/windows/uwp/composition/composition-animation).
+This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](/windows/uwp/composition/composition-animation).
 
 
 <!--

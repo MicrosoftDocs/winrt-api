@@ -47,4 +47,4 @@ Opt-in feature for Xbox with Windows 10 version 1803 (codenamed "Redstone 4") an
 
 ## -see-also
 
-[FocusVisualKind](https://docs.microsoft.com/uwp/api/windows.ui.xaml.application.FocusVisualKind)
+[FocusVisualKind](/uwp/api/windows.ui.xaml.application.FocusVisualKind)

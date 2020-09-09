@@ -10,10 +10,10 @@ public class InputStreamOverStream : Windows.Foundation.IClosable, Windows.Stora
 # Windows.Storage.Streams.InputStreamOverStream
 
 ## -description
-Provides a Windows Runtime input stream for an [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) base implementation.
+Provides a Windows Runtime input stream for an [IStream](/windows/desktop/api/objidl/nn-objidl-istream) base implementation.
 
 ## -remarks
-The InputStreamOverStream, [OutputStreamOverStream](outputstreamoverstream.md), and [RandomAccessStreamOverStream](randomaccessstreamoverstream.md) classes are interop helpers to convert between the Windows Runtime stream types, which are natively asynchronous, and the Component Object Model (COM) [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) types, which are natively synchronous.
+The InputStreamOverStream, [OutputStreamOverStream](outputstreamoverstream.md), and [RandomAccessStreamOverStream](randomaccessstreamoverstream.md) classes are interop helpers to convert between the Windows Runtime stream types, which are natively asynchronous, and the Component Object Model (COM) [IStream](/windows/desktop/api/objidl/nn-objidl-istream) types, which are natively synchronous.
 
 
 These helper classes make it easier for to reuse legacy code when you transition to the Windows Runtime stream types.
@@ -21,4 +21,4 @@ These helper classes make it easier for to reuse legacy code when you transition
 ## -examples
 
 ## -see-also
-[OutputStreamOverStream](outputstreamoverstream.md), [RandomAccessStreamOverStream](randomaccessstreamoverstream.md), [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)
+[OutputStreamOverStream](outputstreamoverstream.md), [RandomAccessStreamOverStream](randomaccessstreamoverstream.md), [IStream](/windows/desktop/api/objidl/nn-objidl-istream)

@@ -20,4 +20,4 @@ The identifier for the [RightHeaderTemplate](pivot_rightheadertemplate.md) depen
 ## -examples
 
 ## -see-also
-[RightHeaderTemplate](pivot_rightheadertemplate.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[RightHeaderTemplate](pivot_rightheadertemplate.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

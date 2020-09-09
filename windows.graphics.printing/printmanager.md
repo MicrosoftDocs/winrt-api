@@ -35,7 +35,7 @@ When a UWP app registers its "intention" to print, it creates a print contract w
 
 ```
 
-For more examples involving the print manager and to see some sample code for printing scenarios in UWP apps, see [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)) in the Windows Dev Center.
+For more examples involving the print manager and to see some sample code for printing scenarios in UWP apps, see [Printing](/previous-versions/windows/apps/hh465225(v=win.10)) in the Windows Dev Center.
 
 ### Version history
 
@@ -46,4 +46,4 @@ For more examples involving the print manager and to see some sample code for pr
 ## -examples
 
 ## -see-also
-[Authoring a  for Printers](https://docs.microsoft.com/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers), [Developing v4 Print Drivers](https://docs.microsoft.com/windows-hardware/drivers/print/v4-printer-driver), [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10))
+[Authoring a  for Printers](/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers), [Developing v4 Print Drivers](/windows-hardware/drivers/print/v4-printer-driver), [Printing](/previous-versions/windows/apps/hh465225(v=win.10))

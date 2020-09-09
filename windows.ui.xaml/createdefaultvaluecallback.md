@@ -39,4 +39,4 @@ PropertyMetadata metadata = PropertyMetadata.Create(
 
 
 ## -see-also
-[Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties), [DependencyProperty.Register](dependencyproperty_register_1826645607.md), [PropertyMetadata](propertymetadata.md)
+[Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties), [DependencyProperty.Register](dependencyproperty_register_1826645607.md), [PropertyMetadata](propertymetadata.md)

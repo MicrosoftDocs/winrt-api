@@ -31,7 +31,7 @@ The state of the connection profile for which usage data should be returned.
 When the method completes, it returns a list of [NetworkUsage](networkusage.md) objects, which indicate the sent and received values, in bytes, and the total amount of time the profile was connected during the corresponding time interval.
 
 ## -remarks
-For an example of how these methods are used, see [How to retrieve connection usage data for a specific period of time](https://docs.microsoft.com/previous-versions/windows/apps/hh465162(v=win.10)).
+For an example of how these methods are used, see [How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10)).
 
 ## -examples
 

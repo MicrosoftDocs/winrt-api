@@ -20,4 +20,4 @@ The identifier for the [TextReadingOrder](textbox_textreadingorder.md) dependenc
 ## -examples
 
 ## -see-also
-[TextReadingOrder](textbox_textreadingorder.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[TextReadingOrder](textbox_textreadingorder.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

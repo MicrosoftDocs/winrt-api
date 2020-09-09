@@ -20,7 +20,7 @@ The collection of user activities to convert to JSON.
 A JSON string representing the user activities.
 
 ## -remarks
-A better re-engagement UI can be built within a consuming application if the source application can provide more details about the re-engagement. By serializing the collection of **UserActivity** objects into a JSON string, you can then store them in a  [DataPackage](https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datapackage) and reconstitute them in the consuming application to provide more insight about the source application and the specific activities within the application that sourced the **DataPackage**.
+A better re-engagement UI can be built within a consuming application if the source application can provide more details about the re-engagement. By serializing the collection of **UserActivity** objects into a JSON string, you can then store them in a  [DataPackage](/uwp/api/windows.applicationmodel.datatransfer.datapackage) and reconstitute them in the consuming application to provide more insight about the source application and the specific activities within the application that sourced the **DataPackage**.
 
 ## -see-also
 [UserActivity.ToJson](useractivity_tojson_1289546151.md)

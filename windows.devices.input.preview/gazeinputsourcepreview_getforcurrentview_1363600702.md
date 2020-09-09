@@ -19,7 +19,7 @@ A GazeInputSourcePreview object bound to the active application.
 
 ## -remarks
 
-This method must be called on the UI thread, see [Keep the UI thread responsive](https://docs.microsoft.com/windows/uwp/debug-test-perf/keep-the-ui-thread-responsive).
+This method must be called on the UI thread, see [Keep the UI thread responsive](/windows/uwp/debug-test-perf/keep-the-ui-thread-responsive).
 
 Calling this method results in a privacy prompt in which the user is asked to grant permission for your app to access their eye-tracking device. The user is prompted only once, when the app is run for the first time.
 
@@ -27,6 +27,6 @@ Windows automatically prompts users with a consent dialog (when the app is first
 
 ## -see-also
 
-[Gaze interactions and eye tracking in UWP apps](https://docs.microsoft.com/windows/uwp/design/input/gaze-interactions), [Gaze input sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-gazeinput-basic.zip), [Windows Community Toolkit Gaze library](https://docs.microsoft.com/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary)
+[Gaze interactions and eye tracking in UWP apps](/windows/uwp/design/input/gaze-interactions), [Gaze input sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-gazeinput-basic.zip), [Windows Community Toolkit Gaze library](/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary)
 
 ## -examples

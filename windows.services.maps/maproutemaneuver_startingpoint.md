@@ -20,4 +20,4 @@ The location where the maneuver starts.
 ## -examples
 
 ## -see-also
-[Display  routes and directions on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/routes-and-directions)
+[Display  routes and directions on a map](/windows/uwp/maps-and-location/routes-and-directions)

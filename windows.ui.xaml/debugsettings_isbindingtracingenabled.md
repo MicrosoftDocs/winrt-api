@@ -23,4 +23,4 @@ When binding tracing is enabled and you run your app with the debugger attached,
 ## -examples
 
 ## -see-also
-[BindingFailed](debugsettings_bindingfailed.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[BindingFailed](debugsettings_bindingfailed.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

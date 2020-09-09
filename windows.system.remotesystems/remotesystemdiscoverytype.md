@@ -37,7 +37,7 @@ Remote systems are discoverable through a proximal connection and are expected t
 ## -examples
 
 ## -see-also
-[Connected apps and devices (Project Rome)](https://docs.microsoft.com/windows/uwp/launch-resume/connected-apps-and-devices)
+[Connected apps and devices (Project Rome)](/windows/uwp/launch-resume/connected-apps-and-devices)
 
 ## -capabilities
 remoteSystem

@@ -18,4 +18,4 @@ A USB device provides information about itself in data structures called USB des
 ## -examples
 
 ## -see-also
-[USB descriptors](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index)
+[USB descriptors](/windows-hardware/drivers/ddi/content/index)

@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IIterable<Windows.ApplicationModel.Package
 # Windows.Management.Deployment.PackageManager.FindPackages
 
 ## -description
-Retrieves information about a specified family of [Packages](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) installed across all users.
+Retrieves information about a specified family of [Packages](/uwp/api/windows.applicationmodel.package) installed across all users.
 
 ## -parameters
 ### -param packageFamilyName
@@ -26,7 +26,7 @@ This method requires administrative privileges. Each package in the [IIterable(P
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [FindPackages()](packagemanager_findpackages_1246181969.md), [FindPackages(String, String)](packagemanager_findpackages_1597689551.md)
 
 ## -capabilities

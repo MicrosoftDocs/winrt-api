@@ -15,9 +15,9 @@ Represents a read-only list of [TimedMetadataTrack](../windows.media.core/timedm
 ## -remarks
 Get an instance of this class by accessing the [TimedMetadataTracks](mediaplaybackitem_timedmetadatatracks.md) property of a [MediaPlaybackItem](mediaplaybackitem.md). To be notified when the list of tracks changes, handle the [TimedMetadataTracksChanged](mediaplaybackitem_timedmetadatatrackschanged.md) event.
 
-For how-to guidance for working with metadata tracks, see [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
+For how-to guidance for working with metadata tracks, see [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ## -examples
 
 ## -see-also
-[IVectorView(TimedMetadataTrack)](../windows.foundation.collections/ivectorview_1.md), [IIterable(TimedMetadataTrack)](../windows.foundation.collections/iiterable_1.md), [IMediaPlaybackTimedMediaTrackList](imediaplaybacktimedmediatracklist.md), [TimedMetadataTrack](../windows.media.core/timedmetadatatrack.md), [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource)
+[IVectorView(TimedMetadataTrack)](../windows.foundation.collections/ivectorview_1.md), [IIterable(TimedMetadataTrack)](../windows.foundation.collections/iiterable_1.md), [IMediaPlaybackTimedMediaTrackList](imediaplaybacktimedmediatracklist.md), [TimedMetadataTrack](../windows.media.core/timedmetadatatrack.md), [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource)

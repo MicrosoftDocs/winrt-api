@@ -26,4 +26,4 @@ The horizontal offset translation, in pixels.
 ## -examples
 
 ## -see-also
-[Animating pop-up UI](https://docs.microsoft.com/previous-versions/windows/apps/jj649433(v=win.10)), [Guidelines and checklist for pop-up UI animations](https://docs.microsoft.com/windows/uwp/style/motion-popup-animations)
+[Animating pop-up UI](/previous-versions/windows/apps/jj649433(v=win.10)), [Guidelines and checklist for pop-up UI animations](/windows/uwp/style/motion-popup-animations)

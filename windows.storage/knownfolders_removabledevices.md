@@ -21,12 +21,12 @@ The removable devices folder.
 To access the removable devices folder, you must:
 
 + In the app manifest, specify the **Removable Storage** capability.
-+ In the app manifest, register at least one File Type Association declaration. This declaration explicitly indicates the file types (extensions) that your app wants to access on the removable devices. The app can only enumerate, create, or change files that have the file types declared in the app manifest. For more info, see [Handle file activation](https://docs.microsoft.com/windows/uwp/launch-resume/handle-file-activation).
++ In the app manifest, register at least one File Type Association declaration. This declaration explicitly indicates the file types (extensions) that your app wants to access on the removable devices. The app can only enumerate, create, or change files that have the file types declared in the app manifest. For more info, see [Handle file activation](/windows/uwp/launch-resume/handle-file-activation).
 
 
 ### Return value
 
-To work with the removable devices folder and its contents, call the methods and properties of the [StorageFolder](storagefolder.md) class. For general info about how to use files and folders, see [Enumerate and query files and folders](https://docs.microsoft.com/windows/uwp/files/quickstart-listing-files-and-folders).
+To work with the removable devices folder and its contents, call the methods and properties of the [StorageFolder](storagefolder.md) class. For general info about how to use files and folders, see [Enumerate and query files and folders](/windows/uwp/files/quickstart-listing-files-and-folders).
 
 The folder returned by the **RemovableDevices** property is a virtual folder. This virtual folder contains a subfolder for each removable device that's present. For example, if a single removable device is attached to the computer, the removable devices folder contains a single subfolder for which the name and path may be `D:\`.
 

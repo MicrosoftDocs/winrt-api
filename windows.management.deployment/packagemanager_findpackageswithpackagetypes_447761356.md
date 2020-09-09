@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IIterable<Windows.ApplicationModel.Package
 # Windows.Management.Deployment.PackageManager.FindPackagesWithPackageTypes
 
 ## -description
-Retrieves information about specific [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) types that are installed across all users.
+Retrieves information about specific [Package](/uwp/api/windows.applicationmodel.package) types that are installed across all users.
 
 ## -parameters
 ### -param packageTypes
@@ -26,7 +26,7 @@ This method and its overloads require administrative privileges.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [FindPackagesWithPackageTypes(String, String, PackageTypes)](packagemanager_findpackageswithpackagetypes_2026827436.md), [FindPackagesWithPackageTypes(String, PackageTypes)](packagemanager_findpackageswithpackagetypes_1848672836.md)
 
 ## -capabilities

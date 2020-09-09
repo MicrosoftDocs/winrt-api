@@ -38,4 +38,4 @@ This method ignores whether *handledEventsToo* parameter was **true** in the [Ad
 ## -examples
 
 ## -see-also
-[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [RoutedEvent](routedevent.md)
+[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [RoutedEvent](routedevent.md)

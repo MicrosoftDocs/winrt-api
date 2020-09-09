@@ -49,5 +49,5 @@ End Sub
 
 
 ## -see-also
-[OnActivated](application_onactivated_603737819.md), [Resuming](application_resuming.md), [Launching and resuming apps](https://docs.microsoft.com/windows/uwp/launch-resume/), [Processes threads and apartments](https://docs.microsoft.com/en-us/windows/win32/com/processes--threads--and-apartments)
+[OnActivated](application_onactivated_603737819.md), [Resuming](application_resuming.md), [Launching and resuming apps](/windows/uwp/launch-resume/), [Processes threads and apartments](/en-us/windows/win32/com/processes--threads--and-apartments)
 

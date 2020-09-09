@@ -15,9 +15,7 @@ Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to disp
 ## -xaml-syntax
 ```xaml
 <listViewBase HeaderTemplate="resourceReferenceToDataTemplate"/>
-```
-
-```xaml
+- or -
 <listViewBase>
   <listViewBase.HeaderTemplate>
      <DataTemplate>

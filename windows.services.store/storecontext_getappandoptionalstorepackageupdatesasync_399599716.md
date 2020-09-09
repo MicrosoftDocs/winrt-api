@@ -16,7 +16,7 @@ Gets the collection of packages for the current app that have updates available 
 An asynchronous operation that, on successful completion, returns a collection of [StorePackageUpdate](storepackageupdate.md) objects that represent the packages that have updates available.
 
 ## -remarks
-For more information about using this method, including a code example, see [Download and install package updates for your app](https://docs.microsoft.com/windows/uwp/packaging/self-install-package-updates).
+For more information about using this method, including a code example, see [Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates).
 
 There is a latency of up to a day between the time when a package passes the certification process and when the GetAppAndOptionalStorePackageUpdatesAsync method recognizes that the package update is available to the app.
 
@@ -28,4 +28,4 @@ After you call GetAppAndOptionalStorePackageUpdatesAsync to determine which pack
 ## -examples
 
 ## -see-also
-[Download and install package updates for your app](https://docs.microsoft.com/windows/uwp/packaging/self-install-package-updates),[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
+[Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates),[Optional packages and related set authoring](/windows/uwp/packaging/optional-packages)

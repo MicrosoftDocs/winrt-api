@@ -34,7 +34,7 @@ If both [MapStyleSheet](mapstylesheet.md) instances define the same rule, the la
 
 The following example combines rules from two [MapStyleSheet](mapstylesheet.md) instances into one [MapStyleSheet](mapstylesheet.md) instance.
 
-To learn more about the properties used in this example, see [Map stylesheet reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet).
+To learn more about the properties used in this example, see [Map stylesheet reference](/windows/uwp/maps-and-location/elements-of-map-style-sheet).
 
 ```csharp
 string jsonString = @"{

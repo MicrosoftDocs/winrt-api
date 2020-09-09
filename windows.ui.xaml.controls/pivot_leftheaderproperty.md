@@ -20,4 +20,4 @@ The identifier for the [LeftHeader](pivot_leftheader.md) dependency property.
 ## -examples
 
 ## -see-also
-[LeftHeader](pivot_leftheader.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[LeftHeader](pivot_leftheader.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

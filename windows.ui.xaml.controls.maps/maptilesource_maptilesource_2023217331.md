@@ -21,4 +21,4 @@ The data source to use for the tiles.
 ## -examples
 
 ## -see-also
-[MapTileSource(MapTileDataSource, MapZoomLevelRange)](maptilesource_maptilesource_570285215.md), [MapTileSource(MapTileDataSource, MapZoomLevelRange, GeoboundingBox)](maptilesource_maptilesource_904316957.md), [MapTileSource(MapTileDataSource, MapZoomLevelRange, GeoboundingBox, Int32)](maptilesource_maptilesource_270987811.md), [Overlay tiled images on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/overlay-tiled-images)
+[MapTileSource(MapTileDataSource, MapZoomLevelRange)](maptilesource_maptilesource_570285215.md), [MapTileSource(MapTileDataSource, MapZoomLevelRange, GeoboundingBox)](maptilesource_maptilesource_904316957.md), [MapTileSource(MapTileDataSource, MapZoomLevelRange, GeoboundingBox, Int32)](maptilesource_maptilesource_270987811.md), [Overlay tiled images on a map](/windows/uwp/maps-and-location/overlay-tiled-images)

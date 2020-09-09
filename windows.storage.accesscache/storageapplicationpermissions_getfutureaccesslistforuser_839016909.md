@@ -11,7 +11,7 @@ public StorageItemAccessList StorageApplicationPermissions.GetFutureAccessListFo
 # Windows.Storage.AccessCache.StorageApplicationPermissions.GetFutureAccessListForUser
 
 ## -description
-Gets an object that represents a list that an app maintains so that the app can store files and/or locations (like folders) and easily access these items in the future. This method returns an object that is scoped to the specified user. Use this method for [multi-user applications](https://docs.microsoft.com/windows/uwp/xbox-apps/multi-user-applications).
+Gets an object that represents a list that an app maintains so that the app can store files and/or locations (like folders) and easily access these items in the future. This method returns an object that is scoped to the specified user. Use this method for [multi-user applications](/windows/uwp/xbox-apps/multi-user-applications).
 
 ## -parameters
 ### -param user
@@ -23,7 +23,7 @@ The future-access list object.
 ## -remarks
 
 ## -see-also
-[Introduction to multi-user applications](https://docs.microsoft.com/windows/uwp/xbox-apps/multi-user-applications)
+[Introduction to multi-user applications](/windows/uwp/xbox-apps/multi-user-applications)
 
 ## -examples
 

@@ -23,9 +23,9 @@ All [Application](application.md) overrides involved in an activation scenario s
 
 The [Search contract sample](https://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to respond to a [Search](../windows.applicationmodel.activation/activationkind.md) activated event.
 
-Consider writing your OnSearchActivated handler as asynchronous. For more info, see [Minimize startup time](https://docs.microsoft.com/previous-versions/windows/apps/hh994639(v=win.10)).
+Consider writing your OnSearchActivated handler as asynchronous. For more info, see [Minimize startup time](/previous-versions/windows/apps/hh994639(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)), [Search contract sample](https://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5)
+[Quickstart: Adding search](/previous-versions/windows/apps/hh465238(v=win.10)), [Search contract sample](https://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5)

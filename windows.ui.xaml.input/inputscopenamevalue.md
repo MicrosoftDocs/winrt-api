@@ -216,4 +216,4 @@ Expected input does not include emoji. Advises input processors to not show the 
 
 ## -see-also
 
-[Windows.UI.Xaml.Input enumerations](windows_ui_xaml_input_enumerations.md), [Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[Windows.UI.Xaml.Input enumerations](windows_ui_xaml_input_enumerations.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

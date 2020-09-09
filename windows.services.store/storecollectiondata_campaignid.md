@@ -16,9 +16,9 @@ Gets the promotion campaign ID that is associated with the product SKU.
 The promotion campaign ID that is associated with the product SKU.
 
 ## -remarks
-Starting in Windows 10, you can seed the installation URL for your app with an ID that represents a custom promotion campaign. This enables you to publicize the installation URL in different locations and use the campaign ID to determine which location the customer clicked on the installation URL. Use the CampaignId property to retrieve the campaign ID for an app. For more information about custom app promotion campaigns, see [Create a custom app promotion campaign](https://docs.microsoft.com/windows/uwp/publish/create-a-custom-app-promotion-campaign).
+Starting in Windows 10, you can seed the installation URL for your app with an ID that represents a custom promotion campaign. This enables you to publicize the installation URL in different locations and use the campaign ID to determine which location the customer clicked on the installation URL. Use the CampaignId property to retrieve the campaign ID for an app. For more information about custom app promotion campaigns, see [Create a custom app promotion campaign](/windows/uwp/publish/create-a-custom-app-promotion-campaign).
 
 ## -examples
 
 ## -see-also
-[Create a custom app promotion campaign](https://docs.microsoft.com/windows/uwp/publish/create-a-custom-app-promotion-campaign)
+[Create a custom app promotion campaign](/windows/uwp/publish/create-a-custom-app-promotion-campaign)

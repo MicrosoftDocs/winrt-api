@@ -19,9 +19,9 @@ Event data.
 
 
 ## -remarks
-For more info on how to write a handler based on this delegate, see [Exception handling for    in C# or Visual Basic](https://docs.microsoft.com/previous-versions/windows/apps/dn532194(v=win.10)) and Remarks in [UnhandledException](application_unhandledexception.md).
+For more info on how to write a handler based on this delegate, see [Exception handling for    in C# or Visual Basic](/previous-versions/windows/apps/dn532194(v=win.10)) and Remarks in [UnhandledException](application_unhandledexception.md).
 
 ## -examples
 
 ## -see-also
-[UnhandledException](application_unhandledexception.md), [UnhandledExceptionEventArgs](unhandledexceptioneventargs.md), [Exception handling for    in C# or Visual Basic](https://docs.microsoft.com/previous-versions/windows/apps/dn532194(v=win.10)), [Exceptions (C++/CX)](https://docs.microsoft.com/cpp/cppcx/exceptions-c-cx)
+[UnhandledException](application_unhandledexception.md), [UnhandledExceptionEventArgs](unhandledexceptioneventargs.md), [Exception handling for    in C# or Visual Basic](/previous-versions/windows/apps/dn532194(v=win.10)), [Exceptions (C++/CX)](/cpp/cppcx/exceptions-c-cx)

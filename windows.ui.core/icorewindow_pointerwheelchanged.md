@@ -22,4 +22,4 @@ The delegate type for this event is [TypedEventHandler\<TSender,TResult\>](/uwp/
 See the code examples in [Handle pointer input](/windows/uwp/design/input/handle-pointer-input).
 
 ## -see-also
-[Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input), [TypedEventHandler\<TSender,TResult\>](/uwp/api/windows.foundation.typedeventhandler-2), [CoreWindow](/uwp/api/windows.ui.core.corewindow?view=winrt-19041), [KeyEventArgs](/uwp/api/windows.ui.core.keyeventargs)
+[Handle pointer input](/windows/uwp/input-and-devices/handle-pointer-input), [TypedEventHandler\<TSender,TResult\>](/uwp/api/windows.foundation.typedeventhandler-2), [CoreWindow](/uwp/api/windows.ui.core.corewindow?view=winrt-19041), [KeyEventArgs](/uwp/api/windows.ui.core.keyeventargs)

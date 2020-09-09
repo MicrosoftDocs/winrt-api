@@ -35,9 +35,9 @@ The dimensions of the space between the presenter and its children as a [Thickne
 ## -remarks
 A Padding value applies to presentation rendering of each presented item and also to the header (if one is specified).
 
-A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For [ItemsPresenter](itemspresenter.md) , margin and padding would typically blend together with the division between them not being apparent in the rendering. So it's typical to specify a [Margin](../windows.ui.xaml/frameworkelement_margin.md) or a Padding, but not both. For more info about the relationship between margin and padding, see [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
+A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For [ItemsPresenter](itemspresenter.md) , margin and padding would typically blend together with the division between them not being apparent in the rendering. So it's typical to specify a [Margin](../windows.ui.xaml/frameworkelement_margin.md) or a Padding, but not both. For more info about the relationship between margin and padding, see [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml).
 
 ## -examples
 
 ## -see-also
-[Thickness](../windows.ui.xaml/thickness.md), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding), [Adding ListView and GridView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780618(v=win.10))
+[Thickness](../windows.ui.xaml/thickness.md), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Adding ListView and GridView controls](/previous-versions/windows/apps/hh780618(v=win.10))

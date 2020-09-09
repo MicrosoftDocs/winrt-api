@@ -13,9 +13,9 @@ public event Windows.Foundation.TypedEventHandler PackageUninstalling<Windows.Ap
 Indicates that an app package is uninstalling.
 
 ## -remarks
-If the PackageCatalog is obtained using **[OpenForCurrentPackage](https://docs.microsoft.com/uwp/api/windows.applicationmodel.packagecatalog.OpenForCurrentPackage)**, the app only receives package events for itself or its related packages such as optional packages.
+If the PackageCatalog is obtained using **[OpenForCurrentPackage](/uwp/api/windows.applicationmodel.packagecatalog.OpenForCurrentPackage)**, the app only receives package events for itself or its related packages such as optional packages.
 
-To get package events for all of a user's packages, obtain the PackageCatalog using **[OpenForCurrentUser](https://docs.microsoft.com/uwp/api/windows.applicationmodel.packagecatalog.OpenForCurrentUser)** instead.
+To get package events for all of a user's packages, obtain the PackageCatalog using **[OpenForCurrentUser](/uwp/api/windows.applicationmodel.packagecatalog.OpenForCurrentUser)** instead.
 
 ## -examples
 

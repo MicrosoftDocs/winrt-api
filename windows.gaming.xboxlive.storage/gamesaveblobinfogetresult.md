@@ -24,4 +24,4 @@ GameSaveBlobInfoGetResult is returned when [GameSaveBlobInfoQuery.GetBlobInfoAsy
 
 ## -see-also
 
-[Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)
+[Object](/dotnet/api/system.object?redirectedfrom=MSDN)

@@ -29,4 +29,4 @@ The object value for the resource to insert.
 ## -examples
 
 ## -see-also
-[Add](resourcedictionary_add_2.md), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Add](resourcedictionary_add_2.md), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

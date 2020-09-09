@@ -15,7 +15,7 @@ Lets you add and remove folders from a library like Music or Videos and lets you
 
 ## -remarks
 
-You can only access libraries that you have declared capabilities for in your app manifest. To learn more about capabilities see, [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
+You can only access libraries that you have declared capabilities for in your app manifest. To learn more about capabilities see, [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
 
 ### Version history
 
@@ -29,4 +29,4 @@ You can only access libraries that you have declared capabilities for in your ap
 
 ## -see-also
 
-[Files and folders in the Music, Pictures, and Videos libraries](https://docs.microsoft.com/windows/uwp/files/quickstart-managing-folders-in-the-music-pictures-and-videos-libraries),[Library management sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LibraryManagement)
+[Files and folders in the Music, Pictures, and Videos libraries](/windows/uwp/files/quickstart-managing-folders-in-the-music-pictures-and-videos-libraries),[Library management sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LibraryManagement)

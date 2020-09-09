@@ -13,7 +13,7 @@ public string NumeralSystem { get;  set; }
 Gets or sets the numeral system that Latin digits will be converted to on calls to [TranslateNumerals](numeralsystemtranslator_translatenumerals_1419744509.md).
 
 ## -property-value
-A string that indicates the target numeral system of the translator, such as "Arab" for the Arabic-Indic numeral system (٠١٢٣٤٥٦٧٨٩). See the supported [NumeralSystem values](https://docs.microsoft.com/previous-versions/windows/apps/jj236471(v=win.10)).
+A string that indicates the target numeral system of the translator, such as "Arab" for the Arabic-Indic numeral system (٠١٢٣٤٥٦٧٨٩). See the supported [NumeralSystem values](/previous-versions/windows/apps/jj236471(v=win.10)).
 
 ## -remarks
 > [!NOTE]
@@ -26,4 +26,4 @@ A string that indicates the target numeral system of the translator, such as "Ar
 ## -examples
 
 ## -see-also
-[NumeralSystem values](https://docs.microsoft.com/previous-versions/windows/apps/jj236471(v=win.10))
+[NumeralSystem values](/previous-versions/windows/apps/jj236471(v=win.10))

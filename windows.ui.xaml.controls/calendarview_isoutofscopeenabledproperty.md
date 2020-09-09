@@ -20,4 +20,4 @@ The identifier for the [IsOutOfScopeEnabled](calendarview_isoutofscopeenabled.md
 ## -examples
 
 ## -see-also
-[IsOutOfScopeEnabled](calendarview_isoutofscopeenabled.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsOutOfScopeEnabled](calendarview_isoutofscopeenabled.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

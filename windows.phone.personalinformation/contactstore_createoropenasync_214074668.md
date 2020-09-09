@@ -20,14 +20,14 @@ Whether contacts in the store can be modified by the phone experience or only by
 Whether all properties for contacts in the store are visible to other applications or just the description and display picture.
 
 ## -returns
-When this method completes, it returns a [ContactStore](contactstore.md) object representing the app's custom contact store. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is [ContactStore](contactstore.md).
+When this method completes, it returns a [ContactStore](contactstore.md) object representing the app's custom contact store. If you use [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is [ContactStore](contactstore.md).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[CreateOrOpenAsync](contactstore_createoropenasync_757682798.md), [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
+[CreateOrOpenAsync](contactstore_createoropenasync_757682798.md), [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

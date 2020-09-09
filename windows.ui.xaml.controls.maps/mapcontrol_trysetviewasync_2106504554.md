@@ -47,4 +47,4 @@ Heading values greater than 360 degrees are normalized to their equivalent 0-360
 ## -examples
 
 ## -see-also
-[TrySetViewAsync(Geopoint)](mapcontrol_trysetviewasync_675781320.md), [TrySetViewAsync(Geopoint, IReference(Double))](mapcontrol_trysetviewasync_117228238.md), [TrySetViewAsync(Geopoint, IReference(Double), IReference(Double), IReference(Double))](mapcontrol_trysetviewasync_513338662.md), [Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps)
+[TrySetViewAsync(Geopoint)](mapcontrol_trysetviewasync_675781320.md), [TrySetViewAsync(Geopoint, IReference(Double))](mapcontrol_trysetviewasync_117228238.md), [TrySetViewAsync(Geopoint, IReference(Double), IReference(Double), IReference(Double))](mapcontrol_trysetviewasync_513338662.md), [Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps)

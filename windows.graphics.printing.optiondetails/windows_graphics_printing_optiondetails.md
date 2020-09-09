@@ -13,4 +13,4 @@ Extends the basic print task options to enable you to have greater control over 
 ## -examples
 
 ## -see-also
-[Windows.Graphics.Printing namespace](https://docs.microsoft.com/uwp/api/windows.graphics.printing)
+[Windows.Graphics.Printing namespace](/uwp/api/windows.graphics.printing)

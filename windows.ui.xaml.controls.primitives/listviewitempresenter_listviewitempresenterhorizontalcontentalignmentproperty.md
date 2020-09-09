@@ -23,4 +23,4 @@ The identifier for the [ListViewItemPresenterHorizontalContentAlignment](listvie
 ## -examples
 
 ## -see-also
-[ListViewItemPresenterHorizontalContentAlignment](listviewitempresenter_listviewitempresenterhorizontalcontentalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[ListViewItemPresenterHorizontalContentAlignment](listviewitempresenter_listviewitempresenterhorizontalcontentalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

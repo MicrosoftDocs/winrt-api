@@ -23,4 +23,4 @@ The [LoggingActivity](loggingactivity.md) class will generate events with the **
 ## -examples
 
 ## -see-also
-[LoggingOpcode enumeration](loggingopcode.md), [Defining Tasks and Opcodes](https://docs.microsoft.com/windows/desktop/WES/defining-tasks-and-opcodes)
+[LoggingOpcode enumeration](loggingopcode.md), [Defining Tasks and Opcodes](/windows/desktop/WES/defining-tasks-and-opcodes)

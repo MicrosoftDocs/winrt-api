@@ -19,9 +19,7 @@ Gets or sets the parameter to pass to the [Command](buttonbase_command.md) prope
     object
   </button.CommandParameter>
 </button>
-```
-
-```xaml
+- or -
 <button CommandParameter="objectAsString"/>
 ```
 

@@ -17,7 +17,7 @@ Get an instance of this class by calling [CreateMultiSourceFrameReaderAsync](../
 
 To read frames from one or more [MediaFrameSource](mediaframesource.md) objects without time correlation between different sources, you can use [MediaFrameReader](../mediaframereader.md).
 
-For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://docs.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
+For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
 
 ### Version history
 

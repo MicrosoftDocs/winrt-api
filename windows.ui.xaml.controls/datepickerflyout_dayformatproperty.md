@@ -20,4 +20,4 @@ The identifier for the [DayFormat](datepickerflyout_dayformat.md) dependency pro
 ## -examples
 
 ## -see-also
-[DayFormat](datepickerflyout_dayformat.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DayFormat](datepickerflyout_dayformat.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

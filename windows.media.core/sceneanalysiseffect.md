@@ -19,9 +19,9 @@ Just like other effects, the scene analyzer effect is added to the capture pipel
 
 In the current release, the only analyzer supported is the High Dynamic Range (HDR) analyzer.
 
-For how-to guidance on using the **SceneAnalysisEffect**, see [Scene anlysis for MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/scene-analysis-for-media-capture).
+For how-to guidance on using the **SceneAnalysisEffect**, see [Scene anlysis for MediaCapture](/windows/uwp/audio-video-camera/scene-analysis-for-media-capture).
 
 ## -examples
 
 ## -see-also
-[IMediaExtension](../windows.media/imediaextension.md), [VariablePhotoSequenceController](../windows.media.devices.core/variablephotosequencecontroller.md), [MediaCapture.AddEffectAsync](../windows.media.capture/mediacapture_addeffectasync_262788603.md), [Scene anlysis for MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/scene-analysis-for-media-capture)
+[IMediaExtension](../windows.media/imediaextension.md), [VariablePhotoSequenceController](../windows.media.devices.core/variablephotosequencecontroller.md), [MediaCapture.AddEffectAsync](../windows.media.capture/mediacapture_addeffectasync_262788603.md), [Scene anlysis for MediaCapture](/windows/uwp/audio-video-camera/scene-analysis-for-media-capture)

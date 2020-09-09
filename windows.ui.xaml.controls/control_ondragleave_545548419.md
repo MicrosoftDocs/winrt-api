@@ -21,4 +21,4 @@ Event data for the event.
 ## -examples
 
 ## -see-also
-[UIElement.DragLeave](../windows.ui.xaml/uielement_dragleave.md), [DragEventArgs](../windows.ui.xaml/drageventargs.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)
+[UIElement.DragLeave](../windows.ui.xaml/uielement_dragleave.md), [DragEventArgs](../windows.ui.xaml/drageventargs.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)

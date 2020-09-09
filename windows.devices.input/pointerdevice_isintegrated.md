@@ -20,4 +20,4 @@ True if the pointer device is integrated; otherwise, false.
 ## -examples
 
 ## -see-also
-[Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices)
+[Quickstart: Identifying input devices](/windows/uwp/design/input/identify-input-devices)

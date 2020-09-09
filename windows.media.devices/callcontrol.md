@@ -65,9 +65,9 @@ var audioTag;
 
 ```
 
-For the complete listing of this sample see [How to manage calls on the default Bluetooth communications device](http://msdn.microsoft.com/en-us/library/windows/apps/hh452727.aspx).
+For the complete listing of this sample see [How to manage calls on the default Bluetooth communications device](/previous-versions/windows/apps/hh452727(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[How to manage calls on the default Bluetooth communications device](http://msdn.microsoft.com/en-us/library/windows/apps/hh452727.aspx)
+[How to manage calls on the default Bluetooth communications device](/previous-versions/windows/apps/hh452727(v=win.10))

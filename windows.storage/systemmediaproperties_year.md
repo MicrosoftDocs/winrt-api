@@ -10,10 +10,10 @@ public string Year { get; }
 # Windows.Storage.SystemMediaProperties.Year
 
 ## -description
-Gets the name of the [System.Media.Year](https://docs.microsoft.com/windows/desktop/properties/props-system-media-year) property (one of the [Windows media file properties](https://docs.microsoft.com/windows/desktop/properties/media-bumper).
+Gets the name of the [System.Media.Year](/windows/desktop/properties/props-system-media-year) property (one of the [Windows media file properties](/windows/desktop/properties/media-bumper).
 
 ## -property-value
-The name of the [System.Media.Year](https://docs.microsoft.com/windows/desktop/properties/props-system-media-year) file property.
+The name of the [System.Media.Year](/windows/desktop/properties/props-system-media-year) file property.
 
 ## -remarks
 

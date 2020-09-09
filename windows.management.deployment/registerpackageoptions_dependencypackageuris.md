@@ -5,7 +5,7 @@
 
 ## -description
 
-Gets the list of URIs of the dependency [Packages](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) to add.
+Gets the list of URIs of the dependency [Packages](/uwp/api/windows.applicationmodel.package) to add.
 
 ## -property-value
 
@@ -15,7 +15,7 @@ The list of URIs of the dependency packages to add.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [RegisterPackageOptions][registerpackageoptions.md]
 
 ## -examples

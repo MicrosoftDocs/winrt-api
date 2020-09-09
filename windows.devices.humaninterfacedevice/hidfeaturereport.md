@@ -12,7 +12,7 @@ public class HidFeatureReport : Windows.Devices.HumanInterfaceDevice.IHidFeature
 
 ## -description
 
-Represents a [HID Feature Report](https://docs.microsoft.com/windows-hardware/drivers/hid/introduction-to-hid-concepts#reports).
+Represents a [HID Feature Report](/windows-hardware/drivers/hid/introduction-to-hid-concepts#reports).
 
 Feature reports are issued by both the device and the host. Devices issue feature reports to describe their capabilities and default settings to a host. Hosts issue feature reports to make requests of the device.
 

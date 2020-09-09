@@ -13,7 +13,7 @@ public class UserDataAccountProviderActivatedEventArgs : Windows.ApplicationMode
 Provides data when an app is activated to manage user accounts.
 
 ## -remarks
-Access this object by overriding either the Windows Library for JavaScript (WinJS) [onactivated](https://docs.microsoft.com/previous-versions/windows/apps/br212679(v=win.10)) event or the Extensible Application Markup Language (XAML) [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) method.
+Access this object by overriding either the Windows Library for JavaScript (WinJS) [onactivated](/previous-versions/windows/apps/br212679(v=win.10)) event or the Extensible Application Markup Language (XAML) [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) method.
 
 ## -examples
 

@@ -12,11 +12,11 @@ public class UnicodeCharacters
 
 ## -description
 
-Provides a way for apps to get information about Unicode characters, per the [Unicode Standard Annex #44](http://www.unicode.org/reports/tr44/#White_Space).
+Provides a way for apps to get information about Unicode characters, per the [Unicode Standard Annex #44](https://www.unicode.org/reports/tr44/#White_Space).
 
 ## -remarks
 
-Use [GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md) to prepare Unicode characters before you pass them to any of the other methods of this class, in order to properly process supplementary characters. See [Surrogates and Supplementary Characters](https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters) for a discussion of supplementary Unicode characters.
+Use [GetCodepointFromSurrogatePair](unicodecharacters_getcodepointfromsurrogatepair_1886831018.md) to prepare Unicode characters before you pass them to any of the other methods of this class, in order to properly process supplementary characters. See [Surrogates and Supplementary Characters](/windows/desktop/Intl/surrogates-and-supplementary-characters) for a discussion of supplementary Unicode characters.
 
 The normal procedure for processing the code points in a stream is to:
 

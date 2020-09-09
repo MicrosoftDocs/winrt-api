@@ -28,7 +28,7 @@ The specified file does not exist. Check the value of *path*.
 
 ### System.UnauthorizedAccessException
 
-You don't have permission to access the specified file. For more information, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
+You don't have permission to access the specified file. For more information, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
 ### System.ArgumentException
 
@@ -39,4 +39,4 @@ The path cannot be a relative path or a Uri. Check the value of *path*.
 ## -examples
 
 ## -see-also
-[File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions)
+[File access permissions](/windows/uwp/files/file-access-permissions)

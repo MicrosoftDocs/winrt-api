@@ -10,7 +10,7 @@ public IVectorView<BitmapPixelFormat> SupportedBitmapPixelFormats { get; }
 # Windows.Media.Core.LowLightFusion.SupportedBitmapPixelFormats
 
 ## -description
-Gets a list of [BitmapPixelFormat](https://docs.microsoft.com/uwp/api/windows.graphics.imaging.bitmappixelformat) values that define the supported pixel formats for the **FuseAsync** method.
+Gets a list of [BitmapPixelFormat](/uwp/api/windows.graphics.imaging.bitmappixelformat) values that define the supported pixel formats for the **FuseAsync** method.
 
 ## -property-value
 A list of supported pixel formats.

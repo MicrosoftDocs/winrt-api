@@ -23,10 +23,10 @@ The [AppInstance](AppInstance.md) class is intended to be used in the `Main` met
 
 Before any instances can be returned, they must be registered with [FindOrRegisterInstanceForKey](appinstance_findorregisterinstanceforkey_1124409949.md).
 
-This class can only be used from an app that has opted in to multi-instancing. Specify the **SupportsMultipleInstances** attribute on the [Application](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-application) element in the package manifest for the app.
+This class can only be used from an app that has opted in to multi-instancing. Specify the **SupportsMultipleInstances** attribute on the [Application](/uwp/schemas/appxpackage/uapmanifestschema/element-application) element in the package manifest for the app.
 
 ## -see-also
-[Create a multi-instance Universal Windows App](https://docs.microsoft.com/windows/uwp/launch-resume/multi-instance-uwp)
+[Create a multi-instance Universal Windows App](/windows/uwp/launch-resume/multi-instance-uwp)
 
 ## -examples
 

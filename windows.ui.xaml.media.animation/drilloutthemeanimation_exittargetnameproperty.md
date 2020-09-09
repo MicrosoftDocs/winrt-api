@@ -20,4 +20,4 @@ The identifier for the [ExitTargetName](drilloutthemeanimation_exittargetname.md
 ## -examples
 
 ## -see-also
-[ExitTargetName](drilloutthemeanimation_exittargetname.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[ExitTargetName](drilloutthemeanimation_exittargetname.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

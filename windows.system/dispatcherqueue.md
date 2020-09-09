@@ -23,6 +23,6 @@ All tasks dispatched to a queue execute on the same thread.
 
 ## -see-also
 
-[DispatcherQueueController](https://docs.microsoft.com/uwp/api/Windows.System.DispatcherQueueController)
+[DispatcherQueueController](/uwp/api/Windows.System.DispatcherQueueController)
 
 ## -examples

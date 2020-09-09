@@ -16,7 +16,7 @@ Represents a modifiable feature of the print ticket. A feature is a device capab
 
 ## -see-also
 [PrintTicketOption](PrintTicketOption.md)
-[IPrintSchemaFeature interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemafeature)
+[IPrintSchemaFeature interface](/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemafeature)
 
 ## -examples
 

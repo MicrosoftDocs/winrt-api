@@ -32,7 +32,7 @@ A [MapStyleSheet](mapstylesheet.md) that represents the rules defined in JSON ma
 
 The following example uses the ParseFromJson method to create a [MapStyleSheet](mapstylesheet.md) and then applies that style sheet to the map control.
 
-To learn more about the properties used in this example, see [Map stylesheet reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet).
+To learn more about the properties used in this example, see [Map stylesheet reference](/windows/uwp/maps-and-location/elements-of-map-style-sheet).
 
 ```csharp
 string jsonString = @"{

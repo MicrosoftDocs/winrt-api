@@ -82,4 +82,4 @@ for (var i = 0, len = scheduled.length; i < len; i++) {
 
 
 ## -see-also
-[Toast content](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/adaptive-interactive-toasts), [Toast content schema](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/toast-schema), [Send a local toast notification](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/send-local-toast), [Windows Notifications GitHub samples](https://github.com/WindowsNotifications)
+[Toast content](/windows/uwp/design/shell/tiles-and-notifications/adaptive-interactive-toasts), [Toast content schema](/windows/uwp/design/shell/tiles-and-notifications/toast-schema), [Send a local toast notification](/windows/uwp/design/shell/tiles-and-notifications/send-local-toast), [Windows Notifications GitHub samples](https://github.com/WindowsNotifications)

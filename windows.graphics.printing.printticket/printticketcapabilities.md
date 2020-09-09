@@ -15,7 +15,7 @@ This class presents the configuration options that are supported by the printer.
 ## -remarks
 
 ## -see-also
-[IPrintSchemaCapabilities interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemacapabilities)
+[IPrintSchemaCapabilities interface](/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemacapabilities)
 
 ## -examples
 

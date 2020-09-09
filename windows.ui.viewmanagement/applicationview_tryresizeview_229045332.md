@@ -40,4 +40,4 @@ We recommend that you not begin any layout work until the window's [SizeChanged]
 
 ## -see-also
 [Window resizing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ResizeAppView), [
-      Responsive design 101 for ](https://docs.microsoft.com/windows/uwp/layout/screen-sizes-and-breakpoints-for-responsive-design)
+      Responsive design 101 for ](/windows/uwp/layout/screen-sizes-and-breakpoints-for-responsive-design)

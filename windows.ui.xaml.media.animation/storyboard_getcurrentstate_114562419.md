@@ -29,4 +29,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[GetCurrentTime](storyboard_getcurrenttime_1338472985.md), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)
+[GetCurrentTime](storyboard_getcurrenttime_1338472985.md), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)

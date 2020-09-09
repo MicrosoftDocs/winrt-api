@@ -13,7 +13,7 @@ public class SourceChangeRequestedEventArgs : Windows.Media.PlayTo.ISourceChange
 Provides information about the [SourceChangeRequested](playtoreceiver_sourcechangerequested.md) event.
 
 ## -remarks
-For an example of creating a software Play To receiver, see [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting) or [Media casting](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-casting).
+For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting) or [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 
 

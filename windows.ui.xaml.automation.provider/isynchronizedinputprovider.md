@@ -17,4 +17,4 @@ Enables Microsoft UI Automation client applications to direct the mouse or keybo
 ## -examples
 
 ## -see-also
-[ISynchronizedInputProvider (COM interface)](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-isynchronizedinputprovider)
+[ISynchronizedInputProvider (COM interface)](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-isynchronizedinputprovider)

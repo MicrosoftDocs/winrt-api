@@ -26,4 +26,4 @@ The reference name. This is typically the **x:Name** of the relevant element as 
 ## -examples
 
 ## -see-also
-[Animating fades](https://docs.microsoft.com/previous-versions/windows/apps/jj649429(v=win.10)), [Guidelines and checklist for fade animations](https://docs.microsoft.com/windows/uwp/style/motion-fade)
+[Animating fades](/previous-versions/windows/apps/jj649429(v=win.10)), [Guidelines and checklist for fade animations](/windows/uwp/style/motion-fade)

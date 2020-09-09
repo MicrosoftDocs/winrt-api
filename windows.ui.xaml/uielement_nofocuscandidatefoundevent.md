@@ -18,7 +18,7 @@ The identifier for the [NoFocusCandidateFound](uielement_nofocuscandidatefound.m
 ## -remarks
 
 ## -see-also
-[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)
+[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)
 
 ## -examples
 

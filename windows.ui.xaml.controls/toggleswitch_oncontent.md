@@ -15,9 +15,7 @@ Provides the object content that should be displayed using the [OnContentTemplat
 ## -xaml-syntax
 ```xaml
 <ToggleSwitch OnContent="stringContent"/>
-```
-
-```xaml
+- or -
 <ToggleSwitch>
   <ToggleSwitch.OnContent>
     singleContentElement

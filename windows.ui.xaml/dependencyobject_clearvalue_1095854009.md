@@ -17,9 +17,9 @@ Clears the local value of a dependency property.
 The [DependencyProperty](dependencyproperty.md) identifier of the property for which to clear the value.
 
 ## -remarks
-ClearValue is sometimes used as part of a property-changed callback method. For more info, see [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties).
+ClearValue is sometimes used as part of a property-changed callback method. For more info, see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 
 ## -examples
 
 ## -see-also
-[Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

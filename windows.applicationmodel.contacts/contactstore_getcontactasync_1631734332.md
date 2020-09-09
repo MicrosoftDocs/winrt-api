@@ -17,13 +17,13 @@ Retrieves a [Contact](contact.md) object representing the contact with the speci
 The [Id](contact_id.md) of the contact to be retrieved.
 
 ## -returns
-An asynchronous operation that returns a [Contact](contact.md) object on successful completion. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is a single [Contact](contact.md) object.
+An asynchronous operation that returns a [Contact](contact.md) object on successful completion. If you use [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is a single [Contact](contact.md) object.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Contact](contact.md), [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
+[Contact](contact.md), [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
 ## -capabilities
 contactsSystem

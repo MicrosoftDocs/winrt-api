@@ -13,7 +13,7 @@ public object Value { get; }
 Gets an object that represents the original data value.
 
 ## -property-value
-The [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) that represents the original data value.
+The [Object](/dotnet/api/system.object?redirectedfrom=MSDN) that represents the original data value.
 
 ## -remarks
 

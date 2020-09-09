@@ -13,7 +13,7 @@ public Windows.Security.Authentication.OnlineId.UserAuthenticationOperation Auth
 Starts the async authentication request with multiple [OnlineIdServiceTicketRequests](onlineidserviceticketrequest.md) and provides the ability to control the user experience by setting the [CredentialPromptType](credentialprompttype.md) to get the tickets. If a user is signed into a Windows 8 system with a Microsoft account, this user will be used for the authentication request.
 
 > [!NOTE]
-> If you are developing for Windows 10 or greater, use the [Windows.Security.Authentication.Web.Core](../windows.security.authentication.web.core/windows_security_authentication_web_core.md) APIs instead. For more information, see [Web account manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager).
+> If you are developing for Windows 10 or greater, use the [Windows.Security.Authentication.Web.Core](../windows.security.authentication.web.core/windows_security_authentication_web_core.md) APIs instead. For more information, see [Web account manager](/windows/uwp/security/web-account-manager).
 
 ## -parameters
 ### -param requests

@@ -17,10 +17,7 @@ Gets or sets the flyout associated with this button.
 <Button>
   <Button.Flyout>flyout</Button.Flyout>
 </Button>
-
-```
-
-```xaml
+- or -
 <Button Flyout="{StaticResurce flyoutResourceKey"/>
 
 ```
@@ -39,4 +36,4 @@ By default, the flyout that's set as the value of the Flyout property displays w
 ## -examples
 
 ## -see-also
-[Flyout](flyout.md), [MenuFlyout](menuflyout.md), [Quickstart: Adding a Flyout](https://docs.microsoft.com/previous-versions/windows/apps/dn308515(v=win.10)), [XAML Flyout and MenuFlyout sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20Flyout%20and%20MenuFlyout%20sample)
+[Flyout](flyout.md), [MenuFlyout](menuflyout.md), [Quickstart: Adding a Flyout](/previous-versions/windows/apps/dn308515(v=win.10)), [XAML Flyout and MenuFlyout sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20Flyout%20and%20MenuFlyout%20sample)

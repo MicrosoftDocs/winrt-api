@@ -10,7 +10,7 @@ public void SetPackageStatus(System.String packageFullName, Windows.Management.D
 # Windows.Management.Deployment.PackageManager.SetPackageStatus
 
 ## -description
-Sets the status of the specified [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package).
+Sets the status of the specified [Package](/uwp/api/windows.applicationmodel.package).
 
 ## -parameters
 ### -param packageFullName
@@ -25,7 +25,7 @@ One of the enumeration values that describes the status of the package.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

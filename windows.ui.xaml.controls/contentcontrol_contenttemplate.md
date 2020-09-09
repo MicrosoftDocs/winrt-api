@@ -19,9 +19,7 @@ Gets or sets the data template that is used to display the content of the [Conte
     dataTemplate
   </contentControl.ContentTemplate>
 </contentControl>
-```
-
-```xaml
+- or -
 <contentControl ContentTemplate="templateReference"/>
 ```
 

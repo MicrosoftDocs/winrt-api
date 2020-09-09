@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler SizeChanged<Windows.UI.Core.Co
 Occurs when the window size is changed.
 
 ## -remarks
-The SizeChanged event is exposed to XAML apps as the [Window.SizeChanged](../windows.ui.xaml/window_sizechanged.md) event and to HTML apps as the [window.resize](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741886(v=vs.85)) event.
+The SizeChanged event is exposed to XAML apps as the [Window.SizeChanged](../windows.ui.xaml/window_sizechanged.md) event and to HTML apps as the [window.resize](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741886(v=vs.85)) event.
 
 This event occurs when the window size changes or when one of the following properties changes:
 

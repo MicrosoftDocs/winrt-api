@@ -16,9 +16,9 @@ Indicates whether the app was pre-launched.
 Indicates whether the app was pre-launched. **TRUE** indicates it was; otherwise, **FALSE**.
 
 ## -remarks
-When available system resources allow, the startup performance of UWP app is improved by proactively launching the user’s most frequently used apps in the background. See [Handle app prelaunch](https://docs.microsoft.com/windows/uwp/launch-resume/handle-app-prelaunch) for details.
+When available system resources allow, the startup performance of UWP app is improved by proactively launching the user’s most frequently used apps in the background. See [Handle app prelaunch](/windows/uwp/launch-resume/handle-app-prelaunch) for details.
 
 ## -examples
 
 ## -see-also
-[Handle app prelaunch](https://docs.microsoft.com/windows/uwp/launch-resume/handle-app-prelaunch)
+[Handle app prelaunch](/windows/uwp/launch-resume/handle-app-prelaunch)

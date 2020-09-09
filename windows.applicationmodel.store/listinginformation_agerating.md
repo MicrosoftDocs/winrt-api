@@ -20,4 +20,4 @@ The age rating.
 ## -examples
 
 ## -see-also
-[Age ratings](https://docs.microsoft.com/windows/uwp/publish/age-ratings)
+[Age ratings](/windows/uwp/publish/age-ratings)

@@ -18,7 +18,7 @@ Starts the default app associated with the specified file or URI.
 
 <!-- confirmed -->
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
 
 ### Version history
 
@@ -52,7 +52,7 @@ See the code example in the [LaunchUriAsync(Uri)](launcher_launchuriasync_536919
 This example calls [launchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md) to launch a URI with a warning. Use the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property to indicate that the system should display a warning.
 
 > [!NOTE]
-> For a Windows app using JavaScript, call [preventDefault](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ff975967(v=vs.85)) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) element to launch the URI.
+> For a Windows app using JavaScript, call [preventDefault](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ff975967(v=vs.85)) in your event handler if the [treatAsUntrusted](launcheroptions_treatasuntrusted.md) property is set and you are using an [anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) element to launch the URI.
 
 ```javascript
 function linkClickHandler(eventInfo) {
@@ -88,4 +88,4 @@ function linkClickHandler(eventInfo) {
 
 ## -see-also
 
-[How to launch the default app for a file (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452687(v=win.10)), [Launch the default app for a file](https://docs.microsoft.com/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [How to launch the default app for a URI (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452690(v=win.10)), [Launch the default app for a URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app), [Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [LauncherOptions](launcheroptions.md), [LauncherUIOptions](launcheruioptions.md)
+[How to launch the default app for a file (JavaScript)](/previous-versions/windows/apps/hh452687(v=win.10)), [Launch the default app for a file](/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [How to launch the default app for a URI (JavaScript)](/previous-versions/windows/apps/hh452690(v=win.10)), [Launch the default app for a URI](/windows/uwp/launch-resume/launch-default-app), [Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [Guidelines for file types and URIs](/windows/uwp/files/index), [LauncherOptions](launcheroptions.md), [LauncherUIOptions](launcheruioptions.md)

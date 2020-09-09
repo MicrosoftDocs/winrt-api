@@ -20,4 +20,4 @@ The identifier for the [DayItemFontWeight](calendarview_dayitemfontweight.md)  
 ## -examples
 
 ## -see-also
-[DayItemFontWeight](calendarview_dayitemfontweight.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DayItemFontWeight](calendarview_dayitemfontweight.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

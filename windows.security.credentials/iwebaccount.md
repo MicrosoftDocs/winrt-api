@@ -18,4 +18,4 @@ Enables a class to represent an account from a web account provider.
 ## -examples
 
 ## -see-also
-[Connect to identity providers with Web Account Manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager)  
+[Connect to identity providers with Web Account Manager](/windows/uwp/security/web-account-manager)  

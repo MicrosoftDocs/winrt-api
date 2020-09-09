@@ -18,13 +18,13 @@ Provides information about an activated event that fires when the user saves a f
 
 ## -remarks
 
-Learn more about providing your app as a location where the user can save files in the [Quickstart: Providing file services through ](https://docs.microsoft.com/previous-versions/windows/apps/hh465192(v=win.10)) and in the [Windows.Storage.Pickers.Provider](../windows.storage.pickers.provider/windows_storage_pickers_provider.md) namespace reference.
+Learn more about providing your app as a location where the user can save files in the [Quickstart: Providing file services through ](/previous-versions/windows/apps/hh465192(v=win.10)) and in the [Windows.Storage.Pickers.Provider](../windows.storage.pickers.provider/windows_storage_pickers_provider.md) namespace reference.
 
-This object is accessed when you implement an event handler for the [WinJS.Application.Onactivated](https://docs.microsoft.com/previous-versions/windows/apps/br212679(v=win.10)) or the [Windows.UI.WebUI.WebUIApplication.activated](webuiapplication_activated.md) events when [ActivationKind](../windows.applicationmodel.activation/activationkind.md) is [fileSavePicker](../windows.applicationmodel.activation/activationkind.md).
+This object is accessed when you implement an event handler for the [WinJS.Application.Onactivated](/previous-versions/windows/apps/br212679(v=win.10)) or the [Windows.UI.WebUI.WebUIApplication.activated](webuiapplication_activated.md) events when [ActivationKind](../windows.applicationmodel.activation/activationkind.md) is [fileSavePicker](../windows.applicationmodel.activation/activationkind.md).
 
 <!-- confirmed -->
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](http://msdn.microsoft.com/en-us/library/windows/apps/hh771042.aspx).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx).
 
 ### Version history
 
@@ -34,7 +34,7 @@ This object is accessed when you implement an event handler for the [WinJS.Appli
 
 ## -examples
 
-The [File picker sample](http://code.msdn.microsoft.com/windowsapps/File-picker-sample-9f294cba) demonstrates how to respond to a [fileSavePicker](../windows.applicationmodel.activation/activationkind.md) activated event.
+The [File picker sample](/samples/browse/) demonstrates how to respond to a [fileSavePicker](../windows.applicationmodel.activation/activationkind.md) activated event.
 
 ```javascript
 
@@ -64,4 +64,4 @@ For JavaScript, `eventObject` contains a webUIFileSavePickerActivatedEventArgs o
 
 ## -see-also
 
-[Quickstart: Providing file services through ](https://docs.microsoft.com/previous-versions/windows/apps/hh465192(v=win.10)), [File picker provider sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)
+[Quickstart: Providing file services through ](/previous-versions/windows/apps/hh465192(v=win.10)), [File picker provider sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)

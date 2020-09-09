@@ -15,9 +15,7 @@ Gets or sets the [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md) that i
 ## -xaml-syntax
 ```xaml
 <Matrix3DProjection ProjectionMatrix="matrix3DInitializationString" />
-```
-
-```xaml
+- or -
 <!--xmlns:m3d="using:Windows.UI.Xaml.Media.Media3D"-->
 <Matrix3DProjection>
   <m3d:Matrix3D>matrix3DInitializationString</m3d:Matrix3D>
@@ -41,4 +39,4 @@ ProjectionMatrix is the XAML content property for [Matrix3DProjection](matrix3dp
 ## -examples
 
 ## -see-also
-[Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](https://docs.microsoft.com/windows/uwp/graphics/3-d-perspective-effects)
+[Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](/windows/uwp/graphics/3-d-perspective-effects)

@@ -32,9 +32,9 @@ Gets or sets a value that indicates the thickness of padding space between the b
 A [Thickness](../windows.ui.xaml/thickness.md) structure that specifies the amount of padding to apply.
 
 ## -remarks
-A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For more info about the relationship between margin and padding, see [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
+A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For more info about the relationship between margin and padding, see [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml).
 
 ## -examples
 
 ## -see-also
-[Thickness](../windows.ui.xaml/thickness.md), [RichTextBlockOverflow.Padding](richtextblockoverflow_padding.md), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding)
+[Thickness](../windows.ui.xaml/thickness.md), [RichTextBlockOverflow.Padding](richtextblockoverflow_padding.md), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding)

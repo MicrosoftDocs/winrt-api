@@ -20,4 +20,4 @@ The identifier for the [CornerRadius](stackpanel_cornerradius.md) dependency pro
 ## -examples
 
 ## -see-also
-[CornerRadius](stackpanel_cornerradius.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CornerRadius](stackpanel_cornerradius.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

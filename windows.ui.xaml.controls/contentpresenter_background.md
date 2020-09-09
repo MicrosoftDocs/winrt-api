@@ -15,15 +15,9 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the back
 ## -xaml-syntax
 ```xaml
 <ContentPresenter Background="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <ContentPresenter Background="colorString"/>
-
-```
-
-```xaml
+- or -
 <ContentPresenter>
   <ContentPresenter.Background>singleBrush</ContentPresenter.Background>
 </ContentPresenter>

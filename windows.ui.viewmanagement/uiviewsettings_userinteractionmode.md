@@ -22,7 +22,7 @@ Some devices (PC, laptop, tablet) support both a Desktop (mouse-optimized) and a
 
 Users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
 
-In Tablet mode, app views are auto-maximized and the title bar is hidden. The taskbar remains visible. The system raises the [CoreWindow.SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event when the value of this property changes. This is exposed to XAML apps as the [Window.SizeChanged](../windows.ui.xaml/window_sizechanged.md) event and to HTML apps as the [window.resize](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741886(v=vs.85)) event.
+In Tablet mode, app views are auto-maximized and the title bar is hidden. The taskbar remains visible. The system raises the [CoreWindow.SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event when the value of this property changes. This is exposed to XAML apps as the [Window.SizeChanged](../windows.ui.xaml/window_sizechanged.md) event and to HTML apps as the [window.resize](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741886(v=vs.85)) event.
 
 ## -examples
 Here, we show how to use the interaction mode to optimize the app layout on launch or when the device mode is changed.

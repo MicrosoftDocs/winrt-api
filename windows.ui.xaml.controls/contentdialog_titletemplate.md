@@ -19,9 +19,7 @@ Gets or sets the title template.
     singleDataTemplate
   </ContentDialog.TitleTemplate>
 </ContentDialog>
-```
-
-```xaml
+- or -
 <ContentDialog TitleTemplate="resourceReferenceToDataTemplate"/>
 ```
 

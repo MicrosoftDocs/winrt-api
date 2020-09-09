@@ -23,4 +23,4 @@ To access the [RelativePanel.AlignTopWith](/uwp/api/windows.ui.xaml.controls.rel
 ## -examples
 
 ## -see-also
-[RelativePanel.AlignTopWith](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)
+[RelativePanel.AlignTopWith](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

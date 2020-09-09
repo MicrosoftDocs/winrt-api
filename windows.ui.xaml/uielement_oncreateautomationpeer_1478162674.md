@@ -16,9 +16,9 @@ When implemented in a derived class, returns class-specific [AutomationPeer](../
 The class-specific [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md) subclass to return.
 
 ## -remarks
-For more info on the purpose of an automation peer and why you might need to define a class-specific [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md) class, see [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+For more info on the purpose of an automation peer and why you might need to define a class-specific [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md) class, see [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
-You should override this method in a custom class where you want to supply a custom automation peer for Microsoft UI Automation, rather than the default peer that is referenced by the default OnCreateAutomationPeer implementation. How you define a custom peer for your custom control depends on your control's accessibility requirements , its UI contract, and its behavior. For more info on why you might want to define a new peer, see [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers). 
+You should override this method in a custom class where you want to supply a custom automation peer for Microsoft UI Automation, rather than the default peer that is referenced by the default OnCreateAutomationPeer implementation. How you define a custom peer for your custom control depends on your control's accessibility requirements , its UI contract, and its behavior. For more info on why you might want to define a new peer, see [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers). 
 
 > [!NOTE]
 >
@@ -64,4 +64,4 @@ End Function
 ```
 
 ## -see-also
-[AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](https://docs.microsoft.com/accessibility-tools-docs/), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessibility)
+[AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](/accessibility-tools-docs/), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Accessibility](/windows/uwp/accessibility/accessibility)

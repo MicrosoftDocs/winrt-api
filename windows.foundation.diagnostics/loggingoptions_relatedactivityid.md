@@ -21,4 +21,4 @@ This value corresponds to the Event Tracing for Windows (ETW) definition of a re
 ## -examples
 
 ## -see-also
-[EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID](https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_extended_item_related_activityid)
+[EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID](/windows/desktop/api/evntcons/ns-evntcons-_event_extended_item_related_activityid)

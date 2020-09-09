@@ -15,7 +15,7 @@ Static methods for transferring spatial anchors between devices, so that both de
 
 ## -remarks
 > [!NOTE]
-> Local anchor transfers using **SpatialAnchorTransferManager** provide less robust anchor recall than [Azure Spatial Anchors](https://docs.microsoft.com/azure/spatial-anchors), and iOS and Android devices are not supported by this approach.
+> Local anchor transfers using **SpatialAnchorTransferManager** provide less robust anchor recall than [Azure Spatial Anchors](/azure/spatial-anchors), and iOS and Android devices are not supported by this approach.
 
 ## -examples
 

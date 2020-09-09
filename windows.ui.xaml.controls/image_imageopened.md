@@ -35,4 +35,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[ImageFailed](image_imagefailed.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes)
+[ImageFailed](image_imagefailed.md), [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes)

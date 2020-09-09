@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFile> GetFileFr
 # Windows.Storage.StorageFile.GetFileFromApplicationUriAsync
 
 ## -description
-Gets a [StorageFile](storagefile.md) object to represent the specified Uniform Resource Identifier (URI) app resource. For examples of sample URIs see [Load images and assets tailored for scale, theme, high contrast, and others](https://docs.microsoft.com/windows/uwp/app-resources/images-tailored-for-scale-theme-contrast).
+Gets a [StorageFile](storagefile.md) object to represent the specified Uniform Resource Identifier (URI) app resource. For examples of sample URIs see [Load images and assets tailored for scale, theme, high contrast, and others](/windows/uwp/app-resources/images-tailored-for-scale-theme-contrast).
 
 ## -parameters
 ### -param uri
@@ -29,4 +29,4 @@ Windows.Storage.StorageFile.getFileFromApplicationUriAsync(uri).done( /* Your su
 ```
 
 ## -see-also
-[Load images and assets tailored for scale, theme, high contrast, and others](https://docs.microsoft.com/windows/uwp/app-resources/images-tailored-for-scale-theme-contrast)
+[Load images and assets tailored for scale, theme, high contrast, and others](/windows/uwp/app-resources/images-tailored-for-scale-theme-contrast)

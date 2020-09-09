@@ -20,4 +20,4 @@ The identifier for the   [CalendarItemForeground](calendarview_calendaritemfore
 ## -examples
 
 ## -see-also
-[CalendarItemForeground](calendarview_calendaritemforeground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CalendarItemForeground](calendarview_calendaritemforeground.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

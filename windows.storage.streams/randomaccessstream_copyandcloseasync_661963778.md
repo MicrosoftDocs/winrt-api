@@ -23,7 +23,7 @@ The stream to copy data to.
 The asynchronous operation.
 
 ## -remarks
-The CopyAndCloseAsync method is similar to [CopyAsync](randomaccessstream_copyasync_1577084715.md) but also calls and waits for [FlushAsync](ioutputstream_flushasync_491532439.md) and [Close](https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close) on the output stream before its asynchronous operation completes.
+The CopyAndCloseAsync method is similar to [CopyAsync](randomaccessstream_copyasync_1577084715.md) but also calls and waits for [FlushAsync](ioutputstream_flushasync_491532439.md) and [Close](/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close) on the output stream before its asynchronous operation completes.
 
 ## -examples
 

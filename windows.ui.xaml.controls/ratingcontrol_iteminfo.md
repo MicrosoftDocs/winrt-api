@@ -17,9 +17,7 @@ Gets or sets info about the visual states of the items that represent a rating.
 
 ```xaml
 <RatingControl ItemInfo="resourceReferenceToRatingItemInfo"/>
-```
-
-```xaml
+- or -
 <RatingControl>
   <RatingControl.ItemInfo>
     ratingItemInfo

@@ -35,9 +35,9 @@ Detect flow direction from text content. For bidirectional text, text containers
 >
 > In Windows 8.1, the value **0** has the constant name **Default**. Do not use in Windows 10 apps.
 
-The **TextReadingOrder** property influences the reading order (left-to-right or right-to-left) of individual UI elements that contain bidirectional text. In Windows 10 text controls this property has the default value of `DetectFromContent` so that content can be detected dynamically, rather than using the [FlowDirection](frameworkelement_flowdirection.md) property on a content parent. The `DetectFromContent` logic uses the first strong character in each paragraph to determine the reading direction for the paragraph, based on the [Unicode Bidirectional Algorithm, P2](http://www.unicode.org/reports/tr9/#P2).
+The **TextReadingOrder** property influences the reading order (left-to-right or right-to-left) of individual UI elements that contain bidirectional text. In Windows 10 text controls this property has the default value of `DetectFromContent` so that content can be detected dynamically, rather than using the [FlowDirection](frameworkelement_flowdirection.md) property on a content parent. The `DetectFromContent` logic uses the first strong character in each paragraph to determine the reading direction for the paragraph, based on the [Unicode Bidirectional Algorithm, P2](https://www.unicode.org/reports/tr9/#P2).
 
-This property can be useful when the base direction of the text is unknown, and may not match the user's language or direction. For more info see [How to support bidirectional UI](https://docs.microsoft.com/previous-versions/windows/apps/jj712703(v=win.10)).
+This property can be useful when the base direction of the text is unknown, and may not match the user's language or direction. For more info see [How to support bidirectional UI](/previous-versions/windows/apps/jj712703(v=win.10)).
 
 If content is coming from data binding, this avoids the need for binding to **FlowDirection** with a converter that interprets right-to-left locale info that comes from the data.
 
@@ -46,4 +46,4 @@ Unlike **FlowDirection** and its logic, the reading order logic for `DetectFromC
 ## -examples
 
 ## -see-also
-[FlowDirection](flowdirection.md), [PasswordBox.TextReadingOrder](/uwp/api/windows.ui.xaml.controls.passwordbox.textreadingorder), [RichEditBox.TextReadingOrder](/uwp/api/windows.ui.xaml.controls.richeditbox.textreadingorder), [RichTextBlock.TextReadingOrder](/uwp/api/windows.ui.xaml.controls.richtextblock.textreadingorder), [TextBlock.TextReadingOrder](/uwp/api/windows.ui.xaml.controls.textblock.textreadingorder), [TextBox.TextReadingOrder](/uwp/api/windows.ui.xaml.controls.textbox.textreadingorder), [How to support bidirectional UI](https://docs.microsoft.com/previous-versions/windows/apps/jj712703(v=win.10))
+[FlowDirection](flowdirection.md), [PasswordBox.TextReadingOrder](/uwp/api/windows.ui.xaml.controls.passwordbox.textreadingorder), [RichEditBox.TextReadingOrder](/uwp/api/windows.ui.xaml.controls.richeditbox.textreadingorder), [RichTextBlock.TextReadingOrder](/uwp/api/windows.ui.xaml.controls.richtextblock.textreadingorder), [TextBlock.TextReadingOrder](/uwp/api/windows.ui.xaml.controls.textblock.textreadingorder), [TextBox.TextReadingOrder](/uwp/api/windows.ui.xaml.controls.textbox.textreadingorder), [How to support bidirectional UI](/previous-versions/windows/apps/jj712703(v=win.10))

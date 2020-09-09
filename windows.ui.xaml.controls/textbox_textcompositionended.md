@@ -23,7 +23,7 @@ Occurs when a user stops composing text through an Input Method Editor (IME).
 
 For event data, see [TextCompositionEndedEventArgs](textcompositionendedeventargs.md).
 
-This event occurs only when text is composed through an [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10)). Text composition events occur in the following order:
+This event occurs only when text is composed through an [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10)). Text composition events occur in the following order:
 
 + [TextCompositionStarted](textbox_textcompositionstarted.md)
 + [TextChanging](textbox_textchanging.md)
@@ -37,4 +37,4 @@ After the [TextCompositionStarted](textbox_textcompositionstarted.md) event, the
 
 ## -see-also
 
-[TextCompositionEndedEventArgs](textcompositionendedeventargs.md), [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10))
+[TextCompositionEndedEventArgs](textcompositionendedeventargs.md), [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10))

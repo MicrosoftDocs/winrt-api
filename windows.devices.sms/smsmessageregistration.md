@@ -14,7 +14,7 @@ public class SmsMessageRegistration : Windows.Devices.Sms.ISmsMessageRegistratio
 Class used to represent registered message filters.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](https://docs.microsoft.com/windows-hardware/drivers/mobilebroadband/index).
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](/windows-hardware/drivers/mobilebroadband/index).
 
 ## -remarks
 Your code does not instantiate this class directly. A newly-created instance of the class is returned by the [SmsMessageRegistration.Register](smsmessageregistration_register_1493443681.md) method, and you can retrieve a collection of instances representing existing registrations using the static [SmsMessageRegistration.AllRegistrations](smsmessageregistration_allregistrations.md) property.

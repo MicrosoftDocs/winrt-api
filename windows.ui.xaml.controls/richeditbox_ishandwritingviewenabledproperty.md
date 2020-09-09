@@ -21,11 +21,11 @@ The identifier for the IsHandwritingViewEnabled dependency property.
 
 ## -see-also
 
-[Text input with the handwriting view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-handwriting-view)
+[Text input with the handwriting view](/windows/uwp/design/controls-and-patterns/text-handwriting-view)
 
 ## -examples
 
-In this example, we disable the handwriting view by setting the [IsHandwritingViewEnabled](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.textbox.ishandwritingviewenabled) ​property of the [RichEditBox](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.richeditbox) control to false. All text controls that support the handwriting view support a similar property.
+In this example, we disable the handwriting view by setting the [IsHandwritingViewEnabled](/uwp/api/windows.ui.xaml.controls.textbox.ishandwritingviewenabled) ​property of the [RichEditBox](/uwp/api/windows.ui.xaml.controls.richeditbox) control to false. All text controls that support the handwriting view support a similar property.
 ​
 ```xaml
 <RIchEditBox Name="SampleTextBox"​

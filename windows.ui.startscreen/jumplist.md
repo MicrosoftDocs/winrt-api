@@ -15,7 +15,7 @@ Provides functionality for an app's jump list. A jump list is a system-provided 
 
 ## -remarks
 
-An app's JumpList is retrieved using the [LoadCurrentAsync](jumplist_loadcurrentasync_313230072.md) method. If an application does not customize its jump list, the system provides a default jump list. Currently, the default jump list shows recent items. Make sure your app has registered to become the default file handler for a certain file type that you want to show in the recent items list. For more information, see [Handle file activation](https://docs.microsoft.com/windows/uwp/launch-resume/handle-file-activation).
+An app's JumpList is retrieved using the [LoadCurrentAsync](jumplist_loadcurrentasync_313230072.md) method. If an application does not customize its jump list, the system provides a default jump list. Currently, the default jump list shows recent items. Make sure your app has registered to become the default file handler for a certain file type that you want to show in the recent items list. For more information, see [Handle file activation](/windows/uwp/launch-resume/handle-file-activation).
 
 ## -examples
 

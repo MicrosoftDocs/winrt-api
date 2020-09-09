@@ -9,7 +9,7 @@
 Provides APIs for managing license info for apps.
 
 > [!NOTE]
-> The APIs in this namespace require the **storeLicenseManagement** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
+> The APIs in this namespace require the **storeLicenseManagement** [restricted capability](/windows/uwp/packaging/app-capability-declarations).
 
 ## -remarks
 

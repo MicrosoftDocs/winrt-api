@@ -15,15 +15,9 @@ Gets or sets a brush that provides the foreground of a calendar item.
 ## -xaml-syntax
 ```xaml
 <CalendarView CalendarItemForeground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <CalendarView CalendarItemForeground="colorString"/>
-
-```
-
-```xaml
+- or -
 <CalendarView>
   CalendarView.CalendarItemForeground>singleBrush</CalendarView.CalendarItemForeground>
 </CalendarView>

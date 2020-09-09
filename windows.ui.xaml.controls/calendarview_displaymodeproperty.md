@@ -20,4 +20,4 @@ The identifier for the   [DisplayMode](calendarview_displaymode.md) dependency 
 ## -examples
 
 ## -see-also
-[DisplayMode](calendarview_displaymode.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DisplayMode](calendarview_displaymode.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

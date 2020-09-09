@@ -10,7 +10,7 @@ public Windows.Storage.Streams.IBuffer Sign(Windows.Security.Cryptography.Core.C
 # Windows.Security.Cryptography.Core.CryptographicEngine.Sign
 
 ## -description
-Signs digital content. For more information, see [MACs, hashes, and signatures](https://docs.microsoft.com/windows/uwp/security/macs-hashes-and-signatures).
+Signs digital content. For more information, see [MACs, hashes, and signatures](/windows/uwp/security/macs-hashes-and-signatures).
 
 ## -parameters
 ### -param key
@@ -25,7 +25,7 @@ The data's signature.
 ## -remarks
 If the key is a persisted key and the operation requires UI or takes a long time, use the [SignAsync](cryptographicengine_signasync_345302432.md) method instead.
 
-For more information about signing digital data, see [MACs, hashes, and signatures](https://docs.microsoft.com/windows/uwp/security/macs-hashes-and-signatures).
+For more information about signing digital data, see [MACs, hashes, and signatures](/windows/uwp/security/macs-hashes-and-signatures).
 
 ## -examples
 

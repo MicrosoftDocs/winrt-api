@@ -15,15 +15,9 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the text
 ## -xaml-syntax
 ```xaml
 <RichTextBlock Foreground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <RichTextBlock Foreground="colorString"/>
-
-```
-
-```xaml
+- or -
 <RichTextBlock>
   <RichTextBlock.Foreground>singleBrush</RichTextBlock.Foreground>
 </RichTextBlock>
@@ -47,4 +41,4 @@ The default appearance of text and text styles depends heavily on the active the
 ## -examples
 
 ## -see-also
-[TextElement.Foreground](../windows.ui.xaml.documents/textelement_foreground.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[TextElement.Foreground](../windows.ui.xaml.documents/textelement_foreground.md), [Use brushes](/windows/uwp/graphics/using-brushes)

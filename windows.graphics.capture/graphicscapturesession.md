@@ -23,6 +23,6 @@ Allows the application to take screen captures.
 
 ## -see-also
 
-[Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)
+[Screen capture](/windows/uwp/audio-video-camera/screen-capture)
 
 ## -examples

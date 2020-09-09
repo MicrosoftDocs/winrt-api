@@ -13,7 +13,7 @@ static public event Windows.Foundation.EventHandler PolicyChanged<object>
 > [!NOTE]
 > Windows Information Protection (WIP) policy cannot be applied on Windows 10, version 1511 (build 10586) or earlier.
 
-An event that is raised in response to changes in Windows Information Protection (WIP) policy managed by the [Policy CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider).
+An event that is raised in response to changes in Windows Information Protection (WIP) policy managed by the [Policy CSP](/windows/client-management/mdm/policy-configuration-service-provider).
 
 ## -remarks
 

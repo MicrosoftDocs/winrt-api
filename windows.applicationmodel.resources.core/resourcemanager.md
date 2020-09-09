@@ -76,4 +76,4 @@ function renderCandidate(candidate, index, output) {
 
 ## -see-also
 
-[Creating and retrieving resources in ](http://msdn.microsoft.com/en-us/library/windows/apps/hh694557.aspx), [App resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources), [Application resources and localization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620487)
+[Creating and retrieving resources in ](/previous-versions/windows/apps/hh694557(v=vs.140)), [App resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources), [Application resources and localization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620487)

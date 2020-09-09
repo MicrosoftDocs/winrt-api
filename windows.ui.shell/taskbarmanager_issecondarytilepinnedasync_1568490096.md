@@ -12,7 +12,7 @@ public IAsyncOperation<bool> TaskbarManager.IsSecondaryTilePinnedAsync(String ti
 
 ## -description
 
-Checks if the specified secondary tile is pinned to taskbar. Requires user approval as described [here](https://docs.microsoft.com/en-us/windows/uwp/design/shell/pin-to-taskbar#4-pin-your-app)
+Checks if the specified secondary tile is pinned to taskbar. Requires user approval as described [here](/en-us/windows/uwp/design/shell/pin-to-taskbar#4-pin-your-app)
 
 ## -parameters
 

@@ -15,15 +15,9 @@ Gets or sets a brush that provides the border of a calendar item while the point
 ## -xaml-syntax
 ```xaml
 <CalendarView HoverBorderBrush="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <CalendarView HoverBorderBrush="colorString"/>
-
-```
-
-```xaml
+- or -
 <CalendarView>
   CalendarView.HoverBorderBrush>singleBrush</CalendarView.HoverBorderBrush>
 </CalendarView>

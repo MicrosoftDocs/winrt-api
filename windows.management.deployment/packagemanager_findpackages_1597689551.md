@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IIterable<Windows.ApplicationModel.Package
 # Windows.Management.Deployment.PackageManager.FindPackages
 
 ## -description
-Finds all installed [Packages](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) with the specified name and publisher.
+Finds all installed [Packages](/uwp/api/windows.applicationmodel.package) with the specified name and publisher.
 
 ## -parameters
 ### -param packageName
@@ -29,7 +29,7 @@ This method requires administrative privileges.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [Enumerate app packages by name and publisher sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher), [FindPackages()](packagemanager_findpackages_1246181969.md), [FindPackages(String)](packagemanager_findpackages_331793265.md)
 
 ## -capabilities

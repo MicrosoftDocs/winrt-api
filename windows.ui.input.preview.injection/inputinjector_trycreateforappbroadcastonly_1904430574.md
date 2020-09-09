@@ -20,7 +20,7 @@ If successful, returns a new instance of the [InputInjector](inputinjector.md) c
 ## -remarks
 
 > [!Important]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
 
 Using input injection requires the following be added to the Package.appxmanifest:
 
@@ -30,7 +30,7 @@ Using input injection requires the following be added to the Package.appxmanifes
 - To `<Capabilities>`
     - `<rescap:Capability Name="inputInjectionBrokered" />`
 
-This method differs from [TryCreate](inputinjector_trycreate_508033141.md) in that input injection is restricted to the process that is actively being captured for broadcast using an [App​Broadcast​Services](https://docs.microsoft.com/uwp/api/windows.media.capture.appbroadcastservices) object. Injected input is silently dropped when there is no such active process.
+This method differs from [TryCreate](inputinjector_trycreate_508033141.md) in that input injection is restricted to the process that is actively being captured for broadcast using an [App​Broadcast​Services](/uwp/api/windows.media.capture.appbroadcastservices) object. Injected input is silently dropped when there is no such active process.
 
 ## -examples
 
@@ -42,4 +42,4 @@ Here are some downloadable samples demonstrating basic input and input injection
 
 ## -see-also
 
-[Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)
+[Simulate user input through input injection](/windows/uwp/design/input/input-injection)

@@ -13,7 +13,7 @@ public void Shutdown()
 Shuts down the current background media player.
 
 > [!NOTE]
-> Starting with Windows, version 1703, **BackgroundMediaPlayer** is deprecated and may not be available in future versions of Windows. Use the [MediaPlayer](mediaplayer.md) class instead. For more information, see [Play media in the background](https://docs.microsoft.com/windows/uwp/audio-video-camera/background-audio).
+> Starting with Windows, version 1703, **BackgroundMediaPlayer** is deprecated and may not be available in future versions of Windows. Use the [MediaPlayer](mediaplayer.md) class instead. For more information, see [Play media in the background](/windows/uwp/audio-video-camera/background-audio).
 
 ## -remarks
 

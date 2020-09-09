@@ -25,4 +25,4 @@ Usage for LoadWithInitialTemplateValidation is generally the same as for [XamlRe
 ## -examples
 
 ## -see-also
-[XamlReader.Load](xamlreader_load_1077941801.md), [XAML syntax guide](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-syntax-guide), [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)
+[XamlReader.Load](xamlreader_load_1077941801.md), [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)

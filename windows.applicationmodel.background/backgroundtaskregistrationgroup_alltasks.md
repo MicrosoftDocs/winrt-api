@@ -19,6 +19,6 @@ The background tasks that belong to the group.
 `Null` is returned if no tasks belong to the group.
 
 ## -see-also
-[Launching, resuming, and background tasks](https://docs.microsoft.com/windows/uwp/launch-resume/index)
+[Launching, resuming, and background tasks](/windows/uwp/launch-resume/index)
 
 ## -examples

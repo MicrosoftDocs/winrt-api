@@ -65,5 +65,5 @@ Note that to use the devices listed above you should include a HID (Human Interf
 ## -see-also
 
 [IGameController](igamecontroller.md),
-[Racing wheel and force feedback](https://docs.microsoft.com/windows/uwp/gaming/racing-wheel-and-force-feedback),
-[Input practices for games](https://docs.microsoft.com/windows/uwp/gaming/input-practices-for-games)
+[Racing wheel and force feedback](/windows/uwp/gaming/racing-wheel-and-force-feedback),
+[Input practices for games](/windows/uwp/gaming/input-practices-for-games)

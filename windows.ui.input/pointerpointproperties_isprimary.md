@@ -24,10 +24,10 @@ For touch (where there can be multiple concurrent pointers), the primary pointer
 
 A new primary pointer is only registered when all contacts in that interaction are removed and a new contact is subsequently detected.
 
-A primary pointer can perform actions that are not available to other pointers. For example, when a primary pointer generates a [WM_POINTERDOWN](https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerdown) message on an inactive window, a [WM_POINTERACTIVATE](https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointeractivate)] message is also sent to that window.
+A primary pointer can perform actions that are not available to other pointers. For example, when a primary pointer generates a [WM_POINTERDOWN](/previous-versions/windows/desktop/inputmsg/wm-pointerdown) message on an inactive window, a [WM_POINTERACTIVATE](/previous-versions/windows/desktop/inputmsg/wm-pointeractivate)] message is also sent to that window.
 
 ## -examples
-This example uses different colored ellipses to show whether the pointer associated with the [PointerRoutedEventArgs](https://docs.microsoft.com/uwp/api/windows.ui.xaml.input.pointerroutedeventargs) is the primary pointer.
+This example uses different colored ellipses to show whether the pointer associated with the [PointerRoutedEventArgs](/uwp/api/windows.ui.xaml.input.pointerroutedeventargs) is the primary pointer.
 
 ```csharp
 private void MainPage_PointerPressed(object sender, PointerRoutedEventArgs e)

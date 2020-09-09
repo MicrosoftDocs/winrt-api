@@ -10,7 +10,7 @@ public string UserSecurityId { get; }
 # Windows.Management.Deployment.PackageUserInformation.UserSecurityId
 
 ## -description
-Gets the security identifier (SID) of the [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) user.
+Gets the security identifier (SID) of the [Package](/uwp/api/windows.applicationmodel.package) user.
 
 ## -property-value
 The SID.
@@ -21,5 +21,5 @@ The SID.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [Enumerate app packages sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindProvisionedPackages), [Enumerate app packages by name and publisher sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher)

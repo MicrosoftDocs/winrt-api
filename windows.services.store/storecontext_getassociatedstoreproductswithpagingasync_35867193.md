@@ -23,7 +23,7 @@ The maximum number of products to return in each page of results.
 An asynchronous operation that, on successful completion, returns a [StoreProductPagedQueryResult](storeproductpagedqueryresult.md) that provides access to the associated products, relevant error info, and the next page of results.
 
 ## -remarks
-This method is similar to [GetAssociatedStoreProductsAsync](storecontext_getassociatedstoreproductsasync_1833928682.md), with the difference that it enables you to use paging to retrieve the products. For more information about using [GetAssociatedStoreProductsAsync](storecontext_getassociatedstoreproductsasync_1833928682.md), including a code example, see [Get product info for apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
+This method is similar to [GetAssociatedStoreProductsAsync](storecontext_getassociatedstoreproductsasync_1833928682.md), with the difference that it enables you to use paging to retrieve the products. For more information about using [GetAssociatedStoreProductsAsync](storecontext_getassociatedstoreproductsasync_1833928682.md), including a code example, see [Get product info for apps and add-ons](/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
 
 Use the [HasMoreResults](storeproductpagedqueryresult_hasmoreresults.md) of the [StoreProductPagedQueryResult](storeproductpagedqueryresult.md) return value to determine whether there are additional pages of results, and use the [GetNextAsync](storeproductpagedqueryresult_getnextasync_1854313260.md) method to get the next page of results.
 

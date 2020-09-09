@@ -23,9 +23,9 @@ Use [SetPresetAsync](isospeedcontrol_setpresetasync_1340401685.md) to set the IS
 
 [SupportedPresets](isospeedcontrol_supportedpresets.md) lists the preset values that are support on the device.
 
-For how-to guidance for using the **FocusControl**, see [Manual camera controls for photo and video capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture).
+For how-to guidance for using the **FocusControl**, see [Manual camera controls for photo and video capture](/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture).
 
 ## -examples
 
 ## -see-also
-[Manual camera controls for photo and video capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture)
+[Manual camera controls for photo and video capture](/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture)

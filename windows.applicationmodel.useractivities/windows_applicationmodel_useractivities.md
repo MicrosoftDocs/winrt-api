@@ -20,7 +20,7 @@ The APIs in this namespace allow developers to:
 - Provide a cross-platform context for User Activities.
 - Start and stop Activities
 
-See [Continue user activity, even across devices](https://docs.microsoft.com/windows/uwp/launch-resume/useractivities) for more information about how to use User Activities with Windows Timeline to help users resume what they were doing on their PC, and across devices.
+See [Continue user activity, even across devices](/windows/uwp/launch-resume/useractivities) for more information about how to use User Activities with Windows Timeline to help users resume what they were doing on their PC, and across devices.
 
 ## -see-also
 

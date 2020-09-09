@@ -16,7 +16,7 @@ Represents a single possible setting for a print feature.
 
 ## -see-also
 [PrintTicketFeature](PrintTicketFeature.md)
-[IPrintSchemaOption interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaoption)
+[IPrintSchemaOption interface](/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaoption)
 
 ## -examples
 

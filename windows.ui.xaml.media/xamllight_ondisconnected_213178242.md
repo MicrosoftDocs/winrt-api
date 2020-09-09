@@ -22,7 +22,7 @@ This provides an opportunity to safely dispose of resources such as the Composit
 
 ### -param oldElement
 
-The [UIElement](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.UIElement) that the light is attached to.
+The [UIElement](/uwp/api/Windows.UI.Xaml.UIElement) that the light is attached to.
 
 ## -remarks
 

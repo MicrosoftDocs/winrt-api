@@ -22,7 +22,7 @@ Gets or sets localization/globalization language information that applies to a [
 <dl><dt>languageString</dt><dd>languageStringA string specifying language and culture that follows the BCP 47 standards. For example, U.S. English is "en-US".</dd>
 </dl>
 ## -property-value
-A string specifying language and culture that follows the Internet Engineering Task Force (IETF)  [BCP 47](http://tools.ietf.org/html/bcp47) standards. For example, U.S. English is "en-US".
+A string specifying language and culture that follows the Internet Engineering Task Force (IETF)  [BCP 47](https://tools.ietf.org/html/bcp47) standards. For example, U.S. English is "en-US".
 
 ## -remarks
 The Language property is intended for setting a per-element language setting on selected elements in a larger UI. The main reason for doing this is to influence text-related properties and settings, such as what the default or fallback [FontFamily](../windows.ui.xaml.media/fontfamily.md) should be for text presentation.
@@ -38,11 +38,11 @@ The Language property is mainly relevant for these [FrameworkElement](frameworke
 
 The [TextElement](../windows.ui.xaml.documents/textelement.md) class also has a [Language](../windows.ui.xaml.documents/textelement_language.md) property, and it has similar purpose and behavior for [TextElement](../windows.ui.xaml.documents/textelement.md) subclasses such as [Run](../windows.ui.xaml.documents/run.md).
 
-If it's not specifically set as an attribute, the default value for Language is determined by other, larger factors that influence the globalization and localization settings for your app. This includes the user's system settings. For more info, see [Globalizing your app](https://docs.microsoft.com/previous-versions/windows/apps/hh965328(v=win.10)).
+If it's not specifically set as an attribute, the default value for Language is determined by other, larger factors that influence the globalization and localization settings for your app. This includes the user's system settings. For more info, see [Globalizing your app](/previous-versions/windows/apps/hh965328(v=win.10)).
 
-Setting Language on UI elements is only a small part of what you might do to prepare an app for localization and globalization. For example, you typically need to name or load resources such as strings and images and include these resources in your app package. You also need to apply [x:Uid directive](https://docs.microsoft.com/windows/uwp/xaml-platform/x-uid-directive) values to any elements that should use resource qualifiers to obtain the language-specific resource. For more info, see [Globalizing your app](https://docs.microsoft.com/previous-versions/windows/apps/hh965328(v=win.10)).
+Setting Language on UI elements is only a small part of what you might do to prepare an app for localization and globalization. For example, you typically need to name or load resources such as strings and images and include these resources in your app package. You also need to apply [x:Uid directive](/windows/uwp/xaml-platform/x-uid-directive) values to any elements that should use resource qualifiers to obtain the language-specific resource. For more info, see [Globalizing your app](/previous-versions/windows/apps/hh965328(v=win.10)).
 
-When you set Language in markup, you should consider using a RESW resources file to specify the BCP 47 string, rather than hard-coding a string in the markup. Specify an [x:Uid directive](https://docs.microsoft.com/windows/uwp/xaml-platform/x-uid-directive) value on that element where you want to specify Language so that the resource system can target the element. Then provide a string resource of the BCP 47 string that matches the resources folder name the resource comes from. You'll probably already have a RESW file in your project that is providing the conventional localized UI strings. For more info, see [Quickstart: Translating UI resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965329(v=win.10)).
+When you set Language in markup, you should consider using a RESW resources file to specify the BCP 47 string, rather than hard-coding a string in the markup. Specify an [x:Uid directive](/windows/uwp/xaml-platform/x-uid-directive) value on that element where you want to specify Language so that the resource system can target the element. Then provide a string resource of the BCP 47 string that matches the resources folder name the resource comes from. You'll probably already have a RESW file in your project that is providing the conventional localized UI strings. For more info, see [Quickstart: Translating UI resources](/previous-versions/windows/apps/hh965329(v=win.10)).
 
 ### FrameworkElement.Language and xml:lang
 
@@ -59,4 +59,4 @@ This API takes a string. In the equivalent Microsoft Silverlight and Windows Pre
 ## -examples
 
 ## -see-also
-[Globalizing your app](https://docs.microsoft.com/previous-versions/windows/apps/hh965328(v=win.10)), [FlowDirection](frameworkelement_flowdirection.md), [IANA list of languages](http://www.iana.org/assignments/language-subtag-registry), [x:Uid directive](https://docs.microsoft.com/windows/uwp/xaml-platform/x-uid-directive)
+[Globalizing your app](/previous-versions/windows/apps/hh965328(v=win.10)), [FlowDirection](frameworkelement_flowdirection.md), [IANA list of languages](https://www.iana.org/assignments/language-subtag-registry), [x:Uid directive](/windows/uwp/xaml-platform/x-uid-directive)

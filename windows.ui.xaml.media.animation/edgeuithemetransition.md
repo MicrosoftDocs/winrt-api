@@ -31,4 +31,4 @@ We recommend that you include edge UI by adding an [AppBar](../windows.ui.xaml.c
 ## -examples
 
 ## -see-also
-[Transition](transition.md), [Animating edge-based UI](https://docs.microsoft.com/previous-versions/windows/apps/jj649428(v=win.10)), [Guidelines and checklist for edge-based UI animations](https://docs.microsoft.com/windows/uwp/style/motion-edgebased)
+[Transition](transition.md), [Animating edge-based UI](/previous-versions/windows/apps/jj649428(v=win.10)), [Guidelines and checklist for edge-based UI animations](/windows/uwp/style/motion-edgebased)

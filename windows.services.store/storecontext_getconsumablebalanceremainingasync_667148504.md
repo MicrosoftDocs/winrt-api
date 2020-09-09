@@ -20,9 +20,9 @@ The Store ID for the add-on (as provided by the [StoreId](storeproduct_storeid.m
 An asynchronous operation that, on successful completion, returns a [StoreConsumableResult](storeconsumableresult.md) that provides the remaining balance and other info.
 
 ## -remarks
-For more information about using this method, including a code example, see [Enable consumable add-on purchases](https://docs.microsoft.com/windows/uwp/monetize/enable-consumable-add-on-purchases).
+For more information about using this method, including a code example, see [Enable consumable add-on purchases](/windows/uwp/monetize/enable-consumable-add-on-purchases).
 
 ## -examples
 
 ## -see-also
-[StoreConsumableResult](storeconsumableresult.md), [Enable consumable add-on purchases](https://docs.microsoft.com/windows/uwp/monetize/enable-consumable-add-on-purchases), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store)
+[StoreConsumableResult](storeconsumableresult.md), [Enable consumable add-on purchases](/windows/uwp/monetize/enable-consumable-add-on-purchases), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store)

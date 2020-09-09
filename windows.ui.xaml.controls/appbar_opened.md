@@ -24,4 +24,4 @@ You can respond to the app bar being opened by handling the Opened event.
 ## -examples
 
 ## -see-also
-[Quickstart: Adding app bars](https://docs.microsoft.com/previous-versions/windows/apps/hh781232(v=win.10))
+[Quickstart: Adding app bars](/previous-versions/windows/apps/hh781232(v=win.10))

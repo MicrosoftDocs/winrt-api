@@ -10,7 +10,7 @@ public void SetPropertyFromObject(System.Object dependencyObject, Windows.UI.Xam
 # Windows.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromObject
 
 ## -description
-Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) value.
+Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Object](/dotnet/api/system.object?redirectedfrom=MSDN) value.
 
 ## -parameters
 ### -param dependencyObject

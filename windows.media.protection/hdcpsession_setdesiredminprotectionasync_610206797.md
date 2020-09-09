@@ -20,7 +20,7 @@ The level of protection at which to set the [HdcpSession](hdcpsession.md) instan
 The result of the operation.
 
 ## -remarks
-It is a good idea to listen for the [Completed](https://docs.microsoft.com/uwp/api/Windows.Foundation.IAsyncOperation_TResult_#Windows_Foundation_IAsyncOperation_1_Completed) event on this function, and then to check the results by calling [GetResults](https://docs.microsoft.com/uwp/api/Windows.Foundation.IAsyncOperation_TResult_#Windows_Foundation_IAsyncOperation_1_GetResults) on the operation and compare it to the values of the [HdcpSetProtectionResult](hdcpsetprotectionresult.md) enumeration. This way, you can implement your own logic depending on the result of trying to set HDCP. For a usage example, see [HdcpSession](hdcpsession.md).
+It is a good idea to listen for the [Completed](/uwp/api/Windows.Foundation.IAsyncOperation_TResult_#Windows_Foundation_IAsyncOperation_1_Completed) event on this function, and then to check the results by calling [GetResults](/uwp/api/Windows.Foundation.IAsyncOperation_TResult_#Windows_Foundation_IAsyncOperation_1_GetResults) on the operation and compare it to the values of the [HdcpSetProtectionResult](hdcpsetprotectionresult.md) enumeration. This way, you can implement your own logic depending on the result of trying to set HDCP. For a usage example, see [HdcpSession](hdcpsession.md).
 
 ## -examples
 

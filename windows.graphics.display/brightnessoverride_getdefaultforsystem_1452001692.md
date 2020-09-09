@@ -16,7 +16,7 @@ Returns a brightness override object. This method does not require [CoreWindow](
 The brightness override object.
 
 ## -remarks
-Requires the __systemManagement__ capability to be declared in your app's package manifest. Usage of the __systemManagement__ capability requires [Embedded mode](https://docs.microsoft.com/en-us/windows/iot-core/develop-your-app/embeddedmode) to be enabled. This capability allows apps to have basic system administration privileges. If it isn’t declared, this method throws an access is denied exception. For more info, see [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#general-use-capabilities).
+Requires the __systemManagement__ capability to be declared in your app's package manifest. Usage of the __systemManagement__ capability requires [Embedded mode](/en-us/windows/iot-core/develop-your-app/embeddedmode) to be enabled. This capability allows apps to have basic system administration privileges. If it isn’t declared, this method throws an access is denied exception. For more info, see [App capability declarations](/windows/uwp/packaging/app-capability-declarations#general-use-capabilities).
 
 ## -see-also
 

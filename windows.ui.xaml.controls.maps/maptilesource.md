@@ -74,4 +74,4 @@ This other example animates tiles from a fictitious web service on the map. The 
 ```
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Overlay tiled images on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/overlay-tiled-images)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Overlay tiled images on a map](/windows/uwp/maps-and-location/overlay-tiled-images)

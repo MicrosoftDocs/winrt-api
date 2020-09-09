@@ -13,7 +13,7 @@ public class UserCertificateEnrollmentManager : Windows.Security.Cryptography.Ce
 Provides access to certificate creation, import, and enrollment methods.
 
 ## -remarks
-To use this API, you must enable the **sharedUserCertificates** capability so it can install certificates into the shared user store. For more information on enabling the **sharedUserCertificates** capability, see [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
+To use this API, you must enable the **sharedUserCertificates** capability so it can install certificates into the shared user store. For more information on enabling the **sharedUserCertificates** capability, see [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
 
 ## -examples
 

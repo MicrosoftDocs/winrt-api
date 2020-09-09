@@ -18,9 +18,9 @@ Properties that are manually set are ignored for [VideoEncodingProperties](video
 The encoding quality **Auto** is a special preset that fills in the proper settings based on the current camera settings. Settings that are manually modified are ignored. For example, if you create a preset profile using one the static create methods, such as [CreateM4a](mediaencodingprofile_createm4a_1230065862.md), and specify **Auto** as the encoding quality, any changes you make to the properties will be overwritten with values based on the current camera settings.
 
 > [!NOTE]
-> It is possible to create an **VideoEncodingProperties** that is not supported on a particular device. For example, you may successfully call [CreateH264](videoencodingproperties_createh264_510168634.md), but if an h264 encoder is not present on the device, attempting to encode video with the properties returned from this method will fail. For a list of the codecs present by default for each device family, see [Supported codecs.](https://docs.microsoft.com/windows/uwp/audio-video-camera/supported-codecs).
+> It is possible to create an **VideoEncodingProperties** that is not supported on a particular device. For example, you may successfully call [CreateH264](videoencodingproperties_createh264_510168634.md), but if an h264 encoder is not present on the device, attempting to encode video with the properties returned from this method will fail. For a list of the codecs present by default for each device family, see [Supported codecs.](/windows/uwp/audio-video-camera/supported-codecs).
 
-For how-to guidance for setting the encoding properties for captured video, see [Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+For how-to guidance for setting the encoding properties for captured video, see [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 
 ### Version history
 
@@ -34,4 +34,4 @@ For how-to guidance for setting the encoding properties for captured video, see 
 ## -examples
 
 ## -see-also
-[Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture)
+[Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture)

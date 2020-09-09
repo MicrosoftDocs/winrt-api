@@ -16,7 +16,7 @@ Gets the zoom level of the associated map, which is a value between 1 and 20 in 
 The zoom level of the associated map.  
 
 ## -remarks
-See the remarks section of the [TryZoomInAsync](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapcontrol.TryZoomInAsync) method.  
+See the remarks section of the [TryZoomInAsync](/uwp/api/windows.ui.xaml.controls.maps.mapcontrol.TryZoomInAsync) method.  
 
 ## -see-also
 

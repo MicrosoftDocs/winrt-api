@@ -19,7 +19,7 @@ The display properties to apply to the [MediaPlaybackItem](mediaplaybackitem.md)
 ## -remarks
 Get the display properties for a [MediaPlaybackItem](mediaplaybackitem.md) by calling [GetDisplayProperties](mediaplaybackitem_getdisplayproperties_103236454.md).
 
-For how-to guidance for integrating with the SMTC, see [Integrate with the System Media Transport Controls](https://docs.microsoft.com/windows/uwp/audio-video-camera/integrate-with-systemmediatransportcontrols).
+For how-to guidance for integrating with the SMTC, see [Integrate with the System Media Transport Controls](/windows/uwp/audio-video-camera/integrate-with-systemmediatransportcontrols).
 
 ## -examples
 

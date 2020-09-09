@@ -15,19 +15,12 @@ Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the cont
 ## -xaml-syntax
 ```xaml
 <textElementForeground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <textElementForeground="colorString"/>
-
-```
-
-```xaml
+- or -
 <textElement>
   <textElement.Foreground>singleBrush</textElement.Foreground>
 </textElement>
-
 ```
 
 
@@ -45,4 +38,4 @@ Setting Foreground has no visible effect for [LineBreak](linebreak.md) or [Inlin
 ## -examples
 
 ## -see-also
-[Quickstart: Displaying text](https://docs.microsoft.com/previous-versions/windows/apps/hh700392(v=win.10)), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Quickstart: Displaying text](/previous-versions/windows/apps/hh700392(v=win.10)), [Use brushes](/windows/uwp/graphics/using-brushes)

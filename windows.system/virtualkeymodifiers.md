@@ -29,9 +29,9 @@ The Shift virtual key.
 The Windows virtual key.
 
 ## -remarks
-This enum is used with the [Modifiers](../windows.ui.xaml.input/keyboardaccelerator_modifiers.md) property of a [KeyboardAccelerator](../windows.ui.xaml.input/keyboardaccelerator.md) object. For more information, including code examples, see [Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators).
+This enum is used with the [Modifiers](../windows.ui.xaml.input/keyboardaccelerator_modifiers.md) property of a [KeyboardAccelerator](../windows.ui.xaml.input/keyboardaccelerator.md) object. For more information, including code examples, see [Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators).
 
 ## -examples
 
 ## -see-also
-[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators), [Windows.System.VirtualKey](virtualkey.md)
+[Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators), [Windows.System.VirtualKey](virtualkey.md)

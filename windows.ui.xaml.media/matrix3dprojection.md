@@ -46,5 +46,5 @@ This example uses a simple [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.
 [!code-csharp[Matrix3DProjectionSample_code](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml.cs#SnippetMatrix3DProjectionSample_code)]
 
 ## -see-also
-[Projection](projection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D perspective effects for XAML UI](https://docs.microsoft.com/windows/uwp/graphics/3-d-perspective-effects)
-jection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D perspective effects for XAML UI](https://docs.microsoft.com/windows/uwp/graphics/3-d-perspective-effects)
+[Projection](projection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D perspective effects for XAML UI](/windows/uwp/graphics/3-d-perspective-effects)
+jection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D perspective effects for XAML UI](/windows/uwp/graphics/3-d-perspective-effects)

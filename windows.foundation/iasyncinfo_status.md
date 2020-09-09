@@ -20,4 +20,4 @@ The status of the operation, as a value of the enumeration. A value of **Complet
 ## -examples
 
 ## -see-also
-[AsyncStatus](asyncstatus.md), [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
+[AsyncStatus](asyncstatus.md), [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)

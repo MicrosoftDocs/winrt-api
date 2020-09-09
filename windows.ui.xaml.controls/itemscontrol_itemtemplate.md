@@ -19,9 +19,7 @@ Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to disp
     singleDataTemplate
   </itemsControl.ItemTemplate>
 </itemsControl>
-```
-
-```xaml
+- or -
 <itemsControl ItemTemplate="resourceReferenceToDataTemplate"/>
 ```
 

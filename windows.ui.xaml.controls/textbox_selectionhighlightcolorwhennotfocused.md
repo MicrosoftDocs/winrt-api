@@ -15,10 +15,7 @@ Gets or sets the brush used to highlight the selected text when the TextBox does
 ## -xaml-syntax
 ```xaml
 <TextBox SelectionHighlightColorWhenNotFocused="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <TextBox SelectionHighlightColorWhenNotFocused="colorString"/>
 
 ```

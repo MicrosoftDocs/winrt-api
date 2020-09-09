@@ -17,4 +17,4 @@ Provides a source of tiles for a [MapTileSource](maptilesource.md). This class s
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Overlay tiled images on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/overlay-tiled-images)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Overlay tiled images on a map](/windows/uwp/maps-and-location/overlay-tiled-images)

@@ -20,4 +20,4 @@ The identifier for the [HorizontalDayItemAlignment](calendarview_horizontaldayit
 ## -examples
 
 ## -see-also
-[HorizontalDayItemAlignment](calendarview_horizontaldayitemalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[HorizontalDayItemAlignment](calendarview_horizontaldayitemalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

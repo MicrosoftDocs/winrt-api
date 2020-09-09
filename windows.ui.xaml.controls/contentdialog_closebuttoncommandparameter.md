@@ -19,9 +19,7 @@ Gets or sets the parameter to pass to the command for the close button.
     object
   </ContentDialog.CloseButtonCommandParameter>
 </ContentDialog>
-```
-
-```xaml
+- or -
 <ContentDialog CloseButtonCommandParameter="objectAsString"/>
 ```
 

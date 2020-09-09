@@ -21,5 +21,5 @@ true if the volume supports the creation of hard links in its file system; other
 
 ## -see-also
 
-[Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)
  

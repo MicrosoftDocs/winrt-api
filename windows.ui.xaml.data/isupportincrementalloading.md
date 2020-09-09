@@ -24,5 +24,5 @@ The following code example demonstrates how to implement this interface. For the
 [!code-csharp[ISupportIncrementalLoading](../windows.ui.xaml.data/code/DataBinding/csharp/IncrementalLoadingBase.cs#SnippetISupportIncrementalLoading)]
 
 ## -see-also
-[Binding](binding.md), [XAML data Binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data Binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)
 b4f1-6caf-4128-a61a-4e400b149011)

@@ -20,4 +20,4 @@ The identifier for the [NumberOfWeeksInView](calendarview_numberofweeksinview.md
 ## -examples
 
 ## -see-also
-[NumberOfWeeksInView](calendarview_numberofweeksinview.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[NumberOfWeeksInView](calendarview_numberofweeksinview.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

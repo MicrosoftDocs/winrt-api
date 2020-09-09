@@ -20,4 +20,4 @@ The identifier for the [TargetName](swipehintthemeanimation_targetname.md) depen
 ## -examples
 
 ## -see-also
-[Animating swipe gestures](https://docs.microsoft.com/previous-versions/windows/apps/jj649435(v=win.10))
+[Animating swipe gestures](/previous-versions/windows/apps/jj649435(v=win.10))

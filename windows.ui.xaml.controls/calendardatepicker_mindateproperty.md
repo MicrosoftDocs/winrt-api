@@ -20,4 +20,4 @@ The identifier for the [MinDate](calendardatepicker_mindate.md) dependency prope
 ## -examples
 
 ## -see-also
-[MinDate](calendardatepicker_mindate.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MinDate](calendardatepicker_mindate.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

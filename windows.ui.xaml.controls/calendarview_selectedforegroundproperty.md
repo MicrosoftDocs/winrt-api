@@ -20,4 +20,4 @@ The identifier for the [SelectedForeground](calendarview_selectedforeground.md) 
 ## -examples
 
 ## -see-also
-[SelectedForeground](calendarview_selectedforeground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[SelectedForeground](calendarview_selectedforeground.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

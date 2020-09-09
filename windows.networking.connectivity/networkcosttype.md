@@ -27,9 +27,9 @@ The connection is costed on a per-byte basis.
 
 
 ## -remarks
-For examples of how these values are used in cost-based connection scenarios, see [Quickstart: Managing metered network cost constraints](https://docs.microsoft.com/previous-versions/windows/apps/hh750310(v=win.10)).
+For examples of how these values are used in cost-based connection scenarios, see [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[Quickstart: Managing metered network cost constraints](https://docs.microsoft.com/previous-versions/windows/apps/hh750310(v=win.10))
+[Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))

@@ -15,10 +15,7 @@ Gets or sets the content for the items header.
 ## -xaml-syntax
 ```xaml
 <ItemsPresenter Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <ItemsPresenter>
   <ItemsPresenter.Header>headerObject</ItemsPresenter.Header>
 </ItemsPresenter>

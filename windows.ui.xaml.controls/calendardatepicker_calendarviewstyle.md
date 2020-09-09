@@ -16,10 +16,7 @@ Gets or sets the [Style](../windows.ui.xaml/style.md) associated with the contro
 ```xaml
 
 <CalendarDatePicker CalendarViewStyle={StaticResource styleResourceKey}/>
-
-```
-
-```xaml
+- or -
 <CalendarDatePicker>
   <CalendarDatePicker.CalendarViewStyle>
     <Style TargetType="CalendarView">

@@ -20,4 +20,4 @@ The identifier for the [BorderThickness](relativepanel_borderthickness.md) depen
 ## -examples
 
 ## -see-also
-[BorderThickness](relativepanel_borderthickness.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[BorderThickness](relativepanel_borderthickness.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

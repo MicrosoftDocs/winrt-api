@@ -26,7 +26,7 @@ The Videos Library typically has the following path.
 ## -examples
 
 ## -see-also
-[Files and folders in the Music, Pictures, and Videos libraries](https://docs.microsoft.com/windows/uwp/files/quickstart-managing-folders-in-the-music-pictures-and-videos-libraries)
+[Files and folders in the Music, Pictures, and Videos libraries](/windows/uwp/files/quickstart-managing-folders-in-the-music-pictures-and-videos-libraries)
 
 ## -capabilities
 videosLibrary

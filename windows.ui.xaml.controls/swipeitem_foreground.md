@@ -17,9 +17,7 @@ Gets or sets the brush that paints the text and icon of the item.
 
 ```xaml
 <SwipeItem Foreground="{StaticResource resourceName}"/>
-```
-
-```xaml
+- or -
 <SwipeItem Foreground="colorString"/>
 ```
 

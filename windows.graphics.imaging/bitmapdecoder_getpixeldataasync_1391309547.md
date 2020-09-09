@@ -36,4 +36,4 @@ This method is equivalent to calling the [GetPixelDataAsync(BitmapPixelFormat, B
 ## -examples
 
 ## -see-also
-[Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging), [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging), [GetPixelDataAsync(BitmapPixelFormat, BitmapAlphaMode, BitmapTransform, ExifOrientationMode, ColorManagementMode)](bitmapdecoder_getpixeldataasync_580908657.md), [PixelDataProvider](pixeldataprovider.md)
+[Imaging](/windows/uwp/audio-video-camera/imaging), [Imaging](/windows/uwp/audio-video-camera/imaging), [GetPixelDataAsync(BitmapPixelFormat, BitmapAlphaMode, BitmapTransform, ExifOrientationMode, ColorManagementMode)](bitmapdecoder_getpixeldataasync_580908657.md), [PixelDataProvider](pixeldataprovider.md)

@@ -21,7 +21,7 @@ The app is running in alternate mode.
 
 
 ## -remarks
-The Alternate value indicates that a Windows Phone app is running in Kid's Corner mode. For more info, see [Kid's Corner for Windows Phone](https://docs.microsoft.com/previous-versions/windows/apps/dn168931(v=vs.105))
+The Alternate value indicates that a Windows Phone app is running in Kid's Corner mode. For more info, see [Kid's Corner for Windows Phone](/previous-versions/windows/apps/dn168931(v=vs.105))
 
 ## -examples
 

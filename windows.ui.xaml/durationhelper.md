@@ -23,4 +23,4 @@ DurationHelper is one of several **Helper** classes that are intended to provide
 
 ## -see-also
 
-[Duration](duration.md), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)
+[Duration](duration.md), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)

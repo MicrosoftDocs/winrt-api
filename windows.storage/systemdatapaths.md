@@ -10,7 +10,7 @@ public class SystemDataPaths
 # Windows.Storage.SystemDataPaths
 
 ## -description
-Gets some commonly used system wide folder locations based on the [KNOWNFOLDERID](https://docs.microsoft.com/windows/desktop/shell/knownfolderid) naming pattern.
+Gets some commonly used system wide folder locations based on the [KNOWNFOLDERID](/windows/desktop/shell/knownfolderid) naming pattern.
 
 ## -remarks
 This class contains methods and properties that return paths consistent with those that a Desktop app would use.

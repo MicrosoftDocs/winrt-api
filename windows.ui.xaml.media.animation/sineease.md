@@ -25,7 +25,7 @@ The formula used for this function is:
 
 <img src="images/sineease_ft.png" alt="Formula of f(t) equals 1 minus sin times (1-t) times Pi over 2" />
 
-An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations).
+An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations).
 
 ## -examples
 This XAML example applies a SineEase easing function to a [DoubleAnimation](doubleanimation.md) to create a decelerating animation.
@@ -39,4 +39,4 @@ This XAML example applies a SineEase easing function to a [DoubleAnimation](doub
 [!code-vb[SineEase_code](../windows.ui.xaml.media.animation/code/SineEase/vbnet/MainPage.xaml.vb#SnippetSineEase_code)]
 
 ## -see-also
-[Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md)
+[Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ElasticEase](elasticease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md)

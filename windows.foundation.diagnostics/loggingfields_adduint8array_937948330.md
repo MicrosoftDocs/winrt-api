@@ -34,7 +34,7 @@ Use the *format* parameter to specify the format of the array. You may use the f
    <tr><td>Json</td><td>Data is treated as a Multi-Byte Character Set (MBCS) JavaScript Object Notation (JSON) string</td></tr>
    <tr><td>Signed</td><td>Data is treated as an array of signed 8-bit integers</td></tr>
    <tr><td>String</td><td>Data is treated as a MBCS string</td></tr>
-   <tr><td>SocketAddress</td><td>Data is treated as a [sockaddr](https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2)</td></tr>
+   <tr><td>SocketAddress</td><td>Data is treated as a [sockaddr](/windows/desktop/WinSock/sockaddr-2)</td></tr>
    <tr><td>Unsigned</td><td>Data is treated as an array of unsigned 8-bit integers</td></tr>
    <tr><td>XML</td><td>Data is treated as an MBCS XML string</td></tr>
 </table>

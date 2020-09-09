@@ -23,7 +23,7 @@ The media extension for the custom media sink.
 An object that is used to control the asynchronous operation.
 
 ## -remarks
-When you call **StartPreviewToCustomSinkAsync**, the system will call the custom sink’s [IMFMediaTypeHandler.IsMediaTypeSupported](https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-ismediatypesupported) method, passing in the native media type of the capture device. This check is performed in an effort to avoid unnecessary video conversion. If the custom sink returns S_OK from **IsMediaTypeSupported** when this check is made, then the preview stream will use the native media type instead of the type specified by the *encodingProfile* parameter.
+When you call **StartPreviewToCustomSinkAsync**, the system will call the custom sink’s [IMFMediaTypeHandler.IsMediaTypeSupported](/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-ismediatypesupported) method, passing in the native media type of the capture device. This check is performed in an effort to avoid unnecessary video conversion. If the custom sink returns S_OK from **IsMediaTypeSupported** when this check is made, then the preview stream will use the native media type instead of the type specified by the *encodingProfile* parameter.
 
 ## -examples
 

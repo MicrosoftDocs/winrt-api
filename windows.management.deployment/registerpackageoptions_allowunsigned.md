@@ -5,7 +5,7 @@
 
 ## -description
 
-Gets or sets a value that indicates whether to allow an unsigned [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) to be registered.
+Gets or sets a value that indicates whether to allow an unsigned [Package](/uwp/api/windows.applicationmodel.package) to be registered.
 
 ## -property-value
 
@@ -15,7 +15,7 @@ Gets or sets a value that indicates whether to allow an unsigned [Package](https
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [RegisterPackageOptions][registerpackageoptions.md]
 
 ## -examples

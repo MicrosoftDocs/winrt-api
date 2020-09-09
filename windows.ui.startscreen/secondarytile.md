@@ -232,4 +232,4 @@ tileUpdater.update(tileNotification);
 
 ## -see-also
 
-[Secondary tiles guidance](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/secondary-tiles), [Secondary tiles sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SecondaryTiles), [Mixed Reality Model sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MixedRealityModel)
+[Secondary tiles guidance](/windows/uwp/design/shell/tiles-and-notifications/secondary-tiles), [Secondary tiles sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SecondaryTiles), [Mixed Reality Model sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MixedRealityModel)

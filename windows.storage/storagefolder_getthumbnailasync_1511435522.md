@@ -16,7 +16,7 @@ Gets a thumbnail image for the current folder, sized for the specified purpose o
 ### -param mode
 A value from the enumeration that describes the purpose of the thumbnail and determines how the thumbnail image is adjusted.
 
-For guidance about choosing the best thumbnail mode, see [Guidelines and checklist for thumbnails](https://docs.microsoft.com/windows/uwp/files/index).
+For guidance about choosing the best thumbnail mode, see [Guidelines and checklist for thumbnails](/windows/uwp/files/index).
 
 ### -param requestedSize
 The requested size, in pixels, of the longest edge of the thumbnail. This method uses the *requestedSize* as a guide and tries to scale the thumbnail image without reducing the quality of the image.

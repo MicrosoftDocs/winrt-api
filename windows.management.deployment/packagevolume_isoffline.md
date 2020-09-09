@@ -21,4 +21,4 @@ true if the volume is in an offline state; otherwise, false.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)

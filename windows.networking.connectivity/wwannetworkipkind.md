@@ -10,7 +10,7 @@ public enum WwanNetworkIPKind : int
 # Windows.Networking.Connectivity.WwanNetworkIPKind
 
 ## -description
-Defines constants that describe a level of supported IP. The values reflect the [WWAN_IP_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_ip_type) enumeration. You can use these values to determine which cellular profile to use (for example, to choose between IMS and SUPL).
+Defines constants that describe a level of supported IP. The values reflect the [WWAN_IP_TYPE](/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_ip_type) enumeration. You can use these values to determine which cellular profile to use (for example, to choose between IMS and SUPL).
 
 ## -enum-fields
 ### -field None:0

@@ -38,9 +38,9 @@ function getInkStatus(deviceInformationId) {
 
 ```
 
-For more information about using the **PrinterExtensionContext** class, see the [UWP device apps for printers](https://docs.microsoft.com/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers) topic on the Hardware Dev Center.
+For more information about using the **PrinterExtensionContext** class, see the [UWP device apps for printers](/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers) topic on the Hardware Dev Center.
 
 ## -examples
 
 ## -see-also
-[DeviceInformation class](https://docs.microsoft.com/uwp/api/windows.devices.enumeration.deviceinformation), [UWP device apps for printers](https://docs.microsoft.com/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers)
+[DeviceInformation class](/uwp/api/windows.devices.enumeration.deviceinformation), [UWP device apps for printers](/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers)

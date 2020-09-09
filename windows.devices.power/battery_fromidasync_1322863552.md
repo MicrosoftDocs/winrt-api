@@ -27,4 +27,4 @@ You can use a [DeviceInformation](../windows.devices.enumeration/deviceinformati
 ## -examples
 
 ## -see-also
-[Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10))
+[Get battery information](/previous-versions/windows/apps/dn895210(v=win.10))

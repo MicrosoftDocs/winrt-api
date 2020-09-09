@@ -14,7 +14,7 @@ Represents an email message.
 
 ## -remarks
 
-For an example of using this class, see [Send email](https://docs.microsoft.com/windows/uwp/contacts-and-calendar/sending-email).
+For an example of using this class, see [Send email](/windows/uwp/contacts-and-calendar/sending-email).
 
 ### Version history
 

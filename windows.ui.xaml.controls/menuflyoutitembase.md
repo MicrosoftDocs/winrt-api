@@ -22,4 +22,4 @@ MenuFlyoutItemBase is the parent class for [MenuFlyoutItem](menuflyoutitem.md) a
 ## -examples
 
 ## -see-also
-[Control](control.md), [MenuFlyoutItem](menuflyoutitem.md), [MenuFlyoutSeparator](menuflyoutseparator.md), [ToggleMenuFlyoutItem](togglemenuflyoutitem.md), [Quickstart: Adding a MenuFlyout](https://docs.microsoft.com/previous-versions/windows/apps/dn308516(v=win.10))
+[Control](control.md), [MenuFlyoutItem](menuflyoutitem.md), [MenuFlyoutSeparator](menuflyoutseparator.md), [ToggleMenuFlyoutItem](togglemenuflyoutitem.md), [Quickstart: Adding a MenuFlyout](/previous-versions/windows/apps/dn308516(v=win.10))

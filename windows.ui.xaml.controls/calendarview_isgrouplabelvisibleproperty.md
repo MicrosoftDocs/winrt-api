@@ -20,4 +20,4 @@ The identifier for the [IsGroupLabelVisible](calendarview_isgrouplabelvisible.md
 ## -examples
 
 ## -see-also
-[IsGroupLabelVisible](calendarview_isgrouplabelvisible.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsGroupLabelVisible](calendarview_isgrouplabelvisible.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -28,7 +28,7 @@ The eraser button is pressed.
 ## -remarks
 
 > [!Important]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
 
 Using input injection requires the following be added to the Package.appxmanifest:
 
@@ -48,4 +48,4 @@ Here are some downloadable samples demonstrating basic input and input injection
 
 ## -see-also
 
-[Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)
+[Simulate user input through input injection](/windows/uwp/design/input/input-injection)

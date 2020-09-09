@@ -22,7 +22,7 @@ Defines the element tree that is used as the control template for a control.
 
 ## -remarks
 
-For more info and examples, see [XAML control templates](https://docs.microsoft.com/windows/uwp/controls-and-patterns/control-templates).
+For more info and examples, see [XAML control templates](/windows/uwp/controls-and-patterns/control-templates).
 
 ControlTemplate is used as the value of the [Control.Template](control_template.md) property, which defines the visuals of a control by applying the template. You almost always define a ControlTemplate as a XAML resource, using an implicit key [TargetType](../windows.ui.xaml/style_targettype.md) that is the same as a [Style](../windows.ui.xaml/style.md) that sets [Control.Template](control_template.md) with a [Setter](../windows.ui.xaml/setter.md). You rarely if ever assign a value for [Control.Template](control_template.md) directly on a control instance.
 
@@ -34,7 +34,7 @@ Control templates provide the visuals and parts that make up an instance of a co
 
 There are ways to access template-defined content either before or after the template is applied to a specific control instance; see [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md) or [GetTemplateChild](control_gettemplatechild_501346084.md).
 
-The actual point in time that a ControlTemplate is applied to a control instance can be detected because this invokes the [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md) protected virtual method. So long as the control isn't sealed, you can subclass a control so that you have the opportunity to override [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md). This override can be written to perform actions that wouldn't be possible prior to the template being applied. For example, you can wire event handlers to control parts, or set control properties to reference object parts that were created out of the template but didn't start with a [{TemplateBinding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/templatebinding-markup-extension) value.
+The actual point in time that a ControlTemplate is applied to a control instance can be detected because this invokes the [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md) protected virtual method. So long as the control isn't sealed, you can subclass a control so that you have the opportunity to override [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md). This override can be written to perform actions that wouldn't be possible prior to the template being applied. For example, you can wire event handlers to control parts, or set control properties to reference object parts that were created out of the template but didn't start with a [{TemplateBinding} markup extension](/windows/uwp/xaml-platform/templatebinding-markup-extension) value.
 
 ## -examples
 The following example creates a simple ControlTemplate for a [Button](button.md). The control template contains one [Grid](grid.md) and specifies this behavior:
@@ -48,4 +48,4 @@ The following example creates a simple ControlTemplate for a [Button](button.md)
 You can see the complete template for each XAML control in the _generic.xaml_ file. This file is found in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\<SDK version>\Generic folder. 
 
 ## -see-also
-[FrameworkTemplate](../windows.ui.xaml/frameworktemplate.md), [DataTemplate](../windows.ui.xaml/datatemplate.md), [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md), [Control.Template](control_template.md), [Control](control.md), [Style](../windows.ui.xaml/style.md), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [XAML control templates](https://docs.microsoft.com/windows/uwp/controls-and-patterns/control-templates) 
+[FrameworkTemplate](../windows.ui.xaml/frameworktemplate.md), [DataTemplate](../windows.ui.xaml/datatemplate.md), [OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md), [Control.Template](control_template.md), [Control](control.md), [Style](../windows.ui.xaml/style.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)), [XAML control templates](/windows/uwp/controls-and-patterns/control-templates) 

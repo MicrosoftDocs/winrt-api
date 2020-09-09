@@ -15,4 +15,4 @@ Defines classes for the Map control. Also defines tile sources and elements that
 
 ## -see-also
 
-[Maps and location overview](https://docs.microsoft.com/windows/uwp/maps-and-location/index), [MapControl sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MapControl)
+[Maps and location overview](/windows/uwp/maps-and-location/index), [MapControl sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MapControl)

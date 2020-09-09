@@ -31,7 +31,7 @@ Canvas is a layout panel that supports absolute positioning of child elements re
 A Canvas is one of the [Panel](panel.md) elements that enable layout. Canvas uses absolute positioning as its layout technique for its contained child elements. Each child element is rendered within the Canvas area. You control the positioning of elements inside the Canvas by specifying x and y coordinates. These coordinates are in pixels. The x and y coordinates are often specified by using the [Canvas.Left](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) and [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) attached properties. [Canvas.Left](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) specifies the object's distance from the left side of the containing Canvas (the x-coordinate), and [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) specifies the object's distance from the top of the containing Canvas (the y-coordinate).
 
 > [!NOTE]
-> Because absolute positioning does not take into account the size of the app window, scaling, or other user-selected sizing, using a container element that adapts to different orientations and screen settings, such as [Grid](grid.md) or [StackPanel](stackpanel.md), is often a better choice than using Canvas. For more information, see [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
+> Because absolute positioning does not take into account the size of the app window, scaling, or other user-selected sizing, using a container element that adapts to different orientations and screen settings, such as [Grid](grid.md) or [StackPanel](stackpanel.md), is often a better choice than using Canvas. For more information, see [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml).
 
 You can nest Canvas objects. When you nest objects, the coordinates used by each object are relative to its immediate containing Canvas.
 
@@ -51,7 +51,7 @@ A Canvas with no children and with a default [Height](../windows.ui.xaml/framewo
 
 ### XAML attached properties
 
-Canvas is the host service class for several [XAML attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview).
+Canvas is the host service class for several [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview).
 
 In order to support XAML processor access to the attached properties, and also to expose equivalent _get_ and _set_ operations to code, each XAML attached property has a pair of Get and Set accessor methods. Another way to get or set the value in code is to use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md) and passing the identifier field as the dependency property identifier.
 
@@ -77,4 +77,4 @@ This example shows how to position a rectangle 30 pixels from the left and 30 pi
     <auto_snippet sample_id="layout_ovw_all" snippet_id="LayoutOvwCanvas2"/>-->
 
 ## -see-also
-[Panel](panel.md), [Define layouts](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview), [Grid](grid.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [Controls list](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/), [Controls by function](https://docs.microsoft.com/windows/uwp/controls-and-patterns/controls-by-function)
+[Panel](panel.md), [Define layouts](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview), [Grid](grid.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [Controls list](/windows/uwp/design/controls-and-patterns/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)

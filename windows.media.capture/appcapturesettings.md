@@ -32,7 +32,7 @@ Represents app capture settings.
 ## -examples
 
 ## -see-also
-[Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)
+[Object](/dotnet/api/system.object?redirectedfrom=MSDN)
 
 ## -capabilities
 appCaptureSettings

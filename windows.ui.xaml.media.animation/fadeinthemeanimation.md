@@ -41,4 +41,4 @@ The following example applies a FadeInThemeAnimation and [FadeOutThemeAnimation]
 [!code-csharp[FadeThemeAnimation_code](../windows.ui.xaml.media.animation/code/FadeInThemeAnimation/csharp/BlankPage.xaml.cs#SnippetFadeThemeAnimation_code)]
 
 ## -see-also
-[Timeline](timeline.md), [Animating fades](https://docs.microsoft.com/previous-versions/windows/apps/jj649429(v=win.10)), [Guidelines and checklist for fade animations](https://docs.microsoft.com/windows/uwp/style/motion-fade)
+[Timeline](timeline.md), [Animating fades](/previous-versions/windows/apps/jj649429(v=win.10)), [Guidelines and checklist for fade animations](/windows/uwp/style/motion-fade)

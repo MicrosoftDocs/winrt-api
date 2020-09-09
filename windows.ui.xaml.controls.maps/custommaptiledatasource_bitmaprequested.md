@@ -17,4 +17,4 @@ Occurs when the bitmap is requested for a [CustomMapTileDataSource](custommaptil
 ## -examples
 
 ## -see-also
-[MapTileBitmapRequestedEventArgs](maptilebitmaprequestedeventargs.md), [Overlay tiled images on a map](https://docs.microsoft.com/windows/uwp/maps-and-location/overlay-tiled-images)
+[MapTileBitmapRequestedEventArgs](maptilebitmaprequestedeventargs.md), [Overlay tiled images on a map](/windows/uwp/maps-and-location/overlay-tiled-images)

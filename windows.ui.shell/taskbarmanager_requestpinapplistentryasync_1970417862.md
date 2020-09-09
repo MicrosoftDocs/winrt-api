@@ -14,7 +14,7 @@ Requests that the specified application be pinned to the taskbar.
 
 ## -parameters
 ### -param appListEntry
-An [AppListEntry](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Core.AppListEntry) corresponding to the application to pin to the taskbar.
+An [AppListEntry](/uwp/api/Windows.ApplicationModel.Core.AppListEntry) corresponding to the application to pin to the taskbar.
 
 ## -returns
 A boolean representing whether the application was successfully pinned to the takbar. If the app was already pinned, this will immediately return true.

@@ -17,7 +17,7 @@ The axis to rotate the visual around. For example, a value of Vector3(1,0,0) ind
 
 ## -remarks
 
-This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](https://docs.microsoft.com/windows/uwp/composition/composition-animation).
+This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](/windows/uwp/composition/composition-animation).
 
 [Visual](visual.md) supports two forms of rotation, by axis-angle, and by orientation.
 

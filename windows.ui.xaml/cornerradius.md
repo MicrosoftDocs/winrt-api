@@ -19,9 +19,7 @@ Describes the characteristics of a rounded corner, such as can be applied to a [
 <CornerRadius>uniformRadius</CornerRadius>
 -or-
 <CornerRadius>topLeft,topRight,bottomRight,bottomLeft</CornerRadius>
-```
-
-```xaml
+- or -
 <object property="uniformRadius"/>
 - or -
 <object property="topLeft,topRight,bottomRight,bottomLeft"/>
@@ -65,7 +63,7 @@ Although you can specify a CornerRadius as an object element, you cannot specify
 <CornerRadius x:Key="CornerRadiusError" BottomLeft="20"/>
 ```
 
-Instead, you must specify the values as initialization text within the CornerRadius. Using the object element syntax for a CornerRadius is useful if you want to declare a keyed resource that can be used by multiple [Border](../windows.ui.xaml.controls/border.md) instances for their [Border.CornerRadius](../windows.ui.xaml.controls/border_cornerradius.md). For more info on XAML initialization text, see [XAML syntax guide](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-syntax-guide).
+Instead, you must specify the values as initialization text within the CornerRadius. Using the object element syntax for a CornerRadius is useful if you want to declare a keyed resource that can be used by multiple [Border](../windows.ui.xaml.controls/border.md) instances for their [Border.CornerRadius](../windows.ui.xaml.controls/border_cornerradius.md). For more info on XAML initialization text, see [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
 
 If you specify an attribute string or initialization text with two or three values, only the first value is respected and is treated as the *uniformRadius* (the other values are ignored). You must specify all four values to use a different behavior than *uniformRadius*.
 

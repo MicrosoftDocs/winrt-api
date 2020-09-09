@@ -21,7 +21,7 @@ If AppController is set, that radial controller (and menu) is used for the top-l
 The [RadialController](radialcontroller.md) object to bind to the active application.
 
 ## -remarks
-We recommend creating an app controller in the [Loaded](https://docs.microsoft.com/uwp/api/windows.ui.xaml.frameworkelement.Loaded) handler of your app's main page (or equivalent).
+We recommend creating an app controller in the [Loaded](/uwp/api/windows.ui.xaml.frameworkelement.Loaded) handler of your app's main page (or equivalent).
 
 ## -examples
 

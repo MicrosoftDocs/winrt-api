@@ -20,4 +20,4 @@ The identifier for the [ColorFontPaletteIndex](glyphs_colorfontpaletteindex.md) 
 ## -examples
 
 ## -see-also
-[ColorFontPaletteIndex](glyphs_colorfontpaletteindex.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[ColorFontPaletteIndex](glyphs_colorfontpaletteindex.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

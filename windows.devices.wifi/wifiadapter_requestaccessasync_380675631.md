@@ -13,14 +13,14 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.WiFi.WiFiAccessStatus>
 ## -description
 A static method for determining whether the current user can access any of the Wi-Fi adapters on this device.
 
-Note that if you do not specify that your app has the [wiFiControl](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations) capability in your app manifest, this method always returns DeniedBySystem.
+Note that if you do not specify that your app has the [wiFiControl](/windows/uwp/packaging/app-capability-declarations) capability in your app manifest, this method always returns DeniedBySystem.
 
 Always returns **DeniedBySystem** on Xbox.
 
 ## -returns
 An asynchronous access operation. On successful completion, returns a status enumeration value describing whether the current user can access any Wi-Fi adapter.
 
-Note that if you do not specify that your app has the [wiFiControl](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations) capability in your app manifest, this method always returns **DeniedBySystem**.
+Note that if you do not specify that your app has the [wiFiControl](/windows/uwp/packaging/app-capability-declarations) capability in your app manifest, this method always returns **DeniedBySystem**.
 
 Always returns **DeniedBySystem** on Xbox.
 

@@ -18,7 +18,7 @@ For more info, see [Windows.Web.UI.IWebViewControl](../windows.web.ui/iwebviewco
 
 ## -see-also
 
-[WebView control for Windows Forms and WPF: Interact with web view content](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/wpf-winforms/webview#interact-with-web-view-content)
+[WebView control for Windows Forms and WPF: Interact with web view content](/en-us/windows/communitytoolkit/controls/wpf-winforms/webview#interact-with-web-view-content)
 
 ## -examples
 

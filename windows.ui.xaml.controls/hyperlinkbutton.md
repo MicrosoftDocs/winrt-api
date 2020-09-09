@@ -51,7 +51,7 @@ There are two ways that you can add a hyperlink to a XAML app. [Hyperlink](../wi
 To use the hyperlink to navigate to a Uniform Resource Identifier (URI), set the [NavigateUri](hyperlinkbutton_navigateuri.md) property. When a user clicks or taps the HyperlinkButton, the specified Uniform Resource Identifier (URI) opens in the default browser. The default browser runs in a separate process from your app.
 
 > [!TIP]
-> You don't have to use **http:** or **https:** schemes. You can use schemes such as **ms-appx:**, **ms-appdata:**, or **ms-resources:**, if there's resource content at these locations that's appropriate to load in a browser. However, the **file:** scheme is specifically blocked. For more info, see [URI schemes](https://docs.microsoft.com/previous-versions/windows/apps/jj655406(v=win.10)).
+> You don't have to use **http:** or **https:** schemes. You can use schemes such as **ms-appx:**, **ms-appdata:**, or **ms-resources:**, if there's resource content at these locations that's appropriate to load in a browser. However, the **file:** scheme is specifically blocked. For more info, see [URI schemes](/previous-versions/windows/apps/jj655406(v=win.10)).
 
 When a user clicks the HyperlinkButton, the value of the [NavigateUri](hyperlinkbutton_navigateuri.md) property is passed to a system handler for Uniform Resource Identifier (URI) types and schemes. The system then launches the app that is registered for the scheme of the Uniform Resource Identifier (URI) provided for [NavigateUri](hyperlinkbutton_navigateuri.md).
 
@@ -79,4 +79,4 @@ Here's a HyperlinkButton as declared in XAML. It declares a string value for [Co
 [!code-xaml[BasicHyperlinkButtonXAML](../windows.ui.xaml.controls/code/BasicControlSnippets/CS/MainPage.xaml#SnippetBasicHyperlinkButtonXAML)]
 
 ## -see-also
-[ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md), [HyperlinkButton styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [Hyperlinks overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/hyperlinks)
+[ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md), [HyperlinkButton styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [Hyperlinks overview](/windows/uwp/design/controls-and-patterns/hyperlinks)

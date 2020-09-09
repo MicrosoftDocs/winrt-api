@@ -24,4 +24,4 @@ In low memory situations (most likely on lower-memory phones), it is possible fo
 ## -examples
 
 ## -see-also
-[SetSourceAsync](bitmapsource_setsourceasync_1118221574.md), [UriSource](bitmapimage_urisource.md), [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging)
+[SetSourceAsync](bitmapsource_setsourceasync_1118221574.md), [UriSource](bitmapimage_urisource.md), [Imaging](/windows/uwp/audio-video-camera/imaging)

@@ -19,9 +19,9 @@ Access the methods and properties of this class statically.
 
 To see more code examples, see the [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) and the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
 
-To learn about using the [FutureAccessList](storageapplicationpermissions_futureaccesslist.md) and [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md), see [How to track recently used files and folders](https://docs.microsoft.com/previous-versions/windows/apps/hh972603(v=win.10)).
+To learn about using the [FutureAccessList](storageapplicationpermissions_futureaccesslist.md) and [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md), see [How to track recently used files and folders](/previous-versions/windows/apps/hh972603(v=win.10)).
 
-To learn about what files and locations your app has permission to access, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
+To learn about what files and locations your app has permission to access, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
 ### Version history
 
@@ -66,6 +66,6 @@ savePicker.pickSaveFileAsync().then(function (file) {
 
 It is recommended that you store the tokens returned by [StorageApplicationPermissions.MostRecentlyUsedList.Add](storageitemmostrecentlyusedlist_add_118555710.md) and [StorageApplicationPermissions.FutureAccessList.Add](storageitemaccesslist_add_118555710.md) so that you can use them to retrieve the respective list entry for the item that you added. In the example, we store the tokens in `mruToken` and `faToken` respectively but we don't do anything else with them.
 
-Additionally, the `savePicker` variable in the example contains a [FileSavePicker](../windows.storage.pickers/filesavepicker.md) object that was created by the sample. To learn more about saving files with file picker, see [How to save files through ](https://docs.microsoft.com/previous-versions/windows/apps/jj150595(v=win.10)). To learn about accessing files, see [Quickstart: Accessing files with ](https://docs.microsoft.com/previous-versions/windows/apps/hh465199(v=win.10)).
+Additionally, the `savePicker` variable in the example contains a [FileSavePicker](../windows.storage.pickers/filesavepicker.md) object that was created by the sample. To learn more about saving files with file picker, see [How to save files through ](/previous-versions/windows/apps/jj150595(v=win.10)). To learn about accessing files, see [Quickstart: Accessing files with ](/previous-versions/windows/apps/hh465199(v=win.10)).
 
 ## -see-also

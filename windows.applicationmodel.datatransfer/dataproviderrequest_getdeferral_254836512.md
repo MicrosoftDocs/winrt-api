@@ -17,7 +17,7 @@ Returns a [DataProviderDeferral](dataproviderdeferral.md) object.
 An data provider deferral object.
 
 ## -remarks
-To learn more, check out [How to produce requested data asynchronously](https://docs.microsoft.com/previous-versions/windows/apps/hh770847(v=win.10)).
+To learn more, check out [How to produce requested data asynchronously](/previous-versions/windows/apps/hh770847(v=win.10)).
 
 
 

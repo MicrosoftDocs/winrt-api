@@ -26,7 +26,7 @@ A [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) objec
 An asynchronous operation that returns a [CreateAudioDeviceInputNodeResult](createaudiodeviceinputnoderesult.md) on completion. This object exposes a [Status](createaudiodeviceinputnoderesult_status.md) property, that indicates either that the operation was successful or the reason why the operation failed. The [DeviceInputNode](createaudiodeviceinputnoderesult_deviceinputnode.md) property provides a reference to the created input node on success.
 
 ## -remarks
-Call [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_326280522.md), passing in the value returned by [GetAudioCaptureSelector](../windows.media.devices/mediadevice_getaudiocaptureselector_829052994.md), to get the list of  [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) objects representing the available capture devices. For more information, see [Audio graphs](https://docs.microsoft.com/windows/uwp/audio-video-camera/audio-graphs).
+Call [FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_326280522.md), passing in the value returned by [GetAudioCaptureSelector](../windows.media.devices/mediadevice_getaudiocaptureselector_829052994.md), to get the list of  [DeviceInformation](../windows.devices.enumeration/deviceinformation.md) objects representing the available capture devices. For more information, see [Audio graphs](/windows/uwp/audio-video-camera/audio-graphs).
 
 ## -examples
 

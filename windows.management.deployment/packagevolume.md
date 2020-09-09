@@ -10,7 +10,7 @@ public class PackageVolume : Windows.Management.Deployment.IPackageVolume, Windo
 # Windows.Management.Deployment.PackageVolume
 
 ## -description
-Represents a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) storage volume.
+Represents a [Package](/uwp/api/windows.applicationmodel.package) storage volume.
 
 ## -remarks
 
@@ -26,4 +26,4 @@ Represents a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmod
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)

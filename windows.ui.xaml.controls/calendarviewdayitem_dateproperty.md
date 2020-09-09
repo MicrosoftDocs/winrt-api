@@ -20,4 +20,4 @@ The identifier for the [Date](calendarviewdayitem_date.md)  dependency property
 ## -examples
 
 ## -see-also
-[Date](calendarviewdayitem_date.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Date](calendarviewdayitem_date.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

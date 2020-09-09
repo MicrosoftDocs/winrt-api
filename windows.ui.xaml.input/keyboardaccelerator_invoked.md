@@ -36,5 +36,5 @@ public class MyListView : ListView
 ```
 
 ## -see-also
-[KeyboardAcceleratorInvokedEventArgs](keyboardacceleratorinvokedeventargs.md), [Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
+[KeyboardAcceleratorInvokedEventArgs](keyboardacceleratorinvokedeventargs.md), [Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators)
 

@@ -21,9 +21,7 @@ Gets or sets the style that is used when rendering the menu item containers.
     inlineStyle
   </NavigationView.MenuItemContainerStyle>
 </NavigationView>
-```
-
-```xaml
+- or -
 <NavigationView MenuItemContainerStyle="resourceReferenceToStyle"/>
 ```
 

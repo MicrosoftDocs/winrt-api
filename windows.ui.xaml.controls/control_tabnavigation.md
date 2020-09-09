@@ -32,4 +32,4 @@ A value of the enumeration. The default is **Local**.
 ## -examples
 
 ## -see-also
-[IsTabStop](control_istabstop.md), [TabIndex](control_tabindex.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](https://docs.microsoft.com/windows/uwp/accessibility/keyboard-accessibility)
+[IsTabStop](control_istabstop.md), [TabIndex](control_tabindex.md), [Keyboard interactions](/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](/windows/uwp/accessibility/keyboard-accessibility)

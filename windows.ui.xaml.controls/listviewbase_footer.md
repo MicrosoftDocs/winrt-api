@@ -15,10 +15,7 @@ Gets or sets the content for the list footer.
 ## -xaml-syntax
 ```xaml
 <listViewBase Footer="footerString"/>
-
-```
-
-```xaml
+- or -
 <listViewBase>
   <listViewBase.Footer>
     footerObject

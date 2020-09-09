@@ -23,4 +23,4 @@ To access the [MinWindowHeight](adaptivetrigger_minwindowheight.md) dependency p
 ## -examples
 
 ## -see-also
-[MinWindowHeight](adaptivetrigger_minwindowheight.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MinWindowHeight](adaptivetrigger_minwindowheight.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

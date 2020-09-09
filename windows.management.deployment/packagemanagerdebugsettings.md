@@ -10,10 +10,10 @@ public class PackageManagerDebugSettings
 # Windows.Management.Deployment.PackageManagerDebugSettings
 
 ## -description
-Settings for debugging app [Packages](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package). 
+Settings for debugging app [Packages](/uwp/api/windows.applicationmodel.package). 
 
 ## -remarks
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)

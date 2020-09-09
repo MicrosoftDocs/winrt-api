@@ -10,7 +10,7 @@ public class SymmetricKeyAlgorithmProvider : Windows.Security.Cryptography.Core.
 # Windows.Security.Cryptography.Core.SymmetricKeyAlgorithmProvider
 
 ## -description
-Represents a provider of symmetric key algorithms. For more information, see [Cryptographic keys](https://docs.microsoft.com/windows/uwp/security/cryptographic-keys).
+Represents a provider of symmetric key algorithms. For more information, see [Cryptographic keys](/windows/uwp/security/cryptographic-keys).
 
 ## -remarks
 You create a SymmetricKeyAlgorithmProvider object by calling the static [OpenAlgorithm](symmetrickeyalgorithmprovider_openalgorithm_637226074.md) method and specifying one of the following algorithm names.

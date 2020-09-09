@@ -18,4 +18,4 @@ Defines a reusable object that sends output to a printer.
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Print from your app](https://docs.microsoft.com/windows/uwp/devices-sensors/print-from-your-app)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Print from your app](/windows/uwp/devices-sensors/print-from-your-app)

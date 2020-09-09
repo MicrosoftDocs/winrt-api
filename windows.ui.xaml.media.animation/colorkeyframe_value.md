@@ -17,9 +17,7 @@ Gets or sets the key frame's target value.
 <colorKeyFrame Value="colorString"/>
 -or-
 <colorKeyFrame Value="referenceToColor"/>
-```
-
-```xaml
+- or -
 <colorKeyFrame>
   <colorKeyFrame.Value>
     <Color>colorString</Color>

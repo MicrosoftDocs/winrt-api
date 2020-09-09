@@ -21,7 +21,7 @@ The object on which to set focus.
 
 ### -param value
 
-One of the values from the [FocusState](https://docs.microsoft.com/uwp/api/windows.ui.xaml.focusstate) enumeration that specify how an elemnent can obtain focus.
+One of the values from the [FocusState](/uwp/api/windows.ui.xaml.focusstate) enumeration that specify how an elemnent can obtain focus.
 
 ## -returns
 
@@ -64,4 +64,4 @@ async void MoveFocus(WebView webView))
 
 ## -see-also
 
-[Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)

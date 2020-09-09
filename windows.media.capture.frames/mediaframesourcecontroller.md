@@ -15,7 +15,7 @@ Allows you to get and set properties of a [MediaFrameSource](mediaframesource.md
 ## -remarks
 Get an instance of the MediaFrameSourceController class by accessing the [Controller](mediaframesource_controller.md) property of a [MediaFrameSource](mediaframesource.md).
 
-For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://docs.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
+For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
 
 ### Version history
 
@@ -28,4 +28,4 @@ For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture 
 ## -examples
 
 ## -see-also
-[Process media frames with MediaFrameReader](https://docs.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)
+[Process media frames with MediaFrameReader](/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)

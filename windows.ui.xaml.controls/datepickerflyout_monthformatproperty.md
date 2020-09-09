@@ -20,4 +20,4 @@ The identifier for the [MonthFormat](datepickerflyout_monthformat.md) dependency
 ## -examples
 
 ## -see-also
-[MonthFormat](datepickerflyout_monthformat.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MonthFormat](datepickerflyout_monthformat.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

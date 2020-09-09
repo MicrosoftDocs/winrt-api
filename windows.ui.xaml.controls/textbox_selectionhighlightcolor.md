@@ -15,10 +15,7 @@ Gets or sets the brush used to highlight the selected text.
 ## -xaml-syntax
 ```xaml
 <TextBox SelectionHighlightColor="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <TextBox SelectionHighlightColor="colorString"/>
 
 ```
@@ -37,4 +34,4 @@ The control template sets the default selection highlight color to the system re
 ## -examples
 
 ## -see-also
-[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Use brushes](/windows/uwp/graphics/using-brushes)

@@ -15,7 +15,7 @@ Gets or sets a value that determines the order in which elements receive focus w
 
 ## -property-value
 
-A value that determines the order of logical navigation for a device. The default value is [MaxValue](https://docs.microsoft.com/dotnet/api/system.int32.maxvalue?redirectedfrom=MSDN).
+A value that determines the order of logical navigation for a device. The default value is [MaxValue](/dotnet/api/system.int32.maxvalue?redirectedfrom=MSDN).
 
 ## -remarks
 

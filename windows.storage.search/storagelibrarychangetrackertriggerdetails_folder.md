@@ -10,7 +10,7 @@ public StorageFolder Folder { get; }
 # Windows.Storage.Search.StorageLibraryChangeTrackerTriggerDetails.Folder
 
 ## -description
-Gets the [StorageFolder](../windows.storage/storagefolder.md) that has been marked as changed by the [StorageLibraryChangeTrackerTrigger](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.storagelibrarychangetrackertrigger)
+Gets the [StorageFolder](../windows.storage/storagefolder.md) that has been marked as changed by the [StorageLibraryChangeTrackerTrigger](/uwp/api/windows.applicationmodel.background.storagelibrarychangetrackertrigger)
 
 
 ## -property-value

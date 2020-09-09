@@ -17,9 +17,9 @@ Provides helper methods for reading and writing files that are represented by ob
 
 This class is static and cannot be instantiated. Call the methods directly instead.
 
-To learn more about what locations your app can access, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
+To learn more about what locations your app can access, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
-To learn how to read and write to files, see [Create, write, and read a file](https://docs.microsoft.com/windows/uwp/files/quickstart-reading-and-writing-files).
+To learn how to read and write to files, see [Create, write, and read a file](/windows/uwp/files/quickstart-reading-and-writing-files).
 
 ## -examples
 

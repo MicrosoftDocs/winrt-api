@@ -23,10 +23,10 @@ Exceptions are suppressed and not reported.
 Exceptions are reported.
 
 ### -field UseSetErrorInfo:4
-Error information for [SetErrorInfo](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-seterrorinfo) is used.
+Error information for [SetErrorInfo](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-seterrorinfo) is used.
 
 ### -field SuppressSetErrorInfo:8
-Error information for [SetErrorInfo](https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-seterrorinfo) is suppressed and not reported.
+Error information for [SetErrorInfo](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-seterrorinfo) is suppressed and not reported.
 
 
 ## -remarks

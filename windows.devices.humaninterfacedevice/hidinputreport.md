@@ -12,7 +12,7 @@ public class HidInputReport : Windows.Devices.HumanInterfaceDevice.IHidInputRepo
 
 ## -description
 
-Represents a [HID Input Report](https://docs.microsoft.com/windows-hardware/drivers/hid/introduction-to-hid-concepts#reports).
+Represents a [HID Input Report](/windows-hardware/drivers/hid/introduction-to-hid-concepts#reports).
 
 Devices issue input reports to describe state changes, user-input, and other device-specific data. For example, a HID keyboard device would use an input report to signal a key press. A HID presence-sensor would use an input report to signal a presence detection event.
 

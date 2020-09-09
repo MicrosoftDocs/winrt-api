@@ -31,7 +31,7 @@ The RichTextBlock control displays read-only text, and provides several features
 
 [TextBlock](textblock.md) provides a simpler content model, so it’s typically easier to use, and it can provide better text rendering performance than RichTextBlock. It also provides many of the same formatting options for customizing how your text is rendered. However, RichTextBlock provides several unique features that [TextBlock](textblock.md) doesn’t provide.
 
-For more info and examples, see the [RichTextBlock control guide](https://docs.microsoft.com/windows/uwp/controls-and-patterns/rich-text-block).
+For more info and examples, see the [RichTextBlock control guide](/windows/uwp/controls-and-patterns/rich-text-block).
 
 ### Paragraphs and formatting
 

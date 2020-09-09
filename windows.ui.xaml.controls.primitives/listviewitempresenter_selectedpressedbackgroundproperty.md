@@ -20,4 +20,4 @@ The identifier for the [SelectedPressedBackground](listviewitempresenter_selecte
 ## -examples
 
 ## -see-also
-[SelectedPressedBackground](listviewitempresenter_selectedpressedbackground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[SelectedPressedBackground](listviewitempresenter_selectedpressedbackground.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

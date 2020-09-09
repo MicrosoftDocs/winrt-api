@@ -20,4 +20,4 @@ The identifier for the [Control.IsTemplateFocusTarget](/uwp/api/windows.ui.xaml.
 ## -examples
 
 ## -see-also
-[Control.IsTemplateFocusTarget](/uwp/api/windows.ui.xaml.controls.control#xaml-attached-properties), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)
+[Control.IsTemplateFocusTarget](/uwp/api/windows.ui.xaml.controls.control#xaml-attached-properties), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

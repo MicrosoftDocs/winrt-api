@@ -18,4 +18,4 @@ For more info, see the [TextBox.TextCompositionChanged](textbox_textcompositionc
 ## -examples
 
 ## -see-also
-[TextBox.TextCompositionChanged](textbox_textcompositionchanged.md), [RichEditBox.TextCompositionChanged](richeditbox_textcompositionchanged.md), [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10))
+[TextBox.TextCompositionChanged](textbox_textcompositionchanged.md), [RichEditBox.TextCompositionChanged](richeditbox_textcompositionchanged.md), [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10))

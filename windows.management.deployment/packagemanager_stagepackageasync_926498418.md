@@ -12,7 +12,7 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.StagePacka
 
 ## -description
 
-Stages a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) to the system without registering it.
+Stages a [Package](/uwp/api/windows.applicationmodel.package) to the system without registering it.
 
 ## -parameters
 
@@ -48,4 +48,4 @@ An object that the caller can observe to track progress and completion for the c
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)

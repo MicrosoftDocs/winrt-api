@@ -12,7 +12,7 @@ public UnsupportedAppRequirementReasons Reasons { get; }
 
 ## -description
 
-An [UnsupportedAppRequirementReasons](unsupportedapprequirementreasons.md) object that explains why a particular [App Capability](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations) is unsupported on the current device
+An [UnsupportedAppRequirementReasons](unsupportedapprequirementreasons.md) object that explains why a particular [App Capability](/en-us/windows/uwp/packaging/app-capability-declarations) is unsupported on the current device
 
 ## -property-value
 
@@ -20,7 +20,7 @@ An [UnsupportedAppRequirementReasons](unsupportedapprequirementreasons.md) objec
 
 ## -see-also
 
-[App Capability Declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations)
+[App Capability Declarations](/en-us/windows/uwp/packaging/app-capability-declarations)
 
 ## -examples
 

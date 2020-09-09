@@ -18,7 +18,7 @@ This class is instantiated whenever the [RemoteSystemAdded](remotesystemwatcher_
 ## -examples
 
 ## -see-also
-[Connected apps and devices](https://docs.microsoft.com/windows/uwp/launch-resume/connected-apps-and-devices)
+[Connected apps and devices](/windows/uwp/launch-resume/connected-apps-and-devices)
 
 ## -capabilities
 remoteSystem

@@ -15,7 +15,7 @@ Provides information to an app that was launched after being suspended for a web
 ## -remarks
 You access a WebAuthenticationBrokerContinuationEventArgs object when you implement an event handler that responds to [Activated](../windows.applicationmodel.core/coreapplicationview_activated.md) events when [ActivationKind](activationkind.md) is **WebAuthenticationBrokerContinuation**.
 
-For an example that uses the WebAuthenticationBrokerContinuationEventArgs class, see [How to continue your Windows Phone 8.x app after calling an AndContinue method](https://docs.microsoft.com/previous-versions/windows/apps/dn631755(v=win.10)).
+For an example that uses the WebAuthenticationBrokerContinuationEventArgs class, see [How to continue your Windows Phone 8.x app after calling an AndContinue method](/previous-versions/windows/apps/dn631755(v=win.10)).
 
 ## -examples
 

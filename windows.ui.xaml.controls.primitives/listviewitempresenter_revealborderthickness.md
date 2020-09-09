@@ -19,7 +19,7 @@ The thickness of the border of the reveal effect.
 
 ## -remarks
 
-For more info, see [Reveal](https://docs.microsoft.com/windows/uwp/style/reveal).
+For more info, see [Reveal](/windows/uwp/style/reveal).
 
 ## -see-also
 

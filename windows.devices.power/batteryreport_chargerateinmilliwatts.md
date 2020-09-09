@@ -22,4 +22,4 @@ The rate that the battery is charging in milliwatts (mW). This value is negative
 ## -examples
 
 ## -see-also
-[Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10))
+[Get battery information](/previous-versions/windows/apps/dn895210(v=win.10))

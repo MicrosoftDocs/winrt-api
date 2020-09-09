@@ -18,9 +18,9 @@ The [MediaBreakSchedule](mediabreakschedule.md) defining the schedule of media b
 ## -remarks
 The **MediaBreakSchedule** object allows you to specify [MediaBreak](mediabreak.md) objects that should be played before the **MediaPlaybackItem** is played, after the item is played, or at scheduled positions within the item's playback.
 
-For how-to guidance for working with media breaks, see [Create, schedule, and manage media breaks](https://docs.microsoft.com/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks).
+For how-to guidance for working with media breaks, see [Create, schedule, and manage media breaks](/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks).
 
 ## -examples
 
 ## -see-also
-[Create, schedule, and manage media breaks](https://docs.microsoft.com/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks)
+[Create, schedule, and manage media breaks](/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks)

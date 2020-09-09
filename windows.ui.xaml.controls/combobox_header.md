@@ -15,10 +15,7 @@ Gets or sets the content for the control's header.
 ## -xaml-syntax
 ```xaml
 <ComboBox Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <ComboBox>
   <ComboBox.Header>headerObject</ComboBox.Header>
 </ComboBox>

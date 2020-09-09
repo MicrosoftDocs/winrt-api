@@ -25,6 +25,6 @@ Provides methods for pinning applications to the taskbar.
 
 ## -see-also
 
-[Pin your app to the taskbar](https://docs.microsoft.com/windows/uwp/design/shell/pin-to-taskbar)
+[Pin your app to the taskbar](/windows/uwp/design/shell/pin-to-taskbar)
 
 ## -examples

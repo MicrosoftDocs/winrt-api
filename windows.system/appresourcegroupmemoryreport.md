@@ -16,7 +16,7 @@ Provides memory information for a resource group, such as commit usage.
 
 ## -see-also
 
-[Pushing the Limits of Windows: Virtual Memory](https://blogs.technet.microsoft.com/markrussinovich/2008/11/17/pushing-the-limits-of-windows-virtual-memory/)
+[Pushing the Limits of Windows: Virtual Memory](/archive/blogs/markrussinovich/pushing-the-limits-of-windows-virtual-memory)
 
 ## -examples
 

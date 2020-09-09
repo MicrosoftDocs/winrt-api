@@ -15,7 +15,7 @@ Provides support information about the manufacturer of the device. This includes
 ## -remarks
 
 ## -see-also
-[OEMInformation](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-oeminformation)
+[OEMInformation](/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-oeminformation)
 
 ## -examples
 

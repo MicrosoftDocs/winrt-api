@@ -19,9 +19,7 @@ Gets or sets the data template that is used to display the content of the [HubSe
     dataTemplate
   </HubSection.ContentTemplate>
 </HubSection>
-```
-
-```xaml
+- or -
 <HubSection ContentTemplate="templateReference"/>
 ```
 

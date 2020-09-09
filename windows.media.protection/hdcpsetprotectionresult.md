@@ -27,7 +27,7 @@ The HDCP operation failed for an unknown reason.
 
 
 ## -remarks
-You can call [GetResults](https://docs.microsoft.com/uwp/api/Windows.Foundation.IAsyncOperation_TResult_#Windows_Foundation_IAsyncOperation_1_GetResults) on the HDCP operation, and then check that against this enumeration in order to determine whether it was successful or not. See [HdcpSession](hdcpsession.md) for a usage example.
+You can call [GetResults](/uwp/api/Windows.Foundation.IAsyncOperation_TResult_#Windows_Foundation_IAsyncOperation_1_GetResults) on the HDCP operation, and then check that against this enumeration in order to determine whether it was successful or not. See [HdcpSession](hdcpsession.md) for a usage example.
 
 ## -examples
 

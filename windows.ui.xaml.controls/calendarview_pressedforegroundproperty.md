@@ -20,4 +20,4 @@ The identifier for the [PressedForeground](calendarview_pressedforeground.md)  
 ## -examples
 
 ## -see-also
-[PressedForeground](calendarview_pressedforeground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[PressedForeground](calendarview_pressedforeground.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

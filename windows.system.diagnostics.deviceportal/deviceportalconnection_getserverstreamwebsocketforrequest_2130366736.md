@@ -23,7 +23,7 @@ The sub-protocol that this WebSocket will use.
 The size, in bytes, of the send buffer to be used for sending data on a **[ServerMessageWebSocket](../windows.networking.sockets/servermessagewebsocket.md)** object.
 
 ### -param noDelay
-A boolean value indicating whether Nagle's algorithm is used on this WebSocket object. See the **[StreamSocketControl](https://docs.microsoft.com/uwp/api/windows.networking.sockets.streamsocketcontrol)** class for more information on Nagle's algorithm.
+A boolean value indicating whether Nagle's algorithm is used on this WebSocket object. See the **[StreamSocketControl](/uwp/api/windows.networking.sockets.streamsocketcontrol)** class for more information on Nagle's algorithm.
 
 ## -returns
 A server-side stream WebSocket object that can be used with Device Portal.

@@ -34,15 +34,15 @@ You should always implement [Convert](ivalueconverter_convert_101701969.md) with
 
 
 > [!NOTE]
-> To data-bind to a custom value converter that is written in Visual C++ component extensions (C++/CX), the header file in which the IValueConverter implementation class is defined must be included, directly or indirectly, in one of the code-behind files. For more info, see [Create your first  using C++](https://docs.microsoft.com/previous-versions/windows/hh465045(v=win.10)).
+> To data-bind to a custom value converter that is written in Visual C++ component extensions (C++/CX), the header file in which the IValueConverter implementation class is defined must be included, directly or indirectly, in one of the code-behind files. For more info, see [Create your first  using C++](/previous-versions/windows/hh465045(v=win.10)).
 
 > [!TIP]
 > Some of the default project templates for a UWP app include a helper class, BooleanToVisibilityConverter. This class is an IValueConverter implementation that handles a common custom-control scenario where you use Boolean values from your control logic class to set the [Visibility](../windows.ui.xaml/uielement_visibility.md) value in XAML control templates.
 
 ### Migration notes
 
-In the Windows Runtime, the language parameters for IValueConverter methods use strings, as opposed to using [CultureInfo](https://docs.microsoft.com/dotnet/api/system.globalization.cultureinfo?redirectedfrom=MSDN) objects as they do in the Windows Presentation Foundation (WPF) and Microsoft Silverlight definitions of the interface.
+In the Windows Runtime, the language parameters for IValueConverter methods use strings, as opposed to using [CultureInfo](/dotnet/api/system.globalization.cultureinfo?redirectedfrom=MSDN) objects as they do in the Windows Presentation Foundation (WPF) and Microsoft Silverlight definitions of the interface.
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)
 b4f1-6caf-4128-a61a-4e400b149011)

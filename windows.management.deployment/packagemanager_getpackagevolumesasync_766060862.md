@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.Management.Deployment.PackageManager.GetPackageVolumesAsync
 
 ## -description
-Gets the [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) volumes on the device.
+Gets the [Package](/uwp/api/windows.applicationmodel.package) volumes on the device.
 
 ## -returns
 Returns an asynchronous operation that completes with the package volumes.
@@ -21,4 +21,4 @@ Returns an asynchronous operation that completes with the package volumes.
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)

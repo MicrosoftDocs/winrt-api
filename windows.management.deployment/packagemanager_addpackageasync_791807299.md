@@ -10,7 +10,7 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.AddPackage
 # Windows.Management.Deployment.PackageManager.AddPackageAsync
 
 ## -description
-Adds a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) (the main package) and its dependency packages for the current user, using the specified deployment options.
+Adds a [Package](/uwp/api/windows.applicationmodel.package) (the main package) and its dependency packages for the current user, using the specified deployment options.
 
 ## -parameters
 ### -param packageUri
@@ -41,4 +41,4 @@ The DeploymentProgress percentage of completion over the entire course of the de
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)

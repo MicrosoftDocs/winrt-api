@@ -5,7 +5,7 @@
 
 ## -description
 
-Stages a [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) to the system without registering it, using the specified deployment options.
+Stages a [Package](/uwp/api/windows.applicationmodel.package) to the system without registering it, using the specified deployment options.
 
 ## -parameters
 
@@ -23,7 +23,7 @@ The status of the deployment request. The [DeploymentResult](deploymentresult.md
 
 ## -remarks
 
-This method simplifies the existing [StagePackageAsync](https://docs.microsoft.com/uwp/api/windows.management.deployment.packagemanager.stagepackageasync) overloads by consolidating all of the deployment options into a single parameter. This method also supports the following features not available with the the [StagePackageAsync](https://docs.microsoft.com/uwp/api/windows.management.deployment.packagemanager.stagepackageasync) overloads:
+This method simplifies the existing [StagePackageAsync](/uwp/api/windows.management.deployment.packagemanager.stagepackageasync) overloads by consolidating all of the deployment options into a single parameter. This method also supports the following features not available with the the [StagePackageAsync](/uwp/api/windows.management.deployment.packagemanager.stagepackageasync) overloads:
 
 * You can use the [ExternalLocationURI](stagepackageoptions_externallocationuri.md) property of the *options* parameter to specify the URI of an external disk location outside of the MSIX package where the package manifest can reference application content.
 
@@ -31,5 +31,5 @@ This method simplifies the existing [StagePackageAsync](https://docs.microsoft.c
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [StagePackageOptions](stagepackageoptions.md)

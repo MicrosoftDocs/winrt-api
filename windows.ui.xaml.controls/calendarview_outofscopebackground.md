@@ -15,15 +15,9 @@ Gets or sets a brush that provides the background of a date that's out of scope.
 ## -xaml-syntax
 ```xaml
 <CalendarView OutOfScopeBackground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <CalendarView OutOfScopeBackground="colorString"/>
-
-```
-
-```xaml
+- or -
 <CalendarView>
   CalendarView.OutOfScopeBackground>singleBrush</CalendarView.OutOfScopeBackground>
 </CalendarView>

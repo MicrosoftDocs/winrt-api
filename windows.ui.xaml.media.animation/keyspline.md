@@ -15,9 +15,7 @@ Represents a spline key frame to define animation progress.
 ## -xaml-syntax
 ```xaml
 <KeySpline .../>
-```
-
-```xaml
+- or -
 <object property="controlPoint1 controlPoint2"/>
 ```
 

@@ -15,7 +15,7 @@ Constructor used for decryption operations. Use this constructor before calling 
 ## -remarks
 Use this constructor before starting a decryption operation. Do not use this constructor before starting an encryption operation. Use the [DataProtectionProvider(String)](dataprotectionprovider_dataprotectionprovider_290278668.md) method instead.
 
-For security descriptors and SDDL strings, you must set the enterprise authentication capability in the manifest. The enterprise authentication capability is restricted to UWP app built with company accounts, and is subject to additional onboarding validation. You should avoid the enterprise authentication capability unless it is absolutely necessary. For more information, see [Registering for a  developer account](https://docs.microsoft.com/windows/uwp/publish/opening-a-developer-account).
+For security descriptors and SDDL strings, you must set the enterprise authentication capability in the manifest. The enterprise authentication capability is restricted to UWP app built with company accounts, and is subject to additional onboarding validation. You should avoid the enterprise authentication capability unless it is absolutely necessary. For more information, see [Registering for a  developer account](/windows/uwp/publish/opening-a-developer-account).
 For example, the following SID and SDDL providers require the enterprise authentication capability:
 
 + "SID=S-1-5-21-4392301 AND SID=S-1-5-21-3101812"

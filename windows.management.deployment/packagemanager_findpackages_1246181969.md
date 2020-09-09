@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IIterable<Windows.ApplicationModel.Package
 # Windows.Management.Deployment.PackageManager.FindPackages
 
 ## -description
-Retrieves information about a specified family of [Packages](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package) installed across all users.
+Retrieves information about a specified family of [Packages](/uwp/api/windows.applicationmodel.package) installed across all users.
 
 ## -returns
 If the method succeeds, an enumerable collection of package objects is returned. Each Package object in this collection contains information about the package, including but not limited to its name, publisher, version, and install location.
@@ -163,7 +163,7 @@ void DisplayPackageInfo(Windows::ApplicationModel::Package^ package)
 
 ## -see-also
 
-- [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package)
+- [Package](/uwp/api/windows.applicationmodel.package)
 - [Enumerate app packages sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindProvisionedPackages), [FindPackages(String)](packagemanager_findpackages_331793265.md), [FindPackages(String, String)](packagemanager_findpackages_1597689551.md)
 
 ## -capabilities

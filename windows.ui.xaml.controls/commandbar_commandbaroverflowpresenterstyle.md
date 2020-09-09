@@ -16,10 +16,7 @@ Gets or sets the [Style](../windows.ui.xaml/style.md) applied to the overflow co
 ```xaml
 
 <CommandBar CommandBarOverflowPresenterStyle={StaticResource styleResourceKey}/>
-
-```
-
-```xaml
+- or -
 <CommandBar>
   <CommandBar.CommandBarOverflowPresenterStyle>
     <Style TargetType="CommandBarOverflowPresenter">
