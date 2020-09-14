@@ -23,7 +23,7 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| DataTemplateComponent | Gets or sets a data template component.<ul><li>Type: [IDataTemplateComponent](idatatemplatecomponent.md)</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.markup.xamlbindinghelper.datatemplatecomponentproperty">DataTemplateComponentProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.markup.xamlbindinghelper.getdatatemplatecomponent">GetDataTemplateComponent</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.markup.xamlbindinghelper.setdatatemplatecomponent">SetDataTemplateComponent</a></li></ul> |
+| DataTemplateComponent | Gets or sets a data template component.<ul><li>Type: [IDataTemplateComponent](idatatemplatecomponent.md)</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.markup.xamlbindinghelper.datatemplatecomponentproperty">DataTemplateComponentProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.markup.xamlbindinghelper.getdatatemplatecomponent">GetDataTemplateComponent</a>, <a href="/uwp/api/windows.ui.xaml.markup.xamlbindinghelper.setdatatemplatecomponent">SetDataTemplateComponent</a></li></ul> |
 
 ## -examples
 

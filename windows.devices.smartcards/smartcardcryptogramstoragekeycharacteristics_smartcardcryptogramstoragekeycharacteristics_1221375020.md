@@ -12,11 +12,10 @@ public SmartCardCryptogramStorageKeyCharacteristics.SmartCardCryptogramStorageKe
 
 ## -description
 
-Creates a new instance of [SmartCardCryptogramStorageKeyCharacteristics](../../windows.devices.smartcards/smartcardcryptogramstoragekeycharacteristics.md).
+Creates a new instance of [SmartCardCryptogramStorageKeyCharacteristics](./smartcardcryptogramstoragekeycharacteristics.md).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

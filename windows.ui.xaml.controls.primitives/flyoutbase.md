@@ -27,7 +27,7 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| AttachedFlyout | Gets or sets the flyout attached to a [FrameworkElement](../windows.ui.xaml/frameworkelement.md).<ul><li>Type: FlyoutBase</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.attachedflyoutproperty">AttachedFlyoutProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.getattachedflyout">GetAttachedFlyout</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.setattachedflyout">SetAttachedFlyout</a></li></ul>To attach a flyout to a Button, use [Button.Flyout](../windows.ui.xaml.controls/button_flyout.md) instead.|
+| AttachedFlyout | Gets or sets the flyout attached to a [FrameworkElement](../windows.ui.xaml/frameworkelement.md).<ul><li>Type: FlyoutBase</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.attachedflyoutproperty">AttachedFlyoutProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.getattachedflyout">GetAttachedFlyout</a>, <a href="/uwp/api/windows.ui.xaml.controls.primitives.flyoutbase.setattachedflyout">SetAttachedFlyout</a></li></ul>To attach a flyout to a Button, use [Button.Flyout](../windows.ui.xaml.controls/button_flyout.md) instead.|
 
 ### Version history
 

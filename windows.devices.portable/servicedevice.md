@@ -17,7 +17,7 @@ To access these services, you must declare the device service in the device capa
 
 The [GetDeviceSelector](servicedevice_getdeviceselector_1045577800.md) and [GetDeviceSelectorFromServiceId](servicedevice_getdeviceselectorfromserviceid_818600602.md) methods get selector strings that are passed to the [Windows.Devices.Enumeration](../windows.devices.enumeration/windows_devices_enumeration.md) API to find portable device services. The [Enumerating Common Devices](/previous-versions/windows/apps/hh464974(v=win.10)) tutorial explains how to use selector strings to discover available devices.
 
-Examples of device services are the Media Transfer Protocol (MTP) device services that allow access to device status, contacts, calendar, tasks, and ringtones on a device. For more information, see [MTP Device Services for Windows](http://msdn.microsoft.com/library/windows/hardware/gg463544.aspx).
+Examples of device services are the Media Transfer Protocol (MTP) device services that allow access to device status, contacts, calendar, tasks, and ringtones on a device. For more information, see [MTP Device Services for Windows](/previous-versions/windows/hardware/design/dn613966(v=vs.85)).
 
 The [Portable Device Services Sample]( http://go.microsoft.com/fwlink/p/?linkid=242031) demonstrates how to access the device service once you have discovered it.
 

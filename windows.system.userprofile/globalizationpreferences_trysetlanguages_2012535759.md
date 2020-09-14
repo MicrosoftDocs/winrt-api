@@ -14,7 +14,7 @@ public bool GlobalizationPreferences.TrySetLanguages(IIterable<String> languageT
 Attempts to set the preferred languages on an [IoT](https://developer.microsoft.com/en-us/windows/iot) device.
 
 > [!NOTE]
-> This method is available only in [Embedded mode](https://developer.microsoft.com/windows/iot/docs/embeddedmode). 
+> This method is available only in [Embedded mode](/windows/iot-core/develop-your-app/EmbeddedMode). 
 
 ## -parameters
 ### -param languageTags
@@ -37,4 +37,3 @@ The systemManagement capability must include the iot namespace when you declare 
 ## -see-also
 
 ## -examples
-

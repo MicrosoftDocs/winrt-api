@@ -25,7 +25,7 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| IsTargetElement | Gets or sets a value that indicates whether the element is the target of the animation.<ul><li>Type: Boolean</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo.istargetelementproperty">IsTargetElementProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo.getistargetelement">GetIsTargetElement</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo.setistargetelement">SetIsTargetElement</a></li></ul>
+| IsTargetElement | Gets or sets a value that indicates whether the element is the target of the animation.<ul><li>Type: Boolean</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo.istargetelementproperty">IsTargetElementProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo.getistargetelement">GetIsTargetElement</a>, <a href="/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo.setistargetelement">SetIsTargetElement</a></li></ul>
 
 ## -examples
 

@@ -23,7 +23,7 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| DropoutOrder | Gets or sets the priority order in which a transport control drops out to the overflow menu as the window shrinks.<ul><li>Type: Nullable&lt;int></li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper.dropoutorderproperty">DropoutOrderProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper.getdropoutorder">GetDropoutOrder</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper.setdropoutorder">SetDropoutOrder</a></li></ul> If you re-template [MediaTransportControls](mediatransportcontrols.md), you can set this attached property on individual controls to specify the order in which they drop out to the overflow menu.|
+| DropoutOrder | Gets or sets the priority order in which a transport control drops out to the overflow menu as the window shrinks.<ul><li>Type: Nullable&lt;int></li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper.dropoutorderproperty">DropoutOrderProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper.getdropoutorder">GetDropoutOrder</a>, <a href="/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper.setdropoutorder">SetDropoutOrder</a></li></ul> If you re-template [MediaTransportControls](mediatransportcontrols.md), you can set this attached property on individual controls to specify the order in which they drop out to the overflow menu.|
 
 ## -examples
 

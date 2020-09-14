@@ -12,11 +12,10 @@ public SmartCardCryptogramMaterialCharacteristics.SmartCardCryptogramMaterialCha
 
 ## -description
 
-Creates a new instance of [SmartCardCryptogramMaterialCharacteristics](../../windows.devices.smartcards/smartcardcryptogrammaterialcharacteristics.md)
+Creates a new instance of [SmartCardCryptogramMaterialCharacteristics](./smartcardcryptogrammaterialcharacteristics.md)
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

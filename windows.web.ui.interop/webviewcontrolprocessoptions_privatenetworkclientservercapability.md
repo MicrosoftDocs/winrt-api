@@ -16,9 +16,8 @@ Gets or sets a boolean value indicating whether the privateNetworkClientServer c
 A boolean value indicating whether the privateNetworkClientServer capability is enabled.
 
 ## -remarks
-To learn more about capabilities and the privateNetworkClientServer capability, see the [App capability declarations](https://aka.ms/appcap) topic.
+To learn more about capabilities and the privateNetworkClientServer capability, see the [App capability declarations](/windows/uwp/packaging/app-capability-declarations) topic.
 
 ## -see-also
 
 ## -examples
-

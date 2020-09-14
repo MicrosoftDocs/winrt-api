@@ -46,7 +46,7 @@ winrt::Windows::Foundation::Point ProjectCameraCoordinateToPixelCoordinate(
 }
 ```
 
-If this transform will be applied to many 3D coordinates, it may be more convenient to adjust the matrix itself, rather than each input coordinate. This can be accomplished by swapping the third and fourth rows of the matrix, and using a homogeneous coordinate transform function like <a href="https://docs.microsoft.com/en-us/windows/win32/api/directxmath/nf-directxmath-xmvector3transformcoordstream">XMVector3TransformCoordStream</a>. Note that a right-handed-to-left-handed conversion is also applied as part of the transform so that the distance from the camera is a positive value:
+If this transform will be applied to many 3D coordinates, it may be more convenient to adjust the matrix itself, rather than each input coordinate. This can be accomplished by swapping the third and fourth rows of the matrix, and using a homogeneous coordinate transform function like <a href="/windows/win32/api/directxmath/nf-directxmath-xmvector3transformcoordstream">XMVector3TransformCoordStream</a>. Note that a right-handed-to-left-handed conversion is also applied as part of the transform so that the distance from the camera is a positive value:
 
 ```cppwinrt
 using namespace DirectX;

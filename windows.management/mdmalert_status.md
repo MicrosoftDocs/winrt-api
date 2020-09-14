@@ -16,9 +16,8 @@ A read-only status code sent by the server in response to the alert.
 Integer form of the status code (200, 404, etc.).
 
 ## -remarks
-For a complete list of status codes, see the SyncML response status codes table in [OMA DM protocol support](https://aka.ms/oma-dm-support).
+For a complete list of status codes, see the SyncML response status codes table in [OMA DM protocol support](/windows/client-management/mdm/oma-dm-protocol-support).
 
 ## -see-also
 
 ## -examples
-
