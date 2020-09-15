@@ -33,7 +33,7 @@ The primary purpose of the items in a Resources collection is to refer to them f
 
 For more info and examples, see [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
 
-A [ResourceDictionary](resourcedictionary.md) is a keyed collection, which is based on an [IMap&lt;K,V&gt;](../windows.foundation.collections/imap_2.md) template if you are programming with Visual C++ component extensions (C++/CX), or an [IDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IDictionary`2) template if you are programming with C# or Microsoft Visual Basic. The API you use in code to work with the dictionary and its items are reflective of the underlying template and thus of the language you're using for your app.
+A [ResourceDictionary](resourcedictionary.md) is a keyed collection, which is based on an [IMap<K,V>](../windows.foundation.collections/imap_2.md) template if you are programming with Visual C++ component extensions (C++/CX), or an [IDictionary&lt;TKey,TValue&gt;](XREF:TODO:T:System.Collections.Generic.IDictionary`2) template if you are programming with C# or Microsoft Visual Basic. The API you use in code to work with the dictionary and its items are reflective of the underlying template and thus of the language you're using for your app.
 
 [Application](application.md) also has a [Resources](application_resources.md) property, which can be used to store resources that should be accessible from more than one page in the app. Resources for custom controls can also be stored in a separate XAML file that is created by the default project template of a templated control.
 

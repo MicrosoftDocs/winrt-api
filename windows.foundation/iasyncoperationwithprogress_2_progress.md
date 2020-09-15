@@ -13,7 +13,7 @@ public Windows.Foundation.AsyncOperationProgressHandler<TResult, TProgress> Prog
 Gets or sets the method that handles progress notifications.
 
 ## -property-value
-A reference to the callback method that handles progress notifications. Implement the [AsyncOperationProgressHandler&lt;TResult, TProgress&gt;](asyncoperationprogresshandler_2.md) delegate to define your callback. *TProgress* defines the progress unit type, which varies by method implementation.
+A reference to the callback method that handles progress notifications. Implement the [AsyncOperationProgressHandler<TResult, TProgress>](asyncoperationprogresshandler_2.md) delegate to define your callback. *TProgress* defines the progress unit type, which varies by method implementation.
 
 ## -remarks
 

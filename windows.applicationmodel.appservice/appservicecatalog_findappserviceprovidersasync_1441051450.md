@@ -20,7 +20,7 @@ The name of the app service to find.
 A list of [AppInfo](../windows.applicationmodel/appinfo.md)s for the app service provider(s) that are available for the specified app service name.
 
 > [!TIP]
-> In C++, the return value is [IAsyncOperation&lt;IVectorView&lt;AppInfo&gt;&gt;](../windows.foundation/iasyncoperation_1.md)
+> In C++, the return value is [IAsyncOperation<IVectorView<AppInfo>>](../windows.foundation/iasyncoperation_1.md)
 
 ## -remarks
 
