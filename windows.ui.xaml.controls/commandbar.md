@@ -49,6 +49,8 @@ The CommandBar is divided into 4 main areas:
 
 The layout is reversed when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is [RightToLeft](../windows.ui.xaml/flowdirection.md).
 
+Assigning an access key to CommandBar will place the key tip over the "More" button without changing the scope of the access keys.
+
 ### Content and commands
 
 CommandBar has 3 properties you can use to add content and commands: [Content](contentcontrol_content.md), [PrimaryCommands](commandbar_primarycommands.md), and [SecondaryCommands](commandbar_secondarycommands.md).
