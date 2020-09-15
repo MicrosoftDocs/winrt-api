@@ -12,11 +12,10 @@ public SmartCardCryptogramGetAllCryptogramMaterialCharacteristicsResult.SmartCar
 
 ## -description
 
-Creates an instance of [SmartCardCryptogramGetAllCryptogramMaterialCharacteristicsResult](../../windows.devices.smartcards/smartcardcryptogramgetallcryptogrammaterialcharacteristicsresult.md).
+Creates an instance of [SmartCardCryptogramGetAllCryptogramMaterialCharacteristicsResult](./smartcardcryptogramgetallcryptogrammaterialcharacteristicsresult.md).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

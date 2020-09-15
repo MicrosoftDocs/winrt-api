@@ -22,7 +22,7 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| Title | Gets or sets  the title for a picker flyout when it appears.<ul><li>Type: string</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.primitives.pickerflyoutbase.titleproperty">TitleProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.primitives.pickerflyoutbase.gettitle">GetTitle</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.primitives.pickerflyoutbase.settitle">SetTitle</a></li></ul>|
+| Title | Gets or sets  the title for a picker flyout when it appears.<ul><li>Type: string</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.primitives.pickerflyoutbase.titleproperty">TitleProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.primitives.pickerflyoutbase.gettitle">GetTitle</a>, <a href="/uwp/api/windows.ui.xaml.controls.primitives.pickerflyoutbase.settitle">SetTitle</a></li></ul>|
 
 ## -examples
 

@@ -21,7 +21,7 @@ This class is static and cannot be instantiated. Access its properties directly,
 
 ### Prerequisites
 
-To access the folders and libraries represented by the properties of this class, specify the corresponding capabilities in your app manifest. For example, to access **KnownFolders.PicturesLibrary**, specify the **Pictures Library** capability in the app manifest. Learn more about capabilities in [App capability declarations](https://aka.ms/appcapabilitydeclarations).
+To access the folders and libraries represented by the properties of this class, specify the corresponding capabilities in your app manifest. For example, to access **KnownFolders.PicturesLibrary**, specify the **Pictures Library** capability in the app manifest. Learn more about capabilities in [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
 
 ### Return value
 

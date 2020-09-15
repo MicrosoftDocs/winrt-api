@@ -12,11 +12,10 @@ public SmartCardCryptogramGetAllCryptogramStorageKeyCharacteristicsResult.SmartC
 
 ## -description
 
-Creates a new instance of [SmartCardCryptogramGetAllCryptogramStorageKeyCharacteristicsResult](../../windows.devices.smartcards/smartcardcryptogramgetallcryptogramstoragekeycharacteristicsresult.md).
+Creates a new instance of [SmartCardCryptogramGetAllCryptogramStorageKeyCharacteristicsResult](./smartcardcryptogramgetallcryptogramstoragekeycharacteristicsresult.md).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

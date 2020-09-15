@@ -10,7 +10,7 @@ public class GattDeviceServicesResult
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattDeviceServicesResult
 
 ## -description
-The status of [GetIncludedServicesForUuidAsync](../../windows.devices.bluetooth.genericattributeprofile/gattdeviceservice_getincludedservicesforuuidasync_744552179.md) and [GetIncludedServicesForUuidAsync](../../windows.devices.bluetooth.genericattributeprofile/gattdeviceservice_getincludedservicesforuuidasync_744552179.md)
+The status of [GetIncludedServicesForUuidAsync](./gattdeviceservice_getincludedservicesforuuidasync_744552179.md) and [GetIncludedServicesForUuidAsync](./gattdeviceservice_getincludedservicesforuuidasync_744552179.md)
 
 ## -remarks
 
