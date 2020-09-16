@@ -21,7 +21,7 @@ It's not common to use IAsyncActionWithProgress&lt;TProgress&gt; directly even i
 
 Specifically, if you want to handle progress in .NET code, use the **AsTask** signature that in an extension usage has a single [IProgress](/dotnet/api/system.iprogress-1?redirectedfrom=MSDN) reference parameter. (In this usage, the progress unit is already constrained and matches the IAsyncActionWithProgress method you're using.) Provide an object that implements [IProgress](/dotnet/api/system.iprogress-1?redirectedfrom=MSDN), and your [Report](/dotnet/api/system.iprogress-1.report?redirectedfrom=MSDN#System_IProgress_1_Report__0_) method implementation is invoked each time the Windows Runtime method reports a progress notification.
 
-To monitor the progress of the action (if not using the language-specific techniques described above), set the [Progress](iasyncactionwithprogress_1_progress.md) property, providing it the name of a method that implements the [AsyncActionProgressHandler&lt;TProgress&gt;](asyncactionprogresshandler_1.md) delegate.
+To monitor the progress of the action (if not using the language-specific techniques described above), set the [Progress](iasyncactionwithprogress_1_progress.md) property, providing it the name of a method that implements the [AsyncActionProgressHandler<TProgress>](asyncactionprogresshandler_1.md) delegate.
 
 ### Interface inheritance
 

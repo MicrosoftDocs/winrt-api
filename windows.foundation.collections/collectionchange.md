@@ -27,7 +27,7 @@ An item is changed in the collection.
 
 
 ## -remarks
-There is only one notification per type of change to a collection. For example, if an item is inserted, then only a notification for an insertion is sent to a listener that is subscribed to receive change notifications. Use the [Index](ivectorchangedeventargs_index.md) property of the [IVectorChangedEventArgs](ivectorchangedeventargs.md) interface or the [Key](imapchangedeventargs_1_key.md) property of the [IMapChangedEventArgs&lt;K&gt;](imapchangedeventargs_1.md) interface to determine the location of the change.
+There is only one notification per type of change to a collection. For example, if an item is inserted, then only a notification for an insertion is sent to a listener that is subscribed to receive change notifications. Use the [Index](ivectorchangedeventargs_index.md) property of the [IVectorChangedEventArgs](ivectorchangedeventargs.md) interface or the [Key](imapchangedeventargs_1_key.md) property of the [IMapChangedEventArgs<K>](imapchangedeventargs_1.md) interface to determine the location of the change.
 
 ## -examples
 

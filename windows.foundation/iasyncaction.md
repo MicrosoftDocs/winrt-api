@@ -13,7 +13,7 @@ public interface IAsyncAction : Windows.Foundation.IAsyncInfo
 Represents an asynchronous action. This is the return type for many Windows Runtime asynchronous methods that don't have a result object, and don't report ongoing progress.
 
 ## -remarks
-IAsyncAction is the return type for all Windows Runtime asynchronous methods that don't communicate a result object, or ongoing progress. This constitutes over 300 different Windows Runtime APIs. APIs that do report progress (but don't have a result) use another interface, [IAsyncActionWithProgress&lt;TProgress&gt;](iasyncactionwithprogress_1.md).
+IAsyncAction is the return type for all Windows Runtime asynchronous methods that don't communicate a result object, or ongoing progress. This constitutes over 300 different Windows Runtime APIs. APIs that do report progress (but don't have a result) use another interface, [IAsyncActionWithProgress<TProgress>](iasyncactionwithprogress_1.md).
 
 When you use methods that return IAsyncAction in your app code, you usually don't access the IAsyncAction return value directly. That's because you almost always use the language-specific awaitable syntax. In this case, the apparent return value of the method is **void**. For more info, see [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), or one of the language-specific guides to Windows Runtime asynchronous programming ([Call asynchronous APIs in C# or Visual Basic](/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic), [C++](/windows/uwp/threading-async/asynchronous-programming-in-cpp-universal-windows-platform-apps), [JavaScript](/previous-versions/windows/apps/hh700330(v=win.10))).
 

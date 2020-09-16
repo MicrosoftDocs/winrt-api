@@ -50,7 +50,7 @@ A UI can be dynamic, especially if you're using collections from data binding fo
 
 In the return value, you might be interested in each of the items within. So you could use **foreach** or similar language-specific techniques to iterate the collection and run your own logic on each of these elements. Remember that the first element in that collection is the one that is topmost in z-order.
 
-If you are programming using C# or Microsoft Visual Basic, the return value type of this method is projected as an [IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1) generic collection that contains [UIElement](../windows.ui.xaml/uielement.md) items. If you are programming using Visual C++ component extensions (C++/CX), the return type of this method is [IIterable&lt;UIElement&gt;](../windows.foundation.collections/iiterable_1.md).
+If you are programming using C# or Microsoft Visual Basic, the return value type of this method is projected as an [IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1) generic collection that contains [UIElement](../windows.ui.xaml/uielement.md) items. If you are programming using Visual C++ component extensions (C++/CX), the return type of this method is [IIterable<UIElement>](../windows.foundation.collections/iiterable_1.md).
 
 ## -examples
 This is an example utility method that determines whether an element of a given [Name](../windows.ui.xaml/frameworkelement_name.md) exists anywhere in the z-order at a [Point](../windows.foundation/point.md) in the UI of an app.

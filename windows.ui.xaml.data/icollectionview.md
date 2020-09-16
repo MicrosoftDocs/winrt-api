@@ -17,7 +17,7 @@ ICollectionView is an interface used to represent a collection. It serves to mai
 
 To implement custom behavior for selection currency in your data source, your data source should implement [ICollectionViewFactory](icollectionviewfactory.md) instead of implementing ICollectionView directly. You can set the [CollectionViewSource.Source](collectionviewsource_source.md) property to an [ICollectionViewFactory](icollectionviewfactory.md), but if you set it to an ICollectionView, it will throw an exception.
 
-The [CollectionGroups](icollectionview_collectiongroups.md) property is of type [IObservableVector&lt;object&gt;](../windows.foundation.collections/iobservablevector_1.md), but these objects should implement [ICollectionViewGroup](icollectionviewgroup.md).
+The [CollectionGroups](icollectionview_collectiongroups.md) property is of type [IObservableVector<object>](../windows.foundation.collections/iobservablevector_1.md), but these objects should implement [ICollectionViewGroup](icollectionviewgroup.md).
 
 ### Interface inheritance
 

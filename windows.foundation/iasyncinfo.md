@@ -10,14 +10,14 @@ public interface IAsyncInfo :
 # Windows.Foundation.IAsyncInfo
 
 ## -description
-Supports asynchronous actions and operations. IAsyncInfo is a base interface for [IAsyncAction](iasyncaction.md), [IAsyncActionWithProgress&lt;TProgress&gt;](iasyncactionwithprogress_1.md), [IAsyncOperation&lt;TResult&gt;](iasyncoperation_1.md) and [IAsyncOperationWithProgress&lt;TResult,TProgress&gt;](iasyncoperationwithprogress_2.md), each of which support combinations of return type and progress for an asynchronous method.
+Supports asynchronous actions and operations. IAsyncInfo is a base interface for [IAsyncAction](iasyncaction.md), [IAsyncActionWithProgress<TProgress>](iasyncactionwithprogress_1.md), [IAsyncOperation<TResult>](iasyncoperation_1.md) and [IAsyncOperationWithProgress<TResult,TProgress>](iasyncoperationwithprogress_2.md), each of which support combinations of return type and progress for an asynchronous method.
 
 ## -remarks
 IAsyncInfo is an inherited interface for each of the 4 Windows Runtime interfaces that are used for asynchronous method support. These are:
 + [IAsyncAction](iasyncaction.md)
-+ [IAsyncActionWithProgress&lt;TProgress&gt;](iasyncactionwithprogress_1.md)
-+ [IAsyncOperation&lt;TResult&gt;](iasyncoperation_1.md)
-+ [IAsyncOperationWithProgress&lt;TResult,TProgress&gt;](iasyncoperationwithprogress_2.md)
++ [IAsyncActionWithProgress<TProgress>](iasyncactionwithprogress_1.md)
++ [IAsyncOperation<TResult>](iasyncoperation_1.md)
++ [IAsyncOperationWithProgress<TResult,TProgress>](iasyncoperationwithprogress_2.md)
 
 
 When you use asynchronous methods in your app code, you usually don't see any of these interfaces as the return value. That's because you almost always use the language-specific awaitable syntax, which handles the interfaces internally. For more info, see [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), or one of the language-specific guides to Windows Runtime asynchronous programming ([Call asynchronous APIs in C# or Visual Basic](/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic), [C++](/windows/uwp/threading-async/asynchronous-programming-in-cpp-universal-windows-platform-apps), [JavaScript](/previous-versions/windows/apps/hh700330(v=win.10))).
