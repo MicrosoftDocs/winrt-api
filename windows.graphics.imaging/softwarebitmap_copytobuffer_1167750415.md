@@ -21,4 +21,8 @@ Use this method to copy pixel data from a [SoftwareBitmap](softwarebitmap.md) in
 
 ## -examples
 
+For a code example showing how to access pixel data, see the [WriteableBitmap.PixelBuffer](/uwp/api/windows.ui.xaml.media.imaging.writeablebitmap.pixelbuffer) property.
+
 ## -see-also
+
+[WriteableBitmap.PixelBuffer](/uwp/api/windows.ui.xaml.media.imaging.writeablebitmap.pixelbuffer)
