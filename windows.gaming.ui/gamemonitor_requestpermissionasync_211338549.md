@@ -32,8 +32,7 @@ The app must have the **protectedApp** and **gameMonitor** capabilities to call 
 
 ## -see-also
 
-* [Windows.Gaming.UI.GameMonitoringPermission](gamemonitoringpermission.md)
-* [App capability declarations](/windows/uwp/packaging/app-capability-declarations)
+[Windows.Gaming.UI.GameMonitoringPermission](gamemonitoringpermission.md), [App capability declarations](/windows/uwp/packaging/app-capability-declarations)
 
 ## -examples
 

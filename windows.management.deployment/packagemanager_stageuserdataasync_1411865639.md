@@ -28,5 +28,4 @@ An object that the caller can observe to track progress and completion for the c
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [StageUserDataAsync(String)](packagemanager_stageuserdataasync_1037604209.md)
+[Package](/uwp/api/windows.applicationmodel.package), [StageUserDataAsync(String)](packagemanager_stageuserdataasync_1037604209.md)

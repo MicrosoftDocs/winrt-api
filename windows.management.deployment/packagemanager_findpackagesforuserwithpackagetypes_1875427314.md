@@ -34,8 +34,7 @@ If the method succeeds, an enumerable collection of package objects is returned.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [FindPackagesForUserWithPackageTypes(String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1422527170.md), [FindPackagesForUserWithPackageTypes(String, String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1110730286.md)
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackagesForUserWithPackageTypes(String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1422527170.md), [FindPackagesForUserWithPackageTypes(String, String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1110730286.md)
 
 ## -capabilities
 packageQuery

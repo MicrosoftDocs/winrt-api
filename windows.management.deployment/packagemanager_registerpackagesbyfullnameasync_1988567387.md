@@ -25,4 +25,4 @@ The status of the deployment request. The [DeploymentResult](deploymentresult.md
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

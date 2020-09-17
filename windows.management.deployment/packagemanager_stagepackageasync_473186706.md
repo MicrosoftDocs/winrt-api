@@ -34,5 +34,4 @@ An object that the caller can observe to track progress and completion for the c
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [StagePackageAsync(Uri, IIterable(Uri))](packagemanager_stagepackageasync_1881962702.md), [StagePackageAsync(Uri, IIterable(Uri), DeploymentOptions)](packagemanager_stagepackageasync_1546392990.md)
+[Package](/uwp/api/windows.applicationmodel.package), [StagePackageAsync(Uri, IIterable(Uri))](packagemanager_stagepackageasync_1881962702.md), [StagePackageAsync(Uri, IIterable(Uri), DeploymentOptions)](packagemanager_stagepackageasync_1546392990.md)

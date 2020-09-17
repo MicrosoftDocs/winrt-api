@@ -21,4 +21,4 @@ Returns an asynchronous operation that completes with the package volumes.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

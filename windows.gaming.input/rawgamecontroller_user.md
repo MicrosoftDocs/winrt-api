@@ -23,6 +23,6 @@ See [Tracking users and their devices](/windows/uwp/gaming/input-practices-for-g
 
 ## -see-also
 
-* [Windows.System.User](../windows.system/user.md)
+[Windows.System.User](../windows.system/user.md)
 
 ## -examples

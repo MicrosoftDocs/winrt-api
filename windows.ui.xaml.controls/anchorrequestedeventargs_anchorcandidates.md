@@ -22,7 +22,6 @@ A list of [UIElement](../windows.ui.xaml/uielement.md) anchor candidates.
 
 ## -see-also
 
-- [IScrollAnchorProvider](iscrollanchorprovider.md)
-- [ScrollViewer.AnchorRequested](scrollviewer_anchorrequested.md)
+[IScrollAnchorProvider](iscrollanchorprovider.md), [ScrollViewer.AnchorRequested](scrollviewer_anchorrequested.md)
 
 ## -examples

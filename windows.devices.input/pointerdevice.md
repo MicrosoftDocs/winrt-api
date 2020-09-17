@@ -186,5 +186,4 @@ void SDKSample::DeviceCaps::Pointer::PointerGetSettings_Click(Platform::Object^ 
 
 ## -see-also
 
-- [Windows.Devices.Input](windows_devices_input.md)
-- [Quickstart: Identifying input devices](/windows/uwp/design/input/identify-input-devices)
+[Windows.Devices.Input](windows_devices_input.md), [Quickstart: Identifying input devices](/windows/uwp/design/input/identify-input-devices)

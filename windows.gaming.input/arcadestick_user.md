@@ -23,4 +23,4 @@ The user associated with the arcade stick.
 
 ## -see-also
 
-* [Windows.System.User](../windows.system/user.md)
+[Windows.System.User](../windows.system/user.md)

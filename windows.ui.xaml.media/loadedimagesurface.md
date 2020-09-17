@@ -50,7 +50,8 @@ when the surface has been populated. During the loading process, the surface wil
 > than the 'introduced version' shown in the Requirements block later in this page, you cannot use this class.
 
 ## -see-also
-* [ICompositionSurface](../windows.ui.composition/icompositionsurface.md)
+
+[ICompositionSurface](../windows.ui.composition/icompositionsurface.md)
 
 ## -examples
 This example shows how to load an image from a local URI onto a surface and use it in a [CompositionSurfaceBrush](../windows.ui.composition/compositionsurfacebrush.md).

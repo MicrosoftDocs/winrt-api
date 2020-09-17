@@ -15,4 +15,4 @@ The list of all installed packages on the device.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

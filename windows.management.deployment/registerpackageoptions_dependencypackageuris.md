@@ -15,8 +15,7 @@ The list of URIs of the dependency packages to add.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [RegisterPackageOptions][registerpackageoptions.md]
+[Package](/uwp/api/windows.applicationmodel.package), [RegisterPackageOptions][registerpackageoptions.md]
 
 ## -examples
 

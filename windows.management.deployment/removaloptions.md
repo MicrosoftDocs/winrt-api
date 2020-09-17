@@ -37,4 +37,5 @@ Removes a package for all users on the device.
 ## -examples
 
 ## -see-also
-[PackageManager::RemovePackageAsync(String, RemovalOptions)](packagemanager_removepackageasync_1331217245.md)
+
+[PackageManager.RemovePackageAsync(String, RemovalOptions)](packagemanager_removepackageasync_1331217245.md)

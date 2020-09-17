@@ -36,18 +36,7 @@ Use [SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md) to get the 
 Use [Windows.Globalization.Language.IsWellFormed](/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_) to validate *speechLanguage*.
 
 ## -see-also
-- [SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md)
-- [Windows.Globalization.Language.IsWellFormed](/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_)
 
-### How-to's
-- [Embedded mode](/windows/iot-core/develop-your-app/EmbeddedMode)
-- [App capability declarations](/windows/uwp/packaging/app-capability-declarations)
-- [Set speech recognition timeouts](/windows/uwp/input-and-devices/set-speech-recognition-timeouts)
-- [Speech interactions](/windows/uwp/input-and-devices/speech-interactions)
-- [Speech design guidelines](/windows/uwp/input-and-devices/speech-interactions)
-
-
-### Samples
-- [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)
+[SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md), [Windows.Globalization.Language.IsWellFormed](/uwp/api/windows.globalization.language.iswellformed), [Embedded mode](/windows/iot-core/develop-your-app/EmbeddedMode), [App capability declarations](/windows/uwp/packaging/app-capability-declarations), [Set speech recognition timeouts](/windows/uwp/input-and-devices/set-speech-recognition-timeouts), [Speech interactions](/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)
 
 ## -examples

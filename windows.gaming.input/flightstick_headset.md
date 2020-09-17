@@ -23,6 +23,6 @@ See [Headset](/windows/uwp/gaming/headset) for information about programming for
 
 ## -see-also
 
-* [Windows.Gaming.Input.Headset](headset.md)
+[Windows.Gaming.Input.Headset](headset.md)
 
 ## -examples

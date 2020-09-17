@@ -24,15 +24,7 @@ This value is optional. When used it can enable a performance optimization for i
 
 ## -see-also
 
-* [IElementFactory](ielementfactory.md)
-* DataTemplate
-  * [GetElement](datatemplate_getelement_92222689.md)
-  * [RecycleElement](datatemplate_recycleelement_1023702976.md)
-* DataTemplateSelector
-  * [GetElement](../windows.ui.xaml.controls/datatemplateselector_getelement_92222689.md)
-  * [RecycleElement](../windows.ui.xaml.controls/datatemplateselector_recycleelement_1023702976.md)
-* [ElementFactoryGetArgs](elementfactorygetargs.md)
-* [ElementFactoryRecycleArgs](elementfactoryrecycleargs.md)
+[IElementFactory](ielementfactory.md), [DataTemplate.GetElement](/uwp/api/windows.ui.xaml.datatemplate.getelement), [DataTemplate.RecycleElement](/uwp/api/windows.ui.xaml.datatemplate.recycleelement), [DataTemplateSelector.GetElement](/uwp/api/windows.ui.xaml.controls.datatemplateselector.getelement), [DataTemplateSelector.RecycleElement](/uwp/api/windows.ui.xaml.controls.datatemplateselector.recycleelement), [ElementFactoryGetArgs](elementfactorygetargs.md), [ElementFactoryRecycleArgs](elementfactoryrecycleargs.md)
 
 ## -examples
 

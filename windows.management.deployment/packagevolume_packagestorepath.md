@@ -21,4 +21,4 @@ The absolute path for the package store on the volume.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

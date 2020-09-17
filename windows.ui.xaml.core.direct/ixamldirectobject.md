@@ -21,8 +21,7 @@ IXamlDirectObject is the minimal handle to Xaml's internal object instances. It 
 
 ## -see-also
 
-* [Windows.UI.Xaml.Core.Direct namespace](windows_ui_xaml_core_direct.md)
-* [XamlDirect class](xamldirect.md)
+[Windows.UI.Xaml.Core.Direct namespace](windows_ui_xaml_core_direct.md), [XamlDirect class](xamldirect.md)
 
 ## -examples
 

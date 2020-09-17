@@ -25,8 +25,7 @@ The [GetElement](ielementfactory_getelement_92222689.md) method is used to retri
 
 ## -see-also
 
-* [DataTemplate](datatemplate.md)
-* [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md)
+[DataTemplate](datatemplate.md), [DataTemplateSelector](../windows.ui.xaml.controls/datatemplateselector.md)
 
 ## -examples
 

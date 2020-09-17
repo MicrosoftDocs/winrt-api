@@ -34,7 +34,7 @@ RegisterPackageByFullNameAsync can't install a package for any user other than t
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

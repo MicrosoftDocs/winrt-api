@@ -185,5 +185,4 @@ int __cdecl main(Platform::Array<String^>^ args)
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [RemovePackageAsync(String, RemovalOptions)](packagemanager_removepackageasync_1331217245.md)
+[Package](/uwp/api/windows.applicationmodel.package), [RemovePackageAsync(String, RemovalOptions)](packagemanager_removepackageasync_1331217245.md)

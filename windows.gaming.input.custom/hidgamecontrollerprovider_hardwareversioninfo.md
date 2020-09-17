@@ -21,7 +21,7 @@ Contains information on the hardware version of the controller.
 
 ## -see-also
 
-* [GameControllerVersionInfo](gamecontrollerversioninfo.md)
+[GameControllerVersionInfo](gamecontrollerversioninfo.md)
 
 ## -examples
 

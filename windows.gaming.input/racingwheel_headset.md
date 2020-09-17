@@ -21,4 +21,4 @@ The audio headset attached to the racing wheel.
 
 ## -see-also
 
-* [Windows.Gaming.Input.Headset](headset.md)
+[Windows.Gaming.Input.Headset](headset.md)

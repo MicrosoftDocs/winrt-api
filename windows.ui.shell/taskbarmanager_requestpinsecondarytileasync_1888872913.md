@@ -33,7 +33,6 @@ This API can only be used with user approval, as described [here](/en-us/windows
 
 ## -see-also
 
-* [Pin your app to the taskbar](/windows/uwp/design/shell/pin-to-taskbar)
-* [Pin secondary tiles to taskbar](/windows/uwp/design/shell/tiles-and-notifications/secondary-tiles-pin-to-taskbar)
+[Pin your app to the taskbar](/windows/uwp/design/shell/pin-to-taskbar), [Pin secondary tiles to taskbar](/windows/uwp/design/shell/tiles-and-notifications/secondary-tiles-pin-to-taskbar)
 
 ## -examples

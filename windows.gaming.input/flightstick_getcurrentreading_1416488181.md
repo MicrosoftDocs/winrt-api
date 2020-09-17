@@ -24,7 +24,7 @@ To gather input from a flight stick, you must *poll* the flight stick using this
 
 ## -see-also
 
-* [Windows.Gaming.Input.FlightStickReading](flightstickreading.md)
+[Windows.Gaming.Input.FlightStickReading](flightstickreading.md)
 
 ## -examples
 

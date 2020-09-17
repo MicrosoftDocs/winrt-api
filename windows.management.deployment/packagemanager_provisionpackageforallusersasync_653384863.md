@@ -30,7 +30,7 @@ If the package is already provisioned, this perform a "clean" reprovision. A "cl
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -examples
 This example demonstrates adding a staged or existing registered package for all users on a device.

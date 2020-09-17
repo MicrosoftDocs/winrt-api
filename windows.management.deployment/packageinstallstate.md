@@ -38,6 +38,4 @@ The installation of the package has been paused.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [Packaging apps](/windows/uwp/packaging/index)
-- [PackageUserInformation.InstallState](packageuserinformation_installstate.md)
+[Package](/uwp/api/windows.applicationmodel.package), [Packaging apps](/windows/uwp/packaging/index), [PackageUserInformation.InstallState](/uwp/api/windows.management.deployment.packageuserinformation.installstate)

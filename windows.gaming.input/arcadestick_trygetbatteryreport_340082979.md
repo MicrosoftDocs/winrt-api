@@ -21,6 +21,6 @@ Information about the arcade stick's current battery state.
 
 ## -see-also
 
-* [Windows.Devices.Power.BatteryReport](../windows.devices.power/batteryreport.md)
+[Windows.Devices.Power.BatteryReport](../windows.devices.power/batteryreport.md)
 
 ## -examples

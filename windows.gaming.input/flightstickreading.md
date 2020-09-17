@@ -57,8 +57,6 @@ For information about how to process the information provided in this structure,
 
 ## -see-also
 
-* [Windows.Gaming.Input.FlightStickButtons](flightstickbuttons.md)
-* [Windows.Gaming.Input.GameControllerSwitchPosition](gamecontrollerswitchposition.md)
-* [Windows.Gaming.Input.FlightStick](flightstick.md)
+[Windows.Gaming.Input.FlightStickButtons](flightstickbuttons.md), [Windows.Gaming.Input.GameControllerSwitchPosition](gamecontrollerswitchposition.md), [Windows.Gaming.Input.FlightStick](flightstick.md)
 
 ## -examples

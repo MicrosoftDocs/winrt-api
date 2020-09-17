@@ -24,8 +24,7 @@ An async operation with the current [DeploymentProgress](deploymentprogress.md) 
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [PackageManager::RemovePackageAsync(String, RemovalOptions)](packagemanager_removepackageasync_1331217245.md)
+[Package](/uwp/api/windows.applicationmodel.package), [PackageManager.RemovePackageAsync(String, RemovalOptions)](packagemanager_removepackageasync_1331217245.md)
 
 ## -examples
 

@@ -21,4 +21,4 @@ The current state of the racing wheel.
 
 ## -see-also
 
-* [Windows.Gaming.Input.RacingWheelReading](racingwheelreading.md)
+[Windows.Gaming.Input.RacingWheelReading](racingwheelreading.md)

@@ -21,7 +21,7 @@ The default package volume, which is the target of deployment operations such as
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

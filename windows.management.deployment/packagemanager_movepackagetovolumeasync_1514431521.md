@@ -32,7 +32,7 @@ This method lets the caller move a package from one logical volume to another.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

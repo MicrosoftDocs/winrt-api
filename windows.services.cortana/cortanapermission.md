@@ -75,10 +75,6 @@ The [CortanaPermissionManager](cortanapermissionsmanager.md) class requires the 
 
 ## -see-also
 
-- [CortanaPermissionsChangeResult](cortanapermissionschangeresult.md)
-- [CortanaPermissionManager](cortanapermissionsmanager.md)
-- [CortanaPermissionsManager.ArePermissionsGrantedAsync](cortanapermissionsmanager_arepermissionsgrantedasync_1821808521.md)
-- [CortanaPermissionsManager.GrantPermissionsAsync](cortanapermissionsmanager_grantpermissionsasync_1382961431.md)
-- [CortanaPermissionsManager.RevokePermissionsAsync](cortanapermissionsmanager_revokepermissionsasync_517405145.md)
+[CortanaPermissionsChangeResult](cortanapermissionschangeresult.md), [CortanaPermissionManager](cortanapermissionsmanager.md), [CortanaPermissionsManager.ArePermissionsGrantedAsync](cortanapermissionsmanager_arepermissionsgrantedasync_1821808521.md), [CortanaPermissionsManager.GrantPermissionsAsync](cortanapermissionsmanager_grantpermissionsasync_1382961431.md), [CortanaPermissionsManager.RevokePermissionsAsync](cortanapermissionsmanager_revokepermissionsasync_517405145.md)
 
 ## -examples

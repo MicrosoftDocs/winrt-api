@@ -24,8 +24,6 @@ For more info, see the remarks for the [IScrollAnchorProvider](../windows.ui.xam
 
 ## -see-also
 
-- [IScrollAnchorProvider](../windows.ui.xaml.controls/iscrollanchorprovider.md)
-- [IScrollAnchorProvider.RegisterAnchorCandidate](../windows.ui.xaml.controls/iscrollanchorprovider_registeranchorcandidate_178281111.md)
-- [IScrollAnchorProvider.UnregisterAnchorCandidate](../windows.ui.xaml.controls/iscrollanchorprovider_unregisteranchorcandidate_667335027.md)
+[IScrollAnchorProvider](../windows.ui.xaml.controls/iscrollanchorprovider.md), [IScrollAnchorProvider.RegisterAnchorCandidate](../windows.ui.xaml.controls/iscrollanchorprovider_registeranchorcandidate_178281111.md), [IScrollAnchorProvider.UnregisterAnchorCandidate](../windows.ui.xaml.controls/iscrollanchorprovider_unregisteranchorcandidate_667335027.md)
 
 ## -examples

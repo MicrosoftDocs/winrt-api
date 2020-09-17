@@ -30,7 +30,7 @@ This method checks if the provided game controller has a gamepad implementation,
 
 ## -see-also
 
-* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+[Windows.Gaming.Input.IGameController](igamecontroller.md)
 
 ## -examples
 

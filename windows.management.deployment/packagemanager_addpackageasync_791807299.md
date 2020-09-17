@@ -41,4 +41,4 @@ The DeploymentProgress percentage of completion over the entire course of the de
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

@@ -765,7 +765,5 @@ The [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) type.
 The [ThemeShadow](../windows.ui.xaml.media/ThemeShadow.md) type.
 
 ## -see-also
-* [XamlDirect](xamldirect.md)
-* [IXamlDirectObject](ixamldirectobject.md)
-* [XamlPropertyIndex](xamlpropertyindex.md)
-* [XamlEventIndex](xamleventindex.md)
+
+[XamlDirect](xamldirect.md), [IXamlDirectObject](ixamldirectobject.md), [XamlPropertyIndex](xamlpropertyindex.md), [XamlEventIndex](xamleventindex.md)

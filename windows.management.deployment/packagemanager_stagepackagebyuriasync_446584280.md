@@ -31,5 +31,4 @@ This method simplifies the existing [StagePackageAsync](/uwp/api/windows.managem
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [StagePackageOptions](stagepackageoptions.md)
+[Package](/uwp/api/windows.applicationmodel.package), [StagePackageOptions](stagepackageoptions.md)

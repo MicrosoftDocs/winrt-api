@@ -32,13 +32,7 @@ The **DataTemplate**'s implementation of GetElement does not use the [Data](elem
 
 ## -see-also
 
-* [IElementFactory](ielementfactory.md)
-* DataTemplate
-  * GetElement
-  * [RecycleElement](datatemplate_recycleelement_1023702976.md)
-* DataTemplateSelector
-  * [GetElement](../windows.ui.xaml.controls/datatemplateselector_getelement_92222689.md)
-  * [RecycleElement](../windows.ui.xaml.controls/datatemplateselector_recycleelement_1023702976.md)
+[IElementFactory](ielementfactory.md), [DataTemplate.RecycleElement](/uwp/api/windows.ui.xaml.datatemplate.recycleelement), [DataTemplateSelector.GetElement](/uwp/api/windows.ui.xaml.controls.datatemplateselector.getelement), [DataTemplateSelector.RecycleElement](/uwp/api/windows.ui.xaml.controls.datatemplateselector.recycleelement)
 
 ## -examples
 

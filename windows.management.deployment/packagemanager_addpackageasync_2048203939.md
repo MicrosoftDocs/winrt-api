@@ -34,8 +34,7 @@ The status of the deployment request. The [DeploymentResult](deploymentresult.md
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [Add app package sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Add%20app%20package%20sample), [AddPackageAsync(Uri, IIterable(Uri), DeploymentOptions)](packagemanager_addpackageasync_973949101.md)
+[Package](/uwp/api/windows.applicationmodel.package), [Add app package sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Add%20app%20package%20sample), [AddPackageAsync(Uri, IIterable(Uri), DeploymentOptions)](packagemanager_addpackageasync_973949101.md)
 
 ## -capabilities
 packageManagement

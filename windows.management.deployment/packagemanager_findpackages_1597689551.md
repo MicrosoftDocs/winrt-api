@@ -29,8 +29,7 @@ This method requires administrative privileges.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [Enumerate app packages by name and publisher sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher), [FindPackages()](packagemanager_findpackages_1246181969.md), [FindPackages(String)](packagemanager_findpackages_331793265.md)
+[Package](/uwp/api/windows.applicationmodel.package), [Enumerate app packages by name and publisher sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher), [FindPackages](packagemanager_findpackages_1246181969.md), [FindPackages(String)](packagemanager_findpackages_331793265.md)
 
 ## -capabilities
 packageQuery

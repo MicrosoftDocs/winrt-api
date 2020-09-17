@@ -42,4 +42,4 @@ The state of the required content group (which is specified by PackageContentGro
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

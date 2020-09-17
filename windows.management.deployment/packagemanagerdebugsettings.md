@@ -16,4 +16,4 @@ Settings for debugging app [Packages](/uwp/api/windows.applicationmodel.package)
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

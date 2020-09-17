@@ -24,8 +24,7 @@ The element must be a descendent of the scrolling control.
 
 ## -see-also
 
-* [IScrollAnchorProvider](iscrollanchorprovider.md)
-* [ScrollViewer.AnchorRequested](scrollviewer_anchorrequested.md)
+[IScrollAnchorProvider](iscrollanchorprovider.md), [ScrollViewer.AnchorRequested](scrollviewer_anchorrequested.md)
 
 ## -examples
 

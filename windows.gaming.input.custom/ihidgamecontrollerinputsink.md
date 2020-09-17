@@ -19,7 +19,7 @@ This interface must be implemented by a HID custom controller class to receive i
 
 ## -see-also
 
-* [Windows.Gaming.Input.Custom.IGameControllerInputSink](igamecontrollerinputsink.md)
+[Windows.Gaming.Input.Custom.IGameControllerInputSink](igamecontrollerinputsink.md)
 
 ## -examples
 

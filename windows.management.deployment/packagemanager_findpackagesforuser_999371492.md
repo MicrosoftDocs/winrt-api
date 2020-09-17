@@ -26,8 +26,7 @@ This method and its overloads require administrative privileges if the user secu
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [Enumerate app packages by user SID sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByUserSecurityId), [FindPackagesForUser(String, String)](packagemanager_findpackagesforuser_2003648348.md), [FindPackagesForUser(String, String, String)](packagemanager_findpackagesforuser_292215772.md)
+[Package](/uwp/api/windows.applicationmodel.package), [Enumerate app packages by user SID sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByUserSecurityId), [FindPackagesForUser(String, String)](packagemanager_findpackagesforuser_2003648348.md), [FindPackagesForUser(String, String, String)](packagemanager_findpackagesforuser_292215772.md)
 
 ## -capabilities
 packageQuery

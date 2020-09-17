@@ -22,5 +22,4 @@ The app package currently prefers to run as a stub app.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [GetPackageStubPreference](packagemanager_getpackagestubpreference_1409668630.md),[SetPackageStubPreference](packagemanager_setpackagestubpreference_5665446.md)
+[Package](/uwp/api/windows.applicationmodel.package), [GetPackageStubPreference](packagemanager_getpackagestubpreference_1409668630.md), [SetPackageStubPreference](packagemanager_setpackagestubpreference_5665446.md)

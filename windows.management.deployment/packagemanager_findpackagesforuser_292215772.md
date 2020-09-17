@@ -31,8 +31,7 @@ If the method succeeds, an enumerable collection of package objects is returned.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [FindPackagesForUser(String)](packagemanager_findpackagesforuser_999371492.md), [FindPackagesForUser(String, String)](packagemanager_findpackagesforuser_2003648348.md)
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackagesForUser(String)](packagemanager_findpackagesforuser_999371492.md), [FindPackagesForUser(String, String)](packagemanager_findpackagesforuser_2003648348.md)
 
 ## -capabilities
 packageQuery

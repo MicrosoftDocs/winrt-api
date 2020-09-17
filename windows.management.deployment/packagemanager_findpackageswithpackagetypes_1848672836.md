@@ -28,8 +28,7 @@ If the method succeeds, an enumerable collection of package objects with the sam
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [FindPackagesWithPackageTypes(PackageTypes)](packagemanager_findpackageswithpackagetypes_447761356.md), [FindPackagesWithPackageTypes(String, String, PackageTypes)](packagemanager_findpackageswithpackagetypes_2026827436.md)
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackagesWithPackageTypes(PackageTypes)](packagemanager_findpackageswithpackagetypes_447761356.md), [FindPackagesWithPackageTypes(String, String, PackageTypes)](packagemanager_findpackageswithpackagetypes_2026827436.md)
 
 ## -capabilities
 packageQuery

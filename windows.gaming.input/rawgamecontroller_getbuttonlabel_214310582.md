@@ -22,7 +22,7 @@ The button for which to retrieve the label.
 
 ## -returns
 
-The label for the specified button. If the button label is blank or there is no known label for the controller’s button, then **None** is returned.
+The label for the specified button. If the button label is blank or there is no known label for the controller's button, then **None** is returned.
 
 ## -remarks
 
@@ -32,7 +32,7 @@ You can create your own buttons array and then populate it with values represent
 
 ## -see-also
 
-* [Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md)
+[Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md)
 
 ## -examples
 

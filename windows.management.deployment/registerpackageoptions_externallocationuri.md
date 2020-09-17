@@ -21,8 +21,7 @@ In most cases, we recommend that you use the [ExternalLocationUri](addpackageopt
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [RegisterPackageOptions](registerpackageoptions.md)
+[Package](/uwp/api/windows.applicationmodel.package), [RegisterPackageOptions](registerpackageoptions.md)
 
 ## -examples
 

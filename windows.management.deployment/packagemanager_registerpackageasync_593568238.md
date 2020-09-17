@@ -31,5 +31,4 @@ An object that the caller can observe to track progress and completion for the c
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [RegisterPackageAsync(Uri, IIterable(Uri), DeploymentOptions, PackageVolume)](packagemanager_registerpackageasync_1668904418.md)
+[Package](/uwp/api/windows.applicationmodel.package), [RegisterPackageAsync(Uri, IIterable(Uri), DeploymentOptions, PackageVolume)](packagemanager_registerpackageasync_1668904418.md)

@@ -35,10 +35,8 @@ AddEventHandler can only be used to add event handlers for the events supported 
 See [UIElement.AddHandler](../windows.ui.xaml/uielement_addhandler_2121467075.md) for when to use _handledEventsToo_ and the restrictions around the same. For non-routed events, the _handleEventsToo_ flag is completely ignored.
 
 ## -see-also
-* [XamlDirect.AddEventHandler](xamldirect_addeventhandler_950477410.md)
-* [XamlDirect.RemoveEventHandler](xamldirect_removeeventhandler_2027037099.md)
-* [UIElement.AddHandler](../windows.ui.xaml/uielement_addhandler_2121467075.md)
-* [UIElement.RemoveHandler](../windows.ui.xaml/uielement_removehandler_661998757.md)
+
+[XamlDirect.AddEventHandler](xamldirect_addeventhandler_950477410.md), [XamlDirect.RemoveEventHandler](xamldirect_removeeventhandler_2027037099.md), [UIElement.AddHandler](../windows.ui.xaml/uielement_addhandler_2121467075.md), [UIElement.RemoveHandler](../windows.ui.xaml/uielement_removehandler_661998757.md)
 
 ## -examples
 The following example shows how to add/modify the [PointerEntered](../windows.ui.xaml/uielement_pointerentered.md) event through a specific instance of [PointerEventHandler](../windows.ui.xaml.input/pointereventhandler.md) on a [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) control from its [IXamlDirectObject](ixamldirectobject.md) instance.

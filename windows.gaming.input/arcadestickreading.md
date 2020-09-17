@@ -31,5 +31,4 @@ The state of the arcade stick's buttons.
 
 ## -see-also
 
-* [Windows.Gaming.Input.ArcadeStickButtons](arcadestickbuttons.md)
-* [Windows.Gaming.Input.ArcadeStick](arcadestick.md)
+[Windows.Gaming.Input.ArcadeStickButtons](arcadestickbuttons.md), [Windows.Gaming.Input.ArcadeStick](arcadestick.md)

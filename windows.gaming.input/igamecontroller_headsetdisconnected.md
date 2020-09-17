@@ -18,4 +18,4 @@ Signals when a headset is disconnected from the controller.
 
 ## -see-also
 
-* [Windows.Gaming.Input.Headset](headset.md)
+[Windows.Gaming.Input.Headset](headset.md)

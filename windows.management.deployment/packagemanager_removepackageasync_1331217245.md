@@ -28,5 +28,4 @@ A pointer that receives the address of an object that implements the [IAsyncOper
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [RemovePackageAsync(String)](packagemanager_removepackageasync_1124236459.md)
+[Package](/uwp/api/windows.applicationmodel.package), [RemovePackageAsync(String)](packagemanager_removepackageasync_1124236459.md)

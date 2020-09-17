@@ -124,8 +124,6 @@ private void Item_EffectiveViewportChanged(FrameworkElement sender, EffectiveVie
 
 ## -see-also
 
-- [UIElement.RegisterAsScrollPort](uielement_registerasscrollport_591917999.md)
-- FrameworkElement.EffectiveViewportChanged
-- [FrameworkElement.InvalidateViewport](frameworkelement_invalidateviewport_528063221.md)
+[UIElement.RegisterAsScrollPort](/uwp/api/windows.ui.xaml.uielement.registerasscrollport), [FrameworkElement.InvalidateViewport](/uwp/api/windows.ui.xaml.frameworkelement.invalidateviewport)
 
 ## -examples

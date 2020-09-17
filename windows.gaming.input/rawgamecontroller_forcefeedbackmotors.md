@@ -21,6 +21,6 @@ The list of force feedback motors in the raw game controller.
 
 ## -see-also
 
-* [Windows.Gaming.Input.ForceFeedback.ForceFeedbackMotor](../windows.gaming.input.forcefeedback/forcefeedbackmotor.md)
+[Windows.Gaming.Input.ForceFeedback.ForceFeedbackMotor](../windows.gaming.input.forcefeedback/forcefeedbackmotor.md)
 
 ## -examples

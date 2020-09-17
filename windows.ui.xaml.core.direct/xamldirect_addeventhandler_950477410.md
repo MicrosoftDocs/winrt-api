@@ -27,8 +27,8 @@ A reference to the specified handler implementation.
 AddEventHandler can only be used to add event handlers for the events supported by the [XamlEventIndex](xamleventindex.md) enumeration. You can use this method to add handlers to routed as well non-routed events supported by the xaml object.
 
 ## -see-also
-* [XamlDirect.AddEventHandler](xamldirect_addeventhandler_1323041406.md)
-* [XamlDirect.RemoveEventHandler](xamldirect_removeeventhandler_2027037099.md)
+
+[XamlDirect.AddEventHandler](xamldirect_addeventhandler_1323041406.md), [XamlDirect.RemoveEventHandler](xamldirect_removeeventhandler_2027037099.md)
 
 ## -examples
 The following example shows how to add/modify the [PointerEntered](../windows.ui.xaml/uielement_pointerentered.md) event through a specific instance of [PointerEventHandler](../windows.ui.xaml.input/pointereventhandler.md) on a [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) control from its [IXamlDirectObject](ixamldirectobject.md) instance.

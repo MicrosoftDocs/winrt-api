@@ -36,4 +36,4 @@ Returns an IAsyncAction that completes when the state has changed.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

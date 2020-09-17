@@ -28,10 +28,5 @@ Also, you can create your own custom audio effects by creating a Windows Runtime
 
 
 ## -see-also
-[Custom audio effects](/windows/uwp/audio-video-camera/custom-audio-effects)
-[IAudioEffectDefinition](../windows.media.effects/iaudioeffectdefinition.md)
-[EchoEffectDefinition](echoeffectdefinition.md)
-[EqualizerEffectDefinition](equalizereffectdefinition.md)
-[LimiterEffectDefinition](limitereffectdefinition.md)
-[ReverbEffectDefinition](reverbeffectdefinition.md)
-[IBasicAudioEffect](../windows.media.effects/ibasicaudioeffect.md)
+
+[Custom audio effects](/windows/uwp/audio-video-camera/custom-audio-effects), [IAudioEffectDefinition](../windows.media.effects/iaudioeffectdefinition.md), [EchoEffectDefinition](echoeffectdefinition.md), [EqualizerEffectDefinition](equalizereffectdefinition.md), [LimiterEffectDefinition](limitereffectdefinition.md), [ReverbEffectDefinition](reverbeffectdefinition.md), [IBasicAudioEffect](../windows.media.effects/ibasicaudioeffect.md)

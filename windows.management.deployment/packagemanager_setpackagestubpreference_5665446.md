@@ -24,8 +24,7 @@ A value that indicates whether the specified app package currently prefers to ru
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [GetPackageStubPreference](packagemanager_getpackagestubpreference_1409668630.md)
+[Package](/uwp/api/windows.applicationmodel.package), [GetPackageStubPreference](packagemanager_getpackagestubpreference_1409668630.md)
 
 ## -examples
 

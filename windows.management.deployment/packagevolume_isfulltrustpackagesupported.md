@@ -21,4 +21,4 @@ A boolean that indicates if full-trust packages are supported.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

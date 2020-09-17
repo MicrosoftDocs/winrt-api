@@ -26,8 +26,7 @@ When an element's [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollan
 
 ## -see-also
 
-* [RegisterAnchorCandidate](iscrollanchorprovider_registeranchorcandidate_178281111.md)
-* [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md)
+[RegisterAnchorCandidate](iscrollanchorprovider_registeranchorcandidate_178281111.md), [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md)
 
 ## -examples
 

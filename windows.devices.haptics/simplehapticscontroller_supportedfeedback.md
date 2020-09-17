@@ -18,7 +18,8 @@ The collection of feedback types supported, including behavior such as duration.
 ## -remarks
 
 ## -see-also
-* [SimpleHapticsControllerFeedback](simplehapticscontrollerfeedback.md)
+
+[SimpleHapticsControllerFeedback](simplehapticscontrollerfeedback.md)
 
 ## -examples
 

@@ -26,7 +26,7 @@ This method requires administrative privileges. The returned package may be inst
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageQuery
