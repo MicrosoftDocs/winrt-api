@@ -5,15 +5,15 @@
 
 <!-- Enumeration syntax.
 public enum InkAnalysisNodeKind : int {
-	InkBullet = 6
-	InkDrawing = 7
-	InkWord = 5
-	Line = 4
-	ListItem = 8
-	Paragraph = 3
-	Root = 1
-	UnclassifiedInk = 0
-	WritingRegion = 2
+    InkBullet = 6
+    InkDrawing = 7
+    InkWord = 5
+    Line = 4
+    ListItem = 8
+    Paragraph = 3
+    Root = 1
+    UnclassifiedInk = 0
+    WritingRegion = 2
 }
 -->
 
@@ -54,7 +54,8 @@ Node is for a list item bullet.
 ## -remarks
 
 ## -see-also
-- [InkAnalysisNode.Kind](inkanalysisnode_kind.md)
+
+[InkAnalysisNode.Kind](inkanalysisnode_kind.md)
 
 ## -examples
 

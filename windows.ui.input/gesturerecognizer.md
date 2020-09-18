@@ -227,23 +227,6 @@ class ManipulationInputProcessor
 }
 ```
 
-## -see-also
-
-### Reference
-
-- [Windows.UI.Input Classes](windows_ui_input_classes.md)
-- [Windows.Devices.Input](../windows.devices.input/windows_devices_input.md)
-- [Windows.UI.Core](../windows.ui.core/windows_ui_core.md)
-- [Windows.UI.Input](windows_ui_input.md)
-- [Windows.UI.Input.Inking](../windows.ui.input.inking/windows_ui_input_inking.md)
-- [Windows.UI.Xaml.Input](../windows.ui.xaml.input/windows_ui_xaml_input.md)
-
-### Conceptual
-
-- [Custom user interactions](/windows/uwp/design/layout/index)
-- [UX guidelines for custom user interactions](/windows/uwp/design/layout/index)
-- [Touch design guidelines](/windows/uwp/input-and-devices/guidelines-for-user-interaction)
-
 ### Samples
 
 - [User interaction mode sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UserInteractionMode)
@@ -258,3 +241,7 @@ class ManipulationInputProcessor
 - [Input: XAML user input events sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)
 - [XAML scrolling, panning, and zooming sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Universal%20Windows%20app%20samples/111487-Universal%20Windows%20app%20samples/XAML%20scrolling%2C%20panning%2C%20and%20zooming%20sample)
 - [DirectX touch input sample](/en-us/samples/microsoft/windows-universal-samples/simple3dgamedx/)
+
+## -see-also
+
+[Windows.UI.Input Classes](windows_ui_input_classes.md), [Windows.Devices.Input](../windows.devices.input/windows_devices_input.md), [Windows.UI.Core](../windows.ui.core/windows_ui_core.md), [Windows.UI.Input](windows_ui_input.md), [Windows.UI.Input.Inking](../windows.ui.input.inking/windows_ui_input_inking.md), [Windows.UI.Xaml.Input](../windows.ui.xaml.input/windows_ui_xaml_input.md), [Custom user interactions](/windows/uwp/design/layout/index), [UX guidelines for custom user interactions](/windows/uwp/design/layout/index), [Touch design guidelines](/windows/uwp/input-and-devices/guidelines-for-user-interaction)

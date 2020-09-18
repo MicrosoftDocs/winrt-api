@@ -24,5 +24,6 @@ We recommend creating an app controller in the [Loaded](/uwp/api/windows.ui.xaml
 ## -examples
 
 ## -see-also
-- [AppController](radialcontrollerconfiguration_appcontroller.md)
+
+[AppController](radialcontrollerconfiguration_appcontroller.md)
 
