@@ -24,6 +24,8 @@ The scheduled toast notification, which includes its content and timing instruct
 This method passes the toast notification to the schedule but doesn't specify the time the toast should display. That information is included in the [ScheduledToastNotification](scheduledtoastnotification.md).
 
 If your call to this method returns a failure code, examine these possible causes: 
+
+* **Exception**: `System.Exception: 'Not enough quota is available to process this command. (Exception from HRESULT: 0x80070718)'`
 + **Possible cause**: You've exceeded the maximum allowed number of scheduled notifications.
 
 **Fix**: ToastNotifier.addToSchedule will fail if you attempt to schedule more than 4096 notifications. Reduce your number of scheduled notifications.
