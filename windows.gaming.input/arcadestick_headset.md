@@ -23,4 +23,4 @@ The audio headset attached to the arcade stick.
 
 ## -see-also
 
-* [Windows.Gaming.Input.Headset](headset.md)
+[Windows.Gaming.Input.Headset](headset.md)

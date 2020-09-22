@@ -22,5 +22,5 @@ Call this method in the [OnProcessKeyboardAccelerators](flyoutbase_onprocesskeyb
 ## -examples
 
 ## -see-also
-- [ProcessKeyboardAccelerators](uielement_processkeyboardaccelerators.md)
 
+[ProcessKeyboardAccelerators](uielement_processkeyboardaccelerators.md)

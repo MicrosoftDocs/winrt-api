@@ -65,9 +65,6 @@ The ScrollViewer treats the values of 0.0 and 1.0 for the [HorizontalAnchorRatio
 
 ## -see-also
 
-- ScrollViewer.[AnchorRequested](scrollviewer_anchorrequested.md)
-- [UIElement.CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md)
-- [UIElement.BringIntoViewRequested](../windows.ui.xaml/uielement_bringintoviewrequested.md)
-- [UIElement.RegisterAsScrollPort](../windows.ui.xaml/uielement_registerasscrollport_591917999.md)
+[ScrollViewer.AnchorRequested](scrollviewer_anchorrequested.md), [UIElement.CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md), [UIElement.BringIntoViewRequested](../windows.ui.xaml/uielement_bringintoviewrequested.md), [UIElement.RegisterAsScrollPort](../windows.ui.xaml/uielement_registerasscrollport_591917999.md)
 
 ## -examples

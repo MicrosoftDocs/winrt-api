@@ -34,7 +34,7 @@ This method is not supported in JavaScript. However, you can create a Windows Ru
 
 ## -examples
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

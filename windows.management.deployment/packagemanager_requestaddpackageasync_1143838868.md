@@ -38,7 +38,7 @@ The progress and the result of the app package deployment.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -examples
 The example demonstrates how to use RequestAddPackageAsync in a UWP app by hooking it up to a button click handler. This will invoke the SmartScreen request UI window.

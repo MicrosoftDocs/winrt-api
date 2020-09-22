@@ -24,6 +24,6 @@ The value does not account for the possibility of a scrolling control that has s
 
 ## -see-also
 
-* [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
+[EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
 
 ## -examples

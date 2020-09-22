@@ -20,7 +20,7 @@ Retrieves the button label for the specified button.
 The button for which to retrieve the label.
 
 ## -returns
-Returns the label for the specified button. If the button label is blank or there is no known label for the controller’s button, then **None** is returned.
+Returns the label for the specified button. If the button label is blank or there is no known label for the controller's button, then **None** is returned.
 
 ## -remarks
 
@@ -28,5 +28,4 @@ Returns the label for the specified button. If the button label is blank or ther
 
 ## -see-also
 
-* [Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md)
-* [Windows.Gaming.Input.ArcadeStickButtons](arcadestickbuttons.md)
+[Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md), [Windows.Gaming.Input.ArcadeStickButtons](arcadestickbuttons.md)

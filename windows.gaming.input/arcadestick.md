@@ -32,6 +32,4 @@ Instances of the **ArcadeStick** class cannot be created directly; instead, inst
 
 ## -see-also
 
-[Windows.Gaming.Input.IGameController](igamecontroller.md),
-[Arcade stick](/windows/uwp/gaming/arcade-stick),
-[Input practices for games](/windows/uwp/gaming/input-practices-for-games)
+[Windows.Gaming.Input.IGameController](igamecontroller.md), [Arcade stick](/windows/uwp/gaming/arcade-stick), [Input practices for games](/windows/uwp/gaming/input-practices-for-games)

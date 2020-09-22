@@ -41,4 +41,4 @@ The progress and result of adding the app package.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

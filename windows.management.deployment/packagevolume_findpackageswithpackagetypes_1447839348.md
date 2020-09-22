@@ -28,5 +28,4 @@ A collection of info about the specified packages.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [FindPackagesWithPackageTypes(PackageTypes)](packagevolume_findpackageswithpackagetypes_447761356.md), [FindPackagesWithPackageTypes(PackageTypes, String, String)](packagevolume_findpackageswithpackagetypes_810263284.md)
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackagesWithPackageTypes(PackageTypes)](packagevolume_findpackageswithpackagetypes_447761356.md), [FindPackagesWithPackageTypes(PackageTypes, String, String)](packagevolume_findpackageswithpackagetypes_810263284.md)

@@ -22,7 +22,7 @@ The button for which to retrieve the label.
 
 ## -returns
 
-The label for the specified button. If the button label is blank or there is no known label for the controller’s button, then **None** is returned.
+The label for the specified button. If the button label is blank or there is no known label for the controller's button, then **None** is returned.
 
 ## -remarks
 
@@ -35,24 +35,23 @@ using namespace Windows::Gaming::Input;
 
 void ShowFlightStickFirePrimaryButtonIcon(FlightStick flightStick)
 {
-	GameControllerButtonLabel label =
-		flightStick.GetButtonLabel(FlightStickButtons::FirePrimary);
+    GameControllerButtonLabel label =
+        flightStick.GetButtonLabel(FlightStickButtons::FirePrimary);
 
-	switch (label)
-	{
-		case (GameControllerButtonLabel::RightTrigger):
-		{
-			// Show the right trigger icon.
-		}
-		// ...
-	}
+    switch (label)
+    {
+        case (GameControllerButtonLabel::RightTrigger):
+        {
+            // Show the right trigger icon.
+        }
+        // ...
+    }
 }
 ```
 
 ## -see-also
 
-* [Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md)
-* [Windows.Gaming.Input.FlightStickButtons](flightstickbuttons.md)
+[Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md), [Windows.Gaming.Input.FlightStickButtons](flightstickbuttons.md)
 
 ## -examples
 

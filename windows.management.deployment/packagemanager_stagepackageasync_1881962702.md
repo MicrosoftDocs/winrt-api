@@ -29,5 +29,4 @@ The stage operation will extract the package payload to disk under %ProgramFiles
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [StagePackageAsync(Uri, IIterable(Uri), DeploymentOptions)](packagemanager_stagepackageasync_1546392990.md)
+[Package](/uwp/api/windows.applicationmodel.package), [StagePackageAsync(Uri, IIterable(Uri), DeploymentOptions)](packagemanager_stagepackageasync_1546392990.md)

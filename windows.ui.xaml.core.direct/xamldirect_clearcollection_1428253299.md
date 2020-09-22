@@ -18,8 +18,8 @@ Removes all items from the specified [IXamlDirectObject](ixamldirectobject.md) c
 Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ## -see-also
-* [XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md)
-* [XamlDirect.RemoveFromCollection](xamldirect_removefromcollection_1992847812.md)
+
+[XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md), [XamlDirect.RemoveFromCollection](xamldirect_removefromcollection_1992847812.md)
 
 ## -examples
 The following example shows how to add to use the ClearCollection method to clear a collection pointed to by the specified [IXamlDirectObject](ixamldirectobject.md).

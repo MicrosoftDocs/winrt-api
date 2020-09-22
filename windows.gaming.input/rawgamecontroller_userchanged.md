@@ -19,7 +19,6 @@ See [Tracking users and their devices](/windows/uwp/gaming/input-practices-for-g
 
 ## -see-also
 
-* [Windows.Gaming.Input.IGameController](igamecontroller.md)
-* [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)
+[Windows.Gaming.Input.IGameController](igamecontroller.md), [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)
 
 ## -examples

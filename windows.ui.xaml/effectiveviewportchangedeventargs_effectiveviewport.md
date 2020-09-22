@@ -24,6 +24,6 @@ For more info, see the [EffectiveViewportChanged](frameworkelement_effectiveview
 
 ## -see-also
 
-* [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
+[EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
 
 ## -examples

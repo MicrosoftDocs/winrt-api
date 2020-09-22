@@ -25,10 +25,8 @@ Refers to the [IXamlDirectObject](ixamldirectobject.md) value to remove from the
 **false** if value was not present.
 
 ## -see-also
-* [XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md)
-* [XamlDirect.InsertIntoCollectionAt](xamldirect_insertintocollectionat_679802579.md)
-* [XamlDirect.RemoveFromCollectionAt](xamldirect_removefromcollectionat_1250477505.md)
-* [XamlDirect.ClearCollection](xamldirect_clearcollection_1428253299.md)
+
+[XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md), [XamlDirect.InsertIntoCollectionAt](xamldirect_insertintocollectionat_679802579.md), [XamlDirect.RemoveFromCollectionAt](xamldirect_removefromcollectionat_1250477505.md), [XamlDirect.ClearCollection](xamldirect_clearcollection_1428253299.md)
 
 ## -examples
 The following example shows how to remove a value from a collection using [XamlDirect](xamldirect.md) APIs.

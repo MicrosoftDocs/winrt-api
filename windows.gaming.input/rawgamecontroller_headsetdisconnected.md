@@ -19,8 +19,7 @@ For more information on detecting, tracking, and using headsets, see [Headset](/
 
 ## -see-also
 
-* [Windows.Gaming.Input.IGameController](igamecontroller.md)
-* [Windows.Gaming.Input.Headset](headset.md)
+[Windows.Gaming.Input.IGameController](igamecontroller.md), [Windows.Gaming.Input.Headset](headset.md)
 
 ## -examples
 
@@ -42,7 +41,7 @@ m_rawGameController.HeadsetDisconnected([this](IGameController const& /* sender 
 ```cppcx
 // `rawGameController` is a **RawGameController** that's connected to the device.
 rawGameController.HeadsetDisconnected += ref new TypedEventHandler<IGameController^, Headset^>(
-		[] (IGameController^ device, Headset^ headset)
+        [] (IGameController^ device, Headset^ headset)
 {
     // DIsable headset capture and playback on this device.
 });

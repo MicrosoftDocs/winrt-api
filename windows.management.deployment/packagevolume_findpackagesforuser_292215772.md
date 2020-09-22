@@ -31,5 +31,4 @@ A collection of info about the specified packages.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [FindPackagesForUser(String)](packagevolume_findpackagesforuser_999371492.md), [FindPackagesForUser(String, String)](packagevolume_findpackagesforuser_2003648348.md)
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackagesForUser(String)](packagevolume_findpackagesforuser_999371492.md), [FindPackagesForUser(String, String)](packagevolume_findpackagesforuser_2003648348.md)

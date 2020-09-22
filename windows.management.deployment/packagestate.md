@@ -32,5 +32,4 @@ The package payload was tampered with intentionally.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [Packaging apps](/windows/uwp/packaging/index), [PackageManager.SetPackageState](packagemanager_setpackagestate_175933383.md)
+[Package](/uwp/api/windows.applicationmodel.package), [Packaging apps](/windows/uwp/packaging/index), [PackageManager.SetPackageState](packagemanager_setpackagestate_175933383.md)

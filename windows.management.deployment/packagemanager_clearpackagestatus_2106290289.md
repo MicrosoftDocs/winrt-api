@@ -25,7 +25,7 @@ One of the enumeration values that specifies the status to clear.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

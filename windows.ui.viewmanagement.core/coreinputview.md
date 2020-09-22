@@ -56,6 +56,6 @@ After you register to receive input pane notifications, the system calls your ev
 
 ## -see-also
 
-- [CoreInputViewOcclusion](coreinputviewocclusion.md)
+[CoreInputViewOcclusion](coreinputviewocclusion.md)
 
 ## -examples

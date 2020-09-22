@@ -43,12 +43,4 @@ Manages the software available to a user.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [Add app package sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerAddPackage)
-- [Enumerate app packages sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindProvisionedPackages)
-- [Enumerate app packages by name and publisher sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher)
-- [Enumerate app packages by user SID sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByUserSecurityId)
-- [Remove app package sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerRemovePackage)
-- [Packaging apps](/windows/uwp/packaging/index)
-- [DeploymentResult](deploymentresult.md)
-- [PackageUserInformation](packageuserinformation.md)
+[Package](/uwp/api/windows.applicationmodel.package), [Add app package sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerAddPackage), [Enumerate app packages sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindProvisionedPackages), [Enumerate app packages by name and publisher sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher), [Enumerate app packages by user SID sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByUserSecurityId), [Remove app package sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerRemovePackage), [Packaging apps](/windows/uwp/packaging/index), [DeploymentResult](deploymentresult.md), [PackageUserInformation](packageuserinformation.md)

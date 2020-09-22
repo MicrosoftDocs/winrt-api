@@ -25,5 +25,4 @@ The label of the specified button.
 
 ## -see-also
 
-* [Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md)
-* [Windows.Gaming.Input.RequiredUINavigationButtons](requireduinavigationbuttons.md)
+[Windows.Gaming.Input.GameControllerButtonLabel](gamecontrollerbuttonlabel.md), [Windows.Gaming.Input.RequiredUINavigationButtons](requireduinavigationbuttons.md)

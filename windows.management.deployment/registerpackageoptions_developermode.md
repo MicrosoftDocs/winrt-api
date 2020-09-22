@@ -17,8 +17,7 @@ For more information, see the details about development mode in the remarks sect
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [RegisterPackageOptions][registerpackageoptions.md]
+[Package](/uwp/api/windows.applicationmodel.package), [RegisterPackageOptions][registerpackageoptions.md]
 
 ## -examples
 

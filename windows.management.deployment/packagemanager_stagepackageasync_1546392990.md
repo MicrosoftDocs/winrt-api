@@ -31,5 +31,4 @@ The status of the deployment request. The [DeploymentResult](deploymentresult.md
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [StagePackageAsync(Uri, IIterable(Uri))](packagemanager_stagepackageasync_1881962702.md)
+[Package](/uwp/api/windows.applicationmodel.package), [StagePackageAsync(Uri, IIterable(Uri))](packagemanager_stagepackageasync_1881962702.md)

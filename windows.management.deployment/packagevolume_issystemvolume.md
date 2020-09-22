@@ -21,4 +21,4 @@ true if the volume is an internal system volume mapped to the %SYSTEMDRIVER% env
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

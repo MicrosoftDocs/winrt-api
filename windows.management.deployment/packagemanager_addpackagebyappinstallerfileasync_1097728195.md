@@ -29,8 +29,7 @@ This method is not supported in JavaScript. However, you can create a Windows Ru
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [App Installer APIs](/windows/msix/app-installer/app-installer-documentation)
+[Package](/uwp/api/windows.applicationmodel.package), [App Installer APIs](/windows/msix/app-installer/app-installer-documentation)
 
 ## -examples
 

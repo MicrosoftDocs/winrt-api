@@ -18,5 +18,4 @@ Signals when the user associated with the UI navigation controller has changed.
 
 ## -see-also
 
-* [Windows.Gaming.Input.IGameController](igamecontroller.md)
-* [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)
+[Windows.Gaming.Input.IGameController](igamecontroller.md), [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)

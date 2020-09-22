@@ -42,7 +42,7 @@ See [Raw game controller](/windows/uwp/gaming/raw-game-controller) for more info
 
 ## -see-also
 
-* [Windows.Gaming.Input.GameControllerSwitchPosition](gamecontrollerswitchposition.md)
+[Windows.Gaming.Input.GameControllerSwitchPosition](gamecontrollerswitchposition.md)
 
 ## -examples
 

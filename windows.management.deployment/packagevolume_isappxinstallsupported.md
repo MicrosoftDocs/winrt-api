@@ -21,4 +21,4 @@ The boolean that indicates that APPX installing is supported.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)

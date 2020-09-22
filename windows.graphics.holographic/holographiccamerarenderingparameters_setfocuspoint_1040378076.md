@@ -40,4 +40,5 @@ If your app is using Depth LSR, SetFocusPoint is still important if you wish to 
 ## -examples
 
 ## -see-also
-* [CommitDirect3D11DepthBuffer](holographiccamerarenderingparameters_commitdirect3d11depthbuffer_1424767526.md)
+
+[CommitDirect3D11DepthBuffer](holographiccamerarenderingparameters_commitdirect3d11depthbuffer_1424767526.md)

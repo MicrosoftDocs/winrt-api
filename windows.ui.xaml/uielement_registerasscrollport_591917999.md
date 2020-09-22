@@ -35,9 +35,6 @@ By default, the focus visual is fully rendered around the outside of the focused
 
 ## -see-also
 
-- [UseSystemFocusVisuals](../windows.ui.xaml.controls/control_usesystemfocusvisuals.md)
-- [InteractionTracker](../windows.ui.composition.interactions/interactiontracker.md)
-- [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
-- [InvalidateViewport](frameworkelement_invalidateviewport_528063221.md)
+[UseSystemFocusVisuals](../windows.ui.xaml.controls/control_usesystemfocusvisuals.md), [InteractionTracker](../windows.ui.composition.interactions/interactiontracker.md), [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md), [InvalidateViewport](frameworkelement_invalidateviewport_528063221.md)
 
 ## -examples

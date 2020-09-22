@@ -51,5 +51,4 @@ Include all packages when you enumerate the package repository.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [FindPackagesForUserWithPackageTypes](/uwp/api/windows.management.deployment.packagemanager.findpackagesforuserwithpackagetypes), [FindPackagesWithPackageTypes](/uwp/api/windows.management.deployment.packagemanager.findpackageswithpackagetypes)
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackagesForUserWithPackageTypes](/uwp/api/windows.management.deployment.packagemanager.findpackagesforuserwithpackagetypes), [FindPackagesWithPackageTypes](/uwp/api/windows.management.deployment.packagemanager.findpackageswithpackagetypes)

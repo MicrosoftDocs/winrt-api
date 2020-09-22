@@ -23,4 +23,4 @@ The current state of the arcade stick.
 
 ## -see-also
 
-* [Windows.Gaming.Input.ArcadeStickReading](arcadestickreading.md)
+[Windows.Gaming.Input.ArcadeStickReading](arcadestickreading.md)

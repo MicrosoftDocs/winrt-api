@@ -17,8 +17,7 @@ This property is useful for notifying the system to prepare for app registration
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [RegisterPackageOptions][registerpackageoptions.md]
+[Package](/uwp/api/windows.applicationmodel.package), [RegisterPackageOptions][registerpackageoptions.md]
 
 ## -examples
 

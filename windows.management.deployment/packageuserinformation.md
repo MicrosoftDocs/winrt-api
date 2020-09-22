@@ -20,5 +20,4 @@ See the code examples in [PackageManager.FindUsers(String)](packagemanager_findu
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [Enumerate app packages sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindProvisionedPackages), [Enumerate app packages by name and publisher sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher), [Packaging apps](/windows/uwp/packaging/index), [PackageManager](packagemanager.md)
+[Package](/uwp/api/windows.applicationmodel.package),- [Enumerate app packages sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindProvisionedPackages), [Enumerate app packages by name and publisher sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher), [Packaging apps](/windows/uwp/packaging/index), [PackageManager](packagemanager.md)

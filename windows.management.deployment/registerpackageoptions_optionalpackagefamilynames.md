@@ -15,8 +15,7 @@ The list of package family names from the main bundle to be registered.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [RegisterPackageOptions][registerpackageoptions.md]
+[Package](/uwp/api/windows.applicationmodel.package), [RegisterPackageOptions][registerpackageoptions.md]
 
 ## -examples
 

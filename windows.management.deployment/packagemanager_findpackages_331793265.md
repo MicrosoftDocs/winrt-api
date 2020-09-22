@@ -26,8 +26,7 @@ This method requires administrative privileges. Each package in the [IIterable(P
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [FindPackages()](packagemanager_findpackages_1246181969.md), [FindPackages(String, String)](packagemanager_findpackages_1597689551.md)
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackages()](packagemanager_findpackages_1246181969.md), [FindPackages(String, String)](packagemanager_findpackages_1597689551.md)
 
 ## -capabilities
 packageQuery

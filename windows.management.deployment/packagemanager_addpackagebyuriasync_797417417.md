@@ -31,7 +31,6 @@ This method simplifies the existing [AddPackageAsync](/uwp/api/windows.managemen
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [AddPackageOptions](addpackageoptions.md),[Grant identity to non-packaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps),[Hosted apps](/windows/uwp/launch-resume/hosted-apps)
+[Package](/uwp/api/windows.applicationmodel.package), [AddPackageOptions](addpackageoptions.md),[Grant identity to non-packaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps), [Hosted apps](/windows/uwp/launch-resume/hosted-apps)
 
 ## -examples

@@ -25,5 +25,4 @@ A collection of info about the specified packages.
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [FindPackages](packagevolume_findpackages_1246181969.md), [FindPackages(String, String)](packagevolume_findpackages_1597689551.md)
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackages](packagevolume_findpackages_1246181969.md), [FindPackages(String, String)](packagevolume_findpackages_1597689551.md)

@@ -30,7 +30,7 @@ This function takes an integer, which is the index in the raw game controller's 
 
 ## -see-also
 
-* [Windows.Gaming.Input.GameControllerSwitchKind](gamecontrollerswitchkind.md)
+[Windows.Gaming.Input.GameControllerSwitchKind](gamecontrollerswitchkind.md)
 
 ## -examples
 

@@ -18,4 +18,4 @@ Signals when the user associated with the controller has changed.
 
 ## -see-also
 
-* [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)
+[Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)

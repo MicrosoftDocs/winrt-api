@@ -19,5 +19,4 @@ Signals when the user associated with the arcade stick has changed.
 
 ## -see-also
 
-* [Windows.Gaming.Input.IGameController](igamecontroller.md)
-* [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)
+[Windows.Gaming.Input.IGameController](igamecontroller.md), [Windows.System.UserChangedEventArgs](../windows.system/userchangedeventargs.md)

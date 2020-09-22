@@ -29,8 +29,7 @@ The app binaries are not cleaned up unless the app is installed for has no other
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
-- [Deploy Roaming User Profiles](XREF:TODO:65840ed4-02af-49fc-a99d-292a4b50dfd4)
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

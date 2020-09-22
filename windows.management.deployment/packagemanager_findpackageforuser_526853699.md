@@ -29,7 +29,7 @@ This method requires administrative privileges if the user security ID specified
 
 ## -see-also
 
-- [Package](/uwp/api/windows.applicationmodel.package)
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageQuery

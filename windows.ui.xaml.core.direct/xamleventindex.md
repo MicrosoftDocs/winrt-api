@@ -429,7 +429,5 @@ The _Closing_ event for the [AppBar](../windows.ui.xaml.controls/appbar.md) type
 The _Closed_ event for the [AppBar](../windows.ui.xaml.controls/appbar.md) type.
 
 ## -see-also
-* [XamlDirect](xamldirect.md)
-* [IXamlDirectObject](ixamldirectobject.md)
-* [XamlTypeIndex](xamltypeindex.md)
-* [XamlPropertyIndex](xamlpropertyindex.md)
+
+[XamlDirect](xamldirect.md), [IXamlDirectObject](ixamldirectobject.md), [XamlTypeIndex](xamltypeindex.md), [XamlPropertyIndex](xamlpropertyindex.md)
