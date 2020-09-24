@@ -18,7 +18,7 @@ Creates a [DisplayFence](displayfence.md) object that is automatically signaled 
 The [DisplayTarget](displaytarget.md) (which must be currently active) whose vertical refresh cycle will be used by the periodic fence.
 
 ### -param offsetFromVBlank
-A time offset from the display controller's V-blank interrupt to signal the fence every vertical refresh cycle.
+A time offset from the display controller's V-blank interrupt to signal the fence *before* every vertical refresh cycle.
 
 ## -returns
 A [DisplayFence](displayfence.md) object.
