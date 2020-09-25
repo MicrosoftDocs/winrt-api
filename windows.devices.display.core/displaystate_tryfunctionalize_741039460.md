@@ -25,7 +25,7 @@ Use the [ValidateTopologyOnly](displaystatefunctionalizeoptions.md) option to pr
 
 Note that calling [TryApply](displaystate_tryapply_634222246.md) also implicitly functionalizes the state before applying it to the system, but **TryApply** never updates this state's **DisplayPath** properties with the results of the functionalization.
 
-Functionalizing a **DisplayState** can be a fairly expensive operation, since it involves querying display drivers and comparing many possible modes. The operation will usually be cheaper if you set more of your Displ**DisplayPath**ayPath properties before calling this method (or calling **TryApply**), since it reduces the amount of work needed to evaluate the "best" mode on a given path.
+Functionalizing a **DisplayState** can be a fairly expensive operation, since it involves querying display drivers and comparing many possible modes. The operation will usually be cheaper if you set more of your **DisplayPath** properties before calling this method (or calling **TryApply**), since it reduces the amount of work needed to evaluate the "best" mode on a given path.
 
 Using **TryFunctionalize** to determine whether the current state can be functionalized before calling **TryApply** is a good practice, since **TryApply** is always more expensive than **TryFunctionalize**. Once **TryFunctionalize** succeeds, a subsequent call to **TryApply** will be cheaper, since it no longer has to do the work of functionalizing modes.
 
