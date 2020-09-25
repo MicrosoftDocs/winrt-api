@@ -10,10 +10,10 @@ public string Rgb24 { get; }
 # Windows.Media.MediaProperties.MediaEncodingSubtypes.Rgb24
 
 ## -description
-Gets the name RGB 24.
+Gets the name for the RGB24 image format.
 
 ## -property-value
-The name for RGB 24.
+The name for the RGB24 image format.
 
 ## -remarks
 
