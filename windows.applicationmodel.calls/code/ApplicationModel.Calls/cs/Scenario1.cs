@@ -92,7 +92,17 @@ namespace Microsoft.Samples.CallsRT.Scenario1
     {
         PhoneCallStore phoneCallStore = await PhoneCallManager.RequestStoreAsync();
         Guid lineId = await phoneCallStore.GetDefaultLineAsync();
-        return await PhoneLine.FromIdAsync(lineId);
+        PhoneLine line = null;
+        try
+        {
+            line = await PhoneLine.FromIdAsync(lineId);
+        }
+        catch (Exception ex)
+        {
+            Logger.Instance.LogErrorMessage($"PhoneLine.FromIdAsync failed:{ex.Message}");
+        }
+    return line;
     }
+
     // </SnippetGetDefaultLine>
 }
