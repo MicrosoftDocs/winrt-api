@@ -57,6 +57,7 @@ The CharacterReceived event can occur at different times depending on the charac
   - KeyUp for 1
   - PreviewKeyDown for 6
   - KeyDown for 6
+  - CharacterReceived
   - PreviewKeyUp for 6
   - KeyUp for 6
   - PreviewKeyDown for 4
