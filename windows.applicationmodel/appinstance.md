@@ -13,7 +13,7 @@ public class AppInstance
 Represents an instance of an app.
 
 ## -remarks
-The system maintains a cache of app instances. Apps can use this cache for redirection of an app when it attempts to activate.
+The system maintains a store of app instances. Apps can use this for redirection of an app when it attempts to activate.
 
 When an app process is created in the `Main` method of the app, it can choose to continue to activate the current instance, or to redirect the activation to an existing instance.
 
