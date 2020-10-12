@@ -16,8 +16,8 @@ Gets the ID of the phone line.
 The ID of the phone line.
 
 ## -remarks
-For cellular line, the ID is persistent across devices and reboots.
-For VoIP and Bluebooth Hands-Free lines, the ID is not persistent across devices and reboots.
+For cellular lines, the ID is persistent across devices and reboots.
+For VoIP and Bluetooth Hands-Free lines, the ID is not persistent across devices and reboots.
 
 ## -examples
 
