@@ -21,7 +21,7 @@ The object on which to set focus.
 
 ### -param value
 
-One of the values from the [FocusState](/uwp/api/windows.ui.xaml.focusstate) enumeration that specify how an elemnent can obtain focus.
+One of the values from the [FocusState](/uwp/api/windows.ui.xaml.focusstate) enumeration that specify how an element can obtain focus.
 
 ## -returns
 
