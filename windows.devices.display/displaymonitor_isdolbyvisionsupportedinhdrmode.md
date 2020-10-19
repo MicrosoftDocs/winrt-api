@@ -5,7 +5,7 @@
 
 ## -description
 
-Gets a value that indicates whether the monitor's metadata has specified that it treats high dynamic range (HDR) as a special *Dolby Vision* mode. This API is intended to be used by the [Dolby audio decoder](/windows/win32/medfound/dolby-audio-decoder) running within media to play specially certified content.
+Gets a value that indicates whether the monitor's metadata has specified that it treats high dynamic range (HDR) as a special *Dolby Vision* mode. This API is intended to be used by the DolbyVision video decoder running within media to play specially certified content.
 
 ## -property-value
 
