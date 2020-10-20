@@ -11,7 +11,7 @@ public enum Windows.Devices.Bluetooth.BluetoothCacheMode : int
 # BluetoothCacheMode
 
 ## -description
-Indicates whether applicable Bluetooth API methods should operate on values cached in the system, or whether they should retrieve those values from the Bluetooth device. See **Remarks**.
+Indicates whether applicable Bluetooth API methods should operate on values cached in the system, or whether they should retrieve those values from the Bluetooth device. See **Remarks** in the member topic.
 
 ## -enum-fields
 

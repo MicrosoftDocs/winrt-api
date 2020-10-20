@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.Bluetooth.BluetoothLED
 # Windows.Devices.Bluetooth.BluetoothLEDevice.FromBluetoothAddressAsync
 
 ## -description
-Returns a [BluetoothLEDevice](bluetoothledevice.md) object representing the peer Bluetooth LE device with the given address. See **Remarks**.
+Returns a [BluetoothLEDevice](bluetoothledevice.md) object representing the peer Bluetooth LE device with the given address. See **Remarks** in the member topic.
 
 ## -parameters
 
