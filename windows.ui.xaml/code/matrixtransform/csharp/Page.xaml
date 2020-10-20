@@ -7,12 +7,8 @@
         <!-- <Snippetmatrixtransform> -->
         <Rectangle Width="60" Height="60" Fill="Blue">
           <Rectangle.RenderTransform>
-            <MatrixTransform>
-              <MatrixTransform.Matrix >
-                <!-- This matrix transforms the x,y position of the rectangle and skews it. -->
-                <Matrix OffsetX="30" OffsetY="100" M12="0.5" />
-              </MatrixTransform.Matrix>
-            </MatrixTransform>
+            <!-- This matrix transforms the x,y position of the rectangle and skews it. -->
+            <MatrixTransform Matrix="1,0.5,0,1,30,100"/>
           </Rectangle.RenderTransform>
         </Rectangle>
         <!-- </Snippetmatrixtransform> -->

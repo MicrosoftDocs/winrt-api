@@ -23,6 +23,8 @@ Provides a hosting surface, where Microsoft DirectX swap chains provide content 
 
 A SwapChainPanel is a [Grid](grid.md) subclass, so you can use [ColumnDefinitions](grid_columndefinitions.md) and [RowDefinitions](grid_rowdefinitions.md) properties to declare the panel's characteristics, and the attached properties of [Grid](grid.md) such as [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) on child elements to position those child elements in the layout.
 
+SwapChainPanel inherits the Background property from Panel, but you can't set the Background on a SwapChainPanel. An error occurs if you attempt to set it.
+
 The SwapChainPanel class does not inherit from the [Control](control.md) class, so you can't programmatically focus it directly for purposes of capturing key events. Consider setting the focus to a focusable element inside the panel and letting the key event bubble.
 
 In order to maintain crisp vector rendering, you should listen for the [CompositionScaleChanged](swapchainpanel_compositionscalechanged.md) event and query the [CompositionScaleX](swapchainpanel_compositionscalex.md) and [CompositionScaleY](swapchainpanel_compositionscaley.md) property values to account for the current UI scale, and potentially [render again from DirectX](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1). Otherwise XAML layout might do the scaling and your visuals might be degraded.

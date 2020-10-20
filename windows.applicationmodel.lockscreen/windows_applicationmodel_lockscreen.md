@@ -6,7 +6,9 @@
 # Windows.ApplicationModel.LockScreen
 
 ## -description
-You can create an app that acts as the lock screen, allowing greater user personalization. You can develop novel unlock gestures and animations, and also display custom information or appearances for people.
+
+Classes related to the Windows lock screen. Please note that creating a new lock screen is a feature **not** available to third party developers.
+
 
 ## -remarks
 
