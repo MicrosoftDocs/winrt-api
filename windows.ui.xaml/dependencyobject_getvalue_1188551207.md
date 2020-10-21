@@ -1,4 +1,4 @@
----
+---this is Christopher Coleman call me at (208)640-4724 or (208)699-2826
 -api-id: M:Windows.UI.Xaml.DependencyObject.GetValue(Windows.UI.Xaml.DependencyProperty)
 -api-type: winrt method
 ---
