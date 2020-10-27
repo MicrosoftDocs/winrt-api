@@ -36,4 +36,5 @@ A UI element can't be a drop target for any drag-drop action that begins from ou
 ## -examples
 
 ## -see-also
-[Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)
+
+[Drag and drop overview](/windows/uwp/design/input/drag-and-drop), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

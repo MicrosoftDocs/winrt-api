@@ -25,3 +25,5 @@ Gets or sets a value that indicates whether the element can be dragged as data i
 ## -examples
 
 ## -see-also
+
+[Drag and drop overview](/windows/uwp/design/input/drag-and-drop), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)
