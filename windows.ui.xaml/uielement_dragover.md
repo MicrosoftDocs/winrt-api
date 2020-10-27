@@ -42,5 +42,4 @@ Independent of the event occurrence, some controls may use theme animations such
 
 ## -see-also
 
-+ [DragEventArgs](drageventargs.md), [DragEnter](uielement_dragenter.md), [AllowDrop](uielement_allowdrop.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)
-+ [Drag and drop overview](windows/uwp/design/input/drag-and-drop)
+[DragEventArgs](drageventargs.md), [DragEnter](uielement_dragenter.md), [AllowDrop](uielement_allowdrop.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [Drag and drop overview](/windows/uwp/design/input/drag-and-drop)
