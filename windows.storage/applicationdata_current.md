@@ -16,7 +16,7 @@ Provides access to the app data store associated with the app's app package.
 The app data store.
 
 ## -remarks
-Application folders and settings can be accessed through the `Windows.Storage.ApplicationData.current` property.
+Application folders and settings can be accessed through the `Windows.Storage.ApplicationData.Current` property.
 
 ## -examples
 
