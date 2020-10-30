@@ -39,6 +39,8 @@ When a ScrollViewer part in a control exists, the host control often has built-i
 
 To make it possible for controls that include a ScrollViewer to influence some of the behavior and properties that are from within the ScrollViewer part, ScrollViewer defines a number of XAML attached properties that can be set in styles and used in template bindings.
 
+If you need to handle pointer events for a [UIElement](../windows.ui.xaml/uielement.md) in a scrollable view (such as a ScrollViewer), you must explicitly disable support for manipulation events on the element in the view by calling [UIElement.CancelDirectmanipulation()](../windows.ui.xaml/uielement_canceldirectmanipulations_1164631120.md). To re-enable manipulation events in the view, call [UIElement.TryStartDirectManipulation()](../windows.ui.xaml/uielement_trystartdirectmanipulation_1983346775.md).
+
 ### Pen interaction
 
 Starting with Windows 10, version 1709 (SDK 16299), the default behavior of an active pen in a UWP app is to scroll/pan (just like touch, touchpad, and passive pen). The ScrollViewer consumes pointer events unless you specify that you want to handle the events yourself, and don't want them to be used for manipulation. 
