@@ -92,29 +92,28 @@ The [IDragProvider](../windows.ui.xaml.automation.provider/idragprovider.md) int
 The [IDropTargetProvider](../windows.ui.xaml.automation.provider/idroptargetprovider.md) interface.
 
 ### -field ObjectModel:26
-**Introduced in .** The [IObjectModelProvider](../windows.ui.xaml.automation.provider/iobjectmodelprovider.md) interface.
+The [IObjectModelProvider](../windows.ui.xaml.automation.provider/iobjectmodelprovider.md) interface.
 
 ### -field Spreadsheet:27
-**Introduced in .** The [ISpreadsheetProvider ](../windows.ui.xaml.automation.provider/ispreadsheetprovider.md) interface.
+The [ISpreadsheetProvider ](../windows.ui.xaml.automation.provider/ispreadsheetprovider.md) interface.
 
 ### -field SpreadsheetItem:28
-**Introduced in .** The [ISpreadsheetItemProvider](../windows.ui.xaml.automation.provider/ispreadsheetitemprovider.md) interface.
+The [ISpreadsheetItemProvider](../windows.ui.xaml.automation.provider/ispreadsheetitemprovider.md) interface.
 
 ### -field Styles:29
-**Introduced in .** The [IStylesProvider](../windows.ui.xaml.automation.provider/istylesprovider.md) interface.
+The [IStylesProvider](../windows.ui.xaml.automation.provider/istylesprovider.md) interface.
 
 ### -field Transform2:30
-**Introduced in .** The [ITransformProvider2](../windows.ui.xaml.automation.provider/itransformprovider2.md) interface.
+The [ITransformProvider2](../windows.ui.xaml.automation.provider/itransformprovider2.md) interface.
 
 ### -field SynchronizedInput:31
-**Introduced in .** The [ISynchronizedInputProvider](../windows.ui.xaml.automation.provider/isynchronizedinputprovider.md) interface.
+The [ISynchronizedInputProvider](../windows.ui.xaml.automation.provider/isynchronizedinputprovider.md) interface.
 
 ### -field TextEdit:32
 The [TextEdit](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itexteditprovider) control pattern interface.
 
 ### -field CustomNavigation:33
 The [CustomNavigation](../windows.ui.xaml.automation.provider/icustomnavigationprovider.md) control pattern interface.
-
 
 ## -remarks
 
