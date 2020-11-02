@@ -20,10 +20,11 @@ The Windows Runtime  [ListView](../windows.ui.xaml.controls/listview.md) class c
 ListViewAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports that the peer provides pattern support for these patterns:
-+ [PatternInterface.Selection](patterninterface.md) ([ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md))
-+ [PatternInterface.ItemContainer](patterninterface.md) ([IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md))
-+ [PatternInterface.DropTarget](patterninterface.md) ([IDropTargetProvider](../windows.ui.xaml.automation.provider/idroptargetprovider.md) )
- This is the accumulated pattern support from each of the peer base classes.
+  + [PatternInterface.Selection](patterninterface.md) ([ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md))
+  + [PatternInterface.ItemContainer](patterninterface.md) ([IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md))
+  + [PatternInterface.DropTarget](patterninterface.md) ([IDropTargetProvider](../windows.ui.xaml.automation.provider/idroptargetprovider.md) )
+  + This is the accumulated pattern support from each of the peer base classes.
+
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "ListView".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.List](automationcontroltype.md).
 + [GetChildren](automationpeer_getchildren_555647254.md) has an implementation from [ListViewBaseAutomationPeer](listviewbaseautomationpeer.md) that returns the item peers.
