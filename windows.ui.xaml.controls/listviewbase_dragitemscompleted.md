@@ -10,9 +10,13 @@ public event Windows.Foundation.TypedEventHandler DragItemsCompleted<Windows.UI.
 # Windows.UI.Xaml.Controls.ListViewBase.DragItemsCompleted
 
 ## -description
-Occurs when a drag operation that involves one of the items in the view is ended. In order to receive this event, set the **CanDragItems** property to **True**.
+
+Occurs when a drag operation that involves one of the items in the view is ended.
 
 ## -remarks
+
+> [!IMPORTANT]
+> In order to receive this event, the [CanDragItems](listviewbase_candragitems.md) property must be set to `true`.
 
 ## -examples
 
