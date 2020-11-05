@@ -17,7 +17,7 @@ Gets a user's picture asynchronously.
 The desired size of the user's picture to return.
 
 ## -returns
-When this method completes, it returns the user's picture.
+When this method completes, it returns the user's picture or null if there is none.
 
 ## -remarks
 
