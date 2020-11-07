@@ -32,21 +32,15 @@ The app was closed by the user.
 ## -remarks
 This table provides more detail about when you'll see each of these states and what your app should do in response.
 
-<table>
-   <tr><th>State</th><th>When this state is seen</th><th>What your app should do</th></tr>
-   <tr><td>**NotRunning**</td><td>The user first activates the app after:
+State|When this state is seen|What your app should do
+---|---|---
+**NotRunning**|The user first activates the app after 1) installing the app from the Store 2) clicking **End task** in Task Manager while the app is running 3) rebooting the computer 4) logging off and back on. The user closes the app through the close gesture or Alt+F4 and activates it within about 10 seconds of closing it.|Display its initial UI and perform initialization tasks.
+**Running**|The app is activated through a secondary tile or one of the [activation contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10)) while it is running.|Respond to the activation event as appropriate.
+**Suspended**|The app is activated through a secondary tile or one of the [activation contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10)) while Windows is suspending it or after Windows has suspended it.|Respond to the activation event as appropriate.
+**Terminated**|Windows successfully suspends the app and then it is terminated. For example, Windows can terminate a suspended app if the system is running low on resources. Some apps, such as games, can be pretty resource intensive.|Restore itself to the way the user left it, rather than starting fresh. Use data saved during app suspension. Refresh content or network connections that may have become stale.
+**ClosedByUser**|The user closes the app through the close gesture or Alt+F4 and takes longer than 10 seconds to activate the app again.|In Windows 8, display its initial UI and perform initialization tasks, rather than restoring its previous state. In Windows 8.1, restore itself to the way the user left it, rather than starting fresh. Use data saved during app suspension. Refresh content or network connections that may have become stale.
 
-<ul><li>installing the app from the Store</li><li>clicking **End task** in Task Manager while the app is running</li><li>rebooting the computer</li><li>logging off and back on</li></ul>The user closes the app through the close gesture or Alt+F4 and activates it within about 10 seconds of closing it.</td><td>Display its initial UI and perform initialization tasks.</td></tr>
-   <tr><td>**Running**</td><td>The app is activated through a secondary tile or one of the [activation contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10)) while it is running.</td><td>Respond to the activation event as appropriate.</td></tr>
-   <tr><td>**Suspended**</td><td>The app is activated through a secondary tile or one of the [activation contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10)) while Windows is suspending it or after Windows has suspended it.</td><td>Respond to the activation event as appropriate.</td></tr>
-   <tr><td>**Terminated**</td><td>Windows successfully suspends the app and then it is terminated. For example, Windows can terminate a suspended app if the system is running low on resources. Some apps, such as games, can be pretty resource intensive.</td><td>Restore itself to the way the user left it, rather than starting fresh. Use data saved during app suspension. Refresh content or network connections that may have become stale.</td></tr>
-   <tr><td>**ClosedByUser**</td><td>The user closes the app through the close gesture or Alt+F4 and takes longer than 10 seconds to activate the app again.</td><td>In Windows 8, display its initial UI and perform initialization tasks, rather than restoring its previous state.
-
-In Windows 8.1, restore itself to the way the user left it, rather than starting fresh. Use data saved during app suspension. Refresh content or network connections that may have become stale.
-
-> [!NOTE]
-> If your Windows 8 app depends on the Windows 8**ClosedByUser** behavior, you can enable this behavior in your Windows 8.1 app when you upgrade it to Windows 8.1. To enable the Windows 8**ClosedByUser** behavior, set your Windows 8.1 app to terminate when the last window is closed with the [Windows.UI.ViewManagement.ApplicationView.TerminateAppOnFinalViewClose](../windows.ui.viewmanagement/applicationview_terminateapponfinalviewclose.md) property.</td></tr>
-</table>
+If your Windows 8 app depends on the Windows 8 **ClosedByUser** behavior, you can enable it when you upgrade it to Windows 8.1 by setting the [Windows.UI.ViewManagement.ApplicationView.TerminateAppOnFinalViewClose](../windows.ui.viewmanagement/applicationview_terminateapponfinalviewclose.md) property to **true**.
 
 ### Windows Phone 8
 
