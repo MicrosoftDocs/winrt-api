@@ -12,6 +12,9 @@ public class DnssdServiceInstance : Windows.Foundation.IStringable, Windows.Netw
 ## -description
 Encapsulates an instance of a service that uses DNS Service Discovery (DNS-SD).
 
+> [!NOTE]
+> Win32 DNS Service Discovery (DNS-SD) APIs are declared in the [windns.h header](/windows/win32/api/windns/). For example, the Win32 APIs for announcing and discovering services are [DnsServiceRegister](/windows/win32/api/windns/nf-windns-dnsserviceregister) and [DnsServiceBrowse](/windows/win32/api/windns/nf-windns-dnsservicebrowse).
+
 ## -remarks
 Use this class if you are providing a service that advertises itself to other DNS-SD users, or if you are consuming services advertised via DNS-SD.
 
