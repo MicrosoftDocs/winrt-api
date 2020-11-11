@@ -24,7 +24,7 @@ Gets or sets a value that indicates whether source data is grouped.
 ## -remarks
 
 ## -examples
-The following code example demonstrates how to bind a [ListBox](../windows.ui.xaml.controls/listbox.md) control to the results of a grouping LINQ query. In this example, a collection of teams is grouped by city and displayed with the city name as the group headers. For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind). For additional example code on grouping, see the [Grouped GridView sample](https://go.microsoft.com/fwlink/p/?linkid=226564).
+The following code example demonstrates how to bind a [ListBox](../windows.ui.xaml.controls/listbox.md) control to the results of a grouping LINQ query. In this example, a collection of teams is grouped by city and displayed with the city name as the group headers. For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind). For additional example code on grouping, see the [Grouped GridView sample](/samples/browse/).
 
 ```xaml
 <Grid>

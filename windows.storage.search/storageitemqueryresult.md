@@ -23,7 +23,7 @@ You can get a storageItemQueryResult object by calling the following methods fro
 + [storageFolder.createItemQueryWithOptions](../windows.storage/storagefolder_createitemquerywithoptions_1519361285.md) method
 + [folderInformation.createItemQuery](../windows.storage.bulkaccess/folderinformation_createitemquery_543424716.md) methods
 + [folderInformation.createItemQueryWithOptions](../windows.storage.bulkaccess/folderinformation_createitemquerywithoptions_1519361285.md) method
-For related code examples, see [storageFileQueryResult](storagefilequeryresult.md), [storageFolderQueryResult](storagefolderqueryresult.md), the [Folder enumeration sample](/samples/browse/), and the [File system search sample](https://go.microsoft.com/fwlink/p/?linkid=231532).
+For related code examples, see [storageFileQueryResult](storagefilequeryresult.md), [storageFolderQueryResult](storagefolderqueryresult.md), the [Folder enumeration sample](/samples/browse/), and the [File system search sample](/samples/browse/).
 
 ## -examples
 
