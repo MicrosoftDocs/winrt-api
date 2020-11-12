@@ -24,11 +24,9 @@ User or device data to include during device discovery. Must be less than 32 byt
 
 [!code-csharp[PeerRole_CS](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/csharp/PeerRole.xaml.cs#SnippetPeerRole_CS)]
 
-
-[!code-js[PeerRole](../windows.networking.proximity/code/Proximity_FindAllPeersAsync1/js/peerrole.js#SnippetPeerRole)]
-
 ## -see-also
-[Proximity and Tapping (JavaScript)](/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Proximity%20sample)
+
+[Proximity and Tapping (C#/VB/C++)](/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Proximity%20sample)
 
 ## -capabilities
 proximity
