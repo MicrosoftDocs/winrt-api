@@ -33,12 +33,6 @@ The static PointerPoint methods, [GetCurrentPoint](pointerpoint_getcurrentpoint_
 
 In the following example, we query various pointer properties using a PointerPoint object.
 
-[!code-js[QueryPointer](../windows.ui.input/code/PointerInput_JS_DOM/js/js/default.js#SnippetQueryPointer)]
-
-[!code-js[QueryPointer](../windows.ui.input/code/PointerInput_JS_DOM/js/js/default.js#SnippetQueryPointer)]
-
-[!code-js[QueryPointer](../windows.ui.input/code/PointerInput_Universal.Shared/js/default.js#SnippetQueryPointer)]
-
 [!code-csharp[QueryPointer](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
 
 [!code-csharp[QueryPointer](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
@@ -46,4 +40,3 @@ In the following example, we query various pointer properties using a PointerPoi
 ## -see-also
 
 [Windows.UI.Input Classes](windows_ui_input_classes.md), [Windows.Devices.Input](../windows.devices.input/windows_devices_input.md), [Windows.UI.Core](../windows.ui.core/windows_ui_core.md), [Windows.UI.Input](windows_ui_input.md), [Windows.UI.Input.Inking](../windows.ui.input.inking/windows_ui_input_inking.md), [Windows.UI.Xaml.Input](../windows.ui.xaml.input/windows_ui_xaml_input.md), [TypedEventHandler](../windows.foundation/typedeventhandler_2.md), [Custom user interactions](/windows/uwp/design/layout/index), [UX guidelines for custom user interactions](/windows/uwp/design/layout/index), [Touch design guidelines](/windows/uwp/input-and-devices/guidelines-for-user-interaction), [User interaction mode sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UserInteractionMode), [Focus visuals sample](https://go.microsoft.com/fwlink/p/?LinkID=619895), [Input: Device capabilities sample](/samples/browse/), [Input: Ink sample](/samples/browse/), [Input: Manipulations and gestures (JavaScript) sample](/samples/browse/), [Input: Simplified ink  sample](/samples/browse/), [Input: Windows 8 gestures sample](/samples/browse/), [Input: XAML user input events sample](/samples/browse/), [XAML scrolling, panning, and zooming sample](/samples/browse/), [DirectX touch input sample](/samples/browse/), [Input: Manipulations and gestures (C++) sample](/samples/browse/), [Input: Touch hit testing sample](/samples/browse/), [Input source identification sample](/samples/browse/), [Touch injection sample](/samples/browse/), [Win32 touch hit-testing sample](/samples/browse/), [Basic input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620514)
-soft.com/fwlink/p/?LinkId=620514)

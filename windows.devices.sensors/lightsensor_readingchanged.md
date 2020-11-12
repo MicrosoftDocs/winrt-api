@@ -17,30 +17,14 @@ An application may register this event handler to obtain sensor readings. The ap
 
 Applications can set the frequency of this event by setting the **ReportInterval** property.
 
+## -examples
+
 The following example demonstrates how a UWP app built with C# and XAML registers its **ReadingChanged** event handler.
-
-
 
 [!code-csharp[EnableReadingChangedCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
 
 The following example shows the ReadingChanged event handler.
 
-
-
 [!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/lightsensor/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
-
-The following example demonstrates how a UWP app bulit with JavaScript registers its **ReadingChanged** event handler.
-
-
-
-[!code-js[EnableReadingChangedJS](../windows.devices.sensors/code/lightsensor/javascript/scenario1.js#SnippetEnableReadingChangedJS)]
-
-The following example shows the ReadingChanged event handler.
-
-
-
-[!code-js[onDataChangedJS](../windows.devices.sensors/code/lightsensor/javascript/scenario1.js#SnippetonDataChangedJS)]
-
-## -examples
 
 ## -see-also
