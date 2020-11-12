@@ -31,8 +31,6 @@ The DeviceInformation class provides device information, but more specifically, 
 
 This example incrementally enumerates devices, adding them to a list each time a device is found, and also handling removals and updates.
 
-[!code-js[CreateWatcherAllDevicesJs](../windows.devices.enumeration/code/CreateWatcherAllDevices/javascript/default.js#SnippetCreateWatcherAllDevicesJs)]
-
 [!code-csharp[CreateWatcherAllDevicesCs](../windows.devices.enumeration/code/CreateWatcherAllDevices/cs/BlankPage.xaml.cs#SnippetCreateWatcherAllDevicesCs)]
 
 ## -see-also

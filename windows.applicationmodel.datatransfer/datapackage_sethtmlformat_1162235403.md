@@ -26,6 +26,4 @@ If your app supports selection or copying/pasting of HTML content that contains 
 
 [!code-csharp[HowToShareHtml](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareHTML.xaml.cs#SnippetHowToShareHtml_CS)]
 
-[!code-js[HowToShareHtml](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareHtml.js#SnippetHowToShareHtml)]
-
 ## -see-also
