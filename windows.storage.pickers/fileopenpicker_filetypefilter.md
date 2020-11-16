@@ -20,19 +20,11 @@ A [fileExtensionVector](fileextensionvector.md) object that contains a collectio
 ## -examples
 The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) demonstrates how to specify the file types that the user can see and pick from in the file picker.
 
-
-
 [!code-csharp[all_openpicker_setprops](../windows.storage.pickers/code/FilePicker/CS/Scenario1.xaml.cs#Snippetall_openpicker_setprops)]
-
-[!code-js[all_openpicker_setprops](../windows.storage.pickers/code/FilePicker/js/js/scenario1.js#Snippetall_openpicker_setprops)]
-
-
 
 [!code-csharp[all_openpicker_displayAllTypes](../windows.storage.pickers/code/FilePicker/CS/Scenario2.xaml.cs#Snippetall_openpicker_displayAllTypes)]
 
-[!code-js[all_openpicker_displayAllTypes](../windows.storage.pickers/code/FilePicker/js/js/scenario2.js#Snippetall_openpicker_displayAllTypes)]
-
 ## -see-also
 
-[File picker sample](/samples/browse/), [Quickstart: Accessing files with ](/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker class](fileopenpicker.md), [fileExtensionVector class](fileextensionvector.md)
+[File picker sample](/samples/browse/), [fileOpenPicker class](fileopenpicker.md), [fileExtensionVector class](fileextensionvector.md)
 
