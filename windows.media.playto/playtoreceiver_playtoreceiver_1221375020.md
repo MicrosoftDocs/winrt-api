@@ -13,13 +13,11 @@ public PlayToReceiver()
 Creates a new instance of a Play To receiver.
 
 ## -remarks
-For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting) or [Media casting](/windows/uwp/audio-video-camera/media-casting).
+For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 
 
 [!code-csharp[StartAndStop](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetStartAndStop)]
-
-[!code-js[StartAndStop_JS](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetStartAndStop_JS)]
 
 [!code-vb[StartAndStop](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetStartAndStop)]
 

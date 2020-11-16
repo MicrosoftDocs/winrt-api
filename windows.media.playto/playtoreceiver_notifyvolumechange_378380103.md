@@ -20,13 +20,11 @@ The new value for the volume.
 True if the volume was muted; otherwise false.
 
 ## -remarks
-For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting) or [Media casting](/windows/uwp/audio-video-camera/media-casting).
+For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 
 
 [!code-csharp[NotifyVolumeChanged](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetNotifyVolumeChanged)]
-
-[!code-js[NotifyVolumeChanged](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetNotifyVolumeChanged)]
 
 [!code-vb[NotifyVolumeChanged](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetNotifyVolumeChanged)]
 

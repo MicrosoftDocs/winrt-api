@@ -75,8 +75,6 @@ The following code sample shows how to create and initialize a **MediaCapture** 
 
 [!code-csharp[MediaCaptureVideo_InitMCobject](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetMediaCaptureVideo_InitMCobjectCS)]
 
-[!code-js[MediaCaptureVideo_InitMCobject](../windows.media.capture/code/MediaCaptureVideo/javascript/default.js#SnippetMediaCaptureVideo_InitMCobject)]
-
 [!code-xaml[MediaCapturePreviewXAML](../windows.media.capture/code/MediaCapture/csharp/MainPage.xaml#SnippetMediaCapturePreviewXAML)]
 
 [!code-csharp[MediaCapturePreviewCode](../windows.media.capture/code/MediaCapture/csharp/MainPage.xaml.cs#SnippetMediaCapturePreviewCode)]

@@ -25,11 +25,7 @@ The members of the PlayToReceiver class consist of the following:
 
 In Play To, video starts from the current position. If you want to start the video from the beginning, simply seek to the beginning of the video as soon as the Play To connection is established.
 
-For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting) or [Media casting](/windows/uwp/audio-video-camera/media-casting).
-
-
-
-[!code-js[StartAndStop_JS](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetStartAndStop_JS)]
+For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 [!code-csharp[StartAndStop](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetStartAndStop)]
 

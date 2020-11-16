@@ -13,21 +13,15 @@ public class PlayToSource : Windows.Media.PlayTo.IPlayToSource, Windows.Media.Pl
 Represents a media element to connect to a Play To target.
 
 ## -remarks
-For an example of using the PlayToSource class, see [Streaming a slide show using Play To
-(JavaScript)](/previous-versions/windows/apps/hh770876(v=win.10)) or [Media casting](/windows/uwp/audio-video-camera/media-casting).
+For an example of using the PlayToSource class, see [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 ## -examples
 
-
 [!code-csharp[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetSlideShow_CS)]
-
-[!code-js[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/javascript/default.js#SnippetSlideShow)]
 
 [!code-vb[SlideShow](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetSlideShow_CS)]
 
 [!code-csharp[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/csharp/MainPage.xaml.cs#SnippetPlayToContract_CS)]
-
-[!code-js[PlayToContract](../windows.media.playto/code/PlayTo_SlideShow1/javascript/default.js#SnippetPlayToContract)]
 
 [!code-vb[PlayToContract_CS](../windows.media.playto/code/PlayTo_SlideShow1/vbnet/MainPage.xaml.vb#SnippetPlayToContract_CS)]
 

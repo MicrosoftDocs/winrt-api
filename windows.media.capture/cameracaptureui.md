@@ -34,10 +34,6 @@ This code shows how to use the **CameraCaptureUI** class to take a picture. The 
 
 [!code-csharp[CameraCaptureUI_CSharp](../windows.media.capture/code/CameraCaptureUI/cs/CapturePhoto.xaml.cs#SnippetCameraCaptureUI_CSharp)]
 
-
-
-[!code-js[CameraCaptureUI_JavaScript](../windows.media.capture/code/CameraCaptureUI/js/js/capturephoto.js#SnippetCameraCaptureUI_JavaScript)]
-
 ## -see-also
 [Audio, video, and camera](/windows/uwp/audio-video-camera/index), [Capture photos and video with Windows built-in camera UI](/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui)
 

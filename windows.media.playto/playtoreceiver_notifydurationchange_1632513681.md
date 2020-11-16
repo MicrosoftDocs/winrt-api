@@ -17,13 +17,11 @@ Notifies the Play To receiver that the duration of the audio or video playback h
 The new duration of the audio or video media.
 
 ## -remarks
-For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting) or [Media casting](/windows/uwp/audio-video-camera/media-casting).
+For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 
 
 [!code-csharp[NotifyDurationChange](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetNotifyDurationChange)]
-
-[!code-js[NotifyDurationChange](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetNotifyDurationChange)]
 
 [!code-vb[NotifyDurationChange](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetNotifyDurationChange)]
 

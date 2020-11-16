@@ -13,13 +13,11 @@ public void NotifySeeked()
 Notifies the Play To receiver that the audio or video playback element has started at a new playback location.
 
 ## -remarks
-For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting) or [Media casting](/windows/uwp/audio-video-camera/media-casting).
+For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 
 
 [!code-csharp[NotifySeek](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetNotifySeek)]
-
-[!code-js[NotifySeek](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetNotifySeek)]
 
 [!code-vb[NotifySeek](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetNotifySeek)]
 

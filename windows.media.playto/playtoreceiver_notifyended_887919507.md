@@ -13,13 +13,11 @@ public void NotifyEnded()
 Notifies the Play To receiver that the audio or video playback has ended.
 
 ## -remarks
-For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting) or [Media casting](/windows/uwp/audio-video-camera/media-casting).
+For an example of creating a software Play To receiver, see [Media casting](/windows/uwp/audio-video-camera/media-casting).
 
 
 
 [!code-csharp[NotifyEnded](../windows.media.playto/code/PlayTo_Receiver1/csharp/MainPage.xaml.cs#SnippetNotifyEnded)]
-
-[!code-js[NotifyEnded](../windows.media.playto/code/PlayTo_Receiver1/javascript/default.js#SnippetNotifyEnded)]
 
 [!code-vb[NotifyEnded](../windows.media.playto/code/PlayTo_Receiver1/vbnet/MainPage.xaml.vb#SnippetNotifyEnded)]
 
