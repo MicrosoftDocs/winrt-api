@@ -22,7 +22,7 @@ The local advertisement resource is limited at the protocol layer. Usage of this
 The following advertisement types are allowed:
 
 + Manufacturer Specific Information (0xFF)
-+ Any non-standard type not reserved by the system, as shown in the list below. For more information on non-standard types, see [this page](https://www.bluetooth.org/specification/assigned-numbers/generic-access-profile) from the Bluetooth specification.
++ Any non-standard type not reserved by the system, as shown in the list below. For more information on non-standard types, see the [Assigned numbers and GAP](https://www.bluetooth.com/specifications/assigned-numbers/generic-access-profile/) Bluetooth specification.
 
 The following advertisement types are system-reserved and are not allowed:
 
