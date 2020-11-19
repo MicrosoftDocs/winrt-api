@@ -25,7 +25,7 @@ You must specify the **webcam** or **microphone** capabilities in your app manif
 
 <!-- confirmed -->
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
 
 ## -examples
 This code shows how to use the **CameraCaptureUI** class to take a picture. The code is from file CapturePhoto.xaml.cs of the [Camera capture UI sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/CameraCaptureUI%20Sample%20(Windows%208)). The dialog with the user occurs when you call the asynchronous method [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md).
@@ -33,10 +33,6 @@ This code shows how to use the **CameraCaptureUI** class to take a picture. The 
 
 
 [!code-csharp[CameraCaptureUI_CSharp](../windows.media.capture/code/CameraCaptureUI/cs/CapturePhoto.xaml.cs#SnippetCameraCaptureUI_CSharp)]
-
-
-
-[!code-js[CameraCaptureUI_JavaScript](../windows.media.capture/code/CameraCaptureUI/js/js/capturephoto.js#SnippetCameraCaptureUI_JavaScript)]
 
 ## -see-also
 [Audio, video, and camera](/windows/uwp/audio-video-camera/index), [Capture photos and video with Windows built-in camera UI](/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui)

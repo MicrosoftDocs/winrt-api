@@ -26,6 +26,4 @@ Contains **True** if the current process is running in a remote session or **Fal
 
 [!code-vb[_InteractiveSession_IsRemote_vb](../windows.system.remotedesktop/code/IsRemoteSession/VB/RemoteSession.xaml.vb#Snippet_InteractiveSession_IsRemote_vb)]
 
-[!code-js[_InteractiveSession_IsRemote_js](../windows.system.remotedesktop/code/IsRemoteSession/JS/js/RemoteSession.js#Snippet_InteractiveSession_IsRemote_js)]
-
 ## -see-also

@@ -70,4 +70,4 @@ if ( file !== null) {
 In the example, `file` is a local variable that contains a [storageFile](storagefile.md) that represents the file to write.
 
 ## -see-also
-[File Access sample](https://go.microsoft.com/fwlink/p/?linkid=231445), [IClosable](../windows.foundation/iclosable.md)
+[File Access sample](/samples/browse/), [IClosable](../windows.foundation/iclosable.md)

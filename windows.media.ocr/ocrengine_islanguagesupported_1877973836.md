@@ -11,7 +11,7 @@ public bool IsLanguageSupported(Windows.Globalization.Language language)
 # Windows.Media.Ocr.OcrEngine.IsLanguageSupported
 
 ## -description
-Returns true if a specified language can be resolved to any of the available OCR languages. See [language matching](https://go.microsoft.com/fwlink/?LinkId=534536) for a further explanation of language resolving.
+Returns true if a specified language can be resolved to any of the available OCR languages. See [language matching](/previous-versions/windows/apps/jj673578(v=win.10)) for a further explanation of language resolving.
 
 ## -parameters
 ### -param language

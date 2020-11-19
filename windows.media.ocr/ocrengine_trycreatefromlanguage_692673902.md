@@ -18,7 +18,7 @@ Creates a new instance of the [OcrEngine](ocrengine.md) class.
 The language being used for text recognition.
 
 ## -returns
-If the specified language can be resolved to any of the OCR languages available on the device, returns new instance of **OcrEngine** class, otherwise returns **null**. See [language matching](https://go.microsoft.com/fwlink/?LinkId=534536) for a further explanation of language resolving.
+If the specified language can be resolved to any of the OCR languages available on the device, returns new instance of **OcrEngine** class, otherwise returns **null**. See [language matching](/previous-versions/windows/apps/jj673578(v=win.10)) for a further explanation of language resolving.
 
 ## -remarks
 

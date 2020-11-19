@@ -17,30 +17,14 @@ An application may register this event handler to obtain sensor readings. The ap
 
 The [OrientationSensor](orientationsensor.md) returns a quaternion and a rotation matrix.
 
+## -examples
+
 The following example demonstrates how a UWP app built with C# and XAML registers its **ReadingChanged** event handler.
-
-
 
 [!code-csharp[EnableReadingChangedCS](../windows.devices.sensors/code/orientation/csharp/Scenario1.xaml.cs#SnippetEnableReadingChangedCS)]
 
 The following example shows the [ReadingChanged](orientationsensorreadingchangedeventargs.md) event handler.
 
-
-
 [!code-csharp[ReadingChangedCS](../windows.devices.sensors/code/orientation/csharp/Scenario1.xaml.cs#SnippetReadingChangedCS)]
-
-The following example demonstrates how a UWP app built with JavaScript registers its **ReadingChanged** event handler.
-
-
-
-[!code-js[EnableReadingChangedJS](../windows.devices.sensors/code/orientation/javascript/scenario1.js#SnippetEnableReadingChangedJS)]
-
-The following example shows the ReadingChanged event handler.
-
-
-
-[!code-js[onDataChangedJS](../windows.devices.sensors/code/orientation/javascript/scenario1.js#SnippetonDataChangedJS)]
-
-## -examples
 
 ## -see-also

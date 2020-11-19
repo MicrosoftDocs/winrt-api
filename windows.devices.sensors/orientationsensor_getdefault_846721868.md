@@ -22,19 +22,11 @@ This method only returns values for hardware that has been integrated into the c
 
 When a system is in Connected Standby, a call to the [GetDefault](orientationsensor_getdefault_2064571144.md) method will return immediately with a null result.
 
+## -examples
+
 The following example demonstrates how a UWP app built with XAML and C# used this method to establish a connection to the orientation sensor.
 
-
-
 [!code-csharp[GetDefaultCS](../windows.devices.sensors/code/orientation/csharp/Scenario1.xaml.cs#SnippetGetDefaultCS)]
-
-The following example demonstrates how a UWP app built for Windows using JavaScript used this method to establish a connection to the orientation sensor.
-
-
-
-[!code-js[GetDefaultJS](../windows.devices.sensors/code/orientation/javascript/scenario1.js#SnippetGetDefaultJS)]
-
-## -examples
 
 ## -see-also
 [GetDefault(SensorReadingType)](orientationsensor_getdefault_2064571144.md), [GetDefault(SensorReadingType, SensorOptimizationGoal)](orientationsensor_getdefault_274432112.md)

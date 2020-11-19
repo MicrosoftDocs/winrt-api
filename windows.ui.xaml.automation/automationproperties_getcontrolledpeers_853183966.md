@@ -22,7 +22,7 @@ A list containing the peers that the target element controls.
 ## -remarks
 Examining controlled peers is an advanced scenario that most peer implementations won't need to use.
 
-This identifier is commonly used for [Auto-suggest accessibility](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility).
+This identifier is commonly used for [Auto-suggest accessibility](/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility).
 
 ## -examples
 

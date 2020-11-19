@@ -23,4 +23,4 @@ These classes provide functionality that includes:
 
 ## -see-also
 
-[Creating and retrieving resources in UWP apps](/previous-versions/windows/apps/hh694557(v=vs.140)), [Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=227301), [Resource Management System](/previous-versions/windows/apps/jj552947(v=win.10)), [Application resources and localization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620487)
+[Creating and retrieving resources in UWP apps](/previous-versions/windows/apps/hh694557(v=vs.140)), [Application resources and localization sample](/samples/browse/), [Resource Management System](/previous-versions/windows/apps/jj552947(v=win.10)), [Application resources and localization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620487)

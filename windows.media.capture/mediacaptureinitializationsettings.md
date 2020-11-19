@@ -37,8 +37,6 @@ The following example initializes the **MediaCaptureInitializationSettings**. Ca
 
 [!code-csharp[MediaCaptureVideo_InitSettings](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetMediaCaptureVideo_InitSettingsCS)]
 
-[!code-js[MediaCaptureVideo_InitSettings](../windows.media.capture/code/MediaCaptureVideo/javascript/default.js#SnippetMediaCaptureVideo_InitSettings)]
-
 ## -see-also
 
 [Camera profiles sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/CameraProfile), [Video stabilization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraVideoStabilization)

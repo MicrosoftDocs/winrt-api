@@ -12,6 +12,9 @@ public class DnssdRegistrationResult : Windows.Foundation.IStringable, Windows.N
 ## -description
 Encapsulates detailed information about the result of an attempt to register a service instance using DNS-SD.
 
+> [!NOTE]
+> Win32 DNS Service Discovery (DNS-SD) APIs are declared in the [windns.h header](/windows/win32/api/windns/). For example, the Win32 APIs for announcing and discovering services are [DnsServiceRegister](/windows/win32/api/windns/nf-windns-dnsserviceregister) and [DnsServiceBrowse](/windows/win32/api/windns/nf-windns-dnsservicebrowse).
+
 ## -remarks
 See [RFC 1034](https://go.microsoft.com/fwlink/?LinkId=524161) for details about the format and contents of the DNS SRV RR, and [RFC 2782](https://go.microsoft.com/fwlink/?LinkId=524158) for details about how DNS-SD clients and servers use those records.
 

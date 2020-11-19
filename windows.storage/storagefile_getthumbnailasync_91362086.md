@@ -33,6 +33,7 @@ The enum value that describes the desired behavior to use to retrieve the thumbn
 When this method completes successfully, it returns a [StorageItemThumbnail](../windows.storage.fileproperties/storageitemthumbnail.md) that represents the thumbnail image or **null** if there is no thumbnail image associated with the file.
 
 ## -remarks
+While GetThumbnailAsync adheres to the max size supported by the thumbnail disk cache, GetScaledImageAsThumbnailAsync can extract thumbnails that are larger than what the thumbnail disk cache supports. GetScaledImageAsThumbnailAsync provides optimal quality but can affect performance by not using the disk cache if the thumbnail size is too large.
 
 ## -examples
 This example shows you how to capture the thumbnail of a file using the [storageFile.getThumbnailAsync(mode, requestedSize, options) method.
@@ -51,4 +52,4 @@ storageFile.getThumbnailAsync(
 You must have a [StorageFile](storagefile.md) object (`storageFile` in the example) that represents your file in order to use one of the [StorageFile.GetThumbnailAsync](storagefile_getthumbnailasync_1511435522.md) methods.
 
 ## -see-also
-[GetThumbnailAsync(ThumbnailMode)](storagefile_getthumbnailasync_1575071988.md), [GetThumbnailAsync(ThumbnailMode, UInt32)](storagefile_getthumbnailasync_1511435522.md), [ThumbnailOptions](../windows.storage.fileproperties/thumbnailoptions.md)
+[GetScaledImageAsThumbnailAsync(ThumbnailMode)](storagefile_getscaledimageasthumbnailasync_1603417158.md), [GetScaledImageAsThumbnailAsync(ThumbnailMode, UInt32)](storagefile_getscaledimageasthumbnailasync_1483024820.md), [GetScaledImageAsThumbnailAsync(ThumbnailMode, UInt32, ThumbnailOptions)](storagefile_getscaledimageasthumbnailasync_117544848.md), [GetThumbnailAsync(ThumbnailMode)](storagefile_getthumbnailasync_1575071988.md), [GetThumbnailAsync(ThumbnailMode, UInt32)](storagefile_getthumbnailasync_1511435522.md), [ThumbnailOptions](../windows.storage.fileproperties/thumbnailoptions.md), [GetScaledImageAsThumbnailAsync(ThumbnailMode)](storagefile_getscaledimageasthumbnailasync_1603417158.md), [GetScaledImageAsThumbnailAsync(ThumbnailMode, UInt32)](storagefile_getscaledimageasthumbnailasync_1483024820.md),
