@@ -55,7 +55,7 @@ private void mySearchBox_QuerySubmitted(SearchBox sender, SearchBoxQuerySubmitte
 
 ```
 
-```vbnet
+```vb
 Private Sub mySearchBox_QuerySubmitted(sender As SearchBox, args As SearchBoxQuerySubmittedEventArgs)
     Me.Frame.Navigate(GetType(SearchResultsPage1), args.QueryText)
 End Sub

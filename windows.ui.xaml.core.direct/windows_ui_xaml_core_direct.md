@@ -48,7 +48,7 @@ In this example, we create a [Border](../windows.ui.xaml.controls/border.md) ele
 
 2. Using regular imperative code, with full XAML types:
 
-```C#
+```csharp
 Border border = new Border();
 border.BorderBrush = new SolidColorBrush(Colors.Black);
 border.BorderThickness = new Thickness(5);
@@ -68,7 +68,7 @@ RootGrid.Children.Add(border);
 
 The following code will have higher performance than using full XAML types since all operations like instantiation and setting of properties on various elements are accomplished through [IXamlDirectObjects](ixamldirectobject.md) instead of the full XAML types.
 
-```C#
+```csharp
 XamlDirect xamlDirect = XamlDirect.GetDefault();
 
 IXamlDirectObject border = XamlDirect.CreateInstance(XamlTypeIndex.Border);

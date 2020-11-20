@@ -138,7 +138,7 @@ private void passwordBox_PasswordChanged(object sender, RoutedEventArgs e)
 }
 ```
 
-```vbnet
+```vb
 
 Private Sub passwordBox_PasswordChanged(sender As Object, e As RoutedEventArgs)
     If passwordBox.Password = "Password" Then

@@ -31,7 +31,7 @@ Refers to the [IXamlDirectObject](ixamldirectobject.md) value to remove from the
 ## -examples
 The following example shows how to remove a value from a collection using [XamlDirect](xamldirect.md) APIs.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 IXamlDirectObject relativePanel = xd.CreateInstance(XamlTypeIndex.RelativePanel);
@@ -45,7 +45,7 @@ xd.RemoveFromCollection(childrenCollection, button); // Should return true
 xd.RemoveFromCollection(childrenCollection, button); // Should return false
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 IXamlDirectObject^ relativePanel = xd->CreateInstance(XamlTypeIndex::RelativePanel);

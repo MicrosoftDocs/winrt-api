@@ -27,7 +27,7 @@ Refers to the index in the collection where the value must be removed.
 ## -examples
 The following example shows how to remove a value from a specific index using [XamlDirect](xamldirect.md) APIs.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 IXamlDirectObject relativePanel = xd.CreateInstance(XamlTypeIndex.RelativePanel);
@@ -37,7 +37,7 @@ IXamlDirectObject childrenCollection = xd.GetXamlDirectObjectProperty(relativePa
 xd.RemoveFromCollectionAt(childrenCollection, 0);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 IXamlDirectObject^ relativePanel = xd->CreateInstance(XamlTypeIndex::RelativePanel);

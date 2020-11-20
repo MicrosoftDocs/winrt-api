@@ -46,7 +46,7 @@ Here is a list of Microsoft-signed voices provided with Windows.
 
 Here, we show how to select a gender for the voice (VoiceInformation.Gender) by using either the first female voice ([VoiceGender](voicegender.md)) found, or just the default system voice ([SpeechSynthesizer.DefaultVoice](speechsynthesizer_defaultvoice.md)), if no female voice is found.
 
-``` csharp
+```csharp
 using (SpeechSynthesizer synthesizer = new SpeechSynthesizer())
 {
     VoiceInformation voiceInfo =

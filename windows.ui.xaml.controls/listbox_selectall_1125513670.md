@@ -38,7 +38,7 @@ if (listBox->SelectionMode != SelectionMode::Single)
 }
 ```
 
-```vbnet
+```vb
 If listBox.SelectionMode <> SelectionMode.Single Then
     listBox.SelectAll()
 End If

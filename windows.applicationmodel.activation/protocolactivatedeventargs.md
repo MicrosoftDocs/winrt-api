@@ -50,7 +50,7 @@ public partial class App
 }
 ```
 
-```vbnet
+```vb
 Private Sub OnFileActivated(ByVal args As Windows.ApplicationModel.Activation.IActivatedEventArgs)
    If args.Kind = ActivationKind.Protocol Then
       ProtocolActivatedEventArgs eventArgs = args As ProtocolActivatedEventArgs

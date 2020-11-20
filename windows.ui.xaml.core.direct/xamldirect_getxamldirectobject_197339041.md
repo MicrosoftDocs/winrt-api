@@ -29,14 +29,14 @@ Use this method to convert from a full XAML type to its [XamlDirect](xamldirect.
 ## -examples
 The following example shows how to get the [IXamlDirectObject](ixamldirectobject.md) instance from a full XAML type.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 Border border = new Border();
 IXamlDirectObject borderXDO = xd.GetXamlDirectObject(border);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 Border^ border = ref new Border();

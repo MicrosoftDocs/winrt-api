@@ -26,12 +26,12 @@ Returns the [IXamlDirectObject](ixamldirectobject.md) instance.
 ## -examples
 The following example shows how to create an [IXamlDirectObject](ixamldirectobject.md) instance for a [Border](../windows.ui.xaml.controls/border.md) element. 
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 IXamlDirectObject border = xd.CreateInstance(XamlTypeIndex.Border);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 IXamlDirectObject^ border = xd->CreateInstance(XamlTypeIndex::Border);
 ```

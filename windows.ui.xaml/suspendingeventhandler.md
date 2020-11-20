@@ -42,7 +42,7 @@ async protected void OnSuspending(object sender, SuspendingEventArgs args)
 }
 ```
 
-```vbnet
+```vb
 Private Async Sub OnSuspending(sender As Object, args As SuspendingEventArgs) 
     Dim deferral As SuspendingDeferral = args.SuspendingOperation.GetDeferral 
     Await SuspensionManager.SaveAsync 

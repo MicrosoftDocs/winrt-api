@@ -23,13 +23,13 @@ A reference to the property to be cleared from the list of supported properties 
 ## -examples
 The following example shows how to clear the value of a [Border](../windows.ui.xaml.controls/border.md) element's [MinHeight](../windows.ui.xaml/frameworkelement_minheight.md) property through [XamlDirect](xamldirect.md) APIs.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 IXamlDirectObject border = xd.CreateInstance(XamlTypeIndex.Border);
 xd.ClearProperty(border, XamlPropertyIndex.FrameworkElement_MinHeight);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 IXamlDirectObject^ border = xd->CreateInstance(XamlTypeIndex::Border);
 xd->ClearProperty(border, XamlPropertyIndex::FrameworkElement_MinHeight);

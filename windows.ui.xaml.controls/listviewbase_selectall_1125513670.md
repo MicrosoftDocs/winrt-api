@@ -47,7 +47,7 @@ if (itemGridView->SelectionMode == ListViewSelectionMode::Multiple ||
 }
 ```
 
-```vbnet
+```vb
 If itemGridView.SelectionMode = ListViewSelectionMode.Multiple OrElse
    itemGridView.SelectionMode = ListViewSelectionMode.Extended Then
 

@@ -41,7 +41,7 @@ See [UIElement.AddHandler](../windows.ui.xaml/uielement_addhandler_2121467075.md
 ## -examples
 The following example shows how to add/modify the [PointerEntered](../windows.ui.xaml/uielement_pointerentered.md) event through a specific instance of [PointerEventHandler](../windows.ui.xaml.input/pointereventhandler.md) on a [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) control from its [IXamlDirectObject](ixamldirectobject.md) instance.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 IXamlDirectObject toggleSwitch = xd.CreateInstance(XamlTypeIndex.ToggleSwitch);
@@ -57,7 +57,7 @@ PointerEventHandler toggleSwitchPointerHandler = new PointerEventHandler((sender
 xd.AddEventHandler(toggleSwitch, XamlEventIndex.UIElement_PointerEntered, toggleSwitchPointerHandler, true);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 IXamlDirectObject^ toggleSwitch = xd->CreateInstance(XamlTypeIndex::ToggleSwitch);

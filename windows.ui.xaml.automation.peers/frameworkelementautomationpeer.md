@@ -218,7 +218,7 @@ struct MediaContainerAP : MediaContainerAPT<MediaContainerAP>
 // pattern implementation omitted
 ```
 
-```vbnet
+```vb
     Public Class MediaContainerAP
         Inherits FrameworkElementAutomationPeer
         Implements IRangeValueProvider

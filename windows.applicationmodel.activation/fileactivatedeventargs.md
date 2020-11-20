@@ -46,7 +46,7 @@ protected override void OnFileActivated(FileActivatedEventArgs args)
 }
 ```
 
-```vbnet
+```vb
 Private Sub OnFileActivated(ByVal args As Windows.ApplicationModel.Activation.FileActivatedEventArgs)
       ' TODO: Handle file activation
 

@@ -57,7 +57,7 @@ protected:
 };
 ```
 
-```vbnet
+```vb
 Protected Overrides Function OnCreateAutomationPeer() As AutomationPeer
     Return New MediaContainerAP(Me, mediaElement)
 End Function

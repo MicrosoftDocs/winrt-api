@@ -29,14 +29,14 @@ Use this method to convert from a [XamlDirect](xamldirect.md) instance to its fu
 ## -examples
 The following example shows how to convert an [IXamlDirectObject](ixamldirectobject.md) instance pointing to a [Border](../windows.ui.xaml.controls/border.md) element to its full XAML type.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 IXamlDirectObject border = xd.CreateInstance(XamlTypeIndex.Border);
 Border borderDO = (Border)xd.GetObject(border);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 IXamlDirectObject^ border = xd->CreateInstance(XamlTypeIndex::Border);

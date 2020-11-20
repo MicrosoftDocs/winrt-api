@@ -23,7 +23,7 @@ Count of items.
 ## -examples
 The following example shows how to get the count of [Panel.Children](../windows.ui.xaml.controls/panel_children.md) through the [IXamlDirectObject](ixamldirectobject.md)'s instance.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 IXamlDirectObject relativePanel = xd.CreateInstance(XamlTypeIndex.RelativePanel);
@@ -33,7 +33,7 @@ IXamlDirectObject childrenCollection = xd.GetXamlDirectObjectProperty(relativePa
 uint count = xd.GetCollectionCount(childrenCollection);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 IXamlDirectObject^ relativePanel = xd->CreateInstance(XamlTypeIndex::RelativePanel);
