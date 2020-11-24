@@ -10,10 +10,10 @@ public Windows.Foundation.TimeSpan Min { get; }
 # Windows.Media.Devices.ExposureControl.Min
 
 ## -description
-Gets the minimum exposure time.
+Gets the minimum EV compensation supported.
 
 ## -property-value
-The minimum exposure time.
+The minimum EV compensation supported. This is an absolute EV value.
 
 ## -remarks
 
