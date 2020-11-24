@@ -36,7 +36,7 @@ public static readonly DependencyProperty LabelProperty = DependencyProperty.Reg
 );
 ```
 
-```vbnet
+```vb
 Public Shared ReadOnly LabelProperty As DependencyProperty = _
     DependencyProperty.Register("Label", _
       GetType(String), GetType(ImageWithLabelControl), _

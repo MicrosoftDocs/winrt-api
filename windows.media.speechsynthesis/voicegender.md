@@ -29,7 +29,7 @@ Female
 
 Here, we show how to select a gender for the voice ([VoiceInformation.Gender](voiceinformation_gender.md)) by using either the first female voice (VoiceGender) found, or just the default system voice ([SpeechSynthesizer.DefaultVoice](speechsynthesizer_defaultvoice.md)), if no female voice is found.
 
-``` csharp
+```csharp
 using (SpeechSynthesizer synthesizer = new SpeechSynthesizer())
 {
     VoiceInformation voiceInfo =

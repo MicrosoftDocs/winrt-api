@@ -96,7 +96,7 @@ public BlankPage()
 }
 ```
 
-```vbnet
+```vb
 
 Dim fonts As New ObservableCollection(of FontFamily) 
 

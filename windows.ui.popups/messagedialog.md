@@ -177,7 +177,7 @@ void CancelCommand::CommandInvokedHandler(Windows::UI::Popups::IUICommand^ comma
 }
 ```
 
-```vbnet
+```vb
 Imports Windows.UI.Popups
 Imports Windows.UI.Xaml
 Imports Windows.UI.Xaml.Controls

@@ -24,7 +24,7 @@ Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
 ## -examples
 The following example shows how to add to use the ClearCollection method to clear a collection pointed to by the specified [IXamlDirectObject](ixamldirectobject.md).
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 IXamlDirectObject relativePanel = xd.CreateInstance(XamlTypeIndex.RelativePanel);
@@ -37,7 +37,7 @@ xd.AddToCollection(childrenCollection, button);
 xd.ClearCollection(childrenCollection);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 IXamlDirectObject^ relativePanel = xd->CreateInstance(XamlTypeIndex::RelativePanel);

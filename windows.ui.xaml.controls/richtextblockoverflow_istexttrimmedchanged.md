@@ -84,7 +84,7 @@ Resizing the window causes the columns to resize, which triggers the [IsTextTrim
 </StackPanel>
 ```
 
-``` csharp
+```csharp
 namespace TextTrimming1
 {
     /// <summary>

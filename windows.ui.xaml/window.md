@@ -47,7 +47,7 @@ protected override void OnLaunched(LaunchActivatedEventArgs args)
 
 ```
 
-```vbnet
+```vb
 Protected Overrides Sub OnLaunched(args As 
     Windows.ApplicationModel.Activation.LaunchActivatedEventArgs)
 

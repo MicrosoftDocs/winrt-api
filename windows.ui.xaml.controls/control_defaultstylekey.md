@@ -37,7 +37,7 @@ public CustomControl1()
 
 + For a control that has its logic written in Microsoft Visual Basic, the value of DefaultStyleKey should be an instance of [System.Type](/dotnet/api/system.type?redirectedfrom=MSDN). Typically you set this value in the default constructor:
 
-```vbnet
+```vb
 Public Sub New()
     Me.DefaultStyleKey = GetType(CustomControl1)
 End Sub

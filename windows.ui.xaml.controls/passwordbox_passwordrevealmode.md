@@ -70,7 +70,7 @@ private void CheckBox_Changed(object sender, RoutedEventArgs e)
 }
 ```
 
-```vbnet
+```vb
 
 Private Sub CheckBox_Changed(sender As Object, e As RoutedEventArgs)
     If revealModeCheckBox.IsChecked = True Then

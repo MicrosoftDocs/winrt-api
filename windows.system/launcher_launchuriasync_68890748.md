@@ -156,7 +156,7 @@ Windows.System.Launcher.launchUriAsync(uri, options).then(
    });
 ```
 
-```vbnet
+```vb
 ' The URI to launch
 Dim uri As New Uri("http://www.bing.com")
 

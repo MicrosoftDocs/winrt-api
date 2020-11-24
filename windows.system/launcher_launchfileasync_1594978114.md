@@ -146,7 +146,7 @@ Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(imageFil
   });
 ```
 
-```vbnet
+```vb
 async Sub DefaultLaunch()
 
    ' Path to the file in the app package to launch

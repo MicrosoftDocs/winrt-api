@@ -45,7 +45,7 @@ PackageId packageId = package.Id;
 PackageVersion version = packageId.Version;
 ```
 
-```vbnet
+```vb
 Dim package As Windows.ApplicationModel.Package = Windows.ApplicationModel.Package.Current
 Dim packageId As Windows.ApplicationModel.PackageId = package.Id
 Dim version As Windows.ApplicationModel.PackageVersion = packageId.Version

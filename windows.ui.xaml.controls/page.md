@@ -64,7 +64,7 @@ The following code example shows an abridged version (except for the [C++/WinRT]
         }
 ```
 
-```vbnet
+```vb
     Protected Overrides Sub OnLaunched(e As Windows.ApplicationModel.Activation.LaunchActivatedEventArgs)
         Dim rootFrame As Frame = TryCast(Window.Current.Content, Frame)
         If rootFrame Is Nothing Then

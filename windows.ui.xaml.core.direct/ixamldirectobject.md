@@ -27,6 +27,6 @@ IXamlDirectObject is the minimal handle to Xaml's internal object instances. It 
 
 The following example shows how to create an instance of an internal Xaml object of type Border.
 
-```C#
+```csharp
 IXamlDirectObject border = XamlDirect.CreateInstance(XamlTypeIndex.Border);
 ```

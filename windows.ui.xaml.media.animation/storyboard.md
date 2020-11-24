@@ -110,7 +110,7 @@ The following example shows how to use the [Begin](storyboard_begin_1621727531.m
         }
 ```
 
-```vbnet
+```vb
     ' need Imports for Windows.UI.Xaml.Shapes, Windows.UI.Media.Animation, Windows.UI
     Private Sub Create_And_Run_Animation(sender As Object, e As RoutedEventArgs)
         ' Create a red rectangle that will be the target

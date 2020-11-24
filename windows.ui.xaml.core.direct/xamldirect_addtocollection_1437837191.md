@@ -30,7 +30,7 @@ Refers to the [IXamlDirectObject](ixamldirectobject.md) value to add to the coll
 ## -examples
 The following example shows how to add a value to a collection using [XamlDirect](xamldirect.md) APIs.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 IXamlDirectObject relativePanel = xd.CreateInstance(XamlTypeIndex.RelativePanel);
@@ -41,7 +41,7 @@ IXamlDirectObject button = xd.CreateInstance(XamlTypeIndex.Button);
 xd.AddToCollection(childrenCollection, button);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 IXamlDirectObject^ relativePanel = xd->CreateInstance(XamlTypeIndex::RelativePanel);

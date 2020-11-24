@@ -26,7 +26,7 @@ This method is Multi-User Aware (MUA).
 [GetFileFromPathAsync](storagefile_getfilefrompathasync_1252266672.md)
 
 ## -examples
-``` csharp
+```csharp
 
 async Task<StorageFile> GetStorageFileAsync(User user, string path) {     
     // It is possible the file no longer exists     

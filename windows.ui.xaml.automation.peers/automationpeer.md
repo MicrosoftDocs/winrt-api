@@ -37,7 +37,7 @@ if (AutomationPeer.ListenerExists(AutomationEvents.PropertyChanged))
 
 ```
 
-```vbnet
+```vb
 If AutomationPeer.ListenerExists(AutomationEvents.PropertyChanged) Then
     Dim peer As MyAutomationPeer = _
     TryCast(FrameworkElementAutomationPeer.FromElement(myCtrl), MyAutomationPeer)
