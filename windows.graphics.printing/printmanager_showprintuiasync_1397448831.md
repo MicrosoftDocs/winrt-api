@@ -43,9 +43,9 @@ async private void printButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-In this example, a print window is displayed in the event handler for a button click. If the method throws an exception (because printing can't be performed at that time), a [ContentDialog](../windows.ui.xaml.controls/contentdialog.md) control informs the user of the situation. For more info about printing from your app, see [Printing](/previous-versions/windows/apps/hh465225(v=win.10)).
+In this example, a print window is displayed in the event handler for a button click. If the method throws an exception (because printing can't be performed at that time), a [ContentDialog](../windows.ui.xaml.controls/contentdialog.md) control informs the user of the situation. For more info about printing from your app, see [Printing](/windows/uwp/devices-sensors/print-from-your-app).
 
 ## -examples
 
 ## -see-also
-[Printing](/previous-versions/windows/apps/hh465225(v=win.10))
+[Printing](/windows/uwp/devices-sensors/print-from-your-app)

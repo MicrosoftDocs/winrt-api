@@ -28,4 +28,4 @@ Pointer to the print task that was created.
 ## -examples
 
 ## -see-also
-[Printing](/previous-versions/windows/apps/hh465225(v=win.10)), [PrintTask](printtask.md), [PrintTaskSourceRequestedHandler](printtasksourcerequestedhandler.md)
+[Printing](/windows/uwp/devices-sensors/print-from-your-app), [PrintTask](printtask.md), [PrintTaskSourceRequestedHandler](printtasksourcerequestedhandler.md)

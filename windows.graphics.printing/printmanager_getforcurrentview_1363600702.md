@@ -21,4 +21,4 @@ The **PrintManager** object.
 ## -examples
 
 ## -see-also
-[Authoring a  for Printers](/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers), [Printing](/previous-versions/windows/apps/hh465225(v=win.10))
+[UWP device apps for printers](/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers), [Printing](/windows/uwp/devices-sensors/print-from-your-app)

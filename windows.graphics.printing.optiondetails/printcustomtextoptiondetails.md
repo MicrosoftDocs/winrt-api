@@ -14,21 +14,20 @@ public class PrintCustomTextOptionDetails : Windows.Graphics.Printing.OptionDeta
 Represents a custom print task option.
 
 ## -remarks
-Here is a JavaScript code snippet that shows how to retrieve the object:
 
-```javascript
-// This code creates a new custom text option and returns a 
-// customTextOption is an object of type: PrintCustomTextOptionDetails 
-var customTextOption =
-      printDetailedOptions.createTextOption("myCustomText", "Custom Options");
+Here is a code snippet that shows how to retrieve the object:
 
-// later in your app, when you want to access the custom text option created above,
-// but you don’t have access to the customTextOption variable that was returned 
-// when it was created, you can get it by looking up the same optionId that 
+```csharp
+// This code creates a new custom text option. 
+PrintCustomTextOptionDetails customTextOption =
+    printDetailedOptions.CreateTextOption("myCustomText", "Custom Options");
+
+// Later in your app, when you want to access the custom text option created above,
+// but you don't have access to the customTextOption variable that was returned
+// when it was created, you can get it by looking up the same optionId that
 // you used to create it. 
-var printCustomTextOptionDetails =
-      printDetailedOptions.options.lookup("myCustomText");
-
+PrintCustomTextOptionDetails printCustomTextOptionDetails =
+    (PrintCustomTextOptionDetails)printDetailedOptions.Options["myCustomText"];
 ```
 
 ### Version history

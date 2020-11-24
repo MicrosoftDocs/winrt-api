@@ -21,12 +21,16 @@ This object is not instantiated directly. Simply use the static [Show](cameraopt
 ## -examples
 The following example shows how to use this class to display the camera options.
 
-
-
-[!code-js[MediaCaptureVideo_UIShow](../windows.media.capture/code/MediaCaptureVideo/javascript/default.js#SnippetMediaCaptureVideo_UIShow)]
+```csharp
+private void ShowWebcamSettings()
+{
+    var mediaCaptureMgr = new Windows.Media.Capture.MediaCapture();
+    Windows.Media.Capture.CameraOptionsUI.Show(mediaCaptureMgr);
+}
+```
 
 ## -see-also
-[Audio, video, and camera](/windows/uwp/audio-video-camera/index), [Audio, video, and camera](/windows/uwp/audio-video-camera/index), [Camera capture UI sample](/samples/browse/), [Camera options UI sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/CameraOptionsUI%20Sample%20(Windows%208)/C%2B%2B)
+[Audio, video, and camera](/windows/uwp/audio-video-camera/index), [Camera capture UI sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/CameraCaptureUI%20Sample)
 
 ## -capabilities
 microphone, webcam
