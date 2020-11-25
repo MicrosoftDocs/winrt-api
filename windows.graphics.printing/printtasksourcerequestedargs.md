@@ -11,21 +11,37 @@ public class PrintTaskSourceRequestedArgs : Windows.Graphics.Printing.IPrintTask
 # Windows.Graphics.Printing.PrintTaskSourceRequestedArgs
 
 ## -description
-Arguments associated with the [PrintTaskSourceRequestedHandler](printtasksourcerequestedhandler.md) delegate. Provides a method for handing the content to be printed to the Print Task.
+Arguments associated with the [PrintTaskSourceRequestedHandler](printtasksourcerequestedhandler.md) delegate. Provides a method for handing the content to be printed to the PrintTask.
 
 ## -remarks
-PrintTaskSourceRequestedArgs can, for example, be used to retrieve the deadline for a print task. Here is a JavaScript code snippet that retrieves a print task deadline:
+PrintTaskSourceRequestedArgs is used to set the source of the content to be printed. Here is a code snippet from the [UWP print sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Printing) that shows the [SetSource](printtasksourcerequestedargs_setsource_1925283600.md) method:
 
+```csharp
+protected virtual void PrintTaskRequested(PrintManager sender, PrintTaskRequestedEventArgs e)
+{
+    PrintTask printTask = null;
+    printTask = e.Request.CreatePrintTask("C# Printing SDK Sample", sourceRequested =>
+    {
+        // Print Task event handler is invoked when the print job is completed.
+        printTask.Completed += async (s, args) =>
+        {
+            // Notify the user when the print operation fails.
+            if (args.Completion == PrintTaskCompletion.Failed)
+            {
+                await scenarioPage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                {
+                    MainPage.Current.NotifyUser("Failed to print.", NotifyType.ErrorMessage);
+                });
+            }
+        };
 
-
-
-
-```javascript
-// Get a value for the DateTime object for a print task
-var deadline = Windows.Graphics.Printing.PrintTaskSourceRequestedArgs.deadline;
-
+        // Call PrintTaskSourceRequestedArgs.SetSource
+        sourceRequested.SetSource(printDocumentSource);
+    });
+}
 ```
 
+For more information on this and other printing scenarios, see [Printing](/windows/uwp/devices-sensors/print-from-your-app) and the [UWP print sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Printing).
 
 
 ## -examples

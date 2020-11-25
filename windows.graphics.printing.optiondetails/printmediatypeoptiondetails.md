@@ -14,17 +14,16 @@ public class PrintMediaTypeOptionDetails : Windows.Graphics.Printing.OptionDetai
 Represents the list of print media type options.
 
 ## -remarks
-Here is a JavaScript code snippet that shows how to retrieve the object:
 
-```javascript
-//  Retrieve the advanced Print Task Options
-var printDetailedOptions = 
-     Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.getFromPrintTaskOptions(printTask.options);
+Here is a code snippet that shows how to retrieve the object:
 
-// get the object
-var printMediaTypeOptionDetails = 
-     printDetailedOptions.options.lookup(Windows.Graphics.Printing.StandardPrintTaskOptions.mediaType);
+```csharp
+//  Retrieve the advanced Print Task Options.
+PrintTaskOptionDetails printDetailedOptions = PrintTaskOptionDetails.GetFromPrintTaskOptions(printTask.Options);
 
+// Get the object.
+PrintMediaTypeOptionDetails printMediaTypeOptionDetails =
+     (PrintMediaTypeOptionDetails)printDetailedOptions.Options[StandardPrintTaskOptions.MediaType];
 ```
 
 ### Version history

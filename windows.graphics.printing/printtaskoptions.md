@@ -26,14 +26,14 @@ The final value that is common to all options is *PrinterCustom*. This indicates
 
 An app may also use PrintTaskOptions to customize the options that appear in the print window. The [DisplayedOptions](printtaskoptions_displayedoptions.md) property returns a vector containing the list of option items that will be displayed. Modifications to this list by inserting, appending, removing, or re-ordering options will be reflected in the print window. If a particular print target does not support an option, the option will not be displayed to the user. For the names of the standard options, see [StandardPrintTaskOptions](standardprinttaskoptions.md).
 
-Here is a JavaScript code snippet that you could use, for example, to set the printed output to color, and also to set the size of the media on which it can be printed:
+Here is a code snippet that you could use, for example, to set the printed output to color, and also to set the size of the media on which it can be printed. The `PrintTaskOptions` object is accessed through the [PrintTask.Options](printtask_options.md) property.
 
-```javascript
+```csharp
 // Set output to color
-printTaskOptions.colorMode = colorMode;
+printTask.Options.ColorMode = PrintColorMode.Color;
 
 // Set the media size for printing
-printTaskOptions.mediaSize = mediaSize;
+printTask.Options.MediaSize = PrintMediaSize.NorthAmericaLegal;
 
 ```
 
