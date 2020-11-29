@@ -13,6 +13,8 @@ public class TextControlCopyingToClipboardEventArgs
 
 Provides event data for the **CopyingToClipboard** event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TextControlCopyingToClipboardEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.textcontrolcopyingtoclipboardeventargs).
+
 ## -remarks
 
  If you perform any action in the handler for a CopyingToClipboard event, set the **Handled** property to **true**; otherwise, the default copy action is performed.

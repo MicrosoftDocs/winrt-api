@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Primitives.SelectorItem ItemContainer { get; }
 ## -description
 Gets the UI container used to display the current data item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContainerContentChangingEventArgs.ItemContainer](/windows/winui/api/microsoft.ui.xaml.controls.containercontentchangingeventargs.itemcontainer).
+
 ## -property-value
 The UI container used to display the current data item.
 

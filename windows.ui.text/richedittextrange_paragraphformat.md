@@ -13,6 +13,8 @@ public ITextParagraphFormat ParagraphFormat { get;  set; }
 
 Gets or sets the paragraph formatting attributes of the text range.
 
+Equivalent WinUI property: [Microsoft.UI.Text.RichEditTextRange.ParagraphFormat](/windows/winui/api/microsoft.ui.text.richedittextrange.paragraphformat).
+
 ## -property-value
 
 The paragraph formatting attributes.

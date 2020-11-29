@@ -14,6 +14,8 @@ public class SceneObject : CompositionObject, CompositionObject
 
 The base class for objects that make up a 3D scene.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.SceneObject](/windows/winui/api/microsoft.ui.composition.scenes.sceneobject).
+
 ## -remarks
 
 ## -see-also

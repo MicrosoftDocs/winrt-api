@@ -12,6 +12,8 @@ public int ListStart { get;  set; }
 ## -description
 Gets or sets the starting value or code of a list numbering sequence.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.ListStart](/windows/winui/api/microsoft.ui.text.itextparagraphformat.liststart).
+
 ## -property-value
 The starting value or code of a list numbering sequence.
 

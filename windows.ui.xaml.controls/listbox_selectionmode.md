@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.SelectionMode SelectionMode { get;  set; }
 ## -description
 Gets or sets the selection behavior for the [ListBox](listbox.md) control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListBox.SelectionMode](/windows/winui/api/microsoft.ui.xaml.controls.listbox.selectionmode).
+
 ## -xaml-syntax
 ```xaml
 <ListBox SelectionMode="selectionModeValue"/>

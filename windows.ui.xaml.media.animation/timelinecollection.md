@@ -12,6 +12,8 @@ public class TimelineCollection : Windows.Foundation.Collections.IIterable<Windo
 ## -description
 Represents a collection of [Timeline](timeline.md) objects (specific type animations). A TimelineCollection is the value of the [Storyboard.Children](storyboard_children.md) property.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.TimelineCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.timelinecollection).
+
 ## -xaml-syntax
 ```xaml
 <Storyboard ...>

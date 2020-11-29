@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionEffectFactory CreateEffectFactory(Windo
 ## -description
 Creates an instance of [CompositionEffectFactory](compositioneffectfactory.md) specifying effect parameters that should be animatable.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateEffectFactory](/windows/winui/api/microsoft.ui.composition.compositor.createeffectfactory).
+
 ## -parameters
 ### -param graphicsEffect
 The type of effect to create.

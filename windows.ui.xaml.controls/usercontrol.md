@@ -12,6 +12,8 @@ public class UserControl : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Con
 ## -description
 Provides the base class for defining a new control that encapsulates related existing controls and provides its own logic.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.UserControl](/windows/winui/api/microsoft.ui.xaml.controls.usercontrol).
+
 ## -xaml-syntax
 ```xaml
 <UserControl ...>

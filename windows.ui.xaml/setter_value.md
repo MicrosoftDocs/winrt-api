@@ -12,6 +12,8 @@ public object Value { get;  set; }
 ## -description
 Gets or sets the value to apply to the property that is specified by the [Setter](setter.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Setter.Value](/windows/winui/api/microsoft.ui.xaml.setter.value).
+
 ## -xaml-syntax
 ```xaml
 <Setter ...>

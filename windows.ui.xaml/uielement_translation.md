@@ -13,6 +13,8 @@ public Vector3 Translation { get;  set; }
 ## -description
 Gets or sets the x, y, and z rendering position of the element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Translation](/windows/winui/api/microsoft.ui.xaml.uielement.translation).
+
 ## -property-value
 
 The x, y, and z rendering position of the element.

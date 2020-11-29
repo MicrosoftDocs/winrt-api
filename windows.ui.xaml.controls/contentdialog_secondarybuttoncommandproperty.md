@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SecondaryButtonCommandProperty { get; 
 ## -description
 Gets the identifier of the SecondaryButtonCommand dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.SecondaryButtonCommandProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.secondarybuttoncommandproperty).
+
 ## -property-value
 The identifier of the SecondaryButtonCommand dependency property.
 

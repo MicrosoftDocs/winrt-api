@@ -12,6 +12,8 @@ public SymbolIcon()
 ## -description
 Initializes a new instance of the [SymbolIcon](symbolicon.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.SymbolIcon.SymbolIcon](/windows/winui/api/microsoft.ui.xaml.controls.symbolicon.#ctor).
+
 ## -remarks
 
 ## -examples

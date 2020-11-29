@@ -14,6 +14,8 @@ public IconSourceElement.IconSourceElement()
 
 Initializes a new instance of the [IconSourceElement](iconsourceelement.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.IconSourceElement.IconSourceElement](/windows/winui/api/microsoft.ui.xaml.controls.iconsourceelement.#ctor).
+
 ## -remarks
 
 ## -see-also

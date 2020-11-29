@@ -12,6 +12,8 @@ public ArcSegment()
 ## -description
 Initializes a new instance of the [ArcSegment](arcsegment.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.ArcSegment.ArcSegment](/windows/winui/api/microsoft.ui.xaml.media.arcsegment.#ctor).
+
 ## -remarks
 
 ## -examples

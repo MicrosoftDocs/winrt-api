@@ -12,6 +12,8 @@ public ContainerContentChangingEventArgs()
 ## -description
 Initializes a new instance of the [ContainerContentChangingEventArgs](containercontentchangingeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ContainerContentChangingEventArgs.ContainerContentChangingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.containercontentchangingeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

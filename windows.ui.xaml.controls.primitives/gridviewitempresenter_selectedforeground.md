@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush SelectedForeground { get;  set; }
 ## -description
 Gets or sets the brush used to render the foreground of an item that's selected.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.SelectedForeground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.selectedforeground).
+
 ## -xaml-syntax
 ```xaml
 <GridViewItemPresenter SelectedForeground="themeResourceReference"/>

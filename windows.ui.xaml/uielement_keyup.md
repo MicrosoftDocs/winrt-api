@@ -13,6 +13,8 @@ public event Windows.UI.Xaml.Input.KeyEventHandler KeyUp
 
 Occurs when a keyboard key is released while the [UIElement](uielement.md) has focus.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.KeyUp](/windows/winui/api/microsoft.ui.xaml.uielement.keyup).
+
 ## -xaml-syntax
 
 ```xaml

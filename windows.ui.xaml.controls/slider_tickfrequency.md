@@ -12,6 +12,8 @@ public double TickFrequency { get;  set; }
 ## -description
 Gets or sets the increment of the value range that ticks should be created for.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Slider.TickFrequency](/windows/winui/api/microsoft.ui.xaml.controls.slider.tickfrequency).
+
 ## -xaml-syntax
 ```xaml
 <Slider TickFrequency="double" />

@@ -12,6 +12,8 @@ public Visual ParentForTransform { get;  set; }
 ## -description
 Visual specifying the coordinate system in which this visual is composed.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Visual.ParentForTransform](/windows/winui/api/microsoft.ui.composition.visual.parentfortransform).
+
 ## -property-value
 Visual specifying the coordinate system in which this visual is composed.
 

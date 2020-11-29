@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty EasingFunctionProperty { get; }
 ## -description
 Identifies the EasingFunction dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.EasingColorKeyFrame.EasingFunctionProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.easingcolorkeyframe.easingfunctionproperty).
+
 ## -property-value
 The identifier for the [EasingFunction](easingcolorkeyframe_easingfunction.md) dependency property.
 

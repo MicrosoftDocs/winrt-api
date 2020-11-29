@@ -12,6 +12,8 @@ public class HubSection : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Cont
 ## -description
 Represents a single group of content in a [Hub](hub.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.HubSection](/windows/winui/api/microsoft.ui.xaml.controls.hubsection).
+
 ## -xaml-syntax
 ```xaml
 <HubSection .../>

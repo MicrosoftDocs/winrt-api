@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Media.Animation.RepeatBehaviorType : int
 ## -description
 Specifies the repeat mode that a [RepeatBehavior](repeatbehavior.md) raw value represents.
 
+Equivalent WinUI enum: [RepeatBehaviorType](/windows/winui/api/microsoft.ui.xaml.media.animation.repeatbehaviortype).
+
 ## -enum-fields
 ### -field Count:0
 The [RepeatBehavior](repeatbehavior.md) represents a case where the timeline should repeat for a fixed number of complete runs.

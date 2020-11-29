@@ -12,6 +12,8 @@ public class DatePickerFlyoutPresenterAutomationPeer : Windows.UI.Xaml.Automatio
 ## -description
 Exposes [DatePickerFlyoutPresenter](../windows.ui.xaml.controls/datepickerflyoutpresenter.md) types to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.DatePickerFlyoutPresenterAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.datepickerflyoutpresenterautomationpeer).
+
 ## -remarks
 
 

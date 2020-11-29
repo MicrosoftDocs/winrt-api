@@ -12,6 +12,8 @@ public ChoosingItemContainerEventArgs()
 ## -description
 Initializes a new instance of the [ChoosingItemContainerEventArgs](choosingitemcontainereventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.ChoosingItemContainerEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.choosingitemcontainereventargs.#ctor).
+
 ## -remarks
 
 ## -examples

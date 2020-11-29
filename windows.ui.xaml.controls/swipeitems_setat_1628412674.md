@@ -13,6 +13,8 @@ public void SwipeItems.SetAt(UInt32 index, SwipeItem value)
 
 Sets the value at the specified index to the value specified.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.SwipeItems.SetAt](/windows/winui/api/microsoft.ui.xaml.controls.swipeitems.setat).
+
 ## -parameters
 
 ### -param index

@@ -12,6 +12,8 @@ public class TransformCollection : Windows.Foundation.Collections.IIterable<Wind
 ## -description
 Represents a collection of [Transform](transform.md) objects that can be individually accessed by index.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.TransformCollection](/windows/winui/api/microsoft.ui.xaml.media.transformcollection).
+
 ## -xaml-syntax
 ```xaml
 <object>

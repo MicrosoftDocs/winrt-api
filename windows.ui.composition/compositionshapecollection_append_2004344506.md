@@ -13,6 +13,8 @@ public void CompositionShapeCollection.Append(CompositionShape value)
 
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.Append](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.append).
+
 ## -parameters
 ### -param value
 

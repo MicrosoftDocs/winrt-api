@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ItemsSourceProperty { get; }
 ## -description
 Identifies the [ItemsSource](listpickerflyout_itemssource.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.ItemsSourceProperty](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.itemssourceproperty).
+
 ## -property-value
 The identifier for the [ItemsSource](listpickerflyout_itemssource.md) dependency property.
 

@@ -12,6 +12,8 @@ public bool Navigate(Windows.UI.Xaml.Interop.TypeName sourcePageType, System.Obj
 ## -description
 Causes the [Frame](frame.md) to load content represented by the specified [Page](page.md), also passing a parameter to be interpreted by the target of the navigation.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Frame.Navigate](/windows/winui/api/microsoft.ui.xaml.controls.frame.navigate).
+
 ## -parameters
 ### -param sourcePageType
 The page to navigate to, specified as a type reference to its partial class type. (A type reference is given as [System.Type](/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, or a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).

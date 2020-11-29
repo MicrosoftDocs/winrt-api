@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IIterator<Windows.UI.Composition.Visual> F
 ## -description
 Retrieves an iterator with the first object at the bottom of the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.VisualCollection.First](/windows/winui/api/microsoft.ui.composition.visualcollection.first).
+
 ## -returns
 Returns an iterator with the first object at the bottom of the collection. VisualCollections are ordered from bottom to top.
 

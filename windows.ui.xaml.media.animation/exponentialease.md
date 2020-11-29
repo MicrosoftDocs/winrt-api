@@ -12,6 +12,8 @@ public class ExponentialEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBas
 ## -description
 Represents an easing function that creates an animation that accelerates and/or decelerates using an exponential formula.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ExponentialEase](/windows/winui/api/microsoft.ui.xaml.media.animation.exponentialease).
+
 ## -xaml-syntax
 ```xaml
 <ExponentialEase .../>

@@ -12,6 +12,8 @@ public void Scroll(Windows.UI.Xaml.Automation.ScrollAmount horizontalAmount, Win
 ## -description
 Scrolls the visible region of the content area horizontally, vertically, or both.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.Scroll](/windows/winui/api/microsoft.ui.xaml.automation.peers.scrollviewerautomationpeer.scroll).
+
 ## -parameters
 ### -param horizontalAmount
 The horizontal increment that is specific to the control. Pass [NoScroll](../windows.ui.xaml.automation/scrollpatternidentifiers_noscroll.md) if the control cannot be scrolled in this direction.

@@ -12,6 +12,8 @@ public void Realize()
 ## -description
 Makes the virtual item fully accessible as a Microsoft UI Automation element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.PivotItemDataAutomationPeer.Realize](/windows/winui/api/microsoft.ui.xaml.automation.peers.pivotitemdataautomationpeer.realize).
+
 ## -remarks
 
 ## -examples

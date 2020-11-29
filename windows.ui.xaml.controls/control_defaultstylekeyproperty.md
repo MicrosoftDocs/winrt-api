@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DefaultStyleKeyProperty { get; }
 ## -description
 Identifies the [DefaultStyleKey](control_defaultstylekey.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.DefaultStyleKeyProperty](/windows/winui/api/microsoft.ui.xaml.controls.control.defaultstylekeyproperty).
+
 ## -property-value
 The identifier for the [DefaultStyleKey](control_defaultstylekey.md) dependency property.
 

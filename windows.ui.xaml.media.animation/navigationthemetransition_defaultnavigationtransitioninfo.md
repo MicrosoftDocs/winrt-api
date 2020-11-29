@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo DefaultNavigatio
 ## -description
 Gets or sets the default transition used when navigating between pages.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.NavigationThemeTransition.DefaultNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.navigationthemetransition.defaultnavigationtransitioninfo).
+
 ## -xaml-syntax
 ```xaml
 <NavigationThemeTransition>

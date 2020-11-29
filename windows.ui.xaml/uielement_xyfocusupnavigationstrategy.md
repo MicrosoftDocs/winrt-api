@@ -13,6 +13,8 @@ public XYFocusNavigationStrategyMode XYFocusUpNavigationStrategy { get;  set; }
 
 Gets or sets a value that specifies the strategy used to determine the target element of an up navigation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.XYFocusUpNavigationStrategy](/windows/winui/api/microsoft.ui.xaml.uielement.xyfocusupnavigationstrategy).
+
 ## -xaml-syntax
 
 ```xaml

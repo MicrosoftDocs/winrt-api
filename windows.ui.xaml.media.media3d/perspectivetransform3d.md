@@ -13,6 +13,8 @@ public class PerspectiveTransform3D : Windows.UI.Xaml.Media.Media3D.Transform3D,
 
 Represents a 3-D perspective effect.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Media3D.PerspectiveTransform3D](/windows/winui/api/microsoft.ui.xaml.media.media3d.perspectivetransform3d).
+
 ## -remarks
 
 For more info about using PerspectiveTransform3D, see the [UIElement.Transform3D](../windows.ui.xaml/uielement_transform3d.md) property.

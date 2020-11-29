@@ -10,6 +10,8 @@ public delegate void SizeChangedEventHandler(System.Object sender, Windows.UI.Xa
 ## -description
 Represents the method that will handle the [SizeChanged](frameworkelement_sizechanged.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.SizeChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.sizechangedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the event handler is attached.

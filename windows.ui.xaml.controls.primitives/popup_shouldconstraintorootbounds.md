@@ -14,6 +14,8 @@ public bool ShouldConstrainToRootBounds { get;  set; }
 
 Gets or sets a value that indicates whether the popup should be shown within the bounds of the XAML root.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Popup.ShouldConstrainToRootBounds](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.shouldconstraintorootbounds).
+
 ## -property-value
 
 **true** if the popup should be shown within the bounds of the XAML root; otherwise, **false**. The default is **true**.

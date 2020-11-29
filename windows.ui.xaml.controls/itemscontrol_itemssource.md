@@ -12,6 +12,8 @@ public object ItemsSource { get;  set; }
 ## -description
 Gets or sets an object source used to generate the content of the [ItemsControl](itemscontrol.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsSource](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemssource).
+
 ## -xaml-syntax
 ```xaml
 <itemsControl ItemsSource="bindingDeclaration"/>

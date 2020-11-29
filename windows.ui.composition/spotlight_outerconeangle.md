@@ -12,6 +12,8 @@ public float OuterConeAngle { get;  set; }
 ## -description
 The SpotLight’s outer cone angle, expressed as a semi-vertical angle in radians. Animatable.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.SpotLight.OuterConeAngle](/windows/winui/api/microsoft.ui.composition.spotlight.outerconeangle).
+
 ## -property-value
 The SpotLight’s outer cone angle, expressed as a semi-vertical angle in radians. The value must be between 0 and pi.
 

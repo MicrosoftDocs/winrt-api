@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler PivotItemUnloading<Windows.UI.
 ## -description
 Event for offering an opportunity to dynamically load, change, or remove the content of a pivot item as it is removed.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Pivot.PivotItemUnloading](/windows/winui/api/microsoft.ui.xaml.controls.pivot.pivotitemunloading).
+
 ## -xaml-syntax
 ```xaml
 <Pivot PivotItemUnloading="eventhandler" />

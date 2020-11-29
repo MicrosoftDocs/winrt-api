@@ -13,6 +13,8 @@ public class CommandBar : Windows.UI.Xaml.Controls.AppBar, Windows.UI.Xaml.Contr
 
 Represents a specialized app bar that provides layout for [AppBarButton](appbarbutton.md) and related command elements.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CommandBar](/windows/winui/api/microsoft.ui.xaml.controls.commandbar).
+
 ## -xaml-syntax
 
 ```xaml

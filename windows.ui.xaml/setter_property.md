@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty Property { get;  set; }
 ## -description
 Gets or sets the property to apply the [Value](setter_value.md) to.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Setter.Property](/windows/winui/api/microsoft.ui.xaml.setter.property).
+
 ## -xaml-syntax
 ```xaml
 <Setter Property="propertyName"/>

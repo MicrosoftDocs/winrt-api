@@ -12,6 +12,8 @@ public class CalendarDatePicker : Windows.UI.Xaml.Controls.Control, Windows.UI.X
 ## -description
 Represents a control that allows a user to pick a date from a calendar display.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CalendarDatePicker](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker).
+
 ## -remarks
 
 CalendarDatePicker is a drop down control that’s optimized for picking a single date from a calendar view where contextual information like the day of the week or fullness of the calendar is important. It’s similar to the [DatePicker](datepicker.md) control, but the [DatePicker](datepicker.md) is optimized for picking a known date, such as a date of birth, where the context of the calendar is not important.

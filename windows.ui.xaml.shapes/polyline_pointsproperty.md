@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PointsProperty { get; }
 ## -description
 Identifies the [Points](polyline_points.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Polyline.PointsProperty](/windows/winui/api/microsoft.ui.xaml.shapes.polyline.pointsproperty).
+
 ## -property-value
 The identifier for the [Points](polyline_points.md) dependency property.
 

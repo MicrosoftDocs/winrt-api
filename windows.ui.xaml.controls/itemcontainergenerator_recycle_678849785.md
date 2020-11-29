@@ -12,6 +12,8 @@ public void Recycle(Windows.UI.Xaml.Controls.Primitives.GeneratorPosition positi
 ## -description
 Disassociates item containers from their data items and saves the containers so they can be reused later for other data items.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.Recycle](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.recycle).
+
 ## -parameters
 ### -param position
 The zero-based index of the first element to reuse. *position* must refer to a previously generated (realized) item.

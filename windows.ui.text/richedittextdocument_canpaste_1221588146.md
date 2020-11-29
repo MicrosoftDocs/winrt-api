@@ -14,6 +14,8 @@ public bool RichEditTextDocument.CanPaste()
 
 Determines whether the Clipboard has content that can be pasted into the document.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.CanPaste](/windows/winui/api/microsoft.ui.text.richedittextdocument.canpaste).
+
 ## -returns
 
 **true** if the Clipboard has content that can be pasted into the document; otherwise, **false**.

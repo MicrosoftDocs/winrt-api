@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Input.InertiaTranslationBehavior TranslationBehavior { ge
 ## -description
 Gets information about the translation information associated with the manipulation for this event occurrence.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.TranslationBehavior](/windows/winui/api/microsoft.ui.xaml.input.manipulationinertiastartingroutedeventargs.translationbehavior).
+
 ## -property-value
 Manipulation translation information.
 

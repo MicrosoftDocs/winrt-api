@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CenterYProperty { get; }
 ## -description
 Identifies the [CenterY](scaletransform_centery.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ScaleTransform.CenterYProperty](/windows/winui/api/microsoft.ui.xaml.media.scaletransform.centeryproperty).
+
 ## -property-value
 The identifier for the [CenterY](scaletransform_centery.md) dependency property.
 

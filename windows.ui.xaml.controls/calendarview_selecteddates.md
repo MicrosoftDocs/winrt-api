@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<Windows.Foundation.DateTime> Selec
 ## -description
 Gets a collection of selected dates.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.SelectedDates](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selecteddates).
+
 ## -property-value
 A collection that contains the currently selected dates. The default is an empty collection.
 

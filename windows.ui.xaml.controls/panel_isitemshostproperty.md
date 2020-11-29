@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsItemsHostProperty { get; }
 ## -description
 Identifies the [IsItemsHost](panel_isitemshost.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Panel.IsItemsHostProperty](/windows/winui/api/microsoft.ui.xaml.controls.panel.isitemshostproperty).
+
 ## -property-value
 The identifier for the [IsItemsHost](panel_isitemshost.md) dependency property.
 

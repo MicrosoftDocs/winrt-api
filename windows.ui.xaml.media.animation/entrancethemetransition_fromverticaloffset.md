@@ -12,6 +12,8 @@ public double FromVerticalOffset { get;  set; }
 ## -description
 Gets or sets the distance by which the target is translated in the vertical direction when the animation is active.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.EntranceThemeTransition.FromVerticalOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancethemetransition.fromverticaloffset).
+
 ## -xaml-syntax
 ```xaml
 <EntranceThemeTransition FromVerticalOffset="double" />

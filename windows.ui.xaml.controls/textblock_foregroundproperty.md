@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ForegroundProperty { get; }
 ## -description
 Identifies the [Foreground](textblock_foreground.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.ForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.textblock.foregroundproperty).
+
 ## -property-value
 The identifier for the [Foreground](textblock_foreground.md) dependency property.
 

@@ -14,6 +14,8 @@ public CompositionLight LightSource { get;  set; }
 
 Gets or sets the composition light that determines the direction the shadow is cast.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionProjectedShadow.LightSource](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadow.lightsource).
+
 ## -property-value
 
 The composition light that determines the direction the shadow is cast.

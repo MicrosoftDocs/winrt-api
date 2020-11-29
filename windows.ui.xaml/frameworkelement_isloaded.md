@@ -14,6 +14,8 @@ public bool IsLoaded { get; }
 
 Gets a value that indicates whether the element has been added to the element tree and is ready for interaction.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.IsLoaded](/windows/winui/api/microsoft.ui.xaml.frameworkelement.isloaded).
+
 ## -property-value
 
 **true** if the element has been added to the element tree and is ready for interaction; otherwise, **false**.

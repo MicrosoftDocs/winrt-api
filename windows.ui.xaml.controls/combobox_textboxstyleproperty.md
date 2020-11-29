@@ -14,6 +14,8 @@ public DependencyProperty TextBoxStyleProperty { get; }
 
 Identifies the TextBoxStyle dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.TextBoxStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.combobox.textboxstyleproperty).
+
 ## -property-value
 
 The identifier for the TextBoxStyle dependency property.

@@ -14,6 +14,8 @@ public SceneNode SceneNode.Create(Compositor compositor)
 
 Creates an instance of SceneNode.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneNode.Create](/windows/winui/api/microsoft.ui.composition.scenes.scenenode.create).
+
 ## -parameters
 ### -param compositor
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DataTemplate SelectionBoxItemTemplate { get; }
 ## -description
 Gets the template applied to the selection box content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.SelectionBoxItemTemplate](/windows/winui/api/microsoft.ui.xaml.controls.combobox.selectionboxitemtemplate).
+
 ## -property-value
 The template applied to the selection box content.
 

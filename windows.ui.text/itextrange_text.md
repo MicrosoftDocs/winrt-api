@@ -12,6 +12,8 @@ public string Text { get;  set; }
 ## -description
 Gets or sets the plain text of the text range.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextRange.Text](/windows/winui/api/microsoft.ui.text.itextrange.text).
+
 ## -property-value
 The plain text.
 

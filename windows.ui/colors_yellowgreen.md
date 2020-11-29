@@ -13,6 +13,8 @@ public Windows.UI.Color YellowGreen { get; }
 
 Gets the system-defined color that has an ARGB value of #FF9ACD32.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.YellowGreen](/windows/winui/api/microsoft.ui.colors.yellowgreen).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF9ACD32.

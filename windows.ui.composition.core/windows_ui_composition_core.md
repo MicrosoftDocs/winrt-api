@@ -13,6 +13,8 @@ namespace Windows.UI.Composition.Core
 
 Provides core APIs for user interface composition.
 
+Equivalent WinUI namespace: [Microsoft.UI.Composition.Core](/windows/winui/api/microsoft.ui.composition.core).
+
 ## -remarks
 
 ## -see-also

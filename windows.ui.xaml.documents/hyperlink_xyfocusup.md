@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject XYFocusUp { get;  set; }
 ## -description
 Gets or sets the object that gets focus when a user presses the Directional Pad (DPAD) up.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusUp](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.xyfocusup).
+
 ## -property-value
 The object that gets focus when a user presses the Directional Pad (DPAD).
 

@@ -12,6 +12,8 @@ public class TimePicker : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Cont
 ## -description
 Represents a control that allows a user to pick a time value.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TimePicker](/windows/winui/api/microsoft.ui.xaml.controls.timepicker).
+
 ## -xaml-syntax
 ```xaml
 <TimePicker .../>

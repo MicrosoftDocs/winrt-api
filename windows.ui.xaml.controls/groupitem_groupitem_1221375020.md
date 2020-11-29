@@ -12,6 +12,8 @@ public GroupItem()
 ## -description
 Initializes a new instance of the [GroupItem](groupitem.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.GroupItem.GroupItem](/windows/winui/api/microsoft.ui.xaml.controls.groupitem.#ctor).
+
 ## -remarks
 
 ## -examples

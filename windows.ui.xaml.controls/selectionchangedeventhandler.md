@@ -10,6 +10,8 @@ public delegate void SelectionChangedEventHandler(System.Object sender, Windows.
 ## -description
 Represents the method that will handle the [SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.SelectionChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.selectionchangedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the event handler is attached.

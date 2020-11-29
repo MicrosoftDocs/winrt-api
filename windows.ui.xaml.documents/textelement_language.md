@@ -12,6 +12,8 @@ public string Language { get;  set; }
 ## -description
 Gets or sets localization/globalization language information that applies to a [TextElement](textelement.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.Language](/windows/winui/api/microsoft.ui.xaml.documents.textelement.language).
+
 ## -xaml-syntax
 ```xaml
 <textElement Language="languageString" .../.

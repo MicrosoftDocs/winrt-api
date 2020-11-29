@@ -13,6 +13,8 @@ public enum Windows.UI.Xaml.Media.AudioCategory : int
 
 Describes the purpose of the audio information in an audio stream. Used as a value by [AudioCategory](../windows.ui.xaml.controls/mediaelement_audiocategory.md).
 
+Equivalent WinUI enum: [AudioCategory](/windows/winui/api/microsoft.ui.xaml.media.audiocategory).
+
 ## -enum-fields
 
 ### -field Other:0

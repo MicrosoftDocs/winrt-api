@@ -12,6 +12,8 @@ public TimePicker()
 ## -description
 Initializes a new instance of the [TimePicker](timepicker.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.TimePicker.TimePicker](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.#ctor).
+
 ## -remarks
 
 ## -examples

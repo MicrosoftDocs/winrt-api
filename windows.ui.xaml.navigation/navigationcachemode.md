@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Navigation.NavigationCacheMode : int
 ## -description
 Specifies caching characteristics for a page involved in a navigation.
 
+Equivalent WinUI enum: [NavigationCacheMode](/windows/winui/api/microsoft.ui.xaml.navigation.navigationcachemode).
+
 ## -enum-fields
 ### -field Disabled:0
 The page is never cached and a new instance of the page is created on each visit.

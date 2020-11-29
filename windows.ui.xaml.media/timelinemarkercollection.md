@@ -12,6 +12,8 @@ public class TimelineMarkerCollection : Windows.Foundation.Collections.IIterable
 ## -description
 Represents a collection of [TimelineMarker](timelinemarker.md) objects that can be individually accessed by index. A TimelineMarkerCollection is an ordered list where the order is determined by the [Time](timelinemarker_time.md) value of each [TimelineMarker](timelinemarker.md) item contained in the collection. For more info on how this affects the collection API, see Remarks.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.TimelineMarkerCollection](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkercollection).
+
 ## -remarks
 ### Collection API for **TimelineMarkerCollection**
 

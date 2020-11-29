@@ -12,6 +12,8 @@ public Windows.UI.Text.ITextCharacterFormat CharacterFormat { get;  set; }
 ## -description
 Gets or sets the character formatting attributes of the text range.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextRange.CharacterFormat](/windows/winui/api/microsoft.ui.text.itextrange.characterformat).
+
 ## -property-value
 The character formatting attributes.
 

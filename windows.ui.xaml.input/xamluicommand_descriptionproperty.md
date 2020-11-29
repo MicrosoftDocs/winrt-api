@@ -14,6 +14,8 @@ public DependencyProperty DescriptionProperty { get; }
 
 Identifies the [Description](xamluicommand_description.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.DescriptionProperty](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.descriptionproperty).
+
 ## -property-value
 
 The identifier for the [Description](xamluicommand_description.md) dependency property.

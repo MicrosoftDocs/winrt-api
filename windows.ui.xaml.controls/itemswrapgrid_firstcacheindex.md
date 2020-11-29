@@ -12,6 +12,8 @@ public int FirstCacheIndex { get; }
 ## -description
 Gets the index in the data collection of the first item in the cache.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid.FirstCacheIndex](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid.firstcacheindex).
+
 ## -property-value
 The index in the data collection of the first item in the cache. The default is -1.
 

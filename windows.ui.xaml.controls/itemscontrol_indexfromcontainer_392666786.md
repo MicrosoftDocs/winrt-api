@@ -12,6 +12,8 @@ public int IndexFromContainer(Windows.UI.Xaml.DependencyObject container)
 ## -description
 Returns the index to the item that has the specified, generated container.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemsControl.IndexFromContainer](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.indexfromcontainer).
+
 ## -parameters
 ### -param container
 The generated container to retrieve the item index for.

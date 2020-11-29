@@ -12,6 +12,8 @@ public ManipulationInertiaStartingRoutedEventArgs()
 ## -description
 Initializes a new instance of the [ManipulationInertiaStartingRoutedEventArgs](manipulationinertiastartingroutedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.ManipulationInertiaStartingRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.manipulationinertiastartingroutedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

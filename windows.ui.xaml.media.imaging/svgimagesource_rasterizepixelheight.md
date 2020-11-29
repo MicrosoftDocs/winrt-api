@@ -12,6 +12,8 @@ public double RasterizePixelHeight { get;  set; }
 ## -description
 Gets or sets the height to use for SVG rasterization operations.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelHeight](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.rasterizepixelheight).
+
 ## -xaml-syntax
 ```xaml
 <SvgImageSource RasterizePixelHeight="double"/>

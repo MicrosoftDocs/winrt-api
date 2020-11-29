@@ -12,6 +12,8 @@ public PaginateEventArgs()
 ## -description
 Initializes a new instance of the [PaginateEventArgs](paginateeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Printing.PaginateEventArgs.PaginateEventArgs](/windows/winui/api/microsoft.ui.xaml.printing.paginateeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

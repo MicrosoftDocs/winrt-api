@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IIterator<Windows.UI.Xaml.Media.TimelineMa
 ## -description
 Returns an iterator for the items in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TimelineMarkerCollection.First](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkercollection.first).
+
 ## -returns
 The iterator. The iterator's current position is at the 0-index position, or at the collection end if the collection is empty.
 

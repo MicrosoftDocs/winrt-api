@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ActualHeightProperty { get; }
 ## -description
 Identifies the [ActualHeight](frameworkelement_actualheight.md)  dependency property. See Remarks.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.ActualHeightProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.actualheightproperty).
+
 ## -property-value
 The identifier for the [ActualHeight](frameworkelement_actualheight.md)  dependency property.
 

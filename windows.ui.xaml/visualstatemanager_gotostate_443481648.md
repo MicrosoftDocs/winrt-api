@@ -12,6 +12,8 @@ public bool GoToState(Windows.UI.Xaml.Controls.Control control, System.String st
 ## -description
 Transitions a control between two states, by requesting a new [VisualState](visualstate.md) by name.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.VisualStateManager.GoToState](/windows/winui/api/microsoft.ui.xaml.visualstatemanager.gotostate).
+
 ## -parameters
 ### -param control
 The control to transition between states.

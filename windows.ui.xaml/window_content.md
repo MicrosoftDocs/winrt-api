@@ -12,6 +12,8 @@ public Windows.UI.Xaml.UIElement Content { get;  set; }
 ## -description
 Gets or sets the visual root of an application window.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Window.Content](/windows/winui/api/microsoft.ui.xaml.window.content).
+
 ## -property-value
 The visual root of an application window.
 

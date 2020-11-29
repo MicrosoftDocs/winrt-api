@@ -12,6 +12,8 @@ public Windows.Foundation.IAsyncAction SetRelativeScrollPositionAsync(Windows.UI
 ## -description
 Begins an asynchronous action to set the relative scroll position of the [ListView](listview.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewPersistenceHelper.SetRelativeScrollPositionAsync](/windows/winui/api/microsoft.ui.xaml.controls.listviewpersistencehelper.setrelativescrollpositionasync).
+
 ## -parameters
 ### -param listViewBase
 The ListView.

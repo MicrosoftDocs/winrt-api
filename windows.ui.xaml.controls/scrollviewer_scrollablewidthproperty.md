@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ScrollableWidthProperty { get; }
 ## -description
 Identifies the [ScrollableWidth](scrollviewer_scrollablewidth.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ScrollableWidthProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.scrollablewidthproperty).
+
 ## -property-value
 The identifier for the [ScrollableWidth](scrollviewer_scrollablewidth.md)  dependency property.
 

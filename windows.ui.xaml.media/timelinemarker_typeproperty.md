@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TypeProperty { get; }
 ## -description
 Identifies the [Type](timelinemarker_type.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.TimelineMarker.TypeProperty](/windows/winui/api/microsoft.ui.xaml.media.timelinemarker.typeproperty).
+
 ## -property-value
 The identifier for the [Type](timelinemarker_type.md) dependency property.
 

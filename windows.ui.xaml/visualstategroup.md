@@ -12,6 +12,8 @@ public class VisualStateGroup : Windows.UI.Xaml.DependencyObject, Windows.UI.Xam
 ## -description
 Contains mutually exclusive [VisualState](visualstate.md) objects and [VisualTransition](visualtransition.md) objects that are used to go from one state to another.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.VisualStateGroup](/windows/winui/api/microsoft.ui.xaml.visualstategroup).
+
 ## -xaml-syntax
 ```xaml
 <VisualStateManager.VisualStateGroups>

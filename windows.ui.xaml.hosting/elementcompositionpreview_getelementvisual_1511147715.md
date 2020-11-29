@@ -12,6 +12,8 @@ public Windows.UI.Composition.Visual GetElementVisual(Windows.UI.Xaml.UIElement 
 ## -description
 Retrieves the [Windows.UI.Composition.Visual](../windows.ui.composition/visual.md) object that backs a XAML element in the XAML composition tree.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Hosting.ElementCompositionPreview.GetElementVisual](/windows/winui/api/microsoft.ui.xaml.hosting.elementcompositionpreview.getelementvisual).
+
 ## -parameters
 ### -param element
 The element to retrieve the [Visual](../windows.ui.composition/visual.md) for.

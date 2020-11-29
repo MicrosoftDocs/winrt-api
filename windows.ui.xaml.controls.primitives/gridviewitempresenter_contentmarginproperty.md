@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ContentMarginProperty { get; }
 ## -description
 Identifies the [ContentMargin](gridviewitempresenter_contentmargin.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.ContentMarginProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.contentmarginproperty).
+
 ## -property-value
 The identifier for the [ContentMargin](gridviewitempresenter_contentmargin.md) dependency property.
 

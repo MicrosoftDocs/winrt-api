@@ -12,6 +12,8 @@ public Windows.UI.Composition.InsetClip CreateInsetClip(System.Single leftInset,
 ## -description
 Creates an instance of [InsetClip](insetclip.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateInsetClip](/windows/winui/api/microsoft.ui.composition.compositor.createinsetclip).
+
 ## -parameters
 ### -param leftInset
 Inset from the left of the visual.

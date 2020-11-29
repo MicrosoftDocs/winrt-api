@@ -12,6 +12,8 @@ public double DropDownContentMinWidth { get; }
 ## -description
 Gets the minimum width value of the drop down content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ComboBoxTemplateSettings.DropDownContentMinWidth](/windows/winui/api/microsoft.ui.xaml.controls.primitives.comboboxtemplatesettings.dropdowncontentminwidth).
+
 ## -property-value
 The minimum width value of the drop down content.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.Timeline GetAt(System.UInt32 index)
 ## -description
 Returns the [Timeline](timeline.md) located at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.TimelineCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.media.animation.timelinecollection.getat).
+
 ## -parameters
 ### -param index
 The integer index for the value to retrieve.

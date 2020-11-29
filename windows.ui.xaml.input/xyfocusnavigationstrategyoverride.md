@@ -14,6 +14,8 @@ Specifies how the XAML framework determines the target of an XY navigation.
 
 Overrides [XYFocusKeyboardNavigationStrategyMode](xyfocuskeyboardnavigationmode.md).
 
+Equivalent WinUI enum: [Microsoft.UI.Xaml.Input.XYFocusNavigationStrategyOverride](/windows/winui/api/microsoft.ui.xaml.input.xyfocusnavigationstrategyoverride).
+
 ## -enum-fields
 ### -field None:0
 No navigation override is applied. 

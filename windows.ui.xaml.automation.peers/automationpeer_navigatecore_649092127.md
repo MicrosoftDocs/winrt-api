@@ -12,6 +12,8 @@ virtual protected object NavigateCore(Windows.UI.Xaml.Automation.Peers.Automatio
 ## -description
 Provides the peer’s behavior when a Microsoft UI Automation client calls [Navigate](automationpeer_navigate_1737660010.md) or an equivalent Microsoft UI Automation client API.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.NavigateCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.navigatecore).
+
 ## -parameters
 ### -param direction
 The specified direction.

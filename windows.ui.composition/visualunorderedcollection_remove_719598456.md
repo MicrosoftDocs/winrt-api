@@ -12,6 +12,8 @@ public void Remove(Windows.UI.Composition.Visual visual)
 ## -description
 Removes a visual from the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.VisualUnorderedCollection.Remove](/windows/winui/api/microsoft.ui.composition.visualunorderedcollection.remove).
+
 ## -parameters
 ### -param visual
 Removes a visual from the collection.

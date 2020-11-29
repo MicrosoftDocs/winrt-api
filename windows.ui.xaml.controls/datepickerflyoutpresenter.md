@@ -12,6 +12,8 @@ public class DatePickerFlyoutPresenter : Windows.UI.Xaml.Controls.Control, Windo
 ## -description
 Represents a control to allow a user to pick a date.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutPresenter](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutpresenter).
+
 ## -remarks
 ### Control style and template
 

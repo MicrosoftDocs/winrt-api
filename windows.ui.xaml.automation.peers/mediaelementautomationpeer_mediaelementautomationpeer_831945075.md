@@ -12,6 +12,8 @@ public MediaElementAutomationPeer(Windows.UI.Xaml.Controls.MediaElement owner)
 ## -description
 Initializes a new instance of the [MediaElementAutomationPeer](mediaelementautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.MediaElementAutomationPeer.MediaElementAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.mediaelementautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The owner element to create for.

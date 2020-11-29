@@ -14,6 +14,8 @@ public Visual CastingVisual { get;  set; }
 
 Gets or sets the Visual that casts the shadow.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionProjectedShadowCaster.CastingVisual](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcaster.castingvisual).
+
 ## -property-value
 
 The Visual that casts the shadow.

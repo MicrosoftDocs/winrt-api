@@ -12,6 +12,8 @@ public void InitializeViewChange()
 ## -description
 Initializes the changes to related aspects of presentation (such as scrolling UI or state) when the overall view for a [SemanticZoom](isemanticzoominformation.md) is about to change.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.InitializeViewChange](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.initializeviewchange).
+
 ## -remarks
 Controls derived from [ListViewBase](listviewbase.md) typically have an associated [ScrollViewer](scrollviewer.md) as part of their template. The [ListViewBase](listviewbase.md) implementation of [InitializeViewChange](isemanticzoominformation_initializeviewchange_1165335344.md) stores [ScrollBarVisibility](scrollbarvisibility.md) for current scroll bars, so that values can be perpetuated across the views when the views change.
 

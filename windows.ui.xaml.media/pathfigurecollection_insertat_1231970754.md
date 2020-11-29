@@ -12,6 +12,8 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.Media.PathFigure value
 ## -description
 Inserts the specified item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathFigureCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.media.pathfigurecollection.insertat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

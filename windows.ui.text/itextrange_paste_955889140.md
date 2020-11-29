@@ -12,6 +12,8 @@ public void Paste(System.Int32 format)
 ## -description
 Pastes text from the Clipboard into the text range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.Paste](/windows/winui/api/microsoft.ui.text.itextrange.paste).
+
 ## -parameters
 ### -param format
 The clipboard format to use in the paste operation. Zero represents the best format, which usually is Rich Text Format (RTF), but CF_UNICODETEXT and other formats are also possible. The default value is zero.

@@ -12,6 +12,8 @@ public void SetRange(System.Int32 startPosition, System.Int32 endPosition)
 ## -description
 Sets the endpoints of the text range to the specified values.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.SetRange](/windows/winui/api/microsoft.ui.text.itextrange.setrange).
+
 ## -parameters
 ### -param startPosition
 The character position for the start of the text range. This parameter must be less than *endPosition*.

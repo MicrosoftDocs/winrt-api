@@ -12,6 +12,8 @@ public class RectangleGeometry : Windows.UI.Xaml.Media.Geometry, Windows.UI.Xaml
 ## -description
 Describes a two-dimensional rectangular geometry.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.RectangleGeometry](/windows/winui/api/microsoft.ui.xaml.media.rectanglegeometry).
+
 ## -xaml-syntax
 ```xaml
 <RectangleGeometry .../>

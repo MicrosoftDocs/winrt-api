@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsTargetElementProperty { get; }
 ## -description
 Identifies the [EntranceNavigationTransitionInfo.IsTargetElement](/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo#xaml-attached-properties) XAML attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.EntranceNavigationTransitionInfo.IsTargetElementProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancenavigationtransitioninfo.istargetelementproperty).
+
 ## -property-value
 The identifier for the [EntranceNavigationTransitionInfo.IsTargetElement](/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo#xaml-attached-properties) XAML attached property.
 

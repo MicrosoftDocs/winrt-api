@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty StylisticSet10Property { get; }
 ## -description
 Identifies the [StylisticSet10](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.StylisticSet10Property](/windows/winui/api/microsoft.ui.xaml.documents.typography.stylisticset10property).
+
 ## -property-value
 The identifier for the [StylisticSet10](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 

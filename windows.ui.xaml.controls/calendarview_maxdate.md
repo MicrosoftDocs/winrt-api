@@ -12,6 +12,8 @@ public Windows.Foundation.DateTime MaxDate { get;  set; }
 ## -description
 Gets or sets the last date to be displayed.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.MaxDate](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.maxdate).
+
 ## -property-value
 The last date to display.
 

@@ -13,6 +13,8 @@ public void XamlDirect.SetColorProperty(IXamlDirectObject xamlDirectObject, Xaml
 ## -description
 Sets the value of a [Color](../windows.ui/color.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetColorProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setcolorproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

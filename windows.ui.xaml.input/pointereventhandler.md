@@ -10,6 +10,8 @@ public delegate void PointerEventHandler(System.Object sender, Windows.UI.Xaml.I
 ## -description
 Represents the method that will handle pointer message events such as [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md).
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Input.PointerEventHandler](/windows/winui/api/microsoft.ui.xaml.input.pointereventhandler).
+
 ## -parameters
 ### -param sender
 The object where the event handler is attached.

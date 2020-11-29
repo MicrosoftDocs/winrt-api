@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ViewportWidthProperty { get; }
 ## -description
 Identifies the [ViewportWidth](scrollviewer_viewportwidth.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ViewportWidthProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.viewportwidthproperty).
+
 ## -property-value
 The identifier for the [ViewportWidth](scrollviewer_viewportwidth.md) dependency property.
 

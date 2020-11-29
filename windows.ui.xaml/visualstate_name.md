@@ -12,6 +12,8 @@ public string Name { get; }
 ## -description
 Gets the name of the [VisualState](visualstate.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.VisualState.Name](/windows/winui/api/microsoft.ui.xaml.visualstate.name).
+
 ## -xaml-syntax
 ```xaml
 <VisualState x:Name="stateName"/>

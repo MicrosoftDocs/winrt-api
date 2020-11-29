@@ -12,6 +12,8 @@ public float ListTab { get;  set; }
 ## -description
 Gets or sets the list tab setting, which is the distance between the first indent and the start of the text on the first line.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.ListTab](/windows/winui/api/microsoft.ui.text.itextparagraphformat.listtab).
+
 ## -property-value
 The list tab setting.
 

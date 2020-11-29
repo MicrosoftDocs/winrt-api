@@ -12,6 +12,8 @@ public float GetRegularSnapPoints(Windows.UI.Xaml.Controls.Orientation orientati
 ## -description
 This property is reserved for internal use and is not intended to be used in your code.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.PivotPanel.GetRegularSnapPoints](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pivotpanel.getregularsnappoints).
+
 ## -parameters
 ### -param orientation
 Reserved.

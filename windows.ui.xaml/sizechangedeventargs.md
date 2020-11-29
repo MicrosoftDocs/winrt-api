@@ -12,6 +12,8 @@ public class SizeChangedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.
 ## -description
 Provides data related to the [FrameworkElement.SizeChanged](frameworkelement_sizechanged.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.SizeChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.sizechangedeventargs).
+
 ## -remarks
 The [PreviousSize](sizechangedeventargs_previoussize.md) value is based on [ActualHeight](frameworkelement_actualheight.md) and [ActualWidth](frameworkelement_actualwidth.md) values on the element before the layout change that motivated the [SizeChanged](frameworkelement_sizechanged.md) event. The [NewSize](sizechangedeventargs_newsize.md) value is based on the [ActualHeight](frameworkelement_actualheight.md) and [ActualWidth](frameworkelement_actualwidth.md) values after the layout change is processed.
 

@@ -12,6 +12,8 @@ public bool IsSeekEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether a user can use the seek bar to find a location in the media.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsSeekEnabled](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isseekenabled).
+
 ## -xaml-syntax
 ```xaml
 

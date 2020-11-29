@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty OffContentProperty { get; }
 ## -description
 Identifies the [OffContent](toggleswitch_offcontent.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToggleSwitch.OffContentProperty](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch.offcontentproperty).
+
 ## -property-value
 The identifier for the [OffContent](toggleswitch_offcontent.md) dependency property.
 

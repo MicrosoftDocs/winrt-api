@@ -14,6 +14,8 @@ public SceneAttributeSemantic SceneMeshMaterialAttributeMap.Lookup(String key)
 
 Returns the item at the specified key in the map.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneMeshMaterialAttributeMap.Lookup](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshmaterialattributemap.lookup).
+
 ## -parameters
 ### -param key
 

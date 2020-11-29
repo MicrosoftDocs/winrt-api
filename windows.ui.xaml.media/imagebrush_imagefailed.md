@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.ExceptionRoutedEventHandler ImageFailed
 ## -description
 Occurs when there is an error associated with image retrieval or format.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Media.ImageBrush.ImageFailed](/windows/winui/api/microsoft.ui.xaml.media.imagebrush.imagefailed).
+
 ## -xaml-syntax
 ```xaml
 <ImageBrush ImageFailed="eventhandler"/>

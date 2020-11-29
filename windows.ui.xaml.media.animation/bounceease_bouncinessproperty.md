@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty BouncinessProperty { get; }
 ## -description
 Identifies the [Bounciness](bounceease_bounciness.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.BounceEase.BouncinessProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.bounceease.bouncinessproperty).
+
 ## -property-value
 The identifier for the [Bounciness](bounceease_bounciness.md) dependency property.
 

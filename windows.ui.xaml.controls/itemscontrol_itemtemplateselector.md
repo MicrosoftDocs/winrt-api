@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.DataTemplateSelector ItemTemplateSelector { get;
 ## -description
 Gets or sets a reference to a custom [DataTemplateSelector](datatemplateselector.md) logic class. The [DataTemplateSelector](datatemplateselector.md) referenced by this property returns a template to apply to items.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemTemplateSelector](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemtemplateselector).
+
 ## -xaml-syntax
 ```xaml
 <itemsControl ItemTemplateSelector="dataTemplateSelectorReference" />

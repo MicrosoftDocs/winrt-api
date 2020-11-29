@@ -12,6 +12,8 @@ public object Title { get;  set; }
 ## -description
 Gets or sets the title of the dialog.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.Title](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.title).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog Title="string"/>

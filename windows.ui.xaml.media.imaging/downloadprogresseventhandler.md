@@ -10,6 +10,8 @@ public delegate void DownloadProgressEventHandler(System.Object sender, Windows.
 ## -description
 Represents the method that will handle the [DownloadProgress](bitmapimage_downloadprogress.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Media.Imaging.DownloadProgressEventHandler](/windows/winui/api/microsoft.ui.xaml.media.imaging.downloadprogresseventhandler).
+
 ## -parameters
 ### -param sender
 The object where the handler is attached.

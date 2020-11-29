@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty BackgroundProperty { get; }
 ## -description
 Identifies the [Background](border_background.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Border.BackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.border.backgroundproperty).
+
 ## -property-value
 The identifier for the [Background](border_background.md) dependency property.
 

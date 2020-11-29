@@ -12,6 +12,8 @@ public void InitializeViewChange()
 ## -description
 Initializes the changes to related aspects of presentation (such as scrolling UI or state) when the overall view for a [SemanticZoom](isemanticzoominformation.md) is about to change.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Hub.InitializeViewChange](/windows/winui/api/microsoft.ui.xaml.controls.hub.initializeviewchange).
+
 ## -remarks
 
 ## -examples

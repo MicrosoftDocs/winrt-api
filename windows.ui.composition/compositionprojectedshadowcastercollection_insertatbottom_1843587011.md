@@ -14,6 +14,8 @@ public void CompositionProjectedShadowCasterCollection.InsertAtBottom(Compositio
 
 Adds a CompositionProjectedShadowCaster to the bottom of the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection.InsertAtBottom](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcastercollection.insertatbottom).
+
 ## -parameters
 ### -param newCaster
 

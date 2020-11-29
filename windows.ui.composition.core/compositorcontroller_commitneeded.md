@@ -13,6 +13,8 @@ public event TypedEventHandler CommitNeeded<CompositorController,  object>
 
 Occurs when the framework needs to call Commit in order for changes to Composition objects to be reflected onscreen.
 
+Equivalent WinUI event: [Microsoft.UI.Composition.Core.CompositorController.CommitNeeded](/windows/winui/api/microsoft.ui.composition.core.compositorcontroller.commitneeded).
+
 ## -remarks
 
 ## -see-also

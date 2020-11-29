@@ -12,6 +12,8 @@ public event Windows.Foundation.EventHandler HorizontalSnapPointsChanged<object>
 ## -description
 This property is reserved for internal use and is not intended to be used in your code.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.PivotPanel.HorizontalSnapPointsChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pivotpanel.horizontalsnappointschanged).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.TriggerAction>
 ## -description
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.TriggerActionCollection.GetView](/windows/winui/api/microsoft.ui.xaml.triggeractioncollection.getview).
+
 ## -returns
 An object representing the immutable collection view.
 

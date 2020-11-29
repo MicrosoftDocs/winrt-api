@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsSkipBackwardButtonVisibleProperty { 
 ## -description
 Identifies the [IsSkipBackwardButtonVisible](mediatransportcontrols_isskipbackwardbuttonvisible.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsSkipBackwardButtonVisibleProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isskipbackwardbuttonvisibleproperty).
+
 ## -property-value
 The identifier for the [IsSkipBackwardButtonVisible](mediatransportcontrols_isskipbackwardbuttonvisible.md) dependency property.
 

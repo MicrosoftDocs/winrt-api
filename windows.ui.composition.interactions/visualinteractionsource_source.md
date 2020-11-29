@@ -12,6 +12,8 @@ public Windows.UI.Composition.Visual Source { get; }
 ## -description
 The visual that is used for hit-testing and defines the co-ordinate space for gesture recognition.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.Source](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.source).
+
 ## -property-value
 The visual that is used for hit-testing and defines the co-ordinate space for gesture recognition.
 

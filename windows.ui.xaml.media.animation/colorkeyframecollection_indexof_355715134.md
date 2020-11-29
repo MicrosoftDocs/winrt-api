@@ -12,6 +12,8 @@ public bool IndexOf(Windows.UI.Xaml.Media.Animation.ColorKeyFrame value, System.
 ## -description
 Retrieves the index of the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframecollection.indexof).
+
 ## -parameters
 ### -param value
 The value to find in the collection.

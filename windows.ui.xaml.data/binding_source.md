@@ -12,6 +12,8 @@ public object Source { get;  set; }
 ## -description
 Gets or sets the data source for the binding.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.Source](/windows/winui/api/microsoft.ui.xaml.data.binding.source).
+
 ## -xaml-syntax
 ```xaml
 <Binding Source="sourceReference"/>

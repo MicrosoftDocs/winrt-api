@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FirstOfYearDecadeLabelFontSizeProperty
 ## -description
 Identifies the [FirstOfYearDecadeLabelFontSize](calendarview_firstofyeardecadelabelfontsize.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.FirstOfYearDecadeLabelFontSizeProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.firstofyeardecadelabelfontsizeproperty).
+
 ## -property-value
 The identifier for the [FirstOfYearDecadeLabelFontSize](calendarview_firstofyeardecadelabelfontsize.md)   dependency property.
 

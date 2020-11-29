@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.SolidColorBrush SelectionHighlightColor { get;  set
 ## -description
 Gets or sets the brush used to highlight the selected text.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.SelectionHighlightColor](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.selectionhighlightcolor).
+
 ## -xaml-syntax
 ```xaml
 <RichTextBlock SelectionHighlightColor="{StaticResource resourceName}"/>

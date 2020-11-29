@@ -13,6 +13,8 @@ public event Windows.Foundation.TypedEventHandler ContextRequested<Windows.UI.Xa
 
 Occurs when the user has completed a context input gesture, such as a right-click.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.ContextRequested](/windows/winui/api/microsoft.ui.xaml.uielement.contextrequested).
+
 ## -xaml-syntax
 
 ```xaml

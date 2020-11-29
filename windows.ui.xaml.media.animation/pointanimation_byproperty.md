@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ByProperty { get; }
 ## -description
 Identifies the [By](pointanimation_by.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PointAnimation.ByProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimation.byproperty).
+
 ## -property-value
 The identifier for the [By](pointanimation_by.md)  dependency property.
 

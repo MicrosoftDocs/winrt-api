@@ -12,6 +12,8 @@ public class ItemsControl : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Co
 ## -description
 Represents a control that can be used to present a collection of items.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ItemsControl](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol).
+
 ## -xaml-syntax
 ```xaml
 <ItemsControl ...>

@@ -12,6 +12,8 @@ public void ClearAllTabs()
 ## -description
 Clears all tabs, reverting to equally spaced tabs with the default tab spacing.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextParagraphFormat.ClearAllTabs](/windows/winui/api/microsoft.ui.text.itextparagraphformat.clearalltabs).
+
 ## -remarks
 
 ## -examples

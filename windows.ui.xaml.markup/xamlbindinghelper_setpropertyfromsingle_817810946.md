@@ -12,6 +12,8 @@ public void SetPropertyFromSingle(System.Object dependencyObject, Windows.UI.Xam
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Single](/dotnet/api/system.single?redirectedfrom=MSDN) value.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromSingle](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromsingle).
+
 ## -parameters
 ### -param dependencyObject
 The object to which the property being set belongs.

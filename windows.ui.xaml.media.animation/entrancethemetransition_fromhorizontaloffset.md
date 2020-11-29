@@ -12,6 +12,8 @@ public double FromHorizontalOffset { get;  set; }
 ## -description
 Gets or sets the distance by which the target is translated in the horizontal direction when the animation is active.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.EntranceThemeTransition.FromHorizontalOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancethemetransition.fromhorizontaloffset).
+
 ## -xaml-syntax
 ```xaml
 <EntranceThemeTransition FromHorizontalOffset="double" />

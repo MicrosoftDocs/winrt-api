@@ -12,6 +12,8 @@ public void InsertAt(System.UInt32 index, System.Object value)
 ## -description
 Inserts the specified item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.controls.itemcollection.insertat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

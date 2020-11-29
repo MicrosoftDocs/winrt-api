@@ -12,6 +12,8 @@ public void LineLeft()
 ## -description
 Scrolls content by one line toward the left.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.LineLeft](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.lineleft).
+
 ## -remarks
 This implementation calls [SetHorizontalOffset](orientedvirtualizingpanel_sethorizontaloffset_1971679761.md) using a value for "line" of 16 pixels, which comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md).
 <!-- Override the method and call <xref targtype="method_winrt" rid="w_ui_xaml_ctrl_prim.orientedvirtualizingpanel_sethorizontaloffset"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SetHorizontalOffset</xref> using a different measurement to change the interpretation of "line" for a derivation of 

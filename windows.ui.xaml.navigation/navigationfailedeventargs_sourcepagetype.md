@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Interop.TypeName SourcePageType { get; }
 ## -description
 Gets the data type of the target page.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Navigation.NavigationFailedEventArgs.SourcePageType](/windows/winui/api/microsoft.ui.xaml.navigation.navigationfailedeventargs.sourcepagetype).
+
 ## -property-value
 The data type of the target page, as a type reference ([System.Type](/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 

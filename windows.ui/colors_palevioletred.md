@@ -13,6 +13,8 @@ public Windows.UI.Color PaleVioletRed { get; }
 
 Gets the system-defined color that has an ARGB value of #FFDB7093.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.PaleVioletRed](/windows/winui/api/microsoft.ui.colors.palevioletred).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFDB7093.

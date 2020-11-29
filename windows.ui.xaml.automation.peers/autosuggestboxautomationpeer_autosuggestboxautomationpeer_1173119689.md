@@ -12,6 +12,8 @@ public AutoSuggestBoxAutomationPeer(Windows.UI.Xaml.Controls.AutoSuggestBox owne
 ## -description
 Initializes a new instance of the [AutoSuggestBoxAutomationPeer](autosuggestboxautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.AutoSuggestBoxAutomationPeer.AutoSuggestBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.autosuggestboxautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The owner element to create for.

@@ -12,6 +12,8 @@ public class ScrollEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xaml.
 ## -description
 Provides data for the [Scroll](scrollbar_scroll.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.ScrollEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrolleventargs).
+
 ## -remarks
 
 ## -examples

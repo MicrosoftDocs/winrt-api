@@ -10,6 +10,8 @@ public delegate void RangeBaseValueChangedEventHandler(System.Object sender, Win
 ## -description
 Represents the method that will handle a [ValueChanged](rangebase_valuechanged.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebasevaluechangedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the event handler is attached.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty InputScopeProperty { get; }
 ## -description
 Identifies the [InputScope](richeditbox_inputscope.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.InputScopeProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.inputscopeproperty).
+
 ## -property-value
 The identifier for the [InputScope](richeditbox_inputscope.md) dependency property.
 

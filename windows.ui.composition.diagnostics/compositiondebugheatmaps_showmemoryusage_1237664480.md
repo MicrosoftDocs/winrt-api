@@ -13,6 +13,8 @@ public void CompositionDebugHeatMaps.ShowMemoryUsage(Visual subtree)
 
 Shows a graphical representation of the GPU memory used by the app.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Diagnostics.CompositionDebugHeatMaps.ShowMemoryUsage](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugheatmaps.showmemoryusage).
+
 ## -parameters
 ### -param subtree
 

@@ -13,6 +13,8 @@ public void CompositionShapeCollection.SetAt(UInt32 index, CompositionShape valu
 
 Sets the value at the specified index to the CompositionShape value specified.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.SetAt](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.setat).
+
 ## -parameters
 ### -param index
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsVolumeButtonVisibleProperty { get; }
 ## -description
 Identifies the [IsVolumeButtonVisible](mediatransportcontrols_isvolumebuttonvisible.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsVolumeButtonVisibleProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isvolumebuttonvisibleproperty).
+
 ## -property-value
 The identifier for the [IsVolumeButtonVisible](mediatransportcontrols_isvolumebuttonvisible.md) dependency property.
 

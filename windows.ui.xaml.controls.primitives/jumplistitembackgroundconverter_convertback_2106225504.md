@@ -12,6 +12,8 @@ public object ConvertBack(System.Object value, Windows.UI.Xaml.Interop.TypeName 
 ## -description
 Modifies the target data before passing it to the source object.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.JumpListItemBackgroundConverter.ConvertBack](/windows/winui/api/microsoft.ui.xaml.controls.primitives.jumplistitembackgroundconverter.convertback).
+
 ## -parameters
 ### -param value
 The target data being passed to the source.

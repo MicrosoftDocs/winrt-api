@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty DescribedByProperty { get; 
 ## -description
 Identifies the described by automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.DescribedByProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.describedbyproperty).
+
 ## -property-value
 The automation property identifier.
 

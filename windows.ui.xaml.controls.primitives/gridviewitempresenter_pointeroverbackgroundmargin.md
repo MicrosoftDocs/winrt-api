@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness PointerOverBackgroundMargin { get;  set; }
 ## -description
 Gets or sets the margin of the background displayed for pointer-over input actions in the [GridView](../windows.ui.xaml.controls/gridview.md) item cell, versus the cell.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.PointerOverBackgroundMargin](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.pointeroverbackgroundmargin).
+
 ## -xaml-syntax
 ```xaml
 <gridViewItemPresenter PointerOverBackgroundMargin="uniform"/>

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.AppBar TopAppBar { get;  set; }
 ## -description
 Gets a reference to an [AppBar](appbar.md) displayed at the top of the page, if any.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Page.TopAppBar](/windows/winui/api/microsoft.ui.xaml.controls.page.topappbar).
+
 ## -xaml-syntax
 ```xaml
 <Page ...>

@@ -12,6 +12,8 @@ public object Current { get; }
 ## -description
 Gets the current item in the collection.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Interop.IBindableIterator.Current](/windows/winui/api/microsoft.ui.xaml.interop.ibindableiterator.current).
+
 ## -property-value
 The current item in the collection.
 

@@ -12,6 +12,8 @@ public string GetNavigationState()
 ## -description
 Serializes the [Frame](frame.md) navigation history into a string.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Frame.GetNavigationState](/windows/winui/api/microsoft.ui.xaml.controls.frame.getnavigationstate).
+
 ## -returns
 The string-form serialized navigation history. See Remarks.
 

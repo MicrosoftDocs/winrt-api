@@ -12,6 +12,8 @@ public bool ExitDisplayModeOnAccessKeyInvoked { get;  set; }
 ## -description
 Gets or sets a value that specifies whether the access key display is dismissed when an access key is invoked.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ExitDisplayModeOnAccessKeyInvoked](/windows/winui/api/microsoft.ui.xaml.uielement.exitdisplaymodeonaccesskeyinvoked).
+
 ## -property-value
 **true** to dismiss the access key display when an access key is invoked; otherwise, **false**.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty LabeledByProperty { get; }
 ## -description
 Identifies the labeled-by peer automation property. The labeling relationship for an automation peer is returned by the [GetLabeledBy](../windows.ui.xaml.automation.peers/automationpeer_getlabeledby_1845689.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.LabeledByProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.labeledbyproperty).
+
 ## -property-value
 The automation property identifier.
 

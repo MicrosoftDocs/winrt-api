@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TransformProperty { get; }
 ## -description
 Identifies the [Transform](brush_transform.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Brush.TransformProperty](/windows/winui/api/microsoft.ui.xaml.media.brush.transformproperty).
+
 ## -property-value
 The [Transform](brush_transform.md) dependency property identifier.
 

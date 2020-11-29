@@ -12,6 +12,8 @@ public bool AreHorizontalSnapPointsRegular { get; }
 ## -description
 Gets a value that determines whether the horizontal snap points for the [LoopingSelectorPanel](loopingselectorpanel.md) are equidistant from each other.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.AreHorizontalSnapPointsRegular](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselectorpanel.arehorizontalsnappointsregular).
+
 ## -property-value
 **True** if the horizontal snap points are equidistant from each other; otherwise, **false**.
 

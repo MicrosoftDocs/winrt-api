@@ -13,6 +13,8 @@ public float RotationAngle { get;  set; }
 
 Gets or sets the rotation angle of the shape in radians.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionShape.RotationAngle](/windows/winui/api/microsoft.ui.composition.compositionshape.rotationangle).
+
 ## -property-value
 
 The rotation angle of the shape in radians.

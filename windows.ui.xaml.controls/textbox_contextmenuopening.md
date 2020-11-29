@@ -13,6 +13,8 @@ public event Windows.UI.Xaml.Controls.ContextMenuOpeningEventHandler ContextMenu
 
 Occurs when the system processes an interaction that displays a context menu.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TextBox.ContextMenuOpening](/windows/winui/api/microsoft.ui.xaml.controls.textbox.contextmenuopening).
+
 ## -xaml-syntax
 
 ```xaml

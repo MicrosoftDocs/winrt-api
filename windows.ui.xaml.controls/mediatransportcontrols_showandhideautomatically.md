@@ -13,6 +13,8 @@ public bool ShowAndHideAutomatically { get;  set; }
 
 Gets or sets a value that indicates whether the controls are shown and hidden automatically.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.ShowAndHideAutomatically](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.showandhideautomatically).
+
 ## -xaml-syntax
 
 ```xaml

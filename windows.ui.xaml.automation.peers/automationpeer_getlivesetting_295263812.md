@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.Peers.AutomationLiveSetting GetLiveSetting()
 ## -description
 Gets the live setting notification behavior information for the object that is associated with the UI Automation peer.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLiveSetting](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getlivesetting).
+
 ## -returns
 A value of the enumeration.
 

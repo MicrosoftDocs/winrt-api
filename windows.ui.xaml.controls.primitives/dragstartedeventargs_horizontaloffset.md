@@ -12,6 +12,8 @@ public double HorizontalOffset { get; }
 ## -description
 Gets the horizontal distance between the current mouse position and the thumb coordinates.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.DragStartedEventArgs.HorizontalOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.dragstartedeventargs.horizontaloffset).
+
 ## -property-value
 The horizontal distance between the current mouse position and the thumb coordinates.
 

@@ -12,6 +12,8 @@ public uint GetMany(System.UInt32 startIndex, Windows.UI.Xaml.TriggerBase[] item
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.TriggerCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.triggercollection.getmany).
+
 ## -parameters
 ### -param startIndex
 The index from which to start retrieval.

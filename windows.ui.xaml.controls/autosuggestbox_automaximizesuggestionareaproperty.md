@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AutoMaximizeSuggestionAreaProperty { g
 ## -description
 Identifies the [AutoMaximizeSuggestionArea](autosuggestbox_automaximizesuggestionarea.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.AutoMaximizeSuggestionAreaProperty](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.automaximizesuggestionareaproperty).
+
 ## -property-value
 The identifier for the [AutoMaximizeSuggestionArea](autosuggestbox_automaximizesuggestionarea.md) dependency property.
 

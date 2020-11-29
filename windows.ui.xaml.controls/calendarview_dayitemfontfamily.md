@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.FontFamily DayItemFontFamily { get;  set; }
 ## -description
 Gets or sets the font used to display day values in the calendar.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.DayItemFontFamily](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.dayitemfontfamily).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView DayItemFontFamily="fontFamilyValue"/>

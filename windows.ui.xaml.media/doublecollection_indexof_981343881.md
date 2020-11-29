@@ -12,6 +12,8 @@ public bool IndexOf(System.Double value, System.UInt32 index)
 ## -description
 Retrieves the index of the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.DoubleCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.doublecollection.indexof).
+
 ## -parameters
 ### -param value
 The value to find in the collection.

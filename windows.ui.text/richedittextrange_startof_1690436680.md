@@ -13,6 +13,8 @@ public int RichEditTextRange.StartOf(TextRangeUnit unit, Boolean extend)
 
 Moves or extends the text range to the start of the nearest specified text unit. The text range is moved or extended backward in the document.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.StartOf](/windows/winui/api/microsoft.ui.text.richedittextrange.startof).
+
 ## -parameters
 ### -param unit
 

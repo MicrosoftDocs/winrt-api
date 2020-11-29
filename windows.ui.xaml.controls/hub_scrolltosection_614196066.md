@@ -12,6 +12,8 @@ public void ScrollToSection(Windows.UI.Xaml.Controls.HubSection section)
 ## -description
 Scrolls the hub to bring the specified hub section into view.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Hub.ScrollToSection](/windows/winui/api/microsoft.ui.xaml.controls.hub.scrolltosection).
+
 ## -parameters
 ### -param section
 The hub section to bring into view.

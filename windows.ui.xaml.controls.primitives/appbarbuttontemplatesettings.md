@@ -13,6 +13,8 @@ public class AppBarButtonTemplateSettings : DependencyObject, DependencyObject
 
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for an [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) control. Not intended for general use.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.AppBarButtonTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.appbarbuttontemplatesettings).
+
 ## -remarks
 
 ## -see-also

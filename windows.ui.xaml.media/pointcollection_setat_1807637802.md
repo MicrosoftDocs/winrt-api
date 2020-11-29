@@ -12,6 +12,8 @@ public void SetAt(System.UInt32 index, Windows.Foundation.Point value)
 ## -description
 Sets the value at the specified index to the [Point](../windows.foundation/point.md) value specified.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PointCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.pointcollection.setat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

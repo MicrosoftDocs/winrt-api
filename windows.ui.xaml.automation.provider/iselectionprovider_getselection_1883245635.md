@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple[] GetSelect
 ## -description
 Retrieves a UI Automation provider for each child element that is selected.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.GetSelection](/windows/winui/api/microsoft.ui.xaml.automation.provider.iselectionprovider.getselection).
+
 ## -returns
 An array of UI Automation providers.
 

@@ -13,6 +13,8 @@ public Windows.UI.Color AntiqueWhite { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFAEBD7.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.AntiqueWhite](/windows/winui/api/microsoft.ui.colors.antiquewhite).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFFAEBD7.

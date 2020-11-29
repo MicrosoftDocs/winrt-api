@@ -12,6 +12,8 @@ public bool AutoMaximizeSuggestionArea { get;  set; }
 ## -description
 Indicates if the suggestion area should be automatically maximized.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.AutoMaximizeSuggestionArea](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.automaximizesuggestionarea).
+
 ## -xaml-syntax
 ```xaml
 <AutoSuggestBox AutoMaximizeSuggestionArea="bool"/>

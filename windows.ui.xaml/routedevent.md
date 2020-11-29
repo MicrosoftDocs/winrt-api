@@ -12,6 +12,8 @@ public class RoutedEvent : Windows.UI.Xaml.IRoutedEvent
 ## -description
 Represents a routed event to the Windows Runtime event system.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.RoutedEvent](/windows/winui/api/microsoft.ui.xaml.routedevent).
+
 ## -remarks
 
 > [!NOTE]

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush CalendarItemBackground { get;  set; }
 ## -description
 Gets or sets a brush that provides the background of a calendar item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarItemBackground](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.calendaritembackground).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView CalendarItemBackground="{StaticResource resourceName}"/>

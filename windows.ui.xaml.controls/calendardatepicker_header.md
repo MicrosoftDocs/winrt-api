@@ -12,6 +12,8 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the calendar picker's header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.Header](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.header).
+
 ## -xaml-syntax
 ```xaml
 <CalendarDatePicker Header="headerString"/>

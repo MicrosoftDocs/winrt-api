@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsExitElementProperty { get; }
 ## -description
 Identifies the [ContinuumNavigationTransitionInfo.IsExitElement](/uwp/api/windows.ui.xaml.media.animation.continuumnavigationtransitioninfo#xaml-attached-properties) attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.IsExitElementProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.isexitelementproperty).
+
 ## -property-value
 The identifier for the [ContinuumNavigationTransitionInfo.IsExitElement](/uwp/api/windows.ui.xaml.media.animation.continuumnavigationtransitioninfo#xaml-attached-properties) attached property.
 

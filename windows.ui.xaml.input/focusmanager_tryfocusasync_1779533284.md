@@ -13,6 +13,8 @@ public IAsyncOperation<FocusMovementResult> FocusManager.TryFocusAsync(Dependenc
 
 Asynchronously attempts to set focus on an element when the application is initialized. 
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.FocusManager.TryFocusAsync](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.tryfocusasync).
+
 ## -parameters
 
 ### -param element

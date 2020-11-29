@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty IsKeyboardFocusableProperty
 ## -description
 Identifies the keyboard-focusable determination automation property. The keyboard focusable status is returned by the [IsKeyboardFocusable](../windows.ui.xaml.automation.peers/automationpeer_iskeyboardfocusable_2030365113.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsKeyboardFocusableProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.iskeyboardfocusableproperty).
+
 ## -property-value
 The automation property identifier.
 

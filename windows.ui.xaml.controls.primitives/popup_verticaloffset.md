@@ -12,6 +12,8 @@ public double VerticalOffset { get;  set; }
 ## -description
 Gets or sets the distance between the top of the application window and the top of the popup.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Popup.VerticalOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.verticaloffset).
+
 ## -xaml-syntax
 ```xaml
 <Popup VerticalOffset="double"/>

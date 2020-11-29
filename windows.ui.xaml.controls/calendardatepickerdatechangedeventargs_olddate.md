@@ -12,6 +12,8 @@ public Windows.Foundation.IReference<Windows.Foundation.DateTime> OldDate { get;
 ## -description
 Gets the date that was previously selected in the [CalendarDatePicker](calendardatepicker.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePickerDateChangedEventArgs.OldDate](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepickerdatechangedeventargs.olddate).
+
 ## -property-value
 The date that was previously selected in the [CalendarDatePicker](calendardatepicker.md).
 

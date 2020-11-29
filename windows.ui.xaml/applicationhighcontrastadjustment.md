@@ -15,6 +15,8 @@ public enum ApplicationHighContrastAdjustment : uint {
 ## -description
 Defines constants that specify whether the framework automatically adjusts visual properties for the app when high contrast themes are enabled.
 
+Equivalent WinUI enum: [Microsoft.UI.Xaml.ApplicationHighContrastAdjustment](/windows/winui/api/microsoft.ui.xaml.applicationhighcontrastadjustment).
+
 ## -enum-fields
 
 ### -field None:0

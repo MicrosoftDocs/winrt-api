@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty ExpandCollapseStateProperty
 ## -description
 Identifies the [ExpandCollapseState](../windows.ui.xaml.automation.provider/iexpandcollapseprovider_expandcollapsestate.md) automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.ExpandCollapsePatternIdentifiers.ExpandCollapseStateProperty](/windows/winui/api/microsoft.ui.xaml.automation.expandcollapsepatternidentifiers.expandcollapsestateproperty).
+
 ## -property-value
 The automation property identifier.
 

@@ -13,6 +13,8 @@ public class TextChangedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.
 
 Provides data for the [TextChanged](textbox_textchanged.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TextChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.textchangedeventargs).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public double DisabledOpacity { get;  set; }
 ## -description
 Gets or sets the opacity of an item that is disabled.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DisabledOpacity](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.disabledopacity).
+
 ## -xaml-syntax
 ```xaml
 <listViewItemPresenterDisabledOpacity="themeResourceReference"/>

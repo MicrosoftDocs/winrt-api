@@ -14,6 +14,8 @@ public DependencyProperty IconSourceProperty { get; }
 
 Identifies the IconSource dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.IconSourceElement.IconSourceProperty](/windows/winui/api/microsoft.ui.xaml.controls.iconsourceelement.iconsourceproperty).
+
 ## -property-value
 
 The identifier for the IconSource dependency property.

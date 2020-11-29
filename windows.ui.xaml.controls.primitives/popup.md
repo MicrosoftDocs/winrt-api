@@ -13,6 +13,8 @@ public class Popup : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Controls.
 
 Displays content on top of existing content, within the bounds of the application window.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.Popup](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup).
+
 ## -xaml-syntax
 
 ```xaml

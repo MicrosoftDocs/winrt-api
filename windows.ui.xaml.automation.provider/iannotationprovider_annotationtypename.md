@@ -12,6 +12,8 @@ public string AnnotationTypeName { get; }
 ## -description
 Gets the name of this annotation type.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IAnnotationProvider.AnnotationTypeName](/windows/winui/api/microsoft.ui.xaml.automation.provider.iannotationprovider.annotationtypename).
+
 ## -property-value
 The name of this annotation type.
 

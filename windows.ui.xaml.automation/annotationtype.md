@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.AnnotationType : int
 ## -description
 Provides a set of constants that identify types of annotations in a document, as used by the [ISpreadsheetItemProvider](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ispreadsheetitemprovider)  Microsoft UI Automation interface.
 
+Equivalent WinUI enum: [AnnotationType](/windows/winui/api/microsoft.ui.xaml.automation.annotationtype).
+
 ## -enum-fields
 ### -field Unknown:60000
 The annotation type is unknown.

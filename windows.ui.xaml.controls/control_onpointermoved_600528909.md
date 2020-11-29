@@ -12,6 +12,8 @@ virtual protected void OnPointerMoved(Windows.UI.Xaml.Input.PointerRoutedEventAr
 ## -description
 Called before the [PointerMoved](../windows.ui.xaml/uielement_pointermoved.md) event occurs.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnPointerMoved](/windows/winui/api/microsoft.ui.xaml.controls.control.onpointermoved).
+
 ## -parameters
 ### -param e
 Event data for the event.

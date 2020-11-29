@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DisplayMemberPathProperty { get; }
 ## -description
 Identifies the [DisplayMemberPath](itemscontrol_displaymemberpath.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.DisplayMemberPathProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.displaymemberpathproperty).
+
 ## -property-value
 The identifier for the [DisplayMemberPath](itemscontrol_displaymemberpath.md) dependency property.
 

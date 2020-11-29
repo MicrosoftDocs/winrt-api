@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ContentMarginProperty { get; }
 ## -description
 Identifies the [ContentMargin](listviewitempresenter_contentmargin.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ContentMarginProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.contentmarginproperty).
+
 ## -property-value
 The identifier for the [ContentMargin](listviewitempresenter_contentmargin.md) dependency property.
 

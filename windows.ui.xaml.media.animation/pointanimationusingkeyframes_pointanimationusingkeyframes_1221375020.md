@@ -12,6 +12,8 @@ public PointAnimationUsingKeyFrames()
 ## -description
 Initializes a new instance of the [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.PointAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimationusingkeyframes.#ctor).
+
 ## -remarks
 
 ## -examples

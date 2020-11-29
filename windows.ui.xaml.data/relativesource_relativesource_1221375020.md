@@ -12,6 +12,8 @@ public RelativeSource()
 ## -description
 Initializes a new instance of the [RelativeSource](relativesource.md) class by using default relative source mode.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Data.RelativeSource.RelativeSource](/windows/winui/api/microsoft.ui.xaml.data.relativesource.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public event Windows.Foundation.EventHandler Opened<object>
 ## -description
 Occurs when the [AppBar](appbar.md) changes from hidden to visible.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.AppBar.Opened](/windows/winui/api/microsoft.ui.xaml.controls.appbar.opened).
+
 ## -xaml-syntax
 ```xaml
 <AppBar Opened="eventhandler"/>

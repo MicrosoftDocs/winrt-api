@@ -12,6 +12,8 @@ public class NavigationEventArgs : Windows.UI.Xaml.Navigation.INavigationEventAr
 ## -description
 Provides data for navigation methods and event handlers that cannot cancel the navigation request.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Navigation.NavigationEventArgs](/windows/winui/api/microsoft.ui.xaml.navigation.navigationeventargs).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ExtensionInstanceProperty { get; }
 ## -description
 Identifies the [ExtensionInstance](/uwp/api/windows.ui.xaml.datatemplate#xaml-attached-properties) XAML attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DataTemplate.ExtensionInstanceProperty](/windows/winui/api/microsoft.ui.xaml.datatemplate.extensioninstanceproperty).
+
 ## -property-value
 The identifier for the [ExtensionInstance](/uwp/api/windows.ui.xaml.datatemplate#xaml-attached-properties) XAML attached property.
 

@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Media.AudioDeviceType : int
 ## -description
 Describes the primary usage of the device that is being used to play back audio. This value is used by [AudioDeviceType](../windows.ui.xaml.controls/mediaelement_audiodevicetype.md).
 
+Equivalent WinUI enum: [AudioDeviceType](/windows/winui/api/microsoft.ui.xaml.media.audiodevicetype).
+
 ## -enum-fields
 ### -field Console:0
 The device is a console and the audio session might support games, notifications, voice commands, and so on.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsLightDismissEnabledProperty { get; }
 ## -description
 Identifies the [IsLightDismissEnabled](popup_islightdismissenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Popup.IsLightDismissEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.islightdismissenabledproperty).
+
 ## -property-value
 The identifier for the [IsLightDismissEnabled](popup_islightdismissenabled.md) dependency property.
 

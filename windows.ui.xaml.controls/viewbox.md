@@ -12,6 +12,8 @@ public class Viewbox : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Control
 ## -description
 Defines a content decorator that can stretch and scale a single child to fill the available space.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Viewbox](/windows/winui/api/microsoft.ui.xaml.controls.viewbox).
+
 ## -xaml-syntax
 ```xaml
 <ViewBox .../>

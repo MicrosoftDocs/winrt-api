@@ -12,6 +12,8 @@ public void SelectAll()
 ## -description
 Selects all the items in a view.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.SelectAll](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.selectall).
+
 ## -remarks
 > [!WARNING]
 > Call the SelectAll method only when the [SelectionMode](listviewbase_selectionmode.md) property is set to [Multiple](listviewselectionmode.md) or [Extended](listviewselectionmode.md). If you call SelectAll when the [SelectionMode](listviewbase_selectionmode.md) is **Single** or **None**, an exception is thrown.

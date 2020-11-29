@@ -12,6 +12,8 @@ public FlipViewItemDataAutomationPeer(System.Object item, Windows.UI.Xaml.Automa
 ## -description
 Initializes a new instance of the [FlipViewItemDataAutomationPeer](flipviewitemdataautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.FlipViewItemDataAutomationPeer.FlipViewItemDataAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.flipviewitemdataautomationpeer.#ctor).
+
 ## -parameters
 ### -param item
 The item data.

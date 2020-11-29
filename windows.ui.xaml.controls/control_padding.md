@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness Padding { get;  set; }
 ## -description
 Gets or sets the padding inside a control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.Padding](/windows/winui/api/microsoft.ui.xaml.controls.control.padding).
+
 ## -xaml-syntax
 ```xaml
 <control Padding="uniform"/>

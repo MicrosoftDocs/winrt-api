@@ -12,6 +12,8 @@ public Windows.UI.Xaml.UIElement GetLabeledBy(Windows.UI.Xaml.DependencyObject e
 ## -description
 Gets the value of the [AutomationProperties.LabeledBy](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetLabeledBy](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getlabeledby).
+
 ## -parameters
 ### -param element
 The [DependencyObject](../windows.ui.xaml/dependencyobject.md) to check.

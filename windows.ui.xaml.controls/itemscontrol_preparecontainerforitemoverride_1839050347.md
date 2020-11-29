@@ -12,6 +12,8 @@ virtual protected void PrepareContainerForItemOverride(Windows.UI.Xaml.Dependenc
 ## -description
 Prepares the specified element to display the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemsControl.PrepareContainerForItemOverride](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.preparecontainerforitemoverride).
+
 ## -parameters
 ### -param element
 The element that's used to display the specified item.

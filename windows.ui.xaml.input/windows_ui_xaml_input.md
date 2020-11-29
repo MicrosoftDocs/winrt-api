@@ -8,6 +8,8 @@
 ## -description
 Defines the input and input event infrastructure for apps and UI elements.
 
+Equivalent WinUI namespace: [Microsoft.UI.Xaml.Input](/windows/winui/api/microsoft.ui.xaml.input).
+
 ## -remarks
 
 ## -examples

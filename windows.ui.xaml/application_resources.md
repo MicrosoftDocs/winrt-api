@@ -12,6 +12,8 @@ public Windows.UI.Xaml.ResourceDictionary Resources { get;  set; }
 ## -description
 Gets a collection of application-scoped resources, such as styles, templates, and brushes.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Application.Resources](/windows/winui/api/microsoft.ui.xaml.application.resources).
+
 ## -xaml-syntax
 ```xaml
 <Application>

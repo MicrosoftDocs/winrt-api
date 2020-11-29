@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.ConnectedAnimation GetAnimation(System.St
 ## -description
 Returns the animation with the specified key.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimationService.GetAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimationservice.getanimation).
+
 ## -parameters
 ### -param key
 The key for the animation.

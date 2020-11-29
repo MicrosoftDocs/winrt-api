@@ -12,6 +12,8 @@ public Windows.UI.Color Color { get;  set; }
 ## -description
 The color used to fill a [SpriteVisual](spritevisual.md). Animatable.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionColorBrush.Color](/windows/winui/api/microsoft.ui.composition.compositioncolorbrush.color).
+
 ## -property-value
 The color used to fill a [SpriteVisual](spritevisual.md).
 

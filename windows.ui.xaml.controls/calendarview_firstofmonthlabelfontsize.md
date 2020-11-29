@@ -12,6 +12,8 @@ public double FirstOfMonthLabelFontSize { get;  set; }
 ## -description
 Gets or sets the font size used to display the first-of-month banner in the calendar.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.FirstOfMonthLabelFontSize](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.firstofmonthlabelfontsize).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView FirstOfMonthLabelFontSize="double"/>

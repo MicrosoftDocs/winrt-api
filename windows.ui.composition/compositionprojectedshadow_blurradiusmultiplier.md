@@ -14,6 +14,8 @@ public float BlurRadiusMultiplier { get;  set; }
 
 Gets or sets the multiplier for the shadow's blur radius.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionProjectedShadow.BlurRadiusMultiplier](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadow.blurradiusmultiplier).
+
 ## -property-value
 
 The multiplier for the shadow's blur radius.

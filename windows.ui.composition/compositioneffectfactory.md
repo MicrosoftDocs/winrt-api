@@ -15,6 +15,8 @@ Creates a composition object that contains a [Win2D](https://microsoft.github.io
 > [!NOTE]
 > Effects that are not supported are marked as [NoComposition] in the [Win2D API Reference](https://microsoft.github.io/Win2D/html/APIReference.htm) for effects namespace.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionEffectFactory](/windows/winui/api/microsoft.ui.composition.compositioneffectfactory).
+
 ## -remarks
 
 A composition effect is a graph of operations that define how to produce graphical content based on composition surfaces; for example, the pixel content of images. Effects are applied to visuals in the tree and can reference existing surfaces.

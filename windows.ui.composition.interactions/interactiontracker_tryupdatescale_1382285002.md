@@ -14,6 +14,8 @@ Tries to update the scale to the specified value.
 
 The TryUpdateScale method updates the scale location of [InteractionTracker](interactiontracker.md) to the Scale position and centerpoint specified as a parameter. TryUpdateScale is used to declaratively define the scale of [InteractionTracker](interactiontracker.md) at any point in time (either at start, from some state-entered event, etc.). TryUpdateScale can be called from either the Idle, CustomAnimation or Inertia state – doing so will move the scale position of [InteractionTracker](interactiontracker.md) to the defined position and enter the idle state.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTracker.TryUpdateScale](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.tryupdatescale).
+
 ## -parameters
 ### -param value
 The new value for scale.

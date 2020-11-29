@@ -12,6 +12,8 @@ public int MoveStart(Windows.UI.Text.TextRangeUnit unit, System.Int32 count)
 ## -description
 Moves the start position of a text range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.MoveStart](/windows/winui/api/microsoft.ui.text.itextrange.movestart).
+
 ## -parameters
 ### -param unit
 The unit by which to move the start position of the text range. The default value is **Character**.

@@ -14,6 +14,8 @@ public class UIElementWeakCollection : IIterable<UIElement>, IVector<UIElement>
 
 Represents a collection of weak references to UIElement objects. 
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.UIElementWeakCollection](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection).
+
 ## -remarks
 
 This class is used by the [ThemeShadow.Receivers](../windows.ui.xaml.media/themeshadow_receivers.md) property.

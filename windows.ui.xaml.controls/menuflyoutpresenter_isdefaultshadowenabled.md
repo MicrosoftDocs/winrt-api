@@ -14,6 +14,8 @@ public bool IsDefaultShadowEnabled { get;  set; }
 
 Gets or sets a value that indicates whether the default shadow effect is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.IsDefaultShadowEnabled](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutpresenter.isdefaultshadowenabled).
+
 ## -property-value
 
 **true** if the default shadow effect is shown; otherwise, **false**. The default is **true**.

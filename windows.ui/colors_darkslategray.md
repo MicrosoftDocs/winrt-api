@@ -13,6 +13,8 @@ public Windows.UI.Color DarkSlateGray { get; }
 
 Gets the system-defined color that has an ARGB value of #FF2F4F4F.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.DarkSlateGray](/windows/winui/api/microsoft.ui.colors.darkslategray).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF2F4F4F.

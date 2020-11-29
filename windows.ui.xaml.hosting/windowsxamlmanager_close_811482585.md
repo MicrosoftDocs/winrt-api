@@ -13,6 +13,8 @@ public void WindowsXamlManager.Close()
 ## -description
 Closes and releases any resources used by this [WindowsXamlManager](windowsxamlmanager.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Hosting.WindowsXamlManager.Close](/windows/winui/api/microsoft.ui.xaml.hosting.windowsxamlmanager.close).
+
 ## -remarks
 
 ## -see-also

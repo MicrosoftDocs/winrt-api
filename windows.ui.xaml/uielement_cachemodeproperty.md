@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CacheModeProperty { get; }
 ## -description
 Identifies the [CacheMode](uielement_cachemode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.CacheModeProperty](/windows/winui/api/microsoft.ui.xaml.uielement.cachemodeproperty).
+
 ## -property-value
 The identifier for the [CacheMode](uielement_cachemode.md) dependency property.
 

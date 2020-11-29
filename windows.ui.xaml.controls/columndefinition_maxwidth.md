@@ -12,6 +12,8 @@ public double MaxWidth { get;  set; }
 ## -description
 Gets or sets a value that represents the maximum width of a [ColumnDefinition](columndefinition.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ColumnDefinition.MaxWidth](/windows/winui/api/microsoft.ui.xaml.controls.columndefinition.maxwidth).
+
 ## -xaml-syntax
 ```xaml
 <ColumnDefinition MaxWidth="double"/>

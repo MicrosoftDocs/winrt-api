@@ -12,6 +12,8 @@ public float LeftInsetScale { get;  set; }
 ## -description
 Scale to be applied to LeftInset. Defaults to 1.0f.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionNineGridBrush.LeftInsetScale](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.leftinsetscale).
+
 ## -property-value
 Scale to be applied to LeftInset. Defaults to 1.0f.
 

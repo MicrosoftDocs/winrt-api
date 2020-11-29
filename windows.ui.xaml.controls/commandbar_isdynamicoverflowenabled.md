@@ -12,6 +12,8 @@ public bool IsDynamicOverflowEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether primary commands automatically move to the overflow menu when space is limited.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CommandBar.IsDynamicOverflowEnabled](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.isdynamicoverflowenabled).
+
 ## -xaml-syntax
 ```xaml
 <CommandBar IsDynamicOverflowEnabled="bool"/>

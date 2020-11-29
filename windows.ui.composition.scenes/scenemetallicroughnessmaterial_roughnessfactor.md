@@ -14,6 +14,8 @@ public float RoughnessFactor { get;  set; }
 
 Gets or sets a value that indicates how rough or smooth the material appears.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneMetallicRoughnessMaterial.RoughnessFactor](/windows/winui/api/microsoft.ui.composition.scenes.scenemetallicroughnessmaterial.roughnessfactor).
+
 ## -property-value
 
 A value that indicates how rough or smooth the material appears.

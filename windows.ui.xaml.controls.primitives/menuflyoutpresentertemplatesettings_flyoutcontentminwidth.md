@@ -12,6 +12,8 @@ public double FlyoutContentMinWidth { get; }
 ## -description
 Gets the minimum width of flyout content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.MenuFlyoutPresenterTemplateSettings.FlyoutContentMinWidth](/windows/winui/api/microsoft.ui.xaml.controls.primitives.menuflyoutpresentertemplatesettings.flyoutcontentminwidth).
+
 ## -property-value
 The minimum width of flyout content.
 

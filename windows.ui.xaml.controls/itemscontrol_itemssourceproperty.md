@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ItemsSourceProperty { get; }
 ## -description
 Identifies the [ItemsSource](itemscontrol_itemssource.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsSourceProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemssourceproperty).
+
 ## -property-value
 The identifier for the [ItemsSource](itemscontrol_itemssource.md) dependency property.
 

@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.FontNumeralAlignment : int
 ## -description
 Describes the numeral alignment value for the [Typography.NumeralAlignment](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
+Equivalent WinUI enum: [FontNumeralAlignment](/windows/winui/api/microsoft.ui.xaml.fontnumeralalignment).
+
 ## -xaml-syntax
 ```xaml
 <object property="enumMemberName"/>

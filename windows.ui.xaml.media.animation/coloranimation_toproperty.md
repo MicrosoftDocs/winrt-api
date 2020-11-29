@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ToProperty { get; }
 ## -description
 Identifies the [To](coloranimation_to.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorAnimation.ToProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimation.toproperty).
+
 ## -property-value
 The identifier for the [To](coloranimation_to.md)  dependency property.
 

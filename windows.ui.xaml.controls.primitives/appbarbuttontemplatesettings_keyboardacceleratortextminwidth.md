@@ -12,6 +12,8 @@ public double KeyboardAcceleratorTextMinWidth { get; }
 ## -description
 Gets the minimum width allocated for the accelerator key tip of an [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.AppBarButtonTemplateSettings.KeyboardAcceleratorTextMinWidth](/windows/winui/api/microsoft.ui.xaml.controls.primitives.appbarbuttontemplatesettings.keyboardacceleratortextminwidth).
+
 ## -property-value
 A number that specifies the minimum width allocated for the accelerator key tip of an [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md).
 

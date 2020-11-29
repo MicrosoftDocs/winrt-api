@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.FontFamily FontFamily { get;  set; }
 ## -description
 Gets or sets the font used to display text in the control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.FontFamily](/windows/winui/api/microsoft.ui.xaml.controls.control.fontfamily).
+
 ## -xaml-syntax
 ```xaml
 <control FontFamily="fontFamilyValue"/>

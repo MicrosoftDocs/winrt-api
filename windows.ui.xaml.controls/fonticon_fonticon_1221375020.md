@@ -12,6 +12,8 @@ public FontIcon()
 ## -description
 Initializes a new instance of the [FontIcon](fonticon.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.FontIcon.FontIcon](/windows/winui/api/microsoft.ui.xaml.controls.fonticon.#ctor).
+
 ## -remarks
 
 ## -examples

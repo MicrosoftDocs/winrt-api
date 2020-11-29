@@ -14,6 +14,8 @@ public void RichEditTextDocument.Undo()
 
 Undoes the most recent undo group.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.Undo](/windows/winui/api/microsoft.ui.text.richedittextdocument.undo).
+
 ## -remarks
 
 ## -see-also

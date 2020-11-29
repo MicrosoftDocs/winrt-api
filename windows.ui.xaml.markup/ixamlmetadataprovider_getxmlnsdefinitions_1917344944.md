@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Markup.XmlnsDefinition[] GetXmlnsDefinitions()
 ## -description
 Gets the set of XMLNS (XAML namespace) definitions that apply to the context.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IXamlMetadataProvider.GetXmlnsDefinitions](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmetadataprovider.getxmlnsdefinitions).
+
 ## -returns
 The set of XMLNS (XAML namespace) definitions.
 

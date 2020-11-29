@@ -12,6 +12,8 @@ public bool IsStereo3DVideo { get; }
 ## -description
 Gets a value that reports whether the current source media is a stereo 3-D video media file.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.IsStereo3DVideo](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.isstereo3dvideo).
+
 ## -property-value
 **true** if the current source media is stereo 3-D video, otherwise, **false**.
 

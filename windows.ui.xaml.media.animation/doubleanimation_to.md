@@ -12,6 +12,8 @@ public Windows.Foundation.IReference<double> To { get;  set; }
 ## -description
 Gets or sets the animation's ending value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimation.To](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimation.to).
+
 ## -xaml-syntax
 ```xaml
 <DoubleAnimation To="double"/>

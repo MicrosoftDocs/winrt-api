@@ -14,6 +14,8 @@ public Visual Source { get;  set; }
 
 Gets or sets the Visual that this RedirectVisual gets its content from.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.RedirectVisual.Source](/windows/winui/api/microsoft.ui.composition.redirectvisual.source).
+
 ## -property-value
 
 The Visual that this RedirectVisual gets its content from. The default is **null**.

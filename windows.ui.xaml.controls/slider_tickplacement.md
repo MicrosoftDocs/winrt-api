@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Primitives.TickPlacement TickPlacement { get;  s
 ## -description
 Gets or sets a value that indicates where to draw tick marks in relation to the track.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Slider.TickPlacement](/windows/winui/api/microsoft.ui.xaml.controls.slider.tickplacement).
+
 ## -xaml-syntax
 ```xaml
 <Slider TickPlacement="tickPlacementMemberName" />

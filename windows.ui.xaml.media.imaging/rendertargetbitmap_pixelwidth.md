@@ -12,6 +12,8 @@ public int PixelWidth { get; }
 ## -description
 Gets the width of the rendered bitmap in pixels.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap.PixelWidth](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap.pixelwidth).
+
 ## -property-value
 The width of the rendered bitmap in pixels.
 

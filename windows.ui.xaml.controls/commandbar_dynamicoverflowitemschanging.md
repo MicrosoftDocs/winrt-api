@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler DynamicOverflowItemsChanging<W
 ## -description
 Occurs when items move into or out of the overflow menu.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.CommandBar.DynamicOverflowItemsChanging](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.dynamicoverflowitemschanging).
+
 ## -xaml-syntax
 ```xaml
 <CommandBar DynamicOverflowItemsChanging="eventhandler"/>

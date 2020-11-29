@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty RadiusXProperty { get; }
 ## -description
 Identifies the [RadiusX](ellipsegeometry_radiusx.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.EllipseGeometry.RadiusXProperty](/windows/winui/api/microsoft.ui.xaml.media.ellipsegeometry.radiusxproperty).
+
 ## -property-value
 The [RadiusX](ellipsegeometry_radiusx.md) dependency property identifier.
 

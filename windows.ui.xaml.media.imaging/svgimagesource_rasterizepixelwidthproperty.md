@@ -12,6 +12,8 @@ public DependencyProperty RasterizePixelWidthProperty { get; }
 ## -description
 Identifies the **RasterizePixelWidth** dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelWidthProperty](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.rasterizepixelwidthproperty).
+
 ## -property-value
 The identifier for the **RasterizePixelWidth** dependency property.
 

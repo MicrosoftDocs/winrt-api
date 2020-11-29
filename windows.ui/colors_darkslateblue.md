@@ -13,6 +13,8 @@ public Windows.UI.Color DarkSlateBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FF483D8B.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.DarkSlateBlue](/windows/winui/api/microsoft.ui.colors.darkslateblue).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF483D8B.

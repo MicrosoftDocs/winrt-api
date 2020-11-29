@@ -12,6 +12,8 @@ public void CompositionDrawingSurface.ScrollWithClip(PointInt32 offset, RectInt3
 ## -description
 Scrolls the drawing surface with the specified clip rectangle.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionDrawingSurface.ScrollWithClip](/windows/winui/api/microsoft.ui.composition.compositiondrawingsurface.scrollwithclip).
+
 ## -parameters
 
 ### -param offset

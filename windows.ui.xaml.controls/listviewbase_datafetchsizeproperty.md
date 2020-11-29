@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DataFetchSizeProperty { get; }
 ## -description
 Identifies the [DataFetchSize](listviewbase_datafetchsize.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.DataFetchSizeProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.datafetchsizeproperty).
+
 ## -property-value
 The identifier for the [DataFetchSize](listviewbase_datafetchsize.md) dependency property.
 

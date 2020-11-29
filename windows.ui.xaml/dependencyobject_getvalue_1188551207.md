@@ -12,6 +12,8 @@ public object GetValue(Windows.UI.Xaml.DependencyProperty dp)
 ## -description
 Returns the current effective value of a dependency property from a [DependencyObject](dependencyobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyObject.GetValue](/windows/winui/api/microsoft.ui.xaml.dependencyobject.getvalue).
+
 ## -parameters
 ### -param dp
 The [DependencyProperty](dependencyproperty.md) identifier of the property for which to retrieve the value.

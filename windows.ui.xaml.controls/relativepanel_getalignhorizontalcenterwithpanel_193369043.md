@@ -12,6 +12,8 @@ public bool GetAlignHorizontalCenterWithPanel(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [RelativePanel.AlignHorizontalCenterWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property for the target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.GetAlignHorizontalCenterWithPanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getalignhorizontalcenterwithpanel).
+
 ## -parameters
 ### -param element
 The object from which the property value is read.

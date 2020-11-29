@@ -13,6 +13,8 @@ public class ToolTip : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xaml.
 
 Represents a control that creates a pop-up window that displays information for an element in the UI.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ToolTip](/windows/winui/api/microsoft.ui.xaml.controls.tooltip).
+
 ## -xaml-syntax
 
 ```xaml

@@ -14,6 +14,8 @@ public void SceneComponentCollection.ReplaceAll(SceneComponent[] items)
 
 Initially clears the collection, then inserts the provided array as new items.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneComponentCollection.ReplaceAll](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponentcollection.replaceall).
+
 ## -parameters
 ### -param items
 

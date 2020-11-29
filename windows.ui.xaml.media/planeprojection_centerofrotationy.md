@@ -12,6 +12,8 @@ public double CenterOfRotationY { get;  set; }
 ## -description
 Gets or sets the y-coordinate of the center of rotation of the object that you rotate.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.CenterOfRotationY](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.centerofrotationy).
+
 ## -xaml-syntax
 ```xaml
 <PlaneProjection CenterOfRotationY="double"/>

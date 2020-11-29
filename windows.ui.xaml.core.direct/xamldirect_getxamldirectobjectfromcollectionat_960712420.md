@@ -13,6 +13,8 @@ public IXamlDirectObject XamlDirect.GetXamlDirectObjectFromCollectionAt(IXamlDir
 ## -description
 Returns the [IXamlDirectObject](ixamldirectobject.md) item at the specified index from the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetXamlDirectObjectFromCollectionAt](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getxamldirectobjectfromcollectionat).
+
 ## -parameters
 ### -param xamlDirectObject
 Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.

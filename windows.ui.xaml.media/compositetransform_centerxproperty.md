@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CenterXProperty { get; }
 ## -description
 Identifies the [CenterX](compositetransform_centerx.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.CompositeTransform.CenterXProperty](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.centerxproperty).
+
 ## -property-value
 The identifier for the [CenterX](compositetransform_centerx.md) dependency property.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MinuteIncrementProperty { get; }
 ## -description
 Gets the identifier for the [MinuteIncrement](timepicker_minuteincrement.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.MinuteIncrementProperty](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.minuteincrementproperty).
+
 ## -property-value
 The identifier for the [MinuteIncrement](timepicker_minuteincrement.md) dependency property.
 

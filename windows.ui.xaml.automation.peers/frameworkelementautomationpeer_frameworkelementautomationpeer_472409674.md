@@ -12,6 +12,8 @@ public FrameworkElementAutomationPeer(Windows.UI.Xaml.FrameworkElement owner)
 ## -description
 Initializes a new instance of the [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer.FrameworkElementAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.frameworkelementautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The owner element to create for.

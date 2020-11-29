@@ -12,6 +12,8 @@ public class ToggleMenuFlyoutItemAutomationPeer : Windows.UI.Xaml.Automation.Pee
 ## -description
 Exposes ToggleMenuFlyoutItem types to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.togglemenuflyoutitemautomationpeer).
+
 ## -remarks
 
 ## -examples

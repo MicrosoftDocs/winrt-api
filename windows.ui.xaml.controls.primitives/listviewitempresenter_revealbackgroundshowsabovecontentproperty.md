@@ -13,6 +13,8 @@ public DependencyProperty RevealBackgroundShowsAboveContentProperty { get; }
 
 Identifies the RevealBackgroundShowsAboveContent dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackgroundShowsAboveContentProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.revealbackgroundshowsabovecontentproperty).
+
 ## -property-value
 
 The identifier for the RevealBackgroundShowsAboveContent dependency property.

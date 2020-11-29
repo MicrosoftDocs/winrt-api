@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.Controls.TextControlPasteEventHandler Paste
 ## -description
 Occurs when text is pasted into the control.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.RichEditBox.Paste](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.paste).
+
 ## -xaml-syntax
 ```xaml
 <RichEditBox Paste="eventhandler"/>

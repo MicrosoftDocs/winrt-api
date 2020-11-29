@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Interop.TypeName SourcePageType { get;  set; }
 ## -description
 Gets or sets a type reference of the current content, or the content that should be navigated to.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Frame.SourcePageType](/windows/winui/api/microsoft.ui.xaml.controls.frame.sourcepagetype).
+
 ## -property-value
 A type reference for the current content, or the content to navigate to.
 

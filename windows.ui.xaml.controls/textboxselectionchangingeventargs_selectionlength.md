@@ -14,6 +14,8 @@ public int SelectionLength { get; }
 
 Gets the length of the text selection.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBoxSelectionChangingEventArgs.SelectionLength](/windows/winui/api/microsoft.ui.xaml.controls.textboxselectionchangingeventargs.selectionlength).
+
 ## -property-value
 
 The length of the text selection.

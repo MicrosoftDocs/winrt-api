@@ -12,6 +12,8 @@ public object Content { get;  set; }
 ## -description
 Gets or sets the data that is used to generate the child elements of a [ContentPresenter](contentpresenter.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.Content](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.content).
+
 ## -xaml-syntax
 ```xaml
 <ContentPresenter Content="{Binding}"/>

@@ -13,6 +13,8 @@ public Windows.UI.Color Aqua { get; }
 
 Gets the system-defined color that has an ARGB value of #FF00FFFF.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Aqua](/windows/winui/api/microsoft.ui.colors.aqua).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF00FFFF.

@@ -12,6 +12,8 @@ public void Append(System.Object value)
 ## -description
 Appends an item to the end of the vector.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableVector.Append](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector.append).
+
 ## -parameters
 ### -param value
 The item to append to the vector.

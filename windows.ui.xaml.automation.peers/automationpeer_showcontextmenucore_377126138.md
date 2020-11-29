@@ -12,6 +12,8 @@ virtual protected void ShowContextMenuCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [ShowContextMenu](automationpeer_showcontextmenu_289083366.md) or an equivalent Microsoft UI Automation client API.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.ShowContextMenuCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.showcontextmenucore).
+
 ## -remarks
 
 ## -examples

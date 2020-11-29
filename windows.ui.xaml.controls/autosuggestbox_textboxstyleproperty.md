@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TextBoxStyleProperty { get; }
 ## -description
 Identifies the [TextBoxStyle](autosuggestbox_textboxstyle.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.TextBoxStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.textboxstyleproperty).
+
 ## -property-value
 Identifier for the [TextBoxStyle](autosuggestbox_textboxstyle.md) dependency property.
 

@@ -12,6 +12,8 @@ public class QuinticEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBase, W
 ## -description
 Represents an easing function that creates an animation that accelerates and/or decelerates using the formula *f* (*t*) = *t*<sup>5</sup>.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.QuinticEase](/windows/winui/api/microsoft.ui.xaml.media.animation.quinticease).
+
 ## -xaml-syntax
 ```xaml
 <QuinticEase .../>

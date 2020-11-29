@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.ScrollAmount : int
 ## -description
 Contains values that are used by the [IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md) pattern to indicate the direction and distance to scroll.
 
+Equivalent WinUI enum: [ScrollAmount](/windows/winui/api/microsoft.ui.xaml.automation.scrollamount).
+
 ## -enum-fields
 ### -field LargeDecrement:0
 Specifies that scrolling is performed in large decrements, which is equivalent to pressing the PAGE UP key or to clicking a blank part of a scrollbar. If the distance represented by the PAGE UP key is not a relevant amount for the control, or if no scrollbar exists, the value represents an amount equal to the size of the currently visible window.

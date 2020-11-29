@@ -12,6 +12,8 @@ public void InsertVector4(System.String propertyName, Windows.Foundation.Numeric
 ## -description
 Inserts a Vector4 key-value pair.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.InsertVector4](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.insertvector4).
+
 ## -parameters
 ### -param propertyName
 The key associated with the value. This key can be used to retrieve the value.

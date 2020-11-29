@@ -12,6 +12,8 @@ public Button()
 ## -description
 Initializes a new instance of the [Button](button.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Button.Button](/windows/winui/api/microsoft.ui.xaml.controls.button.#ctor).
+
 ## -remarks
 
 ## -examples

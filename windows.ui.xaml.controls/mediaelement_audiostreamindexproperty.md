@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AudioStreamIndexProperty { get; }
 ## -description
 Identifies the [AudioStreamIndex](mediaelement_audiostreamindex.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.AudioStreamIndexProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.audiostreamindexproperty).
+
 ## -property-value
 The identifier for the [AudioStreamIndex](mediaelement_audiostreamindex.md) dependency property.
 

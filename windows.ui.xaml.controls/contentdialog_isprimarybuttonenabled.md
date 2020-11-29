@@ -12,6 +12,8 @@ public bool IsPrimaryButtonEnabled { get;  set; }
 ## -description
 Gets or sets whether the dialog's primary button is enabled.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.IsPrimaryButtonEnabled](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.isprimarybuttonenabled).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog IsPrimaryButtonEnabled="bool"/>

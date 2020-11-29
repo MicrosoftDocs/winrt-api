@@ -12,6 +12,8 @@ public double FromVerticalOffset { get; }
 ## -description
 Gets the offset that is appropriate as a value for **FromVerticalOffset** in theme animations.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ToolTipTemplateSettings.FromVerticalOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.tooltiptemplatesettings.fromverticaloffset).
+
 ## -property-value
 A value in pixels.
 

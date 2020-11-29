@@ -12,6 +12,8 @@ public void Close()
 ## -description
 Disposes of the object and associated resources.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.SoftwareBitmapSource.Close](/windows/winui/api/microsoft.ui.xaml.media.imaging.softwarebitmapsource.close).
+
 ## -remarks
 For Microsoft Visual Basic and C#, use the [Dispose](softwarebitmapsource_dispose.md) method.
 

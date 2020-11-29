@@ -12,6 +12,8 @@ public void Append(Windows.UI.Xaml.Media.Geometry value)
 ## -description
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GeometryCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.geometrycollection.append).
+
 ## -parameters
 ### -param value
 The new item to add.

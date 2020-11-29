@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ZoomedOutViewProperty { get; }
 ## -description
 Identifies the [ZoomedOutView](semanticzoom_zoomedoutview.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SemanticZoom.ZoomedOutViewProperty](/windows/winui/api/microsoft.ui.xaml.controls.semanticzoom.zoomedoutviewproperty).
+
 ## -property-value
 The identifier for the [ZoomedOutView](semanticzoom_zoomedoutview.md) dependency property.
 

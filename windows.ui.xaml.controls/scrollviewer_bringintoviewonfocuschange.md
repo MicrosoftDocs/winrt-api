@@ -12,6 +12,8 @@ public bool BringIntoViewOnFocusChange { get;  set; }
 ## -description
 Gets or sets a value that determines whether the [ScrollViewer](scrollviewer.md) uses a bring-into-view scroll behavior when an item in the view gets focus.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.BringIntoViewOnFocusChange](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.bringintoviewonfocuschange).
+
 ## -xaml-syntax
 ```xaml
 <ScrollViewer BringIntoViewOnFocusChange="bool" />

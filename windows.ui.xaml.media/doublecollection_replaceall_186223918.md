@@ -12,6 +12,8 @@ public void ReplaceAll(System.Double[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.DoubleCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.media.doublecollection.replaceall).
+
 ## -parameters
 ### -param items
 The new collection items.

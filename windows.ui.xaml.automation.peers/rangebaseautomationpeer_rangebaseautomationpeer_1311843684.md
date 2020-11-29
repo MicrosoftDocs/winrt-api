@@ -12,6 +12,8 @@ public RangeBaseAutomationPeer(Windows.UI.Xaml.Controls.Primitives.RangeBase own
 ## -description
 Initializes a new instance of the [RangeBaseAutomationPeer](rangebaseautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.RangeBaseAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.rangebaseautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The owner element to create for.

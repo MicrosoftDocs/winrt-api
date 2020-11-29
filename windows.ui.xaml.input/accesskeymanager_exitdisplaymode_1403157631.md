@@ -12,6 +12,8 @@ public void ExitDisplayMode()
 ## -description
 Causes the app to exit an access key sequence.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.AccessKeyManager.ExitDisplayMode](/windows/winui/api/microsoft.ui.xaml.input.accesskeymanager.exitdisplaymode).
+
 ## -remarks
 
 ## -examples

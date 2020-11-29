@@ -12,6 +12,8 @@ public void Add(Windows.UI.Composition.Visual newVisual)
 ## -description
 Adds a visual to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.VisualUnorderedCollection.Add](/windows/winui/api/microsoft.ui.composition.visualunorderedcollection.add).
+
 ## -parameters
 ### -param newVisual
 The visual to add to the collection.

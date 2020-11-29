@@ -13,6 +13,8 @@ public CompositionShape CompositionShapeCollection.GetAt(UInt32 index)
 
 Returns the item located at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.GetAt](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.getat).
+
 ## -parameters
 ### -param index
 

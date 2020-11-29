@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.CommandBarOverflowButtonVisibility OverflowButto
 ## -description
 Gets or sets a value that indicates when a command bar's overflow button is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CommandBar.OverflowButtonVisibility](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.overflowbuttonvisibility).
+
 ## -xaml-syntax
 ```xaml
 <CommandBar OverflowButtonVisibility="commandBarOverflowButtonVisibilityMemberName" />

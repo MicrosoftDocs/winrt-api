@@ -12,6 +12,8 @@ public double Ease(System.Double normalizedTime)
 ## -description
 Transforms normalized time to control the pace of an animation.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.EasingFunctionBase.Ease](/windows/winui/api/microsoft.ui.xaml.media.animation.easingfunctionbase.ease).
+
 ## -parameters
 ### -param normalizedTime
 Normalized time (progress) of the animation.

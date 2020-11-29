@@ -14,6 +14,8 @@ public void UIElementWeakCollection.RemoveAtEnd()
 
 Removes the last item in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.RemoveAtEnd](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.removeatend).
+
 ## -remarks
 
 ## -see-also

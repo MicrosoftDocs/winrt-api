@@ -12,6 +12,8 @@ public int PixelHeight { get; }
 ## -description
 Gets the height of the bitmap in pixels.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapSource.PixelHeight](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapsource.pixelheight).
+
 ## -property-value
 The height of the bitmap in pixels.
 

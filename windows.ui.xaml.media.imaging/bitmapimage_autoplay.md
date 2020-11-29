@@ -12,6 +12,8 @@ public bool AutoPlay { get;  set; }
 ## -description
 Gets or sets a value that indicates whether an animated image should play as soon as it loads.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.AutoPlay](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.autoplay).
+
 ## -property-value
 **true** if an animated image should play as soon as it loads; otherwise, **false**. The default is **true**.
 

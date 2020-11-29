@@ -12,6 +12,8 @@ public Windows.Foundation.Uri FontUri { get;  set; }
 ## -description
 Gets or sets the location of the font used for rendering the glyphs.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.FontUri](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.fonturi).
+
 ## -xaml-syntax
 ```xaml
 <Glyphs FontUri="uriString"/>

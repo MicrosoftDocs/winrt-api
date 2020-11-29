@@ -19,6 +19,8 @@ A ThemeShadow is a preconfigured shadow effect that can be applied to any XAML e
 - Keeps elements in sync as they move and change elevation.
 - Keeps shadows consistent throughout and across applications.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.ThemeShadow](/windows/winui/api/microsoft.ui.xaml.media.themeshadow).
+
 ## -remarks
 
 > [!TIP]

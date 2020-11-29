@@ -12,6 +12,8 @@ public Color FallbackColor { get;  set; }
 ## -description
 The color to use for rendering in case the [CompositionBrush](./../windows.ui.composition/compositionbrush.md) can't be rendered.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.FallbackColor](/windows/winui/api/microsoft.ui.xaml.media.xamlcompositionbrushbase.fallbackcolor).
+
 ## -property-value
 The color to use for rendering in place of the composition brush.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Primitives.PlacementMode GetPlacement(Windows.UI
 ## -description
 Gets the [ToolTipService.Placement](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) XAML attached property value for the specified target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ToolTipService.GetPlacement](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice.getplacement).
+
 ## -parameters
 ### -param element
 The target element for the attached property value.

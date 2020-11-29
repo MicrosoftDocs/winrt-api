@@ -13,6 +13,8 @@ public class MediaPlayerPresenter : Windows.UI.Xaml.FrameworkElement, Windows.UI
 
 Represents an object that displays a [MediaPlayer](../windows.media.playback/mediaplayer.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MediaPlayerPresenter](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerpresenter).
+
 ## -xaml-syntax
 
 ```xaml

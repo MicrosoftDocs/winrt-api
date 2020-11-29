@@ -12,6 +12,8 @@ public double Y1 { get;  set; }
 ## -description
 Gets or sets the y-coordinate of the [Line](line.md) start point.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Line.Y1](/windows/winui/api/microsoft.ui.xaml.shapes.line.y1).
+
 ## -xaml-syntax
 ```xaml
 <Line Y1="double"/>

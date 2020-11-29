@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsSeekEnabledProperty { get; }
 ## -description
 Identifies the [IsSeekEnabled](mediatransportcontrols_isseekenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsSeekEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isseekenabledproperty).
+
 ## -property-value
 The identifier for the [IsSeekEnabled](mediatransportcontrols_isseekenabled.md) dependency property.
 

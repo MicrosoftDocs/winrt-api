@@ -12,6 +12,8 @@ public int MaxLines { get;  set; }
 ## -description
 Gets or sets the maximum lines of text shown in the [RichTextBlock](richtextblock.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.MaxLines](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.maxlines).
+
 ## -xaml-syntax
 ```xaml
 <RichTextBlock MaxLines="int"/>

@@ -13,6 +13,8 @@ public bool IsContentChanging { get; }
 
 Gets a value that indicates whether the event occured due to a change in the text content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBoxPasswordChangingEventArgs.IsContentChanging](/windows/winui/api/microsoft.ui.xaml.controls.passwordboxpasswordchangingeventargs.iscontentchanging).
+
 ## -property-value
 
 **true** if a change to the text content caused the event; otherwise, **false**.

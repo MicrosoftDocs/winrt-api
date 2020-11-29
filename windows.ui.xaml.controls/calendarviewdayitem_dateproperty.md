@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DateProperty { get; }
 ## -description
 Identifies the [Date](calendarviewdayitem_date.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarViewDayItem.DateProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitem.dateproperty).
+
 ## -property-value
 The identifier for the [Date](calendarviewdayitem_date.md)  dependency property.
 

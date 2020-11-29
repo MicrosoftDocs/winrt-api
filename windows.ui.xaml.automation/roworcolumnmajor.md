@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.RowOrColumnMajor : int
 ## -description
 Specifies whether data in a table should be read primarily by row or by column.
 
+Equivalent WinUI enum: [RowOrColumnMajor](/windows/winui/api/microsoft.ui.xaml.automation.roworcolumnmajor).
+
 ## -enum-fields
 ### -field RowMajor:0
 Data in the table should be read row by row.

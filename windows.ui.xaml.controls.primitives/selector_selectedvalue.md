@@ -12,6 +12,8 @@ public object SelectedValue { get;  set; }
 ## -description
 Gets or sets the value of the selected item, obtained by using the [SelectedValuePath](selector_selectedvaluepath.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Selector.SelectedValue](/windows/winui/api/microsoft.ui.xaml.controls.primitives.selector.selectedvalue).
+
 ## -xaml-syntax
 ```xaml
 <selector SelectedValue="valueAsString"/>

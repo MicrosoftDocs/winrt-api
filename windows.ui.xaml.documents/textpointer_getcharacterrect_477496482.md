@@ -12,6 +12,8 @@ public Windows.Foundation.Rect GetCharacterRect(Windows.UI.Xaml.Documents.Logica
 ## -description
 Returns a bounding box for content that borders the current [TextPointer](textpointer.md) in the specified logical direction.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.TextPointer.GetCharacterRect](/windows/winui/api/microsoft.ui.xaml.documents.textpointer.getcharacterrect).
+
 ## -parameters
 ### -param direction
 One of the [LogicalDirection](logicaldirection.md) values that specifies the logical direction in which to find a content bounding box.

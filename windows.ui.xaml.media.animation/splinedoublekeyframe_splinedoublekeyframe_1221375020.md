@@ -12,6 +12,8 @@ public SplineDoubleKeyFrame()
 ## -description
 Initializes a new instance of the [SplineDoubleKeyFrame](splinedoublekeyframe.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.SplineDoubleKeyFrame.SplineDoubleKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.splinedoublekeyframe.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -14,6 +14,8 @@ public IReference<Color> AltMediumHigh { get;  set; }
 
 Gets or sets the AltMediumHigh color value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.AltMediumHigh](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.altmediumhigh).
+
 ## -property-value
 
 The AltMediumHigh color value.

@@ -12,6 +12,8 @@ public AppBarToggleButton()
 ## -description
 Initializes a new instance of the [AppBarToggleButton](appbartogglebutton.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.AppBarToggleButton.AppBarToggleButton](/windows/winui/api/microsoft.ui.xaml.controls.appbartogglebutton.#ctor).
+
 ## -remarks
 
 ## -examples

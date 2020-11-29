@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty VerticalFirstOfMonthLabelAlignmentProp
 ## -description
 Identifies the [VerticalFirstOfMonthLabelAlignment](calendarview_verticalfirstofmonthlabelalignment.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.VerticalFirstOfMonthLabelAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.verticalfirstofmonthlabelalignmentproperty).
+
 ## -property-value
 The identifier for the [VerticalFirstOfMonthLabelAlignment](calendarview_verticalfirstofmonthlabelalignment.md)   dependency property.
 

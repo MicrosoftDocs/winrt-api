@@ -13,6 +13,8 @@ public IAsyncOperation<ContentDialogResult> ContentDialog.ShowAsync(ContentDialo
 
 Begins an asynchronous operation to show the dialog with the specified placement.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ContentDialog.ShowAsync](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.showasync).
+
 ## -parameters
 
 ### -param placement

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection ChildrenTransitions 
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to child content of a [Panel](panel.md) subclass.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Panel.ChildrenTransitions](/windows/winui/api/microsoft.ui.xaml.controls.panel.childrentransitions).
+
 ## -xaml-syntax
 ```xaml
 <panel>

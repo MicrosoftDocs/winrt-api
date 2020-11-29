@@ -13,6 +13,8 @@ public Vector2 Center { get;  set; }
 
 Gets or sets the center point of the ellipse.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionEllipseGeometry.Center](/windows/winui/api/microsoft.ui.composition.compositionellipsegeometry.center).
+
 ## -property-value
 
 The center point of the ellipse.

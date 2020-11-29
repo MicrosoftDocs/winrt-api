@@ -13,6 +13,8 @@ public bool Equals(Windows.Foundation.Size target, Windows.Foundation.Size value
 
 Provides comparison of the values of two [Size](../windows.foundation/size.md) values. C# and Microsoft Visual Basic code should use the [Equality](/dotnet/api/windows.foundation.size.op_equality) (=) operator or [Equals](/dotnet/api/windows.foundation.size.equals) method instead.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.SizeHelper.Equals](/windows/winui/api/microsoft.ui.xaml.sizehelper.equals).
+
 ## -parameters
 
 ### -param target

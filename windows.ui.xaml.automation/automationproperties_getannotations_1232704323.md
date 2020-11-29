@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Automation.Automat
 ## -description
 Gets the value of the [AutomationProperties.Annotations](automationproperties_annotationsproperty.md) property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetAnnotations](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getannotations).
+
 ## -parameters
 ### -param element
 The specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).

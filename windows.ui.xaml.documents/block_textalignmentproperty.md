@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TextAlignmentProperty { get; }
 ## -description
 Identifies the [TextAlignment](block_textalignment.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Block.TextAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.documents.block.textalignmentproperty).
+
 ## -property-value
 The identifier for the [TextAlignment](block_textalignment.md) dependency property.
 

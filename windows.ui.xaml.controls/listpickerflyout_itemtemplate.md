@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DataTemplate ItemTemplate { get;  set; }
 ## -description
 Gets or sets the DataTemplate used to display each item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.ItemTemplate](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.itemtemplate).
+
 ## -property-value
 The template that specifies the visualization of the data objects. The default is null.
 

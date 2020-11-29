@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty IsOffscreenProperty { get; 
 ## -description
 Identifies the offscreen determination automation property. The offscreen status indicates whether the item referenced by the automation peer is off the screen. The current status is returned by the [IsOffscreen](../windows.ui.xaml.automation.peers/automationpeer_isoffscreen_970705929.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsOffscreenProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.isoffscreenproperty).
+
 ## -property-value
 The automation property identifier.
 

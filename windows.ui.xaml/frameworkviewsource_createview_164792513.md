@@ -12,6 +12,8 @@ public Windows.ApplicationModel.Core.IFrameworkView CreateView()
 ## -description
 Creates a [FrameworkView](frameworkview.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkViewSource.CreateView](/windows/winui/api/microsoft.ui.xaml.frameworkviewsource.createview).
+
 ## -returns
 The created [FrameworkView](frameworkview.md).
 

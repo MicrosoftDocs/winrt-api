@@ -12,6 +12,8 @@ public void StartViewChangeTo(Windows.UI.Xaml.Controls.SemanticZoomLocation sour
 ## -description
 Initializes item-wise operations that are related to a view change when the source view is a different view and the pending destination view is the [ListViewBase](listviewbase.md) instance.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.StartViewChangeTo](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.startviewchangeto).
+
 ## -parameters
 ### -param source
 The view item as represented in the source view.

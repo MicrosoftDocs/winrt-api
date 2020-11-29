@@ -12,6 +12,8 @@ public MenuFlyoutPresenterAutomationPeer(Windows.UI.Xaml.Controls.MenuFlyoutPres
 ## -description
 Initializes a new instance of the [MenuFlyoutPresenterAutomationPeer](menuflyoutpresenterautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.MenuFlyoutPresenterAutomationPeer.MenuFlyoutPresenterAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.menuflyoutpresenterautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The owner element to create for.

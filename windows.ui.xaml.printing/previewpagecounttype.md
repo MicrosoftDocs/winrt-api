@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Printing.PreviewPageCountType : int
 ## -description
 Describes the basis of the page count.
 
+Equivalent WinUI enum: [PreviewPageCountType](/windows/winui/api/microsoft.ui.xaml.printing.previewpagecounttype).
+
 ## -enum-fields
 ### -field Final:0
 Page count is based on final print job total.

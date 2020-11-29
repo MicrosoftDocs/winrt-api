@@ -13,6 +13,8 @@ public ConnectedAnimationConfiguration Configuration { get;  set; }
 ## -description
 Gets or sets the configuration that describes the type of connected animation to play.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimation.Configuration](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimation.configuration).
+
 ## -property-value
 
 A configuration that describes the type of connected animation to play.

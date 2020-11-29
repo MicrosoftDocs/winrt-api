@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DataTemplate SelectTemplate(System.Object item)
 ## -description
 Returns a specific [DataTemplate](../windows.ui.xaml/datatemplate.md) for a given item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.DataTemplateSelector.SelectTemplate](/windows/winui/api/microsoft.ui.xaml.controls.datatemplateselector.selecttemplate).
+
 ## -parameters
 ### -param item
 The item to return a template for.

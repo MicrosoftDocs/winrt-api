@@ -12,6 +12,8 @@ public class DoubleCollection : Windows.Foundation.Collections.IIterable<System.
 ## -description
 Represents an ordered collection of [Double](/dotnet/api/system.double?redirectedfrom=MSDN) values.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.DoubleCollection](/windows/winui/api/microsoft.ui.xaml.media.doublecollection).
+
 ## -remarks
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic

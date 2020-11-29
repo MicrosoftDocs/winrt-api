@@ -13,6 +13,8 @@ public event Windows.Foundation.TypedEventHandler AccessKeyDisplayRequested<Wind
 
 Occurs when the user requests that access keys be displayed.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.AccessKeyDisplayRequested](/windows/winui/api/microsoft.ui.xaml.uielement.accesskeydisplayrequested).
+
 ## -xaml-syntax
 
 ```xaml

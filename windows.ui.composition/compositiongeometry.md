@@ -13,6 +13,8 @@ public class CompositionGeometry : CompositionObject, CompositionObject
 
 Represents the base class for composition geometries.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionGeometry](/windows/winui/api/microsoft.ui.composition.compositiongeometry).
+
 ## -remarks
 
 ## -see-also

@@ -13,6 +13,8 @@ public Windows.UI.Xaml.DependencyProperty FullDescriptionProperty { get; }
 
 Gets the identifier for the full description attached property, which exposes a localized string containing extended description text for an element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.FullDescriptionProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.fulldescriptionproperty).
+
 ## -property-value
 
 The identifier for the full description attached property.

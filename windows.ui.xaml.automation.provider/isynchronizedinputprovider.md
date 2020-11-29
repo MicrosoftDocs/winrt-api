@@ -12,6 +12,8 @@ public interface ISynchronizedInputProvider :
 ## -description
 Enables Microsoft UI Automation client applications to direct the mouse or keyboard input to a specific UI element.
 
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.ISynchronizedInputProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.isynchronizedinputprovider).
+
 ## -remarks
 
 ## -examples

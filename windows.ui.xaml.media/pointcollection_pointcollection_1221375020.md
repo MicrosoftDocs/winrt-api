@@ -12,6 +12,8 @@ public PointCollection()
 ## -description
 Initializes a new instance of the [PointCollection](pointcollection.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.PointCollection.PointCollection](/windows/winui/api/microsoft.ui.xaml.media.pointcollection.#ctor).
+
 ## -remarks
 
 ## -examples

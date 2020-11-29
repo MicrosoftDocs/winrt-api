@@ -11,6 +11,8 @@ Provides simplified access to application resources, such as strings, that are d
 
 <!--Writer todo: add link to resource identifier naming conventions.-->
 
+Equivalent WinUI namespace: [Microsoft.ApplicationModel.Resources](/windows/winui/api/microsoft.applicationmodel.resources).
+
 ## -remarks
 
 ## -examples

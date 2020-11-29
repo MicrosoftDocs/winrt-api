@@ -12,6 +12,8 @@ public Border()
 ## -description
 Initializes a new instance of the [Border](border.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Border.Border](/windows/winui/api/microsoft.ui.xaml.controls.border.#ctor).
+
 ## -remarks
 
 ## -examples

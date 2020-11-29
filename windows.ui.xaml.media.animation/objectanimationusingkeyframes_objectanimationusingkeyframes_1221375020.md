@@ -12,6 +12,8 @@ public ObjectAnimationUsingKeyFrames()
 ## -description
 Initializes a new instance of the [ObjectAnimationUsingKeyFrames](objectanimationusingkeyframes.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames.ObjectAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.objectanimationusingkeyframes.#ctor).
+
 ## -remarks
 
 ## -examples

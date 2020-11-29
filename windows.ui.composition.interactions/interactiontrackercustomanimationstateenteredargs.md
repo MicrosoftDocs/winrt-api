@@ -12,6 +12,8 @@ public class InteractionTrackerCustomAnimationStateEnteredArgs : Windows.UI.Comp
 ## -description
 Arguments for the [IInteractionTrackerOwner.CustomAnimationStateEntered](iinteractiontrackerowner_customanimationstateentered_1536907716.md) callback.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionTrackerCustomAnimationStateEnteredArgs](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackercustomanimationstateenteredargs).
+
 ## -remarks
 
 ### Version history

@@ -12,6 +12,8 @@ public class SectionsInViewChangedEventArgs : Windows.UI.Xaml.Controls.ISections
 ## -description
 Provides data for the [Hub.SectionsInViewChanged](hub_sectionsinviewchanged.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SectionsInViewChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.sectionsinviewchangedeventargs).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public bool AreScrollSnapPointsRegular { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the generated snap points used for panning in the [StackPanel](stackpanel.md) are equidistant from each other.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.StackPanel.AreScrollSnapPointsRegular](/windows/winui/api/microsoft.ui.xaml.controls.stackpanel.arescrollsnappointsregular).
+
 ## -xaml-syntax
 ```xaml
 <StackPanel AreScrollSnapPointsRegular="bool" .../>

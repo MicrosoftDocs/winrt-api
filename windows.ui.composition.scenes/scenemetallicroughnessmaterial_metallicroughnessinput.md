@@ -14,6 +14,8 @@ public SceneMaterialInput MetallicRoughnessInput { get;  set; }
 
 Gets or sets the input for how rough or smooth the material is.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneMetallicRoughnessMaterial.MetallicRoughnessInput](/windows/winui/api/microsoft.ui.composition.scenes.scenemetallicroughnessmaterial.metallicroughnessinput).
+
 ## -property-value
 
 The input for how rough or smooth the material is.

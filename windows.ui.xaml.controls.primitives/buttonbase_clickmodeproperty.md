@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ClickModeProperty { get; }
 ## -description
 Identifies the [ClickMode](buttonbase_clickmode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.ClickModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase.clickmodeproperty).
+
 ## -property-value
 The identifier for the [ClickMode](buttonbase_clickmode.md) dependency property.
 

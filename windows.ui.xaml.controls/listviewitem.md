@@ -12,6 +12,8 @@ public class ListViewItem : Windows.UI.Xaml.Controls.Primitives.SelectorItem, Wi
 ## -description
 Represents the container for an item in a [ListView](listview.md) control.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ListViewItem](/windows/winui/api/microsoft.ui.xaml.controls.listviewitem).
+
 ## -xaml-syntax
 ```xaml
 <ListViewItem .../>

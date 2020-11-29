@@ -12,6 +12,8 @@ public class SvgImageSourceFailedEventArgs
 ## -description
 Provides event data for the [SvgImageSource.OpenFailed](svgimagesource_openfailed.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSourceFailedEventArgs](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesourcefailedeventargs).
+
 ## -remarks
 
 ## -see-also

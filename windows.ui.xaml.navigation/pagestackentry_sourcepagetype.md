@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Interop.TypeName SourcePageType { get; }
 ## -description
 Gets the type of page associated with this navigation entry.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Navigation.PageStackEntry.SourcePageType](/windows/winui/api/microsoft.ui.xaml.navigation.pagestackentry.sourcepagetype).
+
 ## -property-value
 The page type of the navigation entry, as a type reference ([System.Type](/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 

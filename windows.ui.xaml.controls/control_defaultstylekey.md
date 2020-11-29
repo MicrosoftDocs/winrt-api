@@ -13,6 +13,8 @@ protected object DefaultStyleKey { get;  set; }
 
 Gets or sets the key that references the default style for the control. Authors of custom controls use this property to change the default for the style that their control uses.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.DefaultStyleKey](/windows/winui/api/microsoft.ui.xaml.controls.control.defaultstylekey).
+
 ## -property-value
 
 The key that references the default style for the control. To work correctly as part of theme style lookup, this value is expected to be a [System.Type](/dotnet/api/system.type?redirectedfrom=MSDN) value.

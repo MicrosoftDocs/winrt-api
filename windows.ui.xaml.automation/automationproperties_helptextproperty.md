@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HelpTextProperty { get; }
 ## -description
 Identifies the [AutomationProperties.HelpText](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property, which is a help text string associated with the automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.HelpTextProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.helptextproperty).
+
 ## -property-value
 The identifier for the [AutomationProperties.HelpText](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property.
 

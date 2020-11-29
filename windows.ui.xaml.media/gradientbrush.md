@@ -13,6 +13,8 @@ public class GradientBrush : Windows.UI.Xaml.Media.Brush, Windows.UI.Xaml.Media.
 
 An abstract class that describes a gradient, composed of gradient stops.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.GradientBrush](/windows/winui/api/microsoft.ui.xaml.media.gradientbrush).
+
 ## -remarks
 
 Use the [GradientStops](gradientbrush_gradientstops.md) property to describe the color composition of a [LinearGradientBrush](lineargradientbrush.md) where each [GradientStop](gradientstop.md) specifies a [Color](gradientstop_color.md) and an [Offset](gradientstop_offset.md). Each [Offset](gradientstop_offset.md) value should be between 0 and 1.

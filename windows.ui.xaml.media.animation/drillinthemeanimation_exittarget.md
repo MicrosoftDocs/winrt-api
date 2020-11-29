@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject ExitTarget { get;  set; }
 ## -description
 Gets or sets the element that is animating out of view, such as a master page.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DrillInThemeAnimation.ExitTarget](/windows/winui/api/microsoft.ui.xaml.media.animation.drillinthemeanimation.exittarget).
+
 ## -property-value
 The element that is animating out of view, such as a master page.
 

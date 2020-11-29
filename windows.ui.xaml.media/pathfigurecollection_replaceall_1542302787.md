@@ -12,6 +12,8 @@ public void ReplaceAll(Windows.UI.Xaml.Media.PathFigure[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathFigureCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.media.pathfigurecollection.replaceall).
+
 ## -parameters
 ### -param items
 The new collection items.

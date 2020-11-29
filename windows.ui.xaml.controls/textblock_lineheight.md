@@ -12,6 +12,8 @@ public double LineHeight { get;  set; }
 ## -description
 Gets or sets the height of each line of content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.LineHeight](/windows/winui/api/microsoft.ui.xaml.controls.textblock.lineheight).
+
 ## -xaml-syntax
 ```xaml
 <TextBlock LineHeight="double"/>

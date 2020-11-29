@@ -12,6 +12,8 @@ public Style CloseButtonStyle { get;  set; }
 ## -description
 Gets or sets the [Style](./../windows.ui.xaml/style.md) to apply to the dialog's close button. 
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.CloseButtonStyle](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.closebuttonstyle).
+
 ## -xaml-syntax
 ```xaml
 <contentDialog CloseButtonStyle="{StaticResource styleResourceKey}"//>

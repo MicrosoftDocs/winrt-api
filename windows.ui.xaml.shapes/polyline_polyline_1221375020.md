@@ -12,6 +12,8 @@ public Polyline()
 ## -description
 Initializes a new instance of the [Polyline](polyline.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Shapes.Polyline.Polyline](/windows/winui/api/microsoft.ui.xaml.shapes.polyline.#ctor).
+
 ## -remarks
 
 ## -examples

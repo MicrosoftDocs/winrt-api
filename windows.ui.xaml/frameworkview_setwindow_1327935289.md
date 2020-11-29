@@ -12,6 +12,8 @@ public void SetWindow(Windows.UI.Core.CoreWindow window)
 ## -description
 Associates a [Window](window.md) with a view.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkView.SetWindow](/windows/winui/api/microsoft.ui.xaml.frameworkview.setwindow).
+
 ## -parameters
 ### -param window
 The [Window](window.md) to associate.

@@ -13,6 +13,8 @@ public class Image : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Controls.
 
 Represents a control that displays an image. The image source is specified by referring to an image file, using several supported formats. The image source can also be set with a stream. See Remarks for the list of supported image source formats.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Image](/windows/winui/api/microsoft.ui.xaml.controls.image).
+
 ## -xaml-syntax
 
 ```xaml

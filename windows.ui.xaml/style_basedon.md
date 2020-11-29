@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Style BasedOn { get;  set; }
 ## -description
 Gets or sets a defined style that is the basis of the current style.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Style.BasedOn](/windows/winui/api/microsoft.ui.xaml.style.basedon).
+
 ## -xaml-syntax
 ```xaml
 <Style BasedOn="styleReference" .../>

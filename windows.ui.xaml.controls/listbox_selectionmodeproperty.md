@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SelectionModeProperty { get; }
 ## -description
 Identifies the [SelectionMode](listbox_selectionmode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListBox.SelectionModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.listbox.selectionmodeproperty).
+
 ## -property-value
 The identifier for the [SelectionMode](listbox_selectionmode.md) dependency property.
 

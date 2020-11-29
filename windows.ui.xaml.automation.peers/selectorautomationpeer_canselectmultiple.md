@@ -12,6 +12,8 @@ public bool CanSelectMultiple { get; }
 ## -description
 Gets a value that indicates whether the Microsoft UI Automation provider allows more than one child element to be selected concurrently.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.SelectorAutomationPeer.CanSelectMultiple](/windows/winui/api/microsoft.ui.xaml.automation.peers.selectorautomationpeer.canselectmultiple).
+
 ## -property-value
 **true** if multiple selection is allowed; otherwise, **false**.
 

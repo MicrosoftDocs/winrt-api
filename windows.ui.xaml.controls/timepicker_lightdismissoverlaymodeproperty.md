@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LightDismissOverlayModeProperty { get;
 ## -description
 Identifies the [LightDismissOverlayMode](timepicker_lightdismissoverlaymode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.LightDismissOverlayModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.lightdismissoverlaymodeproperty).
+
 ## -property-value
 The identifier for the [LightDismissOverlayMode](timepicker_lightdismissoverlaymode.md) dependency property.
 

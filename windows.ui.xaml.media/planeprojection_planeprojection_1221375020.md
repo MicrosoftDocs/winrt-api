@@ -12,6 +12,8 @@ public PlaneProjection()
 ## -description
 Initializes a new instance of the [PlaneProjection](planeprojection.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.PlaneProjection.PlaneProjection](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -13,6 +13,8 @@ public Windows.UI.Color DarkOliveGreen { get; }
 
 Gets the system-defined color that has an ARGB value of #FF556B2F.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.DarkOliveGreen](/windows/winui/api/microsoft.ui.colors.darkolivegreen).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF556B2F.

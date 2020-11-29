@@ -12,6 +12,8 @@ public bool GetIsSelectionActive(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets a value that indicates whether the specified [Selector](selector.md) has the focus.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.Selector.GetIsSelectionActive](/windows/winui/api/microsoft.ui.xaml.controls.primitives.selector.getisselectionactive).
+
 ## -parameters
 ### -param element
 The [Selector](selector.md) to evaluate.

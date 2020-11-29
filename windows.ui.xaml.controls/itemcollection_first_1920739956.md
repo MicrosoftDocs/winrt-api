@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IIterator<object> First()
 ## -description
 Returns the iterator for iteration over the items in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemCollection.First](/windows/winui/api/microsoft.ui.xaml.controls.itemcollection.first).
+
 ## -returns
 The iterator object. The iterator's current position is at the 0-index position, or at the collection end if the collection is empty.
 

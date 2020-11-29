@@ -13,6 +13,8 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerReleased
 
 Occurs when the pointer device that previously initiated a **Press** action is released, while within this element. Note that the end of a **Press** action is not guaranteed to fire a PointerReleased event; other events may fire instead. For more info, see Remarks.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.PointerReleased](/windows/winui/api/microsoft.ui.xaml.uielement.pointerreleased).
+
 ## -xaml-syntax
 
 ```xaml

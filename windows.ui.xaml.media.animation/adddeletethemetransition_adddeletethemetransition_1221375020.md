@@ -12,6 +12,8 @@ public AddDeleteThemeTransition()
 ## -description
 Initializes a new instance of the [AddDeleteThemeTransition](adddeletethemetransition.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.AddDeleteThemeTransition.AddDeleteThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.adddeletethemetransition.#ctor).
+
 ## -remarks
 
 ## -examples

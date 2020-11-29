@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.RoutedEventHandler Click
 ## -description
 Occurs when a button control is clicked.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.Click](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase.click).
+
 ## -xaml-syntax
 ```xaml
 <button Click="eventhandler"/>

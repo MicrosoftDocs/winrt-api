@@ -12,6 +12,8 @@ public bool IsZoomEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether a user can zoom the media.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsZoomEnabled](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.iszoomenabled).
+
 ## -xaml-syntax
 ```xaml
 

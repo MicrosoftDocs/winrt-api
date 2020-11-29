@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TitleProperty { get; }
 ## -description
 Gets the identifier of the Title dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.TitleProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.titleproperty).
+
 ## -property-value
 The identifier of the Title dependency property.
 

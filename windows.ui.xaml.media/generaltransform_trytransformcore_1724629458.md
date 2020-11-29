@@ -12,6 +12,8 @@ virtual protected bool TryTransformCore(Windows.Foundation.Point inPoint, Window
 ## -description
 Provides the means to override the [TryTransform](generaltransform_trytransform_509328310.md) behavior in a derived transform class.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GeneralTransform.TryTransformCore](/windows/winui/api/microsoft.ui.xaml.media.generaltransform.trytransformcore).
+
 ## -parameters
 ### -param inPoint
 The point to transform.

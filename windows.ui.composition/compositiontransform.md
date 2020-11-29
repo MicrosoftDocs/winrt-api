@@ -14,6 +14,8 @@ public class CompositionTransform : CompositionObject, CompositionObject
 
 Provides generalized transformation support for composition objects.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionTransform](/windows/winui/api/microsoft.ui.composition.compositiontransform).
+
 ## -remarks
 
 ## -see-also

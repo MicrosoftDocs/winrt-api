@@ -13,6 +13,8 @@ public event TypedEventHandler GotFocus<DesktopWindowXamlSource, DesktopWindowXa
 ## -description
 Occurs when the [DesktopWindowXamlSource](desktopwindowxamlsource.md) gets focus in the desktop application (for example, the user presses the **Tab** key while focus is on the element just before the **DesktopWindowXamlSource**).
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Hosting.DesktopWindowXamlSource.GotFocus](/windows/winui/api/microsoft.ui.xaml.hosting.desktopwindowxamlsource.gotfocus).
+
 ## -remarks
 When you add a **DesktopWindowXamlSource** to your desktop application, by default the **DesktopWindowXamlSource** does not automatically handle focus navigation via keyboard events such as the **Tab** or arrow keys. Call the [NavigateFocus](desktopwindowxamlsource_navigatefocus_659659671.md) method to programmatically give focus when the user navigates to the **DesktopWindowXamlSource**.
 

@@ -12,6 +12,8 @@ public Windows.Foundation.Size Size { get; }
 ## -description
 The size of the drawing surface.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionDrawingSurface.Size](/windows/winui/api/microsoft.ui.composition.compositiondrawingsurface.size).
+
 ## -property-value
 The size of the drawing surface.
 

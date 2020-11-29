@@ -14,6 +14,8 @@ public Vector3 Min { get; }
 
 Gets the minimum coordinates of the bounding box.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneBoundingBox.Min](/windows/winui/api/microsoft.ui.composition.scenes.sceneboundingbox.min).
+
 ## -property-value
 
 The minimum coordinates of the bounding box.

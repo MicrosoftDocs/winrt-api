@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Style SelectStyle(System.Object item, Windows.UI.Xaml.Dep
 ## -description
 Returns a specific [Style](../windows.ui.xaml/style.md) based on custom logic.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.StyleSelector.SelectStyle](/windows/winui/api/microsoft.ui.xaml.controls.styleselector.selectstyle).
+
 ## -parameters
 ### -param item
 The content.

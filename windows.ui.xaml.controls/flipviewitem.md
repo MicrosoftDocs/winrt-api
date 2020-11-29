@@ -12,6 +12,8 @@ public class FlipViewItem : Windows.UI.Xaml.Controls.Primitives.SelectorItem, Wi
 ## -description
 Represents the container for an item in a [FlipView](flipview.md) control.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.FlipViewItem](/windows/winui/api/microsoft.ui.xaml.controls.flipviewitem).
+
 ## -xaml-syntax
 ```xaml
 <FlipViewItem .../>

@@ -14,6 +14,8 @@ Tries to update the scale by adding the specified velocity.
 
 The TryUpdateScaleWithAdditionalVelocity method adds the inputted scalar representing additional velocity to the current velocity of [InteractionTracker](interactiontracker.md) as well as shifts the centerpoint to the inputted Vector3. As a result, because the velocity of [InteractionTracker](interactiontracker.md) has now changed, the targeted rest scale position for [InteractionTracker](interactiontracker.md) now changes. TryUpdateScaleWithAdditionalVelocity can be called from either Idle, Inertia or CustomAnimation states – doing so will either add or update the velocity of InteractionTracker and enter the Inertia state.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTracker.TryUpdateScaleWithAdditionalVelocity](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.tryupdatescalewithadditionalvelocity).
+
 ## -parameters
 ### -param velocityInPercentPerSecond
 The velocity to add to the scale.

@@ -13,6 +13,8 @@ public Windows.UI.Color Gray { get; }
 
 Gets the system-defined color that has the ARGB value of #FF808080.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Gray](/windows/winui/api/microsoft.ui.colors.gray).
+
 ## -property-value
 
 The system-defined color that has the ARGB value of #FF808080.

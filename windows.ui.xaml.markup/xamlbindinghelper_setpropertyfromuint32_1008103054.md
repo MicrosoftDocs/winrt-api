@@ -12,6 +12,8 @@ public void SetPropertyFromUInt32(System.Object dependencyObject, Windows.UI.Xam
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [UInt32](/dotnet/api/system.uint32?redirectedfrom=MSDN) value.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromUInt32](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromuint32).
+
 ## -parameters
 ### -param dependencyObject
 The object to which the property being set belongs.

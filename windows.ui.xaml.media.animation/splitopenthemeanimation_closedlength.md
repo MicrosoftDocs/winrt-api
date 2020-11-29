@@ -12,6 +12,8 @@ public double ClosedLength { get;  set; }
 ## -description
 Gets or sets the initial size of the target element in the animation direction.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation.ClosedLength](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation.closedlength).
+
 ## -xaml-syntax
 ```xaml
 <SplitOpenThemeAnimation ClosedLength="double"/>

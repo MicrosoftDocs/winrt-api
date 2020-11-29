@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Stretch Stretch { get;  set; }
 ## -description
 Gets or sets a value that specifies how the content of this [TileBrush](tilebrush.md) stretches to fit its tiles.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.TileBrush.Stretch](/windows/winui/api/microsoft.ui.xaml.media.tilebrush.stretch).
+
 ## -xaml-syntax
 ```xaml
 <brush Stretch="stretchMemberName"/>

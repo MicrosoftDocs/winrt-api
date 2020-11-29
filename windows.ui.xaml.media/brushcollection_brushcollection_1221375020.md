@@ -12,6 +12,8 @@ public BrushCollection()
 ## -description
 Initializes a new instance of the [BrushCollection](brushcollection.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.BrushCollection.BrushCollection](/windows/winui/api/microsoft.ui.xaml.media.brushcollection.#ctor).
+
 ## -remarks
 
 ## -examples

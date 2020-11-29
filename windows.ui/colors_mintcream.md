@@ -13,6 +13,8 @@ public Windows.UI.Color MintCream { get; }
 
 Gets the system-defined color that has an ARGB value of #FFF5FFFA.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.MintCream](/windows/winui/api/microsoft.ui.colors.mintcream).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFF5FFFA.

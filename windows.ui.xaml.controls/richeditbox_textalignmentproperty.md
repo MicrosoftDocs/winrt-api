@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TextAlignmentProperty { get; }
 ## -description
 Identifies the [TextAlignment](richeditbox_textalignment.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.TextAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.textalignmentproperty).
+
 ## -property-value
 Identifier for the [TextAlignment](richeditbox_textalignment.md) dependency property.
 

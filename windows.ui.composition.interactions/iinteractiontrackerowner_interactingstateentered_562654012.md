@@ -12,6 +12,8 @@ public void InteractingStateEntered(Windows.UI.Composition.Interactions.Interact
 ## -description
 Callback that is triggered when an [InteractionTracker](interactiontracker.md) enters the interaction state.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.InteractingStateEntered](/windows/winui/api/microsoft.ui.composition.interactions.iinteractiontrackerowner.interactingstateentered).
+
 ## -parameters
 ### -param sender
 The [InteractionTracker](interactiontracker.md) that triggered the callback.

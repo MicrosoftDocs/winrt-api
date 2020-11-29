@@ -12,6 +12,8 @@ public GradientStopCollection()
 ## -description
 Initializes a new instance of the [GradientStopCollection](gradientstopcollection.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.GradientStopCollection.GradientStopCollection](/windows/winui/api/microsoft.ui.xaml.media.gradientstopcollection.#ctor).
+
 ## -remarks
 
 ## -examples

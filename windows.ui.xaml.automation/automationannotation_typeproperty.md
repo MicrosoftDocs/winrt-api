@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TypeProperty { get; }
 ## -description
 Gets the identifier of the  property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationAnnotation.TypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationannotation.typeproperty).
+
 ## -property-value
 The identifier of the  property.
 

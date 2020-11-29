@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty Transform3DProperty { get; }
 ## -description
 Identifies the [Transform3D](uielement_transform3d.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Transform3DProperty](/windows/winui/api/microsoft.ui.xaml.uielement.transform3dproperty).
+
 ## -property-value
 The identifier for the [Transform3D](uielement_transform3d.md) dependency property.
 

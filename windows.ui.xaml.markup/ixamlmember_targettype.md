@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Markup.IXamlType TargetType { get; }
 ## -description
 Gets the [IXamlType](ixamltype.md) of the type where the member can exist.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlMember.TargetType](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmember.targettype).
+
 ## -property-value
 The [IXamlType](ixamltype.md) of the type where the member can exist.
 

@@ -14,6 +14,8 @@ public void InteractionTracker.SetBindingMode(InteractionTracker boundTracker1, 
 
 Sets the binding axis mode between two interaction trackers.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTracker.SetBindingMode](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.setbindingmode).
+
 ## -parameters
 ### -param boundTracker1
 

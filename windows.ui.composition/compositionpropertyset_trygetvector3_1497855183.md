@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionGetValueStatus TryGetVector3(System.Str
 ## -description
 Retrieves the specified [Vector3](../windows.foundation.numerics/vector3.md) property value.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.TryGetVector3](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.trygetvector3).
+
 ## -parameters
 ### -param propertyName
 The name of the property to retrieve.

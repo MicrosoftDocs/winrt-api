@@ -14,6 +14,8 @@ public bool IsInOverflow { get; }
 
 Gets a value that indicates whether this item is in the overflow menu.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarElementContainer.IsInOverflow](/windows/winui/api/microsoft.ui.xaml.controls.appbarelementcontainer.isinoverflow).
+
 ## -property-value
 
 **true** if this item is in the overflow menu; otherwise, **false**.

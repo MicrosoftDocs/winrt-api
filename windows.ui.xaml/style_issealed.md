@@ -12,6 +12,8 @@ public bool IsSealed { get; }
 ## -description
 Gets a value that indicates whether the style is read-only and cannot be changed.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Style.IsSealed](/windows/winui/api/microsoft.ui.xaml.style.issealed).
+
 ## -property-value
 **true** if the style is read-only; otherwise, **false**.
 

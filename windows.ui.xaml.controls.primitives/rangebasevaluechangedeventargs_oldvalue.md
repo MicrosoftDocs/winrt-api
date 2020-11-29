@@ -12,6 +12,8 @@ public double OldValue { get; }
 ## -description
 Gets the previous value of a range value property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventArgs.OldValue](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebasevaluechangedeventargs.oldvalue).
+
 ## -property-value
 The previous value.
 

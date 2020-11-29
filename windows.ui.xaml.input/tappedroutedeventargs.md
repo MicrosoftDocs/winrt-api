@@ -13,6 +13,8 @@ public class TappedRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI
 
 Provides event data for the [Tapped](../windows.ui.xaml/uielement_tapped.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.TappedRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.tappedroutedeventargs).
+
 ## -remarks
 
 A [Tapped](../windows.ui.xaml/uielement_tapped.md) event is sent whenever a mouse is clicked or a finger or pen taps the object

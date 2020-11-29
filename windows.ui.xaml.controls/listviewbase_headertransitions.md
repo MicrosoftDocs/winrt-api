@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection HeaderTransitions { 
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to the view header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.HeaderTransitions](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.headertransitions).
+
 ## -xaml-syntax
 ```xaml
 <listViewBase>

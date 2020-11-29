@@ -12,6 +12,8 @@ public string UnicodeString { get;  set; }
 ## -description
 Gets or sets the Unicode string to render in glyphs.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.UnicodeString](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.unicodestring).
+
 ## -xaml-syntax
 ```xaml
 <Glyphs UnicodeString="string"/>

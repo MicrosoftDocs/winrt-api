@@ -17,6 +17,8 @@ public enum SvgImageSourceLoadStatus : int {
 ## -description
 Defines constants that specify the result of loading an [SvgImageSource](svgimagesource.md).
 
+Equivalent WinUI enum: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSourceLoadStatus](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesourceloadstatus).
+
 ## -enum-fields
 ### -field Success:0
 The SVG loaded.

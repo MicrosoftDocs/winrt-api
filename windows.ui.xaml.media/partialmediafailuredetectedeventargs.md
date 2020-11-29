@@ -12,6 +12,8 @@ public class PartialMediaFailureDetectedEventArgs : Windows.UI.Xaml.Media.IParti
 ## -description
 Provides data for the [PartialMediaFailureDetected](../windows.ui.xaml.controls/mediaelement_partialmediafailuredetected.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.PartialMediaFailureDetectedEventArgs](/windows/winui/api/microsoft.ui.xaml.media.partialmediafailuredetectedeventargs).
+
 ## -remarks
 
 ### Version history

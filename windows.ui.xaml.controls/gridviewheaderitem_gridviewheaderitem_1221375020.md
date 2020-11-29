@@ -12,6 +12,8 @@ public GridViewHeaderItem()
 ## -description
 Initializes a new instance of the [GridViewHeaderItem](gridviewheaderitem.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.GridViewHeaderItem.GridViewHeaderItem](/windows/winui/api/microsoft.ui.xaml.controls.gridviewheaderitem.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public ListViewItem()
 ## -description
 Initializes a new instance of the [ListViewItem](listviewitem.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ListViewItem.ListViewItem](/windows/winui/api/microsoft.ui.xaml.controls.listviewitem.#ctor).
+
 ## -remarks
 
 ## -examples

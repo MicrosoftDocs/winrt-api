@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Data.RelativeSourceMode Mode { get;  set; }
 ## -description
 Gets or sets a value that describes the location of the binding source relative to the position of the binding target.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.RelativeSource.Mode](/windows/winui/api/microsoft.ui.xaml.data.relativesource.mode).
+
 ## -xaml-syntax
 ```xaml
 <dependencyobjectdependencyproperty="Binding ... RelativeSource={RelativeSource mode}}" />

@@ -14,6 +14,8 @@ public UIElement CurrentAnchor { get; }
 
 The currently chosen anchor element to use for scroll anchoring.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.IScrollAnchorProvider.CurrentAnchor](/windows/winui/api/microsoft.ui.xaml.controls.iscrollanchorprovider.currentanchor).
+
 ## -property-value
 
 The most recently chosen [UIElement](../windows.ui.xaml/uielement.md) for scroll anchoring after a layout pass, or **null**.

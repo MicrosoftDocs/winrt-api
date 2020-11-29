@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsActiveViewProperty { get; }
 ## -description
 Identifies the [IsActiveView](listviewbase_isactiveview.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.IsActiveViewProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.isactiveviewproperty).
+
 ## -property-value
 The identifier for the [IsActiveView](listviewbase_isactiveview.md) dependency property.
 

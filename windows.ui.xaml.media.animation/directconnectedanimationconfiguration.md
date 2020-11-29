@@ -13,6 +13,8 @@ public class DirectConnectedAnimationConfiguration : ConnectedAnimationConfigura
 ## -description
 An object that configures the connected animation to play a quick linear animation between source and destination.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DirectConnectedAnimationConfiguration](/windows/winui/api/microsoft.ui.xaml.media.animation.directconnectedanimationconfiguration).
+
 ## -remarks
 
 ## -see-also

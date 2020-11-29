@@ -16,6 +16,8 @@ Implements a XAML layout surface target for Microsoft DirectX interoperation sce
 > [!IMPORTANT]
 > SwapChainBackgroundPanel may be altered or unavailable for releases after Windows 8.1 Instead, use [SwapChainPanel](swapchainpanel.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SwapChainBackgroundPanel](/windows/winui/api/microsoft.ui.xaml.controls.swapchainbackgroundpanel).
+
 ## -xaml-syntax
 
 ```xaml

@@ -13,6 +13,8 @@ public string Text { get; }
 ## -description
 Gets the custom text value entered by the user.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBoxTextSubmittedEventArgs.Text](/windows/winui/api/microsoft.ui.xaml.controls.comboboxtextsubmittedeventargs.text).
+
 ## -property-value
 
 ## -remarks

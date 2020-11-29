@@ -12,6 +12,8 @@ public bool TryGetPosition(Windows.UI.Xaml.UIElement relativeTo, Windows.Foundat
 ## -description
 Gets the x- and y-coordinates of the pointer position, optionally evaluated against a coordinate origin of a supplied [UIElement](../windows.ui.xaml/uielement.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.ContextRequestedEventArgs.TryGetPosition](/windows/winui/api/microsoft.ui.xaml.input.contextrequestedeventargs.trygetposition).
+
 ## -parameters
 ### -param relativeTo
 Any [UIElement](../windows.ui.xaml/uielement.md)-derived object that is connected to the same object tree. To specify the object relative to the overall coordinate system, use a *relativeTo*  value of **null**.

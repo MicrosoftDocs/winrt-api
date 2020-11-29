@@ -12,6 +12,8 @@ public DoubleTappedRoutedEventArgs()
 ## -description
 Initializes a new instance of the [DoubleTappedRoutedEventArgs](doubletappedroutedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.DoubleTappedRoutedEventArgs.DoubleTappedRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.doubletappedroutedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -14,6 +14,8 @@ public double OverflowContentCompactYTranslation { get; }
 
 Gets the translation of the overflow content on the Y-axis in the compact state.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings.OverflowContentCompactYTranslation](/windows/winui/api/microsoft.ui.xaml.controls.primitives.commandbartemplatesettings.overflowcontentcompactytranslation).
+
 ## -property-value
 
 The translation of the overflow content on the Y-axis in the compact state.

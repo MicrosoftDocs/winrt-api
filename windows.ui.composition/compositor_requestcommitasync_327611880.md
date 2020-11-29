@@ -13,6 +13,8 @@ public IAsyncAction Compositor.RequestCommitAsync()
 
 Attempts to initiate a commit cycle ansynchronously.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.RequestCommitAsync](/windows/winui/api/microsoft.ui.composition.compositor.requestcommitasync).
+
 ## -returns
 
 An ansynchronous action.

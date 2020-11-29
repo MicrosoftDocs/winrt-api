@@ -12,6 +12,8 @@ public Windows.UI.Composition.SpriteVisual CreateSpriteVisual()
 ## -description
 Creates an instance of [SpriteVisual](spritevisual.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateSpriteVisual](/windows/winui/api/microsoft.ui.composition.compositor.createspritevisual).
+
 ## -returns
 Returns the created [SpriteVisual](spritevisual.md) object.
 

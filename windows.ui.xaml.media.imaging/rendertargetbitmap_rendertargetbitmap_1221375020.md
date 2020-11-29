@@ -12,6 +12,8 @@ public RenderTargetBitmap()
 ## -description
 Initializes a new instance of the [RenderTargetBitmap](rendertargetbitmap.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap.RenderTargetBitmap](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap.#ctor).
+
 ## -remarks
 
 ## -examples

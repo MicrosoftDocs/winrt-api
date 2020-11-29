@@ -12,6 +12,8 @@ public string GetStringRepresentation()
 ## -description
 Provides support for "GetStringFromObject" and/or "ToString" logic on the assumption that the implementation supports System.Object. This logic might be accessed by features or services such as generating UI Automation values based on data content.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem.GetStringRepresentation](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem.getstringrepresentation).
+
 ## -returns
 The provided string.
 

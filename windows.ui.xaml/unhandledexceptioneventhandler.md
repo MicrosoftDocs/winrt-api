@@ -10,6 +10,8 @@ public delegate void UnhandledExceptionEventHandler(System.Object sender, Window
 ## -description
 Represents the method that will handle the [UnhandledException](application_unhandledexception.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.UnhandledExceptionEventHandler](/windows/winui/api/microsoft.ui.xaml.unhandledexceptioneventhandler).
+
 ## -parameters
 ### -param sender
 The object where the handler is attached.

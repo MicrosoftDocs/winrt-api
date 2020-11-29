@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TextLineBoundsProperty { get; }
 ## -description
 Identifies the [TextLineBounds](textblock_textlinebounds.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.TextLineBoundsProperty](/windows/winui/api/microsoft.ui.xaml.controls.textblock.textlineboundsproperty).
+
 ## -property-value
 The identifier for the [TextLineBounds](textblock_textlinebounds.md) dependency property.
 

@@ -12,6 +12,8 @@ public class SplitViewPaneClosingEventArgs : Windows.UI.Xaml.Controls.ISplitView
 ## -description
 Provides event data for the [SplitView.PaneClosing](splitview_paneclosing.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SplitViewPaneClosingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.splitviewpaneclosingeventargs).
+
 ## -remarks
 
 ## -examples

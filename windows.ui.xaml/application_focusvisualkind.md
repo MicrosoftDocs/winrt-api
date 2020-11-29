@@ -14,6 +14,8 @@ Gets or sets the type of visual feedback that an app can use to indicate the UI 
 
 > This property is valid only for input devices that can generate key events, such as a keyboard or Xbox controller.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Application.FocusVisualKind](/windows/winui/api/microsoft.ui.xaml.application.focusvisualkind).
+
 ## -property-value
 The type of visual feedback used to indicate the UI element with focus. The default value depends on the operating system.
 

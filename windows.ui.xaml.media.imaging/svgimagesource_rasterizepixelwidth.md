@@ -12,6 +12,8 @@ public double RasterizePixelWidth { get;  set; }
 ## -description
 Gets or sets the width to use for SVG rasterization operations.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelWidth](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.rasterizepixelwidth).
+
 ## -xaml-syntax
 ```xaml
 <SvgImageSource RasterizePixelWidth="double"/>

@@ -12,6 +12,8 @@ public double DragOpacity { get;  set; }
 ## -description
 Gets or sets the opacity of an item that's being dragged.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragOpacity](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.dragopacity).
+
 ## -xaml-syntax
 ```xaml
 <listViewItemPresenterDragOpacity="themeResourceReference"/>

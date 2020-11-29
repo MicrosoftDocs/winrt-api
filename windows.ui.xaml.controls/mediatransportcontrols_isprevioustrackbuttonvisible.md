@@ -12,6 +12,8 @@ public bool IsPreviousTrackButtonVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the previous track button is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsPreviousTrackButtonVisible](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isprevioustrackbuttonvisible).
+
 ## -xaml-syntax
 ```xaml
 

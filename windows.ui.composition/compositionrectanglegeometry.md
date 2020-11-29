@@ -16,6 +16,8 @@ public class CompositionRectangleGeometry : CompositionGeometry, CompositionGeom
 
 Represents a rectangle shape of the specified size.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionRectangleGeometry](/windows/winui/api/microsoft.ui.composition.compositionrectanglegeometry).
+
 ## -remarks
 
 ## -see-also

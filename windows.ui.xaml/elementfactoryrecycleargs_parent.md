@@ -14,6 +14,8 @@ public UIElement Parent { get;  set; }
 
 Gets or sets a reference to the current parent [UIElement](uielement.md) of the element being recycled.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ElementFactoryRecycleArgs.Parent](/windows/winui/api/microsoft.ui.xaml.elementfactoryrecycleargs.parent).
+
 ## -property-value
 
 The parent [UIElement](uielement.md) object or **null**.  By default, it is **null**.

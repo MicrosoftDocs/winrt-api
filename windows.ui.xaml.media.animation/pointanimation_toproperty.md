@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ToProperty { get; }
 ## -description
 Identifies the [To](pointanimation_to.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PointAnimation.ToProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimation.toproperty).
+
 ## -property-value
 The identifier for the [To](pointanimation_to.md) dependency property.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PlacementProperty { get; }
 ## -description
 Identifies the [Placement](flyoutbase_placement.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.PlacementProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.placementproperty).
+
 ## -property-value
 The identifier for the [Placement](flyoutbase_placement.md) dependency property.
 

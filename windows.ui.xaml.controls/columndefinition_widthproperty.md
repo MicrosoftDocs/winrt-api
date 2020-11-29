@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty WidthProperty { get; }
 ## -description
 Identifies the [Width](columndefinition_width.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ColumnDefinition.WidthProperty](/windows/winui/api/microsoft.ui.xaml.controls.columndefinition.widthproperty).
+
 ## -property-value
 The identifier for the [Width](columndefinition_width.md) dependency property.
 

@@ -13,6 +13,8 @@ public void PathKeyFrameAnimation.InsertKeyFrame(Single normalizedProgressKey, C
 
 Inserts a key frame with the specified easing.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.PathKeyFrameAnimation.InsertKeyFrame](/windows/winui/api/microsoft.ui.composition.pathkeyframeanimation.insertkeyframe).
+
 ## -parameters
 ### -param normalizedProgressKey
 

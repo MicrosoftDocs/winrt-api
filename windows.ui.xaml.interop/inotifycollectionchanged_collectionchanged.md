@@ -12,6 +12,8 @@ abstract public event Windows.UI.Xaml.Interop.NotifyCollectionChangedEventHandle
 ## -description
 Occurs when the collection changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Interop.INotifyCollectionChanged.CollectionChanged](/windows/winui/api/microsoft.ui.xaml.interop.inotifycollectionchanged.collectionchanged).
+
 ## -remarks
 When programming with .NET, this interface is hidden and developers should use the [System.Collections.Specialized.INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?redirectedfrom=MSDN) interface.
 

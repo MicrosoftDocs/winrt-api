@@ -13,6 +13,8 @@ public bool Handled { get;  set; }
 
 Gets or sets a value that marks the routed event as handled. A **true** value for Handled prevents most handlers along the event route from handling the same event again.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextControlCopyingToClipboardEventArgs.Handled](/windows/winui/api/microsoft.ui.xaml.controls.textcontrolcopyingtoclipboardeventargs.handled).
+
 ## -property-value
 
 **true** to mark the routed event handled. **false** to leave the routed event unhandled, which causes the default copy action to be performed. The default is **false**.

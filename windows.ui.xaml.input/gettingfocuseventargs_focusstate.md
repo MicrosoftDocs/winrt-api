@@ -13,6 +13,8 @@ public FocusState FocusState { get; }
 
 Gets the input mode through which an element obtained focus.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.FocusState](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.focusstate).
+
 ## -property-value
 
 How the element obtained focus.

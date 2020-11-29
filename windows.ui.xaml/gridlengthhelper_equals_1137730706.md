@@ -12,6 +12,8 @@ public bool Equals(Windows.UI.Xaml.GridLength target, Windows.UI.Xaml.GridLength
 ## -description
 Provides comparison of the values of two [GridLength](gridlength.md) values. C# and Microsoft Visual Basic code should use the [Equality](/dotnet/api/windows.ui.xaml.gridlength.op_equality) operator or [GridLength.Equals](/dotnet/api/windows.ui.xaml.gridlength.equals) method instead.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.GridLengthHelper.Equals](/windows/winui/api/microsoft.ui.xaml.gridlengthhelper.equals).
+
 ## -parameters
 ### -param target
 The first [GridLength](gridlength.md) to compare.

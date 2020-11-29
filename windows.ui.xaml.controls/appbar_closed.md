@@ -12,6 +12,8 @@ public event Windows.Foundation.EventHandler Closed<object>
 ## -description
 Occurs when the [AppBar](appbar.md) changes from visible to hidden.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.AppBar.Closed](/windows/winui/api/microsoft.ui.xaml.controls.appbar.closed).
+
 ## -xaml-syntax
 ```xaml
 <AppBar Closed="eventhandler"/>

@@ -12,6 +12,8 @@ public int MinuteIncrement { get;  set; }
 ## -description
 Gets or sets a value that indicates the time increments shown in the minute picker. For example, 15 specifies that the [TimePicker](timepicker.md) minute control displays only the choices 00, 15, 30, 45.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.MinuteIncrement](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.minuteincrement).
+
 ## -xaml-syntax
 ```xaml
 <TimePicker MinuteIncrement="int"/>

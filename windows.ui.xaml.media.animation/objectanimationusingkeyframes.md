@@ -12,6 +12,8 @@ public class ObjectAnimationUsingKeyFrames : Windows.UI.Xaml.Media.Animation.Tim
 ## -description
 Animates the value of an [Object](/dotnet/api/system.object?redirectedfrom=MSDN) property along a set of [KeyFrames](objectanimationusingkeyframes_keyframes.md) over a specified [Duration](../windows.ui.xaml/duration.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.objectanimationusingkeyframes).
+
 ## -xaml-syntax
 ```xaml
 <ObjectAnimationUsingKeyFrames>oneOrMoreDiscreteObjectKeyFrames</ObjectAnimationUsingKeyFrames>

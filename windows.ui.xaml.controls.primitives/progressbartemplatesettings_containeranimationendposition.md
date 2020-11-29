@@ -12,6 +12,8 @@ public double ContainerAnimationEndPosition { get; }
 ## -description
 Gets the target "To" point of the container animation that animates the [ProgressBar](../windows.ui.xaml.controls/progressbar.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ProgressBarTemplateSettings.ContainerAnimationEndPosition](/windows/winui/api/microsoft.ui.xaml.controls.primitives.progressbartemplatesettings.containeranimationendposition).
+
 ## -property-value
 A double that represents the orientation-specific x- or y-value that is the target "To" point of the animation.
 

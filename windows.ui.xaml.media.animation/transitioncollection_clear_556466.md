@@ -12,6 +12,8 @@ public void Clear()
 ## -description
 Removes all items from the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.TransitionCollection.Clear](/windows/winui/api/microsoft.ui.xaml.media.animation.transitioncollection.clear).
+
 ## -remarks
 
 

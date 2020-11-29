@@ -12,6 +12,8 @@ public int CurrentPreviewPageNumber { get; }
 ## -description
 Gets the 1-based page number of the current preview page.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Printing.PaginateEventArgs.CurrentPreviewPageNumber](/windows/winui/api/microsoft.ui.xaml.printing.paginateeventargs.currentpreviewpagenumber).
+
 ## -property-value
 The page number.
 

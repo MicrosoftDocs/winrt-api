@@ -12,6 +12,8 @@ public class ExpressionAnimation : Windows.UI.Composition.CompositionAnimation, 
 ## -description
 A Composition Animation that uses a mathematical equation to calculate the value for an animating property every frame.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.ExpressionAnimation](/windows/winui/api/microsoft.ui.composition.expressionanimation).
+
 ## -remarks
 
 The core of ExpressionAnimations allows a developer to define a mathematical equation that can be used to calculate the value of a targeted animating property each frame. This contrasts [KeyFrameAnimation](keyframeanimation.md) s, which use an interpolator to define how the animating property changes over time. The mathematical equation can be defined using references to properties of Composition objects, mathematical functions and operators and Input. Expression Animations open the door to making experiences such as sticky headers and parallax easily describable.

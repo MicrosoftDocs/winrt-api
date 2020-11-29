@@ -12,6 +12,8 @@ public class Typography : Windows.UI.Xaml.Documents.ITypography
 ## -description
 Provides access to a set of Microsoft OpenType typography properties. These properties are implemented as XAML attached properties such that they can be set from text object model properties as well as from specific text controls.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.Typography](/windows/winui/api/microsoft.ui.xaml.documents.typography).
+
 ## -remarks
 You typically use Typography attached properties with the text of [TextBlock](../windows.ui.xaml.controls/textblock.md) or [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md) controls. 
 

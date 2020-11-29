@@ -12,6 +12,8 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the items header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPresenter.Header](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.header).
+
 ## -xaml-syntax
 ```xaml
 <ItemsPresenter Header="headerString"/>

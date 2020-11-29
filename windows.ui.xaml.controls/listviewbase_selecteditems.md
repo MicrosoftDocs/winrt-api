@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<object> SelectedItems { get; }
 ## -description
 Gets the currently selected items.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.SelectedItems](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.selecteditems).
+
 ## -property-value
 A collection of the currently selected items. The default is an empty collection.
 

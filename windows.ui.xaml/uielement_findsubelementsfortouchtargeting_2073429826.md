@@ -12,6 +12,8 @@ virtual protected Windows.Foundation.Collections.IIterable<Windows.Foundation.Co
 ## -description
 Enables a [UIElement](uielement.md) subclass to expose child elements that assist with resolving touch targeting.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.FindSubElementsForTouchTargeting](/windows/winui/api/microsoft.ui.xaml.uielement.findsubelementsfortouchtargeting).
+
 ## -parameters
 ### -param point
 The point being touched.

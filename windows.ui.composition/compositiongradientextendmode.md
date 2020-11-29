@@ -13,6 +13,8 @@ public enum CompositionGradientExtendMode : int
 
 Defines constants that specify how to draw the gradient outside the brush's gradient vector or space.
 
+Equivalent WinUI enum: [Microsoft.UI.Composition.CompositionGradientExtendMode](/windows/winui/api/microsoft.ui.composition.compositiongradientextendmode).
+
 ## -enum-fields
 ### -field Wrap:1
 

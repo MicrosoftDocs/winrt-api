@@ -12,6 +12,8 @@ public double HorizontalOffset { get;  set; }
 ## -description
 Gets or sets the horizontal distance between the target origin and the pop-up alignment point.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToolTip.HorizontalOffset](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.horizontaloffset).
+
 ## -xaml-syntax
 ```xaml
 <ToolTip HorizontalOffset="double"/>

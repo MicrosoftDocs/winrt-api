@@ -12,6 +12,8 @@ public class TextBoxTextChangingEventArgs : Windows.UI.Xaml.Controls.ITextBoxTex
 ## -description
 Provides event data for the [TextBox.TextChanging](textbox_textchanging.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TextBoxTextChangingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.textboxtextchangingeventargs).
+
 ## -remarks
 An instance of this class is passed as a parameter to the [TextChanging](textbox_textchanging.md) event handler.
 

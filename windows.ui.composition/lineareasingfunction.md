@@ -14,6 +14,8 @@ Represents a linear function for interpolating between animation key frames.
 
 The linear function of another supported easing function that can be used with KeyFrame Animations. When used, the animating property will change in between two KeyFrames linearly over time.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.LinearEasingFunction](/windows/winui/api/microsoft.ui.composition.lineareasingfunction).
+
 ## -remarks
 
 ## -examples

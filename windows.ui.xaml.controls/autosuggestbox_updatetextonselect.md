@@ -12,6 +12,8 @@ public bool UpdateTextOnSelect { get;  set; }
 ## -description
 Used in conjunction with [TextMemberPath](autosuggestbox_textmemberpath.md), gets or sets a value indicating whether items in the view will trigger an update of the editable text part of the [AutoSuggestBox](autosuggestbox.md) when clicked.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.UpdateTextOnSelect](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.updatetextonselect).
+
 ## -xaml-syntax
 ```xaml
 <AutoSuggestBox UpdateTextOnSelect="bool"/>

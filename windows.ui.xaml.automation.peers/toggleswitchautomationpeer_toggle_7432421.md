@@ -12,6 +12,8 @@ public void Toggle()
 ## -description
 Cycles through the toggle states of a control.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.Toggle](/windows/winui/api/microsoft.ui.xaml.automation.peers.toggleswitchautomationpeer.toggle).
+
 ## -remarks
 
 ## -examples

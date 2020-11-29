@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush Background { get;  set; }
 ## -description
 Gets or sets a brush that provides the background of the control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.Background](/windows/winui/api/microsoft.ui.xaml.controls.control.background).
+
 ## -xaml-syntax
 ```xaml
 <control Background="{StaticResource resourceName}"/>

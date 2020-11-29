@@ -12,6 +12,8 @@ public float SpecularAmount { get;  set; }
 ## -description
 Intensity of the specular light.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Effects.SceneLightingEffect.SpecularAmount](/windows/winui/api/microsoft.ui.composition.effects.scenelightingeffect.specularamount).
+
 ## -property-value
 Intensity of the specular light.
 

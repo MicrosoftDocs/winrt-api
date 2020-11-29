@@ -12,6 +12,8 @@ public void LineUp()
 ## -description
 Scrolls the [ScrollContentPresenter](scrollcontentpresenter.md) content upward by one line.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.LineUp](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.lineup).
+
 ## -remarks
 
 ## -examples

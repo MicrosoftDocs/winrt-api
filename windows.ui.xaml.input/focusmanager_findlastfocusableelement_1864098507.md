@@ -13,6 +13,8 @@ public DependencyObject FocusManager.FindLastFocusableElement(DependencyObject s
 
 Retrieves the last element that can receive focus based on the specified scope.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.FocusManager.FindLastFocusableElement](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.findlastfocusableelement).
+
 ## -parameters
 
 ### -param searchScope

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.HubSection Section { get; }
 ## -description
 Gets the [HubSection](hubsection.md) for the header that was clicked.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.HubSectionHeaderClickEventArgs.Section](/windows/winui/api/microsoft.ui.xaml.controls.hubsectionheaderclickeventargs.section).
+
 ## -property-value
 The [HubSection](hubsection.md) for the header that was clicked.
 

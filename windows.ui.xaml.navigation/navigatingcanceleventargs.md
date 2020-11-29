@@ -12,6 +12,8 @@ public class NavigatingCancelEventArgs : Windows.UI.Xaml.Navigation.INavigatingC
 ## -description
 Provides data for the [OnNavigatingFrom](../windows.ui.xaml.controls/page_onnavigatingfrom_425696585.md) callback that can be used to cancel a navigation request from origination.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Navigation.NavigatingCancelEventArgs](/windows/winui/api/microsoft.ui.xaml.navigation.navigatingcanceleventargs).
+
 ## -remarks
 
 ## -examples

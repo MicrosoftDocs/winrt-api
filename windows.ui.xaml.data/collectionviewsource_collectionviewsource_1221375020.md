@@ -12,6 +12,8 @@ public CollectionViewSource()
 ## -description
 Initializes a new instance of the [CollectionViewSource](collectionviewsource.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Data.CollectionViewSource.CollectionViewSource](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.#ctor).
+
 ## -remarks
 
 ## -examples

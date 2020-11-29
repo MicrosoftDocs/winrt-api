@@ -12,6 +12,8 @@ public double FontSize { get;  set; }
 ## -description
 Gets or sets the font size for the text content in this element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.FontSize](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.fontsize).
+
 ## -xaml-syntax
 ```xaml
 <RichTextBlock FontSize="double" .../>

@@ -12,6 +12,8 @@ public class ItemIndexRange : Windows.UI.Xaml.Data.IItemIndexRange
 ## -description
 Provides info about a range of items in the data source.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Data.ItemIndexRange](/windows/winui/api/microsoft.ui.xaml.data.itemindexrange).
+
 ## -remarks
 The ItemIndexRange class supports virtualization of large data sources for efficient presentation by XAML list controls. The other classes and interfaces that support data source virtualization are the following.
 

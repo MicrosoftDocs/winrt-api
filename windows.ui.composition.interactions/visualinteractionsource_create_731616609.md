@@ -12,6 +12,8 @@ public Windows.UI.Composition.Interactions.VisualInteractionSource Create(Window
 ## -description
 Creates an instance of [VisualInteractionSource](visualinteractionsource.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.Create](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.create).
+
 ## -parameters
 ### -param source
 The visual to use as the source of the interaction.

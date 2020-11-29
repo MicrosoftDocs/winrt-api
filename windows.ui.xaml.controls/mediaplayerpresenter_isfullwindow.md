@@ -12,6 +12,8 @@ public bool IsFullWindow { get;  set; }
 ## -description
 Gets or sets a value that specifies if the [MediaPlayerPresenter](mediaplayerpresenter.md) is rendering in full window mode.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.IsFullWindow](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerpresenter.isfullwindow).
+
 ## -xaml-syntax
 ```xaml
 <MediaPlayerPresenter IsFullWindow="bool" />

@@ -12,6 +12,8 @@ public ContentControl()
 ## -description
 Initializes a new instance of the [ContentControl](contentcontrol.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ContentControl.ContentControl](/windows/winui/api/microsoft.ui.xaml.controls.contentcontrol.#ctor).
+
 ## -remarks
 
 ## -examples

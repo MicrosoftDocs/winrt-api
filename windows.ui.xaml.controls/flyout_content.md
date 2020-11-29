@@ -12,6 +12,8 @@ public Windows.UI.Xaml.UIElement Content { get;  set; }
 ## -description
 Gets or sets the content of the [Flyout](flyout.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Flyout.Content](/windows/winui/api/microsoft.ui.xaml.controls.flyout.content).
+
 ## -xaml-syntax
 ```xaml
 

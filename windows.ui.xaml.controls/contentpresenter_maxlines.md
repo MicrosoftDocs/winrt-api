@@ -12,6 +12,8 @@ public int MaxLines { get;  set; }
 ## -description
 Gets or sets the maximum lines of text shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.MaxLines](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.maxlines).
+
 ## -property-value
 The maximum lines of text shown. The default is 0, which is a special value that represents "Auto" behavior. The value cannot be negative.
 

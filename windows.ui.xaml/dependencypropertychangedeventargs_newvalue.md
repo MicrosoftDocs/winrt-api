@@ -12,6 +12,8 @@ public object NewValue { get; }
 ## -description
 Gets the value of the dependency property after the reported change.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs.NewValue](/windows/winui/api/microsoft.ui.xaml.dependencypropertychangedeventargs.newvalue).
+
 ## -property-value
 The dependency property value after the change.
 

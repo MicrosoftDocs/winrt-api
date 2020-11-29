@@ -13,6 +13,8 @@ public Windows.UI.Color SaddleBrown { get; }
 
 Gets the system-defined color that has an ARGB value of #FF8B4513.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.SaddleBrown](/windows/winui/api/microsoft.ui.colors.saddlebrown).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF8B4513.

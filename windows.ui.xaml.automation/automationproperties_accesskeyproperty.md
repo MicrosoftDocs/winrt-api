@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AccessKeyProperty { get; }
 ## -description
 Identifies the [AutomationProperties.AccessKey](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property, which is a string containing the access key character for the automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.AccessKeyProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.accesskeyproperty).
+
 ## -property-value
 The identifier for the [AutomationProperties.AccessKey](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property.
 

@@ -12,6 +12,8 @@ public bool IsReadOnly { get;  set; }
 ## -description
 Gets or sets the value that determines if the user can change the text in the text box.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.IsReadOnly](/windows/winui/api/microsoft.ui.xaml.controls.textbox.isreadonly).
+
 ## -xaml-syntax
 ```xaml
 <TextBox IsReadOnly="bool"/>

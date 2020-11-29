@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.PenLineCap StrokeStartLineCap { get;  set; }
 ## -description
 Gets or sets a [PenLineCap](../windows.ui.xaml.media/penlinecap.md) enumeration value that describes the [Shape](shape.md) at the start of a [Stroke](shape_stroke.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.StrokeStartLineCap](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokestartlinecap).
+
 ## -xaml-syntax
 ```xaml
 <shape StrokeStartLineCap="penLineCapMemberName"/>

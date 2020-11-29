@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty IsSelectionRequiredProperty
 ## -description
 Identifies the [IsSelectionRequired](../windows.ui.xaml.automation.provider/iselectionprovider_isselectionrequired.md) automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.SelectionPatternIdentifiers.IsSelectionRequiredProperty](/windows/winui/api/microsoft.ui.xaml.automation.selectionpatternidentifiers.isselectionrequiredproperty).
+
 ## -property-value
 The automation property identifier.
 

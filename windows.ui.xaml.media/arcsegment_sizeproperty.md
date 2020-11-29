@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SizeProperty { get; }
 ## -description
 Identifies the [Size](arcsegment_size.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ArcSegment.SizeProperty](/windows/winui/api/microsoft.ui.xaml.media.arcsegment.sizeproperty).
+
 ## -property-value
 The [Size](arcsegment_size.md) dependency property identifier.
 

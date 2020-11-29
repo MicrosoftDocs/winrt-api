@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.Provider.ITextRangeProvider[] GetVisibleRanges
 ## -description
 Retrieves an array of disjoint text ranges from a text container. Each text range begins with the first partially visible line and ends with the last partially visible line.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITextProvider.GetVisibleRanges](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextprovider.getvisibleranges).
+
 ## -returns
 The collection of visible text ranges within a container or an empty array. This method never returns null.
 

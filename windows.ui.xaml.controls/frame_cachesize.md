@@ -12,6 +12,8 @@ public int CacheSize { get;  set; }
 ## -description
 Gets or sets the number of pages in the navigation history that can be cached for the frame.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Frame.CacheSize](/windows/winui/api/microsoft.ui.xaml.controls.frame.cachesize).
+
 ## -xaml-syntax
 ```xaml
 <Frame CacheSize="int" />

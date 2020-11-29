@@ -12,6 +12,8 @@ public Windows.Foundation.Point RenderTransformOrigin { get;  set; }
 ## -description
 Gets or sets the origin point of any possible render transform declared by [RenderTransform](uielement_rendertransform.md), relative to the bounds of the [UIElement](uielement.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.RenderTransformOrigin](/windows/winui/api/microsoft.ui.xaml.uielement.rendertransformorigin).
+
 ## -xaml-syntax
 ```xaml
 <uiElement RenderTransformOrigin="x,y"/>

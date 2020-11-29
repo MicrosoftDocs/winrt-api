@@ -12,6 +12,8 @@ public void SetIsTemplateFocusTarget(Windows.UI.Xaml.FrameworkElement element, S
 ## -description
 Sets the value of the [Control.IsTemplateFocusTarget](/uwp/api/windows.ui.xaml.controls.control#xaml-attached-properties) XAML attached property for a target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.SetIsTemplateFocusTarget](/windows/winui/api/microsoft.ui.xaml.controls.control.setistemplatefocustarget).
+
 ## -parameters
 ### -param element
 The object to which the property value is written.

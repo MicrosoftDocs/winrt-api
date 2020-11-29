@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Input.Pointer>
 ## -description
 Gets the set of all captured pointers, represented as [Pointer](../windows.ui.xaml.input/pointer.md) values.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.PointerCaptures](/windows/winui/api/microsoft.ui.xaml.uielement.pointercaptures).
+
 ## -property-value
 The collection of captured pointers, each represented as a [Pointer](../windows.ui.xaml.input/pointer.md) object.
 ## -remarks

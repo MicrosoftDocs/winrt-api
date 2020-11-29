@@ -12,6 +12,8 @@ public void SetPropertyFromPoint(System.Object dependencyObject, Windows.UI.Xaml
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Point](../windows.foundation/point.md) value.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromPoint](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfrompoint).
+
 ## -parameters
 ### -param dependencyObject
 The object to which the property being set belongs.

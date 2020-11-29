@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty VolumeProperty { get; }
 ## -description
 Identifies the [Volume](mediaelement_volume.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.VolumeProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.volumeproperty).
+
 ## -property-value
 The identifier for the [Volume](mediaelement_volume.md) dependency property.
 

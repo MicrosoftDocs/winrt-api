@@ -12,6 +12,8 @@ public int GetStylisticAlternates(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [StylisticAlternates](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetStylisticAlternates](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstylisticalternates).
+
 ## -parameters
 ### -param element
 The dependency object for which to retrieve the value of the [StylisticAlternates](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) property.

@@ -12,6 +12,8 @@ public class VisualStateChangedEventArgs : Windows.UI.Xaml.IVisualStateChangedEv
 ## -description
 Provides data for the [CurrentStateChanging](visualstategroup_currentstatechanging.md) and [CurrentStateChanged](visualstategroup_currentstatechanged.md) events.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.VisualStateChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.visualstatechangedeventargs).
+
 ## -remarks
 
 ## -examples

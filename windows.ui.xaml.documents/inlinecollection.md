@@ -12,6 +12,8 @@ public class InlineCollection : Windows.Foundation.Collections.IIterable<Windows
 ## -description
 Represents a collection of [Inline](inline.md) elements.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.InlineCollection](/windows/winui/api/microsoft.ui.xaml.documents.inlinecollection).
+
 ## -remarks
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic

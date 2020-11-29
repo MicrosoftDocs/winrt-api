@@ -14,6 +14,8 @@ public enum FlyoutShowMode : int
 
 Defines constants that specify how a flyout behaves when shown.
 
+Equivalent WinUI enum: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutshowmode).
+
 ## -enum-fields
 
 ### -field Auto:0

@@ -12,6 +12,8 @@ public object SelectedItem { get;  set; }
 ## -description
 Gets or sets the selected item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Selector.SelectedItem](/windows/winui/api/microsoft.ui.xaml.controls.primitives.selector.selecteditem).
+
 ## -xaml-syntax
 ```xaml
 <selector SelectedItem="bindingReference" .../>

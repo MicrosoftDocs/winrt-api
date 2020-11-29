@@ -14,6 +14,8 @@ Defines a group of animations.
 
 CompositionAnimationGroup provides a way to group [CompositionAnimation](compositionanimation.md)s in a list which will be started at the same time when [StartAnimationGroup](compositionobject_startanimationgroup_696523374.md) is called on [CompositionObject](compositionobject.md). All CompositionAnimation in CompositionAnimationGroup need to assign a value to the [Target](compositionanimation_target.md) property in the animation itself. CompositionAnimationGroup can also be associated with [ImplicitAnimationCollection](implicitanimationcollection.md) as an animation that gets executed as a result of a trigger.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionAnimationGroup](/windows/winui/api/microsoft.ui.composition.compositionanimationgroup).
+
 ## -remarks
 CompositionAnimationGroup is a list of [CompositionAnimation](compositionanimation.md). Different [CompositionAnimation](compositionanimation.md)s can be added to the group and can be used in [ImplicitAnimationCollection](implicitanimationcollection.md) or start the group using Visual.StartAnimationGroup(CompositionAnimationGroup).
 

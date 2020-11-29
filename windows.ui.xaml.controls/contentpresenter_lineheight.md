@@ -12,6 +12,8 @@ public double LineHeight { get;  set; }
 ## -description
 Gets or sets the height of each line of text content presented by the [ContentPresenter](contentpresenter.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.LineHeight](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.lineheight).
+
 ## -xaml-syntax
 ```xaml
 <ContentPresenter LineHeight="double"/>

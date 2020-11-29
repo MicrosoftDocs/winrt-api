@@ -12,6 +12,8 @@ public Windows.UI.Core.CoreIndependentInputSource CreateCoreIndependentInputSour
 ## -description
 Creates a core input object that handles the input types as specified by the *deviceTypes* parameter. This core input object can process input events on a background thread.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.SwapChainPanel.CreateCoreIndependentInputSource](/windows/winui/api/microsoft.ui.xaml.controls.swapchainpanel.createcoreindependentinputsource).
+
 ## -parameters
 ### -param deviceTypes
 A combined value of the enumeration.

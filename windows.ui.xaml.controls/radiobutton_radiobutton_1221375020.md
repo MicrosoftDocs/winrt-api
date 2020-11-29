@@ -12,6 +12,8 @@ public RadioButton()
 ## -description
 Initializes a new instance of the [RadioButton](radiobutton.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.RadioButton.RadioButton](/windows/winui/api/microsoft.ui.xaml.controls.radiobutton.#ctor).
+
 ## -remarks
 
 ## -examples

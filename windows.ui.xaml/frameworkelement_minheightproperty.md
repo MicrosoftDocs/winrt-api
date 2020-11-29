@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MinHeightProperty { get; }
 ## -description
 Identifies the [MinHeight](frameworkelement_minheight.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.MinHeightProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.minheightproperty).
+
 ## -property-value
 The identifier for the [MinHeight](frameworkelement_minheight.md)  dependency property.
 

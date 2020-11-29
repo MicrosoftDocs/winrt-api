@@ -12,6 +12,8 @@ public enum Windows.UI.Text.TabLeader : int
 ## -description
 The character that is used to fill the space taken by a tab character.
 
+Equivalent WinUI enum: [TabLeader](/windows/winui/api/microsoft.ui.text.tableader).
+
 ## -enum-fields
 ### -field Spaces:0
 Spaces are used. This is the default.

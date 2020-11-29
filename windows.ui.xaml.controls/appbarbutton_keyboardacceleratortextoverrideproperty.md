@@ -12,6 +12,8 @@ public DependencyProperty KeyboardAcceleratorTextOverrideProperty { get; }
 ## -description
 Identifies the [AppBarButton.KeyboardAcceleratorTextOverride](appbarbutton_keyboardacceleratortextoverride.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarButton.KeyboardAcceleratorTextOverrideProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton.keyboardacceleratortextoverrideproperty).
+
 ## -property-value
 The identifier for the [AppBarButton.KeyboardAcceleratorTextOverride](appbarbutton_keyboardacceleratortextoverride.md) dependency property.
 

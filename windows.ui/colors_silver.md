@@ -13,6 +13,8 @@ public Windows.UI.Color Silver { get; }
 
 Gets the system-defined color that has an ARGB value of #FFC0C0C0.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Silver](/windows/winui/api/microsoft.ui.colors.silver).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFC0C0C0.

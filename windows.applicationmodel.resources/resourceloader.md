@@ -12,6 +12,8 @@ public class ResourceLoader : Windows.ApplicationModel.Resources.IResourceLoader
 ## -description
 Provides simplified access to app resources such as app UI strings.
 
+Equivalent WinUI class: [Microsoft.ApplicationModel.Resources.ResourceLoader](/windows/winui/api/microsoft.applicationmodel.resources.resourceloader).
+
 ## -remarks
 A **ResourceLoader** object encapsulates a particular [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) and a [ResourceContext](../windows.applicationmodel.resources.core/resourcecontext.md), combined in a simple API.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject EntranceTarget { get;  set; }
 ## -description
 Gets or sets the element that is animating into view, such as a master page.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DrillOutThemeAnimation.EntranceTarget](/windows/winui/api/microsoft.ui.xaml.media.animation.drilloutthemeanimation.entrancetarget).
+
 ## -property-value
 The element that is animating into view, such as a master page.
 

@@ -13,6 +13,8 @@ public string XamlDirect.GetStringProperty(IXamlDirectObject xamlDirectObject, X
 ## -description
 Gets the value of a _string_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetStringProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getstringproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

@@ -13,6 +13,8 @@ public ITextRange FormattedText { get;  set; }
 
 Gets or sets an ITextRange object with the formatted text of the specified range.
 
+Equivalent WinUI property: [Microsoft.UI.Text.RichEditTextRange.FormattedText](/windows/winui/api/microsoft.ui.text.richedittextrange.formattedtext).
+
 ## -property-value
 
 The formatted text.

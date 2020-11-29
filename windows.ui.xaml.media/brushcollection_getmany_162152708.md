@@ -12,6 +12,8 @@ public uint GetMany(System.UInt32 startIndex, Windows.UI.Xaml.Media.Brush[] item
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.BrushCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.media.brushcollection.getmany).
+
 ## -parameters
 ### -param startIndex
 The index from which to start retrieval.

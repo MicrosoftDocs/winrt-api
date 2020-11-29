@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LabelPositionProperty { get; }
 ## -description
 Identifies the [LabelPosition](appbartogglebutton_labelposition.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarToggleButton.LabelPositionProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbartogglebutton.labelpositionproperty).
+
 ## -property-value
 The identifier for the [LabelPosition](appbartogglebutton_labelposition.md) dependency property.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty DropEffectProperty { get; }
 ## -description
 Gets the identifier for the [DropEffect](../windows.ui.xaml.automation.provider/idragprovider_dropeffect.md) automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.DragPatternIdentifiers.DropEffectProperty](/windows/winui/api/microsoft.ui.xaml.automation.dragpatternidentifiers.dropeffectproperty).
+
 ## -property-value
 The automation property identifier.
 

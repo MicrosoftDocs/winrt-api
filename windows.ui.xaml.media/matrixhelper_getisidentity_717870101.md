@@ -12,6 +12,8 @@ public bool GetIsIdentity(Windows.UI.Xaml.Media.Matrix target)
 ## -description
 Returns whether the provided [Matrix](matrix.md) represents an **Identity** transform. C# and Microsoft Visual Basic code should use [IsIdentity](matrix_isidentity.md) instead.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.MatrixHelper.GetIsIdentity](/windows/winui/api/microsoft.ui.xaml.media.matrixhelper.getisidentity).
+
 ## -parameters
 ### -param target
 The target [Matrix](matrix.md) to evaluate.

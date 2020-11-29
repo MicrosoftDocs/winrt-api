@@ -14,6 +14,8 @@ public ITextCharacterFormat RichEditTextDocument.GetDefaultCharacterFormat()
 
 Retrieves the default character formatting attributes of the document.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.GetDefaultCharacterFormat](/windows/winui/api/microsoft.ui.text.richedittextdocument.getdefaultcharacterformat).
+
 ## -returns
 
 The default character formatting attributes.

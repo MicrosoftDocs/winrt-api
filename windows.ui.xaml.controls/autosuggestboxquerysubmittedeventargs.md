@@ -12,6 +12,8 @@ public class AutoSuggestBoxQuerySubmittedEventArgs : Windows.UI.Xaml.DependencyO
 ## -description
 Provides event data for the [AutoSuggestBox.QuerySubmitted](autosuggestbox_querysubmitted.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.AutoSuggestBoxQuerySubmittedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestboxquerysubmittedeventargs).
+
 ## -remarks
 
 ## -examples

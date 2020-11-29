@@ -16,6 +16,8 @@ public struct TextRange  {
 
 Represents a selection of text content.
 
+Equivalent WinUI struct: [Microsoft.UI.Xaml.Documents.TextRange](/windows/winui/api/microsoft.ui.xaml.documents.textrange).
+
 ## -struct-fields
 
 ### -field Length

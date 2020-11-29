@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Data.BindingMode Mode { get;  set; }
 ## -description
 Gets or sets a value that indicates the direction of the data flow in the binding.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.Mode](/windows/winui/api/microsoft.ui.xaml.data.binding.mode).
+
 ## -xaml-syntax
 ```xaml
 <Binding Mode="bindingModeMemberName"/>

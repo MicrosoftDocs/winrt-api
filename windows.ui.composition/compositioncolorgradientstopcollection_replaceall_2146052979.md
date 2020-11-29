@@ -13,6 +13,8 @@ public void CompositionColorGradientStopCollection.ReplaceAll(CompositionColorGr
 
 Initially clears the collection, then inserts the provided array as new items.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.ReplaceAll](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.replaceall).
+
 ## -parameters
 ### -param items
 

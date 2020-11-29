@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo NavigationTransi
 ## -description
 Gets a value that indicates the animated transition associated with the navigation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Navigation.NavigatingCancelEventArgs.NavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.navigation.navigatingcanceleventargs.navigationtransitioninfo).
+
 ## -property-value
 Info about the animated transition.
 

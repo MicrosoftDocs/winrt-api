@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HorizontalScrollModeProperty { get; }
 ## -description
 Identifies the [HorizontalScrollMode](scrollviewer_horizontalscrollmode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.HorizontalScrollModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.horizontalscrollmodeproperty).
+
 ## -property-value
 The identifier for the [HorizontalScrollMode](scrollviewer_horizontalscrollmode.md) dependency property.
 

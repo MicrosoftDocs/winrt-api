@@ -12,6 +12,8 @@ virtual protected void OnItemTemplateSelectorChanged(Windows.UI.Xaml.Controls.Da
 ## -description
 Invoked when the value of the [ItemTemplateSelector](itemscontrol_itemtemplateselector.md) property changes.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemsControl.OnItemTemplateSelectorChanged](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.onitemtemplateselectorchanged).
+
 ## -parameters
 ### -param oldItemTemplateSelector
 The previous value of the [ItemTemplateSelector](itemscontrol_itemtemplateselector.md) property.

@@ -14,6 +14,8 @@ public Vector3 EmissiveFactor { get;  set; }
 
 Gets or sets the material's emissive value.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.EmissiveFactor](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.emissivefactor).
+
 ## -property-value
 
 The material's emissive value.

@@ -12,6 +12,8 @@ public void Append(Windows.UI.Xaml.UIElement value)
 ## -description
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.UIElementCollection.Append](/windows/winui/api/microsoft.ui.xaml.controls.uielementcollection.append).
+
 ## -parameters
 ### -param value
 The new item to add.

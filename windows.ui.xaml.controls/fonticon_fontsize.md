@@ -12,6 +12,8 @@ public double FontSize { get;  set; }
 ## -description
 Gets or sets the size of the icon glyph.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.FontIcon.FontSize](/windows/winui/api/microsoft.ui.xaml.controls.fonticon.fontsize).
+
 ## -xaml-syntax
 ```xaml
 <FontIcon FontSize="double" .../>

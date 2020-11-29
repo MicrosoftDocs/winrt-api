@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ClosedTargetProperty { get; }
 ## -description
 Identifies the [ClosedTarget](splitopenthemeanimation_closedtarget.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation.ClosedTargetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation.closedtargetproperty).
+
 ## -property-value
 The identifier for the [ClosedTarget](splitopenthemeanimation_closedtarget.md) dependency property.
 

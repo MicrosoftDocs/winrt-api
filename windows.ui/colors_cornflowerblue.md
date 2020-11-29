@@ -13,6 +13,8 @@ public Windows.UI.Color CornflowerBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FF6495ED.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.CornflowerBlue](/windows/winui/api/microsoft.ui.colors.cornflowerblue).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF6495ED.

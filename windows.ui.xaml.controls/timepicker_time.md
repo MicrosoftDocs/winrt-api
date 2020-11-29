@@ -12,6 +12,8 @@ public Windows.Foundation.TimeSpan Time { get;  set; }
 ## -description
 Gets or sets the time currently set in the time picker.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.Time](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.time).
+
 ## -xaml-syntax
 ```xaml
 <TimePicker Time="timeSpanString" />

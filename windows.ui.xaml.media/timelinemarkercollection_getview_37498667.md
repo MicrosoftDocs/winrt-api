@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Media.Timeline
 ## -description
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TimelineMarkerCollection.GetView](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkercollection.getview).
+
 ## -returns
 An object representing the immutable collection view.
 

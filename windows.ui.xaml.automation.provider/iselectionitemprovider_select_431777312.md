@@ -12,6 +12,8 @@ public void Select()
 ## -description
 Clears any existing selection and then selects the current element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.Select](/windows/winui/api/microsoft.ui.xaml.automation.provider.iselectionitemprovider.select).
+
 ## -remarks
 
 ## -examples

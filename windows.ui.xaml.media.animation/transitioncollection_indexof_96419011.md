@@ -12,6 +12,8 @@ public bool IndexOf(Windows.UI.Xaml.Media.Animation.Transition value, System.UIn
 ## -description
 Retrieves the index of the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.TransitionCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.animation.transitioncollection.indexof).
+
 ## -parameters
 ### -param value
 The value to find in the collection.

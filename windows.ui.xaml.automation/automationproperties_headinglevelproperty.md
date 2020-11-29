@@ -12,6 +12,8 @@ public DependencyProperty HeadingLevelProperty { get; }
 ## -description
 Gets the identifier for the **HeadingLevel** attached property, which indicates the heading level for a UI Automation element. 
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.HeadingLevelProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.headinglevelproperty).
+
 ## -property-value
 The identifier for the **HeadingLevel** attached property.
 

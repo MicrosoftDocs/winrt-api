@@ -13,6 +13,8 @@ public void MediaTransportControls.Hide()
 
 Hides the transport controls if they're shown.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaTransportControls.Hide](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.hide).
+
 ## -remarks
 
 ## -see-also

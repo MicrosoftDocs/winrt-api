@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty RotationYProperty { get; }
 ## -description
 Identifies the [RotationY](planeprojection_rotationy.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.RotationYProperty](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.rotationyproperty).
+
 ## -property-value
 The identifier for the [RotationY](planeprojection_rotationy.md)  dependency property.
 

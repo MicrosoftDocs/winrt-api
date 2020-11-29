@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty XYFocusRightProperty { get; }
 ## -description
 Identifies the [XYFocusRight](hyperlink_xyfocusright.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusRightProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.xyfocusrightproperty).
+
 ## -property-value
 The identifier for the [XYFocusRight](hyperlink_xyfocusright.md) dependency property.
 

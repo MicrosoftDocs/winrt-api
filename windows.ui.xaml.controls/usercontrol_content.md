@@ -12,6 +12,8 @@ public Windows.UI.Xaml.UIElement Content { get;  set; }
 ## -description
 Gets or sets the content that is contained within a user control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.UserControl.Content](/windows/winui/api/microsoft.ui.xaml.controls.usercontrol.content).
+
 ## -xaml-syntax
 ```xaml
 <UserControl ...>

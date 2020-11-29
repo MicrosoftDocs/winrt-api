@@ -12,6 +12,8 @@ public double FromHorizontalOffset { get; }
 ## -description
 Gets the offset that is appropriate as a value for **FromHorizontalOffset** in theme animations.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ToolTipTemplateSettings.FromHorizontalOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.tooltiptemplatesettings.fromhorizontaloffset).
+
 ## -property-value
 A value in pixels.
 

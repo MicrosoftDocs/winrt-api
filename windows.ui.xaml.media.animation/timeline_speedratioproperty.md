@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SpeedRatioProperty { get; }
 ## -description
 Identifies for the [SpeedRatio](timeline_speedratio.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.SpeedRatioProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.speedratioproperty).
+
 ## -property-value
 The identifier for the [SpeedRatio](timeline_speedratio.md)  dependency property.
 

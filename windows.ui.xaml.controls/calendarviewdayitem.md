@@ -12,6 +12,8 @@ public class CalendarViewDayItem : Windows.UI.Xaml.Controls.Control, Windows.UI.
 ## -description
 Represents a day on a [CalendarView](calendarview.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CalendarViewDayItem](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitem).
+
 ## -xaml-syntax
 ```xaml
 <CalendarViewDayItem .../>

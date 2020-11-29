@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PreventKeyboardDisplayOnProgrammaticFo
 ## -description
 Identifies the [PreventKeyboardDisplayOnProgrammaticFocus](richeditbox_preventkeyboarddisplayonprogrammaticfocus.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.PreventKeyboardDisplayOnProgrammaticFocusProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.preventkeyboarddisplayonprogrammaticfocusproperty).
+
 ## -property-value
 The identifier for the [PreventKeyboardDisplayOnProgrammaticFocus](richeditbox_preventkeyboarddisplayonprogrammaticfocus.md) dependency property.
 

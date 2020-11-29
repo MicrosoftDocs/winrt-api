@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FromProperty { get; }
 ## -description
 Identifies the [From](doubleanimation_from.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimation.FromProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimation.fromproperty).
+
 ## -property-value
 The identifier for the [From](doubleanimation_from.md)  dependency property.
 

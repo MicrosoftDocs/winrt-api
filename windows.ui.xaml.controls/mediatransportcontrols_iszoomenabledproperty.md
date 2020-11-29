@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsZoomEnabledProperty { get; }
 ## -description
 Identifies the [IsZoomEnabled](mediatransportcontrols_iszoomenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsZoomEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.iszoomenabledproperty).
+
 ## -property-value
 The identifier for the [IsZoomEnabled](mediatransportcontrols_iszoomenabled.md) dependency property.
 

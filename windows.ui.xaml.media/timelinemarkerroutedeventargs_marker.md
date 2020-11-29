@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.TimelineMarker Marker { get;  set; }
 ## -description
 Gets the [TimelineMarker](timelinemarker.md) that triggered this event.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.TimelineMarkerRoutedEventArgs.Marker](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkerroutedeventargs.marker).
+
 ## -property-value
 The [TimelineMarker](timelinemarker.md) that triggered this event.
 

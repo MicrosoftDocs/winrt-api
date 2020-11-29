@@ -12,6 +12,8 @@ virtual protected void BringIndexIntoView(System.Int32 index)
 ## -description
 Generates the item at the specified index location and makes it visible.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VirtualizingPanel.BringIndexIntoView](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingpanel.bringindexintoview).
+
 ## -parameters
 ### -param index
 The index position of the item that is generated and made visible.

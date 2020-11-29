@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty StrokeProperty { get; }
 ## -description
 Identifies the [Stroke](shape_stroke.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.StrokeProperty](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokeproperty).
+
 ## -property-value
 The identifier for the [Stroke](shape_stroke.md) dependency property.
 

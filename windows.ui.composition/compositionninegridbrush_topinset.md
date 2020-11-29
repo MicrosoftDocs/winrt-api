@@ -12,6 +12,8 @@ public float TopInset { get;  set; }
 ## -description
 Inset from the top edge of the source content that specifies the thickness of the top row. Defaults to 0.0f.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionNineGridBrush.TopInset](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.topinset).
+
 ## -property-value
 Inset from the top edge of the source content that specifies the thickness of the top row. Defaults to 0.0f.
 

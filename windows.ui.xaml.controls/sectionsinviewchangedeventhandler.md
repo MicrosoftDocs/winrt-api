@@ -10,6 +10,8 @@ public delegate void SectionsInViewChangedEventHandler(System.Object sender, Win
 ## -description
 Represents the method that will handle a [SectionsInViewChanged](hub_sectionsinviewchanged.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.SectionsInViewChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.sectionsinviewchangedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the handler is attached.

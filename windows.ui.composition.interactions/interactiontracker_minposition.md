@@ -12,6 +12,8 @@ public Windows.Foundation.Numerics.Vector3 MinPosition { get;  set; }
 ## -description
 The minimum position allowed for the [InteractionTracker](interactiontracker.md).
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTracker.MinPosition](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.minposition).
+
 ## -property-value
 The minimum position allowed for the [InteractionTracker](interactiontracker.md).
 

@@ -12,6 +12,8 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.Media.PathSegment valu
 ## -description
 Inserts the specified item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathSegmentCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.media.pathsegmentcollection.insertat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

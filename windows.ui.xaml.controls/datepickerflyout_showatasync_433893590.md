@@ -12,6 +12,8 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.IReference<Windows.
 ## -description
 Begins an asynchronous operation to show the date picker placed in relation to the specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.DatePickerFlyout.ShowAtAsync](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyout.showatasync).
+
 ## -parameters
 ### -param target
 The element to use as the flyout's placement target.

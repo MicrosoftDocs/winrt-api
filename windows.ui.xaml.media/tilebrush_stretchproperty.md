@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty StretchProperty { get; }
 ## -description
 Identifies the [Stretch](tilebrush_stretch.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.TileBrush.StretchProperty](/windows/winui/api/microsoft.ui.xaml.media.tilebrush.stretchproperty).
+
 ## -property-value
 The identifier for the [Stretch](tilebrush_stretch.md) dependency property.
 

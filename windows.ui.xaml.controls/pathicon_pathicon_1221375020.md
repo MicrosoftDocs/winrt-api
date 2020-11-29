@@ -12,6 +12,8 @@ public PathIcon()
 ## -description
 Initializes a new instance of the [PathIcon](pathicon.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.PathIcon.PathIcon](/windows/winui/api/microsoft.ui.xaml.controls.pathicon.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public string Name { get;  set; }
 ## -description
 Gets or sets the font name.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.Name](/windows/winui/api/microsoft.ui.text.itextcharacterformat.name).
+
 ## -property-value
 The font name.
 

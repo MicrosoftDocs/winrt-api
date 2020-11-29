@@ -14,6 +14,8 @@ public SceneAlphaMode AlphaMode { get;  set; }
 
 Gets or sets the alpha mode for the material.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.AlphaMode](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.alphamode).
+
 ## -property-value
 
 The alpha mode for the material.

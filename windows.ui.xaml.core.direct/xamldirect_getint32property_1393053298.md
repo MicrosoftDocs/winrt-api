@@ -13,6 +13,8 @@ public int XamlDirect.GetInt32Property(IXamlDirectObject xamlDirectObject, XamlP
 ## -description
 Gets the value of an _Int32_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetInt32Property](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getint32property).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

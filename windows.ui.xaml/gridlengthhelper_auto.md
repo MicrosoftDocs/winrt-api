@@ -12,6 +12,8 @@ public Windows.UI.Xaml.GridLength Auto { get; }
 ## -description
 Gets a static [GridLength](gridlength.md) value that corresponds to the special "Auto" value. C# and Microsoft Visual Basic code should use [GridLength.Auto](/dotnet/api/windows.ui.xaml.gridlength.auto) instead.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.GridLengthHelper.Auto](/windows/winui/api/microsoft.ui.xaml.gridlengthhelper.auto).
+
 ## -property-value
 A [GridLength](gridlength.md) value that corresponds to the special "Auto" value.
 

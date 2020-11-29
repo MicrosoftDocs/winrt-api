@@ -14,6 +14,8 @@ public event TypedEventHandler EffectiveViewportChanged<FrameworkElement, Effect
 
 Occurs when the [FrameworkElement](frameworkelement.md)'s *effective viewport* changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.FrameworkElement.EffectiveViewportChanged](/windows/winui/api/microsoft.ui.xaml.frameworkelement.effectiveviewportchanged).
+
 ## -remarks
 
 A scrolling control allows the user to pan/scroll through content that takes up more space than is available in the UI. The portion of the content that the user sees is called the *viewport*.

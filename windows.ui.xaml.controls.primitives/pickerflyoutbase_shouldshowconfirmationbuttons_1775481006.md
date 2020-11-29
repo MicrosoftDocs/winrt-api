@@ -12,6 +12,8 @@ virtual protected bool ShouldShowConfirmationButtons()
 ## -description
 Gets or sets whether confirmation buttons should be shown in the picker. Note: This method has no base class implementation and must be overridden in a derived class.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.PickerFlyoutBase.ShouldShowConfirmationButtons](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pickerflyoutbase.shouldshowconfirmationbuttons).
+
 ## -returns
 True if confirmation buttons should be shown in the picker; Otherwise, false.
 

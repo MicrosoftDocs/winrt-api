@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PlaceholderTextProperty { get; }
 ## -description
 Identifies the [PlaceholderText](textbox_placeholdertext.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.PlaceholderTextProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.placeholdertextproperty).
+
 ## -property-value
 The identifier for the [PlaceholderText](textbox_placeholdertext.md) dependency property.
 

@@ -12,6 +12,8 @@ public MenuFlyoutItem()
 ## -description
 Initializes a new instance of the [MenuFlyoutItem](menuflyoutitem.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem.MenuFlyoutItem](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem.#ctor).
+
 ## -remarks
 
 ## -examples

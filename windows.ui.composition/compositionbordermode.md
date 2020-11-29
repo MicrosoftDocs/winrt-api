@@ -13,6 +13,8 @@ public enum Windows.UI.Composition.CompositionBorderMode : int
 Controls the aliasing behavior on the edges of visual borders.
 <!--  with other visuals and affects pixel precise alignment so that edges (borders) are not axis-aligned to avoid aliasing. -->
 
+Equivalent WinUI enum: [CompositionBorderMode](/windows/winui/api/microsoft.ui.composition.compositionbordermode).
+
 ## -enum-fields
 ### -field Inherit:0
 Inherit from parent.

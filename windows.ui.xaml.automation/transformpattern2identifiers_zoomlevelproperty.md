@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty ZoomLevelProperty { get; }
 ## -description
 Identifies the [ZoomLevel](../windows.ui.xaml.automation.provider/itransformprovider2_zoomlevel.md) automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.TransformPattern2Identifiers.ZoomLevelProperty](/windows/winui/api/microsoft.ui.xaml.automation.transformpattern2identifiers.zoomlevelproperty).
+
 ## -property-value
 The automation property identifier.
 

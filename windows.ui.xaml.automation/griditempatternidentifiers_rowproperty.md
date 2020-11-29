@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty RowProperty { get; }
 ## -description
 Identifies the [Row](../windows.ui.xaml.automation.provider/igriditemprovider_row.md) automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.GridItemPatternIdentifiers.RowProperty](/windows/winui/api/microsoft.ui.xaml.automation.griditempatternidentifiers.rowproperty).
+
 ## -property-value
 The automation property identifier.
 

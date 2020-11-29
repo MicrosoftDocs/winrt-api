@@ -12,6 +12,8 @@ public DoubleAnimationUsingKeyFrames()
 ## -description
 Initializes a new instance of the [DoubleAnimationUsingKeyFrames](doubleanimationusingkeyframes.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames.DoubleAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimationusingkeyframes.#ctor).
+
 ## -remarks
 
 ## -examples

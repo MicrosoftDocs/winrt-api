@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Documents.UnderlineStyle UnderlineStyle { get;  set; }
 ## -description
 Gets or sets a value that indicates what kind of underline is shown under the hyperlink.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.UnderlineStyle](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.underlinestyle).
+
 ## -property-value
 An enumeration value that specifies what kind of underline is shown. The default is **Single**.
 

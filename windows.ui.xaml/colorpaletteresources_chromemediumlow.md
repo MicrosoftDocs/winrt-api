@@ -14,6 +14,8 @@ public IReference<Color> ChromeMediumLow { get;  set; }
 
 Gets or sets the ChromeMediumLow color value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeMediumLow](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromemediumlow).
+
 ## -property-value
 
 The ChromeMediumLow color value.

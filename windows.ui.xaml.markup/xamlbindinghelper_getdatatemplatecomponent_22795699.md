@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Markup.IDataTemplateComponent GetDataTemplateComponent(Wi
 ## -description
 Gets the value of the [DataTemplateComponent](/uwp/api/windows.ui.xaml.markup.xamlbindinghelper#xaml-attached-properties) XAML attached property for a target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.GetDataTemplateComponent](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.getdatatemplatecomponent).
+
 ## -parameters
 ### -param element
 The object from which the property value is read.

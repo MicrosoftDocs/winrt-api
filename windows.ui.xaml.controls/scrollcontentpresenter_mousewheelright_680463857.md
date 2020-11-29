@@ -12,6 +12,8 @@ public void MouseWheelRight()
 ## -description
 Scrolls right within content after a user clicks the wheel button on a mouse.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.MouseWheelRight](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.mousewheelright).
+
 ## -remarks
 
 ## -examples

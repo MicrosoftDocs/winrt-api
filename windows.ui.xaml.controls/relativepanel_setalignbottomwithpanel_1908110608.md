@@ -12,6 +12,8 @@ public void SetAlignBottomWithPanel(Windows.UI.Xaml.UIElement element, System.Bo
 ## -description
 Sets the value of the [RelativePanel.AlignBottomWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property for a target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.SetAlignBottomWithPanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setalignbottomwithpanel).
+
 ## -parameters
 ### -param element
 The object to which the property value is written.

@@ -13,6 +13,8 @@ public DependencyProperty IsRepeatButtonVisibleProperty { get; }
 
 Identifies the IsRepeatButtonVisible dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsRepeatButtonVisibleProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isrepeatbuttonvisibleproperty).
+
 ## -property-value
 
 The identifier for the IsRepeatButtonVisible dependency property.

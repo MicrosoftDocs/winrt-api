@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LevelProperty { get; }
 ## -description
 Gets the identifier for the **Level** attached property, which is a 1-based integer associated with an automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.LevelProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.levelproperty).
+
 ## -property-value
 The identifier for the **Level** attached property.
 

@@ -12,6 +12,8 @@ public void RaiseAutomationEvent(Windows.UI.Xaml.Automation.Peers.AutomationEven
 ## -description
 Raises an automation event.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.RaiseAutomationEvent](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.raiseautomationevent).
+
 ## -parameters
 ### -param eventId
 The event identifier for the event to raise, as a value of the enumeration. See [AutomationEvents](automationevents.md).

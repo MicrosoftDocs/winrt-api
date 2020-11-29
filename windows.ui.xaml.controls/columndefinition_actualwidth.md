@@ -12,6 +12,8 @@ public double ActualWidth { get; }
 ## -description
 Gets a value that represents the actual calculated width of a [ColumnDefinition](columndefinition.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ColumnDefinition.ActualWidth](/windows/winui/api/microsoft.ui.xaml.controls.columndefinition.actualwidth).
+
 ## -property-value
 A [Double](/dotnet/api/system.double?redirectedfrom=MSDN) that represents the actual calculated width in pixels. The default is 0.
 

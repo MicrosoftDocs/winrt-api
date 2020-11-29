@@ -12,6 +12,8 @@ public bool Cancel { get;  set; }
 ## -description
 Gets or sets a value that indicates whether this item should not be revirtualized.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.controls.cleanupvirtualizeditemeventargs.cancel).
+
 ## -property-value
 **true** if you want to prevent revirtualization of this item; otherwise, **false**.
 

@@ -12,6 +12,8 @@ public void Append(Windows.UI.Xaml.Media.GradientStop value)
 ## -description
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GradientStopCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.gradientstopcollection.append).
+
 ## -parameters
 ### -param value
 The item to add.

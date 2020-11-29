@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PointProperty { get; }
 ## -description
 Identifies the [Point](linesegment_point.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.LineSegment.PointProperty](/windows/winui/api/microsoft.ui.xaml.media.linesegment.pointproperty).
+
 ## -property-value
 The identifier for the [Point](linesegment_point.md) dependency property.
 

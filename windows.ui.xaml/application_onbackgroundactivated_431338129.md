@@ -12,6 +12,8 @@ virtual protected void OnBackgroundActivated(Windows.ApplicationModel.Activation
 ## -description
 Invoked when the application is activated in the background.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Application.OnBackgroundActivated](/windows/winui/api/microsoft.ui.xaml.application.onbackgroundactivated).
+
 ## -parameters
 ### -param args
 Data about the background activation.

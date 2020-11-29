@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsColorFontEnabledProperty { get; }
 ## -description
 Identifies the [IsColorFontEnabled](textbox_iscolorfontenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.IsColorFontEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.iscolorfontenabledproperty).
+
 ## -property-value
 The identifier for the [IsColorFontEnabled](textbox_iscolorfontenabled.md) dependency property.
 

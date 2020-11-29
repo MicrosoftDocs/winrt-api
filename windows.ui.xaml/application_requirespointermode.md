@@ -12,6 +12,8 @@ public Windows.UI.Xaml.ApplicationRequiresPointerMode RequiresPointerMode { get;
 ## -description
 Gets or sets whether a UWP app supports mouse mode, which emulates pointer interaction experiences with non-pointer input devices such as an Xbox gamepad or remote control. (All nested elements inherit this behavior.)
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Application.RequiresPointerMode](/windows/winui/api/microsoft.ui.xaml.application.requirespointermode).
+
 ## -property-value
 The pointer emulation mode. The default is [Auto](applicationrequirespointermode.md) (the default system experience for the input device).
 

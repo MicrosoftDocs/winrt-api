@@ -14,6 +14,8 @@ public string Description { get;  set; }
 
 Gets or sets a description for this element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.Description](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.description).
+
 ## -property-value
 
 The description for this element.

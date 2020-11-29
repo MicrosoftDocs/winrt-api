@@ -12,6 +12,8 @@ public class CacheMode : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Media
 ## -description
 Represents cached content modes for graphics acceleration features.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.CacheMode](/windows/winui/api/microsoft.ui.xaml.media.cachemode).
+
 ## -remarks
 
 ## -examples

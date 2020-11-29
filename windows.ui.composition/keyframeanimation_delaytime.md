@@ -12,6 +12,8 @@ public Windows.Foundation.TimeSpan DelayTime { get;  set; }
 ## -description
 Delay before the animation starts after [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) is called.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.KeyFrameAnimation.DelayTime](/windows/winui/api/microsoft.ui.composition.keyframeanimation.delaytime).
+
 ## -property-value
 Delay before the animation starts after [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) is called.
 

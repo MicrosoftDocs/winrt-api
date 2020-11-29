@@ -12,6 +12,8 @@ public float GetRegularSnapPoints(Windows.UI.Xaml.Controls.Orientation orientati
 ## -description
 Returns an original offset and interval for equidistant snap points for the specified orientation.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemsPresenter.GetRegularSnapPoints](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.getregularsnappoints).
+
 ## -parameters
 ### -param orientation
 The orientation of the requested snap points.

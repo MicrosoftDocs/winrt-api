@@ -13,6 +13,8 @@ public class FontIcon : Windows.UI.Xaml.Controls.IconElement, Windows.UI.Xaml.Co
 
 Represents an icon that uses a glyph from the specified font.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.FontIcon](/windows/winui/api/microsoft.ui.xaml.controls.fonticon).
+
 ## -xaml-syntax
 
 ```xaml

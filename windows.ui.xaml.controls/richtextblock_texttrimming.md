@@ -12,6 +12,8 @@ public Windows.UI.Xaml.TextTrimming TextTrimming { get;  set; }
 ## -description
 Gets or sets a value that indicates how text is trimmed when it overflows the content area.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextTrimming](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.texttrimming).
+
 ## -xaml-syntax
 ```xaml
 <RichTextBlock TextTrimming="None"/>

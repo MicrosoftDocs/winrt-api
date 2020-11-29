@@ -12,6 +12,8 @@ public double DefaultPlaybackRate { get;  set; }
 ## -description
 Gets or sets the default playback rate for the media engine. The playback rate applies when the user isn't using fast forward or reverse.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.DefaultPlaybackRate](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.defaultplaybackrate).
+
 ## -xaml-syntax
 ```xaml
 <MediaElement DefaultPlaybackRate="double"/>

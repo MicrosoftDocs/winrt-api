@@ -14,6 +14,8 @@ public double OverflowContentHiddenYTranslation { get; }
 
 Gets the translation of the overflow content on the Y-axis in the hidden state.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings.OverflowContentHiddenYTranslation](/windows/winui/api/microsoft.ui.xaml.controls.primitives.commandbartemplatesettings.overflowcontenthiddenytranslation).
+
 ## -property-value
 
 The translation of the overflow content on the Y-axis in the hidden state.

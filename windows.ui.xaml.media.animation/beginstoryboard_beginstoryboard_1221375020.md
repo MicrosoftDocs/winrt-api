@@ -12,6 +12,8 @@ public BeginStoryboard()
 ## -description
 Initializes a new instance of the [BeginStoryboard](beginstoryboard.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.BeginStoryboard.BeginStoryboard](/windows/winui/api/microsoft.ui.xaml.media.animation.beginstoryboard.#ctor).
+
 ## -remarks
 
 ## -examples

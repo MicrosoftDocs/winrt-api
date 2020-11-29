@@ -13,6 +13,8 @@ public enum Windows.UI.Text.TextScript : int
 
 Specifies the character repertoire for a run of character formatting.
 
+Equivalent WinUI enum: [TextScript](/windows/winui/api/microsoft.ui.text.textscript).
+
 ## -enum-fields
 
 ### -field Undefined:0

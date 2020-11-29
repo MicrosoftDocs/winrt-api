@@ -12,6 +12,8 @@ public AppBar()
 ## -description
 Initializes a new instance of the [AppBar](appbar.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.AppBar.AppBar](/windows/winui/api/microsoft.ui.xaml.controls.appbar.#ctor).
+
 ## -remarks
 
 ## -examples

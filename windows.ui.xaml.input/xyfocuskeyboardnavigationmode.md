@@ -16,6 +16,8 @@ public enum XYFocusKeyboardNavigationMode : int {
 ## -description
 Specifies the 2D directional navigation behavior when using the keyboard arrow keys.
 
+Equivalent WinUI enum: [Microsoft.UI.Xaml.Input.XYFocusKeyboardNavigationMode](/windows/winui/api/microsoft.ui.xaml.input.xyfocuskeyboardnavigationmode).
+
 ## -enum-fields
 
 ### -field Auto:0

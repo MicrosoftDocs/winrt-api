@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsCheckedProperty { get; }
 ## -description
 Identifies the [IsChecked](togglebutton_ischecked.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ToggleButton.IsCheckedProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.togglebutton.ischeckedproperty).
+
 ## -property-value
 The identifier for the [IsChecked](togglebutton_ischecked.md) dependency property.
 

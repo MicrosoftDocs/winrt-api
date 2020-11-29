@@ -12,6 +12,8 @@ public ToggleMenuFlyoutItem()
 ## -description
 Initializes a new instance of the [ToggleMenuFlyoutItem](togglemenuflyoutitem.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem.ToggleMenuFlyoutItem](/windows/winui/api/microsoft.ui.xaml.controls.togglemenuflyoutitem.#ctor).
+
 ## -remarks
 
 ## -examples

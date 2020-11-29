@@ -12,6 +12,8 @@ public bool IsDirectionReversed { get;  set; }
 ## -description
 Gets or sets a value that indicates the direction of increasing value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Slider.IsDirectionReversed](/windows/winui/api/microsoft.ui.xaml.controls.slider.isdirectionreversed).
+
 ## -xaml-syntax
 ```xaml
 <Slider IsDirectionReversed="bool"/>

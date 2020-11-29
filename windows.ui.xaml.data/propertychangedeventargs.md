@@ -17,6 +17,8 @@ Provides data for the [PropertyChanged](inotifypropertychanged_propertychanged.m
 > **.NET**
 > This class appears as [System.ComponentModel.PropertyChangedEventArgs](/dotnet/api/system.componentmodel.propertychangedeventargs?redirectedfrom=MSDN).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Data.PropertyChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.data.propertychangedeventargs).
+
 ## -remarks
 When programming with .NET, this class is hidden and developers should use the [System.ComponentModel.PropertyChangedEventArgs](/dotnet/api/system.componentmodel.propertychangedeventargs?redirectedfrom=MSDN) class.
 

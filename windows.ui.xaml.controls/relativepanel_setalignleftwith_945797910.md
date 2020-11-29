@@ -12,6 +12,8 @@ public void SetAlignLeftWith(Windows.UI.Xaml.UIElement element, System.Object va
 ## -description
 Sets the value of the [RelativePanel.AlignLeftWith](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property for a target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.SetAlignLeftWith](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setalignleftwith).
+
 ## -parameters
 ### -param element
 The object to which the property value is written.

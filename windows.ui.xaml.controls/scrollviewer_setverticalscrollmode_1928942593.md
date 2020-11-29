@@ -12,6 +12,8 @@ public void SetVerticalScrollMode(Windows.UI.Xaml.DependencyObject element, Wind
 ## -description
 Sets the value of the [VerticalScrollMode](scrollviewer_verticalscrollmode.md) dependency property / `ScrollViewer.VerticalScrollMode` XAML attached property on a specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.SetVerticalScrollMode](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.setverticalscrollmode).
+
 ## -parameters
 ### -param element
 The element on which to set the property value.

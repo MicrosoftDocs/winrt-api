@@ -12,6 +12,8 @@ public bool GetIsStaggerElement(Windows.UI.Xaml.UIElement element)
 ## -description
 Returns a Boolean value indicating if the specified **UIElement** is the stagger element for the navigation transition.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.CommonNavigationTransitionInfo.GetIsStaggerElement](/windows/winui/api/microsoft.ui.xaml.media.animation.commonnavigationtransitioninfo.getisstaggerelement).
+
 ## -parameters
 ### -param element
 The **UIElement** to check as being the stagger element.

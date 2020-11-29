@@ -14,6 +14,8 @@ public ThemeShadow.ThemeShadow()
 
 Initializes a new instance of the [ThemeShadow](themeshadow.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.ThemeShadow.ThemeShadow](/windows/winui/api/microsoft.ui.xaml.media.themeshadow.#ctor).
+
 ## -remarks
 
 ## -see-also

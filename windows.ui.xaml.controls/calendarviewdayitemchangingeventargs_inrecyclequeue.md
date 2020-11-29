@@ -12,6 +12,8 @@ public bool InRecycleQueue { get; }
 ## -description
 Gets a value that indicates whether this container is in the recycle queue of the [CalendarView](calendarview.md) and is not being used to visualize a calendar item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarViewDayItemChangingEventArgs.InRecycleQueue](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitemchangingeventargs.inrecyclequeue).
+
 ## -property-value
 **true** if the container is in the recycle queue of the [CalendarView](calendarview.md); otherwise, **false**.
 

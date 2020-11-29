@@ -13,6 +13,8 @@ public void SwipeItems.ReplaceAll(SwipeItem[] items)
 
 Initially clears the collection, then inserts the provided array as new items.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.SwipeItems.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.controls.swipeitems.replaceall).
+
 ## -parameters
 
 ### -param items

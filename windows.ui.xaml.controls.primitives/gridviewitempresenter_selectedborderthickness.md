@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness SelectedBorderThickness { get;  set; }
 ## -description
 Gets or sets the thickness of the border around an item that's selected.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.SelectedBorderThickness](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.selectedborderthickness).
+
 ## -xaml-syntax
 ```xaml
 <gridViewItemPresenter SelectedBorderThickness="uniform"/>

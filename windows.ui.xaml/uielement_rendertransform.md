@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Transform RenderTransform { get;  set; }
 ## -description
 Gets or sets transform information that affects the rendering position of a [UIElement](uielement.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.RenderTransform](/windows/winui/api/microsoft.ui.xaml.uielement.rendertransform).
+
 ## -xaml-syntax
 ```xaml
 <uiElement>

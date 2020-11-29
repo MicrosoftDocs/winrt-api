@@ -12,6 +12,8 @@ public GridViewItem()
 ## -description
 Initializes a new instance of the [GridViewItem](gridviewitem.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.GridViewItem.GridViewItem](/windows/winui/api/microsoft.ui.xaml.controls.gridviewitem.#ctor).
+
 ## -remarks
 
 ## -examples

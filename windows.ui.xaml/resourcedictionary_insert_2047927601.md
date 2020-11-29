@@ -12,6 +12,8 @@ public bool Insert(System.Object key, System.Object value)
 ## -description
 Adds a new entry to the [ResourceDictionary](resourcedictionary.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.ResourceDictionary.Insert](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.insert).
+
 ## -parameters
 ### -param key
 The object key for the resource to insert.

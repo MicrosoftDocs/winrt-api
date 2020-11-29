@@ -12,6 +12,8 @@ public bool CanHorizontallyScroll { get;  set; }
 ## -description
 Gets or sets a value that indicates whether scrolling on the horizontal axis is possible.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.CanHorizontallyScroll](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.canhorizontallyscroll).
+
 ## -property-value
 **true** if scrolling is possible; otherwise, **false**.
 

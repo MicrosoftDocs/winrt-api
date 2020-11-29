@@ -14,6 +14,8 @@ public class InteractionSourceConfiguration : CompositionObject, CompositionObje
 
 Represents the configuration of a VisualInteractionSource input.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionSourceConfiguration](/windows/winui/api/microsoft.ui.composition.interactions.interactionsourceconfiguration).
+
 ## -remarks
 
 By default, [VisualInteractionSource](visualinteractionsource.md) uses the same configuration for all types of input. InteractionSourceConfiguration lets you override the default configuration for a specific type of input.

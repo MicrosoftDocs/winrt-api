@@ -12,6 +12,8 @@ public DragItemsStartingEventArgs()
 ## -description
 Initializes a new instance of the [DragItemsStartingEventArgs](dragitemsstartingeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.DragItemsStartingEventArgs.DragItemsStartingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.dragitemsstartingeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

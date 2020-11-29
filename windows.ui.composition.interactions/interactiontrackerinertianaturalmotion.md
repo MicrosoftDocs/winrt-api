@@ -13,6 +13,8 @@ public class InteractionTrackerInertiaNaturalMotion : InteractionTrackerInertiaM
 
 A [ScalarNaturalMotionAnimation](../windows.ui.composition/scalarnaturalmotionanimation.md) that defines motion of InteractionTracker during its inertia state.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaNaturalMotion](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertianaturalmotion).
+
 ## -remarks
 
 ## -see-also

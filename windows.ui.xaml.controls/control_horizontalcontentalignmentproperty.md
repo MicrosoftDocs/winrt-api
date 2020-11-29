@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HorizontalContentAlignmentProperty { g
 ## -description
 Identifies the [HorizontalContentAlignment](control_horizontalcontentalignment.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.HorizontalContentAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.control.horizontalcontentalignmentproperty).
+
 ## -property-value
 The identifier for the [HorizontalContentAlignment](control_horizontalcontentalignment.md) dependency property.
 

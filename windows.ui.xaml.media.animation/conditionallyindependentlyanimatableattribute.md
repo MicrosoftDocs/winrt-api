@@ -12,6 +12,8 @@ public class ConditionallyIndependentlyAnimatableAttribute : System.Attribute
 ## -description
 Not intended for general use. See also [IndependentlyAnimatableAttribute](independentlyanimatableattribute.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ConditionallyIndependentlyAnimatableAttribute](/windows/winui/api/microsoft.ui.xaml.media.animation.conditionallyindependentlyanimatableattribute).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public AutomationProperty HeadingLevelProperty { get; }
 ## -description
 Identifies the heading level automation property. The heading level property value is returned by the [GetHeadingLevel](automationproperties_getheadinglevel_655629781.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.HeadingLevelProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.headinglevelproperty).
+
 ## -property-value
 The automation property identifier.
 

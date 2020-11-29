@@ -12,6 +12,8 @@ public int Bounces { get;  set; }
 ## -description
 Gets or sets the number of bounces.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.BounceEase.Bounces](/windows/winui/api/microsoft.ui.xaml.media.animation.bounceease.bounces).
+
 ## -xaml-syntax
 ```xaml
 <BounceEase Bounces="int" .../>

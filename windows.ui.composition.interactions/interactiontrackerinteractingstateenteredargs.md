@@ -12,6 +12,8 @@ public class InteractionTrackerInteractingStateEnteredArgs : Windows.UI.Composit
 ## -description
 Arguments for the [IInteractionTrackerOwner.InteractingStateEntered](iinteractiontrackerowner_interactingstateentered_562654012.md) callback.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionTrackerInteractingStateEnteredArgs](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinteractingstateenteredargs).
+
 ## -remarks
 
 ### Version history

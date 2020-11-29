@@ -12,6 +12,8 @@ public Windows.Graphics.Effects.IGraphicsEffectSource NormalMapSource { get;  se
 ## -description
 The normal map for the effect.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Effects.SceneLightingEffect.NormalMapSource](/windows/winui/api/microsoft.ui.composition.effects.scenelightingeffect.normalmapsource).
+
 ## -property-value
 The normal map for the effect.
 

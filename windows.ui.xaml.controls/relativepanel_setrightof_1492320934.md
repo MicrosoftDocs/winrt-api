@@ -12,6 +12,8 @@ public void SetRightOf(Windows.UI.Xaml.UIElement element, System.Object value)
 ## -description
 Sets the value of the [RelativePanel.RightOf](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property for a target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.SetRightOf](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setrightof).
+
 ## -parameters
 ### -param element
 The object to which the property value is written.

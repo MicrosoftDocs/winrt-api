@@ -12,6 +12,8 @@ public string GetTitle(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets the title displayed on the picker control.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.PickerFlyoutBase.GetTitle](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pickerflyoutbase.gettitle).
+
 ## -parameters
 ### -param element
 The dependency object for which to get the title.

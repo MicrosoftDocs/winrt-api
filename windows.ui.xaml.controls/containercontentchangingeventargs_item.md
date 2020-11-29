@@ -12,6 +12,8 @@ public object Item { get; }
 ## -description
 Gets the data item associated with this container.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContainerContentChangingEventArgs.Item](/windows/winui/api/microsoft.ui.xaml.controls.containercontentchangingeventargs.item).
+
 ## -property-value
 The data item associated with this container, or **null** if no data is associated with this container.
 

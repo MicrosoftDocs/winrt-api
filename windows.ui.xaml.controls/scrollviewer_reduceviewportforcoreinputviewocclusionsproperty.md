@@ -14,6 +14,8 @@ public DependencyProperty ReduceViewportForCoreInputViewOcclusionsProperty { get
 
 Identifies the [ReduceViewportForCoreInputViewOcclusions](scrollviewer_reduceviewportforcoreinputviewocclusions.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ReduceViewportForCoreInputViewOcclusionsProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.reduceviewportforcoreinputviewocclusionsproperty).
+
 ## -property-value
 
 The identifier for the [ReduceViewportForCoreInputViewOcclusions](scrollviewer_reduceviewportforcoreinputviewocclusions.md) dependency property.

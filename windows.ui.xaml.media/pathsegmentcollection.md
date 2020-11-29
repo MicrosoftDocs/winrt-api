@@ -12,6 +12,8 @@ public class PathSegmentCollection : Windows.Foundation.Collections.IIterable<Wi
 ## -description
 Represents a collection of [PathSegment](pathsegment.md) objects that can be individually accessed by index.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.PathSegmentCollection](/windows/winui/api/microsoft.ui.xaml.media.pathsegmentcollection).
+
 ## -xaml-syntax
 ```xaml
 <object>

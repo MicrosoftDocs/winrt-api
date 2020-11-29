@@ -14,6 +14,8 @@ public SceneMetallicRoughnessMaterial SceneMetallicRoughnessMaterial.Create(Comp
 
 Creates an instance of SceneMetallicRoughnessMaterial.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneMetallicRoughnessMaterial.Create](/windows/winui/api/microsoft.ui.composition.scenes.scenemetallicroughnessmaterial.create).
+
 ## -parameters
 ### -param compositor
 

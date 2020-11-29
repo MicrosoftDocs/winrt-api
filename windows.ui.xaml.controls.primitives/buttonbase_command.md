@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Input.ICommand Command { get;  set; }
 ## -description
 Gets or sets the command to invoke when this button is pressed.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.Command](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase.command).
+
 ## -xaml-syntax
 ```xaml
 <button Command="commandReference"/>

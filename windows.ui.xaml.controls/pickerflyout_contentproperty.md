@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ContentProperty { get; }
 ## -description
 Gets the identifier for the [Content](pickerflyout_content.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PickerFlyout.ContentProperty](/windows/winui/api/microsoft.ui.xaml.controls.pickerflyout.contentproperty).
+
 ## -property-value
 The identifier for the [Content](pickerflyout_content.md) dependency property.
 

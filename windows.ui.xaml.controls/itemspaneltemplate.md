@@ -12,6 +12,8 @@ public class ItemsPanelTemplate : Windows.UI.Xaml.FrameworkTemplate, Windows.UI.
 ## -description
 Specifies the panel that the [ItemsPresenter](itemspresenter.md) creates for the layout of the items of an [ItemsControl](itemscontrol.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ItemsPanelTemplate](/windows/winui/api/microsoft.ui.xaml.controls.itemspaneltemplate).
+
 ## -xaml-syntax
 ```xaml
 <ItemsPanelTemplate ...>

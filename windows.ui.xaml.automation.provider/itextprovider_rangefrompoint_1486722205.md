@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.Provider.ITextRangeProvider RangeFromPoint(Win
 ## -description
 Retrieves a text range from the vicinity of a screen coordinate.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITextProvider.RangeFromPoint](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextprovider.rangefrompoint).
+
 ## -parameters
 ### -param screenLocation
 The coordinate screen location.

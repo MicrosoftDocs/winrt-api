@@ -12,6 +12,8 @@ public bool TryTransform(Windows.Foundation.Point inPoint, Windows.Foundation.Po
 ## -description
 Attempts to transform the specified point and returns a value that indicates whether the transformation was successful.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GeneralTransform.TryTransform](/windows/winui/api/microsoft.ui.xaml.media.generaltransform.trytransform).
+
 ## -parameters
 ### -param inPoint
 The point to transform.

@@ -12,6 +12,8 @@ public double X { get;  set; }
 ## -description
 Gets or sets the distance to translate along the x-axis.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.TranslateTransform.X](/windows/winui/api/microsoft.ui.xaml.media.translatetransform.x).
+
 ## -xaml-syntax
 ```xaml
 <TranslateTransform X="double"/>

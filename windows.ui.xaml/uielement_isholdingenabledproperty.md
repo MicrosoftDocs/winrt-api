@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsHoldingEnabledProperty { get; }
 ## -description
 Identifies the [IsHoldingEnabled](uielement_isholdingenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.IsHoldingEnabledProperty](/windows/winui/api/microsoft.ui.xaml.uielement.isholdingenabledproperty).
+
 ## -property-value
 The identifier for the [IsHoldingEnabled](uielement_isholdingenabled.md) dependency property.
 

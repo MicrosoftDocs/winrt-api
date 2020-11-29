@@ -12,6 +12,8 @@ public Windows.UI.Composition.InsetClip CreateInsetClip()
 ## -description
 Creates an instance of [InsetClip](insetclip.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateInsetClip](/windows/winui/api/microsoft.ui.composition.compositor.createinsetclip).
+
 ## -returns
 Returns the created [InsetClip](insetclip.md) object.
 

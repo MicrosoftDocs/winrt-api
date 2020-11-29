@@ -12,6 +12,8 @@ public uint Length { get; }
 ## -description
 Gets the number of items in the instance of the [ItemIndexRange](itemindexrange.md) class.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.ItemIndexRange.Length](/windows/winui/api/microsoft.ui.xaml.data.itemindexrange.length).
+
 ## -property-value
 The number of items in the instance of the [ItemIndexRange](itemindexrange.md) class.
 

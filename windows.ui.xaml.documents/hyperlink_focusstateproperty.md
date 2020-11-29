@@ -12,6 +12,8 @@ public DependencyProperty FocusStateProperty { get; }
 ## -description
 Identifies the [FocusState](hyperlink_focusstate.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.FocusStateProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.focusstateproperty).
+
 ## -property-value
 The identifier for the [FocusState](hyperlink_focusstate.md) dependency property.
 

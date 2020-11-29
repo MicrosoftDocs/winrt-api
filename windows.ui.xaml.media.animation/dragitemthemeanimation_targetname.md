@@ -12,6 +12,8 @@ public string TargetName { get;  set; }
 ## -description
 Gets or sets the reference name of the control element being targeted.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DragItemThemeAnimation.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.dragitemthemeanimation.targetname).
+
 ## -xaml-syntax
 ```xaml
 <DragItemThemeAnimation TargetName="nameString" />

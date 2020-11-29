@@ -12,6 +12,8 @@ public object Convert(System.Object value, Windows.UI.Xaml.Interop.TypeName targ
 ## -description
 Returns the enabled brush if the item is not empty, otherwise returns the disabled brush.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.JumpListItemForegroundConverter.Convert](/windows/winui/api/microsoft.ui.xaml.controls.primitives.jumplistitemforegroundconverter.convert).
+
 ## -parameters
 ### -param value
 The source data being passed to the target.

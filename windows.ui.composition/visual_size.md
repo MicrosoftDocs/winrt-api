@@ -12,6 +12,8 @@ public Windows.Foundation.Numerics.Vector2 Size { get;  set; }
 ## -description
 The width and height of the visual. Animatable.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Visual.Size](/windows/winui/api/microsoft.ui.composition.visual.size).
+
 ## -property-value
 The width and height of the visual.
 

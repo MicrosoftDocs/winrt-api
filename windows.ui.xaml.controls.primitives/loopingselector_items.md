@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<object> Items { get;  set; }
 ## -description
 Gets a list of the [LoopingSelectorItem](loopingselectoritem.md) objects.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.Items](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.items).
+
 ## -property-value
 The list of [LoopingSelectorItem](loopingselectoritem.md) objects.
 

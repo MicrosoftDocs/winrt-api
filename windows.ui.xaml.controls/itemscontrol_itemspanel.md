@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ItemsPanelTemplate ItemsPanel { get;  set; }
 ## -description
 Gets or sets the template that defines the panel that controls the layout of items.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsPanel](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemspanel).
+
 ## -xaml-syntax
 ```xaml
 <itemsControl>

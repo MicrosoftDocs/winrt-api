@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Primitives.ListViewItemTemplateSettings Template
 ## -description
 Gets an object that provides calculated values that can be referenced as **TemplateBinding** sources when you're defining templates for a [ListViewItem](listviewitem.md) class.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewItem.TemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.listviewitem.templatesettings).
+
 ## -property-value
 An object that provides calculated values for templates.
 

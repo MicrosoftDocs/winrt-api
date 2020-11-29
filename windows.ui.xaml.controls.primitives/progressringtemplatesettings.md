@@ -12,6 +12,8 @@ public class ProgressRingTemplateSettings : Windows.UI.Xaml.DependencyObject, Wi
 ## -description
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for a [ProgressRing](../windows.ui.xaml.controls/progressring.md) control. Not intended for general use.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.ProgressRingTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.progressringtemplatesettings).
+
 ## -remarks
 Get instances of ProgressRingTemplateSettings by querying the value of [TemplateSettings](../windows.ui.xaml.controls/progressring_templatesettings.md).
 

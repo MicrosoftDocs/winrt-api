@@ -12,6 +12,8 @@ public string PressedKeys { get; }
 ## -description
 Gets the keys that were pressed to start the access key sequence.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.AccessKeyDisplayRequestedEventArgs.PressedKeys](/windows/winui/api/microsoft.ui.xaml.input.accesskeydisplayrequestedeventargs.pressedkeys).
+
 ## -property-value
 The keys that were pressed to start the access key sequence.
 

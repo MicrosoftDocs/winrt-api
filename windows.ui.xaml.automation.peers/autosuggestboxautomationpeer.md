@@ -12,6 +12,8 @@ public class AutoSuggestBoxAutomationPeer : Windows.UI.Xaml.Automation.Peers.Fra
 ## -description
 Exposes [AutoSuggestBox](../windows.ui.xaml.controls/autosuggestbox.md) types to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.AutoSuggestBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.autosuggestboxautomationpeer).
+
 ## -remarks
 
 ## -examples

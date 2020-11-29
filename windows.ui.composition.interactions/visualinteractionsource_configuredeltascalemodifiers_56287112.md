@@ -12,6 +12,8 @@ public void VisualInteractionSource.ConfigureDeltaScaleModifiers(IIterable<Compo
 ## -description
 Takes an ordered list of CompositionConditionalValue. In a frame, the first CompositionConditionalValue to have its “.Condition” evaluate to true replaces the DeltaScale value the VisualInteractionSource provides with its “.Value”. If none evaluate to true, the DeltaScale is not replaced that frame.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.ConfigureDeltaScaleModifiers](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.configuredeltascalemodifiers).
+
 ## -parameters
 
 ### -param conditionalValues

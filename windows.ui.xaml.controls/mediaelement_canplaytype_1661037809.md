@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.MediaCanPlayResponse CanPlayType(System.String type
 ## -description
 Returns an enumeration value that describes the likelihood that the current [MediaElement](mediaelement.md) and its client configuration can play that media source.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaElement.CanPlayType](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.canplaytype).
+
 ## -parameters
 ### -param type
 A string that describes the desired type as a MIME string.

@@ -12,6 +12,8 @@ public class ContentDialog : Windows.UI.Xaml.Controls.ContentControl, Windows.UI
 ## -description
 Represents a dialog box that can be customized to contain checkboxes, hyperlinks, buttons and any other XAML content.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ContentDialog](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog .../>

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ConfirmationButtonsVisibleProperty { g
 ## -description
 Identifies the [ConfirmationButtonsVisible](pickerflyout_confirmationbuttonsvisible.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PickerFlyout.ConfirmationButtonsVisibleProperty](/windows/winui/api/microsoft.ui.xaml.controls.pickerflyout.confirmationbuttonsvisibleproperty).
+
 ## -property-value
 The identifier of the ConfirmationButtonsVisible dependency property.
 

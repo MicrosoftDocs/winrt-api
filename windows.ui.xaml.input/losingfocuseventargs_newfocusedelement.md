@@ -12,6 +12,8 @@ public DependencyObject NewFocusedElement { get;  set; }
 ## -description
 Gets the most recent focused object.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.LosingFocusEventArgs.NewFocusedElement](/windows/winui/api/microsoft.ui.xaml.input.losingfocuseventargs.newfocusedelement).
+
 ## -property-value
 The most recent focused object.
 

@@ -13,6 +13,8 @@ public enum CompositionStrokeLineJoin : int
 
 Defines constants that specify the shape used to join two lines or segments.
 
+Equivalent WinUI enum: [Microsoft.UI.Composition.CompositionStrokeLineJoin](/windows/winui/api/microsoft.ui.composition.compositionstrokelinejoin).
+
 ## -enum-fields
 ### -field Round:2
 

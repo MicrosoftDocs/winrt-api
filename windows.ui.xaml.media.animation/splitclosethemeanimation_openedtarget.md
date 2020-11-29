@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject OpenedTarget { get;  set; }
 ## -description
 Gets or sets the UI element that will be clipped.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitCloseThemeAnimation.OpenedTarget](/windows/winui/api/microsoft.ui.xaml.media.animation.splitclosethemeanimation.openedtarget).
+
 ## -property-value
 The UI element that will be clipped.
 

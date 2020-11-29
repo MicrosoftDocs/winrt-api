@@ -12,6 +12,8 @@ public Windows.UI.Xaml.TextWrapping TextWrapping { get;  set; }
 ## -description
 Gets or sets a value that indicates whether text wrapping occurs if a line of text extends beyond the available width of the [RichTextBlock](richtextblock.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextWrapping](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.textwrapping).
+
 ## -xaml-syntax
 ```xaml
 <RichTextBlock TextWrapping="Wrap"/>

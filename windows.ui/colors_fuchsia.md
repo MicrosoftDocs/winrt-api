@@ -13,6 +13,8 @@ public Windows.UI.Color Fuchsia { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFF00FF.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Fuchsia](/windows/winui/api/microsoft.ui.colors.fuchsia).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFFF00FF.

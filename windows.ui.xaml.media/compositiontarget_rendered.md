@@ -12,6 +12,8 @@ static public event EventHandler Rendered<RenderedEventArgs>
 ## -description
 Occurs immediately after the core rendering process renders a frame. This event lets you determine how long each frame takes to render.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Media.CompositionTarget.Rendered](/windows/winui/api/microsoft.ui.xaml.media.compositiontarget.rendered).
+
 ## -remarks
 
 > [!TIP]

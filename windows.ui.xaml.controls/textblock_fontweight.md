@@ -12,6 +12,8 @@ public Windows.UI.Text.FontWeight FontWeight { get;  set; }
 ## -description
 Gets or sets the top-level font weight for the [TextBlock](textblock.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.FontWeight](/windows/winui/api/microsoft.ui.xaml.controls.textblock.fontweight).
+
 ## -xaml-syntax
 ```xaml
 <TextBlock FontWeight="fontWeightsMemberName"/>

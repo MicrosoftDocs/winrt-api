@@ -13,6 +13,8 @@ public Windows.UI.Color DarkRed { get; }
 
 Gets the system-defined color that has an ARGB value of #FF8B0000.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.DarkRed](/windows/winui/api/microsoft.ui.colors.darkred).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF8B0000.

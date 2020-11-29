@@ -12,6 +12,8 @@ public PolyLineSegment()
 ## -description
 Initializes a new instance of the [PolyLineSegment](polylinesegment.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.PolyLineSegment.PolyLineSegment](/windows/winui/api/microsoft.ui.xaml.media.polylinesegment.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public void SetBinding(Windows.UI.Xaml.DependencyObject target, Windows.UI.Xaml.
 ## -description
 Associates a [Binding](binding.md) with a target property on a target object. This method is the code equivalent to using a [{Binding} markup extension](/windows/uwp/xaml-platform/binding-markup-extension) in XAML markup.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Data.BindingOperations.SetBinding](/windows/winui/api/microsoft.ui.xaml.data.bindingoperations.setbinding).
+
 ## -parameters
 ### -param target
 The object that should be the target of the evaluated binding.

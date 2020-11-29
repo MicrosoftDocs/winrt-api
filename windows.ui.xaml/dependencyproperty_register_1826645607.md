@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty Register(System.String name, Windows.U
 ## -description
 Registers a dependency property with the specified property name, property type, owner type, and property metadata for the property. Use this method when defining or initializing a [DependencyObject](dependencyobject.md) derived class that will own the registered dependency property.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyProperty.Register](/windows/winui/api/microsoft.ui.xaml.dependencyproperty.register).
+
 ## -parameters
 ### -param name
 The name of the dependency property to register.

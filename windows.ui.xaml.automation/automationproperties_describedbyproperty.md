@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DescribedByProperty { get; }
 ## -description
 Gets the identifier for the described by attached property, which is an array of elements that provide more information about the automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.DescribedByProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.describedbyproperty).
+
 ## -property-value
 The identifier for the described by attached property.
 

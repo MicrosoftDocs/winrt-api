@@ -12,6 +12,8 @@ virtual protected void OnWindowCreated(Windows.UI.Xaml.WindowCreatedEventArgs ar
 ## -description
 Invoked when the application creates a window.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Application.OnWindowCreated](/windows/winui/api/microsoft.ui.xaml.application.onwindowcreated).
+
 ## -parameters
 ### -param args
 Event data for the event.

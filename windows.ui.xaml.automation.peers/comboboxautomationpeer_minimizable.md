@@ -12,6 +12,8 @@ public bool Minimizable { get; }
 ## -description
 Gets a Boolean value indicating if the [ComboBox](../windows.ui.xaml.controls/combobox.md) control can be minimized.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Minimizable](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxautomationpeer.minimizable).
+
 ## -property-value
 A Boolean value indicating if the [ComboBox](../windows.ui.xaml.controls/combobox.md) control can be minimized.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FlyoutPresenterStyleProperty { get; }
 ## -description
 Gets the identifier for the [FlyoutPresenterStyle](flyout_flyoutpresenterstyle.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Flyout.FlyoutPresenterStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.flyout.flyoutpresenterstyleproperty).
+
 ## -property-value
 The identifier for the [FlyoutPresenterStyle](flyout_flyoutpresenterstyle.md) dependency property.
 

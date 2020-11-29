@@ -13,6 +13,8 @@ public ITextRange RichEditTextRange.GetClone()
 
 Creates a new object that is identical to this text range object.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.GetClone](/windows/winui/api/microsoft.ui.text.richedittextrange.getclone).
+
 ## -returns
 
 The duplicate text range object.

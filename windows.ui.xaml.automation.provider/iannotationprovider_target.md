@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple Target { ge
 ## -description
 Gets the UI Automation element that is being annotated.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IAnnotationProvider.Target](/windows/winui/api/microsoft.ui.xaml.automation.provider.iannotationprovider.target).
+
 ## -property-value
 The UI Automation element that is being annotated.
 

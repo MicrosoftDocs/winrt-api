@@ -12,6 +12,8 @@ public void RemoveAt(System.UInt32 index)
 ## -description
 Removes the item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrameCollection.RemoveAt](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframecollection.removeat).
+
 ## -parameters
 ### -param index
 The index position of the item to remove.

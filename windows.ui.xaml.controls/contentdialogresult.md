@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.ContentDialogResult : int
 ## -description
 Specifies identifiers to indicate the return value of a [ContentDialog](contentdialog.md)
 
+Equivalent WinUI enum: [ContentDialogResult](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogresult).
+
 ## -enum-fields
 ### -field None:0
 No button was tapped.

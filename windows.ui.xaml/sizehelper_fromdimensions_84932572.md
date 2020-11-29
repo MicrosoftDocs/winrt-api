@@ -13,6 +13,8 @@ public Windows.Foundation.Size FromDimensions(System.Single width, System.Single
 
 Creates a new [Size](../windows.foundation/size.md) based on width and height element values. C# and Microsoft Visual Basic code should use the [Size(Double,Double)](/dotnet/api/windows.foundation.size.-ctor) constructor instead.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.SizeHelper.FromDimensions](/windows/winui/api/microsoft.ui.xaml.sizehelper.fromdimensions).
+
 ## -parameters
 
 ### -param width

@@ -13,6 +13,8 @@ public DependencyObject KeyboardAcceleratorPlacementTarget { get;  set; }
 
 Gets or sets a value that indicates the control tooltip that displays the accelerator key combination.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.KeyboardAcceleratorPlacementTarget](/windows/winui/api/microsoft.ui.xaml.uielement.keyboardacceleratorplacementtarget).
+
 ## -property-value
 
 The control tooltip that displays the accelerator key combination.

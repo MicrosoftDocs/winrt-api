@@ -12,6 +12,8 @@ public string PasswordChar { get;  set; }
 ## -description
 Gets or sets the masking character for the [PasswordBox](passwordbox.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.PasswordChar](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.passwordchar).
+
 ## -xaml-syntax
 ```xaml
 <PasswordBox PasswordChar="char"/>

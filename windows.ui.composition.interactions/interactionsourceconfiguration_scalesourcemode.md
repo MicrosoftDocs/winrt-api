@@ -14,6 +14,8 @@ public InteractionSourceRedirectionMode ScaleSourceMode { get;  set; }
 
 Gets or sets a value that indicates how interactions are processed for this [VisualInteractionSource](visualinteractionsource.md) input on the scale axis.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionSourceConfiguration.ScaleSourceMode](/windows/winui/api/microsoft.ui.composition.interactions.interactionsourceconfiguration.scalesourcemode).
+
 ## -property-value
 
 The source mode for the scale axis. By default, it takes the value of [VisualInteractionTracker.ScaleSourceMode](visualinteractionsource_scalesourcemode.md).

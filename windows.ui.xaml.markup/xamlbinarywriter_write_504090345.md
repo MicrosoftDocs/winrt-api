@@ -15,6 +15,8 @@ Produces a binary representation of XAML. Input streams are produced in text rep
 > [!IMPORTANT]
 > [XamlBinaryWriter](xamlbinarywriter.md) is not intended for use by typical app code. It is intended for use by tools and processes that are directly involved in producing an app package on a developer's machine.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBinaryWriter.Write](/windows/winui/api/microsoft.ui.xaml.markup.xamlbinarywriter.write).
+
 ## -parameters
 ### -param inputStreams
 The set of input streams. These are expected to access the text representation of the XAML to write into XBF format.

@@ -12,6 +12,8 @@ public ScrollBarAutomationPeer(Windows.UI.Xaml.Controls.Primitives.ScrollBar own
 ## -description
 Initializes a new instance of the [ScrollBarAutomationPeer](scrollbarautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.ScrollBarAutomationPeer.ScrollBarAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.scrollbarautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The owner element to create for.

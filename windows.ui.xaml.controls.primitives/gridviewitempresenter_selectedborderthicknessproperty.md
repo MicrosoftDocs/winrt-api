@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SelectedBorderThicknessProperty { get;
 ## -description
 Identifies the [SelectedBorderThickness](gridviewitempresenter_selectedborderthickness.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.SelectedBorderThicknessProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.selectedborderthicknessproperty).
+
 ## -property-value
 The identifier for the [SelectedBorderThickness](gridviewitempresenter_selectedborderthickness.md) dependency property.
 

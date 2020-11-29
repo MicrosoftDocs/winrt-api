@@ -12,6 +12,8 @@ public class CompositionGraphicsDevice : Windows.UI.Composition.CompositionObjec
 ## -description
 Used to create all hardware bound resources for a given DirectX device on a compositor session. CompositionGraphicsDevice contains a DirectX device that is used to perform the GPU operations. Developers can obtain a Graphics device from the compositor top level object.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionGraphicsDevice](/windows/winui/api/microsoft.ui.composition.compositiongraphicsdevice).
+
 ## -remarks
 
 ### Version history

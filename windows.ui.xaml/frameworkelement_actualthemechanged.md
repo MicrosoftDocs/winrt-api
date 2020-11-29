@@ -13,6 +13,8 @@ public event TypedEventHandler ActualThemeChanged<FrameworkElement,  object>
 
 Occurs when the ActualTheme property value has changed.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.FrameworkElement.ActualThemeChanged](/windows/winui/api/microsoft.ui.xaml.frameworkelement.actualthemechanged).
+
 ## -xaml-syntax
 
 ```xaml

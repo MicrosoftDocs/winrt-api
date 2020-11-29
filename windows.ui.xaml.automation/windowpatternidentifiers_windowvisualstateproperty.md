@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty WindowVisualStateProperty {
 ## -description
 Identifies the [VisualState](../windows.ui.xaml.automation.provider/iwindowprovider_visualstate.md) automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.WindowPatternIdentifiers.WindowVisualStateProperty](/windows/winui/api/microsoft.ui.xaml.automation.windowpatternidentifiers.windowvisualstateproperty).
+
 ## -property-value
 The automation property identifier.
 

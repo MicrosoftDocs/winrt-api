@@ -12,6 +12,8 @@ public void Arrange(Windows.Foundation.Rect finalRect)
 ## -description
 Positions child objects and determines a size for a [UIElement](uielement.md). Parent objects that implement custom layout for their child elements should call this method from their layout override implementations to form a recursive layout update.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.Arrange](/windows/winui/api/microsoft.ui.xaml.uielement.arrange).
+
 ## -parameters
 ### -param finalRect
 The final size that the parent computes for the child in layout, provided as a [Rect](../windows.foundation/rect.md) value.

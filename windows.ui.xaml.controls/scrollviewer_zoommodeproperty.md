@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ZoomModeProperty { get; }
 ## -description
 Identifies the [ZoomMode](scrollviewer_zoommode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ZoomModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.zoommodeproperty).
+
 ## -property-value
 The identifier for the [ZoomMode](scrollviewer_zoommode.md) dependency property.
 

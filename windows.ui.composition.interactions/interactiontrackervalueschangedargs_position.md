@@ -12,6 +12,8 @@ public Windows.Foundation.Numerics.Vector3 Position { get; }
 ## -description
 The current position of the [InteractionTracker](interactiontracker.md).
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTrackerValuesChangedArgs.Position](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackervalueschangedargs.position).
+
 ## -property-value
 The current position of the [InteractionTracker](interactiontracker.md).
 

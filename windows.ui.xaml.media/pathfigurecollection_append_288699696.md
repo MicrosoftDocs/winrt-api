@@ -12,6 +12,8 @@ public void Append(Windows.UI.Xaml.Media.PathFigure value)
 ## -description
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathFigureCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.pathfigurecollection.append).
+
 ## -parameters
 ### -param value
 The new item to add.

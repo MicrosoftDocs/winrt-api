@@ -12,6 +12,8 @@ protected void RemoveInternalChildRange(System.Int32 index, System.Int32 range)
 ## -description
 Removes child elements from the [Children](panel_children.md) collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VirtualizingPanel.RemoveInternalChildRange](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingpanel.removeinternalchildrange).
+
 ## -parameters
 ### -param index
 The beginning index position within the collection at which the first child element is removed.

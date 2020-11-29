@@ -12,6 +12,8 @@ public void AddToVector(System.Object instance, System.Object value)
 ## -description
 Adds an item to a custom vector type.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IXamlType.AddToVector](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.addtovector).
+
 ## -parameters
 ### -param instance
 The type instance to set the item to.

@@ -14,6 +14,8 @@ public BackgroundSizing BackgroundSizing { get;  set; }
 
 Gets or sets a value that indicates how far the background extends in relation to this element's border.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.BackgroundSizing](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.backgroundsizing).
+
 ## -property-value
 
 A value of the enumeration that indicates how far the background extends. The default is **InnerBorderEdge**.

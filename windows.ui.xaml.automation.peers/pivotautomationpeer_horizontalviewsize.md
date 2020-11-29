@@ -12,6 +12,8 @@ public double HorizontalViewSize { get; }
 ## -description
 Gets the current horizontal view size.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.PivotAutomationPeer.HorizontalViewSize](/windows/winui/api/microsoft.ui.xaml.automation.peers.pivotautomationpeer.horizontalviewsize).
+
 ## -property-value
 The horizontal size of the viewable region as a percentage of the total content area within the control.
 

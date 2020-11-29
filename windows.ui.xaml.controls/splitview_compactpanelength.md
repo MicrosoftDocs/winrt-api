@@ -12,6 +12,8 @@ public double CompactPaneLength { get;  set; }
 ## -description
 Gets or sets the width of the [SplitView](splitview.md) pane in its compact display mode.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.CompactPaneLength](/windows/winui/api/microsoft.ui.xaml.controls.splitview.compactpanelength).
+
 ## -xaml-syntax
 ```xaml
 

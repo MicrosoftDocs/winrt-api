@@ -13,6 +13,8 @@ public Windows.UI.Color PeachPuff { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFDAB9.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.PeachPuff](/windows/winui/api/microsoft.ui.colors.peachpuff).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFFFDAB9.

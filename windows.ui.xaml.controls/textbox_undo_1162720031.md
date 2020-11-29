@@ -14,6 +14,8 @@ public void TextBox.Undo()
 
 Undoes the first action in the undo buffer.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBox.Undo](/windows/winui/api/microsoft.ui.xaml.controls.textbox.undo).
+
 ## -remarks
 
 ## -see-also

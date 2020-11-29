@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FillRuleProperty { get; }
 ## -description
 Identifies the [FillRule](polyline_fillrule.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Polyline.FillRuleProperty](/windows/winui/api/microsoft.ui.xaml.shapes.polyline.fillruleproperty).
+
 ## -property-value
 The identifier for the [FillRule](polyline_fillrule.md) dependency property.
 

@@ -13,6 +13,8 @@ public TimeSpan XamlDirect.GetTimeSpanProperty(IXamlDirectObject xamlDirectObjec
 ## -description
 Gets the value of a _TimeSpan_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetTimeSpanProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.gettimespanproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

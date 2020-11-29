@@ -12,6 +12,8 @@ public void Complete()
 ## -description
 Notifies the system that the app has finished processing the button click event.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ContentDialogButtonClickDeferral.Complete](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogbuttonclickdeferral.complete).
+
 ## -remarks
 
 ## -examples

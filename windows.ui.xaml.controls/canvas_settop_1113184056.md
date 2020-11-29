@@ -12,6 +12,8 @@ public void SetTop(Windows.UI.Xaml.UIElement element, System.Double length)
 ## -description
 Sets the value of the [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property for a target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Canvas.SetTop](/windows/winui/api/microsoft.ui.xaml.controls.canvas.settop).
+
 ## -parameters
 ### -param element
 The object to which the property value is written.

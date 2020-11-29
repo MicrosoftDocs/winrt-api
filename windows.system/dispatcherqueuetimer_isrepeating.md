@@ -12,6 +12,8 @@ public bool IsRepeating { get;  set; }
 ## -description
 Indicates whether the timer is repeating.
 
+Equivalent WinUI property: [Microsoft.System.DispatcherQueueTimer.IsRepeating](/windows/winui/api/microsoft.system.dispatcherqueuetimer.isrepeating).
+
 ## -property-value
 **True** indicates that the timer fires every **DispatcherQueueTimer.Interval**; **false** means that it fires once, after **DispatcherQueueTimer.Interval** elapses.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush PlaceholderBackground { get;  set; }
 ## -description
 Gets or sets the brush used to render the placeholder background for an item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PlaceholderBackground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.placeholderbackground).
+
 ## -xaml-syntax
 ```xaml
 <ListViewItemPresenter PlaceholderBackground="themeResourceReference"/>

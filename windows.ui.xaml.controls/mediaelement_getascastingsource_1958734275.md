@@ -12,6 +12,8 @@ public Windows.Media.Casting.CastingSource GetAsCastingSource()
 ## -description
 Returns the media element as a [CastingSource](../windows.media.casting/castingsource.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaElement.GetAsCastingSource](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.getascastingsource).
+
 ## -returns
 The media element as a [CastingSource](../windows.media.casting/castingsource.md).
 

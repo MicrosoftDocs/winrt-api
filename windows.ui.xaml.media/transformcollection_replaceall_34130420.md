@@ -12,6 +12,8 @@ public void ReplaceAll(Windows.UI.Xaml.Media.Transform[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TransformCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.media.transformcollection.replaceall).
+
 ## -parameters
 ### -param items
 The new collection items.

@@ -12,6 +12,8 @@ public class EasingDoubleKeyFrame : Windows.UI.Xaml.Media.Animation.DoubleKeyFra
 ## -description
 Associates an easing function with a [DoubleAnimationUsingKeyFrames](doubleanimationusingkeyframes.md) key-frame animation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.EasingDoubleKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.easingdoublekeyframe).
+
 ## -xaml-syntax
 ```xaml
 <EasingDoubleKeyFrame .../>

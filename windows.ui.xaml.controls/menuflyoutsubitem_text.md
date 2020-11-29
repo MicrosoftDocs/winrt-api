@@ -12,6 +12,8 @@ public string Text { get;  set; }
 ## -description
 Gets or sets the text content of a [MenuFlyoutSubItem](menuflyoutsubitem.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem.Text](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutsubitem.text).
+
 ## -xaml-syntax
 ```xaml
 <MenuFlyoutSubItem Text="string"/>

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SymbolProperty { get; }
 ## -description
 Identifies the [Symbol](symbolicon_symbol.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SymbolIcon.SymbolProperty](/windows/winui/api/microsoft.ui.xaml.controls.symbolicon.symbolproperty).
+
 ## -property-value
 The identifier for the [Symbol](symbolicon_symbol.md) dependency property.
 

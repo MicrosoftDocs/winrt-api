@@ -13,6 +13,8 @@ public class NavigationThemeTransition : Windows.UI.Xaml.Media.Animation.Transit
 
 Provides page navigation animations.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.NavigationThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.navigationthemetransition).
+
 ## -xaml-syntax
 
 ```xaml

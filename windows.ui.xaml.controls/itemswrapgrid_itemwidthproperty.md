@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ItemWidthProperty { get; }
 ## -description
 Identifies the [ItemWidth](itemswrapgrid_itemwidth.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid.ItemWidthProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid.itemwidthproperty).
+
 ## -property-value
 The identifier for the [ItemWidth](itemswrapgrid_itemwidth.md) dependency property.
 

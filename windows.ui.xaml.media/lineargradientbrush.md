@@ -12,6 +12,8 @@ public class LinearGradientBrush : Windows.UI.Xaml.Media.GradientBrush, Windows.
 ## -description
 Paints an area with a linear gradient.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.LinearGradientBrush](/windows/winui/api/microsoft.ui.xaml.media.lineargradientbrush).
+
 ## -xaml-syntax
 ```xaml
 <LinearGradientBrush ...>

@@ -12,6 +12,8 @@ public void SetPropertyFromObject(System.Object dependencyObject, Windows.UI.Xam
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Object](/dotnet/api/system.object?redirectedfrom=MSDN) value.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromObject](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromobject).
+
 ## -parameters
 ### -param dependencyObject
 The object to which the property being set belongs.

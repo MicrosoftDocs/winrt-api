@@ -12,6 +12,8 @@ virtual protected void UIElement.OnProcessKeyboardAccelerators(ProcessKeyboardAc
 ## -description
 Called just before a [keyboard shortcut (or accelerator)](../windows.ui.xaml.input/keyboardaccelerator.md) is processed in your app. Invoked whenever application code or internal processes call [ProcessKeyboardAccelerators](uielement_processkeyboardaccelerators.md). Override this method to influence the default accelerator handling.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.OnProcessKeyboardAccelerators](/windows/winui/api/microsoft.ui.xaml.uielement.onprocesskeyboardaccelerators).
+
 ## -parameters
 ### -param args
 The [ProcessKeyboardAcceleratorEventArgs](../windows.ui.xaml.input/processkeyboardacceleratoreventargs.md).

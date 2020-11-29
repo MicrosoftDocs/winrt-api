@@ -13,6 +13,8 @@ public void RichEditTextRange.GetCharacterUtf32(UInt32 value, Int32 offset)
 
 Retrieves the Unicode Transformation Format (UTF)-32 character code of the character at the specified offset from the end of the text range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.GetCharacterUtf32](/windows/winui/api/microsoft.ui.text.richedittextrange.getcharacterutf32).
+
 ## -parameters
 ### -param value
 

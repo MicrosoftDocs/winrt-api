@@ -13,6 +13,8 @@ public void MediaTransportControls.Show()
 
 Shows the tranport controls if they're hidden.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaTransportControls.Show](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.show).
+
 ## -remarks
 
 ## -see-also

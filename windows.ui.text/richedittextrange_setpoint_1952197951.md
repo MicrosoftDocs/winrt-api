@@ -13,6 +13,8 @@ public void RichEditTextRange.SetPoint(Point point, PointOptions options, Boolea
 
 Changes the text range based on the specified point.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.SetPoint](/windows/winui/api/microsoft.ui.text.richedittextrange.setpoint).
+
 ## -parameters
 ### -param point
 

@@ -13,6 +13,8 @@ public string Text { get;  set; }
 ## -description
 Gets or sets the text in the ComboBox. 
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.Text](/windows/winui/api/microsoft.ui.xaml.controls.combobox.text).
+
 ## -property-value
 
 ## -remarks

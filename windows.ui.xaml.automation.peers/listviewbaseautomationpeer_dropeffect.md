@@ -12,6 +12,8 @@ public string DropEffect { get; }
 ## -description
 Gets a string that indicates what will happen when the item is dropped.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.DropEffect](/windows/winui/api/microsoft.ui.xaml.automation.peers.listviewbaseautomationpeer.dropeffect).
+
 ## -property-value
 A string that indicates what will happen when the item is dropped.
 

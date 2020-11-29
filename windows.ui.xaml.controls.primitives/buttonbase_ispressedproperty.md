@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsPressedProperty { get; }
 ## -description
 Identifies the [IsPressed](buttonbase_ispressed.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.IsPressedProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase.ispressedproperty).
+
 ## -property-value
 The identifier for the [IsPressed](buttonbase_ispressed.md) dependency property.
 

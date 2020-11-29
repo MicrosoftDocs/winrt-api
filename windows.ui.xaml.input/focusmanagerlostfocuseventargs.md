@@ -14,6 +14,8 @@ public class FocusManagerLostFocusEventArgs
 
 Provides data for the [LostFocus](focusmanager_lostfocus.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.FocusManagerLostFocusEventArgs](/windows/winui/api/microsoft.ui.xaml.input.focusmanagerlostfocuseventargs).
+
 ## -remarks
 
 We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.

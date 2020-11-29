@@ -13,6 +13,8 @@ public DependencyProperty CharacterCasingProperty { get; }
 
 Identifies the CharacterCasing dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.CharacterCasingProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.charactercasingproperty).
+
 ## -property-value
 
 The identifier for the CharacterCasing dependency property.

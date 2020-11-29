@@ -12,6 +12,8 @@ public class RichTextBlock : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.C
 ## -description
 Represents a rich text display container that supports formatted text, hyperlinks, inline images, and other rich content. RichTextBlock supports a built-in overflow model.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RichTextBlock](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock).
+
 ## -xaml-syntax
 ```xaml
 <RichTextBlock .../>

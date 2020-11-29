@@ -12,6 +12,8 @@ public Windows.UI.Composition.Compositor Compositor { get; }
 ## -description
 The [Compositor](compositor.md) used to create this [CompositionObject](compositionobject.md).
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionObject.Compositor](/windows/winui/api/microsoft.ui.composition.compositionobject.compositor).
+
 ## -property-value
 The [Compositor](compositor.md) used to create this [CompositionObject](compositionobject.md).
 

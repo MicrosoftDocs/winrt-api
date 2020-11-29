@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Controls.HubSectio
 ## -description
 Gets a collection that contains the hub sections that moved out of view.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SectionsInViewChangedEventArgs.RemovedSections](/windows/winui/api/microsoft.ui.xaml.controls.sectionsinviewchangedeventargs.removedsections).
+
 ## -property-value
 A collection that contains the hub sections that moved into view.
 

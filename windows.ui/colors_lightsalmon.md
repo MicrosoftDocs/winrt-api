@@ -13,6 +13,8 @@ public Windows.UI.Color LightSalmon { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFA07A.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.LightSalmon](/windows/winui/api/microsoft.ui.colors.lightsalmon).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFFFA07A.

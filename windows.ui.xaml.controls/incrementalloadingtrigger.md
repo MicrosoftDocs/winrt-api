@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.IncrementalLoadingTrigger : int
 ## -description
 Defines constants that specify list view incremental loading behavior ([IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md) property).
 
+Equivalent WinUI enum: [IncrementalLoadingTrigger](/windows/winui/api/microsoft.ui.xaml.controls.incrementalloadingtrigger).
+
 ## -xaml-syntax
 ```xaml
 <objectproperty="enumMemberName" />

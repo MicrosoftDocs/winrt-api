@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsActiveProperty { get; }
 ## -description
 Identifies the [IsActive](statetrigger_isactive.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.StateTrigger.IsActiveProperty](/windows/winui/api/microsoft.ui.xaml.statetrigger.isactiveproperty).
+
 ## -property-value
 The identifier for the [IsActive](statetrigger_isactive.md)  dependency property.
 

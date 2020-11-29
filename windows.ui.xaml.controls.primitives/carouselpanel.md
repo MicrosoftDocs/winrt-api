@@ -12,6 +12,8 @@ public class CarouselPanel : Windows.UI.Xaml.Controls.VirtualizingPanel, Windows
 ## -description
 Represents a panel that arranges its items in a line and circles around to the first item when the last item is reached.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel](/windows/winui/api/microsoft.ui.xaml.controls.primitives.carouselpanel).
+
 ## -xaml-syntax
 ```xaml
 <!--somewhere within items panel templates-->

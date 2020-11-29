@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject Parent { get; }
 ## -description
 Gets the logical parent that contains the current position.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextPointer.Parent](/windows/winui/api/microsoft.ui.xaml.documents.textpointer.parent).
+
 ## -property-value
 The logical parent that contains the current position. Can return the [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) when at the top of the content stack.
 

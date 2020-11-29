@@ -12,6 +12,8 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 ## -description
 Asynchronously gets a list of candidate words based on the provided phonetic characters in an Input Method Editor (IME).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBox.GetLinguisticAlternativesAsync](/windows/winui/api/microsoft.ui.xaml.controls.textbox.getlinguisticalternativesasync).
+
 ## -returns
 A list of candidate words based on the provided phonetic characters in an Input Method Editor (IME).
 

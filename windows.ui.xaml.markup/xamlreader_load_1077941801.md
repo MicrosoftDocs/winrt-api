@@ -12,6 +12,8 @@ public object Load(System.String xaml)
 ## -description
 Parses a well-formed XAML fragment and creates a corresponding object tree, and returns the root of the object tree.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlReader.Load](/windows/winui/api/microsoft.ui.xaml.markup.xamlreader.load).
+
 ## -parameters
 ### -param xaml
 A string that contains a valid XAML fragment.

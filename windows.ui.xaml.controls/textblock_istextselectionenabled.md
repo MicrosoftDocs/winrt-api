@@ -13,6 +13,8 @@ public bool IsTextSelectionEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether text selection is enabled in the [TextBlock](textblock.md), either through user action or calling selection-related API.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.IsTextSelectionEnabled](/windows/winui/api/microsoft.ui.xaml.controls.textblock.istextselectionenabled).
+
 ## -xaml-syntax
 
 ```xaml

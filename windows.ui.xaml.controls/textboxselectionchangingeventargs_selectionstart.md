@@ -14,6 +14,8 @@ public int SelectionStart { get; }
 
 Gets the starting index of the text selection.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBoxSelectionChangingEventArgs.SelectionStart](/windows/winui/api/microsoft.ui.xaml.controls.textboxselectionchangingeventargs.selectionstart).
+
 ## -property-value
 
 The starting index of the text selection.

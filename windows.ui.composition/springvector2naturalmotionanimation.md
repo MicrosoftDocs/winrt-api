@@ -13,6 +13,8 @@ public class SpringVector2NaturalMotionAnimation : Vector2NaturalMotionAnimation
 
 A spring physics-based animation that targets any Vector2-based property.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.SpringVector2NaturalMotionAnimation](/windows/winui/api/microsoft.ui.composition.springvector2naturalmotionanimation).
+
 ## -remarks
 
 ## -see-also

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty KeyTimeProperty { get; }
 ## -description
 Identifies the [KeyTime](colorkeyframe_keytime.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame.KeyTimeProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframe.keytimeproperty).
+
 ## -property-value
 The identifier for the [KeyTime](colorkeyframe_keytime.md)  dependency property.
 

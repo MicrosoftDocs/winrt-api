@@ -14,6 +14,8 @@ public class SceneMeshRendererComponent : SceneRendererComponent, SceneRendererC
 
 Represents a component that renders a SceneMesh.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.SceneMeshRendererComponent](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshrenderercomponent).
+
 ## -remarks
 
 ## -see-also

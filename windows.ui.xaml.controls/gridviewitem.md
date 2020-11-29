@@ -12,6 +12,8 @@ public class GridViewItem : Windows.UI.Xaml.Controls.Primitives.SelectorItem, Wi
 ## -description
 Represents the container for an item in a [GridView](gridview.md) control.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.GridViewItem](/windows/winui/api/microsoft.ui.xaml.controls.gridviewitem).
+
 ## -xaml-syntax
 ```xaml
 <GridViewItem .../>

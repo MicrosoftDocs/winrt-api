@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PixelWidthProperty { get; }
 ## -description
 Identifies the [PixelWidth](rendertargetbitmap_pixelwidth.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap.PixelWidthProperty](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap.pixelwidthproperty).
+
 ## -property-value
 The identifier for the [PixelWidth](rendertargetbitmap_pixelwidth.md) dependency property.
 

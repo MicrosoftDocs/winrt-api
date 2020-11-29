@@ -12,6 +12,8 @@ public bool IsCalendarOpen { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the calendar view of the [CalendarDatePicker](calendardatepicker.md) is currently shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.IsCalendarOpen](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.iscalendaropen).
+
 ## -xaml-syntax
 ```xaml
 <CalendarDatePicker IsCalendarOpen="bool" .../>

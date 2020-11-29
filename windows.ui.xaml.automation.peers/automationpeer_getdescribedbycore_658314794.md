@@ -12,6 +12,8 @@ virtual protected Windows.Foundation.Collections.IIterable<Windows.UI.Xaml.Autom
 ## -description
 Gets a collection of elements that provide more information about the automation element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetDescribedByCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getdescribedbycore).
+
 ## -returns
 A collection of elements that provide more information about the automation element.
 

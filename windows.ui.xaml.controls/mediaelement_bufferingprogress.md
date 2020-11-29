@@ -12,6 +12,8 @@ public double BufferingProgress { get; }
 ## -description
 Gets a value that indicates the current buffering progress.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.BufferingProgress](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.bufferingprogress).
+
 ## -property-value
 The amount of buffering that is completed for media content. The value ranges from 0 to 1. Multiply by 100 to obtain a percentage.
 

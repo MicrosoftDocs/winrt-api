@@ -12,6 +12,8 @@ public SolidColorBrush SelectionHighlightColorWhenNotFocused { get;  set; }
 ## -description
 Gets or sets the brush used to highlight the selected text when the RichEditBox does not have focus.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.SelectionHighlightColorWhenNotFocused](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.selectionhighlightcolorwhennotfocused).
+
 ## -xaml-syntax
 ```xaml
 <RichEditBox SelectionHighlightColorWhenNotFocused="{StaticResource resourceName}"/>

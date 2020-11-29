@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IIterator<Windows.UI.Composition.Compositi
 ## -description
 Retrieves the first animation in the group.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionAnimationGroup.First](/windows/winui/api/microsoft.ui.composition.compositionanimationgroup.first).
+
 ## -returns
 Returns the first animation in the group.
 

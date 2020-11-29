@@ -12,6 +12,8 @@ public void CompositionDrawingSurface.Scroll(PointInt32 offset)
 ## -description
 Scrolls the drawing surface.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionDrawingSurface.Scroll](/windows/winui/api/microsoft.ui.composition.compositiondrawingsurface.scroll).
+
 ## -parameters
 
 ### -param offset

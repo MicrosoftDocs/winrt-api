@@ -12,6 +12,8 @@ public Paragraph()
 ## -description
 Initializes a new instance of the [Paragraph](paragraph.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Documents.Paragraph.Paragraph](/windows/winui/api/microsoft.ui.xaml.documents.paragraph.#ctor).
+
 ## -remarks
 
 ## -examples

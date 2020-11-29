@@ -12,6 +12,8 @@ public object Source { get;  set; }
 ## -description
 Gets or sets the collection object from which to create this view.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.CollectionViewSource.Source](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.source).
+
 ## -xaml-syntax
 ```xaml
 <CollectionViewSource Source="bindingReference" .../>

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HeaderProperty { get; }
 ## -description
 Identifies the [Header](datepicker_header.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.HeaderProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.headerproperty).
+
 ## -property-value
 The identifier for the [Header](datepicker_header.md) dependency property.
 

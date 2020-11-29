@@ -12,6 +12,8 @@ public RichTextBlockOverflowAutomationPeer(Windows.UI.Xaml.Controls.RichTextBloc
 ## -description
 Initializes a new instance of the [RichTextBlockOverflowAutomationPeer](richtextblockoverflowautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.RichTextBlockOverflowAutomationPeer.RichTextBlockOverflowAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.richtextblockoverflowautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) to create a peer for.

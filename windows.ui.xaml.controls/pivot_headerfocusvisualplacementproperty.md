@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HeaderFocusVisualPlacementProperty { g
 ## -description
 Identifies the [HeaderFocusVisualPlacement](pivot_headerfocusvisualplacement.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.HeaderFocusVisualPlacementProperty](/windows/winui/api/microsoft.ui.xaml.controls.pivot.headerfocusvisualplacementproperty).
+
 ## -property-value
 The identifier for the [HeaderFocusVisualPlacement](pivot_headerfocusvisualplacement.md) dependency property.
 

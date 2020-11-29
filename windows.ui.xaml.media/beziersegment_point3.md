@@ -12,6 +12,8 @@ public Windows.Foundation.Point Point3 { get;  set; }
 ## -description
 Gets or sets the end point of the curve.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.BezierSegment.Point3](/windows/winui/api/microsoft.ui.xaml.media.beziersegment.point3).
+
 ## -xaml-syntax
 ```xaml
 <BezierSegment Point3="x,y"/>

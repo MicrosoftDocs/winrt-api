@@ -14,6 +14,8 @@ public FlyoutShowMode ShowMode { get;  set; }
 
 Gets or sets a value that indicates how a flyout behaves when shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShowMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.showmode).
+
 ## -property-value
 
 A value of the enumeration that indicates how a flyout behaves when shown.

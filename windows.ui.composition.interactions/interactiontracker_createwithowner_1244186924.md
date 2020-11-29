@@ -14,6 +14,8 @@ Creates an instance of [InteractionTracker](interactiontracker.md) with the spec
 
 This Create method will instantiate an [InteractionTracker](interactiontracker.md) with an owner for registering for callbacks. After creating the [InteractionTracker](interactiontracker.md) setting the properties, attaching a [VisualInteractionSource](visualinteractionsource.md), and referencing position or scale in an [ExpressionAnimation](../windows.ui.composition/expressionanimation.md), active input can drive the [ExpressionAnimation](../windows.ui.composition/expressionanimation.md). Creating the [InteractionTracker](interactiontracker.md) with an owner is only required if the application needs to receive callbacks regarding state and values of the [InteractionTracker](interactiontracker.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTracker.CreateWithOwner](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.createwithowner).
+
 ## -parameters
 ### -param compositor
 The compositor to use to create the instance of [InteractionTracker](interactiontracker.md).

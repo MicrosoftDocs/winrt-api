@@ -13,6 +13,8 @@ public Windows.UI.Color DarkMagenta { get; }
 
 Gets the system-defined color that has an ARGB value of #FF8B008B.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.DarkMagenta](/windows/winui/api/microsoft.ui.colors.darkmagenta).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF8B008B.

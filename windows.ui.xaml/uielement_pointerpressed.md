@@ -13,6 +13,8 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerPressed
 
 Occurs when the pointer device initiates a **Press** action within this element.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.PointerPressed](/windows/winui/api/microsoft.ui.xaml.uielement.pointerpressed).
+
 ## -xaml-syntax
 
 ```xaml

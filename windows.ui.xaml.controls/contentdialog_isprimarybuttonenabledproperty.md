@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsPrimaryButtonEnabledProperty { get; 
 ## -description
 Gets the identifier of the [IsPrimaryButtonEnabled](contentdialog_isprimarybuttonenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.IsPrimaryButtonEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.isprimarybuttonenabledproperty).
+
 ## -property-value
 The identifier of the [IsPrimaryButtonEnabled](contentdialog_isprimarybuttonenabled.md) dependency property.
 

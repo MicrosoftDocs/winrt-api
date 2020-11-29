@@ -12,6 +12,8 @@ public void SetZoomMode(Windows.UI.Xaml.DependencyObject element, Windows.UI.Xam
 ## -description
 Sets the value of the [ZoomMode](scrollviewer_zoommode.md) dependency property / `ScrollViewer.ZoomMode` XAML attached property on a specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.SetZoomMode](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.setzoommode).
+
 ## -parameters
 ### -param element
 The element on which to set the property value.

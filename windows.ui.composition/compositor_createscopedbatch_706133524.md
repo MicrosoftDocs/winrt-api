@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionScopedBatch CreateScopedBatch(Windows.U
 ## -description
 Creates an instance of [CompositionScopedBatch](compositionscopedbatch.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateScopedBatch](/windows/winui/api/microsoft.ui.composition.compositor.createscopedbatch).
+
 ## -parameters
 ### -param batchType
 The type of composition batch to create.

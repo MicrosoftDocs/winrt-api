@@ -13,6 +13,8 @@ public CompositionLineGeometry Compositor.CreateLineGeometry()
 
 Creates an instance of [CompositionLineGeometry](compositionlinegeometry.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateLineGeometry](/windows/winui/api/microsoft.ui.composition.compositor.createlinegeometry).
+
 ## -returns
 
 Returns the created [CompositionLineGeometry](compositionlinegeometry.md) object.

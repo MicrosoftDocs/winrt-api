@@ -13,6 +13,8 @@ public enum Windows.UI.Xaml.Input.ManipulationModes : uint
 
 Specifies how a target UI element interprets manipulation events. This enumeration is flagwise, so you can set multiple modes for the [ManipulationMode](../windows.ui.xaml/uielement_manipulationmode.md) property.
 
+Equivalent WinUI enum: [ManipulationModes](/windows/winui/api/microsoft.ui.xaml.input.manipulationmodes).
+
 ## -enum-fields
 ### -field None:0
 Do not present graphic interaction with manipulation events.

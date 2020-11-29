@@ -13,6 +13,8 @@ public class MediaPlayerElement : Windows.UI.Xaml.Controls.Control, Windows.UI.X
 
 Represents an object that uses a [MediaPlayer](../windows.media.playback/mediaplayer.md) to render audio and video to the display.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MediaPlayerElement](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerelement).
+
 ## -xaml-syntax
 
 ```xaml

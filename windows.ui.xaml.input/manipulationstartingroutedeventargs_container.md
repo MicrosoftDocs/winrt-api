@@ -12,6 +12,8 @@ public Windows.UI.Xaml.UIElement Container { get;  set; }
 ## -description
 Gets the [UIElement](../windows.ui.xaml/uielement.md) that is considered the container of the manipulation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Container](/windows/winui/api/microsoft.ui.xaml.input.manipulationstartingroutedeventargs.container).
+
 ## -property-value
 The [UIElement](../windows.ui.xaml/uielement.md) that is considered the container of the manipulation.
 ## -remarks

@@ -12,6 +12,8 @@ public class LayerVisual : Windows.UI.Composition.ContainerVisual, Windows.UI.Co
 ## -description
 A ContainerVisual whose children are flattened into a single layer.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.LayerVisual](/windows/winui/api/microsoft.ui.composition.layervisual).
+
 ## -remarks
 A LayerVisual is a special input type that can be used to select a tree of visuals. The tree input is implicitly specified using the LayerVisual. When an EffectBrush is set to the Effect property of the LayerVisual, the EffectBrush automatically uses the subtree rooted at the LayerVisual as the input. The implicit input for LayerVisual works for effects as follows:
 

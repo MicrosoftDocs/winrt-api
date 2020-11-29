@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ItemTypeProperty { get; }
 ## -description
 Identifies the [AutomationProperties.ItemType](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property, which is a text string describing the type of the automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.ItemTypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.itemtypeproperty).
+
 ## -property-value
 The identifier for the [AutomationProperties.ItemType](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) dependency property.
 

@@ -14,6 +14,8 @@ public class CompositionProjectedShadowReceiverUnorderedCollection : Composition
 
 Represents an unordered collection of CompositionProjectedShadowReceiver objects.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionProjectedShadowReceiverUnorderedCollection](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowreceiverunorderedcollection).
+
 ## -remarks
 
 ## -see-also

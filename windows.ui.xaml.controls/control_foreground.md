@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush Foreground { get;  set; }
 ## -description
 Gets or sets a brush that describes the foreground color.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.Foreground](/windows/winui/api/microsoft.ui.xaml.controls.control.foreground).
+
 ## -xaml-syntax
 ```xaml
 <control Foreground="{StaticResource resourceName}"/>

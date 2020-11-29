@@ -12,6 +12,8 @@ public int LastCacheIndex { get; }
 ## -description
 Gets the index in the data collection of the last item in the cache.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsStackPanel.LastCacheIndex](/windows/winui/api/microsoft.ui.xaml.controls.itemsstackpanel.lastcacheindex).
+
 ## -property-value
 The index in the data collection of the last item in the cache. The default is -1.
 

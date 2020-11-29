@@ -12,6 +12,8 @@ public class Run : Windows.UI.Xaml.Documents.Inline, Windows.UI.Xaml.Documents.I
 ## -description
 Represents a discrete section of formatted or unformatted text.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.Run](/windows/winui/api/microsoft.ui.xaml.documents.run).
+
 ## -xaml-syntax
 ```xaml
 <Run .../>

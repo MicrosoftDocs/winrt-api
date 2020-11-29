@@ -12,6 +12,8 @@ public DependencyProperty KeyTipPlacementModeProperty { get; }
 ## -description
 Identifies the [KeyTipPlacementMode](uielement_keytipplacementmode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.KeyTipPlacementModeProperty](/windows/winui/api/microsoft.ui.xaml.uielement.keytipplacementmodeproperty).
+
 ## -property-value
 The identifier for the [KeyTipPlacementMode](uielement_keytipplacementmode.md) dependency property.
 

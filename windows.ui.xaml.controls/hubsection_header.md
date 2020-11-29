@@ -12,6 +12,8 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the hub section header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.HubSection.Header](/windows/winui/api/microsoft.ui.xaml.controls.hubsection.header).
+
 ## -xaml-syntax
 ```xaml
 <HubSection Header="headerString"/>

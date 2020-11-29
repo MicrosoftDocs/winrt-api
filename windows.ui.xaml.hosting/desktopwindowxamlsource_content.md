@@ -13,6 +13,8 @@ public UIElement Content { get;  set; }
 ## -description
 Gets or sets the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) object that you want to host in the desktop application.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Hosting.DesktopWindowXamlSource.Content](/windows/winui/api/microsoft.ui.xaml.hosting.desktopwindowxamlsource.content).
+
 ## -property-value
 The object that you want to host in the desktop application.
 

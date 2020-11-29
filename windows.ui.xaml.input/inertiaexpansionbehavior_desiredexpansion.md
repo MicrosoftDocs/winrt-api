@@ -12,6 +12,8 @@ public double DesiredExpansion { get;  set; }
 ## -description
 Gets or sets the amount the element resizes at the end of inertia.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.InertiaExpansionBehavior.DesiredExpansion](/windows/winui/api/microsoft.ui.xaml.input.inertiaexpansionbehavior.desiredexpansion).
+
 ## -property-value
 The amount the element resizes at the end of inertia.
 

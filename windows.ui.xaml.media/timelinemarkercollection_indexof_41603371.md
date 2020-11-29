@@ -12,6 +12,8 @@ public bool IndexOf(Windows.UI.Xaml.Media.TimelineMarker value, System.UInt32 in
 ## -description
 Retrieves the index of the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TimelineMarkerCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkercollection.indexof).
+
 ## -parameters
 ### -param value
 The value to find in the collection.

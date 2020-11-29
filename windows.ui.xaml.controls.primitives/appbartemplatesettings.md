@@ -12,6 +12,8 @@ public class AppBarTemplateSettings : Windows.UI.Xaml.DependencyObject, Windows.
 ## -description
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for an [AppBar](../windows.ui.xaml.controls/appbar.md) control. Not intended for general use.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.AppBarTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.appbartemplatesettings).
+
 ## -remarks
 
 ### Version history

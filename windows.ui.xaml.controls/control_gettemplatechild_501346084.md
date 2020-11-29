@@ -12,6 +12,8 @@ protected Windows.UI.Xaml.DependencyObject GetTemplateChild(System.String childN
 ## -description
 Retrieves the named element in the instantiated [ControlTemplate](controltemplate.md) visual tree.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.GetTemplateChild](/windows/winui/api/microsoft.ui.xaml.controls.control.gettemplatechild).
+
 ## -parameters
 ### -param childName
 The name of the element to find.

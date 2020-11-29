@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FocusVisualSecondaryBrushProperty { ge
 ## -description
 Identifies the [FocusVisualSecondaryBrush](frameworkelement_focusvisualsecondarybrush.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.FocusVisualSecondaryBrushProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.focusvisualsecondarybrushproperty).
+
 ## -property-value
 The identifier for the [FocusVisualSecondaryBrush](frameworkelement_focusvisualsecondarybrush.md)  dependency property.
 

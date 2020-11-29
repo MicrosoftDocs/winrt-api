@@ -13,6 +13,8 @@ public void CompositionColorGradientStopCollection.RemoveAtEnd()
 
 Removes the last item in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.RemoveAtEnd](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.removeatend).
+
 ## -remarks
 
 ## -see-also

@@ -12,6 +12,8 @@ public double ScaleX { get;  set; }
 ## -description
 Gets or sets the x-axis scale factor.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ScaleTransform.ScaleX](/windows/winui/api/microsoft.ui.xaml.media.scaletransform.scalex).
+
 ## -xaml-syntax
 ```xaml
 <ScaleTransform ScaleX="double"/>

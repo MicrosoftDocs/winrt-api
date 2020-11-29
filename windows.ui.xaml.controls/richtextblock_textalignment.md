@@ -12,6 +12,8 @@ public Windows.UI.Xaml.TextAlignment TextAlignment { get;  set; }
 ## -description
 Gets or sets a value that indicates how the text is aligned in the [RichTextBlock](richtextblock.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextAlignment](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.textalignment).
+
 ## -xaml-syntax
 ```xaml
 <RichTextBlock TextAlignment="textAlignmentValue"/>

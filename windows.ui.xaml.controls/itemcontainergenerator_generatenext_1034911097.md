@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject GenerateNext(System.Boolean isNewlyReali
 ## -description
 Returns the container element used to display the next item, and indicates whether the container element has been newly generated (realized).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.GenerateNext](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.generatenext).
+
 ## -parameters
 ### -param isNewlyRealized
 **true** if the returned [DependencyObject](../windows.ui.xaml/dependencyobject.md) is newly generated (realized); otherwise, **false**.

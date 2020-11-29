@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.ListViewReorderMode : int
 ## -description
 Defines constants that specify the reorder mode of a [ListView](listview.md) or [GridView](gridview.md).
 
+Equivalent WinUI enum: [ListViewReorderMode](/windows/winui/api/microsoft.ui.xaml.controls.listviewreordermode).
+
 ## -enum-fields
 ### -field Disabled:0
 A user can't reorder the list.

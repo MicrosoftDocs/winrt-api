@@ -12,6 +12,8 @@ public int MaximumRowsOrColumns { get;  set; }
 ## -description
 Gets or sets a value that influences the wrap point, also accounting for [Orientation](itemswrapgrid_orientation.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid.MaximumRowsOrColumns](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid.maximumrowsorcolumns).
+
 ## -xaml-syntax
 ```xaml
 <ItemsWrapGrid MaximumRowsOrColumns="int" />

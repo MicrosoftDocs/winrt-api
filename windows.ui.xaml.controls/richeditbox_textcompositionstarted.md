@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler TextCompositionStarted<Windows
 ## -description
 Occurs when a user starts composing text through an Input Method Editor (IME).
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.RichEditBox.TextCompositionStarted](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.textcompositionstarted).
+
 ## -xaml-syntax
 
 ```xaml

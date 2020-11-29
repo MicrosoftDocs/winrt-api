@@ -13,6 +13,8 @@ public XYFocusNavigationStrategyMode XYFocusDownNavigationStrategy { get;  set; 
 
 Gets or sets a value that specifies the strategy used to determine the target element of a down navigation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.XYFocusDownNavigationStrategy](/windows/winui/api/microsoft.ui.xaml.uielement.xyfocusdownnavigationstrategy).
+
 ## -xaml-syntax
 
 ```xaml

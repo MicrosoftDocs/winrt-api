@@ -12,6 +12,8 @@ public class GeometryCollection : Windows.Foundation.Collections.IIterable<Windo
 ## -description
 Represents a collection of [Geometry](geometry.md) objects.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.GeometryCollection](/windows/winui/api/microsoft.ui.xaml.media.geometrycollection).
+
 ## -xaml-syntax
 ```xaml
 <object>

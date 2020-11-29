@@ -12,6 +12,8 @@ public class PasswordBox : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Con
 ## -description
 Represents a control for entering passwords.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.PasswordBox](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox).
+
 ## -xaml-syntax
 ```xaml
 <PasswordBox .../>

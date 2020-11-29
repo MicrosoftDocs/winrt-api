@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionGetValueStatus TryGetMatrix3x2(System.S
 ## -description
 Retrieves the specified [Matrix3x2](../windows.foundation.numerics/matrix3x2.md) property value.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.TryGetMatrix3x2](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.trygetmatrix3x2).
+
 ## -parameters
 ### -param propertyName
 The name of the property to retrieve.

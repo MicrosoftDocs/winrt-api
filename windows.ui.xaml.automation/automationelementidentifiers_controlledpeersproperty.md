@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty ControlledPeersProperty { g
 ## -description
 Identifies the controlled peers automation property. A list of controlled peers is returned by the [GetControlledPeers](../windows.ui.xaml.automation.peers/automationpeer_getcontrolledpeers_1408209931.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.ControlledPeersProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.controlledpeersproperty).
+
 ## -property-value
 The automation property identifier.
 

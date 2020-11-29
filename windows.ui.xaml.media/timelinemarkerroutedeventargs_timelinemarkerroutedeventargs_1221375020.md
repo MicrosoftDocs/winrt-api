@@ -12,6 +12,8 @@ public TimelineMarkerRoutedEventArgs()
 ## -description
 Initializes a new instance of the [TimelineMarkerRoutedEventArgs](timelinemarkerroutedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.TimelineMarkerRoutedEventArgs.TimelineMarkerRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkerroutedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

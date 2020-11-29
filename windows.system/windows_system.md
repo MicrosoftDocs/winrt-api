@@ -9,6 +9,8 @@
 
 Enables system functionality such as launching apps, obtaining information about a user, and memory profiling.
 
+Equivalent WinUI namespace: [Microsoft.System](/windows/winui/api/microsoft.system).
+
 ## -remarks
 
 ## -examples

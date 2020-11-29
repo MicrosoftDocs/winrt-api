@@ -12,6 +12,8 @@ public string CloseButtonText { get;  set; }
 ## -description
 Gets or sets the text to display on the close button.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.CloseButtonText](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.closebuttontext).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog CloseButtonText="string"/>

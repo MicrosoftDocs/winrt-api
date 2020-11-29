@@ -12,6 +12,8 @@ public double EllipseDiameter { get; }
 ## -description
 Gets the template-defined diameter of the "Ellipse" element that is animated in a templated [ProgressBar](../windows.ui.xaml.controls/progressbar.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ProgressBarTemplateSettings.EllipseDiameter](/windows/winui/api/microsoft.ui.xaml.controls.primitives.progressbartemplatesettings.ellipsediameter).
+
 ## -property-value
 The "Ellipse" element width in pixels.
 

@@ -14,6 +14,8 @@ public void CompositionObject.StartAnimationWithIAnimationObject(IAnimationObjec
 
 Connects an animation with the specified property of the target object and starts the animation.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionObject.StartAnimationWithIAnimationObject](/windows/winui/api/microsoft.ui.composition.compositionobject.startanimationwithianimationobject).
+
 ## -parameters
 ### -param target
 

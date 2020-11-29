@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FillRuleProperty { get; }
 ## -description
 Identifies the [FillRule](geometrygroup_fillrule.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.GeometryGroup.FillRuleProperty](/windows/winui/api/microsoft.ui.xaml.media.geometrygroup.fillruleproperty).
+
 ## -property-value
 The identifier for the [FillRule](geometrygroup_fillrule.md) dependency property.
 

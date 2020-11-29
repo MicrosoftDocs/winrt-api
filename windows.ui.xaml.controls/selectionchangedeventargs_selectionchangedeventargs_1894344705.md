@@ -12,6 +12,8 @@ public SelectionChangedEventArgs(Windows.Foundation.Collections.IVector<System.O
 ## -description
 Initializes a new instance of the [SelectionChangedEventArgs](selectionchangedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.SelectionChangedEventArgs.SelectionChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.selectionchangedeventargs.#ctor).
+
 ## -parameters
 ### -param removedItems
 Sets the initial [AddedItems](selectionchangedeventargs_addeditems.md) value. May be null.

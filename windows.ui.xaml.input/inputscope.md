@@ -13,6 +13,8 @@ public class InputScope : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Inpu
 
 Represents information related to the data provided by an input method.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.InputScope](/windows/winui/api/microsoft.ui.xaml.input.inputscope).
+
 ## -remarks
 
 > [!NOTE]

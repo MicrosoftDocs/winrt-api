@@ -13,6 +13,8 @@ public enum AnimationControllerProgressBehavior : int
 
 Defines constants that specify how the [AnimationController.Progress](animationcontroller_progress.md) value is determined.
 
+Equivalent WinUI enum: [Microsoft.UI.Composition.AnimationControllerProgressBehavior](/windows/winui/api/microsoft.ui.composition.animationcontrollerprogressbehavior).
+
 ## -enum-fields
 ### -field IncludesDelayTime:1
 

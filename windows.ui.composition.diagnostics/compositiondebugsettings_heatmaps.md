@@ -13,6 +13,8 @@ public CompositionDebugHeatMaps HeatMaps { get; }
 
 Gets the heatmaps for this debug settings instance.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Diagnostics.CompositionDebugSettings.HeatMaps](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugsettings.heatmaps).
+
 ## -property-value
 
 The heatmaps for this debug settings instance.

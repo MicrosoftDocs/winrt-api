@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HeaderProperty { get; }
 ## -description
 Identifies the [Header](itemspresenter_header.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.headerproperty).
+
 ## -property-value
 The identifier for the [Header](itemspresenter_header.md) dependency property.
 

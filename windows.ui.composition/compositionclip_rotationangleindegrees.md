@@ -12,6 +12,8 @@ public float RotationAngleInDegrees { get;  set; }
 ## -description
 The angle of rotation applied to the clip, in degrees.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionClip.RotationAngleInDegrees](/windows/winui/api/microsoft.ui.composition.compositionclip.rotationangleindegrees).
+
 ## -property-value
 The angle of rotation applied to the clip, in degrees. For a [CompositionClip](compositionclip.md), the axis of rotation is always about the z-axis, with positive RotationAngleInDegrees values resulting in a clockwise rotation and negative values resulting in a counter-clockwise rotation. For specifying RotationAngle in radians, use [CompositionClip.RotationAngle](compositionclip_rotationangle.md). If both [CompositionClip.RotationAngle](compositionclip_rotationangle.md) and CompositionClip.RotationAngleInDegrees are set on the same [CompositionClip](compositionclip.md) object, whichever value is set last will override the other value.
 

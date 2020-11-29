@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler CandidateWindowBoundsChanged<W
 ## -description
 Occurs when the Input Method Editor (IME) window open, updates, or closes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.RichEditBox.CandidateWindowBoundsChanged](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.candidatewindowboundschanged).
+
 ## -xaml-syntax
 ```xaml
 <RichEditBox CandidateWindowBoundsChanged="eventhandler" />

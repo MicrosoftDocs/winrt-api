@@ -12,6 +12,8 @@ public class PointKeyFrameCollection : Windows.Foundation.Collections.IIterable<
 ## -description
 Represents a collection of [PointKeyFrame](pointkeyframe.md) objects that can be individually accessed by index. PointKeyFrameCollection is the value of the [PointAnimation.KeyFrames](pointanimationusingkeyframes_keyframes.md) property.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.pointkeyframecollection).
+
 ## -remarks
 <!--Begin NET note for IEnumerable support-->
 ### Enumerating the collection in C# or Microsoft Visual Basic

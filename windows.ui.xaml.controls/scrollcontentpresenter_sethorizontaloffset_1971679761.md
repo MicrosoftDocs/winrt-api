@@ -12,6 +12,8 @@ public void SetHorizontalOffset(System.Double offset)
 ## -description
 Sets the distance the content has been scrolled horizontally.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.SetHorizontalOffset](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.sethorizontaloffset).
+
 ## -parameters
 ### -param offset
 The distance the content has been scrolled horizontally.
