@@ -37,5 +37,7 @@ The following example creates a [Grid](grid.md) with three rows. The [Height](ro
 
 [!code-xaml[RowDefinitions](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml#SnippetRowDefinitions)]
 
+- **Star (*)** : It will take the remaining space when Auto and fixed sized are filled.
+
 ## -see-also
 [ColumnDefinitions](grid_columndefinitions.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)
