@@ -18,24 +18,28 @@ An asynchronous operation. If you use [Asynchronous programming](/windows/uwp/th
 ## -remarks
 If the [WalletBarcode](walletbarcode.md) object was instantiated using the [WalletBarcode](walletbarcode_walletbarcode_199548425.md) constructor that takes a custom image as a parameter, that custom image is returned on completion. Otherwise, an image of the system-defined barcode is created and then returned.
 
-This method doesn't literally return an image object that's ready for UI, it returns a stream that defines a bitmap image. To actually set an image in JavaScript, you can use code similar to this:
-```javascript
-var awns = Windows.ApplicationModel.Wallet;
-var wbc = new awns.WalletBarcode(awns.WalletBarcodeSymbology.qr, "123123123123");
-wbc.getImageAsync().done(function (img) {
-    if (img) {
-        var img1 = document.getElementById("img1"); //existing <img> tag in this script's scope
-        img.openReadAsync().done(function (blob) {
-            var stream = MSApp.createStreamFromInputStream("image/bmp", blob);
-            img1.src = URL.createObjectURL(stream);
-        })
-     }
-});
+This method doesn't literally return an image object that's ready for UI, it returns a stream that defines a bitmap image. To actually set an image, you can use code similar to this:
+
+```xaml
+<Button Content="Generate barcode" Click="Button_Click"/>
+<Image x:Name="barcodeImage"/>
 ```
 
+```csharp
+private async void Button_Click(object sender, RoutedEventArgs e)
+{
+    var walletBarcode = new WalletBarcode(WalletBarcodeSymbology.Qr, "123123123123");
 
+    IRandomAccessStreamReference streamRef = await walletBarcode.GetImageAsync();
+    IRandomAccessStream stream = await streamRef.OpenReadAsync();
+
+    var bitmapImage = new BitmapImage();
+    await bitmapImage.SetSourceAsync(stream);
+    barcodeImage.Source = bitmapImage;
+}
+```
 
 ## -examples
 
 ## -see-also
-[IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), [Asynchronous programming in JavaScript](/previous-versions/windows/apps/hh700330(v=win.10))
+[IRandomAccessStreamReference](../windows.storage.streams/irandomaccessstreamreference.md), [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
