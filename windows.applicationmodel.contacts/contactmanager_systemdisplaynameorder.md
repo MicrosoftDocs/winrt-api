@@ -10,7 +10,7 @@ public Windows.ApplicationModel.Contacts.ContactNameOrder SystemDisplayNameOrder
 # Windows.ApplicationModel.Contacts.ContactManager.SystemDisplayNameOrder
 
 ## -description
-Gets or puts the display name order.
+Gets or sets the display name order.
 
 ## -property-value
 Specifies the display name order.

@@ -10,18 +10,23 @@ public void UnloadPriFiles(Windows.Foundation.Collections.IIterable<Windows.Stor
 # Windows.ApplicationModel.Resources.Core.ResourceManager.UnloadPriFiles
 
 ## -description
-Unloads one or more resource index ("PRI") files.
-<!--Please clarify what a PRI file is; I assume it's something to do with priority, but it's not clear.-->
 
-<!--It's a resource index file, actually, which proves your point. This will be explained in Remarks, to be added after BUILD.-->
+Unloads one or more Package Resource Index (PRI) files.
 
 ## -parameters
+
 ### -param files
-The files you want unloaded.
+
+The Package Resource Index (PRI) files you want to unload.
 
 ## -remarks
+
 If resource packs are used by an app, this method will always fail.
+
+For more info about PRI files, see [Resource Management System](/windows/uwp/app-resources/resource-management-system).
 
 ## -examples
 
 ## -see-also
+
+[Resource Management System](/windows/uwp/app-resources/resource-management-system)

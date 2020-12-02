@@ -10,10 +10,10 @@ public string CompanyAddress { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactJobInfo.CompanyAddress
 
 ## -description
-Gets and sets the company address of the job info for a contact. The maximum string length for the company address is 1024 characters.
+Gets or sets the company address of the job info for a contact. The maximum string length for the company address is 1024 characters.
 
 ## -property-value
-The company address of the job info for a contact.
+The company address of the job info for a contact. The maximum string length for the company address is 1024 characters.
 
 ## -remarks
 

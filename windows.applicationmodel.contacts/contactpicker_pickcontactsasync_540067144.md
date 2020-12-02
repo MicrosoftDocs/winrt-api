@@ -18,7 +18,7 @@ The operation that launches the contact picker.
 ## -remarks
 To pick only a single contact, use [PickContactAsync](contactpicker_pickcontactasync_1323728873.md).
 
-For info about how to select contacts, see [Selecting contacts](/windows/uwp/contacts-and-calendar/selecting-contacts) and [Quickstart: Selecting user contacts ](/previous-versions/windows/apps/jj153343(v=win.10)).
+For more info about how to select contacts, see [Select contacts](/windows/uwp/contacts-and-calendar/selecting-contacts).
 
 ## -examples
 

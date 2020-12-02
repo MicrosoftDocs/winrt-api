@@ -17,7 +17,6 @@ Removes an item from the observable map.
 The key associated with the item to remove.
 
 ## -remarks
-For the C# and Microsoft Visual Basic version of the **Remove(String)** method, see [Remove](resourcequalifierobservablemap_remove_2.md).
 
 ## -examples
 

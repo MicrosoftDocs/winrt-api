@@ -11,7 +11,7 @@ Enables an app to handle the activation parameters for the activation contracts,
 
 ## -remarks
 
-For info about how to handle app activation through contact actions, see [Quickstart: Handling contact actions ](/previous-versions/windows/apps/dn518236(v=win.10)) and [Quickstart: Handling contact actions ](/previous-versions/windows/apps/dn518338(v=win.10)).
+For info about how to handle app activation through contact actions, see [Quickstart: Handling contact actions ](/previous-versions/windows/apps/dn518236(v=win.10)).
 
 ## -examples
 

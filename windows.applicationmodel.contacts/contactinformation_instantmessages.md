@@ -10,10 +10,11 @@ public Windows.Foundation.Collections.IVectorView<Windows.ApplicationModel.Conta
 # Windows.ApplicationModel.Contacts.ContactInformation.InstantMessages
 
 ## -description
-> [!NOTE]
-> [ContactInformation](contactinformation.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [Contact](contact.md).
 
 A read-only list of instant messaging accounts stored with the contact.
+
+> [!NOTE]
+> [ContactInformation](contactinformation.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [Contact](contact.md).
 
 ## -property-value
 A read-only list of instant messaging accounts.

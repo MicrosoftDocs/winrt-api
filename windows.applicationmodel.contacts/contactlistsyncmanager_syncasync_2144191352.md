@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<bool> SyncAsync()
 Asynchronously attempts to sync with the contacts server.
 
 ## -returns
-A Boolean value indicating if the sync was successful.
+`true` if the sync was successful; otherwise, `false`.
 
 ## -remarks
 

@@ -53,37 +53,4 @@ builder.SetTrigger(trigger);
 BackgroundTaskRegistration task = builder.Register();
 ```
 
-```javascript
-//
-// A friendly task name.
-//
-var name = "ExampleTaskName";
-
-//
-// Must be the same entry point that is specified in the manifest.
-//
-var taskEntryPoint = "ExampleNamespace.ExampleTaskName";
-
-//
-// A system trigger that goes off every 15 minutes as long as the device is plugged in to AC power.
-//
-var trigger = new Windows.ApplicationModel.Background.MaintenanceTrigger(15, false);
-
-//
-// Build the background task.
-//
-var builder = new Windows.ApplicationModel.Background.BackgroundTaskBuilder();
-
-builder.Name = name;
-builder.TaskEntryPoint = taskEntryPoint;
-builder.SetTrigger(trigger);
-
-//
-// Register the background task, and get back a BackgroundTaskRegistration object representing the registered task.
-//
-var task = builder.Register();
-```
-
-
-
 ## -see-also

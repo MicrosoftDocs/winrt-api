@@ -16,7 +16,8 @@ Gets the ways to connect with a contact.
 An array of [ContactFieldType](contactfieldtype.md)-typed values for a contact.
 
 ## -remarks
-For info about how to select contacts, see [Selecting contacts](/windows/uwp/contacts-and-calendar/selecting-contacts) and [Quickstart: Selecting user contacts ](/previous-versions/windows/apps/jj153343(v=win.10)).
+
+For more info about how to select contacts, see [Select contacts](/windows/uwp/contacts-and-calendar/selecting-contacts).
 
 ## -examples
 

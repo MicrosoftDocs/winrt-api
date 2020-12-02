@@ -10,7 +10,7 @@ public Windows.ApplicationModel.Contacts.ContactDateKind Kind { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactDate.Kind
 
 ## -description
-Gets and sets the kind of important date for a contact.
+Gets or sets the kind of important date for a contact.
 
 ## -property-value
 A [ContactDateKind](contactdatekind.md)-typed value that indicates the type of important date for a contact.

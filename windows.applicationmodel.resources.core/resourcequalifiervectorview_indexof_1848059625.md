@@ -20,7 +20,7 @@ The [ResourceQualifier](resourcequalifier.md) to find in the set.
 The zero-based index of the object, if found. The method returns zero if the object is not found.
 
 ## -returns
-A Boolean that is **TRUE** if the object is found, otherwise **FALSE** if the object is not found.
+`true` if the object is found; otherwise, `false` if the object is not found.
 
 ## -remarks
 

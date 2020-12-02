@@ -39,7 +39,7 @@ You can set the Source property as an attribute in XAML. In this case, you're se
 <Image Width="200" Source="Images/myImage.png"/>
 ```
 
-The XAML parser interprets any strings that represent a relative Uniform Resource Identifier (URI) using the base Uniform Resource Identifier (URI) of the XAML page that is being parsed. For example, if you specify a value "Images/myImage.png" in XAML, that string is interpreted as a relative path suffix that is appended to the base Uniform Resource Identifier (URI) location within the app package where the XAML page itself exists. If the previous [Image](image.md) element is added to a page that’s in the root of the app package, the Uniform Resource Identifier (URI) is interpreted as ms-appx:///Images/myImage.png. If the [Image](image.md) is added to a page that’s in a Pages folder in the app, the Uniform Resource Identifier (URI) is interpreted as ms-appx:///Pages/Images/myImage.png.
+The XAML parser interprets any strings that represent a relative Uniform Resource Identifier (URI) using the base Uniform Resource Identifier (URI) of the XAML page that is being parsed. For example, if you specify a value "Images/myImage.png" in XAML, that string is interpreted as a relative path suffix that is appended to the base Uniform Resource Identifier (URI) location within the app package where the XAML page itself exists. If the previous [Image](image.md) element is added to a page that's in the root of the app package, the Uniform Resource Identifier (URI) is interpreted as ms-appx:///Images/myImage.png. If the [Image](image.md) is added to a page that's in a Pages folder in the app, the Uniform Resource Identifier (URI) is interpreted as ms-appx:///Pages/Images/myImage.png.
 
 If the source image is not part of the app package, you must use an absolute Uniform Resource Identifier (URI) to set the Source property in XAML. For more info, see [How to load file resources](/previous-versions/windows/apps/hh965322(v=win.10)), and examples later in this document.
 
@@ -283,7 +283,7 @@ img->Source = file;]]></snippet>-->
 
 ### Using a stream source to show images from the Pictures library
 
-A typical use of [Image](image.md) elements in an app is to show pictures from the user’s Pictures library. These pictures might be accessed programmatically or through a [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md). In either case, the [StorageFile](../windows.storage/storagefile.md) object you get can be opened as a stream, but doesn't provide a Uniform Resource Identifier (URI) reference to the image file. To use a stream as an image source, you must write code that sets your [Image](image.md) instance to use the stream. This can't be done in XAML alone.
+A typical use of [Image](image.md) elements in an app is to show pictures from the user's Pictures library. These pictures might be accessed programmatically or through a [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md). In either case, the [StorageFile](../windows.storage/storagefile.md) object you get can be opened as a stream, but doesn't provide a Uniform Resource Identifier (URI) reference to the image file. To use a stream as an image source, you must write code that sets your [Image](image.md) instance to use the stream. This can't be done in XAML alone.
 
 To display an individual image, use the [StorageFile](../windows.storage/storagefile.md) objects from enumerating the library and call [OpenAsync](../windows.storage/storagefile_openasync_1542217918.md) to obtain a stream. Use this stream to set the image source, by creating a new [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md), then calling [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync_1118221574.md) and passing the stream to use as the *streamSource* parameter.
 
@@ -387,12 +387,11 @@ protected async override void OnNavigatedTo(NavigationEventArgs e)
 
 If you are referencing images that are packaged in your app, you should create your image sources at several recommended sizes, to ensure that your app looks great when the Windows Runtime scales it. When specifying a Source for an [Image](image.md) as a Uniform Resource Identifier (URI), you can use a naming convention that will automatically reference the correct image resource for the current scaling as detected by the system at run-time. For specifics of the naming convention and more info, see [Quickstart: Using file or image resources](/previous-versions/windows/apps/hh965325(v=win.10)).
 
-For more info on how to design for scaling, see [
-      Responsive design 101 for ](/windows/uwp/layout/screen-sizes-and-breakpoints-for-responsive-design) or Remarks in [Image](image.md).
+For more info on how to design for scaling, see [Screen sizes and breakpoints](/windows/uwp/layout/screen-sizes-and-breakpoints-for-responsive-design) or Remarks in [Image](image.md).
 
 ### Image sources and resource qualifiers
 
-You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](/previous-versions/windows/apps/jj552947(v=win.10)) or Remarks in [Image](image.md). For more info on app resources and how to package image sources in an app, see [Defining app resources](/previous-versions/windows/apps/hh965321(v=win.10)).
+You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](/windows/uwp/app-resources/resource-management-system) or Remarks in [Image](image.md). For more info on app resources and how to package image sources in an app, see [Defining app resources](/previous-versions/windows/apps/hh965321(v=win.10)).
 
 ## -examples
 

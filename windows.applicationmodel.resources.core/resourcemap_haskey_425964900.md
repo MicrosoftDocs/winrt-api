@@ -17,7 +17,7 @@ Determines whether the map can retrieve a resource with the specified resource i
 The resource identifier to locate in the map. For syntax details, see the remarks for [ResourceMap](resourcemap.md) class.
 
 ## -returns
- **TRUE** if the key is found, otherwise **FALSE**.
+`true` if the key is found; otherwise, `false`.
 
 ## -remarks
 

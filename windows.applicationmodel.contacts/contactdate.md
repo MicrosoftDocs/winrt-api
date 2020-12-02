@@ -13,15 +13,15 @@ public class ContactDate : Windows.ApplicationModel.Contacts.IContactDate
 Represents an important date for a contact.
 
 ## -remarks
-Here is how to use the ContactDate properties to format date strings.
 
+Here is how to use the ContactDate properties to format date strings.
 
 ### Insert sentinel values
 
 1. Construct a [Windows.Globalization.Calendar](../windows.globalization/calendar.md).
 1. If year has a value, set year to that value, else set year to 2004 (a leap year so every day is valid).
 1. If month has a value, set month to that value, else set month to 1 (a month with every day valid).
-1. if day has a value, set day to that value (day will be set to some value automatically and we don't really care what it is so no need to explicitly set it).
+1. If day has a value, set day to that value (day will be set to some value automatically and we don't really care what it is so no need to explicitly set it).
 1. Get the [Windows.Foundation.DateTime](../windows.foundation/datetime.md) from the Calendar.
 
 ### Build up a template to format

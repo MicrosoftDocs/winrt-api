@@ -13,7 +13,7 @@ public bool HasCurrent { get; }
 Gets a value that indicates whether there is a current item, or whether the iterator is at the end of the [ResourceMapMapView](resourcemapmapview.md).
 
 ## -property-value
- **TRUE** if the iterator refers to a valid item that is in the map view, and otherwise **FALSE**.
+`true` if the iterator refers to a valid item that is in the map view; otherwise, `false`.
 
 ## -remarks
 

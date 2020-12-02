@@ -10,10 +10,12 @@ public string Notes { get;  set; }
 # Windows.ApplicationModel.Contacts.Contact.Notes
 
 ## -description
-Gets and sets notes for a contact. The maximum string length for notes is 4096 characters.
+
+Gets or sets notes for a contact. The maximum string length for notes is 4096 characters.
 
 ## -property-value
-A string that contains notes for a contact.
+
+A string that contains notes for a contact. The maximum string length for notes is 4096 characters.
 
 ## -remarks
 
@@ -22,4 +24,5 @@ A string that contains notes for a contact.
 ## -see-also
 
 ## -capabilities
+
 contactsSystem

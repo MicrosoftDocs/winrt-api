@@ -12,17 +12,13 @@ public class ContactLocationField : Windows.ApplicationModel.Contacts.IContactFi
 ## -description
 Contains information about a user's location and address.
 
+> [!NOTE]
+> [ContactLocationField](contactlocationfield.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactAddress](contactaddress.md).
+
 ## -remarks
 Your app receives a collection of ContactLocationField objects when a contact provider returns the requested contact information. You can access these objects through the ContactInformation.Location property.
 
 ## -examples
-This code example demonstrates the use of the **ContactInstantMessageField**
-<!--Is ContactInstantMessageField the right name to use here? It seems the example should be for ContactLocationField.-->
-object.
-
-
-
-[!code-js[ContactsKnownFields_location](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactsKnownFields_location)]
 
 ## -see-also
 

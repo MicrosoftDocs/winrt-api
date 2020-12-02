@@ -13,7 +13,7 @@ public bool IsDefault { get; }
 Indicates whether this [ResourceCandidate](resourcecandidate.md) can be used as a default fallback value for any context.
 
 ## -property-value
-**TRUE** if this candidate can be used as a default fallback value for any context, **FALSE** otherwise.
+`true` if this candidate can be used as a default fallback value for any context; otherwise, `false`.
 
 ## -remarks
 

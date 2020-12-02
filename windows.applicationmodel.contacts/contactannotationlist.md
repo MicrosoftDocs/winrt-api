@@ -25,6 +25,6 @@ Call one of the following methods to create or get an existing ContactAnnotation
 ## -examples
 
 ## -see-also
-[Contact Card integration sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703783)
+[Contact Card integration sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContactCardIntegration)
 ## -capabilities
 contactsSystem

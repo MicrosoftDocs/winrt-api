@@ -10,10 +10,12 @@ public bool IsDisabled { get; }
 # Windows.ApplicationModel.Contacts.ContactAnnotation.IsDisabled
 
 ## -description
-Gets a Boolean value indicating if this [ContactAnnotation](contactannotation.md) has been disabled by the user.
+
+Gets a Boolean value that indicates whether this [ContactAnnotation](contactannotation.md) has been disabled by the user.
 
 ## -property-value
-Boolean value indicating if this [ContactAnnotation](contactannotation.md) has been disabled by the user.
+
+`true` if this [ContactAnnotation](contactannotation.md) has been disabled by the user; otherwise, `false`.
 
 ## -remarks
 

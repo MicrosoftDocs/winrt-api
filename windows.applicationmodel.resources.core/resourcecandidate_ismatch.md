@@ -13,7 +13,7 @@ public bool IsMatch { get; }
 Indicates whether this [ResourceCandidate](resourcecandidate.md) matched the [ResourceContext](resourcecontext.md) against which it was evaluated.
 
 ## -property-value
-**TRUE** if the [ResourceCandidate](resourcecandidate.md) matched the context, **FALSE** otherwise.
+`true` if the [ResourceCandidate](resourcecandidate.md) matched the context; otherwise, `false`.
 
 ## -remarks
 

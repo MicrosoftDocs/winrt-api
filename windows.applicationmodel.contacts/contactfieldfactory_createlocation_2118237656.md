@@ -10,10 +10,11 @@ public Windows.ApplicationModel.Contacts.ContactLocationField CreateLocation(Sys
 # Windows.ApplicationModel.Contacts.ContactFieldFactory.CreateLocation
 
 ## -description
-> [!NOTE]
-> [IContactLocationFieldFactory](icontactlocationfieldfactory.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactAddress](contactaddress.md).
 
 Creates a field to contain information about a contact's location.
+
+> [!NOTE]
+> [IContactLocationFieldFactory](icontactlocationfieldfactory.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactAddress](contactaddress.md).
 
 ## -parameters
 ### -param unstructuredAddress

@@ -22,7 +22,7 @@ A [pinnedContactSurface](pinnedcontactsurface.md) value that specifies a pinning
 
 ## -returns
 
-A Boolean value that indicates whether the location in the Windows UI supports contact pinning.
+`true` if the location in the Windows UI supports contact pinning; otherwise, `false`.
 
 ## -remarks
 

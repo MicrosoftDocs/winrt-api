@@ -12,15 +12,14 @@ public void RemoveContact(System.String id)
 ## -description
 Removes a contact.
 
-> [!NOTE]
-> The [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) property must be set when you call RemoveContact. If [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) isn't set, your app won't be able to remove the contact.
-
 ## -parameters
 ### -param id
 The ID of the contact to remove.
 
 ## -remarks
 
+> [!NOTE]
+> The [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) property must be set when you call RemoveContact. If [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) isn't set, your app won't be able to remove the contact.
 
 ## -examples
 

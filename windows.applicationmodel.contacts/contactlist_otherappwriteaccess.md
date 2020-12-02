@@ -10,10 +10,10 @@ public Windows.ApplicationModel.Contacts.ContactListOtherAppWriteAccess OtherApp
 # Windows.ApplicationModel.Contacts.ContactList.OtherAppWriteAccess
 
 ## -description
-Gets or puts a value indicating the write access level to this [ContactList](contactlist.md) for other apps on the system.
+Gets or sets a value that indicates the write access level to this [ContactList](contactlist.md) for other apps on the system.
 
 ## -property-value
-A value indicating the write access level to this [ContactList](contactlist.md) for other apps on the system.
+A value that indicates the write access level to this [ContactList](contactlist.md) for other apps on the system.
 
 ## -remarks
 

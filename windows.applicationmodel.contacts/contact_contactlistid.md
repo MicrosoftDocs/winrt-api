@@ -10,10 +10,10 @@ public string ContactListId { get; }
 # Windows.ApplicationModel.Contacts.Contact.ContactListId
 
 ## -description
-Gets a string that identifies the [ContactList](contactlist.md) to which this contact is a member.
+Gets a string that identifies the [ContactList](contactlist.md) of which this contact is a member.
 
 ## -property-value
-A string that identifies the [ContactList](contactlist.md) to which this contact is a member.
+A string that identifies the [ContactList](contactlist.md) of which this contact is a member.
 
 ## -remarks
 
