@@ -12,6 +12,8 @@ public Windows.UI.Text.FontStretch FontStretch { get;  set; }
 ## -description
 Gets or sets the font stretch for the text content in this element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.FontStretch](/windows/winui/api/microsoft.ui.xaml.controls.textblock.fontstretch).
+
 ## -xaml-syntax
 ```xaml
 <TextBlock FontStretch="fontStretchMemberName"/>

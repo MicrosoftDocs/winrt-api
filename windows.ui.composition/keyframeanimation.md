@@ -12,6 +12,8 @@ public class KeyFrameAnimation : Windows.UI.Composition.CompositionAnimation, Wi
 ## -description
 A time-based animation with one or more key frames. These frames are markers, allowing developers to specify values at specific times for the animating property. KeyFrame animations can be further customized by specifying how the animation interpolates between keyframes.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.KeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.keyframeanimation).
+
 ## -remarks
 
 An animation is associated with an object's property by calling [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) and specifying the property name and the animation. See the remarks section of [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) for a list of animatable properties. See [Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation) for additional information on [ExpressionAnimation](expressionanimation.md)s.

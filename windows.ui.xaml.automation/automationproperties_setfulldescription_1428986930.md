@@ -12,6 +12,8 @@ public void SetFullDescription(Windows.UI.Xaml.DependencyObject element, System.
 ## -description
 Sets a localized string that describes the visual appearance or contents of the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetFullDescription](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setfulldescription).
+
 ## -parameters
 ### -param element
 The object for which to set the full description.

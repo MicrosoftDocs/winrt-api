@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty ColumnHeadersProperty { get
 ## -description
 Identifies the automation property that is accessed by the [GetColumnHeaders](../windows.ui.xaml.automation.provider/itableprovider_getcolumnheaders_680116478.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.TablePatternIdentifiers.ColumnHeadersProperty](/windows/winui/api/microsoft.ui.xaml.automation.tablepatternidentifiers.columnheadersproperty).
+
 ## -property-value
 The automation property identifier.
 

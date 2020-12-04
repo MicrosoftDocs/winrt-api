@@ -12,6 +12,8 @@ public string HeaderText { get; }
 ## -description
 Gets the text of the header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.HeaderText](/windows/winui/api/microsoft.ui.xaml.controls.primitives.calendarviewtemplatesettings.headertext).
+
 ## -property-value
 The text of the header.
 

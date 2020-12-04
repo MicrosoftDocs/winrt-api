@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AnnotationType[] GetAnnotationTypes()
 ## -description
 Returns an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ISpreadsheetItemProvider.GetAnnotationTypes](/windows/winui/api/microsoft.ui.xaml.automation.provider.ispreadsheetitemprovider.getannotationtypes).
+
 ## -returns
 An array of annotation type identifiers, which contains one entry for each type of annotation associated with the spreadsheet cell. For a list of possible values, see [AnnotationType](../windows.ui.xaml.automation/annotationtype.md).
 

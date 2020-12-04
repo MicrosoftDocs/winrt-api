@@ -14,6 +14,8 @@ Clips a portion of a visual. The visible portion of the visual is a rectangle de
 
 InsetClips are defined using offsets from the bottom, left, right and top of the Visual to be clipped in pixels. It is possible to fully clip the entire Visual. Negative values are allowed. InsetClips support all the same transforms as Visuals except the 4x4 matrix. Unlike Visuals, InsetClips are 2D and are defined, instead, with a 3x2 matrix. InsetClip properties are fully animatable.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.InsetClip](/windows/winui/api/microsoft.ui.composition.insetclip).
+
 ## -remarks
 
 ## -examples

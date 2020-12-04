@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush BorderBrush { get;  set; }
 ## -description
 Gets or sets a brush that describes the border fill of a control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.BorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.control.borderbrush).
+
 ## -xaml-syntax
 ```xaml
 <control Background="{StaticResource resourceName}"/>

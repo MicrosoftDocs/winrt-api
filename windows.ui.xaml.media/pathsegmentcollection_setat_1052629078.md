@@ -12,6 +12,8 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Media.PathSegment value)
 ## -description
 Sets the value at the specified index to the [PathSegment](pathsegment.md) value specified.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathSegmentCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.pathsegmentcollection.setat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

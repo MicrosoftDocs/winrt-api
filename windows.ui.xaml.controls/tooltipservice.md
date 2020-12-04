@@ -12,6 +12,8 @@ public class ToolTipService : Windows.UI.Xaml.Controls.IToolTipService
 ## -description
 Represents a service that provides static methods to display a [ToolTip](tooltip.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ToolTipService](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice).
+
 ## -remarks
 
 A [ToolTip](tooltip.md) must be assigned to another UI element that is its owner. In Extensible Application Markup Language (XAML), use the ToolTipService.ToolTip attached property to assign the [ToolTip](tooltip.md) to an owner. In code, use the [ToolTipService.SetToolTip](tooltipservice_settooltip_1924909593.md) method to assign the [ToolTip](tooltip.md) to an owner.

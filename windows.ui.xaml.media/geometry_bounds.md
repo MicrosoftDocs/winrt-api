@@ -12,6 +12,8 @@ public Windows.Foundation.Rect Bounds { get; }
 ## -description
 Gets a [Rect](../windows.foundation/rect.md) that specifies the axis-aligned bounding box of the [Geometry](geometry.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Geometry.Bounds](/windows/winui/api/microsoft.ui.xaml.media.geometry.bounds).
+
 ## -property-value
 The axis-aligned bounding box of the [Geometry](geometry.md).
 

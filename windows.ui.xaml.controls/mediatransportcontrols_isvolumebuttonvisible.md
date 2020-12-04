@@ -12,6 +12,8 @@ public bool IsVolumeButtonVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the volume button is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsVolumeButtonVisible](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isvolumebuttonvisible).
+
 ## -xaml-syntax
 ```xaml
 

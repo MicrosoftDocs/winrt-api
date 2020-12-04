@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty OpenedTargetNameProperty { get; }
 ## -description
 Identifies the [OpenedTargetName](splitopenthemeanimation_openedtargetname.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation.OpenedTargetNameProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation.openedtargetnameproperty).
+
 ## -property-value
 The identifier for the [OpenedTargetName](splitopenthemeanimation_openedtargetname.md) dependency property.
 

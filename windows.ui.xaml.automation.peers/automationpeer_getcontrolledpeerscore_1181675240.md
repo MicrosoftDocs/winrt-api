@@ -12,6 +12,8 @@ virtual protected Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Aut
 ## -description
 Gets a list of the controlled peers for the current automation peer.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetControlledPeersCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getcontrolledpeerscore).
+
 ## -returns
 A list of the controlled peers for the current automation peer.
 

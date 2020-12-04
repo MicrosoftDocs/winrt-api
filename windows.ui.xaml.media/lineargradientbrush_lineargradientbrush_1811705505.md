@@ -12,6 +12,8 @@ public LinearGradientBrush(Windows.UI.Xaml.Media.GradientStopCollection gradient
 ## -description
 Initializes a new instance of the [LinearGradientBrush](lineargradientbrush.md) class that has the specified [GradientStopCollection](gradientstopcollection.md) and angle.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.LinearGradientBrush.LinearGradientBrush](/windows/winui/api/microsoft.ui.xaml.media.lineargradientbrush.#ctor).
+
 ## -parameters
 ### -param gradientStopCollection
 The [GradientStops](gradientbrush_gradientstops.md) to set on this brush.

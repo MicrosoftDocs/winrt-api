@@ -12,6 +12,8 @@ public void Play(Windows.UI.Xaml.ElementSoundKind sound)
 ## -description
 Plays the specified sound.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.ElementSoundPlayer.Play](/windows/winui/api/microsoft.ui.xaml.elementsoundplayer.play).
+
 ## -parameters
 ### -param sound
 A value of the enumeration that specifies the sound to play.

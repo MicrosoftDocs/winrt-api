@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationLiveSetting : int
 ## -description
 Describes the notification characteristics of a particular live region in an app UI. Used by [GetLiveSetting](automationpeer_getlivesetting_295263812.md) and [AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties).
 
+Equivalent WinUI enum: [AutomationLiveSetting](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationlivesetting).
+
 ## -xaml-syntax
 ```xaml
 <object property="enumMemberName" .../>

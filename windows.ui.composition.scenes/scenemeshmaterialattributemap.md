@@ -14,6 +14,8 @@ public class SceneMeshMaterialAttributeMap : SceneObject, SceneObject, IIterable
 
 Represents a collection of material attributes for a scene mesh as key/value pairs.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.SceneMeshMaterialAttributeMap](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshmaterialattributemap).
+
 ## -remarks
 
 ## -see-also

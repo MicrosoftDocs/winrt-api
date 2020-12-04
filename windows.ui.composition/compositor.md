@@ -15,6 +15,8 @@ Manages the session between an application and the system compositor process.
 
 The Compositor class creates an instance of the Compositor for the application that can be used as a factory for a variety of types in the Windows.UI.Composition namespace spanning the visual layer, effects system and animation system. The Compositor class also manages the lifetime of objects created from the factory.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Compositor](/windows/winui/api/microsoft.ui.composition.compositor).
+
 ## -remarks
 
 The Compositor implicitly synchronizes changes made to associated visuals to ensure they get applied in a transactional manner.

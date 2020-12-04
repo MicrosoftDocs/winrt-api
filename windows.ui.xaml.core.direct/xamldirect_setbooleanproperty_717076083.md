@@ -13,6 +13,8 @@ public void XamlDirect.SetBooleanProperty(IXamlDirectObject xamlDirectObject, Xa
 ## -description
 Sets the value of a _Boolean_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetBooleanProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setbooleanproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

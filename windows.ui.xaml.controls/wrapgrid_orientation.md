@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Orientation Orientation { get;  set; }
 ## -description
 Gets or sets the direction in which child elements are arranged.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.WrapGrid.Orientation](/windows/winui/api/microsoft.ui.xaml.controls.wrapgrid.orientation).
+
 ## -xaml-syntax
 ```xaml
 WrapGrid Orientation="orientationMemberName" />

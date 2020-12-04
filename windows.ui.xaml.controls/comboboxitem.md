@@ -12,6 +12,8 @@ public class ComboBoxItem : Windows.UI.Xaml.Controls.Primitives.SelectorItem, Wi
 ## -description
 Represents the container for an item in a [ComboBox](combobox.md) control.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ComboBoxItem](/windows/winui/api/microsoft.ui.xaml.controls.comboboxitem).
+
 ## -xaml-syntax
 ```xaml
 <ComboBoxItem .../>

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PositionInSetProperty { get; }
 ## -description
 Gets the identifier for the **PositionInSet** attached property, which is a 1-based integer associated with an automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.PositionInSetProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.positioninsetproperty).
+
 ## -property-value
 The identifier for the **PositionInSet** attached property.
 

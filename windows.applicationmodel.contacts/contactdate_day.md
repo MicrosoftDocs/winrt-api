@@ -10,7 +10,7 @@ public Windows.Foundation.IReference<uint> Day { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactDate.Day
 
 ## -description
-Gets and sets the day for an important date for a contact.
+Gets or sets the day for an important date for a contact.
 
 ## -property-value
 The day for an important date for a contact.

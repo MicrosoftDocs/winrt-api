@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LightDismissOverlayModeProperty { get;
 ## -description
 Identifies the [LightDismissOverlayMode](appbar_lightdismissoverlaymode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBar.LightDismissOverlayModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbar.lightdismissoverlaymodeproperty).
+
 ## -property-value
 The identifier for the [LightDismissOverlayMode](appbar_lightdismissoverlaymode.md) dependency property.
 

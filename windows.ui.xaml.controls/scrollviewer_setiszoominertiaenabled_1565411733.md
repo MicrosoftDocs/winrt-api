@@ -12,6 +12,8 @@ public void SetIsZoomInertiaEnabled(Windows.UI.Xaml.DependencyObject element, Sy
 ## -description
 Sets the value of the [IsZoomInertiaEnabled](scrollviewer_iszoominertiaenabled.md) dependency property / `ScrollViewer.IsZoomInertiaEnabled` XAML attached property on a specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.SetIsZoomInertiaEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.setiszoominertiaenabled).
+
 ## -parameters
 ### -param element
 The element on which to set the property value.

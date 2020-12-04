@@ -12,6 +12,8 @@ public bool IsCompact { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the button is shown with no label and reduced padding.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarButton.IsCompact](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton.iscompact).
+
 ## -xaml-syntax
 ```xaml
 <AppBarButton IsCompact="bool" .../>

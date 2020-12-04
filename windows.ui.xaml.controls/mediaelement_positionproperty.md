@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PositionProperty { get; }
 ## -description
 Identifies the [Position](mediaelement_position.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.PositionProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.positionproperty).
+
 ## -property-value
 The identifier the [Position](mediaelement_position.md) dependency property.
 

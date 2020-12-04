@@ -14,6 +14,8 @@ public DependencyProperty AreOpenCloseAnimationsEnabledProperty { get; }
 
 Identifies the [AreOpenCloseAnimationsEnabled](flyoutbase_areopencloseanimationsenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AreOpenCloseAnimationsEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.areopencloseanimationsenabledproperty).
+
 ## -property-value
 
 The identifier for the [AreOpenCloseAnimationsEnabled](flyoutbase_areopencloseanimationsenabled.md) dependency property.

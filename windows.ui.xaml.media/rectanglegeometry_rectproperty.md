@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty RectProperty { get; }
 ## -description
 Identifies the [Rect](rectanglegeometry_rect.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.RectangleGeometry.RectProperty](/windows/winui/api/microsoft.ui.xaml.media.rectanglegeometry.rectproperty).
+
 ## -property-value
 The identifier for the [Rect](rectanglegeometry_rect.md)  dependency property.
 

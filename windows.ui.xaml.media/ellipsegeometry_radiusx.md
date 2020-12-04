@@ -12,6 +12,8 @@ public double RadiusX { get;  set; }
 ## -description
 Gets or sets the x-radius value of the [EllipseGeometry](ellipsegeometry.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.EllipseGeometry.RadiusX](/windows/winui/api/microsoft.ui.xaml.media.ellipsegeometry.radiusx).
+
 ## -xaml-syntax
 ```xaml
 <EllipseGeometry RadiusX="double"/>

@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionBackfaceVisibility BackfaceVisibility {
 ## -description
 Specifies whether the back face of the visual should be visible during a 3D transform.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Visual.BackfaceVisibility](/windows/winui/api/microsoft.ui.composition.visual.backfacevisibility).
+
 ## -property-value
 Whether the back face of the visual should be visible during a 3D transform.
 

@@ -12,6 +12,8 @@ public double MaxZoom { get; }
 ## -description
 Gets the maximum zoom level of the element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.MaxZoom](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider2.maxzoom).
+
 ## -property-value
 The maximum zoom level, as a percentage.
 

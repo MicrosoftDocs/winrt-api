@@ -12,6 +12,8 @@ public double OverflowContentHorizontalOffset { get; }
 ## -description
 Gets the horizontal offset value of the overflow content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings.OverflowContentHorizontalOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.commandbartemplatesettings.overflowcontenthorizontaloffset).
+
 ## -property-value
 The horizontal offset value of the overflow content.
 

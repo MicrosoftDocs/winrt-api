@@ -12,6 +12,8 @@ public void Cut()
 ## -description
 Moves the text of the text range to the Clipboard.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.Cut](/windows/winui/api/microsoft.ui.text.itextrange.cut).
+
 ## -remarks
 > [!NOTE]
 > On Windows Phone, this method throws an exception. Programmatic access to the clipboard is not supported on Windows Phone.

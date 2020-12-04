@@ -12,6 +12,8 @@ public interface ISupportIncrementalLoading :
 ## -description
 Specifies a calling contract for collection views that support incremental loading.
 
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Data.ISupportIncrementalLoading](/windows/winui/api/microsoft.ui.xaml.data.isupportincrementalloading).
+
 ## -remarks
 
 ## -examples

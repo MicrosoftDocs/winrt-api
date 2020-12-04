@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.Primitives.TickPlacement : int
 ## -description
 Defines constants that specify the position of tick marks in a [Slider](../windows.ui.xaml.controls/slider.md) in relation to the track that the control implements.
 
+Equivalent WinUI enum: [TickPlacement](/windows/winui/api/microsoft.ui.xaml.controls.primitives.tickplacement).
+
 ## -enum-fields
 ### -field None:0
 No tick marks appear.

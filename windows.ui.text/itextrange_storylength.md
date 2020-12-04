@@ -12,6 +12,8 @@ public int StoryLength { get; }
 ## -description
 Gets the count of characters in the story of the text range.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextRange.StoryLength](/windows/winui/api/microsoft.ui.text.itextrange.storylength).
+
 ## -property-value
 The count of characters in the story.
 

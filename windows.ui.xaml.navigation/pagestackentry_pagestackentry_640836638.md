@@ -12,6 +12,8 @@ public PageStackEntry(Windows.UI.Xaml.Interop.TypeName sourcePageType, System.Ob
 ## -description
 Initializes a new instance of the [PageStackEntry](pagestackentry.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Navigation.PageStackEntry.PageStackEntry](/windows/winui/api/microsoft.ui.xaml.navigation.pagestackentry.#ctor).
+
 ## -parameters
 ### -param sourcePageType
 The type of page associated with the navigation entry, as a type reference ([System.Type](/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).

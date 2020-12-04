@@ -12,6 +12,8 @@ public double FromHorizontalOffset { get;  set; }
 ## -description
 Gets or sets the distance by which the target is translated in the horizontal direction when the animation is active.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PopInThemeAnimation.FromHorizontalOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.popinthemeanimation.fromhorizontaloffset).
+
 ## -xaml-syntax
 ```xaml
 <PopInThemeAnimation FromHorizontalOffset="double" />

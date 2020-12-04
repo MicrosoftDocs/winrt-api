@@ -12,6 +12,8 @@ public event TypedEventHandler Tick<DispatcherQueueTimer,  object>
 ## -description
 Event that fires when the timer **Interval** elapses.
 
+Equivalent WinUI event: [Microsoft.System.DispatcherQueueTimer.Tick](/windows/winui/api/microsoft.system.dispatcherqueuetimer.tick).
+
 ## -remarks
 
 ## -see-also

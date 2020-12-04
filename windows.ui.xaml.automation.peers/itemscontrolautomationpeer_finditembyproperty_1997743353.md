@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple FindItemByP
 ## -description
 Retrieves an element by the specified property value.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.ItemsControlAutomationPeer.FindItemByProperty](/windows/winui/api/microsoft.ui.xaml.automation.peers.itemscontrolautomationpeer.finditembyproperty).
+
 ## -parameters
 ### -param startAfter
 The item in the container after which to begin the search.

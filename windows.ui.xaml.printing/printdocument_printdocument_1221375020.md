@@ -12,6 +12,8 @@ public PrintDocument()
 ## -description
 Initializes a new instance of the [PrintDocument](printdocument.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Printing.PrintDocument.PrintDocument](/windows/winui/api/microsoft.ui.xaml.printing.printdocument.#ctor).
+
 ## -remarks
 
 ## -examples

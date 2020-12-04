@@ -13,6 +13,8 @@ public Windows.UI.Text.TextScript TextScript { get;  set; }
 
 Gets or sets the character repertoire.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.TextScript](/windows/winui/api/microsoft.ui.text.itextcharacterformat.textscript).
+
 ## -property-value
 
 The character repertoire.

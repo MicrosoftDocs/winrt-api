@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AcceleratorKeyProperty { get; }
 ## -description
 Identifies the [AutomationProperties.AcceleratorKey](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property, which is a string containing the accelerator key (also called shortcut key) combinations for the automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.AcceleratorKeyProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.acceleratorkeyproperty).
+
 ## -property-value
 The identifier for the [AutomationProperties.AcceleratorKey](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property.
 

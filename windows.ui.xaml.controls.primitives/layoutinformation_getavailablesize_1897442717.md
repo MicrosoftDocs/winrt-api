@@ -13,6 +13,8 @@ public Size LayoutInformation.GetAvailableSize(UIElement element)
 
 Returns the Size value that was most recently used to measure the specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.LayoutInformation.GetAvailableSize](/windows/winui/api/microsoft.ui.xaml.controls.primitives.layoutinformation.getavailablesize).
+
 ## -parameters
 
 ### -param element

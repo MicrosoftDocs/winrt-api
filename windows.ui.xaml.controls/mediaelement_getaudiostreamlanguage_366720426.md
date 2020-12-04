@@ -12,6 +12,8 @@ public string GetAudioStreamLanguage(Windows.Foundation.IReference<System.Int32>
 ## -description
 Returns the RFC 1766 language for the specified audio stream.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaElement.GetAudioStreamLanguage](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.getaudiostreamlanguage).
+
 ## -parameters
 ### -param index
 The index of the stream to get the language for.

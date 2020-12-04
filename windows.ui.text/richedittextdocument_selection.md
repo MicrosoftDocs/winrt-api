@@ -12,6 +12,8 @@ public ITextSelection Selection { get; }
 ## -description
 Gets the active text selection.
 
+Equivalent WinUI property: [Microsoft.UI.Text.RichEditTextDocument.Selection](/windows/winui/api/microsoft.ui.text.richedittextdocument.selection).
+
 ## -property-value
 The active text selection.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SelectedTextProperty { get; }
 ## -description
 Identifies the [SelectedText](textblock_selectedtext.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.SelectedTextProperty](/windows/winui/api/microsoft.ui.xaml.controls.textblock.selectedtextproperty).
+
 ## -property-value
 The identifier for the [SelectedText](textblock_selectedtext.md) dependency property.
 

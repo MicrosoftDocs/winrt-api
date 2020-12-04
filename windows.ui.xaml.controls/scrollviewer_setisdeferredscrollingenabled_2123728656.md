@@ -12,6 +12,8 @@ public void SetIsDeferredScrollingEnabled(Windows.UI.Xaml.DependencyObject eleme
 ## -description
 Sets the value of the [IsDeferredScrollingEnabled](scrollviewer_isdeferredscrollingenabled.md) dependency property / `ScrollViewer.IsDeferredScrollingEnabled` XAML attached property on a specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.SetIsDeferredScrollingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.setisdeferredscrollingenabled).
+
 ## -parameters
 ### -param element
 The element on which to set the property value.

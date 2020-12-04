@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush PressedBorderBrush { get;  set; }
 ## -description
 Gets or sets a brush that provides the border of a calendar item while it's pressed.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.PressedBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.pressedborderbrush).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView PressedBorderBrush="{StaticResource resourceName}"/>

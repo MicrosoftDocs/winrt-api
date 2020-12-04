@@ -15,6 +15,8 @@ Represents the method that will handle the [CollectionChanged](inotifycollection
 > **.NET**
 > This interface appears as [System.Collections.Specialized.NotifyCollectionChangedEventHandler](/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler?redirectedfrom=MSDN).
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the handler is attached.

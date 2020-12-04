@@ -12,6 +12,8 @@ public double ViewportWidth { get; }
 ## -description
 Gets the horizontal size of the viewable content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ViewportWidth](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.viewportwidth).
+
 ## -property-value
 The horizontal size of the viewable content.
 

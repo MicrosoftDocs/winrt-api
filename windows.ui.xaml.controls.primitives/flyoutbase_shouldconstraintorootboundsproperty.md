@@ -14,6 +14,8 @@ public DependencyProperty ShouldConstrainToRootBoundsProperty { get; }
 
 Identifies the [ShouldConstrainToRootBounds](flyoutbase_shouldconstraintorootbounds.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShouldConstrainToRootBoundsProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.shouldconstraintorootboundsproperty).
+
 ## -property-value
 
 The identifier for the [ShouldConstrainToRootBounds](flyoutbase_shouldconstraintorootbounds.md) dependency property.

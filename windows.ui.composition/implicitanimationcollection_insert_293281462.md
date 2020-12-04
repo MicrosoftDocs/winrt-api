@@ -12,6 +12,8 @@ public bool Insert(System.String key, Windows.UI.Composition.ICompositionAnimati
 ## -description
 Inserts an animation into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.ImplicitAnimationCollection.Insert](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.insert).
+
 ## -parameters
 ### -param key
 The property the animation affects.

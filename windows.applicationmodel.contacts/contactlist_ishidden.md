@@ -10,10 +10,10 @@ public bool IsHidden { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactList.IsHidden
 
 ## -description
-Gets or puts a Boolean value indicating of the [ContactList](contactlist.md) is hidden in the user interface.
+Gets or sets a Boolean value that indicates whether the [ContactList](contactlist.md) is hidden in the user interface.
 
 ## -property-value
-A Boolean value indicating of the [ContactList](contactlist.md) is hidden in the user interface.
+`true` if the [ContactList](contactlist.md) is hidden in the user interface; otherwise, `false`.
 
 ## -remarks
 

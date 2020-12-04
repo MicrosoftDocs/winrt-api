@@ -12,6 +12,8 @@ public void SetLandmarkType(Windows.UI.Xaml.DependencyObject element, Windows.UI
 ## -description
 Sets the value of the landmark type attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetLandmarkType](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setlandmarktype).
+
 ## -parameters
 ### -param element
 The specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).

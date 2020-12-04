@@ -13,6 +13,8 @@ public Windows.UI.Color LightGoldenrodYellow { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFAFAD2.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.LightGoldenrodYellow](/windows/winui/api/microsoft.ui.colors.lightgoldenrodyellow).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFFAFAD2.

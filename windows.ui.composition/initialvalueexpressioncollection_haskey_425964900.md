@@ -13,6 +13,8 @@ public bool InitialValueExpressionCollection.HasKey(String key)
 
 Returns a value that indicates whether the collection contains the specified key.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.InitialValueExpressionCollection.HasKey](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.haskey).
+
 ## -parameters
 
 ### -param key

@@ -12,6 +12,8 @@ public DataTemplateSelector()
 ## -description
 Initializes a new instance of the [DataTemplateSelector](datatemplateselector.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.DataTemplateSelector.DataTemplateSelector](/windows/winui/api/microsoft.ui.xaml.controls.datatemplateselector.#ctor).
+
 ## -remarks
 
 ## -examples

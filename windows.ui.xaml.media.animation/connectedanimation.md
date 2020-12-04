@@ -12,6 +12,8 @@ public class ConnectedAnimation : Windows.UI.Xaml.Media.Animation.IConnectedAnim
 ## -description
 Represents an animation that simultaneously animates the exit of one element and the entrance of another element.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimation).
+
 ## -remarks
 A ConnectedAnimation instance is returned by the [ConnectedAnimationService.GetAnimation](connectedanimationservice_getanimation_1121981282.md) and [ConnectedAnimationService.PrepareToAnimate](connectedanimationservice_preparetoanimate_910589761.md) methods.
 

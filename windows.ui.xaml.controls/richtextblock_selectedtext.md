@@ -12,6 +12,8 @@ public string SelectedText { get; }
 ## -description
 Gets a text range of selected text.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.SelectedText](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.selectedtext).
+
 ## -property-value
 A text range of the selected text.
 

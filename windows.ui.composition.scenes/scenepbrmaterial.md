@@ -14,6 +14,8 @@ public class ScenePbrMaterial : SceneMaterial, SceneMaterial
 
 Represents a material that uses Physically Based Rendering (PBR).
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial).
+
 ## -remarks
 
 ## -see-also

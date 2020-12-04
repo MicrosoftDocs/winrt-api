@@ -12,6 +12,8 @@ public GroupStyleSelector()
 ## -description
 Initializes a new instance of the [GroupStyleSelector](groupstyleselector.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.GroupStyleSelector.GroupStyleSelector](/windows/winui/api/microsoft.ui.xaml.controls.groupstyleselector.#ctor).
+
 ## -remarks
 
 ## -examples

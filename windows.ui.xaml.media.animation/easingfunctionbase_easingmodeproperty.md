@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty EasingModeProperty { get; }
 ## -description
 Identifies the [EasingMode](easingfunctionbase_easingmode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.EasingFunctionBase.EasingModeProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.easingfunctionbase.easingmodeproperty).
+
 ## -property-value
 The identifier for the [EasingMode](easingfunctionbase_easingmode.md) dependency property.
 

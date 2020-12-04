@@ -14,6 +14,8 @@ static public event EventHandler LostFocus<FocusManagerLostFocusEventArgs>
 
 Occurs when an element within a container element (a focus scope) loses focus. This event is raised asynchronously, so focus might move again before bubbling is complete.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Input.FocusManager.LostFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.lostfocus).
+
 ## -remarks
 
 We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.

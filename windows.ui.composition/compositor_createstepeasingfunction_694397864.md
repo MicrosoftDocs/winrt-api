@@ -12,6 +12,8 @@ public Windows.UI.Composition.StepEasingFunction CreateStepEasingFunction(System
 ## -description
 Creates an instance of [StepEasingFunction](stepeasingfunction.md) with the specified step count.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateStepEasingFunction](/windows/winui/api/microsoft.ui.composition.compositor.createstepeasingfunction).
+
 ## -parameters
 ### -param stepCount
 The step count for the [StepEasingFunction](stepeasingfunction.md).

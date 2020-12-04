@@ -13,6 +13,8 @@ public Rect XamlDirect.GetRectProperty(IXamlDirectObject xamlDirectObject, XamlP
 ## -description
 Gets the value of a [Rect](../windows.foundation/rect.md)  property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetRectProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getrectproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ShowsScrollingPlaceholdersProperty { g
 ## -description
 Identifies the [ShowsScrollingPlaceholders](listviewbase_showsscrollingplaceholders.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.ShowsScrollingPlaceholdersProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.showsscrollingplaceholdersproperty).
+
 ## -property-value
 The identifier for the [ShowsScrollingPlaceholders](listviewbase_showsscrollingplaceholders.md) dependency property.
 

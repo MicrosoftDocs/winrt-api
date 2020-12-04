@@ -12,6 +12,8 @@ public Compositor Compositor { get; }
 ## -description
 Gets the [Compositor](../windows.ui.composition/compositor.md) for this window.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Window.Compositor](/windows/winui/api/microsoft.ui.xaml.window.compositor).
+
 ## -property-value
 The [Compositor](../windows.ui.composition/compositor.md) for this window.
 

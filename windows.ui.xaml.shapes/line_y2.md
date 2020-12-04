@@ -12,6 +12,8 @@ public double Y2 { get;  set; }
 ## -description
 Gets or sets the y-coordinate of the [Line](line.md) end point.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Line.Y2](/windows/winui/api/microsoft.ui.xaml.shapes.line.y2).
+
 ## -xaml-syntax
 ```xaml
 <Line Y2="double"/>

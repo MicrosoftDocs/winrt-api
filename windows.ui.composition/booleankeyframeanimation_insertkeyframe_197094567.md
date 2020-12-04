@@ -14,6 +14,8 @@ public void BooleanKeyFrameAnimation.InsertKeyFrame(Single normalizedProgressKey
 
 Inserts a key frame.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.BooleanKeyFrameAnimation.InsertKeyFrame](/windows/winui/api/microsoft.ui.composition.booleankeyframeanimation.insertkeyframe).
+
 ## -parameters
 ### -param normalizedProgressKey
 

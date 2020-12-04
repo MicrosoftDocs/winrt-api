@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AnnotationType Type { get;  set; }
 ## -description
 Gets or sets the type of the annotation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.Type](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeerannotation.type).
+
 ## -property-value
 The type of the annotation.
 

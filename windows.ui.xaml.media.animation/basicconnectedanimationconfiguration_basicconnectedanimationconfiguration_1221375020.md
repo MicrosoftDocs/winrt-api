@@ -13,6 +13,8 @@ public BasicConnectedAnimationConfiguration.BasicConnectedAnimationConfiguration
 ## -description
 Initializes a new instance of the BasicConnectedAnimationConfiguration class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.BasicConnectedAnimationConfiguration.BasicConnectedAnimationConfiguration](/windows/winui/api/microsoft.ui.xaml.media.animation.basicconnectedanimationconfiguration.#ctor).
+
 ## -remarks
 
 ## -see-also

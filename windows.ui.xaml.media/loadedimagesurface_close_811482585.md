@@ -14,6 +14,8 @@ public void LoadedImageSurface.Close()
 
 Disposes of the [LoadedImageSurface](loadedimagesurface.md) and associated resources.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.LoadedImageSurface.Close](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface.close).
+
 ## -remarks
 
 Calling this method will dispose the [LoadedImageSurface](loadedimagesurface.md) reference, however any brushes or surfaces created from the **LoadedImageSurface** that still have active references will 

@@ -12,6 +12,8 @@ public bool IsTextScaleFactorEnabled { get;  set; }
 ## -description
 Gets or sets whether automatic text enlargement, to reflect the system text size setting, is enabled.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.IsTextScaleFactorEnabled](/windows/winui/api/microsoft.ui.xaml.controls.textblock.istextscalefactorenabled).
+
 ## -xaml-syntax
 ```xaml
 <TextBlock IsTextScaleFactorEnabled="bool"/>

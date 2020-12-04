@@ -13,6 +13,8 @@ public class ListView : Windows.UI.Xaml.Controls.ListViewBase, Windows.UI.Xaml.C
 
 Represents a control that displays data items in a vertical stack.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ListView](/windows/winui/api/microsoft.ui.xaml.controls.listview).
+
 ## -xaml-syntax
 
 ```xaml

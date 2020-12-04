@@ -10,10 +10,10 @@ public string Address { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactEmail.Address
 
 ## -description
-Gets and sets the email address of a contact. The maximum string length for the description is 321 characters.
+Gets or sets the email address of a contact. The maximum string length for the description is 321 characters.
 
 ## -property-value
-The email address of a contact.
+The email address of a contact. The maximum string length for the description is 321 characters.
 
 ## -remarks
 

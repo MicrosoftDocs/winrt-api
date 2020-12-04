@@ -10,6 +10,8 @@ public delegate void SemanticZoomViewChangedEventHandler(System.Object sender, W
 ## -description
 Represents the method that will handle the [ViewChangeStarted](semanticzoom_viewchangestarted.md) and [ViewChangeCompleted](semanticzoom_viewchangecompleted.md) events.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.semanticzoomviewchangedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the handler is attached.

@@ -12,6 +12,8 @@ public class Setter : Windows.UI.Xaml.SetterBase, Windows.UI.Xaml.ISetter, Windo
 ## -description
 Applies a value to a property in a [Style](style.md) or a [VisualState](visualstate.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Setter](/windows/winui/api/microsoft.ui.xaml.setter).
+
 ## -xaml-syntax
 ```xaml
 <Setter .../>

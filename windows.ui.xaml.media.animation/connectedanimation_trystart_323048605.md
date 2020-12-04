@@ -12,6 +12,8 @@ public bool TryStart(Windows.UI.Xaml.UIElement destination)
 ## -description
 Attempts to start the animation.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimation.TryStart](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimation.trystart).
+
 ## -parameters
 ### -param destination
 The element that is animated into view.

@@ -12,6 +12,8 @@ public FindNextElementOptions.FindNextElementOptions()
 ## -description
 Initializes a new instance of the [FindNextElementOptions](findnextelementoptions.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.FindNextElementOptions.FindNextElementOptions](/windows/winui/api/microsoft.ui.xaml.input.findnextelementoptions.#ctor).
+
 ## -remarks
 
 ## -see-also

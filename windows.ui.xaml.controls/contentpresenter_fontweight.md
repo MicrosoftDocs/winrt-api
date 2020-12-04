@@ -12,6 +12,8 @@ public Windows.UI.Text.FontWeight FontWeight { get;  set; }
 ## -description
 Gets or sets the top-level font weight for the text content presented by the [ContentPresenter](contentpresenter.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.FontWeight](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.fontweight).
+
 ## -xaml-syntax
 ```xaml
 <ContentPresenter FontWeight="fontWeightsValue"/>

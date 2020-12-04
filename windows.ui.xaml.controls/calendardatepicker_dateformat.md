@@ -12,6 +12,8 @@ public string DateFormat { get;  set; }
 ## -description
 Gets or sets the display format for the date value in the picker's text box.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.DateFormat](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.dateformat).
+
 ## -xaml-syntax
 ```xaml
 <CalendarDatePicker DateFormat="formatString"/>

@@ -12,6 +12,8 @@ public void InvalidatePeer()
 ## -description
 Triggers recalculation of the main properties of the [AutomationPeer](automationpeer.md) and raises the [PropertyChanged](automationpeer_raisepropertychangedevent_715050195.md) notification to the automation client if the properties have changed.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.InvalidatePeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.invalidatepeer).
+
 ## -remarks
 
 ## -examples

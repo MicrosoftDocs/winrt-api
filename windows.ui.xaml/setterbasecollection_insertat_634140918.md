@@ -12,6 +12,8 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.SetterBase value)
 ## -description
 Inserts the specified item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.SetterBaseCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.setterbasecollection.insertat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

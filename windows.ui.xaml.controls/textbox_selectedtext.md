@@ -12,6 +12,8 @@ public string SelectedText { get;  set; }
 ## -description
 Gets or sets the content of the current selection in the text box.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.SelectedText](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectedtext).
+
 ## -xaml-syntax
 ```xaml
 <TextBox SelectedText="string"/>

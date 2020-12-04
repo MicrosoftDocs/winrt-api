@@ -10,10 +10,10 @@ public string StreetAddress { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactAddress.StreetAddress
 
 ## -description
-Gets and sets the street address of a contact address. The maximum string length for the street address is 1024 characters.
+Gets or sets the street address of a contact address. The maximum string length for the street address is 1024 characters.
 
 ## -property-value
-The street address of a contact address.
+The street address of a contact address. The maximum string length for the street address is 1024 characters.
 
 ## -remarks
 

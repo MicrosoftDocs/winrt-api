@@ -13,6 +13,8 @@ public XYFocusKeyboardNavigationMode XYFocusKeyboardNavigation { get;  set; }
 
 Gets or sets a value that enables or disables navigation using the keyboard directional arrows.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.XYFocusKeyboardNavigation](/windows/winui/api/microsoft.ui.xaml.uielement.xyfocuskeyboardnavigation).
+
 ## -xaml-syntax
 
 ```xaml

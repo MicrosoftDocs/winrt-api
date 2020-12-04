@@ -12,6 +12,8 @@ public RightTappedRoutedEventArgs()
 ## -description
 Initializes a new instance of the [RightTappedRoutedEventArgs](righttappedroutedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.RightTappedRoutedEventArgs.RightTappedRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.righttappedroutedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

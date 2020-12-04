@@ -14,6 +14,8 @@ public RedirectVisual Compositor.CreateRedirectVisual(Visual source)
 
 Creates an instance of [RedirectVisual](redirectvisual.md) using the specified source.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateRedirectVisual](/windows/winui/api/microsoft.ui.composition.compositor.createredirectvisual).
+
 ## -parameters
 ### -param source
 

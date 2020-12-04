@@ -12,6 +12,8 @@ public float RightInset { get;  set; }
 ## -description
 Inset from the right edge of the source content that specifies the thickness of the right column. Defaults to 0.0f.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionNineGridBrush.RightInset](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.rightinset).
+
 ## -property-value
 Inset from the right edge of the source content that specifies the thickness of the right column. Defaults to 0.0f.
 

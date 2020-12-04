@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PlaceholderTextProperty { get; }
 ## -description
 Identifies the [PlaceholderText](combobox_placeholdertext.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.PlaceholderTextProperty](/windows/winui/api/microsoft.ui.xaml.controls.combobox.placeholdertextproperty).
+
 ## -property-value
 The identifier for the [PlaceholderText](combobox_placeholdertext.md) dependency property.
 

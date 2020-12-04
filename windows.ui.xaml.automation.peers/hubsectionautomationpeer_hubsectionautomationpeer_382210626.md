@@ -12,6 +12,8 @@ public HubSectionAutomationPeer(Windows.UI.Xaml.Controls.HubSection owner)
 ## -description
 Initializes a new instance of the [HubSectionAutomationPeer](hubsectionautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.HubSectionAutomationPeer.HubSectionAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.hubsectionautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The [HubSection](../windows.ui.xaml.controls/hubsection.md) to create the peer for.

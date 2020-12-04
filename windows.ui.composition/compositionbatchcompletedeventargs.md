@@ -12,6 +12,8 @@ public class CompositionBatchCompletedEventArgs : Windows.UI.Composition.Composi
 ## -description
 Arguments for the [CompositionCommitBatch.Completed](compositioncommitbatch_completed.md) or [CompositionScopedBatch.Completed](compositionscopedbatch_completed.md) events.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionBatchCompletedEventArgs](/windows/winui/api/microsoft.ui.composition.compositionbatchcompletedeventargs).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public SvgImageSource.SvgImageSource(Uri uriSource)
 ## -description
 Initializes a new instance of the [SvgImageSource](svgimagesource.md) class, using the supplied Uniform Resource Identifier (URI).
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.SvgImageSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.#ctor).
+
 ## -parameters
 ### -param uriSource
 A reference to the SVG source file.

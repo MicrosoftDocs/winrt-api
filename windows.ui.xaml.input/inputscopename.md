@@ -12,6 +12,8 @@ public class InputScopeName : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.
 ## -description
 Identifies a particular named input scope that is relevant to an overall [InputScope](inputscope.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.InputScopeName](/windows/winui/api/microsoft.ui.xaml.input.inputscopename).
+
 ## -xaml-syntax
 ```xaml
 <InputScopeName .../>

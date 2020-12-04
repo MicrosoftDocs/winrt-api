@@ -14,6 +14,8 @@ public class DatePickerSelectedValueChangedEventArgs
 
 Provides event data for the [DatePicker.SelectedDateChanged](datepicker_selecteddatechanged.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.DatePickerSelectedValueChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.datepickerselectedvaluechangedeventargs).
+
 ## -remarks
 
 ## -see-also

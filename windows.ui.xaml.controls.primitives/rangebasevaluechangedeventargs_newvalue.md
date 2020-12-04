@@ -12,6 +12,8 @@ public double NewValue { get; }
 ## -description
 Gets the new value of a range value property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventArgs.NewValue](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebasevaluechangedeventargs.newvalue).
+
 ## -property-value
 The new value.
 

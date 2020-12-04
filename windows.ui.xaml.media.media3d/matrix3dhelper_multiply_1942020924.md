@@ -13,6 +13,8 @@ public Windows.UI.Xaml.Media.Media3D.Matrix3D Multiply(Windows.UI.Xaml.Media.Med
 Multiplies the specified matrices. C# and Microsoft Visual Basic code should use the multiplication operator instead. 
 <!--Add link if we add Matrix3D.Multiply-->
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Media3D.Matrix3DHelper.Multiply](/windows/winui/api/microsoft.ui.xaml.media.media3d.matrix3dhelper.multiply).
+
 ## -parameters
 ### -param matrix1
 The first matrix to multiply.

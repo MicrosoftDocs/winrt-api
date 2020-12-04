@@ -13,6 +13,8 @@ public int RichEditTextRange.MoveEnd(TextRangeUnit unit, Int32 count)
 
 Moves the end position of the text range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.MoveEnd](/windows/winui/api/microsoft.ui.text.richedittextrange.moveend).
+
 ## -parameters
 ### -param unit
 

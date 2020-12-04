@@ -12,6 +12,8 @@ public Windows.UI.Xaml.TextReadingOrder TextReadingOrder { get;  set; }
 ## -description
 Gets or sets a value that indicates how the reading order is determined for the [RichEditBox](richeditbox.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.TextReadingOrder](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.textreadingorder).
+
 ## -xaml-syntax
 ```xaml
 <RichEditBox TextReadingOrder="textReadingOrderValue"/>

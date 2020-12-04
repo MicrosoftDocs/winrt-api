@@ -12,6 +12,8 @@ public InputScope()
 ## -description
 Initializes a new instance of the [InputScope](inputscope.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.InputScope.InputScope](/windows/winui/api/microsoft.ui.xaml.input.inputscope.#ctor).
+
 ## -remarks
 
 ## -examples

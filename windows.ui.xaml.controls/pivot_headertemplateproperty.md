@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HeaderTemplateProperty { get; }
 ## -description
 Identifies the [HeaderTemplate](pivot_headertemplate.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.HeaderTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.pivot.headertemplateproperty).
+
 ## -property-value
 The identifier for the [HeaderTemplate](pivot_headertemplate.md) dependency property.
 

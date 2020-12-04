@@ -12,6 +12,8 @@ public float SpaceAfter { get;  set; }
 ## -description
 Gets or sets the amount of vertical space that follows a paragraph.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.SpaceAfter](/windows/winui/api/microsoft.ui.text.itextparagraphformat.spaceafter).
+
 ## -property-value
 The amount of vertical space, in floating-point points.
 

@@ -13,6 +13,8 @@ public CompositionStretch Stretch { get;  set; }
 
 Gets or sets a value that specifies how content fits into the available space.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionViewBox.Stretch](/windows/winui/api/microsoft.ui.composition.compositionviewbox.stretch).
+
 ## -property-value
 
 An enumeration value that specifies how content fits into the available space. The default is **Uniform**.

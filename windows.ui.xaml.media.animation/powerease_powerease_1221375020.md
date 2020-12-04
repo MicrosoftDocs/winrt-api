@@ -12,6 +12,8 @@ public PowerEase()
 ## -description
 Initializes a new instance of the [PowerEase](powerease.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.PowerEase.PowerEase](/windows/winui/api/microsoft.ui.xaml.media.animation.powerease.#ctor).
+
 ## -remarks
 
 ## -examples

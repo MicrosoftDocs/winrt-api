@@ -13,6 +13,8 @@ public RangeGravity Gravity { get;  set; }
 
 Gets or sets the gravity of the text range.
 
+Equivalent WinUI property: [Microsoft.UI.Text.RichEditTextRange.Gravity](/windows/winui/api/microsoft.ui.text.richedittextrange.gravity).
+
 ## -property-value
 
 The gravity of the text range.

@@ -12,6 +12,8 @@ public string SelectedValuePath { get;  set; }
 ## -description
 Gets or sets the property path that is used to get the [SelectedValue](listpickerflyout_selectedvalue.md) property of the [SelectedItem](listpickerflyout_selecteditem.md) property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.SelectedValuePath](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.selectedvaluepath).
+
 ## -property-value
 The property path that is used to get the [SelectedValue](listpickerflyout_selectedvalue.md) property of the [SelectedItem](listpickerflyout_selecteditem.md) property. The default is String.Empty.
 

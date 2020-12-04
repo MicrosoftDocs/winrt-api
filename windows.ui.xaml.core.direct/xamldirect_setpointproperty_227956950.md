@@ -13,6 +13,8 @@ public void XamlDirect.SetPointProperty(IXamlDirectObject xamlDirectObject, Xaml
 ## -description
 Sets the value of a [Point](../windows.foundation/point.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetPointProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setpointproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

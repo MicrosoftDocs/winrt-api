@@ -12,6 +12,8 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Documents.Inline value)
 ## -description
 Sets the value at the specified index to the [Inline](inline.md) value specified.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.InlineCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.documents.inlinecollection.setat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

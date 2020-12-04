@@ -12,6 +12,8 @@ public float SpaceBefore { get;  set; }
 ## -description
 Gets or sets the amount of vertical space above a paragraph.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.SpaceBefore](/windows/winui/api/microsoft.ui.text.itextparagraphformat.spacebefore).
+
 ## -property-value
 The amount of vertical space, in floating-point points.
 

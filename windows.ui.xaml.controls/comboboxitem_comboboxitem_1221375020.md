@@ -12,6 +12,8 @@ public ComboBoxItem()
 ## -description
 Initializes a new instance of the [ComboBoxItem](comboboxitem.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ComboBoxItem.ComboBoxItem](/windows/winui/api/microsoft.ui.xaml.controls.comboboxitem.#ctor).
+
 ## -remarks
 
 ## -examples

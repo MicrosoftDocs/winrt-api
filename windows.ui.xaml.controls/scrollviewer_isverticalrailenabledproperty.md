@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsVerticalRailEnabledProperty { get; }
 ## -description
 Identifies the [IsVerticalRailEnabled](scrollviewer_isverticalrailenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.IsVerticalRailEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.isverticalrailenabledproperty).
+
 ## -property-value
 The identifier for the [IsVerticalRailEnabled](scrollviewer_isverticalrailenabled.md) dependency property.
 

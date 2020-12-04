@@ -10,10 +10,10 @@ public bool IsShowDelayLoadedContactCardSupported()
 # Windows.ApplicationModel.Contacts.ContactManager.IsShowDelayLoadedContactCardSupported
 
 ## -description
-Gets a Boolean value indicating if the [ShowDelayLoadedContactCard](/uwp/api/windows.applicationmodel.contacts.contactmanager.showdelayloadedcontactcard) method is supported on the current platform.
+Gets a Boolean value that indicates whether the [ShowDelayLoadedContactCard](/uwp/api/windows.applicationmodel.contacts.contactmanager.showdelayloadedcontactcard) method is supported on the current platform.
 
 ## -returns
-A Boolean value indicating if the [ShowDelayLoadedContactCard](/uwp/api/windows.applicationmodel.contacts.contactmanager.showdelayloadedcontactcard) method is supported on the current platform.
+`true` if the [ShowDelayLoadedContactCard](/uwp/api/windows.applicationmodel.contacts.contactmanager.showdelayloadedcontactcard) method is supported on the current platform; otherwise, `false`.
 
 ## -remarks
 > [!NOTE]

@@ -14,6 +14,8 @@ Indicates whether panning on the y-axis is railed.
 
 The IsPositionYRailsEnabled property defines the railing configuration for when Y-axis panning gets sent to the corresponding [InteractionTracker](interactiontracker.md). When enabled, if the initial part of the pan is angled within a particular range relative to the Y-axis, the X component of the pan is ignored and considered a perfect vertical pan. This property is often enabled in situations where both an X and Y scrolling experience is enabled, but also requires reliable, perfect vertical panning.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.IsPositionYRailsEnabled](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.ispositionyrailsenabled).
+
 ## -property-value
 Boolean value indicating whether panning on the y-axis is railed.
 

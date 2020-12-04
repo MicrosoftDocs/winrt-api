@@ -12,6 +12,8 @@ public Windows.UI.Xaml.UIElement ExitElement { get;  set; }
 ## -description
 Gets or sets the element that will fly between pages during a continuum navigation transition.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.ExitElement](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.exitelement).
+
 ## -property-value
 The element that will fly between pages during a continuum navigation transition.
 

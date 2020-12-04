@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty FormulaProperty { get; }
 ## -description
 Identifies the [Formula](../windows.ui.xaml.automation.provider/ispreadsheetitemprovider_formula.md) automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.SpreadsheetItemPatternIdentifiers.FormulaProperty](/windows/winui/api/microsoft.ui.xaml.automation.spreadsheetitempatternidentifiers.formulaproperty).
+
 ## -property-value
 The automation property identifier.
 

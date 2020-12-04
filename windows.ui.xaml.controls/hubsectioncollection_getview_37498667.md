@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Controls.HubSe
 ## -description
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.HubSectionCollection.GetView](/windows/winui/api/microsoft.ui.xaml.controls.hubsectioncollection.getview).
+
 ## -returns
 An object representing the immutable collection view.
 

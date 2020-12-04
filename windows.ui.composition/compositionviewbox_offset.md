@@ -13,6 +13,8 @@ public Vector2 Offset { get;  set; }
 
 Gets or sets the offset of the view box.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionViewBox.Offset](/windows/winui/api/microsoft.ui.composition.compositionviewbox.offset).
+
 ## -property-value
 
 The offset of the view box.

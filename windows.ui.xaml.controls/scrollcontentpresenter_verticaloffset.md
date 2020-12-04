@@ -12,6 +12,8 @@ public double VerticalOffset { get; }
 ## -description
 Gets the distance the content has been scrolled vertically.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.VerticalOffset](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.verticaloffset).
+
 ## -property-value
 The distance the content has been scrolled vertically.
 

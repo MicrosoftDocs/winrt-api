@@ -12,6 +12,8 @@ public class FrameworkViewSource : Windows.ApplicationModel.Core.IFrameworkViewS
 ## -description
 Creates views, specifically [FrameworkView](frameworkview.md) instances. This is infrastructure and does not need to be accessed in most app scenarios.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.FrameworkViewSource](/windows/winui/api/microsoft.ui.xaml.frameworkviewsource).
+
 ## -remarks
 
 ## -examples

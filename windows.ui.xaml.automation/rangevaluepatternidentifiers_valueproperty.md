@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty ValueProperty { get; }
 ## -description
 Identifies the [Value](../windows.ui.xaml.automation.provider/irangevalueprovider_value.md) automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.RangeValuePatternIdentifiers.ValueProperty](/windows/winui/api/microsoft.ui.xaml.automation.rangevaluepatternidentifiers.valueproperty).
+
 ## -property-value
 The automation property identifier.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty HasKeyboardFocusProperty { 
 ## -description
 Identifies the keyboard focus automation property. The keyboard focus state is returned by the [HasKeyboardFocus](../windows.ui.xaml.automation.peers/automationpeer_haskeyboardfocus_1926443629.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.HasKeyboardFocusProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.haskeyboardfocusproperty).
+
 ## -property-value
 The automation property identifier.
 

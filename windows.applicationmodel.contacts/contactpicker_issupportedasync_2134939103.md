@@ -12,11 +12,11 @@ public IAsyncOperation<bool> ContactPicker.IsSupportedAsync()
 
 ## -description
 
-Gets a Boolean value indicating if the contact picker is supported on the current platform.
+Gets a Boolean value that indicates whether the contact picker is supported on the current platform.
 
 ## -returns
 
-A Boolean value indicating if the contact picker is supported on the current platform.
+`true` if the contact picker is supported on the current platform; otherwise, `false`.
 
 ## -remarks
 

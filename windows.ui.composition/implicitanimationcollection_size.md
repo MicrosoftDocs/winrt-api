@@ -12,6 +12,8 @@ public uint Size { get; }
 ## -description
 The size of the collection.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.ImplicitAnimationCollection.Size](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.size).
+
 ## -property-value
 The size of the collection.
 

@@ -12,6 +12,8 @@ public CorePhysicalKeyStatus KeyStatus { get; }
 ## -description
 Gets the status of the physical key that raised the character-received event.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.CharacterReceivedRoutedEventArgs.KeyStatus](/windows/winui/api/microsoft.ui.xaml.input.characterreceivedroutedeventargs.keystatus).
+
 ## -property-value
 The status of the key that was pressed.
 

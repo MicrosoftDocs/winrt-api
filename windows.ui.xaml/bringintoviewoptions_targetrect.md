@@ -12,6 +12,8 @@ public IReference<Rect> TargetRect { get;  set; }
 ## -description
 Gets or sets the area of an element to bring into view.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.BringIntoViewOptions.TargetRect](/windows/winui/api/microsoft.ui.xaml.bringintoviewoptions.targetrect).
+
 ## -property-value
 A rectangle that defines the area of an element to bring into view.
 

@@ -14,6 +14,8 @@ public SceneMaterialInput OcclusionInput { get;  set; }
 
 Gets or sets the input for the material's occlusion.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.OcclusionInput](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.occlusioninput).
+
 ## -property-value
 
 The input for the material's occlusion.

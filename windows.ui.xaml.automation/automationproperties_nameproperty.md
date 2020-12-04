@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty NameProperty { get; }
 ## -description
 Identifies the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property, which is a string that holds the name of the automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.NameProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.nameproperty).
+
 ## -property-value
 The identifier for the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property.
 

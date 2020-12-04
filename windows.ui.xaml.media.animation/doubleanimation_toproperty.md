@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ToProperty { get; }
 ## -description
 Identifies the [To](doubleanimation_to.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimation.ToProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimation.toproperty).
+
 ## -property-value
 The identifier for the [To](doubleanimation_to.md)  dependency property.
 

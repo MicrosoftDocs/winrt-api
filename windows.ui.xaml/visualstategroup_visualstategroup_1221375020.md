@@ -12,6 +12,8 @@ public VisualStateGroup()
 ## -description
 Initializes a new instance of the [VisualStateGroup](visualstategroup.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.VisualStateGroup.VisualStateGroup](/windows/winui/api/microsoft.ui.xaml.visualstategroup.#ctor).
+
 ## -remarks
 
 ## -examples

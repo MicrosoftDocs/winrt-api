@@ -12,6 +12,8 @@ public bool IsScaleAnimationEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the scale component of the connected animation should be used.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimation.IsScaleAnimationEnabled](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimation.isscaleanimationenabled).
+
 ## -property-value
 **true** if the scale component of the connected animation should be used. otherwise, **false**. The default is **true**. 
 

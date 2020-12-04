@@ -14,6 +14,8 @@ public StandardUICommand.StandardUICommand(StandardUICommandKind kind)
 
 Initializes a new instance of the [StandardUICommand](standarduicommand.md) class of the specified kind.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.StandardUICommand.StandardUICommand](/windows/winui/api/microsoft.ui.xaml.input.standarduicommand.#ctor).
+
 ## -parameters
 
 ### -param kind

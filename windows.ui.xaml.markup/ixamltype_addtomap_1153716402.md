@@ -12,6 +12,8 @@ public void AddToMap(System.Object instance, System.Object key, System.Object va
 ## -description
 Adds an item to a custom map type.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IXamlType.AddToMap](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.addtomap).
+
 ## -parameters
 ### -param instance
 The type instance to set the map item to.

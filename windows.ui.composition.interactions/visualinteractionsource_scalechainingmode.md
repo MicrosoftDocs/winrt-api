@@ -12,6 +12,8 @@ public Windows.UI.Composition.Interactions.InteractionChainingMode ScaleChaining
 ## -description
 The ScaleChainingMode property defines the chaining behavior for an InteractionSource in the Scale direction. There are three types of [InteractionChainingMode](interactionchainingmode.md) s: Auto, Always, Never. When Scale chaining is enabled, input will flow to the nearest ancestor’s [VisualInteractionSource](visualinteractionsource.md) whenever the interaction (such as panning) would otherwise take [InteractionTracker](interactiontracker.md) ’s position past it’s minimum or maximum Scale position.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.ScaleChainingMode](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.scalechainingmode).
+
 ## -property-value
 Chaining mode for the scale axis.
 

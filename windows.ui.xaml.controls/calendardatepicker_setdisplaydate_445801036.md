@@ -12,6 +12,8 @@ public void SetDisplayDate(Windows.Foundation.DateTime date)
 ## -description
 Shows the specified date in the calendar picker.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.SetDisplayDate](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.setdisplaydate).
+
 ## -parameters
 ### -param date
 The date to show.

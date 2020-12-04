@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.RoutedEventHandler Unloaded
 ## -description
 Occurs when this object is no longer connected to the main object tree.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.FrameworkElement.Unloaded](/windows/winui/api/microsoft.ui.xaml.frameworkelement.unloaded).
+
 ## -xaml-syntax
 ```xaml
 <frameworkElement Unloaded="eventhandler"/>

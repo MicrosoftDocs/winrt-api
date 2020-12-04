@@ -12,6 +12,8 @@ public InputScopeName()
 ## -description
 Initializes a new instance of the [InputScopeName](inputscopename.md) class with no initial value.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.InputScopeName.InputScopeName](/windows/winui/api/microsoft.ui.xaml.input.inputscopename.#ctor).
+
 ## -remarks
 
 ## -examples

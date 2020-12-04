@@ -12,6 +12,8 @@ public class Grid : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.Controls.IGr
 ## -description
 Defines a flexible grid area that consists of columns and rows. Child elements of the Grid are measured and arranged according to their row/column assignments (set by using [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) attached properties) and other logic.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Grid](/windows/winui/api/microsoft.ui.xaml.controls.grid).
+
 ## -xaml-syntax
 ```xaml
 <Grid ...>

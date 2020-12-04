@@ -13,6 +13,8 @@ public DependencyProperty SpacingProperty { get; }
 
 Identifies the Spacing dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.StackPanel.SpacingProperty](/windows/winui/api/microsoft.ui.xaml.controls.stackpanel.spacingproperty).
+
 ## -property-value
 
 The identifier for the Spacing dependency property.

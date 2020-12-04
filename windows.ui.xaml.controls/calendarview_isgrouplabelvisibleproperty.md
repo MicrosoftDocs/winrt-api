@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsGroupLabelVisibleProperty { get; }
 ## -description
 Identifies the [IsGroupLabelVisible](calendarview_isgrouplabelvisible.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.IsGroupLabelVisibleProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.isgrouplabelvisibleproperty).
+
 ## -property-value
 The identifier for the [IsGroupLabelVisible](calendarview_isgrouplabelvisible.md) dependency property.
 

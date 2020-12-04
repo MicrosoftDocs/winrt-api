@@ -12,6 +12,8 @@ public bool IsInContact { get; }
 ## -description
 Gets a value that determines whether the pointer device was in contact with a sensor or digitizer at the time that the event was reported.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.Pointer.IsInContact](/windows/winui/api/microsoft.ui.xaml.input.pointer.isincontact).
+
 ## -property-value
 **true** if the pointer device was in contact; otherwise, **false**.
 

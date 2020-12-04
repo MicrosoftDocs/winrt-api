@@ -12,6 +12,8 @@ public bool IsDeferredScrollingEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines the deferred scrolling behavior for a [ScrollViewer](scrollviewer.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.IsDeferredScrollingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.isdeferredscrollingenabled).
+
 ## -xaml-syntax
 ```xaml
 <ScrollViewer IsDeferredScrollingEnabled="bool" />

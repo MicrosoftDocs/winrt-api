@@ -10,10 +10,10 @@ public string FirstName { get;  set; }
 # Windows.ApplicationModel.Contacts.Contact.FirstName
 
 ## -description
-Gets and sets the first name for a contact. The maximum string length for the first name is 64 characters.
+Gets or sets the first name for a contact. The maximum string length for the first name is 64 characters.
 
 ## -property-value
-The first name for a contact.
+The first name for a contact. The maximum string length for the first name is 64 characters.
 
 ## -remarks
 

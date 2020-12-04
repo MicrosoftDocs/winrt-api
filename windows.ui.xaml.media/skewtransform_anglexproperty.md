@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AngleXProperty { get; }
 ## -description
 Identifies the [AngleX](skewtransform_anglex.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.SkewTransform.AngleXProperty](/windows/winui/api/microsoft.ui.xaml.media.skewtransform.anglexproperty).
+
 ## -property-value
 The identifier for the [AngleX](skewtransform_anglex.md) dependency property.
 

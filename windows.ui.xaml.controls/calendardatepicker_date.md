@@ -12,6 +12,8 @@ public Windows.Foundation.IReference<Windows.Foundation.DateTime> Date { get;  s
 ## -description
 Gets or sets the date currently set in the calendar picker.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.Date](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.date).
+
 ## -property-value
 The date currently set in the calendar picker.
 

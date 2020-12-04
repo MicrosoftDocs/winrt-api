@@ -12,6 +12,8 @@ public bool LosingFocusEventArgs.TrySetNewFocusedElement(DependencyObject elemen
 ## -description
 Attempts to redirect focus from the targeted element to the specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.LosingFocusEventArgs.TrySetNewFocusedElement](/windows/winui/api/microsoft.ui.xaml.input.losingfocuseventargs.trysetnewfocusedelement).
+
 ## -parameters
 ### -param element
 The object on which to set focus.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HeaderTemplateProperty { get; }
 ## -description
 Identifies the [HeaderTemplate](combobox_headertemplate.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.HeaderTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.combobox.headertemplateproperty).
+
 ## -property-value
 The identifier for the [HeaderTemplate](combobox_headertemplate.md) dependency property.
 

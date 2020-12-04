@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HeaderTransitionsProperty { get; }
 ## -description
 Identifies the [HeaderTransitions](itemspresenter_headertransitions.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderTransitionsProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.headertransitionsproperty).
+
 ## -property-value
 The identifier for the [HeaderTransitions](itemspresenter_headertransitions.md) dependency property.
 

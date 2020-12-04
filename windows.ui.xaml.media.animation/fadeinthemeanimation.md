@@ -12,6 +12,8 @@ public class FadeInThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline, Wi
 ## -description
 Represents the preconfigured opacity animation that applies to controls when they are first shown.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.FadeInThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.fadeinthemeanimation).
+
 ## -xaml-syntax
 ```xaml
 <FadeInThemeAnimation ... />

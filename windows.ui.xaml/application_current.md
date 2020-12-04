@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Application Current { get; }
 ## -description
 Gets the [Application](application.md) object for the current application.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Application.Current](/windows/winui/api/microsoft.ui.xaml.application.current).
+
 ## -property-value
 The [Application](application.md) object for the current application.
 

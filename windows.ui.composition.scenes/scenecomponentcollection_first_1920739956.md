@@ -14,6 +14,8 @@ public IIterator<SceneComponent> SceneComponentCollection.First()
 
 Returns an iterator for the items in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneComponentCollection.First](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponentcollection.first).
+
 ## -returns
 
 The iterator object. The iterator's current position is the 0-index position, or at the collection end if the collection is empty.

@@ -13,6 +13,8 @@ public float Restitution { get;  set; }
 
 Gets or sets the amount that an object rebounds after collision.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.BounceVector2NaturalMotionAnimation.Restitution](/windows/winui/api/microsoft.ui.composition.bouncevector2naturalmotionanimation.restitution).
+
 ## -property-value
 
 The amount that an object rebounds after collision.

@@ -13,6 +13,8 @@ public class AppBarToggleButtonTemplateSettings : DependencyObject, DependencyOb
 
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for an [AppBarToggleButton](../windows.ui.xaml.controls/appbartogglebutton.md) control. Not intended for general use.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.AppBarToggleButtonTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.appbartogglebuttontemplatesettings).
+
 ## -remarks
 
 ## -see-also

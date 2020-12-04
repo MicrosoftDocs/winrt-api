@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CheckSelectingBrushProperty { get; }
 ## -description
 Identifies the [CheckSelectingBrush](gridviewitempresenter_checkselectingbrush.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.CheckSelectingBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.checkselectingbrushproperty).
+
 ## -property-value
 The identifier for the [CheckSelectingBrush](gridviewitempresenter_checkselectingbrush.md) dependency property.
 

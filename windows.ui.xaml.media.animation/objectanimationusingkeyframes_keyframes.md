@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.ObjectKeyFrameCollection KeyFrames { get;
 ## -description
 Gets the collection of [ObjectKeyFrame](objectkeyframe.md) objects that define the animation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames.KeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.objectanimationusingkeyframes.keyframes).
+
 ## -xaml-syntax
 ```xaml
 <ObjectAnimationUsingKeyFrames>oneOrMoreDiscreteObjectKeyFrames</ObjectAnimationUsingKeyFrames>

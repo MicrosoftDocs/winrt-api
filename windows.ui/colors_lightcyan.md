@@ -13,6 +13,8 @@ public Windows.UI.Color LightCyan { get; }
 
 Gets the system-defined color that has an ARGB value of #FFE0FFFF.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.LightCyan](/windows/winui/api/microsoft.ui.colors.lightcyan).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFE0FFFF.

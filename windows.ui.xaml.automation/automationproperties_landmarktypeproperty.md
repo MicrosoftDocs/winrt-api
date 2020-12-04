@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LandmarkTypeProperty { get; }
 ## -description
 Gets the identifier for the landmark type attached property, which is a [Landmark Type Identifier](/windows/desktop/WinAuto/landmark-type-identifiers) associated with an element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.LandmarkTypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.landmarktypeproperty).
+
 ## -property-value
 The identifier for the landmark type attached property.
 

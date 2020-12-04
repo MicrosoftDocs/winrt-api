@@ -12,6 +12,8 @@ public class ColorHelper : Windows.UI.IColorHelper
 ## -description
 Provides static helper methods for processing [Color](color.md) values. C# and Microsoft Visual Basic code should use methods of [Color](color.md) instead.
 
+Equivalent WinUI class: [Microsoft.UI.ColorHelper](/windows/winui/api/microsoft.ui.colorhelper).
+
 ## -remarks
 [Color](color.md) is a Windows Runtime structure that represents a color that has four channels: **A** (alpha), **R** (red), **G** (green), **B** (blue). Each of the values is stored as a **Byte** type with value 0-255. The most frequent application of [Color](color.md) is to define color-related properties in a UI element as part of a UWP app using C++, C#, or Visual Basic and its XAML UI definition.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty IsRequiredForFormProperty {
 ## -description
 Identifies the form requirement determination automation property. The form requirement status indicates whether the element must be completed on a form. The current status is returned by the [IsRequiredForForm](../windows.ui.xaml.automation.peers/automationpeer_isrequiredforform_1300796554.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsRequiredForFormProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.isrequiredforformproperty).
+
 ## -property-value
 The automation property identifier.
 

@@ -12,6 +12,8 @@ public string WeekDay7 { get; }
 ## -description
 Gets the seventh day of the week.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay7](/windows/winui/api/microsoft.ui.xaml.controls.primitives.calendarviewtemplatesettings.weekday7).
+
 ## -property-value
 The seventh day of the week.
 

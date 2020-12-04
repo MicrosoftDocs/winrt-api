@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DebugSettings DebugSettings { get; }
 ## -description
 Gets an object that declares how the app behaves when run in a debug environment.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Application.DebugSettings](/windows/winui/api/microsoft.ui.xaml.application.debugsettings).
+
 ## -property-value
 An object that declares how the app behaves when run in a debug environment.
 

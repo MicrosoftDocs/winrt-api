@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.Storyboard Storyboard { get;  set; }
 ## -description
 Gets or sets the [Storyboard](storyboard.md) that this [BeginStoryboard](beginstoryboard.md) starts.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.BeginStoryboard.Storyboard](/windows/winui/api/microsoft.ui.xaml.media.animation.beginstoryboard.storyboard).
+
 ## -xaml-syntax
 ```xaml
 <BeginStoryboard>

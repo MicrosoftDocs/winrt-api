@@ -12,6 +12,8 @@ public SizeInt32 SizeInt32 { get; }
 ## -description
 The size of the drawing surface.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionDrawingSurface.SizeInt32](/windows/winui/api/microsoft.ui.composition.compositiondrawingsurface.sizeint32).
+
 ## -property-value
 The size of the drawing surface.
 

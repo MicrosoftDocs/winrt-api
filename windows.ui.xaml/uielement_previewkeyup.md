@@ -13,6 +13,8 @@ public event KeyEventHandler PreviewKeyUp
 
 Occurs when a keyboard key is released while the [UIElement](uielement.md) has focus.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.PreviewKeyUp](/windows/winui/api/microsoft.ui.xaml.uielement.previewkeyup).
+
 ## -xaml-syntax
 
 ```xaml

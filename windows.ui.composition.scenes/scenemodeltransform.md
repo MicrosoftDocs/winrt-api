@@ -14,6 +14,8 @@ public class SceneModelTransform : CompositionTransform, CompositionTransform
 
 Represents a group of 3-D transforms on a node, including rotation, scale, and translation.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.SceneModelTransform](/windows/winui/api/microsoft.ui.composition.scenes.scenemodeltransform).
+
 ## -remarks
 
 ## -see-also

@@ -13,6 +13,8 @@ public MenuFlyoutItemTemplateSettings TemplateSettings { get; }
 
 Gets an object that provides calculated values that can be referenced as [{TemplateBinding} markup extension](/windows/uwp/xaml-platform/templatebinding-markup-extension) sources when defining templates for a MenuFlyoutItem control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem.TemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem.templatesettings).
+
 ## -property-value
 
 An object that provides calculated values for templates.

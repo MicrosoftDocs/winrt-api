@@ -13,6 +13,8 @@ public class UIElement : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.IUIEl
 
 UIElement is a base class for most of the Windows Runtime UI objects that have visual appearance and can process basic input as part of your app's user interface.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.UIElement](/windows/winui/api/microsoft.ui.xaml.uielement).
+
 ## -remarks
 
 UIElement is a base element: it's a class that many other Windows Runtime classes inherit from in order to support the XAML UI element model. Properties, methods and events that UIElement defines are inherited by hundreds of other Windows Runtime classes.

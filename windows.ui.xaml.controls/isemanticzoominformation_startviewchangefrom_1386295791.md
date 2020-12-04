@@ -12,6 +12,8 @@ public void StartViewChangeFrom(Windows.UI.Xaml.Controls.SemanticZoomLocation so
 ## -description
 Initializes item-wise operations related to a view change when the implementing view is the source view and the pending destination view is a potentially different implementing view.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ISemanticZoomInformation.StartViewChangeFrom](/windows/winui/api/microsoft.ui.xaml.controls.isemanticzoominformation.startviewchangefrom).
+
 ## -parameters
 ### -param source
 The view item as represented in the source view.

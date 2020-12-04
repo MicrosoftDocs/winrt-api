@@ -12,6 +12,8 @@ public double Width { get;  set; }
 ## -description
 Gets or sets the width of a [FrameworkElement](frameworkelement.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.Width](/windows/winui/api/microsoft.ui.xaml.frameworkelement.width).
+
 ## -xaml-syntax
 ```xaml
 <frameworkElement Width="double"/>

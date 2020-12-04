@@ -12,6 +12,8 @@ public double ItemHeight { get;  set; }
 ## -description
 Gets or sets the height of the layout area for each item that is contained in a [VariableSizedWrapGrid](variablesizedwrapgrid.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.ItemHeight](/windows/winui/api/microsoft.ui.xaml.controls.variablesizedwrapgrid.itemheight).
+
 ## -xaml-syntax
 ```xaml
 <VariableSizedWrapGrid ItemHeight="double" />

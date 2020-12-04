@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DefaultLabelPositionProperty { get; }
 ## -description
 Identifies the [DefaultLabelPosition](commandbar_defaultlabelposition.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CommandBar.DefaultLabelPositionProperty](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.defaultlabelpositionproperty).
+
 ## -property-value
 The identifier for the [DefaultLabelPosition](commandbar_defaultlabelposition.md) dependency property.
 

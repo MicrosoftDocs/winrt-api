@@ -13,6 +13,8 @@ public class PointerRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.U
 
 Contains the arguments returned by the last pointer event message.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.PointerRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.pointerroutedeventargs).
+
 ## -remarks
 
 In most cases, we recommend that you get pointer info through the event argument of the pointer event handlers in your chosen language framework (Windows app using JavaScript, UWP app using C++, C#, or Visual Basic, or UWP app using DirectX with C++).

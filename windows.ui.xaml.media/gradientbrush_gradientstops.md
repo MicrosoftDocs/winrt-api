@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.GradientStopCollection GradientStops { get;  set; }
 ## -description
 Gets or sets the brush's gradient stops.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.GradientBrush.GradientStops](/windows/winui/api/microsoft.ui.xaml.media.gradientbrush.gradientstops).
+
 ## -xaml-syntax
 ```xaml
 <gradientBrush>

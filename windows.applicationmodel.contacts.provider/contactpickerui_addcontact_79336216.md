@@ -10,10 +10,7 @@ public Windows.ApplicationModel.Contacts.Provider.AddContactResult AddContact(Wi
 # Windows.ApplicationModel.Contacts.Provider.ContactPickerUI.AddContact
 
 ## -description
-Adds a [Contact](../windows.applicationmodel.contacts/contact.md). 
-
-> [!NOTE]
-> The [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) property must be set when you call AddContact. If [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) isn't set, your app will fail.
+Adds a [Contact](../windows.applicationmodel.contacts/contact.md).
 
 ## -parameters
 ### -param contact
@@ -23,6 +20,9 @@ An object that contains the contact's information.
 An [AddContactResult](addcontactresult.md)-typed value that indicates whether the contact was added successfully.
 
 ## -remarks
+
+> [!NOTE]
+> The [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) property must be set when you call AddContact. If [Contact.Id](../windows.applicationmodel.contacts/contact_id.md) isn't set, your app will fail.
 
 ## -examples
 

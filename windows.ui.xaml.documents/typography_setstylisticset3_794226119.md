@@ -12,6 +12,8 @@ public void SetStylisticSet3(Windows.UI.Xaml.DependencyObject element, System.Bo
 ## -description
 Sets the value of the [StylisticSet3](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet3](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset3).
+
 ## -parameters
 ### -param element
 The dependency object for which to set the value of the [StylisticSet3](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) property.

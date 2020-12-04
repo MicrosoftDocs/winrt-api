@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.PointCollection Points { get;  set; }
 ## -description
 Gets or sets the [Point](../windows.foundation/point.md) collection that defines this [PolyQuadraticBezierSegment](polyquadraticbeziersegment.md) object.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PolyQuadraticBezierSegment.Points](/windows/winui/api/microsoft.ui.xaml.media.polyquadraticbeziersegment.points).
+
 ## -xaml-syntax
 ```xaml
 <PolyQuadraticBezierSegment Points="pointSet"/>

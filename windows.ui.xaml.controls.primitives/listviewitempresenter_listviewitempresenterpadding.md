@@ -15,6 +15,8 @@ public Windows.UI.Xaml.Thickness ListViewItemPresenterPadding { get;  set; }
 
 Gets or sets the padding around the presenter.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterPadding](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.listviewitempresenterpadding).
+
 ## -property-value
 A [Thickness](../windows.ui.xaml/thickness.md) value.
 

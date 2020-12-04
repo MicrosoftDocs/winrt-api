@@ -12,6 +12,8 @@ public bool IndexOf(Windows.UI.Xaml.Media.Animation.Timeline value, System.UInt3
 ## -description
 Retrieves the index of the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.TimelineCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.animation.timelinecollection.indexof).
+
 ## -parameters
 ### -param value
 The value to find in the collection.

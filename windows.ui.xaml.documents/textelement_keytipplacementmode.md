@@ -12,6 +12,8 @@ public KeyTipPlacementMode KeyTipPlacementMode { get;  set; }
 ## -description
 Gets or sets a value that indicates where the KeyTip is placed in relation to the text element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.KeyTipPlacementMode](/windows/winui/api/microsoft.ui.xaml.documents.textelement.keytipplacementmode).
+
 ## -xaml-syntax
 ```xaml
 <textElement KeyTipPlacementMode="keyTipPlacementModeMemberName"/>

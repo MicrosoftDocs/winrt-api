@@ -12,6 +12,8 @@ public string Value { get; }
 ## -description
 Gets the value of the control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Value](/windows/winui/api/microsoft.ui.xaml.automation.peers.calendardatepickerautomationpeer.value).
+
 ## -property-value
 The value of the control, as a string.
 

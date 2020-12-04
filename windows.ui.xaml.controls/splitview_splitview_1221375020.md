@@ -12,6 +12,8 @@ public SplitView()
 ## -description
 Initializes a new instance of the [SplitView](splitview.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.SplitView.SplitView](/windows/winui/api/microsoft.ui.xaml.controls.splitview.#ctor).
+
 ## -remarks
 
 ## -examples

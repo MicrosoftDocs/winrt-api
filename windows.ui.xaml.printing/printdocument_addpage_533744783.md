@@ -12,6 +12,8 @@ public void AddPage(Windows.UI.Xaml.UIElement pageVisual)
 ## -description
 Adds a XAML root visual element to the print list.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Printing.PrintDocument.AddPage](/windows/winui/api/microsoft.ui.xaml.printing.printdocument.addpage).
+
 ## -parameters
 ### -param pageVisual
 The root visual element of the page to add to the print list.

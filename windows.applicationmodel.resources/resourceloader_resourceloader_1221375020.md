@@ -15,6 +15,8 @@ public ResourceLoader()
 
 Constructs a new [ResourceLoader](resourceloader.md) object for the "Resources" subtree of the currently running app's main [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md).
 
+Equivalent WinUI constructor: [Microsoft.ApplicationModel.Resources.ResourceLoader.ResourceLoader](/windows/winui/api/microsoft.applicationmodel.resources.resourceloader.#ctor).
+
 ## -remarks
 The empty constructor typically allows access relative to a resource file's named resources (resources.resjson or resources.resw).
 

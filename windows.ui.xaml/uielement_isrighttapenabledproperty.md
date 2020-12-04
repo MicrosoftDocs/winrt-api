@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsRightTapEnabledProperty { get; }
 ## -description
 Identifies the [IsRightTapEnabled](uielement_isrighttapenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.IsRightTapEnabledProperty](/windows/winui/api/microsoft.ui.xaml.uielement.isrighttapenabledproperty).
+
 ## -property-value
 The identifier for the [IsRightTapEnabled](uielement_isrighttapenabled.md) dependency property.
 

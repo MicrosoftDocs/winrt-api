@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.ResourceDictionary
 ## -description
 Gets a collection of the [ResourceDictionary](resourcedictionary.md) dictionaries that constitute the various resource dictionaries in the merged dictionaries.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ResourceDictionary.MergedDictionaries](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.mergeddictionaries).
+
 ## -xaml-syntax
 ```xaml
 <ResourceDictionary>

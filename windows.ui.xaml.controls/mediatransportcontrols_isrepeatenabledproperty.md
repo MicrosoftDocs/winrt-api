@@ -13,6 +13,8 @@ public DependencyProperty IsRepeatEnabledProperty { get; }
 
 Identifies the IsRepeatEnabled dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsRepeatEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isrepeatenabledproperty).
+
 ## -property-value
 
 The identifier for the IsRepeatEnabled dependency property.

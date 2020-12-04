@@ -13,6 +13,8 @@ public void CompositionDebugHeatMaps.ShowRedraw(Visual subtree)
 
 Highlights areas of the app UI that are producing updates.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Diagnostics.CompositionDebugHeatMaps.ShowRedraw](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugheatmaps.showredraw).
+
 ## -parameters
 ### -param subtree
 

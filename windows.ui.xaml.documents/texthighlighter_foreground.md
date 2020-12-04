@@ -13,6 +13,8 @@ public Brush Foreground { get;  set; }
 
 Gets or sets the brush used to color highlighted text.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextHighlighter.Foreground](/windows/winui/api/microsoft.ui.xaml.documents.texthighlighter.foreground).
+
 ## -property-value
 
 The brush used to color highlighted text.

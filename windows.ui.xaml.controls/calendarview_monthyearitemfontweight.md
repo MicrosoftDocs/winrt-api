@@ -12,6 +12,8 @@ public Windows.UI.Text.FontWeight MonthYearItemFontWeight { get;  set; }
 ## -description
 Gets or sets the font weight used to display the month and year items in the calendar.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.MonthYearItemFontWeight](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.monthyearitemfontweight).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView MonthYearItemFontWeight="fontWeightMemberName"/>

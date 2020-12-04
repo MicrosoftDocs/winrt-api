@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty OverflowButtonVisibilityProperty { get
 ## -description
 Identifies the [OverflowButtonVisibility](commandbar_overflowbuttonvisibility.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CommandBar.OverflowButtonVisibilityProperty](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.overflowbuttonvisibilityproperty).
+
 ## -property-value
 The identifier for the [OverflowButtonVisibility](commandbar_overflowbuttonvisibility.md) dependency property.
 

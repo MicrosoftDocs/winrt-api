@@ -12,6 +12,8 @@ public double ViewportHeight { get; }
 ## -description
 Gets the vertical size of the viewable content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ViewportHeight](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.viewportheight).
+
 ## -property-value
 The vertical size of the viewable content.
 

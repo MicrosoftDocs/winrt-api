@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.FontFamily FontFamily { get;  set; }
 ## -description
 Gets or sets the preferred top-level font family for the text content presented by the [ContentPresenter](contentpresenter.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.FontFamily](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.fontfamily).
+
 ## -xaml-syntax
 ```xaml
 <ContentPresenter FontFamily="fontFamily" />

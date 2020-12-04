@@ -13,6 +13,8 @@ public Windows.Foundation.Rect Union(Windows.Foundation.Rect target, Windows.Fou
 
 Creates a rectangle that is exactly large enough to contain the a specified rectangle and a specified point. C# and Microsoft Visual Basic code should use [Rect.Union(Point)](/dotnet/api/windows.foundation.rect.union#Windows_Foundation_Rect_Union_Windows_Foundation_Point_) instead.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.RectHelper.Union](/windows/winui/api/microsoft.ui.xaml.recthelper.union).
+
 ## -parameters
 
 ### -param target

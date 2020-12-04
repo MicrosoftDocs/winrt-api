@@ -12,6 +12,8 @@ public void Stop()
 ## -description
 Stops the storyboard.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.Storyboard.Stop](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.stop).
+
 ## -remarks
 
 ## -examples

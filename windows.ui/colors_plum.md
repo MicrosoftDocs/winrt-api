@@ -13,6 +13,8 @@ public Windows.UI.Color Plum { get; }
 
 Gets the system-defined color that has an ARGB value of #FFDDA0DD.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Plum](/windows/winui/api/microsoft.ui.colors.plum).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFDDA0DD.

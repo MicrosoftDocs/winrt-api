@@ -12,6 +12,8 @@ public RateChangedRoutedEventArgs()
 ## -description
 Initializes a new instance of the [RateChangedRoutedEventArgs](ratechangedroutedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.RateChangedRoutedEventArgs.RateChangedRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.media.ratechangedroutedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

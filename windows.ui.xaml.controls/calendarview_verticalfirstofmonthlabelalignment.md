@@ -12,6 +12,8 @@ public Windows.UI.Xaml.VerticalAlignment VerticalFirstOfMonthLabelAlignment { ge
 ## -description
 Gets or sets the vertical alignment of the first-of-month banner text.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.VerticalFirstOfMonthLabelAlignment](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.verticalfirstofmonthlabelalignment).
+
 ## -xaml-syntax
 ```xaml
 

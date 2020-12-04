@@ -12,6 +12,8 @@ public bool IsSealed { get; }
 ## -description
 Gets a value that indicates whether this object is in an immutable state.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.SetterBase.IsSealed](/windows/winui/api/microsoft.ui.xaml.setterbase.issealed).
+
 ## -property-value
 **true** if this object is in an immutable state; otherwise, **false**.
 

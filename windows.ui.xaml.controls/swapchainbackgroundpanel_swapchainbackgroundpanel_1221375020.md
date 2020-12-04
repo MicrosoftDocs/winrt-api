@@ -15,6 +15,8 @@ public SwapChainBackgroundPanel()
 
 Initializes a new instance of the [SwapChainBackgroundPanel](swapchainbackgroundpanel.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.SwapChainBackgroundPanel.SwapChainBackgroundPanel](/windows/winui/api/microsoft.ui.xaml.controls.swapchainbackgroundpanel.#ctor).
+
 ## -remarks
 
 ## -examples

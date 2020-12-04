@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.ImageSource ImageSource { get;  set; }
 ## -description
 Gets or sets the image source displayed by this [ImageBrush](imagebrush.md). In code you set this with an [ImageSource](imagesource.md) subclass instance, in XAML you set this with a URI to an image source file.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ImageBrush.ImageSource](/windows/winui/api/microsoft.ui.xaml.media.imagebrush.imagesource).
+
 ## -xaml-syntax
 ```xaml
 <ImageBrush ImageSource="imageUri"/>
@@ -40,7 +42,7 @@ If you define an [ImageBrush](imagebrush.md) using code, ImageBrush.ImageSource 
 If you need to compose a URI in relation to another object in the UI to help scope the resource request, you can sometimes use the [FrameworkElement.BaseUri](../windows.ui.xaml/frameworkelement_baseuri.md) property as called on another object in the UI. This provides a base URI that is where the XAML page comes from within the app's project structure.
 
 > [!NOTE]
-> You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](/previous-versions/windows/apps/jj552947(v=win.10)).
+> You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](/windows/uwp/app-resources/resource-management-system).
 
 ### Image sources and scaling
 

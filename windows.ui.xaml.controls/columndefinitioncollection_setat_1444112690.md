@@ -12,6 +12,8 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Controls.ColumnDefinition
 ## -description
 Sets the value at the specified index to the [ColumnDefinition](columndefinition.md) value specified.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ColumnDefinitionCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.controls.columndefinitioncollection.setat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

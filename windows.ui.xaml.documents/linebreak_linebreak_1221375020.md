@@ -12,6 +12,8 @@ public LineBreak()
 ## -description
 Initializes a new instance of the [LineBreak](linebreak.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Documents.LineBreak.LineBreak](/windows/winui/api/microsoft.ui.xaml.documents.linebreak.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionGetValueStatus TryGetVector4(System.Str
 ## -description
 Retrieves the specified [Vector4](../windows.foundation.numerics/vector4.md) property value.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.TryGetVector4](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.trygetvector4).
+
 ## -parameters
 ### -param propertyName
 The name of the property to retrieve.

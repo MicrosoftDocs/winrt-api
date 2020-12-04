@@ -13,6 +13,8 @@ public bool CompositionColorGradientStopCollection.IndexOf(CompositionColorGradi
 
 Retrieves the index of the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.IndexOf](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.indexof).
+
 ## -parameters
 ### -param value
 

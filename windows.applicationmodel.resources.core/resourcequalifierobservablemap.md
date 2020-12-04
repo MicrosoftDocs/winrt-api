@@ -13,9 +13,6 @@ public class ResourceQualifierObservableMap : Windows.Foundation.Collections.IIt
 Notifies listeners of dynamic changes to a map of [ResourceQualifier](resourcequalifier.md) objects, such as when items get added or removed, and allows qualifier values to change.
 
 ## -remarks
-### Collection member lists
-
-For JavaScript, ResourceQualifierObservableMap supports using an index to access items.
 
 ## -examples
 

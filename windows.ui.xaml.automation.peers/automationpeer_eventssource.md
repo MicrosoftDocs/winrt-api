@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.Peers.AutomationPeer EventsSource { get;  set;
 ## -description
 Gets or sets an [AutomationPeer](automationpeer.md) that is reported to the automation client as the source for all the events that come from this [AutomationPeer](automationpeer.md). See Remarks.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.EventsSource](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.eventssource).
+
 ## -property-value
 The [AutomationPeer](automationpeer.md) that is the source of events.
 

@@ -12,6 +12,8 @@ public Windows.Foundation.IAsyncOperation<Windows.UI.Xaml.Data.LoadMoreItemsResu
 ## -description
 Initializes incremental loading from the view.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Data.ICollectionView.LoadMoreItemsAsync](/windows/winui/api/microsoft.ui.xaml.data.icollectionview.loadmoreitemsasync).
+
 ## -parameters
 ### -param count
 The number of items to load.

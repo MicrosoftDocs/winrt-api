@@ -12,6 +12,8 @@ public object Lookup(System.Object key)
 ## -description
 Returns the value from the requested key, if an entry with that key exists.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.ResourceDictionary.Lookup](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.lookup).
+
 ## -parameters
 ### -param key
 The requested key.

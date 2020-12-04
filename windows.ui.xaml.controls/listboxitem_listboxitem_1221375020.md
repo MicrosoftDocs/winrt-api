@@ -12,6 +12,8 @@ public ListBoxItem()
 ## -description
 Initializes a new instance of the [ListBoxItem](listboxitem.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ListBoxItem.ListBoxItem](/windows/winui/api/microsoft.ui.xaml.controls.listboxitem.#ctor).
+
 ## -remarks
 
 ## -examples

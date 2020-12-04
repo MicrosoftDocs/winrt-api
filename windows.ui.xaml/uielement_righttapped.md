@@ -13,6 +13,8 @@ public event Windows.UI.Xaml.Input.RightTappedEventHandler RightTapped
 
 Occurs when a right-tap input stimulus happens while the pointer is over the element.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.RightTapped](/windows/winui/api/microsoft.ui.xaml.uielement.righttapped).
+
 ## -xaml-syntax
 
 ```xaml

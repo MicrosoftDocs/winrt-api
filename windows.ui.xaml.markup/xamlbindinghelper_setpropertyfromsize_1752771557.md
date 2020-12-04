@@ -12,6 +12,8 @@ public void SetPropertyFromSize(System.Object dependencyObject, Windows.UI.Xaml.
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Size](../windows.foundation/size.md) value.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromSize](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromsize).
+
 ## -parameters
 ### -param dependencyObject
 The object to which the property being set belongs.

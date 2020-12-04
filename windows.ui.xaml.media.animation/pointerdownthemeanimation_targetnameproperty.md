@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TargetNameProperty { get; }
 ## -description
 Identifies the [TargetName](pointerdownthemeanimation_targetname.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PointerDownThemeAnimation.TargetNameProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.pointerdownthemeanimation.targetnameproperty).
+
 ## -property-value
 The identifier for the [TargetName](pointerdownthemeanimation_targetname.md) dependency property.
 

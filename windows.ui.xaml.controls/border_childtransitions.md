@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection ChildTransitions { g
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to child content of a [Border](border.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Border.ChildTransitions](/windows/winui/api/microsoft.ui.xaml.controls.border.childtransitions).
+
 ## -xaml-syntax
 ```xaml
 <Border>

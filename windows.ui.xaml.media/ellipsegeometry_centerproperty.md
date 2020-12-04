@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CenterProperty { get; }
 ## -description
 Identifies the [Center](ellipsegeometry_center.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.EllipseGeometry.CenterProperty](/windows/winui/api/microsoft.ui.xaml.media.ellipsegeometry.centerproperty).
+
 ## -property-value
 The [Center](ellipsegeometry_center.md) dependency property identifier.
 

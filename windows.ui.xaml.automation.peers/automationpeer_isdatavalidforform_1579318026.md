@@ -12,6 +12,8 @@ public bool IsDataValidForForm()
 ## -description
 Gets a Boolean value that indicates whether the entered or selected value is valid for the form rule associated with the automation element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsDataValidForForm](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.isdatavalidforform).
+
 ## -returns
 A Boolean value that indicates whether the entered or selected value is valid for the form rule associated with the automation element. The default return value is **true**.
 

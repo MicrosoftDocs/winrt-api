@@ -12,6 +12,8 @@ public Windows.UI.Xaml.PropertyPath ItemsPath { get;  set; }
 ## -description
 Gets or sets the property path to follow from the top level item to find groups within the [CollectionViewSource](collectionviewsource.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.CollectionViewSource.ItemsPath](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.itemspath).
+
 ## -xaml-syntax
 ```xaml
 <CollectionViewSource ItemsPath="propertyPathString" .../>

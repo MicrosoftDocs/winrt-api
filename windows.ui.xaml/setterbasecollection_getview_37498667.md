@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.SetterBase> Ge
 ## -description
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.SetterBaseCollection.GetView](/windows/winui/api/microsoft.ui.xaml.setterbasecollection.getview).
+
 ## -returns
 An object representing the immutable collection view.
 

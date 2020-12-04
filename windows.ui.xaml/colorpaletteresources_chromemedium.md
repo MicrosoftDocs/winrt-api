@@ -14,6 +14,8 @@ public IReference<Color> ChromeMedium { get;  set; }
 
 Gets or sets the ChromeMedium color value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeMedium](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromemedium).
+
 ## -property-value
 
 The ChromeMedium color value.

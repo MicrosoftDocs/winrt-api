@@ -12,6 +12,8 @@ public void Append(Windows.UI.Xaml.DependencyObject value)
 ## -description
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyObjectCollection.Append](/windows/winui/api/microsoft.ui.xaml.dependencyobjectcollection.append).
+
 ## -parameters
 ### -param value
 The new item to add.

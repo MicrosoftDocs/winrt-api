@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty QueryIconProperty { get; }
 ## -description
 Identifies the [QueryIcon](autosuggestbox_queryicon.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.QueryIconProperty](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.queryiconproperty).
+
 ## -property-value
 The identifier for the [QueryIcon](autosuggestbox_queryicon.md) dependency property.
 

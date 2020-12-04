@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty IsModalProperty { get; }
 ## -description
 Identifies the [IsModal](../windows.ui.xaml.automation.provider/iwindowprovider_ismodal.md) automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.WindowPatternIdentifiers.IsModalProperty](/windows/winui/api/microsoft.ui.xaml.automation.windowpatternidentifiers.ismodalproperty).
+
 ## -property-value
 The automation property identifier.
 

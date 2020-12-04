@@ -13,6 +13,8 @@ public CompositionEllipseGeometry Compositor.CreateEllipseGeometry()
 
 Creates an instance of [CompositionEllipseGeometry](compositionellipsegeometry.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateEllipseGeometry](/windows/winui/api/microsoft.ui.composition.compositor.createellipsegeometry).
+
 ## -returns
 
 Returns the created [CompositionEllipseGeometry](compositionellipsegeometry.md) object.

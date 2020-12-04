@@ -13,6 +13,8 @@ public AnimationController CompositionObject.TryGetAnimationController(String pr
 
 Returns an AnimationController for the animation running on the specified property.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionObject.TryGetAnimationController](/windows/winui/api/microsoft.ui.composition.compositionobject.trygetanimationcontroller).
+
 ## -parameters
 ### -param propertyName
 

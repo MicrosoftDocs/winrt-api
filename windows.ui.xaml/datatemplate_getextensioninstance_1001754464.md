@@ -12,6 +12,8 @@ public Windows.UI.Xaml.IDataTemplateExtension GetExtensionInstance(Windows.UI.Xa
 ## -description
 Gets the value of the [DataTemplate.ExtensionInstance](/uwp/api/windows.ui.xaml.datatemplate#xaml-attached-properties) XAML attached property for the target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.DataTemplate.GetExtensionInstance](/windows/winui/api/microsoft.ui.xaml.datatemplate.getextensioninstance).
+
 ## -parameters
 ### -param element
 The object from which the property value is read.

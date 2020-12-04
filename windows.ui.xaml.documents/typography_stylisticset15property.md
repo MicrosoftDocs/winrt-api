@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty StylisticSet15Property { get; }
 ## -description
 Identifies the [StylisticSet15](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.StylisticSet15Property](/windows/winui/api/microsoft.ui.xaml.documents.typography.stylisticset15property).
+
 ## -property-value
 The identifier for the [StylisticSet15](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 

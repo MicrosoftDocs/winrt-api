@@ -13,6 +13,8 @@ public void RichEditTextRange.GetRect(PointOptions options, Rect rect, Int32 hit
 
 Retrieves the bounding rectangle that encompasses the text range on the screen.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.GetRect](/windows/winui/api/microsoft.ui.text.richedittextrange.getrect).
+
 ## -parameters
 ### -param options
 

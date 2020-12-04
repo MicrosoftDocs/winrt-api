@@ -12,6 +12,8 @@ public class VariableSizedWrapGrid : Windows.UI.Xaml.Controls.Panel, Windows.UI.
 ## -description
 Provides a grid-style layout panel where each tile/cell can be variable size based on content.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid](/windows/winui/api/microsoft.ui.xaml.controls.variablesizedwrapgrid).
+
 ## -xaml-syntax
 ```xaml
 <VariableSizedWrapGrid ...>

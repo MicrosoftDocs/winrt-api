@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty GroupPaddingProperty { get; }
 ## -description
 Identifies the [GroupPadding](itemswrapgrid_grouppadding.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid.GroupPaddingProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid.grouppaddingproperty).
+
 ## -property-value
 The identifier for the [GroupPadding](itemswrapgrid_grouppadding.md) dependency property.
 

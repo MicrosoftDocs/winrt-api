@@ -12,6 +12,8 @@ public Windows.UI.Color AutoColor { get; }
 ## -description
 Gets the default color.
 
+Equivalent WinUI property: [Microsoft.UI.Text.TextConstants.AutoColor](/windows/winui/api/microsoft.ui.text.textconstants.autocolor).
+
 ## -property-value
 The default color.
 

@@ -13,6 +13,8 @@ public float TrimOffset { get;  set; }
 
 Gets or sets the amount to offset trimming the geometry path.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGeometry.TrimOffset](/windows/winui/api/microsoft.ui.composition.compositiongeometry.trimoffset).
+
 ## -property-value
 
 The amount to offset trimming the geometry path. The default is 0.

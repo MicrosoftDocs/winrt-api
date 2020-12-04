@@ -12,6 +12,8 @@ public double KeyboardAcceleratorTextMinWidth { get; }
 ## -description
 Gets the minimum width allocated for the accelerator key tip of an [AppBarToggleButton](../windows.ui.xaml.controls/appbartogglebutton.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.AppBarToggleButtonTemplateSettings.KeyboardAcceleratorTextMinWidth](/windows/winui/api/microsoft.ui.xaml.controls.primitives.appbartogglebuttontemplatesettings.keyboardacceleratortextminwidth).
+
 ## -property-value
 A number that specifies the minimum width allocated for the accelerator key tip of an [AppBarToggleButton](../windows.ui.xaml.controls/appbartogglebutton.md).
 

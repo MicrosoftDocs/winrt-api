@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty StrokeDashOffsetProperty { get; }
 ## -description
 Identifies the [StrokeDashOffset](shape_strokedashoffset.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.StrokeDashOffsetProperty](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokedashoffsetproperty).
+
 ## -property-value
 The identifier for the [StrokeDashOffset](shape_strokedashoffset.md) dependency property.
 

@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.PasswordRevealMode : int
 ## -description
 Defines constants that specify the password reveal behavior of a [PasswordBox](passwordbox.md).
 
+Equivalent WinUI enum: [PasswordRevealMode](/windows/winui/api/microsoft.ui.xaml.controls.passwordrevealmode).
+
 ## -enum-fields
 ### -field Peek:0
 The password reveal button is visible. The password is not obscured while the button is pressed.

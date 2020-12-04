@@ -12,6 +12,8 @@ public double TranslateX { get;  set; }
 ## -description
 Gets or sets the distance to translate along the x-axis.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.CompositeTransform.TranslateX](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.translatex).
+
 ## -xaml-syntax
 ```xaml
 <CompositeTransform TranslateX="double"/>

@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler QuerySubmitted<Windows.UI.Xaml
 ## -description
 Occurs when the user submits a search query.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.QuerySubmitted](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.querysubmitted).
+
 ## -xaml-syntax
 ```xaml
 <AutoSuggestBox QuerySubmitted="eventhandler"/>

@@ -13,6 +13,8 @@ public Windows.UI.Color DeepSkyBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FF00BFFF.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.DeepSkyBlue](/windows/winui/api/microsoft.ui.colors.deepskyblue).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF00BFFF.

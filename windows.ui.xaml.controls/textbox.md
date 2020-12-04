@@ -13,6 +13,8 @@ public class TextBox : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Control
 
 Represents a control that can be used to display and edit plain text (single or multi-line).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TextBox](/windows/winui/api/microsoft.ui.xaml.controls.textbox).
+
 ## -xaml-syntax
 
 ```xaml

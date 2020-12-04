@@ -12,6 +12,8 @@ public Windows.UI.Composition.ImplicitAnimationCollection CreateImplicitAnimatio
 ## -description
 Creates an instance of [ImplicitAnimationCollection](implicitanimationcollection.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateImplicitAnimationCollection](/windows/winui/api/microsoft.ui.composition.compositor.createimplicitanimationcollection).
+
 ## -returns
 Returns the created [ImplicitAnimationCollection](implicitanimationcollection.md) object.
 

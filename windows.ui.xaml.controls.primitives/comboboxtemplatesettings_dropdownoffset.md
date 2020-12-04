@@ -12,6 +12,8 @@ public double DropDownOffset { get; }
 ## -description
 Gets a value that reports the run-time offset value that is useful for a **Split** animation of the "Popup" part of a [ComboBox](../windows.ui.xaml.controls/combobox.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ComboBoxTemplateSettings.DropDownOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.comboboxtemplatesettings.dropdownoffset).
+
 ## -property-value
 The run-time offset value in pixels.
 

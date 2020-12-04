@@ -12,6 +12,8 @@ public bool CanRotate { get; }
 ## -description
 Gets a value that indicates whether the element can be rotated.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider.CanRotate](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider.canrotate).
+
 ## -property-value
 **true** if the element can be rotated; otherwise, **false**.
 

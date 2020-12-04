@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.FontFamily XamlAutoFontFamily { get; }
 ## -description
 Gets the default font family based on an app's language settings.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.FontFamily.XamlAutoFontFamily](/windows/winui/api/microsoft.ui.xaml.media.fontfamily.xamlautofontfamily).
+
 ## -property-value
 The default font family based on an app's language settings. See Remarks.
 ## -remarks

@@ -12,6 +12,8 @@ public string Name { get; }
 ## -description
 Gets or sets a unique identification for the object. Name can only be set from initial parsing of XAML.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.Name](/windows/winui/api/microsoft.ui.xaml.documents.textelement.name).
+
 ## -xaml-syntax
 ```xaml
 <textElement Name="xamlNameString"/>

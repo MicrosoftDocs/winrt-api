@@ -12,6 +12,8 @@ public Windows.Foundation.TimeSpan OldTime { get; }
 ## -description
 Gets the time previously selected in the picker.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePickerValueChangedEventArgs.OldTime](/windows/winui/api/microsoft.ui.xaml.controls.timepickervaluechangedeventargs.oldtime).
+
 ## -property-value
 The time previously selected in the picker.
 

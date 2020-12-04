@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CompositionScaleYProperty { get; }
 ## -description
 Identifies the [CompositionScaleY](swapchainpanel_compositionscaley.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SwapChainPanel.CompositionScaleYProperty](/windows/winui/api/microsoft.ui.xaml.controls.swapchainpanel.compositionscaleyproperty).
+
 ## -property-value
 The identifier for the [CompositionScaleY](swapchainpanel_compositionscaley.md) dependency property.
 

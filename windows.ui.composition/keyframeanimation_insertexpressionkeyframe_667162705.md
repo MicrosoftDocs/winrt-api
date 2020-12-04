@@ -12,6 +12,8 @@ public void InsertExpressionKeyFrame(System.Single normalizedProgressKey, System
 ## -description
 Inserts an expression key frame.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.KeyFrameAnimation.InsertExpressionKeyFrame](/windows/winui/api/microsoft.ui.composition.keyframeanimation.insertexpressionkeyframe).
+
 ## -parameters
 ### -param normalizedProgressKey
 The time the key frame should occur at, expressed as a percentage of the animation [Duration](keyframeanimation_duration.md). Allowed value is from 0.0 to 1.0.

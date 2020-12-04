@@ -17,7 +17,7 @@ Sets the identifier that specifies the remote contacts to link together with the
 The remote contact list identifier.
 
 ### -param remoteSourceId
-The identifier for the remote service, for example, “EXCH” for exchange accounts.
+The identifier for the remote service, for example, "EXCH" for exchange accounts.
 
 ### -param accountId
 The unique roaming identifier of the account for the network.

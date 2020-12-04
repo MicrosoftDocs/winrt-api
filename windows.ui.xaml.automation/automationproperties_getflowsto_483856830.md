@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.DependencyObject> 
 ## -description
 Gets a list of automation elements that suggests the reading order after the specified automation element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetFlowsTo](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getflowsto).
+
 ## -parameters
 ### -param element
 The element for which to get the following reading order elements.

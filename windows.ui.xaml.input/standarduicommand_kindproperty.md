@@ -14,6 +14,8 @@ public DependencyProperty KindProperty { get; }
 
 Identifies the [Kind](standarduicommand_kind.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.StandardUICommand.KindProperty](/windows/winui/api/microsoft.ui.xaml.input.standarduicommand.kindproperty).
+
 ## -property-value
 
 The identifier for the [Kind](standarduicommand_kind.md) dependency property.

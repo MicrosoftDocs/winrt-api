@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.FillRule FillRule { get;  set; }
 ## -description
 Gets or sets a value that specifies how the interior fill of the shape is determined.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Polygon.FillRule](/windows/winui/api/microsoft.ui.xaml.shapes.polygon.fillrule).
+
 ## -xaml-syntax
 ```xaml
 <Polygon FillRule="Nonzero"/>

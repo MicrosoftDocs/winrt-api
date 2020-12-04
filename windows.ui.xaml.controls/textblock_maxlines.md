@@ -12,6 +12,8 @@ public int MaxLines { get;  set; }
 ## -description
 Gets or sets the maximum number of lines of text shown in the [TextBlock](textblock.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.MaxLines](/windows/winui/api/microsoft.ui.xaml.controls.textblock.maxlines).
+
 ## -xaml-syntax
 ```xaml
 <TextBlock MaxLines="int"/>

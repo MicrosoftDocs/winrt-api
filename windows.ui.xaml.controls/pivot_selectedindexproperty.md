@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SelectedIndexProperty { get; }
 ## -description
 Identifies the [SelectedIndex](pivot_selectedindex.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.SelectedIndexProperty](/windows/winui/api/microsoft.ui.xaml.controls.pivot.selectedindexproperty).
+
 ## -property-value
 The identifier for the [SelectedIndex](pivot_selectedindex.md) dependency property.
 

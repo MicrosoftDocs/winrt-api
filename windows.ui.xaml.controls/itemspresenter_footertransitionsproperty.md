@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FooterTransitionsProperty { get; }
 ## -description
 Identifies the [FooterTransitions](itemspresenter_footertransitions.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPresenter.FooterTransitionsProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.footertransitionsproperty).
+
 ## -property-value
 The identifier for the [FooterTransitions](itemspresenter_footertransitions.md) dependency property.
 

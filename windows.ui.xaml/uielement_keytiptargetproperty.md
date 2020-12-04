@@ -12,6 +12,8 @@ public DependencyProperty KeyTipTargetProperty { get; }
 ## -description
 Identifies the [KeyTipTarget](uielement_keytiptarget.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.KeyTipTargetProperty](/windows/winui/api/microsoft.ui.xaml.uielement.keytiptargetproperty).
+
 ## -property-value
 The identifier for the [KeyTipTarget](uielement_keytiptarget.md) dependency property.
 

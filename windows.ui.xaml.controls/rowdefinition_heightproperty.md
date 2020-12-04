@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HeightProperty { get; }
 ## -description
 Identifies the [Height](rowdefinition_height.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RowDefinition.HeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.heightproperty).
+
 ## -property-value
 The identifier for the [Height](rowdefinition_height.md) dependency property.
 

@@ -10,10 +10,12 @@ public bool IsAggregate { get; }
 # Windows.ApplicationModel.Contacts.Contact.IsAggregate
 
 ## -description
-Gets a Boolean value indicating of this is an aggregate [Contact](contact.md).
+
+Gets a value that indicates whether this is an aggregate [Contact](contact.md).
 
 ## -property-value
-Boolean value indicating of this is an aggregate [Contact](contact.md).
+
+`true` if this is an aggregate [Contact](contact.md); otherwise, `false`.
 
 ## -remarks
 
@@ -22,4 +24,5 @@ Boolean value indicating of this is an aggregate [Contact](contact.md).
 ## -see-also
 
 ## -capabilities
+
 contactsSystem

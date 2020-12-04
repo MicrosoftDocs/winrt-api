@@ -12,6 +12,8 @@ public Windows.UI.Xaml.VerticalAlignment VerticalChildrenAlignment { get;  set; 
 ## -description
 Gets or sets the alignment rules by which child elements are arranged for the vertical dimension.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.VerticalChildrenAlignment](/windows/winui/api/microsoft.ui.xaml.controls.variablesizedwrapgrid.verticalchildrenalignment).
+
 ## -xaml-syntax
 ```xaml
 <VariableSizedWrapGrid VerticalChildrenAlignment="verticalAlignmentMemberName" />

@@ -14,6 +14,8 @@ public void CompositionProjectedShadowReceiverUnorderedCollection.RemoveAll()
 
 Removes all items from the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionProjectedShadowReceiverUnorderedCollection.RemoveAll](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowreceiverunorderedcollection.removeall).
+
 ## -remarks
 
 ## -see-also

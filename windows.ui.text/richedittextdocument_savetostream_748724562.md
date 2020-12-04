@@ -12,6 +12,8 @@ public void RichEditTextDocument.SaveToStream(TextGetOptions options, IRandomAcc
 ## -description
 Saves the document to a stream.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.SaveToStream](/windows/winui/api/microsoft.ui.text.richedittextdocument.savetostream).
+
 ## -parameters
 
 ### -param options

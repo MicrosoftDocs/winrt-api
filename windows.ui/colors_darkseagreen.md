@@ -13,6 +13,8 @@ public Windows.UI.Color DarkSeaGreen { get; }
 
 Gets the system-defined color that has an ARGB value of #FF8FBC8F.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.DarkSeaGreen](/windows/winui/api/microsoft.ui.colors.darkseagreen).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF8FBC8F.

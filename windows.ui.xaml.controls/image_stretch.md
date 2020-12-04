@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Stretch Stretch { get;  set; }
 ## -description
 Gets or sets a value that describes how an [Image](image.md) should be stretched to fill the destination rectangle.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Image.Stretch](/windows/winui/api/microsoft.ui.xaml.controls.image.stretch).
+
 ## -xaml-syntax
 ```xaml
 <Image Stretch="stretchValue"/>

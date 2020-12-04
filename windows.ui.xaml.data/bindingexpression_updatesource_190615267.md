@@ -12,6 +12,8 @@ public void UpdateSource()
 ## -description
 Sends the current binding target value to the binding source property in **TwoWay** bindings.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Data.BindingExpression.UpdateSource](/windows/winui/api/microsoft.ui.xaml.data.bindingexpression.updatesource).
+
 ## -remarks
 If the [UpdateSourceTrigger](binding_updatesourcetrigger.md) value of a two-way binding is set to **Explicit**, you must call the UpdateSource method or the changes will not propagate back to the source.
 

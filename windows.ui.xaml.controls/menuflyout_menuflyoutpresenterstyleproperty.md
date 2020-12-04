@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MenuFlyoutPresenterStyleProperty { get
 ## -description
 Identifies the [MenuFlyoutPresenterStyle](menuflyout_menuflyoutpresenterstyle.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyout.MenuFlyoutPresenterStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.menuflyout.menuflyoutpresenterstyleproperty).
+
 ## -property-value
 The identifier for the [MenuFlyoutPresenterStyle](menuflyout_menuflyoutpresenterstyle.md) dependency property.
 

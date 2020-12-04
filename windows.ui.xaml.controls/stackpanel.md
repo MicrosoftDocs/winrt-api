@@ -12,6 +12,8 @@ public class StackPanel : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.Contro
 ## -description
 Arranges child elements into a single line that can be oriented horizontally or vertically.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.StackPanel](/windows/winui/api/microsoft.ui.xaml.controls.stackpanel).
+
 ## -xaml-syntax
 ```xaml
 <StackPanel .../>

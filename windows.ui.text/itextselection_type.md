@@ -12,6 +12,8 @@ public Windows.UI.Text.SelectionType Type { get; }
 ## -description
 Retrieves the type of text selection.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextSelection.Type](/windows/winui/api/microsoft.ui.text.itextselection.type).
+
 ## -property-value
 The selection type.
 

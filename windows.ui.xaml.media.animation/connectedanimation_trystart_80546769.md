@@ -12,6 +12,8 @@ public bool ConnectedAnimation.TryStart(UIElement destination, IIterable<UIEleme
 ## -description
 Attempts to start the animation on the destination element and specified secondary elements.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimation.TryStart](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimation.trystart).
+
 ## -parameters
 
 ### -param destination

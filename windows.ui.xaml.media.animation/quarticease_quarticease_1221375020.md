@@ -12,6 +12,8 @@ public QuarticEase()
 ## -description
 Initializes a new instance of the [QuarticEase](quarticease.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.QuarticEase.QuarticEase](/windows/winui/api/microsoft.ui.xaml.media.animation.quarticease.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -13,6 +13,8 @@ public bool InitialValueExpressionCollection.Insert(String key, String value)
 
 Inserts an item into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.InitialValueExpressionCollection.Insert](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.insert).
+
 ## -parameters
 
 ### -param key

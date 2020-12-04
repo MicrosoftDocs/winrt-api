@@ -12,6 +12,8 @@ public double CenterY { get;  set; }
 ## -description
 Gets or sets the y-coordinate of the rotation center point for this transformation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.RotateTransform.CenterY](/windows/winui/api/microsoft.ui.xaml.media.rotatetransform.centery).
+
 ## -xaml-syntax
 ```xaml
 <RotateTransform CenterY="double"/>

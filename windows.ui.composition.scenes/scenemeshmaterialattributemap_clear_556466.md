@@ -14,6 +14,8 @@ public void SceneMeshMaterialAttributeMap.Clear()
 
 Removes all items from the map.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneMeshMaterialAttributeMap.Clear](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshmaterialattributemap.clear).
+
 ## -remarks
 
 ## -see-also

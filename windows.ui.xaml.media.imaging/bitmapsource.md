@@ -12,6 +12,8 @@ public class BitmapSource : Windows.UI.Xaml.Media.ImageSource, Windows.UI.Xaml.M
 ## -description
 Provides a source object for properties that use a bitmap-format image source.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Imaging.BitmapSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapsource).
+
 ## -remarks
 > [!IMPORTANT]
 > You don't typically use or create a BitmapSource type directly, that's why you don't see code examples on this page. It's more common to create a [BitmapImage](bitmapimage.md) and use that as a value. For code examples and more info, see the reference page for [BitmapImage](bitmapimage.md).

@@ -12,6 +12,8 @@ virtual protected void OnPointerPressed(Windows.UI.Xaml.Input.PointerRoutedEvent
 ## -description
 Called before the [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md) event occurs.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnPointerPressed](/windows/winui/api/microsoft.ui.xaml.controls.control.onpointerpressed).
+
 ## -parameters
 ### -param e
 Event data for the event.

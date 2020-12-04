@@ -12,6 +12,8 @@ public ContentDialog()
 ## -description
 Initializes a new instance of the [ContentDialog](contentdialog.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ContentDialog.ContentDialog](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.#ctor).
+
 ## -remarks
 
 ## -examples

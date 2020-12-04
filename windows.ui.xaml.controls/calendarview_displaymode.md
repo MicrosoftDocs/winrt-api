@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.CalendarViewDisplayMode DisplayMode { get;  set;
 ## -description
 Gets or sets a value that indicates whether the calendar shows a picker for month, year, or decade.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.DisplayMode](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.displaymode).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView DisplayMode="calendarViewDisplayModeMemberName" />

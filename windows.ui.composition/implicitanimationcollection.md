@@ -12,6 +12,8 @@ public class ImplicitAnimationCollection : Windows.UI.Composition.CompositionObj
 ## -description
 A collection of animations triggered when a condition is met.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.ImplicitAnimationCollection](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection).
+
 ## -remarks
 
 Implicit animations let you drive animations by specifying trigger conditions rather than requiring the manual definition of animation behavior. They help decouple animation start logic from core app logic. You define animations and the events that should trigger these animations. The compositor then executes the set animations when the appropriate trigger conditions are met.

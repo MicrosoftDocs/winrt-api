@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CheckHintBrushProperty { get; }
 ## -description
 Identifies the [CheckHintBrush](gridviewitempresenter_checkhintbrush.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.CheckHintBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.checkhintbrushproperty).
+
 ## -property-value
 The identifier for the [CheckHintBrush](gridviewitempresenter_checkhintbrush.md) dependency property.
 

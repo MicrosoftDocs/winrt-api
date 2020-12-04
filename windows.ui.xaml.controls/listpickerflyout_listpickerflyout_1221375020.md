@@ -12,6 +12,8 @@ public ListPickerFlyout()
 ## -description
 Initializes a new instance of the [ListPickerFlyout](listpickerflyout.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.ListPickerFlyout](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.#ctor).
+
 ## -remarks
 
 ## -examples

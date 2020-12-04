@@ -12,6 +12,8 @@ public Windows.UI.Composition.SpotLight CreateSpotLight()
 ## -description
 Creates an instance of [SpotLight](spotlight.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateSpotLight](/windows/winui/api/microsoft.ui.composition.compositor.createspotlight).
+
 ## -returns
 Returns the created [SpotLight](spotlight.md) object.
 

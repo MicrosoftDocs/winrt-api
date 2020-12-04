@@ -13,6 +13,8 @@ public class InteractionTrackerVector2InertiaNaturalMotion : InteractionTrackerV
 
 A [Vector2NaturalMotionAnimation](../windows.ui.composition/vector2naturalmotionanimation.md) that defines motion of InteractionTracker during its inertia state.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionTrackerVector2InertiaNaturalMotion](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackervector2inertianaturalmotion).
+
 ## -remarks
 
 ## -see-also

@@ -14,6 +14,8 @@ public InteractionSourceConfiguration PointerWheelConfig { get; }
 
 Gets the configuration for pointer wheel input.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.PointerWheelConfig](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.pointerwheelconfig).
+
 ## -property-value
 
 The configuration for pointer wheel input.

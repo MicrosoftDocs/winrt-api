@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ChildTransitionsProperty { get; }
 ## -description
 Identifies the [ChildTransitions](border_childtransitions.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Border.ChildTransitionsProperty](/windows/winui/api/microsoft.ui.xaml.controls.border.childtransitionsproperty).
+
 ## -property-value
 The identifier for the [ChildTransitions](border_childtransitions.md) dependency property.
 

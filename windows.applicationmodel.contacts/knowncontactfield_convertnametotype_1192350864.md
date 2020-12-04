@@ -10,10 +10,11 @@ public Windows.ApplicationModel.Contacts.ContactFieldType ConvertNameToType(Syst
 # Windows.ApplicationModel.Contacts.KnownContactField.ConvertNameToType
 
 ## -description
-> [!NOTE]
-> [KnownContactField](knowncontactfield.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactAddress](contactaddress.md), [ContactPhone](contactphone.md), [ContactConnectedServiceAccount](contactconnectedserviceaccount.md), or [ContactEmail](contactemail.md).
 
 Converts a string representing the name of a field to its corresponding type.
+
+> [!NOTE]
+> [KnownContactField](knowncontactfield.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactAddress](contactaddress.md), [ContactPhone](contactphone.md), [ContactConnectedServiceAccount](contactconnectedserviceaccount.md), or [ContactEmail](contactemail.md).
 
 ## -parameters
 ### -param name

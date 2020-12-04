@@ -13,6 +13,8 @@ public IVectorView<CompositionColorGradientStop> CompositionColorGradientStopCol
 
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.GetView](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.getview).
+
 ## -returns
 
 An object representing the immutable collection view.

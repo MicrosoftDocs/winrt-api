@@ -12,6 +12,8 @@ public void SetInsetScales(System.Single scale)
 ## -description
 Sets the (same) scale to be applied to the left, top, right, and bottom insets. Defaults to 1.0f.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionNineGridBrush.SetInsetScales](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.setinsetscales).
+
 ## -parameters
 ### -param scale
 The scale for all of the insets.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SelectionModeProperty { get; }
 ## -description
 Identifies the [SelectionMode](listpickerflyout_selectionmode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.SelectionModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.selectionmodeproperty).
+
 ## -property-value
 The identifier of the SelectionMode dependency property.
 

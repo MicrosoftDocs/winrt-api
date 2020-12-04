@@ -12,6 +12,8 @@ public void PageUp()
 ## -description
 Scrolls content by one page towards the top.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel.PageUp](/windows/winui/api/microsoft.ui.xaml.controls.primitives.carouselpanel.pageup).
+
 ## -remarks
 This implementation calls [SetVerticalOffset](carouselpanel_setverticaloffset_1333703417.md) using a value for "page" that is same as the [ViewportHeight](carouselpanel_viewportheight.md).
 

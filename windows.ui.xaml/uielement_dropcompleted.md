@@ -13,6 +13,8 @@ public event Windows.Foundation.TypedEventHandler DropCompleted<Windows.UI.Xaml.
 
 Occurs when a drag-and-drop operation with this element as the source is ended.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.DropCompleted](/windows/winui/api/microsoft.ui.xaml.uielement.dropcompleted).
+
 ## -xaml-syntax
 
 ```xaml

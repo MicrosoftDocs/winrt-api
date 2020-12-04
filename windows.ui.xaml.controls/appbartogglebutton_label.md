@@ -12,6 +12,8 @@ public string Label { get;  set; }
 ## -description
 Gets or sets the text description displayed on the app bar toggle button.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarToggleButton.Label](/windows/winui/api/microsoft.ui.xaml.controls.appbartogglebutton.label).
+
 ## -xaml-syntax
 ```xaml
 <AppBarToggleButton Label="stringContent" .../>

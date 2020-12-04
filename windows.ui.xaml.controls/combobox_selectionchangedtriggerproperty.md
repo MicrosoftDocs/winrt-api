@@ -12,6 +12,8 @@ public DependencyProperty SelectionChangedTriggerProperty { get; }
 ## -description
 Identifies the [SelectionChangedTrigger](combobox_selectionchangedtrigger.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.SelectionChangedTriggerProperty](/windows/winui/api/microsoft.ui.xaml.controls.combobox.selectionchangedtriggerproperty).
+
 ## -property-value
 The identifier for the **SelectionChangedTrigger** dependency property.
 

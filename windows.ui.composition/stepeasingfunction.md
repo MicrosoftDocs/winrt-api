@@ -14,6 +14,8 @@ A step function for interpolating between animation key frames.
 
 Advances animations in increments like steps which can be can be defined. Behaviors for initial and final steps can be customized.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.StepEasingFunction](/windows/winui/api/microsoft.ui.composition.stepeasingfunction).
+
 ## -remarks
 The step easing function gives more flexibility for animations to advance in increments. Increments are defined using [StepCount](stepeasingfunction_stepcount.md) property. Steps can be customized using [InitialStep](stepeasingfunction_initialstep.md), and [FinalStep](stepeasingfunction_finalstep.md). Behavior for initial step can be customized using [IsInitialStepSingleFrame](stepeasingfunction_isinitialstepsingleframe.md) and final step using [IsFinalStepSingleFrame](stepeasingfunction_isfinalstepsingleframe.md).
 

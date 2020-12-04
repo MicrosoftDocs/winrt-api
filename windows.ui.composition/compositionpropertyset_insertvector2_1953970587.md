@@ -12,6 +12,8 @@ public void InsertVector2(System.String propertyName, Windows.Foundation.Numeric
 ## -description
 Inserts a Vector2 key-value pair.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.InsertVector2](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.insertvector2).
+
 ## -parameters
 ### -param propertyName
 The key associated with the value. This key can be used to retrieve the value.

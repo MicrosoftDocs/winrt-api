@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FromProperty { get; }
 ## -description
 Identifies the [From](coloranimation_from.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorAnimation.FromProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimation.fromproperty).
+
 ## -property-value
 The identifier for the [From](coloranimation_from.md)  dependency property.
 

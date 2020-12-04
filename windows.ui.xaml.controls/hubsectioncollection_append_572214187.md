@@ -12,6 +12,8 @@ public void Append(Windows.UI.Xaml.Controls.HubSection value)
 ## -description
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.HubSectionCollection.Append](/windows/winui/api/microsoft.ui.xaml.controls.hubsectioncollection.append).
+
 ## -parameters
 ### -param value
 The new item to add.

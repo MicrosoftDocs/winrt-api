@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.GeometryCollection Children { get;  set; }
 ## -description
 Gets or sets the [GeometryCollection](geometrycollection.md) that contains the objects that define this [GeometryGroup](geometrygroup.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.GeometryGroup.Children](/windows/winui/api/microsoft.ui.xaml.media.geometrygroup.children).
+
 ## -xaml-syntax
 ```xaml
 <GeometryGroup>

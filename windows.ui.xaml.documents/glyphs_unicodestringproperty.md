@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty UnicodeStringProperty { get; }
 ## -description
 Identifies the [UnicodeString](glyphs_unicodestring.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.UnicodeStringProperty](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.unicodestringproperty).
+
 ## -property-value
 The identifier for the [UnicodeString](glyphs_unicodestring.md) dependency property.
 

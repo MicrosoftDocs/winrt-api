@@ -12,6 +12,8 @@ public bool IsZoomedInView { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [Hub](hub.md) instance is the zoomed-in view in its owning [SemanticZoom](semanticzoom.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.IsZoomedInView](/windows/winui/api/microsoft.ui.xaml.controls.hub.iszoomedinview).
+
 ## -property-value
 **true** if the [Hub](hub.md) is the zoomed-in view; otherwise, **false**.
 

@@ -12,6 +12,8 @@ public void Pause()
 ## -description
 Pauses media at the current position.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaElement.Pause](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.pause).
+
 ## -remarks
 Any calls to [Play](mediaelement_play_848564459.md), Pause, and [Stop](mediaelement_stop_1201535524.md) methods that occur before the [MediaOpened](mediaelement_mediaopened.md) event is raised are ignored.
 

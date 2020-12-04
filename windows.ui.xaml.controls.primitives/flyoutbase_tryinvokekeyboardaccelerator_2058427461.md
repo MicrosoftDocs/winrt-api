@@ -12,6 +12,8 @@ public void FlyoutBase.TryInvokeKeyboardAccelerator(ProcessKeyboardAcceleratorEv
 ## -description
 Attempts to invoke a keyboard shortcut (accelerator).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.TryInvokeKeyboardAccelerator](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.tryinvokekeyboardaccelerator).
+
 ## -parameters
 ### -param args
 The [ProcessKeyboardAcceleratorEventArgs](..\windows.ui.xaml.input\processkeyboardacceleratoreventargs.md).

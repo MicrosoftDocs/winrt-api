@@ -12,6 +12,8 @@ public object CloseButtonCommandParameter { get;  set; }
 ## -description
 Gets or sets the parameter to pass to the command for the close button.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.CloseButtonCommandParameter](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.closebuttoncommandparameter).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog>

@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.FontEastAsianWidths : int
 ## -description
 Provides a mechanism for selecting glyphs of different width styles.
 
+Equivalent WinUI enum: [FontEastAsianWidths](/windows/winui/api/microsoft.ui.xaml.fonteastasianwidths).
+
 ## -xaml-syntax
 ```xaml
 <object property="enumMemberName"/>

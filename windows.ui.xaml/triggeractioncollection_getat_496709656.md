@@ -12,6 +12,8 @@ public Windows.UI.Xaml.TriggerAction GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.TriggerActionCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.triggeractioncollection.getat).
+
 ## -parameters
 ### -param index
 The integer index for the value to retrieve.

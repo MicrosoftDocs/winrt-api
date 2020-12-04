@@ -14,6 +14,8 @@ public FullXamlMetadataProviderAttribute.FullXamlMetadataProviderAttribute()
 
 Initializes a new instance of the [FullXamlMetadataProviderAttribute](fullxamlmetadataproviderattribute.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Markup.FullXamlMetadataProviderAttribute.FullXamlMetadataProviderAttribute](/windows/winui/api/microsoft.ui.xaml.markup.fullxamlmetadataproviderattribute.#ctor).
+
 ## -remarks
 
 ## -see-also

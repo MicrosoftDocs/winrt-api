@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler TextChanging<Windows.UI.Xaml.C
 ## -description
 Occurs synchronously when the text in the edit box starts to change, but before it is rendered.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.RichEditBox.TextChanging](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.textchanging).
+
 ## -xaml-syntax
 ```xaml
 <RichEditBox TextChanging="eventhandler"/>

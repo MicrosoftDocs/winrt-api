@@ -13,6 +13,8 @@ public DisabledFormattingAccelerators DisabledFormattingAccelerators { get;  set
 
 Gets or sets a value that indicates which keyboard shortcuts for formatting are disabled.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.DisabledFormattingAccelerators](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.disabledformattingaccelerators).
+
 ## -xaml-syntax
 
 ```xaml

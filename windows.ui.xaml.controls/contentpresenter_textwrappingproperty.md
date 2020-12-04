@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TextWrappingProperty { get; }
 ## -description
 Identifies the [TextWrapping](contentpresenter_textwrapping.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.TextWrappingProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.textwrappingproperty).
+
 ## -property-value
 The identifier for the [TextWrapping](contentpresenter_textwrapping.md) dependency property.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TextProperty { get; }
 ## -description
 Identifies the [Text](timelinemarker_text.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.TimelineMarker.TextProperty](/windows/winui/api/microsoft.ui.xaml.media.timelinemarker.textproperty).
+
 ## -property-value
 The identifier for the [Text](timelinemarker_text.md) dependency property.
 

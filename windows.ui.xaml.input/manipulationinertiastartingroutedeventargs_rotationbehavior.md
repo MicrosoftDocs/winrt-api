@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Input.InertiaRotationBehavior RotationBehavior { get;  se
 ## -description
 Gets information about the rotation information associated with the manipulation for this event occurrence.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.RotationBehavior](/windows/winui/api/microsoft.ui.xaml.input.manipulationinertiastartingroutedeventargs.rotationbehavior).
+
 ## -property-value
 Manipulation rotation information.
 

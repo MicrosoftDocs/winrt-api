@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple[] GetColumn
 ## -description
 Retrieves an array of UI Automation providers representing all the column headers associated with a table item or cell.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITableItemProvider.GetColumnHeaderItems](/windows/winui/api/microsoft.ui.xaml.automation.provider.itableitemprovider.getcolumnheaderitems).
+
 ## -returns
 An array of UI Automation providers.
 

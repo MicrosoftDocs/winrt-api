@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty StretchProperty { get; }
 ## -description
 Identifies the [Stretch](mediaplayerpresenter_stretch.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.StretchProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerpresenter.stretchproperty).
+
 ## -property-value
 The identifier for the [Stretch](mediaplayerpresenter_stretch.md) dependency property.
 

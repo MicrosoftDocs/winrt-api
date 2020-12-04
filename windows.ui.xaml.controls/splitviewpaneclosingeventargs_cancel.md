@@ -12,6 +12,8 @@ public bool Cancel { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the pane closing action should be canceled.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitViewPaneClosingEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.controls.splitviewpaneclosingeventargs.cancel).
+
 ## -property-value
 **true** to cancel the pane closing action; otherwise, **false**.
 

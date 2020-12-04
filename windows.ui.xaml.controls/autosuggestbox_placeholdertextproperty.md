@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PlaceholderTextProperty { get; }
 ## -description
 Identifies the [PlaceholderText](autosuggestbox_placeholdertext.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.PlaceholderTextProperty](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.placeholdertextproperty).
+
 ## -property-value
 The identifier for the [PlaceholderText](autosuggestbox_placeholdertext.md) dependency property.
 

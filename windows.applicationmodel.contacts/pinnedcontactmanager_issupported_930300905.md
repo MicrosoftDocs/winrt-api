@@ -13,7 +13,8 @@ public bool PinnedContactManager.IsSupported()
 Indicates whether the Windows UI supports contact pinning.
 
 ## -returns
-A Boolean value that indicates whether the Windows UI supports contact pinning.
+
+`true` if the Windows UI supports contact pinning; otherwise, `false`.
 
 ## -remarks
 

@@ -14,6 +14,8 @@ public SceneComponentCollection Components { get; }
 
 Gets the collection of components for this node.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneNode.Components](/windows/winui/api/microsoft.ui.composition.scenes.scenenode.components).
+
 ## -property-value
 
 The collection of components for this node.

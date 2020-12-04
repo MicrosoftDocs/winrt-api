@@ -12,6 +12,8 @@ public object Footer { get;  set; }
 ## -description
 Gets or sets the content for the items footer.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPresenter.Footer](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.footer).
+
 ## -xaml-syntax
 ```xaml
 <ItemsPresenter Footer="footerString"/>

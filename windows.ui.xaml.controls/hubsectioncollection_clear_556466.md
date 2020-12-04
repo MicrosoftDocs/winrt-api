@@ -12,6 +12,8 @@ public void Clear()
 ## -description
 Removes all items from the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.HubSectionCollection.Clear](/windows/winui/api/microsoft.ui.xaml.controls.hubsectioncollection.clear).
+
 ## -remarks
 
 ## -examples

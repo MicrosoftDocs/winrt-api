@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.AutomationCaretPosition : int
 ## -description
 Defines the caret position.
 
+Equivalent WinUI enum: [AutomationCaretPosition](/windows/winui/api/microsoft.ui.xaml.automation.automationcaretposition).
+
 ## -enum-fields
 ### -field Unknown:0
 Caret position is unknown.

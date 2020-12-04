@@ -13,6 +13,8 @@ public Windows.UI.Xaml.CornerRadius FromUniformRadius(System.Double uniformRadiu
 
 Creates a new [CornerRadius](cornerradius.md) value that has a uniform radius value for each of its elements. C# and Microsoft Visual Basic code should use the [CornerRadius(Double)](/dotnet/api/windows.ui.xaml.cornerradius.-ctor#Windows_UI_Xaml_CornerRadius__ctor_System_Double_) constructor instead.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.CornerRadiusHelper.FromUniformRadius](/windows/winui/api/microsoft.ui.xaml.cornerradiushelper.fromuniformradius).
+
 ## -parameters
 
 ### -param uniformRadius

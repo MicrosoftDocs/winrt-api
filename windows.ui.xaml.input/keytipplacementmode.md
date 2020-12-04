@@ -20,6 +20,8 @@ public enum KeyTipPlacementMode : int {
 ## -description
 Defines constants that specify where a Key Tip is placed in relation to a UIElement.
 
+Equivalent WinUI enum: [Microsoft.UI.Xaml.Input.KeyTipPlacementMode](/windows/winui/api/microsoft.ui.xaml.input.keytipplacementmode).
+
 ## -enum-fields
 
 ### -field Auto:0

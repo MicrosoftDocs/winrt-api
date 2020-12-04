@@ -13,6 +13,8 @@ public float Intensity { get;  set; }
 
 Gets or sets the intensity of the light.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.PointLight.Intensity](/windows/winui/api/microsoft.ui.composition.pointlight.intensity).
+
 ## -property-value
 
 The intensity of the light.

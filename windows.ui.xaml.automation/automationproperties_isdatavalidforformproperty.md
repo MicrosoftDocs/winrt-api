@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsDataValidForFormProperty { get; }
 ## -description
 Identifies the Boolean dependency property that indicates if the data is valid for the form.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.IsDataValidForFormProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.isdatavalidforformproperty).
+
 ## -property-value
 The dependency property identifier.
 

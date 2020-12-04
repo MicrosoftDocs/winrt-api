@@ -12,6 +12,8 @@ public string GetLocalizedControlType(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets a localized string that indicates the type of the specified control.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetLocalizedControlType](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getlocalizedcontroltype).
+
 ## -parameters
 ### -param element
 The control for which to retrieve the type.

@@ -13,6 +13,8 @@ public event Windows.Foundation.TypedEventHandler DragItemsCompleted<Windows.UI.
 
 Occurs when a drag operation that involves one of the items in the view is ended.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ListViewBase.DragItemsCompleted](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.dragitemscompleted).
+
 ## -remarks
 
 > [!IMPORTANT]

@@ -12,6 +12,8 @@ public Windows.Foundation.DateTime NewDate { get; }
 ## -description
 Gets the new date selected in the picker.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerValueChangedEventArgs.NewDate](/windows/winui/api/microsoft.ui.xaml.controls.datepickervaluechangedeventargs.newdate).
+
 ## -property-value
 The new date selected in the picker.
 

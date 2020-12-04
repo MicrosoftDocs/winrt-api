@@ -12,6 +12,8 @@ public bool IsFilled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the contained area of this [PathFigure](pathfigure.md) is to be used for hit-testing, rendering, and clipping.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PathFigure.IsFilled](/windows/winui/api/microsoft.ui.xaml.media.pathfigure.isfilled).
+
 ## -xaml-syntax
 ```xaml
 <PathFigure IsFilled="bool"/>

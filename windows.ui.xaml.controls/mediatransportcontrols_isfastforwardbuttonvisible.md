@@ -12,6 +12,8 @@ public bool IsFastForwardButtonVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the fast forward button is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsFastForwardButtonVisible](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isfastforwardbuttonvisible).
+
 ## -xaml-syntax
 ```xaml
 

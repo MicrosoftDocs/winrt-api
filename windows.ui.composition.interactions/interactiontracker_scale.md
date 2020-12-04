@@ -14,6 +14,8 @@ The output scale calculated by the [InteractionTracker](interactiontracker.md). 
 
 The scale property of the [InteractionTracker](interactiontracker.md) is a float representing the scale in the [InteractionTracker](interactiontracker.md) ’s coordinate space. This value will start at 1 and will increase or decrease based on active input or direct calls to update or animate the property. The scale property when the [InteractionTracker](interactiontracker.md) is in the Idle or CustomAnimation states will not change from 1 unless the [MinScale](interactiontracker_minscale.md) and [MaxScale](interactiontracker_maxscale.md) properties, which both default to 1, are updated. [InteractionTracker](interactiontracker.md) ’s scale can go slightly outside this range during the Interacting and Inertia states in order to show a bounce or resistance at the boundary.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTracker.Scale](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.scale).
+
 ## -property-value
 The output scale calculated by the [InteractionTracker](interactiontracker.md).
 

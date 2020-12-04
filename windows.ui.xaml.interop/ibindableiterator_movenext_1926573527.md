@@ -12,6 +12,8 @@ public bool MoveNext()
 ## -description
 Moves the iterator forward to the next item and returns [HasCurrent](ibindableiterator_hascurrent.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableIterator.MoveNext](/windows/winui/api/microsoft.ui.xaml.interop.ibindableiterator.movenext).
+
 ## -returns
 **true** if the iterator refers to a valid item that is in the collection; otherwise, **false**.
 

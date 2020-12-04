@@ -12,6 +12,8 @@ public string CalendarIdentifier { get;  set; }
 ## -description
 Gets or sets the calendar system to use.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.CalendarIdentifier](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.calendaridentifier).
+
 ## -xaml-syntax
 ```xaml
 <CalendarDatePicker CalendarIdentifier="calendarSystem"/>

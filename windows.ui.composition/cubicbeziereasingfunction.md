@@ -14,6 +14,8 @@ Represents a cubic-bezier function for interpolating between animation key frame
 
 The cubic-bezier function is one of the more common easing functions used with [KeyFrameAnimation](keyframeanimation.md)s and are used frequently to describe smooth curves that can be scaled. Cubic-bezier functions are defined by two “control points” of type Vector2 that define the shape of the curve. When used, the animating property will change in between two keyframes based on the defined curve.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CubicBezierEasingFunction](/windows/winui/api/microsoft.ui.composition.cubicbeziereasingfunction).
+
 ## -remarks
 There are numerous web services like [this one](https://go.microsoft.com/fwlink/?LinkId=809223) that allow you to visualize how the two control points affect the shape of the cubic-bezier. The values you define here are the same values that get inputted into each Vector2 component.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Imaging.BitmapCreateOptions CreateOptions { get;  s
 ## -description
 Gets or sets the [BitmapCreateOptions](bitmapcreateoptions.md) for a [BitmapImage](bitmapimage.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.CreateOptions](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.createoptions).
+
 ## -xaml-syntax
 ```xaml
 <BitmapImage CreateOptions="bitmapCreateOptionsMemberName"/>

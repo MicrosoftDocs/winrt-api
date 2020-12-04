@@ -13,6 +13,8 @@ public ExpressionAnimation Condition { get;  set; }
 
 Gets or sets an [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) describing when the modifier should be applied.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaNaturalMotion.Condition](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertianaturalmotion.condition).
+
 ## -property-value
 
 An [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) describing when the modifier should be applied.

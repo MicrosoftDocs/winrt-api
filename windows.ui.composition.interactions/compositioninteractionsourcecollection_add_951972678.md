@@ -12,6 +12,8 @@ public void Add(Windows.UI.Composition.Interactions.ICompositionInteractionSourc
 ## -description
 Adds an interaction source to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.Add](/windows/winui/api/microsoft.ui.composition.interactions.compositioninteractionsourcecollection.add).
+
 ## -parameters
 ### -param value
 The interaction source to add to the collection.

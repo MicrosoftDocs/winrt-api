@@ -12,6 +12,8 @@ public class MenuFlyoutPresenterTemplateSettings : Windows.UI.Xaml.DependencyObj
 ## -description
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for a [MenuFlyoutPresenter](../windows.ui.xaml.controls/menuflyoutpresenter.md) control. Not intended for general use.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.MenuFlyoutPresenterTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.menuflyoutpresentertemplatesettings).
+
 ## -remarks
 
 ## -examples

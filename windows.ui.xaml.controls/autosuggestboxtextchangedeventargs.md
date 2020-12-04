@@ -12,6 +12,8 @@ public class AutoSuggestBoxTextChangedEventArgs : Windows.UI.Xaml.DependencyObje
 ## -description
 Provides data for the [TextChanged](autosuggestbox_textchanged.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.AutoSuggestBoxTextChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestboxtextchangedeventargs).
+
 ## -remarks
 
 ## -examples

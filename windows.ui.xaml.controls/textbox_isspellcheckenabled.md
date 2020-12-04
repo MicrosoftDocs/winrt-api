@@ -12,6 +12,8 @@ public bool IsSpellCheckEnabled { get;  set; }
 ## -description
 Gets or sets a value that specifies whether the [TextBox](textbox.md) input interacts with a spell check engine.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.IsSpellCheckEnabled](/windows/winui/api/microsoft.ui.xaml.controls.textbox.isspellcheckenabled).
+
 ## -xaml-syntax
 ```xaml
 <TextBox IsSpellCheckEnabled="bool" />

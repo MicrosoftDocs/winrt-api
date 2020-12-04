@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsZoomedInViewProperty { get; }
 ## -description
 Identifies the [IsZoomedInView](listviewbase_iszoomedinview.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.IsZoomedInViewProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.iszoomedinviewproperty).
+
 ## -property-value
 The identifier for the [IsZoomedInView](listviewbase_iszoomedinview.md) dependency property.
 

@@ -12,6 +12,8 @@ public DependencyProperty KeyTipHorizontalOffsetProperty { get; }
 ## -description
 Identifies the **KeyTipHorizontalOffset** dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.KeyTipHorizontalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.keytiphorizontaloffsetproperty).
+
 ## -property-value
 The identifier for the **KeyTipHorizontalOffset** dependency property.
 

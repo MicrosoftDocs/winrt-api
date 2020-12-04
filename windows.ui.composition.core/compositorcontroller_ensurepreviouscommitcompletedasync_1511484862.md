@@ -13,6 +13,8 @@ public IAsyncAction CompositorController.EnsurePreviousCommitCompletedAsync()
 
 Ensures the previous commit was completed.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Core.CompositorController.EnsurePreviousCommitCompletedAsync](/windows/winui/api/microsoft.ui.composition.core.compositorcontroller.ensurepreviouscommitcompletedasync).
+
 ## -returns
 
 An asynchronous action.

@@ -12,6 +12,8 @@ public Windows.Foundation.Uri Source { get;  set; }
 ## -description
 Gets or sets a media source on the [MediaElement](mediaelement.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.Source](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.source).
+
 ## -xaml-syntax
 ```xaml
 <MediaElement Source="uri" .../>

@@ -12,6 +12,8 @@ public uint Size { get; }
 ## -description
 Gets the number of elements contained in the collection.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ResourceDictionary.Size](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.size).
+
 ## -property-value
 The number of elements contained in the collection.
 

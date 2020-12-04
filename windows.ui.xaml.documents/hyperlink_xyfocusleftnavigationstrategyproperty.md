@@ -12,6 +12,8 @@ public DependencyProperty XYFocusLeftNavigationStrategyProperty { get; }
 ## -description
 Identifies the [XYFocusLeftNavigationStrategy](hyperlink_xyfocusleftnavigationstrategy.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusLeftNavigationStrategyProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.xyfocusleftnavigationstrategyproperty).
+
 ## -property-value
 The identifier for the [XYFocusLeftNavigationStrategy](hyperlink_xyfocusleftnavigationstrategy.md) dependency property.
 

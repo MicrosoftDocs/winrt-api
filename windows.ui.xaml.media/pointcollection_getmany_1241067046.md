@@ -12,6 +12,8 @@ public uint GetMany(System.UInt32 startIndex, Windows.Foundation.Point[] items)
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PointCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.media.pointcollection.getmany).
+
 ## -parameters
 ### -param startIndex
 The index from which to start retrieval.

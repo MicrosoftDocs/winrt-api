@@ -12,6 +12,8 @@ public double SmallChange { get;  set; }
 ## -description
 Gets or sets a [Value](rangebase_value.md) to be added to or subtracted from the [Value](rangebase_value.md) of a [RangeBase](rangebase.md) control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.SmallChange](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.smallchange).
+
 ## -xaml-syntax
 ```xaml
 <rangeBase SmallChange="double"/>

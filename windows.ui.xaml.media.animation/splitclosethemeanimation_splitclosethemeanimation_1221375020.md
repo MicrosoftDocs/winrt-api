@@ -12,6 +12,8 @@ public SplitCloseThemeAnimation()
 ## -description
 Initializes a new instance of the [SplitCloseThemeAnimation](splitclosethemeanimation.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.SplitCloseThemeAnimation.SplitCloseThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.splitclosethemeanimation.#ctor).
+
 ## -remarks
 
 ## -examples

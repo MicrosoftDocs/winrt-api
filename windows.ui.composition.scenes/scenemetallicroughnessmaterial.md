@@ -14,6 +14,8 @@ public class SceneMetallicRoughnessMaterial : ScenePbrMaterial, ScenePbrMaterial
 
 Represents a material that has that has the appearance of metal.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.SceneMetallicRoughnessMaterial](/windows/winui/api/microsoft.ui.composition.scenes.scenemetallicroughnessmaterial).
+
 ## -remarks
 
 ## -see-also

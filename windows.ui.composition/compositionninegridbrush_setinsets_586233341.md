@@ -12,6 +12,8 @@ public void SetInsets(System.Single left, System.Single top, System.Single right
 ## -description
 Sets the insets of a CompositionNineGridBrush using the specified values for the top, bottom, left, and right. Defaults to 0.0f.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionNineGridBrush.SetInsets](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.setinsets).
+
 ## -parameters
 ### -param left
 The inset from the left of the image.

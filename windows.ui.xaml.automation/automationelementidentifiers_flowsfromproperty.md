@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty FlowsFromProperty { get; }
 ## -description
 Identifies the "flows from" automation property. The "flows from" property value is returned by the [GetFlowsFrom](automationproperties_getflowsfrom_1915156123.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.FlowsFromProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.flowsfromproperty).
+
 ## -property-value
 The automation property identifier.
 

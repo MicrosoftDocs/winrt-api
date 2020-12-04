@@ -11,6 +11,8 @@ public struct KeyTime
 
 ## -description
 Specifies when a particular key frame should take place during an animation.
+Equivalent WinUI struct: [KeyTime](/windows/winui/api/microsoft.ui.xaml.media.animation.keytime).
+
 ## -xaml-syntax
 ```xaml
 <object property="[days.]hours:minutes:seconds[.fractionalSeconds]"/>

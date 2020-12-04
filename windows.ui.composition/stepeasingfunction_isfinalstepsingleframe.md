@@ -12,6 +12,8 @@ public bool IsFinalStepSingleFrame { get;  set; }
 ## -description
 Indicates whether the final step should last the smallest possible duration.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.StepEasingFunction.IsFinalStepSingleFrame](/windows/winui/api/microsoft.ui.composition.stepeasingfunction.isfinalstepsingleframe).
+
 ## -property-value
 Boolean indicating whether the final step should last the smallest possible duration (1 frame).
 

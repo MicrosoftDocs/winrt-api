@@ -12,6 +12,8 @@ public event Windows.Foundation.Collections.VectorChangedEventHandler VectorChan
 ## -description
 Occurs when the contents of the collection changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.DependencyObjectCollection.VectorChanged](/windows/winui/api/microsoft.ui.xaml.dependencyobjectcollection.vectorchanged).
+
 ## -remarks
 This event is named **VectorChanged** for all languages, but for C# and Microsoft Visual Basic the implemented collection type is [IList<T>](/dotnet/api/system.collections.generic.ilist-1).
 

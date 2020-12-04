@@ -14,6 +14,8 @@ public void AppBarButtonAutomationPeer.Expand()
 
 Displays all child nodes, controls, or content of the control.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AppBarButtonAutomationPeer.Expand](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarbuttonautomationpeer.expand).
+
 ## -remarks
 
 ## -see-also

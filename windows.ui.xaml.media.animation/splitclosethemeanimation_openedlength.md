@@ -12,6 +12,8 @@ public double OpenedLength { get;  set; }
 ## -description
 Gets or sets the final size of the target UI element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitCloseThemeAnimation.OpenedLength](/windows/winui/api/microsoft.ui.xaml.media.animation.splitclosethemeanimation.openedlength).
+
 ## -xaml-syntax
 ```xaml
 <SplitCloseThemeAnimation OpenedLength="double" />

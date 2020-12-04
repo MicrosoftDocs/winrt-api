@@ -12,6 +12,8 @@ public SceneLightingEffect()
 ## -description
 Creates an instance of [SceneLightingEffect](scenelightingeffect.md).
 
+Equivalent WinUI constructor: [Microsoft.UI.Composition.Effects.SceneLightingEffect.SceneLightingEffect](/windows/winui/api/microsoft.ui.composition.effects.scenelightingeffect.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.CornerRadius CornerRadius { get;  set; }
 ## -description
 Gets or sets the radius for the corners of the content presenter's border.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.CornerRadius](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.cornerradius).
+
 ## -xaml-syntax
 ```xaml
 <ContentPresenter CornerRadius="uniformRadius"/>

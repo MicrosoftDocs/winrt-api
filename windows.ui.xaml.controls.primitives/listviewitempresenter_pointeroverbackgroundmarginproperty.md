@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PointerOverBackgroundMarginProperty { 
 ## -description
 Identifies the [PointerOverBackgroundMargin](listviewitempresenter_pointeroverbackgroundmargin.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackgroundMarginProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.pointeroverbackgroundmarginproperty).
+
 ## -property-value
 The identifier for the [PointerOverBackgroundMargin](listviewitempresenter_pointeroverbackgroundmargin.md) dependency property.
 

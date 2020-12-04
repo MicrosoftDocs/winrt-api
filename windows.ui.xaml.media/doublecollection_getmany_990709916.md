@@ -12,6 +12,8 @@ public uint GetMany(System.UInt32 startIndex, System.Double[] items)
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.DoubleCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.media.doublecollection.getmany).
+
 ## -parameters
 ### -param startIndex
 The index from which to start retrieval.

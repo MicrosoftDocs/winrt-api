@@ -12,6 +12,8 @@ public event TypedEventHandler ShutdownCompleted<DispatcherQueue,  object>
 ## -description
 Fires after the **DispatcherQueue** event loop stops which is the last step in the **DispatcherQueue** shutdown process.
 
+Equivalent WinUI event: [Microsoft.System.DispatcherQueue.ShutdownCompleted](/windows/winui/api/microsoft.system.dispatcherqueue.shutdowncompleted).
+
 ## -remarks
 The event is fired on the thread running the **DispatcherQueue** event loop. After this event is fired, any work posted to the **DispatcherQueue** will not be scheduled.
 

@@ -12,6 +12,8 @@ public int PageNumber { get; }
 ## -description
 Gets the page number of the potentially repaginated page involved in the preview.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Printing.GetPreviewPageEventArgs.PageNumber](/windows/winui/api/microsoft.ui.xaml.printing.getpreviewpageeventargs.pagenumber).
+
 ## -property-value
 The page number of the potentially repaginated page.
 

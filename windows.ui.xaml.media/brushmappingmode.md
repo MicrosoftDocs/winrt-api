@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Media.BrushMappingMode : int
 ## -description
 Specifies the coordinate system used by a [Brush](brush.md).
 
+Equivalent WinUI enum: [BrushMappingMode](/windows/winui/api/microsoft.ui.xaml.media.brushmappingmode).
+
 ## -enum-fields
 ### -field Absolute:0
 The coordinate system is not relative to a bounding box. Values are interpreted directly in local space.

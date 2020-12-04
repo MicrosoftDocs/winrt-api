@@ -12,6 +12,8 @@ public class PolyBezierSegment : Windows.UI.Xaml.Media.PathSegment, Windows.UI.X
 ## -description
 Represents one or more cubic Bezier curves.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.PolyBezierSegment](/windows/winui/api/microsoft.ui.xaml.media.polybeziersegment).
+
 ## -xaml-syntax
 ```xaml
 <PolyBezierSegment .../>

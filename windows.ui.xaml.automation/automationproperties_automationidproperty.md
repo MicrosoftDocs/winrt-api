@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AutomationIdProperty { get; }
 ## -description
 Identifies the [AutomationProperties.AutomationId](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property, which is a string containing the UI Automation identifier (ID) for the automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.AutomationIdProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.automationidproperty).
+
 ## -property-value
 The identifier for the [AutomationProperties.AutomationId](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property.
 

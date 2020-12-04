@@ -12,6 +12,8 @@ public string ClockIdentifier { get;  set; }
 ## -description
 Gets or sets the clock system to use.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.ClockIdentifier](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.clockidentifier).
+
 ## -xaml-syntax
 ```xaml
 <TimePicker ClockIdentifier="12HourClock"/>

@@ -13,6 +13,8 @@ public int StartPosition { get;  set; }
 
 Gets or sets the start position of the text range.
 
+Equivalent WinUI property: [Microsoft.UI.Text.RichEditTextRange.StartPosition](/windows/winui/api/microsoft.ui.text.richedittextrange.startposition).
+
 ## -property-value
 
 The character position to set as the start position of the text range.

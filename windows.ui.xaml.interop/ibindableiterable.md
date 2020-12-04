@@ -17,6 +17,8 @@ Extends [IIterable](../windows.foundation.collections/iiterable_1.md) to enable 
 > **.NET**
 > This interface appears as [System.Collections.IEnumerable](/dotnet/api/system.collections.ienumerable?redirectedfrom=MSDN).
 
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Interop.IBindableIterable](/windows/winui/api/microsoft.ui.xaml.interop.ibindableiterable).
+
 ## -remarks
 When programming with .NET, this interface is hidden and developers should use the [System.Collections.IEnumerable](/dotnet/api/system.collections.ienumerable?redirectedfrom=MSDN) interface.
 

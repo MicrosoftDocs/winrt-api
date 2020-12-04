@@ -13,6 +13,8 @@ public Windows.UI.Color Teal { get; }
 
 Gets the system-defined color that has an ARGB value of #FF008080.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Teal](/windows/winui/api/microsoft.ui.colors.teal).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF008080.

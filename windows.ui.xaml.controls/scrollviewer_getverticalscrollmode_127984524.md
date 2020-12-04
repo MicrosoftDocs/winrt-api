@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ScrollMode GetVerticalScrollMode(Windows.UI.Xaml
 ## -description
 Gets the value of the [VerticalScrollMode](scrollviewer_verticalscrollmode.md) dependency property / `ScrollViewer.VerticalScrollMode` XAML attached property from a specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.GetVerticalScrollMode](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.getverticalscrollmode).
+
 ## -parameters
 ### -param element
 The element from which the property value is read.

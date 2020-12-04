@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IntervalProperty { get; }
 ## -description
 Identifies the [Interval](repeatbutton_interval.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RepeatButton.IntervalProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.repeatbutton.intervalproperty).
+
 ## -property-value
 The identifier for the [Interval](repeatbutton_interval.md) dependency property.
 

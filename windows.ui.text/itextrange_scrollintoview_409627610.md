@@ -12,6 +12,8 @@ public void ScrollIntoView(Windows.UI.Text.PointOptions value)
 ## -description
 Scrolls this text range into view.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.ScrollIntoView](/windows/winui/api/microsoft.ui.text.itextrange.scrollintoview).
+
 ## -parameters
 ### -param value
 The end of the text range to scroll into view. This function uses only the **Start**, **NoHorizontalScroll**, and **NoVerticalScroll** values of the [PointOptions](pointoptions.md) enumeration.

@@ -12,6 +12,8 @@ public Compositor()
 ## -description
 Creates an instance of [Compositor](compositor.md).
 
+Equivalent WinUI constructor: [Microsoft.UI.Composition.Compositor.Compositor](/windows/winui/api/microsoft.ui.composition.compositor.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public SlideNavigationTransitionInfo()
 ## -description
 Initializes a new instance of the **SlideNavigationTransitionInfo** class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.SlideNavigationTransitionInfo.SlideNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.slidenavigationtransitioninfo.#ctor).
+
 ## -remarks
 
 ## -examples

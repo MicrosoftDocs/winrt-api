@@ -12,6 +12,8 @@ public RepeatButtonAutomationPeer(Windows.UI.Xaml.Controls.Primitives.RepeatButt
 ## -description
 Initializes a new instance of the [RepeatButtonAutomationPeer](repeatbuttonautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.RepeatButtonAutomationPeer.RepeatButtonAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.repeatbuttonautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The owner element to create for.

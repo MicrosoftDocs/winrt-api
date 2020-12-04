@@ -12,6 +12,8 @@ public double OriginX { get;  set; }
 ## -description
 Gets or sets the x origin for the glyphs.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.OriginX](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.originx).
+
 ## -xaml-syntax
 ```xaml
 <Glyphs OriginX="double"/>

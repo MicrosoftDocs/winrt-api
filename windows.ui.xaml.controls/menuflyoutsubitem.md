@@ -13,6 +13,8 @@ public class MenuFlyoutSubItem : Windows.UI.Xaml.Controls.MenuFlyoutItemBase, Wi
 
 Represents a menu item that displays a sub-menu in a [MenuFlyout](menuflyout.md) control.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutsubitem).
+
 ## -xaml-syntax
 
 ```xaml

@@ -12,6 +12,8 @@ public class GridViewHeaderItem : Windows.UI.Xaml.Controls.ListViewBaseHeaderIte
 ## -description
 Represents items in the header for grouped data inside a [GridView](gridview.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.GridViewHeaderItem](/windows/winui/api/microsoft.ui.xaml.controls.gridviewheaderitem).
+
 ## -remarks
 GridViewHeaderItem is a control that's created by the system and added to the visual tree when the data templates for a grouped [ListView](listview.md) are realized. Specifically, it's created when realizing the [GroupStyle.HeaderTemplate](groupstyle_headertemplate.md). You don't typically define elements for GridViewHeaderItem in XAML. There's a default template for GridViewHeaderItem as part of the built-in templates. The main app scenario for the GridViewHeaderItem class is to copy and replace the default style and template with a style of your own, which also implicitly targets GridViewHeaderItem.
 

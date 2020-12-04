@@ -12,6 +12,8 @@ virtual protected void OnDragLeave(Windows.UI.Xaml.DragEventArgs e)
 ## -description
 Called before the [DragLeave](../windows.ui.xaml/uielement_dragleave.md) event occurs.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnDragLeave](/windows/winui/api/microsoft.ui.xaml.controls.control.ondragleave).
+
 ## -parameters
 ### -param e
 Event data for the event.

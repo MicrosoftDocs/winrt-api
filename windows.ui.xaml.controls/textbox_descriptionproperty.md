@@ -14,6 +14,8 @@ public DependencyProperty DescriptionProperty { get; }
 
 Identifies the Description dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.DescriptionProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.descriptionproperty).
+
 ## -property-value
 
 The identifier for the Description dependency property.

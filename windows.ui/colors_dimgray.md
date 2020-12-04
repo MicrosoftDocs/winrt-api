@@ -13,6 +13,8 @@ public Windows.UI.Color DimGray { get; }
 
 Gets the system-defined color that has an ARGB value of #FF696969.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.DimGray](/windows/winui/api/microsoft.ui.colors.dimgray).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF696969.

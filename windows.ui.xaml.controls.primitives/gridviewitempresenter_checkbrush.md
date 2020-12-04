@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush CheckBrush { get;  set; }
 ## -description
 Gets or sets the brush used to render the check mark on a selected item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.CheckBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.checkbrush).
+
 ## -xaml-syntax
 ```xaml
 <GridViewItemPresenter CheckBrush="themeResourceReference"/>

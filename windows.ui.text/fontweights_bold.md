@@ -13,6 +13,8 @@ public Windows.UI.Text.FontWeight Bold { get; }
 
 Specifies a font weight value of 700.
 
+Equivalent WinUI property: [Microsoft.UI.Text.FontWeights.Bold](/windows/winui/api/microsoft.ui.text.fontweights.bold).
+
 ## -property-value
 
 A [FontWeight](fontweight.md) with a Weight value of 700.

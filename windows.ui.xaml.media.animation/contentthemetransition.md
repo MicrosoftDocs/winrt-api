@@ -12,6 +12,8 @@ public class ContentThemeTransition : Windows.UI.Xaml.Media.Animation.Transition
 ## -description
 Provides the animated transition behavior for when the content of a control is changing. This might be applied in addition to [AddDeleteThemeTransition](adddeletethemetransition.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ContentThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.contentthemetransition).
+
 ## -xaml-syntax
 ```xaml
 <ContentThemeTransition ... />

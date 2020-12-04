@@ -12,6 +12,8 @@ virtual protected string GetAutomationIdCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetAutomationId](automationpeer_getautomationid_1912681712.md) or an equivalent Microsoft UI Automation client API.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetAutomationIdCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getautomationidcore).
+
 ## -returns
 The automation identifier.
 

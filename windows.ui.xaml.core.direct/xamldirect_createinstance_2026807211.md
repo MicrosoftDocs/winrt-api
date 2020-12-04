@@ -13,6 +13,8 @@ public IXamlDirectObject XamlDirect.CreateInstance(XamlTypeIndex typeIndex)
 ## -description
 Creates an [IXamlDirectObject](ixamldirectobject.md) instance of the type specified by the [XamlTypeIndex](xamltypeindex.md) parameter.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.CreateInstance](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.createinstance).
+
 ## -parameters
 ### -param typeIndex
 Refers to the specific XAML type from the set of supported types listed in the [XamlTypeIndex](xamltypeindex.md) enum.

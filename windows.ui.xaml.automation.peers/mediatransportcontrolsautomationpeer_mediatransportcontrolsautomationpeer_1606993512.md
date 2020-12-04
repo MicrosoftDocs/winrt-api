@@ -12,6 +12,8 @@ public MediaTransportControlsAutomationPeer(Windows.UI.Xaml.Controls.MediaTransp
 ## -description
 Initializes a new instance of the [MediaTransportControlsAutomationPeer](mediatransportcontrolsautomationpeer.md) class using the specified media transport controls.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.MediaTransportControlsAutomationPeer.MediaTransportControlsAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.mediatransportcontrolsautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The specified media transport controls.

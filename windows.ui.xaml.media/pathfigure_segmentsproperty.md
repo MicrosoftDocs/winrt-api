@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SegmentsProperty { get; }
 ## -description
 Identifies the [Segments](pathfigure_segments.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PathFigure.SegmentsProperty](/windows/winui/api/microsoft.ui.xaml.media.pathfigure.segmentsproperty).
+
 ## -property-value
 The identifier for the [Segments](pathfigure_segments.md) dependency property.
 

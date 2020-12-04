@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LightDismissOverlayModeProperty { get;
 ## -description
 Identifies the [LightDismissOverlayMode](autosuggestbox_lightdismissoverlaymode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.LightDismissOverlayModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.lightdismissoverlaymodeproperty).
+
 ## -property-value
 The identifier for the [LightDismissOverlayMode](autosuggestbox_lightdismissoverlaymode.md) dependency property.
 

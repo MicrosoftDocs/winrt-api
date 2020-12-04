@@ -14,6 +14,8 @@ public CompositionBitmapInterpolationMode BitmapInterpolationMode { get;  set; }
 
 Gets or sets the bitmap interpolation mode.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneSurfaceMaterialInput.BitmapInterpolationMode](/windows/winui/api/microsoft.ui.composition.scenes.scenesurfacematerialinput.bitmapinterpolationmode).
+
 ## -property-value
 
 The bitmap interpolation mode.

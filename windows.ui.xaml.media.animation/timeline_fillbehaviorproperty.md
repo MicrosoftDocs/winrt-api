@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FillBehaviorProperty { get; }
 ## -description
 Identifies the [FillBehavior](timeline_fillbehavior.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.FillBehaviorProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.fillbehaviorproperty).
+
 ## -property-value
 The identifier for the [FillBehavior](timeline_fillbehavior.md)  dependency property.
 

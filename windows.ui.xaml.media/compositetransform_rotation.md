@@ -12,6 +12,8 @@ public double Rotation { get;  set; }
 ## -description
 Gets or sets the angle, in degrees, of clockwise rotation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.CompositeTransform.Rotation](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.rotation).
+
 ## -xaml-syntax
 ```xaml
 <CompositeTransform Rotation="double"/>

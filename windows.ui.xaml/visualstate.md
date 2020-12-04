@@ -13,6 +13,8 @@ public class VisualState : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.IVi
 
 Represents the visual appearance of a UI element when it is in a specific state. Visual states use [Setters](visualstate_setters.md) or a [Storyboard](visualstate_storyboard.md) to set UI properties within pages or control templates where the VisualState is defined.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.VisualState](/windows/winui/api/microsoft.ui.xaml.visualstate).
+
 ## -xaml-syntax
 
 ```xaml

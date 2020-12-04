@@ -13,6 +13,8 @@ public class CornerRadiusHelper : Windows.UI.Xaml.ICornerRadiusHelper
 
 Provides basic utility methods for processing [CornerRadius](cornerradius.md) values. C# and Microsoft Visual Basic code should use methods of [CornerRadius](cornerradius.md) instead.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.CornerRadiusHelper](/windows/winui/api/microsoft.ui.xaml.cornerradiushelper).
+
 ## -remarks
 
 [CornerRadius](cornerradius.md) is a Windows Runtime structure that represents a radius applied to one or all corners of a rectangular UI element. For example, [Border.CornerRadius](../windows.ui.xaml.controls/border_cornerradius.md) uses a [CornerRadius](cornerradius.md) value.

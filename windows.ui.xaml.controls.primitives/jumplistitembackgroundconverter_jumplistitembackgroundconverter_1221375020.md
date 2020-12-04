@@ -12,6 +12,8 @@ public JumpListItemBackgroundConverter()
 ## -description
 Initializes a new instance of the [JumpListItemBackgroundConverter](jumplistitembackgroundconverter.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Primitives.JumpListItemBackgroundConverter.JumpListItemBackgroundConverter](/windows/winui/api/microsoft.ui.xaml.controls.primitives.jumplistitembackgroundconverter.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public int ColorFontPaletteIndex { get;  set; }
 ## -description
 Gets or sets the index of the palette to use for the color font.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.ColorFontPaletteIndex](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.colorfontpaletteindex).
+
 ## -property-value
 The index of the palette to use for the color font.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty Y1Property { get; }
 ## -description
 Identifies the [Y1](line_y1.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Line.Y1Property](/windows/winui/api/microsoft.ui.xaml.shapes.line.y1property).
+
 ## -property-value
 The identifier for the [Y1](line_y1.md) dependency property.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MinDateProperty { get; }
 ## -description
 Identifies the [MinDate](calendardatepicker_mindate.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.MinDateProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.mindateproperty).
+
 ## -property-value
 The identifier for the [MinDate](calendardatepicker_mindate.md) dependency property.
 

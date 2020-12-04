@@ -12,6 +12,8 @@ public void InsertBoolean(System.String propertyName, System.Boolean value)
 ## -description
 Inserts a boolean key-value pair.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.InsertBoolean](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.insertboolean).
+
 ## -parameters
 ### -param propertyName
 The key associated with the value. This key can be used to retrieve the value.

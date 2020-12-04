@@ -14,6 +14,8 @@ public void UIElementWeakCollection.RemoveAt(UInt32 index)
 
 Removes the item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.RemoveAt](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.removeat).
+
 ## -parameters
 ### -param index
 

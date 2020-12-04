@@ -12,6 +12,8 @@ public InputScopeName(Windows.UI.Xaml.Input.InputScopeNameValue nameValue)
 ## -description
 Initializes a new instance of the [InputScopeName](inputscopename.md) class, using an input name based on the [InputScopeNameValue](inputscopenamevalue.md) enumeration.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.InputScopeName.InputScopeName](/windows/winui/api/microsoft.ui.xaml.input.inputscopename.#ctor).
+
 ## -parameters
 ### -param nameValue
 An input name based on the [InputScopeNameValue](inputscopenamevalue.md) enumeration.

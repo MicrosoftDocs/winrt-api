@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PrimaryTextProperty { get; }
 ## -description
 Identifies the [PrimaryText](datepickerflyoutitem_primarytext.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem.PrimaryTextProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem.primarytextproperty).
+
 ## -property-value
 The identifier for the [PrimaryText](datepickerflyoutitem_primarytext.md) dependency property.
 

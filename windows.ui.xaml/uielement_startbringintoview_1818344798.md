@@ -14,6 +14,8 @@ public void UIElement.StartBringIntoView()
 
 Initiates a request to the XAML framework to bring the element into view within any scrollable regions it is contained within.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.StartBringIntoView](/windows/winui/api/microsoft.ui.xaml.uielement.startbringintoview).
+
 ## -remarks
 
 The request is fulfilled asynchronously as the framework initiates changes to the view of [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md)s that contain the element.  The [HorizontalOffset](../windows.ui.xaml.controls/scrollviewer_horizontaloffset.md) and [VerticalOffset](../windows.ui.xaml.controls/scrollviewer_verticaloffset.md) of those ScrollViewers may not be updated immediately upon returning from the call.  However, in the process of servicing the request a ScrollViewer's [ViewChanging](../windows.ui.xaml.controls.scrollviewer_viewchanging.md) and [ViewChanged](../windows.ui.xaml.controls.scrollviewer_viewchanged.md) events will fire.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty UriSourceProperty { get; }
 ## -description
 Identifies the [UriSource](bitmapimage_urisource.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.UriSourceProperty](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.urisourceproperty).
+
 ## -property-value
 The identifier for the [UriSource](bitmapimage_urisource.md) dependency property.
 

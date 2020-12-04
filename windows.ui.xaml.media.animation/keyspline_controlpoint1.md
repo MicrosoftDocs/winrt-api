@@ -12,6 +12,8 @@ public Windows.Foundation.Point ControlPoint1 { get;  set; }
 ## -description
 Gets or sets the first control point used to define a Bezier curve that describes a [KeySpline](keyspline.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.KeySpline.ControlPoint1](/windows/winui/api/microsoft.ui.xaml.media.animation.keyspline.controlpoint1).
+
 ## -xaml-syntax
 ```xaml
 <KeySpline ControlPoint1="x,y"/>

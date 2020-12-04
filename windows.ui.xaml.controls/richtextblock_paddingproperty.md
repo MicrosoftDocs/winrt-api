@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PaddingProperty { get; }
 ## -description
 Identifies the [Padding](richtextblock_padding.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.PaddingProperty](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.paddingproperty).
+
 ## -property-value
 The identifier for the [Padding](richtextblock_padding.md) dependency property.
 

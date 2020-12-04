@@ -12,6 +12,8 @@ public double RotationZ { get;  set; }
 ## -description
 Gets or sets the number of degrees to rotate the object around the z-axis of rotation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.RotationZ](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.rotationz).
+
 ## -xaml-syntax
 ```xaml
 <PlaneProjection RotationZ="double"/>

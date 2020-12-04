@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionGetValueStatus TryGetColor(System.Strin
 ## -description
 Retrieves the specified [Color](../windows.ui/color.md) property value.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.TryGetColor](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.trygetcolor).
+
 ## -parameters
 ### -param propertyName
 The name of the property to retrieve.

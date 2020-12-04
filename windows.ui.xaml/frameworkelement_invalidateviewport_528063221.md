@@ -14,6 +14,8 @@ public void FrameworkElement.InvalidateViewport()
 
 Invalidates the viewport state for a [UIElement](uielement.md) that is used to calculate the *effective viewport*.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkElement.InvalidateViewport](/windows/winui/api/microsoft.ui.xaml.frameworkelement.invalidateviewport).
+
 ## -remarks
 
 The [UIElement](uielement.md) must have previously been registered with the framework using the [RegisterAsScrollPort](uielement_registerasscrollport_591917999.md) method.

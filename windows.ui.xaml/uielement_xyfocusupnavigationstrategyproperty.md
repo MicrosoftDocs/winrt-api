@@ -13,6 +13,8 @@ public DependencyProperty XYFocusUpNavigationStrategyProperty { get; }
 
 Identifies the [XYFocusUpNavigationStrategy](uielement_xyfocusupnavigationstrategy.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.XYFocusUpNavigationStrategyProperty](/windows/winui/api/microsoft.ui.xaml.uielement.xyfocusupnavigationstrategyproperty).
+
 ## -property-value
 
 The identifier for the [XYFocusUpNavigationStrategy](uielement_xyfocusupnavigationstrategy.md) dependency property.

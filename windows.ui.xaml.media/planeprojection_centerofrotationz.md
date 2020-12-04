@@ -12,6 +12,8 @@ public double CenterOfRotationZ { get;  set; }
 ## -description
 Gets or sets the z-coordinate of the center of rotation of the object that you rotate.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.CenterOfRotationZ](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.centerofrotationz).
+
 ## -xaml-syntax
 ```xaml
 <PlaneProjection CenterOfRotationZ="double"/>

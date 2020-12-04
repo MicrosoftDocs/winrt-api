@@ -12,6 +12,8 @@ public class CollectionViewSource : Windows.UI.Xaml.DependencyObject, Windows.UI
 ## -description
 Provides a data source that adds grouping and current-item support to collection classes.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Data.CollectionViewSource](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource).
+
 ## -xaml-syntax
 ```xaml
 <CollectionViewSource .../>

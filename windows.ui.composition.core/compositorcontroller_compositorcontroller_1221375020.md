@@ -13,6 +13,8 @@ public CompositorController.CompositorController()
 
 Initializes a new instance of the CompositorController class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Composition.Core.CompositorController.CompositorController](/windows/winui/api/microsoft.ui.composition.core.compositorcontroller.#ctor).
+
 ## -remarks
 
 ## -see-also

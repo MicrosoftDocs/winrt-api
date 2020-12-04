@@ -13,6 +13,8 @@ public class Image : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Controls.
 
 Represents a control that displays an image. The image source is specified by referring to an image file, using several supported formats. The image source can also be set with a stream. See Remarks for the list of supported image source formats.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Image](/windows/winui/api/microsoft.ui.xaml.controls.image).
+
 ## -xaml-syntax
 
 ```xaml
@@ -174,7 +176,7 @@ For more info on how to design images properly for scaling, see [UX guidelines f
 
 ### Using unqualified resources
 
-Unqualified resources is a technique you can use where the basic resource reference refers to a default resource, and the resource management process can find the equivalent localized resource automatically. You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](/previous-versions/windows/apps/jj552947(v=win.10)).
+Unqualified resources is a technique you can use where the basic resource reference refers to a default resource, and the resource management process can find the equivalent localized resource automatically. You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](/windows/uwp/app-resources/resource-management-system).
 
 ### FlowDirection for Image
 

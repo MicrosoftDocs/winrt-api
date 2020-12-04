@@ -12,6 +12,8 @@ public class ColumnDefinitionCollection : Windows.Foundation.Collections.IIterab
 ## -description
 Provides access to an ordered, strongly typed collection of [ColumnDefinition](columndefinition.md) objects.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ColumnDefinitionCollection](/windows/winui/api/microsoft.ui.xaml.controls.columndefinitioncollection).
+
 ## -xaml-syntax
 ```xaml
 <Grid ...>

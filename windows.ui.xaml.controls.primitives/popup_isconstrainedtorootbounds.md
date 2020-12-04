@@ -14,6 +14,8 @@ public bool IsConstrainedToRootBounds { get; }
 
 Gets a value that indicates whether the popup is shown within the bounds of the XAML root.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Popup.IsConstrainedToRootBounds](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.isconstrainedtorootbounds).
+
 ## -property-value
 
 **true** if the popup is shown within the bounds of the XAML root; otherwise, **false**.

@@ -15,6 +15,8 @@ public IReference<TimeSpan> SelectedTime { get;  set; }
 Gets or sets the time currently selected in the time picker.
 
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.SelectedTime](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.selectedtime).
+
 ## -property-value
 
 The time currently selected in the time picker.

@@ -13,6 +13,8 @@ public Windows.UI.Color DarkOrange { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFF8C00.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.DarkOrange](/windows/winui/api/microsoft.ui.colors.darkorange).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFFF8C00.

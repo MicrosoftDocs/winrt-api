@@ -14,6 +14,8 @@ public interface IScrollAnchorProvider
 
 Specifies a contract for a scrolling control that supports scroll anchoring.
 
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Controls.IScrollAnchorProvider](/windows/winui/api/microsoft.ui.xaml.controls.iscrollanchorprovider).
+
 ## -remarks
 
 ### Scroll Anchoring

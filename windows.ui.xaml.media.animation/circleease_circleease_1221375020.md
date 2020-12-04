@@ -12,6 +12,8 @@ public CircleEase()
 ## -description
 Initializes a new instance of the [CircleEase](circleease.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.CircleEase.CircleEase](/windows/winui/api/microsoft.ui.xaml.media.animation.circleease.#ctor).
+
 ## -remarks
 
 ## -examples

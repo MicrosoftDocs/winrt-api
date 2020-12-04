@@ -13,6 +13,8 @@ public Windows.UI.Color Tan { get; }
 
 Gets the system-defined color that has an ARGB value of #FFD2B48C.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Tan](/windows/winui/api/microsoft.ui.colors.tan).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFD2B48C.

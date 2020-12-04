@@ -12,6 +12,8 @@ public int GetColumn(Windows.UI.Xaml.FrameworkElement element)
 ## -description
 Gets the value of the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property from the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Grid.GetColumn](/windows/winui/api/microsoft.ui.xaml.controls.grid.getcolumn).
+
 ## -parameters
 ### -param element
 The element from which to read the property value.

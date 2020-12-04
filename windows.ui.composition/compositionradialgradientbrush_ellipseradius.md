@@ -14,6 +14,8 @@ public Vector2 EllipseRadius { get;  set; }
 
 Gets or sets the radii of the ellipse that contains the gradient.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionRadialGradientBrush.EllipseRadius](/windows/winui/api/microsoft.ui.composition.compositionradialgradientbrush.ellipseradius).
+
 ## -property-value
 
 The radii of the ellipse that contains the gradient. The default is a Vector2 with values (0.5, 0.5).

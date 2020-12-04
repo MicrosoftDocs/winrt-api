@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Style Style { get;  set; }
 ## -description
 Gets or sets an instance [Style](style.md) that is applied for this object during layout and rendering.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.Style](/windows/winui/api/microsoft.ui.xaml.frameworkelement.style).
+
 ## -xaml-syntax
 ```xaml
 <frameworkElement Style="{StaticResource styleResourceKey}"/>

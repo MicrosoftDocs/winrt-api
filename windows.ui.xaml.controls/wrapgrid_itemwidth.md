@@ -12,6 +12,8 @@ public double ItemWidth { get;  set; }
 ## -description
 Gets or sets the width of the layout area for each item that is contained in a [WrapGrid](wrapgrid.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.WrapGrid.ItemWidth](/windows/winui/api/microsoft.ui.xaml.controls.wrapgrid.itemwidth).
+
 ## -xaml-syntax
 ```xaml
 <WrapGrid ItemWidth="double" />

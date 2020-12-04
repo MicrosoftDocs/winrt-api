@@ -12,6 +12,8 @@ public Windows.UI.Input.ManipulationVelocities Velocities { get; }
 ## -description
 Gets the velocities that are used for the manipulation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs.Velocities](/windows/winui/api/microsoft.ui.xaml.input.manipulationcompletedroutedeventargs.velocities).
+
 ## -property-value
 The velocities that are used for the manipulation.
 

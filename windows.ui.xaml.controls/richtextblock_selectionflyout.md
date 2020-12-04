@@ -14,6 +14,8 @@ public FlyoutBase SelectionFlyout { get;  set; }
 
 Gets or sets the flyout that is shown when text is selected using touch or pen, or **null** if no flyout is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.SelectionFlyout](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.selectionflyout).
+
 ## -property-value
 
 The flyout that is shown when text is selected using touch or pen, or **null** if no flyout is shown. The default is an instance of [TextCommandBarFlyout](textcommandbarflyout.md).

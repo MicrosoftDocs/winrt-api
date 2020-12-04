@@ -12,6 +12,8 @@ public bool IsPaneOpen { get;  set; }
 ## -description
 Gets or sets a value that specifies whether the [SplitView](splitview.md) pane is expanded to its full width.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.IsPaneOpen](/windows/winui/api/microsoft.ui.xaml.controls.splitview.ispaneopen).
+
 ## -xaml-syntax
 ```xaml
 

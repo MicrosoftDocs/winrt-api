@@ -13,6 +13,8 @@ public Windows.UI.Color GreenYellow { get; }
 
 Gets the system-defined color that has an ARGB value of #FFADFF2F.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.GreenYellow](/windows/winui/api/microsoft.ui.colors.greenyellow).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFADFF2F.

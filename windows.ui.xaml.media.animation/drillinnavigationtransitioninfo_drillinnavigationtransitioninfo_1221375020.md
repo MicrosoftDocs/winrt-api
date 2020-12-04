@@ -12,6 +12,8 @@ public DrillInNavigationTransitionInfo()
 ## -description
 Initializes a new instance of the [DrillInNavigationTransitionInfo](drillinnavigationtransitioninfo.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DrillInNavigationTransitionInfo.DrillInNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.drillinnavigationtransitioninfo.#ctor).
+
 ## -remarks
 
 ## -examples

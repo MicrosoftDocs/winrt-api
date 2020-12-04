@@ -13,6 +13,8 @@ public class CompositionPathGeometry : CompositionGeometry, CompositionGeometry
 
 Represents a series of connected lines and curves.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionPathGeometry](/windows/winui/api/microsoft.ui.composition.compositionpathgeometry).
+
 ## -remarks
 
 ## -see-also

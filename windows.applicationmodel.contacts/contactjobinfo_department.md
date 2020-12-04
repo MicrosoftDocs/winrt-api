@@ -10,10 +10,10 @@ public string Department { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactJobInfo.Department
 
 ## -description
-Gets and sets the department of the job info for a contact. The maximum string length for the department is 100 characters.
+Gets or sets the department of the job info for a contact. The maximum string length for the department is 100 characters.
 
 ## -property-value
-The department of the job info for a contact.
+The department of the job info for a contact. The maximum string length for the department is 100 characters.
 
 ## -remarks
 

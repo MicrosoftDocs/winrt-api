@@ -12,6 +12,8 @@ public double CenterY { get;  set; }
 ## -description
 Gets or sets the y-coordinate of the center point for all transforms specified by the [CompositeTransform](compositetransform.md) in device-independent pixel (DIP) relative to the upper left-hand corner of the element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.CompositeTransform.CenterY](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.centery).
+
 ## -xaml-syntax
 ```xaml
 <CompositeTransform CenterY="double"/>

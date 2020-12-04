@@ -10,10 +10,12 @@ public string Description { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactAddress.Description
 
 ## -description
-Gets and sets the description of a contact address. The maximum string length for the description is 512 characters.
+
+Gets or sets the description of a contact address. The maximum string length for the description is 512 characters.
 
 ## -property-value
-The description of a contact address.
+
+The description of a contact address. The maximum string length for the description is 512 characters.
 
 ## -remarks
 
@@ -22,4 +24,5 @@ The description of a contact address.
 ## -see-also
 
 ## -capabilities
+
 contactsSystem

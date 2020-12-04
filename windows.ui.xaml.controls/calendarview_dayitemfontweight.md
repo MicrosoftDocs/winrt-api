@@ -12,6 +12,8 @@ public Windows.UI.Text.FontWeight DayItemFontWeight { get;  set; }
 ## -description
 Gets or sets the font weight used to display day values in the calendar.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.DayItemFontWeight](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.dayitemfontweight).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView DayItemFontWeight="fontWeightMemberName"/>

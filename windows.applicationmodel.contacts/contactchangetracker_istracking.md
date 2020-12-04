@@ -10,9 +10,13 @@ public bool IsTracking { get; }
 # Windows.ApplicationModel.Contacts.ContactChangeTracker.IsTracking
 
 ## -description
-Gets a Boolean value indicating whether change tracking is active.
+
+Gets a Boolean value that indicates whether change tracking is active.
+
 ## -property-value
-A Boolean value indicating whether change tracking is active.
+
+`true` if change tracking is active; otherwise, `false`.
+
 ## -remarks
 
 ## -see-also

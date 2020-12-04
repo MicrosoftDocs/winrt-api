@@ -12,6 +12,8 @@ public float RightIndent { get;  set; }
 ## -description
 Gets or sets the right margin of a paragraph.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.RightIndent](/windows/winui/api/microsoft.ui.text.itextparagraphformat.rightindent).
+
 ## -property-value
 The size of the right margin, in floating-point points.
 

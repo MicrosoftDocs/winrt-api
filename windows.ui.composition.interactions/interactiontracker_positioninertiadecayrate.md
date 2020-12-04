@@ -14,6 +14,8 @@ Inertia decay rate for position. Range is from 0 to 1.
 
 The PositionInertiaDecayRate property defines the rate at which [InteractionTracker](interactiontracker.md) will slow to a stop when it has entered Inertia and position is changing. The closer to 1, the faster [InteractionTracker](interactiontracker.md) will slow to a stop and vice versa. Defined as a Vector3, each component represents the inertia decay rate for x, y, z accordingly.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTracker.PositionInertiaDecayRate](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.positioninertiadecayrate).
+
 ## -property-value
 Inertia decay rate for position. Range is from 0 to 1.
 

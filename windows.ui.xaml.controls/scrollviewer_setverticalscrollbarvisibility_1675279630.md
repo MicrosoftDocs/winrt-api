@@ -12,6 +12,8 @@ public void SetVerticalScrollBarVisibility(Windows.UI.Xaml.DependencyObject elem
 ## -description
 Sets the value of the [VerticalScrollBarVisibility](scrollviewer_verticalscrollbarvisibility.md) dependency property / `ScrollViewer.VerticalScrollBarVisibility` XAML attached property on a specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.SetVerticalScrollBarVisibility](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.setverticalscrollbarvisibility).
+
 ## -parameters
 ### -param element
 The element on which to set the property value.

@@ -13,6 +13,8 @@ public void UIElement.StopAnimation(ICompositionAnimationBase animation)
 ## -description
 Stops the specified animation on the element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.StopAnimation](/windows/winui/api/microsoft.ui.xaml.uielement.stopanimation).
+
 ## -parameters
 ### -param animation
 

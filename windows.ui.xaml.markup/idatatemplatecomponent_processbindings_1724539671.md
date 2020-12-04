@@ -12,6 +12,8 @@ public void ProcessBindings(System.Object item, System.Int32 itemIndex, System.I
 ## -description
 Updates the compiled data bindings.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IDataTemplateComponent.ProcessBindings](/windows/winui/api/microsoft.ui.xaml.markup.idatatemplatecomponent.processbindings).
+
 ## -parameters
 ### -param item
 The data item.

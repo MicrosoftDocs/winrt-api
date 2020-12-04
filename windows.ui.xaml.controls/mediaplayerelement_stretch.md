@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Stretch Stretch { get;  set; }
 ## -description
 Gets or sets a value that describes how an [MediaPlayerElement](mediaplayerelement.md) should be stretched to fill the destination rectangle.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaPlayerElement.Stretch](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerelement.stretch).
+
 ## -xaml-syntax
 ```xaml
 <MediaPlayerElement Stretch="stretchMemberName" />

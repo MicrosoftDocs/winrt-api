@@ -12,6 +12,8 @@ public float RotationAngleInDegrees { get;  set; }
 ## -description
 The rotation angle of the visual in degrees. Animatable.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Visual.RotationAngleInDegrees](/windows/winui/api/microsoft.ui.composition.visual.rotationangleindegrees).
+
 ## -property-value
 The rotation angle of the visual in degrees.
 

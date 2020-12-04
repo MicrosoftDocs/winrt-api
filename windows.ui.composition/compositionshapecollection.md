@@ -13,6 +13,8 @@ public class CompositionShapeCollection : CompositionObject, CompositionObject, 
 
 Represents a collection of [CompositionShape](compositionshape.md) objects that can be individually accessed by index.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionShapeCollection](/windows/winui/api/microsoft.ui.composition.compositionshapecollection).
+
 ## -remarks
 
 ## -see-also

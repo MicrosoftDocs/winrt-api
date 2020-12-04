@@ -12,6 +12,8 @@ public class InertiaRotationBehavior : Windows.UI.Xaml.Input.IInertiaRotationBeh
 ## -description
 Controls the deceleration of a rotation manipulation during inertia.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.InertiaRotationBehavior](/windows/winui/api/microsoft.ui.xaml.input.inertiarotationbehavior).
+
 ## -remarks
 
 ## -examples

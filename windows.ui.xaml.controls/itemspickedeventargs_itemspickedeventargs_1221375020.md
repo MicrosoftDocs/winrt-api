@@ -12,6 +12,8 @@ public ItemsPickedEventArgs()
 ## -description
 Initializes a new instance of the [ItemsPickedEventArgs](itemspickedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ItemsPickedEventArgs.ItemsPickedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.itemspickedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

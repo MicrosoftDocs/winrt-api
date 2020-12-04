@@ -14,6 +14,8 @@ public IReference<Color> BaseMedium { get;  set; }
 
 Gets or sets the BaseMedium color value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.BaseMedium](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.basemedium).
+
 ## -property-value
 
 The BaseMedium color value.

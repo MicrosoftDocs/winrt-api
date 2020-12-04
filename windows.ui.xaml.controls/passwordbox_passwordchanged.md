@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.RoutedEventHandler PasswordChanged
 ## -description
 Occurs when the value of the [Password](passwordbox_password.md) property changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.PasswordBox.PasswordChanged](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.passwordchanged).
+
 ## -xaml-syntax
 ```xaml
 <PasswordBox PasswordChanged="eventhandler"/>

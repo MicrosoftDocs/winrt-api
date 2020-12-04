@@ -12,6 +12,8 @@ public double NegativeOverflowContentHeight { get; }
 ## -description
 Gets the height of the overflow content when the overflow direction is negative.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings.NegativeOverflowContentHeight](/windows/winui/api/microsoft.ui.xaml.controls.primitives.commandbartemplatesettings.negativeoverflowcontentheight).
+
 ## -property-value
 The height of the overflow content when the overflow direction is negative.
 

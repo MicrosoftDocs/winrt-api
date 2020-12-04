@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FromHorizontalOffsetProperty { get; }
 ## -description
 Identifies the [FromHorizontalOffset](entrancethemetransition_fromhorizontaloffset.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.EntranceThemeTransition.FromHorizontalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancethemetransition.fromhorizontaloffsetproperty).
+
 ## -property-value
 The identifier for the [FromHorizontalOffset](entrancethemetransition_fromhorizontaloffset.md) dependency property.
 

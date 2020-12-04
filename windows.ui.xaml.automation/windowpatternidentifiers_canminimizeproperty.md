@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty CanMinimizeProperty { get; 
 ## -description
 Identifies the [Minimizable](../windows.ui.xaml.automation.provider/iwindowprovider_minimizable.md) automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.WindowPatternIdentifiers.CanMinimizeProperty](/windows/winui/api/microsoft.ui.xaml.automation.windowpatternidentifiers.canminimizeproperty).
+
 ## -property-value
 The automation property identifier.
 

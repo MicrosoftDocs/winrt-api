@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject XYFocusRight { get;  set; }
 ## -description
 Gets or sets the object that gets focus when a user presses the Directional Pad (DPAD) right.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusRight](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.xyfocusright).
+
 ## -property-value
 The object that gets focus when a user presses the Directional Pad (DPAD).
 

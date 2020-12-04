@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty RotationZProperty { get; }
 ## -description
 Identifies the [RotationZ](planeprojection_rotationz.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.RotationZProperty](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.rotationzproperty).
+
 ## -property-value
 The identifier for the [RotationZ](planeprojection_rotationz.md)  dependency property.
 

@@ -12,6 +12,8 @@ public Windows.Foundation.IAsyncOperation<Windows.UI.Xaml.Controls.ContentDialog
 ## -description
 Begins an asynchronous operation to show the dialog.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ContentDialog.ShowAsync](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.showasync).
+
 ## -returns
 An asynchronous operation showing the dialog. When complete, returns a [ContentDialogResult](contentdialogresult.md).
 

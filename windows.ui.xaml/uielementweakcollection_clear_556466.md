@@ -14,6 +14,8 @@ public void UIElementWeakCollection.Clear()
 
 Removes all items from the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.Clear](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.clear).
+
 ## -remarks
 
 ## -see-also

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SingleSelectionFollowsFocusProperty { 
 ## -description
 Identifies the [SingleSelectionFollowsFocus](listviewbase_singleselectionfollowsfocus.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.SingleSelectionFollowsFocusProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.singleselectionfollowsfocusproperty).
+
 ## -property-value
 The identifier for the [SingleSelectionFollowsFocus](listviewbase_singleselectionfollowsfocus.md) dependency property.
 

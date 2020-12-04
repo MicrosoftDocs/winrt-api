@@ -12,6 +12,8 @@ public class CompositionClip : Windows.UI.Composition.CompositionObject, Windows
 ## -description
 Base class for clipping objects such as [InsetClip](insetclip.md).
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionClip](/windows/winui/api/microsoft.ui.composition.compositionclip).
+
 ## -remarks
 
 ### Version history

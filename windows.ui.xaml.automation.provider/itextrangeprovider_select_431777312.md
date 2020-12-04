@@ -12,6 +12,8 @@ public void Select()
 ## -description
 Highlights text in the text control that corresponds to the start and end endpoints of the text range.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.Select](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.select).
+
 ## -remarks
 
 ## -examples

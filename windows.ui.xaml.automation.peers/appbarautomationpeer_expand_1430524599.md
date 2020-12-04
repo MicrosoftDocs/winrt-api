@@ -13,6 +13,8 @@ public void Expand()
 
 Displays all child nodes, controls, or content of the control.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Expand](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarautomationpeer.expand).
+
 ## -remarks
 
 ## -examples

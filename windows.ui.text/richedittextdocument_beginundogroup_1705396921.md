@@ -14,6 +14,8 @@ public void RichEditTextDocument.BeginUndoGroup()
 
 Turns on undo grouping.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.BeginUndoGroup](/windows/winui/api/microsoft.ui.text.richedittextdocument.beginundogroup).
+
 ## -remarks
 
 ## -see-also

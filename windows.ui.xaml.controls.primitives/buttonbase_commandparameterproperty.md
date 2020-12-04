@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CommandParameterProperty { get; }
 ## -description
 Identifier for the [CommandParameter](buttonbase_commandparameter.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.CommandParameterProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase.commandparameterproperty).
+
 ## -property-value
 The identifier for the [CommandParameter](buttonbase_commandparameter.md) dependency property.
 

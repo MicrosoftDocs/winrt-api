@@ -12,6 +12,8 @@ public int EndKey(Windows.UI.Text.TextRangeUnit unit, System.Boolean extend)
 ## -description
 Moves the insertion point or the active end of the text selection to the end of the specified unit, mimicking the functionality of the End key.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextSelection.EndKey](/windows/winui/api/microsoft.ui.text.itextselection.endkey).
+
 ## -parameters
 ### -param unit
 The units by which to move the insertion point or active end. The following values are valid.

@@ -12,6 +12,8 @@ public object Content { get; }
 ## -description
 Gets the root node of the target page's content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Navigation.NavigationEventArgs.Content](/windows/winui/api/microsoft.ui.xaml.navigation.navigationeventargs.content).
+
 ## -property-value
 The root node of the target page's content.
 

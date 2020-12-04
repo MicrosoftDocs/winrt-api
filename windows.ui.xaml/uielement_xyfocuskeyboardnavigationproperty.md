@@ -13,6 +13,8 @@ public DependencyProperty XYFocusKeyboardNavigationProperty { get; }
 
 Identifies the [XYFocusKeyboardNavigation](uielement_xyfocuskeyboardnavigation.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.XYFocusKeyboardNavigationProperty](/windows/winui/api/microsoft.ui.xaml.uielement.xyfocuskeyboardnavigationproperty).
+
 ## -property-value
 
 The identifier for the [XYFocusKeyboardNavigation](uielement_xyfocuskeyboardnavigation.md) dependency property.

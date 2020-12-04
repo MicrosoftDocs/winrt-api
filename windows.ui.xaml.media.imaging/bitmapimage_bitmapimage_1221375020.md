@@ -12,6 +12,8 @@ public BitmapImage()
 ## -description
 Initializes a new instance of the [BitmapImage](bitmapimage.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.BitmapImage](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.#ctor).
+
 ## -remarks
 
 ## -examples

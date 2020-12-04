@@ -12,6 +12,8 @@ public bool MoveCurrentTo(System.Object item)
 ## -description
 Sets the specified item to be the [CurrentItem](icollectionview_currentitem.md) in the view.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Data.ICollectionView.MoveCurrentTo](/windows/winui/api/microsoft.ui.xaml.data.icollectionview.movecurrentto).
+
 ## -parameters
 ### -param item
 The item to set as the [CurrentItem](icollectionview_currentitem.md).

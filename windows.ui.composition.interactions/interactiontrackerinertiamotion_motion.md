@@ -14,6 +14,8 @@ An [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) descr
 
 The Motion property is an [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) that describes the motion [InteractionTracker](interactiontracker.md) will utilize during Inertia when the corresponding condition is met. The expression will be evaluated every frame while [InteractionTracker](interactiontracker.md) is in Inertia and must resolve to a type Float, otherwise an error will be thrown when the equation is evaluated. See the [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) class page for more details on building expressions.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaMotion.Motion](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiamotion.motion).
+
 ## -property-value
 An [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) describing the modified motion for [InteractionTracker](interactiontracker.md) if the expression in the Condition property is true.
 

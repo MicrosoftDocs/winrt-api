@@ -12,6 +12,8 @@ public double ScrollableWidth { get; }
 ## -description
 Gets a value that represents the horizontal size of the area that can be scrolled; the difference between the width of the extent and the width of the viewport.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ScrollableWidth](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.scrollablewidth).
+
 ## -property-value
 The horizontal size of the area that can be scrolled. This property has no default value.
 

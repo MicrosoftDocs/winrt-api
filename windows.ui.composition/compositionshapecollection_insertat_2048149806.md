@@ -13,6 +13,8 @@ public void CompositionShapeCollection.InsertAt(UInt32 index, CompositionShape v
 
 Inserts the specified item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.InsertAt](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.insertat).
+
 ## -parameters
 ### -param index
 

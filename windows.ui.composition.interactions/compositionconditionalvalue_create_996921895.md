@@ -12,6 +12,8 @@ public CompositionConditionalValue CompositionConditionalValue.Create(Compositor
 ## -description
 Creates an instance of CompositionConditionalValue.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.CompositionConditionalValue.Create](/windows/winui/api/microsoft.ui.composition.interactions.compositionconditionalvalue.create).
+
 ## -parameters
 
 ### -param compositor

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.UIElement Container { get; }
 ## -description
 Gets the [UIElement](../windows.ui.xaml/uielement.md) that is considered the container of the manipulation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Container](/windows/winui/api/microsoft.ui.xaml.input.manipulationdeltaroutedeventargs.container).
+
 ## -property-value
 The [UIElement](../windows.ui.xaml/uielement.md) that is considered the container of the manipulation.
 ## -remarks

@@ -14,6 +14,8 @@ public DependencyProperty SizesContentToTemplatedParentProperty { get; }
 
 Identifies the [SizesContentToTemplatedParent](scrollcontentpresenter_sizescontenttotemplatedparent.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.SizesContentToTemplatedParentProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.sizescontenttotemplatedparentproperty).
+
 ## -property-value
 
 The identifier for the [SizesContentToTemplatedParent](scrollcontentpresenter_sizescontenttotemplatedparent.md) dependency property.

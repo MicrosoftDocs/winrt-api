@@ -13,6 +13,8 @@ public CompositionPath.CompositionPath(IGeometrySource2D source)
 
 Initializes a new instance of the CompositionPath class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Composition.CompositionPath.CompositionPath](/windows/winui/api/microsoft.ui.composition.compositionpath.#ctor).
+
 ## -parameters
 ### -param source
 

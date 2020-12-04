@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Documents.InlineCollection Inlines { get; }
 ## -description
 Gets the collection of inline text elements within a [TextBlock](textblock.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.Inlines](/windows/winui/api/microsoft.ui.xaml.controls.textblock.inlines).
+
 ## -xaml-syntax
 ```xaml
 <TextBlock

@@ -12,6 +12,8 @@ public string PrimaryButtonText { get;  set; }
 ## -description
 Gets or sets the text to display on the primary button.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.PrimaryButtonText](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.primarybuttontext).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog PrimaryButtonText="string"/>

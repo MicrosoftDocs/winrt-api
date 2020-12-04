@@ -14,6 +14,8 @@ public float OcclusionStrength { get;  set; }
 
 Gets or sets the occlusion strength.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.OcclusionStrength](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.occlusionstrength).
+
 ## -property-value
 
 The occlusion strength.

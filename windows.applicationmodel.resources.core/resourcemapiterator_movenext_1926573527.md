@@ -13,7 +13,7 @@ public bool MoveNext()
 Moves the iterator forward to the next item and returns [HasCurrent](resourcemapiterator_hascurrent.md).
 
 ## -returns
- **TRUE** if the iterator refers to a valid item that is in the map, and otherwise **FALSE**.
+`true` if the iterator refers to a valid item that is in the map; otherwise, `false`.
 
 ## -remarks
 

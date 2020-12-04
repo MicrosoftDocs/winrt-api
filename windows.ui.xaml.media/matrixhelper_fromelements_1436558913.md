@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Matrix FromElements(System.Double m11, System.Doubl
 ## -description
 Creates a new [Matrix](matrix.md) based on provided initial [Matrix](matrix.md) data values. C# and Microsoft Visual Basic code should use [Matrix](matrix_matrix_1.md) constructor instead.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.MatrixHelper.FromElements](/windows/winui/api/microsoft.ui.xaml.media.matrixhelper.fromelements).
+
 ## -parameters
 ### -param m11
 The initial value of **M11** for the created [Matrix](matrix.md).

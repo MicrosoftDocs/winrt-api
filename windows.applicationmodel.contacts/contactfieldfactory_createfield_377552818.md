@@ -10,10 +10,11 @@ public Windows.ApplicationModel.Contacts.ContactField CreateField(System.String 
 # Windows.ApplicationModel.Contacts.ContactFieldFactory.CreateField
 
 ## -description
-> [!NOTE]
-> [IContactFieldFactory](icontactfieldfactory.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactPhone](contactphone.md) or [ContactEmail](contactemail.md).
 
 Creates a field to contain information about a contact.
+
+> [!NOTE]
+> [IContactFieldFactory](icontactfieldfactory.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactPhone](contactphone.md) or [ContactEmail](contactemail.md).
 
 ## -parameters
 ### -param value

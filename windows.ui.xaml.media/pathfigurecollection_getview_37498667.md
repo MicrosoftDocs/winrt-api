@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Media.PathFigu
 ## -description
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathFigureCollection.GetView](/windows/winui/api/microsoft.ui.xaml.media.pathfigurecollection.getview).
+
 ## -returns
 An object representing the immutable collection view.
 

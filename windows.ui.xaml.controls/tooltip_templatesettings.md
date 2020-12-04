@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Primitives.ToolTipTemplateSettings TemplateSetti
 ## -description
 Gets an object that provides calculated values that can be referenced as **TemplateBinding** sources when defining templates for a [ToolTip](tooltip.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToolTip.TemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.templatesettings).
+
 ## -property-value
 An object that provides calculated values for templates.
 

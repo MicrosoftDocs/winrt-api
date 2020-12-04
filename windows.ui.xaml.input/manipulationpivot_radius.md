@@ -12,6 +12,8 @@ public double Radius { get;  set; }
 ## -description
 Gets or sets the effective radius of rotation for rotation manipulations.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationPivot.Radius](/windows/winui/api/microsoft.ui.xaml.input.manipulationpivot.radius).
+
 ## -property-value
 A value in pixels.
 

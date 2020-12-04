@@ -12,6 +12,8 @@ public Windows.Foundation.Rect Bounds { get; }
 ## -description
 Gets a [Rect](../windows.foundation/rect.md) value containing the height and width of the application window in units of effective (view) pixels.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Window.Bounds](/windows/winui/api/microsoft.ui.xaml.window.bounds).
+
 ## -property-value
 A value that reports the height and width of the application window.
 

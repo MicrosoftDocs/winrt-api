@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ItemContainerStyleSelectorProperty { g
 ## -description
 Identifies the [ItemContainerStyleSelector](itemscontrol_itemcontainerstyleselector.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemContainerStyleSelectorProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemcontainerstyleselectorproperty).
+
 ## -property-value
 The identifier for the [ItemContainerStyleSelector](itemscontrol_itemcontainerstyleselector.md) dependency property.
 

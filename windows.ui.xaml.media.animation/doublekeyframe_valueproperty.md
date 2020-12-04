@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ValueProperty { get; }
 ## -description
 Identifies the [Value](doublekeyframe_value.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrame.ValueProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframe.valueproperty).
+
 ## -property-value
 The identifier for the [Value](doublekeyframe_value.md) dependency property.
 

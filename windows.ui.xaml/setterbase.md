@@ -12,6 +12,8 @@ public class SetterBase : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.ISet
 ## -description
 Represents the base class for value setters.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.SetterBase](/windows/winui/api/microsoft.ui.xaml.setterbase).
+
 ## -remarks
 
 ## -examples

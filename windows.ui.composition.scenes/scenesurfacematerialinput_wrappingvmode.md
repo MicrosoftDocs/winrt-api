@@ -14,6 +14,8 @@ public SceneWrappingMode WrappingVMode { get;  set; }
 
 Gets or sets a value that indicates how wrapping occurs on the V axis.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneSurfaceMaterialInput.WrappingVMode](/windows/winui/api/microsoft.ui.composition.scenes.scenesurfacematerialinput.wrappingvmode).
+
 ## -property-value
 
 A value that indicates how wrapping occurs on the V axis.

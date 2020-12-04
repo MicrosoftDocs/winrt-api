@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TextIndentProperty { get; }
 ## -description
 Identifies the [TextIndent](richtextblock_textindent.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextIndentProperty](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.textindentproperty).
+
 ## -property-value
 The identifier of the [TextIndent](richtextblock_textindent.md) dependency property.
 

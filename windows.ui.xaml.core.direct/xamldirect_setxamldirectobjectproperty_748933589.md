@@ -13,6 +13,8 @@ public void XamlDirect.SetXamlDirectObjectProperty(IXamlDirectObject xamlDirectO
 ## -description
 Sets the value of an [IXamlDirectObject](ixamldirectobject.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetXamlDirectObjectProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setxamldirectobjectproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

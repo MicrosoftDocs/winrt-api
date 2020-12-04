@@ -10,10 +10,10 @@ public string CompanyYomiName { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactJobInfo.CompanyYomiName
 
 ## -description
-Gets and sets the company Yomi (phonetic Japanese equivalent) name of the job info for a contact. The maximum string length for the company Yomi name is 200 characters.
+Gets or sets the company Yomi (phonetic Japanese equivalent) name of the job info for a contact. The maximum string length for the company Yomi name is 200 characters.
 
 ## -property-value
-The company Yomi (phonetic Japanese equivalent) name of the job info for a contact.
+The company Yomi (phonetic Japanese equivalent) name of the job info for a contact. The maximum string length for the company Yomi name is 200 characters.
 
 ## -remarks
 

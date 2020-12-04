@@ -12,6 +12,8 @@ public double Maximum { get;  set; }
 ## -description
 Gets or sets the highest possible [Value](rangebase_value.md) of the range element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.Maximum](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.maximum).
+
 ## -xaml-syntax
 ```xaml
 <rangeBase Maximum="double"/>

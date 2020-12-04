@@ -12,6 +12,8 @@ public void SetClone(Windows.UI.Text.ITextCharacterFormat value)
 ## -description
 Sets the character formatting by copying another text character formatting object.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextCharacterFormat.SetClone](/windows/winui/api/microsoft.ui.text.itextcharacterformat.setclone).
+
 ## -parameters
 ### -param value
 The character formatting to apply.

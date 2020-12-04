@@ -13,6 +13,8 @@ public TextDecorations TextDecorations { get;  set; }
 
 Gets or sets a value that indicates what decorations are applied to the text.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextDecorations](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.textdecorations).
+
 ## -xaml-syntax
 
 ```xaml

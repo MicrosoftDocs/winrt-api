@@ -13,6 +13,8 @@ public void ElementCompositionPreview.SetImplicitHideAnimation(UIElement element
 
 Associates the specified hide animation with a UIElement.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Hosting.ElementCompositionPreview.SetImplicitHideAnimation](/windows/winui/api/microsoft.ui.xaml.hosting.elementcompositionpreview.setimplicithideanimation).
+
 ## -parameters
 
 ### -param element

@@ -10,7 +10,7 @@ public Windows.ApplicationModel.Contacts.ContactAddressKind Kind { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactAddress.Kind
 
 ## -description
-Gets and sets the kind of contact address.
+Gets or sets the kind of contact address.
 
 ## -property-value
 A [ContactAddressKind](contactaddresskind.md)-typed value that indicates the type of contact address.

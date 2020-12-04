@@ -12,6 +12,8 @@ public void DisconnectChildrenRecursive(Windows.UI.Xaml.UIElement element)
 ## -description
 Explicitly removes all references from a target [UIElement](../windows.ui.xaml/uielement.md), with the goal of cleaning up reference cycles.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.VisualTreeHelper.DisconnectChildrenRecursive](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.disconnectchildrenrecursive).
+
 ## -parameters
 ### -param element
 The target object to disconnect children and remove references from.

@@ -16,6 +16,8 @@ The
     **ColorKeyFrameAnimation.InterpolationColorSpace**
    property enables a developer to choose what color space the system will interpolate through when animating between two colors. Developers can choose between the [CompositionColorSpace](compositioncolorspace.md) enum values Rgb, Hsl, or Auto (system chosen).
 
+Equivalent WinUI property: [Microsoft.UI.Composition.ColorKeyFrameAnimation.InterpolationColorSpace](/windows/winui/api/microsoft.ui.composition.colorkeyframeanimation.interpolationcolorspace).
+
 ## -property-value
 The color space the color interpolation should run through.
 

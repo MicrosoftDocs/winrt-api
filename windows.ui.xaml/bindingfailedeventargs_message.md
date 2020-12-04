@@ -12,6 +12,8 @@ public string Message { get; }
 ## -description
 Gets the explanation of the binding failure.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.BindingFailedEventArgs.Message](/windows/winui/api/microsoft.ui.xaml.bindingfailedeventargs.message).
+
 ## -property-value
 The reason the binding failed.
 

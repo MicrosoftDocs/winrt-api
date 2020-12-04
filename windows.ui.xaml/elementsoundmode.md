@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.ElementSoundMode : int
 ## -description
 Defines constants that specify a control's preference for whether sounds are played.
 
+Equivalent WinUI enum: [ElementSoundMode](/windows/winui/api/microsoft.ui.xaml.elementsoundmode).
+
 ## -enum-fields
 ### -field Default:0
 Sound is played based on the [ElementSoundPlayer.State](elementsoundplayer_state.md) setting.

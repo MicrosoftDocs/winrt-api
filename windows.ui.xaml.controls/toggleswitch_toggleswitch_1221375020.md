@@ -12,6 +12,8 @@ public ToggleSwitch()
 ## -description
 Initializes a new instance of the ToggleSwitch class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ToggleSwitch.ToggleSwitch](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public bool Hyperlink.Focus(FocusState value)
 ## -description
 Attempts to set the focus on the hyperlink.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Hyperlink.Focus](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.focus).
+
 ## -parameters
 ### -param value
 Specifies how focus was set, as a value of the enumeration.

@@ -12,6 +12,8 @@ public BitmapIcon()
 ## -description
 Initializes a new instance of the [BitmapIcon](bitmapicon.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.BitmapIcon.BitmapIcon](/windows/winui/api/microsoft.ui.xaml.controls.bitmapicon.#ctor).
+
 ## -remarks
 
 ## -examples

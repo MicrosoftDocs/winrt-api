@@ -12,6 +12,8 @@ public bool IsAudioOnly { get; }
 ## -description
 Gets a value that reports whether the current source media is an audio-only media file.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.IsAudioOnly](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.isaudioonly).
+
 ## -property-value
 **true** if the current source media is audio-only, otherwise, **false**.
 

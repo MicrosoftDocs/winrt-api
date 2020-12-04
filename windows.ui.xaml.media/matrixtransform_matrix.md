@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Matrix Matrix { get;  set; }
 ## -description
 Gets or sets the [Matrix](matrix.md) that defines this transformation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.MatrixTransform.Matrix](/windows/winui/api/microsoft.ui.xaml.media.matrixtransform.matrix).
+
 ## -xaml-syntax
 ```xaml
 <MatrixTransform>

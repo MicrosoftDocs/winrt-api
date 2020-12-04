@@ -12,6 +12,8 @@ public int Oscillations { get;  set; }
 ## -description
 Gets or sets the number of times the target slides back and forth over the animation destination.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ElasticEase.Oscillations](/windows/winui/api/microsoft.ui.xaml.media.animation.elasticease.oscillations).
+
 ## -xaml-syntax
 ```xaml
 <ElasticEase Oscillations="int"/>

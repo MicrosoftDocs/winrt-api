@@ -12,6 +12,8 @@ public class TemplatePartAttribute : System.Attribute
 ## -description
 Represents an attribute that is applied to the class definition to identify the types of the named parts that are used for templating.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.TemplatePartAttribute](/windows/winui/api/microsoft.ui.xaml.templatepartattribute).
+
 ## -remarks
 
 ## -examples

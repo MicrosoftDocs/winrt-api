@@ -14,6 +14,8 @@ public class Shadow : DependencyObject, DependencyObject
 
 The base class for shadow effects that can be applied to a XAML element.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Shadow](/windows/winui/api/microsoft.ui.xaml.media.shadow).
+
 ## -remarks
 
 ## -see-also

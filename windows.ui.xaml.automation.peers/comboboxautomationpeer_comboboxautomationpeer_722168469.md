@@ -12,6 +12,8 @@ public ComboBoxAutomationPeer(Windows.UI.Xaml.Controls.ComboBox owner)
 ## -description
 Initializes a new instance of the [ComboBoxAutomationPeer](comboboxautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.ComboBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The owner element to create for.

@@ -12,6 +12,8 @@ public class ComboBoxTemplateSettings : Windows.UI.Xaml.DependencyObject, Window
 ## -description
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for a [ComboBox](../windows.ui.xaml.controls/combobox.md) control. Not intended for general use.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.ComboBoxTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.comboboxtemplatesettings).
+
 ## -remarks
 Get instances of ComboBoxTemplateSettings by querying the value of [TemplateSettings](../windows.ui.xaml.controls/combobox_templatesettings.md).
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsActiveViewProperty { get; }
 ## -description
 Identifies the [IsActiveView](hub_isactiveview.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.IsActiveViewProperty](/windows/winui/api/microsoft.ui.xaml.controls.hub.isactiveviewproperty).
+
 ## -property-value
 The identifier for the [IsActiveView](hub_isactiveview.md) dependency property.
 

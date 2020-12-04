@@ -13,6 +13,8 @@ public SpringVector2NaturalMotionAnimation Compositor.CreateSpringVector2Animati
 
 Creates an instance of [SpringVector2NaturalMotionAnimation](springvector2naturalmotionanimation.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateSpringVector2Animation](/windows/winui/api/microsoft.ui.composition.compositor.createspringvector2animation).
+
 ## -returns
 
 The created SpringVector2NaturalMotionAnimation object.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsSeekBarVisibleProperty { get; }
 ## -description
 Identifies the [IsSeekBarVisible](mediatransportcontrols_isseekbarvisible.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsSeekBarVisibleProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isseekbarvisibleproperty).
+
 ## -property-value
 The identifier for the [IsSeekBarVisible](mediatransportcontrols_isseekbarvisible.md) dependency property.
 

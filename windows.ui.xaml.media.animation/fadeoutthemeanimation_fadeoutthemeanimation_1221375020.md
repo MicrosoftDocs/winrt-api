@@ -12,6 +12,8 @@ public FadeOutThemeAnimation()
 ## -description
 Initializes a new instance of the [FadeOutThemeAnimation](fadeoutthemeanimation.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.FadeOutThemeAnimation.FadeOutThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.fadeoutthemeanimation.#ctor).
+
 ## -remarks
 
 ## -examples

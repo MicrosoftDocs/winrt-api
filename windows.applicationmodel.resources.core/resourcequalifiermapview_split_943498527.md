@@ -22,7 +22,7 @@ The second half of the original map.
 ## -remarks
 The two views that result from the split operation might not contain the same number of items. The two views do not overlap.
 
-If a view can't be split, then both the first and second parameter are **NULL**.
+If a view can't be split, then both the first and second parameter are `null`.
 
 ## -examples
 

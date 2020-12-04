@@ -12,6 +12,8 @@ public bool IsInRange { get; }
 ## -description
 Gets a value that indicates whether the pointer device is within detection range of a sensor or digitizer.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.Pointer.IsInRange](/windows/winui/api/microsoft.ui.xaml.input.pointer.isinrange).
+
 ## -property-value
 **true** if touch or pen is within detection range or mouse is over; otherwise **false**
 

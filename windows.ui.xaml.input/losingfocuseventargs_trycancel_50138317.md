@@ -12,6 +12,8 @@ public bool LosingFocusEventArgs.TryCancel()
 ## -description
 Attempts to cancel the ongoing focus action.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.LosingFocusEventArgs.TryCancel](/windows/winui/api/microsoft.ui.xaml.input.losingfocuseventargs.trycancel).
+
 ## -returns
 True, if the focus action is canceled; otherwise, false.
 

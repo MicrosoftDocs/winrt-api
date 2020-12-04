@@ -12,6 +12,8 @@ public string WeekDay3 { get; }
 ## -description
 Gets the third day of the week.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay3](/windows/winui/api/microsoft.ui.xaml.controls.primitives.calendarviewtemplatesettings.weekday3).
+
 ## -property-value
 The third day of the week.
 

@@ -12,6 +12,8 @@ public Windows.UI.Input.ManipulationDelta Cumulative { get; }
 ## -description
 Gets the overall changes since the beginning of the manipulation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs.Cumulative](/windows/winui/api/microsoft.ui.xaml.input.manipulationcompletedroutedeventargs.cumulative).
+
 ## -property-value
 The overall changes since the beginning of the manipulation.
 

@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Controls.HubSectio
 ## -description
 Gets the hub sections currently on the screen.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.SectionsInView](/windows/winui/api/microsoft.ui.xaml.controls.hub.sectionsinview).
+
 ## -property-value
 The hub sections currently on the screen.
 

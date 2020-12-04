@@ -13,6 +13,8 @@ public event TypedEventHandler PasswordChanging<PasswordBox, PasswordBoxPassword
 
 Occurs synchronously when the text in the password box starts to change, but before it is rendered.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.PasswordBox.PasswordChanging](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.passwordchanging).
+
 ## -xaml-syntax
 
 ```xaml

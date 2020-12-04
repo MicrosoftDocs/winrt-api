@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler PivotItemLoaded<Windows.UI.Xam
 ## -description
 Event for indicating that an item has fully loaded.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Pivot.PivotItemLoaded](/windows/winui/api/microsoft.ui.xaml.controls.pivot.pivotitemloaded).
+
 ## -xaml-syntax
 ```xaml
 <Pivot PivotItemLoaded="eventhandler" />

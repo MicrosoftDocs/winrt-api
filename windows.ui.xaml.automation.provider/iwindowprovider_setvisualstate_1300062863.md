@@ -12,6 +12,8 @@ public void SetVisualState(Windows.UI.Xaml.Automation.WindowVisualState state)
 ## -description
 Changes the visual state of the window (such as minimizing or maximizing it).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.SetVisualState](/windows/winui/api/microsoft.ui.xaml.automation.provider.iwindowprovider.setvisualstate).
+
 ## -parameters
 ### -param state
 The visual state of the window to change to, as a value of the enumeration.

@@ -12,6 +12,8 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the control's header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.Header](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.header).
+
 ## -xaml-syntax
 ```xaml
 <TimePicker Header="headerString"/>

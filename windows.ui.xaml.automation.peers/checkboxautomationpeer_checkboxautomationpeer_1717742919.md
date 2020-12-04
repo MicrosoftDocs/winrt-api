@@ -12,6 +12,8 @@ public CheckBoxAutomationPeer(Windows.UI.Xaml.Controls.CheckBox owner)
 ## -description
 Initializes a new instance of the [CheckBoxAutomationPeer](checkboxautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.CheckBoxAutomationPeer.CheckBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.checkboxautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The owner element to create for.

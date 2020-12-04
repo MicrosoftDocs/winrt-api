@@ -14,6 +14,8 @@ public class FullXamlMetadataProviderAttribute : Attribute, Attribute
 
 Indicates that the XAML metadata in a component library is complete.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Markup.FullXamlMetadataProviderAttribute](/windows/winui/api/microsoft.ui.xaml.markup.fullxamlmetadataproviderattribute).
+
 ## -remarks
 
 This attribute is used by the XAML compiler at build time. It is not intended for use directly in app code.

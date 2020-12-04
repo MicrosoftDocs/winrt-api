@@ -12,6 +12,8 @@ public void Append(Windows.UI.Xaml.Media.Brush value)
 ## -description
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.BrushCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.brushcollection.append).
+
 ## -parameters
 ### -param value
 The new item to add.

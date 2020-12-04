@@ -13,6 +13,8 @@ public class HoldingRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.U
 
 Provides event data for the [Holding](../windows.ui.xaml/uielement_holding.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.HoldingRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.holdingroutedeventargs).
+
 ## -remarks
 
 A [Holding](../windows.ui.input/gesturerecognizer_holding.md) event is sent whenever a finger, pen, or similar pointing device is pressed and held on an object.

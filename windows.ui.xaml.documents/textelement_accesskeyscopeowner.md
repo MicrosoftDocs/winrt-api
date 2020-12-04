@@ -12,6 +12,8 @@ public DependencyObject AccessKeyScopeOwner { get;  set; }
 ## -description
 Gets or sets a source element that provides the access key scope for this element, even if it's not in the visual tree of the source element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.AccessKeyScopeOwner](/windows/winui/api/microsoft.ui.xaml.documents.textelement.accesskeyscopeowner).
+
 ## -property-value
 The element that defines the access key scope.
 

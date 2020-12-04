@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty OverflowContentTargetProperty { get; }
 ## -description
 Identifies the [OverflowContentTarget](richtextblock_overflowcontenttarget.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.OverflowContentTargetProperty](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.overflowcontenttargetproperty).
+
 ## -property-value
 The identifier for the [OverflowContentTarget](richtextblock_overflowcontenttarget.md) dependency property.
 

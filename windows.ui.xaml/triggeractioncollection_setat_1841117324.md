@@ -12,6 +12,8 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.TriggerAction value)
 ## -description
 Sets the value at the specified index to the [TriggerAction](triggeraction.md) value specified.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.TriggerActionCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.triggeractioncollection.setat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

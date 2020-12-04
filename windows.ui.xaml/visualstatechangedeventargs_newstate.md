@@ -12,6 +12,8 @@ public Windows.UI.Xaml.VisualState NewState { get;  set; }
 ## -description
 Gets the state the [Control](../windows.ui.xaml.controls/control.md) is changing to or has changed to.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.VisualStateChangedEventArgs.NewState](/windows/winui/api/microsoft.ui.xaml.visualstatechangedeventargs.newstate).
+
 ## -property-value
 The state the [Control](../windows.ui.xaml.controls/control.md) is changing to or has changed to.
 

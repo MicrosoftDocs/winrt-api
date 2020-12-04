@@ -13,6 +13,8 @@ public bool IsTextTrimmed { get; }
 
 Gets a value that indicates whether the control has trimmed text that overflows the content area.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlockOverflow.IsTextTrimmed](/windows/winui/api/microsoft.ui.xaml.controls.richtextblockoverflow.istexttrimmed).
+
 ## -property-value
 
 **true** if text is trimmed; otherwise, **false**.

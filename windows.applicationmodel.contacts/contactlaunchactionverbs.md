@@ -15,7 +15,7 @@ Provides data when an app is launched to perform an action to a contact.
 ## -remarks
 Use the ContactLaunchActionVerbs's properties to determine the value of the "Verb" property when your app is activated with [ActivationKind.Contact](../windows.applicationmodel.activation/activationkind.md). These properties represent all possible string values of the "Verb" property. For example, the [ContactMapActivatedEventArgs.Verb](../windows.applicationmodel.activation/contactmapactivatedeventargs_verb.md) property is set to the value of [Map](contactlaunchactionverbs_map.md).
 
-For info about how to handle app activation through contact actions, see [Quickstart: Handling contact actions ](/previous-versions/windows/apps/dn518236(v=win.10)) and [Quickstart: Handling contact actions ](/previous-versions/windows/apps/dn518338(v=win.10)).
+For info about how to handle app activation through contact actions, see [Quickstart: Handling contact actions ](/previous-versions/windows/apps/dn518236(v=win.10)).
 
 ## -examples
 

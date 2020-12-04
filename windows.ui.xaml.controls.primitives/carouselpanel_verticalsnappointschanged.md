@@ -12,6 +12,8 @@ public event Windows.Foundation.EventHandler VerticalSnapPointsChanged<object>
 ## -description
 Occurs when the measurements for vertical snap points change.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel.VerticalSnapPointsChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.carouselpanel.verticalsnappointschanged).
+
 ## -xaml-syntax
 ```xaml
 <CarouselPanel VerticalSnapPointsChanged="eventhandler"/>

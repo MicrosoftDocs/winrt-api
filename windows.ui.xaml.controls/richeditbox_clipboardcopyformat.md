@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.RichEditClipboardFormat ClipboardCopyFormat { ge
 ## -description
 Gets or sets a value that specifies whether text is copied with all formats, or as plain text only.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.ClipboardCopyFormat](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.clipboardcopyformat).
+
 ## -property-value
 An enumeration value that specifies whether text is copied with all formats, or as plain text only. The default is **AllFormats**.
 

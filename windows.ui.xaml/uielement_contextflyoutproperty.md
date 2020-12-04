@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ContextFlyoutProperty { get; }
 ## -description
 Identifies for the [ContextFlyout](uielement_contextflyout.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ContextFlyoutProperty](/windows/winui/api/microsoft.ui.xaml.uielement.contextflyoutproperty).
+
 ## -property-value
 The identifier for the [ContextFlyout](uielement_contextflyout.md) dependency property.
 

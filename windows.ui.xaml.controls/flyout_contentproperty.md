@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ContentProperty { get; }
 ## -description
 Gets the identifier for the [Content](flyout_content.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Flyout.ContentProperty](/windows/winui/api/microsoft.ui.xaml.controls.flyout.contentproperty).
+
 ## -property-value
 The identifier for the [Content](flyout_content.md) dependency property.
 

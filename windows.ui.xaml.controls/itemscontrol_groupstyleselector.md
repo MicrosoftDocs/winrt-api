@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.GroupStyleSelector GroupStyleSelector { get;  se
 ## -description
 Gets or sets a reference to a custom [GroupStyleSelector](groupstyleselector.md) logic class. The [GroupStyleSelector](groupstyleselector.md) returns different [GroupStyle](groupstyle.md) values to use for content based on the characteristics of that content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.GroupStyleSelector](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.groupstyleselector).
+
 ## -xaml-syntax
 ```xaml
 <itemsControl GroupStyleSelector="groupStyleSelectorReference" />

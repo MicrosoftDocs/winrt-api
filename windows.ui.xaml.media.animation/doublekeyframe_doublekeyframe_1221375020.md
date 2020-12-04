@@ -12,6 +12,8 @@ protected DoubleKeyFrame()
 ## -description
 Provides base class initialization behavior for [DoubleKeyFrame](doublekeyframe.md)-derived classes.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrame.DoubleKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframe.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty StretchProperty { get; }
 ## -description
 Identifies the [Stretch](viewbox_stretch.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Viewbox.StretchProperty](/windows/winui/api/microsoft.ui.xaml.controls.viewbox.stretchproperty).
+
 ## -property-value
 The identifier for the [Stretch](viewbox_stretch.md) dependency property.
 

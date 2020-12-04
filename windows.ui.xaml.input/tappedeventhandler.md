@@ -10,6 +10,8 @@ public delegate void TappedEventHandler(System.Object sender, Windows.UI.Xaml.In
 ## -description
 Represents the method that will handle the [Tapped](../windows.ui.xaml/uielement_tapped.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Input.TappedEventHandler](/windows/winui/api/microsoft.ui.xaml.input.tappedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the event handler is attached.

@@ -12,6 +12,8 @@ public void SetElementChildVisual(Windows.UI.Xaml.UIElement element, Windows.UI.
 ## -description
 Sets a custom [Windows.UI.Composition.Visual](../windows.ui.composition/visual.md) as the last child of the element’s visual tree.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Hosting.ElementCompositionPreview.SetElementChildVisual](/windows/winui/api/microsoft.ui.xaml.hosting.elementcompositionpreview.setelementchildvisual).
+
 ## -parameters
 ### -param element
 The element to add the child [Visual](../windows.ui.composition/visual.md) to.

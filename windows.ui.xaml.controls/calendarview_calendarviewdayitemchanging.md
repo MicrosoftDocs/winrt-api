@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler CalendarViewDayItemChanging<Wi
 ## -description
 Occurs when a [CalendarViewDayItem](calendarviewdayitem.md) is loading.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarViewDayItemChanging](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.calendarviewdayitemchanging).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView CalendarViewDayItemChanging="eventhandler"/>

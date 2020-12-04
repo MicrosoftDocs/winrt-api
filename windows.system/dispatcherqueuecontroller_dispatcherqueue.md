@@ -12,6 +12,8 @@ public DispatcherQueue DispatcherQueue { get; }
 ## -description
 Gets the **DispatcherQueue** associated with this **DispatcherQueueController**.
 
+Equivalent WinUI property: [Microsoft.System.DispatcherQueueController.DispatcherQueue](/windows/winui/api/microsoft.system.dispatcherqueuecontroller.dispatcherqueue).
+
 ## -property-value
 The **DispatcherQueue** instance that you use to queue tasks that run on a thread.
 

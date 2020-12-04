@@ -17,6 +17,8 @@ Describes the action that caused a [CollectionChanged](inotifycollectionchanged_
 > **.NET**
 > This type appears as [System.Collections.Specialized.NotifyCollectionChangedAction](/dotnet/api/system.collections.specialized.notifycollectionchangedaction?redirectedfrom=MSDN).
 
+Equivalent WinUI enum: [NotifyCollectionChangedAction](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedaction).
+
 ## -enum-fields
 ### -field Add:0
 One or more items were added to the collection.

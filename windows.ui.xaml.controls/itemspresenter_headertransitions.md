@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection HeaderTransitions { 
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to the header of an [ItemsPresenter](itemspresenter.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderTransitions](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.headertransitions).
+
 ## -xaml-syntax
 ```xaml
 <ItemsPresenter>

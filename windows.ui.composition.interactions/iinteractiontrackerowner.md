@@ -14,6 +14,8 @@ Contains callbacks that will be triggered by InteractionTracker events.
 
 Implementing this interface enables receiving callbacks regarding the state and values of the [InteractionTracker](interactiontracker.md), as well as whether requested updates to the [InteractionTracker](interactiontracker.md) ’s properties are honored.
 
+Equivalent WinUI interface: [Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner](/windows/winui/api/microsoft.ui.composition.interactions.iinteractiontrackerowner).
+
 ## -remarks
 Implementing IInteractionTrackerOwner is required if the application needs to have updates on the state or values of the [InteractionTracker](interactiontracker.md). Due to the asynchronous nature of this model, these callbacks are the best way to update application logic. To learn more about the [InteractionTracker](interactiontracker.md) states and transitions, see [InteractionTracker](interactiontracker.md).
 

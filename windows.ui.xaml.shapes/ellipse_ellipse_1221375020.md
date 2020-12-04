@@ -12,6 +12,8 @@ public Ellipse()
 ## -description
 Initializes a new instance of the [Ellipse](ellipse.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Shapes.Ellipse.Ellipse](/windows/winui/api/microsoft.ui.xaml.shapes.ellipse.#ctor).
+
 ## -remarks
 
 ## -examples

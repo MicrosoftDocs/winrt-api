@@ -10,6 +10,8 @@ public delegate void TimelineMarkerRoutedEventHandler(System.Object sender, Wind
 ## -description
 Represents methods that will handle various routed events related to timeline markers.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Media.TimelineMarkerRoutedEventHandler](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkerroutedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the event handler is attached.

@@ -13,6 +13,8 @@ public class LosingFocusEventArgs : RoutedEventArgs, RoutedEventArgs
 
 Provides data for the [FocusManager.LosingFocus](focusmanager_losingfocus.md) and [UIElement.LosingFocus](../windows.ui.xaml/uielement_losingfocus.md) events.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.LosingFocusEventArgs](/windows/winui/api/microsoft.ui.xaml.input.losingfocuseventargs).
+
 ## -remarks
 
 Only a single UI element at a time can have focus.

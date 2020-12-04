@@ -12,6 +12,8 @@ public TimeSpan FrameDuration { get; }
 ## -description
 Gets the duration of the time it took to render the most recent frame.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.RenderedEventArgs.FrameDuration](/windows/winui/api/microsoft.ui.xaml.media.renderedeventargs.frameduration).
+
 ## -property-value
 The duration of the time it took to render the most recent frame.
 

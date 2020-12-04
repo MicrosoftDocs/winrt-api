@@ -13,7 +13,7 @@ public bool CanSyncDescriptions { get;  set; }
 Gets or sets a Boolean value that indicates whether to synchronize contact descriptions.
 
 ## -property-value
-**True** indicates that contact descriptions will be synchronized; **false**, otherwise.
+`true` if contact descriptions will be synchronized; otherwise, `false`.
 
 ## -remarks
 

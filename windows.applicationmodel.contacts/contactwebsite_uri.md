@@ -10,7 +10,7 @@ public Windows.Foundation.Uri Uri { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactWebsite.Uri
 
 ## -description
-Gets and sets the Uniform Resource Identifier (URI) of a Web site for a contact.
+Gets or sets the Uniform Resource Identifier (URI) of a Web site for a contact.
 
 ## -property-value
 The Uniform Resource Identifier (URI) of a Web site for a contact.

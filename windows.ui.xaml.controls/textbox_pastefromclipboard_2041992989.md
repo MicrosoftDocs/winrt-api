@@ -14,6 +14,8 @@ public void TextBox.PasteFromClipboard()
 
 Copies content from the Windows clipboard into the text control.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBox.PasteFromClipboard](/windows/winui/api/microsoft.ui.xaml.controls.textbox.pastefromclipboard).
+
 ## -remarks
 
 ## -see-also

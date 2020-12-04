@@ -12,6 +12,8 @@ public enum Windows.UI.Text.SelectionType : int
 ## -description
 Specifies the type of a selection.
 
+Equivalent WinUI enum: [SelectionType](/windows/winui/api/microsoft.ui.text.selectiontype).
+
 ## -enum-fields
 ### -field None:0
 No selection and no insertion point.

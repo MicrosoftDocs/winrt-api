@@ -12,6 +12,8 @@ virtual protected Windows.Foundation.Size MeasureOverride(Windows.Foundation.Siz
 ## -description
 Provides the behavior for the "Measure" pass of the layout cycle. Classes can override this method to define their own "Measure" pass behavior.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkElement.MeasureOverride](/windows/winui/api/microsoft.ui.xaml.frameworkelement.measureoverride).
+
 ## -parameters
 ### -param availableSize
 The available size that this object can give to child objects. Infinity can be specified as a value to indicate that the object will size to whatever content is available.

@@ -12,6 +12,8 @@ public string Value { get; }
 ## -description
 Gets the value of the control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Value](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxautomationpeer.value).
+
 ## -property-value
 The value of the control, as a string.
 

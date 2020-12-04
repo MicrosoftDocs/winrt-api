@@ -12,6 +12,8 @@ public void Append(Windows.UI.Xaml.Documents.Inline value)
 ## -description
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.InlineCollection.Append](/windows/winui/api/microsoft.ui.xaml.documents.inlinecollection.append).
+
 ## -parameters
 ### -param value
 The new item to add.

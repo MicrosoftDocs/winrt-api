@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncAction RegisterSyncManagerAsync()
 # Windows.ApplicationModel.Contacts.ContactList.RegisterSyncManagerAsync
 
 ## -description
-Adds a [SyncManager ](contactlistsyncmanager.md) to the [ContactList](contactlist.md).
+Adds a [SyncManager](contactlistsyncmanager.md) to the [ContactList](contactlist.md).
 
 ## -returns
 An asynchronous registration operation that you can await.

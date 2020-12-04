@@ -12,6 +12,8 @@ virtual protected void OnConfirmed()
 ## -description
 Notifies [PickerFlyoutBase](pickerflyoutbase.md) subclasses when a user has confirmed a selection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.PickerFlyoutBase.OnConfirmed](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pickerflyoutbase.onconfirmed).
+
 ## -remarks
 
 ## -examples

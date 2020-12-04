@@ -13,6 +13,8 @@ public Vector2 Scale { get;  set; }
 
 Gets or sets the scale to apply to the shape.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionShape.Scale](/windows/winui/api/microsoft.ui.composition.compositionshape.scale).
+
 ## -property-value
 
 The scale to apply to the shape.

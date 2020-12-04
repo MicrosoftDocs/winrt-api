@@ -12,6 +12,8 @@ public void SetPropertyFromInt32(System.Object dependencyObject, Windows.UI.Xaml
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Int32](/dotnet/api/system.int32?redirectedfrom=MSDN) value.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromInt32](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromint32).
+
 ## -parameters
 ### -param dependencyObject
 The object to which the property being set belongs.

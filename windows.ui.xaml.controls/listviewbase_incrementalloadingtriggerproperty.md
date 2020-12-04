@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IncrementalLoadingTriggerProperty { ge
 ## -description
 Identifies the [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.IncrementalLoadingTriggerProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.incrementalloadingtriggerproperty).
+
 ## -property-value
 The identifier for the [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md) dependency property.
 

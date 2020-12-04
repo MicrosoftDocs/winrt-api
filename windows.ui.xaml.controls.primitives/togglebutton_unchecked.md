@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.RoutedEventHandler Unchecked
 ## -description
 Occurs when a [ToggleButton](togglebutton.md) is unchecked.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.ToggleButton.Unchecked](/windows/winui/api/microsoft.ui.xaml.controls.primitives.togglebutton.unchecked).
+
 ## -xaml-syntax
 ```xaml
 <togglebutton Unchecked="eventhandler"/>

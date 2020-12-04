@@ -12,6 +12,8 @@ public float DeltaScale { get; }
 ## -description
 The amount of scale change to be applied during the upcoming frame. Multiplicative. Defaults to 1. Readable only via expression/animation.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.DeltaScale](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.deltascale).
+
 ## -property-value
 The change in scale of the visual interaction source.
 

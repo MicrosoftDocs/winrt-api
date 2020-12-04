@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionNineGridBrush CreateNineGridBrush()
 ## -description
 Creates an instance of [CompositionNineGridBrush](compositionninegridbrush.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateNineGridBrush](/windows/winui/api/microsoft.ui.composition.compositor.createninegridbrush).
+
 ## -returns
 Returns the created [CompositionNineGridBrush](compositionninegridbrush.md) object.
 

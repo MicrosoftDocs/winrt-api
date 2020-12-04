@@ -12,6 +12,8 @@ public double Balance { get;  set; }
 ## -description
 Gets or sets a ratio of volume across stereo speakers.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.Balance](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.balance).
+
 ## -xaml-syntax
 ```xaml
 <MediaElement Balance="double"  .../>

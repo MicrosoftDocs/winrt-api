@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsThreeStateProperty { get; }
 ## -description
 Identifies the [IsThreeState](togglebutton_isthreestate.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ToggleButton.IsThreeStateProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.togglebutton.isthreestateproperty).
+
 ## -property-value
 The identifier for the [IsThreeState](togglebutton_isthreestate.md) dependency property.
 

@@ -14,6 +14,8 @@ public void SceneNodeCollection.InsertAt(UInt32 index, SceneNode value)
 
 Inserts the specified item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneNodeCollection.InsertAt](/windows/winui/api/microsoft.ui.composition.scenes.scenenodecollection.insertat).
+
 ## -parameters
 ### -param index
 

@@ -13,6 +13,8 @@ public float Progress { get;  set; }
 
 Gets or sets a value that indicates the current playback position of the animation.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.AnimationController.Progress](/windows/winui/api/microsoft.ui.composition.animationcontroller.progress).
+
 ## -property-value
 
 The current playback position of the animation.

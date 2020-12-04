@@ -12,6 +12,8 @@ public void ReplaceAll(Windows.UI.Xaml.Media.Animation.ObjectKeyFrame[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrameCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframecollection.replaceall).
+
 ## -parameters
 ### -param items
 The new collection items.

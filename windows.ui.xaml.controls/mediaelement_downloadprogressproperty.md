@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DownloadProgressProperty { get; }
 ## -description
 Identifies the [DownloadProgress](mediaelement_downloadprogress.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.DownloadProgressProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.downloadprogressproperty).
+
 ## -property-value
 The identifier for the [DownloadProgress](mediaelement_downloadprogress.md) dependency property.
 

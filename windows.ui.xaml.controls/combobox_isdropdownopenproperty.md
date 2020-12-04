@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsDropDownOpenProperty { get; }
 ## -description
 Identifies the [IsDropDownOpen](combobox_isdropdownopen.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.IsDropDownOpenProperty](/windows/winui/api/microsoft.ui.xaml.controls.combobox.isdropdownopenproperty).
+
 ## -property-value
 The identifier for the [IsDropDownOpen](combobox_isdropdownopen.md) dependency property.
 

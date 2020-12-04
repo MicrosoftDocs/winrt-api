@@ -13,6 +13,8 @@ public CompositionBrush FillBrush { get;  set; }
 
 Gets or sets the brush that paints the interior area of the shape.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSpriteShape.FillBrush](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.fillbrush).
+
 ## -property-value
 
 A brush that paints/fills the shape interior.

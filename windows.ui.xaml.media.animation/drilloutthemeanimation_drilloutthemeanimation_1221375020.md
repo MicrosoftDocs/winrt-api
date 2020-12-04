@@ -12,6 +12,8 @@ public DrillOutThemeAnimation()
 ## -description
 Initializes a new instance of the [DrillOutThemeAnimation](drilloutthemeanimation.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DrillOutThemeAnimation.DrillOutThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.drilloutthemeanimation.#ctor).
+
 ## -remarks
 
 ## -examples

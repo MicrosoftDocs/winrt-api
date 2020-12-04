@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SourceProperty { get; }
 ## -description
 Identifies the [Source](mediaelement_source.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.SourceProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.sourceproperty).
+
 ## -property-value
 The identifier for the [Source](mediaelement_source.md) dependency property.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CanPauseProperty { get; }
 ## -description
 Identifies the [CanPause](mediaelement_canpause.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.CanPauseProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.canpauseproperty).
+
 ## -property-value
 The identifier for the [CanPause](mediaelement_canpause.md) dependency property.
 

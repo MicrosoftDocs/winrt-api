@@ -12,6 +12,8 @@ public void LineDown()
 ## -description
 Scrolls the [ScrollContentPresenter](scrollcontentpresenter.md) content downward by one line.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.LineDown](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.linedown).
+
 ## -remarks
 
 ## -examples

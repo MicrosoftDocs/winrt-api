@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Media.Gradient
 ## -description
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GradientStopCollection.GetView](/windows/winui/api/microsoft.ui.xaml.media.gradientstopcollection.getview).
+
 ## -returns
 An object representing the immutable collection view.
 

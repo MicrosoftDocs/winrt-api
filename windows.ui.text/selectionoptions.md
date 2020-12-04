@@ -12,6 +12,8 @@ public enum Windows.UI.Text.SelectionOptions : uint
 ## -description
 Describes the options that apply to a selection.
 
+Equivalent WinUI enum: [SelectionOptions](/windows/winui/api/microsoft.ui.text.selectionoptions).
+
 ## -enum-fields
 ### -field StartActive:1
 The start position of the selection is the active end; that is, the end that is changed by pressing Shift+Right Arrow and Shift+Left Arrow.

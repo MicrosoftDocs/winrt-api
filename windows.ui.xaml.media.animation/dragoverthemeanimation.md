@@ -12,6 +12,8 @@ public class DragOverThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline, 
 ## -description
 Represents the preconfigured animation that applies to the elements underneath an element being dragged.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DragOverThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.dragoverthemeanimation).
+
 ## -xaml-syntax
 ```xaml
 <DragItemThemeAnimation .../>

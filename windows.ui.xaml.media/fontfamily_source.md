@@ -12,6 +12,8 @@ public string Source { get; }
 ## -description
 Gets the font family name that is used to construct the [FontFamily](fontfamily.md) object.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.FontFamily.Source](/windows/winui/api/microsoft.ui.xaml.media.fontfamily.source).
+
 ## -property-value
 The font family name of the [FontFamily](fontfamily.md) object.
 

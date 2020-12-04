@@ -12,6 +12,8 @@ public bool IsZoomInertiaEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether zoom actions should include inertia in their behavior and value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.IsZoomInertiaEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.iszoominertiaenabled).
+
 ## -xaml-syntax
 ```xaml
 <ScrollViewer IsZoomInertiaEnabled="bool" />

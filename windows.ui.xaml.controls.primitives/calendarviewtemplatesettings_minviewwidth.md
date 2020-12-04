@@ -12,6 +12,8 @@ public double MinViewWidth { get; }
 ## -description
 Gets the minimum width of the view.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.MinViewWidth](/windows/winui/api/microsoft.ui.xaml.controls.primitives.calendarviewtemplatesettings.minviewwidth).
+
 ## -property-value
 The minimum width of the view.
 

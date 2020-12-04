@@ -13,6 +13,8 @@ public event TypedEventHandler CuttingToClipboard<RichEditBox, TextControlCuttin
 
 Occurs before cut text is moved to the clipboard.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.RichEditBox.CuttingToClipboard](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.cuttingtoclipboard).
+
 ## -xaml-syntax
 
 ```xaml

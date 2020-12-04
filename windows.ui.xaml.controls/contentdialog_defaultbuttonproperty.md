@@ -12,6 +12,8 @@ public DependencyProperty DefaultButtonProperty { get; }
 ## -description
 Gets the identifier of the DefaultButton dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.DefaultButtonProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.defaultbuttonproperty).
+
 ## -property-value
 The identifier of the DefaultButton dependency property.
 

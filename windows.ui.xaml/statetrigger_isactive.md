@@ -12,6 +12,8 @@ public bool IsActive { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the trigger should be applied.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.StateTrigger.IsActive](/windows/winui/api/microsoft.ui.xaml.statetrigger.isactive).
+
 ## -xaml-syntax
 ```xaml
 <StateTrigger IsActive="bool"/>

@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Data.UpdateSourceTrigger : int
 ## -description
 Defines constants that indicate when a binding source is updated by its binding target in two-way binding.
 
+Equivalent WinUI enum: [UpdateSourceTrigger](/windows/winui/api/microsoft.ui.xaml.data.updatesourcetrigger).
+
 ## -enum-fields
 ### -field Default:0
 Use default behavior from the dependency property that uses the binding. In Windows Runtime, this evaluates the same as a value with **PropertyChanged**.

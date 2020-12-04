@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AlignmentYProperty { get; }
 ## -description
 Identifies the [AlignmentY](tilebrush_alignmenty.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.TileBrush.AlignmentYProperty](/windows/winui/api/microsoft.ui.xaml.media.tilebrush.alignmentyproperty).
+
 ## -property-value
 The identifier for the [AlignmentY](tilebrush_alignmenty.md) dependency property.
 

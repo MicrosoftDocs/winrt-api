@@ -12,6 +12,8 @@ public class PivotHeaderPanel : Windows.UI.Xaml.Controls.Canvas, Windows.UI.Xaml
 ## -description
 Displays the header text of the items in a [Pivot](../windows.ui.xaml.controls/pivot.md) control.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderPanel](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pivotheaderpanel).
+
 ## -xaml-syntax
 ```xaml
 <PivotHeaderPanel .../>

@@ -12,6 +12,8 @@ public string WeekDay4 { get; }
 ## -description
 Gets the fourth day of the week.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay4](/windows/winui/api/microsoft.ui.xaml.controls.primitives.calendarviewtemplatesettings.weekday4).
+
 ## -property-value
 The fourth day of the week.
 

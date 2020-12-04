@@ -12,6 +12,8 @@ public class PickerFlyoutBase : Windows.UI.Xaml.Controls.Primitives.FlyoutBase, 
 ## -description
 Represents a base class for picker controls.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.PickerFlyoutBase](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pickerflyoutbase).
+
 ## -remarks
 
 ### XAML attached properties

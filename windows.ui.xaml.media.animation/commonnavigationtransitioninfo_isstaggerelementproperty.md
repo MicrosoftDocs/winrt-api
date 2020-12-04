@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsStaggerElementProperty { get; }
 ## -description
 Identifies the [CommonNavigationTransitionInfo.IsStaggerElement](/uwp/api/windows.ui.xaml.media.animation.commonnavigationtransitioninfo#xaml-attached-properties) attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.CommonNavigationTransitionInfo.IsStaggerElementProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.commonnavigationtransitioninfo.isstaggerelementproperty).
+
 ## -property-value
 The identifier for the [CommonNavigationTransitionInfo.IsStaggerElement](/uwp/api/windows.ui.xaml.media.animation.commonnavigationtransitioninfo#xaml-attached-properties) attached property.
 

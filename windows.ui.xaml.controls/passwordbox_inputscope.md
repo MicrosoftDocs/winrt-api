@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Input.InputScope InputScope { get;  set; }
 ## -description
 Gets or sets the context for input used by this [PasswordBox](passwordbox.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.InputScope](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.inputscope).
+
 ## -xaml-syntax
 ```xaml
 <PasswordBox>

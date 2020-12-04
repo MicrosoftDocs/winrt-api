@@ -13,6 +13,8 @@ public Matrix XamlDirect.GetMatrixProperty(IXamlDirectObject xamlDirectObject, X
 ## -description
 Gets the value of a [Matrix](../windows.ui.xaml.media/matrix.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetMatrixProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getmatrixproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

@@ -10,10 +10,11 @@ public Windows.Foundation.Collections.IVectorView<Windows.ApplicationModel.Resou
 # Windows.ApplicationModel.Resources.Core.NamedResource.ResolveAll
 
 ## -description
-> [!NOTE]
-> ResolveAll may be altered or unavailable for releases after Windows 8.1. Instead, use [ResolveAll(ResourceContext)](namedresource_resolveall_1183893306.md).
 
 Resolves this [NamedResource](namedresource.md) object against the default context and returns a list of all possible candidates in preference order.
+
+> [!NOTE]
+> ResolveAll may be altered or unavailable for releases after Windows 8.1. Instead, use [ResolveAll(ResourceContext)](namedresource_resolveall_1183893306.md).
 
 ## -returns
 A list of [ResourceCandidate](resourcecandidate.md) objects, in order of preference. The object in first position in the list is the most appropriate candidate for the corresponding context, and the object in last position is the least appropriate.

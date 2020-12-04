@@ -12,6 +12,8 @@ public class ContentPropertyAttribute : System.Attribute
 ## -description
 Indicates which property of a type is the XAML content property. A XAML processor uses this information when processing XAML child elements of XAML representations of the attributed type.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Markup.ContentPropertyAttribute](/windows/winui/api/microsoft.ui.xaml.markup.contentpropertyattribute).
+
 ## -remarks
 This attribute is used to identify that a specific property of the attributed type should be considered the XAML content property, when interpreted by XAML parsers and other XAML framework code. The purpose of a XAML content property is that it provides a XAML syntax shorthand that can omit property element markup for that property. The removal of property elements facilitates a more natural parent-children form in XAML markup. For more info on XAML content properties, see "XAML content properties" section of [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AlignmentXProperty { get; }
 ## -description
 Identifies the [AlignmentX](tilebrush_alignmentx.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.TileBrush.AlignmentXProperty](/windows/winui/api/microsoft.ui.xaml.media.tilebrush.alignmentxproperty).
+
 ## -property-value
 The identifier for the [AlignmentX](tilebrush_alignmentx.md) dependency property.
 

@@ -12,6 +12,8 @@ public SemanticZoomViewChangedEventArgs()
 ## -description
 Initializes a new instance of the [SemanticZoomViewChangedEventArgs](semanticzoomviewchangedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.SemanticZoomViewChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.semanticzoomviewchangedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

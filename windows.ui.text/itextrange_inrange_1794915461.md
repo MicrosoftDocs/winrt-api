@@ -12,6 +12,8 @@ public bool InRange(Windows.UI.Text.ITextRange range)
 ## -description
 Determines whether this range is in or at the same text as a specified range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.InRange](/windows/winui/api/microsoft.ui.text.itextrange.inrange).
+
 ## -parameters
 ### -param range
 Text that is compared to the current range.

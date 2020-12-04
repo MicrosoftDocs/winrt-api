@@ -12,6 +12,8 @@ public Windows.UI.Xaml.VerticalAlignment VerticalDayItemAlignment { get;  set; }
 ## -description
 Gets or sets the vertical alignment of day items in the calendar.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.VerticalDayItemAlignment](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.verticaldayitemalignment).
+
 ## -xaml-syntax
 ```xaml
 

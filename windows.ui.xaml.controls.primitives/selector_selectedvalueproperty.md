@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SelectedValueProperty { get; }
 ## -description
 Gets the identifier for the [SelectedValue](selector_selectedvalue.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Selector.SelectedValueProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.selector.selectedvalueproperty).
+
 ## -property-value
 The identifier for the [SelectedValue](selector_selectedvalue.md) dependency property.
 

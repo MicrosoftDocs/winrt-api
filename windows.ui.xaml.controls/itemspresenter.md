@@ -12,6 +12,8 @@ public class ItemsPresenter : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.
 ## -description
 Specifies where items are placed in a control, usually an [ItemsControl](itemscontrol.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ItemsPresenter](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter).
+
 ## -xaml-syntax
 ```xaml
 <ItemsPresenter .../>

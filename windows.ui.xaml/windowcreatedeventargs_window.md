@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Window Window { get; }
 ## -description
 Gets the window that was created.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.WindowCreatedEventArgs.Window](/windows/winui/api/microsoft.ui.xaml.windowcreatedeventargs.window).
+
 ## -property-value
 The window that was created
 

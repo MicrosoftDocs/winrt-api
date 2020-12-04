@@ -13,6 +13,8 @@ public int RichEditTextRange.MoveStart(TextRangeUnit unit, Int32 count)
 
 Moves the start position of a text range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.MoveStart](/windows/winui/api/microsoft.ui.text.richedittextrange.movestart).
+
 ## -parameters
 ### -param unit
 

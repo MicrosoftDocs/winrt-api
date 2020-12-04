@@ -14,6 +14,8 @@ public SceneComponent SceneNode.FindFirstComponentOfType(SceneComponentType valu
 
 Retrieves the first component of the specified kind.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneNode.FindFirstComponentOfType](/windows/winui/api/microsoft.ui.composition.scenes.scenenode.findfirstcomponentoftype).
+
 ## -parameters
 ### -param value
 

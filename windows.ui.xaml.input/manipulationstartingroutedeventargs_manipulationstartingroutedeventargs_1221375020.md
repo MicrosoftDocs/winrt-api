@@ -12,6 +12,8 @@ public ManipulationStartingRoutedEventArgs()
 ## -description
 Initializes a new instance of the [ManipulationStartingRoutedEventArgs](manipulationstartingroutedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.ManipulationStartingRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.manipulationstartingroutedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

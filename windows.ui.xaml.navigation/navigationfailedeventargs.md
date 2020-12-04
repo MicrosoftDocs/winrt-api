@@ -12,6 +12,8 @@ public class NavigationFailedEventArgs : Windows.UI.Xaml.Navigation.INavigationF
 ## -description
 Provides event data for the [WebView.NavigationFailed](../windows.ui.xaml.controls/webview_navigationfailed.md) and [Frame.NavigationFailed](../windows.ui.xaml.controls/frame_navigationfailed.md) events.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Navigation.NavigationFailedEventArgs](/windows/winui/api/microsoft.ui.xaml.navigation.navigationfailedeventargs).
+
 ## -remarks
 
 ## -examples

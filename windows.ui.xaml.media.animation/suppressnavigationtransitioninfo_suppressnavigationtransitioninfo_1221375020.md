@@ -12,6 +12,8 @@ public SuppressNavigationTransitionInfo()
 ## -description
 Initializes a new instance of the [SuppressNavigationTransitionInfo](suppressnavigationtransitioninfo.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.SuppressNavigationTransitionInfo.SuppressNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.suppressnavigationtransitioninfo.#ctor).
+
 ## -remarks
 
 ## -examples

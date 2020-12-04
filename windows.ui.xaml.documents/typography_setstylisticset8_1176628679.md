@@ -12,6 +12,8 @@ public void SetStylisticSet8(Windows.UI.Xaml.DependencyObject element, System.Bo
 ## -description
 Sets the value of the [StylisticSet8](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet8](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset8).
+
 ## -parameters
 ### -param element
 The dependency object for which to set the value of the [StylisticSet8](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) property.

@@ -13,6 +13,8 @@ public void TreeView.Collapse(TreeViewNode value)
 
 Collapses the specified node in the tree.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TreeView.Collapse](/windows/winui/api/microsoft.ui.xaml.controls.treeview.collapse).
+
 ## -parameters
 ### -param value
 

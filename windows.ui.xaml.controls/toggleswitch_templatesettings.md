@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings Template
 ## -description
 Gets an object that provides calculated values that can be referenced as **TemplateBinding** sources when defining templates for a [ToggleSwitch](toggleswitch.md) control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToggleSwitch.TemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch.templatesettings).
+
 ## -property-value
 An object that provides calculated values for templates.
 

@@ -13,6 +13,8 @@ public SpringVector3NaturalMotionAnimation Compositor.CreateSpringVector3Animati
 
 Creates an instance of [SpringVector3NaturalMotionAnimation](springvector3naturalmotionanimation.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateSpringVector3Animation](/windows/winui/api/microsoft.ui.composition.compositor.createspringvector3animation).
+
 ## -returns
 
 The created SpringVector3NaturalMotionAnimation object.

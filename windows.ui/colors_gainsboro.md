@@ -13,6 +13,8 @@ public Windows.UI.Color Gainsboro { get; }
 
 Gets the system-defined color that has an ARGB value of #FFDCDCDC.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Gainsboro](/windows/winui/api/microsoft.ui.colors.gainsboro).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFDCDCDC.

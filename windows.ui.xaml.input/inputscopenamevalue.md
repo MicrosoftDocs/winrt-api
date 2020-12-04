@@ -13,6 +13,8 @@ public enum Windows.UI.Xaml.Input.InputScopeNameValue : int
 
 Specifies a particular named input mode ([InputScopeName](inputscopename.md)) used to populate an [InputScope](inputscope.md).
 
+Equivalent WinUI enum: [InputScopeNameValue](/windows/winui/api/microsoft.ui.xaml.input.inputscopenamevalue).
+
 ## -xaml-syntax
 
 ```xaml

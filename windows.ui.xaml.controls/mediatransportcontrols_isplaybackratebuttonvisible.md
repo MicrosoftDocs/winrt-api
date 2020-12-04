@@ -12,6 +12,8 @@ public bool IsPlaybackRateButtonVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the playback rate button is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsPlaybackRateButtonVisible](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isplaybackratebuttonvisible).
+
 ## -xaml-syntax
 ```xaml
 

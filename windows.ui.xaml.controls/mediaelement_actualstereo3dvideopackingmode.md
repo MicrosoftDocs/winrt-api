@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Stereo3DVideoPackingMode ActualStereo3DVideoPacking
 ## -description
 Gets an enumeration value that determines the current value of stereo 3-D video frame-packing mode, accounting for other factors such as whether the media engine is ready for use.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.ActualStereo3DVideoPackingMode](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.actualstereo3dvideopackingmode).
+
 ## -property-value
 A value of the enumeration. May be **None** if media engine is not ready for use.
 

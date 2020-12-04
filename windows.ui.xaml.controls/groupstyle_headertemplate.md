@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DataTemplate HeaderTemplate { get;  set; }
 ## -description
 Gets or sets the template that is used to display the group header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.GroupStyle.HeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.groupstyle.headertemplate).
+
 ## -xaml-syntax
 ```xaml
 <GroupStyle HeaderTemplate="dataTemplateReference" />

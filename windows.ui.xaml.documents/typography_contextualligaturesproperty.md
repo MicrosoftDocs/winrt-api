@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ContextualLigaturesProperty { get; }
 ## -description
 Identifies the [ContextualLigatures](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.ContextualLigaturesProperty](/windows/winui/api/microsoft.ui.xaml.documents.typography.contextualligaturesproperty).
+
 ## -property-value
 The identifier for the [ContextualLigatures](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 

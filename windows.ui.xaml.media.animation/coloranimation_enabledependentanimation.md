@@ -12,6 +12,8 @@ public bool EnableDependentAnimation { get;  set; }
 ## -description
 Gets or sets a value that declares whether animated properties that are considered dependent animations should be permitted to use this animation declaration.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorAnimation.EnableDependentAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimation.enabledependentanimation).
+
 ## -xaml-syntax
 ```xaml
 <ColorAnimation EnableDependentAnimation="bool" />

@@ -13,6 +13,8 @@ public BounceVector3NaturalMotionAnimation Compositor.CreateBounceVector3Animati
 
 Creates an instance of [BounceVector3NaturalMotionAnimation](bouncevector3naturalmotionanimation.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateBounceVector3Animation](/windows/winui/api/microsoft.ui.composition.compositor.createbouncevector3animation).
+
 ## -returns
 
 The created [BounceVector3NaturalMotionAnimation](bouncevector3naturalmotionanimation.md) object.

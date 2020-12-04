@@ -13,6 +13,8 @@ public class Vector3NaturalMotionAnimation : NaturalMotionAnimation, NaturalMoti
 
 The base Vector3 NaturalMotionAnimation used to target a Vector3 property.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Vector3NaturalMotionAnimation](/windows/winui/api/microsoft.ui.composition.vector3naturalmotionanimation).
+
 ## -remarks
 
 ## -see-also

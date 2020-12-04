@@ -14,6 +14,8 @@ public CompositionRadialGradientBrush Compositor.CreateRadialGradientBrush()
 
 Creates an instance of [CompositionRadialGradientBrush](compositionradialgradientbrush.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateRadialGradientBrush](/windows/winui/api/microsoft.ui.composition.compositor.createradialgradientbrush).
+
 ## -returns
 
 Returns the created [CompositionRadialGradientBrush](compositionradialgradientbrush.md) object.

@@ -12,6 +12,8 @@ public Windows.UI.Text.FontWeight TodayFontWeight { get;  set; }
 ## -description
 Gets or sets the font weight used to display the current date in the calendar.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.TodayFontWeight](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.todayfontweight).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView TodayFontWeight="fontWeightMemberName"/>

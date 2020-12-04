@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.RichEditClipboardFormat : int
 ## -description
 Defines constants that specify the format of text copied from a [RichEditBox](richeditbox.md).
 
+Equivalent WinUI enum: [RichEditClipboardFormat](/windows/winui/api/microsoft.ui.xaml.controls.richeditclipboardformat).
+
 ## -enum-fields
 ### -field AllFormats:0
 Text is copied as both plain text and rich text.

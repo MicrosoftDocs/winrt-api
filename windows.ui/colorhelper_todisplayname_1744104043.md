@@ -12,6 +12,8 @@ public string ColorHelper.ToDisplayName(Color color)
 ## -description
 Retrieves the display name of the specified color.
 
+Equivalent WinUI method: [Microsoft.UI.ColorHelper.ToDisplayName](/windows/winui/api/microsoft.ui.colorhelper.todisplayname).
+
 ## -parameters
 
 ### -param color

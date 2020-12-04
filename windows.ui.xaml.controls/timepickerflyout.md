@@ -12,6 +12,8 @@ public class TimePickerFlyout : Windows.UI.Xaml.Controls.Primitives.PickerFlyout
 ## -description
 Represents a control that allows a user to pick a time value.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TimePickerFlyout](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyout).
+
 ## -remarks
 
 ## -examples

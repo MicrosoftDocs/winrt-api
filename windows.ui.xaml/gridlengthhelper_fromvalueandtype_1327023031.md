@@ -12,6 +12,8 @@ public Windows.UI.Xaml.GridLength FromValueAndType(System.Double value, Windows.
 ## -description
 Creates a new [GridLength](gridlength.md) value based on a possible number of pixels, and a [GridUnitType](gridunittype.md). C# and Microsoft Visual Basic code should use the [ GridLength(Double,GridUnitType)](/dotnet/api/windows.ui.xaml.gridlength.-ctor#Windows_UI_Xaml_GridLength__ctor_System_Double_Windows_UI_Xaml_GridUnitType_) constructor instead.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.GridLengthHelper.FromValueAndType](/windows/winui/api/microsoft.ui.xaml.gridlengthhelper.fromvalueandtype).
+
 ## -parameters
 ### -param value
 A numeric value. This might be a pixel height or width to specify, if *type* is specified as **Pixel**, or a factor, if *type* is specified as **Star**. This value is ignored if *type* is specified as **Auto**.

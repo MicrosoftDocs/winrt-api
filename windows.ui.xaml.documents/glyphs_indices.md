@@ -13,6 +13,8 @@ public string Indices { get;  set; }
 
 Gets or sets a collection of glyph specifications that represents the Glyphs object.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.Indices](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.indices).
+
 ## -xaml-syntax
 
 ```xaml

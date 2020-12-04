@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush Foreground { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the content in this element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.Foreground](/windows/winui/api/microsoft.ui.xaml.documents.textelement.foreground).
+
 ## -xaml-syntax
 ```xaml
 <textElementForeground="{StaticResource resourceName}"/>

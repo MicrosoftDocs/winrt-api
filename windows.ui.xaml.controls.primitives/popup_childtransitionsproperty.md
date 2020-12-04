@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ChildTransitionsProperty { get; }
 ## -description
 Identifies the [ChildTransitions](popup_childtransitions.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Popup.ChildTransitionsProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.childtransitionsproperty).
+
 ## -property-value
 The identifier for the [ChildTransitions](popup_childtransitions.md) dependency property.
 

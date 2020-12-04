@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness PointerOverBackgroundMargin { get;  set; }
 ## -description
 Gets or sets the margin of the background displayed for pointer-over input actions in the [ListView](../windows.ui.xaml.controls/listview.md) item cell, versus the cell. This property is ignored for a Windows 10 app.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackgroundMargin](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.pointeroverbackgroundmargin).
+
 ## -xaml-syntax
 ```xaml
 <listViewItemPresenter PointerOverBackgroundMargin="uniform"/>

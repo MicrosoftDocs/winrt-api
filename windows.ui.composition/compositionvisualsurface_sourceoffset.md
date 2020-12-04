@@ -14,6 +14,8 @@ public Vector2 SourceOffset { get;  set; }
 
 Gets or sets the coordinates of the top-left corner of the part of the visual surface used for rendering.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionVisualSurface.SourceOffset](/windows/winui/api/microsoft.ui.composition.compositionvisualsurface.sourceoffset).
+
 ## -property-value
 
 The coordinates of the top-left corner of the part of the visual surface used for rendering.

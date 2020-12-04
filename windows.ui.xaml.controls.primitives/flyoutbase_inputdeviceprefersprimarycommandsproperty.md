@@ -14,6 +14,8 @@ public DependencyProperty InputDevicePrefersPrimaryCommandsProperty { get; }
 
 Identifies the [InputDevicePrefersPrimaryCommands](flyoutbase_inputdeviceprefersprimarycommands.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.InputDevicePrefersPrimaryCommandsProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.inputdeviceprefersprimarycommandsproperty).
+
 ## -property-value
 
 The identifier for the [InputDevicePrefersPrimaryCommands](flyoutbase_inputdeviceprefersprimarycommands.md) dependency property.

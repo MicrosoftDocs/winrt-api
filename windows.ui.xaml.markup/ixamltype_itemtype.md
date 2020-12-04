@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Markup.IXamlType ItemType { get; }
 ## -description
 Gets a value that provides the type information for the **Items** property of this [IXamlType](ixamltype.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlType.ItemType](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.itemtype).
+
 ## -property-value
 The [IXamlType](ixamltype.md) information for the type of the items in the collection; otherwise, null if this [IXamlType](ixamltype.md) does not represent a collection.
 

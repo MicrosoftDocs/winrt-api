@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IMapView<object, object> GetView()
 ## -description
 Retrieves a view against the [ResourceDictionary](resourcedictionary.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.ResourceDictionary.GetView](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.getview).
+
 ## -returns
 The view object.
 

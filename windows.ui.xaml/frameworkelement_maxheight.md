@@ -12,6 +12,8 @@ public double MaxHeight { get;  set; }
 ## -description
 Gets or sets the maximum height constraint of a [FrameworkElement](frameworkelement.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.MaxHeight](/windows/winui/api/microsoft.ui.xaml.frameworkelement.maxheight).
+
 ## -xaml-syntax
 ```xaml
 <frameworkElement MaxHeight="double"/>

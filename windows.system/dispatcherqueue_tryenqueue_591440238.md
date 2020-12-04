@@ -12,6 +12,8 @@ public bool DispatcherQueue.TryEnqueue(DispatcherQueueHandler callback)
 ## -description
 Adds a task to the **DispatcherQueue** which will be executed on the thread  associated with the **DispatcherQueue**.
 
+Equivalent WinUI method: [Microsoft.System.DispatcherQueue.TryEnqueue](/windows/winui/api/microsoft.system.dispatcherqueue.tryenqueue).
+
 ## -parameters
 ### -param callback
 The task to execute.

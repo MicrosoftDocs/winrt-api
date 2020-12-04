@@ -13,6 +13,8 @@ public RoutedEvent ContextRequestedEvent { get; }
 
 Gets the identifier for the ContextRequested routed event.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ContextRequestedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.contextrequestedevent).
+
 ## -property-value
 
 The identifier for the ContextRequested routed event.

@@ -12,6 +12,8 @@ public Windows.Foundation.IReference<Windows.Foundation.Point> From { get;  set;
 ## -description
 Gets or sets the animation's starting value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PointAnimation.From](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimation.from).
+
 ## -xaml-syntax
 ```xaml
 <PointAnimation From=x,y"/>

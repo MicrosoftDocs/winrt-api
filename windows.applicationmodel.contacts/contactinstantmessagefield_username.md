@@ -10,10 +10,11 @@ public string UserName { get; }
 # Windows.ApplicationModel.Contacts.ContactInstantMessageField.UserName
 
 ## -description
-> [!NOTE]
-> [ContactInstantMessageField](contactinstantmessagefield.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactConnectedServiceAccount](contactconnectedserviceaccount.md).
 
 Gets the user's name.
+
+> [!NOTE]
+> [ContactInstantMessageField](contactinstantmessagefield.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactConnectedServiceAccount](contactconnectedserviceaccount.md).
 
 ## -property-value
 The user's name.

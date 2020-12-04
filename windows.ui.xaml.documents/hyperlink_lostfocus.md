@@ -12,6 +12,8 @@ public event RoutedEventHandler LostFocus
 ## -description
 Occurs when a **Hyperlink** loses focus.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Documents.Hyperlink.LostFocus](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.lostfocus).
+
 ## -xaml-syntax
 ```xaml
 <Hyperlink LostFocus="eventhandler"/>

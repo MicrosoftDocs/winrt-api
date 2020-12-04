@@ -12,6 +12,8 @@ public class TextElement : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Doc
 ## -description
 An abstract class used as the base class for the also-abstract [Block](block.md) and [Inline](inline.md) classes. TextElement supports common API for classes involved in the XAML text object model, such as properties that control text size, font families and so on.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.TextElement](/windows/winui/api/microsoft.ui.xaml.documents.textelement).
+
 ## -remarks
 The various properties defined by TextElement support a common API for classes involved in the XAML text object model. Here's a list of the most commonly used properties:
 + [FontFamily](textelement_fontfamily.md)

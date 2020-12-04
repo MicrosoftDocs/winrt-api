@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsPeripheralProperty { get; }
 ## -description
 Identifies the Boolean dependency property that indicates if the automation element represents peripheral UI.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.IsPeripheralProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.isperipheralproperty).
+
 ## -property-value
 The dependency property identifier.
 

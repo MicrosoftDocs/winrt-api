@@ -12,6 +12,8 @@ public class PivotItemEventArgs : Windows.UI.Xaml.Controls.IPivotItemEventArgs
 ## -description
 Event arguments for dynamically interacting with the [PivotItem](pivotitem.md) before use, allowing for delay load scenarios.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.PivotItemEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.pivotitemeventargs).
+
 ## -remarks
 
 ## -examples

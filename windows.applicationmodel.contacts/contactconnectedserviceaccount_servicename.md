@@ -10,10 +10,10 @@ public string ServiceName { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactConnectedServiceAccount.ServiceName
 
 ## -description
-Gets and sets the service name of a connected service account for a contact. The maximum string length for the service name is 256 characters.
+Gets or sets the service name of a connected service account for a contact. The maximum string length for the service name is 256 characters.
 
 ## -property-value
-The service name of a connected service account for a contact.
+The service name of a connected service account for a contact. The maximum string length for the service name is 256 characters.
 
 ## -remarks
 

@@ -12,6 +12,8 @@ public bool IsSeekBarVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the seek bar is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsSeekBarVisible](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isseekbarvisible).
+
 ## -xaml-syntax
 ```xaml
 

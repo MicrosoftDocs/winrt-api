@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsPointerOverProperty { get; }
 ## -description
 Identifies the [IsPointerOver](buttonbase_ispointerover.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.IsPointerOverProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase.ispointeroverproperty).
+
 ## -property-value
 The identifier for the [IsPointerOver](buttonbase_ispointerover.md) dependency property.
 

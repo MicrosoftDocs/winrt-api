@@ -12,6 +12,8 @@ public void PageLeft()
 ## -description
 Scrolls left within the content by one page.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.PageLeft](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.pageleft).
+
 ## -remarks
 
 ## -examples

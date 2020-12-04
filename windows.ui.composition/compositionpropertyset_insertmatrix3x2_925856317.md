@@ -12,6 +12,8 @@ public void InsertMatrix3x2(System.String propertyName, Windows.Foundation.Numer
 ## -description
 Inserts a Matrix3x2 key-value pair.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.InsertMatrix3x2](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.insertmatrix3x2).
+
 ## -parameters
 ### -param propertyName
 The key associated with the value. This key can be used to retrieve the value.

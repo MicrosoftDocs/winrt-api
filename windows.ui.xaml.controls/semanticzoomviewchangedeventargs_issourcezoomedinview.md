@@ -12,6 +12,8 @@ public bool IsSourceZoomedInView { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the starting view is the [ZoomedInView](semanticzoom_zoomedinview.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.IsSourceZoomedInView](/windows/winui/api/microsoft.ui.xaml.controls.semanticzoomviewchangedeventargs.issourcezoomedinview).
+
 ## -property-value
 **true** if the starting view is the [ZoomedInView](semanticzoom_zoomedinview.md); otherwise, **false**.
 

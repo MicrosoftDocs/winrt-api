@@ -15,6 +15,8 @@ Initializes a new instance of the [PropertyChangedEventArgs](propertychangedeven
 > **.NET**
 > This type is hidden, use [System.ComponentModel.PropertyChangedEventArgs](/dotnet/api/system.componentmodel.propertychangedeventargs?redirectedfrom=MSDN).
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Data.PropertyChangedEventArgs.PropertyChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.data.propertychangedeventargs.#ctor).
+
 ## -parameters
 ### -param name
 The short name of the property that changed.

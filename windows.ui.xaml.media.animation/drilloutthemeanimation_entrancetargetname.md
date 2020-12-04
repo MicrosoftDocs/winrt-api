@@ -12,6 +12,8 @@ public string EntranceTargetName { get;  set; }
 ## -description
 Gets or sets the name of the element that is animating into view.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DrillOutThemeAnimation.EntranceTargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.drilloutthemeanimation.entrancetargetname).
+
 ## -property-value
 The name of the element that is animating into view.
 

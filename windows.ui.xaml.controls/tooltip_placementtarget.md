@@ -12,6 +12,8 @@ public Windows.UI.Xaml.UIElement PlacementTarget { get;  set; }
 ## -description
 Gets or sets the visual element or control that the tool tip should be positioned in relation to when opened by the [ToolTipService](tooltipservice.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToolTip.PlacementTarget](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.placementtarget).
+
 ## -xaml-syntax
 ```xaml
 <ToolTip PlacementTarget="{Binding ElementName=placementTargetName}"/>

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AutoReverseProperty { get; }
 ## -description
 Identifies the [AutoReverse](timeline_autoreverse.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.AutoReverseProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.autoreverseproperty).
+
 ## -property-value
 The identifier for the [AutoReverse](timeline_autoreverse.md)  dependency property.
 

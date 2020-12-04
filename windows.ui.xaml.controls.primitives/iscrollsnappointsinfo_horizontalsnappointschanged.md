@@ -12,6 +12,8 @@ abstract public event Windows.Foundation.EventHandler HorizontalSnapPointsChange
 ## -description
 Occurs when the measurements for horizontal snap points change.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.HorizontalSnapPointsChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.iscrollsnappointsinfo.horizontalsnappointschanged).
+
 ## -remarks
 
 ## -examples

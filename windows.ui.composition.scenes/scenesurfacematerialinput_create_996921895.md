@@ -14,6 +14,8 @@ public SceneSurfaceMaterialInput SceneSurfaceMaterialInput.Create(Compositor com
 
 Creates an instance of SceneSurfaceMaterialInput.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneSurfaceMaterialInput.Create](/windows/winui/api/microsoft.ui.composition.scenes.scenesurfacematerialinput.create).
+
 ## -parameters
 ### -param compositor
 

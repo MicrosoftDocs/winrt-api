@@ -13,6 +13,8 @@ public event TypedEventHandler CopyingToClipboard<TextBox, TextControlCopyingToC
 
 Occurs before copied text is moved to the clipboard.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TextBox.CopyingToClipboard](/windows/winui/api/microsoft.ui.xaml.controls.textbox.copyingtoclipboard).
+
 ## -xaml-syntax
 
 ```xaml

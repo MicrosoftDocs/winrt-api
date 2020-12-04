@@ -12,6 +12,8 @@ public bool IsTextSelectionEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines whether text content of the [RichTextBlock](richtextblock.md) can be selected for clipboard or drag purposes, or for UI styling changes that indicate selected text.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.IsTextSelectionEnabled](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.istextselectionenabled).
+
 ## -xaml-syntax
 ```xaml
 <RichTextBlock IsTextSelectionEnabled="bool" />

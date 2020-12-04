@@ -12,6 +12,8 @@ public object FallbackValue { get;  set; }
 ## -description
 Gets or sets the value to use when the binding is unable to return a value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.FallbackValue](/windows/winui/api/microsoft.ui.xaml.data.binding.fallbackvalue).
+
 ## -xaml-syntax
 ```xaml
 <Binding FallbackValue="fallbackValue" />

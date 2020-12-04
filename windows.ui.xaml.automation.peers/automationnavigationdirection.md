@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationNavigationDirection : int
 ## -description
 Defines the directions of navigation within the Microsoft UI Automation tree.
 
+Equivalent WinUI enum: [AutomationNavigationDirection](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationnavigationdirection).
+
 ## -enum-fields
 ### -field Parent:0
 Navigate to the parent of the current node.

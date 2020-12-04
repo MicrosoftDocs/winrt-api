@@ -12,6 +12,8 @@ public Windows.UI.Text.ITextParagraphFormat GetClone()
 ## -description
 Creates a new object that is identical to this paragraph format object.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextParagraphFormat.GetClone](/windows/winui/api/microsoft.ui.text.itextparagraphformat.getclone).
+
 ## -returns
 The duplicate paragraph format object.
 

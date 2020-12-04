@@ -13,6 +13,8 @@ public struct Thickness
 
 Describes the thickness of a frame around a rectangle. Four [Double](/dotnet/api/system.double?redirectedfrom=MSDN) values describe the **Left**, **Top**, **Right**, and **Bottom** sides of the rectangle, respectively.
 
+Equivalent WinUI struct: [Thickness](/windows/winui/api/microsoft.ui.xaml.thickness).
+
 ## -xaml-syntax
 
 ```xaml

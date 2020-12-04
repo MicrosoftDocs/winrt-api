@@ -13,6 +13,8 @@ public void XamlDirect.AddToCollection(IXamlDirectObject xamlDirectObject, IXaml
 ## -description
 Adds a value to the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.AddToCollection](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.addtocollection).
+
 ## -parameters
 ### -param xamlDirectObject
 Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.

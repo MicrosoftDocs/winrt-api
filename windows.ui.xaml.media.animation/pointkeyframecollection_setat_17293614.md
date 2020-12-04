@@ -12,6 +12,8 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Media.Animation.PointKeyF
 ## -description
 Sets the value at the specified index to the [PointKeyFrame](pointkeyframe.md) value specified.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.animation.pointkeyframecollection.setat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

@@ -13,6 +13,8 @@ public void RichEditTextRange.ScrollIntoView(PointOptions value)
 
 Scrolls this text range into view.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.ScrollIntoView](/windows/winui/api/microsoft.ui.text.richedittextrange.scrollintoview).
+
 ## -parameters
 ### -param value
 

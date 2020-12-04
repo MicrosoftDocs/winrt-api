@@ -13,6 +13,8 @@ public IIterator<CompositionShape> CompositionShapeCollection.First()
 
 Returns an iterator for the items in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.First](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.first).
+
 ## -returns
 
 The iterator object. The iterator's current position is the 0-index position, or at the collection end if the collection is empty.

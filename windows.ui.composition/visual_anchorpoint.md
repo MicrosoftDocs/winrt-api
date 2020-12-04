@@ -12,6 +12,8 @@ public Windows.Foundation.Numerics.Vector2 AnchorPoint { get;  set; }
 ## -description
 The point on the visual to be positioned at the visual's offset. Value is normalized with respect to the size of the visual. Animatable.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Visual.AnchorPoint](/windows/winui/api/microsoft.ui.composition.visual.anchorpoint).
+
 ## -property-value
 The point on the visual to be positioned at the visual's offset. Value is normalized with respect to the size of the visual.
 

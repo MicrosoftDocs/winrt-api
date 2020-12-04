@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IObservableVector<Windows.UI.Xaml.Controls
 ## -description
 Gets the collection of secondary command elements for the [CommandBar](commandbar.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CommandBar.SecondaryCommands](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.secondarycommands).
+
 ## -xaml-syntax
 ```xaml
 <CommandBar>

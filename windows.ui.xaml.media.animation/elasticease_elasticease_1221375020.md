@@ -12,6 +12,8 @@ public ElasticEase()
 ## -description
 Initializes a new instance of the [ElasticEase](elasticease.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.ElasticEase.ElasticEase](/windows/winui/api/microsoft.ui.xaml.media.animation.elasticease.#ctor).
+
 ## -remarks
 
 ## -examples

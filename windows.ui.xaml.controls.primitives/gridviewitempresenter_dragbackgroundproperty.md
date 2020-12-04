@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DragBackgroundProperty { get; }
 ## -description
 Identifies the [DragBackground](gridviewitempresenter_dragbackground.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.DragBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.dragbackgroundproperty).
+
 ## -property-value
 The identifier for the [DragBackground](gridviewitempresenter_dragbackground.md) dependency property.
 

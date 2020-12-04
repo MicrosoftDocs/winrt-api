@@ -12,6 +12,8 @@ public TimelineMarkerCollection()
 ## -description
 Initializes a new instance of the [TimelineMarkerCollection](timelinemarkercollection.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.TimelineMarkerCollection.TimelineMarkerCollection](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkercollection.#ctor).
+
 ## -remarks
 
 ## -examples

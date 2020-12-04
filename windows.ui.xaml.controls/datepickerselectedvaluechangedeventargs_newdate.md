@@ -14,6 +14,8 @@ public IReference<DateTime> NewDate { get; }
 
 Gets the new date selected in the picker.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerSelectedValueChangedEventArgs.NewDate](/windows/winui/api/microsoft.ui.xaml.controls.datepickerselectedvaluechangedeventargs.newdate).
+
 ## -property-value
 
 The new date selected in the picker.

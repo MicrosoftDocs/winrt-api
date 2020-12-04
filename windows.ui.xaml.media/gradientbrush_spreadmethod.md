@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.GradientSpreadMethod SpreadMethod { get;  set; }
 ## -description
 Gets or sets the type of spread method that specifies how to draw a gradient that starts or ends inside the bounds of the object to be painted.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.GradientBrush.SpreadMethod](/windows/winui/api/microsoft.ui.xaml.media.gradientbrush.spreadmethod).
+
 ## -xaml-syntax
 ```xaml
 <gradientBrush SpreadMethod="Pad"/>

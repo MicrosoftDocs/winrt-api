@@ -12,6 +12,8 @@ protected FrameworkTemplate()
 ## -description
 Provides base class initialization behavior for [FrameworkTemplate](frameworktemplate.md)-derived classes.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.FrameworkTemplate.FrameworkTemplate](/windows/winui/api/microsoft.ui.xaml.frameworktemplate.#ctor).
+
 ## -remarks
 
 ## -examples

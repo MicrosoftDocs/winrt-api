@@ -12,6 +12,8 @@ public class BeginStoryboard : Windows.UI.Xaml.TriggerAction, Windows.UI.Xaml.Me
 ## -description
 A trigger action that begins a [Storyboard](storyboard.md). Not commonly used. See Remarks.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.BeginStoryboard](/windows/winui/api/microsoft.ui.xaml.media.animation.beginstoryboard).
+
 ## -xaml-syntax
 ```xaml
 <BeginStoryboard ...>

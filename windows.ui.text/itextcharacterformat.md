@@ -12,6 +12,8 @@ public interface ITextCharacterFormat :
 ## -description
 Defines the default character formatting attributes of a document, or the current character formatting attributes of a text range.
 
+Equivalent WinUI interface: [Microsoft.UI.Text.ITextCharacterFormat](/windows/winui/api/microsoft.ui.text.itextcharacterformat).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public bool IsLooping { get;  set; }
 ## -description
 Gets or sets a value that describes whether the media source currently loaded in the media engine should automatically set the position to the media start after reaching its end.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.IsLooping](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.islooping).
+
 ## -xaml-syntax
 ```xaml
 <MediaElement IsLooping="bool"/>

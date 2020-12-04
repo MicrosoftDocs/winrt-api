@@ -12,6 +12,8 @@ public bool IsOutOfScopeEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether out-of-scope calendar items are shown with a unique foreground color in the picker's [CalendarView](calendarview.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.IsOutOfScopeEnabled](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.isoutofscopeenabled).
+
 ## -xaml-syntax
 ```xaml
 <CalendarDatePicker IsOutOfScopeEnabled="bool" .../>

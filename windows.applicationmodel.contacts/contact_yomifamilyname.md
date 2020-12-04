@@ -10,10 +10,12 @@ public string YomiFamilyName { get;  set; }
 # Windows.ApplicationModel.Contacts.Contact.YomiFamilyName
 
 ## -description
-Gets the Yomi (phonetic Japanese equivalent) family name for a contact. The maximum string length for the Yomi family name is 120 characters.
+
+Gets or sets the Yomi (phonetic Japanese equivalent) family name for a contact. The maximum string length for the Yomi family name is 120 characters.
 
 ## -property-value
-The Yomi family name for a contact.
+
+The Yomi family name for a contact. The maximum string length for the Yomi family name is 120 characters.
 
 ## -remarks
 
@@ -22,4 +24,5 @@ The Yomi family name for a contact.
 ## -see-also
 
 ## -capabilities
+
 contactsSystem

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsHeaderInteractiveProperty { get; }
 ## -description
 Identifies the [IsHeaderInteractive](hubsection_isheaderinteractive.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.HubSection.IsHeaderInteractiveProperty](/windows/winui/api/microsoft.ui.xaml.controls.hubsection.isheaderinteractiveproperty).
+
 ## -property-value
 The identifier for the [IsHeaderInteractive](hubsection_isheaderinteractive.md) dependency property.
 

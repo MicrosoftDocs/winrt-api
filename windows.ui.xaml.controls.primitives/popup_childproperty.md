@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ChildProperty { get; }
 ## -description
 Gets the identifier for the [Child](popup_child.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Popup.ChildProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.childproperty).
+
 ## -property-value
 The identifier for the [Child](popup_child.md) dependency property.
 

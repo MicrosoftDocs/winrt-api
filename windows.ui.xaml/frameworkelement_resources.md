@@ -12,6 +12,8 @@ public Windows.UI.Xaml.ResourceDictionary Resources { get;  set; }
 ## -description
 Gets the locally defined resource dictionary. In XAML, you can establish resource items as child object elements of a `frameworkElement.Resources` property element, through XAML implicit collection syntax.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.Resources](/windows/winui/api/microsoft.ui.xaml.frameworkelement.resources).
+
 ## -xaml-syntax
 ```xaml
 <frameworkElement>

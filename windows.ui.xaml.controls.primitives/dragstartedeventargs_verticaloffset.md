@@ -12,6 +12,8 @@ public double VerticalOffset { get; }
 ## -description
 Gets the vertical distance between the current mouse position and the thumb coordinates.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.DragStartedEventArgs.VerticalOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.dragstartedeventargs.verticaloffset).
+
 ## -property-value
 The vertical distance between the current mouse position and the thumb coordinates.
 

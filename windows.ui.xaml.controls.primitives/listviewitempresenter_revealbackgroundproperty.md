@@ -13,6 +13,8 @@ public DependencyProperty RevealBackgroundProperty { get; }
 
 Identifies the RevealBackground dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.revealbackgroundproperty).
+
 ## -property-value
 
 The identifier for the RevealBackground dependency property.

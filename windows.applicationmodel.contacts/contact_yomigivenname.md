@@ -10,10 +10,12 @@ public string YomiGivenName { get;  set; }
 # Windows.ApplicationModel.Contacts.Contact.YomiGivenName
 
 ## -description
-Gets the Yomi (phonetic Japanese equivalent) given name for a contact. The maximum string length for the Yomi given name is 120 characters.
+
+Gets or sets the Yomi (phonetic Japanese equivalent) given name for a contact. The maximum string length for the Yomi given name is 120 characters.
 
 ## -property-value
-The Yomi given name for a contact.
+
+The Yomi given name for a contact. The maximum string length for the Yomi given name is 120 characters.
 
 ## -remarks
 
@@ -22,4 +24,5 @@ The Yomi given name for a contact.
 ## -see-also
 
 ## -capabilities
+
 contactsSystem

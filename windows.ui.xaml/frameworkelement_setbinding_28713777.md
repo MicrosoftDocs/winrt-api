@@ -12,6 +12,8 @@ public void SetBinding(Windows.UI.Xaml.DependencyProperty dp, Windows.UI.Xaml.Da
 ## -description
 Attaches a binding to a [FrameworkElement](frameworkelement.md), using the provided binding object.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkElement.SetBinding](/windows/winui/api/microsoft.ui.xaml.frameworkelement.setbinding).
+
 ## -parameters
 ### -param dp
 The dependency property identifier of the property that is data bound.

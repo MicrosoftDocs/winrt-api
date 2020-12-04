@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsStopButtonVisibleProperty { get; }
 ## -description
 Identifies the [IsStopButtonVisible](mediatransportcontrols_isstopbuttonvisible.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsStopButtonVisibleProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isstopbuttonvisibleproperty).
+
 ## -property-value
 The identifier for the [IsStopButtonVisible](mediatransportcontrols_isstopbuttonvisible.md) dependency property.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PrimaryButtonTextProperty { get; }
 ## -description
 Gets the identifier of the PrimaryButtonText dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.PrimaryButtonTextProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.primarybuttontextproperty).
+
 ## -property-value
 The identifier of the PrimaryButtonText dependency property.
 

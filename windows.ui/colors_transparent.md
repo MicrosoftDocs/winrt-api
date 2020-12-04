@@ -13,6 +13,8 @@ public Windows.UI.Color Transparent { get; }
 
 Gets the system-defined color that has the ARGB value of #00FFFFFF.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Transparent](/windows/winui/api/microsoft.ui.colors.transparent).
+
 ## -property-value
 
 The system-defined color that has the ARGB value of #00FFFFFF.

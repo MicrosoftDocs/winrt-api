@@ -12,6 +12,8 @@ public string DayFormat { get;  set; }
 ## -description
 Gets or sets the display format for the day value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.DayFormat](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.dayformat).
+
 ## -xaml-syntax
 ```xaml
 <DatePicker DayFormat="formatString"/>

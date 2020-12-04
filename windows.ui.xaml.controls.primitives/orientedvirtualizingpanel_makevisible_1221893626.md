@@ -12,6 +12,8 @@ public Windows.Foundation.Rect MakeVisible(Windows.UI.Xaml.UIElement visual, Win
 ## -description
 Changes existing offsets in order to make the provided element visible in the viewport, and returns a [Rect](../windows.foundation/rect.md) measurement of the area.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.MakeVisible](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.makevisible).
+
 ## -parameters
 ### -param visual
 The element to make visible.

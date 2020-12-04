@@ -13,6 +13,8 @@ public XamlSourceFocusNavigationResult.XamlSourceFocusNavigationResult(Boolean f
 ## -description
 Initializes a new instance of the [XamlSourceFocusNavigationResult](xamlsourcefocusnavigationresult.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Hosting.XamlSourceFocusNavigationResult.XamlSourceFocusNavigationResult](/windows/winui/api/microsoft.ui.xaml.hosting.xamlsourcefocusnavigationresult.#ctor).
+
 ## -parameters
 ### -param focusMoved
 True if the focus successfully moved to the [DesktopWindowXamlSource](desktopwindowxamlsource.md) object; otherwise, false.

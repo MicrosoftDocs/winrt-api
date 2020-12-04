@@ -12,6 +12,8 @@ public void Start()
 ## -description
 Starts the [DispatcherTimer](dispatchertimer.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.DispatcherTimer.Start](/windows/winui/api/microsoft.ui.xaml.dispatchertimer.start).
+
 ## -remarks
 If the timer has already started, then it is restarted.
 

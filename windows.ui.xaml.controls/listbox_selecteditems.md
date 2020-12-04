@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<object> SelectedItems { get; }
 ## -description
 Gets the list of currently selected items for the [ListBox](listbox.md) control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListBox.SelectedItems](/windows/winui/api/microsoft.ui.xaml.controls.listbox.selecteditems).
+
 ## -property-value
 The list of currently selected items for the [ListBox](listbox.md) control.
 

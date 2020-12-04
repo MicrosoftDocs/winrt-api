@@ -14,6 +14,8 @@ public IVectorView<UIElement> UIElementWeakCollection.GetView()
 
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.GetView](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.getview).
+
 ## -returns
 
 An object that represents the immutable collection view.

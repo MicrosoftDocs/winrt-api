@@ -10,10 +10,11 @@ public Windows.ApplicationModel.Contacts.ContactInstantMessageField CreateInstan
 # Windows.ApplicationModel.Contacts.ContactFieldFactory.CreateInstantMessage
 
 ## -description
-> [!NOTE]
-> [IContactInstantMessageFieldFactory](icontactinstantmessagefieldfactory.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactConnectedServiceAccount](contactconnectedserviceaccount.md).
 
 Creates a field to contain information about a contact's instant messaging account.
+
+> [!NOTE]
+> [IContactInstantMessageFieldFactory](icontactinstantmessagefieldfactory.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactConnectedServiceAccount](contactconnectedserviceaccount.md).
 
 ## -parameters
 ### -param userName

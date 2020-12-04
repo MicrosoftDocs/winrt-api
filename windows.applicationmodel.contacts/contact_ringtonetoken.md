@@ -10,9 +10,11 @@ public string RingToneToken { get;  set; }
 # Windows.ApplicationModel.Contacts.Contact.RingToneToken
 
 ## -description
-Gets or puts the path to the ringtone file for the [Contact](contact.md).
+
+Gets or sets the path to the ringtone file for the [Contact](contact.md).
 
 ## -property-value
+
 The path to the ringtone file for the [Contact](contact.md).
 
 ## -remarks
@@ -22,4 +24,5 @@ The path to the ringtone file for the [Contact](contact.md).
 ## -see-also
 
 ## -capabilities
+
 contactsSystem

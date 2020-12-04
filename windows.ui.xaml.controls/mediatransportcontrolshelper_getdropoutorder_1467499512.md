@@ -12,6 +12,8 @@ public Windows.Foundation.IReference<int> GetDropoutOrder(Windows.UI.Xaml.UIElem
 ## -description
 Gets the value of the [MediaTransportControlsHelper.DropoutOrder](/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper#xaml-attached-properties) XAML attached property for the target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaTransportControlsHelper.GetDropoutOrder](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrolshelper.getdropoutorder).
+
 ## -parameters
 ### -param element
 The object from which the property value is read.

@@ -14,6 +14,8 @@ public enum InteractionSourceRedirectionMode : int
 
 Defines constants that specify whether an input should be redirected to the InteractionTracker.
 
+Equivalent WinUI enum: [Microsoft.UI.Composition.Interactions.InteractionSourceRedirectionMode](/windows/winui/api/microsoft.ui.composition.interactions.interactionsourceredirectionmode).
+
 ## -enum-fields
 ### -field Enabled:1
 

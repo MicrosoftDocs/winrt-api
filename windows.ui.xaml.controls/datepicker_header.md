@@ -12,6 +12,8 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the control's header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.Header](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.header).
+
 ## -xaml-syntax
 ```xaml
 <DatePicker Header="headerString"/>

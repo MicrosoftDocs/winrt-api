@@ -12,6 +12,8 @@ virtual protected Windows.UI.Xaml.Controls.Control CreatePresenter()
 ## -description
 When overridden in a derived class, initializes a control to show the flyout content as appropriate for the derived control. Note: This method has no base class implementation and must be overridden in a derived class.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.CreatePresenter](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.createpresenter).
+
 ## -returns
 The control that displays the content of the flyout.
 

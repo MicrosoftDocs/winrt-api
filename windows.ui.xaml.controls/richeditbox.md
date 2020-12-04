@@ -13,6 +13,8 @@ public class RichEditBox : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Con
 
 Represents a rich text editing control that supports formatted text, hyperlinks, and other rich content.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RichEditBox](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox).
+
 ## -xaml-syntax
 
 ```xaml

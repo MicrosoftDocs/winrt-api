@@ -13,6 +13,8 @@ public int RichEditTextRange.Move(TextRangeUnit unit, Int32 count)
 
 Moves the insertion point forward or backward by the specified number of _unit_s. If the text range is nondegenerate, it is collapsed to an insertion point at the start or end position of the text range, depending on _count_, and then is moved.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.Move](/windows/winui/api/microsoft.ui.text.richedittextrange.move).
+
 ## -parameters
 ### -param unit
 

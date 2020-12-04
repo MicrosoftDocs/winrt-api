@@ -12,6 +12,8 @@ public Windows.UI.Text.FontWeight FontWeight { get;  set; }
 ## -description
 Gets or sets the top-level font weight to select from the font family for the content in this element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.FontWeight](/windows/winui/api/microsoft.ui.xaml.documents.textelement.fontweight).
+
 ## -xaml-syntax
 ```xaml
 <textElement FontWeight="fontWeightsValue"/>

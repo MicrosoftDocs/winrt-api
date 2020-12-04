@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.AutomationFlowDirections : int
 ## -description
 Defines the direction of flow.
 
+Equivalent WinUI enum: [AutomationFlowDirections](/windows/winui/api/microsoft.ui.xaml.automation.automationflowdirections).
+
 ## -enum-fields
 ### -field Default:0
 Flow is in the default direction.

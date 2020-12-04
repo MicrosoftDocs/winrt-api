@@ -13,6 +13,8 @@ public Windows.Foundation.Point GetPosition(Windows.UI.Xaml.UIElement relativeTo
 
 Returns the x- and y-coordinates of the pointer position, optionally evaluated against a coordinate origin of a supplied [UIElement](../windows.ui.xaml/uielement.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.HoldingRoutedEventArgs.GetPosition](/windows/winui/api/microsoft.ui.xaml.input.holdingroutedeventargs.getposition).
+
 ## -parameters
 
 ### -param relativeTo

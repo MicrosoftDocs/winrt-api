@@ -13,6 +13,8 @@ public Windows.UI.Color LightSkyBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FF87CEFA.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.LightSkyBlue](/windows/winui/api/microsoft.ui.colors.lightskyblue).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF87CEFA.

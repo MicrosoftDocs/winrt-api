@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness CalendarItemBorderThickness { get;  set; }
 ## -description
 Gets or sets the thickness of a calendar item's border.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarItemBorderThickness](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.calendaritemborderthickness).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView CalendarItemBorderThickness="uniform"/>

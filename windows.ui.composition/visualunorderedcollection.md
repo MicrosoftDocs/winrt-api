@@ -12,6 +12,8 @@ public class VisualUnorderedCollection : Windows.UI.Composition.CompositionObjec
 ## -description
 An unordered collection of visuals.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.VisualUnorderedCollection](/windows/winui/api/microsoft.ui.composition.visualunorderedcollection).
+
 ## -remarks
 
 ## -examples

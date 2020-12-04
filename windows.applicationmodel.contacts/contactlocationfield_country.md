@@ -10,10 +10,11 @@ public string Country { get; }
 # Windows.ApplicationModel.Contacts.ContactLocationField.Country
 
 ## -description
-> [!NOTE]
-> [ContactLocationField](contactlocationfield.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactAddress](contactaddress.md).
 
 Gets the contact's country.
+
+> [!NOTE]
+> [ContactLocationField](contactlocationfield.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactAddress](contactaddress.md).
 
 ## -property-value
 The contact's country.

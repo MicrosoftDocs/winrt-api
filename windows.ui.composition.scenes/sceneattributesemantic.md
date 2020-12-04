@@ -14,6 +14,8 @@ public enum SceneAttributeSemantic : int
 
 Defines constants that specify scene attribute semantics.
 
+Equivalent WinUI enum: [Microsoft.UI.Composition.Scenes.SceneAttributeSemantic](/windows/winui/api/microsoft.ui.composition.scenes.sceneattributesemantic).
+
 ## -enum-fields
 
 ### -field Color:5

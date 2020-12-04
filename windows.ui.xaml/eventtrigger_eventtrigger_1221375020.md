@@ -12,6 +12,8 @@ public EventTrigger()
 ## -description
 Initializes a new instance of the [EventTrigger](eventtrigger.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.EventTrigger.EventTrigger](/windows/winui/api/microsoft.ui.xaml.eventtrigger.#ctor).
+
 ## -remarks
 
 ## -examples

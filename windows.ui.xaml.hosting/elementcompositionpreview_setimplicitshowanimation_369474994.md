@@ -13,6 +13,8 @@ public void ElementCompositionPreview.SetImplicitShowAnimation(UIElement element
 
 Associates the specified show animation with a UIElement.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Hosting.ElementCompositionPreview.SetImplicitShowAnimation](/windows/winui/api/microsoft.ui.xaml.hosting.elementcompositionpreview.setimplicitshowanimation).
+
 ## -parameters
 
 ### -param element

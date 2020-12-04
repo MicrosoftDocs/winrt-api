@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Transform GeometryTransform { get; }
 ## -description
 Gets a value that represents a [Transform](../windows.ui.xaml.media/transform.md) that is applied to the geometry of a [Shape](shape.md) before it is drawn.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.GeometryTransform](/windows/winui/api/microsoft.ui.xaml.shapes.shape.geometrytransform).
+
 ## -xaml-syntax
 ```xaml
 <object>

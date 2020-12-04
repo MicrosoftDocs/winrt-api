@@ -13,6 +13,8 @@ public bool RichEditTextRange.InRange(ITextRange range)
 
 Determines whether this range is in or at the same text as a specified range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.InRange](/windows/winui/api/microsoft.ui.text.richedittextrange.inrange).
+
 ## -parameters
 ### -param range
 

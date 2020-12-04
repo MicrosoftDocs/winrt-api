@@ -12,6 +12,8 @@ public void CompleteViewChangeFrom(Windows.UI.Xaml.Controls.SemanticZoomLocation
 ## -description
 Completes item-wise operations that are related to a view change when the [ListViewBase](listviewbase.md) instance is the source view and the new view is a potentially different implementing view.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.CompleteViewChangeFrom](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.completeviewchangefrom).
+
 ## -parameters
 ### -param source
 The view item as represented in the source view.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection Transitions { get;  
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to a [UIElement](uielement.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Transitions](/windows/winui/api/microsoft.ui.xaml.uielement.transitions).
+
 ## -xaml-syntax
 ```xaml
 <uielement>

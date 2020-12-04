@@ -14,6 +14,8 @@ public Shadow Shadow { get;  set; }
 
 Gets or sets the shadow effect cast by the element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Shadow](/windows/winui/api/microsoft.ui.xaml.uielement.shadow).
+
 ## -property-value
 
 The shadow effect cast by the element.

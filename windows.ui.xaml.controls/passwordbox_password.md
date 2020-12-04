@@ -12,6 +12,8 @@ public string Password { get;  set; }
 ## -description
 Gets or sets the password currently held by the [PasswordBox](passwordbox.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.Password](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.password).
+
 ## -xaml-syntax
 ```xaml
 <PasswordBox Password="string"/>

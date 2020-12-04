@@ -13,6 +13,8 @@ public class DesktopWindowXamlSource : IClosable
 ## -description
 Enables a non-UWP desktop application (for example, a WPF or Windows Forms application) to host UWP controls in any UI element that is associated with a window handle (HWND).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Hosting.DesktopWindowXamlSource](/windows/winui/api/microsoft.ui.xaml.hosting.desktopwindowxamlsource).
+
 ## -remarks
 
 **DesktopWindowXamlSource** is the main class in the *UWP XAML hosting API*. This API enables non-UWP desktop applications to host any control that derives from [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md)) in a UI element that is associated with a window handle (HWND). This API can be used by desktop applications built using WPF, Windows Forms, and the Windows API (Win32). For more information, see [Using the UWP XAML hosting API in a desktop application](/windows/uwp/xaml-platform/using-the-xaml-hosting-api).

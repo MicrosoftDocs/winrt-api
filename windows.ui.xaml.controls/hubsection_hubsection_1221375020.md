@@ -12,6 +12,8 @@ public HubSection()
 ## -description
 Initializes a new instance of the [HubSection](hubsection.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.HubSection.HubSection](/windows/winui/api/microsoft.ui.xaml.controls.hubsection.#ctor).
+
 ## -remarks
 
 ## -examples

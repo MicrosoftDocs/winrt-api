@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ItemTemplateProperty { get; }
 ## -description
 Identifies the [ItemTemplate](listpickerflyout_itemtemplate.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.ItemTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.itemtemplateproperty).
+
 ## -property-value
 The identifier for the [ItemTemplate](listpickerflyout_itemtemplate.md) dependency property.
 

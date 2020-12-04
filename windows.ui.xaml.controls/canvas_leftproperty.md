@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LeftProperty { get; }
 ## -description
 Identifies the [Canvas.Left](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Canvas.LeftProperty](/windows/winui/api/microsoft.ui.xaml.controls.canvas.leftproperty).
+
 ## -property-value
 The identifier for the [Canvas.Left](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property.
 

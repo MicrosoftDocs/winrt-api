@@ -13,6 +13,8 @@ public void CompositionColorGradientStopCollection.InsertAt(UInt32 index, Compos
 
 Inserts the specified item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.InsertAt](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.insertat).
+
 ## -parameters
 ### -param index
 

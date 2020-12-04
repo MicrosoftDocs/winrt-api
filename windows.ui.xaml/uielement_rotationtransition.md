@@ -13,6 +13,8 @@ public ScalarTransition RotationTransition { get;  set; }
 ## -description
 Gets or sets the ScalarTransition that animates changes to the Rotation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.RotationTransition](/windows/winui/api/microsoft.ui.xaml.uielement.rotationtransition).
+
 ## -property-value
 
 The ScalarTransition that animates changes to the Rotation property.

@@ -12,6 +12,8 @@ public void SetPropertyFromString(System.Object dependencyObject, Windows.UI.Xam
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [String](/dotnet/api/system.string?redirectedfrom=MSDN) value.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromString](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromstring).
+
 ## -parameters
 ### -param dependencyObject
 The object to which the property being set belongs.

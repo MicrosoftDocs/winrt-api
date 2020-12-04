@@ -14,6 +14,8 @@ Arguments for the [IInteractionTrackerOwner.InertiaStateEntered](iinteractiontra
 
 The [InteractionTrackerOwner.InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) class defines the accessible and up-to-date property values when [InteractionTracker](interactiontracker.md) enters the inertia state. If registered for the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) event, values of this object's properties represent the results calculated by the system at the beginning of the inertia state. Using the modified and natural resting positions helps enables scenarios such as scrolling virtualization.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaStateEnteredArgs](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiastateenteredargs).
+
 ## -remarks
 
 ### Version history

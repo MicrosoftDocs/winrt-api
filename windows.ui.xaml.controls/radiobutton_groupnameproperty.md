@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty GroupNameProperty { get; }
 ## -description
 Identifies the [GroupName](radiobutton_groupname.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RadioButton.GroupNameProperty](/windows/winui/api/microsoft.ui.xaml.controls.radiobutton.groupnameproperty).
+
 ## -property-value
 The identifier for [GroupName](radiobutton_groupname.md) dependency property.
 

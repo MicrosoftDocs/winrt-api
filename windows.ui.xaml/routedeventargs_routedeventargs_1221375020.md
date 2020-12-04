@@ -12,6 +12,8 @@ public RoutedEventArgs()
 ## -description
 Initializes a new instance of the [RoutedEventArgs](routedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.RoutedEventArgs.RoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.routedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

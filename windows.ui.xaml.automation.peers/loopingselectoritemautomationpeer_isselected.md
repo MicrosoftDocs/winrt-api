@@ -12,6 +12,8 @@ public bool IsSelected { get; }
 ## -description
 Gets a value that indicates whether an item is selected.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer.IsSelected](/windows/winui/api/microsoft.ui.xaml.automation.peers.loopingselectoritemautomationpeer.isselected).
+
 ## -property-value
 **true** if the element is selected; otherwise, **false**.
 

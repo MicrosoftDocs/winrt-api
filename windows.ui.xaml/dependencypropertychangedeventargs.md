@@ -12,6 +12,8 @@ public class DependencyPropertyChangedEventArgs : Windows.UI.Xaml.IDependencyPro
 ## -description
 Provides data for a [PropertyChangedCallback](propertychangedcallback.md) implementation that is invoked when a dependency property changes its value. Also provides event data for the [Control.IsEnabledChanged](../windows.ui.xaml.controls/control_isenabledchanged.md) event and any other event that uses the [DependencyPropertyChangedEventHandler](dependencypropertychangedeventhandler.md) delegate.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.dependencypropertychangedeventargs).
+
 ## -remarks
 DependencyPropertyChangedEventArgs provides data for two different situations that involve changes to dependency property values:
 + Situational callback information as used by a [PropertyChangedCallback](propertychangedcallback.md) for a custom dependency property. This is the more common case.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ItemHeightProperty { get; }
 ## -description
 Identifies the [ItemHeight](loopingselector_itemheight.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.ItemHeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.itemheightproperty).
+
 ## -property-value
 The identifier for the [ItemHeight](loopingselector_itemheight.md) dependency property.
 

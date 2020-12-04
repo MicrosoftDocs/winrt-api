@@ -13,6 +13,8 @@ public class RelativePanel : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.Con
 ## -description
 Defines an area within which you can position and align child objects in relation to each other or the parent panel.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RelativePanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel).
+
 ## -xaml-syntax
 ```xaml
 <RelativePanel ...>

@@ -12,6 +12,8 @@ public class CompositionDrawingSurface : Windows.UI.Composition.CompositionObjec
 ## -description
 A drawing surface for interoperation with Direct2D or Direct3D.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionDrawingSurface](/windows/winui/api/microsoft.ui.composition.compositiondrawingsurface).
+
 ## -remarks
 
 ### Version history

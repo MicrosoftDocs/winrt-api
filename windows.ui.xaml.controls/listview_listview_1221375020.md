@@ -12,6 +12,8 @@ public ListView()
 ## -description
 Initializes a new instance of the [ListView](listview.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ListView.ListView](/windows/winui/api/microsoft.ui.xaml.controls.listview.#ctor).
+
 ## -remarks
 
 ## -examples

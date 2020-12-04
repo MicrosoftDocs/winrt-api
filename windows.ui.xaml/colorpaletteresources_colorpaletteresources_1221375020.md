@@ -14,6 +14,8 @@ public ColorPaletteResources.ColorPaletteResources()
 
 Initializes a new instance of the [ColorPaletteResources](colorpaletteresources.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.ColorPaletteResources.ColorPaletteResources](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.#ctor).
+
 ## -remarks
 
 ## -see-also

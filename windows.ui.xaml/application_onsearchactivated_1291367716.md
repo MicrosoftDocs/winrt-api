@@ -12,6 +12,8 @@ virtual protected void OnSearchActivated(Windows.ApplicationModel.Activation.Sea
 ## -description
 Invoked when the application is activated through a search association.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Application.OnSearchActivated](/windows/winui/api/microsoft.ui.xaml.application.onsearchactivated).
+
 ## -parameters
 ### -param args
 Event data for the event.

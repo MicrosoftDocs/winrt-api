@@ -13,6 +13,8 @@ public Vector2 Start { get;  set; }
 
 Gets or sets the starting point of the line.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionLineGeometry.Start](/windows/winui/api/microsoft.ui.composition.compositionlinegeometry.start).
+
 ## -property-value
 
 The starting point of the line.

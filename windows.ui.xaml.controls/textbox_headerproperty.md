@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HeaderProperty { get; }
 ## -description
 Identifies the [Header](textbox_header.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.HeaderProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.headerproperty).
+
 ## -property-value
 The identifier for the [Header](textbox_header.md) dependency property.
 

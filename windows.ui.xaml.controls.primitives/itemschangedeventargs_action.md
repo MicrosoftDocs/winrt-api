@@ -12,6 +12,8 @@ public int Action { get; }
 ## -description
 Gets the action that occurred on the items collection.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.Action](/windows/winui/api/microsoft.ui.xaml.controls.primitives.itemschangedeventargs.action).
+
 ## -property-value
 The action that occurred.
 

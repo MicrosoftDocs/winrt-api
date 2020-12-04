@@ -13,6 +13,8 @@ public XamlSourceFocusNavigationReason Reason { get; }
 ## -description
 Gets a [XamlSourceFocusNavigationReason](xamlsourcefocusnavigationreason.md) value that indicates the reason for the navigation request.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Hosting.XamlSourceFocusNavigationRequest.Reason](/windows/winui/api/microsoft.ui.xaml.hosting.xamlsourcefocusnavigationrequest.reason).
+
 ## -property-value
 A value that indicates the reason for the navigation request. 
 

@@ -12,6 +12,8 @@ public double Value { get; }
 ## -description
 Gets the value of the control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Value](/windows/winui/api/microsoft.ui.xaml.automation.peers.rangebaseautomationpeer.value).
+
 ## -property-value
 The value of the control.
 

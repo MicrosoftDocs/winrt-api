@@ -12,6 +12,8 @@ public DiscretePointKeyFrame()
 ## -description
 Initializes a new instance of the [DiscretePointKeyFrame](discretepointkeyframe.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DiscretePointKeyFrame.DiscretePointKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.discretepointkeyframe.#ctor).
+
 ## -remarks
 
 ## -examples

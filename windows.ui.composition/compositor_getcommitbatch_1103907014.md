@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionCommitBatch GetCommitBatch(Windows.UI.C
 ## -description
 Retrieves a commit batch for the current commit cycle.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.GetCommitBatch](/windows/winui/api/microsoft.ui.composition.compositor.getcommitbatch).
+
 ## -parameters
 ### -param batchType
 The batch type.

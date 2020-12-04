@@ -13,6 +13,8 @@ public class ConnectedAnimationConfiguration
 ## -description
 An object that describes the type of animation to play during a connected animation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimationConfiguration](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimationconfiguration).
+
 ## -remarks
 
 ## -see-also

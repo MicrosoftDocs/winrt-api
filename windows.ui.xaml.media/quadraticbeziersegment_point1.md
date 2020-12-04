@@ -12,6 +12,8 @@ public Windows.Foundation.Point Point1 { get;  set; }
 ## -description
 Gets or sets the control point of the curve.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.QuadraticBezierSegment.Point1](/windows/winui/api/microsoft.ui.xaml.media.quadraticbeziersegment.point1).
+
 ## -xaml-syntax
 ```xaml
 <QuadraticBezierSegment Point1="x,y"/>

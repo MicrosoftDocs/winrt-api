@@ -12,6 +12,8 @@ public ManipulationCompletedRoutedEventArgs()
 ## -description
 Initializes a new instance of the [ManipulationCompletedRoutedEventArgs](manipulationcompletedroutedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs.ManipulationCompletedRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.manipulationcompletedroutedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public void RemoveFromSelection()
 ## -description
 Removes the current element from the collection of selected items.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.RemoveFromSelection](/windows/winui/api/microsoft.ui.xaml.automation.peers.radiobuttonautomationpeer.removefromselection).
+
 ## -remarks
 
 ## -examples

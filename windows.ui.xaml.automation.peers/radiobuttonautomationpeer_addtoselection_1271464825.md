@@ -12,6 +12,8 @@ public void AddToSelection()
 ## -description
 Adds the current element to the collection of selected items.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.AddToSelection](/windows/winui/api/microsoft.ui.xaml.automation.peers.radiobuttonautomationpeer.addtoselection).
+
 ## -remarks
 
 ## -examples

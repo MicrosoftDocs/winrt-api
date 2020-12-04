@@ -12,6 +12,8 @@ public Windows.UI.Composition.Interactions.VisualInteractionSourceRedirectionMod
 ## -description
 Indicates what input should be redirected to the InteractionTracker.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.ManipulationRedirectionMode](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.manipulationredirectionmode).
+
 ## -property-value
 Indicates what input should be redirected to the InteractionTracker.
 

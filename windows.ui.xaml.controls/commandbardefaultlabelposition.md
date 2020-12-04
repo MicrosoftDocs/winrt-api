@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.CommandBarDefaultLabelPosition : int
 ## -description
 Defines constants that specify the placement and visibility of [AppBarButton](appbarbutton.md) labels in a [CommandBar](commandbar.md).
 
+Equivalent WinUI enum: [CommandBarDefaultLabelPosition](/windows/winui/api/microsoft.ui.xaml.controls.commandbardefaultlabelposition).
+
 ## -enum-fields
 ### -field Bottom:0
 App bar button labels are shown below the icon. Labels are visible only when the command bar is open.

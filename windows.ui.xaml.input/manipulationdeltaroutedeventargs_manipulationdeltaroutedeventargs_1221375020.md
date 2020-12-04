@@ -12,6 +12,8 @@ public ManipulationDeltaRoutedEventArgs()
 ## -description
 Initializes a new instance of the [ManipulationDeltaRoutedEventArgs](manipulationdeltaroutedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.ManipulationDeltaRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.manipulationdeltaroutedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

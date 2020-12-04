@@ -12,6 +12,8 @@ protected Timeline()
 ## -description
 Provides base class initialization behavior for [Timeline](timeline.md)-derived classes.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.Timeline.Timeline](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.#ctor).
+
 ## -remarks
 
 ## -examples

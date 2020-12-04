@@ -12,6 +12,8 @@ public class UIElementCollection : Windows.Foundation.Collections.IIterable<Wind
 ## -description
 Represents an ordered collection of [UIElement](../windows.ui.xaml/uielement.md) objects.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.UIElementCollection](/windows/winui/api/microsoft.ui.xaml.controls.uielementcollection).
+
 ## -xaml-syntax
 ```xaml
 <panelobject>

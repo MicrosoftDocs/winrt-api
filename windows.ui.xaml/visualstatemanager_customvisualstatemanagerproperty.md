@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CustomVisualStateManagerProperty { get
 ## -description
 Identifies the **VisualStateManager.CustomVisualStateManager** dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.VisualStateManager.CustomVisualStateManagerProperty](/windows/winui/api/microsoft.ui.xaml.visualstatemanager.customvisualstatemanagerproperty).
+
 ## -property-value
 The identifier for the **VisualStateManager.CustomVisualStateManager** dependency property.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LightDismissOverlayModeProperty { get;
 ## -description
 Identifies the [LightDismissOverlayMode](flyoutbase_lightdismissoverlaymode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.LightDismissOverlayModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.lightdismissoverlaymodeproperty).
+
 ## -property-value
 The identifier for the [LightDismissOverlayMode](flyoutbase_lightdismissoverlaymode.md) dependency property.
 

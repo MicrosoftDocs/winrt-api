@@ -13,6 +13,8 @@ public void XamlDirect.AddEventHandler(IXamlDirectObject xamlDirectObject, XamlE
 ## -description
 Adds the specified event handler for a specified event using [XamlEventIndex](xamleventindex.md), adding the handler to the handler collection on the current [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.AddEventHandler](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.addeventhandler).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the current [IXamlDirectObject](ixamldirectobject.md).

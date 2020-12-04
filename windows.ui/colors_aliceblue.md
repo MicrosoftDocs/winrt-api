@@ -13,6 +13,8 @@ public Windows.UI.Color AliceBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FFF0F8FF.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.AliceBlue](/windows/winui/api/microsoft.ui.colors.aliceblue).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFF0F8FF.

@@ -12,6 +12,8 @@ public DependencyProperty OverlayInputPassThroughElementProperty { get; }
 ## -description
 Identifies the **OverlayInputPassThroughElement** dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.OverlayInputPassThroughElementProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.overlayinputpassthroughelementproperty).
+
 ## -property-value
 The identifier for the **OverlayInputPassThroughElement** dependency property.
 

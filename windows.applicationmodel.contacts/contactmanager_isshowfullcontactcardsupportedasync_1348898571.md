@@ -12,11 +12,11 @@ public IAsyncOperation<bool> ContactManager.IsShowFullContactCardSupportedAsync(
 
 ## -description
 
-Gets a Boolean value indicating if the [ShowFullContactCard](contactmanagerforuser_showfullcontactcard_2012855989.md) method is supported on the current platform.
+Gets a Boolean value that indicates whether the [ShowFullContactCard](contactmanagerforuser_showfullcontactcard_2012855989.md) method is supported on the current platform.
 
 ## -returns
 
-An asynchronous operation that returns **true** if the [ShowFullContactCard](contactmanagerforuser_showfullcontactcard_2012855989.md) method is supported on the current platform.
+An asynchronous operation that returns `true` if the [ShowFullContactCard](contactmanagerforuser_showfullcontactcard_2012855989.md) method is supported on the current platform.
 
 ## -remarks
 

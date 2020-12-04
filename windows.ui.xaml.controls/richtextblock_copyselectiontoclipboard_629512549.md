@@ -14,6 +14,8 @@ public void RichTextBlock.CopySelectionToClipboard()
 
 Copies the selected content to the Windows clipboard.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RichTextBlock.CopySelectionToClipboard](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.copyselectiontoclipboard).
+
 ## -remarks
 
 ## -see-also

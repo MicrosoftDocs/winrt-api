@@ -13,6 +13,8 @@ public CompositionContainerShape Compositor.CreateContainerShape()
 
 Creates an instance of [CompositionContainerShape](compositioncontainershape.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateContainerShape](/windows/winui/api/microsoft.ui.composition.compositor.createcontainershape).
+
 ## -returns
 
 Returns the created [CompositionContainerShape](compositioncontainershape.md) object.

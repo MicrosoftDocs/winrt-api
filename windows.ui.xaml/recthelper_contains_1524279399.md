@@ -13,6 +13,8 @@ public bool Contains(Windows.Foundation.Rect target, Windows.Foundation.Point po
 
 Returns whether a given [Point](../windows.foundation/point.md) is within the bounds of a given [Rect](../windows.foundation/rect.md), for a shared coordinate reference. C# and Microsoft Visual Basic code should use [Rect.Contains](/dotnet/api/windows.foundation.rect.contains) instead.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.RectHelper.Contains](/windows/winui/api/microsoft.ui.xaml.recthelper.contains).
+
 ## -parameters
 
 ### -param target

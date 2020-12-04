@@ -12,6 +12,8 @@ public void RequestIgnored(Windows.UI.Composition.Interactions.InteractionTracke
 ## -description
 Callback that is triggered when the [InteractionTracker](interactiontracker.md) has ignored a request.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.RequestIgnored](/windows/winui/api/microsoft.ui.composition.interactions.iinteractiontrackerowner.requestignored).
+
 ## -parameters
 ### -param sender
 The [InteractionTracker](interactiontracker.md) that triggered the callback.

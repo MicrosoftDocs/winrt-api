@@ -12,6 +12,8 @@ public void SetHorizontalScrollBarVisibility(Windows.UI.Xaml.DependencyObject el
 ## -description
 Sets the value of the [HorizontalScrollBarVisibility](scrollviewer_horizontalscrollbarvisibility.md) dependency property / `ScrollViewer.HorizontalScrollBarVisibility` XAML attached property on a specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.SetHorizontalScrollBarVisibility](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.sethorizontalscrollbarvisibility).
+
 ## -parameters
 ### -param element
 The element on which to set the property value.

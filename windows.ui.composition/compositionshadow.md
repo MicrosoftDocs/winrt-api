@@ -12,6 +12,8 @@ public class CompositionShadow : Windows.UI.Composition.CompositionObject, Windo
 ## -description
 Base class for shadows that can be applied to a [SpriteVisual](spritevisual.md).
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionShadow](/windows/winui/api/microsoft.ui.composition.compositionshadow).
+
 ## -remarks
 
 ## -examples
