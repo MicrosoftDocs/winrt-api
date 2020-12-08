@@ -16,14 +16,24 @@ This represents an [IDXGIDevice](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice),
 ## -examples
 
 ```cppwinrt
-#include "pch.h"
+// Create a new Windows Console Application (C++/WinRT) project, and
+// replace the contents of `pch.h` and `main.cpp` source code files with the code below.
+// Be aware that the code below omits the details of obtaining a WinRT Direct3DDevice in
+// the first segment of code, and obtaining a native DirectX device in the second segment.
+// The code shows only how to perform the conversion between the two.
 
+// pch.h
+#pragma once
 #include <d3d11_4.h>
 #include <Windows.Graphics.DirectX.Direct3D11.interop.h>
+#include <unknwn.h>
 
 #include <winrt/Windows.Foundation.h>
+#include <winrt/Windows.Foundation.Collections.h>
 #include <winrt/Windows.Graphics.DirectX.Direct3D11.h>
 
+// main.cpp
+#include "pch.h"
 int main()
 {
     winrt::init_apartment();
