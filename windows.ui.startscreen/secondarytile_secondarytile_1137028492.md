@@ -40,21 +40,5 @@ The size of tile to pin. This value must be **Default** (which provides WindowsÂ
 To use this object from a desktop app, create the object, and then use [the IInitializeWithWindow::Initialize method](/en-us/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) to associate the object with a window handle.
 
 ## -examples
-The following example demonstrates the use of this constructor.
-
-```javascript
-
-var uriLogo = new Windows.Foundation.Uri("ms-appx:///images/SecondaryTileDefault-sdk.png");
-var currentTime = new Date();
-var tileActivationArguments = "timeTileWasPinned=" + currentTime;
-
-var tile = new Windows.UI.StartScreen.SecondaryTile("SecondaryTile.01", 
-                                                    "Secondary Tile Sample Secondary Tile", 
-                                                    tileActivationArguments, 
-                                                    uriLogo,
-                                                    Windows.UI.StartScreen.TileSize.square150x150);
-```
-
-
 
 ## -see-also

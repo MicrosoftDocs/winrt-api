@@ -20,4 +20,4 @@ The object that provides splash screen information.
 ## -examples
 
 ## -see-also
-[SearchActivatedEventArgs class](searchactivatedeventargs.md), [SplashScreen class
+[SearchActivatedEventArgs class](searchactivatedeventargs.md), [SplashScreen class](splashscreen.md)
