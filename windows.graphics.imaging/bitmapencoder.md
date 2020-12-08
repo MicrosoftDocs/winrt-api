@@ -44,22 +44,51 @@ If you want to encode an additional frame, call [GoToNextFrameAsync](bitmapencod
 
 Here's a partial example of creating an encoder object. This example assumes you selected a file with [Windows.Storage.Pickers.FileSavePicker](../windows.storage.pickers/filesavepicker.md). For full instructions on selecting a file, creating an encoder, and encoding an image see [Imaging](/windows/uwp/audio-video-camera/imaging)
 
-```javascript
-file.openAsync(Windows.Storage.FileAccessMode.readWrite).then(function (_stream) {
-        stream = _stream;
+```csharp
+private async void SaveSoftwareBitmapToFile(SoftwareBitmap softwareBitmap, StorageFile outputFile)
+{
+    using (IRandomAccessStream stream = await outputFile.OpenAsync(FileAccessMode.ReadWrite))
+    {
+        // Create an encoder with the desired format
+        BitmapEncoder encoder = await BitmapEncoder.CreateAsync(BitmapEncoder.JpegEncoderId, stream);
 
-        var encoderId;
-        switch (fileType) {
-            case ".jpg":
-                encoderId = Windows.Graphics.Imaging.BitmapEncoder.jpegEncoderId;
-                break;
+        // Set the software bitmap
+        encoder.SetSoftwareBitmap(softwareBitmap);
+
+        // Set additional encoding parameters, if needed
+        encoder.BitmapTransform.ScaledWidth = 320;
+        encoder.BitmapTransform.ScaledHeight = 240;
+        encoder.BitmapTransform.Rotation = Windows.Graphics.Imaging.BitmapRotation.Clockwise90Degrees;
+        encoder.BitmapTransform.InterpolationMode = BitmapInterpolationMode.Fant;
+        encoder.IsThumbnailGenerated = true;
+
+        try
+        {
+            await encoder.FlushAsync();
         }
-        return Windows.Graphics.Imaging.BitmapEncoder.createAsync(encoderId, stream);
-        }).then(function (encoder) {
-
-              // Your code here.
+        catch (Exception err)
+        {
+            const int WINCODEC_ERR_UNSUPPORTEDOPERATION = unchecked((int)0x88982F81);
+            switch (err.HResult)
+            {
+                case WINCODEC_ERR_UNSUPPORTEDOPERATION: 
+                    // If the encoder does not support writing a thumbnail, then try again
+                    // but disable thumbnail generation.
+                    encoder.IsThumbnailGenerated = false;
+                    break;
+                default:
+                    throw;
+            }
         }
 
+        if (encoder.IsThumbnailGenerated == false)
+        {
+            await encoder.FlushAsync();
+        }
+
+
+    }
+}
 ```
 
 ## -see-also
