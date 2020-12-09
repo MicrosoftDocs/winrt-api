@@ -136,32 +136,6 @@ void MainPage::DefaultLaunch()
 }
 ```
 
-```javascript
-// Path to the file in the app package to launch
-var imageFile = "images\\test.png";
-
-// Get the image file from the package's image directory
-Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(imageFile).then(
-  function (file) {
-    // Set the recommended app
-    var options = new Windows.System.LauncherOptions();
-    options.preferredApplicationPackageFamilyName = "Contoso.FileApp_8wknc82po1e";
-    options.preferredApplicationDisplayName = "Contoso File App";
-
-
-    // Launch the retrieved file pass in the recommended app 
-    // in case the user has no apps installed to handle the file
-    Windows.System.Launcher.launchFileAsync(file, options).then(
-      function (success) {
-        if (success) {
-            // File launched
-        } else {
-            // File launch failed
-        }
-      });
-  });
-```
-
 ```vb
 async Sub DefaultLaunch()
 
@@ -193,4 +167,4 @@ End Sub
 ```
 
 ## -see-also
-[Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [How to launch the default app for a file (JavaScript)](/previous-versions/windows/apps/hh452687(v=win.10)), [Launch the default app for a file](/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [How to launch the default app for a URI (JavaScript)](/previous-versions/windows/apps/hh452690(v=win.10)), [Launch the default app for a URI](/windows/uwp/launch-resume/launch-default-app), [Guidelines for file types and URIs](/windows/uwp/files/index), [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md), [Launcher.LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md)
+[Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [Launch the default app for a file](/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [Launch the default app for a URI](/windows/uwp/launch-resume/launch-default-app), [Guidelines for file types and URIs](/windows/uwp/files/index), [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md), [Launcher.LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md)

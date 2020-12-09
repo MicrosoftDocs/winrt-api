@@ -86,22 +86,5 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
  });
 ```
 
-```javascript
-// Get the app's installation folder.
-var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
-
-// Get the files in the current folder.
-var results = appFolder.createFileQuery();
-
-// Iterate over the results and print the list of files
-// to the Visual Studio Output window.
-var filesInFolderPromise = results.getFilesAsync();
-filesInFolderPromise.done(function getFilesSuccess(filesInFolder) {
-    filesInFolder.forEach(function forEachFile(item) {
-        console.log(item.name);
-    });
-});
-```
-
 ## -see-also
 [CreateFileQuery(CommonFileQuery)](storagefolder_createfilequery_1641434999.md), [CreateFileQueryWithOptions](storagefolder_createfilequerywithoptions_2038131323.md)

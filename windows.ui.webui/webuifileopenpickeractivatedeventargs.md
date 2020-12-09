@@ -34,7 +34,7 @@ This object is accessed when you implement an event handler for the [WinJS.Appli
 
 ## -examples
 
-The [File picker sample](/samples/browse/) demonstrates how to respond to a [fileOpenPicker](../windows.applicationmodel.activation/activationkind.md) activated event.
+The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) demonstrates how to respond to a [fileOpenPicker](../windows.applicationmodel.activation/activationkind.md) activated event.
 
 ```javascript
 
@@ -64,4 +64,4 @@ For JavaScript, `eventObject` contains a webUIFileOpenPickerActivatedEventArgs o
 
 ## -see-also
 
-[Quickstart: Providing file services through ](/previous-versions/windows/apps/hh465192(v=win.10)), [File picker provider sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)
+[Quickstart: Providing file services through ](/previous-versions/windows/apps/hh465192(v=win.10)), [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)

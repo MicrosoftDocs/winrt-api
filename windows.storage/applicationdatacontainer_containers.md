@@ -20,4 +20,5 @@ The application settings containers.
 ## -examples
 
 ## -see-also
-[Quickstart: Local application data (JavaScript)](/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data), [Quickstart: Roaming application data (JavaScript)](/previous-versions/windows/apps/hh465123(v=win.10)), [Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data), [Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data)
+
+[Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data)

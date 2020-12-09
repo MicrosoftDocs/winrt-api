@@ -19,18 +19,10 @@ The new stroke.
 ## -remarks
 This method must be used with [AddStroke](inkmanager_addstroke_367978361.md) ([InkManager](inkmanager.md)) or [AddStroke](inkstrokecontainer_addstroke_367978361.md) ([InkStrokeContainer](inkstrokecontainer.md)).
 
-```javascript
-
-inkStrokeContainer.AddStroke(stroke.Clone());
-inkManager.AddStroke(stroke.Clone());
-```
-
 ```csharp
 inkStrokeContainer.AddStroke(stroke.Clone());
 inkManager.AddStroke(stroke.Clone());
 ```
-
-
 
 ## -examples
 

@@ -11,10 +11,10 @@ public void Complete()
 # Windows.Storage.Pickers.Provider.PickerClosingDeferral.Complete
 
 ## -description
-Signals that the app providing files has finished responding to a [closing](fileopenpickerui_closing.md) event.
+Signals that the app providing files has finished responding to a [Closing](fileopenpickerui_closing.md) event.
 
 ## -remarks
-Calling this method will complete the request even if [getDeferral](targetfilerequest_getdeferral_254836512.md) has been called multiple times.
+Calling this method will complete the request even if [GetDeferral](targetfilerequest_getdeferral_254836512.md) has been called multiple times.
 
 ## -examples
 

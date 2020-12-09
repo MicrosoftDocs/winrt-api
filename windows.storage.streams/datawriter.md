@@ -23,14 +23,4 @@ See the code example in the [DataReader](datareader.md) topic.
 
 ## -see-also
 
-[Serializing and deserializing data sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DataReaderWriter)
-
-[File access sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess)
-
-[DatagramSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
-
-[StreamSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/StreamSocket), [Custom USB device sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620530)
-
-[DataReader](datareader.md)
-
-[DataWriterStoreOperation](datawriterstoreoperation.md)
+[Serializing and deserializing data sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DataReaderWriter), [File access sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess), [DatagramSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket), [StreamSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/StreamSocket), [Custom USB device sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620530), [DataReader](datareader.md), [DataWriterStoreOperation](datawriterstoreoperation.md)

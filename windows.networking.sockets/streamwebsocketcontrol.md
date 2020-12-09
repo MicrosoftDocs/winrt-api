@@ -69,20 +69,7 @@ clientWebSocket->Control->NoDelay = false;
 // Now you can call the ConnectAsync method to connect the StreamWebSocket.
 ```
 
-```javascript
-var clientWebSocket = new Windows.Networking.Sockets.StreamWebSocket();
-
-// Get the current setting for this option
-// This isn't required, but it shows how to get the current setting
-var currentSetting = clientWebSocket.control.noDelay; 
-
-// Set noDelay to false so that the Nagle algorithm is not disabled
-clientWebSocket.control.noDelay = false;
-   
-// Now you can call the ConnectAsync method to connect the StreamWebSocket.
-```
-
-For more information about using StreamWebSocketControl, see [How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh761447(v=win.10)) and [How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh994400(v=win.10)).
+For more information about using StreamWebSocketControl, see [How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)).
 
 ### Version history
 
@@ -97,8 +84,7 @@ For more information about using StreamWebSocketControl, see [How to use advance
 
 ## -see-also
 
-[How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh761447(v=win.10)),
-[How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh994400(v=win.10)),
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)),
 [StreamWebSocket](streamwebsocket.md),
 StreamWebSocketControl,
 [StreamWebSocketInformation](streamwebsocketinformation.md),

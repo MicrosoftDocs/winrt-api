@@ -38,15 +38,5 @@ datapackage.RequestedOperation = DataPackageOperation.Copy;
 DataPackageOperation operation = dataPackageView.RequestedOperation;
 ```
 
-```javascript
-// find out what the requested operation is
-var operation = dataPackage.requestedOperation;
-
-// Request a copy operation from targets that support different file operations, like Windows Explorer
-dataPackage.requestedOperation = Windows.ApplicationModel.DataTransfer.DataPackageOperation.copy;
-```
-
-
-
 ## -see-also
 [DataPackageOperation](datapackageoperation.md)

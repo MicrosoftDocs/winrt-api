@@ -32,9 +32,9 @@ Security concerns can exist when upload operations require a username and passwo
 If the authentication model is not supported by **WinINet**, use [HttpClient](../windows.web.http/httpclient.md) to implement custom authentication and obtain an upload-specific secure token (cookie). Set the appropriate header to have the secure token value used for background transfer. The service should limit the validity of the secure token only to the file that is being uploaded. 
 
 > [!NOTE]
-> The secure token will be stored in clear text within the application’s folder.
+> The secure token will be stored in clear text within the application's folder.
 
-Upload services that require the username and password be set in clear text in a custom header for each upload file are insecure. Background transfer will cache the headers in clear text for the duration of the operation within the app’s folder.
+Upload services that require the username and password be set in clear text in a custom header for each upload file are insecure. Background transfer will cache the headers in clear text for the duration of the operation within the app's folder.
 
 **Toast notifications**
 
@@ -82,30 +82,6 @@ To work around this issue, completely uninstall all versions of the app and re-d
 ## -examples
 
 The following example demonstrates how to configure and begin a basic upload operation.
-
-```javascript
-        var upload = null;
-        var promise = null;
-
-        function UploadFile (uriString, file) {
-            try {
-
-                var uri = Windows.Foundation.Uri(uriString);
-                var uploader = new Windows.Networking.BackgroundTransfer.BackgroundUploader();
-
-                // Set a header, so the server can save the file (this is specific to the sample server).
-                uploader.setRequestHeader("Filename", file.name);
-
-                // Create a new upload operation.
-                upload = uploader.createUpload(uri, file);
-
-                // Start the upload and persist the promise to be able to cancel the upload.
-                promise = upload.startAsync().then(complete, error, progress);
-            } catch (err) {
-                displayError(err);
-            }
-        };
-```
 
 ```csharp
 

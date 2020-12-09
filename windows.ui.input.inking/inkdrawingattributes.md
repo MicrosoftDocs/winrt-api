@@ -29,20 +29,6 @@ InkDrawingAttributes can be set globally through the [SetDefaultDrawingAttribute
 ## -examples
 The following example demonstrates how to set a default drawing attribute for all strokes managed by an [InkManager](inkmanager.md) object (`inkManager`).
 
-```javascript
-
-var inkManager = new Windows.UI.Input.Inking.InkManager();
-var drawingAttributes = 
-     new Windows.UI.Input.Inking.InkDrawingAttributes();
-// True is the Default value for fitToCurve.
-drawingAttributes.fitToCurve = false;
-// Set color to red (default is black).
-drawingAttributes.color = 
-     Windows.UI.ColorHelper.fromArgb(255, 255, 0, 0); 
-inkManager.setDefaultDrawingAttributes(drawingAttributes);
-
-```
-
 ```csharp
 // Create the InkManager instance.
 Windows.UI.Input.Inking.InkManager inkManager = 
@@ -61,16 +47,6 @@ The following example demonstrates how to set a drawing attribute for a specific
 
 > [!NOTE]
 > You cannot set the [DrawingAttributes](inkstroke_drawingattributes.md) property of the stroke directly. You must create a copy of the InkDrawingAttributes of the stroke, set the desired values for that InkDrawingAttributes object, and then assign the new InkDrawingAttributes to the [DrawingAttributes](inkstroke_drawingattributes.md) of the stroke, as shown here.
-
-```javascript
-inkManager.getStrokes().forEach(function (stroke)
-{
-  var drawingAttributes = stroke.drawingAttributes;
-  drawingAttributes.penTip = 
-       Windows.UI.Input.Inking.PenTipShape.rectangle;
-  stroke.drawingAttributes = drawingAttributes;
-}
-```
 
 ```csharp
 // Get the InkStroke objects.

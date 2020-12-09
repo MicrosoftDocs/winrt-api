@@ -36,30 +36,6 @@ However, if Microsoft Visual Studio project updates, like changes to the app man
 ## -examples
 The following example demonstrates how to configure and begin a basic upload operation.
 
-```javascript
-        var upload = null;
-        var promise = null;
-
-        function UploadFile (uriString, file) {
-            try {
-
-                var uri = Windows.Foundation.Uri(uriString);
-                var uploader = new Windows.Networking.BackgroundTransfer.BackgroundUploader();
-
-                // Set a header, so the server can save the file (this is specific to the sample server).
-                uploader.setRequestHeader("Filename", file.name);
-
-                // Create a new upload operation.
-                upload = uploader.createUpload(uri, file);
-
-                // Start the upload and persist the promise to be able to cancel the upload.
-                promise = upload.startAsync().then(complete, error, progress);
-            } catch (err) {
-                displayError(err);
-            }
-        };
-```
-
 ```csharp
 
         using Windows.Foundation; 
@@ -90,8 +66,6 @@ The following example demonstrates how to configure and begin a basic upload ope
             }
         }
 ```
-
-
 
 ## -see-also
 [Quickstart: Upload a file](/previous-versions/windows/apps/hh700372(v=win.10)), [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer), [Background transfer sample (Windows 8.x)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)

@@ -16,7 +16,7 @@ Fires when the user closes the file picker.
 ## -remarks
 As a provider of files, you can register for this event so that your app can execute cleanup tasks before it is closed. For example, if the user cancels the file picker, you could respond by cleaning up temporary files that were added to the file picker when the user chose them.
 
-Register for this event by adding an event listener to the [fileOpenPickerUI](fileopenpickerui.md) and assigning a handler function for the event. You can access information about the event from the [pickerClosingEventArgs](pickerclosingeventargs.md) object that is passed to your event handler.
+Register for this event by adding an event listener to the [FileOpenPickerUI](fileopenpickerui.md) and assigning a handler function for the event. You can access information about the event from the [PickerClosingEventArgs](pickerclosingeventargs.md) object that is passed to your event handler.
 
 ## -examples
 

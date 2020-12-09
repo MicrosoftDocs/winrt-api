@@ -17,7 +17,7 @@ Gets or sets the [IStorageFile](../windows.storage/istoragefile.md) object that 
 The object that represents the file to save. The app that called the file picker in order to save will write content to this file.
 
 ## -remarks
-If your app (as the provider of the save location) can't provide an object for the file to save, set this property to **null**. Unless the user selects an existing file to save, your app should create a [storageFile](../windows.storage/storagefile.md) object to represent the file sets this property to that object.
+If your app (as the provider of the save location) can't provide an object for the file to save, set this property to **null**. Unless the user selects an existing file to save, your app should create a [StorageFile](../windows.storage/storagefile.md) object to represent the file sets this property to that object.
 
 The file name and extension of the object that represents the file to save must match the file name and extension specified by the user (and accessible through the [FileName](filesavepickerui_filename.md) property) or the attempt to save the file will fail. If the attempt fails, the user can try to save the file again.
 

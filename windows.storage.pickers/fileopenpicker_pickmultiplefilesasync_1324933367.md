@@ -23,4 +23,4 @@ When the call to this method completes successfully, it returns a [filePickerSel
 
 
 ## -see-also
-[File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with ](/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker class](fileopenpicker.md), [filePickerSelectedFilesArray class](filepickerselectedfilesarray.md), [Windows.Storage.storageFile class](../windows.storage/storagefile.md)
+[File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers), [fileOpenPicker class](fileopenpicker.md), [filePickerSelectedFilesArray class](filepickerselectedfilesarray.md), [Windows.Storage.storageFile class](../windows.storage/storagefile.md)

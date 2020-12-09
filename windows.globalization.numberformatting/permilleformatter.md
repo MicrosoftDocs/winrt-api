@@ -20,57 +20,6 @@ Formats and parses permillages.
 
 ## -examples
 
-```javascript
-// This scenario uses the Windows.Globalization.NumberFormatting.PercentFormatter and
-// the Windows.Globalization.NumberFormatting.PermilleFormatter classes to format numbers
-// as a percent or a permille.
-
-// Create formatters initialized using the current user's preference settings.
-var percentFormat = new Windows.Globalization.NumberFormatting.PercentFormatter();
-var permilleFormat = new Windows.Globalization.NumberFormatting.PermilleFormatter();
-
-// Make a random number.
-var randomNumber = Math.random();
-
-// Format with current user preferences.
-var percent = percentFormat.format(randomNumber);
-var permille = permilleFormat.format(randomNumber);
-
-// Get a fixed number.
-var fixedNumber = 500;
-
-// Format with grouping using default.
-var percentFormat1 = new Windows.Globalization.NumberFormatting.PercentFormatter();
-percentFormat1.isGrouped = true;
-var percent1 = percentFormat1.format(fixedNumber);
-
-// Format with grouping using French.
-var percentFormatFR = new Windows.Globalization.NumberFormatting.PercentFormatter(["fr-FR"], "FR");
-percentFormatFR.isGrouped = true;
-var percentFR = percentFormatFR.format(fixedNumber);
-
-// Format with no fractional digits using default.
-var percentFormat2 = new Windows.Globalization.NumberFormatting.PercentFormatter();
-percentFormat2.fractionDigits = 0;
-var percent2 = percentFormat2.format(fixedNumber);
-
-// Format always with a decimal point.
-var percentFormat3 = new Windows.Globalization.NumberFormatting.PercentFormatter();
-percentFormat3.isDecimalPointAlwaysDisplayed = true;
-percentFormat3.fractionDigits = 0;
-var percent3 = percentFormat3.format(fixedNumber);
-
-// Display the results.
-var results = "Random number (" + randomNumber + ")\n" +
-              "Percent formatted: " + percent + "\n" +
-              "Permille formatted: " + permille + "\n\n" +
-              "Fixed number (" + fixedNumber + ")\n" +
-              "Percent formatted (grouped): " + percent1 + "\n" +
-              "Percent formatted (grouped as fr-FR): " + percentFR + "\n" +
-              "Percent formatted (no fractional digits): " + percent2 + "\n" +
-              "Percent formatted (always with a decimal point): " + percent3;
-```
-
 ```csharp
 // This scenario uses the Windows.Globalization.NumberFormatting.PercentFormatter and
 // the Windows.Globalization.NumberFormatting.PermilleFormatter classes to format numbers

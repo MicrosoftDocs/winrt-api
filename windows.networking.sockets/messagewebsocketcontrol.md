@@ -73,20 +73,7 @@ clientWebSocket->Control->MessageType = SocketMessageType::Binary;
 // Now you can call the ConnectAsync method to connect the MessageWebSocket.
 ```
 
-```javascript
-var clientWebSocket = new Windows.Networking.Sockets.MessageWebSocket();
-
-// Get the current setting for this option
-// This isn't required, but it shows how to get the current setting
-var currentSetting = clientWebSocket.control.messageType;
-
-// Set messageType to binary 
-clientWebSocket.control.messageType = Windows.Networking.Sockets.SocketMessageType.binary;
-   
-// Now you can call the ConnectAsync method to connect the MessageWebSocket.
-```
-
-For more information on using MessageWebSocketControl, see [How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh761447(v=win.10)) and [How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh994400(v=win.10)).
+For more information on using MessageWebSocketControl, see [How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)).
 
 ### Version history
 
@@ -101,8 +88,8 @@ For more information on using MessageWebSocketControl, see [How to use advanced 
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh761447(v=win.10)),
-[How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh994400(v=win.10)),
+
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)),
 [MessageWebSocket](messagewebsocket.md),
 [MessageWebSocket.Control](messagewebsocket_control.md),
 [MessageWebSocketInformation](messagewebsocketinformation.md),

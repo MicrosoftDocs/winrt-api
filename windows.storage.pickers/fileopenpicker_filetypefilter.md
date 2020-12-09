@@ -26,5 +26,5 @@ The [File picker sample](https://github.com/microsoft/Windows-universal-samples/
 
 ## -see-also
 
-[File picker sample](/samples/browse/), [fileOpenPicker class](fileopenpicker.md), [fileExtensionVector class](fileextensionvector.md)
+[File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [fileOpenPicker class](fileopenpicker.md), [fileExtensionVector class](fileextensionvector.md)
 

@@ -96,42 +96,5 @@ create_task(StorageFolder::GetFolderFromPathAsync(path)).then([=](StorageFolder^
 });
 ```
 
-This example shows how to check for the existence of a file.
-
-```javascript
-function getFile() {
-        var outputDiv = document.getElementById("output");
-        Windows.Storage.KnownFolders.picturesLibrary.tryGetItemAsync("sample.dat").done(function (file) {
-            if (file !== null) {
-                outputDiv.innerHTML = "Operation result: " + file.name;
-            } else {
-                outputDiv.innerHTML = "Operation result: null";
-            }
-        });
-    }
-```
-
-```javascript
-// Get the path to the app's Assets folder.
-var root = Windows.ApplicationModel.Package.current.installedLocation.path;
-var path = root + "\\Assets";
-
-// Get the app's Assets folder.
-var assetsFolderPromise = StorageFolder.getFolderFromPathAsync(path);
-
-// Check whether an image with the specified scale exists.
-var imageName = "Logo.scale-140.png";
-var getImagePromise = assetsFolderPromise.then(function getFolderSuccess(assetsFolder) {
-    return assetsFolder.tryGetItemAsync(imageName);
-});
-getImagePromise.done(function getItemSuccess(image) {
-    if (image !== null) {
-        console.log(imageName, "exists.");
-    } else {
-        console.log(imageName, "does not exist.")
-    }
-});
-```
-
 ## -see-also
 [GetItemAsync](storagefolder_getitemasync_1847090456.md)

@@ -95,33 +95,5 @@ create_task(localFolder->CreateFolderAsync(name1)).then([=](StorageFolder^ subFo
 });
 ```
 
-```javascript
-// Get the app's local folder.
-var localFolder = Windows.Storage.ApplicationData.current.localFolder;
-
-// Create 2 levels of subfolders in the app's local folder.
-var name1 = "Subfolder1";
-var subFolder1Promise = localFolder.createFolderAsync(name1);
-var subFolder2Promise = subFolder1Promise.then(function createFolder1Success(subFolder1) {
-    var name2 = "Subfolder2";
-    return subFolder1.createFolderAsync(name2);
-});
-var level1FolderPromise = subFolder1Promise.then(function createFolder1Success(subFolder1) {
-    // Get the subfolder of the app's local folder.
-    var level1FolderName = "Subfolder1";
-    return localFolder.getFolderAsync(level1FolderName);
-});
-level1FolderPromise.done(function (level1Folder) {
-});
-var level2FolderPromise = subFolder2Promise.then(function createFolder2Success(subFolder2) {
-    // Get the subfolder of the subfolder
-    // by providing a relative path.
-    var level2FolderName = "Subfolder1\\Subfolder2";
-    return localFolder.getFolderAsync(level2FolderName);
-});
-level2FolderPromise.done(function getFolderSuccess(level2Folder) {
-});
-```
-
 ## -see-also
 [File access permissions](/windows/uwp/files/file-access-permissions), [GetItemAsync](storagefolder_getitemasync_1847090456.md)

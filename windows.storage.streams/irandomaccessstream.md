@@ -18,14 +18,5 @@ For more info, see [Quickstart: Reading and writing files](/windows/uwp/files/qu
 ## -examples
 
 ## -see-also
-[File Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess)
 
-[Imaging](/windows/uwp/audio-video-camera/imaging)
-
-[FileRandomAccessStream](filerandomaccessstream.md)
-
-[InMemoryRandomAccessStream](inmemoryrandomaccessstream.md) 
-
-[RandomAccessStreamOverStream](randomaccessstreamoverstream.md)
-
-[RandomAccessStreamReference](randomaccessstreamreference.md)
+[File Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess), [Imaging](/windows/uwp/audio-video-camera/imaging), [FileRandomAccessStream](filerandomaccessstream.md), [InMemoryRandomAccessStream](inmemoryrandomaccessstream.md), [RandomAccessStreamOverStream](randomaccessstreamoverstream.md), [RandomAccessStreamReference](randomaccessstreamreference.md)

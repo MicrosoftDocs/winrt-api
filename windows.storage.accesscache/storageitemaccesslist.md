@@ -19,7 +19,7 @@ This list can store up to 1000 items and must be maintained by the app.
 
 To see more code examples, see the [File picker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) and the [File access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess).
 
-To learn about using the [FutureAccessList](storageapplicationpermissions_futureaccesslist.md) and [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md), see [How to track recently used files and folders](/windows/uwp/files/how-to-track-recently-used-files-and-folders).
+To learn about using the [FutureAccessList](storageapplicationpermissions_futureaccesslist.md) and [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md), see [Track recently used files and folders](/windows/uwp/files/how-to-track-recently-used-files-and-folders).
 
 To learn more about what files and locations your app has permission to access, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
@@ -40,20 +40,6 @@ else
 {
     // The file picker was dismissed with no file selected to save
 }
-```
-
-```javascript
-savePicker.pickSaveFileAsync().then(function (file) {
-    if (file) {
-        // Add to MRU with metadata (For example, a string that represents the date)
-        var mruToken = StorageApplicationPermissions.mostRecentlyUsedList.add(file, "20120716");
-
-        // Add to FA without metadata
-        var faToken = Windows.Storage.AccessCache.StorageApplicationPermissions.futureAccessList.add(file);
-    } else {
-        // The file picker was dismissed with no file selected to save
-    }
-});
 ```
 
 We recommend that you store the tokens that are returned by [StorageApplicationPermissions.MostRecentlyUsedList.Add](storageitemmostrecentlyusedlist_add_118555710.md) and [StorageApplicationPermissions.FutureAccessList.Add](storageitemaccesslist_add_118555710.md) so that you can use them to retrieve the respective list entry for the item that you added. In the example, we store the tokens in `mruToken` and `faToken` respectively but we don't do anything else with them.

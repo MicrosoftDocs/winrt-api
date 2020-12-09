@@ -57,26 +57,6 @@ For sample code in JavaScript and HTML that shows how to use [HttpClient](httpcl
 
 The following sample code shows how to GET content from an HTTP server as a string.
 
-```javascript
-// Note: the URI constructor will throw an exception
-// if the string passed is not a valid URI
-var uri = new Uri("http://example.com/datalist.aspx");
-var httpClient = new HttpClient();
-
-// Always catch network exceptions for async methods
-httpClient.GetStringAsync(uri).done(function () {
-        // get completed
-    }, onError);
-
-function onError(reason) {
-    // Details in reason.Message and ex.HResult.       
-}
-
-// Once your app is done using the HttpClient object call close to 
-// free up system resources (the underlying socket and memory used for the object)
-// httpClient.close();
-```
-
 ```csharp
 using System;
 using Windows.Foundation;
@@ -109,21 +89,21 @@ using namespace winrt;
 
 Windows::Foundation::IAsyncAction HttpClientExample()
 {
-	Windows::Foundation::Uri uri{ L"http://www.bing.com" };
-	Windows::Web::Http::HttpClient httpClient{};
+    Windows::Foundation::Uri uri{ L"http://www.bing.com" };
+    Windows::Web::Http::HttpClient httpClient{};
 
-	// Always catch network exceptions for async methods.
-	try
-	{
-		auto response{ co_await httpClient.GetStringAsync(uri) };
-	}
-	catch (winrt::hresult_error const& ex)
-	{
-		// Details in ex.message() and ex.to_abi().
-	}
+    // Always catch network exceptions for async methods.
+    try
+    {
+        auto response{ co_await httpClient.GetStringAsync(uri) };
+    }
+    catch (winrt::hresult_error const& ex)
+    {
+        // Details in ex.message() and ex.to_abi().
+    }
 
-	// The destructor of HttpClient frees system resources
-	// (the underlying socket, and memory used for the object).
+    // The destructor of HttpClient frees system resources
+    // (the underlying socket, and memory used for the object).
 }
 ```
 

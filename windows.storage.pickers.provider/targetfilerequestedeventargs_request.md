@@ -11,10 +11,10 @@ public Windows.Storage.Pickers.Provider.TargetFileRequest Request { get; }
 # Windows.Storage.Pickers.Provider.TargetFileRequestedEventArgs.Request
 
 ## -description
-Gets a [targetFileRequest](targetfilerequest.md) object that is used to respond to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event.
+Gets a [TargetFileRequest](targetfilerequest.md) object that is used to respond to a [TargetFileRequested](filesavepickerui_targetfilerequested.md) event.
 
 ## -property-value
-The [targetFileRequest](targetfilerequest.md) object that is used to respond to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event.
+The [TargetFileRequest](targetfilerequest.md) object that is used to respond to a [TargetFileRequested](filesavepickerui_targetfilerequested.md) event.
 
 ## -remarks
 

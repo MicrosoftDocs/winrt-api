@@ -54,12 +54,4 @@ Windows::Storage::StorageFolder appFolder{ Windows::ApplicationModel::Package::C
  OutputDebugString(path->Begin());
 ```
 
-```javascript
-/ Get the app's installation folder.
-var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
-
-// Print the folder's path to the Visual Studio Output window.
-console.log(appFolder.name, "folder path:", appFolder.path);
-```
-
 ## -see-also

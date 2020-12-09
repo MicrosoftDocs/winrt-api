@@ -58,7 +58,7 @@ In most cases, you use these schemes with three slashes (example: ms-appx:///pag
 At a code level, the Windows Runtime does not support relative Uniform Resource Identifier (URI). All Uri objects you create must represent an absolute Uniform Resource Identifier (URI). The schemes listed in the previous section are actually absolute Uniform Resource Identifier (URI), because the host and authority are implicit for each scheme and the remainder of the path is evaluated under that authority.
 
 ### Launching an app by URI scheme
-The Uniform Resource Identifier (URI) scheme of a Uri value can be used to launch other apps that are associated with that particular scheme. For more info, see "How to launch the default app for a URI" ([HTML](/previous-versions/windows/apps/hh452690(v=win.10)) or [XAML](/windows/uwp/launch-resume/launch-default-app)).
+The Uniform Resource Identifier (URI) scheme of a Uri value can be used to launch other apps that are associated with that particular scheme. For more info, see [Launch the default app for a URI](/windows/uwp/launch-resume/launch-default-app)).
 
 <!--Leaving activation by URI alone, not sure of the emphasis/model-->
 

@@ -201,40 +201,6 @@ void MainPage::ReadTimestamp()
 }
 ```
 
-```javascript
-// This example code can be used to read or write to an ApplicationData folder of your choice.
-
-var applicationData = Windows.Storage.ApplicationData.current;
-
-// Change this to var roamingFolder = applicationData.roamingFolder;
-// to use the RoamingFolder instead, for example.
-var localFolder = applicationData.localFolder;  
-
-// Write data to a file
-function writeTimestamp() {
-   localFolder.createFileAsync("dataFile.txt", Windows.Storage.CreationCollisionOption.replaceExisting)
-      .then(function (sampleFile) {
-         var formatter = new Windows.Globalization.DateTimeFormatting.DateTimeFormatter("longtime");
-         var timestamp = formatter.format(new Date());
-
-         return Windows.Storage.FileIO.writeTextAsync(sampleFile, timestamp);
-      }).done(function () {      
-      });
-}
-
-// Read data from a file
-function readTimestamp() {
-   localFolder.getFileAsync("dataFile.txt")
-      .then(function (sampleFile) {
-         return Windows.Storage.FileIO.readTextAsync(sampleFile);
-      }).done(function (timestamp) {
-         // Data is contained in timestamp
-      }, function () {
-         // Timestamp not found
-      });
-}
-```
-
 ```vb
 ' This example code can be used to read or write to an ApplicationData folder of your choice.
 
@@ -266,4 +232,5 @@ End Function
 For more samples and information about reading and writing to a file, see [Create, write, and read a file](/windows/uwp/files/quickstart-reading-and-writing-files).
 
 ## -see-also
-[Quickstart: Local application data (JavaScript)](/previous-versions/windows/apps/hh465118(v=win.10)), [Quickstart: Roaming application data (JavaScript)](/previous-versions/windows/apps/hh465123(v=win.10)), [Quickstart: Temporary application data (JavaScript)](/previous-versions/windows/apps/hh465130(v=win.10)), [Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data), [Guidelines for roaming application data](/windows/uwp/design/app-settings/store-and-retrieve-app-data), [Guidelines for app settings](/windows/uwp/app-settings/guidelines-for-app-settings), [ApplicationDataCompositeValue](applicationdatacompositevalue.md), [ApplicationDataContainer](applicationdatacontainer.md), [ApplicationDataContainerSettings](applicationdatacontainersettings.md), [Application settings sample (Windows 8.1, Windows Phone 8.1)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/App%20settings%20sample), [Application data sample (Windows 8.1, Windows Phone 8.1)](/samples/browse/), [Application data sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620486)
+
+[Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data), [Guidelines for roaming application data](/windows/uwp/design/app-settings/store-and-retrieve-app-data), [Guidelines for app settings](/windows/uwp/app-settings/guidelines-for-app-settings), [ApplicationDataCompositeValue](applicationdatacompositevalue.md), [ApplicationDataContainer](applicationdatacontainer.md), [ApplicationDataContainerSettings](applicationdatacontainersettings.md), [Application settings sample (Windows 8.1, Windows Phone 8.1)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/App%20settings%20sample), [Application data sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationData)

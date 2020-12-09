@@ -109,33 +109,6 @@ void MainPage::DefaultLaunch()
 }
 ```
 
-```javascript
-// The URI to launch
-var uriToLaunch = "contoso:somearguments";
-
-// Create a Uri object from a URI string 
-var uri = new Windows.Foundation.Uri(uriToLaunch);
-
-// The fallback URI
-var uriFallback = "http://www.contoso.com/somearguments";
-
-// Create a Uri object from a URI string 
-var fallbackURI = new Windows.Foundation.Uri(uriFallback);
-
-// Set the fallback URI
-var options = new Windows.System.LauncherOptions();
-options.fallbackUri = fallbackURI;
-
-Windows.System.Launcher.launchUriAsync(uri, options).then(
-   function (success) {
-      if (success) {
-         // URI launched
-      } else {
-         // URI launch failed
-      }
-   });
-```
-
 ```vb
 ' The URI to launch
 Dim uri As New Uri("contoso:somearguments")
@@ -162,4 +135,4 @@ End Sub
 ```
 
 ## -see-also
-[Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [How to launch the default app for a file (JavaScript)](/previous-versions/windows/apps/hh452687(v=win.10)), [Launch the default app for a file](/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [How to launch the default app for a URI (JavaScript)](/previous-versions/windows/apps/hh452690(v=win.10)), [Launch the default app for a URI](/windows/uwp/launch-resume/launch-default-app), [Guidelines for file types and URIs](/windows/uwp/files/index), [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md), [Launcher.LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md)
+[Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [Launch the default app for a file](/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [Launch the default app for a URI](/windows/uwp/launch-resume/launch-default-app), [Guidelines for file types and URIs](/windows/uwp/files/index), [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md), [Launcher.LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md)

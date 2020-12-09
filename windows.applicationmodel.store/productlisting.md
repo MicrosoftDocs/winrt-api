@@ -27,23 +27,6 @@ You access this object by picking an element of the collection that the [Product
 ## -examples
 This code example here shows how to get the [ListingInformation](listinginformation.md) from simulated app data and then get the ProductListing object an add-on.
 
-```javascript
-// get current app object using the simulator interface
-currentApp = Windows.ApplicationModel.Store.CurrentAppSimulator;
-
-// get the listing information for the products this app supports
-currentApp.loadListingInformationAsync().then(
-    function (listing) {
-        // loadListingInformationAsync returns the ListingInformation object in listing.
-        // now get info about a specific product and write it to the screen.
-        thisProduct = listing.productListings.lookup("product1");
-        id("purchasePrice").innerText = "You can buy " + thisProduct.name +
-            " for: " + thisProduct.formattedPrice + ".";
-    }
-);
-
-```
-
 ```csharp
 // get the license info for this app from the simulator
 ListingInformation listing = await CurrentAppSimulator.LoadListingInformationAsync();
@@ -56,8 +39,6 @@ String purchasePrice = "You can buy " + thisProduct.Name +
     " for: " + thisProduct.FormattedPrice + ".";
 
 ```
-
-
 
 ## -see-also
 [ListingInformation](listinginformation.md), [ProductListings](listinginformation_productlistings.md)

@@ -25,7 +25,7 @@ No object or value is returned when this method completes.
 ## -remarks
 
 ## -examples
-The [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use WriteBufferAsync to write data from a buffer to a file.
+The [File Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess) shows you how to use `WriteBufferAsync` to write data from a buffer to a file.
 
 ```csharp
 
@@ -45,25 +45,8 @@ catch (FileNotFoundException)
 }
 ```
 
-```javascript
+In the example, `file` is a local variable that contains a [StorageFile](storagefile.md) that represents the file to write.
 
-if (file !== null) {
-    // Create buffer
-    var buffer = Windows.Security.Cryptography.CryptographicBuffer.generateRandom(10);
-
-    // Write buffer to file
-    Windows.Storage.FileIO.writeBufferAsync(file, buffer).done(function () {
-        // Perform additional tasks after file is written
-    },
-    // Handle errors with an error function
-    function (error) {
-        // Handle errors encountered during write
-    });
-}
-```
-
-In the example, `file` is a local variable that contains a [storageFile](storagefile.md) that represents the file to write.
-
-Although the writeBufferAsync methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.
+Although the `WriteBufferAsync` methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.
 
 ## -see-also

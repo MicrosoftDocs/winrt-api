@@ -34,4 +34,4 @@ The [File picker sample](https://github.com/microsoft/Windows-universal-samples/
 [!code-csharp[all_openpicker_displayAllTypes](../windows.storage.pickers/code/FilePicker/CS/Scenario2.xaml.cs#Snippetall_openpicker_displayAllTypes)]
 
 ## -see-also
-[File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with ](/previous-versions/windows/apps/hh465199(v=win.10)), [fileOpenPicker.fileTypeFilter property](fileopenpicker_filetypefilter.md), [folderPicker.fileTypeFilter property](folderpicker_filetypefilter.md)
+[File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers), [fileOpenPicker.fileTypeFilter property](fileopenpicker_filetypefilter.md), [folderPicker.fileTypeFilter property](folderpicker_filetypefilter.md)

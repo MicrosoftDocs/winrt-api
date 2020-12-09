@@ -11,7 +11,7 @@ public enum Windows.Storage.Pickers.Provider.AddFileResult : int
 # AddFileResult
 
 ## -description
-Indicates the result of a call to the [fileOpenPickerUI.addFile](fileopenpickerui_addfile_887814693.md) method.
+Indicates the result of a call to the [FileOpenPickerUI.AddFile](fileopenpickerui_addfile_887814693.md) method.
 
 ## -enum-fields
 ### -field Added:0

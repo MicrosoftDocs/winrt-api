@@ -64,19 +64,6 @@ IBuffer^ signature = packageSpecificToken->Signature;
 IBuffer^ certificate = packageSpecificToken->Certificate;
 ```
 
-```javascript
-// nonce is an IBuffer object that would be sent from the cloud service.
-var packageSpecificToken;
-
-packageSpecificToken =  Windows.System.Profile.HardwareIdentification.getPackageSpecificToken(nonce);
-
-// hardware id, signature, certificate IBuffer objects 
-// that can be accessed through properties.
-var hardwareId = packageSpecificToken.id;
-var signature = packageSpecificToken.signature;
-var certificate = packageSpecificToken.certificate;
-```
-
 ```vb
 // nonce is an IBuffer object that would be sent from the cloud service.
 Dim packageSpecificToken As Windows.System.Profile.HardwareToken

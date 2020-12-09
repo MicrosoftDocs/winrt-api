@@ -31,13 +31,6 @@ Initialize this class with a [BCP-47](https://tools.ietf.org/html/bcp47) languag
 
 ## -examples
 
-```javascript
-// Get the top user-preferred language and its display name.
-var topUserLanguage = Windows.System.UserProfile.GlobalizationPreferences.languages[0];
-var language = new Windows.Globalization.Language(topUserLanguage);
-var displayName = language.displayName;
-```
-
 ```csharp
 // Get the top user-preferred language and its display name.
 var topUserLanguage = Windows.System.UserProfile.GlobalizationPreferences.Languages[0];

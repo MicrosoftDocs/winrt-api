@@ -19,12 +19,6 @@ For a list of standard country/region codes used by Microsoft, see the [Official
 
 ## -examples
 
-```javascript
-// Get the user's geographic region and its display name.
-var geographicRegion = new Windows.Globalization.GeographicRegion;
-var displayName = geographicRegion.displayName;
-```
-
 ```csharp
 // Get the user's geographic region and its display name.
 var geographicRegion = new Windows.Globalization.GeographicRegion();

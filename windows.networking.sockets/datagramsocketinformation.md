@@ -20,7 +20,7 @@ A DatagramSocketInformation object is automatically created with the parent [Dat
 ## -examples
 
 ## -see-also
-[How to use advanced socket controls ](/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.Information](datagramsocket_information.md), [DatagramSocketControl](datagramsocketcontrol.md), [DatagramSocket sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DatagramSocket%20sample)
+[How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.Information](datagramsocket_information.md), [DatagramSocketControl](datagramsocketcontrol.md), [DatagramSocket sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DatagramSocket%20sample)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

@@ -60,20 +60,6 @@ void MainPage::DataChangeHandler(Windows::Storage::ApplicationData^ appData, Obj
 }
 ```
 
-```javascript
-var applicationData = Windows.Storage.ApplicationData.current;
-
-function initialize() 
-{
-    applicationData.addEventListener("datachanged", datachangeHandler);
-}
-
-function dataChangeHandler(eventArgs)
-{
-    // TODO: Refresh your data
-}
-```
-
 ```vb
 Private Sub InitHandlers()
     AddHandler Windows.Storage.ApplicationData.Current.DataChanged, AddressOf DataChangeHandler
@@ -85,4 +71,4 @@ End Sub
 ```
 
 ## -see-also
-[Roaming data](/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data),[Quickstart: Roaming application data (JavaScript)](/previous-versions/windows/apps/hh465123(v=win.10))
+[Roaming data](/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data)

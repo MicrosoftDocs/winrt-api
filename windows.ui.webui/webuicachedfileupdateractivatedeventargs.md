@@ -70,4 +70,4 @@ For JavaScript, `eventObject` contains a webUICachedFileUpdaterActivatedEventArg
 
 ## -see-also
 
-[Quickstart: Providing file services through ](/previous-versions/windows/apps/hh465192(v=win.10)), [File picker provider sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)
+[Quickstart: Providing file services through ](/previous-versions/windows/apps/hh465192(v=win.10)), [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)

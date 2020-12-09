@@ -30,21 +30,6 @@ For some languages and scripts, the LanguageFontGroup may not provide a font rec
 
 ## -examples
 
-```javascript
-// Get the recommended Japanese fonts for traditional documents and modern documents.
-var fonts = new Windows.Globalization.Fonts.LanguageFontGroup('ja-JP');
-var traditionalDocumentFont = fonts.traditionalDocumentFont;
-var modernDocumentFont = fonts.modernDocumentFont;
-
-// Obtain two properties of the traditional document font.
-var traditionalDocumentFontFontFamily = traditionalDocumentFont.fontFamily;   // "MS Mincho"
-var traditionalDocumentFontScaleFactor = traditionalDocumentFont.scaleFactor; // 100
-
-// Obtain two properties of the modern document font.
-var modernDocumentFontFontFamily = modernDocumentFont.fontFamily;             // "Meiryo"
-var modernDocumentFontScaleFactor = modernDocumentFont.scaleFactor;           // 90
-```
-
 ```csharp
 // Get the recommended Japanese fonts for traditional documents and modern documents.
 var fonts = new Windows.Globalization.Fonts.LanguageFontGroup("ja-JP");

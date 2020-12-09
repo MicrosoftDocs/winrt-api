@@ -58,17 +58,6 @@ StreamSocket^ clientSocket = ref new StreamSocket();
 clientSocket->ConnectAsync(serverHost, "http");
 ```
 
-```javascript
-using Windows.Networking;
-using Windows.Networking.Sockets;
-
-var serverHost = new HostName("www.contoso.com");
-var clientSocket = new Windows.Networking.Sockets.StreamSocket();
-
-// Try to connect to the remote host
-await clientSocket.ConnectAsync(serverHost, "http");
-```
-
 ## -examples
 
 ## -see-also
