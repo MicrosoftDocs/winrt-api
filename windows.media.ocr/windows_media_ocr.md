@@ -1,7 +1,7 @@
 ---
 -api-id: N:Windows.Media.Ocr
 -api-type: winrt namespace
-ms.custom: contperfq2
+ms.custom: contperf-fy21q2
 ---
 
 # Windows.Media.Ocr
