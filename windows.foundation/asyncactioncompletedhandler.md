@@ -3,7 +3,7 @@
 -api-type: winrt delegate
 ---
 <!-- Delegate syntax.
-public delegate void AsyncActionCompletedHandler(Windows.Foundation.IAsyncAction asyncInfo, Windows.Foundation.AsyncStatus asyncStatus)
+public delegate void AsyncActionCompletedHandler(Windows.Foundation.IAsyncAction asyncAction, Windows.Foundation.AsyncStatus asyncStatus)
 -->
 # Windows.Foundation.AsyncActionCompletedHandler
 
