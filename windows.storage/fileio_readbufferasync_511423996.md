@@ -49,6 +49,6 @@ catch (FileNotFoundException)
 
 In the example, `file` is a local variable that contains a [StorageFile](storagefile.md) that represents the file to read.
 
-After [ReadTextAsync](fileio_readtextasync_1063800.md) completes, the `buffer` variable gets the contents of the file as an [IBuffer](/previous-versions/hh438362(v=vs.85)) object. You can then read from the buffer using a [DataReader](../windows.storage.streams/datareader.md) object and process the file contents as appropriate (as shown in the example.)
+After [ReadTextAsync](fileio_readtextasync_1063800.md) completes, the `buffer` variable gets the contents of the file as an [IBuffer](../windows.storage.streams/ibuffer.md) object. You can then read from the buffer using a [DataReader](../windows.storage.streams/datareader.md) object and process the file contents as appropriate (as shown in the example.)
 
 ## -see-also

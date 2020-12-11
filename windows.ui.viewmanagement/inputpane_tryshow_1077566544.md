@@ -26,5 +26,4 @@ If you set [CoreTextEditContext.InputPaneDisplayPolicy](../windows.ui.text.core/
 ## -examples
 
 ## -see-also
-[TryHide](inputpane_tryhide_42550069.md)
-[Showing](inputpane_showing.md)
+[TryHide](inputpane_tryhide_42550069.md), [Showing](inputpane_showing.md)
