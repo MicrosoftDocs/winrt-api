@@ -25,4 +25,4 @@ The OutboundBufferSizeInBytes property must be set before the [MessageWebSocket]
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh761447(v=win.10)), [How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh994400(v=win.10)), [MessageWebSocket](messagewebsocket.md)
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)), [MessageWebSocket](messagewebsocket.md)

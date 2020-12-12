@@ -47,25 +47,11 @@ else
 }
 ```
 
-```javascript
-
-openPicker.pickSingleFileAsync().then(function (file) {
-   if (file) {
-       // Process picked file
-
-       // Store file for future access
-       var fileToken = Windows.Storage.AccessCache.StorageApplicationPermissions.futureAccessList.add(file);
-   } else {
-       // The user didn't pick a file
-   }
-});
-```
-
 After [PickSingleFileAsync](../windows.storage.pickers/fileopenpicker_picksinglefileasync_1320627792.md) completes, `file` gets the picked file as a StorageFile.
 
 In the example, `openPicker` contains a [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) object. To learn more about using file picker see [Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
-Additionally, `fileToken` gets an identifier that you can use to retrieve the file from the [FutureAccessList](../windows.storage.accesscache/storageapplicationpermissions_futureaccesslist.md). To learn more about storing files and folders so you can access them again later, see [FutureAccessList](../windows.storage.accesscache/storageapplicationpermissions_futureaccesslist.md), [MostRecentlyUsedList](../windows.storage.accesscache/storageapplicationpermissions_mostrecentlyusedlist.md) and [How to track recently used files and folders](/previous-versions/windows/apps/hh972603(v=win.10)).
+Additionally, `fileToken` gets an identifier that you can use to retrieve the file from the [FutureAccessList](../windows.storage.accesscache/storageapplicationpermissions_futureaccesslist.md). To learn more about storing files and folders so you can access them again later, see [FutureAccessList](../windows.storage.accesscache/storageapplicationpermissions_futureaccesslist.md), [MostRecentlyUsedList](../windows.storage.accesscache/storageapplicationpermissions_mostrecentlyusedlist.md) and [Track recently used files and folders](/windows/uwp/files/how-to-track-recently-used-files-and-folders).
 
 ## -see-also
 

@@ -14,9 +14,9 @@ public event Windows.Foundation.TypedEventHandler FileNameChanged<Windows.Storag
 Fired when the user changes the file name in the file name text box or changes the extension in the file type drop-down menu.
 
 ## -remarks
-In response to this event, your app should get the new file name from the [fileName](filesavepickerui_filename.md) property and check the [AllowedFileTypes](filesavepickerui_allowedfiletypes.md) as these also could have changed.
+In response to this event, your app should get the new file name from the [FileName](filesavepickerui_filename.md) property and check the [AllowedFileTypes](filesavepickerui_allowedfiletypes.md) as these also could have changed.
 
-Register for this event by adding an event listener to the [fileSavePickerUI](filesavepickerui.md) object and assigning a handler function for the event.
+Register for this event by adding an event listener to the [FileSavePickerUI](filesavepickerui.md) object and assigning a handler function for the event.
 
 ## -examples
 

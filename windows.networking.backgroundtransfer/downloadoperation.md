@@ -18,29 +18,6 @@ Sample applications that use this class include the [Background transfer sample]
 
 The following example demonstrates how to configure and begin a basic download operation.
 
-```javascript
-var download = null;
-var promise = null;
-
-function DownloadFile (uriString, fileName) {
-    try {
-        // Asynchronously create the file in the pictures folder.
-        Windows.Storage.KnownFolders.picturesLibrary.createFileAsync(fileName, Windows.Storage.CreationCollisionOption.generateUniqueName).done(function (newFile) {
-            var uri = Windows.Foundation.Uri(uriString);
-            var downloader = new Windows.Networking.BackgroundTransfer.BackgroundDownloader();
-
-            // Create a new download operation.
-            download = downloader.createDownload(uri, newFile);
-
-            // Start the download and persist the promise to be able to cancel the download.
-            promise = download.startAsync().then(complete, error, progress);
-        }, error);
-    } catch (err) {
-        displayException(err);
-    }
-};
-```
-
 ```csharp
 using Windows.Foundation;
 using Windows.Networking.BackgroundTransfer;

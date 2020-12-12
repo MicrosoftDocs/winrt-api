@@ -24,7 +24,7 @@ You can get a ImageProperties object using any of the following methods and prop
 > [!NOTE]
 > Properties that are get or set using a property handler that is defined by another app (like Microsoft Word) may not be accessible. Instead, you can try to get these properties using a file query that is backed by the system index. For more information, see [QueryOptions](../windows.storage.search/queryoptions.md).
 
-For more code samples about accessing properties, see the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
+For more code samples about accessing properties, see the [File access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess).
 
 ## -examples
 This example demonstrates how to retrieve properties of a file, including image properties like [DateTaken](imageproperties_datetaken.md) and [Rating](imageproperties_rating.md).
@@ -48,24 +48,6 @@ try
 catch (FileNotFoundException)
 {
  // For example, handle a file not found error
-}
-```
-
-```javascript
-
-var file = SdkSample.sampleFile;
-if (file !== null) {
-    var outputDiv = document.getElementById("output");
-
-    // Get image properties
-    file.properties.getImagePropertiesAsync().done(function (imageProperties) {
-        outputDiv.innerHTML += "Date taken: " + imageProperties.dateTaken + "<br/>";
-        outputDiv.innerHTML += "Rating: " + imageProperties.rating + "<br/>";
-    },
-    // Handle errors with an error function
-    function (error) {
-       // Handle errors encountered while retrieving properties
-    });
 }
 ```
 

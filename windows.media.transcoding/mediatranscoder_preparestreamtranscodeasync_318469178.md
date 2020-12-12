@@ -33,8 +33,9 @@ The *source* parameter cannot be a [InMemoryRandomAccessStream](../windows.stora
 ## -examples
 The following example shows how to use this method to transcode a stream.
 
-
-
-[!code-js[Transcoding_TranscodeStream](../windows.media.transcoding/code/Transcoding/javascript/default.js#SnippetTranscoding_TranscodeStream)]
+```csharp
+var transcoder = new Windows.Media.Transcoding.MediaTranscoder();
+return transcoder.prepareStreamTranscodeAsync(sourceStream, destinationStream, profile);
+```
 
 ## -see-also

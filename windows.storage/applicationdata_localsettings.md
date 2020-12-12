@@ -89,33 +89,6 @@ else
 values->Remove("exampleSetting");
 ```
 
-```javascript
-var applicationData = Windows.Storage.ApplicationData.current;
-
-var localSettings = applicationData.localSettings;
-
-// Create a simple setting
-
-localSettings.values["exampleSetting"] = "Hello Windows";
-
-// Read data from a simple setting
-
-var value = localSettings.values["exampleSetting"];
-        
-if (!value)
-{
-    // No data
-}
-else
-{
-    // Access data in value
-}
-
-// Delete a simple setting
-
-localSettings.values.remove("exampleSetting");
-```
-
 ```vb
 Dim localSettings As Windows.Storage.ApplicationDataContainer = Windows.Storage.ApplicationData.Current.LocalSettings
 
@@ -139,4 +112,4 @@ localSettings.Values.Remove("exampleSetting")
 ```
 
 ## -see-also
-[Quickstart: Local application data (JavaScript)](/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data), [Content indexer sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer)
+[Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data), [Content indexer sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer)

@@ -24,7 +24,6 @@ If you need user input to complete the update, set the [FileUpdateRequest.Status
 The [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts) demonstrates how to respond to a FileUpdateRequested event.
 
 ```csharp
-
 // Event handler
 void CachedFileUpdaterUI_FileUpdateRequested(CachedFileUpdaterUI sender, FileUpdateRequestedEventArgs args)
 {
@@ -49,33 +48,6 @@ void CachedFileUpdaterUI_FileUpdateRequested(CachedFileUpdaterUI sender, FileUpd
 cachedFileUpdaterUI.FileUpdateRequested += CachedFileUpdaterUI_FileUpdateRequested;
 ```
 
-```javascript
-
-// Event handler
-function onFileUpdateRequest(e) {
-    fileUpdateRequest = e.request;
-    fileUpdateRequestDeferral = fileUpdateRequest.getDeferral();
-
-    switch (cachedFileUpdaterUI.uiStatus) {
-        case Windows.Storage.Provider.UIStatus.hidden:
-            fileUpdateRequest.status = Windows.Storage.Provider.FileUpdateStatus.userInputNeeded;
-            fileUpdateRequestDeferral.complete();
-            break;
-        case Windows.Storage.Provider.UIStatus.visible:
-            var url = scenarios[0].url;
-            WinJS.Navigation.navigate(url, cachedFileUpdaterUI);
-            break;
-        case Windows.Storage.Provider.UIStatus.unavailable:
-            fileUpdateRequest.status = Windows.Storage.Provider.FileUpdateStatus.failed;
-            fileUpdateRequestDeferral.complete();
-            break;
-    }
-}
-
-// Register for the event
-cachedFileUpdaterUI.addEventListener("fileupdaterequested", onFileUpdateRequest);
-```
-
-Both `args` and `e` (in C# and JS respectively) contain a [FileUpdateRequestedEventArgs](fileupdaterequestedeventargs.md) object.
+`args` contains a [FileUpdateRequestedEventArgs](fileupdaterequestedeventargs.md) object.
 
 ## -see-also

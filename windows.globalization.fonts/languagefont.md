@@ -23,22 +23,6 @@ The fonts referenced by a LanguageFont are always fonts that ship as part of Win
 
 ## -examples
 
-
-```javascript
-// Get the recommended Japanese fonts for traditional documents and modern documents.
-var fonts = new Windows.Globalization.Fonts.LanguageFontGroup('ja-JP');
-var traditionalDocumentFont = fonts.traditionalDocumentFont;
-var modernDocumentFont = fonts.modernDocumentFont;
-
-// Obtain two properties of the traditional document font.
-var traditionalDocumentFontFontFamily = traditionalDocumentFont.fontFamily;   // "MS Mincho"
-var traditionalDocumentFontScaleFactor = traditionalDocumentFont.scaleFactor; // 100
-
-// Obtain two properties of the modern document font.
-var modernDocumentFontFontFamily = modernDocumentFont.fontFamily;             // "Meiryo"
-var modernDocumentFontScaleFactor = modernDocumentFont.scaleFactor;           // 90
-```
-
 ```csharp
 // Get the recommended Japanese fonts for traditional documents and modern documents.
 var fonts = new Windows.Globalization.Fonts.LanguageFontGroup("ja-JP");
@@ -53,8 +37,6 @@ var traditionalDocumentFontScaleFactor = traditionalDocumentFont.ScaleFactor; //
 var modernDocumentFontFontFamily = modernDocumentFont.FontFamily;             // "Meiryo"
 var modernDocumentFontScaleFactor = modernDocumentFont.ScaleFactor;           // 90
 ```
-
-
 
 ## -see-also
 [Language font mapping sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BJavaScript%5D-Windows%208%20app%20samples/JavaScript/Windows%208%20app%20samples/Language%20font%20mapping%20sample%20(Windows%208))

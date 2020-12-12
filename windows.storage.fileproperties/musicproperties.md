@@ -24,7 +24,7 @@ You can get a musicProperties object using any of the following methods and prop
 > [!NOTE]
 > Properties that are get or set using a property handler that is defined by another app (like Microsoft Word) may not be accessible. Instead, you can try to get these properties using a file query that is backed by the system index. For more information, see [QueryOptions](../windows.storage.search/queryoptions.md).
 
-For more code samples about accessing properties, see the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
+For more code samples about accessing properties, see the [File access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess).
 
 ## -examples
 This example demonstrates how to retrieve properties of a file, including music properties like [Album](musicproperties_album.md) and [Rating](musicproperties_rating.md).
@@ -48,24 +48,6 @@ try
 catch (FileNotFoundException)
 {
  // For example, handle a file not found error
-}
-```
-
-```javascript
-
-var file = SdkSample.sampleFile;
-if (file !== null) {
-    var outputDiv = document.getElementById("output");
-
-    // Get music properties
-    file.properties.getMusicPropertiesAsync().done(function (musicProperties) {
-        outputDiv.innerHTML += "Album: " + musicProperties.Album + "<br/>";
-        outputDiv.innerHTML += "Rating: " + musicProperties.rating + "<br/>";
-    },
-    // Handle errors with an error function
-    function (error) {
-       // Handle errors encountered while retrieving properties
-    });
 }
 ```
 

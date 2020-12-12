@@ -23,17 +23,9 @@ This property returns the same user ID as the [UserIdentity.SafeCustomerId](user
 
 If the user was not successfully authenticated for your app, this property value is empty.
 
-If your app stores local data based on the user’s identity, you must check the authenticatedSafeCustomerId property to ensure there were no changes since the last authentication for your app. Check this property when your app is launched or activated, before getting the user identity and associated tickets.
+If your app stores local data based on the user's identity, you must check the authenticatedSafeCustomerId property to ensure there were no changes since the last authentication for your app. Check this property when your app is launched or activated, before getting the user identity and associated tickets.
 
 ## -examples
-```javascript
-var authenticatedSafeCustomerId = onlineIdAuthenticator.authenticatedSafeCustomerId;
-if (authenticatedSafeCustomerId !== "")
-{
-    // use
-}
-
-```
 
 ```csharp
 string authenticatedSafeCustomerId = onlineIdAuthenticator.authenticatedSafeCustomerId;
@@ -43,7 +35,5 @@ if (authenticatedSafeCustomerId != string.Empty)
 }
 
 ```
-
-
 
 ## -see-also

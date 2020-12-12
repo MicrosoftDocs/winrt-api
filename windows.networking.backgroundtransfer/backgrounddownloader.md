@@ -34,9 +34,9 @@ Security concerns can exist when download operations require a username and pass
 If the authentication model is not supported by **WinINet**, use [HttpClient](../windows.web.http/httpclient.md) to implement custom authentication and obtain a download-specific secure token (cookie). Set the appropriate header to have the secure token value used for background transfer. The service should limit the validity of the secure token only to the file that is being downloaded. 
 
 > [!NOTE]
-> The secure token will be stored in clear text within the application’s folder.
+> The secure token will be stored in clear text within the application's folder.
 
-Upload services that require the username and password be set in clear text in a custom header for each download file are insecure. Background transfer will cache the headers in clear text for the duration of the operation within the app’s folder.
+Upload services that require the username and password be set in clear text in a custom header for each download file are insecure. Background transfer will cache the headers in clear text for the duration of the operation within the app's folder.
 
 **Toast notifications**
 
@@ -82,29 +82,6 @@ To work around this issue, completely uninstall all versions of the app and re-d
 ## -examples
 
 The following example demonstrates how to configure and begin a basic download operation.
-
-```javascript
-        var download = null;
-        var promise = null;
-
-        function DownloadFile (uriString, fileName) {
-            try {
-                // Asynchronously create the file in the pictures folder.
-                Windows.Storage.KnownFolders.picturesLibrary.createFileAsync(fileName, Windows.Storage.CreationCollisionOption.generateUniqueName).done(function (newFile) {
-                    var uri = Windows.Foundation.Uri(uriString);
-                    var downloader = new Windows.Networking.BackgroundTransfer.BackgroundDownloader();
-
-                    // Create a new download operation.
-                    download = downloader.createDownload(uri, newFile);
-
-                    // Start the download and persist the promise to be able to cancel the download.
-                    promise = download.startAsync().then(complete, error, progress);
-                }, error);
-            } catch (err) {
-                displayException(err);
-            }
-        };
-```
 
 ```csharp
 

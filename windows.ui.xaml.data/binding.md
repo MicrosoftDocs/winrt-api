@@ -74,4 +74,3 @@ The following example code demonstrates how to create a binding in code.
 
 ## -see-also
 [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview), [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax), [BindingOperations.SetBinding](bindingoperations_setbinding_746099660.md)
-(bindingoperations_setbinding_746099660.md)

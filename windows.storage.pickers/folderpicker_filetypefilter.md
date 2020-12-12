@@ -27,13 +27,5 @@ folderPicker.SuggestedStartLocation = PickerLocationId.Desktop;
 folderPicker.FileTypeFilter.Add("*");
 ```
 
-```javascript
-var folderPicker = new Windows.Storage.Pickers.FolderPicker();
-folderPicker.suggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.desktop;
-folderPicker.fileTypeFilter.replaceAll(["*"]);
-```
-
-
-
 ## -see-also
 [FolderPicker class](folderpicker.md), [FileExtensionVector class](fileextensionvector.md), [FileOpenPicker.FileTypeFilter property](fileopenpicker_filetypefilter.md)

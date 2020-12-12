@@ -76,23 +76,5 @@ createFileTask.then([](StorageFile^ newFile)
  });
 ```
 
-```javascript
-// Get the app's local folder.
-var localFolder = Windows.Storage.ApplicationData.current.localFolder;
-
-// Create a new file in the current folder.
-var desiredName = "test.txt";
-var CreationCollisionOption = Windows.Storage.CreationCollisionOption;
-var newFilePromise =
-        localFolder.createFileAsync(desiredName, CreationCollisionOption.failIfExists);
-newFilePromise.done(function createFileSuccess(newFile) 
-{
-    // CreateFile completed successfully.
-}, function createFileFail(failure) 
-{
-    // CreateFile can fail if the file already exists.
-});
-```
-
 ## -see-also
 [CreateFileAsync(String, CreationCollisionOption)](storagefolder_createfileasync_1058061470.md)

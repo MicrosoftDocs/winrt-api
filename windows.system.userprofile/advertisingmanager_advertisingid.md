@@ -39,10 +39,6 @@ winrt::hstring advertisingId{ Windows::System::UserProfile::AdvertisingManager::
 auto advertisingId = Windows::System::UserProfile::AdvertisingManager::AdvertisingId;
 ```
 
-```javascript
-var advertisingId = Windows.System.UserProfile.AdvertisingManager.advertisingId;
-```
-
 ## -examples
 
 ## -see-also

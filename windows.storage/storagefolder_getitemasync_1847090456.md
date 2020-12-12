@@ -85,23 +85,5 @@ create_task(appFolder->GetItemAsync(name)).then([=](IStorageItem^ manifest){
 });
 ```
 
-```javascript
-// Get the app's installation folder.
-var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
-
-// Get the app's manifest file.
-var name = "AppxManifest.xml";
-var manifestFilePromise = appFolder.getItemAsync(name);
-manifestFilePromise.done(function getItemSuccess(manifestFile) {
-});
-
-// Get a file from a subfolder of the current folder
-// by providing a relative path.
-var image = "Assets\\Logo.scale-100.png";
-var logoImagePromise = appFolder.getItemAsync(image);
-logoImagePromise.done(function getItemSuccess(logoImage) {
-});
-```
-
 ## -see-also
 [File access permissions](/windows/uwp/files/file-access-permissions), [GetFileAsync](storagefolder_getfileasync_703762627.md), [GetFolderAsync](storagefolder_getfolderasync_761626819.md), [TryGetItemAsync](storagefolder_trygetitemasync_1863649689.md)

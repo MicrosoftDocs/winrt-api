@@ -127,16 +127,6 @@ The following table shows sample output from formatters created with various val
 
 Use the DateTimeFormatter class to format a date.
 
-```javascript
-// Format a date via a string template. Note that the order specifed in the string pattern does
-// not determine the order of the parts of the formatted string. The user's language and region
-// preferences will determine the pattern of the date returned based on the specified parts.
-
-var mydatefmt = new Windows.Globalization.DateTimeFormatting.DateTimeFormatter("month day dayofweek year");
-var dateToFormat = new Date();
-var mydate = mydatefmt.format(dateToFormat);
-```
-
 ```csharp
 // Format a date via a string template. Note that the order specifed in the string pattern does
 // not determine the order of the parts of the formatted string. The user's language and region

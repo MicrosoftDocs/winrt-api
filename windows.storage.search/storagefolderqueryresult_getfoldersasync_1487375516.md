@@ -20,7 +20,7 @@ The zero-based index of the first folder to retrieve. This parameter defaults to
 The maximum number of folders or file groups to retrieve. Use -1 to retrieve all folders. If the range contains fewer folders than the max number, all folders in the range are returned.
 
 ## -returns
-When this method completes successfully, it returns a list (type [IVectorView](../windows.foundation.collections/ivectorview_1.md)) of folders or file groups that are represented by [storageFolder](../windows.storage/storagefolder.md) objects.
+When this method completes successfully, it returns a list (type [IVectorView](../windows.foundation.collections/ivectorview_1.md)) of folders or file groups that are represented by [StorageFolder](../windows.storage/storagefolder.md) objects.
 
 ## -remarks
 Use this overload to improve system performance by presenting a virtualized view of the query results that includes only the necessary subset of folders. For example, if your app displays many folders in a gallery you could use this range to retrieve only the folders that are currently visible to the user.
@@ -28,4 +28,4 @@ Use this overload to improve system performance by presenting a virtualized view
 ## -examples
 
 ## -see-also
-[storageFolderQueryResult class](storagefolderqueryresult.md), [storageFolderQueryResult.getFoldersAsync() method](storagefolderqueryresult_getfoldersasync_592765033.md), [Windows.Foundation.Collections.IVectorView interface](../windows.foundation.collections/ivectorview_1.md)
+[StorageFolderQueryResult class](storagefolderqueryresult.md), [StorageFolderQueryResult.GetFoldersAsync() method](storagefolderqueryresult_getfoldersasync_592765033.md), [Windows.Foundation.Collections.IVectorView interface](../windows.foundation.collections/ivectorview_1.md)

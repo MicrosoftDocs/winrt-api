@@ -64,16 +64,6 @@ ConnectionProfile^ internetConnectionProfile = NetworkInformation::GetInternetCo
 String^ strConnectionProfileInfo = GetConnectionProfileInfo(internetConnectionProfile);
 ```
 
-```javascript
-var networkInfo = Windows.Networking.Connectivity.NetworkInformation;
-
-// Retrieve the ConnectionProfile.
-var internetConnectionProfile = networkInfo.getInternetConnectionProfile();
-
-// Pass the returned object to a function that accesses the connection data.
-var connectionProfileInfo = getConnectionProfileInfo(internetConnectionProfile);
-```
-
 If more than one connection profile is currently connecting the machine to the internet, the preferred profile is returned by this method. The preferred profile represents the connection that is the most likely to be used when sending and receiving traffic to and from the internet.
 
 ## -examples

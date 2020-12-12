@@ -25,4 +25,4 @@ The OutboundBufferSizeInBytes property must be set before the [StreamWebSocket](
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh761447(v=win.10)), [How to use advanced WebSocket controls ](/previous-versions/windows/apps/hh994400(v=win.10)), [SOL_SOCKET Socket Options](/windows/desktop/WinSock/sol-socket-socket-options), [StreamWebSocket](streamwebsocket.md)
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)), [SOL_SOCKET Socket Options](/windows/desktop/WinSock/sol-socket-socket-options), [StreamWebSocket](streamwebsocket.md)

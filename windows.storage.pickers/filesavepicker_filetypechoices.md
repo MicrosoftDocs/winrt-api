@@ -25,8 +25,6 @@ The [File picker sample](https://github.com/Microsoft/Windows-universal-samples/
 
 [!code-csharp[all_savepicker_setprops](../windows.storage.pickers/code/FilePicker/CS/Scenario4.xaml.cs#Snippetall_savepicker_setprops)]
 
-[!code-js[all_savepicker_setprops](../windows.storage.pickers/code/FilePicker/js/js/scenario4.js#Snippetall_savepicker_setprops)]
-
 ```cppwinrt
 auto plainTextExtensions{ winrt::single_threaded_vector<winrt::hstring>() };
 plainTextExtensions.Append(L".txt");

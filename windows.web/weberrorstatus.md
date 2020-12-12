@@ -243,18 +243,6 @@ else
 }
 ```
 
-```javascript
-var errorStatus = Windows.Networking.Sockets.WebSocketError.getStatus(error.number);
-if (errorStatus === Windows.Web.WebErrorStatus.cannotConnect ||
-    errorStatus === Windows.Web.WebErrorStatus.notFound ||
-    errorStatus === Windows.Web.WebErrorStatus.requestTimeout) {
-    WinJS.log && WinJS.log("Cannot connect to the server");
-}
-else {
-    WinJS.log && WinJS.log("Failed to connect: " + getError(error));
-}
-```
-
 ### Version history
 
 | Windows version | SDK version | Value added |

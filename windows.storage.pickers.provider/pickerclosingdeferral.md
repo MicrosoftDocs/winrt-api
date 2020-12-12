@@ -11,10 +11,10 @@ public class PickerClosingDeferral : Windows.Storage.Pickers.Provider.IPickerClo
 # Windows.Storage.Pickers.Provider.PickerClosingDeferral
 
 ## -description
-Use by an app that provides files to indicate asynchronously that the app is finished responding to a [closing](fileopenpickerui_closing.md) event.
+Use by an app that provides files to indicate asynchronously that the app is finished responding to a [Closing](fileopenpickerui_closing.md) event.
 
 ## -remarks
-If your app participates in the File Open Picker contract, you can use this class to respond to a [closing](fileopenpickerui_closing.md) event.
+If your app participates in the File Open Picker contract, you can use this class to respond to a [Closing](fileopenpickerui_closing.md) event.
 
 ## -examples
 

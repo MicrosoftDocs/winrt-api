@@ -17,17 +17,6 @@ Implements the [ISyndicationClient](isyndicationclient.md) interface which retri
 
 The following code demonstrates how to retrieve a feed using [RetrieveFeedAsync](syndicationclient_retrievefeedasync_2072117461.md).
 
-```javascript
-function GetFeed(feedUri) {
-    var uri = new Windows.Foundation.Uri(feedUri);
-    var client = new Windows.Web.Syndication.SyndicationClient();
-    client.bypassCacheOnRetrieve = true;
-    client.retrieveFeedAsync(uri).then(function (feed) {
-        currentFeed = feed;
-    }
-}
-```
-
 ```csharp
 using Windows.Foundation;
 using Windows.Web.Syndication;

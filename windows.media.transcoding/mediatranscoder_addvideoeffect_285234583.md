@@ -23,7 +23,5 @@ The following example adds a video effect to the transcoder.
 
 
 
-[!code-js[Transcoding_DoTranscode](../windows.media.transcoding/code/Transcoding/javascript/default.js#SnippetTranscoding_DoTranscode)]
-
 ## -see-also
 [AddVideoEffect(String, Boolean, IPropertySet)](mediatranscoder_addvideoeffect_205953283.md)

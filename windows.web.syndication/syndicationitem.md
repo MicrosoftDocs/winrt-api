@@ -17,31 +17,6 @@ Represents an item in the feed. This class encapsulates information in the **/rs
 
 The following code demonstrates how to access the property values of a SyndicationItem object.
 
-```javascript
-
-function displayCurrentItem() {
-    var item = currentFeed.items[currentItemIndex];
-
-    // Title.
-    var title = item.title || "(no title)";
-    document.getElementById("feedItemTitle").innerText = title;
-
-    // Display the main link.
-    var link = "";
-    if (item.links.size > 0) {
-        link = item.links[0].uri.absoluteUri;
-    }
-
-    var feedLink = document.getElementById("feedLink");
-    feedLink.innerText = link;
-    feedLink.href = link;
-
-    // Display the body as HTML.
-    var content = item.content || item.summary || "(no content)";
-    document.getElementById("feedWebView").innerHTML = content;
-}
-```
-
 ```csharp
 
 using Windows.Foundation;

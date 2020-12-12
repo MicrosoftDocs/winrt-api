@@ -79,22 +79,5 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
  });
 ```
 
-```javascript
-// Get the app's local folder.
-var localFolder = Windows.Storage.ApplicationData.current.localFolder;
-
-// Create a new subfolder in the current folder.
-// Raise an exception if the folder already exists.
-var desiredName = "Subfolder";
-var CreationCollisionOption = Windows.Storage.CreationCollisionOption;
-var newFolderPromise = localFolder.createFolderAsync(desiredName, CreationCollisionOption.failIfExists);
-newFolderPromise.done(function createFolderSuccess(newFolder) {
-    // Subfolder was created in the current folder.
-
-}, function createFolderFail(error) {
-    // Subfolder creation fails if the folder already exists. 
-});
-```
-
 ## -see-also
 [CreateFolderAsync(String, CreationCollisionOption)](storagefolder_createfolderasync_1043039832.md)

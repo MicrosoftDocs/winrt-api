@@ -48,28 +48,6 @@ foreach (StorageFile file in fileList)
 }
 ```
 
-```javascript
-
-// Set query options with filter and sort order for results
-var fileTypeFilter = [".jpg", ".png", ".bmp", ".gif"];
-var queryOptions = new Windows.Storage.Search.QueryOptions(search.CommonFileQuery.orderByName, fileTypeFilter);
-
-// Create query and retrieve files
-var query = Windows.Storage.KnownFolders.picturesLibrary.createFileQueryWithOptions(queryOptions);
-query.getFilesAsync().done(function (files) {
-    // Process results
-    files.forEach(function (file) {
-        // Get thumbnail
-        var requestedSize = 190;
-        var thumbnailMode = Windows.Storage.FileProperties.ThumbnailMode.picturesView;
-        var thumbnailOptions = Windows.Storage.FileProperties.ThumbnailOptions.useCurrentScale;
-        item.getThumbnailAsync(thumbnailMode, requestedSize, thumbnailOptions).done(function (thumbnail) {
-            // Perform tasks with thumnail
-        });
-    });
-});
-```
-
 After [GetThumbnailAsync](../windows.storage/storagefile_getthumbnailasync_1511435522.md) completes, thumbnail gets a StorageItemThumbnail object.
 
 In the example, the `file` variable gets a [StorageFile](../windows.storage/storagefile.md) that represents each file that we want to retrieve a thumbnail for. We used a query to obtain [StorageFile](../windows.storage/storagefile.md) objects for these files (stored in the `file` variable), but you can use whatever approach is best for your app to obtain [StorageFile](../windows.storage/storagefile.md) objects (like through the file picker).

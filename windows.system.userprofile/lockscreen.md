@@ -35,10 +35,6 @@ using namespace Windows::System::UserProfile;
 LockScreen::SetImageFileAsync(file)
 ```
 
-```javascript
-Windows.System.UserProfile.LockScreen.setImageFileAsync(file);
-```
-
 This example uses the [GetImageStream](lockscreen_getimagestream_155459607.md) method of this class to retrieve the lock screen image.
 
 ```csharp

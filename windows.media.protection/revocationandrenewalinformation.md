@@ -18,32 +18,32 @@ An instance of this object is returned by the [ComponentLoadFailedEventArgs.Info
 ## -examples
 This example shows a [ComponentLoadFailedEventHandler](componentloadfailedeventhandler.md). A loop iterates through the failed components. And [RenewSystemComponentsAsync](componentrenewal_renewsystemcomponentsasync_1438723694.md) is invoked. Note that the RevocationAndRenewalInformation is passed in through the [ComponentLoadFailedEventArgs](componentloadfailedeventargs.md).
 
-```javascript
-function ComponentLoadFailed(e) {
-
-    for (var i = 0; i < e.information.items.size; i++) {
-        LogMessage('Component Name=' + 
-                    e.information.items[i].name + 
-                    '<BR/>');
-        LogMessage('Failure Reason=' + 
-                    e.information.items[i].reasons.toString(16) + 
-                    '<BR/>');
-        LogMessage('Renewal GUID=' + 
-                    e.information.items[i].renewalId + 
-                    '<BR/>');
+```csharp
+private async void Manager_ComponentLoadFailed(MediaProtectionManager sender, ComponentLoadFailedEventArgs e)
+{
+    for (var i = 0; i < e.Information.Items.Count; i++)
+    {
+        Debug.WriteLine('Component Name=' +
+                    e.Information.Items[i].Name +
+                    "<BR/>");
+        Debug.WriteLine('Failure Reason=' +
+                    e.Information.Items[i].Reasons.ToString(16) +
+                    "<BR/>");
+        Debug.WriteLine('Renewal GUID=' +
+                    e.Information.Items[i].RenewalId +
+                    "<BR/>");
     }
 
-    //  Invoke the revocation               
-    ComponentRenewal.renewSystemComponentsAsync(e.information).then(
-        function (r) {
-            LogMessage("RenewSystemComponentsAsync: " + 
-                        r.toString() + 
-                        '<BR/>');
 
-            e.completion.complete(false);
-        }
-    );
-};
+
+    //  Invoke the revocation               
+    var renewalStatus = await ComponentRenewal.RenewSystemComponentsAsync(e.Information);
+    Debug.WriteLine("RenewSystemComponentsAsync: " +
+                    renewalStatus.ToString() +
+                    "<BR/>");
+
+    e.Completion.Complete(false);
+}
 ```
 
 

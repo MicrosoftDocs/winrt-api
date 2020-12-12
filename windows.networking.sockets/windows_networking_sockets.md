@@ -93,7 +93,7 @@ For more detailed information on network isolation, see [How to configure networ
 ## -see-also
 
 [Adding support for networking](/previous-versions/windows/apps/hh452752(v=win.10)),
-[Connecting to network services](/previous-versions/windows/apps/hh452977(v=win.10)),
+[Connecting with sockets](/previous-versions/windows/apps/hh452976(v=win.10)),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
 [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)),
 [How to configure network isolation capabilities](/previous-versions/windows/apps/hh770532(v=win.10)),

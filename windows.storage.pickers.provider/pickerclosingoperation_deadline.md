@@ -11,10 +11,10 @@ public Windows.Foundation.DateTime Deadline { get; }
 # Windows.Storage.Pickers.Provider.PickerClosingOperation.Deadline
 
 ## -description
-Gets a [dateTime](../windows.foundation/datetime.md) object that indicates when the system will shut down the app that is providing files through the file picker without further notice.
+Gets a [DateTime](../windows.foundation/datetime.md) object that indicates when the system will shut down the app that is providing files through the file picker without further notice.
 
 ## -property-value
-The [dateTime](../windows.foundation/datetime.md) object that indicates when the system will shut down the app.
+The [DateTime](../windows.foundation/datetime.md) object that indicates when the system will shut down the app.
 
 ## -remarks
 

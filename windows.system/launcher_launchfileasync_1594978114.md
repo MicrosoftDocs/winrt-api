@@ -127,25 +127,6 @@ void MainPage::DefaultLaunch()
 }
 ```
 
-```javascript
-// Path to the file in the app package to launch
-var imageFile = "images\\test.png";
-
-// Get the image file from the package's image directory
-Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(imageFile).then(
-  function (file) {
-    // Launch the retrieved file using the default app
-    Windows.System.Launcher.launchFileAsync(file).then(
-      function (success) {
-        if (success) {
-            // File launched
-        } else {
-            // File launch failed
-        }
-      });
-  });
-```
-
 ```vb
 async Sub DefaultLaunch()
 
@@ -170,4 +151,4 @@ End Sub
 ```
 
 ## -see-also
-[Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [Guidelines for file types and URIs](/windows/uwp/files/index), [How to launch the default app for a file (JavaScript)](/previous-versions/windows/apps/hh452687(v=win.10)), [Launch the default app for a file](/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md)
+[Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [Guidelines for file types and URIs](/windows/uwp/files/index), [Launch the default app for a file](/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md)

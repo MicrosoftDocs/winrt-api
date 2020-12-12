@@ -18,8 +18,6 @@ A [UserConsentVerifierAvailability](userconsentverifieravailability.md) value th
 ## -remarks
 The following example shows a method that checks to see if fingerprint authentication is supported for the current computer and returns a message that describes the result.
 
-
-
 ```csharp
 public async Task<string> CheckConsentAvailability()
 {
@@ -51,36 +49,6 @@ public async Task<string> CheckConsentAvailability()
     return returnMessage;
 }
 ```
-
-```javascript
-function checkConsentAvailability() {
-    try {
-        // Check the availability of Hello authentication.
-
-        Windows.Security.Credentials.UI.UserConsentVerifier.checkAvailabilityAsync().then(
-        function (ucvAvailability) {
-
-            switch (ucvAvailability)
-            {
-                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.available:
-                    outputDiv.innerHTML = "<br/>User consent verification available!";
-                    break;
-                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.deviceNotPresent:
-                    outputDiv.innerHTML = "<br/>No PIN found, please set one up.";
-                    break;
-                default:
-                    outputDiv.innerHTML = "<br/>User consent verification is currently unavailable.";
-                    break;
-            }
-        });
-    }
-    catch (ex) {
-        outputDiv.innerHTML = "<br/>User consent verification failed: " + ex.toString();
-    }
-}
-```
-
-
 
 ## -examples
 

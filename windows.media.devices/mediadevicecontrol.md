@@ -23,10 +23,7 @@ Various properties on the [VideoDeviceController](videodevicecontroller.md) obje
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
 
 ## -examples
-The following example shows how to get the [Brightness](videodevicecontroller_brightness.md) on a [VideoDeviceController](videodevicecontroller.md). Note that [Brightness](videodevicecontroller_brightness.md) is a [MediaDeviceController](imediadevicecontroller.md).
 
-
-
-[!code-js[VideoDeviceController_Brightness](../windows.media.devices/code/VideoDeviceController/javascript/default.js#SnippetVideoDeviceController_Brightness)]
+For examples of setting media device controllers, see [Manual camera controls for photo and video capture](/windows/uwp/audio-video-camera/capture-device-controls-for-photo-and-video-capture)
 
 ## -see-also

@@ -25,4 +25,4 @@ For more detailed information, see the [SO_KEEPALIVE](/windows/desktop/WinSock/s
 ## -examples
 
 ## -see-also
-[How to use advanced socket controls ](/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocket](streamsocket.md), [StreamSocketListener](streamsocketlistener.md)
+[How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocket](streamsocket.md), [StreamSocketListener](streamsocketlistener.md)

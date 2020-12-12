@@ -20,7 +20,7 @@ The zero-based index of the first file to retrieve. This parameter is 0 by defau
 The maximum number of files to retrieve. Use -1 to retrieve all files. If the range contains fewer files than the max number, all files in the range are returned.
 
 ## -returns
-When this method completes successfully, it returns a list (type [IVectorView](../windows.foundation.collections/ivectorview_1.md)) of files that are represented by [storageFile](../windows.storage/storagefile.md) objects.
+When this method completes successfully, it returns a list (type [IVectorView](../windows.foundation.collections/ivectorview_1.md)) of files that are represented by [StorageFile](../windows.storage/storagefile.md) objects.
 
 ## -remarks
 Use this overload to improve system performance by presenting a virtualized view of the query results that includes only the necessary subset of files. For example, if your app displays many files in a gallery you could use this range to retrieve only the files that are currently visible to the user.
@@ -28,4 +28,4 @@ Use this overload to improve system performance by presenting a virtualized view
 ## -examples
 
 ## -see-also
-[storageFileQueryResult class](storagefilequeryresult.md), [storageFileQueryResult.getFilesAsync() method](storagefilequeryresult_getfilesasync_819750470.md), [Windows.Foundation.Collections.IVectorView interface](../windows.foundation.collections/ivectorview_1.md)
+[StorageFileQueryResult class](storagefilequeryresult.md), [StorageFileQueryResult.GetFilesAsync() method](storagefilequeryresult_getfilesasync_819750470.md), [Windows.Foundation.Collections.IVectorView interface](../windows.foundation.collections/ivectorview_1.md)

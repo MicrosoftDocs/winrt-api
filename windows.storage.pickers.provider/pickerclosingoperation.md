@@ -11,10 +11,10 @@ public class PickerClosingOperation : Windows.Storage.Pickers.Provider.IPickerCl
 # Windows.Storage.Pickers.Provider.PickerClosingOperation
 
 ## -description
-Lets an app that provides files get the deadline for responding to a [closing](fileopenpickerui_closing.md) event and get a deferral so the app can respond to the event asynchronously.
+Lets an app that provides files get the deadline for responding to a [Closing](fileopenpickerui_closing.md) event and get a deferral so the app can respond to the event asynchronously.
 
 ## -remarks
-If your app participates in the File Open Picker contract, you can use this class to respond to a [closing](fileopenpickerui_closing.md) event.
+If your app participates in the File Open Picker contract, you can use this class to respond to a [Closing](fileopenpickerui_closing.md) event.
 
 ## -examples
 

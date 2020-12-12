@@ -11,13 +11,13 @@ public Windows.Storage.Pickers.Provider.PickerClosingDeferral GetDeferral()
 # Windows.Storage.Pickers.Provider.PickerClosingOperation.GetDeferral
 
 ## -description
-Gets a [pickerClosingDeferral](pickerclosingdeferral.md) that the app providing files through the file picker can use to respond asynchronously to a [closing](fileopenpickerui_closing.md) event.
+Gets a [PickerClosingDeferral](pickerclosingdeferral.md) that the app providing files through the file picker can use to respond asynchronously to a [Closing](fileopenpickerui_closing.md) event.
 
 ## -returns
-The [pickerClosingDeferral](pickerclosingdeferral.md) that the app providing files through the file picker can use to respond asynchronously to a [closing](fileopenpickerui_closing.md) event.
+The [PickerClosingDeferral](pickerclosingdeferral.md) that the app providing files through the file picker can use to respond asynchronously to a [Closing](fileopenpickerui_closing.md) event.
 
 ## -remarks
-Use this method to finish responding to a [closing](fileopenpickerui_closing.md) event asynchronously.
+Use this method to finish responding to a [Closing](fileopenpickerui_closing.md) event asynchronously.
 
 ## -examples
 

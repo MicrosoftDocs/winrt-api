@@ -23,41 +23,6 @@ Typically, Windows implicitly initiates updates for files that are provided by o
 
 The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) shows you how to use a CachedFileManager to defer updates to a file until the app finishes modifying the file.
 
-```javascript
-
-if (file) {
-    // Prevent updates to the remote version of the file until we finish making changes and call CompleteUpdatesAsync.
-    Windows.Storage.CachedFileManager.deferUpdates(file);
-
-    // Write to file
-    Windows.Storage.FileIO.appendTextAsync(file, "Swift as a shadow").then(function () {
-
-        // Complete updates. (May require Windows to ask for user input.)
-        Windows.Storage.CachedFileManager.completeUpdatesAsync(file).then(function (fileUpdateStatus) {
-            switch (fileUpdateStatus) {
-                case Windows.Storage.Provider.FileUpdateStatus.complete:
-                    // Perform additional tasks like notifying user of status
-                    break;
-
-                case Windows.Storage.Provider.FileUpdateStatus.completeAndRenamed:
-                    // Perform additional tasks like notifying user of status, or storing the renamed file for future use
-                    break;
-
-                default:
-                    // Perform additional tasks like notifying user of status
-                    break;
-            }
-        // Handle errors with an error function
-        }, function (error) {
-            // Handle errors encountered during completeUpdatesAsync
-        });
-    // Handle errors with an error function
-    }, function (error) {
-        // Handle errors encountered during appendTextAsync
-    });
-}
-```
-
 ```csharp
 if (file != null)
 {

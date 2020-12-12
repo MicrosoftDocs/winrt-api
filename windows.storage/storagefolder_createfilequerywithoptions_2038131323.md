@@ -130,40 +130,15 @@ StorageFileQueryResult^ results = picturesFolder->CreateFileQueryWithOptions(que
 
 create_task(results->GetFilesAsync()).then([=](IVectorView<StorageFile^>^ filesInFolder) 
 {
-	//Iterate over the results and print the list of files
-	// to the visual studio output window
-	for (auto it = filesInFolder->First(); it->HasCurrent; it->MoveNext())
-	{
-			 StorageFile^ file = it->Current;
-			 String^ output = file->Name + "\n";
-			 OutputDebugString(output->Begin());
-	}
-	);
-```
-
-```javascript
-// Get the user's Pictures folder.
-// Enable the corresponding capability in the app manifest file.
-var KnownFolders = Windows.Storage.KnownFolders;
-var picturesFolder = KnownFolders.picturesLibrary;
-
-// Set options for file type and sort order.
-var fileTypeFilter = [".jpg"];
-var CommonFileQuery = Windows.Storage.Search.CommonFileQuery;
-var queryOptions = new Windows.Storage.Search.QueryOptions(CommonFileQuery.orderByDate, fileTypeFilter);
-
-// Get the JPG files in the user's Pictures folder
-// and its subfolders and sort them by date.
-var results = picturesFolder.createFileQueryWithOptions(queryOptions);
-
-// Iterate over the results and print the list of files
-// to the Visual Studio Output window.
-var sortedFilesPromise = results.getFilesAsync();
-sortedFilesPromise.done(function (sortedFiles) {
-    sortedFiles.forEach(function forEachFile(item) {
-        console.log(item.name, item.dateCreated);
-    });
-});
+    //Iterate over the results and print the list of files
+    // to the visual studio output window
+    for (auto it = filesInFolder->First(); it->HasCurrent; it->MoveNext())
+    {
+             StorageFile^ file = it->Current;
+             String^ output = file->Name + "\n";
+             OutputDebugString(output->Begin());
+    }
+    );
 ```
 
 ## -see-also

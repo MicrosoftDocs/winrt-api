@@ -37,14 +37,6 @@ To learn more about what locations your app can access, see [File access permiss
 ## -examples
 You can create an empty file in the Downloads folder like this:
 
-```javascript
-Windows.Storage.DownloadsFolder.createFileAsync("sample.txt").done(
-    function (file) {
-        // Process file
-    }
-);
-```
-
 ```csharp
 StorageFile file = await Windows.Storage.DownloadsFolder.CreateFileAsync("sample.txt");
 // Process file

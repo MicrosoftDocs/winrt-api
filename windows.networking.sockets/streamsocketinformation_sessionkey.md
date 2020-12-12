@@ -25,7 +25,7 @@ For other [StreamSocket](streamsocket.md) objects not initiated by tapping, the 
 ## -examples
 
 ## -see-also
-[How to use advanced socket controls ](/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](/previous-versions/windows/apps/jj150598(v=win.10)), [Supporting proximity and tapping](/previous-versions/windows/apps/hh465229(v=win.10)), [StreamSocket](streamsocket.md), [Windows.Networking.Proximity.PeerFinder](../windows.networking.proximity/peerfinder.md), [Windows.Security.Cryptography.Core.SymmetricKeyAlgorithmProvider](../windows.security.cryptography.core/symmetrickeyalgorithmprovider.md)
+[How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [Supporting proximity and tapping](/previous-versions/windows/apps/hh465229(v=win.10)), [StreamSocket](streamsocket.md), [Windows.Networking.Proximity.PeerFinder](../windows.networking.proximity/peerfinder.md), [Windows.Security.Cryptography.Core.SymmetricKeyAlgorithmProvider](../windows.security.cryptography.core/symmetrickeyalgorithmprovider.md)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

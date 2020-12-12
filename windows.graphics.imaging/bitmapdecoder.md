@@ -43,15 +43,30 @@ The BitmapDecoder class implements [IBitmapFrame](ibitmapframe.md). It provides 
 
 Here's a partial example of creating a decoder object. This example assumes you selected a file with [Windows.Storage.Pickers.FileOpenPicker](../windows.storage.pickers/fileopenpicker.md). For full instructions on selecting a file, creating an decoder, and decoding an image see [Imaging](/windows/uwp/audio-video-camera/imaging)
 
-```javascript
-file.openAsync(Windows.Storage.FileAccessMode.readWrite).then(function(_stream) {
-    stream = _stream;
+```csharp
+FileOpenPicker fileOpenPicker = new FileOpenPicker();
+fileOpenPicker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
+fileOpenPicker.FileTypeFilter.Add(".jpg");
+fileOpenPicker.ViewMode = PickerViewMode.Thumbnail;
 
-    return Windows.Graphics.Imaging.BitmapDecoder.createAsync(stream);
-}).then(function(decoder) {
+var inputFile = await fileOpenPicker.PickSingleFileAsync();
 
-    // Your code here.
-});
+if (inputFile == null)
+{
+    // The user cancelled the picking operation
+    return;
+}
+
+SoftwareBitmap softwareBitmap;
+
+using (IRandomAccessStream stream = await inputFile.OpenAsync(FileAccessMode.Read))
+{
+    // Create the decoder from the stream
+    BitmapDecoder decoder = await BitmapDecoder.CreateAsync(stream);
+
+    // Get the SoftwareBitmap representation of the file
+    softwareBitmap = await decoder.GetSoftwareBitmapAsync();
+}
 ```
 
 ## -see-also

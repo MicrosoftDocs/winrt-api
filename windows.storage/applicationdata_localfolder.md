@@ -32,4 +32,4 @@ If the device that runs this app supports app data backup, any content placed on
 ## -examples
 
 ## -see-also
-[Quickstart: Local application data (JavaScript)](/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data), [Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data)
+[Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data)

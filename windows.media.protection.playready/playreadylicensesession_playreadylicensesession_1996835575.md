@@ -28,7 +28,7 @@ In order for you to make use of the **PlayReadyLicenseSession** class, you must 
 
 The following JavaScript code demonstrates this process.
 
-```javascript
+```csharp
     var cpsystems = new Windows.Foundation.Collections.PropertySet();       
     cpsystems["{F4637010-03C3-42CD-B932-B48ADF3A6A54}"] = "Windows.Media.Protection.PlayReady.PlayReadyWinRTTrustedInput"; // PlayReady
  
