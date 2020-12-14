@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.UI.ViewManagement.ApplicationViewSwitchingOptions
 -api-type: winrt enum
+ms.custom: project-verbatim
 ---
 
 <!-- Enumeration syntax
