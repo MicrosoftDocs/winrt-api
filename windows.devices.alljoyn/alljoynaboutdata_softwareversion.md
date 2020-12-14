@@ -17,7 +17,7 @@ The version number of the app. Use of this property applies to Producer apps.
 The version number.
 
 ## -remarks
-By default the returned value is pulled from either the "Version" field of the UWP app app manifest, or the "Product version" property of the EXE of a Desktop app.
+By default the returned value is pulled from either the "Version" field of the UWP app manifest, or the "Product version" property of the EXE of a Desktop app.
 
 ## -examples
 
