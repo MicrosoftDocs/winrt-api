@@ -12,7 +12,7 @@ public IAsyncOperation<GattCharacteristicsResult> GattDeviceService.GetCharacter
 
 ## -description
 
-Gets the characterisitics that are part of this GattDeviceService instance.
+Gets the characteristics that are part of this GattDeviceService instance.
 
 ## -returns
 
