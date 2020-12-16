@@ -24,4 +24,4 @@ Use [GameSaveProvider.CreateContainerInfoQuery](gamesaveprovider_createcontainer
 
 ## -see-also
 
-[Object](/dotnet/api/system.object?redirectedfrom=MSDN)
+[Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true)

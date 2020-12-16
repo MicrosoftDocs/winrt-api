@@ -13,7 +13,7 @@ public struct HResult
 Represents a Windows Runtime error.
 
 > **.NET**
-> When programming with .NET, this type is hidden, and exceptions appear as [System.Exception](/dotnet/api/system.exception?redirectedfrom=MSDN) or specific derived exception types. See Remarks.
+> When programming with .NET, this type is hidden, and exceptions appear as [System.Exception](/dotnet/api/system.exception?view=dotnet-uwp-10.0&preserve-view=true) or specific derived exception types. See Remarks.
 
 ## -struct-fields
 
@@ -22,7 +22,7 @@ An integer that describes an error.
     
 
 ## -remarks
-When programming with .NET, this class is hidden. All exceptions that are visible to .NET programming are instead reported as an instance of the [System.Exception](/dotnet/api/system.exception?redirectedfrom=MSDN) class, or a specific derivative exception (a standard exception) where the exception type encapsulates a more detailed meaning or scenario for the exception. This is true for first-chance exceptions you encounter while developing, run-time exceptions, and any exceptions that you can handle at the app level using the [UnhandledException](../windows.ui.xaml/application_unhandledexception.md) technique.
+When programming with .NET, this class is hidden. All exceptions that are visible to .NET programming are instead reported as an instance of the [System.Exception](/dotnet/api/system.exception?view=dotnet-uwp-10.0&preserve-view=true) class, or a specific derivative exception (a standard exception) where the exception type encapsulates a more detailed meaning or scenario for the exception. This is true for first-chance exceptions you encounter while developing, run-time exceptions, and any exceptions that you can handle at the app level using the [UnhandledException](../windows.ui.xaml/application_unhandledexception.md) technique.
 
 For more info on how to handle exceptions using C# or Visual Basic, see [Exception handling for  in C# or Visual Basic](/previous-versions/windows/apps/dn532194(v=win.10)).
 

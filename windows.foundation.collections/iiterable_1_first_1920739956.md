@@ -16,7 +16,7 @@ Returns an iterator for the items in the collection.
 The iterator.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IEnumerable<T>](/dotnet/api/system.collections.generic.ienumerable-1) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IEnumerable<T>](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true) interface.
 
 ## -examples
 

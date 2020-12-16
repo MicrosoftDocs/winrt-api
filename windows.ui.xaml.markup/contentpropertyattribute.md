@@ -55,4 +55,4 @@ Another prominent example of ContentPropertyAttribute in action can be seen on t
 ## -examples
 
 ## -see-also
-[Attribute](/dotnet/api/system.attribute?redirectedfrom=MSDN), [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)
+[Attribute](/dotnet/api/system.attribute?view=dotnet-uwp-10.0&preserve-view=true), [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)

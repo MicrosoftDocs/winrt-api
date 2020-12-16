@@ -14,7 +14,7 @@ public Windows.Foundation.Collections.IVectorView<string> GetTextCandidates()
 Retrieves the collection of strings identified as potential matches for each word returned by handwriting recognition.
 
 ## -returns
-The recognition matches as a collection of [String](/dotnet/api/system.string?redirectedfrom=MSDN) objects. The most likely candidate is topmost in the collection.
+The recognition matches as a collection of [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) objects. The most likely candidate is topmost in the collection.
 
 ## -remarks
 

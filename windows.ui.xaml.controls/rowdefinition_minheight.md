@@ -21,7 +21,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RowDefinition.MinHeight](
 
 
 ## -property-value
-A [Double](/dotnet/api/system.double?redirectedfrom=MSDN) that represents the minimum allowed height. The default value is 0.
+A [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) that represents the minimum allowed height. The default value is 0.
 
 ## -remarks
 

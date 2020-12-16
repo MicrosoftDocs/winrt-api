@@ -17,4 +17,4 @@ Indicates the threading model of a Windows Runtime component.
 ## -examples
 
 ## -see-also
-[Attribute](/dotnet/api/system.attribute?redirectedfrom=MSDN)
+[Attribute](/dotnet/api/system.attribute?view=dotnet-uwp-10.0&preserve-view=true)

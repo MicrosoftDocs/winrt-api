@@ -42,7 +42,7 @@ Setting a DataContext is convenient for setting several bindings of different pr
 
 How you implement the object data source varies depending on your requirements and your programming language. For more info, see [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth).
 
-A common scenario for C# and Microsoft Visual Basic data contexts is to use a CLR-defined business object that supports change notification. For a business object, the custom class used as data context typically implements [INotifyPropertyChanged](../windows.ui.xaml.data/inotifypropertychanged.md), so that updates to the data can update a one-way or two-way binding. If the data source is a collection of business objects, it can implement [INotifyCollectionChanged](../windows.ui.xaml.interop/inotifycollectionchanged.md) plus list support ([IList<T>](/dotnet/api/system.collections.generic.ilist-1) or [List<T>](/dotnet/api/system.collections.generic.ilist-1)), or derive from [ObservableCollection<T>](/dotnet/api/system.collections.objectmodel.observablecollection-1).
+A common scenario for C# and Microsoft Visual Basic data contexts is to use a CLR-defined business object that supports change notification. For a business object, the custom class used as data context typically implements [INotifyPropertyChanged](../windows.ui.xaml.data/inotifypropertychanged.md), so that updates to the data can update a one-way or two-way binding. If the data source is a collection of business objects, it can implement [INotifyCollectionChanged](../windows.ui.xaml.interop/inotifycollectionchanged.md) plus list support ([IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true) or [List<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true)), or derive from [ObservableCollection<T>](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 This example sets the DataContext directly to an instance of a custom class.
@@ -168,5 +168,4 @@ namespace winrt::MyColorsApp::implementation
 [!code-vb[DataContext](../windows.ui.xaml.controls.primitives/code/Binding_Simple/vbnet/BlankPage.xaml.vb#SnippetDataContext)]
 
 ## -see-also
-[Binding](../windows.ui.xaml.data/binding.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [ObservableCollection<T>](/dotnet/api/system.collections.objectmodel.observablecollection-1)
-jectModel.ObservableCollection`1)
+[Binding](../windows.ui.xaml.data/binding.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [ObservableCollection<T>](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true)

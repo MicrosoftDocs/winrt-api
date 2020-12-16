@@ -168,7 +168,7 @@ In XAML, the keys for ResourceDictionaryitems are declared by setting the [x:Key
 
 ### Iterating through a **ResourceDictionary**
 
-You can iterate through a ResourceDictionary in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable<T>](/dotnet/api/system.collections.generic.ienumerable-1) with a **KeyValuePair&lt;Object,Object&gt;** constraint.
+You can iterate through a ResourceDictionary in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](/dotnet/api/system.collections.ienumerable.getenumerator?view=dotnet-uwp-10.0&preserve-view=true), cast to [IEnumerable<T>](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true) with a **KeyValuePair&lt;Object,Object&gt;** constraint.
 
 ### **ResourceDictionary** and Microsoft Visual Studio
 
@@ -212,8 +212,8 @@ In practice, the vast majority of the resources defined in a ResourceDictionary 
 
 The API that your code uses to access the resources in a ResourceDictionary depends on which programming language you use:
 + For C# or Microsoft Visual Basic you use API that implement 
-[IDictionary&lt;TKey,TValue&gt;](/dotnet/api/system.collections.generic.idictionary-2?view=dotnet-uwp-10.0) and 
-[IEnumerable&lt;T&gt;](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0). For example, [TryGetValue](/dotnet/api/system.collections.generic.idictionary-2.trygetvalue?view=dotnet-uwp-10.0) or the [Item](/dotnet/api/system.collections.generic.idictionary-2.item?view=dotnet-uwp-10.0) indexer.
+[IDictionary&lt;TKey,TValue&gt;](/dotnet/api/system.collections.generic.idictionary-2?view=dotnet-uwp-10.0&preserve-view=true) and 
+[IEnumerable&lt;T&gt;](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true). For example, [TryGetValue](/dotnet/api/system.collections.generic.idictionary-2.trygetvalue?view=dotnet-uwp-10.0&preserve-view=true) or the [Item](/dotnet/api/system.collections.generic.idictionary-2.item?view=dotnet-uwp-10.0&preserve-view=true) indexer.
 + For Visual C++ component extensions (C++/CX) you use API that implement [IMap<K,V>](../windows.foundation.collections/imap_2.md) and [IIterable<T>](../windows.foundation.collections/iiterable_1.md). For example, [Lookup](resourcedictionary_lookup_786690417.md).
 + API that aren't part of collection support, like [Source](resourcedictionary_source.md), are the same in all languages.
 

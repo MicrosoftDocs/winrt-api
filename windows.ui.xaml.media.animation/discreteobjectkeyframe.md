@@ -10,7 +10,7 @@ public class DiscreteObjectKeyFrame : Windows.UI.Xaml.Media.Animation.ObjectKeyF
 # Windows.UI.Xaml.Media.Animation.DiscreteObjectKeyFrame
 
 ## -description
-Animates from the [Object](/dotnet/api/system.object?redirectedfrom=MSDN) value of the previous key frame to its own [Value](objectkeyframe_value.md) using discrete values.
+Animates from the [Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true) value of the previous key frame to its own [Value](objectkeyframe_value.md) using discrete values.
 
 Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DiscreteObjectKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.discreteobjectkeyframe).
 

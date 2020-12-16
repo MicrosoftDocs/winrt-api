@@ -18,7 +18,7 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableIterable.First](/wi
 The bindable iterator.
 
 ## -remarks
-This interface supports the creation of data bindable collections in C++. When programming with .NET, this interface is hidden and developers should use the [System.Collections.IEnumerable](/dotnet/api/system.collections.ienumerable?redirectedfrom=MSDN) interface instead.
+This interface supports the creation of data bindable collections in C++. When programming with .NET, this interface is hidden and developers should use the [System.Collections.IEnumerable](/dotnet/api/system.collections.ienumerable?view=dotnet-uwp-10.0&preserve-view=true) interface instead.
 
 ## -examples
 

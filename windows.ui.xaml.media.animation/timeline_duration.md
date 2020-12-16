@@ -39,7 +39,7 @@ The timeline's simple duration: the amount of time this timeline takes to comple
 ## -remarks
 A [Duration](../windows.ui.xaml/duration.md) value has a **TimeSpan** component.
 + For Visual C++ component extensions (C++/CX), the data value of a [Duration](../windows.ui.xaml/duration.md) is a property named **TimeSpan**. This has a [TimeSpan](../windows.foundation/timespan.md) structure value, and that structure has a field named **Duration** that reports the duration as an **int64** that counts in 100-nanosecond units. [TimeSpan](../windows.foundation/timespan.md) doesn't have any methods for getting components of the time in *hours:minutes:seconds* format.
-+ For C# or Microsoft Visual Basic, you can use utility methods of **System.TimeSpan** to get the duration components in whatever format you want. For example you can get [TimeSpan.Hours](/dotnet/api/system.timespan.hours?redirectedfrom=MSDN#System_TimeSpan_Hours), [TimeSpan.Minutes](/dotnet/api/system.timespan.minutes?redirectedfrom=MSDN#System_TimeSpan_Minutes) and [TimeSpan.Seconds](/dotnet/api/system.timespan.seconds?redirectedfrom=MSDN#System_TimeSpan_Seconds) separately.
++ For C# or Microsoft Visual Basic, you can use utility methods of **System.TimeSpan** to get the duration components in whatever format you want. For example you can get [TimeSpan.Hours](/dotnet/api/system.timespan.hours?view=dotnet-uwp-10.0&preserve-view=true), [TimeSpan.Minutes](/dotnet/api/system.timespan.minutes?view=dotnet-uwp-10.0&preserve-view=true) and [TimeSpan.Seconds](/dotnet/api/system.timespan.seconds?view=dotnet-uwp-10.0&preserve-view=true) separately.
 + For more info, see Remarks in the [Duration](../windows.ui.xaml/duration.md) reference topic.
 
 

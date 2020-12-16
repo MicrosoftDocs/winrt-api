@@ -13,13 +13,13 @@ public class Uri : Windows.Foundation.IStringable, Windows.Foundation.IUriRuntim
 Defines an object that represents a Uniform Resource Identifier (URI) value and parses it into components. The Uri object is used by many other Windows Runtime APIs that are not necessarily confined to web browser scenarios.
 
 > **.NET**
-> When programming with .NET, this type is hidden and developers should use [System.Uri](/dotnet/api/system.uri?redirectedfrom=MSDN). See Remarks.
+> When programming with .NET, this type is hidden and developers should use [System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true). See Remarks.
 
 ## -remarks
 > [!IMPORTANT]
-> When programming with .NET, this class is hidden and developers should use the [System.Uri](/dotnet/api/system.uri?redirectedfrom=MSDN) class, which uses RFC 3987 rules to encode and decode Uniform Resource Identifier (URI). The Windows.Foundation.Uri class doesn't percent-encode non-ASCII characters in Uniform Resource Identifier (URI) where the scheme refers to a Windows file path (like ms-appx:). Windows.Foundation.Uri also interprets percent-encoding using the user's current codepage.
+> When programming with .NET, this class is hidden and developers should use the [System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true) class, which uses RFC 3987 rules to encode and decode Uniform Resource Identifier (URI). The Windows.Foundation.Uri class doesn't percent-encode non-ASCII characters in Uniform Resource Identifier (URI) where the scheme refers to a Windows file path (like ms-appx:). Windows.Foundation.Uri also interprets percent-encoding using the user's current codepage.
 
-The available members of [System.Uri](/dotnet/api/system.uri?redirectedfrom=MSDN) are similar but different than the members of Windows.Foundation.Uri, and some of the basic behaviors described in this topic are different. For more info on the encoding differences and what members are available, see [System.Uri](/dotnet/api/system.uri?redirectedfrom=MSDN) (particularly the Remarks).
+The available members of [System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true) are similar but different than the members of Windows.Foundation.Uri, and some of the basic behaviors described in this topic are different. For more info on the encoding differences and what members are available, see [System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true) (particularly the Remarks).
 
 Here is a breakdown of the parts of an example Uniform Resource Identifier (URI):
 
@@ -142,4 +142,4 @@ auto uri = ref new Windows::Foundation::Uri(uriFile);
 ```
 
 ## -see-also
-[System.Uri](/dotnet/api/system.uri), [How to reference content (HTML)](/previous-versions/windows/apps/hh781215(v=win.10)), [How to load file resources (XAML)](/previous-versions/windows/apps/hh965322(v=win.10)), [Connecting to networks and web services](/windows/uwp/networking/index), [WwwFormUrlDecoder](wwwformurldecoder.md), [createObjectURL (for HTML/JavaScript)](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL), [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt), [RFC 3987](https://tools.ietf.org/html/rfc3987), [RssReader sample](/samples/microsoft/windows-appsample-rssreader/rssreader-sample/)
+[System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true), [How to reference content (HTML)](/previous-versions/windows/apps/hh781215(v=win.10)), [How to load file resources (XAML)](/previous-versions/windows/apps/hh965322(v=win.10)), [Connecting to networks and web services](/windows/uwp/networking/index), [WwwFormUrlDecoder](wwwformurldecoder.md), [createObjectURL (for HTML/JavaScript)](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL), [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt), [RFC 3987](https://tools.ietf.org/html/rfc3987), [RssReader sample](/samples/microsoft/windows-appsample-rssreader/rssreader-sample/)

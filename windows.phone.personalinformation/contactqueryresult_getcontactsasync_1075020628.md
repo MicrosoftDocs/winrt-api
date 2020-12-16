@@ -20,7 +20,7 @@ The index of the first contact to be retrieved.
 The number of contacts to retrieve.
 
 ## -returns
-When this method completes, it returns an [IVectorView](/previous-versions/br224594(v=vs.85)) containing [StoredContact](storedcontact.md) objects. If you use [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is a read-only list/vector of [StoredContact](storedcontact.md) items. (You can use APIs of [IVectorView<StoredContact>](../windows.foundation.collections/ivectorview_1.md) for C++, APIs of [IReadOnlyList<StoredContact>](/dotnet/api/system.collections.generic.ireadonlylist-1) for .NET.)
+When this method completes, it returns an [IVectorView](/previous-versions/br224594(v=vs.85)) containing [StoredContact](storedcontact.md) objects. If you use [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is a read-only list/vector of [StoredContact](storedcontact.md) items. (You can use APIs of [IVectorView<StoredContact>](../windows.foundation.collections/ivectorview_1.md) for C++, APIs of [IReadOnlyList<StoredContact>](/dotnet/api/system.collections.generic.ireadonlylist-1?view=dotnet-uwp-10.0&preserve-view=true) for .NET.)
 
 ## -remarks
 

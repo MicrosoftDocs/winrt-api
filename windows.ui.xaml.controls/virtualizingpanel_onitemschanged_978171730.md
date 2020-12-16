@@ -16,7 +16,7 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VirtualizingPanel.OnItemsCh
 
 ## -parameters
 ### -param sender
-The [Object](/dotnet/api/system.object?redirectedfrom=MSDN) that raised the event.
+The [Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true) that raised the event.
 
 ### -param args
 Provides data for the [ItemsChanged](itemcontainergenerator_itemschanged.md) event.

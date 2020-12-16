@@ -30,7 +30,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ToggleButton.I
 **true** if the [ToggleButton](togglebutton.md) is checked; **false** if the [ToggleButton](togglebutton.md) is unchecked; otherwise **null**. The default is **false**.
 
 <!--Projection dochack:-->
-If you are programming using C# or Microsoft Visual Basic, the type of this property is projected as **bool?** (a nullable [Boolean](/dotnet/api/system.boolean?redirectedfrom=MSDN)).
+If you are programming using C# or Microsoft Visual Basic, the type of this property is projected as **bool?** (a nullable [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true)).
 
 ## -remarks
 [ToggleButton](togglebutton.md) and can have three states: <table>
@@ -50,4 +50,4 @@ To set the value to **null** in XAML, use the [{x:Null} markup extension](/windo
 ## -examples
 
 ## -see-also
-[Nullable](/dotnet/api/system.nullable-1), [{x:Null} markup extension](/windows/uwp/xaml-platform/x-null-markup-extension)
+[Nullable](/dotnet/api/system.nullable-1?view=dotnet-uwp-10.0&preserve-view=true), [{x:Null} markup extension](/windows/uwp/xaml-platform/x-null-markup-extension)

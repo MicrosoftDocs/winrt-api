@@ -22,7 +22,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.MaxHeight](/windo
 
 
 ## -property-value
-The maximum height of the object, in pixels. The default value is [PositiveInfinity](/dotnet/api/system.double.positiveinfinity?redirectedfrom=MSDN). This value can be any value equal to or greater than 0. [PositiveInfinity](/dotnet/api/system.double.positiveinfinity?redirectedfrom=MSDN) is also valid.
+The maximum height of the object, in pixels. The default value is [PositiveInfinity](/dotnet/api/system.double.positiveinfinity?view=dotnet-uwp-10.0&preserve-view=true). This value can be any value equal to or greater than 0. [PositiveInfinity](/dotnet/api/system.double.positiveinfinity?view=dotnet-uwp-10.0&preserve-view=true) is also valid.
 
 ## -remarks
 MaxHeight is one of three writable properties on [FrameworkElement](frameworkelement.md) that specify height information. The other two are [Height](frameworkelement_height.md) and [MinHeight](frameworkelement_minheight.md). If there is a conflict between these values, the order of application for actual height determination is that first [MinHeight](frameworkelement_minheight.md) must be honored, then MaxHeight, and finally, if it is within bounds, [Height](frameworkelement_height.md). All of these properties are recommendations to the layout behavior of the element's parent in the object tree. The height of the object after layout runs is available as the [ActualHeight](frameworkelement_actualheight.md) property value.

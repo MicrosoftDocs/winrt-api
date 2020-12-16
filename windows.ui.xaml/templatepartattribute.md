@@ -19,4 +19,4 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.TemplatePartAttribute](/windows/winui
 ## -examples
 
 ## -see-also
-[Attribute](/dotnet/api/system.attribute?redirectedfrom=MSDN), [Styling controls](/windows/uwp/controls-and-patterns/styling-controls), [Quickstart: control templates](/previous-versions/windows/apps/hh465374(v=win.10))
+[Attribute](/dotnet/api/system.attribute?view=dotnet-uwp-10.0&preserve-view=true), [Styling controls](/windows/uwp/controls-and-patterns/styling-controls), [Quickstart: control templates](/previous-versions/windows/apps/hh465374(v=win.10))

@@ -8,7 +8,7 @@ public delegate void PropertyChangedEventHandler(System.Object sender, Windows.U
 # Windows.UI.Xaml.Data.PropertyChangedEventHandler
 
 ## -description
-Represents the method that will handle the [PropertyChanged](inotifypropertychanged_propertychanged.md) event. When programming with Microsoft .NET this delegate is hidden, use the [System.ComponentModel.PropertyChangedEventHandler](/dotnet/api/system.componentmodel.propertychangedeventhandler?redirectedfrom=MSDN) delegate.
+Represents the method that will handle the [PropertyChanged](inotifypropertychanged_propertychanged.md) event. When programming with Microsoft .NET this delegate is hidden, use the [System.ComponentModel.PropertyChangedEventHandler](/dotnet/api/system.componentmodel.propertychangedeventhandler?view=dotnet-uwp-10.0&preserve-view=true) delegate.
 
 Equivalent WinUI delegate: [Microsoft.UI.Xaml.Data.PropertyChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.data.propertychangedeventhandler).
 
@@ -21,7 +21,7 @@ Event data.
 
 
 ## -remarks
-When programming with Microsoft .NET, this delegate is hidden. Microsoft .NET Developers should use the [System.ComponentModel.PropertyChangedEventHandler](/dotnet/api/system.componentmodel.propertychangedeventhandler?redirectedfrom=MSDN) delegate.
+When programming with Microsoft .NET, this delegate is hidden. Microsoft .NET Developers should use the [System.ComponentModel.PropertyChangedEventHandler](/dotnet/api/system.componentmodel.propertychangedeventhandler?view=dotnet-uwp-10.0&preserve-view=true) delegate.
 
 ## -examples
 This example demonstrates how to implement the [INotifyPropertyChanged](inotifypropertychanged.md) interface and use PropertyChangedEventHandler. For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind).

@@ -32,7 +32,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PivotItem.Header](/window
 <dt>headerObject</dt><dd>headerObjectAn single object element that serves as header content. Use discretion when using objects as header content; not all objects are suitable for use within the limited presentation surface that appears for headers.</dd>
 </dl>
 ## -property-value
-Returns [Object](/dotnet/api/system.object?redirectedfrom=MSDN).
+Returns [Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -remarks
 

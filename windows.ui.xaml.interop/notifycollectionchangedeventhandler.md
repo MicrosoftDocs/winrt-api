@@ -13,7 +13,7 @@ Represents the method that will handle the [CollectionChanged](inotifycollection
 
 
 > **.NET**
-> This interface appears as [System.Collections.Specialized.NotifyCollectionChangedEventHandler](/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler?redirectedfrom=MSDN).
+> This interface appears as [System.Collections.Specialized.NotifyCollectionChangedEventHandler](/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler?view=dotnet-uwp-10.0&preserve-view=true).
 
 Equivalent WinUI delegate: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventhandler).
 
@@ -26,7 +26,7 @@ Event data for the event.
 
 
 ## -remarks
-When programming with .NET, this delegate is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventHandler](/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler?redirectedfrom=MSDN) delegate.
+When programming with .NET, this delegate is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventHandler](/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler?view=dotnet-uwp-10.0&preserve-view=true) delegate.
 
 ## -examples
 

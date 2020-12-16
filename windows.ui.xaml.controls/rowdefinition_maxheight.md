@@ -21,7 +21,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RowDefinition.MaxHeight](
 
 
 ## -property-value
-A [Double](/dotnet/api/system.double?redirectedfrom=MSDN) that represents the maximum height.
+A [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) that represents the maximum height.
 
 ## -remarks
 

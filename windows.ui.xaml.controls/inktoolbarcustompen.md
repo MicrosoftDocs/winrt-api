@@ -27,7 +27,7 @@ In this example, we customize the following [InkDrawingAttributes](../windows.ui
 + [PenTip](../windows.ui.input.inking/inkdrawingattributes_pentip.md) is set to [PenTipShape.Circle](../windows.ui.input.inking/pentipshape.md);
 + [Size](../windows.ui.input.inking/inkdrawingattributes_size.md) is set to a [Windows.Foundation.Size](../windows.foundation/size.md) of `(strokeWidth, strokeWidth * 20)`.
 + [Color](../windows.ui.input.inking/inkdrawingattributes_color.md) is set to the [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) selected from the palette, or [Colors.Black](../windows.ui/colors.md) by default.
-+ [PenTipTransform](../windows.ui.input.inking/inkdrawingattributes_pentiptransform.md) (through [Matrix3x2.CreateRotation](/dotnet/api/system.numerics.matrix3x2.createrotation?redirectedfrom=MSDN#System_Numerics_Matrix3x2_CreateRotation_System_Single_)) is set to rotate the pen tip by 45°.
++ [PenTipTransform](../windows.ui.input.inking/inkdrawingattributes_pentiptransform.md) (through [Matrix3x2.CreateRotation](/dotnet/api/system.numerics.matrix3x2.createrotation?view=dotnet-uwp-10.0&preserve-view=true)) is set to rotate the pen tip by 45°.
 
 
 

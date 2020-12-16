@@ -24,4 +24,4 @@ IReferenceArray inherits [IPropertyValue](ipropertyvalue.md). Types that impleme
 ## -examples
 
 ## -see-also
-[IPropertyValue](ipropertyvalue.md), [Nullable&lt;T&gt;](/dotnet/api/system.nullable-1?redirectedfrom=MSDN)
+[IPropertyValue](ipropertyvalue.md), [Nullable&lt;T&gt;](/dotnet/api/system.nullable-1?view=dotnet-uwp-10.0&preserve-view=true)

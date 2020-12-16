@@ -15,7 +15,7 @@ Releases system resources that are exposed by a Windows Runtime object.
 
 
 > **.NET**
-> This interface appears as [System.IDisposable](/dotnet/api/system.idisposable?redirectedfrom=MSDN).
+> This interface appears as [System.IDisposable](/dotnet/api/system.idisposable?view=dotnet-uwp-10.0&preserve-view=true).
 
 
 

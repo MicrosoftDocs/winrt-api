@@ -88,15 +88,15 @@ The Windows Runtime provides a means to animate the values of any property that 
 
 ### Projection and members of Point
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then Point has non-data members available, and its data members are exposed as read-write properties, not fields. See [Point](/dotnet/api/windows.foundation.point) in the .NET API Browser.
+If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then Point has non-data members available, and its data members are exposed as read-write properties, not fields. See [Point](/dotnet/api/windows.foundation.point?view=dotnet-uwp-10.0&preserve-view=true) in the .NET API Browser.
 
 If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of Point, and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that are available from the [PointHelper](../windows.ui.xaml/pointhelper.md) static class.
 
 This table shows the equivalent methods available in .NET and C++.
 
-| .NET ([Point](/dotnet/api/windows.foundation.point)) | C++ ([PointHelper](../windows.ui.xaml/pointhelper.md)) |
+| .NET ([Point](/dotnet/api/windows.foundation.point?view=dotnet-uwp-10.0&preserve-view=true)) | C++ ([PointHelper](../windows.ui.xaml/pointhelper.md)) |
 | ---- | --- |
-| [Point(Double, Double)](/dotnet/api/windows.foundation.point.-ctor) | [FromCoordinates(Single, Single)](../windows.ui.xaml/pointhelper_fromcoordinates_673163148.md) |
+| [Point(Double, Double)](/dotnet/api/windows.foundation.point.-ctor?view=dotnet-uwp-10.0&preserve-view=true) | [FromCoordinates(Single, Single)](../windows.ui.xaml/pointhelper_fromcoordinates_673163148.md) |
 
 ## -examples
 

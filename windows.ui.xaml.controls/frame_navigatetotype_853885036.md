@@ -19,7 +19,7 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Frame.NavigateToType](/wind
 ## -parameters
 ### -param sourcePageType
 
-The page to navigate to, specified as a type reference to its partial class type. (A type reference is given as [System.Type](/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, or a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The page to navigate to, specified as a type reference to its partial class type. (A type reference is given as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, or a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param parameter
 

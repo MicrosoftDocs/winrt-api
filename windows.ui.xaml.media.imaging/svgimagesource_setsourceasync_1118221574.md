@@ -23,7 +23,7 @@ A [SvgImageSourceLoadStatus](svgimagesourceloadstatus.md) value that indicates w
 
 ## -remarks
 Setting a SVG source by calling the asynchronous SetSourceAsync(IRandomAccessStream) method avoids blocking the UI thread. For more info on how to use **async** or **await**, see [Call asynchronous APIs in C# or Visual Basic](/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic).
-If the app changes the SVG source again via SetSourceAsync(IRandomAccessStream) or [UriSource](svgimagesource_urisource.md) while a SetSourceAsync(IRandomAccessStream) call is already in progress, the pending SetSourceAsync(IRandomAccessStream) action will throw a [TaskCanceledException](/dotnet/api/system.threading.tasks.taskcanceledexception?redirectedfrom=MSDN).
+If the app changes the SVG source again via SetSourceAsync(IRandomAccessStream) or [UriSource](svgimagesource_urisource.md) while a SetSourceAsync(IRandomAccessStream) call is already in progress, the pending SetSourceAsync(IRandomAccessStream) action will throw a [TaskCanceledException](/dotnet/api/system.threading.tasks.taskcanceledexception?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -see-also
 
