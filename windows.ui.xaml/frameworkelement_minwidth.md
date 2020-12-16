@@ -21,7 +21,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.MinWidth](/window
 
 
 ## -property-value
-The minimum width of the object, in pixels. The default is 0. This value can be any value equal to or greater than 0. However, [PositiveInfinity](/dotnet/api/system.double.positiveinfinity?redirectedfrom=MSDN) is not valid.
+The minimum width of the object, in pixels. The default is 0. This value can be any value equal to or greater than 0. However, [PositiveInfinity](/dotnet/api/system.double.positiveinfinity?view=dotnet-uwp-10.0&preserve-view=true) is not valid.
 
 ## -remarks
 MinWidth is one of three writable properties on [FrameworkElement](frameworkelement.md) that specify width information. The other two are [MaxWidth](frameworkelement_maxwidth.md) and [Width](frameworkelement_width.md). If there is a conflict between these values, the order of application for actual width determination is that first MinWidth must be honored, then [MaxWidth](frameworkelement_maxwidth.md), and finally, if it is within bounds, [Width](frameworkelement_width.md). All of these properties are recommendations to the layout behavior of the element's parent in the object tree. The width of the object after layout runs is available as the [ActualWidth](frameworkelement_actualwidth.md) property value.

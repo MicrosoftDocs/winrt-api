@@ -43,7 +43,7 @@ You should always implement [Convert](ivalueconverter_convert_101701969.md) with
 
 ### Migration notes
 
-In the Windows Runtime, the language parameters for IValueConverter methods use strings, as opposed to using [CultureInfo](/dotnet/api/system.globalization.cultureinfo?redirectedfrom=MSDN) objects as they do in the Windows Presentation Foundation (WPF) and Microsoft Silverlight definitions of the interface.
+In the Windows Runtime, the language parameters for IValueConverter methods use strings, as opposed to using [CultureInfo](/dotnet/api/system.globalization.cultureinfo?view=dotnet-uwp-10.0&preserve-view=true) objects as they do in the Windows Presentation Foundation (WPF) and Microsoft Silverlight definitions of the interface.
 
 ## -see-also
 [Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

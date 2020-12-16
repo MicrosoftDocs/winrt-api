@@ -21,7 +21,7 @@ The natural duration of the media. The default value is a [Duration](../windows.
 A [Duration](../windows.ui.xaml/duration.md) value has a **TimeSpan** component.
 
 > **C# or Microsoft Visual Basic**
-> You can use utility methods of **System.TimeSpan** to get the duration components in whatever format you want. For example you can get [TimeSpan.Hours](/dotnet/api/system.timespan.hours?redirectedfrom=MSDN#System_TimeSpan_Hours), [TimeSpan.Minutes](/dotnet/api/system.timespan.minutes?redirectedfrom=MSDN#System_TimeSpan_Minutes) and [TimeSpan.Seconds](/dotnet/api/system.timespan.seconds?redirectedfrom=MSDN#System_TimeSpan_Seconds) separately.
+> You can use utility methods of **System.TimeSpan** to get the duration components in whatever format you want. For example you can get [TimeSpan.Hours](/dotnet/api/system.timespan.hours?view=dotnet-uwp-10.0&preserve-view=true), [TimeSpan.Minutes](/dotnet/api/system.timespan.minutes?view=dotnet-uwp-10.0&preserve-view=true) and [TimeSpan.Seconds](/dotnet/api/system.timespan.seconds?view=dotnet-uwp-10.0&preserve-view=true) separately.
 
 
 

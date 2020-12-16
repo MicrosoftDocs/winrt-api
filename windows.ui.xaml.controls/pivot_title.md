@@ -21,7 +21,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.Title](/windows/win
 
 
 ## -property-value
-Returns [String](/dotnet/api/system.string?redirectedfrom=MSDN).
+Returns [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -remarks
 

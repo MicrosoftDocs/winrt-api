@@ -21,7 +21,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.SelectedText](/wi
 
 
 ## -property-value
-The currently selected text in the text box. If no text is selected, the value is [String.Empty](/dotnet/api/system.string.empty?redirectedfrom=MSDN).
+The currently selected text in the text box. If no text is selected, the value is [String.Empty](/dotnet/api/system.string.empty?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -remarks
 

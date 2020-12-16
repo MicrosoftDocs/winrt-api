@@ -19,7 +19,7 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableVector.Append](/win
 The item to append to the vector.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true) interface.
 
 ## -examples
 

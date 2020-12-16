@@ -29,7 +29,7 @@ Even though the visual elements of a CalendarViewDayItem are rendered directly b
 
 
 
-Use the [Date](calendarviewdayitem_date.md) property to get the date represented by this day item. The time portions of this property's [DateTime](/dotnet/api/system.datetime?redirectedfrom=MSDN) value are ignored. If you compare two dates from a [CalendarView](calendarview.md), be sure to compare only the **Date** portion of the [DateTime](/dotnet/api/system.datetime?redirectedfrom=MSDN) value.
+Use the [Date](calendarviewdayitem_date.md) property to get the date represented by this day item. The time portions of this property's [DateTime](/dotnet/api/system.datetime?view=dotnet-uwp-10.0&preserve-view=true) value are ignored. If you compare two dates from a [CalendarView](calendarview.md), be sure to compare only the **Date** portion of the [DateTime](/dotnet/api/system.datetime?view=dotnet-uwp-10.0&preserve-view=true) value.
 
 Use the [IsBlackout](calendarviewdayitem_isblackout.md) property to get or set a value that indicates whether the date is unavailable.
 

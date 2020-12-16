@@ -35,5 +35,5 @@ For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture 
 ## -examples
 
 ## -see-also
-[Object](/dotnet/api/system.object?redirectedfrom=MSDN), [IClosable](../windows.foundation/iclosable.md), [Process media frames with MediaFrameReader](/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)
+[Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true), [IClosable](../windows.foundation/iclosable.md), [Process media frames with MediaFrameReader](/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)
 

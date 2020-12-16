@@ -17,7 +17,7 @@ Equivalent WinUI interface: [Microsoft.UI.Xaml.Input.ICommand](/windows/winui/ap
 
 ## -remarks
 
-[XamlUICommand](xamluicommand.md) implements this ICommand interface  for C++ or [System.Windows.Input.ICommand](/dotnet/api/system.windows.input.icommand) for C# (adding various UI properties, methods, and events).
+[XamlUICommand](xamluicommand.md) implements this ICommand interface  for C++ or [System.Windows.Input.ICommand](/dotnet/api/system.windows.input.icommand?view=dotnet-uwp-10.0&preserve-view=true) for C# (adding various UI properties, methods, and events).
 
 For a basic example, see the [Button](../windows.ui.xaml.controls/button.md) control, which invokes a command when a user clicks it. There are two ways you manage the command experience:
 

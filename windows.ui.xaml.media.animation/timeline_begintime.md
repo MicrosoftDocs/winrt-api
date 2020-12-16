@@ -26,7 +26,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.BeginTime
 ## -property-value
 The start time of the time line. The default value is zero. 
 <!--Projection dochack:-->
-If you are programming using C# or Visual Basic, the parameter type of this parameter is projected as **System.TimeSpan?**(a nullable [System.TimeSpan](/dotnet/api/system.timespan?redirectedfrom=MSDN)).
+If you are programming using C# or Visual Basic, the parameter type of this parameter is projected as **System.TimeSpan?**(a nullable [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true)).
 
 ## -remarks
 

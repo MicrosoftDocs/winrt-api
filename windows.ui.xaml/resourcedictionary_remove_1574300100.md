@@ -23,4 +23,4 @@ The key of the item to remove.
 ## -examples
 
 ## -see-also
-[Remove(TKey)](/dotnet/api/system.collections.generic.idictionary-2.remove#System_Collections_Generic_IDictionary_2_Remove__0_), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Remove(TKey)](/dotnet/api/system.collections.generic.idictionary-2.remove?view=dotnet-uwp-10.0&preserve-view=true), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

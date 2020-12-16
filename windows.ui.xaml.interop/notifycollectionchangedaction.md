@@ -15,7 +15,7 @@ Describes the action that caused a [CollectionChanged](inotifycollectionchanged_
 
 
 > **.NET**
-> This type appears as [System.Collections.Specialized.NotifyCollectionChangedAction](/dotnet/api/system.collections.specialized.notifycollectionchangedaction?redirectedfrom=MSDN).
+> This type appears as [System.Collections.Specialized.NotifyCollectionChangedAction](/dotnet/api/system.collections.specialized.notifycollectionchangedaction?view=dotnet-uwp-10.0&preserve-view=true).
 
 Equivalent WinUI enum: [NotifyCollectionChangedAction](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedaction).
 
@@ -37,7 +37,7 @@ The content of the collection changed dramatically.
 
 
 ## -remarks
-When programming with .NET, this type is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedAction](/dotnet/api/system.collections.specialized.notifycollectionchangedaction?redirectedfrom=MSDN) type.
+When programming with .NET, this type is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedAction](/dotnet/api/system.collections.specialized.notifycollectionchangedaction?view=dotnet-uwp-10.0&preserve-view=true) type.
 
 ## -examples
 

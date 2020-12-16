@@ -16,7 +16,7 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyProperty.GetMetadata](/win
 
 ## -parameters
 ### -param forType
-The name of the specific type from which to retrieve the dependency property metadata, as a type reference ([System.Type](/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The name of the specific type from which to retrieve the dependency property metadata, as a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ## -returns
 A property metadata object.

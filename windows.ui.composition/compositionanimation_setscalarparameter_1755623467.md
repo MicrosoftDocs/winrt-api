@@ -19,7 +19,7 @@ Equivalent WinUI method: [Microsoft.UI.Composition.CompositionAnimation.SetScala
 The name of the parameter to set.
 
 ### -param value
-The [Single](/dotnet/api/system.single?redirectedfrom=MSDN) value.
+The [Single](/dotnet/api/system.single?view=dotnet-uwp-10.0&preserve-view=true) value.
 
 ## -remarks
 

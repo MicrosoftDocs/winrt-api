@@ -24,7 +24,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Selector.Selec
 <dl><dt>propertyPath</dt><dd>propertyPathA string that is evaluated as a simple dot syntax path to an object property.</dd>
 </dl>
 ## -property-value
-The property path that is used to get the [SelectedValue](selector_selectedvalue.md) property of the [SelectedItem](selector_selecteditem.md) property. The default is [String.Empty](/dotnet/api/system.string.empty?redirectedfrom=MSDN).
+The property path that is used to get the [SelectedValue](selector_selectedvalue.md) property of the [SelectedItem](selector_selecteditem.md) property. The default is [String.Empty](/dotnet/api/system.string.empty?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -remarks
 

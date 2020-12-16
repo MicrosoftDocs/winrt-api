@@ -86,16 +86,16 @@ This example shows how to use initialization text to set the values of a CornerR
 
 ### Projection and members of CornerRadius
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then CornerRadius has non-data members available, and its data members are exposed as read-write properties, not fields. See [CornerRadius](/dotnet/api/windows.ui.xaml.cornerradius) in the .NET API Browser.
+If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then CornerRadius has non-data members available, and its data members are exposed as read-write properties, not fields. See [CornerRadius](/dotnet/api/windows.ui.xaml.cornerradius?view=dotnet-uwp-10.0&preserve-view=true) in the .NET API Browser.
 
 If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of CornerRadius, and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that exist on the [CornerRadiusHelper](cornerradiushelper.md) class.
 
 This table shows the equivalent methods available in .NET and C++.
 
-| .NET ([CornerRadius](/dotnet/api/windows.ui.xaml.cornerradius)) | C++ ([CornerRadiusHelper](cornerradiushelper.md)) |
+| .NET ([CornerRadius](/dotnet/api/windows.ui.xaml.cornerradius?view=dotnet-uwp-10.0&preserve-view=true)) | C++ ([CornerRadiusHelper](cornerradiushelper.md)) |
 | ---- | --- |
-| [CornerRadius(Double)](/dotnet/api/windows.ui.xaml.cornerradius.-ctor#Windows_UI_Xaml_CornerRadius__ctor_System_Double_) | [FromUniformRadius(Double)](cornerradiushelper_fromuniformradius_2133321383.md) |
-| [CornerRadius(Double, Double, Double, Double)](/dotnet/api/windows.ui.xaml.cornerradius.-ctor#Windows_UI_Xaml_CornerRadius__ctor_System_Double_System_Double_System_Double_System_Double_) | [FromRadii(Double, Double, Double, Double)](cornerradiushelper_fromradii_1237964530.md) |
+| [CornerRadius(Double)](/dotnet/api/windows.ui.xaml.cornerradius.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_CornerRadius__ctor_System_Double_) | [FromUniformRadius(Double)](cornerradiushelper_fromuniformradius_2133321383.md) |
+| [CornerRadius(Double, Double, Double, Double)](/dotnet/api/windows.ui.xaml.cornerradius.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_CornerRadius__ctor_System_Double_System_Double_System_Double_System_Double_) | [FromRadii(Double, Double, Double, Double)](cornerradiushelper_fromradii_1237964530.md) |
 
 ## -examples
 This XAML example shows several styles of [Border](../windows.ui.xaml.controls/border.md) using different CornerRadius values:

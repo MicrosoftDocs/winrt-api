@@ -19,10 +19,10 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyProperty.Register](/window
 The name of the dependency property to register.
 
 ### -param propertyType
-The type of the property, as a type reference ([System.Type](/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The type of the property, as a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param ownerType
-The owner type that is registering the dependency property, as a type reference ([System.Type](/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The owner type that is registering the dependency property, as a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param typeMetadata
 A property metadata instance. This can contain a default value and a [PropertyChangedCallback](propertychangedcallback.md) implementation reference. Passing `null` for this parameter is equivalent to passing a new PropertyMetadata instance created by calling [PropertyMetadata.Create](propertymetadata_create_581724777.md) with `null` as the default value parameter.

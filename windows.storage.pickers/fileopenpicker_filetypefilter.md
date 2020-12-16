@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVector<string> FileTypeFilter { get; }
 Gets the collection of file types that the file open picker displays.
 
 ## -property-value
-A [fileExtensionVector](fileextensionvector.md) object that contains a collection of file types (file name extensions) , such as ".doc" and ".png". File name extensions are stored in this array as [string](/dotnet/api/system.string?redirectedfrom=MSDN) objects.
+A [fileExtensionVector](fileextensionvector.md) object that contains a collection of file types (file name extensions) , such as ".doc" and ".png". File name extensions are stored in this array as [string](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) objects.
 
 ## -remarks
 

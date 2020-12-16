@@ -18,7 +18,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEve
 The bindable vector of items affected by a **Replace** or **Remove** action.
 
 ## -remarks
-When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?redirectedfrom=MSDN) class.
+When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?view=dotnet-uwp-10.0&preserve-view=true) class.
 
 ## -examples
 

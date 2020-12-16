@@ -23,7 +23,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.Width](/windows/w
 
 
 ## -property-value
-The width of the object, in pixels. The default is [NaN](/dotnet/api/system.double.nan?redirectedfrom=MSDN). Except for the special [NaN](/dotnet/api/system.double.nan?redirectedfrom=MSDN) value, this value must be equal to or greater than 0. 
+The width of the object, in pixels. The default is [NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true). Except for the special [NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true) value, this value must be equal to or greater than 0. 
 <!--See Remarks for upper bound information.
       -->
 
@@ -46,7 +46,7 @@ Also, do not set Width to a value that is significantly larger than the maximum 
 
 ### "Auto" layout and Double.NaN
 
-The default value of [Height](frameworkelement_height.md) and Width is not 0, it is [Double.NaN](/dotnet/api/system.double.nan?redirectedfrom=MSDN). [Height](frameworkelement_height.md) and Width support the ability to be an unset "Auto" value. Because [Height](frameworkelement_height.md) and Width are **Double** values, [Double.NaN](/dotnet/api/system.double.nan?redirectedfrom=MSDN) is used as a special value to represent this "Auto" behavior. The layout system interprets the "Auto" value to generally mean that the object should be sized to the available size in layout, instead of to a specific pixel value. If you want the "Auto" behavior for an object when it is used in layout, leave [Height](frameworkelement_height.md) and Width unset at their [Double.NaN](/dotnet/api/system.double.nan?redirectedfrom=MSDN) default value. If you have previously set values and want to reenable the "Auto" behavior with run-time code, set to [Double.NaN](/dotnet/api/system.double.nan?redirectedfrom=MSDN). In XAML such as templates, you can set attribute values using the string "Auto". 
+The default value of [Height](frameworkelement_height.md) and Width is not 0, it is [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true). [Height](frameworkelement_height.md) and Width support the ability to be an unset "Auto" value. Because [Height](frameworkelement_height.md) and Width are **Double** values, [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true) is used as a special value to represent this "Auto" behavior. The layout system interprets the "Auto" value to generally mean that the object should be sized to the available size in layout, instead of to a specific pixel value. If you want the "Auto" behavior for an object when it is used in layout, leave [Height](frameworkelement_height.md) and Width unset at their [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true) default value. If you have previously set values and want to reenable the "Auto" behavior with run-time code, set to [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true). In XAML such as templates, you can set attribute values using the string "Auto". 
 <!--Setting Auto in XAML is a special behavior of the XAML parser, not a TypeConverter behavior.-->
 
 

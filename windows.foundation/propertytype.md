@@ -77,40 +77,40 @@ A set of four floating-point numbers that represent the location and size of a r
 A type not specified in this enumeration.
 
 ### -field UInt8Array:1025
-An array of [Byte](/dotnet/api/system.byte?redirectedfrom=MSDN) values.
+An array of [Byte](/dotnet/api/system.byte?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field Int16Array:1026
-An array of [Int16](/dotnet/api/system.int16?redirectedfrom=MSDN) values.
+An array of [Int16](/dotnet/api/system.int16?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field UInt16Array:1027
-An array of [UInt16](/dotnet/api/system.uint16?redirectedfrom=MSDN) values.
+An array of [UInt16](/dotnet/api/system.uint16?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field Int32Array:1028
-An array of [Int32](/dotnet/api/system.int32?redirectedfrom=MSDN) values.
+An array of [Int32](/dotnet/api/system.int32?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field UInt32Array:1029
-An array of [UInt32](/dotnet/api/system.uint32?redirectedfrom=MSDN) values.
+An array of [UInt32](/dotnet/api/system.uint32?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field Int64Array:1030
-An array of [Int64](/dotnet/api/system.int64?redirectedfrom=MSDN) values.
+An array of [Int64](/dotnet/api/system.int64?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field UInt64Array:1031
-An array of [UInt64](/dotnet/api/system.uint64?redirectedfrom=MSDN) values.
+An array of [UInt64](/dotnet/api/system.uint64?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field SingleArray:1032
-An array of [Single](/dotnet/api/system.single?redirectedfrom=MSDN) values.
+An array of [Single](/dotnet/api/system.single?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field DoubleArray:1033
-An array of [Double](/dotnet/api/system.double?redirectedfrom=MSDN) values.
+An array of [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field Char16Array:1034
-An array of [Char](/dotnet/api/system.char?redirectedfrom=MSDN) values.
+An array of [Char](/dotnet/api/system.char?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field BooleanArray:1035
-An array of [Boolean](/dotnet/api/system.boolean?redirectedfrom=MSDN) values.
+An array of [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field StringArray:1036
-An array of [String](/dotnet/api/system.string?redirectedfrom=MSDN) values.
+An array of [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field InspectableArray:1037
 An array of **Inspectable** values.
@@ -122,7 +122,7 @@ An array of [DateTime](datetime.md) values.
 An array of [TimeSpan](timespan.md) values.
 
 ### -field GuidArray:1040
-An array of [Guid](/dotnet/api/system.guid?redirectedfrom=MSDN) values.
+An array of [Guid](/dotnet/api/system.guid?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field PointArray:1041
 An array of [Point](point.md) structures.

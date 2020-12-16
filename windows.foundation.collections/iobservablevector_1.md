@@ -23,7 +23,7 @@ IObservableVector&lt;T&gt; inherits [IVector<T>](ivector_1.md) and [IIterable<T>
 
 ### .NET usage
 
-IObservableVector&lt;T&gt; isn't hidden for .NET usage. However, it's more common to use the .NET [ObservableCollection<T>](/dotnet/api/system.collections.objectmodel.observablecollection-1) type as a base class, or implement a **List** type or interface (generic or nongeneric) and **INotifyCollectionChanged** separately. If you do use IObservableVector&lt;T&gt; for .NET code, the base interfaces (and their members) project as [IList<T>](/dotnet/api/system.collections.generic.ilist-1) and [IEnumerable&lt;T&gt;](/dotnet/api/system.collections.generic.ienumerable-1).
+IObservableVector&lt;T&gt; isn't hidden for .NET usage. However, it's more common to use the .NET [ObservableCollection<T>](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true) type as a base class, or implement a **List** type or interface (generic or nongeneric) and **INotifyCollectionChanged** separately. If you do use IObservableVector&lt;T&gt; for .NET code, the base interfaces (and their members) project as [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true) and [IEnumerable&lt;T&gt;](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 

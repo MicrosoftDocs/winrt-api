@@ -15,11 +15,11 @@ Gets information for the backing type.
 Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlType.UnderlyingType](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.underlyingtype).
 
 ## -property-value
-The backing type as represented by the relevant type system or interop support type. This is a type reference ([System.Type](/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The backing type as represented by the relevant type system or interop support type. This is a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ## -remarks
 > [!NOTE]
-> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](/dotnet/api/system.type?redirectedfrom=MSDN). If you're using Visual C++ component extensions (C++/CX)), this is a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct.
+> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). If you're using Visual C++ component extensions (C++/CX)), this is a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct.
 
 ## -examples
 

@@ -13,7 +13,7 @@ public void RemoveAtEnd()
 Removes the last item from the vector.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IList<T>](/dotnet/api/system.collections.generic.ilist-1) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true) interface.
 
 ## -examples
 

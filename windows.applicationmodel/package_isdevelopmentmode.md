@@ -13,7 +13,7 @@ public bool IsDevelopmentMode { get; }
 Indicates whether the package is installed in development mode.
 
 ## -property-value
-A [Boolean](/dotnet/api/system.boolean?redirectedfrom=MSDN) value that indicates whether the package is installed in development mode. **TRUE** indicates that the package is installed in development mode; otherwise **FALSE**.
+A [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) value that indicates whether the package is installed in development mode. **TRUE** indicates that the package is installed in development mode; otherwise **FALSE**.
 
 ## -remarks
 

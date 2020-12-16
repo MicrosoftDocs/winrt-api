@@ -17,7 +17,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.TabIndex](/win
 
 ## -property-value
 
-A value that determines the order of logical navigation for a device. The default value is [MaxValue](/dotnet/api/system.int32.maxvalue?redirectedfrom=MSDN).
+A value that determines the order of logical navigation for a device. The default value is [MaxValue](/dotnet/api/system.int32.maxvalue?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -remarks
 

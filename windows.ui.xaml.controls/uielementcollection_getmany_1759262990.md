@@ -25,7 +25,7 @@ Provides the destination for the result. Size the initial array size as a "capac
 The number of items retrieved.
 
 ## -remarks
-If you are programming using C# or Microsoft Visual Basic, see [CopyTo](/dotnet/api/system.collections.generic.icollection-1.copyto).
+If you are programming using C# or Microsoft Visual Basic, see [CopyTo](/dotnet/api/system.collections.generic.icollection-1.copyto?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 

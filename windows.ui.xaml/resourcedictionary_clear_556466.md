@@ -20,4 +20,4 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.ResourceDictionary.Clear](/windows/w
 ## -examples
 
 ## -see-also
-[Clear](/dotnet/api/system.collections.generic.icollection-1.clear#System_Collections_Generic_ICollection_1_Clear), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Clear](/dotnet/api/system.collections.generic.icollection-1.clear?view=dotnet-uwp-10.0&preserve-view=true), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
