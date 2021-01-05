@@ -76,12 +76,33 @@ Another technique for avoiding a control's class-handling behavior is to subclas
 This example shows the basic syntax for wiring an event handler with AddHandler and *handledEventsToo* as **true**. In this case the event being wired is [Tapped](uielement_tapped.md). The typical place to wire handlers is either [Loaded](frameworkelement_loaded.md) for a page or [OnApplyTemplate](frameworkelement_onapplytemplate_1955470198.md) for a templated control.
 
 
+```cppwinrt
+void MyControl::MyPointerPressedHandler(
+    winrt::Windows::Foundation::IInspectable const &sender,
+    winrt::Windows::UI::Xaml::Input::PointerRoutedEventArgs const& e) {
+  // implementation..
+}
 
+this->AddHandler(
+    winrt::Windows::UI::Xaml::UIElement::PointerPressedEvent(),
+    winrt::box_value(winrt::Windows::UI::Xaml::Input::PointerEventHandler(this, &MyControl::MyPointerPressedHandler)),
+    true);
+
+// Or passing the handler as a lambda, instead of a member function:
+this->AddHandler(
+    winrt::Windows::UI::Xaml::UIElement::PointerPressedEvent(),
+    winrt::box_value(winrt::Windows::UI::Xaml::Input::PointerEventHandler(
+      [=](auto &&, winrt::Windows::UI::Xaml::Input::PointerRoutedEventArgs const &args) {
+      // ...
+    })),
+    true);    
+```
 [!code-cpp[AddHandler](../windows.ui.xaml/code/BaseElementEvents/cpp/BasicPage.xaml.cpp#SnippetAddHandler)]
 
 [!code-csharp[AddHandler](../windows.ui.xaml/code/BaseElementEvents/csharp/BasicPage1.xaml.cs#SnippetAddHandler)]
 
 [!code-vb[AddHandler](../windows.ui.xaml/code/BaseElementEvents/vbnet/MainPage.xaml.vb#SnippetAddHandler)]
+
 
 ## -see-also
 [RemoveHandler](uielement_removehandler_661998757.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [Handle pointer input](/windows/uwp/design/input/handle-pointer-input)
