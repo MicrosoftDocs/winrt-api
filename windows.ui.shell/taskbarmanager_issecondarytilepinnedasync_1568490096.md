@@ -30,6 +30,6 @@ This API can only be used with Limited-Access. See the docs for pinning secondar
 
 ## -see-also
 
-https://docs.microsoft.com/en-us/windows/uwp/design/shell/pin-to-taskbar
+[Pin your app to the taskbar](/windows/uwp/design/shell/pin-to-taskbar)
 
 ## -examples
