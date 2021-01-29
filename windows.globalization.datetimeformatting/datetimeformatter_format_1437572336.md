@@ -11,13 +11,13 @@ public string Format(Windows.Foundation.DateTime value)
 
 ## -description
 
-Returns a string representation of the provided date and time.
+Returns a string representation of the provided date and time. 
 
 ## -parameters
 
 ### -param value
 
-The [DateTime](../windows.foundation/datetime.md) to be formatted.
+The date and time to be formatted.
 
 ## -returns
 
@@ -26,7 +26,7 @@ A string that represents the date and time.
 ## -remarks
 
 > [!NOTE]
-> This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See [Prepare your application for the Japanese era change](/windows/uwp/design/globalizing/japanese-era-change) for more information.
+> If your application supports the Japanese calendar, you should validate that it properly handles the May 2019 Japanese era change. See [Prepare your application for the Japanese era change](/windows/uwp/design/globalizing/japanese-era-change) for more information.
 
 ## -examples
 
