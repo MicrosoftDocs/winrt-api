@@ -279,7 +279,7 @@ private void webView_NavigationStarting(WebView sender, WebViewNavigationStartin
 
 For more info, see [WebView.AddWebAllowedObject](webview_addweballowedobject_1295901427.md).
 
-In addition, trusted JavaScript content in WebView can be allowed to directly access Windows RuntimeAPI. This provides powerful native capabilities for web apps hosted in WebView. To enable this feature, the Uniform Resource Identifier (URI) for trusted content must be whitelisted in the ApplicationContentUriRules of the app in Package.appxmanifest, with WindowsRuntimeAccess specifically set to "all".
+In addition, trusted JavaScript content in WebView can be allowed to directly access Windows RuntimeAPI. This provides powerful native capabilities for web apps hosted in WebView. To enable this feature, the Uniform Resource Identifier (URI) for trusted content must be added to the allowlist in the ApplicationContentUriRules of the app in Package.appxmanifest, with WindowsRuntimeAccess specifically set to "all".
 
 This example shows a section of the app manifest. Here, a local Uniform Resource Identifier (URI) is given access to the Windows Runtime.
 
