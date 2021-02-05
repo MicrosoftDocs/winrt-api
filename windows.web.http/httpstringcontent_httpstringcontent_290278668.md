@@ -17,6 +17,8 @@ Initializes a new instance of the [HttpStringContent](httpstringcontent.md) clas
 The content used to initialize the [HttpStringContent](httpstringcontent.md).
 
 ## -remarks
+The character encoding in the **Content-Type** header for the [HttpStringContent](httpstringcontent.md) created defaults to UTF-8.
+
 The media type in the **Content-Type** header for the [HttpStringContent](httpstringcontent.md) created defaults to text/plain.
 
 ## -examples
