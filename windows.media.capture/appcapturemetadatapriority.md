@@ -24,7 +24,7 @@ The metadata item is of higher importance than **Informational** metadata items.
 Both **Important** and **Informational** metadata are embedded in the generated .mp4 file, so you should not include any private user information in the metadata.
 
 ## -see-also
-[AppCaptureMetadataWriter](https://review.docs.microsoft.com/uwp/api/windows.media.capture.appcapturemetadatawriter)
+[AppCaptureMetadataWriter](/uwp/api/windows.media.capture.appcapturemetadatawriter)
 
 ## -examples
 
