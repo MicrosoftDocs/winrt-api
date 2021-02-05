@@ -25,6 +25,7 @@ The feature report which the host sends to the device.
 The result of the asynchronous operation.
 
 ## -remarks
+The device must be opened with either [FileAccessMode.Read](../windows.storage/fileaccessmode.md) or [FileAccessMode.ReadWrite](../windows.storage/fileaccessmode.md).
 
 ## -examples
 

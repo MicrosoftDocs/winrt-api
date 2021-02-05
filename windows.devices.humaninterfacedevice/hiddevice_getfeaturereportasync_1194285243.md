@@ -21,6 +21,7 @@ Identifies the requested feature report.
 A **HidFeatureReport** object.
 
 ## -remarks
+The device must be opened with either [FileAccessMode.Read](../windows.storage/fileaccessmode.md) or [FileAccessMode.ReadWrite](../windows.storage/fileaccessmode.md).
 
 ## -examples
 
