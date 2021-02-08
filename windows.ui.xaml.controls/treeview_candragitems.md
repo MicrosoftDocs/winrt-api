@@ -22,7 +22,7 @@ Gets or sets a value that indicates whether items in the view can be dragged as 
 
 ## -property-value
 
-**true** if items in the view can be dragged as data payload; otherwise, **false**. The default is **false**.
+**true** if items in the view can be dragged as data payload; otherwise, **false**. The default is **true**.
 
 ## -remarks
 
