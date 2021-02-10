@@ -119,7 +119,26 @@ This example shows how to set the [Header](toggleswitch_header.md), [OnContent](
         }
 ```
 
-
+```cppwinrt
+using namespace winrt::Windows::UI::Xaml::Controls;
+void MainPage::ToggleSwitch_Toggled(IInspectable const& sender, RoutedEventArgs const& /* args */)
+{
+    ToggleSwitch toggleSwitch = sender.as<ToggleSwitch>();
+    if (toggleSwitch)
+    {
+        if (toggleSwitch.IsOn())
+        {
+            progress1().IsActive(true);
+            progress1().Visibility(Visibility::Visible);
+        }
+        else
+        {
+            progress1().IsActive(false);
+            progress1().Visibility(Visibility::Collapsed);
+        }
+    }
+}
+```
 
 ## -see-also
 [Toggle switches overview](/windows/uwp/controls-and-patterns/toggles), [ToggleSwitch styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [CheckBox](checkbox.md), [RadioButton](radiobutton.md), [Controls list](/windows/uwp/design/controls-and-patterns/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
