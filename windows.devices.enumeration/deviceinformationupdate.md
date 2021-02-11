@@ -13,11 +13,12 @@ public class DeviceInformationUpdate : Windows.Devices.Enumeration.IDeviceInform
 Contains updated properties for a [DeviceInformation](deviceinformation.md) object.
 
 ## -remarks
-The [Updated](devicewatcher_updated.md) event receives a DeviceInformationUpdate, as shown in the example.
+The [Updated](devicewatcher_updated.md) and [Removed](devicewatcher_removed.md) events of the [DeviceWatcher](devicewatcher.md) class receive a **DeviceInformationUpdate** object.
 
-You can also instantiate a DeviceInformationUpdate object to pass to [Update](deviceinformation_update_1167410501.md).
+For more information about **DeviceInformationUpdate**, see [Enumerate and watch devices](/windows/uwp/devices-sensors/enumerate-devices#enumerate-and-watch-devices).
 
 ## -examples
 For complete examples in C# and C++, see the [Device enumeration and pairing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DeviceEnumerationAndPairing).
 
 ## -see-also
+[Enumerate and watch devices](/windows/uwp/devices-sensors/enumerate-devices#enumerate-and-watch-devices)
