@@ -17,9 +17,7 @@ Get an instance of this class by accessing the [AudioMediaFrame](mediaframerefer
 
 
 ## -see-also
-[MediaFrameReference](mediaframereference.md)
-[TryAcquireLatestFrame](mediaframereader_tryacquirelatestframe_612769713.md)
-[AudioFrame](../windows.media/audioframe.md)
+[MediaFrameReference](mediaframereference.md),[TryAcquireLatestFrame](mediaframereader_tryacquirelatestframe_612769713.md),[AudioFrame](../windows.media/audioframe.md)
 
 ## -examples
 
