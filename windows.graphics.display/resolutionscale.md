@@ -65,6 +65,8 @@ Specifies the scale of a display as 450 percent.
 Specifies the scale of a display as 500 percent.
 
 ## -remarks
+The range of asset scale values that can be provided to MakeAppX for a UWP app is limited to 100, 125, 150, 200, 250, 300, 400 and 500.
+
 For more info on scaling to pixel density, see [UX guidelines for layout and scaling](/windows/uwp/design/layout/screen-sizes-and-breakpoints-for-responsive-design).
 
 The [Scaling according to DPI sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Scaling%20according%20to%20DPI%20sample) shows how to use the ResolutionScale enumeration.
