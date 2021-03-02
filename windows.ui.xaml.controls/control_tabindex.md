@@ -14,7 +14,7 @@ Gets or sets a value that determines the order in which elements receive focus w
 
 ## -xaml-syntax
 ```xaml
-<control TabIndex="int/>
+<control TabIndex="int"/>
 ```
 
 
