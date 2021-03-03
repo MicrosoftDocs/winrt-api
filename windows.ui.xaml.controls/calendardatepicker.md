@@ -16,7 +16,7 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CalendarDatePicker](/windows
 
 ## -remarks
 
-CalendarDatePicker is a drop down control that’s optimized for picking a single date from a calendar view where contextual information like the day of the week or fullness of the calendar is important. It’s similar to the [DatePicker](datepicker.md) control, but the [DatePicker](datepicker.md) is optimized for picking a known date, such as a date of birth, where the context of the calendar is not important.
+CalendarDatePicker is a drop down control that's optimized for picking a single date from a calendar view where contextual information like the day of the week or fullness of the calendar is important. It's similar to the [DatePicker](datepicker.md) control, but the [DatePicker](datepicker.md) is optimized for picking a known date, such as a date of birth, where the context of the calendar is not important.
 
 You can use the CalendarDatePicker control in its default form with a minimal amount of Extensible Application Markup Language (XAML) or other code, or you can customize it in various ways to suit your app. Here's a simple CalendarDatePicker created in Extensible Application Markup Language (XAML) and code.
 
@@ -31,9 +31,12 @@ CalendarDatePicker arrivalCalendarDatePicker = new CalendarDatePicker();
 Here's what the control look like when it's closed and a date is not selected.
 
 <img src="images/Controls/CalendarDatePicker_Closed.png" alt="Closed calendar date picker" />
+
 Here's what it looks like with the calendar open and a date selected.
 
-<img src="images/Controls/CalendarDatePicker_Open.png" alt="Open calendar date picker" />CalendarDatePicker has an internal [CalendarView](calendarview.md) for picking a date. A subset of [CalendarView](calendarview.md) properties, like [IsTodayHighlighted](calendardatepicker_istodayhighlighted.md) and [FirstDayOfWeek](calendardatepicker_firstdayofweek.md), exist on CalendarDatePicker and are forwarded to the internal [CalendarView](calendarview.md) to let you modify it. However, you can't change the [SelectionMode](calendarview_selectionmode.md) of the internal [CalendarView](calendarview.md) to allow multiple selection. If you need to let a user pick multiple dates or need a calendar to be always visible, consider using a [CalendarView](calendarview.md) instead of a CalendarDatePicker. See the [CalendarView](calendarview.md) class for more info on how you can modify the calendar display.
+<img src="images/Controls/CalendarDatePicker_Open.png" alt="Open calendar date picker" />
+
+CalendarDatePicker has an internal [CalendarView](calendarview.md) for picking a date. A subset of [CalendarView](calendarview.md) properties, like [IsTodayHighlighted](calendardatepicker_istodayhighlighted.md) and [FirstDayOfWeek](calendardatepicker_firstdayofweek.md), exist on CalendarDatePicker and are forwarded to the internal [CalendarView](calendarview.md) to let you modify it. However, you can't change the [SelectionMode](calendarview_selectionmode.md) of the internal [CalendarView](calendarview.md) to allow multiple selection. If you need to let a user pick multiple dates or need a calendar to be always visible, consider using a [CalendarView](calendarview.md) instead of a CalendarDatePicker. See the [CalendarView](calendarview.md) class for more info on how you can modify the calendar display.
 
 ### Selecting dates
 
