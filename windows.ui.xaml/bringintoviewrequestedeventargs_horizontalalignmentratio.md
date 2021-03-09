@@ -19,7 +19,16 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.Ho
 The requested horizontal alignment ratio between 0.0 and 1.0, or NaN. See Remarks.
 
 ## -remarks
-A value of _NaN_ implies that scrolling controls should do the minimum necessary to bring the element fully into view aligned to the nearest edge of the viewport. Otherwise, the range of possible value is clamped from 0.0 to 1.0 with 0.0 representing the left vertical edge and 1.0 representing the right vertical edge.
+A value of NaN indicates that scrolling controls should do the minimum necessary to bring the element fully into view aligned to the nearest edge of the viewport.
+
+> [!NOTE]
+> Do not use the `==` operator to test for NaN.
+>
+> In C#, use [Double.IsNaN()](/dotnet/api/system.double.isnan?view=dotnet-uwp-10.0&preserve-view=true) to test for NaN.
+>
+> In C++, use [isnan()](/cpp/c-runtime-library/reference/isnan-isnan-isnanf) to test for NaN.
+
+If the value is not NaN, then the range of possible value is clamped from 0.0 to 1.0 with 0.0 representing the left vertical edge and 1.0 representing the right vertical edge.
 
 A value of 0.0 indicates the TargetRect should be left-aligned in the viewport. A value of 1.0 indicates it should be right-aligned. A value of 0.5 indicates the TargetRect should be horizontally centered in the viewport.
 
