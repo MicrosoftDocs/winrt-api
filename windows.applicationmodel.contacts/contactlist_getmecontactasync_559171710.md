@@ -17,7 +17,7 @@ The [Contact](contact.md) object that represents the current user.
 
 ## -remarks
 
-If the current user has not designated a contact as representing themselves,
+If no contact has been designated as representing the current user,
 the return value is an empty contact.
 You can detect this case by checking whether the contact's [Id](contact_id.md) property is nonempty.
 
