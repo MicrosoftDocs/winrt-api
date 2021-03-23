@@ -10,6 +10,9 @@ public enum Windows.ApplicationModel.Wallet.WalletItemKind : int
 # WalletItemKind
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Represents the kinds (classifications) of wallet items supported.
 
 ## -enum-fields

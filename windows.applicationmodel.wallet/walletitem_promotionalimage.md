@@ -10,6 +10,9 @@ public Windows.Storage.Streams.IRandomAccessStreamReference PromotionalImage { g
 # Windows.ApplicationModel.Wallet.WalletItem.PromotionalImage
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets the promotional image of the wallet item.
 
 ## -property-value

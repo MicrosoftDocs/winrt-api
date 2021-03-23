@@ -10,6 +10,9 @@ public Windows.ApplicationModel.Wallet.WalletSummaryViewPosition SummaryViewPosi
 # Windows.ApplicationModel.Wallet.WalletItemCustomProperty.SummaryViewPosition
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets the optional position of this property when shown in the summary view for a wallet item.
 
 ## -property-value

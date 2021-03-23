@@ -10,6 +10,9 @@ public Windows.Foundation.Collections.IMap<string, Windows.ApplicationModel.Wall
 # Windows.ApplicationModel.Wallet.WalletItem.TransactionHistory
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets the transaction history collection of the wallet item.
 
 ## -property-value

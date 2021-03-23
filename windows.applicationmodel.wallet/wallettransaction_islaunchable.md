@@ -10,6 +10,9 @@ public bool IsLaunchable { get;  set; }
 # Windows.ApplicationModel.Wallet.WalletTransaction.IsLaunchable
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets whether to launch your app when the user taps "see more transaction history".
 
 ## -property-value

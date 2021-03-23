@@ -10,6 +10,9 @@ public Windows.Devices.Geolocation.BasicGeoposition Position { get;  set; }
 # Windows.ApplicationModel.Wallet.WalletRelevantLocation.Position
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets the basic geographic position information of the location.
 
 ## -property-value

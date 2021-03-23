@@ -10,6 +10,9 @@ public Windows.Foundation.Collections.IMap<string, Windows.ApplicationModel.Wall
 # Windows.ApplicationModel.Wallet.WalletItem.RelevantLocations
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets a collection of all relevant locations for the wallet item.
 
 ## -property-value

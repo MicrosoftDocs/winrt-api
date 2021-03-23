@@ -10,6 +10,9 @@ public Windows.Storage.Streams.IRandomAccessStreamReference BodyBackgroundImage 
 # Windows.ApplicationModel.Wallet.WalletItem.BodyBackgroundImage
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets the background image of the body of the wallet item (uses a stream).
 
 ## -property-value

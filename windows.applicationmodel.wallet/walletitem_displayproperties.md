@@ -10,6 +10,9 @@ public Windows.Foundation.Collections.IMap<string, Windows.ApplicationModel.Wall
 # Windows.ApplicationModel.Wallet.WalletItem.DisplayProperties
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets the collection of [WalletItemCustomProperty](walletitemcustomproperty.md) objects associated with the wallet item.
 
 ## -property-value

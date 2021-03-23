@@ -10,6 +10,9 @@ public class WalletItemStore : Windows.ApplicationModel.Wallet.IWalletItemStore
 # Windows.ApplicationModel.Wallet.WalletItemStore
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Defines a set of asynchronous actions and operations that manage the wallet items in the wallet database. These can be used to read the existing items, or to add and remove items.
 
 ## -remarks

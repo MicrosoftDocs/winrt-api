@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Wallet.Wallet
 # Windows.ApplicationModel.Wallet.WalletManager.RequestStoreAsync
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Requests an instance of the default wallet store for the app.
 
 ## -returns

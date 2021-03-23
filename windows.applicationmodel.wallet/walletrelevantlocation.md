@@ -10,6 +10,9 @@ public class WalletRelevantLocation : Windows.ApplicationModel.Wallet.IWalletRel
 # Windows.ApplicationModel.Wallet.WalletRelevantLocation
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Represents relevant location data for a wallet item. A WalletRelevantLocation object represents the individual items for the [WalletItem.RelevantLocations](walletitem_relevantlocations.md) property.
 
 ## -remarks
