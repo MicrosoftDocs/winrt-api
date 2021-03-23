@@ -13,9 +13,6 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessS
 > [!CAUTION]
 > The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
 
-> [!CAUTION]
-> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
-
 Creates and returns a bitmap image stream for the barcode (or returns the custom image used during instantiation).
 
 ## -returns
