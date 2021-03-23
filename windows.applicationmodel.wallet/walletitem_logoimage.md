@@ -10,6 +10,9 @@ public Windows.Storage.Streams.IRandomAccessStreamReference LogoImage { get;  se
 # Windows.ApplicationModel.Wallet.WalletItem.LogoImage
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets the logo image of the wallet item. Use this property for a logo that doesn't have a specified size.
 
 ## -property-value

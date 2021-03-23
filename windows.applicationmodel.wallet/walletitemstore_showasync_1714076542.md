@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncAction ShowAsync()
 # Windows.ApplicationModel.Wallet.WalletItemStore.ShowAsync
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Displays the Wallet UI.
 
 ## -returns

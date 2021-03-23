@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Wallet.Wallet
 # Windows.ApplicationModel.Wallet.WalletItemStore.GetWalletItemAsync
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets an individual wallet item with the given ID from the wallet database. The item requested must be owned by this app.
 
 ## -parameters

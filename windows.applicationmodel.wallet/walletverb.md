@@ -10,6 +10,9 @@ public class WalletVerb : Windows.ApplicationModel.Wallet.IWalletVerb
 # Windows.ApplicationModel.Wallet.WalletVerb
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Represents a wallet verb, which is potentially used for app activation. This is a string suitable for UI that is descriptive of the action.
 
 ## -remarks

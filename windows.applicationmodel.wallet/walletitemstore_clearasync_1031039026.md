@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncAction ClearAsync()
 # Windows.ApplicationModel.Wallet.WalletItemStore.ClearAsync
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Clears all app-owned wallet items from the wallet data store.
 
 ## -returns

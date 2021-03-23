@@ -10,6 +10,9 @@ public string Value { get;  set; }
 # Windows.ApplicationModel.Wallet.WalletItemCustomProperty.Value
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets the custom property value.
 
 ## -property-value
