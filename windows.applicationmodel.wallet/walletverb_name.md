@@ -13,9 +13,6 @@ public string Name { get;  set; }
 > [!CAUTION]
 > The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
 
-> [!CAUTION]
-> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
-
 Gets or sets the custom verb name.
 
 ## -property-value

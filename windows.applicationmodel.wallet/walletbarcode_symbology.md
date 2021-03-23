@@ -13,9 +13,6 @@ public Windows.ApplicationModel.Wallet.WalletBarcodeSymbology Symbology { get; }
 > [!CAUTION]
 > The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
 
-> [!CAUTION]
-> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
-
 Gets the [symbology](walletbarcodesymbology.md) used by the bar code.
 
 ## -property-value
