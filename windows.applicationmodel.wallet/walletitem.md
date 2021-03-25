@@ -10,6 +10,9 @@ public class WalletItem : Windows.ApplicationModel.Wallet.IWalletItem
 # Windows.ApplicationModel.Wallet.WalletItem
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Represents an item (data) that is stored in the wallet.
 
 ## -remarks

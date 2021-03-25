@@ -10,6 +10,9 @@ public string DisplayName { get;  set; }
 # Windows.ApplicationModel.Wallet.WalletItem.DisplayName
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets the name or title to be displayed to the user.
 
 ## -property-value

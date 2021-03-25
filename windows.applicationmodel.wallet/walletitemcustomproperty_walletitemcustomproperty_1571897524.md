@@ -10,6 +10,9 @@ public WalletItemCustomProperty(System.String name, System.String value)
 # Windows.ApplicationModel.Wallet.WalletItemCustomProperty.WalletItemCustomProperty
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Initializes a new instance of the [WalletItemCustomProperty](walletitemcustomproperty.md) class.
 
 ## -parameters

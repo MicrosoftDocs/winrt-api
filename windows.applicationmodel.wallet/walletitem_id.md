@@ -10,6 +10,9 @@ public string Id { get; }
 # Windows.ApplicationModel.Wallet.WalletItem.Id
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets the unique identifier of the wallet item.
 
 ## -property-value

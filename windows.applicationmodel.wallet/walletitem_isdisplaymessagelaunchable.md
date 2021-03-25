@@ -10,6 +10,9 @@ public bool IsDisplayMessageLaunchable { get;  set; }
 # Windows.ApplicationModel.Wallet.WalletItem.IsDisplayMessageLaunchable
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets whether to launch your app when the user taps on the [DisplayMessage](walletitem_displaymessage.md).
 
 ## -property-value

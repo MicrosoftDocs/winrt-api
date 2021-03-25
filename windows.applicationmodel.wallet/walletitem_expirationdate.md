@@ -10,6 +10,9 @@ public Windows.Foundation.IReference<Windows.Foundation.DateTime> ExpirationDate
 # Windows.ApplicationModel.Wallet.WalletItem.ExpirationDate
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets the expiration date of the wallet item.
 
 ## -property-value

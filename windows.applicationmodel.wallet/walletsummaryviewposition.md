@@ -10,6 +10,9 @@ public enum Windows.ApplicationModel.Wallet.WalletSummaryViewPosition : int
 # WalletSummaryViewPosition
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Describes the position in the summary view of a wallet item that a [WalletItemCustomProperty](walletitemcustomproperty.md) should be displayed.
 
 ## -enum-fields

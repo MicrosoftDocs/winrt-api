@@ -10,8 +10,10 @@ public class WalletTransaction : Windows.ApplicationModel.Wallet.IWalletTransact
 # Windows.ApplicationModel.Wallet.WalletTransaction
 
 ## -description
-Represents a single wallet transaction in the transaction history.
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
 
+Represents a single wallet transaction in the transaction history.
 ## -remarks
 A WalletTransaction object represents the individual items for the [WalletItem.TransactionHistory](walletitem_transactionhistory.md) property.
 

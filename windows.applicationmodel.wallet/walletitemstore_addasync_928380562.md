@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncAction AddAsync(System.String id, Windows.Applic
 # Windows.ApplicationModel.Wallet.WalletItemStore.AddAsync
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Adds a new wallet item to the wallet.
 
 ## -parameters

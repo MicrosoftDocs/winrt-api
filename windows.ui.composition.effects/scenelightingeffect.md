@@ -39,7 +39,7 @@ IGraphicsEffect graphicsEffect = new CompositeEffect()
       AmbientAmount = 0, 
       DiffuseAmount = .75f, 
       SpecularAmount = 0, 
-      SpecularShine = 20 
+      SpecularShine = 20, 
       NormalMapSource = new CompositionEffectSourceParameter("NormalMap"), 
     } 
   } 

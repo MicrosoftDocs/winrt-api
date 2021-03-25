@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncAction DeleteAsync(System.String id)
 # Windows.ApplicationModel.Wallet.WalletItemStore.DeleteAsync
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Removes a specific wallet item with the given ID from the wallet data store.
 
 ## -parameters

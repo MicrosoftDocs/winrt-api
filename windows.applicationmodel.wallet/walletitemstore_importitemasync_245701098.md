@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Wallet.Wallet
 # Windows.ApplicationModel.Wallet.WalletItemStore.ImportItemAsync
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Imports data from a ".mswallet" XML file into the wallet store.".mswallet" is an XML serialization format for wallet item info. For a guide to the ".mswallet" format (and a link to schema in XSD), see [Quickstart: Creating and distributing .mswallet files](/previous-versions/windows/apps/dn631256(v=win.10)).
 
 ## -parameters

@@ -10,6 +10,9 @@ public enum Windows.ApplicationModel.Wallet.WalletBarcodeSymbology : int
 # WalletBarcodeSymbology
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Represents the barcode symbology types that are supported for a [WalletItem](walletitem.md).
 
 ## -enum-fields
