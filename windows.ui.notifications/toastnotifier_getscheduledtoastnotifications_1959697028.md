@@ -14,7 +14,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Notifications.Sched
 Gets the collection of [ScheduledToastNotification](scheduledtoastnotification.md) objects that this app has scheduled for display.
 
 > [!IMPORTANT]
-> This method cannot be used by desktop callers.
+> This method is only supported in applications which use WinRT as their default application framework.
 
 ## -returns
 The collection of scheduled toast notifications that the app bound to this notifier has scheduled for timed display.

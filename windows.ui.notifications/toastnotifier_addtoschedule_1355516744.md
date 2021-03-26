@@ -14,7 +14,7 @@ public void AddToSchedule(Windows.UI.Notifications.ScheduledToastNotification sc
 Adds a [ScheduledToastNotification](scheduledtoastnotification.md) for later display by Windows.
 
 > [!IMPORTANT]
-> This method cannot be used by desktop callers.
+> This method is only supported in applications which use WinRT as their default application framework.
 
 ## -parameters
 ### -param scheduledToast

@@ -27,6 +27,8 @@ The minor version number of the API contract.
 
 ## -remarks
 
+For details on finding and using API contracts, see [Programming with extension SDKs](https://docs.microsoft.com/uwp/extension-sdks/device-families-overview#api-contracts-and-how-to-look-them-up).
+
 ## -examples
 ```cs
 if (Windows.Foundation.Metadata.ApiInformation.IsApiContractPresent("Windows.ApplicationModel.Calls.CallsVoipContract", 1, 1))
