@@ -42,7 +42,6 @@ Describes a color in terms of alpha, red, green, and blue channels.
 <object property="sc#scA,scR,scG,scB"/>
 ```
 
-
 ## -xaml-values
 <dl><dt>predefinedColor</dt><dd>One of the colors predefined by the Colors class. See members of Colors for a list. These are static properties. Specify just the color name, for example Transparent. Do not include the static class qualifier in the string: for example Colors.Transparent does not parse in XAML.</dd>
 <dt>rgb</dt><dd>A three-character hexadecimal value. The first character specifies the color's R value, the second character specifies the G value, and the third character specifies the B value. For example, 00F.</dd>
@@ -102,6 +101,20 @@ If you use the "#" token to specify color values in hex form, the hex values are
 Strings for named colors are interpreted based on the associated [Colors](colors.md) constants, and the values for **A**, **R**, **G** and **B** are set in the structure as values between 0 and 255 that are representative of that color.
 
 The XAML object element usage (with initialization text) is useful for declaring a Color as a resource in a XAML [ResourceDictionary](../windows.ui.xaml/resourcedictionary.md). For more info, see [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
+
+This table explains the color value placeholders shown in the XAML Syntax section.
+
+| Value | Notes |
+| - | - |
+| _predefinedColor_ | One of the colors predefined by the [Colors](colors.md) class. See members of `Colors` for a list. These are static properties. Specify just the color name, for example `Transparent`. Do not include the static class qualifier in the string: for example, "Colors.Transparent" does not parse in XAML.<br/>`<Grid Background="Blue"/>`, `<Color>Blue</Color>` |
+| _rgb_ | A three-character hexadecimal value. The first character specifies the color's R value, the second character specifies the G value, and the third character specifies the B value. For example, 00F.<br/>`<Grid Background="#00F"/>`, `<Color>#00F</Color>` |
+| _argb_ | A four-character hexadecimal value. The first character specifies the color's A value, the second character specifies its R value, the third character specifies the G value, and the fourth character specifies its B value. For example, F00F.<br/>`<Grid Background="#F00F"/>`, `<Color>#F00F</Color>` |
+| _rrggbb_ | A six-character hexadecimal value. The first two characters specify the color's R value, the next two specify its G value, and the final two specify its B value. For example, 0000FF.<br/>`<Grid Background="#0000FF"/>`, `<Color>#0000FF</Color>` |
+| _aarrggbb_ | An eight-character hexadecimal value. The first two characters specify the color's A value, the next two specify its R value, the next two specify its G value, and the final two specify its B value. For example, FF0000FF.<br/>`<Grid Background="#FF0000FF"/>`, `<Color>#FF0000FF</Color>` |
+| _scA_ | The color's ScA (alpha) value as a value between 0 and 1.<br/>`<Grid Background="sc#1,0,0,1"/>`, `<Color>sc#1,0,0,1</Color>` |
+| _scR_ | The color's ScR (red) value as a value between 0 and 1. |
+| _scG_ | The color's ScG (green) value as a value between 0 and 1. |
+| _scB_ | The color's ScB (blue) value as a value between 0 and 1. |
 
 ### Projection and members of Color
 
