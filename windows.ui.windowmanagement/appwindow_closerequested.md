@@ -16,9 +16,12 @@ Occurs after the window starts to close, but before it is closed and before the 
 
 ## -remarks
 
+> [!IMPORTANT]
+> This event occurs only when the app has the App Close Confirmation restricted capability (`<rescap:Capability Name="confirmAppClose"/>`), so it is not applicable to most apps. For more info, see [App capability declarations - Restricted capabilities](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+
 ## -see-also
 
-[Closed](appwindow_closed.md)
+[Closed](appwindow_closed.md), [App capability declarations](/windows/uwp/packaging/app-capability-declarations)
 
 ## -examples
 
