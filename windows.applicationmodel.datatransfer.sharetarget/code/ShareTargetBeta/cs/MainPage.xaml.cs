@@ -36,6 +36,7 @@ namespace ShareTargetBetaCS
             InitializeComponent();
         }
 
+        // <Snippetcs_HandleShare>
         public async Task ActivateAsync(ShareTargetActivatedEventArgs args)
         {
             // <Snippetcs_HandleSharedText>
@@ -77,7 +78,7 @@ namespace ShareTargetBetaCS
             Window.Current.Content = this;
             Window.Current.Activate();
         }
-
+        // </Snippetcs_HandleShare>
 
         // Note that the following code if for snippeting only. It's not actually called in 
         // this app. It's derived from the SharingTarget sample, so I'm confident it works.
