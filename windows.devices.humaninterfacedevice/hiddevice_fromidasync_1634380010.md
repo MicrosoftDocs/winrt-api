@@ -15,7 +15,7 @@ Opens a handle to the device identified by the *deviceId* parameter. The access 
 
 ## -parameters
 ### -param deviceId
-The [DeviceInformation]( http://go.microsoft.com/fwlink/p/?LinkID=296709) ID that identifies the HID device.
+The [DeviceInformation](/uwp/api/Windows.Devices.Enumeration.DeviceInformation) ID that identifies the HID device.
 
 ### -param accessMode
 Specifies the access mode. The supported access modes are Read and ReadWrite.
