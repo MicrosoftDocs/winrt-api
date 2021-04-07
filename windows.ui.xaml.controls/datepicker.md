@@ -20,16 +20,53 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.DatePicker](/windows/winui/a
 
 ```
 
-
 ## -remarks
-Use a DatePicker to let a user enter a date value. The user picks the date using [ComboBox](combobox.md) selection for month, day, and year values. You can customize the DatePicker in various ways to suit your app.
 
-<img src="images/controls/DatePicker.png" alt="Date picker control" />
+Use a `DatePicker` to let a user enter a date value. The user picks the date using [ComboBox](combobox.md) selection for month, day, and year values. You can customize the `DatePicker` in various ways to suit your app.
 
-You can use a [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md) object to format the contents of each [ComboBox](combobox.md) selector. For more info, see [Date picker](/windows/uwp/controls-and-patterns/date-picker).
+![A date picker control.](images/date-time/date-picker-closed.png)
 
-> [!NOTE]
-> Some date formats should be avoided if the date picker might be displayed in a small area, such as adding the full string value of the day of week. These strings can be long and might be clipped if the DatePicker's width is forced to be small.
+For more info, design guidance, and code examples, see [Date picker](/windows/uwp/design/controls-and-patterns/date-picker).
+
+The `DatePicker` supports each of the calendar systems supported by Windows. These calendars are specified in the [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md) class. The `DatePicker` uses the correct calendar for your app's default language, or you can set the [CalendarIdentifier](datepicker_calendaridentifier.md) property to use a specific calendar system.
+
+### Formatting the date picker
+
+By default, the date picker shows the day, month, and year. If your scenario for the date picker doesn't require all the fields, you can hide the ones you don't need. To hide a field, set its corresponding *field*Visible property to `false`. For more info, see the [DayVisible](datepicker_dayvisible.md), [MonthVisible](datepicker_monthvisible.md), and [YearVisible](datepicker_yearvisible.md) properties.
+
+The string content of each `ComboBox` in the `DatePicker` is created by a [DateTimeFormatter](/uwp/api/windows.globalization.datetimeformatting.datetimeformatter). You can use a string that is either a *format template* or a *format pattern* to specify the format. For more info, see the [DayFormat](datepicker_dayformat.md), [MonthFormat](datepicker_monthformat.md), and [YearFormat](datepicker_yearformat.md) properties.
+
+### Date values
+
+The date picker control has both [Date](datepicker_date.md) / [DateChanged](datepicker_datechanged.md) and [SelectedDate](datepicker_selecteddate.md) / [SelectedDateChanged](datepicker_selecteddatechanged.md) APIs. The difference between these is that `Date` is not nullable, while `SelectedDate` is nullable.
+
+The value of `SelectedDate` is used to populate the date picker and is `null` by default. If `SelectedDate` is `null`, the `Date` property is set to 12/31/1600; otherwise, the `Date` value is synchronized with the `SelectedDate` value. When `SelectedDate` is `null`, the picker is 'unset' and shows the field names instead of a date.
+
+![A date picker with no date selected.](images/date-time/date-picker-no-selected-date.png)
+
+To use the date value in your app, you typically use a data binding to the `SelectedDate` property, or handle the `SelectedDateChanged` event.
+
+You can set the [MinYear](datepicker_minyear.md) and [MaxYear](datepicker_maxyear.md) properties to restrict the date values in the picker. By default, `MinYear` is set to 100 years prior to the current date and `MaxYear` is set to 100 years past the current date.
+
+If you set only `MinYear` or `MaxYear`, you need to ensure that a valid date range is created by the date you set and the default value of the other date; otherwise, no date will be available to select in the picker. For example, setting only `yearDatePicker.MaxYear = new DateTimeOffset(new DateTime(900, 1, 1));` creates an invalid date range with the default value of `MinYear`.
+
+#### Initializing a date value
+
+The date properties can't be set as a XAML attribute string, because the Windows Runtime XAML parser doesn't have a conversion logic for converting strings to dates as [DateTime](/uwp/api/windows.foundation.datetime) / [DateTimeOffset](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true) objects.
+
+This example demonstrates setting the `SelectedDate` property in code.
+
+```xaml
+<DatePicker x:Name="myDatePicker"/>
+```
+
+```csharp
+public MainPage()
+{
+    this.InitializeComponent();
+    myDatePicker.SelectedDate = new DateTimeOffset(new DateTime(1950, 1, 1));
+}
+```
 
 ### DateTime and Calendar values
 
@@ -92,5 +129,19 @@ This table shows the resources used by the DatePicker control.
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
+This example shows how to create a simple date picker with a header.
+
+```xaml
+<DatePicker x:Name="birthDatePicker" Header="Date of birth"/>
+```
+
+```csharp
+DatePicker birthDatePicker = new DatePicker()
+{
+    Header = "Date of birth"
+};
+```
+
 ## -see-also
-[Control](control.md), [DatePicker styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md), [System.DateTimeOffset (C#/VB)](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true), [Windows::Foundation::DateTime (C++)](/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime), [Windows.Globalization.Calendar](../windows.globalization/calendar.md), [TimePicker](timepicker.md), [Controls list](/windows/uwp/design/controls-and-patterns/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
+
+[Date picker](/windows/uwp/design/controls-and-patterns/date-picker), [Windows.Globalization.CalendarIdentifiers](../windows.globalization/calendaridentifiers.md), [System.DateTimeOffset (C#/VB)](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true), [Windows::Foundation::DateTime (C++)](/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime), [Windows.Globalization.Calendar](../windows.globalization/calendar.md), [TimePicker](timepicker.md), [Controls list](/windows/uwp/design/controls-and-patterns/)

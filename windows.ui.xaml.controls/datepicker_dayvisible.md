@@ -24,9 +24,13 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.DayVisible](/w
 **true** if the day selector is shown; otherwise, **false**. The default is **true**.
 
 ## -remarks
-By default, the [DatePicker](datepicker.md) shows [ComboBox](combobox.md) elements to select the month, day, and year. Set DayVisible to **false** to hide the [ComboBox](combobox.md) that displays or changes the day component of a date.
+By default, the [DatePicker](datepicker.md) shows [ComboBox](combobox.md) elements to select the month, day, and year. Set `DayVisible` to **false** to hide the [ComboBox](combobox.md) that displays or changes the day component of a date.
+
+Here's the picker with the day field hidden.
+
+![A date picker with the day field hidden.](images/date-time/date-picker-day-hidden.png)
 
 ## -examples
 
 ## -see-also
-[MonthVisible](datepicker_monthvisible.md), [YearVisible](datepicker_yearvisible.md), [Quickstart: Adding a DatePicker](/previous-versions/windows/apps/dn308514(v=win.10))
+[MonthVisible](datepicker_monthvisible.md), [YearVisible](datepicker_yearvisible.md), [DayFormat](datepicker_dayformat.md) [Date picker](/windows/uwp/design/controls-and-patterns/date-picker)
