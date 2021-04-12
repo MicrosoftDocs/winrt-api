@@ -48,7 +48,7 @@ Here’s how to create a MediaPlayerElement in XAML with the [Source](mediaplaye
 
 Here’s how to create the MediaPlayerElement in code.
 
-```xaml
+```csharp
 MediaPlayerElement mediaPlayerElement1 = new MediaPlayerElement();
 mediaPlayerElement1.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Media/video1.mp4"));
 mediaPlayerElement1.AutoPlay = true;
@@ -93,7 +93,6 @@ Here, you use the [PlaybackStateChanged](../windows.media.playback/mediaplayback
 ```
 
 ```csharp
-
 // Create this variable at a global scope. Set it to null.
 private DisplayRequest appDisplayRequest = null;
 
@@ -128,7 +127,6 @@ private void MediaPlayerElement_CurrentStateChanged(MediaPlaybackSession sender,
         }
     }
 }
-
 ```
 
 ### Poster source
@@ -181,7 +179,6 @@ This example shows how to use a MediaPlayerElement in a Popup.
 ```
 
 ```csharp
-
 long token;
 
 protected override void OnNavigatedTo(NavigationEventArgs e)
