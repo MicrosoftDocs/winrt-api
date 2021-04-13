@@ -10,9 +10,7 @@ public class NamedPolicy
 # Windows.Management.Policies.NamedPolicy
 
 ## -description
-Provides functionality to get Mobile Device Management (MDM) policy information. Named policies
-use a 2 part naming system, `Area` and `Name`. The set of polcies supproted are defined
-[here](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider#policies).
+Provides functionality to get Mobile Device Management (MDM) policy information. Named policies use a two-part naming system, `Area` and `Name`. The set of polcies that are supported are defined in [Policy CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#policies).
 
 ## -remarks
 
