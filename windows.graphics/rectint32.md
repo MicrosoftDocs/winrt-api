@@ -26,10 +26,10 @@ The height of a rectangle.
 The width of a rectangle.
 
 ### -field X
-The X coordinate at the center of a rectangle. 
+The X coordinate of the top-left corner of the rectangle.
 
 ### -field Y
-The Y coordinate at the center of a rectangle.
+The Y coordinate of the top-left corner of the rectangle.
 
 ## -remarks
 
