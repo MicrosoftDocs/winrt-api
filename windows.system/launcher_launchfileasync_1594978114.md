@@ -44,7 +44,7 @@ async void DefaultLaunch()
    // Path to the file in the app package to launch
    string imageFile = @"images\test.png";
 
-   var file = wait Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync(imageFile);
+   var file = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync(imageFile);
 
    if (file != null)
    {
