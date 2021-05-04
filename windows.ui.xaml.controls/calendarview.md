@@ -19,7 +19,7 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CalendarView](/windows/winui
 > [!TIP]
 > For more info, design guidance, and code examples, see [Calendar view](/windows/uwp/design/controls-and-patterns/calendar-view).
 
-The CalendarView gives you a standardized way to let users view and interact with a calendar. If you need to let a user select multiple dates, you must use a CalendarView. If you need to let a user pick only a single date and don’t need a calendar to be always visible, consider using a [CalendarDatePicker](calendardatepicker.md) or [DatePicker](datepicker.md) control. You can use the CalendarView control in its default form with a minimal amount of Extensible Application Markup Language (XAML) or other code, or you can customize it in various ways to suit your app.
+The CalendarView gives you a standardized way to let users view and interact with a calendar. If you need to let a user select multiple dates, you must use a CalendarView. If you need to let a user pick only a single date and don't need a calendar to be always visible, consider using a [CalendarDatePicker](calendardatepicker.md) or [DatePicker](datepicker.md) control. You can use the CalendarView control in its default form with a minimal amount of Extensible Application Markup Language (XAML) or other code, or you can customize it in various ways to suit your app.
 
 The CalendarView is made up of 3 separate views: the month view, year view, and decade view. By default, it starts with the month view open. You can specify a startup view by setting the [DisplayMode](calendarview_displaymode.md) property.
 
@@ -57,25 +57,25 @@ The date objects used in a CalendarView have a different representation dependin
 
 ### Customizing the CalendarView's appearance
 
-The CalendarView is composed of both Extensible Application Markup Language (XAML) elements defined in the [ControlTemplate](controltemplate.md) and visual elements rendered directly by the control. The Extensible Application Markup Language (XAML) elements defined in the control template include the border that encloses the control, the header, previous and next buttons, and DayOfWeek elements. You can style and re-template these elements like any Extensible Application Markup Language (XAML) control. The calendar grid is composed of [CalendarViewDayItem](calendarviewdayitem.md) objects. You can’t style or re-template these elements, but various properties are provided to let you to customize their appearance.
+The CalendarView is composed of both Extensible Application Markup Language (XAML) elements defined in the [ControlTemplate](controltemplate.md) and visual elements rendered directly by the control. The Extensible Application Markup Language (XAML) elements defined in the control template include the border that encloses the control, the header, previous and next buttons, and DayOfWeek elements. You can style and re-template these elements like any Extensible Application Markup Language (XAML) control. The calendar grid is composed of [CalendarViewDayItem](calendarviewdayitem.md) objects. You can't style or re-template these elements, but various properties are provided to let you to customize their appearance.
 
 This diagram shows the elements that make up the month view of the calendar. For more info, see the Remarks on the [CalendarViewDayItem](calendarviewdayitem.md) class.
 
 <img src="images/CalendarMonthElements.png" alt="The elements of a calendar month view" />
+
 This table lists the properties you can change to modify the appearance of calendar elements.
 
-<table>
-   <tr><th>Element</th><th>Properties</th></tr>
-   <tr><td>DayOfWeek</td><td>[DayOfWeekFormat](calendarview_dayofweekformat.md)</td></tr>
-   <tr><td>CalendarItem</td><td>[CalendarItemBackground](calendarview_calendaritembackground.md), [CalendarItemBorderBrush](calendarview_calendaritemborderbrush.md), [CalendarItemBorderThickness](calendarview_calendaritemborderthickness.md), [CalendarItemForeground](calendarview_calendaritemforeground.md)</td></tr>
-   <tr><td>DayItem</td><td>[DayItemFontFamily](calendarview_dayitemfontfamily.md), [DayItemFontSize](calendarview_dayitemfontsize.md), [DayItemFontStyle](calendarview_dayitemfontstyle.md), [DayItemFontWeight](calendarview_dayitemfontweight.md), [HorizontalDayItemAlignment](calendarview_horizontaldayitemalignment.md), [VerticalDayItemAlignment](calendarview_verticaldayitemalignment.md), [CalendarViewDayItemStyle](calendarview_calendarviewdayitemstyle.md)</td></tr>
-   <tr><td>MonthYearItem (in the year and decade views, equivalent to DayItem)</td><td>[MonthYearItemFontFamily](calendarview_monthyearitemfontfamily.md), [MonthYearItemFontSize](calendarview_monthyearitemfontsize.md), [MonthYearItemFontStyle](calendarview_monthyearitemfontstyle.md), [MonthYearItemFontWeight](calendarview_monthyearitemfontweight.md)</td></tr>
-   <tr><td>FirstOfMonthLabel</td><td>[FirstOfMonthLabelFontFamily](calendarview_firstofmonthlabelfontfamily.md), [FirstOfMonthLabelFontSize](calendarview_firstofmonthlabelfontsize.md), [FirstOfMonthLabelFontStyle](calendarview_firstofmonthlabelfontstyle.md), [FirstOfMonthLabelFontWeight](calendarview_firstofmonthlabelfontweight.md), [HorizontalFirstOfMonthLabelAlignment](calendarview_horizontalfirstofmonthlabelalignment.md), [VerticalFirstOfMonthLabelAlignment](calendarview_verticalfirstofmonthlabelalignment.md), [IsGroupLabelVisible](calendarview_isgrouplabelvisible.md)</td></tr>
-   <tr><td>FirstofYearDecadeLabel (in the year and decade views, equivalent to FirstOfMonthLabel)</td><td>[FirstOfYearDecadeLabelFontFamily](calendarview_firstofyeardecadelabelfontfamily.md), [FirstOfYearDecadeLabelFontSize](calendarview_firstofyeardecadelabelfontsize.md), [FirstOfYearDecadeLabelFontStyle](calendarview_firstofyeardecadelabelfontstyle.md), [FirstOfYearDecadeLabelFontWeight](calendarview_firstofyeardecadelabelfontweight.md)</td></tr>
-   <tr><td>Visual State Borders</td><td>[FocusBorderBrush](calendarview_focusborderbrush.md), [HoverBorderBrush](calendarview_hoverborderbrush.md), [PressedBorderBrush](calendarview_pressedborderbrush.md), [SelectedBorderBrush](calendarview_selectedborderbrush.md), [SelectedForeground](calendarview_selectedforeground.md), [SelectedHoverBorderBrush](calendarview_selectedhoverborderbrush.md), [SelectedPressedBorderBrush](calendarview_selectedpressedborderbrush.md)</td></tr>
-   <tr><td>OutofScope</td><td>[IsOutOfScopeEnabled](calendarview_isoutofscopeenabled.md), [OutOfScopeBackground](calendarview_outofscopebackground.md), [OutOfScopeForeground](calendarview_outofscopeforeground.md)</td></tr>
-   <tr><td>Today</td><td>[IsTodayHighlighted](calendarview_istodayhighlighted.md), [TodayFontWeight](calendarview_todayfontweight.md), [TodayForeground](calendarview_todayforeground.md)</td></tr>
-</table>
+| Element | Properties |
+| - | - |
+| DayOfWeek | [DayOfWeekFormat](calendarview_dayofweekformat.md) |
+| CalendarItem | [CalendarItemBackground](calendarview_calendaritembackground.md), [CalendarItemBorderBrush](calendarview_calendaritemborderbrush.md), [CalendarItemBorderThickness](calendarview_calendaritemborderthickness.md), [CalendarItemForeground](calendarview_calendaritemforeground.md) |
+| DayItem | [DayItemFontFamily](calendarview_dayitemfontfamily.md), [DayItemFontSize](calendarview_dayitemfontsize.md), [DayItemFontStyle](calendarview_dayitemfontstyle.md), [DayItemFontWeight](calendarview_dayitemfontweight.md), [HorizontalDayItemAlignment](calendarview_horizontaldayitemalignment.md), [VerticalDayItemAlignment](calendarview_verticaldayitemalignment.md), [CalendarViewDayItemStyle](calendarview_calendarviewdayitemstyle.md) |
+| MonthYearItem (in the year and decade views, equivalent to DayItem) | [MonthYearItemFontFamily](calendarview_monthyearitemfontfamily.md), [MonthYearItemFontSize](calendarview_monthyearitemfontsize.md), [MonthYearItemFontStyle](calendarview_monthyearitemfontstyle.md), [MonthYearItemFontWeight](calendarview_monthyearitemfontweight.md) |
+| FirstOfMonthLabel | [FirstOfMonthLabelFontFamily](calendarview_firstofmonthlabelfontfamily.md), [FirstOfMonthLabelFontSize](calendarview_firstofmonthlabelfontsize.md), [FirstOfMonthLabelFontStyle](calendarview_firstofmonthlabelfontstyle.md), [FirstOfMonthLabelFontWeight](calendarview_firstofmonthlabelfontweight.md), [HorizontalFirstOfMonthLabelAlignment](calendarview_horizontalfirstofmonthlabelalignment.md), [VerticalFirstOfMonthLabelAlignment](calendarview_verticalfirstofmonthlabelalignment.md), [IsGroupLabelVisible](calendarview_isgrouplabelvisible.md) |
+| FirstofYearDecadeLabel (in the year and decade views, equivalent to FirstOfMonthLabel) | [FirstOfYearDecadeLabelFontFamily](calendarview_firstofyeardecadelabelfontfamily.md), [FirstOfYearDecadeLabelFontSize](calendarview_firstofyeardecadelabelfontsize.md), [FirstOfYearDecadeLabelFontStyle](calendarview_firstofyeardecadelabelfontstyle.md), [FirstOfYearDecadeLabelFontWeight](calendarview_firstofyeardecadelabelfontweight.md) |
+| Visual State Borders | [FocusBorderBrush](calendarview_focusborderbrush.md), [HoverBorderBrush](calendarview_hoverborderbrush.md), [PressedBorderBrush](calendarview_pressedborderbrush.md), [SelectedBorderBrush](calendarview_selectedborderbrush.md), [SelectedForeground](calendarview_selectedforeground.md), [SelectedHoverBorderBrush](calendarview_selectedhoverborderbrush.md), [SelectedPressedBorderBrush](calendarview_selectedpressedborderbrush.md) |
+| OutofScope | [IsOutOfScopeEnabled](calendarview_isoutofscopeenabled.md), [OutOfScopeBackground](calendarview_outofscopebackground.md), [OutOfScopeForeground](calendarview_outofscopeforeground.md) |
+| Today | [IsTodayHighlighted](calendarview_istodayhighlighted.md), [TodayFontWeight](calendarview_todayfontweight.md), [TodayForeground](calendarview_todayforeground.md) |
 
 By default, the month view shows 6 weeks at a time. You can change the number of weeks shown by setting the [NumberOfWeeksInView](calendarview_numberofweeksinview.md) property. The minimum number of weeks to show is 2; the maximum is 8.
 
@@ -85,19 +85,14 @@ Here, the year and decade views are set to show in a 3x4 grid.
 
 ```csharp
 calendarView1.SetYearDecadeDisplayDimensions(3, 4);
-
 ```
 
 By default, the minimum date shown in the CalendarView is 100 years prior to the current date, and the maximum date shown is 100 years past the current date. You can change the minimum and maximum dates that the calendar shows by setting the [MinDate](calendarview_mindate.md) and [MaxDate](calendarview_maxdate.md) properties.
 
 ```csharp
-
 calendarView1.MinDate = new DateTime(2000, 1, 1);
 calendarView1.MaxDate = new DateTime(2099, 12, 31);
-
 ```
-
-
 
 ### Updating calendar day items
 
@@ -109,7 +104,8 @@ You can show contextual information about the density of events in a day by call
 
 Here are some day items in a calendar. Days 1 and 2 are blacked out. Days 2, 3, and 4 have various density bars set.
 
-<img src="images/CalendarView_density_bars.png" alt="Calendar days with density bars" />
+<img src="images/CalendarView_density_bars.png" alt="Calendar days with density bars"/>
+
 A CalendarView can contain a large number of [CalendarViewDayItem](calendarviewdayitem.md) objects. To keep the UI responsive and enable smooth navigation through the calendar, CalendarView supports phased rendering. This lets you break up processing of a day item into phases. If a day is moved out of view before all the phases are complete, no more time is used trying to process and render that item.
 
 ### Control style and template
