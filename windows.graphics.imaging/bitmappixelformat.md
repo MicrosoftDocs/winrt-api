@@ -17,7 +17,7 @@ Specifies the pixel format of pixel data. Each enumeration value defines a chann
 The pixel format is unknown.
 
 ### -field Rgba16:12
-The pixel format is R16B16G16A16 unsigned integer.
+The pixel format is R16G16B16A16 unsigned integer.
 
 ### -field Rgba8:30
 The pixel format is R8G8B8A8 unsigned integer.
