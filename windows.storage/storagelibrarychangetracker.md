@@ -10,10 +10,11 @@ public class StorageLibraryChangeTracker : Windows.Storage.IStorageLibraryChange
 # Windows.Storage.StorageLibraryChangeTracker
 
 ## -description
-Provides APIs that you can use to manage change tracking for any library in the system such as documents, music, or videos.
+Provides APIs that you can use to manage change tracking for any library (such as documents, music, or videos) or folder.
 
 ## -remarks
-Create an instance of this class by using the [ChangeTracker](storagelibrary_changetracker.md) method of the [StorageLibrary](storagelibrary.md) class.
+Get an instance of this class by using the [ChangeTracker](storagelibrary_changetracker.md) property of the [StorageLibrary](storagelibrary.md) class
+or the [TryGetChangeTracker](storagefolder_trygetchangetracker_168297820.md) method from [StorageFolder](storagefolder.md).
 
 ## -examples
 
