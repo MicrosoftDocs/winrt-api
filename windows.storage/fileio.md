@@ -40,6 +40,24 @@ catch (FileNotFoundException)
 }
 ```
 
+```cppwinrt
+try
+{
+    if (file != nullptr)
+    {
+        co_await FileIO::WriteTextAsync(file, L"Swift as a shadow");
+    }
+}
+// Handle errors with catch blocks
+catch (hresult_error const& ex)
+{
+    if (ex.code() == HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND))
+    {
+        // For example, handle file not found
+    }
+}
+```
+
 In the example, `file` is a local variable that contains a [StorageFile](storagefile.md) that represents the file to write.
 
 Although the [WriteTextAsync](fileio_writetextasync_1850452055.md) methods don't have a return value, you can still perform additional tasks after the text is written to the file, as the example shows.The [File Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess) also shows you how to use [ReadTextAsync(file)](fileio_readtextasync_784288594.md) to read text from a file.
@@ -56,6 +74,24 @@ try
 catch (FileNotFoundException)
 {
     // For example, handle file not found
+}
+```
+
+```cppwinrt
+try
+{
+    if (file != nullptr)
+    {
+        hstring fileContent = co_await FileIO::ReadTextAsync(file);
+    }
+}
+// Handle errors with catch blocks
+catch (hresult_error const& ex)
+{
+    if (ex.code() == HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND))
+    {
+        // For example, handle file not found
+    }
 }
 ```
 
