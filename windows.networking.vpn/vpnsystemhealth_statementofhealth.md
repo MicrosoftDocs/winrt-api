@@ -10,17 +10,16 @@ public Windows.Storage.Streams.Buffer StatementOfHealth { get; }
 # Windows.Networking.Vpn.VpnSystemHealth.StatementOfHealth
 
 ## -description
-Gets the RFC compliant blob representing the Statement of Health. This can be used to send directly in any of the network protocols embedding a RFC compliant statement of health.
+Gets a binary large object (blob) representing the Statement of Health. This is intended for use with [Network Access Protection](/windows/win32/nap/network-access-protection-start-page), which is no longer available as of Windows 10.
 
 ## -property-value
-The RFC compliant blob representing the Statement of Health.
+A binary large object (blob) representing the Statement of Health.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 networkingVpnProvider
