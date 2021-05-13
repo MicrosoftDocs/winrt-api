@@ -33,7 +33,6 @@ try
         await FileIO.WriteTextAsync(file, "Swift as a shadow");
     }
 }
-// Handle errors with catch blocks
 catch (FileNotFoundException)
 {
     // For example, handle file not found
@@ -43,12 +42,11 @@ catch (FileNotFoundException)
 ```cppwinrt
 try
 {
-    if (file != nullptr)
+    if (file)
     {
         co_await FileIO::WriteTextAsync(file, L"Swift as a shadow");
     }
 }
-// Handle errors with catch blocks
 catch (hresult_error const& ex)
 {
     if (ex.code() == HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND))
@@ -70,7 +68,6 @@ try
         string fileContent = await FileIO.ReadTextAsync(file);
     }
 }
-// Handle errors with catch blocks
 catch (FileNotFoundException)
 {
     // For example, handle file not found
@@ -80,12 +77,11 @@ catch (FileNotFoundException)
 ```cppwinrt
 try
 {
-    if (file != nullptr)
+    if (file)
     {
         hstring fileContent = co_await FileIO::ReadTextAsync(file);
     }
 }
-// Handle errors with catch blocks
 catch (hresult_error const& ex)
 {
     if (ex.code() == HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND))
