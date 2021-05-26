@@ -10,7 +10,7 @@ public void SetAutomationId(Windows.UI.Xaml.DependencyObject element, System.Str
 # Windows.UI.Xaml.Automation.AutomationProperties.SetAutomationId
 
 ## -description
-Sets the value of the [AutomationProperties.AutomationId](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Sets the value of the [AutomationProperties.AutomationId](automationproperties_automationid.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetAutomationId](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setautomationid).
 
@@ -26,3 +26,5 @@ The UI Automation identifier value to set.
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.AutomationId](automationproperties_automationid.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

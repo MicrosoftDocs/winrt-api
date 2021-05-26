@@ -4863,6 +4863,11 @@ The _ActualSize_ property for the [UIElement](../windows.ui.xaml/uielement.md) t
 ### -field UIElement_Shadow:2130
 The _Shadow_ property for the [UIElement](../windows.ui.xaml/uielement.md) type.
 
+### -field HandwritingView_IsCommandBarOpen:2395
+The _IsCommandBarOpen_ property for the [HandwritingView](../windows.ui.xaml.controls/handwritingview.md) type.
+
+### -field HandwritingView_IsSwitchToKeyboardEnabled:2396
+The _IsSwitchToKeyboardEnabled_ property for the [HandwritingView](../windows.ui.xaml.controls/handwritingview.md) type.
 
 ## -see-also
 

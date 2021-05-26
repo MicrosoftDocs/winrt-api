@@ -11,11 +11,11 @@ public DependencyProperty PlacementTargetProperty { get; }
 
 ## -description
 
-Identifies the PlacementTarget dependency property.
+Identifies the [PlacementTarget](handwritingview_placementtarget.md) dependency property.
 
 ## -property-value
 
-The identifier for the PlacementTarget dependency property.
+The identifier for the [PlacementTarget](handwritingview_placementtarget.md) dependency property.
 
 ## -remarks
 

@@ -10,16 +10,18 @@ public Windows.UI.Xaml.DependencyProperty RowSpanProperty { get; }
 # Windows.UI.Xaml.Controls.Grid.RowSpanProperty
 
 ## -description
-Identifies the [Grid.RowSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property.
+Identifies the [Grid.RowSpan](grid_rowspan.md) XAML attached property.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.RowSpanProperty](/windows/winui/api/microsoft.ui.xaml.controls.grid.rowspanproperty).
 
 ## -property-value
-The identifier for the [Grid.RowSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property.
+The identifier for the [Grid.RowSpan](grid_rowspan.md) XAML attached property.
 
 ## -remarks
-This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [Grid.RowSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property in XAML and won't need this identifier.
+This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [Grid.RowSpan](grid_rowspan.md) XAML attached property in XAML and won't need this identifier.
 
 ## -examples
 
 ## -see-also
+
+[Grid.RowSpan](grid_rowspan.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

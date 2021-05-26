@@ -63,13 +63,8 @@ In order to support XAML processor access to the attached properties, and also t
     <p>When getting this property in code, use GetVisualStateGroups. This returns a collection object, which you can add items to. This parallels the XAML processing behavior of any child elements of a VisualStateManager.VisualStateGroups property element usage.</p>
     <p>Because there is no public dependency property identifier for this particular attached property, you cannot use GetValue to get this attached property value, you always have to use GetVisualStateGroups.</p>
   </td></tr>
-  <tr><td>CustomVisualStateManager</td>
-  <td>Gets or sets the custom VisualStateManager object that handles transitions between the states of a control.
-    <ul><li>Type: VisualStateManager</li>
-    <li>Identifier field: <a href="/uwp/api/windows.ui.xaml.visualstatemanager.customvisualstatemanagerproperty">CustomVisualStateManagerProperty</a></li>
-    <li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.visualstatemanager.getcustomvisualstatemanager">GetCustomVisualStateManager</a>, <a href="/uwp/api/windows.ui.xaml.visualstatemanager.setcustomvisualstatemanager">SetCustomVisualStateManager</a></li></ul>
-    <p>This attached property is only needed for cases where you want to use a custom implementation class to handle your app's visual state changes, rather than the default VisualStateManager class implemented by the Windows Runtime. If you don't intend to use a custom implementation, you don't need to set this property.</p>
-  </td></tr>
+  <tr><td><a href="/uwp/api/windows.ui.xaml.visualstatemanager.customvisualstatemanager">CustomVisualStateManager</a></td>
+  <td>Gets or sets the custom VisualStateManager object that handles transitions between the states of a control.</td></tr>
 </table>
 
 

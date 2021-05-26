@@ -10,7 +10,7 @@ public void SetLevel(Windows.UI.Xaml.DependencyObject element, System.Int32 valu
 # Windows.UI.Xaml.Automation.AutomationProperties.SetLevel
 
 ## -description
-Sets the value of the [AutomationProperties.Level](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Sets the value of the [AutomationProperties.Level](automationproperties_level.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetLevel](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setlevel).
 
@@ -26,3 +26,5 @@ The value of the property.
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.Level](automationproperties_level.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

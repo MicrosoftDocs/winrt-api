@@ -82,7 +82,7 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| SlideInAnimationGroup | Gets or sets the slide-in animation group of a child element in a Pivot container.<ul><li>Type: [PivotSlideInAnimationGroup](pivotslideinanimationgroup.md)</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.pivot.slideinanimationgroupproperty">SlideInAnimationGroupProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.pivot.getslideinanimationgroup">GetSlideInAnimationGroup</a>, <a href="/uwp/api/windows.ui.xaml.controls.pivot.setslideinanimationgroup">SetSlideInAnimationGroup</a></li></ul> |
+| [SlideInAnimationGroup](pivot_slideinanimationgroup.md) | Gets or sets the slide-in animation group of a child element in a Pivot container. |
 
 ### Version history
 

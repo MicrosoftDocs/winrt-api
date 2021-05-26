@@ -26,3 +26,5 @@ The value of the landmark type property.
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.LandmarkType](automationproperties_landmarktype.md), [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview)

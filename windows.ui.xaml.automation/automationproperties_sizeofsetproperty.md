@@ -10,15 +10,19 @@ public Windows.UI.Xaml.DependencyProperty SizeOfSetProperty { get; }
 # Windows.UI.Xaml.Automation.AutomationProperties.SizeOfSetProperty
 
 ## -description
-Gets the identifier for the  attached property.
+
+Identifies the [AutomationProperties.SizeOfSet](automationproperties_sizeofset.md) XAML attached property.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.SizeOfSetProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.sizeofsetproperty).
 
 ## -property-value
-The identifier for the  attached property.
+
+The identifier for the [AutomationProperties.SizeOfSet](automationproperties_sizeofset.md) XAML attached property.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.SizeOfSet](automationproperties_sizeofset.md), [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview)

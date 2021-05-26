@@ -10,15 +10,17 @@ public Windows.UI.Xaml.DependencyProperty StylisticSet11Property { get; }
 # Windows.UI.Xaml.Documents.Typography.StylisticSet11Property
 
 ## -description
-Identifies the [StylisticSet11](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+Identifies the [StylisticSet11](typography_stylisticset11.md) attached property.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.StylisticSet11Property](/windows/winui/api/microsoft.ui.xaml.documents.typography.stylisticset11property).
 
 ## -property-value
-The identifier for the [StylisticSet11](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+The identifier for the [StylisticSet11](typography_stylisticset11.md) attached property.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[Typography.StylisticSet11](typography_stylisticset11.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

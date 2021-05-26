@@ -10,14 +10,15 @@ public Windows.UI.Xaml.DependencyProperty NormalizedAnchorPointProperty { get; }
 # Windows.UI.Xaml.Controls.Maps.MapControl.NormalizedAnchorPointProperty
 
 ## -description
-Identifies the [MapControl.NormalizedAnchorPoint](/uwp/api/windows.ui.xaml.controls.maps.mapcontrol#xaml-attached-properties) XAML attached property.
+Identifies the [MapControl.NormalizedAnchorPoint](mapcontrol_normalizedanchorpoint.md) XAML attached property.
 
 ## -property-value
-The identifier for the [MapControl.NormalizedAnchorPoint](/uwp/api/windows.ui.xaml.controls.maps.mapcontrol#xaml-attached-properties) XAML attached property.
+The identifier for the [MapControl.NormalizedAnchorPoint](mapcontrol_normalizedanchorpoint.md) XAML attached property.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps)
+
+[MapControl.NormalizedAnchorPoint](mapcontrol_normalizedanchorpoint.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

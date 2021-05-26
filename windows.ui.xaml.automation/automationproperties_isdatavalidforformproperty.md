@@ -10,16 +10,17 @@ public Windows.UI.Xaml.DependencyProperty IsDataValidForFormProperty { get; }
 # Windows.UI.Xaml.Automation.AutomationProperties.IsDataValidForFormProperty
 
 ## -description
-Identifies the Boolean dependency property that indicates if the data is valid for the form.
+Identifies the [AutomationProperties.IsDataValidForForm](automationproperties_isdatavalidforform.md) XAML attached property.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.IsDataValidForFormProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.isdatavalidforformproperty).
 
 ## -property-value
-The dependency property identifier.
+The identifier for the [AutomationProperties.IsDataValidForForm](automationproperties_isdatavalidforform.md) XAML attached property.
 
 ## -remarks
-The **IsDataValidForForm** property indicates whether the entered or selected value is valid for the form rule associated with the automation element. For example, if the user entered "425-555-5555" for a zip code field that requires 5 or 9 digits, the **IsDataValidForForm** property can be set to **false** to indicate that the data is not valid.
 
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.IsDataValidForForm](automationproperties_isdatavalidforform.md), [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview)

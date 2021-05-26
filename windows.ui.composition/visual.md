@@ -11,11 +11,6 @@ public class Visual : Windows.UI.Composition.CompositionObject, Windows.UI.Compo
 
 ## -description
 
-
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-
 The base visual object in the visual hierarchy.
 
 Equivalent WinUI class: [Microsoft.UI.Composition.Visual](/windows/winui/api/microsoft.ui.composition.visual).
@@ -50,35 +45,6 @@ Visual supports two forms of rotation:
 + orientation
 
     Rotation by orientation uses the [Orientation](visual_orientation.md) property to specify a quaternion describing an orientation and rotation in 3D space.
-
-## Visual.IsHitTestVisible property
-
-> [!IMPORTANT]
-> The **Visual.IsHitTestVisible** property is available only in pre-release versions of the [Windows 10 Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK), build 19582 and later.
-
-Gets or sets whether the visual sub-tree rooted at this visual participates in hit testing.
-
-```csharp
-public bool IsHitTestVisible { get; set; }
-```
-
-```cppwinrt
-bool IsHitTestVisible();
-
-void IsHitTestVisible(bool ishittestvisible);
-```
-
-```cppcx
-public : Platform::Boolean IsHitTestVisible { get; set; }
-```
-
-```vb
-Public ReadWrite Property IsHitTestVisible As bool
-```
-
-### Property value
-
-`true` if the visual sub-tree rooted at this visual participates in hit testing; otherwise, `false`. The default is `true`.
 
 ### Version history
 

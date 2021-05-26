@@ -26,7 +26,7 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| State | Gets or sets a value that indicates the pointer state of the element that this brush is used on.<ul><li>Type: [RevealBrushState](revealbrushstate.md)</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.media.revealbrush.stateproperty">StateProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.media.revealbrush.getstate">GetState</a>, <a href="/uwp/api/windows.ui.xaml.media.revealbrush.setstate">SetState</a></li></ul> |
+| [State](revealbrush_state.md) | Gets or sets a value that indicates the pointer state of the element that this brush is used on. |
 
 ## -see-also
 

@@ -10,7 +10,7 @@ public void SetLabeledBy(Windows.UI.Xaml.DependencyObject element, Windows.UI.Xa
 # Windows.UI.Xaml.Automation.AutomationProperties.SetLabeledBy
 
 ## -description
-Sets the value of the [AutomationProperties.LabeledBy](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Sets the value of the [AutomationProperties.LabeledBy](automationproperties_labeledby.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetLabeledBy](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setlabeledby).
 
@@ -26,3 +26,5 @@ The UI element that represents the label for *element*.
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.LabeledBy](automationproperties_labeledby.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

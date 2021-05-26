@@ -10,15 +10,17 @@ public Windows.UI.Xaml.DependencyProperty SlideInAnimationGroupProperty { get; }
 # Windows.UI.Xaml.Controls.Pivot.SlideInAnimationGroupProperty
 
 ## -description
-Identifies the [SlideInAnimationGroup](/uwp/api/windows.ui.xaml.controls.pivot#xaml-attached-properties) XAML attached property.
+Identifies the [SlideInAnimationGroup](pivot_slideinanimationgroup.md) XAML attached property.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.SlideInAnimationGroupProperty](/windows/winui/api/microsoft.ui.xaml.controls.pivot.slideinanimationgroupproperty).
 
 ## -property-value
-The identifier for the [SlideInAnimationGroup](/uwp/api/windows.ui.xaml.controls.pivot#xaml-attached-properties) XAML attached property.
+The identifier for the [SlideInAnimationGroup](pivot_slideinanimationgroup.md) XAML attached property.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[Pivot.SlideInAnimationGroup](pivot_slideinanimationgroup.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

@@ -16,6 +16,12 @@ Defines the values for specifying a preferred view for the input pane.
 
 ## -enum-fields
 
+### -field Default:0
+
+Show the default input pane view.
+
+Behaves exactly like [TryShow](coreinputview_tryshow_1077566544.md) or [TryShowPrimaryView](coreinputview_tryshowprimaryview_1925215151.md).
+
 ### -field Keyboard:1
 
 Show the software keyboard view.
@@ -28,15 +34,13 @@ Show the handwriting pane view. If it is not available, it will show the softwar
 
 Show the emoji pane view. If it is not available, it will show the emoji view of the software keyboard.
 
-### -field Default:0
-
-Show the default input pane view.
-
-Behaves exactly like [TryShow](coreinputview_tryshow_1077566544.md) or [TryShowPrimaryView](coreinputview_tryshowprimaryview_1925215151.md).
-
 ### -field Symbols:4
 
 Show the emoji pane with symbols view enabled. If it is not available, it will show the emoji view of the software keyboard.
+
+### -field Clipboard:5
+
+Show the clipboard history pane view.
 
 ## -remarks
 
@@ -49,6 +53,7 @@ This allows apps to build specific experiences around certain input views, if th
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 2004 | 19041 | Symbols |
+| ?? | ?? | Clipboard |
 
 ## -see-also
 

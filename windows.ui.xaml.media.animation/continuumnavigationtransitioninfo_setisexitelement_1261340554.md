@@ -22,9 +22,10 @@ The **UIElement** about which to set the exit element indicator.
 Set this value to **true** if *element* is the exit element; otherwise set it to **false**.
 
 ## -remarks
-This method supports XAML usage of the [ContinuumNavigationTransitionInfo.IsExitElement](/uwp/api/windows.ui.xaml.media.animation.continuumnavigationtransitioninfo#xaml-attached-properties) attached property.
+This method supports XAML usage of the [ContinuumNavigationTransitionInfo.IsExitElement](continuumnavigationtransitioninfo_isexitelement.md) attached property.
 
 ## -examples
 
 ## -see-also
-[ContinuumNavigationTransitionInfo.IsExitElement](/uwp/api/windows.ui.xaml.media.animation.continuumnavigationtransitioninfo#xaml-attached-properties)
+
+[ContinuumNavigationTransitionInfo.IsExitElement](continuumnavigationtransitioninfo_isexitelement.md), [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview)

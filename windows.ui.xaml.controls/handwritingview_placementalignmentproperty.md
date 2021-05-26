@@ -24,4 +24,3 @@ The identifier for the PlacementAlignment dependency property.
 [Text input with the handwriting view](/windows/uwp/design/controls-and-patterns/text-handwriting-view)
 
 ## -examples
-

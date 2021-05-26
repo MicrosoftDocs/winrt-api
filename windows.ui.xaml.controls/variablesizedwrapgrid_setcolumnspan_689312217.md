@@ -10,7 +10,7 @@ public void SetColumnSpan(Windows.UI.Xaml.UIElement element, System.Int32 value)
 # Windows.UI.Xaml.Controls.VariableSizedWrapGrid.SetColumnSpan
 
 ## -description
-Sets the value of the [VariableSizedWrapGrid.ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property on a target element.
+Sets the value of the [VariableSizedWrapGrid.ColumnSpan](variablesizedwrapgrid_columnspanproperty.md) XAML attached property on a target element.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.SetColumnSpan](/windows/winui/api/microsoft.ui.xaml.controls.variablesizedwrapgrid.setcolumnspan).
 
@@ -22,9 +22,10 @@ The target element.
 The value to set.
 
 ## -remarks
-For more info, see the [VariableSizedWrapGrid.ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) attached property.
+For more info, see the [VariableSizedWrapGrid.ColumnSpan](variablesizedwrapgrid_columnspanproperty.md) attached property.
 
 ## -examples
 
 ## -see-also
-[VariableSizedWrapGrid.ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties)
+
+[VariableSizedWrapGrid.ColumnSpan](variablesizedwrapgrid_columnspanproperty.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

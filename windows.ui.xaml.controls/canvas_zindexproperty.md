@@ -10,17 +10,18 @@ public Windows.UI.Xaml.DependencyProperty ZIndexProperty { get; }
 # Windows.UI.Xaml.Controls.Canvas.ZIndexProperty
 
 ## -description
-Identifies the [Canvas.ZIndex](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property.
+Identifies the [Canvas.ZIndex](canvas_zindex.md) XAML attached property.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Canvas.ZIndexProperty](/windows/winui/api/microsoft.ui.xaml.controls.canvas.zindexproperty).
 
 ## -property-value
-The identifier for the [Canvas.ZIndex](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property.
+The identifier for the [Canvas.ZIndex](canvas_zindex.md) XAML attached property.
 
 ## -remarks
-This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [Canvas.ZIndex](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property in XAML and won't need this identifier.  
-The maximum allowed value is `1000000` (one million).
+This property is only an identifier for the property system, and isn't used in most app scenarios. In most cases you set the [Canvas.ZIndex](canvas_zindex.md) XAML attached property in XAML and won't need this identifier.  
 
 ## -examples
 
 ## -see-also
+
+[Canvas.ZIndex](canvas_zindex.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

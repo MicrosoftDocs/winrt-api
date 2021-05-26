@@ -10,21 +10,22 @@ public void SetColumn(Windows.UI.Xaml.FrameworkElement element, System.Int32 val
 # Windows.UI.Xaml.Controls.Grid.SetColumn
 
 ## -description
-Sets the value of the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property on the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
+Sets the value of the [Grid.Column](grid_column.md) XAML attached property on the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Grid.SetColumn](/windows/winui/api/microsoft.ui.xaml.controls.grid.setcolumn).
 
 ## -parameters
 ### -param element
-The target element on which to set the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property.
+The target element on which to set the [Grid.Column](grid_column.md) XAML attached property.
 
 ### -param value
 The property value to set.
 
 ## -remarks
-This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property in XAML and won't need this method. For more info, see the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property.
+This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [Grid.Column](grid_column.md) XAML attached property in XAML and won't need this method. For more info, see the [Grid.Column](grid_column.md) XAML attached property.
 
 ## -examples
 
 ## -see-also
-[Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties)
+
+[Grid.Column](grid_column.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

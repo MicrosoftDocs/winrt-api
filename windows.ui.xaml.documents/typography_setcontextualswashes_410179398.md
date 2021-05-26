@@ -10,13 +10,13 @@ public void SetContextualSwashes(Windows.UI.Xaml.DependencyObject element, Syste
 # Windows.UI.Xaml.Documents.Typography.SetContextualSwashes
 
 ## -description
-Sets the value of the [ContextualSwashes](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
+Sets the value of the [ContextualSwashes](typography_contextualswashes.md) attached property for a specified dependency object.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetContextualSwashes](/windows/winui/api/microsoft.ui.xaml.documents.typography.setcontextualswashes).
 
 ## -parameters
 ### -param element
-The dependency object for which to set the value of the [ContextualSwashes](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) property.
+The dependency object for which to set the value of the [ContextualSwashes](typography_contextualswashes.md) property.
 
 ### -param value
 The new value to set the property to.
@@ -26,3 +26,5 @@ The new value to set the property to.
 ## -examples
 
 ## -see-also
+
+[ContextualSwashes](typography_contextualswashes.md), [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview)

@@ -23,7 +23,7 @@ TimePickerAutomationPeer has overrides of **Core** methods such that the associa
 
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "TimePicker".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Group](automationcontroltype.md).
-+ [GetName](automationpeer_getname_1386609741.md) attempts to get a string from the owner control's [Header](../windows.ui.xaml.controls/timepicker_header.md) property. Otherwise, the framework peer behavior of using [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) applies.
++ [GetName](automationpeer_getname_1386609741.md) attempts to get a string from the owner control's [Header](../windows.ui.xaml.controls/timepicker_header.md) property. Otherwise, the framework peer behavior of using [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties.name) applies.
 + [GetPattern](automationpeer_getpattern_2046576749.md) reports no pattern support.
 The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 

@@ -26,3 +26,5 @@ A Boolean value that indicates whether the [DependencyObject](../windows.ui.xaml
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.IsPeripheral](automationproperties_isperipheral.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

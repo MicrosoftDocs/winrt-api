@@ -10,15 +10,19 @@ public Windows.UI.Xaml.Automation.Peers.AutomationLandmarkType GetLandmarkType(W
 # Windows.UI.Xaml.Automation.AutomationProperties.GetLandmarkType
 
 ## -description
+
 Gets the value of the landmark type attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetLandmarkType](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getlandmarktype).
 
 ## -parameters
+
 ### -param element
+
 The [DependencyObject](../windows.ui.xaml/dependencyobject.md) to check.
 
 ## -returns
+
 The landmark type of the *element*
 
 ## -remarks
@@ -26,3 +30,5 @@ The landmark type of the *element*
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.LandmarkType](automationproperties_landmarktype.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

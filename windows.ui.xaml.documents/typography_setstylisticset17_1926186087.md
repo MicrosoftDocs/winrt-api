@@ -10,13 +10,13 @@ public void SetStylisticSet17(Windows.UI.Xaml.DependencyObject element, System.B
 # Windows.UI.Xaml.Documents.Typography.SetStylisticSet17
 
 ## -description
-Sets the value of the [StylisticSet17](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
+Sets the value of the [StylisticSet17](typography_stylisticset17.md) attached property for a specified dependency object.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet17](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset17).
 
 ## -parameters
 ### -param element
-The dependency object for which to set the value of the [StylisticSet17](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) property.
+The dependency object for which to set the value of the [StylisticSet17](typography_stylisticset17.md) property.
 
 ### -param value
 The new value to set the property to.
@@ -26,3 +26,5 @@ The new value to set the property to.
 ## -examples
 
 ## -see-also
+
+[Typography.StylisticSet17](typography_stylisticset17.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

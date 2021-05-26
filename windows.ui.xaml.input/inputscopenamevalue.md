@@ -179,6 +179,12 @@ Input scope is intended for working with an email, name, or address.
 
 See [EmailSmtpAddress](#-field-emailsmtpaddress5) for email-specific keyboard.
 
+### -field Private: 61
+
+Expected input is private data. Advises input processors that the text should **NOT** be stored or logged.
+
+The user can also specify this through the "Improve inking and typing" setting (Settings->Privacy->Diagnostics & Feedback).
+
 ### -field Maps:62
 
 Input scope is intended for working with a map location.
@@ -203,6 +209,12 @@ Expected input is a mathematical formula. Advises input processors to show the n
 
 Expected input does not include emoji. Advises input processors to not show the emoji key.
 
+## -xaml-syntax
+
+```xaml
+<object property="enumNamedConstant"/>
+```
+
 ## -remarks
 
 > [!NOTE]
@@ -218,4 +230,4 @@ Expected input does not include emoji. Advises input processors to not show the 
 
 ## -see-also
 
-[Windows.UI.Xaml.Input enumerations](windows_ui_xaml_input_enumerations.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[InputScope.Names](inputscope_names.md), [PasswordBox.InputScope](../windows.ui.xaml.controls/passwordbox_inputscope.md), [RichEditBox.InputScope](../windows.ui.xaml.controls/richeditbox_inputscope.md), [TextBox.InputScope](../windows.ui.xaml.controls/textbox_inputscope.md), [Windows.UI.Xaml.Input enumerations](windows_ui_xaml_input_enumerations.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

@@ -10,7 +10,7 @@ public Windows.Storage.StorageLibraryChangeReader GetChangeReader()
 # Windows.Storage.StorageLibraryChangeTracker.GetChangeReader
 
 ## -description
-Retrieves an [StorageLibraryChangeReader](storagelibrarychangereader.md) that enables the app to iterate through the list of changes and mark changes as accepted.
+Retrieves a [StorageLibraryChangeReader](storagelibrarychangereader.md) that enables the app to iterate through the list of changes and mark changes as accepted.
 
 ## -returns
 The returned change reader.

@@ -10,7 +10,7 @@ public void SetItemType(Windows.UI.Xaml.DependencyObject element, System.String 
 # Windows.UI.Xaml.Automation.AutomationProperties.SetItemType
 
 ## -description
-Sets the value of the [AutomationProperties.ItemType](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Sets the value of the [AutomationProperties.ItemType](automationproperties_itemtype.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetItemType](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setitemtype).
 
@@ -26,3 +26,5 @@ The item type.
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.ItemType](automationproperties_itemtype.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

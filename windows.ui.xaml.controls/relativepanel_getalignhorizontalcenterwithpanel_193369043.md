@@ -10,7 +10,7 @@ public bool GetAlignHorizontalCenterWithPanel(Windows.UI.Xaml.UIElement element)
 # Windows.UI.Xaml.Controls.RelativePanel.GetAlignHorizontalCenterWithPanel
 
 ## -description
-Gets the value of the [RelativePanel.AlignHorizontalCenterWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property for the target element.
+Gets the value of the [RelativePanel.AlignHorizontalCenterWithPanel](relativepanel_alignhorizontalcenterwithpanel.md) XAML attached property for the target element.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.GetAlignHorizontalCenterWithPanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getalignhorizontalcenterwithpanel).
 
@@ -19,12 +19,13 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.GetAlignHoriz
 The object from which the property value is read.
 
 ## -returns
-The [RelativePanel.AlignHorizontalCenterWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property value of the specified object. (**true** to horizontally center this element in the panel; otherwise, **false**.)
+The [RelativePanel.AlignHorizontalCenterWithPanel](relativepanel_alignhorizontalcenterwithpanel.md) XAML attached property value of the specified object. (**true** to horizontally center this element in the panel; otherwise, **false**.)
 
 ## -remarks
-This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [RelativePanel.AlignHorizontalCenterWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property in XAML and won't need this method. For more info, see the [RelativePanel.AlignHorizontalCenterWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) attached property.
+This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [RelativePanel.AlignHorizontalCenterWithPanel](relativepanel_alignhorizontalcenterwithpanel.md) XAML attached property in XAML and won't need this method. For more info, see the [RelativePanel.AlignHorizontalCenterWithPanel](relativepanel_alignhorizontalcenterwithpanel.md) attached property.
 
 ## -examples
 
 ## -see-also
-[RelativePanel.AlignHorizontalCenterWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties)
+
+[RelativePanel.AlignHorizontalCenterWithPanel](relativepanel_alignhorizontalcenterwithpanel.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

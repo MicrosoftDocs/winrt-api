@@ -27,3 +27,5 @@ Provides a mechanism to alter the control type read by Narrator. This is helpful
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.LocalizedControlType](automationproperties_localizedcontroltype.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

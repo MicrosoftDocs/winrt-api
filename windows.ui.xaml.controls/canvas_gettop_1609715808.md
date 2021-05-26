@@ -10,7 +10,7 @@ public double GetTop(Windows.UI.Xaml.UIElement element)
 # Windows.UI.Xaml.Controls.Canvas.GetTop
 
 ## -description
-Gets the value of the [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property for the target element.
+Gets the value of the [Canvas.Top](canvas_top.md) XAML attached property for the target element.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Canvas.GetTop](/windows/winui/api/microsoft.ui.xaml.controls.canvas.gettop).
 
@@ -19,12 +19,13 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Canvas.GetTop](/windows/win
 The object from which the property value is read.
 
 ## -returns
-The [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property value of the specified object.
+The [Canvas.Top](canvas_top.md) XAML attached property value of the specified object.
 
 ## -remarks
-This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property in XAML and won't need this method. For more info, see the [Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) attached property.
+This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [Canvas.Top](canvas_top.md) XAML attached property in XAML and won't need this method. For more info, see the [Canvas.Top](canvas_top.md) attached property.
 
 ## -examples
 
 ## -see-also
-[Canvas.Top](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties)
+
+[Canvas.Top](canvas_top.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

@@ -10,15 +10,17 @@ public Windows.UI.Xaml.DependencyProperty AnnotationAlternatesProperty { get; }
 # Windows.UI.Xaml.Documents.Typography.AnnotationAlternatesProperty
 
 ## -description
-Identifies the [AnnotationAlternates](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+Identifies the [AnnotationAlternates](typography_annotationalternates.md) attached property.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.AnnotationAlternatesProperty](/windows/winui/api/microsoft.ui.xaml.documents.typography.annotationalternatesproperty).
 
 ## -property-value
-The identifier for the [AnnotationAlternates](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+The identifier for the [AnnotationAlternates](typography_annotationalternates.md) attached property.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[AnnotationAlternates](typography_annotationalternates.md), [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview)

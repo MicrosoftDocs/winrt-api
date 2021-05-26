@@ -10,7 +10,7 @@ public enum Windows.UI.Xaml.FontNumeralStyle : int
 # FontNumeralStyle
 
 ## -description
-Describes a numeral style value for the [Typography.NumeralStyle](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+Describes a numeral style value for the [Typography.NumeralStyle](/uwp/api/windows.ui.xaml.documents.typography.numeralstyle) attached property.
 
 Equivalent WinUI enum: [FontNumeralStyle](/windows/winui/api/microsoft.ui.xaml.fontnumeralstyle).
 
@@ -33,7 +33,7 @@ Old style numeral style is used. Replaces default glyphs with a figure style tha
 
 
 ## -remarks
-This enumeration is used by the [Typography.NumeralStyle](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+This enumeration is used by the [Typography.NumeralStyle](/uwp/api/windows.ui.xaml.documents.typography.numeralstyle) attached property.
 
 ## -examples
 

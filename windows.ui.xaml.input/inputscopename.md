@@ -10,11 +10,13 @@ public class InputScopeName : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.
 # Windows.UI.Xaml.Input.InputScopeName
 
 ## -description
+
 Identifies a particular named input scope that is relevant to an overall [InputScope](inputscope.md).
 
 Equivalent WinUI class: [Microsoft.UI.Xaml.Input.InputScopeName](/windows/winui/api/microsoft.ui.xaml.input.inputscopename).
 
 ## -xaml-syntax
+
 ```xaml
 <InputScopeName .../>
 - or -
@@ -23,10 +25,10 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Input.InputScopeName](/windows/winui/
 <RichEditBox InputScope="inputScopeNameValue" .../>
 ```
 
-
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 [DependencyObject](../windows.ui.xaml/dependencyobject.md), [TextBox.InputScope](../windows.ui.xaml.controls/textbox_inputscope.md), [RichEditBox.InputScope](../windows.ui.xaml.controls/richeditbox_inputscope.md), [InputScope](inputscope.md), [InputScopeNameValue](inputscopenamevalue.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

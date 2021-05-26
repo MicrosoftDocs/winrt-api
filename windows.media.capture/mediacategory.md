@@ -28,6 +28,15 @@ Media is game chat.
 ### -field Speech:4
 Media is speech.
 
+### -field FarFieldSpeech
+Media is audio captured with the intent of capturing voice sources located in the ‘far field’. (Far away from the microphone.)
+
+### -field UniformSpeech
+Media is captured audio that requires consistent speech processing for the captured audio stream across all Windows devices. Used by applications that process speech data using machine learning algorithms.
+
+### -field VoiceTyping
+Media is audio captured with the intent of enabling dictation or typing by voice. 
+
 
 ## -remarks
 

@@ -10,7 +10,8 @@ public int AutomationProperties.GetCulture(DependencyObject element)
 # Windows.UI.Xaml.Automation.AutomationProperties.GetCulture
 
 ## -description
-Gets the value of the [CultureProperty](automationproperties_cultureproperty.md) attached property for the specified [DependencyObject](/uwp/api/windows.ui.xaml.dependencyobject).  
+
+Gets the value of the [Culture](automationproperties_culture.md) XAML attached property for the specified [DependencyObject](/uwp/api/windows.ui.xaml.dependencyobject).  
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetCulture](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getculture).
 
@@ -25,6 +26,8 @@ The value of the culture property for the specified *element*.
 ## -remarks
 
 ## -see-also
+
+[Culture](automationproperties_culture.md), , [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)
 
 ## -examples
 

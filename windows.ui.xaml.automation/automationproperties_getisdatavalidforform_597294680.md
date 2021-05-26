@@ -10,15 +10,19 @@ public bool GetIsDataValidForForm(Windows.UI.Xaml.DependencyObject element)
 # Windows.UI.Xaml.Automation.AutomationProperties.GetIsDataValidForForm
 
 ## -description
-Gets a Boolean value that indicates whether the entered or selected value is valid for the form rule associated with the specified element.
+
+Gets the value of the [AutomationProperties.IsDataValidForForm](automationproperties_isdatavalidforform.md) property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetIsDataValidForForm](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getisdatavalidforform).
 
 ## -parameters
+
 ### -param element
+
 The element for which to get data validation.
 
 ## -returns
+
 A Boolean value that indicates whether the entered or selected value is valid for the form rule associated with the object specified by the *element* parameter.
 
 ## -remarks
@@ -26,3 +30,5 @@ A Boolean value that indicates whether the entered or selected value is valid fo
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.IsDataValidForForm](automationproperties_isdatavalidforform.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

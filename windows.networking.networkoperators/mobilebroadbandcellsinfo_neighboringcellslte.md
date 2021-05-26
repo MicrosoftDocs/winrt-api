@@ -27,6 +27,5 @@ If not available or unknown, the size of array is 0.
 
 ## -examples
 
-
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl
