@@ -30,11 +30,37 @@ The [File access sample](https://github.com/Microsoft/Windows-universal-samples/
 AccessListEntryView entries = StorageApplicationPermissions.MostRecentlyUsedList.Entries;
 if (entries.Count > 0)
 {
+    StringBuilder outputText = new StringBuilder("The MRU list contains the following item(s):" + Environment.NewLine + Environment.NewLine);
+
     foreach (AccessListEntry entry in entries)
     {
-        StringBuilder outputText = new StringBuilder("The MRU list contains the following item(s):" + Environment.NewLine + Environment.NewLine);
         outputText.AppendLine(entry.Metadata);
     }
+}
+else
+{
+    // Handle empty list
+}
+```
+
+```cppwinrt
+#include <sstream>
+#include <winrt/Windows.Storage.AccessCache.h>
+using namespace winrt;
+using namespace Windows::Storage::AccessCache;
+...
+AccessListEntryView entries { StorageApplicationPermissions::MostRecentlyUsedList().Entries() };
+if (entries.Size() > 0)
+{
+    std::wostringstream outputText;
+    outputText << L"The MRU list contains the following item(s):" << std::endl << std::endl;
+
+    for(AccessListEntry const& entry: entries)
+    {
+        outputText << entry.Metadata.c_str() << std::endl;
+    }
+
+    std::wstring outputString { outputText.str() };
 }
 else
 {
