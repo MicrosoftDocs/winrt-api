@@ -41,7 +41,7 @@ This example uses LaunchFileAsync(IStorageFile) to launch a file contained in th
 ```csharp
 async void DefaultLaunch()
 {
-   // Path to the file in the app package to launch
+   // Path to the file in the app package to launch.
    string imageFile = @"images\test.png";
 
    var file = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync(imageFile);
