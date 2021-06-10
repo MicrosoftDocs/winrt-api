@@ -20,7 +20,8 @@ Specifies how focus was set, as a value of the enumeration.
 **true** if focus was set to the control, or focus was already on the control. **false** if the control is not focusable.
 
 ## -remarks
-If you call this method on a `Control` with an [IsTabStop](control_istabstop.md) set to `false`, the call will be ignored and focus will not move.
+If you call this method on a `Control` with an [IsTabStop](control_istabstop.md) set to `false`, the call will be ignored and focus will not move,
+and the call will return `false`.
 
 You can't remove focus from a control by calling this method with @Windows.UI.Xaml.FocusState.Unfocused as the parameter. This value is not allowed and causes an exception. To remove focus from a control, set focus to a different control.
 
