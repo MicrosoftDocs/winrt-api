@@ -25,15 +25,15 @@ This method returns a [WindowsXamlManager](windowsxamlmanager.md) object that co
 
 ```cpp
 
-        // Break the cycle between the WindowsXamlManager and the DesktopWindowXamlSource.
-        m_xamlSource.Close();
-        m_xamlManager = nullptr;
+// Break the cycle between the WindowsXamlManager and the DesktopWindowXamlSource.
+m_xamlSource.Close();
+m_xamlManager = nullptr;
 
-        // Drain the message queue after releasign WindowsXamlManager since rundown is async
-        while (PeekMessageW(&msg, nullptr, 0, 0, PM_REMOVE))
-        {
-            ::DispatchMessageW(&msg);
-        }
+// Drain the message queue after releasign WindowsXamlManager since rundown is async
+while (PeekMessageW(&msg, nullptr, 0, 0, PM_REMOVE))
+{
+    ::DispatchMessageW(&msg);
+}
 ```
 
 ## -see-also
