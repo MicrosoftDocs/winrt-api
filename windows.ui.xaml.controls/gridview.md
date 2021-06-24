@@ -104,6 +104,13 @@ If you need to handle pointer events for a [UIElement](../windows.ui.xaml/uielem
 
 List controls that derive from [Selector](../windows.ui.xaml.controls.primitives/selector.md) have a default selection behavior that depends on what the items source is (the type that's used for [ItemsSource](itemscontrol_itemssource.md)). If the items source is a [CollectionViewSource](../windows.ui.xaml.data/collectionviewsource.md) instance, then the behavior in the selection control is that the selection will default to the current item. When the list is first displayed, the selection defaults to the first item as current item. If you don't want the first item to be selected in this case, set [IsSynchronizedWithCurrentItem](../windows.ui.xaml.controls.primitives/selector_issynchronizedwithcurrentitem.md) to **false** in the GridView.
 
+### Visual updates in WinUI 2.6
+In [WinUI 2.6](https://docs.microsoft.com/windows/apps/winui/winui2/release-notes/), new APIs and styles were added to update the visuals and design of GridView. These updated visuals include rounded corners, improved borders, rounded checkboxes in multiple selection mode, and more. 
+
+If you'd like to use these new styles, first ensure that you're using WinUI 2.6 in your app. To get set up with WinUI 2, see [Getting started with the Windows UI 2.x Library](https://docs.microsoft.com/windows/apps/winui/winui2/getting-started). 
+
+You can always modify the look of a GridView by specifying Xaml resources in your app. A new resource that is available in WinUI 2.6 is `GridViewItemCornerRadius`, which controls the level of rounding on GridViewItem corners. By default, this theme resource is set to 4px.
+
 ## -examples
 
 > [!TIP]
@@ -233,6 +240,14 @@ namespace GroupedGridViewApp
         public string Project { get; set; }
     }
 }
+```
+
+In the following example, the corners of items in every GridView throughout the app are rounded to 5px.
+
+```xml
+<Application.Resources>
+    <CornerRadius x:Key="GridViewItemCornerRadius">5</CornerRadius>
+</Application.Resources>
 ```
 
 ## -see-also
