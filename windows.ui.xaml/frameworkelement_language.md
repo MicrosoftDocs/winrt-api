@@ -29,6 +29,8 @@ A string specifying language and culture that follows the Internet Engineering T
 ## -remarks
 The Language property is intended for setting a per-element language setting on selected elements in a larger UI. The main reason for doing this is to influence text-related properties and settings, such as what the default or fallback [FontFamily](../windows.ui.xaml.media/fontfamily.md) should be for text presentation.
 
+The default value for this property is the top language from the app language list, which is derived from the user's ranked list of preferred languages. We recommend that you leave the default for this property, as it will provide the best end user experience in terms of font fallback. For example, if the app is displaying East Asian content and the user has specified an East Asian language in their user profile, the content will most reliability show up in the desired East Asian font.
+
 The Language property is mainly relevant for these [FrameworkElement](frameworkelement.md) subclasses: 
 + [TextBlock](../windows.ui.xaml.controls/textblock.md)
 + [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md)

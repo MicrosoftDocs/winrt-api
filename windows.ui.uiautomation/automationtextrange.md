@@ -15,7 +15,7 @@ Provides access to a span of continuous text in a container that supports the [I
 
 ## -remarks
 
-Client applications can use the IUIAutomationTextRange interface to select, compare, and retrieve embedded objects from the text span. The interface uses two endpoints to delimit where the text span starts and ends. Disjoint spans of text are represented by an [IUIAutomationTextRangeArray](/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrangearray) interface.
+Client applications can use this object to select, compare, and retrieve embedded objects from the text span. Two endpoints are exposed that delimit where the text span starts and ends. Disjoint spans of text are represented by an [IUIAutomationTextRangeArray](/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrangearray) interface.
 
 ## -see-also
 

@@ -10,9 +10,11 @@ public class CoreIndependentInputSource : Windows.UI.Core.ICoreInputSourceBase, 
 # Windows.UI.Core.CoreIndependentInputSource
 
 ## -description
-Surfaces core input API for interoperation scenarios.
+
+Surfaces core input APIs for interoperation scenarios.
 
 ## -remarks
+
 Create an instance of this class by calling [SwapChainBackgroundPanel.CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainbackgroundpanel_createcoreindependentinputsource_467679991.md) or [SwapChainPanel.CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md).
 
 The CoreIndependentInputSource class enables an app to handle input and rendering independent of the XAML UI thread, because you're intentionally providing the input processing logic on a background thread. You must call [CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md) from a non-UI thread, otherwise the [CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md) method call will fail.
@@ -101,4 +103,5 @@ m_inputLoopWorker = ThreadPool::RunAsync(workItemHandler, WorkItemPriority::High
 For more example code of how to use [CreateCoreIndependentInputSource](../windows.ui.xaml.controls/swapchainpanel_createcoreindependentinputsource_467679991.md) and CoreIndependentInputSource, see the `DrawingPanel` class definition that is part of the [XAML SwapChainPanel DirectX interop sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20SwapChainPanel%20DirectX%20interop%20sample).
 
 ## -see-also
+
 [ICoreInputSourceBase](icoreinputsourcebase.md), [ICorePointerInputSource](icorepointerinputsource.md), [SwapChainPanel](../windows.ui.xaml.controls/swapchainpanel.md), [Threading and async programming](/windows/uwp/threading-async/index)

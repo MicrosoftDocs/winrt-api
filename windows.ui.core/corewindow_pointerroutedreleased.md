@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler PointerRoutedReleased<Windows.
 
 ## -description
 
-Occurs on a process associated with, but not currently receiving input from, a pointer that fires a [PointerReleased](corewindow_pointerreleased.md) event on a different process.
+Occurs on all input objects ever associated with, but not currently receiving input from, a pointer that fires a [CoreIndependentInputSource.PointerReleased](coreindependentinputsource_pointerreleased.md) event on an input object.
 
 ## -remarks
 

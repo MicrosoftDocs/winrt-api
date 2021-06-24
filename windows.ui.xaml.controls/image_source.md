@@ -81,7 +81,7 @@ Windows::UI::Xaml::Controls::Image img;
 img.Source(Windows::UI::Xaml::Media::Imaging::BitmapImage{ Windows::Foundation::Uri{ L"ms-appx:///Assets/LockScreenLogo.png" } });
 ```
 
-```cppwinrt
+```cppcx
 auto img = ref new Image();
 auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/Logo.png");
@@ -131,7 +131,7 @@ void MainPage::Image_Loaded(winrt::Windows::Foundation::IInspectable const& send
 }
 ```
 
-```cppwinrt
+```cppcx
 void App1::MainPage::Image_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
  auto img = dynamic_cast<Image^>(sender);
@@ -166,6 +166,14 @@ capturedPhoto.Source = bitmapImage;
 ```
 
 ```cppwinrt
+auto bitmapImage = winrt::Windows::UI::Xaml::Media::Imaging::BitmapImage();
+// Call BaseUri on the root Page element and combine it with a relative path
+// to consruct an absolute URI.
+bitmapImage.UriSource(winrt::Windows::Foundation::Uri(BaseUri().AbsoluteUri(), L"Assets/placeholder.png"));
+capturedPhoto.Source(bitmapImage);
+```
+
+```cppcx
 auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 // Call BaseUri on the root Page element and combine it with a relative path
 // to consruct an absolute URI.
@@ -191,6 +199,18 @@ stackPanel1.Children.Add(img);
 ```
 
 ```cppwinrt
+Image img;
+BitmapImage bitmapImage;
+
+// AN EXCEPTION IS THROWN BECAUSE img.BaseUri IS NULL AT THIS POINT.
+Uri uri(img.BaseUri(), L"Assets/Logo.png");
+
+bitmapImage.UriSource(uri);
+img.Source(bitmapImage);
+stackPanel1.Children().Add(img);
+```
+
+```cppcx
 auto img = ref new Image();
 auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 
@@ -220,6 +240,19 @@ img.Source = bitmapImage;
 ```
 
 ```cppwinrt
+
+Image img;
+// Add the image to the page.
+stackPanel1.Children().Add(img);
+
+BitmapImage bitmapImage;
+// img.BaseUri in not null because img has been added to the page.
+Uri uri(img.BaseUri(), L"Assets/Logo.png");
+bitmapImage.UriSource(uri);
+img.Source(bitmapImage);
+```
+
+```cppcx
 auto img = ref new Image();
 // Add the image to the page.
 stackPanel1->Children->Append(img);
@@ -245,6 +278,11 @@ img.Source = new BitmapImage(new Uri("http://www.contoso.com/images/logo.png"));
 ```
 
 ```cppwinrt
+Image img;
+img.Source(BitmapImage(Uri(L"http://www.contoso.com/images/logo.png")));
+```
+
+```cppcx
 auto img = ref new Image();
 img->Source = ref new BitmapImage(ref new Windows::Foundation::Uri("http://www.contoso.com/images/logo.png"));
 ```

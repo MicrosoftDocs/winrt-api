@@ -11,7 +11,7 @@ public IAsyncOperation<ActivationSignalDetector>> ConversationalAgentDetectorMan
 
 ## -description
 
-Asynchronously gets all [ActivationSignalDetector](activationsignaldetector.md) objects available on the system that are associated with this manager and that correspond to the type of detector specified.
+Asynchronously retrieves all [ActivationSignalDetector](activationsignaldetector.md) objects available on the system that are associated with this manager and that correspond to the type of detector specified.
 
 ## -returns
 

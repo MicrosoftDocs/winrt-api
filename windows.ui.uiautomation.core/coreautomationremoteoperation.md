@@ -11,7 +11,7 @@ public sealed class CoreAutomationRemoteOperation
 
 ## -description
 
-An activatable runtime class that represents an entry point for UI Automation (UIA) clients to use remote operations on UIA providers.
+Represents an entry point for UI Automation (UIA) clients to use remote operations.
 
 ## -remarks
 

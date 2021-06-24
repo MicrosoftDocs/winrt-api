@@ -15,6 +15,8 @@ Contains event data for the [XYFocusTransferringFromPrimaryView](coreinputview_x
 
 ## -remarks
 
+Primary view refers to the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1), while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
+
 ## -see-also
 
 ## -examples

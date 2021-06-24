@@ -17,6 +17,12 @@ Defines constants that specify a signal kind.
 ### -field OnPresentFlipAway:0
 Specifies a signal that flips away on *Present*.
 
+### -field OnPresentFlipTo: 1
+
+Introduced in **Windows.Foundation.UniversalApiContract**, version 12.
+
+Specifies a signal that flips to on *Present*.
+
 ## -remarks
 
 ## -see-also

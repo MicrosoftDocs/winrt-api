@@ -11,9 +11,11 @@ public string ExecutableFileName { get; }
 
 ## -description
 
-Gets the application that the element belongs to, even for a remote application (one that isn’t running on the local machine).
+Gets the filename of the UI Automation provider's executable that the element belongs to.
 
 ## -property-value
+
+The filename of the UI Automation provider's executable that the element belongs to.
 
 ## -remarks
 

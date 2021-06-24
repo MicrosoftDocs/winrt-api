@@ -11,9 +11,11 @@ public string AppUserModelId { get; }
 
 ## -description
 
-Gets the [AppUserModelId (AUMID)](/windows/win32/shell/appids) of the application that the element belongs to, even for a remote application (one that isn’t running on the local machine).
+Gets the [AppUserModelId (AUMID)](/windows/win32/shell/appids) of the application that the element belongs to.
 
 ## -property-value
+
+The [AppUserModelId (AUMID)](/windows/win32/shell/appids) of the application that the element belongs to.
 
 ## -remarks
 

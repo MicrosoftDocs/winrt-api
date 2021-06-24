@@ -29,6 +29,9 @@ Current app modifications folder.
 ### -field DocumentsLibrary
 Documents library folder.
 
+### -field DownloadsFolder
+Downloads library folder.
+
 ### -field HomeGroup
 HomeGroup folder.
 

@@ -13,6 +13,9 @@ public enum PhoneIncomingCallDismissedReason : int
 ## -description
 Indicates the reason for IncomingCallDismissed trigger.
 
+> [!NOTE]
+> This enum is deprecated.
+
 ## -enum-fields
 ### -field Unknown:0
 Incoming call is being dismissed unexpectedly. Reason is unknown.

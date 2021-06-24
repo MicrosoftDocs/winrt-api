@@ -11,13 +11,13 @@ public Rect OccludingRect { get; }
 
 ## -description
 
-Gets the bounding rect of the occluding input pane (and associated UI).
+Gets the bounding rect of the occluding input pane.
 
 ## -property-value
 
-The rectangle, in client coordinates, representing the region of the app window hidden behind the pane. Specified in device-independent pixels (DIP).
+The rectangle formed by the intersection of the input pane and the application window (the region of the app window hidden behind the pane). Specified in device-independent pixels (DIP).
 
-A *top* value of "0" indicates that the app window is not obstructed by the pane. The pane might still be visible.
+If [Rect.Y](/uwp/api/windows.foundation.rect.y) has value of 0, the app window is not obstructed by the pane (the pane might still be visible).
 
 ## -remarks
 

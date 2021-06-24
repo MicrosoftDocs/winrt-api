@@ -10,17 +10,15 @@ abstract public event Windows.Foundation.TypedEventHandler PointerRoutedTo<Windo
 # Windows.UI.Core.ICorePointerRedirector.PointerRoutedTo
 
 ## -description
-Occurs on the process not currently receiving pointer input when ongoing pointer input, for an existing pointer ID, transitions from one process to another.
 
-An implementation of the [ICorePointerRedirector](icorepointerredirector.md) interface is provided by the [CoreWindow](corewindow.md) class ([PointerRoutedTo](corewindow_pointerroutedto.md)).
+Occurs when captured pointer input previously being delivered to another object, transitions to being delivered to this object.
 
 ## -remarks
-This event is not fired on a [PointerPressed](corewindow_pointerpressed.md) event for a new pointer ID on a different process.
 
-A [PointerPressed](corewindow_pointerpressed.md) event is not fired on the current process if a [PointerRoutedTo](corewindow_pointerroutedto.md) event is fired first.
-
-
+A PointerPressed event is not fired on the current process if a [PointerRoutedTo](corewindow_pointerroutedto.md) event is fired first.
 
 ## -examples
 
 ## -see-also
+
+[CoreWindow.PointerRoutedTo](corewindow_pointerroutedto.md), [CoreIndependentInputSource.PointerRoutedTo](coreindependentinputsource_pointerroutedto.md), [CoreWindow.PointerPressed](corewindow_pointerpressed.md), [CoreIndependentInputSource.PointerPressed](coreindependentinputsource_pointerpressed.md)

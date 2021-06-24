@@ -22,6 +22,10 @@ The current session has completed.
 ### -field Closed:3
 The current session has been closed.
 
+### -field PdlDataAvailableForModification: 4
+Page description language (PDL) data is available for modification after driver rendering is complete.
+
+
 ### -field Aborted:2
 The current session has been aborted.
 

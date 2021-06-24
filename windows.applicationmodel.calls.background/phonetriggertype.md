@@ -29,12 +29,20 @@ Airplane mode on a phone line was disabled so the phone could make an emergency 
 ### -field CallOriginDataRequest:4
 A request was made for the origin of the phone call.
 
+> [!NOTE]
+> This constant is deprecated.
+
 ### -field CallBlocked:5
 The call was blocked.
 
 ### -field IncomingCallDismissed:6
-The incoming call was dismissed. Currently limited to first party use only.
+The incoming call was dismissed.
 
+> [!NOTE]
+> This constant is deprecated.
+
+### -field IncomingCallNotification: 7
+There is a new incoming call.
 
 ## -remarks
 

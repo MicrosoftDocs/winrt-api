@@ -17,6 +17,6 @@ Contains event data for the [PrimaryViewHiding](coreinputview_primaryviewhiding.
 
 ## -see-also
 
-[Windows.UI.ViewManagement.Core.CoreInputViewShowingEventArgs](coreinputviewshowingeventargs.md)
+[CoreInputViewShowingEventArgs](coreinputviewshowingeventargs.md)
 
 ## -examples

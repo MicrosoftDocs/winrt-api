@@ -30,6 +30,6 @@ The configuration data.
 
 ## -see-also
 
-[SetModelDataAsync](activationsignaldetectionconfiguration_setmodeldataasync_290934661.md), [ActivationSignalDetector](activationsignaldetector.md)
+[SetModelDataAsync](activationsignaldetectionconfiguration_setmodeldataasync_290934661.md), [SetModelDataWithResult(System.String,Windows.Storage.Streams.IInputStream)](activationsignaldetectionconfiguration_setmodeldatawithresult_384345367.md), [SetModelDataWithResultAsync(System.String,Windows.Storage.Streams.IInputStream)](activationsignaldetectionconfiguration_setmodeldatawithresultasync_1134103402.md), [ActivationSignalDetector](activationsignaldetector.md)
 
 ## -examples

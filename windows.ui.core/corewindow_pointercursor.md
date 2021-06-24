@@ -11,11 +11,11 @@ public Windows.UI.Core.CoreCursor PointerCursor { get;  set; }
 
 ## -description
 
-Gets or sets the cursor used by the app.
+Gets or sets the pointer cursor used by the app.
 
 ## -property-value
 
-The app's cursor.
+The pointer cursor used by the app.
 
 ## -remarks
 

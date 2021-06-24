@@ -12,6 +12,9 @@ public class PhoneCallOriginDataRequestTriggerDetails : Windows.ApplicationModel
 ## -description
 Used to provide the origin details of the phone call.
 
+> [!NOTE]
+> This class is deprecated.
+
 ## -remarks
 
 ## -examples

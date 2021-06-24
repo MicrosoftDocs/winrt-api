@@ -11,7 +11,7 @@ public class CoreInputViewOcclusion
 
 ## -description
 
-Represents a single input pane currently occluding the app.
+Represents the area of the app that is currently occluded by the [CoreInputView](coreinputview.md).
 
 > [!NOTE]
 > Not supported on HoloLens.

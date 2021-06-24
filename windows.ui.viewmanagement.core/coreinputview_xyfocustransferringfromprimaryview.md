@@ -15,6 +15,8 @@ Occurs before the input pane loses focus and before a UI element gets focus.
 
 ## -remarks
 
+Primary view refers to the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1), while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
+
 Designate the focus target when navigating from the input pane to a UI element in your application.
 
 ## -examples

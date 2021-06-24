@@ -33,6 +33,8 @@ Expose mouse input events.
 
 ## -remarks
 
+Additional input device type filters are specified in [CoreIndependentInputFilters](coreindependentinputfilters.md).
+
 ## -examples
 
 ## -see-also

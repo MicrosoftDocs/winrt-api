@@ -42,7 +42,17 @@ Show the emoji pane with symbols view enabled. If it is not available, it will s
 
 Show the clipboard history pane view.
 
+### -field Dictation: 6
+
+Show the dictation pane view.
+
+### -field Clipboard:5
+
+Show the clipboard history pane view.
+
 ## -remarks
+
+Primary view refers to the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1), while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
 
 Pass this parameter in the [TryShow(CoreInputViewKind)](coreinputview_tryshow_154132369.md) method to specify the preferred input view.
 

@@ -17,13 +17,15 @@ This method is a "best effort" and guarantees only that the user has a way to in
 
 ## -returns
 
-**true** if the request to show the input pane was accepted; otherwise **false**.
+True, if the request to show the input pane was accepted. Otherwise, false.
 
-If this method is called from an app that is not in foreground, the request is rejected and **false** is returned.
+If this method is called from an app that is not in foreground, the request is rejected and false is returned.
 
 ## -remarks
 
-If you set [CoreTextEditContext.InputPaneDisplayPolicy](../windows.ui.text.core/coretexteditcontext_inputpanedisplaypolicy.md) to **Manual** in your app, you are responsible for showing and hiding the input pane using TryShowPrimaryView and [TryHidePrimaryView](coreinputview_tryhideprimaryview_908065025.md).
+Primary view refers to the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1), while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
+
+If you set [CoreTextEditContext.InputPaneDisplayPolicy](../windows.ui.text.core/coretexteditcontext_inputpanedisplaypolicy.md) to **Manual** in your app, you are responsible for showing and hiding the input pane using [TryShowPrimaryView](coreinputview_tryshowprimaryview_1925215151.md) and [TryHidePrimaryView](coreinputview_tryhideprimaryview_908065025.md).
 
 ## -see-also
 

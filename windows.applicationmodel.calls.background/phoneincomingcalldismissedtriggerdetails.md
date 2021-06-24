@@ -13,6 +13,9 @@ public class PhoneIncomingCallDismissedTriggerDetails
 ## -description
 The trigger details for the IncomingCallDismissed trigger.
 
+> [!NOTE]
+> This class is deprecated.
+
 ## -remarks
 
 ## -see-also

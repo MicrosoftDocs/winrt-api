@@ -16,6 +16,9 @@ Represents the launch arguments for the application. The app’s `OnActivated` m
 
 ## -remarks
 
+> [!IMPORTANT]
+> To use this API, your application needs to declare in its `Package.appxmanifest` file `windows.phonecallactivation` as a `uap13:Extension` category. Otherwise, the application won't be able to be activated to facilitate in-app call progress control UI.
+
 ## -see-also
 
 ## -examples

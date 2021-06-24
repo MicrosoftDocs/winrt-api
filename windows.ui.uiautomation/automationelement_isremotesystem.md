@@ -11,9 +11,11 @@ public bool IsRemoteSystem { get; }
 
 ## -description
 
-Gets whether an element belongs to a remote application (one that isn’t running on the local machine).
+Gets whether the element belongs to a UI Automation provider that is not hosted natively on the user's local machine.
 
 ## -property-value
+
+True, if the element belongs to a UI Automation provider that is not hosted natively on the user's local machine. Otherwise, false.
 
 ## -remarks
 

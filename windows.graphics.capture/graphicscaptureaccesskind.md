@@ -18,7 +18,11 @@ Specifies the types of access that can be requested for graphics capture.
 
 ### -field Borderless:0
 
-The access allows borderless capture.
+Access for borderless capture.
+
+### -field Programmatic: 1
+
+Access for programattic capture.
 
 ## -remarks
 

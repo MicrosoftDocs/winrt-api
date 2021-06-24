@@ -11,12 +11,14 @@ public class CoreInputView
 
 ## -description
 
-Enables an app to receive notifications when a docked, undocked, moveable, or transitory input pane (and associated UI) is moved, displayed, or hidden, and to determine which portion of the app's window is obscured by the pane.
+Enables an app to control the display of a docked, undocked, moveable, or transitory input pane (and associated UI), receive notifications when the pane is moved, displayed, or hidden, and to determine which portion of the app's window is obscured by the pane.
 
 > [!NOTE]
 > Not supported on HoloLens.
 
 ## -remarks
+
+Primary view refers to the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1), while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
 
 Used by frameworks (such as XAML) or custom text controls only.
 
@@ -36,7 +38,6 @@ Call [GetForCurrentView](coreinputview_getforcurrentview_1363600702.md) to get a
 
 After you register to receive input pane notifications, the system calls your event delegate whenever the pane is shown or hidden for the window that was visible when you called the [GetForCurrentView](coreinputview_getforcurrentview_1363600702.md) method.
 
-<!-- confirmed -->
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx).
 
@@ -56,6 +57,6 @@ After you register to receive input pane notifications, the system calls your ev
 
 ## -see-also
 
-[CoreInputViewOcclusion](coreinputviewocclusion.md)
+[CoreFrameworkInputView](coreframeworkinputview.md)
 
 ## -examples

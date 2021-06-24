@@ -11,9 +11,11 @@ public bool CoreInputViewHidingEventArgs.TryCancel()
 
 ## -description
 
-Attempts to cancel the [PrimaryViewHiding](coreinputview_primaryviewhiding.md) event of the input pane associated with the [CoreInputView](coreinputview.md) pane (if input pane is visible).
+Attempts to cancel the [PrimaryViewHiding](coreinputview_primaryviewhiding.md) event of the input pane associated with the [CoreInputView](coreinputview.md) (if input pane is visible).
 
 ## -returns
+
+True, if operation was successful. Otherwise, false.
 
 ## -remarks
 
