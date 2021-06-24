@@ -26,9 +26,11 @@ Default printer settings.
 
 ## -remarks
 
+For more information, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
+
 ## -see-also
 
-[LaunchKind](printsupportsettingsuisession_launchkind.md)
+[Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide),[LaunchKind](printsupportsettingsuisession_launchkind.md)
 
 ## -examples
 

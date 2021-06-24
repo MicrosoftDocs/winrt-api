@@ -16,9 +16,11 @@ Provides a method that can be used to convert a print document from one page des
 
 ## -remarks
 
+For more information, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
+
 ## -see-also
 
-[PdlModificationRequested](printworkflowjobbackgroundsession_pdlmodificationrequested.md), [GetPdlConverter](printworkflowpdlmodificationrequestedeventargs_getpdlconverter_762504533.md)
+[Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide),[PdlModificationRequested](printworkflowjobbackgroundsession_pdlmodificationrequested.md), [GetPdlConverter](printworkflowpdlmodificationrequestedeventargs_getpdlconverter_762504533.md)
 
 ## -examples
 

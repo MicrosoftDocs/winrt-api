@@ -16,9 +16,11 @@ Provides info for the [PdlModificationRequested](printworkflowjobbackgroundsessi
 
 ## -remarks
 
+For more information, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
+
 ## -see-also
 
-[PdlModificationRequested](printworkflowjobbackgroundsession_pdlmodificationrequested.md)
+[Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide),[PdlModificationRequested](printworkflowjobbackgroundsession_pdlmodificationrequested.md)
 
 ## -examples
 

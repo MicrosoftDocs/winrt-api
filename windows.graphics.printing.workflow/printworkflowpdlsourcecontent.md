@@ -16,9 +16,11 @@ Encapsulates the source page description language (PDL) content for the current 
 
 ## -remarks
 
+For more information, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
+
 ## -see-also
 
-[SourceContent](printworkflowpdlmodificationrequestedeventargs_sourcecontent.md)
+[Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide),[SourceContent](printworkflowpdlmodificationrequestedeventargs_sourcecontent.md)
 
 ## -examples
 

@@ -16,9 +16,11 @@ Provides operations for showing a UI for gathering user input that the print wor
 
 ## -remarks
 
+For more information, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
+
 ## -see-also
 
-[UILauncher](printworkflowpdlmodificationrequestedeventargs_uilauncher.md)
+[Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide),[UILauncher](printworkflowpdlmodificationrequestedeventargs_uilauncher.md)
 
 ## -examples
 

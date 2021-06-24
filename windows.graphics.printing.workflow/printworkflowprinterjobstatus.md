@@ -34,9 +34,11 @@ The current session has completed.
 
 ## -remarks
 
+For more information, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
+
 ## -see-also
 
-[GetJobStatus](printworkflowprinterjob_getjobstatus_916148968.md)
+[Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide),[GetJobStatus](printworkflowprinterjob_getjobstatus_916148968.md)
 
 ## -examples
 

@@ -16,9 +16,11 @@ Provides info for the [PdlDataAvailable](printworkflowjobuisession_pdldataavaila
 
 ## -remarks
 
+For more information, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
+
 ## -see-also
 
-[PdlDataAvailable](printworkflowjobuisession_pdldataavailable.md)
+[Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide),[PdlDataAvailable](printworkflowjobuisession_pdldataavailable.md)
 
 ## -examples
 

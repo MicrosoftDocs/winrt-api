@@ -16,9 +16,11 @@ Represents the target page description language (PDL) stream for the current pri
 
 ## -remarks
 
+For more information, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
+
 ## -see-also
 
-[CreateJobOnPrinter](printworkflowpdlmodificationrequestedeventargs_createjobonprinter_1199394287.md), [CreateJobOnPrinterWithAttributes](printworkflowpdlmodificationrequestedeventargs_createjobonprinterwithattributes_1308175971.md), [CreateJobOnPrinterWithAttributesBuffer](printworkflowpdlmodificationrequestedeventargs_createjobonprinterwithattributesbuffer_713604810.md)
+[Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide),[CreateJobOnPrinter](printworkflowpdlmodificationrequestedeventargs_createjobonprinter_1199394287.md), [CreateJobOnPrinterWithAttributes](printworkflowpdlmodificationrequestedeventargs_createjobonprinterwithattributes_1308175971.md), [CreateJobOnPrinterWithAttributesBuffer](printworkflowpdlmodificationrequestedeventargs_createjobonprinterwithattributesbuffer_713604810.md)
 
 ## -examples
 

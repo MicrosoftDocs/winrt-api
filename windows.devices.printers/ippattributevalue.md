@@ -16,9 +16,11 @@ Represents an attribute value as defined by the [Internet Printing Protocol (IPP
 
 ## -remarks
 
+For more information about this class, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
+
 ## -see-also
 
-[GetPrinterAttributes](ippprintdevice_getprinterattributes_507207458.md),[SetPrinterAttributes](ippprintdevice_setprinterattributes_265185914.md),[GetJobAttributes](../windows.graphics.printing.workflow/printworkflowprinterjob_getjobattributes_1026150713.md),[SetJobAttributes](../windows.graphics.printing.workflow/printworkflowprinterjob_setjobattributes_769553459.md)
+[Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide),[GetPrinterAttributes](ippprintdevice_getprinterattributes_507207458.md),[SetPrinterAttributes](ippprintdevice_setprinterattributes_265185914.md),[GetJobAttributes](../windows.graphics.printing.workflow/printworkflowprinterjob_getjobattributes_1026150713.md),[SetJobAttributes](../windows.graphics.printing.workflow/printworkflowprinterjob_setjobattributes_769553459.md)
 
 ## -examples
 

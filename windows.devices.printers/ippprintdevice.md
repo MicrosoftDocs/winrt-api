@@ -16,9 +16,11 @@ Represents a printer device that supports the [Internet Printing Protocol (IPP)]
 
 ## -remarks
 
+For more information about this class, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
+
 ## -see-also
 
-[Internet Printing Protocol (IPP) specification](https://tools.ietf.org/html/rfc8011)
+[Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide),[Internet Printing Protocol (IPP) specification](https://tools.ietf.org/html/rfc8011)
 
 ## -examples
 

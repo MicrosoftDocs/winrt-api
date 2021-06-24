@@ -16,10 +16,13 @@ Provides info for the [JobStarting](printworkflowjobbackgroundsession_jobstartin
 
 ## -remarks
 
+For more information, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
+
 ## -see-also
 
 [JobStarting](printworkflowjobbackgroundsession_jobstarting.md)
 
 ## -examples
 
+[Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide)
 
