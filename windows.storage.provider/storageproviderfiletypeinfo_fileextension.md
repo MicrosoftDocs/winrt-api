@@ -19,10 +19,6 @@ public string FileExtension { get; }
 ## -remarks
 
 ## -see-also
-[StorageProviderFileTypeInfo](storageproviderfiletypeinfo.md)
-
-[StorageProviderFileTypeInfo.IconResource](storageproviderfiletypeinfo_iconresource.md)
+[StorageProviderFileTypeInfo](storageproviderfiletypeinfo.md), [StorageProviderFileTypeInfo.IconResource](storageproviderfiletypeinfo_iconresource.md)
 
 ## -examples
-
-

@@ -17,5 +17,4 @@ Represents the base class for all XamlDirect APIs. All of the XamlDirect APIs ar
 
 ## -see-also
 
-* [XamlDirect.GetDefault](xamldirect_getdefault_846721868.md)
-* [XamlDirect.CreateInstance](xamldirect_createinstance_2026807211.md)
+[XamlDirect.GetDefault](xamldirect_getdefault_846721868.md), [XamlDirect.CreateInstance](xamldirect_createinstance_2026807211.md)

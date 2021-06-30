@@ -23,11 +23,10 @@ Returns StorageLibraryChangeId::Unknown if the change tracker cannot compute the
 ## -remarks
 
 ## -see-also
-[StorageLibraryChangeReader](storagelibrarychangereader.md)
-
-[StorageLibraryLastChangeId](storagelibrarylastchangeid.md)
+[StorageLibraryChangeReader](storagelibrarychangereader.md), [StorageLibraryLastChangeId](storagelibrarylastchangeid.md)
 
 ## -examples
+
 ```cpp
 // applications are expected to persist the previous value
 UINT64 appsLastPersistedChangeId = StorageLibraryLastChangeId::Unknown();

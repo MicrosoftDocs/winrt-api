@@ -12,12 +12,6 @@ Returns **True** if the operating system has been verified to register cloud fil
 ## -remarks
 
 ## -see-also
- [StorageProviderSyncRootManager](storageprovidersyncrootmanager.md)
+[StorageProviderSyncRootManager](storageprovidersyncrootmanager.md), [Register](storageprovidersyncrootmanager_register_1146790023.md), [Unregister](storageprovidersyncrootmanager_unregister_1011759375.md)
 
- [Register](storageprovidersyncrootmanager_register_1146790023.md)
-
- [Unregister](storageprovidersyncrootmanager_unregister_1011759375.md)
- 
 ## -examples
-
-

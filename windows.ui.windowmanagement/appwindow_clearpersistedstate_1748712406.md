@@ -25,8 +25,6 @@ If a view with this ID still exists in the app at the time of calling this metho
 
 ## -see-also
 
-[PersistedStateId](appwindow_persistedstateid.md)
-[ClearAllPersistedState](appwindow_clearallpersistedstate_2029617983.md)
+[PersistedStateId](appwindow_persistedstateid.md), [ClearAllPersistedState](appwindow_clearallpersistedstate_2029617983.md)
 
 ## -examples
-

@@ -19,12 +19,6 @@ A string describing the status.
 ## -remarks
 
 ## -see-also
-[StorageProviderStatus](storageproviderstatus.md)
-
-[StorageProviderStatus.ErrorMessages](storageproviderstatus_errormessages.md)
-
-[StorageProviderStatus.State](storageproviderstatus_state.md)
+[StorageProviderStatus](storageproviderstatus.md), [StorageProviderStatus.ErrorMessages](storageproviderstatus_errormessages.md), [StorageProviderStatus.State](storageproviderstatus_state.md)
 
 ## -examples
-
-

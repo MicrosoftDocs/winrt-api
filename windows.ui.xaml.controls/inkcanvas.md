@@ -21,9 +21,6 @@ Defines an area that receives and displays all pen input as either an ink stroke
 
 ## -remarks
 
-> [!IMPORTANT]
-> The [InkPresenter](../windows.ui.input.inking/inkpresenter.md) cannot be instantiated directly.
-
 An InkCanvas has default Height and Width properties of zero, unless it is the child of an element that automatically sizes its child elements, such as [StackPanel](stackpanel.md) or [Grid](grid.md) controls.
 
 InkCanvas has maximum height and width dimensions of 2^21 physical pixels.

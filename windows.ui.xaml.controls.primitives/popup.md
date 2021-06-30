@@ -11,7 +11,7 @@ public class Popup : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Controls.
 
 ## -description
 
-Displays content on top of existing content, within the bounds of the application window.
+Displays content on top of existing content.
 
 Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.Popup](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup).
 
@@ -29,7 +29,7 @@ Do not use a Popup if a [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFl
 
 Popup is a general purpose container for hosting [UIElement](../windows.ui.xaml/uielement.md)s on top of existing content. You typically use a Popup to temporarily display content that accomplishes a particular task. The Popup does not have a default visual template. Instead, you must set the content yourself by specifying a single [Child](popup_child.md) element as content. You can define the Popup content inline, but it's common to define the content as a [UserControl](../windows.ui.xaml.controls/usercontrol.md), and then set the [UserControl](../windows.ui.xaml.controls/usercontrol.md) as the [Child](popup_child.md) of the Popup.
 
-You position the Popup by setting the [HorizontalOffset](popup_horizontaloffset.md) and [VerticalOffset](popup_verticaloffset.md) properties. The Popup is offset relative to its immediate parent container. A Popup is not modal, so input to the screen behind it is not blocked.
+You position the Popup by setting the [HorizontalOffset](popup_horizontaloffset.md) and [VerticalOffset](popup_verticaloffset.md) properties. The Popup is offset relative to its immediate parent container. A Popup is not modal, so input to the screen behind it is not blocked. If the [ShouldConstrainToRootBounds](popup_shouldconstraintorootbounds.md) property is `false`, the Popup may be positioned such that it is not inside the bounds of the root of the content.
 
 To show a Popup, set its [IsOpen](popup_isopen.md) property to **true**. To hide the Popup, set [IsOpen](popup_isopen.md) to **false**. You can set [IsLightDismissEnabled](popup_islightdismissenabled.md) to make the Popup hide automatically when a user taps anywhere away from it.
 

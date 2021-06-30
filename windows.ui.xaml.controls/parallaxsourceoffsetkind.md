@@ -27,8 +27,6 @@ The source start/end offset value is interpreted as an absolute value.
 
 ## -see-also
 
-[ParallaxView.HorizontalSourceOffsetKind](parallaxview_horizontalsourceoffsetkind.md)
-[ParallaxView.VerticalSourceOffsetKind](parallaxview_verticalsourceoffsetkind.md)
+[ParallaxView.HorizontalSourceOffsetKind](parallaxview_horizontalsourceoffsetkind.md), [ParallaxView.VerticalSourceOffsetKind](parallaxview_verticalsourceoffsetkind.md)
 
 ## -examples
-

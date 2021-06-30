@@ -19,14 +19,6 @@ Enum value describing the state of the storage provider.
 ## -remarks
 
 ## -see-also
-[StorageProviderStatus](storageproviderstatus.md)
-
-[StorageProviderState](storageproviderstate.md)
-
-[StorageProviderStatus.ErrorMessages](storageproviderstatus_errormessages.md)
-
-[StorageProviderStatus.Message](storageproviderstatus_message.md)
+[StorageProviderStatus](storageproviderstatus.md), [StorageProviderState](storageproviderstate.md), [StorageProviderStatus.ErrorMessages](storageproviderstatus_errormessages.md), [StorageProviderStatus.Message](storageproviderstatus_message.md)
 
 ## -examples
-
-

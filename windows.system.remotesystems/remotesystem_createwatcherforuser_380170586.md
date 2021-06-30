@@ -25,9 +25,6 @@ A watcher that can raise events related to the status of any discoverable device
 ## -remarks
 
 ## -see-also
-[CreateWatcher](remotesystem_createwatcher_1506431823.md)
-[CreateWatcherForUser](remotesystem_createwatcherforuser_608864326.md)
-[RemoteSystemWatcher](remotesystemwatcher.md)
+[CreateWatcher](remotesystem_createwatcher_1506431823.md), [CreateWatcherForUser](remotesystem_createwatcherforuser_608864326.md), [RemoteSystemWatcher](remotesystemwatcher.md)
 
 ## -examples
-

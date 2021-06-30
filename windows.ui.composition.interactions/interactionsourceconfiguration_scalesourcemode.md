@@ -28,8 +28,6 @@ For more info, see [VisualInteractionSource.PointerWheelConfig](visualinteractio
 
 ## -see-also
 
-[VisualInteractionSource.PointerWheelConfig](visualinteractionsource_pointerwheelconfig.md)
-[VisualInteractionSource.ScaleSourceMode](visualinteractionsource_scalesourcemode.md)
+[VisualInteractionSource.PointerWheelConfig](visualinteractionsource_pointerwheelconfig.md), [VisualInteractionSource.ScaleSourceMode](visualinteractionsource_scalesourcemode.md)
 
 ## -examples
-

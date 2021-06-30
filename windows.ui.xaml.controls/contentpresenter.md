@@ -99,7 +99,5 @@ This example shows a typical placement of a ContentPresenter object element as p
     </Style>
 ```
 
-
-
 ## -see-also
 [ContentControl](contentcontrol.md), [FrameworkElement](../windows.ui.xaml/frameworkelement.md), [ItemsPresenter](itemspresenter.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))

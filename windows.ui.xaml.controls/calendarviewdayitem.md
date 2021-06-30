@@ -27,8 +27,6 @@ To improve performance, the visual elements of a CalendarViewDayItem are rendere
 
 Even though the visual elements of a CalendarViewDayItem are rendered directly by the control, you can use [CalendarView.CalendarViewDayItemStyle](calendarview_calendarviewdayitemstyle.md) to set properties like [MinWidth](../windows.ui.xaml/frameworkelement_minwidth.md), [MinHeight](../windows.ui.xaml/frameworkelement_minheight.md), [Margin](../windows.ui.xaml/frameworkelement_margin.md), and [Padding](control_padding.md). The default [Style](../windows.ui.xaml/style.md) (see CalendarViewDayItem styles and template) also includes an empty [ControlTemplate](controltemplate.md) that you can use to inject custom XAML elements into the CalendarViewDayItem. Your XAML elements are rendered on top of the background elements, and below the day number and labels.
 
-
-
 Use the [Date](calendarviewdayitem_date.md) property to get the date represented by this day item. The time portions of this property's [DateTime](/dotnet/api/system.datetime?view=dotnet-uwp-10.0&preserve-view=true) value are ignored. If you compare two dates from a [CalendarView](calendarview.md), be sure to compare only the **Date** portion of the [DateTime](/dotnet/api/system.datetime?view=dotnet-uwp-10.0&preserve-view=true) value.
 
 Use the [IsBlackout](calendarviewdayitem_isblackout.md) property to get or set a value that indicates whether the date is unavailable.

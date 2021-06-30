@@ -17,10 +17,6 @@ public sealed class StorageProviderFileTypeInfo
 ## -remarks
 
 ## -see-also
-[StorageProviderFileTypeInfo.FileExtension](storageproviderfiletypeinfo_fileextension.md)
-
-[StorageProviderFileTypeInfo.IconResource](storageproviderfiletypeinfo_iconresource.md)
+[StorageProviderFileTypeInfo.FileExtension](storageproviderfiletypeinfo_fileextension.md), [StorageProviderFileTypeInfo.IconResource](storageproviderfiletypeinfo_iconresource.md)
 
 ## -examples
-
-

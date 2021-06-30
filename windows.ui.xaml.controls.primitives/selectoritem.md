@@ -20,12 +20,12 @@ SelectorItem is a companion base class to the [Selector](selector.md) base class
 ### **SelectorItem** derived classes
 
 SelectorItem is the parent class for these item type classes:
+
 + [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md)
 + [FlipViewItem](../windows.ui.xaml.controls/flipviewitem.md)
 + [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md)
 + [ListBoxItem](../windows.ui.xaml.controls/listboxitem.md)
 + [ListViewItem](../windows.ui.xaml.controls/listviewitem.md)
-
 
 ## -examples
 

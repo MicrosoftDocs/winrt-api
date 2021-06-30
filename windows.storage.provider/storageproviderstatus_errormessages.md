@@ -19,12 +19,6 @@ A list of errors.
 ## -remarks
 
 ## -see-also
-[StorageProviderStatus](storageproviderstatus.md)
-
-[StorageProviderStatus.Message](storageproviderstatus_message.md)
-
-[StorageProviderStatus.State](storageproviderstatus_state.md)
+[StorageProviderStatus](storageproviderstatus.md), [StorageProviderStatus.Message](storageproviderstatus_message.md), [StorageProviderStatus.State](storageproviderstatus_state.md)
 
 ## -examples
-
-

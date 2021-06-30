@@ -458,7 +458,5 @@ private async void ShowSignInDialogButton_Click(object sender, RoutedEventArgs e
 }
 ```
 
-
-
 ## -see-also
 [ContentControl](contentcontrol.md), [ContentDialog styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [Dialogs and flyouts](/windows/uwp/design/controls-and-patterns/dialogs)
