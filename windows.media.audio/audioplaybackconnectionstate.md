@@ -23,13 +23,6 @@ Get the current state of a connection by checking the [State](audioplaybackconne
 
 ## -see-also
 
-[Open](audioplaybackconnection_open_389234318.md)
-
-[OpenAsync](audioplaybackconnection_openasync_171309613.md)
-
-[State](audioplaybackconnection_state.md)
-
-[StateChanged](audioplaybackconnection_statechanged.md)
+[Open](audioplaybackconnection_open_389234318.md), [OpenAsync](audioplaybackconnection_openasync_171309613.md), [State](audioplaybackconnection_state.md), [StateChanged](audioplaybackconnection_statechanged.md)
 
 ## -examples
-

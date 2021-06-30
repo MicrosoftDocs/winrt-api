@@ -50,5 +50,4 @@ Specifies that the background task can only run when the cost to do background w
 ## -examples
 
 ## -see-also
-[BackgroundTaskBuilder](backgroundtaskbuilder.md)
-[SystemCondition.ConditionType](systemcondition_conditiontype.md)
+[BackgroundTaskBuilder](backgroundtaskbuilder.md), [SystemCondition.ConditionType](systemcondition_conditiontype.md)

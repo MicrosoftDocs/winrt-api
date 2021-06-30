@@ -16,8 +16,6 @@ An interface that returns the storage provider's sync status to the File Explore
 ## -remarks
 
 ## -see-also
-[IStorageProviderStatusSource.GetStatus](istorageproviderstatussource_getstatus_169641651.md)
-
-[IStorageProviderStatusSource.Changed](istorageproviderstatussource_changed.md)
+[IStorageProviderStatusSource.GetStatus](istorageproviderstatussource_getstatus_169641651.md), [IStorageProviderStatusSource.Changed](istorageproviderstatussource_changed.md)
 
 ## -examples

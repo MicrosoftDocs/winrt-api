@@ -11,9 +11,6 @@ The value returned from a call to [Open](audioplaybackconnection_open_389234318.
 
 ## -see-also
 
-[Open](audioplaybackconnection_open_389234318.md)
-
-[OpenAsync](audioplaybackconnection_openasync_171309613.md)
+[Open](audioplaybackconnection_open_389234318.md), [OpenAsync](audioplaybackconnection_openasync_171309613.md)
 
 ## -examples
-

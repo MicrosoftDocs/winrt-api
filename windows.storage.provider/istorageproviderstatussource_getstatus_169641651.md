@@ -19,10 +19,6 @@ The storage provider's sync status as a StorageProviderStatus object.
 ## -remarks
 
 ## -see-also
-[IStorageProviderStatusSource](istorageproviderstatussource.md)
-
-[IStorageProviderStatusSource.Changed](istorageproviderstatussource_changed.md)
+[IStorageProviderStatusSource](istorageproviderstatussource.md), [IStorageProviderStatusSource.Changed](istorageproviderstatussource_changed.md)
 
 ## -examples
-
-

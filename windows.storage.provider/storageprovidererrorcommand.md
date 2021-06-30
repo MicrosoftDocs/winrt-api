@@ -16,12 +16,6 @@ Provides the ability to show a list of error messages with actions via the [ISto
 ## -remarks
 
 ## -see-also
-[StorageProviderError](storageprovidererror.md)
-
-[StorageProviderErrorCommand.Label](storageprovidererrorcommand_label.md)
-
-[StorageProviderErrorCommand.ActionUri](storageprovidererrorcommand_actionuri.md)
+[StorageProviderError](storageprovidererror.md), [StorageProviderErrorCommand.Label](storageprovidererrorcommand_label.md), [StorageProviderErrorCommand.ActionUri](storageprovidererrorcommand_actionuri.md)
 
 ## -examples
-
-

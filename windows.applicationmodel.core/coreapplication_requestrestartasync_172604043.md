@@ -28,9 +28,7 @@ The status of the restart request.
 * When the app is restarted, [LaunchActivatedEventArgs.PreviousExecutionState](/uwp/api/Windows.ApplicationModel.Activation.LaunchActivatedEventArgs) will have the value **Terminated** so that the app can distinguish between a resume and a restart.
 
 ## -see-also
-[Windows.ApplicationModel.Core.CoreApplication.RequestRestartAsyncForUser](coreapplication_requestrestartforuserasync_1889038893.md)
-
-[How to restart your app programmatically](https://blogs.windows.com/buildingapps/2017/07/28/restart-app-programmatically/#oPS3xDHQYpflJRkA.97)
+[Windows.ApplicationModel.Core.CoreApplication.RequestRestartAsyncForUser](coreapplication_requestrestartforuserasync_1889038893.md), [How to restart your app programmatically](https://blogs.windows.com/buildingapps/2017/07/28/restart-app-programmatically/#oPS3xDHQYpflJRkA.97)
 
 ## -examples
 

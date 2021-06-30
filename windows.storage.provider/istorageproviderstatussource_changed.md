@@ -16,12 +16,6 @@ The File Explorer will subscribe to this event to listen for status changes.
 ## -remarks
 
 ## -see-also
-[IStorageProviderHandlerFactory](istorageproviderhandlerfactory.md)
-
-[IStorageProviderStatusSource](istorageproviderstatussource.md)
-
-[IStorageProviderStatusSource.GetStatus](istorageproviderstatussource_getstatus_169641651.md)
+[IStorageProviderHandlerFactory](istorageproviderhandlerfactory.md), [IStorageProviderStatusSource](istorageproviderstatussource.md), [IStorageProviderStatusSource.GetStatus](istorageproviderstatussource_getstatus_169641651.md)
 
 ## -examples
-
-

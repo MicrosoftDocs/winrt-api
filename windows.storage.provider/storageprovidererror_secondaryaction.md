@@ -19,20 +19,5 @@ A string describing the secondary action suggested to resolve the error.
 ## -remarks
 
 ## -see-also
-[StorageProviderError](storageprovidererror.md)
-
-[StorageProviderError.FilePath](storageprovidererror_filepath.md)
-
-[StorageProviderError.Id](storageprovidererror_id.md)
-
-[StorageProviderError.InformationalLink](storageprovidererror_informationallink.md)
-
-[StorageProviderError.Message](storageprovidererror_message.md)
-
-[StorageProviderError.PrimaryAction](storageprovidererror_primaryaction.md)
-
-[StorageProviderError.Title](storageprovidererror_title.md)
-
+[StorageProviderError](storageprovidererror.md), [StorageProviderError.FilePath](storageprovidererror_filepath.md), [StorageProviderError.Id](storageprovidererror_id.md), [StorageProviderError.InformationalLink](storageprovidererror_informationallink.md), [StorageProviderError.Message](storageprovidererror_message.md), [StorageProviderError.PrimaryAction](storageprovidererror_primaryaction.md), [StorageProviderError.Title](storageprovidererror_title.md)
 ## -examples
-
-

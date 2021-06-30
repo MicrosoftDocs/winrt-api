@@ -23,10 +23,6 @@ Returns the storage provider's implementation of IStorageProviderStatusSource.
 ## -remarks
 
 ## -see-also
-[IStorageProviderHandlerFactory](istorageproviderhandlerfactory.md)
-
-[IStorageProviderStatusSource](istorageproviderstatussource.md)
+[IStorageProviderHandlerFactory](istorageproviderhandlerfactory.md), [IStorageProviderStatusSource](istorageproviderstatussource.md)
 
 ## -examples
-
-

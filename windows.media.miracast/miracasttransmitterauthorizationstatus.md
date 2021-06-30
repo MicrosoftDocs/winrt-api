@@ -47,8 +47,6 @@ In that case, values of MiracastTransmitterAuthorizationStatus.Allowed and Mirac
 
 ## -see-also
 
-[MiracastReceiverAuthorizationMethod](miracastreceiverauthorizationmethod.md)
-[MiracastReceiverSettings.RequireAuthorizationFromKnownTransmitters](miracastreceiversettings_requireauthorizationfromknowntransmitters.md)
+[MiracastReceiverAuthorizationMethod](miracastreceiverauthorizationmethod.md), [MiracastReceiverSettings.RequireAuthorizationFromKnownTransmitters](miracastreceiversettings_requireauthorizationfromknowntransmitters.md)
 
 ## -examples
-

@@ -17,9 +17,6 @@ Implement a handler for the [StateChanged](audioplaybackconnection_statechanged.
 
 ## -see-also
 
-[AudioPlaybackConnectionState](audioplaybackconnectionstate.md)
-
-[StateChanged](audioplaybackconnection_statechanged.md)
+[AudioPlaybackConnectionState](audioplaybackconnectionstate.md), [StateChanged](audioplaybackconnection_statechanged.md)
 
 ## -examples
-

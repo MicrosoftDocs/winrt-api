@@ -16,20 +16,6 @@ Provides the StorageProviderStatus object containing a list of error messages wi
 ## -remarks
 
 ## -see-also
-[IStorageProviderStatusSource](istorageproviderstatussource.md)
-
-[StorageProviderError.FilePath](storageprovidererror_filepath.md)
-
-[StorageProviderError.Id](storageprovidererror_id.md)
-
-[StorageProviderError.InformationalLink](storageprovidererror_informationallink.md)
-
-[StorageProviderError.Message](storageprovidererror_message.md)
-
-[StorageProviderError.PrimaryAction](storageprovidererror_primaryaction.md)
-
-[StorageProviderError.SecondaryAction](storageprovidererror_secondaryaction.md)
-
-[StorageProviderError.Title](storageprovidererror_title.md)
+[IStorageProviderStatusSource](istorageproviderstatussource.md), [StorageProviderError.FilePath](storageprovidererror_filepath.md), [StorageProviderError.Id](storageprovidererror_id.md), [StorageProviderError.InformationalLink](storageprovidererror_informationallink.md), [StorageProviderError.Message](storageprovidererror_message.md), [StorageProviderError.PrimaryAction](storageprovidererror_primaryaction.md), [StorageProviderError.SecondaryAction](storageprovidererror_secondaryaction.md), [StorageProviderError.Title](storageprovidererror_title.md)
 
 ## -examples

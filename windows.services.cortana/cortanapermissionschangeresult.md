@@ -41,14 +41,11 @@ The [CortanaPermissionManager](cortanapermissionsmanager.md) class requires the 
 - Under \<Capabilities\>
   - `<rescap:capability name="cortanaPermissions"/>`
 
+- "iot" to the list of **IgnorableNamespaces**
+  - `<iot:Capability Name="systemManagement"/>`
+
 ## -see-also
 
-- `<iot:Capability Name="systemManagement"/>`
-- "iot" to the list of **IgnorableNamespaces**
-- [CortanaPermission](cortanapermission.md)
-- [CortanaPermissionManager](cortanapermissionsmanager.md)
-- [CortanaPermissionsManager.ArePermissionsGrantedAsync](cortanapermissionsmanager_arepermissionsgrantedasync_1821808521.md)
-- [CortanaPermissionsManager.GrantPermissionsAsync](cortanapermissionsmanager_grantpermissionsasync_1382961431.md)
-- [CortanaPermissionsManager.RevokePermissionsAsync](cortanapermissionsmanager_revokepermissionsasync_517405145.md)
+[CortanaPermission](cortanapermission.md), [CortanaPermissionManager](cortanapermissionsmanager.md), [CortanaPermissionsManager.ArePermissionsGrantedAsync](cortanapermissionsmanager_arepermissionsgrantedasync_1821808521.md), [CortanaPermissionsManager.GrantPermissionsAsync](cortanapermissionsmanager_grantpermissionsasync_1382961431.md), [CortanaPermissionsManager.RevokePermissionsAsync](cortanapermissionsmanager_revokepermissionsasync_517405145.md)
 
 ## -examples

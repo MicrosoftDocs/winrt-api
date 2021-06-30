@@ -16,7 +16,6 @@ A [WiFiWpsConfigurationStatus](wifiwpsconfigurationstatus.md) enumeration member
 ## -remarks
 
 ## -see-also
-[GetWpsConfigurationAsync](wifiadapter_getwpsconfigurationasync_1613138554.md)
-[WiFiWpsConfigurationStatus](wifiwpsconfigurationstatus.md)
-## -examples
+[GetWpsConfigurationAsync](wifiadapter_getwpsconfigurationasync_1613138554.md), [WiFiWpsConfigurationStatus](wifiwpsconfigurationstatus.md)
 
+## -examples

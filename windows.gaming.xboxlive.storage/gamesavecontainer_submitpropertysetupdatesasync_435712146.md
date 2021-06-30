@@ -50,5 +50,4 @@ After the asynchronous operation completes, check the [Status](gamesaveoperation
 
 ## -see-also
 
-[GameSaveContainer](gamesavecontainer.md)
-[SubmitUpdatesAsync](gamesavecontainer_submitupdatesasync_1002100950.md)
+[GameSaveContainer](gamesavecontainer.md), [SubmitUpdatesAsync](gamesavecontainer_submitupdatesasync_1002100950.md)

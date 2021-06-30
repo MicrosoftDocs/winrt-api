@@ -13,8 +13,6 @@ This method informs the system that there is a new application that wants audio 
 
 ## -see-also
 
-[Open](audioplaybackconnection_open_389234318.md) 
-[OpenAsync](audioplaybackconnection_openasync_171309613.md)
+[Open](audioplaybackconnection_open_389234318.md), [OpenAsync](audioplaybackconnection_openasync_171309613.md)
 
 ## -examples
-

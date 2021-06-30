@@ -19,10 +19,6 @@ A string description.
 ## -remarks
 
 ## -see-also
-[StorageProviderErrorCommand](storageprovidererrorcommand.md)
-
-[StorageProviderErrorCommand.ActionUri](storageprovidererrorcommand_actionuri.md)
+[StorageProviderErrorCommand](storageprovidererrorcommand.md), [StorageProviderErrorCommand.ActionUri](storageprovidererrorcommand_actionuri.md)
 
 ## -examples
-
-

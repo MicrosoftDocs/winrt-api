@@ -16,8 +16,6 @@ The system-recommended time at which rendering for the [HolographicFrame](hologr
 
 ## -see-also
 
-[HolographicFrame](holographicframe.md)
-[HolographicSpace.WaitForNextFrameReady](holographicspace_waitfornextframeready_2104087308.md)
+[HolographicFrame](holographicframe.md), [HolographicSpace.WaitForNextFrameReady](holographicspace_waitfornextframeready_2104087308.md)
 
 ## -examples
-

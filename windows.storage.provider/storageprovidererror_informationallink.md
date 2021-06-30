@@ -19,20 +19,6 @@ The external link string.
 ## -remarks
 
 ## -see-also
-[StorageProviderError](storageprovidererror.md)
-
-[StorageProviderError.FilePath](storageprovidererror_filepath.md)
-
-[StorageProviderError.Id](storageprovidererror_id.md)
-
-[StorageProviderError.Message](storageprovidererror_message.md)
-
-[StorageProviderError.PrimaryAction](storageprovidererror_primaryaction.md)
-
-[StorageProviderError.SecondaryAction](storageprovidererror_secondaryaction.md)
-
-[StorageProviderError.Title](storageprovidererror_title.md)
+[StorageProviderError](storageprovidererror.md), [StorageProviderError.FilePath](storageprovidererror_filepath.md), [StorageProviderError.Id](storageprovidererror_id.md), [StorageProviderError.Message](storageprovidererror_message.md), [StorageProviderError.PrimaryAction](storageprovidererror_primaryaction.md), [StorageProviderError.SecondaryAction](storageprovidererror_secondaryaction.md), [StorageProviderError.Title](storageprovidererror_title.md)
 
 ## -examples
-
-

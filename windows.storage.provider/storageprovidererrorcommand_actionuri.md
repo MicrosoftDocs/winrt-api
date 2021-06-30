@@ -19,10 +19,6 @@ The Uri associated with the error command.
 ## -remarks
 
 ## -see-also
-[StorageProviderErrorCommand](storageprovidererrorcommand.md)
-
-[StorageProviderErrorCommand.Label](storageprovidererrorcommand_label.md)
+[StorageProviderErrorCommand](storageprovidererrorcommand.md), [StorageProviderErrorCommand.Label](storageprovidererrorcommand_label.md)
 
 ## -examples
-
-
