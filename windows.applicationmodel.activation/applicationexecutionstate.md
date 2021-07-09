@@ -74,4 +74,4 @@ On Windows Phone, only **NotRunning** and **Suspended** are supported.
 [WebUIPrintTaskSettingsActivatedEventArgs.previousExecutionState](../windows.ui.webui/webuiprinttasksettingsactivatedeventargs_previousexecutionstate.md), 
 [WebUIProtocolActivatedEventArgs.previousExecutionState](../windows.ui.webui/webuiprotocolactivatedeventargs_previousexecutionstate.md), 
 [WebUISearchActivatedEventArgs.previousExecutionState](../windows.ui.webui/webuisearchactivatedeventargs_previousexecutionstate.md), 
-[WebUIShareTargetActivatedEventArgs.previousExecutionState](../windows.ui.webui/webuisharetargetactivatedeventargs_previousexecutionstate.md)
+[WebUIShareTargetActivatedEventArgs.previousExecutionState](../windows.ui.webui/webuisharetargetactivatedeventargs_previousexecutionstate.md) 
