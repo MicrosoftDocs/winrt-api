@@ -10,10 +10,10 @@ public Vector3 Scale { get;  set; }
 # Windows.UI.Xaml.Controls.Maps.MapElement3D.Scale
 
 ## -description
-The scale to apply to the 3D map element.
+Gets the dependency property that backs the [Scale](mapelement3d_scale.md) Windows Runtime property.
 
 ## -property-value
-The scale to apply to the 3D map element. A value of Vector3 (1.0,1.0,1.0) is equivalent to 100%.
+The dependency property that backs the [Scale](mapelement3d_scale.md) Windows Runtime property.
 
 ## -remarks
 

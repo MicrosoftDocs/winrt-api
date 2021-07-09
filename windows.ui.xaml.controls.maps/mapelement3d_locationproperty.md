@@ -10,10 +10,10 @@ public DependencyProperty LocationProperty { get; }
 # Windows.UI.Xaml.Controls.Maps.MapElement3D.LocationProperty
 
 ## -description
-Identifies the [LocationProperty](mapelement3d_location.md) dependency property.
+Gets the dependency property that backs the [Location](mapelement3d_location.md) Windows Runtime property.
 
 ## -property-value
-The [LocationProperty](mapelement3d_location.md) dependency property.
+The dependency property that backs the [Location](mapelement3d_location.md) Windows Runtime property.
 
 ## -remarks
 
