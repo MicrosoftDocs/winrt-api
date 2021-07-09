@@ -16,7 +16,7 @@ Gets or sets the date when the image was taken.
 The date when the image was taken.
 
 ## -remarks
-If the date property isn't set, this value defaults to 0 which can be translated into misleading dates in different programming languages. In JavaScript, for example, 0 translates to December 16, 1600. You should always check that this property is a real value and not 0.
+If the date property isn't set, this value defaults to January 1, 1601 00:00:00. You should always check that this property is a real value and not the default date.
 
 ## -examples
 
