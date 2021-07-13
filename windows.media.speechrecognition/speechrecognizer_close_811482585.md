@@ -13,7 +13,7 @@ public void Close()
 Disposes the speech recognizer by freeing, releasing, or resetting allocated resources.
 
 ## -exceptions
-### System.ObjectDisposedException
+### T:System.ObjectDisposedException
 
 Thrown if either [RecognizeAsync](speechrecognizer_recognizeasync_748427924.md) or [RecognizeWithUIAsync](speechrecognizer_recognizewithuiasync_1152231907.md) is in progress.
 
