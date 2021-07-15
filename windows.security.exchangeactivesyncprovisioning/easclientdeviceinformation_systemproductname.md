@@ -16,7 +16,7 @@ Gets the system product name of the local device. Use **SystemProductName** only
 A string containing the system product name of the local device. The value is fewer than 1024 characters long.
 
 ## -remarks
-**SystemProductName** is retrieved from the Window Registry. If the Registry can't be read for any reason, **SystemProductName** returns an empty string.
+**SystemProductName** is retrieved from the Windows Registry. If the Registry can't be read for any reason, **SystemProductName** returns an empty string.
 
 ## -examples
 
