@@ -30,4 +30,4 @@ The user-defined tag for the event field. Specifies up to twenty-eight bits of u
 ## -examples
 
 ## -see-also
-[AddDateTimeArray(String, DateTime[])](loggingfields_adddatetimearray_987663530.md), [AddDateTimeArray(String, DateTime[], LoggingFieldFormat)](loggingfields_adddatetimearray_1971745202.md)
+[AddDateTimeArray(String, DateTime\[\])](loggingfields_adddatetimearray_987663530.md), [AddDateTimeArray(String, DateTime\[\], LoggingFieldFormat)](loggingfields_adddatetimearray_1971745202.md)

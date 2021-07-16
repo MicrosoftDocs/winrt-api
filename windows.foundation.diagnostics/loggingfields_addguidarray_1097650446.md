@@ -30,4 +30,4 @@ The user-defined tag for the event field. Specifies up to twenty-eight bits of u
 ## -examples
 
 ## -see-also
-[AddGuidArray(String, Guid[])](loggingfields_addguidarray_737416746.md), [AddGuidArray(String, Guid[], LoggingFieldFormat)](loggingfields_addguidarray_1689054002.md)
+[AddGuidArray(String, Guid\[\])](loggingfields_addguidarray_737416746.md), [AddGuidArray(String, Guid\[\], LoggingFieldFormat)](loggingfields_addguidarray_1689054002.md)

@@ -23,7 +23,7 @@ Array of corresponding lamp indexes to modify.
 ## -remarks
 Size of desiredColors and lampIndexes arrays must be identical or call will fail.
 
-If the lamp doesn't support the desired color, it is set to the [NearestSupportedColor](lampinfo_getnearestsupportedcolor_1689565521.md)
+If the lamp doesn't support the desired color, it is set to the [NearestSupportedColor](../windows.devices.lights/lampinfo_getnearestsupportedcolor_1689565521.md)
 
 If an index does not exist on the device or was not specified in the effect, it is ignored and the remaining are still applied.
 

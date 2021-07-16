@@ -26,4 +26,4 @@ Value of the event field.
 ## -examples
 
 ## -see-also
-[AddInt16Array(String, Int16[], LoggingFieldFormat)](loggingfields_addint16array_302489712.md), [AddInt16Array(String, Int16[], LoggingFieldFormat, Int32)](loggingfields_addint16array_935828048.md)
+[AddInt16Array(String, Int16\[\], LoggingFieldFormat)](loggingfields_addint16array_302489712.md), [AddInt16Array(String, Int16\[\], LoggingFieldFormat, Int32)](loggingfields_addint16array_935828048.md)

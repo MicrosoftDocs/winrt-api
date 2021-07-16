@@ -28,6 +28,6 @@ When the value is 0.0 or 1.0, the ScrollViewer applies special behavior when the
 
 ## -see-also
 
-[IScrollAnchorProvider](iscrollanchorprovider.md)
+[IScrollAnchorProvider](../windows.ui.xaml.controls/iscrollanchorprovider_currentanchor.md)
 
 ## -examples

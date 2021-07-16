@@ -30,4 +30,4 @@ The user-defined tag for the event field. Specifies up to twenty-eight bits of u
 ## -examples
 
 ## -see-also
-[AddSizeArray(String, Size[])](loggingfields_addsizearray_1786759929.md), [AddSizeArray(String, Size[], LoggingFieldFormat)](loggingfields_addsizearray_623327203.md)
+[AddSizeArray(String, Size\[\])](loggingfields_addsizearray_1786759929.md), [AddSizeArray(String, Size\[\], LoggingFieldFormat)](loggingfields_addsizearray_623327203.md)

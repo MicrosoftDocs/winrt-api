@@ -27,4 +27,4 @@ The format of the event field. Specifies an optional formatting hint that may be
 ## -examples
 
 ## -see-also
-[AddDoubleArray(String, Double[])](loggingfields_adddoublearray_979773174.md), [AddDoubleArray(String, Double[], LoggingFieldFormat, Int32)](loggingfields_adddoublearray_1358881234.md)
+[AddDoubleArray(String, Double\[\])](loggingfields_adddoublearray_979773174.md), [AddDoubleArray(String, Double\[\], LoggingFieldFormat, Int32)](loggingfields_adddoublearray_1358881234.md)

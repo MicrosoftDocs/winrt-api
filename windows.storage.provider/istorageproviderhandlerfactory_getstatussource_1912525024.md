@@ -11,7 +11,7 @@ public Windows.Storage.Provider.IStorageProviderStatusSource GetStatusSource (st
 
 
 ## -description
-Gets the [IStorageProviderStatusSource](istorageproviderstatussource) implementation based on the syncRootId provided.
+Gets the [IStorageProviderStatusSource](istorageproviderstatussource.md) implementation based on the syncRootId provided.
 ## -parameters
 
 ### -param syncRootId

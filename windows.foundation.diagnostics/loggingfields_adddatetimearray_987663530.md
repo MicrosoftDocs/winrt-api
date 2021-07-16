@@ -24,4 +24,4 @@ The array of values for the event field.
 ## -examples
 
 ## -see-also
-[AddDateTimeArray(String, DateTime[], LoggingFieldFormat)](loggingfields_adddatetimearray_1971745202.md), [AddDateTimeArray(String, DateTime[], LoggingFieldFormat, Int32)](loggingfields_adddatetimearray_1346784142.md)
+[AddDateTimeArray(String, DateTime\[\], LoggingFieldFormat)](loggingfields_adddatetimearray_1971745202.md), [AddDateTimeArray(String, DateTime\[\], LoggingFieldFormat, Int32)](loggingfields_adddatetimearray_1346784142.md)

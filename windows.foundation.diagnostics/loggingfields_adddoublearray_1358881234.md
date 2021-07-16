@@ -30,4 +30,4 @@ The user-defined tag for the event field. Specifies up to twenty-eight bits of u
 ## -examples
 
 ## -see-also
-[AddDoubleArray(String, Double[])](loggingfields_adddoublearray_979773174.md), [AddDoubleArray(String, Double[], LoggingFieldFormat)](loggingfields_adddoublearray_1967053806.md)
+[AddDoubleArray(String, Double\[\])](loggingfields_adddoublearray_979773174.md), [AddDoubleArray(String, Double\[\], LoggingFieldFormat)](loggingfields_adddoublearray_1967053806.md)

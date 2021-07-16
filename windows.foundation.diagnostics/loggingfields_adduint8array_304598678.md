@@ -41,4 +41,4 @@ Use the *format* parameter to specify the format of the array. You may use the f
 ## -examples
 
 ## -see-also
-[AddUInt8Array(String, Byte[])](loggingfields_adduint8array_1568617358.md), [AddUInt8Array(String, Byte[], LoggingFieldFormat, Int32)](loggingfields_adduint8array_937948330.md)
+[AddUInt8Array(String, Byte\[\])](loggingfields_adduint8array_1568617358.md), [AddUInt8Array(String, Byte\[\], LoggingFieldFormat, Int32)](loggingfields_adduint8array_937948330.md)

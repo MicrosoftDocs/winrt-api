@@ -27,4 +27,4 @@ The format of the event field. Specifies an optional formatting hint that may be
 ## -examples
 
 ## -see-also
-[AddInt32Array(String, Int32[])](loggingfields_addint32array_355123522.md), [AddInt32Array(String, Int32[], LoggingFieldFormat, Int32)](loggingfields_addint32array_2142373478.md)
+[AddInt32Array(String, Int32\[\])](loggingfields_addint32array_355123522.md), [AddInt32Array(String, Int32\[\], LoggingFieldFormat, Int32)](loggingfields_addint32array_2142373478.md)

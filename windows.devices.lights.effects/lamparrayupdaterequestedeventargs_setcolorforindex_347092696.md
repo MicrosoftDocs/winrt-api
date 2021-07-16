@@ -21,7 +21,7 @@ The lamp index.
 The desired color.
 
 ## -remarks
-If the lamp at the index doesn't support the desired color, it is set to the [NearestSupportedColor](lampinfo_getnearestsupportedcolor_1689565521.md)
+If the lamp at the index doesn't support the desired color, it is set to the [NearestSupportedColor](../windows.devices.lights/lampinfo_getnearestsupportedcolor_1689565521.md)
 
 If the index does not exist on the device or was not specified in the effect, the call fails silently.
 
