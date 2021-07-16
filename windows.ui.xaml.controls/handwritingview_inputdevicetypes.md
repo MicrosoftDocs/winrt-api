@@ -11,7 +11,7 @@ public Windows.UI.Core.CoreInputDeviceTypes InputDeviceTypes { get; set; }
 
 ## -description
 
-Gets or sets the input device type from which input data is collected by the [HandwritingView](handwritingview.md) to construct and render an [InkStroke](inkstroke.md). The default is [Pen](../windows.ui.core/coreinputdevicetypes.md).
+Gets or sets the input device type from which input data is collected by the [HandwritingView](handwritingview.md) to construct and render an [InkStroke](../windows.ui.input.inking/inkstroke.md). The default is [Pen](../windows.ui.core/coreinputdevicetypes.md).
 
 ## -property-value
 

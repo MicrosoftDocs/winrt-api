@@ -12,7 +12,7 @@ public Windows.Graphics.Holographic.HolographicDepthReprojectionMethod DepthRepr
 
 ## -description
 
-Gets or sets the reprojection method used for the associated [HolographicCamera](holographic-camera.md) for a given [HolographicFrame](holographicframe.md). The system will select a default reprojection method based on the device and/or platform capabilities.
+Gets or sets the reprojection method used for the associated [HolographicCamera](holographiccamera.md) for a given [HolographicFrame](holographicframe.md). The system will select a default reprojection method based on the device and/or platform capabilities.
 
 
 

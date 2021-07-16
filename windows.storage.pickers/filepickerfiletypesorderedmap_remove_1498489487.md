@@ -17,7 +17,7 @@ Removes an item from the mapped collection of display names and associated file 
 The key associated with the item to remove.
 
 ## -remarks
-For the C# and Microsoft Visual Basic version of the **Remove(String)** method, see [Remove](filepickerfiletypesorderedmap_remove_2.md).
+For the C# and Microsoft Visual Basic version of the **Remove(String)** method, see [Remove](/uwp/api/windows.storage.pickers.filepickerfiletypesorderedmap.remove).
 
 ## -examples
 
