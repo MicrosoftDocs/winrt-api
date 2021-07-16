@@ -19,7 +19,7 @@ In many cases, assistive technology (AT) treats a dialog window differently than
 
 When `AutomationProperties.IsDialog` is `true`, a client application should treat the element as a dialog window.
 
-[Flyout](..\windows.ui.xaml.controls\flyout.md) and [ContentDialog](..\windows.ui.xaml.controls\contentdialog.md) elements default to `true` for `AutomationProperties.IsDialog`.
+[Flyout](../windows.ui.xaml.controls/flyout.md) and [ContentDialog](../windows.ui.xaml.controls/contentdialog.md) elements default to `true` for `AutomationProperties.IsDialog`.
 
 <ul><li>Type: Boolean</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.automation.automationproperties.isdialogproperty">IsDialogProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.automation.automationproperties.getisdialog">GetIsDialog</a>, <a href="/uwp/api/windows.ui.xaml.automation.automationproperties.setisdialog">SetIsDialog</a></li></ul>
 

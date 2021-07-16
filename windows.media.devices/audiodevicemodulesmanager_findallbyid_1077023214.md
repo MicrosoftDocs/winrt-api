@@ -10,7 +10,7 @@ public IVectorView<AudioDeviceModule> AudioDeviceModulesManager.FindAllById(Stri
 # Windows.Media.Devices.AudioDeviceModulesManager.FindAllById
 
 ## -description
-Retrieves a list of all audio device modules with the specified ID. Each audio device module in the list will have the same ID, but each will have a different value for the [AudioDeviceModule.InstanceId](audiodevicemodule_instancid.md) property. 
+Retrieves a list of all audio device modules with the specified ID. Each audio device module in the list will have the same ID, but each will have a different value for the [AudioDeviceModule.InstanceId](audiodevicemodule_instanceid.md) property. 
 
 ## -parameters
 

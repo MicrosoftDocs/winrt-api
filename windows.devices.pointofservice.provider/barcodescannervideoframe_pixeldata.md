@@ -14,7 +14,7 @@ public IBuffer PixelData { get; }
 Gets the pixel data of the video frame.
 
 ## -property-value
-The pixel data as an [IBuffer](..\windows.storage.streams\ibuffer.md).
+The pixel data as an [IBuffer](../windows.storage.streams/ibuffer.md).
 
 ## -remarks
 

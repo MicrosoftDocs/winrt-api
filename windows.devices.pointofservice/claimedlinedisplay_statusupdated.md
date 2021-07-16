@@ -13,7 +13,7 @@ public event TypedEventHandler StatusUpdated<ClaimedLineDisplay, LineDisplayStat
 Notifies the application that there is a change in the power status of the line display.
 
 ## -remarks
-The event values are the same as the values returned by [CheckPowerStatusAsync](claimedlinedisplay_checkpowerstatusasync).
+The event values are the same as the values returned by [CheckPowerStatusAsync](claimedlinedisplay_checkpowerstatusasync_1107655958.md).
 
 ## -see-also
 

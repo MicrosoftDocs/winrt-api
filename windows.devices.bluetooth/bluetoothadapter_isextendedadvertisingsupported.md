@@ -19,12 +19,12 @@ Indicates whether extended advertisements are supported on this adapter.
 The Extended Advertisement format allows for further customization of the advertising header. See the related APIs for more information.
 
 ## -see-also
-[BluetoothLEAdvertisementPublisher.UseExtendedFormat](bluetoothleadvertisementpublisher_useextendedformat.md)
+[BluetoothLEAdvertisementPublisher.UseExtendedFormat](../windows.devices.bluetooth.advertisement/bluetoothleadvertisementpublisher_useextendedadvertisement.md)
 
-[BluetoothLEAdvertisementPublisher.IncludeTransmitPowerLevel](bluetoothleadvertisementpublisher_includetransmitpowerlevel.md)
+[BluetoothLEAdvertisementPublisher.IncludeTransmitPowerLevel](../windows.devices.bluetooth.advertisement/bluetoothleadvertisementpublisher_includetransmitpowerlevel.md)
 
-[BluetoothLEAdvertisementPublisher.PreferredTransmitPowerLevelInDBm](bluetoothleadvertisementpublisher_preferredtransmitpowerlevelindbm.md)
+[BluetoothLEAdvertisementPublisher.PreferredTransmitPowerLevelInDBm](../windows.devices.bluetooth.advertisement/bluetoothleadvertisementpublisher_preferredtransmitpowerlevelindbm.md)
 
-[BluetoothLEAdvertisementPublisher.IsAnonymous](bluetoothleadvertisementpublisher_isanonymous.md)
+[BluetoothLEAdvertisementPublisher.IsAnonymous](../windows.devices.bluetooth.advertisement/bluetoothleadvertisementpublisher_isanonymous.md)
 
 ## -examples

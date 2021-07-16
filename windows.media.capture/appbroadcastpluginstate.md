@@ -32,7 +32,7 @@ The current user needs to be authenticated with the broadcast provider service.
 The broadcast background task needs to authenticate the current user with the broadcast provider service.
 
 ### -field InBandwidthTest:5
-The broadcast background task is in the process of testing the bandwidth of the device's connection to the broadcasting service provider. Once this test is complete, the system will set the [AppBroadcastBackgroundServiceStreamInfo.BandwidthTestBitrate](appbroadcastbackgroundservicestreaminfo_bandwidthbestbitrate.md) property to indicate the result of the bandwidth test.
+The broadcast background task is in the process of testing the bandwidth of the device's connection to the broadcasting service provider. Once this test is complete, the system will set the [AppBroadcastBackgroundServiceStreamInfo.BandwidthTestBitrate](appbroadcastbackgroundservicestreaminfo_bandwidthtestbitrate.md) property to indicate the result of the bandwidth test.
 
 ### -field ReadyToBroadcast:6
 The broadcast background task is ready to broadcast.

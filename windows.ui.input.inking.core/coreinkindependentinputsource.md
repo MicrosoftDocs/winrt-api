@@ -28,4 +28,4 @@ Input from various devices (including touch, pen, and mouse) is received, proces
 
 ## -see-also
 
-[Windows.UI.Input.Inking.Core classes](windows_ui_input_inking_core_classes.md), [Pen and stylus interactions](/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Ink sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink), [Simple ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620314)
+[Windows.UI.Input.Inking.Core classes](windows_ui_input_inking_core.md), [Pen and stylus interactions](/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Ink sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink), [Simple ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620314)

@@ -17,7 +17,7 @@ Clears any properties the system has saved for the view with the specified ident
 ## -parameters
 ### -param key
 
-The [PersistedStateId](applicationview.persistedstateid.md) for the view to be cleared.
+The [PersistedStateId](applicationview_persistedstateid.md) for the view to be cleared.
 
 ## -remarks
 

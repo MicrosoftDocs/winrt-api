@@ -11,7 +11,7 @@ public class ContentLinkInvokedEventArgs
 
 ## -description
 
-Provides event data for the [ContentLink.Invoked](contentlink#Windows_UI_Xaml_Documents_ContentLink_Invoked) event.
+Provides event data for the [ContentLink.Invoked](contentlink_invoked.md) event.
 
 ## -remarks
 

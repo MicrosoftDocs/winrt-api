@@ -15,7 +15,7 @@ The type of occluding input pane.
 
 ## -property-value
 
-The type of input pane supported by the [CoreInputViewOcclusion](coreoccludinginputview.md) object.
+The type of input pane supported by the [CoreInputViewOcclusion](coreinputviewocclusion.md) object.
 
 ## -remarks
 

@@ -23,7 +23,7 @@ A unique identifier for the local file.
 You can use this identifier to associate a file in your app's repository with the local file. When updates are requested by Windows, you can use this *contentId* to identify the correct file in your app's repository.
 
 ### -param readMode
-A value that specifies whether Windows will request updates before the local file is retrieved from an app's [MostRecentlyUsedList](storageapplicationpermissions_mostrecentlyusedlist.md) or [FutureAccessList](storageapplicationpermissions_futureaccesslist.md).
+A value that specifies whether Windows will request updates before the local file is retrieved from an app's [MostRecentlyUsedList](../windows.storage.accesscache/storageapplicationpermissions_mostrecentlyusedlist.md) or [FutureAccessList](../windows.storage.accesscache/storageapplicationpermissions_futureaccesslist.md).
 
 ### -param writeMode
 A value that specifies whether other apps can write to the local file and, if so, whether Windows will request updates after the local file is written.
