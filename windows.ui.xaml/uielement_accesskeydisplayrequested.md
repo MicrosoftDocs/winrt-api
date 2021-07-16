@@ -31,4 +31,4 @@ This event is not raised if the element is under an element with its [Visibility
 
 ## -see-also
 
-[AccessKeyDisplayDismissedEventArgs](../windows.ui.xaml.input/accesskeydisplarequestedeventargs.md), [Access keys](/windows/uwp/design/input/access-keys)
+[AccessKeyDisplayRequestedEventArgs](../windows.ui.xaml.input/accesskeydisplayrequestedeventargs.md), [Access keys](/windows/uwp/design/input/access-keys)

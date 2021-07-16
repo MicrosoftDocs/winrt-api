@@ -11,7 +11,7 @@ public Windows.Phone.UI.Core.KeyboardInputBuffer KeyboardInputBuffer { get;  set
 
 ## -description
 > [!NOTE]
-> [KeyboardInputBuffer](../windows.ui.core/corewindow_keyboardinputbuffer.md) may be altered or unavailable for releases after Windows Phone 8.1 GDR2.
+> **Windows.Phone.UI.Core.ICoreWindowKeyboardInput.KeyboardInputBuffer** may be altered or unavailable for releases after Windows Phone 8.1 GDR2.
 
 ** only:** Gets or sets the [KeyboardInputBuffer](keyboardinputbuffer.md) object that is used to receive buffered text input.
 

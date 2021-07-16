@@ -17,7 +17,7 @@ Gets or sets the location of a child element of the MapControl.
 
 The location is the geographic location on the [MapControl](mapcontrol.md) at which the [MapControl.NormalizedAnchorPoint](mapcontrol_normalizedanchorpoint.md) of the child element is positioned.
 
-Since a string can't be converted to a [Geopoint]((../windows.devices.geolocation/geopoint.md)), you can't specify a value for the `MapControl.Location` attached property in XAML markup unless you use data binding.
+Since a string can't be converted to a [Geopoint](../windows.devices.geolocation/geopoint.md), you can't specify a value for the `MapControl.Location` attached property in XAML markup unless you use data binding.
 
 A `MapControl.Location` value is interpreted by the parent `MapControl` element. The value is used along with `MapControl.NormalizedAnchorPoint` to specify the layout characteristics of each child element of a `MapControl`.
 

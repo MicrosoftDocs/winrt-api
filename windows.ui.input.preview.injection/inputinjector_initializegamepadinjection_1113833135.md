@@ -27,7 +27,7 @@ Using input injection requires the following be added to the Package.appxmanifes
 
 Calling this method is analogous to connecting a physical gamepad, which also triggers a [GamepadAdded](/uwp/api/windows.gaming.input.gamepad.GamepadAdded) event.
 
-A physical gamepad is assigned a persistent unique ID (see [NonRoamableId](..\windows.gaming.input\rawgamecontroller_nonroamableid.md)) that does not change when the device is connected and disconnected. Similarly, a virtual gamepad created with InitializeGamepadInjection is also assigned a unique ID that persists across calls to UninitializeGamepadInjection and InitializeGamepadInjection for the same [InputInjector](inputinjector.md) instance.
+A physical gamepad is assigned a persistent unique ID (see [NonRoamableId](../windows.gaming.input/rawgamecontroller_nonroamableid.md)) that does not change when the device is connected and disconnected. Similarly, a virtual gamepad created with InitializeGamepadInjection is also assigned a unique ID that persists across calls to UninitializeGamepadInjection and InitializeGamepadInjection for the same [InputInjector](inputinjector.md) instance.
 
 ## -examples
 

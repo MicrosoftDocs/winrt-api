@@ -4833,7 +4833,7 @@ The _OverflowContentMinimalYTranslation_ property for the [CommandBarTemplateSet
 
 
 ### -field FlyoutBase_ShouldConstrainToRootBounds:2378
-The _ShouldConstrainToRootBounds_ property for the [FlyoutBase](../windows.ui.xaml.controls/flyoutbase.md) type.
+The _ShouldConstrainToRootBounds_ property for the [FlyoutBase](../windows.ui.xaml.controls.primitives/flyoutbase.md) type.
 
 
 ### -field FlyoutPresenter_IsDefaultShadowEnabled:2380

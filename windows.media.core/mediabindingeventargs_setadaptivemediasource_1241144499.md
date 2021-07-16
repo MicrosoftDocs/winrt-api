@@ -18,7 +18,7 @@ Binds an adaptive media source to the [MediaSource](mediasource.md) associated w
 
 ### -param mediaSource
 
-The [AdaptiveMediaSource](../windows.media.streaming.adaptive./adaptivemediasource.md) representing the media content.
+The [AdaptiveMediaSource](../windows.media.streaming.adaptive/adaptivemediasource.md) representing the media content.
 
 ## -remarks
 

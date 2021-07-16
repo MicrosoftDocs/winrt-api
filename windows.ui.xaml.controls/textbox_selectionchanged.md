@@ -27,4 +27,4 @@ Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TextBox.SelectionChanged](/w
 
 ## -see-also
 
-[RoutedEventHandler](../windows.ui.xaml/routedeventhandler.md), [Events and routed events overview](../../windows/uwp/xaml-platform/events-and-routed-events-overview)
+[RoutedEventHandler](../windows.ui.xaml/routedeventhandler.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)

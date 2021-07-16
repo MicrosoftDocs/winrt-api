@@ -86,9 +86,9 @@ This table shows the equivalent methods available in .NET and C++.
 
 | .NET ([Rect](/dotnet/api/windows.foundation.rect?view=dotnet-uwp-10.0&preserve-view=true)) | C++ ([RectHelper](../windows.ui.xaml/recthelper.md)) |
 | ---- | --- |
-| [Rect(Point, Point)](/dotnet/api/windows.foundation.rect.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_Foundation_Rect__ctor_Windows_Foundation_Point_Windows_Foundation_Point_) | [FromPoints(Point, Point)](../) |
-| [Rect(Point, Size)](/dotnet/api/windows.foundation.rect.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_Foundation_Rect__ctor_Windows_Foundation_Point_Windows_Foundation_Size_) | [FromLocationAndSize(Point, Size)](../) |
-| [Rect(Double, Double, Double, Double)](/dotnet/api/windows.foundation.rect.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_Foundation_Rect__ctor_System_Double_System_Double_System_Double_System_Double_) | [FromCoordinatesAndDimensions(Single, Single, Single, Single)](../) |
+| [Rect(Point, Point)](/dotnet/api/windows.foundation.rect.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_Foundation_Rect__ctor_Windows_Foundation_Point_Windows_Foundation_Point_) | [FromPoints(Point, Point)](../windows.ui.xaml\recthelper_frompoints_10978687.md) |
+| [Rect(Point, Size)](/dotnet/api/windows.foundation.rect.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_Foundation_Rect__ctor_Windows_Foundation_Point_Windows_Foundation_Size_) | [FromLocationAndSize(Point, Size)](../windows.ui.xaml/recthelper_fromlocationandsize_1049054702.md) |
+| [Rect(Double, Double, Double, Double)](/dotnet/api/windows.foundation.rect.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_Foundation_Rect__ctor_System_Double_System_Double_System_Double_System_Double_) | [FromCoordinatesAndDimensions(Single, Single, Single, Single)](../windows.ui.xaml/recthelper_fromcoordinatesanddimensions_1633521356.md) |
 | [Bottom](/dotnet/api/windows.foundation.rect.bottom?view=dotnet-uwp-10.0&preserve-view=true) | [GetBottom(Rect)](../windows.ui.xaml/recthelper_getbottom_1066401735.md) |
 | [Empty](/dotnet/api/windows.foundation.rect.empty?view=dotnet-uwp-10.0&preserve-view=true) | [Empty](../windows.ui.xaml/recthelper_empty.md) |
 | [IsEmpty](/dotnet/api/windows.foundation.rect.isempty?view=dotnet-uwp-10.0&preserve-view=true) | [GetIsEmpty(Rect)](../windows.ui.xaml/recthelper_getisempty_1110221055.md) |

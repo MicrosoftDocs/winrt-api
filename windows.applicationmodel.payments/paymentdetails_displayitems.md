@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.ApplicationModel.Payme
 # Windows.ApplicationModel.Payments.PaymentDetails.DisplayItems
 
 ## -description
-This is a collection of [PaymentItem](../windows.payments/paymentitem.md) classes items for a payment request. These represent the breakdown of items in the payment request. Some examples are shoes or taxes.
+This is a collection of [PaymentItem](paymentitem.md) classes items for a payment request. These represent the breakdown of items in the payment request. Some examples are shoes or taxes.
 
 ## -property-value
 Gets or sets the DisplayItems.
