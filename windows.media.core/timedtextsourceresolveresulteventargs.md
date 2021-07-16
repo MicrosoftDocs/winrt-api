@@ -18,4 +18,4 @@ Get an instance of this class by handling the [TimedTextSource.Resolved](timedte
 ## -examples
 
 ## -see-also
-[ITimedTextSourceResolveResultEventArgs](itimedtextsourceresolveresulteventargs.md), [TimedTextSource](timedtextsource.md)
+[TimedTextSource](timedtextsource.md)

@@ -20,4 +20,3 @@ Represents the information required for auditing.
 ## -examples
 
 ## -see-also
-[IProtectionPolicyAuditInfo](iprotectionpolicyauditinfo.md)

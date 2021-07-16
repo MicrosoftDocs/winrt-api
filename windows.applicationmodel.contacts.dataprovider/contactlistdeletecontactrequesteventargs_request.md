@@ -10,10 +10,10 @@ public ContactListDeleteContactRequest Request { get; }
 # Windows.ApplicationModel.Contacts.DataProvider.ContactListDeleteContactRequestEventArgs.Request
 
 ## -description
-Gets the [ContactListDeleteTaskRequest](contactlistdeletetaskrequest.md) object associated with this request.
+Gets the [ContactListDeleteTaskRequest](contactlistdeletecontactrequest.md) object associated with this request.
 
 ## -property-value
-A [ContactListDeleteTaskRequest](contactlistdeletetaskrequest.md) object describing the request.
+A [ContactListDeleteTaskRequest](contactlistdeletecontactrequest.md) object describing the request.
 
 ## -remarks
 

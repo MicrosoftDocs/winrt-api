@@ -25,8 +25,6 @@ Provides the destination for the result. Size the initial array size as a *capac
 The number of items returned.
 
 ## -remarks
-> [!NOTE]
-> The equivalent Microsoft .NET  API is [CopyTo](dependencyobjectcollection_copyto.md).
 
 ## -examples
 

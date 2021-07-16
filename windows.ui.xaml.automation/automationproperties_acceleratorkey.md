@@ -20,7 +20,7 @@ Shortcut key combinations invoke an action. For example, CTRL+O is often used to
 
 - Type: string
 - Identifier field: [AcceleratorKeyProperty](automationproperties_acceleratorkeyproperty.md)
-- Accessor methods: [GetAcceleratorKey](automationproperties_getacceleratorkey.md), [SetAcceleratorKey](automationproperties_setacceleratorkey.md)
+- Accessor methods: [GetAcceleratorKey](automationproperties_getacceleratorkey_1491119690.md), [SetAcceleratorKey](automationproperties_setacceleratorkey_300007954.md)
 
 ## -see-also
 

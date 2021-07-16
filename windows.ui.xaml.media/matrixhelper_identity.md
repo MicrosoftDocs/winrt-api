@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Media.Matrix Identity { get; }
 # Windows.UI.Xaml.Media.MatrixHelper.Identity
 
 ## -description
-Gets a static constructed [Matrix](matrix.md) where the values established are representative of an **Identity** transform. C# and Microsoft Visual Basic code should use [Identity](matrix_identity.md) instead.
+Gets a static constructed [Matrix](matrix.md) where the values established are representative of an **Identity** transform.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Media.MatrixHelper.Identity](/windows/winui/api/microsoft.ui.xaml.media.matrixhelper.identity).
 

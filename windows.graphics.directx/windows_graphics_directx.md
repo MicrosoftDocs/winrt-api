@@ -16,4 +16,4 @@ Equivalent WinUI namespace: [Microsoft.Graphics.DirectX](/windows/winui/api/micr
 ## -examples
 
 ## -see-also
-[Windows.Graphics.DirectX.Direct3D11 namespace](../windows.graphics.directx.direct3d11/windows_graphics_directx_direct3d11.md), [Windows.Graphics.DirectX.Direct3D11 functions](../windows.graphics.directx.direct3d11/functions.md)
+[Windows.Graphics.DirectX.Direct3D11 namespace](../windows.graphics.directx.direct3d11/windows_graphics_directx_direct3d11.md)

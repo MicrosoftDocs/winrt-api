@@ -20,4 +20,4 @@ For how-to guidance for working with metadata tracks, see [Media items, playlist
 ## -examples
 
 ## -see-also
-[IVectorView(TimedMetadataTrack)](../windows.foundation.collections/ivectorview_1.md), [IIterable(TimedMetadataTrack)](../windows.foundation.collections/iiterable_1.md), [IMediaPlaybackTimedMediaTrackList](imediaplaybacktimedmediatracklist.md), [TimedMetadataTrack](../windows.media.core/timedmetadatatrack.md), [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource)
+[IVectorView(TimedMetadataTrack)](../windows.foundation.collections/ivectorview_1.md), [IIterable(TimedMetadataTrack)](../windows.foundation.collections/iiterable_1.md), [TimedMetadataTrack](../windows.media.core/timedmetadatatrack.md), [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource)

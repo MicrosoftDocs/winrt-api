@@ -18,4 +18,4 @@ Get an instance of this class by calling [AudioFrame.LockBuffer](audioframe_lock
 ## -examples
 
 ## -see-also
-[IClosableBuffer](../windows.storage.streams/iclosablebuffer.md), [IClosable](../windows.foundation/iclosable.md)
+[IBuffer](../windows.storage.streams/ibuffer.md), [IClosable](../windows.foundation/iclosable.md)

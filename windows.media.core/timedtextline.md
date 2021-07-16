@@ -17,4 +17,3 @@ Represents a line of text that is displayed with a [TimedTextCue](timedtextcue.m
 ## -examples
 
 ## -see-also
-[ITimedTextLine](itimedtextline.md)

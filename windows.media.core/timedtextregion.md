@@ -17,4 +17,3 @@ Exposes properties for customizing the appearance of the rendering area of a [Ti
 ## -examples
 
 ## -see-also
-[ITimedTextRegion](itimedtextregion.md)

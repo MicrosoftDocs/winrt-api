@@ -11,7 +11,7 @@ public Windows.Foundation.Collections.IVector<String> GetMuiCompatibleLanguageLi
 
 ## -description
 
-Retrieves a set of [Multilingual User Interface (MUI)](../win32/intl/multilingual-user-interface) tags derived from one or more BCP-47 language tags.
+Retrieves a set of [Multilingual User Interface (MUI)](/win32/intl/multilingual-user-interface) tags derived from one or more BCP-47 language tags.
 
 ## -parameters
 
@@ -21,7 +21,7 @@ One or more BCP-47 language tags.
 
 ## -returns
 
-A set of [Multilingual User Interface (MUI)](../win32/intl/multilingual-user-interface) tags.
+A set of [Multilingual User Interface (MUI)](/win32/intl/multilingual-user-interface) tags.
 
 ## -remarks
 

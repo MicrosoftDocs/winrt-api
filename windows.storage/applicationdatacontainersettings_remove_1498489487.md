@@ -17,7 +17,6 @@ Removes the specified application setting.
 The key of the setting.
 
 ## -remarks
-For the C# and Microsoft Visual Basic version of the **Remove(String)** method, see [Remove](applicationdatacontainersettings_remove_2.md).
 
 ## -examples
 

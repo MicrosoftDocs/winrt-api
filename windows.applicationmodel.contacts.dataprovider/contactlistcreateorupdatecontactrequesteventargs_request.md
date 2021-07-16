@@ -10,10 +10,10 @@ public ContactListCreateOrUpdateContactRequest Request { get; }
 # Windows.ApplicationModel.Contacts.DataProvider.ContactListCreateOrUpdateContactRequestEventArgs.Request
 
 ## -description
-Gets the [ContactListCreateOrUpdateTaskRequest](contactlistcreateorupdatetaskrequest.md) object associated with this request.
+Gets the [ContactListCreateOrUpdateContactRequest](contactlistcreateorupdatecontactrequest.md) object associated with this request.
 
 ## -property-value
-A [ContactListCreateOrUpdateTaskRequest](contactlistcreateorupdatetaskrequest.md) object describing the request.
+A [ContactListCreateOrUpdateContactRequest](contactlistcreateorupdatecontactrequest.md) object describing the request.
 
 ## -remarks
 
