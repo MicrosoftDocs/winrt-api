@@ -60,7 +60,7 @@ To load web content, use the [Navigate](webview_navigate_1098085581.md) method w
 webView1.Navigate(new Uri("http://www.contoso.com"));
 ```
 
-To navigate to a Uniform Resource Identifier (URI) with a POST request and HTTP headers, use the [NavigateWithHttpRequestMessage](webview_NavigateWithHttpRequestMessage.md) method. This method supports only [HttpMethod.Post](../windows.web.http/httpmethod_post.md) and [HttpMethod.Get](../windows.web.http/httpmethod_get.md) for the [HttpRequestMessage.Method](../windows.web.http/httprequestmessage_method.md) property value.
+To navigate to a Uniform Resource Identifier (URI) with a POST request and HTTP headers, use the [NavigateWithHttpRequestMessage](webview_navigatewithhttprequestmessage_896558468.md) method. This method supports only [HttpMethod.Post](../windows.web.http/httpmethod_post.md) and [HttpMethod.Get](../windows.web.http/httpmethod_get.md) for the [HttpRequestMessage.Method](../windows.web.http/httprequestmessage_method.md) property value.
 
 To load uncompressed and unencrypted content from your app’s [LocalFolder](../windows.storage/applicationdata_localfolder.md) or [TemporaryFolder](../windows.storage/applicationdata_temporaryfolder.md) data stores, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appdata scheme](/previous-versions/windows/apps/jj655406(v=win.10)). The WebView support for this scheme requires you to place your content in a subfolder under the local or temporary folder. This enables navigation to Uniform Resource Identifier (URI) such as ms-appdata:///local/*folder*/*file*.html and ms-appdata:///temp/*folder*/*file*.html. (To load compressed or encrypted files, see [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md).)
 
@@ -310,7 +310,7 @@ To get a preview image of the WebView's current content, use the [CapturePreview
 
 By default, WebView content is hosted on the UI thread on devices in the desktop device family, and off the UI thread on all other devices. You can use the [WebView.DefaultExecutionMode](webview_defaultexecutionmode.md) static property to query the default threading behavior for the current client. If necessary, you can use the [WebView(WebViewExecutionMode)](webview_webview_499271973.md) constructor to override this behavior. 
 
-The supported [WebViewExecutionMode](wevbviewexecutionmode.md) values are:
+The supported [WebViewExecutionMode](webview_executionmode.md) values are:
 
 - **SameThread** - The WebView content is hosted on the UI Thread.
 - **SeparateThread** - The WebView content is hosted on a separate thread off the UI thread.

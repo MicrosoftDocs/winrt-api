@@ -10,7 +10,8 @@ public RemoteSystemConnectionRequest RemoteSystemConnectionRequest.CreateFromCon
 # Windows.System.RemoteSystems.RemoteSystemConnectionRequest.CreateFromConnectionTokenForUser
 
 ## -description
-Returns a RemoteSystemConnectionRequest based on a [ConnectionToken](remotesystemconnectionrequest_connectiontoken.md) and a specific [user](user.md).
+Returns a RemoteSystemConnectionRequest based on a [ConnectionToken](remotesystemconnectionrequest_connectiontoken.md) and a specific [user](../windows.system/user.md
+).
 
 ## -parameters
 ### -param user

@@ -36,7 +36,7 @@ StackPanel is a layout panel that arranges child elements into a single line tha
 
 By default, StackPanel stacks items vertically from top to bottom in the order they are declared. You can set the [Orientation](stackpanel_orientation.md) property to **Horizontal** to stack items from left to right.
 
-You can insert items into a StackPanel at a specific location using the [Insert](uielementcollection_insert.md) method in code-behind.
+You can insert items into a StackPanel at a specific location using the [InsertAt](uielementcollection_insertat_1232866588.md) method in code-behind.
 
 ### Border properties
 

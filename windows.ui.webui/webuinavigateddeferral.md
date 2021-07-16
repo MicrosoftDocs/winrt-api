@@ -21,4 +21,4 @@ Manages delayed navigation for an app.
 ## -examples
 
 ## -see-also
-[WebUINavigatedOperation.getDeferral ](webuinavigatedoperation_getdeferral.md)
+[WebUINavigatedOperation.getDeferral](webuinavigatedoperation_getdeferral_254836512.md)

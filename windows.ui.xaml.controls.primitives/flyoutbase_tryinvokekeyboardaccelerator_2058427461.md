@@ -25,4 +25,4 @@ Call this method in the [OnProcessKeyboardAccelerators](flyoutbase_onprocesskeyb
 
 ## -see-also
 
-[ProcessKeyboardAccelerators](uielement_processkeyboardaccelerators.md)
+[ProcessKeyboardAccelerators](../windows.ui.xaml/uielement_processkeyboardaccelerators.md)

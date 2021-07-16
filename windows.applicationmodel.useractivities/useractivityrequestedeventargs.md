@@ -10,7 +10,7 @@ public class UserActivityRequestedEventArgs
 # Windows.ApplicationModel.UserActivities.UserActivityRequestedEventArgs
 
 ## -description
-Passed to the [UserActivityRequestManager.UserActivityRequested](useractivityrequestmanager_useractivityrequested.md) event. Allows the handler of the event to pass back a [UserActivity](useractivty.md).
+Passed to the [UserActivityRequestManager.UserActivityRequested](useractivityrequestmanager_useractivityrequested.md) event. Allows the handler of the event to pass back a [UserActivity](useractivity.md).
 
 ## -remarks
 

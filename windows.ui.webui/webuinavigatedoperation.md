@@ -21,4 +21,4 @@ Manages an app navigation operation.
 ## -examples
 
 ## -see-also
-[WebUINavigatedDeferral](webuinavigateddeferral.md), [WebUINavigatedOperation.getDeferral ](webuinavigatedoperation_getdeferral.md)
+[WebUINavigatedDeferral](webuinavigateddeferral.md), [WebUINavigatedOperation.getDeferral](webuinavigatedoperation_getdeferral_254836512.md)

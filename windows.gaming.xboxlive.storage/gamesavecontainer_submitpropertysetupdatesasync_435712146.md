@@ -16,7 +16,7 @@ Similar to [SubmitUpdatesAsync](gamesavecontainer_submitupdatesasync_1002100950.
 ## -parameters
 ### -param blobsToWrite
 
-Type: [IPropertySet](w_found_coll.ipropertyset)
+Type: [IPropertySet](../windows.foundation.collections/ipropertyset.md)
 
 Collection of blob names and the data to write for each blob.
 

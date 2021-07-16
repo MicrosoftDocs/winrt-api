@@ -21,7 +21,7 @@ Returns the current [XamlDirect](xamldirect.md) instance.
 For even better performance, consider caching this locally instead of querying for the instance every time.
 
 ## -see-also
-[XamlDirect.CreateInstance](xamldirect.createinstance_2026807211.md)
+[XamlDirect.CreateInstance](xamldirect_createinstance_2026807211.md)
 
 ## -examples
 

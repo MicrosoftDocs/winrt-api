@@ -230,4 +230,4 @@ Expected input does not include emoji. Advises input processors to not show the 
 
 ## -see-also
 
-[InputScope.Names](inputscope_names.md), [PasswordBox.InputScope](../windows.ui.xaml.controls/passwordbox_inputscope.md), [RichEditBox.InputScope](../windows.ui.xaml.controls/richeditbox_inputscope.md), [TextBox.InputScope](../windows.ui.xaml.controls/textbox_inputscope.md), [Windows.UI.Xaml.Input enumerations](windows_ui_xaml_input_enumerations.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[InputScope.Names](inputscope_names.md), [PasswordBox.InputScope](../windows.ui.xaml.controls/passwordbox_inputscope.md), [RichEditBox.InputScope](../windows.ui.xaml.controls/richeditbox_inputscope.md), [TextBox.InputScope](../windows.ui.xaml.controls/textbox_inputscope.md), [Windows.UI.Xaml.Input enumerations](/uwp/api/windows.ui.xaml.input), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

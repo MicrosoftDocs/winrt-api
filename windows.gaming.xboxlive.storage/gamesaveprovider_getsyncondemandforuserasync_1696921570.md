@@ -16,7 +16,7 @@ Gets a partially-synced game save provider that syncs containers on demand.
 ## -parameters
 ### -param user
 
-Type: [User](w_sys.user)
+Type: [User](../windows.system/user.md)
 
 User who the game saves are for.
 
