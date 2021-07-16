@@ -19,8 +19,6 @@ The index of the entry to remove.
 ## -remarks
 If successful, calling this method reduces the collection size by one. Items with index values greater than the called index have their index values reduced by one.
 
-If you are programming using C# or Microsoft Visual Basic, the equivalent method is [RemoveAt](httpchallengeheadervaluecollection_removeat_1.md). The behavior of each language's RemoveAt is basically the same.
-
 ## -examples
 
 ## -see-also

@@ -20,7 +20,6 @@ The zero-based index of a specified item in the [HttpChallengeHeaderValueCollect
 The [HttpChallengeHeaderValue](httpchallengeheadervalue.md) at the specified index in the [HttpChallengeHeaderValueCollection](httpchallengeheadervaluecollection.md)
 
 ## -remarks
-If you are programming using C# or Microsoft Visual Basic, the equivalent method is [Item](httpchallengeheadervaluecollection_item.md) for the GetAt and [SetAt](httpchallengeheadervaluecollection_setat_946167198.md) methods.
 
 ## -examples
 

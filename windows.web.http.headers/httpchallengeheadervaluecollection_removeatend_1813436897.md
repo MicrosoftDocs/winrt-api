@@ -13,7 +13,6 @@ public void RemoveAtEnd()
 Removes the last [HttpChallengeHeaderValue](httpchallengeheadervalue.md) item from the collection.
 
 ## -remarks
-When programming with .NET, this method is hidden and developers should use [Remove](httpchallengeheadervaluecollection_remove.md).
 
 ## -examples
 

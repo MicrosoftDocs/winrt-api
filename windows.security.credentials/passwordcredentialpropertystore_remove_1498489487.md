@@ -17,7 +17,7 @@ This method is reserved for internal use and is not intended to be used in your 
 Reserved.
 
 ## -remarks
-For the C# and Microsoft Visual Basic version of the **Remove(String)** method, see [Remove](passwordcredentialpropertystore_remove_2.md).
+For the C# and Microsoft Visual Basic version of the **Remove(String)** method, see [Remove](/uwp/api/windows.security.credentials.passwordcredentialpropertystore.remove).
 
 ## -examples
 

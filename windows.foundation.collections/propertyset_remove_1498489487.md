@@ -17,7 +17,7 @@ Removes an item from the property set.
 The key.
 
 ## -remarks
-For the C# or Microsoft Visual Basic version of the **Remove** method, see [Remove](propertyset_remove_2.md).
+For the C# or Microsoft Visual Basic version of the **Remove** method, see [Remove](/dotnet/api/system.collections.generic.idictionary-2.remove).
 
 ## -examples
 

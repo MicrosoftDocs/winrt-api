@@ -10,7 +10,7 @@ public bool GetHasDuration(Windows.UI.Xaml.Media.Animation.RepeatBehavior target
 # Windows.UI.Xaml.Media.Animation.RepeatBehaviorHelper.GetHasDuration
 
 ## -description
-Returns whether a specified [RepeatBehavior](repeatbehavior.md) has a **RepeatBehaviorType** of **Duration** and a nonzero **Duration** value. C# and Microsoft Visual Basic code should use [HasDuration](repeatbehavior_hasduration.md) instead.
+Returns whether a specified [RepeatBehavior](repeatbehavior.md) has a **RepeatBehaviorType** of **Duration** and a nonzero **Duration** value. C# and Microsoft Visual Basic code should use [HasDuration](/dotnet/api/windows.ui.xaml.media.animation.repeatbehavior.hasduration) instead.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.RepeatBehaviorHelper.GetHasDuration](/windows/winui/api/microsoft.ui.xaml.media.animation.repeatbehaviorhelper.gethasduration).
 

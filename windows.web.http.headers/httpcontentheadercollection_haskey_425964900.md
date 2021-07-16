@@ -20,7 +20,6 @@ The key associated with the item to locate.
 **true** if the key is found; otherwise, **false**.
 
 ## -remarks
-When programming with .NET, this method is hidden and developers should use [ContainsKey](httpcontentheadercollection_containskey.md).
 
 ## -examples
 
