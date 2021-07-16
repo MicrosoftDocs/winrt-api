@@ -28,4 +28,4 @@ Take the actions associated with diagnostic escalation success.
 > Only first-party applications should use this type.
 
 ## -see-also
-[TryEscalateScenario](TryEscalateScenario.md)
+[TryEscalateScenario](platformdiagnosticactions_tryescalatescenario_909016441.md)

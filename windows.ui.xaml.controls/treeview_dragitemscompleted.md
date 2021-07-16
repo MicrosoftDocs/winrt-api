@@ -22,7 +22,7 @@ Occurs when a drag operation that involves one of the items in the view is ended
 
 ## -remarks
 
-To receive this event, set the [CanDragItems](treeview_candragitems) property to **true**.
+To receive this event, set the [CanDragItems](treeview_candragitems.md) property to **true**.
 
 ## -see-also
 

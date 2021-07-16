@@ -19,7 +19,7 @@ The count of items in the collection.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [Count](triggeractioncollection_count.md).
+> The equivalent Microsoft .NET API is [Count](/dotnet/api/system.windows.triggeractioncollection.count).
 
 ## -examples
 

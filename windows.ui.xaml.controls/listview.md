@@ -47,7 +47,7 @@ If you use the ListView to display large sets of data, see [Optimize ListView an
 > <strong>Windows 10, version 1709 (SDK 16299) - Behavior change</strong>
 > </div>
 > By default, instead of performing selection, an active pen now scrolls/pans a list in UWP apps (like touch, touchpad, and passive pen).
-> If your app depends on the previous behavior, you can override pen scrolling and revert to the previous behavior. See the <a Scroll​Viewer href="scrollviewer.md">ScrollViewer</a> class reference for details.
+> If your app depends on the previous behavior, you can override pen scrolling and revert to the previous behavior. See [ScrollViewer](scrollviewer.md) for details.
 
 By default, a user can select a single item in a ListView. You can set the [SelectionMode](listviewbase_selectionmode.md) property to a [ListViewSelectionMode](listviewselectionmode.md) enumeration value to allow multi-selection or to disable selection. You can also change the ListView interaction mode to make items respond to a user click like a button instead of being selected.
 

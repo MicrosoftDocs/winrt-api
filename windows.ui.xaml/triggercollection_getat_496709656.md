@@ -23,7 +23,7 @@ The value at the specified index.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [Item](triggercollection_item.md) (the indexer).
+> The equivalent Microsoft .NET API is [Item](/dotnet/api/system.collections.objectmodel.collection-1.item) (the indexer).
 
 ## -examples
 

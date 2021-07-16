@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<bool> RequestDeleteAsync(Windows.Found
 # Windows.UI.StartScreen.SecondaryTile.RequestDeleteAsync
 
 ## -description
-Displays the **Unpin from Start**  flyout at a specified point. This flyout lets the user confirm removal of the secondary tile.
+Displays the **Unpin from Start** flyout at a specified point. This flyout lets the user confirm removal of the secondary tile.
 
 ## -parameters
 ### -param invocationPoint

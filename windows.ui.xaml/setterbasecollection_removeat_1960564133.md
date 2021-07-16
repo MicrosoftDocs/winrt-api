@@ -24,7 +24,7 @@ If successful, calling this method reduces the collection size by one. Items wit
 
 
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [RemoveAt](setterbasecollection_removeat_1.md).
+> The equivalent Microsoft .NET API is [RemoveAt](/dotnet/api/system.collections.objectmodel.collection-1.removeat).
 
 ## -examples
 

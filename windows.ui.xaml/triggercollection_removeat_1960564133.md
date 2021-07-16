@@ -20,7 +20,7 @@ The index position of the item to remove.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [RemoveAt](triggercollection_removeat_1.md).
+> The equivalent Microsoft .NET API is [RemoveAt](/dotnet/api/system.collections.objectmodel.collection-1.removeat).
 
 ## -examples
 

@@ -23,7 +23,7 @@ The value to set.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [Insert](triggercollection_insert.md).
+> The equivalent Microsoft .NET API is [Insert](/dotnet/api/system.collections.objectmodel.collection-1.insert).
 
 ## -examples
 

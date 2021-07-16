@@ -20,7 +20,7 @@ The [TileId](secondarytile_tileid.md) of the [SecondaryTile](secondarytile.md) t
 A boolean representing whether the specified secondary tile is pinned to Start.
 
 ## -remarks
-This API is only relevant when you are pinning your tiles to multiple surfaces, like pinning secondary tiles to taskbar. If you only pin secondary tiles to Start, you should instead use [SecondaryTile.Exists](secondarytile_exists.md) which has been present since the first version of Windows 10.
+This API is only relevant when you are pinning your tiles to multiple surfaces, like pinning secondary tiles to taskbar. If you only pin secondary tiles to Start, you should instead use [SecondaryTile.Exists](secondarytile_exists_1536819090.md) which has been present since the first version of Windows 10.
 
 ## -see-also
 

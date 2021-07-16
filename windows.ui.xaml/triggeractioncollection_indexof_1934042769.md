@@ -26,9 +26,9 @@ The index of the item to find, if found.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [IndexOf](triggeractioncollection_indexof_1.md).
+> The equivalent Microsoft .NET API is [IndexOf](/dotnet/api/system.windows.triggeractioncollection.indexof).
 
 ## -examples
 
 ## -see-also
-[IndexOf](triggeractioncollection_indexof_1.md)
+[IndexOf](/dotnet/api/system.windows.triggeractioncollection.indexof)

@@ -15,7 +15,7 @@ Creates a new [ToastNotification](toastnotification.md) for the bound [user](toa
 ## -parameters
 
 ### -param collectionId
-The ID of the [ToastNotificationCollection](toastnotificationcollection) that represents the notification group you want to send.
+The ID of the notification group you want to send.
 
 ## -returns
 The object you will use to send the toast notifications.

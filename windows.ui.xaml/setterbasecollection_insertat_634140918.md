@@ -27,9 +27,9 @@ InsertAt expands the collection and moves all subsequent index items by one. In 
 
 
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [Insert](setterbasecollection_insert.md).
+> The equivalent Microsoft .NET API is [Insert](/dotnet/api/system.collections.objectmodel.collection-1.insert).
 
 ## -examples
 
 ## -see-also
-[Insert](setterbasecollection_insert.md)
+[Insert](/dotnet/api/system.collections.objectmodel.collection-1.insert)
