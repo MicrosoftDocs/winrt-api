@@ -19,9 +19,9 @@ The view object.
 
 ## -remarks
 > [!NOTE]
-> There is no exact Microsoft .NET equivalent for this API, although [CopyTo](resourcedictionary_copyto.md) is similar.
+> There is no exact Microsoft .NET equivalent for this API, although [CopyTo](/dotnet/api/system.windows.resourcedictionary.copyto) is similar.
 
 ## -examples
 
 ## -see-also
-[CopyTo](resourcedictionary_copyto.md), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[CopyTo](/dotnet/api/system.windows.resourcedictionary.copyto), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

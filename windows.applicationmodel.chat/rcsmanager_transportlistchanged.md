@@ -11,7 +11,7 @@ static public event EventHandler TransportListChanged<object>
 # Windows.ApplicationModel.Chat.RcsManager.TransportListChanged
 
 ## -description
-Occurs when one or more [RcsTransport](rcstransport.md) instances are added or removed from the list of RcsTransport instances that would be returned from [RcsManager.GetTransportsAsync](rcsmanager_gettransportsasync.md).
+Occurs when one or more [RcsTransport](rcstransport.md) instances are added or removed from the list of RcsTransport instances that would be returned from [RcsManager.GetTransportsAsync](rcsmanager_gettransportsasync_998895362.md).
 
 ## -remarks
 

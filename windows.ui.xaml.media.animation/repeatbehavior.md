@@ -49,8 +49,8 @@ The mode or type of repeat behavior that this instance represents, as a value of
 
 ## -remarks
 There are three types of RepeatBehavior behaviors:
-+ Time span: specifies the active duration of a [Timeline](timeline.md), possibly repeating the animation if the [Timeline.Duration](timeline_duration.md) is shorter. For example, a [Timeline](timeline.md) with a simple [Timeline.Duration](timeline_duration.md) value of 1 second and a [RepeatBehavior.Duration](repeatbehavior_duration.md) value of 2.5 seconds will run for 2.5 iterations, and 2.5 seconds.
-+ Iteration count: specifies the number of times the simple duration of a [Timeline](timeline.md) plays. The default iteration count is 1.0, and this means the [Timeline](timeline.md) is active for exactly one of its simple durations. A count of 0.5 specifies that the timeline is active for half of its simple duration, while a count of 2 specifies that the timeline repeats its simple duration twice. For more information, see [Count](repeatbehavior_count.md).
++ Time span: specifies the active duration of a [Timeline](timeline.md), possibly repeating the animation if the [Timeline.Duration](timeline_duration.md) is shorter. For example, a [Timeline](timeline.md) with a simple [Timeline.Duration](timeline_duration.md) value of 1 second and a [RepeatBehavior.Duration](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.duration) value of 2.5 seconds will run for 2.5 iterations, and 2.5 seconds.
++ Iteration count: specifies the number of times the simple duration of a [Timeline](timeline.md) plays. The default iteration count is 1.0, and this means the [Timeline](timeline.md) is active for exactly one of its simple durations. A count of 0.5 specifies that the timeline is active for half of its simple duration, while a count of 2 specifies that the timeline repeats its simple duration twice. For more information, see [Count](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.count).
 + Forever: the [Timeline](timeline.md) repeats indefinitely.
 
 
@@ -62,9 +62,9 @@ You cannot declare a RepeatBehavior as a shareable object in a [ResourceDictiona
 
 ### Projection and members of RepeatBehavior
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), then RepeatBehavior has non-data members available, and its data members [Count](repeatbehavior_count.md), [Duration](repeatbehavior_duration.md) and [Type](repeatbehavior_type.md) are exposed as read-write properties, not fields.
+If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), then RepeatBehavior has non-data members available, and its data members [Count](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.count), [Duration](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.duration) and [Type](repeatbehavior_type.md) are exposed as read-write properties, not fields.
 
-If you are using Visual C++ component extensions (C++/CX), then RepeatBehavior has non-data members available, and its data members [Count](repeatbehavior_count.md), [Duration](repeatbehavior_duration.md) and [Type](repeatbehavior_type.md) are exposed as read-only properties, not fields.
+If you are using Visual C++ component extensions (C++/CX), then RepeatBehavior has non-data members available, and its data members [Count](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.count), [Duration](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.duration) and [Type](repeatbehavior_type.md) are exposed as read-only properties, not fields.
 
 If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member fields **Count**, **Duration**, and **Type** exist as members of RepeatBehavior, and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that exist on the [RepeatBehaviorHelper](repeatbehaviorhelper.md) class.
 

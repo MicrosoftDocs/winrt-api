@@ -13,7 +13,7 @@ public PopulationPolicy PopulationPolicy { get;  set; }
 The population policy of the sync root registration.
 
 ## -property-value
-A [population policy](populationpolicy.md) enum value.
+A [population policy](storageproviderpopulationpolicy.md) enum value.
 
 ## -remarks
 

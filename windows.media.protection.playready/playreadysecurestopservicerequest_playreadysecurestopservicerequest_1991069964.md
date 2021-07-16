@@ -24,4 +24,4 @@ The raw binary body of the publisher certificate.
 ## -examples
 
 ## -see-also
-[PlayReadySecureStopServiceRequest(Byte[])](playreadysecurestopservicerequest_playreadysecurestopservicerequest_52593125.md)
+[PlayReadySecureStopServiceRequest(Byte\[\])](playreadysecurestopservicerequest_playreadysecurestopservicerequest_52593125.md)

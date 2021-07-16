@@ -31,4 +31,4 @@ A value of the [ProtectionPolicyEvaluationResult](protectionpolicyevaluationresu
 ## -examples
 
 ## -see-also
-[RequestAccessForAppAsync(String, String, IProtectionPolicyAuditInfo)](protectionpolicymanager_requestaccessforappasync_22970468.md), [RequestAccessForAppAsync(String, String, IProtectionPolicyAuditInfo, String)](protectionpolicymanager_requestaccessforappasync_850310812.md)
+[RequestAccessForAppAsync(String, String, IProtectionPolicyAuditInfo)](protectionpolicymanager_requestaccessforappasync_404496020.md), [RequestAccessForAppAsync(String, String, IProtectionPolicyAuditInfo, String)](protectionpolicymanager_requestaccessforappasync_736897132.md)

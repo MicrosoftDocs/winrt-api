@@ -13,7 +13,7 @@ public IVectorView<MdmAlert> Alerts { get; }
 A vector list of all MdmAlerts for the current session.
 
 ## -property-value
-A vector list of [MdmAlerts](MdmAlerts.md).
+A vector list of [MdmAlerts](mdmalert.md).
 
 ## -remarks
 

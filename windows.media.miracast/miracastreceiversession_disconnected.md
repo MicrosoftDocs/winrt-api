@@ -16,7 +16,7 @@ An event which is raised when a [MiracastReceiverConnection](miracastreceivercon
 
 ## -remarks
 
-The app must subscribe to this event before invoking the [MiracastReceiverSession.Start](miracastreceiversession_start_1587696324) or [MiracastReceiverSession.StartAsync](miracastreceiversession_startasync_1931900819.md) method.
+The app must subscribe to this event before invoking the [MiracastReceiverSession.Start](miracastreceiversession_start_1587696324.md) or [MiracastReceiverSession.StartAsync](miracastreceiversession_startasync_1931900819.md) method.
 
 The event is not raised if the app itself requested the connection to be disconnected, for example, by invoking the Disconnect method.
 

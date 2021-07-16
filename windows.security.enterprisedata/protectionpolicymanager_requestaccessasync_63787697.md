@@ -31,4 +31,4 @@ Call this method from the main UI thread of your foreground app.
 ## -examples
 
 ## -see-also
-[RequestAccessAsync(String, String, IProtectionPolicyAuditInfo)](protectionpolicymanager_requestaccessasync_337053837.md), [RequestAccessAsync(String, String, IProtectionPolicyAuditInfo, String)](protectionpolicymanager_requestaccessasync_669466227.md)
+[RequestAccessAsync(String, String, IProtectionPolicyAuditInfo)](protectionpolicymanager_requestaccessasync_223712891.md), [RequestAccessAsync(String, String, IProtectionPolicyAuditInfo, String)](protectionpolicymanager_requestaccessasync_1051041925.md)

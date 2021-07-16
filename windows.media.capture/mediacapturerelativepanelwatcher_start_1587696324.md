@@ -5,7 +5,7 @@
 
 ## -description
 
-Starts the [MediaCaptureRelativePanelWatcher](mediacapturerelativepanelwatcher) monitoring of the relative panel location of the associated [DisplayRegion](/uwp/api/windows.ui.windowmanagement.displayregion).
+Starts the [MediaCaptureRelativePanelWatcher](mediacapturerelativepanelwatcher.md) monitoring of the relative panel location of the associated [DisplayRegion](/uwp/api/windows.ui.windowmanagement.displayregion).
 
 ## -remarks
 

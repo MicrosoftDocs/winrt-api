@@ -26,7 +26,7 @@ An instance of the [RemoteSystemConnectionRequest](remotesystemconnectionrequest
 CreateFromConnectionTokenForUser requires the RemoteSystem capability on Windows, and it requires the RemoteSystem::RequestAccessAsync function to have been called previously. Calling without both of these permissions results in an exception. 
 
 ## -see-also
-[ConnectionToken](remotesytemconnectionrequest_connectiontoken.md)
-[CreateFromConnectionToken](remotesytemconnectionrequest_createfromconnectiontoken.md)
+[ConnectionToken](remotesystemconnectionrequest_connectiontoken.md)
+[CreateFromConnectionToken](remotesystemconnectionrequest_createfromconnectiontoken_1615549595.md)
 ## -examples
 

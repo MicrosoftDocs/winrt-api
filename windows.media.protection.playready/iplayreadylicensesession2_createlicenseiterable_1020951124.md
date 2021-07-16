@@ -10,7 +10,7 @@ public PlayReadyLicenseIterable IPlayReadyLicenseSession2.CreateLicenseIterable(
 # Windows.Media.Protection.PlayReady.IPlayReadyLicenseSession2.CreateLicenseIterable
 
 ## -description
-Creates a [PlayReadyLicense](playready.md) object iterator that supports in-memory-only PlayReady licenses in addition to persisted licenses.
+Creates a [PlayReadyLicense](playreadylicense.md) object iterator that supports in-memory-only PlayReady licenses in addition to persisted licenses.
 
 ## -parameters
 
