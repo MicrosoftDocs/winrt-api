@@ -13,7 +13,7 @@ public class RadialControllerIndependentInputSource
 Enables an app to handle radial controller input on the background thread.
 
 ## -remarks
-Call [DispatcherQueueController.CreateOnDedicatedThread](..\windows.system\dispatcherqueuecontroller_createondedicatedthread_660689653.md) to create the [DispatcherQueue](..\windows.system\dispatcherqueue.md) on the background thread where the RadialControllerIndependentInputSource is instantiated. Access this [DispatcherQueue](..\windows.system\dispatcherqueue.md) using the [RadialControllerIndependentInputSource.DispatcherQueue](radialcontrollerindependentinputsource_dispatcherqueue.md) property.
+Call [DispatcherQueueController.CreateOnDedicatedThread](../windows.system/dispatcherqueuecontroller_createondedicatedthread_660689653.md) to create the [DispatcherQueue](../windows.system/dispatcherqueue.md) on the background thread where the RadialControllerIndependentInputSource is instantiated. Access this [DispatcherQueue](../windows.system/dispatcherqueue.md) using the [RadialControllerIndependentInputSource.DispatcherQueue](radialcontrollerindependentinputsource_dispatcherqueue.md) property.
 
 ### Version history
 
@@ -22,7 +22,7 @@ Call [DispatcherQueueController.CreateOnDedicatedThread](..\windows.system\dispa
 | 1803 | 17134 | DispatcherQueue |
 
 ## -examples
-Here, we create a [DispatcherQueue](..\windows.system\dispatcherqueue.md) on a dedicated background thread and then initialize a RadialControllerInpdependentInputSource object, which is created on the background thread.
+Here, we create a [DispatcherQueue](../windows.system/dispatcherqueue.md) on a dedicated background thread and then initialize a RadialControllerInpdependentInputSource object, which is created on the background thread.
 
 ```csharp
 public void CreateCoreIndependentInputSourceSample() 

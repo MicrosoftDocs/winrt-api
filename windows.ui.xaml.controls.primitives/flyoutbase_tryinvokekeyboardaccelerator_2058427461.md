@@ -16,7 +16,7 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.TryIn
 
 ## -parameters
 ### -param args
-The [ProcessKeyboardAcceleratorEventArgs](..\windows.ui.xaml.input\processkeyboardacceleratoreventargs.md).
+The [ProcessKeyboardAcceleratorEventArgs](../windows.ui.xaml.input/processkeyboardacceleratoreventargs.md).
 
 ## -remarks
 Call this method in the [OnProcessKeyboardAccelerators](flyoutbase_onprocesskeyboardaccelerators_1771064317.md) override when an accelerator is invoked and you want to influence the default accelerator handling.

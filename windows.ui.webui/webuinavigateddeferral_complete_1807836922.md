@@ -17,4 +17,4 @@ Notifies the system that the app has set up its state and UI and is ready to be 
 ## -examples
 
 ## -see-also
-[WebUINavigatedOperation.getDeferral ](activatedoperation_getdeferral.md)
+[WebUINavigatedOperation.getDeferral](webuinavigatedoperation_getdeferral_254836512.md)

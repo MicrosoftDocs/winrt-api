@@ -13,7 +13,7 @@ public ActivationKind Kind { get; }
 Gets the activation type. 
 
 ## -property-value
-The [ActivationKind.Contact](activationkind.md) enumeration value.
+The [ActivationKind.Contact](../windows.applicationmodel.activation/activationkind.md) enumeration value.
 
 ## -remarks
 

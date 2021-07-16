@@ -29,7 +29,7 @@ When the current [InkManipulationMode](inkmanipulationmode.md) is **Inking** or 
 ## -remarks
 
 ## -examples
-The following example demonstrates a handler for a [PointerMoved](..\windows.ui.xaml\uielement_pointermoved.md) event on an InkCanvas.
+The following example demonstrates a handler for a [PointerMoved](../windows.ui.xaml/uielement_pointermoved.md) event on an InkCanvas.
 
 Here, the intermediate points (`intermediatePoints`) unprocessed since the last update are processed by the [InkManager](inkmanager.md) (`inkManager`) in the ProcessPointerUpdate call.
 

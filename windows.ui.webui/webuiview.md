@@ -33,7 +33,7 @@ Any app activation with the background script as the StartPage will rely on the 
 
 ## -examples
 
-Your app can listen for the [NewWebUIViewCreated](../windows.ui.webui/webuiapplication_newwebuiviewcreated.md) event to intercept control of the navigation for a new view (exposed from [NewWebUIEventCreatedEventArgs.WebUIView](.\newwebuiviewcreatedeventargs_webuiview.md)):
+Your app can listen for the [NewWebUIViewCreated](../windows.ui.webui/webuiapplication_newwebuiviewcreated.md) event to intercept control of the navigation for a new view (exposed from [NewWebUIEventCreatedEventArgs.WebUIView](./newwebuiviewcreatedeventargs_webuiview.md)):
 
 ```javascript
 Windows.UI.WebUI.WebUIApplication.addEventListener("newwebuiviewcreated", newWebUIViewCreatedEventHandler);

@@ -30,7 +30,7 @@ The application must request a PIN from the user. The PIN will typically be disp
 The application must display the given PIN to the user and ask the user to confirm that the PIN matches the one show on the target device. With a value of **ConfirmPinMatch**, call [Accept](/uwp/api/windows.devices.enumeration.devicepairingrequestedeventargs.accept) from the event args of the [PairingRequested](deviceinformationcustompairing_pairingrequested.md) event handler if you want the pairing to complete.
 
 ### -field ProvidePasswordCredential:16
-The application must request a user name and password from the user. With a value of **ProvidePasswordCredential**, call [AcceptWithPasswordCredential](devicepairingrequestedeventargs_acceptwithpasswordcredential_1073078053.md) from the event args of the [PairingRequested](deviceinformationcustompairing_pairingrequested.md) event handler to accept the pairing. Pass in the [PasswordCredential](..\windows.security.credentials\passwordcredential.md) that encapsulates the user name and password as a parameter.
+The application must request a user name and password from the user. With a value of **ProvidePasswordCredential**, call [AcceptWithPasswordCredential](devicepairingrequestedeventargs_acceptwithpasswordcredential_1073078053.md) from the event args of the [PairingRequested](deviceinformationcustompairing_pairingrequested.md) event handler to accept the pairing. Pass in the [PasswordCredential](../windows.security.credentials/passwordcredential.md) that encapsulates the user name and password as a parameter.
 
 ## -remarks
 This value is a collection of flags. It is possible to have multiple values set for a single pairing action.

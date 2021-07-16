@@ -43,7 +43,7 @@ When using [StateTriggers](visualstate_statetriggers.md) to control visual state
 
 If there are multiple active triggers at a time that have a conflict in scoring (i.e. two active custom triggers), then the first one declared in the markup file takes precedence.
 
-Note: While [AdaptiveTrigger](adaptive_trigger.md) does derive from [StateTriggerBase](statetriggerbase.md), it can only be activated through setting [MinWindowWidth](adaptivetrigger_minwindowwidth.md) and/or [MinWindowHeight](adaptivetrigger_minwindowheight.md).
+Note: While [AdaptiveTrigger](adaptivetrigger.md) does derive from [StateTriggerBase](statetriggerbase.md), it can only be activated through setting [MinWindowWidth](adaptivetrigger_minwindowwidth.md) and/or [MinWindowHeight](adaptivetrigger_minwindowheight.md).
 
 ###  **VisualStateGroup**  API that support custom **VisualStateManager** implementation
 

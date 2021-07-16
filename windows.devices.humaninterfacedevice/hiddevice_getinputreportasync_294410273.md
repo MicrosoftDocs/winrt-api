@@ -23,7 +23,7 @@ A **HidInputReport** object.
 ## -remarks
 When this method completes, the [InputReportReceived](hiddevice_inputreportreceived.md) event is triggered.
 
-To access the content of the input report, you must set up a listener for the [InputReportReceived](hiddevice_inputreportreceived.md) event and get the [Report]([**Report**](/uwp/api/windows.devices.humaninterfacedevice.hidinputreportreceivedeventargs#Windows_Devices_HumanInterfaceDevice_HidInputReportReceivedEventArgs_Report)) property of [HidInputReportReceivedEventArgs](/uwp/api/windows.devices.humaninterfacedevice.hidinputreportreceivedeventargs) object in the event handler.
+To access the content of the input report, you must set up a listener for the [InputReportReceived](hiddevice_inputreportreceived.md) event and get the [Report](/uwp/api/windows.devices.humaninterfacedevice.hidinputreportreceivedeventargs#Windows_Devices_HumanInterfaceDevice_HidInputReportReceivedEventArgs_Report) property of [HidInputReportReceivedEventArgs](/uwp/api/windows.devices.humaninterfacedevice.hidinputreportreceivedeventargs) object in the event handler.
 
 The device must be opened with either [FileAccessMode.Read](../windows.storage/fileaccessmode.md) or [FileAccessMode.ReadWrite](../windows.storage/fileaccessmode.md).
 

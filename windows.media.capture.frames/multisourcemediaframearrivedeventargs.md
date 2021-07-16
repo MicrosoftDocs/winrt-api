@@ -10,7 +10,7 @@ public class MultiSourceMediaFrameArrivedEventArgs
 # Windows.Media.Capture.Frames.MultiSourceMediaFrameArrivedEventArgs
 
 ## -description
-Provides data for the [MultiSourceMediaFrameReader.FrameArrived](./multisourceframereader_framearrived.md) event.
+Provides data for the [MultiSourceMediaFrameReader.FrameArrived](multisourcemediaframereader_framearrived.md) event.
 
 ## -remarks
 

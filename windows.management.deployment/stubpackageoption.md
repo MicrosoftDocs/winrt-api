@@ -32,7 +32,7 @@ Use the current [PackageSubPreference](packagestubpreference.md) for the package
 
 ## -see-also
 
-[StagePackageOptions](stagepackageoptions.md),[AddPackageOptions](addpackageoptions)
+[StagePackageOptions](stagepackageoptions.md),[AddPackageOptions](addpackageoptions.md)
 
 ## -examples
 

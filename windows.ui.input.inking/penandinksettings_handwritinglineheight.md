@@ -12,7 +12,7 @@ public HandwritingLineHeight HandwritingLineHeight { get; }
 
 ## -description
 
-Gets the handwriting space available when using ink for text input in a text control (when [HandwritingView](..\windows.ui.xaml.controls\handwritingview.md) is enabled).
+Gets the handwriting space available when using ink for text input in a text control (when [HandwritingView](../windows.ui.xaml.controls/handwritingview.md) is enabled).
 
 ## -property-value
 

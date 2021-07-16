@@ -16,7 +16,7 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.OnPro
 
 ## -parameters
 ### -param args
-The [ProcessKeyboardAcceleratorEventArgs](..\windows.ui.xaml.input\processkeyboardacceleratoreventargs.md).
+The [ProcessKeyboardAcceleratorEventArgs](../windows.ui.xaml.input/processkeyboardacceleratoreventargs.md).
 
 ## -remarks
 

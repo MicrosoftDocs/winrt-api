@@ -12,7 +12,7 @@ public event TypedEventHandler MediaSourceCreated<MiracastReceiverSession, Mirac
 
 ## -description
 
-An event which is raised when the [MediaSource](..\windows.media.core\mediasource.md) object for a [MiracastReceiverConnection](miracastreceiverconnection.md) has been created.
+An event which is raised when the [MediaSource](../windows.media.core/mediasource.md) object for a [MiracastReceiverConnection](miracastreceiverconnection.md) has been created.
 
 ## -remarks
 
