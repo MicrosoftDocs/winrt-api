@@ -22,8 +22,8 @@ The print capabilities to be updated.
 
 ## -remarks
 
+The updated print capabilities are subject to the customization restrictions listed in the [Standard Options](/windows-hardware/drivers/print/standard-options) article in the printer driver documentation.
+
 ## -see-also
 
 ## -examples
-
-
