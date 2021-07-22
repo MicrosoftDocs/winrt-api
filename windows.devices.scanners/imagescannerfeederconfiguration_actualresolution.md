@@ -16,6 +16,7 @@ Gets the actual horizontal and vertical scan resolution for the scanner's feeder
 The horizontal and vertical resolution, in pixels.
 
 ## -remarks
+See **Remarks** for [ImageScannerFlatbedConfiguration.ActualResolution](imagescannerflatbedconfiguration_actualresolution.md).
 
 ## -examples
 
