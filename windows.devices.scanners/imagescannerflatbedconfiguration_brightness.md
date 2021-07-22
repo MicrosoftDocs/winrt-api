@@ -10,7 +10,7 @@ public int Brightness { get;  set; }
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.Brightness
 
 ## -description
-Gets or sets the current brightness level for capturing image data from the scanner's Flatbed. At the beginning of a new scan session, this property is set to the [DefaultBrightness](imagescannerflatbedconfiguration_defaultbrightness.md) property.
+Gets or sets the current brightness level for capturing image data from the scanner's flatbed. At the beginning of a new scan session, this property is set to the [DefaultBrightness](imagescannerflatbedconfiguration_defaultbrightness.md) property.
 
 ## -property-value
 The current brightness level.

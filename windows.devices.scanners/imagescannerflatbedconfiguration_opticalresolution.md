@@ -10,7 +10,7 @@ public Windows.Devices.Scanners.ImageScannerResolution OpticalResolution { get; 
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.OpticalResolution
 
 ## -description
-Gets the optical scan resolution of the Flatbed scanner in DPI.
+Gets the optical scan resolution of the flatbed scanner in DPI.
 
 ## -property-value
 The horizontal and vertical scan resolution in pixels.

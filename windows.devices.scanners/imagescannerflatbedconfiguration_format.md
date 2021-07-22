@@ -10,7 +10,7 @@ public Windows.Devices.Scanners.ImageScannerFormat Format { get;  set; }
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.Format
 
 ## -description
-Gets or sets the current file transfer format for image data acquisition from the scanner's Flatbed to the client app.
+Gets or sets the current file transfer format for image data acquisition from the scanner's flatbed to the client app.
 
 ## -property-value
 The file type.

@@ -10,7 +10,7 @@ public Windows.Devices.Scanners.ImageScannerResolution DesiredResolution { get; 
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.DesiredResolution
 
 ## -description
-Gets or sets the horizontal and vertical scan resolution for the scanner's Feeder that the app requests, in DPI.
+Gets or sets the horizontal and vertical scan resolution for the scanner's feeder that the app requests, in DPI.
 
 ## -property-value
 The horizontal and vertical resolution, in pixels.

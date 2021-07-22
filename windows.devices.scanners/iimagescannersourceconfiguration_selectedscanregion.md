@@ -19,7 +19,7 @@ The location and size of a rectangle.
 This table describes the property's restrictions. Default values are set at the beginning of a new scan session.
 
 <table>
-   <tr><th>Name</th><th>Default value</th><th>Valid Flatbed values</th><th>Valid Feeder values</th></tr>
+   <tr><th>Name</th><th>Default value</th><th>Valid flatbed values</th><th>Valid feeder values</th></tr>
    <tr><td /><td>0</td><td>between 0 and  - 1</td><td>between 0 and </td></tr>
    <tr><td /><td>0</td><td>between 0 and  - 1</td><td>between 0 and </td></tr>
    <tr><td /><td /><td>between  and ( – )</td><td>between  and </td></tr>

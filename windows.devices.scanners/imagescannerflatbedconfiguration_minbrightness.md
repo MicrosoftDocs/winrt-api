@@ -10,7 +10,7 @@ public int MinBrightness { get; }
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.MinBrightness
 
 ## -description
-Gets the minimum brightness level supported by the scanner's Flatbed.
+Gets the minimum brightness level supported by the scanner's flatbed.
 
 ## -property-value
 The minimum brightness level, typically -1000.

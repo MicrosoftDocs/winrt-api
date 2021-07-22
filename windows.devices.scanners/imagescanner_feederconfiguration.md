@@ -10,10 +10,10 @@ public Windows.Devices.Scanners.ImageScannerFeederConfiguration FeederConfigurat
 # Windows.Devices.Scanners.ImageScanner.FeederConfiguration
 
 ## -description
-Gets or sets the scan settings of the Feeder scan unit, like page size, orientation, and scan resolution.
+Gets or sets the scan settings of the feeder scan unit, like page size, orientation, and scan resolution.
 
 ## -property-value
-The scanner's Feeder configuration. Null if there is no Feeder.
+The scanner's feeder configuration. Null if there is no feeder.
 
 ## -remarks
 

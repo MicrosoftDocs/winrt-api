@@ -10,7 +10,7 @@ public class ImageScannerFeederConfiguration : Windows.Devices.Scanners.IImageSc
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration
 
 ## -description
-Represents the Feeder scan source of the scanner.
+Represents the feeder scan source of the scanner.
 
 ## -remarks
 This runtime class implements the [IImageScannerFormatConfiguration](iimagescannerformatconfiguration.md), and [IImageScannerSourceConfiguration](iimagescannersourceconfiguration.md) interfaces.

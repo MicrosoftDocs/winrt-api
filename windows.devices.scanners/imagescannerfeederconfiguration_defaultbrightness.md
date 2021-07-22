@@ -10,7 +10,7 @@ public int DefaultBrightness { get; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.DefaultBrightness
 
 ## -description
-Gets the default brightness level for the scanner's Feeder.
+Gets the default brightness level for the scanner's feeder.
 
 ## -property-value
 The default brightness level for the scanner.

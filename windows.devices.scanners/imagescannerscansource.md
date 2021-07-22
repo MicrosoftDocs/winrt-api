@@ -17,10 +17,10 @@ The types of scan source for the scanning device.
 The default source.
 
 ### -field Flatbed:1
-A Flatbed scan source.
+A flatbed scan source.
 
 ### -field Feeder:2
-A Feeder scan source.
+A feeder scan source.
 
 ### -field AutoConfigured:3
 The scan source is automatically configured.

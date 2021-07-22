@@ -10,10 +10,10 @@ public bool CanAutoDetectPageSize { get; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.CanAutoDetectPageSize
 
 ## -description
-Returns True if the device can automatically detect at scan time the size of the document pages scanned through the Feeder; otherwise returns False.
+Returns True if the device can automatically detect at scan time the size of the document pages scanned through the feeder; otherwise returns False.
 
 ## -property-value
-True if the device can automatically detect at scan time the size of the document pages scanned through the Feeder; otherwise False.
+True if the device can automatically detect at scan time the size of the document pages scanned through the feeder; otherwise False.
 
 ## -remarks
 

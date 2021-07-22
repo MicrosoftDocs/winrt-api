@@ -10,7 +10,7 @@ public int MaxContrast { get; }
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.MaxContrast
 
 ## -description
-Gets the maximum contrast level supported by the scanner's Flatbed.
+Gets the maximum contrast level supported by the scanner's flatbed.
 
 ## -property-value
 The maximum contrast level, typically 1000.

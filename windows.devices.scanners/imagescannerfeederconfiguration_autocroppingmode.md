@@ -16,7 +16,7 @@ Gets or sets the automatic crop mode.
 The automatic crop mode for the scan.
 
 ## -remarks
-When automatic detection is enabled on the scanner's Feeder, the automatic crop mode indicates whether to scan one region or multiple regions. When a new scan session starts, the default value is **Disabled**.
+When automatic detection is enabled on the scanner's feeder, the automatic crop mode indicates whether to scan one region or multiple regions. When a new scan session starts, the default value is **Disabled**.
 
 ## -examples
 

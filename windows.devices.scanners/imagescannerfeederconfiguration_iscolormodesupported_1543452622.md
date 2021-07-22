@@ -10,7 +10,7 @@ public bool IsColorModeSupported(Windows.Devices.Scanners.ImageScannerColorMode 
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.IsColorModeSupported
 
 ## -description
-Returns whether the scanner's Feeder can scan and transfer images in the specified color mode.
+Returns whether the scanner's feeder can scan and transfer images in the specified color mode.
 
 ## -parameters
 ### -param value

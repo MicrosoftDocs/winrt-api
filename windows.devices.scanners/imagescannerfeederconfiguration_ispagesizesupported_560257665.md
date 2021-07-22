@@ -10,7 +10,7 @@ public bool IsPageSizeSupported(Windows.Graphics.Printing.PrintMediaSize pageSiz
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.IsPageSizeSupported
 
 ## -description
-Returns whether the Feeder can scan documents in the specified page size and orientation.
+Returns whether the feeder can scan documents in the specified page size and orientation.
 
 ## -parameters
 ### -param pageSize

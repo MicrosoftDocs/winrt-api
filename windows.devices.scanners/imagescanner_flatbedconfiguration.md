@@ -10,10 +10,10 @@ public Windows.Devices.Scanners.ImageScannerFlatbedConfiguration FlatbedConfigur
 # Windows.Devices.Scanners.ImageScanner.FlatbedConfiguration
 
 ## -description
-Gets and sets the scan settings of the Flatbed scan unit, like scan resolution and color mode.
+Gets and sets the scan settings of the flatbed scan unit, like scan resolution and color mode.
 
 ## -property-value
-The scan configuration of the scanner's Flatbed. Null if there is no Flatbed.
+The scan configuration of the scanner's flatbed. Null if there is no flatbed.
 
 ## -remarks
 

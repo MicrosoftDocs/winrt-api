@@ -10,7 +10,7 @@ public class ImageScannerFlatbedConfiguration : Windows.Devices.Scanners.IImageS
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration
 
 ## -description
-Represents the Flatbed scan source of the scanner.
+Represents the flatbed scan source of the scanner.
 
 ## -remarks
 This runtime class implements the [IImageScannerSourceConfiguration](iimagescannersourceconfiguration.md) interface and the [IImageScannerFormatConfiguration](iimagescannerformatconfiguration.md) interface.

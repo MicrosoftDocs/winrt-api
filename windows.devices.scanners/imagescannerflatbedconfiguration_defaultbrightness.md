@@ -10,7 +10,7 @@ public int DefaultBrightness { get; }
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.DefaultBrightness
 
 ## -description
-Gets the default brightness level for the scanner's Flatbed.
+Gets the default brightness level for the scanner's flatbed.
 
 ## -property-value
 The default brightness level for the scanner.

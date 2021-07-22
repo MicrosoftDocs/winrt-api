@@ -10,7 +10,7 @@ public Windows.Foundation.Size MinScanArea { get; }
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.MinScanArea
 
 ## -description
-Gets the minimum scan area in inches. The minimum scan area is the smallest size a document can have in order for a Flatbed to scan it.
+Gets the minimum scan area in inches. The minimum scan area is the smallest size a document can have in order for a flatbed to scan it.
 
 ## -property-value
 The width and height of the area.

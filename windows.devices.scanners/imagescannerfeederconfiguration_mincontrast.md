@@ -10,7 +10,7 @@ public int MinContrast { get; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.MinContrast
 
 ## -description
-Gets the minimum contrast level supported by the scanner's Feeder.
+Gets the minimum contrast level supported by the scanner's feeder.
 
 ## -property-value
 The minimum contrast level, typically -1000.

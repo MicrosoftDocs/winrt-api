@@ -10,7 +10,7 @@ public int DefaultContrast { get; }
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.DefaultContrast
 
 ## -description
-Gets the default contrast level for the scanner's Flatbed.
+Gets the default contrast level for the scanner's flatbed.
 
 ## -property-value
 The default contrast level.
