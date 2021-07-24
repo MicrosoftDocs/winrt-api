@@ -77,4 +77,4 @@ This XAML example illustrates how a layout container such as [Grid](../windows.u
 
 
 ## -see-also
-[How to adjust layout and fonts for various languages, and support RTL layouts](/previous-versions/windows/apps/hh967760(v=win.10)), [Image](../windows.ui.xaml.controls/image.md)
+[Adjust layout and fonts, and support RTL](/windows/apps/design/globalizing/adjust-layout-and-fonts--and-support-rtl), [Image](../windows.ui.xaml.controls/image.md)
