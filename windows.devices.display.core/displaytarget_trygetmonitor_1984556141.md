@@ -11,7 +11,7 @@ public DisplayMonitor DisplayTarget.TryGetMonitor()
 # Windows.Devices.Display.Core.DisplayTarget.TryGetMonitor
 
 ## -description
-Tries to retrieve an object describing the monitor currently connected to this [DisplayTarget](displaytarget.md). This method can fail or return a different monitor than the properties on the **DisplayTarget** describe if monitors have been plugged or unplugged from the **DisplayTarget** since the **DisplayTarget** object was created. **IsStale** returns true if the monitor *may* have changed since the **DisplayTarget** was created.
+Tries to retrieve an object describing the monitor currently connected to this [DisplayTarget](displaytarget.md). This method can fail or return a different monitor than the properties on the **DisplayTarget** describe if monitors have been plugged or unplugged from the **DisplayTarget** since the **DisplayTarget** object was created. **IsStale** returns true if the monitor *might* have changed since the **DisplayTarget** was created.
 
 ## -returns
 
@@ -19,7 +19,7 @@ A [DisplayMonitor](../windows.devices.display/displaymonitor.md) representing th
 
 ## -remarks
 
-Note that since this method is named with **Try**, it returns **null** instead of throwing an exception or returning a failure HRESULT.
+Since this method has **Try** in its name, it returns **null** instead of throwing an exception or returning a failure HRESULT.
 
 ## -see-also
 
