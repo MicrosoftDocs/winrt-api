@@ -15,7 +15,7 @@ Animations in the application that occur in response to the showing or hiding of
 
 ## -remarks
 
-Primary view refers to the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1), while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
+Primary view refers to either of the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1) or [CoreInputViewKind.Handwriting](coreinputviewkind.md#-field-handwriting2) views, while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
 
 The application UI reflows based on the [CoreInputViewOcclusion.OccludingRect](coreinputviewocclusion_occludingrect.md), which is an empty rect when hiding.
 

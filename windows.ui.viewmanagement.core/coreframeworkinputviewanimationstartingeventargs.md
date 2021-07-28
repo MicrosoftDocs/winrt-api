@@ -22,7 +22,7 @@ Used by frameworks (such as XAML) or custom text controls only.
 
 Occluding events can be handled by your app first. If your app doesn't handle the events, they bubble up to any framework that needs to handle the events.
 
-Primary view refers to the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1), while CoreInputView can be any of the types from [CoreInputViewKind](coreinputviewkind.md).
+Primary view refers to either of the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1) or [CoreInputViewKind.Handwriting](coreinputviewkind.md#-field-handwriting2) views, while CoreInputView can be any of the types from [CoreInputViewKind](coreinputviewkind.md).
 
 ## -see-also
 

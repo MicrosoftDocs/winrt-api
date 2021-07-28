@@ -52,7 +52,7 @@ Show the clipboard history pane view.
 
 ## -remarks
 
-Primary view refers to the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1), while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
+Primary view refers to either of the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1) or [CoreInputViewKind.Handwriting](coreinputviewkind.md#-field-handwriting2) views, while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
 
 Pass this parameter in the [TryShow(CoreInputViewKind)](coreinputview_tryshow_154132369.md) method to specify the preferred input view.
 
