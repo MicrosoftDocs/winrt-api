@@ -20,7 +20,17 @@ Represents an immutable view into a vector.
 ## -remarks
 For read-write collections, the IVectorView&lt;T&gt; interface is still relevant, because the [IVector.GetView](ivector_1_getview_37498667.md) method returns an IVectorView&lt;T&gt; instance.
 
-When programming with .NET, this interface is hidden and developers should use the  interface if they want to implement a read-only vector/list type. In any case where a Windows Runtime type has implemented IVectorView&lt;T&gt;, .NET code can use the APIs of  instead. This includes all the existing Windows Runtime API and also scenarios such as using the APIs of Windows Runtime components originally implemented in Visual C++ component extensions (C++/CX) from a C# or Visual Basic app.
+If the underlying collection changes, methods and properties of the IVectorView&lt;T&gt; interface may throw an exception.
+
+> [**C++/WinRT**](/windows/uwp/cpp-and-winrt-apis/)
+> If the underlying collection has changed,
+> methods and properties may throw a `hresult_changed_state` exception.
+
+> [**C++/CX**](/cpp/cppcx/)
+> If the underlying collection has changed,
+> methods and properties may throw a `ChangedStateException` exception.
+
+When programming with .NET, this interface is hidden and developers should use the IReadOnlyList&lt;T&gt; interface if they want to implement a read-only vector/list type. In any case where a Windows Runtime type has implemented IVectorView&lt;T&gt;, .NET code can use the APIs of IReadOnlyList&lt;T&gt; instead. This includes all the existing Windows Runtime API and also scenarios such as using the APIs of Windows Runtime components originally implemented in Visual C++ component extensions (C++/CX) from a C# or Visual Basic app.
 
 ### Interface inheritance
 

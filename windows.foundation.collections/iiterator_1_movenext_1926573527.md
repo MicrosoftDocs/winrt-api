@@ -17,6 +17,38 @@ True if the iterator refers to a valid item in the collection; false if the iter
 
 ## -remarks
 
+If the iterator is already past the end of the collection,
+the iterator may throw an exception.
+
+> **.NET Framework**
+> If the iterator is already past the end of the collection,
+> the iterator may throw a `COMException` exception
+> with an HResult of `0x8000000B` (`E_BOUNDS`).
+
+> [**C++/WinRT**](/windows/uwp/cpp-and-winrt-apis/)
+> If the iterator is already past the end of the collection,
+> the iterator may throw a `hresult_out_of_bounds` exception.
+
+> [**C++/CX**](/cpp/cppcx/)
+> If the iterator is already past the end of the collection,
+> the iterator may throw a `OutOfBoundsException` exception.
+
+If the underlying collection has changed,
+the iterator may throw an exception.
+
+> **.NET Framework**
+> If the underlying collection has changed,
+> the iterator may throw a `COMException` exception
+> with an HResult of `0x8000000C` (`E_CHANGED_STATE`).
+
+> [**C++/WinRT**](/windows/uwp/cpp-and-winrt-apis/)
+> If the underlying collection has changed,
+> the iterator may throw a `hresult_changed_state` exception.
+
+> [**C++/CX**](/cpp/cppcx/)
+> If the underlying collection has changed,
+> the iterator may throw a `ChangedStateException` exception.
+
 ## -examples
 
 ## -see-also
