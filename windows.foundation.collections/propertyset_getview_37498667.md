@@ -17,6 +17,9 @@ The immutable view.
 
 ## -remarks
 
+If changes are made to the map, such as adding, modifying, or deleting elements,
+the map view is permitted to raise an exception for all future operations.
+
 ## -examples
 
 ## -see-also
