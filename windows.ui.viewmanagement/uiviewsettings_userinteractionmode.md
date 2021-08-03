@@ -18,9 +18,14 @@ A value that indicates the input type (mouse or touch) the device UI is optimize
 ## -remarks
 This property can be used to optimize your app based on input type.
 
-Some devices (PC, laptop, tablet) support both a Desktop (mouse-optimized) and a Tablet (touch-optimized) mode.
+### Tablet mode (Windows 10 only)
 
-Users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
+> [!NOTE]
+> In Windows 11, [Tablet mode](/windows-hardware/design/device-experiences/continuum) is removed and new functionality is included for keyboard attach and detach postures.
+
+Some devices (PC, laptop, tablet) support both a Desktop (mouse-optimized) and a [Tablet](/windows-hardware/design/device-experiences/continuum) (touch-optimized) mode.
+
+On Windows 10 only, users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
 
 In Tablet mode, app views are auto-maximized and the title bar is hidden. The taskbar remains visible. The system raises the [CoreWindow.SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event when the value of this property changes. This is exposed to XAML apps as the [Window.SizeChanged](../windows.ui.xaml/window_sizechanged.md) event and to HTML apps as the [window.resize](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741886(v=vs.85)) event.
 

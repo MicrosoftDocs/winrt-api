@@ -12,10 +12,14 @@ public Windows.UI.ViewManagement.UIViewSettings GetForCurrentView()
 ## -description
 Gets the UI states and behaviors associated with the device mode (Tablet or Desktop) for the active app.
 
-> [!NOTE]
-> Some devices (PC, laptop, tablet) support both Desktop and Tablet mode.
+### Tablet mode (Windows 10 only)
 
-Users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
+> [!NOTE]
+> In Windows 11, [Tablet mode](/windows-hardware/design/device-experiences/continuum) is removed and new functionality is included for keyboard attach and detach postures.
+
+Some devices (PC, laptop, tablet) support both a Desktop and [Tablet](/windows-hardware/design/device-experiences/continuum) mode.
+
+On Windows 10 only, users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
 
 ## -returns
 A [UIViewSettings](uiviewsettings.md) instance that can be used to get and set view settings properties.

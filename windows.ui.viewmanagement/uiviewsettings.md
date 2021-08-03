@@ -15,11 +15,14 @@ Represents UI states and behaviors associated with the device mode (Tablet or De
 ## -remarks
 To get an instance of this class, call [GetForCurrentView](uiviewsettings_getforcurrentview_1363600702.md).
 
+### Tablet mode (Windows 10 only)
 
 > [!NOTE]
-> Some devices (PC, laptop, tablet) support both Desktop and Tablet mode.
+> In Windows 11, [Tablet mode](/windows-hardware/design/device-experiences/continuum) is removed and new functionality is included for keyboard attach and detach postures.
 
-Users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
+Some devices (PC, laptop, tablet) support both a Desktop and [Tablet](/windows-hardware/design/device-experiences/continuum) mode.
+
+On Windows 10 only, users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
 
 ## -examples
 
