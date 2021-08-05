@@ -23,22 +23,22 @@ The available members of [System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.
 
 Here is a breakdown of the parts of an example Uniform Resource Identifier (URI):
 
-<cmd_line>*scheme*://*username*:*password* @*host*:*port*/*path*.*extension* ?*query* #*fragment*</cmd_line>
+*scheme*://*username*:*password*@*host*:*port*/*path*.*extension*?*query*#*fragment*
 
 For example:
 
-<cmd_line>http://msdn.microsoft.com/library/windows/apps/windows.foundation.uri.aspx?cs-save-lang=1&amp;cs-lang=cpp#code-snippet-1</cmd_line>
+`http://msdn.microsoft.com/library/windows/apps/windows.foundation.uri.aspx?cs-save-lang=1&amp;cs-lang=cpp#code-snippet-1`
 
 In this example:
 
-+ *scheme* is <cmd_line>http</cmd_line>
-+ *host* is <cmd_line>msdn.microsoft.com</cmd_line>
-+ *domain* is <cmd_line>microsoft.com</cmd_line> (a subset of *host*)
-+ *extension* is <cmd_line>aspx</cmd_line>
-+ *query* is <cmd_line>cs-save-lang=1&amp;cs-lang=cpp</cmd_line>
-+ *fragment* is <cmd_line>code-snippet-1</cmd_line>
++ *scheme* is `http`
++ *host* is `msdn.microsoft.com`
++ *domain* is `microsoft.com` (a subset of *host*)
++ *extension* is `aspx`
++ *query* is `cs-save-lang=1&amp;cs-lang=cpp`
++ *fragment* is `code-snippet-1`
 > [!NOTE]
->  *username*:*password***@** preceding the *host* are mainly relevant for File Transfer Protocol (FTP)  Uniform Resource Identifier (URI). File Transfer Protocol (FTP) URIs have limited support in Windows Runtime; see "Transferring data in the background" ([HTML](/previous-versions/windows/apps/hh452979(v=win.10)) or [XAML](/previous-versions/windows/apps/hh452975(v=win.10))).
+>  *username*:*password*@ preceding the *host* are mainly relevant for File Transfer Protocol (FTP)  Uniform Resource Identifier (URI). File Transfer Protocol (FTP) URIs have limited support in Windows Runtime; see "Transferring data in the background" ([HTML](/previous-versions/windows/apps/hh452979(v=win.10)) or [XAML](/previous-versions/windows/apps/hh452975(v=win.10))).
 
 > [!IMPORTANT]
 > Not all possible schemes are usable by a Windows Runtime app. Notably, the file: scheme is blocked. It's possible to create a Uri object that uses schemes that a Windows Runtime app won't support, and you're blocked when you try to apply that Uri as an input value for an API call, not when creating the object.
