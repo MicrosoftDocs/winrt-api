@@ -16,21 +16,20 @@ Represents a dialog for showing messages to the user.
 ## -remarks
 
 > [!IMPORTANT]
-> You should use MessageDialog only when you are upgrading a Universal Windows 8 app that uses MessageDialog, and need to minimize changes. For new apps in Windows 10, we recommend using the [ContentDialog](./../windows.ui.xaml.controls/contentdialog.md) control instead.
+> You should use MessageDialog only when you are upgrading a Universal Windows 8 app that uses MessageDialog, and need to minimize changes. For new apps in Windows 10 and later, we recommend using the [ContentDialog](./../windows.ui.xaml.controls/contentdialog.md) control instead.
 
 <!-- confirmed -->
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
 
-The dialog has a command bar that can support up to 3 commands in desktop apps, or 2 commands in mobile apps. If you don't specify any commands, then a default command is added to close the dialog.
+The dialog has a command bar that can support up to 3 commands in desktop apps, or 2 commands in mobile apps. If you don't specify any commands, then a default command is added to close the dialog. The dialog dims the screen behind it and blocks touch events from passing to the app's canvas until the user responds.
 
-The dialog dims the screen behind it and blocks touch events from passing to the app's canvas until the user responds.
-
-Message dialogs should be used sparingly, and only for critical messages or simple questions that must block the user's flow.
-
-Here's an example of a dialog created by the code in the Examples section.
+Message dialogs should be used sparingly, and only for critical messages or simple questions that must block the user's flow. Here's an example of a dialog created by the code in the Examples section.
 
 <img src="images/MessageDialogWithTwoCommands.png" alt="Message dialog with two commands" />
+
+> [!NOTE]
+> To use an instance of this class in a desktop app (.NET or native C++), you must cast the instance to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface and pass the owner window for the operation to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more information, see [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow).
 
 ## -examples
 
@@ -224,4 +223,4 @@ End Class
 
 ## -see-also
 
-[Message dialog sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Message%20dialog%20sample), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570)
+[Message dialog sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Message%20dialog%20sample), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570), [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow)
