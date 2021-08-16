@@ -35,7 +35,7 @@ To get a StoreContext object, use one of these static methods:
   ```
 
 > [!NOTE]
-> In a Windows desktop application that uses the [Desktop Bridge](https://developer.microsoft.com/windows/bridges/desktop), you must add some additional code to configure the StoreContext object before your app can use this object. For more information, see [Using the StoreContext class in a desktop application that uses the Desktop Bridge](/windows/uwp/monetize/in-app-purchases-and-trials).
+> To use an instance of this class in a desktop app (.NET or native C++), you must cast the instance to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface and pass the owner window for the operation to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more information, see [Using the StoreContext class in a desktop app](/windows/uwp/monetize/in-app-purchases-and-trials#desktop) and [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow).
 
 After you have a StoreContext object, you can start calling methods to purchase an app or add-on for the current user and other tasks. For more information, see the following articles:
 + [In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials)
@@ -72,4 +72,5 @@ You can also use a StoreContext object to download and install package updates f
 ## -examples
 
 ## -see-also
-[In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials), [Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store)
+[In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials), [Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store), [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow)
+
