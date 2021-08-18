@@ -20,11 +20,11 @@ The name of the new file to create in the current folder.
 When this method completes, it returns a [StorageFile](storagefile.md) that represents the new file.
 
 ## -exceptions
-### System.IO.FileNotFoundException
+### T:System.IO.FileNotFoundException
 
 The file name contains invalid characters, or the format of the filename is incorrect. Check the value of *desiredName*.
 
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to create a file in the current folder.
 

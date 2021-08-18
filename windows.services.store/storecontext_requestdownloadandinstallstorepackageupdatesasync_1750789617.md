@@ -23,7 +23,7 @@ The set of [StorePackageUpdate](storepackageupdate.md) objects that represent th
 An object that the caller can observe to track progress and completion for the operation. On successful completion, the result is a [StorePackageUpdateResult](storepackageupdateresult.md) object that provides info about the package updates.
 
 ## -exceptions
-### System.Runtime.InteropServices.COMException
+### T:System.Runtime.InteropServices.COMException
 
 If the **ErrorCode** property of the exception has the value 0x80070578 (ERROR_INVALID_WINDOW_HANDLE), this indicates that the method was not called on the UI thread. If you are calling this method in a desktop application that uses the Desktop Bridge, this can also indicate that you did not configure the [StoreContext](storecontext.md) object to specify which application window is the owner window for modal dialogs shown by this method. For more information, see [this article](/windows/uwp/monetize/in-app-purchases-and-trials#desktop).
 

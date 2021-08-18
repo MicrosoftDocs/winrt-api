@@ -20,7 +20,7 @@ One of the enumeration values that specifies how to sort the files and determine
 A query result object. Call the [GetFilesAsync](../windows.storage.search/storagefilequeryresult_getfilesasync_1261374131.md) method of the query result to get the flat list of files, sorted as specified by *query*. This method returns a list of type **IReadOnlyList**&lt;[StorageFile](storagefile.md)&gt;. Each file is represented by an item of type [StorageFile](storagefile.md).
 
 ## -exceptions
-### System.ArgumentException
+### T:System.ArgumentException
 
 You specified a value other than **DefaultQuery** from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration for a folder that's not a library folder. Check the value of *query*.
 

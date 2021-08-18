@@ -20,7 +20,7 @@ The destination folder where the copy of the file is created.
 When this method completes, it returns a [StorageFile](storagefile.md) that represents the copy of the file created in the *destinationFolder*.
 
 ## -exceptions
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to copy a file into the destination folder.
 

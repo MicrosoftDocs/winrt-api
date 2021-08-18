@@ -20,7 +20,7 @@ One of the enumeration values that specifies whether to delete the folder perman
 No object or value is returned by this method when it completes.
 
 ## -exceptions
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to delete the specified folder.
 
