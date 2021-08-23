@@ -24,6 +24,8 @@ A new media clip object containing the color-based video clip.
 
 ## -remarks
 
+Note that the created clip does not use the alpha component of the specified color.
+
 ## -examples
 
 ## -see-also
