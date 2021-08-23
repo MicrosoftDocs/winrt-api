@@ -23,7 +23,7 @@ Releases system resources that are exposed by a Windows Runtime object.
 > This interface appears as [Platform::IDisposable](/cpp/cppcx/platform-idisposable-interface).
 
 ## -remarks
-Implementation / caller notes that follow are mainly relevant for WRL.
+Implementation/caller notes that follow are mainly relevant for WRL.
 
 ### Notes to implementers
 
@@ -39,7 +39,9 @@ After Close returns, the object is still in memory but without the system resour
 
 If you call Close multiple times, there is no effect; the method returns **S_OK**.
 
-Close methods aren't callable through Visual C++ component extensions (C++/CX) on Windows Runtime class instances where the class implemented [IClosable](iclosable.md). Instead, Visual C++ component extensions (C++/CX) code for runtime classes should call the destructor or set the last reference to **null**.
+Close methods aren't callable through C++/CX on Windows Runtime class instances where the class implemented [IClosable](iclosable.md). Instead, C++/CX code for runtime classes should call the destructor or set the last reference to **null**.
+
+In C#, this method is exposed as [Dispose](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable.dispose?view=dotnet-uwp-10.0). You can either call Dispose directly or use a [using statement](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-statement).
 
 ## -examples
 
