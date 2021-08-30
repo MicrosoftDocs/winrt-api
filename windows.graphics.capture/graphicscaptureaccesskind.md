@@ -22,7 +22,7 @@ Access for borderless capture.
 
 ### -field Programmatic: 1
 
-Access for programattic capture.
+Access for programmatic capture.
 
 ## -remarks
 
