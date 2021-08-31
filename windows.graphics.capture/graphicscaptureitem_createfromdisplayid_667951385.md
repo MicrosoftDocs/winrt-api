@@ -26,6 +26,8 @@ A **GraphicsCaptureItem** that represents the given display.
 
 ## -remarks
 
+
+
 ## -see-also
 
 [Windows.Graphics.Capture namespace](windows_graphics_capture.md),

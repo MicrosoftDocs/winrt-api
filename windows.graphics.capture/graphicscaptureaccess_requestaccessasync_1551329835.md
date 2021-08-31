@@ -26,6 +26,8 @@ An asynchronous operation that returns an [AppCapabilityAccessStatus](/uwp/api/w
 
 ## -remarks
 
+To call **RequestAccessAsync** with the value **GraphicsCaptureAccessKind.Borderless**, you must declare the **graphicsCaptureWithoutBorder** capability in your app's package manifest. For more information, see [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
+
 ## -see-also
 
 ## -examples

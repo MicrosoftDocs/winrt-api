@@ -26,6 +26,8 @@ A **GraphicsCaptureItem** that represents the given window.
 
 ## -remarks
 
+To use this API, you must declare the **graphicsCaptureProgrammatic** capability in your app's package manifest. For more information, see [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
+
 ## -see-also
 
 [Windows.Graphics.Capture namespace](windows_graphics_capture.md),
