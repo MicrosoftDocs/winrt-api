@@ -22,6 +22,8 @@ For a detailed walkthrough of using Composition ExpressionAnimation, check out t
 
 Use the [CompostionObject.StartAnimation](compositionobject_startanimation_709050842.md) and [CompostionObject.StopAnimation](compositionobject_stopanimation_1075337060.md) methods to start and stop the animation.
 
+For a list of animatable properties, see the remarks on [CompostionObject.StartAnimation](compositionobject_startanimation_709050842.md).
+
 ### So why are Expression Animations useful?
 
 The real power of Expression Animations comes from their ability to create a mathematical relationship with references to properties on other objects. This means you can have an equation referencing property values on other Composition objects, local variables, or even shared values in Composition Property Sets. As these references change and update over time, your expression will as well. This opens up bigger possibilities beyond traditional KeyFrame Animations where values must be discrete and pre-defined – ExpressionAnimations can make more dynamic animation experiences.
