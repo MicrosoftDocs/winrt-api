@@ -22,6 +22,8 @@ Use the [CompostionObject.StartAnimation](compositionobject_startanimation_70905
 
 Value parameters (as opposed to reference parameters which are set using [SetReferenceParameter](compositionanimation_setreferenceparameter_486390519.md)) are copied and "embedded" into an expression at the time [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) is called. Changing the value of the variable after [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) is called will not affect the value of the [ExpressionAnimation](expressionanimation.md). See the remarks section of [ExpressionAnimation](expressionanimation.md) for additional information.
 
+For a list of animatable properties, see the remarks on [CompostionObject.StartAnimation](compositionobject_startanimation_709050842.md).
+
 ### Version history
 
 | Windows version | SDK version | Value added |
