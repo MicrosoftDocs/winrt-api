@@ -12,7 +12,6 @@ public class FlipView : Windows.UI.Xaml.Controls.Primitives.Selector, Windows.UI
 ## -description
 Represents an items control that displays one item at a time, and enables "flip" behavior for traversing its collection of items.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.FlipView](/windows/winui/api/microsoft.ui.xaml.controls.flipview).
 
 ## -xaml-syntax
 ```xaml

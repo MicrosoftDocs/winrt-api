@@ -12,7 +12,6 @@ public class HyperlinkButton : Windows.UI.Xaml.Controls.Primitives.ButtonBase, W
 ## -description
 Represents a button control that functions as a hyperlink.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.HyperlinkButton](/windows/winui/api/microsoft.ui.xaml.controls.hyperlinkbutton).
 
 ## -xaml-syntax
 ```xaml

@@ -14,7 +14,6 @@ public class XamlUICommand : DependencyObject, DependencyObject, ICommand
 
 Provides a base class for defining the command behavior of an interactive UI element that performs an action when invoked (such as sending an email, deleting an item, or submitting a form).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.XamlUICommand](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand).
 
 ## -remarks
 

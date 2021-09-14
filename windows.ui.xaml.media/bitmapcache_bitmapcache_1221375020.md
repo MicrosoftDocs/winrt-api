@@ -12,7 +12,6 @@ public BitmapCache()
 ## -description
 Initializes a new instance of the [BitmapCache](bitmapcache.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.BitmapCache.BitmapCache](/windows/winui/api/microsoft.ui.xaml.media.bitmapcache.#ctor).
 
 ## -remarks
 

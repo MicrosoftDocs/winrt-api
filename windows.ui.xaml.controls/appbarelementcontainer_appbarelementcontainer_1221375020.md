@@ -14,7 +14,6 @@ public AppBarElementContainer.AppBarElementContainer()
 
 Initializes a new instance of the [AppBarElementContainer](appbarelementcontainer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.AppBarElementContainer.AppBarElementContainer](/windows/winui/api/microsoft.ui.xaml.controls.appbarelementcontainer.#ctor).
 
 ## -remarks
 

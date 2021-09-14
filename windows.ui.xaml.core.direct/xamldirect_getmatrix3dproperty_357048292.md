@@ -13,7 +13,6 @@ public Matrix3D XamlDirect.GetMatrix3DProperty(IXamlDirectObject xamlDirectObjec
 ## -description
 Gets the value of a [Matrix3D](/uwp/api/windows.ui.xaml.media.media3d.matrix3d) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetMatrix3DProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getmatrix3dproperty).
 
 ## -parameters
 ### -param xamlDirectObject

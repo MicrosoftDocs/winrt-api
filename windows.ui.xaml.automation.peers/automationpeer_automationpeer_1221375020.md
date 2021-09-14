@@ -12,7 +12,6 @@ protected AutomationPeer()
 ## -description
 Provides base class initialization behavior for [AutomationPeer](automationpeer.md) derived classes.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.AutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.#ctor).
 
 ## -remarks
 

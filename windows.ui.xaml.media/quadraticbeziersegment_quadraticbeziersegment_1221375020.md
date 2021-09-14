@@ -12,7 +12,6 @@ public QuadraticBezierSegment()
 ## -description
 Initializes a new instance of the [QuadraticBezierSegment](quadraticbeziersegment.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.QuadraticBezierSegment.QuadraticBezierSegment](/windows/winui/api/microsoft.ui.xaml.media.quadraticbeziersegment.#ctor).
 
 ## -remarks
 

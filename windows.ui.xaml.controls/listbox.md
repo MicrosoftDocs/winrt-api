@@ -12,7 +12,6 @@ public class ListBox : Windows.UI.Xaml.Controls.Primitives.Selector, Windows.UI.
 ## -description
 Presents a list of items the user can select from.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ListBox](/windows/winui/api/microsoft.ui.xaml.controls.listbox).
 
 ## -xaml-syntax
 ```xaml

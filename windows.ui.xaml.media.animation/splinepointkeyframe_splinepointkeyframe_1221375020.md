@@ -12,7 +12,6 @@ public SplinePointKeyFrame()
 ## -description
 Initializes a new instance of the [SplinePointKeyFrame](splinepointkeyframe.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.SplinePointKeyFrame.SplinePointKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.splinepointkeyframe.#ctor).
 
 ## -remarks
 

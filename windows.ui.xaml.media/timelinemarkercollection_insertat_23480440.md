@@ -12,7 +12,6 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.Media.TimelineMarker v
 ## -description
 Inserts the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TimelineMarkerCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkercollection.insertat).
 
 ## -parameters
 ### -param index

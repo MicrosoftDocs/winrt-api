@@ -12,7 +12,6 @@ public bool IsPlaybackRateEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether a user can adjust the playback rate of the media.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsPlaybackRateEnabled](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isplaybackrateenabled).
 
 ## -xaml-syntax
 ```xaml

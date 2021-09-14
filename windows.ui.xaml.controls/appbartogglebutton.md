@@ -13,7 +13,6 @@ public class AppBarToggleButton : Windows.UI.Xaml.Controls.Primitives.ToggleButt
 
 Represents a button control that can switch states and be displayed in an [AppBar](appbar.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.AppBarToggleButton](/windows/winui/api/microsoft.ui.xaml.controls.appbartogglebutton).
 
 ## -xaml-syntax
 

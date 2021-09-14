@@ -12,7 +12,6 @@ public DragStartedEventArgs(System.Double horizontalOffset, System.Double vertic
 ## -description
 Initializes a new instance of the [DragStartedEventArgs](dragstartedeventargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Primitives.DragStartedEventArgs.DragStartedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.primitives.dragstartedeventargs.#ctor).
 
 ## -parameters
 ### -param horizontalOffset

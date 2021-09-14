@@ -12,7 +12,6 @@ public FlipViewItemAutomationPeer(Windows.UI.Xaml.Controls.FlipViewItem owner)
 ## -description
 Initializes a new instance of the [FlipViewItemAutomationPeer](flipviewitemautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.FlipViewItemAutomationPeer.FlipViewItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.flipviewitemautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

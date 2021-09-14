@@ -13,7 +13,6 @@ public class MediaTransportControls : Windows.UI.Xaml.Controls.Control, Windows.
 
 Represents the playback controls for a media player element.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MediaTransportControls](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols).
 
 ## -xaml-syntax
 

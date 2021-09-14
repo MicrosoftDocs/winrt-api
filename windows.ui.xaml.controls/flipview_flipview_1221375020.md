@@ -12,7 +12,6 @@ public FlipView()
 ## -description
 Initializes a new instance of the [FlipView](flipview.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.FlipView.FlipView](/windows/winui/api/microsoft.ui.xaml.controls.flipview.#ctor).
 
 ## -remarks
 

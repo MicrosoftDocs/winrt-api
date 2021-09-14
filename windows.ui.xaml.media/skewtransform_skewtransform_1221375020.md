@@ -12,7 +12,6 @@ public SkewTransform()
 ## -description
 Initializes a new instance of the [SkewTransform](skewtransform.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.SkewTransform.SkewTransform](/windows/winui/api/microsoft.ui.xaml.media.skewtransform.#ctor).
 
 ## -remarks
 

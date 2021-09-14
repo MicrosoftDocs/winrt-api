@@ -12,7 +12,6 @@ public Windows.UI.Xaml.DependencyProperty IsStaggeringEnabledProperty { get; }
 ## -description
 Identifies the [IsStaggeringEnabled](entrancethemetransition_isstaggeringenabled.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.EntranceThemeTransition.IsStaggeringEnabledProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancethemetransition.isstaggeringenabledproperty).
 
 ## -property-value
 The identifier for the [IsStaggeringEnabled](entrancethemetransition_isstaggeringenabled.md) dependency property.

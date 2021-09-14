@@ -12,7 +12,6 @@ public VisualTransition()
 ## -description
 Initializes a new instance of the [VisualTransition](visualtransition.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.VisualTransition.VisualTransition](/windows/winui/api/microsoft.ui.xaml.visualtransition.#ctor).
 
 ## -remarks
 

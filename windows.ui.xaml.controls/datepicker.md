@@ -12,7 +12,6 @@ public class DatePicker : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Cont
 ## -description
 Represents a control that allows a user to pick a date value.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.DatePicker](/windows/winui/api/microsoft.ui.xaml.controls.datepicker).
 
 ## -xaml-syntax
 ```xaml

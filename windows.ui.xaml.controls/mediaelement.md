@@ -13,7 +13,6 @@ public class MediaElement : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Co
 
 Represents an object that renders audio and video to the display. See Remarks.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MediaElement](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement).
 
 ## -xaml-syntax
 

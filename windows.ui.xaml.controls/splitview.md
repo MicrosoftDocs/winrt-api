@@ -13,7 +13,6 @@ public class SplitView : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Contr
 
 Represents a container with two views; one view for the main content and another view that is typically used for navigation commands.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SplitView](/windows/winui/api/microsoft.ui.xaml.controls.splitview).
 
 ## -xaml-syntax
 

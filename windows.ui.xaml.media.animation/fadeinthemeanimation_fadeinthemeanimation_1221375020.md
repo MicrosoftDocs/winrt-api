@@ -12,7 +12,6 @@ public FadeInThemeAnimation()
 ## -description
 Initializes a new instance of the [FadeInThemeAnimation](fadeinthemeanimation.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.FadeInThemeAnimation.FadeInThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.fadeinthemeanimation.#ctor).
 
 ## -remarks
 

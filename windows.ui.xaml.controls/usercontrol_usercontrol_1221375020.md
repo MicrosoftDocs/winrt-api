@@ -12,7 +12,6 @@ public UserControl()
 ## -description
 Initializes a new instance of the [UserControl](usercontrol.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.UserControl.UserControl](/windows/winui/api/microsoft.ui.xaml.controls.usercontrol.#ctor).
 
 ## -remarks
 

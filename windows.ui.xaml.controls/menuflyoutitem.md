@@ -13,7 +13,6 @@ public class MenuFlyoutItem : Windows.UI.Xaml.Controls.MenuFlyoutItemBase, Windo
 
 Represents a command in a [MenuFlyout](menuflyout.md) control.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem).
 
 ## -xaml-syntax
 

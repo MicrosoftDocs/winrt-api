@@ -12,7 +12,6 @@ public Windows.Foundation.TimeSpan Position { get;  set; }
 ## -description
 Gets or sets the current position of progress through the media's playback time.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.Position](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.position).
 
 ## -property-value
 The amount of time since the beginning of the media. The default is a **TimeSpan** with value "0:0:0".

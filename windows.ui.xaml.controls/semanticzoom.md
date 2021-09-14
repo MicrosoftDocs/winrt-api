@@ -12,7 +12,6 @@ public class SemanticZoom : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Co
 ## -description
 Represents a scrollable control that incorporates two views that have a semantic relationship. For example, the [ZoomedOutView](semanticzoom_zoomedoutview.md) might be an index of titles, and the [ZoomedInView](semanticzoom_zoomedinview.md) might include details and summaries for each of the title entries. Views can be changed using zoom or other interactions.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SemanticZoom](/windows/winui/api/microsoft.ui.xaml.controls.semanticzoom).
 
 ## -xaml-syntax
 ```xaml

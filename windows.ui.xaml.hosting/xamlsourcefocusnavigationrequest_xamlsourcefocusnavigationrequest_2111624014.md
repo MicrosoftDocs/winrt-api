@@ -13,7 +13,6 @@ public XamlSourceFocusNavigationRequest.XamlSourceFocusNavigationRequest(XamlSou
 ## -description
 Initializes a new instance of the [XamlSourceFocusNavigationRequest](xamlsourcefocusnavigationrequest.md) class with the reason for the navigation request, the bounding rectangle that will receive navigation focus, and the unique correlation ID for the request.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Hosting.XamlSourceFocusNavigationRequest.XamlSourceFocusNavigationRequest](/windows/winui/api/microsoft.ui.xaml.hosting.xamlsourcefocusnavigationrequest.#ctor).
 
 ## -parameters
 ### -param reason

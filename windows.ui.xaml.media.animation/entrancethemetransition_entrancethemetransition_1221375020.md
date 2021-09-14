@@ -12,7 +12,6 @@ public EntranceThemeTransition()
 ## -description
 Initializes a new instance of the [EntranceThemeTransition](entrancethemetransition.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.EntranceThemeTransition.EntranceThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancethemetransition.#ctor).
 
 ## -remarks
 

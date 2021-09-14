@@ -12,7 +12,6 @@ public Viewbox()
 ## -description
 Initializes a new instance of the [Viewbox](viewbox.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Viewbox.Viewbox](/windows/winui/api/microsoft.ui.xaml.controls.viewbox.#ctor).
 
 ## -remarks
 

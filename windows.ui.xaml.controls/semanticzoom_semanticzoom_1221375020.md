@@ -12,7 +12,6 @@ public SemanticZoom()
 ## -description
 Initializes a new instance of the [SemanticZoom](semanticzoom.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.SemanticZoom.SemanticZoom](/windows/winui/api/microsoft.ui.xaml.controls.semanticzoom.#ctor).
 
 ## -remarks
 

@@ -12,7 +12,6 @@ public Windows.UI.Xaml.Media.ImageSource PosterSource { get;  set; }
 ## -description
 Gets or sets the image source that is used for a placeholder image during [MediaPlayerElement](mediaplayerelement.md) loading transition states.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaPlayerElement.PosterSource](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerelement.postersource).
 
 ## -xaml-syntax
 ```xaml

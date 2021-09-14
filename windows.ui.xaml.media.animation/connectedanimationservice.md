@@ -12,7 +12,6 @@ public class ConnectedAnimationService : Windows.UI.Xaml.Media.Animation.IConnec
 ## -description
 Represents a service that provides properties and methods to display a [ConnectedAnimation](connectedanimation.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimationService](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimationservice).
 
 ## -remarks
 To get an instance of ConnectedAnimationService, call the static [GetForCurrentView](connectedanimationservice_getforcurrentview_1363600702.md) method.

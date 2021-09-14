@@ -12,7 +12,6 @@ public ToggleSwitchAutomationPeer(Windows.UI.Xaml.Controls.ToggleSwitch owner)
 ## -description
 Initializes a new instance of the [ToggleSwitchAutomationPeer](toggleswitchautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.ToggleSwitchAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.toggleswitchautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

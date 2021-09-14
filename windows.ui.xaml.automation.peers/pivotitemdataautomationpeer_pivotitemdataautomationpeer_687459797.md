@@ -12,7 +12,6 @@ public PivotItemDataAutomationPeer(System.Object item, Windows.UI.Xaml.Automatio
 ## -description
 Initializes a new instance of the [PivotItemDataAutomationPeer](pivotitemdataautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.PivotItemDataAutomationPeer.PivotItemDataAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.pivotitemdataautomationpeer.#ctor).
 
 ## -parameters
 ### -param item

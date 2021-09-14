@@ -13,7 +13,6 @@ public enum XamlSourceFocusNavigationReason : int
 ## -description
 Defines values that represent the reasons that the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) got focus in a desktop application that uses a [DesktopWindowXamlSource](desktopwindowxamlsource.md) object to host XAML-based UI. The [XamlSourceFocusNavigationRequest.Reason](xamlsourcefocusnavigationrequest_reason.md) property returns one of these values.
 
-Equivalent WinUI enum: [Microsoft.UI.Xaml.Hosting.XamlSourceFocusNavigationReason](/windows/winui/api/microsoft.ui.xaml.hosting.xamlsourcefocusnavigationreason).
 
 ## -enum-fields
 ### -field Up:8

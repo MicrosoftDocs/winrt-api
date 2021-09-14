@@ -13,7 +13,6 @@ public class SymbolIcon : Windows.UI.Xaml.Controls.IconElement, Windows.UI.Xaml.
 
 Represents an icon that uses a glyph from the Segoe MDL2 Assets font as its content.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SymbolIcon](/windows/winui/api/microsoft.ui.xaml.controls.symbolicon).
 
 ## -xaml-syntax
 

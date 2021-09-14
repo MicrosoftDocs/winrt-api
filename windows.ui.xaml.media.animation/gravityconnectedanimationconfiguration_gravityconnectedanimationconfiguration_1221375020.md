@@ -12,7 +12,6 @@ public GravityConnectedAnimationConfiguration.GravityConnectedAnimationConfigura
 ## -description
 Initializes a new instance of the GravityConnectedAnimationConfiguration class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.GravityConnectedAnimationConfiguration.GravityConnectedAnimationConfiguration](/windows/winui/api/microsoft.ui.xaml.media.animation.gravityconnectedanimationconfiguration.#ctor).
 
 ## -remarks
 

@@ -12,7 +12,6 @@ public class Border : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Controls
 ## -description
 Draws a border, background, or both, around another object.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Border](/windows/winui/api/microsoft.ui.xaml.controls.border).
 
 ## -xaml-syntax
 ```xaml

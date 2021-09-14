@@ -12,7 +12,6 @@ public MatrixTransform()
 ## -description
 Initializes a new instance of the [MatrixTransform](matrixtransform.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.MatrixTransform.MatrixTransform](/windows/winui/api/microsoft.ui.xaml.media.matrixtransform.#ctor).
 
 ## -remarks
 

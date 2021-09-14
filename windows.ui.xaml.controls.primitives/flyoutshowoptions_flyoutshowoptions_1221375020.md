@@ -14,7 +14,6 @@ public FlyoutShowOptions.FlyoutShowOptions()
 
 Initializes a new instance of the [FlyoutShowOptions](flyoutshowoptions.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.FlyoutShowOptions](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutshowoptions.#ctor).
 
 ## -remarks
 

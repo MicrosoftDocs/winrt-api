@@ -12,7 +12,6 @@ public bool RealTimePlayback { get;  set; }
 ## -description
 Gets or sets a value that configures the [MediaElement](mediaelement.md) for real-time communications scenarios.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.RealTimePlayback](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.realtimeplayback).
 
 ## -xaml-syntax
 ```xaml

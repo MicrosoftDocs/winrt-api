@@ -12,7 +12,6 @@ public double PlaybackRate { get;  set; }
 ## -description
 Gets or sets the playback rate ratio for the media engine.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.PlaybackRate](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.playbackrate).
 
 ## -xaml-syntax
 ```xaml

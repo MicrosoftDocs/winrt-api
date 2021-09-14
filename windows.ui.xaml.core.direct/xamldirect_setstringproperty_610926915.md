@@ -13,7 +13,6 @@ public void XamlDirect.SetStringProperty(IXamlDirectObject xamlDirectObject, Xam
 ## -description
 Sets the value of a _string_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetStringProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setstringproperty).
 
 ## -parameters
 ### -param xamlDirectObject

@@ -13,7 +13,6 @@ public bool XamlDirect.RemoveFromCollection(IXamlDirectObject xamlDirectObject, 
 ## -description
 Tries to remove a value from the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.RemoveFromCollection](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.removefromcollection).
 
 ## -parameters
 ### -param xamlDirectObject

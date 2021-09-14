@@ -12,7 +12,6 @@ public class CalendarView : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Co
 ## -description
 Represents a control that enables a user to select a date by using a visual calendar display.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CalendarView](/windows/winui/api/microsoft.ui.xaml.controls.calendarview).
 
 ## -remarks
 

@@ -12,7 +12,6 @@ public EntranceNavigationTransitionInfo()
 ## -description
 Initializes a new instance of the [EntranceNavigationTransitionInfo](entrancenavigationtransitioninfo.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.EntranceNavigationTransitionInfo.EntranceNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancenavigationtransitioninfo.#ctor).
 
 ## -remarks
 

@@ -12,7 +12,6 @@ public ColorAnimationUsingKeyFrames()
 ## -description
 Initializes a new instance of the [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames.ColorAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimationusingkeyframes.#ctor).
 
 ## -remarks
 

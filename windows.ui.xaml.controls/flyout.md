@@ -13,7 +13,6 @@ public class Flyout : Windows.UI.Xaml.Controls.Primitives.FlyoutBase, Windows.UI
 
 Represents a control that displays lightweight UI that is either information, or requires user interaction. Unlike a dialog, a Flyout can be light dismissed by clicking or tapping outside of it, pressing the device's back button, or pressing the 'Esc' key.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Flyout](/windows/winui/api/microsoft.ui.xaml.controls.flyout).
 
 ## -xaml-syntax
 

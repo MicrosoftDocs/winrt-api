@@ -12,7 +12,6 @@ public Windows.Media.Capture.MediaCapture Source { get;  set; }
 ## -description
 Gets or sets the source [MediaCapture](../windows.media.capture/mediacapture.md) that this [CaptureElement](captureelement.md) represents.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CaptureElement.Source](/windows/winui/api/microsoft.ui.xaml.controls.captureelement.source).
 
 ## -property-value
 The source [MediaCapture](../windows.media.capture/mediacapture.md)

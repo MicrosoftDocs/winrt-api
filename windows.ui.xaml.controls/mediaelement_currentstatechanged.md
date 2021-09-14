@@ -12,7 +12,6 @@ public event Windows.UI.Xaml.RoutedEventHandler CurrentStateChanged
 ## -description
 Occurs when the value of the [CurrentState](mediaelement_currentstate.md) property changes.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.MediaElement.CurrentStateChanged](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.currentstatechanged).
 
 ## -xaml-syntax
 ```xaml

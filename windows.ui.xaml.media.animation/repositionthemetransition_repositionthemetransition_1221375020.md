@@ -12,7 +12,6 @@ public RepositionThemeTransition()
 ## -description
 Initializes a new instance of the [RepositionThemeTransition](repositionthemetransition.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeTransition.RepositionThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemetransition.#ctor).
 
 ## -remarks
 

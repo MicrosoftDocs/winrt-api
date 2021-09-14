@@ -12,7 +12,6 @@ protected SelectorItem()
 ## -description
 Provides base class initialization behavior for [SelectorItem](selectoritem.md)-derived classes.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Primitives.SelectorItem.SelectorItem](/windows/winui/api/microsoft.ui.xaml.controls.primitives.selectoritem.#ctor).
 
 ## -remarks
 

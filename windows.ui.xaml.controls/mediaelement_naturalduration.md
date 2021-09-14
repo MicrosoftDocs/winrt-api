@@ -12,7 +12,6 @@ public Windows.UI.Xaml.Duration NaturalDuration { get; }
 ## -description
 Gets the duration of the media file currently opened.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.NaturalDuration](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.naturalduration).
 
 ## -property-value
 The natural duration of the media. The default value is a [Duration](../windows.ui.xaml/duration.md) structure that evaluates as [Automatic](../windows.ui.xaml/durationhelper_automatic.md), which is the value held if you query this property before [MediaOpened](mediaelement_mediaopened.md).

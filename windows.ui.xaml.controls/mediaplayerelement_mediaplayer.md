@@ -12,7 +12,6 @@ public Windows.Media.Playback.MediaPlayer MediaPlayer { get; }
 ## -description
 Gets the [MediaPlayer](../windows.media.playback/mediaplayer.md) instance used to render media.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaPlayerElement.MediaPlayer](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerelement.mediaplayer).
 
 ## -property-value
 The [MediaPlayer](../windows.media.playback/mediaplayer.md) instance used to render media.

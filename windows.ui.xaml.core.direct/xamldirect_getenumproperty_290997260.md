@@ -13,7 +13,6 @@ public uint XamlDirect.GetEnumProperty(IXamlDirectObject xamlDirectObject, XamlP
 ## -description
 Gets the value of an _Enum_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetEnumProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getenumproperty).
 
 ## -parameters
 ### -param xamlDirectObject

@@ -12,7 +12,6 @@ public DiscreteColorKeyFrame()
 ## -description
 Initializes a new instance of the [DiscreteColorKeyFrame](discretecolorkeyframe.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DiscreteColorKeyFrame.DiscreteColorKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.discretecolorkeyframe.#ctor).
 
 ## -remarks
 

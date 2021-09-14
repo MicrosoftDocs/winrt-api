@@ -12,7 +12,6 @@ public bool AreTransportControlsEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines whether the standard transport controls are enabled.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.AreTransportControlsEnabled](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.aretransportcontrolsenabled).
 
 ## -xaml-syntax
 ```xaml

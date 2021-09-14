@@ -13,7 +13,6 @@ public void XamlDirect.SetDoubleProperty(IXamlDirectObject xamlDirectObject, Xam
 ## -description
 Sets the value of a _Double_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetDoubleProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setdoubleproperty).
 
 ## -parameters
 ### -param xamlDirectObject

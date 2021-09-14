@@ -12,7 +12,6 @@ public enum Windows.UI.Xaml.Media.MediaCanPlayResponse : int
 ## -description
 Describes the likelihood that the media engine can play a media source based on its file type and characteristics.
 
-Equivalent WinUI enum: [MediaCanPlayResponse](/windows/winui/api/microsoft.ui.xaml.media.mediacanplayresponse).
 
 ## -enum-fields
 ### -field NotSupported:0

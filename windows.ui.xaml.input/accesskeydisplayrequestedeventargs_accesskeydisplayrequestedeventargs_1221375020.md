@@ -12,7 +12,6 @@ public AccessKeyDisplayRequestedEventArgs()
 ## -description
 Initializes a new instance of the [AccessKeyDisplayRequestedEventArgs](accesskeydisplayrequestedeventargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.AccessKeyDisplayRequestedEventArgs.AccessKeyDisplayRequestedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.accesskeydisplayrequestedeventargs.#ctor).
 
 ## -remarks
 

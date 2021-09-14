@@ -12,7 +12,6 @@ public Windows.UI.Xaml.Media.TimelineMarkerCollection Markers { get; }
 ## -description
 Gets the collection of timeline markers associated with the currently loaded media file.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.Markers](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.markers).
 
 ## -property-value
 The collection of timeline markers (represented as [TimelineMarker](../windows.ui.xaml.media/timelinemarker.md) objects) associated with the currently loaded media file. The default is an empty collection.

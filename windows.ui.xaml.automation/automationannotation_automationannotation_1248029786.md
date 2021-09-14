@@ -12,7 +12,6 @@ public AutomationAnnotation(Windows.UI.Xaml.Automation.AnnotationType type)
 ## -description
 Initializes a new instance of the  class using the supplied parameters.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.AutomationAnnotation.AutomationAnnotation](/windows/winui/api/microsoft.ui.xaml.automation.automationannotation.#ctor).
 
 ## -parameters
 ### -param type

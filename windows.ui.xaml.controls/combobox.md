@@ -12,7 +12,6 @@ public class ComboBox : Windows.UI.Xaml.Controls.Primitives.Selector, Windows.UI
 ## -description
 Represents a selection control that combines a non-editable text box and a drop-down list box that allows users to select an item from a list.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ComboBox](/windows/winui/api/microsoft.ui.xaml.controls.combobox).
 
 ## -xaml-syntax
 ```xaml

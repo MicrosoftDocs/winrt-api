@@ -14,7 +14,6 @@ public interface IXamlDirectObject
 
 Represents the primary object type that participates in the [XamlDirect](xamldirect.md) set of APIs.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Core.Direct.IXamlDirectObject](/windows/winui/api/microsoft.ui.xaml.core.direct.ixamldirectobject).
 
 ## -remarks
 

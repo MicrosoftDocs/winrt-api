@@ -12,7 +12,6 @@ public FontFamily(System.String familyName)
 ## -description
 Initializes a new instance of the [FontFamily](FontFamily.md) class from the specified font family string.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.FontFamily.FontFamily](/windows/winui/api/microsoft.ui.xaml.media.fontfamily.#ctor).
 
 ## -parameters
 ### -param familyName

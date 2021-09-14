@@ -12,7 +12,6 @@ public bool IsSkipForwardEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether a user can skip forward in the media.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsSkipForwardEnabled](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isskipforwardenabled).
 
 ## -xaml-syntax
 ```xaml

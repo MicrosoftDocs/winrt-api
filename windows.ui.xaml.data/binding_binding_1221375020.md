@@ -12,7 +12,6 @@ public Binding()
 ## -description
 Initializes a new instance of the [Binding](binding.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Data.Binding.Binding](/windows/winui/api/microsoft.ui.xaml.data.binding.#ctor).
 
 ## -remarks
 

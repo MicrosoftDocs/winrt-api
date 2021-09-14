@@ -12,7 +12,6 @@ public VisualState()
 ## -description
 Initializes a new instance of the [VisualState](visualstate.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.VisualState.VisualState](/windows/winui/api/microsoft.ui.xaml.visualstate.#ctor).
 
 ## -remarks
 

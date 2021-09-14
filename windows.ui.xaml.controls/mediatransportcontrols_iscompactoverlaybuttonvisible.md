@@ -13,7 +13,6 @@ public bool IsCompactOverlayButtonVisible { get;  set; }
 
 Gets or sets a value that indicates whether the compact overlay button is shown.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsCompactOverlayButtonVisible](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.iscompactoverlaybuttonvisible).
 
 ## -property-value
 

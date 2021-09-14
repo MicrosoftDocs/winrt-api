@@ -13,7 +13,6 @@ public class SwapChainPanel : Windows.UI.Xaml.Controls.Grid, Windows.UI.Xaml.Con
 
 Provides a hosting surface, where Microsoft DirectX swap chains provide content that can be rendered into a XAML UI. A SwapChainPanel element is a key component for an app that renders Microsoft DirectX graphics and then presents those visuals within a XAML page.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SwapChainPanel](/windows/winui/api/microsoft.ui.xaml.controls.swapchainpanel).
 
 ## -xaml-syntax
 

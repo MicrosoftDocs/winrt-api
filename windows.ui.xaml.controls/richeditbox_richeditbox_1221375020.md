@@ -12,7 +12,6 @@ public RichEditBox()
 ## -description
 Initializes a new instance of the [RichEditBox](richeditbox.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.RichEditBox.RichEditBox](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.#ctor).
 
 ## -remarks
 

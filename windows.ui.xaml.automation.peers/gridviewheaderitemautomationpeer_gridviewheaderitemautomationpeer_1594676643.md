@@ -12,7 +12,6 @@ public GridViewHeaderItemAutomationPeer(Windows.UI.Xaml.Controls.GridViewHeaderI
 ## -description
 Initializes a new instance of the [GridViewHeaderItemAutomationPeer](gridviewheaderitemautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.GridViewHeaderItemAutomationPeer.GridViewHeaderItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.gridviewheaderitemautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

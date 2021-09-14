@@ -12,7 +12,6 @@ public Windows.Foundation.HResult ExtendedError { get; }
 ## -description
 Gets error info for the media failure.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PartialMediaFailureDetectedEventArgs.ExtendedError](/windows/winui/api/microsoft.ui.xaml.media.partialmediafailuredetectedeventargs.extendederror).
 
 ## -property-value
 The error info for the media failure.

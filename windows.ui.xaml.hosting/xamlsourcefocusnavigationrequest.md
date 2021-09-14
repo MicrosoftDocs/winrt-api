@@ -13,7 +13,6 @@ public class XamlSourceFocusNavigationRequest
 ## -description
 Provides information about a request to give focus to a [DesktopWindowXamlSource](desktopwindowxamlsource.md) object.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Hosting.XamlSourceFocusNavigationRequest](/windows/winui/api/microsoft.ui.xaml.hosting.xamlsourcefocusnavigationrequest).
 
 ## -remarks
 

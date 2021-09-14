@@ -12,7 +12,6 @@ public void RemoveAt(System.UInt32 index)
 ## -description
 Removes the item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TimelineMarkerCollection.RemoveAt](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkercollection.removeat).
 
 ## -parameters
 ### -param index

@@ -12,7 +12,6 @@ public class RepeatButton : Windows.UI.Xaml.Controls.Primitives.ButtonBase, Wind
 ## -description
 Represents a control that raises its [Click](buttonbase_click.md) event repeatedly when it is pressed and held.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.RepeatButton](/windows/winui/api/microsoft.ui.xaml.controls.primitives.repeatbutton).
 
 ## -xaml-syntax
 ```xaml

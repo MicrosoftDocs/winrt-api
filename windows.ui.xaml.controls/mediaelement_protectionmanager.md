@@ -12,7 +12,6 @@ public Windows.Media.Protection.MediaProtectionManager ProtectionManager { get; 
 ## -description
 Gets or sets the dedicated object for media content protection that is associated with this [MediaElement](mediaelement.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.ProtectionManager](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.protectionmanager).
 
 ## -property-value
 The dedicated object for media content protection.

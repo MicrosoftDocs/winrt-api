@@ -12,7 +12,6 @@ public PolyQuadraticBezierSegment()
 ## -description
 Initializes a new instance of the [PolyQuadraticBezierSegment](polyquadraticbeziersegment.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.PolyQuadraticBezierSegment.PolyQuadraticBezierSegment](/windows/winui/api/microsoft.ui.xaml.media.polyquadraticbeziersegment.#ctor).
 
 ## -remarks
 

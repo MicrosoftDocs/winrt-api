@@ -12,7 +12,6 @@ public class ScrollViewer : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.
 ## -description
 Represents a scrollable area that can contain other visible elements.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ScrollViewer](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer).
 
 ## -xaml-syntax
 ```xaml

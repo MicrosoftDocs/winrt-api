@@ -12,7 +12,6 @@ public class BitmapIcon : Windows.UI.Xaml.Controls.IconElement, Windows.UI.Xaml.
 ## -description
 Represents an icon that uses a bitmap as its content.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.BitmapIcon](/windows/winui/api/microsoft.ui.xaml.controls.bitmapicon).
 
 ## -xaml-syntax
 ```xaml

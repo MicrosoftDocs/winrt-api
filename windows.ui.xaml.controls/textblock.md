@@ -14,7 +14,6 @@ public class TextBlock : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Contr
 
 Provides a lightweight control for displaying small amounts of text.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TextBlock](/windows/winui/api/microsoft.ui.xaml.controls.textblock).
 
 ## -xaml-syntax
 

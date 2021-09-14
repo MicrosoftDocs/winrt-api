@@ -12,7 +12,6 @@ public MediaTransportControls()
 ## -description
 Initializes a new instance of the [MediaTransportControls](mediatransportcontrols.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.MediaTransportControls.MediaTransportControls](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.#ctor).
 
 ## -remarks
 

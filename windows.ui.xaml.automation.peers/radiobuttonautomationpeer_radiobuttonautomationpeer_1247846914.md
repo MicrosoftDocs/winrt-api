@@ -12,7 +12,6 @@ public RadioButtonAutomationPeer(Windows.UI.Xaml.Controls.RadioButton owner)
 ## -description
 Initializes a new instance of the [RadioButtonAutomationPeer](radiobuttonautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.RadioButtonAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.radiobuttonautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

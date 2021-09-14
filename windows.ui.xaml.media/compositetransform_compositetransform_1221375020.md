@@ -12,7 +12,6 @@ public CompositeTransform()
 ## -description
 Initializes a new instance of the [CompositeTransform](compositetransform.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.CompositeTransform.CompositeTransform](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.#ctor).
 
 ## -remarks
 

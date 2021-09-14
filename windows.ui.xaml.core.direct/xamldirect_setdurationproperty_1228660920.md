@@ -13,7 +13,6 @@ public void XamlDirect.SetDurationProperty(IXamlDirectObject xamlDirectObject, X
 ## -description
 Sets the value of a _Duration_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetDurationProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setdurationproperty).
 
 ## -parameters
 ### -param xamlDirectObject

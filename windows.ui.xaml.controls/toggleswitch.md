@@ -12,7 +12,6 @@ public class ToggleSwitch : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Co
 ## -description
 Represents a switch that can be toggled between two states.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ToggleSwitch](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch).
 
 ## -xaml-syntax
 ```xaml

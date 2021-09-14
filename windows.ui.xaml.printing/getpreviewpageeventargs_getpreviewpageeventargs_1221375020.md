@@ -12,7 +12,6 @@ public GetPreviewPageEventArgs()
 ## -description
 Initializes a new instance of the [GetPreviewPageEventArgs](getpreviewpageeventargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Printing.GetPreviewPageEventArgs.GetPreviewPageEventArgs](/windows/winui/api/microsoft.ui.xaml.printing.getpreviewpageeventargs.#ctor).
 
 ## -remarks
 

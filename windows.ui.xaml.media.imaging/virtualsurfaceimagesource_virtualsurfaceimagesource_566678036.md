@@ -12,7 +12,6 @@ public VirtualSurfaceImageSource(System.Int32 pixelWidth, System.Int32 pixelHeig
 ## -description
 Initializes a new instance of the [VirtualSurfaceImageSource](virtualsurfaceimagesource.md) class, specifying the size of the drawing area and a preference for whether to render with an alpha transparency.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Imaging.VirtualSurfaceImageSource.VirtualSurfaceImageSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.virtualsurfaceimagesource.#ctor).
 
 ## -parameters
 ### -param pixelWidth

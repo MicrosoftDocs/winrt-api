@@ -12,7 +12,6 @@ public class ToggleButton : Windows.UI.Xaml.Controls.Primitives.ButtonBase, Wind
 ## -description
 Represents a control that a user can select (check) or clear (uncheck). Base class for controls that can switch states, such as [CheckBox](../windows.ui.xaml.controls/checkbox.md) and [RadioButton](../windows.ui.xaml.controls/radiobutton.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.ToggleButton](/windows/winui/api/microsoft.ui.xaml.controls.primitives.togglebutton).
 
 ## -xaml-syntax
 ```xaml

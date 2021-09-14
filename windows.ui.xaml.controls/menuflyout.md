@@ -13,7 +13,6 @@ public class MenuFlyout : Windows.UI.Xaml.Controls.Primitives.FlyoutBase, Window
 
 Represents a flyout that displays a menu of commands.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MenuFlyout](/windows/winui/api/microsoft.ui.xaml.controls.menuflyout).
 
 ## -xaml-syntax
 

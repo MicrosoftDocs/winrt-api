@@ -12,7 +12,6 @@ public class MenuFlyoutSeparator : Windows.UI.Xaml.Controls.MenuFlyoutItemBase, 
 ## -description
 Represents a horizontal line that separates items in an [MenuFlyout](menuflyout.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MenuFlyoutSeparator](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutseparator).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,6 @@ public WrapGrid()
 ## -description
 Initializes a new instance of the [WrapGrid](wrapgrid.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.WrapGrid.WrapGrid](/windows/winui/api/microsoft.ui.xaml.controls.wrapgrid.#ctor).
 
 ## -remarks
 

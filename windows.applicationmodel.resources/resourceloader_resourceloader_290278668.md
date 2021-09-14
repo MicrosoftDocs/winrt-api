@@ -15,7 +15,6 @@ public ResourceLoader(System.String name)
 
 Constructs a new [ResourceLoader](resourceloader.md) object for the specified [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md).
 
-Equivalent WinUI constructor: [Microsoft.ApplicationModel.Resources.ResourceLoader.ResourceLoader](/windows/winui/api/microsoft.applicationmodel.resources.resourceloader.#ctor).
 
 ## -parameters
 ### -param name

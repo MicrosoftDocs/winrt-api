@@ -16,7 +16,6 @@ public void RevealBrush.SetState(UIElement element, RevealBrushState value)
 
 Sets the value of the [RevealBrush.State](revealbrush_state.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.RevealBrush.SetState](/windows/winui/api/microsoft.ui.xaml.media.revealbrush.setstate).
 
 ## -parameters
 

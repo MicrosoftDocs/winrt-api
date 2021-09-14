@@ -12,7 +12,6 @@ protected TileBrush()
 ## -description
 Provides base class initialization behavior for [TileBrush](tilebrush.md)-derived classes.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.TileBrush.TileBrush](/windows/winui/api/microsoft.ui.xaml.media.tilebrush.#ctor).
 
 ## -remarks
 

@@ -12,7 +12,6 @@ public void SetDropoutOrder(Windows.UI.Xaml.UIElement element, Windows.Foundatio
 ## -description
 Sets the value of the [MediaTransportControlsHelper.DropoutOrder](mediatransportcontrolshelper_dropoutorder.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaTransportControlsHelper.SetDropoutOrder](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrolshelper.setdropoutorder).
 
 ## -parameters
 ### -param element

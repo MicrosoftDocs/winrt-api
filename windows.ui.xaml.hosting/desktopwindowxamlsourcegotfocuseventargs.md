@@ -13,7 +13,6 @@ public class DesktopWindowXamlSourceGotFocusEventArgs
 ## -description
 Provides event data for the [GotFocus](desktopwindowxamlsource_gotfocus.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Hosting.DesktopWindowXamlSourceGotFocusEventArgs](/windows/winui/api/microsoft.ui.xaml.hosting.desktopwindowxamlsourcegotfocuseventargs).
 
 ## -remarks
 

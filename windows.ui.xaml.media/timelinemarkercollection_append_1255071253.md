@@ -12,7 +12,6 @@ public void Append(Windows.UI.Xaml.Media.TimelineMarker value)
 ## -description
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TimelineMarkerCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkercollection.append).
 
 ## -parameters
 ### -param value

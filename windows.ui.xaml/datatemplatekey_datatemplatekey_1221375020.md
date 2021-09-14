@@ -12,7 +12,6 @@ public DataTemplateKey()
 ## -description
 Initializes a new instance of the [DataTemplateKey](datatemplatekey.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.DataTemplateKey.DataTemplateKey](/windows/winui/api/microsoft.ui.xaml.datatemplatekey.#ctor).
 
 ## -remarks
 

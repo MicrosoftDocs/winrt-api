@@ -14,7 +14,6 @@ public XamlUICommand.XamlUICommand()
 
 Initializes a new instance of the [XamlUICommand](xamluicommand.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.XamlUICommand.XamlUICommand](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.#ctor).
 
 ## -remarks
 

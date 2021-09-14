@@ -12,7 +12,6 @@ public RepositionThemeAnimation()
 ## -description
 Initializes a new instance of the [RepositionThemeAnimation](repositionthemeanimation.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeAnimation.RepositionThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemeanimation.#ctor).
 
 ## -remarks
 

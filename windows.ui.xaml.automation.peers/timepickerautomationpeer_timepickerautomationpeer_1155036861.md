@@ -12,7 +12,6 @@ public TimePickerAutomationPeer(Windows.UI.Xaml.Controls.TimePicker owner)
 ## -description
 Initializes a new instance of the [TimePickerAutomationPeer](timepickerautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.TimePickerAutomationPeer.TimePickerAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.timepickerautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

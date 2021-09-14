@@ -12,7 +12,6 @@ public CustomXamlResourceLoader()
 ## -description
 Initializes a new instance of the [CustomXamlResourceLoader](customxamlresourceloader.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Resources.CustomXamlResourceLoader.CustomXamlResourceLoader](/windows/winui/api/microsoft.ui.xaml.resources.customxamlresourceloader.#ctor).
 
 ## -remarks
 

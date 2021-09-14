@@ -12,7 +12,6 @@ public KeyboardAccelerator.KeyboardAccelerator()
 ## -description
 Initializes a new instance of the [KeyboardAccelerator](keyboardaccelerator.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.KeyboardAccelerator.KeyboardAccelerator](/windows/winui/api/microsoft.ui.xaml.input.keyboardaccelerator.#ctor).
 
 ## -remarks
 

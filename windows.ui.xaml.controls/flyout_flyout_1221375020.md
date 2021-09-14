@@ -12,7 +12,6 @@ public Flyout()
 ## -description
 Initializes a new instance of the [Flyout](flyout.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Flyout.Flyout](/windows/winui/api/microsoft.ui.xaml.controls.flyout.#ctor).
 
 ## -remarks
 

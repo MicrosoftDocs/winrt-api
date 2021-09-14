@@ -12,7 +12,6 @@ public DatePickerFlyout()
 ## -description
 Initializes a new instance of the [DatePickerFlyout](datepickerflyout.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.DatePickerFlyout.DatePickerFlyout](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyout.#ctor).
 
 ## -remarks
 

@@ -12,7 +12,6 @@ public DoubleKeyFrameCollection()
 ## -description
 Initializes a new instance of the [DoubleKeyFrameCollection](doublekeyframecollection.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrameCollection.DoubleKeyFrameCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframecollection.#ctor).
 
 ## -remarks
 

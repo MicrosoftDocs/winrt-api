@@ -13,7 +13,6 @@ public class Pivot : Windows.UI.Xaml.Controls.ItemsControl, Windows.UI.Xaml.Cont
 
 Represents a control that provides quick navigation of views within an app.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Pivot](/windows/winui/api/microsoft.ui.xaml.controls.pivot).
 
 ## -xaml-syntax
 

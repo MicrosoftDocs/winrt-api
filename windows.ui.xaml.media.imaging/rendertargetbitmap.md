@@ -12,7 +12,6 @@ public class RenderTargetBitmap : Windows.UI.Xaml.Media.ImageSource, Windows.UI.
 ## -description
 Represents an image source that can be populated with the combined contents of a XAML visual tree. See  for some notable limitations on which XAML visuals can be captured in a RenderTargetBitmap.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap).
 
 ## -remarks
 Using a RenderTargetBitmap, you can accomplish scenarios such as applying image effects to a visual that originally came from a XAML UI composition, generating thumbnail images of child pages for a navigation system, or enabling the user to save parts of the UI as an image source and then share that image with other apps.

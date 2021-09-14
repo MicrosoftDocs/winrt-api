@@ -12,7 +12,6 @@ public TextBoxAutomationPeer(Windows.UI.Xaml.Controls.TextBox owner)
 ## -description
 Initializes a new instance of the [TextBoxAutomationPeer](textboxautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.TextBoxAutomationPeer.TextBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.textboxautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

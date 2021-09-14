@@ -12,7 +12,6 @@ public ManipulationPivot(Windows.Foundation.Point center, System.Double radius)
 ## -description
 Initializes a new instance of the [ManipulationPivot](manipulationpivot.md) class with the specified center and radius values.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.ManipulationPivot.ManipulationPivot](/windows/winui/api/microsoft.ui.xaml.input.manipulationpivot.#ctor).
 
 ## -parameters
 ### -param center

@@ -13,7 +13,6 @@ public class AppBarButton : Windows.UI.Xaml.Controls.Button, Windows.UI.Xaml.Con
 
 Represents a templated button control to be displayed in an [AppBar](appbar.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.AppBarButton](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton).
 
 ## -xaml-syntax
 

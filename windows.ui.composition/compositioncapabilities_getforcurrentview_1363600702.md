@@ -14,7 +14,6 @@ public CompositionCapabilities CompositionCapabilities.GetForCurrentView()
 
 Gets the supported composition capabilities for the current view.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionCapabilities.GetForCurrentView](/windows/winui/api/microsoft.ui.composition.compositioncapabilities.getforcurrentview).
 
 ## -returns
 

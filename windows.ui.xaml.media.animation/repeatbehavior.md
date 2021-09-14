@@ -11,7 +11,6 @@ public struct RepeatBehavior
 
 ## -description
 Describes how a [Timeline](timeline.md) repeats its simple duration.
-Equivalent WinUI struct: [RepeatBehavior](/windows/winui/api/microsoft.ui.xaml.media.animation.repeatbehavior).
 
 ## -xaml-syntax
 ```xaml

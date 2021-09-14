@@ -12,7 +12,6 @@ public SwapChainPanel()
 ## -description
 Initializes a new instance of the [SwapChainPanel](swapchainpanel.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.SwapChainPanel.SwapChainPanel](/windows/winui/api/microsoft.ui.xaml.controls.swapchainpanel.#ctor).
 
 ## -remarks
 > [!IMPORTANT]

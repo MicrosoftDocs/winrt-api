@@ -12,7 +12,6 @@ public BezierSegment()
 ## -description
 Initializes a new instance of the [BezierSegment](beziersegment.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.BezierSegment.BezierSegment](/windows/winui/api/microsoft.ui.xaml.media.beziersegment.#ctor).
 
 ## -remarks
 

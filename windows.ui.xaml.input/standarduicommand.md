@@ -14,7 +14,6 @@ public class StandardUICommand : UICommand, UICommand
 
 Derives from [XamlUICommand](xamluicommand.md), adding a set of standard platform commands with pre-defined properties.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.StandardUICommand](/windows/winui/api/microsoft.ui.xaml.input.standarduicommand).
 
 ## -remarks
 

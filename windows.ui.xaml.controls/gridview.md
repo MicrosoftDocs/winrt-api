@@ -13,7 +13,6 @@ public class GridView : Windows.UI.Xaml.Controls.ListViewBase, Windows.UI.Xaml.C
 
 Represents a control that displays data items in rows and columns.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.GridView](/windows/winui/api/microsoft.ui.xaml.controls.gridview).
 
 ## -xaml-syntax
 

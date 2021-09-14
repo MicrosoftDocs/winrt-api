@@ -12,7 +12,6 @@ public class TimelineMarkerRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Wi
 ## -description
 Provides event data for the [MarkerReached](../windows.ui.xaml.controls/mediaelement_markerreached.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.TimelineMarkerRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkerroutedeventargs).
 
 ## -remarks
 
