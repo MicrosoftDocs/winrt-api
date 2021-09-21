@@ -13,7 +13,7 @@ public Windows.Media.Devices.HdrVideoControl HdrVideoControl { get; }
 Gets the [HdrVideoControl](hdrvideocontrol.md) associated with the [VideoDeviceController](videodevicecontroller.md). This allows you to enable and disable High Dynamic Range (HDR) video capture mode on devices that support it.
 
 ## -property-value
-This control requires you to stop streaming before setting value, see [KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOHDR
+This control requires that the stream is at stopped state before the value is set, see [KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOHDR
 ](https://docs.microsoft.com/en-us/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-videohdr).The [HdrVideoControl](hdrvideocontrol.md) associated with the [VideoDeviceController](videodevicecontroller.md).
 
 ## -remarks
