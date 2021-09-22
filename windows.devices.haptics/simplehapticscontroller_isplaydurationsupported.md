@@ -10,9 +10,11 @@ public bool IsPlayDurationSupported { get; }
 # Windows.Devices.Haptics.SimpleHapticsController.IsPlayDurationSupported
 
 ## -description
+
 Gets whether the haptic input device supports feedback duration.
 
 ## -property-value
+
 **true** if duration is supported. Otherwise, **false**.
 
 ## -remarks
@@ -20,4 +22,3 @@ Gets whether the haptic input device supports feedback duration.
 ## -see-also
 
 ## -examples
-

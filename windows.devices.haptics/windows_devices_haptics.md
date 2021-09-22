@@ -17,6 +17,6 @@ Provides support for basic, non-directional haptic feedback such as clicks, buzz
 
 ## -see-also
 
-[Spatial interaction source sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpatialInteractionSource)
+[Pen interactions and haptic (tactile) feedback](/windows/apps/design/input/pen-haptics), [Surface Dial interactions](/windows/apps/design/input/windows-wheel-interactions), [Spatial interaction source sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpatialInteractionSource)
 
 ## -examples

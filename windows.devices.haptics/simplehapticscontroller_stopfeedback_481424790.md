@@ -18,4 +18,3 @@ Terminates haptic feedback by the input device.
 ## -see-also
 
 ## -examples
-

@@ -10,9 +10,11 @@ public bool IsReplayPauseIntervalSupported { get; }
 # Windows.Devices.Haptics.SimpleHapticsController.IsReplayPauseIntervalSupported
 
 ## -description
+
 Gets whether the haptic input device supports pause intervals between feedback cycles.
 
 ## -property-value
+
 **true** if intervals are supported. Otherwise, **false**.
 
 ## -remarks
@@ -20,4 +22,3 @@ Gets whether the haptic input device supports pause intervals between feedback c
 ## -see-also
 
 ## -examples
-
