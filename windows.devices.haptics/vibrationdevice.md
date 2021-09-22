@@ -10,6 +10,7 @@ public class VibrationDevice
 # Windows.Devices.Haptics.VibrationDevice
 
 ## -description
+
 Provides access to a device that supports vibration notifications only.
 
 ## -remarks
@@ -17,4 +18,3 @@ Provides access to a device that supports vibration notifications only.
 ## -see-also
 
 ## -examples
-

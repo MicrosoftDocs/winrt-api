@@ -10,9 +10,11 @@ public SimpleHapticsController SimpleHapticsController { get; }
 # Windows.Devices.Haptics.VibrationDevice.SimpleHapticsController
 
 ## -description
+
 Gets a reference to a [SimpleHapticsController](simplehapticscontroller.md) object to specify haptic feedback behavior.
 
 ## -property-value
+
 The haptic input device.
 
 ## -remarks
@@ -20,4 +22,3 @@ The haptic input device.
 ## -see-also
 
 ## -examples
-
