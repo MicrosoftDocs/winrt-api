@@ -21,7 +21,7 @@ Provides a set of well-known haptic waveform types (based on the [HapticÂ UsageÂ
 
 ## -examples
 
-The following describe various fully functional samples that demonstrate various haptic features across devices.
+The following fully functional samples demonstrate haptic features across various devices.
 
 ### Pen haptics
 

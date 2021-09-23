@@ -21,7 +21,7 @@ Provides support for basic, non-directional haptic feedback such as clicks, buzz
 
 ## -examples
 
-The following describe various fully functional samples that demonstrate various haptic features across devices.
+The following fully functional samples demonstrate haptic features across various devices.
 
 ### Pen haptics
 
