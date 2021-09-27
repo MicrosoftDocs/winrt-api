@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyLi
 
 ## -description
 
-Gets missing prerequisites that are required for voice activation to become available and function properly.
+Gets missing prerequisites for voice activation to become available and function properly.
 
 ## -returns
 

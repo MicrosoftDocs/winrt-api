@@ -11,21 +11,33 @@ public enum ConversationalAgentVoiceActivationPrerequisiteKind
 
 ## -description
 
-Specifies the possible values for  for the [SystemStateChanged](conversationalagentsession_systemstatechanged.md) event.
+Specifies the possible settings required for voice activation to function.
 
 ## -enum-fields
 
 ### -field MicrophonePermission: 0
 
+Access to the microphone.
+
 ### -field KnownAgents: 1
+
+Known conversational agents.
 
 ### -field AgentAllowed: 2
 
+The conversational agent permissions.
+
 ### -field AppCapability: 3
+
+The registered app capabilities.
 
 ### -field BackgroundTaskRegistration: 4
 
+Background task registration.
+
 ### -field PolicyPermission: 5
+
+Policy support for conversational agents.
 
 ## -remarks
 
