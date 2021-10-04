@@ -24,6 +24,7 @@ The data resides in the local cache for the application data store.
 The data resides in the roaming application data store.
 
 ### -field SharedLocal
+The data resides in the shared local application data store.
 
 ### -field Temporary
 The data resides in the temporary application data store.

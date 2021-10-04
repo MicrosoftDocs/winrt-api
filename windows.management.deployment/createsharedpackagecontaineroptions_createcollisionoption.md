@@ -12,7 +12,11 @@ public Windows.Management.Deployment.SharedPackageContainerCreationCollisionOpti
 
 ## -description
 
+Gets or sets collision options for the shared package container creation operation.
+
 ## -property-value
+
+A [SharedPackageContainerCreationCollisionOptions](sharedpackagecontainercreationcollisionoptions.md) specifying the collision options for the container creation operation.
 
 ## -remarks
 

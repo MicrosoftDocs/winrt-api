@@ -12,6 +12,8 @@ public FindSharedPackageContainerOptions ();
 
 ## -description
 
+Initializes a new instance of the [FindSharedPackageContainerOptions](findsharedpackagecontaineroptions.md) class.
+
 ## -remarks
 
 ## -see-also

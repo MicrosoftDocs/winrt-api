@@ -27,4 +27,7 @@ A value of the enumeration. The default is **Windows**.
 ## -examples
 
 ## -see-also
-[StaticAttribute(Type, UInt32)](staticattribute_staticattribute_810136521.md)
+
+[StaticAttribute(Type, UInt32)](staticattribute_staticattribute_810136521.md),
+[StaticAttribute(Type, UInt32, Type)](staticattribute_staticattribute_847127659.md),
+[StaticAttribute(Type, UInt32, String)](staticattribute_staticattribute_1447974729.md)

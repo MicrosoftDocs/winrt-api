@@ -34,6 +34,8 @@ The user is a remote guest.
 
 ### -field SystemManaged:4
 
+The user is a system managed account.
+
 ## -remarks
 
 ## -examples

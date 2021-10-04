@@ -12,6 +12,8 @@ public PackageAllUserProvisioningOptions ();
 
 ## -description
 
+Initializes a new instance of the [PackageAllUserProvisioningOptions](packagealluserprovisioningoptions.md) class.
+
 ## -remarks
 
 ## -see-also

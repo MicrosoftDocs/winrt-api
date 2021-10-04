@@ -12,7 +12,11 @@ public Windows.Management.Deployment.UpdateSharedPackageContainerResult ResetDat
 
 ## -description
 
+Deletes all data in the shared package container, including virtualized AppData files and virtualized registry keys. 
+
 ## -returns
+
+A [UpdateSharedPackageContainerResult](updatesharedpackagecontainerresult.md) that provides status information about the reset data operation.
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public class CreateFromStringAttribute : System.Attribute
 # Windows.Foundation.Metadata.CreateFromStringAttribute
 
 ## -description
-Create from string attribute.
+Creates a metadata object from a string.
 
 ## -remarks
 

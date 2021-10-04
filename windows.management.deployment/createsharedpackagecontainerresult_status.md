@@ -12,7 +12,11 @@ public Windows.Management.Deployment.SharedPackageContainerOperationStatus Statu
 
 ## -description
 
+Gets a the result status of a call to  [SharedPackageContainerManager.CreateContainer](sharedpackagecontainermanager_createcontainer_1800565425.md).
+
 ## -property-value
+
+A  [SharedPackageContainerOperationStatus](sharedpackagecontaineroperationstatus.md) object representing the result status of the call to **CreateContainer**.
 
 ## -remarks
 

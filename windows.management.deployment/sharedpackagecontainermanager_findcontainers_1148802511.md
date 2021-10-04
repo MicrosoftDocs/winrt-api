@@ -12,7 +12,11 @@ public System.Collections.Generic.IList<Windows.Management.Deployment.SharedPack
 
 ## -description
 
+Retrieves a list of all [SharedPackageContainer](sharedpackagecontainer.md) objects within the scope of the current manager.
+
 ## -returns
+
+The list of **SharedPackageContainer**.
 
 ## -remarks
 

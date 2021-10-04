@@ -5,7 +5,11 @@
 
 ## -description
 
+Gets an instance of PreviewTeamView for the current window (app view).
+
 ## -returns
+
+An instance of PreviewTeamView for the current window (app view).
 
 ## -remarks
 

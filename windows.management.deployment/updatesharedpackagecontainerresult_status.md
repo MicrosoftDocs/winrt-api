@@ -12,7 +12,11 @@ public Windows.Management.Deployment.SharedPackageContainerOperationStatus Statu
 
 ## -description
 
+Gets a the result status of a shared package container update operation.
+
 ## -property-value
+
+A  [SharedPackageContainerOperationStatus](sharedpackagecontaineroperationstatus.md) object representing the result status of the update operation.
 
 ## -remarks
 

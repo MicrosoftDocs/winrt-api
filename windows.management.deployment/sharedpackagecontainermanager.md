@@ -12,6 +12,8 @@ public sealed class SharedPackageContainerManager
 
 ## -description
 
+Provides methods for creating, deleting, and retrieving [SharedPackageContainer](sharedpackagecontainer.md) objects.
+
 ## -remarks
 
 ## -see-also

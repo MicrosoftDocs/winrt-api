@@ -30,5 +30,9 @@ The name of the new contract to which the type is associated.
 
 ## -see-also
 
+[PreviousContractVersionAttribute(String, UInt32, UInt32)](previouscontractversionattribute_previouscontractversionattribute_424962842.md),
+[PreviousContractVersionAttribute(Type, UInt32, UInt32, Type)](previouscontractversionattribute_previouscontractversionattribute_1003005803.md),
+[PreviousContractVersionAttribute(Type, UInt32, UInt32)](previouscontractversionattribute_previouscontractversionattribute_1067943981.md)
+
 ## -examples
 

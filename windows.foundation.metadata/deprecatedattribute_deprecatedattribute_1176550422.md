@@ -30,4 +30,7 @@ A string representing the type of the API contract implementing the deprecated t
 ## -examples
 
 ## -see-also
-[DeprecatedAttribute(String, DeprecationType, UInt32)](deprecatedattribute_deprecatedattribute_1976601322.md), [DeprecatedAttribute(String, DeprecationType, UInt32, Platform)](deprecatedattribute_deprecatedattribute_1103216178.md)
+
+[DeprecatedAttribute(String, DeprecationType, UInt32, Platform)](deprecatedattribute_deprecatedattribute_1103216178.md),
+[DeprecatedAttribute(String, DeprecationType, UInt32, Type)](deprecatedattribute_deprecatedattribute_1908385198.md),
+[DeprecatedAttribute(String, DeprecationType, UInt32)](deprecatedattribute_deprecatedattribute_1976601322.md)

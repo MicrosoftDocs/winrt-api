@@ -12,11 +12,17 @@ public static Windows.Management.Deployment.AutoUpdateSettingsOptions CreateFrom
 
 ## -description
 
+Creates a new instance of the **AutoUpdateSettingsOptions** with values from the provided [AppInstallerInfo](../windows.applicationmodel/appinstallerinfo.md) class.
+
 ## -parameters
 
 ### -param appInstallerInfo
 
+The **AppInstallerInfo** object from which a new **AutoUpdateSettingsOptions** instance is created.
+
 ## -returns
+
+The new instance of the **AutoUpdateSettingsOptions** class.
 
 ## -remarks
 

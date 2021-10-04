@@ -17,10 +17,10 @@ Defines the list of image nominal pixel range suppored by Windows ML. The proper
 ### -field ZeroTo255:0
 The pixel range is [0...255] for 8bpp(8 Bits per Pixel) samples.
 
-### -field ZeroTo255:1
+### -field ZeroToOne:1
 The [0...1] pixel data is stored normalized.
 
-### -field ZeroToOne:2
+### -field MinusOneToOne:2
 The [-1...1] pixel data is stored normalized.
 
 ## -remarks

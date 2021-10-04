@@ -12,6 +12,8 @@ public sealed class AppInstallerManager
 
 ## -description
 
+Provides APIs for updating app installer settings such as automatic updates.
+
 ## -remarks
 
 ## -see-also

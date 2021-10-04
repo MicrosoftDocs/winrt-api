@@ -12,7 +12,11 @@ public string Id { get; }
 
 ## -description
 
+Gets the unique identifier on the device for the shared package container.
+
 ## -property-value
+
+The ID of the package container.
 
 ## -remarks
 

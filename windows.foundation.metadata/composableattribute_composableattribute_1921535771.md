@@ -11,21 +11,27 @@ public ComposableAttribute (Type type, Windows.Foundation.Metadata.CompositionTy
 
 
 ## -description
+Creates and initializes a new instance of the attribute.
 
 ## -parameters
-
 ### -param type
+The type of the factory object that is used to create the programming element.
 
 ### -param compositionType
+One of the enumeration values.
 
 ### -param version
+The version of the API contract in which the composition factory was added to the runtime class's activation factory.
 
 ### -param contract
+The type of the API contract implementing the class.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also
 
+[ComposableAttribute(Type, CompositionType, UInt32, Platform)](composableattribute_composableattribute_1123439749.md),
+[ComposableAttribute(Type, CompositionType, UInt32, String)](composableattribute_composableattribute_1159157411.md),
+[ComposableAttribute(Type, CompositionType, UInt32)](composableattribute_composableattribute_1994874973.md)

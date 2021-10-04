@@ -12,7 +12,11 @@ public DeleteSharedPackageContainerOptions ();
 
 ## -description
 
+Initializes a new instance of the [DeleteSharedPackageContainerOptions](deletesharedpackagecontaineroptions.md) class.
+
 ## -remarks
+
+
 
 ## -see-also
 

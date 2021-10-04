@@ -12,6 +12,8 @@ public sealed class DeleteSharedPackageContainerOptions
 
 ## -description
 
+Provides options for creating a shared package container with a call to  [SharedPackageContainerManager.DeleteContainer](sharedpackagecontainermanager_deletecontainer_1124709414.md).
+
 ## -remarks
 
 ## -see-also

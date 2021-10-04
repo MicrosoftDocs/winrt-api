@@ -142,6 +142,10 @@ The app was activated as a print support settings UI extension. For more informa
 ### -field PrintSupportSettingsUI: 1024
 The app was activated as a print workflow job UI extension. For more information, see [PrintSupportSettingsUISession](../windows.graphics.printing.printsupport/printsupportsettingsuisession.md).
 
+### -field PhoneCallActivation: 1025
+The app was activated in response to a phone call.
+
+
 ### -field VpnForeground: 1026
 The app is a VPN foreground app that was activated by the plugin. For more details, see [VpnChannel.ActivateForeground](../windows.networking.vpn/ivpnplugin_encapsulate_494498240.md).
 

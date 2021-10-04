@@ -9,14 +9,19 @@
 public static bool Equals (Guid target, Guid value);
 -->
 
-
 ## -description
+
+Determines whether one guid is the same as another guid.
 
 ## -parameters
 
 ### -param target
 
+The guid to test against.
+
 ### -param value
+
+The guid to test.
 
 ## -returns
 
@@ -25,5 +30,3 @@ public static bool Equals (Guid target, Guid value);
 ## -see-also
 
 ## -examples
-
-

@@ -4869,6 +4869,159 @@ The _IsCommandBarOpen_ property for the [HandwritingView](../windows.ui.xaml.con
 ### -field HandwritingView_IsSwitchToKeyboardEnabled:2396
 The _IsSwitchToKeyboardEnabled_ property for the [HandwritingView](../windows.ui.xaml.controls/handwritingview.md) type.
 
+### -field ListViewItemPresenter_SelectionIndicatorVisualEnabled: 2399
+The _SelectionIndicatorVisualEnabled_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_SelectionIndicatorBrush: 2400
+The _SelectionIndicatorBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_SelectionIndicatorMode: 2401
+The _SelectionIndicatorMode_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_SelectionIndicatorPointerOverBrush: 2402
+The _SelectionIndicatorPointerOverBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_SelectionIndicatorPressedBrush: 2403
+The _SelectionIndicatorPressedBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_SelectedBorderBrush: 2410
+The _SelectedBorderBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_SelectedInnerBorderBrush: 2411
+The _SelectedInnerBorderBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxCornerRadius: 2412
+The _CheckBoxCornerRadius_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_SelectionIndicatorCornerRadius: 2413
+The _SelectionIndicatorCornerRadius_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_SelectedDisabledBorderBrush: 2414
+The _SelectedDisabledBorderBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_SelectedPressedBorderBrush: 2415
+The _SelectedPressedBorderBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_SelectedDisabledBackground: 2416
+The _SelectedDisabledBackground_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_PointerOverBorderBrush: 2417
+The _PointerOverBorderBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxPointerOverBrush: 2418
+The _CheckBoxPointerOverBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxPressedBrush: 2419
+The _CheckBoxPressedBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckDisabledBrush: 2420
+The _CheckDisabledBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckPressedBrush: 2421
+The _CheckPressedBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxBorderBrush: 2422
+The _CheckBoxBorderBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxDisabledBorderBrush: 2423
+The _CheckBoxDisabledBorderBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxPressedBorderBrush: 2424
+The _CheckBoxPressedBorderBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxDisabledBrush: 2425
+The _CheckBoxDisabledBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxSelectedBrush: 2426
+The _CheckBoxSelectedBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxSelectedDisabledBrush: 2427
+The _CheckBoxSelectedDisabledBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxSelectedPointerOverBrush: 2428
+The _CheckBoxSelectedPointerOverBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxSelectedPressedBrush: 2429
+The _CheckBoxSelectedPressedBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_CheckBoxPointerOverBorderBrush: 2430
+The _CheckBoxPointerOverBorderBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field ListViewItemPresenter_SelectionIndicatorDisabledBrush: 2431
+The _SelectionIndicatorDisabledBrush_ property for the [ListViewItemPresenter](../windows.ui.xaml.controls.primitives/listviewitempresenter.md) type.
+
+### -field CalendarView_BlackoutBackground: 2432
+The _BlackoutBackground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_BlackoutStrikethroughBrush: 2433
+The _BlackoutStrikethroughBrush_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_CalendarItemCornerRadius: 2434
+The _CalendarItemCornerRadius_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_CalendarItemDisabledBackground: 2435
+The _CalendarItemDisabledBackground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_CalendarItemHoverBackground: 2436
+The _CalendarItemHoverBackground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_CalendarItemPressedBackground: 2437
+The _CalendarItemPressedBackground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_DayItemMargin: 2438
+The _DayItemMargin_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_FirstOfMonthLabelMargin: 2439
+The _FirstOfMonthLabelMargin_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_FirstOfYearDecadeLabelMargin: 2440
+The _FirstOfYearDecadeLabelMargin_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_MonthYearItemMargin: 2441
+The _MonthYearItemMargin_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_OutOfScopeHoverForeground: 2442
+The _OutOfScopeHoverForeground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_OutOfScopePressedForeground: 2443
+The _OutOfScopePressedForeground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_SelectedDisabledBorderBrush: 2444
+The _SelectedDisabledBorderBrush_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_SelectedDisabledForeground: 2445
+The _SelectedDisabledForeground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_SelectedHoverForeground: 2446
+The _SelectedHoverForeground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_SelectedPressedForeground: 2447
+The _SelectedPressedForeground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_TodayBlackoutForeground: 2448
+The _TodayBlackoutForeground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_TodayDisabledBackground: 2449
+The _TodayDisabledBackground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_TodayHoverBackground: 2450
+The _TodayHoverBackground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field CalendarView_TodayPressedBackground: 2451
+The _TodayPressedBackground_ property for the [CalendarView](../windows.ui.xaml.controls/calendarview.md) type.
+
+### -field Popup_ActualPlacement: 2452
+The _ActualPlacement_ property for the [Popup](../windows.ui.xaml.controls.primitives/popup.md) type.
+
+### -field Popup_DesiredPlacement: 2453
+The _DesiredPlacement_ property for the [Popup](../windows.ui.xaml.controls.primitives/popup.md) type.
+
+### -field Popup_PlacementTarget: 2454
+The _PlacementTarget_ property for the [Popup](../windows.ui.xaml.controls.primitives/popup.md) type.
+
+### -field AutomationProperties_AutomationControlType: 2455
+The _AutomationControlType_ property for the [AutomationProperties](../windows.ui.xaml.automation/automationproperties.md) type.
+
 ## -see-also
 
 [XamlDirect](xamldirect.md), [IXamlDirectObject](ixamldirectobject.md), [XamlTypeIndex](xamltypeindex.md), [XamlEventIndex](xamleventindex.md)

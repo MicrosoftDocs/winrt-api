@@ -17,12 +17,13 @@ The description of the sequence variable.
 
 ## -remarks
 
-## -see-also
-
 > [!Warning]
 > This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
+## -see-also
+
 ## -examples
+
  ```csharp
 public void Evaluator(LearningModelPreview model)
 {

@@ -12,7 +12,12 @@ public static Windows.Management.Deployment.SharedPackageContainerManager GetFor
 
 ## -description
 
+Gets an instance of the [SharedPackageContainerManager](sharedpackagecontainermanager.md) class that facilitates provisioning containers that will apply to all users. 
+
+ 
 ## -returns
+
+An instance of **SharedPackageContainerManager**.
 
 ## -remarks
 

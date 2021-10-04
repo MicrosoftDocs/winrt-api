@@ -26,7 +26,7 @@ To provision a package you must be an administrator. The app package to be provi
 If the package is already provisioned, this performs a "clean" reprovision. A "clean" reprovision will remove all previous installs of this package so the package will behave as if this were its first installation.
 
 > [!NOTE]
-> If you are provisioning optional packages, you must specify each optional package individually with its own method call.
+> If you are provisioning optional packages, you must specify each optional package individually with its own method call. Starting with Windows Build 22000, you can use the overload of [ProvisionPackageForAllUsersAsync](packagemanager_provisionpackageforallusersasync_1152150951.md), to specify additional optional packages to install with a single call.
 
 ## -see-also
 

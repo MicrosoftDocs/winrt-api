@@ -14,9 +14,15 @@ public Windows.Management.Deployment.SharedPackageContainer GetContainer (string
 
 ## -parameters
 
+Retrieves the [SharedPackageContainer](sharedpackagecontainer.md) with the specified ID.
+
 ### -param id
 
+A string containing the ID of the container to retrieve.
+
 ## -returns
+
+The retrieved **SharedPackageContainer** object.
 
 ## -remarks
 

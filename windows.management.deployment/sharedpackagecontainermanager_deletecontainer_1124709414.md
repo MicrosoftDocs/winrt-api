@@ -12,15 +12,25 @@ public Windows.Management.Deployment.DeleteSharedPackageContainerResult DeleteCo
 
 ## -description
 
+Deletes the specified package container.
+
 ## -parameters
 
 ### -param id
 
+The ID of the package to delete.
+
 ### -param options
+
+A [DeleteSharedPackageContainerOptions](deletesharedpackagecontaineroptions.md) object specifying options for the delete operation.
 
 ## -returns
 
+A [DeleteSharedPackageContainerResult](deletesharedpackagecontainerresult.md) object providing status information about the delete operation.
+
 ## -remarks
+
+Deletion destroys the container and all of its data in the current manager scope.  For a user-scoped manager, it only removes for the current user. For a machine-scoped manager, it deprovisions the container so future users won’t acquire it. 
 
 ## -see-also
 

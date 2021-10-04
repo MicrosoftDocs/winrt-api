@@ -12,7 +12,11 @@ public System.Collections.Generic.IList<string> OptionalPackageFamilyNames { get
 
 ## -description
 
+Gets the list of optional family names of packages that form a related set with the specified main package family. 
+
 ## -property-value
+
+The list of optional family names.
 
 ## -remarks
 

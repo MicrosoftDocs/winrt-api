@@ -12,7 +12,11 @@ public string Name { get; set; }
 
 ## -description
 
+Gets or sets the name of the shared package container to find.
+
 ## -property-value
+
+The name of the shared package container to find.
 
 ## -remarks
 

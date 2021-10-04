@@ -12,11 +12,17 @@ public static bool IsArchitectureSupported (Windows.System.ProcessorArchitecture
 
 ## -description
 
+Determines if the system supports the specified processor architecture.
+
 ## -parameters
 
 ### -param type
 
+The architecture.
+
 ## -returns
+
+True if the architecture is supported, false otherwise.
 
 ## -remarks
 

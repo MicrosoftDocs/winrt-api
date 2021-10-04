@@ -12,6 +12,8 @@ public AutoUpdateSettingsOptions ();
 
 ## -description
 
+Initializes a new instance of the **AutoUpdateSettingsOptions** class.
+
 ## -remarks
 
 ## -see-also

@@ -12,9 +12,13 @@ public struct DisplayId
 
 ## -description
 
+Represents the identifier of a logical display.
+
 ## -struct-fields
 
 ### -field Value
+
+The identifier of a logical display.
 
 ## -remarks
 

@@ -17,10 +17,10 @@ The name of the sequence variable. This must be unique across all variables in t
 
 ## -remarks
 
-## -see-also
-
 > [!Warning]
 > This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
+
+## -see-also
 
 ## -examples
  ```csharp

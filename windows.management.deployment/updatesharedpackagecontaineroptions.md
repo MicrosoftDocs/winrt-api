@@ -12,6 +12,8 @@ public sealed class UpdateSharedPackageContainerOptions
 
 ## -description
 
+Provides options for updating a shared package container.
+
 ## -remarks
 
 ## -see-also

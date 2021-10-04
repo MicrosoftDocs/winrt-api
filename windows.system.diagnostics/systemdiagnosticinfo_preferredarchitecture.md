@@ -9,10 +9,13 @@
 public static Windows.System.ProcessorArchitecture PreferredArchitecture { get; }
 -->
 
-
 ## -description
 
+Gets the system's preferred processor architecture.
+
 ## -property-value
+
+The system's preferred processor architecture.
 
 ## -remarks
 

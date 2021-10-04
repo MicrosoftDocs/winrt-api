@@ -12,6 +12,8 @@ public CreateSharedPackageContainerOptions ();
 
 ## -description
 
+Initializes a new instance of the [CreateSharedPackageContainerOptions](createsharedpackagecontaineroptions.md) class.
+
 ## -remarks
 
 ## -see-also

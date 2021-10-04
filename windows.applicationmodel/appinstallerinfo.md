@@ -1,25 +1,27 @@
 ---
 -api-id: T:Windows.ApplicationModel.AppInstallerInfo
 -api-type: winrt class
-ms.custom: RS5
 ---
-
-<!-- Class syntax.
-public class AppInstallerInfo 
--->
 
 # Windows.ApplicationModel.AppInstallerInfo
 
+<!--
+public sealed class AppInstallerInfo
+-->
+
+
 ## -description
 
-Provides read-only access to the URI of the .appinstaller XML file location. This allows app developers to retrieve the .appinstaller XML file location when needed by their app.
+Represents an App Installer file containing app package and bundle information for defining the packages that are part of a related set and specifying update and repair configuration.
 
 ## -remarks
 
-## -see-also
+For more information on the file format and contents, see [App Installer File](/uwp/schemas/appinstallerschema/app-installer-file).
 
-[Package.GetAppInstallerInfo](package_getappinstallerinfo_627300881.md)
+Get an instance of this class by calling [Package.GetAppInstallerInfo](package_getappinstallerinfo_627300881.md).
+
+## -see-also
 
 ## -examples
 
-For a related example, see the [Package.GetAppInstallerInfo](package_getappinstallerinfo_627300881.md) article.
+

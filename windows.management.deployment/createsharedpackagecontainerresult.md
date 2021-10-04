@@ -12,6 +12,8 @@ public sealed class CreateSharedPackageContainerResult
 
 ## -description
 
+Represents the results of a call to [SharedPackageContainerManager.CreateContainer](sharedpackagecontainermanager_createcontainer_1800565425.md).
+
 ## -remarks
 
 ## -see-also

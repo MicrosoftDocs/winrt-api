@@ -27,4 +27,7 @@ A string representing the type of the API contract implementing the class.
 ## -examples
 
 ## -see-also
-[StaticAttribute(Type, UInt32)](staticattribute_staticattribute_810136521.md), [StaticAttribute(Type, UInt32, Platform)](staticattribute_staticattribute_708913573.md)
+
+[StaticAttribute(Type, UInt32, Platform)](staticattribute_staticattribute_708913573.md),
+[StaticAttribute(Type, UInt32)](staticattribute_staticattribute_810136521.md),
+[StaticAttribute(Type, UInt32, Type)](staticattribute_staticattribute_847127659.md)

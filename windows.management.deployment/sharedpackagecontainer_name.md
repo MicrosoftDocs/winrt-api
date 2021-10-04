@@ -12,9 +12,15 @@ public string Name { get; }
 
 ## -description
 
+Gets the name of the shared package container.
+
 ## -property-value
 
+The name of the shared package container.
+
 ## -remarks
+
+Specify the name of a shared package container in the call to [CreateContainer](sharedpackagecontainermanager_createcontainer_1800565425.md).
 
 ## -see-also
 

@@ -12,13 +12,21 @@ public void SetAutoUpdateSettings (string packageFamilyName, Windows.Management.
 
 ## -description
 
+Sets the auto update settings for the specified package.
+
 ## -parameters
 
 ### -param packageFamilyName
 
+The package family name for the package for which auto update settings are set.
+
 ### -param appInstallerInfo
 
+An [AutoUpdateSettingsOptions](autoupdatesettingsoptions.md) object representing the new auto update settings.
+
 ## -remarks
+
+To use this API, you must declare the **packageManagement** and **packageQuery** capabilities.
 
 ## -see-also
 

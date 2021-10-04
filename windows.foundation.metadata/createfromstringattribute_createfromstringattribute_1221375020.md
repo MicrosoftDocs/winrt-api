@@ -10,7 +10,8 @@ public CreateFromStringAttribute()
 # Windows.Foundation.Metadata.CreateFromStringAttribute.CreateFromStringAttribute
 
 ## -description
-Create from string attribute.
+
+Default constructor for **CreateFromStringAttribute**
 
 ## -remarks
 

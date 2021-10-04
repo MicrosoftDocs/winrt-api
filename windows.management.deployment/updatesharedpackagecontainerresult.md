@@ -12,6 +12,8 @@ public sealed class UpdateSharedPackageContainerResult
 
 ## -description
 
+Represents the results of shared package container update operation.
+
 ## -remarks
 
 ## -see-also

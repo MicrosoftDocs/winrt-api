@@ -12,7 +12,11 @@ public System.Collections.Generic.IList<string> ProjectionOrderPackageFamilyName
 
 ## -description
 
+Gets the list of package family names that will determine the order that package contents will be projected to the common location, for related sets with payload that requires projection into a common folder.  
+
 ## -property-value
+
+The list of package family names that will determine the order that package contents will be projected to the common location
 
 ## -remarks
 

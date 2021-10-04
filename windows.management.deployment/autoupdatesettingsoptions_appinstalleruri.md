@@ -12,7 +12,11 @@ public System.Uri AppInstallerUri { get; set; }
 
 ## -description
 
+Gets or sets the a **Uri** object pointing to the App Installer file represented by the **AppInstallerInfo** object.
+
 ## -property-value
+
+The URI of the associated App Installer file.
 
 ## -remarks
 

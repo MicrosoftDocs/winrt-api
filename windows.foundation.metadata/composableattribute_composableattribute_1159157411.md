@@ -30,4 +30,9 @@ A string representing the type of the API contract implementing the class.
 ## -examples
 
 ## -see-also
-[ComposableAttribute(Type, CompositionType, UInt32)](composableattribute_composableattribute_1994874973.md), [ComposableAttribute(Type, CompositionType, UInt32, Platform)](composableattribute_composableattribute_1123439749.md)
+
+## -see-also
+
+[ComposableAttribute(Type, CompositionType, UInt32, Platform)](composableattribute_composableattribute_1123439749.md),
+[ComposableAttribute(Type, CompositionType, UInt32, Type)](composableattribute_composableattribute_1921535771.md),
+[ComposableAttribute(Type, CompositionType, UInt32)](composableattribute_composableattribute_1994874973.md)

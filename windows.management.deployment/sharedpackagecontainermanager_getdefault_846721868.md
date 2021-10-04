@@ -12,7 +12,11 @@ public static Windows.Management.Deployment.SharedPackageContainerManager GetDef
 
 ## -description
 
+Gets an instance of the [SharedPackageContainerManager](sharedpackagecontainermanager.md) class for the current user.
+
 ## -returns
+
+An instance of **SharedPackageContainerManager**.
 
 ## -remarks
 

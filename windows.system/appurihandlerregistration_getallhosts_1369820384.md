@@ -12,7 +12,12 @@ public System.Collections.Generic.IList<Windows.System.AppUriHandlerHost> GetAll
 
 ## -description
 
+Retrieves the set of all hosts including those added programmatically with [SetAppAddedHostsAsync](appurihandlerregistration_setappaddedhostsasync_654710773.md) and those registered statically in the app manifest.
+
+
 ## -returns
+
+The set of all hosts.
 
 ## -remarks
 
