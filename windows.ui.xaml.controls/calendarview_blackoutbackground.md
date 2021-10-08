@@ -40,7 +40,11 @@ A brush that provides the background of a date that can't be selected.
 
 ## -remarks
 
+To mark a date as not selectable, set the [CalendarViewDayItem.IsBlackout](calendarviewdayitem_isblackout.md) property to `true`. For more information, see [Updating calendar day items](/uwp/api/windows.ui.xaml.controls.calendarview#updating-calendar-day-items).
+
 ## -see-also
+
+[CalendarViewDayItem.IsBlackout](calendarviewdayitem_isblackout.md), [Updating calendar day items](/uwp/api/windows.ui.xaml.controls.calendarview#updating-calendar-day-items)
 
 ## -examples
 
