@@ -25,7 +25,7 @@ A callback based on the [DependencyPropertyChangedCallback](dependencypropertych
 A token that represents the callback, used to identify the callback in calls to [UnregisterPropertyChangedCallback](dependencyobject_unregisterpropertychangedcallback_129400824.md).
 
 ## -remarks
-Use RegisterPropertyChangedCallback to get property-changed notification for dependency properties that are already defined as part of the Windows Runtime. This is useful for properties where were isn't already a corresponding Windows Runtime event that tracks changes. For example, [FrameworkElement.Tag](frameworkelement_tag.md) is an existing Windows Runtime dependency property, and your app could track when that property's value changes because some external input (like a data binding) has changed that property's runtime value on a particular object instance that's part of your app UI.
+Use RegisterPropertyChangedCallback to get property-changed notification for dependency properties that are already defined as part of the XAML framework. This is useful for properties where were isn't already a corresponding XAML framework event that tracks changes. For example, [FrameworkElement.Tag](frameworkelement_tag.md) is an existing XAML framework dependency property, and your app could track when that property's value changes because some external input (like a data binding) has changed that property's runtime value on a particular object instance that's part of your app UI.
 
 To unregister the callback, call [UnregisterPropertyChangedCallback](dependencyobject_unregisterpropertychangedcallback_129400824.md) and pass in the token returned by this method.
 
