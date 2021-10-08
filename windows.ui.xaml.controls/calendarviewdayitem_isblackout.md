@@ -31,6 +31,6 @@ To mark a date as not selectable, set this property to `true`. For more informat
 
 ## -examples
 
-[CalendarView.BlackoutForeground](calendarview_blackoutforeground.md), [CalendarView.BlackoutBackground](calendarview_blackoutbackground.md), [Updating calendar day items](/uwp/api/windows.ui.xaml.controls.calendarview#updating-calendar-day-items)
-
 ## -see-also
+
+[CalendarView.BlackoutForeground](calendarview_blackoutforeground.md), [CalendarView.BlackoutBackground](calendarview_blackoutbackground.md), [Updating calendar day items](/uwp/api/windows.ui.xaml.controls.calendarview#updating-calendar-day-items)
