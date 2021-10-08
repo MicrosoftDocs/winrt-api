@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.Bluetooth.BluetoothLED
 # Windows.Devices.Bluetooth.BluetoothLEDevice.FromBluetoothAddressAsync
 
 ## -description
-Returns a [BluetoothLEDevice](bluetoothledevice.md) object representing the peer device with the given address and address type. See **Remarks** in the member topic.
+Returns a [BluetoothLEDevice](bluetoothledevice.md) object representing the peer device with the given address and address type. See **Remarks** (in this member topic).
 
 ## -parameters
 ### -param bluetoothAddress
@@ -22,6 +22,9 @@ A [BluetoothAddressType](bluetoothaddresstype.md) value containing the address t
 
 ## -returns
 Returns an object representing an asynchronous operation. When that object completes, it contains a [BluetoothLEDevice](bluetoothledevice.md) object representing the peer device with the given address and address type.
+
+> [!IMPORTANT]
+> The returned **BluetoothLEDevice** is set to `null` if **FromBluetoothAddressAsync** can't find the device identified by *bluetoothAddress*. Specifically, if the device isn't paired and it isn't found in the system cache. You can populate the cache for a non-paired device using either the LE advertisement watcher APIs ([BluetoothLEAdvertisementWatcher](/uwp/api/windows.devices.bluetooth.advertisement.bluetoothleadvertisementwatcher)) or the device enumeration APIs ([GetDeviceSelectorFromPairingState](/uwp/api/windows.devices.bluetooth.bluetoothledevice.getdeviceselectorfrompairingstate)) to scan for the Bluetooth devices before the **FromBluetoothAddressAsync** can be successfully used.
 
 ## -remarks
 Creating a [BluetoothLEDevice](bluetoothledevice.md) object by calling this method alone doesn't (necessarily) initiate a connection. To initiate a connection, set [GattSession.MaintainConnection](/uwp/api/windows.devices.bluetooth.genericattributeprofile.gattsession.maintainconnection) to `true`, or call an uncached service discovery method on **BluetoothLEDevice**, or perform a read/write operation against the device.
