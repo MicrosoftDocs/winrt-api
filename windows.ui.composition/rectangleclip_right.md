@@ -11,11 +11,11 @@ public float Right { get; set; }
 
 ## -description
 
-Gets or sets the position of the right edge of the rectangle.
+Gets or sets the offset from the right of the visual. The portion of the visual to the right the edge defined by `Right` will be clipped. Animatable.
 
 ## -property-value
 
-The position of the right edge of the rectangle.
+The offset from the right of the visual, in pixels.
 
 ## -remarks
 

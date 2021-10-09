@@ -11,11 +11,11 @@ public float Top { get; set; }
 
 ## -description
 
-Gets or sets the position of the top edge of the rectangle.
+Gets or sets the offset from the top of the visual. The portion of the visual above the edge defined by `Top` will be clipped. Animatable.
 
 ## -property-value
 
-The position of the top edge of the rectangle.
+The offset from the top of the visual, in pixels.
 
 ## -remarks
 

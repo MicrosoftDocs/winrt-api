@@ -12,13 +12,15 @@ public class CompositionGeometricClip : CompositionClip, CompositionClip
 
 ## -description
 
-Clips a portion of a visual. The visible portion of the visual is a shape defined by a [CompositionGeometry](compositiongeometry.md). The portion of the visual outside the geometry is clipped.
+Represents a shape that clips a portion of a visual. The visible portion of the visual is a shape defined by a [CompositionGeometry](compositiongeometry.md). The portion of the visual outside the geometry is clipped.
 
 Equivalent WinUI class: [Microsoft.UI.Composition.CompositionGeometricClip](/windows/winui/api/microsoft.ui.composition.compositiongeometricclip).
 
 ## -remarks
 
 ## -see-also
+
+[Visual.Clip](visual_clip.md)
 
 ## -examples
 

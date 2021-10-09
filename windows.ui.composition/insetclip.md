@@ -10,15 +10,23 @@ public class InsetClip : Windows.UI.Composition.CompositionClip, Windows.UI.Comp
 # Windows.UI.Composition.InsetClip
 
 ## -description
-Clips a portion of a visual. The visible portion of the visual is a rectangle defined as inset values from the edges of the visual. The portion of the visual outside the rectangle is clipped.
 
-InsetClips are defined using offsets from the bottom, left, right and top of the Visual to be clipped in pixels. It is possible to fully clip the entire Visual. Negative values are allowed. InsetClips support all the same transforms as Visuals except the 4x4 matrix. Unlike Visuals, InsetClips are 2D and are defined, instead, with a 3x2 matrix. InsetClip properties are fully animatable.
+Represents a rectangle that clips a portion of a visual. The portion of the visual inside the rectangle is visible; the portion of the visual outside the rectangle is clipped.
 
 Equivalent WinUI class: [Microsoft.UI.Composition.InsetClip](/windows/winui/api/microsoft.ui.composition.insetclip).
 
 ## -remarks
 
+`InsetClip` is functionally similar to [RectangleClip](rectangleclip.md), but `RectangleClip` allows you to round the corners of the clipping rectangle.
+
+An `InsetClip` is defined using offsets in pixels from the bottom, left, right, and top of the [Visual](visual.md) to be clipped.
+
+To clip a `Visual`, you assign the `InsetClip` to the [Clip](visual_clip.md) property of the `Visual`.
+
+It is possible to fully clip the entire `Visual`. Negative values are allowed. `InsetClip` supports all the same transforms as `Visual` except the 4x4 matrix. Unlike `Visual`, `InsetClip` is 2D and is defined, instead, with a 3x2 matrix. `InsetClip` properties are fully animatable.
+
 ## -examples
 
 ## -see-also
-[CompositionClip](compositionclip.md), [IClosable](../windows.foundation/iclosable.md)
+
+[Visual.Clip](visual_clip.md), [CompositionClip](compositionclip.md), [IClosable](../windows.foundation/iclosable.md)

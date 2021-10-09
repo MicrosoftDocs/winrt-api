@@ -11,11 +11,11 @@ public float Left { get; set; }
 
 ## -description
 
-Gets or sets the position of the left edge of the rectangle.
+Gets or sets the offset from the left of the visual. The portion of the visual to the left of the edge defined by `Left` will be clipped. Animatable.
 
 ## -property-value
 
-The position of the left edge of the rectangle.
+The offset from the left of the visual, in pixels.
 
 ## -remarks
 

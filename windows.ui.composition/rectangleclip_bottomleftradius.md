@@ -15,7 +15,7 @@ Gets or sets the amount by which the bottom left corner of the rectangle is roun
 
 ## -property-value
 
-The the amount by which the bottom left corner of the rectangle is rounded.
+The amount by which the bottom left corner of the rectangle is rounded, in pixels.
 
 ## -remarks
 

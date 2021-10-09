@@ -11,11 +11,11 @@ public float Bottom { get; set; }
 
 ## -description
 
-Gets or sets the position of the bottom edge of the rectangle.
+Gets or sets the offset from the bottom of the visual. The portion of the visual below the edge defined by `Bottom` will be clipped. Animatable.
 
 ## -property-value
 
-The position of the bottom edge of the rectangle.
+The offset from the bottom of the visual, in pixels.
 
 ## -remarks
 

@@ -17,35 +17,35 @@ Creates an instance of [RectangleClip](rectangleclip.md) with the specified edge
 
 ### -param left
 
-The length of the left edge.
+The offset of the left edge from the left of the visual, in pixels.
 
 ### -param top
 
-The length of the top edge.
+The offset of the top edge from the top of the visual, in pixels.
 
 ### -param right
 
-The length of the right edge.
+The offset of the right edge from the right of the visual, in pixels.
 
 ### -param bottom
 
-The length of the bottom edge.
+The offset of the bottom edge from the bottom of the visual, in pixels.
 
 ### -param topLeftRadius
 
-The the amount by which the top left corner of the rectangle is rounded.
+The the amount by which the top left corner of the rectangle is rounded, in pixels.
 
 ### -param topRightRadius
 
-The the amount by which the top right corner of the rectangle is rounded.
+The the amount by which the top right corner of the rectangle is rounded, in pixels.
 
 ### -param bottomRightRadius
 
-The the amount by which the bottom right corner of the rectangle is rounded.
+The the amount by which the bottom right corner of the rectangle is rounded, in pixels.
 
 ### -param bottomLeftRadius
 
-The the amount by which the bottom left corner of the rectangle is rounded.
+The the amount by which the bottom left corner of the rectangle is rounded, in pixels.
 
 ## -returns
 

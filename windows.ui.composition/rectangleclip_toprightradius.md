@@ -15,7 +15,7 @@ Gets or sets the amount by which the top right corner of the rectangle is rounde
 
 ## -property-value
 
-The the amount by which the top right corner of the rectangle is rounded.
+The amount by which the top right corner of the rectangle is rounded, in pixels.
 
 ## -remarks
 
