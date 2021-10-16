@@ -22,7 +22,7 @@ Primary view refers to either of the [CoreInputViewKind.Keyboard](coreinputviewk
 
 Used by frameworks (such as XAML) or custom text controls only.
 
-Your app can use the info exposed by this object to adjust and reflow it's UI to account for any occlusion.
+Your app can use the info exposed by this object to adjust and reflow its UI to account for any occlusion.
 
 The CoreInputView APIs support the following types of input panes.  
 

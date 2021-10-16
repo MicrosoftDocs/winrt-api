@@ -22,7 +22,7 @@ The width and height of the visual.
 This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](/windows/uwp/composition/composition-animation).
 
 
-The effective size of a `Visual` is found by adding it's `Size` to it's [RelativeSizeAdjustment](visual_relativesizeadjustment.md) combined with the effective size of the [Parent](visual_parent.md) `Visual`:
+The effective size of a `Visual` is found by adding its `Size` to its [RelativeSizeAdjustment](visual_relativesizeadjustment.md) combined with the effective size of the [Parent](visual_parent.md) `Visual`:
 
 `var Effective_Size = Size + (RelativeSizeAdjustment * Parent.Effective_Size)`.
 

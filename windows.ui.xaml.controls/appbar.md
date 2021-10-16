@@ -32,7 +32,7 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.AppBar](/windows/winui/api/m
 
 An app bar is a UI element that's typically used to present commands and tools to the user, but can also be used for navigation. An app bar can appear at the top of the page, at the bottom of the page, or both. By default, its shown in a minimal state. Its content is shown or hidden when the user presses the ellipsis [•••], or performs a right-click that is not otherwise handled by the app.
 
-Here's an app bar in it's minimal state.
+Here's an app bar in its minimal state.
 
 <img alt="A closed app bar control" src="images/AppBar_Closed_10.png" />
 

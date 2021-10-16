@@ -22,7 +22,7 @@ The value of the property is inherited.  When set to **Application** the adjustm
 When set to **Auto**, the framework automatically applies the following adjustments to XAML's text elements while a high contrast theme is enabled:
 * The foreground color on text is ignored.  The text is colored using either the system’s high contrast text color or the disabled color when in a parent [Control](../windows.ui.xaml.controls/control.md) where [IsEnabled](../windows.ui.xaml.controls/control_isenabled.md) = "False".
 * An opaque rectangle is rendered immediately behind the text to enforce a high contrast ratio.
-* Non-zero values for [Opacity](uielement_opacity.md) are ignored.  The element and it's children will appear as if they had an opacity of 1.0.   
+* Non-zero values for [Opacity](uielement_opacity.md) are ignored.  The element and its children will appear as if they had an opacity of 1.0.   
 
 It is possible to set HighContrastAdjustment = None on a UIElement and then have HighContrastAdjustment = Auto on one of its descendants.  However, the framework does not guarantee that the descendent will be fully opaque if an opacity is applied on any of its ancestors.
 

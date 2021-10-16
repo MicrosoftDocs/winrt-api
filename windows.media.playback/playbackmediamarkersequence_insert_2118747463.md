@@ -10,7 +10,7 @@ public void Insert(Windows.Media.Playback.PlaybackMediaMarker value)
 # Windows.Media.Playback.PlaybackMediaMarkerSequence.Insert
 
 ## -description
-Adds a [PlaybackMediaMarker](playbackmediamarker.md) to the sequence in it's ordered position.
+Adds a [PlaybackMediaMarker](playbackmediamarker.md) to the sequence in its ordered position.
 
 ## -parameters
 ### -param value

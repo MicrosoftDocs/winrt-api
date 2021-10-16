@@ -11,7 +11,7 @@ public KeyboardAcceleratorPlacementMode KeyboardAcceleratorPlacementMode { get; 
 
 ## -description
 
-Gets or sets a value that indicates whether the control tooltip displays the key combination for it's associated keyboard accelerator.
+Gets or sets a value that indicates whether the control tooltip displays the key combination for its associated keyboard accelerator.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.KeyboardAcceleratorPlacementMode](/windows/winui/api/microsoft.ui.xaml.uielement.keyboardacceleratorplacementmode).
 

@@ -18,7 +18,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.AccessKeySco
 The element that defines the access key scope.
 
 ## -remarks
-The source element must have it's **IsAccessKeyScope** property set to **true**.
+The source element must have its **IsAccessKeyScope** property set to **true**.
 
 ## -see-also
 [UIElement.AccessKeyScopeOwner](./../windows.ui.xaml/uielement_accesskeyscopeowner.md)

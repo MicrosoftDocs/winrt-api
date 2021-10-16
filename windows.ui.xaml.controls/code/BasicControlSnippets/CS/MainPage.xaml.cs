@@ -73,7 +73,7 @@ namespace BasicControlSnippets
         private void AddButton()
         {
             // <SnippetBasicButtonCode>
-            // Create a new button, set it's content,
+            // Create a new button, set its content,
             // and add a Click event handler.
             Button button1 = new Button();
             button1.Content = "Button";
@@ -95,7 +95,7 @@ namespace BasicControlSnippets
         private void AddToggleButton()
         {
             // <SnippetBasicToggleButtonCode>
-            // Create a new toggle button, set it's content,
+            // Create a new toggle button, set its content,
             // and add a Checked event handler.
             ToggleButton toggleButton1 = new ToggleButton();
             toggleButton1.Content = "Button";
@@ -117,7 +117,7 @@ namespace BasicControlSnippets
         private void AddRepeatButton()
         {
             // <SnippetBasicRepeatButtonCode>
-            // Create a new repeat button, set it's content,
+            // Create a new repeat button, set its content,
             // and add a Click event handler.
             RepeatButton repeatButton1 = new RepeatButton();
             repeatButton1.Content = "Repeat Button";
@@ -140,7 +140,7 @@ namespace BasicControlSnippets
         private void AddHyperlinkButton()
         {
             // <SnippetBasicHyperlinkButtonCode>
-            // Create a new button, set it's content,
+            // Create a new button, set its content,
             // and a Click event handler.
             HyperlinkButton hyperlinkButton1 = new HyperlinkButton();
             hyperlinkButton1.Content = "www.microsoft.com";
@@ -160,7 +160,7 @@ namespace BasicControlSnippets
         private void AddCheckBox()
         {
             // <SnippetBasicCheckBoxCode>
-            // Create a new check box, set it's content, 
+            // Create a new check box, set its content, 
             // and add a Checked event handler.
             CheckBox checkBox1 = new CheckBox();
             checkBox1.Content = "CheckBox";
@@ -234,7 +234,7 @@ namespace BasicControlSnippets
         private void AddToggleSwitch()
         {
             // <SnippetBasicToggleSwitchCode>
-            // Create a new toggle switch, set it's content, 
+            // Create a new toggle switch, set its content, 
             // and add a Toggled event handler.
             ToggleSwitch toggleSwitch1 = new ToggleSwitch();
             toggleSwitch1.Header = "Toggle Switch";
@@ -265,7 +265,7 @@ namespace BasicControlSnippets
             fonts.Add("Item 2");
             fonts.Add("Item 3");
 
-            // Create a new combo box, set it's items source, and add a SelectionChanged handler.
+            // Create a new combo box, set its items source, and add a SelectionChanged handler.
             ComboBox comboBox1 = new ComboBox();
             comboBox1.Width = 200;
             comboBox1.ItemsSource = fonts;
@@ -311,7 +311,7 @@ namespace BasicControlSnippets
             fonts.Add("Item 2");
             fonts.Add("Item 3");
 
-            // Create a new list box, set it's items source, and add a SelectionChanged handler.
+            // Create a new list box, set its items source, and add a SelectionChanged handler.
             ListBox listBox1 = new ListBox();
             listBox1.Width = 140;
             listBox1.ItemsSource = fonts;
@@ -352,7 +352,7 @@ namespace BasicControlSnippets
             double progressValue = 45.0;
 
             // <SnippetBasicProgressBarCode>
-            // Create a new progress bar and set it's Value property to a double value.
+            // Create a new progress bar and set its Value property to a double value.
             ProgressBar progressBar1 = new ProgressBar();
             progressBar1.Value = (double)progressValue;
             progressBar1.Width = 100;
@@ -365,7 +365,7 @@ namespace BasicControlSnippets
         private void AddIndeterminateProgressBar()
         {
             // <SnippetInderminateProgressBarCode>
-            // Create a new progress bar and set it's IsIndeterminate property to true.
+            // Create a new progress bar and set its IsIndeterminate property to true.
             ProgressBar progressBar1 = new ProgressBar();
             progressBar1.IsIndeterminate = true;
             progressBar1.Width = 100;
@@ -379,7 +379,7 @@ namespace BasicControlSnippets
         private void AddProgressRing()
         {
             // <SnippetBasicProgressRingCode>
-            // Create a new progress ring and set it's IsActive property to true.
+            // Create a new progress ring and set its IsActive property to true.
             ProgressRing progressRing1 = new ProgressRing();
             progressRing1.IsActive = true;
             progressRing1.Visibility = Visibility.Visible;
@@ -397,7 +397,7 @@ namespace BasicControlSnippets
             stackPanel1.Children.Add(canvas1);
 
             // <SnippetBasicImageCode>
-            // Create a new image control and set it's Source property.
+            // Create a new image control and set its Source property.
             Image image1 = new Image();
             image1.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri("ms-appx:///Assets/Logo.png"));
 
@@ -410,7 +410,7 @@ namespace BasicControlSnippets
         private void AddTextBlock()
         {
             // <SnippetBasicTextBlockCode>
-            // Create a new text block and set it's Text property.
+            // Create a new text block and set its Text property.
             TextBlock textBlock1 = new TextBlock();
             textBlock1.Text = "I am a TextBlock.";
 
@@ -423,7 +423,7 @@ namespace BasicControlSnippets
         private void AddTextBox()
         {
             // <SnippetBasicTextBoxCode>
-            // Create a new text box, set it's Text property, 
+            // Create a new text box, set its Text property, 
             // and add a TextChanged event handler.
             TextBox textBox1 = new TextBox();
             textBox1.Text = "I am a TextBox.";

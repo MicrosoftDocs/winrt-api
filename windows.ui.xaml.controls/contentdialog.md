@@ -433,7 +433,7 @@ namespace ExampleApp
 
 ```
 
-Here's code that shows the `SignInContentDialog` and uses it's custom `SignInResult`.
+Here's code that shows the `SignInContentDialog` and uses its custom `SignInResult`.
 
 ```csharp
 

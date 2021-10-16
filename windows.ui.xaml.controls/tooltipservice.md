@@ -22,7 +22,7 @@ A [ToolTip](tooltip.md) must be assigned to another UI element that is its owner
 
 By default, a [ToolTip](tooltip.md) is displayed centered above the pointer. The placement is not constrained by the app window, so the [ToolTip](tooltip.md) might be displayed partially or completely outside of the app window bounds.
 
-If a [ToolTip](tooltip.md) obscures the content it is referring to, you can adjust it's placement. Use the ToolTipService.Placement attached property to place the [ToolTip](tooltip.md) above, below, left, or right of the pointer.
+If a [ToolTip](tooltip.md) obscures the content it is referring to, you can adjust its placement. Use the ToolTipService.Placement attached property to place the [ToolTip](tooltip.md) above, below, left, or right of the pointer.
 
 If there is no explicit PlacementTarget, the placement target for a tooltip is the element that specifies a value for its TooltipService.ToolTip attached property value. Any Placement value (either as an attached property or as an attribute on an explicit ToolTip element) applies to that target.
 

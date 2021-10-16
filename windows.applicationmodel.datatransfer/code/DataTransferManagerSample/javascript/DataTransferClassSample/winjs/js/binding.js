@@ -1119,7 +1119,7 @@
         /// is searched.
         /// </param>
         /// <param name="skipRoot" type="Boolean" optional="true" locid="46">
-        /// Determines if rootElement should be bound, or only it's children
+        /// Determines if rootElement should be bound, or only its children
         /// </param>
         /// <param name="bindingCache" locid="47">
         /// Cached binding data
