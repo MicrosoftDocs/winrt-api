@@ -22,9 +22,8 @@ Represents an object that renders audio and video to the display. See Remarks.
 
 ## -remarks
 
-> [!IMPORTANT] In Windows 10, build 1607 and on we recommend that you use [MediaPlayerElement](mediaplayerelement.md) in place of MediaElement. **MediaPlayerElement**
-> has the same functionality as **MediaElement**, while also enabling more advanced media playback scenarios. Additionally, all future improvements in media playback will happen in
-> **MediaPlayerElement**.
+> [!IMPORTANT] 
+> In Windows 10, build 1607 and on we recommend that you use [MediaPlayerElement](mediaplayerelement.md) in place of MediaElement. **MediaPlayerElement** has the same functionality as **MediaElement**, while also enabling more advanced media playback scenarios. Additionally, all future improvements in media playback will happen in **MediaPlayerElement**.
 
 > [!TIP]
 > For more info, design guidance, and code examples, see [Media playback](/windows/uwp/design/controls-and-patterns/media-playback).
