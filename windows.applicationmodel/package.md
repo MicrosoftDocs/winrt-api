@@ -13,7 +13,9 @@ public class Package : Windows.ApplicationModel.IPackage, Windows.ApplicationMod
 Provides information about a package.
 
 ## -remarks
-Although Package is supported in desktop apps, some members of this class are supported only in UWP app. The remarks section will indicate whether a member has any restrictions on its behavior.
+
+> [!IMPORTANT]
+> Although the **Package** class is supported in an unpackaged process (that is, a process belonging to an app that lacks package identity), some members of this class are supported only in a *packaged* process (that is, a process belonging to an app that *has* package identity). For those members, the **Remarks** section of their topics contain more info. And for more info about packaging, see [Package a desktop or UWP app in Visual Studio](/windows/msix/package/packaging-uwp-apps).
 
 ### Version history
 
