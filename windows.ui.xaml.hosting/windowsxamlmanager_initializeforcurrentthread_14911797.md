@@ -23,7 +23,8 @@ Call this method to initialize the internal UWP XAML framework for the current t
 
 This method must be called before creating the **DesktopWindowXamlSource** on the thread.
 
-This method returns a [WindowsXamlManager](windowsxamlmanager.md) object that contains a reference to the UWP XAML framework. Call this method as many times as you want but generally get one instance and run it down after running down the **DesktopWindowXamlSource** instances. Note, after releasing this object a message loop must be run to finish the resource rundown, otherwise the associated resources will be leaked.
+This method returns a [WindowsXamlManager](windowsxamlmanager.md) object that contains a reference to the UWP XAML framework for the current thread. It is safe to call this method multiple times, it will return the same instance if one is active.
+You must destroy the instance after destroying the **DesktopWindowXamlSource** instances. Note, after releasing this object a message loop must be run to finish the resource rundown, otherwise the associated resources will be leaked.
 
 ```cpp
 
