@@ -13,5 +13,11 @@
         "windows.security.authentication.web.core",
         "windows.security.isolation",
         "windows.security.dataprotection"
-    ]
+    ],
+    "markdownlint.config": {
+        "MD028": false,
+        "MD025": {
+            "front_matter_title": ""
+        }
+    }
 }
