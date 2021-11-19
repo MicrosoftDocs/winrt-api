@@ -20,9 +20,9 @@ The system generates an instance of this class and passes it as an argument to t
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1511 | 10586 | State |
-| 1511 | 10586 | TryRespondAsync(IBuffer,Nullable<UInt32>) |
-| 1511 | 10586 | TryRespondWithCryptogramsAsync(IBuffer,IEnumerable<SmartCardCryptogramPlacementStep>) |
-| 1511 | 10586 | TryRespondWithCryptogramsAsync(IBuffer,IEnumerable<SmartCardCryptogramPlacementStep>,Nullable<UInt32>) |
+| 1511 | 10586 | TryRespondAsync(IBuffer,Nullable&lt;UInt32&gt;) |
+| 1511 | 10586 | TryRespondWithCryptogramsAsync(IBuffer,IEnumerable&lt;SmartCardCryptogramPlacementStep&gt;) |
+| 1511 | 10586 | TryRespondWithCryptogramsAsync(IBuffer,IEnumerable&lt;SmartCardCryptogramPlacementStep&gt;,Nullable&lt;UInt32&gt;)
 
 ## -examples
 
