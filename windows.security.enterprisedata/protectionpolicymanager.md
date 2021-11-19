@@ -42,10 +42,10 @@ Manages enterprise-protection policy on protected content.
 | 1703 | 15063 | PrimaryManagedIdentity |
 | 1703 | 15063 | RequestAccessAsync(String,String,ProtectionPolicyAuditInfo,String,ProtectionPolicyRequestAccessBehavior) |
 | 1703 | 15063 | RequestAccessForAppAsync(String,String,ProtectionPolicyAuditInfo,String,ProtectionPolicyRequestAccessBehavior) |
-| 1703 | 15063 | RequestAccessToFilesForAppAsync(IEnumerable<IStorageItem>,String,ProtectionPolicyAuditInfo) |
-| 1703 | 15063 | RequestAccessToFilesForAppAsync(IEnumerable<IStorageItem>,String,ProtectionPolicyAuditInfo,String,ProtectionPolicyRequestAccessBehavior) |
-| 1703 | 15063 | RequestAccessToFilesForProcessAsync(IEnumerable<IStorageItem>,UInt32,ProtectionPolicyAuditInfo) |
-| 1703 | 15063 | RequestAccessToFilesForProcessAsync(IEnumerable<IStorageItem>,UInt32,ProtectionPolicyAuditInfo,String,ProtectionPolicyRequestAccessBehavior) |
+| 1703 | 15063 | RequestAccessToFilesForAppAsync(IEnumerable&lt;IStorageItem&gt;,String,ProtectionPolicyAuditInfo) |
+| 1703 | 15063 | RequestAccessToFilesForAppAsync(IEnumerable&lt;IStorageItem&gt;,String,ProtectionPolicyAuditInfo,String,ProtectionPolicyRequestAccessBehavior) |
+| 1703 | 15063 | RequestAccessToFilesForProcessAsync(IEnumerable&lt;IStorageItem&gt;,UInt32,ProtectionPolicyAuditInfo) |
+| 1703 | 15063 | RequestAccessToFilesForProcessAsync(IEnumerable&lt;IStorageItem&gt;,UInt32,ProtectionPolicyAuditInfo,String,ProtectionPolicyRequestAccessBehavior) |
 
 ## -examples
 
