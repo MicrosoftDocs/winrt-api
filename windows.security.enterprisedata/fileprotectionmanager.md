@@ -23,7 +23,7 @@ Provides access to operations that manage files that are protected to an enterpr
 | -- | -- | -- |
 | 1511 | 10586 | IsContainerAsync |
 | 1511 | 10586 | LoadFileFromContainerAsync(IStorageFile,IStorageItem,NameCollisionOption) |
-| 1511 | 10586 | SaveFileAsContainerAsync(IStorageFile,IEnumerable<String>) |
+| 1511 | 10586 | SaveFileAsContainerAsync(IStorageFile,IEnumerable&lt;String&gt;) |
 | 1703 | 15063 | UnprotectAsync(IStorageItem) |
 | 1703 | 15063 | UnprotectAsync(IStorageItem,FileUnprotectOptions) |
 
