@@ -23,7 +23,7 @@ Provides methods to create and destroy a VPN channel, and methods to perform buf
 | 1803 | 17134 | GetSlotTypeForTransportContext |
 | 1803 | 17134 | ReplaceAndAssociateTransport |
 | 1803 | 17134 | StartReconnectingTransport |
-| 1803 | 17134 | StartWithTrafficFilter(IEnumerable<HostName>,IEnumerable<HostName>,VpnInterfaceId,VpnRouteAssignment,VpnDomainNameAssignment,UInt32,UInt32,Boolean,IEnumerable<Object>,VpnTrafficFilterAssignment) |
+| 1803 | 17134 | StartWithTrafficFilter(IEnumerable&lt;HostName&gt;,IEnumerable&lt;HostName&gt;,VpnInterfaceId,VpnRouteAssignment,VpnDomainNameAssignment,UInt32,UInt32,Boolean,IEnumerableIEnumerable&lt;Object&gt;,VpnTrafficFilterAssignment) |
 
 ## -examples
 
