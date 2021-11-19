@@ -20,7 +20,7 @@ Predicts Japanese words based on a phonetic characters prefix.
 
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
-| 1809 | 17763 | GetCandidatesAsync(String,UInt32,TextPredictionOptions,IEnumerable<String>) |
+| 1809 | 17763 | GetCandidatesAsync(String,UInt32,TextPredictionOptions,IEnumerable&lt;String&gt;) |
 | 1809 | 17763 | GetNextWordCandidatesAsync |
 | 1809 | 17763 | InputScope |
 
