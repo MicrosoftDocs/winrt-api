@@ -27,8 +27,8 @@ Provides information about a package.
 | 1703 | 15063 | GetContentGroupAsync |
 | 1703 | 15063 | GetContentGroupsAsync |
 | 1703 | 15063 | SetInUseAsync |
-| 1703 | 15063 | StageContentGroupsAsync(IEnumerable<String>) |
-| 1703 | 15063 | StageContentGroupsAsync(IEnumerable<String>,Boolean) |
+| 1703 | 15063 | StageContentGroupsAsync(IEnumerable&lt;String&gt;) |
+| 1703 | 15063 | StageContentGroupsAsync(IEnumerable&lt;String&gt;,Boolean) |
 | 1809 | 17763 | CheckUpdateAvailabilityAsync |
 | 1809 | 17763 | GetAppInstallerInfo |
 | 1903 | 18362 | EffectiveLocation |
