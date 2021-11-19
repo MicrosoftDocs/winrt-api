@@ -33,7 +33,7 @@ You can use the [MinWindowWidth](adaptivetrigger_minwindowwidth.md) and [MinWind
 
 
 
-For more examples, see the [XAML Responsive Techniques sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlResponsiveTechniques?amp;amp;clcid=0x409).
+For more examples, see the [XAML Controls Gallery](https://github.com/microsoft/Xaml-Controls-Gallery/blob/master/XamlControlsGallery/AllControlsPage.xaml) sample app.
 
 ## -examples
 This example shows how to use the [StateTriggers](visualstate_statetriggers.md) property with an AdaptiveTrigger to create a declarative rule in XAML markup based on window size. By default, the [StackPanel](../windows.ui.xaml.controls/stackpanel.md) orientation is **Vertical**. When the window width is &gt;= 720 effective pixels, the [VisualState](visualstate.md) change is triggered, and the [StackPanel](../windows.ui.xaml.controls/stackpanel.md) orientation is changed to **Horizontal**.
