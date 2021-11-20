@@ -10,12 +10,14 @@ public interface IMap<K, V> : Windows.Foundation.Collections.IIterable<Windows.F
 # Windows.Foundation.Collections.IMap<K, V>
 
 ## -description
+
 Represents an associative collection, also known as a map or a dictionary.
 
 > **.NET**
 > This interface appears to .NET code as [System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;](/dotnet/api/system.collections.generic.idictionary-2?view=dotnet-uwp-10.0&preserve-view=true) due to .NET language projection. In any case where a Windows Runtime type has implemented IMap&lt;K,V&gt;, .NET code can use the APIs of [IDictionary&lt;TKey,TValue&gt;](/dotnet/api/system.collections.generic.idictionary-2?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
 ## -remarks
+
 When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;](/dotnet/api/system.collections.generic.idictionary-2?view=dotnet-uwp-10.0&preserve-view=true) interface if they want to implement a map/dictionary type. In any case where a Windows Runtime type has implemented IMap&lt;K,V&gt;, .NET code can use the APIs of [IDictionary&lt;TKey,TValue&gt;](/dotnet/api/system.collections.generic.idictionary-2?view=dotnet-uwp-10.0&preserve-view=true) instead. This includes all the existing Windows Runtime API and also scenarios such as using the APIs of Windows Runtime components originally implemented in Visual C++ component extensions (C++/CX) from a C# or Visual Basic app.
 
 The IMap&lt;K,V&gt; interface represents a collection of key-value pairs where a value can be accessed by its associated key. Properties and methods of IMap&lt;K,V&gt; support dictionary-type functionality, such as getting the size of the collection, and adding and removing items at specified locations in the collection. Additionally, the [GetView](imap_2_getview_37498667.md) method provides a snapshot of the map whose observable state does not change. The snapshot is useful when you need a view of the collection to refer to in subsequent operations that involve IMap&lt;K,V&gt;.
@@ -24,6 +26,18 @@ The IMap&lt;K,V&gt; interface represents a collection of key-value pairs where a
 
 > [!NOTE]
 > Extension functions exist on the C++/WinRT projection types for certain Windows Runtime APIs. For example, **winrt::Windows::Foundation::IAsyncAction** is the C++/WinRT projection type for [IAsyncAction](/uwp/api/windows.foundation.iasyncaction). The extension functions aren't part of the application binary interface (ABI) surface of the actual Windows Runtime types, so they're not listed as members of the Windows Runtime APIs. But you can call them from within any C++/WinRT project. See [C++/WinRT functions that extend Windows Runtime APIs](/uwp/cpp-ref-for-winrt/winrt#cwinrt-functions-that-extend-windows-runtime-apis).
+
+```cppwinrt
+auto begin();
+```
+
+Returns an iterator to the first key-value pair of the collection, for use in C++ algorithms such as range-based `for` loops.
+
+```cppwinrt
+auto end();
+```
+
+Returns an iterator to one past the last key-value pair of the collection, for use in C++ algorithms such as range-based `for` loops.
 
 ```cppwinrt
 auto TryLookup(param_type<K> const& key) const;
@@ -44,4 +58,5 @@ IMap&lt;K,V&gt; inherits [IIterable<T>](iiterable_1.md), using an [IKeyValuePair
 ## -examples
 
 ## -see-also
+
 [Collections (C++/CX)](/cpp/cppcx/collections-c-cx), [System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;](/dotnet/api/system.collections.generic.idictionary-2?view=dotnet-uwp-10.0&preserve-view=true)
