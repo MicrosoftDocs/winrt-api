@@ -38,13 +38,13 @@ When programming with .NET, this interface is hidden and developers should use t
 > Extension functions exist on the C++/WinRT projection types for certain Windows Runtime APIs. For example, **winrt::Windows::Foundation::IAsyncAction** is the C++/WinRT projection type for **IAsyncAction**. The extension functions aren't part of the application binary interface (ABI) surface of the actual Windows Runtime types, so they're not listed as members of the Windows Runtime APIs. But you can call them from within any C++/WinRT project. See [C++/WinRT functions that extend Windows Runtime APIs](/uwp/cpp-ref-for-winrt/winrt#cwinrt-functions-that-extend-windows-runtime-apis).
 
 ```cppwinrt
-auto begin();
+auto begin() const;
 ```
 
 Returns an iterator to the first element of the collection, for use in C++ algorithms such as range-based `for` loops.
 
 ```cppwinrt
-auto end();
+auto end() const;
 ```
 
 Returns an iterator to one past the last element of the collection, for use in C++ algorithms such as range-based `for` loops.
