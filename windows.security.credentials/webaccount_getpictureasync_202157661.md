@@ -23,6 +23,8 @@ When this method completes, it returns the web account's picture.
 ## -remarks
 The word "desired" is misspelled in this parameter name.
 
+This method should be called on [WebAccount](webaccount.md) returned in [WebTokenRequestResponse](webtokenrequestresponse.md) with ("UserPictureEnabled", "True") inserted in [WebTokenRequest.Properties](webtokenrequest_properties.md) while creating [WebTokenRequest](webtokenrequest.md) for acquirung token or else it might return default profile picture.
+
 ## -examples
 
 ## -see-also
