@@ -22,9 +22,9 @@ The list includes apps installed for all users as well as only for the current u
 
 ## -examples
 ```csharp
-IList<IInstalledDesktopApp> installedApps = InstalledDesktopApp::GetInventoryAsync();
+IReadOnlyList<IInstalledDesktopApp> installedApps = await InstalledDesktopApp.GetInventoryAsync();
     
-foreach(var app in installedApps)
+foreach (var app in installedApps)
 {
     Console.WriteLine("Display Name: " + app.DisplayName);
     Console.WriteLine("Application ID: " + app.Id);
