@@ -31,7 +31,7 @@ The properties of the RemoteSystem class are used to determine the operations th
 | 1803 | 17134 | Platform |
 | 1809 | 17763 | Apps |
 | 1903 | 18362 | CreateWatcherForUser(User) |
-| 1903 | 18362 | CreateWatcherForUser(User,IEnumerable<IRemoteSystemFilter>) |
+| 1903 | 18362 | CreateWatcherForUser(User,IEnumerable&lt;IRemoteSystemFilter&gt;) |
 | 1903 | 18362 | User |
 
 ## -examples

@@ -57,9 +57,9 @@ You can also use a StoreContext object to download and install package updates f
 | 1803 | 17134 | CanSilentlyDownloadStorePackageUpdates |
 | 1803 | 17134 | DownloadAndInstallStorePackagesAsync |
 | 1803 | 17134 | GetAssociatedStoreQueueItemsAsync |
-| 1803 | 17134 | GetStoreProductsAsync(IEnumerable<String>,IEnumerable<String>,StoreProductOptions) |
+| 1803 | 17134 | GetStoreProductsAsync(IEnumerable&lt;String&gt;,IEnumerable&lt;String&gt;,StoreProductOptions) |
 | 1803 | 17134 | GetStoreQueueItemsAsync |
-| 1803 | 17134 | RequestDownloadAndInstallStorePackagesAsync(IEnumerable<String>,StorePackageInstallOptions) |
+| 1803 | 17134 | RequestDownloadAndInstallStorePackagesAsync(IEnumerable&lt;String&gt;,StorePackageInstallOptions) |
 | 1803 | 17134 | RequestUninstallStorePackageAsync |
 | 1803 | 17134 | RequestUninstallStorePackageByStoreIdAsync |
 | 1803 | 17134 | TrySilentDownloadAndInstallStorePackageUpdatesAsync |

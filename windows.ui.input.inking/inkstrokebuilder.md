@@ -28,7 +28,7 @@ Use [CreateStrokeFromInkPoints](inkstrokebuilder_createstrokefrominkpoints_20098
 
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
-| 1703 | 15063 | CreateStrokeFromInkPoints(IEnumerable<InkPoint>,Matrix3x2,Nullable<DateTimeOffset>,Nullable<TimeSpan>) |
+| 1703 | 15063 | CreateStrokeFromInkPoints(IEnumerable&lt;InkPoint&gt;,Matrix3x2,Nullable&lt;DateTimeOffset&gt;,Nullable&lt;TimeSpan&gt;) |
 
 ## -examples
 

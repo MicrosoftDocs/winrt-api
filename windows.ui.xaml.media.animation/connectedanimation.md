@@ -28,7 +28,7 @@ See the [Connected animation sample](https://github.com/microsoft/WindowsComposi
 | -- | -- | -- |
 | 1703 | 15063 | IsScaleAnimationEnabled |
 | 1703 | 15063 | SetAnimationComponent |
-| 1703 | 15063 | TryStart(UIElement,IEnumerable<UIElement>) |
+| 1703 | 15063 | TryStart(UIElement,IEnumerable&lt;UIElement&gt;) |
 | 1809 | 17763 | Configuration |
 
 ## -examples
