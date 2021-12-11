@@ -24,7 +24,7 @@ Learn about creating a good experience for users when they access your files thr
 
 ## -examples
 
-The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) demonstrates how to respond to a [FileOpenPicker](../windows.applicationmodel.activation/activationkind.md) activated event.
+The [File picker provider sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts) demonstrates how to respond to a [FileOpenPicker](../windows.applicationmodel.activation/activationkind.md) activated event.
 
 ```csharp
 // File open picker activated event handler
@@ -48,8 +48,8 @@ public void Activate(FileOpenPickerActivatedEventArgs args)
 }
 ```
 
-For C#, `args` contains a [FileOpenPickerActivatedEventArgs](../windows.applicationmodel.activation/fileopenpickeractivatedeventargs.md) object. Additionally, the `OnFileOpenPickerActivated` is in the App.xaml.cs file and the `Activate` method is in the FileOpenPickerPage.xaml.cs file of the [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker).
+For C#, `args` contains a [FileOpenPickerActivatedEventArgs](../windows.applicationmodel.activation/fileopenpickeractivatedeventargs.md) object. Additionally, the `OnFileOpenPickerActivated` is in the App.xaml.cs file and the `Activate` method is in the FileOpenPickerPage.xaml.cs file of the [File picker provider sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts).
 
 ## -see-also
 
-[Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Windows.ApplicationModel.Activation.activationKind enumeration](../windows.applicationmodel.activation/activationkind.md), [Windows.UI.WebUI.webUIFileOpenPickerActivatedEventArgs class](../windows.ui.webui/webuifileopenpickeractivatedeventargs.md), [Windows.ApplicationModel.Activation.ActivationKind enumeration](../windows.applicationmodel.activation/activationkind.md), [Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs class](../windows.applicationmodel.activation/fileopenpickeractivatedeventargs.md), [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)
+[Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Windows.ApplicationModel.Activation.activationKind enumeration](../windows.applicationmodel.activation/activationkind.md), [Windows.UI.WebUI.webUIFileOpenPickerActivatedEventArgs class](../windows.ui.webui/webuifileopenpickeractivatedeventargs.md), [Windows.ApplicationModel.Activation.ActivationKind enumeration](../windows.applicationmodel.activation/activationkind.md), [Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs class](../windows.applicationmodel.activation/fileopenpickeractivatedeventargs.md), [File picker provider sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)
