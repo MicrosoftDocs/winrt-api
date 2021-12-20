@@ -14,7 +14,7 @@ public interface IVectorView<T> : Windows.Foundation.Collections.IIterable<T>
 Represents an immutable view into a vector.
 
 > **.NET**
-> This interface appears to .NET code as [System.Collections.Generic.IReadOnlyList<T>](/dotnet/api/system.collections.generic.ireadonlylist-1?view=dotnet-uwp-10.0&preserve-view=true) due to .NET language projection. In any case where a Windows Runtime type has implemented IVectorView&lt;T&gt;, .NET code can use the APIs of [IReadOnlyList<T>](/dotnet/api/system.collections.generic.ireadonlylist-1?view=dotnet-uwp-10.0&preserve-view=true) instead.
+> This interface appears to .NET code as [System.Collections.Generic.IReadOnlyList&lt;T&gt;](/dotnet/api/system.collections.generic.ireadonlylist-1?view=dotnet-uwp-10.0&preserve-view=true) due to .NET language projection. In any case where a Windows Runtime type has implemented IVectorView&lt;T&gt;, .NET code can use the APIs of [IReadOnlyList&lt;T&gt;](/dotnet/api/system.collections.generic.ireadonlylist-1?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
 ## -remarks
 
@@ -51,7 +51,7 @@ Returns an iterator to one past the last element of the collection, for use in C
 
 ### Interface inheritance
 
-IVectorView inherits [IIterable](iiterable_1.md). Types that implement IVectorView also implement the interface members of [IIterable](iiterable_1.md). Similarly, if you're using .NET, there is support for [IEnumerable<T>](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true).
+IVectorView inherits [IIterable](iiterable_1.md). Types that implement IVectorView also implement the interface members of [IIterable](iiterable_1.md). Similarly, if you're using .NET, there is support for [IEnumerable&lt;T&gt;](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 

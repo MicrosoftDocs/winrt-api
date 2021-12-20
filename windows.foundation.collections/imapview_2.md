@@ -45,7 +45,7 @@ Tries to look up an element in the map with the key *key*. For reference types, 
 
 ### Interface inheritance
 
-IMapView inherits [IIterable](iiterable_1.md), using an [IKeyValuePair](ikeyvaluepair_2.md) constraint. Types that implement IMapView also implement the interface members of [IKeyValuePair](ikeyvaluepair_2.md), with an [IKeyValuePair](ikeyvaluepair_2.md) type constraint. Similarly, if you're using .NET, there is support for [IEnumerable<T>](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true), with its constraint type as a [KeyValuePair](/dotnet/api/system.collections.generic.keyvaluepair-2?view=dotnet-uwp-10.0&preserve-view=true) that uses the same key and value types as does the [IReadOnlyDictionary&lt;TKey,TValue&gt;](/dotnet/api/system.collections.generic.ireadonlydictionary-2?view=dotnet-uwp-10.0&preserve-view=true) implementation.
+IMapView inherits [IIterable](iiterable_1.md), using an [IKeyValuePair](ikeyvaluepair_2.md) constraint. Types that implement IMapView also implement the interface members of [IKeyValuePair](ikeyvaluepair_2.md), with an [IKeyValuePair](ikeyvaluepair_2.md) type constraint. Similarly, if you're using .NET, there is support for [IEnumerable;T&gt;](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true), with its constraint type as a [KeyValuePair](/dotnet/api/system.collections.generic.keyvaluepair-2?view=dotnet-uwp-10.0&preserve-view=true) that uses the same key and value types as does the [IReadOnlyDictionary&lt;TKey,TValue&gt;](/dotnet/api/system.collections.generic.ireadonlydictionary-2?view=dotnet-uwp-10.0&preserve-view=true) implementation.
 
 ## -examples
 

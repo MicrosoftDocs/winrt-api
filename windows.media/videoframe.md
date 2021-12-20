@@ -18,7 +18,7 @@ Represents a single frame of video data.
 
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
-| 1803 | 17134 | CopyToAsync(VideoFrame,Nullable<BitmapBounds>,Nullable<BitmapBounds>) |
+| 1803 | 17134 | CopyToAsync(VideoFrame,Nullable&lt;BitmapBounds&gt,Nullable&lt;BitmapBounds&gt) |
 
 ## -examples
 
