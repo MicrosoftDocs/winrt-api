@@ -13,6 +13,8 @@ public Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager Creat
 ## -description
 Creates an instance of [NetworkOperatorTetheringManager](networkoperatortetheringmanager.md) for a specific network account using the provided network account ID for the mobile broadband device.
 
+A network account is one of the mobile operator accounts available on the device (configured when the user inserts a SIM). You can retrieve a list of the IDs of the network accounts available on a device by accessing the [MobileBroadbandAccount.AvailableNetworkAccountIds](/uwp/api/windows.networking.networkoperators.mobilebroadbandaccount.availablenetworkaccountids) property.
+
 ## -parameters
 ### -param networkAccountId
 The network account ID.
