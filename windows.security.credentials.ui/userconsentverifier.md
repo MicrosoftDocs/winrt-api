@@ -19,13 +19,15 @@ You can use the UserConsentVerifier class to enhance the security of your app by
 
 ## -examples
 
-The following example shows a method that requests fingerprint verification and returns a message that describes the result. Note that for C# applications on .NET 5 or later, you should use the [WinRT COM interop interface](/windows/apps/desktop/modernize/winrt-com-interop-csharp).
+The following example shows a method that requests fingerprint verification, and returns a message that describes the result. Note that for C# applications on .NET 5 or later, you should use the [WinRT COM interop interface](/windows/apps/desktop/modernize/winrt-com-interop-csharp).
 
 ### [C# (.NET 5 or later)](#tab/csharpnet5)
 
-The following example is for WinUI 3 apps. It uses `WindowNative` and `this`, a pointer to a [WinUI 3 Window object](/windows/winui/api/microsoft.ui.xaml.window?view=winui-3.0) from the main window code-behind, to retrieve the window handle. 
+The example in this tab is for WinUI 3 apps. To retrieve the window handle, it uses `WindowNative` and `this` (which is a pointer to a WinUI 3 [Window](/windows/winui/api/microsoft.ui.xaml.window?view=winui-3.0) object) from the main window code-behind.
 
-For Windows Forms or WPF, use the appropriate method for getting the window handle: [NativeWindow.Handle](/dotnet/api/system.windows.forms.nativewindow.handle) for Windows Forms, or [WindowInteropHelper.Handle](/dotnet/api/system.windows.interop.windowinterophelper.handle) for WPF.
+For WPF, the appropriate method for retrieving the window handle is [WindowInteropHelper.Handle](/dotnet/api/system.windows.interop.windowinterophelper.handle).
+
+For Windows Forms, the appropriate method is [NativeWindow.Handle](/dotnet/api/system.windows.forms.nativewindow.handle).
 
 ```csharp
 private async System.Threading.Tasks.Task<string> RequestConsent(string userMessage)
