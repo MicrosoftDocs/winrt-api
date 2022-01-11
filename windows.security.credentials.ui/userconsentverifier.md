@@ -23,6 +23,10 @@ The following example shows a method that requests fingerprint verification and 
 
 ### [C# (.NET 5 or later)](#tab/csharpnet5)
 
+The following example is for WinUI 3 apps. It uses `WindowNative` and `this`, a pointer to a [WinUI 3 Window object](/windows/winui/api/microsoft.ui.xaml.window?view=winui-3.0) from the main window code-behind, to retrieve the window handle. 
+
+For Windows Forms or WPF, use the appropriate method for getting the window handle: [NativeWindow.Handle](/dotnet/api/system.windows.forms.nativewindow.handle) for Windows Forms, or [WindowInteropHelper.Handle](/dotnet/api/system.windows.interop.windowinterophelper.handle) for WPF.
+
 ```csharp
 private async System.Threading.Tasks.Task<string> RequestConsent(string userMessage)
         {
@@ -35,7 +39,7 @@ private async System.Threading.Tasks.Task<string> RequestConsent(string userMess
 
             try
             {
-                // Retrieve the window handle by passing a reference to the window object
+                // Retrieve the window handle by passing a reference to the WinUI 3 window object 
                 var hwnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
                 // Request the logged on user's consent via fingerprint swipe using the interop interface
                 var consentResult = await Windows.Security.Credentials.UI.UserConsentVerifierInterop.RequestVerificationForWindowAsync(hwnd, userMessage);
