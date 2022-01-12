@@ -10,7 +10,7 @@ public interface IXamlMetadataProvider :
 # Windows.UI.Xaml.Markup.IXamlMetadataProvider
 
 ## -description
-Implements XAML schema context concepts that support XAML parsing.
+Implements XAML type resolution, binding types identifed in markup with classes implemented in an application or component. The XAML compiler will generate classes that implement this interface. Application objects can also implement this to be another source of metadata.
 
 Equivalent WinUI interface: [Microsoft.UI.Xaml.Markup.IXamlMetadataProvider](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmetadataprovider).
 
