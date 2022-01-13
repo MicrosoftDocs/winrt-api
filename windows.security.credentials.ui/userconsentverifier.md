@@ -11,19 +11,18 @@ public class UserConsentVerifier
 
 ## -description
 
-Checks for availability of a verification device (such as a Microsoft Passport PIN, Windows Hello biometric, or fingerprint reader) and performs a verification.
-
-## -remarks
-
-You can use the UserConsentVerifier class to enhance the security of your app by including a request for verification whenever the user is required to consent to a particular action. For example, you can require a fingerprint authentication before authorizing an in-app purchase or access to restricted resources. You can use the UserConsentVerifier class to determine if fingerprint authentication is supported for the current computer using the [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md) method, and then request user consent from a fingerprint scan using the [RequestVerificationAsync](userconsentverifier_requestverificationasync_1054783001.md) method.
+Checks for availability of a verification device (such as a Microsoft Passport PIN, Windows Hello biometric, or fingerprint reader), and performs a verification.
 
 ## -examples
 
-The following example shows a method that requests fingerprint verification, and returns a message that describes the result. Note that for C# applications on .NET 5 or later, you should use the [WinRT COM interop interface](/windows/apps/desktop/modernize/winrt-com-interop-csharp).
+The following example shows a method that requests fingerprint verification, and returns a message that describes the result.
+
+> [!NOTE]
+> For C# desktop applications on .NET 5 or later, you should use the C# interop classes that represent the WinRT COM interop interfaces (see [Call WinRT COM interop interfaces from a .NET 5+ app](/windows/apps/desktop/modernize/winrt-com-interop-csharp)).
 
 ### [C# (.NET 5 or later)](#tab/csharpnet5)
 
-The example in this tab is for WinUI 3 apps. To retrieve the window handle, it uses `WindowNative` and `this` (which is a pointer to a WinUI 3 [Window](/windows/winui/api/microsoft.ui.xaml.window?view=winui-3.0) object) from the main window code-behind.
+The example in this tab is for WinUI 3 apps. To retrieve the window handle, the example uses **WinRT.Interop.WindowNative** and `this` (which in this case is a reference to a WinUI 3 [Window](/windows/winui/api/microsoft.ui.xaml.window?view=winui-3.0) object) from the main window code-behind. For more info, see see [Call WinRT COM interop interfaces from a .NET 5+ app](/windows/apps/desktop/modernize/winrt-com-interop-csharp).
 
 For WPF, the appropriate method for retrieving the window handle is [WindowInteropHelper.Handle](/dotnet/api/system.windows.interop.windowinterophelper.handle).
 
@@ -90,7 +89,10 @@ private async System.Threading.Tasks.Task<string> RequestConsent(string userMess
 
 ---
 
+## -remarks
+
+You can use the **UserConsentVerifier** class to enhance the security of your app by including a request for verification whenever the user is required to consent to a particular action. For example, you can require fingerprint authentication before authorizing an in-app purchase or access to restricted resources. You can use the **UserConsentVerifier** class to determine whether fingerprint authentication is supported for the current computer by using the [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md) method, and then request user consent from a fingerprint scan by using the [RequestVerificationAsync](userconsentverifier_requestverificationasync_1054783001.md) method.
+
 ## -see-also
 
 [Fingerprint biometrics](/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/UserConsentVerifier), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](/windows/uwp/security/authentication-and-user-identity), [UserConsentVerifier sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620615)
-
