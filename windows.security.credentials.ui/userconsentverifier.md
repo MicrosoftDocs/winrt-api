@@ -18,11 +18,11 @@ Checks for availability of a verification device (such as a Microsoft Passport P
 The following example shows a method that requests fingerprint verification, and returns a message that describes the result.
 
 > [!NOTE]
-> For C# desktop applications on .NET 5 or later, you should use the C# interop classes that represent the WinRT COM interop interfaces (see [Call WinRT COM interop interfaces from a .NET 5+ app](/windows/apps/desktop/modernize/winrt-com-interop-csharp)).
+> For C# desktop applications on .NET 5 or later, you should use the C# interop classes that represent the WinRT COM interop interfaces (see [Call interop APIs from a .NET 5+ app](/windows/apps/desktop/modernize/winrt-com-interop-csharp)).
 
 ### [C# (.NET 5 or later)](#tab/csharpnet5)
 
-The example in this tab is for WinUI 3 apps. To retrieve the window handle, the example uses **WinRT.Interop.WindowNative** and `this` (which in this case is a reference to a WinUI 3 [Window](/windows/winui/api/microsoft.ui.xaml.window?view=winui-3.0) object) from the main window code-behind. For more info, see see [Call WinRT COM interop interfaces from a .NET 5+ app](/windows/apps/desktop/modernize/winrt-com-interop-csharp).
+The example in this tab is for WinUI 3 apps. To retrieve the window handle, the example uses **WinRT.Interop.WindowNative** and `this` (which in this case is a reference to a WinUI 3 [Window](/windows/winui/api/microsoft.ui.xaml.window?view=winui-3.0) object) from the main window code-behind. For more info, see see [Call interop APIs from a .NET 5+ app](/windows/apps/desktop/modernize/winrt-com-interop-csharp).
 
 For WPF, the appropriate method for retrieving the window handle is [WindowInteropHelper.Handle](/dotnet/api/system.windows.interop.windowinterophelper.handle).
 
