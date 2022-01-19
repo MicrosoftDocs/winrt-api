@@ -10,7 +10,7 @@ public void TetheringEntitlementCheckTriggerDetails.DenyTethering(String entitle
 # Windows.Networking.NetworkOperators.TetheringEntitlementCheckTriggerDetails.DenyTethering
 
 ## -description
-Indicates that tethering is denied for the network account ID (SSID) for the device.
+Indicates that tethering is denied for the service set identifier (SSID) for the device.
 
 ## -parameters
 ### -param entitlementFailureReason
