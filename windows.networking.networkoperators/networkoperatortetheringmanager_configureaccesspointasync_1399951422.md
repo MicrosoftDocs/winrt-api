@@ -15,7 +15,7 @@ Use this method to provide tethering network configuration details for the tethe
 
 ## -parameters
 ### -param configuration
-Provides a network account ID (SSID) and specifies the passphrase used for authentication when establishing a tethered network connection.
+Provides an SSID (to be used for the tethering network), and specifies the passphrase used for authentication when establishing a tethered network connection.
 
 ## -returns
 The asynchronous action.
