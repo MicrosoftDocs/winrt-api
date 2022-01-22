@@ -12,8 +12,6 @@ public void DispatcherQueueTimer.Stop()
 ## -description
 Stops the timer.
 
-Equivalent WinUI method: [Microsoft.System.DispatcherQueueTimer.Stop](/windows/winui/api/microsoft.system.dispatcherqueuetimer.stop).
-
 ## -remarks
 
 ## -see-also

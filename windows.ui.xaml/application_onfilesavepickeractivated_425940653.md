@@ -12,8 +12,6 @@ virtual protected void OnFileSavePickerActivated(Windows.ApplicationModel.Activa
 ## -description
 Invoked when the application is activated through file-save dialog association.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Application.OnFileSavePickerActivated](/windows/winui/api/microsoft.ui.xaml.application.onfilesavepickeractivated).
-
 ## -parameters
 ### -param args
 Event data for the event.

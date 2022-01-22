@@ -12,8 +12,6 @@ virtual protected void OnActivated(Windows.ApplicationModel.Activation.IActivate
 ## -description
 Invoked when the application is activated by some means other than normal launching.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Application.OnActivated](/windows/winui/api/microsoft.ui.xaml.application.onactivated).
-
 ## -parameters
 ### -param args
 Event data for the event.

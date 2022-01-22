@@ -12,8 +12,6 @@ public TimeSpan Interval { get;  set; }
 ## -description
 Gets and sets the interval for the timer.
 
-Equivalent WinUI property: [Microsoft.System.DispatcherQueueTimer.Interval](/windows/winui/api/microsoft.system.dispatcherqueuetimer.interval).
-
 ## -property-value
 The amount of time before the timer ticks. Defaults to 0 seconds.
 

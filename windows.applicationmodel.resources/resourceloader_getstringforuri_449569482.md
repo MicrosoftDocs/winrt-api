@@ -12,7 +12,7 @@ public string GetStringForUri(Windows.Foundation.Uri uri)
 ## -description
 Returns the most appropriate string value of a resource, specified by a Uniform Resource Identifier (URI) resource identifier, for the default [ResourceContext](../windows.applicationmodel.resources.core/resourcecontext.md) of the currently running app.
 
-Equivalent WinUI method: [Microsoft.ApplicationModel.Resources.ResourceLoader.GetStringForUri](/windows/winui/api/microsoft.applicationmodel.resources.resourceloader.getstringforuri).
+Equivalent WinUI method: [Microsoft.ApplicationModel.Resources.ResourceLoader.GetStringForUri](/windows/windows-app-sdk/api/winrt/microsoft.applicationmodel.resources.resourceloader.getstringforuri).
 
 ## -parameters
 ### -param uri

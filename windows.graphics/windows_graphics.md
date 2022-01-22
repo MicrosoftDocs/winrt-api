@@ -14,8 +14,6 @@ Provides basic data types that contain info on how to draw graphics. These data 
 
 Virtual surfaces can be used to create large, efficient scrollable regions in an app; useful for scenarios such as maps and long scrollable blocks of text.  
 
-Equivalent WinUI namespace: [Microsoft.Graphics](/windows/winui/api/microsoft.graphics).
-
 ## -remarks
 
 ## -see-also
