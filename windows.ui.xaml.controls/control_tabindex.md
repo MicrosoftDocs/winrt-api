@@ -22,7 +22,7 @@ Gets or sets a value that determines the order in which elements receive focus w
 A value that determines the order of logical navigation for a device. The default value is [MaxValue](/dotnet/api/system.int32.maxvalue?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -remarks
-
+For UWP apps, initial focus is set to the element with the highest TabIndex that can receive focus. Child elements of container controls are ignored. In a tie, the first element in the visual tree receives focus.
 ## -examples
 
 ## -see-also
