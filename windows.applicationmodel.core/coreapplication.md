@@ -17,7 +17,7 @@ Enables apps to handle state changes, manage windows, and integrate with a varie
 
 The system creates this object as a singleton when it runs the app. It is run as an Application Single-Threaded Apartment (ASTA). Threads created from the app singleton, such as the view provider (seen in the sample below), should be attributed as Multi-Threaded Apartment (MTAThread). 
 
-This API is supported in native apps only, except for the [Properties](coreapplication_properties.md) property, which is always available.
+This API is supported in Universal Windows Platform apps only, except for the [Properties](coreapplication_properties.md) property, which is always available.
 
 ```cppwinrt
 struct App : implements<App, IFrameworkViewSource, IFrameworkView>
