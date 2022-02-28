@@ -23,7 +23,7 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.Popup](/windows/w
 
 ## -remarks
 
-Do not use a Popup if a [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md), [ToolTip](../windows.ui.xaml.controls/tooltip.md) or [ContentDialog](../windows.ui.xaml.controls/contentdialog.md) ([MessageDialog](../windows.ui.popups/messagedialog.md) for a Windows 8 app) is more appropriate.
+Do not use a Popup if a [Flyout](../windows.ui.xaml.controls/flyout.md), [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md), [ToolTip](../windows.ui.xaml.controls/tooltip.md) or [ContentDialog](../windows.ui.xaml.controls/contentdialog.md) ([MessageDialog](/uwp/api/windows.ui.popups.messagedialog) for a Windows 8 app) is more appropriate.
 
 <!--For more info, see Displaying popups. (Add this when the topic is created.)-->
 
