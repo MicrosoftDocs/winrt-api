@@ -18,6 +18,8 @@ Represents a dialog for showing messages to the user.
 
 ## -remarks
 
+To use an object of this class in a desktop app, cast it to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface, and pass an owner window's handle to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects).
+
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
 
@@ -26,9 +28,6 @@ The dialog has a command bar that can support up to three commands in desktop ap
 Message dialogs should be used sparingly, and only for critical messages or simple questions that must block the user's flow. Here's an example of a dialog created by the code in the **Examples** section.
 
 <img src="images/MessageDialogWithTwoCommands.png" alt="Message dialog with two commands" />
-
-> [!NOTE]
-> To use an instance of this class in a desktop app (.NET or native C++), you must cast the instance to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface and pass the owner window for the operation to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more information, see [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow).
 
 ## -examples
 
@@ -222,4 +221,4 @@ End Class
 
 ## -see-also
 
-[Message dialog sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Message%20dialog%20sample), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570), [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow)
+[Message dialog sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Message%20dialog%20sample), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)

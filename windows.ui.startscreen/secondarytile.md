@@ -16,7 +16,7 @@ Creates, enumerates, and provides information about a secondary tile.
 
 ## -remarks
 
-To use an instance of this class in a desktop app (.NET or native C++), you must cast the instance to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface, and pass the owner window for the operation to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more information, see [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow) and [Pin secondary tiles from desktop apps](windows/apps/design/shell/tiles-and-notifications/secondary-tiles-desktop-pinning).
+To use an object of this class in a desktop app, cast it to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface, and pass an owner window's handle to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects) and [Pin secondary tiles from desktop apps](windows/apps/design/shell/tiles-and-notifications/secondary-tiles-desktop-pinning).
 
 ## -examples
 

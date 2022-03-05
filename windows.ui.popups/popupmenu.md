@@ -13,12 +13,12 @@ public class PopupMenu : Windows.UI.Popups.IPopupMenu
 Represents a context menu.
 
 ## -remarks
+
+To use an object of this class in a desktop app, cast it to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface, and pass an owner window's handle to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects).
+
 A context menu can show a maximum of six commands. This limit helps to ensure that the context menu remains uncluttered, usable, and directly relevant to users.
 
 You can see complete code examples that demonstrate how to create and customize context menu in the [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample) on the [ sample home page](/samples/browse/).
-
-> [!NOTE]
-> To use an instance of this class in a desktop app (.NET or native C++), you must cast the instance to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface and pass the owner window for the operation to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more information, see [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow).
 
 <!-- confirmed -->
 > [!NOTE]
@@ -40,4 +40,4 @@ To customize the context menu, call [preventDefault](/previous-versions/windows/
 [!code-js[newcontextmenu_js](../windows.ui.popups/code/ContextMenu/js/js/scenario1.js#Snippetnewcontextmenu_js)]
 
 ## -see-also
-[Adding context menus](/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample), [Guidelines and checklist for ](/windows/uwp/design/controls-and-patterns/index), [PopupMenu.Commands](popupmenu_commands.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525), [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow)
+[Adding context menus](/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample), [Guidelines and checklist for ](/windows/uwp/design/controls-and-patterns/index), [PopupMenu.Commands](popupmenu_commands.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)

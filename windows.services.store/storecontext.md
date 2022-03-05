@@ -14,6 +14,8 @@ Provides members you can use to access and manage Microsoft Store-related data f
 
 ## -remarks
 
+To use an object of this class in a desktop app, cast it to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface, and pass an owner window's handle to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects).
+
 > [!NOTE]
 > This class and the rest of the [Windows.Services.Store](windows_services_store.md) namespace was introduced in Windows 10, version 1607. This class can only be used in projects that target **Windows 10 Anniversary Edition (10.0; Build 14393)** or a later release in Visual Studio. If your project targets an earlier version of Windows 10, you must use the [Windows.ApplicationModel.Store](../windows.applicationmodel.store/windows_applicationmodel_store.md) namespace instead of the [Windows.Services.Store](windows_services_store.md) namespace. For more information, see [In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials).
 
@@ -33,9 +35,6 @@ To get a StoreContext object, use one of these static methods:
   var users = await Windows.System.User.FindAllAsync();
   Windows.Services.Store.StoreContext context = StoreContext.GetForUser(users[0]);
   ```
-
-> [!NOTE]
-> To use an instance of this class in a desktop app (.NET or native C++), you must cast the instance to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface and pass the owner window for the operation to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more information, see [Using the StoreContext class in a desktop app](/windows/uwp/monetize/in-app-purchases-and-trials#desktop) and [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow).
 
 After you have a StoreContext object, you can start calling methods to purchase an app or add-on for the current user and other tasks. For more information, see the following articles:
 + [In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials)
@@ -72,5 +71,5 @@ You can also use a StoreContext object to download and install package updates f
 ## -examples
 
 ## -see-also
-[In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials), [Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store), [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow)
+[In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials), [Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)
 
