@@ -23,6 +23,6 @@ Represents a specialized container that presents a set of menus in a horizontal 
 > [!TIP]
 > For more info, design guidance, and code examples, see [Menus and context menus](/windows/uwp/design/controls-and-patterns/menus).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the MenuBar in action](xamlcontrolsgallery:/item/MenuBar).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the MenuBar in action](winui2gallery:/item/MenuBar).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)

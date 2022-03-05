@@ -139,9 +139,9 @@ This table shows the resources used by the ContentDialog control.
 > For more info, design guidance, and code examples, see [Dialog controls](/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/dialogs
 ).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ContentDialog in action](xamlcontrolsgallery:/item/ContentDialog).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ContentDialog in action](winui2gallery:/item/ContentDialog).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This example shows how to create and show a simple ContentDialog in code.
 

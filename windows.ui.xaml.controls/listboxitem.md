@@ -32,9 +32,9 @@ You can specify the look of the ListBoxItem by setting the [ListBox](listbox.md)
 > [!TIP]
 > For more info, design guidance, and code examples, see [List boxes](/windows/uwp/design/controls-and-patterns/lists#list-boxes).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ListBox in action](xamlcontrolsgallery:/item/ListBox).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ListBox in action](winui2gallery:/item/ListBox).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 ## -see-also
 

@@ -183,9 +183,9 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 > [!TIP]
 > For more info, design guidance, and code examples, see [Scroll viewer controls](/windows/uwp/design/controls-and-patterns/scroll-controls).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ScrollViewer in action](xamlcontrolsgallery:/item/ScrollViewer).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ScrollViewer in action](winui2gallery:/item/ScrollViewer).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 The following XAML creates a large [TextBlock](textblock.md) inside a ScrollViewer, along with another copy of the [TextBlock](textblock.md) for comparison.
 

@@ -59,8 +59,8 @@ To cast a shadow from a XAML element that isn't in a [Popup](../windows.ui.xaml.
 >
 > Many common controls automatically cast shadows using ThemeShadow. 
 >
-> If you have the **XAML Controls Gallery** app installed and meet the minimum Windows 10 version requirements above, [click here to open the app and see ThemeShadow in action on common controls](xamlcontrolsgallery:/).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed and meet the minimum Windows 10 version requirements above, [click here to open the app and see ThemeShadow in action on common controls](winui2gallery:/).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 

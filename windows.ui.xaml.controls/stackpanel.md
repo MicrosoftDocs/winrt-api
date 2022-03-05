@@ -60,9 +60,9 @@ StackPanel defines border properties that let you draw a border around the Stack
 > [!TIP]
 > For more info, design guidance, and code examples, see [Layout panels](/windows/uwp/design/layout/layout-panels#stackpanel).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the StackPanel in action](xamlcontrolsgallery:/item/StackPanel).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the StackPanel in action](winui2gallery:/item/StackPanel).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 The following example shows how to create a StackPanel of items.
 
