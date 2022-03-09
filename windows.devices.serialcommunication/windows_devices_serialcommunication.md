@@ -28,7 +28,7 @@ It is possible that the **DeviceInformation** collection returned by [DeviceInfo
 + Filtering such serial ports from the user's view, so that the user will not be able to interact with such an unsupported serial port at all.
 + If the app decides to let the user interact with such a serial port, then note that when the app calls the [DeviceAccessInformation.CreateFromId()](../windows.devices.enumeration/deviceaccessinformation_createfromid_1774777795.md) function, an exception with the message: "The system cannot find the file specified. (Exception from HRESULT: 0x80070002)" will be thrown. The app should handle such an exception and let the user know that the port is unsupported.
 
-Accessbility/capability policy can always be overridden by writing a custom driver and matching [Hardware Support App](/en-us/windows-hardware/drivers/devapps/hardware-support-app--hsa--steps-for-driver-developers)
+Accessbility/capability policy can always be overridden by writing a custom driver and matching [Hardware Support App](/windows-hardware/drivers/devapps/hardware-support-app--hsa--steps-for-driver-developers)
 
 ## Serial Device Capabilities
 
@@ -77,8 +77,8 @@ Here is an example for defining serial device capabilities. It allows the app to
 + Verify the user has granted permission for the application to utilize serial devices.
 + Machine-internal devices (`DEVPKEY_Device_InLocalMachineContainer == TRUE`) are generally *not* accessible. (e.g. PCI COM port expansion cards)
   + Unless the device interface property `DEVPKEY_DeviceInterface_Restricted` for `GUID_DEVINTERFACE_COMPORT` is set to `FALSE`, internal devices are not accessible.  Certain drivers, especially on IoT SKUs may set this property to `FALSE`.
-  + If accessing a Serial controller based on [`SerCx` or `SerCx2`](/en-us/windows-hardware/drivers/serports/serial-drivers-overview#sercx-and-sercx2) then starting Windows 10 1903 (May 2019 Update) the device can opt-in to be [directly accessible](/en-us/windows/uwp/devices-sensors/enable-usermode-access) from user-mode or by enabling `RhProxy`.
-+ These restrictions can be bypassed when making a custom device by working with the driver-developer to create a [Hardware Support App](/en-us/windows-hardware/drivers/devapps/hardware-support-app--hsa--steps-for-app-developers)
+  + If accessing a Serial controller based on [`SerCx` or `SerCx2`](/windows-hardware/drivers/serports/serial-drivers-overview#sercx-and-sercx2) then starting Windows 10 1903 (May 2019 Update) the device can opt-in to be [directly accessible](/windows/uwp/devices-sensors/enable-usermode-access) from user-mode or by enabling `RhProxy`.
++ These restrictions can be bypassed when making a custom device by working with the driver-developer to create a [Hardware Support App](/windows-hardware/drivers/devapps/hardware-support-app--hsa--steps-for-app-developers)
 
 
 ## -remarks

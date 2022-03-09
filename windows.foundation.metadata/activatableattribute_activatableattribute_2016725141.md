@@ -21,7 +21,7 @@ The name of the API contract that can activate the runtime class with no paramet
 (This parameter should have been named `contractName`.)
 
 ## -remarks
-Activation with no parameters is performed by [the RoActivateInstance function](/en-us/windows/desktop/api/roapi/nf-roapi-roactivateinstance).
+Activation with no parameters is performed by [the RoActivateInstance function](/windows/desktop/api/roapi/nf-roapi-roactivateinstance).
 
 ## -examples
 

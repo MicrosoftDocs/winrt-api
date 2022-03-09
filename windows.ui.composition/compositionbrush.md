@@ -26,4 +26,4 @@ In your app, you'll typically use one of these subclasses of CompositionBrush:
 ## -examples
 
 ## -see-also
-[Composition Brushes Overview](/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](/en-us/windows/uwp/composition/composition-effects), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Brushes Overview](/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](/windows/uwp/composition/composition-effects), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

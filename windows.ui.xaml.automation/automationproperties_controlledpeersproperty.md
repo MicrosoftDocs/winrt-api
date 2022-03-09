@@ -31,4 +31,4 @@ The identifier for the [AutomationProperties.ControlledPeers](automationproperti
 
 ## -see-also
 
-[Accessible text requirements](/en-us/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility), [Custom automation peers](/en-us/windows/uwp/design/accessibility/custom-automation-peers)
+[Accessible text requirements](/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility), [Custom automation peers](/windows/uwp/design/accessibility/custom-automation-peers)

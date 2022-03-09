@@ -21,7 +21,7 @@ Equivalent WinUI class: [Microsoft.UI.Composition.Compositor](/windows/winui/api
 
 The Compositor implicitly synchronizes changes made to associated visuals to ensure they get applied in a transactional manner.
 
-See the [Composition UI Overview](/en-us/windows/uwp/composition/visual-layer) and [Composition Visual Tree Overview](/windows/uwp/composition/composition-visual-tree) for more information.
+See the [Composition UI Overview](/windows/uwp/composition/visual-layer) and [Composition Visual Tree Overview](/windows/uwp/composition/composition-visual-tree) for more information.
 
 New instances of Compositor must be created on a thread that has a CoreDispatcher.
 
@@ -84,4 +84,4 @@ New instances of Compositor must be created on a thread that has a CoreDispatche
 
 ## -see-also
 
-[Composition UI Overview](/en-us/windows/uwp/composition/visual-layer), [Composition Visual Tree Overview](/windows/uwp/composition/composition-visual-tree), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CompositionVisual), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[Composition UI Overview](/windows/uwp/composition/visual-layer), [Composition Visual Tree Overview](/windows/uwp/composition/composition-visual-tree), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CompositionVisual), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

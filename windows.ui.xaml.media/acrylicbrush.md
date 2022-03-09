@@ -27,7 +27,7 @@ Paints an area with a semi-transparent material that uses multiple effects inclu
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Acrylic material](/en-us/windows/uwp/design/style/acrylic).
+> For more info, design guidance, and code examples, see [Acrylic material](/windows/uwp/design/style/acrylic).
 >
 > If you have the **XAML Controls Gallery** app installed, click here to [open the app and see Acrylic in action](xamlcontrolsgallery:/item/Acrylic).
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
