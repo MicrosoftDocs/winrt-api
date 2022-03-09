@@ -20,7 +20,7 @@ Checks for availability of a verification device (such as a Microsoft Passport P
 For a desktop app, instead of calling the [UserConsentVerifier.RequestVerificationAsync](/uwp/api/windows.security.credentials.ui.userconsentverifier.requestverificationasync) method, you'll need to:
 
 * First [Retrieve a window handle (HWND)](/windows/apps/develop/ui-input/retrieve-hwnd). That topic contains code examples for Windows UI Library (WinUI) 3, Windows Presentation Foundation (WPF), and Windows Forms (WinForms). Plug that code into the code listing below.
-* Then call the **RequestVerificationForWindowAsync** method of the **Windows.Security.Credentials.UI.UserConsentVerifierInterop** C# interop class. For more info about the C# interop classes, see [Call interop APIs from a .NET 5+ app](/windows/apps/desktop/modernize/winrt-com-interop-csharp).
+* Then call the **RequestVerificationForWindowAsync** method of the **Windows.Security.Credentials.UI.UserConsentVerifierInterop** C# interop class. For more info about the C# interop classes, see [Call interop APIs from a .NET 5+ app](/windows/apps/desktop/modernize/winrt-com-interop-csharp). Also see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects).
 
 ```csharp
 private async System.Threading.Tasks.Task<string> RequestConsent(string userMessage)

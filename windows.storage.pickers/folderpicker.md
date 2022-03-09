@@ -14,9 +14,9 @@ public class FolderPicker : Windows.Storage.Pickers.IFolderPicker, Windows.Stora
 
 Represents a UI element that lets the user choose folders.
 
-## -remarks
+In a desktop app, before using an instance of this class in a way that displays UI, you'll need to associate the object with its owner's window handle. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
 
-To use an object of this class in a desktop app, cast it to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface, and pass an owner window's handle to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects).
+## -remarks
 
 To get started accessing files and folders with a picker, see [Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
