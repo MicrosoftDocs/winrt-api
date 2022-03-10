@@ -12,7 +12,10 @@ public void DataTransferManager.ShowShareUI(ShareUIOptions shareOptions)
 ## -description
 Programmatically initiates the user interface for sharing content with another app.
 
+This API is for Universal Windows Platform (UWP) apps. The alternative API to use for a desktop app is described in [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#for-classes-that-implement-idatatransfermanagerinterop).
+
 ## -parameters
+
 ### -param options
 The options.
 
@@ -25,4 +28,4 @@ A [DataPackage](datapackage.md) must have its [Title](datapackagepropertyset_tit
 
 ## -examples
 
-
+[Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#for-classes-that-implement-idatatransfermanagerinterop)
