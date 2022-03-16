@@ -39,7 +39,7 @@ After Close returns, the object is still in memory but without the system resour
 
 If you call Close multiple times, there is no effect; the method returns **S_OK**.
 
-Close methods aren't callable through Visual C++ component extensions (C++/CX) on Windows Runtime class instances where the class implemented [IClosable](iclosable.md). Instead, Visual C++ component extensions (C++/CX) code for runtime classes should call the destructor or set the last reference to **null**.
+Close methods aren't callable through C++/CX on Windows Runtime class instances where the class implemented [IClosable](iclosable.md) however it's automatically called at the end of the current scope. To call this method explicitly, call the destructor or set the last reference to **null**.
 
 ## -examples
 

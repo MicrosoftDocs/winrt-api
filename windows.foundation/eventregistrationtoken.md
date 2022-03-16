@@ -14,7 +14,7 @@ public struct EventRegistrationToken
 Represents a reference to a delegate that receives change notifications.
 
 > **.NET**
-> When programming with .NET, this type is hidden. If you're an advanced scenario developer, then use [System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken](/dotnet/api/system.runtime.interopservices.windowsruntime.eventregistrationtoken?view=dotnet-uwp-10.0&preserve-view=true).
+> When programming with .NET, this type is hidden. For advanced scenarios, use [System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken](/dotnet/api/system.runtime.interopservices.windowsruntime.eventregistrationtoken?view=dotnet-uwp-10.0&preserve-view=true) instead.
 > 
 > [**C++/WinRT**](/windows/uwp/cpp-and-winrt-apis/)
 > In the C++/WinRT language projection, this type appears as [winrt::event_token](/uwp/cpp-ref-for-winrt/event-token).

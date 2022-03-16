@@ -43,7 +43,7 @@ Since 1809, the vidpid and function-type no longer need to be specified and will
 <DeviceCapability Name="serialcommunication"/>
 ```
 
-**Before WWindows 10, version 1809 (October 2018 Update)**
+**Before Windows 10, version 1809 (October 2018 Update)**
 
 + [&lt;DeviceCapability&gt;](/uwp/schemas/appxpackage/appxmanifestschema/element-devicecapability): The **Name** attribute must be `serialcommunication`.
 

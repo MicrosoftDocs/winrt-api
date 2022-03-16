@@ -18,7 +18,7 @@ The orientation of a rectangular monitor.
 ## -remarks
 This property is static.
 
-The operating system is not obligated to honor auto-rotation preferences.
+The operating system is not obligated to honor the app's auto-rotation preferences.
 In particular, the preferences are not respected in overlapped windowing mode.
 
 ## -examples

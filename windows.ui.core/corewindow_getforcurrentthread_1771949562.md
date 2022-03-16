@@ -13,7 +13,8 @@ public Windows.UI.Core.CoreWindow GetForCurrentThread()
 Gets the [CoreWindow](corewindow.md) instance for the currently active thread.
 
 ## -returns
-The [CoreWindow](corewindow.md) for the currently active thread.
+The [CoreWindow](corewindow.md) for the currently active thread,
+or null if no such CoreWindow exists.
 
 ## -remarks
 

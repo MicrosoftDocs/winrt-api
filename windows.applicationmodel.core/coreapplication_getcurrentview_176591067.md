@@ -10,10 +10,11 @@ public Windows.ApplicationModel.Core.CoreApplicationView GetCurrentView()
 # Windows.ApplicationModel.Core.CoreApplication.GetCurrentView
 
 ## -description
-Gets the active view for the app.
+Gets the view corresponding to the current thread.
 
 ## -returns
-The active view.
+The view corresponding to the current thread.
+If no such view exists, then the method fails.
 
 ## -remarks
 A [CoreApplicationView](coreapplicationview.md) is an app window and its thread.
