@@ -26,7 +26,9 @@ An asynchronous state setting operation. On successful completion, contains an e
 ## -remarks
 
 The `radios` capability is required for all radios.
-If the radio Kind is **RadioKind.MobileBroadband**, then this also requires `cellularDevcieControl`, a restricted capability given to Mobile Operators.
+If the radio Kind is **RadioKind.MobileBroadband**, then this also requires `cellularDeviceControl`, a restricted capability given to Mobile Operators.
+
+The returned `IAsyncOperation<RadioAccessStatus>` can throw the ERROR_BUSY exception when retrieving the result, if the radio state is changed by another process simultaneously. This exception must be caught and the operation retried if necessary.
 
 ## -examples
 
