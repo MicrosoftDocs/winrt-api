@@ -17,6 +17,9 @@ Gets the absolute acceleration vector of the device in units of meters per secon
 The acceleration.
 
 ## -remarks
+<div class="alert"><b>Important</b>
+  <p class="note">The acceleration values reported by this API are inverted; to get the actual acceleration, negate all three components. Velocity values are reported correctly and do not need to be negated.
+</div>
 
 ## -examples
 

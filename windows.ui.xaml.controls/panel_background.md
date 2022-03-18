@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush Background { get;  set; }
 ## -description
 Gets or sets a [Brush](../windows.ui.xaml.media/brush.md) that fills the panel content area.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Panel.Background](/windows/winui/api/microsoft.ui.xaml.controls.panel.background).
+
 ## -xaml-syntax
 ```xaml
 <panel Background="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <panel Background="colorString"/>
-
-```
-
-```xaml
+- or -
 <panel>
   <panel.Background>singleBrush</panel.Background>
 </panel>
@@ -42,9 +38,9 @@ The brush that fills the panel content area. The default is **null**, (a null br
 ## -remarks
 The Background value for a [Panel](panel.md)-derived panel is visible underneath the inner area if the elements that are in the [Children](panel_children.md) collection have transparency or null brushes for any of their defining area. It displays in the child margin area for any case where a child element has a nonzero [Margin](../windows.ui.xaml/frameworkelement_margin.md) affecting its position. It is also visible between the layout positions of any child elements regardless of margin, although that can depend on how the panel implements its layout behavior. For example, in a [Canvas](canvas.md), any pixel in the content area where there's not an absolutely positioned element covering it will show the panel Background brush.
 
-If you're using a [Panel](panel.md) class such as [Grid](grid.md) or [StackPanel](stackpanel.md) as the root element of a control template, it's a common practice to use a [{TemplateBinding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/templatebinding-markup-extension) to bind the panel's background to the [Control.Background](control_background.md) property of the template parent (the control class that uses your template).
+If you're using a [Panel](panel.md) class such as [Grid](grid.md) or [StackPanel](stackpanel.md) as the root element of a control template, it's a common practice to use a [{TemplateBinding} markup extension](/windows/uwp/xaml-platform/templatebinding-markup-extension) to bind the panel's background to the [Control.Background](control_background.md) property of the template parent (the control class that uses your template).
 
 ## -examples
 
 ## -see-also
-[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Use brushes](/windows/uwp/graphics/using-brushes)

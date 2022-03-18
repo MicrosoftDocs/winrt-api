@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MaxYearProperty { get; }
 ## -description
 Gets the identifier for the [MaxYear](datepicker_maxyear.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.MaxYearProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.maxyearproperty).
+
 ## -property-value
 The identifier for the [MaxYear](datepicker_maxyear.md) dependency property.
 

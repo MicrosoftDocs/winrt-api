@@ -21,4 +21,4 @@ The [PropertyAnimation](propertyanimation.md) object can be cast to the derived 
 ## -examples
 
 ## -see-also
-[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462)
+[Animation metrics sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

@@ -21,7 +21,7 @@ The beginning phonetic characters of the words to be returned.
 The maximum number of predicted words to return.
 
 ## -returns
-An asynchronous operation object which, when it completes, contains an [IVectorView](https://docs.microsoft.com/previous-versions/br224594(v=vs.85)) of strings, which are the predicted words.
+An asynchronous operation object which, when it completes, contains an [IVectorView](/previous-versions/br224594(v=vs.85)) of strings, which are the predicted words.
 
 ## -remarks
 

@@ -12,6 +12,8 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.Media.Animation.Double
 ## -description
 Inserts the specified item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrameCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframecollection.insertat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

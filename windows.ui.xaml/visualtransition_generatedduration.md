@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Duration GeneratedDuration { get;  set; }
 ## -description
 Gets or sets the amount of time it takes to move from one state to another, and the time that any implicit transition animations should run as part of the transition behavior.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.VisualTransition.GeneratedDuration](/windows/winui/api/microsoft.ui.xaml.visualtransition.generatedduration).
+
 ## -xaml-syntax
 ```xaml
 <object GeneratedDuration="duration"/>
@@ -40,4 +42,4 @@ This example specifies that the control takes one half second to go into the "Po
 [!code-xaml[PointerOverTransition](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/SkinnedButton.xaml#SnippetPointerOverTransition)]
 
 ## -see-also
-[GeneratedEasingFunction](visualtransition_generatedeasingfunction.md), [VisualStateManager](visualstatemanager.md), [GoToState](visualstatemanager_gotostate_443481648.md), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10))
+[GeneratedEasingFunction](visualtransition_generatedeasingfunction.md), [VisualStateManager](visualstatemanager.md), [GoToState](visualstatemanager_gotostate_443481648.md), [Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](/previous-versions/windows/apps/jj819808(v=win.10))

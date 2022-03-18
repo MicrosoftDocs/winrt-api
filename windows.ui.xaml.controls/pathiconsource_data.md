@@ -11,7 +11,7 @@ public Geometry Data { get;  set; }
 
 ## -description
 
-Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies the shape to be drawn. In XAML. this can also be set using a string that describes [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax).
+Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies the shape to be drawn. In XAML. this can also be set using a string that describes [Move and draw commands syntax](/windows/uwp/xaml-platform/move-draw-commands-syntax).
 
 ## -xaml-syntax
 
@@ -21,9 +21,7 @@ Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies t
     singleGeometry
   </PathIconSource.Data>
 </PathIconSource>
-```
-
-```xaml
+- or -
 <PathIconSource Data="moveAndDrawCommands"/>
 ```
 

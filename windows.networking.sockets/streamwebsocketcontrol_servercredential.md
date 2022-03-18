@@ -21,4 +21,4 @@ The ServerCredential property must be set before calling the [ConnectAsync](stre
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)), [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)), [PasswordCredential](../windows.security.credentials/passwordcredential.md), [StreamWebSocket](streamwebsocket.md)
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)), [PasswordCredential](../windows.security.credentials/passwordcredential.md), [StreamWebSocket](streamwebsocket.md)

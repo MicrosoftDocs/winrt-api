@@ -27,4 +27,4 @@ This method returns a [DeviceTriggerResult](devicetriggerresult.md) when it comp
 ## -examples
 
 ## -see-also
-[RequestAsync(String)](deviceusetrigger_requestasync_269780240.md), [Accessing sensors and devices from a background task](https://docs.microsoft.com/previous-versions/windows/apps/dn630194(v=win.10))
+[RequestAsync(String)](deviceusetrigger_requestasync_269780240.md), [Accessing sensors and devices from a background task](/previous-versions/windows/apps/dn630194(v=win.10))

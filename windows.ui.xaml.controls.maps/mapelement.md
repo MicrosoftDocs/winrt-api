@@ -21,7 +21,7 @@ Display pushpins, images, and shapes on the [MapControl](mapcontrol.md) by addin
 
 Alternately, to display XAML elements on the [MapControl](mapcontrol.md), add them to its [Children](mapcontrol_children.md) collection.
 
-For more info, see [Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps).
+For more info, see [Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps).
 
 ### Version history
 
@@ -35,4 +35,4 @@ For more info, see [Display maps with 2D, 3D, and Streetside views](https://docs
 ## -examples
 
 ## -see-also
-[Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps), [DependencyObject](../windows.ui.xaml/dependencyobject.md)
+[Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps), [DependencyObject](../windows.ui.xaml/dependencyobject.md)

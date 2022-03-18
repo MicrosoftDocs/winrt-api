@@ -12,6 +12,8 @@ public bool AllowDependentAnimations { get;  set; }
 ## -description
 Gets or sets a value that determines whether dependent animations should be permitted to run, throughout the app.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.AllowDependentAnimations](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.allowdependentanimations).
+
 ## -property-value
 **true** if animations can run in the app for dependent animation cases. Otherwise, **false**. The default is **true**.
 
@@ -23,9 +25,9 @@ A **false** value for AllowDependentAnimations overrides all cases where **Enabl
 
 
 > [!NOTE]
-> If you're using [UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md), you may have unintentionally created dependent animations, even when using default XAML controls; for more info, see [UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md) and [Optimize animations and media](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-animations-and-media).
+> If you're using [UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md), you may have unintentionally created dependent animations, even when using default XAML controls; for more info, see [UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md) and [Optimize animations and media](/windows/uwp/debug-test-perf/optimize-animations-and-media).
 
 ## -examples
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Optimize animations and media](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-animations-and-media)
+[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Optimize animations and media](/windows/uwp/debug-test-perf/optimize-animations-and-media)

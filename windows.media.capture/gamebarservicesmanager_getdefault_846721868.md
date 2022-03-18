@@ -9,12 +9,13 @@ public GameBarServicesManager GameBarServicesManager.GetDefault()
 
 # Windows.Media.Capture.GameBarServicesManager.GetDefault
 
+
 ## -description
+
 Gets the default instance of the [GameBarServiceManager](./gamebarservicesmanager.md) class.
 
-## -params
-
 ## -returns
+
 The default instance of the [GameBarServiceManager](./gamebarservicesmanager.md) class.
 
 ## -remarks
@@ -23,7 +24,7 @@ The default instance of the [GameBarServiceManager](./gamebarservicesmanager.md)
 
 ## -examples
 
-
-
 ## -capabilities
+
 gameBarServices
+

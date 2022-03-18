@@ -9,10 +9,10 @@ public IVectorView<uint> InkAnalysisWritingRegion.GetStrokeIds()
 
 # Windows.UI.Input.Inking.Analysis.InkAnalysisWritingRegion.GetStrokeIds
 
-## -description
-Retrieves the unique identifiers of all nodes belonging to the InkAnalysisWritingRegion object. 
 
-## -params
+## -description
+
+Retrieves the unique identifiers of all nodes belonging to the InkAnalysisWritingRegion object.
 
 ## -returns
 

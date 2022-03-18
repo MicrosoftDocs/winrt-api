@@ -20,7 +20,7 @@ Access methods in this class statically.
 
 ## -examples
 
-The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to set update information for a file in its [TargetFileRequested](../windows.storage.pickers.provider/filesavepickerui_targetfilerequested.md) event handler.
+The [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts) demonstrates how to set update information for a file in its [TargetFileRequested](../windows.storage.pickers.provider/filesavepickerui_targetfilerequested.md) event handler.
 
 ```csharp
 
@@ -42,34 +42,6 @@ private async void OnTargetFileRequested(FileSavePickerUI sender, TargetFileRequ
 }
 ```
 
-```javascript
-function onTargetFileRequested(e) {
-    var deferral;
-    deferral = e.request.getDeferral();
-
-    Windows.Storage.ApplicationData.current.localFolder.createFileAsync(fileSavePickerUI.fileName, Windows.Storage.CreationCollisionOption.replaceExisting).done(
-        function (file) {
-            // Set update info for the file
-            Windows.Storage.Provider.CachedFileUpdater.setUpdateInformation(
-                file,
-                "CachedFile",
-                Windows.Storage.Provider.ReadActivationMode.notNeeded,
-                Windows.Storage.Provider.WriteActivationMode.afterWrite,
-                Windows.Storage.Provider.CachedFileOptions.requireUpdateOnAccess
-            );
-
-            // Assign the resulting file to the targetFile property and complete the deferral to indicate success
-            e.request.targetFile = file;
-            deferral.complete();
-        }, function () {
-            // Set the targetFile property to null and complete the deferral to indicate failure
-            e.request.targetFile = null;
-            deferral.complete();
-        }
-    );
-};
-```
-
 ## -see-also
 
-[File picker provider sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620543)
+[File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)

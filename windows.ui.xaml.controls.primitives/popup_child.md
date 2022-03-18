@@ -12,6 +12,8 @@ public Windows.UI.Xaml.UIElement Child { get;  set; }
 ## -description
 Gets or sets the content to be hosted in the popup.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Popup.Child](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.child).
+
 ## -xaml-syntax
 ```xaml
 <Popup ...>

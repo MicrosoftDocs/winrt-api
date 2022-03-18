@@ -12,6 +12,8 @@ public FocusNavigationDirection Direction { get; }
 ## -description
 Gets the direction that focus moved from element to element within the app UI.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.LosingFocusEventArgs.Direction](/windows/winui/api/microsoft.ui.xaml.input.losingfocuseventargs.direction).
+
 ## -property-value
 The direction of focus movement.
 
@@ -19,7 +21,7 @@ The direction of focus movement.
 [FocusNavigationDirection.Previous](focusnavigationdirection.md) and [FocusNavigationDirection.Next](focusnavigationdirection.md) cannot be used with [FindNextElementOptions](findnextelementoptions.md). Only [FocusNavigationDirection.Up](focusnavigationdirection.md), [FocusNavigationDirection.Down](focusnavigationdirection.md), [FocusNavigationDirection.Left](focusnavigationdirection.md), or [FocusNavigationDirection.Right](focusnavigationdirection.md) are valid.
 
 ## -see-also
-[Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 

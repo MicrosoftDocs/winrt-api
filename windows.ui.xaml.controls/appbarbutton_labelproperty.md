@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LabelProperty { get; }
 ## -description
 Identifies the [Label](appbarbutton_label.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarButton.LabelProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton.labelproperty).
+
 ## -property-value
 The identifier for the [Label](appbarbutton_label.md) dependency property.
 

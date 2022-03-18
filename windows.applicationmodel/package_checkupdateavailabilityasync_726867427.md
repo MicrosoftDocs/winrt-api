@@ -20,10 +20,10 @@ A [PackageUpdateAvailabilityResult](packageupdateavailabilityresult.md) that ind
 ## -remarks
 If you try to use this method on the [Package](package.md) object returned by the [Current](package_current.md) property, this method will fail with an "Access denied" error. This is a known issue that may be fixed in a future release. The example on this page demonstrates how to retrieve update information about the current app's package.
 
-This method is not supported in JavaScript. However, you can create a Windows Runtime component that calls this method and then call this component from a JavaScript UWP app. For more information, see [App Installer file API issues](https://docs.microsoft.com/windows/msix/app-installer/app-installer-api-issues).
+This method is not supported in JavaScript. However, you can create a Windows Runtime component that calls this method and then call this component from a JavaScript UWP app. For more information, see [App Installer file API issues](/windows/msix/app-installer/app-installer-api-issues).
 
 ## -see-also
-[PackageUpdateAvailabilityResult](packageupdateavailabilityresult.md),[PackageManager.FindPackageForUser](../windows.management.deployment/packagemanager_findpackageforuser_526853699.md),[App Installer APIs](https://docs.microsoft.com/windows/msix/app-installer/app-installer-apis)
+[PackageUpdateAvailabilityResult](packageupdateavailabilityresult.md),[PackageManager.FindPackageForUser](../windows.management.deployment/packagemanager_findpackageforuser_526853699.md),[App Installer APIs](/windows/msix/app-installer/app-installer-documentation#app-installer-file-apis)
 
 ## -examples
 

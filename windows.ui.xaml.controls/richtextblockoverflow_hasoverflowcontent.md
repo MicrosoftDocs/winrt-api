@@ -12,6 +12,8 @@ public bool HasOverflowContent { get; }
 ## -description
 Gets a value that indicates whether the [RichTextBlockOverflow](richtextblockoverflow.md) has content that extends beyond its bounds, that can provide content to an [OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md) element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlockOverflow.HasOverflowContent](/windows/winui/api/microsoft.ui.xaml.controls.richtextblockoverflow.hasoverflowcontent).
+
 ## -property-value
 **True** if the [RichTextBlockOverflow](richtextblockoverflow.md) has content that extends beyond its bounds; otherwise, **false**.
 

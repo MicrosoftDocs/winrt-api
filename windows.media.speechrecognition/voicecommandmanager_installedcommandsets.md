@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IMapView<string, Windows.Media.SpeechRecog
 # Windows.Media.SpeechRecognition.VoiceCommandManager.InstalledCommandSets
 
 ## -description
-A dictionary that contains all installed command sets that have a [Name](https://docs.microsoft.com/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2.md) attribute set in the [](https://docs.microsoft.com/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2.md) file.
+A dictionary that contains all installed command sets that have a [Name](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2.md) attribute set in the [](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2.md) file.
 
 ## -property-value
 The dictionary of installed command sets that have a Name attribute set in the Voice Command Definition (VCD) file.
@@ -21,4 +21,4 @@ Avoid calling this property from the UI thread. Opening an app service connectio
 ## -examples
 
 ## -see-also
-[ elements and attributes](https://docs.microsoft.com/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[ elements and attributes](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2.md), [Speech interactions](/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

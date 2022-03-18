@@ -12,6 +12,8 @@ public object GetValue(System.Object target)
 ## -description
 Gets the value of the custom property from a particular instance.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Data.ICustomProperty.GetValue](/windows/winui/api/microsoft.ui.xaml.data.icustomproperty.getvalue).
+
 ## -parameters
 ### -param target
 The owning instance.

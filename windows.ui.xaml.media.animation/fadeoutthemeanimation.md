@@ -12,6 +12,8 @@ public class FadeOutThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline, W
 ## -description
 Represents the preconfigured opacity animation that applies to controls when they are removed from the UI or hidden.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.FadeOutThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.fadeoutthemeanimation).
+
 ## -xaml-syntax
 ```xaml
 <FadeOutThemeAnimation ... />
@@ -41,4 +43,4 @@ The following example applies a [FadeInThemeAnimation](fadeinthemeanimation.md) 
 [!code-csharp[FadeThemeAnimation_code](../windows.ui.xaml.media.animation/code/FadeInThemeAnimation/csharp/BlankPage.xaml.cs#SnippetFadeThemeAnimation_code)]
 
 ## -see-also
-[Timeline](timeline.md), [Animating fades](https://docs.microsoft.com/previous-versions/windows/apps/jj649429(v=win.10)), [Guidelines and checklist for fade animations](https://docs.microsoft.com/windows/uwp/style/motion-fade)
+[Timeline](timeline.md), [Animating fades](/previous-versions/windows/apps/jj649429(v=win.10)), [Guidelines and checklist for fade animations](/windows/uwp/style/motion-fade)

@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush SelectedForeground { get;  set; }
 ## -description
 Gets or sets a brush that provides the foreground of a calendar item that's selected.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.SelectedForeground](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selectedforeground).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView SelectedForeground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <CalendarView SelectedForeground="colorString"/>
-
-```
-
-```xaml
+- or -
 <CalendarView>
   CalendarView.SelectedForeground>singleBrush</CalendarView.SelectedForeground>
 </CalendarView>

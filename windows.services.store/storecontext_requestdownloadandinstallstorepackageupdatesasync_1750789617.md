@@ -25,10 +25,10 @@ An object that the caller can observe to track progress and completion for the o
 ## -exceptions
 ### System.Runtime.InteropServices.COMException
 
-If the **ErrorCode** property of the exception has the value 0x80070578 (ERROR_INVALID_WINDOW_HANDLE), this indicates that the method was not called on the UI thread. If you are calling this method in a desktop application that uses the Desktop Bridge, this can also indicate that you did not configure the [StoreContext](storecontext.md) object to specify which application window is the owner window for modal dialogs shown by this method. For more information, see [this article](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#desktop).
+If the **ErrorCode** property of the exception has the value 0x80070578 (ERROR_INVALID_WINDOW_HANDLE), this indicates that the method was not called on the UI thread. If you are calling this method in a desktop application that uses the Desktop Bridge, this can also indicate that you did not configure the [StoreContext](storecontext.md) object to specify which application window is the owner window for modal dialogs shown by this method. For more information, see [this article](/windows/uwp/monetize/in-app-purchases-and-trials#desktop).
 
 ## -remarks
-To get the list of packages that have updates available, use the [GetAppAndOptionalStorePackageUpdatesAsync](storecontext_getappandoptionalstorepackageupdatesasync_399599716.md) method. If you have already downloaded package updates by using [RequestDownloadStorePackageUpdatesAsync](storecontext_requestdownloadstorepackageupdatesasync_889669938.md), this method will install the updates without trying to download them again. For more information about using this method, including a code example, see [Download and install package updates for your app](https://docs.microsoft.com/windows/uwp/packaging/self-install-package-updates).
+To get the list of packages that have updates available, use the [GetAppAndOptionalStorePackageUpdatesAsync](storecontext_getappandoptionalstorepackageupdatesasync_399599716.md) method. If you have already downloaded package updates by using [RequestDownloadStorePackageUpdatesAsync](storecontext_requestdownloadstorepackageupdatesasync_889669938.md), this method will install the updates without trying to download them again. For more information about using this method, including a code example, see [Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates).
 
 This operation will not block. The [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) object returned by this method will complete after the update packages are downloaded and installed.
 
@@ -42,7 +42,7 @@ When you call this method, the OS displays the following UI:
 
 The method that you assign to handle [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) notifications is called one time for each step in the download and installation process for each package in this request. The [Progress](../windows.foundation/iasyncoperationwithprogress_2_progress.md) handler receives a [StorePackageUpdateStatus](storepackageupdatestatus.md) argument that provides info about the update package that raised the progress notification.
 
-If you want to show a custom progress UI (such as a [ProgressBar](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.progressbar)) that provides status to the user, you can use the **PackageDownloadProgress** field of the [StorePackageUpdateStatus](storepackageupdatestatus.md) argument to get the current progress of each package download and install operation, represented by a value from 0.0 to 1.0. This value increases from 0.0 to 0.8 during the download, and then it increases from 0.8 to 1.0 during the install.
+If you want to show a custom progress UI (such as a [ProgressBar](/uwp/api/windows.ui.xaml.controls.progressbar)) that provides status to the user, you can use the **PackageDownloadProgress** field of the [StorePackageUpdateStatus](storepackageupdatestatus.md) argument to get the current progress of each package download and install operation, represented by a value from 0.0 to 1.0. This value increases from 0.0 to 0.8 during the download, and then it increases from 0.8 to 1.0 during the install.
 
 Therefore, if you map the percentage shown in your custom progress UI directly to the value of the **PackageDownloadProgress** field, be aware that your UI will show 80% when the package is finished downloading and the OS displays the installation dialog. If you want your custom progress UI to display 100% when the package is downloaded and ready to be installed, you can modify your code to assign 100% to your progress UI when the **PackageDownloadProgress** field reaches 0.8.
 
@@ -50,4 +50,4 @@ Therefore, if you map the percentage shown in your custom progress UI directly t
 ## -examples
 
 ## -see-also
-[Download and install package updates for your app](https://docs.microsoft.com/windows/uwp/packaging/self-install-package-updates), [StoreContext](storecontext.md), [StorePackageUpdateResult](storepackageupdateresult.md), [StorePackageUpdateStatus](storepackageupdatestatus.md)
+[Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates), [StoreContext](storecontext.md), [StorePackageUpdateResult](storepackageupdateresult.md), [StorePackageUpdateStatus](storepackageupdatestatus.md)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.RoutedEvent ManipulationInertiaStartingEvent { get; }
 ## -description
 Gets the identifier for the [ManipulationInertiaStarting](uielement_manipulationinertiastarting.md) routed event.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ManipulationInertiaStartingEvent](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationinertiastartingevent).
+
 ## -property-value
 The identifier for the [ManipulationInertiaStarting](uielement_manipulationinertiastarting.md) routed event.
 
@@ -20,4 +22,4 @@ The identifier for the [ManipulationInertiaStarting](uielement_manipulationinert
 ## -examples
 
 ## -see-also
-[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)
+[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)

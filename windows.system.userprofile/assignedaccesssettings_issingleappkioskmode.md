@@ -22,7 +22,7 @@ Gets a value that indicates whether the kiosk account is configured as a single-
 
 ## -see-also
 
-[Set up a single-app kiosk](https://docs.microsoft.com/windows/configuration/kiosk-single-app), [Set up a multi-app kiosk](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps)
+[Set up a single-app kiosk](/windows/configuration/kiosk-single-app), [Set up a multi-app kiosk](/windows/configuration/lock-down-windows-10-to-specific-apps)
 
 ## -examples
 

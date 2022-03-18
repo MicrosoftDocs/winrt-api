@@ -13,11 +13,12 @@ public class FocusMovementResult
 
 Represents the status of a focus operation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.FocusMovementResult](/windows/winui/api/microsoft.ui.xaml.input.focusmovementresult).
+
 ## -remarks
 
 ## -see-also
 
-[FocusManager.TryMoveFocusAsync(FocusNavigationDirection focusNavigationDirection, FindNextElementOptions focusNavigationOptions)](focusmanager_trymovefocusasync_1478983649.md),  [FocusManager.TryMoveFocusAsync(FocusNavigationDirection focusNavigationDirection, FindNextElementOptions focusNavigationOptions)](focusmanager_tryfocusasync_1779533284.md), [FocusManager.TryFocusAsync(DependencyObject element, FocusState value)](focusmanager_tryfocusasync_1779533284.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[FocusManager.TryMoveFocusAsync(Windows.UI.Xaml.Input.FocusNavigationDirection)](focusmanager_trymovefocusasync_1020299191.md), [FocusManager.TryMoveFocusAsync(Windows.UI.Xaml.Input.FocusNavigationDirection,Windows.UI.Xaml.Input.FindNextElementOptions)](focusmanager_trymovefocusasync_1478983649.md), [FocusManager.TryFocusAsync](focusmanager_tryfocusasync_1779533284.md), [Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
-

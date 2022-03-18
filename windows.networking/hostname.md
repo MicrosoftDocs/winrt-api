@@ -47,7 +47,7 @@ int main()
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Networking;
 using namespace Windows::Networking::Sockets;
 
@@ -56,17 +56,6 @@ StreamSocket^ clientSocket = ref new StreamSocket();
 
 // Try to connect to the remote host
 clientSocket->ConnectAsync(serverHost, "http");
-```
-
-```javascript
-using Windows.Networking;
-using Windows.Networking.Sockets;
-
-var serverHost = new HostName("www.contoso.com");
-var clientSocket = new Windows.Networking.Sockets.StreamSocket();
-
-// Try to connect to the remote host
-await clientSocket.ConnectAsync(serverHost, "http");
 ```
 
 ## -examples

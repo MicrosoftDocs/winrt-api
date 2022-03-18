@@ -14,6 +14,8 @@ public void UIElementWeakCollection.ReplaceAll(UIElement[] items)
 
 Initially clears the collection, then inserts the provided array as new items.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.replaceall).
+
 ## -parameters
 ### -param items
 

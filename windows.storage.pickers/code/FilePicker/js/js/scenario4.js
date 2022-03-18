@@ -13,7 +13,7 @@
         }
     });
 
-    function saveFile() {
+    function saveFile(fileContents) {
         // Clean scenario output
         WinJS.log && WinJS.log("", "sample", "status");
 
@@ -48,7 +48,7 @@
                 // Prevent updates to the remote version of the file until we finish making changes and call CompleteUpdatesAsync.
                 Windows.Storage.CachedFileManager.deferUpdates(file);
                 // write to file
-                Windows.Storage.FileIO.writeTextAsync(file, file.name).done(function () {
+                Windows.Storage.FileIO.writeTextAsync(file, fileContents).done(function () {
                     // Let Windows know that we're finished changing the file so the other app can update the remote version of the file.
                     // Completing updates may require Windows to ask for user input.
                     Windows.Storage.CachedFileManager.completeUpdatesAsync(file).done(function (updateStatus) {

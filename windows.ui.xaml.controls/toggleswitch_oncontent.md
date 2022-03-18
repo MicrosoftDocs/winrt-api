@@ -12,12 +12,12 @@ public object OnContent { get;  set; }
 ## -description
 Provides the object content that should be displayed using the [OnContentTemplate](toggleswitch_oncontenttemplate.md) when this [ToggleSwitch](toggleswitch.md) has state of "On".
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToggleSwitch.OnContent](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch.oncontent).
+
 ## -xaml-syntax
 ```xaml
 <ToggleSwitch OnContent="stringContent"/>
-```
-
-```xaml
+- or -
 <ToggleSwitch>
   <ToggleSwitch.OnContent>
     singleContentElement

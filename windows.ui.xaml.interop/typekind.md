@@ -24,9 +24,9 @@ The type is a custom type declared by means other than WinMD.
 
 
 ## -remarks
-This enumeration is not relevant to type system information as reported to .NET code. Any value that reports type information from a Windows Runtime  API being called by C# or Microsoft Visual Basic code is projected to [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN).
+This enumeration is not relevant to type system information as reported to .NET code. Any value that reports type information from a Windows Runtime  API being called by C# or Microsoft Visual Basic code is projected to [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 
 ## -see-also
-[System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN), [Type system (C++/CX)](https://docs.microsoft.com/cpp/cppcx/type-system-c-cx)
+[System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true), [Type system (C++/CX)](/cpp/cppcx/type-system-c-cx)

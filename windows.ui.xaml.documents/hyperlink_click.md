@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler Click<Windows.UI.Xaml.Document
 ## -description
 Occurs when the [Hyperlink](hyperlink.md) is clicked.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Documents.Hyperlink.Click](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.click).
+
 ## -xaml-syntax
 ```xaml
 <Hyperlink Click="eventhandler"/>

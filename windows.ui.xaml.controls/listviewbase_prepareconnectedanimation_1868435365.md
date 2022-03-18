@@ -12,6 +12,8 @@ public ConnectedAnimation ListViewBase.PrepareConnectedAnimation(String key, Obj
 ## -description
 Returns a connected animation that's associated with the specified key, data item, and source element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.PrepareConnectedAnimation](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.prepareconnectedanimation).
+
 ## -parameters
 ### -param key
 The key for the animation.

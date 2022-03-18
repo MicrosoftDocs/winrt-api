@@ -18,6 +18,6 @@ The license status for the downloadable content (DLC) add-on package.
 ## -remarks
 
 ## -see-also
-[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
+[Optional packages and related set authoring](/windows/uwp/packaging/optional-packages)
 
 ## -examples

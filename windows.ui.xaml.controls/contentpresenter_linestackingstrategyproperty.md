@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LineStackingStrategyProperty { get; }
 ## -description
 Identifies the [LineStackingStrategy](contentpresenter_linestackingstrategy.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.LineStackingStrategyProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.linestackingstrategyproperty).
+
 ## -property-value
 The identifier for the [LineStackingStrategy](contentpresenter_linestackingstrategy.md) dependency property.
 

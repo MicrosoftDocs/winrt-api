@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush PointerOverForeground { get;  set; }
 ## -description
 Gets or sets the brush used to render the foreground when the pointer is over the item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverForeground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.pointeroverforeground).
+
 ## -xaml-syntax
 ```xaml
 <ListViewItemPresenter PointerOverForeground="themeResourceReference"/>
@@ -35,4 +37,4 @@ If you're setting this property as an attribute on a custom [ListViewItemPresent
 ## -examples
 
 ## -see-also
-[XAML theme resources](https://docs.microsoft.com/windows/uwp/controls-and-patterns/xaml-theme-resources)
+[XAML theme resources](/windows/uwp/controls-and-patterns/xaml-theme-resources)

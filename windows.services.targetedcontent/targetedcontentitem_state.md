@@ -10,7 +10,9 @@ public TargetedContentItemState State { get; }
 # Windows.Services.TargetedContent.TargetedContentItem.State
 
 ## -description
-Gets the TargetedContentItemState for the item.
+
+Gets the [TargetedContentItemState](targetedcontentitemstate.md) for the item.
+
 ## -property-value
 
 ## -remarks
@@ -19,6 +21,6 @@ Gets the TargetedContentItemState for the item.
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

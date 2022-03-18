@@ -12,6 +12,8 @@ public bool IsTextSearchEnabled { get;  set; }
 ## -description
 Gets or sets a value that specifies whether a user can jump to a value by typing.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.IsTextSearchEnabled](/windows/winui/api/microsoft.ui.xaml.controls.combobox.istextsearchenabled).
+
 ## -xaml-syntax
 ```xaml
 <ComboBox IsTextSearchEnabled="bool"/>
@@ -27,7 +29,7 @@ Starting in Windows 10, version 1607, [ComboBox](combobox.md) introduces a text
 
 ### Version compatibility
 
-The IsTextSearchEnabled property is not available prior to Windows 10, version 1607. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+The IsTextSearchEnabled property is not available prior to Windows 10, version 1607. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code).
 
 > [!NOTE]
 > The text search feature is available when your app is compiled for Windows 10, version 1607 and running on version 1607 (or later). It is not available when your app is compiled for a previous version or is running on a previous version.

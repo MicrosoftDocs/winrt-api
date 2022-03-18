@@ -13,13 +13,13 @@ public class StartupTask : Windows.ApplicationModel.IStartupTask
 Represents a UWP app or a desktop application background task that runs at system startup or when the user logs in to their device.
 
 ## -remarks
-This functionality is supported on desktop versions of Windows in both UWP apps and desktop applications in a Windows app package. For more information on packaged desktop applications (also known as Desktop Bridge Apps), see [Package desktop applications](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-root). Support for packaged desktop applications was introduced in the Windows 10 Anniversary Update (version 1607), and for UWP apps in the Windows 10 Fall Creators Update (version 1709).
+This functionality is supported on desktop versions of Windows in both UWP apps and desktop applications in a Windows app package. For more information on packaged desktop applications (also known as Desktop Bridge Apps), see [Package desktop applications](/windows/uwp/porting/desktop-to-uwp-root). Support for packaged desktop applications was introduced in the Windows 10 Anniversary Update (version 1607), and for UWP apps in the Windows 10 Fall Creators Update (version 1709).
 
 An app must add the `windows.startup` extension category to its app package manifest in order to be activated at startup or when the user logs in. Adding this extension will not, by itself, automatically cause the app start.
 
-UWP apps must call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask.RequestEnableAsync) from a UI thread to trigger a user-consent dialog. If the user consents, the UWP app will then start on startup or user log in. Note that UWP startup apps will start minimized.
+UWP apps must call [RequestEnableAsync](/uwp/api/Windows.ApplicationModel.StartupTask.RequestEnableAsync) from a UI thread to trigger a user-consent dialog. If the user consents, the UWP app will then start on startup or user log in. Note that UWP startup apps will start minimized.
 
-If **RequestEnableAsync** is called from a packaged desktop app, no user-consent dialog is shown. Desktop apps can set their startup tasks to **Enabled** in the manifest, in which case they do not need to call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask.RequestEnableAsync).
+If **RequestEnableAsync** is called from a packaged desktop app, no user-consent dialog is shown. Desktop apps can set their startup tasks to **Enabled** in the manifest, in which case they do not need to call [RequestEnableAsync](/uwp/api/Windows.ApplicationModel.StartupTask.RequestEnableAsync).
 
 In both cases, the app must be launched by the user at least once for startup functionality to be enabled. Once enabled, the user is in control and can change the enabled state of your app at any time via the **Startup** tab in Task Manager.
 
@@ -55,7 +55,7 @@ The following extension declaration goes in the app package manifest. The declar
 |**Executable** | The relative path to the .exe to start.|
 |**EntryPoint** | Must have the value `"Windows.FullTrustApplication"`.|
 |**TaskId** | A unique identifier for your task. Using this identifier, your app can call the APIs in this class to programmatically enable or disable a startup task.
-|**Enabled** | May be set to `true` for packaged desktop apps to indicate that the app is enabled for startup without first needing to call [RequestEnableAsync](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.StartupTask.RequestEnableAsync).|
+|**Enabled** | May be set to `true` for packaged desktop apps to indicate that the app is enabled for startup without first needing to call [RequestEnableAsync](/uwp/api/Windows.ApplicationModel.StartupTask.RequestEnableAsync).|
 |**DisplayName** | The name of the task that appears in Task Manager.|
 
 For packaged desktop apps, multiple **startupTask** extensions are permitted, and each one can specify a different executable.
@@ -155,5 +155,5 @@ switch (startupTask.State)
 
 ## -see-also
 
-[Startup app code sample](https://github.com/Microsoft/AppModelSamples/tree/master/Samples/TestStartup)  
+[Startup app code sample](https://github.com/Microsoft/AppModelSamples/tree/master/Samples/TestStartup),  
 [Configure your app to start at log-in](https://blogs.windows.com/buildingapps/2017/08/01/configure-app-start-log/#ezTx08j9to6Mc0uy.97)

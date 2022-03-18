@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush SelectedHoverBorderBrush { get;  set; }
 ## -description
 Gets or sets a brush that provides the border of a selected calendar item while the pointer is over it.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.SelectedHoverBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selectedhoverborderbrush).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView SelectedHoverBorderBrush="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <CalendarView SelectedHoverBorderBrush="colorString"/>
-
-```
-
-```xaml
+- or -
 <CalendarView>
   CalendarView.SelectedHoverBorderBrush>singleBrush</CalendarView.SelectedHoverBorderBrush>
 </CalendarView>

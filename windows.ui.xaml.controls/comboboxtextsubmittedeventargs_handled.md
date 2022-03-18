@@ -13,6 +13,8 @@ public bool Handled { get;  set; }
 ## -description
 Gets or sets whether the TextSubmitted event was handled or not. If **true**, the framework will not automatically update the selected item of the ComboBox to the new value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBoxTextSubmittedEventArgs.Handled](/windows/winui/api/microsoft.ui.xaml.controls.comboboxtextsubmittedeventargs.handled).
+
 ## -property-value
 
 ## -remarks

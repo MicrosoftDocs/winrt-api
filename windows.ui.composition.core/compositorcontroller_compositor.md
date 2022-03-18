@@ -13,6 +13,8 @@ public Compositor Compositor { get; }
 
 Gets the compositor associated with this composition controller.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Core.CompositorController.Compositor](/windows/winui/api/microsoft.ui.composition.core.compositorcontroller.compositor).
+
 ## -property-value
 
 The compositor associated with this composition controller.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ClockIdentifierProperty { get; }
 ## -description
 Gets the identifier for the [ClockIdentifier](timepickerflyout_clockidentifier.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePickerFlyout.ClockIdentifierProperty](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyout.clockidentifierproperty).
+
 ## -property-value
 The identifier for the [ClockIdentifier](timepickerflyout_clockidentifier.md) dependency property.
 

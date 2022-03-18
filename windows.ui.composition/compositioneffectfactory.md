@@ -15,6 +15,8 @@ Creates a composition object that contains a [Win2D](https://microsoft.github.io
 > [!NOTE]
 > Effects that are not supported are marked as [NoComposition] in the [Win2D API Reference](https://microsoft.github.io/Win2D/html/APIReference.htm) for effects namespace.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionEffectFactory](/windows/winui/api/microsoft.ui.composition.compositioneffectfactory).
+
 ## -remarks
 
 A composition effect is a graph of operations that define how to produce graphical content based on composition surfaces; for example, the pixel content of images. Effects are applied to visuals in the tree and can reference existing surfaces.
@@ -42,4 +44,4 @@ CompositionEffectFactory blurEffectFactory = _compositor.CreateEffectFactory(blu
 
 
 ## -see-also
-[Composition Brushes Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](https://go.microsoft.com/fwlink/p/?LinkID=692063), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Brushes Overview](/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](/en-us/windows/uwp/composition/composition-effects), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

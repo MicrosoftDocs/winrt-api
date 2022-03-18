@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.AutoSuggestionBoxTextChangeReason Reason { get; 
 ## -description
 Gets or sets a value that indicates the reason for the text changing in the [AutoSuggestBox](autosuggestbox.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBoxTextChangedEventArgs.Reason](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestboxtextchangedeventargs.reason).
+
 ## -property-value
 The reason for the text changing in the [AutoSuggestBox](autosuggestbox.md).
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty StretchProperty { get; }
 ## -description
 Identifies the [Stretch](shape_stretch.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.StretchProperty](/windows/winui/api/microsoft.ui.xaml.shapes.shape.stretchproperty).
+
 ## -property-value
 The identifier for the [Stretch](shape_stretch.md) dependency property.
 

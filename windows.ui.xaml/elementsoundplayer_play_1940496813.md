@@ -12,12 +12,14 @@ public void Play(Windows.UI.Xaml.ElementSoundKind sound)
 ## -description
 Plays the specified sound.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.ElementSoundPlayer.Play](/windows/winui/api/microsoft.ui.xaml.elementsoundplayer.play).
+
 ## -parameters
 ### -param sound
 A value of the enumeration that specifies the sound to play.
 
 ## -remarks
-For more info, see [Sound in UWP apps](https://docs.microsoft.com/windows/uwp/style/sound).
+For more info, see [Sound in UWP apps](/windows/uwp/style/sound).
 
 ## -examples
 

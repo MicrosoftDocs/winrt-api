@@ -13,6 +13,8 @@ public DependencyObject NewFocusedElement { get;  set; }
 
 Gets the most recent focused object.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.NewFocusedElement](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.newfocusedelement).
+
 ## -property-value
 
 The most recent focused object.
@@ -21,7 +23,7 @@ The most recent focused object.
 
 ## -see-also
 
-[Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 

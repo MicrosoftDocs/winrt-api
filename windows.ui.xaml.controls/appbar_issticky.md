@@ -12,6 +12,8 @@ public bool IsSticky { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [AppBar](appbar.md) does not close on light dismiss.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBar.IsSticky](/windows/winui/api/microsoft.ui.xaml.controls.appbar.issticky).
+
 ## -xaml-syntax
 ```xaml
 <AppBar IsSticky="bool" .../>
@@ -30,4 +32,4 @@ By default, app bars are dismissed when the user interacts with your app anywher
 [!code-xaml[IsStickyXAML](../windows.ui.xaml.controls/code/AppBarSample/CS/SnippetsPage.xaml#SnippetIsStickyXAML)]
 
 ## -see-also
-[Quickstart: Adding app bars](https://docs.microsoft.com/previous-versions/windows/apps/hh781232(v=win.10))
+[Quickstart: Adding app bars](/previous-versions/windows/apps/hh781232(v=win.10))

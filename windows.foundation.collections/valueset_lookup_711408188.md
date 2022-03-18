@@ -20,9 +20,9 @@ The key.
 The value, if an item with the specified key exists. Use the **HasKey** method to determine whether the key exists.
 
 ## -remarks
-Some functionality in this class is restricted to specific development languages. The parent topic, [ValueSet](valueset.md) class, indicates which members are accessible in specific languages. For functionality similar to this member, see [TryGetValue](https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.trygetvalue).
+Some functionality in this class is restricted to specific development languages. The parent topic, [ValueSet](valueset.md) class, indicates which members are accessible in specific languages. For functionality similar to this member, see [TryGetValue](/dotnet/api/system.collections.generic.idictionary-2.trygetvalue?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 
 ## -see-also
-[TryGetValue](https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2.trygetvalue)
+[TryGetValue](/dotnet/api/system.collections.generic.idictionary-2.trygetvalue?view=dotnet-uwp-10.0&preserve-view=true)

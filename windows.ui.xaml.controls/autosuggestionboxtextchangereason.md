@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.AutoSuggestionBoxTextChangeReason : int
 ## -description
 Values used to indicate the reason for the text changing in the [AutoSuggestBox](autosuggestbox.md).
 
+Equivalent WinUI enum: [AutoSuggestionBoxTextChangeReason](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestionboxtextchangereason).
+
 ## -enum-fields
 ### -field UserInput:0
 The user edited the text.

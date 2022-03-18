@@ -21,4 +21,4 @@ For an individual item, the system exposes the stream associated with the item, 
 
 ## -see-also
 
-[File search sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620544), [Folder enumeration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619993), [Content indexer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer)
+[File search sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileSearch), [Folder enumeration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619993), [Content indexer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ContentIndexer)

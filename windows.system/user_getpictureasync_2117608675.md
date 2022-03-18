@@ -17,14 +17,14 @@ Gets a user's picture asynchronously.
 The desired size of the user's picture to return.
 
 ## -returns
-When this method completes, it returns the user's picture.
+When this method completes, it returns the user's picture or null if there is none.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[User information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620617)
+[User information sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/UserInfo)
 
 ## -capabilities
 userAccountInformation

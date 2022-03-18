@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ElementProperty { get; }
 ## -description
 Gets the identifier of the  property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationAnnotation.ElementProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationannotation.elementproperty).
+
 ## -property-value
 The identifier of the  property.
 

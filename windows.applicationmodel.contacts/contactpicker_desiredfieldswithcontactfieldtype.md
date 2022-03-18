@@ -16,12 +16,13 @@ Gets the ways to connect with a contact.
 An array of [ContactFieldType](contactfieldtype.md)-typed values for a contact.
 
 ## -remarks
-For info about how to select contacts, see [Selecting contacts](https://docs.microsoft.com/windows/uwp/contacts-and-calendar/selecting-contacts) and [Quickstart: Selecting user contacts ](https://docs.microsoft.com/previous-versions/windows/apps/jj153343(v=win.10)).
+
+For more info about how to select contacts, see [Select contacts](/windows/uwp/contacts-and-calendar/selecting-contacts).
 
 ## -examples
 
 
 ## -see-also
-[Contact Picker app sample](https://go.microsoft.com/fwlink/p/?linkid=231575)
+[Contact Picker app sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ContactPicker)
 ## -capabilities
 contactsSystem

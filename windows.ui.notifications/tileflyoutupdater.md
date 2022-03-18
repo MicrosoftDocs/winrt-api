@@ -11,7 +11,7 @@ public class TileFlyoutUpdater : Windows.UI.Notifications.ITileFlyoutUpdater
 # Windows.UI.Notifications.TileFlyoutUpdater
 
 ## -description
-Used to send or clear a tile flyout (mix view) notification. This class also provides methods to start and stop [periodic](https://docs.microsoft.com/previous-versions/windows/apps/jj150587(v=win.10)) tile flyout notifications.
+Used to send or clear a tile flyout (mix view) notification. This class also provides methods to start and stop [periodic](/previous-versions/windows/apps/jj150587(v=win.10)) tile flyout notifications.
 
 This class is part of the following general API usage pattern: 
 + Call [TileFlyoutUpdateManager.GetTemplateContent](tileflyoutupdatemanager_gettemplatecontent_739748376.md) to retrieve and fill in a blank tile flyout notification XML template

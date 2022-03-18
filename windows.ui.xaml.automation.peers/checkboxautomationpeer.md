@@ -12,6 +12,8 @@ public class CheckBoxAutomationPeer : Windows.UI.Xaml.Automation.Peers.ToggleBut
 ## -description
 Exposes [CheckBox](../windows.ui.xaml.controls/checkbox.md) types to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.CheckBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.checkboxautomationpeer).
+
 ## -remarks
 The Windows Runtime  [CheckBox](../windows.ui.xaml.controls/checkbox.md) class creates a new CheckBoxAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from CheckBoxAutomationPeer if you are deriving a custom class from [CheckBox](../windows.ui.xaml.controls/checkbox.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
@@ -25,9 +27,9 @@ CheckBoxAutomationPeer has overrides of **Core** methods such that the associate
 + The peer can fire the [PropertyChanged](automationevents.md) automation event when [ToggleState](appbarautomationpeer_togglestate.md) of the peer and owner control changes.
 This peer has the base class [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md) and inherits its behavior other than the overrides indicated above. Notably, [GetName](automationpeer_getname_1386609741.md) returns a string value based on examining the current **Content**. For more info, see [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md).
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 
 ## -see-also
-[ToggleButtonAutomationPeer](togglebuttonautomationpeer.md), [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md), [CheckBox](../windows.ui.xaml.controls/checkbox.md), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[ToggleButtonAutomationPeer](togglebuttonautomationpeer.md), [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md), [CheckBox](../windows.ui.xaml.controls/checkbox.md), [IToggleProvider](../windows.ui.xaml.automation.provider/itoggleprovider.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

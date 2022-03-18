@@ -13,6 +13,8 @@ public float MaxPlaybackRate { get; }
 
 Gets the maximum allowed playback rate.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.AnimationController.MaxPlaybackRate](/windows/winui/api/microsoft.ui.composition.animationcontroller.maxplaybackrate).
+
 ## -property-value
 
 The maximum allowed playback rate.

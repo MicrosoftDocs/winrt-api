@@ -10,10 +10,10 @@ public string Description { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactDate.Description
 
 ## -description
-Gets and sets the description for an important date for a contact. The maximum string length for the description is 512 characters.
+Gets or sets the description for an important date for a contact. The maximum string length for the description is 512 characters.
 
 ## -property-value
-The description for an important date for a contact.
+The description for an important date for a contact. The maximum string length for the description is 512 characters.
 
 ## -remarks
 

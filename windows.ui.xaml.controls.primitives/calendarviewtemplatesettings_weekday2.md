@@ -12,6 +12,8 @@ public string WeekDay2 { get; }
 ## -description
 Gets the second day of the week.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay2](/windows/winui/api/microsoft.ui.xaml.controls.primitives.calendarviewtemplatesettings.weekday2).
+
 ## -property-value
 The second day of the week.
 

@@ -14,7 +14,25 @@ public class IconSourceElement : IconElement, IconElement
 
 Represents an icon that uses an IconSource as its content.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.IconSourceElement](/windows/winui/api/microsoft.ui.xaml.controls.iconsourceelement).
+
 ## -remarks
+
+[IconSource](iconsource.md) is similar to [IconElement](iconelement.md). However, because it is not a [FrameworkElement](/uwp/api/windows.ui.xaml.frameworkelement), it can be shared.
+
+`IconSourceElement` provides a wrapper that lets you use an `IconSource` in places that require an `IconElement`. For example, the [AppBarButton.Icon](appbarbutton_icon.md) property takes an `IconElement`. You can use an `IconSource` derived class as the icon like this:
+
+```xaml
+<AppBarButton Label="Accept">
+    <AppBarButton.Icon>
+        <IconSourceElement>
+            <IconSourceElement.IconSource>
+                <SymbolIconSource Symbol="Accept"/>
+            </IconSourceElement.IconSource>
+        </IconSourceElement>
+    </AppBarButton.Icon>
+</AppBarButton>
+```
 
 ## -see-also
 

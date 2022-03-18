@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FirstOfYearDecadeLabelFontStylePropert
 ## -description
 Identifies the [FirstOfYearDecadeLabelFontStyle](calendarview_firstofyeardecadelabelfontstyle.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.FirstOfYearDecadeLabelFontStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.firstofyeardecadelabelfontstyleproperty).
+
 ## -property-value
 The identifier for the [FirstOfYearDecadeLabelFontStyle](calendarview_firstofyeardecadelabelfontstyle.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [FirstOfYearDecadeLabelFontStyle](calendarview_firstofyea
 ## -examples
 
 ## -see-also
-[FirstOfYearDecadeLabelFontStyle](calendarview_firstofyeardecadelabelfontstyle.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[FirstOfYearDecadeLabelFontStyle](calendarview_firstofyeardecadelabelfontstyle.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

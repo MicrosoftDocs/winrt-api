@@ -20,7 +20,7 @@ The [IJsonValue](ijsonvalue.md) to look up.
 The zero-based index of the first occurrence of item within the [JsonArray](jsonarray.md), if found; otherwise, –1.
 
 ## -returns
-Returns a [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value indicating if an occurrence of *value* was found.
+Returns a [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) value indicating if an occurrence of *value* was found.
 
 ## -remarks
 

@@ -10,7 +10,10 @@ public IInkAnalysisNode Parent { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisWritingRegion.Parent
 
 ## -description
-Gets the parent node of the InkAnalysisWritingRegion object.  
+
+Gets the parent node of the InkAnalysisWritingRegion object.
+
+## -property-value
 
 ## -remarks
 

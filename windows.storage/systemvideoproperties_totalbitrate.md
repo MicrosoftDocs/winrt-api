@@ -10,10 +10,10 @@ public string TotalBitrate { get; }
 # Windows.Storage.SystemVideoProperties.TotalBitrate
 
 ## -description
-Gets the name of the [System.Video.TotalBitrate](https://docs.microsoft.com/windows/desktop/properties/props-system-video-totalbitrate) property (one of the [Windows video file properties](https://docs.microsoft.com/windows/desktop/properties/video-bumper).
+Gets the name of the [System.Video.TotalBitrate](/windows/desktop/properties/props-system-video-totalbitrate) property (one of the [Windows video file properties](/windows/desktop/properties/video-bumper).
 
 ## -property-value
-The name of the [System.Video.TotalBitrate](https://docs.microsoft.com/windows/desktop/properties/props-system-video-totalbitrate) file property.
+The name of the [System.Video.TotalBitrate](/windows/desktop/properties/props-system-video-totalbitrate) file property.
 
 ## -remarks
 

@@ -13,6 +13,8 @@ public DependencyProperty IsTabStopProperty { get; }
 
 Identifies the IsTabStop dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.IsTabStopProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.istabstopproperty).
+
 ## -property-value
 
 The identifier for the IsTabStop dependency property.

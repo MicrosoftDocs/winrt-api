@@ -12,6 +12,8 @@ public PropertyMetadata(System.Object defaultValue)
 ## -description
 Initializes a new instance of the [PropertyMetadata](propertymetadata.md) class, using a property default value.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.PropertyMetadata.PropertyMetadata](/windows/winui/api/microsoft.ui.xaml.propertymetadata.#ctor).
+
 ## -parameters
 ### -param defaultValue
 A default value for the property where this [PropertyMetadata](propertymetadata.md) is applied.

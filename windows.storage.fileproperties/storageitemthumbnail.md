@@ -19,7 +19,7 @@ You can get thumbnails for many file system resources through the Windows Runtim
 
 To find out how to get thumbnail for a particular Windows Runtime object, see the documentation for that object. For example, to get a thumbnail for a file you can call one of the [StorageFile.getThumbnailAsync](../windows.storage/storagefile_getthumbnailasync_1511435522.md) methods, or to get a thumbnail for a contact you can use the [Contact.thumbnail](../windows.applicationmodel.contacts/contact_thumbnail.md) property.
 
-For more code samples about retrieving thumbnails, see the [Folder enumeration sample](https://go.microsoft.com/fwlink/p/?linkid=231512) and the [File thumbnails sample](https://go.microsoft.com/fwlink/p/?linkid=231522).
+For more code samples about retrieving thumbnails, see the [Folder enumeration sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration) and the [File thumbnails sample](/samples/browse/).
 
 ## -examples
 
@@ -48,32 +48,10 @@ foreach (StorageFile file in fileList)
 }
 ```
 
-```javascript
-
-// Set query options with filter and sort order for results
-var fileTypeFilter = [".jpg", ".png", ".bmp", ".gif"];
-var queryOptions = new Windows.Storage.Search.QueryOptions(search.CommonFileQuery.orderByName, fileTypeFilter);
-
-// Create query and retrieve files
-var query = Windows.Storage.KnownFolders.picturesLibrary.createFileQueryWithOptions(queryOptions);
-query.getFilesAsync().done(function (files) {
-    // Process results
-    files.forEach(function (file) {
-        // Get thumbnail
-        var requestedSize = 190;
-        var thumbnailMode = Windows.Storage.FileProperties.ThumbnailMode.picturesView;
-        var thumbnailOptions = Windows.Storage.FileProperties.ThumbnailOptions.useCurrentScale;
-        item.getThumbnailAsync(thumbnailMode, requestedSize, thumbnailOptions).done(function (thumbnail) {
-            // Perform tasks with thumnail
-        });
-    });
-});
-```
-
 After [GetThumbnailAsync](../windows.storage/storagefile_getthumbnailasync_1511435522.md) completes, thumbnail gets a StorageItemThumbnail object.
 
 In the example, the `file` variable gets a [StorageFile](../windows.storage/storagefile.md) that represents each file that we want to retrieve a thumbnail for. We used a query to obtain [StorageFile](../windows.storage/storagefile.md) objects for these files (stored in the `file` variable), but you can use whatever approach is best for your app to obtain [StorageFile](../windows.storage/storagefile.md) objects (like through the file picker).
 
 ## -see-also
 
-[StorageFile](../windows.storage/storagefile.md), [File and folder thumbnail sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620545)
+[StorageFile](../windows.storage/storagefile.md), [File and folder thumbnail sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileThumbnails)

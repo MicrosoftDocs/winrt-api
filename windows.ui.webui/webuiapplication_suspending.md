@@ -19,7 +19,7 @@ The system attempts to keep your app and its data in memory while it's suspended
 
 The system doesn't notify an app when it's terminated, so your app must save its application data and release exclusive resources and file handles when it's suspended, and restore them when the app is activated after termination.
 
-You should also release any exclusive resources, like file handles at suspend, so that they can be used by other apps while your app is suspended. Your app can also listen to the [Oncheckpoint](https://docs.microsoft.com/previous-versions/windows/apps/br229839(v=win.10)) event to handle the app being suspended.
+You should also release any exclusive resources, like file handles at suspend, so that they can be used by other apps while your app is suspended. Your app can also listen to the [Oncheckpoint](/previous-versions/windows/apps/br229839(v=win.10)) event to handle the app being suspended.
 
 > [!NOTE]
 > If you need to do asynchronous work when your app is being suspended, you will need to defer completion of suspend until after your work completes. You can use the [suspendingOperation.getDeferral](suspendingoperation_getdeferral_254836512.md) method to delay completion of suspend until after you complete the deferral.
@@ -27,4 +27,4 @@ You should also release any exclusive resources, like file handles at suspend, s
 ## -examples
 
 ## -see-also
-[App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle), [Oncheckpoint event](https://docs.microsoft.com/previous-versions/windows/apps/br229839(v=win.10)), [App activated, resume, and suspend using the WRL sample](https://go.microsoft.com/fwlink/p/?linkid=226722)
+[App lifecycle](/windows/uwp/launch-resume/app-lifecycle), [Oncheckpoint event](/previous-versions/windows/apps/br229839(v=win.10)), [App activated, resume, and suspend using the WRL sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BJavaScript%5D-Windows%208%20app%20samples/JavaScript/Windows%208%20app%20samples/App%20activated%2C%20resume%2C%20and%20suspend%20using%20the%20WRL%20%20sample%20(Windows%208)/JavaScript)

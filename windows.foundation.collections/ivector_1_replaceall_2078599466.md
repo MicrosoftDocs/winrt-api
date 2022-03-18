@@ -17,7 +17,7 @@ Replaces all the items in the vector with the specified items.
 The collection of items to add to the vector.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IList<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1) interface.
+When programming with .NET, this interface is hidden, and you should use the [System.Collections.Generic.IList\<T\>](/dotnet/api/system.collections.generic.ilist-1) interface.
 
 ## -examples
 

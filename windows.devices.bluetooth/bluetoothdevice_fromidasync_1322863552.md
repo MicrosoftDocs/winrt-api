@@ -21,6 +21,7 @@ The DeviceId value that identifies the BluetoothDevice instance.
 After the asynchronous operation completes, returns the [BluetoothDevice](bluetoothdevice.md) object identified by the given [DeviceId](bluetoothledevice_deviceid.md).
 
 ## -remarks
+This method must be called from a UI thread.
 
 ## -examples
 

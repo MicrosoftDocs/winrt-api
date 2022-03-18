@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Geometry Data { get;  set; }
 ## -description
 Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies the shape to be drawn.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Path.Data](/windows/winui/api/microsoft.ui.xaml.shapes.path.data).
+
 ## -xaml-syntax
 ```xaml
 <Path>
@@ -19,9 +21,7 @@ Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies t
     singleGeometry
   </Path.Data>
 </Path>
-```
-
-```xaml
+- or -
 <Path Data="moveAndDrawCommands"/>
 ```
 
@@ -54,7 +54,7 @@ The following example uses a [Path](path.md) to draw an ellipse.
       
       ge p8:href="F7350D28-90E9-4423-9027-0A1C013D8381" xmlns:p8="http://www.w3.org/1999/xlink" />
 -->
-In XAML, you can also use [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax) as the value for the Data property. This example uses this syntax to specify the shape of a [Path](path.md).
+In XAML, you can also use [Move and draw commands syntax](/windows/uwp/xaml-platform/move-draw-commands-syntax) as the value for the Data property. This example uses this syntax to specify the shape of a [Path](path.md).
 
 ```xaml
 <Canvas>
@@ -63,9 +63,9 @@ In XAML, you can also use [Move and draw commands syntax](https://docs.microsoft
 </Canvas>
 ```
 
-The **Data** attribute string begins with the *move to* command, indicated by "M", which establishes a start point for the path in the coordinate system of the [Canvas](../windows.ui.xaml.controls/canvas.md). Strings in the [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax) are case-sensitive and determine whether commands use relative (offset) or absolute coordinates. The first segment is a cubic Bezier curve beginning at (100,200) and ending at (400,175), drawn using the two control points (100,25) and (400,350).
+The **Data** attribute string begins with the *move to* command, indicated by "M", which establishes a start point for the path in the coordinate system of the [Canvas](../windows.ui.xaml.controls/canvas.md). Strings in the [Move and draw commands syntax](/windows/uwp/xaml-platform/move-draw-commands-syntax) are case-sensitive and determine whether commands use relative (offset) or absolute coordinates. The first segment is a cubic Bezier curve beginning at (100,200) and ending at (400,175), drawn using the two control points (100,25) and (400,350).
 
 The second segment begins with an absolute horizontal *line to* command "H", which specifies a line drawn from the preceding subpath's endpoint (400,175) to a new endpoint (280,175). Because it is a horizontal *line to* command, the value specified is an x-coordinate.
 
 ## -see-also
-[Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax)
+[Move and draw commands syntax](/windows/uwp/xaml-platform/move-draw-commands-syntax)

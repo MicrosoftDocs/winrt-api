@@ -45,7 +45,7 @@ private void App_CommandsRequested(SettingsPane sender, SettingsPaneCommandsRequ
 }
 ```
 
-For more code in context, see Scenario 3 of the [App settings sample](https://go.microsoft.com/fwlink/p/?LinkID=310073).
+For more code in context, see Scenario 3 of the [App settings sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/App%20settings%20sample).
 
 ## -see-also
-[ShowIndependent](settingsflyout_showindependent_61271159.md), [Quickstart: Add app settings](https://docs.microsoft.com/previous-versions/windows/apps/hh872190(v=win.10)), [Quickstart: Add app help](https://docs.microsoft.com/previous-versions/windows/apps/jj649425(v=win.10))
+[ShowIndependent](settingsflyout_showindependent_61271159.md), [Quickstart: Add app settings](/previous-versions/windows/apps/hh872190(v=win.10)), [Quickstart: Add app help](/previous-versions/windows/apps/jj649425(v=win.10))

@@ -12,6 +12,8 @@ public double MaxHeight { get;  set; }
 ## -description
 Gets or sets a value that represents the maximum height of a [RowDefinition](rowdefinition.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RowDefinition.MaxHeight](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.maxheight).
+
 ## -xaml-syntax
 ```xaml
 <RowDefinition MaxHeight="double"/>
@@ -19,7 +21,7 @@ Gets or sets a value that represents the maximum height of a [RowDefinition](row
 
 
 ## -property-value
-A [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) that represents the maximum height.
+A [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) that represents the maximum height.
 
 ## -remarks
 

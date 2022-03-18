@@ -12,6 +12,8 @@ virtual protected bool GoToElementStateCore(System.String stateName, System.Bool
 ## -description
 When implemented in a derived class, enables per-state construction of a visual tree for a control template in code, rather than by loading XAML for all states at control startup.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkElement.GoToElementStateCore](/windows/winui/api/microsoft.ui.xaml.frameworkelement.gotoelementstatecore).
+
 ## -parameters
 ### -param stateName
 The state to transition to.
@@ -32,4 +34,4 @@ For general state change logic in a custom control, you should use [VisualStateM
 ## -examples
 
 ## -see-also
-[VisualStateManager.GoToState](visualstatemanager_gotostate_443481648.md), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10))
+[VisualStateManager.GoToState](visualstatemanager_gotostate_443481648.md), [Storyboarded animations for visual states](/previous-versions/windows/apps/jj819808(v=win.10))

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject GetAt(System.UInt32 index)
 ## -description
 Returns the [DependencyObject](dependencyobject.md) located at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyObjectCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.dependencyobjectcollection.getat).
+
 ## -parameters
 ### -param index
 The integer index for the value to retrieve.

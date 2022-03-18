@@ -12,6 +12,8 @@ public DispatcherQueueTimer DispatcherQueue.CreateTimer()
 ## -description
 Creates a **DispatcherQueueTimer** on the **DispatcherQueue** to execute a task periodically after a time interval has elapsed.
 
+Equivalent WinUI method: [Microsoft.System.DispatcherQueue.CreateTimer](/windows/winui/api/microsoft.system.dispatcherqueue.createtimer).
+
 ## -returns
 An **DispatcherQueueTimer** that can queue tasks on a timed basis to the current **DispatcherQueue**.
 

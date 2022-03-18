@@ -12,6 +12,8 @@ virtual protected Windows.UI.Xaml.DataTemplate SelectTemplateCore(System.Object 
 ## -description
 When implemented by a derived class, returns a specific [DataTemplate](../windows.ui.xaml/datatemplate.md) for a given item or container.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.DataTemplateSelector.SelectTemplateCore](/windows/winui/api/microsoft.ui.xaml.controls.datatemplateselector.selecttemplatecore).
+
 ## -parameters
 ### -param item
 The item to return a template for.
@@ -28,4 +30,4 @@ If your [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md) is an [ItemsStackP
 ## -examples
 
 ## -see-also
-[DataTemplate](../windows.ui.xaml/datatemplate.md), [SelectTemplateCore(Object, DependencyObject)](datatemplateselector_selecttemplatecore_711611086.md), [Adding ListView and GridView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780618(v=win.10))
+[DataTemplate](../windows.ui.xaml/datatemplate.md), [SelectTemplateCore(Object, DependencyObject)](datatemplateselector_selecttemplatecore_711611086.md), [Adding ListView and GridView controls](/previous-versions/windows/apps/hh780618(v=win.10))

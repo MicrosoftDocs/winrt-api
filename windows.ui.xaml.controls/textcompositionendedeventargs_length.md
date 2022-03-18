@@ -12,12 +12,14 @@ public int Length { get; }
 ## -description
 Gets the length of the portion of the text that the user is composing with an Input Method Editor (IME).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextCompositionEndedEventArgs.Length](/windows/winui/api/microsoft.ui.xaml.controls.textcompositionendedeventargs.length).
+
 ## -property-value
-The length of the portion of the text that the user is composing with an [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10)).
+The length of the portion of the text that the user is composing with an [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10)).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[TextBox.TextCompositionEnded](textbox_textcompositionended.md), [RichEditBox.TextCompositionEnded](richeditbox_textcompositionended.md), [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10))
+[TextBox.TextCompositionEnded](textbox_textcompositionended.md), [RichEditBox.TextCompositionEnded](richeditbox_textcompositionended.md), [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10))

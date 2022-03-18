@@ -12,6 +12,8 @@ public Windows.UI.Composition.PointLight CreatePointLight()
 ## -description
 Creates an instance of [PointLight](pointlight.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreatePointLight](/windows/winui/api/microsoft.ui.composition.compositor.createpointlight).
+
 ## -returns
 Returns the created [PointLight](pointlight.md) object.
 

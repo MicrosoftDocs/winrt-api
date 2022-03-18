@@ -25,4 +25,4 @@ An object that manages the asynchronous creation of a new [BitmapDecoder](bitmap
 ## -examples
 
 ## -see-also
-[CreateAsync(Guid, IRandomAccessStream)](bitmapdecoder_createasync_1315566040.md), [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging)
+[CreateAsync(Guid, IRandomAccessStream)](bitmapdecoder_createasync_1315566040.md), [Imaging](/windows/uwp/audio-video-camera/imaging)

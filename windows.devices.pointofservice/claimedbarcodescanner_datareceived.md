@@ -30,14 +30,5 @@ The following example shows how to setup the barcode scanner to receive data aft
 
 [!code-csharp[DataReceived](../windows.devices.pointofservice/code/BarcodeScanner/cs/Scenario1.xaml.cs#SnippetDataReceived)]
 
-
-
-
-[!code-js[CreateBarcodeScannerJS](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetCreateBarcodeScannerJS)]
-
-
-
-[!code-js[DataReceivedJS](../windows.devices.pointofservice/code/BarcodeScanner/js/scenario1.js#SnippetDataReceivedJS)]
-
 ## -see-also
-[Barcode scanner sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620014)
+[Barcode scanner sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BarcodeScanner)

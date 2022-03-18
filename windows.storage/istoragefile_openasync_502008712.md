@@ -17,7 +17,7 @@ Opens a random-access stream over the file.
 The type of access to allow.
 
 ## -returns
-When this method completes, it returns the random-access stream (type [IRandomAccessStream](https://docs.microsoft.com/previous-versions/hh438400(v=vs.85))).
+When this method completes, it returns the random-access stream (type [IRandomAccessStream](/previous-versions/hh438400(v=vs.85))).
 
 ## -remarks
 

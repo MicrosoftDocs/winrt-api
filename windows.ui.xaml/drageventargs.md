@@ -13,6 +13,8 @@ public class DragEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xaml.ID
 
 Provides data for drag-and-drop events.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.DragEventArgs](/windows/winui/api/microsoft.ui.xaml.drageventargs).
+
 ## -remarks
 
 DragEventArgs is used as event data for these events:
@@ -22,7 +24,7 @@ DragEventArgs is used as event data for these events:
 + [UIElement.DragOver](uielement_dragover.md)
 + [UIElement.Drop](uielement_drop.md)
 
-These events are routed events. Changing the value of the [Handled](drageventargs_handled.md) property of DragEventArgs from an event handler can influence how a routed event behaves. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
+These events are routed events. Changing the value of the [Handled](drageventargs_handled.md) property of DragEventArgs from an event handler can influence how a routed event behaves. For more info on the routed event concept, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 The [Control](../windows.ui.xaml.controls/control.md) class has pre-wired event handlers that [Control](../windows.ui.xaml.controls/control.md) derived types can override to provide class-based handling for the drag-drop events, and these methods also use DragEventArgs as a parameter. These methods are:
 
@@ -43,4 +45,4 @@ The Windows Runtime implementation of drag-drop concepts permits only certain co
 
 ## -see-also
 
-[RoutedEventArgs](routedeventargs.md), [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), [UIElement](uielement.md), [AllowDrop](uielement_allowdrop.md), [Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop), [RoutedEventArgs](routedeventargs.md), [ListViewBase](../windows.ui.xaml.controls/listviewbase.md), [UIElement](uielement.md), [AllowDrop](uielement_allowdrop.md), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

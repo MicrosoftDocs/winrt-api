@@ -15,7 +15,7 @@ Provides information about a [MediaFrameSource](mediaframesource.md).
 ## -remarks
 Get an instance of this class by accessing the [Info](mediaframesource_info.md) property of a [MediaFrameSource](mediaframesource.md) object or by accessing the [SourceInfos](mediaframesourcegroup_sourceinfos.md) property of a [MediaFrameSourceGroup](mediaframesourcegroup.md) object which represents a group of media frame sources..
 
-For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](https://docs.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
+For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture frames, see [Process media frames with MediaFrameReader](/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
 
 ### Version history
 
@@ -23,8 +23,9 @@ For how-to guidance on using [MediaFrameSource](mediaframesource.md) to capture 
 | -- | -- | -- |
 | 1803 | 17134 | ProfileId |
 | 1803 | 17134 | VideoProfileMediaDescription |
+| 2004 | 19041 | GetRelativePanel |
 
 ## -examples
 
 ## -see-also
-[Process media frames with MediaFrameReader](https://docs.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)
+[Process media frames with MediaFrameReader](/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)

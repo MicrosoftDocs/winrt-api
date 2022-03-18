@@ -12,6 +12,8 @@ public Windows.UI.Text.FontStyle FontStyle { get;  set; }
 ## -description
 Gets or sets the font style for the content in this element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.FontStyle](/windows/winui/api/microsoft.ui.xaml.documents.textelement.fontstyle).
+
 ## -xaml-syntax
 ```xaml
 <textElement FontStyle="fontStyleMemberName"/>

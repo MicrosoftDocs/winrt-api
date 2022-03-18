@@ -37,4 +37,4 @@ The content is not presented in a supported format.
 ## -examples
 
 ## -see-also
-[SyndicationError](syndicationerror.md), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062)
+[SyndicationError](syndicationerror.md), [Syndication sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/%5BC%23%5D-Windows%208.1%20Store%20app%20samples/Syndication%20sample/C%23)

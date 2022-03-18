@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsPaneOpenProperty { get; }
 ## -description
 Identifies the [IsPaneOpen](splitview_ispaneopen.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.IsPaneOpenProperty](/windows/winui/api/microsoft.ui.xaml.controls.splitview.ispaneopenproperty).
+
 ## -property-value
 The identifier for the [IsPaneOpen](splitview_ispaneopen.md)  dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [IsPaneOpen](splitview_ispaneopen.md)  dependency proper
 ## -examples
 
 ## -see-also
-[IsPaneOpen](splitview_ispaneopen.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsPaneOpen](splitview_ispaneopen.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

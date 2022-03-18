@@ -18,7 +18,7 @@ The object that represents the value of a **Date** HTTP header on an HTTP reques
 ## -remarks
 The Date property represents the **Date** header on an HTTP request message. The **Date** header is the date and time the message was sent.
 
-Javascript and .NET languages do not use the [DateTime](../windows.foundation/datetime.md) object directly. In Javascript a [DateTime](../windows.foundation/datetime.md) is projected as a  object, and in .NET it is projected as a [System.DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN). Each language transparently handles the conversion to the granularity and date ranges for the respective language.
+Javascript and .NET languages do not use the [DateTime](../windows.foundation/datetime.md) object directly. In Javascript a [DateTime](../windows.foundation/datetime.md) is projected as a  object, and in .NET it is projected as a [System.DateTimeOffset](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true). Each language transparently handles the conversion to the granularity and date ranges for the respective language.
 
 In C++, a  value has the same granularity as a  and supports the date ranges required by Javascript and .NET.
 

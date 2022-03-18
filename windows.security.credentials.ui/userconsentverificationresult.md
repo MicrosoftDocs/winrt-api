@@ -36,13 +36,12 @@ The verification operation was canceled.
 
 
 ## -remarks
+
+## -examples
+
 The following example shows a method that requests fingerprint verification and returns a message that describes the result based on the UserConsentVerificationResult value.
 
 [!code-csharp[2](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet2)]
 
-[!code-js[2_JS](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet2_JS)]
-
-## -examples
-
 ## -see-also
-[Fingerprint biometrics](https://docs.microsoft.com/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://go.microsoft.com/fwlink/p/?LinkID=303650), [RequestVerificationAsync](userconsentverifier_requestverificationasync_1054783001.md), [UserConsentVerifier](userconsentverifier.md), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity)
+[Fingerprint biometrics](/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/UserConsentVerifier), [RequestVerificationAsync](userconsentverifier_requestverificationasync_1054783001.md), [UserConsentVerifier](userconsentverifier.md), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](/windows/uwp/security/authentication-and-user-identity)

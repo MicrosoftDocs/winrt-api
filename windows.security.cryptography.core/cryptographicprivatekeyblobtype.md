@@ -42,15 +42,15 @@ The key is an RSA private key defined in the PKCS #1 standard. For more informat
 Microsoft private key format defined by Cryptography API: Next Generation (CNG). For examples, see the following CNG structures:
 
 
-+ [BCRYPT_DH_KEY_BLOB](https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dh_key_blob)
-+ [BCRYPT_DSA_KEY_BLOB](https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob)
-+ [BCRYPT_ECCKEY_BLOB](https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_ecckey_blob)
-+ [BCRYPT_KEY_BLOB](https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_key_blob)
-+ [BCRYPT_RSAKEY_BLOB](https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_rsakey_blob)
++ [BCRYPT_DH_KEY_BLOB](/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dh_key_blob)
++ [BCRYPT_DSA_KEY_BLOB](/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob)
++ [BCRYPT_ECCKEY_BLOB](/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_ecckey_blob)
++ [BCRYPT_KEY_BLOB](/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_key_blob)
++ [BCRYPT_RSAKEY_BLOB](/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_rsakey_blob)
 
 
 ### -field Capi1PrivateKey:3
-Microsoft private key format defined by the legacy Cryptography API (CAPI). For more information, see [Base Provider Key BLOBs](https://docs.microsoft.com/windows/desktop/SecCrypto/base-provider-key-blobs).
+Microsoft private key format defined by the legacy Cryptography API (CAPI). For more information, see [Base Provider Key BLOBs](/windows/desktop/SecCrypto/base-provider-key-blobs).
 
 ### -field BCryptEccFullPrivateKey:4
 The key is a BCrypt full elliptic curve cryptography (ECC) private key.

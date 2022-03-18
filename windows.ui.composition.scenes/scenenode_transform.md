@@ -14,6 +14,8 @@ public SceneModelTransform Transform { get; }
 
 Gets the transform that describes the position, rotation, and scale of this node.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneNode.Transform](/windows/winui/api/microsoft.ui.composition.scenes.scenenode.transform).
+
 ## -property-value
 
 The transform that describes the position, rotation, and scale of this node.

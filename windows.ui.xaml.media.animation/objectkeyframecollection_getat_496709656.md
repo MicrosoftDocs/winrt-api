@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.ObjectKeyFrame GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrameCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframecollection.getat).
+
 ## -parameters
 ### -param index
 The integer index for the value to retrieve.

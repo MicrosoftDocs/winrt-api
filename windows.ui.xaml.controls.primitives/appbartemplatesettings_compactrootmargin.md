@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness CompactRootMargin { get; }
 ## -description
 Gets the margin of the [AppBar](../windows.ui.xaml.controls/appbar.md) root in the compact state.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.AppBarTemplateSettings.CompactRootMargin](/windows/winui/api/microsoft.ui.xaml.controls.primitives.appbartemplatesettings.compactrootmargin).
+
 ## -property-value
 The margin of the [AppBar](../windows.ui.xaml.controls/appbar.md) root in the compact state.
 

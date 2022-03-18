@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.Peers.AutomationPeer CreatePeerForElement(Wind
 ## -description
 Creates a [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) for the specified [UIElement](../windows.ui.xaml/uielement.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer.CreatePeerForElement](/windows/winui/api/microsoft.ui.xaml.automation.peers.frameworkelementautomationpeer.createpeerforelement).
+
 ## -parameters
 ### -param element
 The [UIElement](../windows.ui.xaml/uielement.md) that is associated with this [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md).

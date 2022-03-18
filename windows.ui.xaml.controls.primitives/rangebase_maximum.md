@@ -12,6 +12,8 @@ public double Maximum { get;  set; }
 ## -description
 Gets or sets the highest possible [Value](rangebase_value.md) of the range element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.Maximum](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.maximum).
+
 ## -xaml-syntax
 ```xaml
 <rangeBase Maximum="double"/>
@@ -22,7 +24,7 @@ Gets or sets the highest possible [Value](rangebase_value.md) of the range eleme
 The highest possible [Value](rangebase_value.md) of the range element. The default is 1.
 
 ## -remarks
-[Slider](../windows.ui.xaml.controls/slider.md) and [ProgressBar](../windows.ui.xaml.controls/progressbar.md) override the metadata of this property and set its default to 100. For more information, see [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview).
+[Slider](../windows.ui.xaml.controls/slider.md) and [ProgressBar](../windows.ui.xaml.controls/progressbar.md) override the metadata of this property and set its default to 100. For more information, see [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).
 
 > [!NOTE]
 > When binding [Minimum](rangebase_minimum.md) and Maximum values in Extensible Application Markup Language (XAML), declare the [Binding](../windows.ui.xaml.data/binding.md) for Maximum first. If the [Binding](../windows.ui.xaml.data/binding.md) for Maximum is declared after [Minimum](rangebase_minimum.md), the bound value for Maximum is ignored and the following situations can occur: + If the bound [Minimum](rangebase_minimum.md) value is negative, the Maximum value is set to 0.

@@ -23,7 +23,7 @@ A bitwise combination of the enumeration values that specify options for opening
 An action to take on the file. 
 
 ## -returns
-When this method completes, it returns a [StorageStreamTransaction](https://docs.microsoft.com/uwp/api/windows.storage.storagestreamtransaction) containing the random-access stream and methods that can be used to complete transactions.
+When this method completes, it returns a [StorageStreamTransaction](/uwp/api/windows.storage.storagestreamtransaction) containing the random-access stream and methods that can be used to complete transactions.
 
 ## -remarks
 

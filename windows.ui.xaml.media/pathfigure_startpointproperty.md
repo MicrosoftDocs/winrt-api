@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty StartPointProperty { get; }
 ## -description
 Identifies the [StartPoint](pathfigure_startpoint.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PathFigure.StartPointProperty](/windows/winui/api/microsoft.ui.xaml.media.pathfigure.startpointproperty).
+
 ## -property-value
 The identifier for the [StartPoint](pathfigure_startpoint.md) dependency property.
 

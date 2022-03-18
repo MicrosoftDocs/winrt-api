@@ -16,50 +16,18 @@ Provides information about the activated event that fires when the user searches
 > This type appears as [SearchActivatedEventArgs](../windows.applicationmodel.activation/searchactivatedeventargs.md).
 
 ## -remarks
-If your app integrates with the Search contract, a webUISearchActivatedEventArgs is passed to your app's [onactivated](https://docs.microsoft.com/previous-versions/windows/apps/br212679(v=win.10)) event handler when the user searches the app from the Search charm and your app is not the main app on screen. This type of activation is indicated by the [activationKind.search](../windows.applicationmodel.activation/activationkind.md) value returned by the [kind](webuisearchactivatedeventargs_kind.md) property.
+> [!IMPORTANT]
+> To implement search in an app for Windows 10, use [AutoSuggestBox](/uwp/api/windows.ui.xaml.controls.autosuggestbox). See [Auto-suggest box](/windows/uwp/design/controls-and-patterns/auto-suggest-box) for more info.
+>
+> You should not use [Windows.ApplicationModel.Search](/uwp/api/windows.applicationmodel.search) APIs ([SearchPane](/uwp/api/windows.applicationmodel.search.searchpane), [SearchContract](/uwp/api/windows.applicationmodel.search.searchcontract)) or SearchBox ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md)/[WinJS.UI.SearchBox](/previous-versions/windows/apps/dn301949(v=win.10))) APIs in apps for Windows 10.
 
-Learn how to let users search with your app in [Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)). Learn about responding to other search-related events and customizing the search box and suggestions using the [searchPane](../windows.applicationmodel.search/searchpane.md) class in the [Windows.ApplicationModel.Search](../windows.applicationmodel.search/windows_applicationmodel_search.md) namespace reference.
+If your app integrates with the Search contract, a webUISearchActivatedEventArgs is passed to your app's [onactivated](/previous-versions/windows/apps/br212679(v=win.10)) event handler when the user searches the app from the Search charm and your app is not the main app on screen. This type of activation is indicated by the [activationKind.search](../windows.applicationmodel.activation/activationkind.md) value returned by the [kind](webuisearchactivatedeventargs_kind.md) property.
 
-
-
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275)
-<!--[jjacks - removed this link (https://go.microsoft.com/fwlink/p/?linkid=258277 404->http://msdn.microsoft.com/library/windows/apps/jj157115.aspx) because it doesn't work] and Using Windows Runtime objects in a multithreaded environment (.NET)-->
-.
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx).
 
 ## -examples
-The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to respond to a [search](../windows.applicationmodel.activation/activationkind.md) activated event.
-
-```javascript
-function activated(eventObject) {
-    if (eventObject.detail.kind === Windows.ApplicationModel.Activation.ActivationKind.launch) {
-        // Use setPromise to indicate to the system that the splash screen must not be torn down
-        // until after processAll and navigate complete asynchronously.
-        eventObject.setPromise(WinJS.UI.processAll().then(function () {
-            // Navigate to either the first scenario or to the last running scenario
-            // before suspension or termination.
-            var url = WinJS.Application.sessionState.lastUrl || scenarios[0].url;
-            return WinJS.Navigation.navigate(url);
-        }));
-    } else if (eventObject.detail.kind === Windows.ApplicationModel.Activation.ActivationKind.search) {
-        // Use setPromise to indicate to the system that the splash screen must not be torn down
-        // until after processAll and navigate complete asynchronously.
-        eventObject.setPromise(WinJS.UI.processAll().then(function () {
-            if (eventObject.detail.queryText === "") {
-                // Navigate to your landing page since the user is pre-scoping to your app.
-            } else {
-                // Display results in UI for eventObject.detail.queryText and eventObject.detail.language.
-                // eventObject.detail.language represents user's locale.
-            }
-            // Navigate to the first scenario since it handles search activation.
-            var url = scenarios[0].url;
-            return WinJS.Navigation.navigate(url, { searchDetails: eventObject.detail });
-        }));
-    }
-}
-```
-
-For JavaScript, `eventObject` contains a webUISearchActivatedEventArgs object.
 
 ## -see-also
-[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892)
+[Search contract sample (Windows 8)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Search%20contract%20sample)

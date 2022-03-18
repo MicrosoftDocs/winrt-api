@@ -20,4 +20,4 @@ The string "Tibt", which identifies the Tibetan decimal numeral system. This sys
 ## -examples
 
 ## -see-also
-[NumeralSystem values](https://docs.microsoft.com/previous-versions/windows/apps/jj236471(v=win.10))
+[NumeralSystem values](/previous-versions/windows/apps/jj236471(v=win.10))

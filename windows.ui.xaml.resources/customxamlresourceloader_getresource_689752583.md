@@ -12,6 +12,8 @@ virtual protected object GetResource(System.String resourceId, System.String obj
 ## -description
 When overridden in a derived class, specifies the logic of resource lookup for this [CustomXamlResourceLoader](customxamlresourceloader.md). Given a resource ID and some type information about the expected result, returns the requested resource.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Resources.CustomXamlResourceLoader.GetResource](/windows/winui/api/microsoft.ui.xaml.resources.customxamlresourceloader.getresource).
+
 ## -parameters
 ### -param resourceId
 The string-form key of the resource to get.
@@ -29,7 +31,7 @@ The type of the property that serves as the key, with type represented as a stri
 The retrieved resource.
 
 ## -remarks
-This method will be called by the Windows Runtime XAML parser whenever it encounters a [{CustomResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/customresource-markup-extension) usage in markup. The *resourceId* comes from the default *key* markup extension argument to [{CustomResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/customresource-markup-extension), and the other input parameters come from context, such as which property the usage is applied to.
+This method will be called by the Windows Runtime XAML parser whenever it encounters a [{CustomResource} markup extension](/windows/uwp/xaml-platform/customresource-markup-extension) usage in markup. The *resourceId* comes from the default *key* markup extension argument to [{CustomResource} markup extension](/windows/uwp/xaml-platform/customresource-markup-extension), and the other input parameters come from context, such as which property the usage is applied to.
 
 ## -examples
 

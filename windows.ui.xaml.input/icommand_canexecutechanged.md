@@ -13,6 +13,8 @@ abstract public event Windows.Foundation.EventHandler CanExecuteChanged<object>
 
 Occurs whenever something happens that affects whether the command can execute.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Input.ICommand.CanExecuteChanged](/windows/winui/api/microsoft.ui.xaml.input.icommand.canexecutechanged).
+
 ## -remarks
 
 Call CanExecute on the command element when this event occurs.
@@ -23,4 +25,4 @@ A command element typically disables itself if the command it is associated with
 
 ## -see-also
 
-[Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding), [XamlUICommand](xamluicommand.md), [StandardUICommand](standarduicommand.md)
+[Command design basics](/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/uwp/design/controls-and-patterns/commanding), [XamlUICommand](xamluicommand.md), [StandardUICommand](standarduicommand.md)

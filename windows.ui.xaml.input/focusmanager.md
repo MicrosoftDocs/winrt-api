@@ -13,6 +13,8 @@ public class FocusManager : Windows.UI.Xaml.Input.IFocusManager
 
 A helper class that enables global management of focus actions and events across all elements in an application.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.FocusManager](/windows/winui/api/microsoft.ui.xaml.input.focusmanager).
+
 ## -remarks
 
 We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of FocusManager events whenever possible.
@@ -91,4 +93,4 @@ private void Page_KeyUp(object sender, KeyRoutedEventArgs e)
 
 ## -see-also
 
-[Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)

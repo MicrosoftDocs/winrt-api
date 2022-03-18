@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness Padding { get;  set; }
 ## -description
 Gets or sets a value that indicates the thickness of padding space between the boundaries of the content area and the content displayed by a [RichTextBlockOverflow](richtextblockoverflow.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlockOverflow.Padding](/windows/winui/api/microsoft.ui.xaml.controls.richtextblockoverflow.padding).
+
 ## -xaml-syntax
 ```xaml
 <RichTextBlockOverflow Padding="uniform"/>
@@ -34,9 +36,9 @@ A [Thickness](../windows.ui.xaml/thickness.md) structure that specifies the amou
 ## -remarks
 [RichTextBlock](richtextblock.md) also has a [Padding](richtextblock_padding.md) property, therefore the padding applied to the [RichTextBlockOverflow](richtextblockoverflow.md) can be different than on the [RichTextBlock](richtextblock.md) associated with it. The padding on the overflow won't default to the value from the associated [RichTextBlock](richtextblock.md), so you'll have to set it manually if you want the same padding on each.
 
-A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For more info about the relationship between margin and padding, see [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
+A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For more info about the relationship between margin and padding, see [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml).
 
 ## -examples
 
 ## -see-also
-[Thickness](../windows.ui.xaml/thickness.md), [RichTextBlock](richtextblock.md), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding)
+[Thickness](../windows.ui.xaml/thickness.md), [RichTextBlock](richtextblock.md), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding)

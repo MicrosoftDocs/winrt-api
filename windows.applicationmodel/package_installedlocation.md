@@ -11,12 +11,15 @@ public Windows.Storage.StorageFolder InstalledLocation { get; }
 # Windows.ApplicationModel.Package.InstalledLocation
 
 ## -description
+
 Gets the current package's path in the original install folder for the current package.
 
 ## -property-value
+
 The current package's path in the original install folder for the current package.
 
 ## -remarks
+
 There are several other ways to refer to a file in a package.
 
 
@@ -25,9 +28,10 @@ There are several other ways to refer to a file in a package.
 + You can also omit the package name to let the system fill in the domain, as shown here:
 
 `<img src="ms-appx:///file.png" alt="" />`
-For more info about how to refer to files in an app's package, see [URI schemes](https://docs.microsoft.com/windows/uwp/app-resources/uri-schemes) and [Reference an image or other asset from XAML markup and code](https://docs.microsoft.com/windows/uwp/app-resources/images-tailored-for-scale-theme-contrast#reference-an-image-or-other-asset-from-xaml-markup-and-code).
+For more info about how to refer to files in an app's package, see [URI schemes](/windows/uwp/app-resources/uri-schemes) and [Reference an image or other asset from XAML markup and code](/windows/uwp/app-resources/images-tailored-for-scale-theme-contrast#reference-an-image-or-other-asset-from-xaml-markup-and-code).
 
 ## -examples
 
 ## -see-also
-[MutableLocation](package_mutablelocation.md),[EffectiveLocation](package_effectivelocation.md),[App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)
+
+[MutableLocation](package_mutablelocation.md),[EffectiveLocation](package_effectivelocation.md),[App package information sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package)

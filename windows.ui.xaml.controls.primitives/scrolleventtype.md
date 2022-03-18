@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.Primitives.ScrollEventType : int
 ## -description
 Defines constants that specify the type of [Scroll](scrollbar_scroll.md) event that occurred.
 
+Equivalent WinUI enum: [ScrollEventType](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrolleventtype).
+
 ## -enum-fields
 ### -field SmallDecrement:0
 The [Thumb](thumb.md) moved a distance specified by the value of [SmallChange](rangebase_smallchange.md). The [Thumb](thumb.md) moved to the left for a horizontal [ScrollBar](scrollbar.md) or upward for a vertical [ScrollBar](scrollbar.md).

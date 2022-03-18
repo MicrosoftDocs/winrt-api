@@ -12,6 +12,8 @@ public string Path { get; }
 ## -description
 Gets the path value held by this [PropertyPath](propertypath.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.PropertyPath.Path](/windows/winui/api/microsoft.ui.xaml.propertypath.path).
+
 ## -property-value
 The path value held by this [PropertyPath](propertypath.md).
 
@@ -21,4 +23,4 @@ To establish a value for [Path](propertypath_path_1221375020.md), create a new [
 ## -examples
 
 ## -see-also
-[Property-path syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/property-path-syntax), [{Binding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/binding-markup-extension)
+[Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax), [{Binding} markup extension](/windows/uwp/xaml-platform/binding-markup-extension)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ScaleXProperty { get; }
 ## -description
 Identifies the [ScaleX](scaletransform_scalex.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ScaleTransform.ScaleXProperty](/windows/winui/api/microsoft.ui.xaml.media.scaletransform.scalexproperty).
+
 ## -property-value
 The identifier for the [ScaleX](scaletransform_scalex.md) dependency property.
 

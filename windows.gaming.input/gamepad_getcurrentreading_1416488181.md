@@ -25,4 +25,4 @@ There is no need to "flush the state" because the state of the gamepad is update
 
 ## -see-also
 
-* [Windows.Gaming.Input.GamepadReading](gamepadreading.md)
+[Windows.Gaming.Input.GamepadReading](gamepadreading.md)

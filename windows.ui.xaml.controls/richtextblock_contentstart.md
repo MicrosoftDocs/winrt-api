@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Documents.TextPointer ContentStart { get; }
 ## -description
 Gets a [TextPointer](../windows.ui.xaml.documents/textpointer.md) that indicates the start of content in the [RichTextBlock](richtextblock.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.ContentStart](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.contentstart).
+
 ## -property-value
 A [TextPointer](../windows.ui.xaml.documents/textpointer.md) that indicates the start of content in the [RichTextBlock](richtextblock.md).
 

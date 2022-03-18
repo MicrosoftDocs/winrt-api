@@ -12,12 +12,14 @@ public Windows.Foundation.Numerics.Vector3 Offset { get;  set; }
 ## -description
 The offset of the visual relative to its parent or for a root visual the offset relative to the upper-left corner of the windows that hosts the visual. Animatable.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Visual.Offset](/windows/winui/api/microsoft.ui.composition.visual.offset).
+
 ## -property-value
 Offset of the visual relative to its parent.
 
 ## -remarks
 
-This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](https://docs.microsoft.com/windows/uwp/composition/composition-animation).
+This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](/windows/uwp/composition/composition-animation).
 
 ## -examples
 

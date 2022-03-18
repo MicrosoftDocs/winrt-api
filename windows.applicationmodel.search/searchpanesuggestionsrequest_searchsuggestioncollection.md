@@ -10,12 +10,20 @@ public Windows.ApplicationModel.Search.SearchSuggestionCollection SearchSuggesti
 # Windows.ApplicationModel.Search.SearchPaneSuggestionsRequest.SearchSuggestionCollection
 
 ## -description
- The suggestions to display in the search pane for the current query. Apps provide suggestions to display by appending them to this [searchSuggestionCollection](searchsuggestioncollection.md) object. 
+
+Gets the suggestions to display in the search pane for the current query. Apps provide suggestions to display by appending them to this [SearchSuggestionCollection](searchsuggestioncollection.md) object.
 
 ## -property-value
-The suggestions to display. Apps provide suggestions by appending them to this [searchSuggestionCollection](searchsuggestioncollection.md) object.
+
+The suggestions to display. Apps provide suggestions by appending them to this [SearchSuggestionCollection](searchsuggestioncollection.md) object.
 
 ## -remarks
+
+> [!IMPORTANT]
+> To implement search in an app for Windows 10, use [AutoSuggestBox](/uwp/api/windows.ui.xaml.controls.autosuggestbox). See [Auto-suggest box](/windows/uwp/design/controls-and-patterns/auto-suggest-box) for more info.
+>
+> You should not use [Windows.ApplicationModel.Search](/uwp/api/windows.applicationmodel.search) APIs ([SearchPane](/uwp/api/windows.applicationmodel.search.searchpane), [SearchContract](/uwp/api/windows.applicationmodel.search.searchcontract)) or SearchBox ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md)/[WinJS.UI.SearchBox](/previous-versions/windows/apps/dn301949(v=win.10))) APIs in apps for Windows 10.
+
 The search pane can display 5 suggestions, at most. Additionally, each separator you use takes the place of a suggestion and lowers the number of suggestions that you can display.
 
 Use the [SearchSuggestionCollection](searchsuggestioncollection.md) object to append app-provided suggestions and search separators to display in the search pane.
@@ -25,4 +33,5 @@ When the request for suggestions is completed, either by returning from the [sug
 ## -examples
 
 ## -see-also
+
 [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequest class](searchpanesuggestionsrequest.md), [SearchPaneSuggestionsRequest.GetDeferral method](searchpanesuggestionsrequest_getdeferral_254836512.md), [SearchPaneSuggestionsRequestDeferral class](searchpanesuggestionsrequestdeferral.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md)

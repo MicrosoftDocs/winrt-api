@@ -12,13 +12,15 @@ public uint Size { get; }
 ## -description
 Gets the size (count) of the collection.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.UIElementCollection.Size](/windows/winui/api/microsoft.ui.xaml.controls.uielementcollection.size).
+
 ## -property-value
 The count of items in the collection.
 
 ## -remarks
 The Size value returns the true number of items. API that use the index, such as [GetAt](uielementcollection_getat_496709656.md), use a zero-based index, so you would subtract one from Size in order to specify that you want the last item in the collection.
 
-If you are programming using C# or Microsoft Visual Basic, see [Count](/dotnet/api/system.collections.generic.icollection-1.count).
+If you are programming using C# or Microsoft Visual Basic, see [Count](/dotnet/api/system.collections.generic.icollection-1.count?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 

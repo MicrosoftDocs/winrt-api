@@ -12,22 +12,17 @@ public Windows.UI.Xaml.Media.Brush Fill { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that paints the interior area of the shape.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.Fill](/windows/winui/api/microsoft.ui.xaml.shapes.shape.fill).
+
 ## -xaml-syntax
 ```xaml
 <shape Fill="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <shape Fill="colorString"/>
-
-```
-
-```xaml
+- or -
 <shape>
   <shape.Fill>singleBrush</shape.Fill>
 </shape>
-
 ```
 
 
@@ -45,4 +40,4 @@ A [Brush](../windows.ui.xaml.media/brush.md) that paints/fills the shape interio
 ## -examples
 
 ## -see-also
-[Stroke](shape_stroke.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Stroke](shape_stroke.md), [Use brushes](/windows/uwp/graphics/using-brushes)

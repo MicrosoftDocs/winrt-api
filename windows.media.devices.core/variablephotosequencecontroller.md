@@ -15,9 +15,9 @@ Represents the settings for a variable photo sequence.
 ## -remarks
 Get an instance of this class by accessing the [VariablePhotoSequenceController](../windows.media.devices/videodevicecontroller_variablephotosequencecontroller.md) property.
 
-For how-to guidance on capturing variable photo sequences, see [Capture a photo sequence with VariablePhotoSequence](https://docs.microsoft.com/windows/uwp/audio-video-camera/variable-photo-sequence).
+For how-to guidance on capturing variable photo sequences, see [Capture a photo sequence with VariablePhotoSequence](/windows/uwp/audio-video-camera/variable-photo-sequence).
 
 ## -examples
 
 ## -see-also
-[Capture a photo sequence with VariablePhotoSequence](https://docs.microsoft.com/windows/uwp/audio-video-camera/variable-photo-sequence)
+[Capture a photo sequence with VariablePhotoSequence](/windows/uwp/audio-video-camera/variable-photo-sequence)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Visibility Visibility { get;  set; }
 ## -description
 Gets or sets the visibility of a [UIElement](uielement.md). A [UIElement](uielement.md) that is not visible is not rendered and does not communicate its desired size to layout.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Visibility](/windows/winui/api/microsoft.ui.xaml.uielement.visibility).
+
 ## -xaml-syntax
 ```xaml
 <uiElement Visibility="Visible"/>
@@ -48,4 +50,4 @@ A common scenario in apps that use data from a data source is to identify a prop
 
 
 ## -see-also
-[Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

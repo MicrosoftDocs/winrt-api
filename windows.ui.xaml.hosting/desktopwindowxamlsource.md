@@ -13,17 +13,17 @@ public class DesktopWindowXamlSource : IClosable
 ## -description
 Enables a non-UWP desktop application (for example, a WPF or Windows Forms application) to host UWP controls in any UI element that is associated with a window handle (HWND).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Hosting.DesktopWindowXamlSource](/windows/winui/api/microsoft.ui.xaml.hosting.desktopwindowxamlsource).
+
 ## -remarks
 
-**DesktopWindowXamlSource** is the main class in the *UWP XAML hosting API*. This API enables non-UWP desktop applications to host any control that derives from [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md)) in a UI element that is associated with a window handle (HWND). This API can be used by desktop applications built using WPF, Windows Forms, and the Windows API (Win32). For more information, see [Using the UWP XAML hosting API in a desktop application](https://docs.microsoft.com/windows/uwp/xaml-platform/using-the-xaml-hosting-api).
-
-**DesktopWindowXamlSource** can only be used in one top-level window per thread. If you want to host XAML content in multiple top-level windows, each window must be on its own thread.
+**DesktopWindowXamlSource** is the main class in the *UWP XAML hosting API*. This API enables non-UWP desktop applications to host any control that derives from [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md)) in a UI element that is associated with a window handle (HWND). This API can be used by desktop applications built using WPF, Windows Forms, and the Windows API (Win32). For more information, see [Using the UWP XAML hosting API in a desktop application](/windows/uwp/xaml-platform/using-the-xaml-hosting-api).
 
 If you create a **DesktopWindowXamlSource** object before you create the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects that will be hosted in it, the framework for hosting [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) content makes sure all the objects are initialized to the same thread. If you create the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects before you create the **DesktopWindowXamlSource** object in which they will be hosted, you must call [WindowsXamlManager.InitializeForCurrentThread](windowsxamlmanager_initializeforcurrentthread_14911797.md) before you instantiate the [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md) objects.
 
 Because **DesktopWindowXamlSource** derives from [IClosable](../windows.foundation/iclosable.md), so it is recommended that you **Close** it (**Dispose** it in .NET) when you’re finished with it.
 
 ## -see-also
-[Using the UWP XAML hosting API in a desktop application](https://docs.microsoft.com/windows/uwp/xaml-platform/using-the-xaml-hosting-api)
+[Using the UWP XAML hosting API in a desktop application](/windows/uwp/xaml-platform/using-the-xaml-hosting-api)
 
 ## -examples

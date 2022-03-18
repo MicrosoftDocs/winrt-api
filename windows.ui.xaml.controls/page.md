@@ -12,6 +12,8 @@ public class Page : Windows.UI.Xaml.Controls.UserControl, Windows.UI.Xaml.Contro
 ## -description
 Represents content that a [Frame](frame.md) control can navigate to.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Page](/windows/winui/api/microsoft.ui.xaml.controls.page).
+
 ## -xaml-syntax
 ```xaml
 <Page .../>
@@ -28,9 +30,9 @@ Page is a [UserControl](usercontrol.md), therefore you can declare a single XAML
 
 You can also specify app bars, with the [TopAppBar](page_topappbar.md) and [BottomAppBar](page_bottomappbar.md) properties. You must use property element syntax for these properties to contain the [AppBar](appbar.md) values in XAML.
 
-You can create new pages using the **Add | New Item** menu option for your project in Microsoft Visual Studio. These all create XAML files where the root is a Page class, and the code-behind class derives from Page. Some page item templates add navigation support and additional features. For more info on the Microsoft Visual Studio item templates, see [C#, VB, and C++ item templates for ](https://docs.microsoft.com/previous-versions/windows/apps/jj236469(v=win.10)).
+You can create new pages using the **Add | New Item** menu option for your project in Microsoft Visual Studio. These all create XAML files where the root is a Page class, and the code-behind class derives from Page. Some page item templates add navigation support and additional features. For more info on the Microsoft Visual Studio item templates, see [C#, VB, and C++ item templates for ](/previous-versions/windows/apps/jj236469(v=win.10)).
 
-Create as many pages as you need to present the content in your app, and then navigate to those pages by calling the [Frame.Navigate](frame_navigate_1426351961.md) method and passing in a type reference for the page to navigate to. By type reference, we mean an instance of a class that identifies a type in the type system, for the language you are using. For Microsoft .NET that type is [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN), and you can get a [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) reference from a page class' name by using the operators **typeof** (C#) or **GetType** (Visual Basic). For Visual C++ component extensions (C++/CX), use [TypeName](../windows.ui.xaml.interop/typename.md). Initialize a [TypeName](../windows.ui.xaml.interop/typename.md) by using the **typeid** of a class. **typeid** is a component extension that can be called for any runtime class.
+Create as many pages as you need to present the content in your app, and then navigate to those pages by calling the [Frame.Navigate](frame_navigate_1426351961.md) method and passing in a type reference for the page to navigate to. By type reference, we mean an instance of a class that identifies a type in the type system, for the language you are using. For Microsoft .NET that type is [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true), and you can get a [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) reference from a page class' name by using the operators **typeof** (C#) or **GetType** (Visual Basic). For Visual C++ component extensions (C++/CX), use [TypeName](../windows.ui.xaml.interop/typename.md). Initialize a [TypeName](../windows.ui.xaml.interop/typename.md) by using the **typeid** of a class. **typeid** is a component extension that can be called for any runtime class.
 
 Through [Frame.Navigate](frame_navigate_1426351961.md), you can also pass in a parameter object to initialize the page to a particular state. The parameter object is loosely typed but serialization of navigation history only works for basic types (see Remarks in [Frame.Navigate(Type, Object)](frame_navigate_1603787821.md)). Pages that are navigated to as part of an activation generally pass data from the activation. Other navigation scenarios such as search result pages also have expectations of what info will be contained in the parameter.
 
@@ -64,7 +66,7 @@ The following code example shows an abridged version (except for the [C++/WinRT]
         }
 ```
 
-```vbnet
+```vb
     Protected Overrides Sub OnLaunched(e As Windows.ApplicationModel.Activation.LaunchActivatedEventArgs)
         Dim rootFrame As Frame = TryCast(Window.Current.Content, Frame)
         If rootFrame Is Nothing Then
@@ -143,7 +145,7 @@ void App::OnLaunched(LaunchActivatedEventArgs const& e)
 }
 ```
 
-```cpp
+```cppcx
 void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEventArgs^ e)
 {
     auto rootFrame = dynamic_cast<Frame^>(Window::Current->Content);
@@ -166,7 +168,7 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 }
 ```
 
-For example code that adds an [AppBar](appbar.md) to a page, see [Quickstart: adding app bars](https://docs.microsoft.com/previous-versions/windows/apps/hh781230(v=win.10)) or [How to share an app bar across pages](https://docs.microsoft.com/previous-versions/windows/apps/jj150604(v=win.10)). For example code that uses [NavigationCacheMode](page_navigationcachemode.md), see [Navigation](https://docs.microsoft.com/windows/uwp/layout/navigation-basics) or [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214).
+For example code that adds an [AppBar](appbar.md) to a page, see [Quickstart: adding app bars](/previous-versions/windows/apps/hh781230(v=win.10)) or [How to share an app bar across pages](/previous-versions/windows/apps/jj150604(v=win.10)). For example code that uses [NavigationCacheMode](page_navigationcachemode.md), see [Navigation](/windows/uwp/layout/navigation-basics) or [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation).
 
 ## -see-also
-[Frame](frame.md), [UserControl](usercontrol.md), [Quickstart: adding app bars](https://docs.microsoft.com/previous-versions/windows/apps/hh781230(v=win.10)), [Navigation design basics overview](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Frame](frame.md), [UserControl](usercontrol.md), [Quickstart: adding app bars](/previous-versions/windows/apps/hh781230(v=win.10)), [Navigation design basics overview](/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)

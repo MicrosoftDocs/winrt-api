@@ -9,35 +9,43 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.StagePacka
 
 # Windows.Management.Deployment.PackageManager.StagePackageAsync
 
+
 ## -description
-Stages a package to the system without registering it.
 
-## -params
+Stages a [Package](/uwp/api/windows.applicationmodel.package) to the system without registering it.
 
-## -param packageUri
+## -parameters
+
+### -param packageUri
+
 The source URI of the main package.
 
-## -param dependencyPackageUris
+### -param dependencyPackageUris
+
 The source URIs of the dependency packages. If there are no dependency packages or dependency packages are already staged, this parameter can be null.
 
-## -param deploymentOptions
+### -param deploymentOptions
+
 A bitwise combination of enumeration values from the [DeploymentOptions](deploymentoptions.md) enumeration. The resulting value specifies the package deployment options.
 
-## -param targetVolume
+### -param targetVolume
+
 The target volume on which to stage the package.
 
-## -param optionalPackageFamilyNames
+### -param optionalPackageFamilyNames
+
 Strings that specify the optional package family names from the main bundle to be staged.
 
-## -param externalPackageUris
+### -param externalPackageUris
+
 The source URIs of other packages in the main bundle to be staged.
 
 ## -returns
+
 An object that the caller can observe to track progress and completion for the call. The object implements the **IAsyncOperationWithProgress** pattern.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
-
+[Package](/uwp/api/windows.applicationmodel.package)

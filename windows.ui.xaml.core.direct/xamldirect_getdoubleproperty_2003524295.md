@@ -13,6 +13,8 @@ public double XamlDirect.GetDoubleProperty(IXamlDirectObject xamlDirectObject, X
 ## -description
 Gets the value of a _Double_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetDoubleProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getdoubleproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

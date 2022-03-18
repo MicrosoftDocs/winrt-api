@@ -12,6 +12,8 @@ public bool IsDependencyProperty { get; }
 ## -description
 Gets a value that indicates whether the XAML member is implemented as a dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlMember.IsDependencyProperty](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmember.isdependencyproperty).
+
 ## -property-value
 **true** if the XAML member is implemented as a dependency property; otherwise, **false**.
 
@@ -20,4 +22,4 @@ Gets a value that indicates whether the XAML member is implemented as a dependen
 ## -examples
 
 ## -see-also
-[XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[XAML overview](/windows/uwp/xaml-platform/xaml-overview), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

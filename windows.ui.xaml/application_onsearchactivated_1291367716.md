@@ -12,6 +12,8 @@ virtual protected void OnSearchActivated(Windows.ApplicationModel.Activation.Sea
 ## -description
 Invoked when the application is activated through a search association.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Application.OnSearchActivated](/windows/winui/api/microsoft.ui.xaml.application.onsearchactivated).
+
 ## -parameters
 ### -param args
 Event data for the event.
@@ -21,11 +23,11 @@ OnSearchActivated is a pre-defined activation point handler that is invoked for 
 
 All [Application](application.md) overrides involved in an activation scenario should call [Window.Activate](window_activate_1797342875.md) in their implementations.
 
-The [Search contract sample](https://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to respond to a [Search](../windows.applicationmodel.activation/activationkind.md) activated event.
+The [Search contract sample (Windows 8)](https://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5) demonstrates how to respond to a [Search](../windows.applicationmodel.activation/activationkind.md) activated event.
 
-Consider writing your OnSearchActivated handler as asynchronous. For more info, see [Minimize startup time](https://docs.microsoft.com/previous-versions/windows/apps/hh994639(v=win.10)).
+Consider writing your OnSearchActivated handler as asynchronous. For more info, see [Minimize startup time](/previous-versions/windows/apps/hh994639(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[Quickstart: Adding search](https://docs.microsoft.com/previous-versions/windows/apps/hh465238(v=win.10)), [Search contract sample](https://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5)
+[Quickstart: Adding search](/previous-versions/windows/apps/hh465238(v=win.10)), [Search contract sample (Windows 8)](https://code.msdn.microsoft.com/windowsapps/Search-app-contract-sample-118a92f5)

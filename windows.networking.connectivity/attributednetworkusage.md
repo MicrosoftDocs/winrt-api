@@ -10,9 +10,6 @@ public class AttributedNetworkUsage : Windows.Networking.Connectivity.IAttribute
 
 # Windows.Networking.Connectivity.AttributedNetworkUsage
 
-> [!NOTE]
-> This API was depricated as of the Windows 10 Anniversary Update (Build number 10.0.14393). Instead, it is recommended that you use the [PackageManager](packagemanager.md) API.
-
 ## -description
 Provides access to property values containing information on current usage of the attributed network connection.
 

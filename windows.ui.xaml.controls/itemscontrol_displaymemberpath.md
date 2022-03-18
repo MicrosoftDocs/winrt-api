@@ -12,6 +12,8 @@ public string DisplayMemberPath { get;  set; }
 ## -description
 Gets or sets the name or path of the property that is displayed for each data item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.DisplayMemberPath](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.displaymemberpath).
+
 ## -xaml-syntax
 ```xaml
 <itemsControl DisplayMemberPath="propertyPath"/>

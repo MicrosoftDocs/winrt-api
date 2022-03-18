@@ -15,7 +15,7 @@ Contains the details of a storage library change tracker.
 ## -remarks
 
 ## -see-also
-[StorageLibraryChangeTrackerTrigger Class](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.storagelibrarychangetrackertrigger)
+[StorageLibraryChangeTrackerTrigger Class](/uwp/api/windows.applicationmodel.background.storagelibrarychangetrackertrigger)
 
 ## -examples
 

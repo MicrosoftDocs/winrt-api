@@ -13,9 +13,9 @@ public class FullTrustProcessLauncher
 Activate the full-trust Win32 component of an application from a Universal Windows app component in the same application package.
 
 ## -remarks
-The methods in this class may only be called by packages that have the **runFullTrust** capability.
+The methods in this class may only be called by packages that have the **runFullTrust** capability. See [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
 
-To use this class, we recommend that you add a **Windows Application Packaging Project** to your solution ([Learn more](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)). Then, in the package manifest of that project, add the ``windows.fullTrustProcess`` extension.
+To use this class, we recommend that you add a **Windows Application Packaging Project** to your solution ([Learn more](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)). Then, in the package manifest of that project, add the ``windows.fullTrustProcess`` extension.
 
 Here's an example.
 
@@ -30,7 +30,9 @@ Here's an example.
     <rescap:Capability Name="runFullTrust"/>
   </Capabilities>
   <Applications>
-       …
+    …
+    <Application>
+      …
       <Extensions>
         <desktop:Extension Category="windows.fullTrustProcess" Executable="fulltrustprocess.exe">
           <desktop:FullTrustProcess>

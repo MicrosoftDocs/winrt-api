@@ -12,6 +12,8 @@ public bool IndexOf(System.Object value, System.UInt32 index)
 ## -description
 Returns the index of a specified item in the vector.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableVector.IndexOf](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector.indexof).
+
 ## -parameters
 ### -param value
 The item to find in the vector.
@@ -23,9 +25,9 @@ The zero-based index of the item if found. 0 is returned if the item is not foun
 **true** if the item is found; **false** if the item is not found.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true) interface.
 
 ## -examples
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind)

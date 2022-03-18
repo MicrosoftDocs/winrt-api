@@ -12,6 +12,8 @@ public class ListViewBaseHeaderItemAutomationPeer : Windows.UI.Xaml.Automation.P
 ## -description
 Exposes [ListViewBaseHeaderItem](../windows.ui.xaml.controls/listviewbaseheaderitem.md) types to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ListViewBaseHeaderItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listviewbaseheaderitemautomationpeer).
+
 ## -remarks
 ### **ListViewBaseHeaderItemAutomationPeer** derived classes
 
@@ -20,4 +22,4 @@ ListViewBaseHeaderItemAutomationPeer is the parent class for [GridViewHeaderItem
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

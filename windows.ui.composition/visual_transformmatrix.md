@@ -12,12 +12,14 @@ public Windows.Foundation.Numerics.Matrix4x4 TransformMatrix { get;  set; }
 ## -description
 The transformation matrix to apply to the visual. Animatable.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Visual.TransformMatrix](/windows/winui/api/microsoft.ui.composition.visual.transformmatrix).
+
 ## -property-value
 The transformation matrix to apply to the visual.
 
 ## -remarks
 
-This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](https://docs.microsoft.com/windows/uwp/composition/composition-animation).
+This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](/windows/uwp/composition/composition-animation).
 
 ## -examples
 

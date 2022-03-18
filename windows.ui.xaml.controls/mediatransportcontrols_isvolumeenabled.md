@@ -12,6 +12,8 @@ public bool IsVolumeEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether a user can adjust the volume of the media.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsVolumeEnabled](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isvolumeenabled).
+
 ## -xaml-syntax
 ```xaml
 

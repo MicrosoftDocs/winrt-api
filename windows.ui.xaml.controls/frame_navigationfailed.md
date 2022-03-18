@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.Navigation.NavigationFailedEventHandler NavigationF
 ## -description
 Occurs when an error is raised while navigating to the requested content.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Frame.NavigationFailed](/windows/winui/api/microsoft.ui.xaml.controls.frame.navigationfailed).
+
 ## -xaml-syntax
 ```xaml
 <Frame NavigationFailed="eventhandler" />

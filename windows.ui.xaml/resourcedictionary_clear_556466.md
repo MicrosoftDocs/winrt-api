@@ -12,10 +12,12 @@ public void Clear()
 ## -description
 Removes all items from this [ResourceDictionary](resourcedictionary.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.ResourceDictionary.Clear](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.clear).
+
 ## -remarks
 
 
 ## -examples
 
 ## -see-also
-[Clear](https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear#System_Collections_Generic_ICollection_1_Clear), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Clear](/dotnet/api/system.collections.generic.icollection-1.clear?view=dotnet-uwp-10.0&preserve-view=true), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

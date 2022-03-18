@@ -58,32 +58,5 @@ foreach (var animation in animationDescription.Animations)
 }
 ```
 
-```javascript
-var animationDescription = new Windows.UI.Core.AnimationMetrics.AnimationDescription(effect, target);
-
-var StaggerDelay = animationDescription.staggerDelay;
-var StaggerDelayFactor = animationDescription.staggerDelayFactor;
-var DelayLimit = animationDescription.delayLimit;
-var ZOrder = animationDescription.zorder;
-
-var animations = animationDescription.animations;
-for (var i = 0; i < animations.size; i++) {
-    var animation = animations[i];
-
-    switch (animation.type) {
-        case animationMetrics.PropertyAnimationType.scale:
-            // Retrieve scale animation metrics
-            break;
-        case animationMetrics.PropertyAnimationType.translation:
-            // Retrieve translation animation metrics
-            break;
-        case animationMetrics.PropertyAnimationType.opacity:
-            
-            // Retrieve scale animation metrics
-            break;
-    }
-}
-```
-
 ## -see-also
-[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462), [OpacityAnimation](opacityanimation.md), [ScaleAnimation](scaleanimation.md), [TranslationAnimation](translationanimation.md)
+[Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics), [OpacityAnimation](opacityanimation.md), [ScaleAnimation](scaleanimation.md), [TranslationAnimation](translationanimation.md)

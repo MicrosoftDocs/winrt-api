@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.RepeatBehavior FromDuration(Windows.Found
 ## -description
 Creates a new [RepeatBehavior](repeatbehavior.md) based on a timespan. C# and Microsoft Visual Basic code should use [RepeatBehavior(TimeSpan)](repeatbehavior_repeatbehavior_2.md) instead.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.RepeatBehaviorHelper.FromDuration](/windows/winui/api/microsoft.ui.xaml.media.animation.repeatbehaviorhelper.fromduration).
+
 ## -parameters
 ### -param duration
 The time span that declares the desired repeat behavior.

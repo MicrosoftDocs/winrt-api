@@ -19,11 +19,11 @@ Extensions are scoped by the `<uap3:AppExtension Name=...>` defined in the exten
 
 An event handler for this event is a good place to examine each app extension for correctness and to provide the user the option to use it.
 
-The unit of deployment for an [AppExtension](https://docs.microsoft.com/uwp/api/windows.applicationmodel.appextensions.appextension) is the [Package](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package). That's why this is a **Package** install event and not an **AppExtension** install event.  
+The unit of deployment for an [AppExtension](/uwp/api/windows.applicationmodel.appextensions.appextension) is the [Package](/uwp/api/windows.applicationmodel.package). That's why this is a **Package** install event and not an **AppExtension** install event.  
 
 Typically there will only be one extension in a package. However, be prepared to handle the case where there are multiple extensions in the package.
 
-Use [AppExtension.Id](https://docs.microsoft.com/uwp/api/windows.applicationmodel.appextensions.appextension) to distinguish between extensions in the same package. To uniquely identify an extension in your app, consider concatenating [AppInfo.AppUserModelId](https://docs.microsoft.com/uwp/api/windows.applicationmodel.appinfo) and [AppExtension.Id](https://docs.microsoft.com/uwp/api/windows.applicationmodel.appinfo):
+Use [AppExtension.Id](/uwp/api/windows.applicationmodel.appextensions.appextension) to distinguish between extensions in the same package. To uniquely identify an extension in your app, consider concatenating [AppInfo.AppUserModelId](/uwp/api/windows.applicationmodel.appinfo) and [AppExtension.Id](/uwp/api/windows.applicationmodel.appinfo):
 
 ```cs
 _uniqueId = yourAppExtention.AppInfo.AppUserModelId + "!" + yourAppExtention.Id;

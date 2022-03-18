@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush CalendarItemBorderBrush { get;  set; }
 ## -description
 Gets or sets a brush that provides the border of a calendar item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarItemBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.calendaritemborderbrush).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView CalendarItemBorderBrush="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <CalendarView CalendarItemBorderBrush="colorString"/>
-
-```
-
-```xaml
+- or -
 <CalendarView>
   CalendarView.CalendarItemBorderBrush>singleBrush</CalendarView.CalendarItemBorderBrush>
 </CalendarView>

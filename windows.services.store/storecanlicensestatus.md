@@ -31,6 +31,6 @@ The product can be licensed to the current user.
 ## -remarks
 
 ## -see-also
-[StoreCanAcquireLicenseResult.Status](storecanacquirelicenseresult_status.md),[CanAcquireStoreLicenseAsync](storecontext_canacquirestorelicenseasync_871232308.md),[CanAcquireStoreLicenseForOptionalPackageAsync](storecontext_canacquirestorelicenseforoptionalpackageasync_846442686.md),[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
+[StoreCanAcquireLicenseResult.Status](storecanacquirelicenseresult_status.md),[CanAcquireStoreLicenseAsync](storecontext_canacquirestorelicenseasync_871232308.md),[CanAcquireStoreLicenseForOptionalPackageAsync](storecontext_canacquirestorelicenseforoptionalpackageasync_846442686.md),[Optional packages and related set authoring](/windows/uwp/packaging/optional-packages)
 
 ## -examples

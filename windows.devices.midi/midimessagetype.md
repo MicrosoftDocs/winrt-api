@@ -10,11 +10,11 @@ public enum Windows.Devices.Midi.MidiMessageType : int
 # MidiMessageType
 
 ## -description
-Provides constants used to map MIDI message types into their corresponding byte codes.
+Specifies constants used to map MIDI message types into their corresponding byte codes.
 
 ## -enum-fields
 ### -field None:0
-None
+Specifies no message type.
 
 ### -field NoteOff:128
 A [MidiNoteOffMessage](midinoteoffmessage.md).
@@ -73,7 +73,6 @@ A [MidiActiveSensingMessage](midiactivesensingmessage.md).
 ### -field SystemReset:255
 A [SystemResetMessage](midisystemresetmessage.md).
 
-
 ## -remarks
 Channel message values are put into the high nibble of the status byte of the Midi message.
 
@@ -84,4 +83,6 @@ These values are pre-defined by the MIDI specification. The reserved system mess
 ## -examples
 
 ## -see-also
-[MIDI  sample](https://go.microsoft.com/fwlink/p/?LinkID=394281)
+
+[MIDI sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MIDI)
+

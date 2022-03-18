@@ -12,6 +12,8 @@ public void RangesChanged(Windows.UI.Xaml.Data.ItemIndexRange visibleRange, Wind
 ## -description
 Updates the ranges of items in the data source that are visible in the list control and that are tracked in the instance of the object that implements the [IItemsRangeInfo](iitemsrangeinfo.md) interface.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Data.IItemsRangeInfo.RangesChanged](/windows/winui/api/microsoft.ui.xaml.data.iitemsrangeinfo.rangeschanged).
+
 ## -parameters
 ### -param visibleRange
 The updated range of items in the data source that are visible in the list control.

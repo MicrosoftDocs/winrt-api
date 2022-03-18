@@ -31,4 +31,4 @@ This property sets the value of the **TCP_NODELAY** socket option on the TCP soc
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)), [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)), [StreamWebSocket](streamwebsocket.md)
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)), [StreamWebSocket](streamwebsocket.md)

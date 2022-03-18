@@ -10,6 +10,9 @@ public Windows.ApplicationModel.Wallet.WalletDetailViewPosition DetailViewPositi
 # Windows.ApplicationModel.Wallet.WalletItemCustomProperty.DetailViewPosition
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets the optional position of this property when shown in the wallet item's detail view.
 
 ## -property-value
@@ -20,4 +23,4 @@ The optional position of this property when shown in the wallet item's detail vi
 ## -examples
 
 ## -see-also
-[WalletDetailViewPosition](walletdetailviewposition.md), [Quickstart: Using the   APIs](https://docs.microsoft.com/previous-versions/windows/apps/dn631257(v=win.10))
+[WalletDetailViewPosition](walletdetailviewposition.md), [Quickstart: Using the   APIs](/previous-versions/windows/apps/dn631257(v=win.10))

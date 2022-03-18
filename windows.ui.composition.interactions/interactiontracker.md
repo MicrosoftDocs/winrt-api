@@ -13,6 +13,8 @@ public class InteractionTracker : Windows.UI.Composition.CompositionObject, Wind
 
 Handles the logic of input that can be used as targets in ExpressionAnimations—typically to drive the motion of visuals based on input.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionTracker](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker).
+
 ## -remarks
 
 **InteractionTracker** is a state machine that can be driven by active input, or by explicit calls to update or animate its properties. The **InteractionTracker** class is intended to enable input to drive [CompositionAnimation](../windows.ui.composition/compositionanimation.md)s for custom interaction experiences. In order to build interactive experiences, it is necessary to associate one or more [VisualInteractionSource](visualinteractionsource.md)s with the **InteractionTracker**.
@@ -94,6 +96,7 @@ After being configured, InteractionTracker still requires one last step to actua
 | 1809 | 17763 | TryUpdatePositionBy(Vector3,InteractionTrackerClampingOption) |
 | 1903 | 18362 | GetBindingMode |
 | 1903 | 18362 | SetBindingMode |
+| 2004 | 19041 | TryUpdatePosition(Vector3,InteractionTrackerClampingOption,InteractionTrackerPositionUpdateOption) |
 
 ## -examples
 

@@ -12,6 +12,8 @@ public void SelectAll()
 ## -description
 Selects all the items in the [ListBox](listbox.md) control.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListBox.SelectAll](/windows/winui/api/microsoft.ui.xaml.controls.listbox.selectall).
+
 ## -remarks
 > [!WARNING]
 > The SelectAll method should only be called when the [SelectionMode](listbox_selectionmode.md) property is set to [Multiple](selectionmode.md) or [Extended](selectionmode.md). If SelectAll is called when the [SelectionMode](listbox_selectionmode.md) is **Single**, an exception is thrown.
@@ -31,14 +33,14 @@ if (listBox().SelectionMode() != Windows::UI::Xaml::Controls::SelectionMode::Sin
 }
 ```
 
-```cpp
+```cppcx
 if (listBox->SelectionMode != SelectionMode::Single)
 {
     listBox->SelectAll();
 }
 ```
 
-```vbnet
+```vb
 If listBox.SelectionMode <> SelectionMode.Single Then
     listBox.SelectAll()
 End If

@@ -13,6 +13,8 @@ public void SwipeItems.Append(SwipeItem value)
 
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.SwipeItems.Append](/windows/winui/api/microsoft.ui.xaml.controls.swipeitems.append).
+
 ## -parameters
 
 ### -param value

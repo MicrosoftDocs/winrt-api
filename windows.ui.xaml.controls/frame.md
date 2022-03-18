@@ -12,6 +12,8 @@ public class Frame : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xaml.Co
 ## -description
 Displays [Page](page.md) instances, supports navigation to new pages, and maintains a navigation history to support forward and backward navigation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Frame](/windows/winui/api/microsoft.ui.xaml.controls.frame).
+
 ## -xaml-syntax
 ```xaml
 <Frame .../>
@@ -234,7 +236,7 @@ Private Sub OnNavigationFailed(sender As Object, e As NavigationFailedEventArgs)
 End Sub
 ```
 
-For a complete sample that uses many of the [Page](page.md) and Frame features together, see [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214).
+For a complete sample that uses many of the [Page](page.md) and Frame features together, see the [XAML Controls Gallery](https://github.com/microsoft/Xaml-Controls-Gallery).
 
 ## -see-also
-[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md), [Navigation design basics overview](https://docs.microsoft.com/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md), [Navigation design basics overview](/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)

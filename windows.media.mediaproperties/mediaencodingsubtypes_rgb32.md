@@ -10,10 +10,10 @@ public string Rgb32 { get; }
 # Windows.Media.MediaProperties.MediaEncodingSubtypes.Rgb32
 
 ## -description
-Gets the name for RGB 32.
+Gets the name for the RGB32 image format.
 
 ## -property-value
-The name for RGB 32.
+The name for RGB32 image format.
 
 ## -remarks
 

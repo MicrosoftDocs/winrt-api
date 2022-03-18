@@ -10,12 +10,15 @@ public class ApplicationViewTitleBar : Windows.UI.ViewManagement.IApplicationVie
 # Windows.UI.ViewManagement.ApplicationViewTitleBar
 
 ## -description
+
 Represents the title bar of an app.
 
 ## -remarks
 
-
 ## -examples
 
+See the [Title bar sample](/samples/microsoft/windows-universal-samples/titlebar/).
+
 ## -see-also
-[Title bar customization](https://docs.microsoft.com/windows/uwp/design/shell/title-bar)
+
+[Title bar customization](/windows/uwp/design/shell/title-bar), [Title bar sample](/samples/microsoft/windows-universal-samples/titlebar/)

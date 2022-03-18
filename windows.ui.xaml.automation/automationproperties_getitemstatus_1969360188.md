@@ -12,6 +12,8 @@ public string GetItemStatus(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets the value of the [AutomationProperties.ItemStatus](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetItemStatus](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getitemstatus).
+
 ## -parameters
 ### -param element
 The [DependencyObject](../windows.ui.xaml/dependencyobject.md) to check.

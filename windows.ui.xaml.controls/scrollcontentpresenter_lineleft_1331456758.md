@@ -12,6 +12,8 @@ public void LineLeft()
 ## -description
 Scrolls the [ScrollContentPresenter](scrollcontentpresenter.md) content to the left by a predetermined amount.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.LineLeft](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.lineleft).
+
 ## -remarks
 
 ## -examples

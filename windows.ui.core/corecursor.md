@@ -16,7 +16,7 @@ Defines a cursor (visual pointer) object.
 
 To create a CoreCursor instance using a pre-defined Windows cursor, use any of the cursor types available in the [CoreCursorType](corecursortype.md) enumeration other than **Custom**. In this case, the **Id** property is ignored.
 
-To use a custom cursor, use the **CoreCursorType.Custom** enumeration option, and specify the **Id** of the custom cursor. You can add a _.res_ resource file that contains the custom cursor to your project and include it in your assembly with the [/win32res](https://docs.microsoft.com/dotnet/articles/csharp/language-reference/compiler-options/win32res-compiler-option) compiler option. The **Id** is the [Cursor Resource ID](https://docs.microsoft.com/windows/desktop/menurc/cursor-resource) specified in the _.res_ file.
+To use a custom cursor, use the **CoreCursorType.Custom** enumeration option, and specify the **Id** of the custom cursor. You can add a _.res_ resource file that contains the custom cursor to your project and include it in your assembly with the [/win32res](/dotnet/articles/csharp/language-reference/compiler-options/win32res-compiler-option) compiler option. The **Id** is the [Cursor Resource ID](/windows/desktop/menurc/cursor-resource) specified in the _.res_ file.
 
 ## -examples
 

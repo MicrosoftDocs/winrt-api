@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FocusBorderBrushProperty { get; }
 ## -description
 Identifies the [FocusBorderBrush](calendarview_focusborderbrush.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.FocusBorderBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.focusborderbrushproperty).
+
 ## -property-value
 The identifier for the [FocusBorderBrush](calendarview_focusborderbrush.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [FocusBorderBrush](calendarview_focusborderbrush.md)   d
 ## -examples
 
 ## -see-also
-[FocusBorderBrush](calendarview_focusborderbrush.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[FocusBorderBrush](calendarview_focusborderbrush.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

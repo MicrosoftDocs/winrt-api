@@ -14,6 +14,8 @@ public enum AnimationPropertyAccessMode : int
 
 Defines constants that specify how an animated property can be accessed.
 
+Equivalent WinUI enum: [Microsoft.UI.Composition.AnimationPropertyAccessMode](/windows/winui/api/microsoft.ui.composition.animationpropertyaccessmode).
+
 ## -enum-fields
 ### -field WriteOnly:2
 

@@ -12,6 +12,8 @@ public string MonthFormat { get;  set; }
 ## -description
 Gets or sets the display format for the month value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerFlyout.MonthFormat](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyout.monthformat).
+
 ## -xaml-syntax
 ```xaml
 <DatePickerFlyout MonthFormat="formatString"/>
@@ -45,4 +47,4 @@ For the complete list of format templates and format patterns, see the Remarks s
 ## -examples
 
 ## -see-also
-[DayFormat](datepickerflyout_dayformat.md), [YearFormat](datepickerflyout_yearformat.md), [DatePicker](datepicker.md), [DatePicker.DayFormat](datepicker_dayformat.md), [DatePicker.MonthFormat](datepicker_monthformat.md), [DatePicker.YearFormat](datepicker_yearformat.md), [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md), [How to use patterns to format dates and times](https://docs.microsoft.com/previous-versions/windows/apps/jj673581(v=win.10))
+[DayFormat](datepickerflyout_dayformat.md), [YearFormat](datepickerflyout_yearformat.md), [DatePicker](datepicker.md), [DatePicker.DayFormat](datepicker_dayformat.md), [DatePicker.MonthFormat](datepicker_monthformat.md), [DatePicker.YearFormat](datepicker_yearformat.md), [DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md), [How to use patterns to format dates and times](/previous-versions/windows/apps/jj673581(v=win.10))

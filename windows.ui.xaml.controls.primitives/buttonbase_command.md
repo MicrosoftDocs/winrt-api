@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Input.ICommand Command { get;  set; }
 ## -description
 Gets or sets the command to invoke when this button is pressed.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.Command](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase.command).
+
 ## -xaml-syntax
 ```xaml
 <button Command="commandReference"/>
@@ -26,7 +28,7 @@ Gets or sets the command to invoke when this button is pressed.
 The command to invoke when this button is pressed. The default is null.
 
 ## -remarks
-The **ICommand** interface comes from a different source depending on whether the data source is implemented in C++ or for Microsoft .NET. C++ implements [Windows::UI::Xaml::Input::ICommand](../windows.ui.xaml.input/icommand.md). Microsoft .NET implements [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand?redirectedfrom=MSDN). Both interfaces have the same template. Which interface you call from your app code is analogous: use [Windows::UI::Xaml::Input::ICommand](../windows.ui.xaml.input/icommand.md) for C++ code and [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand?redirectedfrom=MSDN) for Microsoft .NET code.
+The **ICommand** interface comes from a different source depending on whether the data source is implemented in C++ or for Microsoft .NET. C++ implements [Windows::UI::Xaml::Input::ICommand](../windows.ui.xaml.input/icommand.md). Microsoft .NET implements [System.Windows.Input.ICommand](/dotnet/api/system.windows.input.icommand?view=dotnet-uwp-10.0&preserve-view=true). Both interfaces have the same template. Which interface you call from your app code is analogous: use [Windows::UI::Xaml::Input::ICommand](../windows.ui.xaml.input/icommand.md) for C++ code and [System.Windows.Input.ICommand](/dotnet/api/system.windows.input.icommand?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET code.
 
 ## -examples
 

@@ -16,7 +16,7 @@ Handles the monitoring of a user's Visits when the app is in use (not in the bac
 
 ## -see-also
 [Geovisit](Geovisit.md)
-[Guidelines for using Visits tracking](https://docs.microsoft.com/windows/uwp/maps-and-location/guidelines-for-visits)
+[Guidelines for using Visits tracking](/windows/uwp/maps-and-location/guidelines-for-visits)
 
 ## -examples
 

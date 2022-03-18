@@ -12,8 +12,10 @@ public class Shape : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Shapes.IS
 ## -description
 Provides a base class for shape elements, such as [Ellipse](ellipse.md), [Polygon](polygon.md), and [Rectangle](rectangle.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Shapes.Shape](/windows/winui/api/microsoft.ui.xaml.shapes.shape).
+
 ## -remarks
-Shape defines several properties that are shared by all the Shape derived classes. The most commonly used properties are [Fill](shape_fill.md), [Stroke](shape_stroke.md), and [StrokeThickness](shape_strokethickness.md). [Stroke](shape_stroke.md) uses a [Brush](../windows.ui.xaml.media/brush.md) to draw the outline of the shape, and [Fill](shape_fill.md) uses a [Brush](../windows.ui.xaml.media/brush.md) to draw the interior. For more info on how to use the Shape derived classes in XAML UI, see [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes).
+Shape defines several properties that are shared by all the Shape derived classes. The most commonly used properties are [Fill](shape_fill.md), [Stroke](shape_stroke.md), and [StrokeThickness](shape_strokethickness.md). [Stroke](shape_stroke.md) uses a [Brush](../windows.ui.xaml.media/brush.md) to draw the outline of the shape, and [Fill](shape_fill.md) uses a [Brush](../windows.ui.xaml.media/brush.md) to draw the interior. For more info on how to use the Shape derived classes in XAML UI, see [Draw shapes](/windows/uwp/graphics/drawing-shapes).
 
 Shape also derives from [FrameworkElement](../windows.ui.xaml/frameworkelement.md) and inherits various properties from that class. Those properties include [Height](../windows.ui.xaml/frameworkelement_height.md) and [Width](../windows.ui.xaml/frameworkelement_width.md). For most other [FrameworkElement](../windows.ui.xaml/frameworkelement.md) derived types, setting [Height](../windows.ui.xaml/frameworkelement_height.md) and [Width](../windows.ui.xaml/frameworkelement_width.md) is the primary way to specify that element's dimensions in UI (although you often would leave them as "Auto" to take advantage of adaptive layout). But not all of the Shape classes use [Height](../windows.ui.xaml/frameworkelement_height.md) or [Width](../windows.ui.xaml/frameworkelement_width.md) to specify their dimensions, and instead use specific properties that might define a set of points. In this case a [Height](../windows.ui.xaml/frameworkelement_height.md) or [Width](../windows.ui.xaml/frameworkelement_width.md) is calculated for layout, but you shouldn't attempt to set the [Height](../windows.ui.xaml/frameworkelement_height.md) or [Width](../windows.ui.xaml/frameworkelement_width.md). See the remarks or descriptions in specific Shape derived classes for more info.
 
@@ -38,7 +40,7 @@ Of these, [Rectangle](rectangle.md), [Path](path.md) and [Ellipse](ellipse.md) a
 | 1607 | 14393 | GetAlphaMask |
 
 ## -examples
-For example code of how to use Shape derived classes such as [Rectangle](rectangle.md) and [Path](path.md), see [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866).
+For example code of how to use Shape derived classes such as [Rectangle](rectangle.md) and [Path](path.md), see [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample).
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample), [Draw shapes](/windows/uwp/graphics/drawing-shapes)

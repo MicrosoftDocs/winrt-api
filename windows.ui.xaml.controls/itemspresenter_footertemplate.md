@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DataTemplate FooterTemplate { get;  set; }
 ## -description
 Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to display the content of the items header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPresenter.FooterTemplate](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.footertemplate).
+
 ## -xaml-syntax
 ```xaml
 <ItemsPresenter>
@@ -19,9 +21,7 @@ Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to disp
     singleDataTemplate
   </ItemsPresenter.FooterTemplate>
 </ItemsPresenter>
-```
-
-```xaml
+- or -
 <ItemsPresenter FooterTemplate="resourceReferenceToDataTemplate"/>
 ```
 

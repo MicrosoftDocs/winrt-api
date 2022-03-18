@@ -24,4 +24,4 @@ An asynchronous operation that returns a [SoftwareBitmap](softwarebitmap.md) on 
 ## -examples
 
 ## -see-also
-[CreateCopyFromSurfaceAsync(IDirect3DSurface, BitmapAlphaMode)](softwarebitmap_createcopyfromsurfaceasync_876166343.md)
+[CreateCopyFromSurfaceAsync(IDirect3DSurface, BitmapAlphaMode)](softwarebitmap_createcopyfromsurfaceasync_1666076722.md)

@@ -34,6 +34,8 @@ An aerial 3D map.
 ### -field Aerial3DWithRoads:6
 A hybrid map that combines an aerial 3D map with roads.
 
+### -field Custom:7
+A map that uses a custom [Style](mapcontrol_style.md).
 
 ## -remarks
 
@@ -46,7 +48,7 @@ A hybrid map that combines an aerial 3D map with roads.
 ## -examples
 
 ## -see-also
-[Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps)
+[Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps)
 
 ### -field Custom:7
 

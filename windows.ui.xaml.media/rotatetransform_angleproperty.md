@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AngleProperty { get; }
 ## -description
 Identifies the [Angle](rotatetransform_angle.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.RotateTransform.AngleProperty](/windows/winui/api/microsoft.ui.xaml.media.rotatetransform.angleproperty).
+
 ## -property-value
 The identifier for the [Angle](rotatetransform_angle.md) dependency property.
 

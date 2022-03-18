@@ -24,11 +24,11 @@ Before calling this method, call [IsVideoProfileSupported](mediacapture_isvideop
 
 Use [FindKnownVideoProfiles](mediacapture_findknownvideoprofiles_875917242.md) to request profiles with specific functionality using one of the [KnownVideoProfile](knownvideoprofile.md) values.
 
-For how-to guidance for working with camera profiles, see [Discover and select camera capabilities with camera profiles](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera-profiles).
+For how-to guidance for working with camera profiles, see [Discover and select camera capabilities with camera profiles](/windows/uwp/audio-video-camera/camera-profiles).
 
 ## -examples
 
 ## -see-also
-[FindKnownVideoProfiles](mediacapture_findknownvideoprofiles_875917242.md), [FindConcurrentProfiles](mediacapture_findconcurrentprofiles_834250833.md), [Discover and select camera capabilities with camera profiles](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera-profiles)
+[FindKnownVideoProfiles](mediacapture_findknownvideoprofiles_875917242.md), [FindConcurrentProfiles](mediacapture_findconcurrentprofiles_834250833.md), [Discover and select camera capabilities with camera profiles](/windows/uwp/audio-video-camera/camera-profiles)
 ## -capabilities
 backgroundMediaRecording

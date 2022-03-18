@@ -12,7 +12,7 @@ public IAsyncOperation<bool> TaskbarManager.TryUnpinSecondaryTileAsync(String ti
 
 ## -description
 
-Tries to unpin the secondary tile from taskbar. Requires user approval as described [here](https://docs.microsoft.com/en-us/windows/uwp/design/shell/pin-to-taskbar#4-pin-your-app)
+Tries to unpin the secondary tile from taskbar. Requires user approval as described [here](/en-us/windows/uwp/design/shell/pin-to-taskbar#4-pin-your-app)
 
 ## -parameters
 

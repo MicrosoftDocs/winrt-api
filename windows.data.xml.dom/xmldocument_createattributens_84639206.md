@@ -26,4 +26,12 @@ The newly created attribute.
 
 ## -examples
 
+```csharp
+var attribute = document.CreateAttributeNS("http://www.w3.org/2000/svg", "width");
+```
+
+```cppwinrt
+auto attribute = document.CreateAttributeNS(winrt::box_value(L"http://www.w3.org/2000/svg"), L"width");
+```
+
 ## -see-also

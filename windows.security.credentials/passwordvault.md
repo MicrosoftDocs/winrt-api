@@ -19,4 +19,5 @@ Apps running in an AppContainer (e.g. UWP apps) can only access the contents of 
 ## -examples
 
 ## -see-also
-[Credential locker](https://docs.microsoft.com/windows/uwp/security/credential-locker)
+
+[Credential locker](/windows/uwp/security/credential-locker)

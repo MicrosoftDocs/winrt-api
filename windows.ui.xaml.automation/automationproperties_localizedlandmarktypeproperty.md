@@ -12,11 +12,13 @@ public Windows.UI.Xaml.DependencyProperty LocalizedLandmarkTypeProperty { get; }
 ## -description
 Gets the identifier for the localized landmark type attached property, which is a localized text string describing the type of landmark that the automation element represents.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.LocalizedLandmarkTypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.localizedlandmarktypeproperty).
+
 ## -property-value
 The identifier for the localized landmark type attached property.
 
 ## -remarks
-This should be used in tandem with [UIA_CustomLandmarkTypeId](https://docs.microsoft.com/windows/desktop/WinAuto/landmark-type-identifiers) however, **LocalizedLandmarkType** should always take precedence over **LandmarkType** and be used to describe the landmark before **LandmarkType**.
+This should be used in tandem with [UIA_CustomLandmarkTypeId](/windows/desktop/WinAuto/landmark-type-identifiers) however, **LocalizedLandmarkType** should always take precedence over **LandmarkType** and be used to describe the landmark before **LandmarkType**.
 
 The string must match the application UI language or the operating system default UI language.
 

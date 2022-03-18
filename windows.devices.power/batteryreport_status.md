@@ -21,4 +21,4 @@ A [BatteryStatus](../windows.system.power/batterystatus.md) enumeration that ind
 ## -examples
 
 ## -see-also
-[Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10))
+[Get battery information](/previous-versions/windows/apps/dn895210(v=win.10))

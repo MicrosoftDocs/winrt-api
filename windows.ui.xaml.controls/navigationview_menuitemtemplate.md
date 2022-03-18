@@ -21,9 +21,7 @@ Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to disp
     singleDataTemplate
   </NavigationMenu.MenuItemTemplate>
 </NavigationMenu>
-```
-
-```xaml
+- or -
 <NavigationMenu MenuItemTemplate="resourceReferenceToDataTemplate"/>
 ```
 

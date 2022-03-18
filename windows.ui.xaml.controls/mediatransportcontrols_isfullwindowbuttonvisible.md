@@ -12,6 +12,8 @@ public bool IsFullWindowButtonVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the full screen button is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsFullWindowButtonVisible](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isfullwindowbuttonvisible).
+
 ## -xaml-syntax
 ```xaml
 

@@ -12,9 +12,11 @@ static public event Windows.Foundation.TypedEventHandler IsDisplayModeEnabledCha
 ## -description
 Occurs when the app enters or exits an access key sequence.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Input.AccessKeyManager.IsDisplayModeEnabledChanged](/windows/winui/api/microsoft.ui.xaml.input.accesskeymanager.isdisplaymodeenabledchanged).
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)
+[Access keys](/windows/uwp/design/input/access-keys)

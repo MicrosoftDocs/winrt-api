@@ -50,7 +50,7 @@ Point values are used extensively for graphics properties and similar UI-related
 
 Either a space or a comma can be used as the delimiter between *X* and *Y* values. The common convention for coordinate points is to use a comma delimiter.
 
-Point structures cannot be declared as resources in a [ResourceDictionary](../windows.ui.xaml/resourcedictionary.md). A potential workaround is to use an [x:String](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references) resource and then inject it into a string that's parsed with [XamlReader.Load](../windows.ui.xaml.markup/xamlreader_load_1077941801.md).
+Point structures cannot be declared as resources in a [ResourceDictionary](../windows.ui.xaml/resourcedictionary.md). A potential workaround is to use an [x:String](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references) resource and then inject it into a string that's parsed with [XamlReader.Load](../windows.ui.xaml.markup/xamlreader_load_1077941801.md).
 
 Some XAML usages use the Point type to represent a *logical point*. See "Logical Points" in Remarks.
 
@@ -78,9 +78,9 @@ Some graphics elements use multiple Point values represented in a single propert
 
 ### Point values from XAML input events, and hit testing
 
-A Point value is returned by the event data for certain input events. For example, [GetCurrentPoint](../windows.ui.xaml.input/pointerroutedeventargs_getcurrentpoint_1761708789.md) provides a coordinate value of where a [Pointer](../windows.ui.xaml.input/pointer.md) event occurred in app UI. Generally speaking, these Point values refer to a certain frame of coordinate reference and it is important to know what that frame of reference represents. For input events, the frame of reference by default is the main app window, not the overall screen/display. This enables a consistent frame of reference in case the window is moved or resized. Some API such as [GetCurrentPoint](../windows.ui.xaml.input/pointerroutedeventargs_getcurrentpoint_1761708789.md) and [GetPosition](../windows.ui.xaml.input/tappedroutedeventargs_getposition_1813281865.md) also provide a way to translate to an element-specific frame of reference, which is useful when working with input events that are handled by an individual control. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input).
+A Point value is returned by the event data for certain input events. For example, [GetCurrentPoint](../windows.ui.xaml.input/pointerroutedeventargs_getcurrentpoint_1761708789.md) provides a coordinate value of where a [Pointer](../windows.ui.xaml.input/pointer.md) event occurred in app UI. Generally speaking, these Point values refer to a certain frame of coordinate reference and it is important to know what that frame of reference represents. For input events, the frame of reference by default is the main app window, not the overall screen/display. This enables a consistent frame of reference in case the window is moved or resized. Some API such as [GetCurrentPoint](../windows.ui.xaml.input/pointerroutedeventargs_getcurrentpoint_1761708789.md) and [GetPosition](../windows.ui.xaml.input/tappedroutedeventargs_getposition_1813281865.md) also provide a way to translate to an element-specific frame of reference, which is useful when working with input events that are handled by an individual control. For more info, see [Handle pointer input](/windows/uwp/input-and-devices/handle-pointer-input).
 
-XAML UI development also has a concept known as *hit testing*, where you can use utility methods to test how input events would report info if the user were to perform a pointer action in a particular coordinate location of the UI. To support the hit testing concept, 2 signatures of [FindElementsInHostCoordinates](../windows.ui.xaml.media/visualtreehelper_findelementsinhostcoordinates_1478853318.md) use a Point input parameter, as does [FindSubElementsForTouchTargeting](../windows.ui.xaml/uielement_findsubelementsfortouchtargeting_2073429826.md). For more info, see [Mouse interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/mouse-interactions).
+XAML UI development also has a concept known as *hit testing*, where you can use utility methods to test how input events would report info if the user were to perform a pointer action in a particular coordinate location of the UI. To support the hit testing concept, 2 signatures of [FindElementsInHostCoordinates](../windows.ui.xaml.media/visualtreehelper_findelementsinhostcoordinates_1478853318.md) use a Point input parameter, as does [FindSubElementsForTouchTargeting](../windows.ui.xaml/uielement_findsubelementsfortouchtargeting_2073429826.md). For more info, see [Mouse interactions](/windows/uwp/input-and-devices/mouse-interactions).
 
 ### Animating Point values
 
@@ -88,18 +88,18 @@ The Windows Runtime provides a means to animate the values of any property that 
 
 ### Projection and members of Point
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then Point has non-data members available, and its data members are exposed as read-write properties, not fields. See [Point](/dotnet/api/windows.foundation.point) in the .NET API Browser.
+If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then Point has non-data members available, and its data members are exposed as read-write properties, not fields. See [Point](/dotnet/api/windows.foundation.point?view=dotnet-uwp-10.0&preserve-view=true) in the .NET API Browser.
 
 If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of Point, and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that are available from the [PointHelper](../windows.ui.xaml/pointhelper.md) static class.
 
 This table shows the equivalent methods available in .NET and C++.
 
-| .NET ([Point](/dotnet/api/windows.foundation.point)) | C++ ([PointHelper](../windows.ui.xaml/pointhelper.md)) |
+| .NET ([Point](/dotnet/api/windows.foundation.point?view=dotnet-uwp-10.0&preserve-view=true)) | C++ ([PointHelper](../windows.ui.xaml/pointhelper.md)) |
 | ---- | --- |
-| [Point(Double, Double)](/dotnet/api/windows.foundation.point.-ctor) | [FromCoordinates(Single, Single)](../windows.ui.xaml/pointhelper_fromcoordinates_673163148.md) |
+| [Point(Double, Double)](/dotnet/api/windows.foundation.point.-ctor?view=dotnet-uwp-10.0&preserve-view=true) | [FromCoordinates(Single, Single)](../windows.ui.xaml/pointhelper_fromcoordinates_673163148.md) |
 
 ## -examples
 
 ## -see-also
 
-[PointAnimation](../windows.ui.xaml.media.animation/pointanimation.md), [PointCollection](../windows.ui.xaml.media/pointcollection.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[PointAnimation](../windows.ui.xaml.media.animation/pointanimation.md), [PointCollection](../windows.ui.xaml.media/pointcollection.md), [Handle pointer input](/windows/uwp/input-and-devices/handle-pointer-input), [Draw shapes](/windows/uwp/graphics/drawing-shapes)

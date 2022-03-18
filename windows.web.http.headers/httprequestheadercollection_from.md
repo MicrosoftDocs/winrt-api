@@ -10,7 +10,7 @@ public string From { get;  set; }
 # Windows.Web.Http.Headers.HttpRequestHeaderCollection.From
 
 ## -description
-Gets or sets the [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that represents the value of a **From** HTTP header on an HTTP request.
+Gets or sets the [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) that represents the value of a **From** HTTP header on an HTTP request.
 
 ## -property-value
 The value of a **From** HTTP header on an HTTP request. An empty string means that the header is absent.

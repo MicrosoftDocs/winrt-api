@@ -9,15 +9,19 @@ public IAsyncAction LicenseManager.RefreshLicensesAsync(LicenseRefreshOption ref
 
 # Windows.ApplicationModel.Store.LicenseManagement.LicenseManager.RefreshLicensesAsync
 
+
 ## -description
+
 Refreshes license info for app licenses on the current device.
 
-## -params
+## -parameters
 
-## -param refreshOption
+### -param refreshOption
+
 A [LicenseRefreshOption](licenserefreshoption.md) that indicates whether to refresh all app licenses on the device or only the licenses for currently running apps.
 
 ## -returns
+
 An object that represents the asynchronous operation.
 
 ## -remarks
@@ -27,4 +31,6 @@ An object that represents the asynchronous operation.
 ## -examples
 
 ## -capabilities
+
 storeLicenseManagement
+

@@ -20,5 +20,7 @@ The **Source** property retains its old value during navigation until the naviga
 
 ## -see-also
 
+[URI schemes](/windows/uwp/app-resources/uri-schemes)
+
 ## -examples
 

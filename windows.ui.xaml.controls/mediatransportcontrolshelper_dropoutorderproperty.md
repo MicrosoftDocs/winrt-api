@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DropoutOrderProperty { get; }
 ## -description
 Identifies the [MediaTransportControlsHelper.DropoutOrder](/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper#xaml-attached-properties) XAML attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControlsHelper.DropoutOrderProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrolshelper.dropoutorderproperty).
+
 ## -property-value
 The identifier for the [MediaTransportControlsHelper.DropoutOrder](/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper#xaml-attached-properties) XAML attached property.
 
@@ -21,4 +23,4 @@ This property is only an identifier for the property system, and isn't used in m
 ## -examples
 
 ## -see-also
-[MediaTransportControlsHelper.DropoutOrder](/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper#xaml-attached-properties), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)
+[MediaTransportControlsHelper.DropoutOrder](/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper#xaml-attached-properties), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

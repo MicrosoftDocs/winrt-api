@@ -12,6 +12,8 @@ public TriggerActionCollection()
 ## -description
 Initializes a new instance of the [TriggerActionCollection](triggeractioncollection.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.TriggerActionCollection.TriggerActionCollection](/windows/winui/api/microsoft.ui.xaml.triggeractioncollection.#ctor).
+
 ## -remarks
 
 ## -examples

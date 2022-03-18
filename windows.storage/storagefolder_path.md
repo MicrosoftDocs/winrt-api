@@ -45,21 +45,13 @@ Windows::Storage::StorageFolder appFolder{ Windows::ApplicationModel::Package::C
 ::OutputDebugString(appFolder.Path().c_str());
 ```
 
-```cpp
+```cppcx
  // Get the app's installation folder
  StorageFolder^ appFolder = Windows::ApplicationModel::Package::Current->InstalledLocation;
 
  //Print the path to the debug window
  String^ path = appFolder->Path;
  OutputDebugString(path->Begin());
-```
-
-```javascript
-/ Get the app's installation folder.
-var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
-
-// Print the folder's path to the Visual Studio Output window.
-console.log(appFolder.name, "folder path:", appFolder.path);
 ```
 
 ## -see-also

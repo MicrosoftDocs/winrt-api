@@ -13,17 +13,16 @@ public class WebUIBackgroundTaskInstance
 
 Represents an instance of a background task that has been triggered to run.
 
-A background task must explicitly call the Web Workers [close](https://go.microsoft.com/fwlink/p/?linkid=237467) method to terminate itself after the task has completed.
+A background task must explicitly call the Web Workers [close](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673568(v=vs.85)) method to terminate itself after the task has completed.
 
 ## -remarks
 
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275)
-<!--[jjacks - removed this link (https://go.microsoft.com/fwlink/p/?linkid=258277 404->http://msdn.microsoft.com/library/windows/apps/jj157115.aspx) because it doesn't work] and Using Windows Runtime objects in a multithreaded environment (.NET)-->
-.
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx).
 
 ## -examples
 
 ## -see-also
 
-[Background task sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=618666), [Background activation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundActivation)
+[Background task sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTask), [Background activation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundActivation)

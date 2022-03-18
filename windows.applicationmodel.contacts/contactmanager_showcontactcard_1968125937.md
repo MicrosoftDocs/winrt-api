@@ -26,8 +26,8 @@ The [Rect](../windows.foundation/rect.md) is the rectangular area of user select
 > Source apps must be running in the foreground to call this method. An app that runs in the background will get an "Access Denied" exception if it calls this method.
 
 Most typical operations will result in displaying a UI.
+
 + **If there is one exact match for the requested  contact:** Shows the contact card UI with information from the contacts store in the operating system. 
-<!--There is note in spec re a planned merging behavior. The existing behavior is lookup from store, throw away extra info in contact.-->
 + **If there are multiple matches:** Shows the contact card UI for the first matching contact found.
 + **If there is no match:** Shows the contact card UI, where the contact info comes from the input *contact* object.
 
@@ -36,7 +36,7 @@ If there's an error, such as an invalid input for the *contact* parameter, no UI
 
 For querying purposes, phone numbers support characters 0-9 and a-z/A-Z. If you put any other characters in a phone number, they are ignored when you query the contact.
 
-For info about how to manage contacts, see [Managing contact cards ](https://docs.microsoft.com/previous-versions/windows/apps/dn518181(v=win.10)) and [Managing contact cards ](https://docs.microsoft.com/previous-versions/windows/apps/dn518237(v=win.10)).
+For info about how to manage contacts, see [Contacts and calendar](/windows/uwp/contacts-and-calendar/).
 
 For querying purposes, phone numbers support characters 0-9 and a-z/A-Z. If you put any other characters in a phone number, they are ignored when you query the contact.
 

@@ -12,6 +12,8 @@ public IAsyncOperation<SvgImageSourceLoadStatus> SvgImageSource.SetSourceAsync(I
 ## -description
 Sets the source SVG for a [SvgImageSource](svgimagesource.md) by accessing a stream and processing the result asynchronously.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.SetSourceAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.setsourceasync).
+
 ## -parameters
 ### -param streamSource
 The stream source that sets the SVG source value.
@@ -20,8 +22,8 @@ The stream source that sets the SVG source value.
 A [SvgImageSourceLoadStatus](svgimagesourceloadstatus.md) value that indicates whether the operation was successful. If it failed, indicates the reason for the failure.  
 
 ## -remarks
-Setting a SVG source by calling the asynchronous SetSourceAsync(IRandomAccessStream) method avoids blocking the UI thread. For more info on how to use **async** or **await**, see [Call asynchronous APIs in C# or Visual Basic](https://docs.microsoft.com/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic).
-If the app changes the SVG source again via SetSourceAsync(IRandomAccessStream) or [UriSource](svgimagesource_urisource.md) while a SetSourceAsync(IRandomAccessStream) call is already in progress, the pending SetSourceAsync(IRandomAccessStream) action will throw a [TaskCanceledException](https://docs.microsoft.com/dotnet/api/system.threading.tasks.taskcanceledexception?redirectedfrom=MSDN).
+Setting a SVG source by calling the asynchronous SetSourceAsync(IRandomAccessStream) method avoids blocking the UI thread. For more info on how to use **async** or **await**, see [Call asynchronous APIs in C# or Visual Basic](/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic).
+If the app changes the SVG source again via SetSourceAsync(IRandomAccessStream) or [UriSource](svgimagesource_urisource.md) while a SetSourceAsync(IRandomAccessStream) call is already in progress, the pending SetSourceAsync(IRandomAccessStream) action will throw a [TaskCanceledException](/dotnet/api/system.threading.tasks.taskcanceledexception?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -see-also
 

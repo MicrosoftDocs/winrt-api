@@ -12,6 +12,8 @@ virtual protected void OnManipulationStarted(Windows.UI.Xaml.Input.ManipulationS
 ## -description
 Called before the [ManipulationStarted](../windows.ui.xaml/uielement_manipulationstarted.md) event occurs.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnManipulationStarted](/windows/winui/api/microsoft.ui.xaml.controls.control.onmanipulationstarted).
+
 ## -parameters
 ### -param e
 Event data for the event.
@@ -21,4 +23,4 @@ Event data for the event.
 ## -examples
 
 ## -see-also
-[UIElement.ManipulationStarted](../windows.ui.xaml/uielement_manipulationstarted.md), [ManipulationStartedRoutedEventArgs](../windows.ui.xaml.input/manipulationstartedroutedeventargs.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index), [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)
+[UIElement.ManipulationStarted](../windows.ui.xaml/uielement_manipulationstarted.md), [ManipulationStartedRoutedEventArgs](../windows.ui.xaml.input/manipulationstartedroutedeventargs.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [Custom user interactions](/windows/uwp/design/layout/index), [Handle pointer input](/windows/uwp/input-and-devices/handle-pointer-input)

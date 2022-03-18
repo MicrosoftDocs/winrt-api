@@ -12,6 +12,8 @@ public void SetTargetProperty(Windows.UI.Xaml.Media.Animation.Timeline element, 
 ## -description
 Sets the value of the [Storyboard.TargetProperty](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) XAML attached property for a target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.Storyboard.SetTargetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.settargetproperty).
+
 ## -parameters
 ### -param element
 The target element for which to set the value.
@@ -44,7 +46,7 @@ Using SetTargetProperty in code as opposed to targeting an animation in initial 
 
 The [Storyboard.TargetProperty](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) attached property is typically set on the individual [Timeline](timeline.md)-derived animations that make up the [Storyboard.Children](storyboard_children.md) collection of an animation definition in XAML.
 
-The [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) property can process a string syntax that enables targeting a subproperty of a property value. The syntax uses a "dot-down" metaphor for targeting a chain of object-property relationships until a particular subproperty is identified. This enables animations to apply to the value types where there is a supporting animation structure ([Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN), [Color](../windows.ui/color.md), [Point](https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-point), and [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) for [DiscreteObjectKeyFrameAnimation](discreteobjectkeyframe_discreteobjectkeyframe_1221375020.md)). For example, you might want to animate the [Background](../windows.ui.xaml.controls/control_background.md) value of a [Control](../windows.ui.xaml.controls/control.md), which takes an object type of [Brush](../windows.ui.xaml.media/brush.md). There is no "BrushAnimation" animation type, so you cannot directly target an animation for [Background](../windows.ui.xaml.controls/control_background.md) . But what you can do instead is reference a [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) subproperty that is named [Color](../windows.ui.xaml.media/solidcolorbrush_color.md), which takes type [Color](../windows.ui/color.md) and can thus be targeted by a [ColorAnimation](coloranimation.md). The string syntax for this is:
+The [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) property can process a string syntax that enables targeting a subproperty of a property value. The syntax uses a "dot-down" metaphor for targeting a chain of object-property relationships until a particular subproperty is identified. This enables animations to apply to the value types where there is a supporting animation structure ([Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true), [Color](../windows.ui/color.md), [Point](/windows/desktop/api/windows.foundation/ns-windows-foundation-point), and [Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true) for [DiscreteObjectKeyFrameAnimation](discreteobjectkeyframe_discreteobjectkeyframe_1221375020.md)). For example, you might want to animate the [Background](../windows.ui.xaml.controls/control_background.md) value of a [Control](../windows.ui.xaml.controls/control.md), which takes an object type of [Brush](../windows.ui.xaml.media/brush.md). There is no "BrushAnimation" animation type, so you cannot directly target an animation for [Background](../windows.ui.xaml.controls/control_background.md) . But what you can do instead is reference a [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) subproperty that is named [Color](../windows.ui.xaml.media/solidcolorbrush_color.md), which takes type [Color](../windows.ui/color.md) and can thus be targeted by a [ColorAnimation](coloranimation.md). The string syntax for this is:
 
 ```xaml
 (Control.Background).(SolidColorBrush.Color)
@@ -58,7 +60,7 @@ Note that for subproperty values, there can be some value inference. For example
 (Control.Background).Color
 ```
 
-There is a lot more to property path specification than this. This remark is just intended to get you started with the basic targeting scenarios. For more info, see [Property-path syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/property-path-syntax) and [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations).
+There is a lot more to property path specification than this. This remark is just intended to get you started with the basic targeting scenarios. For more info, see [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax) and [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations).
 
 ### Migration notes
 
@@ -67,4 +69,4 @@ When you specify a path value for the *path* parameter, you specify the string, 
 ## -examples
 
 ## -see-also
-[Storyboard.TargetProperty attached property](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties), [GetTargetProperty](storyboard_gettargetproperty_92001546.md), [SetTargetName](storyboard_settargetname_235945962.md), [Property-path syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/property-path-syntax), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)
+[Storyboard.TargetProperty attached property](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties), [GetTargetProperty](storyboard_gettargetproperty_92001546.md), [SetTargetName](storyboard_settargetname_235945962.md), [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)

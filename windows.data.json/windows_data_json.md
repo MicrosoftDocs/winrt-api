@@ -21,4 +21,4 @@ System.Diagnostics.Debug.WriteLine(rootObject["myJsonProperty"]);
 
 ## -see-also
 
-[Using JavaScript Object Notation (JSON)](https://docs.microsoft.com/previous-versions/windows/apps/hh770289(v=win.10)), [JSON sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620556)
+[Using JavaScript Object Notation (JSON)](/previous-versions/windows/apps/hh770289(v=win.10)), [JSON sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Json)

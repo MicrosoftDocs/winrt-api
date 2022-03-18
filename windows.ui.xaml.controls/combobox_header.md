@@ -12,13 +12,12 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the control's header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.Header](/windows/winui/api/microsoft.ui.xaml.controls.combobox.header).
+
 ## -xaml-syntax
 ```xaml
 <ComboBox Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <ComboBox>
   <ComboBox.Header>headerObject</ComboBox.Header>
 </ComboBox>

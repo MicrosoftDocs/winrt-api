@@ -14,6 +14,8 @@ public float AlphaCutoff { get;  set; }
 
 Gets or sets the alpha cutoff for the material.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.AlphaCutoff](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.alphacutoff).
+
 ## -property-value
 
 The alpha cutoff for the material.

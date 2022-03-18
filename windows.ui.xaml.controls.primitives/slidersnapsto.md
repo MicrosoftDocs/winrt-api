@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.Primitives.SliderSnapsTo : int
 ## -description
 Defines constants that specify how a [Slider](../windows.ui.xaml.controls/slider.md) or related range control class conforms the indicator position to its steps or tick marks.
 
+Equivalent WinUI enum: [SliderSnapsTo](/windows/winui/api/microsoft.ui.xaml.controls.primitives.slidersnapsto).
+
 ## -xaml-syntax
 ```xaml
 <objectproperty="enumMemberName" />

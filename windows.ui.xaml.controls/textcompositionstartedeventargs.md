@@ -12,10 +12,12 @@ public class TextCompositionStartedEventArgs : Windows.UI.Xaml.Controls.ITextCom
 ## -description
 Provides event data for the [TextCompositionStarted](textbox_textcompositionstarted.md) event on [TextBox](textbox.md) and [RichEditBox](richeditbox.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TextCompositionStartedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.textcompositionstartedeventargs).
+
 ## -remarks
 For more info, see the [TextBox.TextCompositionStarted](textbox_textcompositionstarted.md) and [RichEditBox.TextCompositionStarted](richeditbox_textcompositionstarted.md) events.
 
 ## -examples
 
 ## -see-also
-[TextBox.TextCompositionStarted](textbox_textcompositionstarted.md), [RichEditBox.TextCompositionStarted](richeditbox_textcompositionstarted.md), [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10))
+[TextBox.TextCompositionStarted](textbox_textcompositionstarted.md), [RichEditBox.TextCompositionStarted](richeditbox_textcompositionstarted.md), [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10))

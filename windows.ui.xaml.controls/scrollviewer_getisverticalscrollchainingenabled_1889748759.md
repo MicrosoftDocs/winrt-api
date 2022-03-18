@@ -12,6 +12,8 @@ public bool GetIsVerticalScrollChainingEnabled(Windows.UI.Xaml.DependencyObject 
 ## -description
 Gets the value of the [IsVerticalScrollChainingEnabled](scrollviewer_isverticalscrollchainingenabled.md) dependency property / `ScrollViewer.IsVerticalScrollChainingEnabled` XAML attached property from a specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.GetIsVerticalScrollChainingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.getisverticalscrollchainingenabled).
+
 ## -parameters
 ### -param element
 The element from which the property value is read.

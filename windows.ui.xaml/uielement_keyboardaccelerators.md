@@ -11,17 +11,18 @@ public IVector<KeyboardAccelerator> KeyboardAccelerators { get; }
 
 ## -description
 
-Gets the collection of key combinations that invoke an action using the keyboard. 
+Gets the collection of key combinations that invoke an action using the keyboard.
 
 Accelerators are typically assigned to buttons or menu items.
 
-![Example of a menu showing keyboard accelerators for various menu items](images/keyboard-accelerators.png)
-
+![Example of a menu showing keyboard accelerators for various menu items](images/keyboard-accelerators.png)<br/>
 *Example of a menu showing keyboard accelerators for various menu items*
+
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.KeyboardAccelerators](/windows/winui/api/microsoft.ui.xaml.uielement.keyboardaccelerators).
 
 ## -property-value
 
-The collection of [**KeyboardAccelerator**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.input.keyboardaccelerator) objects. 
+The collection of [**KeyboardAccelerator**](/uwp/api/windows.ui.xaml.input.keyboardaccelerator) objects.
 
 ## -remarks
 
@@ -29,22 +30,22 @@ As keyboard accelerators are not typically described directly in the UI of your 
 
 Windows 10, version 1703, introduced keyboard accelerator shortcuts. However, these shortcuts were not displayed with the UI of their corresponding controls.
 
-Starting with Windows 10, version 1803, when KeyboardAccelerators are declared, controls present the corresponding key combinations by default in a tooltip (unless they are associated with [MenuFlyoutItem](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.MenuFlyoutItem) and [ToggleMenuFlyoutItem](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.togglemenuflyoutitem) objects).
+Starting with Windows 10, version 1803, when KeyboardAccelerators are declared, controls present the corresponding key combinations by default in a tooltip (unless they are associated with [MenuFlyoutItem](/uwp/api/Windows.UI.Xaml.Controls.MenuFlyoutItem) and [ToggleMenuFlyoutItem](/uwp/api/windows.ui.xaml.controls.togglemenuflyoutitem) objects).
 
 > [!NOTE]
 > Specifying a tooltip overrides this behavior.
 
-For [MenuFlyoutItem](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.appbarbutton) and [ToggleMenuFlyoutItem](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.togglemenuflyoutitem)) objects, the keyboard accelerator is displayed with the flyout text.
+For [MenuFlyoutItem](/uwp/api/windows.ui.xaml.controls.appbarbutton) and [ToggleMenuFlyoutItem](/uwp/api/windows.ui.xaml.controls.togglemenuflyoutitem)) objects, the keyboard accelerator is displayed with the flyout text.
 
 If a control has more than one accelerator defined, the first registered accelerator is presented.
 
-Depending on the control, you can override the default key combination string associated with a [keyboard accelerator using text override properties. See[MenuFlyoutItem.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/menuflyoutitem_keyboardacceleratortextoverride.md), [AppBarButton.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/appbarbutton_keyboardacceleratortextoverride.md), and [AppBarToggleButton.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/appbartogglebutton_keyboardacceleratortextoverride.md).
+Depending on the control, you can override the default key combination string associated with a keyboard accelerator using text override properties. See [MenuFlyoutItem.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/menuflyoutitem_keyboardacceleratortextoverride.md), [AppBarButton.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/appbarbutton_keyboardacceleratortextoverride.md), and [AppBarToggleButton.KeyboardAcceleratorTextOverride](../windows.ui.xaml.controls/appbartogglebutton_keyboardacceleratortextoverride.md).
 
 An accelerator key can be a single key, such as F1 - F12 and Esc, or a combination of keys (Ctrl + Shift + B, or Ctrl C) that invoke a command. They differ from access keys (mnemonics), which are typically modified with the Alt key and simply activate a command or control.
 
-An accelerator can be executed even if the element associated with the accelerator is not visible. For example, an item in the [**SecondaryCommands**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.commandbar.SecondaryCommands) collection of the [**CommandBar**](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.commandbar) can be invoked using an accelerator without expanding the overflow menu and displaying the element.
+An accelerator can be executed even if the element associated with the accelerator is not visible. For example, an item in the [CommandBar.SecondaryCommands](../windows.ui.xaml.controls/commandbar_secondarycommands.md) collection of the [CommandBar](../windows.ui.xaml.controls/commandbar.md) can be invoked using an accelerator without expanding the overflow menu and displaying the element.
 
-By default, an accelerator has global scope. However, you can constrain scope using [ScopeOwner](keyboardaccelerator_scopeowner.md) or disable an accelerator completely using [IsEnabled](keyboardaccelerator_isenabled.md).
+By default, an accelerator has global scope. However, you can constrain scope using [KeyboardAccelerator.ScopeOwner](../windows.ui.xaml.input/keyboardaccelerator_scopeowner.md) or disable an accelerator completely using [KeyboardAccelerator.IsEnabled](../windows.ui.xaml.input/keyboardaccelerator_isenabled.md).
 
 ## -examples
 
@@ -53,7 +54,7 @@ Here we specify keyboard accelerators for a set of buttons (we specify a tooltip
 ```xaml
 <StackPanel x:Name="Container" Grid.Row="0" Background="AliceBlue">
     <Button Content="Button1" Margin="20"
-            KeyboardAcceleratorPlacementMode="Auto" 
+            KeyboardAcceleratorPlacementMode="Auto"
             ToolTipService.ToolTip="Tooltip">
         <Button.KeyboardAccelerators>
             <KeyboardAccelerator  Key="A" Modifiers="Windows"/>
@@ -98,7 +99,7 @@ In this example, we specify keyboard accelerators for a set of MenuFlyoutItem an
 </AppBarButton>
 ```
 
-Control the presentation behavior by using the [KeyboardAcceleratorPlacementMode](https://docs.microsoft.com/uwp/api/windows.ui.xaml.uielement.KeyboardAcceleratorPlacementMode) property, which accepts two values: [Auto](https://docs.microsoft.com/uwp/api/windows.ui.xaml.input.keyboardacceleratorplacementmode) or [Hidden](https://docs.microsoft.com/uwp/api/windows.ui.xaml.input.keyboardacceleratorplacementmode).
+Control the presentation behavior by using the [KeyboardAcceleratorPlacementMode](/uwp/api/windows.ui.xaml.uielement.KeyboardAcceleratorPlacementMode) property, which accepts two values: [Auto](/uwp/api/windows.ui.xaml.input.keyboardacceleratorplacementmode) or [Hidden](/uwp/api/windows.ui.xaml.input.keyboardacceleratorplacementmode).
 
 ```xaml
 <Button Content="Save" Click="OnSave" KeyboardAcceleratorPlacementMode="Auto">
@@ -127,6 +128,4 @@ Here, we show how to use the KeyboardAcceleratorPlacementTarget property to disp
 
 ## -see-also
 
-[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
-
-
+[Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators)

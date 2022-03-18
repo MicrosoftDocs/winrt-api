@@ -19,9 +19,9 @@ This class provides access to the list of [AudioTrack](../windows.media.core/aud
 
 Note that this class does not represent a playlist of audio tracks that are played sequentially. To play a sequential list of tracks, use [MediaPlaybackList](mediaplaybacklist.md).
 
-For how-to guidance for working with the audio tracks of a media item, see [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
+For how-to guidance for working with the audio tracks of a media item, see [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ## -examples
 
 ## -see-also
-[IVectorView(AudioTrack)](../windows.foundation.collections/ivectorview_1.md), [IIterable(AudioTrack)](../windows.foundation.collections/iiterable_1.md), [ISingleSelectMediaTrackList](../windows.media.core/isingleselectmediatracklist.md), [AudioTrack](../windows.media.core/audiotrack.md), [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource)
+[IVectorView(AudioTrack)](../windows.foundation.collections/ivectorview_1.md), [IIterable(AudioTrack)](../windows.foundation.collections/iiterable_1.md), [ISingleSelectMediaTrackList](../windows.media.core/isingleselectmediatracklist.md), [AudioTrack](../windows.media.core/audiotrack.md), [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource)

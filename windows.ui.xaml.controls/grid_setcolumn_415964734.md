@@ -12,6 +12,8 @@ public void SetColumn(Windows.UI.Xaml.FrameworkElement element, System.Int32 val
 ## -description
 Sets the value of the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property on the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Grid.SetColumn](/windows/winui/api/microsoft.ui.xaml.controls.grid.setcolumn).
+
 ## -parameters
 ### -param element
 The target element on which to set the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property.

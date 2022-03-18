@@ -10,10 +10,10 @@ public bool SupportsServerSearch { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactList.SupportsServerSearch
 
 ## -description
-Gets or sets a Boolean value indicating if you can search the remote server with this [ContactList](contactlist.md).
+Gets or sets a Boolean value that indicates whether you can search the remote server with this [ContactList](contactlist.md).
 
 ## -property-value
-A Boolean value indicating if you can search the remote server with this [ContactList](contactlist.md).
+`true` if you can search the remote server with this [ContactList](contactlist.md); otherwise, `false`.
 
 ## -remarks
 

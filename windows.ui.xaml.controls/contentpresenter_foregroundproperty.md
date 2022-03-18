@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ForegroundProperty { get; }
 ## -description
 Identifies the [Foreground](contentpresenter_foreground.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.ForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.foregroundproperty).
+
 ## -property-value
 The identifier for the [Foreground](contentpresenter_foreground.md) dependency property.
 

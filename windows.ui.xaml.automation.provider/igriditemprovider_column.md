@@ -12,6 +12,8 @@ public int Column { get; }
 ## -description
 Gets the ordinal number of the column that contains the cell or item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IGridItemProvider.Column](/windows/winui/api/microsoft.ui.xaml.automation.provider.igriditemprovider.column).
+
 ## -property-value
 A zero-based ordinal number that identifies the column that contains the cell or item.
 

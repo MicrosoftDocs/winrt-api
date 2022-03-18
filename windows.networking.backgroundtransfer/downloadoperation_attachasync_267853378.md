@@ -22,7 +22,7 @@ Download operation with callback.
 
 Thrown when a feature-specific **HRESULT** is returned from a method call.
 
-This is the most common exception that is thrown by networking methods. An app should use the **HRESULT** from the exception to determine the cause of the error. For more information on specific errors, see the **Error Codes** section below.
+This is the most common exception that is thrown by networking methods. An app should use the **HRESULT** from the exception to determine the cause of the error.
 
 #### AccessDeniedException
 

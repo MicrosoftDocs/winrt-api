@@ -12,6 +12,8 @@ virtual protected void OnValueChanged(System.Double oldValue, System.Double newV
 ## -description
 Fires the [ValueChanged](rangebase_valuechanged.md) routed event.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.OnValueChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.onvaluechanged).
+
 ## -parameters
 ### -param oldValue
 Old value of the [Value](rangebase_value.md) property.

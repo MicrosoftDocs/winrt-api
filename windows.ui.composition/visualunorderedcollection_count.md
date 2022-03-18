@@ -12,6 +12,8 @@ public int Count { get; }
 ## -description
 The number of visuals in the collection.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.VisualUnorderedCollection.Count](/windows/winui/api/microsoft.ui.composition.visualunorderedcollection.count).
+
 ## -property-value
 The nubmer of visuals in the collection.
 

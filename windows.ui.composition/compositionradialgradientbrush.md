@@ -14,6 +14,8 @@ public class CompositionRadialGradientBrush : CompositionGradientBrush, Composit
 
 Represents a brush that paints an area with a radial gradient.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionRadialGradientBrush](/windows/winui/api/microsoft.ui.composition.compositionradialgradientbrush).
+
 ## -remarks
 
 This brush paints a [SpriteVisual](spritevisual.md) with a radial gradient. 
@@ -70,13 +72,13 @@ This example shows how to animate the color of the first gradient stop of a radi
 
 ```csharp
 private SpriteVisual GetRadialGradientVisualWithAnimation(Vector2 size,
-                                                          Vector2 gradientOrigin,
+                                                          Vector2 gradientOriginOffset,
                                                           Vector2 ellipseCenter,
                                                           Vector2 ellipseRadius)
 {
     // Create radial gradient brush.
     var gradientBrush = compositor.CreateRadialGradientBrush();
-    gradientBrush.GradientOrigin = gradientOrigin;
+    gradientBrush.GradientOriginOffset = gradientOriginOffset;
     gradientBrush.EllipseCenter = ellipseCenter;
     gradientBrush.EllipseRadius = ellipseRadius;
 

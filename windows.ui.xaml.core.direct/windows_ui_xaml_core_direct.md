@@ -48,7 +48,7 @@ In this example, we create a [Border](../windows.ui.xaml.controls/border.md) ele
 
 2. Using regular imperative code, with full XAML types:
 
-```C#
+```csharp
 Border border = new Border();
 border.BorderBrush = new SolidColorBrush(Colors.Black);
 border.BorderThickness = new Thickness(5);
@@ -68,30 +68,29 @@ RootGrid.Children.Add(border);
 
 The following code will have higher performance than using full XAML types since all operations like instantiation and setting of properties on various elements are accomplished through [IXamlDirectObjects](ixamldirectobject.md) instead of the full XAML types.
 
-```C#
+```csharp
+XamlDirect xamlDirect = XamlDirect.GetDefault();
+
 IXamlDirectObject border = XamlDirect.CreateInstance(XamlTypeIndex.Border);
-XamlDirect.SetThicknessProperty(border, XamlPropertyIndex.Border_BorderThickness, new Thickness(5));
+xamlDirect.SetThicknessProperty(border, XamlPropertyIndex.Border_BorderThickness, new Thickness(5));
 
 IXamlDirectObject borderBrush = XamlDirect.CreateInstance(XamlTypeIndex.SolidColorBrush);
-XamlDirect.SetColorProperty(borderBrush, XamlPropertyIndex.SolidColorBrush_Color, Colors.Black);
-XamlDirect.SetXamlDirectObjectProperty(border, XamlPropertyIndex.Border_BorderBrush, borderBrush);
+xamlDirect.SetColorProperty(borderBrush, XamlPropertyIndex.SolidColorBrush_Color, Colors.Black);
+xamlDirect.SetXamlDirectObjectProperty(border, XamlPropertyIndex.Border_BorderBrush, borderBrush);
 
 IXamlDirectObject rectangle = XamlDirect.CreateInstance(XamlTypeIndex.Rectangle);
-XamlDirect.SetDoubleProperty(rectangle, XamlPropertyIndex.FrameworkElement_Width, 100);
-XamlDirect.SetDoubleProperty(rectangle, XamlPropertyIndex.FrameworkElement_Height, 100);
+xamlDirect.SetDoubleProperty(rectangle, XamlPropertyIndex.FrameworkElement_Width, 100);
+xamlDirect.SetDoubleProperty(rectangle, XamlPropertyIndex.FrameworkElement_Height, 100);
 
 IXamlDirectObject rectBrush = XamlDirect.CreateInstance(XamlTypeIndex.SolidColorBrush);
-XamlDirect.SetColorProperty(rectBrush, XamlPropertyIndex.SolidColorBrush_Color, Colors.Red);
-XamlDirect.SetXamlDirectObjectProperty(rectangle, XamlPropertyIndex.Shape_Fill, rectangleBrush);
+xamlDirect.SetColorProperty(rectBrush, XamlPropertyIndex.SolidColorBrush_Color, Colors.Red);
+xamlDirect.SetXamlDirectObjectProperty(rectangle, XamlPropertyIndex.Shape_Fill, rectangleBrush);
 
-XamlDirect.SetXamlDirectObjectProperty(border, XamlPropertyIndex.Border_Child, rectangle);
+xamlDirect.SetXamlDirectObjectProperty(border, XamlPropertyIndex.Border_Child, rectangle);
 
 RootGrid.Children.Add((UIElement) XamlDirect.GetObject(border));
 ```
 
 ## -see-also
-* [XamlDirect](xamldirect.md)
-* [IXamlDirectObject](ixamldirectobject.md)
-* [XamlTypeIndex](xamltypeindex.md)
-* [XamlPropertyIndex](xamlpropertyindex.md)
-* [XamlEventIndex](xamleventindex.md)
+
+[XamlDirect](xamldirect.md), [IXamlDirectObject](ixamldirectobject.md), [XamlTypeIndex](xamltypeindex.md), [XamlPropertyIndex](xamlpropertyindex.md), [XamlEventIndex](xamleventindex.md)

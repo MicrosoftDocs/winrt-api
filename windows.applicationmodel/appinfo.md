@@ -15,9 +15,15 @@ Provides information about an application such as its name, logo, package inform
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | Current |
+| 2004 | 19041 | GetFromAppUserModelId |
+| 2004 | 19041 | GetFromAppUserModelIdForUser |
+| 2004 | 19041 | Package |
+
 ## -examples
 
 ## -see-also
-
-## -capabilities
-appDiagnostics

@@ -12,6 +12,8 @@ public bool IndexOf(Windows.UI.Xaml.Media.Brush value, System.UInt32 index)
 ## -description
 Retrieves the index of the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.BrushCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.brushcollection.indexof).
+
 ## -parameters
 ### -param value
 The value to find in the collection.

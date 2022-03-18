@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventHandl
 ## -description
 Occurs when the range value changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.ValueChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.valuechanged).
+
 ## -xaml-syntax
 ```xaml
 <rangeBase ValueChanged="eventhandler"/>

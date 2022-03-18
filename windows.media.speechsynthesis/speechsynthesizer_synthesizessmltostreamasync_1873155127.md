@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Media.SpeechSynthesis.SpeechSy
 
 ## -description
 
-Asynchronously generate and control speech output from a [Speech Synthesis Markup Language (SSML) Version 1.1](https://go.microsoft.com/fwlink/p/?LinkID=201763) string.
+Asynchronously generate and control speech output from a [Speech Synthesis Markup Language (SSML) Version 1.1](https://www.w3.org/TR/speech-synthesis/) string.
 
 ## -parameters
 
@@ -21,11 +21,11 @@ The SSML-modified text to speak.
 
 ## -returns
 
-A [SpeechSynthesisStream](speechsynthesisstream.md) that represents the speech generated from the [Speech Synthesis Markup Language (SSML) Version 1.1](https://go.microsoft.com/fwlink/p/?LinkID=201763).
+A [SpeechSynthesisStream](speechsynthesisstream.md) that represents the speech generated from the [Speech Synthesis Markup Language (SSML) Version 1.1](https://www.w3.org/TR/speech-synthesis/).
 
 ## -remarks
 
-Voice characteristics, pronunciation, volume, pitch, rate or speed, emphasis, and so on can be customized through [Speech Synthesis Markup Language (SSML) Version 1.1](https://go.microsoft.com/fwlink/p/?LinkID=201763).
+Voice characteristics, pronunciation, volume, pitch, rate or speed, emphasis, and so on can be customized through [Speech Synthesis Markup Language (SSML) Version 1.1](https://www.w3.org/TR/speech-synthesis/).
 
 To generate speech from plain text, see [SynthesizeTextToStreamAsync](speechsynthesizer_synthesizetexttostreamasync_2010301348.md).
 
@@ -33,4 +33,4 @@ To generate speech from plain text, see [SynthesizeTextToStreamAsync](speechsynt
 
 ## -see-also
 
-[Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Speech interactions](/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

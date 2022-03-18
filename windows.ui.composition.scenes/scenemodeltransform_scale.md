@@ -12,15 +12,16 @@ public Vector3 Scale { get;  set; }
 
 ## -description
 
-Gets or sets the relative size of the node on the x, y, and x axes.
+Gets or sets the relative size of the node on the x, y, and z axes.
+
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneModelTransform.Scale](/windows/winui/api/microsoft.ui.composition.scenes.scenemodeltransform.scale).
 
 ## -property-value
 
-A vector that describes the relative size of the node on the x, y, and x axes.
+A vector that describes the relative size of the node on the x, y, and z axes.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

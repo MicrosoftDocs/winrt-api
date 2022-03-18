@@ -12,13 +12,12 @@ public object Footer { get;  set; }
 ## -description
 Gets or sets the content for the list footer.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.Footer](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.footer).
+
 ## -xaml-syntax
 ```xaml
 <listViewBase Footer="footerString"/>
-
-```
-
-```xaml
+- or -
 <listViewBase>
   <listViewBase.Footer>
     footerObject

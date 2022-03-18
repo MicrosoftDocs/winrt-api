@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsTextPredictionEnabledProperty { get;
 ## -description
 Identifies the [IsTextPredictionEnabled](richeditbox_istextpredictionenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.IsTextPredictionEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.istextpredictionenabledproperty).
+
 ## -property-value
 The identifier for the [IsTextPredictionEnabled](richeditbox_istextpredictionenabled.md) dependency property.
 

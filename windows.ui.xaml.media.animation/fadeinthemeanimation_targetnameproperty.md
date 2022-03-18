@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TargetNameProperty { get; }
 ## -description
 Identifies the [TargetName](fadeinthemeanimation_targetname.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.FadeInThemeAnimation.TargetNameProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.fadeinthemeanimation.targetnameproperty).
+
 ## -property-value
 The identifier for the [TargetName](fadeinthemeanimation_targetname.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [TargetName](fadeinthemeanimation_targetname.md) dependen
 ## -examples
 
 ## -see-also
-[Animating fades](https://docs.microsoft.com/previous-versions/windows/apps/jj649429(v=win.10)), [Guidelines and checklist for fade animations](https://docs.microsoft.com/windows/uwp/style/motion-fade)
+[Animating fades](/previous-versions/windows/apps/jj649429(v=win.10)), [Guidelines and checklist for fade animations](/windows/uwp/style/motion-fade)

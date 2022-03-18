@@ -12,6 +12,8 @@ virtual protected Windows.UI.Xaml.Automation.Peers.AutomationOrientation GetOrie
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetOrientation](automationpeer_getorientation_419829207.md) or an equivalent Microsoft UI Automation client API.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetOrientationCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getorientationcore).
+
 ## -returns
 The orientation of the control.
 
@@ -21,4 +23,4 @@ The base [AutomationPeer](automationpeer.md) implementation returns **None**. Pe
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessibility)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Accessibility](/windows/uwp/accessibility/accessibility)

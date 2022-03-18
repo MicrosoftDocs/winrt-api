@@ -12,6 +12,8 @@ public void SetDesiredContainerUpdateDuration(Windows.Foundation.TimeSpan durati
 ## -description
 Sets the maximum target time between two render passes when a [ListViewBase](listviewbase.md) is updating its UI with data items during initial load or scrolling.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.SetDesiredContainerUpdateDuration](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.setdesiredcontainerupdateduration).
+
 ## -parameters
 ### -param duration
 The maximum target time between two render passes.

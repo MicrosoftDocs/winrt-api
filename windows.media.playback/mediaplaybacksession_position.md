@@ -16,7 +16,7 @@ Gets or sets the current playback position within the currently playing media.
 The current playback position within the currently playing media.
 
 ## -remarks
-Note that after you call [MediaPlayer.Pause](https://docs.microsoft.com/uwp/api/windows.media.playback.mediaplayer.Pause), the time represented by the **Position** property may not be precisely accurate. Apps that need a frame-accurate position value, such as media editors, should call [MediaPlayer.StepForwardOneFrame](https://docs.microsoft.com/uwp/api/windows.media.playback.mediaplayer.StepForwardOneFrame) immediately after calling **Pause** before reading the **Position** value.
+Note that after you call [MediaPlayer.Pause](/uwp/api/windows.media.playback.mediaplayer.Pause), the time represented by the **Position** property may not be precisely accurate. Apps that need a frame-accurate position value, such as media editors, should call [MediaPlayer.StepForwardOneFrame](/uwp/api/windows.media.playback.mediaplayer.StepForwardOneFrame) immediately after calling **Pause** before reading the **Position** value.
 
 ## -examples
 

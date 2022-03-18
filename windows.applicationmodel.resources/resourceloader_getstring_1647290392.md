@@ -15,6 +15,8 @@ Returns the most appropriate string value of a resource, specified by resource i
 
 <!--Writer todo: Link to how to create and identify resources.-->
 
+Equivalent WinUI method: [Microsoft.ApplicationModel.Resources.ResourceLoader.GetString](/windows/winui/api/microsoft.applicationmodel.resources.resourceloader.getstring).
+
 ## -parameters
 ### -param resource
 The resource identifier of the resource to be resolved.

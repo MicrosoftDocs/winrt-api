@@ -10,7 +10,7 @@ public Windows.Storage.Streams.IRandomAccessStreamReference SmimeData { get;  se
 # Windows.ApplicationModel.Email.EmailMessage.SmimeData
 
 ## -description
-Gets or sets the S/MIME data associated with an email message. For more information, see the [Certificate class](https://docs.microsoft.com/uwp/api/windows.security.cryptography.certificates.certificate).
+Gets or sets the S/MIME data associated with an email message. For more information, see the [Certificate class](/uwp/api/windows.security.cryptography.certificates.certificate).
 
 ## -property-value
 The MIME data associated with an email message.

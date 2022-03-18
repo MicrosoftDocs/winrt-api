@@ -15,7 +15,7 @@ Represents a media item that can be played back. This class acts as a wrapper ar
 ## -remarks
 A **MediaPlaybackItem** can be passed directly to a player such as [MediaPlayer](mediaplayer.md), [MediaElement](../windows.ui.xaml.controls/mediaelement.md) or [MediaPlayerElement](../windows.ui.xaml.controls/mediaplayerelement.md). Or, you can even pass the player a list of multiple media playback items using the [MediaPlaybackList](mediaplaybacklist.md) class.
 
-For how-to guidance for working with media items, see [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
+For how-to guidance for working with media items, see [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ### Version history
 
@@ -37,4 +37,4 @@ For how-to guidance for working with media items, see [Media items, playlists, a
 ## -examples
 
 ## -see-also
-[IMediaPlaybackSource](imediaplaybacksource.md), [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource)
+[IMediaPlaybackSource](imediaplaybacksource.md), [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource)

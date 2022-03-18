@@ -15,7 +15,7 @@ Creates a [WordsSegmenter](wordssegmenter.md) object. See the introduction in [W
 
 ## -parameters
 ### -param language
-A [BCP-47](https://go.microsoft.com/fwlink/p/?LinkId=227302) language tag.
+A [BCP-47](https://tools.ietf.org/html/bcp47) language tag.
 
 ## -remarks
 

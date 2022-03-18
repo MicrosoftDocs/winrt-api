@@ -12,6 +12,8 @@ public class RichEditBoxAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framew
 ## -description
 Exposes [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) types to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.RichEditBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.richeditboxautomationpeer).
+
 ## -remarks
 The Windows Runtime  [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) class creates a new RichEditBoxAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from RichEditBoxAutomationPeer if you are deriving a custom class from [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
@@ -19,12 +21,12 @@ The Windows Runtime  [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) c
 
 RichEditBoxAutomationPeer has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetPattern](automationpeer_getpattern_2046576749.md) reports pattern support for [TextPattern](https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern), but see "TextPattern support" in this topic for more info.
++ [GetPattern](automationpeer_getpattern_2046576749.md) reports pattern support for [TextPattern](/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern), but see "TextPattern support" in this topic for more info.
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "RichEditBox".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Edit](automationcontroltype.md).
 + [IsControlElement](automationpeer_iscontrolelement_1004644794.md) returns **true**.
 <!--not sure how this gets set cannot see in the partial cpp-->
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 ### TextPattern support
 
@@ -36,4 +38,4 @@ The peer also has other behaviors that are provided by the base [FrameworkElemen
 ## -examples
 
 ## -see-also
-[RichEditBox](../windows.ui.xaml.controls/richeditbox.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[RichEditBox](../windows.ui.xaml.controls/richeditbox.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

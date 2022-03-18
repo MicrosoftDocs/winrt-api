@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Projection Projection { get;  set; }
 ## -description
 Gets or sets the perspective projection (3-D effect) to apply when rendering this element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Projection](/windows/winui/api/microsoft.ui.xaml.uielement.projection).
+
 ## -xaml-syntax
 ```xaml
 <uiElement>
@@ -42,4 +44,4 @@ This example shows how to apply a basic [PlaneProjection](../windows.ui.xaml.med
 [!code-xaml[BasicPerspectiveTransforms](../windows.ui.xaml/code/BasicPerspectiveTransforms/csharp/MainPage.xaml#SnippetBasicPerspectiveTransforms)]
 
 ## -see-also
-[Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D effects for  using XAML](https://docs.microsoft.com/previous-versions/windows/apps/hh700359(v=win.10)), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580)
+[Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D effects for  using XAML](/previous-versions/windows/apps/hh700359(v=win.10)), [XAML two-dimensional transforms sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20two-dimensional%20transforms%20sample)

@@ -13,9 +13,9 @@ These APIs are available in the Mobile Extension SDK.
 
 ## -remarks
 
-In order to use this API, you need to first configure roles that are deployed using the [EnterpriseAssignedAccess CSP](https://docs.microsoft.com/windows/client-management/mdm/enterpriseassignedaccess-csp).
+In order to use this API, you need to first configure roles that are deployed using the [EnterpriseAssignedAccess CSP](/windows/client-management/mdm/enterpriseassignedaccess-csp).
 
-The device lockdown APIs in Windows.Embedded.DeviceLockdown require the **enterpriseDeviceLockdown** capability, which allows you to use a standard enterprise certificate. This capability is not available to standard 3rd party developers where the certificate is provided through Visual Studio. At this time, you must manually include this capability in your manifest file. For instructions about how to manually update your manifest file and more details about device capabilities, see [app capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
+The device lockdown APIs in Windows.Embedded.DeviceLockdown require the **enterpriseDeviceLockdown** capability, which allows you to use a standard enterprise certificate. This capability is not available to standard 3rd party developers where the certificate is provided through Visual Studio. At this time, you must manually include this capability in your manifest file. For instructions about how to manually update your manifest file and more details about device capabilities, see [app capability declarations](/windows/uwp/packaging/app-capability-declarations).
 
 ## -examples
 

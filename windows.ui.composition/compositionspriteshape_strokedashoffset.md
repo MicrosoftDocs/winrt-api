@@ -13,6 +13,8 @@ public float StrokeDashOffset { get;  set; }
 
 Gets or sets a value that specifies the distance within the dash pattern where a dash begins.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSpriteShape.StrokeDashOffset](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.strokedashoffset).
+
 ## -property-value
 
 A value that represents the distance within the dash pattern where a dash begins. The default is 0.

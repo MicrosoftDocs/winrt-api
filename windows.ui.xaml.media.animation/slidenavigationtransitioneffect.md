@@ -13,6 +13,8 @@ public enum SlideNavigationTransitionEffect : int
 ## -description
 Defines constants that describe the type of animation to play during a slide transition.
 
+Equivalent WinUI enum: [Microsoft.UI.Xaml.Media.Animation.SlideNavigationTransitionEffect](/windows/winui/api/microsoft.ui.xaml.media.animation.slidenavigationtransitioneffect).
+
 ## -enum-fields
 ### -field FromRight:2
 The exiting page leaves to the left of the panel and the entering page enters from the right.

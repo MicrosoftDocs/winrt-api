@@ -10,7 +10,7 @@ public Windows.Management.Deployment.PackageInstallState InstallState { get; }
 # Windows.Management.Deployment.PackageUserInformation.InstallState
 
 ## -description
-Gets the install state of the package for the user.
+Gets the install state of the [Package](/uwp/api/windows.applicationmodel.package) for the user.
 
 ## -property-value
 One of the enumeration values.
@@ -20,3 +20,5 @@ One of the enumeration values.
 ## -examples
 
 ## -see-also
+
+[Package](/uwp/api/windows.applicationmodel.package)

@@ -14,7 +14,7 @@ Creates a new volume. The caller must be a member of the administrators group.
 
 ## -parameters
 ### -param packageStorePath
-The absolute path of the package store.
+The absolute path of the [Package](/uwp/api/windows.applicationmodel.package) store.
 
 ## -returns
 An object that the caller can observe to track progress and completion for the call. The object implements the **IAsyncOperation** interface and returns the newly added [PackageVolume](packagevolume.md).
@@ -25,6 +25,7 @@ An object that the caller can observe to track progress and completion for the c
 
 ## -see-also
 
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

@@ -30,7 +30,7 @@ Windows.Storage.PathIO.readTextAsync(absoluteFilePath).then(function (contents) 
 });
 ```
 
-You can use [then](https://docs.microsoft.com/previous-versions/windows/apps/br229728(v=win.10)) or [done](https://docs.microsoft.com/previous-versions/windows/apps/hh701079(v=win.10)) to declare a function to capture and process the text that was read from the file. After the readTextAsync method completes, the text will be passed to this function as a [string](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) object (`contents` in the example).
+You can use [then](/previous-versions/windows/apps/br229728(v=win.10)) or [done](/previous-versions/windows/apps/hh701079(v=win.10)) to declare a function to capture and process the text that was read from the file. After the readTextAsync method completes, the text will be passed to this function as a [string](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) object (`contents` in the example).
 
 ## -see-also
 [ReadTextAsync(String, UnicodeEncoding)](pathio_readtextasync_829418789.md)

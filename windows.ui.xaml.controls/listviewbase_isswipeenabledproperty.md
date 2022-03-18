@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsSwipeEnabledProperty { get; }
 ## -description
 Identifies the [IsSwipeEnabled](listviewbase_isswipeenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.IsSwipeEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.isswipeenabledproperty).
+
 ## -property-value
 The identifier for the [IsSwipeEnabled](listviewbase_isswipeenabled.md) dependency property.
 

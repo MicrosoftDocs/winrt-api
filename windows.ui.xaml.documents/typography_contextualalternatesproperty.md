@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ContextualAlternatesProperty { get; }
 ## -description
 Identifies the [ContextualAlternates](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.ContextualAlternatesProperty](/windows/winui/api/microsoft.ui.xaml.documents.typography.contextualalternatesproperty).
+
 ## -property-value
 The identifier for the [ContextualAlternates](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 

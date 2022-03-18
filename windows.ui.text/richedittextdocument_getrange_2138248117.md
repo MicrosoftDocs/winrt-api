@@ -12,6 +12,8 @@ public ITextRange RichEditTextDocument.GetRange(Int32 startPosition, Int32 endPo
 ## -description
 Retrieves a new text range for the active story of the document.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.GetRange](/windows/winui/api/microsoft.ui.text.richedittextdocument.getrange).
+
 ## -parameters
 
 ### -param startPosition

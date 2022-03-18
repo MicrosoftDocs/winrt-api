@@ -23,7 +23,7 @@ An asynchronous upload operation that includes progress updates.
 
 Thrown when a feature-specific **HRESULT** is returned from a method call.
 
-This is the most common exception that is thrown by networking methods. An app should use the **HRESULT** from the exception to determine the cause of the error. For more information on specific errors, see the **Error Codes** section below.
+This is the most common exception that is thrown by networking methods. An app should use the **HRESULT** from the exception to determine the cause of the error.
 
 #### AccessDeniedException
 
@@ -58,4 +58,4 @@ operation = await Task.Run(() => { return myUploadOperation.StartAsync(); });
 ## -examples
 
 ## -see-also
-[BackgroundTransferError.GetStatus](backgroundtransfererror_getstatus_1856274933.md), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [WebErrorStatus](../windows.web/weberrorstatus.md)
+[BackgroundTransferError.GetStatus](backgroundtransfererror_getstatus_1856274933.md), [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)), [WebErrorStatus](../windows.web/weberrorstatus.md)

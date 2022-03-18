@@ -12,6 +12,8 @@ public PropertyMetadata(System.Object defaultValue, Windows.UI.Xaml.PropertyChan
 ## -description
 Initializes a new instance of the [PropertyMetadata](propertymetadata.md) class, using a property default value and callback reference.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.PropertyMetadata.PropertyMetadata](/windows/winui/api/microsoft.ui.xaml.propertymetadata.#ctor).
+
 ## -parameters
 ### -param defaultValue
 A default value for the property where this [PropertyMetadata](propertymetadata.md) is applied.
@@ -25,7 +27,7 @@ If you want to establish a [PropertyMetadata](propertymetadata.md) instance that
 If you pass a value for *defaultValue*, make sure that the type of that value is valid for the *propertyType* type from the dependency property's definition through the [Register](dependencyproperty_register_1826645607.md) call. If you've created a type mismatch between registration parameter and metadata, the issue only manifests itself indirectly. You'll get runtime errors when you try to instantiate a type that has this dependency property value, you won't get any design-time or compile-time warning or error.
 
 ## -examples
-This example shows usage of this constructor. `OnLabelChanged` refers to a delegate implementation for a [PropertyChangedCallback](propertychangedcallback.md) (not shown). To see more code that puts this example in context, see [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties).
+This example shows usage of this constructor. `OnLabelChanged` refers to a delegate implementation for a [PropertyChangedCallback](propertychangedcallback.md) (not shown). To see more code that puts this example in context, see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 
 ```csharp
 public static readonly DependencyProperty LabelProperty = DependencyProperty.Register(
@@ -36,7 +38,7 @@ public static readonly DependencyProperty LabelProperty = DependencyProperty.Reg
 );
 ```
 
-```vbnet
+```vb
 Public Shared ReadOnly LabelProperty As DependencyProperty = _
     DependencyProperty.Register("Label", _
       GetType(String), GetType(ImageWithLabelControl), _
@@ -56,4 +58,4 @@ DependencyProperty^ ImageWithLabelControl::_LabelProperty =
 
 
 ## -see-also
-[PropertyMetadata(Object)](propertymetadata_propertymetadata_365528641.md), [DependencyProperty.Register](dependencyproperty_register_1826645607.md), [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties)
+[PropertyMetadata(Object)](propertymetadata_propertymetadata_365528641.md), [DependencyProperty.Register](dependencyproperty_register_1826645607.md), [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties)

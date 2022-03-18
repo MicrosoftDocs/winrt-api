@@ -12,6 +12,8 @@ protected GradientBrush()
 ## -description
 Provides base class initialization behavior for [GradientBrush](gradientbrush.md)-derived classes.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.GradientBrush.GradientBrush](/windows/winui/api/microsoft.ui.xaml.media.gradientbrush.#ctor).
+
 ## -remarks
 
 ## -examples

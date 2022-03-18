@@ -12,6 +12,8 @@ public Windows.Foundation.Numerics.Vector2 Offset { get;  set; }
 ## -description
 The offset of the clip relative to the visual on which the clip is applied.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionClip.Offset](/windows/winui/api/microsoft.ui.composition.compositionclip.offset).
+
 ## -property-value
 The offset of the clip relative to the visual on which the clip is applied. By default, the Offset value on a clip is (0, 0).
 

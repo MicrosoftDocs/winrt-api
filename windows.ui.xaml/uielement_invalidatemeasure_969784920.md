@@ -12,6 +12,8 @@ public void InvalidateMeasure()
 ## -description
 Invalidates the measurement state (layout) for a [UIElement](uielement.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.InvalidateMeasure](/windows/winui/api/microsoft.ui.xaml.uielement.invalidatemeasure).
+
 ## -remarks
 [UpdateLayout](uielement_updatelayout_1243658106.md) is basically equivalent to calling InvalidateMeasure and [InvalidateArrange](uielement_invalidatearrange_2012947484.md) in sequence.
 
@@ -20,4 +22,4 @@ Layout updates can be forced by app code rather than relying on the built-in lay
 ## -examples
 
 ## -see-also
-[Measure](uielement_measure_1722732750.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Measure](uielement_measure_1722732750.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

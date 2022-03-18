@@ -10,6 +10,8 @@ public delegate void GetPreviewPageEventHandler(System.Object sender, Windows.UI
 ## -description
 Represents the method that will handle the [GetPreviewPage](printdocument_getpreviewpage.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Printing.GetPreviewPageEventHandler](/windows/winui/api/microsoft.ui.xaml.printing.getpreviewpageeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the handler is attached.

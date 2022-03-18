@@ -50,7 +50,7 @@ public partial class App
 }
 ```
 
-```vbnet
+```vb
 Private Sub OnFileActivated(ByVal args As Windows.ApplicationModel.Activation.IActivatedEventArgs)
    If args.Kind = ActivationKind.Protocol Then
       ProtocolActivatedEventArgs eventArgs = args As ProtocolActivatedEventArgs
@@ -74,7 +74,7 @@ void App::OnActivated(Windows::ApplicationModel::Activation::IActivatedEventArgs
 }
 ```
 
-```cpp
+```cppcx
 void App::OnActivated(Windows::ApplicationModel::Activation::IActivatedEventArgs^ args)
 {
    if (args->Kind == Windows::ApplicationModel::Activation::ActivationKind::Protocol)
@@ -90,4 +90,4 @@ void App::OnActivated(Windows::ApplicationModel::Activation::IActivatedEventArgs
 
 ## -see-also
 
-[Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Handling Contact Actions sample](https://go.microsoft.com/fwlink/p/?LinkID=320151), [Handle URI activation](https://docs.microsoft.com/windows/uwp/launch-resume/handle-uri-activation), [Quickstart: Handling contact actions ](https://docs.microsoft.com/previous-versions/windows/apps/dn518236(v=win.10)), [Quickstart: Handling contact actions ](https://docs.microsoft.com/previous-versions/windows/apps/dn518338(v=win.10)), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Windows.UI.Xaml.Application.OnActivated](../windows.ui.xaml/application_onactivated_603737819.md), [URI](../windows.foundation/uri.md), [Association launching sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620490)
+[Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [Handling Contact Actions sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Handling%20Contact%20Actions), [Handle URI activation](/windows/uwp/launch-resume/handle-uri-activation), [Quickstart: Handling contact actions ](/previous-versions/windows/apps/dn518236(v=win.10)), [Guidelines for file types and URIs](/windows/uwp/files/index), [Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [Windows.UI.Xaml.Application.OnActivated](../windows.ui.xaml/application_onactivated_603737819.md), [URI](../windows.foundation/uri.md), [Association launching sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620490)

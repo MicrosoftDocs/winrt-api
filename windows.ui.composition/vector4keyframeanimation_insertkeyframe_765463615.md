@@ -12,6 +12,8 @@ public void InsertKeyFrame(System.Single normalizedProgressKey, Windows.Foundati
 ## -description
 Inserts a key frame with the specified easing function.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Vector4KeyFrameAnimation.InsertKeyFrame](/windows/winui/api/microsoft.ui.composition.vector4keyframeanimation.insertkeyframe).
+
 ## -parameters
 ### -param normalizedProgressKey
 The time the key frame should occur at, expressed as a percentage of the animation [Duration](keyframeanimation_duration.md). Allowed value is from 0.0 to 1.0.

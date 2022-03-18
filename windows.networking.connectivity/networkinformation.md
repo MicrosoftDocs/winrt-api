@@ -16,10 +16,10 @@ Provides access to network connection information for the local machine.
 
 ## -remarks
 
-For examples of how NetworkInformation class methods are implemented, see [Quickstart: Retrieving network connection information](https://docs.microsoft.com/previous-versions/windows/apps/hh452990(v=win.10)).
+For examples of how NetworkInformation class methods are implemented, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
 
 ## -examples
 
 ## -see-also
 
-[RSS reader end-to-end (JavaScript) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620542)
+[RSS reader end-to-end (JavaScript) sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FeedReader)

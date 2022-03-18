@@ -12,6 +12,8 @@ public void SetAlignTopWith(Windows.UI.Xaml.UIElement element, System.Object val
 ## -description
 Sets the value of the [RelativePanel.AlignTopWith](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property for a target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.SetAlignTopWith](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setaligntopwith).
+
 ## -parameters
 ### -param element
 The object to which the property value is written.

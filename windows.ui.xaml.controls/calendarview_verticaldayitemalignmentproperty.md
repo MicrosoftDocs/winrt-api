@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty VerticalDayItemAlignmentProperty { get
 ## -description
 Identifies the [VerticalDayItemAlignment](calendarview_verticaldayitemalignment.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.VerticalDayItemAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.verticaldayitemalignmentproperty).
+
 ## -property-value
 The identifier for the [VerticalDayItemAlignment](calendarview_verticaldayitemalignment.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [VerticalDayItemAlignment](calendarview_verticaldayitemal
 ## -examples
 
 ## -see-also
-[VerticalDayItemAlignment](calendarview_verticaldayitemalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[VerticalDayItemAlignment](calendarview_verticaldayitemalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

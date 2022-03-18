@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Input.InputScopeNameValue NameValue { get;  set; }
 ## -description
 Gets or sets the specific input scope name value for this [InputScopeName](inputscopename.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.InputScopeName.NameValue](/windows/winui/api/microsoft.ui.xaml.input.inputscopename.namevalue).
+
 ## -property-value
 A value of the enumeration.
 
@@ -20,4 +22,4 @@ A value of the enumeration.
 ## -examples
 
 ## -see-also
-[Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

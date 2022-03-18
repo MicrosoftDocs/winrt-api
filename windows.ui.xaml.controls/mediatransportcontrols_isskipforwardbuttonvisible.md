@@ -12,6 +12,8 @@ public bool IsSkipForwardButtonVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the skip forward button is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsSkipForwardButtonVisible](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isskipforwardbuttonvisible).
+
 ## -xaml-syntax
 ```xaml
 

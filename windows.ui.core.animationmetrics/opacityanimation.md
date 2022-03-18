@@ -50,27 +50,5 @@ foreach (var animation in animationDescription.Animations)
 }
 ```
 
-```javascript
-var animationDescription = new Windows.UI.Core.AnimationMetrics.AnimationDescription(effect, target);
-
-var animations = animationDescription.animations;
-for (var i = 0; i < animations.size; i++) {
-    var animation = animations[i];
-
-    switch (animation.type) {
-        case animationMetrics.PropertyAnimationType.scale:
-            // Retrieve scale animation metrics
-            break;
-        case animationMetrics.PropertyAnimationType.translation:
-            // Retrieve translation animation metrics
-            break;
-        case animationMetrics.PropertyAnimationType.opacity:
-            
-            // Retrieve scale animation metrics
-            break;
-    }
-}
-```
-
 ## -see-also
-[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462), [AnimationDescription](animationdescription.md)
+[Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics), [AnimationDescription](animationdescription.md)

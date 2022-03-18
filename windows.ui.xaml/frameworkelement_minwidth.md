@@ -12,6 +12,8 @@ public double MinWidth { get;  set; }
 ## -description
 Gets or sets the minimum width constraint of a [FrameworkElement](frameworkelement.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.MinWidth](/windows/winui/api/microsoft.ui.xaml.frameworkelement.minwidth).
+
 ## -xaml-syntax
 ```xaml
 <frameworkElement MinWidth="double"/>
@@ -19,7 +21,7 @@ Gets or sets the minimum width constraint of a [FrameworkElement](frameworkeleme
 
 
 ## -property-value
-The minimum width of the object, in pixels. The default is 0. This value can be any value equal to or greater than 0. However, [PositiveInfinity](https://docs.microsoft.com/dotnet/api/system.double.positiveinfinity?redirectedfrom=MSDN) is not valid.
+The minimum width of the object, in pixels. The default is 0. This value can be any value equal to or greater than 0. However, [PositiveInfinity](/dotnet/api/system.double.positiveinfinity?view=dotnet-uwp-10.0&preserve-view=true) is not valid.
 
 ## -remarks
 MinWidth is one of three writable properties on [FrameworkElement](frameworkelement.md) that specify width information. The other two are [MaxWidth](frameworkelement_maxwidth.md) and [Width](frameworkelement_width.md). If there is a conflict between these values, the order of application for actual width determination is that first MinWidth must be honored, then [MaxWidth](frameworkelement_maxwidth.md), and finally, if it is within bounds, [Width](frameworkelement_width.md). All of these properties are recommendations to the layout behavior of the element's parent in the object tree. The width of the object after layout runs is available as the [ActualWidth](frameworkelement_actualwidth.md) property value.
@@ -27,4 +29,4 @@ MinWidth is one of three writable properties on [FrameworkElement](frameworkelem
 ## -examples
 
 ## -see-also
-[MaxWidth](frameworkelement_maxwidth.md), [Width](frameworkelement_width.md), [HorizontalAlignment](frameworkelement_horizontalalignment.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[MaxWidth](frameworkelement_maxwidth.md), [Width](frameworkelement_width.md), [HorizontalAlignment](frameworkelement_horizontalalignment.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

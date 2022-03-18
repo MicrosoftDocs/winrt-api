@@ -18,7 +18,7 @@ Creates a new [TileFlyoutUpdater](tileflyoutupdater.md) object for one of an app
 The secondary tile's [ID](../windows.ui.startscreen/secondarytile_tileid.md), assigned to the secondary tile when it was created.
 
 ## -returns
-An object that you can use to send notification updates to the secondary tile's flyout, clear the flyout notification, and start and stop [periodic](https://docs.microsoft.com/previous-versions/windows/apps/jj150587(v=win.10)) flyout notifications.
+An object that you can use to send notification updates to the secondary tile's flyout, clear the flyout notification, and start and stop [periodic](/previous-versions/windows/apps/jj150587(v=win.10)) flyout notifications.
 
 ## -remarks
 

@@ -10,12 +10,14 @@ public System.Guid Id { get; }
 # Windows.ApplicationModel.Calls.PhoneLine.Id
 
 ## -description
-Gets the ID of the phone line. The ID is persistent across devices and reboots.
+Gets the ID of the phone line.
 
 ## -property-value
 The ID of the phone line.
 
 ## -remarks
+For cellular lines, the ID is persistent across devices and reboots.
+For VoIP and Bluetooth Hands-Free lines, the ID is not persistent across devices and reboots.
 
 ## -examples
 

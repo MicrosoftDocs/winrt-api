@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IIterable<Windows.ApplicationModel.Package
 # Windows.Management.Deployment.PackageManager.FindPackagesForUserWithPackageTypes
 
 ## -description
-Retrieves information about packages of specific types with the specified package name and publisher name, installed for a specific user.
+Retrieves information about [Packages](/uwp/api/windows.applicationmodel.package) of specific types with the specified package name and publisher name, installed for a specific user.
 
 ## -parameters
 ### -param userSecurityId
@@ -33,7 +33,8 @@ If the method succeeds, an enumerable collection of package objects is returned.
 ## -examples
 
 ## -see-also
-[FindPackagesForUserWithPackageTypes(String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1422527170.md), [FindPackagesForUserWithPackageTypes(String, String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1110730286.md)
+
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackagesForUserWithPackageTypes(String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1422527170.md), [FindPackagesForUserWithPackageTypes(String, String, PackageTypes)](packagemanager_findpackagesforuserwithpackagetypes_1110730286.md)
 
 ## -capabilities
 packageQuery

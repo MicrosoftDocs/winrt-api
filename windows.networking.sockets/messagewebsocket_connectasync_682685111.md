@@ -27,4 +27,4 @@ For WebSocket connections over TCP, use the **ws://** scheme in the *uri*. For s
 ## -examples
 
 ## -see-also
-[Uri](../windows.foundation/uri.md), [How to secure WebSocket connections with TLS/SSL](https://docs.microsoft.com/previous-versions/windows/apps/hh761446(v=win.10))
+[Uri](../windows.foundation/uri.md), [How to secure WebSocket connections with TLS/SSL](/previous-versions/windows/apps/hh761446(v=win.10))

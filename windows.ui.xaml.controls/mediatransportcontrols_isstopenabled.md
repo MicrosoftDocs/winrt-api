@@ -12,6 +12,8 @@ public bool IsStopEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether a user can stop the media playback.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsStopEnabled](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isstopenabled).
+
 ## -xaml-syntax
 ```xaml
 

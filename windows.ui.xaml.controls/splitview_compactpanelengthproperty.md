@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CompactPaneLengthProperty { get; }
 ## -description
 Identifies the [CompactPaneLength](splitview_compactpanelength.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.CompactPaneLengthProperty](/windows/winui/api/microsoft.ui.xaml.controls.splitview.compactpanelengthproperty).
+
 ## -property-value
 The identifier for the [CompactPaneLength](splitview_compactpanelength.md)  dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [CompactPaneLength](splitview_compactpanelength.md)  dep
 ## -examples
 
 ## -see-also
-[CompactPaneLength](splitview_compactpanelength.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CompactPaneLength](splitview_compactpanelength.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

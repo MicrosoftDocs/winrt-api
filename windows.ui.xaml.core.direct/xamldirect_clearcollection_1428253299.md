@@ -13,18 +13,20 @@ public void XamlDirect.ClearCollection(IXamlDirectObject xamlDirectObject)
 ## -description
 Removes all items from the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.ClearCollection](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.clearcollection).
+
 ## -parameters
 ### -param xamlDirectObject
 Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
 
 ## -see-also
-* [XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md)
-* [XamlDirect.RemoveFromCollection](xamldirect_removefromcollection_1992847812.md)
+
+[XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md), [XamlDirect.RemoveFromCollection](xamldirect_removefromcollection_1992847812.md)
 
 ## -examples
 The following example shows how to add to use the ClearCollection method to clear a collection pointed to by the specified [IXamlDirectObject](ixamldirectobject.md).
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 IXamlDirectObject relativePanel = xd.CreateInstance(XamlTypeIndex.RelativePanel);
@@ -37,7 +39,7 @@ xd.AddToCollection(childrenCollection, button);
 xd.ClearCollection(childrenCollection);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 IXamlDirectObject^ relativePanel = xd->CreateInstance(XamlTypeIndex::RelativePanel);

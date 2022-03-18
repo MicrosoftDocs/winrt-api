@@ -14,47 +14,43 @@ public enum SceneAttributeSemantic : int
 
 Defines constants that specify scene attribute semantics.
 
+Equivalent WinUI enum: [Microsoft.UI.Composition.Scenes.SceneAttributeSemantic](/windows/winui/api/microsoft.ui.composition.scenes.sceneattributesemantic).
+
 ## -enum-fields
-### -field Vertex:2
-
-### -field TexCoord1:5
-
-### -field TexCoord0:4
-
-### -field Tangent:7
-
-### -field Normal:3
-
-### -field None:0
-
-### -field Index:1
-
-### -field Color:6
 
 ### -field Color:5
 
+Color
 
 ### -field Index:0
 
+Index
 
 ### -field Normal:2
 
+Normal
 
 ### -field Tangent:6
 
+Tangent
 
 ### -field TexCoord0:3
 
+Texture Coordinate 0
 
 ### -field TexCoord1:4
 
+Texture Coordinate 1
 
 ### -field Vertex:1
 
+Vertex
 
 ## -remarks
 
 ## -see-also
+
+[SceneMesh.FillMeshAttribute](scenemesh_fillmeshattribute_1939909497.md), [SceneMeshMaterialAttributeMap.Insert](scenemeshmaterialattributemap_insert_771521042.md)
 
 ## -examples
 

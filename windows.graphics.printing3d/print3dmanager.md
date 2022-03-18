@@ -16,10 +16,10 @@ Creates the 3D printing experience.
 
 ## -remarks
 
-This API is designed for use with 3D Manufacturing Format (3MF) packages. For more info about 3MF, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
+This API is designed for use with 3D Manufacturing Format (3MF) packages. For more info about 3MF, see the [3MF Specification](https://3mf.io/specification/).
 
 ## -examples
 
 ## -see-also
 
-[3D Printing from Unity sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722936)
+[3D Printing from Unity sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/3DPrintingFromUnity)

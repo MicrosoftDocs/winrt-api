@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.StretchDirection StretchDirection { get;  set; }
 ## -description
 Gets or sets the [StretchDirection](stretchdirection.md), which determines how scaling is applied to the contents of a [Viewbox](viewbox.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Viewbox.StretchDirection](/windows/winui/api/microsoft.ui.xaml.controls.viewbox.stretchdirection).
+
 ## -xaml-syntax
 ```xaml
 <ViewBox StretchDirection="stretchDirectionMemberName" />

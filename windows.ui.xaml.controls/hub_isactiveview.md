@@ -12,6 +12,8 @@ public bool IsActiveView { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [Hub](hub.md) instance is the active view in its owning [SemanticZoom](semanticzoom.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.IsActiveView](/windows/winui/api/microsoft.ui.xaml.controls.hub.isactiveview).
+
 ## -property-value
 **true** if the [Hub](hub.md) is the active view; otherwise, **false**.
 

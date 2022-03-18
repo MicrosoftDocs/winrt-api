@@ -12,6 +12,8 @@ public object Source { get;  set; }
 ## -description
 Gets or sets the data source for the binding.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.Source](/windows/winui/api/microsoft.ui.xaml.data.binding.source).
+
 ## -xaml-syntax
 ```xaml
 <Binding Source="sourceReference"/>
@@ -34,7 +36,7 @@ The target can bind directly to the Source object if the path is empty or to a p
 You can't set the property values of a [Binding](binding.md) object after that binding has been attached to a target element and target property. If you attempt this you'll get a run-time exception.
 
 ## -examples
-The following code example demonstrates how to set this property in XAML. For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
+The following code example demonstrates how to set this property in XAML. For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind).
 
 ```xaml
 <StackPanel>
@@ -57,4 +59,4 @@ The following code example demonstrates how to set this property in XAML. For th
 For an example demonstrates how to set this property in code, see the [Binding](binding.md) class.
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler ContactRemoved<Windows.Applica
 # Windows.ApplicationModel.Contacts.Provider.ContactPickerUI.ContactRemoved
 
 ## -description
+
 Occurs when the user deselects or removes the contact.
 
 ## -remarks
@@ -17,29 +18,8 @@ Occurs when the user deselects or removes the contact.
 
 ## -examples
 
-
-```javascript
-
-var contactPickerUI = null;  
-
-function activatedHandler(ev) {  
-    if (ev.detail[0].kind == Windows.ApplicationModel.Activation.ActivationKind.contactPicker) {  
-        contactPickerUI = ev.detail[0].contactPickerUI;  
-        contactPickerUI.addEventListener("contactremoved", onContactRemoved);  
-    }  
-}
-
-function onContactRemoved(e) {
-    var contactId = e.id;
-
-    // TODO: Respond to removal of this contact.
-
-}
-```
-
-
-
 ## -see-also
 
 ## -capabilities
+
 contactsSystem

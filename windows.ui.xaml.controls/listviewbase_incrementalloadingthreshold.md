@@ -12,6 +12,8 @@ public double IncrementalLoadingThreshold { get;  set; }
 ## -description
 Gets or sets the threshold range that governs when the [ListViewBase](listviewbase.md) class will begin to prefetch more items.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.IncrementalLoadingThreshold](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.incrementalloadingthreshold).
+
 ## -xaml-syntax
 ```xaml
 <listViewBase IncrementalLoadingThreshold="double" />
@@ -29,4 +31,4 @@ IncrementalLoadingThreshold and [DataFetchSize](listviewbase_datafetchsize.md) b
 ## -examples
 
 ## -see-also
-[DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingTrigger](incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md), [Using virtualization with a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780657(v=win.10))
+[DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingTrigger](incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md), [Using virtualization with a list or grid](/previous-versions/windows/apps/hh780657(v=win.10))

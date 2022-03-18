@@ -12,13 +12,15 @@ public Windows.Storage.Streams.IBuffer PixelBuffer { get; }
 ## -description
 Gets an access for the direct buffer where each pixel of the [WriteableBitmap](writeablebitmap.md) is written to.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.WriteableBitmap.PixelBuffer](/windows/winui/api/microsoft.ui.xaml.media.imaging.writeablebitmap.pixelbuffer).
+
 ## -property-value
 A reference to the pixel buffer.
 
 ## -examples
 This code example uses the **PixelBuffer** property of [WriteableBitmap](writeablebitmap.md) to write to its pixel content.
 
-The C# example comes from a larger code sample&mdash;the SDK [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575). The C# code shown is part of a transcoding scenario that eventually uses the [WriteableBitmap](writeablebitmap.md) as an [Image.Source](../windows.ui.xaml.controls/image_source.md) value, and displays the image.
+The C# example comes from a larger code sample&mdash;the SDK [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample). The C# code shown is part of a transcoding scenario that eventually uses the [WriteableBitmap](writeablebitmap.md) as an [Image.Source](../windows.ui.xaml.controls/image_source.md) value, and displays the image.
 
 The examples in the other languages are a little more scoped and/or self-contained.
 
@@ -152,9 +154,9 @@ bufferByteAccess->Buffer(&pBuffer);
 ## -remarks
 The [IBuffer](/uwp/api/windows.storage.streams.ibuffer) returned by **PixelBuffer** can't be written to directly. But you can use language-specific techniques to write to the underlying pixel content in the buffer.
 
-- To access the pixel content from C# or Microsoft Visual Basic, you can use the [WindowsRuntimeBufferExtensions.AsStream method](/dotnet/api/system.runtime.interopservices.windowsruntime.windowsruntimebufferextensions.asstream?view=dotnet-uwp-10.0) to access the underlying buffer as a stream. This is shown in the C# code example.
+- To access the pixel content from C# or Microsoft Visual Basic, you can use the [WindowsRuntimeBufferExtensions.AsStream method](/dotnet/api/system.runtime.interopservices.windowsruntime.windowsruntimebufferextensions.asstream?view=dotnet-uwp-10.0&preserve-view=true) to access the underlying buffer as a stream. This is shown in the C# code example.
 - To access the pixel content from C++/WinRT, you have three alternatives. As long as you're not `using namespace winrt;`, then you can include the SDK header file `robuffer.h` to bring in the definition of the [IBufferByteAccess](/previous-versions/hh846267(v%3Dvs.85)) COM interface. However, since `using namespace winrt;` is very common, you can alternatively define the **IBufferByteAccess** interface in one place in your project (see the C++/WinRT code example to see how). Once **IBufferByteAccess** is defined, using either of those two techniques, you can query **PixelBuffer** for an instance of **IBufferByteAccess**. You then call the [IBufferByteAccess::Buffer method](/previous-versions/hh846268%28v%3dvs.85%29) to retrieve a pointer to the buffer of bytes that represents the pixel content. This is shown in the C++/WinRT code example. The third alternative (also shown in the C++/WinRT code example) is to avoid using **IBufferByteAccess** altogether by retrieving the `uint8_t*` that's returned from a helper function that you can call with `WriteableBitmap.PixelBuffer().data()`.
 - To access the pixel content from C++/CX, you can query **PixelBuffer** for the [IBufferByteAccess interface](/previous-versions/hh846267(v%3Dvs.85)), which is a COM interface. Include `robuffer.h`. You can then call the the [IBufferByteAccess::Buffer method](/previous-versions/hh846268%28v%3dvs.85%29) to retrieve a pointer to the buffer of bytes that represents the pixel content. This is shown in the C++/CX code example.
 
 ## -see-also
-[BitmapSource](bitmapsource.md), [BitmapDecoder](../windows.graphics.imaging/bitmapdecoder.md), [IBuffer](/uwp/api/windows.storage.streams.ibuffer), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575)
+[BitmapSource](bitmapsource.md), [BitmapDecoder](../windows.graphics.imaging/bitmapdecoder.md), [IBuffer](/uwp/api/windows.storage.streams.ibuffer), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample)

@@ -12,6 +12,8 @@ public double HorizontalChange { get; }
 ## -description
 Gets the horizontal distance between the current mouse position and the thumb coordinates.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.DragCompletedEventArgs.HorizontalChange](/windows/winui/api/microsoft.ui.xaml.controls.primitives.dragcompletedeventargs.horizontalchange).
+
 ## -property-value
 The horizontal distance between the current mouse position and the thumb coordinates.
 

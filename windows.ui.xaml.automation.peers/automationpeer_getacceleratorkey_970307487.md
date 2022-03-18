@@ -12,6 +12,8 @@ public string GetAcceleratorKey()
 ## -description
 Gets the accelerator key combinations for the object that is associated with the UI Automation peer.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetAcceleratorKey](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getacceleratorkey).
+
 ## -returns
 The accelerator key.
 

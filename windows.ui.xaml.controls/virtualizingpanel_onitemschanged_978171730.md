@@ -12,9 +12,11 @@ virtual protected void OnItemsChanged(System.Object sender, Windows.UI.Xaml.Cont
 ## -description
 Called when the [Items](itemscontrol_items.md) collection that is associated with the [ItemsControl](itemscontrol.md) for this [Panel](panel.md) changes.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VirtualizingPanel.OnItemsChanged](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingpanel.onitemschanged).
+
 ## -parameters
 ### -param sender
-The [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) that raised the event.
+The [Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true) that raised the event.
 
 ### -param args
 Provides data for the [ItemsChanged](itemcontainergenerator_itemschanged.md) event.

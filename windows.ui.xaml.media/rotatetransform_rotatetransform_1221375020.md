@@ -12,6 +12,8 @@ public RotateTransform()
 ## -description
 Initializes a new instance of the [RotateTransform](rotatetransform.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.RotateTransform.RotateTransform](/windows/winui/api/microsoft.ui.xaml.media.rotatetransform.#ctor).
+
 ## -remarks
 
 ## -examples

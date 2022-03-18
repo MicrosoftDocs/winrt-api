@@ -59,4 +59,4 @@ The second special button.
 
 ## -see-also
 
-* [Windows.Gaming.Input.ArcadeStick](arcadestick.md)
+[Windows.Gaming.Input.ArcadeStick](arcadestick.md)

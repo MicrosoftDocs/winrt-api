@@ -12,6 +12,8 @@ public object GetElementFromPoint(Windows.Foundation.Point pointInWindowCoordina
 ## -description
 Gets an element from the specified point.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetElementFromPoint](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getelementfrompoint).
+
 ## -parameters
 ### -param pointInWindowCoordinates
 The specified point.

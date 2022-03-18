@@ -13,6 +13,8 @@ public void XamlDirect.AddEventHandler(IXamlDirectObject xamlDirectObject, XamlE
 ## -description
 Adds the specified event handler for a specified event using [XamlEventIndex](xamleventindex.md), adding the handler to the handler collection on the current [IXamlDirectObject](ixamldirectobject.md). Specify *handledEventsToo* as true to have the provided handler be invoked even if the event is handled elsewhere.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.AddEventHandler](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.addeventhandler).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the current [IXamlDirectObject](ixamldirectobject.md).
@@ -35,15 +37,13 @@ AddEventHandler can only be used to add event handlers for the events supported 
 See [UIElement.AddHandler](../windows.ui.xaml/uielement_addhandler_2121467075.md) for when to use _handledEventsToo_ and the restrictions around the same. For non-routed events, the _handleEventsToo_ flag is completely ignored.
 
 ## -see-also
-* [XamlDirect.AddEventHandler](xamldirect_addeventhandler_950477410.md)
-* [XamlDirect.RemoveEventHandler](xamldirect_removeeventhandler_2027037099.md)
-* [UIElement.AddHandler](../windows.ui.xaml/uielement_addhandler_2121467075.md)
-* [UIElement.RemoveHandler](../windows.ui.xaml/uielement_removehandler_661998757.md)
+
+[XamlDirect.AddEventHandler](xamldirect_addeventhandler_950477410.md), [XamlDirect.RemoveEventHandler](xamldirect_removeeventhandler_2027037099.md), [UIElement.AddHandler](../windows.ui.xaml/uielement_addhandler_2121467075.md), [UIElement.RemoveHandler](../windows.ui.xaml/uielement_removehandler_661998757.md)
 
 ## -examples
 The following example shows how to add/modify the [PointerEntered](../windows.ui.xaml/uielement_pointerentered.md) event through a specific instance of [PointerEventHandler](../windows.ui.xaml.input/pointereventhandler.md) on a [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) control from its [IXamlDirectObject](ixamldirectobject.md) instance.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 IXamlDirectObject toggleSwitch = xd.CreateInstance(XamlTypeIndex.ToggleSwitch);
@@ -59,7 +59,7 @@ PointerEventHandler toggleSwitchPointerHandler = new PointerEventHandler((sender
 xd.AddEventHandler(toggleSwitch, XamlEventIndex.UIElement_PointerEntered, toggleSwitchPointerHandler, true);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 IXamlDirectObject^ toggleSwitch = xd->CreateInstance(XamlTypeIndex::ToggleSwitch);

@@ -10,7 +10,7 @@ public void AddStringArray(System.String name, System.String[] value)
 # Windows.Foundation.Diagnostics.LoggingFields.AddStringArray
 
 ## -description
-Adds a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) array field with the specified field name.
+Adds a [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) array field with the specified field name.
 
 ## -parameters
 ### -param name

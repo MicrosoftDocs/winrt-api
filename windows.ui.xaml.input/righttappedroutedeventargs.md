@@ -13,6 +13,8 @@ public class RightTappedRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windo
 
 Provides event data for the [RightTapped](../windows.ui.xaml/uielement_righttapped.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.RightTappedRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.righttappedroutedeventargs).
+
 ## -remarks
 
 A [RightTapped](../windows.ui.xaml/uielement_righttapped.md) event is sent whenever a mouse is right-clicked or a finger, pen, or similar pointer device completes a [Holding](../windows.ui.xaml/uielement_holding.md) event and is intended for handling secondary actions on an object.
@@ -21,7 +23,35 @@ A [RightTapped](../windows.ui.xaml/uielement_righttapped.md) event is sent whene
 
 The following snippets are from *Scenario 1 - Input events* of the [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/fe8567faf2efdea3672c2ba642ba7b925ff6467e/Samples/BasicInput).
 
-```cpp
+```cppwinrt
+Scenario1::Scenario1()
+{
+    InitializeComponent();
+
+    // pointer press/release handlers
+    pressedTarget.PointerPressed(this, &Scenario1::target_PointerPressed);
+    pressedTarget.PointerReleased(this, &Scenario1::target_PointerReleased);
+
+    // pointer enter/exit handlers
+    enterExitTarget.PointerEntered(this, &Scenario1::target_PointerEntered);
+    enterExitTarget.PointerExited(this, &Scenario1::target_PointerExited);
+
+    // gesture handlers
+    tapTarget.Tapped(this, &Scenario1::target_Tapped);
+    tapTarget.DoubleTapped(this, &Scenario1::target_DoubleTapped);
+
+    holdTarget.Holding(this, &Scenario1::target_Holding);
+    holdTarget.RightTapped(this, &Scenario1::target_RightTapped);
+}
+
+void Scenario1::target_RightTapped(Windows::Foundation::IInspectable const&, Windows::UI::Xaml::Input::RightTappedRoutedEventArgs const& args)
+{
+    holdTarget.Background(Windows::UI::Xaml::Media::SolidColorBrush(Windows::UI::Colors::RoyalBlue()));
+    holdTargetText.Text(L"Right-Tapped");
+}
+```
+
+```cppcx
 Scenario1::Scenario1()
 {
     InitializeComponent();

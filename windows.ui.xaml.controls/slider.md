@@ -12,6 +12,8 @@ public class Slider : Windows.UI.Xaml.Controls.Primitives.RangeBase, Windows.UI.
 ## -description
 Represents a control that lets the user select from a range of values by moving a [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) control along a track.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Slider](/windows/winui/api/microsoft.ui.xaml.controls.slider).
+
 ## -xaml-syntax
 ```xaml
 <Slider .../>
@@ -27,7 +29,7 @@ Slider is a control that lets the user select from a range of values by moving a
 
 <img alt="Slider control" src="images/controls/Slider.png" />
 
-Use a Slider control when you want your users to be able to set defined, contiguous values (such as volume or brightness) or a range of discrete values (such as screen resolution settings). Sliders are for user interaction. If a user can't ever change the value, use read-only text instead. For more information on when to use a Slider, see [Guidelines for sliders](https://docs.microsoft.com/windows/uwp/controls-and-patterns/slider).
+Use a Slider control when you want your users to be able to set defined, contiguous values (such as volume or brightness) or a range of discrete values (such as screen resolution settings). Sliders are for user interaction. If a user can't ever change the value, use read-only text instead. For more information on when to use a Slider, see [Guidelines for sliders](/windows/uwp/controls-and-patterns/slider).
 
 ### Binding Minimum and Maximum values
 
@@ -42,9 +44,9 @@ These behaviors can also occur if you set the [Minimum](../windows.ui.xaml.contr
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. To change certain aspects of the slider’s appearance, such as the [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) color, you need to retemplate the control (or use the resources in the table below on Windows 10, version 1607 or later). For information about modifying a control's style and template, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. To change certain aspects of the slider’s appearance, such as the [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) color, you need to retemplate the control (or use the resources in the table below on Windows 10, version 1607 or later). For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](/windows/uwp/controls-and-patterns/styling-controls) article.
 
 This table shows the resources used by the Slider control.
 
@@ -93,4 +95,4 @@ The following code example shows several slider controls and how to handle the [
 [!code-vb[11](../windows.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/vbnet/Page.xaml.vb#Snippet11)]
 
 ## -see-also
-[Sliders overview](https://docs.microsoft.com/windows/uwp/controls-and-patterns/slider), [Slider styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md), [ComboBox](combobox.md), [ListBox](listbox.md), [Controls list](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/), [Controls by function](https://docs.microsoft.com/windows/uwp/controls-and-patterns/controls-by-function)
+[Sliders overview](/windows/uwp/controls-and-patterns/slider), [Slider styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md), [ComboBox](combobox.md), [ListBox](listbox.md), [Controls list](/windows/uwp/design/controls-and-patterns/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)

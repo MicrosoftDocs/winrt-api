@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ZoomMode ZoomMode { get;  set; }
 ## -description
 Gets or sets a value that indicates whether zoom behavior in the [ScrollViewer](scrollviewer.md) content is enabled.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ZoomMode](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.zoommode).
+
 ## -xaml-syntax
 ```xaml
 <ScrollViewer ZoomMode="zoomModeMemberName" />

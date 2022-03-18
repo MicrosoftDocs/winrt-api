@@ -12,6 +12,8 @@ public LinearGradientBrush()
 ## -description
 Initializes a new instance of the [LinearGradientBrush](lineargradientbrush.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.LinearGradientBrush.LinearGradientBrush](/windows/winui/api/microsoft.ui.xaml.media.lineargradientbrush.#ctor).
+
 ## -remarks
 
 ## -examples

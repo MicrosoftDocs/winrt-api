@@ -20,7 +20,7 @@ Setting the Expires property to **null** makes this a Cookie that is only good f
 
 The default value for the Expires property is **null**.
 
-Javascript and .NET languages do not use [DateTime](../windows.foundation/datetime.md) directly. In Javascript a [DateTime](../windows.foundation/datetime.md) is projected as a **Date** object, and in .NET it is projected as a [System.DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN) structure. In C++, the **DateTime.UniversalTime** member has the same granularity as a  and supports the date ranges required by Javascript and .NET.
+Javascript and .NET languages do not use [DateTime](../windows.foundation/datetime.md) directly. In Javascript a [DateTime](../windows.foundation/datetime.md) is projected as a **Date** object, and in .NET it is projected as a [System.DateTimeOffset](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true) structure. In C++, the **DateTime.UniversalTime** member has the same granularity as a  and supports the date ranges required by Javascript and .NET.
 
 ## -examples
 

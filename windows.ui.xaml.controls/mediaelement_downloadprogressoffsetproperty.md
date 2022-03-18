@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DownloadProgressOffsetProperty { get; 
 ## -description
 Identifies the [DownloadProgressOffset](mediaelement_downloadprogressoffset.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.DownloadProgressOffsetProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.downloadprogressoffsetproperty).
+
 ## -property-value
 The identifier for the [DownloadProgressOffset](mediaelement_downloadprogressoffset.md) dependency property.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsOpenProperty { get; }
 ## -description
 Gets the identifier for the [IsOpen](popup_isopen.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Popup.IsOpenProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.isopenproperty).
+
 ## -property-value
 The identifier for the [IsOpen](popup_isopen.md) dependency property.
 

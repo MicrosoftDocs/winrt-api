@@ -12,8 +12,10 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IBuffer> GetPi
 ## -description
 Retrieves the previously rendered [RenderTargetBitmap](rendertargetbitmap.md) image as a buffered stream of bytes in **BGRA8** format.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap.GetPixelsAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap.getpixelsasync).
+
 ## -returns
-When this method returns, an [IBuffer](../windows.storage.streams/ibuffer.md) stream that contains bytes. This is the binary data for the image and can be converted to a byte array in **BGRA8** format
+An asynchronous operation object from which, on successful completion, you can retrieve an [IBuffer](../windows.storage.streams/ibuffer.md) stream that contains bytes. This is the binary data for the image and can be converted to a byte array in **BGRA8** format
 
 ## -remarks
 The [IBuffer](../windows.storage.streams/ibuffer.md) return value enables passing the result to a [WriteableBitmap](writeablebitmap.md) and its [PixelBuffer](writeablebitmap_pixelbuffer.md). Another alternative is passing the buffer to a [BitmapEncoder](../windows.graphics.imaging/bitmapencoder.md). If you want an array of bytes, use a [DataReader](../windows.storage.streams/datareader.md) and the [FromBuffer](../windows.storage.streams/datareader_frombuffer_328414308.md) method to help with the conversion.
@@ -25,4 +27,4 @@ Always call [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) before c
 ## -examples
 
 ## -see-also
-[BitmapEncoder](../windows.graphics.imaging/bitmapencoder.md), [DataTransferManager](../windows.applicationmodel.datatransfer/datatransfermanager.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153)
+[BitmapEncoder](../windows.graphics.imaging/bitmapencoder.md), [DataTransferManager](../windows.applicationmodel.datatransfer/datatransfermanager.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML render to bitmap sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20render%20to%20bitmap%20sample)

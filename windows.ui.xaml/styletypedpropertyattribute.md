@@ -12,9 +12,11 @@ public class StyleTypedPropertyAttribute : System.Attribute
 ## -description
 Represents an attribute that is applied to the class definition and determines the **TargetTypes** of the properties that are of type [Style](style.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.StyleTypedPropertyAttribute](/windows/winui/api/microsoft.ui.xaml.styletypedpropertyattribute).
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN)
+[Attribute](/dotnet/api/system.attribute?view=dotnet-uwp-10.0&preserve-view=true)

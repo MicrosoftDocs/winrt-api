@@ -13,7 +13,7 @@ public class MobileBroadbandPcoDataChangeTriggerDetails
 A class providing details about a Protocol Configuration Options (PCO) data change notification.
 
 ## -remarks
-When your background task is triggered by a PCO data change notification, it is passed an instance of this class in the [IBackgroundTaskInstance.TriggerDetails](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Background.IBackgroundTaskInstance.TriggerDetails) property.
+When your background task is triggered by a PCO data change notification, it is passed an instance of this class in the [IBackgroundTaskInstance.TriggerDetails](/uwp/api/Windows.ApplicationModel.Background.IBackgroundTaskInstance.TriggerDetails) property.
 
 ## -see-also
 

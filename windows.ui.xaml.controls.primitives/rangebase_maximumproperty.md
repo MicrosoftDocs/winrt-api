@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MaximumProperty { get; }
 ## -description
 Identifies the [Maximum](rangebase_maximum.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.MaximumProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.maximumproperty).
+
 ## -property-value
 The identifier for the [Maximum](rangebase_maximum.md) dependency property.
 

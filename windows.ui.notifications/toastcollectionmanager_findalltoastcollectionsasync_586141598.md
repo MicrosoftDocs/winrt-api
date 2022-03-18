@@ -9,12 +9,13 @@ public IAsyncOperation<ToastCollection>> ToastCollectionManager.FindAllToastColl
 
 # Windows.UI.Notifications.ToastCollectionManager.FindAllToastCollectionsAsync
 
-## -description
-Starts the retrieval of all toast notification groups created by this manager. 
 
-## -parameters
+## -description
+
+Starts the retrieval of all toast notification groups created by this manager.
 
 ## -returns
+
 An object that represents the asynchronous operation.
 
 ## -remarks

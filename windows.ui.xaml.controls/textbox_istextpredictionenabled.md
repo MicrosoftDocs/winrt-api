@@ -13,6 +13,8 @@ public bool IsTextPredictionEnabled { get;  set; }
 Gets or sets a value that determines whether text prediction features ("autocomplete") should be enabled for this [TextBox](textbox.md). 
 <!--TBW discuss how this interacts with client features rather than app features.-->
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.IsTextPredictionEnabled](/windows/winui/api/microsoft.ui.xaml.controls.textbox.istextpredictionenabled).
+
 ## -xaml-syntax
 ```xaml
 <TextBox IsTextPredictionEnabled="bool" />
@@ -32,4 +34,4 @@ This property doesn't affect Input Method Editor (IME) for Japanese or Chinese l
 ## -examples
 
 ## -see-also
-[Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)
+[Touch keyboard text input sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TouchKeyboardTextInput)

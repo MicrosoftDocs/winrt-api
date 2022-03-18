@@ -12,9 +12,11 @@ public PaneThemeTransition()
 ## -description
 Initializes a new instance of the [PaneThemeTransition](panethemetransition.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.PaneThemeTransition.PaneThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.panethemetransition.#ctor).
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Animating edge-based UI](https://docs.microsoft.com/previous-versions/windows/apps/jj649428(v=win.10)), [Guidelines and checklist for edge-based UI animations](https://docs.microsoft.com/windows/uwp/style/motion-edgebased)
+[Animating edge-based UI](/previous-versions/windows/apps/jj649428(v=win.10)), [Guidelines and checklist for edge-based UI animations](/windows/uwp/style/motion-edgebased)

@@ -28,4 +28,4 @@ Contains core methods for obtaining tokens from web account providers.
 ## -examples
 
 ## -see-also
-[Connect to identity providers with Web Account Manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager), [Web account management sample](https://go.microsoft.com/fwlink/p/?LinkId=620621)
+[Connect to identity providers with Web Account Manager](/windows/uwp/security/web-account-manager), [Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement)

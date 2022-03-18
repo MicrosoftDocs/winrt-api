@@ -21,4 +21,4 @@ The array that receives the byte values.
 ## -examples
 
 ## -see-also
-[Serializing and deserializing data sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620535)
+[Serializing and deserializing data sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DataReaderWriter)

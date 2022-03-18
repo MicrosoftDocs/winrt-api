@@ -12,13 +12,12 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the list header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.Header](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.header).
+
 ## -xaml-syntax
 ```xaml
 <listViewBase Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <listViewBase>
   <listViewBase.Header>
     headerObject

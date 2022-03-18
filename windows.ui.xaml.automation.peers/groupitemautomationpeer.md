@@ -12,6 +12,8 @@ public class GroupItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framewor
 ## -description
 Exposes a [GroupItem](../windows.ui.xaml.controls/groupitem.md) to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.GroupItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.groupitemautomationpeer).
+
 ## -remarks
 The Windows Runtime  [GroupItem](../windows.ui.xaml.controls/groupitem.md) class creates a new GroupItemAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from GroupItemAutomationPeer if you are deriving a custom class from [GroupItem](../windows.ui.xaml.controls/groupitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
@@ -23,10 +25,10 @@ GroupItemAutomationPeer has overrides of **Core** methods such that the associat
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "GroupItem".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Group](automationcontroltype.md).
 + [GetChildren](automationpeer_getchildren_555647254.md) has an implementation that walks children in the group and layout container and returns peers for those items.
-+ [GetName](automationpeer_getname_1386609741.md) returns a string value based on examining the current **Content**. This is implemented so that consumers of the control don't always need to provide an [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) value in app code, and can use a generated-from-content value for the automation **Name** directly from the UI definition. For more info on how this works, see [Basic accessibility information](https://docs.microsoft.com/windows/uwp/accessibility/basic-accessibility-information).
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
++ [GetName](automationpeer_getname_1386609741.md) returns a string value based on examining the current **Content**. This is implemented so that consumers of the control don't always need to provide an [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) value in app code, and can use a generated-from-content value for the automation **Name** directly from the UI definition. For more info on how this works, see [Basic accessibility information](/windows/uwp/accessibility/basic-accessibility-information).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 
 ## -see-also
-[GroupItem](../windows.ui.xaml.controls/groupitem.md), [GroupStyle](../windows.ui.xaml.controls/groupstyle.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[GroupItem](../windows.ui.xaml.controls/groupitem.md), [GroupStyle](../windows.ui.xaml.controls/groupstyle.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

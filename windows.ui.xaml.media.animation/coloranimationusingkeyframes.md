@@ -12,6 +12,8 @@ public class ColorAnimationUsingKeyFrames : Windows.UI.Xaml.Media.Animation.Time
 ## -description
 Animates the value of a [Color](../windows.ui/color.md) property along a set of key frames.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimationusingkeyframes).
+
 ## -xaml-syntax
 ```xaml
 <ColorAnimationUsingKeyFrames ...>
@@ -50,5 +52,5 @@ The following example uses the ColorAnimationUsingKeyFrames class to animate the
 [!code-vb[Coloranimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/vbnet/Page.xaml.vb#SnippetColoranimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)
+[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)
 p://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)

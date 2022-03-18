@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush BorderBrush { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that is applied to the edge area of the [Border](border.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Border.BorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.border.borderbrush).
+
 ## -xaml-syntax
 ```xaml
 <Border BorderBrush="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <Border BorderBrush="colorString"/>
-
-```
-
-```xaml
+- or -
 <Border>
   <Border.BorderBrush>singleBrush</Border.BorderBrush>
 </Border>
@@ -50,4 +46,4 @@ This example shows how to set the BorderBrush value to a solid color using an in
 [!code-xaml[BorderContainer](../windows.ui.xaml.controls/code/BorderSample2/csharp/Page.xaml#SnippetBorderContainer)]
 
 ## -see-also
-[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Use brushes](/windows/uwp/graphics/using-brushes)

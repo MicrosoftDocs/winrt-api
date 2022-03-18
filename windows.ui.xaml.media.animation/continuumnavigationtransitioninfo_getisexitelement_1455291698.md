@@ -12,6 +12,8 @@ public bool GetIsExitElement(Windows.UI.Xaml.UIElement element)
 ## -description
 Returns a Boolean value indicating if the specified **UIElement** is the exit element of the continuum navigation.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.GetIsExitElement](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.getisexitelement).
+
 ## -parameters
 ### -param element
 The **UIElement** to check as being the exit element.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AspectRatioWidthProperty { get; }
 ## -description
 Identifies the [AspectRatioWidth](mediaelement_aspectratiowidth.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.AspectRatioWidthProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.aspectratiowidthproperty).
+
 ## -property-value
 The identifier for the [AspectRatioWidth](mediaelement_aspectratiowidth.md) dependency property.
 

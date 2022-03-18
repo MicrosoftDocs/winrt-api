@@ -13,6 +13,8 @@ public struct GridLength
 
 Represents a measurement for control logic that explicitly supports **Star** (\*) sizing and **Auto** sizing.
 
+Equivalent WinUI struct: [GridLength](/windows/winui/api/microsoft.ui.xaml.gridlength).
+
 ## -xaml-syntax
 
 ```xaml
@@ -66,7 +68,7 @@ This table provides some examples of star sizing results. For these examples, as
 | 100 | * | * | 100,250,250 |
 | 100 | * | 4* | 100,100,400 |
 
-In code, a star sizing is equivalent to a GridLength where [IsStar](/dotnet/api/windows.ui.xaml.gridlength.isstar) is **true**, [GridUnitType](/uwp/api/windows.ui.xaml.gridlength.gridunittype) is [Star](gridunittype.md), and [Value](/uwp/api/windows.ui.xaml.gridlength.value) is the weighted factor applied.
+In code, a star sizing is equivalent to a GridLength where [IsStar](/dotnet/api/windows.ui.xaml.gridlength.isstar?view=dotnet-uwp-10.0&preserve-view=true) is **true**, [GridUnitType](/uwp/api/windows.ui.xaml.gridlength.gridunittype) is [Star](gridunittype.md), and [Value](/uwp/api/windows.ui.xaml.gridlength.value) is the weighted factor applied.
 
 Non-integer weighting factors are permitted; for example, ".5*".
 
@@ -80,21 +82,21 @@ Although you can specify a GridLength as an object element, you cannot specify t
 
 ### Projection and members of GridLength
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then GridLength has non-data members available, and its data members are exposed as read-only properties, not fields. See [GridLength](/dotnet/api/windows.ui.xaml.gridlength) in the .NET API Browser.
+If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), or Visual C++ component extensions (C++/CX), then GridLength has non-data members available, and its data members are exposed as read-only properties, not fields. See [GridLength](/dotnet/api/windows.ui.xaml.gridlength?view=dotnet-uwp-10.0&preserve-view=true) in the .NET API Browser.
 
 If you are programming with [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) or the [Windows Runtime C++ Template Library (WRL)](/cpp/windows/windows-runtime-cpp-template-library-wrl), then only the data member fields exist as members of GridLength, and you cannot use the utility methods or properties of the .NET projection. C++ code can access similar utility methods that exist on the [GridLengthHelper](gridlengthhelper.md) class.
 
 This table shows the equivalent properties and methods available in .NET and C++.
 
-| .NET ([GridLength](/dotnet/api/windows.ui.xaml.gridlength)) | C++ ([GridLengthHelper](gridlengthhelper.md)) |
+| .NET ([GridLength](/dotnet/api/windows.ui.xaml.gridlength?view=dotnet-uwp-10.0&preserve-view=true)) | C++ ([GridLengthHelper](gridlengthhelper.md)) |
 | ---- | --- |
-| [GridLength(Double)](/dotnet/api/windows.ui.xaml.gridlength.-ctor#Windows_UI_Xaml_GridLength__ctor_System_Double_) | [FromPixels(Double)](gridlengthhelper_frompixels_1866456731.md) |
-| [GridLength(Double, GridUnitType)](/dotnet/api/windows.ui.xaml.gridlength.-ctor#Windows_UI_Xaml_GridLength__ctor_System_Double_Windows_UI_Xaml_GridUnitType_) | [FromValueAndType(Double, GridUnitType)](gridlengthhelper_fromvalueandtype_1327023031.md) |
-| [Auto](/dotnet/api/windows.ui.xaml.gridlength.auto) | [Auto](gridlengthhelper_auto.md) |
-| [Equals](/dotnet/api/windows.ui.xaml.gridlength.equals) | [Equals(GridLength, GridLength)](gridlengthhelper_equals_1137730706.md) |
-| [IsAbsolute](/dotnet/api/windows.ui.xaml.gridlength.isabsolute) | [GetIsAbsolute(GridLength)](gridlengthhelper_getisabsolute_1317053469.md) |
-| [IsAuto](/dotnet/api/windows.ui.xaml.gridlength.isauto) | [GetIsAuto(GridLength)](gridlengthhelper_getisauto_1693944727.md) |
-| [IsStar](/dotnet/api/windows.ui.xaml.gridlength.isstar) | [GetIsStar(GridLength)](gridlengthhelper_getisstar_1349706545.md) |
+| [GridLength(Double)](/dotnet/api/windows.ui.xaml.gridlength.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_GridLength__ctor_System_Double_) | [FromPixels(Double)](gridlengthhelper_frompixels_1866456731.md) |
+| [GridLength(Double, GridUnitType)](/dotnet/api/windows.ui.xaml.gridlength.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_GridLength__ctor_System_Double_Windows_UI_Xaml_GridUnitType_) | [FromValueAndType(Double, GridUnitType)](gridlengthhelper_fromvalueandtype_1327023031.md) |
+| [Auto](/dotnet/api/windows.ui.xaml.gridlength.auto?view=dotnet-uwp-10.0&preserve-view=true) | [Auto](gridlengthhelper_auto.md) |
+| [Equals](/dotnet/api/windows.ui.xaml.gridlength.equals?view=dotnet-uwp-10.0&preserve-view=true) | [Equals(GridLength, GridLength)](gridlengthhelper_equals_1137730706.md) |
+| [IsAbsolute](/dotnet/api/windows.ui.xaml.gridlength.isabsolute?view=dotnet-uwp-10.0&preserve-view=true) | [GetIsAbsolute(GridLength)](gridlengthhelper_getisabsolute_1317053469.md) |
+| [IsAuto](/dotnet/api/windows.ui.xaml.gridlength.isauto?view=dotnet-uwp-10.0&preserve-view=true) | [GetIsAuto(GridLength)](gridlengthhelper_getisauto_1693944727.md) |
+| [IsStar](/dotnet/api/windows.ui.xaml.gridlength.isstar?view=dotnet-uwp-10.0&preserve-view=true) | [GetIsStar(GridLength)](gridlengthhelper_getisstar_1349706545.md) |
 
 ## -examples
 

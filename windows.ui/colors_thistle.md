@@ -13,6 +13,8 @@ public Windows.UI.Color Thistle { get; }
 
 Gets the system-defined color that has an ARGB value of #FFD8BFD8.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Thistle](/windows/winui/api/microsoft.ui.colors.thistle).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFD8BFD8.

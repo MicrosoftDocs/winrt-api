@@ -8,6 +8,8 @@
 ## -description
 Contains enumerations that report specifics about text automation patterns.
 
+Equivalent WinUI namespace: [Microsoft.UI.Xaml.Automation.Text](/windows/winui/api/microsoft.ui.xaml.automation.text).
+
 ## -remarks
 
 ## -examples

@@ -81,7 +81,7 @@ if (hasContainer)
 localSettings.DeleteContainer(L"exampleContainer");
 ```
 
-```cpp
+```cppcx
 ApplicationDataContainer^ localSettings = ApplicationData::Current->LocalSettings;
 
 // Create a setting in a container
@@ -111,36 +111,6 @@ if (hasContainer)
 localSettings->DeleteContainer("exampleContainer");
 ```
 
-```javascript
-var applicationData = Windows.Storage.ApplicationData.current;
-
-var localSettings = applicationData.localSettings;
-
-// Create a setting in a container
-
-var container = localSettings.createContainer("exampleContainer", 
-    Windows.Storage.ApplicationDataCreateDisposition.Always);
-
-if (localSettings.containers.hasKey("exampleContainer"))
-{
-    localSettings.containers.lookup("exampleContainer").values["exampleSetting"] = "Hello, Windows!";
-}
-
-// Read data from a setting in a container
-
-var hasContainer = localSettings.containers.hasKey("exampleContainer");
-
-if (hasContainer)
-{
-    // Access data in: 
-    //   localSettings.containers.lookup("exampleContainer").values.hasKey("exampleSetting");
-}
-
-// Delete a container
-
-localSettings.deleteContainer("exampleContainer");
-```
-
 ```vb
 Dim localSettings As Windows.Storage.ApplicationDataContainer = Windows.Storage.ApplicationData.Current.LocalSettings
 
@@ -168,4 +138,5 @@ localSettings.DeleteContainer("exampleContainer")
 ```
 
 ## -see-also
-[Quickstart: Local application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data), [Quickstart: Roaming application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465123(v=win.10)), [ApplicationData](applicationdata.md), [ApplicationDataCompositeValue](applicationdatacompositevalue.md), [ApplicationDataContainerSettings](applicationdatacontainersettings.md), [Application data sample](https://go.microsoft.com/fwlink/p/?linkid=231478), [Application data sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620486)
+
+[Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data), [ApplicationData](applicationdata.md), [ApplicationDataCompositeValue](applicationdatacompositevalue.md), [ApplicationDataContainerSettings](applicationdatacontainersettings.md), [Application data sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationData)

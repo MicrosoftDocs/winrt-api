@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Management.Deploym
 # Windows.Management.Deployment.PackageManager.AddPackageAsync
 
 ## -description
-Adds a package (the main package) and its dependency packages to the specified volume for the current user, using the specified deployment options.
+Adds a [Package](/uwp/api/windows.applicationmodel.package) (the main package) and its dependency packages to the specified volume for the current user, using the specified deployment options.
 
 ## -parameters
 ### -param packageUri
@@ -33,7 +33,8 @@ The status of the deployment request. The [DeploymentResult](deploymentresult.md
 ## -examples
 
 ## -see-also
-[Add app package sample](https://go.microsoft.com/fwlink/p/?linkid=236968), [AddPackageAsync(Uri, IIterable(Uri), DeploymentOptions)](packagemanager_addpackageasync_973949101.md)
+
+[Package](/uwp/api/windows.applicationmodel.package), [Add app package sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Add%20app%20package%20sample), [AddPackageAsync(Uri, IIterable(Uri), DeploymentOptions)](packagemanager_addpackageasync_973949101.md)
 
 ## -capabilities
 packageManagement

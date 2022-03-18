@@ -10,7 +10,9 @@ public bool IsContentChanging { get; }
 # Windows.UI.Xaml.Controls.TextBoxTextChangingEventArgs.IsContentChanging
 
 ## -description
-Gets a value that indicates whether the event occured due to a change in the text content.
+Gets a value that indicates whether the event occurred due to a change in the text content.
+
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBoxTextChangingEventArgs.IsContentChanging](/windows/winui/api/microsoft.ui.xaml.controls.textboxtextchangingeventargs.iscontentchanging).
 
 ## -property-value
 **true** if a change to the text content caused the event; otherwise, **false**.

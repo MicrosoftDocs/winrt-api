@@ -17,7 +17,7 @@ Static method that prompts the user for the PIN required to change a contact lis
 A [ContactList ID](../windows.applicationmodel.contacts/contactlist_id.md) for the contact list you wish to change.
 
 ## -returns
-An asynchronous retrieval operation. On successful completion, contains a [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value representing whether the PIN was entered successfully.
+An asynchronous retrieval operation. On successful completion, contains a [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) value representing whether the PIN was entered successfully.
 
 ## -remarks
 

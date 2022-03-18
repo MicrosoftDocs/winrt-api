@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FirstOfMonthLabelFontSizeProperty { ge
 ## -description
 Identifies the [FirstOfMonthLabelFontSize](calendarview_firstofmonthlabelfontsize.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.FirstOfMonthLabelFontSizeProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.firstofmonthlabelfontsizeproperty).
+
 ## -property-value
 The identifier for the [FirstOfMonthLabelFontSize](calendarview_firstofmonthlabelfontsize.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [FirstOfMonthLabelFontSize](calendarview_firstofmonthlabe
 ## -examples
 
 ## -see-also
-[FirstOfMonthLabelFontSize](calendarview_firstofmonthlabelfontsize.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[FirstOfMonthLabelFontSize](calendarview_firstofmonthlabelfontsize.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

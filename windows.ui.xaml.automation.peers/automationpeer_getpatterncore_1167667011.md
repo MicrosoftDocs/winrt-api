@@ -12,6 +12,8 @@ virtual protected object GetPatternCore(Windows.UI.Xaml.Automation.Peers.Pattern
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetPattern](automationpeer_getpattern_2046576749.md) or an equivalent Microsoft UI Automation client API.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetPatternCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getpatterncore).
+
 ## -parameters
 ### -param patternInterface
 A value from the [PatternInterface](patterninterface.md) enumeration.
@@ -22,13 +24,13 @@ The object that implements the pattern interface; **null** if the peer does not 
 ## -remarks
 The standard implementation at the [AutomationPeer](automationpeer.md) level returns **null**, because the basic peer class doesn't support any patterns. The majority of existing Windows Runtime peer classes override this method to report the patterns that a particular peer supports.
 
-Overriding this method to return the implementation of patterns that your peer class supports is one of the most common scenarios for implementing an automation peer. See [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+Overriding this method to return the implementation of patterns that your peer class supports is one of the most common scenarios for implementing an automation peer. See [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 > [!NOTE]
 >
 > **This sample is not maintained and might not compile.**
 >
-> See [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570) for an implementation of [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) that defines the custom peer returned by [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) (the peer implementation is part of Scenario 3 in this sample). 
+> See [XAML accessibility sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/XAML%20accessibility%20sample) for an implementation of [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) that defines the custom peer returned by [OnCreateAutomationPeer](uielement_oncreateautomationpeer_1478162674.md) (the peer implementation is part of Scenario 3 in this sample). 
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 466373-->
 ### Windows 8 behavior
@@ -42,4 +44,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Control patterns and interfaces](https://docs.microsoft.com/windows/uwp/accessibility/control-patterns-and-interfaces), [Accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessibility), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](https://docs.microsoft.com/accessibility-tools-docs/)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Control patterns and interfaces](/windows/uwp/accessibility/control-patterns-and-interfaces), [Accessibility](/windows/uwp/accessibility/accessibility), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](/accessibility-tools-docs/)

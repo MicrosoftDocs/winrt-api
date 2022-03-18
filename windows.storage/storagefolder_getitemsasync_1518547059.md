@@ -20,7 +20,7 @@ To work with the returned items, call the [IsOfType](istorageitem_isoftype_14178
 ## -exceptions
 ### System.UnauthorizedAccessException
 
-You don't have permission to access the contents of the current folder. For more information, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
+You don't have permission to access the contents of the current folder. For more information, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
 ## -remarks
 The following table lists methods of the [StorageFolder](storagefolder.md) class that get a list of files and folders. The table identifies shallow queries that only return items from the current folder, and deep queries that return items from the current folder and from its subfolders.
@@ -98,7 +98,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
 // Get the apps installation folder
 StorageFolder^ appFolder = Windows::ApplicationModel::Package::Current->InstalledLocation;
 
@@ -124,26 +124,5 @@ create_task(appFolder->GetItemsAsync()).then([=](IVectorView<IStorageItem^>^ ite
 });
 ```
 
-```javascript
-// Get the app's installation folder.
-var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
-
-// Get the files and folders in the current folder.
-var itemsInFolderPromise = appFolder.getItemsAsync();
-
-// Iterate over the results and print the list of items
-// to the Visual Studio Output window.
-itemsInFolderPromise.done(function getItemsSuccess(itemsInFolder) {
-    itemsInFolder.forEach(function forEachItem(item) {
-        var StorageItemTypes = Windows.Storage.StorageItemTypes;
-        if (item.isOfType(StorageItemTypes.folder)) {
-            console.log("Folder:", item.name);
-        } else {
-            console.log("File:", item.name, item.dateCreated);
-        }
-    })
-});
-```
-
 ## -see-also
-[File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions), [GetItemsAsync(UInt32, UInt32)](storagefolder_getitemsasync_561011846.md), [GetFilesAsync](/uwp/api/windows.storage.storagefolder.getfilesasync), [GetFoldersAsync](/uwp/api/windows.storage.storagefolder.getfoldersasync)
+[File access permissions](/windows/uwp/files/file-access-permissions), [GetItemsAsync(UInt32, UInt32)](storagefolder_getitemsasync_561011846.md), [GetFilesAsync](/uwp/api/windows.storage.storagefolder.getfilesasync), [GetFoldersAsync](/uwp/api/windows.storage.storagefolder.getfoldersasync)

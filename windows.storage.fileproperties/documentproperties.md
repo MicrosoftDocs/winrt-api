@@ -24,7 +24,7 @@ You can get a DocumentProperties object using any of the following methods and p
 > [!NOTE]
 > Properties that are get or set using a property handler that is defined by another app (like Microsoft Word) may not be accessible. Instead, you can try to get these properties using a file query that is backed by the system index. For more information, see [QueryOptions](../windows.storage.search/queryoptions.md).
 
-For more code samples about accessing properties, see the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
+For more code samples about accessing properties, see the [File access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess).
 
 ## -examples
 This example demonstrates how to use a file query that is backed by the system index to retrieve document properties like [Title](documentproperties_title.md).
@@ -62,35 +62,6 @@ catch (FileNotFoundException)
 {
  // For example, handle a file not found error
 }
-```
-
-```javascript
-
-// Create index backed file query and get results
-var documentsLibrary = Windows.Storage.KnownFolders.documentsLibrary;
-var fileTypeFilter = [".docx"];
-var queryOptions = new Windows.Storage.Search.QueryOptions(Windows.Storage.Search.CommonFileQuery.orderByName, fileTypeFilter);
-queryOptions.indexerOption = Windows.Storage.Search.IndexerOption.onlyUseIndexer;
-var fileQuery = documentsLibrary.createFileQueryWithOptions(queryOptions);
-fileQuery.getFilesAsync().then(function (files) {
-    // Process resulting files
-    if (files.size === 0) {
-        // Perform tasks to handle no files found
-    } else {
-        // Access properties for each file
-        files.forEach(function (file) {
-            // Get document properties
-            file.properties.getDocumentPropertiesAsync().done(function (documentProperties) {
-                // Perform tasks with document properties
-                var title = documentProperties.title;
-            });
-        });
-    }
-},
-// Handle errors with an error function
-function (error) {
-    // Handle errors encountered while processing files
-});
 ```
 
 While the example uses the [DocumentsLibrary](../windows.storage/knownfolders_documentslibrary.md) to create the query, you can create a query like this for any folder you have access to that you can get as a [StorageFolder](../windows.storage/storagefolder.md).

@@ -12,6 +12,8 @@ public void SetIndexedValue(System.Object target, System.Object value, System.Ob
 ## -description
 Sets the value at an index location, for cases where the custom property has indexer support.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Data.ICustomProperty.SetIndexedValue](/windows/winui/api/microsoft.ui.xaml.data.icustomproperty.setindexedvalue).
+
 ## -parameters
 ### -param target
 The owner instance.

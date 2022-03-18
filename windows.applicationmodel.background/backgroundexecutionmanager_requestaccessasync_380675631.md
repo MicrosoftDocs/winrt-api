@@ -29,4 +29,4 @@ When the operation completes, it returns a member of the [BackgroundAccessStatus
 ## -examples
 
 ## -see-also
-[RequestAccessAsync(String)](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager#Windows_ApplicationModel_Background_BackgroundExecutionManager_RequestAccessAsync_System_String_)
+[RequestAccessAsync(String)](/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager#Windows_ApplicationModel_Background_BackgroundExecutionManager_RequestAccessAsync_System_String_)

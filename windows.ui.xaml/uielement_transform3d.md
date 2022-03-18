@@ -13,6 +13,8 @@ public Windows.UI.Xaml.Media.Media3D.Transform3D Transform3D { get;  set; }
 
 Gets or sets the 3-D transform effect to apply when rendering this element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Transform3D](/windows/winui/api/microsoft.ui.xaml.uielement.transform3d).
+
 ## -property-value
 
 The 3-D transform effect to apply when rendering this element. The default is **null**.
@@ -65,7 +67,7 @@ The edges of the three rectangles appear to be contiguous because they share a c
 
 ### Animating CompositeTransform3D
 
-You can animate each property of a [CompositeTransform3D](../windows.ui.xaml.media.media3d/compositetransform3d.md) independently. For more info about animations, see [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations) and [Key-frame and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations).
+You can animate each property of a [CompositeTransform3D](../windows.ui.xaml.media.media3d/compositetransform3d.md) independently. For more info about animations, see [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations) and [Key-frame and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations).
 
 In this example, animations are applied the [RotationY](../windows.ui.xaml.media.media3d/compositetransform3d_rotationy.md) and [TranslateZ](../windows.ui.xaml.media.media3d/compositetransform3d_translatez.md) properties to make the middle rectangle appear to drop into place. The end result when the animations have stopped is the same as the previous example.
 

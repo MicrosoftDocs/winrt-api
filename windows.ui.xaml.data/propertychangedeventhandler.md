@@ -8,7 +8,9 @@ public delegate void PropertyChangedEventHandler(System.Object sender, Windows.U
 # Windows.UI.Xaml.Data.PropertyChangedEventHandler
 
 ## -description
-Represents the method that will handle the [PropertyChanged](inotifypropertychanged_propertychanged.md) event. When programming with Microsoft .NET this delegate is hidden, use the [System.ComponentModel.PropertyChangedEventHandler](https://docs.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler?redirectedfrom=MSDN) delegate.
+Represents the method that will handle the [PropertyChanged](inotifypropertychanged_propertychanged.md) event. When programming with Microsoft .NET this delegate is hidden, use the [System.ComponentModel.PropertyChangedEventHandler](/dotnet/api/system.componentmodel.propertychangedeventhandler?view=dotnet-uwp-10.0&preserve-view=true) delegate.
+
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Data.PropertyChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.data.propertychangedeventhandler).
 
 ## -parameters
 ### -param sender
@@ -19,10 +21,10 @@ Event data.
 
 
 ## -remarks
-When programming with Microsoft .NET, this delegate is hidden. Microsoft .NET Developers should use the [System.ComponentModel.PropertyChangedEventHandler](https://docs.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler?redirectedfrom=MSDN) delegate.
+When programming with Microsoft .NET, this delegate is hidden. Microsoft .NET Developers should use the [System.ComponentModel.PropertyChangedEventHandler](/dotnet/api/system.componentmodel.propertychangedeventhandler?view=dotnet-uwp-10.0&preserve-view=true) delegate.
 
 ## -examples
-This example demonstrates how to implement the [INotifyPropertyChanged](inotifypropertychanged.md) interface and use PropertyChangedEventHandler. For the complete code listing, see the [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854).
+This example demonstrates how to implement the [INotifyPropertyChanged](inotifypropertychanged.md) interface and use PropertyChangedEventHandler. For the complete code listing, see the [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind).
 
 ```csharp
 using System;
@@ -76,4 +78,4 @@ namespace DataBinding
 
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

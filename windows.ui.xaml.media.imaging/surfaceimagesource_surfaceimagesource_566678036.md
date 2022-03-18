@@ -12,6 +12,8 @@ public SurfaceImageSource(System.Int32 pixelWidth, System.Int32 pixelHeight, Sys
 ## -description
 Initializes a new instance of the [SurfaceImageSource](surfaceimagesource.md) class, specifying the size of the drawing area, and whether opacity is expected to be always full opacity. Use this with `isOpaque=true` if [SurfaceImageSource](surfaceimagesource.md) should not support transparency; this can increase performance.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Imaging.SurfaceImageSource.SurfaceImageSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.surfaceimagesource.#ctor).
+
 ## -parameters
 ### -param pixelWidth
 Width of the drawing area in pixels.

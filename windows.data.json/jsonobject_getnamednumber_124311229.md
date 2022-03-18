@@ -10,7 +10,7 @@ public double GetNamedNumber(System.String name, System.Double defaultValue)
 # Windows.Data.Json.JsonObject.GetNamedNumber
 
 ## -description
-Gets the number value (a [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)) with the specified name, or the provided default value if no such named value is found.
+Gets the number value (a [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true)) with the specified name, or the provided default value if no such named value is found.
 
 ## -parameters
 ### -param name
@@ -20,7 +20,7 @@ The name.
 The default value to use if the JSON property is not found.
 
 ## -returns
-The [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) with the specified *name*, or if this value wasn't found, the *defaultValue* is returned.
+The [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) with the specified *name*, or if this value wasn't found, the *defaultValue* is returned.
 
 ## -remarks
 

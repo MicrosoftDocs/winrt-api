@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty Property { get;  set; }
 ## -description
 Gets or sets the property to apply the [Value](setter_value.md) to.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Setter.Property](/windows/winui/api/microsoft.ui.xaml.setter.property).
+
 ## -xaml-syntax
 ```xaml
 <Setter Property="propertyName"/>
@@ -40,24 +42,36 @@ As noted, you can only use a [Setter](setter.md) to adjust a property through a 
 
 ### Using a Setter for a custom property
 
-For your own custom properties you should declare the property as a dependency property if you want to support styles, as well as for other scenarios such as data binding or animation. If you do so your custom property is also supported for styling on any [Style](style.md) with a [TargetType](style_targettype.md) that references your custom type. For more info, see [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties) or [TargetType](style_targettype.md).
+For your own custom properties you should declare the property as a dependency property if you want to support styles, as well as for other scenarios such as data binding or animation. If you do so your custom property is also supported for styling on any [Style](style.md) with a [TargetType](style_targettype.md) that references your custom type. For more info, see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties) or [TargetType](style_targettype.md).
 
 ## -examples
-This example creates two styles: one for a [TextBlock](../windows.ui.xaml.controls/textblock.md) and one for a [TextBox](../windows.ui.xaml.controls/textbox.md). When setting Property attribute values in XAML, you are specifying the name of the property.
 
+This example shows how to use Setter statements in a style for [TextBlock](../windows.ui.xaml.controls/textblock.md) elements.
 
+```xaml
+<StackPanel>
+    <StackPanel.Resources>
+        <!-- Create a Style for a TextBlock to specify that the
+             Foreground equals Navy, FontSize equals 14, and
+             VerticalAlignment equals Bottom. -->
+        <Style TargetType="TextBlock" x:Key="TextBlockStyle">
+            <Setter Property="Foreground" Value="Navy"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+        </Style>
+    </StackPanel.Resources>
+ 
+    <!-- Apply the TextBlockStyle to 2 different TextBlocks. -->
+    <TextBlock Style="{StaticResource TextBlockStyle}" Text=”Hello”/>
+    <TextBlock Style="{StaticResource TextBlockStyle}" Text=”World”/>
+</StackPanel>
 
-[!code-xaml[11](../windows.ui.xaml.data/code/StylingTemplatingOverview/csharp/ButtonStages.xaml#Snippet11)]
+```
 
 You can also apply setters to attached property values, by specifying the attached property name in the *AttachedPropertyProvider*.*PropertyName* form. For example, to use a [Setter](setter.md) for the attached property [Canvas.Left](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties), use This XAML.
 
 ```xaml
 <Setter Property="Canvas.Left" Value="100"/>
 ```
-
-
-
-
-
 
 ## -see-also

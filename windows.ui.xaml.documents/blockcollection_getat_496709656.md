@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Documents.Block GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.BlockCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.documents.blockcollection.getat).
+
 ## -parameters
 ### -param index
 The integer index for the value to retrieve.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CacheLengthProperty { get; }
 ## -description
 Identifies the [CacheLength](itemswrapgrid_cachelength.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid.CacheLengthProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid.cachelengthproperty).
+
 ## -property-value
 The identifier for the [CacheLength](itemswrapgrid_cachelength.md) dependency property.
 

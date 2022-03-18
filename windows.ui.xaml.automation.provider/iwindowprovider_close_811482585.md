@@ -12,6 +12,8 @@ public void Close()
 ## -description
 Closes the window.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Close](/windows/winui/api/microsoft.ui.xaml.automation.provider.iwindowprovider.close).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject GetChild(Windows.UI.Xaml.DependencyObjec
 ## -description
 Using the provided index, obtains a specific child object of the provided object by examining the visual tree.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.VisualTreeHelper.GetChild](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.getchild).
+
 ## -parameters
 ### -param reference
 The object that holds the child collection.
@@ -25,7 +27,7 @@ The child object as referenced by *childIndex*.
 ## -remarks
 
 ## -examples
-Here's an example of a utility function that can copy a list of child elements of a particular type from within a visual tree. It uses the basic traversal methods [GetChildrenCount](visualtreehelper_getchildrencount_1601318699.md) and GetChild. It uses recursion so that elements can be found no matter what level of nesting within intermediate containers exists. It also uses an **IsSubclassOf** extension method from [System.Reflection](https://docs.microsoft.com/dotnet/api/system.reflection?redirectedfrom=MSDN) that extends the type comparison to consider subtypes as a match for a [Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN).
+Here's an example of a utility function that can copy a list of child elements of a particular type from within a visual tree. It uses the basic traversal methods [GetChildrenCount](visualtreehelper_getchildrencount_1601318699.md) and GetChild. It uses recursion so that elements can be found no matter what level of nesting within intermediate containers exists. It also uses an **IsSubclassOf** extension method from [System.Reflection](/dotnet/api/system.reflection?view=dotnet-uwp-10.0&preserve-view=true) that extends the type comparison to consider subtypes as a match for a [Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true).
 
 ```csharp
 internal static void FindChildren<T>(List<T> results, DependencyObject startNode)

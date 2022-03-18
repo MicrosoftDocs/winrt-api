@@ -13,6 +13,8 @@ public void UIElement.RegisterAsScrollPort(UIElement element)
 
 Registers an element as representing a scrollable viewport.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.RegisterAsScrollPort](/windows/winui/api/microsoft.ui.xaml.uielement.registerasscrollport).
+
 ## -parameters
 
 ### -param element
@@ -35,9 +37,6 @@ By default, the focus visual is fully rendered around the outside of the focused
 
 ## -see-also
 
-- [UseSystemFocusVisuals](../windows.ui.xaml.controls/control_usesystemfocusvisuals.md)
-- [InteractionTracker](../windows.ui.composition.interactions/interactiontracker.md)
-- [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md)
-- [InvalidateViewport](frameworkelement_invalidateviewport_528063221.md)
+[UseSystemFocusVisuals](../windows.ui.xaml.controls/control_usesystemfocusvisuals.md), [InteractionTracker](../windows.ui.composition.interactions/interactiontracker.md), [EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md), [InvalidateViewport](frameworkelement_invalidateviewport_528063221.md)
 
 ## -examples

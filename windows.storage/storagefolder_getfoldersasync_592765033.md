@@ -18,7 +18,7 @@ When this method completes successfully, it returns a list of the subfolders in 
 ## -exceptions
 ### System.UnauthorizedAccessException
 
-You don't have permission to access the contents of the current folder. For more information, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
+You don't have permission to access the contents of the current folder. For more information, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
 ## -remarks
 This query is a shallow query that returns only subfolders in the current folder.
@@ -29,7 +29,8 @@ Some methods take a value from the [CommonFolderQuery](../windows.storage.search
 
 + When you use the **DefaultQuery** option with any folder, the query returns a list of subfolders in the file system.
 + When you use an option other than **DefaultQuery** with a library folder, the query returns a list of virtual folders that represent containers for files from the subfolders of the current folder. (Files from the current folder are not included.) The files are grouped into virtual folders based on the specified value from the [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) enumeration. For example, if you specify **GroupByMonth**, the query returns a list of virtual folders such as `July 2014`, `August 2014`, and `September 2014`.
-> > [!TIP]
+
+> [!TIP]
 > You can use the **DefaultQuery** option with any folder; you can use the other options from the [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) enumeration only with library folders, such as the Pictures library, or the Homegroup folder.
 
 To get deep query results from a folder that's not a library folder, call the [CreateFolderQueryWithOptions(QueryOptions)](storagefolder_createfolderquerywithoptions_573382953.md) method and specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.
@@ -102,7 +103,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
 // Get the user's Pictures folder.
 // Enable the corresponding capability in the app manifest file.
 StorageFolder^ picturesFolder = KnownFolders::PicturesLibrary;
@@ -121,35 +122,5 @@ create_task(picturesFolder->GetFoldersAsync(CommonFolderQuery::GroupByMonth, 0, 
 });
 ```
 
-```javascript
-// Get the user's Pictures folder.
-// Enable the corresponding capability in the app manifest file.
-var KnownFolders = Windows.Storage.KnownFolders;
-var picturesFolder = KnownFolders.picturesLibrary;
-
-// Get the files in the user's Pictures folder, grouped by month.
-// Get only the first 4 folders (months).
-var CommonFolderQuery = Windows.Storage.Search.CommonFolderQuery;
-var groupedItemsPromise = picturesFolder.getFoldersAsync(CommonFolderQuery.groupByMonth, 0, 4);
-groupedItemsPromise.done(function getFoldersSuccess(groupedItems) {
-
-    // Iterate over the results and print the list of folders
-    // and files to the Visual Studio Output window.
-    groupedItems.forEach(function forEachFolder(folder) {
-        console.log(folder.name);
-
-        // To iterate over the files in each folder,
-        // uncomment the following lines.
-        // var getFilesPromise = folder.getFilesAsync();
-        // getFilesPromise.done(function getFilesSuccess(files) {
-        //     console.log(folder.name);
-        //     files.forEach(function forEachFile(file) {
-        //         console.log(".", file.name);
-        //     });
-        // });
-    });
-});
-```
-
 ## -see-also
-[File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions), [GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md), [GetFoldersAsync(CommonFolderQuery)](storagefolder_getfoldersasync_595997124.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)
+[File access permissions](/windows/uwp/files/file-access-permissions), [GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md), [GetFoldersAsync(CommonFolderQuery)](storagefolder_getfoldersasync_595997124.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)

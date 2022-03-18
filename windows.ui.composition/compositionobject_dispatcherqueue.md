@@ -13,6 +13,8 @@ public DispatcherQueue DispatcherQueue { get; }
 
 Gets the [DispatcherQueue](../windows.system/dispatcherqueue.md) for the CompostionObject.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionObject.DispatcherQueue](/windows/winui/api/microsoft.ui.composition.compositionobject.dispatcherqueue).
+
 ## -property-value
 
 The [DispatcherQueue](../windows.system/dispatcherqueue.md) for the CompostionObject.

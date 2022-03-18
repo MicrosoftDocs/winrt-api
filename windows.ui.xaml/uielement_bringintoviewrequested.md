@@ -13,6 +13,8 @@ public event TypedEventHandler BringIntoViewRequested<UIElement, BringIntoViewRe
 
 Occurs when [StartBringIntoView](uielement_startbringintoview_1818344798.md) is called on this element or one of its descendants.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.BringIntoViewRequested](/windows/winui/api/microsoft.ui.xaml.uielement.bringintoviewrequested).
+
 ## -remarks
 
 > [!NOTE]
@@ -24,7 +26,7 @@ In general, the event data ([BringIntoViewRequestedEventArgs](bringintoviewreque
 
 The [OriginalSource](routedeventargs_originalsource.md) should be used to determine the element on which the event was originally raised given that the [TargetElement](bringintoviewrequestedeventargs_targetelement.md) may be modified as the event bubbles.
 
-BringIntoViewRequested is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
+BringIntoViewRequested is a routed event. For more info on the routed event concept, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 ## -see-also
 

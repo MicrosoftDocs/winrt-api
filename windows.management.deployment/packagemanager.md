@@ -31,8 +31,16 @@ Manages the software available to a user.
 | 1709 | 16299 | StagePackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>,IEnumerable<Uri>) |
 | 1803 | 17134 | RequestAddPackageAsync(Uri,IEnumerable<Uri>,DeploymentOptions,PackageVolume,IEnumerable<String>,IEnumerable<Uri>,IEnumerable<Uri>) |
 | 1809 | 17763 | DeprovisionPackageForAllUsersAsync |
+| 2004 | 19041 | AddPackageByUriAsync |
+| 2004 | 19041 | FindProvisionedPackages |
+| 2004 | 19041 | GetPackageStubPreference |
+| 2004 | 19041 | RegisterPackageByUriAsync |
+| 2004 | 19041 | RegisterPackagesByFullNameAsync |
+| 2004 | 19041 | SetPackageStubPreference |
+| 2004 | 19041 | StagePackageByUriAsync |
 
 ## -examples
 
 ## -see-also
-[Add app package sample](https://go.microsoft.com/fwlink/p/?linkid=236968), [Enumerate app packages sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [Enumerate app packages by name and publisher sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a), [Enumerate app packages by user SID sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-5bee970a), [Remove app package sample](https://go.microsoft.com/fwlink/p/?linkid=236972), [Packaging apps](https://docs.microsoft.com/windows/uwp/packaging/index), [DeploymentResult](deploymentresult.md), [PackageUserInformation](packageuserinformation.md)
+
+[Package](/uwp/api/windows.applicationmodel.package), [Add app package sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerAddPackage), [Enumerate app packages sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindProvisionedPackages), [Enumerate app packages by name and publisher sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher), [Enumerate app packages by user SID sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByUserSecurityId), [Remove app package sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerRemovePackage), [Packaging apps](/windows/uwp/packaging/index), [DeploymentResult](deploymentresult.md), [PackageUserInformation](packageuserinformation.md)

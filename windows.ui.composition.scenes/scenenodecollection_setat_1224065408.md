@@ -14,6 +14,8 @@ public void SceneNodeCollection.SetAt(UInt32 index, SceneNode value)
 
 Sets the value at the specified index to the specified SceneNode value.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneNodeCollection.SetAt](/windows/winui/api/microsoft.ui.composition.scenes.scenenodecollection.setat).
+
 ## -parameters
 ### -param index
 

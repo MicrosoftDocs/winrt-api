@@ -12,6 +12,8 @@ public int Count { get; }
 ## -description
 Gets the number of visual instances in the collection.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.VisualCollection.Count](/windows/winui/api/microsoft.ui.composition.visualcollection.count).
+
 ## -property-value
 The number of visual instances in the collection.
 

@@ -12,6 +12,8 @@ public class ItemsStackPanel : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.C
 ## -description
 Arranges child elements of an [ItemsControl](itemscontrol.md) into a single line that can be oriented horizontally or vertically. Supports pixel-based UI virtualization and grouped layouts.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ItemsStackPanel](/windows/winui/api/microsoft.ui.xaml.controls.itemsstackpanel).
+
 ## -xaml-syntax
 ```xaml
 <ItemsStackPanel .../>

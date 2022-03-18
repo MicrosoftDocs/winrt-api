@@ -14,6 +14,8 @@ public CompositionViewBox ViewBox { get;  set; }
 
 Gets or sets a CompositionViewBox that maps the shape visual tree coordinates onto the visual.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGeometricClip.ViewBox](/windows/winui/api/microsoft.ui.composition.compositiongeometricclip.viewbox).
+
 ## -property-value
 
 A CompositionViewBox that maps the shape visual tree coordinates onto the visual.

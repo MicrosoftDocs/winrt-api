@@ -52,5 +52,5 @@ Value reserved for the sync engine.
 ## -remarks
 
 ## -see-also
-[FileAttributes Enumeration](https://docs.microsoft.com/dotnet/api/system.io.fileattributes?redirectedfrom=MSDN)
+[FileAttributes Enumeration](/dotnet/api/system.io.fileattributes?view=dotnet-uwp-10.0&preserve-view=true)
 

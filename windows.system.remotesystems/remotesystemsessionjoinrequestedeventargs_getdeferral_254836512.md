@@ -13,7 +13,7 @@ public Deferral RemoteSystemSessionJoinRequestedEventArgs.GetDeferral()
 Gets a deferral object for this operation.
 
 ## -returns
-A [Deferral](https://docs.microsoft.com/uwp/api/windows.foundation.deferral) object that the app uses to signal when it has finished processing this request.
+A [Deferral](/uwp/api/windows.foundation.deferral) object that the app uses to signal when it has finished processing this request.
 
 ## -remarks
 

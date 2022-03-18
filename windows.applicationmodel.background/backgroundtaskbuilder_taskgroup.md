@@ -19,7 +19,7 @@ The group identifier.
 To reduce collisions with other group identifiers, consider including your domain name in the group identifier. For example: `"com.contoso.appname.tasks"`. Or use the string form of a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid).
 
 ## -see-also
-[Launching, resuming, and background tasks](https://docs.microsoft.com/windows/uwp/launch-resume/index)
+[Launching, resuming, and background tasks](/windows/uwp/launch-resume/index)
 
 ## -examples
 [Background Task code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTask/cs/BackgroundTask)  See scenario 6 for a grouped task example.

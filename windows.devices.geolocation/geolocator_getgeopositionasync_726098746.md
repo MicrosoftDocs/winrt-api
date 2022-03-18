@@ -28,7 +28,7 @@ A location will be returned immediately if the latest location is within an acce
 ## -examples
 
 ## -see-also
-[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [Geoposition](geoposition.md), [Geocoordinate](geocoordinate.md), [GetGeopositionAsync](geolocator_getgeopositionasync_189682258.md), [geolocation sample](https://go.microsoft.com/fwlink/p/?linkid=533278)
+[Get current location](/windows/uwp/maps-and-location/get-location), [Set up a geofence](/windows/uwp/maps-and-location/set-up-a-geofence), [Geoposition](geoposition.md), [Geocoordinate](geocoordinate.md), [GetGeopositionAsync](geolocator_getgeopositionasync_189682258.md), [geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
 
 ## -capabilities
 location

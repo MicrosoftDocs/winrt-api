@@ -15,7 +15,7 @@ Occurs when roaming application data is synchronized.
 
 ## -remarks
 
-The event handler receives an [ApplicationData](applicationdata.md) object that provides access to the changed roaming data containers. For more information, see [Roaming data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data).
+The event handler receives an [ApplicationData](applicationdata.md) object that provides access to the changed roaming data containers. For more information, see [Roaming data](/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data).
 
 ## -examples
 
@@ -46,7 +46,7 @@ void MainPage::DataChangeHandler(Windows::Storage::ApplicationData const& /* app
 }
 ```
 
-```cpp
+```cppcx
 void MainPage::InitHandlers()
 {
    Windows::Storage::ApplicationData::Current->DataChanged += 
@@ -57,20 +57,6 @@ void MainPage::InitHandlers()
 void MainPage::DataChangeHandler(Windows::Storage::ApplicationData^ appData, Object^)
 {
    // TODO: Refresh your data
-}
-```
-
-```javascript
-var applicationData = Windows.Storage.ApplicationData.current;
-
-function initialize() 
-{
-    applicationData.addEventListener("datachanged", datachangeHandler);
-}
-
-function dataChangeHandler(eventArgs)
-{
-    // TODO: Refresh your data
 }
 ```
 
@@ -85,4 +71,4 @@ End Sub
 ```
 
 ## -see-also
-[Roaming data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data),[Quickstart: Roaming application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465123(v=win.10))
+[Roaming data](/windows/uwp/design/app-settings/store-and-retrieve-app-data#roaming-data)

@@ -30,4 +30,4 @@ The input pointer specified by *pointerId* must identify an active input.
 ## -examples
 
 ## -see-also
-[Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices)
+[Quickstart: Identifying input devices](/windows/uwp/design/input/identify-input-devices)

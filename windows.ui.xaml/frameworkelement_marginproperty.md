@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MarginProperty { get; }
 ## -description
 Identifies the [Margin](frameworkelement_margin.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.MarginProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.marginproperty).
+
 ## -property-value
 The [Margin](frameworkelement_margin.md)  dependency property identifier.
 

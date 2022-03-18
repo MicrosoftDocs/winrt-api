@@ -12,6 +12,8 @@ virtual protected bool IsOffscreenCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [IsOffscreen](automationpeer_isoffscreen_970705929.md) or an equivalent Microsoft UI Automation client API.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsOffscreenCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.isoffscreencore).
+
 ## -returns
 **true** if the element is not on the screen; otherwise, **false**.
 
@@ -21,4 +23,4 @@ The standard implementation returns a result that is based on the owner's [Visib
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [UIElement.Visibility](../windows.ui.xaml/uielement_visibility.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessibility)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [UIElement.Visibility](../windows.ui.xaml/uielement_visibility.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Accessibility](/windows/uwp/accessibility/accessibility)

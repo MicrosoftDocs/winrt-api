@@ -30,7 +30,7 @@ A character that represents another type of numeric value, such as a fraction.
 ## -remarks
 A member of this enumeration is returned by [GetNumericType](unicodecharacters_getnumerictype_1735068207.md).
 
-These values follow the types in the [Unicode Standard Annex #44](https://go.microsoft.com/fwlink/p/?LinkId=302029).
+These values follow the types in the [Unicode Standard Annex #44](https://www.unicode.org/reports/tr44/#Numeric_Type).
 
 ## -examples
 

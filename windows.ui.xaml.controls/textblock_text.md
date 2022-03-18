@@ -12,12 +12,12 @@ public string Text { get;  set; }
 ## -description
 Gets or sets the text contents of a [TextBlock](textblock.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.Text](/windows/winui/api/microsoft.ui.xaml.controls.textblock.text).
+
 ## -xaml-syntax
 ```xaml
 <TextBlock Text="string"/>
-```
-
-```xaml
+- or -
 <TextBlock>string</TextBlock>
 ```
 

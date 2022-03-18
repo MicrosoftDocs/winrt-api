@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.ListPickerFlyoutSelectionMode : int
 ## -description
 Defines constants that specify the selection mode of a [ListPickerFlyout](listpickerflyout.md).
 
+Equivalent WinUI enum: [ListPickerFlyoutSelectionMode](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyoutselectionmode).
+
 ## -enum-fields
 ### -field Single:0
 A user can select only one item.

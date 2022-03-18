@@ -12,12 +12,12 @@ public Windows.UI.Xaml.DataTemplate LeftHeaderTemplate { get;  set; }
 ## -description
 Gets or sets the template for the header on the control's left side.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.LeftHeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.pivot.leftheadertemplate).
+
 ## -xaml-syntax
 ```xaml
 <Pivot LeftHeaderTemplate="resourceReferenceToDataTemplate"/>
-```
-
-```xaml
+- or -
 <Pivot>
   <Pivot.LeftHeaderTemplate>
      <DataTemplate>

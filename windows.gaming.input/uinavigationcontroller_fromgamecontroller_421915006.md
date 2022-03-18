@@ -9,13 +9,14 @@ public UINavigationController UINavigationController.FromGameController(IGameCon
 
 # Windows.Gaming.Input.UINavigationController.FromGameController
 
+
 ## -description
 
 Returns the given game controller as a UI navigation controller.
 
-## -params
+## -parameters
 
-## -param gameController
+### -param gameController
 
 The game controller to be returned as a UI navigation controller.
 
@@ -29,13 +30,32 @@ This method checks if the provided game controller has a UI navigation controlle
 
 ## -see-also
 
-* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+[Windows.Gaming.Input.IGameController](igamecontroller.md)
 
 ## -examples
 
-In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **UINavigationController** class:
+In the following example, the app gets the first available [RawGameController](rawgamecontroller.md) object, and tries to access this game controller via the **UINavigationController** class.
 
-```cpp
+```cppwinrt
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+...
+UINavigationController uiNavigationController{ nullptr };
+
+if (RawGameController::RawGameControllers().Size() > 0)
+{
+    RawGameController rawGameController{ RawGameController::RawGameControllers().GetAt(0) };
+    uiNavigationController = UINavigationController::FromGameController(rawGameController);
+}
+
+if (uiNavigationController)
+{
+    // Assign a standard button mapping to this controller.
+}
+```
+
+```cppcx
 UINavigationController^ uiNavigationController;
 
 if (RawGameController::RawGameControllers->Size > 0)
@@ -52,3 +72,4 @@ if (uiNavigationController != nullptr)
     // Assign a standard button mapping to this controller.
 }
 ```
+

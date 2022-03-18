@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Management.Deploym
 # Windows.Management.Deployment.PackageManager.StageUserDataAsync
 
 ## -description
-Stages a package's roaming data to the system without registering the package. Call this method after staging the package but before registering the package for a particular user.
+Stages a [Package's](/uwp/api/windows.applicationmodel.package) roaming data to the system without registering the package. Call this method after staging the package but before registering the package for a particular user.
 
 ## -parameters
 ### -param packageFullName
@@ -27,4 +27,5 @@ An object that the caller can observe to track progress and completion for the c
 ## -examples
 
 ## -see-also
-[StageUserDataAsync(String)](packagemanager_stageuserdataasync_1037604209.md)
+
+[Package](/uwp/api/windows.applicationmodel.package), [StageUserDataAsync(String)](packagemanager_stageuserdataasync_1037604209.md)

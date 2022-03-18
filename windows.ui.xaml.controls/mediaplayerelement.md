@@ -13,6 +13,8 @@ public class MediaPlayerElement : Windows.UI.Xaml.Controls.Control, Windows.UI.X
 
 Represents an object that uses a [MediaPlayer](../windows.media.playback/mediaplayer.md) to render audio and video to the display.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MediaPlayerElement](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerelement).
+
 ## -xaml-syntax
 
 ```xaml
@@ -24,13 +26,13 @@ Represents an object that uses a [MediaPlayer](../windows.media.playback/mediapl
 > [!TIP]
 > For more info, design guidance, and code examples, see [Media playback](/windows/uwp/design/controls-and-patterns/media-playback).
 
-For info about the media formats that MediaPlayerElement supports, see [Supported codecs](https://docs.microsoft.com/windows/uwp/audio-video-camera/supported-codecs).
+For info about the media formats that MediaPlayerElement supports, see [Supported codecs](/windows/uwp/audio-video-camera/supported-codecs).
 
 ### Architectural overview
 
 MediaPlayerElement is a lightweight XAML control that serves as a rendering surface for the robust [MediaPlayer](../windows.media.playback/mediaplayer.md) class, which is part of the [Windows.Media.Playback](../windows.media.playback/windows_media_playback.md) namespace. The majority of the media functionality is located on the underlying [MediaPlayer](../windows.media.playback/mediaplayer.md) class, which you can access through the [MediaPlayerElement.MediaPlayer](mediaplayerelement_mediaplayer.md) property. To change the underlying [MediaPlayer](../windows.media.playback/mediaplayer.md) for an instance of MediaPlayerElement, use the [SetMediaPlayer](mediaplayerelement_setmediaplayer_932380017.md) method.
 
-For more information about the [MediaPlayer](../windows.media.playback/mediaplayer.md) class, including guidelines on how to transition from [MediaElement](mediaelement.md) to MediaPlayerElement, see the [Media playback](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback) page.
+For more information about the [MediaPlayer](../windows.media.playback/mediaplayer.md) class, including guidelines on how to transition from [MediaElement](mediaelement.md) to MediaPlayerElement, see the [Media playback](/windows/uwp/audio-video-camera/media-playback) page.
 
 ### Set the media source
 
@@ -65,7 +67,7 @@ You can create your own media transport controls by setting [AreTransportControl
 > [!TIP]
 > For better performance, avoid data binding to the [Position](../windows.media.playback/mediaplayer_position.md) property to reflect frequent position updates (for example with a progress bar). Instead, use the [DispatcherTimer](../windows.ui.xaml/dispatchertimer.md) to query the [Position](../windows.media.playback/mediaplayer_position.md) property.
 
-For more info and examples, see [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls).
+For more info and examples, see [Create custom transport controls](/windows/uwp/controls-and-patterns/custom-transport-controls).
 
 ### Full window playback
 
@@ -226,4 +228,4 @@ private void ShowPopupClicked(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Control](control.md), [Media playback overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/media-playback), [Audio categories sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/AudioCategory), [Media transport controls sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/XamlCustomMediaTransportControls), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[Control](control.md), [Media playback overview](/windows/uwp/design/controls-and-patterns/media-playback), [Audio categories sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/AudioCategory), [Media transport controls sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/XamlCustomMediaTransportControls), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

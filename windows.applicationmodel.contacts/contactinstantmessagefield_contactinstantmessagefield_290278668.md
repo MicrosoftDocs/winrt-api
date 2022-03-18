@@ -10,10 +10,11 @@ public ContactInstantMessageField(System.String userName)
 # Windows.ApplicationModel.Contacts.ContactInstantMessageField.ContactInstantMessageField
 
 ## -description
-> [!NOTE]
-> [IContactInstantMessageFieldFactory](icontactinstantmessagefieldfactory.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactConnectedServiceAccount](contactconnectedserviceaccount.md).
 
 Creates a new [ContactInstantMessageField](contactinstantmessagefield.md)object.
+
+> [!NOTE]
+> [IContactInstantMessageFieldFactory](icontactinstantmessagefieldfactory.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactConnectedServiceAccount](contactconnectedserviceaccount.md).
 
 ## -parameters
 ### -param userName

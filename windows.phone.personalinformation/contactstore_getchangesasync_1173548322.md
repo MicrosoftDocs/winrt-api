@@ -17,14 +17,14 @@ Gets the list of changes to the contact store associated with the provided revis
 The revision number for which changes should be retrieved.
 
 ## -returns
-When this method completes, it returns a [VectorView](https://docs.microsoft.com/previous-versions/br224594(v=vs.85)) containing a [ContactChangeRecord](contactchangerecord.md) object for each change associated with the revision number. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is a read-only list/vector of [ContactChangeRecord](contactchangerecord.md) items. (You can use APIs of [IVectorView&lt;ContactChangeRecord&gt;](../windows.foundation.collections/ivectorview_1.md) for C++, APIs of [IReadOnlyList<ContactChangeRecord>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1) for .NET.)
+When this method completes, it returns a [VectorView](/previous-versions/br224594(v=vs.85)) containing a [ContactChangeRecord](contactchangerecord.md) object for each change associated with the revision number. If you use [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is a read-only list/vector of [ContactChangeRecord](contactchangerecord.md) items. (You can use APIs of [IVectorView<ContactChangeRecord>](../windows.foundation.collections/ivectorview_1.md) for C++, APIs of [IReadOnlyList<ContactChangeRecord>](/dotnet/api/system.collections.generic.ireadonlylist-1?view=dotnet-uwp-10.0&preserve-view=true) for .NET.)
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[ContactChangeRecord](contactchangerecord.md), [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
+[ContactChangeRecord](contactchangerecord.md), [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

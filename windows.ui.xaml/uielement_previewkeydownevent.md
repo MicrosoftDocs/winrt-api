@@ -13,6 +13,8 @@ public RoutedEvent PreviewKeyDownEvent { get; }
 
 Gets the identifier for the PreviewKeyDown routed event.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.PreviewKeyDownEvent](/windows/winui/api/microsoft.ui.xaml.uielement.previewkeydownevent).
+
 ## -property-value
 
 The identifier for the PreviewKeyDown routed event.
@@ -21,7 +23,7 @@ The identifier for the PreviewKeyDown routed event.
 
 ## -see-also
 
-[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)
+[AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)
 
 ## -examples
 

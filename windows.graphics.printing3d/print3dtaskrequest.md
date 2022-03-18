@@ -14,7 +14,7 @@ public class Print3DTaskRequest : Windows.Graphics.Printing3D.IPrint3DTaskReques
 Represents a 3D print job request.
 
 ## -remarks
-This API is designed for use with 3D Manufacturing Format (3MF) packages. For more info about 3MF, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
+This API is designed for use with 3D Manufacturing Format (3MF) packages. For more info about 3MF, see the [3MF Specification](https://3mf.io/specification/).
 
 ## -examples
 

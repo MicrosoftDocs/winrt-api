@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty RightHeaderProperty { get; }
 ## -description
 Identifies the [RightHeader](pivot_rightheader.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.RightHeaderProperty](/windows/winui/api/microsoft.ui.xaml.controls.pivot.rightheaderproperty).
+
 ## -property-value
 The identifier for the [RightHeader](pivot_rightheader.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [RightHeader](pivot_rightheader.md) dependency property.
 ## -examples
 
 ## -see-also
-[RightHeader](pivot_rightheader.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[RightHeader](pivot_rightheader.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

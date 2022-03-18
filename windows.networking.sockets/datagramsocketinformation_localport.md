@@ -25,7 +25,7 @@ If the local service name or UDP port number passed to the [BindEndpointAsync](d
 ## -examples
 
 ## -see-also
-[How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.BindEndpointAsync](datagramsocket_bindendpointasync_1396029045.md), [DatagramSocket.BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md), [DatagramSocket.ConnectAsync](datagramsocket_connectasync_13692504.md), [DatagramSocket.GetOutputStreamAsync](datagramsocket_getoutputstreamasync_1619245957.md), [LocalAddress](datagramsocketinformation_localaddress.md), [RemoteAddress](datagramsocketinformation_remoteaddress.md), [RemotePort](datagramsocketinformation_remoteport.md)
+[How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.BindEndpointAsync](datagramsocket_bindendpointasync_1396029045.md), [DatagramSocket.BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md), [DatagramSocket.ConnectAsync](datagramsocket_connectasync_13692504.md), [DatagramSocket.GetOutputStreamAsync](datagramsocket_getoutputstreamasync_1619245957.md), [LocalAddress](datagramsocketinformation_localaddress.md), [RemoteAddress](datagramsocketinformation_remoteaddress.md), [RemotePort](datagramsocketinformation_remoteport.md)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

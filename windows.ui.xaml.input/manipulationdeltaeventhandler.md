@@ -10,6 +10,8 @@ public delegate void ManipulationDeltaEventHandler(System.Object sender, Windows
 ## -description
 Represents the method that will handle [ManipulationDelta](../windows.ui.xaml/uielement_manipulationdelta.md) and related events.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Input.ManipulationDeltaEventHandler](/windows/winui/api/microsoft.ui.xaml.input.manipulationdeltaeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the handler is attached.

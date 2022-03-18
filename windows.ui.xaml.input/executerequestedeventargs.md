@@ -14,6 +14,8 @@ public class ExecuteRequestedEventArgs
 
 Provides event data for the [ExecuteRequested](xamluicommand_executerequested.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.ExecuteRequestedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.executerequestedeventargs).
+
 ## -remarks
 
 ## -see-also

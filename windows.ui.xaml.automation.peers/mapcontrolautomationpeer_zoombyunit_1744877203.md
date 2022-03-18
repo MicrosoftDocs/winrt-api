@@ -10,7 +10,7 @@ public void MapControlAutomationPeer.ZoomByUnit(ZoomUnit zoomUnit)
 # Windows.UI.Xaml.Automation.Peers.MapControlAutomationPeer.ZoomByUnit
 
 ## -description
-Zooms the viewport of the associated map by the specified [ZoomUnit](https://docs.microsoft.com/uwp/api/windows.ui.xaml.automation.zoomunit).  
+Zooms the viewport of the associated map by the specified [ZoomUnit](/uwp/api/windows.ui.xaml.automation.zoomunit).  
 
 ## -parameters
 

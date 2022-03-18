@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty BorderBrushProperty { get; }
 ## -description
 Identifies the [BorderBrush](grid_borderbrush.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.BorderBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.grid.borderbrushproperty).
+
 ## -property-value
 The identifier for the [BorderBrush](grid_borderbrush.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [BorderBrush](grid_borderbrush.md) dependency property.
 ## -examples
 
 ## -see-also
-[BorderBrush](grid_borderbrush.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[BorderBrush](grid_borderbrush.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

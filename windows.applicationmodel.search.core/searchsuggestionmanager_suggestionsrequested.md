@@ -35,7 +35,7 @@ If you provide result suggestions, you must also register a [ResultSuggestionCho
 Here are a few examples of sources your app can use to obtain suggestions:
 
 + From an app-defined, static, local list
-+ From a URL that supports suggestions in [OpenSearch format](https://go.microsoft.com/fwlink/p/?linkid=251110)
++ From a URL that supports suggestions in [OpenSearch format](http://www.opensearch.org/Specifications/OpenSearch/Extensions/Suggestions/1.1)
 
 
 ### Displaying app-provided suggestions in the search box control
@@ -44,7 +44,7 @@ After you obtain suggestions, you display them in the search pane by adding them
 
 If you choose to display both query suggestions and result suggestions, you should group the suggestions by suggestion type (query or result) and separate the groups using [AppendSearchSeparator](../windows.applicationmodel.search/searchsuggestioncollection_appendsearchseparator_842802100.md). Each separator takes the place of a suggestion and must be followed by at least one suggestion, decreasing the number of suggestions that you can display.
 
-To learn more about using suggestions to create a good search experience for your users in [Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search).
+To learn more about using suggestions to create a good search experience for your users in [Guidelines and checklist for search](/windows/uwp/controls-and-patterns/search).
 
 ## -examples
 

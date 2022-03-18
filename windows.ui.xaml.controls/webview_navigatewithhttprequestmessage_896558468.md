@@ -22,6 +22,10 @@ This method supports only [HttpMethod.Post](../windows.web.http/httpmethod_post.
 > [!WARNING]
 > If you add additional headers to this request, such as authentication credentials, remember that those headers will also be included with any subsequent child requests. Use caution to prevent accidental disclosure of confidential or personal information.
 
+If the app possesses the `enterpriseCloudSSO` capability,
+then web pages hosted inside the WebView control
+can use single sign on with Azure Active Directory (AAD) resources.
+
 ## -examples
 This example shows how to create an HTTP request and use it with this method.
 
@@ -37,4 +41,4 @@ myWebView.NavigateWithHttpRequestMessage(httpRequestMessage);
 ## -see-also
 
 ## -capabilities
-enterpriseCloudSS
+enterpriseCloudSSO

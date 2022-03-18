@@ -10,10 +10,10 @@ public string Author { get; }
 # Windows.Storage.SystemProperties.Author
 
 ## -description
-Gets the name of the [System.Author](https://docs.microsoft.com/windows/desktop/properties/props-system-author) property (one of the [Windows file properties](https://docs.microsoft.com/windows/desktop/properties/props).
+Gets the name of the [System.Author](/windows/desktop/properties/props-system-author) property (one of the [Windows file properties](/windows/desktop/properties/props).
 
 ## -property-value
-The name of the [System.Author](https://docs.microsoft.com/windows/desktop/properties/props-system-author) file property.
+The name of the [System.Author](/windows/desktop/properties/props-system-author) file property.
 
 ## -remarks
 

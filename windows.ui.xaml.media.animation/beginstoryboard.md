@@ -12,6 +12,8 @@ public class BeginStoryboard : Windows.UI.Xaml.TriggerAction, Windows.UI.Xaml.Me
 ## -description
 A trigger action that begins a [Storyboard](storyboard.md). Not commonly used. See Remarks.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.BeginStoryboard](/windows/winui/api/microsoft.ui.xaml.media.animation.beginstoryboard).
+
 ## -xaml-syntax
 ```xaml
 <BeginStoryboard ...>
@@ -21,7 +23,7 @@ A trigger action that begins a [Storyboard](storyboard.md). Not commonly used. S
 
 
 ## -remarks
-[Triggers](../windows.ui.xaml/frameworkelement_triggers.md), [EventTrigger](../windows.ui.xaml/eventtrigger.md), [Actions](../windows.ui.xaml/eventtrigger_actions.md) and BeginStoryboard are not commonly used. These API mainly exist for compatibility in XAML originally used for Microsoft Silverlight. For most scenarios where event triggers were used previously, you should either use visual states, or start animations by writing a [Loaded](../windows.ui.xaml/frameworkelement_loaded.md) handler that looks up an animation in page-level resources and then calls [Begin](storyboard_begin_1621727531.md) on the animation's main [Storyboard](storyboard.md). For more info, see [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)) or [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations).
+[Triggers](../windows.ui.xaml/frameworkelement_triggers.md), [EventTrigger](../windows.ui.xaml/eventtrigger.md), [Actions](../windows.ui.xaml/eventtrigger_actions.md) and BeginStoryboard are not commonly used. These API mainly exist for compatibility in XAML originally used for Microsoft Silverlight. For most scenarios where event triggers were used previously, you should either use visual states, or start animations by writing a [Loaded](../windows.ui.xaml/frameworkelement_loaded.md) handler that looks up an animation in page-level resources and then calls [Begin](storyboard_begin_1621727531.md) on the animation's main [Storyboard](storyboard.md). For more info, see [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)) or [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations).
 
 If you do choose to use [Triggers](../windows.ui.xaml/frameworkelement_triggers.md), in Windows Runtime XAML, the default behavior for event triggers and the only event that can be used to invoke an [EventTrigger](../windows.ui.xaml/eventtrigger.md) is [FrameworkElement.Loaded](../windows.ui.xaml/frameworkelement_loaded.md). Because that's both the default and the only enabled behavior, you don't set [RoutedEvent](../windows.ui.xaml/eventtrigger_routedevent.md), and just use the XAML `<EventTrigger>`. For more info, see [Triggers](../windows.ui.xaml/frameworkelement_triggers.md).
 
@@ -48,4 +50,4 @@ This XAML example shows the basic structure for using [FrameworkElement.Triggers
 
 
 ## -see-also
-[TriggerAction](../windows.ui.xaml/triggeraction.md), [Triggers](../windows.ui.xaml/frameworkelement_triggers.md), [Storyboard](storyboard.md), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10))
+[TriggerAction](../windows.ui.xaml/triggeraction.md), [Triggers](../windows.ui.xaml/frameworkelement_triggers.md), [Storyboard](storyboard.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))

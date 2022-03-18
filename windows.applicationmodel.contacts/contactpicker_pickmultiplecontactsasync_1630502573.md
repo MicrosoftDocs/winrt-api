@@ -24,11 +24,6 @@ To pick only a single contact, use [PickSingleContactAsync](contactpicker_picksi
 Use the [SelectionMode](contactpicker_selectionmode.md) property to control whether your app receives all of a contact's information, or just specific fields.
 
 ## -examples
-This example demonstrates how to use PickMultipleContactsAsync to get multiple contacts.
-
-
-
-[!code-js[ContactsMultiPicker](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactsMultiPicker)]
 
 ## -see-also
 [PickContactsAsync](contactpicker_pickcontactsasync_540067144.md)

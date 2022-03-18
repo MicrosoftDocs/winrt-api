@@ -15,6 +15,8 @@ public Windows.UI.Xaml.DependencyProperty ListViewItemPresenterHorizontalContent
 
 Identifies the [ListViewItemPresenterHorizontalContentAlignment](listviewitempresenter_listviewitempresenterhorizontalcontentalignment.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterHorizontalContentAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.listviewitempresenterhorizontalcontentalignmentproperty).
+
 ## -property-value
 The identifier for the [ListViewItemPresenterHorizontalContentAlignment](listviewitempresenter_listviewitempresenterhorizontalcontentalignment.md) dependency property.
 
@@ -23,4 +25,4 @@ The identifier for the [ListViewItemPresenterHorizontalContentAlignment](listvie
 ## -examples
 
 ## -see-also
-[ListViewItemPresenterHorizontalContentAlignment](listviewitempresenter_listviewitempresenterhorizontalcontentalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[ListViewItemPresenterHorizontalContentAlignment](listviewitempresenter_listviewitempresenterhorizontalcontentalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

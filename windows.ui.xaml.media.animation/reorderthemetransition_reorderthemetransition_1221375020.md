@@ -12,6 +12,8 @@ public ReorderThemeTransition()
 ## -description
 Initializes a new instance of the [ReorderThemeTransition](reorderthemetransition.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.ReorderThemeTransition.ReorderThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.reorderthemetransition.#ctor).
+
 ## -remarks
 
 ## -examples

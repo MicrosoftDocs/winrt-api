@@ -10,6 +10,9 @@ public enum Windows.ApplicationModel.Wallet.WalletActionKind : int
 # WalletActionKind
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Represents the action that was taken on the item that caused your app to launch.
 
 ## -enum-fields
@@ -38,4 +41,4 @@ When your app is launched as a result of an action on an item in Wallet, the **O
 ## -examples
 
 ## -see-also
-[WalletActionActivatedEventArgs](../windows.applicationmodel.activation/walletactionactivatedeventargs.md), [WebUIWalletActionActivatedEventArgs](../windows.ui.webui/webuiwalletactionactivatedeventargs.md), [Handle app activation](https://docs.microsoft.com/windows/uwp/launch-resume/activate-an-app), [App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle)
+[WalletActionActivatedEventArgs](../windows.applicationmodel.activation/walletactionactivatedeventargs.md), [WebUIWalletActionActivatedEventArgs](../windows.ui.webui/webuiwalletactionactivatedeventargs.md), [Handle app activation](/windows/uwp/launch-resume/activate-an-app), [App lifecycle](/windows/uwp/launch-resume/app-lifecycle)

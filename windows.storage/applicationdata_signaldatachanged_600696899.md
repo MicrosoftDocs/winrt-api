@@ -20,4 +20,5 @@ The system automatically fires the [DataChanged](applicationdata_datachanged.md)
 ## -examples
 
 ## -see-also
-[Quickstart: Roaming application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465123(v=win.10)), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data)
+
+[Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data)

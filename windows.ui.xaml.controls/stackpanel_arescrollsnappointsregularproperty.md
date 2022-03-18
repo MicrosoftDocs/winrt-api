@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AreScrollSnapPointsRegularProperty { g
 ## -description
 Identifies the AreScrollSnapPointsRegular dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.StackPanel.AreScrollSnapPointsRegularProperty](/windows/winui/api/microsoft.ui.xaml.controls.stackpanel.arescrollsnappointsregularproperty).
+
 ## -property-value
 The identifier for the AreScrollSnapPointsRegular dependency property.
 

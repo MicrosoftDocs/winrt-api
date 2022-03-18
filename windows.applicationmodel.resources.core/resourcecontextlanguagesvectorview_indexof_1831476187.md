@@ -20,7 +20,7 @@ The [ResourceContext](resourcecontext.md) language qualifier to find in the set.
 The zero-based index of the [ResourceContext](resourcecontext.md) language qualifier, if the item is found. The method returns zero if the item is not found.
 
 ## -returns
-A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) that is **TRUE** if the [ResourceContext](resourcecontext.md) language qualifier is found; otherwise, **FALSE**.
+A [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) that is **TRUE** if the [ResourceContext](resourcecontext.md) language qualifier is found; otherwise, **FALSE**.
 
 ## -remarks
 

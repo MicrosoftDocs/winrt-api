@@ -25,11 +25,11 @@ The identifier for the geographic region.
 ## -remarks
 In the case that the symbol for the provided currency is the same symbol as that of a different currency in the provided region (or the home region if none is provided), formatting may use a currency code even if the [Mode](currencyformatter_mode.md) property is **UseSymbol**. This is to avoid ambiguity. For example, CurrencyFormatter ("USD", ["en"], "CA") creates a formatter that formats 3 as 3 CAD, even if the [Mode](currencyformatter_mode.md) property is **UseSymbol**. Similarly, CurrencyFormatter ("CAD", ["en"], "US") creates a formatter that formats 3 as 3 USD.
 
-If your app passes language tags used in this class to any [National Language Support](https://docs.microsoft.com/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
+If your app passes language tags used in this class to any [National Language Support](/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
 
-**Starting in :** Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919).) Note that the "nu-" extension can affect the numeral system used by [CurrencyFormatter](currencyformatter.md) objects.
+**Starting in :** Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](https://www.unicode.org/reports/tr35/#Key_Type_Definitions).) Note that the "nu-" extension can affect the numeral system used by [CurrencyFormatter](currencyformatter.md) objects.
 
 ## -examples
 
 ## -see-also
-[CurrencyFormatter(String)](currencyformatter_currencyformatter_290278668.md), [Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919)
+[CurrencyFormatter(String)](currencyformatter_currencyformatter_290278668.md), [Unicode Key/Type Definitions](https://www.unicode.org/reports/tr35/#Key_Type_Definitions)

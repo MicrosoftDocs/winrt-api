@@ -14,7 +14,7 @@ public class Printing3DFaceReductionOptions : Windows.Graphics.Printing3D.IPrint
 Provides additional information for the [TryReduceFacesAsync](printing3dmodel_tryreducefacesasync_1526716101.md) method in the [Printing3DModel](printing3dmodel.md) class
 
 ## -remarks
-This API is designed for use with 3D Manufacturing Format (3MF) packages. For more info about 3MF, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
+This API is designed for use with 3D Manufacturing Format (3MF) packages. For more info about 3MF, see the [3MF Specification](https://3mf.io/specification/).
 
 ## -examples
 

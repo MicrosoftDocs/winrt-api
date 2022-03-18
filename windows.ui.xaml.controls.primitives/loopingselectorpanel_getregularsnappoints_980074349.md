@@ -12,6 +12,8 @@ public float GetRegularSnapPoints(Windows.UI.Xaml.Controls.Orientation orientati
 ## -description
 Returns a read-only collection of numbers that represent the regular snap points for the specified orientation.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.GetRegularSnapPoints](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselectorpanel.getregularsnappoints).
+
 ## -parameters
 ### -param orientation
 The orientation of the requested snap points.

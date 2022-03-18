@@ -12,11 +12,13 @@ public int NewStartingIndex { get; }
 ## -description
 Gets the index at which the change occurred.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs.NewStartingIndex](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs.newstartingindex).
+
 ## -property-value
 The index at which the change occurred.
 
 ## -remarks
-When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://docs.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?redirectedfrom=MSDN) class.
+When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?view=dotnet-uwp-10.0&preserve-view=true) class.
 
 NewStartingIndex will contain the following values, depending on the [Action](notifycollectionchangedeventargs_action.md) being reported in the event data. <table>
    <tr><th>Action</th><th>Value</th></tr>
@@ -32,4 +34,4 @@ Note that this value is signed. This enables the -1 value cases.
 ## -examples
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind)

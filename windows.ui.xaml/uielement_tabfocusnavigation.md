@@ -12,6 +12,8 @@ public KeyboardNavigationMode TabFocusNavigation { get;  set; }
 ## -description
 Gets or sets a value that modifies how tabbing and [TabIndex](../windows.ui.xaml.controls/control_tabindex.md) work for this control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.TabFocusNavigation](/windows/winui/api/microsoft.ui.xaml.uielement.tabfocusnavigation).
+
 ## -xaml-syntax
 ```xaml
 <uiElement TabFocusNavigation="keyboardNavigationModeMemberName"/>
@@ -34,5 +36,5 @@ Use this property instead of the [Control.TabNavigation](../windows.ui.xaml.cont
 ## -examples
 
 ## -see-also
-[Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](https://docs.microsoft.com/windows/uwp/accessibility/keyboard-accessibility)
+[Keyboard interactions](/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](/windows/uwp/accessibility/keyboard-accessibility)
 

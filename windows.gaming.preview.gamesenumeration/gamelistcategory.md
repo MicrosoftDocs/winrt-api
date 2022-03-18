@@ -17,9 +17,15 @@ This API is not available to all apps. Unless your developer account is speciall
 
 ### -field Candidate:0
 
+The Candidate constant.
+
 ### -field ConfirmedBySystem:1
 
+The ConfirmedBySystem constant.
+
 ### -field ConfirmedByUser:2
+
+The ConfirmedByUser constant.
 
 ## -remarks
 

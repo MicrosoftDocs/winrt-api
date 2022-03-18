@@ -16,13 +16,13 @@ Asynchronously retrieves information for the specified subset of blobs that matc
 ## -parameters
 ### -param startIndex
 
-Type: **Number** \[JavaScript\] | [System.UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN) \[.NET\] | **uint32** \[C++\]
+Type: **Number** \[JavaScript\] | [System.UInt32](/dotnet/api/system.uint32?view=dotnet-uwp-10.0&preserve-view=true) \[.NET\] | **uint32** \[C++\]
 
 Index of the first item to return.
 
 ### -param maxNumberOfItems
 
-Type: **Number** \[JavaScript\] | [System.UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN) \[.NET\] | **uint32** \[C++\]
+Type: **Number** \[JavaScript\] | [System.UInt32](/dotnet/api/system.uint32?view=dotnet-uwp-10.0&preserve-view=true) \[.NET\] | **uint32** \[C++\]
 
 Maximum number of items to return.
 
@@ -40,5 +40,5 @@ After the asynchronous operation completes, check the [Status](gamesaveblobinfog
 
 ## -see-also
 
-[GameSaveBlobInfoQuery](gamesaveblobinfoquery.md)
+[GameSaveBlobInfoQuery](gamesaveblobinfoquery.md),
 [GetBlobInfoAsync](gamesaveblobinfoquery_getblobinfoasync_517889704.md)

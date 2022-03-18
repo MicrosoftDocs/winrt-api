@@ -12,6 +12,8 @@ public class Hyperlink : Windows.UI.Xaml.Documents.Span, Windows.UI.Xaml.Documen
 ## -description
 Provides an inline-level content element that provides facilities for hosting hyperlinks.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.Hyperlink](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink).
+
 ## -xaml-syntax
 ```xaml
 <Hyperlink .../>
@@ -36,7 +38,7 @@ You use the Hyperlink element to add interactive text to the content of a [TextB
 To use the hyperlink to navigate to a Uniform Resource Identifier (URI), set the [NavigateUri](hyperlink_navigateuri.md) property. When a user clicks or taps the Hyperlink element, the specified Uniform Resource Identifier (URI) opens in the default browser. The default browser runs in a separate process from your app.
 
 > [!TIP]
-> You don't have to use **http:** or **https:** schemes. You can use schemes such as **ms-appx:**, **ms-appdata:**, or **ms-resources:**, if there's resource content at these locations that's appropriate to load in a browser. However, the **file:** scheme is specifically blocked. For more info, see [URI schemes](https://docs.microsoft.com/previous-versions/windows/apps/jj655406(v=win.10)).
+> You don't have to use **http:** or **https:** schemes. You can use schemes such as **ms-appx:**, **ms-appdata:**, or **ms-resources:**, if there's resource content at these locations that's appropriate to load in a browser. However, the **file:** scheme is specifically blocked. For more info, see [URI schemes](/previous-versions/windows/apps/jj655406(v=win.10)).
 
 When a user clicks the Hyperlink, the value of the [NavigateUri](hyperlink_navigateuri.md) property is passed to a system handler for Uniform Resource Identifier (URI) types and schemes. The system then launches the app that is registered for the scheme of the Uniform Resource Identifier (URI) provided for [NavigateUri](hyperlink_navigateuri.md).
 
@@ -58,7 +60,7 @@ Hyperlink has restrictions on the content that can exist in its [Inlines](span_i
 
 ### Hyperlink and theme/style behavior
 
-Hyperlink doesn't inherit from [Control](../windows.ui.xaml.controls/control.md), so it doesn't have a [Style](../windows.ui.xaml/frameworkelement_style.md) property or a [Template](../windows.ui.xaml.controls/control_template.md). You can edit the properties that are inherited from [TextElement](textelement.md), such as [Foreground](textelement_foreground.md) or [FontFamily](textelement_fontfamily.md), to change the appearance of a Hyperlink, but you can't use a common style or template to apply changes. Instead of using a template, consider using common resources for values of Hyperlink properties to provide consistency. Some properties of Hyperlink use defaults from a [{ThemeResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/themeresource-markup-extension) value provided by the system. This enables the Hyperlink appearance to switch in appropriate ways when the user changes the system theme at run-time.
+Hyperlink doesn't inherit from [Control](../windows.ui.xaml.controls/control.md), so it doesn't have a [Style](../windows.ui.xaml/frameworkelement_style.md) property or a [Template](../windows.ui.xaml.controls/control_template.md). You can edit the properties that are inherited from [TextElement](textelement.md), such as [Foreground](textelement_foreground.md) or [FontFamily](textelement_fontfamily.md), to change the appearance of a Hyperlink, but you can't use a common style or template to apply changes. Instead of using a template, consider using common resources for values of Hyperlink properties to provide consistency. Some properties of Hyperlink use defaults from a [{ThemeResource} markup extension](/windows/uwp/xaml-platform/themeresource-markup-extension) value provided by the system. This enables the Hyperlink appearance to switch in appropriate ways when the user changes the system theme at run-time.
 
 The default color of the hyperlink is the accent color of the system. You can set the [Foreground](textelement_foreground.md) property to override this.
 

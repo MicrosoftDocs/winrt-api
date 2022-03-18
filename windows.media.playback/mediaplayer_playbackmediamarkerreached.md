@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler PlaybackMediaMarkerReached<Win
 Occurs when a media marker has been reached during playback. 
 
 > [!NOTE]
-> **MediaPlayer.PlaybackMediaMarkerReached** may be altered or unavailable after Windows 10, version 1607. Instead, use [MediaPlaybackItem.TimedMetadataTracks](mediaplaybackitem_timedmetadatatracks.md) to manage data or text cues. For more information, see [Media playback with MediaSource](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
+> **MediaPlayer.PlaybackMediaMarkerReached** may be altered or unavailable after Windows 10, version 1607. Instead, use [MediaPlaybackItem.TimedMetadataTracks](mediaplaybackitem_timedmetadatatracks.md) to manage data or text cues. For more information, see [Media playback with MediaSource](/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ## -remarks
 

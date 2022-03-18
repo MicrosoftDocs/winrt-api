@@ -12,8 +12,10 @@ public interface ITextChildProvider :
 ## -description
 Provides access to a text-based control that is a child of another text-based control. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.TextChild](../windows.ui.xaml.automation.peers/patterninterface.md).
 
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.ITextChildProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextchildprovider).
+
 ## -remarks
-This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [TextChild Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/textchild-control-pattern).
+This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [TextChild Control Pattern](/windows/desktop/WinAuto/textchild-control-pattern).
 
 ITextChildProvider isn't implemented by any existing Windows Runtime automation peers. The interface exists so that custom control authors can support the automation pattern in a custom control, and implement their automation support using the same Windows Runtime managed or C++ API as they use to define control logic or other automation support.
 
@@ -22,4 +24,4 @@ The [ITableItemProvider](itableitemprovider.md) pattern doesn't have a pattern p
 ## -examples
 
 ## -see-also
-[ITextChildProvider (COM interface)](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextchildprovider), [TextChild Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/textchild-control-pattern), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[ITextChildProvider (COM interface)](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextchildprovider), [TextChild Control Pattern](/windows/desktop/WinAuto/textchild-control-pattern), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

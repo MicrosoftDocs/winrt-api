@@ -20,18 +20,10 @@ An application may use this method to poll the sensor for the current reading as
 
 Before using the return value from this method, the application must first check that the value is not null. (If the value is null and you attempt to retrieve it, Windows will generate an exception.)
 
+## -examples
+
 The following example demonstrates how a UWP app built with XAML and C# retrieves the current reading for the default gyrometer.
 
-
-
 [!code-csharp[GetCurrentReadingCS](../windows.devices.sensors/code/gyrometer/csharp/Scenario2.xaml.cs#SnippetGetCurrentReadingCS)]
-
-The following example demonstrates how a UWP app built for Windows using JavaScript retrieves the current reading for the default gyrometer.
-
-
-
-[!code-js[GetReadingJS](../windows.devices.sensors/code/gyrometer/javascript/scenario2.js#SnippetGetReadingJS)]
-
-## -examples
 
 ## -see-also

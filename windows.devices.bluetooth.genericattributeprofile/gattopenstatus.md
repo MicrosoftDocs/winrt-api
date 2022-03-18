@@ -10,7 +10,7 @@ public enum GattOpenStatus : int
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattOpenStatus
 
 ## -description
-The status of [GattDeviceService.OpenAsync](../../windows.devices.bluetooth.genericattributeprofile/gattdeviceservice_openasync_1373379244.md).
+The status of [GattDeviceService.OpenAsync](./gattdeviceservice_openasync_1373379244.md).
 
 ## -enum-fields
 ### -field SharingViolation:4

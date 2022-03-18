@@ -23,4 +23,4 @@ Before the [MessageWebSocket](messagewebsocket.md) is connected, this property i
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)), [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)), [MessageWebSocket](messagewebsocket.md), [MessageWebSocket.SupportedProtocols](messagewebsocketcontrol_supportedprotocols.md)
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)), [MessageWebSocket](messagewebsocket.md), [MessageWebSocket.SupportedProtocols](messagewebsocketcontrol_supportedprotocols.md)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DisplayModeProperty { get; }
 ## -description
 Identifies the [DisplayMode](calendarview_displaymode.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.DisplayModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.displaymodeproperty).
+
 ## -property-value
 The identifier for the   [DisplayMode](calendarview_displaymode.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the   [DisplayMode](calendarview_displaymode.md) dependency 
 ## -examples
 
 ## -see-also
-[DisplayMode](calendarview_displaymode.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DisplayMode](calendarview_displaymode.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

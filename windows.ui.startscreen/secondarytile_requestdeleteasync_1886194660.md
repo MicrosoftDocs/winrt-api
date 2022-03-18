@@ -21,17 +21,13 @@ The point used as the lower-right corner of the **Pin to Start**  flyout.
 An object that provides information concerning the asynchronous delete operation.
 
 ## -remarks
-The only property that must be set on the tile before calling this method is [tileId](secondarytile_tileid.md). If [tileId](secondarytile_tileid.md) is not set, the call to this method raises an exception.
+The only property that must be set on the tile before calling this method is [TileId](secondarytile_tileid.md). If [TileId](secondarytile_tileid.md) is not set, the call to this method raises an exception.
 
-This method returns an asynchronous Boolean value through its [IAsyncOperation.getResults](../windows.foundation/iasyncoperation_1.md) method as shown here.
-
-```javascript
-oSecondaryTile.requestCreateAsync( { x:100, y:100 } ).then( function (isDeleted) { } );      
-```
+This method returns an asynchronous Boolean value through its [IAsyncOperation.GetResults](../windows.foundation/iasyncoperation_1.md) method as shown here.
 
 ```csharp
 void async showTileCreateRequest( SecondaryTile tile, Point pt)  
-{      
+{
     bool isDeleted = await tile.requestCreateAsync( pt );  
 }
 ```

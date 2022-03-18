@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty XYFocusDownProperty { get; }
 ## -description
 Identifies the [XYFocusDown](hyperlink_xyfocusdown.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusDownProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.xyfocusdownproperty).
+
 ## -property-value
 The identifier for the [XYFocusDown](hyperlink_xyfocusdown.md) dependency property.
 

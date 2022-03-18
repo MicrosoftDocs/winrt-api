@@ -42,4 +42,4 @@ The maximum and minimum values of pitch/tilt depend on the type of map view: 2D,
 ## -examples
 
 ## -see-also
-[Pitch](mapcontrol_pitch.md), [Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps)
+[Pitch](mapcontrol_pitch.md), [Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps)

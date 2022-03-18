@@ -15,7 +15,7 @@ Supports the ability to determine the capabilities of any connected hardware key
 
 ## -remarks
 
-The [Device Capabilities Sample](https://go.microsoft.com/fwlink/p/?linkid=231530) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
+The [Device Capabilities Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20Device%20capabilities%20sample) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
 
 The following code shows how to create an instance of this class, and use it to determine if a keyboard is present.
 
@@ -31,4 +31,4 @@ function getKeyboardCapabilities() {
 
 ## -see-also
 
-[Identify input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices), [Basic input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620514)
+[Identify input devices](/windows/uwp/design/input/identify-input-devices), [Basic input sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput)

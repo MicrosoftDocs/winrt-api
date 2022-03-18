@@ -12,6 +12,8 @@ public class EntranceThemeTransition : Windows.UI.Xaml.Media.Animation.Transitio
 ## -description
 Provides the animated transition behavior on controls when they first appear. You can use this on individual objects or on containers of objects. In the latter case, child elements will animate into view in sequence rather than all at the same time.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.EntranceThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancethemetransition).
+
 ## -xaml-syntax
 ```xaml
 <EntranceThemeTransition .../>
@@ -73,4 +75,4 @@ private void Button_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[Transition](transition.md), [Animating page transitions](https://docs.microsoft.com/previous-versions/windows/apps/jj649426(v=win.10)), [Guidelines and checklist for page transition animations](https://msdn.microsoft.com/library/windows/apps/jj635239.aspx)
+[Transition](transition.md), [Animating page transitions](/previous-versions/windows/apps/jj649426(v=win.10)), [Guidelines and checklist for page transition animations](https://msdn.microsoft.com/library/windows/apps/jj635239.aspx)

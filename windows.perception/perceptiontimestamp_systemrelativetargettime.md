@@ -17,7 +17,7 @@ Gets the specific time that is the subject of this timestamp, represented in the
 The system-relative QPC time.
 
 ## -remarks
-This value uses 100ns interval QPC time. For more information on QPC time, see [Acquiring high-resolution time stamps](https://docs.microsoft.com/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps). 
+This value uses 100ns interval QPC time. For more information on QPC time, see [Acquiring high-resolution time stamps](/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps). 
 
 ## -see-also
 

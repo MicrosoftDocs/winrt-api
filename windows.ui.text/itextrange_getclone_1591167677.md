@@ -12,6 +12,8 @@ public Windows.UI.Text.ITextRange GetClone()
 ## -description
 Creates a new object that is identical to this text range object.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.GetClone](/windows/winui/api/microsoft.ui.text.itextrange.getclone).
+
 ## -returns
 The duplicate text range object.
 

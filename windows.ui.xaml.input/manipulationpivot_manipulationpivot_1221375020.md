@@ -12,6 +12,8 @@ public ManipulationPivot()
 ## -description
 Initializes a new instance of the [ManipulationPivot](manipulationpivot.md) class with no initial values.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.ManipulationPivot.ManipulationPivot](/windows/winui/api/microsoft.ui.xaml.input.manipulationpivot.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Stereo3DVideoRenderMode Stereo3DVideoRenderMode { g
 ## -description
 Gets or sets an enumeration value that determines the stereo 3-D video render mode for the current media source.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.Stereo3DVideoRenderMode](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.stereo3dvideorendermode).
+
 ## -xaml-syntax
 ```xaml
 <MediaElement Stereo3DVideoRenderMode="stereo3DVideoRenderModeMemberName" .../>

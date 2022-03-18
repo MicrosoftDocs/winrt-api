@@ -12,6 +12,8 @@ public class Inline : Windows.UI.Xaml.Documents.TextElement, Windows.UI.Xaml.Doc
 ## -description
 Provides a base class for inline text elements, such as [Span](span.md) and [Run](run.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.Inline](/windows/winui/api/microsoft.ui.xaml.documents.inline).
+
 ## -remarks
 [InlineCollection](inlinecollection.md) is a strongly typed collection class that is used by various **Inlines** properties: [TextBlock.Inlines](../windows.ui.xaml.controls/textblock_inlines.md), [Paragraph.Inlines](paragraph_inlines.md) and [Span.Inlines](span_inlines.md). By specifying XAML object elements within one of these **Inlines** properties, you can assign multiple Inline elements to be the text content for an inline text container. This is usually done using an implicit collection and XAML property syntax, such that the inline child elements appear as direct children of the container in XAML markup. This example uses all of the common Inline types as content for a [Paragraph](paragraph.md):
 ```xaml
@@ -39,9 +41,9 @@ Inline is the parent class for several immediately derived classes that further 
 + [Span](span.md)
 
 
-[Span](span.md) has several derived classes too: [Bold](bold.md), [Hyperlink](hyperlink.md), [Italic](italic.md), and [Underline](underline.md). Span can also be used as a formatting element to apply [TextElement](textelement.md) properties to mixed content (inlines and plain text). [Block](block.md) and Inline are both considered base classes (you don't typically see a `<Inline>` tag in XAML). For more info on how to use block and inline elements, see [Quickstart: Displaying text](https://docs.microsoft.com/previous-versions/windows/apps/hh700392(v=win.10)).
+[Span](span.md) has several derived classes too: [Bold](bold.md), [Hyperlink](hyperlink.md), [Italic](italic.md), and [Underline](underline.md). Span can also be used as a formatting element to apply [TextElement](textelement.md) properties to mixed content (inlines and plain text). [Block](block.md) and Inline are both considered base classes (you don't typically see a `<Inline>` tag in XAML). For more info on how to use block and inline elements, see [Quickstart: Displaying text](/previous-versions/windows/apps/hh700392(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[TextElement](textelement.md), [Run](run.md), [Span](span.md), [Paragraph.Inlines](paragraph_inlines.md), [TextBlock.Inlines](../windows.ui.xaml.controls/textblock_inlines.md), [Quickstart: Displaying text](https://docs.microsoft.com/previous-versions/windows/apps/hh700392(v=win.10))
+[TextElement](textelement.md), [Run](run.md), [Span](span.md), [Paragraph.Inlines](paragraph_inlines.md), [TextBlock.Inlines](../windows.ui.xaml.controls/textblock_inlines.md), [Quickstart: Displaying text](/previous-versions/windows/apps/hh700392(v=win.10))

@@ -13,95 +13,94 @@ public class Playlist : Windows.Media.Playlists.IPlaylist
 Provides access to a media playlist.
 
 ## -remarks
-This API is used to save and load playlist files to and from disk. For information about playing lists of media items, see [Media items, playlists, and tracks](https://docs.microsoft.com/windows/uwp/audio-video-camera/media-playback-with-mediasource).
+This API is used to save and load playlist files to and from disk. For information about playing lists of media items, see [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
 ## -examples
-This example is an excerpt from the [Playlist sample](https://go.microsoft.com/fwlink/p/?linkid=231538). See the sample for the complete solution.
 
-```javascript
-// App namespace.
-var PlaylistSample = {};
+This example is an excerpt from the [Playlist sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/Playlists). See the sample for the complete solution.
+
+```csharp
 // Create and save a playlist from a set of audio files.
-function scenario1Create() {
-    var picker = new Windows.Storage.Pickers.FileOpenPicker();
-    picker.suggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.musicLibrary;
-    picker.fileTypeFilter.replaceAll(["*"]);
+async private void PickAudioButton_Click(object sender, RoutedEventArgs e)
+{
+    FileOpenPicker picker = MainPage.CreateFilePicker(MainPage.audioExtensions);
+    IReadOnlyList<StorageFile> files = await picker.PickMultipleFilesAsync();
 
-    picker.pickMultipleFilesAsync().then(function (items) {
-        PlaylistSample.list = new Windows.Media.Playlists.Playlist();
+    if (files.Count > 0)
+    {
+        Playlist playlist = new Playlist();
 
-        items.forEach(function (/*@override*/item) { 
-            PlaylistSample.list.files.append(item);
-        });
+        foreach (StorageFile file in files)
+        {
+            playlist.Files.Add(file);
+        }
 
-        sdkSample.displayStatus("Playlist sample.wpl created. Choose save location.");
-    }, function (error) {
-        sdkSample.displayError("Error in picking files.");
-    });
-}
+        StorageFolder folder = KnownFolders.MusicLibrary;
+        string name = "Sample";
+        NameCollisionOption collisionOption = NameCollisionOption.ReplaceExisting;
+        PlaylistFormat format = PlaylistFormat.WindowsMedia;
 
-// Save created playlist.
-function scenario1Save() {
-    var folderpicker = new Windows.Storage.Pickers.FolderPicker();
-    folderpicker.suggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.musicLibrary;
-    folderpicker.fileTypeFilter.replaceAll(["*"]);
-
-    folderpicker.pickSingleFolderAsync().then(function (folder) {
-        PlaylistSample.list.saveAsAsync(folder, "sample", Windows.Storage.NameCollisionOption.replaceExisting,
-                                        Windows.Media.Playlists.PlaylistFormat.windowsMedia).then(function (file) {
-            sdkSample.displayStatus("Playlist sample.wpl saved to the " + folder.name + " folder.");
-        });
-
-    }, function (error) {
-        sdkSample.displayError("Error in picking folder");
-    });
+        try
+        {
+            StorageFile savedFile = await playlist.SaveAsAsync(folder, name, collisionOption, format);
+            this.rootPage.NotifyUser(savedFile.Name + " was created and saved with " + files.Count + " files.", NotifyType.StatusMessage);
+        }
+        catch (Exception error)
+        {
+            rootPage.NotifyUser(error.Message, NotifyType.ErrorMessage);
+        }
+    }
+    else
+    {
+        rootPage.NotifyUser("No files picked.", NotifyType.ErrorMessage);
+    }
 }
 
 // Pick playlist and display its contents.
-function scenario2Display() {
-    var picker = new Windows.Storage.Pickers.FileOpenPicker();
-    picker.suggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.musicLibrary;
-    picker.fileTypeFilter.replaceAll([".wpl", ".zpl", ".m3u"]);
+async private void PickPlaylistButton_Click(object sender, RoutedEventArgs e)
+{
+    Playlist playlist = await PickPlaylistAsync();
 
-    picker.pickSingleFileAsync().then(function (/*@override*/item) {
-        Windows.Media.Playlists.Playlist.loadAsync(item).then(function (playlist) {
-            // Print the name of the playlist.
-            var output = "<p>Playlist content</p>";
-            var outputdiv = id("scenario2Output");
-            outputdiv.innerHTML = "";
-            var promises = {};
-            var promiseIndex = 0;
-            var musicProperties;
+    if (playlist != null)
+    {
+        string result = "Songs in playlist: " + playlist.Files.Count.ToString() + "\n";
 
-            // Request music properties for each file in the playlist.
-            playlist.files.forEach(function (file) {
-                promises[promiseIndex] = file.properties.getMusicPropertiesAsync();
-                promiseIndex++;
-            });
+        foreach (StorageFile file in playlist.Files)
+        {
+            MusicProperties properties = await file.Properties.GetMusicPropertiesAsync();
+            result += "\n";
+            result += "File: " + file.Path + "\n";
+            result += "Title: " + properties.Title + "\n";
+            result += "Album: " + properties.Album + "\n";
+            result += "Artist: " + properties.Artist + "\n";
+        }
 
-            // Print the music properties for each file. Due to the asynchronous
-            // nature of the call to retrieve music properties, the data may appear
-            // in an order different than the one specified in the original playlist.
-            // To guarantee the ordering we use Promise.join with an associative array
-            // passed as a parameter, containing an index for each individual promise.
-            WinJS.Promise.join(promises).then(function (results) {
-                for (var resultIndex = 0; resultIndex < promiseIndex; resultIndex++) {
-                    musicProperties = results[resultIndex];
-                    output = output + "<p>Title: " + musicProperties.title + "<br/>";
-                    output = output + "Album: " + musicProperties.album + "<br/>";
-                    output = output + "Artist: " + musicProperties.artist + "</p>";
-                    outputdiv.innerHTML = output;
-                }
-            });
-        });
+        this.OutputStatus.Text = result;
+    }
+}
 
-    }, function (error) {
-        sdkSample.displayError("Error in picking file.");
-    });
+private async Task<Playlist> PickPlaylistAsync()
+{
+    FileOpenPicker picker = CreateFilePicker(MainPage.playlistExtensions);
+    StorageFile file = await picker.PickSingleFileAsync(); 
+
+    if (file == null)
+    {
+        NotifyUser("No playlist picked.", NotifyType.ErrorMessage);
+        return null;
+    }
+
+    try
+    {
+        return await Playlist.LoadAsync(file);
+    }
+    catch (Exception ex)
+    {
+        NotifyUser(ex.Message, NotifyType.ErrorMessage);
+        return null;
+    }
 }
 ```
 
-
-
 ## -see-also
-[Playlist sample](https://go.microsoft.com/fwlink/p/?linkid=231538), [Playlists sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624039)
+[Playlist sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/Playlists)

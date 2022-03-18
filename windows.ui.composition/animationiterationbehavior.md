@@ -12,6 +12,8 @@ public enum Windows.UI.Composition.AnimationIterationBehavior : int
 ## -description
 Specifies if the animation should loop.
 
+Equivalent WinUI enum: [AnimationIterationBehavior](/windows/winui/api/microsoft.ui.composition.animationiterationbehavior).
+
 ## -enum-fields
 ### -field Count:0
 The animation should loop the specified number of times.
@@ -25,4 +27,4 @@ The animation should loop forever.
 ## -examples
 
 ## -see-also
-[Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060)
+[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation)

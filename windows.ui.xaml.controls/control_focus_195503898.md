@@ -20,6 +20,8 @@ Specifies how focus was set, as a value of the enumeration.
 **true** if focus was set to the control, or focus was already on the control. **false** if the control is not focusable.
 
 ## -remarks
+If you call this method on a `Control` with an [IsTabStop](control_istabstop.md) set to `false`, the call will be ignored and focus will not move, and the call will return `false`.
+
 You can't remove focus from a control by calling this method with @Windows.UI.Xaml.FocusState.Unfocused as the parameter. This value is not allowed and causes an exception. To remove focus from a control, set focus to a different control.
 
 You typically pass [FocusState.Programmatic](../windows.ui.xaml/focusstate.md) as the parameter to indicate the control obtained focus through a deliberate call to the Focus method. For example, if clicking an "Edit" button causes focus to be set on a [TextBox](textbox.md), use the [Programmatic](../windows.ui.xaml/focusstate.md) focus state.
@@ -51,4 +53,4 @@ private void Button_Click(object sender, RoutedEventArgs e)
 ```
 
 ## -see-also
-[Control.FocusState](control_focusstate.md), [UIElement.GotFocus](../windows.ui.xaml/uielement_gotfocus.md), [UIElement.LostFocus](../windows.ui.xaml/uielement_lostfocus.md), [Control.OnGotFocus](control_ongotfocus_1398920478.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](https://docs.microsoft.com/windows/uwp/accessibility/keyboard-accessibility), [Touch keyboard sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TouchKeyboard)
+[Control.FocusState](control_focusstate.md), [UIElement.GotFocus](../windows.ui.xaml/uielement_gotfocus.md), [UIElement.LostFocus](../windows.ui.xaml/uielement_lostfocus.md), [Control.OnGotFocus](control_ongotfocus_1398920478.md), [Keyboard interactions](/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](/windows/uwp/accessibility/keyboard-accessibility), [Touch keyboard sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TouchKeyboard)

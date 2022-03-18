@@ -27,4 +27,6 @@ The clock identifier to use.
 ## -examples
 
 ## -see-also
-[Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919)
+
+[Unicode Key/Type Definitions](https://www.unicode.org/reports/tr35/#Key_Type_Definitions), [Calendar, date, and time controls](/windows/uwp/design/controls-and-patterns/date-and-time), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [Date and time formatting sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)
+

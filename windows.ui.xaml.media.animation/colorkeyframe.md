@@ -12,6 +12,8 @@ public class ColorKeyFrame : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.M
 ## -description
 Provides a base class for specific animation key-frame techniques that define an animation segment with a [Color](../windows.ui/color.md) target value. Derived classes each provide a different key-frame interpolation method for a [Color](../windows.ui/color.md) value that is provided for a [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md) animation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframe).
+
 ## -remarks
 ### **ColorKeyFrame** derived classes
 

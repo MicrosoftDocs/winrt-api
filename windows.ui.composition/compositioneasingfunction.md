@@ -12,11 +12,14 @@ public class CompositionEasingFunction : Windows.UI.Composition.CompositionObjec
 ## -description
 Base class for interpolator functions to use with KeyFrameAnimations.
 
-The CompositionEasingFunction class is the base class for easing functions that are used with [KeyFrameAnimation](keyframeanimation.md) s. Easing functions are used to describe how the system interpolates between two different keyframes. Currently, there are three supported easing functions: [Linear](lineareasingfunction.md), [Cubic Bezier](cubicbeziereasingfunction.md) and [Step](stepeasingfunction.md).
+The CompositionEasingFunction class is the base class for easing functions that are used with [KeyFrameAnimation](keyframeanimation.md) s. Easing functions are used to describe how the system interpolates between two different keyframes. 
+For a list of supported easing functions, see the types in the Derived section.
+
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionEasingFunction](/windows/winui/api/microsoft.ui.composition.compositioneasingfunction).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

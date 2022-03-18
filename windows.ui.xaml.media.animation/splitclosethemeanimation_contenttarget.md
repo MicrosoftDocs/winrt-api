@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject ContentTarget { get;  set; }
 ## -description
 Gets or sets the UI element that will be translated. Typically this is a child/part of the element identified by [OpenedTargetName](splitclosethemeanimation_openedtargetname.md) or [OpenedTarget](splitclosethemeanimation_openedtarget.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitCloseThemeAnimation.ContentTarget](/windows/winui/api/microsoft.ui.xaml.media.animation.splitclosethemeanimation.contenttarget).
+
 ## -property-value
 The UI element that will be translated.
 

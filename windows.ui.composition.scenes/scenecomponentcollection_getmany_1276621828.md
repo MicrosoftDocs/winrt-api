@@ -14,6 +14,8 @@ public uint SceneComponentCollection.GetMany(UInt32 startIndex, SceneComponent[]
 
 Retrieves multiple elements in a single pass through the iterator.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneComponentCollection.GetMany](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponentcollection.getmany).
+
 ## -parameters
 ### -param startIndex
 

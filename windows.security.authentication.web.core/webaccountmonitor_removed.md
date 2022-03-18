@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler Removed<Windows.Security.Authe
 # Windows.Security.Authentication.Web.Core.WebAccountMonitor.Removed
 
 ## -description
-Fires when one of the monitored [WebAccount](../windows.security.credentials/webaccount.md) is removed.
+Fires when a monitored [WebAccount](../windows.security.credentials/webaccount.md) is removed.
 
 ## -remarks
 

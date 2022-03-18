@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Management.Deploym
 # Windows.Management.Deployment.PackageManager.RemovePackageAsync
 
 ## -description
-Removes a package for the current user asynchronously and receives progress and status messages on the removal operation. Dependency packages are also removed for the user if no other packages installed for the user depend on them.
+Removes a [Package](/uwp/api/windows.applicationmodel.package) for the current user asynchronously and receives progress and status messages on the removal operation. Dependency packages are also removed for the user if no other packages installed for the user depend on them.
 
 ## -parameters
 ### -param packageFullName
@@ -27,4 +27,5 @@ A pointer that receives the address of an object that implements the [IAsyncOper
 ## -examples
 
 ## -see-also
-[RemovePackageAsync(String)](packagemanager_removepackageasync_1124236459.md)
+
+[Package](/uwp/api/windows.applicationmodel.package), [RemovePackageAsync(String)](packagemanager_removepackageasync_1124236459.md)

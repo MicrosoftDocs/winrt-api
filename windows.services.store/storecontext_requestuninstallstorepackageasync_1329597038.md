@@ -28,6 +28,6 @@ When you call this method, the OS displays a dialog that asks the user's permiss
 > Optional packages and DLC packages are not available to all developer accounts.
 
 ## -see-also
-[RequestUninstallStorePackageByStoreIdAsync](storecontext_requestuninstallstorepackagebystoreidasync_1267943069.md),[UninstallStorePackageAsync](storecontext_uninstallstorepackageasync_597217492.md),[UninstallStorePackageByStoreIdAsync](storecontext_uninstallstorepackagebystoreidasync_262618884.md),[Optional packages and related set authoring](https://docs.microsoft.com/windows/uwp/packaging/optional-packages)
+[RequestUninstallStorePackageByStoreIdAsync](storecontext_requestuninstallstorepackagebystoreidasync_1267943069.md),[UninstallStorePackageAsync](storecontext_uninstallstorepackageasync_597217492.md),[UninstallStorePackageByStoreIdAsync](storecontext_uninstallstorepackagebystoreidasync_262618884.md),[Optional packages and related set authoring](/windows/uwp/packaging/optional-packages)
 
 ## -examples

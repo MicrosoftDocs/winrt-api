@@ -12,6 +12,8 @@ public class ElasticEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBase, W
 ## -description
 Represents an easing function that creates an animation that resembles a spring oscillating back and forth until it comes to rest.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ElasticEase](/windows/winui/api/microsoft.ui.xaml.media.animation.elasticease).
+
 ## -xaml-syntax
 ```xaml
 <ElasticEase .../>
@@ -27,7 +29,7 @@ You might get best results by just experimenting with the [Springiness](elastice
 
 [BounceEase](bounceease.md) is a similar easing function that works well for physics emulation in animations. The difference with ElasticEase is that a [BounceEase](bounceease.md) won't ever go outside the **From**/**To** range. Another way to conceptualize the two easing functions is that ElasticEase is what you might use to animate the plucking of a string, whereas [BounceEase](bounceease.md) is what you might use to show the bounce of a ball against a line or plane.
 
-An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations).
+An easing function can be applied to the **EasingFunction** properties of **From**/**To**/**By** animations, or to the **EasingFunction** properties of key-frame types used for the **Easing** variants of key-frame animations. For more info, see [Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations).
 
 ## -examples
 This XAML example applies an ElasticEase easing function to a [DoubleAnimation](doubleanimation.md) to create an animation that resembles a spring oscillating back and forth until it comes to rest.
@@ -41,5 +43,4 @@ This XAML example applies an ElasticEase easing function to a [DoubleAnimation](
 [!code-vb[ElasticEase_code](../windows.ui.xaml.media.animation/code/ElasticEase/vbnet/MainPage.xaml.vb#SnippetElasticEase_code)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)
-rticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)
+[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations), [PowerEase](powerease.md), [BackEase](backease.md), [BounceEase](bounceease.md), [CircleEase](circleease.md), [CubicEase](cubicease.md), [ExponentialEase](exponentialease.md), [QuadraticEase](quadraticease.md), [QuarticEase](quarticease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md), [QuinticEase](quinticease.md), [SineEase](sineease.md)

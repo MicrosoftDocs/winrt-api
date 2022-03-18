@@ -12,6 +12,8 @@ public class LoopingSelector : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml
 ## -description
 An infinitely scrolling selection control.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector).
+
 ## -remarks
 
 <!--No XAML syntax for this class. Can't be used as a XAML element because there is no public constructor. Properties of the class can be set indirectly though, because it is a Control and therefore has an implicit style via the key "primitives:LoopingSelector" in generic.xaml.-->

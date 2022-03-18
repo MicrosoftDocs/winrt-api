@@ -12,6 +12,8 @@ public Windows.UI.Xaml.RoutedEvent RightTappedEvent { get; }
 ## -description
 Gets the identifier for the [RightTapped](uielement_righttapped.md) routed event.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.RightTappedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.righttappedevent).
+
 ## -property-value
 The identifier for the [RightTapped](uielement_righttapped.md) routed event.
 

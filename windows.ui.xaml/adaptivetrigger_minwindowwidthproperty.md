@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MinWindowWidthProperty { get; }
 ## -description
 Identifies the [MinWindowWidth](adaptivetrigger_minwindowwidth.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.AdaptiveTrigger.MinWindowWidthProperty](/windows/winui/api/microsoft.ui.xaml.adaptivetrigger.minwindowwidthproperty).
+
 ## -property-value
 The identifier for the [MinWindowWidth](adaptivetrigger_minwindowwidth.md) dependency property.
 
@@ -23,4 +25,4 @@ To access the [MinWindowWidth](adaptivetrigger_minwindowwidth.md) dependency pro
 ## -examples
 
 ## -see-also
-[MinWindowWidth](adaptivetrigger_minwindowwidth.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MinWindowWidth](adaptivetrigger_minwindowwidth.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

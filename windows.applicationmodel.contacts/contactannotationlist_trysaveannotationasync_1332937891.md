@@ -17,7 +17,7 @@ Asynchronously attempts to save the [ContactAnnotation](contactannotation.md) to
 The annotation to save to the list.
 
 ## -returns
-True if the save was successful, otherwise false.
+`true` if the save was successful; otherwise, `false`.
 
 ## -remarks
 

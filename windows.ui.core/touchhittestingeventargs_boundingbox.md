@@ -19,7 +19,7 @@ Bounding rectangle of the touch contact area.
 The bounding rectangle is the area in which valid touch targets will be identified and ranked.
 
 > [!NOTE]
-> This bounding box may differ from the contact area reported by the digitizer when: + The digitizer reports a touch contact area that is outside the maximum or minimum size threshold recognized by [Touch Hit Testing](https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/touch-hit-testing-portal).
+> This bounding box may differ from the contact area reported by the digitizer when: + The digitizer reports a touch contact area that is outside the maximum or minimum size threshold recognized by [Touch Hit Testing](/previous-versions/windows/desktop/input_touchhittest/touch-hit-testing-portal).
 + A portion of the touch contact area is occluded by another object higher in the z-order.
 
 

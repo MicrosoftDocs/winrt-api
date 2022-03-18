@@ -22,7 +22,7 @@ An asynchronous download operation that includes progress updates.
 
 Thrown when a feature-specific **HRESULT** is returned from a method call.
 
-This is the most common exception that is thrown by networking methods. An app should use the **HRESULT** from the exception to determine the cause of the error. For more information on specific errors, see the **Error Codes** section below.
+This is the most common exception that is thrown by networking methods. An app should use the **HRESULT** from the exception to determine the cause of the error.
 
 #### AccessDeniedException
 
@@ -59,4 +59,4 @@ operation = await Task.Run(() => { return myDownloadOperation.StartAsync(); });
 ## -examples
 
 ## -see-also
-[Background Transfer Download sample](https://go.microsoft.com/fwlink/p/?linkid=245064), [BackgroundTransferError.GetStatus](backgroundtransfererror_getstatus_1856274933.md), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [Quickstart: Download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10))
+[Background Transfer Download sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample), [BackgroundTransferError.GetStatus](backgroundtransfererror_getstatus_1856274933.md), [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)), [Quickstart: Download a file](/previous-versions/windows/apps/hh700370(v=win.10))

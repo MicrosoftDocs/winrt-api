@@ -9,15 +9,19 @@ public IAsyncOperation<string> UserDataTaskListLimitedWriteOperations.TryComplet
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskListLimitedWriteOperations.TryCompleteTaskAsync
 
+
 ## -description
+
 Asynchronously attempts to mark a task as completed.
 
-## -params
+## -parameters
 
-## -param userDataTaskId
+### -param userDataTaskId
+
 The ID of the task to mark as completed.
 
 ## -returns
+
 The ID of the task marked as completed.
 
 ## -remarks
@@ -25,3 +29,4 @@ The ID of the task marked as completed.
 ## -see-also
 
 ## -examples
+

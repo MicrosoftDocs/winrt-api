@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush CheckSelectingBrush { get;  set; }
 ## -description
 Gets or sets the brush used to render the check mark on an item while it's being selected using a swipe interaction.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.CheckSelectingBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.checkselectingbrush).
+
 ## -xaml-syntax
 ```xaml
 <GridViewItemPresenter CheckSelectingBrush="themeResourceReference"/>
@@ -35,4 +37,4 @@ If you're setting this property as an attribute on a custom [GridViewItemPresent
 ## -examples
 
 ## -see-also
-[XAML theme resources](https://docs.microsoft.com/windows/uwp/controls-and-patterns/xaml-theme-resources)
+[XAML theme resources](/windows/uwp/controls-and-patterns/xaml-theme-resources)

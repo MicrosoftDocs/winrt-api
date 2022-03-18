@@ -10,7 +10,7 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.RequestAdd
 # Windows.Management.Deployment.PackageManager.RequestAddPackageAsync
 
 ## -description
-Requests a SmartScreen check and user verification before installing the app package(s).
+Requests a SmartScreen check and user verification before installing the app [Package(s)](/uwp/api/windows.applicationmodel.package).
 
 ## -parameters
 ### -param packageUri
@@ -37,6 +37,8 @@ The progress and the result of the app package deployment.
 ## -remarks
 
 ## -see-also
+
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -examples
 The example demonstrates how to use RequestAddPackageAsync in a UWP app by hooking it up to a button click handler. This will invoke the SmartScreen request UI window.

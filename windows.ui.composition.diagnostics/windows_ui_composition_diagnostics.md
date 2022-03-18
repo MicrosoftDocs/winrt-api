@@ -13,6 +13,8 @@ namespace Windows.UI.Composition.Diagnostics
 
 Provides APIs for user interface composition diagnostics and debugging.
 
+Equivalent WinUI namespace: [Microsoft.UI.Composition.Diagnostics](/windows/winui/api/microsoft.ui.composition.diagnostics).
+
 ## -remarks
 
 ## -see-also

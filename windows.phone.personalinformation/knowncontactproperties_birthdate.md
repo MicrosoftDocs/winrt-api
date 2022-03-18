@@ -16,7 +16,7 @@ Gets the **Birthdate** property name.
 The **Birthdate** property name.
 
 ## -remarks
-The value returned for the **Birthdate** key in a contact **Properties** collection is a [DateTime](../windows.foundation/datetime.md) for C++, a [DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN) for C#/Visual Basic.
+The value returned for the **Birthdate** key in a contact **Properties** collection is a [DateTime](../windows.foundation/datetime.md) for C++, a [DateTimeOffset](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true) for C#/Visual Basic.
 
 ## -examples
 

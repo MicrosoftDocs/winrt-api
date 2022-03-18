@@ -19,7 +19,7 @@ An app can set this property to **false** to indicate that the background task h
 An app can set this property to false to indicate that the background task has failed. Otherwise this property is always true. The foreground instance of your app can check if the task succeeded using the [completed](../windows.applicationmodel.background/backgroundtaskregistration_completed.md) event. The [checkResult ](../windows.applicationmodel.background/backgroundtaskcompletedeventargs_checkresult_301563999.md) method on the event args will throw an exception if the succeeded property is set to false. 
 
 > [!NOTE]
-> Once the background task sets this property and has therefore completed its work, the task must explicitly call the Web Workers [close](https://go.microsoft.com/fwlink/p/?linkid=237467) method to terminate itself.
+> Once the background task sets this property and has therefore completed its work, the task must explicitly call the Web Workers [close](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673568(v=vs.85)) method to terminate itself.
 
 ## -examples
 

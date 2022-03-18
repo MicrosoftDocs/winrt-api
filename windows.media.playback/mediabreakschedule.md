@@ -15,9 +15,9 @@ Represents a set of [MediaBreak](mediabreak.md) objects associated with a [Media
 ## -remarks
 Get the media break schedule for a media item by accessing the [BreakSchedule](mediaplaybackitem_breakschedule.md) property of the [MediaPlaybackItem](mediaplaybackitem.md) object.
 
-For how-to guidance for working with media breaks, see [Create, schedule, and manage media breaks](https://docs.microsoft.com/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks).
+For how-to guidance for working with media breaks, see [Create, schedule, and manage media breaks](/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks).
 
 ## -examples
 
 ## -see-also
-[Create, schedule, and manage media breaks](https://docs.microsoft.com/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks)
+[Create, schedule, and manage media breaks](/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks)

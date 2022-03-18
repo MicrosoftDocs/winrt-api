@@ -12,6 +12,8 @@ public bool MonthVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the month selector is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.MonthVisible](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.monthvisible).
+
 ## -xaml-syntax
 ```xaml
 <DatePicker MonthVisible="bool"/>
@@ -27,4 +29,4 @@ By default, the [DatePicker](datepicker.md) shows [ComboBox](combobox.md) elemen
 ## -examples
 
 ## -see-also
-[DayVisible](datepicker_dayvisible.md), [YearVisible](datepicker_yearvisible.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10))
+[DayVisible](datepicker_dayvisible.md), [YearVisible](datepicker_yearvisible.md), [Quickstart: Adding a DatePicker](/previous-versions/windows/apps/dn308514(v=win.10))

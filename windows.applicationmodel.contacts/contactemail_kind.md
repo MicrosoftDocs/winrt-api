@@ -10,7 +10,7 @@ public Windows.ApplicationModel.Contacts.ContactEmailKind Kind { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactEmail.Kind
 
 ## -description
-Gets and sets the kind of email address of a contact.
+Gets or sets the kind of email address of a contact.
 
 ## -property-value
 A [ContactEmailKind](contactemailkind.md)-typed value that indicates the type of email address.

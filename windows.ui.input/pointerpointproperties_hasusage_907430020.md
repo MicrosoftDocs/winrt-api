@@ -54,4 +54,4 @@ The following table lists the Human Interface Device (HID) usages that are expos
 ## -examples
 
 ## -see-also
-[GetUsageValue](pointerpointproperties_getusagevalue_1941837333.md), [HID Information](https://go.microsoft.com/fwlink/p/?linkid=233148)
+[GetUsageValue](pointerpointproperties_getusagevalue_1941837333.md), [HID Information](https://www.usb.org/developers/hidpage/)

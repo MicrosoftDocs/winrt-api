@@ -12,6 +12,8 @@ public int MaxUnitCount { get; }
 ## -description
 Gets the maximum unit count.
 
+Equivalent WinUI property: [Microsoft.UI.Text.TextConstants.MaxUnitCount](/windows/winui/api/microsoft.ui.text.textconstants.maxunitcount).
+
 ## -property-value
 The maximum unit count.
 

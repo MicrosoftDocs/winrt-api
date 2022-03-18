@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty SizeOfSetProperty { get; }
 ## -description
 Gets the identification of the size of set automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.SizeOfSetProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.sizeofsetproperty).
+
 ## -property-value
 The identification of the size of set automation property.
 

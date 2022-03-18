@@ -10,10 +10,10 @@ public string Keywords { get; }
 # Windows.Storage.SystemProperties.Keywords
 
 ## -description
-Gets the name of the [System.Keywords](https://docs.microsoft.com/windows/desktop/properties/props-system-keywords) property (one of the [Windows file properties](https://docs.microsoft.com/windows/desktop/properties/props).
+Gets the name of the [System.Keywords](/windows/desktop/properties/props-system-keywords) property (one of the [Windows file properties](/windows/desktop/properties/props).
 
 ## -property-value
-The name of the [System.Keywords](https://docs.microsoft.com/windows/desktop/properties/props-system-keywords) file property.
+The name of the [System.Keywords](/windows/desktop/properties/props-system-keywords) file property.
 
 ## -remarks
 

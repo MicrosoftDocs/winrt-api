@@ -14,6 +14,8 @@ public void CompositionProjectedShadowReceiverUnorderedCollection.Add(Compositio
 
 Adds the specified CompositionProjectedShadowReceiver to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionProjectedShadowReceiverUnorderedCollection.Add](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowreceiverunorderedcollection.add).
+
 ## -parameters
 ### -param value
 

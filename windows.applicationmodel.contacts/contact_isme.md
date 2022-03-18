@@ -10,10 +10,12 @@ public bool IsMe { get; }
 # Windows.ApplicationModel.Contacts.Contact.IsMe
 
 ## -description
-Gets a Boolean value indicating if this [Contact](contact.md) represents the user logged into the device.
+
+Gets a Boolean value that indicates whether this [Contact](contact.md) represents the user logged into the device.
 
 ## -property-value
-Boolean value indicating if this [Contact](contact.md) represents the user logged into the device.
+
+`true` if this [Contact](contact.md) represents the user logged into the device; otherwise, false.
 
 ## -remarks
 
@@ -22,4 +24,5 @@ Boolean value indicating if this [Contact](contact.md) represents the user logge
 ## -see-also
 
 ## -capabilities
+
 contactsSystem

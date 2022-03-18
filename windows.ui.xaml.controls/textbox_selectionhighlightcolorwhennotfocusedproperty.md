@@ -12,6 +12,8 @@ public DependencyProperty SelectionHighlightColorWhenNotFocusedProperty { get; }
 ## -description
 Identifies the **SelectionHighlightColorWhenNotFocused** dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.SelectionHighlightColorWhenNotFocusedProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectionhighlightcolorwhennotfocusedproperty).
+
 ## -property-value
 The identifier for the **SelectionHighlightColorWhenNotFocused** dependency property.
 

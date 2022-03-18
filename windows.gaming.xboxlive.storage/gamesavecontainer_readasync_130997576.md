@@ -16,7 +16,7 @@ Reads blobs from this container, as specified by *blobsToRead*. The buffers pass
 ## -parameters
 ### -param blobsToRead
 
-Type: **IMapView\<;String, IBuffer>;** \[JavaScript/C++\] | [System.Collections.Generic.IReadOnlyDictionary\<;String, IBuffer>;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2?redirectedfrom=MSDN) \[.NET\]
+Type: **IMapView\<;String, IBuffer>;** \[JavaScript/C++\] | [System.Collections.Generic.IReadOnlyDictionary\<;String, IBuffer>;](/dotnet/api/system.collections.generic.ireadonlydictionary-2?view=dotnet-uwp-10.0&preserve-view=true) \[.NET\]
 
 Collection of blob names and data buffers to receive blob data.
 

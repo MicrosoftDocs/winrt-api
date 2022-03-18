@@ -10,10 +10,10 @@ public bool IsShowContactCardSupported()
 # Windows.ApplicationModel.Contacts.ContactManager.IsShowContactCardSupported
 
 ## -description
-Gets a Boolean value indicating if the [ShowContactCard](/uwp/api/windows.applicationmodel.contacts.contactmanager.showcontactcard) method is supported on the current platform.
+Gets a Boolean value that indicates whether the [ShowContactCard](/uwp/api/windows.applicationmodel.contacts.contactmanager.showcontactcard) method is supported on the current platform.
 
 ## -returns
-A Boolean value indicating if the [ShowContactCard](/uwp/api/windows.applicationmodel.contacts.contactmanager.showcontactcard) method is supported on the current platform.
+`true` if the [ShowContactCard](/uwp/api/windows.applicationmodel.contacts.contactmanager.showcontactcard) method is supported on the current platform; otherwise, `false`.
 
 ## -remarks
 > [!NOTE]

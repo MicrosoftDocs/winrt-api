@@ -12,6 +12,8 @@ public class PickerFlyoutPresenterAutomationPeer : Windows.UI.Xaml.Automation.Pe
 ## -description
 Exposes [PickerFlyoutPresenter](../windows.ui.xaml.controls/pickerflyoutpresenter.md) types to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.PickerFlyoutPresenterAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.pickerflyoutpresenterautomationpeer).
+
 ## -remarks
 
 

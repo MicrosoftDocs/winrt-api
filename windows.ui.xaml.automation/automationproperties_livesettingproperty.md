@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LiveSettingProperty { get; }
 ## -description
 Identifies the [AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property, which is supported by an automation element that represents a live region.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.LiveSettingProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.livesettingproperty).
+
 ## -property-value
 The property identifier for the [AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property.
 

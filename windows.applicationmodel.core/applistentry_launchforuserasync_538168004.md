@@ -26,7 +26,7 @@ The app is launched in the same way as if the specified user clicked on the entr
 MUA apps launch with the a default user context. The `user` value, which is passed to the activated application via the event arguments, indicates who the app is activating on behalf of. A Single-User-Aware app will launch in the context of the `user` value that is passed into this API.
 
 ## -see-also
-[Introduction to multi-user applications](https://docs.microsoft.com/windows/uwp/xbox-apps/multi-user-applications)
+[Introduction to multi-user applications](/windows/uwp/xbox-apps/multi-user-applications)
 
 ## -examples
 ```csharp

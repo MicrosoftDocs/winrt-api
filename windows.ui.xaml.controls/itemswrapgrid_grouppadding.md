@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness GroupPadding { get;  set; }
 ## -description
 Gets or sets the amount of space around a group.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid.GroupPadding](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid.grouppadding).
+
 ## -xaml-syntax
 ```xaml
 <ItemsWrapGrid GroupPadding="uniform"/>

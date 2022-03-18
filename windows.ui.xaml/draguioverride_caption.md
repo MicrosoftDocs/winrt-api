@@ -12,6 +12,8 @@ public string Caption { get;  set; }
 ## -description
 Gets or sets the caption text that overlays the drag visual. The text typically describes the drag-and-drop action.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DragUIOverride.Caption](/windows/winui/api/microsoft.ui.xaml.draguioverride.caption).
+
 ## -property-value
 The caption text that overlays the drag visual.
 
@@ -20,3 +22,5 @@ The caption text that overlays the drag visual.
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

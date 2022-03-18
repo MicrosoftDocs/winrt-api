@@ -12,6 +12,8 @@ public void ReplaceAll(Windows.UI.Xaml.Media.GradientStop[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GradientStopCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.media.gradientstopcollection.replaceall).
+
 ## -parameters
 ### -param items
 The new collection items.

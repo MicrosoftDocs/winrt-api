@@ -14,6 +14,8 @@ public IReference<Color> Accent { get;  set; }
 
 Gets or sets the Accent color value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.Accent](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.accent).
+
 ## -property-value
 
 The Accent color value.

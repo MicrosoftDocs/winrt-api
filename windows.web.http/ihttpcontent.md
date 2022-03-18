@@ -13,7 +13,7 @@ public interface IHttpContent : Windows.Foundation.IClosable
 Provides a base interface for an HTTP entity body and content headers.
 
 ## -remarks
-The contents of an HTTP message corresponds to the entity body and headers associated with the content defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642). Several classes and an interface in the [Windows.Web.Http](windows_web_http.md) namespace can be used for HTTP content, including:
+The contents of an HTTP message corresponds to the entity body and headers associated with the content defined in [RFC 2616](https://tools.ietf.org/html/rfc2616). Several classes and an interface in the [Windows.Web.Http](windows_web_http.md) namespace can be used for HTTP content, including:
 
 
 + IHttpContent - A base interface for developers to create their own content objects. It represents an HTTP entity body and content headers. This interface has methods that get and set the actual content data. It also provides properties that get and set content related headers.

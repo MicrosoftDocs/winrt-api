@@ -13,6 +13,8 @@ public XamlSourceFocusNavigationRequest Request { get; }
 ## -description
 Gets a [XamlSourceFocusNavigationRequest](xamlsourcefocusnavigationrequest.md) object that specifies the reason and other info for the focus navigation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Hosting.DesktopWindowXamlSourceGotFocusEventArgs.Request](/windows/winui/api/microsoft.ui.xaml.hosting.desktopwindowxamlsourcegotfocuseventargs.request).
+
 ## -property-value
 An object that specifies the reason and other info for the focus navigation. 
 

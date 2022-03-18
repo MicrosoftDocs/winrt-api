@@ -13,6 +13,8 @@ public class MediaElement : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Co
 
 Represents an object that renders audio and video to the display. See Remarks.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MediaElement](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement).
+
 ## -xaml-syntax
 
 ```xaml
@@ -30,9 +32,9 @@ Represents an object that renders audio and video to the display. See Remarks.
 
 Use a MediaElement control to play audio and video files in your app. Built– in media transport controls let users interact with their media by providing a default playback experience comprised of various buttons including play, pause, closed captions, and others. See [MediaTransportControls](mediatransportcontrols.md) for more info.
 
-For info about the media formats that MediaElement supports, see [Supported codecs](https://docs.microsoft.com/windows/uwp/audio-video-camera/supported-codecs).
+For info about the media formats that MediaElement supports, see [Supported codecs](/windows/uwp/audio-video-camera/supported-codecs).
 
-For info about performance related to MediaElement, see [Optimize animations and media](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-animations-and-media).
+For info about performance related to MediaElement, see [Optimize animations and media](/windows/uwp/debug-test-perf/optimize-animations-and-media).
 
 ### Set the media source
 
@@ -72,13 +74,13 @@ You can create your own media transport controls by setting [AreTransportControl
 > [!TIP]
 > For better performance, avoid data binding to the [Position](mediaelement_position.md) property to reflect frequent position updates (for example with a progress bar). Instead, use the [DispatcherTimer](../windows.ui.xaml/dispatchertimer.md) to query the [Position](mediaelement_position.md) property.
 
-For more info and examples, see [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls).
+For more info and examples, see [Create custom transport controls](/windows/uwp/controls-and-patterns/custom-transport-controls).
 
 ### Open local media files
 
 To open files on the local system or from Microsoft OneDrive, you can use the [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) to get the file and [SetSource](mediaelement_setsource_1817094346.md) to set the media source, or you can programmatically access the user media folders.
 
-If your app needs access without user interaction to the **Music** or **Video** folders, for example if you are enumerating all the music or video files in the user's collection and displaying them in your app, then you need to declare the **Music Library** and **Video Library** capabilities. For more info, see [Files and folders in the Music, Pictures, and Videos libraries](https://docs.microsoft.com/windows/uwp/files/quickstart-managing-folders-in-the-music-pictures-and-videos-libraries).
+If your app needs access without user interaction to the **Music** or **Video** folders, for example if you are enumerating all the music or video files in the user's collection and displaying them in your app, then you need to declare the **Music Library** and **Video Library** capabilities. For more info, see [Files and folders in the Music, Pictures, and Videos libraries](/windows/uwp/files/quickstart-managing-folders-in-the-music-pictures-and-videos-libraries).
 
 The [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md) does not require special Capabilities to access files on the local file system, such as the user's **Music** or **Video** folders, since the user has complete control over which file is being accessed. From a security and privacy standpoint, it is best to minimize the number of capabilities your app uses.
 
@@ -139,7 +141,7 @@ Use the [AudioStreamIndex](mediaelement_audiostreamindex.md) property and the [G
 To search for a track in a specific language, start by iterating through each audio track on the video. Use [AudioStreamCount](mediaelement_audiostreamcount.md) as the max value for a **for** loop.
 1. Get the language of the audio track.
 
-Use the [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage_366720426.md) method to get the language of the track. The language of the track is identified by a [language code](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/), such as **"en"** for English or **"ja"** for Japanese.
+Use the [GetAudioStreamLanguage](mediaelement_getaudiostreamlanguage_366720426.md) method to get the language of the track. The language of the track is identified by a [language code](/previous-versions/windows/internet-explorer/ie-developer/), such as **"en"** for English or **"ja"** for Japanese.
 1. Set the active audio track.
 
 When you find the track with the desired language, set the [AudioStreamIndex](mediaelement_audiostreamindex.md) to the index of the track. Setting [AudioStreamIndex](mediaelement_audiostreamindex.md) to **null** selects the default audio track which is defined by the content.
@@ -246,7 +248,7 @@ Prior to Windows 8.1, the [IsFullWindow](mediaelement_isfullwindow.md) property
 
 Prior to Windows 8.1, the **Opacity** property is not supported on MediaElement.
 
-Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) property and built-in transport controls are not available. You must provide your own transport controls. For more info and examples, see [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls) and scenario 4 of the [XAML media playback sample](https://go.microsoft.com/fwlink/p/?linkid=226859).
+Prior to Windows 8.1, the [AreTransportControlsEnabled](mediaelement_aretransportcontrolsenabled.md) property and built-in transport controls are not available. You must provide your own transport controls. For more info and examples, see [Create custom transport controls](/windows/uwp/controls-and-patterns/custom-transport-controls) and scenario 4 of the [XAML media playback sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20media%20playback%20sample).
 
 ### Windows Phone 8
 
@@ -330,5 +332,4 @@ private void ShowPopupClicked(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Control](control.md), [MediaElement control guide](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/media-playback), [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls), [Media transport controls sample](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600)
-e](https://go.microsoft.com/fwlink/p/?LinkId=620023&amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[Control](control.md), [MediaElement control guide](/windows/uwp/design/controls-and-patterns/media-playback), [Create custom transport controls](/windows/uwp/controls-and-patterns/custom-transport-controls), [Media transport controls sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCustomMediaTransportControls?amp;amp;clcid=0x409), [Video playback sample](https://go.microsoft.com/fwlink/p/?LinkId=620020&amp;amp;clcid=0x409), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

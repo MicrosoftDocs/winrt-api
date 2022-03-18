@@ -12,6 +12,8 @@ public Windows.Foundation.Size DesiredSize { get; }
 ## -description
 Gets the size that this [UIElement](uielement.md) computed during the measure pass of the layout process.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.DesiredSize](/windows/winui/api/microsoft.ui.xaml.uielement.desiredsize).
+
 ## -property-value
 The size that this [UIElement](uielement.md) computed during the measure pass of the layout process.
 

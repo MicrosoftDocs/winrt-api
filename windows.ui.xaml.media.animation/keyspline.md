@@ -12,12 +12,12 @@ public class KeySpline : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Media
 ## -description
 Represents a spline key frame to define animation progress.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.KeySpline](/windows/winui/api/microsoft.ui.xaml.media.animation.keyspline).
+
 ## -xaml-syntax
 ```xaml
 <KeySpline .../>
-```
-
-```xaml
+- or -
 <object property="controlPoint1 controlPoint2"/>
 ```
 

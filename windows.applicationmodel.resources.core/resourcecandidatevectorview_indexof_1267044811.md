@@ -10,17 +10,17 @@ public bool IndexOf(Windows.ApplicationModel.Resources.Core.ResourceCandidate va
 # Windows.ApplicationModel.Resources.Core.ResourceCandidateVectorView.IndexOf
 
 ## -description
-Returns the index of a specified [ResourceCandidate](resourcecandidate.md) in the set.
+Gets the index of a specified [ResourceCandidate](resourcecandidate.md) in the set.
 
 ## -parameters
 ### -param value
 The [ResourceCandidate](resourcecandidate.md) to find in the set.
 
 ### -param index
-The zero-based index of the [ResourceCandidate](resourcecandidate.md), if the item is found. The method returns zero if the item is not found.
+The zero-based index of the [ResourceCandidate](resourcecandidate.md), if the item is found; zero if the item is not found.
 
 ## -returns
-A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) that is **TRUE** if the [ResourceCandidate](resourcecandidate.md) is found, otherwise **FALSE** if the item is not found.
+`true` if the [ResourceCandidate](resourcecandidate.md) is found; otherwise, `false` if the item is not found.
 
 ## -remarks
 

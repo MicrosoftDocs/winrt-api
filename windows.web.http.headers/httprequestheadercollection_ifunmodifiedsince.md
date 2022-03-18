@@ -18,7 +18,7 @@ The [DateTime](../windows.foundation/datetime.md) object that represents the val
 ## -remarks
 The IfUnmodifiedSince property represents the value of an **If-Unmodified-Since** HTTP header on an HTTP request message. The **If-Unmodified-Since** header is the date and time the content was not modified since.
 
-Javascript and .NET languages do not use the [DateTime](../windows.foundation/datetime.md) object directly. In Javascript a [DateTime](../windows.foundation/datetime.md) is projected as a  object, and in .NET it is projected as a [System.DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN). Each language transparently handles the conversion to the granularity and date ranges for the respective language.
+Javascript and .NET languages do not use the [DateTime](../windows.foundation/datetime.md) object directly. In Javascript a [DateTime](../windows.foundation/datetime.md) is projected as a  object, and in .NET it is projected as a [System.DateTimeOffset](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true). Each language transparently handles the conversion to the granularity and date ranges for the respective language.
 
 In C++, a  value has the same granularity as a  and supports the date ranges required by Javascript and .NET.
 

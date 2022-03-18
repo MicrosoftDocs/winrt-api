@@ -13,6 +13,8 @@ public class PerspectiveTransform3D : Windows.UI.Xaml.Media.Media3D.Transform3D,
 
 Represents a 3-D perspective effect.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Media3D.PerspectiveTransform3D](/windows/winui/api/microsoft.ui.xaml.media.media3d.perspectivetransform3d).
+
 ## -remarks
 
 For more info about using PerspectiveTransform3D, see the [UIElement.Transform3D](../windows.ui.xaml/uielement_transform3d.md) property.
@@ -25,4 +27,4 @@ Following the guidelines of the [The Direct3D Transformation Pipeline](XREF:TODO
 
 ## -see-also
 
-[Transform3D](transform3d.md), [CompositeTransform3D class](compositetransform3d.md), [UIElement.Transform3D property](../windows.ui.xaml/uielement_transform3d.md), [Transform3D parallax sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620638), [Transform3D animations sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620637)
+[Transform3D](transform3d.md), [CompositeTransform3D class](compositetransform3d.md), [UIElement.Transform3D property](../windows.ui.xaml/uielement_transform3d.md), [Transform3D parallax sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlTransform3DParallax), [Transform3D animations sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620637)

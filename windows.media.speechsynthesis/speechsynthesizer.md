@@ -42,25 +42,6 @@ Use a SpeechSynthesizer object to:
 
 The following example shows how to generate a speech audio stream from a basic text string.
 
-```javascript
-// The object for controlling and playing audio.
-var audio = new Audio();
-
-// The object for controlling the speech synthesis engine (voice).
-var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
-
-// Generate the audio stream from plain text.
-synth.synthesizeTextToStreamAsync("hello World").then(function (markersStream) {
-
-    // Convert the stream to a URL Blob.
-    var blob = MSApp.createBlobFromRandomAccessStream(markersStream.ContentType, markersStream);
-
-    // Send the Blob to the audio object.
-    audio.src = URL.createObjectURL(blob, { oneTimeOnly: true });
-    audio.play();
-});
-```
-
 ```csharp
 // The media object for controlling and playing audio.
 MediaElement mediaElement = this.media;
@@ -79,33 +60,6 @@ mediaElement.Play();
 [!code-cpp[SpeechSynthesizerText](../windows.media.speechsynthesis/code/SpeechSynthesis/cpp/MainPage.xaml.cpp#SnippetSpeechSynthesizerText)]
 
 This example shows how to generate a speech audio stream from an SSML string, which includes some modulation elements that control the pitch, speaking rate, and volume of the speech output.
-
-```javascript
-// The string to speak with SSML customizations.
-var Ssml = "<speak version='1.0' " +
-    "xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'>" +
-    "Hello <prosody contour='(0%,+80Hz) (10%,+80%) (40%,+80Hz)'>World</prosody> " + 
-    "<break time='500ms'/>" +
-    "Goodbye <prosody rate='slow' contour='(0%,+20Hz) (10%,+30%) (40%,+10Hz)'>World</prosody>" +
-    "</speak>";
-
-// The object for controlling and playing audio.
-var audio = new Audio();
-
-// The object for controlling the speech synthesis engine (voice).
-var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
-
-// Generate the audio stream from plain text.
-synth.synthesizeSsmlToStreamAsync(Ssml).then(function(synthesisStream){
-
-    // Convert the stream to a URL Blob.
-    var blob = MSApp.createBlobFromRandomAccessStream(synthesisStream.ContentType, synthesisStream);
-
-    // Send the Blob to the audio object.
-    audio.src = URL.createObjectURL(blob, { oneTimeOnly: true });
-    audio.play();
-});
-```
 
 ```csharp
 // The string to speak with SSML customizations.
@@ -135,4 +89,4 @@ mediaElement.Play();
 
 ## -see-also
 
-[Windows.Media.SpeechSynthesis](windows_media_speechsynthesis.md), [IClosable](../windows.foundation/iclosable.md), [VoiceInformation](voiceinformation.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897), [Holographic voice input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicVoiceInput)
+[Windows.Media.SpeechSynthesis](windows_media_speechsynthesis.md), [IClosable](../windows.foundation/iclosable.md), [VoiceInformation](voiceinformation.md), [Speech interactions](/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis), [Holographic voice input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicVoiceInput)

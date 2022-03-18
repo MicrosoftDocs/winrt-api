@@ -12,6 +12,8 @@ public class SwipeHintThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline,
 ## -description
 Represents the preconfigured animation that indicates that a **Swipe** gesture is now possible.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.SwipeHintThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.swipehintthemeanimation).
+
 ## -xaml-syntax
 ```xaml
 <SwipeHintThemeAnimation ... />
@@ -24,4 +26,4 @@ Note that setting the [Duration](timeline_duration.md) property has no effect on
 See the code example in [SwipeBackThemeAnimation](swipebackthemeanimation.md).
 
 ## -see-also
-[Timeline](timeline.md), [Animating swipe gestures](https://docs.microsoft.com/previous-versions/windows/apps/jj649435(v=win.10))
+[Timeline](timeline.md), [Animating swipe gestures](/previous-versions/windows/apps/jj649435(v=win.10))

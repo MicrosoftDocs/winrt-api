@@ -13,6 +13,8 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerWheelChanged
 
 Occurs when the delta value of a pointer wheel changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.PointerWheelChanged](/windows/winui/api/microsoft.ui.xaml.uielement.pointerwheelchanged).
+
 ## -xaml-syntax
 
 ```xaml
@@ -29,13 +31,13 @@ When you handle PointerWheelChanged, you are usually interested in the [MouseWhe
 
 If the element where pointer events occur has a non-default [ManipulationMode](uielement_manipulationmode.md) value, then the action might also result in various manipulation events like [ManipulationStarted](uielement_manipulationstarted.md). In addition, mouse wheel input can be handled as a built-in manipulation behavior by controls, even with no [ManipulationMode](uielement_manipulationmode.md) value set. For example, certain controls like [GridView](../windows.ui.xaml.controls/gridview.md) and [ListView](../windows.ui.xaml.controls/listview.md) can process mouse wheel input to initiate a scroll/pan action.
 
-PointerWheelChanged is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
+PointerWheelChanged is a routed event. For more info on the routed event concept, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
-For touch actions and also for interaction-specific or manipulation events that are consequences of a touch action, an element must be hit-test visible in order to be the event source and fire the event that is associated with the action. [UIElement.Visibility](uielement_visibility.md) must be [Visible](visibility.md). Other properties of derived types also affect hit-test visibility. For more info, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
+For touch actions and also for interaction-specific or manipulation events that are consequences of a touch action, an element must be hit-test visible in order to be the event source and fire the event that is associated with the action. [UIElement.Visibility](uielement_visibility.md) must be [Visible](visibility.md). Other properties of derived types also affect hit-test visibility. For more info, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 PointerWheelChanged supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/pointerroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
-Specific Windows Runtime controls may have class-based handling for the PointerWheelChanged input event. If so, the control probably has an override for the method [OnPointerWheelChanged](../windows.ui.xaml.controls/control_onpointerwheelchanged_1180757497.md). Typically the event is marked handled by the class handler, and the PointerWheelChanged event is not raised for handling by any user code handlers on that control. A control might do this in order to support traversal of its child elements by using a pointer wheel action. For more info on how class-based handling for events works, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
+Specific Windows Runtime controls may have class-based handling for the PointerWheelChanged input event. If so, the control probably has an override for the method [OnPointerWheelChanged](../windows.ui.xaml.controls/control_onpointerwheelchanged_1180757497.md). Typically the event is marked handled by the class handler, and the PointerWheelChanged event is not raised for handling by any user code handlers on that control. A control might do this in order to support traversal of its child elements by using a pointer wheel action. For more info on how class-based handling for events works, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 ### Windows 8 behavior
 
@@ -49,4 +51,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 
 ## -see-also
 
-[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement)
+[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [Handle pointer input](/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](/en-us/windows/uwp/gaming/relative-mouse-movement)

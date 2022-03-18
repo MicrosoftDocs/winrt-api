@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IIterator<Windows.UI.Composition.Interacti
 ## -description
 Returns an iterator pointing to the first object in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.First](/windows/winui/api/microsoft.ui.composition.interactions.compositioninteractionsourcecollection.first).
+
 ## -returns
 Returns an iterator pointing to the first object in the collection.
 

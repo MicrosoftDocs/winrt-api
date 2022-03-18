@@ -12,6 +12,8 @@ public void RemoveAtEnd()
 ## -description
 Removes the last item in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.TimelineCollection.RemoveAtEnd](/windows/winui/api/microsoft.ui.xaml.media.animation.timelinecollection.removeatend).
+
 ## -remarks
 
 ## -examples

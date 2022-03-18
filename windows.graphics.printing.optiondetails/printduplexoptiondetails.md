@@ -14,16 +14,16 @@ public class PrintDuplexOptionDetails : Windows.Graphics.Printing.OptionDetails.
 Represents the list of print duplex options.
 
 ## -remarks
-Here is a JavaScript code snippet that shows how to retrieve the object:
 
-```javascript
-//  Retrieve the advanced Print Task Options
-var printDetailedOptions = 
-     Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.getFromPrintTaskOptions(printTask.options);
+Here is a code snippet that shows how to retrieve the object:
 
-// get the object
-var printDuplexOptionDetails =
-     printDetailedOptions.options.lookup(Windows.Graphics.Printing.StandardPrintTaskOptions.duplex);
+```csharp
+//  Retrieve the advanced Print Task Options.
+PrintTaskOptionDetails printDetailedOptions = PrintTaskOptionDetails.GetFromPrintTaskOptions(printTask.Options);
+
+// Get the object.
+PrintDuplexOptionDetails printDuplexOptionDetails =
+     (PrintDuplexOptionDetails)printDetailedOptions.Options[StandardPrintTaskOptions.Duplex];
 ```
 
 ### Version history

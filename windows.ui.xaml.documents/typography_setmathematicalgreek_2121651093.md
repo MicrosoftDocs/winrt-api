@@ -12,6 +12,8 @@ public void SetMathematicalGreek(Windows.UI.Xaml.DependencyObject element, Syste
 ## -description
 Sets the value of the [MathematicalGreek](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetMathematicalGreek](/windows/winui/api/microsoft.ui.xaml.documents.typography.setmathematicalgreek).
+
 ## -parameters
 ### -param element
 The dependency object for which to set the value of the [MathematicalGreek](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) property.

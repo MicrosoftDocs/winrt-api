@@ -15,6 +15,8 @@ public Windows.UI.Xaml.DependencyProperty ListViewItemPresenterVerticalContentAl
 
 Identifies the [ListViewItemPresenterVerticalContentAlignment](listviewitempresenter_listviewitempresenterverticalcontentalignment.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterVerticalContentAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.listviewitempresenterverticalcontentalignmentproperty).
+
 ## -property-value
 The identifier for the [ListViewItemPresenterVerticalContentAlignment](listviewitempresenter_listviewitempresenterverticalcontentalignment.md) dependency property.
 
@@ -25,4 +27,4 @@ The identifier for the [ListViewItemPresenterVerticalContentAlignment](listviewi
 ## -examples
 
 ## -see-also
-[ListViewItemPresenterVerticalContentAlignment](listviewitempresenter_listviewitempresenterverticalcontentalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[ListViewItemPresenterVerticalContentAlignment](listviewitempresenter_listviewitempresenterverticalcontentalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

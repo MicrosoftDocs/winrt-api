@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.WindowInteractionState : int
 ## -description
 Defines values that specify the current state of the window for purposes of user or programmatic interaction.
 
+Equivalent WinUI enum: [WindowInteractionState](/windows/winui/api/microsoft.ui.xaml.automation.windowinteractionstate).
+
 ## -enum-fields
 ### -field Running:0
 The window is running. This doesn't guarantee that the window is responding or ready for user interaction.

@@ -12,6 +12,8 @@ public bool IndexOf(Windows.UI.Xaml.Controls.ColumnDefinition value, System.UInt
 ## -description
 Retrieves the index of the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ColumnDefinitionCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.controls.columndefinitioncollection.indexof).
+
 ## -parameters
 ### -param value
 The item to find in the collection.

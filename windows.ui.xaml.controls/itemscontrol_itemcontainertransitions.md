@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection ItemContainerTransit
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to the item containers of an [ItemsControl](itemscontrol.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemContainerTransitions](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemcontainertransitions).
+
 ## -xaml-syntax
 ```xaml
 <itemsControl>
@@ -36,7 +38,7 @@ The collection of [Transition](../windows.ui.xaml.media.animation/transition.md)
 
 Items collections can have transition animations associated with add or remove actions, or for drop target scenarios.
 
-This property is more typically set in a [Style](../windows.ui.xaml/style.md) setter rather than inline on an object element in UI definition. For more info, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls).
+This property is more typically set in a [Style](../windows.ui.xaml/style.md) setter rather than inline on an object element in UI definition. For more info, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls).
 
 The default template for [GridView](gridview.md) includes existing transition animations. Specifically, the default ItemContainerTransitions value already contains values for [AddDeleteThemeTransition](../windows.ui.xaml.media.animation/adddeletethemetransition.md), [ContentThemeTransition](../windows.ui.xaml.media.animation/contentthemetransition.md), [ReorderThemeTransition](../windows.ui.xaml.media.animation/reorderthemetransition.md) and [EntranceThemeTransition](../windows.ui.xaml.media.animation/entrancethemetransition.md) (with `IsStaggeringEnabled="False"`). If you are setting a new value for ItemContainerTransitions on [GridView](gridview.md), consider reproducing these same theme animations as a starting point.
 

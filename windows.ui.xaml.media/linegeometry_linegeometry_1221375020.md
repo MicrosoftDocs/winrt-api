@@ -12,6 +12,8 @@ public LineGeometry()
 ## -description
 Initializes a new instance of the [LineGeometry](linegeometry.md) class that has no length.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.LineGeometry.LineGeometry](/windows/winui/api/microsoft.ui.xaml.media.linegeometry.#ctor).
+
 ## -remarks
 
 ## -examples

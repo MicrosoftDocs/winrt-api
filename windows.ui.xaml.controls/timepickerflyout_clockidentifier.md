@@ -12,6 +12,8 @@ public string ClockIdentifier { get;  set; }
 ## -description
 Gets or sets the clock system to use.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePickerFlyout.ClockIdentifier](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyout.clockidentifier).
+
 ## -property-value
 The name of the clock system to use.
 

@@ -12,6 +12,8 @@ public bool IsMarkupExtension { get; }
 ## -description
 Gets a value that indicates whether the [IXamlType](ixamltype.md) represents a markup extension.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlType.IsMarkupExtension](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.ismarkupextension).
+
 ## -property-value
 **true** if the [IXamlType](ixamltype.md) represents a markup extension; otherwise, **false**.
 
@@ -20,4 +22,4 @@ Gets a value that indicates whether the [IXamlType](ixamltype.md) represents a m
 ## -examples
 
 ## -see-also
-[XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)
+[XAML overview](/windows/uwp/xaml-platform/xaml-overview)

@@ -12,6 +12,8 @@ public string CalendarIdentifier { get;  set; }
 ## -description
 Gets or sets the calendar system to use.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.CalendarIdentifier](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.calendaridentifier).
+
 ## -xaml-syntax
 ```xaml
 <DatePicker CalendarIdentifier="calendarSystem"/>
@@ -64,4 +66,4 @@ julianDatePicker.CalendarIdentifier = Windows.Globalization.CalendarIdentifiers.
 
 
 ## -see-also
-[CalendarIdentifiers](../windows.globalization/calendaridentifiers.md), [DateTimeFormatter.Calendar](../windows.globalization.datetimeformatting/datetimeformatter_calendar.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10))
+[CalendarIdentifiers](../windows.globalization/calendaridentifiers.md), [DateTimeFormatter.Calendar](../windows.globalization.datetimeformatting/datetimeformatter_calendar.md), [Quickstart: Adding a DatePicker](/previous-versions/windows/apps/dn308514(v=win.10))

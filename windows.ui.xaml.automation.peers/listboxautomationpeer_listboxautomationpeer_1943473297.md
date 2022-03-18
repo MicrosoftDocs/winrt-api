@@ -12,6 +12,8 @@ public ListBoxAutomationPeer(Windows.UI.Xaml.Controls.ListBox owner)
 ## -description
 Initializes a new instance of the [ListBoxAutomationPeer](listboxautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.ListBoxAutomationPeer.ListBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listboxautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The owner element to create for.

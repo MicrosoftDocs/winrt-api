@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ValueProperty { get; }
 ## -description
 Identifies the [Value](colorkeyframe_value.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame.ValueProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframe.valueproperty).
+
 ## -property-value
 The identifier for the [Value](colorkeyframe_value.md)  dependency property.
 

@@ -13,12 +13,14 @@ public class WindowsXamlManager : IClosable
 ## -description
 Represents the UWP XAML framework in a non-UWP desktop application (for example, a WPF or Windows Forms application) that hosts UWP controls.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Hosting.WindowsXamlManager](/windows/winui/api/microsoft.ui.xaml.hosting.windowsxamlmanager).
+
 ## -remarks
-**WindowsXamlManager** is part of the *UWP XAML hosting API*. This API enables non-UWP desktop applications to host any control that derives from [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md)) in a UI element that is associated with a window handle (HWND). This API can be used by desktop applications built using WPF, Windows Forms, and the Windows API (Win32). For more information, see [Using the UWP XAML hosting API in a desktop application](https://docs.microsoft.com/windows/uwp/xaml-platform/using-the-xaml-hosting-api).
+**WindowsXamlManager** is part of the *UWP XAML hosting API*. This API enables non-UWP desktop applications to host any control that derives from [Windows.UI.Xaml.UIElement](../windows.ui.xaml/uielement.md)) in a UI element that is associated with a window handle (HWND). This API can be used by desktop applications built using WPF, Windows Forms, and the Windows API (Win32). For more information, see [Using the UWP XAML hosting API in a desktop application](/windows/uwp/xaml-platform/using-the-xaml-hosting-api).
 
 **WindowsXamlManager** provides a static [InitializeForCurrentThread](windowsxamlmanager_initializeforcurrentthread_14911797.md) method you can use to initialize the UWP XAML framework on the current thread.
 
 ## -see-also
-[Using the UWP XAML hosting API in a desktop application](https://docs.microsoft.com/windows/uwp/xaml-platform/using-the-xaml-hosting-api)
+[Using the UWP XAML hosting API in a desktop application](/windows/uwp/xaml-platform/using-the-xaml-hosting-api)
 
 ## -examples

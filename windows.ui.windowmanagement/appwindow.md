@@ -29,6 +29,8 @@ To connect content to your AppWindow, call [ElementCompositionPreview.SetAppWind
 
 You can only connect XAML content to your AppWindow, there is no support for native DirectX or Holographic content.
 
+To specify a preferred minimum size for the app window, use the [WindowManagementPreview.SetPreferredMinSize](/uwp/api/windows.ui.windowmanagement.preview.windowmanagementpreview.setpreferredminsize) method.
+
 > [!TIP]
 >For more info and code demonstrating AppWindow, see [Show multiple views for an app](/windows/uwp/design/layout/show-multiple-views) and [Show multiple views with AppWindow](/windows/uwp/design/layout/app-window).
 >

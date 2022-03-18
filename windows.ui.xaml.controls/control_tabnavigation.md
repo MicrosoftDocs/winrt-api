@@ -15,6 +15,8 @@ Gets or sets a value that modifies how tabbing and [TabIndex](control_tabindex.m
 > [!NOTE]
 > For Windows 10 Creators Update (build 10.0.15063) and newer, the [TabFocusNavigation](../windows.ui.xaml/uielement_tabfocusnavigation.md) property is available on the [UIElement]() base class to include objects in the tab sequence that do not use a [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.TabNavigation](/windows/winui/api/microsoft.ui.xaml.controls.control.tabnavigation).
+
 ## -xaml-syntax
 ```xaml
 <control TabNavigation="keyboardNavigationModeMemberName"/>
@@ -32,4 +34,4 @@ A value of the enumeration. The default is **Local**.
 ## -examples
 
 ## -see-also
-[IsTabStop](control_istabstop.md), [TabIndex](control_tabindex.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](https://docs.microsoft.com/windows/uwp/accessibility/keyboard-accessibility)
+[IsTabStop](control_istabstop.md), [TabIndex](control_tabindex.md), [Keyboard interactions](/windows/uwp/input-and-devices/keyboard-interactions), [Keyboard accessibility](/windows/uwp/accessibility/keyboard-accessibility)

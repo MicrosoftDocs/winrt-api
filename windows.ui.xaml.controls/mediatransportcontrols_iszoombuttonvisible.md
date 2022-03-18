@@ -12,6 +12,8 @@ public bool IsZoomButtonVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the zoom button is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsZoomButtonVisible](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.iszoombuttonvisible).
+
 ## -xaml-syntax
 ```xaml
 

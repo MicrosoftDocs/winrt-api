@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ItemsControl GetItemsOwner(Windows.UI.Xaml.Depen
 ## -description
 Returns the [ItemsControl](itemscontrol.md) that the specified element hosts items for.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemsControl.GetItemsOwner](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.getitemsowner).
+
 ## -parameters
 ### -param element
 The host element.

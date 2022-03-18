@@ -11,7 +11,7 @@ public LearningModelFeatureKind Kind { get; }
 # Windows.AI.MachineLearning.TensorString.Kind
 
 ## -description
-The kind of the feature.
+Returns the kind of the feature.
 
 ## -property-value
 The kind of the feature.

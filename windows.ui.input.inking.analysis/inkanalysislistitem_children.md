@@ -10,7 +10,10 @@ public IVectorView<IInkAnalysisNode> Children { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisListItem.Children
 
 ## -description
-Gets all child nodes of the InkAnalysisListItem object. 
+
+Gets all child nodes of the InkAnalysisListItem object.
+
+## -property-value
 
 ## -remarks
 

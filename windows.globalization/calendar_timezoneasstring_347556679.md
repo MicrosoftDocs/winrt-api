@@ -24,4 +24,4 @@ The time zone abbreviation that is closest in length to *idealLength*. If there 
 ## -examples
 
 ## -see-also
-[TimeZoneAsString](calendar_timezoneasstring_1880050689.md)
+[TimeZoneAsString](calendar_timezoneasstring_1880050689.md), [Calendar, date, and time controls](/windows/uwp/design/controls-and-patterns/date-and-time), [Calendar sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Calendar), [Date and time formatting sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)

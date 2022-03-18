@@ -33,6 +33,8 @@ As indicated in the Events table, WebView doesn’t support most of the user inp
 
 In apps compiled for Windows 10, WebView uses the Microsoft Edge rendering engine to display HTML content. In apps compiled for Windows 8 or Windows 8.1, WebView uses Internet Explorer 11 in document mode. It does not support any Microsoft ActiveX controls or plugins like Microsoft Silverlight or Portable Document Format (PDF) files.
 
+**XAML Islands**: This control is not supported in XAML Islands apps. For alternatives, see [XAML Islands - Web view controls](/windows/apps/desktop/modernize/xaml-islands#web-view-controls).
+
 ### Navigating to content
 
 WebView provides several API for basic navigation: [GoBack](webview_goback_1030386674.md), [GoForward](webview_goforward_1537152893.md), [Stop](webview_stop_1201535524.md), [Refresh](webview_refresh_839939657.md), [CanGoBack](webview_cangoback.md), and [CanGoForward](webview_cangoforward.md). You can use these to add typical web browsing capabilities to your app.
@@ -62,7 +64,7 @@ webView1.Navigate(new Uri("http://www.contoso.com"));
 
 To navigate to a Uniform Resource Identifier (URI) with a POST request and HTTP headers, use the [NavigateWithHttpRequestMessage](webview_NavigateWithHttpRequestMessage.md) method. This method supports only [HttpMethod.Post](../windows.web.http/httpmethod_post.md) and [HttpMethod.Get](../windows.web.http/httpmethod_get.md) for the [HttpRequestMessage.Method](../windows.web.http/httprequestmessage_method.md) property value.
 
-To load uncompressed and unencrypted content from your app’s [LocalFolder](../windows.storage/applicationdata_localfolder.md) or [TemporaryFolder](../windows.storage/applicationdata_temporaryfolder.md) data stores, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appdata scheme](https://docs.microsoft.com/previous-versions/windows/apps/jj655406(v=win.10)). The WebView support for this scheme requires you to place your content in a subfolder under the local or temporary folder. This enables navigation to Uniform Resource Identifier (URI) such as ms-appdata:///local/*folder*/*file*.html and ms-appdata:///temp/*folder*/*file*.html. (To load compressed or encrypted files, see [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md).)
+To load uncompressed and unencrypted content from your app’s [LocalFolder](../windows.storage/applicationdata_localfolder.md) or [TemporaryFolder](../windows.storage/applicationdata_temporaryfolder.md) data stores, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appdata scheme](/previous-versions/windows/apps/jj655406(v=win.10)). The WebView support for this scheme requires you to place your content in a subfolder under the local or temporary folder. This enables navigation to Uniform Resource Identifier (URI) such as ms-appdata:///local/*folder*/*file*.html and ms-appdata:///temp/*folder*/*file*.html. (To load compressed or encrypted files, see [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md).)
 
 Each of these first-level subfolders is isolated from the content in other first-level subfolders. For example, you can navigate to ms-appdata:///temp/folder1/file.html, but you can’t have a link in this file to ms-appdata:///temp/folder2/file.html. However, you can still link to HTML content in the app package using the **ms-appx-web** scheme, and to web content using the **http** and **https**  Uniform Resource Identifier (URI) schemes.
 
@@ -70,7 +72,7 @@ Each of these first-level subfolders is isolated from the content in other first
 webView1.Navigate(new Uri("ms-appdata:///local/intro/welcome.html"));
 ```
 
-To load content from the your app package, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appx-web scheme](https://docs.microsoft.com/previous-versions/windows/apps/jj655406(v=win.10)).
+To load content from the your app package, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appx-web scheme](/previous-versions/windows/apps/jj655406(v=win.10)).
 
 ```csharp
 webView1.Navigate(new Uri("ms-appx-web:///help/about.html"));
@@ -404,7 +406,7 @@ If a web page hosted in a WebView uses the JavaScript **Alert** function, it wil
 
 You might be able to intercept the information displayed by an **Alert** and do what you want with it in the host application. Whether this is possible depends on how the page is written and whether you have control of it. A sample is available that demonstrates one possible technique to do this. The sample is written for Windows 8.1 and Windows Phone 8.1, but will also work for apps using the Universal Windows Platform (UWP). However, this might not work for every scenario.
 
-[How to intercept JavaScript alert in WebView in universal Windows apps sample](https://code.msdn.microsoft.com/windowsapps/How-to-intercept-854d33da)
+[How to intercept JavaScript alert in WebView in Universal Windows apps sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/How%20to%20intercept%20JavaScript%20alert%20in%20WebView%20in%20universal%20Windows%20apps)
 
 ### Notes for previous versions
 
@@ -485,4 +487,4 @@ webView2.NavigateToString(
 
 ## -see-also
 
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [WebView guidelines](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/web-view), [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582), [WebView control (HTML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620624), [WebView control (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=722922)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [WebView guidelines](/windows/uwp/design/controls-and-patterns/web-view), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

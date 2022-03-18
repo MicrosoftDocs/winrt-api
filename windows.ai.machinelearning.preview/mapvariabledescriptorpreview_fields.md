@@ -10,9 +10,11 @@ public ILearningModelVariableDescriptorPreview Fields { get; }
 # Windows.AI.MachineLearning.Preview.MapVariableDescriptorPreview.Fields
 
 ## -description
+
 **Deprecated.** Gets the data type of the field of the map variable.
 
 ## -property-value
+
 The data type of the field of the map variable.
 
 ## -remarks

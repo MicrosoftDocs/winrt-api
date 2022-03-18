@@ -15,9 +15,9 @@ Provides information about and control over the [MediaBreak](mediabreak.md) obje
 ## -remarks
 Get an instance of this class by accessing the [MediaPlayer.BreakManager](mediaplayer_breakmanager.md) property.
 
-For how-to guidance for working with media breaks, see [Create, schedule, and manage media breaks](https://docs.microsoft.com/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks).
+For how-to guidance for working with media breaks, see [Create, schedule, and manage media breaks](/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks).
 
 ## -examples
 
 ## -see-also
-[Create, schedule, and manage media breaks](https://docs.microsoft.com/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks), [MediaPlayer.BreakManager](mediaplayer_breakmanager.md)
+[Create, schedule, and manage media breaks](/windows/uwp/audio-video-camera/create-schedule-and-manage-media-breaks), [MediaPlayer.BreakManager](mediaplayer_breakmanager.md)

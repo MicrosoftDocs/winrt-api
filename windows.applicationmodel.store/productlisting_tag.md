@@ -16,7 +16,7 @@ Gets the custom developer data string (also called a tag) that contains custom i
 The custom developer data for the add-on.
 
 ## -remarks
-The custom developer data provides a way for developers to associate custom contextual information with an add-on. For more information about setting this value for an add-on, see [Enter add-on properties](https://docs.microsoft.com/windows/uwp/publish/enter-add-on-properties).
+The custom developer data provides a way for developers to associate custom contextual information with an add-on. For more information about setting this value for an add-on, see [Enter add-on properties](/windows/uwp/publish/enter-add-on-properties).
 
 ## -examples
 

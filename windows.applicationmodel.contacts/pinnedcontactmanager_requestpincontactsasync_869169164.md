@@ -9,21 +9,27 @@ public IAsyncOperation<bool> PinnedContactManager.RequestPinContactsAsync(IItera
 
 # Windows.ApplicationModel.Contacts.PinnedContactManager.RequestPinContactsAsync
 
+
 ## -description
+
 Pins a collection of contacts to the taskbar or **Start** menu.
 
-## -params
+## -parameters
 
-## -param contacts
+### -param contacts
+
 The collection of contacts to pin to the taskbar or **Start** menu.
 
-## -param surface
+### -param surface
+
 A [pinnedContactSurface](pinnedcontactsurface.md) value that specifies where in the Windows UI you would like to pin the contacts.
 
 ## -returns
+
 An asynchronous operation that returns a Boolean value that indicates whether the contacts were successfully pinned to the specified location.
 
 ## -remarks
+
 This method must be called from the main UI thread.
 
 ## -see-also
@@ -31,4 +37,6 @@ This method must be called from the main UI thread.
 ## -examples
 
 ## -capabilities
+
 contactsSystem
+

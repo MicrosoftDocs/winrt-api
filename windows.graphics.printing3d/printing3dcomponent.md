@@ -16,7 +16,7 @@ Represents a 3D Manufacturing Format (3MF) component. Acts as a container of oth
 ## -remarks
 A component is a translation applied to an underlying mesh or arrangement of translations on a set of other components.
 
-The Printing3DComponent class corresponds to the `<object>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
+The Printing3DComponent class corresponds to the `<object>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://3mf.io/specification/).
 
 ## -examples
 

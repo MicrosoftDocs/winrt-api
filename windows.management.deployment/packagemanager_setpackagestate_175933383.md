@@ -10,7 +10,7 @@ public void SetPackageState(System.String packageFullName, Windows.Management.De
 # Windows.Management.Deployment.PackageManager.SetPackageState
 
 ## -description
-Sets the state of a package, for example, to usable, tampered with, and so on.
+Sets the state of a [Package](/uwp/api/windows.applicationmodel.package), for example, to usable, tampered with, and so on.
 
 ## -parameters
 ### -param packageFullName
@@ -28,6 +28,7 @@ and alters the status for all users.
 
 ## -see-also
 
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

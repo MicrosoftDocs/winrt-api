@@ -14,16 +14,15 @@ public class PrintCollationOptionDetails : Windows.Graphics.Printing.OptionDetai
 Represents the list of print collation options.
 
 ## -remarks
-Here is a JavaScript code snippet that shows how to retrieve the object:
+Here is a code snippet that shows how to retrieve the object:
 
-```javascript
-//  Retrieve the advanced Print Task Options
-var printDetailedOptions = 
-     Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.getFromPrintTaskOptions(printTask.options);
+```csharp
+//  Retrieve the advanced Print Task Options.
+PrintTaskOptionDetails printDetailedOptions = PrintTaskOptionDetails.GetFromPrintTaskOptions(printTask.Options);
 
-// get the object
-var printCollationOptionDetails = 
-     printDetailedOptions.options.lookup(Windows.Graphics.Printing.StandardPrintTaskOptions.collation);
+// Get the object.
+PrintCollationOptionDetails printCollationOptionDetails =
+     (PrintCollationOptionDetails)printDetailedOptions.Options[StandardPrintTaskOptions.Collation];
 ```
 
 ### Version history

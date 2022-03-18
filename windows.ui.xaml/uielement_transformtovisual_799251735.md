@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.GeneralTransform TransformToVisual(Windows.UI.Xaml.
 ## -description
 Returns a transform object that can be used to transform coordinates from the [UIElement](uielement.md) to the specified object.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.TransformToVisual](/windows/winui/api/microsoft.ui.xaml.uielement.transformtovisual).
+
 ## -parameters
 ### -param visual
 The object to compare to the current object for purposes of obtaining the transform.
@@ -31,7 +33,7 @@ The most common scenario for TransformToVisual is if you want to use a local coo
 > The [GeneralTransform](../windows.ui.xaml.media/generaltransform.md) object returned by this method can be cast to a derived type, [Transform](../windows.ui.xaml.media/transform.md), but all the methods you need are defined by [GeneralTransform](../windows.ui.xaml.media/generaltransform.md). You can't cast to [TranslateTransform](../windows.ui.xaml.media/translatetransform.md) even though you might expect that the transform result would be a translation.
 
 ## -examples
-This example shows a scenario for calling TransformToVisual in order to interpret the coordinates from a [PointerPoint](../windows.ui.input/pointerpoint.md) in the coordinate reference frame of an element that's not the event sender. Here, the `queryPointer` method first accesses coordinates that do relate to the sender (this is the [GetCurrentPoint](../windows.ui.input/pointerpoint_getcurrentpoint_131721878.md) call in the first line of the method) but then later uses TransformToVisual to convert point coordinates into the reference frame for the `page` layout container that's actually several layers of containment up in the XAML. To see more context for this code (including seeing how `queryPointer` displays results in UI and when it's called), see the complete code example that is shown in the topic [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
+This example shows a scenario for calling TransformToVisual in order to interpret the coordinates from a [PointerPoint](../windows.ui.input/pointerpoint.md) in the coordinate reference frame of an element that's not the event sender. Here, the `queryPointer` method first accesses coordinates that do relate to the sender (this is the [GetCurrentPoint](../windows.ui.input/pointerpoint_getcurrentpoint_131721878.md) call in the first line of the method) but then later uses TransformToVisual to convert point coordinates into the reference frame for the `page` layout container that's actually several layers of containment up in the XAML. To see more context for this code (including seeing how `queryPointer` displays results in UI and when it's called), see the complete code example that is shown in the topic [Handle pointer input](/windows/uwp/design/input/handle-pointer-input).
 
 
 
@@ -44,4 +46,4 @@ This example shows a scenario for calling TransformToVisual in order to interpre
 [!code-csharp[QueryPointer](../windows.ui.input.inking/code/PointerInput_UWP/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
 
 ## -see-also
-[GeneralTransform](../windows.ui.xaml.media/generaltransform.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868)
+[GeneralTransform](../windows.ui.xaml.media/generaltransform.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml), [XAML two-dimensional transforms sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20two-dimensional%20transforms%20sample)

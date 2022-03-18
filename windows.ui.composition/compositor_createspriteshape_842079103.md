@@ -13,6 +13,8 @@ public CompositionSpriteShape Compositor.CreateSpriteShape(CompositionGeometry g
 
 Creates an instance of [CompositionSpriteShape](compositionspriteshape.md) using the specified geometry.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateSpriteShape](/windows/winui/api/microsoft.ui.composition.compositor.createspriteshape).
+
 ## -parameters
 ### -param geometry
 

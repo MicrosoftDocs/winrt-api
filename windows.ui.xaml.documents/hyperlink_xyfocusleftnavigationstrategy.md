@@ -12,6 +12,8 @@ public XYFocusNavigationStrategy XYFocusLeftNavigationStrategy { get;  set; }
 ## -description
 Gets or sets a value that specifies the strategy used to determine the target element of a left navigation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusLeftNavigationStrategy](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.xyfocusleftnavigationstrategy).
+
 ## -xaml-syntax
 ```xaml
 <Hyperlink XYFocusLeftNavigationStrategy="xyFocusNavigationStrategyMemberName"/>

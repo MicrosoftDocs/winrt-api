@@ -10,7 +10,9 @@ public TargetedContentCollection Content { get; }
 # Windows.Services.TargetedContent.TargetedContentContainer.Content
 
 ## -description
-Gets TargetedContentCollection object for a TargetedContentContainer object.
+
+Gets a [TargetedContentCollection](targetedcontentcollection.md) for a [TargetedContentContainer](targetedcontentcontainer.md) object.
+
 ## -property-value
 
 ## -remarks
@@ -19,6 +21,6 @@ Gets TargetedContentCollection object for a TargetedContentContainer object.
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

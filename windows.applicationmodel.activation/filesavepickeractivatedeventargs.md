@@ -36,7 +36,7 @@ All [Application](../windows.ui.xaml/application.md) overrides involved in an ac
 
 ## -examples
 
-The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a **FileSavePicker** activation point.
+The [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts) demonstrates how to respond to a **FileSavePicker** activation point.
 
 ```csharp
 
@@ -61,8 +61,8 @@ internal void Activate(FileSavePickerActivatedEventArgs args)
 }
 ```
 
-For C#, `args` for an [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) override on the [Application](../windows.ui.xaml/application.md) object references a FileSavePickerActivatedEventArgs object. The [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) override is in the App.xaml.cs file and the `Activate` method is in the FileSavePickerPage.xaml.cs file of the [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536).
+For C#, `args` for an [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) override on the [Application](../windows.ui.xaml/application.md) object references a FileSavePickerActivatedEventArgs object. The [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md) override is in the App.xaml.cs file and the `Activate` method is in the FileSavePickerPage.xaml.cs file of the [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts).
 
 ## -see-also
 
-[Windows.Storage.Pickers.Provider namespace](../windows.storage.pickers.provider/windows_storage_pickers_provider.md), [Windows.UI.WebUI.WebUIApplication.Activated event](../windows.ui.webui/webuiapplication_activated.md), [Windows.UI.Core.CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md), [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md), [Application](../windows.ui.xaml/application.md), [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536), [File picker provider sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620543)
+[Windows.Storage.Pickers.Provider namespace](../windows.storage.pickers.provider/windows_storage_pickers_provider.md), [Windows.UI.WebUI.WebUIApplication.Activated event](../windows.ui.webui/webuiapplication_activated.md), [Windows.UI.Core.CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md), [OnFileSavePickerActivated](../windows.ui.xaml/application_onfilesavepickeractivated_425940653.md), [Application](../windows.ui.xaml/application.md), [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts), [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)

@@ -13,6 +13,8 @@ public Windows.UI.Color LightPink { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFB6C1.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.LightPink](/windows/winui/api/microsoft.ui.colors.lightpink).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFFFB6C1.

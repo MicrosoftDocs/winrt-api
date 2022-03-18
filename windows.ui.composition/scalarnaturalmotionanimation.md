@@ -13,6 +13,8 @@ public class ScalarNaturalMotionAnimation : NaturalMotionAnimation, NaturalMotio
 
 The base Scalar NaturalMotionAnimation used to target a Scalar property.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.ScalarNaturalMotionAnimation](/windows/winui/api/microsoft.ui.composition.scalarnaturalmotionanimation).
+
 ## -remarks
 
 ## -see-also

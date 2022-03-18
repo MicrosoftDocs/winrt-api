@@ -12,6 +12,8 @@ public class RotateTransform : Windows.UI.Xaml.Media.Transform, Windows.UI.Xaml.
 ## -description
 Rotates an object around a specified point in a two-dimensional x-y coordinate system.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.RotateTransform](/windows/winui/api/microsoft.ui.xaml.media.rotatetransform).
+
 ## -xaml-syntax
 ```xaml
 <RotateTransform .../>
@@ -41,7 +43,7 @@ There are three ways to apply multiple transformations to the same object:
 
 ### Animating a **RotateTransform**
 
-You can apply an animation to a RotateTransform to cause an element to rotate over time. Typically you only apply the animation to the [Angle](rotatetransform_angle.md) property, and don't animate [CenterX](rotatetransform_centerx.md), [CenterY](rotatetransform_centery.md). For a continuously spinning animation, you'd typically use just the **To** value for a **From/To/By** style animation. [Angle](rotatetransform_angle.md) is a [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) so this involves a [DoubleAnimation](../windows.ui.xaml.media.animation/doubleanimation.md). For a continuous animation you'd set the [RepeatBehavior](../windows.ui.xaml.media.animation/timeline_repeatbehavior.md) of the [DoubleAnimation](../windows.ui.xaml.media.animation/doubleanimation.md) to **Forever**.
+You can apply an animation to a RotateTransform to cause an element to rotate over time. Typically you only apply the animation to the [Angle](rotatetransform_angle.md) property, and don't animate [CenterX](rotatetransform_centerx.md), [CenterY](rotatetransform_centery.md). For a continuously spinning animation, you'd typically use just the **To** value for a **From/To/By** style animation. [Angle](rotatetransform_angle.md) is a [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) so this involves a [DoubleAnimation](../windows.ui.xaml.media.animation/doubleanimation.md). For a continuous animation you'd set the [RepeatBehavior](../windows.ui.xaml.media.animation/timeline_repeatbehavior.md) of the [DoubleAnimation](../windows.ui.xaml.media.animation/doubleanimation.md) to **Forever**.
 ```xaml
 <Page.Resources>
   <Storyboard x:Name="spinrect">
@@ -79,4 +81,4 @@ This example uses a RotateTransform to rotate text. An [Angle](rotatetransform_a
 [!code-xaml[RotateTransform90DegreeText](../windows.ui.xaml/code/transforms/csharp/Rotate_90_Degrees_Text.xaml#SnippetRotateTransform90DegreeText)]
 
 ## -see-also
-[XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580), [Transform](transform.md)
+[XAML two-dimensional transforms sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20two-dimensional%20transforms%20sample), [Transform](transform.md)

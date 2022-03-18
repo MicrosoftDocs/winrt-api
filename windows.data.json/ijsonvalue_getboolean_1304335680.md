@@ -10,7 +10,7 @@ public bool GetBoolean()
 # Windows.Data.Json.IJsonValue.GetBoolean
 
 ## -description
-Returns the [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) if the [ValueType](ijsonvalue_valuetype.md) of the encapsulated value is [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN). If it is not, an exception is thrown.
+Returns the [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) if the [ValueType](ijsonvalue_valuetype.md) of the encapsulated value is [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true). If it is not, an exception is thrown.
 
 ## -returns
 The encapsulated value.

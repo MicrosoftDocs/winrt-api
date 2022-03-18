@@ -20,7 +20,7 @@ The initial value is an empty string.
 
 The language is specified using a RFC-1766 language code, for example, “en-US”.
 
-For more info on RFC-1766 language tags, see the [RFC-1766 specification](https://go.microsoft.com/fwlink/p/?LinkID=324766).
+For more info on RFC-1766 language tags, see the [RFC-1766 specification](https://tools.ietf.org/html/rfc1766).
 
 ## -examples
 

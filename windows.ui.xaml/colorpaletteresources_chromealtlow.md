@@ -14,6 +14,8 @@ public IReference<Color> ChromeAltLow { get;  set; }
 
 Gets or sets the ChromeAltLow color value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeAltLow](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromealtlow).
+
 ## -property-value
 
 The ChromeAltLow color value.

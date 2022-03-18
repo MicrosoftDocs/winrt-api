@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<int> RemoveMemberAsync(System.String u
 # Windows.Devices.AllJoyn.AllJoynSession.RemoveMemberAsync
 
 ## -description
-Removes the member specified by the input [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) from the session.
+Removes the member specified by the input [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) from the session.
 
 ## -parameters
 ### -param uniqueName

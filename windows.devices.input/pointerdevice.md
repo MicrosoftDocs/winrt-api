@@ -15,43 +15,14 @@ Supports the ability to identify the connected pointer devices and determine the
 ## -remarks
 The values returned by the properties discussed here are based on the total number of pointer devices connected: Boolean properties return true if one device supports a specific capability and numeric properties return the maximum value exposed by all devices.
 
-The [Device Capabilities Sample](https://go.microsoft.com/fwlink/p/?linkid=231530) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
+The [Device Capabilities Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20Device%20capabilities%20sample) demonstrates how to detect the presence of input devices and retrieve the capabilities and attributes of each device.
 
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
 
 ## -examples
 The following code shows how to use PointerDevice.
-
-```javascript
-function getPointerCapabilities() { 
-        var pointerDevices = 
-            Windows.Devices.Input.PointerDevice.getPointerDevices(); 
-        var htmlWrite = ""; 
-        var i; 
-        for (i = 0; i < pointerDevices.size; i++) { 
-            var displayIndex = /*@static_cast(String)*/(i + 1); 
-            htmlWrite += 
-                "<tr><td>(" + displayIndex + ") Pointer Device Type</td>  <td>" + 
-                getPointerDeviceType(pointerDevices[i].pointerDeviceType) + "</td></tr>"; 
-            htmlWrite += "<tr><td>(" + displayIndex + ") Is Integrated</td><td>" + 
-                /*@static_cast(String)*/pointerDevices[i].isIntegrated + "</td></tr>"; 
-            htmlWrite += "<tr><td>(" + displayIndex + ") Max Contacts</td><td>" + 
-                pointerDevices[i].maxContacts + "</td></tr>"; 
-            htmlWrite += "<tr><td>(" + displayIndex + ") Physical Device Rect</td><td>" + 
-                 pointerDevices[i].physicalDeviceRect.x + "," + 
-                 pointerDevices[i].physicalDeviceRect.y + "," + 
-                 pointerDevices[i].physicalDeviceRect.width + "," + 
-                 pointerDevices[i].physicalDeviceRect.height + "</td></tr>"; 
-            htmlWrite += "<tr><td>(" + displayIndex + ") Screen Rect</td><td>" + 
-                 pointerDevices[i].screenRect.x + "," + 
-                 pointerDevices[i].screenRect.y + "," + 
-                 pointerDevices[i].screenRect.width + "," + 
-                 pointerDevices[i].screenRect.height + "</td></tr>"; 
-        } 
-        id("pointerDevices").innerHTML = htmlWrite; 
-    }
-```
 
 ```csharp
 /// <summary> 
@@ -92,7 +63,66 @@ protected override void OnNavigatedTo(NavigationEventArgs e)
 }
 ```
 
-```cpp
+```cppwinrt
+#include <sstream>
+#include <winrt/Windows.Devices.Input.h>
+#include <winrt/Windows.Foundation.Collections.h>
+#include <winrt/Windows.UI.Xaml.Controls.h>
+using namespace winrt;
+using namespace Windows::Devices::Input;
+using namespace Windows::UI::Xaml::Controls;
+
+...
+
+void PointerGetSettings_Click(Windows::Foundation::IInspectable const& sender, Windows::UI::Xaml::RoutedEventArgs const& args)
+{
+    auto b{ sender.try_as<Button>() };
+    if (b)
+    {
+        Windows::Foundation::Collections::IVectorView<PointerDevice> pointerDeviceList{ PointerDevice::GetPointerDevices() };
+        std::wostringstream buffer;
+
+        for (uint32_t i = 0; i < pointerDeviceList.Size(); i++)
+        {
+            winrt::hstring displayIndex{ winrt::to_hstring(i + 1) };
+            buffer << L"Pointer device " << displayIndex.c_str() << std::endl;
+            buffer << L"This pointer device type is ";
+
+            switch (pointerDeviceList.GetAt(i).PointerDeviceType())
+            {
+            case PointerDeviceType::Mouse:
+                buffer << L"Mouse" << std::endl;
+                break;
+            case PointerDeviceType::Pen:
+                buffer << L"Pen" << std::endl;
+                break;
+            case PointerDeviceType::Touch:
+                buffer << L"Touch" << std::endl;
+                break;
+            default:
+                buffer << L"unknown" << std::endl;
+            }
+
+            buffer << L"This pointer device is " << (pointerDeviceList.GetAt(i).IsIntegrated() ? L"not " : L"") << L"external" << std::endl;
+            buffer << L"This pointer device has a maximum of " << pointerDeviceList.GetAt(i).MaxContacts() << L" contacts" << std::endl;
+            buffer << L"The physical device rect is " <<
+                pointerDeviceList.GetAt(i).PhysicalDeviceRect().X << L", " <<
+                pointerDeviceList.GetAt(i).PhysicalDeviceRect().Y << L", " <<
+                pointerDeviceList.GetAt(i).PhysicalDeviceRect().Width << L", " <<
+                pointerDeviceList.GetAt(i).PhysicalDeviceRect().Height << std::endl;
+            buffer << L"The screen rect is " <<
+                pointerDeviceList.GetAt(i).ScreenRect().X << L", " <<
+                pointerDeviceList.GetAt(i).ScreenRect().Y << L", " <<
+                pointerDeviceList.GetAt(i).ScreenRect().Width << L", " <<
+                pointerDeviceList.GetAt(i).ScreenRect().Height << std::endl << std::endl;
+        }
+
+        PointerOutputTextBlock().Text(buffer.str());
+    }
+}
+```
+
+```cppcx
 void SDKSample::DeviceCaps::Pointer::PointerGetSettings_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e) 
 { 
     Button^ b = safe_cast<Button^>(sender); 
@@ -126,5 +156,4 @@ void SDKSample::DeviceCaps::Pointer::PointerGetSettings_Click(Platform::Object^ 
 
 ## -see-also
 
-- [Windows.Devices.Input](windows_devices_input.md)
-- [Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices)
+[Windows.Devices.Input](windows_devices_input.md), [Quickstart: Identifying input devices](/windows/uwp/design/input/identify-input-devices)

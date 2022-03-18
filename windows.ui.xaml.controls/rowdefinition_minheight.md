@@ -12,6 +12,8 @@ public double MinHeight { get;  set; }
 ## -description
 Gets or sets a value that represents the minimum allowed height of a [RowDefinition](rowdefinition.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RowDefinition.MinHeight](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.minheight).
+
 ## -xaml-syntax
 ```xaml
 <RowDefinition MinHeight="double"/>
@@ -19,7 +21,7 @@ Gets or sets a value that represents the minimum allowed height of a [RowDefinit
 
 
 ## -property-value
-A [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) that represents the minimum allowed height. The default value is 0.
+A [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) that represents the minimum allowed height. The default value is 0.
 
 ## -remarks
 

@@ -12,6 +12,8 @@ public class ListViewBaseHeaderItem : Windows.UI.Xaml.Controls.ContentControl, W
 ## -description
 Provides the infrastructure for the [ListViewHeaderItem](listviewheaderitem.md) and [GridViewHeaderItem](gridviewheaderitem.md) classes.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ListViewBaseHeaderItem](/windows/winui/api/microsoft.ui.xaml.controls.listviewbaseheaderitem).
+
 ## -remarks
 For user interface purposes, ListViewBaseHeaderItem should be thought of as an abstract base class. Use [ListViewHeaderItem](listviewheaderitem.md) or [GridViewHeaderItem](gridviewheaderitem.md) instead.
 

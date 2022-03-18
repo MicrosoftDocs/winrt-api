@@ -17,9 +17,7 @@ Gets or sets the DataTemplate used to display the control's header.
 
 ```xaml
 <NavigationView HeaderTemplate="resourceReferenceToDataTemplate"/>
-```
-
-```xaml
+- or -
 <NavigationView>
   <NavigationView.HeaderTemplate>
     <DataTemplate>

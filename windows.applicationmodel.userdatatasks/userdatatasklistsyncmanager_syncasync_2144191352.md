@@ -9,12 +9,13 @@ public IAsyncOperation<bool> UserDataTaskListSyncManager.SyncAsync()
 
 # Windows.ApplicationModel.UserDataTasks.UserDataTaskListSyncManager.SyncAsync
 
+
 ## -description
+
 Asynchronously attempts to sync with the tasks server.
 
-## -params
-
 ## -returns
+
 A Boolean value indicating if the sync was successful.
 
 ## -remarks
@@ -22,3 +23,4 @@ A Boolean value indicating if the sync was successful.
 ## -see-also
 
 ## -examples
+

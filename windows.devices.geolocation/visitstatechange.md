@@ -30,7 +30,7 @@ When a state change is logged with the value **Arrived**, developers can assume 
 
 ## -see-also
 [Geovisit](Geovisit.md)
-[Guidelines for using Visits tracking](https://docs.microsoft.com/windows/uwp/maps-and-location/guidelines-for-visits)
+[Guidelines for using Visits tracking](/windows/uwp/maps-and-location/guidelines-for-visits)
 
 ## -examples
 

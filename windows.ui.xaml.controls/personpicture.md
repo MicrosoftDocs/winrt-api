@@ -22,7 +22,7 @@ Represents a control that displays the avatar image for a person, if one is avai
 ## -remarks
 
 ## -see-also
-[Person picture overview](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/person-picture)
+[Person picture overview](/windows/uwp/design/controls-and-patterns/person-picture)
 
 ## -examples
 

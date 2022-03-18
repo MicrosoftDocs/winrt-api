@@ -10,10 +10,10 @@ public class MediaPlaybackSessionBufferingStartedEventArgs
 # Windows.Media.Playback.MediaPlaybackSessionBufferingStartedEventArgs
 
 ## -description
-Provides data for the [BufferingStarted](https://docs.microsoft.com/uwp/api/windows.media.playback.mediaplaybacksession.BufferingStarted) event of a [MediaPlaybackSession](https://docs.microsoft.com/uwp/api/windows.media.playback.mediaplaybacksession).
+Provides data for the [BufferingStarted](/uwp/api/windows.media.playback.mediaplaybacksession.BufferingStarted) event of a [MediaPlaybackSession](/uwp/api/windows.media.playback.mediaplaybacksession).
 
 ## -remarks
-To maintain backwards compatibility, the **BufferingStarted** delegate signature receives the event args as a generic object. To get an instance of this class, use the [as](https://docs.microsoft.com/dotnet/articles/csharp/language-reference/keywords/as) operator keyword (C#) or [dynamic_cast](https://docs.microsoft.com/cpp/cpp/dynamic-cast-operator) (C++) to cast the *args* parameter to a **MediaPlaybackSessionBufferingStartedEventArgs**.
+To maintain backwards compatibility, the **BufferingStarted** delegate signature receives the event args as a generic object. To get an instance of this class, use the [as](/dotnet/articles/csharp/language-reference/keywords/as) operator keyword (C#) or [dynamic_cast](/cpp/cpp/dynamic-cast-operator) (C++) to cast the *args* parameter to a **MediaPlaybackSessionBufferingStartedEventArgs**.
 
 ## -see-also
 

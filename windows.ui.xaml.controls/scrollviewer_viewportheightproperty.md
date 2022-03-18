@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ViewportHeightProperty { get; }
 ## -description
 Identifies the [ViewportHeight](scrollviewer_viewportheight.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ViewportHeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.viewportheightproperty).
+
 ## -property-value
 The identifier for the [ViewportHeight](scrollviewer_viewportheight.md) dependency property.
 

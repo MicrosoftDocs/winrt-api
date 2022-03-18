@@ -13,4 +13,4 @@ Contains the classes, interfaces, structures and other components that are used 
 ## -examples
 
 ## -see-also
-[PrintTask class](printtask.md), [Printing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Printing), [Windows.Graphics.Printing.OptionDetails namespace](https://docs.microsoft.com/uwp/api/windows.graphics.printing.optiondetails)
+[PrintTask class](printtask.md), [Printing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Printing), [Windows.Graphics.Printing.OptionDetails namespace](/uwp/api/windows.graphics.printing.optiondetails)

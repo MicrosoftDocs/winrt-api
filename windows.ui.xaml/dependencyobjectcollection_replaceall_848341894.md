@@ -12,6 +12,8 @@ public void ReplaceAll(Windows.UI.Xaml.DependencyObject[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyObjectCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.dependencyobjectcollection.replaceall).
+
 ## -parameters
 ### -param items
 The new collection items.

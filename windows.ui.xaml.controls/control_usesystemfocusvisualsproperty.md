@@ -20,4 +20,4 @@ The identifier for the [UseSystemFocusVisuals](control_usesystemfocusvisuals.md)
 ## -examples
 
 ## -see-also
-[UseSystemFocusVisuals](control_usesystemfocusvisuals.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[UseSystemFocusVisuals](control_usesystemfocusvisuals.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

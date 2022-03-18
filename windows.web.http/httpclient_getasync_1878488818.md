@@ -22,9 +22,9 @@ The object representing the asynchronous operation.
 ## -remarks
 This operation will not block. The returned [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) (of [HttpResponseMessage](/uwp/api/windows.web.http.httpresponsemessage) and [HttpProgress](/uwp/api/windows.web.http.httpprogress)) completes after the whole response (including content) is read.
 
-For sample code in C#/VB/C++ and XAML that shows how to use [HttpClient](httpclient.md) and GetAsync(Uri) to connect to an HTTP server and send a GET request, see [HttpClient](https://docs.microsoft.com/windows/uwp/networking/httpclient).
+For sample code in C#/VB/C++ and XAML that shows how to use [HttpClient](httpclient.md) and GetAsync(Uri) to connect to an HTTP server and send a GET request, see [HttpClient](/windows/uwp/networking/httpclient).
 
-For sample code in JavaScript and HTML that shows how to use [HttpClient](httpclient.md) and GetAsync(Uri) to connect to an HTTP server and send a GET request, see [Connecting to an HTTP server using Windows.Web.Http](https://docs.microsoft.com/previous-versions/windows/apps/dn469430(v=win.10)).
+For sample code in JavaScript and HTML that shows how to use [HttpClient](httpclient.md) and GetAsync(Uri) to connect to an HTTP server and send a GET request, see [Connecting to an HTTP server using Windows.Web.Http](/previous-versions/windows/apps/dn469430(v=win.10)).
 
 Below are the exceptions that this function throws.
 
@@ -55,4 +55,4 @@ Thrown when insufficient memory is available to complete the operation.
 ## -examples
 
 ## -see-also
-[Connecting to an HTTP server using Windows.Web.Http](https://docs.microsoft.com/previous-versions/windows/apps/dn469430(v=win.10)), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [GetAsync(Uri, HttpCompletionOption)](httpclient_getasync_1105627628.md), [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md), [HttpResponseMessage](/uwp/api/windows.web.http.httpresponsemessage), [HttpProgress](/uwp/api/windows.web.http.httpprogress), [System.Uri](https://docs.microsoft.com/dotnet/api/system.uri?redirectedfrom=MSDN), [Windows.Foundation.Uri](../windows.foundation/uri.md), [Windows.Web.Http](windows_web_http.md), [HttpClient](/windows/uwp/networking/httpclient)
+[Connecting to an HTTP server using Windows.Web.Http](/previous-versions/windows/apps/dn469430(v=win.10)), [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)), [GetAsync(Uri, HttpCompletionOption)](httpclient_getasync_1105627628.md), [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md), [HttpResponseMessage](/uwp/api/windows.web.http.httpresponsemessage), [HttpProgress](/uwp/api/windows.web.http.httpprogress), [System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true), [Windows.Foundation.Uri](../windows.foundation/uri.md), [Windows.Web.Http](windows_web_http.md), [HttpClient](/windows/uwp/networking/httpclient)

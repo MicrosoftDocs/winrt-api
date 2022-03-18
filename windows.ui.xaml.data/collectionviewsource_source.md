@@ -12,6 +12,8 @@ public object Source { get;  set; }
 ## -description
 Gets or sets the collection object from which to create this view.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.CollectionViewSource.Source](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.source).
+
 ## -xaml-syntax
 ```xaml
 <CollectionViewSource Source="bindingReference" .../>
@@ -30,4 +32,4 @@ When you set this property, a view is generated automatically unless the source 
 ## -examples
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

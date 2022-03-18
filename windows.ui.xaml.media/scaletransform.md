@@ -12,6 +12,8 @@ public class ScaleTransform : Windows.UI.Xaml.Media.Transform, Windows.UI.Xaml.M
 ## -description
 Scales an object in the two-dimensional x-y coordinate system.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.ScaleTransform](/windows/winui/api/microsoft.ui.xaml.media.scaletransform).
+
 ## -xaml-syntax
 ```xaml
 <ScaleTransform .../>
@@ -38,4 +40,4 @@ This example shows how you can access and modify a transform in code at runtime.
 [!code-vb[transforms_ovw_interactive_transforms_code](../windows.ui.xaml.media/code/transforms_ovw_interactive_transforms/vbnet/Page.xaml.vb#Snippettransforms_ovw_interactive_transforms_code)]
 
 ## -see-also
-[Transform](transform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580)
+[Transform](transform.md), [XAML two-dimensional transforms sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20two-dimensional%20transforms%20sample)

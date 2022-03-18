@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness NineGrid { get;  set; }
 ## -description
 Gets or sets a value for a nine-grid metaphor that controls how the image can be resized. The nine-grid metaphor enables you to stretch edges and corners of an image differently than its center. See Remarks for more info and an illustration.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Image.NineGrid](/windows/winui/api/microsoft.ui.xaml.controls.image.ninegrid).
+
 ## -xaml-syntax
 ```xaml
 <Image NineGrid="left,top,right,bottom" />
@@ -50,4 +52,4 @@ A NineGrid value is only relevant for image rendering if the image does not have
 ## -examples
 
 ## -see-also
-[Thickness](../windows.ui.xaml/thickness.md), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575)
+[Thickness](../windows.ui.xaml/thickness.md), [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample)

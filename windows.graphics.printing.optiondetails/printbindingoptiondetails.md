@@ -14,17 +14,15 @@ public class PrintBindingOptionDetails : Windows.Graphics.Printing.OptionDetails
 Represents the list of print binding options.
 
 ## -remarks
-Here is a JavaScript code snippet that shows how to retrieve the object:
+Here is a code snippet that shows how to retrieve the object:
 
-```javascript
-//  Retrieve the advanced Print Task Options
-var printDetailedOptions = 
-     Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.getFromPrintTaskOptions(printTask.options);
+```csharp
+//  Retrieve the advanced Print Task Options.
+PrintTaskOptionDetails printDetailedOptions = PrintTaskOptionDetails.GetFromPrintTaskOptions(printTask.Options);
 
-// get the object
-var printBindingOptionDetails = 
-     printDetailedOptions.options.lookup(Windows.Graphics.Printing.StandardPrintTaskOptions.binding);
-
+// Get the object.
+PrintBindingOptionDetails printBindingOptionDetails =
+     (PrintBindingOptionDetails)printDetailedOptions.Options[StandardPrintTaskOptions.Binding];
 ```
 
 ### Version history

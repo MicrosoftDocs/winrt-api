@@ -19,7 +19,7 @@ You can find out if a device supports this control by checking [TorchControl.Sup
 
 You can access the TorchControl for the capture device through [MediaCapture.VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md).
 
-For how-to guidance for using the **TorchControl**, see [Camera-independent Flashlight](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera-independent-flashlight).
+For how-to guidance for using the **TorchControl**, see [Camera-independent Flashlight](/windows/uwp/audio-video-camera/camera-independent-flashlight).
 
 ## -examples
 

@@ -12,13 +12,12 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the control's header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.Header](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.header).
+
 ## -xaml-syntax
 ```xaml
 <DatePicker Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <DatePicker>
   <DatePicker.Header>headerObject</DatePicker.Header>
 </DatePicker>
@@ -39,4 +38,4 @@ You can set a data template for the Header value by using the [HeaderTemplate](d
 ## -examples
 
 ## -see-also
-[HeaderTemplate](datepicker_headertemplate.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10))
+[HeaderTemplate](datepicker_headertemplate.md), [Quickstart: Adding a DatePicker](/previous-versions/windows/apps/dn308514(v=win.10))

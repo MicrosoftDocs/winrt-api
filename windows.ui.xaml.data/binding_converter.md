@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Data.IValueConverter Converter { get;  set; }
 ## -description
 Gets or sets the converter object that is called by the binding engine to modify the data as it is passed between the source and target, or vice versa.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.Converter](/windows/winui/api/microsoft.ui.xaml.data.binding.converter).
+
 ## -xaml-syntax
 ```xaml
 <Binding Converter="converterReference"/>
@@ -45,5 +47,5 @@ To use your converter in a binding, first create an instance of your converter c
 [!code-vb[1](../windows.ui.xaml.controls.primitives/code/Binding_Collection/vbnet/DataConverter.vb#Snippet1)]
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)
 b4f1-6caf-4128-a61a-4e400b149011)

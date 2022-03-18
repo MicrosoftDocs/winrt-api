@@ -12,6 +12,8 @@ public void Pause()
 ## -description
 Pauses the animation clock associated with the storyboard.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.Storyboard.Pause](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.pause).
+
 ## -remarks
 
 ## -examples

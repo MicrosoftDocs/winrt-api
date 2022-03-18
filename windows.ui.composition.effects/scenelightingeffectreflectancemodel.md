@@ -13,6 +13,8 @@ public enum SceneLightingEffectReflectanceModel : int
 
 Defines constants that specify how the reflectance of a [SceneLightingEffect](scenelightingeffect.md) is modeled.
 
+Equivalent WinUI enum: [Microsoft.UI.Composition.Effects.SceneLightingEffectReflectanceModel](/windows/winui/api/microsoft.ui.composition.effects.scenelightingeffectreflectancemodel).
+
 ## -enum-fields
 
 ### -field PhysicallyBasedBlinnPhong:1

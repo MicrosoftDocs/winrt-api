@@ -10,10 +10,10 @@ public Windows.Foundation.TimeSpan Max { get; }
 # Windows.Media.Devices.ExposureControl.Max
 
 ## -description
-Gets the maximum exposure time.
+The maximum EV compensation supported.
 
 ## -property-value
-The maximum exposure time.
+The maximum EV compensation supported. This is an absolute EV value.
 
 ## -remarks
 

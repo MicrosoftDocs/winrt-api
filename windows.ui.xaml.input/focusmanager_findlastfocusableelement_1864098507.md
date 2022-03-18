@@ -13,6 +13,8 @@ public DependencyObject FocusManager.FindLastFocusableElement(DependencyObject s
 
 Retrieves the last element that can receive focus based on the specified scope.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.FocusManager.FindLastFocusableElement](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.findlastfocusableelement).
+
 ## -parameters
 
 ### -param searchScope
@@ -27,7 +29,7 @@ The last focusable object.
 
 ## -see-also
 
-[FindFirstFocusableElement(DependencyObject searchScope)](focusmanager_findfirstfocusableelement_2071666361.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[FindFirstFocusableElement(DependencyObject searchScope)](focusmanager_findfirstfocusableelement_2071666361.md), [Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 

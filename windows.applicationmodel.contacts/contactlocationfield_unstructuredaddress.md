@@ -10,10 +10,11 @@ public string UnstructuredAddress { get; }
 # Windows.ApplicationModel.Contacts.ContactLocationField.UnstructuredAddress
 
 ## -description
-> [!NOTE]
-> [ContactLocationField](contactlocationfield.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactAddress](contactaddress.md).
 
 Gets a string that represents an unstructured address.
+
+> [!NOTE]
+> [ContactLocationField](contactlocationfield.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [ContactAddress](contactaddress.md).
 
 ## -property-value
 The address of the contact in an unstructured format.

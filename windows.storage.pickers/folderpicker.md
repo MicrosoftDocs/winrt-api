@@ -16,7 +16,7 @@ Represents a UI element that lets the user choose folders.
 
 ## -remarks
 
-To get started accessing files and folders file picker, see [Open files and folders with a picker](https://docs.microsoft.com/windows/uwp/files/quickstart-using-file-and-folder-pickers).
+To get started accessing files and folders with a picker, see [Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
 ### Version history
 

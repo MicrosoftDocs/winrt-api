@@ -12,6 +12,8 @@ public class ContentThemeTransition : Windows.UI.Xaml.Media.Animation.Transition
 ## -description
 Provides the animated transition behavior for when the content of a control is changing. This might be applied in addition to [AddDeleteThemeTransition](adddeletethemetransition.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ContentThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.contentthemetransition).
+
 ## -xaml-syntax
 ```xaml
 <ContentThemeTransition ... />
@@ -72,7 +74,7 @@ void ContentHost_PointerPressed(Windows::Foundation::IInspectable const& /* send
 }
 ```
 
-```cpp
+```cppcx
 void MyPage::ContentHost_PointerPressed(Object^ sender, PointerRoutedEventArgs^ e)
 {
     // Replace the ContentControl's content with a new Rectangle of a random color.
@@ -93,4 +95,4 @@ void MyPage::ContentHost_PointerPressed(Object^ sender, PointerRoutedEventArgs^ 
 ```
 
 ## -see-also
-[Transition](transition.md), [Guidelines for content transition animations](https://docs.microsoft.com/windows/uwp/design/motion/content-transition-animations)
+[Transition](transition.md), [Guidelines for content transition animations](/windows/uwp/design/motion/content-transition-animations)

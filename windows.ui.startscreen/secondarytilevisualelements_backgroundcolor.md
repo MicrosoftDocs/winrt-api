@@ -34,14 +34,10 @@ secondaryTileVisualElements.BackgroundColor(Windows::UI::Colors::Magenta());
 secondaryTileVisualElements.BackgroundColor(Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120));
 ```
 
-```cpp
+```cppcx
 secondaryTileVisualElements->BackgroundColor = Windows::UI::Colors::Magenta;
 secondaryTileVisualElements->BackgroundColor = Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120);
 ```
 
-```javascript
-secondaryTileVisualElements.backgroundColor = Windows.UI.Colors.magenta;
-```
-
 ## -see-also
-[Secondary tiles sample](https://go.microsoft.com/fwlink/p/?linkid=231487)
+[Secondary tiles sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Secondary%20tiles%20sample)

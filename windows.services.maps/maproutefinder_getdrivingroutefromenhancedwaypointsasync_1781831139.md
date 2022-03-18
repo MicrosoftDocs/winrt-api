@@ -9,18 +9,23 @@ public IAsyncOperation<MapRouteFinderResult> MapRouteFinder.GetDrivingRouteFromE
 
 # Windows.Services.Maps.MapRouteFinder.GetDrivingRouteFromEnhancedWaypointsAsync
 
+
 ## -description
+
 Gets a driving route for the specified waypoints (using optimizations).
 
-## -params
+## -parameters
 
-## -param waypoints
+### -param waypoints
+
 A collection of stop, start, or intermediate waypoint that a route must pass through.
 
-## -param options
+### -param options
+
 The advanced routing options to be applied to this route.
 
 ## -returns
+
 When this method completes successfully, it returns a driving route contained in the [MapRouteFinderResult](maproutefinderresult.md).
 
 ## -remarks
@@ -28,3 +33,4 @@ When this method completes successfully, it returns a driving route contained in
 ## -see-also
 
 ## -examples
+

@@ -30,32 +30,47 @@ Upon initialization the printing user experience is responsible for helping the 
 
 When the user chooses to actually initiate printing by pressing Print in the print window, for example, the print task transitions from *Previewing* to the *Submitting* state, and the *Submitting* event is raised. The print document source is then passed a MakeDocument command and the process of submitting pages to the print subsystem begins. While pages are being submitted, the *Progressing* event is raised. An app may choose to use the information in the progressing event to let the user know how much content remains to be printed. Once the process of submitting the document to the print subsystem is complete, **PrintTask** raises the *Completion* event. This event indicates whether the job was submitted successfully, canceled, or failed during the submission process.
 
-Here is a JavaScript code snippet that shows how to indicate the order in which the default print settings should be displayed:
+Here is a code snippet from the [UWP print sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Printing) that shows how to indicate the order in which the default print settings should be displayed:
 
-```javascript
-    // Print event handler for printing via the PrintManager API.
-    // printEvent contains the print task request object
-    function onPrintTaskRequested(printEvent) {    
-        var printTask = printEvent.request.createPrintTask("Print Sample", function (args) {
-            args.setSource(MSApp.getHtmlPrintDocumentSource(document));
-        });
+```csharp
+protected override void PrintTaskRequested(PrintManager sender, PrintTaskRequestedEventArgs e)
+{
+    PrintTask printTask = null;
+    printTask = e.Request.CreatePrintTask("C# Printing SDK Sample", sourceRequestedArgs =>
+    {
+        IList<string> displayedOptions = printTask.Options.DisplayedOptions;
 
-        // Enumerate the printer settings you want to show.
-        // They appear in the print window in the same order
-        // that you list them here
-        printTask.options.displayedOptions.clear();
-        printTask.options.displayedOptions.append(Windows.Graphics.Printing.StandardPrintTaskOptions.copies);
-        printTask.options.displayedOptions.append(Windows.Graphics.Printing.StandardPrintTaskOptions.mediaSize);
-        printTask.options.displayedOptions.append(Windows.Graphics.Printing.StandardPrintTaskOptions.orientation);
-        printTask.options.displayedOptions.append(Windows.Graphics.Printing.StandardPrintTaskOptions.duplex);
+        // Choose the printer options to be shown.
+        // The order in which the options are appended determines the order in which they appear in the UI
+        displayedOptions.Clear();
+        displayedOptions.Add(Windows.Graphics.Printing.StandardPrintTaskOptions.Copies);
+        displayedOptions.Add(Windows.Graphics.Printing.StandardPrintTaskOptions.Orientation);
+        displayedOptions.Add(Windows.Graphics.Printing.StandardPrintTaskOptions.MediaSize);
+        displayedOptions.Add(Windows.Graphics.Printing.StandardPrintTaskOptions.Collation);
+        displayedOptions.Add(Windows.Graphics.Printing.StandardPrintTaskOptions.Duplex);
 
-        //You may even preset the values on a printer setting
-        printTask.options.mediaSize = Windows.Graphics.Printing.PrintMediaSize.northAmericaLegal;
-    };
+        // Preset the default value of the printer option
+        printTask.Options.MediaSize = PrintMediaSize.NorthAmericaLegal;
 
+        // Print Task event handler is invoked when the print job is completed.
+        printTask.Completed += async (s, args) =>
+        {
+            // Notify the user when the print operation fails.
+            if (args.Completion == PrintTaskCompletion.Failed)
+            {
+                await scenarioPage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                {
+                    MainPage.Current.NotifyUser("Failed to print.", NotifyType.ErrorMessage);
+                });
+            }
+        };
+
+        sourceRequestedArgs.SetSource(printDocumentSource);
+    });
+}
 ```
 
-To see the complete listing for this, and other printing scenarios using **PrintTask**, see [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)).
+To see the complete listing for this, and other printing scenarios using **PrintTask**, see [Printing](/windows/uwp/devices-sensors/print-from-your-app) and the [UWP print sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Printing).
 
 ### Version history
 
@@ -66,4 +81,4 @@ To see the complete listing for this, and other printing scenarios using **Print
 ## -examples
 
 ## -see-also
-[Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)), [PrintManager](printmanager.md)
+[Printing](/windows/uwp/devices-sensors/print-from-your-app), [PrintManager](printmanager.md)

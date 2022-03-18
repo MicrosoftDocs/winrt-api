@@ -12,6 +12,8 @@ virtual protected Windows.Foundation.Size ArrangeOverride(Windows.Foundation.Siz
 ## -description
 Provides the behavior for the "Arrange" pass of layout. Classes can override this method to define their own "Arrange" pass behavior.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkElement.ArrangeOverride](/windows/winui/api/microsoft.ui.xaml.frameworkelement.arrangeoverride).
+
 ## -parameters
 ### -param finalSize
 The final area within the parent that this object should use to arrange itself and its children.
@@ -42,5 +44,5 @@ This example implements ArrangeOverride to customize the "Arrange" pass logic fo
 [!code-vb[2](../windows.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet2)]
 
 ## -see-also
-[Arrange](uielement_arrange_958316931.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Arrange](uielement_arrange_958316931.md), [MeasureOverride](frameworkelement_measureoverride_1586581644.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)
 4162-1c9c-48f4-8a94-34976fb17079)

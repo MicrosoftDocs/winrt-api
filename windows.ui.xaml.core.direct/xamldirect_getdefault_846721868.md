@@ -25,6 +25,6 @@ For even better performance, consider caching this locally instead of querying f
 
 ## -examples
 
-```C#
+```csharp
 XamlDirect xamlDirectInstance = XamlDirect.GetDefault();
 ```

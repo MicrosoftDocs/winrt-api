@@ -12,6 +12,8 @@ public float DiffuseAmount { get;  set; }
 ## -description
 Intensity of the diffuse light.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Effects.SceneLightingEffect.DiffuseAmount](/windows/winui/api/microsoft.ui.composition.effects.scenelightingeffect.diffuseamount).
+
 ## -property-value
 Intensity of the diffuse light.
 

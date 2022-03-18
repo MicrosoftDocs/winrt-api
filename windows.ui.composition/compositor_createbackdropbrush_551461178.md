@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionBackdropBrush CreateBackdropBrush()
 ## -description
 Creates an instance of [CompositionBackdropBrush](compositionbackdropbrush.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateBackdropBrush](/windows/winui/api/microsoft.ui.composition.compositor.createbackdropbrush).
+
 ## -returns
 Returns the created [CompositionBackdropBrush](compositionbackdropbrush.md) object.
 

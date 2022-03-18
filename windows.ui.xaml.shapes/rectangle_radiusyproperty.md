@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty RadiusYProperty { get; }
 ## -description
 Identifies the [RadiusY](rectangle_radiusy.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Rectangle.RadiusYProperty](/windows/winui/api/microsoft.ui.xaml.shapes.rectangle.radiusyproperty).
+
 ## -property-value
 The identifier for the [RadiusY](rectangle_radiusy.md) dependency property.
 

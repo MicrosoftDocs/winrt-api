@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsStereo3DVideoProperty { get; }
 ## -description
 Identifies the [IsStereo3DVideo](mediaelement_isstereo3dvideo.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.IsStereo3DVideoProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.isstereo3dvideoproperty).
+
 ## -property-value
 The identifier for the [IsStereo3DVideo](mediaelement_isstereo3dvideo.md) dependency property.
 

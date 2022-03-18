@@ -13,6 +13,8 @@ public class DragUI : Windows.UI.Xaml.IDragUI
 
 Provides the visual representation of the data being dragged at the start of a drag-and-drop operation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.DragUI](/windows/winui/api/microsoft.ui.xaml.dragui).
+
 ## -remarks
 
 An instance of this class is passed to the handler of the [UIElement.DragStarting](uielement_dragstarting.md) event in the [DragStartingEventArgs.DragUI](dragstartingeventargs_dragui.md) property.
@@ -21,4 +23,4 @@ An instance of this class is passed to the handler of the [UIElement.DragStartin
 
 ## -see-also
 
-[Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

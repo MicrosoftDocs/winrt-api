@@ -14,16 +14,18 @@ public ICommand Command { get;  set; }
 
 Gets or sets the command behavior of an interactive UI element that performs an action when invoked, such as sending an email, deleting an item, or submitting a form.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.Command](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.command).
+
 ## -property-value
 
 The command behavior of the element.
 
 ## -remarks
 
-XamlUICommand implements the ICommand interface ([Windows.UI.Xaml.Input.ICommand](icommand.md) for C++ or [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand) for C#), adding various UI properties, methods, and events.
+XamlUICommand implements the ICommand interface ([Windows.UI.Xaml.Input.ICommand](icommand.md) for C++ or [System.Windows.Input.ICommand](/dotnet/api/system.windows.input.icommand?view=dotnet-uwp-10.0&preserve-view=true) for C#), adding various UI properties, methods, and events.
 
 ## -see-also
 
-[Windows.UI.Xaml.Input.ICommand](icommand.md), [System.Windows.Input.ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand), [StandardUICommand](standarduicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+[Windows.UI.Xaml.Input.ICommand](icommand.md), [System.Windows.Input.ICommand](/dotnet/api/system.windows.input.icommand?view=dotnet-uwp-10.0&preserve-view=true), [StandardUICommand](standarduicommand.md), [Command design basics](/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples

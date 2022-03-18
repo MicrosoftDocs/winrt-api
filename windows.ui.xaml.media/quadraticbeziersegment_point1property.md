@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty Point1Property { get; }
 ## -description
 Identifies the [Point1](quadraticbeziersegment_point1.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.QuadraticBezierSegment.Point1Property](/windows/winui/api/microsoft.ui.xaml.media.quadraticbeziersegment.point1property).
+
 ## -property-value
 The identifier for the [Point1](quadraticbeziersegment_point1.md)  dependency property.
 

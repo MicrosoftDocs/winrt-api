@@ -31,8 +31,20 @@ Although Package is supported in desktop apps, some members of this class are su
 | 1809 | 17763 | GetAppInstallerInfo |
 | 1903 | 18362 | EffectiveLocation |
 | 1903 | 18362 | MutableLocation |
+| 2004 | 19041 | EffectiveExternalLocation |
+| 2004 | 19041 | EffectiveExternalPath |
+| 2004 | 19041 | EffectivePath |
+| 2004 | 19041 | GetAppListEntries |
+| 2004 | 19041 | GetLogoAsRandomAccessStreamReference |
+| 2004 | 19041 | InstalledPath |
+| 2004 | 19041 | IsStub |
+| 2004 | 19041 | MachineExternalLocation |
+| 2004 | 19041 | MachineExternalPath |
+| 2004 | 19041 | MutablePath |
+| 2004 | 19041 | UserExternalLocation |
+| 2004 | 19041 | UserExternalPath |
 
 ## -examples
 
 ## -see-also
-[App package information sample](https://code.msdn.microsoft.com/windowsapps/Package-sample-46e239fa), [Packaging apps](https://docs.microsoft.com/windows/uwp/packaging/index), [Package.Current](package_current.md), [PackageId](packageid.md), [App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)
+[App package information sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package), [Packaging apps](/windows/uwp/packaging/index), [Package.Current](package_current.md), [PackageId](packageid.md)

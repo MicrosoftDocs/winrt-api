@@ -17,7 +17,7 @@ Creates a [DeviceInformation](deviceinformation.md) object from a [DeviceInforma
 A string containing the [DeviceInformation](deviceinformation.md) ID.
 
 ### -param additionalProperties
-An iterable list of additional properties to include in the [Properties](deviceinformation_properties.md) property of the [DeviceInformation](deviceinformation.md) objects in the enumeration results. For more info on what the properties represent, see [Device information properties](https://docs.microsoft.com/windows/uwp/devices-sensors/device-information-properties).
+An iterable list of additional properties to include in the [Properties](deviceinformation_properties.md) property of the [DeviceInformation](deviceinformation.md) objects in the enumeration results. For more info on what the properties represent, see [Device information properties](/windows/uwp/devices-sensors/device-information-properties).
 
 ### -param kind
 The type of [DeviceInformation](deviceinformation.md) object you want to create.

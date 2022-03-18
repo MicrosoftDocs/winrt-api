@@ -12,10 +12,12 @@ virtual protected void SetFocusCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [SetFocus](automationpeer_setfocus_192955311.md) or an equivalent Microsoft UI Automation client API.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.SetFocusCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.setfocuscore).
+
 ## -remarks
 The standard implementation uses [IsKeyboardFocusable](automationpeer_iskeyboardfocusable_2030365113.md) to determine whether the peer reports that the owner can be focused. [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) adds behavior that performs the actual focus operation if it is possible.
 
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessibility)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Accessibility](/windows/uwp/accessibility/accessibility)

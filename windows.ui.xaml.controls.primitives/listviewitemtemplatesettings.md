@@ -12,6 +12,8 @@ public class ListViewItemTemplateSettings : Windows.UI.Xaml.DependencyObject, Wi
 ## -description
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for a [ListViewItem](../windows.ui.xaml.controls/listviewitem.md). Not intended for general use.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitemtemplatesettings).
+
 ## -remarks
 
 ## -examples

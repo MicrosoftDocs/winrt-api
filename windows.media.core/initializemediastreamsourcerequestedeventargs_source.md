@@ -10,7 +10,7 @@ public MediaStreamSource Source { get; }
 # Windows.Media.Core.InitializeMediaStreamSourceRequestedEventArgs.Source
 
 ## -description
-Gets the uninitialized [MediaStreamSource](https://docs.microsoft.com/uwp/api/windows.media.core.mediastreamsource) object that the app service should initialize and use to provide samples to the requesting app.
+Gets the uninitialized [MediaStreamSource](/uwp/api/windows.media.core.mediastreamsource) object that the app service should initialize and use to provide samples to the requesting app.
 
 ## -property-value
 The uninitialized **MediaStreamSource** object.

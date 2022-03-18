@@ -14,6 +14,8 @@ public UIElement Content { get; }
 
 Gets the root element of the XAML element tree.  
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.XamlRoot.Content](/windows/winui/api/microsoft.ui.xaml.xamlroot.content).
+
 ## -property-value
 
 The root element of the XAML element tree.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Data.ICollectionView CreateView()
 ## -description
 Creates an [ICollectionView](icollectionview.md) instance using default settings.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Data.ICollectionViewFactory.CreateView](/windows/winui/api/microsoft.ui.xaml.data.icollectionviewfactory.createview).
+
 ## -returns
 The default view.
 

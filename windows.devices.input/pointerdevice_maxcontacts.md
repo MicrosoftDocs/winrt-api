@@ -21,4 +21,4 @@ This property typically returns a value of 5 or more for touch devices and 1 for
 ## -examples
 
 ## -see-also
-[Quickstart: Identifying input devices](https://docs.microsoft.com/windows/uwp/design/input/identify-input-devices)
+[Quickstart: Identifying input devices](/windows/uwp/design/input/identify-input-devices)

@@ -10,11 +10,17 @@ public event Windows.Foundation.TypedEventHandler DragItemsCompleted<Windows.UI.
 # Windows.UI.Xaml.Controls.ListViewBase.DragItemsCompleted
 
 ## -description
-Occurs when a drag operation that involves one of the items in the view is ended. In order to receive this event, set the **CanDragItems** property to **True**.
+
+Occurs when a drag operation that involves one of the items in the view is ended.
+
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ListViewBase.DragItemsCompleted](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.dragitemscompleted).
 
 ## -remarks
+
+> [!IMPORTANT]
+> In order to receive this event, the [CanDragItems](listviewbase_candragitems.md) property must be set to `true`.
 
 ## -examples
 
 ## -see-also
-[Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634), [DragItemsCompletedEventArgs](dragitemscompletedeventargs.md)
+[Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop), [DragItemsCompletedEventArgs](dragitemscompletedeventargs.md)

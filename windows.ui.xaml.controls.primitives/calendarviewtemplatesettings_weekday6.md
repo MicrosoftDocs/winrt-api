@@ -12,6 +12,8 @@ public string WeekDay6 { get; }
 ## -description
 Gets the sixth day of the week.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay6](/windows/winui/api/microsoft.ui.xaml.controls.primitives.calendarviewtemplatesettings.weekday6).
+
 ## -property-value
 The sixth day of the week.
 

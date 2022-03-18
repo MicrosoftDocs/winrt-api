@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 -api-id: M:Windows.Media.Capture.Frames.MediaFrameReference.Close
 -api-type: winrt method
@@ -19,4 +18,3 @@ The **Close** method is used by Universal Windows app using JavaScript. For apps
 ## -examples
 
 ## -see-also
-

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.Peers.AutomationOrientation GetOrientation()
 ## -description
 Gets a value that indicates the explicit control orientation, if any.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetOrientation](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getorientation).
+
 ## -returns
 The orientation of the control as a value of the enumeration.
 

@@ -13,6 +13,8 @@ public void XamlDirect.SetMatrix3DProperty(IXamlDirectObject xamlDirectObject, X
 ## -description
 Sets the value of a [Matrix3D](../windows.ui.xaml.media/matrix3d.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetMatrix3DProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setmatrix3dproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

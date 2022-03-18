@@ -12,6 +12,8 @@ public ListViewAutomationPeer(Windows.UI.Xaml.Controls.ListView owner)
 ## -description
 Initializes a new instance of the [ListViewAutomationPeer](listviewautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.ListViewAutomationPeer.ListViewAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listviewautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The [ListView](../windows.ui.xaml.controls/listview.md) to create a peer for.

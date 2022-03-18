@@ -12,6 +12,8 @@ public Windows.Foundation.IReference<Windows.Foundation.Point> From { get;  set;
 ## -description
 Gets or sets the animation's starting value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PointAnimation.From](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimation.from).
+
 ## -xaml-syntax
 ```xaml
 <PointAnimation From=x,y"/>
@@ -31,7 +33,7 @@ If you are programming using C#or Microsoft Visual Basic, the type of this prope
 ## -remarks
 A [PointAnimation](pointanimation.md) typically has at least one of the From, [By](pointanimation_by.md) or [To](pointanimation_to.md) properties set, but never all three. For more info, see Remarks in [PointAnimation](pointanimation.md).
 
-The **null** default value indicates that the base non-animated value is the default value for From, not that the animated value is literally **null**. The base non-animated value is determined at run time by the dependency property system. For more info, see [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview).
+The **null** default value indicates that the base non-animated value is the default value for From, not that the animated value is literally **null**. The base non-animated value is determined at run time by the dependency property system. For more info, see [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).
 
 ## -examples
 

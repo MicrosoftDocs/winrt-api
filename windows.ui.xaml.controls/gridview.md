@@ -13,6 +13,8 @@ public class GridView : Windows.UI.Xaml.Controls.ListViewBase, Windows.UI.Xaml.C
 
 Represents a control that displays data items in rows and columns.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.GridView](/windows/winui/api/microsoft.ui.xaml.controls.gridview).
+
 ## -xaml-syntax
 
 ```xaml
@@ -34,12 +36,30 @@ Use a **GridView** to display a collection of items in rows and columns that can
 
 GridView is an [ItemsControl](itemscontrol.md), so it can contain a collection of items of any type. To populate the view, add items to the [Items](itemscontrol_items.md) collection, or set the [ItemsSource](itemscontrol_itemssource.md) property to a data source.
 
-By default, a data item is displayed in the GridView as the string representation of the data object it's bound to. To specify exactly how items in the GridView are displayed, you create a [DataTemplate](../windows.ui.xaml/datatemplate.md) to define the layout of controls used to display an individual item. The controls in the layout can be bound to properties of a data object, or have content defined inline. You assign the [DataTemplate](../windows.ui.xaml/datatemplate.md) to the [ItemTemplate](itemscontrol_itemtemplate.md) property of the GridView. For common templates you can use in your app, see [Item templates for GridView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-templates-gridview).
+By default, a data item is displayed in the GridView as the string representation of the data object it's bound to. To specify exactly how items in the GridView are displayed, you create a [DataTemplate](../windows.ui.xaml/datatemplate.md) to define the layout of controls used to display an individual item. The controls in the layout can be bound to properties of a data object, or have content defined inline. You assign the [DataTemplate](../windows.ui.xaml/datatemplate.md) to the [ItemTemplate](itemscontrol_itemtemplate.md) property of the GridView. For common templates you can use in your app, see [Item templates for GridView](/windows/uwp/controls-and-patterns/item-templates-gridview).
 
-> [!NOTE]
-> If you populate the GridView by setting the [ItemsSource](itemscontrol_itemssource.md) property, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item. If you populate the [Items](itemscontrol_items.md) collection directly, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied only if the item is not a [GridViewItem](gridviewitem.md). See Examples for more info.
+If you populate the GridView by setting the [ItemsSource](itemscontrol_itemssource.md) property, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item. If you populate the [Items](itemscontrol_items.md) collection directly, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied only if the item is not a [GridViewItem](gridviewitem.md). In this example, the template is applied to the first item, but not the second item.
 
-If you use the GridView to display large sets of data, see [Optimize ListView and GridView](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-gridview-and-listview) for tips to maintain a smooth and responsive user experience.
+```xaml
+<GridView>
+    <GridView.ItemTemplate>
+        <DataTemplate>
+            <Grid>
+                <Border Background="LightGray" Height="200" Width="200">
+                    <TextBlock Text="{Binding}" 
+                               FontSize="48" Foreground="Green"/>
+                </Border>
+            </Grid>
+        </DataTemplate>
+    </GridView.ItemTemplate>
+    <GridView.Items>
+        <x:String>One</x:String>
+        <GridViewItem>Two</GridViewItem>
+    </GridView.Items>
+</GridView>
+```
+
+If you use the GridView to display large sets of data, see [Optimize ListView and GridView](/windows/uwp/debug-test-perf/optimize-gridview-and-listview) for tips to maintain a smooth and responsive user experience.
 
 > <div id="main">
 > <strong>Windows 10, version 1709 (SDK 16299) - Behavior change</strong>
@@ -68,7 +88,7 @@ This table shows the ways a user can interact with a GridView, and how you can r
 GridView supports data virtualization to improve performance with large data sets. Random access virtualization is supported when the data source implements the appropriate interfaces, which vary depending on the programming language:
 
 + Visual C++ component extensions (C++/CX) apps should implement [IObservableVector](../windows.foundation.collections/iobservablevector_1.md).
-+ C# or Visual Basic apps should implement [INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?redirectedfrom=MSDN) and [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) (not [IList<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1). Virtualization requires both of these interfaces.
++ C# or Visual Basic apps should implement [INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0&preserve-view=true) and [System.Collections.IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true) (not [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true). Virtualization requires both of these interfaces.
  Incremental loading virtualization is supported when the data source implements the [ISupportIncrementalLoading](../windows.ui.xaml.data/isupportincrementalloading.md) interface. When incremental loading is supported, you can use these members to control data loading: [DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md).
 
 > **Windows 8**
@@ -77,6 +97,8 @@ GridView supports data virtualization to improve performance with large data set
 GridView implements the [ISemanticZoomInformation](isemanticzoominformation.md) interface, so it can be used as a view in a [SemanticZoom](semanticzoom.md) control. When it's used in a [SemanticZoom](semanticzoom.md) control, always set the [ScrollViewer.IsHorizontalScrollChainingEnabled](scrollviewer_ishorizontalscrollchainingenabled.md) attached property to **false** on the [ScrollViewer](scrollviewer.md) that's in the GridView's control template, like this: `<GridView ScrollViewer.IsHorizontalScrollChainingEnabled="False">`. These members have an effect only when the GridView is hosted in a [SemanticZoom](semanticzoom.md) control: [IsActiveView](listviewbase_isactiveview.md), [IsZoomedInView](listviewbase_iszoomedinview.md), [SemanticZoomOwner](listviewbase_semanticzoomowner.md), [CompleteViewChange](listviewbase_completeviewchange_1917507883.md), [CompleteViewChangeFrom](listviewbase_completeviewchangefrom_788425485.md), [CompleteViewChangeTo](listviewbase_completeviewchangeto_41306206.md), [InitializeViewChange](listviewbase_initializeviewchange_1165335344.md), [MakeVisible](listviewbase_makevisible_1148837317.md), [StartViewChangeFrom](listviewbase_startviewchangefrom_1386295791.md), [StartViewChangeTo](listviewbase_startviewchangeto_1504058226.md).
 
 The default template for GridView includes existing transition animations. Specifically, the default [ItemContainerTransitions](itemscontrol_itemcontainertransitions.md) value already contains values for [AddDeleteThemeTransition](../windows.ui.xaml.media.animation/adddeletethemetransition.md), [ContentThemeTransition](../windows.ui.xaml.media.animation/contentthemetransition.md), [ReorderThemeTransition](../windows.ui.xaml.media.animation/reorderthemetransition.md) and [EntranceThemeTransition](../windows.ui.xaml.media.animation/entrancethemetransition.md) (with `IsStaggeringEnabled="False"`). If you are setting a new value for [ItemContainerTransitions](itemscontrol_itemcontainertransitions.md) on GridView, consider reproducing these same theme animations as a starting point. If you are setting the property yourself, those defaults get overwritten unless you include them again in your definition.
+
+If you need to handle pointer events for a [UIElement](../windows.ui.xaml/uielement.md) in a scrollable view (such as a ScrollViewer), you must explicitly disable support for manipulation events on the element in the view by calling [UIElement.CancelDirectmanipulation()](../windows.ui.xaml/uielement_canceldirectmanipulations_1164631120.md). To re-enable manipulation events in the view, call [UIElement.TryStartDirectManipulation()](../windows.ui.xaml/uielement_trystartdirectmanipulation_1983346775.md).
 
 ### Selection behavior and CollectionViewSource
 
@@ -93,26 +115,126 @@ List controls that derive from [Selector](../windows.ui.xaml.controls.primitives
 
 Here, a GridView is bound to a grouped [CollectionViewSource](../windows.ui.xaml.data/collectionviewsource.md) named `cvsProjects`. The appearance of individual items in each group is defined by the [ItemTemplate](itemscontrol_itemtemplate.md). The [ItemsPanel](itemscontrol_itemspanel.md) specifies how the groups are arranged in the GridView. The [GroupStyle.Panel](groupstyle_panel.md) specifies how individual items are arranged within each group. The [GroupStyle.ContainerStyle](groupstyle_containerstyle.md) is used to add a border around each group, and set its minimum size and margins. The [HidesIfEmpty](groupstyle_hidesifempty.md) property is set to **true** to hide any empty groups.
 
-[!code-xaml[GroupedGridViewXAML](../windows.ui.xaml.controls/code/ItemsControlGroupingSnippets/csharp/MainPage.xaml#SnippetGroupedGridViewXAML)]
-
 ```xaml
-<GridView>
-    <GridView.ItemTemplate>
-        <DataTemplate>
-            <Grid>
-                <Border Background="LightGray" Height="200" Width="200">
-                    <TextBlock Text="{Binding}" 
-                               FontSize="48" Foreground="Green"/>
-                </Border>
-            </Grid>
-        </DataTemplate>
-    </GridView.ItemTemplate>
-    <GridView.Items>
-        <x:String>One</x:String>
-        <GridViewItem>Two</GridViewItem>
-    </GridView.Items>
-</GridView>
+<Page
+    x:Class="GroupedGridViewApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GroupedGridViewApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <CollectionViewSource x:Name="cvsProjects" IsSourceGrouped="True" 
+                              ItemsPath="Activities"/>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <GridView ItemsSource="{Binding Source={StaticResource cvsProjects}}" MaxHeight="500">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="20">
+                        <TextBlock Text="{Binding Name}" FontWeight="Bold" 
+                                   Style="{StaticResource BaseTextBlockStyle}"/>
+                        <TextBlock Text="{Binding DueDate}" TextWrapping="NoWrap" 
+                                   Style="{StaticResource BodyTextBlockStyle}" />
+                        <CheckBox Content="Complete" IsChecked="{Binding Complete}" 
+                                  IsEnabled="False"/>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <ItemsWrapGrid MaximumRowsOrColumns="3"/>
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+
+            <GridView.GroupStyle>
+                <GroupStyle HidesIfEmpty="True">
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <Grid Background="LightGray" Margin="0">
+                                <TextBlock Text='{Binding Name}' 
+                                           Foreground="Black" Margin="12"
+                                           Style="{StaticResource HeaderTextBlockStyle}"/>
+                            </Grid>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </GridView.GroupStyle>
+        </GridView>
+    </Grid>
+</Page>
+```
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using Windows.UI.Xaml.Controls;
+
+namespace GroupedGridViewApp
+{
+    public sealed partial class MainPage : Page
+    {
+        DateTime startDate = DateTime.Now;
+
+        public MainPage()
+        {
+            this.InitializeComponent();
+
+            PopulateProjects();
+        }
+
+        private void PopulateProjects()
+        {
+            List<Project> Projects = new List<Project>();
+
+            Project newProject = new Project();
+            newProject.Name = "Project 1";
+            newProject.Activities.Add(new Activity()
+            { Name = "Activity 1", Complete = true, DueDate = startDate.AddDays(4) });
+            newProject.Activities.Add(new Activity()
+            { Name = "Activity 2", Complete = true, DueDate = startDate.AddDays(5) });
+            Projects.Add(newProject);
+
+            newProject = new Project();
+            newProject.Name = "Project 2";
+            newProject.Activities.Add(new Activity()
+            { Name = "Activity A", Complete = true, DueDate = startDate.AddDays(2) });
+            newProject.Activities.Add(new Activity()
+            { Name = "Activity B", Complete = false, DueDate = startDate.AddDays(3) });
+            Projects.Add(newProject);
+
+            newProject = new Project();
+            newProject.Name = "Project 3";
+            Projects.Add(newProject);
+
+            cvsProjects.Source = Projects;
+        }
+    }
+
+    public class Project
+    {
+        public Project()
+        {
+            Activities = new ObservableCollection<Activity>();
+        }
+
+        public string Name { get; set; }
+        public ObservableCollection<Activity> Activities { get; private set; }
+    }
+
+    public class Activity
+    {
+        public string Name { get; set; }
+        public DateTime DueDate { get; set; }
+        public bool Complete { get; set; }
+        public string Project { get; set; }
+    }
+}
 ```
 
 ## -see-also
-[List view and grid view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/listview-and-gridview), [ListViewBase](listviewbase.md), [ISemanticZoomInformation](isemanticzoominformation.md), [GridView styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [Item templates for GridView](https://docs.microsoft.com/windows/uwp/controls-and-patterns/item-templates-gridview), [Data binding overview](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-quickstart), [ListView](listview.md), [SemanticZoom](semanticzoom.md), [ListView and GridView sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlListView)
+[List view and grid view](/windows/uwp/design/controls-and-patterns/listview-and-gridview), [ListViewBase](listviewbase.md), [ISemanticZoomInformation](isemanticzoominformation.md), [GridView styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [Item templates for GridView](/windows/uwp/controls-and-patterns/item-templates-gridview), [Data binding overview](/windows/uwp/data-binding/data-binding-quickstart), [ListView](listview.md), [SemanticZoom](semanticzoom.md), [ListView and GridView sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlListView)

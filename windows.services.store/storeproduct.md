@@ -13,7 +13,7 @@ public class StoreProduct : Windows.Services.Store.IStoreProduct
 Represents a product that is available in the Microsoft Store.
 
 ## -remarks
-Products in the Store are organized in a hierarcy of *product*, *SKU*, and *availability* objects. Products are represented by **StoreProduct** objects. The SKUs for each product are represented by [StoreSku](storesku.md) objects, and the availabilities for each SKU are represented by [StoreAvailability](storeavailability.md) objects. For more information, see [In-app purchases and trials](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials).
+Products in the Store are organized in a hierarcy of *product*, *SKU*, and *availability* objects. Products are represented by **StoreProduct** objects. The SKUs for each product are represented by [StoreSku](storesku.md) objects, and the availabilities for each SKU are represented by [StoreAvailability](storeavailability.md) objects. For more information, see [In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials).
 
 To retrieve a **StoreProduct** object for the current app, use the [GetStoreProductForCurrentAppAsync](storecontext_getstoreproductforcurrentappasync_128036649.md) method. 
 
@@ -27,4 +27,4 @@ To retrieve **StoreProduct** objects for products that can be purchased from wit
 ## -examples
 
 ## -see-also
-[In-app purchases and trials](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials)
+[In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials)

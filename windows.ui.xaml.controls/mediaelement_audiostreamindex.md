@@ -12,6 +12,8 @@ public Windows.Foundation.IReference<int> AudioStreamIndex { get;  set; }
 ## -description
 Gets or sets the index of the audio stream that plays along with the video component. The collection of audio streams is composed at run time and represents all audio streams that are available in the media file.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.AudioStreamIndex](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.audiostreamindex).
+
 ## -xaml-syntax
 ```xaml
 <MediaElement AudioStreamIndex="int"/>

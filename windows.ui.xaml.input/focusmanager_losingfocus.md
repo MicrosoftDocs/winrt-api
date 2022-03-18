@@ -14,6 +14,8 @@ static public event EventHandler LosingFocus<LosingFocusEventArgs>
 
 Occurs before focus moves from the current element with focus to the target element. This event is raised synchronously to ensure focus isn't moved while the event is bubbling.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Input.FocusManager.LosingFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.losingfocus).
+
 ## -xaml-syntax
 
 ```xaml
@@ -37,6 +39,6 @@ UIElement focus events bubble up to the FocusManager in the following order:
 
 ## -see-also
 
-[LosingFocusEventArgs](../windows.ui.xaml.input/losingfocuseventargs.md), [UIElement.LosingFocus](../windows.ui.xaml/uielement_losingfocus.md), [UIElement.LosingFocusEvent](../windows.ui.xaml/uielement_losingfocusevent.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[LosingFocusEventArgs](../windows.ui.xaml.input/losingfocuseventargs.md), [UIElement.LosingFocus](../windows.ui.xaml/uielement_losingfocus.md), [UIElement.LosingFocusEvent](../windows.ui.xaml/uielement_losingfocusevent.md), [Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples

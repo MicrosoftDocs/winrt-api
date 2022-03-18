@@ -13,7 +13,7 @@ public struct TimeSpan
 Represents a time interval as a signed 64-bit integer value.
 
 > **.NET**
-> When programming with .NET, this structure is hidden, and developers should use the [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) type.
+> When programming with .NET, this structure is hidden, and developers should use the [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true) type.
 
 > **C++/WinRT**
 > This type is a specialization of [std::chrono::duration](/cpp/standard-library/duration-class).
@@ -27,7 +27,7 @@ A time period expressed in 100-nanosecond units.
 > In C++/WinRT, this field does not exist, because in that language projection **TimeSpan** is a specialization of [std::chrono::duration](/cpp/standard-library/duration-class). If you need the raw integer value, use [duration::count](/cpp/standard-library/duration-class#count) to obtain the raw count.
 
 ## -remarks
-When programming with .NET, this structure is hidden and developers should use the [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) structure.
+When programming with .NET, this structure is hidden and developers should use the [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true) structure.
 
 In JavaScript, this structure is accessed as a value, not as an object. For example, use `var a = 10000`, not `var a = { duration: 10000 }`.
 
@@ -37,4 +37,4 @@ In JavaScript, this structure is accessed as a value, not as an object. For exam
 ## -examples
 
 ## -see-also
-[DateTime](datetime.md), [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN)
+[DateTime](datetime.md), [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true)

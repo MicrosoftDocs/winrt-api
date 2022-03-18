@@ -12,13 +12,12 @@ public object RightHeader { get;  set; }
 ## -description
 Gets or sets the content for the header on the control's right side.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.RightHeader](/windows/winui/api/microsoft.ui.xaml.controls.pivot.rightheader).
+
 ## -xaml-syntax
 ```xaml
 <Pivot RightHeader="headerString"/>
-
-```
-
-```xaml
+- or -
 <Pivot>
   <Pivot.RightHeader>headerObject</Pivot.RightHeader>
 </Pivot>

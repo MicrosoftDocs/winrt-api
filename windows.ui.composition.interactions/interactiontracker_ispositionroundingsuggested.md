@@ -12,6 +12,8 @@ public bool IsPositionRoundingSuggested { get; }
 ## -description
 Boolean value indicating whether position rounding is currently suggested.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTracker.IsPositionRoundingSuggested](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.ispositionroundingsuggested).
+
 ## -property-value
 Boolean value indicating whether position rounding is currently suggested.
 

@@ -12,6 +12,8 @@ public class ImageBrush : Windows.UI.Xaml.Media.TileBrush, Windows.UI.Xaml.Media
 ## -description
 Paints an area with an image. The image source is typically obtained from file formats such as Joint Photographic Experts Group (JPEG).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.ImageBrush](/windows/winui/api/microsoft.ui.xaml.media.imagebrush).
+
 ## -xaml-syntax
 ```xaml
 <ImageBrush .../>
@@ -20,22 +22,22 @@ Paints an area with an image. The image source is typically obtained from file f
 ## -remarks
 An ImageBrush is a type of [brush](brush.md) that defines its content as an image which can be optionally stretched and aligned. Uses for an ImageBrush include decorative effects for text, or image backgrounds for controls or layout containers.
 
-It's useful to use an ImageBrush instead of an [Image control](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Image) in two main  scenarios:
+It's useful to use an ImageBrush instead of an [Image control](/uwp/api/Windows.UI.Xaml.Controls.Image) in two main  scenarios:
 
 1. You want to paint a non-rectangular area such as an ellipse or border with an image
-2. You want to use a single ImageBrush to paint multiple areas or UIElements with the same image, which is more efficient than using multiple [Image](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Image) controls
+2. You want to use a single ImageBrush to paint multiple areas or UIElements with the same image, which is more efficient than using multiple [Image](/uwp/api/Windows.UI.Xaml.Controls.Image) controls
 
 
-If you define an ImageBrush using code, use the default constructor, then set [ImageBrush.ImageSource](imagebrush_imagesource.md). This requires a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) (not a Uniform Resource Identifier (URI)) in code. If your source is a stream, use the [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync_1118221574.md) method to initialize the value. If your source is a Uniform Resource Identifier (URI), which includes content in your app that uses the **ms-appx** or **ms-resource** schemes, use the [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor that takes a Uniform Resource Identifier (URI). You might also consider handling the [ImageOpened](imagebrush_imageopened.md) event if there are any timing issues with retrieving or decoding the image source, where you might need alternate content to display until the image source is available. See [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575) for example code.
+If you define an ImageBrush using code, use the default constructor, then set [ImageBrush.ImageSource](imagebrush_imagesource.md). This requires a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) (not a Uniform Resource Identifier (URI)) in code. If your source is a stream, use the [SetSourceAsync](../windows.ui.xaml.media.imaging/bitmapsource_setsourceasync_1118221574.md) method to initialize the value. If your source is a Uniform Resource Identifier (URI), which includes content in your app that uses the **ms-appx** or **ms-resource** schemes, use the [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage_bitmapimage_843413386.md) constructor that takes a Uniform Resource Identifier (URI). You might also consider handling the [ImageOpened](imagebrush_imageopened.md) event if there are any timing issues with retrieving or decoding the image source, where you might need alternate content to display until the image source is available. See [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample) for example code.
 
 > [!NOTE]
-> You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](https://docs.microsoft.com/previous-versions/windows/apps/jj552947(v=win.10)).
+> You can use automatic handling for accessing unqualified resources with current scale and culture qualifiers, or you can use [ResourceManager](../windows.applicationmodel.resources.core/resourcemanager.md) and [ResourceMap](../windows.applicationmodel.resources.core/resourcemap.md) with qualifiers for culture and scale to obtain the resources directly. For more info see [Resource management system](/windows/uwp/app-resources/resource-management-system).
 
 The [Stretch](tilebrush_stretch.md) property is important for how the image is applied when used as a brush. Some images look good when stretched as applied to a particular [Brush](brush.md) property with the **Fill** behavior whereas other images do not stretch or scale well and might require a value of **None** or **Uniform** for [Stretch](tilebrush_stretch.md). Experiment with different values for [Stretch](tilebrush_stretch.md) to see which behavior looks best when applied to the UI.
 
 ### Image sources and scaling
 
-You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows 8 scales it. When specifying an [ImageSource](imagebrush_imagesource.md) for an ImageBrush, you can use a naming convention that will automatically reference the correct resource for the current scaling. For specifics of the naming convention and more info, see [Quickstart: Using file or image resources](https://docs.microsoft.com/previous-versions/windows/apps/hh965325(v=win.10)).
+You should create your image sources at several recommended sizes, to ensure that your app looks great when Windows 8 scales it. When specifying an [ImageSource](imagebrush_imagesource.md) for an ImageBrush, you can use a naming convention that will automatically reference the correct resource for the current scaling. For specifics of the naming convention and more info, see [Quickstart: Using file or image resources](/previous-versions/windows/apps/hh965325(v=win.10)).
 
 For more info on how to design for scaling, see [UX guidelines for layout and scaling](https://developer.microsoft.com/windows/design).
 
@@ -57,4 +59,4 @@ This XAML example shows how to set the [Foreground](../windows.ui.xaml.controls/
 <img src="Images/shrubbery.gif" alt="An ImageBrush applied to text" />
 
 ## -see-also
-[TileBrush](tilebrush.md), [Image](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [XAML vector-based drawing sample (see Scenario 2)](https://go.microsoft.com/fwlink/p/?linkid=226866)
+[TileBrush](tilebrush.md), [Image](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes), [XAML vector-based drawing sample (see Scenario 2)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample)

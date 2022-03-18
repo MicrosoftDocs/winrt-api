@@ -14,7 +14,7 @@ Provides synchronous access to the properties exposed off [StorageFolder](../win
 
 ## -remarks
 > [!NOTE]
-> Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
+> Although it's not attributed with `marshalling_behavior(agile)`, this class can be treated as agile. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx).
 <!--W8B 988884 v2-->
 
 You can retrieve a list of FolderInformation objects by calling one of the [FileInformationFactory.GetFoldersAsync](fileinformationfactory_getfoldersasync_1487375516.md) methods.

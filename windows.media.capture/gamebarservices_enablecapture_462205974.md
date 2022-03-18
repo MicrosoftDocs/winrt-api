@@ -9,10 +9,10 @@ public void GameBarServices.EnableCapture()
 
 # Windows.Media.Capture.GameBarServices.EnableCapture
 
-## -description
-Enables app capture.
 
-## -params
+## -description
+
+Enables app capture.
 
 ## -remarks
 
@@ -20,7 +20,7 @@ Enables app capture.
 
 ## -examples
 
-
-
 ## -capabilities
+
 gameBarServices
+

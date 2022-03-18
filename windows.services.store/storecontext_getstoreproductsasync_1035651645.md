@@ -25,11 +25,11 @@ An asynchronous operation that, on successful completion, returns a [StoreProduc
 ## -remarks
 This method returns listing info for the specified products that are associated with the current app, regardless of whether the products are currently available for purchase within the current app. To retrieve info for all the products that can currently be purchased from within the current app, use the [GetStoreProductsAsync](storecontext_getstoreproductsasync_915504661.md) overload or the [GetAssociatedStoreProductsAsync](storecontext_getassociatedstoreproductsasync_1833928682.md) method instead.
 
-The Store ID for a product is available in [Partner Center](https://partner.microsoft.com/dashboard), and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the product. For more information, see [Store IDs](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
+The Store ID for a product is available in [Partner Center](https://partner.microsoft.com/dashboard), and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the product. For more information, see [Store IDs](/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
 
-For more information about using this method, including a code example, see [Get product info for apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
+For more information about using this method, including a code example, see [Get product info for apps and add-ons](/windows/uwp/monetize/get-product-info-for-apps-and-add-ons).
 
 ## -examples
 
 ## -see-also
-[Get product info for apps and add-ons](https://docs.microsoft.com/windows/uwp/monetize/get-product-info-for-apps-and-add-ons)
+[Get product info for apps and add-ons](/windows/uwp/monetize/get-product-info-for-apps-and-add-ons)

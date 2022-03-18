@@ -11,7 +11,7 @@ public class ResourceContext : Windows.ApplicationModel.Resources.Core.IResource
 # Windows.ApplicationModel.Resources.Core.ResourceContext
 
 ## -description
-Encapsulates all of the factors ([ResourceQualifier](resourcequalifier.md) s) that might affect resource selection.
+Encapsulates all of the factors ([ResourceQualifier](resourcequalifier.md)s) that might affect resource selection.
 
 ## -remarks
 Resources can be sensitive to scale, and different views owned by an app are able to display simultaneously on different display devices, which might use different scales. For that reason, a ResourceContext is generally associated with a specific view, and should be obtained using [GetForCurrentView](resourcecontext_getforcurrentview_1363600702.md). (A view-independent **ResourceContext** can be obtained using [GetForViewIndependentUse](resourcecontext_getforviewindependentuse_386169056.md), but note that scale-dependent functionality will fail if invoked on a **ResourceContext** that is not associated with a view.)
@@ -27,64 +27,86 @@ Except where otherwise noted, methods of this class can be called on any thread.
 | 1903 | 18362 | GetForUIContext |
 
 ## -examples
-This example is based on scenario 13 of the [Application resources and localization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources). See the sample for the more complete solution.
 
-```javascript
-// Create a ResourceContext.
-var resourceContext = new Windows.ApplicationModel.Resources.Core.ResourceContext.getForCurrentView().clone();
+This example is based on scenario 10 of the [Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources). See the sample for the complete solution.
 
-// Set the specific context for lookup of resources.
-var qualifierValues = resourceContext.qualifierValues;
-qualifierValues["language"] = "en-US";
-qualifierValues["contrast"] = "standard";
-qualifierValues["scale"] = "140";
-qualifierValues["homeregion"] = "021"; // Northern America
+```csharp
+private void Scenario10Button_Show_Click(object sender, RoutedEventArgs e)
+{
+    Button b = sender as Button;
+    if (b != null)
+    {
+        // Use a cloned context for this scenario so that qualifier values set
+        // in this scenario don't impact behavior in other scenarios that
+        // use a default context for the view (crossover effects between
+        // the scenarios will not be expected).
+        var context = ResourceContext.GetForCurrentView().Clone();
 
-// Resources actually reside within Scenario13 Resource Map.
-var resourceIds = [
-    '/Scenario13/languageOnly',
-    '/Scenario13/scaleOnly',
-    '/Scenario13/contrastOnly',
-    '/Scenario13/homeregionOnly',
-    '/Scenario13/multiDimensional',
-];
+        var selectedLanguage = Scenario10ComboBox_Language.SelectedValue;
+        var selectedScale = Scenario10ComboBox_Scale.SelectedValue;
+        var selectedContrast = Scenario10ComboBox_Contrast.SelectedValue;
+        var selectedHomeRegion = Scenario10ComboBox_HomeRegion.SelectedValue;
 
-var output = { str: "" };
-resourceIds.forEach(function (resourceId) {
-    renderNamedResource(resourceId, resourceContext, output);
-});
-
-function renderNamedResource(resourceId, resourceContext, output) {
-    output.str += "Resource ID " + resourceId + ":\n";
-    // Lookup the resource in the mainResourceMap (the one for this package).
-    var namedResource = Windows.ApplicationModel.Resources.Core.ResourceManager.current.mainResourceMap.lookup(resourceId);
-
-    // Return a ResourceCandidateVectorView of all possible resources candidates
-    // resolved against the context in order of appropriateness.
-    var resourceCandidates = namedResource.resolveAll(resourceContext);
-
-    resourceCandidates.forEach(function (candidate, index) {
-        renderCandidate(candidate, index, output);
-    });
-    output.str += "\n";
+        if (selectedLanguage != null)
+        {
+            context.QualifierValues["language"] = selectedLanguage.ToString();
+        }
+        if (selectedScale != null)
+        {
+            context.QualifierValues["scale"] = selectedScale.ToString();
+        }
+        if (selectedContrast != null)
+        {
+            context.QualifierValues["contrast"] = selectedContrast.ToString();
+        }
+        if (selectedHomeRegion != null)
+        {
+            context.QualifierValues["homeregion"] = selectedHomeRegion.ToString();
+        }
+        Scenario10_SearchMultipleResourceIds(context, new string[] { "LanguageOnly", "ScaleOnly", "ContrastOnly", "HomeRegionOnly", "MultiDimensional" });
+    }
 }
 
-function renderCandidate(candidate, index, output) {
-    // Get all the various qualifiers for the candidate (such as language, scale, contrast).
-    candidate.qualifiers.forEach(function (qualifier) {
-        output.str += "qualifierName: " + qualifier.qualifierName + "\n";
-        output.str += "qualifierValue: " + qualifier.qualifierValue + "\n";
-        output.str += "isDefault: ";
-        output.str += (qualifier.isDefault) ? "true\n" : "false\n";
-        output.str += "isMatch: ";
-        output.str += (qualifier.isMatch) ? "true\n" : "false\n";
-        output.str += "score: " + qualifier.score + "\n";
-        output.str += "\n";
-    });
+void Scenario10_SearchMultipleResourceIds(ResourceContext context, string[] resourceIds)
+{
+    this.Scenario10TextBlock.Text = "";
+    var dimensionMap = ResourceManager.Current.MainResourceMap.GetSubtree("dimensions");
+
+    foreach (var id in resourceIds)
+    {
+        NamedResource namedResource;
+        if (dimensionMap.TryGetValue(id, out namedResource))
+        {
+            var resourceCandidates = namedResource.ResolveAll(context);
+            Scenario10_ShowCandidates(id, resourceCandidates);
+        }
+    }
+}
+
+void Scenario10_ShowCandidates(string resourceId, IReadOnlyList<ResourceCandidate> resourceCandidates)
+{
+    // Print 'resourceId', 'found value', 'qualifer info', 'matching condition'
+    string outText = "resourceId: dimensions\\" + resourceId + "\r\n";
+    int i = 0;
+    foreach (var candidate in resourceCandidates)
+    {
+        var value = candidate.ValueAsString;
+        outText += "    Candidate " + i.ToString() + ":" + value + "\r\n";
+        int j = 0;
+        foreach (var qualifier in candidate.Qualifiers)
+        {
+            var qualifierName = qualifier.QualifierName;
+            var qualifierValue = qualifier.QualifierValue;
+            outText += "        Qualifer: " + qualifierName + ": " + qualifierValue + "\r\n";
+            outText += "        Matching: IsMatch (" + qualifier.IsMatch.ToString() + ")  " + "IsDefault (" + qualifier.IsDefault.ToString() + ")" + "\r\n";
+            j++;
+        }
+        i++;
+    }
+
+    this.Scenario10TextBlock.Text += outText + "\r\n";
 }
 ```
 
-
-
 ## -see-also
-[ResourceQualifier](resourcequalifier.md), [Application resources and localization sample](https://go.microsoft.com/fwlink/p/?linkid=227301)
+[ResourceQualifier](resourcequalifier.md), [Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources)

@@ -12,6 +12,8 @@ public int IterationCount { get;  set; }
 ## -description
 The number of times to repeat the key frame animation.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.KeyFrameAnimation.IterationCount](/windows/winui/api/microsoft.ui.composition.keyframeanimation.iterationcount).
+
 ## -property-value
 The number of times to repeat the key frame animation.
 

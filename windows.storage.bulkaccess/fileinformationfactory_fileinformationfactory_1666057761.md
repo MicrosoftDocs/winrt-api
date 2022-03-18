@@ -30,7 +30,7 @@ If thumbnails are not required for [IStorageItemInformation](istorageiteminforma
 ### -param thumbnailOptions
 The thumbnail retrieval options.
 
-If you're using [FileInformationFactory](fileinformationfactory.md) with the JavaScript [ListView](https://docs.microsoft.com/previous-versions/windows/apps/br211837(v=win.10)) or XAML [ListView](../windows.ui.xaml.controls/listview.md) and [GridView](../windows.ui.xaml.controls/gridview.md) controls, don't specify [ThumbnailOptions.ReturnOnlyIfCached](../windows.storage.fileproperties/thumbnailoptions.md) because this mode may prevent the control from being correctly populated with thumbnails.
+If you're using [FileInformationFactory](fileinformationfactory.md) with the JavaScript [ListView](/previous-versions/windows/apps/br211837(v=win.10)) or XAML [ListView](../windows.ui.xaml.controls/listview.md) and [GridView](../windows.ui.xaml.controls/gridview.md) controls, don't specify [ThumbnailOptions.ReturnOnlyIfCached](../windows.storage.fileproperties/thumbnailoptions.md) because this mode may prevent the control from being correctly populated with thumbnails.
 
 ### -param delayLoad
 True to delay loading information; otherwise false. By default, this option is false and delay loading is not used.

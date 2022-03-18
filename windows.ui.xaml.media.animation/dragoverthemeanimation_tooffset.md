@@ -12,6 +12,8 @@ public double ToOffset { get;  set; }
 ## -description
 Gets or sets the distance by which the target is translated when the animation is active.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DragOverThemeAnimation.ToOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.dragoverthemeanimation.tooffset).
+
 ## -xaml-syntax
 ```xaml
 <DragOverThemeAnimation ToOffset="double" />
@@ -27,4 +29,4 @@ The direction of the offset is controlled by [Direction](dragoverthemeanimation_
 ## -examples
 
 ## -see-also
-[Animating drag-and-drop sequences](https://docs.microsoft.com/previous-versions/windows/apps/jj649427(v=win.10)), [Guidelines and checklist for drag-and-drop animations](https://docs.microsoft.com/windows/uwp/style/motion-dragdrop)
+[Animating drag-and-drop sequences](/previous-versions/windows/apps/jj649427(v=win.10)), [Guidelines and checklist for drag-and-drop animations](/windows/uwp/style/motion-dragdrop)

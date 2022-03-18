@@ -12,6 +12,8 @@ public void SelectRange(Windows.UI.Xaml.Data.ItemIndexRange itemIndexRange)
 ## -description
 Selects a block of items described by the [ItemIndexRange](../windows.ui.xaml.data/itemindexrange.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.SelectRange](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.selectrange).
+
 ## -parameters
 ### -param itemIndexRange
 Information about the range of items, including the index of the first and last items in the range, and the number of items.

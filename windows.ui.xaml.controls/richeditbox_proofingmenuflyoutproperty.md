@@ -14,6 +14,8 @@ public DependencyProperty ProofingMenuFlyoutProperty { get; }
 
 Identifies the [ProofingMenuFlyout](richeditbox_proofingmenuflyout.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.ProofingMenuFlyoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.proofingmenuflyoutproperty).
+
 ## -property-value
 
 The identifier for the [ProofingMenuFlyout](richeditbox_proofingmenuflyout.md) dependency property.

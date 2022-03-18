@@ -12,6 +12,8 @@ public void SetLineSpacing(Windows.UI.Text.LineSpacingRule rule, System.Single s
 ## -description
 Sets the paragraph line-spacing rule and the amount of line spacing for a paragraph.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextParagraphFormat.SetLineSpacing](/windows/winui/api/microsoft.ui.text.itextparagraphformat.setlinespacing).
+
 ## -parameters
 ### -param rule
 The new line-spacing rule.

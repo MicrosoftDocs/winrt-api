@@ -29,4 +29,4 @@ By detecting both the contact location and bounds of the Surface Dial, the syste
 ## -examples
 
 ## -see-also
-[ScreenContactContinued](radialcontroller_screencontactcontinued.md), [ScreenContactEnded](radialcontroller_screencontactended.md), [Surface Dial interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)
+[ScreenContactContinued](radialcontroller_screencontactcontinued.md), [ScreenContactEnded](radialcontroller_screencontactended.md), [Surface Dial interactions](/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)

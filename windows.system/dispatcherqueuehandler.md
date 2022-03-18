@@ -9,19 +9,23 @@ public delegate void DispatcherQueueHandler()
 
 # Windows.System.DispatcherQueueHandler
 
+
 ## -description
+
 A callback that will be executed on the **DispatcherQueue** thread.
 
-## -parameters
+Equivalent WinUI delegate: [Microsoft.System.DispatcherQueueHandler](/windows/winui/api/microsoft.system.dispatcherqueuehandler).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
 ```csharp
 Windows.System.DispatcherQueueHandler handler = () =>
                                 {
                                     // code for DispatcherQueue to run
                                 };
 ```
+

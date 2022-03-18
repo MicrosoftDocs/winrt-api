@@ -10,10 +10,10 @@ public string GetString()
 # Windows.Data.Json.JsonArray.GetString
 
 ## -description
-Gets the [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) if the [ValueType](ijsonvalue_valuetype.md) of the encapsulated value is [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN).
+Gets the [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) if the [ValueType](ijsonvalue_valuetype.md) of the encapsulated value is [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -returns
-The [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) value.
+The [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) value.
 
 ## -remarks
 

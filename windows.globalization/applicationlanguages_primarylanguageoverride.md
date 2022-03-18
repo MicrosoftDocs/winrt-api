@@ -10,10 +10,10 @@ public string PrimaryLanguageOverride { get;  set; }
 # Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride
 
 ## -description
-Gets or sets an override for the app's preferred language, expressed as a [BCP-47](https://go.microsoft.com/fwlink/p/?linkid=227302) language tag. This setting is persisted.
+Gets or sets an override for the app's preferred language, expressed as a [BCP-47](https://tools.ietf.org/html/bcp47) language tag. This setting is persisted.
 
 ## -property-value
-A [BCP-47](https://go.microsoft.com/fwlink/p/?linkid=227302) language tag. The app can set it to override the top language of the user's ranked list of preferred languages ([ApplicationLanguages.Languages](applicationlanguages_languages.md)), and its value will persist between app sessions. It must be a single language tag; a delimited list of language tags will fail.
+A [BCP-47](https://tools.ietf.org/html/bcp47) language tag. The app can set it to override the top language of the user's ranked list of preferred languages ([ApplicationLanguages.Languages](applicationlanguages_languages.md)), and its value will persist between app sessions. It must be a single language tag; a delimited list of language tags will fail.
 
 When your app gets the value, PrimaryLanguageOverride returns either a single language tag (if your app has previously set the property) or an empty string.
 
@@ -27,4 +27,4 @@ When you set the PrimaryLanguageOverride, this is immediately reflected in the [
 ## -examples
 
 ## -see-also
-[ApplicationLanguages.Languages](applicationlanguages_languages.md), [BCP-47 language tags](https://go.microsoft.com/fwlink/p/?linkid=227302)
+[ApplicationLanguages.Languages](applicationlanguages_languages.md), [BCP-47 language tags](https://tools.ietf.org/html/bcp47)

@@ -12,13 +12,15 @@ public Windows.UI.Xaml.DependencyProperty LevelProperty { get; }
 ## -description
 Gets the identifier for the **Level** attached property, which is a 1-based integer associated with an automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.LevelProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.levelproperty).
+
 ## -property-value
 The identifier for the **Level** attached property.
 
 ## -remarks
 The **Level** property describes the location of an element inside hierarchical or broken hierarchical structures. For example, a bulleted or numbered list, headings, or other structured data items can have various parent/child relationships. **Level** describes where in the structure the item is located.
 
-Use the [CustomNavigation Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingcustomnavigation) in tandem with **Level**.
+Use the [CustomNavigation Control Pattern](/windows/desktop/WinAuto/uiauto-implementingcustomnavigation) in tandem with **Level**.
 
 ## -examples
 

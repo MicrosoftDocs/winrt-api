@@ -12,6 +12,8 @@ public uint UndoLimit { get;  set; }
 ## -description
 Gets or sets the maximum number of actions that can be stored in the undo queue.
 
+Equivalent WinUI property: [Microsoft.UI.Text.RichEditTextDocument.UndoLimit](/windows/winui/api/microsoft.ui.text.richedittextdocument.undolimit).
+
 ## -property-value
 The maximum number of undo actions.
 

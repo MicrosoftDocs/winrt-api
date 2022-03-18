@@ -14,7 +14,7 @@ public IAsyncOperation<bool> SpeechSynthesizer.TrySetDefaultVoiceAsync(VoiceInfo
 Asynchronously attempts to set the voice used for speech synthesis on an [IoT](https://developer.microsoft.com/windows/iot) device.
 
 > [!NOTE]
-> This method is available only in [Embedded mode](https://developer.microsoft.com/windows/iot/docs/embeddedmode).
+> This method is available only in [Embedded mode](/windows/iot-core/develop-your-app/EmbeddedMode).
 
 ## -parameters
 
@@ -36,11 +36,10 @@ The systemManagement capability must include the iot namespace when you declare 
 <Capabilities><iot:Capability Name="systemManagement"/></Capabilities>
 ```
 
-Use [Windows.Globalization.ApplicationLanguages.Languages](https://docs.microsoft.com/uwp/api/windows.globalization.applicationlanguages.Languages) to get the ranked list of current runtime language values preferred by the user.
+Use [Windows.Globalization.ApplicationLanguages.Languages](/uwp/api/windows.globalization.applicationlanguages.Languages) to get the ranked list of current runtime language values preferred by the user.
 
 ## -examples
 
 ## -see-also
 
-[Embedded mode](https://developer.microsoft.com/windows/iot/docs/embeddedmode)
-[App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Embedded mode](/windows/iot-core/develop-your-app/EmbeddedMode), [App capability declarations](/windows/uwp/packaging/app-capability-declarations), [Speech interactions](/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

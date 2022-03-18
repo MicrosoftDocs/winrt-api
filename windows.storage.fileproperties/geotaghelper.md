@@ -19,4 +19,4 @@ Provides methods for setting and retrieving geographic metadata for a file.
 
 ## -see-also
 
-[Geotag sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620547)
+[Geotag sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geotag)

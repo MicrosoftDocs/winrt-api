@@ -12,6 +12,8 @@ public class UserControl : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Con
 ## -description
 Provides the base class for defining a new control that encapsulates related existing controls and provides its own logic.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.UserControl](/windows/winui/api/microsoft.ui.xaml.controls.usercontrol).
+
 ## -xaml-syntax
 ```xaml
 <UserControl ...>
@@ -37,7 +39,7 @@ The following examples demonstrate creating a UserControl and using it multiple 
 [!code-vb[2](../windows.ui.xaml.controls.primitives/code/UserControlSnippets/vbnet/NameReporter.xaml.vb#Snippet2)]
 
 > [!NOTE]
-> The `src` prefix in this XAML references the app itself and the `UserControlExample` code namespace within it. That is where the `NameReporter` control is defined. For more info on XAML prefixes, see [XAML namespaces and namespace mapping](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-namespaces-and-namespace-mapping).
+> The `src` prefix in this XAML references the app itself and the `UserControlExample` code namespace within it. That is where the `NameReporter` control is defined. For more info on XAML prefixes, see [XAML namespaces and namespace mapping](/windows/uwp/xaml-platform/xaml-namespaces-and-namespace-mapping).
 
 
 

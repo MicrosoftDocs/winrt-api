@@ -9,15 +9,19 @@ public MapStyleSheet MapStyleSheet.ParseFromJson(String styleAsJson)
 
 # Windows.UI.Xaml.Controls.Maps.MapStyleSheet.ParseFromJson
 
+
 ## -description
+
 Creates a stylesheet by parsing a JSON markup string that defines a set of custom rules.
 
-## -params
+## -parameters
 
-## -param styleAsJson
+### -param styleAsJson
+
 A JSON markup string that defines a set of custom rules.
 
 ## -returns
+
 A [MapStyleSheet](mapstylesheet.md) that represents the rules defined in JSON markup string.
 
 ## -remarks
@@ -25,9 +29,10 @@ A [MapStyleSheet](mapstylesheet.md) that represents the rules defined in JSON ma
 ## -see-also
 
 ## -examples
+
 The following example uses the ParseFromJson method to create a [MapStyleSheet](mapstylesheet.md) and then applies that style sheet to the map control.
 
-To learn more about the properties used in this example, see [Map stylesheet reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet).
+To learn more about the properties used in this example, see [Map stylesheet reference](/windows/uwp/maps-and-location/elements-of-map-style-sheet).
 
 ```csharp
 string jsonString = @"{
@@ -49,3 +54,4 @@ MapStyleSheet myCustomStyleSheet = MapStyleSheet.ParseFromJson(jsonString);
 myMap.StyleSheet = myCustomStyleSheet;
 
 ```
+

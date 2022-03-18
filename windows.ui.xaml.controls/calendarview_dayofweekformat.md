@@ -12,6 +12,8 @@ public string DayOfWeekFormat { get;  set; }
 ## -description
 Gets or sets the display format for the day of the week headers.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.DayOfWeekFormat](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.dayofweekformat).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView DayOfWeekFormat="formatString"/>

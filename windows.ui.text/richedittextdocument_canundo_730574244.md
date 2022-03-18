@@ -9,12 +9,15 @@ public bool RichEditTextDocument.CanUndo()
 
 # Windows.UI.Text.RichEditTextDocument.CanUndo
 
+
 ## -description
+
 Determines whether one or more undo operations exist.
 
-## -parameters
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.CanUndo](/windows/winui/api/microsoft.ui.text.richedittextdocument.canundo).
 
 ## -returns
+
 **true** if one or more undo operations exist; otherwise, **false**.
 
 ## -remarks

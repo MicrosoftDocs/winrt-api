@@ -21,19 +21,13 @@ You can use the [FindAllPeersAsync](peerfinder_findallpeersasync_830195586.md) m
 
 To create an instance of the PeerWatcher class, call the [PeerFinder.Start](peerfinder_start_119778276.md) method, and then call the [CreateWatcher](peerfinder_createwatcher_1506431823.md) method.
 
-
-
-
-
 [!code-csharp[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_StartPeerWatcher)]
-
-
-[!code-js[_StartPeerWatcher_JS](../windows.networking.proximity/code/Proximity_PeerWatcher/js/default.js#Snippet_StartPeerWatcher_JS)]
 
 ## -examples
 
 ## -see-also
-[Proximity and Tapping (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Proximity and Tapping (C#/VB/C++)](https://docs.microsoft.com/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082)
+
+[Proximity and Tapping (C#/VB/C++)](/previous-versions/windows/apps/hh465221(v=win.10)), [Proximity sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Proximity%20sample)
 
 ## -capabilities
 proximity

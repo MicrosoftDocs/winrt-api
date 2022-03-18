@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CenterOfRotationXProperty { get; }
 ## -description
 Identifies the [CenterOfRotationX](planeprojection_centerofrotationx.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.CenterOfRotationXProperty](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.centerofrotationxproperty).
+
 ## -property-value
 The identifier for the [CenterOfRotationX](planeprojection_centerofrotationx.md)  dependency property.
 

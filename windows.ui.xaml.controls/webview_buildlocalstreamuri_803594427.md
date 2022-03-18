@@ -25,7 +25,7 @@ The URI created by combining and normalizing the *contentIdentifier* and *relati
 ## -remarks
 
 ## -examples
-The following code example shows how to use this method with a resolver that will serve a file from the app package. For a complete example, see the [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582).
+The following code example shows how to use this method with a resolver that will serve a file from the app package. For a complete example, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
 
 ```csharp
 
@@ -81,4 +81,4 @@ public sealed class StreamUriWinRTResolver : IUriToStreamResolver
 
 
 ## -see-also
-[NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md), [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582)
+[NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

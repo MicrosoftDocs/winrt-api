@@ -33,5 +33,4 @@ The following code example demonstrates how to use this property to implement sh
 [!code-vb[DataTransferPackage](../windows.ui.xaml.input/code/Controls_WebView/vbnet/Scenario7.xaml.vb#SnippetDataTransferPackage)]
 
 ## -see-also
-[XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582)
-soft.com/fwlink/p/?linkid=238582)
+[XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

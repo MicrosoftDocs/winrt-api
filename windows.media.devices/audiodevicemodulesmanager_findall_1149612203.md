@@ -9,12 +9,13 @@ public IVectorView<AudioDeviceModule> AudioDeviceModulesManager.FindAll()
 
 # Windows.Media.Devices.AudioDeviceModulesManager.FindAll
 
+
 ## -description
+
 Retreives a list of all audio device modules associated with the audio device for which the **AudioDeviceModulesManager** was initialized.
 
-## -parameters
-
 ## -returns
+
 A list of all audio device modules.
 
 ## -remarks

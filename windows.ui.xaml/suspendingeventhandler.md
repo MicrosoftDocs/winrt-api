@@ -10,6 +10,8 @@ public delegate void SuspendingEventHandler(System.Object sender, Windows.Applic
 ## -description
 Represents the method that will handle the [Suspending](application_suspending.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.SuspendingEventHandler](/windows/winui/api/microsoft.ui.xaml.suspendingeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the handler is attached.
@@ -31,7 +33,7 @@ The [Suspending](application_suspending.md) event is the only indication your ap
 If your app is terminated, you can restore the app state in an [OnLaunched](application_onlaunched_859642554.md) method override. If your app resumes before it is terminated, the system restores the app state automatically. You should handle the [Resuming](application_resuming.md) event only if you need to refresh any displayed content that might have changed while the app is suspended, such as news feeds or the user's location.
 
 ## -examples
-This code example demonstrates a typical usage pattern for this event. This code is used by many of the XAML samples, for example the [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855), as part of the code-behind for the app.xaml file. If you browse the XAML samples, you can find the source code for the `SuspensionManager` class API as referenced in this code.
+This code example demonstrates a typical usage pattern for this event. This code is used by many of the XAML samples, for example the [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample), as part of the code-behind for the app.xaml file. If you browse the XAML samples, you can find the source code for the `SuspensionManager` class API as referenced in this code.
 
 ```csharp
 async protected void OnSuspending(object sender, SuspendingEventArgs args)
@@ -42,7 +44,7 @@ async protected void OnSuspending(object sender, SuspendingEventArgs args)
 }
 ```
 
-```vbnet
+```vb
 Private Async Sub OnSuspending(sender As Object, args As SuspendingEventArgs) 
     Dim deferral As SuspendingDeferral = args.SuspendingOperation.GetDeferral 
     Await SuspensionManager.SaveAsync 

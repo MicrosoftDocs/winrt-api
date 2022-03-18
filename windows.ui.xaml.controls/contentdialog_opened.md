@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler Opened<Windows.UI.Xaml.Control
 ## -description
 Occurs after the dialog is opened.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ContentDialog.Opened](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.opened).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog Opened="eventhandler"/>

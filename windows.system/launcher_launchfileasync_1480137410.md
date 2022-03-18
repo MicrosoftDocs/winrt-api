@@ -106,7 +106,7 @@ Windows::Foundation::IAsyncAction MainPage::DefaultLaunch()
 }
 ```
 
-```cpp
+```cppcx
 void MainPage::DefaultLaunch()
 {
    auto installFolder = Windows::ApplicationModel::Package::Current->InstalledLocation;
@@ -142,30 +142,7 @@ void MainPage::DefaultLaunch()
 }
 ```
 
-```javascript
-// Path to the file in the app package to launch
-var imageFile = "images\\test.png";
-
-// Get the image file from the package's image directory
-Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(imageFile).then(
-  function (file) {
-    // Set the show picker option
-    var options = new Windows.System.LauncherOptions();
-    options.displayApplicationPicker = true;
-
-    // Launch the retrieved file using the selected app
-    Windows.System.Launcher.launchFileAsync(file, options).then(
-      function (success) {
-        if (success) {
-            // File launched
-        } else {
-            // File launch failed
-        }
-      });
-  });
-```
-
-```vbnet
+```vb
 async Sub DefaultLaunch()
 
    ' Path to the file in the app package to launch
@@ -193,4 +170,4 @@ End Sub
 ```
 
 ## -see-also
-[Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [How to launch the default app for a file (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452687(v=win.10)), [Launch the default app for a file](https://docs.microsoft.com/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [LaunchFileAsync(IStorageFile, LauncherOptions)
+[Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [Guidelines for file types and URIs](/windows/uwp/files/index), [Launch the default app for a file](/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [LaunchFileAsync(IStorageFile, LauncherOptions)

@@ -12,8 +12,10 @@ public class SoftwareBitmapSource : Windows.UI.Xaml.Media.ImageSource, Windows.F
 ## -description
 Provides a source object, backed by a [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.md), for properties that use a bitmap-format image source.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Imaging.SoftwareBitmapSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.softwarebitmapsource).
+
 ## -remarks
-SoftwareBitmapSource lets you to use a [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.md) as an image source to be displayed using an [ImageBrush](../windows.ui.xaml.media/imagebrush.md) or directly in an [Image](../windows.ui.xaml.controls/image.md) control. For example, you can use a SoftwareBitmapSource to display a photo just taken by a device's camera using the [LowLagPhotoCapture](../windows.media.capture/lowlagphotocapture.md) class, to display an image you have manually decoded using the [BitmapDecoder.GetSoftwareBitmapAsync](../windows.graphics.imaging/bitmapdecoder_getsoftwarebitmapasync_1163471917.md) method, or to display a custom [IWICBitmap](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap) in advanced C++ scenarios where you want to manually manage image memory.
+SoftwareBitmapSource lets you to use a [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.md) as an image source to be displayed using an [ImageBrush](../windows.ui.xaml.media/imagebrush.md) or directly in an [Image](../windows.ui.xaml.controls/image.md) control. For example, you can use a SoftwareBitmapSource to display a photo just taken by a device's camera using the [LowLagPhotoCapture](../windows.media.capture/lowlagphotocapture.md) class, to display an image you have manually decoded using the [BitmapDecoder.GetSoftwareBitmapAsync](../windows.graphics.imaging/bitmapdecoder_getsoftwarebitmapasync_1163471917.md) method, or to display a custom [IWICBitmap](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap) in advanced C++ scenarios where you want to manually manage image memory.
 
 A [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.md) displayed in a XAML app must be in BGRA pixel format with pre-multiplied alpha values.
 

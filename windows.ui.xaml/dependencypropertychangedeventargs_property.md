@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty Property { get; }
 ## -description
 Gets the identifier for the dependency property where the value change occurred.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs.Property](/windows/winui/api/microsoft.ui.xaml.dependencypropertychangedeventargs.property).
+
 ## -property-value
 The identifier field of the dependency property where the value change occurred.
 
@@ -34,4 +36,4 @@ private static void OnGravityPropertiesChanged(DependencyObject d, DependencyPro
 ## -examples
 
 ## -see-also
-[Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

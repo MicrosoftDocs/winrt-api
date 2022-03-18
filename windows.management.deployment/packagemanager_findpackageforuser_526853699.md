@@ -10,7 +10,7 @@ public Windows.ApplicationModel.Package FindPackageForUser(System.String userSec
 # Windows.Management.Deployment.PackageManager.FindPackageForUser
 
 ## -description
-Retrieves information about a specific package installed for a specific user or for all users.
+Retrieves information about a specific [Package](/uwp/api/windows.applicationmodel.package) installed for a specific user or for all users.
 
 ## -parameters
 ### -param userSecurityId
@@ -29,6 +29,7 @@ This method requires administrative privileges if the user security ID specified
 
 ## -see-also
 
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageQuery

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DayItemFontSizeProperty { get; }
 ## -description
 Identifies the [DayItemFontSize](calendarview_dayitemfontsize.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.DayItemFontSizeProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.dayitemfontsizeproperty).
+
 ## -property-value
 The identifier for the [DayItemFontSize](calendarview_dayitemfontsize.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [DayItemFontSize](calendarview_dayitemfontsize.md)   dep
 ## -examples
 
 ## -see-also
-[DayItemFontSize](calendarview_dayitemfontsize.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DayItemFontSize](calendarview_dayitemfontsize.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

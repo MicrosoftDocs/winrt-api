@@ -10,7 +10,10 @@ public uint Id { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisRoot.Id
 
 ## -description
-Gets the unique identifier of the InkAnalysisRoot object. 
+
+Gets the unique identifier of the InkAnalysisRoot object.
+
+## -property-value
 
 ## -remarks
 

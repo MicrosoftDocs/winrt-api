@@ -19,6 +19,6 @@ A list of purpose group GUIDs.
 A purpose group [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) is a public, industry-wide published GUID value describing a service. For example, IMS has a predefined GUID that you can provision with your mobile network operator SIM when the SIM is inserted into a device, which describes the profile that should be used when you query for the IMS profile.
 
 ## -see-also
-[PurposeGroupGuid](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt243429(v=vs.85))
+[PurposeGroupGuid](/previous-versions/windows/desktop/legacy/mt243429(v=vs.85))
 
 ## -examples

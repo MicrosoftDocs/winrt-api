@@ -12,6 +12,8 @@ public float ZoomFactor { get; }
 ## -description
 Gets a value that indicates the current zoom factor engaged for content scaling.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ZoomFactor](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.zoomfactor).
+
 ## -property-value
 The current zoom factor engaged for content scaling. The default is 1.0, where 1.0 indicates no additional scaling.
 

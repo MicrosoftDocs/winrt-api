@@ -12,6 +12,8 @@ public class GroupItem : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xam
 ## -description
 Represents the root element for a subtree that is created for a group.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.GroupItem](/windows/winui/api/microsoft.ui.xaml.controls.groupitem).
+
 ## -xaml-syntax
 ```xaml
 See Remarks
@@ -24,4 +26,4 @@ GroupItem can technically be used as an object element in XAML. However, the mor
 ## -examples
 
 ## -see-also
-[ContentControl](contentcontrol.md), [GroupStyle](groupstyle.md), [GroupItem styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)
+[ContentControl](contentcontrol.md), [GroupStyle](groupstyle.md), [GroupItem styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles)

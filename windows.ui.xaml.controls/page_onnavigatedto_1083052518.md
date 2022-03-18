@@ -12,6 +12,8 @@ virtual protected void OnNavigatedTo(Windows.UI.Xaml.Navigation.NavigationEventA
 ## -description
 Invoked when the [Page](page.md) is loaded and becomes the current source of a parent [Frame](frame.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Page.OnNavigatedTo](/windows/winui/api/microsoft.ui.xaml.controls.page.onnavigatedto).
+
 ## -parameters
 ### -param e
 Event data that can be examined by overriding code. The event data is representative of the pending navigation that will load the current [Page](page.md). Usually the most relevant property to examine is [Parameter](../windows.ui.xaml.navigation/navigationeventargs_parameter.md).

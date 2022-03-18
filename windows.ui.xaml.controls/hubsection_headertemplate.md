@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DataTemplate HeaderTemplate { get;  set; }
 ## -description
 Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to display the content of the hub section header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.HubSection.HeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.hubsection.headertemplate).
+
 ## -xaml-syntax
 ```xaml
 <HubSection>
@@ -19,9 +21,7 @@ Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to disp
     singleDataTemplate
   </HubSection.HeaderTemplate>
 </HubSection>
-```
-
-```xaml
+- or -
 <HubSection HeaderTemplate="resourceReferenceToDataTemplate"/>
 ```
 

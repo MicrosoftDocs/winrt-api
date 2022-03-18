@@ -4865,24 +4865,5 @@ The _Shadow_ property for the [UIElement](../windows.ui.xaml/uielement.md) type.
 
 
 ## -see-also
-* [XamlDirect](xamldirect.md)
-* [IXamlDirectObject](ixamldirectobject.md)
-* [XamlTypeIndex](xamltypeindex.md)
-* [XamlEventIndex](xamleventindex.md)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[XamlDirect](xamldirect.md), [IXamlDirectObject](ixamldirectobject.md), [XamlTypeIndex](xamltypeindex.md), [XamlEventIndex](xamleventindex.md)

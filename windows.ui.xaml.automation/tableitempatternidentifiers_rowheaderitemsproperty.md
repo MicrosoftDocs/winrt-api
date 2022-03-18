@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty RowHeaderItemsProperty { ge
 ## -description
 Identifies the automation property that retrieves all the row headers associated with a table item or cell.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.TableItemPatternIdentifiers.RowHeaderItemsProperty](/windows/winui/api/microsoft.ui.xaml.automation.tableitempatternidentifiers.rowheaderitemsproperty).
+
 ## -property-value
 The automation property identifier.
 

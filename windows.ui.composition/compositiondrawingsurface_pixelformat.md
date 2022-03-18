@@ -12,6 +12,8 @@ public Windows.Graphics.DirectX.DirectXPixelFormat PixelFormat { get; }
 ## -description
 The pixel format of the drawing surface.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionDrawingSurface.PixelFormat](/windows/winui/api/microsoft.ui.composition.compositiondrawingsurface.pixelformat).
+
 ## -property-value
 The pixel format of the drawing surface.
 

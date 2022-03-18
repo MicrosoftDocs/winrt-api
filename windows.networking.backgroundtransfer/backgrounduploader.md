@@ -11,7 +11,7 @@ public class BackgroundUploader : Windows.Networking.BackgroundTransfer.IBackgro
 
 ## -description
 
-Used to configure upload prior to the actual creation of the upload operation using [CreateUpload](backgrounduploader_createupload_1442890857.md). For an overview of Background Transfer capabilities, see [Transferring data in the background](https://docs.microsoft.com/previous-versions/windows/apps/hh452979(v=win.10)). Download the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) for examples in JavaScript, C#, and C++.
+Used to configure upload prior to the actual creation of the upload operation using [CreateUpload](backgrounduploader_createupload_1442890857.md). For an overview of Background Transfer capabilities, see [Transferring data in the background](/previous-versions/windows/apps/hh452979(v=win.10)). Download the [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer) for a code example.
 
 > [!NOTE]
 > Background Transfer is primarily designed for long-term transfer operations for resources like video, music, and large images. For short-term operations involving transfers of smaller resources (i.e. a couple KB), use the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace.
@@ -27,14 +27,14 @@ When implementing a library for Background Transfer operations, and this same li
 
 Upload operations via FTP are not supported.
 
-Security concerns can exist when upload operations require a username and password for authentication. If the authentication model to be used is supported by **WinINet**, use the [ServerCredential](backgrounduploader_servercredential.md) or [ProxyCredential](backgrounduploader_proxycredential.md) properties. These values will be securely saved in **WinVault**. For information on supported authentication methods, see [Handling Authentication](https://docs.microsoft.com/windows/desktop/WinInet/handling-authentication).
+Security concerns can exist when upload operations require a username and password for authentication. If the authentication model to be used is supported by **WinINet**, use the [ServerCredential](backgrounduploader_servercredential.md) or [ProxyCredential](backgrounduploader_proxycredential.md) properties. These values will be securely saved in **WinVault**. For information on supported authentication methods, see [Handling Authentication](/windows/desktop/WinInet/handling-authentication).
 
 If the authentication model is not supported by **WinINet**, use [HttpClient](../windows.web.http/httpclient.md) to implement custom authentication and obtain an upload-specific secure token (cookie). Set the appropriate header to have the secure token value used for background transfer. The service should limit the validity of the secure token only to the file that is being uploaded. 
 
 > [!NOTE]
-> The secure token will be stored in clear text within the application’s folder.
+> The secure token will be stored in clear text within the application's folder.
 
-Upload services that require the username and password be set in clear text in a custom header for each upload file are insecure. Background transfer will cache the headers in clear text for the duration of the operation within the app’s folder.
+Upload services that require the username and password be set in clear text in a custom header for each upload file are insecure. Background transfer will cache the headers in clear text for the duration of the operation within the app's folder.
 
 **Toast notifications**
 
@@ -47,7 +47,7 @@ If **Toast capable** is not enabled in the app manifest, then any toast settings
 > [!NOTE]
 > A user can manually disable or enable toast notifications for your app at any time.
 
-For more information on toast notifications, see [Sending toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868266(v=win.10)) and [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)).
+For more information on toast notifications, see [Sending toast notifications](/previous-versions/windows/apps/hh868266(v=win.10)) and [How to opt in for toast notifications](/previous-versions/windows/apps/hh868218(v=win.10)).
 
 **Handling Exceptions**
 
@@ -57,7 +57,7 @@ An app can use the **HRESULT** from the exception to determine the error that ca
 
 Some **HRESULT** values cannot be converted to a [WebErrorStatus](../windows.web/weberrorstatus.md) enumeration value. When a background POST operation is canceled, an exception is thrown. The operation is not restarted. For more information, see [UploadOperation.StartAsync](uploadoperation_startasync_1931900819.md)
 
-For information on network exceptions, see [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)).
+For information on network exceptions, see [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)).
 
 **Debugging Guidance**
 
@@ -65,7 +65,7 @@ Stopping a debugging session in Microsoft Visual Studio is comparable to closing
 
 While enumerating downloads/uploads on app startup during a debug session, you can have your app cancel them if there is no interest in previous operations for that debug session. Note that if there are Microsoft Visual Studio project updates, like changes to the app manifest, and the app is uninstalled and re-deployed, [GetCurrentUploadsAsync](backgrounduploader_getcurrentuploadsasync_1938169689.md) cannot enumerate operations created using the previous app deployment.
 
-See [Debugging and testing UWP apps](https://go.microsoft.com/fwlink/p/?LinkID=258252) for more information.
+See [Debugging and testing UWP apps](/previous-versions/dd264943(v=vs.140)) for more information.
 
 When using Background Transfer during development, you may get into a situation where the internal caches of active and completed transfer operations can get out of sync. This may result in the inability to start new transfer operations or interact with existing operations and [BackgroundTransferGroup](backgroundtransfergroup.md) objects. In some cases, attempting to interact with existing operations may trigger a crash. This result can occur if the [TransferBehavior](backgroundtransfergroup_transferbehavior.md) property is set to **Parallel**. This issue occurs only in certain scenarios during development and is not applicable to end users of your app.
 
@@ -77,35 +77,11 @@ Four scenarios using Microsoft Visual Studio can cause this issue.
 + You add or remove a capability in the package manifest (adding **Enterprise Authentication**, for example) in an existing project.
  Regular app servicing, including manifest updates which add or remove capabilities, do not trigger this issue on end user deployments of your app.
 
-To work around this issue, completely uninstall all versions of the app and re-deploy with the new language, architecture, culture, or capability. This can be done via the **Start** screen or using PowerShell and the <cmd_line>Remove-AppxPackage</cmd_line> cmdlet.
+To work around this issue, completely uninstall all versions of the app and re-deploy with the new language, architecture, culture, or capability. This can be done via the **Start** screen or using PowerShell and the `Remove-AppxPackage` cmdlet.
 
 ## -examples
 
-The following example demonstrates how to configure and begin a basic upload operation, and is based on the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) offered in the Windows Sample Gallery.
-
-```javascript
-        var upload = null;
-        var promise = null;
-
-        function UploadFile (uriString, file) {
-            try {
-
-                var uri = Windows.Foundation.Uri(uriString);
-                var uploader = new Windows.Networking.BackgroundTransfer.BackgroundUploader();
-
-                // Set a header, so the server can save the file (this is specific to the sample server).
-                uploader.setRequestHeader("Filename", file.name);
-
-                // Create a new upload operation.
-                upload = uploader.createUpload(uri, file);
-
-                // Start the upload and persist the promise to be able to cancel the upload.
-                promise = upload.startAsync().then(complete, error, progress);
-            } catch (err) {
-                displayError(err);
-            }
-        };
-```
+The following example demonstrates how to configure and begin a basic upload operation.
 
 ```csharp
 
@@ -140,7 +116,7 @@ The following example demonstrates how to configure and begin a basic upload ope
 
 ## -see-also
 
-[UploadOperation](uploadoperation.md), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh868218(v=win.10)), [Quickstart: Upload a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700372(v=win.10)), [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064), [Background transfer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620510)
+[UploadOperation](uploadoperation.md), [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)), [How to opt in for toast notifications](/previous-versions/windows/apps/hh868218(v=win.10)), [Quickstart: Upload a file](/previous-versions/windows/apps/hh700372(v=win.10)), [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer), [Background transfer sample (Windows 8.x)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)
 
 ## -capabilities
 

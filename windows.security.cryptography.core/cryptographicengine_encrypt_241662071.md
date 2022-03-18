@@ -20,7 +20,7 @@ Cryptographic key to use for encryption. This can be an asymmetric or a symmetri
 Data to encrypt.
 
 ### -param iv
-Buffer that contains the initialization vector. This can be **null** for a symmetric algorithm and should always be **null** for an asymmetric algorithm. If an initialization vector (IV) was used to encrypt the data, you must use the same IV to decrypt the data. You can use the [GenerateRandom](../windows.security.cryptography/cryptographicbuffer_generaterandom_1645545930.md) method to create an IV that contains random data. Other IVs, such as nonce-generated vectors, require custom implementation. For more information, see [Cryptographic keys](https://docs.microsoft.com/windows/uwp/security/cryptographic-keys).
+Buffer that contains the initialization vector. This can be **null** for a symmetric algorithm and should always be **null** for an asymmetric algorithm. If an initialization vector (IV) was used to encrypt the data, you must use the same IV to decrypt the data. You can use the [GenerateRandom](../windows.security.cryptography/cryptographicbuffer_generaterandom_1645545930.md) method to create an IV that contains random data. Other IVs, such as nonce-generated vectors, require custom implementation. For more information, see [Cryptographic keys](/windows/uwp/security/cryptographic-keys).
 
 Cipher block chaining (CBC) block cipher mode algorithms require an initialization vector. For more information, see Remarks.
 
@@ -48,4 +48,4 @@ Of the symmetric algorithms supported by Microsoft, the following require an ini
 [!code-csharp[ShowSymmDecryption](../windows.security.cryptography/code/crypto-snippets/cs/cryptosnippets.cs#SnippetShowSymmEncryption)]
 
 ## -see-also
-[AsymmetricKeyAlgorithmProvider](asymmetrickeyalgorithmprovider.md), [Cryptographic keys](https://docs.microsoft.com/windows/uwp/security/cryptographic-keys), [Decrypt](cryptographicengine_decrypt_258898008.md), [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md)
+[AsymmetricKeyAlgorithmProvider](asymmetrickeyalgorithmprovider.md), [Cryptographic keys](/windows/uwp/security/cryptographic-keys), [Decrypt](cryptographicengine_decrypt_258898008.md), [SymmetricKeyAlgorithmProvider](symmetrickeyalgorithmprovider.md)

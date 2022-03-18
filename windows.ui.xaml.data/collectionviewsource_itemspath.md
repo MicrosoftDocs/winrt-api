@@ -12,6 +12,8 @@ public Windows.UI.Xaml.PropertyPath ItemsPath { get;  set; }
 ## -description
 Gets or sets the property path to follow from the top level item to find groups within the [CollectionViewSource](collectionviewsource.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.CollectionViewSource.ItemsPath](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.itemspath).
+
 ## -xaml-syntax
 ```xaml
 <CollectionViewSource ItemsPath="propertyPathString" .../>
@@ -29,4 +31,4 @@ The property path to follow from the top level item to find groups. The default 
 ## -examples
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

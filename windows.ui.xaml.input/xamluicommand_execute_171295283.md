@@ -14,6 +14,8 @@ public void XamlUICommand.Execute(Object parameter)
 
 Invokes the command.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.XamlUICommand.Execute](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.execute).
+
 ## -parameters
 
 ### -param parameter
@@ -24,6 +26,6 @@ Data used by the command. If the command does not require data, this object can 
 
 ## -see-also
 
-[StandardUICommand](standarduicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+[StandardUICommand](standarduicommand.md), [Command design basics](/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples

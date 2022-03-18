@@ -12,6 +12,8 @@ public int DynamicOverflowOrder { get;  set; }
 ## -description
 Gets or sets the order in which this item is moved to the [CommandBar](commandbar.md) overflow menu.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarSeparator.DynamicOverflowOrder](/windows/winui/api/microsoft.ui.xaml.controls.appbarseparator.dynamicoverfloworder).
+
 ## -xaml-syntax
 ```xaml
 <AppBarSeparator DynamicOverflowOrder="int" .../>
@@ -22,7 +24,7 @@ Gets or sets the order in which this item is moved to the [CommandBar](commandba
 The order in which this item is moved to the overflow menu relative to other items.
 
 ## -remarks
-For more info and guidelines, see the [App bar and command bar](https://docs.microsoft.com/windows/uwp/controls-and-patterns/app-bars) article.
+For more info and guidelines, see the [App bar and command bar](/windows/uwp/controls-and-patterns/app-bars) article.
 
 Starting in Windows 10, version 1607, [CommandBar](commandbar.md) introduces a dynamic overflow feature. By default, [PrimaryCommands](commandbar_primarycommands.md) automatically move in or out of the overflow area as the command bar width changes, for example, when users resize their app window. You can set the [IsDynamicOverflowEnabled](commandbar_isdynamicoverflowenabled.md) property to **false** to disable this behavior.
 
@@ -34,7 +36,7 @@ You can assign the same DynamicOverflowOrder value to more than one element. Ele
 
 ### Version compatibility
 
-The DynamicOverflowOrder property is not available prior to Windows 10, version 1607. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+The DynamicOverflowOrder property is not available prior to Windows 10, version 1607. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code).
 
 > [!NOTE]
 > Dynamic overflow is available when your app is compiled for Windows 10, version 1607 and running on version 1607 (or later). Dynamic overflow is not available when your app is compiled for a previous version or is running on a previous version.

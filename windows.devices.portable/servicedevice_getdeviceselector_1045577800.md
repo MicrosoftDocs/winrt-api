@@ -24,4 +24,4 @@ The AQS string.
 ## -examples
 
 ## -see-also
-[Windows 8 Device Experience: ](https://go.microsoft.com/fwlink/p/?linkid=241442), [Portable Device Services Sample]( http://go.microsoft.com/fwlink/p/?linkid=242031), [Enumerating Common Devices](https://docs.microsoft.com/previous-versions/windows/apps/hh464974(v=win.10))
+[Windows 8 Device Experience: ](http://msdn.microsoft.com/en-us/library/windows/hardware/br259108.aspx), [Portable Device Services Sample](/samples/browse/), [Enumerating Common Devices](/previous-versions/windows/apps/hh464974(v=win.10))

@@ -39,5 +39,5 @@ We recommend that you not begin any layout work until the window's [SizeChanged]
 ## -examples
 
 ## -see-also
-[Window resizing sample](https://go.microsoft.com/fwlink/p/?LinkId=620026), [
-      Responsive design 101 for ](https://docs.microsoft.com/windows/uwp/layout/screen-sizes-and-breakpoints-for-responsive-design)
+[Window resizing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ResizeAppView), [
+      Responsive design 101 for ](/windows/uwp/layout/screen-sizes-and-breakpoints-for-responsive-design)

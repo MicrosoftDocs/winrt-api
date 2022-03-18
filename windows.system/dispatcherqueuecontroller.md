@@ -12,6 +12,8 @@ public class DispatcherQueueController
 ## -description
 Manages the lifetime of a [DispatcherQueue](dispatcherqueue.md). Provides methods to create and shutdown the **DispatcherQueue**.
 
+Equivalent WinUI class: [Microsoft.System.DispatcherQueueController](/windows/winui/api/microsoft.system.dispatcherqueuecontroller).
+
 ## -remarks
 *Object and Thread Lifetime*
 
@@ -19,5 +21,8 @@ Manages the lifetime of a [DispatcherQueue](dispatcherqueue.md). Provides method
 **DispacherQueueController** and the associated **DispatcherQueue** object can outlive thread’s lifetime and will be disposed when all their references are released.
 
 ## -see-also
+
+[CreateDispatcherQueueController](/windows/win32/api/dispatcherqueue/nf-dispatcherqueue-createdispatcherqueuecontroller)
+
 
 ## -examples

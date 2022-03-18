@@ -13,6 +13,8 @@ public object NavigationView.MenuItemFromContainer(DependencyObject container)
 
 Returns the item that corresponds to the specified, generated container.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.NavigationView.MenuItemFromContainer](/windows/winui/api/microsoft.ui.xaml.controls.navigationview.menuitemfromcontainer).
+
 ## -parameters
 
 ### -param container

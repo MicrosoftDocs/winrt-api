@@ -11,7 +11,9 @@ public Windows.UI.Xaml.Thickness FromUniformLength(System.Double uniformLength)
 
 ## -description
 
-Creates a new [Thickness](thickness.md) value using a uniform value for all the element values. C# and Microsoft Visual Basic code should use the [Thickness(Double)](/dotnet/api/windows.ui.xaml.gridlength.-ctor#Windows_UI_Xaml_GridLength__ctor_System_Double_) constructor instead.
+Creates a new [Thickness](thickness.md) value using a uniform value for all the element values. C# and Microsoft Visual Basic code should use the [Thickness(Double)](/dotnet/api/windows.ui.xaml.gridlength.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_GridLength__ctor_System_Double_) constructor instead.
+
+Equivalent WinUI method: [Microsoft.UI.Xaml.ThicknessHelper.FromUniformLength](/windows/winui/api/microsoft.ui.xaml.thicknesshelper.fromuniformlength).
 
 ## -parameters
 

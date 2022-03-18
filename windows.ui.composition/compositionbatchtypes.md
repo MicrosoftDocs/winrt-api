@@ -12,6 +12,8 @@ public enum Windows.UI.Composition.CompositionBatchTypes : uint
 ## -description
 Batch types for [CompositionCommitBatch](compositioncommitbatch.md) and [CompositionScopedBatch](compositionscopedbatch.md).
 
+Equivalent WinUI enum: [CompositionBatchTypes](/windows/winui/api/microsoft.ui.composition.compositionbatchtypes).
+
 ## -enum-fields
 ### -field None:0
 None.
@@ -22,11 +24,13 @@ The batch contains animations.
 ### -field Effect:2
 The batch contains effects.
 
-
 ### -field AllAnimations:5
 
+The batch contains all animations.
 
 ### -field InfiniteAnimation:4
+
+The batch contains an infinite animation.
 
 
 ## -remarks
@@ -41,5 +45,5 @@ The batch contains effects.
 ## -examples
 
 ## -see-also
-[Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060)
+[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation)
 

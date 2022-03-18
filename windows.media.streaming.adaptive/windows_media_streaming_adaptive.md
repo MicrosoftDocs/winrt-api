@@ -23,10 +23,10 @@ In addition to basic playback, this namespace provides for the control of these 
 
 All other functionality typically required by multimedia apps, such as playback controls, stream selection, and so on, are performed on the media element after you bind the [AdaptiveMediaSource](adaptivemediasource.md) object to that media element.
 
-For how-to guidance for using adaptive streaming in your app, see [Adaptive streaming](https://docs.microsoft.com/windows/uwp/audio-video-camera/adaptive-streaming).
+For how-to guidance for using adaptive streaming in your app, see [Adaptive streaming](/windows/uwp/audio-video-camera/adaptive-streaming).
 
 ## -examples
 
 ## -see-also
 
-[Adaptive streaming sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620479), [Adaptive streaming](https://docs.microsoft.com/windows/uwp/audio-video-camera/adaptive-streaming), [PlayReady sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/PlayReady)
+[Adaptive streaming sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AdaptiveStreaming), [Adaptive streaming](/windows/uwp/audio-video-camera/adaptive-streaming), [PlayReady sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/PlayReady)

@@ -12,10 +12,12 @@ public class BindingFailedEventArgs : Windows.UI.Xaml.IBindingFailedEventArgs
 ## -description
 Provides event data for the [DebugSettings.BindingFailed](debugsettings_bindingfailed.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.BindingFailedEventArgs](/windows/winui/api/microsoft.ui.xaml.bindingfailedeventargs).
+
 ## -remarks
 BindingFailedEventArgs is used for debugging bindings, using a technique that you shouldn't include in production code. Wire the event handler using [DebugSettings](application_debugsettings.md), and use this data class as the result in your handler. You'll mainly be interested in the [Message](bindingfailedeventargs_message.md) value, which you could log or send to **Debug** output.
 
 ## -examples
 
 ## -see-also
-[DebugSettings.BindingFailed](debugsettings_bindingfailed.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[DebugSettings.BindingFailed](debugsettings_bindingfailed.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

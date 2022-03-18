@@ -20,9 +20,9 @@ When this property is **true**, the [StreamSocket](streamsocket.md) object creat
 
 This property may be set before the [StreamSocketListener](streamsocketlistener.md) starts listening for incoming connections. After the [StreamSocketListener](streamsocketlistener.md) starts listening for incoming connections, setting the property will result in an error.
 
-For more detailed information, see the [SO_KEEPALIVE](https://docs.microsoft.com/windows/desktop/WinSock/so-keepalive) socket option in the Windows Sockets documentation.
+For more detailed information, see the [SO_KEEPALIVE](/windows/desktop/WinSock/so-keepalive) socket option in the Windows Sockets documentation.
 
 ## -examples
 
 ## -see-also
-[How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocket](streamsocket.md), [StreamSocketListener](streamsocketlistener.md)
+[How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocket](streamsocket.md), [StreamSocketListener](streamsocketlistener.md)

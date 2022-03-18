@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.FontNumeralStyle : int
 ## -description
 Describes a numeral style value for the [Typography.NumeralStyle](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
+Equivalent WinUI enum: [FontNumeralStyle](/windows/winui/api/microsoft.ui.xaml.fontnumeralstyle).
+
 ## -xaml-syntax
 ```xaml
 <object property="enumMemberName"/>

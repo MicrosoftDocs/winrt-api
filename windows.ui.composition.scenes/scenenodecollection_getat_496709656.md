@@ -14,6 +14,8 @@ public SceneNode SceneNodeCollection.GetAt(UInt32 index)
 
 Returns the item located at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneNodeCollection.GetAt](/windows/winui/api/microsoft.ui.composition.scenes.scenenodecollection.getat).
+
 ## -parameters
 ### -param index
 

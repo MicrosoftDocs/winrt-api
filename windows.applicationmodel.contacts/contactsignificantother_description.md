@@ -10,7 +10,7 @@ public string Description { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactSignificantOther.Description
 
 ## -description
-Gets and sets the description of a significant other for a contact. The maximum string length for the description is 512 characters.
+Gets or sets the description of a significant other for a contact. The maximum string length for the description is 512 characters.
 
 ## -property-value
 The description of a significant other for a contact.

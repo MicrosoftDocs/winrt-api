@@ -13,6 +13,8 @@ public class CompositionDebugHeatMaps
 
 Represents heatmaps that show overdrawn areas of a composition UI.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Diagnostics.CompositionDebugHeatMaps](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugheatmaps).
+
 ## -remarks
 
 ## -see-also

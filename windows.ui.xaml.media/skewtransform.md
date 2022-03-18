@@ -12,6 +12,8 @@ public class SkewTransform : Windows.UI.Xaml.Media.Transform, Windows.UI.Xaml.Me
 ## -description
 Represents a two-dimensional skew.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.SkewTransform](/windows/winui/api/microsoft.ui.xaml.media.skewtransform).
+
 ## -xaml-syntax
 ```xaml
 <SkewTransform .../>
@@ -37,4 +39,4 @@ This example shows how you can access and modify a transform in code at runtime.
 
 
 ## -see-also
-[Transform](transform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580)
+[Transform](transform.md), [XAML two-dimensional transforms sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20two-dimensional%20transforms%20sample)

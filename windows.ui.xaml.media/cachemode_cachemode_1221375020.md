@@ -12,6 +12,8 @@ protected CacheMode()
 ## -description
 Provides base class initialization behavior for [CacheMode](cachemode.md) derived classes.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.CacheMode.CacheMode](/windows/winui/api/microsoft.ui.xaml.media.cachemode.#ctor).
+
 ## -remarks
 
 ## -examples

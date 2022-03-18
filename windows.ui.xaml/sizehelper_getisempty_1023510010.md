@@ -11,7 +11,9 @@ public bool GetIsEmpty(Windows.Foundation.Size target)
 
 ## -description
 
- Returns whether a specified [Size](../windows.foundation/size.md) is equivalent to an [Empty](sizehelper_empty.md) [Size](../windows.foundation/size.md). C# and Microsoft Visual Basic code should use [Size.IsEmpty](/dotnet/api/windows.foundation.size.isempty) instead.
+ Returns whether a specified [Size](../windows.foundation/size.md) is equivalent to an [Empty](sizehelper_empty.md) [Size](../windows.foundation/size.md). C# and Microsoft Visual Basic code should use [Size.IsEmpty](/dotnet/api/windows.foundation.size.isempty?view=dotnet-uwp-10.0&preserve-view=true) instead.
+
+Equivalent WinUI method: [Microsoft.UI.Xaml.SizeHelper.GetIsEmpty](/windows/winui/api/microsoft.ui.xaml.sizehelper.getisempty).
 
 ## -parameters
 

@@ -12,6 +12,8 @@ public class ButtonBaseAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framewo
 ## -description
 Represents a base class for exposing classes derived from [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ButtonBaseAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.buttonbaseautomationpeer).
+
 ## -remarks
  ButtonBaseAutomationPeer has a protected constructor, so you won't be able to use it directly for an [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from ButtonBaseAutomationPeer if you are deriving a custom class from [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer. Note that [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) already has derived classes, each of which also has a derived peer, so make sure that you really want to derive from this base class rather than use one of the existing XAML-enabled derived button classes.
 
@@ -19,13 +21,13 @@ Represents a base class for exposing classes derived from [ButtonBase](../window
 
 [ButtonAutomationPeer](buttonautomationpeer.md) has overrides of **Core** methods such that the associated [AutomationPeer](automationpeer.md) methods provide peer-specific information to a Microsoft UI Automation client.
 
-+ [GetName](automationpeer_getname_1386609741.md) returns a string value based on examining the current **Content**. This is implemented so that consumers of the control don't always need to provide an [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) value in app code, and can use a generated-from-content value for the automation **Name** directly from the UI definition. For more info on how this works, see [Basic accessibility information](https://docs.microsoft.com/windows/uwp/accessibility/basic-accessibility-information).
++ [GetName](automationpeer_getname_1386609741.md) returns a string value based on examining the current **Content**. This is implemented so that consumers of the control don't always need to provide an [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) value in app code, and can use a generated-from-content value for the automation **Name** directly from the UI definition. For more info on how this works, see [Basic accessibility information](/windows/uwp/accessibility/basic-accessibility-information).
 + Other normally required values such as [GetClassName](automationpeer_getclassname_614238974.md) and [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) should be implemented on the derived peer classes.
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 There is no "ControlAutomationPeer" class. [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) serves as implementation for all basic [Control](../windows.ui.xaml.controls/control.md) class scenarios that involve Microsoft UI Automation. This includes behavior that does not necessarily appear as a public API exposure, such as the practical implementations of many of the **Core** methods from [AutomationPeer](automationpeer.md).
 
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) includes extensive base implementation of peer behavior that other peers can use to report information that comes from owner classes at the [UIElement](../windows.ui.xaml/uielement.md) and [FrameworkElement](../windows.ui.xaml/frameworkelement.md) level. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) includes extensive base implementation of peer behavior that other peers can use to report information that comes from owner classes at the [UIElement](../windows.ui.xaml/uielement.md) and [FrameworkElement](../windows.ui.xaml/frameworkelement.md) level. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 <!--Maybe eventually also put this info in the Core methods, because it is overriders that most want to know the specifics of each such behavior whereas general consumers might want big picture or the semi client perspective you get from the non Core descs-->
 
 In addition to the **Core** overrides, [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) has two static utility methods that are useful for getting a peer handle from within control code, or for generating items peers from an item container peer for Microsoft UI Automation support. These are:
@@ -48,4 +50,4 @@ ButtonBaseAutomationPeer is the parent class for several immediately derived cla
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [ButtonAutomationPeer](buttonautomationpeer.md), [Button](../windows.ui.xaml.controls/button.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [ButtonAutomationPeer](buttonautomationpeer.md), [Button](../windows.ui.xaml.controls/button.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

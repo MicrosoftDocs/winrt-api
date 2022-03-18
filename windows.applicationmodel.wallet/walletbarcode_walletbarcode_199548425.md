@@ -10,6 +10,9 @@ public WalletBarcode(Windows.Storage.Streams.IRandomAccessStreamReference stream
 # Windows.ApplicationModel.Wallet.WalletBarcode.WalletBarcode
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Initializes a new instance of the [WalletBarcode](walletbarcode.md) class.
 
 ## -parameters

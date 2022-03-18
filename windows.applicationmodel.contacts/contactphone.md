@@ -13,12 +13,12 @@ public class ContactPhone : Windows.ApplicationModel.Contacts.IContactPhone
 Represents information about the phone for a contact.
 
 ## -remarks
-For information about how to manage contacts, see [Managing contact cards ](https://docs.microsoft.com/previous-versions/windows/apps/dn518181(v=win.10)) and [Managing contact cards ](https://docs.microsoft.com/previous-versions/windows/apps/dn518237(v=win.10)).
+For information about how to manage contacts, see [Contacts and calendar](/windows/uwp/contacts-and-calendar/).
 
 ## -examples
 
 ## -see-also
-[Contact manager API sample](https://go.microsoft.com/fwlink/p/?LinkID=310079), [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), [Phones](contact_phones.md)
+[Contact manager API sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Contact%20manager%20API%20sample), [Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true), [Phones](contact_phones.md)
 
 ## -capabilities
 contactsSystem

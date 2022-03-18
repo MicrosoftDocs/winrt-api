@@ -17,9 +17,7 @@ Gets or sets a brush that provides the background of the control.
 
 ```xaml
 <SwipeItem Background="{StaticResource resourceName}"/>
-```
-
-```xaml
+- or -
 <SwipeItem Background="colorString"/>
 ```
 

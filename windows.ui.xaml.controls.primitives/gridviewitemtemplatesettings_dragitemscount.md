@@ -12,6 +12,8 @@ public int DragItemsCount { get; }
 ## -description
 Gets a value that reports the count of items in the current drag operation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemTemplateSettings.DragItemsCount](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitemtemplatesettings.dragitemscount).
+
 ## -property-value
 A value that reports the count of items in the current drag operation.
 

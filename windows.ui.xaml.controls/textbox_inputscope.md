@@ -12,12 +12,12 @@ public Windows.UI.Xaml.Input.InputScope InputScope { get;  set; }
 ## -description
 Gets or sets the context for input used by this [TextBox](textbox.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.InputScope](/windows/winui/api/microsoft.ui.xaml.controls.textbox.inputscope).
+
 ## -xaml-syntax
 ```xaml
 <TextBox InputScope="inputScopeName" .../>
-```
-
-```xaml
+- or -
 <TextBox>
   <TextBox.InputScope>
     <InputScope>
@@ -41,7 +41,7 @@ The input scope provides a hint at the type of text input expected by the contro
 
 The control might also interpret the data being entered differently (typically for East Asian related input scopes). The input scope does not perform any validation, and does not prevent the user from providing any input through a hardware keyboard or other input device.
 
-Other properties that affect the touch keyboard are [IsSpellCheckEnabled](textbox_isspellcheckenabledproperty.md), [IsTextPredictionEnabled](textbox_istextpredictionenabledproperty.md), and [PreventKeyboardDisplayOnProgrammaticFocus](textbox_preventkeyboarddisplayonprogrammaticfocus.md). For more info and examples, see [Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard).
+Other properties that affect the touch keyboard are [IsSpellCheckEnabled](textbox_isspellcheckenabledproperty.md), [IsTextPredictionEnabled](textbox_istextpredictionenabledproperty.md), and [PreventKeyboardDisplayOnProgrammaticFocus](textbox_preventkeyboarddisplayonprogrammaticfocus.md). For more info and examples, see [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard).
 
 > [!NOTE]
 > While this property can hold a collection of InputeNameScope values, only the first is used, and the rest are ignored.
@@ -68,4 +68,4 @@ phoneNumberTextBox.InputScope = scope;
 
 
 ## -see-also
-[IsSpellCheckEnabled](textbox_isspellcheckenabledproperty.md), [IsTextPredictionEnabled](textbox_istextpredictionenabledproperty.md), [Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[IsSpellCheckEnabled](textbox_isspellcheckenabledproperty.md), [IsTextPredictionEnabled](textbox_istextpredictionenabledproperty.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

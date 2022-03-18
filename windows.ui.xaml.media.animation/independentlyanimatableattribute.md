@@ -12,6 +12,8 @@ public class IndependentlyAnimatableAttribute : System.Attribute
 ## -description
 Not intended for general use. This attribute is used by design tools such as Microsoft Visual Studio. Microsoft Visual Studio interprets the attribute and informs app developers how an animation-property combination will work as far as performance and restrictions.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.IndependentlyAnimatableAttribute](/windows/winui/api/microsoft.ui.xaml.media.animation.independentlyanimatableattribute).
+
 ## -remarks
 Animations of properties can either be enabled or disabled by default. Which case applies is determined by both the type of animation itself (and its subproperties) and the specific property being animated. Core Windows Runtime dependency properties are annotated with metadata describing whether the property is independently animatable. This information is also reported by design tools such as Microsoft Visual Studio in order to provide app developers with info about how a given animation will work and whether it's permitted to run at all.
 
@@ -21,4 +23,4 @@ Animations of properties can either be enabled or disabled by default. Which cas
 ## -examples
 
 ## -see-also
-[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN)
+[Attribute](/dotnet/api/system.attribute?view=dotnet-uwp-10.0&preserve-view=true)

@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.Peers.PatternInterface : int
 ## -description
 Specifies the control pattern that the [GetPattern](automationpeer_getpattern_2046576749.md) method returns.
 
+Equivalent WinUI enum: [PatternInterface](/windows/winui/api/microsoft.ui.xaml.automation.peers.patterninterface).
+
 ## -enum-fields
 ### -field Invoke:0
 The [IInvokeProvider](../windows.ui.xaml.automation.provider/iinvokeprovider.md) control pattern interface.
@@ -92,33 +94,32 @@ The [IDragProvider](../windows.ui.xaml.automation.provider/idragprovider.md) int
 The [IDropTargetProvider](../windows.ui.xaml.automation.provider/idroptargetprovider.md) interface.
 
 ### -field ObjectModel:26
-**Introduced in .** The [IObjectModelProvider](../windows.ui.xaml.automation.provider/iobjectmodelprovider.md) interface.
+The [IObjectModelProvider](../windows.ui.xaml.automation.provider/iobjectmodelprovider.md) interface.
 
 ### -field Spreadsheet:27
-**Introduced in .** The [ISpreadsheetProvider ](../windows.ui.xaml.automation.provider/ispreadsheetprovider.md) interface.
+The [ISpreadsheetProvider ](../windows.ui.xaml.automation.provider/ispreadsheetprovider.md) interface.
 
 ### -field SpreadsheetItem:28
-**Introduced in .** The [ISpreadsheetItemProvider](../windows.ui.xaml.automation.provider/ispreadsheetitemprovider.md) interface.
+The [ISpreadsheetItemProvider](../windows.ui.xaml.automation.provider/ispreadsheetitemprovider.md) interface.
 
 ### -field Styles:29
-**Introduced in .** The [IStylesProvider](../windows.ui.xaml.automation.provider/istylesprovider.md) interface.
+The [IStylesProvider](../windows.ui.xaml.automation.provider/istylesprovider.md) interface.
 
 ### -field Transform2:30
-**Introduced in .** The [ITransformProvider2](../windows.ui.xaml.automation.provider/itransformprovider2.md) interface.
+The [ITransformProvider2](../windows.ui.xaml.automation.provider/itransformprovider2.md) interface.
 
 ### -field SynchronizedInput:31
-**Introduced in .** The [ISynchronizedInputProvider](../windows.ui.xaml.automation.provider/isynchronizedinputprovider.md) interface.
+The [ISynchronizedInputProvider](../windows.ui.xaml.automation.provider/isynchronizedinputprovider.md) interface.
 
 ### -field TextEdit:32
-The [TextEdit](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itexteditprovider) control pattern interface.
+The [TextEdit](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itexteditprovider) control pattern interface.
 
 ### -field CustomNavigation:33
 The [CustomNavigation](../windows.ui.xaml.automation.provider/icustomnavigationprovider.md) control pattern interface.
-
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[GetPattern](automationpeer_getpattern_2046576749.md), [GetPatternCore](automationpeer_getpatterncore_1167667011.md), [Control patterns and interfaces](https://docs.microsoft.com/windows/uwp/accessibility/control-patterns-and-interfaces), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[GetPattern](automationpeer_getpattern_2046576749.md), [GetPatternCore](automationpeer_getpatterncore_1167667011.md), [Control patterns and interfaces](/windows/uwp/accessibility/control-patterns-and-interfaces), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

@@ -10,7 +10,7 @@ public Windows.Devices.Geolocation.AltitudeReferenceSystem AltitudeReferenceSyst
 # Windows.Devices.Geolocation.Geopoint.AltitudeReferenceSystem
 
 ## -description
-The altitude reference system of the geographic point. GeoPoint will default to a value of unspecified when constructed without an altitude reference system. The behavior of an unspecified altitude reference system will depend on the API. A [MapIcon](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.Maps.MapIcon) will treat an unspecified reference system as Surface with an altitude value of 0 and the supplied value for altitude will be ignored.
+The altitude reference system of the geographic point. GeoPoint will default to a value of unspecified when constructed without an altitude reference system. The behavior of an unspecified altitude reference system will depend on the API. A [MapIcon](/uwp/api/Windows.UI.Xaml.Controls.Maps.MapIcon) will treat an unspecified reference system as Surface with an altitude value of 0 and the supplied value for altitude will be ignored.
 
 ## -property-value
 The altitude reference system of the geographic point.

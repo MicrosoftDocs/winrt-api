@@ -12,6 +12,8 @@ public double MinWidth { get;  set; }
 ## -description
 Gets or sets a value that represents the minimum width of a [ColumnDefinition](columndefinition.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ColumnDefinition.MinWidth](/windows/winui/api/microsoft.ui.xaml.controls.columndefinition.minwidth).
+
 ## -xaml-syntax
 ```xaml
 <ColumnDefinition MinWidth="double"/>
@@ -19,7 +21,7 @@ Gets or sets a value that represents the minimum width of a [ColumnDefinition](c
 
 
 ## -property-value
-A [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) that represents the minimum width in pixels. The default is 0.
+A [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) that represents the minimum width in pixels. The default is 0.
 
 ## -remarks
 

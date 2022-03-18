@@ -13,6 +13,8 @@ public XYFocusNavigationStrategyMode XYFocusRightNavigationStrategy { get;  set;
 
 Gets or sets a value that specifies the strategy used to determine the target element of a right navigation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.XYFocusRightNavigationStrategy](/windows/winui/api/microsoft.ui.xaml.uielement.xyfocusrightnavigationstrategy).
+
 ## -xaml-syntax
 
 ```xaml

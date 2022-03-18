@@ -13,6 +13,9 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.Bluetooth.Gene
 ## -description
 Returns a vector of characteristics, that are identified by the specified UUID and belong to this GattDeviceService instance.
 
+> [!IMPORTANT]
+> The **GetCharacteristics** API is deprecated, and it may not be available in future versions of Windows. Instead, use [GetCharacteristicsForUuidAsync](/uwp/api/windows.devices.bluetooth.genericattributeprofile.gattdeviceservice.getcharacteristicsforuuidasync).
+
 ## -parameters
 ### -param characteristicUuid
 The UUID for the characteristics to be retrieved.

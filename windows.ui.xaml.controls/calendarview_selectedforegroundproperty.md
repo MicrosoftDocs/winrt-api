@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SelectedForegroundProperty { get; }
 ## -description
 Identifies the [SelectedForeground](calendarview_selectedforeground.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.SelectedForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selectedforegroundproperty).
+
 ## -property-value
 The identifier for the [SelectedForeground](calendarview_selectedforeground.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [SelectedForeground](calendarview_selectedforeground.md) 
 ## -examples
 
 ## -see-also
-[SelectedForeground](calendarview_selectedforeground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[SelectedForeground](calendarview_selectedforeground.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

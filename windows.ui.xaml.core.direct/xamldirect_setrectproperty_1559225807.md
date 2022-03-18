@@ -13,6 +13,8 @@ public void XamlDirect.SetRectProperty(IXamlDirectObject xamlDirectObject, XamlP
 ## -description
 Sets the value of a [Rect](../windows.foundation/rect.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetRectProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setrectproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

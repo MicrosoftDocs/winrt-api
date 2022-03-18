@@ -14,6 +14,8 @@ public DependencyProperty CanPasteClipboardContentProperty { get; }
 
 Identifies the CanPasteClipboardContent dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.CanPasteClipboardContentProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.canpasteclipboardcontentproperty).
+
 ## -property-value
 
 The identifier for the CanPasteClipboardContent dependency property.

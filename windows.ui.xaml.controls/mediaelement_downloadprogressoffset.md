@@ -12,6 +12,8 @@ public double DownloadProgressOffset { get; }
 ## -description
 Gets the offset of download progress, which is relevant in seek-ahead scenarios.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.DownloadProgressOffset](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.downloadprogressoffset).
+
 ## -property-value
 The offset of download progress.
 

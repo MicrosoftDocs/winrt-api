@@ -12,6 +12,8 @@ public class BitmapIcon : Windows.UI.Xaml.Controls.IconElement, Windows.UI.Xaml.
 ## -description
 Represents an icon that uses a bitmap as its content.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.BitmapIcon](/windows/winui/api/microsoft.ui.xaml.controls.bitmapicon).
+
 ## -xaml-syntax
 ```xaml
 <BitmapIcon .../>
@@ -29,12 +31,14 @@ The file that you use should be a solid image on a transparent background. The b
 
 All color info is stripped from the bitmap when the BitmapIcon is rendered. The remaining non-transparent colors are combined to produce an image that's entirely the foreground color as set by the [Foreground](iconelement_foreground.md) property (this typically comes from styles or templates, such as the default template resolving to a theme resource). You can override this behavior by setting the [ShowAsMonochrome](bitmapicon_showasmonochrome.md) property.
 
+The value of the [Foreground](iconelement_foreground.md) property must be a [SolidColorBrush](solidcolorbrush.md). After the Foreground's Color property is read, changes to it are ignored. To change the  color you must change the value of the Foreground property itself to a new SolidColorBrush.
+
 > [!NOTE]
 > You can set the **Foreground** property on the [AppBarButton](appbarbutton.md) or on the BitmapIcon. If you set the [Foreground](control_foreground.md) on the [AppBarButton](appbarbutton.md), it's applied only to the default visual state. It's not applied to the other visual states defined in the [AppBarButton](appbarbutton.md) template, like `MouseOver`. If you set the [Foreground](iconelement_foreground.md) on the BitmapIcon, the color is applied to all visual states.
 
 The default font size for an AppBarButton Icon is 20px.
 
-You typically specify a [UriSource](bitmapicon_urisource.md) value that references a bitmap that you've included as part of the app, as a resource or otherwise within the app package. For more info on the **ms-appx:** scheme and other URI schemes that you can use to reference resources in your app, see [Uri schemes](https://docs.microsoft.com/previous-versions/windows/apps/jj655406(v=win.10)).
+You typically specify a [UriSource](bitmapicon_urisource.md) value that references a bitmap that you've included as part of the app, as a resource or otherwise within the app package. For more info on the **ms-appx:** scheme and other URI schemes that you can use to reference resources in your app, see [Uri schemes](/previous-versions/windows/apps/jj655406(v=win.10)).
 
 ### Version history
 
@@ -63,4 +67,4 @@ This example shows an [AppBarButton](appbarbutton.md) with a BitmapIcon. The [Ur
 
 
 ## -see-also
-[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Icons for UWP apps](https://docs.microsoft.com/windows/uwp/style/icons)
+[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Icons for UWP apps](/windows/uwp/style/icons)

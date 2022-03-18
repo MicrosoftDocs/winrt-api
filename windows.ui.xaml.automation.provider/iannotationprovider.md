@@ -12,8 +12,10 @@ public interface IAnnotationProvider :
 ## -description
 Exposes the properties of an annotation in a document. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Annotation](../windows.ui.xaml.automation.peers/patterninterface.md).
 
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.IAnnotationProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.iannotationprovider).
+
 ## -remarks
-The **Annotation** control pattern is used to expose the properties of an annotation in a document. One example is a comment balloon that is in the margin of a document and is connected to some document text or a spreadsheet cell. For more info on what this pattern is for, see [Annotation Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingannotation).
+The **Annotation** control pattern is used to expose the properties of an annotation in a document. One example is a comment balloon that is in the margin of a document and is connected to some document text or a spreadsheet cell. For more info on what this pattern is for, see [Annotation Control Pattern](/windows/desktop/WinAuto/uiauto-implementingannotation).
 
 IAnnotationProvider isn't implemented by any existing Windows Runtime automation peers. The interface exists so that custom control authors can support the automation pattern in a custom control, and implement their automation support using the same Windows Runtime managed or C++ API as they use to define control logic or other automation support.
 
@@ -22,4 +24,4 @@ Use [AnnotationPatternIdentifiers](../windows.ui.xaml.automation/annotationpatte
 ## -examples
 
 ## -see-also
-[AnnotationPatternIdentifiers](../windows.ui.xaml.automation/annotationpatternidentifiers.md), [IAnnotationProvider (COM)](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iannotationprovider), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Annotation Control Pattern](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingannotation)
+[AnnotationPatternIdentifiers](../windows.ui.xaml.automation/annotationpatternidentifiers.md), [IAnnotationProvider (COM)](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iannotationprovider), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Annotation Control Pattern](/windows/desktop/WinAuto/uiauto-implementingannotation)

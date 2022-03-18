@@ -13,6 +13,8 @@ public CompositionRectangleGeometry Compositor.CreateRectangleGeometry()
 
 Creates an instance of [CompositionRectangleGeometry](compositionrectanglegeometry.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateRectangleGeometry](/windows/winui/api/microsoft.ui.composition.compositor.createrectanglegeometry).
+
 ## -returns
 
 Returns the created [CompositionRectangleGeometry](compositionrectanglegeometry.md) object.

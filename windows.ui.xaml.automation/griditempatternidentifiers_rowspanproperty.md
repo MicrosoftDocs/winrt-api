@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty RowSpanProperty { get; }
 ## -description
 Identifies the [RowSpan](../windows.ui.xaml.automation.provider/igriditemprovider_rowspan.md) property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.GridItemPatternIdentifiers.RowSpanProperty](/windows/winui/api/microsoft.ui.xaml.automation.griditempatternidentifiers.rowspanproperty).
+
 ## -property-value
 The automation property identifier.
 

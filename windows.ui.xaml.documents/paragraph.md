@@ -12,6 +12,8 @@ public class Paragraph : Windows.UI.Xaml.Documents.Block, Windows.UI.Xaml.Docume
 ## -description
 Provides a block-level content element that is used to group content into a paragraph.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.Paragraph](/windows/winui/api/microsoft.ui.xaml.documents.paragraph).
+
 ## -xaml-syntax
 ```xaml
 <Paragraph .../>

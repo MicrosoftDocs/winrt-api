@@ -12,8 +12,10 @@ public class ContentPropertyAttribute : System.Attribute
 ## -description
 Indicates which property of a type is the XAML content property. A XAML processor uses this information when processing XAML child elements of XAML representations of the attributed type.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Markup.ContentPropertyAttribute](/windows/winui/api/microsoft.ui.xaml.markup.contentpropertyattribute).
+
 ## -remarks
-This attribute is used to identify that a specific property of the attributed type should be considered the XAML content property, when interpreted by XAML parsers and other XAML framework code. The purpose of a XAML content property is that it provides a XAML syntax shorthand that can omit property element markup for that property. The removal of property elements facilitates a more natural parent-children form in XAML markup. For more info on XAML content properties, see "XAML content properties" section of [XAML syntax guide](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-syntax-guide).
+This attribute is used to identify that a specific property of the attributed type should be considered the XAML content property, when interpreted by XAML parsers and other XAML framework code. The purpose of a XAML content property is that it provides a XAML syntax shorthand that can omit property element markup for that property. The removal of property elements facilitates a more natural parent-children form in XAML markup. For more info on XAML content properties, see "XAML content properties" section of [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide).
 
 An example of a class in the default Windows Runtime XAML vocabulary that has ContentPropertyAttribute applied is [Panel](../windows.ui.xaml.controls/panel.md). The property [Children](../windows.ui.xaml.controls/panel_children.md) on the [Panel](../windows.ui.xaml.controls/panel.md) is identified as the XAML content property as defined by the ContentPropertyAttribute and its **Name** value. The content property information is inherited by all derived types of [Panel](../windows.ui.xaml.controls/panel.md), such as [Grid](../windows.ui.xaml.controls/grid.md) and [Canvas](../windows.ui.xaml.controls/canvas.md) and [StackPanel](../windows.ui.xaml.controls/stackpanel.md).
 
@@ -53,4 +55,4 @@ Another prominent example of ContentPropertyAttribute in action can be seen on t
 ## -examples
 
 ## -see-also
-[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN), [XAML syntax guide](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-syntax-guide), [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)
+[Attribute](/dotnet/api/system.attribute?view=dotnet-uwp-10.0&preserve-view=true), [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)

@@ -9,13 +9,14 @@ public void CashDrawer.Close()
 
 # Windows.Devices.PointOfService.CashDrawer.Close
 
-## -description
-Close the cash drawer session.
 
-## -parameters
+## -description
+
+Close the cash drawer session.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+

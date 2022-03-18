@@ -30,4 +30,4 @@ When this method completes successfully, it returns a list of locations containe
 ## -examples
 
 ## -see-also
-[Perform geocoding and reverse geocoding](https://docs.microsoft.com/windows/uwp/maps-and-location/geocoding), [FindLocationsAsync(String, Geopoint)](maplocationfinder_findlocationsasync_282014344.md)
+[Perform geocoding and reverse geocoding](/windows/uwp/maps-and-location/geocoding), [FindLocationsAsync(String, Geopoint)](maplocationfinder_findlocationsasync_282014344.md)

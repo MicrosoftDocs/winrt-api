@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.RoutedEventHandler Checked
 ## -description
 Fires when a [ToggleButton](togglebutton.md) is checked.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.ToggleButton.Checked](/windows/winui/api/microsoft.ui.xaml.controls.primitives.togglebutton.checked).
+
 ## -xaml-syntax
 ```xaml
 <togglebutton Checked="eventhandler"/>

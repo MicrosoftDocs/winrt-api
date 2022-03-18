@@ -10,7 +10,10 @@ public InkAnalysisNodeKind Kind { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisInkDrawing.Kind
 
 ## -description
-Gets the [kind](InkAnalysisNodeKind.md) of ink input identified by the InkAnalysisInkDrawing object. 
+
+Gets the [kind](InkAnalysisNodeKind.md) of ink input identified by the InkAnalysisInkDrawing object.
+
+## -property-value
 
 ## -remarks
 

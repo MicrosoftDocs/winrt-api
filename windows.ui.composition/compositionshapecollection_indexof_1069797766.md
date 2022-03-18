@@ -13,6 +13,8 @@ public bool CompositionShapeCollection.IndexOf(CompositionShape value, UInt32 in
 
 Retrieves the index of the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.IndexOf](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.indexof).
+
 ## -parameters
 ### -param value
 

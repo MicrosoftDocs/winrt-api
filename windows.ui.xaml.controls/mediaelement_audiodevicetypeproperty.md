@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AudioDeviceTypeProperty { get; }
 ## -description
 Identifies the [AudioDeviceType](mediaelement_audiodevicetype.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.AudioDeviceTypeProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.audiodevicetypeproperty).
+
 ## -property-value
 The identifier for the [AudioDeviceType](mediaelement_audiodevicetype.md) dependency property.
 

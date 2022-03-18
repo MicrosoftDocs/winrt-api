@@ -24,3 +24,5 @@ The requested volume.
 ## -examples
 
 ## -see-also
+
+[Package](/uwp/api/windows.applicationmodel.package)

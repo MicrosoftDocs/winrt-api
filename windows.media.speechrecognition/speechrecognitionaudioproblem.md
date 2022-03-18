@@ -40,4 +40,4 @@ User spoke too slowly.
 ## -examples
 
 ## -see-also
-[Windows.Media.SpeechRecognition](windows_media_speechrecognition.md), [RecognitionQualityDegrading](speechrecognizer_recognitionqualitydegrading.md), [SpeechRecognitionQualityDegradingEventArgs](speechrecognitionqualitydegradingeventargs.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Windows.Media.SpeechRecognition](windows_media_speechrecognition.md), [RecognitionQualityDegrading](speechrecognizer_recognitionqualitydegrading.md), [SpeechRecognitionQualityDegradingEventArgs](speechrecognitionqualitydegradingeventargs.md), [Speech interactions](/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

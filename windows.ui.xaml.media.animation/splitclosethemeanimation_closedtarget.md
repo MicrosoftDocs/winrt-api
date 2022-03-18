@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject ClosedTarget { get;  set; }
 ## -description
 Gets or sets the UI element that specifies the initial clip size.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitCloseThemeAnimation.ClosedTarget](/windows/winui/api/microsoft.ui.xaml.media.animation.splitclosethemeanimation.closedtarget).
+
 ## -property-value
 The UI element that specifies the initial clip size.
 

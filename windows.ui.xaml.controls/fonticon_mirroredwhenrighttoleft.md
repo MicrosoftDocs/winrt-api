@@ -12,6 +12,8 @@ public bool MirroredWhenRightToLeft { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the icon is mirrored when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is **RightToLeft**.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.FontIcon.MirroredWhenRightToLeft](/windows/winui/api/microsoft.ui.xaml.controls.fonticon.mirroredwhenrighttoleft).
+
 ## -property-value
 **true** if the icon is mirrored when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is [FlowDirection.RightToLeft](../windows.ui.xaml/flowdirection.md); otherwise, **false**. The default is **false**.
 
@@ -21,4 +23,4 @@ You can set the MirroredWhenRightToLeft property to have the glyph appear mirror
 ## -examples
 
 ## -see-also
-[FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md), [How to support bidirectional UI](https://docs.microsoft.com/previous-versions/windows/apps/jj712703(v=win.10)), [How to adjust layout and fonts for various languages, and support RTL layouts](https://docs.microsoft.com/previous-versions/windows/apps/hh967760(v=win.10))
+[FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md), [How to support bidirectional UI](/previous-versions/windows/apps/jj712703(v=win.10)), [How to adjust layout and fonts for various languages, and support RTL layouts](/previous-versions/windows/apps/hh967760(v=win.10))

@@ -12,6 +12,8 @@ public double Volume { get;  set; }
 ## -description
 Gets or sets the media's volume.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.Volume](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.volume).
+
 ## -xaml-syntax
 ```xaml
 <MediaElement Volume="double"/>

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.PivotItem Item { get;  set; }
 ## -description
 Gets the pivot item instance.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PivotItemEventArgs.Item](/windows/winui/api/microsoft.ui.xaml.controls.pivotitemeventargs.item).
+
 ## -property-value
 Returns [PivotItem](pivotitem.md).
 

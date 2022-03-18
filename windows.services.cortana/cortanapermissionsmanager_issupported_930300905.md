@@ -9,11 +9,10 @@ public bool CortanaPermissionsManager.IsSupported()
 
 # Windows.Services.Cortana.CortanaPermissionsManager.IsSupported
 
+
 ## -description
 
 Retrieves whether Cortana is supported.
-
-## -parameters
 
 ## -returns
 
@@ -36,3 +35,4 @@ The [CortanaPermissionManager](cortanapermissionsmanager.md) class requires the 
 ## -see-also
 
 ## -examples
+

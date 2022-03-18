@@ -12,6 +12,8 @@ public SymbolIcon(Windows.UI.Xaml.Controls.Symbol symbol)
 ## -description
 Initializes a new instance of the [SymbolIcon](symbolicon.md) class using the specified symbol.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.SymbolIcon.SymbolIcon](/windows/winui/api/microsoft.ui.xaml.controls.symbolicon.#ctor).
+
 ## -parameters
 ### -param symbol
 A named constant of the enumeration that specifies the Segoe MDL2 Assets glyph to use. The default is **null**.

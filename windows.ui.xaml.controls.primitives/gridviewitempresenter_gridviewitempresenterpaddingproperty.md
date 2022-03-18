@@ -15,6 +15,8 @@ public Windows.UI.Xaml.DependencyProperty GridViewItemPresenterPaddingProperty {
 
 Identifies the [GridViewItemPresenterPadding](gridviewitempresenter_gridviewitempresenterpadding.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.GridViewItemPresenterPaddingProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.gridviewitempresenterpaddingproperty).
+
 ## -property-value
 The identifier for the [GridViewItemPresenterPadding](gridviewitempresenter_gridviewitempresenterpadding.md) dependency property.
 
@@ -23,4 +25,4 @@ The identifier for the [GridViewItemPresenterPadding](gridviewitempresenter_grid
 ## -examples
 
 ## -see-also
-[GridViewItemPresenterPadding](gridviewitempresenter_gridviewitempresenterpadding.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[GridViewItemPresenterPadding](gridviewitempresenter_gridviewitempresenterpadding.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

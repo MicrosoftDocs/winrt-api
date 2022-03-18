@@ -12,6 +12,8 @@ protected FrameworkElement()
 ## -description
 Provides base class initialization behavior for [FrameworkElement](frameworkelement.md)-derived classes.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.FrameworkElement.FrameworkElement](/windows/winui/api/microsoft.ui.xaml.frameworkelement.#ctor).
+
 ## -remarks
 
 ## -examples

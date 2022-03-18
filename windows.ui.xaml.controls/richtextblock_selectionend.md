@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Documents.TextPointer SelectionEnd { get; }
 ## -description
 Gets the end position of the text selected in the [RichTextBlock](richtextblock.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.SelectionEnd](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.selectionend).
+
 ## -property-value
 An object that represents the selection end, or null if no selection exists.
 

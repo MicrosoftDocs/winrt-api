@@ -10,10 +10,10 @@ public string HonorificNameSuffix { get;  set; }
 # Windows.ApplicationModel.Contacts.Contact.HonorificNameSuffix
 
 ## -description
-Gets and sets the honorific suffix for the name for a contact. The maximum string length for the honorific suffix is 32 characters.
+Gets or sets the honorific suffix for the name for a contact. The maximum string length for the honorific suffix is 32 characters.
 
 ## -property-value
-The honorific suffix for the name for a contact.
+The honorific suffix for the name for a contact. The maximum string length for the honorific suffix is 32 characters.
 
 ## -remarks
 A suffix follows the contact's name and provides additional info about the contact, like an academic degree (M.D. for medical doctor).

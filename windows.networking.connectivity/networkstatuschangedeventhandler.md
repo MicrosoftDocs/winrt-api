@@ -12,7 +12,7 @@ Represents the method that handles network status change notifications. This met
 
 ## -parameters
 ### -param sender
-A [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) that raised the event.
+A [Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true) that raised the event.
 
 
 ## -remarks

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LeftOfProperty { get; }
 ## -description
 Identifies the [RelativePanel.LeftOf](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.LeftOfProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.leftofproperty).
+
 ## -property-value
 The identifier for the [RelativePanel.LeftOf](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property.
 
@@ -23,4 +25,4 @@ To access the [RelativePanel.LeftOf](/uwp/api/windows.ui.xaml.controls.relativep
 ## -examples
 
 ## -see-also
-[RelativePanel.LeftOf](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)
+[RelativePanel.LeftOf](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

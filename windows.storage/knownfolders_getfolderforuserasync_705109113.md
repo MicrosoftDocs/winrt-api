@@ -14,7 +14,7 @@ Static method that returns a specified known folder for a [User](../windows.syst
 
 ## -parameters
 ### -param user
-The [User](../windows.system/user.md) for which the folder is returned. Use `null` for the current user. In context of this API, current user refers to the user context of the process from where the API call is made.
+The [User](../windows.system/user.md) for which the folder is returned.
 
 ### -param folderId
 The ID of the folder to be returned.
@@ -27,4 +27,8 @@ When this method completes, it returns the requested [StorageFolder](storagefold
 ## -examples
 
 ## -see-also
-[KnownFolderId](knownfolderid.md), [StorageFolder](storagefolder.md)
+[KnownFolderId](knownfolderid.md)
+
+[StorageFolder](storagefolder.md)
+
+[GetFolderAsync](knownfolders_getfolderasync_705109113.md)

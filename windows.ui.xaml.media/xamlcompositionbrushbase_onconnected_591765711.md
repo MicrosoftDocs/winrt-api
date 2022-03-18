@@ -17,6 +17,8 @@ When implemented in a derived class, you can create a [CompositionBrush](./../wi
 
 [OnDisconnected](xamlcompositionbrushbase_ondisconnected_510183142.md) will be called when the brush is no longer being used to paint any elements.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.OnConnected](/windows/winui/api/microsoft.ui.xaml.media.xamlcompositionbrushbase.onconnected).
+
 ## -remarks
 
 ## -see-also

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty HelpTextProperty { get; }
 ## -description
 Identifies the help text automation property. The help text property value is returned by the [GetHelpText](../windows.ui.xaml.automation.peers/automationpeer_gethelptext_1251901404.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.HelpTextProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.helptextproperty).
+
 ## -property-value
 The automation property identifier.
 

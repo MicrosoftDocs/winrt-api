@@ -12,7 +12,7 @@ public class HidOutputReport : Windows.Devices.HumanInterfaceDevice.IHidOutputRe
 
 ## -description
 
-Represents a [HID Output Report](https://docs.microsoft.com/windows-hardware/drivers/hid/introduction-to-hid-concepts#reports).
+Represents a [HID Output Report](/windows-hardware/drivers/hid/introduction-to-hid-concepts#reports).
 
 Hosts issue output reports to request changes on the device. For example, a host could issue a request to a keyboard to turn an LED on or off.
 

@@ -30,4 +30,4 @@ Returns an asynchronous operation that completes with an operation status.
 ## -examples
 
 ## -see-also
-[TryRespondWithCryptogramsAsync(IBuffer, IIterable(SmartCardCryptogramPlacementStep))](smartcardemulatorapdureceivedeventargs_tryrespondwithcryptogramsasync_340048536.md), [Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[TryRespondWithCryptogramsAsync(IBuffer, IIterable(SmartCardCryptogramPlacementStep))](smartcardemulatorapdureceivedeventargs_tryrespondwithcryptogramsasync_340048536.md), [Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)

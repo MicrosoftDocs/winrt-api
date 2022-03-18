@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ISemanticZoomInformation ZoomedInView { get;  se
 ## -description
 Gets or sets the semantically more complete zoomed-in view of the [SemanticZoom](semanticzoom.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SemanticZoom.ZoomedInView](/windows/winui/api/microsoft.ui.xaml.controls.semanticzoom.zoomedinview).
+
 ## -xaml-syntax
 ```xaml
 <SemanticZoom ...>

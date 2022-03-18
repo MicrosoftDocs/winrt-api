@@ -36,7 +36,7 @@ Here is an example for manifest registration.
 
 After you register in your manifest, your app can be activated for the contact map contract. When your app is activated, you can use the event information to identify the map activation and extract the parameters that help you complete the mapping scenario for the user.
 
-For info about how to handle app activation through contact actions, see [Quickstart: Handling contact actions ](https://docs.microsoft.com/previous-versions/windows/apps/dn518236(v=win.10)) and [Quickstart: Handling contact actions ](https://docs.microsoft.com/previous-versions/windows/apps/dn518338(v=win.10)).
+For info about how to handle app activation through contact actions, see [Quickstart: Handling contact actions ](/previous-versions/windows/apps/dn518236(v=win.10)).
 
 ## -examples
 Here is an example of the code you need to handle contact map activations.
@@ -83,7 +83,7 @@ void App::OnActivated(Windows::ApplicationModel::Activation::IActivatedEventArgs
 }
 ```
 
-```cpp
+```cppcx
 void App::OnActivated(IActivatedEventArgs^ args)
 {
     if (args->Kind == ActivationKind::Contact)
@@ -105,4 +105,4 @@ void App::OnActivated(IActivatedEventArgs^ args)
 ```
 
 ## -see-also
-[IContactMapActivatedEventArgs](icontactmapactivatedeventargs.md), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md), [Handling Contact Actions sample](https://go.microsoft.com/fwlink/p/?LinkID=320151)
+[IContactMapActivatedEventArgs](icontactmapactivatedeventargs.md), [IContactActivatedEventArgs](icontactactivatedeventargs.md), [IActivatedEventArgs](iactivatedeventargs.md), [Handling Contact Actions sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Handling%20Contact%20Actions)

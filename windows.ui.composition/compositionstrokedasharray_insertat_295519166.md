@@ -13,6 +13,8 @@ public void CompositionStrokeDashArray.InsertAt(UInt32 index, Single value)
 
 Inserts the specified item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionStrokeDashArray.InsertAt](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.insertat).
+
 ## -parameters
 ### -param index
 

@@ -13,9 +13,11 @@ public class CompositionPropertySet : Windows.UI.Composition.CompositionObject, 
 
 Stores values as key-value pairs.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionPropertySet](/windows/winui/api/microsoft.ui.composition.compositionpropertyset).
+
 ## -remarks
 
-**CompositionPropertySet**s are [CompositionObject](compositionobject.md)s that allow storage of key values pairs that can be shared across the application and are not tied to the lifetime of another composition object. **CompositionPropertySet**s are most commonly used with animations, where they maintain key-value pairs that are referenced to drive portions of composition animations. **CompositionPropertySet**s provide the ability to insert key-value pairs or retrieve a value for a given key. For more information on using **CompositionPropertySet** with animations, see the [Animations Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-animation) page.
+**CompositionPropertySet**s are [CompositionObject](compositionobject.md)s that allow storage of key values pairs that can be shared across the application and are not tied to the lifetime of another composition object. **CompositionPropertySet**s are most commonly used with animations, where they maintain key-value pairs that are referenced to drive portions of composition animations. **CompositionPropertySet**s provide the ability to insert key-value pairs or retrieve a value for a given key. For more information on using **CompositionPropertySet** with animations, see the [Animations Overview](/windows/uwp/graphics/composition-animation) page.
 
 CompositionPropertySet does not support a delete function – ensure you use CompositionPropertySet to store values that will be shared across the application.
 

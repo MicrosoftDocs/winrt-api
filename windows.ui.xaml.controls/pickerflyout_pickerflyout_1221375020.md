@@ -12,6 +12,8 @@ public PickerFlyout()
 ## -description
 Initializes a new instance of the [PickerFlyout](pickerflyout.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.PickerFlyout.PickerFlyout](/windows/winui/api/microsoft.ui.xaml.controls.pickerflyout.#ctor).
+
 ## -remarks
 
 ## -examples

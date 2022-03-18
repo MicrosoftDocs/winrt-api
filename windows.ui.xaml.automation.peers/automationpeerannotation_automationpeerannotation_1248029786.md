@@ -12,6 +12,8 @@ public AutomationPeerAnnotation(Windows.UI.Xaml.Automation.AnnotationType type)
 ## -description
 Initializes a new instance of the  class using the defined parameter.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.AutomationPeerAnnotation](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeerannotation.#ctor).
+
 ## -parameters
 ### -param type
 The type of annotation.

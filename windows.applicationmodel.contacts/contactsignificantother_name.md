@@ -10,10 +10,10 @@ public string Name { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactSignificantOther.Name
 
 ## -description
-Gets and sets the name of a significant other for a contact. The maximum string length for the name is 256 characters.
+Gets or sets the name of a significant other for a contact. The maximum string length for the name is 256 characters.
 
 ## -property-value
-The name of a significant other for a contact.
+The name of a significant other for a contact. The maximum string length for the name is 256 characters.
 
 ## -remarks
 

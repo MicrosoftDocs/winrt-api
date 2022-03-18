@@ -27,15 +27,15 @@ You must write code to handle exceptions when you call asynchronous methods in t
 
 The Windows.Networking.Sockets namespace has convenient helper methods and enumerations for handling errors when using sockets and WebSockets. This can be useful for handling specific network exceptions differently in your app. An app can also use the **HRESULT** from the exception on parameter validation errors to learn more detailed information on the error that caused the exception.
 
-For more information on possible exceptions and how to handle exceptions, see [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)).
+For more information on possible exceptions and how to handle exceptions, see [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)).
 
 ### Using StreamSocket with Proximity, Wi-Fi Direct, and Bluetooth
 
-Your app can use a [StreamSocket](streamsocket.md) for network connections between devices that are within close range. Classes in the [Windows.Networking.Proximity](../windows.networking.proximity/windows_networking_proximity.md) namespace support network connections with a [StreamSocket](streamsocket.md) to nearby devices that use Bluetooth or Wi-Fi Direct. The [PeerFinder](../windows.networking.proximity/peerfinder.md) and related classes in the [ Windows.Networking.Proximity](../windows.networking.proximity/windows_networking_proximity.md) namespace let your app discover another instance of your app on a nearby device. The [PeerFinder.FindAllPeersAsync](../windows.networking.proximity/peerfinder_findallpeersasync_830195586.md) method browses for peer computers that are running the same app within wireless range. The [PeerFinder.ConnectAsync](../windows.networking.proximity/peerfinder_connectasync_380619906.md) method returns a connected [StreamSocket](streamsocket.md) that your app can use to transfer network data with the nearby peer app. For more information, see [Supporting proximity and tapping](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)), [Windows.Networking.Proximity](../windows.networking.proximity/windows_networking_proximity.md), [PeerFinder](../windows.networking.proximity/peerfinder.md), and the [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082).
+Your app can use a [StreamSocket](streamsocket.md) for network connections between devices that are within close range. Classes in the [Windows.Networking.Proximity](../windows.networking.proximity/windows_networking_proximity.md) namespace support network connections with a [StreamSocket](streamsocket.md) to nearby devices that use Bluetooth or Wi-Fi Direct. The [PeerFinder](../windows.networking.proximity/peerfinder.md) and related classes in the [ Windows.Networking.Proximity](../windows.networking.proximity/windows_networking_proximity.md) namespace let your app discover another instance of your app on a nearby device. The [PeerFinder.FindAllPeersAsync](../windows.networking.proximity/peerfinder_findallpeersasync_830195586.md) method browses for peer computers that are running the same app within wireless range. The [PeerFinder.ConnectAsync](../windows.networking.proximity/peerfinder_connectasync_380619906.md) method returns a connected [StreamSocket](streamsocket.md) that your app can use to transfer network data with the nearby peer app. For more information, see [Supporting proximity and tapping](/previous-versions/windows/apps/hh465229(v=win.10)), [Windows.Networking.Proximity](../windows.networking.proximity/windows_networking_proximity.md), [PeerFinder](../windows.networking.proximity/peerfinder.md), and the [Proximity sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Proximity%20sample).
 
 Your app can also use a [StreamSocket](streamsocket.md) for network connections between devices that use Wi-Fi Direct with classes in the [Windows.Devices.WiFiDirect](../windows.devices.wifidirect/windows_devices_wifidirect.md) namespace. The [WiFiDirectDevice](../windows.devices.wifidirect/wifidirectdevice.md) class can be used to locate other devices that have a Wi-Fi Direct (WFD) capable device. The [WiFiDirectDevice.GetDeviceSelector](../windows.devices.wifidirect/wifidirectdevice_getdeviceselector_185243134.md) method gets the device identifier for a nearby WFD device. Once you have a reference to a nearby WFD device, you can call the [WiFiDirectDevice.GetConnectionEndpointPairs](../windows.devices.wifidirect/wifidirectdevice_getconnectionendpointpairs_1958888015.md) method to get an [EndpointPair](../windows.networking/endpointpair.md) object. The [ConnectAsync(EndpointPair)](streamsocket_connectasync_13692504.md) or [ConnectAsync(EndpointPair, SocketProtectionLevel)](streamsocket_connectasync_706428084.md) method on the [StreamSocket](streamsocket.md) class can then be used to establish a socket connection. For more information, see [Windows.Devices.WiFiDirect](../windows.devices.wifidirect/windows_devices_wifidirect.md) and [WiFiDirectDevice](../windows.devices.wifidirect/wifidirectdevice.md).
 
-Bluetooth uses Bluetooth Service IDs as endpoints for [StreamSocket](streamsocket.md) connections, not hostnames or IP addresses. To use a [StreamSocket](streamsocket.md) with Bluetooth, the **bluetooth.rfcomm** device capability must be set in the app manifest. For more information, see the [Windows.Devices.Bluetooth.Rfcomm](../windows.devices.bluetooth.rfcomm/windows_devices_bluetooth_rfcomm.md) namespace, [How to specify device capabilities for Bluetooth](https://docs.microsoft.com/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth), and the [Bluetooth Rfcomm Chat sample](https://go.microsoft.com/fwlink/p/?LinkID=306047).
+Bluetooth uses Bluetooth Service IDs as endpoints for [StreamSocket](streamsocket.md) connections, not hostnames or IP addresses. To use a [StreamSocket](streamsocket.md) with Bluetooth, the **bluetooth.rfcomm** device capability must be set in the app manifest. For more information, see the [Windows.Devices.Bluetooth.Rfcomm](../windows.devices.bluetooth.rfcomm/windows_devices_bluetooth_rfcomm.md) namespace, [How to specify device capabilities for Bluetooth](/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth), and the [Bluetooth Rfcomm Chat sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Bluetooth%20Rfcomm%20Chat).
 
 ### Using DatagramSocket with Wi-Fi Direct
 
@@ -51,7 +51,7 @@ The [ControlChannelTrigger](controlchanneltrigger.md) lets your app receive netw
 
 Network triggers are used by long-running network apps (for example, an email app) to minimize network and system resource usage. Network triggers let an app drop to a low-power mode for periods of time, keeping network connections intact but in a low-power state. You can set a keepalive interval to let the system know when the app should wake up. You can also set a trigger to be notified when a packet is received for the app. These notification features can help extend battery life when using long-running network apps on mobile devices.
 
-For more information, see the [ControlChannelTrigger](controlchanneltrigger.md) class and [How to set background connectivity options](https://docs.microsoft.com/previous-versions/windows/apps/hh771189(v=win.10)).
+For more information, see the [ControlChannelTrigger](controlchanneltrigger.md) class and [How to set background connectivity options](/previous-versions/windows/apps/hh771189(v=win.10)).
 
 ### Socket activity triggers
 
@@ -63,7 +63,7 @@ If your app uses socket activity triggers, you must specify the pushNotification
 
 There are some scenarios where either kind of trigger would be suitable. When you are choosing which kind of trigger to use in your app, consider the following advice.
 
-+ If you are using [IXMLHTTPRequest2](https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2), [System.Net.Http.HttpClient](../windows.web.http/httpclient.md) or [System.Net.Http.HttpClientHandler](https://go.microsoft.com/fwlink/p/?linkid=241638), you must use [ControlChannelTrigger](controlchanneltrigger.md).
++ If you are using [IXMLHTTPRequest2](/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2), [System.Net.Http.HttpClient](../windows.web.http/httpclient.md) or [System.Net.Http.HttpClientHandler](/dotnet/api/system.net.http.httpclienthandler?view=dotnet-uwp-10.0&preserve-view=true), you must use [ControlChannelTrigger](controlchanneltrigger.md).
 + If you are using push-enabled **StreamSockets**, prefer [SocketActivityTrigger](../windows.applicationmodel.background/socketactivitytrigger.md). It allows the system to free up memory and reduce power requirements when the connection is not being actively used.
 + If you want to minimize the memory footprint of your app when it is not actively servicing network requests, prefer [SocketActivityTrigger](../windows.applicationmodel.background/socketactivitytrigger.md).
 + If you want your app to be able to receive data while the system is in Connected Standby mode, use [SocketActivityTrigger](../windows.applicationmodel.background/socketactivitytrigger.md).
@@ -86,39 +86,39 @@ Windows 8 actively enforces network isolation. A call to a method or any access
 
 The network capabilities for an app are configured in the app manifest when the app is built. Network capabilities are usually added using Visual Studio when you develop your app. They may also be set manually in the app manifest file using a text editor.
 
-For more detailed information on network isolation, see [How to configure network isolation capabilities](https://docs.microsoft.com/previous-versions/windows/apps/hh770532(v=win.10)).
+For more detailed information on network isolation, see [How to configure network isolation capabilities](/previous-versions/windows/apps/hh770532(v=win.10)).
 
 ## -examples
 
 ## -see-also
 
-[Adding support for networking](https://docs.microsoft.com/previous-versions/windows/apps/hh452752(v=win.10)),
-[Connecting to network services](https://docs.microsoft.com/previous-versions/windows/apps/hh452977(v=win.10)),
+[Adding support for networking](/previous-versions/windows/apps/hh452752(v=win.10)),
+[Connecting with sockets](/previous-versions/windows/apps/hh452976(v=win.10)),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
-[Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)),
-[How to configure network isolation capabilities](https://docs.microsoft.com/previous-versions/windows/apps/hh770532(v=win.10)),
-[How to set background connectivity options](https://docs.microsoft.com/previous-versions/windows/apps/hh771189(v=win.10)),
-[How to specify device capabilities for Bluetooth](https://docs.microsoft.com/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth), [Supporting proximity and tapping](https://docs.microsoft.com/previous-versions/windows/apps/hh465229(v=win.10)),
-[Troubleshooting and debugging network connections](https://docs.microsoft.com/previous-versions/windows/apps/hh770534(v=win.10)),
+[Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)),
+[How to configure network isolation capabilities](/previous-versions/windows/apps/hh770532(v=win.10)),
+[How to set background connectivity options](/previous-versions/windows/apps/hh771189(v=win.10)),
+[How to specify device capabilities for Bluetooth](/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth), [Supporting proximity and tapping](/previous-versions/windows/apps/hh465229(v=win.10)),
+[Troubleshooting and debugging network connections](/previous-versions/windows/apps/hh770534(v=win.10)),
 [PeerFinder](../windows.networking.proximity/peerfinder.md),
-[SetSocketMediaStreamingMode](https://docs.microsoft.com/windows/desktop/api/socketapi/nf-socketapi-setsocketmediastreamingmode),
+[SetSocketMediaStreamingMode](/windows/desktop/api/socketapi/nf-socketapi-setsocketmediastreamingmode),
 [WiFiDirectDevice](../windows.devices.wifidirect/wifidirectdevice.md),
 [Windows.Devices.Bluetooth.Rfcomm](../windows.devices.bluetooth.rfcomm/windows_devices_bluetooth_rfcomm.md),
 [Windows.Devices.WiFiDirect](../windows.devices.wifidirect/windows_devices_wifidirect.md),
 [Windows.Networking Namespace](../windows.networking/windows_networking.md),
 [Windows.Networking.Connectivity Namespace](../windows.networking.connectivity/windows_networking_connectivity.md),
 [Windows.Networking.Proximity](../windows.networking.proximity/windows_networking_proximity.md),
-[Bluetooth Rfcomm Chat sample](https://go.microsoft.com/fwlink/p/?LinkID=306047),
-[DatagramSocket sample](https://go.microsoft.com/fwlink/p/?LinkID=243037),
-[ControlChannelTrigger StreamWebSocket sample](https://go.microsoft.com/fwlink/p/?LinkID=251353),
-[ControlChannelTrigger TCP socket sample](https://go.microsoft.com/fwlink/p/?linkid=243039),
-[Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082),
-[StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243037),
-[DatagramSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620534),
-[WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623),
-[StreamSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620609),
-[Wi-Fi Direct sample](https://go.microsoft.com/fwlink/p/?LinkId=620626),
-[Wi-Fi Direct services sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620627),
+[Bluetooth Rfcomm Chat sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Bluetooth%20Rfcomm%20Chat),
+[DatagramSocket sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DatagramSocket%20sample),
+[ControlChannelTrigger StreamWebSocket sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/%5BC%23%5D-Windows%208.1%20Store%20app%20samples/ControlChannelTrigger%20StreamWebSocket%20sample/C%23),
+[ControlChannelTrigger TCP socket sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/%5BC%23%5D-Windows%208.1%20Store%20app%20samples/ControlChannelTrigger%20StreamSocket%20sample/C%23),
+[Proximity sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Proximity%20sample),
+[StreamSocket sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DatagramSocket%20sample),
+[DatagramSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket),
+[WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket),
+[StreamSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/StreamSocket),
+[Wi-Fi Direct sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WiFiDirect),
+[Wi-Fi Direct services sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WiFiDirectServices),
 [Socket activity trigger stream socket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SocketActivityStreamSocket)
 
 ## -capabilities

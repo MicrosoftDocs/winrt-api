@@ -9,15 +9,16 @@ public BringIntoViewOptions.BringIntoViewOptions()
 
 # Windows.UI.Xaml.BringIntoViewOptions.BringIntoViewOptions
 
+
 ## -description
+
 Initializes a new instance of the [BringIntoViewOptions](bringintoviewoptions.md) class.
 
-## -params
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.BringIntoViewOptions.BringIntoViewOptions](/windows/winui/api/microsoft.ui.xaml.bringintoviewoptions.#ctor).
 
 ## -remarks
 
 ## -see-also
-
 
 ## -examples
 

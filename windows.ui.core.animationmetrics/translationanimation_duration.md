@@ -21,4 +21,4 @@ The duration can be 0, in which case the object instantly jumps to its final pos
 ## -examples
 
 ## -see-also
-[Delay](translationanimation_delay.md), [Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462)
+[Delay](translationanimation_delay.md), [Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

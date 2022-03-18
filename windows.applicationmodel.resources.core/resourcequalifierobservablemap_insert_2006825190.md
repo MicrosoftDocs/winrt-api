@@ -20,7 +20,7 @@ The key associated with the item to insert.
 The item to insert.
 
 ## -returns
- **TRUE** if an item with the specified key is an existing item and was replaced, otherwise **FALSE**.
+`true` if an item with the specified key is an existing item and was replaced; otherwise, `false`.
 
 ## -remarks
 

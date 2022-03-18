@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness BorderThickness { get;  set; }
 ## -description
 Gets or sets the border thickness of the content presenter.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.BorderThickness](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.borderthickness).
+
 ## -xaml-syntax
 ```xaml
 <ContentPresenter BorderThickness="uniform"/>

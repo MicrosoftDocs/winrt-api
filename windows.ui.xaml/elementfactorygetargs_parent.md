@@ -14,6 +14,8 @@ public UIElement Parent { get;  set; }
 
 Gets or sets the [UIElement](uielement.md) that is expected to be the parent of the realized element from [GetElement](ielementfactory_getelement_92222689.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ElementFactoryGetArgs.Parent](/windows/winui/api/microsoft.ui.xaml.elementfactorygetargs.parent).
+
 ## -property-value
 
 The [UIElement](uielement.md) object expected to be the parent of the realized [UIElement](uielement.md) or **null**.  By default, it is **null**.
@@ -24,15 +26,7 @@ This value is optional. When used it can enable a performance optimization for i
 
 ## -see-also
 
-* [IElementFactory](ielementfactory.md)
-* DataTemplate
-  * [GetElement](datatemplate_getelement_92222689.md)
-  * [RecycleElement](datatemplate_recycleelement_1023702976.md)
-* DataTemplateSelector
-  * [GetElement](../windows.ui.xaml.controls/datatemplateselector_getelement_92222689.md)
-  * [RecycleElement](../windows.ui.xaml.controls/datatemplateselector_recycleelement_1023702976.md)
-* [ElementFactoryGetArgs](elementfactorygetargs.md)
-* [ElementFactoryRecycleArgs](elementfactoryrecycleargs.md)
+[IElementFactory](ielementfactory.md), [DataTemplate.GetElement](/uwp/api/windows.ui.xaml.datatemplate.getelement), [DataTemplate.RecycleElement](/uwp/api/windows.ui.xaml.datatemplate.recycleelement), [DataTemplateSelector.GetElement](/uwp/api/windows.ui.xaml.controls.datatemplateselector.getelement), [DataTemplateSelector.RecycleElement](/uwp/api/windows.ui.xaml.controls.datatemplateselector.recycleelement), [ElementFactoryGetArgs](elementfactorygetargs.md), [ElementFactoryRecycleArgs](elementfactoryrecycleargs.md)
 
 ## -examples
 

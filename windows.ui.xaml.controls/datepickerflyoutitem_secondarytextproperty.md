@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SecondaryTextProperty { get; }
 ## -description
 Identifies the [SecondaryText](datepickerflyoutitem_secondarytext.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem.SecondaryTextProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem.secondarytextproperty).
+
 ## -property-value
 The identifier for the [SecondaryText](datepickerflyoutitem_secondarytext.md) dependency property.
 

@@ -22,7 +22,7 @@ The platform that can activate the runtime class with no parameters.
 ## -remarks
 This version of the `ActivatableAttribute` constructor is obsolete.
 
-Activation with no parameters is performed by [the RoActivateInstance function](https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roactivateinstance).
+Activation with no parameters is performed by [the RoActivateInstance function](/windows/desktop/api/roapi/nf-roapi-roactivateinstance).
 
 ## -examples
 

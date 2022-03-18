@@ -10,36 +10,37 @@ public uint ReportInterval { get;  set; }
 # Windows.Devices.Sensors.Gyrometer.ReportInterval
 
 ## -description
+
 Gets or sets the current report interval for the gyrometer.
 
 ## -property-value
-The current report interval.
+
+The current report interval, in milliseconds.
 
 ## -remarks
-The report interval is specified in milliseconds.
 
-The report interval will be set to a default value that will vary based on the sensor driver’s implementation. If your app does not want to use this default value, you should set the report interval to a non-zero value prior to registering an event handler or calling [GetCurrentReading](gyrometer_getcurrentreading_1416488181.md). The sensor will then attempt to allocate resources to satisfy the application’s requirements but the sensor also has to balance the needs of other apps using the sensor.
+The report interval is set to a default value that varies based on the sensor driver’s implementation. If your app does not want to use this default value, you should set the report interval to a non-zero value prior to registering an event handler or calling [GetCurrentReading](gyrometer_getcurrentreading_1416488181.md). The sensor then attempts to allocate resources to satisfy the application’s requirements while balancing the needs of other apps using the sensor.
 
-Changes to the report interval after an event handler has been registered or [GetCurrentReading](gyrometer_getcurrentreading_1416488181.md) has been called may apply to the delivery of subsequent sensor readings.
+Changes to the report interval after an event handler has been registered, or [GetCurrentReading](gyrometer_getcurrentreading_1416488181.md) has been called, might apply to the delivery of subsequent sensor readings.
 
-Conversely, when an application is finished with the sensor, it should explicitly return the sensor to its default report interval by setting it to zero. This is important for power conservation, especially when using a language that may keep the sensor object active for an indefinite period prior to garbage collection.
+Conversely, when an application is finished with the sensor, it should explicitly return the sensor to its default report interval by setting it to zero. This is important for power conservation, especially when using a language that might keep the sensor object active for an indefinite period prior to garbage collection.
 
-The application should consult the [MinimumReportInterval](gyrometer_minimumreportinterval.md) property prior to setting the report interval to ensure that the sensor can honor the requested report interval. Setting a value below the minimum supported interval will either trigger an exception or have undefined results.
+The application should consult the [MinimumReportInterval](gyrometer_minimumreportinterval.md) property prior to setting the report interval to ensure that the sensor can honor the requested report interval. Setting a value below the minimum supported interval either triggers an exception or has undefined results.
 
-Although the application can set this value to request a particular report interval, the driver will determine the actual report interval, based on internal logic. For example, the driver might use the shortest report interval that is requested by any caller.
+Although the application can set this value to request a particular report interval, the driver determines the actual report interval, based on internal logic. For example, the driver might use the shortest report interval that is requested by any caller.
 
-Setting a value of zero requests the driver to use its default report interval. As with requesting a specific interval, the driver may choose a different interval based on other client requests and internal logic.
+If the value is set to zero, the driver uses its default report interval. As with requesting a specific interval, the driver might choose a different interval based on other client requests and internal logic.
 
-The Sensor platform automatically sets the change sensitivity for gyrometers based on the current report interval. This table specifies the change sensitivity values for given intervals.
+The sensor platform automatically sets the change sensitivity for gyrometers based on the current report interval. This table specifies the change sensitivity values for given intervals.
 
-<table>
-   <tr><th>Current report interval (specified in milliseconds)</th><th>Change sensitivity (specified as degrees per second)</th></tr>
-   <tr><td>1 ms – 16 ms</td><td>0.1 DPS</td></tr>
-   <tr><td>17 ms – 32 ms</td><td>0.5 DPS</td></tr>
-   <tr><td>&gt;= 33 ms</td><td>1.0 DPS</td></tr>
-</table>
+| Current report interval | Change sensitivity (degrees per second) |
+| --- | --- |
+| 1 ms – 16 ms | 0.1 DPS |
+| 17 ms – 32 ms | 0.5 DPS |
+| >= 33 ms | 1.0 DPS |
 
 ## -examples
 
 ## -see-also
+
 [MinimumReportInterval](gyrometer_minimumreportinterval.md)

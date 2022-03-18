@@ -12,6 +12,8 @@ public Windows.UI.Xaml.VisualState CurrentState { get; }
 ## -description
 Gets the most recently set [VisualState](visualstate.md) from a successful call to the [GoToState](visualstatemanager_gotostate_443481648.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.VisualStateGroup.CurrentState](/windows/winui/api/microsoft.ui.xaml.visualstategroup.currentstate).
+
 ## -property-value
 The most recently set [VisualState](visualstate.md) from a successful call to the [GoToState](visualstatemanager_gotostate_443481648.md) method, or **null**.
 
@@ -23,4 +25,4 @@ Because there are potentially multiple [VisualStateGroup](visualstategroup.md) s
 ## -examples
 
 ## -see-also
-[VisualState](visualstate.md), [GoToState](visualstatemanager_gotostate_443481648.md), [CurrentStateChanged](visualstategroup_currentstatechanged.md), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10))
+[VisualState](visualstate.md), [GoToState](visualstatemanager_gotostate_443481648.md), [CurrentStateChanged](visualstategroup_currentstatechanged.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))

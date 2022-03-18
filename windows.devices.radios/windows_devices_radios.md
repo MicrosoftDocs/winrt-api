@@ -11,7 +11,7 @@ The members of this namespace allow your app to find and control radio adapters,
 
 ## -remarks
 
-To use this namespace, you must specify the **Radio** device capability in the app package manifest. To learn more about device capabilities, see [App Capability Declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
+To use this namespace, you must specify the **Radio** device capability in the app package manifest. To learn more about device capabilities, see [App Capability Declarations](/windows/uwp/packaging/app-capability-declarations).
 
 ## -examples
 

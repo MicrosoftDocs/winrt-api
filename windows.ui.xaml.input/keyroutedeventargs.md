@@ -13,6 +13,8 @@ public class KeyRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xa
 
 Provides event data for the [KeyUp](../windows.ui.xaml/uielement_keyup.md) and [KeyDown](../windows.ui.xaml/uielement_keydown.md) routed events.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.KeyRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.keyroutedeventargs).
+
 ## -remarks
 
 Button input is mapped to differerent key values for various devices, including gamepad and the Xbox One infrared remote.
@@ -43,7 +45,7 @@ This table provides the mapping detail for these devices.
 
 ## -examples
 
-Here, we demonstrate how to handle the [KeyUp](../windows.ui.xaml/uielement_keyup.md) event to navigate to a URL if the [virtual key](../windows.system/virtualkey.md) associated with the event is the **Enter** key. For the complete code listing, see the [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582).
+Here, we demonstrate how to handle the [KeyUp](../windows.ui.xaml/uielement_keyup.md) event to navigate to a URL if the [virtual key](../windows.system/virtualkey.md) associated with the event is the **Enter** key. For the complete code listing, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
 
 [!code-cpp[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/cpp/Scenario1.xaml.cpp#SnippetWebViewNavigation)]
 
@@ -53,5 +55,4 @@ Here, we demonstrate how to handle the [KeyUp](../windows.ui.xaml/uielement_keyu
 
 ## -see-also
 
-[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [WebView](../windows.ui.xaml.controls/webview.md), [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582)
-soft.com/fwlink/p/?linkid=238582)
+[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [WebView](../windows.ui.xaml.controls/webview.md), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

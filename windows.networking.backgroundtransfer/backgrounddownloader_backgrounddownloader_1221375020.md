@@ -17,4 +17,4 @@ Creates a new [BackgroundDownloader](backgrounddownloader.md) object.
 ## -examples
 
 ## -see-also
-[Background Transfer Download sample](https://go.microsoft.com/fwlink/p/?linkid=245064), [BackgroundDownloader(BackgroundTransferCompletionGroup) constructor](backgrounddownloader_backgrounddownloader_560098134.md), [How to download a file](https://docs.microsoft.com/previous-versions/windows/apps/hh700370(v=win.10))
+[Background Transfer Download sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample), [BackgroundDownloader(BackgroundTransferCompletionGroup) constructor](backgrounddownloader_backgrounddownloader_560098134.md), [How to download a file](/previous-versions/windows/apps/hh700370(v=win.10))

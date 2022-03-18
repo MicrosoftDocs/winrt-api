@@ -13,7 +13,7 @@ public string SignInName { get; }
 The sign in name of the user. This value is available only to Microsoft application partners.
 
 > [!NOTE]
-> If you are developing for Windows 10 or greater, use the [Windows.Security.Authentication.Web.Core](../windows.security.authentication.web.core/windows_security_authentication_web_core.md) APIs instead. For more information, see [Web account manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager).
+> If you are developing for Windows 10 or greater, use the [Windows.Security.Authentication.Web.Core](../windows.security.authentication.web.core/windows_security_authentication_web_core.md) APIs instead. For more information, see [Web account manager](/windows/uwp/security/web-account-manager).
 
 ## -property-value
 The name of the user.

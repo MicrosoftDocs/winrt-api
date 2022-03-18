@@ -56,7 +56,7 @@ clientSocket.Control().QualityOfService(Windows::Networking::Sockets::SocketQual
 // Now you can call the ConnectAsync function to connect the DatagramSocket.
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Networking::Sockets;
 
 DatagramSocket^ clientSocket = ref new DatagramSocket();
@@ -70,27 +70,13 @@ clientSocket->Control->QualityOfService = SocketQualityOfService::LowLatency;
 
 // Now you can call the ConnectAsync method to connect the DatagramSocket.
 ```
-
-```javascript
-var clientSocket = new Windows.Networking.Sockets.DatagramSocket();
-
-// Get the current setting for this option
-// This isn't required, but it shows how to get the current setting
-var currentSetting = clientSocket.Control.QualityOfService; 
-
-// Set QualityOfService to lowLatency
-clientSocket.control.QualityOfService = SocketQualityOfService.lowLatency;
-   
-// Now you can call the ConnectAsync method to connect the DatagramSocket.
-```
-
-For more information on using DatagramSocketControl, see [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)) and [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)).
+For more information on using DatagramSocketControl, see [How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)).
 
 ## -examples
 
 ## -see-also
 
-[How to use advanced socket controls  ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls  ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.Control](datagramsocket_control.md), [DatagramSocketInformation](datagramsocketinformation.md), [DatagramSocket sample](https://go.microsoft.com/fwlink/p/?LinkID=243037), [DatagramSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
+[How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.Control](datagramsocket_control.md), [DatagramSocketInformation](datagramsocketinformation.md), [DatagramSocket sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DatagramSocket%20sample), [DatagramSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
 
 ## -capabilities
 

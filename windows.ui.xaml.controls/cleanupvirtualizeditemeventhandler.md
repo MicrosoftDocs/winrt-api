@@ -10,6 +10,8 @@ public delegate void CleanUpVirtualizedItemEventHandler(System.Object sender, Wi
 ## -description
 Represents the method that handles the [CleanUpVirtualizedItemEvent](virtualizingstackpanel_cleanupvirtualizeditemevent.md) attached event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.CleanUpVirtualizedItemEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.cleanupvirtualizeditemeventhandler).
+
 ## -parameters
 ### -param sender
 The source of the event.

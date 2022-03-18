@@ -12,12 +12,12 @@ public Windows.UI.Xaml.Input.InputScope InputScope { get;  set; }
 ## -description
 Gets or sets the context for input used by this [RichEditBox](richeditbox.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.InputScope](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.inputscope).
+
 ## -xaml-syntax
 ```xaml
 <RichEditBox InputScope="inputScopeName" .../>
-```
-
-```xaml
+- or -
 <RichEditBox>
   <RichEditBox.InputScope>
     <InputScope>

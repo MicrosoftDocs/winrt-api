@@ -12,6 +12,8 @@ public class ListBoxItemDataAutomationPeer : Windows.UI.Xaml.Automation.Peers.Se
 ## -description
 Exposes [ListBox](../windows.ui.xaml.controls/listbox.md) items to Microsoft UI Automation, using a data representation of the item so that the peer supports scrolling to that item with data awareness.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ListBoxItemDataAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listboxitemdataautomationpeer).
+
 ## -remarks
  ListBoxItemDataAutomationPeer is generated from [ListBoxAutomationPeer](listboxautomationpeer.md) logic, not an associated control class.
 
@@ -24,7 +26,7 @@ ListBoxItemDataAutomationPeer has overrides of **Core** methods such that the as
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.ListItem](automationcontroltype.md).
 + Although [ItemAutomationPeer](itemautomationpeer.md) reported [IVirtualizedItemProvider](../windows.ui.xaml.automation.provider/ivirtualizeditemprovider.md) support, ListBoxItemDataAutomationPeer re-implements this to call [ScrollIntoView](listboxitemdataautomationpeer_scrollintoview_1265805467.md).
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 

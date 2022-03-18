@@ -12,6 +12,8 @@ public void SetPlacement(Windows.UI.Xaml.DependencyObject element, Windows.UI.Xa
 ## -description
 Sets the [ToolTipService.Placement](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) XAML attached property value for the specified target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ToolTipService.SetPlacement](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice.setplacement).
+
 ## -parameters
 ### -param element
 The target element for the attached property value.

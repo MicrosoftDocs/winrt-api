@@ -13,10 +13,12 @@ public StandardUICommand.StandardUICommand()
 
 Initializes a new instance of the [StandardUICommand](standarduicommand.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.StandardUICommand.StandardUICommand](/windows/winui/api/microsoft.ui.xaml.input.standarduicommand.#ctor).
+
 ## -remarks
 
 ## -see-also
 
-[StandardUICommand(StandardUICommandKind kind)](standarduicommand_standarduicommand_1550060345.md), [XamlUICommand](xamluicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+[StandardUICommand(StandardUICommandKind kind)](standarduicommand_standarduicommand_1550060345.md), [XamlUICommand](xamluicommand.md), [Command design basics](/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples

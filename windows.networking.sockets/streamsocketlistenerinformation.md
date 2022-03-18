@@ -20,7 +20,7 @@ A StreamSocketListenerInformation object is automatically created with the paren
 ## -examples
 
 ## -see-also
-[Connecting with sockets ](https://docs.microsoft.com/previous-versions/windows/apps/hh452977(v=win.10)), [Connecting with sockets ](https://docs.microsoft.com/previous-versions/windows/apps/hh452976(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocketListener](streamsocketlistener.md), [StreamSocketListener.Information](streamsocketlistener_information.md), [Bluetooth Rfcomm Chat sample](https://go.microsoft.com/fwlink/p/?LinkID=306047), [ControlChannelTrigger StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243039), [Proximity sample](https://go.microsoft.com/fwlink/p/?linkid=245082), [StreamSocket sample](https://go.microsoft.com/fwlink/p/?linkid=243037)
+[Connecting with sockets](/previous-versions/windows/apps/hh452976(v=win.10)), [How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocketListener](streamsocketlistener.md), [StreamSocketListener.Information](streamsocketlistener_information.md), [Bluetooth Rfcomm Chat sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Bluetooth%20Rfcomm%20Chat), [ControlChannelTrigger StreamSocket sample](/samples/browse/), [Proximity sample](/samples/browse/), [StreamSocket sample](/samples/browse/)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

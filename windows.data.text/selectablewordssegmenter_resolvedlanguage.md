@@ -16,7 +16,7 @@ Gets the language of the rules used by this [SelectableWordsSegmenter](selectabl
 "und" (undetermined) is returned if we are using language-neutral rules.
 
 ## -property-value
-The [BCP-47](https://go.microsoft.com/fwlink/p/?LinkId=227302) language tag of the rules employed.
+The [BCP-47](https://tools.ietf.org/html/bcp47) language tag of the rules employed.
 
 ## -remarks
 

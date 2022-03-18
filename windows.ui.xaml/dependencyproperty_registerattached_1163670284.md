@@ -12,15 +12,17 @@ public Windows.UI.Xaml.DependencyProperty RegisterAttached(System.String name, W
 ## -description
 Registers an attached dependency property with the specified property name, property type, owner type, and property metadata for the property.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyProperty.RegisterAttached](/windows/winui/api/microsoft.ui.xaml.dependencyproperty.registerattached).
+
 ## -parameters
 ### -param name
 The name of the dependency property to register.
 
 ### -param propertyType
-The type of the property, as a type reference ([System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The type of the property, as a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param ownerType
-The owner type that is registering the dependency property, as a type reference ([System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The owner type that is registering the dependency property, as a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param defaultMetadata
 A property metadata instance. This can contain a [PropertyChangedCallback](propertychangedcallback.md) implementation reference.
@@ -31,7 +33,7 @@ A dependency property identifier that should be used to set the value of a publi
 ## -remarks
 
 ## -examples
-This example defines a class that derives from [DependencyObject](dependencyobject.md), and defines an attached property along with the identifier field. The scenario for this class is that it is a service class that declares an attached property that other UI elements can set in XAML, and the service potentially acts on the attached property values on those UI elements at run time. For more examples, see [Custom attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-attached-properties).
+This example defines a class that derives from [DependencyObject](dependencyobject.md), and defines an attached property along with the identifier field. The scenario for this class is that it is a service class that declares an attached property that other UI elements can set in XAML, and the service potentially acts on the attached property values on those UI elements at run time. For more examples, see [Custom attached properties](/windows/uwp/xaml-platform/custom-attached-properties).
 
 
 
@@ -40,5 +42,5 @@ This example defines a class that derives from [DependencyObject](dependencyobje
 [!code-vb[DOMain](../windows.ui.xaml/code/DOandDP/vbnet/Class1.vb#SnippetDOMain)]
 
 ## -see-also
-[Custom attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-attached-properties), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)
+[Custom attached properties](/windows/uwp/xaml-platform/custom-attached-properties), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)
 1de0-d640-48b1-9961-d0adf33266e2)

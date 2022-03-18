@@ -10,7 +10,9 @@ public class ObjectAnimationUsingKeyFrames : Windows.UI.Xaml.Media.Animation.Tim
 # Windows.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames
 
 ## -description
-Animates the value of an [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN) property along a set of [KeyFrames](objectanimationusingkeyframes_keyframes.md) over a specified [Duration](../windows.ui.xaml/duration.md).
+Animates the value of an [Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true) property along a set of [KeyFrames](objectanimationusingkeyframes_keyframes.md) over a specified [Duration](../windows.ui.xaml/duration.md).
+
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.objectanimationusingkeyframes).
 
 ## -xaml-syntax
 ```xaml
@@ -45,5 +47,4 @@ The following example uses the ObjectAnimationUsingKeyFrames class to animate th
 [!code-vb[Objectanimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/objectanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetObjectanimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md)
-32f3a), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md)
+[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md), [Timeline](timeline.md), [ObjectKeyFrame](objectkeyframe.md)

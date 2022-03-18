@@ -14,6 +14,8 @@ public event TypedEventHandler Changed<XamlRoot, XamlRootChangedEventArgs>
 
 Occurs when a property of XamlRoot has changed.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.XamlRoot.Changed](/windows/winui/api/microsoft.ui.xaml.xamlroot.changed).
+
 ## -remarks
 
 ## -see-also

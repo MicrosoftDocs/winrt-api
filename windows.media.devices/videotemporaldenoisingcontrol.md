@@ -17,7 +17,7 @@ Temporal denoising can improve the visual quality of video to the human eye, but
 
 Get an instance of this class by accessing the VideoDeviceController.VideoTemporalDenoisingControl property. 
 
-For how-to guidance for using manual video capture controls, see [Manual camera controls for video capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-device-controls-for-video-capture).
+For how-to guidance for using manual video capture controls, see [Manual camera controls for video capture](/windows/uwp/audio-video-camera/capture-device-controls-for-video-capture).
 ## -see-also
 
 ## -examples

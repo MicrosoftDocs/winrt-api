@@ -12,6 +12,8 @@ public class Underline : Windows.UI.Xaml.Documents.Span, Windows.UI.Xaml.Documen
 ## -description
 Provides an inline-level content element that causes content to render with an underlined text decoration.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.Underline](/windows/winui/api/microsoft.ui.xaml.documents.underline).
+
 ## -xaml-syntax
 ```xaml
 <Underline ...>text</Underline>

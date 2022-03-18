@@ -31,7 +31,7 @@ When users install the app, they are prompted to allow access to their user info
 You can also enable access to user information without additional code modification by deploying a group policy change, which is particularly useful for business and enterprise customers. To allow access to user information on Windows 10, enable the following group policy setting and set it to "Always On": Computer Configuration > Administrative Templates > System > User Profiles > User management of sharing user name, account picture, and domain information with apps (not desktop apps). For more info, download [Group Policy Settings Reference for Windows and Windows Server](https://www.microsoft.com/download/details.aspx?id=25250).
 
 > **Windows 8**
-> To be launched in account picture mode and to set the user's picture without additional prompting, an app must register as an account picture provider by including the following in the [Extensions](https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-1-extensions) section of the app manifest.
+> To be launched in account picture mode and to set the user's picture without additional prompting, an app must register as an account picture provider by including the following in the [Extensions](/uwp/schemas/appxpackage/appxmanifestschema/element-1-extensions) section of the app manifest.
 
 
 

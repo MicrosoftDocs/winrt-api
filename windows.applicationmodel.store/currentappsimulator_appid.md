@@ -21,7 +21,7 @@ Once your app is listed on the Windows Store, [CurrentApp.AppId](currentapp_appi
 The [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) that identifies the app in the Windows Store.
 
 ## -remarks
-Uses the **AppId** element in the WindowsStoreProxy.xml file as the data source for the members of the returned object. For more information, see [Using the WindowsStoreProxy.xml file with CurrentAppSimulator](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials-using-the-windows-applicationmodel-store-namespace).
+Uses the **AppId** element in the WindowsStoreProxy.xml file as the data source for the members of the returned object. For more information, see [Using the WindowsStoreProxy.xml file with CurrentAppSimulator](/windows/uwp/monetize/in-app-purchases-and-trials-using-the-windows-applicationmodel-store-namespace).
 
 ## -examples
 

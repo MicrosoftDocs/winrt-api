@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection Transitions { get;  
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to a [UIElement](uielement.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Transitions](/windows/winui/api/microsoft.ui.xaml.uielement.transitions).
+
 ## -xaml-syntax
 ```xaml
 <uielement>
@@ -68,4 +70,4 @@ This XAML example shows a single [EntranceThemeTransition](../windows.ui.xaml.me
 
 ## -see-also
 
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md)
+[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [TransitionCollection](../windows.ui.xaml.media.animation/transitioncollection.md)

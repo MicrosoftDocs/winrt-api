@@ -13,6 +13,8 @@ public event Windows.Foundation.TypedEventHandler TextCompositionChanged<Windows
 
 Occurs when text being composed through an Input Method Editor (IME) changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TextBox.TextCompositionChanged](/windows/winui/api/microsoft.ui.xaml.controls.textbox.textcompositionchanged).
+
 ## -xaml-syntax
 
 ```xaml
@@ -23,7 +25,7 @@ Occurs when text being composed through an Input Method Editor (IME) changes.
 
 For event data, see [TextCompositionChangedEventArgs](textcompositionchangedeventargs.md).
 
-This event occurs only when text is composed through an [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10)). Text composition events occur in the following order:
+This event occurs only when text is composed through an [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10)). Text composition events occur in the following order:
 
 + [TextCompositionStarted](textbox_textcompositionstarted.md)
 + [TextChanging](textbox_textchanging.md)
@@ -37,4 +39,4 @@ After the [TextCompositionStarted](textbox_textcompositionstarted.md) event, the
 
 ## -see-also
 
-[TextCompositionChangedEventArgs](textcompositionchangedeventargs.md), [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10))
+[TextCompositionChangedEventArgs](textcompositionchangedeventargs.md), [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10))

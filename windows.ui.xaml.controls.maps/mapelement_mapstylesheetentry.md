@@ -18,7 +18,7 @@ The name of the entry in the map's style sheet that you'd like to apply to this 
 ## -remarks
 Set this property to a string or to any of the property values available in the [MapStyleSheetEntries](mapstylesheetentries.md) class.
 
-To learn more about entries in a map style sheet, see [Map style sheet reference](https://docs.microsoft.com/windows/uwp/maps-and-location/elements-of-map-style-sheet#version).
+To learn more about entries in a map style sheet, see [Map style sheet reference](/windows/uwp/maps-and-location/elements-of-map-style-sheet#version) and [Map style sheet extensions](/bingmaps/styling/map-style-sheet-extensions).
 
 ## -see-also
 

@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionEasingFunction DefaultEasingFunction { 
 ## -description
 Gets or sets the default [CompositionEasingFunction](../windows.ui.composition/compositioneasingfunction.md) used by the animation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimationService.DefaultEasingFunction](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimationservice.defaulteasingfunction).
+
 ## -property-value
 The default [CompositionEasingFunction](../windows.ui.composition/compositioneasingfunction.md) used by the animation.
 

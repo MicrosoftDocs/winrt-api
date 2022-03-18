@@ -25,7 +25,7 @@ The amount of time until the timer expires.
 
 
 > **JavaScript and C#**
-> This amount of time is specified using the [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) structure. It can be specified in ticks, or it can be specified in milliseconds, seconds, and so on.
+> This amount of time is specified using the [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true) structure. It can be specified in ticks, or it can be specified in milliseconds, seconds, and so on.
 
 ### -param destroyed
 The method to call after the timer is complete.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MaxLinesProperty { get; }
 ## -description
 Identifies the [MaxLines](richtextblock_maxlines.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.MaxLinesProperty](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.maxlinesproperty).
+
 ## -property-value
 The identifier for the [MaxLines](richtextblock_maxlines.md) dependency property.
 

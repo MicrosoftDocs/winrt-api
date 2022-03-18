@@ -16,15 +16,15 @@ Gets a thumbnail image for the current folder, sized for the specified purpose o
 ### -param mode
 A value from the enumeration that describes the purpose of the thumbnail and determines how the thumbnail image is adjusted.
 
-For guidance about choosing the best thumbnail mode, see [Guidelines and checklist for thumbnails](https://docs.microsoft.com/windows/uwp/files/index).
+For guidance about choosing the best thumbnail mode, see [Guidelines and checklist for thumbnails](/windows/uwp/files/index).
 
 ## -returns
 When this method completes successfully, it returns a [StorageItemThumbnail](../windows.storage.fileproperties/storageitemthumbnail.md) that represents the thumbnail image, or **null** if there is no thumbnail image associated with the folder.
 
 ## -remarks
-For a sample that demonstrates the **GetThumbnailAsync** method, see [File and folder thumbnail sample](https://code.msdn.microsoft.com/windowsapps/File-thumbnails-sample-17575959).
+For a sample that demonstrates the **GetThumbnailAsync** method, see [File and folder thumbnail sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FileThumbnails).
 
-For guidance about choosing the best thumbnail mode, see [Guidelines and checklist for thumbnails](https://docs.microsoft.com/windows/uwp/files/index).
+For guidance about choosing the best thumbnail mode, see [Guidelines and checklist for thumbnails](/windows/uwp/files/index).
 
 > The [StorageFolder.GetThumbnailAsync](storagefolder_getthumbnailasync_1511435522.md) method sometimes returns the default image of a folder. For Windows Phone 8.x app, this method ignores the current theme when it returns this default image. The image returned is always the image for the dark theme; that is, the folder is transparent with a white border. If you want to return the image for the light theme, you have to create your own image that's visible on a light background. Then you have to use conditional logic to check the active theme. If the active theme is the light theme, use a method other than [GetThumbnailAsync](storagefile_getthumbnailasync_1575071988.md) to retrieve your custom image.
 

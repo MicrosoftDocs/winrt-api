@@ -10,6 +10,8 @@ public delegate void KeyEventHandler(System.Object sender, Windows.UI.Xaml.Input
 ## -description
 Represents the method that handles the [KeyUp](../windows.ui.xaml/uielement_keyup.md) and [KeyDown](../windows.ui.xaml/uielement_keydown.md)  events.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Input.KeyEventHandler](/windows/winui/api/microsoft.ui.xaml.input.keyeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the event handler is attached.

@@ -14,7 +14,7 @@ public event Windows.Foundation.TypedEventHandler ObservedSurfacesChanged<Window
 Occurs when the set of surface metadata observed within the bounding volume has changed.
 
 ## -remarks
-When this event fires, call [GetObservedSurfaces](spatialsurfaceobserver_getobservedsurfaces_672856049.md) to get the latest set of surface metadata.
+When this event fires, call [GetObservedSurfaces](spatialsurfaceobserver_getobservedsurfaces_672856049.md) to get the latest set of surface metadata. Note that if no bounding volume has been set, the metadata set will be empty.
 
 ## -examples
 

@@ -509,9 +509,6 @@ The [FontIconSource](../windows.ui.xaml.controls/fonticonsource.md) type.
 ### -field FontIcon:440
 The [FontIcon](../windows.ui.xaml.controls/fonticon.md) type.
 
-### -field FlyoutShowOptions:942
-The [FlyoutShowOptions](../windows.ui.xaml.controls.primitives/flyoutshowoptions.md) type.
-
 ### -field FlyoutPresenter:508
 The [FlyoutPresenter](../windows.ui.xaml.controls/flyoutpresenter.md) type.
 
@@ -768,7 +765,5 @@ The [AdaptiveTrigger](../windows.ui.xaml/adaptivetrigger.md) type.
 The [ThemeShadow](../windows.ui.xaml.media/ThemeShadow.md) type.
 
 ## -see-also
-* [XamlDirect](xamldirect.md)
-* [IXamlDirectObject](ixamldirectobject.md)
-* [XamlPropertyIndex](xamlpropertyindex.md)
-* [XamlEventIndex](xamleventindex.md)
+
+[XamlDirect](xamldirect.md), [IXamlDirectObject](ixamldirectobject.md), [XamlPropertyIndex](xamlpropertyindex.md), [XamlEventIndex](xamleventindex.md)

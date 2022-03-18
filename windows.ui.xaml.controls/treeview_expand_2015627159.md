@@ -13,6 +13,8 @@ public void TreeView.Expand(TreeViewNode value)
 
 Expands the specified node in the tree.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TreeView.Expand](/windows/winui/api/microsoft.ui.xaml.controls.treeview.expand).
+
 ## -parameters
 ### -param value
 

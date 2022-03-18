@@ -12,6 +12,8 @@ public Windows.UI.Xaml.GridLength Height { get;  set; }
 ## -description
 Gets the calculated height of a [RowDefinition](rowdefinition.md) element, or sets the [GridLength](../windows.ui.xaml/gridlength.md) value of a row that is defined by the [RowDefinition](rowdefinition.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RowDefinition.Height](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.height).
+
 ## -xaml-syntax
 ```xaml
 <RowDefinition Height="doubleValue"/>
@@ -35,9 +37,9 @@ The default value of [Width](columndefinition_width.md) is a [GridLength](../win
 
 The value you set for Height can be constrained if you also set a value for [MinHeight](rowdefinition_minheight.md) or [MaxHeight](rowdefinition_maxheight.md). Each of these properties can take only pixel measurements, not **Star** sizing. If a [RowDefinition](rowdefinition.md) uses **Star** or **Auto** sizing but also has [MinHeight](rowdefinition_minheight.md) or [MaxHeight](rowdefinition_maxheight.md) constraints, the [MinHeight](rowdefinition_minheight.md) or [MaxHeight](rowdefinition_maxheight.md) must be honored by the [Grid](grid.md) layout behavior, even if that means giving or taking layout space from other **Star** sizing rows defined in the [Grid](grid.md) that don't have constraints.
 
-It's more common to use **Star** sizing than absolute pixel values for a [Grid](grid.md) definition in a UWP app using C++, C#, or Visual Basic. **Star** sizing supports the dynamic layout concept, which helps your app look great on screens with different sizes, pixel densities and orientations. For more info, see [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
+It's more common to use **Star** sizing than absolute pixel values for a [Grid](grid.md) definition in a UWP app using C++, C#, or Visual Basic. **Star** sizing supports the dynamic layout concept, which helps your app look great on screens with different sizes, pixel densities and orientations. For more info, see [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml).
 
 ## -examples
 
 ## -see-also
-[Grid](grid.md), [Grid.RowDefinitions](grid_rowdefinitions.md), [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Grid](grid.md), [Grid.RowDefinitions](grid_rowdefinitions.md), [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

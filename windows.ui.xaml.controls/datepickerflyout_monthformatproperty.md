@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MonthFormatProperty { get; }
 ## -description
 Identifies the [MonthFormat](datepickerflyout_monthformat.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerFlyout.MonthFormatProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyout.monthformatproperty).
+
 ## -property-value
 The identifier for the [MonthFormat](datepickerflyout_monthformat.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [MonthFormat](datepickerflyout_monthformat.md) dependency
 ## -examples
 
 ## -see-also
-[MonthFormat](datepickerflyout_monthformat.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MonthFormat](datepickerflyout_monthformat.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -20,4 +20,4 @@ The string "Mlym", which identifies the Malayalam decimal numeral system. This s
 ## -examples
 
 ## -see-also
-[NumeralSystem values](https://docs.microsoft.com/previous-versions/windows/apps/jj236471(v=win.10))
+[NumeralSystem values](/previous-versions/windows/apps/jj236471(v=win.10))

@@ -35,9 +35,9 @@ To do more than just set focus in the [SearchBox](searchbox.md), such as make th
 
 You should set FocusOnKeyboardInput to **false** if the user sets focus on some other editable text field.
 
-To learn more about when you should let users type to search, see [Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search).
+To learn more about when you should let users type to search, see [Guidelines and checklist for search](/windows/uwp/controls-and-patterns/search).
 
 ## -examples
 
 ## -see-also
-[PrepareForFocusOnKeyboardInput](searchbox_prepareforfocusonkeyboardinput.md), [Guidelines and checklist for search](https://docs.microsoft.com/windows/uwp/controls-and-patterns/search)
+[PrepareForFocusOnKeyboardInput](searchbox_prepareforfocusonkeyboardinput.md), [Guidelines and checklist for search](/windows/uwp/controls-and-patterns/search)

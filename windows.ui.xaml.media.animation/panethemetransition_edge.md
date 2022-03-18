@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Primitives.EdgeTransitionLocation Edge { get;  s
 ## -description
 Gets or sets the edge position to use for the transition.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PaneThemeTransition.Edge](/windows/winui/api/microsoft.ui.xaml.media.animation.panethemetransition.edge).
+
 ## -xaml-syntax
 ```xaml
 <PaneThemeTransition Edge="edgeTransitionLocationMemberName" .../>
@@ -30,4 +32,4 @@ A value of the enumeration. The default is **Left**.
 ## -examples
 
 ## -see-also
-[Animating edge-based UI](https://docs.microsoft.com/previous-versions/windows/apps/jj649428(v=win.10)), [Guidelines and checklist for edge-based UI animations](https://docs.microsoft.com/windows/uwp/style/motion-edgebased)
+[Animating edge-based UI](/previous-versions/windows/apps/jj649428(v=win.10)), [Guidelines and checklist for edge-based UI animations](/windows/uwp/style/motion-edgebased)

@@ -12,6 +12,8 @@ public void GoBack(Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo tran
 ## -description
 Navigates to the most recent item in back navigation history, if a [Frame](frame.md) manages its own navigation history, and specifies the animated transition to use.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Frame.GoBack](/windows/winui/api/microsoft.ui.xaml.controls.frame.goback).
+
 ## -parameters
 ### -param transitionInfoOverride
 Info about the animated transition to use.

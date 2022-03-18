@@ -12,6 +12,8 @@ public class Transform : Windows.UI.Xaml.Media.GeneralTransform, Windows.UI.Xaml
 ## -description
 Defines functionality that enables transformations in a two-dimensional plane.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Transform](/windows/winui/api/microsoft.ui.xaml.media.transform).
+
 ## -remarks
 Transformation types include rotation ([RotateTransform](rotatetransform.md)), scale ([ScaleTransform](scaletransform.md)), skew/shear ([SkewTransform](skewtransform.md)), and translation ([TranslateTransform](translatetransform.md)).
 
@@ -47,4 +49,4 @@ Transform is the parent class for several derived classes that define different 
 ## -examples
 
 ## -see-also
-[GeneralTransform](generaltransform.md), [MatrixTransform](matrixtransform.md), [RotateTransform](rotatetransform.md), [SkewTransform](skewtransform.md), [TransformGroup](transformgroup.md), [TranslateTransform](translatetransform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868)
+[GeneralTransform](generaltransform.md), [MatrixTransform](matrixtransform.md), [RotateTransform](rotatetransform.md), [SkewTransform](skewtransform.md), [TransformGroup](transformgroup.md), [TranslateTransform](translatetransform.md), [XAML two-dimensional transforms sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20two-dimensional%20transforms%20sample)

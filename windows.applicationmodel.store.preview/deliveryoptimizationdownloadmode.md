@@ -33,7 +33,7 @@ Group peer sharing for Delivery Optimization is enabled. Peering occurs across i
 Delivery Optimization is bypassed and BITS is used instead.
 
 ## -remarks
-For more information about download modes, see [Configure Delivery Optimization for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization#download-mode).
+For more information about download modes, see [Configure Delivery Optimization for Windows 10 updates](/windows/deployment/update/waas-delivery-optimization#download-mode).
 
 ## -see-also
 

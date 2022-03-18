@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Primitives.ScrollEventType ScrollEventType { get
 ## -description
 Gets a [ScrollEventType](scrolleventtype.md) describing the event.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ScrollEventArgs.ScrollEventType](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrolleventargs.scrolleventtype).
+
 ## -property-value
 A [ScrollEventType](scrolleventtype.md) describing the event.
 

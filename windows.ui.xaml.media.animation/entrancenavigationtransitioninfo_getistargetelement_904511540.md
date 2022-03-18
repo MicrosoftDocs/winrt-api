@@ -12,6 +12,8 @@ public bool GetIsTargetElement(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [EntranceNavigationTransitionInfo.IsTargetElement](/uwp/api/windows.ui.xaml.media.animation.entrancenavigationtransitioninfo#xaml-attached-properties) XAML attached property for the target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.EntranceNavigationTransitionInfo.GetIsTargetElement](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancenavigationtransitioninfo.getistargetelement).
+
 ## -parameters
 ### -param element
 The object from which the property value is read.

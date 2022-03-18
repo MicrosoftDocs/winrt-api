@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AlignRightWithPanelProperty { get; }
 ## -description
 Identifies the [RelativePanel.AlignRightWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.AlignRightWithPanelProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.alignrightwithpanelproperty).
+
 ## -property-value
 The identifier for the [RelativePanel.AlignRightWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property.
 
@@ -23,4 +25,4 @@ To access the [RelativePanel.AlignRightWithPanel](/uwp/api/windows.ui.xaml.contr
 ## -examples
 
 ## -see-also
-[RelativePanel.AlignRightWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)
+[RelativePanel.AlignRightWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

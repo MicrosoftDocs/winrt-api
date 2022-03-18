@@ -12,6 +12,8 @@ virtual protected void SetNavigationStateCore(System.String navigationState)
 ## -description
 When implemented in a derived class, sets the navigation state string that is passed for navigation actions through [Frame.Navigate](../windows.ui.xaml.controls/frame_navigate_442648331.md) and similar API.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.NavigationTransitionInfo.SetNavigationStateCore](/windows/winui/api/microsoft.ui.xaml.media.animation.navigationtransitioninfo.setnavigationstatecore).
+
 ## -parameters
 ### -param navigationState
 The string to use for navigation state info.

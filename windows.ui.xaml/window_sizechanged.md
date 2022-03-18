@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.WindowSizeChangedEventHandler SizeChanged
 ## -description
 Occurs when the app window has first rendered or has changed its rendering size.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Window.SizeChanged](/windows/winui/api/microsoft.ui.xaml.window.sizechanged).
+
 ## -remarks
 This event occurs whenever there are changes in the [Bounds](window_bounds.md) values for the app window. This might be because the user resizes your app or changes the display orientation. Another trigger is if the user moves your app to a new display that has a different resolution and the app window expands to fill it.
 
@@ -23,7 +25,7 @@ If you're attaching handlers for Window.SizeChanged at the [Page](../windows.ui.
 <!--Do we need further justification? Not sure it is an outright leak so don't want to state that.-->
 A Window.SizeChanged handler is not how you enforce the minimum size that your app can be resized to. That's controlled by the app manifest. However, your logic for changing the visual states should be able to load a state that's designed for the minimum width you intended, and you'd typically use the [Bounds](window_bounds.md) values and Window.SizeChanged handling to detect when the app window is using minimum width.
 
-For more info on how to use Window.SizeChanged to detect changes in the app window environment and load the appropriate visual states for your app, see [Quickstart: Designing apps for different window sizes](https://docs.microsoft.com/previous-versions/windows/apps/dn297195(v=win.10)).
+For more info on how to use Window.SizeChanged to detect changes in the app window environment and load the appropriate visual states for your app, see [Quickstart: Designing apps for different window sizes](/previous-versions/windows/apps/dn297195(v=win.10)).
 
 
 <!--Are there any VS templates that add default Window.SizeChanged anymore? This was in the old layoutawarepage but not the new one. And yet it seems like pretty important basic app functionality, just as important as the nav and suspension support-->
@@ -39,4 +41,4 @@ There's another event named [SizeChanged](frameworkelement_sizechanged.md) that 
 ## -examples
 
 ## -see-also
-[Window.Bounds](window_bounds.md), [Window.Content](window_content.md), [FrameworkElement.SizeChanged](frameworkelement_sizechanged.md), [Quickstart: Designing apps for different window sizes](https://docs.microsoft.com/previous-versions/windows/apps/dn297195(v=win.10)), [WindowSizeChangedEventArgs](../windows.ui.core/windowsizechangedeventargs.md)
+[Window.Bounds](window_bounds.md), [Window.Content](window_content.md), [FrameworkElement.SizeChanged](frameworkelement_sizechanged.md), [Quickstart: Designing apps for different window sizes](/previous-versions/windows/apps/dn297195(v=win.10)), [WindowSizeChangedEventArgs](../windows.ui.core/windowsizechangedeventargs.md)

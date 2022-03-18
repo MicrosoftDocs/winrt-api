@@ -12,6 +12,8 @@ public class SecurityAppManager
 
 ## -description
 
+No description.
+
 ## -remarks
 
 ## -see-also

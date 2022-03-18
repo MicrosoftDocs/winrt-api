@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty OrientationProperty { get; }
 ## -description
 Identifies the [Orientation](hub_orientation.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.OrientationProperty](/windows/winui/api/microsoft.ui.xaml.controls.hub.orientationproperty).
+
 ## -property-value
 The identifier for the [Orientation](hub_orientation.md) dependency property.
 

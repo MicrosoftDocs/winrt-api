@@ -16,7 +16,13 @@ Represents a top-level collection and the corresponding device.
 
 ## -remarks
 
+For more information about using this class, including limitations, see [Supporting human interface devices (HID)](/previous-versions/windows/apps/dn263140(v=win.10)) and [Custom HID device sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/CustomHidDeviceAccess).
+
+Apps that use this class to access a HID device must include specific **DeviceCapability** data in the **Capabilities** node of its manifest. This data identifies the device and its purpose (or function). For more information, see [How to specify device capabilities for HID](/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-hid).
+
 ## -examples
+
+For a complete sample that demonstrates how to use this class, see [Custom HID device sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/CustomHidDeviceAccess).
 
 The following example demonstrates how a UWP app built with XAML and C# uses the [GetDeviceSelector](hiddevice_getdeviceselector_1541481733.md) method to create a selector for a specific HID device (in this case, Microsoft Input Configuration Device) and then uses [FromIdAsync](hiddevice_fromidasync_1634380010.md) method to open a connection to that device.
 
@@ -113,4 +119,4 @@ namespace HIDdeviceTest
 
 ## -see-also
 
-[IClosable](../windows.foundation/iclosable.md), [Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)
+[How to specify device capabilities for HID](/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-hid), [Supporting human interface devices (HID)](/previous-versions/windows/apps/dn263140(v=win.10)), [Custom HID device sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/CustomHidDeviceAccess)

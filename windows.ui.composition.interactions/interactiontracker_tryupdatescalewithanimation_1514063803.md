@@ -14,6 +14,8 @@ Tries to update the scale with the specified animation.
 
 The TryUpdateScaleWithAnimation method updates the scale position of [InteractionTracker](interactiontracker.md) based on the [CompositionAnimation](../windows.ui.composition/compositionanimation.md) inputted as a parameter. This method is used in situations in which the motion of [InteractionTracker](interactiontracker.md) needs to be defined by a specific animation, instead of the traditional Inertia experience. TryUpdateScaleWithAnimation can be called from the Idle or Inertia state – doing so, [InteractionTracker](interactiontracker.md) ’s position will be driven by the defined animation and enter the CustomAnimation state.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTracker.TryUpdateScaleWithAnimation](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.tryupdatescalewithanimation).
+
 ## -parameters
 ### -param animation
 The animation to apply to the scale.

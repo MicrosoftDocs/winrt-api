@@ -12,6 +12,8 @@ protected Inline()
 ## -description
 Provides base class initialization behavior for [Inline](inline.md) derived classes.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Documents.Inline.Inline](/windows/winui/api/microsoft.ui.xaml.documents.inline.#ctor).
+
 ## -remarks
 
 ## -examples

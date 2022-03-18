@@ -12,6 +12,8 @@ public PropertyPath(System.String path)
 ## -description
 Initializes a new instance of the [PropertyPath](propertypath.md) class based on a path string.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.PropertyPath.PropertyPath](/windows/winui/api/microsoft.ui.xaml.propertypath.#ctor).
+
 ## -parameters
 ### -param path
 The path string to construct with.
@@ -21,4 +23,4 @@ The path string to construct with.
 ## -examples
 
 ## -see-also
-[Property-path syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/property-path-syntax), [{Binding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/binding-markup-extension)
+[Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax), [{Binding} markup extension](/windows/uwp/xaml-platform/binding-markup-extension)

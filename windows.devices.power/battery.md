@@ -10,7 +10,7 @@ public class Battery : Windows.Devices.Power.IBattery
 # Windows.Devices.Power.Battery
 
 ## -description
-Provides information about a battery controller that is currently connected to the device. For more info, see [Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10)).
+Provides information about a battery controller that is currently connected to the device. For more info, see [Get battery information](/previous-versions/windows/apps/dn895210(v=win.10)).
 
 ## -remarks
 In this context, *device* refers to the hardware that your app is running on. *Battery controller* refers to the electronics that interface between the physical battery and the operating system. A battery controller appears in Device Manager as a "Battery" under the **Batteries** node.
@@ -20,4 +20,4 @@ Depending on the device, it may be possible to remove the physical battery while
 ## -examples
 
 ## -see-also
-[Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10))
+[Get battery information](/previous-versions/windows/apps/dn895210(v=win.10))

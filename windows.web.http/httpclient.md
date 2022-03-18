@@ -44,24 +44,6 @@ For sample code in JavaScript and HTML that shows how to use HttpClient to conne
 
 The following sample code shows how to GET content from a Web server as a string.
 
-```javascript
-var uri = new Windows.Foundation.Uri("http://www.bing.com");
-var httpClient = new Windows.Web.Http.HttpClient();
-
-// Always catch network exceptions for async methods
-httpClient.getStringAsync(uri).done(function (response) {
-    // do something with the string in the response variable.
-}, onError);
-
-function onError(reason) {
-    // Details in reason.message and ex.hresult.       
-}
-
-// Once your app is done using the HttpClient object, call close to 
-// free up system resources (the underlying socket and memory used for the object)
-httpClient.close();
-```
-
 ```csharp
 using System;
 
@@ -90,25 +72,25 @@ using namespace winrt;
 
 Windows::Foundation::IAsyncAction HttpClientExample()
 {
-	Windows::Foundation::Uri uri{ L"http://www.bing.com" };
-	Windows::Web::Http::HttpClient httpClient{};
+    Windows::Foundation::Uri uri{ L"http://www.bing.com" };
+    Windows::Web::Http::HttpClient httpClient{};
 
-	// Always catch network exceptions for async methods
-	try
-	{
-		auto response{ co_await httpClient.GetStringAsync(uri) };
-	}
-	catch (winrt::hresult_error const& ex)
-	{
-		// Details in ex.message() and ex.to_abi().
-	}
+    // Always catch network exceptions for async methods
+    try
+    {
+        auto response{ co_await httpClient.GetStringAsync(uri) };
+    }
+    catch (winrt::hresult_error const& ex)
+    {
+        // Details in ex.message() and ex.to_abi().
+    }
 
-	// The destructor of HttpClient frees system resources
-	// (the underlying socket, and memory used for the object).
+    // The destructor of HttpClient frees system resources
+    // (the underlying socket, and memory used for the object).
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Foundation;
 using namespace Windows::Web::Http;
 
@@ -133,4 +115,4 @@ The HttpClient class is often used by an app to download and then parse text. It
 
 ## -see-also
 
-[HttpClient](/windows/uwp/networking/httpclient), [Connecting to an HTTP server using Windows.Web.Http](/previous-versions/windows/apps/dn469430(v=win.10)), [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)), [IClosable](../windows.foundation/iclosable.md), [IStringable](../windows.foundation/istringable.md), [System.Uri](/dotnet/api/system.uri?redirectedfrom=MSDN), [Windows.Foundation.Uri](../windows.foundation/uri.md), [Windows.Web.Http](windows_web_http.md), [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md), [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md), [HttpClient Sample]( http://go.microsoft.com/fwlink/p/?linkid=242550), [Background transfer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620510), [HttpClient sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620551), [JSON sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620556)
+[HttpClient](/windows/uwp/networking/httpclient), [Connecting to an HTTP server using Windows.Web.Http](/previous-versions/windows/apps/dn469430(v=win.10)), [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)), [IClosable](../windows.foundation/iclosable.md), [IStringable](../windows.foundation/istringable.md), [System.Uri](/dotnet/api/system.uri?view=dotnet-uwp-10.0&preserve-view=true), [Windows.Foundation.Uri](../windows.foundation/uri.md), [Windows.Web.Http](windows_web_http.md), [Windows.Web.Http.Filters](../windows.web.http.filters/windows_web_http_filters.md), [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md), [HttpClient Sample](/samples/browse/), [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer), [Background transfer sample (Windows 8.x)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample), [HttpClient sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HttpClient), [JSON sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620556)

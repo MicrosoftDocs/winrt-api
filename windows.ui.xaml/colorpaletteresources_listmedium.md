@@ -14,6 +14,8 @@ public IReference<Color> ListMedium { get;  set; }
 
 Gets or sets the ListMedium color value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.ListMedium](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.listmedium).
+
 ## -property-value
 
 The ListMedium color value.

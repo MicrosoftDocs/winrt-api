@@ -12,6 +12,8 @@ public int Move(Windows.UI.Xaml.Automation.Text.TextUnit unit, System.Int32 coun
 ## -description
 Moves the text range the specified number of text units.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.Move](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.move).
+
 ## -parameters
 ### -param unit
 The text unit boundary.

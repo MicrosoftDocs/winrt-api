@@ -12,6 +12,8 @@ public void SetCurrentView(System.Int32 viewId)
 ## -description
 Sets the current control-specific view.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.IMultipleViewProvider.SetCurrentView](/windows/winui/api/microsoft.ui.xaml.automation.provider.imultipleviewprovider.setcurrentview).
+
 ## -parameters
 ### -param viewId
 A view identifier.

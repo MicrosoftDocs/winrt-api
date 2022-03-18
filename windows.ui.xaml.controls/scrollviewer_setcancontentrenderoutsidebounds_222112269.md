@@ -14,6 +14,8 @@ public void ScrollViewer.SetCanContentRenderOutsideBounds(DependencyObject eleme
 
 Sets the value of the [CanContentRenderOutsideBounds](scrollviewer_cancontentrenderoutsidebounds.md) dependency property / `ScrollViewer.CanContentRenderOutsideBounds` XAML attached property on a specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.SetCanContentRenderOutsideBounds](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.setcancontentrenderoutsidebounds).
+
 ## -parameters
 
 ### -param element

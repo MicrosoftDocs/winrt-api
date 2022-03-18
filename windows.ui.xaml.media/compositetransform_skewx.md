@@ -12,6 +12,8 @@ public double SkewX { get;  set; }
 ## -description
 Gets or sets the x-axis skew angle, which is measured in degrees counterclockwise from the y-axis. A skew transform can be useful for creating the illusion of three-dimensional depth in a two-dimensional object.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.CompositeTransform.SkewX](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.skewx).
+
 ## -xaml-syntax
 ```xaml
 <CompositeTransform SkewX="double"/>

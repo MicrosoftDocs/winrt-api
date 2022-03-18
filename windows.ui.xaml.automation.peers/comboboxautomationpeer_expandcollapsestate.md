@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.ExpandCollapseState ExpandCollapseState { get;
 ## -description
 Gets the state, expanded or collapsed, of the control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.ExpandCollapseState](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxautomationpeer.expandcollapsestate).
+
 ## -property-value
 A value of the enumeration.
 

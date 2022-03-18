@@ -20,3 +20,5 @@ All the known volumes, regardless of their current state.
 ## -examples
 
 ## -see-also
+
+[Package](/uwp/api/windows.applicationmodel.package)

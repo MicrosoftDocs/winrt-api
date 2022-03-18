@@ -12,6 +12,8 @@ public object ScrollOwner { get;  set; }
 ## -description
 Gets or sets the [ScrollViewer](scrollviewer.md) element that controls scrolling behavior.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.ScrollOwner](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.scrollowner).
+
 ## -property-value
 The [ScrollViewer](scrollviewer.md) element that controls scrolling behavior.
 

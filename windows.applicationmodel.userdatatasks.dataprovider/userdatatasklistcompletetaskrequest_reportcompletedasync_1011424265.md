@@ -9,15 +9,19 @@ public IAsyncAction UserDataTaskListCompleteTaskRequest.ReportCompletedAsync(Str
 
 # Windows.ApplicationModel.UserDataTasks.DataProvider.UserDataTaskListCompleteTaskRequest.ReportCompletedAsync
 
+
 ## -description
+
 Informs the client app that the request was processed successfully.
 
-## -params
+## -parameters
 
-## -param completedTaskId
+### -param completedTaskId
+
 The ID of the task that was processed.
 
 ## -returns
+
 An asynchronous operation.
 
 ## -remarks
@@ -25,3 +29,4 @@ An asynchronous operation.
 ## -see-also
 
 ## -examples
+

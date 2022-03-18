@@ -18,7 +18,7 @@ A Boolean value indicating if the app is running in an education environment.
 ## -remarks
 Returns **true** when running an Education SKU (Pro Education or Education).  
 
-Returns **true** when the [SetEduPolicies](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp) policy is set.   
+Returns **true** when the [SetEduPolicies](/windows/client-management/mdm/sharedpc-csp) policy is set.   
 
 Always returns **false** on the Home SKU.  
 

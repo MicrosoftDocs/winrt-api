@@ -12,6 +12,8 @@ public bool IndexOf(Windows.UI.Xaml.Media.PathFigure value, System.UInt32 index)
 ## -description
 Retrieves the index of the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathFigureCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.pathfigurecollection.indexof).
+
 ## -parameters
 ### -param value
 The value to find in the collection.

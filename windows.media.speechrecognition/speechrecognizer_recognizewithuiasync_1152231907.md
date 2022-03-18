@@ -22,4 +22,4 @@ The UI mechanisms supported by RecognizeWithUIAsync are specified by the [UIOpti
 ## -examples
 
 ## -see-also
-[RecognizeAsync](speechrecognizer_recognizeasync_748427924.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[RecognizeAsync](speechrecognizer_recognizeasync_748427924.md), [Speech interactions](/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

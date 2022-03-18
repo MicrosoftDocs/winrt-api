@@ -17,7 +17,7 @@ Sets the [UserActivity](useractivity.md) to return when the [UserActivityRequest
 The user activity to store.
 
 ## -remarks
-[UserActivity.ActivationUri](https://docs.microsoft.com/uwp/api/windows.applicationmodel.useractivities.useractivity.ActivationUri) and **[UserActivity.VisualElements.DisplayText](https://docs.microsoft.com/uwp/api/windows.applicationmodel.useractivities.useractivityvisualelements.DisplayText)** must be set or this method will fail.
+[UserActivity.ActivationUri](/uwp/api/windows.applicationmodel.useractivities.useractivity.ActivationUri) and **[UserActivity.VisualElements.DisplayText](/uwp/api/windows.applicationmodel.useractivities.useractivityvisualelements.DisplayText)** must be set or this method will fail.
 
 ## -see-also
 

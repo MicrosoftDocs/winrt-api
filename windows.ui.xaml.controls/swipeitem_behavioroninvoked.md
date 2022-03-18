@@ -19,7 +19,7 @@ public SwipeBehaviorOnInvoked BehaviorOnInvoked { get;  set; }
 <SwipeItem BehaviorOnInvoked="swipeBehaviorOnInvokedMemberName" />
 ```
 
-g## -xaml-values
+## -xaml-values
 
 <dl><dt>swipeBehaviorOnInvokedMemberName</dt><dd>swipeBehaviorOnInvokedMemberNameA named constant of the SwipeBehaviorOnInvoked enumeration.</dd>
 </dl>

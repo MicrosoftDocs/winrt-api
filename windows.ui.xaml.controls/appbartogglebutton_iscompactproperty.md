@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsCompactProperty { get; }
 ## -description
 Identifies the [IsCompact](appbartogglebutton_iscompact.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarToggleButton.IsCompactProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbartogglebutton.iscompactproperty).
+
 ## -property-value
 The identifier for the [IsCompact](appbartogglebutton_iscompact.md) dependency property.
 

@@ -14,6 +14,8 @@ public bool SceneMeshMaterialAttributeMap.Insert(String key, SceneAttributeSeman
 
 Inserts or replaces an item in the map.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneMeshMaterialAttributeMap.Insert](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshmaterialattributemap.insert).
+
 ## -parameters
 ### -param key
 

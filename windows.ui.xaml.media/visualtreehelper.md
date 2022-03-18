@@ -12,6 +12,8 @@ public class VisualTreeHelper : Windows.UI.Xaml.Media.IVisualTreeHelper
 ## -description
 Provides utility methods that can be used to traverse object relationships (along child-object or parent-object axes) in the visual tree of your app.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.VisualTreeHelper](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper).
+
 ## -remarks
 ### The visual tree
 
@@ -21,7 +23,7 @@ The visual tree for an app can be conceptualized as a filtered representation of
 
 However, the visual tree can also include objects that are not represented as XAML elements in a page's XAML markup. This is because the visual tree adds objects that are the composited parts of controls. These control parts can come from an applied control template, which is usually XAML from a resource dictionary item, or from a presenter.
 
-XAML markup and a visual tree don't match exactly node-for-node because XAML is designed for markup, and ease of use during markup definition, so it sometimes has extra elements. For example, XAML has property elements, which sets property values if one element is found nested within another. In a visual tree, this would just look like a property on an object being set by another object. XAML also has a concept of a content property, where the property being set is not explicitly designated in markup. For more info on the specific terminology and the rules for XAML, see [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview).
+XAML markup and a visual tree don't match exactly node-for-node because XAML is designed for markup, and ease of use during markup definition, so it sometimes has extra elements. For example, XAML has property elements, which sets property values if one element is found nested within another. In a visual tree, this would just look like a property on an object being set by another object. XAML also has a concept of a content property, where the property being set is not explicitly designated in markup. For more info on the specific terminology and the rules for XAML, see [XAML overview](/windows/uwp/xaml-platform/xaml-overview).
 
 The visual tree is used internally for the UI rendering process, but knowing the structure of the visual tree is important for certain scenarios, such as writing or replacing a control template, or analysis of a control's structure and parts at run-time. For these scenarios, the Windows Runtime provides the VisualTreeHelper  API that can examine the visual tree in a more generalized way. (You could theoretically construct such a tree using object-specific parent and children properties too, but you'd have to know exactly which properties each element supported, and that's difficult to discover or manage.)
 
@@ -62,7 +64,7 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 | 1903 | 18362 | GetOpenPopupsForXamlRoot |
 
 ## -examples
-Here's an example of a utility function that can copy a list of child elements of a particular type from within a visual tree. It uses the basic traversal methods [GetChildrenCount](visualtreehelper_getchildrencount_1601318699.md) and [GetChild](visualtreehelper_getchild_2017450836.md). It uses recursion so that elements can be found no matter what level of nesting within intermediate containers exists. It also uses an **IsSubclassOf** extension method from [System.Reflection](https://docs.microsoft.com/dotnet/api/system.reflection?redirectedfrom=MSDN) that extends the type comparison to consider subtypes as a match for a [Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN).
+Here's an example of a utility function that can copy a list of child elements of a particular type from within a visual tree. It uses the basic traversal methods [GetChildrenCount](visualtreehelper_getchildrencount_1601318699.md) and [GetChild](visualtreehelper_getchild_2017450836.md). It uses recursion so that elements can be found no matter what level of nesting within intermediate containers exists. It also uses an **IsSubclassOf** extension method from [System.Reflection](/dotnet/api/system.reflection?view=dotnet-uwp-10.0&preserve-view=true) that extends the type comparison to consider subtypes as a match for a [Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true).
 
 ```csharp
 internal static void FindChildren<T>(List<T> results, DependencyObject startNode)
@@ -85,4 +87,4 @@ internal static void FindChildren<T>(List<T> results, DependencyObject startNode
 
 
 ## -see-also
-[Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [XAML namescopes](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-namescopes), [Controls by function](https://docs.microsoft.com/windows/uwp/controls-and-patterns/controls-by-function)
+[Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)), [XAML namescopes](/windows/uwp/xaml-platform/xaml-namescopes), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)

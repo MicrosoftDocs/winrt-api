@@ -12,13 +12,13 @@ public class AppApplicability
 
 ## -description
 
-This class exposes a single static method used to check if a list of [App Capabilities](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations) is supported on the current device.
+This class exposes a single static method used to check if a list of [App Capabilities](/en-us/windows/uwp/packaging/app-capability-declarations) is supported on the current device.
 
 ## -remarks
 
 ## -see-also
 
-[App Capability Declarations](https://docs.microsoft.com/en-us/windows/uwp/packaging/app-capability-declarations)
+[App Capability Declarations](/en-us/windows/uwp/packaging/app-capability-declarations)
 
 ## -examples
 

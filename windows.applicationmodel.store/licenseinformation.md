@@ -23,4 +23,4 @@ You access this object through the [LicenseInformation](currentappsimulator_lice
 ## -examples
 
 ## -see-also
-[Store sample ()](https://github.com/Microsoft/Windows-universal-samples/tree/win10-1507/Samples/Store), [Trial app and in-app purchase sample ()](https://go.microsoft.com/fwlink/p/?LinkID=144754), [Enable in-app product purchases](https://docs.microsoft.com/windows/uwp/monetize/enable-in-app-product-purchases)
+[Store sample ()](https://github.com/Microsoft/Windows-universal-samples/tree/win10-1507/Samples/Store), [Trial app and in-app purchase sample ()](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Trial%20app%20and%20in-app%20purchase%20sample), [Enable in-app product purchases](/windows/uwp/monetize/enable-in-app-product-purchases)

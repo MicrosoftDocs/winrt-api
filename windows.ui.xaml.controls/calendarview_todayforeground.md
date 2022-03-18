@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush TodayForeground { get;  set; }
 ## -description
 Gets or sets a brush that provides the foreground of the calendar item for the current date.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.TodayForeground](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.todayforeground).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView TodayForeground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <CalendarView TodayForeground="colorString"/>
-
-```
-
-```xaml
+- or -
 <CalendarView>
   CalendarView.TodayForeground>singleBrush</CalendarViewTodayForeground>
 </CalendarView>

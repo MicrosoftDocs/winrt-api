@@ -10,7 +10,9 @@ public string GetStringRepresentation()
 # Windows.UI.Xaml.Data.ICustomPropertyProvider.GetStringRepresentation
 
 ## -description
-Provides support for "GetStringFromObject" and/or "ToString" logic on the assumption that the implementation supports [System.Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN). This logic might be accessed by features or services such as generating UI Automation values based on data content.
+Provides support for "GetStringFromObject" and/or "ToString" logic on the assumption that the implementation supports [System.Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true). This logic might be accessed by features or services such as generating UI Automation values based on data content.
+
+Equivalent WinUI method: [Microsoft.UI.Xaml.Data.ICustomPropertyProvider.GetStringRepresentation](/windows/winui/api/microsoft.ui.xaml.data.icustompropertyprovider.getstringrepresentation).
 
 ## -returns
 The provided string.

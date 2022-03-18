@@ -12,6 +12,8 @@ public class Setter : Windows.UI.Xaml.SetterBase, Windows.UI.Xaml.ISetter, Windo
 ## -description
 Applies a value to a property in a [Style](style.md) or a [VisualState](visualstate.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Setter](/windows/winui/api/microsoft.ui.xaml.setter).
+
 ## -xaml-syntax
 ```xaml
 <Setter .../>
@@ -31,7 +33,7 @@ If you're accessing a Setter instance using code, you cannot change the value of
 
 ### Migration notes
 
-+ Windows Presentation Foundation (WPF) and Microsoft Silverlight supported the ability to use a [Binding](../windows.ui.xaml.data/binding.md) expression to supply the [Value](setter_value.md) for a Setter in a [Style](style.md). The Windows Runtime doesn't support a [Binding](../windows.ui.xaml.data/binding.md) usage for [Setter.Value](../windows.ui.xaml.data/binding.md) (the [Binding](../windows.ui.xaml.data/binding.md) won't evaluate and the Setter has no effect, you won't get errors, but you won't get the desired result either). When you convert XAML styles from Windows Presentation Foundation (WPF) or Microsoft Silverlight XAML, replace any [Binding](../windows.ui.xaml.data/binding.md) expression usages with strings or objects that set values, or refactor the values as shared [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension) values rather than [Binding](../windows.ui.xaml.data/binding.md)-obtained values.
++ Windows Presentation Foundation (WPF) and Microsoft Silverlight supported the ability to use a [Binding](../windows.ui.xaml.data/binding.md) expression to supply the [Value](setter_value.md) for a Setter in a [Style](style.md). The Windows Runtime doesn't support a [Binding](../windows.ui.xaml.data/binding.md) usage for [Setter.Value](../windows.ui.xaml.data/binding.md) (the [Binding](../windows.ui.xaml.data/binding.md) won't evaluate and the Setter has no effect, you won't get errors, but you won't get the desired result either). When you convert XAML styles from Windows Presentation Foundation (WPF) or Microsoft Silverlight XAML, replace any [Binding](../windows.ui.xaml.data/binding.md) expression usages with strings or objects that set values, or refactor the values as shared [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension) values rather than [Binding](../windows.ui.xaml.data/binding.md)-obtained values.
 
 
 ## -examples
@@ -57,8 +59,6 @@ This example shows how to use Setter statements in a style for [TextBlock](../wi
 
 ```
 
-
-<!--<auto_snippet sample_id="StylingTemplatingOverview" snippet_id="1"/>-->
 This example shows how to use multiple Setter statements inside the [VisualState.Setters](visualstate_setters.md) property to apply discrete property value changes on various elements (without animations) when a [VisualState](visualstate.md) is applied.
 
 ```xaml
@@ -85,7 +85,24 @@ This example shows how to use multiple Setter statements inside the [VisualState
 
 ```
 
+You can also apply setters to attached property values, by specifying the attached property name in the *AttachedPropertyProvider*.*PropertyName* form. For example, to use a [Setter](setter.md) for the attached property [Canvas.Left](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties), use this XAML.
+
+```xaml
+<Setter Property="Canvas.Left" Value="100"/>
+```
+
+To update a value of an attached property using `Target`, place the attached property path inside parentheses. This example shows how to update the `RelativePanel.AlignRightWithPanel` value on an element with the name 'TitleTextBlock'. 
+
+```xaml
+<RelativePanel>
+    <TextBlock x:Name="TitleTextBlock" Text="Title"/>
+</RelativePanel>
+
+...
+
+<Setter Target="TitleTextBlock.(RelativePanel.AlignRightWithPanel)" Value="True"/>
+```
 
 
 ## -see-also
-[SetterBase](setterbase.md), [TargetPropertyPath](targetpropertypath.md), [VisualState.Setters](visualstate_setters.md), [Style](style.md), [Migrating  or  XAML/code to a ](https://docs.microsoft.com/previous-versions/windows/apps/br229571(v=win.10))
+[SetterBase](setterbase.md), [TargetPropertyPath](targetpropertypath.md), [VisualState.Setters](visualstate_setters.md), [Style](style.md), [Migrating  or  XAML/code to a ](/previous-versions/windows/apps/br229571(v=win.10))

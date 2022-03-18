@@ -17,3 +17,5 @@ Creates and initializes a new instance of the object.
 ## -examples
 
 ## -see-also
+
+[Package](/uwp/api/windows.applicationmodel.package)

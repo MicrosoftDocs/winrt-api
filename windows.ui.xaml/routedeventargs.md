@@ -12,10 +12,12 @@ public class RoutedEventArgs : Windows.UI.Xaml.IRoutedEventArgs
 ## -description
 Contains state information and event data associated with a routed event.
 
-## -remarks
-RoutedEventArgs is a common event data type used for base element events in UWP app using C++, C#, or Visual Basic. Generally RoutedEventArgs as the event data type indicates that the event with this event data is a *routed event*, although there are some exceptions. For more info on routed events and how to handle them, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
+Equivalent WinUI class: [Microsoft.UI.Xaml.RoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.routedeventargs).
 
-The API that RoutedEventArgs adds to a generalized event data set is [OriginalSource](routedeventargs_originalsource.md). [OriginalSource](routedeventargs_originalsource.md) can be useful for determining the element that first raised the event for hit testing and event routing scenarios, but there are also times where the *sender* from the delegate signature is the more useful source object reference for a handler. For more info, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
+## -remarks
+RoutedEventArgs is a common event data type used for base element events in UWP app using C++, C#, or Visual Basic. Generally RoutedEventArgs as the event data type indicates that the event with this event data is a *routed event*, although there are some exceptions. For more info on routed events and how to handle them, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
+
+The API that RoutedEventArgs adds to a generalized event data set is [OriginalSource](routedeventargs_originalsource.md). [OriginalSource](routedeventargs_originalsource.md) can be useful for determining the element that first raised the event for hit testing and event routing scenarios, but there are also times where the *sender* from the delegate signature is the more useful source object reference for a handler. For more info, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 ### RoutedEventArgs and the Handled property
 
@@ -23,7 +25,7 @@ If you're familiar with Windows Presentation Foundation (WPF), you might know th
 
 ### **RoutedEventArgs** derived classes
 
-RoutedEventArgs is the parent class for several immediately derived classes that define event data for Windows Runtime events involving UI elements. Not all of the events where the classes provide data are necessarily routed events as defined in [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview). But many are. The ones that aren't sometimes have the event data derived from RoutedEventArgs for compatibility reasons.
+RoutedEventArgs is the parent class for several immediately derived classes that define event data for Windows Runtime events involving UI elements. Not all of the events where the classes provide data are necessarily routed events as defined in [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview). But many are. The ones that aren't sometimes have the event data derived from RoutedEventArgs for compatibility reasons.
 
 + [DragEventArgs](drageventargs.md)
 + [ExceptionRoutedEventArgs](exceptionroutedeventargs.md)
@@ -57,4 +59,4 @@ RoutedEventArgs is the parent class for several immediately derived classes that
 ## -examples
 
 ## -see-also
-[Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [ExceptionRoutedEventArgs](exceptionroutedeventargs.md), [RoutedEventHandler](routedeventhandler.md)
+[Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [ExceptionRoutedEventArgs](exceptionroutedeventargs.md), [RoutedEventHandler](routedeventhandler.md)

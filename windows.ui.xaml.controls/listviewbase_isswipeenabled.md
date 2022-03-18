@@ -12,6 +12,8 @@ public bool IsSwipeEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the view supports discrete input processing for a *swipe* interaction.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.IsSwipeEnabled](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.isswipeenabled).
+
 ## -xaml-syntax
 ```xaml
 <listViewBase IsSwipeEnabled="bool" .../>

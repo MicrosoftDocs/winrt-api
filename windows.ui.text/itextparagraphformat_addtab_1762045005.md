@@ -12,6 +12,8 @@ public void AddTab(System.Single position, Windows.UI.Text.TabAlignment align, W
 ## -description
 Adds a new tab at the specified position.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextParagraphFormat.AddTab](/windows/winui/api/microsoft.ui.text.itextparagraphformat.addtab).
+
 ## -parameters
 ### -param position
 The position of the new tab, in floating-point points relative to the left side of the page for left-to-right paragraphs, or the right side of the page for right-to-left paragraphs. A maximum of 63 tabs are allowed. Tabs beyond the page are ignored. Negative tabs are not valid.

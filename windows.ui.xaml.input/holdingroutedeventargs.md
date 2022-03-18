@@ -13,6 +13,8 @@ public class HoldingRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.U
 
 Provides event data for the [Holding](../windows.ui.xaml/uielement_holding.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.HoldingRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.holdingroutedeventargs).
+
 ## -remarks
 
 A [Holding](../windows.ui.input/gesturerecognizer_holding.md) event is sent whenever a finger, pen, or similar pointing device is pressed and held on an object.
@@ -27,7 +29,48 @@ If the user cancels the hold after it has been started, but before it completes,
 
 The following snippets are from *Scenario 1 - Input events* of the [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/fe8567faf2efdea3672c2ba642ba7b925ff6467e/Samples/BasicInput).
 
-```cpp
+```cppwinrt
+Scenario1::Scenario1()
+{
+    InitializeComponent();
+
+    // pointer press/release handlers
+    pressedTarget.PointerPressed(this, &Scenario1::target_PointerPressed);
+    pressedTarget.PointerReleased(this, &Scenario1::target_PointerReleased);
+
+    // pointer enter/exit handlers
+    enterExitTarget.PointerEntered(this, &Scenario1::target_PointerEntered);
+    enterExitTarget.PointerExited(this, &Scenario1::target_PointerExited);
+
+    // gesture handlers
+    tapTarget.Tapped(this, &Scenario1::target_Tapped);
+    tapTarget.DoubleTapped(this, &Scenario1::target_DoubleTapped);
+
+    holdTarget.Holding(this, &Scenario1::target_Holding);
+    holdTarget.RightTapped(this, &Scenario1::target_RightTapped);
+}
+
+void Scenario1::target_Holding(Windows::Foundation::IInspectable const&, Windows::UI::Xaml::Input::HoldingRoutedEventArgs const& args)
+{
+    if (args.HoldingState() == Windows::UI::Input::HoldingState::Started)
+    {
+        holdTarget.Background(Windows::UI::Xaml::Media::SolidColorBrush(Windows::UI::Colors::DeepSkyBlue()));
+        holdTargetText.Text(L"Holding");
+    }
+    else if (args.HoldingState() == Windows::UI::Input::HoldingState::Completed)
+    {
+        holdTarget.Background(Windows::UI::Xaml::Media::SolidColorBrush(Windows::UI::Colors::LightGray()));
+        holdTargetText.Text(L"Held");
+    }
+    else
+    {
+        holdTarget.Background(Windows::UI::Xaml::Media::SolidColorBrush(Windows::UI::Colors::LightGray()));
+        holdTargetText.Text(L"Hold Canceled");
+    }
+}
+```
+
+```cppcx
 Scenario1::Scenario1()
 {
     InitializeComponent();

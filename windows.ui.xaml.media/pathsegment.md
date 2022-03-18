@@ -12,6 +12,8 @@ public class PathSegment : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Med
 ## -description
 Represents a segment of a [PathFigure](pathfigure.md) object. Derived classes of [PathFigure](pathfigure.md) describe different types of segments.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.PathSegment](/windows/winui/api/microsoft.ui.xaml.media.pathsegment).
+
 ## -remarks
 [PathSegmentCollection](pathsegmentcollection.md) is a strongly typed collection for PathSegment items. [PathSegmentCollection](pathsegmentcollection.md) is the type used by the [PathFigure.Segments](pathfigure_segments.md) property. In XAML, specify one or more of the element types that derive from PathSegment for this property.
 
@@ -30,4 +32,4 @@ Represents a segment of a [PathFigure](pathfigure.md) object. Derived classes of
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [ArcSegment](arcsegment.md), [BezierSegment](beziersegment.md), [LineSegment](linesegment.md), [PolyBezierSegment](polybeziersegment.md), [PolyQuadraticBezierSegment](polyquadraticbeziersegment.md), [QuadraticBezierSegment](quadraticbeziersegment.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [ArcSegment](arcsegment.md), [BezierSegment](beziersegment.md), [LineSegment](linesegment.md), [PolyBezierSegment](polybeziersegment.md), [PolyQuadraticBezierSegment](polyquadraticbeziersegment.md), [QuadraticBezierSegment](quadraticbeziersegment.md), [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample), [Draw shapes](/windows/uwp/graphics/drawing-shapes)

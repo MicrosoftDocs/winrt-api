@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SourceProperty { get; }
 ## -description
 Identifies the [Source](collectionviewsource_source.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.CollectionViewSource.SourceProperty](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.sourceproperty).
+
 ## -property-value
 The identifier for the [Source](collectionviewsource_source.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [Source](collectionviewsource_source.md) dependency prope
 ## -examples
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

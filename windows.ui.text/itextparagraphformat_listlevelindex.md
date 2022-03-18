@@ -12,6 +12,8 @@ public int ListLevelIndex { get;  set; }
 ## -description
 Gets or sets the list level index used with paragraphs.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.ListLevelIndex](/windows/winui/api/microsoft.ui.text.itextparagraphformat.listlevelindex).
+
 ## -property-value
 The list level index. It can be a value of 0 or higher, as described in the following table. <table>
    <tr><th>Value</th><th>Meaning</th></tr>

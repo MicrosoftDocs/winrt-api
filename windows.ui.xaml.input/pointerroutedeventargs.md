@@ -13,6 +13,8 @@ public class PointerRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.U
 
 Contains the arguments returned by the last pointer event message.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.PointerRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.pointerroutedeventargs).
+
 ## -remarks
 
 In most cases, we recommend that you get pointer info through the event argument of the pointer event handlers in your chosen language framework (Windows app using JavaScript, UWP app using C++, C#, or Visual Basic, or UWP app using DirectX with C++).
@@ -47,7 +49,7 @@ Specific events often have information available in the various pointer device a
 
 The object retrieved by the GetCurrentPoint and GetIntermediatePoints methods provide access to extended pointer info through the [Properties](../windows.ui.input/pointerpoint_properties.md) property, which gets a [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) object.
 
-In the following example, we get extended pointer properties through the [PointerPoint](../windows.ui.input/pointerpoint.md) and [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) objects. (See [Quickstart: Pointers](https://docs.microsoft.com/previous-versions/windows/apps/hh465383(v=win.10)) for the complete example.)
+In the following example, we get extended pointer properties through the [PointerPoint](../windows.ui.input/pointerpoint.md) and [PointerPointProperties](../windows.ui.input/pointerpointproperties.md) objects. (See [Quickstart: Pointers](/previous-versions/windows/apps/hh465383(v=win.10)) for the complete example.)
 
 [!code-csharp[SnippetQueryPointer](../windows.ui.input.inking/code/PointerInput/csharp/MainPage.xaml.cs#SnippetQueryPointer)]
 
@@ -60,7 +62,7 @@ Typically, the object returned by this method is used to feed pointer data to a 
 | 1709 | 16299 | IsGenerated |
 
 ## -examples
-The following code example shows scenario 2 from the [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855). This code shows some usage patterns for direct manipulation using the [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md), [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md), [PointerEntered](../windows.ui.xaml/uielement_pointerentered.md), [PointerExited](../windows.ui.xaml/uielement_pointerexited.md), and [PointerMoved](../windows.ui.xaml/uielement_pointermoved.md) events.
+The following code example shows scenario 2 from the [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample). This code shows some usage patterns for direct manipulation using the [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md), [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md), [PointerEntered](../windows.ui.xaml/uielement_pointerentered.md), [PointerExited](../windows.ui.xaml/uielement_pointerexited.md), and [PointerMoved](../windows.ui.xaml/uielement_pointermoved.md) events.
 
 
 
@@ -71,5 +73,4 @@ The following code example shows scenario 2 from the [Input sample](https://go.m
 [!code-vb[Scenario2Code](../windows.ui.xaml/code/input/vbnet/Scenario2.xaml.vb#SnippetScenario2Code)]
 
 ## -see-also
-[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)
-d), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)
+[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md), [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md)

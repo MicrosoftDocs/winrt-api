@@ -22,6 +22,4 @@ The result of the asynchronous operation as a string.
 
 ## -see-also
 
-[GetAudioRenderDeviceId](conversationalagentsession_getaudiorenderdeviceid_73492420.md)
-
 ## -examples

@@ -12,19 +12,17 @@ public object TargetNullValue { get;  set; }
 ## -description
 Gets or sets the value that is used in the target when the value of the source is **null**.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.TargetNullValue](/windows/winui/api/microsoft.ui.xaml.data.binding.targetnullvalue).
+
 ## -xaml-syntax
 ```xaml
 <Binding TargetNullValue="nullValueString" />
-```
-
-```xaml
-
+- or -
 <Binding>
   <Binding.TargetNullValue>
     nullValue
   </Binding.TargetNullValue>
 </Binding>
-
 ```
 
 
@@ -62,4 +60,4 @@ You can't set the property values of a [Binding](binding.md) object after that b
 ## -examples
 
 ## -see-also
-[FallbackValue](binding_fallbackvalue.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[FallbackValue](binding_fallbackvalue.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

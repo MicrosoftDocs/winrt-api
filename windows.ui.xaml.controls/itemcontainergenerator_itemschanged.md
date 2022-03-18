@@ -12,8 +12,12 @@ public event Windows.UI.Xaml.Controls.Primitives.ItemsChangedEventHandler ItemsC
 ## -description
 Occurs when the contents of the items collection changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.ItemsChanged](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.itemschanged).
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[ItemsChangedEventArgs](/uwp/api/windows.ui.xaml.controls.primitives.itemschangedeventargs)

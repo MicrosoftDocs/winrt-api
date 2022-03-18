@@ -14,6 +14,8 @@ public bool IsDefaultShadowEnabled { get;  set; }
 
 Gets or sets a value that indicates whether the default shadow effect is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.IsDefaultShadowEnabled](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyoutpresenter.isdefaultshadowenabled).
+
 ## -property-value
 
 **true** if the default shadow effect is shown; otherwise, **false**. The default is **true**.

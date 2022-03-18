@@ -12,6 +12,8 @@ public bool GetStylisticSet2(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [StylisticSet2](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetStylisticSet2](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstylisticset2).
+
 ## -parameters
 ### -param element
 The dependency object for which to retrieve the value of the [StylisticSet2](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) property.

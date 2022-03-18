@@ -23,4 +23,5 @@ You can access files in the temporary app data store using the "ms-appdata:///te
 ## -examples
 
 ## -see-also
-[Quickstart: Temporary application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465130(v=win.10)), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data)
+
+[Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data)

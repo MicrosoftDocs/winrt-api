@@ -13,6 +13,8 @@ public MarkupExtensionReturnTypeAttribute.MarkupExtensionReturnTypeAttribute()
 
 Initializes a new instance of the MarkupExtensionReturnTypeAttribute class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Markup.MarkupExtensionReturnTypeAttribute.MarkupExtensionReturnTypeAttribute](/windows/winui/api/microsoft.ui.xaml.markup.markupextensionreturntypeattribute.#ctor).
+
 ## -remarks
 
 ## -see-also

@@ -11,7 +11,7 @@ A geofence is a virtual area around a geographical point. The geofencing APIs en
 
 Apps define areas of interest (geofences) and corresponding trigger conditions, such as triggering when the user enters or exits the geofence. Finally, the app registers to be notified when the trigger conditions are met. Windows and Windows Phone support hundreds of geofences per app. The operating system efficiently manages geofence tracking for all apps. When the trigger conditions for one or more geofences are met, the associated app is alerted even when it is not actively running. This high capacity, power-aware, adaptive geofence tracking system allows you to quickly and easily add location-triggered functionality to your app.
 
-For a complete guide on using geofencing, see [Geofencing, start to finish](https://docs.microsoft.com/previous-versions/windows/apps/dn263199(v=win.10)).
+For a complete guide on using geofencing, see [Geofencing, start to finish](/previous-versions/windows/apps/dn263199(v=win.10)).
 
 The geofencing APIs enable your app to do the following:
 
@@ -40,7 +40,7 @@ Your app must declare the location capability in the app manifest in order to us
 
 ## -see-also
 
-[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Set up a geofence](https://docs.microsoft.com/windows/uwp/maps-and-location/set-up-a-geofence), [Geofence](geofence.md), [GeofenceMonitor](geofencemonitor.md), Windows.Devices.Geolocation, [Geolocation sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=533278)
+[Get current location](/windows/uwp/maps-and-location/get-location), [Set up a geofence](/windows/uwp/maps-and-location/set-up-a-geofence), [Geofence](geofence.md), [GeofenceMonitor](geofencemonitor.md), Windows.Devices.Geolocation, [Geolocation sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
 
 ## -capabilities
 

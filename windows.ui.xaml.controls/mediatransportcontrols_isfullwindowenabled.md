@@ -12,6 +12,8 @@ public bool IsFullWindowEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether a user can play the media in full-screen mode.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsFullWindowEnabled](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isfullwindowenabled).
+
 ## -xaml-syntax
 ```xaml
 

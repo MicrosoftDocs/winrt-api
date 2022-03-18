@@ -12,6 +12,8 @@ public class ListViewItemPresenter : Windows.UI.Xaml.Controls.ContentPresenter, 
 ## -description
 Represents the visual elements of a [ListViewItem](../windows.ui.xaml.controls/listviewitem.md). When developing for Windows 10, use ListViewItemPresenter instead of [GridViewItemPresenter](gridviewitempresenter.md) in your item container style, both for [ListView](../windows.ui.xaml.controls/listview.md) and for [GridView](../windows.ui.xaml.controls/gridview.md). If you edit a copy of the default item container styles then you will get the correct type.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter).
+
 ## -xaml-syntax
 ```xaml
 <ListViewItemPresenter .../>
@@ -21,7 +23,7 @@ Represents the visual elements of a [ListViewItem](../windows.ui.xaml.controls/l
 ## -remarks
 The XAML usage shown is intended to be part of a XAML template or style for a [ListView](../windows.ui.xaml.controls/listview.md) control (or derived type) and its items. For more info, see [ListView](../windows.ui.xaml.controls/listview.md).
 
-For a custom ListViewItemPresenter, use the name of your class as the string within the object element syntax for XAML. You'll probably have to map an **xmlns** definition with a prefix to refer to your class definition. For more info, see [XAML namespaces and namespace mapping](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-namespaces-and-namespace-mapping).
+For a custom ListViewItemPresenter, use the name of your class as the string within the object element syntax for XAML. You'll probably have to map an **xmlns** definition with a prefix to refer to your class definition. For more info, see [XAML namespaces and namespace mapping](/windows/uwp/xaml-platform/xaml-namespaces-and-namespace-mapping).
 
 ### Version history
 

@@ -12,6 +12,8 @@ public void ScrollIntoView()
 ## -description
 Scrolls the content area of the parent container in order to display the item within the visible region (viewport) of the container.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.PivotItemDataAutomationPeer.ScrollIntoView](/windows/winui/api/microsoft.ui.xaml.automation.peers.pivotitemdataautomationpeer.scrollintoview).
+
 ## -remarks
 
 ## -examples

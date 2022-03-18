@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.TextAlignment : int
 ## -description
 Specifies whether text is centered, left-aligned, or right-aligned.
 
+Equivalent WinUI enum: [TextAlignment](/windows/winui/api/microsoft.ui.xaml.textalignment).
+
 ## -xaml-syntax
 ```xaml
 <object property="textAlignmentMemberName"/>
@@ -56,5 +58,5 @@ The beginning of the text is aligned to the edge of the container.
 ## -examples
 
 ## -see-also
-[RichEditBox.TextAlignment](../windows.ui.xaml.controls/richeditbox_textalignment.md), [RichTextBlock.TextAlignment](../windows.ui.xaml.controls/richtextblock_textalignment.md), [TextBlock.TextAlignment](../windows.ui.xaml.controls/textblock_textalignment.md), [TextBox.TextAlignment](../windows.ui.xaml.controls/textbox_textalignment.md), [FlowDirection](flowdirection.md), [How to support bidirectional UI](https://docs.microsoft.com/previous-versions/windows/apps/jj712703(v=win.10))
+[RichEditBox.TextAlignment](../windows.ui.xaml.controls/richeditbox_textalignment.md), [RichTextBlock.TextAlignment](../windows.ui.xaml.controls/richtextblock_textalignment.md), [TextBlock.TextAlignment](../windows.ui.xaml.controls/textblock_textalignment.md), [TextBox.TextAlignment](../windows.ui.xaml.controls/textbox_textalignment.md), [FlowDirection](flowdirection.md), [How to support bidirectional UI](/previous-versions/windows/apps/jj712703(v=win.10))
 

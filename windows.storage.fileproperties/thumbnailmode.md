@@ -66,10 +66,10 @@ Use this enumeration to determine the thumbnail image you get when you call one 
 
 For example, you can get a thumbnail image to preview a video file by calling [storageFile.GetThumbnailAsync(ThumbnailMode)](../windows.storage/storagefile_getthumbnailasync_1575071988.md) and specifying the **videoView** thumbnail mode.
 
-To help you decide which mode you should use, see [Guidelines and checklist for thumbnails](https://docs.microsoft.com/windows/uwp/files/index).
+To help you decide which mode you should use, see [Guidelines and checklist for thumbnails](/windows/uwp/files/index).
 
 ## -examples
 
 ## -see-also
 
-[Guidelines and checklist for thumbnails](https://docs.microsoft.com/windows/uwp/files/index), [storageItemThumbnail class](storageitemthumbnail.md), [ThumbnailOptions enum](thumbnailoptions.md), [Windows.Storage.storageFile.getThumbnailAsync methods](../windows.storage/storagefile_getthumbnailasync_1511435522.md), [File and folder thumbnail sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620545)
+[Guidelines and checklist for thumbnails](/windows/uwp/files/index), [storageItemThumbnail class](storageitemthumbnail.md), [ThumbnailOptions enum](thumbnailoptions.md), [Windows.Storage.storageFile.getThumbnailAsync methods](../windows.storage/storagefile_getthumbnailasync_1511435522.md), [File and folder thumbnail sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileThumbnails)

@@ -12,6 +12,8 @@ public int GetZIndex(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [Canvas.ZIndex](/uwp/api/windows.ui.xaml.controls.canvas#xaml-attached-properties) XAML attached property for the target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Canvas.GetZIndex](/windows/winui/api/microsoft.ui.xaml.controls.canvas.getzindex).
+
 ## -parameters
 ### -param element
 The object from which the property value is read.

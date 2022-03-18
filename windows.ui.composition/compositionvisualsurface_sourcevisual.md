@@ -14,6 +14,8 @@ public Visual SourceVisual { get;  set; }
 
 Gets or sets the root of the visual tree that is the target of the visual surface.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionVisualSurface.SourceVisual](/windows/winui/api/microsoft.ui.composition.compositionvisualsurface.sourcevisual).
+
 ## -property-value
 
 The root of the visual tree that is the target of the visual surface.

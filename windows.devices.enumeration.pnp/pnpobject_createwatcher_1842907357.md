@@ -17,7 +17,7 @@ Returns a [PnpObjectWatcher](pnpobjectwatcher.md) object that is used to enumera
 The type of the [PnpObject](pnpobject.md).
 
 ### -param requestedProperties
-An iterable list of additional properties to include in the [Properties](pnpobject_properties.md) property of the [PnpObject](pnpobject.md) objects included in enumeration results. For more info on what the properties represent, see [Device information properties](https://docs.microsoft.com/windows/uwp/devices-sensors/device-information-properties).
+An iterable list of additional properties to include in the [Properties](pnpobject_properties.md) property of the [PnpObject](pnpobject.md) objects included in enumeration results. For more info on what the properties represent, see [Device information properties](/windows/uwp/devices-sensors/device-information-properties).
 
 ### -param aqsFilter
 An AQS string that filters the PnP objects that will be returned. Typically, this string is retrieved from the  method of a class that interacts with devices.
@@ -30,4 +30,4 @@ A [PnpObjectWatcher](pnpobjectwatcher.md) object used to enumerate the collectio
 ## -examples
 
 ## -see-also
-[CreateWatcher(PnpObjectType, IIterable_1)](pnpobject_createwatcher_199191645.md), [Device information properties](https://docs.microsoft.com/windows/uwp/devices-sensors/device-information-properties)
+[CreateWatcher(PnpObjectType, IIterable_1)](pnpobject_createwatcher_199191645.md), [Device information properties](/windows/uwp/devices-sensors/device-information-properties)

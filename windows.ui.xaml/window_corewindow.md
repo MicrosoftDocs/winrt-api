@@ -12,6 +12,8 @@ public Windows.UI.Core.CoreWindow CoreWindow { get; }
 ## -description
 Gets an internal *core* object for the application window.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Window.CoreWindow](/windows/winui/api/microsoft.ui.xaml.window.corewindow).
+
 ## -property-value
 A **CoreWindow** object.
 

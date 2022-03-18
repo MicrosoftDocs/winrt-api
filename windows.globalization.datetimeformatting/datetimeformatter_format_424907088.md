@@ -17,11 +17,11 @@ Returns a string that represents the given date and time in the given time zone,
 
 ### -param datetime
 
-The [DateTime](../windows.foundation/datetime.md) to be formatted.
+The date, time, and timezone to be formatted.
 
 ### -param timeZoneId
 
-An identifier from the [IANA Time Zone Database](https://go.microsoft.com/fwlink/p/?LinkId=302107) that identifies the time zone to use (for example, "Americas/Los_Angeles" for Pacific Time).
+An identifier from the [IANA Time Zone Database](https://www.iana.org/time-zones) that identifies the time zone to use (for example, "Americas/Los_Angeles" for Pacific Time).
 
 ## -returns
 
@@ -30,10 +30,10 @@ A string that represents the date, time, and time zone.
 ## -remarks
 
 > [!NOTE]
-> This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See [Prepare your application for the Japanese era change](https://docs.microsoft.com/windows/uwp/design/globalizing/japanese-era-change) for more information.
+> If your application supports the Japanese calendar, you should validate that it properly handles the May 2019 Japanese era change. See [Prepare your application for the Japanese era change](/windows/uwp/design/globalizing/japanese-era-change) for more information.
 
 ## -examples
 
 ## -see-also
 
-[Date and time formatting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624044)
+[Date and time formatting sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting)

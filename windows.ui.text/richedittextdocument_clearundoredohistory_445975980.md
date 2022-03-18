@@ -14,6 +14,8 @@ public void RichEditTextDocument.ClearUndoRedoHistory()
 
 Empties the undo and redo buffers.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.ClearUndoRedoHistory](/windows/winui/api/microsoft.ui.text.richedittextdocument.clearundoredohistory).
+
 ## -remarks
 
 ## -see-also

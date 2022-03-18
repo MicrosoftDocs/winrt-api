@@ -12,6 +12,8 @@ public void SelectAll()
 ## -description
 Selects all the items in a view.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.SelectAll](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.selectall).
+
 ## -remarks
 > [!WARNING]
 > Call the SelectAll method only when the [SelectionMode](listviewbase_selectionmode.md) property is set to [Multiple](listviewselectionmode.md) or [Extended](listviewselectionmode.md). If you call SelectAll when the [SelectionMode](listviewbase_selectionmode.md) is **Single** or **None**, an exception is thrown.
@@ -39,7 +41,7 @@ if (itemGridView().SelectionMode() == Windows::UI::Xaml::Controls::ListViewSelec
 }
 ```
 
-```cpp
+```cppcx
 if (itemGridView->SelectionMode == ListViewSelectionMode::Multiple ||
     itemGridView->SelectionMode == ListViewSelectionMode::Extended)
 {
@@ -47,7 +49,7 @@ if (itemGridView->SelectionMode == ListViewSelectionMode::Multiple ||
 }
 ```
 
-```vbnet
+```vb
 If itemGridView.SelectionMode = ListViewSelectionMode.Multiple OrElse
    itemGridView.SelectionMode = ListViewSelectionMode.Extended Then
 

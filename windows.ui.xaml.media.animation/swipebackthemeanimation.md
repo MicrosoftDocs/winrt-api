@@ -12,6 +12,8 @@ public class SwipeBackThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline,
 ## -description
 Represents the preconfigured animation that applies to controls when an element slides back into its layout slot after a **Swipe** interaction.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.SwipeBackThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.swipebackthemeanimation).
+
 ## -xaml-syntax
 ```xaml
 <SwipeBackThemeAnimation ... />
@@ -273,7 +275,7 @@ void SwipeControl::GestureRecognizer_CrossSliding(Windows::UI::Input::GestureRec
 }
 ```
 
-```cpp
+```cppcx
 // SwipeControl.h:
 public ref class SwipeControl sealed : public Windows::UI::Xaml::Controls::Control
 {
@@ -375,4 +377,4 @@ void SwipeControl::GestureRecognizer_CrossSliding(GestureRecognizer^ sender, Cro
 ```
 
 ## -see-also
-[Timeline](timeline.md), [Animating swipe gestures](https://docs.microsoft.com/previous-versions/windows/apps/jj649435(v=win.10))
+[Timeline](timeline.md), [Animating swipe gestures](/previous-versions/windows/apps/jj649435(v=win.10))

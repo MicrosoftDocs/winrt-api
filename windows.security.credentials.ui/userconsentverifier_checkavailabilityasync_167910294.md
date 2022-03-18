@@ -18,8 +18,6 @@ A [UserConsentVerifierAvailability](userconsentverifieravailability.md) value th
 ## -remarks
 The following example shows a method that checks to see if fingerprint authentication is supported for the current computer and returns a message that describes the result.
 
-
-
 ```csharp
 public async Task<string> CheckConsentAvailability()
 {
@@ -52,37 +50,7 @@ public async Task<string> CheckConsentAvailability()
 }
 ```
 
-```javascript
-function checkConsentAvailability() {
-    try {
-        // Check the availability of Hello authentication.
-
-        Windows.Security.Credentials.UI.UserConsentVerifier.checkAvailabilityAsync().then(
-        function (ucvAvailability) {
-
-            switch (ucvAvailability)
-            {
-                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.available:
-                    outputDiv.innerHTML = "<br/>User consent verification available!";
-                    break;
-                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.deviceNotPresent:
-                    outputDiv.innerHTML = "<br/>No PIN found, please set one up.";
-                    break;
-                default:
-                    outputDiv.innerHTML = "<br/>User consent verification is currently unavailable.";
-                    break;
-            }
-        });
-    }
-    catch (ex) {
-        outputDiv.innerHTML = "<br/>User consent verification failed: " + ex.toString();
-    }
-}
-```
-
-
-
 ## -examples
 
 ## -see-also
-[Fingerprint biometrics](https://docs.microsoft.com/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://go.microsoft.com/fwlink/p/?LinkID=303650), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity)
+[Fingerprint biometrics](/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/UserConsentVerifier), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](/windows/uwp/security/authentication-and-user-identity)

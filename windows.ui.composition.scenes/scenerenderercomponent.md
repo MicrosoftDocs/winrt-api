@@ -14,6 +14,8 @@ public class SceneRendererComponent : SceneComponent, SceneComponent
 
 Represents the base class for scene rendering components.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.SceneRendererComponent](/windows/winui/api/microsoft.ui.composition.scenes.scenerenderercomponent).
+
 ## -remarks
 
 ## -see-also

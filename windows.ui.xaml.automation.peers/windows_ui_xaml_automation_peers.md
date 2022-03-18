@@ -13,4 +13,4 @@ Contains automation peers for controls and base classes.
 ## -examples
 
 ## -see-also
-[Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

@@ -22,7 +22,7 @@ Gets or sets a value that indicates whether items in the view can be reordered t
 
 ## -property-value
 
-**true** if items in the view can be reordered through user interaction; otherwise, **false**. The default is **false**.
+**true** if items in the view can be reordered through user interaction; otherwise, **false**. The default is **true**.
 
 ## -remarks
 

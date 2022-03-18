@@ -10,7 +10,7 @@ public Windows.Media.MediaProperties.VideoEncodingProperties CreateH264()
 # Windows.Media.MediaProperties.VideoEncodingProperties.CreateH264
 
 ## -description
-Creates an instance of [VideoEncodingProperties](videoencodingproperties.md) for a H.263 video.
+Creates an instance of [VideoEncodingProperties](videoencodingproperties.md) for a H.264 video.
 
 ## -returns
 The video encoding properties.

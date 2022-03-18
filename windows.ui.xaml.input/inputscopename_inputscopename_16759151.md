@@ -12,6 +12,8 @@ public InputScopeName(Windows.UI.Xaml.Input.InputScopeNameValue nameValue)
 ## -description
 Initializes a new instance of the [InputScopeName](inputscopename.md) class, using an input name based on the [InputScopeNameValue](inputscopenamevalue.md) enumeration.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.InputScopeName.InputScopeName](/windows/winui/api/microsoft.ui.xaml.input.inputscopename.#ctor).
+
 ## -parameters
 ### -param nameValue
 An input name based on the [InputScopeNameValue](inputscopenamevalue.md) enumeration.
@@ -21,4 +23,4 @@ An input name based on the [InputScopeNameValue](inputscopenamevalue.md) enumera
 ## -examples
 
 ## -see-also
-[Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

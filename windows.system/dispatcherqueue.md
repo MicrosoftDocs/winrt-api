@@ -12,6 +12,8 @@ public class DispatcherQueue
 ## -description
 Manages a prioritized queue on which tasks execute in a serial fashion on a thread.
 
+Equivalent WinUI class: [Microsoft.System.DispatcherQueue](/windows/winui/api/microsoft.system.dispatcherqueue).
+
 ## -remarks
 All tasks dispatched to a queue execute on the same thread.
 
@@ -22,5 +24,7 @@ All tasks dispatched to a queue execute on the same thread.
 | 1903 | 18362 | HasThreadAccess |
 
 ## -see-also
+
+[DispatcherQueueController](/uwp/api/Windows.System.DispatcherQueueController)
 
 ## -examples

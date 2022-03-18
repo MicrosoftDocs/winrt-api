@@ -10,7 +10,7 @@ public MapModel3D.MapModel3D()
 # Windows.UI.Xaml.Controls.Maps.MapModel3D.MapModel3D
 
 ## -description
-Creates an instance of a [MapElement3D](mapelement3d.md).
+Creates an instance of a [MapModel3D](mapmodel3d.md).
 
 ## -remarks
 

@@ -13,6 +13,8 @@ public class Pointer : Windows.UI.Xaml.Input.IPointer
 
 Provides basic properties for the input pointer associated with a single mouse, pen/stylus, or touch contact.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.Pointer](/windows/winui/api/microsoft.ui.xaml.input.pointer).
+
 ## -remarks
 
 In most cases, we recommend that you get pointer info through the event argument of the pointer event handlers in your chosen language framework (Windows app using JavaScript, UWP app using C++, C#, or Visual Basic, or UWP app using DirectX with C++).
@@ -24,10 +26,10 @@ Pointer is an abstract class that is used to describe an input device. This clas
 
 ## -examples
 
-The following code example shows the usage of Pointer class to find the unique [PointerId](pointer_pointerid.md) of each input contact in an app, use the [PointerDeviceType](pointer_pointerdevicetype.md) to ignore specific forms of input (for example, mouse input) and store the Pointer positions. For additional code that uses the Pointer class, see the [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855).
+The following code example shows the usage of Pointer class to find the unique [PointerId](pointer_pointerid.md) of each input contact in an app, use the [PointerDeviceType](pointer_pointerdevicetype.md) to ignore specific forms of input (for example, mouse input) and store the Pointer positions. For additional code that uses the Pointer class, see the [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample).
 
 
 [!code-csharp[Code](../windows.ui.xaml.input/code/PointerExample/csharp/BlankPage.xaml.cs#SnippetCode)]
 
 ## -see-also
-[Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
+[Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)

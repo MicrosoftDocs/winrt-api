@@ -13,6 +13,8 @@ public class WrapGrid : Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizing
 
 Positions child elements sequentially from left to right or top to bottom. When elements extend beyond the container edge, elements are positioned in the next row or column. Can only be used to display items in an [ItemsControl](itemscontrol.md). See Remarks.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.WrapGrid](/windows/winui/api/microsoft.ui.xaml.controls.wrapgrid).
+
 ## -xaml-syntax
 
 ```xaml
@@ -28,7 +30,7 @@ Positions child elements sequentially from left to right or top to bottom. When 
 
 WrapGrid can only be used to display items in an [ItemsControl](itemscontrol.md).
 
-The content of a WrapGrid is virtualized. This can improve performance when you work with large data sets. For more info, see [Optimize ListView and GridView](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-gridview-and-listview).
+The content of a WrapGrid is virtualized. This can improve performance when you work with large data sets. For more info, see [Optimize ListView and GridView](/windows/uwp/debug-test-perf/optimize-gridview-and-listview).
 
 In a WrapGrid, elements are arranged in rows or columns that automatically wrap to a new row or column when the [MaximumRowsOrColumns](wrapgrid_maximumrowsorcolumns.md) value is reached. The [Orientation](wrapgrid_orientation.md) property specifies whether the grid adds its items in rows or columns before wrapping.
 
@@ -66,4 +68,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[OrientedVirtualizingPanel](../windows.ui.xaml.controls.primitives/orientedvirtualizingpanel.md), [IScrollSnapPointsInfo](../windows.ui.xaml.controls.primitives/iscrollsnappointsinfo.md), [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md), [ItemsPanelTemplate](itemspaneltemplate.md), [Quickstart: Adding ListView and GridView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780650(v=win.10))
+[OrientedVirtualizingPanel](../windows.ui.xaml.controls.primitives/orientedvirtualizingpanel.md), [IScrollSnapPointsInfo](../windows.ui.xaml.controls.primitives/iscrollsnappointsinfo.md), [ItemsControl.ItemsPanel](itemscontrol_itemspanel.md), [ItemsPanelTemplate](itemspaneltemplate.md), [Quickstart: Adding ListView and GridView controls](/previous-versions/windows/apps/hh780650(v=win.10))

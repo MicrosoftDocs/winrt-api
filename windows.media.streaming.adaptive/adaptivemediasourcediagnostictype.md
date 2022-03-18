@@ -43,14 +43,14 @@ During the playback of live content, the previous manifest did not specify a dur
 
 ## -field ManifestMismatchUponReload:1
 During playback of live content, the new manifest represents a different presentation than the previously downloaded manifest. 
-This will also result in a playback error event for the associated [MediaElement](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.mediaelement) or [MediaPlayer](https://docs.microsoft.com/uwp/api/windows.media.playback.mediaplayer). 
+This will also result in a playback error event for the associated [MediaElement](/uwp/api/windows.ui.xaml.controls.mediaelement) or [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer). 
 
 ## -field BitrateDisabled:7
 The [AdaptiveMediaSource](adaptivemediasource.md) will not attempt to download any more segments for a particular bitrate.   
 This can occur if the web server returns a 410 – Gone response when downloading a manifest update for a particular bitrate if the server implements server side congestion control. It can also occur if the AdaptiveMediaSource is unable to download either the initialization segment or decryption key for a particular bitrate. 
 
 ### -field FatalMediaSourceError:8
-Introduced in Windows.Foundation.UniversalApiContract v5. The **[AdaptiveMediaSource](https://docs.microsoft.com/uwp/api/Windows.Media.Streaming.Adaptive.AdaptiveMediaSource)** passed an error to the media pipeline that caused playback to stop. This diagnostic is not intended to replace media failure events provided by the [MediaPlayer](https://docs.microsoft.com/uwp/api/windows.media.playback.mediaplayer), such as the **[MediaFailed](https://docs.microsoft.com/uwp/api/windows.media.playback.mediaplayer.MediaFailed)** event. Instead, this diagnostic can be useful for correlating errors originating from the media source with potential corruption of error conditions with the content delivery network. 
+Introduced in Windows.Foundation.UniversalApiContract v5. The **[AdaptiveMediaSource](/uwp/api/Windows.Media.Streaming.Adaptive.AdaptiveMediaSource)** passed an error to the media pipeline that caused playback to stop. This diagnostic is not intended to replace media failure events provided by the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer), such as the **[MediaFailed](/uwp/api/windows.media.playback.mediaplayer.MediaFailed)** event. Instead, this diagnostic can be useful for correlating errors originating from the media source with potential corruption of error conditions with the content delivery network. 
 
 ## -remarks
 

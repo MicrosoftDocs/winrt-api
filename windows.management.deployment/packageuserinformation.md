@@ -10,7 +10,7 @@ public class PackageUserInformation : Windows.Management.Deployment.IPackageUser
 # Windows.Management.Deployment.PackageUserInformation
 
 ## -description
-Provides information about the users of an installed package.
+Provides information about the users of an installed [Package](/uwp/api/windows.applicationmodel.package).
 
 ## -remarks
 To enumerate the users who have installed a package, use the [PackageManager.FindUsers](packagemanager_findusers_1161384994.md) method.
@@ -19,4 +19,5 @@ To enumerate the users who have installed a package, use the [PackageManager.Fin
 See the code examples in [PackageManager.FindUsers(String)](packagemanager_findusers_1161384994.md).
 
 ## -see-also
-[Enumerate app packages sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-ee821079), [Enumerate app packages by name and publisher sample](https://code.msdn.microsoft.com/windowsdesktop/Package-Manager-Inventory-fe747b8a), [Packaging apps](https://docs.microsoft.com/windows/uwp/packaging/index), [PackageManager](packagemanager.md)
+
+[Package](/uwp/api/windows.applicationmodel.package),- [Enumerate app packages sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindProvisionedPackages), [Enumerate app packages by name and publisher sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher), [Packaging apps](/windows/uwp/packaging/index), [PackageManager](packagemanager.md)

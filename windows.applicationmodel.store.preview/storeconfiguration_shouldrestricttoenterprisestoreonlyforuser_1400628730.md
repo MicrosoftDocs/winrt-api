@@ -9,15 +9,19 @@ public bool StoreConfiguration.ShouldRestrictToEnterpriseStoreOnlyForUser(User u
 
 # Windows.ApplicationModel.Store.Preview.StoreConfiguration.ShouldRestrictToEnterpriseStoreOnlyForUser
 
+
 ## -description
+
 Determines whether the Microsoft Store for Business is enabled for the specified user.
 
-## -params
+## -parameters
 
-## -param user
+### -param user
+
 A [Windows.System.User](../windows.system/user.md) object that identifies the user for whom you want to determine whether the Microsoft Store for Business is enabled.
 
 ## -returns
+
 True if the Microsoft Store for Business is enabled for the specified user; otherwise false.
 
 ## -remarks
@@ -25,3 +29,4 @@ True if the Microsoft Store for Business is enabled for the specified user; othe
 ## -see-also
 
 ## -examples
+

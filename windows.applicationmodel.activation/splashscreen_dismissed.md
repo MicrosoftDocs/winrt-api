@@ -21,4 +21,4 @@ Avoid increasing the time required to load your app by using this event as a tri
 
 
 ## -see-also
-[Splash screen sample](https://go.microsoft.com/fwlink/p/?linkid=234889), [Quickstart: Adding a splash screen](https://docs.microsoft.com/previous-versions/windows/apps/hh465346(v=win.10)), [How to extend the splash screen](https://docs.microsoft.com/previous-versions/windows/apps/hh700390(v=win.10)), [SplashScreen class](splashscreen.md), [Windows.ApplicationModel.Activation classes](windows_applicationmodel_activation_classes.md)
+[Splash screen sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/SplashScreen), [Quickstart: Adding a splash screen](/previous-versions/windows/apps/hh465346(v=win.10)), [How to extend the splash screen](/previous-versions/windows/apps/hh700390(v=win.10)), [SplashScreen class](splashscreen.md), [Windows.ApplicationModel.Activation classes](windows_applicationmodel_activation_classes.md)

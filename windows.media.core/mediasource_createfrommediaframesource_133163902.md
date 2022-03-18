@@ -21,7 +21,7 @@ The [AdaptiveMediaSource](../windows.media.streaming.adaptive/adaptivemediasourc
 The new media source.
 
 ## -remarks
-For more information on using media frame sources, see [Process media frames with MediaFrameReader](https://docs.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
+For more information on using media frame sources, see [Process media frames with MediaFrameReader](/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader).
 
 ## -see-also
 

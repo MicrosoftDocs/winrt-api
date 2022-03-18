@@ -12,7 +12,7 @@ public class MobileBroadbandDeviceServiceNotificationTrigger : Windows.Applicati
 ## -description
 Represents a trigger that activates when the network sends SIM tool commands. Apps receiving this notification then process the SIM tool commands.
 
-This functionality is only available to mobile operator apps and UWP app given privileged access by mobile network operators. For more information, see [Mobile Broadband: ](https://docs.microsoft.com/windows-hardware/drivers/mobilebroadband/index).
+This functionality is only available to mobile operator apps and UWP app given privileged access by mobile network operators. For more information, see [Mobile Broadband: ](/windows-hardware/drivers/mobilebroadband/index).
 
 ## -remarks
 When this trigger activates, the [IBackgroundTaskInstance.TriggerDetails](ibackgroundtaskinstance_triggerdetails.md) for the background task is a [MobileBroadbandDeviceServiceTriggerDetails](../windows.networking.networkoperators/mobilebroadbanddeviceservicetriggerdetails.md) instance.

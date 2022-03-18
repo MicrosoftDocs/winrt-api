@@ -24,4 +24,4 @@ Use [GameSaveContainer.CreateBlobInfoQuery](gamesavecontainer_createblobinfoquer
 
 ## -see-also
 
-[Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)
+[Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true)

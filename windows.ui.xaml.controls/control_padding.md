@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness Padding { get;  set; }
 ## -description
 Gets or sets the padding inside a control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.Padding](/windows/winui/api/microsoft.ui.xaml.controls.control.padding).
+
 ## -xaml-syntax
 ```xaml
 <control Padding="uniform"/>
@@ -34,9 +36,9 @@ The amount of space between the content of a [Control](control.md) and its [Marg
 ## -remarks
 Each control might apply this property differently based on its visual template. This property only affects a control whose template uses the Padding property as a parameter. On other controls, this property has no effect. For more info about control templates, see the [Template](control_template.md) property.
 
-A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For many controls, margin and padding would typically blend together with the division between them not being apparent in the rendering. For such controls it's typical to specify a [Margin](../windows.ui.xaml/frameworkelement_margin.md) or a [Padding](itemspresenter_padding.md), but not both. For more info about the relationship between margin and padding, see [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
+A related property is [Margin](../windows.ui.xaml/frameworkelement_margin.md) (a property of [FrameworkElement](../windows.ui.xaml/frameworkelement.md)). For many controls, margin and padding would typically blend together with the division between them not being apparent in the rendering. For such controls it's typical to specify a [Margin](../windows.ui.xaml/frameworkelement_margin.md) or a [Padding](itemspresenter_padding.md), but not both. For more info about the relationship between margin and padding, see [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml).
 
 ## -examples
 
 ## -see-also
-[Thickness](../windows.ui.xaml/thickness.md), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding)
+[Thickness](../windows.ui.xaml/thickness.md), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding)

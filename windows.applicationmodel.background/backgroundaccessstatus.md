@@ -13,7 +13,7 @@ public enum Windows.ApplicationModel.Background.BackgroundAccessStatus : int
 
 This enumeration specifies an app's ability to perform background activity.
 
-> Apps must successfully call [BackgroundExecutionManager.RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync) before registering background tasks.
+> Apps must successfully call [BackgroundExecutionManager.RequestAccessAsync](/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync) before registering background tasks.
 
 ## -enum-fields
 
@@ -65,7 +65,7 @@ On devices that have a battery, the user has disabled the app from running in th
 
 On devices that do not have a battery, the settings that allow an app to use background activity are found in the background apps settings. On devices that have a battery, background task settings can be found in the Battery use settings.
 
-Declare the RTC capability in your app's manifest by specifying the **Control channel** background task in the **Declarations** tab. For more information, see [How to set background connectivity options](https://docs.microsoft.com/previous-versions/windows/apps/hh771189(v=win.10)).
+Declare the RTC capability in your app's manifest by specifying the **Control channel** background task in the **Declarations** tab. For more information, see [How to set background connectivity options](/previous-versions/windows/apps/hh771189(v=win.10)).
 
 If all hardware RTC slots are full at the time that the app is added to the lock screen, and if the app has specified **Control channel** in its manifest, together with **Timer** or **Push notification**, it is added to the lock screen, but without RTC capability. The app can then make further requests to be added to the lock screen, which do not present UI to the user. If a hardware slot is open when one such request is made, the app will take that slot.
 
@@ -82,4 +82,4 @@ If all hardware RTC slots are full at the time that the app is added to the lock
 
 ## -see-also
 
-[How to set background connectivity options](https://docs.microsoft.com/previous-versions/windows/apps/hh771189(v=win.10)), [BackgroundExecutionManager.GetAccessStatus](backgroundexecutionmanager_getaccessstatus_125212976.md), [BackgroundExecutionManager.RequestAccessAsync](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync), [Lock screen apps sample](https://go.microsoft.com/fwlink/p/?linkid=239970), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[How to set background connectivity options](/previous-versions/windows/apps/hh771189(v=win.10)), [BackgroundExecutionManager.GetAccessStatus](backgroundexecutionmanager_getaccessstatus_125212976.md), [BackgroundExecutionManager.RequestAccessAsync](/uwp/api/windows.applicationmodel.background.backgroundexecutionmanager.RequestAccessAsync), [Lock screen apps sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/LockScreenApps), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

@@ -20,10 +20,8 @@ This includes:
 ## -remarks
 
 ## -see-also
-- [Windows.UI.Input.Inking](../windows.ui.input.inking/windows_ui_input_inking.md)
-- [Windows.UI.Input.Inking.Core](../windows.ui.input.inking.core/windows_ui_input_inking_core.md)
-- [Windows.UI.Xaml.Controls.InkCanvas](../windows.ui.xaml.controls/windows_ui_xaml_controls_inkcanvas.md)
-- [Windows.UI.Xaml.Controls.InkToolbar](../windows.ui.xaml.controls/windows_ui_xaml_controls_inktoolbar.md)
+
+[Windows.UI.Input.Inking](../windows.ui.input.inking/windows_ui_input_inking.md), [Windows.UI.Input.Inking.Core](../windows.ui.input.inking.core/windows_ui_input_inking_core.md), [Windows.UI.Xaml.Controls.InkCanvas](../windows.ui.xaml.controls/windows_ui_xaml_controls_inkcanvas.md), [Windows.UI.Xaml.Controls.InkToolbar](../windows.ui.xaml.controls/windows_ui_xaml_controls_inktoolbar.md)
 
 ## -examples
 

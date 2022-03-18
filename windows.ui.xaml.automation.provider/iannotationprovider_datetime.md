@@ -12,6 +12,8 @@ public string DateTime { get; }
 ## -description
 Gets the date and time when this annotation was created.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IAnnotationProvider.DateTime](/windows/winui/api/microsoft.ui.xaml.automation.provider.iannotationprovider.datetime).
+
 ## -property-value
 The date and time when this annotation was created.
 

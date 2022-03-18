@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FillProperty { get; }
 ## -description
 Identifies the [Fill](shape_fill.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.FillProperty](/windows/winui/api/microsoft.ui.xaml.shapes.shape.fillproperty).
+
 ## -property-value
 The identifier for the [Fill](shape_fill.md) dependency property.
 

@@ -10,7 +10,7 @@ public Windows.ApplicationModel.Contacts.ContactPhoneKind Kind { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactPhone.Kind
 
 ## -description
-Gets and sets the kind of phone for a contact.
+Gets or sets the kind of phone for a contact.
 
 ## -property-value
 A [ContactPhoneKind](contactphonekind.md)-typed value that indicates the kind of phone.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Brush SelectedPointerOverBackground { get;  set; }
 ## -description
 Gets or sets the brush used to render the background of an item that's selected and has the pointer over it.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.SelectedPointerOverBackground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.selectedpointeroverbackground).
+
 ## -xaml-syntax
 ```xaml
 <GridViewItemPresenter SelectedPointerOverBackground="themeResourceReference"/>
@@ -35,4 +37,4 @@ If you're setting this property as an attribute on a custom [GridViewItemPresent
 ## -examples
 
 ## -see-also
-[XAML theme resources](https://docs.microsoft.com/windows/uwp/controls-and-patterns/xaml-theme-resources)
+[XAML theme resources](/windows/uwp/controls-and-patterns/xaml-theme-resources)

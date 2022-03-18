@@ -12,6 +12,8 @@ public bool YearVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the year selector is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.YearVisible](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.yearvisible).
+
 ## -xaml-syntax
 ```xaml
 <DatePicker YearVisible="bool"/>
@@ -27,4 +29,4 @@ By default, the [DatePicker](datepicker.md) shows [ComboBox](combobox.md) elemen
 ## -examples
 
 ## -see-also
-[DayVisible](datepicker_dayvisible.md), [MonthVisible](datepicker_monthvisible.md), [YearFormat](datepicker_yearformat.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10))
+[DayVisible](datepicker_dayvisible.md), [MonthVisible](datepicker_monthvisible.md), [YearFormat](datepicker_yearformat.md), [Quickstart: Adding a DatePicker](/previous-versions/windows/apps/dn308514(v=win.10))

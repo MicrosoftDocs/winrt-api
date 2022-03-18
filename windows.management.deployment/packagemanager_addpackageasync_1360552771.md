@@ -9,36 +9,46 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.AddPackage
 
 # Windows.Management.Deployment.PackageManager.AddPackageAsync
 
+
 ## -description
-Adds a package and its dependency packages to the specified volume for the current user, using the specified deployment options.
 
-## -params
+Adds a [Package](/uwp/api/windows.applicationmodel.package) and its dependency packages to the specified volume for the current user, using the specified deployment options.
 
-## -param packageUri
+## -parameters
+
+### -param packageUri
+
 The Uri of the source package to add. The URI must follow the file URI scheme (file://) since the only supported URI schemes are local file paths and local network paths.
 
-## -param dependencyPackageUris
+### -param dependencyPackageUris
+
 The Uris of the dependency packages to add. If there are no dependency packages or if the dependency packages are already registered, this parameter can be null.
 
-## -param deploymentOptions
+### -param deploymentOptions
+
 A bitwise combination of enumeration values from the [DeploymentOptions](deploymentoptions.md) enumeration. **ForceApplicationShutdown** and **None** are the only valid options for this method. Specifying any other option results in an E_INVALIDARG return value.
 
-## -param targetVolume
+### -param targetVolume
+
 The volume that the package is added to.
 
-## -param optionalPackageFamilyNames
+### -param optionalPackageFamilyNames
+
 The package family names from the main bundle to be registered.
 
-## -param externalPackageUris
+### -param externalPackageUris
+
 The URIs of the other packages in the main bundle to be registered.
 
 ## -returns
+
 The DeploymentProgress percentage of completion over the entire course of the deployment operation.
 
 ## -remarks
 
 ## -see-also
-[DeploymentOptions](deploymentoptions.md)
+
+[Package](/uwp/api/windows.applicationmodel.package), [DeploymentOptions](deploymentoptions.md)
 
 ## -examples
 

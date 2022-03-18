@@ -25,7 +25,7 @@ The URIs to which the [HttpCookie](httpcookie.md) applies.
 ## -remarks
 The *name* parameter of the [HttpCookie](httpcookie.md) can't be set to **null** (**Nothing** in Visual Basic).
 
-The property should be a token as defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642) and [RFC 6265](https://tools.ietf.org/html/rfc6265).
+The property should be a token as defined in [RFC 2616](https://tools.ietf.org/html/rfc2616) and [RFC 6265](https://tools.ietf.org/html/rfc6265).
 
 The following characters are used as separators and can't be used in the *name* parameter: 
 + left paren ('(')

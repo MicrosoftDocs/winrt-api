@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Thickness Margin { get;  set; }
 ## -description
 Gets or sets the outer margin of a [FrameworkElement](frameworkelement.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.Margin](/windows/winui/api/microsoft.ui.xaml.frameworkelement.margin).
+
 ## -xaml-syntax
 ```xaml
 <frameworkElement Margin="uniform"/>
@@ -61,7 +63,7 @@ A related concept is padding. For an object and its bounding box, the margin is 
 + [TextBlock.Padding](../windows.ui.xaml.controls/textblock_padding.md)
 + [RichTextBlock.Padding](../windows.ui.xaml.controls/richtextblock_padding.md)
 + [ItemsPresenter.Padding](../windows.ui.xaml.controls/itemspresenter_padding.md)
- For more info about the relationship between margin and padding, see [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
+ For more info about the relationship between margin and padding, see [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding) or [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml).
 
 ## -examples
 This example sets Margin in code as part of a larger scenario of creating a UI element at run time, and then setting various layout-related properties. This is often done prior to adding a new element to an existing XAML UI page's object tree. In this case several Margin properties are set using a new [Thickness](thickness.md) created with the uniform-value constructor.
@@ -73,5 +75,5 @@ This example sets Margin in code as part of a larger scenario of creating a UI e
 [!code-vb[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/vbnet/Page.xaml.vb#SnippetGridClassCode)]
 
 ## -see-also
-[Thickness](thickness.md), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Thickness](thickness.md), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)
 4162-1c9c-48f4-8a94-34976fb17079)

@@ -12,6 +12,8 @@ public object DataContext { get;  set; }
 ## -description
 Gets or sets the data context for a [FrameworkElement](frameworkelement.md). A common use of a data context is when a **FrameworkElement** uses the [{Binding}](/windows/uwp/xaml-platform/binding-markup-extension) markup extension and participates in data binding.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.DataContext](/windows/winui/api/microsoft.ui.xaml.frameworkelement.datacontext).
+
 ## -xaml-syntax
 ```xaml
 <frameworkElement DataContext="binding"/>
@@ -30,17 +32,17 @@ The object to use as data context.
 ## -remarks
 *Data context* is a concept where objects can inherit data binding information from successive parent objects in an object relationship hierarchy.
 
-The most important aspect of data context is the data source that is used for data binding. A typical use of DataContext is to set it directly to a data source object. This data source might be an instance of a class such as a business object. Or you can create a data source as an observable collection, so that the data context enables detecting changes in the backing collection. If the data source is defined by a library that is also included in the project, setting a DataContext is often combined with instantiating the data source as a keyed resource in a [ResourceDictionary](resourcedictionary.md), and then setting the DataContext in XAML with a [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension) reference.
+The most important aspect of data context is the data source that is used for data binding. A typical use of DataContext is to set it directly to a data source object. This data source might be an instance of a class such as a business object. Or you can create a data source as an observable collection, so that the data context enables detecting changes in the backing collection. If the data source is defined by a library that is also included in the project, setting a DataContext is often combined with instantiating the data source as a keyed resource in a [ResourceDictionary](resourcedictionary.md), and then setting the DataContext in XAML with a [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension) reference.
 
-Another technique for setting DataContext is to add it to the root of the runtime object tree, as part of app initialization logic, just after calling **InitializeComponent**. This technique is shown in [Data binding overview](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-quickstart).
+Another technique for setting DataContext is to add it to the root of the runtime object tree, as part of app initialization logic, just after calling **InitializeComponent**. This technique is shown in [Data binding overview](/windows/uwp/data-binding/data-binding-quickstart).
 
 In addition to specifying the source, a data context can also store additional characteristics of a binding declaration, such as a path into the data source.
 
 Setting a DataContext is convenient for setting several bindings of different properties on the same object to a shared data context. However, it is valid for a DataContext to be undefined, and for all the necessary binding qualifications to exist in separate binding statements.
 
-How you implement the object data source varies depending on your requirements and your programming language. For more info, see [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth).
+How you implement the object data source varies depending on your requirements and your programming language. For more info, see [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth).
 
-A common scenario for C# and Microsoft Visual Basic data contexts is to use a CLR-defined business object that supports change notification. For a business object, the custom class used as data context typically implements [INotifyPropertyChanged](../windows.ui.xaml.data/inotifypropertychanged.md), so that updates to the data can update a one-way or two-way binding. If the data source is a collection of business objects, it can implement [INotifyCollectionChanged](../windows.ui.xaml.interop/inotifycollectionchanged.md) plus list support ([IList<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1) or [List<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1)), or derive from [ObservableCollection<T>](https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1).
+A common scenario for C# and Microsoft Visual Basic data contexts is to use a CLR-defined business object that supports change notification. For a business object, the custom class used as data context typically implements [INotifyPropertyChanged](../windows.ui.xaml.data/inotifypropertychanged.md), so that updates to the data can update a one-way or two-way binding. If the data source is a collection of business objects, it can implement [INotifyCollectionChanged](../windows.ui.xaml.interop/inotifycollectionchanged.md) plus list support ([IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true) or [List<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true)), or derive from [ObservableCollection<T>](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 This example sets the DataContext directly to an instance of a custom class.
@@ -166,5 +168,4 @@ namespace winrt::MyColorsApp::implementation
 [!code-vb[DataContext](../windows.ui.xaml.controls.primitives/code/Binding_Simple/vbnet/BlankPage.xaml.vb#SnippetDataContext)]
 
 ## -see-also
-[Binding](../windows.ui.xaml.data/binding.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [ObservableCollection<T>](https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1)
-jectModel.ObservableCollection`1)
+[Binding](../windows.ui.xaml.data/binding.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [ObservableCollection<T>](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true)

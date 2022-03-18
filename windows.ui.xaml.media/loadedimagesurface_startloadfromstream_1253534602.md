@@ -9,15 +9,22 @@ public LoadedImageSurface LoadedImageSurface.StartLoadFromStream(IRandomAccessSt
 
 # Windows.UI.Xaml.Media.LoadedImageSurface.StartLoadFromStream
 
+
 ## -description
+
 Loads an image onto a [LoadedImageSurface](loadedimagesurface.md) from the provided [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md) at the natural size
 defined in the image source.
 
-## -params
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.LoadedImageSurface.StartLoadFromStream](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface.startloadfromstream).
+
+## -parameters
+
 ### -param stream
+
 The stream from which the image is loaded.
 
 ## -returns
+
 An instance of [LoadedImageSurface](loadedimagesurface.md) with the image loaded onto its surface.
 
 ## -remarks

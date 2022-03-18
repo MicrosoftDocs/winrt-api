@@ -12,6 +12,8 @@ public bool IsFastForwardEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether a user can fast forward the media.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsFastForwardEnabled](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isfastforwardenabled).
+
 ## -xaml-syntax
 ```xaml
 

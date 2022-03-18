@@ -12,6 +12,8 @@ public AppBarSeparator()
 ## -description
 Initializes a new instance of the [AppBarSeparator](appbarseparator.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.AppBarSeparator.AppBarSeparator](/windows/winui/api/microsoft.ui.xaml.controls.appbarseparator.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -35,4 +35,4 @@ This app has not declared itself toast capable in its package.appxmanifest file.
 ## -examples
 
 ## -see-also
-[TileUpdater.Setting](tileupdater_setting.md), [ToastNotifier.Setting](toastnotifier_setting.md), [App tiles and badges sample](https://go.microsoft.com/fwlink/p/?linkid=231469), [Toast notifications sample](https://go.microsoft.com/fwlink/p/?linkid=231503)
+[TileUpdater.Setting](tileupdater_setting.md), [ToastNotifier.Setting](toastnotifier_setting.md), [App tiles and badges sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/App%20tiles%20and%20badges%20sample), [Toast notifications sample](/samples/microsoft/windows-universal-samples/notifications/)

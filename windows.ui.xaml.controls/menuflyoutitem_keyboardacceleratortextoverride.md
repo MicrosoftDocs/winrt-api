@@ -16,6 +16,8 @@ Gets or sets a string that overrides the default key combination string associat
 
 *Example of a menu showing keyboard accelerators for various menu items*
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem.KeyboardAcceleratorTextOverride](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem.keyboardacceleratortextoverride).
+
 ## -property-value
 The string to replace the default key combination string. The default is null.
 
@@ -30,7 +32,7 @@ The override text is not be presented if the system cannot detect an attached ke
 
 ### Version compatibility
 
-The KeyboardAcceleratorTextOverride property is not available prior to Windows 10, version 1803. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+The KeyboardAcceleratorTextOverride property is not available prior to Windows 10, version 1803. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code).
 
 To avoid exceptions when your app runs on previous versions of Windows 10, do not set this property in XAML or use it without performing a runtime check. This example shows how to use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you set it.
 
@@ -70,7 +72,7 @@ private void Button_Loaded(object sender, RoutedEventArgs e)
 }
 ```
 ## -see-also
-[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
+[Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

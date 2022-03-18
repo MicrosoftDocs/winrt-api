@@ -12,6 +12,8 @@ public class ColorAnimation : Windows.UI.Xaml.Media.Animation.Timeline, Windows.
 ## -description
 Animates the value of a [Color](../windows.ui/color.md) property between two target values using linear interpolation over a specified [Duration](timeline_duration.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ColorAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimation).
+
 ## -xaml-syntax
 ```xaml
 <ColorAnimation .../>
@@ -23,7 +25,7 @@ Use ColorAnimation to animate the property value of any dependency property that
 
 Linear interpolation for a [Color](../windows.ui/color.md) means that each of the **ARGB** values is treated as a byte and the interpolation is simply a mathematical operation. You get best results from color interpolation if at least one of the **RGB** components is the same or close to the same in both the starting value and ending value.
 
-You usually need to use indirect property targeting in order to target a sub-property of another object that's the value of a property on the target. This is because very few properties that display color information in UI elements are actually of type [Color](../windows.ui/color.md). Most are instead of type [Brush](../windows.ui.xaml.media/brush.md). To use ColorAnimation on UI elements, you typically are targeting the [Color](../windows.ui.xaml.media/solidcolorbrush_color.md) property of a [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) that's the sub-property value. Syntax for this is shown in the XAML example in the "Examples" section. For more info on indirect property targeting and other storyboarded animation concepts, see [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations) or [Property-path syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/property-path-syntax).
+You usually need to use indirect property targeting in order to target a sub-property of another object that's the value of a property on the target. This is because very few properties that display color information in UI elements are actually of type [Color](../windows.ui/color.md). Most are instead of type [Brush](../windows.ui.xaml.media/brush.md). To use ColorAnimation on UI elements, you typically are targeting the [Color](../windows.ui.xaml.media/solidcolorbrush_color.md) property of a [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md) that's the sub-property value. Syntax for this is shown in the XAML example in the "Examples" section. For more info on indirect property targeting and other storyboarded animation concepts, see [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations) or [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax).
 
 A ColorAnimation typically has at least one of the [From](coloranimation_from.md), [By](coloranimation_by.md) or [To](coloranimation_to.md) properties set, but never all three.
 + **From only:** The animation progresses from the value specified by the [From](coloranimation_from.md) property to the base value of the property being animated.
@@ -33,7 +35,7 @@ A ColorAnimation typically has at least one of the [From](coloranimation_from.md
 + **By only:** The animation progresses from the base value of the property being animated or a previous animation's output value to the sum of that value and the value specified by the [By](coloranimation_by.md) property.
 
 
-The [From](coloranimation_from.md), [By](coloranimation_by.md) and [To](coloranimation_to.md) properties of a ColorAnimation aren't strictly a [Color](../windows.ui/color.md). Instead these are a [Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1) for [Color](../windows.ui/color.md). The default value for these is **null**, not an uninitialized structure. That **null** value is how the animation system distinguishes that you haven't specifically set a value. Visual C++ component extensions (C++/CX) doesn't have a [Nullable](https://docs.microsoft.com/dotnet/api/system.nullable-1) type, so it uses [IReference](../windows.foundation/ireference_1.md) instead.
+The [From](coloranimation_from.md), [By](coloranimation_by.md) and [To](coloranimation_to.md) properties of a ColorAnimation aren't strictly a [Color](../windows.ui/color.md). Instead these are a [Nullable](/dotnet/api/system.nullable-1?view=dotnet-uwp-10.0&preserve-view=true) for [Color](../windows.ui/color.md). The default value for these is **null**, not an uninitialized structure. That **null** value is how the animation system distinguishes that you haven't specifically set a value. Visual C++ component extensions (C++/CX) doesn't have a [Nullable](/dotnet/api/system.nullable-1?view=dotnet-uwp-10.0&preserve-view=true) type, so it uses [IReference](../windows.foundation/ireference_1.md) instead.
 
 ## -examples
 The following example shows how to use ColorAnimation to animate the background color of a [StackPanel](../windows.ui.xaml.controls/stackpanel.md).
@@ -69,5 +71,4 @@ Alternatively, you could explicitly create the [SolidColorBrush](../windows.ui.x
 [!code-vb[Coloranimation_direct_targeting_cs](../windows.ui.xaml.media.animation/code/coloranimation_direct_targeting/vbnet/Page.xaml.vb#SnippetColoranimation_direct_targeting_cs)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [XAML animation sample](https://go.microsoft.com/fwlink/p/?linkid=238571), [Timeline](timeline.md), [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md), [LinearGradientBrush](../windows.ui.xaml.media/lineargradientbrush.md), [Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md)
-[LinearGradientBrush](../windows.ui.xaml.media/lineargradientbrush.md), [Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md)
+[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [XAML animation sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20animation%20library%20sample), [Timeline](timeline.md), [SolidColorBrush](../windows.ui.xaml.media/solidcolorbrush.md), [LinearGradientBrush](../windows.ui.xaml.media/lineargradientbrush.md), [Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md), [LinearGradientBrush](../windows.ui.xaml.media/lineargradientbrush.md), [Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md)

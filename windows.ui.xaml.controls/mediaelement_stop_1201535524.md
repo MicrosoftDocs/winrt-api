@@ -12,6 +12,8 @@ public void Stop()
 ## -description
 Stops and resets media to be played from the beginning.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaElement.Stop](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.stop).
+
 ## -remarks
 Any calls to [Play](mediaelement_play_848564459.md), [Pause](mediaelement_pause_1953642114.md), and Stop methods that occur before the [MediaOpened](mediaelement_mediaopened.md) event is raised are ignored.
 

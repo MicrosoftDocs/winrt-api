@@ -17,10 +17,9 @@ Provides information about a [FileUpdateRequested](cachedfileupdaterui_fileupdat
 If your app participates in the Cached File Updater contract, a FileUpdateRequestedEventArgs is passed to your app's [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event handler when the event fires. Use the [FileUpdateRequestedEventArgs.Request](fileupdaterequestedeventargs_request.md) property to get details about the requested update.
 
 ## -examples
-The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event.
+The [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts) demonstrates how to respond to a [FileUpdateRequested](cachedfileupdaterui_fileupdaterequested.md) event.
 
 ```csharp
-
 // Event handler
 void CachedFileUpdaterUI_FileUpdateRequested(CachedFileUpdaterUI sender, FileUpdateRequestedEventArgs args)
 {
@@ -45,33 +44,6 @@ void CachedFileUpdaterUI_FileUpdateRequested(CachedFileUpdaterUI sender, FileUpd
 cachedFileUpdaterUI.FileUpdateRequested += CachedFileUpdaterUI_FileUpdateRequested;
 ```
 
-```javascript
-
-// Event handler
-function onFileUpdateRequest(e) {
-    fileUpdateRequest = e.request;
-    fileUpdateRequestDeferral = fileUpdateRequest.getDeferral();
-
-    switch (cachedFileUpdaterUI.uiStatus) {
-        case Windows.Storage.Provider.UIStatus.hidden:
-            fileUpdateRequest.status = Windows.Storage.Provider.FileUpdateStatus.userInputNeeded;
-            fileUpdateRequestDeferral.complete();
-            break;
-        case Windows.Storage.Provider.UIStatus.visible:
-            var url = scenarios[0].url;
-            WinJS.Navigation.navigate(url, cachedFileUpdaterUI);
-            break;
-        case Windows.Storage.Provider.UIStatus.unavailable:
-            fileUpdateRequest.status = Windows.Storage.Provider.FileUpdateStatus.failed;
-            fileUpdateRequestDeferral.complete();
-            break;
-    }
-}
-
-// Register for the event
-cachedFileUpdaterUI.addEventListener("fileupdaterequested", onFileUpdateRequest);
-```
-
-Both `args` and `e` (in C# and JS respectively) contain a FileUpdateRequestedEventArgs object.
+`args` contains a [FileUpdateRequestedEventArgs](fileupdaterequestedeventargs.md) object.
 
 ## -see-also

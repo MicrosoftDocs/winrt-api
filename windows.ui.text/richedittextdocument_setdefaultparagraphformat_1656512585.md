@@ -12,6 +12,8 @@ public void RichEditTextDocument.SetDefaultParagraphFormat(ITextParagraphFormat 
 ## -description
 Sets the default paragraph formatting attributes of the document.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.SetDefaultParagraphFormat](/windows/winui/api/microsoft.ui.text.richedittextdocument.setdefaultparagraphformat).
+
 ## -parameters
 
 ### -param value

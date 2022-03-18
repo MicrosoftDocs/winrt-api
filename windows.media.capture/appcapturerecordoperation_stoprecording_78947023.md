@@ -9,10 +9,10 @@ public void AppCaptureRecordOperation.StopRecording()
 
 # Windows.Media.Capture.AppCaptureRecordOperation.StopRecording
 
-## -description
-Stops the app capture record operation.
 
-## -params
+## -description
+
+Stops the app capture record operation.
 
 ## -remarks
 
@@ -20,7 +20,7 @@ Stops the app capture record operation.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appCaptureSettings
+

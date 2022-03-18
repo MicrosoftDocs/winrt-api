@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DayOfWeekFormatProperty { get; }
 ## -description
 Identifies the [DayOfWeekFormat](calendardatepicker_dayofweekformat.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.DayOfWeekFormatProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.dayofweekformatproperty).
+
 ## -property-value
 The identifier for the [DayOfWeekFormat](calendardatepicker_dayofweekformat.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [DayOfWeekFormat](calendardatepicker_dayofweekformat.md) 
 ## -examples
 
 ## -see-also
-[DayOfWeekFormat](calendardatepicker_dayofweekformat.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DayOfWeekFormat](calendardatepicker_dayofweekformat.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

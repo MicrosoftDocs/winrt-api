@@ -12,6 +12,8 @@ public CompositionDrawingSurface CompositionGraphicsDevice.CreateDrawingSurface2
 ## -description
 Creates an instance of CompositionDrawingSurface.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionGraphicsDevice.CreateDrawingSurface2](/windows/winui/api/microsoft.ui.composition.compositiongraphicsdevice.createdrawingsurface2).
+
 ## -parameters
 
 ### -param sizePixels

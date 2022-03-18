@@ -12,6 +12,8 @@ public float MaxScale { get;  set; }
 ## -description
 The maximum scale for the [InteractionTracker](interactiontracker.md).
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTracker.MaxScale](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.maxscale).
+
 ## -property-value
 The maximum scale for the [InteractionTracker](interactiontracker.md).
 

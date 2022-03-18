@@ -12,6 +12,8 @@ public void Append(Windows.UI.Xaml.Controls.RowDefinition value)
 ## -description
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RowDefinitionCollection.Append](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinitioncollection.append).
+
 ## -parameters
 ### -param value
 The new item to add.

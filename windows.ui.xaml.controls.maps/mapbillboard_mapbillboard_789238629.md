@@ -9,12 +9,15 @@ public MapBillboard.MapBillboard(MapCamera camera)
 
 # Windows.UI.Xaml.Controls.Maps.MapBillboard.MapBillboard
 
+
 ## -description
+
 Initializes a new instance of the [MapBillboard](mapbillboard.md) class.
 
-## -params
+## -parameters
 
-## -param camera
+### -param camera
+
 The [MapCamera](mapcamera.md) settings that define the current position of the reference camera.
 
 ## -remarks
@@ -22,3 +25,4 @@ The [MapCamera](mapcamera.md) settings that define the current position of the r
 ## -see-also
 
 ## -examples
+

@@ -12,6 +12,8 @@ public void SetMatrix3x2Parameter(System.String key, Windows.Foundation.Numerics
 ## -description
 Sets a [Matrix3x2](../windows.foundation.numerics/matrix3x2.md) value parameter for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe_1955314135.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionAnimation.SetMatrix3x2Parameter](/windows/winui/api/microsoft.ui.composition.compositionanimation.setmatrix3x2parameter).
+
 ## -parameters
 ### -param key
 The name of the parameter to set.

@@ -12,6 +12,8 @@ public string TargetName { get;  set; }
 ## -description
 Gets or sets the reference name of the control element being targeted.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SwipeHintThemeAnimation.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.swipehintthemeanimation.targetname).
+
 ## -xaml-syntax
 ```xaml
 <SwipeHintThemeAnimation TargetName="nameString" />
@@ -26,4 +28,4 @@ The reference name. This is typically the **x:Name** of the relevant element as 
 ## -examples
 
 ## -see-also
-[Animating swipe gestures](https://docs.microsoft.com/previous-versions/windows/apps/jj649435(v=win.10))
+[Animating swipe gestures](/previous-versions/windows/apps/jj649435(v=win.10))

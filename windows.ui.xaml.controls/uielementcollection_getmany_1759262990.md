@@ -12,6 +12,8 @@ public uint GetMany(System.UInt32 startIndex, Windows.UI.Xaml.UIElement[] items)
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.UIElementCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.controls.uielementcollection.getmany).
+
 ## -parameters
 ### -param startIndex
 The index from which to start retrieval.
@@ -23,7 +25,7 @@ Provides the destination for the result. Size the initial array size as a "capac
 The number of items retrieved.
 
 ## -remarks
-If you are programming using C# or Microsoft Visual Basic, see [CopyTo](/dotnet/api/system.collections.generic.icollection-1.copyto).
+If you are programming using C# or Microsoft Visual Basic, see [CopyTo](/dotnet/api/system.collections.generic.icollection-1.copyto?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 

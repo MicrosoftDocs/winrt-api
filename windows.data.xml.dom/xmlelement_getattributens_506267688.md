@@ -26,4 +26,12 @@ The string value of the attribute.
 
 ## -examples
 
+```csharp
+var width = element.GetAttributeNS("http://www.w3.org/2000/svg", "width");
+```
+
+```cppwinrt
+auto width = element.GetAttributeNS(winrt::box_value(L"http://www.w3.org/2000/svg"), L"width");
+```
+
 ## -see-also

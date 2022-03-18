@@ -12,6 +12,8 @@ public class LineSegment : Windows.UI.Xaml.Media.PathSegment, Windows.UI.Xaml.Me
 ## -description
 Represents a line drawn between two points, which can be part of a [PathFigure](pathfigure.md) within [Path](../windows.ui.xaml.shapes/path.md) data.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.LineSegment](/windows/winui/api/microsoft.ui.xaml.media.linesegment).
+
 ## -xaml-syntax
 ```xaml
 <LineSegment .../>
@@ -28,4 +30,4 @@ This example creates a simple [PathGeometry](pathgeometry.md) made up of a singl
 [!code-xaml[GeometryOvw5](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw5.xaml#SnippetGeometryOvw5)]
 
 ## -see-also
-[PathSegment](pathsegment.md), [Path](../windows.ui.xaml.shapes/path.md), [PathGeometry](pathgeometry.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[PathSegment](pathsegment.md), [Path](../windows.ui.xaml.shapes/path.md), [PathGeometry](pathgeometry.md), [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample), [Draw shapes](/windows/uwp/graphics/drawing-shapes)

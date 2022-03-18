@@ -13,6 +13,8 @@ public Rect HintRect { get; }
 ## -description
 Gets the bounding rectangle of the element in the desktop application that is losing focus (that is, the element that had focus before the [DesktopWindowXamlSource](desktopwindowxamlsource.md) received focus).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Hosting.XamlSourceFocusNavigationRequest.HintRect](/windows/winui/api/microsoft.ui.xaml.hosting.xamlsourcefocusnavigationrequest.hintrect).
+
 ## -property-value
 The bounding rectangle that is losing focus.
 

@@ -38,10 +38,10 @@ A UINT16 value specifying the max size of the frame defined by the VPN protocol 
 Reserved.
 
 ### -param mainOuterTunnelTransport
-An **IInspectable** object for socket transport. This object can be a **Windows.Networking.StreamSocket**, a **Windows.Networking.WebStreamSocket**, or a **Windows.NetworkingDatagramSocket**. This socket will control the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data. The socket must be unconnected at the point of the call.
+An **IInspectable** object for socket transport. This object can be a [Windows.Networking.Sockets.DatagramSocket](/uwp/api/windows.networking.sockets.datagramsocket) or a [Windows.Networking.Sockets.StreamSocket](/uwp/api/windows.networking.sockets.streamsocket). This socket will control the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data. The socket must be unconnected at the point of the call.
 
 ### -param optionalOuterTunnelTransport
-An optional **IInspectable** object for socket transport. This object can be a **Windows.Networking.StreamSocket**, a **Windows.Networking.WebStreamSocket**, or a **Windows.NetworkingDatagramSocket**. This socket will control the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data.
+An optional **IInspectable** object for socket transport. This object can be a [Windows.Networking.Sockets.DatagramSocket](/uwp/api/windows.networking.sockets.datagramsocket) or a [Windows.Networking.Sockets.StreamSocket](/uwp/api/windows.networking.sockets.streamsocket). This socket will control the connection to the VPN server and will be used to send encapsulated IP packets and receive encapsulated data.
 
 ### -param assignedTrafficFilters
 A **VpnTrafficFilterAssignment** object, which allows the specification of traffic filters to a VPN channel.

@@ -13,6 +13,8 @@ public float Rotation { get;  set; }
 ## -description
 Gets or sets the angle of clockwise rotation, in degrees. Rotates relative to the RotationAxis and the CenterPoint. Affects the rendering position of the element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Rotation](/windows/winui/api/microsoft.ui.xaml.uielement.rotation).
+
 ## -property-value
 
 The angle of clockwise rotation, in degrees.

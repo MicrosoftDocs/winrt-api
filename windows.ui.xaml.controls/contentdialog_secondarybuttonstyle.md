@@ -12,6 +12,8 @@ public Style SecondaryButtonStyle { get;  set; }
 ## -description
 Gets or sets the [Style](./../windows.ui.xaml/style.md) to apply to the dialog's secondary button. 
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.SecondaryButtonStyle](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.secondarybuttonstyle).
+
 ## -xaml-syntax
 ```xaml
 <contentDialog CloseButtonStyle="{StaticResource styleResourceKey}"//>

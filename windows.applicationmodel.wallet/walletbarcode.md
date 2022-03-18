@@ -10,6 +10,9 @@ public class WalletBarcode : Windows.ApplicationModel.Wallet.IWalletBarcode
 # Windows.ApplicationModel.Wallet.WalletBarcode
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Represents a bar code assigned to a wallet item.
 
 ## -remarks

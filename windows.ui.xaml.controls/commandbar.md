@@ -13,6 +13,8 @@ public class CommandBar : Windows.UI.Xaml.Controls.AppBar, Windows.UI.Xaml.Contr
 
 Represents a specialized app bar that provides layout for [AppBarButton](appbarbutton.md) and related command elements.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CommandBar](/windows/winui/api/microsoft.ui.xaml.controls.commandbar).
+
 ## -xaml-syntax
 
 ```xaml
@@ -48,6 +50,8 @@ The CommandBar is divided into 4 main areas:
 + The overflow menu is shown only when the CommandBar is open and contains secondary commands.
 
 The layout is reversed when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is [RightToLeft](../windows.ui.xaml/flowdirection.md).
+
+Assigning an access key to CommandBar will place the key tip over the "More" button without changing the scope of the access keys.
 
 ### Content and commands
 
@@ -89,13 +93,13 @@ After opening the CommandBar, if the user interacts with the app anywhere outsid
 
 ### Placement
 
-You can place a CommandBar inline with your app content, anywhere in your XAML. If the CommandBar must remain visible to a user when the touch keyboard, or Soft Input Panel (SIP), appears then you can assign it to the [BottomAppBar](page_bottomappbar.md) property of a [Page](page.md) and it will move to remain visible when the Soft Input Panel (SIP) is present. Otherwise, you should place it inline and positioned relative to your app content. Where you place the CommandBar will influence things like whether you make it sticky, or use the minimal mode when it's closed. For more info and guidance, see [Guidelines for command bars](https://docs.microsoft.com/windows/uwp/controls-and-patterns/app-bars).
+You can place a CommandBar inline with your app content, anywhere in your XAML. If the CommandBar must remain visible to a user when the touch keyboard, or Soft Input Panel (SIP), appears then you can assign it to the [BottomAppBar](page_bottomappbar.md) property of a [Page](page.md) and it will move to remain visible when the Soft Input Panel (SIP) is present. Otherwise, you should place it inline and positioned relative to your app content. Where you place the CommandBar will influence things like whether you make it sticky, or use the minimal mode when it's closed. For more info and guidance, see [Guidelines for command bars](/windows/uwp/controls-and-patterns/app-bars).
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](/windows/uwp/controls-and-patterns/styling-controls) article.
 
 This table shows the resources used by the CommandBar control.
 
@@ -155,11 +159,11 @@ This example creates the command bar shown in Remarks.
     </CommandBar.SecondaryCommands>
 
     <CommandBar.Content>
-        <TextBlock Text="Now playing..." Margin="12,14"/>
+        <TextBlock Text="Now playing..." Margin="12,8"/>
     </CommandBar.Content>
 </CommandBar>
 ```
 
 ## -see-also
 
-[Guidelines for command bars](https://docs.microsoft.com/windows/uwp/controls-and-patterns/app-bars), [CommandBar styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [Commanding sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620019)
+[Guidelines for command bars](/windows/uwp/controls-and-patterns/app-bars), [CommandBar styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [Commanding sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCommanding)

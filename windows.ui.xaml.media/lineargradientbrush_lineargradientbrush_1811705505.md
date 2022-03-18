@@ -12,12 +12,14 @@ public LinearGradientBrush(Windows.UI.Xaml.Media.GradientStopCollection gradient
 ## -description
 Initializes a new instance of the [LinearGradientBrush](lineargradientbrush.md) class that has the specified [GradientStopCollection](gradientstopcollection.md) and angle.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.LinearGradientBrush.LinearGradientBrush](/windows/winui/api/microsoft.ui.xaml.media.lineargradientbrush.#ctor).
+
 ## -parameters
 ### -param gradientStopCollection
 The [GradientStops](gradientbrush_gradientstops.md) to set on this brush.
 
 ### -param angle
-A [System.Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) that represents the angle, in degrees, of the gradient. A value of 0 creates a horizontal gradient, and a value of 90 creates a vertical gradient. Negative values are permitted, as are values over 360 (which are treated as **mod** 360).
+A [System.Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) that represents the angle, in degrees, of the gradient. A value of 0 creates a horizontal gradient, and a value of 90 creates a vertical gradient. Negative values are permitted, as are values over 360 (which are treated as **mod** 360).
 
 ## -remarks
 

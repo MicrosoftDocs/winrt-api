@@ -13,6 +13,8 @@ public class AutoSuggestBox : Windows.UI.Xaml.Controls.ItemsControl, Windows.UI.
 
 Represents a text control that makes suggestions to users as they enter text using a keyboard or pen (using ink and handwriting recognition). The app is notified when text has been changed by the user and is responsible for providing relevant suggestions for this control to display.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.AutoSuggestBox](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox).
+
 ## -xaml-syntax
 
 ```xaml
@@ -75,7 +77,7 @@ If you are using an assistive technology, such as [Narrator](https://support.mic
 + Know how many suggestions are available
 + Be able to move Narrator focus to the list
 + Be able to Navigate through a suggestion with all other reading modes
-See [Auto-suggest accessibility](https://docs.microsoft.com/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility) for more information.
+See [Auto-suggest accessibility](/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility) for more information.
 
 ## Pen input
 
@@ -99,13 +101,13 @@ You can configure the handwriting view of the AutoSuggestBox through its TextBox
 
 <img src="images/controls/handwritingview-inksuggestion1.gif" alt="Text box with ink and suggestions" />
 
-For more info, see [Text input with the handwriting view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-handwriting-view).
+For more info, see [Text input with the handwriting view](/windows/uwp/design/controls-and-patterns/text-handwriting-view).
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](/windows/uwp/controls-and-patterns/styling-controls) article.
 
 This table shows the resources used by the AutoSuggestBox control. Resources that start with "TextControl" are shared by [TextBox](textbox.md), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), and AutoSuggestBox.
 
@@ -159,7 +161,7 @@ This table shows the resources used by the AutoSuggestBox control. Resources tha
 > + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt)
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
-To see a complete working example of AutoSuggestBox, see the [AutoSuggestBox migration sample](https://go.microsoft.com/fwlink/p/?LinkId=619996&amp;amp;clcid=0x409).
+To see a complete working example of AutoSuggestBox, see the [AutoSuggestBox migration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox?amp;amp;clcid=0x409).
 
 Here is a simple AutoSuggestBox with the required event handlers.
 
@@ -206,4 +208,4 @@ private void AutoSuggestBox_QuerySubmitted(AutoSuggestBox sender, AutoSuggestBox
 
 
 ## -see-also
-[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [AutoSuggestBox styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [AutoSuggestBox migration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619996), [Guidelines for auto-suggest boxes](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/auto-suggest-box), [Search and find-in-page](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/search)
+[ItemsControl](itemscontrol.md), [IItemContainerMapping](iitemcontainermapping.md), [AutoSuggestBox styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [AutoSuggestBox migration sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox), [Guidelines for auto-suggest boxes](/windows/uwp/design/controls-and-patterns/auto-suggest-box), [Search and find-in-page](/windows/uwp/design/controls-and-patterns/search)

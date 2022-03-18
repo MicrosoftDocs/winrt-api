@@ -12,6 +12,8 @@ public double ActualWidth { get; }
 ## -description
 Gets the rendered width of a [FrameworkElement](frameworkelement.md). See Remarks.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.ActualWidth](/windows/winui/api/microsoft.ui.xaml.frameworkelement.actualwidth).
+
 ## -property-value
 The width, in pixels, of the object. The default is 0. The default might be encountered if the object has not been loaded and hasn't yet been involved in a layout pass that renders the UI.
 
@@ -19,7 +21,7 @@ The width, in pixels, of the object. The default is 0. The default might be enco
 > [!NOTE]
 > Although it has an [ActualWidthProperty](frameworkelement_actualwidthproperty.md) backing field, ActualWidth does not raise property change notifications and it should be thought of as a regular CLR property and not a dependency property.
 
-ActualWidth is a calculated property. The calculations are a result of a layout pass, where the object is sized in layout according to the logic of its successive layout parents. For more info see [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
+ActualWidth is a calculated property. The calculations are a result of a layout pass, where the object is sized in layout according to the logic of its successive layout parents. For more info see [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml).
 
 
 <!--BUG this is a terrible formoreinfo. Need meaty stuff about how layout actually works.-->

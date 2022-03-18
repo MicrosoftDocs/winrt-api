@@ -12,6 +12,8 @@ public string AccessKey { get;  set; }
 ## -description
 Gets or sets the access key for this element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.AccessKey](/windows/winui/api/microsoft.ui.xaml.documents.textelement.accesskey).
+
 ## -property-value
 The access key for this element.
 

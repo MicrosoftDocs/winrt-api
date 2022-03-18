@@ -13,6 +13,8 @@ public DependencyProperty IsTextTrimmedProperty { get; }
 
 Identifies the IsTextTrimmed dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.IsTextTrimmedProperty](/windows/winui/api/microsoft.ui.xaml.controls.textblock.istexttrimmedproperty).
+
 ## -property-value
 
 The identifier for the IsTextTrimmed dependency property.

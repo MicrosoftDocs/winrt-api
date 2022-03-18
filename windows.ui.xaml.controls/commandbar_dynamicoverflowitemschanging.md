@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler DynamicOverflowItemsChanging<W
 ## -description
 Occurs when items move into or out of the overflow menu.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.CommandBar.DynamicOverflowItemsChanging](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.dynamicoverflowitemschanging).
+
 ## -xaml-syntax
 ```xaml
 <CommandBar DynamicOverflowItemsChanging="eventhandler"/>
@@ -27,7 +29,7 @@ Dynamic overflow affects only the UI presentation of the commands, it doesn’t 
 
 ### Version compatibility
 
-The [IsDynamicOverflowEnabled](commandbar_isdynamicoverflowenabled.md) event is not available prior to Windows 10, version 1607. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+The [IsDynamicOverflowEnabled](commandbar_isdynamicoverflowenabled.md) event is not available prior to Windows 10, version 1607. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code).
 
 > [!NOTE]
 > Dynamic overflow is available when your app is compiled for Windows 10, version 1607 and running on version 1607 (or later). Dynamic overflow is not available when your app is compiled for a previous version or is running on a previous version.
@@ -56,4 +58,4 @@ private void CommandBar_Loaded(object sender, RoutedEventArgs e)
 ## -examples
 
 ## -see-also
-[DynamicOverflowItemsChangingEventArgs](dynamicoverflowitemschangingeventargs.md), [App bar and command bar](https://docs.microsoft.com/windows/uwp/controls-and-patterns/app-bars)
+[DynamicOverflowItemsChangingEventArgs](dynamicoverflowitemschangingeventargs.md), [App bar and command bar](/windows/uwp/controls-and-patterns/app-bars)

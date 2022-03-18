@@ -22,4 +22,4 @@ Bandwidth information for network data transfer on a [MessageWebSocket](messagew
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)), [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)), [BandwidthStatistics](bandwidthstatistics.md), [MessageWebSocket](messagewebsocket.md)
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)), [BandwidthStatistics](bandwidthstatistics.md), [MessageWebSocket](messagewebsocket.md)

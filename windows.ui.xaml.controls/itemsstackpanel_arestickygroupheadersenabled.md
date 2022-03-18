@@ -12,6 +12,8 @@ public bool AreStickyGroupHeadersEnabled { get;  set; }
 ## -description
 Gets or sets a value that specifies whether a group header moves with the group when the group is panned vertically.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsStackPanel.AreStickyGroupHeadersEnabled](/windows/winui/api/microsoft.ui.xaml.controls.itemsstackpanel.arestickygroupheadersenabled).
+
 ## -property-value
 **true** if the group header moves with the group when the group is panned vertically; otherwise, **false**. The default is **true**.
 

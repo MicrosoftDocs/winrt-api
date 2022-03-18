@@ -12,15 +12,17 @@ public bool IsAnimatedBitmap { get; }
 ## -description
 Gets a value that indicates whether an image is animated.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.IsAnimatedBitmap](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.isanimatedbitmap).
+
 ## -property-value
 **true** if the image is animated; otherwise, **false**.
 
 ## -remarks
-Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.controls/image.md) element supports animated GIF images. When you use a [BitmapImage](bitmapimage.md) as the image [Source](../windows.ui.xaml.controls/image_source.md), you can access [BitmapImage](bitmapimage.md)  API to control playback of the animated GIF image. For more info, see the 'Animated images' section of the [BitmapImage](bitmapimage.md) class Remarks and the [Animated GIF playback sample](https://go.microsoft.com/fwlink/p/?LinkId=624046).
+Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.controls/image.md) element supports animated GIF images. When you use a [BitmapImage](bitmapimage.md) as the image [Source](../windows.ui.xaml.controls/image_source.md), you can access [BitmapImage](bitmapimage.md)  API to control playback of the animated GIF image. For more info, see the 'Animated images' section of the [BitmapImage](bitmapimage.md) class Remarks and the [Animated GIF playback sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAnimatedGif).
 
 ### Compatibility notes
 
-If your app runs on releases of Windows 10 prior to version 1607, you must use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you use it. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+If your app runs on releases of Windows 10 prior to version 1607, you must use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you use it. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](/windows/uwp/debug-test-perf/version-adaptive-code).
 
 ## -examples
 This example shows how to use an animated GIF. A button lets the user start or stop the animation. The IsAnimatedBitmap property is checked to determine whether the button is shown or hidden.

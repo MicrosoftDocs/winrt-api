@@ -44,8 +44,14 @@ Specifies an IEEE 802.11i RSNA algorithm that uses PSK. IEEE 802.1X port authori
 ### -field Ihv:9
 Specifies an authentication type defined by an independent hardware vendor (IHV).
 
+### -field Wpa3:10
+Specifies a Wi-Fi Protected Access 3 (WPA3) algorithm. WPA3 is an encryption security standard for enterprise users. It offers the equivalent of 192-bit cryptographic strength, providing additional protections for networks transmitting sensitive data.
+
 ### -field Wpa3Sae:11
 Specifies a Wi-Fi Protected Access 3 Simultaneous Authentication of Equals (WPA3 SAE) algorithm. WPA3 SAE is the consumer version of WPA3. Simultaneous Authentication of Equals (SAE) is a secure key establishment protocol between devices; it provides synchronous authentication, and stronger protections for users against password-guessing attempts by third parties.
+
+### -field Owe:12
+Specifies an opportunistic wireless encryption (OWE) algorithm. OWE provides opportunistic encryption over 802.11 wireless, where cipher keys are dynamically derived through a Diffie-Hellman key exchange; enabling data protection without authentication.
 
 ## -remarks
 
@@ -55,6 +61,7 @@ Specifies a Wi-Fi Protected Access 3 Simultaneous Authentication of Equals (WPA3
 | -- | -- | -- |
 | 1903 | 18362 | Wpa3 |
 | 1903 | 18362 | Wpa3Sae |
+| 2004 | 19041 | Owe |
 
 ## -examples
 

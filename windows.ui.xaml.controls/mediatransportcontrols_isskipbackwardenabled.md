@@ -12,6 +12,8 @@ public bool IsSkipBackwardEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether a user can skip backward in the media.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsSkipBackwardEnabled](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isskipbackwardenabled).
+
 ## -xaml-syntax
 ```xaml
 

@@ -12,6 +12,8 @@ public void DispatcherQueueTimer.Start()
 ## -description
 Starts the timer.
 
+Equivalent WinUI method: [Microsoft.System.DispatcherQueueTimer.Start](/windows/winui/api/microsoft.system.dispatcherqueuetimer.start).
+
 ## -remarks
 
 ## -see-also

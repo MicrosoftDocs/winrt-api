@@ -12,6 +12,8 @@ public bool IsNextTrackButtonVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the next track button is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsNextTrackButtonVisible](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isnexttrackbuttonvisible).
+
 ## -xaml-syntax
 ```xaml
 

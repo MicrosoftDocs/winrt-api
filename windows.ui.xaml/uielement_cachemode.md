@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.CacheMode CacheMode { get;  set; }
 ## -description
 Gets or sets a value that indicates that rendered content should be cached as a composited bitmap when possible.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.CacheMode](/windows/winui/api/microsoft.ui.xaml.uielement.cachemode).
+
 ## -xaml-syntax
 ```xaml
 <uiElement CacheMode="BitmapCache" />
@@ -44,15 +46,15 @@ canvas1.CacheMode = new BitmapCache();
 canvas1().CacheMode(Windows::UI::Xaml::Media::BitmapCache{});
 ```
 
-```cpp
+```cppcx
 canvas1->CacheMode = ref new BitmapCache();
 ```
 
-Do not generally apply CacheMode values to elements without testing and profiling first. Caching to the graphics processing unit (GPU) is intended only for a minority of possible rendering situations for an app, and it's expected that you will profile various combinations of when and where in your UI to apply a CacheMode setting. Overuse of CacheMode can hurt performance rather than help it. It’s best to profile the app surface area to determine which targeted areas are most expensive to render, and to experiment with caching only certain elements based on those results. For more info on how to profile for rendering, see [IsOverdrawHeatMapEnabled](debugsettings_isoverdrawheatmapenabled.md) and "Cache static content" section of the [Optimize your XAML markup](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-xaml-loading) topic.
+Do not generally apply CacheMode values to elements without testing and profiling first. Caching to the graphics processing unit (GPU) is intended only for a minority of possible rendering situations for an app, and it's expected that you will profile various combinations of when and where in your UI to apply a CacheMode setting. Overuse of CacheMode can hurt performance rather than help it. It’s best to profile the app surface area to determine which targeted areas are most expensive to render, and to experiment with caching only certain elements based on those results. For more info on how to profile for rendering, see [IsOverdrawHeatMapEnabled](debugsettings_isoverdrawheatmapenabled.md) and "Cache static content" section of the [Optimize your XAML markup](/windows/uwp/debug-test-perf/optimize-xaml-loading) topic.
 
 Avoid using [CacheMode](../windows.ui.xaml.media/cachemode.md) and storyboarded animations together. Caching content where [Opacity](uielement_opacity.md) or [RenderTransform](uielement_rendertransform.md) are animated causes the animations to become dependent animations, even if the animation is zero-duration. To even see those animations run you'd have to set **EnableDependentAnimation** to **true**, and a dependent animation usually invalidates all the performance gains you might get from caching the composition. [Opacity](uielement_opacity.md) often is animated by visual states in control templates, so this is a consideration even if you aren't declaring any of your own storyboarded animations in XAML pages.
 
 ## -examples
 
 ## -see-also
-[IsOverdrawHeatMapEnabled](debugsettings_isoverdrawheatmapenabled.md), [Optimize your XAML markup](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-xaml-loading), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)
+[IsOverdrawHeatMapEnabled](debugsettings_isoverdrawheatmapenabled.md), [Optimize your XAML markup](/windows/uwp/debug-test-perf/optimize-xaml-loading), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)

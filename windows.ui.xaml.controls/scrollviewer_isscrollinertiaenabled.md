@@ -12,6 +12,8 @@ public bool IsScrollInertiaEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether scroll actions should include inertia in their behavior and value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.IsScrollInertiaEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.isscrollinertiaenabled).
+
 ## -xaml-syntax
 ```xaml
 <ScrollViewer IsScrollInertiaEnabled="bool" />
@@ -30,3 +32,5 @@ For XAML usage, IsScrollInertiaEnabled can either be an attribute on an explicit
 ## -examples
 
 ## -see-also
+
+[Scroll viewer controls](/windows/uwp/design/controls-and-patterns/scroll-controls), [Guidelines for panning](/windows/uwp/design/input/guidelines-for-panning)

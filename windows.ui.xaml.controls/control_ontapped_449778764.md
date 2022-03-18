@@ -12,6 +12,8 @@ virtual protected void OnTapped(Windows.UI.Xaml.Input.TappedRoutedEventArgs e)
 ## -description
 Called before the [Tapped](../windows.ui.xaml/uielement_tapped.md) event occurs.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnTapped](/windows/winui/api/microsoft.ui.xaml.controls.control.ontapped).
+
 ## -parameters
 ### -param e
 Event data for the event.
@@ -21,4 +23,4 @@ This event is not implemented in a [MapControl](../windows.ui.xaml.controls.maps
 ## -examples
 
 ## -see-also
-[UIElement.Tapped](control_ondoubletapped_1132552853.md), [TappedRoutedEventArgs](../windows.ui.xaml.input/tappedroutedeventargs.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index), [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)
+[UIElement.Tapped](control_ondoubletapped_1132552853.md), [TappedRoutedEventArgs](../windows.ui.xaml.input/tappedroutedeventargs.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [Custom user interactions](/windows/uwp/design/layout/index), [Handle pointer input](/windows/uwp/input-and-devices/handle-pointer-input)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty FullDescriptionProperty { g
 ## -description
 Identifies the full description automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.FullDescriptionProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.fulldescriptionproperty).
+
 ## -property-value
 The automation property identifier.
 

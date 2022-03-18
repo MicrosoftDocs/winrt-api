@@ -17,7 +17,7 @@ Tries to set the page range of the document source.
 The page range to set.
 
 ## -returns
-A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value that indicates whether [trySetPageRange](htmlprintdocumentsource_trysetpagerange.md) set the page range in *strPageRange*. **TRUE** indicates the page range was set and **FALSE** otherwise.
+A [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) value that indicates whether [trySetPageRange](htmlprintdocumentsource_trysetpagerange.md) set the page range in *strPageRange*. **TRUE** indicates the page range was set and **FALSE** otherwise.
 
 ## -remarks
 

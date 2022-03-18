@@ -12,6 +12,8 @@ public void SetSource(Windows.Storage.Streams.IRandomAccessStream stream, System
 ## -description
 Sets the [Source](mediaelement_source.md) property using the specified stream and MIME type.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaElement.SetSource](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.setsource).
+
 ## -parameters
 ### -param stream
 The stream that contains the media to load.
@@ -32,4 +34,4 @@ Here is some code that creates [MediaElement](mediaelement.md) object and sets t
 [!code-csharp[PlaybackLocalFileAll](../windows.ui.xaml.media/code/MediaXamlSnippets/csharp/MainPage.xaml.cs#SnippetPlaybackLocalFileAll)]
 
 ## -see-also
-[Audio, video, and camera](https://docs.microsoft.com/windows/uwp/audio-video-camera/index), [Create custom transport controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/custom-transport-controls), [Supported audio and video formats](https://docs.microsoft.com/previous-versions/windows/apps/hh986969(v=win.10))
+[Audio, video, and camera](/windows/uwp/audio-video-camera/index), [Create custom transport controls](/windows/uwp/controls-and-patterns/custom-transport-controls), [Supported audio and video formats](/previous-versions/windows/apps/hh986969(v=win.10))

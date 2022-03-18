@@ -14,6 +14,8 @@ public IReference<Color> ChromeHigh { get;  set; }
 
 Gets or sets the ChromeHigh color value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeHigh](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromehigh).
+
 ## -property-value
 
 The ChromeHigh color value.

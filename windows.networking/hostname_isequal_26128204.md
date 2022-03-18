@@ -20,7 +20,7 @@ A [HostName](hostname.md) object that is compared with the current [HostName](ho
 A Boolean value that indicates whether the specified [HostName](hostname.md) object is equal to the current [HostName](hostname.md) object.
 
 ## -remarks
-The [Equals](https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_) method determines whether the [HostName](hostname.md) object specified by the *hostName* parameter is the same instance of the current [HostName](hostname.md) object.
+The [Equals](/dotnet/api/system.object.equals?view=dotnet-uwp-10.0&preserve-view=true) method determines whether the [HostName](hostname.md) object specified by the *hostName* parameter is the same instance of the current [HostName](hostname.md) object.
 
 The IsEqual method determines whether the [HostName](hostname.md) object specified by the *hostName* parameter has an equivalent value to the current [HostName](hostname.md) object. Two [HostName](hostname.md) objects are considered to have the equivalent value if the [CanonicalName](hostname_canonicalname.md) property has the same value.
 

@@ -15,4 +15,4 @@ Allows apps to provide real-time updates to files through the Cached File Update
 
 ## -see-also
 
-[File picker provider sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620543)
+[File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)

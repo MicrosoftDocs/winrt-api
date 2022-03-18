@@ -20,11 +20,11 @@ The list of language identifiers, in priority order, representing the choice of 
 The identifier for the geographic region.
 
 ## -remarks
-If your app passes language tags used in this class to any [National Language Support](https://docs.microsoft.com/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
+If your app passes language tags used in this class to any [National Language Support](/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
 
-**Starting in :** Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919).) Note that the "nu-" extension can affect the numeral system used by [PercentFormatter](percentformatter.md) objects.
+**Starting in :** Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](https://www.unicode.org/reports/tr35/#Key_Type_Definitions).) Note that the "nu-" extension can affect the numeral system used by [PercentFormatter](percentformatter.md) objects.
 
 ## -examples
 
 ## -see-also
-[Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919)
+[Unicode Key/Type Definitions](https://www.unicode.org/reports/tr35/#Key_Type_Definitions)

@@ -14,6 +14,8 @@ public float MetallicFactor { get;  set; }
 
 Gets or sets a value that indicates how metallic the material appears.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneMetallicRoughnessMaterial.MetallicFactor](/windows/winui/api/microsoft.ui.composition.scenes.scenemetallicroughnessmaterial.metallicfactor).
+
 ## -property-value
 
 A value that indicates how metallic the material appears.

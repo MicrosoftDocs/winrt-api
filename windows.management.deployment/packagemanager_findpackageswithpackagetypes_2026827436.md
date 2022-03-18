@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IIterable<Windows.ApplicationModel.Package
 # Windows.Management.Deployment.PackageManager.FindPackagesWithPackageTypes
 
 ## -description
-Finds all installed packages of specific types with the specified name and publisher.
+Finds all installed [Packages](/uwp/api/windows.applicationmodel.package) of specific types with the specified name and publisher.
 
 ## -parameters
 ### -param packageName
@@ -30,7 +30,8 @@ If the method succeeds, an enumerable collection of package objects with the sam
 ## -examples
 
 ## -see-also
-[FindPackagesWithPackageTypes(PackageTypes)](packagemanager_findpackageswithpackagetypes_447761356.md), [FindPackagesWithPackageTypes(String, PackageTypes)](packagemanager_findpackageswithpackagetypes_1848672836.md)
+
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackagesWithPackageTypes(PackageTypes)](packagemanager_findpackageswithpackagetypes_447761356.md), [FindPackagesWithPackageTypes(String, PackageTypes)](packagemanager_findpackageswithpackagetypes_1848672836.md)
 
 ## -capabilities
 packageQuery

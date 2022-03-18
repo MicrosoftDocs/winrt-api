@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IVector<Windows.ApplicationModel.Package> 
 # Windows.Management.Deployment.PackageVolume.FindPackages
 
 ## -description
-Gets a collection of info about all installed instances of the specified package for all registered users.
+Gets a collection of info about all installed instances of the specified [Package](/uwp/api/windows.applicationmodel.package) for all registered users.
 
 ## -parameters
 ### -param packageFamilyName
@@ -24,4 +24,5 @@ A collection of info about the specified packages.
 ## -examples
 
 ## -see-also
-[FindPackages](packagevolume_findpackages_1246181969.md), [FindPackages(String, String)](packagevolume_findpackages_1597689551.md)
+
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackages](packagevolume_findpackages_1246181969.md), [FindPackages(String, String)](packagevolume_findpackages_1597689551.md)

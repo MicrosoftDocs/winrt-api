@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty PositionInSetProperty { get
 ## -description
 Gets the identifier for the position in set automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.PositionInSetProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.positioninsetproperty).
+
 ## -property-value
 The identifier for the position in set automation property.
 

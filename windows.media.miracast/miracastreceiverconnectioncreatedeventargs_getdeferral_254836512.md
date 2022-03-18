@@ -12,11 +12,11 @@ public Deferral MiracastReceiverConnectionCreatedEventArgs.GetDeferral()
 
 ## -description
 
-Defers completion of the [MiracastReceiverSession.ConnectionCreated](miracastreceiversession_connectioncreated.md) event until [Deferral.Complete](https://docs.microsoft.com/uwp/api/windows.foundation.deferral.complete) is invoked.
+Defers completion of the [MiracastReceiverSession.ConnectionCreated](miracastreceiversession_connectioncreated.md) event until [Deferral.Complete](/uwp/api/windows.foundation.deferral.complete) is invoked.
 
 ## -returns
 
-The [Deferral](https://docs.microsoft.com/uwp/api/windows.foundation.deferral) object.
+The [Deferral](/uwp/api/windows.foundation.deferral) object.
 
 ## -remarks
 

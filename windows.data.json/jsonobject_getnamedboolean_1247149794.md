@@ -10,17 +10,17 @@ public bool GetNamedBoolean(System.String name)
 # Windows.Data.Json.JsonObject.GetNamedBoolean
 
 ## -description
-Gets the [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value with the specified name.
+Gets the [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) value with the specified name.
 
 ## -parameters
 ### -param name
 The name.
 
 ## -returns
-The [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) with the specified *name*.
+The [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) with the specified *name*.
 
 ## -remarks
-This method should always used with a try/catch block because it throws an exception if the name found is not a [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) type or the name is not found.
+This method should always used with a try/catch block because it throws an exception if the name found is not a [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) type or the name is not found.
 
 ## -examples
 

@@ -14,6 +14,8 @@ Base class for a light source that can target a UI scene.
 
 The [CompositionLight.Targets](compositionlight_targets.md) property determines which Visuals are lit.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionLight](/windows/winui/api/microsoft.ui.composition.compositionlight).
+
 ## -remarks
 CompositionLight is the base class for four light types.
 

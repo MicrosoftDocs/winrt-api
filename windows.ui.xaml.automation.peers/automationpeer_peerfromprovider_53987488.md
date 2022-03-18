@@ -10,11 +10,13 @@ protected Windows.UI.Xaml.Automation.Peers.AutomationPeer PeerFromProvider(Windo
 # Windows.UI.Xaml.Automation.Peers.AutomationPeer.PeerFromProvider
 
 ## -description
-Gets an [AutomationPeer](automationpeer.md) for the specified [IRawElementProviderSimple](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple) proxy.
+Gets an [AutomationPeer](automationpeer.md) for the specified [IRawElementProviderSimple](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple) proxy.
+
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.PeerFromProvider](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.peerfromprovider).
 
 ## -parameters
 ### -param provider
-The class that implements [IRawElementProviderSimple](https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple).
+The class that implements [IRawElementProviderSimple](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple).
 
 ## -returns
 The [AutomationPeer](automationpeer.md).

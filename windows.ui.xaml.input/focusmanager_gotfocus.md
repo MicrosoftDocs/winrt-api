@@ -14,6 +14,8 @@ static public event EventHandler GotFocus<FocusManagerGotFocusEventArgs>
 
 Occurs when an element within a container element (a focus scope) receives focus. This event is raised asynchronously, so focus might move before bubbling is complete.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Input.FocusManager.GotFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.gotfocus).
+
 ## -remarks
 
 We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
@@ -29,7 +31,7 @@ UIElement focus events bubble up to the FocusManager in the following order:
 
 ## -see-also
 
-[UIElement.GotFocus](../windows.ui.xaml/uielement_gotfocus.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[UIElement.GotFocus](../windows.ui.xaml/uielement_gotfocus.md), [Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 

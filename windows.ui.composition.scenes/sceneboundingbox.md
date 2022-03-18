@@ -14,6 +14,8 @@ public class SceneBoundingBox : SceneObject, SceneObject
 
 Represents a box that encloses a 3D scene.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.SceneBoundingBox](/windows/winui/api/microsoft.ui.composition.scenes.sceneboundingbox).
+
 ## -remarks
 
 ## -see-also

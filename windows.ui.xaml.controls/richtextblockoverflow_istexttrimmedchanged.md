@@ -13,6 +13,8 @@ public event TypedEventHandler IsTextTrimmedChanged<RichTextBlockOverflow, IsTex
 
 Occurs when the [IsTextTrimmed](richtextblockoverflow_istexttrimmed.md) property value has changed.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.RichTextBlockOverflow.IsTextTrimmedChanged](/windows/winui/api/microsoft.ui.xaml.controls.richtextblockoverflow.istexttrimmedchanged).
+
 ## -xaml-syntax
 
 ```xaml
@@ -84,7 +86,7 @@ Resizing the window causes the columns to resize, which triggers the [IsTextTrim
 </StackPanel>
 ```
 
-``` csharp
+```csharp
 namespace TextTrimming1
 {
     /// <summary>

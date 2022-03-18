@@ -12,6 +12,8 @@ public void Measure(Windows.Foundation.Size availableSize)
 ## -description
 Updates the [DesiredSize](uielement_desiredsize.md) of a [UIElement](uielement.md). Typically, objects that implement custom layout for their layout children call this method from their own [MeasureOverride](frameworkelement_measureoverride_1586581644.md) implementations to form a recursive layout update.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.Measure](/windows/winui/api/microsoft.ui.xaml.uielement.measure).
+
 ## -parameters
 ### -param availableSize
 The available space that a parent can allocate to a child object. A child object can request a larger space than what is available; the provided size might be accommodated if scrolling or other resize behavior is possible in that particular container.
@@ -43,5 +45,5 @@ This example implements [MeasureOverride](frameworkelement_measureoverride_15865
 [!code-vb[1](../windows.ui.xaml.controls.primitives/code/BlockPanel/vbnet/BlankPage.xaml.vb#Snippet1)]
 
 ## -see-also
-[MeasureOverride](frameworkelement_measureoverride_1586581644.md), [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[MeasureOverride](frameworkelement_measureoverride_1586581644.md), [ArrangeOverride](frameworkelement_arrangeoverride_1795048387.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)
 4162-1c9c-48f4-8a94-34976fb17079)

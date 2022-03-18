@@ -17,9 +17,7 @@ Programmatically initiates the user interface for printing content.
 A Boolean value to indicate a TRUE for success or a FALSE for a failure.
 
 ## -remarks
-This method may be used by an application which has already used **GetForCurrentView** to retrieve the **PrintManager** instance and has registered a listener for the **PrintTaskRequested** event to initiate the printing user experience. In general, applications are encouraged to let users print content via the Devices charm. For this reason, using the ShowPrintUIAsync method is discouraged. **ShowPrintUIAsync** is provided mainly for scenarios in which the app is to provide guidance for users to help users complete a printing-related process. For example, guidance at the end of a ticket purchasing process, or after checking in for a flight, and then printing a boarding pass.
-
-ShowPrintUIAsync displays the appropriate printing window. If printing can't be performed at that time, the method will throw an exception. We recommend catching these exceptions and letting the user know when printing can't proceed, as shown here.
+This method may be used by an application which has already used **GetForCurrentView** to retrieve the **PrintManager** instance and has registered a listener for the **PrintTaskRequested** event to initiate the printing user experience. **ShowPrintUIAsync** displays the appropriate printing window. If printing can't be performed at that time, the method will throw an exception. We recommend catching these exceptions and letting the user know when printing can't proceed, as shown here.
 
 
 
@@ -45,9 +43,9 @@ async private void printButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-In this example, a print window is displayed in the event handler for a button click. If the method throws an exception (because printing can't be performed at that time), a [ContentDialog](../windows.ui.xaml.controls/contentdialog.md) control informs the user of the situation. For more info about printing from your app, see [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)).
+In this example, a print window is displayed in the event handler for a button click. If the method throws an exception (because printing can't be performed at that time), a [ContentDialog](../windows.ui.xaml.controls/contentdialog.md) control informs the user of the situation. For more info about printing from your app, see [Printing](/windows/uwp/devices-sensors/print-from-your-app).
 
 ## -examples
 
 ## -see-also
-[Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10))
+[Printing](/windows/uwp/devices-sensors/print-from-your-app)

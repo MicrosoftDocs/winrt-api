@@ -18,7 +18,7 @@ When this method completes successfully, it returns a list of the files in the c
 ## -exceptions
 ### System.UnauthorizedAccessException
 
-You don't have permission to access the contents of the current folder. For more information, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
+You don't have permission to access the contents of the current folder. For more information, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
 ## -remarks
 This query is a shallow query that returns only files in the current folder. For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetFilesAsync](storagefolder_getfilesasync_1429382825.md).
@@ -113,24 +113,5 @@ create_task(picturesLibrary->GetFilesAsync(CommonFileQuery::OrderByDate,0,20)).t
 });
 ```
 
-```javascript
-// Get the user's Pictures folder.
-// Enable the corresponding capability in the app manifest file.
-var KnownFolders = Windows.Storage.KnownFolders;
-var picturesFolder = KnownFolders.picturesLibrary;
-
-// Get the first 20 files in the current folder, sorted by date.
-var CommonFileQuery = Windows.Storage.Search.CommonFileQuery;
-var sortedItemsPromise = picturesFolder.getFilesAsync(CommonFileQuery.orderByDate, 0, 20);
-sortedItemsPromise.done(function getFilesSuccess(sortedItems) {
-
-    // Iterate over the results and print the list of files
-    // to the Visual Studio Output window.
-    sortedItems.forEach(function forEachFile(file) {
-        console.log(file.name, file.dateCreated);
-    });
-});
-```
-
 ## -see-also
-[File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions), [GetFilesAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md), [GetFilesAsync(CommonFileQuery)](storagefolder_getfilesasync_1429382825.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)
+[File access permissions](/windows/uwp/files/file-access-permissions), [GetFilesAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md), [GetFilesAsync(CommonFileQuery)](storagefolder_getfilesasync_1429382825.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)

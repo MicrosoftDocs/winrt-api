@@ -27,4 +27,4 @@ The extended usage of the raw input pointer.
 ## -examples
 
 ## -see-also
-[HasUsage](pointerpointproperties_hasusage_907430020.md), [HID Information](https://go.microsoft.com/fwlink/p/?linkid=233148)
+[HasUsage](pointerpointproperties_hasusage_907430020.md), [HID Information](https://www.usb.org/developers/hidpage/)

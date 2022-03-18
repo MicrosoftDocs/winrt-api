@@ -12,6 +12,8 @@ public double FromVerticalOffset { get;  set; }
 ## -description
 Gets or sets the distance by which the target is translated in the vertical direction when the animation is active.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PopInThemeAnimation.FromVerticalOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.popinthemeanimation.fromverticaloffset).
+
 ## -xaml-syntax
 ```xaml
 <PopInThemeAnimation FromVerticalOffset="double" />
@@ -26,4 +28,4 @@ The vertical offset translation, in pixels.
 ## -examples
 
 ## -see-also
-[Animating pop-up UI](https://docs.microsoft.com/previous-versions/windows/apps/jj649433(v=win.10)), [Guidelines and checklist for pop-up UI animations](https://docs.microsoft.com/windows/uwp/style/motion-popup-animations)
+[Animating pop-up UI](/previous-versions/windows/apps/jj649433(v=win.10)), [Guidelines and checklist for pop-up UI animations](/windows/uwp/style/motion-popup-animations)

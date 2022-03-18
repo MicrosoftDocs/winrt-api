@@ -12,6 +12,8 @@ public Windows.Foundation.IReference<Windows.Foundation.Point> To { get;  set; }
 ## -description
 Gets or sets the animation's ending value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PointAnimation.To](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimation.to).
+
 ## -xaml-syntax
 ```xaml
 <PointAnimation To="x,y"/>
@@ -31,7 +33,7 @@ If you are programming using C#or Microsoft Visual Basic, the type of this prope
 ## -remarks
 A [PointAnimation](pointanimation.md) typically has at least one of the [From](pointanimation_from.md), [By](pointanimation_by.md) or To properties set, but never all three. For more info, see Remarks in [PointAnimation](pointanimation.md).
 
-The **null** default value indicates that the base non-animated value is the default value for To, not that the animated value is literally **null**. The base non-animated value is determined at run time by the dependency property system. For more info, see [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview).
+The **null** default value indicates that the base non-animated value is the default value for To, not that the animated value is literally **null**. The base non-animated value is determined at run time by the dependency property system. For more info, see [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).
 
 ## -examples
 

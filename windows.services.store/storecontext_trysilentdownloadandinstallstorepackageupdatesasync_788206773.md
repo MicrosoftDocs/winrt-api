@@ -27,6 +27,6 @@ To get the list of packages that have updates available, use the [GetAppAndOptio
 This operation will not block. The [IAsyncOperationWithProgress](../windows.foundation/iasyncoperationwithprogress_2.md) object returned by this method will complete after the update packages are downloaded and installed.
 
 ## -see-also
-[Download and install package updates for your app](https://docs.microsoft.com/windows/uwp/packaging/self-install-package-updates),[CanSilentlyDownloadStorePackageUpdates](storecontext_cansilentlydownloadstorepackageupdates.md),[TrySilentDownloadStorePackageUpdatesAsync](storecontext_trysilentdownloadstorepackageupdatesasync_227038344.md)
+[Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates),[CanSilentlyDownloadStorePackageUpdates](storecontext_cansilentlydownloadstorepackageupdates.md),[TrySilentDownloadStorePackageUpdatesAsync](storecontext_trysilentdownloadstorepackageupdatesasync_227038344.md)
 
 ## -examples

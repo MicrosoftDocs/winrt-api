@@ -12,6 +12,8 @@ public string CloseButtonText { get;  set; }
 ## -description
 Gets or sets the text to display on the close button.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.CloseButtonText](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.closebuttontext).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog CloseButtonText="string"/>
@@ -33,7 +35,7 @@ Invoking the close button returns ContentDialogResult.None.
 
 ### Version compatibility
 
-The CloseButtonText property is not available prior to Windows 10, version 1703. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you should use the [SecondaryButtonText](contentdialog_secondarybuttontext.md) property instead. For more info, see [Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+The CloseButtonText property is not available prior to Windows 10, version 1703. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you should use the [SecondaryButtonText](contentdialog_secondarybuttontext.md) property instead. For more info, see [Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code).
 
 To avoid exceptions when your app runs on previous versions of Windows 10, do not set this property in XAML or use it without performing a runtime check. This example shows how to use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you set it.
 

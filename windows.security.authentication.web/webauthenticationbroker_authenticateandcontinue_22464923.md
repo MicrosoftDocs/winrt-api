@@ -30,4 +30,4 @@ The options for the authentication operation.
 ## -examples
 
 ## -see-also
-[AuthenticateAndContinue(Uri)](webauthenticationbroker_authenticateandcontinue_1571442307.md), [AuthenticateAndContinue(Uri, Uri)](webauthenticationbroker_authenticateandcontinue_1464219191.md), [Web authentication broker](https://docs.microsoft.com/windows/uwp/security/web-authentication-broker), [How to continue your Windows Phone 8.x app after calling an AndContinue method](https://docs.microsoft.com/previous-versions/windows/apps/dn631755(v=win.10))
+[AuthenticateAndContinue(Uri)](webauthenticationbroker_authenticateandcontinue_1571442307.md), [AuthenticateAndContinue(Uri, Uri)](webauthenticationbroker_authenticateandcontinue_1464219191.md), [Web authentication broker](/windows/uwp/security/web-authentication-broker), [How to continue your Windows Phone 8.x app after calling an AndContinue method](/previous-versions/windows/apps/dn631755(v=win.10))

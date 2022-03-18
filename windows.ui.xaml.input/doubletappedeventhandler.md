@@ -10,6 +10,8 @@ public delegate void DoubleTappedEventHandler(System.Object sender, Windows.UI.X
 ## -description
 Represents the method that will handle the [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Input.DoubleTappedEventHandler](/windows/winui/api/microsoft.ui.xaml.input.doubletappedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the event handler is attached.
@@ -21,7 +23,7 @@ Event data for the event.
 ## -remarks
 
 ## -examples
-The following code example shows scenario 3 from the [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855). This code shows some usage patterns for direct manipulation using the [Holding](../windows.ui.xaml/uielement_holding.md), [Tapped](../windows.ui.xaml/uielement_tapped.md), [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md), and [RightTapped](../windows.ui.xaml/uielement_righttapped.md) events.
+The following code example shows scenario 3 from the [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample). This code shows some usage patterns for direct manipulation using the [Holding](../windows.ui.xaml/uielement_holding.md), [Tapped](../windows.ui.xaml/uielement_tapped.md), [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md), and [RightTapped](../windows.ui.xaml/uielement_righttapped.md) events.
 
 
 

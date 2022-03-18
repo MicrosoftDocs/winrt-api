@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.Controls.ItemClickEventHandler ItemClick
 ## -description
 Occurs when an item in the list view receives an interaction, and the [IsItemClickEnabled](listviewbase_isitemclickenabled.md) property is **true**.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ListViewBase.ItemClick](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.itemclick).
+
 ## -xaml-syntax
 ```xaml
 <listViewBase ItemClick="eventhandler" />
@@ -24,4 +26,4 @@ If the list view is one of the views in a [SemanticZoom](semanticzoom.md), selec
 ## -examples
 
 ## -see-also
-[IsItemClickEnabled](listviewbase_isitemclickenabled.md), [How to change the interaction mode](https://docs.microsoft.com/previous-versions/windows/apps/hh780625(v=win.10))
+[IsItemClickEnabled](listviewbase_isitemclickenabled.md), [How to change the interaction mode](/previous-versions/windows/apps/hh780625(v=win.10))

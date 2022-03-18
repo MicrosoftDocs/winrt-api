@@ -17,4 +17,4 @@ This event is raised when an [audio problem](speechrecognitionaudioproblem.md) i
 ## -examples
 
 ## -see-also
-[SpeechRecognitionQualityDegradingEventArgs](speechrecognitionqualitydegradingeventargs.md), [SpeechRecognitionAudioProblem](speechrecognitionaudioproblem.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[SpeechRecognitionQualityDegradingEventArgs](speechrecognitionqualitydegradingeventargs.md), [SpeechRecognitionAudioProblem](speechrecognitionaudioproblem.md), [Speech interactions](/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

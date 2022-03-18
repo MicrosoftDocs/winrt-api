@@ -12,6 +12,8 @@ public event Windows.Foundation.EventHandler DirectManipulationStarted<object>
 ## -description
 Occurs when any direct manipulation of the [ScrollViewer](scrollviewer.md) begins.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ScrollViewer.DirectManipulationStarted](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.directmanipulationstarted).
+
 ## -remarks
 
 ## -examples

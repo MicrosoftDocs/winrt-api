@@ -15,6 +15,8 @@ public void ScrollToHorizontalOffset(System.Double offset)
 
 Scrolls the content that is within the [ScrollViewer](scrollviewer.md) to the specified horizontal offset position.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.ScrollToHorizontalOffset](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.scrolltohorizontaloffset).
+
 ## -parameters
 ### -param offset
 The position that the content scrolls to.

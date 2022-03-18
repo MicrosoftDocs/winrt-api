@@ -12,6 +12,8 @@ public void SelectAll()
 ## -description
 Selects the entire contents of the text box.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBox.SelectAll](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectall).
+
 ## -remarks
 
 ## -examples

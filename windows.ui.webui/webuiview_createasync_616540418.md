@@ -11,7 +11,11 @@ public IAsyncOperation<WebUIView> WebUIView.CreateAsync()
 
 ## -description
 
+Creates a new view as an asynchronous action.
+
 ## -returns
+
+The created view.
 
 ## -remarks
 

@@ -12,6 +12,8 @@ public struct XmlnsDefinition
 ## -description
 Specifies a mapping on a per-assembly basis between a XAML namespace and a library-code namespace for backing types, which is then used for type resolution by a XAML object writer or XAML schema context.
 
+Equivalent WinUI struct: [XmlnsDefinition](/windows/winui/api/microsoft.ui.xaml.markup.xmlnsdefinition).
+
 ## -struct-fields
 
 ### -field XmlNamespace

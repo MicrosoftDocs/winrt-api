@@ -14,6 +14,8 @@ public void SceneMeshMaterialAttributeMap.Remove(String key)
 
 Removes an item from the map.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneMeshMaterialAttributeMap.Remove](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshmaterialattributemap.remove).
+
 ## -parameters
 ### -param key
 

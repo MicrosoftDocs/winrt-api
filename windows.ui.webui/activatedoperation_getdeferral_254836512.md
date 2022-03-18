@@ -22,9 +22,9 @@ An app can complete activation after its required asynchronous operations comple
 
 Requesting a deferral enables an app to display its static splash screen for up to 15 seconds. If the app hasn't completed activation after 15 seconds, the system considers the app hung and will terminate it if the user navigates away from the splash screen.
 
-Note that in normal circumstances and app should take no more than a few seconds to finish activation. If your app requires more than 3 or 4 seconds to restore state and prepare its UI, then you should finish activation and display an [extended splash screen](https://docs.microsoft.com/previous-versions/windows/apps/hh700390(v=win.10)) screen until your app is ready.
+Note that in normal circumstances and app should take no more than a few seconds to finish activation. If your app requires more than 3 or 4 seconds to restore state and prepare its UI, then you should finish activation and display an [extended splash screen](/previous-versions/windows/apps/hh700390(v=win.10)) screen until your app is ready.
 
 ## -examples
 
 ## -see-also
-[App lifecycle](https://docs.microsoft.com/windows/uwp/launch-resume/app-lifecycle), [How to extend the splash screen](https://docs.microsoft.com/previous-versions/windows/apps/hh700390(v=win.10)), [ActivatedDeferral](activateddeferral.md), [App activated, resume, and suspend using the WRL sample](https://go.microsoft.com/fwlink/p/?linkid=226722)
+[App lifecycle](/windows/uwp/launch-resume/app-lifecycle), [How to extend the splash screen](/previous-versions/windows/apps/hh700390(v=win.10)), [ActivatedDeferral](activateddeferral.md), [App activated, resume, and suspend using the WRL sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BJavaScript%5D-Windows%208%20app%20samples/JavaScript/Windows%208%20app%20samples/App%20activated%2C%20resume%2C%20and%20suspend%20using%20the%20WRL%20%20sample%20(Windows%208)/JavaScript)

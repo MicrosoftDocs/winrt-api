@@ -13,6 +13,8 @@ public class GridLengthHelper : Windows.UI.Xaml.IGridLengthHelper
 
 Provides helper methods to evaluate or set [GridLength](gridlength.md) values. C# and Microsoft Visual Basic code should use methods of [GridLength](gridlength.md) instead.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.GridLengthHelper](/windows/winui/api/microsoft.ui.xaml.gridlengthhelper).
+
 ## -remarks
 
 [GridLength](gridlength.md) is a Windows Runtime structure that represents a factor for available-space measurements in rows or columns of a [Grid](../windows.ui.xaml.controls/grid.md).
@@ -23,4 +25,4 @@ GridLengthHelper is one of several **Helper** classes that are intended to provi
 
 ## -see-also
 
-[Grid](../windows.ui.xaml.controls/grid.md), GridLength, [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[Grid](../windows.ui.xaml.controls/grid.md), GridLength, [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

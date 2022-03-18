@@ -12,6 +12,8 @@ public DependencyObject KeyTipTarget { get;  set; }
 ## -description
 Gets or sets a value that indicates the element targeted by the access key Key Tip.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.KeyTipTarget](/windows/winui/api/microsoft.ui.xaml.uielement.keytiptarget).
+
 ## -property-value
 The element targeted by the Key Tip.
 

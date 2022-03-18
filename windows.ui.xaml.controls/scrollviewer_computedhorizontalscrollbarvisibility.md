@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Visibility ComputedHorizontalScrollBarVisibility { get; }
 ## -description
 Gets a value that indicates whether the horizontal [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md) is visible.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ComputedHorizontalScrollBarVisibility](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.computedhorizontalscrollbarvisibility).
+
 ## -property-value
 A [Visibility](../windows.ui.xaml/visibility.md) that indicates whether the horizontal scroll bar is visible. The default value is **Hidden**.
 

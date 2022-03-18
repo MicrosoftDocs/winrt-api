@@ -12,6 +12,8 @@ public void Seek(Windows.Foundation.TimeSpan offset)
 ## -description
 Moves the storyboard to the specified animation position. The storyboard performs the requested seek when the next clock tick occurs.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.Storyboard.Seek](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.seek).
+
 ## -parameters
 ### -param offset
 A positive or negative time value that describes the amount by which the timeline should move forward or backward from the beginning of the animation.

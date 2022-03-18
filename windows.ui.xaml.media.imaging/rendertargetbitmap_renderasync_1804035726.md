@@ -12,12 +12,14 @@ public Windows.Foundation.IAsyncAction RenderAsync(Windows.UI.Xaml.UIElement ele
 ## -description
 Renders a snapshot of a [UIElement](../windows.ui.xaml/uielement.md) visual tree to an image source.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap.RenderAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap.renderasync).
+
 ## -parameters
 ### -param element
 A [UIElement](../windows.ui.xaml/uielement.md) that represents the visual tree fragment to render.
 
 ## -returns
-When this method returns, an [IAsyncAction](../windows.foundation/iasyncaction.md) object that can be used to control the asynchronous operation.
+An [IAsyncAction](../windows.foundation/iasyncaction.md) object that you can use to control the asynchronous operation.
 
 ## -remarks
 The rendered image isn't returned by this method. But after it returns, so long as the async [Status](../windows.foundation/iasyncinfo_status.md) value doesn't indicate an error, the [RenderTargetBitmap](rendertargetbitmap.md) that called it will have valid image info. The [RenderTargetBitmap](rendertargetbitmap.md) can then be assigned in code as an image source for an [Image](../windows.ui.xaml.controls/image.md) control or [ImageBrush](../windows.ui.xaml.media/imagebrush.md) instance.
@@ -43,4 +45,4 @@ There are a few scenarios for XAML-composed visual content that you can't captur
 ## -examples
 
 ## -see-also
-[RenderAsync(UIElement, Int32, Int32)](rendertargetbitmap_renderasync_806843678.md), [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153)
+[RenderAsync(UIElement, Int32, Int32)](rendertargetbitmap_renderasync_806843678.md), [XAML render to bitmap sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20render%20to%20bitmap%20sample)

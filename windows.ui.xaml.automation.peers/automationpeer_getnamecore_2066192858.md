@@ -12,6 +12,8 @@ virtual protected string GetNameCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetName](automationpeer_getname_1386609741.md) or an equivalent Microsoft UI Automation client API.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetNameCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getnamecore).
+
 ## -returns
 The name as used by assistive technology and other Microsoft UI Automation clients.
 
@@ -27,4 +29,4 @@ To learn more about the possible default behavior of specific peer classes for d
 ## -examples
 
 ## -see-also
-[GetName](automationpeer_getname_1386609741.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[GetName](automationpeer_getname_1386609741.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

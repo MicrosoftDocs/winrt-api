@@ -23,6 +23,7 @@ See the [POS printer sample](https://github.com/Microsoft/Windows-universal-samp
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 1703 | 15063 | GetDeviceSelector(PosConnectionTypes) |
+| 1903 | 18362 | GetFontProperty |
 | 1903 | 18362 | SupportedBarcodeSymbologies |
 
 ## -examples

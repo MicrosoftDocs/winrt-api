@@ -13,37 +13,49 @@ public enum Windows.UI.Composition.CompositionBitmapInterpolationMode : int
 ## -description
 Specifies the algorithm used for interpolating pixels from ICompositionSurface when they do not form a one-to-one mapping to pixels on screen.
 
+Equivalent WinUI enum: [CompositionBitmapInterpolationMode](/windows/winui/api/microsoft.ui.composition.compositionbitmapinterpolationmode).
+
 ## -enum-fields
+
 ### -field NearestNeighbor:0
+
 Use the exact color of the nearest bitmap pixel to the current rendering pixel.
 
 ### -field Linear:1
-Interpolate a color from the four bitmap pixels that are the nearest to the current rendering pixel.
 
+Interpolate a color from the four bitmap pixels that are the nearest to the current rendering pixel.
 
 ### -field MagLinearMinLinearMipLinear:2
 
+Use Linear interpolation for magnification, minification, and mip-level sampling.
 
 ### -field MagLinearMinLinearMipNearest:3
 
+Use Linear interpolation for magnification and minification; use NearestNeighbor for mip-level sampling.
 
 ### -field MagLinearMinNearestMipLinear:4
 
+Use Linear interpolation for magnification; use NearestNeighbor for minification; use Linear interpolation for mip-level sampling.
 
 ### -field MagLinearMinNearestMipNearest:5
 
+Use Linear interpolation for magnification; use NearestNeighbor for minification and mip-level sampling.
 
 ### -field MagNearestMinLinearMipLinear:6
 
+Use NearestNeighbor for magnification; use Linear interpolation for minification and mip-level sampling.
 
 ### -field MagNearestMinLinearMipNearest:7
 
+Use NearestNeighbor for magnification; use Linear interpolation for minification; use NearestNeighbor for mip-level sampling.
 
 ### -field MagNearestMinNearestMipLinear:8
 
+Use NearestNeighbor for magnification and minification; use Linear interpolation for mip-level sampling.
 
 ### -field MagNearestMinNearestMipNearest:9
 
+Use NearestNeighbor for magnification, minification, and mip-level sampling.
 
 ## -remarks
 Interpolating pixels is necessary when the pixels of an [ICompositionSurface](icompositionsurface.md) do not form a one-to-one mapping to the pixels of a [SpriteVisual](spritevisual.md); this can happen under scale, stretch, rotation, skew, or other transformations (such as perspective projection, etc.).

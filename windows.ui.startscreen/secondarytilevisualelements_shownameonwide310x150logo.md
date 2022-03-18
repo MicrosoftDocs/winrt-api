@@ -21,4 +21,4 @@ Specifies whether the display name should be shown on the wide secondary tile.
 ## -examples
 
 ## -see-also
-[ShowNameOnSquare310x310Logo](secondarytilevisualelements_shownameonsquare310x310logo.md), [ShowNameOnSquare150x150Logo](secondarytilevisualelements_shownameonsquare150x150logo.md), [Secondary tiles sample](https://go.microsoft.com/fwlink/p/?linkid=231487)
+[ShowNameOnSquare310x310Logo](secondarytilevisualelements_shownameonsquare310x310logo.md), [ShowNameOnSquare150x150Logo](secondarytilevisualelements_shownameonsquare150x150logo.md), [Secondary tiles sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Secondary%20tiles%20sample)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty YearFormatProperty { get; }
 ## -description
 Identifies the [YearFormat](datepickerflyout_yearformat.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerFlyout.YearFormatProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyout.yearformatproperty).
+
 ## -property-value
 The identifier for the [YearFormat](datepickerflyout_yearformat.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [YearFormat](datepickerflyout_yearformat.md) dependency p
 ## -examples
 
 ## -see-also
-[YearFormat](datepickerflyout_yearformat.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[YearFormat](datepickerflyout_yearformat.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

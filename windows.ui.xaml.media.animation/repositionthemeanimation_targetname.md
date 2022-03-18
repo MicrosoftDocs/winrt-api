@@ -12,6 +12,8 @@ public string TargetName { get;  set; }
 ## -description
 Gets or sets the reference name of the control element being targeted.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeAnimation.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemeanimation.targetname).
+
 ## -xaml-syntax
 ```xaml
 <RepositionThemeAnimation TargetName="nameString" />
@@ -26,4 +28,4 @@ The reference name. This is typically the **x:Name** of the relevant element as 
 ## -examples
 
 ## -see-also
-[Animating repositions](https://docs.microsoft.com/previous-versions/windows/apps/jj649434(v=win.10)), [Guidelines and checklist for reposition animations](https://docs.microsoft.com/windows/uwp/style/motion-reposition)
+[Animating repositions](/previous-versions/windows/apps/jj649434(v=win.10)), [Guidelines and checklist for reposition animations](/windows/uwp/style/motion-reposition)

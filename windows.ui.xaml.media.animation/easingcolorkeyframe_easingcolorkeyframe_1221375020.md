@@ -12,6 +12,8 @@ public EasingColorKeyFrame()
 ## -description
 Initializes a new instance of the [EasingColorKeyFrame](easingcolorkeyframe.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.EasingColorKeyFrame.EasingColorKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.easingcolorkeyframe.#ctor).
+
 ## -remarks
 
 ## -examples

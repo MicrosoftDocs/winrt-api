@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Management.Deploym
 # Windows.Management.Deployment.PackageManager.MovePackageToVolumeAsync
 
 ## -description
-Moves the specified package to the specified volume using the specified deployment options.
+Moves the specified [Package](/uwp/api/windows.applicationmodel.package) to the specified volume using the specified deployment options.
 
 ## -parameters
 ### -param packageFullName
@@ -32,6 +32,7 @@ This method lets the caller move a package from one logical volume to another.
 
 ## -see-also
 
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

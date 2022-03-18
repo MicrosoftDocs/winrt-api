@@ -12,10 +12,12 @@ abstract public event Windows.UI.Xaml.Interop.NotifyCollectionChangedEventHandle
 ## -description
 Occurs when the collection changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Interop.INotifyCollectionChanged.CollectionChanged](/windows/winui/api/microsoft.ui.xaml.interop.inotifycollectionchanged.collectionchanged).
+
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Specialized.INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?redirectedfrom=MSDN) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.Specialized.INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0&preserve-view=true) interface.
 
 ## -examples
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind)

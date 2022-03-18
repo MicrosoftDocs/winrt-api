@@ -12,6 +12,8 @@ public class DataTemplateSelector : Windows.UI.Xaml.Controls.IDataTemplateSelect
 ## -description
 Enables custom template selection logic at the application level.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.DataTemplateSelector](/windows/winui/api/microsoft.ui.xaml.controls.datatemplateselector).
+
 ## -xaml-syntax
 ```xaml
 See Remarks
@@ -20,7 +22,7 @@ See Remarks
 
 ## -remarks
 
-For more info about data templates, see the [DataTemplate](../windows.ui.xaml/datatemplate.md) class and [Item containers and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/item-containers-templates).
+For more info about data templates, see the [DataTemplate](../windows.ui.xaml/datatemplate.md) class and [Item containers and templates](/windows/uwp/design/controls-and-patterns/item-containers-templates).
 
 The base DataTemplateSelector class is not used as an object element in XAML. However, it is a common scenario to derive a custom DataTemplateSelector, map a xmlns prefix for the custom class and its namespace/assembly, and then refer to an instance of the custom class as defined in a [Resources](../windows.ui.xaml/frameworkelement_resources.md) block in XAML. This makes it possible to refer to the custom template selector class by **x:Key**, and use that reference to set the value of properties such as [ItemTemplateSelector](itemscontrol_itemtemplateselector.md) in XAML templates and visual states.
 
@@ -28,7 +30,7 @@ The callable methods of DataTemplateSelector are the two [SelectTemplate](datate
 
 App code typically doesn't call [SelectTemplate](datatemplateselector_selecttemplate_375443783.md) methods; the methods exists so that the infrastructure can call it while choosing the correct templates based on using a DataTemplateSelector instance from a property value such as [ItemsControl.ItemsTemplateSelector](itemscontrol_itemtemplateselector.md).
 
-For example XAML that references a custom DataTemplateSelector as the [HeaderTemplateSelector](groupstyle_headertemplateselector.md) value, and example code that shows the overrides for [HeaderTemplateSelector](groupstyle_headertemplateselector.md) methods, see [How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10)).
+For example XAML that references a custom DataTemplateSelector as the [HeaderTemplateSelector](groupstyle_headertemplateselector.md) value, and example code that shows the overrides for [HeaderTemplateSelector](groupstyle_headertemplateselector.md) methods, see [How to group items in a list or grid](/previous-versions/windows/apps/hh780627(v=win.10)).
 
 ### Version history
 
@@ -40,4 +42,4 @@ For example XAML that references a custom DataTemplateSelector as the [HeaderTem
 ## -examples
 
 ## -see-also
-[ItemTemplateSelector](itemscontrol_itemtemplateselector.md), [DataTemplate](../windows.ui.xaml/datatemplate.md), [ContentControl.ContentTemplateSelector](contentcontrol_contenttemplateselector.md), [GroupStyle.HeaderTemplateSelector](groupstyle_headertemplateselector.md), [ItemsControl.ItemsTemplateSelector](itemscontrol_itemtemplateselector.md), [How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10)), [Adding ListView and GridView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780618(v=win.10))
+[ItemTemplateSelector](itemscontrol_itemtemplateselector.md), [DataTemplate](../windows.ui.xaml/datatemplate.md), [ContentControl.ContentTemplateSelector](contentcontrol_contenttemplateselector.md), [GroupStyle.HeaderTemplateSelector](groupstyle_headertemplateselector.md), [How to group items in a list or grid](/previous-versions/windows/apps/hh780627(v=win.10)), [Adding ListView and GridView controls](/previous-versions/windows/apps/hh780618(v=win.10))

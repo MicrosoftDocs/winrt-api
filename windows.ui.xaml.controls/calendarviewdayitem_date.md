@@ -12,6 +12,8 @@ public Windows.Foundation.DateTime Date { get; }
 ## -description
 Gets the date represented by this item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarViewDayItem.Date](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitem.date).
+
 ## -property-value
 The date represented by this item.
 

@@ -38,19 +38,4 @@ StorageFolderQueryResult queryResult = musicFolder.CreateItemQueryWithOptions(qu
 var firstIndex = await queryResult.FindStartIndexAsync("R");
 ```
 
-```javascript
-var queryOptions = new Windows.Storage.Search.QueryOptions();
-queryOptions.folderDepth = Windows.Storage.Search.FolderDepth.deep;
-queryOptions.indexerOption = Windows.Storage.Search.IndexerOptions.onlyUseIndexer;
-queryOptions.sortOrder.append({
- ascendingOrder: true,
- propertyName: "System.Music.AlbumTitle"
-});
-
-var queryResult = Windows.Storage.KnownFolders.picturesLibrary.createFolderQueryWithOptions(queryOptions);
-var firstIndex = queryResult.findStartIndexAsync("R");
-```
-
-
-
 ## -see-also

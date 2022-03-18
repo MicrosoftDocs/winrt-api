@@ -12,6 +12,8 @@ public void SetText(Windows.UI.Text.TextSetOptions options, System.String value)
 ## -description
 Replaces the text in the text range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.SetText](/windows/winui/api/microsoft.ui.text.itextrange.settext).
+
 ## -parameters
 ### -param options
 The conversion flags that control how the text is inserted in the text range.

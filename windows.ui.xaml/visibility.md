@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Visibility : int
 ## -description
 Specifies the display state of an element.
 
+Equivalent WinUI enum: [Visibility](/windows/winui/api/microsoft.ui.xaml.visibility).
+
 ## -xaml-syntax
 ```xaml
 <object property="visibilityMemberName"/>

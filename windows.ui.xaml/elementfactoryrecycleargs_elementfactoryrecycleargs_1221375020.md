@@ -14,6 +14,8 @@ public ElementFactoryRecycleArgs.ElementFactoryRecycleArgs()
 
 Initializes a new instance of the [ElementFactoryRecycleArgs](elementfactoryrecycleargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.ElementFactoryRecycleArgs.ElementFactoryRecycleArgs](/windows/winui/api/microsoft.ui.xaml.elementfactoryrecycleargs.#ctor).
+
 ## -remarks
 
 ## -see-also

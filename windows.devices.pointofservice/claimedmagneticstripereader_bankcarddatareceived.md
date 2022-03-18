@@ -31,12 +31,5 @@ The following example shows how to setup the magnetic stripe reader to receive d
 
 [!code-csharp[MagStripeReaderDataReceived](../windows.devices.pointofservice/code/MagneticStripeReader/cs/Scenario1.xaml.cs#SnippetMagStripeReaderDataReceived)]
 
-
-[!code-js[CreateMagStripeReaderJS](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetCreateMagStripeReaderJS)]
-
-
-
-[!code-js[MagStripeReaderDataReceivedJS](../windows.devices.pointofservice/code/MagneticStripeReader/js/scenario1.js#SnippetMagStripeReaderDataReceivedJS)]
-
 ## -see-also
-[Magnetic stripe reader sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620017)
+[Magnetic stripe reader sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MagneticStripeReader)

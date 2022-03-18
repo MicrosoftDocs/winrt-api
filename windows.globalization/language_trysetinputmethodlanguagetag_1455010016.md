@@ -10,11 +10,11 @@ public bool TrySetInputMethodLanguageTag(System.String languageTag)
 # Windows.Globalization.Language.TrySetInputMethodLanguageTag
 
 ## -description
-Tries to set the normalized [BCP-47](https://go.microsoft.com/fwlink/p/?linkid=227302) language tag of this language.
+Tries to set the normalized [BCP-47](https://tools.ietf.org/html/bcp47) language tag of this language.
 
 ## -parameters
 ### -param languageTag
-The normalized [BCP-47](https://go.microsoft.com/fwlink/p/?linkid=227302) language tag.
+The normalized [BCP-47](https://tools.ietf.org/html/bcp47) language tag.
 
 **Starting in :** Language tags can support Unicode extensions. See the Remarks for the [Language](language_language_290278668.md) constructor.
 

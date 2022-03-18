@@ -82,7 +82,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
  // Get user's pictures folder
  StorageFolder^ picturesFolder = KnownFolders::PicturesLibrary;
 
@@ -99,36 +99,6 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
    OutputDebugString(output->Begin());
   }
  });
-```
-
-```javascript
-// Get the user's Pictures folder.
-// Enable the corresponding capability in the app manifest file.
-var KnownFolders = Windows.Storage.KnownFolders;
-var picturesFolder = KnownFolders.picturesLibrary;
-
-// Get the JPG files in the user's Pictures folder and group them by month.
-var CommonFolderQuery = Windows.Storage.Search.CommonFolderQuery;
-var groupedItems = picturesFolder.createFolderQuery(CommonFolderQuery.groupByMonth);
-
-// Iterate over the results and print the list of folders
-// and files to the Visual Studio Output window.
-var subfoldersPromise = groupedItems.getFoldersAsync();
-subfoldersPromise.done(function getFoldersSuccess(subfolders) {
-    subfolders.forEach(function forEachSubfolder(folder) {
-        console.log(folder.name);
-
-        // To iterate over the files in each folder,
-        // uncomment the following lines.
-        // var filesPromise = folder.getFilesAsync();
-        // filesPromise.done(function (files) {
-        //     console.log(folder.name);
-        //     files.forEach(function forEachFile(file) {
-        //         console.log(".", file.name);
-        //     });
-        // });
-    });
-});
 ```
 
 ## -see-also

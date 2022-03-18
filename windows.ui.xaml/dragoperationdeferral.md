@@ -13,10 +13,12 @@ public class DragOperationDeferral : Windows.UI.Xaml.IDragOperationDeferral
 
 Enables you to drag-and-drop content with a target app asynchronously.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.DragOperationDeferral](/windows/winui/api/microsoft.ui.xaml.dragoperationdeferral).
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
 
-[Drag and drop sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620634)
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop), [Drag and drop sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

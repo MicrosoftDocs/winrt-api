@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsTextPredictionEnabledProperty { get;
 ## -description
 Identifies the [IsTextPredictionEnabled](textbox_istextpredictionenabled.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.IsTextPredictionEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.istextpredictionenabledproperty).
+
 ## -property-value
 The identifier for the [IsTextPredictionEnabled](textbox_istextpredictionenabled.md) dependency property.
 

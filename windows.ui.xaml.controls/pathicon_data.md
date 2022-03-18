@@ -10,7 +10,9 @@ public Windows.UI.Xaml.Media.Geometry Data { get;  set; }
 # Windows.UI.Xaml.Controls.PathIcon.Data
 
 ## -description
-Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies the shape to be drawn. In XAML. this can also be set using a string that describes [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax).
+Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies the shape to be drawn. In XAML. this can also be set using a string that describes [Move and draw commands syntax](/windows/uwp/xaml-platform/move-draw-commands-syntax).
+
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PathIcon.Data](/windows/winui/api/microsoft.ui.xaml.controls.pathicon.data).
 
 ## -xaml-syntax
 ```xaml
@@ -19,9 +21,7 @@ Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies t
     singleGeometry
   </PathIcon.Data>
 </PathIcon>
-```
-
-```xaml
+- or -
 <PathIcon Data="moveAndDrawCommands"/>
 ```
 
@@ -50,4 +50,4 @@ This example shows an [AppBarButton](appbarbutton.md) with a [PathIcon](pathicon
 
 
 ## -see-also
-[Path.Data](../windows.ui.xaml.shapes/path_data.md), [AppBar](appbar.md), [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax)
+[Path.Data](../windows.ui.xaml.shapes/path_data.md), [AppBar](appbar.md), [Move and draw commands syntax](/windows/uwp/xaml-platform/move-draw-commands-syntax)

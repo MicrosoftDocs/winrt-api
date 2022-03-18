@@ -12,6 +12,8 @@ public class SplineColorKeyFrame : Windows.UI.Xaml.Media.Animation.ColorKeyFrame
 ## -description
 Animates from the [Color](../windows.ui/color.md) value of the previous key frame to its own [Value](colorkeyframe_value.md) using splined interpolation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.SplineColorKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.splinecolorkeyframe).
+
 ## -xaml-syntax
 ```xaml
 <SplineColorKeyFrame .../>
@@ -21,7 +23,7 @@ Animates from the [Color](../windows.ui/color.md) value of the previous key fram
 ## -remarks
 Key-frame animations permit more than one target value that is reached at a point along the animation timeline. In other words each key frame can specify a different intermediate value, and the last key frame reached is the final animation value. By specifying multiple values to animate, you can make more complex animations. You can mix discrete, linear, and spline keyframes in the same keyframe collection.
 
-For more info on how to use key-frame animations, see [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations).
+For more info on how to use key-frame animations, see [Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations).
 
 ## -examples
 This XAML example uses the [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md) class to animate the [Background](../windows.ui.xaml.controls/panel_background.md) property of a [StackPanel](../windows.ui.xaml.controls/stackpanel.md). This animation uses three key frames in the following manner:
@@ -49,5 +51,5 @@ This XAML example uses the [ColorAnimationUsingKeyFrames](coloranimationusingkey
 [!code-vb[Coloranimationusingkeyframes_cs](../windows.ui.xaml.media.animation/code/coloranimationusingkeyframes/vbnet/Page.xaml.vb#SnippetColoranimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [ColorKeyFrame](colorkeyframe.md), [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md), [ColorKeyFrameCollection](colorkeyframecollection.md), [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md)
+[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations), [ColorKeyFrame](colorkeyframe.md), [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md), [ColorKeyFrameCollection](colorkeyframecollection.md), [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md),
 [KeyTime](colorkeyframe_keytime.md), [Value](colorkeyframe_value.md)

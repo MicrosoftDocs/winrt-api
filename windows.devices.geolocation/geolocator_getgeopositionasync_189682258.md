@@ -32,7 +32,7 @@ The user sets the privacy of their location data with the **location privacy set
 ## -examples
 
 ## -see-also
-[Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location), [Geoposition](geoposition.md), [Geocoordinate](geocoordinate.md), [GetGeopositionAsync(TimeSpan, TimeSpan)](geolocator_getgeopositionasync_726098746.md), [geolocation sample](https://go.microsoft.com/fwlink/p/?linkid=533278)
+[Get current location](/windows/uwp/maps-and-location/get-location), [Geoposition](geoposition.md), [Geocoordinate](geocoordinate.md), [GetGeopositionAsync(TimeSpan, TimeSpan)](geolocator_getgeopositionasync_726098746.md), [geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
 
 ## -capabilities
 location

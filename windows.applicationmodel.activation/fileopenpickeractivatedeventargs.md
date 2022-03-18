@@ -18,7 +18,7 @@ Provides information about an activated event that fires when the user tries to 
 
 ## -remarks
 
-Learn how to provide files for the user to pick from your app in [Quickstart: Providing file services through ](https://docs.microsoft.com/previous-versions/windows/apps/hh465192(v=win.10)) and in the [Windows.Storage.Pickers.Provider](../windows.storage.pickers.provider/windows_storage_pickers_provider.md) namespace reference.
+Learn how to provide files for the user to pick from your app in [Quickstart: Providing file services through ](/previous-versions/windows/apps/hh465192(v=win.10)) and in the [Windows.Storage.Pickers.Provider](../windows.storage.pickers.provider/windows_storage_pickers_provider.md) namespace reference.
 
 A FileOpenPickerActivatedEventArgs object is passed to the app's activated event handler when the user wants to pick files or folders that are provided by the app. This type of activation is indicated by the [ActivationKind.FileOpenPicker](activationkind.md) value that is returned by the [Kind](fileopenpickeractivatedeventargs_kind.md) property.
 
@@ -36,7 +36,7 @@ All [Application](../windows.ui.xaml/application.md) overrides involved in an ac
 
 ## -examples
 
-The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a **FileOpenPicker** activation point.
+The [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts) demonstrates how to respond to a **FileOpenPicker** activation point.
 
 ```csharp
 
@@ -63,8 +63,8 @@ public void Activate(FileOpenPickerActivatedEventArgs args)
 
 ```
 
-For C#, `args` for an [OnFileOpenPickerActivated](../windows.ui.xaml/application_onfileopenpickeractivated_101387531.md) override references a FileOpenPickerActivatedEventArgs object. The [OnFileOpenPickerActivated](../windows.ui.xaml/application_onfileopenpickeractivated_101387531.md) override is in the App.xaml.cs file and the `Activate` method is in the FileOpenPickerPage.xaml.cs file of the [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536).
+For C#, `args` for an [OnFileOpenPickerActivated](../windows.ui.xaml/application_onfileopenpickeractivated_101387531.md) override references a FileOpenPickerActivatedEventArgs object. The [OnFileOpenPickerActivated](../windows.ui.xaml/application_onfileopenpickeractivated_101387531.md) override is in the App.xaml.cs file and the `Activate` method is in the FileOpenPickerPage.xaml.cs file of the [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts).
 
 ## -see-also
 
-[Quickstart: Providing file services through ](https://docs.microsoft.com/previous-versions/windows/apps/hh465192(v=win.10)), [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536), [OnFileOpenPickerActivated](../windows.ui.xaml/application_onfileopenpickeractivated_101387531.md), [Application](../windows.ui.xaml/application.md), [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md), [Windows.Storage.Pickers.Provider namespace](../windows.storage.pickers.provider/windows_storage_pickers_provider.md), [Windows.UI.WebUI.WebUIApplication.Activated event](../windows.ui.webui/webuiapplication_activated.md), [Windows.UI.Core.CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md), [File picker provider sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620543)
+[Quickstart: Providing file services through ](/previous-versions/windows/apps/hh465192(v=win.10)), [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts), [OnFileOpenPickerActivated](../windows.ui.xaml/application_onfileopenpickeractivated_101387531.md), [Application](../windows.ui.xaml/application.md), [FileOpenPicker](../windows.storage.pickers/fileopenpicker.md), [Windows.Storage.Pickers.Provider namespace](../windows.storage.pickers.provider/windows_storage_pickers_provider.md), [Windows.UI.WebUI.WebUIApplication.Activated event](../windows.ui.webui/webuiapplication_activated.md), [Windows.UI.Core.CoreApplicationView.Activated event](../windows.applicationmodel.core/coreapplicationview_activated.md)

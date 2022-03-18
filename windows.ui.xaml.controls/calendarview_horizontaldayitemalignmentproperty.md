@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HorizontalDayItemAlignmentProperty { g
 ## -description
 Identifies the  [HorizontalDayItemAlignment](calendarview_horizontaldayitemalignment.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.HorizontalDayItemAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.horizontaldayitemalignmentproperty).
+
 ## -property-value
 The identifier for the [HorizontalDayItemAlignment](calendarview_horizontaldayitemalignment.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [HorizontalDayItemAlignment](calendarview_horizontaldayit
 ## -examples
 
 ## -see-also
-[HorizontalDayItemAlignment](calendarview_horizontaldayitemalignment.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[HorizontalDayItemAlignment](calendarview_horizontaldayitemalignment.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -12,6 +12,8 @@ public enum Windows.UI.Composition.AnimationStopBehavior : int
 ## -description
 Specifies the behavior of an animation when it stops.
 
+Equivalent WinUI enum: [AnimationStopBehavior](/windows/winui/api/microsoft.ui.composition.animationstopbehavior).
+
 ## -enum-fields
 ### -field LeaveCurrentValue:0
 Leave the animation at its current value.
@@ -28,4 +30,4 @@ Set the animation to its final value.
 ## -examples
 
 ## -see-also
-[Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060)
+[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation)

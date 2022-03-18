@@ -10,7 +10,7 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.RequestAdd
 # Windows.Management.Deployment.PackageManager.RequestAddPackageByAppInstallerFileAsync
 
 ## -description
-Allows single or multiple app packages to be installed with an .appinstaller file. This will perform a SmartScreen filter and user verification before installing the app package(s).
+Allows single or multiple app [Packages](/uwp/api/windows.applicationmodel.package) to be installed with an .appinstaller file. This will perform a SmartScreen filter and user verification before installing the app package(s).
 
 ## -parameters
 ### -param appInstallerFileUri
@@ -27,12 +27,14 @@ The volume that the package is installed to.
 ## -remarks
 This method is identical to [AddPackageByAppInstallerAsync](packagemanager_addpackagebyappinstallerfileasync_1097728195.md) except this uses the SmartScreen filter.
 
-This method is not supported in JavaScript. However, you can create a Windows Runtime component that calls this method and then call this component from a JavaScript UWP app. For more information, see [App Installer file API issues](https://docs.microsoft.com/windows/msix/app-installer/app-installer-api-issues).
+This method is not supported in JavaScript. However, you can create a Windows Runtime component that calls this method and then call this component from a JavaScript UWP app. For more information, see [App Installer file API issues](/windows/msix/app-installer/app-installer-api-issues).
 
 ## -see-also
-[App Installer APIs](https://docs.microsoft.com/windows/msix/app-installer/app-installer-apis)
+[App Installer APIs](/windows/msix/app-installer/app-installer-apis)
 
 ## -examples
+
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

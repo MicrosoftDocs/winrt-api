@@ -13,7 +13,7 @@ public string DisplayVersion { get; }
 Gets the display version for an installed classic desktop app.
 
 ## -property-value
-The version of the app as a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) that can be displayed.
+The version of the app as a [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) that can be displayed.
 
 ## -remarks
 

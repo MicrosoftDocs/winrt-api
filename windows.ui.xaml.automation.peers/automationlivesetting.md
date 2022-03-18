@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationLiveSetting : int
 ## -description
 Describes the notification characteristics of a particular live region in an app UI. Used by [GetLiveSetting](automationpeer_getlivesetting_295263812.md) and [AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties).
 
+Equivalent WinUI enum: [AutomationLiveSetting](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationlivesetting).
+
 ## -xaml-syntax
 ```xaml
 <object property="enumMemberName" .../>
@@ -34,4 +36,4 @@ The element sends interruptive notifications if the content of the live region h
 ## -examples
 
 ## -see-also
-[AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties), [GetLiveSetting](automationpeer_getlivesetting_295263812.md), [GetLiveSettingCore](automationpeer_getlivesettingcore_2008424374.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Practices to avoid](https://docs.microsoft.com/windows/uwp/accessibility/practices-to-avoid)
+[AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties), [GetLiveSetting](automationpeer_getlivesetting_295263812.md), [GetLiveSettingCore](automationpeer_getlivesettingcore_2008424374.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Practices to avoid](/windows/uwp/accessibility/practices-to-avoid)

@@ -12,6 +12,8 @@ public class BitmapCache : Windows.UI.Xaml.Media.CacheMode, Windows.UI.Xaml.Medi
 ## -description
 Represents the behavior of caching a visual element or tree of elements as bitmap surfaces.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.BitmapCache](/windows/winui/api/microsoft.ui.xaml.media.bitmapcache).
+
 ## -remarks
 This class is infrastructure, and provides the underlying run-time value for the behavior when you specify `CacheMode="BitmapCache"` in XAML markup, or create a new BitmapCache in code to set [UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md).
 
@@ -35,9 +37,9 @@ canvas1.CacheMode = new BitmapCache(); //canvas1 is an existing named element in
 canvas1().CacheMode(Windows::UI::Xaml::Media::BitmapCache{});
 ```
 
-```cpp
+```cppcx
 canvas1->CacheMode = ref new BitmapCache(); //canvas1 is an existing named element in UI
 ```
 
 ## -see-also
-[UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md), [IsOverdrawHeatMapEnabled](../windows.ui.xaml/debugsettings_isoverdrawheatmapenabled.md), [Optimize your XAML markup](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-xaml-loading)
+[UIElement.CacheMode](../windows.ui.xaml/uielement_cachemode.md), [IsOverdrawHeatMapEnabled](../windows.ui.xaml/debugsettings_isoverdrawheatmapenabled.md), [Optimize your XAML markup](/windows/uwp/debug-test-perf/optimize-xaml-loading)

@@ -19,10 +19,8 @@ Your app does not receive this event when:
 + The [ActiveControllerWhenMenuIsSuppressed](radialcontrollerconfiguration_activecontrollerwhenmenuissuppressed.md) is not set to the appropriate [RadialController](radialcontroller.md).
 
 ## -see-also
-- [RadialControllerButtonHoldingEventArgs](radialcontrollerbuttonholdingeventargs.md)
-- [Surface Dial interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/windows-wheel-interactions)
-- [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713)
-- [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)
+
+[RadialControllerButtonHoldingEventArgs](radialcontrollerbuttonholdingeventargs.md), [Surface Dial interactions](/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)
 
 ## -examples
 

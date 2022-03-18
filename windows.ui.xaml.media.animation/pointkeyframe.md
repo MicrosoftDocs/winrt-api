@@ -12,6 +12,8 @@ public class PointKeyFrame : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.M
 ## -description
 Defines an animation segment with its own target value and interpolation method for a [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.PointKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.pointkeyframe).
+
 ## -remarks
 ### **PointKeyFrame** derived classes
 

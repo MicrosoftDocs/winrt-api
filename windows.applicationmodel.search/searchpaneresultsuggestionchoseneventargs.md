@@ -10,23 +10,20 @@ public class SearchPaneResultSuggestionChosenEventArgs : Windows.ApplicationMode
 # Windows.ApplicationModel.Search.SearchPaneResultSuggestionChosenEventArgs
 
 ## -description
-Provides data for a [resultsuggestionchosen](searchpane_resultsuggestionchosen.md) event that is associated with a [searchPane](searchpane.md) object.
+
+Provides data for a [ResultSuggestionChosen](searchpane_resultsuggestionchosen.md) event that is associated with a [SearchPane](searchpane.md) object.
 
 ## -remarks
-This object is passed to an app's [resultsuggestionchosen](searchpane_resultsuggestionchosen.md) event handler.
+
+> [!IMPORTANT]
+> To implement search in an app for Windows 10, use [AutoSuggestBox](/uwp/api/windows.ui.xaml.controls.autosuggestbox). See [Auto-suggest box](/windows/uwp/design/controls-and-patterns/auto-suggest-box) for more info.
+>
+> You should not use [Windows.ApplicationModel.Search](/uwp/api/windows.applicationmodel.search) APIs ([SearchPane](/uwp/api/windows.applicationmodel.search.searchpane), [SearchContract](/uwp/api/windows.applicationmodel.search.searchcontract)) or SearchBox ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md)/[WinJS.UI.SearchBox](/previous-versions/windows/apps/dn301949(v=win.10))) APIs in apps for Windows 10.
+
+This object is passed to an app's [ResultSuggestionChosen](searchpane_resultsuggestionchosen.md) event handler.
 
 ## -examples
-The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to register a [resultsuggestionchosen](searchpane_resultsuggestionchosen.md) event handler.
-
-> [!NOTE]
-> You can get information about the event from the searchPaneResultSuggestionChosenEventArgs object that is passed to your [resultsuggestionchosen](searchpane_resultsuggestionchosen.md) event handler.
-
-
-
-[!code-csharp[all_suggestionchosen_register](../windows.applicationmodel.search/code/SearchContract/CS/Scenario6.xaml.cs#Snippetall_suggestionchosen_register)]
-
-[!code-js[all_suggestionchosen_register](../windows.applicationmodel.search/code/SearchContract/js/js/scenario6.js#Snippetall_suggestionchosen_register)]
 
 ## -see-also
-[Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection.AppendResultSuggestion method](searchsuggestioncollection_appendresultsuggestion_603544202.md)
-ection_appendresultsuggestion.md)
+
+[Search contract sample (Windows 8)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Search%20contract%20sample), [SearchPane class](searchpane.md), [SearchPane.ResultSuggestionChosen event](searchpane_resultsuggestionchosen.md), [SearchSuggestionCollection.AppendResultSuggestion method](searchsuggestioncollection_appendresultsuggestion_603544202.md)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.FillBehavior FillBehavior { get;  set; }
 ## -description
 Gets or sets a value that specifies how the animation behaves after it reaches the end of its active period.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.FillBehavior](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.fillbehavior).
+
 ## -xaml-syntax
 ```xaml
 <timeline FillBehavior="HoldEnd"/>

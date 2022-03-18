@@ -12,6 +12,8 @@ public class InteractionTrackerRequestIgnoredArgs : Windows.UI.Composition.Inter
 ## -description
 Arguments for the [IInteractionTrackerOwner.RequestIgnored](iinteractiontrackerowner_requestignored_1806693457.md) callback.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionTrackerRequestIgnoredArgs](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerrequestignoredargs).
+
 ## -remarks
 
 ## -examples

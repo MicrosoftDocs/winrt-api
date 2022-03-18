@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush Foreground { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the text content handled by the [ContentPresenter](contentpresenter.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.Foreground](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.foreground).
+
 ## -xaml-syntax
 ```xaml
 <ContentPresenter Foreground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <ContentPresenter Foreground="colorString"/>
-
-```
-
-```xaml
+- or -
 <ContentPresenter>
   <ContentPresenter.Foreground>singleBrush</ContentPresenter.Foreground>
 </ContentPresenter>
@@ -44,4 +40,4 @@ The brush used as the foreground brush for the text contents. The default is a n
 ## -examples
 
 ## -see-also
-[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Use brushes](/windows/uwp/graphics/using-brushes)

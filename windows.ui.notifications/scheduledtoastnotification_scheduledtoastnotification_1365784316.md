@@ -11,7 +11,7 @@ public ScheduledToastNotification(Windows.Data.Xml.Dom.XmlDocument content, Wind
 # Windows.UI.Notifications.ScheduledToastNotification.ScheduledToastNotification
 
 ## -description
-Deprecated in Windows 10. On Windows 8 systems, creates and initializes a new instance of a [ScheduledToastNotification](scheduledtoastnotification.md) that re-appears after a specified time after initially appearing. On Windows 10, this functions equivalently to [ScheduledToastNotification(XmlDocument, DateTime)](windows.ui.notifications/scheduledtoastnotification_scheduledtoastnotification_1677895932.md). To achieve the same snooze interval behavior in Windows 10, you can use [buttons on your toasts](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/adaptive-interactive-toasts#buttons).
+Deprecated in Windows 10. On Windows 8 systems, creates and initializes a new instance of a [ScheduledToastNotification](scheduledtoastnotification.md) that re-appears after a specified time after initially appearing. On Windows 10, this functions equivalently to [ScheduledToastNotification(XmlDocument, DateTime)](windows.ui.notifications/scheduledtoastnotification_scheduledtoastnotification_1677895932.md). To achieve the same snooze interval behavior in Windows 10, you can use [buttons on your toasts](/windows/uwp/design/shell/tiles-and-notifications/adaptive-interactive-toasts#buttons).
 
 ## -parameters
 ### -param content
@@ -72,4 +72,4 @@ Notifications.ToastNotificationManager.createToastNotifier().addToSchedule(toast
 
 
 ## -see-also
-[ScheduledToastNotification(XmlDocument, DateTime)](scheduledtoastnotification_scheduledtoastnotification_1677895932.md), [Scheduled notifications sample](https://go.microsoft.com/fwlink/p/?linkid=241614), [Toast schema](https://docs.microsoft.com/uwp/schemas/tiles/toastschema/schema-root), [Guidelines and checklist for scheduled notifications](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-choosing-a-notification-delivery-method)
+[ScheduledToastNotification(XmlDocument, DateTime)](scheduledtoastnotification_scheduledtoastnotification_1677895932.md), [Scheduled notifications sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Scheduled%20notifications%20sample), [Toast schema](/uwp/schemas/tiles/toastschema/schema-root), [Guidelines and checklist for scheduled notifications](/windows/uwp/controls-and-patterns/tiles-and-notifications-choosing-a-notification-delivery-method)

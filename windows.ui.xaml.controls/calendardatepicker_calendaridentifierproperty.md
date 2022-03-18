@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CalendarIdentifierProperty { get; }
 ## -description
 Identifies the [CalendarIdentifier](calendardatepicker_calendaridentifier.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.CalendarIdentifierProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.calendaridentifierproperty).
+
 ## -property-value
 The identifier for the [CalendarIdentifier](calendardatepicker_calendaridentifier.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [CalendarIdentifier](calendardatepicker_calendaridentifie
 ## -examples
 
 ## -see-also
-[CalendarIdentifier](calendardatepicker_calendaridentifier.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CalendarIdentifier](calendardatepicker_calendaridentifier.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

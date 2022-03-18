@@ -6,11 +6,11 @@
 # Windows.Devices.Power
 
 ## -description
-Provides APIs for detailed battery information. For more info, see [Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10)).
+Provides APIs for detailed battery information. For more info, see [Get battery information](/previous-versions/windows/apps/dn895210(v=win.10)).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Get battery information](https://docs.microsoft.com/previous-versions/windows/apps/dn895210(v=win.10))
+[Get battery information](/previous-versions/windows/apps/dn895210(v=win.10))

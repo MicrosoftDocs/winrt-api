@@ -12,6 +12,8 @@ public void SetVirtualizationMode(Windows.UI.Xaml.DependencyObject element, Wind
 ## -description
 Sets the [VirtualizingStackPanel.VirtualizationMode](/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel#xaml-attached-properties) XAML attached property on the specified target element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel.SetVirtualizationMode](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel.setvirtualizationmode).
+
 ## -parameters
 ### -param element
 The target element.

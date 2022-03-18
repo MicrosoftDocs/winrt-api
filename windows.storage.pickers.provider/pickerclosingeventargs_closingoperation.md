@@ -11,10 +11,10 @@ public Windows.Storage.Pickers.Provider.PickerClosingOperation ClosingOperation 
 # Windows.Storage.Pickers.Provider.PickerClosingEventArgs.ClosingOperation
 
 ## -description
-Gets a [pickerClosingOperation](pickerclosingoperation.md) object that is used to respond to a [closing](fileopenpickerui_closing.md) event.
+Gets a [pickerClosingOperation](pickerclosingoperation.md) object that is used to respond to a [Closing](fileopenpickerui_closing.md) event.
 
 ## -property-value
-The [pickerClosingOperation](pickerclosingoperation.md) object that is used to respond to a [closing](fileopenpickerui_closing.md) event.
+The [pickerClosingOperation](pickerclosingoperation.md) object that is used to respond to a [Closing](fileopenpickerui_closing.md) event.
 
 ## -remarks
 

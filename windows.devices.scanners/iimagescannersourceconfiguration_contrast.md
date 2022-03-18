@@ -16,7 +16,7 @@ Sets or gets the current contrast level for capturing image data from the scan s
 The contrast level.
 
 ## -remarks
-Your app can set the value of this property to any [Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN) value between the [MinContrast](iimagescannersourceconfiguration_mincontrast.md) and [MaxContrast](iimagescannersourceconfiguration_maxcontrast.md) values, and also relates to the [ContrastStep](iimagescannersourceconfiguration_contraststep.md) value with this equation:
+Your app can set the value of this property to any [Int32](/dotnet/api/system.int32?view=dotnet-uwp-10.0&preserve-view=true) value between the [MinContrast](iimagescannersourceconfiguration_mincontrast.md) and [MaxContrast](iimagescannersourceconfiguration_maxcontrast.md) values, and also relates to the [ContrastStep](iimagescannersourceconfiguration_contraststep.md) value with this equation:
 
 **Contrast = MinContrast + (N * ContrastStep)**
 

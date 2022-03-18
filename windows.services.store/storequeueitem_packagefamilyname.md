@@ -18,6 +18,6 @@ The package family name of the current package in the queue.
 ## -remarks
 
 ## -see-also
-[Additional values for package family](https://docs.microsoft.com/windows/uwp/publish/view-app-identity-details#additional-values-for-package-family)
+[Additional values for package family](/windows/uwp/publish/view-app-identity-details#additional-values-for-package-family)
 
 ## -examples

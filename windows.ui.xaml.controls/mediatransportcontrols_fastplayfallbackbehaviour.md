@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.FastPlayFallbackBehaviour FastPlayFallbackBehaviour
 ## -description
 Gets or sets a value that specifies how the fast-forward/fast-rewind buttons behave.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.FastPlayFallbackBehaviour](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.fastplayfallbackbehaviour).
+
 ## -property-value
 A value of the enumeration that specifies how the fast-forward/fast-rewind buttons behave.
 

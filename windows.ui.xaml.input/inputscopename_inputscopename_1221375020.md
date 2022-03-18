@@ -12,9 +12,11 @@ public InputScopeName()
 ## -description
 Initializes a new instance of the [InputScopeName](inputscopename.md) class with no initial value.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.InputScopeName.InputScopeName](/windows/winui/api/microsoft.ui.xaml.input.inputscopename.#ctor).
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[InputScopeName(InputScopeNameValue)](inputscopename_inputscopename_16759151.md), [Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[InputScopeName(InputScopeNameValue)](inputscopename_inputscopename_16759151.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

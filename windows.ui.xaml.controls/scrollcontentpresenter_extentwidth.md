@@ -12,6 +12,8 @@ public double ExtentWidth { get; }
 ## -description
 Gets the horizontal size of all the scrollable content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.ExtentWidth](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.extentwidth).
+
 ## -property-value
 The horizontal size of all the scrollable content.
 

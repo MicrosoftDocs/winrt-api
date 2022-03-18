@@ -12,6 +12,8 @@ public bool IsCenterHollow { get;  set; }
 ## -description
 Indicates whether the center of the Nine-Grid is drawn.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionNineGridBrush.IsCenterHollow](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.iscenterhollow).
+
 ## -property-value
 Indicates whether the center of the Nine-Grid is drawn.
 

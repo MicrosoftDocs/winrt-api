@@ -12,6 +12,8 @@ public bool CompositionCapabilities.AreEffectsFast()
 ## -description
 Indicates whether fast effects are supported.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionCapabilities.AreEffectsFast](/windows/winui/api/microsoft.ui.composition.compositioncapabilities.areeffectsfast).
+
 ## -returns
 Returns a boolean indicating whether fast effects are supported.
 

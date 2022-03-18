@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TextTrimmingProperty { get; }
 ## -description
 Identifies the [TextTrimming](richtextblock_texttrimming.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextTrimmingProperty](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.texttrimmingproperty).
+
 ## -property-value
 The identifier of the [TextTrimming](richtextblock_texttrimming.md) dependency property.
 

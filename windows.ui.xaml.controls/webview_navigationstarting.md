@@ -38,7 +38,7 @@ Similar events occur in the same order for each **iframe** in the [WebView](webv
 
 
 ## -examples
-The following code example demonstrates how to handle this event to update a text box used as an address bar. For the complete example, see the [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582).
+The following code example demonstrates how to handle this event to update a text box used as an address bar. For the complete example, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
 
 ```csharp
 void webView1_NavigationStarting(WebView sender, WebViewNavigationStartingEventArgs args)
@@ -58,4 +58,4 @@ void webView1_NavigationStarting(WebView sender, WebViewNavigationStartingEventA
 
 
 ## -see-also
-[WebViewNavigationStartingEventArgs](webviewnavigationstartingeventargs.md), [XAML WebView control sample](https://go.microsoft.com/fwlink/p/?linkid=238582)
+[WebViewNavigationStartingEventArgs](webviewnavigationstartingeventargs.md), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)

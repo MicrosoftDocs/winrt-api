@@ -13,6 +13,8 @@ public Windows.UI.Color MediumOrchid { get; }
 
 Gets the system-defined color that has an ARGB value of #FFBA55D3.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.MediumOrchid](/windows/winui/api/microsoft.ui.colors.mediumorchid).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFBA55D3.

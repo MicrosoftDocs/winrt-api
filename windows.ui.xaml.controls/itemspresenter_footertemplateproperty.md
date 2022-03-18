@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FooterTemplateProperty { get; }
 ## -description
 Identifies the [FooterTemplate](itemspresenter_footertemplate.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPresenter.FooterTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.footertemplateproperty).
+
 ## -property-value
 The identifier for the [FooterTemplate](itemspresenter_footertemplate.md) dependency property.
 

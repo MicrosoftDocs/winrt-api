@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TargetNameProperty { get; }
 ## -description
 Identifies the [TargetName](repositionthemeanimation_targetname.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeAnimation.TargetNameProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemeanimation.targetnameproperty).
+
 ## -property-value
 The identifier for the [TargetName](repositionthemeanimation_targetname.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [TargetName](repositionthemeanimation_targetname.md) depe
 ## -examples
 
 ## -see-also
-[Animating repositions](https://docs.microsoft.com/previous-versions/windows/apps/jj649434(v=win.10)), [Guidelines and checklist for reposition animations](https://docs.microsoft.com/windows/uwp/style/motion-reposition)
+[Animating repositions](/previous-versions/windows/apps/jj649434(v=win.10)), [Guidelines and checklist for reposition animations](/windows/uwp/style/motion-reposition)

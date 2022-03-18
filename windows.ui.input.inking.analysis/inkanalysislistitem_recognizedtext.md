@@ -10,7 +10,10 @@ public string RecognizedText { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisListItem.RecognizedText
 
 ## -description
-Gets the recognized text associated with the InkAnalysisListItem object.  
+
+Gets the recognized text associated with the InkAnalysisListItem object.
+
+## -property-value
 
 ## -remarks
 

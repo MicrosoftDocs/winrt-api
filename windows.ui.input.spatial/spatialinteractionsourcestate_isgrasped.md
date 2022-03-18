@@ -33,6 +33,6 @@ A [SpatialInteractionSource](spatialinteractionsource.md) represents one of thre
 
 ## -see-also
 
-[Hands and motion controllers](/windows/mixed-reality/hands-and-motion-controllers-in-directx), [Speech input](/windows/mixed-reality/voice-input-in-directx) [Instinctual interactions](/windows/mixed-reality/interaction-fundamentals)
+[Hands and motion controllers](/windows/mixed-reality/hands-and-motion-controllers-in-directx), [Speech input](/windows/mixed-reality/voice-input-in-directx), [Instinctual interactions](/windows/mixed-reality/interaction-fundamentals)
 
 ## -examples

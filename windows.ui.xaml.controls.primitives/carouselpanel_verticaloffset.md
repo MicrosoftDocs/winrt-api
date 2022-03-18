@@ -12,6 +12,8 @@ public double VerticalOffset { get; }
 ## -description
 Gets the vertical offset of the scrolled content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel.VerticalOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.carouselpanel.verticaloffset).
+
 ## -property-value
 A value in pixels.
 

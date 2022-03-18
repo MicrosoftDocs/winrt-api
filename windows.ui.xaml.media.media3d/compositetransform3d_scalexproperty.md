@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ScaleXProperty { get; }
 ## -description
 Identifies the [ScaleX](compositetransform3d_scalex.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Media3D.CompositeTransform3D.ScaleXProperty](/windows/winui/api/microsoft.ui.xaml.media.media3d.compositetransform3d.scalexproperty).
+
 ## -property-value
 The [ScaleX](compositetransform3d_scalex.md) dependency property identifier.
 

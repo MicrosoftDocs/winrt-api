@@ -62,7 +62,7 @@ A 32-bit Windows **NTSTATUS** value.
 A 32-bit Windows **HRESULT** value.
 
 ### -field FileTime:16
-A 64-bit [FILETIME](https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime) value.
+A 64-bit [FILETIME](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) value.
 
 ### -field Signed:17
 A signed value.

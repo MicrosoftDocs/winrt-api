@@ -12,6 +12,8 @@ public Windows.Foundation.TimeSpan Time { get;  set; }
 ## -description
 Gets or sets the time currently set in the time picker.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.Time](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.time).
+
 ## -xaml-syntax
 ```xaml
 <TimePicker Time="timeSpanString" />
@@ -29,7 +31,7 @@ The default value for Time is the time that the [TimePicker](timepicker.md) obje
 
 You can set the Time value as an attribute in XAML. This is probably easiest if you're already declaring the [TimePicker](timepicker.md) object in XAML and aren't using bindings for the [Time](timepicker.md) value. Use a string in the form *Hh*:*Mm* where *Hh* is hours and can be between 0 and 23 and *Mm* is minutes and can be between 0 and 59. A "0" can be the initial character in either *Hh* or *Mm* and is typically included for clarity of any values 0 thru 9. For example, "9:5" and "09:05" are both valid and represent the same time, but "09:05" is easier to read in markup.
 
-To set Time in code, you have different techniques available depending on your programming language. The value is represented as [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) for C# and Visual Basic, or [Windows.Foundation.TimeSpan](../windows.foundation/timespan.md) for Visual C++ component extensions (C++/CX). Probably the easiest way to produce a [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) value that's appropriate for Time is to use the [TimeSpan.Parse](https://docs.microsoft.com/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_)static method. Use a string in the form *Hh*:*Mm* (hours:minutes).
+To set Time in code, you have different techniques available depending on your programming language. The value is represented as [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true) for C# and Visual Basic, or [Windows.Foundation.TimeSpan](../windows.foundation/timespan.md) for Visual C++ component extensions (C++/CX). Probably the easiest way to produce a [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true) value that's appropriate for Time is to use the [TimeSpan.Parse](/dotnet/api/system.timespan.parse?view=dotnet-uwp-10.0&preserve-view=true)static method. Use a string in the form *Hh*:*Mm* (hours:minutes).
 
 Whether set in code or XAML, the [TimePicker](timepicker.md) class has coercion logic for the value it preserves when you attempt to set it. Any days values are ignored. Seconds values are ignored (for example seconds over 30 are not rounded up to the next minute). Fractional seconds are ignored. Values do not wrap around (for example a value of "24:00" is invalid.) The minimum value within the **TimeSpan** is a time of 0 (00:00, midnight) and the maximum value is 23:59. Values outside the range throw exceptions, but depending on the specifics the exceptions might originate in the **TimeSpan** construction rather than from validation and coercion of [Time](timepicker.md).
 

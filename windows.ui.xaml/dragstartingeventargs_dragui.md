@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DragUI DragUI { get; }
 ## -description
 Gets the visual representation of the data being dragged.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DragStartingEventArgs.DragUI](/windows/winui/api/microsoft.ui.xaml.dragstartingeventargs.dragui).
+
 ## -property-value
 The visual representation of the data being dragged.
 
@@ -23,3 +25,5 @@ If this property is set to Null, then the UIElement being dragged is used to as 
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Interop.TypeName CurrentSourcePageType { get; }
 ## -description
 Gets a type reference for the content that is currently displayed.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Frame.CurrentSourcePageType](/windows/winui/api/microsoft.ui.xaml.controls.frame.currentsourcepagetype).
+
 ## -property-value
 A type reference for the content that is currently displayed.
 
@@ -21,9 +23,9 @@ CurrentSourcePageType and [SourcePageType](frame_sourcepagetype.md) are normally
 
 
 > [!TIP]
-> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN). When programming using C#, it is common to use the **typeof** operator to get references to the [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) of a type. In Microsoft Visual Basic, use **GetType**.
+> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). When programming using C#, it is common to use the **typeof** operator to get references to the [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) of a type. In Microsoft Visual Basic, use **GetType**.
 
 ## -examples
 
 ## -see-also
-[Navigating](frame_navigating.md), [Page.OnNavigatingFrom](page_onnavigatingfrom_425696585.md), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Navigating](frame_navigating.md), [Page.OnNavigatingFrom](page_onnavigatingfrom_425696585.md), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)

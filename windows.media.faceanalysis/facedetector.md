@@ -19,4 +19,4 @@ Detects faces in a [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.m
 
 ## -see-also
 
-[Basic face detection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620512)
+[Basic face detection sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicFaceDetection)

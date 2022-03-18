@@ -12,6 +12,8 @@ public event Windows.Foundation.EventHandler Resuming<object>
 ## -description
 Occurs when the application transitions from Suspended state to Running state.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Application.Resuming](/windows/winui/api/microsoft.ui.xaml.application.resuming).
+
 ## -remarks
 The system suspends your app whenever the user switches to another app or to the desktop, and resumes your app whenever the user switches back to it. However, the system can also terminate your app while it is suspended in order to free up resources. Therefore, you should handle the [Suspending](application_suspending.md) event to save your app state.
 
@@ -24,4 +26,4 @@ The Resuming event runs in the same apartment it was registered in.
 ## -examples
 
 ## -see-also
-[Suspending](application_suspending.md), [OnActivated](application_onactivated_603737819.md), [Launching and resuming apps](https://docs.microsoft.com/windows/uwp/launch-resume/), [Processes threads and apartments](https://docs.microsoft.com/en-us/windows/win32/com/processes--threads--and-apartments)
+[Suspending](application_suspending.md), [OnActivated](application_onactivated_603737819.md), [Launching and resuming apps](/windows/uwp/launch-resume/), [Processes threads and apartments](/en-us/windows/win32/com/processes--threads--and-apartments)

@@ -15,7 +15,7 @@ Sends a message to a specified set participants in this remote session messaging
 ## -parameters
 
 ### -param messageData
-A [ValueSet](https://docs.microsoft.com/uwp/api/Windows.Foundation.Collections.ValueSet) object containing the data to be sent to the specified participants.
+A [ValueSet](/uwp/api/Windows.Foundation.Collections.ValueSet) object containing the data to be sent to the specified participants.
 
 ### -param participants
 An iterable collection of [RemoteSystemSessionParticipant](RemoteSystemSessionParticipant.md) objects corresponding to the participants to which the message should be sent.

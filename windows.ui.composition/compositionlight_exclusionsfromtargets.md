@@ -13,6 +13,8 @@ public VisualUnorderedCollection ExclusionsFromTargets { get; }
 
 Gets a collection of Visuals that are not targeted by the light.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionLight.ExclusionsFromTargets](/windows/winui/api/microsoft.ui.composition.compositionlight.exclusionsfromtargets).
+
 ## -property-value
 
 The collection of Visuals that are not targeted by the light.

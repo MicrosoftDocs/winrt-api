@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.DoubleKeyFrameCollection KeyFrames { get;
 ## -description
 Gets the collection of [DoubleKeyFrame](doublekeyframe.md) objects that define the animation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames.KeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimationusingkeyframes.keyframes).
+
 ## -xaml-syntax
 ```xaml
 <DoubleAnimationUsingKeyFrames>

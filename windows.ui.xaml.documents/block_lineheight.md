@@ -12,6 +12,8 @@ public double LineHeight { get;  set; }
 ## -description
 Gets or sets the height of each line of content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Block.LineHeight](/windows/winui/api/microsoft.ui.xaml.documents.block.lineheight).
+
 ## -xaml-syntax
 ```xaml
 <Paragraph LineHeight="double"/>

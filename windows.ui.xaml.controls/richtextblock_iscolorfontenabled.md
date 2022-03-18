@@ -12,6 +12,8 @@ public bool IsColorFontEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines whether font glyphs that contain color layers, such as Segoe UI Emoji, are rendered in color.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.IsColorFontEnabled](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.iscolorfontenabled).
+
 ## -xaml-syntax
 ```xaml
 <RichEditBlock IsColorFontEnabled="bool" />

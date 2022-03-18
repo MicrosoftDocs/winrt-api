@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CommandBarOverflowPresenterStyleProper
 ## -description
 Identifies the [CommandBarOverflowPresenterStyle](commandbar_commandbaroverflowpresenterstyle.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CommandBar.CommandBarOverflowPresenterStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.commandbaroverflowpresenterstyleproperty).
+
 ## -property-value
 The identifier for the [CommandBarOverflowPresenterStyle](commandbar_commandbaroverflowpresenterstyle.md) dependency property.
 

@@ -25,4 +25,4 @@ The MaxMessageSize property can only be set before calling the [ConnectAsync](me
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)), [How to use advanced WebSocket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh994400(v=win.10)), [MessageWebSocket](messagewebsocket.md)
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)), [MessageWebSocket](messagewebsocket.md)

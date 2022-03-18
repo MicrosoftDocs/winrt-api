@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler ThumbnailRequested<Windows.UI.
 ## -description
 Occurs whenever the app needs to display a thumbnail adjacent to the seek bar when the user performs a seek operation.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.MediaTransportControls.ThumbnailRequested](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.thumbnailrequested).
+
 ## -remarks
 This event is raised only when the [MediaTransportControls](mediatransportcontrols.md) is used with a [MediaPlayerElement](mediaplayerelement.md). It is not raised when the [MediaTransportControls](mediatransportcontrols.md) are used with a [MediaElement](mediaelement.md).
 

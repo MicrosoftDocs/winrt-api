@@ -13,7 +13,7 @@ public bool IsResponseRequested { get;  set; }
 Gets or sets a value that indicates whether a response to the appointment invitation is requested.
 
 ## -property-value
-A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value that indicates whether a response is requested. **TRUE** indicates that a response is requested; otherwise **FALSE**.
+A [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) value that indicates whether a response is requested. **TRUE** indicates that a response is requested; otherwise **FALSE**.
 
 ## -remarks
 

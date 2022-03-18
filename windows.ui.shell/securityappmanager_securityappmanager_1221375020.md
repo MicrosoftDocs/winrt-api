@@ -12,6 +12,8 @@ public SecurityAppManager.SecurityAppManager()
 
 ## -description
 
+No description.
+
 ## -remarks
 
 ## -see-also

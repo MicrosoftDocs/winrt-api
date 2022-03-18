@@ -10,10 +10,10 @@ public string Writer { get; }
 # Windows.Storage.SystemMediaProperties.Writer
 
 ## -description
-Gets the name of the [System.Media.Writer](https://docs.microsoft.com/windows/desktop/properties/props-system-media-writer) property (one of the [Windows media file properties](https://docs.microsoft.com/windows/desktop/properties/media-bumper).
+Gets the name of the [System.Media.Writer](/windows/desktop/properties/props-system-media-writer) property (one of the [Windows media file properties](/windows/desktop/properties/media-bumper).
 
 ## -property-value
-The name of the [System.Media.Writer](https://docs.microsoft.com/windows/desktop/properties/props-system-media-writer) file property.
+The name of the [System.Media.Writer](/windows/desktop/properties/props-system-media-writer) file property.
 
 ## -remarks
 

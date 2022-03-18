@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsOutOfScopeEnabledProperty { get; }
 ## -description
 Identifies the [IsOutOfScopeEnabled](calendarview_isoutofscopeenabled.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.IsOutOfScopeEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.isoutofscopeenabledproperty).
+
 ## -property-value
 The identifier for the [IsOutOfScopeEnabled](calendarview_isoutofscopeenabled.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [IsOutOfScopeEnabled](calendarview_isoutofscopeenabled.md
 ## -examples
 
 ## -see-also
-[IsOutOfScopeEnabled](calendarview_isoutofscopeenabled.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsOutOfScopeEnabled](calendarview_isoutofscopeenabled.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

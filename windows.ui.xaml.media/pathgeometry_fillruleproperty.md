@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FillRuleProperty { get; }
 ## -description
 Identifies the [FillRule](pathgeometry_fillrule.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PathGeometry.FillRuleProperty](/windows/winui/api/microsoft.ui.xaml.media.pathgeometry.fillruleproperty).
+
 ## -property-value
 The identifier for the [FillRule](pathgeometry_fillrule.md) dependency property.
 

@@ -12,6 +12,8 @@ public bool IsClosed { get;  set; }
 ## -description
 Gets or sets a value that indicates whether this figure's first and last segments are connected.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PathFigure.IsClosed](/windows/winui/api/microsoft.ui.xaml.media.pathfigure.isclosed).
+
 ## -xaml-syntax
 ```xaml
 <PathFigure IsClosed="bool"/>

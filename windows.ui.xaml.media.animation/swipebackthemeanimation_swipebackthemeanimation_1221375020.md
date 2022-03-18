@@ -12,9 +12,11 @@ public SwipeBackThemeAnimation()
 ## -description
 Initializes a new instance of the [SwipeBackThemeAnimation](swipebackthemeanimation.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.SwipeBackThemeAnimation.SwipeBackThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.swipebackthemeanimation.#ctor).
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Animating swipe gestures](https://docs.microsoft.com/previous-versions/windows/apps/jj649435(v=win.10))
+[Animating swipe gestures](/previous-versions/windows/apps/jj649435(v=win.10))

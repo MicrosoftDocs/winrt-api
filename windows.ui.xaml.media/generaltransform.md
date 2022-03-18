@@ -12,6 +12,8 @@ public class GeneralTransform : Windows.UI.Xaml.DependencyObject, Windows.UI.Xam
 ## -description
 Provides generalized transformation support for objects. GeneralTransform is a base class that's in the hierarchy of practical transform classes such as [TranslateTransform](translatetransform.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.GeneralTransform](/windows/winui/api/microsoft.ui.xaml.media.generaltransform).
+
 ## -remarks
 Transformation types include rotation ([RotateTransform](rotatetransform.md)), scale ([ScaleTransform](scaletransform.md)), skew/shear ([SkewTransform](skewtransform.md)), and translation ([TranslateTransform](translatetransform.md)).
 
@@ -37,4 +39,4 @@ GeneralTransform is the parent class for [Transform](transform.md). [Transform](
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Transform](transform.md), [XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=226868)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Transform](transform.md), [XAML two-dimensional transforms sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20two-dimensional%20transforms%20sample)

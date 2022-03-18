@@ -222,7 +222,7 @@ else
 }
 ```
 
-```cpp
+```cppcx
 using namespace Windows::Web;
 using namespace Windows::Networking::Sockets;
 
@@ -243,18 +243,6 @@ else
 }
 ```
 
-```javascript
-var errorStatus = Windows.Networking.Sockets.WebSocketError.getStatus(error.number);
-if (errorStatus === Windows.Web.WebErrorStatus.cannotConnect ||
-    errorStatus === Windows.Web.WebErrorStatus.notFound ||
-    errorStatus === Windows.Web.WebErrorStatus.requestTimeout) {
-    WinJS.log && WinJS.log("Cannot connect to the server");
-}
-else {
-    WinJS.log && WinJS.log("Failed to connect: " + getError(error));
-}
-```
-
 ### Version history
 
 | Windows version | SDK version | Value added |
@@ -268,4 +256,4 @@ else {
 [Windows.Web.WebError.GetStatus](weberror_getstatus_1856274933.md),
 [Windows.Networking.WebSocketError.GetStatus](../windows.networking.sockets/websocketerror_getstatus_1856274933.md),
 [Windows.Networking.BackgroundTransfer.GetStatus](../windows.networking.backgroundtransfer/backgroundtransfererror_getstatus_1856274933.md),
-[Background Transfer Download sample](https://go.microsoft.com/fwlink/p/?linkid=245064)
+[Background Transfer Download sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)

@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.RoutedEventHandler ImageOpened
 ## -description
 Occurs when the image source is downloaded and decoded with no failure. You can use this event to determine the size of an image before rendering it.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.ImageOpened](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.imageopened).
+
 ## -xaml-syntax
 ```xaml
 <BitmapImage ImageOpened="eventhandler"/>
@@ -27,4 +29,4 @@ The [Image](surfaceimagesource.md) class also has an [ImageOpened](../windows.ui
 ## -examples
 
 ## -see-also
-[ImageFailed](bitmapimage_imagefailed.md), [Image control](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes)
+[ImageFailed](bitmapimage_imagefailed.md), [Image control](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes)

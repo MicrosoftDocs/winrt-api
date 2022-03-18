@@ -18,11 +18,12 @@ Gets or sets whether the [RadialController](radialcontroller.md) object is enabl
 ## -remarks
 If [AppController](radialcontrollerconfiguration_appcontroller.md) is set, that radial controller (and menu) is used for all top-level windows in the application process (all individual view controllers are overridden).
 
-We recommend creating an app controller in the [Loaded](https://docs.microsoft.com/uwp/api/windows.ui.xaml.frameworkelement.Loaded) handler of your app's main page (or equivalent).
+We recommend creating an app controller in the [Loaded](/uwp/api/windows.ui.xaml.frameworkelement.Loaded) handler of your app's main page (or equivalent).
 
 
 ## -examples
 
 ## -see-also
-- [AppController](radialcontrollerconfiguration_appcontroller.md)
+
+[AppController](radialcontrollerconfiguration_appcontroller.md)
 

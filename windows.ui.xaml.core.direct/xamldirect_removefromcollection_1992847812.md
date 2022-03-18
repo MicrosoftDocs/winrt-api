@@ -13,6 +13,8 @@ public bool XamlDirect.RemoveFromCollection(IXamlDirectObject xamlDirectObject, 
 ## -description
 Tries to remove a value from the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.RemoveFromCollection](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.removefromcollection).
+
 ## -parameters
 ### -param xamlDirectObject
 Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
@@ -25,15 +27,13 @@ Refers to the [IXamlDirectObject](ixamldirectobject.md) value to remove from the
 **false** if value was not present.
 
 ## -see-also
-* [XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md)
-* [XamlDirect.InsertIntoCollectionAt](xamldirect_insertintocollectionat_679802579.md)
-* [XamlDirect.RemoveFromCollectionAt](xamldirect_removefromcollectionat_1250477505.md)
-* [XamlDirect.ClearCollection](xamldirect_clearcollection_1428253299.md)
+
+[XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md), [XamlDirect.InsertIntoCollectionAt](xamldirect_insertintocollectionat_679802579.md), [XamlDirect.RemoveFromCollectionAt](xamldirect_removefromcollectionat_1250477505.md), [XamlDirect.ClearCollection](xamldirect_clearcollection_1428253299.md)
 
 ## -examples
 The following example shows how to remove a value from a collection using [XamlDirect](xamldirect.md) APIs.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 IXamlDirectObject relativePanel = xd.CreateInstance(XamlTypeIndex.RelativePanel);
@@ -47,7 +47,7 @@ xd.RemoveFromCollection(childrenCollection, button); // Should return true
 xd.RemoveFromCollection(childrenCollection, button); // Should return false
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 IXamlDirectObject^ relativePanel = xd->CreateInstance(XamlTypeIndex::RelativePanel);

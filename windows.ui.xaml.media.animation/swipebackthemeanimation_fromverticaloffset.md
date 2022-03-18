@@ -12,6 +12,8 @@ public double FromVerticalOffset { get;  set; }
 ## -description
 Gets or sets the distance by which the target is translated in the vertical direction when the animation is active.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SwipeBackThemeAnimation.FromVerticalOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.swipebackthemeanimation.fromverticaloffset).
+
 ## -xaml-syntax
 ```xaml
 <SwipeBackThemeAnimation FromVerticalOffset="double" />
@@ -26,4 +28,4 @@ The vertical offset translation, in pixels.
 ## -examples
 
 ## -see-also
-[Animating swipe gestures](https://docs.microsoft.com/previous-versions/windows/apps/jj649435(v=win.10))
+[Animating swipe gestures](/previous-versions/windows/apps/jj649435(v=win.10))

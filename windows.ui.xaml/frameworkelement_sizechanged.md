@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.SizeChangedEventHandler SizeChanged
 ## -description
 Occurs when either the [ActualHeight](frameworkelement_actualheight.md) or the [ActualWidth](frameworkelement_actualwidth.md) property changes value on a [FrameworkElement](frameworkelement.md).
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.FrameworkElement.SizeChanged](/windows/winui/api/microsoft.ui.xaml.frameworkelement.sizechanged).
+
 ## -xaml-syntax
 ```xaml
 <frameworkElement SizeChanged="eventhandler"/>
@@ -23,7 +25,7 @@ SizeChanged fires whenever the size (either [ActualHeight](frameworkelement_actu
 
 The [SizeChangedEventArgs](sizechangedeventargs.md) event data for the SizeChanged event provides two properties: the [PreviousSize](sizechangedeventargs_previoussize.md) value, representing the size of the element before the layout change happened, and the [NewSize](sizechangedeventargs_newsize.md) value, representing the current size. To get the height and width info use the [Height](../windows.foundation/size_height.md) and [Width](../windows.foundation/size_width.md) values of the [Size](../windows.foundation/size.md) structure value for these [SizeChangedEventArgs](sizechangedeventargs.md) properties within your event handler.
 
-One reason to handle the SizeChanged event is to see whether the ratio of an element's [ActualHeight](frameworkelement_actualheight.md) versus [ActualWidth](frameworkelement_actualwidth.md) have changed, because of a new layout. For example, this might happen if the user has resized the app window and the overall app view is now a narrow view. For more info on this scenario, see [Quickstart: Designing apps for different window sizes](https://docs.microsoft.com/previous-versions/windows/apps/dn297195(v=win.10)) or [Layout for windows that are taller than wide sample](https://go.microsoft.com/fwlink/p/?LinkID=310085).
+One reason to handle the SizeChanged event is to see whether the ratio of an element's [ActualHeight](frameworkelement_actualheight.md) versus [ActualWidth](frameworkelement_actualwidth.md) have changed, because of a new layout. For example, this might happen if the user has resized the app window and the overall app view is now a narrow view.
 
 SizeChanged occurs during initial layout of elements on a page, when the app first is activated, because the [ActualHeight](frameworkelement_actualheight.md) and [ActualWidth](frameworkelement_actualwidth.md) values for UI elements are undefined before layout happens. They only get values during the initial layout pass and thus the SizeChanged event occurs. Thereafter, during an app's lifetime, the SizeChanged event can fire from an element again if the [ActualHeight](frameworkelement_actualheight.md) and [ActualWidth](frameworkelement_actualwidth.md) values change for other reasons. These include:
 + Code that adjusts the [Height](frameworkelement_height.md) and [Width](frameworkelement_width.md) of that element specifically.
@@ -46,4 +48,4 @@ Although this event uses a [RoutedEventHandler](routedeventhandler.md)-related d
 ## -examples
 
 ## -see-also
-[SizeChangedEventHandler](sizechangedeventhandler.md), [SizeChangedEventArgs](sizechangedeventargs.md), [LayoutUpdated](frameworkelement_layoutupdated.md), [Quickstart: Designing apps for different window sizes](https://docs.microsoft.com/previous-versions/windows/apps/dn297195(v=win.10)), [Layout for windows that are taller than wide sample](https://go.microsoft.com/fwlink/p/?LinkID=310085), [Layout for windows that resize to 320 pixel width sample](https://go.microsoft.com/fwlink/p/?LinkID=310086)
+[SizeChangedEventHandler](sizechangedeventhandler.md), [SizeChangedEventArgs](sizechangedeventargs.md), [LayoutUpdated](frameworkelement_layoutupdated.md)

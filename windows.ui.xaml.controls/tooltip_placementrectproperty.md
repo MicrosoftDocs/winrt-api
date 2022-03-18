@@ -14,6 +14,8 @@ public DependencyProperty PlacementRectProperty { get; }
 
 Identifies the PlacementRect dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToolTip.PlacementRectProperty](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.placementrectproperty).
+
 ## -property-value
 
 The identifier for the PlacementRect dependency property.

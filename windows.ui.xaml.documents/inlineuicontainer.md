@@ -12,6 +12,8 @@ public class InlineUIContainer : Windows.UI.Xaml.Documents.Inline, Windows.UI.Xa
 ## -description
 Provides an inline content element that enables [UIElement](../windows.ui.xaml/uielement.md) types to be embedded in the content of a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.InlineUIContainer](/windows/winui/api/microsoft.ui.xaml.documents.inlineuicontainer).
+
 ## -xaml-syntax
 ```xaml
 <InlineUIContainer .../>
@@ -30,9 +32,9 @@ If you want more than one element inlined in the same position, consider using a
 
 If placed within an InlineUIContainer, a control that can be focused still appears in the top-level tab sequence.
 
-If you want interactive text, consider using a [Hyperlink](hyperlink.md) element (a type of [Inline](inline.md)) rather than using InlineUIContainer with a [Button](../windows.ui.xaml.controls/button.md) or similar within it. See [Guidelines for links](https://docs.microsoft.com/windows/uwp/controls-and-patterns/hyperlinks).
+If you want interactive text, consider using a [Hyperlink](hyperlink.md) element (a type of [Inline](inline.md)) rather than using InlineUIContainer with a [Button](../windows.ui.xaml.controls/button.md) or similar within it. See [Guidelines for links](/windows/uwp/controls-and-patterns/hyperlinks).
 
-InlineUIContainer inherits properties from the [TextElement](textelement.md) class. However, most of these properties don't have any visible effect. It's most common to declare a InlineUIContainer object element in XAML without there being any attributes set (except possibly [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute)) with the single child element that you're inlining as content of the InlineUIContainer object element.
+InlineUIContainer inherits properties from the [TextElement](textelement.md) class. However, most of these properties don't have any visible effect. It's most common to declare a InlineUIContainer object element in XAML without there being any attributes set (except possibly [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute)) with the single child element that you're inlining as content of the InlineUIContainer object element.
 
 Setting properties on InlineUIContainer that otherwise affect the character line height of a text element (such as [FontSize](textelement_fontsize.md), [FontFamily](textelement_fontfamily.md)) has no effect on the rendering and appearance. The content dictates its size and the InlineUIContainer sizes to fit it.
 

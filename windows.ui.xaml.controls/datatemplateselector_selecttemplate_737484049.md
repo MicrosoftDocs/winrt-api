@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DataTemplate SelectTemplate(System.Object item)
 ## -description
 Returns a specific [DataTemplate](../windows.ui.xaml/datatemplate.md) for a given item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.DataTemplateSelector.SelectTemplate](/windows/winui/api/microsoft.ui.xaml.controls.datatemplateselector.selecttemplate).
+
 ## -parameters
 ### -param item
 The item to return a template for.
@@ -24,4 +26,4 @@ The template to use for the given item and/or container.
 ## -examples
 
 ## -see-also
-[SelectTemplate(Object, DependencyObject)](datatemplateselector_selecttemplate_375443783.md), [Adding ListView and GridView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780618(v=win.10))
+[SelectTemplate(Object, DependencyObject)](datatemplateselector_selecttemplate_375443783.md), [Adding ListView and GridView controls](/previous-versions/windows/apps/hh780618(v=win.10))

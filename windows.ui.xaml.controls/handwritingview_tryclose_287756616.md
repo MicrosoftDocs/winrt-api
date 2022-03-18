@@ -23,7 +23,7 @@ The **Closed** event is raised if the handwriting view opens successfully.
 
 ## -see-also
 
-[Text input with the handwriting view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/text-handwriting-view)
+[Text input with the handwriting view](/windows/uwp/design/controls-and-patterns/text-handwriting-view)
 
 ## -examples
 

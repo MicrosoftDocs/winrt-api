@@ -29,10 +29,10 @@ Source apps have the option of using the [SetDataProvider](datapackage_setdatapr
 
 ## -examples
 
-The following code shows how you can use the DataPackageView to get the text being shared. For this example to work properly, you need to add code that detects if your app was launched in response to a share operation. See our topic, [How to receive text](https://docs.microsoft.com/previous-versions/windows/apps/hh758304(v=win.10)) to learn more.
+The following code shows how you can use the DataPackageView to get the text being shared. For this example to work properly, you need to add code that detects if your app was launched in response to a share operation. See our topic, [How to receive text](/previous-versions/windows/apps/hh758304(v=win.10)) to learn more.
 
 [!code-js[HowToReceiveSharedText](../windows.applicationmodel.datatransfer.sharetarget/code/ShareTargetBeta/javascript/js/ReceivedShardText.js#SnippetHowToReceiveSharedText)]
 
 ## -see-also
 
-[Sharing content target app sample](https://go.microsoft.com/fwlink/p/?linkid=231519), [Quickstart: Sharing content ( using JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465261(v=win.10)), [Share data](https://docs.microsoft.com/windows/uwp/app-to-app/share-data), [Quickstart: Receiving shared content ( using  JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465255(v=win.10)), [Receive data](https://docs.microsoft.com/windows/uwp/app-to-app/receive-data), [Sharing content target app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620597), [Sharing content source app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620596), [App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)
+[Sharing content target app sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ShareTarget), [Quickstart: Sharing content ( using JavaScript)](/previous-versions/windows/apps/hh465261(v=win.10)), [Share data](/windows/uwp/app-to-app/share-data), [Quickstart: Receiving shared content ( using  JavaScript)](/previous-versions/windows/apps/hh465255(v=win.10)), [Receive data](/windows/uwp/app-to-app/receive-data), [Sharing content target app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620597), [Sharing content source app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620596), [App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)

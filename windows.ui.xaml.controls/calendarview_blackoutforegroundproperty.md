@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty BlackoutForegroundProperty { get; }
 ## -description
 Identifies the [BlackoutForeground](calendarview_blackoutforeground.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.BlackoutForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.blackoutforegroundproperty).
+
 ## -property-value
 The identifier for the [BlackoutForeground](calendarview_blackoutforeground.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [BlackoutForeground](calendarview_blackoutforeground.md) 
 ## -examples
 
 ## -see-also
-[BlackoutForeground](calendarview_blackoutforeground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[BlackoutForeground](calendarview_blackoutforeground.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

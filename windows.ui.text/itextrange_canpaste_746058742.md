@@ -12,6 +12,8 @@ public bool CanPaste(System.Int32 format)
 ## -description
 Determines whether the Clipboard contains content that can be pasted, using a specified format, into the current text range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.CanPaste](/windows/winui/api/microsoft.ui.text.itextrange.canpaste).
+
 ## -parameters
 ### -param format
 The clipboard format. Zero represents the best format, which usually is Rich Text Format (RTF), but CF_UNICODETEXT and other formats are also possible. The default value is zero.

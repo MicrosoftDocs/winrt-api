@@ -16,7 +16,7 @@ Gets or sets the content of the HTTP response message on the [HttpResponseMessag
 The content of the HTTP response message on the [HttpResponseMessage](httpresponsemessage.md) object.
 
 ## -remarks
-The content of an HTTP response message corresponds to the entity body defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642).
+The content of an HTTP response message corresponds to the entity body defined in [RFC 2616](https://tools.ietf.org/html/rfc2616).
 
 A number of classes and an interface can be used for HTTP content. These include the following.
 

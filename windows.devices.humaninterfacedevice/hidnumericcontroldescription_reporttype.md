@@ -12,7 +12,7 @@ public Windows.Devices.HumanInterfaceDevice.HidReportType ReportType { get; }
 
 ## -description
 
-Gets the type of [HID report](https://docs.microsoft.com/windows-hardware/drivers/hid/introduction-to-hid-concepts#reports) associated with the given numeric control.
+Gets the type of [HID report](/windows-hardware/drivers/hid/introduction-to-hid-concepts#reports) associated with the given numeric control.
 
 ## -property-value
 

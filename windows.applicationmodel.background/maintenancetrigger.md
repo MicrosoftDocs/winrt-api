@@ -15,8 +15,9 @@ Represents a maintenance trigger.
 ## -remarks
 Background tasks that use a maintenance trigger run only when the system is connected to AC power.
 
+<!-- confirmed -->
 > [!NOTE]
-> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
 
 ## -examples
 The following example shows how to create and register a maintenance trigger.
@@ -51,38 +52,5 @@ builder.SetTrigger(trigger);
 //
 BackgroundTaskRegistration task = builder.Register();
 ```
-
-```javascript
-//
-// A friendly task name.
-//
-var name = "ExampleTaskName";
-
-//
-// Must be the same entry point that is specified in the manifest.
-//
-var taskEntryPoint = "ExampleNamespace.ExampleTaskName";
-
-//
-// A system trigger that goes off every 15 minutes as long as the device is plugged in to AC power.
-//
-var trigger = new Windows.ApplicationModel.Background.MaintenanceTrigger(15, false);
-
-//
-// Build the background task.
-//
-var builder = new Windows.ApplicationModel.Background.BackgroundTaskBuilder();
-
-builder.Name = name;
-builder.TaskEntryPoint = taskEntryPoint;
-builder.SetTrigger(trigger);
-
-//
-// Register the background task, and get back a BackgroundTaskRegistration object representing the registered task.
-//
-var task = builder.Register();
-```
-
-
 
 ## -see-also

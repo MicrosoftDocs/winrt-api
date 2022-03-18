@@ -49,4 +49,4 @@ If you don't specify a language, the voice that most closely corresponds to the 
 
 ## -see-also
 
-[Windows.Media.SpeechSynthesis](windows_media_speechsynthesis.md), [SpeechSynthesizer](speechsynthesizer.md),[Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Windows.Media.SpeechSynthesis](windows_media_speechsynthesis.md), [SpeechSynthesizer](speechsynthesizer.md),[Speech interactions](/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

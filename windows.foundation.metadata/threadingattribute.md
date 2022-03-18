@@ -10,11 +10,11 @@ public class ThreadingAttribute : System.Attribute
 # Windows.Foundation.Metadata.ThreadingAttribute
 
 ## -description
-Indicates the threading model of a Windows Runtime component.
+Indicates the threading model of a Windows Runtime class.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN)
+[Attribute](/dotnet/api/system.attribute?view=dotnet-uwp-10.0&preserve-view=true)

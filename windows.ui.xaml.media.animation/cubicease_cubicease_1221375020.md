@@ -12,6 +12,8 @@ public CubicEase()
 ## -description
 Initializes a new instance of the [CubicEase](cubicease.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.CubicEase.CubicEase](/windows/winui/api/microsoft.ui.xaml.media.animation.cubicease.#ctor).
+
 ## -remarks
 
 ## -examples

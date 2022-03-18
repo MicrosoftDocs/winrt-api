@@ -11,14 +11,13 @@ public struct Matrix3D
 
 ## -description
 Represents a 4 × 4 matrix that is used for transformations in a 3-D space. Used as a value for [Matrix3DProjection.ProjectionMatrix](../windows.ui.xaml.media/matrix3dprojection_projectionmatrix.md).
+Equivalent WinUI struct: [Matrix3D](/windows/winui/api/microsoft.ui.xaml.media.media3d.matrix3d).
+
 ## -xaml-syntax
 ```xaml
 <Matrix3DProjection ProjectionMatrix="m11, m12, m13, m14, 
   m21, m22, m23, m24, m31, m32, m33, m34, offsetX, offsetY, offsetZ, m44" />
-
-```
-
-```xaml
+- or -
 <!--xmlns:m3d="using:Windows.UI.Xaml.Media.Media3D"-->
 <m3d:Matrix3D>
 m11, m12, m13, m14, m21, m22, m23, m24, m31, m32, m33, m34, offsetX, offsetY, offsetZ, m44
@@ -142,5 +141,5 @@ This example uses a simple Matrix3D matrix to transform the image in the X and Y
 [!code-csharp[Matrix3DProjectionSample_code](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml.cs#SnippetMatrix3DProjectionSample_code)]
 
 ## -see-also
-[Matrix3DHelper](matrix3dhelper.md), [Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](https://docs.microsoft.com/windows/uwp/graphics/3-d-perspective-effects)
-projection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](https://docs.microsoft.com/windows/uwp/graphics/3-d-perspective-effects)
+[Matrix3DHelper](matrix3dhelper.md), [Matrix3DProjection](../windows.ui.xaml.media/matrix3dprojection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](/windows/uwp/graphics/3-d-perspective-effects)
+projection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [3-D perspective effects for XAML UI](/windows/uwp/graphics/3-d-perspective-effects)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PasswordRevealModeProperty { get; }
 ## -description
 Identifies the [PasswordRevealMode](passwordbox_passwordrevealmode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.PasswordRevealModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.passwordrevealmodeproperty).
+
 ## -property-value
 The identifier for the [PasswordRevealMode](passwordbox_passwordrevealmode.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [PasswordRevealMode](passwordbox_passwordrevealmode.md) d
 ## -examples
 
 ## -see-also
-[PasswordRevealMode](passwordbox_passwordrevealmode.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[PasswordRevealMode](passwordbox_passwordrevealmode.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

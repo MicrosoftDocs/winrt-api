@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ScrollMode VerticalScrollMode { get;  set; }
 ## -description
 Gets or sets a value that determines how manipulation input influences scrolling behavior on the vertical axis.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.VerticalScrollMode](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.verticalscrollmode).
+
 ## -xaml-syntax
 ```xaml
 <ScrollViewer VerticalScrollMode="scrollModeMemberName" />
@@ -29,3 +31,5 @@ Scrolling behavior can also be set through a `ScrollViewer.VerticalScrollMode` X
 ## -examples
 
 ## -see-also
+
+[Scroll viewer controls](/windows/uwp/design/controls-and-patterns/scroll-controls), [Guidelines for panning](/windows/uwp/design/input/guidelines-for-panning)

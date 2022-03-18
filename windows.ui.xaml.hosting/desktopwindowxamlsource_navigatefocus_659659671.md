@@ -13,6 +13,8 @@ public XamlSourceFocusNavigationResult DesktopWindowXamlSource.NavigateFocus(Xam
 ## -description
 Attempts to programmatically give focus to the [DesktopWindowXamlSource](desktopwindowxamlsource.md) in the desktop application.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Hosting.DesktopWindowXamlSource.NavigateFocus](/windows/winui/api/microsoft.ui.xaml.hosting.desktopwindowxamlsource.navigatefocus).
+
 ## -parameters
 ### -param request
 An object that specifies the reason and other optional info for the focus navigation.

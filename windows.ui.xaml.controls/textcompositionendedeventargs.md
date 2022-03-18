@@ -12,10 +12,12 @@ public class TextCompositionEndedEventArgs : Windows.UI.Xaml.Controls.ITextCompo
 ## -description
 Provides event data for the [TextCompositionEnded](textbox_textcompositionended.md) event on [TextBox](textbox.md) and [RichEditBox](richeditbox.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TextCompositionEndedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.textcompositionendedeventargs).
+
 ## -remarks
 For more info, see the [TextBox.TextCompositionEnded](textbox_textcompositionended.md) and [RichEditBox.TextCompositionEnded](richeditbox_textcompositionended.md) events.
 
 ## -examples
 
 ## -see-also
-[TextBox.TextCompositionEnded](textbox_textcompositionended.md), [RichEditBox.TextCompositionEnded](richeditbox_textcompositionended.md), [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10))
+[TextBox.TextCompositionEnded](textbox_textcompositionended.md), [RichEditBox.TextCompositionEnded](richeditbox_textcompositionended.md), [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10))

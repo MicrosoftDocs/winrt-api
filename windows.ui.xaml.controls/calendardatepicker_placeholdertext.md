@@ -12,6 +12,8 @@ public string PlaceholderText { get;  set; }
 ## -description
 Gets or sets the text that is displayed in the picker's text box until the value is changed by a user action or some other operation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.PlaceholderText](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.placeholdertext).
+
 ## -xaml-syntax
 ```xaml
 <CalendarDatePicker PlaceholderText="string"/>

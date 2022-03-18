@@ -9,13 +9,14 @@ public RawGameController RawGameController.FromGameController(IGameController ga
 
 # Windows.Gaming.Input.RawGameController.FromGameController
 
+
 ## -description
 
 Returns the given game controller as a raw game controller.
 
-## -params
+## -parameters
 
-## -param gameController
+### -param gameController
 
 The game controller to be returned as a raw game controller.
 
@@ -29,6 +30,7 @@ This method checks if the provided game controller has a raw game controller imp
 
 ## -see-also
 
-* [Windows.Gaming.Input.IGameController](igamecontroller.md)
+[Windows.Gaming.Input.IGameController](igamecontroller.md)
 
 ## -examples
+

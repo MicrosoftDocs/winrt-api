@@ -12,6 +12,8 @@ public void SetPreviewPage(System.Int32 pageNumber, Windows.UI.Xaml.UIElement pa
 ## -description
 Sets the specified print page as the current print preview page.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Printing.PrintDocument.SetPreviewPage](/windows/winui/api/microsoft.ui.xaml.printing.printdocument.setpreviewpage).
+
 ## -parameters
 ### -param pageNumber
 The sequence number of the page to preview.
@@ -24,4 +26,4 @@ The root visual object for the requested print page.
 ## -examples
 
 ## -see-also
-[Print from your app](https://docs.microsoft.com/windows/uwp/devices-sensors/print-from-your-app)
+[Print from your app](/windows/uwp/devices-sensors/print-from-your-app)

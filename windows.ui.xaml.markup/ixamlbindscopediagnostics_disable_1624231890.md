@@ -14,6 +14,8 @@ public void IXamlBindScopeDiagnostics.Disable(Int32 lineNumber, Int32 columnNumb
 
 Disables a binding while running in a debugger.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IXamlBindScopeDiagnostics.Disable](/windows/winui/api/microsoft.ui.xaml.markup.ixamlbindscopediagnostics.disable).
+
 ## -parameters
 ### -param lineNumber
 

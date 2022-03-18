@@ -12,6 +12,8 @@ public Windows.ApplicationModel.DataTransfer.DragDrop.DragDropModifiers Modifier
 ## -description
 Gets a flag enumeration indicating the current state of the SHIFT, CTRL, and ALT keys, as well as the state of the mouse buttons.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DragEventArgs.Modifiers](/windows/winui/api/microsoft.ui.xaml.drageventargs.modifiers).
+
 ## -property-value
 One or more members of the [DragDropModifiers](../windows.applicationmodel.datatransfer.dragdrop/dragdropmodifiers.md) flag enumeration.
 
@@ -21,3 +23,5 @@ The effect of a drag-and-drop operation can be adjusted depending on the state o
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

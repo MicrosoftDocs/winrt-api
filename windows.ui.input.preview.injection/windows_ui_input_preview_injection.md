@@ -9,7 +9,7 @@
 Provides support for programmatically generating and automating input from a variety of devices such as keyboard, mouse, touch, pen, and gamepad.
 
 > [!Important]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
 
 ## -remarks
 Using input injection requires the following be added to the Package.appxmanifest:
@@ -25,13 +25,13 @@ Using input injection requires the following be added to the Package.appxmanifes
 
 Here's an example of a touch input injection function.
 
-First, we call [TryCreate](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.inputinjector.trycreate) to instantiate the [InputInjector](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.inputinjector) object.
+First, we call [TryCreate](/uwp/api/windows.ui.input.preview.injection.inputinjector.trycreate) to instantiate the [InputInjector](/uwp/api/windows.ui.input.preview.injection.inputinjector) object.
 
-Then, we call [InitializeTouchInjection](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.inputinjector.initializetouchinjection) with an [InjectedInputVisualizationMode](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.injectedinputvisualizationmode) of `Default`.
+Then, we call [InitializeTouchInjection](/uwp/api/windows.ui.input.preview.injection.inputinjector.initializetouchinjection) with an [InjectedInputVisualizationMode](/uwp/api/windows.ui.input.preview.injection.injectedinputvisualizationmode) of `Default`.
 
-After calculating the point of injection, we call [InjectedInputTouchInfo](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.injectedinputtouchinfo) to initialize the list of touch points to inject (for this example, we create one touch point corresponding to the mouse input pointer).
+After calculating the point of injection, we call [InjectedInputTouchInfo](/uwp/api/windows.ui.input.preview.injection.injectedinputtouchinfo) to initialize the list of touch points to inject (for this example, we create one touch point corresponding to the mouse input pointer).
 
-Finally, we call [InjectTouchInput](https://docs.microsoft.com/uwp/api/windows.ui.input.preview.injection.inputinjector.injecttouchinput) twice, the first for a pointer down and the second for a pointer up.
+Finally, we call [InjectTouchInput](/uwp/api/windows.ui.input.preview.injection.inputinjector.injecttouchinput) twice, the first for a pointer down and the second for a pointer up.
 
 ```csharp
 /// <summary>
@@ -136,9 +136,9 @@ private void InjectTouchForMouse(PointerPoint pointerPoint)
 Here are some downloadable samples demonstrating basic input and input injection:
 
 - [Input injection sample (mouse to touch)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-input-injection-mouse-to-touch.zip)
-- [Touch injection sample](https://go.microsoft.com/fwlink/p/?LinkID=267906)
-- [Input: XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
+- [Touch injection sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20Touch%20injection%20sample)
+- [Input: XAML user input events sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)
 
 ## -see-also
 
-[InitializeTouchInjection](inputinjector_initializetouchinjection_1509714255.md), [Simulate user input through input injection](https://docs.microsoft.com/windows/uwp/design/input/input-injection)
+[InitializeTouchInjection](inputinjector_initializetouchinjection_1509714255.md), [Simulate user input through input injection](/windows/uwp/design/input/input-injection)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PreventKeyboardDisplayOnProgrammaticFo
 ## -description
 Identifies the [PreventKeyboardDisplayOnProgrammaticFocus](textbox_preventkeyboarddisplayonprogrammaticfocus.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.PreventKeyboardDisplayOnProgrammaticFocusProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.preventkeyboarddisplayonprogrammaticfocusproperty).
+
 ## -property-value
 The identifier for the [PreventKeyboardDisplayOnProgrammaticFocus](textbox_preventkeyboarddisplayonprogrammaticfocus.md) dependency property.
 

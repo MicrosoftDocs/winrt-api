@@ -22,4 +22,4 @@ Force feedback is only supported for selected HID (Human Interface Device) contr
 
 ## -see-also
 
-* [Windows.Gaming.Input.ForceFeedback.ForceFeedbackMotor](../windows.gaming.input.forcefeedback/forcefeedbackmotor.md)
+[Windows.Gaming.Input.ForceFeedback.ForceFeedbackMotor](../windows.gaming.input.forcefeedback/forcefeedbackmotor.md)

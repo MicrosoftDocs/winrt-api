@@ -10,7 +10,7 @@ public class SpiConnectionSettings : Windows.Devices.Spi.ISpiConnectionSettings
 # Windows.Devices.Spi.SpiConnectionSettings
 
 ## -description
-Represents the settings for the connection with an [SpiDevice](https://docs.microsoft.com/uwp/api/windows.devices.spi.spidevice).
+Represents the settings for the connection with an [SpiDevice](/uwp/api/windows.devices.spi.spidevice).
 
 ## -remarks
 
@@ -69,6 +69,9 @@ async void Digipot_AD5206()
 } 
 ```
 The following sample shows how to use this and other SPI APIs to initialize an SPI device with non-default connection settings. It does so by reading the light-intensity from an analog Photocell connected to an 8-channel 10-bit ADC108S102 A/D Converter.
+
+> [!NOTE]
+> This sample contains several settings specific to the above devices. You may need to change these settings to account for your specific device. For instance, Raspberry Pi devices support a max 8/9 bit length for SPI.
 
 ```csharp
 // Knowing that an SPI bus with 'spiBusId' exist, and has the ADC connected 

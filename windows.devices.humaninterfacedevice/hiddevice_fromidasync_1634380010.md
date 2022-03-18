@@ -21,17 +21,15 @@ The [DeviceInformation]( http://go.microsoft.com/fwlink/p/?LinkID=296709) ID tha
 Specifies the access mode. The supported access modes are Read and ReadWrite.
 
 ## -returns
-A **HidDevice** object.
+A **HidDevice** object.  If HID device capabilities are absent or incorrect, this will be `null`.
 
 ## -remarks
 The first time this method is invoked by a store app, it should be called from a UI thread in order to display the consent prompt. After the user has granted consent, the method can be invoked from any application thread.
 
-The manifest for your app must declare a specific HID device capability before you invoke this method; and, this capability must map to the capabilities of the target device.
-
-If there is no declaration in the manifest, or, if the declaration specifies a device not supported by the HID API, this method fails with an error of E_ACCESSDENIED.
+The application manifest must declare HID device capabilities before invoking this method. If HID device capabilities are missing or incorrectly specified, the returned value will be `null` and no exception will be thrown.
 
 ## -examples
 
 ## -see-also
 
-[Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)
+[HID Capabilities](windows_devices_humaninterfacedevice.md), [Custom HID device sample](https://github.com/Microsoft/Windows-universal-samples/tree/6370138b150ca8a34ff86de376ab6408c5587f5d/Samples/CustomHidDeviceAccess)

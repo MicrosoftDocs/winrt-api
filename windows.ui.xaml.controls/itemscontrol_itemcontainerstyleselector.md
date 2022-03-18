@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.StyleSelector ItemContainerStyleSelector { get; 
 ## -description
 Gets or sets a reference to a custom [StyleSelector](styleselector.md) logic class. The [StyleSelector](styleselector.md) returns different [Style](../windows.ui.xaml/style.md) values to use for the item container based on characteristics of the object being displayed.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemContainerStyleSelector](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemcontainerstyleselector).
+
 ## -xaml-syntax
 ```xaml
 <itemsControl ItemContainerStyleSelector="styleSelectorReference" />

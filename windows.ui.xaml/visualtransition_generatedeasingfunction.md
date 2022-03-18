@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.EasingFunctionBase GeneratedEasingFunctio
 ## -description
 Gets or sets the easing function applied to the generated animations.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.VisualTransition.GeneratedEasingFunction](/windows/winui/api/microsoft.ui.xaml.visualtransition.generatedeasingfunction).
+
 ## -property-value
 An easing function implementation that is applied to the generated animations.
 
@@ -46,4 +48,4 @@ This XAML example shows the markup for applying a [QuadraticEase](../windows.ui.
 
 
 ## -see-also
-[Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10))
+[Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](/previous-versions/windows/apps/jj819808(v=win.10))

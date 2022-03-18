@@ -10,6 +10,9 @@ public bool AutoDetectLinks { get;  set; }
 # Windows.ApplicationModel.Wallet.WalletItemCustomProperty.AutoDetectLinks
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Gets or sets whether this [WalletItemCustomProperty](walletitemcustomproperty.md) is entity-extracted and actionable upon display.
 
 ## -property-value
@@ -21,4 +24,4 @@ Gets or sets whether this [WalletItemCustomProperty](walletitemcustomproperty.md
 ## -examples
 
 ## -see-also
-[Quickstart: Using the   APIs](https://docs.microsoft.com/previous-versions/windows/apps/dn631257(v=win.10))
+[Quickstart: Using the   APIs](/previous-versions/windows/apps/dn631257(v=win.10))

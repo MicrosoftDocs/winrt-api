@@ -12,6 +12,8 @@ public double CenterY { get;  set; }
 ## -description
 Gets or sets the y-coordinate of the center point of this [ScaleTransform](scaletransform.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ScaleTransform.CenterY](/windows/winui/api/microsoft.ui.xaml.media.scaletransform.centery).
+
 ## -xaml-syntax
 ```xaml
 <ScaleTransform CenterY="double"/>

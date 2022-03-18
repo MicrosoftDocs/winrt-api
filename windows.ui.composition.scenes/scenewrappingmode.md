@@ -14,31 +14,26 @@ public enum SceneWrappingMode : int
 
 Defines constants that specify how wrapping occurs for a scene.
 
+Equivalent WinUI enum: [Microsoft.UI.Composition.Scenes.SceneWrappingMode](/windows/winui/api/microsoft.ui.composition.scenes.scenewrappingmode).
+
 ## -enum-fields
-
-### -field Repeat:3
-
-### -field None:0
-
-### -field MirroredRepeat:2
-
-### -field ClampToEdge:1
 
 ### -field ClampToEdge:0
 
+Clamp to edge.
 
 ### -field MirroredRepeat:1
 
+Mirrored repeat.
 
 ### -field Repeat:2
 
+Repeat.
 
 ## -remarks
 
 ## -see-also
 
+[SceneSurfaceMaterialInput.WrappingUMode](scenesurfacematerialinput_wrappingumode.md), [SceneSurfaceMaterialInput.WrappingVMode](scenesurfacematerialinput_wrappingvmode.md)
+
 ## -examples
-
-
-
-

@@ -13,6 +13,8 @@ public void XamlDirect.SetEnumProperty(IXamlDirectObject xamlDirectObject, XamlP
 ## -description
 Sets the value of an _Enum_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetEnumProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setenumproperty).
+
 ## -parameters
 ### -param xamlDirectObject
 A reference to the specific [IXamlDirectObject](ixamldirectobject.md).

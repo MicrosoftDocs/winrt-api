@@ -12,6 +12,8 @@ public bool Cancel { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the item drag action should be canceled.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DragItemsStartingEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.controls.dragitemsstartingeventargs.cancel).
+
 ## -property-value
 **True** to cancel the item drag action; otherwise, **false**.
 

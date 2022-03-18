@@ -12,6 +12,8 @@ public void Append(Windows.UI.Xaml.Documents.Block value)
 ## -description
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.BlockCollection.Append](/windows/winui/api/microsoft.ui.xaml.documents.blockcollection.append).
+
 ## -parameters
 ### -param value
 The new item to add.

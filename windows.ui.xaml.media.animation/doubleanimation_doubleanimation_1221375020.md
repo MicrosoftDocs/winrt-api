@@ -12,6 +12,8 @@ public DoubleAnimation()
 ## -description
 Initializes a new instance of the [DoubleAnimation](doubleanimation.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimation.DoubleAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimation.#ctor).
+
 ## -remarks
 
 ## -examples

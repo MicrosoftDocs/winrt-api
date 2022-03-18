@@ -12,9 +12,11 @@ public class KeyFrameAnimation : Windows.UI.Composition.CompositionAnimation, Wi
 ## -description
 A time-based animation with one or more key frames. These frames are markers, allowing developers to specify values at specific times for the animating property. KeyFrame animations can be further customized by specifying how the animation interpolates between keyframes.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.KeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.keyframeanimation).
+
 ## -remarks
 
-An animation is associated with an object's property by calling [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) and specifying the property name and the animation. See the remarks section of [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) for a list of animatable properties. See [Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060) for additional information on [ExpressionAnimation](expressionanimation.md)s.
+An animation is associated with an object's property by calling [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) and specifying the property name and the animation. See the remarks section of [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) for a list of animatable properties. See [Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation) for additional information on [ExpressionAnimation](expressionanimation.md)s.
 
 A KeyFrameAnimation does not stop automatically when an app's process is suspended. You must subscribe to app state events and stop or pause your animations before the app is suspended. For more info about app suspension, see [App lifecycle](/windows/uwp/launch-resume/app-lifecycle).
 
@@ -28,4 +30,4 @@ A KeyFrameAnimation does not stop automatically when an app's process is suspend
 ## -examples
 
 ## -see-also
-[Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060), [CompositionAnimation](compositionanimation.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation), [CompositionAnimation](compositionanimation.md), [IClosable](../windows.foundation/iclosable.md)

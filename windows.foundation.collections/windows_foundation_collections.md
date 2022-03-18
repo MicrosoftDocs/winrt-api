@@ -6,10 +6,10 @@
 # Windows.Foundation.Collections
 
 ## -description
-Defines standard, specialized, and generic collection objects. This includes the [IIterable&lt;T&gt;](iiterable_1.md), [IVector&lt;T&gt;](ivector_1.md) and [IMap&lt;K,V&gt;](imap_2.md) generic interfaces, which are used as the pattern for basic collection support throughout the Windows Runtime API.
+Defines standard, specialized, and generic collection objects. This includes the [IIterable<T>](iiterable_1.md), [IVector<T>](ivector_1.md) and [IMap<K,V>](imap_2.md) generic interfaces, which are used as the pattern for basic collection support throughout the Windows Runtime API.
 
 ## -remarks
-Many of the interfaces and objects defined in this namespace have different language equivalents depending on the programming language you are using. For more info on using these interfaces from C++ code, see [Collections (C++/CX)](https://docs.microsoft.com/cpp/cppcx/collections-c-cx). For more info on using collection types from .NET code, see the Remarks in the specific types defined in this namespace.
+Many of the interfaces and objects defined in this namespace have different language equivalents depending on the programming language you are using. For more info on using these interfaces from C++ code, see [Collections (C++/CX)](/cpp/cppcx/collections-c-cx). For more info on using collection types from .NET code, see the Remarks in the specific types defined in this namespace.
 
 ## -examples
 

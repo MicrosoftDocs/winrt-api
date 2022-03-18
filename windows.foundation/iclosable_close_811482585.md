@@ -15,12 +15,12 @@ Releases system resources that are exposed by a Windows Runtime object.
 
 
 > **.NET**
-> This interface appears as [System.IDisposable](https://docs.microsoft.com/dotnet/api/system.idisposable?redirectedfrom=MSDN).
+> This interface appears as [System.IDisposable](/dotnet/api/system.idisposable?view=dotnet-uwp-10.0&preserve-view=true).
 
 
 
 > **C++/CX**
-> This interface appears as [Platform::IDisposable](https://docs.microsoft.com/cpp/cppcx/platform-idisposable-interface).
+> This interface appears as [Platform::IDisposable](/cpp/cppcx/platform-idisposable-interface).
 
 ## -remarks
 Implementation / caller notes that follow are mainly relevant for WRL.
@@ -39,7 +39,7 @@ After Close returns, the object is still in memory but without the system resour
 
 If you call Close multiple times, there is no effect; the method returns **S_OK**.
 
-Close methods aren't callable through Visual C++ component extensions (C++/CX) on Windows Runtime class instances where the class implemented [IClosable](iclosable.md). Instead, Visual C++ component extensions (C++/CX) code for runtime classes should call the destructor or set the last reference to **null**.
+Close methods aren't callable through C++/CX on Windows Runtime class instances where the class implemented [IClosable](iclosable.md) however it's automatically called at the end of the current scope. To call this method explicitly, call the destructor or set the last reference to **null**.
 
 ## -examples
 

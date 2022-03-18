@@ -16,7 +16,7 @@ Gets the minimum zoom level for the associated map.
 The minimum zoom level for the associated map.  
 
 ## -remarks
-See the remarks section of the [MaxZoomLevel](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.maps.mapcontrol.MaxZoomLevel) property.  
+See the remarks section of the [MaxZoomLevel](/uwp/api/windows.ui.xaml.controls.maps.mapcontrol.MaxZoomLevel) property.  
 
 ## -see-also
 

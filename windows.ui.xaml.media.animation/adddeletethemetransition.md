@@ -12,6 +12,8 @@ public class AddDeleteThemeTransition : Windows.UI.Xaml.Media.Animation.Transiti
 ## -description
 Provides the animated transition behavior for when controls add or delete children of a panel. For example, if you have a collection of photos displayed in a [Grid](../windows.ui.xaml.controls/grid.md), you can associate this animation to the [Grid](../windows.ui.xaml.controls/grid.md) so that when photos are added or deleted, the photos will animate in and out of view.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.AddDeleteThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.adddeletethemetransition).
+
 ## -xaml-syntax
 ```xaml
 <AddDeleteThemeTransition .../>
@@ -41,4 +43,4 @@ The following example shows how to use the AddDeleteThemeTransition to animate r
 [!code-csharp[AddDeleteThemeTransition_code](../windows.ui.xaml.media.animation/code/AddDeleteThemeTransition/csharp/BlankPage.xaml.cs#SnippetAddDeleteThemeTransition_code)]
 
 ## -see-also
-[Transition](transition.md), [Guidelines for add and delete animations](https://docs.microsoft.com/windows/uwp/design/motion/motion-list)
+[Transition](transition.md), [Guidelines for add and delete animations](/windows/uwp/design/motion/motion-list)

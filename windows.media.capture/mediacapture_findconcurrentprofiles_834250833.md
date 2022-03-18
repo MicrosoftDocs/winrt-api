@@ -24,11 +24,11 @@ Before calling this method, call [IsVideoProfileSupported](mediacapture_isvideop
 
 This method supports the scenario where you capture video from two capture devices at the same time, such as a device's front camera and rear camera. Call the [GetConcurrency](mediacapturevideoprofile_getconcurrency_2045494455.md) method of one of the [MediaCaptureVideoProfile](mediacapturevideoprofile.md) objects in the returned list to get a list of profiles that can be used concurrently with that profile.
 
-For how-to guidance for working with camera profiles, see [Discover and select camera capabilities with camera profiles](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera-profiles).
+For how-to guidance for working with camera profiles, see [Discover and select camera capabilities with camera profiles](/windows/uwp/audio-video-camera/camera-profiles).
 
 ## -examples
 
 ## -see-also
-[MediaCaptureVideoProfile.GetConcurrency](mediacapturevideoprofile_getconcurrency_2045494455.md), [Discover and select camera capabilities with camera profiles](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera-profiles)
+[MediaCaptureVideoProfile.GetConcurrency](mediacapturevideoprofile_getconcurrency_2045494455.md), [Discover and select camera capabilities with camera profiles](/windows/uwp/audio-video-camera/camera-profiles)
 ## -capabilities
 backgroundMediaRecording

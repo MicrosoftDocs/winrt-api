@@ -13,7 +13,7 @@ public class OnlineIdServiceTicket : Windows.Security.Authentication.OnlineId.IO
 Contains the ticket that is obtained after the user authenticates to this app or has provided consent to access user data stored in Live.
 
 > [!NOTE]
-> If you are developing for Windows 10 or greater, use the [Windows.Security.Authentication.Web.Core](../windows.security.authentication.web.core/windows_security_authentication_web_core.md) APIs instead. For more information, see [Web account manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager).
+> If you are developing for Windows 10 or greater, use the [Windows.Security.Authentication.Web.Core](../windows.security.authentication.web.core/windows_security_authentication_web_core.md) APIs instead. For more information, see [Web account manager](/windows/uwp/security/web-account-manager).
 
 ## -remarks
 To get an instance of this object, use the [UserIdentity.Tickets](useridentity_tickets.md) property.

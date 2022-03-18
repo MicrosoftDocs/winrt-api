@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HeaderTemplateProperty { get; }
 ## -description
 Identifies the [HeaderTemplate](slider_headertemplate.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Slider.HeaderTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.slider.headertemplateproperty).
+
 ## -property-value
 The identifier for the [HeaderTemplate](slider_headertemplate.md) dependency property.
 

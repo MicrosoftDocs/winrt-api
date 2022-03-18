@@ -19,4 +19,4 @@ The result fragment is useful for demonstrating that speech recognition is proce
 ## -examples
 
 ## -see-also
-[SpeechRecognitionHypothesisGeneratedEventArgs](speechrecognitionhypothesisgeneratedeventargs.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[SpeechRecognitionHypothesisGeneratedEventArgs](speechrecognitionhypothesisgeneratedeventargs.md), [Speech interactions](/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

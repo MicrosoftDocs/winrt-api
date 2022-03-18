@@ -14,7 +14,11 @@ public class ToastNotification : Windows.UI.Notifications.IToastNotification, Wi
 Defines the content, associated metadata and events, and expiration time of a toast notification.
 
 ## -remarks
-A desktop app must subscribe to at least the [Activated](toastnotification_activated.md) event to handle activation.
+- Handling activation guidance
+    - UWP Applications should use the [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) for handling toast activations.
+    - Staring WinRT Build 19041, MSIX and Sparsed Sign Packaged applications are able to use [ToastNotificationActionTrigger](../windows.applicationmodel.background/toastnotificationactiontrigger.md) for handling activations [for more details](/windows/uwp/launch-resume/create-and-register-a-winmain-background-task#add-the-support-code-to-instantiate-the-com-class).
+    - Desktop apps can use COM activation by following [Desktop - Send Local Toast](/windows/uwp/design/shell/tiles-and-notifications/send-local-toast-desktop?tabs=msix-sparse#step-1-install-the-notifications-library).
+    - If none of the activation options fit your application, follow the example in this document for properly using event handlers.
 
 ### Version history
 
@@ -82,8 +86,54 @@ yourToastNotification.addEventListener("dismissed", function (e) {
     }
 }
 ```
+**Using Event Handlers**
 
+The following example shows how to add an event handler for toast activation on running desktop apps. ToastNotifications need to be persisted in a list to maintain a reference to the toast for later callbacks. A similar pattern can be followed for dismissed and expired toast events.
+> [!IMPORTANT]
+> Ensure event handlers are unsubscribed to when no longer needed to avoid memory leaks.
+
+```csharp
+class AppNotification
+{
+    protected List<ToastNotification> toastNotificationList = new List<ToastNotification>();
+
+    public void SendToastNotification()
+    {
+        // Constructs the content
+        ToastContent content = new ToastContentBuilder()
+            .AddText("Firing Toast")
+            .GetToastContent();
+
+        // Creates the notification
+        ToastNotification notification = new ToastNotification(content.GetXml());
+
+        //Add an in memory event handler
+        notification.Activated += ToastNotificationCallback_Activated;
+
+        //Adds toast notification to list to persist toast
+        toastNotificationList.Add(notification);
+
+        //Sends the notification
+        ToastNotificationManager.CreateToastNotifier().Show(notification);
+    }
+
+    private void ToastNotificationCallback_Activated(ToastNotification sender, object args)
+    {
+        //Handle Activation Here
+    }
+
+    ~AppNotification()
+    {
+        foreach(ToastNotification tn in toastNotificationList)
+        {
+            //Unsubscribe
+            tn.Activated -= ToastNotificationCallback_Activated;
+        }
+        toastNotificationList.Clear();
+    }
+}
+```
 
 
 ## -see-also
-[Toast notifications sample](https://go.microsoft.com/fwlink/p/?linkid=231503), [Sending toast notifications from desktop apps sample](https://go.microsoft.com/fwlink/p/?linkid=231503), [Toast XML schema](https://docs.microsoft.com/uwp/schemas/tiles/toastschema/schema-root), [Tiles, badges, and notifications](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-badges-notifications), [Quickstart: Sending a toast notification](https://docs.microsoft.com/previous-versions/windows/apps/hh465448(v=win.10)), [Quickstart: Sending a toast push notification](https://docs.microsoft.com/previous-versions/windows/apps/hh465450(v=win.10)), [Quickstart: Sending a toast notification from the desktop](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh802768(v=vs.85)), [Guidelines and checklist for toast notifications](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-badges-notifications), [How to handle activation from a toast notification](https://docs.microsoft.com/previous-versions/windows/apps/hh761468(v=win.10)), [How to opt in for toast notifications](https://docs.microsoft.com/previous-versions/windows/apps/hh781238(v=win.10)), [How to schedule a toast notification](https://docs.microsoft.com/previous-versions/windows/apps/hh465417(v=win.10)), [How to enable desktop toast notifications through an AppUserModelID](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh802762(v=vs.85)), [The toast template catalog](https://docs.microsoft.com/previous-versions/windows/apps/hh761494(v=win.10)), [Toast audio options](https://docs.microsoft.com/previous-versions/windows/apps/hh761492(v=win.10))
+[Toast notifications sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Toast%20notifications%20sample), [Sending toast notifications from desktop apps sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Toast%20notifications%20sample), [Toast XML schema](/uwp/schemas/tiles/toastschema/schema-root), [Tiles, badges, and notifications](/windows/uwp/controls-and-patterns/tiles-badges-notifications), [Quickstart: Sending a toast notification](/previous-versions/windows/apps/hh465448(v=win.10)), [Quickstart: Sending a toast push notification](/previous-versions/windows/apps/hh465450(v=win.10)), [Quickstart: Sending a toast notification from the desktop](/previous-versions/windows/desktop/legacy/hh802768(v=vs.85)), [Guidelines and checklist for toast notifications](/windows/uwp/controls-and-patterns/tiles-badges-notifications), [How to handle activation from a toast notification](/previous-versions/windows/apps/hh761468(v=win.10)), [How to opt in for toast notifications](/previous-versions/windows/apps/hh781238(v=win.10)), [How to schedule a toast notification](/previous-versions/windows/apps/hh465417(v=win.10)), [How to enable desktop toast notifications through an AppUserModelID](/previous-versions/windows/desktop/legacy/hh802762(v=vs.85)), [The toast template catalog](/previous-versions/windows/apps/hh761494(v=win.10)), [Toast audio options](/previous-versions/windows/apps/hh761492(v=win.10))

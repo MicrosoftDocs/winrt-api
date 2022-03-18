@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DayItemFontStyleProperty { get; }
 ## -description
 Identifies the [DayItemFontStyle](calendarview_dayitemfontstyle.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.DayItemFontStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.dayitemfontstyleproperty).
+
 ## -property-value
 The identifier for the [DayItemFontStyle](calendarview_dayitemfontstyle.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [DayItemFontStyle](calendarview_dayitemfontstyle.md)   d
 ## -examples
 
 ## -see-also
-[DayItemFontStyle](calendarview_dayitemfontstyle.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[DayItemFontStyle](calendarview_dayitemfontstyle.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

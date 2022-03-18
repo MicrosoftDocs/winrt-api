@@ -12,6 +12,8 @@ public class DropShadow : Windows.UI.Composition.CompositionShadow, Windows.UI.C
 ## -description
 A drop shadow cast by a [SpriteVisual](spritevisual.md) or [LayerVisual](layervisual.md).
 
+Equivalent WinUI class: [Microsoft.UI.Composition.DropShadow](/windows/winui/api/microsoft.ui.composition.dropshadow).
+
 ## -remarks
 DropShadows are a common way to provide an indication of depth in application UI. To add a DropShadow, create an instance of DropShadow and attach it using the .Shadow property on a [SpriteVisual](spritevisual.md) or [LayerVisual](layervisual.md).
 

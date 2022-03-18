@@ -68,7 +68,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
  //Get the app's installation folder
  StorageFolder^ appFolder = Windows::ApplicationModel::Package::Current->InstalledLocation;
  //Get the files in the current folder
@@ -84,23 +84,6 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
    OutputDebugString(output->Begin());
   }
  });
-```
-
-```javascript
-// Get the app's installation folder.
-var appFolder = Windows.ApplicationModel.Package.current.installedLocation;
-
-// Get the files in the current folder.
-var results = appFolder.createFileQuery();
-
-// Iterate over the results and print the list of files
-// to the Visual Studio Output window.
-var filesInFolderPromise = results.getFilesAsync();
-filesInFolderPromise.done(function getFilesSuccess(filesInFolder) {
-    filesInFolder.forEach(function forEachFile(item) {
-        console.log(item.name);
-    });
-});
 ```
 
 ## -see-also

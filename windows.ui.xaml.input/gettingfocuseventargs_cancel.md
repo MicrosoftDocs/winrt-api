@@ -13,17 +13,19 @@ public bool Cancel { get;  set; }
 
 Gets or sets whether focus navigation should be canceled.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.cancel).
+
 ## -property-value
 
 **true** if focus navigation should be canceled. Otherwise, **false**.
 
 ## -remarks
 
-Apps that target Windows 10, version 1803 or later should use [TryCancel](gettingfocuseventargs_trycancel_50138317.md) instead of this property. If your app also supports previous versions, see [Version adaptive apps: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-apps) for more info.
+Apps that target Windows 10, version 1803 or later should use [TryCancel](gettingfocuseventargs_trycancel_50138317.md) instead of this property. If your app also supports previous versions, see [Version adaptive apps: Use new APIs while maintaining compatibility with previous versions](/windows/uwp/debug-test-perf/version-adaptive-apps) for more info.
 
 ## -see-also
 
-[Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 

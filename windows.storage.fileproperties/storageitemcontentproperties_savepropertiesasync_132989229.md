@@ -30,11 +30,11 @@ Expando properties are accessed using the Windows Runtime storage API. They are 
 
 The names used to identify values in the System.ExpandoProperties set do not need to conform to the system's property naming scheme (which prefixes property names with "System"). They can be any string value.
 
-The system defines some of the names that should be used. For example, "OriginURL" is used to communicate where a locally-stored file came from if it was downloaded from a remote source. (See [Customizing the download experience](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/compatibility/jj542450(v=vs.85)).)
+The system defines some of the names that should be used. For example, "OriginURL" is used to communicate where a locally-stored file came from if it was downloaded from a remote source. (See [Customizing the download experience](/previous-versions/windows/internet-explorer/ie-developer/compatibility/jj542450(v=vs.85)).)
 
 Apps may define and document the properties that they use so other applications can interoperate with them. For example, System.ExpandoProperties can be used to allow a provider app to pass license information to a Universal Office app, to indicate whether a file can be personal or for business.
 
 ## -examples
 
 ## -see-also
-[storageItemContentProperties class](storageitemcontentproperties.md), [storageItemContentProperties.savePropertiesAsync methods, [storageItemContentProperties.savePropertiesAsync() method](storageitemcontentproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md), [System.Dynamic.ExpandoObject](https://docs.microsoft.com/dotnet/api/system.dynamic.expandoobject?redirectedfrom=MSDN)
+[storageItemContentProperties class](storageitemcontentproperties.md), [storageItemContentProperties.savePropertiesAsync() method](storageitemcontentproperties_savepropertiesasync_330113698.md), [Windows.Foundation.Collections.IKeyValuePair interface](../windows.foundation.collections/ikeyvaluepair_2.md), [System.Dynamic.ExpandoObject](/dotnet/api/system.dynamic.expandoobject?view=dotnet-uwp-10.0&preserve-view=true)

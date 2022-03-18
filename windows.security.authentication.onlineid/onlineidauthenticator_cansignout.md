@@ -13,7 +13,7 @@ public bool CanSignOut { get; }
 Indicates whether a user can sign out of the app, and whether to show the sign out link in the app.
 
 > [!NOTE]
-> If you are developing for Windows 10 or greater, use the [Windows.Security.Authentication.Web.Core](../windows.security.authentication.web.core/windows_security_authentication_web_core.md) APIs instead. For more information, see [Web account manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager).
+> If you are developing for Windows 10 or greater, use the [Windows.Security.Authentication.Web.Core](../windows.security.authentication.web.core/windows_security_authentication_web_core.md) APIs instead. For more information, see [Web account manager](/windows/uwp/security/web-account-manager).
 
 ## -property-value
 **True** if the user can sign out and the sign out link should be shown in the app, otherwise **false**.
@@ -39,4 +39,4 @@ if (Boolean(canSignOut)){
 
 
 ## -see-also
-[Windows Account Authorization sample]( http://go.microsoft.com/fwlink/p/?linkid=251224)
+[Windows Account Authorization sample](/samples/browse/)

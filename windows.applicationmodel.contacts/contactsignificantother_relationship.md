@@ -10,7 +10,7 @@ public Windows.ApplicationModel.Contacts.ContactRelationship Relationship { get;
 # Windows.ApplicationModel.Contacts.ContactSignificantOther.Relationship
 
 ## -description
-Gets or puts a value that indicates the nature of the relationship, such as spouse, partner, sibling, parent and so on.
+Gets or sets a value that indicates the nature of the relationship, such as spouse, partner, sibling, parent and so on.
 
 ## -property-value
 A value that indicates the nature of the relationship, such as spouse, partner, sibling, parent and so on.

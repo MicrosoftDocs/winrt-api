@@ -10,10 +10,10 @@ public string Office { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactJobInfo.Office
 
 ## -description
-Gets and sets the office of the job info for a contact. The maximum string length for the office is 40 characters.
+Gets or sets the office of the job info for a contact. The maximum string length for the office is 40 characters.
 
 ## -property-value
-The office of the job info for a contact.
+The office of the job info for a contact. The maximum string length for the office is 40 characters.
 
 ## -remarks
 

@@ -14,6 +14,8 @@ public enum BackgroundSizing : int
 
 Defines constants that specify how far an element's background extends in relation to the element's border.
 
+Equivalent WinUI enum: [Microsoft.UI.Xaml.Controls.BackgroundSizing](/windows/winui/api/microsoft.ui.xaml.controls.backgroundsizing).
+
 ## -enum-fields
 
 ### -field OuterBorderEdge:1

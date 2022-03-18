@@ -14,6 +14,8 @@ public DependencyProperty ShouldConstrainToRootBoundsProperty { get; }
 
 Identifies the [ShouldConstrainToRootBounds](popup_shouldconstraintorootbounds.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Popup.ShouldConstrainToRootBoundsProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.shouldconstraintorootboundsproperty).
+
 ## -property-value
 
 The identifier for the [ShouldConstrainToRootBounds](popup_shouldconstraintorootbounds.md) dependency property.

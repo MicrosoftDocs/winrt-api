@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty VerticalViewSizeProperty { 
 ## -description
 Identifies the [VerticalViewSize](../windows.ui.xaml.automation.provider/iscrollprovider_verticalviewsize.md) automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.ScrollPatternIdentifiers.VerticalViewSizeProperty](/windows/winui/api/microsoft.ui.xaml.automation.scrollpatternidentifiers.verticalviewsizeproperty).
+
 ## -property-value
 The automation property identifier.
 

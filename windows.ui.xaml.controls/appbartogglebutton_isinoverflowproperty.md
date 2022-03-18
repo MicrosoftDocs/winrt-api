@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsInOverflowProperty { get; }
 ## -description
 Identifies the [IsInOverflow](appbartogglebutton_isinoverflow.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarToggleButton.IsInOverflowProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbartogglebutton.isinoverflowproperty).
+
 ## -property-value
 The identifier for the [IsInOverflow](appbartogglebutton_isinoverflow.md) dependency property.
 

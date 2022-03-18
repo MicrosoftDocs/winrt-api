@@ -12,6 +12,8 @@ public uint GetMany(System.UInt32 startIndex, Windows.UI.Xaml.Documents.Block[] 
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.BlockCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.documents.blockcollection.getmany).
+
 ## -parameters
 ### -param startIndex
 The index from which to start retrieval.

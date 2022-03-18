@@ -12,6 +12,8 @@ public Windows.UI.Xaml.ApplicationRequiresPointerMode RequiresPointerMode { get;
 ## -description
 Gets or sets whether a UWP app supports mouse mode, which emulates pointer interaction experiences with non-pointer input devices such as an Xbox gamepad or remote control. (All nested elements inherit this behavior.)
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Application.RequiresPointerMode](/windows/winui/api/microsoft.ui.xaml.application.requirespointermode).
+
 ## -property-value
 The pointer emulation mode. The default is [Auto](applicationrequirespointermode.md) (the default system experience for the input device).
 
@@ -22,10 +24,10 @@ RequiresPointerMode is supported only on the Xbox device family, and only when u
 
 [RequiresPointer](../windows.ui.xaml.controls/control_requirespointer.md) sets mouse mode at the UI element level.
 
-For more info, see the [Mouse mode](https://docs.microsoft.com/windows/uwp/input-and-devices/designing-for-tv) section of [Designing for Xbox and TV](https://docs.microsoft.com/windows/uwp/input-and-devices/designing-for-tv).
+For more info, see the [Mouse mode](/windows/uwp/input-and-devices/designing-for-tv) section of [Designing for Xbox and TV](/windows/uwp/input-and-devices/designing-for-tv).
 
 ## -version-compatibility
-RequiresPointerMode is not available prior to Windows 10, version 1607. If your app’s 'minimum platform version' setting in Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code). 
+RequiresPointerMode is not available prior to Windows 10, version 1607. If your app’s 'minimum platform version' setting in Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code). 
 
 To avoid exceptions when your app runs on previous versions of Windows 10, do not set this property in XAML or use it without performing a runtime check. This example shows how to use the [ApiInformation class](apiinformation.md) to check for the presence of this property before you set it.
 

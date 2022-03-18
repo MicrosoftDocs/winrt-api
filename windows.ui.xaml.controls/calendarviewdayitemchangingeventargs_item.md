@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.CalendarViewDayItem Item { get; }
 ## -description
 Gets the calendar day item associated with this container.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarViewDayItemChangingEventArgs.Item](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitemchangingeventargs.item).
+
 ## -property-value
 The [CalendarViewDayItem](calendarviewdayitem.md) associated with this container, or **null** if no item is associated with this container.
 

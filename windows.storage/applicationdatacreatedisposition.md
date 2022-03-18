@@ -25,4 +25,5 @@ Returns the specified container only if it already exists. Raises an exception o
 See the code example in [ApplicationDataContainer](applicationdatacontainer.md).
 
 ## -see-also
-[Quickstart: Local application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465118(v=win.10)), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data), [Quickstart: Roaming application data (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh465123(v=win.10)), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data), [Store and retrieve settings and other app data](https://docs.microsoft.com/windows/uwp/app-settings/store-and-retrieve-app-data), [ApplicationDataContainer.CreateContainer](applicationdatacontainer_createcontainer_1839874827.md)
+
+[Store and retrieve settings and other app data](/windows/uwp/app-settings/store-and-retrieve-app-data), [ApplicationDataContainer.CreateContainer](applicationdatacontainer_createcontainer_1839874827.md)

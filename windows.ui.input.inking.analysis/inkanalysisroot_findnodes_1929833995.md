@@ -9,12 +9,14 @@ public IVectorView<IInkAnalysisNode> InkAnalysisRoot.FindNodes(InkAnalysisNodeKi
 
 # Windows.UI.Input.Inking.Analysis.InkAnalysisRoot.FindNodes
 
+
 ## -description
-Retrieves the collection of child nodes belonging to the InkAnalysisRoot object. 
 
-## -params
+Retrieves the collection of child nodes belonging to the InkAnalysisRoot object.
 
-## -param nodeKind
+## -parameters
+
+### -param nodeKind
 
 ## -returns
 

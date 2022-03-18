@@ -12,6 +12,8 @@ public Windows.UI.Composition.Interactions.CompositionInteractionSourceCollectio
 ## -description
 A collection of objects that generate interactions.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTracker.InteractionSources](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.interactionsources).
+
 ## -property-value
 A collection of objects that generate interactions.
 

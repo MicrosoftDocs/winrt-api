@@ -12,6 +12,8 @@ public QuadraticEase()
 ## -description
 Initializes a new instance of the [QuadraticEase](quadraticease.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.QuadraticEase.QuadraticEase](/windows/winui/api/microsoft.ui.xaml.media.animation.quadraticease.#ctor).
+
 ## -remarks
 
 ## -examples

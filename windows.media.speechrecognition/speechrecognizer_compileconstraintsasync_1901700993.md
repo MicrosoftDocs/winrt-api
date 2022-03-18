@@ -24,9 +24,9 @@ This method returns an error if:
 + One or more constraints are specified when the recognition session is initialized, recognition is [Paused](speechrecognizerstate.md), all constraints are removed, and recognition is resumed.
 + No constraints are specified when the recognition session is initialized, recognition is [Paused](speechrecognizerstate.md), constraints are added, and recognition is resumed.
 
-To use web-service constraints, speech input and dictation support must be enabled in **Settings** by turning on the "Get to know me" option in the Settings -> Privacy -> Speech, inking, and typing page. See "Recognize speech input" in [Speech recognition](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-recognition).
+To use web-service constraints, speech input and dictation support must be enabled in **Settings** by turning on the "Get to know me" option in the Settings -> Privacy -> Speech, inking, and typing page. See "Recognize speech input" in [Speech recognition](/windows/uwp/input-and-devices/speech-recognition).
 
 ## -examples
 
 ## -see-also
-[Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Speech interactions](/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

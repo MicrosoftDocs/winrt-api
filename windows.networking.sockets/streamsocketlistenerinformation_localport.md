@@ -29,7 +29,7 @@ After the initial bind operation completes, LocalPort is read only and cannot be
 ## -examples
 
 ## -see-also
-[How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [BindEndpointAsync](streamsocketlistener_bindendpointasync_1396029045.md), [BindServiceNameAsync](streamsocketlistener_bindservicenameasync_1713574846.md), [StreamSocketListener](streamsocketlistener.md)
+[How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [BindEndpointAsync](streamsocketlistener_bindendpointasync_1396029045.md), [BindServiceNameAsync](streamsocketlistener_bindservicenameasync_1713574846.md), [StreamSocketListener](streamsocketlistener.md)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

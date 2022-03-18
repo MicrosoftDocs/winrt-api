@@ -12,6 +12,8 @@ public int RowSpan { get; }
 ## -description
 Gets the number of rows spanned by a cell or item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IGridItemProvider.RowSpan](/windows/winui/api/microsoft.ui.xaml.automation.provider.igriditemprovider.rowspan).
+
 ## -property-value
 The number of rows.
 

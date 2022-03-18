@@ -12,6 +12,8 @@ public class RepositionThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline
 ## -description
 Use to animate an object that is being repositioned.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemeanimation).
+
 ## -xaml-syntax
 ```xaml
 <RepositionThemeAnimation .../>
@@ -61,7 +63,7 @@ void DocsCppWinRT::MainPage::Rectangle_PointerReleased(
 }
 ```
 
-```cpp
+```cppcx
 void MyPage::Rectangle_PointerReleased(Object^ sender, PointerRoutedEventArgs^ e)
 {
     myRectangle->Margin = Thickness(400, 0, 0, 0);
@@ -70,4 +72,4 @@ void MyPage::Rectangle_PointerReleased(Object^ sender, PointerRoutedEventArgs^ e
 ```
 
 ## -see-also
-[Timeline](timeline.md), [Animating repositions](https://docs.microsoft.com/previous-versions/windows/apps/jj649434(v=win.10)), [Guidelines and checklist for reposition animations](https://docs.microsoft.com/windows/uwp/style/motion-reposition)
+[Timeline](timeline.md), [Animating repositions](/previous-versions/windows/apps/jj649434(v=win.10)), [Guidelines and checklist for reposition animations](/windows/uwp/style/motion-reposition)

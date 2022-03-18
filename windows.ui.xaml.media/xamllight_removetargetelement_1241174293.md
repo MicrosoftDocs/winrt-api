@@ -9,15 +9,22 @@ public void XamlLight.RemoveTargetElement(String lightId, UIElement element)
 
 # Windows.UI.Xaml.Media.XamlLight.RemoveTargetElement
 
-## -description
-Stops a [UIElement](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.UIElement) from being a target of a [XamlLight](XamlLight.md).
 
-## -params
+## -description
+
+Stops a [UIElement](/uwp/api/Windows.UI.Xaml.UIElement) from being a target of a [XamlLight](XamlLight.md).
+
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.XamlLight.RemoveTargetElement](/windows/winui/api/microsoft.ui.xaml.media.xamllight.removetargetelement).
+
+## -parameters
+
 ### -param lightId
-The identifier for the [XamlLight](XamlLight.md) that should no longer target the [UIElement](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.UIElement).
+
+The identifier for the [XamlLight](XamlLight.md) that should no longer target the [UIElement](/uwp/api/Windows.UI.Xaml.UIElement).
 
 ### -param element
-The [UIElement](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.UIElement) that the light should no longer target.
+
+The [UIElement](/uwp/api/Windows.UI.Xaml.UIElement) that the light should no longer target.
 
 ## -remarks
 

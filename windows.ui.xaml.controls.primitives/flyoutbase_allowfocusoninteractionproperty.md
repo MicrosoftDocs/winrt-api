@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AllowFocusOnInteractionProperty { get;
 ## -description
 Identifies the [AllowFocusOnInteraction](flyoutbase_allowfocusoninteraction.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusOnInteractionProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.allowfocusoninteractionproperty).
+
 ## -property-value
 The identifier for the [AllowFocusOnInteraction](flyoutbase_allowfocusoninteraction.md) dependency property.
 

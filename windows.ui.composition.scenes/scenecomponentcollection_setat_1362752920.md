@@ -14,6 +14,8 @@ public void SceneComponentCollection.SetAt(UInt32 index, SceneComponent value)
 
 Sets the value at the specified index to the specified SceneComponent value.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneComponentCollection.SetAt](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponentcollection.setat).
+
 ## -parameters
 ### -param index
 

@@ -16,7 +16,10 @@ Returns an iterator for the items in the collection.
 The iterator.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) interface.
+When programming with .NET, this interface is hidden, and you should use the [System.Collections.Generic.IEnumerable\<T\>](/dotnet/api/system.collections.generic.ienumerable-1.getenumerator) method.
+
+If changes are made to the collection, such as adding, modifying, or deleting elements,
+the iterator is permitted to raise an exception for all future operations.
 
 ## -examples
 

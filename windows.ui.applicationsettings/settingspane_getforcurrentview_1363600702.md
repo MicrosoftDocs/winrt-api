@@ -11,7 +11,7 @@ public Windows.UI.ApplicationSettings.SettingsPane GetForCurrentView()
 
 ## -description
 > [!NOTE]
-> [SettingsPane](settingspane.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](https://docs.microsoft.com/windows/uwp/app-settings/guidelines-for-app-settings).
+> [SettingsPane](settingspane.md) is deprecated, and might not work on all versions of Windows 10. Instead of using a [SettingsPane](settingspane.md), integrate settings options into the app experience. For more info, see [Guidelines for app settings](/windows/uwp/app-settings/guidelines-for-app-settings).
 
 Gets a [SettingsPane](settingspane.md) object that is associated with the current app view (that is, with [CoreWindow](../windows.ui.core/corewindow.md)).
 

@@ -12,6 +12,8 @@ public int HomeKey(Windows.UI.Text.TextRangeUnit unit, System.Boolean extend)
 ## -description
 Moves the insertion point or the active end of the text selection to the home position, mimicking the functionality of the Home key.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextSelection.HomeKey](/windows/winui/api/microsoft.ui.text.itextselection.homekey).
+
 ## -parameters
 ### -param unit
 The units by which to move the insertion point or active end. The following values are valid.

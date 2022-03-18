@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FlowsFromProperty { get; }
 ## -description
 Gets the identifier for the **FlowsFrom** attached property, which is an array of automation elements that suggests the reading order before the current automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.FlowsFromProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.flowsfromproperty).
+
 ## -property-value
 The identifier for the **FlowsFrom** attached property.
 

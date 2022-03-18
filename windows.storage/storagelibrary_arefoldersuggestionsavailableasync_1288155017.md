@@ -63,4 +63,4 @@ private void PicturesLibrary_DefinitionChanged(StorageLibrary sender, object arg
 ```
 
 > [!NOTE]
-> Don't forget to include the **picturesLibrary** capability in your app's package manifest. For more information on Capabilities in the manifest, see [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
+> Don't forget to include the **picturesLibrary** capability in your app's package manifest. For more information on Capabilities in the manifest, see [App capability declarations](/windows/uwp/packaging/app-capability-declarations).

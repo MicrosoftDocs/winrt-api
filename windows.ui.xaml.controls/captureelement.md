@@ -12,6 +12,8 @@ public class CaptureElement : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.
 ## -description
  Renders a stream from a capture device, such as a camera or webcam.  CaptureElement is used in conjunction with the [Windows.Media.Capture.MediaCapture](../windows.media.capture/mediacapture.md) API, and must be hooked up in the code behind.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CaptureElement](/windows/winui/api/microsoft.ui.xaml.controls.captureelement).
+
 ## -xaml-syntax
 ```xaml
 <CaptureElement .../>
@@ -19,7 +21,7 @@ public class CaptureElement : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.
 
 
 ## -remarks
- CaptureElement is used in conjunction with the [Windows.Media.Capture.MediaCapture](../windows.media.capture/mediacapture.md)  API. Make sure your project has specified device capabilities for Webcam and Microphone to use this API. For more info on how to use CaptureElement, see [Capture photos and video with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-photos-and-video-with-mediacapture).
+ CaptureElement is used in conjunction with the [Windows.Media.Capture.MediaCapture](../windows.media.capture/mediacapture.md)  API. Make sure your project has specified device capabilities for Webcam and Microphone to use this API. For more info on how to use CaptureElement, see [Capture photos and video with MediaCapture](/windows/uwp/audio-video-camera/capture-photos-and-video-with-mediacapture).
 
 Use the [MediaCapture](../windows.media.capture/mediacapture.md) object to control the stream and set options on the capture device. The CaptureElement is the UI portion of the stream that is associated with the [MediaCapture](../windows.media.capture/mediacapture.md).
 
@@ -62,4 +64,4 @@ private async void Button_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [MediaCapture](../windows.media.capture/mediacapture.md), [Capture photos and video with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-photos-and-video-with-mediacapture), [Media capture sample](https://go.microsoft.com/fwlink/p/?linkid=241428), [Camera capture UI sample](https://go.microsoft.com/fwlink/p/?linkid=249441), [Call asynchronous APIs in C# or Visual Basic](https://docs.microsoft.com/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [MediaCapture](../windows.media.capture/mediacapture.md), [Capture photos and video with MediaCapture](/windows/uwp/audio-video-camera/capture-photos-and-video-with-mediacapture), [Media capture sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Media%20capture%20using%20capture%20device%20sample), [Camera capture UI sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/CameraCaptureUI%20Sample), [Call asynchronous APIs in C# or Visual Basic](/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic)

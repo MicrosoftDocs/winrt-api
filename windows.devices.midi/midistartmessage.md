@@ -17,4 +17,4 @@ Represents a MIDI message that specifies a start message.
 ## -examples
 
 ## -see-also
-[IMidiMessage](imidimessage.md), [MIDI  sample](https://go.microsoft.com/fwlink/p/?LinkID=394281)
+[IMidiMessage](imidimessage.md), [MIDI  sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MIDI)

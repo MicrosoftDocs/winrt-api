@@ -26,4 +26,4 @@ Represents a web account authentication provider.
 
 ## -see-also
 
-[Connect to identity providers with Web Account Manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager), [WebAuthenticationBroker sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620622)
+[Connect to identity providers with Web Account Manager](/windows/uwp/security/web-account-manager), [WebAuthenticationBroker sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)

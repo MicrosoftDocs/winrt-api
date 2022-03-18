@@ -12,6 +12,8 @@ public bool IsEnded { get; }
 ## -description
 Indicates whether the [CompositionScopedBatch](compositionscopedbatch.md) has been closed and can no longer accept changes.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionScopedBatch.IsEnded](/windows/winui/api/microsoft.ui.composition.compositionscopedbatch.isended).
+
 ## -property-value
 Boolean indicating whether the [CompositionScopedBatch](compositionscopedbatch.md) has been closed and can no longer accept changes.
 

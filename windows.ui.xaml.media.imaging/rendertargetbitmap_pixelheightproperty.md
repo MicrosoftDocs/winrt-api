@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PixelHeightProperty { get; }
 ## -description
 Identifies the [PixelHeight](rendertargetbitmap_pixelheight.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap.PixelHeightProperty](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap.pixelheightproperty).
+
 ## -property-value
 The identifier for the [PixelHeight](rendertargetbitmap_pixelheight.md) dependency property.
 

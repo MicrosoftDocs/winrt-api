@@ -13,6 +13,8 @@ public Windows.UI.Color LimeGreen { get; }
 
 Gets the system-defined color that has an ARGB value of #FF32CD32.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.LimeGreen](/windows/winui/api/microsoft.ui.colors.limegreen).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF32CD32.

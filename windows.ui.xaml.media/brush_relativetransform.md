@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Transform RelativeTransform { get;  set; }
 ## -description
 Gets or sets the transformation that is applied to the brush using relative coordinates.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Brush.RelativeTransform](/windows/winui/api/microsoft.ui.xaml.media.brush.relativetransform).
+
 ## -xaml-syntax
 ```xaml
 <brush>

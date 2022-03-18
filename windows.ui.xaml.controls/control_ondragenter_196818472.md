@@ -12,6 +12,8 @@ virtual protected void OnDragEnter(Windows.UI.Xaml.DragEventArgs e)
 ## -description
 Called before the [DragEnter](../windows.ui.xaml/uielement_dragenter.md) event occurs.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnDragEnter](/windows/winui/api/microsoft.ui.xaml.controls.control.ondragenter).
+
 ## -parameters
 ### -param e
 Event data for the event.
@@ -21,4 +23,4 @@ Event data for the event.
 ## -examples
 
 ## -see-also
-[UIElement.DragEnter](../windows.ui.xaml/uielement_dragenter.md), [DragEventArgs](../windows.ui.xaml/drageventargs.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)
+[UIElement.DragEnter](../windows.ui.xaml/uielement_dragenter.md), [DragEventArgs](../windows.ui.xaml/drageventargs.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)

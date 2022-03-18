@@ -14,14 +14,14 @@ Creates a [NumeralSystemTranslator](numeralsystemtranslator.md) object initializ
 
 ## -parameters
 ### -param languages
-A list of [BCP-47](https://go.microsoft.com/fwlink/p/?linkid=227302) language tags, in priority order, representing the choice of languages. They must all be well-formed according to [Windows.Globalization.Language.isWellFormed](../windows.globalization/language_iswellformed_1733554260.md).
+A list of [BCP-47](https://tools.ietf.org/html/bcp47) language tags, in priority order, representing the choice of languages. They must all be well-formed according to [Windows.Globalization.Language.isWellFormed](../windows.globalization/language_iswellformed_1733554260.md).
 
 ## -remarks
 This constructor creates an object initialized to use the default numeral system of the first language in *languages* which is known to the system. If none are known, it uses the current runtime language preferred by the user.
 
-If your app passes language tags used in this class to any [National Language Support](https://docs.microsoft.com/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
+If your app passes language tags used in this class to any [National Language Support](/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
 
 ## -examples
 
 ## -see-also
-[NumeralSystemTranslator()](numeralsystemtranslator_numeralsystemtranslator_1221375020.md), [BCP-47 language tags](https://go.microsoft.com/fwlink/p/?linkid=227302)
+[NumeralSystemTranslator()](numeralsystemtranslator_numeralsystemtranslator_1221375020.md), [BCP-47 language tags](https://tools.ietf.org/html/bcp47)

@@ -12,6 +12,8 @@ public Windows.Foundation.Uri UriSource { get;  set; }
 ## -description
 Gets or sets the Uniform Resource Identifier (URI) of the graphics source file that generated this [BitmapImage](bitmapimage.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.UriSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.urisource).
+
 ## -xaml-syntax
 ```xaml
 <BitmapImage UriSource="uri" />
@@ -37,4 +39,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 use the new W
 ## -examples
 
 ## -see-also
-[Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575)
+[Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes), [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty BottomAppBarProperty { get; }
 ## -description
 Identifies the [BottomAppBar](page_bottomappbar.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Page.BottomAppBarProperty](/windows/winui/api/microsoft.ui.xaml.controls.page.bottomappbarproperty).
+
 ## -property-value
 The identifier for the [BottomAppBar](page_bottomappbar.md) dependency property.
 

@@ -16,6 +16,8 @@ Implements a XAML layout surface target for Microsoft DirectX interoperation sce
 > [!IMPORTANT]
 > SwapChainBackgroundPanel may be altered or unavailable for releases after Windows 8.1 Instead, use [SwapChainPanel](swapchainpanel.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SwapChainBackgroundPanel](/windows/winui/api/microsoft.ui.xaml.controls.swapchainbackgroundpanel).
+
 ## -xaml-syntax
 
 ```xaml
@@ -27,11 +29,11 @@ Implements a XAML layout surface target for Microsoft DirectX interoperation sce
 > [!IMPORTANT]
 > SwapChainBackgroundPanel is deprecated and may not be supported in future releases. Change any existing code that used SwapChainBackgroundPanel to use [SwapChainPanel](swapchainpanel.md) instead. There's no downside to using [SwapChainPanel](swapchainpanel.md), the API is new because it relies upon an upgrade in the internal rendering and composition systems that were introduced starting with Windows 8.1.
 
-For most scenarios a [SwapChainPanel](swapchainpanel.md) will provide a more versatile Microsoft DirectX interop render surface than a SwapChainBackgroundPanel does. That's because a [SwapChainPanel](swapchainpanel.md) doesn't have many of the XAML-side composition limitations that are listed in the "Composition limitations" section below. For example you can apply a [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) to a [SwapChainPanel](swapchainpanel.md). For more info, see [DirectX and XAML interop](https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)) and [SwapChainPanel](swapchainpanel.md).
+For most scenarios a [SwapChainPanel](swapchainpanel.md) will provide a more versatile Microsoft DirectX interop render surface than a SwapChainBackgroundPanel does. That's because a [SwapChainPanel](swapchainpanel.md) doesn't have many of the XAML-side composition limitations that are listed in the "Composition limitations" section below. For example you can apply a [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) to a [SwapChainPanel](swapchainpanel.md). For more info, see [DirectX and XAML interop](/previous-versions/windows/apps/hh825871(v=win.10)) and [SwapChainPanel](swapchainpanel.md).
 
 A SwapChainBackgroundPanel is a [Grid](grid.md) subclass, so you can use [ColumnDefinitions](grid_columndefinitions.md) and [RowDefinitions](grid_rowdefinitions.md) properties to declare the panel's characteristics, and the attached properties of [Grid](grid.md) such as [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) on child elements to position those child elements in the layout.
 
-For more info on how to use SwapChainBackgroundPanel, including sample code, see [DirectX and XAML interop](https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)).
+For more info on how to use SwapChainBackgroundPanel, including sample code, see [DirectX and XAML interop](/previous-versions/windows/apps/hh825871(v=win.10)).
 
 The SwapChainBackgroundPanel class does not inherit from the [Control](control.md) class, and you cannot force focus to this element. Events that rely on having focus, such as **KeyUp** and **KeyDown**, may have no effect.
 
@@ -39,7 +41,7 @@ The SwapChainBackgroundPanel class does not inherit from the [Control](control.m
 
 Before a [SwapChainBackgroundPanel](swapchainpanel.md) can render content, you must initialize it from the Microsoft DirectX side.
 
-Cast the SwapChainBackgroundPanel instance to [IInspectable](https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable) or [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown), then call [QueryInterface](https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) to obtain a reference to the [ISwapChainBackgroundPanelNative](https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainbackgroundpanelnative) interface (this is the native interface implementation that is the complement to the SwapChainBackgroundPanel and enables the interop bridge). Then, call [ISwapChainBackgroundPanelNative.SetSwapChain](https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainbackgroundpanelnative-setswapchain) on that reference to associate your implemented swap chain with the SwapChainBackgroundPanel instance.
+Cast the SwapChainBackgroundPanel instance to [IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspectable) or [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown), then call [QueryInterface](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)) to obtain a reference to the [ISwapChainBackgroundPanelNative](/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainbackgroundpanelnative) interface (this is the native interface implementation that is the complement to the SwapChainBackgroundPanel and enables the interop bridge). Then, call [ISwapChainBackgroundPanelNative.SetSwapChain](/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainbackgroundpanelnative-setswapchain) on that reference to associate your implemented swap chain with the SwapChainBackgroundPanel instance.
 
 It's common to put the code that queries the interface and sets the swap chain as part of a **Create*Resources** method. The **Create*Resources** methods are an implementation pattern that's seen in the Microsoft DirectX  **Renderer** class templates/examples.
 
@@ -56,4 +58,4 @@ The API that enables you to add a **SwapChain** to an existing [SwapChainBackgro
 ## -examples
 
 ## -see-also
-[Grid](grid.md), [SwapChainPanel](swapchainpanel.md), [DirectX and XAML interop](https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10))
+[Grid](grid.md), [SwapChainPanel](swapchainpanel.md), [DirectX and XAML interop](/previous-versions/windows/apps/hh825871(v=win.10))

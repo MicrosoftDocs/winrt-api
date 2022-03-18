@@ -19,8 +19,8 @@ A read-only list of [MediaFrameSourceInfo](../windows.media.capture.frames/media
 When you use [MediaCapture](mediacapture.md) to capture from a [MediaFrameSourceGroup](../windows.media.capture.frames/mediaframesourcegroup.md), each individual frame source within the group is described by a [MediaFrameSourceInfo](../windows.media.capture.frames/mediaframesourceinfo.md). This property allows you to retrieve the **MediaFrameSourceInfo** objects that are associated with the [MediaCaptureVideoProfile](mediacapturevideoprofile.md).
 
 ## -see-also
-[Discover and select camera capabilities with camera profiles](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera-profiles),
-[Process media frames with MediaFrameReader](https://docs.microsoft.com/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)
+[Discover and select camera capabilities with camera profiles](/windows/uwp/audio-video-camera/camera-profiles),
+[Process media frames with MediaFrameReader](/windows/uwp/audio-video-camera/process-media-frames-with-mediaframereader)
 
 ## -examples
 

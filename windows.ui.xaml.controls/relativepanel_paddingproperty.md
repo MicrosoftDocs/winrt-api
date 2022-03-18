@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PaddingProperty { get; }
 ## -description
 Identifies the [Padding](relativepanel_padding.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.PaddingProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.paddingproperty).
+
 ## -property-value
 The identifier for the [Padding](relativepanel_padding.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [Padding](relativepanel_padding.md) dependency property.
 ## -examples
 
 ## -see-also
-[Padding](relativepanel_padding.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Padding](relativepanel_padding.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

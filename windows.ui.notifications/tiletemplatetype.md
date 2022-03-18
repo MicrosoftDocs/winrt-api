@@ -11,14 +11,14 @@ public enum Windows.UI.Notifications.TileTemplateType : int
 # TileTemplateType
 
 ## -description
-Specifies the content template to use in a tile update. For a more detailed discussion of each tile, including an example of its XML coding, specifics on each template's image sizes, and use with different versions of the tile XML schema, see [The tile template catalog](https://docs.microsoft.com/previous-versions/windows/apps/hh761491(v=win.10)).
+Specifies the content template to use in a tile update. For a more detailed discussion of each tile, including an example of its XML coding, specifics on each template's image sizes, and use with different versions of the tile XML schema, see [The tile template catalog](/previous-versions/windows/apps/hh761491(v=win.10)).
 
 When displayed on a device set to a right-to-left (RTL) language, some templates are flipped from their left and right descriptions here.
 
-In many of the templates, the last line of text will not display if your tile includes a logo or display name. This does not apply to the large (310 x 310) tiles. For more information on the logo/short name, see [Quickstart: Creating a default tile using the  manifest editor](https://docs.microsoft.com/previous-versions/windows/apps/hh465437(v=win.10)).
+In many of the templates, the last line of text will not display if your tile includes a logo or display name. This does not apply to the large (310 x 310) tiles. For more information on the logo/short name, see [Quickstart: Creating a default tile using the  manifest editor](/previous-versions/windows/apps/hh465437(v=win.10)).
 
 > [!IMPORTANT]
-> Windows 8.1 added new templates for large, square tiles. To distinguish large tiles from medium tiles (known as square tiles in Windows 8), all of the older templates were renamed. To account for this, notification payloads can be declared with a specific version. For compatibility across systems, a fallback attribute has been added so that both the old name and the new name are present. You must understand the distinctions between versions to ensure that your notifications are displayed. For more information, see [Versioned templates](https://docs.microsoft.com/previous-versions/windows/apps/hh761491(v=win.10)).
+> Windows 8.1 added new templates for large, square tiles. To distinguish large tiles from medium tiles (known as square tiles in Windows 8), all of the older templates were renamed. To account for this, notification payloads can be declared with a specific version. For compatibility across systems, a fallback attribute has been added so that both the old name and the new name are present. You must understand the distinctions between versions to ensure that your notifications are displayed. For more information, see [Versioned templates](/previous-versions/windows/apps/hh761491(v=win.10)).
 
 > When displayed on Windows Phone 8.1, some templates do not appear quite the same as they do when displayed on Windows. For instance, peek templates on the phone flip from front to back rather than scrolling up and down. The number of lines of displayed text might be different, sometimes less on the phone, but usually more. Wide tile images on the phone fill the tile with the text overlaid on them rather than having a solid colored text area. Image collection tiles are animated and appear very differently. Differences that you need to be aware of are called out for each value.
 
@@ -71,7 +71,7 @@ One wide image that fills the entire tile, no text. <img src="images/TileWideIma
 One wide image over one string of regular text wrapped over a maximum of two lines (one line on Windows Phone 8.1). The width of the text area depends on whether a logo is displayed. 
 
 > [!NOTE]
-> This template allows [branding](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
+> This template allows [branding](/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
 
 <img src="images/TileWideImageAndText01.png" alt="TileWideImageAndText01 example" />
 
@@ -81,7 +81,7 @@ One wide image over one string of regular text wrapped over a maximum of two lin
 ****: One wide image over one string of regular text on one line. Text does not wrap. The second string is ignored. The width of the text area depends on whether a logo is displayed.
 
 > [!NOTE]
-> This template allows [branding](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1..
+> This template allows [branding](/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1..
 
 <img src="images/TileWideImageAndText02.png" alt="TileWideImageAndText02 example" />
 
@@ -273,9 +273,9 @@ Ten short strings of regular text arranged in two columns of five lines each. Th
 
 ### -field TileSquare150x150Image:0
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareImage**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareImage**
 
 One square image that fills the entire tile, no text.
 
@@ -283,9 +283,9 @@ One square image that fills the entire tile, no text.
 
 ### -field TileSquare150x150Block:1
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareBlock**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareBlock**
 
 One string of large block text (this should be numerical) over a single, short line of regular text.
 
@@ -293,9 +293,9 @@ One string of large block text (this should be numerical) over a single, short l
 
 ### -field TileSquare150x150Text01:2
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareText01**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareText01**
 
 One header string in larger text on the first line; three strings of regular text on each of the next three lines. Text does not wrap.
 
@@ -303,9 +303,9 @@ One header string in larger text on the first line; three strings of regular tex
 
 ### -field TileSquare150x150Text02:3
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareText02**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareText02**
 
 One header string in larger text on the first line, over one string of regular text wrapped over a maximum of three lines.
 
@@ -313,9 +313,9 @@ One header string in larger text on the first line, over one string of regular t
 
 ### -field TileSquare150x150Text03:4
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareText03**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareText03**
 
 Four strings of regular text on four lines. Text does not wrap.
 
@@ -323,9 +323,9 @@ Four strings of regular text on four lines. Text does not wrap.
 
 ### -field TileSquare150x150Text04:5
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareText04**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquareText04**
 
 One string of regular text wrapped over a maximum of four lines.
 
@@ -333,9 +333,9 @@ One string of regular text wrapped over a maximum of four lines.
 
 ### -field TileSquare150x150PeekImageAndText01:6
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquarePeekImageAndText01**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquarePeekImageAndText01**
 
 Top/Front: One square image, no text. Bottom/Back: One header string in larger text on the first line, three strings of regular text on each of the next three lines. Text does not wrap.
 
@@ -343,9 +343,9 @@ Top/Front: One square image, no text. Bottom/Back: One header string in larger t
 
 ### -field TileSquare150x150PeekImageAndText02:7
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquarePeekImageAndText02**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquarePeekImageAndText02**
 
 Top/Front: Square image, no text. Bottom/Back: One header string in larger text on the first line, over one string of regular text wrapped over a maximum of three lines.
 
@@ -353,9 +353,9 @@ Top/Front: Square image, no text. Bottom/Back: One header string in larger text 
 
 ### -field TileSquare150x150PeekImageAndText03:8
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquarePeekImageAndText03**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquarePeekImageAndText03**
 
 Top/Front: Square image, no text. Bottom/Back: Four strings of regular text on four lines. Text does not wrap.
 
@@ -363,9 +363,9 @@ Top/Front: Square image, no text. Bottom/Back: Four strings of regular text on f
 
 ### -field TileSquare150x150PeekImageAndText04:9
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquarePeekImageAndText04**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileSquarePeekImageAndText04**
 
 Top/Front: Square image, no text. Bottom/Back: One string of regular text wrapped over a maximum of four lines.
 
@@ -373,9 +373,9 @@ Top/Front: Square image, no text. Bottom/Back: One string of regular text wrappe
 
 ### -field TileWide310x150Image:10
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideImage**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideImage**
 
 One wide image that fills the entire tile, no text.
 
@@ -383,9 +383,9 @@ One wide image that fills the entire tile, no text.
 
 ### -field TileWide310x150ImageCollection:11
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideImageCollection**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideImageCollection**
 
 ****: One large square image with four smaller square images to its right, no text.
 
@@ -395,37 +395,37 @@ One wide image that fills the entire tile, no text.
 
 ### -field TileWide310x150ImageAndText01:12
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideImageAndText01**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideImageAndText01**
 
 One wide image over one string of regular text wrapped over a maximum of two lines (one line on Windows Phone 8.1). The width of the text area depends on whether a logo is displayed.
 
 > [!NOTE]
-> This template allows [branding](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
+> This template allows [branding](/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
 
 <img src="images/TileWideImageAndText01.png" alt="TileWide310x150ImageAndText01 example" />
 
 ### -field TileWide310x150ImageAndText02:13
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideImageAndText02**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideImageAndText02**
 
 ****: One wide image over two strings of regular text on two lines. Text does not wrap. The width of the text area depends on whether a logo is displayed.
 
 ****: One wide image over one string of regular text on one line. Text does not wrap. The second string is ignored. The width of the text area depends on whether a logo is displayed.
 
 > [!NOTE]
-> This template allows [branding](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
+> This template allows [branding](/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
 
 <img src="images/TileWideImageAndText02.png" alt="TileWide310x150ImageAndText02 example" />
 
 ### -field TileWide310x150BlockAndText01:14
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideBlockAndText01**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideBlockAndText01**
 
 Four strings of regular, unwrapped text on the left; large block text (this should be numerical) over a single, short string of regular text on the right.
 
@@ -436,9 +436,9 @@ Four strings of regular, unwrapped text on the left; large block text (this shou
 
 ### -field TileWide310x150BlockAndText02:15
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideBlockAndText02**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideBlockAndText02**
 
 One string of regular text wrapped over a maximum of four lines on the left; large block text (this should be numerical) over a single, short string of regular text on the right.
 
@@ -446,9 +446,9 @@ One string of regular text wrapped over a maximum of four lines on the left; lar
 
 ### -field TileWide310x150PeekImageCollection01:16
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection01**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection01**
 
 ****: Top: One large square image with four smaller square images to its right, no text. Note that the large image is not quite square; it is slightly wider than it is tall. If you supply a square image, the image will be scaled for width and slightly cropped on the top and bottom.
 
@@ -460,9 +460,9 @@ Bottom/Back: One header string in larger text over one string of regular text wr
 
 ### -field TileWide310x150PeekImageCollection02:17
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection02**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection02**
 
 ****: Top: One large square image with four smaller square images to its right, no text. Note that the large image is not quite square; it is slightly wider than it is tall. If you supply a square image, the image will be scaled for width and slightly cropped on the top and bottom.
 
@@ -474,9 +474,9 @@ Bottom/Back: One header string in larger text on the first line, four strings of
 
 ### -field TileWide310x150PeekImageCollection03:18
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection03**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection03**
 
 ****: Top: One large square image with four smaller square images to its right, no text. Note that the large image is not quite square; it is slightly wider than it is tall. If you supply a square image, the image will be scaled for width and slightly cropped on the top and bottom.
 
@@ -488,9 +488,9 @@ Bottom/Back: One string of large text wrapped over a maximum of three lines.
 
 ### -field TileWide310x150PeekImageCollection04:19
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection04**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection04**
 
 ****: Top: One large square image with four smaller square images to its right, no text. Note that the large image is not quite square; it is slightly wider than it is tall. If you supply a square image, the image will be scaled for width and slightly cropped on the top and bottom.
 
@@ -502,9 +502,9 @@ Bottom/Back: One string of regular text wrapped over a maximum of five lines.
 
 ### -field TileWide310x150PeekImageCollection05:20
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection05**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection05**
 
 ****
 + Top: One large square image with four smaller square images to its right, no text. Note that the large image is not quite square; it is slightly wider than it is tall. If you supply a square image, the image will be scaled for width and slightly cropped on the top and bottom.
@@ -520,9 +520,9 @@ Bottom/Back: One string of regular text wrapped over a maximum of five lines.
 
 ### -field TileWide310x150PeekImageCollection06:21
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection06**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageCollection06**
 
 ****
 + Top: One large square image with four smaller square images to its right, no text. Note that the large image is not quite square; it is slightly wider than it is tall. If you supply a square image, the image will be scaled for width and slightly cropped on the top and bottom.
@@ -538,9 +538,9 @@ Bottom/Back: One string of regular text wrapped over a maximum of five lines.
 
 ### -field TileWide310x150PeekImageAndText01:22
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageAndText01**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageAndText01**
 
 ****: Top: One wide image, with a shorter height than a full-bleed wide image.
 
@@ -552,9 +552,9 @@ Bottom/Back: One string of regular text wrapped over a maximum of five lines.
 
 ### -field TileWide310x150PeekImageAndText02:23
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageAndText02**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImageAndText02**
 
 Top/Front: One wide image, with a shorter height than a full-bleed wide image. Bottom/Back: Five strings of regular text on five lines. Text does not wrap.
 
@@ -562,9 +562,9 @@ Top/Front: One wide image, with a shorter height than a full-bleed wide image. B
 
 ### -field TileWide310x150PeekImage01:24
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage01**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage01**
 
 Top/Front: One wide image. Bottom/Back: One header string in larger text over one string of regular text that wraps over a maximum of four lines.
 
@@ -572,9 +572,9 @@ Top/Front: One wide image. Bottom/Back: One header string in larger text over on
 
 ### -field TileWide310x150PeekImage02:25
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage02**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage02**
 
 Top/Front: One wide image. Bottom/Back: One header string in larger text on the first line, four strings of regular text on the next four lines. Text does not wrap.
 
@@ -582,9 +582,9 @@ Top/Front: One wide image. Bottom/Back: One header string in larger text on the 
 
 ### -field TileWide310x150PeekImage03:26
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage03**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage03**
 
 Top/Front: One wide image. Bottom/Back: One string of large text wrapped over a maximum of three lines.
 
@@ -592,9 +592,9 @@ Top/Front: One wide image. Bottom/Back: One string of large text wrapped over a 
 
 ### -field TileWide310x150PeekImage04:27
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage04**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage04**
 
 Top/Front: One wide image. Bottom/Back: One string of regular text wrapped over a maximum of five lines.
 
@@ -602,9 +602,9 @@ Top/Front: One wide image. Bottom/Back: One string of regular text wrapped over 
 
 ### -field TileWide310x150PeekImage05:28
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage05**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage05**
 
 Top/Front: One wide image.
 
@@ -616,9 +616,9 @@ Top/Front: One wide image.
 
 ### -field TileWide310x150PeekImage06:29
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage06**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWidePeekImage06**
 
 Top/Front: One wide image.
 
@@ -630,9 +630,9 @@ Top/Front: One wide image.
 
 ### -field TileWide310x150SmallImageAndText01:30
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideSmallImageAndText01**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideSmallImageAndText01**
 
 On the left, one small image; on the right, one string of large text wrapped over a maximum of three lines.
 
@@ -643,9 +643,9 @@ On the left, one small image; on the right, one string of large text wrapped ove
 
 ### -field TileWide310x150SmallImageAndText02:31
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideSmallImageAndText02**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideSmallImageAndText02**
 
 On the left, one small image; on the right, one header string in larger text on the first line, four strings of regular text on the next four lines. Text does not wrap.
 
@@ -656,9 +656,9 @@ On the left, one small image; on the right, one header string in larger text on 
 
 ### -field TileWide310x150SmallImageAndText03:32
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideSmallImageAndText03**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideSmallImageAndText03**
 
 On the left, one small image; on the right, one string of regular text wrapped over a maximum of five lines.
 
@@ -669,9 +669,9 @@ On the left, one small image; on the right, one string of regular text wrapped o
 
 ### -field TileWide310x150SmallImageAndText04:33
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideSmallImageAndText04**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideSmallImageAndText04**
 
 On the left, one small image; on the right, one header string of larger text on the first line over one string of regular text wrapped over a maximum of four lines.
 
@@ -682,9 +682,9 @@ On the left, one small image; on the right, one header string of larger text on 
 
 ### -field TileWide310x150SmallImageAndText05:34
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideSmallImageAndText05**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideSmallImageAndText05**
 
 On the left, one header string in larger text over one string of regular text wrapped over a maximum of four lines; on the right, one small image with 3:4 dimensions.
 
@@ -695,9 +695,9 @@ On the left, one header string in larger text over one string of regular text wr
 
 ### -field TileWide310x150Text01:35
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText01**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText01**
 
 One header string in larger text on the first line, four strings of regular text on the next four lines. Text does not wrap.
 
@@ -707,9 +707,9 @@ One header string in larger text on the first line, four strings of regular text
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText02**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText02**
 
 One header string in larger text over eight short strings arranged in two columns of four lines each. Columns are of equal width.
 
@@ -717,9 +717,9 @@ One header string in larger text over eight short strings arranged in two column
 
 ### -field TileWide310x150Text03:37
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText03**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText03**
 
 One string of large text wrapped over a maximum of three lines.
 
@@ -727,9 +727,9 @@ One string of large text wrapped over a maximum of three lines.
 
 ### -field TileWide310x150Text04:38
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText04**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText04**
 
 One string of regular text wrapped over a maximum of five lines.
 
@@ -737,9 +737,9 @@ One string of regular text wrapped over a maximum of five lines.
 
 ### -field TileWide310x150Text05:39
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText05**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText05**
 
 Five strings of regular text on five lines. Text does not wrap.
 
@@ -749,9 +749,9 @@ Five strings of regular text on five lines. Text does not wrap.
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText06**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText06**
 
 Ten short strings of regular text, arranged in two columns of five lines each. Columns are of equal width.
 
@@ -761,9 +761,9 @@ Ten short strings of regular text, arranged in two columns of five lines each. C
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText07**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText07**
 
 One header string in larger text over eight short strings of regular text arranged in two columns of four lines each. The column widths are such that the first column acts as a label and the second column as the content. This template is similar to TileWideText10, but in that template the first column is narrower.
 
@@ -773,9 +773,9 @@ One header string in larger text over eight short strings of regular text arrang
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText08**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText08**
 
 Ten short strings of regular text arranged in two columns of five lines each. The column widths are such that the first column acts as a label and the second column as the content. This template is similar to TileWideText11, but in that template the first column is narrower.
 
@@ -783,9 +783,9 @@ Ten short strings of regular text arranged in two columns of five lines each. Th
 
 ### -field TileWide310x150Text09:43
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText09**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText09**
 
 One header string in larger text over one string of regular text wrapped over a maximum of four lines.
 
@@ -795,9 +795,9 @@ One header string in larger text over one string of regular text wrapped over a 
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText10**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText10**
 
 One header string in larger text over eight short strings of regular text arranged in two columns of four lines each. The column widths are such that the first column acts as a label and the second column as the content. This template is similar to TileWideText07, but in that template the first column is wider.
 
@@ -807,9 +807,9 @@ One header string in larger text over eight short strings of regular text arrang
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
- Windows 8 (Version 1) name/Windows 8.1  [fallback](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText11**
+ Windows 8 (Version 1) name/Windows 8.1  [fallback](/uwp/schemas/tiles/tilesschema/element-binding)attribute value: **TileWideText11**
 
 Ten short strings of regular text arranged in two columns of five lines each. The column widths are such that the first column acts as a label and the second column as the content. This template is similar to TileWideText08, but in that template the first column is wider.
 
@@ -819,7 +819,7 @@ Ten short strings of regular text arranged in two columns of five lines each. Th
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Two main text groups separated by a blank area: 
 + One string of large text, which can wrap over up to two lines, sitting over two strings of unwrapped regular text on two lines.
@@ -832,7 +832,7 @@ Two main text groups separated by a blank area:
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 One string of large block text (this should be numerical); two lines of large header text (no wrap); two sets of two strings in two lines (no wrap). Image in the background. If the text color is light, the image is darkened a bit to improve the text visibility.
 
@@ -842,7 +842,7 @@ One string of large block text (this should be numerical); two lines of large he
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 One image that fills the entire tile; no text.
 
@@ -852,12 +852,12 @@ One image that fills the entire tile; no text.
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 One image above one string of regular text wrapped over a maximum of two lines.
 
 > [!NOTE]
-> This template allows [branding](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
+> This template allows [branding](/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
 
 <img src="images/TileSquare310x310ImageAndText01.jpg" alt="TileSquare310x310ImageAndText01 example" />
 
@@ -865,12 +865,12 @@ One image above one string of regular text wrapped over a maximum of two lines.
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 One image above two strings of regular text on two lines. Text does not wrap.
 
 > [!NOTE]
-> This template allows [branding](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
+> This template allows [branding](/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
 
 <img src="images/TileSquare310x310ImageAndText02.jpg" alt="TileSquare310x310ImageAndText02 example" />
 
@@ -878,7 +878,7 @@ One image above two strings of regular text on two lines. Text does not wrap.
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Background: a single image that fills the entire tile. Foreground: One string of text wrapped over a maximum of three lines. If the text color is light, the image is darkened a bit to improve the text visibility.
 
@@ -888,7 +888,7 @@ Background: a single image that fills the entire tile. Foreground: One string of
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Background: a single image that fills the entire tile. Foreground: At the top, one string of large text wrapped over a maximum of two lines; at the bottom, one string of regular text wrapped over a maximum of three lines. If the text color is light, the image is darkened a bit to improve the text visibility.
 
@@ -898,7 +898,7 @@ Background: a single image that fills the entire tile. Foreground: At the top, o
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Background: a single image that fills the entire tile. Foreground: At the top, one string of large text wrapped over a maximum of two lines; at the bottom, three strings of regular text on three lines that do not wrap. If the text color is light, the image is darkened a bit to improve the text visibility.
 
@@ -908,12 +908,12 @@ Background: a single image that fills the entire tile. Foreground: At the top, o
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 **TileSquare310x310ImageCollection** with the addition of a text ribbon across the bottom of the tile. The text area contains one string of regular text wrapped over a maximum of two lines. Note that the small images cut off the top of the large image while the text area cuts off the bottom of the image.
 
 > [!NOTE]
-> This template allows [branding](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
+> This template allows [branding](/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
 
 <img src="images/TileSquare310x310ImageCollectionAndText01.jpg" alt="TileSquare310x310ImageCollectionAndText01 example" />
 
@@ -921,12 +921,12 @@ Background: a single image that fills the entire tile. Foreground: At the top, o
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 **TileSquare310x310ImageCollection** with the addition of a text ribbon across the bottom of the tile. The text area contains two strings of regular text on two lines. Text does not wrap. Note that the small images cut off the top of the large image while the text area cuts off the bottom of the image.
 
 > [!NOTE]
-> This template allows [branding](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
+> This template allows [branding](/uwp/schemas/tiles/tilesschema/element-binding) only as "logo" or "none", but not "name". If you set the branding attribute to "name", it will automatically revert to "logo" on Windows or "none" on Windows Phone 8.1.
 
 <img src="images/TileSquare310x310ImageCollectionAndText02.jpg" alt="TileSquare310x310ImageCollectionAndText02 example" />
 
@@ -934,7 +934,7 @@ Background: a single image that fills the entire tile. Foreground: At the top, o
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Four small square images overlaid across the top one large, full-tile, square image. Note that the small images cut off the top of the large image.
 
@@ -944,7 +944,7 @@ Four small square images overlaid across the top one large, full-tile, square im
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Three sets of information, each of which consists of one small square image to the left of one header string in larger text over two strings of regular text on the next two lines. Text does not wrap.
 
@@ -954,7 +954,7 @@ Three sets of information, each of which consists of one small square image to t
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Up to three sets of information, each of which consists of one small square image to the left of one string of regular text wrapped over a maximum of three lines.
 
@@ -964,7 +964,7 @@ Up to three sets of information, each of which consists of one small square imag
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Up to three sets of information, each of which consists of one small square image to the left of one string of large text over one string of regular text wrapped over a maximum of two lines.
 
@@ -974,7 +974,7 @@ Up to three sets of information, each of which consists of one small square imag
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Up to three sets of information, each of which consists of one small rectangular image to the right of one string of large text over one string of regular text wrapped over a maximum of two lines.
 
@@ -984,7 +984,7 @@ Up to three sets of information, each of which consists of one small rectangular
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 One line of header text across the top, over three sets of information, each of which consists of one small square image to the left of one header string in larger text over two strings of regular text on the next two lines. Text does not wrap.
 
@@ -994,7 +994,7 @@ One line of header text across the top, over three sets of information, each of 
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 One medium-sized image in the upper left corner (upper right on right-to-left systems) over a single, unwrapped header string. Beneath this are two sets of regular text: the first wrapped over a maximum of two lines, the second a single line only.
 
@@ -1004,7 +1004,7 @@ One medium-sized image in the upper left corner (upper right on right-to-left sy
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 One header string in larger text on the first line, nine strings of regular text on the next nine lines. Text does not wrap.
 
@@ -1014,7 +1014,7 @@ One header string in larger text on the first line, nine strings of regular text
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 One header string in larger text over eighteen short strings arranged in two columns of nine lines each. Columns are of equal width.
 
@@ -1024,7 +1024,7 @@ One header string in larger text over eighteen short strings arranged in two col
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Eleven strings of regular text on eleven lines. Text does not wrap.
 
@@ -1034,7 +1034,7 @@ Eleven strings of regular text on eleven lines. Text does not wrap.
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Twenty-two short strings of regular text, arranged in two columns of eleven lines each. Columns are of equal width. This template is similar to TileSquare310x310Text06 and TileSquare310x310Text08, but those templates have columns of unequal width.
 
@@ -1044,7 +1044,7 @@ Twenty-two short strings of regular text, arranged in two columns of eleven line
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 One header string in larger text over eighteen short strings of regular text arranged in two columns of nine lines each. The column widths are such that the first column acts as a label and the second column as the content. This template is similar to TileSquare310x310Text07, which has an even narrower first column, and TileSquare310x310Text02, which has columns of equal width.
 
@@ -1054,7 +1054,7 @@ One header string in larger text over eighteen short strings of regular text arr
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Twenty-two short strings of regular text arranged in two columns of eleven lines each. The column widths are such that the first column acts as a label and the second column as the content. This template is similar to TileSquare310x310Text08, which has an even narrower first column, and TileSquare310x310Text04, which has columns of equal width.
 
@@ -1064,7 +1064,7 @@ Twenty-two short strings of regular text arranged in two columns of eleven lines
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 One header string in larger text over eighteen short strings of regular text arranged in two columns of nine lines each. The column widths are such that the first column acts as a label and the second column as the content. This template is similar to TileSquare310x310Text05, which has a wider first column, and TileSquare310x310Text02, which has columns of equal width.
 
@@ -1074,7 +1074,7 @@ One header string in larger text over eighteen short strings of regular text arr
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Twenty-two short strings of regular text arranged in two columns of eleven lines each. The column widths are such that the first column acts as a label and the second column as the content. This template is similar to TileSquare310x310Text06, which has a wider first column, and TileSquare310x310Text04, which has columns of equal width.
 
@@ -1084,7 +1084,7 @@ Twenty-two short strings of regular text arranged in two columns of eleven lines
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 One line of header text wrapped over a maximum of two lines. Beneath are two more, slightly separated lines of header text, each one line only. At the bottom are two lines of regular text, each of one line only.
 
@@ -1094,7 +1094,7 @@ One line of header text wrapped over a maximum of two lines. Beneath are two mor
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Three stacked notices, each containing one header string in larger text on the first line, two strings of regular text on the next two lines. Text does not wrap.
 
@@ -1104,7 +1104,7 @@ Three stacked notices, each containing one header string in larger text on the f
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Three stacked notices, each containing one string of regular text wrapped over a maximum of three lines.
 
@@ -1114,26 +1114,17 @@ Three stacked notices, each containing one string of regular text wrapped over a
 **Windows only; not supported on **
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to at least "2".
 
 Three stacked notices, each containing one header string in larger text over one string of regular text wrapped over a maximum of two lines.
 
 <img src="images/TileSquare310x310TextList03.jpg" alt="TileSquare310x310TextList03 example" />
 
-### -field TileSquare99x99IconWithBadge:1000
-**Windows only; not supported on **
-
-### -field TileSquare210x210IconWithBadge:1001
-**Windows only; not supported on **
-
-### -field TileWide432x210IconWithBadgeAndText:1002
-**Windows only; not supported on **
-
 ### -field TileSquare71x71IconWithBadge:75
 ** only**.
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to "3".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to "3".
 
 A single icon image. The icon image's background should be transparent to allow the tile color to show through. A badge, sent through a separate notification, is shown to the right of the image. Unlike other example images on this page, the badge (in this case, the number 13) is included here. This template, being the small tile size, cannot display the app name or logo declared in your manifest.
 
@@ -1143,7 +1134,7 @@ A single icon image. The icon image's background should be transparent to allow 
 ** only**
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to "3".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to "3".
 
 A single icon image. The icon image's background should be transparent to allow the tile color to show through. A badge, sent through a separate notification, is shown to the right of the image. Unlike other example images on this page, the badge (in this case, the number 13) is included here.
 
@@ -1153,7 +1144,7 @@ A single icon image. The icon image's background should be transparent to allow 
 ** only**
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to "3".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to "3".
 
 In the lower right corner, a single icon image. Treat this image as a logo image. The icon image's background should be transparent to allow the tile color to show through. A badge, sent through a separate notification, is shown to the right of the image. Unlike other example images on this page, the badge (in this case, the number 13) is included here.
 
@@ -1168,7 +1159,7 @@ In the upper right corner, one header string in larger text on the first line, t
 ** only**
 
 > [!NOTE]
-> This value requires the version attribute of the template's [visual](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/element-visual)element to be set to "3".
+> This value requires the version attribute of the template's [visual](/uwp/schemas/tiles/tilesschema/element-visual)element to be set to "3".
 
 One square image that fills the entire tile, no text.
 
@@ -1183,4 +1174,4 @@ One rectangular image that fills the entire tile, no text.
 ## -examples
 
 ## -see-also
-[App tiles and badges sample](https://go.microsoft.com/fwlink/p/?linkid=231469), [The tile template catalog](https://docs.microsoft.com/previous-versions/windows/apps/hh761491(v=win.10)), [Tiles XML schema](https://docs.microsoft.com/uwp/schemas/tiles/tilesschema/schema-root), [Tile and tile notification overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779724(v=win.10)), [Tile and toast image sizes](https://docs.microsoft.com/previous-versions/windows/apps/hh781198(v=win.10))
+[App tiles and badges sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/App%20tiles%20and%20badges%20sample), [The tile template catalog](/previous-versions/windows/apps/hh761491(v=win.10)), [Tiles XML schema](/uwp/schemas/tiles/tilesschema/schema-root), [Tile and tile notification overview](/previous-versions/windows/apps/hh779724(v=win.10)), [Tile and toast image sizes](/previous-versions/windows/apps/hh781198(v=win.10))

@@ -12,6 +12,8 @@ public void SetContentFromSoftwareBitmap(Windows.Graphics.Imaging.SoftwareBitmap
 ## -description
 Creates a visual element from a provided [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.md) to represent the dragged data in a drag-and-drop operation, and sets the relative position of the visual from the pointer.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.DragUIOverride.SetContentFromSoftwareBitmap](/windows/winui/api/microsoft.ui.xaml.draguioverride.setcontentfromsoftwarebitmap).
+
 ## -parameters
 ### -param softwareBitmap
 The source image used to create the drag visual.
@@ -24,4 +26,5 @@ The relative position of the drag visual from the pointer.
 ## -examples
 
 ## -see-also
-[SetContentFromSoftwareBitmap(SoftwareBitmap)](draguioverride_setcontentfromsoftwarebitmap_1475637163.md)
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop), [SetContentFromSoftwareBitmap(SoftwareBitmap)](draguioverride_setcontentfromsoftwarebitmap_1475637163.md)

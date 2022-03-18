@@ -20,7 +20,7 @@ The target user. The app will be restarted in the context of this user.
 Launch arguments to pass to the app when it restarts. 
 
 ## -returns
-An asynchronous operation that returns an [AppRestartFailureReason](https://docs.microsoft.com/uwp/api/windows.applicationmodel.core.apprestartfailurereason) object when it completes. 
+An asynchronous operation that returns an [AppRestartFailureReason](/uwp/api/windows.applicationmodel.core.apprestartfailurereason) object when it completes. 
 
 ## -remarks
 

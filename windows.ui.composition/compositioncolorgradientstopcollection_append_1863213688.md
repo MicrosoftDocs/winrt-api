@@ -13,6 +13,8 @@ public void CompositionColorGradientStopCollection.Append(CompositionColorGradie
 
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.Append](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.append).
+
 ## -parameters
 ### -param value
 

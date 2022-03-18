@@ -12,6 +12,8 @@ public ScaleTransform()
 ## -description
 Initializes a new instance of the [ScaleTransform](scaletransform.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.ScaleTransform.ScaleTransform](/windows/winui/api/microsoft.ui.xaml.media.scaletransform.#ctor).
+
 ## -remarks
 
 ## -examples

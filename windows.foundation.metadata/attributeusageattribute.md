@@ -15,12 +15,12 @@ Specifies the use of another attribute.
 
 
 > **.NET**
-> This type appears as [System.AttributeUsageAttribute](https://docs.microsoft.com/dotnet/api/system.attributeusageattribute?redirectedfrom=MSDN).
+> This type appears as [System.AttributeUsageAttribute](/dotnet/api/system.attributeusageattribute?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -remarks
-When programming with .NET, this attribute is hidden and developers should use [System.AttributeUsageAttribute](https://docs.microsoft.com/dotnet/api/system.attributeusageattribute?redirectedfrom=MSDN).
+When programming with .NET, this attribute is hidden and developers should use [System.AttributeUsageAttribute](/dotnet/api/system.attributeusageattribute?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 
 ## -see-also
-[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN)
+[Attribute](/dotnet/api/system.attribute?view=dotnet-uwp-10.0&preserve-view=true)

@@ -12,6 +12,8 @@ public double HorizontalOffset { get; }
 ## -description
 Gets the distance the content has been scrolled horizontally.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewerView.HorizontalOffset](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewerview.horizontaloffset).
+
 ## -property-value
 The distance the content has been scrolled horizontally.
 

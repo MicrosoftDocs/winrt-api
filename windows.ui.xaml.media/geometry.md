@@ -12,6 +12,8 @@ public class Geometry : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Media.
 ## -description
 Provides a base class for objects that define geometric shapes. Geometry objects can be used for clipping regions and as geometry definitions for rendering two-dimensional graphical data as a [Path](../windows.ui.xaml.shapes/path.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Geometry](/windows/winui/api/microsoft.ui.xaml.media.geometry).
+
 ## -remarks
 For properties that take a Geometry, you need to specify a nonabstract derived type of Geometry, as an object element for XAML, or as a defined instance for code. For details, see reference pages for [EllipseGeometry](ellipsegeometry.md), [GeometryGroup](geometrygroup.md), [LineGeometry](linegeometry.md), [PathGeometry](pathgeometry.md), or [RectangleGeometry](rectanglegeometry.md).
 
@@ -47,4 +49,4 @@ Geometry is the parent class for several derived classes that define different c
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [EllipseGeometry](ellipsegeometry.md), [GeometryGroup](geometrygroup.md), [LineGeometry](linegeometry.md), [PathGeometry](pathgeometry.md), [RectangleGeometry](rectanglegeometry.md), [GeometryCollection](geometrycollection.md), [PathIcon.Data](../windows.ui.xaml.controls/pathicon_data.md), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [EllipseGeometry](ellipsegeometry.md), [GeometryGroup](geometrygroup.md), [LineGeometry](linegeometry.md), [PathGeometry](pathgeometry.md), [RectangleGeometry](rectanglegeometry.md), [GeometryCollection](geometrycollection.md), [PathIcon.Data](../windows.ui.xaml.controls/pathicon_data.md), [Draw shapes](/windows/uwp/graphics/drawing-shapes)

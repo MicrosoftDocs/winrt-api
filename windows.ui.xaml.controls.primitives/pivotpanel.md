@@ -12,6 +12,8 @@ public class PivotPanel : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.Contro
 ## -description
 Displays the items in a [Pivot](../windows.ui.xaml.controls/pivot.md) control.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.PivotPanel](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pivotpanel).
+
 ## -xaml-syntax
 ```xaml
 <PivotPanel .../>

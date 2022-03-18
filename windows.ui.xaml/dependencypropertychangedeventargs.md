@@ -12,13 +12,15 @@ public class DependencyPropertyChangedEventArgs : Windows.UI.Xaml.IDependencyPro
 ## -description
 Provides data for a [PropertyChangedCallback](propertychangedcallback.md) implementation that is invoked when a dependency property changes its value. Also provides event data for the [Control.IsEnabledChanged](../windows.ui.xaml.controls/control_isenabledchanged.md) event and any other event that uses the [DependencyPropertyChangedEventHandler](dependencypropertychangedeventhandler.md) delegate.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.dependencypropertychangedeventargs).
+
 ## -remarks
 DependencyPropertyChangedEventArgs provides data for two different situations that involve changes to dependency property values:
 + Situational callback information as used by a [PropertyChangedCallback](propertychangedcallback.md) for a custom dependency property. This is the more common case.
 + Event data for an event based on [DependencyPropertyChangedEventHandler](dependencypropertychangedeventhandler.md). This is less common because the only Windows Runtime event that uses this delegate is the [Control.IsEnabledChanged](../windows.ui.xaml.controls/control_isenabledchanged.md) event. For more info on how to use the DependencyPropertyChangedEventArgs event data in this case, see [DependencyPropertyChangedEventHandler](dependencypropertychangedeventhandler.md) or [Control.IsEnabledChanged](../windows.ui.xaml.controls/control_isenabledchanged.md).
 
 
-A [PropertyChangedCallback](propertychangedcallback.md) implementation is an optional part of the property metadata that you provide when you register a dependency property. The callback is invoked by the dependency property system internally. For more info on dependency properties in general, see [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties) and [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview).
+A [PropertyChangedCallback](propertychangedcallback.md) implementation is an optional part of the property metadata that you provide when you register a dependency property. The callback is invoked by the dependency property system internally. For more info on dependency properties in general, see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties) and [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).
 
 Typically you define the method with private or internal access. The method must be static. Because the method is static, the [DependencyObject](dependencyobject.md) parameter (*d*) of the [PropertyChangedCallback](propertychangedcallback.md) delegate is important. That's what identifies the specific dependency object instance where the property is changing. For many operations, such as correcting or coercing a value, or changing another calculated property value in response on the same object, you'll reference this [DependencyObject](dependencyobject.md). You'll typically want to cast it to the owner type of the property that changes. The owner type is the type referenced by name in the [DependencyProperty.Register](dependencyproperty_register_1826645607.md) call; the metadata where your [PropertyChangedCallback](propertychangedcallback.md) is assigned to property metadata is part of that same call.
 
@@ -47,5 +49,5 @@ This example shows a [PropertyChangedCallback](propertychangedcallback.md) imple
 [!code-vb[ValueChangedCallback](../windows.ui.xaml/code/NumericUpDownCustomControl/vbnet/NumericUpDown.vb#SnippetValueChangedCallback)]
 
 ## -see-also
-[PropertyChangedCallback](propertychangedcallback.md), [PropertyMetadata](propertymetadata.md), [DependencyObject](dependencyobject.md), [DependencyProperty](dependencyproperty.md), [Custom dependency properties](https://docs.microsoft.com/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[PropertyChangedCallback](propertychangedcallback.md), [PropertyMetadata](propertymetadata.md), [DependencyObject](dependencyobject.md), [DependencyProperty](dependencyproperty.md), [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)
 9e66-f71c-4daa-9994-617c886fda7e)

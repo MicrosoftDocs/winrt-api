@@ -13,6 +13,8 @@ public interface ISelectionInfo :
 
 Manages whether items and ranges of items in the data source are selected in the list control.
 
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Data.ISelectionInfo](/windows/winui/api/microsoft.ui.xaml.data.iselectioninfo).
+
 ## -remarks
 
 The ISelectionInfo interface supports virtualization of large data sources for efficient presentation by XAML list controls. The other classes and interfaces that support data source virtualization are the following.

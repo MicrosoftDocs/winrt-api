@@ -21,4 +21,4 @@ This delay is in addition to any [StaggerDelay](animationdescription_staggerdela
 ## -examples
 
 ## -see-also
-[Animation metrics sample](https://go.microsoft.com/fwlink/p/?linkid=242462)
+[Animation metrics sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AnimationMetrics)

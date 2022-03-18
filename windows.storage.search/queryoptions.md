@@ -42,22 +42,6 @@ foreach (StorageFile file in fileList)
 }
 ```
 
-```javascript
-
-// Set query options with filter and sort order for results
-var fileTypeFilter = [".jpg", ".png", ".bmp", ".gif"];
-var queryOptions = new Windows.Storage.Search.QueryOptions(search.CommonFileQuery.orderByName, fileTypeFilter);
-
-// Create query and retrieve files
-var query = Windows.Storage.KnownFolders.picturesLibrary.createFileQueryWithOptions(queryOptions);
-query.getFilesAsync().done(function (files) {
-    // Process results
-    files.forEach(function (file) {
-        // Process file
-    });
-});
-```
-
 This example demonstrates how to use a file query that is backed by the system index to retrieve properties that may rely on another app's property handler (like [Title](../windows.storage.fileproperties/documentproperties_title.md) document property).
 
 ```csharp
@@ -95,35 +79,6 @@ catch (FileNotFoundException)
 }
 ```
 
-```javascript
-
-// Create index backed file query and get results
-var picturesLibrary = Windows.Storage.KnownFolders.picturesLibrary;
-var fileTypeFilter = [".png"];
-var queryOptions = new Windows.Storage.Search.QueryOptions(Windows.Storage.Search.CommonFileQuery.orderByName, fileTypeFilter);
-queryOptions.indexerOption = Windows.Storage.Search.IndexerOption.onlyUseIndexer;
-var fileQuery = picturesLibrary.createFileQueryWithOptions(queryOptions);
-fileQuery.getFilesAsync().then(function (files) {
-    // Process resulting files
-    if (files.size === 0) {
-        // Perform tasks to handle no files found
-    } else {
-        // Access properties for each file
-        files.forEach(function (file) {
-            // Get document properties
-            file.properties.getDocumentPropertiesAsync().done(function (documentProperties) {
-                // Perform tasks with document properties
-                var title = documentProperties.title;
-            });
-        });
-    }
-},
-// Handle errors with an error function
-function (error) {
-    // Handle errors encountered while processing files
-});
-```
-
 ## -see-also
 
-[File search sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620544), [Folder enumeration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration)
+[File search sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileSearch), [Folder enumeration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration)

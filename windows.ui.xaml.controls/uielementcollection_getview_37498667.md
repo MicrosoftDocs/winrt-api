@@ -12,8 +12,10 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.UIElement> Get
 ## -description
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.UIElementCollection.GetView](/windows/winui/api/microsoft.ui.xaml.controls.uielementcollection.getview).
+
 ## -returns
-An object representing the immutable collection view. This object implements [IVectorView&lt;T&gt;](../windows.foundation.collections/ivectorview_1.md) with a [UIElement](../windows.ui.xaml/uielement.md) constraint.
+An object representing the immutable collection view. This object implements [IVectorView<T>](../windows.foundation.collections/ivectorview_1.md) with a [UIElement](../windows.ui.xaml/uielement.md) constraint.
 
 ## -remarks
 

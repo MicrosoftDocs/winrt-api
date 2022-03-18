@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MaxDateProperty { get; }
 ## -description
 Identifies the [MaxDate](calendarview_maxdate.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.MaxDateProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.maxdateproperty).
+
 ## -property-value
 The identifier for the   [MaxDate](calendarview_maxdate.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the   [MaxDate](calendarview_maxdate.md) dependency property
 ## -examples
 
 ## -see-also
-[MaxDate](calendarview_maxdate.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MaxDate](calendarview_maxdate.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -12,6 +12,8 @@ public string Glyph { get;  set; }
 ## -description
 Gets or sets the character code that identifies the icon glyph.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.FontIcon.Glyph](/windows/winui/api/microsoft.ui.xaml.controls.fonticon.glyph).
+
 ## -xaml-syntax
 ```xaml
 <FontIcon Glyph="characterCode"/>
@@ -27,5 +29,24 @@ The hexadecimal character code for the icon glyph.
 ## -remarks
 
 ## -examples
+
+```csharp
+var newAppBarButton = new AppBarButton();
+var fontIcon = new FontIcon();
+fontIcon.FontFamily = new FontFamily("Segoe MDL2 Assets");
+fontIcon.Glyph = "\xE790";
+newAppBarButton.Icon = fontIcon;
+```
+
+```cppwinrt
+using namespace winrt::Windows::UI::Xaml;
+...
+
+auto newAppBarButton = Controls::AppBarButton{};
+auto fontIcon = Controls::FontIcon{};
+fontIcon.FontFamily(Media::FontFamily{ L"Segoe MDL2 Assets" });
+fontIcon.Glyph(L"\xE790");
+newAppBarButton.Icon(fontIcon);
+```
 
 ## -see-also

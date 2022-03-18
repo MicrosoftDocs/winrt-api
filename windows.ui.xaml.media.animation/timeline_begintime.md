@@ -12,6 +12,8 @@ public Windows.Foundation.IReference<Windows.Foundation.TimeSpan> BeginTime { ge
 ## -description
 Gets or sets the time at which this [Timeline](timeline.md) should begin.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.BeginTime](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.begintime).
+
 ## -xaml-syntax
 ```xaml
 <timeline BeginTime="keyTimeString"/>
@@ -24,7 +26,7 @@ Gets or sets the time at which this [Timeline](timeline.md) should begin.
 ## -property-value
 The start time of the time line. The default value is zero. 
 <!--Projection dochack:-->
-If you are programming using C# or Visual Basic, the parameter type of this parameter is projected as **System.TimeSpan?**(a nullable [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN)).
+If you are programming using C# or Visual Basic, the parameter type of this parameter is projected as **System.TimeSpan?**(a nullable [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true)).
 
 ## -remarks
 

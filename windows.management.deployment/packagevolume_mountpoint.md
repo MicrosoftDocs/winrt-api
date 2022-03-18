@@ -21,3 +21,5 @@ This is a cached value. It may not represent the current state of the device or 
 ## -examples
 
 ## -see-also
+
+[Package](/uwp/api/windows.applicationmodel.package)

@@ -12,6 +12,8 @@ public int Count { get; }
 ## -description
 The number of animations in the group.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionAnimationGroup.Count](/windows/winui/api/microsoft.ui.composition.compositionanimationgroup.count).
+
 ## -property-value
 The number of animations in the group.
 

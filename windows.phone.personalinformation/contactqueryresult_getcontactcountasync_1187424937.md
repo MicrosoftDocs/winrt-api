@@ -13,14 +13,14 @@ public Windows.Foundation.IAsyncOperation<uint> GetContactCountAsync()
 Gets the number of contacts in the contact store.
 
 ## -returns
-When this method completes, it returns the number of contacts in the contact store. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is an unsigned integer number.
+When this method completes, it returns the number of contacts in the contact store. If you use [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is an unsigned integer number.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
+[Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
 
 ## -capabilities
 ID_CAP_CONTACTS [Windows Phone]

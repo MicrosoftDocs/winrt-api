@@ -12,6 +12,8 @@ public class CompositionCommitBatch : Windows.UI.Composition.CompositionObject, 
 ## -description
 A group of active animations or effects.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionCommitBatch](/windows/winui/api/microsoft.ui.composition.compositioncommitbatch).
+
 ## -remarks
 Represents a group of active animations or effects and triggers a callback when all members of the group have completed. A CompositionCommitBatch is implicitly created but must be retrieved in order declare the completed event. A Commit batch will be implicitly closed at the end of each commit cycle.
 
@@ -19,7 +21,7 @@ For an animation batch type, the callback triggers when the combined delay and d
 
 The current Commit batch can be retrieved by calling [Compositor.GetCommitBatch](compositor_getcommitbatch_1103907014.md) at any time during the commit cycle. The commit cycle is defined as the time between updates from the compositor. Updates are queued until the system is ready to process the changes and draw bits to the screen. The Commit batch will aggregate all objects within the commit cycle, those before and after [GetCommitBatch](compositor_getcommitbatch_1103907014.md) was called.   The Commit batch is implicitly created on the composition thread, the thread which the compositor is created on. There can only be one compositor per thread hence one Commit batch per thread. A Commit batch must be retrieved in order declare the completed event. A Commit batch will be implicitly closed at the end of each commit cycle and cannot be suspended or resumed, this will result in an error if attempted.
 
-See [Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060) for more information on composition batches.
+See [Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation) for more information on composition batches.
 
 <!--
       <rem><p>There are two types of CompositionBatches, commit batches and scoped batches.</p>
@@ -79,4 +81,4 @@ public void CommitBatchCompleted(object sender, CompositionBatchCompletedEventAr
 
 
 ## -see-also
-[Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md), [CompositionScopedBatch](compositionscopedbatch.md)
+[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md), [CompositionScopedBatch](compositionscopedbatch.md)

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SourcePageTypeProperty { get; }
 ## -description
 Identifies the [SourcePageType](pagestackentry_sourcepagetype.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Navigation.PageStackEntry.SourcePageTypeProperty](/windows/winui/api/microsoft.ui.xaml.navigation.pagestackentry.sourcepagetypeproperty).
+
 ## -property-value
 The identifier for the [SourcePageType](pagestackentry_sourcepagetype.md) dependency property.
 

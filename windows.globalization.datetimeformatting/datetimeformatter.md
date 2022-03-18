@@ -16,10 +16,10 @@ Formats dates and times.
 ## -remarks
 
 > [!NOTE]
-> This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See [Prepare your application for the Japanese era change](https://docs.microsoft.com/windows/uwp/design/globalizing/japanese-era-change) for more information.
+> This API is being updated to support the May 2019 Japanese era change. If your application supports the Japanese calendar, you should validate that it properly handles the new era. See [Prepare your application for the Japanese era change](/windows/uwp/design/globalizing/japanese-era-change) for more information.
 
 > [!NOTE]
-> If your app passes language tags used in this class to any [National Language Support](https://docs.microsoft.com/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
+> If your app passes language tags used in this class to any [National Language Support](/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
 
 Some of the constructors for DateTimeFormatter take a *formatTemplate* string parameter that specifies the requested components to be formatted. This parameter can be either a **format template** or a **format pattern**. Format templates are convenient to use and provide formatting which is typical for the language, clock and calendar that you specify. Format patterns provide greater control of output than format templates. If you need formatting that is non-standard, use format patterns instead of templates.
 
@@ -126,16 +126,6 @@ The following table shows sample output from formatters created with various val
 ## -examples
 
 Use the DateTimeFormatter class to format a date.
-
-```javascript
-// Format a date via a string template. Note that the order specifed in the string pattern does
-// not determine the order of the parts of the formatted string. The user's language and region
-// preferences will determine the pattern of the date returned based on the specified parts.
-
-var mydatefmt = new Windows.Globalization.DateTimeFormatting.DateTimeFormatter("month day dayofweek year");
-var dateToFormat = new Date();
-var mydate = mydatefmt.format(dateToFormat);
-```
 
 ```csharp
 // Format a date via a string template. Note that the order specifed in the string pattern does
@@ -336,4 +326,4 @@ var mydate = formatter.Format(dateToFormat);
 
 ## -see-also
 
-[Date and time formatting sample](https://go.microsoft.com/fwlink/p/?LinkId=231618), [Date and time formatting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624044)
+[Date and time formatting sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Date%20and%20time%20formatting%20sample), [Date and time formatting sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624044)

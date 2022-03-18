@@ -12,6 +12,8 @@ public bool CanChangeViews { get;  set; }
 ## -description
 Gets or sets a value that declares whether the [SemanticZoom](semanticzoom.md) can change display views.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SemanticZoom.CanChangeViews](/windows/winui/api/microsoft.ui.xaml.controls.semanticzoom.canchangeviews).
+
 ## -xaml-syntax
 ```xaml
 <SemanticZoom CanChangeViews="bool" />

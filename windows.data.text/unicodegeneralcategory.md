@@ -106,11 +106,11 @@ Character that is not assigned to any Unicode category. Signified by the Unicode
 
 
 ## -remarks
-A member of this enumeration is returned by [GetGeneralCategory](unicodecharacters_getgeneralcategory_1785789586.md). A Unicode general category defines the broad classification of a character— that is, designation as a type of letter, decimal digit, separator, mathematical symbol, punctuation, and so on. See the [Unicode Standard Annex #44](https://go.microsoft.com/fwlink/p/?LinkId=325407).
+A member of this enumeration is returned by [GetGeneralCategory](unicodecharacters_getgeneralcategory_1785789586.md). A Unicode general category defines the broad classification of a character— that is, designation as a type of letter, decimal digit, separator, mathematical symbol, punctuation, and so on. See the [Unicode Standard Annex #44](https://www.unicode.org/reports/tr44/#General_Category_Values).
 
-The values of this enumeration are compatible with the Microsoft .NET  [System.Globalization.UnicodeGeneralCategory](https://go.microsoft.com/fwlink/p/?LinkId=302007) enumeration.
+The values of this enumeration are compatible with the Microsoft .NET  [System.Globalization.UnicodeGeneralCategory](/dotnet/api/system.globalization.unicodecategory?view=dotnet-uwp-10.0&preserve-view=true) enumeration.
 
 ## -examples
 
 ## -see-also
-[GetGeneralCategory](unicodecharacters_getgeneralcategory_1785789586.md), [System.Globalization.UnicodeGeneralCategory](https://go.microsoft.com/fwlink/p/?LinkId=302007), [Unicode Standard Annex #44](https://go.microsoft.com/fwlink/p/?LinkId=325407)
+[GetGeneralCategory](unicodecharacters_getgeneralcategory_1785789586.md), [System.Globalization.UnicodeGeneralCategory](/dotnet/api/system.globalization.unicodecategory?view=dotnet-uwp-10.0&preserve-view=true), [Unicode Standard Annex #44](https://www.unicode.org/reports/tr44/#General_Category_Values)

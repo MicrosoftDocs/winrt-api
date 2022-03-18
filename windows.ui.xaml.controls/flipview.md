@@ -12,6 +12,8 @@ public class FlipView : Windows.UI.Xaml.Controls.Primitives.Selector, Windows.UI
 ## -description
 Represents an items control that displays one item at a time, and enables "flip" behavior for traversing its collection of items.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.FlipView](/windows/winui/api/microsoft.ui.xaml.controls.flipview).
+
 ## -xaml-syntax
 ```xaml
 <FlipView .../>
@@ -30,20 +32,22 @@ FlipView is an [ItemsControl](itemscontrol.md), so it can contain a collection o
 By default, a data item is displayed in the FlipView as the string representation of the data object it's bound to. To specify exactly how items in the FlipView are displayed, you create a [DataTemplate](../windows.ui.xaml/datatemplate.md) to define the layout of controls used to display an individual item. The controls in the layout can be bound to properties of a data object, or have content defined inline. You assign the [DataTemplate](../windows.ui.xaml/datatemplate.md) to the [ItemTemplate](itemscontrol_itemtemplate.md) property of the FlipView.
 
 For more info, see these topics:
-+ [Quickstart: Adding FlipView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh781233(v=win.10))
-+ [How to add a flip  view](https://docs.microsoft.com/previous-versions/windows/apps/jj150601(v=win.10))
++ [Quickstart: Adding FlipView controls](/previous-versions/windows/apps/hh781233(v=win.10))
++ [How to add a flip  view](/previous-versions/windows/apps/jj150601(v=win.10))
 
 
 > [!NOTE]
 > When a user flips through FlipView content using touch interaction, a [SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md) event occurs only when touch manipulations are complete. This means that when a user flips through content quickly, individual [SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md) events are not always generated for every item because the manipulation is still occurring.
 
-For more examples, see [XAML FlipView sample](https://go.microsoft.com/fwlink/p/?LinkID=311760).
+If you need to handle pointer events for a [UIElement](../windows.ui.xaml/uielement.md) in a scrollable view (such as a ScrollViewer), you must explicitly disable support for manipulation events on the element in the view by calling [UIElement.CancelDirectmanipulation()](../windows.ui.xaml/uielement_canceldirectmanipulations_1164631120.md). To re-enable manipulation events in the view, call [UIElement.TryStartDirectManipulation()](../windows.ui.xaml/uielement_trystartdirectmanipulation_1983346775.md).
+
+For more examples, see [XAML FlipView sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20FlipView%20control%20sample).
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](/windows/uwp/controls-and-patterns/styling-controls) article.
 
 This table shows the resources used by the FlipView control.
 
@@ -75,4 +79,4 @@ In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a FlipView 
 [!code-xaml[FlipViewItemTemplate](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/SplitPage.xaml#SnippetFlipViewItemTemplate)]
 
 ## -see-also
-[Selector](../windows.ui.xaml.controls.primitives/selector.md), [FlipView styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML FlipView sample](https://go.microsoft.com/fwlink/p/?LinkID=311760), [Guidelines for flip view controls](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/flipview)
+[Selector](../windows.ui.xaml.controls.primitives/selector.md), [FlipView styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [XAML FlipView sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20FlipView%20control%20sample), [Guidelines for flip view controls](/windows/uwp/design/controls-and-patterns/flipview)

@@ -12,6 +12,8 @@ public bool IsDoubleTapEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines whether the [DoubleTapped](uielement_doubletapped.md) event can originate from that element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.IsDoubleTapEnabled](/windows/winui/api/microsoft.ui.xaml.uielement.isdoubletapenabled).
+
 ## -xaml-syntax
 ```xaml
 <uiElement IsDoubleTapEnabled="bool" />
@@ -29,4 +31,4 @@ Another reason to suppress gesture events is if you are handling pointer-level e
 ## -examples
 
 ## -see-also
-[DoubleTapped](uielement_doubletapped.md), [OnDoubleTapped](../windows.ui.xaml.controls/control_ondoubletapped_1132552853.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)
+[DoubleTapped](uielement_doubletapped.md), [OnDoubleTapped](../windows.ui.xaml.controls/control_ondoubletapped_1132552853.md), [Handle pointer input](/windows/uwp/design/input/handle-pointer-input)

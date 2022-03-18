@@ -25,4 +25,4 @@ Unlike [RequestTokenAsync](webauthenticationcoremanager_requesttokenasync_177753
 ## -examples
 
 ## -see-also
-[Web account management code sample](https://go.microsoft.com/fwlink/p/?LinkId=620621), [GetTokenSilentlyAsync(WebTokenRequest, WebAccount)](webauthenticationcoremanager_gettokensilentlyasync_35561430.md)
+[Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [GetTokenSilentlyAsync(WebTokenRequest, WebAccount)](webauthenticationcoremanager_gettokensilentlyasync_35561430.md)

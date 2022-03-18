@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ContentTranslationDirectionProperty { 
 ## -description
 Identifies the [ContentTranslationDirection](splitopenthemeanimation_contenttranslationdirection.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation.ContentTranslationDirectionProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation.contenttranslationdirectionproperty).
+
 ## -property-value
 The identifier for the [ContentTranslationDirection](splitopenthemeanimation_contenttranslationdirection.md) dependency property.
 

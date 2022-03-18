@@ -14,6 +14,8 @@ public SceneMaterialInput NormalInput { get;  set; }
 
 Gets or sets the input for material's normal.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.NormalInput](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.normalinput).
+
 ## -property-value
 
 The input for for material's base normal.

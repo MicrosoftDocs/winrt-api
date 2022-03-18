@@ -12,14 +12,13 @@ public Windows.UI.Xaml.Style CommandBarOverflowPresenterStyle { get;  set; }
 ## -description
 Gets or sets the [Style](../windows.ui.xaml/style.md) applied to the overflow content of the [CommandBar](commandbar.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CommandBar.CommandBarOverflowPresenterStyle](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.commandbaroverflowpresenterstyle).
+
 ## -xaml-syntax
 ```xaml
 
 <CommandBar CommandBarOverflowPresenterStyle={StaticResource styleResourceKey}/>
-
-```
-
-```xaml
+- or -
 <CommandBar>
   <CommandBar.CommandBarOverflowPresenterStyle>
     <Style TargetType="CommandBarOverflowPresenter">

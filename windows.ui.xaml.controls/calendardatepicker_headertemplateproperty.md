@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HeaderTemplateProperty { get; }
 ## -description
 Identifies the [HeaderTemplate](calendardatepicker_headertemplate.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.HeaderTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.headertemplateproperty).
+
 ## -property-value
 The identifier for the [HeaderTemplate](calendardatepicker_headertemplate.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [HeaderTemplate](calendardatepicker_headertemplate.md) de
 ## -examples
 
 ## -see-also
-[HeaderTemplate](calendardatepicker_headertemplate.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[HeaderTemplate](calendardatepicker_headertemplate.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

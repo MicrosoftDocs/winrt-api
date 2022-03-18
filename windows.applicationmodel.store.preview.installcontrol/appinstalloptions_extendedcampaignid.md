@@ -19,6 +19,6 @@ The extended promotion campaign ID that is associated with the app to install.
 ## -remarks
 
 ## -see-also
-[Create a custom app promotion campaign](https://docs.microsoft.com/windows/uwp/publish/create-a-custom-app-promotion-campaign)
+[Create a custom app promotion campaign](/windows/uwp/publish/create-a-custom-app-promotion-campaign)
 
 ## -examples

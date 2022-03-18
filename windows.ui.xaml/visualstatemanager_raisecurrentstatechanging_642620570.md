@@ -12,6 +12,8 @@ protected void RaiseCurrentStateChanging(Windows.UI.Xaml.VisualStateGroup stateG
 ## -description
 When overridden in a derived class, fires the [CurrentStateChanging](visualstategroup_currentstatechanging.md) event on the specified [VisualStateGroup](visualstategroup.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.VisualStateManager.RaiseCurrentStateChanging](/windows/winui/api/microsoft.ui.xaml.visualstatemanager.raisecurrentstatechanging).
+
 ## -parameters
 ### -param stateGroup
 The object that the [CurrentStateChanging](visualstategroup_currentstatechanging.md) event occurred on.

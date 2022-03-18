@@ -74,7 +74,7 @@ IAsyncAction MainPage::CopyFileAsync()
 }
 ```
 
-```cpp
+```cppcx
 //Get the app's temporary folder
 StorageFolder^ sourceFolder = ApplicationData::Current->TemporaryFolder;
 StorageFolder^ targetFolder = ApplicationData::Current->LocalFolder;
@@ -92,36 +92,6 @@ auto copyFileTask = create_task(sourceFolder->CreateFileAsync(newFileName, Windo
     return create_task(copyFileTask);
 }).then([](StorageFile^ copiedFile) {
     //do something with copied file
-});
-```
-
-```javascript
-// Get the app's temporary folder.
-var ApplicationData = Windows.Storage.ApplicationData;
-var tempFolder = ApplicationData.current.temporaryFolder;
-
-// Create a sample file in the temporary folder.
-var newFileName = "test.txt";
-var newFilePromise = tempFolder.createFileAsync(newFileName);
-var copiedFilePromise = newFilePromise.then(function (newFile) 
-{
-    // Get the app's local folder to use as the destination folder.
-    var localFolder = ApplicationData.current.localFolder;
-
-    // Specify a new name for the copied file.
-    var renamedFileName = "renamed_test.txt";
-
-    // Copy the file to the destination folder and rename it.
-    // Replace the existing file if the file already exists.
-    var NameCollisionOption = Windows.Storage.NameCollisionOption;
-    return newFile.copyAsync(localFolder, renamedFileName, NameCollisionOption.replaceExisting);
-});
-copiedFilePromise.done(function copySuccess(copiedFile) 
-{
-    // File was copied to the destination folder.
-}, function copyFail(failure) 
-{
-    // File creation or copy failed.
 });
 ```
 

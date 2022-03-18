@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FlowsToProperty { get; }
 ## -description
 Gets the identifier for the **FlowsTo** attached property, which is an array of automation elements that suggests the reading order after the current automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.FlowsToProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.flowstoproperty).
+
 ## -property-value
 The identifier for the "flows to" attached property.
 

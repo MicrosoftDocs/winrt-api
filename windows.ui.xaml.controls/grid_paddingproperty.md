@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PaddingProperty { get; }
 ## -description
 Identifies the [Padding](grid_padding.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.PaddingProperty](/windows/winui/api/microsoft.ui.xaml.controls.grid.paddingproperty).
+
 ## -property-value
 The identifier for the [Padding](grid_padding.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [Padding](grid_padding.md) dependency property.
 ## -examples
 
 ## -see-also
-[Padding](grid_padding.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Padding](grid_padding.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

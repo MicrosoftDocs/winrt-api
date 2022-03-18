@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush Background { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that fills the background (inner area) of the border.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Border.Background](/windows/winui/api/microsoft.ui.xaml.controls.border.background).
+
 ## -xaml-syntax
 ```xaml
 <Border Background="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <Border Background="colorString"/>
-
-```
-
-```xaml
+- or -
 <Border>
   <Border.Background>singleBrush</Border.Background>
 </Border>
@@ -50,4 +46,4 @@ The following example shows how to set the background of a [Border](border.md) t
 [!code-xaml[BackgroundCorner](../windows.ui.xaml.controls/code/BorderSample2/csharp/Page.xaml#SnippetBackgroundCorner)]
 
 ## -see-also
-[Child](border_child.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Child](border_child.md), [Use brushes](/windows/uwp/graphics/using-brushes)

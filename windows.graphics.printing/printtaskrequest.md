@@ -20,26 +20,35 @@ An app should do the minimum amount of work possible in the [PrintTaskRequested]
 
 If an app needs to perform an asynchronous operation during the [PrintTaskRequested](printmanager_printtaskrequested.md) handler it must retrieve and use a [PrintTaskRequestedDeferral](printtaskrequesteddeferral.md) object. Prior to the exit of the event handler, and typically before the asynchronous operation is started, the app must retrieve the **PrintTaskRequestedDeferral** object by calling the [GetDeferral](printtaskrequest_getdeferral_254836512.md) method of the PrintTaskRequest object. When the asynchronous operation completes, the app must call the [Complete](printtaskrequesteddeferral_complete_1807836922.md) method of the [PrintTaskRequestedDeferral](printtaskrequesteddeferral.md) object to signal that the print task request is complete. The call to the **Complete** method must occur before the [Deadline](printtaskrequest_deadline.md) is reached in order for the request to be accepted.
 
-The **CreatePrintTask** method in **PrintTaskRequest** can be used to create the print task. Here is a JavaScript code snippet showing the creation of a print task:
+The **CreatePrintTask** method in **PrintTaskRequest** can be used to create the print task. Here is a code snippet from the [UWP print sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Printing) that shows the creation of a print task:
 
+```csharp
+protected virtual void PrintTaskRequested(PrintManager sender, PrintTaskRequestedEventArgs e)
+{
+    PrintTask printTask = null;
+    printTask = e.Request.CreatePrintTask("C# Printing SDK Sample", sourceRequested =>
+    {
+        // Print Task event handler is invoked when the print job is completed.
+        printTask.Completed += async (s, args) =>
+        {
+            // Notify the user when the print operation fails.
+            if (args.Completion == PrintTaskCompletion.Failed)
+            {
+                await scenarioPage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                {
+                    MainPage.Current.NotifyUser("Failed to print.", NotifyType.ErrorMessage);
+                });
+            }
+        };
 
-
-
-
-```javascript
-    // Print event handler for printing via the PrintManager API.
-    // printEvent contains the print task request object
-    function onPrintTaskRequested(printEvent) {
-        printEvent.request.createPrintTask("Print Sample", function (args) {
-            args.setSource(MSApp.getHtmlPrintDocumentSource(document));
-        }); 
-    }
-
+        sourceRequested.SetSource(printDocumentSource);
+    });
+}
 ```
 
-For more information on this and other printing scenarios, see [Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10)) on the Windows Dev Center.
+For more information on this and other printing scenarios, see [Printing](/windows/uwp/devices-sensors/print-from-your-app) and the [UWP print sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Printing).
 
 ## -examples
 
 ## -see-also
-[Printing](https://docs.microsoft.com/previous-versions/windows/apps/hh465225(v=win.10))
+[Printing](/windows/uwp/devices-sensors/print-from-your-app)

@@ -12,6 +12,8 @@ public bool IsGlyphVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the glyph is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DragUIOverride.IsGlyphVisible](/windows/winui/api/microsoft.ui.xaml.draguioverride.isglyphvisible).
+
 ## -property-value
 **true** if the glyph is shown; otherwise, **false**.
 
@@ -20,3 +22,5 @@ Gets or sets a value that indicates whether the glyph is shown.
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

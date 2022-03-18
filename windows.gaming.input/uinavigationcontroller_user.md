@@ -21,4 +21,4 @@ The user associated with the UI navigation controller.
 
 ## -see-also
 
-* [Windows.System.User](../windows.system/user.md)
+[Windows.System.User](../windows.system/user.md)

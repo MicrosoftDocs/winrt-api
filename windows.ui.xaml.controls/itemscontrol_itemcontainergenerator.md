@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ItemContainerGenerator ItemContainerGenerator { 
 ## -description
 Gets the [ItemContainerGenerator](itemcontainergenerator.md) associated with this [ItemsControl](itemscontrol.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemContainerGenerator](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemcontainergenerator).
+
 ## -property-value
 The [ItemContainerGenerator](itemcontainergenerator.md) associated with this [ItemsControl](itemscontrol.md).
 

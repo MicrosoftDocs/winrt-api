@@ -24,5 +24,4 @@ You should minimize the amount of work you do while the input pane is being show
 ## -examples
 
 ## -see-also
-- [InputPaneVisibilityEventArgs](inputpanevisibilityeventargs.md)
-- [TryShow](inputpane_tryshow_1077566544.md)
+[InputPaneVisibilityEventArgs](inputpanevisibilityeventargs.md), [TryShow](inputpane_tryshow_1077566544.md)

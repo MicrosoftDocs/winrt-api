@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PointsProperty { get; }
 ## -description
 Identifies the [Points](polyquadraticbeziersegment_points.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PolyQuadraticBezierSegment.PointsProperty](/windows/winui/api/microsoft.ui.xaml.media.polyquadraticbeziersegment.pointsproperty).
+
 ## -property-value
 The identifier for the [Points](polyquadraticbeziersegment_points.md)  dependency property.
 

@@ -19,7 +19,7 @@ The [SpeechAppendedSilence](speechappendedsilence.md) duration.
 By default, approximately 750ms of silence is appended to the end of each generated utterance. If the utterance is not a complete sentence, this can complicate concatenation of multiple utterances. For example, a streaming app that reads text from a document as it downloads, might start reading from its cache at a predetermined number of words. 
 
 ## -see-also
-[PunctuationSilence](speechsynthesizeroptions_punctuationsilence.md), [SpeakingRate](speechsynthesizeroptions_speakingrate.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[PunctuationSilence](speechsynthesizeroptions_punctuationsilence.md), [SpeakingRate](speechsynthesizeroptions_speakingrate.md), [Speech interactions](/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)
 
 ## -examples
 

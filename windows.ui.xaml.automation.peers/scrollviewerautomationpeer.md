@@ -12,6 +12,8 @@ public class ScrollViewerAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 ## -description
 Exposes [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) types to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.scrollviewerautomationpeer).
+
 ## -remarks
 The Windows Runtime  [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) class creates a new ScrollViewerAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) is sealed, so the normal scenario of deriving from the [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) class and its existing peer isn't applicable to ScrollViewerAutomationPeer.
 
@@ -25,9 +27,9 @@ ScrollViewerAutomationPeer has overrides of **Core** methods such that the assoc
 + [IsControlElement](automationpeer_iscontrolelement_1004644794.md) returns a value based on the template parent. If there is a template parent then it returns **true**, otherwise the value is **false**. The scenario here is that a templated control may have forwarded to this peer for scrolling support, but normally a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) by itself isn't a full-fledged control.
 This peer fires several automation events on behalf of its owner in response to changes in scrolling or properties that report scrolling info.
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 
 ## -see-also
-[ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md), [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

@@ -12,6 +12,8 @@ public class CompositionEffectBrush : Windows.UI.Composition.CompositionBrush, W
 ## -description
 Paints a SpriteVisual with the output of a filter effect. The filter effect description is defined using the  [CompositionEffectFactory](compositioneffectfactory.md) class.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionEffectBrush](/windows/winui/api/microsoft.ui.composition.compositioneffectbrush).
+
 ## -remarks
 The effect APIs enable developers to customize how their UI is rendered. This can be something as simple as adjusting saturation levels on an image or something more complex like chaining numerous effects together and animating the effect properties to create interesting application transitions and user experiences. A composition effect is a graph of operations that define how to produce graphical content based on composition surfaces. For example, the pixel content of images. Effects are applied to visuals in the tree and can reference existing surfaces.
 
@@ -79,4 +81,4 @@ ElementCompositionPreview.SetElementChildVisual(blurArea, blurSprite);
 
 
 ## -see-also
-[Composition Brushes Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](https://go.microsoft.com/fwlink/p/?LinkID=692063), [CompositionBrush](compositionbrush.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Brushes Overview](/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](/en-us/windows/uwp/composition/composition-effects), [CompositionBrush](compositionbrush.md), [IClosable](../windows.foundation/iclosable.md)

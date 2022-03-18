@@ -10,14 +10,18 @@ public class ContactInformation : Windows.ApplicationModel.Contacts.IContactInfo
 # Windows.ApplicationModel.Contacts.ContactInformation
 
 ## -description
+
 Contains the information about a contact.
+
+> [!NOTE]
+> ContactInformation may be altered or unavailable for releases after Windows 8.1. Instead, use [Contact](contact.md).
 
 ## -remarks
 > [!NOTE]
-> Because you don't use [PickSingleContactAsync](contactpicker_picksinglecontactasync_2033050338.md) and [PickMultipleContactsAsync](contactpicker_pickmultiplecontactsasync_1630502573.md) in your Windows 8.1 and later apps, you don't instantiate ContactInformation objects in your Windows 8.1 and later apps.This table shows existing Windows 8ContactInformation properties and their equivalent Windows 8.1[Contact](contact.md) properties.
+> Because you don't use [PickSingleContactAsync](contactpicker_picksinglecontactasync_2033050338.md) and [PickMultipleContactsAsync](contactpicker_pickmultiplecontactsasync_1630502573.md) in your Windows 8.1 and later apps, you don't instantiate ContactInformation objects in your Windows 8.1 and later apps.This table shows existing Windows 8 ContactInformation properties and their equivalent Windows 8.1 [Contact](contact.md) properties.
 
 <table>
-   <tr><th>Windows 8ContactInformation property</th><th>Windows 8.1[Contact](contact.md) property</th></tr>
+   <tr><th>Windows 8 ContactInformation property</th><th>Windows 8.1 Contact property</th></tr>
    <tr><td>Contact.Name</td><td>Contact.Name</td></tr>
    <tr><td>Contact.Thumbnail</td><td>Contact.Thumbnail</td></tr>
    <tr><td>Contact.Fields</td><td>Contact.Emails</td></tr>
@@ -35,11 +39,6 @@ Typically, you access ContactInformation objects as the result of asynchronous m
 When your app receives contact information from a contact provider, the data for each contact is returned in a ContactInformation object.
 
 ## -examples
-This code demonstrates how a ContactInformation object is returned to an app after a user selects a contact.
-
-
-
-[!code-js[ContactsSinglePicker](../windows.applicationmodel.contacts.provider/code/ContactsMain/javascript/js/contacts.js#SnippetContactsSinglePicker)]
 
 ## -see-also
 

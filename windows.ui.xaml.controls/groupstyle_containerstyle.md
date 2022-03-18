@@ -15,12 +15,12 @@ public Windows.UI.Xaml.Style ContainerStyle { get;  set; }
 
 Gets or sets the style that is applied to the [GroupItem](groupitem.md) generated for each item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.GroupStyle.ContainerStyle](/windows/winui/api/microsoft.ui.xaml.controls.groupstyle.containerstyle).
+
 ## -xaml-syntax
 ```xaml
 <GroupStyle ContainerStyle="styleReference" />
-```
-
-```xaml
+- or -
 <GroupStyle>
   <GroupStyle.ContainerStyle>
     singleStyle
@@ -41,4 +41,4 @@ The style that is applied to the [GroupItem](groupitem.md) generated for each it
 ## -examples
 
 ## -see-also
-[HeaderContainerStyle](groupstyle_headercontainerstyle.md), [How to group items in a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780627(v=win.10))
+[HeaderContainerStyle](groupstyle_headercontainerstyle.md), [How to group items in a list or grid](/previous-versions/windows/apps/hh780627(v=win.10))

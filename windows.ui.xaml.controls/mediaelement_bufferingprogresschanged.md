@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.RoutedEventHandler BufferingProgressChanged
 ## -description
 Occurs when the [BufferingProgress](mediaelement_bufferingprogress.md) property changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.MediaElement.BufferingProgressChanged](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.bufferingprogresschanged).
+
 ## -xaml-syntax
 ```xaml
 <MediaElement BufferingProgressChanged="eventhandler"/>

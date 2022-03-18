@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SelectedBackgroundProperty { get; }
 ## -description
 Identifies the [SelectedBackground](gridviewitempresenter_selectedbackground.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.SelectedBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.selectedbackgroundproperty).
+
 ## -property-value
 The identifier for the [SelectedBackground](gridviewitempresenter_selectedbackground.md) dependency property.
 

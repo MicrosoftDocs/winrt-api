@@ -12,6 +12,8 @@ public Windows.Foundation.IAsyncOperation<Windows.UI.Xaml.Data.LoadMoreItemsResu
 ## -description
 Initiates the asynchronous request to load more data items, in accordance with the active incremental loading settings.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.LoadMoreItemsAsync](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.loadmoreitemsasync).
+
 ## -returns
 When the operation completes, returns a [LoadMoreItemsResult](../windows.ui.xaml.data/loadmoreitemsresult.md) payload.
 
@@ -20,4 +22,4 @@ When the operation completes, returns a [LoadMoreItemsResult](../windows.ui.xaml
 ## -examples
 
 ## -see-also
-[LoadMoreItemsResult](../windows.ui.xaml.data/loadmoreitemsresult.md), [ISupportIncrementalLoading](../windows.ui.xaml.data/isupportincrementalloading.md), [DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md), [Using virtualization with a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780657(v=win.10))
+[LoadMoreItemsResult](../windows.ui.xaml.data/loadmoreitemsresult.md), [ISupportIncrementalLoading](../windows.ui.xaml.data/isupportincrementalloading.md), [DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md), [Using virtualization with a list or grid](/previous-versions/windows/apps/hh780657(v=win.10))

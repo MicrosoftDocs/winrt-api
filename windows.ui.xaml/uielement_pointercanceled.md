@@ -13,6 +13,8 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerCanceled
 
 Occurs when a pointer that made contact abnormally loses contact.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.PointerCanceled](/windows/winui/api/microsoft.ui.xaml.uielement.pointercanceled).
+
 ## -xaml-syntax
 
 ```xaml
@@ -35,7 +37,7 @@ If PointerCanceled fires, any pointer captures by that pointer are released. For
 
 When handling a PointerCanceled event, anticipate that some of the event data normally available for a pointer event won't be meaningful in the [PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md) object you get through your handler. For example, the [Position](../windows.ui.input/pointerpoint_position.md) of the pointer is invalid because the pointer no longer exists.
 
-PointerCanceled is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
+PointerCanceled is a routed event. For more info on the routed event concept, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 PointerCanceled supports the ability to attach event handlers to the route that will be invoked even if the event data for the event is marked [Handled](../windows.ui.xaml.input/pointerroutedeventargs_handled.md). See [AddHandler](uielement_addhandler_2121467075.md).
 
@@ -43,4 +45,4 @@ PointerCanceled supports the ability to attach event handlers to the route that 
 
 ## -see-also
 
-[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [PointerReleased](uielement_pointerreleased.md), [PointerPressed](uielement_pointerpressed.md), [CapturePointer](uielement_capturepointer_916768934.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [XAML user input events sample](https://go.microsoft.com/fwlink/p/?linkid=231524)
+[PointerRoutedEventArgs](../windows.ui.xaml.input/pointerroutedeventargs.md), [PointerReleased](uielement_pointerreleased.md), [PointerPressed](uielement_pointerpressed.md), [CapturePointer](uielement_capturepointer_916768934.md), [Handle pointer input](/windows/uwp/design/input/handle-pointer-input), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [Relative mouse movement and CoreWindow](/en-us/windows/uwp/gaming/relative-mouse-movement), [XAML user input events sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)

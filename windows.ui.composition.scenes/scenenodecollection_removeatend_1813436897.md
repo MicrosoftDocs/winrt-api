@@ -14,6 +14,8 @@ public void SceneNodeCollection.RemoveAtEnd()
 
 Removes the last item in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneNodeCollection.RemoveAtEnd](/windows/winui/api/microsoft.ui.composition.scenes.scenenodecollection.removeatend).
+
 ## -remarks
 
 ## -see-also

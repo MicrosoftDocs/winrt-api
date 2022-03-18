@@ -13,7 +13,7 @@ public bool IncludeMiddleNameInSystemDisplayAndSort { get;  set; }
 Gets or sets a Boolean that indicates whether the middle name of a contact is included in the [DisplayName](contact_displayname.md) and [SortName](contact_sortname.md) of a contact.
 
 ## -property-value
-A Boolean that indicates whether the middle name of a contact is included in the [DisplayName](contact_displayname.md) and [SortName](contact_sortname.md) of a contact.
+`true` if the middle name of a contact is included in the [DisplayName](contact_displayname.md) and [SortName](contact_sortname.md) of a contact; otherwise, `false`.
 
 ## -remarks
 

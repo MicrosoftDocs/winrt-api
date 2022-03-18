@@ -12,9 +12,11 @@ public interface ICustomPropertyProvider :
 ## -description
 Provides lookup service for [ICustomProperty](icustomproperty.md) support. This interface is implemented by objects so that their custom defined properties can be used as run-time binding sources.
 
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Data.ICustomPropertyProvider](/windows/winui/api/microsoft.ui.xaml.data.icustompropertyprovider).
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

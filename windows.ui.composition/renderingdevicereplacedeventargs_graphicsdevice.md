@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionGraphicsDevice GraphicsDevice { get; }
 ## -description
 The new graphics device.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.RenderingDeviceReplacedEventArgs.GraphicsDevice](/windows/winui/api/microsoft.ui.composition.renderingdevicereplacedeventargs.graphicsdevice).
+
 ## -property-value
 The new graphics device.
 

@@ -12,6 +12,8 @@ public void SetRowSpan(Windows.UI.Xaml.FrameworkElement element, System.Int32 va
 ## -description
 Sets the value of the [Grid.RowSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property on the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Grid.SetRowSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid.setrowspan).
+
 ## -parameters
 ### -param element
 The target element on which to set the [Grid.RowSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property.

@@ -12,6 +12,8 @@ public Windows.Foundation.DateTime Date { get;  set; }
 ## -description
 Gets or sets the date currently set in the date picker.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerFlyout.Date](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyout.date).
+
 ## -property-value
 The date currently set in the picker.
 

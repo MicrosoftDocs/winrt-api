@@ -30,13 +30,14 @@ secondaryTile.BackgroundColor = Windows.UI.Color.Magenta;
 secondaryTile.BackgroundColor = Windows.UI.Color.FromArgb(255, 255, 255, 255);
 ```
 
-```cpp
-secondaryTile->BackgroundColor = Windows::UI::Colors::Magenta;
-secondaryTile->BackgroundColor = Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120);
+```cppwinrt
+secondaryTile.BackgroundColor(Windows::UI::Colors::Magenta());
+secondaryTile.BackgroundColor(Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120));
 ```
 
-```javascript
-secondaryTile.backgroundColor = Windows.UI.Colors.magenta;
+```cppcx
+secondaryTile->BackgroundColor = Windows::UI::Colors::Magenta;
+secondaryTile->BackgroundColor = Windows::UI::ColorHelper::FromArgb(0, 255, 255, 120);
 ```
 
 ## -see-also

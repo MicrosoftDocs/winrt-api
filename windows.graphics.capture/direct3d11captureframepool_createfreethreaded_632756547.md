@@ -43,6 +43,6 @@ A frame pool created with the given inputs.
 [Windows.Graphics.Capture.Direct3D11CaptureFramePool class](direct3d11captureframepool.md),
 [Windows.Graphics.Capture namespace](windows_graphics_capture.md),
 [Windows.System.DispatcherQueue class](../windows.system/dispatcherqueue.md),
-[Screen capture](https://docs.microsoft.com/windows/uwp/audio-video-camera/screen-capture)
+[Screen capture](/windows/uwp/audio-video-camera/screen-capture)
 
 ## -examples

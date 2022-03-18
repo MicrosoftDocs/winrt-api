@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush BlackoutForeground { get;  set; }
 ## -description
 Gets or sets a brush that provides the foreground of a date that can't be selected.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.BlackoutForeground](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.blackoutforeground).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView BlackoutForeground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <CalendarView BlackoutForeground="colorString"/>
-
-```
-
-```xaml
+- or -
 <CalendarView>
   CalendarView.BlackoutForeground>singleBrush</CalendarView.BlackoutForeground>
 </CalendarView>

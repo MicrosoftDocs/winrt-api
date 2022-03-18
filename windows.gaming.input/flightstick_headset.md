@@ -19,10 +19,10 @@ The audio headset attached to the flight stick.
 
 ## -remarks
 
-See [Headset](https://docs.microsoft.com/windows/uwp/gaming/headset) for information about programming for headsets.
+See [Headset](/windows/uwp/gaming/headset) for information about programming for headsets.
 
 ## -see-also
 
-* [Windows.Gaming.Input.Headset](headset.md)
+[Windows.Gaming.Input.Headset](headset.md)
 
 ## -examples

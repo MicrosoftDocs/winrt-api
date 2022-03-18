@@ -32,7 +32,7 @@ In a Windows Phone 8.x app, the [StreamSocket](streamsocket.md) class does not p
 ## -examples
 
 ## -see-also
-[How to set timeouts on socket operations ](https://docs.microsoft.com/previous-versions/windows/apps/jj710177(v=win.10)), [How to set timeouts on socket operations ](https://docs.microsoft.com/previous-versions/windows/apps/jj710176(v=win.10)), [ConnectAsync(EndpointPair)](streamsocket_connectasync_13692504.md), [ConnectAsync(EndpointPair, SocketProtectionLevel)](streamsocket_connectasync_706428084.md), [ConnectAsync(HostName, String, SocketProtectionLevel)](streamsocket_connectasync_945708620.md), [ConnectAsync(HostName, String, SocketProtectionLevel, NetworkAdapter)](streamsocket_connectasync_238604852.md), [HostName](../windows.networking/hostname.md)
+[How to set timeouts on socket operations ](/previous-versions/windows/apps/jj710177(v=win.10)), [How to set timeouts on socket operations ](/previous-versions/windows/apps/jj710176(v=win.10)), [ConnectAsync(EndpointPair)](streamsocket_connectasync_13692504.md), [ConnectAsync(EndpointPair, SocketProtectionLevel)](streamsocket_connectasync_706428084.md), [ConnectAsync(HostName, String, SocketProtectionLevel)](streamsocket_connectasync_945708620.md), [ConnectAsync(HostName, String, SocketProtectionLevel, NetworkAdapter)](streamsocket_connectasync_238604852.md), [HostName](../windows.networking/hostname.md)
 
 ## -capabilities
 internetClientServer, privateNetworkClientServer, ID_CAP_NETWORKING [Windows Phone]

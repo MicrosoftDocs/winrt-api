@@ -12,11 +12,13 @@ public Windows.UI.Core.CoreDispatcher Dispatcher { get; }
 ## -description
 Gets the [CoreDispatcher](../windows.ui.core/coredispatcher.md) that this object is associated with. The [CoreDispatcher](../windows.ui.core/coredispatcher.md) represents a facility that can access the [DependencyObject](dependencyobject.md) on the UI thread even if the code is initiated by a non-UI thread.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DependencyObject.Dispatcher](/windows/winui/api/microsoft.ui.xaml.dependencyobject.dispatcher).
+
 ## -property-value
 The [CoreDispatcher](../windows.ui.core/coredispatcher.md) that [DependencyObject](dependencyobject.md) object is associated with, which represents the UI thread.
 
 ## -remarks
-The Dispatcher property provides the [CoreDispatcher](../windows.ui.core/coredispatcher.md) reference that can be used to marshal calls coming from non-UI threads, using [RunAsync](../windows.ui.core/coredispatcher_runasync_447339746.md) and an awaitable function. For more info on awaitable functions, see [Call asynchronous APIs in C# or Visual Basic](https://docs.microsoft.com/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic). See also "**DependencyObject** and threading" section of the [DependencyObject](dependencyobject.md) reference topic.
+The Dispatcher property provides the [CoreDispatcher](../windows.ui.core/coredispatcher.md) reference that can be used to marshal calls coming from non-UI threads, using [RunAsync](../windows.ui.core/coredispatcher_runasync_447339746.md) and an awaitable function. For more info on awaitable functions, see [Call asynchronous APIs in C# or Visual Basic](/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic). See also "**DependencyObject** and threading" section of the [DependencyObject](dependencyobject.md) reference topic.
 
 A [DependencyObject](dependencyobject.md) must be created on a UI thread and has affinity to the UI thread. Because it's an entry point that enables getting across threads, DependencyObject.Dispatcher is the only instance API of [DependencyObject](dependencyobject.md) or any of its subclasses that can be accessed from a non-UI thread without throwing a cross-thread exception. All other [DependencyObject](dependencyobject.md) APIs throw an exception if you attempt to call them from a worker thread or other non-UI thread.
 

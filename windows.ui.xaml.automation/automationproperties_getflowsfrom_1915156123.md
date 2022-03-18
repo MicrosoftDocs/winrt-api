@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.DependencyObject> 
 ## -description
 Gets a list of automation elements that suggests the reading order before the specified automation element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetFlowsFrom](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getflowsfrom).
+
 ## -parameters
 ### -param element
 The element for which to get the preceding reading order elements.
@@ -20,7 +22,7 @@ The element for which to get the preceding reading order elements.
 A list of automation elements that suggests the reading order before the automation element specified by the *element* parameter.
 
 ## -remarks
-Get the list, then call the [Add](https://docs.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add?redirectedfrom=MSDN#System_Collections_Generic_ICollection_1_Add__0_) method to add a new element.
+Get the list, then call the [Add](/dotnet/api/system.collections.generic.icollection-1.add?view=dotnet-uwp-10.0&preserve-view=true) method to add a new element.
 
 > [!Important] > When modifying the flow, be careful not to create a situation where the user gets stuck in a navigation loop that they can't escape if they are only using a keyboard.
 

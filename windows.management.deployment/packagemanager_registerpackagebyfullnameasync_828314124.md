@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Management.Deploym
 # Windows.Management.Deployment.PackageManager.RegisterPackageByFullNameAsync
 
 ## -description
-Registers a package (the main package) by its full name and its dependency packages for the current user.
+Registers a [Package](/uwp/api/windows.applicationmodel.package) (the main package) by its full name and its dependency packages for the current user.
 
 ## -parameters
 ### -param mainPackageFullName
@@ -34,6 +34,7 @@ RegisterPackageByFullNameAsync can't install a package for any user other than t
 
 ## -see-also
 
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

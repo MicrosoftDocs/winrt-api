@@ -10,7 +10,7 @@ public IAsyncOperationWithProgress<DeploymentProgress> PackageManager.RequestAdd
 # Windows.Management.Deployment.PackageManager.RequestAddPackageAsync
 
 ## -description
-Requests a SmartScreen check and user verification before installing the app package(s). This method provides a **packageUrisToInstall** overload to specify external packages to be staged and registered.
+Requests a SmartScreen check and user verification before installing the app [Package(s)](/uwp/api/windows.applicationmodel.package). This method provides a **packageUrisToInstall** overload to specify external packages to be staged and registered.
 
 ## -parameters
 ### -param packageUri
@@ -41,4 +41,4 @@ The progress and result of adding the app package.
 
 ## -see-also
 
-## -examples
+[Package](/uwp/api/windows.applicationmodel.package)

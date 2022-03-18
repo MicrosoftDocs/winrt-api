@@ -12,10 +12,12 @@ public interface ICollectionViewGroup :
 ## -description
 Represents any grouped items within a view.
 
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Data.ICollectionViewGroup](/windows/winui/api/microsoft.ui.xaml.data.icollectionviewgroup).
+
 ## -remarks
 ICollectionViewGroup is used like a view model to represent a group within a collection. When implementing a custom grouped data source, your data source should implement [ICollectionViewFactory](icollectionviewfactory.md). For more info, see [ICollectionViewFactory](icollectionviewfactory.md) and [ICollectionView](icollectionview.md).
 
 ## -examples
 
 ## -see-also
-[CollectionViewSource](collectionviewsource.md), [Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[CollectionViewSource](collectionviewsource.md), [Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

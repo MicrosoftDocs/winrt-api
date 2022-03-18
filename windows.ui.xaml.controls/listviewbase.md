@@ -13,9 +13,11 @@ public class ListViewBase : Windows.UI.Xaml.Controls.Primitives.Selector, Window
 
 Provides the infrastructure for the [ListView](listview.md) and [GridView](gridview.md) classes.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ListViewBase](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase).
+
 ## -remarks
 
-For user interface purposes, ListViewBase should be thought of as an abstract base class. Use [ListView](listview.md) or [GridView](gridview.md) instead. The main difference between [ListView](listview.md) and [GridView](gridview.md) is that [ListView](listview.md) has a vertical/portrait orientation and [GridView](gridview.md) has a horizontal/landscape orientation. For more info, see [ListView and GridView controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/listview-and-gridview).
+For user interface purposes, ListViewBase should be thought of as an abstract base class. Use [ListView](listview.md) or [GridView](gridview.md) instead. The main difference between [ListView](listview.md) and [GridView](gridview.md) is that [ListView](listview.md) has a vertical/portrait orientation and [GridView](gridview.md) has a horizontal/landscape orientation. For more info, see [ListView and GridView controls](/windows/uwp/controls-and-patterns/listview-and-gridview).
 
 ### **ListViewBase** derived classes
 
@@ -34,4 +36,4 @@ ListViewBase is the parent class for [GridView](gridview.md) and [ListView](list
 
 ## -see-also
 
-[Selector](../windows.ui.xaml.controls.primitives/selector.md), [ListView](listview.md), [GridView](gridview.md), [ISemanticZoomInformation](isemanticzoominformation.md), [ListView and GridView controls](https://docs.microsoft.com/windows/uwp/controls-and-patterns/listview-and-gridview), [Drag and drop sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)
+[Selector](../windows.ui.xaml.controls.primitives/selector.md), [ListView](listview.md), [GridView](gridview.md), [ISemanticZoomInformation](isemanticzoominformation.md), [ListView and GridView controls](/windows/uwp/controls-and-patterns/listview-and-gridview), [Drag and drop sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop)

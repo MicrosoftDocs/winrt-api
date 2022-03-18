@@ -12,6 +12,8 @@ public class Polyline : Windows.UI.Xaml.Shapes.Shape, Windows.UI.Xaml.Shapes.IPo
 ## -description
 Draws a series of connected straight lines.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Shapes.Polyline](/windows/winui/api/microsoft.ui.xaml.shapes.polyline).
+
 ## -xaml-syntax
 ```xaml
 <Polyline .../>
@@ -34,4 +36,4 @@ This example shows how to use a Polyline to create a closed triangle.
 
 
 ## -see-also
-[Shape](shape.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[Shape](shape.md), [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample), [Draw shapes](/windows/uwp/graphics/drawing-shapes)

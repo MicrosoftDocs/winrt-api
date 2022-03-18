@@ -12,6 +12,8 @@ public object Title { get;  set; }
 ## -description
 Gets or sets the title to be optionally set above the headers.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.Title](/windows/winui/api/microsoft.ui.xaml.controls.pivot.title).
+
 ## -xaml-syntax
 ```xaml
 <Pivot Title="string" />
@@ -19,7 +21,7 @@ Gets or sets the title to be optionally set above the headers.
 
 
 ## -property-value
-Returns [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN).
+Returns [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -remarks
 

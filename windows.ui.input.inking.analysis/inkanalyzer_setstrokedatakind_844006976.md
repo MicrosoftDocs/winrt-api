@@ -9,24 +9,26 @@ public void InkAnalyzer.SetStrokeDataKind(UInt32 strokeId, InkAnalysisStrokeKind
 
 # Windows.UI.Input.Inking.Analysis.InkAnalyzer.SetStrokeDataKind
 
+
 ## -description
 
 Sets the ink analysis category for the [InkAnalysisNode](inkanalysisnode.md) associated with the ink stroke.
 
-## -params
+## -parameters
 
-## -param strokeId
+### -param strokeId
 
 The unique identifier for the ink stroke being categorized.
 
-## -param strokeKind
+### -param strokeKind
 
 The [InkAnalysisStrokeKind](inkanalysisstrokekind.md) category to assign to the [InkAnalysisNode](inkanalysisnode.md).
 
 ## -remarks
 
-Use [**SetStrokeDataKind**](https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.inking.analysis.inkanalyzer.setstrokedatakind) to specify the type of ink stroke you're interested in analyzing: text (including document structure and bullet lists), drawing (including shape recognition), or non-specific. This can improve both efficiency and recognition accuracy.
+Use [**SetStrokeDataKind**](/en-us/uwp/api/windows.ui.input.inking.analysis.inkanalyzer.setstrokedatakind) to specify the type of ink stroke you're interested in analyzing: text (including document structure and bullet lists), drawing (including shape recognition), or non-specific. This can improve both efficiency and recognition accuracy.
 
 ## -see-also
 
 ## -examples
+

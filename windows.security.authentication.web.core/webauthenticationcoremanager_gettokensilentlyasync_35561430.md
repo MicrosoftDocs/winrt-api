@@ -27,4 +27,4 @@ An asynchronous request operation. On successful completion, contains a [WebToke
 ## -examples
 
 ## -see-also
-[Web account management code sample](https://go.microsoft.com/fwlink/p/?LinkId=620621), [GetTokenSilentlyAsync(WebTokenRequest)](webauthenticationcoremanager_gettokensilentlyasync_1117329698.md)
+[Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [GetTokenSilentlyAsync(WebTokenRequest)](webauthenticationcoremanager_gettokensilentlyasync_1117329698.md)

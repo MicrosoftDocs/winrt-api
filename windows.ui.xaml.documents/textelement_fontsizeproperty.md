@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FontSizeProperty { get; }
 ## -description
 Identifies the [FontSize](textelement_fontsize.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.FontSizeProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.fontsizeproperty).
+
 ## -property-value
 Identifier for the [FontSize](textelement_fontsize.md) dependency property.
 

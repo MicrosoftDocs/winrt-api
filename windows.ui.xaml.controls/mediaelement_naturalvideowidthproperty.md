@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty NaturalVideoWidthProperty { get; }
 ## -description
 Identifies the [NaturalVideoWidth](mediaelement_naturalvideowidth.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.NaturalVideoWidthProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.naturalvideowidthproperty).
+
 ## -property-value
 The identifier for the [NaturalVideoWidth](mediaelement_naturalvideowidth.md) dependency property.
 

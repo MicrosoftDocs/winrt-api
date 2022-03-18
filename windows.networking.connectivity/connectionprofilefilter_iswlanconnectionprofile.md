@@ -13,7 +13,7 @@ public bool IsWlanConnectionProfile { get;  set; }
 Indicates if connection profiles that represent WLAN (WiFi) connections are included in query results.
 
 ## -property-value
-A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value that indicates if WLAN (WiFi) connections are included.
+A [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) value that indicates if WLAN (WiFi) connections are included.
 
 ## -remarks
 

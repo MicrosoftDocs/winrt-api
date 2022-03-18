@@ -12,6 +12,8 @@ public int GroupIndex { get; }
 ## -description
 Gets the index in the [ItemsSource](itemscontrol_itemssource.md) of the data group for which a container is being selected.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ChoosingGroupHeaderContainerEventArgs.GroupIndex](/windows/winui/api/microsoft.ui.xaml.controls.choosinggroupheadercontainereventargs.groupindex).
+
 ## -property-value
 The index in the [ItemsSource](itemscontrol_itemssource.md) of the data group for which a container is being selected.
 

@@ -13,6 +13,8 @@ public event Windows.Foundation.TypedEventHandler DropCompleted<Windows.UI.Xaml.
 
 Occurs when a drag-and-drop operation with this element as the source is ended.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.DropCompleted](/windows/winui/api/microsoft.ui.xaml.uielement.dropcompleted).
+
 ## -xaml-syntax
 
 ```xaml
@@ -25,7 +27,7 @@ DropCompleted is raised on the drag source element after [DragStarting](uielemen
 
 DragStarting and DropCompleted are raised only if [CanDrag](uielement_candrag.md) is **true**.
 
-DropCompleted is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
+DropCompleted is a routed event. For more info on the routed event concept, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 ## -examples
 

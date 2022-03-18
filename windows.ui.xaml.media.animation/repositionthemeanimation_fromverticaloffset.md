@@ -12,6 +12,8 @@ public double FromVerticalOffset { get;  set; }
 ## -description
 Gets or sets the distance by which the target is translated in the vertical direction when the animation is active.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeAnimation.FromVerticalOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemeanimation.fromverticaloffset).
+
 ## -xaml-syntax
 ```xaml
 <RepositionThemeAnimation FromVerticalOffset="double" />
@@ -26,4 +28,4 @@ The vertical offset translation, in pixels.
 ## -examples
 
 ## -see-also
-[Animating repositions](https://docs.microsoft.com/previous-versions/windows/apps/jj649434(v=win.10)), [Guidelines and checklist for reposition animations](https://docs.microsoft.com/windows/uwp/style/motion-reposition)
+[Animating repositions](/previous-versions/windows/apps/jj649434(v=win.10)), [Guidelines and checklist for reposition animations](/windows/uwp/style/motion-reposition)

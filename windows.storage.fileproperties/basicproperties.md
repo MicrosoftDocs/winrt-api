@@ -24,7 +24,7 @@ You can get a BasicProperties object using any of the following methods and prop
 
 
 ## -examples
-The [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) demonstrates how to retrieve properties of a file, including basic properties like [Size](basicproperties_size.md) and [DateModified](basicproperties_datemodified.md).
+The [File access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess) demonstrates how to retrieve properties of a file, including basic properties like [Size](basicproperties_size.md) and [DateModified](basicproperties_datemodified.md).
 
 ```csharp
 try
@@ -64,40 +64,6 @@ try
 catch (FileNotFoundException)
 {
  // For example, handle a file not found error
-}
-```
-
-```javascript
-
-var file = SdkSample.sampleFile;
-if (file !== null) {
-    var outputDiv = document.getElementById("output");
-
-    // Get top level file properties
-    outputDiv.innerHTML = "Filename: " + file.name + "<br/>";
-    outputDiv.innerHTML += "File type: " + file.fileType + "<br/>";
-
-    // Get basic properties
-    file.getBasicPropertiesAsync().then(function (basicProperties) {
-        outputDiv.innerHTML += "Size: " + basicProperties.size + " bytes<br/>";
-        outputDiv.innerHTML += "Date modified: " + basicProperties.dateModified + "<br/>";
-
-        // Get extra properties
-        return file.properties.retrievePropertiesAsync([fileOwnerProperty, dateAccessedProperty]);
-    }).done(function (extraProperties) {
-        var propValue = extraProperties[dateAccessedProperty];
-        if (propValue !== null) {
-            outputDiv.innerHTML += "Date accessed: " + propValue + "<br/>";
-        }
-        propValue = extraProperties[fileOwnerProperty];
-        if (propValue !== null) {
-            outputDiv.innerHTML += "File owner: " + propValue;
-        }
-    },
-    // Handle errors with an error function
- function (error) {
-     // Handle errors encountered while retrieving properties
-    });
 }
 ```
 

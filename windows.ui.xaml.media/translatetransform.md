@@ -12,6 +12,8 @@ public class TranslateTransform : Windows.UI.Xaml.Media.Transform, Windows.UI.Xa
 ## -description
 Translates (moves) an object in the two-dimensional x-y coordinate system.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.TranslateTransform](/windows/winui/api/microsoft.ui.xaml.media.translatetransform).
+
 ## -xaml-syntax
 ```xaml
 <TranslateTransform .../>
@@ -34,4 +36,4 @@ This example uses a TranslateTransform to offset text. In this example, a slight
 [!code-csharp[TranslateTransform_2_code](../windows.ui.xaml/code/transforms/csharp/Translate_Transform_2.xaml.cs#SnippetTranslateTransform_2_code)]
 
 ## -see-also
-[XAML two-dimensional transforms sample](https://go.microsoft.com/fwlink/p/?linkid=238580), [Transform](transform.md)
+[XAML two-dimensional transforms sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20two-dimensional%20transforms%20sample), [Transform](transform.md)

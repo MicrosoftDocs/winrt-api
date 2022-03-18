@@ -12,6 +12,8 @@ public TemplatePartAttribute()
 ## -description
 Initializes a new instance of the [TemplatePartAttribute](templatepartattribute.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.TemplatePartAttribute.TemplatePartAttribute](/windows/winui/api/microsoft.ui.xaml.templatepartattribute.#ctor).
+
 ## -remarks
 
 ## -examples

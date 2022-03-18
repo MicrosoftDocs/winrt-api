@@ -13,6 +13,8 @@ public Vector2 Size { get;  set; }
 
 Gets or sets the height and width of the view box.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionViewBox.Size](/windows/winui/api/microsoft.ui.composition.compositionviewbox.size).
+
 ## -property-value
 
 The height and width of the view box.

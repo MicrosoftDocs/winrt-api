@@ -11,8 +11,10 @@ public LearningModelFeatureKind Kind { get; }
 # Windows.AI.MachineLearning.ImageFeatureValue.Kind
 
 ## -description
+Returns the Kind associated with the feature.
 
 ## -property-value
+The Kind of the feature.
 
 ## -remarks
 

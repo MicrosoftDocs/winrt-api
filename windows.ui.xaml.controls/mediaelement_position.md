@@ -12,6 +12,8 @@ public Windows.Foundation.TimeSpan Position { get;  set; }
 ## -description
 Gets or sets the current position of progress through the media's playback time.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.Position](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.position).
+
 ## -property-value
 The amount of time since the beginning of the media. The default is a **TimeSpan** with value "0:0:0".
 <!--Do not link TimeSpan in authoring above, it is a projected type and if you link only one of them you produce a language bias.-->
@@ -22,7 +24,7 @@ Set this property to set a specific start-play position within the media.
 A **TimeSpan** is represented as different types depending on the programming language you are using. 
 
 > **C# or Microsoft Visual Basic**
-> Use a [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) structure. [System.TimeSpan](https://docs.microsoft.com/dotnet/api/system.timespan?redirectedfrom=MSDN) has utility members such as [Parse(String)](https://docs.microsoft.com/dotnet/api/system.timespan.parse#System_TimeSpan_Parse_System_String_) that make it easy to create, change or compare time values.
+> Use a [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true) structure. [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true) has utility members such as [Parse(String)](/dotnet/api/system.timespan.parse?view=dotnet-uwp-10.0&preserve-view=true) that make it easy to create, change or compare time values.
 
 
 

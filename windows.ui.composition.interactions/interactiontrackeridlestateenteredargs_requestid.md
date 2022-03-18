@@ -12,6 +12,8 @@ public int RequestId { get; }
 ## -description
 The ID of the request that triggered the callback.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTrackerIdleStateEnteredArgs.RequestId](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackeridlestateenteredargs.requestid).
+
 ## -property-value
 The ID of the request that triggered the callback.
 

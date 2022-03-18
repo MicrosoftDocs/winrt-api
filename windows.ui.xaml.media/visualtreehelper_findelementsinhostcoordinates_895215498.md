@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IIterable<Windows.UI.Xaml.UIElement> FindE
 ## -description
 Retrieves a set of objects that are located within a specified [Rect](../windows.foundation/rect.md) frame of an app UI. The set of objects represents the components of a visual tree that share a rectangular area, and might include elements that overdraw.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.VisualTreeHelper.FindElementsInHostCoordinates](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.findelementsinhostcoordinates).
+
 ## -parameters
 ### -param intersectingRect
 The [Rect](../windows.foundation/rect.md) to use as the determination area. This frame is using the coordinate space of the app window, not of any specific element (and not of *subtree* if specified).
@@ -82,4 +84,4 @@ private void Test(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[FindElementsInHostCoordinates(Point, UIElement)](visualtreehelper_findelementsinhostcoordinates_1478853318.md), [FindElementsInHostCoordinates(Rect, UIElement)](visualtreehelper_findelementsinhostcoordinates_241596294.md), [FindElementsInHostCoordinates(Point, UIElement, Boolean)](visualtreehelper_findelementsinhostcoordinates_1662522058.md), [Mouse interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/mouse-interactions)
+[FindElementsInHostCoordinates(Point, UIElement)](visualtreehelper_findelementsinhostcoordinates_1478853318.md), [FindElementsInHostCoordinates(Rect, UIElement)](visualtreehelper_findelementsinhostcoordinates_241596294.md), [FindElementsInHostCoordinates(Point, UIElement, Boolean)](visualtreehelper_findelementsinhostcoordinates_1662522058.md), [Mouse interactions](/windows/uwp/input-and-devices/mouse-interactions)

@@ -9,15 +9,19 @@ public MediaEncodingProfile MediaEncodingProfile.CreateFlac(AudioEncodingQuality
 
 # Windows.Media.MediaProperties.MediaEncodingProfile.CreateFlac
 
+
 ## -description
+
 Creates an instance of [MediaEncodingProfile](mediaencodingprofile.md) for Free Lossless Audio Codec (FLAC) audio.
 
-## -params
+## -parameters
 
-## -param quality
+### -param quality
+
 The ecoding quality.
 
 ## -returns
+
 The media encoding profile.
 
 ## -remarks

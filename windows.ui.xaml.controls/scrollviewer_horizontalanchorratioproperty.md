@@ -14,6 +14,8 @@ public DependencyProperty HorizontalAnchorRatioProperty { get; }
 
 Identifies the [HorizontalAnchorRatio](scrollviewer_horizontalanchorratio.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.HorizontalAnchorRatioProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.horizontalanchorratioproperty).
+
 ## -property-value
 
 The identifier for the [HorizontalAnchorRatio](scrollviewer_horizontalanchorratio.md) dependency property.

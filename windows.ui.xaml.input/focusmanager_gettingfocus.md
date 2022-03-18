@@ -14,6 +14,8 @@ static public event EventHandler GettingFocus<GettingFocusEventArgs>
 
 Occurs before an element actually receives focus. This event is raised synchronously to ensure focus isn't moved while the event is bubbling.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Input.FocusManager.GettingFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.gettingfocus).
+
 ## -remarks
 
 We recommend using the [UIElement](../windows.ui.xaml/uielement.md) focus routed events instead of [FocusManager](focusmanager.md) events whenever possible.
@@ -31,7 +33,7 @@ UIElement focus events bubble up to the FocusManager in the following order:
 
 ## -see-also
 
-[GettingFocusEventArgs](../windows.ui.xaml.input/gettingfocuseventargs.md), [UIElement.GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md), [UIElement.GettingFocusEvent](../windows.ui.xaml/uielement_gettingfocusevent.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[GettingFocusEventArgs](../windows.ui.xaml.input/gettingfocuseventargs.md), [UIElement.GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md), [UIElement.GettingFocusEvent](../windows.ui.xaml/uielement_gettingfocusevent.md), [Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 

@@ -10,17 +10,17 @@ public double GetNamedNumber(System.String name)
 # Windows.Data.Json.JsonObject.GetNamedNumber
 
 ## -description
-Gets the number value (a [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN)) with the specified name.
+Gets the number value (a [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true)) with the specified name.
 
 ## -parameters
 ### -param name
 The name.
 
 ## -returns
-The [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) with the specified *name*.
+The [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) with the specified *name*.
 
 ## -remarks
-This method should always used with a try/catch block because it throws an exception if the name found is not a [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) type or the name is not found.
+This method should always used with a try/catch block because it throws an exception if the name found is not a [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) type or the name is not found.
 
 ## -examples
 

@@ -11,7 +11,9 @@ public Windows.Foundation.Size Empty { get; }
 
 ## -description
 
-Gets a static [Size](../windows.foundation/size.md) value where the [Size](../windows.foundation/size.md) has no height or width (all values 0). C# and Microsoft Visual Basic code should use [Size.Empty](/dotnet/api/windows.foundation.size.empty) instead.
+Gets a static [Size](../windows.foundation/size.md) value where the [Size](../windows.foundation/size.md) has no height or width (all values 0). C# and Microsoft Visual Basic code should use [Size.Empty](/dotnet/api/windows.foundation.size.empty?view=dotnet-uwp-10.0&preserve-view=true) instead.
+
+Equivalent WinUI property: [Microsoft.UI.Xaml.SizeHelper.Empty](/windows/winui/api/microsoft.ui.xaml.sizehelper.empty).
 
 ## -property-value
 

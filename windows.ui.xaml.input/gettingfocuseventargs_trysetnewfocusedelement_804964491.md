@@ -12,6 +12,8 @@ public bool GettingFocusEventArgs.TrySetNewFocusedElement(DependencyObject eleme
 ## -description
 Attempts to redirect focus to the specified element instead of the original targeted element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.TrySetNewFocusedElement](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.trysetnewfocusedelement).
+
 ## -parameters
 ### -param element
 The object on which to set focus.
@@ -30,7 +32,7 @@ If focus is moved while these events are still bubbling, an exception is thrown.
 
 ## -see-also
 
-[GettingFocusEventArgs.TryCancel](gettingfocuseventargs_trycancel_50138317.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[GettingFocusEventArgs.TryCancel](gettingfocuseventargs_trycancel_50138317.md), [Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 

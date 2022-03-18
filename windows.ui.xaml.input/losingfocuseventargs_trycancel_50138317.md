@@ -12,11 +12,13 @@ public bool LosingFocusEventArgs.TryCancel()
 ## -description
 Attempts to cancel the ongoing focus action.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.LosingFocusEventArgs.TryCancel](/windows/winui/api/microsoft.ui.xaml.input.losingfocuseventargs.trycancel).
+
 ## -returns
 True, if the focus action is canceled; otherwise, false.
 
 ## -remarks
-Apps that target the Windows 10, version 1803 or later should use this property instead of [Cancel](losingfocuseventargs_cancel.md). If your app also supports previous versions, see [Version adaptive apps: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-apps) for more info.
+Apps that target the Windows 10, version 1803 or later should use this property instead of [Cancel](losingfocuseventargs_cancel.md). If your app also supports previous versions, see [Version adaptive apps: Use new APIs while maintaining compatibility with previous versions](/windows/uwp/debug-test-perf/version-adaptive-apps) for more info.
 
 The [GotFocus](../windows.ui.xaml/uielement_gotfocus.md) routed event is raised on an element after it receives focus, while the [LostFocus](../windows.ui.xaml/uielement_lostfocus.md) routed event is raised on an element after it loses focus. 
 
@@ -27,7 +29,7 @@ The [GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md) and [LosingFocu
 If focus is moved while these events are still bubbling, an exception is thrown.
 
 ## -see-also
-[LosingFocusEventArgs.TrySetNewFocusedElement](losingfocuseventargs_trysetnewfocusedelement_804964491.md), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[LosingFocusEventArgs.TrySetNewFocusedElement](losingfocuseventargs_trysetnewfocusedelement_804964491.md), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 
 ## -examples

@@ -16,7 +16,7 @@ Represents a photo import session with a photo import source.
 ## -remarks
 Get an instance of this class by accessing the [PhotoImportOperation.Session](photoimportoperation_session.md) property or by calling [PhotoImportSource.CreateImportSession](photoimportsource_createimportsession_1938274523.md).
 
-For how-to guidance for adding media import to your app, see [Import media from a device](https://docs.microsoft.com/windows/uwp/audio-video-camera/import-media-from-a-device).
+For how-to guidance for adding media import to your app, see [Import media from a device](/windows/uwp/audio-video-camera/import-media-from-a-device).
 
 ### Version history
 
@@ -28,4 +28,4 @@ For how-to guidance for adding media import to your app, see [Import media from 
 ## -examples
 
 ## -see-also
-[IClosable](../windows.foundation/iclosable.md), [Import media from a device](https://docs.microsoft.com/windows/uwp/audio-video-camera/import-media-from-a-device)
+[IClosable](../windows.foundation/iclosable.md), [Import media from a device](/windows/uwp/audio-video-camera/import-media-from-a-device)

@@ -12,6 +12,8 @@ public bool Navigate(Windows.UI.Xaml.Interop.TypeName sourcePageType)
 ## -description
 Causes the navigation host to load content that is specified by a type reference.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.INavigate.Navigate](/windows/winui/api/microsoft.ui.xaml.controls.inavigate.navigate).
+
 ## -parameters
 ### -param sourcePageType
 A type reference for the content to load.
@@ -24,9 +26,9 @@ A type reference for the content to load.
 The [INavigate](inavigate.md) interface is mainly infrastructure. It's not expected that typical UWP app will implement this interface.
 
 > [!IMPORTANT]
-> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN).
+> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 
 ## -see-also
-[Frame.Navigate](frame_navigate_1426351961.md), [HyperlinkButton](hyperlinkbutton.md), [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN)
+[Frame.Navigate](frame_navigate_1426351961.md), [HyperlinkButton](hyperlinkbutton.md), [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true)

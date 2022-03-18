@@ -10,7 +10,7 @@ public Windows.ApplicationModel.Contacts.ContactListOtherAppReadAccess OtherAppR
 # Windows.ApplicationModel.Contacts.ContactList.OtherAppReadAccess
 
 ## -description
-Gets or puts a value indicating the read access level to this [ContactList](contactlist.md) for other apps on the system.
+Gets or sets a value indicating the read access level to this [ContactList](contactlist.md) for other apps on the system.
 
 ## -property-value
 A value indicating the read access level to this [ContactList](contactlist.md) for other apps on the system.

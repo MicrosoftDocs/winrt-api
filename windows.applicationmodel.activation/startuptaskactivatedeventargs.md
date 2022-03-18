@@ -16,7 +16,7 @@ Provides information when an app is activated at device startup or user login.
 This functionality is only supported on Windows Desktop.
 
 ## -see-also
-[Windows.ApplicationModel.Activation.IStartupTaskActivatedEventArgs](istartuptaskacitvatedeventArgs.md)
+[Windows.ApplicationModel.Activation.IStartupTaskActivatedEventArgs](istartuptaskacitvatedeventArgs.md),
 [Windows.ApplicationModel.StartupTask](..\windows.applicationmodel\startuptask.md)
 
 ## -examples

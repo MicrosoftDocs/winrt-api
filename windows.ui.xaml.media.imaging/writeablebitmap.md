@@ -13,6 +13,8 @@ public class WriteableBitmap : Windows.UI.Xaml.Media.Imaging.BitmapSource, Windo
 
 Provides a [BitmapSource](bitmapsource.md) that can be written to and updated.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Imaging.WriteableBitmap](/windows/winui/api/microsoft.ui.xaml.media.imaging.writeablebitmap).
+
 ## -remarks
 
 The image source data of a WriteableBitmap is an underlying pixel buffer.
@@ -27,4 +29,4 @@ For code examples in C#, C++/WinRT, and C++/CX, see [WriteableBitmap.PixelBuffer
 
 ## -see-also
 
-[BitmapSource](bitmapsource.md), [WriteableBitmap.PixelBuffer](writeablebitmap_pixelbuffer.md), [BitmapDecoder](../windows.graphics.imaging/bitmapdecoder.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML images sample](https://go.microsoft.com/fwlink/p/?linkid=238575), [Camera preview frame sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620516)
+[BitmapSource](bitmapsource.md), [WriteableBitmap.PixelBuffer](writeablebitmap_pixelbuffer.md), [BitmapDecoder](../windows.graphics.imaging/bitmapdecoder.md), [Windows.Graphics.Imaging namespace](../windows.graphics.imaging/windows_graphics_imaging.md), [XAML images sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20images%20sample), [Camera preview frame sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620516)

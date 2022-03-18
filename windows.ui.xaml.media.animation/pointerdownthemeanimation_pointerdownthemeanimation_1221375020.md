@@ -12,9 +12,11 @@ public PointerDownThemeAnimation()
 ## -description
 Initializes a new instance of the [PointerDownThemeAnimation](pointerdownthemeanimation.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.PointerDownThemeAnimation.PointerDownThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.pointerdownthemeanimation.#ctor).
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Animating pointer clicks](https://docs.microsoft.com/previous-versions/windows/apps/jj649432(v=win.10)), [Guidelines and checklist for pointer click animations](https://docs.microsoft.com/windows/uwp/style/motion-pointer)
+[Animating pointer clicks](/previous-versions/windows/apps/jj649432(v=win.10)), [Guidelines and checklist for pointer click animations](/windows/uwp/style/motion-pointer)

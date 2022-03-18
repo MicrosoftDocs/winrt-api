@@ -12,13 +12,17 @@ public class ExpressionAnimation : Windows.UI.Composition.CompositionAnimation, 
 ## -description
 A Composition Animation that uses a mathematical equation to calculate the value for an animating property every frame.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.ExpressionAnimation](/windows/winui/api/microsoft.ui.composition.expressionanimation).
+
 ## -remarks
 
 The core of ExpressionAnimations allows a developer to define a mathematical equation that can be used to calculate the value of a targeted animating property each frame. This contrasts [KeyFrameAnimation](keyframeanimation.md) s, which use an interpolator to define how the animating property changes over time. The mathematical equation can be defined using references to properties of Composition objects, mathematical functions and operators and Input. Expression Animations open the door to making experiences such as sticky headers and parallax easily describable.
 
-For a detailed walkthrough of using Composition ExpressionAnimation, check out the [Animations Overview document](https://docs.microsoft.com/windows/uwp/graphics/composition-animation).
+For a detailed walkthrough of using Composition ExpressionAnimation, check out the [Animations Overview document](/windows/uwp/graphics/composition-animation).
 
 Use the [CompostionObject.StartAnimation](compositionobject_startanimation_709050842.md) and [CompostionObject.StopAnimation](compositionobject_stopanimation_1075337060.md) methods to start and stop the animation.
+
+For a list of animatable properties, see the remarks on [CompostionObject.StartAnimation](compositionobject_startanimation_709050842.md).
 
 ### So why are Expression Animations useful?
 
@@ -27,8 +31,9 @@ The real power of Expression Animations comes from their ability to create a mat
 ### Things to Note
 
 + ExpressionAnimation has an infinite lifetime – they will continue to run until they are explicitly stopped.
-+ The mathematical equation will be input into the expression as a string – this can be done when constructing the ExpressionAnimation or separately by changing the property. If done during construction, the property will be set.    + ExpressionAnimation exp = _compositor.CreateExpressionAnimation(); exp.Expression = "this.Target.Offset.X / xWindowSize";
-   + ExpressionAnimation exp = _compositor.CreateExpressionAnimation("this.Target.Offset.X / xWindowSize")
++ The mathematical equation will be input into the expression as a string – this can be done when constructing the ExpressionAnimation or separately by changing the property. If done during construction, the property will be set.
+   + `ExpressionAnimation exp = _compositor.CreateExpressionAnimation(); exp.Expression = "this.Target.Offset.X / xWindowSize";`
+   + `ExpressionAnimation exp = _compositor.CreateExpressionAnimation("this.Target.Offset.X / xWindowSize");`
 
 + The mathematical equation will be used every frame to calculate the value of the animating property (this is in stark contrast to [KeyFrameAnimation](keyframeanimation.md)s that use an interpolator)
 + Pay attention to the type of the property you plan to animate – your equation must resolve to the same type. Otherwise, an error will get thrown when the expression gets calculated. If your equation resolves to Nan (number/0), the system will use the previously calculated value
@@ -45,20 +50,25 @@ When attached to an animating property, the system will use this equation to cal
 When constructing the mathematical equation, there are a number of different components to keep in mind (For a detailed walkthrough of each of these components, see the Animation Overview):
 
 
-+ Operators, Precedence and Associativity    + The Expression string supports usage of typical mathematical operators (+, -, /, , etc.) you would expect to use in any equation.
++ Operators, Precedence and Associativity
+   + The Expression string supports usage of typical mathematical operators (+, -, /, , etc.) you would expect to use in any equation.
    + When the expression is evaluated, it will adhere to operator precedence and associativity as defined in the C# language specification.
 
-+ Property Parameters    + When defining your Expression, you have the option to define type references to other properties on Composition Visuals, Property Sets or other C# objects.
++ Property Parameters
+   + When defining your Expression, you have the option to define type references to other properties on Composition Visuals, Property Sets or other C# objects.
    + To use in an expression string, utilize the “SetParameter” functions based on type, defining the string utilized in the expression string and its mapped value. These functions are listed as part of the top level [CompositionAnimation](compositionanimation.md) class.
 
-+ Helper Functions and Constructors    + The Expression can also leverage a list of functions and constructors for different object types in the equation.
++ Helper Functions and Constructors
+   + The Expression can also leverage a list of functions and constructors for different object types in the equation.
    + There are also constructor methods that will construct an object type when the equation is evaluated by the system
    + A list of the functions per type is listed further below
 
-+ Keywords    + The Expression also can take advantage of a number of keywords that are treated differently when the Expression String Is evaluated. Consider these keywords and cannot be used as a string key in property references.
++ Keywords
+   + The Expression also can take advantage of a number of keywords that are treated differently when the Expression String Is evaluated. Consider these keywords and cannot be used as a string key in property references.
    + List of available keywords listed further below
 
-+ Conditionals    + An expression can also utilize conditional statements using the Ternary operator (condition ? ifTrue_expression : ifFalse_expression)
++ Conditionals
+   + An expression can also utilize conditional statements using the Ternary operator (condition ? ifTrue_expression : ifFalse_expression)
    + Ternary operators can be nested as the expression for the true or false statements.
 
 
@@ -298,4 +308,4 @@ void angleBetweenVectors()
 
 
 ## -see-also
-[Animations Overview document](https://docs.microsoft.com/windows/uwp/graphics/composition-animation), [Expression Property](expressionanimation_expression.md)
+[Animations Overview document](/windows/uwp/graphics/composition-animation), [Expression Property](expressionanimation_expression.md)

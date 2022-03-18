@@ -14,17 +14,15 @@ public class PrintBorderingOptionDetails : Windows.Graphics.Printing.OptionDetai
 Represents the list of print bordering options.
 
 ## -remarks
-Here is a JavaScript code snippet that shows how to retrieve the object:
+Here is a code snippet that shows how to retrieve the object:
 
-```javascript
-//  Retrieve the advanced Print Task Options
-var printDetailedOptions = 
-     Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.getFromPrintTaskOptions(printTask.options);
+```csharp
+//  Retrieve the advanced Print Task Options.
+PrintTaskOptionDetails printDetailedOptions = PrintTaskOptionDetails.GetFromPrintTaskOptions(printTask.Options);
 
-// get the object
-var printBorderingOptionDetails = 
-     printDetailedOptions.options.lookup(Windows.Graphics.Printing.StandardPrintTaskOptions.bordering);
-
+// Get the object.
+PrintBorderingOptionDetails printBorderingOptionDetails =
+     (PrintBorderingOptionDetails)printDetailedOptions.Options[StandardPrintTaskOptions.Bordering];
 ```
 
 ### Version history

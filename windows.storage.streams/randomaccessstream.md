@@ -13,9 +13,10 @@ public class RandomAccessStream
 Provides random access of data in input and output streams.
 
 ## -remarks
-For more info, see [Quickstart: Reading and writing a file](https://docs.microsoft.com/previous-versions/windows/apps/hh464978(v=win.10)), which shows how to read and write bytes to a file by using a RandomAccessStream. To encode an image by using a stream, see [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging).
+For more info, see [Quickstart: Reading and writing files](/windows/uwp/files/quickstart-reading-and-writing-files), which shows how to read and write bytes to a file by using a RandomAccessStream. To encode an image by using a stream, see [Imaging](/windows/uwp/audio-video-camera/imaging).
 
 ## -examples
 
 ## -see-also
-[Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging), [Reading and writing data sample](https://go.microsoft.com/fwlink/p/?linkid=231581), [FileRandomAccessStream](filerandomaccessstream.md), [InMemoryRandomAccessStream](inmemoryrandomaccessstream.md), [RandomAccessStreamOverStream](randomaccessstreamoverstream.md), [RandomAccessStreamReference](randomaccessstreamreference.md)
+
+[Imaging](/windows/uwp/audio-video-camera/imaging), [File Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess), [FileRandomAccessStream](filerandomaccessstream.md), [InMemoryRandomAccessStream](inmemoryrandomaccessstream.md), [RandomAccessStreamOverStream](randomaccessstreamoverstream.md), [RandomAccessStreamReference](randomaccessstreamreference.md)

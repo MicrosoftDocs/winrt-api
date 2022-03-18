@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DataTemplate TitleTemplate { get;  set; }
 ## -description
 Gets or sets the title template.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.TitleTemplate](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.titletemplate).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog>
@@ -19,9 +21,7 @@ Gets or sets the title template.
     singleDataTemplate
   </ContentDialog.TitleTemplate>
 </ContentDialog>
-```
-
-```xaml
+- or -
 <ContentDialog TitleTemplate="resourceReferenceToDataTemplate"/>
 ```
 

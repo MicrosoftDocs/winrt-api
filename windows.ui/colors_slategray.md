@@ -13,6 +13,8 @@ public Windows.UI.Color SlateGray { get; }
 
 Gets the system-defined color that has an ARGB value of #FF708090.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.SlateGray](/windows/winui/api/microsoft.ui.colors.slategray).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FF708090.

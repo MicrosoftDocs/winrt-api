@@ -12,6 +12,8 @@ public double DesiredDeceleration { get;  set; }
 ## -description
 Gets or sets the rate that resizing slows.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.InertiaExpansionBehavior.DesiredDeceleration](/windows/winui/api/microsoft.ui.xaml.input.inertiaexpansionbehavior.desireddeceleration).
+
 ## -property-value
 The rate that resizing slows.
 

@@ -12,13 +12,15 @@ public Windows.UI.Composition.CompositionBrush Mask { get;  set; }
 ## -description
 Brush used to specify an opacity mask for the shadow. Defaults to the SpriteVisual's brush. Animatable.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.DropShadow.Mask](/windows/winui/api/microsoft.ui.composition.dropshadow.mask).
+
 ## -property-value
 Brush used to specify an opacity mask for the shadow. Defaults to the SpriteVisual's brush.
 
 ## -remarks
 A non-rectangular shadow can be casted by setting the Mask of the Shadow property to a SurfaceBrush that represents the shape.
 
-This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](https://docs.microsoft.com/windows/uwp/composition/composition-animation).
+This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](/windows/uwp/composition/composition-animation).
 
 ## -examples
 

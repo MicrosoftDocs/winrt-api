@@ -12,15 +12,14 @@ public Windows.UI.Xaml.Controls.Primitives.FlyoutBase Flyout { get;  set; }
 ## -description
 Gets or sets the flyout associated with this button.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Button.Flyout](/windows/winui/api/microsoft.ui.xaml.controls.button.flyout).
+
 ## -xaml-syntax
 ```xaml
 <Button>
   <Button.Flyout>flyout</Button.Flyout>
 </Button>
-
-```
-
-```xaml
+- or -
 <Button Flyout="{StaticResurce flyoutResourceKey"/>
 
 ```
@@ -39,4 +38,4 @@ By default, the flyout that's set as the value of the Flyout property displays w
 ## -examples
 
 ## -see-also
-[Flyout](flyout.md), [MenuFlyout](menuflyout.md), [Quickstart: Adding a Flyout](https://docs.microsoft.com/previous-versions/windows/apps/dn308515(v=win.10)), [XAML Flyout and MenuFlyout sample](https://go.microsoft.com/fwlink/p/?LinkID=310074)
+[Flyout](flyout.md), [MenuFlyout](menuflyout.md), [Quickstart: Adding a Flyout](/previous-versions/windows/apps/dn308515(v=win.10)), [XAML Flyout and MenuFlyout sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20Flyout%20and%20MenuFlyout%20sample)

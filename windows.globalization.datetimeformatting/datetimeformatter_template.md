@@ -20,4 +20,4 @@ A string that represents this format template. If the [DateTimeFormatter](dateti
 ## -examples
 
 ## -see-also
-[Date and time formatting sample](https://go.microsoft.com/fwlink/p/?LinkId=231618)
+[Date and time formatting sample](/samples/browse/)

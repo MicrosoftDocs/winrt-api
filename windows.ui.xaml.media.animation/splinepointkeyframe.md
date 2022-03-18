@@ -12,6 +12,8 @@ public class SplinePointKeyFrame : Windows.UI.Xaml.Media.Animation.PointKeyFrame
 ## -description
 Animates from the [Point](../windows.foundation/point.md) value of the previous key frame to its own [Value](pointkeyframe_value.md) using splined interpolation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.SplinePointKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.splinepointkeyframe).
+
 ## -xaml-syntax
 ```xaml
 <SplinePointKeyFrame .../>
@@ -21,7 +23,7 @@ Animates from the [Point](../windows.foundation/point.md) value of the previous 
 ## -remarks
 Key-frame animations permit more than one target value that is reached at a point along the animation timeline. In other words each key frame can specify a different intermediate value, and the last key frame reached is the final animation value. By specifying multiple values to animate, you can make more complex animations. You can mix discrete, linear, and spline keyframes in the same keyframe collection.
 
-For more info on how to use key-frame animations, see [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations).
+For more info on how to use key-frame animations, see [Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations).
 
 ## -examples
 This XAML example moves an ellipse along a triangular path. The example uses the [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md) class to animate the [Center](../windows.ui.xaml.media/ellipsegeometry_center.md) property of an [EllipseGeometry](../windows.ui.xaml.media/ellipsegeometry.md). This animation uses three key frames in the following manner:
@@ -41,5 +43,5 @@ This XAML example moves an ellipse along a triangular path. The example uses the
 [!code-vb[Pointanimationusingkeyframes_cs](../windows.ui.xaml/code/pointanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetPointanimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations), [PointKeyFrame](pointkeyframe.md), [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md), [KeyTime](pointkeyframe_keytime.md), [Value](pointkeyframe_value.md)
+[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations), [PointKeyFrame](pointkeyframe.md), [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md), [KeyTime](pointkeyframe_keytime.md), [Value](pointkeyframe_value.md),
 [KeyTime](pointkeyframe_keytime.md), [Value](pointkeyframe_value.md)

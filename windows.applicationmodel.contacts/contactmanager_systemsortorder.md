@@ -10,7 +10,7 @@ public Windows.ApplicationModel.Contacts.ContactNameOrder SystemSortOrder { get;
 # Windows.ApplicationModel.Contacts.ContactManager.SystemSortOrder
 
 ## -description
-Gets or puts the sort order.
+Gets or sets the sort order.
 
 ## -property-value
 Specifies the sort order.

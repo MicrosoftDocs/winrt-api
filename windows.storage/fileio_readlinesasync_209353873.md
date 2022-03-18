@@ -17,7 +17,7 @@ Reads the contents of the specified file and returns lines of text.
 The file to read.
 
 ## -returns
-When this method completes successfully, it returns the contents of the file as a list (type [IVector](../windows.foundation.collections/ivector_1.md)) of lines of text. Each line of text in the list is represented by a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) object.
+When this method completes successfully, it returns the contents of the file as a list (type [IVector](../windows.foundation.collections/ivector_1.md)) of lines of text. Each line of text in the list is represented by a [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) object.
 
 ## -remarks
 This method uses the character encoding of the specified file. If you want to specify different encoding, call [ReadLinesAsync(IStorageFile, UnicodeEncoding)](fileio_readlinesasync_584387765.md) instead.

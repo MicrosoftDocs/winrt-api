@@ -13,6 +13,8 @@ public class BounceVector3NaturalMotionAnimation : Vector3NaturalMotionAnimation
 
 A bounce physics-based animation that targets any Vector3-based property.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.BounceVector3NaturalMotionAnimation](/windows/winui/api/microsoft.ui.composition.bouncevector3naturalmotionanimation).
+
 ## -remarks
 
 ## -see-also

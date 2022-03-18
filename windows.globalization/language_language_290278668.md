@@ -14,7 +14,7 @@ Creates a [Language](language.md) object.
 
 ## -parameters
 ### -param languageTag
-A [BCP-47](https://go.microsoft.com/fwlink/p/?linkid=227302) language tag. See Remarks for [Language](language.md).
+A [BCP-47](https://tools.ietf.org/html/bcp47) language tag. See Remarks for [Language](language.md).
 
 ## -remarks
 
@@ -22,4 +22,4 @@ A [BCP-47](https://go.microsoft.com/fwlink/p/?linkid=227302) language tag. See R
 ## -examples
 
 ## -see-also
-[Unicode Key/Type Definitions](https://go.microsoft.com/fwlink/p/?LinkId=308919)
+[Unicode Key/Type Definitions](https://www.unicode.org/reports/tr35/#Key_Type_Definitions)

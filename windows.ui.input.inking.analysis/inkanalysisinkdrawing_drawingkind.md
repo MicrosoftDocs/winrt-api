@@ -10,7 +10,10 @@ public InkAnalysisDrawingKind DrawingKind { get; }
 # Windows.UI.Input.Inking.Analysis.InkAnalysisInkDrawing.DrawingKind
 
 ## -description
-Gets the [shape](InkAnalysisDrawingKind.md) of the ink input identified by ink analysis of the InkAnalysisInkDrawing object. 
+
+Gets the [shape](InkAnalysisDrawingKind.md) of the ink input identified by ink analysis of the InkAnalysisInkDrawing object.
+
+## -property-value
 
 ## -remarks
 

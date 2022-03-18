@@ -12,6 +12,8 @@ public class PickerConfirmedEventArgs : Windows.UI.Xaml.DependencyObject, Window
 ## -description
 Provides data for the PickerConfirmed event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.PickerConfirmedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.pickerconfirmedeventargs).
+
 ## -remarks
 
 ## -examples

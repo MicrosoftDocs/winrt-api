@@ -22,11 +22,11 @@ The .appinstaller XML file location.
 
 Use this method if you want to get the URI to the .appinstaller file associated with the current app so you can share the URI with users. If a user who doesn't have the app clicks the URI, they are taken through the install process for the app. If a user who already has the app clicks the URI, the app is updated if needed and then it opens.
 
-You can optionally add arguments to the URI. In this case, the behavior is the same as described above, but the app can then use the arguments when it opens. The arguments must use a protocol that the app supports. For more information, see [Handle URI activation](https://docs.microsoft.com/windows/uwp/launch-resume/handle-uri-activation).
+You can optionally add arguments to the URI. In this case, the behavior is the same as described above, but the app can then use the arguments when it opens. The arguments must use a protocol that the app supports. For more information, see [Handle URI activation](/windows/uwp/launch-resume/handle-uri-activation).
 
 ## -see-also
 
-[AppInstallerInfo.Uri](appinstallerinfo_uri.md),[App Installer APIs](https://docs.microsoft.com/windows/msix/app-installer/app-installer-documentation#app-installer-file-apis),[Handle URI activation](https://docs.microsoft.com/windows/uwp/launch-resume/handle-uri-activation)
+[AppInstallerInfo.Uri](appinstallerinfo_uri.md),[App Installer APIs](/windows/msix/app-installer/app-installer-documentation#app-installer-file-apis),[Handle URI activation](/windows/uwp/launch-resume/handle-uri-activation)
 
 ## -examples
 

@@ -12,6 +12,8 @@ public float AmbientAmount { get;  set; }
 ## -description
 The proportion of predefined AmbientLight used by the effect.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Effects.SceneLightingEffect.AmbientAmount](/windows/winui/api/microsoft.ui.composition.effects.scenelightingeffect.ambientamount).
+
 ## -property-value
 The proportion of predefined AmbientLight used by the effect. Values must be set between 0.0 and 1.0.
 

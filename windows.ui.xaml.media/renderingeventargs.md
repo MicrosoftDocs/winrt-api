@@ -12,6 +12,8 @@ public class RenderingEventArgs : Windows.UI.Xaml.Media.IRenderingEventArgs
 ## -description
 Provides event data for the [Rendering](compositiontarget_rendering.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.RenderingEventArgs](/windows/winui/api/microsoft.ui.xaml.media.renderingeventargs).
+
 ## -remarks
 
 ## -examples

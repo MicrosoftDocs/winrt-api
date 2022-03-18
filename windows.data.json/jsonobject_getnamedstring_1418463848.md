@@ -10,7 +10,7 @@ public string GetNamedString(System.String name, System.String defaultValue)
 # Windows.Data.Json.JsonObject.GetNamedString
 
 ## -description
-Gets the [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) value with the specified name, or the provided default value if no such named value is found.
+Gets the [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) value with the specified name, or the provided default value if no such named value is found.
 
 ## -parameters
 ### -param name
@@ -20,7 +20,7 @@ The name.
 The default value to use if the JSON property is not found.
 
 ## -returns
-The [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) with the specified *name*, or if this value wasn't found, the *defaultValue* is returned.
+The [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) with the specified *name*, or if this value wasn't found, the *defaultValue* is returned.
 
 ## -remarks
 

@@ -12,6 +12,8 @@ public class RenderTargetBitmap : Windows.UI.Xaml.Media.ImageSource, Windows.UI.
 ## -description
 Represents an image source that can be populated with the combined contents of a XAML visual tree. See  for some notable limitations on which XAML visuals can be captured in a RenderTargetBitmap.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap).
+
 ## -remarks
 Using a RenderTargetBitmap, you can accomplish scenarios such as applying image effects to a visual that originally came from a XAML UI composition, generating thumbnail images of child pages for a navigation system, or enabling the user to save parts of the UI as an image source and then share that image with other apps.
 
@@ -25,13 +27,13 @@ The RenderTargetBitmap  API you'll use the most often is [RenderAsync](rendertar
 
 A RenderTargetBitmap object isn't typically declared in a XAML UI, because you need to call [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) in code before you have a useful, image-populated instance of RenderTargetBitmap for UI display purposes.
 
-For more code examples of using RenderTargetBitmap, see [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153).
+For more code examples of using RenderTargetBitmap, see [XAML render to bitmap sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20render%20to%20bitmap%20sample).
 
 The contents of a RenderTargetBitmap can be lost in rare cases because of interaction with other lower-level systems, for example if the video driver is reset as part of a recovery (see [Timeout Detection and Recovery (TDR)](XREF:TODO:display.timeout_detection_and_recovery)). If that happens, the [CompositionTarget.SurfaceContentsLost](../windows.ui.xaml.media/compositiontarget_surfacecontentslost.md) event will fire. To account for this case and similar info-loss cases, apps should listen for the [CompositionTarget.SurfaceContentsLost](../windows.ui.xaml.media/compositiontarget_surfacecontentslost.md) event and re-render the contents of a RenderTargetBitmap by calling [RenderAsync](rendertargetbitmap_renderasync_1804035726.md) again.
 
 The rendered bitmap contents of a RenderTargetBitmap do not automatically scale when the current DPI setting changes. Apps should re-render the contents of a RenderTargetBitmap when the current view's DPI setting changes in order to ensure that the rendered vector content remains crisp. For example, a resize can occur if the user moves an app between two monitors running at a different DPI setting. Consider listening for the [DisplayInformation.DpiChanged](../windows.graphics.display/displayinformation_dpichanged.md) event to detect these cases.
 
-The maximum rendered size of a XAML visual tree is restricted by the maximum dimensions of a Microsoft DirectX texture; for more info see [Resource Limits (Direct3D 11)](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-limits). This limit can vary depending on the hardware whre the app runs. Very large content that exceeds this limit might be scaled to fit. If scaling limits are applied in this way, the rendered size after scaling can be queried using the [PixelWidth](rendertargetbitmap_pixelwidth.md) and [PixelHeight](rendertargetbitmap_pixelheight.md) properties. For example, a 10000 by 10000 pixel XAML visual tree might be scaled to 4096 by 4096 pixels, an example of a particular limit as forced by the hardware where the app runs.
+The maximum rendered size of a XAML visual tree is restricted by the maximum dimensions of a Microsoft DirectX texture; for more info see [Resource Limits (Direct3D 11)](/windows/desktop/direct3d11/overviews-direct3d-11-resources-limits). This limit can vary depending on the hardware where the app runs. Very large content that exceeds this limit might be scaled to fit. If scaling limits are applied in this way, the rendered size after scaling can be queried using the [PixelWidth](rendertargetbitmap_pixelwidth.md) and [PixelHeight](rendertargetbitmap_pixelheight.md) properties. For example, a 10000 by 10000 pixel XAML visual tree might be scaled to 4096 by 4096 pixels, an example of a particular limit as forced by the hardware where the app runs.
 
 ### XAML visuals and **RenderTargetBitmap** capture capabilities
 
@@ -42,7 +44,7 @@ There are a few scenarios for XAML-composed visual content that you can't captur
 + Content that's in the XAML visual tree but offscreen can be captured, so long as it's not [Visibility](../windows.ui.xaml/uielement_visibility.md) = **Collapsed**.
 
 ## -examples
-This basic code outline is adapted from the first scenario XAML and code of the [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153). Note how all the code, even the constructor, is within an **async** method. Here it's an event handler for a button that a user clicks to initiate the rendering request.
+This basic code outline is adapted from the first scenario XAML and code of the [XAML render to bitmap sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20render%20to%20bitmap%20sample). Note how all the code, even the constructor, is within an **async** method. Here it's an event handler for a button that a user clicks to initiate the rendering request.
 
 ```xaml
 <StackPanel> 
@@ -70,4 +72,4 @@ private async void SaveImageSource_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[ImageSource](../windows.ui.xaml.media/imagesource.md), [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md)
+[ImageSource](../windows.ui.xaml.media/imagesource.md), [XAML render to bitmap sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20render%20to%20bitmap%20sample), [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes), [RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md)

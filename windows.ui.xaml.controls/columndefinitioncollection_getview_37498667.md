@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Controls.Colum
 ## -description
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ColumnDefinitionCollection.GetView](/windows/winui/api/microsoft.ui.xaml.controls.columndefinitioncollection.getview).
+
 ## -returns
 An object representing the immutable collection view.
 

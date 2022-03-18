@@ -12,6 +12,8 @@ virtual protected void OnDrop(Windows.UI.Xaml.DragEventArgs e)
 ## -description
 Called before the [Drop](../windows.ui.xaml/uielement_drop.md) event occurs.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnDrop](/windows/winui/api/microsoft.ui.xaml.controls.control.ondrop).
+
 ## -parameters
 ### -param e
 Event data for the event.
@@ -21,4 +23,4 @@ Event data for the event.
 ## -examples
 
 ## -see-also
-[UIElement.Drop](../windows.ui.xaml/uielement_drop.md), [DragEventArgs](../windows.ui.xaml/drageventargs.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)
+[UIElement.Drop](../windows.ui.xaml/uielement_drop.md), [DragEventArgs](../windows.ui.xaml/drageventargs.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)

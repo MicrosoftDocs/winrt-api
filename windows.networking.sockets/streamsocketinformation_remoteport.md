@@ -23,7 +23,7 @@ After a connection is established, the [RemoteAddress](streamsocketinformation_r
 ## -examples
 
 ## -see-also
-[How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [ConnectAsync](streamsocket_connectasync_13692504.md), [RemoteAddress](streamsocketinformation_remoteaddress.md), [RemoteHostName](streamsocketinformation_remotehostname.md), [RemoteServiceName](streamsocketinformation_remoteservicename.md), [StreamSocket](streamsocket.md)
+[How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [ConnectAsync](streamsocket_connectasync_13692504.md), [RemoteAddress](streamsocketinformation_remoteaddress.md), [RemoteHostName](streamsocketinformation_remotehostname.md), [RemoteServiceName](streamsocketinformation_remoteservicename.md), [StreamSocket](streamsocket.md)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

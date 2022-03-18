@@ -13,6 +13,8 @@ public DependencyProperty PlaceholderForegroundProperty { get; }
 
 Identifies the PlaceholderForeground dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.PlaceholderForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.placeholderforegroundproperty).
+
 ## -property-value
 
 The identifier for the PlaceholderForeground dependency property.

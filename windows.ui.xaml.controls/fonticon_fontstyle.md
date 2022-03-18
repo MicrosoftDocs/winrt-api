@@ -12,6 +12,8 @@ public Windows.UI.Text.FontStyle FontStyle { get;  set; }
 ## -description
 Gets or sets the font style for the icon glyph.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.FontIcon.FontStyle](/windows/winui/api/microsoft.ui.xaml.controls.fonticon.fontstyle).
+
 ## -xaml-syntax
 ```xaml
 <FontIcon FontStyle="fontStyleMemberName"/>

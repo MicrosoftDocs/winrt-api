@@ -12,6 +12,8 @@ public class Window : Windows.UI.Xaml.IWindow, Windows.UI.Xaml.IWindow2
 ## -description
 Represents an application window.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Window](/windows/winui/api/microsoft.ui.xaml.window).
+
 ## -remarks
 This class represents the window of the current [Application](application.md). In the same manner as the static [Application](application_application_1221375020.md) property, the static [Current](application_current.md) property will return the app window object. From this object, an app can utilize the [Dispatcher](window_dispatcher.md) or determine the size of the Window from the [Bounds](window_bounds.md) property. The most common usage for Window is setting a [UIElement](uielement.md) to the [Content](window_content.md) that represents the app UI. This is usually done as part of app activation (for example in the [OnLaunched](application_onlaunched_859642554.md) override.) You can change this window content throughout the lifetime of the window.
 
@@ -47,7 +49,7 @@ protected override void OnLaunched(LaunchActivatedEventArgs args)
 
 ```
 
-```vbnet
+```vb
 Protected Overrides Sub OnLaunched(args As 
     Windows.ApplicationModel.Activation.LaunchActivatedEventArgs)
 
@@ -65,4 +67,4 @@ End Sub
 
 
 ## -see-also
-[OnLaunched](application_onlaunched_859642554.md), [Handle app activation](https://docs.microsoft.com/windows/uwp/launch-resume/activate-an-app), [CoreWindow](../windows.ui.core/corewindow.md)
+[OnLaunched](application_onlaunched_859642554.md), [Handle app activation](/windows/uwp/launch-resume/activate-an-app), [CoreWindow](../windows.ui.core/corewindow.md)

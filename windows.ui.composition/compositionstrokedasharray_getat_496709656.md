@@ -13,6 +13,8 @@ public float CompositionStrokeDashArray.GetAt(UInt32 index)
 
 Returns the value located at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionStrokeDashArray.GetAt](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.getat).
+
 ## -parameters
 ### -param index
 

@@ -12,6 +12,8 @@ public int SelectedIndex { get;  set; }
 ## -description
 Gets or sets the index of the selected item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Selector.SelectedIndex](/windows/winui/api/microsoft.ui.xaml.controls.primitives.selector.selectedindex).
+
 ## -xaml-syntax
 ```xaml
 <selector SelectedIndex="int" .../>

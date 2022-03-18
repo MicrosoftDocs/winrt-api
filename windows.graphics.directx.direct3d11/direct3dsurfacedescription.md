@@ -11,7 +11,7 @@ public struct Direct3DSurfaceDescription
 # Direct3DSurfaceDescription
 
 ## -description
-This is a Windows Runtime equivalent of the Desktop [DXGI_SURFACE_DESC](/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc) structure. Describes an [IDirect3DSurface](idirect3dsurface.md).
+This is a Windows Runtime equivalent of the Desktop [DXGI_SURFACE_DESC](/windows/win32/api/dxgi/ns-dxgi-dxgi_surface_desc) structure. Describes an [IDirect3DSurface](idirect3dsurface.md).
 
 ## -struct-fields
 

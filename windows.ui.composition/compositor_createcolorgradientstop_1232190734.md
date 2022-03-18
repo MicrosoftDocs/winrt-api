@@ -13,6 +13,8 @@ public CompositionColorGradientStop Compositor.CreateColorGradientStop(Single of
 
 Creates an instance of [CompositionColorGradientStop](compositioncolorgradientstop.md) with the specified offset and color.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateColorGradientStop](/windows/winui/api/microsoft.ui.composition.compositor.createcolorgradientstop).
+
 ## -parameters
 ### -param offset
 

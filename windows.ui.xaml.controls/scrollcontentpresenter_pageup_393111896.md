@@ -12,6 +12,8 @@ public void PageUp()
 ## -description
 Scrolls up within the content by one page.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.PageUp](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.pageup).
+
 ## -remarks
 
 ## -examples

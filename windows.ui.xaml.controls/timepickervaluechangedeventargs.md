@@ -12,6 +12,8 @@ public class TimePickerValueChangedEventArgs : Windows.UI.Xaml.Controls.ITimePic
 ## -description
 Provides event data for the [TimePicker.TimeChanged](timepicker_timechanged.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TimePickerValueChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.timepickervaluechangedeventargs).
+
 ## -remarks
 
 ## -examples

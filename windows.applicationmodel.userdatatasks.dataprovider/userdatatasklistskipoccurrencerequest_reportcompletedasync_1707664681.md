@@ -9,14 +9,18 @@ public IAsyncAction UserDataTaskListSkipOccurrenceRequest.ReportCompletedAsync()
 
 # Windows.ApplicationModel.UserDataTasks.DataProvider.UserDataTaskListSkipOccurrenceRequest.ReportCompletedAsync
 
+
 ## -description
+
 Informs the client app that the request was processed successfully.
-## -parameters
 
 ## -returns
-An asynchronous operation. 
+
+An asynchronous operation.
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
+

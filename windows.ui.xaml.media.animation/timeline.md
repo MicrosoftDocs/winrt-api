@@ -12,6 +12,8 @@ public class Timeline : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Media.
 ## -description
 Defines a duration and other behavior properties for a Windows Runtime animation. Timeline is the base class for [Storyboard](storyboard.md) and all the Windows Runtime animation types, including those from the animation library and those used for custom animations in visual states or page-level XAML.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.Timeline](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline).
+
 ## -remarks
 Timeline defines the [Duration](timeline_duration.md) property that controls how long an animation runs once started. Timeline also defines these behavior properties, which are common to all animations types, and to [Storyboard](storyboard.md):
 + [AutoReverse](timeline_autoreverse.md)
@@ -23,7 +25,7 @@ Timeline defines the [Duration](timeline_duration.md) property that controls how
 
 Timeline also defines the [Completed](timeline_completed.md) event for [Storyboard](storyboard.md) and animations. Handling the [Completed](timeline_completed.md) event isn't necessary or most UI animation scenarios.
 
-The relationship between [Storyboard](storyboard.md) and the animation types is that a [Storyboard](storyboard.md) is a container that can group multiple animations, and acts as the controller for starting and stopping the contained animations. When you set Timeline properties on a [Storyboard](storyboard.md) as opposed to individual animations within a [Storyboard](storyboard.md), the Timeline properties set in the [Storyboard](storyboard.md) typically override those from the combined animations. For more info see [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations).
+The relationship between [Storyboard](storyboard.md) and the animation types is that a [Storyboard](storyboard.md) is a container that can group multiple animations, and acts as the controller for starting and stopping the contained animations. When you set Timeline properties on a [Storyboard](storyboard.md) as opposed to individual animations within a [Storyboard](storyboard.md), the Timeline properties set in the [Storyboard](storyboard.md) typically override those from the combined animations. For more info see [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations).
 
 Timeline has a strongly typed collection class that is used for properties that take a set of Timeline values, such as [Storyboard.Children](storyboard_children.md). For more info see [TimelineCollection](timelinecollection.md).
 
@@ -60,4 +62,4 @@ Timeline is the parent class for several immediately derived classes that suppor
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Storyboard](storyboard.md), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10)), [Key-frame animations and easing function animations](https://docs.microsoft.com/windows/uwp/graphics/key-frame-and-easing-function-animations)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Storyboard](storyboard.md), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](/previous-versions/windows/apps/jj819808(v=win.10)), [Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations)

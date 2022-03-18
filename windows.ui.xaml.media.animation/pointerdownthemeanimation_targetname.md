@@ -12,6 +12,8 @@ public string TargetName { get;  set; }
 ## -description
 Gets or sets the reference name of the control element being targeted.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PointerDownThemeAnimation.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.pointerdownthemeanimation.targetname).
+
 ## -xaml-syntax
 ```xaml
 <PointerDownThemeAnimation TargetName="nameString" />
@@ -26,4 +28,4 @@ The name of the control element being targeted.
 ## -examples
 
 ## -see-also
-[Animating pointer clicks](https://docs.microsoft.com/previous-versions/windows/apps/jj649432(v=win.10)), [Guidelines and checklist for pointer click animations](https://docs.microsoft.com/windows/uwp/style/motion-pointer)
+[Animating pointer clicks](/previous-versions/windows/apps/jj649432(v=win.10)), [Guidelines and checklist for pointer click animations](/windows/uwp/style/motion-pointer)

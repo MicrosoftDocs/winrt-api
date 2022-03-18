@@ -17,31 +17,6 @@ Represents an item in the feed. This class encapsulates information in the **/rs
 
 The following code demonstrates how to access the property values of a SyndicationItem object.
 
-```javascript
-
-function displayCurrentItem() {
-    var item = currentFeed.items[currentItemIndex];
-
-    // Title.
-    var title = item.title || "(no title)";
-    document.getElementById("feedItemTitle").innerText = title;
-
-    // Display the main link.
-    var link = "";
-    if (item.links.size > 0) {
-        link = item.links[0].uri.absoluteUri;
-    }
-
-    var feedLink = document.getElementById("feedLink");
-    feedLink.innerText = link;
-    feedLink.href = link;
-
-    // Display the body as HTML.
-    var content = item.content || item.summary || "(no content)";
-    document.getElementById("feedWebView").innerHTML = content;
-}
-```
-
 ```csharp
 
 using Windows.Foundation;
@@ -76,7 +51,7 @@ private void DisplayCurrentItem()
 }
 ```
 
-For additional examples that demonstrate how this class is used to represent feed content, see [Quickstart: Accessing a web feed](https://docs.microsoft.com/previous-versions/windows/apps/hh700374(v=win.10)).
+For additional examples that demonstrate how this class is used to represent feed content, see [Quickstart: Accessing a web feed](/previous-versions/windows/apps/hh700374(v=win.10)).
 
 The following table maps SyndicationItem properties to RSS and Atom feed elements.
 
@@ -112,4 +87,4 @@ The following table maps SyndicationItem properties to RSS and Atom feed element
 
 ## -see-also
 
-[Quickstart: Accessing a web feed](https://docs.microsoft.com/previous-versions/windows/apps/hh700374(v=win.10)), [Syndication sample](https://go.microsoft.com/fwlink/p/?linkid=245062), [AtomPub sample](https://go.microsoft.com/fwlink/p/?linkid=245061), [Syndication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620610)
+[Quickstart: Accessing a web feed](/previous-versions/windows/apps/hh700374(v=win.10)), [Syndication sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/%5BC%23%5D-Windows%208.1%20Store%20app%20samples/Syndication%20sample/C%23), [AtomPub sample](/samples/browse/), [Syndication sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Syndication)

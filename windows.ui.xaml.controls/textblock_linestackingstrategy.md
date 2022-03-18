@@ -12,6 +12,8 @@ public Windows.UI.Xaml.LineStackingStrategy LineStackingStrategy { get;  set; }
 ## -description
 Gets or sets a value that indicates how a line box is determined for each line of text in the [TextBlock](textblock.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.LineStackingStrategy](/windows/winui/api/microsoft.ui.xaml.controls.textblock.linestackingstrategy).
+
 ## -xaml-syntax
 ```xaml
 <TextBlock LineStackingStrategy="BlockLineHeight"/>

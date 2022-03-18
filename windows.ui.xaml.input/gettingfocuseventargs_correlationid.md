@@ -14,6 +14,8 @@ public Guid CorrelationId { get; }
 
 Gets the unique ID generated when a focus movement event is initiated.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.CorrelationId](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.correlationid).
+
 ## -property-value
 
 The unique ID, if any. Otherwise, **null**.
@@ -42,6 +44,6 @@ A new CorrelationId is generated when:
 
 ## -see-also
 
-[LosingFocusEventArgs.CorrelationId](losingfocuseventargs_correlationid.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[LosingFocusEventArgs.CorrelationId](losingfocuseventargs_correlationid.md), [Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples

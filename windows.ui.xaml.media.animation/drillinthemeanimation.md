@@ -12,6 +12,8 @@ public class DrillInThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline, W
 ## -description
 Represents a preconfigured animation that runs when a user navigates forward in a logical hierarchy, like from a master page to a detail page.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DrillInThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.drillinthemeanimation).
+
 ## -remarks
 
 ## -examples

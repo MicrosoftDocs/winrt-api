@@ -33,10 +33,10 @@ Network isolation affects any methods and properties in the [Windows.Networking.
 The network capabilities for an app are configured in the app manifest when the app is built. Network capabilities are usually added using Microsoft Visual Studio 2012 when developing the app. Network capabilities may also be set manually in the app manifest file using a text editor.
 
 <!--For more information, see <xref targtype="ovw" rid="m_getstarted.adding_capabilities__controls__and_layout_to_your_app"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Adding Capabilities, Controls, and Layout to Your App</xref>.-->
-For more detailed information on network isolation, see the [How to configure network isolation capabilities](https://docs.microsoft.com/previous-versions/windows/apps/hh770532(v=win.10)).
+For more detailed information on network isolation, see the [How to configure network isolation capabilities](/previous-versions/windows/apps/hh770532(v=win.10)).
 
 ## -examples
 
 ## -see-also
 
-[How to configure network isolation capabilities](https://docs.microsoft.com/previous-versions/windows/apps/hh770532(v=win.10)), [Windows.Networking.BackgroundTransfer](../windows.networking.backgroundtransfer/windows_networking_backgroundtransfer.md), [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md), [Windows.Web.AtomPub](../windows.web.atompub/windows_web_atompub.md), [Windows.Web.Syndication](../windows.web.syndication/windows_web_syndication.md), [StreamSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620609), [DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534)
+[How to configure network isolation capabilities](/previous-versions/windows/apps/hh770532(v=win.10)), [Windows.Networking.BackgroundTransfer](../windows.networking.backgroundtransfer/windows_networking_backgroundtransfer.md), [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md), [Windows.Web.AtomPub](../windows.web.atompub/windows_web_atompub.md), [Windows.Web.Syndication](../windows.web.syndication/windows_web_syndication.md), [StreamSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/StreamSocket), [DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534)

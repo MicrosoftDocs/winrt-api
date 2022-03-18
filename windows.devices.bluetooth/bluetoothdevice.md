@@ -13,6 +13,8 @@ public class BluetoothDevice : Windows.Devices.Bluetooth.IBluetoothDevice, Windo
 ## -description
 Represents a Bluetooth device.
 
+Sample applications that use this class include [Device enumeration and pairing sample](/samples/microsoft/windows-universal-samples/deviceenumerationandpairing/) and [Bluetooth RFCOMM chat sample](/samples/microsoft/windows-universal-samples/bluetoothrfcommchat/).
+
 ## -remarks
 
 ### Version history
@@ -38,6 +40,7 @@ Represents a Bluetooth device.
 
 ## -see-also
 
+[Device enumeration and pairing sample](/samples/microsoft/windows-universal-samples/deviceenumerationandpairing/), [Bluetooth RFCOMM chat sample](/samples/microsoft/windows-universal-samples/bluetoothrfcommchat/)
 
 ## -capabilities
 bluetooth

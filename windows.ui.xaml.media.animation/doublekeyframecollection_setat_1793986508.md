@@ -12,6 +12,8 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Media.Animation.DoubleKey
 ## -description
 Sets the value at the specified index to the [DoubleKeyFrame](doublekeyframe.md) value specified.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrameCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframecollection.setat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

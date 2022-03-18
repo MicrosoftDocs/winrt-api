@@ -15,8 +15,9 @@ Contains the window input state returned by the [CoreWindow.InputEnabled](corewi
 ## -remarks
 This object is returned by a delegate registered for the [CoreWindow.InputEnabled](corewindow_inputenabled.md) event.
 
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx).
 
 ## -examples
 

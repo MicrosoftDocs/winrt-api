@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Documents.Inli
 ## -description
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.InlineCollection.GetView](/windows/winui/api/microsoft.ui.xaml.documents.inlinecollection.getview).
+
 ## -returns
 An object representing the immutable collection view.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ContentProperty { get; }
 ## -description
 Identifies the [Content](splitview_content.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.ContentProperty](/windows/winui/api/microsoft.ui.xaml.controls.splitview.contentproperty).
+
 ## -property-value
 The identifier for the [Content](splitview_content.md)  dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [Content](splitview_content.md)  dependency property.
 ## -examples
 
 ## -see-also
-[Content](splitview_content.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Content](splitview_content.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

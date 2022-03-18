@@ -12,6 +12,8 @@ public bool IsSpellCheckEnabled { get;  set; }
 ## -description
 Gets or sets a value that specifies whether the [TextBox](textbox.md) input interacts with a spell check engine.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.IsSpellCheckEnabled](/windows/winui/api/microsoft.ui.xaml.controls.textbox.isspellcheckenabled).
+
 ## -xaml-syntax
 ```xaml
 <TextBox IsSpellCheckEnabled="bool" />
@@ -37,4 +39,4 @@ When using the Soft Input Panel (SIP), this property enables the following featu
 ## -examples
 
 ## -see-also
-[Touch keyboard text input sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=690716)
+[Touch keyboard text input sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/TouchKeyboardTextInput)

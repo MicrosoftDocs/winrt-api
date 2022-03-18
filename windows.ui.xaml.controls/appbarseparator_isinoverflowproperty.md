@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsInOverflowProperty { get; }
 ## -description
 Identifies the [IsInOverflow](appbarseparator_isinoverflow.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarSeparator.IsInOverflowProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbarseparator.isinoverflowproperty).
+
 ## -property-value
 The identifier for the [IsInOverflow](appbarseparator_isinoverflow.md) dependency property.
 

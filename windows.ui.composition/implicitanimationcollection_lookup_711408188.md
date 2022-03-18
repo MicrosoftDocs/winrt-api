@@ -12,6 +12,8 @@ public Windows.UI.Composition.ICompositionAnimationBase Lookup(System.String key
 ## -description
 Retrieves the animation associated with the specified property.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.ImplicitAnimationCollection.Lookup](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.lookup).
+
 ## -parameters
 ### -param key
 The property to lookup.

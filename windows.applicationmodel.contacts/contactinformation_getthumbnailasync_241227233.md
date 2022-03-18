@@ -10,10 +10,11 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessS
 # Windows.ApplicationModel.Contacts.ContactInformation.GetThumbnailAsync
 
 ## -description
-> [!NOTE]
-> [ContactInformation](contactinformation.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [Contact](contact.md).
 
 Gets the thumbnail image for the contact.
+
+> [!NOTE]
+> [ContactInformation](contactinformation.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [Contact](contact.md).
 
 ## -returns
 An object that provides access to the thumbnail image.

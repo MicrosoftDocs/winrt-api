@@ -13,6 +13,8 @@ public InteractionTrackerVector2InertiaNaturalMotion InteractionTrackerVector2In
 
 Creates an instance of [InteractionTrackerVector2InertiaNaturalMotion](interactiontrackervector2inertianaturalmotion.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTrackerVector2InertiaNaturalMotion.Create](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackervector2inertianaturalmotion.create).
+
 ## -parameters
 ### -param compositor
 

@@ -17,4 +17,4 @@ Enables an app to define a custom title bar that displays in the app's window.
 ## -examples
 
 ## -see-also
-[Title bar customization](https://docs.microsoft.com/windows/uwp/design/shell/title-bar)
+[Title bar customization](/windows/uwp/design/shell/title-bar)

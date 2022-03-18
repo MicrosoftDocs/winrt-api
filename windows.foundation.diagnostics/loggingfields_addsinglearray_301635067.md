@@ -10,7 +10,7 @@ public void AddSingleArray(System.String name, System.Single[] value, Windows.Fo
 # Windows.Foundation.Diagnostics.LoggingFields.AddSingleArray
 
 ## -description
-Adds a [Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN) array field with the specified field name and format.
+Adds a [Single](/dotnet/api/system.single?view=dotnet-uwp-10.0&preserve-view=true) array field with the specified field name and format.
 
 ## -parameters
 ### -param name

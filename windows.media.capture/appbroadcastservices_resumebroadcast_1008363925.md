@@ -9,10 +9,10 @@ public void AppBroadcastServices.ResumeBroadcast()
 
 # Windows.Media.Capture.AppBroadcastServices.ResumeBroadcast
 
-## -description
-Resumes the app broadcasting.
 
-## -params
+## -description
+
+Resumes the app broadcasting.
 
 ## -remarks
 
@@ -20,7 +20,7 @@ Resumes the app broadcasting.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appBroadcast, appBroadcastSettings
+

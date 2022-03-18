@@ -16,6 +16,7 @@ Gets or sets a value that specifies the projection mode used for spherical video
 A value that specifies the projection mode used for spherical video.
 
 ## -remarks
+The value of this property is not guaranteed to be correct until after the [MediaPlayer.MediaOpened](mediaplayer_mediaopened.md) event has been raised for the associated media item.
 
 ## -see-also
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SelectedBackgroundProperty { get; }
 ## -description
 Identifies the [SelectedBackground](listviewitempresenter_selectedbackground.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.selectedbackgroundproperty).
+
 ## -property-value
 The identifier for the [SelectedBackground](listviewitempresenter_selectedbackground.md) dependency property.
 

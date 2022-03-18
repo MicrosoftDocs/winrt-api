@@ -12,9 +12,11 @@ public AccessKeyInvokedEventArgs()
 ## -description
 Initializes a new instance of the [AccessKeyInvokedEventArgs](accesskeyinvokedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.AccessKeyInvokedEventArgs.AccessKeyInvokedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.accesskeyinvokedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)
+[Access keys](/windows/uwp/design/input/access-keys)

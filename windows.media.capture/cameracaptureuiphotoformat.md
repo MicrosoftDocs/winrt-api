@@ -27,7 +27,7 @@ JPEG-XR format.
 ## -remarks
 Set the photo capture format for [CameraCaptureUI](cameracaptureui.md) by setting the [CameraCaptureUIPhotoCaptureSettings.Format](cameracaptureuiphotocapturesettings_format.md) property to one of the values of this enumeration.
 
-For how-to guidance for using **CameraCaptureUI** to capture photos and video, see [Capture photos and video with Windows built-in camera UI](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui).
+For how-to guidance for using **CameraCaptureUI** to capture photos and video, see [Capture photos and video with Windows built-in camera UI](/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui).
 
 
 
@@ -39,7 +39,7 @@ You must specify the **webcam** or **microphone** capabilities in your app manif
 ## -examples
 
 ## -see-also
-[Capture photos and video with Windows built-in camera UI](https://docs.microsoft.com/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui), [CameraCaptureUI](cameracaptureui.md), [CameraCaptureUIPhotoCaptureSettings.Format](cameracaptureuiphotocapturesettings_format.md)
+[Capture photos and video with Windows built-in camera UI](/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui), [CameraCaptureUI](cameracaptureui.md), [CameraCaptureUIPhotoCaptureSettings.Format](cameracaptureuiphotocapturesettings_format.md)
 
 ## -capabilities
 microphone, webcam

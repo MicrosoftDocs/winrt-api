@@ -12,6 +12,8 @@ public class DebugSettings : Windows.UI.Xaml.IDebugSettings, Windows.UI.Xaml.IDe
 ## -description
 Declares how certain aspects of the app behave when it is run in a debug environment
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.DebugSettings](/windows/winui/api/microsoft.ui.xaml.debugsettings).
+
 ## -remarks
 This class can't be constructed. Get the value from [Application.DebugSettings](application_debugsettings.md) and then change the properties as necessary.
 
@@ -41,4 +43,4 @@ protected override void OnLaunched(LaunchActivatedEventArgs args) {
 
 
 ## -see-also
-[Application.DebugSettings](application_debugsettings.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [Performance best practices for ](https://docs.microsoft.com/previous-versions/windows/apps/hh750313(v=win.10))
+[Application.DebugSettings](application_debugsettings.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [Performance best practices for ](/previous-versions/windows/apps/hh750313(v=win.10))

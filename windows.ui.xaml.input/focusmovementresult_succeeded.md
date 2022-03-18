@@ -13,6 +13,8 @@ public bool Succeeded { get; }
 
 Gets a boolean value that indicates whether focus can be assigned to an object.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.FocusMovementResult.Succeeded](/windows/winui/api/microsoft.ui.xaml.input.focusmovementresult.succeeded).
+
 ## -property-value
 
 True, if focus can be assigned; otherwise, false.
@@ -21,6 +23,6 @@ True, if focus can be assigned; otherwise, false.
 
 ## -see-also
 
-[Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples

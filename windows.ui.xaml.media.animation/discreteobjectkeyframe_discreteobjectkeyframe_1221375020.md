@@ -12,6 +12,8 @@ public DiscreteObjectKeyFrame()
 ## -description
 Initializes a new instance of the [DiscreteObjectKeyFrame](discreteobjectkeyframe.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DiscreteObjectKeyFrame.DiscreteObjectKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.discreteobjectkeyframe.#ctor).
+
 ## -remarks
 
 ## -examples

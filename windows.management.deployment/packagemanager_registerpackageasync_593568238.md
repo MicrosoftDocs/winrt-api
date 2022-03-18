@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Management.Deploym
 # Windows.Management.Deployment.PackageManager.RegisterPackageAsync
 
 ## -description
-Registers a package (the main package) and its dependency packages for the current user, using the specified deployment options.
+Registers a [Package](/uwp/api/windows.applicationmodel.package) (the main package) and its dependency packages for the current user, using the specified deployment options.
 
 ## -parameters
 ### -param manifestUri
@@ -30,4 +30,5 @@ An object that the caller can observe to track progress and completion for the c
 ## -examples
 
 ## -see-also
-[RegisterPackageAsync(Uri, IIterable(Uri), DeploymentOptions, PackageVolume)](packagemanager_registerpackageasync_1668904418.md)
+
+[Package](/uwp/api/windows.applicationmodel.package), [RegisterPackageAsync(Uri, IIterable(Uri), DeploymentOptions, PackageVolume)](packagemanager_registerpackageasync_1668904418.md)

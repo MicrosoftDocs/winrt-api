@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AboveProperty { get; }
 ## -description
 Identifies the [RelativePanel.Above](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.AboveProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.aboveproperty).
+
 ## -property-value
 The identifier for the [RelativePanel.Above](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property.
 
@@ -36,4 +38,4 @@ string elementName = (string)Button1.GetValue(RelativePanel.AboveProperty);
 
 
 ## -see-also
-[RelativePanel.Above](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)
+[RelativePanel.Above](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

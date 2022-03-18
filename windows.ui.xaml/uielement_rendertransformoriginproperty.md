@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty RenderTransformOriginProperty { get; }
 ## -description
 Identifies the [RenderTransformOrigin](uielement_rendertransformorigin.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.RenderTransformOriginProperty](/windows/winui/api/microsoft.ui.xaml.uielement.rendertransformoriginproperty).
+
 ## -property-value
 The identifier for the [RenderTransformOrigin](uielement_rendertransformorigin.md) dependency property.
 

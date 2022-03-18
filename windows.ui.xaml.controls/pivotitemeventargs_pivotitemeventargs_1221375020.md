@@ -12,6 +12,8 @@ public PivotItemEventArgs()
 ## -description
 Initializes a new instance of the [PivotItemEventArgs](pivotitemeventargs.md) type
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.PivotItemEventArgs.PivotItemEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.pivotitemeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

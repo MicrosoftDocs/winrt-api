@@ -12,6 +12,8 @@ public bool DayVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the day selector is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.DayVisible](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.dayvisible).
+
 ## -xaml-syntax
 ```xaml
 <DatePicker DayVisible="bool"/>
@@ -27,4 +29,4 @@ By default, the [DatePicker](datepicker.md) shows [ComboBox](combobox.md) elemen
 ## -examples
 
 ## -see-also
-[MonthVisible](datepicker_monthvisible.md), [YearVisible](datepicker_yearvisible.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10))
+[MonthVisible](datepicker_monthvisible.md), [YearVisible](datepicker_yearvisible.md), [Quickstart: Adding a DatePicker](/previous-versions/windows/apps/dn308514(v=win.10))

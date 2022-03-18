@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty EnableDependentAnimationProperty { get
 ## -description
 Identifies the [EnableDependentAnimation](doubleanimationusingkeyframes_enabledependentanimation.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames.EnableDependentAnimationProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimationusingkeyframes.enabledependentanimationproperty).
+
 ## -property-value
 The identifier for the [EnableDependentAnimation](doubleanimationusingkeyframes_enabledependentanimation.md) dependency property.
 

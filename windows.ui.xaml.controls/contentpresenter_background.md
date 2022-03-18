@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush Background { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the background of content handled by the [ContentPresenter](contentpresenter.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.Background](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.background).
+
 ## -xaml-syntax
 ```xaml
 <ContentPresenter Background="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <ContentPresenter Background="colorString"/>
-
-```
-
-```xaml
+- or -
 <ContentPresenter>
   <ContentPresenter.Background>singleBrush</ContentPresenter.Background>
 </ContentPresenter>

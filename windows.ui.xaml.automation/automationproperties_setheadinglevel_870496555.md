@@ -12,6 +12,8 @@ public void AutomationProperties.SetHeadingLevel(DependencyObject element, Autom
 ## -description
 Sets the value of the [AutomationProperties.HeadingLevel](automationproperties_headinglevelproperty.md) property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetHeadingLevel](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setheadinglevel).
+
 ## -parameters
 ### -param element
 The specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
@@ -27,7 +29,7 @@ Heading elements organize the user interface and make it easier to navigate. Som
 Examples of headings would be section titles within the Windows Settings app. For instance, under the **Ease of Access** -> **Mouse** page, **Pointer size**, **Pointer color**, and **Mouse keys** would be a heading of level 1.
 
 ## -see-also
-[GetHeadingLevel](automationproperties_getheadinglevel_655629781.md), [Landmarks and Headings](https://docs.microsoft.com/windows/uwp/design/accessibility/landmarks-and-headings)
+[GetHeadingLevel](automationproperties_getheadinglevel_655629781.md), [Landmarks and Headings](/windows/uwp/design/accessibility/landmarks-and-headings)
 
 ## -examples
 

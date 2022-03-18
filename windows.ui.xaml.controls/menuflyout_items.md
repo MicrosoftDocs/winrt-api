@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Controls.MenuFlyou
 ## -description
 Gets the collection used to generate the content of the menu.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyout.Items](/windows/winui/api/microsoft.ui.xaml.controls.menuflyout.items).
+
 ## -xaml-syntax
 ```xaml
 <MenuFlyout>
@@ -24,7 +26,7 @@ Gets the collection used to generate the content of the menu.
 <dl><dt>oneOrMoreItems</dt><dd>oneOrMoreItemsSets of MenuFlyoutItem elements. Can also include MenuFlyoutSeparator elements between groups of items, or ToggleMenuFlyoutItem elements.</dd>
 </dl>
 ## -property-value
-The collection that is used to generate the content of the menu, if it exists; otherwise, **null**. The default is an empty collection.
+The collection that is used to generate the content of the menu. The default is an empty collection.
 
 ## -remarks
 

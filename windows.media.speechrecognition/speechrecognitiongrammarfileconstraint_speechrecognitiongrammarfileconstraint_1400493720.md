@@ -21,4 +21,4 @@ An object representing a Speech Recognition Grammar Specification (SRGS) grammar
 ## -examples
 
 ## -see-also
-[SpeechRecognitionGrammarFileConstraint(StorageFile, String)](speechrecognitiongrammarfileconstraint_speechrecognitiongrammarfileconstraint_528866088.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[SpeechRecognitionGrammarFileConstraint(StorageFile, String)](speechrecognitiongrammarfileconstraint_speechrecognitiongrammarfileconstraint_528866088.md), [Speech interactions](/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

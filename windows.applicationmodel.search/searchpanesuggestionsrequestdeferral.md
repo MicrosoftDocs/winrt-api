@@ -10,24 +10,25 @@ public class SearchPaneSuggestionsRequestDeferral : Windows.ApplicationModel.Sea
 # Windows.ApplicationModel.Search.SearchPaneSuggestionsRequestDeferral
 
 ## -description
-Enables the app to signal when it has finished populating a [searchSuggestionCollection](searchsuggestioncollection.md) object while handling the [suggestionsrequested](searchpane_suggestionsrequested.md) event. Apps should use a deferral if and only if they need to respond to a request for suggestions asynchronously.
+
+Enables the app to signal when it has finished populating a [SearchSuggestionCollection](searchsuggestioncollection.md) object while handling the [SuggestionsRequested](searchpane_suggestionsrequested.md) event. Apps should use a deferral if and only if they need to respond to a request for suggestions asynchronously.
 
 ## -remarks
+
+> [!IMPORTANT]
+> To implement search in an app for Windows 10, use [AutoSuggestBox](/uwp/api/windows.ui.xaml.controls.autosuggestbox). See [Auto-suggest box](/windows/uwp/design/controls-and-patterns/auto-suggest-box) for more info.
+>
+> You should not use [Windows.ApplicationModel.Search](/uwp/api/windows.applicationmodel.search) APIs ([SearchPane](/uwp/api/windows.applicationmodel.search.searchpane), [SearchContract](/uwp/api/windows.applicationmodel.search.searchcontract)) or SearchBox ([Windows.UI.Xaml.Controls.SearchBox](../windows.ui.xaml.controls/searchbox.md)/[WinJS.UI.SearchBox](/previous-versions/windows/apps/dn301949(v=win.10))) APIs in apps for Windows 10.
+
 Your app should respond asynchronously to a request for suggestions if fulfilling the request will take a significant amount of time, such as fetching suggestions from a web service.
 
-Use the [searchPaneSuggestionsRequestDeferral.complete](searchpanesuggestionsrequestdeferral_complete_1807836922.md) method to signal when your app has fulfilled the request.
+Use the [SearchPaneSuggestionsRequestDeferral.Complete](searchpanesuggestionsrequestdeferral_complete_1807836922.md) method to signal when your app has fulfilled the request.
 
-An app retrieves this object by calling the [searchPaneSuggestionsRequest.getDeferral](searchpanesuggestionsrequest_getdeferral_254836512.md) method while handling the [suggestionsrequested](searchpane_suggestionsrequested.md) event.
+An app retrieves this object by calling the [SearchPaneSuggestionsRequest.GetDeferral](searchpanesuggestionsrequest_getdeferral_254836512.md) method while handling the [SuggestionsRequested](searchpane_suggestionsrequested.md) event.
 
 ## -examples
-The [Search contract sample](https://go.microsoft.com/fwlink/p/?linkid=234892) demonstrates how to respond to a [suggestionsrequested](searchpane_suggestionsrequested.md) event, including how to get a deferral.
-
-
-
-[!code-csharp[all_suggestionsrequested_handler_deferral](../windows.applicationmodel.search/code/SearchContract/CS/Scenario6.xaml.cs#Snippetall_suggestionsrequested_handler_deferral)]
-
-[!code-js[all_suggestionsrequested_handler_deferral](../windows.applicationmodel.search/code/SearchContract/js/js/scenario6.js#Snippetall_suggestionsrequested_handler_deferral)]
 
 ## -see-also
+
 [SearchPane class](searchpane.md), [SearchPane.SuggestionsRequested event](searchpane_suggestionsrequested.md), [SearchPaneSuggestionsRequest class](searchpanesuggestionsrequest.md), [SearchPaneSuggestionsRequest.GetDeferral method](searchpanesuggestionsrequest_getdeferral_254836512.md), [SearchPaneSuggestionsRequestedEventArgs class](searchpanesuggestionsrequestedeventargs.md)
 suggestionsrequestedeventargs.md)

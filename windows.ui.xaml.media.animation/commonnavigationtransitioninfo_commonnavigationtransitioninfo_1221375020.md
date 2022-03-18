@@ -12,6 +12,8 @@ public CommonNavigationTransitionInfo()
 ## -description
 Initializes a new instance of the [CommonNavigationTransitionInfo](commonnavigationtransitioninfo.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.CommonNavigationTransitionInfo.CommonNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.commonnavigationtransitioninfo.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DecodePixelWidthProperty { get; }
 ## -description
 Identifies the [DecodePixelWidth](bitmapimage_decodepixelwidth.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelWidthProperty](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.decodepixelwidthproperty).
+
 ## -property-value
 The identifier for the [DecodePixelWidth](bitmapimage_decodepixelwidth.md) dependency property.
 

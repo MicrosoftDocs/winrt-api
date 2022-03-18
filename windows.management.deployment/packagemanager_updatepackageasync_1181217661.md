@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<Windows.Management.Deploym
 # Windows.Management.Deployment.PackageManager.UpdatePackageAsync
 
 ## -description
-Updates an installed package or its dependency packages for the current user.
+Updates an installed [Package](/uwp/api/windows.applicationmodel.package) or its dependency packages for the current user.
 
 ## -parameters
 ### -param packageUri
@@ -32,6 +32,7 @@ An installed package can be updated only if the version of the update package is
 
 ## -see-also
 
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

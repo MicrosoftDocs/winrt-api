@@ -12,6 +12,8 @@ public void SetVector4Parameter(System.String key, Windows.Foundation.Numerics.V
 ## -description
 Sets a [Vector4](../windows.foundation.numerics/vector4.md) value parameter for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe_1955314135.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionAnimation.SetVector4Parameter](/windows/winui/api/microsoft.ui.composition.compositionanimation.setvector4parameter).
+
 ## -parameters
 ### -param key
 The name of the parameter.

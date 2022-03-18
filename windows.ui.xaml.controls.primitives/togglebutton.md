@@ -12,6 +12,8 @@ public class ToggleButton : Windows.UI.Xaml.Controls.Primitives.ButtonBase, Wind
 ## -description
 Represents a control that a user can select (check) or clear (uncheck). Base class for controls that can switch states, such as [CheckBox](../windows.ui.xaml.controls/checkbox.md) and [RadioButton](../windows.ui.xaml.controls/radiobutton.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.ToggleButton](/windows/winui/api/microsoft.ui.xaml.controls.primitives.togglebutton).
+
 ## -xaml-syntax
 ```xaml
 <ToggleButton .../>
@@ -57,8 +59,8 @@ ToggleButton is the parent class for several immediately derived controls that t
 
 The following example shows how to create a three-state ToggleButton control.
 
-[!code-xaml[1]](../windows.ui.xaml.data/code/System.Windows.Controls.ToggleButtonThreeState/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ToggleButtonThreeState/csharp/Page.xaml#Snippet1)]
 
 ## -see-also
 
-[ButtonBase](buttonbase.md), [ToggleButton styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles), [AppBarToggleButton](../windows.ui.xaml.automation.peers/appbartogglebuttonautomationpeer.md), [CheckBox](../windows.ui.xaml.controls/checkbox.md), [RadioButton](../windows.ui.xaml.controls/radiobutton.md)
+[ButtonBase](buttonbase.md), [ToggleButton styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [AppBarToggleButton](../windows.ui.xaml.automation.peers/appbartogglebuttonautomationpeer.md), [CheckBox](../windows.ui.xaml.controls/checkbox.md), [RadioButton](../windows.ui.xaml.controls/radiobutton.md)

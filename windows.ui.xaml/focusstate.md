@@ -13,6 +13,8 @@ public enum Windows.UI.Xaml.FocusState : int
 
 Describes how an element obtained focus.
 
+Equivalent WinUI enum: [FocusState](/windows/winui/api/microsoft.ui.xaml.focusstate).
+
 ## -enum-fields
 
 ### -field Unfocused:0
@@ -43,4 +45,4 @@ The exact meaning of the FocusState values depends on whether you're reading it 
 
 ## -see-also
 
-[Control.FocusState](../windows.ui.xaml.controls/control_focusstate.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/keyboard-interactions)
+[Control.FocusState](../windows.ui.xaml.controls/control_focusstate.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [Keyboard interactions](/windows/uwp/input-and-devices/keyboard-interactions)

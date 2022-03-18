@@ -12,6 +12,8 @@ public bool IsBindingTracingEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether to engage the binding tracing feature of Microsoft Visual Studio when the app runs.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DebugSettings.IsBindingTracingEnabled](/windows/winui/api/microsoft.ui.xaml.debugsettings.isbindingtracingenabled).
+
 ## -property-value
 **true** to engage the binding tracing feature of Microsoft Visual Studio; otherwise, **false**.
 
@@ -23,4 +25,4 @@ When binding tracing is enabled and you run your app with the debugger attached,
 ## -examples
 
 ## -see-also
-[BindingFailed](debugsettings_bindingfailed.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[BindingFailed](debugsettings_bindingfailed.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

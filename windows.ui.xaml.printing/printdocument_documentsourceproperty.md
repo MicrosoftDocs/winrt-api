@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DocumentSourceProperty { get; }
 ## -description
 Identifies the [DocumentSource](printdocument_documentsource.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Printing.PrintDocument.DocumentSourceProperty](/windows/winui/api/microsoft.ui.xaml.printing.printdocument.documentsourceproperty).
+
 ## -property-value
 The identifier for the [DocumentSource](printdocument_documentsource.md) dependency property.
 

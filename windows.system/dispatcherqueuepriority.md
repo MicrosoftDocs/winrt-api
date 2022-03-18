@@ -12,6 +12,8 @@ public enum DispatcherQueuePriority : int
 ## -description
 Defines the priority levels that can be given to work assigned to a [DispatcherQueue](dispatcherqueue.md).
 
+Equivalent WinUI enum: [Microsoft.System.DispatcherQueuePriority](/windows/winui/api/microsoft.system.dispatcherqueuepriority).
+
 ## -enum-fields
 ### -field Normal:0
 Work will be dispatched once all **High** priority tasks are dispatched. If a new **High** priority work is scheduled, all new **High** priority tasks are processed before resuming **Normal** tasks. This is the default priority.

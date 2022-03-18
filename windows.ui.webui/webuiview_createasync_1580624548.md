@@ -12,10 +12,16 @@ public IAsyncOperation<WebUIView> WebUIView.CreateAsync(Uri uri)
 
 ## -description
 
+Creates a new view with specific arguments, as an asynchronous action.
+
 ## -parameters
 ### -param uri
 
+The URI to open the view with.
+
 ## -returns
+
+The created view.
 
 ## -remarks
 

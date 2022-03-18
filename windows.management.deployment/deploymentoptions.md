@@ -38,6 +38,8 @@ Force a specific version of a package to be staged/registered, regardless of if 
 ### -field RetainFilesOnFailure:2097152
 In the case of a failed deployment, do not remove files that have been created on the target machine during the install process. 
 
+### -field StageInPlace:4194304
+When you set this option, the package will be staged in place. This field is useful for notifying the system to prepare for app registration in virtual desktop scenarios.  
 
 ## -remarks
 You can use the **DevelopmentMode** option to install apps without requiring an app package. Instead, the deployment engine processes the AppxManifest.xml file directly, which allows for a more rapid development cycle. The BlockMap.xml, [Content_Types].xml, and digital signature files are not required for app installation in **DevelopmentMode**.
@@ -57,7 +59,7 @@ Additionally, to simplify and enhance the app development experience, these key 
 + App payload files can be modified. If you modify an app payload file, the changes are reflected next time the app is launched. You don't need to reinstall the app unless you modify the AppxManifest.xml file.
 + Bytecode generation and NGEN are disabled. JS bytecode generation and .NET binary NGEN are disabled on **DevelopmentMode** packages to let you modify payload files without reinstalling your app.
 + App payload files aren't removed when the app is uninstalled. Because these files are potentially your source code, Windows doesn't delete these files when an app is uninstalled.
-+ Network loopback is allowed. You must opt-in to network loopback as described in [How to enable loopback and troubleshoot network isolation](https://docs.microsoft.com/previous-versions/windows/apps/hh780593(v=win.10)).
++ Network loopback is allowed. You must opt-in to network loopback as described in [How to enable loopback and troubleshoot network isolation](/previous-versions/windows/apps/hh780593(v=win.10)).
 + The app can be launched in [DesignMode](../windows.applicationmodel/designmode.md). For info about the [DesignMode class](../windows.applicationmodel/designmode.md), see [DesignMode class](../windows.applicationmodel/designmode.md).
 
 ### Version history
@@ -67,6 +69,7 @@ Additionally, to simplify and enhance the app development experience, these key 
 | 1703 | 15063 | RequiredContentGroupOnly |
 | 1809 | 17763 | ForceUpdateFromAnyVersion |
 | 1903 | 18362 | RetainFilesOnFailure |
+| 2004 | 19041 | StageInPlace |
 
 ## -examples
 

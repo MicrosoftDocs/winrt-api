@@ -12,6 +12,8 @@ public ComboBoxItemDataAutomationPeer(System.Object item, Windows.UI.Xaml.Automa
 ## -description
 Initializes a new instance of the [ComboBoxItemDataAutomationPeer](comboboxitemdataautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxItemDataAutomationPeer.ComboBoxItemDataAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxitemdataautomationpeer.#ctor).
+
 ## -parameters
 ### -param item
 The item data.

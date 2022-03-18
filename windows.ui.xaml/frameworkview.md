@@ -12,6 +12,8 @@ public class FrameworkView : Windows.ApplicationModel.Core.IFrameworkView, Windo
 ## -description
 Represents the UI window of an application.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.FrameworkView](/windows/winui/api/microsoft.ui.xaml.frameworkview).
+
 ## -remarks
 This class provides the infrastructure support so that the [Application](application.md) class has correct threading and object lifetime considerations for the [IFrameworkView](../windows.applicationmodel.core/iframeworkview.md) pattern used by the core app model. Most UWP app using C++, C#, or Visual Basic development scenarios don't do anything with this class directly.
 

@@ -18,4 +18,4 @@ This class provides access to events that can be monitored and used for modifyin
 ## -examples
 
 ## -see-also
-[How to manage calls on the default Bluetooth communications device](https://go.microsoft.com/fwlink/p/?linkid=241435), [RedialRequestedEventHandler](redialrequestedeventhandler.md)
+[How to manage calls on the default Bluetooth communications device](/previous-versions/windows/apps/hh452727(v=win.10)), [RedialRequestedEventHandler](redialrequestedeventhandler.md)

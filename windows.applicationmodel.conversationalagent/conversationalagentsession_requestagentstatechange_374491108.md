@@ -14,6 +14,9 @@ public ConversationalAgentSessionUpdateResponse ConversationalAgentSession.Reque
 
 Synchronously requests a state change for the current [ConversationalAgentSession](conversationalagentsession.md).
 
+> [!Important]
+> To avoid possible concurrency issues, we recommend using [RequestAgentStateChangeAsync](conversationalagentsession_requestagentstatechangeasync_1892921766.md) instead.
+
 ## -parameters
 
 ### -param state
@@ -27,5 +30,7 @@ A [ConversationalAgentSessionUpdateResponse](conversationalagentsessionupdateres
 ## -remarks
 
 ## -see-also
+
+[RequestAgentStateChangeAsync](conversationalagentsession_requestagentstatechangeasync_1892921766.md)
 
 ## -examples

@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.FontFraction : int
 ## -description
 Describes a fraction style value for the [Typography.Fraction](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
 
+Equivalent WinUI enum: [FontFraction](/windows/winui/api/microsoft.ui.xaml.fontfraction).
+
 ## -xaml-syntax
 ```xaml
 <object property="enumMemberName"/>

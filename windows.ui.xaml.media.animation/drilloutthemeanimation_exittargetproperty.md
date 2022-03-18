@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ExitTargetProperty { get; }
 ## -description
 Identifies the [ExitTarget](drilloutthemeanimation_exittarget.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DrillOutThemeAnimation.ExitTargetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.drilloutthemeanimation.exittargetproperty).
+
 ## -property-value
 The identifier for the [ExitTarget](drilloutthemeanimation_exittarget.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [ExitTarget](drilloutthemeanimation_exittarget.md) depend
 ## -examples
 
 ## -see-also
-[ExitTarget](drilloutthemeanimation_exittarget.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[ExitTarget](drilloutthemeanimation_exittarget.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

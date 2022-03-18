@@ -13,6 +13,8 @@ public void XamlDirect.AddToCollection(IXamlDirectObject xamlDirectObject, IXaml
 ## -description
 Adds a value to the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.AddToCollection](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.addtocollection).
+
 ## -parameters
 ### -param xamlDirectObject
 Refers to the specific [IXamlDirectObject](ixamldirectobject.md) collection.
@@ -24,15 +26,13 @@ Refers to the [IXamlDirectObject](ixamldirectobject.md) value to add to the coll
 [IXamlDirectObject](ixamldirectobject.md) is the minimal handle to Xaml's internal object instances. Hence the collection and the value to add to the collection are both of type [IXamlDirectObject](ixamldirectobject.md).
 
 ## -see-also
-* [XamlDirect.RemoveFromCollection](xamldirect_removefromcollection_1992847812.md)
-* [XamlDirect.InsertIntoCollectionAt](xamldirect_insertintocollectionat_679802579.md)
-* [XamlDirect.RemoveFromCollectionAt](xamldirect_removefromcollectionat_1250477505.md)
-* [XamlDirect.ClearCollection](xamldirect_clearcollection_1428253299.md)
+
+[XamlDirect.RemoveFromCollection](xamldirect_removefromcollection_1992847812.md), [XamlDirect.InsertIntoCollectionAt](xamldirect_insertintocollectionat_679802579.md), [XamlDirect.RemoveFromCollectionAt](xamldirect_removefromcollectionat_1250477505.md), [XamlDirect.ClearCollection](xamldirect_clearcollection_1428253299.md)
 
 ## -examples
 The following example shows how to add a value to a collection using [XamlDirect](xamldirect.md) APIs.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 IXamlDirectObject relativePanel = xd.CreateInstance(XamlTypeIndex.RelativePanel);
@@ -43,7 +43,7 @@ IXamlDirectObject button = xd.CreateInstance(XamlTypeIndex.Button);
 xd.AddToCollection(childrenCollection, button);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 IXamlDirectObject^ relativePanel = xd->CreateInstance(XamlTypeIndex::RelativePanel);

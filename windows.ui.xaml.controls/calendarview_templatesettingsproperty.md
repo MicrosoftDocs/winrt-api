@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TemplateSettingsProperty { get; }
 ## -description
 Identifies the [TemplateSettings](calendarview_templatesettings.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.TemplateSettingsProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.templatesettingsproperty).
+
 ## -property-value
 The identifier for the [TemplateSettings](calendarview_templatesettings.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [TemplateSettings](calendarview_templatesettings.md)   d
 ## -examples
 
 ## -see-also
-[TemplateSettings](calendarview_templatesettings.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[TemplateSettings](calendarview_templatesettings.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

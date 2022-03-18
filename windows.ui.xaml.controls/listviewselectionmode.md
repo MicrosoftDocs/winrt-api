@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.ListViewSelectionMode : int
 ## -description
 Defines constants that specify the selection mode of a [ListView](listview.md) or [GridView](gridview.md).
 
+Equivalent WinUI enum: [ListViewSelectionMode](/windows/winui/api/microsoft.ui.xaml.controls.listviewselectionmode).
+
 ## -enum-fields
 ### -field None:0
 A user can't select items.

@@ -12,13 +12,15 @@ public FocusState FocusState { get; }
 ## -description
 Gets the input mode through which an element obtained focus.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.LosingFocusEventArgs.FocusState](/windows/winui/api/microsoft.ui.xaml.input.losingfocuseventargs.focusstate).
+
 ## -property-value
 How the element obtained focus.
 
 ## -remarks
 
 ## -see-also
-[Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples
 

@@ -12,6 +12,8 @@ virtual protected bool GoToStateCore(Windows.UI.Xaml.Controls.Control control, W
 ## -description
 When overridden in a derived class, transitions a control between states.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.VisualStateManager.GoToStateCore](/windows/winui/api/microsoft.ui.xaml.visualstatemanager.gotostatecore).
+
 ## -parameters
 ### -param control
 The control to transition between states.
@@ -37,7 +39,7 @@ The representation of the state to transition to.
 ## -remarks
 This API is part of the scenario of defining a custom [VisualStateManager](visualstatemanager.md) behavior. Overriding GoToStateCore changes the state behavior in your custom class behavior. 
 
-To reference your custom [VisualStateManager](visualstatemanager.md) class, set the value of the [VisualStateManager.CustomVisualStateManager](/uwp/api/windows.ui.xaml.visualstatemanager#xaml-attached-properties) attached property within any control template where you want to use the custom [VisualStateManager](visualstatemanager.md) class behavior. You typically create an instance of the custom [VisualStateManager](visualstatemanager.md) class through default XAML construction in [Application.Resources](application_resources.md). Then the [VisualStateManager.CustomVisualStateManager](/uwp/api/windows.ui.xaml.visualstatemanager#xaml-attached-properties) attached property is set using a [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension) reference to the key of the custom [VisualStateManager](visualstatemanager.md) resource.
+To reference your custom [VisualStateManager](visualstatemanager.md) class, set the value of the [VisualStateManager.CustomVisualStateManager](/uwp/api/windows.ui.xaml.visualstatemanager#xaml-attached-properties) attached property within any control template where you want to use the custom [VisualStateManager](visualstatemanager.md) class behavior. You typically create an instance of the custom [VisualStateManager](visualstatemanager.md) class through default XAML construction in [Application.Resources](application_resources.md). Then the [VisualStateManager.CustomVisualStateManager](/uwp/api/windows.ui.xaml.visualstatemanager#xaml-attached-properties) attached property is set using a [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension) reference to the key of the custom [VisualStateManager](visualstatemanager.md) resource.
 
 ### Notes to inheritors
 
@@ -64,4 +66,4 @@ Overriding the behavior of [RaiseCurrentStateChanged](visualstatemanager_raisecu
 ## -examples
 
 ## -see-also
-[GoToState](visualstatemanager_gotostate_443481648.md), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10))
+[GoToState](visualstatemanager_gotostate_443481648.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))

@@ -13,7 +13,7 @@ public IVectorView<WebAccount> Accounts { get; }
 Gets the list of retrieved web accounts (if the operation was successful).
 
 ## -property-value
-An **[IVectorView](https://docs.microsoft.com/uwp/api/windows.foundation.collections.ivectorview_t_)** of **[WebAccount](https://docs.microsoft.com/uwp/api/windows.security.credentials.webaccount)** objects.
+An **[IVectorView](/uwp/api/windows.foundation.collections.ivectorview_t_)** of **[WebAccount](/uwp/api/windows.security.credentials.webaccount)** objects.
 
 ## -remarks
 

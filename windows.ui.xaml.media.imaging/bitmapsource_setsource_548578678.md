@@ -12,6 +12,8 @@ public void SetSource(Windows.Storage.Streams.IRandomAccessStream streamSource)
 ## -description
 Sets the source image for a [BitmapSource](bitmapsource.md) by accessing a stream. Most callers should use [SetSourceAsync](bitmapsource_setsourceasync_1118221574.md) instead.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.BitmapSource.SetSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapsource.setsource).
+
 ## -parameters
 ### -param streamSource
 The stream source that sets the image source value.
@@ -24,4 +26,4 @@ In low memory situations (most likely on lower-memory phones), it is possible fo
 ## -examples
 
 ## -see-also
-[SetSourceAsync](bitmapsource_setsourceasync_1118221574.md), [UriSource](bitmapimage_urisource.md), [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging)
+[SetSourceAsync](bitmapsource_setsourceasync_1118221574.md), [UriSource](bitmapimage_urisource.md), [Imaging](/windows/uwp/audio-video-camera/imaging)

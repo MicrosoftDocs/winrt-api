@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TextReadingOrderProperty { get; }
 ## -description
 Identifies the [TextReadingOrder](textbox_textreadingorder.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.TextReadingOrderProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.textreadingorderproperty).
+
 ## -property-value
 The identifier for the [TextReadingOrder](textbox_textreadingorder.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [TextReadingOrder](textbox_textreadingorder.md) dependenc
 ## -examples
 
 ## -see-also
-[TextReadingOrder](textbox_textreadingorder.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[TextReadingOrder](textbox_textreadingorder.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

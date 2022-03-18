@@ -9,7 +9,7 @@
 
 Provides a means to scan for nearby WiFi access points, enumerate those that are found, and connect to an access point.
 
-Note that you must specify that your app has the [wiFiControl](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations) capability in order to use this API.
+Note that you must specify that your app has the [wiFiControl](/windows/uwp/packaging/app-capability-declarations) capability in order to use this API.
 
 ## -remarks
 

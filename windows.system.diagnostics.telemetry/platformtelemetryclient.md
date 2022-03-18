@@ -17,7 +17,7 @@ Provides functionality to register a client with the Connected User Experience a
 > Only first-party applications should use this class.
 
 ## -see-also
-[Configure Windows telemetry in your organization](https://docs.microsoft.com/windows/manage/configure-windows-telemetry-in-your-organization)
+[Configure Windows telemetry in your organization](/windows/manage/configure-windows-telemetry-in-your-organization)
 
 ## -examples
 

@@ -12,6 +12,8 @@ public ICommand CloseButtonCommand { get;  set; }
 ## -description
 Gets or sets the command to invoke when the close button is tapped.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.CloseButtonCommand](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.closebuttoncommand).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog CloseButtonCommand="commandReference"/>

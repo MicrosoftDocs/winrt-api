@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<object> Items { get; }
 ## -description
 Gets the loosely typed collection of objects that are selected for the item drag action.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DragItemsStartingEventArgs.Items](/windows/winui/api/microsoft.ui.xaml.controls.dragitemsstartingeventargs.items).
+
 ## -property-value
 A loosely typed collection of objects.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ColumnDefinitionCollection ColumnDefinitions { g
 ## -description
 Gets a list of [ColumnDefinition](columndefinition.md) objects defined on this instance of [Grid](grid.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.ColumnDefinitions](/windows/winui/api/microsoft.ui.xaml.controls.grid.columndefinitions).
+
 ## -xaml-syntax
 ```xaml
 <Grid>
@@ -38,4 +40,4 @@ The following example creates a [Grid](grid.md) with two columns by using [Colum
 [!code-xaml[ColumnDefinitions](../windows.ui.xaml/code/GridReferenceSample/csharp/Page.xaml#SnippetColumnDefinitions)]
 
 ## -see-also
-[RowDefinitions](grid_rowdefinitions.md), [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml)
+[RowDefinitions](grid_rowdefinitions.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml)

@@ -12,6 +12,8 @@ public class ToolTipService : Windows.UI.Xaml.Controls.IToolTipService
 ## -description
 Represents a service that provides static methods to display a [ToolTip](tooltip.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ToolTipService](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice).
+
 ## -remarks
 
 A [ToolTip](tooltip.md) must be assigned to another UI element that is its owner. In Extensible Application Markup Language (XAML), use the ToolTipService.ToolTip attached property to assign the [ToolTip](tooltip.md) to an owner. In code, use the [ToolTipService.SetToolTip](tooltipservice_settooltip_1924909593.md) method to assign the [ToolTip](tooltip.md) to an owner.
@@ -33,15 +35,15 @@ If there is no explicit PlacementTarget, the placement target for a tooltip is t
 
 ### XAML attached properties
 
-ToolTipService is the host service class for several [XAML attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview).
+ToolTipService is the host service class for several [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview).
 
 In order to support XAML processor access to the attached properties, and also to expose equivalent _get_ and _set_ operations to code, each XAML attached property has a pair of Get and Set accessor methods. Another way to get or set the value in code is to use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md) and passing the identifier field as the dependency property identifier.
 
 | Attached property | Description |
 | - | - |
-| Placement | Gets or sets a value that indicates how a ToolTip is positioned in relation to the placement target.<ul><li>Type: [PlacementMode](../windows.ui.xaml.controls.primitives/placementmode.md)</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.tooltipservice.placementproperty">PlacementProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.tooltipservice.getplacement">GetPlacement</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.tooltipservice.setplacement">SetPlacement</a></li></ul> |
-| PlacementTarget | Gets or sets the object relative to which a tooltip is positioned.<ul><li>Type: [UIElement](../windows.ui.xaml/uielement.md)</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.tooltipservice.placementtargetproperty">PlacementTargetProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.tooltipservice.getplacementtarget">GetPlacementTarget</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.tooltipservice.setplacementtarget">SetPlacementTarget</a></li></ul> |
-| ToolTip | Gets or sets the object or string content of an element's ToolTip.<ul><li>Type: object</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.tooltipservice.tooltipproperty">ToolTipProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.tooltipservice.gettooltip">GetToolTip</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.tooltipservice.settooltip">SetToolTip</a></li></ul> |
+| Placement | Gets or sets a value that indicates how a ToolTip is positioned in relation to the placement target.<ul><li>Type: [PlacementMode](../windows.ui.xaml.controls.primitives/placementmode.md)</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.tooltipservice.placementproperty">PlacementProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.tooltipservice.getplacement">GetPlacement</a>, <a href="/uwp/api/windows.ui.xaml.controls.tooltipservice.setplacement">SetPlacement</a></li></ul> |
+| PlacementTarget | Gets or sets the object relative to which a tooltip is positioned.<ul><li>Type: [UIElement](../windows.ui.xaml/uielement.md)</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.tooltipservice.placementtargetproperty">PlacementTargetProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.tooltipservice.getplacementtarget">GetPlacementTarget</a>, <a href="/uwp/api/windows.ui.xaml.controls.tooltipservice.setplacementtarget">SetPlacementTarget</a></li></ul> |
+| ToolTip | Gets or sets the object or string content of an element's ToolTip.<ul><li>Type: object</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.tooltipservice.tooltipproperty">ToolTipProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.tooltipservice.gettooltip">GetToolTip</a>, <a href="/uwp/api/windows.ui.xaml.controls.tooltipservice.settooltip">SetToolTip</a></li></ul> |
 
 ## -examples
 The following code example demonstrates the placement modes for a [ToolTip](tooltip.md).
@@ -51,4 +53,4 @@ The following code example demonstrates the placement modes for a [ToolTip](tool
 [!code-xaml[1](../windows.ui.xaml.data/code/ToolTipServicePlacementEx/csharp/MainPage.xaml#Snippet1)]
 
 ## -see-also
-[ToolTip](tooltip.md), [How to add a tooltip](https://docs.microsoft.com/previous-versions/windows/apps/hh868199(v=win.10)), [XAML essential controls sample](https://go.microsoft.com/fwlink/p/?linkid=226951)
+[ToolTip](tooltip.md), [How to add a tooltip](/previous-versions/windows/apps/hh868199(v=win.10)), [XAML essential controls sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20essential%20controls%20sample)

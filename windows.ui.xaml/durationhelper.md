@@ -13,6 +13,8 @@ public class DurationHelper : Windows.UI.Xaml.IDurationHelper
 
 Provides basic utility methods for processing [Duration](duration.md) values. C# and Microsoft Visual Basic code should use methods of [Duration](duration.md) instead.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.DurationHelper](/windows/winui/api/microsoft.ui.xaml.durationhelper).
+
 ## -remarks
 
 [Duration](duration.md) is a Windows Runtime structure that represents a unit of time for an animation behavior. For example, [Timeline.Duration](../windows.ui.xaml.media.animation/timeline_duration.md) uses a [Duration](duration.md) value.
@@ -23,4 +25,4 @@ DurationHelper is one of several **Helper** classes that are intended to provide
 
 ## -see-also
 
-[Duration](duration.md), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)
+[Duration](duration.md), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)

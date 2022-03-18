@@ -15,7 +15,7 @@ The [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace and th
 
 Classes in the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace support the use of filters based on the classes in the Windows.Web.Http.Filters namespace. Classes in the Windows.Web.Http.Filters namespace also let an app control read and write caching behavior on the client. The [HttpCacheDirectiveHeaderValueCollection](../windows.web.http.headers/httpcachedirectiveheadervaluecollection.md) in the [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) provides a collection container for instances of the cache directives in **Cache-Control** HTTP header on HTTP content associated with an HTTP request or response. The **Cache-Control** header lets an app have more control over caching behavior.
 
-Classes in the [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) namespace represent HTTP headers as defined in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642) by the IETF.
+Classes in the [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md) namespace represent HTTP headers as defined in [RFC 2616](https://tools.ietf.org/html/rfc2616) by the IETF.
 
 The [HttpClient](../windows.web.http/httpclient.md) class in the [Windows.Web.Http](../windows.web.http/windows_web_http.md) namespace provides a base class for sending HTTP requests and receiving HTTP responses. Filters provide a handler mechanism to help with common HTTP service issues. Simple filters can be chained together in a sequence to handle more complex HTTP service issues.
 
@@ -105,4 +105,4 @@ internal static void CreateHttpClient(ref HttpClient httpClient)
 
 ## -see-also
 
-[HttpClient](../windows.web.http/httpclient.md), [Windows.Web.Http](../windows.web.http/windows_web_http.md), [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md), [HttpClient sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620551)
+[HttpClient](../windows.web.http/httpclient.md), [Windows.Web.Http](../windows.web.http/windows_web_http.md), [Windows.Web.Http.Headers](../windows.web.http.headers/windows_web_http_headers.md), [HttpClient sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HttpClient)

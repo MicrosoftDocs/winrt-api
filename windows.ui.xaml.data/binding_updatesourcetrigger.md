@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Data.UpdateSourceTrigger UpdateSourceTrigger { get;  set;
 ## -description
 Gets or sets a value that determines the timing of binding source updates for two-way bindings.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.UpdateSourceTrigger](/windows/winui/api/microsoft.ui.xaml.data.binding.updatesourcetrigger).
+
 ## -xaml-syntax
 ```xaml
 <Binding UpdateSourceTrigger="updateSourceTriggerMemberName"/>
@@ -32,4 +34,4 @@ You can't set the property values of a [Binding](binding.md) object after that b
 ## -examples
 
 ## -see-also
-[UpdateSource](bindingexpression_updatesource_190615267.md), [Mode](binding_mode.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview), [GetBindingExpression](../windows.ui.xaml/frameworkelement_getbindingexpression_1210399878.md), [BindingOperations.SetBinding](bindingoperations_setbinding_746099660.md)
+[UpdateSource](bindingexpression_updatesource_190615267.md), [Mode](binding_mode.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview), [GetBindingExpression](../windows.ui.xaml/frameworkelement_getbindingexpression_1210399878.md), [BindingOperations.SetBinding](bindingoperations_setbinding_746099660.md)

@@ -14,6 +14,8 @@ public DependencyProperty KindProperty { get; }
 
 Identifies the [Kind](standarduicommand_kind.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.StandardUICommand.KindProperty](/windows/winui/api/microsoft.ui.xaml.input.standarduicommand.kindproperty).
+
 ## -property-value
 
 The identifier for the [Kind](standarduicommand_kind.md) dependency property.
@@ -22,6 +24,6 @@ The identifier for the [Kind](standarduicommand_kind.md) dependency property.
 
 ## -see-also
 
-[XamlUICommand](xamluicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+[XamlUICommand](xamluicommand.md), [Command design basics](/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples

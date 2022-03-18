@@ -12,6 +12,8 @@ public Windows.UI.Xaml.UIElement TopHeader { get;  set; }
 ## -description
 Gets or sets the content of the top header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.TopHeader](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.topheader).
+
 ## -xaml-syntax
 ```xaml
 <ScrollViewer>

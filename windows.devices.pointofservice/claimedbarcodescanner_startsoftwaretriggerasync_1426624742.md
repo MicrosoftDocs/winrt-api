@@ -17,6 +17,7 @@ Used to signal the barcode scanner to start scanning. A session is active until 
 No object or value is returned when this method completes.
 
 ## -remarks
+When barcode data is received, your [DataReceived](/uwp/api/windows.devices.pointofservice.claimedbarcodescanner.datareceived) event handler is called. Also see [Use a software trigger](/windows/uwp/devices-sensors/pos-barcodescanner-software-trigger), and the [Barcode scanner sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/BarcodeScanner) application.
 
 ## -examples
 

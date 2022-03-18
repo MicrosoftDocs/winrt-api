@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AllowFocusWhenDisabledProperty { get; 
 ## -description
 Identifies the [AllowFocusWhenDisabled](frameworkelement_allowfocuswhendisabled.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.AllowFocusWhenDisabledProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.allowfocuswhendisabledproperty).
+
 ## -property-value
 The identifier for the [AllowFocusWhenDisabled](frameworkelement_allowfocuswhendisabled.md)  dependency property.
 

@@ -12,13 +12,12 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the control's header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.Header](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.header).
+
 ## -xaml-syntax
 ```xaml
 <RichEditBox Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <RichEditBox>
   <RichEditBox.Header>headerObject</RichEditBox.Header>
 </RichEditBox>

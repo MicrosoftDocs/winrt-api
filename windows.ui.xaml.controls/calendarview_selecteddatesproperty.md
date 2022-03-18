@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SelectedDatesProperty { get; }
 ## -description
 Identifies the [SelectedDates](calendarview_selecteddates.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.SelectedDatesProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selecteddatesproperty).
+
 ## -property-value
 The identifier for the   [SelectedDates](calendarview_selecteddates.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the   [SelectedDates](calendarview_selecteddates.md) depende
 ## -examples
 
 ## -see-also
-[SelectedDates](calendarview_selecteddates.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[SelectedDates](calendarview_selecteddates.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -13,6 +13,8 @@ public event Windows.Foundation.TypedEventHandler AccessKeyInvoked<Windows.UI.Xa
 
 Occurs when a user completes an access key sequence.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.AccessKeyInvoked](/windows/winui/api/microsoft.ui.xaml.uielement.accesskeyinvoked).
+
 ## -xaml-syntax
 
 ```xaml
@@ -31,4 +33,4 @@ This event occurs when the key is pressed, not when it's released.
 
 ## -see-also
 
-[AccessKeyInvokedEventArgs](../windows.ui.xaml.input/accesskeyinvokedeventargs.md), [Access keys](https://docs.microsoft.com/windows/uwp/design/input/access-keys)
+[AccessKeyInvokedEventArgs](../windows.ui.xaml.input/accesskeyinvokedeventargs.md), [Access keys](/windows/uwp/design/input/access-keys)

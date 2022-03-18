@@ -12,6 +12,8 @@ public bool IsDropDownOpen { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the drop-down portion of the [ComboBox](combobox.md) is currently open.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.IsDropDownOpen](/windows/winui/api/microsoft.ui.xaml.controls.combobox.isdropdownopen).
+
 ## -xaml-syntax
 ```xaml
 <ComboBox IsDropDownOpen="bool"/>

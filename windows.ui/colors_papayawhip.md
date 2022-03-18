@@ -13,6 +13,8 @@ public Windows.UI.Color PapayaWhip { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFEFD5.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.PapayaWhip](/windows/winui/api/microsoft.ui.colors.papayawhip).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFFFEFD5.

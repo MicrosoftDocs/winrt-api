@@ -12,12 +12,12 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the header content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToggleSwitch.Header](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch.header).
+
 ## -xaml-syntax
 ```xaml
 <ToggleSwitch Header="textContent" />
-```
-
-```xaml
+- or -
 <ToggleSwitch>
   <ToggleSwitch.Header>
     singleUIElement

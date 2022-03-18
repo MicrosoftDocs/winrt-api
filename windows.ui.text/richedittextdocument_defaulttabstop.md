@@ -12,6 +12,8 @@ public float DefaultTabStop { get;  set; }
 ## -description
 Gets or sets the default tab spacing.
 
+Equivalent WinUI property: [Microsoft.UI.Text.RichEditTextDocument.DefaultTabStop](/windows/winui/api/microsoft.ui.text.richedittextdocument.defaulttabstop).
+
 ## -property-value
 The default tab spacing.
 

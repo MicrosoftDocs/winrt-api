@@ -12,6 +12,8 @@ public class ContentControl : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.
 ## -description
 Represents a control with a single piece of content. Controls such as [Button](button.md), [CheckBox](checkbox.md), and [ScrollViewer](scrollviewer.md) directly or indirectly inherit from this class.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ContentControl](/windows/winui/api/microsoft.ui.xaml.controls.contentcontrol).
+
 ## -xaml-syntax
 ```xaml
 <ContentControl .../>
@@ -25,9 +27,9 @@ Represents a control with a single piece of content. Controls such as [Button](b
 
 
 ## -remarks
-The [Content](contentcontrol_content.md) property of a ContentControl can be any type of object, such as a string, a [UIElement](../windows.ui.xaml/uielement.md), or a [DateTime](https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime). By default, when the [Content](contentcontrol_content.md) property is set to a [UIElement](../windows.ui.xaml/uielement.md), the [UIElement](../windows.ui.xaml/uielement.md) is displayed in the ContentControl. When [Content](contentcontrol_content.md) is set to another type of object, a string representation of the object is displayed in the ContentControl. A ContentControl has a limited default style. If you want to enhance the appearance of the control, you can create a new [DataTemplate](../windows.ui.xaml/datatemplate.md) and set it to the [ContentTemplate](contentcontrol_contenttemplate.md) property of the control.
+The [Content](contentcontrol_content.md) property of a ContentControl can be any type of object, such as a string, a [UIElement](../windows.ui.xaml/uielement.md), or a [DateTime](/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime). By default, when the [Content](contentcontrol_content.md) property is set to a [UIElement](../windows.ui.xaml/uielement.md), the [UIElement](../windows.ui.xaml/uielement.md) is displayed in the ContentControl. When [Content](contentcontrol_content.md) is set to another type of object, a string representation of the object is displayed in the ContentControl. A ContentControl has a limited default style. If you want to enhance the appearance of the control, you can create a new [DataTemplate](../windows.ui.xaml/datatemplate.md) and set it to the [ContentTemplate](contentcontrol_contenttemplate.md) property of the control.
 
-A ContentControl can use a string as the value for its [Content](contentcontrol_content.md) property. However, whether a string is useful as content, and how it displays, is potentially handled differently by each control that derives from ContentControl. Specifically, the ability to display a content string is related to how a control uses a [ContentPresenter](contentpresenter.md) in its compositing. This behavior can also change by applying a custom control template to an existing control. Examples of content controls where string content displays by default include [Button](button.md) and related button controls. [Frame](frame.md) is an example of a ContentControl that does not display string content. If a ContentControl doesn't have a [ContentPresenter](contentpresenter.md) within it that has a [{TemplateBinding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/templatebinding-markup-extension) for [ContentControl.Content](contentcontrol_content.md) to [ContentPresenter.Content](contentpresenter_content.md), then the value of [ContentControl.Content](contentcontrol_content.md) might not display anywhere.
+A ContentControl can use a string as the value for its [Content](contentcontrol_content.md) property. However, whether a string is useful as content, and how it displays, is potentially handled differently by each control that derives from ContentControl. Specifically, the ability to display a content string is related to how a control uses a [ContentPresenter](contentpresenter.md) in its compositing. This behavior can also change by applying a custom control template to an existing control. Examples of content controls where string content displays by default include [Button](button.md) and related button controls. [Frame](frame.md) is an example of a ContentControl that does not display string content. If a ContentControl doesn't have a [ContentPresenter](contentpresenter.md) within it that has a [{TemplateBinding} markup extension](/windows/uwp/xaml-platform/templatebinding-markup-extension) for [ContentControl.Content](contentcontrol_content.md) to [ContentPresenter.Content](contentpresenter_content.md), then the value of [ContentControl.Content](contentcontrol_content.md) might not display anywhere.
 
 Note that string content is specifically enabled only on ContentControl, not [Control](control.md). For example, [TextBox](textbox.md) does not support string content like this: `<TextBox>Initial text</TextBox>`, because it is not derived from ContentControl.
 
@@ -78,4 +80,4 @@ The following example shows how to set different types of content for two [Butto
 
 
 ## -see-also
-[Control](control.md), [ContentControl styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)
+[Control](control.md), [ContentControl styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles)

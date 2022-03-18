@@ -13,7 +13,7 @@ public IAsyncOperation<bool> SpeechRecognizer.TrySetSystemSpeechLanguageAsync(La
 Asynchronously attempts to set the system language used for speech recognition on an [IoT](https://developer.microsoft.com/en-us/windows/iot) device.
 
 > [!NOTE]
-> This method is available only in [Embedded mode](https://developer.microsoft.com/windows/iot/docs/embeddedmode). 
+> This method is available only in [Embedded mode](/windows/iot-core/develop-your-app/EmbeddedMode). 
 
 ## -parameters
 ### -param speechLanguage
@@ -33,22 +33,10 @@ The systemManagement capability must include the iot namespace when you declare 
 
 Use [SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md) to get the current system speech recognition language.
 
-Use [Windows.Globalization.Language.IsWellFormed](https://docs.microsoft.com/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_) to validate *speechLanguage*.
+Use [Windows.Globalization.Language.IsWellFormed](/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_) to validate *speechLanguage*.
 
 ## -see-also
-- [SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md)
-- [Windows.Globalization.Language.IsWellFormed](https://docs.microsoft.com/uwp/api/windows.globalization.language#Windows_Globalization_Language_IsWellFormed_System_String_)
 
-### How-to's
-- [Embedded mode](https://developer.microsoft.com/windows/iot/docs/embeddedmode)
-- [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations)
-- [Set speech recognition timeouts](https://docs.microsoft.com/windows/uwp/input-and-devices/set-speech-recognition-timeouts)
-- [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions)
-- [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions)
-
-
-### Samples
-- [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[SystemSpeechLanguage](speechrecognizer_systemspeechlanguage.md), [Windows.Globalization.Language.IsWellFormed](/uwp/api/windows.globalization.language.iswellformed), [Embedded mode](/windows/iot-core/develop-your-app/EmbeddedMode), [App capability declarations](/windows/uwp/packaging/app-capability-declarations), [Set speech recognition timeouts](/windows/uwp/input-and-devices/set-speech-recognition-timeouts), [Speech interactions](/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)
 
 ## -examples
-

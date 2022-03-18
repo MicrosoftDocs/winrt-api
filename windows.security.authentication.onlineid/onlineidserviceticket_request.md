@@ -13,7 +13,7 @@ public Windows.Security.Authentication.OnlineId.OnlineIdServiceTicketRequest Req
 Represents the [OnlineIdServiceTicketRequest](onlineidserviceticketrequest.md) for which the ticket was obtained.
 
 > [!NOTE]
-> If you are developing for Windows 10 or greater, use the [Windows.Security.Authentication.Web.Core](../windows.security.authentication.web.core/windows_security_authentication_web_core.md) APIs instead. For more information, see [Web account manager](https://docs.microsoft.com/windows/uwp/security/web-account-manager).
+> If you are developing for Windows 10 or greater, use the [Windows.Security.Authentication.Web.Core](../windows.security.authentication.web.core/windows_security_authentication_web_core.md) APIs instead. For more information, see [Web account manager](/windows/uwp/security/web-account-manager).
 
 ## -property-value
 Provides the ability for an app to specify the service and policy that is used to authenticate a Live user to obtain identity properties and tickets.

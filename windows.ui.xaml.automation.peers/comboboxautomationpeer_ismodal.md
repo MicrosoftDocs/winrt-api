@@ -12,6 +12,8 @@ public bool IsModal { get; }
 ## -description
 Gets a Boolean value indicating if the [ComboBox](../windows.ui.xaml.controls/combobox.md) control is modal.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.IsModal](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxautomationpeer.ismodal).
+
 ## -property-value
 A Boolean value indicating if the [ComboBox](../windows.ui.xaml.controls/combobox.md) control is modal.
 

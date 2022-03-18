@@ -20,7 +20,7 @@ A collection that contains the names and values of the properties to save as key
 No object or value is returned when this method completes.
 
 ## -remarks
-To save file properties, create a **[PropertySet](https://docs.microsoft.com/uwp/api/Windows.Foundation.Collections.PropertySet#Windows_Foundation_Collections_PropertySet__ctor)** and **[Add](https://docs.microsoft.com/uwp/api/windows.foundation.collections.propertyset#Windows_Foundation_Collections_PropertySet_Add__0__1_)** the file properties to be saved. Once added, use **SavePropertiesAsync** to save the changes.
+To save file properties, create a **[PropertySet](/uwp/api/Windows.Foundation.Collections.PropertySet#Windows_Foundation_Collections_PropertySet__ctor)** and **[Add](/uwp/api/windows.foundation.collections.propertyset#Windows_Foundation_Collections_PropertySet_Add__0__1_)** the file properties to be saved. Once added, use **SavePropertiesAsync** to save the changes.
 
 ## -examples
 

@@ -20,7 +20,7 @@ Do not use padding.
 Use the Optimal Asymmetric Encryption Padding (OAEP) scheme.
 
 ### -field RsaPkcs1V15:2
-Use the standard padding scheme for public-key cryptography based on the RSA algorithm as defined in [RFC 3447](https://go.microsoft.com/fwlink/p/?LinkID=90422).
+Use the standard padding scheme for public-key cryptography based on the RSA algorithm as defined in [RFC 3447](https://www.ietf.org/rfc/rfc3447.txt).
 
 ### -field RsaPss:3
 Use the Probabilistic Signature Scheme (PSS) scheme.

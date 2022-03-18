@@ -35,6 +35,6 @@ By default, approximately 750ms of silence is appended after each utterance and 
 
 ## -see-also
 
-[PunctuationSilence](speechsynthesizeroptions_punctuationsilence.md), [AppendedSilence](speechsynthesizeroptions_appendedsilence.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[PunctuationSilence](speechsynthesizeroptions_punctuationsilence.md), [AppendedSilence](speechsynthesizeroptions_appendedsilence.md), [Speech interactions](/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)
 
 ## -examples

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AutoPlayProperty { get; }
 ## -description
 Identifies the [AutoPlay](bitmapimage_autoplay.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.AutoPlayProperty](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.autoplayproperty).
+
 ## -property-value
 The identifier for the [AutoPlay](bitmapimage_autoplay.md) dependency property.
 

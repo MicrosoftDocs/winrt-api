@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IIterator<Windows.UI.Composition.Visual> F
 ## -description
 Retrieves the first visual in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.VisualUnorderedCollection.First](/windows/winui/api/microsoft.ui.composition.visualunorderedcollection.first).
+
 ## -returns
 The first visual in the collection.
 

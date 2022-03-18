@@ -13,6 +13,8 @@ public Windows.UI.Xaml.DependencyProperty ControlledPeersProperty { get; }
 
 Identifies the ControlledPeers attached property, which is used for a collection of automation elements that can be manipulated by the specified automation element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.ControlledPeersProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.controlledpeersproperty).
+
 ## -property-value
 
 The identifier for the ControlledPeers attached property.
@@ -27,4 +29,4 @@ There's no public attached property for **ControlledPeers** because this is an a
 
 ## -see-also
 
-[Accessible text requirements](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility), [Custom automation peers](https://docs.microsoft.com/en-us/windows/uwp/design/accessibility/custom-automation-peers)
+[Accessible text requirements](/en-us/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility), [Custom automation peers](/en-us/windows/uwp/design/accessibility/custom-automation-peers)

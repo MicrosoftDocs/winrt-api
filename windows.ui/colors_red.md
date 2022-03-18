@@ -13,6 +13,8 @@ public Windows.UI.Color Red { get; }
 
 Gets the system-defined color that has the ARGB value of #FFFF0000.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Red](/windows/winui/api/microsoft.ui.colors.red).
+
 ## -property-value
 
 The system-defined color that has the ARGB value of #FFFF0000.

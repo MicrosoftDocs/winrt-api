@@ -15,9 +15,9 @@ Provides data for the [SceneAnalysisEffect.SceneAnalyzed](sceneanalysiseffect_sc
 ## -remarks
 Get an instance of this class by handling the [SceneAnalysisEffect.SceneAnalyzed](sceneanalysiseffect_sceneanalyzed.md) event.
 
-For how-to guidance on using the **SceneAnalysisEffect**, see [Scene anlysis for MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/scene-analysis-for-media-capture).
+For how-to guidance on using the **SceneAnalysisEffect**, see [Scene anlysis for MediaCapture](/windows/uwp/audio-video-camera/scene-analysis-for-media-capture).
 
 ## -examples
 
 ## -see-also
-[Scene anlysis for MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/scene-analysis-for-media-capture)
+[Scene anlysis for MediaCapture](/windows/uwp/audio-video-camera/scene-analysis-for-media-capture)

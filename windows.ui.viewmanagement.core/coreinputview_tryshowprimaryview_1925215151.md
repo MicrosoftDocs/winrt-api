@@ -27,6 +27,6 @@ If you set [CoreTextEditContext.InputPaneDisplayPolicy](../windows.ui.text.core/
 
 ## -see-also
 
-- [TryHidePrimaryView](coreinputview_tryhideprimaryview_908065025.md)
+[TryHidePrimaryView](coreinputview_tryhideprimaryview_908065025.md)
 
 ## -examples

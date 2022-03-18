@@ -11,13 +11,13 @@ Contains the [Appointment](appointment.md) class and related support classes. An
 
 ## -remarks
 
-For info about how to manage appointments, see [Managing appointments](https://docs.microsoft.com/windows/uwp/contacts-and-calendar/managing-appointments) and [Quickstart: Managing appointments ](https://docs.microsoft.com/previous-versions/windows/apps/dn495338(v=win.10)).
+For info about how to manage appointments, see [Managing appointments](/windows/uwp/contacts-and-calendar/managing-appointments) and [Quickstart: Managing appointments ](/previous-versions/windows/apps/dn495338(v=win.10)).
 
 ## -examples
 
 ## -see-also
 
-[Appointments API sample](https://go.microsoft.com/fwlink/p/?linkid=309836), [Appointment calendar sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620488)
+[Appointments API sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Appointments), [Appointment calendar sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620488)
 
 ## -capabilities
 

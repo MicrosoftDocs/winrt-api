@@ -13,6 +13,8 @@ public bool IsTabStop { get;  set; }
 
 Gets or sets a value that indicates whether the hyperlink is included in tab navigation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.IsTabStop](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.istabstop).
+
 ## -property-value
 
 **true** if the control is included in tab navigation; otherwise, **false**. The default is **true**.

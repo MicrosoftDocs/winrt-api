@@ -14,6 +14,8 @@ public CompositionVisualSurface Compositor.CreateVisualSurface()
 
 Creates an instance of [CompositionVisualSurface](compositionvisualsurface.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateVisualSurface](/windows/winui/api/microsoft.ui.composition.compositor.createvisualsurface).
+
 ## -returns
 
 Returns the created [CompositionVisualSurface](compositionvisualsurface.md) object.

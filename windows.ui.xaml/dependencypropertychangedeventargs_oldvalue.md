@@ -12,6 +12,8 @@ public object OldValue { get; }
 ## -description
 Gets the value of the dependency property before the reported change.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs.OldValue](/windows/winui/api/microsoft.ui.xaml.dependencypropertychangedeventargs.oldvalue).
+
 ## -property-value
 The dependency property value before the change.
 
@@ -21,4 +23,4 @@ The OldValue value is often used as the value that the property is set to from w
 ## -examples
 
 ## -see-also
-[Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

@@ -13,6 +13,8 @@ public class Colors : Windows.UI.IColors
 
 Implements a set of predefined colors. See [Color](color.md) for usage information.
 
+Equivalent WinUI class: [Microsoft.UI.Colors](/windows/winui/api/microsoft.ui.colors).
+
 ## -remarks
 
 The following image shows each predefined color, its name, and its hexadecimal value.

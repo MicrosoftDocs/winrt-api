@@ -13,6 +13,8 @@ public void RichEditTextRange.ChangeCase(LetterCase value)
 
 Changes the case of letters in a text range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.ChangeCase](/windows/winui/api/microsoft.ui.text.richedittextrange.changecase).
+
 ## -parameters
 ### -param value
 

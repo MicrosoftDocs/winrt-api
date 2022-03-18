@@ -11,6 +11,8 @@ virtual protected void UIElement.OnBringIntoViewRequested(BringIntoViewRequested
 
 ## -description
 Called before the [BringIntoViewRequested](uielement_bringintoviewrequested.md) event occurs.
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.OnBringIntoViewRequested](/windows/winui/api/microsoft.ui.xaml.uielement.onbringintoviewrequested).
+
 ## -parameters
 ### -param e
 The data for the event.
@@ -19,7 +21,8 @@ The data for the event.
 As it's implemented directly on [UIElement](uielement.md), OnBringIntoViewRequested has an empty implementation. But, an ancestor in an element's hierarchy may have provided an implementation such as a base scrolling control. You won't be able to see this implementation because it's internal native code. Control code or your code probably shouldn't be suppressing the event, because it's a common pattern to let the event bubble to the root visual so that any scrolling control in the element tree will have an opportunity to react to the request.
 
 ## -see-also
-* [BringIntoViewRequested](uielement_bringintoviewrequested.md) 
+
+[BringIntoViewRequested](uielement_bringintoviewrequested.md) 
 
 ## -examples
 

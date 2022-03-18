@@ -15,12 +15,14 @@ Provides data for the [PropertyChanged](inotifypropertychanged_propertychanged.m
 
 
 > **.NET**
-> This class appears as [System.ComponentModel.PropertyChangedEventArgs](https://docs.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs?redirectedfrom=MSDN).
+> This class appears as [System.ComponentModel.PropertyChangedEventArgs](/dotnet/api/system.componentmodel.propertychangedeventargs?view=dotnet-uwp-10.0&preserve-view=true).
+
+Equivalent WinUI class: [Microsoft.UI.Xaml.Data.PropertyChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.data.propertychangedeventargs).
 
 ## -remarks
-When programming with .NET, this class is hidden and developers should use the [System.ComponentModel.PropertyChangedEventArgs](https://docs.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs?redirectedfrom=MSDN) class.
+When programming with .NET, this class is hidden and developers should use the [System.ComponentModel.PropertyChangedEventArgs](/dotnet/api/system.componentmodel.propertychangedeventargs?view=dotnet-uwp-10.0&preserve-view=true) class.
 
 ## -examples
 
 ## -see-also
-[Binding](binding.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Binding](binding.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

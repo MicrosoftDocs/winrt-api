@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PressedBackgroundProperty { get; }
 ## -description
 Identifies the [PressedBackground](listviewitempresenter_pressedbackground.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PressedBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.pressedbackgroundproperty).
+
 ## -property-value
 The identifier for the [PressedBackground](listviewitempresenter_pressedbackground.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [PressedBackground](listviewitempresenter_pressedbackgrou
 ## -examples
 
 ## -see-also
-[PressedBackground](listviewitempresenter_pressedbackground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[PressedBackground](listviewitempresenter_pressedbackground.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

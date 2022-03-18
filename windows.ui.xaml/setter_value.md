@@ -12,6 +12,8 @@ public object Value { get;  set; }
 ## -description
 Gets or sets the value to apply to the property that is specified by the [Setter](setter.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Setter.Value](/windows/winui/api/microsoft.ui.xaml.setter.value).
+
 ## -xaml-syntax
 ```xaml
 <Setter ...>
@@ -19,9 +21,7 @@ Gets or sets the value to apply to the property that is specified by the [Setter
     objectValue
   </Setter.Value>
 </Setter>
-```
-
-```xaml
+- or -
 <Setter Value="attributeValue"/>
 -or-
 <Setter Value="extensionUsage"/>
@@ -40,8 +40,8 @@ The value to apply to the property that is specified by the [Setter](setter.md).
 As you can see from the XAML syntax, there are a variety of ways to specify the Value for a [Setter](setter.md) in XAML:
 + As an attribute, using a string value. Such a string value can be implicitly converted to a property-specific type for simple cases such as setting numeric values, named values from an enumeration, or a Uniform Resource Identifier (URI).
 + As a complete new object that's declared in XAML object element syntax, and the object element is nested within a property element usage.
-+ As an attribute that has a [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension) usage within the quotes.
-Typically the value type of the property dictates which syntax is appropriate. For more info on XAML usages, see [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview) or [XAML syntax guide](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-syntax-guide). You can use attribute syntax for most XAML UI properties, and UI properties that specifically require a property element usage or a resource reference are less common. A [{StaticResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/staticresource-markup-extension) usage can be appropriate even for strings or numeric values if those values are shared by more than one style or property.
++ As an attribute that has a [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension) usage within the quotes.
+Typically the value type of the property dictates which syntax is appropriate. For more info on XAML usages, see [XAML overview](/windows/uwp/xaml-platform/xaml-overview) or [XAML syntax guide](/windows/uwp/xaml-platform/xaml-syntax-guide). You can use attribute syntax for most XAML UI properties, and UI properties that specifically require a property element usage or a resource reference are less common. A [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension) usage can be appropriate even for strings or numeric values if those values are shared by more than one style or property.
 
 You must specify both the [Property](setter_property.md) and Value properties on a [Setter](setter.md). Otherwise an exception is thrown (either a parse exception or runtime error, depending on whether the [Setter](setter.md) is created in XAML or modified in code).
 
@@ -53,7 +53,7 @@ You can use a [Setter](setter.md) in a [Style](style.md) to apply values to any 
 
 When a [Style](style.md) is used to define a control template, the [TargetType](style_targettype.md) of the [Style](style.md) element and the [TargetType](../windows.ui.xaml.controls/controltemplate_targettype.md) of the [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) element for its [Control.Template](../windows.ui.xaml.controls/control_template.md) setter should always use the same value.
 
-The [Template](../windows.ui.xaml.controls/control_template.md) setter defines the basic template UI definition for a control instance where that template is applied. It also contains the visual states for a control, and other state-based UI definitions such as default theme transitions. For a complex control such as [ListBox](../windows.ui.xaml.controls/listbox.md), the default template [Style](style.md) and the [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) within can have hundreds of lines of XAML. For more info on the role of [Style](style.md) in control templating scenarios, see [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)).
+The [Template](../windows.ui.xaml.controls/control_template.md) setter defines the basic template UI definition for a control instance where that template is applied. It also contains the visual states for a control, and other state-based UI definitions such as default theme transitions. For a complex control such as [ListBox](../windows.ui.xaml.controls/listbox.md), the default template [Style](style.md) and the [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) within can have hundreds of lines of XAML. For more info on the role of [Style](style.md) in control templating scenarios, see [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)).
 
 ## -examples
 

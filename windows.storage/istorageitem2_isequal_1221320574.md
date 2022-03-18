@@ -22,7 +22,7 @@ Returns **true** if the current storage item is the same as the specified storag
 ## -remarks
 Use the IsEqual method to determine whether two storage items represent the same file or folder.
 
-This method compares the [Path](istorageitem_path.md) property of both items to determine if they are the same. If there is no [Path](istorageitem_path.md) (if the item is a library for example), or if the paths do not match the items are compared using [IShellItem.Compare](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-compare).
+This method compares the [Path](istorageitem_path.md) property of both items to determine if they are the same. If there is no [Path](istorageitem_path.md) (if the item is a library for example), or if the paths do not match the items are compared using [IShellItem.Compare](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-compare).
 
 This example shows how to compare two storage files for equality.
 

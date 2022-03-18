@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject Parent { get; }
 ## -description
 Gets the parent object of this [FrameworkElement](frameworkelement.md) in the object tree.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.Parent](/windows/winui/api/microsoft.ui.xaml.frameworkelement.parent).
+
 ## -property-value
 The parent object of this object in the object tree.
 
@@ -27,4 +29,4 @@ Generally, you can conceive of the object tree of a UWP app using C++, C#, or Vi
 ## -examples
 
 ## -see-also
-[Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml), [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview), [VisualTreeHelper.GetParent](../windows.ui.xaml.media/visualtreehelper_getparent_1152000793.md)
+[Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml), [XAML overview](/windows/uwp/xaml-platform/xaml-overview), [VisualTreeHelper.GetParent](../windows.ui.xaml.media/visualtreehelper_getparent_1152000793.md)

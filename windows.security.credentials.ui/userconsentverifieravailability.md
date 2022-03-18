@@ -32,18 +32,11 @@ The biometric verifier device is performing an operation and is unavailable.
 ## -remarks
 You can use the [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md) method to determine if fingerprint authentication is supported for the current computer.
 
+## -examples
+
 The following example shows a method that checks to see if fingerprint authentication is supported for the current computer and returns a message that describes the result based on the UserConsentVerifierAvailability value.
-
-
-
-
 
 [!code-csharp[1](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet1)]
 
-
-[!code-js[1_JS](../windows.security.credentials.ui/code/BiometricAuth/js/default.js#Snippet1_JS)]
-
-## -examples
-
 ## -see-also
-[Fingerprint biometrics](https://docs.microsoft.com/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://go.microsoft.com/fwlink/p/?LinkID=303650), [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md), [UserConsentVerifier](userconsentverifier.md), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](https://docs.microsoft.com/windows/uwp/security/authentication-and-user-identity)
+[Fingerprint biometrics](/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/UserConsentVerifier), [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md), [UserConsentVerifier](userconsentverifier.md), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](/windows/uwp/security/authentication-and-user-identity)

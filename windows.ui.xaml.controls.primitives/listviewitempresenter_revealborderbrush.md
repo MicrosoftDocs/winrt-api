@@ -13,13 +13,15 @@ public Brush RevealBorderBrush { get;  set; }
 
 Gets or sets the brush used to render the border of the reveal effect.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.revealborderbrush).
+
 ## -property-value
 
 The brush used to render the border of the reveal effect.
 
 ## -remarks
 
-For more info, see [Reveal](https://docs.microsoft.com/windows/uwp/style/reveal).
+For more info, see [Reveal](/windows/uwp/style/reveal).
 
 ## -see-also
 

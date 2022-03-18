@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IVector<Windows.ApplicationModel.Package> 
 # Windows.Management.Deployment.PackageVolume.FindPackagesWithPackageTypes
 
 ## -description
-Gets a collection of info about all installed instances of the specified package with the specified package types for all registered users.
+Gets a collection of info about all installed instances of the specified [Package](/uwp/api/windows.applicationmodel.package) with the specified package types for all registered users.
 
 ## -parameters
 ### -param packageTypes
@@ -27,4 +27,5 @@ A collection of info about the specified packages.
 ## -examples
 
 ## -see-also
-[FindPackagesWithPackageTypes(PackageTypes)](packagevolume_findpackageswithpackagetypes_447761356.md), [FindPackagesWithPackageTypes(PackageTypes, String, String)](packagevolume_findpackageswithpackagetypes_810263284.md)
+
+[Package](/uwp/api/windows.applicationmodel.package), [FindPackagesWithPackageTypes(PackageTypes)](packagevolume_findpackageswithpackagetypes_447761356.md), [FindPackagesWithPackageTypes(PackageTypes, String, String)](packagevolume_findpackageswithpackagetypes_810263284.md)

@@ -12,6 +12,8 @@ public bool IsTextPerformanceVisualizationEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether to engage the text performance visualization feature of Microsoft Visual Studio when the app runs.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DebugSettings.IsTextPerformanceVisualizationEnabled](/windows/winui/api/microsoft.ui.xaml.debugsettings.istextperformancevisualizationenabled).
+
 ## -property-value
 **true** to engage the text performance visualization feature of Microsoft Visual Studio; otherwise, **false**.
 

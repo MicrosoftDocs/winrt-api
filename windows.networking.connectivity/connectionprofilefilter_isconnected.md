@@ -13,7 +13,7 @@ public bool IsConnected { get;  set; }
 Indicates if connection profiles that represent currently established connections are included in query results.
 
 ## -property-value
-A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value that determines if profiles for established connections are included.
+A [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) value that determines if profiles for established connections are included.
 
 ## -remarks
 

@@ -12,6 +12,8 @@ public string QueryText { get; }
 ## -description
 Gets the query text of the current search.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBoxQuerySubmittedEventArgs.QueryText](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestboxquerysubmittedeventargs.querytext).
+
 ## -property-value
 The query text of the current search.
 

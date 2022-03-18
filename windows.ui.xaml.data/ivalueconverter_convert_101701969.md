@@ -12,12 +12,14 @@ public object Convert(System.Object value, Windows.UI.Xaml.Interop.TypeName targ
 ## -description
 Modifies the source data before passing it to the target for display in the UI.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Data.IValueConverter.Convert](/windows/winui/api/microsoft.ui.xaml.data.ivalueconverter.convert).
+
 ## -parameters
 ### -param value
 The source data being passed to the target.
 
 ### -param targetType
-The type of the target property, as a type reference ([System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The type of the target property, as a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for C++/CX and C++/WinRT).
 
 ### -param parameter
 An optional parameter to be used in the converter logic.
@@ -29,9 +31,9 @@ The language of the conversion.
 The value to be passed to the target dependency property.
 
 ## -remarks
-The *targetType* parameter of the Convert method uses different techniques of reporting the type system info, depending on whether you're programming with Microsoft .NET or Visual C++ component extensions (C++/CX).
-+ For Microsoft .NET, this parameter passes an instance of the [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) type.
-+ For Visual C++ component extensions (C++/CX), this parameter passes a [TypeName](../windows.ui.xaml.interop/typename.md) structure value. `TypeName::Kind` contains the simple string name of the type, similar to Microsoft .NET's `Type.Name`.
+The *targetType* parameter of the Convert method uses different techniques of reporting the type system info, depending on whether you're programming with Microsoft .NET or C++.
++ For Microsoft .NET, this parameter passes an instance of the [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) type.
++ For C++/CX and C++/WinRT, this parameter passes a [TypeName](../windows.ui.xaml.interop/typename.md) structure value. `TypeName::Kind` contains the simple string name of the type, similar to Microsoft .NET's `Type.Name`.
 When the converter is invoked by the binding engine, the *targetType* value is passed by looking up the property type of the target dependency property. You might use this value in your Convert implementation for one of two reasons:
 + Your converter has the expectation that it's always going to return objects of a specific type, and you want to verify that the binding that the converter is called for is using the converter correctly. If not, you might return a fallback value, or throw an exception (but see "Exceptions from converters" below).
 + Your converter can return more than one type, and you want the usage to inform your converter which type it should return. For example, you could implement an object-to-object conversion and an object-to-string conversion within the same converter code.
@@ -63,5 +65,5 @@ The following example shows how to implement the Convert method using the *param
 [!code-vb[2](../windows.ui.xaml.controls.primitives/code/DataBindingConverterParameterEx/vbnet/Page.xaml.vb#Snippet2)]
 
 ## -see-also
-[ConvertBack](ivalueconverter_convertback_2106225504.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[ConvertBack](ivalueconverter_convertback_2106225504.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)
 

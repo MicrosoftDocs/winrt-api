@@ -19,7 +19,11 @@ Occurs when the display requires redrawing.
 
 ## -examples
 
-```cpp
+```cppwinrt
+DisplayProperties::DisplayContentsInvalidated({ this, &ShapesPuzzle::OnDisplayContentsInvalidated });
+```
+
+```cppcx
 DisplayProperties::DisplayContentsInvalidated +=
     ref new DisplayPropertiesEventHandler(this, &ShapesPuzzle::OnDisplayContentsInvalidated);
 ```

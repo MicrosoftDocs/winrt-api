@@ -20,7 +20,7 @@ The list of product IDs by which to filter the [ProductListings](listinginformat
 The simulated app listing information, with [ProductListings](listinginformation_productlistings.md) collection filtered by product IDs. If the method fails, it returns an **HRESULT** error code. If no in-app products are found that match the given product IDs, the ProductListings collection will be empty.
 
 ## -remarks
-Uses the **ListingInformation** element in the WindowsStoreProxy.xml file as the data source for the members of the returned objects. For more information, see [Using the WindowsStoreProxy.xml file with CurrentAppSimulator](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials-using-the-windows-applicationmodel-store-namespace).
+Uses the **ListingInformation** element in the WindowsStoreProxy.xml file as the data source for the members of the returned objects. For more information, see [Using the WindowsStoreProxy.xml file with CurrentAppSimulator](/windows/uwp/monetize/in-app-purchases-and-trials-using-the-windows-applicationmodel-store-namespace).
 
 Calling this method requires an internet connection.
 

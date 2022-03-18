@@ -12,9 +12,11 @@ public class TemplateVisualStateAttribute : System.Attribute
 ## -description
 Specifies that a control can be in a certain state and that a [VisualState](visualstate.md) is expected in the control's [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.TemplateVisualStateAttribute](/windows/winui/api/microsoft.ui.xaml.templatevisualstateattribute).
+
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Attribute](https://docs.microsoft.com/dotnet/api/system.attribute?redirectedfrom=MSDN)
+[Attribute](/dotnet/api/system.attribute?view=dotnet-uwp-10.0&preserve-view=true)

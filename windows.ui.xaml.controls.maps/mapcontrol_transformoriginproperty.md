@@ -20,4 +20,4 @@ The identifier for the [TransformOrigin](mapcontrol_transformorigin.md) dependen
 ## -examples
 
 ## -see-also
-[Display maps with 2D, 3D, and Streetside views](https://docs.microsoft.com/windows/uwp/maps-and-location/display-maps)
+[Display maps with 2D, 3D, and Streetside views](/windows/uwp/maps-and-location/display-maps)

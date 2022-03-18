@@ -12,6 +12,8 @@ public bool Cancel { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the drag action should be canceled.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DragStartingEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.dragstartingeventargs.cancel).
+
 ## -property-value
 **true** to cancel the drag action; otherwise, **false**. The default is **false**.
 
@@ -21,3 +23,5 @@ Set this property to **true** in a handler in order to cancel a drag action.
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

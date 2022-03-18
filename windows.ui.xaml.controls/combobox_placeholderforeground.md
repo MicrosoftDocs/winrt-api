@@ -13,13 +13,13 @@ public Brush PlaceholderForeground { get;  set; }
 
 Gets or sets a brush that describes the color of placeholder text.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.PlaceholderForeground](/windows/winui/api/microsoft.ui.xaml.controls.combobox.placeholderforeground).
+
 ## -xaml-syntax
 
 ```xaml
 <ComboBox PlaceholderForeground="{StaticResource resourceName}" .../>
-```
-
-```xaml
+- or -
 <ComboBox PlaceholderForeground="colorString" .../>
 ```
 

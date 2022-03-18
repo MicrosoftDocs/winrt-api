@@ -15,7 +15,7 @@ Represents a content part of a multi-part transfer request. Each BackgroundTrans
 ## -remarks
 
 ## -examples
-The following example demonstrates how to configure and begin a multi-part upload operation, and is based on the [Background Transfer sample](https://go.microsoft.com/fwlink/p/?linkid=245064) offered in the Windows Sample Gallery.
+The following example demonstrates how to configure and begin a multi-part upload operation.
 
 ```javascript
         
@@ -49,7 +49,7 @@ The following example demonstrates how to configure and begin a multi-part uploa
 
 
 ## -see-also
-[CreateDownload(Uri, IStorageFile, IStorageFile)](backgrounddownloader_createdownload_1461958690.md), [CreateUploadAsync](/uwp/api/windows.networking.backgroundtransfer.backgrounduploader.createuploadasync)
+[CreateDownload(Uri, IStorageFile, IStorageFile)](backgrounddownloader_createdownload_1461958690.md), [CreateUploadAsync](/uwp/api/windows.networking.backgroundtransfer.backgrounduploader.createuploadasync), [Background transfer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer), [Background transfer sample (Windows 8.x)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Background%20Transfer%20sample)
 
 ## -capabilities
 internetClient, internetClientServer, privateNetworkClientServer

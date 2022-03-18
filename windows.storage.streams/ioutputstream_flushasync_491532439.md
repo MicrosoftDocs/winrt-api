@@ -16,7 +16,7 @@ Flushes data asynchronously in a sequential stream.
 The stream flush operation.
 
 ## -remarks
-The FlushAsync method may produce latencies and does not always guarantee durable and coherent storage of data. It's generally recommended to avoid this method if possible.
+The FlushAsync method improves, but does not guarantee durable and coherent storage of data and it introduces latencies. It's generally recommended to avoid this method to achieve good performance but it should be used if coherency is desired.
 
 ## -examples
 

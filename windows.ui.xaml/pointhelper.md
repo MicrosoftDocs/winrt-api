@@ -13,6 +13,8 @@ public class PointHelper : Windows.UI.Xaml.IPointHelper
 
 Provides helper methods to set [Point](../windows.foundation/point.md) values. C# and Microsoft Visual Basic code should use methods of [Point](../windows.foundation/point.md) instead.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.PointHelper](/windows/winui/api/microsoft.ui.xaml.pointhelper).
+
 ## -remarks
 
  [Point](../windows.foundation/point.md) is a Windows Runtime structure that represents an **X**,**Y** position in a coordinate system. A [Point](../windows.foundation/point.md) is used as a value in many different Windows Runtime APIs.
@@ -23,4 +25,4 @@ PointHelper is one of several **Helper** classes that are intended to provide ut
 
 ## -see-also
 
-[Point](../windows.foundation/point.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)
+[Point](../windows.foundation/point.md), [Handle pointer input](/windows/uwp/design/input/handle-pointer-input)

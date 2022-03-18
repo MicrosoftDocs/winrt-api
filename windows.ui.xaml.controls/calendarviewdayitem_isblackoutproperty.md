@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsBlackoutProperty { get; }
 ## -description
 Identifies the [IsBlackout](calendarviewdayitem_isblackout.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarViewDayItem.IsBlackoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitem.isblackoutproperty).
+
 ## -property-value
 The identifier for the [IsBlackout](calendarviewdayitem_isblackout.md)  dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [IsBlackout](calendarviewdayitem_isblackout.md)  depende
 ## -examples
 
 ## -see-also
-[IsBlackout](calendarviewdayitem_isblackout.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsBlackout](calendarviewdayitem_isblackout.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

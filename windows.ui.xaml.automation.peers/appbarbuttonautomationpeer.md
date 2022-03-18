@@ -12,6 +12,8 @@ public class AppBarButtonAutomationPeer : Windows.UI.Xaml.Automation.Peers.Butto
 ## -description
 Exposes [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) types to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.AppBarButtonAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarbuttonautomationpeer).
+
 ## -remarks
 The Windows Runtime  [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) class creates a new AppBarButtonAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from AppBarButtonAutomationPeer if you are deriving a custom class from [AppBarButton](../windows.ui.xaml.controls/appbarbutton.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
@@ -23,7 +25,7 @@ AppBarButtonAutomationPeer has overrides of **Core** methods such that the assoc
 + [GetName](automationpeer_getname_1386609741.md) does not use the [ButtonBaseAutomationPeer](buttonbaseautomationpeer.md) behavior that returns a string based on **Content**. Instead, it looks for a label / **LabeledBy** value. Otherwise, values from apps should come from [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) usages in XAML UI definitions, not from values forwarded from the control by the peer.
 This peer has the base class [ButtonAutomationPeer](buttonautomationpeer.md) and inherits its behavior other than the overrides indicated above. This includes the pattern support for [IInvokeProvider](../windows.ui.xaml.automation.provider/iinvokeprovider.md) and the [GetPattern](automationpeer_getpattern_2046576749.md) behavior that returns that pattern when requested, and [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.Button](automationcontroltype.md).
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 ## -examples
 

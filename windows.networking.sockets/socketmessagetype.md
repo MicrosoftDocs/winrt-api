@@ -29,7 +29,7 @@ The message type is UTF-8 text.
 [MessageWebSocket](messagewebsocket.md),
 [MessageWebSocketControl.MessageType](messagewebsocketcontrol_messagetype.md),
 [WebSockets](/windows/uwp/networking/websockets?branch=live),
-[WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623),
+[WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket),
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

@@ -12,6 +12,8 @@ public SetterBaseCollection()
 ## -description
 Initializes a new instance of the [SetterBaseCollection](setterbasecollection.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.SetterBaseCollection.SetterBaseCollection](/windows/winui/api/microsoft.ui.xaml.setterbasecollection.#ctor).
+
 ## -remarks
 
 ## -examples

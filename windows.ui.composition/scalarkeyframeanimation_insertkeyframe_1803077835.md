@@ -12,6 +12,8 @@ public void InsertKeyFrame(System.Single normalizedProgressKey, System.Single va
 ## -description
 Inserts a key frame.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.ScalarKeyFrameAnimation.InsertKeyFrame](/windows/winui/api/microsoft.ui.composition.scalarkeyframeanimation.insertkeyframe).
+
 ## -parameters
 ### -param normalizedProgressKey
 The time the key frame should occur at, expressed as a percentage of the animation [Duration](keyframeanimation_duration.md). Allowed value is from 0.0 to 1.0.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty SkewYProperty { get; }
 ## -description
 Identifies the [SkewY](compositetransform_skewy.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.CompositeTransform.SkewYProperty](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.skewyproperty).
+
 ## -property-value
 The identifier for the [SkewY](compositetransform_skewy.md) dependency property.
 

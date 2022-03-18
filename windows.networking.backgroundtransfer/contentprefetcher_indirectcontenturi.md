@@ -48,7 +48,7 @@ For example:
 </prefetchUris>
 ```
 
-Azure Mobile Services is an option for developers wishing to host a prefetch XML file. To learn more about Azure Mobile Services, see the [Microsoft Azure Mobile Apps site](https://go.microsoft.com/fwlink/p/?LinkID=299824).
+Azure Mobile Services is an option for developers wishing to host a prefetch XML file. To learn more about Azure Mobile Services, see the [Microsoft Azure Mobile Apps site](https://azure.microsoft.com/services/app-service/mobile/).
 
 ## -examples
 

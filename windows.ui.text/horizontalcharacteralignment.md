@@ -12,6 +12,8 @@ public enum Windows.UI.Text.HorizontalCharacterAlignment : int
 ## -description
 Specifies the horizontal position of a character relative to a bounding rectangle.
 
+Equivalent WinUI enum: [HorizontalCharacterAlignment](/windows/winui/api/microsoft.ui.text.horizontalcharacteralignment).
+
 ## -enum-fields
 ### -field Left:0
 The character is at the left edge of the bounding rectangle.

@@ -12,6 +12,8 @@ public PivotHeaderPanel()
 ## -description
 Initializes a new instance of the [PivotHeaderPanel](pivotheaderpanel.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderPanel.PivotHeaderPanel](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pivotheaderpanel.#ctor).
+
 ## -remarks
 
 ## -examples

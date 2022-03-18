@@ -12,6 +12,8 @@ public TransformGroup()
 ## -description
 Initializes a new instance of the [TransformGroup](transformgroup.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.TransformGroup.TransformGroup](/windows/winui/api/microsoft.ui.xaml.media.transformgroup.#ctor).
+
 ## -remarks
 
 ## -examples

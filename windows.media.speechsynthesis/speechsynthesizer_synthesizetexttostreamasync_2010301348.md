@@ -25,10 +25,10 @@ A [SpeechSynthesisStream](speechsynthesisstream.md) that represents the speech g
 
 ## -remarks
 
-To generate speech from [Speech Synthesis Markup Language (SSML) Version 1.1](https://go.microsoft.com/fwlink/p/?LinkID=201763), see [SynthesizeSsmlToStreamAsync](speechsynthesizer_synthesizessmltostreamasync_1873155127.md).
+To generate speech from [Speech Synthesis Markup Language (SSML) Version 1.1](https://www.w3.org/TR/speech-synthesis/), see [SynthesizeSsmlToStreamAsync](speechsynthesizer_synthesizessmltostreamasync_1873155127.md).
 
 ## -examples
 
 ## -see-also
 
-[Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Speech interactions](/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

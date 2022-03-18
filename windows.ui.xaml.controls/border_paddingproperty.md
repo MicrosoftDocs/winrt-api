@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PaddingProperty { get; }
 ## -description
 Identifies the [Padding](border_padding.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Border.PaddingProperty](/windows/winui/api/microsoft.ui.xaml.controls.border.paddingproperty).
+
 ## -property-value
 The identifier for the [Padding](border_padding.md) dependency property.
 

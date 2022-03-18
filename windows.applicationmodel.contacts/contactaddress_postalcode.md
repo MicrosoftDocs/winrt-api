@@ -10,10 +10,10 @@ public string PostalCode { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactAddress.PostalCode
 
 ## -description
-Gets and sets the postal code of a contact address. The maximum string length for the postal code is 1024 characters.
+Gets or sets the postal code of a contact address. The maximum string length for the postal code is 1024 characters.
 
 ## -property-value
-The postal code of a contact address.
+The postal code of a contact address. The maximum string length for the postal code is 1024 characters.
 
 ## -remarks
 

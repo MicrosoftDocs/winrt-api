@@ -12,6 +12,8 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.IReference<Windows.
 ## -description
 Begins an asynchronous operation to show the flyout placed in relation to the specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TimePickerFlyout.ShowAtAsync](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyout.showatasync).
+
 ## -parameters
 ### -param target
 The element to use as the flyout's placement target.

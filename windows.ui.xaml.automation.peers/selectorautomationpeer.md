@@ -12,6 +12,8 @@ public class SelectorAutomationPeer : Windows.UI.Xaml.Automation.Peers.ItemsCont
 ## -description
 A base class that provides a Microsoft UI Automation peer implementation for types that derive from [Selector](../windows.ui.xaml.controls.primitives/selector.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.SelectorAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.selectorautomationpeer).
+
 ## -remarks
 The Windows Runtime  [Selector](../windows.ui.xaml.controls.primitives/selector.md) class creates a new SelectorAutomationPeer as part of internal logic that checks for listeners of certain automation events. [Selector](../windows.ui.xaml.controls.primitives/selector.md) doesn't have an [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) that automatically hooks up the peer on creation, because [Selector](../windows.ui.xaml.controls.primitives/selector.md) is usually a base class.
 
@@ -26,7 +28,7 @@ SelectorAutomationPeer has overrides of **Core** methods such that the associate
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.List](automationcontroltype.md).
 This peer raises selection-related automation events on behalf of its owner class.
 
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 ### **SelectorAutomationPeer** derived classes
 
@@ -40,4 +42,4 @@ SelectorAutomationPeer is the parent class for these classes:
 ## -examples
 
 ## -see-also
-[Selector](../windows.ui.xaml.controls.primitives/selector.md), [ItemsControlAutomationPeer](itemscontrolautomationpeer.md), [IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md), [ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[Selector](../windows.ui.xaml.controls.primitives/selector.md), [ItemsControlAutomationPeer](itemscontrolautomationpeer.md), [IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md), [ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

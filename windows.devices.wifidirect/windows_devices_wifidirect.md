@@ -92,68 +92,6 @@ private void Disconnect()
 }
 ```
 
-```javascript
-var wfdDevice;
-
-function connect(deviceId) {
-    var result = ""; 
-
-    try
-    {
-        // No device ID specified.
-        if (!deviceId) { return "Please specify a Wi-Fi Direct device ID."; }
-
-        // Connect to the selected Wi-Fi Direct device.
-        Windows.Devices.WiFiDirect.WiFiDirectDevice.fromIdAsync(deviceId).then(
-            function (wfdDeviceResult) {
-                if (!wfdDeviceResult) {
-                    result = "Connection to " + deviceId + " failed.";
-                }
-
-                wfdDevice = wfdDeviceResult;
-
-                // Register for connection status change notification.
-                wfdDevice.onconnectionstatuschanged = onConnectionChanged; 
-
-                // Get the EndpointPair information.
-                var endpointPairCollection = wfdDevice.getConnectionEndpointPairs();
-
-                if (endpointPairCollection.Count > 0) {
-                    var endpointPair = endpointPairCollection[0];
-                    result = "Local IP address " + endpointPair.localHostName.toString() + 
-                        " connected to remote IP address " + endpointPair.remoteHostName.toString();
-                }
-                else {
-                    result = "Connection to " + deviceId + " failed.";
-                }
-            });
-
-    }
-    catch (err) {
-        // Handle error.
-        result = "Error occurred: " + err.message;
-    }
-
-    return result;
-}
-
-function onConnectionChanged(status) {
-    if (status == Windows.Devices.WiFiDirect.WiFiDirectConnectionStatus.connected) {
-        // Connection successful.
-    }
-    else {
-        // Disconnected.
-       disconnect();
-    }
-}
-
-function disconnect() {
-    if (wfdDevice) {
-        wfdDevice.dispose(); 
-    }
-}
-```
-
 ## -see-also
 
-[WiFiDirectDevice sample](https://go.microsoft.com/fwlink/p/?LinkID=301419), [Wi-Fi Direct sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620626)
+[WiFiDirectDevice sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/WiFiDirectDevice%20sample), [Wi-Fi Direct sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620626)

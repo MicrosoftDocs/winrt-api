@@ -12,6 +12,8 @@ public class DropTargetItemThemeAnimation : Windows.UI.Xaml.Media.Animation.Time
 ## -description
 Represents the preconfigured animation that applies to potential drop target elements.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DropTargetItemThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.droptargetitemthemeanimation).
+
 ## -xaml-syntax
 ```xaml
 <DropTargetItemThemeAnimation .../>
@@ -93,4 +95,4 @@ The following is an example of a template for a custom control that supports an 
 
 
 ## -see-also
-[Timeline](timeline.md), [Animating drag-and-drop sequences](https://docs.microsoft.com/previous-versions/windows/apps/jj649427(v=win.10)), [Guidelines and checklist for drag-and-drop animations](https://docs.microsoft.com/windows/uwp/style/motion-dragdrop)
+[Timeline](timeline.md), [Animating drag-and-drop sequences](/previous-versions/windows/apps/jj649427(v=win.10)), [Guidelines and checklist for drag-and-drop animations](/windows/uwp/style/motion-dragdrop)

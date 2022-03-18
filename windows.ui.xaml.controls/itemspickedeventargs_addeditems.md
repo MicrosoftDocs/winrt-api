@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IVector<object> AddedItems { get; }
 ## -description
 Gets the collection of items that were selected by the user.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPickedEventArgs.AddedItems](/windows/winui/api/microsoft.ui.xaml.controls.itemspickedeventargs.addeditems).
+
 ## -property-value
 The collection of items that were selected by the user.
 

@@ -26,4 +26,4 @@ Only two text colors are available— default dark and default light— and are 
 ## -examples
 
 ## -see-also
-[Secondary tiles sample](https://go.microsoft.com/fwlink/p/?linkid=231487), [BackgroundColor](secondarytilevisualelements_backgroundcolor.md)
+[Secondary tiles sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Secondary%20tiles%20sample), [BackgroundColor](secondarytilevisualelements_backgroundcolor.md)

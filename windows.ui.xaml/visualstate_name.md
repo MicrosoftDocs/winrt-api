@@ -12,6 +12,8 @@ public string Name { get; }
 ## -description
 Gets the name of the [VisualState](visualstate.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.VisualState.Name](/windows/winui/api/microsoft.ui.xaml.visualstate.name).
+
 ## -xaml-syntax
 ```xaml
 <VisualState x:Name="stateName"/>
@@ -25,11 +27,11 @@ Gets the name of the [VisualState](visualstate.md).
 The name of the [VisualState](visualstate.md).
 
 ## -remarks
-Name is a read-only property that you can check with code at run-time to read the value of the [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute) that was applied to a [VisualState](visualstate.md) in a XAML control template. You can't literally set Name because it's read-only, and [x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute) can only be set in XAML. The value is available as soon as the XAML that contains the control template and the [VisualState](visualstate.md) definition is loaded.
+Name is a read-only property that you can check with code at run-time to read the value of the [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute) that was applied to a [VisualState](visualstate.md) in a XAML control template. You can't literally set Name because it's read-only, and [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute) can only be set in XAML. The value is available as soon as the XAML that contains the control template and the [VisualState](visualstate.md) definition is loaded.
 
 The need to check the Name of a [VisualState](visualstate.md) at run-time is anticipated to be relatively uncommon, and would only be relevant to advanced scenarios. For the most part, the definition of a [VisualState](visualstate.md) in XAML combined with using [VisualStateManager](visualstatemanager.md) and [VisualStateGroup](visualstategroup.md) events in code provides you all that you need to define and invoke visual states for a custom or Windows Runtime-defined control.
 
 ## -examples
 
 ## -see-also
-[x:Name attribute](https://docs.microsoft.com/windows/uwp/xaml-platform/x-name-attribute)
+[x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute)

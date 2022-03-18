@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty EasingFunctionProperty { get; }
 ## -description
 Identifies the [EasingFunction](pointanimation_easingfunction.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PointAnimation.EasingFunctionProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimation.easingfunctionproperty).
+
 ## -property-value
 The identifier for the [EasingFunction](pointanimation_easingfunction.md)  dependency property.
 

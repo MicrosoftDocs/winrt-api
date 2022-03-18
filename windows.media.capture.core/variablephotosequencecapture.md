@@ -17,9 +17,9 @@ Call the [MediaCapture.PrepareVariablePhotoSequenceCaptureAsync](../windows.medi
 
 After starting a variable photo sequence capture, you must stop the variable photo sequence capture by calling [StopAsync](variablephotosequencecapture_stopasync_1648475005.md) before your app attempts to record video with the [MediaCapture](../windows.media.capture/mediacapture.md) object.
 
-For how-to guidance for using **VariablePhotoSequenceCapture**, see [Capture a photo sequence with VariablePhotoSequence](https://docs.microsoft.com/windows/uwp/audio-video-camera/variable-photo-sequence).
+For how-to guidance for using **VariablePhotoSequenceCapture**, see [Capture a photo sequence with VariablePhotoSequence](/windows/uwp/audio-video-camera/variable-photo-sequence).
 
 ## -examples
 
 ## -see-also
-[Capture a photo sequence with VariablePhotoSequence](https://docs.microsoft.com/windows/uwp/audio-video-camera/variable-photo-sequence)
+[Capture a photo sequence with VariablePhotoSequence](/windows/uwp/audio-video-camera/variable-photo-sequence)

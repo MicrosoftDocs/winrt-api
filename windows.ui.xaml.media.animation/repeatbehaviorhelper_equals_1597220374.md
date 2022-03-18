@@ -13,6 +13,8 @@ public bool Equals(Windows.UI.Xaml.Media.Animation.RepeatBehavior target, Window
 Determines whether two [RepeatBehavior](repeatbehavior.md) values have equivalent values. C# and Microsoft Visual Basic code should use the equality operator instead.
 <!-- Link RepeatBehavior.Equals if we add it.-->
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.RepeatBehaviorHelper.Equals](/windows/winui/api/microsoft.ui.xaml.media.animation.repeatbehaviorhelper.equals).
+
 ## -parameters
 ### -param target
 The first [RepeatBehavior](repeatbehavior.md) to compare.
@@ -28,4 +30,4 @@ The second [RepeatBehavior](repeatbehavior.md) to compare.
 ## -examples
 
 ## -see-also
-[Equals(Object)](https://docs.microsoft.com/dotnet/api/system.object.equals?redirectedfrom=MSDN#System_Object_Equals_System_Object_)
+[Equals(Object)](/dotnet/api/system.object.equals?view=dotnet-uwp-10.0&preserve-view=true)

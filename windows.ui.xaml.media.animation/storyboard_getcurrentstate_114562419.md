@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.ClockState GetCurrentState()
 ## -description
 Gets the clock state of the [Storyboard](storyboard.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.Storyboard.GetCurrentState](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.getcurrentstate).
+
 ## -returns
 One of the enumeration values. Can be: **Active**, **Filling**, or **Stopped**.
 
@@ -29,4 +31,4 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 ## -see-also
-[GetCurrentTime](storyboard_getcurrenttime_1338472985.md), [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)
+[GetCurrentTime](storyboard_getcurrenttime_1338472985.md), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)

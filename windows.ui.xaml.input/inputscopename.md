@@ -12,12 +12,12 @@ public class InputScopeName : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.
 ## -description
 Identifies a particular named input scope that is relevant to an overall [InputScope](inputscope.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.InputScopeName](/windows/winui/api/microsoft.ui.xaml.input.inputscopename).
+
 ## -xaml-syntax
 ```xaml
 <InputScopeName .../>
-```
-
-```xaml
+- or -
 <TextBox InputScope="inputScopeNameValue" .../>
 -or-
 <RichEditBox InputScope="inputScopeNameValue" .../>
@@ -29,4 +29,4 @@ Identifies a particular named input scope that is relevant to an overall [InputS
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [TextBox.InputScope](../windows.ui.xaml.controls/textbox_inputscope.md), [RichEditBox.InputScope](../windows.ui.xaml.controls/richeditbox_inputscope.md), [InputScope](inputscope.md), [InputScopeNameValue](inputscopenamevalue.md), [Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [TextBox.InputScope](../windows.ui.xaml.controls/textbox_inputscope.md), [RichEditBox.InputScope](../windows.ui.xaml.controls/richeditbox_inputscope.md), [InputScope](inputscope.md), [InputScopeNameValue](inputscopenamevalue.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

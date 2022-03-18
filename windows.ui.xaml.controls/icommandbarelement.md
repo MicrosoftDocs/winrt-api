@@ -12,6 +12,8 @@ public interface ICommandBarElement :
 ## -description
 Defines the compact view for command bar elements.
 
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Controls.ICommandBarElement](/windows/winui/api/microsoft.ui.xaml.controls.icommandbarelement).
+
 ## -remarks
 
 ## -examples

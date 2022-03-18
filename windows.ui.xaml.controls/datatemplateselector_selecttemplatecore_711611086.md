@@ -13,6 +13,8 @@ This API is depricated and will not be called by certain controls like TreeView 
 ## -description
 When implemented by a derived class, returns a specific [DataTemplate](../windows.ui.xaml/datatemplate.md) for a given item or container.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.DataTemplateSelector.SelectTemplateCore](/windows/winui/api/microsoft.ui.xaml.controls.datatemplateselector.selecttemplatecore).
+
 ## -parameters
 ### -param item
 The item to return a template for.
@@ -29,4 +31,4 @@ Most implementations will choose to implement the selection logic based on the v
 ## -examples
 
 ## -see-also
-[DataTemplate](../windows.ui.xaml/datatemplate.md), [SelectTemplateCore(Object)](datatemplateselector_selecttemplatecore_402628248.md), [Adding ListView and GridView controls](https://docs.microsoft.com/previous-versions/windows/apps/hh780618(v=win.10))
+[DataTemplate](../windows.ui.xaml/datatemplate.md), [SelectTemplateCore(Object)](datatemplateselector_selecttemplatecore_402628248.md), [Adding ListView and GridView controls](/previous-versions/windows/apps/hh780618(v=win.10))

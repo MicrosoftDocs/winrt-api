@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty IsGroupLabelVisibleProperty { get; }
 ## -description
 Identifies the [IsGroupLabelVisible](calendardatepicker_isgrouplabelvisible.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.IsGroupLabelVisibleProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.isgrouplabelvisibleproperty).
+
 ## -property-value
 The identifier for the [IsGroupLabelVisible](calendardatepicker_isgrouplabelvisible.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [IsGroupLabelVisible](calendardatepicker_isgrouplabelvisi
 ## -examples
 
 ## -see-also
-[IsGroupLabelVisible](calendardatepicker_isgrouplabelvisible.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[IsGroupLabelVisible](calendardatepicker_isgrouplabelvisible.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

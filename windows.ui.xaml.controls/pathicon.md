@@ -13,6 +13,8 @@ public class PathIcon : Windows.UI.Xaml.Controls.IconElement, Windows.UI.Xaml.Co
 
 Represents an icon that uses a vector path as its content.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.PathIcon](/windows/winui/api/microsoft.ui.xaml.controls.pathicon).
+
 ## -xaml-syntax
 
 ```xaml
@@ -47,4 +49,4 @@ This example shows an [AppBarButton](appbarbutton.md) with a PathIcon.
 
 
 ## -see-also
-[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Path](../windows.ui.xaml.shapes/path.md), [Move and draw commands syntax](https://docs.microsoft.com/windows/uwp/xaml-platform/move-draw-commands-syntax), [Icons for UWP apps](https://docs.microsoft.com/windows/uwp/style/icons) 
+[IconElement](iconelement.md), [AppBarButton](appbarbutton.md), [Path](../windows.ui.xaml.shapes/path.md), [Move and draw commands syntax](/windows/uwp/xaml-platform/move-draw-commands-syntax), [Icons for UWP apps](/windows/uwp/style/icons) 

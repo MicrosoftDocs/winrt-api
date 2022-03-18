@@ -13,9 +13,6 @@ public class ResourceQualifierMapView : Windows.Foundation.Collections.IIterable
 An unchangeable view into a map of [ResourceQualifier](resourcequalifier.md) objects.
 
 ## -remarks
-### Collection member lists
-
-For JavaScript, ResourceQualifierMapView supports using an index to access items.
 
 ## -examples
 

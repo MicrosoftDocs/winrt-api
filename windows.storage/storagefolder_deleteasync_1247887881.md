@@ -99,7 +99,7 @@ IAsyncAction MainPage::ExampleCoroutineAsync()
 }
 ```
 
-```cpp
+```cppcx
 StorageFolder^ localFolder = ApplicationData::Current->LocalFolder;
 
 String^ folderName = "test";
@@ -132,44 +132,6 @@ create_task(localFolder->CreateFolderAsync(folderName)).then([=](StorageFolder^ 
         output = "Folder: " + folderName + " not deleted\n";
     }
     OutputDebugString(output->Begin());
-});
-```
-
-```javascript
-// Get the app's local folder.
-var localFolder = Windows.Storage.ApplicationData.current.localFolder;
-
-// Create a temporary folder in the current folder.
-var folderName = "Test";
-var testFolderPromise = localFolder.createFolderAsync(folderName);
-var getItemPromise = testFolderPromise.then(null, function createFolderFail(error) {
-
-    // Folder creation failed.
-    // Does the folder already exist?
-    return localFolder.tryGetItemAsync(folderName);
-});
-var deleteItemPromise = getItemPromise.then(function getItemSuccess(testFolder) {
-    if (testFolder !== null) {
-        console.log("Folder", folderName, " exists.");
-    } else {
-        console.log("Folder", folderName, " does not exist.");
-    }
-
-    // Delete the folder.
-    var StorageDeleteOption = Windows.Storage.StorageDeleteOption;
-    return testFolder && testFolder.deleteAsync(StorageDeleteOption.permanentDelete);
-});
-var getDeletedItemPromise = deleteItemPromise.then(function deleteSuccess() {
-
-    // Has the folder been deleted?
-    return localFolder.tryGetItemAsync(folderName);
-});
-getDeletedItemPromise.done(function getDeletedItemSuccess(item) {
-    if (item !== null) {
-        console.log("Folder", folderName, "exists.");
-    } else {
-        console.log("Folder", folderName, "does not exist.");
-    }
 });
 ```
 

@@ -13,6 +13,8 @@ public WindowsXamlManager WindowsXamlManager.InitializeForCurrentThread()
 ## -description
 Initializes the UWP XAML framework in a non-UWP desktop application (for example, a WPF or Windows Forms application) on the current thread.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Hosting.WindowsXamlManager.InitializeForCurrentThread](/windows/winui/api/microsoft.ui.xaml.hosting.windowsxamlmanager.initializeforcurrentthread).
+
 ## -returns
 An object that contains a reference to the UWP XAML framework.
 

@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationEvents : int
 ## -description
 Specifies the event that is raised by the element through the associated [AutomationPeer](automationpeer.md). Used by [RaiseAutomationEvent](automationpeer_raiseautomationevent_2027563412.md).
 
+Equivalent WinUI enum: [AutomationEvents](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationevents).
+
 ## -enum-fields
 ### -field ToolTipOpened:0
 The event that is raised when a tooltip is opened.
@@ -101,7 +103,7 @@ The event that is raised when the conversion target has changed.
 The event that is raised when the text was changed in an edit control.
 
 ### -field LayoutInvalidated:29
-The event that is raised when the window layout has become invalidated. This event is also used for [Auto-suggest accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessible-text-requirements#auto-suggest_accessibility).
+The event that is raised when the window layout has become invalidated. This event is also used for [Auto-suggest accessibility](/windows/uwp/accessibility/accessible-text-requirements#auto-suggest_accessibility).
 
 
 ## -remarks
@@ -115,4 +117,4 @@ The event that is raised when the window layout has become invalidated. This eve
 ## -examples
 
 ## -see-also
-[RaiseAutomationEvent](automationpeer_raiseautomationevent_2027563412.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[RaiseAutomationEvent](automationpeer_raiseautomationevent_2027563412.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

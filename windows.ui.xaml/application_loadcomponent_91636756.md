@@ -12,6 +12,8 @@ public void LoadComponent(System.Object component, Windows.Foundation.Uri resour
 ## -description
 Loads a XAML file that is located at the specified relative location, and converts it to an instance of the object that is specified by the root element of the XAML file.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Application.LoadComponent](/windows/winui/api/microsoft.ui.xaml.application.loadcomponent).
+
 ## -parameters
 ### -param component
 An object of the same type as the root element of the XAML content to be loaded.

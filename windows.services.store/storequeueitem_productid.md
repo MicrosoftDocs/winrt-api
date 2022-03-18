@@ -18,6 +18,6 @@ The add-on product ID of the current package in the queue.
 ## -remarks
 
 ## -see-also
-[Product ID](https://docs.microsoft.com/windows/uwp/publish/set-your-add-on-product-id#product-id)
+[Product ID](/windows/uwp/publish/set-your-add-on-product-id#product-id)
 
 ## -examples

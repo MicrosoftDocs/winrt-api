@@ -14,6 +14,8 @@ public DependencyProperty IsOpenProperty { get; }
 
 Identifies the [IsOpen](flyoutbase_isopen.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.IsOpenProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.isopenproperty).
+
 ## -property-value
 
 The identifier for the [IsOpen](flyoutbase_isopen.md) dependency property.

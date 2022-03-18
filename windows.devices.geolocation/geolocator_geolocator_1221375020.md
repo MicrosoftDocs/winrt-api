@@ -17,7 +17,7 @@ Initializes a new [Geolocator](geolocator.md) object.
 ## -examples
 
 ## -see-also
-[geolocation sample](https://go.microsoft.com/fwlink/p/?linkid=533278)
+[geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
 
 ## -capabilities
 location

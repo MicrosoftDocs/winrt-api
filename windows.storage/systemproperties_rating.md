@@ -10,10 +10,10 @@ public string Rating { get; }
 # Windows.Storage.SystemProperties.Rating
 
 ## -description
-Gets the name of the [System.Rating](https://docs.microsoft.com/windows/desktop/properties/props-system-rating) property (one of the [Windows file properties](https://docs.microsoft.com/windows/desktop/properties/props).
+Gets the name of the [System.Rating](/windows/desktop/properties/props-system-rating) property (one of the [Windows file properties](/windows/desktop/properties/props).
 
 ## -property-value
-The name of the [System.Rating](https://docs.microsoft.com/windows/desktop/properties/props-system-rating) file property.
+The name of the [System.Rating](/windows/desktop/properties/props-system-rating) file property.
 
 ## -remarks
 

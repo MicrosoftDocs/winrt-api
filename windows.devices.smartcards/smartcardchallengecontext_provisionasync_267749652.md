@@ -30,4 +30,4 @@ An asynchronous action that completes after the smart card reconfiguration attem
 ## -examples
 
 ## -see-also
-[ProvisionAsync(IBuffer, Boolean)](smartcardchallengecontext_provisionasync_1459375156.md), [Create an NFC Smart Card app](https://docs.microsoft.com/windows/uwp/devices-sensors/host-card-emulation)
+[ProvisionAsync(IBuffer, Boolean)](smartcardchallengecontext_provisionasync_1459375156.md), [Create an NFC Smart Card app (applies to Windows 10 Mobile only)](/windows/uwp/devices-sensors/host-card-emulation)

@@ -16,6 +16,8 @@ The
     **Direction**
    property allows you to drive your animation from start to end or end to start or alternate between start and end or end to start if animation has an [IterationCount](keyframeanimation_iterationcount.md) greater than one. This gives an easy way for customizing animation definitions.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.KeyFrameAnimation.Direction](/windows/winui/api/microsoft.ui.composition.keyframeanimation.direction).
+
 ## -property-value
 The direction the animation is playing.
 

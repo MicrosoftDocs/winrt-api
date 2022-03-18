@@ -12,22 +12,17 @@ public Windows.UI.Xaml.Media.Brush Fill { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that is used to render the glyphs.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.Fill](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.fill).
+
 ## -xaml-syntax
 ```xaml
 <Glyphs Fill="{StaticResource resourceName"/>
-
-```
-
-```xaml
+- or -
 <Glyphs Fill="colorString"/>
-
-```
-
-```xaml
+- or -
 <Glyphs>
   <Glyphs.Fill>singleBrush</Glyphs.Fill>
 </Glyphs>
-
 ```
 
 
@@ -45,4 +40,4 @@ Because the default is **null**, you almost always should define a value for Fil
 ## -examples
 
 ## -see-also
-[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Use brushes](/windows/uwp/graphics/using-brushes)

@@ -12,6 +12,8 @@ public Windows.Foundation.Collections.IIterable<Windows.UI.Xaml.UIElement> FindE
 ## -description
 Retrieves a set of objects that are located within a specified x-y coordinate point of an app UI. The set of objects represents the components of a visual tree that share that point.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.VisualTreeHelper.FindElementsInHostCoordinates](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.findelementsinhostcoordinates).
+
 ## -parameters
 ### -param intersectingPoint
 The point to use as the determination point. This point is using the coordinate space of the app window, not of any specific element (and not of *subtree* if specified).
@@ -33,11 +35,11 @@ For basic hit testing, the goal is to discover which element is highest in the z
 
 For this scenario, you should pass the point you're interested in hit-testing as the value of the *intersectingPoint* parameter. For the *subtree* parameter, you can pass it as **null**. Or you can specify *subtree* to be some element that you know is the root visual of a page, or is otherwise some element that you want to be the final stop for hit testing.
 
-The element that is topmost in the z-order is always the first element in the returned [IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) of [UIElement](../windows.ui.xaml/uielement.md) items. So for basic hit testing you're usually only interested in that very first item. Any additional items in the [IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) are other elements that are also at that point but are further back in the z-order and are drawing underneath that first item. The elements further back wouldn't report themselves as the source for an input event at that point, only the topmost element would.
+The element that is topmost in the z-order is always the first element in the returned [IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true) of [UIElement](../windows.ui.xaml/uielement.md) items. So for basic hit testing you're usually only interested in that very first item. Any additional items in the [IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true) are other elements that are also at that point but are further back in the z-order and are drawing underneath that first item. The elements further back wouldn't report themselves as the source for an input event at that point, only the topmost element would.
 
 ### Element-filtered hit testing
 
-Sometimes you want to know whether a specific element exists at a certain point in the UI. If so, you can specify that point for *intersectingPoint* and specify the element you're looking for as the *subtree* parameter. If the return value is not empty, that means that the element does exist at that point in the UI. If the element is the first item in the return value, that means the element is topmost in the z-order at *intersectingPoint*. If there are other items in the return value and *subtree* isn't first, the other items represent the elements rendering at *intersectingPoint* that are higher in z-order (visually, these render on top of the *subtree* element). In that case *subtree* is the last element in the returned [IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1), not the first.
+Sometimes you want to know whether a specific element exists at a certain point in the UI. If so, you can specify that point for *intersectingPoint* and specify the element you're looking for as the *subtree* parameter. If the return value is not empty, that means that the element does exist at that point in the UI. If the element is the first item in the return value, that means the element is topmost in the z-order at *intersectingPoint*. If there are other items in the return value and *subtree* isn't first, the other items represent the elements rendering at *intersectingPoint* that are higher in z-order (visually, these render on top of the *subtree* element). In that case *subtree* is the last element in the returned [IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true), not the first.
 
 If the return value is empty, that means that the *subtree* element didn't exist there, at any z-order value.
 
@@ -50,7 +52,7 @@ A UI can be dynamic, especially if you're using collections from data binding fo
 
 In the return value, you might be interested in each of the items within. So you could use **foreach** or similar language-specific techniques to iterate the collection and run your own logic on each of these elements. Remember that the first element in that collection is the one that is topmost in z-order.
 
-If you are programming using C# or Microsoft Visual Basic, the return value type of this method is projected as an [IEnumerable](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) generic collection that contains [UIElement](../windows.ui.xaml/uielement.md) items. If you are programming using Visual C++ component extensions (C++/CX), the return type of this method is [IIterable&lt;UIElement&gt;](../windows.foundation.collections/iiterable_1.md).
+If you are programming using C# or Microsoft Visual Basic, the return value type of this method is projected as an [IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true) generic collection that contains [UIElement](../windows.ui.xaml/uielement.md) items. If you are programming using Visual C++ component extensions (C++/CX), the return type of this method is [IIterable<UIElement>](../windows.foundation.collections/iiterable_1.md).
 
 ## -examples
 This is an example utility method that determines whether an element of a given [Name](../windows.ui.xaml/frameworkelement_name.md) exists anywhere in the z-order at a [Point](../windows.foundation/point.md) in the UI of an app.
@@ -80,4 +82,4 @@ private bool DoesPointContainElement(Point testPoint, string elementName, UIElem
 
 
 ## -see-also
-[Point](../windows.foundation/point.md), [Mouse interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/mouse-interactions)
+[Point](../windows.foundation/point.md), [Mouse interactions](/windows/uwp/input-and-devices/mouse-interactions)

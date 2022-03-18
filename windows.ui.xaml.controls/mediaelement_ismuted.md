@@ -12,6 +12,8 @@ public bool IsMuted { get;  set; }
 ## -description
 Gets or sets a value indicating whether the audio is muted.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.IsMuted](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.ismuted).
+
 ## -xaml-syntax
 ```xaml
 <MediaElement IsMuted="bool" .../>

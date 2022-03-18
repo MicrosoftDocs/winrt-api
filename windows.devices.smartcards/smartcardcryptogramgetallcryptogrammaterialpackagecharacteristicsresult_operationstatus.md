@@ -10,14 +10,13 @@ public SmartCardCryptogramGeneratorOperationStatus OperationStatus { get; }
 # Windows.Devices.SmartCards.SmartCardCryptogramGetAllCryptogramMaterialPackageCharacteristicsResult.OperationStatus
 
 ## -description
-Gets the operation status of [GetAllCryptogramMaterialPackageCharacteristicsAsync](../../windows.devices.smartcards/smartcardcryptogramgenerator_getallcryptogrammaterialpackagecharacteristicsasync_812224816.md).
+Gets the operation status of [GetAllCryptogramMaterialPackageCharacteristicsAsync](./smartcardcryptogramgenerator_getallcryptogrammaterialpackagecharacteristicsasync_812224816.md).
 
 ## -property-value
-The operation status of [GetAllCryptogramMaterialPackageCharacteristicsAsync](../../windows.devices.smartcards/smartcardcryptogramgenerator_getallcryptogrammaterialpackagecharacteristicsasync_812224816.md).
+The operation status of [GetAllCryptogramMaterialPackageCharacteristicsAsync](./smartcardcryptogramgenerator_getallcryptogrammaterialpackagecharacteristicsasync_812224816.md).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

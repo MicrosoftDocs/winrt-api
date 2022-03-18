@@ -13,6 +13,8 @@ public void RichEditTextRange.SetIndex(TextRangeUnit unit, Int32 index, Boolean 
 
 Moves the text range to the specified unit of the story.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.SetIndex](/windows/winui/api/microsoft.ui.text.richedittextrange.setindex).
+
 ## -parameters
 ### -param unit
 

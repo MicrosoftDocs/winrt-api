@@ -12,14 +12,16 @@ public double ActualHeight { get; }
 ## -description
 Gets the rendered height of a [FrameworkElement](frameworkelement.md). See Remarks.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.ActualHeight](/windows/winui/api/microsoft.ui.xaml.frameworkelement.actualheight).
+
 ## -property-value
 The height, in pixels, of the object. The default is 0. The default might be encountered if the object has not been loaded and hasn't yet been involved in a layout pass that renders the UI.
 
 ## -remarks
 > [!NOTE]
-> Although it has an [ActualHeightProperty](frameworkelement_actualheightproperty.md) backing field, ActualHeight does not raise property change notifications and it should be thought of as a regular CLR property and not a dependency property.
+> Although it has an [ActualHeightProperty](frameworkelement_actualheightproperty.md) backing field, ActualHeight does not raise property change notifications and it should be thought of as a regular property and not a dependency property.
 
-ActualHeight is a calculated property. The calculations are a result of a layout pass, where the object is sized in layout according to the logic of its successive layout parents. For more info see [Define layouts with XAML](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml).
+ActualHeight is a calculated property. The calculations are a result of a layout pass, where the object is sized in layout according to the logic of its successive layout parents. For more info see [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml).
 
 
 <!--BUG this is a terrible formoreinfo. Need meaty stuff about how layout actually works.-->

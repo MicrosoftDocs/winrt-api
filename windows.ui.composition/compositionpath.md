@@ -13,6 +13,8 @@ public class CompositionPath : IGeometrySource2D
 
 Represents a series of connected lines and curves.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionPath](/windows/winui/api/microsoft.ui.composition.compositionpath).
+
 ## -remarks
 
 ## -see-also

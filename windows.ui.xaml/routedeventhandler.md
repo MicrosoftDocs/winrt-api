@@ -10,6 +10,8 @@ public delegate void RoutedEventHandler(System.Object sender, Windows.UI.Xaml.Ro
 ## -description
 Represents the method that will handle routed events.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.RoutedEventHandler](/windows/winui/api/microsoft.ui.xaml.routedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the event handler is attached.

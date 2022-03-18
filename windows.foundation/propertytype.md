@@ -50,10 +50,10 @@ An unsigned 16-bit (2-byte) code point.
 A value that can be only true or false.
 
 ### -field String:12
-A Windows Runtime  [HSTRING](https://docs.microsoft.com/windows/desktop/WinRT/hstring).
+A Windows Runtime  [HSTRING](/windows/desktop/WinRT/hstring).
 
 ### -field Inspectable:13
-An object implementing the [IInspectable](https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable) interface.
+An object implementing the [IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspectable) interface.
 
 ### -field DateTime:14
 An instant in time, typically expressed as a date and time of day.
@@ -77,40 +77,40 @@ A set of four floating-point numbers that represent the location and size of a r
 A type not specified in this enumeration.
 
 ### -field UInt8Array:1025
-An array of [Byte](https://docs.microsoft.com/dotnet/api/system.byte?redirectedfrom=MSDN) values.
+An array of [Byte](/dotnet/api/system.byte?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field Int16Array:1026
-An array of [Int16](https://docs.microsoft.com/dotnet/api/system.int16?redirectedfrom=MSDN) values.
+An array of [Int16](/dotnet/api/system.int16?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field UInt16Array:1027
-An array of [UInt16](https://docs.microsoft.com/dotnet/api/system.uint16?redirectedfrom=MSDN) values.
+An array of [UInt16](/dotnet/api/system.uint16?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field Int32Array:1028
-An array of [Int32](https://docs.microsoft.com/dotnet/api/system.int32?redirectedfrom=MSDN) values.
+An array of [Int32](/dotnet/api/system.int32?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field UInt32Array:1029
-An array of [UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN) values.
+An array of [UInt32](/dotnet/api/system.uint32?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field Int64Array:1030
-An array of [Int64](https://docs.microsoft.com/dotnet/api/system.int64?redirectedfrom=MSDN) values.
+An array of [Int64](/dotnet/api/system.int64?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field UInt64Array:1031
-An array of [UInt64](https://docs.microsoft.com/dotnet/api/system.uint64?redirectedfrom=MSDN) values.
+An array of [UInt64](/dotnet/api/system.uint64?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field SingleArray:1032
-An array of [Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN) values.
+An array of [Single](/dotnet/api/system.single?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field DoubleArray:1033
-An array of [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) values.
+An array of [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field Char16Array:1034
-An array of [Char](https://docs.microsoft.com/dotnet/api/system.char?redirectedfrom=MSDN) values.
+An array of [Char](/dotnet/api/system.char?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field BooleanArray:1035
-An array of [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) values.
+An array of [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field StringArray:1036
-An array of [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) values.
+An array of [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field InspectableArray:1037
 An array of **Inspectable** values.
@@ -122,7 +122,7 @@ An array of [DateTime](datetime.md) values.
 An array of [TimeSpan](timespan.md) values.
 
 ### -field GuidArray:1040
-An array of [Guid](https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN) values.
+An array of [Guid](/dotnet/api/system.guid?view=dotnet-uwp-10.0&preserve-view=true) values.
 
 ### -field PointArray:1041
 An array of [Point](point.md) structures.

@@ -11,7 +11,7 @@ public User User { get; }
 # Windows.Storage.Pickers.FolderPicker.User
 
 ## -description
-Gets info about the user for which the [FolderPicker](folderpicker.md) was created. Use this property for [multi-user applications](https://docs.microsoft.com/windows/uwp/xbox-apps/multi-user-applications).
+Gets info about the user for which the [FolderPicker](folderpicker.md) was created. Use this property for [multi-user applications](/windows/uwp/xbox-apps/multi-user-applications).
 
 ## -property-value
 The user for which the [FolderPicker](folderpicker.md) was created.
@@ -19,7 +19,7 @@ The user for which the [FolderPicker](folderpicker.md) was created.
 ## -remarks
 
 ## -see-also
-[Introduction to multi-user applications](https://docs.microsoft.com/windows/uwp/xbox-apps/multi-user-applications),[CreateForUser](folderpicker_createforuser_24112450.md)
+[Introduction to multi-user applications](/windows/uwp/xbox-apps/multi-user-applications),[CreateForUser](folderpicker_createforuser_24112450.md)
 
 ## -examples
 

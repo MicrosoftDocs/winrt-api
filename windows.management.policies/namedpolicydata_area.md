@@ -18,7 +18,7 @@ The MDM policy area name.
 ## -remarks
 
 ## -see-also
-[Policy CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider)
+[Policy CSP](/windows/client-management/mdm/policy-configuration-service-provider)
 
 ## -examples
 

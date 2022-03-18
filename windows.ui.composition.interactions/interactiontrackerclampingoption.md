@@ -14,6 +14,8 @@ public enum InteractionTrackerClampingOption : int
 
 Defines constants that specify how values are clamped when the InteractionTracker position is updated.
 
+Equivalent WinUI enum: [Microsoft.UI.Composition.Interactions.InteractionTrackerClampingOption](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerclampingoption).
+
 ## -enum-fields
 ### -field Disabled:1
 

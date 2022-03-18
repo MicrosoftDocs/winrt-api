@@ -10,7 +10,7 @@ public class ContactFieldFactory : Windows.ApplicationModel.Contacts.IContactFie
 # Windows.ApplicationModel.Contacts.ContactFieldFactory
 
 ## -description
-<!--Rearranged the description to streamline it and make it more similar to other class and interface descriptions.-->
+
 Creates fields that contain information about a contact. You can then add these fields to a [Contact](contact.md) object to create the contact. This class is available only to apps that support the Contact contract.
 
 ## -remarks

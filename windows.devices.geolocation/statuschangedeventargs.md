@@ -19,7 +19,7 @@ This object is the argument passed to the handler for the [StatusChanged](geoloc
 
 ## -examples
 
-This code example demonstrates how the [StatusChanged](geolocator_statuschanged.md) event is handled. The [Geolocator](geolocator.md) object triggers the [StatusChanged](geolocator_statuschanged.md) event to indicate that the user's location settings changed. That event passes the corresponding status via the argument's **Status** property (of type [PositionStatus](positionstatus.md)). Note that this method is not called from the UI thread and the [Dispatcher](../windows.ui.core/coredispatcher.md) object invokes the UI changes. For more info, see [Get current location](https://docs.microsoft.com/windows/uwp/maps-and-location/get-location).
+This code example demonstrates how the [StatusChanged](geolocator_statuschanged.md) event is handled. The [Geolocator](geolocator.md) object triggers the [StatusChanged](geolocator_statuschanged.md) event to indicate that the user's location settings changed. That event passes the corresponding status via the argument's **Status** property (of type [PositionStatus](positionstatus.md)). Note that this method is not called from the UI thread and the [Dispatcher](../windows.ui.core/coredispatcher.md) object invokes the UI changes. For more info, see [Get current location](/windows/uwp/maps-and-location/get-location).
 
 ```csharp
 
@@ -83,7 +83,7 @@ async private void OnStatusChanged(Geolocator sender, StatusChangedEventArgs e)
 
 ## -see-also
 
-[Geolocation sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=533278)
+[Geolocation sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
 
 ## -capabilities
 

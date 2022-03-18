@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.ConnectedAnimation PrepareToAnimate(Syste
 ## -description
 Returns a connected animation that's associated with the specified key and source element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimationService.PrepareToAnimate](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimationservice.preparetoanimate).
+
 ## -parameters
 ### -param key
 The key for the animation.

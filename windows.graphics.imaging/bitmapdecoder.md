@@ -41,19 +41,34 @@ The BitmapDecoder class implements [IBitmapFrame](ibitmapframe.md). It provides 
 
 ## -examples
 
-Here's a partial example of creating a decoder object. This example assumes you selected a file with [Windows.Storage.Pickers.FileOpenPicker](../windows.storage.pickers/fileopenpicker.md). For full instructions on selecting a file, creating an decoder, and decoding an image see [Imaging](https://docs.microsoft.com/windows/uwp/audio-video-camera/imaging)
+Here's a partial example of creating a decoder object. This example assumes you selected a file with [Windows.Storage.Pickers.FileOpenPicker](../windows.storage.pickers/fileopenpicker.md). For full instructions on selecting a file, creating an decoder, and decoding an image see [Imaging](/windows/uwp/audio-video-camera/imaging)
 
-```javascript
-file.openAsync(Windows.Storage.FileAccessMode.readWrite).then(function(_stream) {
-    stream = _stream;
+```csharp
+FileOpenPicker fileOpenPicker = new FileOpenPicker();
+fileOpenPicker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
+fileOpenPicker.FileTypeFilter.Add(".jpg");
+fileOpenPicker.ViewMode = PickerViewMode.Thumbnail;
 
-    return Windows.Graphics.Imaging.BitmapDecoder.createAsync(stream);
-}).then(function(decoder) {
+var inputFile = await fileOpenPicker.PickSingleFileAsync();
 
-    // Your code here.
-});
+if (inputFile == null)
+{
+    // The user cancelled the picking operation
+    return;
+}
+
+SoftwareBitmap softwareBitmap;
+
+using (IRandomAccessStream stream = await inputFile.OpenAsync(FileAccessMode.Read))
+{
+    // Create the decoder from the stream
+    BitmapDecoder decoder = await BitmapDecoder.CreateAsync(stream);
+
+    // Get the SoftwareBitmap representation of the file
+    softwareBitmap = await decoder.GetSoftwareBitmapAsync();
+}
 ```
 
 ## -see-also
 
-[Animated GIF playback (XAML) sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624046), [OCR sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620579), [Camera resolution sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624252), [Basic camera app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619479), [Video stabilization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620519), [Camera face detection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619486), [Manual camera controls sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=627611), [High dynamic range sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620517), [Camera Advanced Capture sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/CameraAdvancedCapture)
+[Animated GIF playback (XAML) sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAnimatedGif), [OCR sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620579), [Camera resolution sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624252), [Basic camera app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619479), [Video stabilization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620519), [Camera face detection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619486), [Manual camera controls sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=627611), [High dynamic range sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620517), [Camera Advanced Capture sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/CameraAdvancedCapture)

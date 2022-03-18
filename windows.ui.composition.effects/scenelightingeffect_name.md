@@ -12,6 +12,8 @@ public string Name { get;  set; }
 ## -description
 Name of the light.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Effects.SceneLightingEffect.Name](/windows/winui/api/microsoft.ui.composition.effects.scenelightingeffect.name).
+
 ## -property-value
 Name of the light.
 

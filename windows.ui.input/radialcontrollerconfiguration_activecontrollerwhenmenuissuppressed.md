@@ -20,10 +20,8 @@ When the menu is suppressed, the press-and-hold gesture does not cause it to be 
 Listen for the [ButtonHolding](radialcontroller_buttonholding.md) event to implement custom handling of the press-and-hold gesture.
 
 ## -see-also
-- [IsMenuSuppressed](radialcontrollerconfiguration_ismenusuppressed.md)
-- [Surface Dial interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/windows-wheel-interactions)
-- [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713)
-- [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)
+
+[IsMenuSuppressed](radialcontrollerconfiguration_ismenusuppressed.md), [Surface Dial interactions](/windows/uwp/input-and-devices/windows-wheel-interactions), [Universal Windows Platform samples (C# and C++)](https://go.microsoft.com/fwlink/?linkid=832713), [Windows classic desktop sample](https://aka.ms/radialcontrollerclassicsample)
 
 ## -examples
 

@@ -12,6 +12,8 @@ public class SlideNavigationTransitionInfo : Windows.UI.Xaml.Media.Animation.Nav
 ## -description
 Provides the parameters for a slide navigation transition.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.SlideNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.slidenavigationtransitioninfo).
+
 ## -xaml-syntax
 ```xaml
 <NavigationThemeTransition>

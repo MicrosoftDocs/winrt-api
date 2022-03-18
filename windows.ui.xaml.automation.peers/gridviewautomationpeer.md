@@ -12,6 +12,8 @@ public class GridViewAutomationPeer : Windows.UI.Xaml.Automation.Peers.ListViewB
 ## -description
 Exposes [GridView](../windows.ui.xaml.controls/gridview.md) types to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.GridViewAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.gridviewautomationpeer).
+
 ## -remarks
 The Windows Runtime  [GridView](../windows.ui.xaml.controls/gridview.md) class creates a new GridViewAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from GridViewAutomationPeer if you are deriving a custom class from [GridView](../windows.ui.xaml.controls/gridview.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 
@@ -27,11 +29,11 @@ GridViewAutomationPeer has overrides of **Core** methods such that the associate
 + [GetClassName](automationpeer_getclassname_614238974.md) returns "GridView".
 + [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md) returns [AutomationControlType.List](automationcontroltype.md).
 + [GetChildren](automationpeer_getchildren_555647254.md) has an implementation from [ListViewBaseAutomationPeer](listviewbaseautomationpeer.md) that returns the item peers.
-The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+The peer also has other behaviors that are provided by the base [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) class. For more info, see "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 
 The API that supports the control patterns is all on [ListViewBaseAutomationPeer](listviewbaseautomationpeer.md), [SelectorAutomationPeer](selectorautomationpeer.md) or [ItemsControlAutomationPeer](itemscontrolautomationpeer.md).
 
 ## -examples
 
 ## -see-also
-[GridView](../windows.ui.xaml.controls/gridview.md), [ListViewBaseAutomationPeer](listviewbaseautomationpeer.md), [IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md), [ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md), [IDropTargetProvider](../windows.ui.xaml.automation.provider/idroptargetprovider.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[GridView](../windows.ui.xaml.controls/gridview.md), [ListViewBaseAutomationPeer](listviewbaseautomationpeer.md), [IItemContainerProvider](../windows.ui.xaml.automation.provider/iitemcontainerprovider.md), [ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md), [IDropTargetProvider](../windows.ui.xaml.automation.provider/idroptargetprovider.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

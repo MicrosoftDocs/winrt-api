@@ -20,64 +20,44 @@ Each stroke is a vector of InkStrokeRenderingSegment objects with the first segm
 ## -remarks
 Set the [FitToCurve](inkdrawingattributes_fittocurve.md) property of [DrawingAttributes](inkstroke_drawingattributes.md) to true if you want an ink stroke to be rendered with cubic Bezier curves. Otherwise, the stroke is rendered with straight line segments.
 
-> [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
-
 ## -examples
-The function in the following example demonstrates how a cubic Bezier curve can be derived for each segment of an ink stroke (`stroke`) by using the [bezierCurveTo](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ff976007(v=vs.85)) method. Each curve is then rendered through the 2-D context of the canvas (`ctx`).
+The function in the following example demonstrates how a cubic Bezier curve can be derived for each segment of an ink stroke (`stroke`).
 
-```javascript
-
-// Render all strokes using bezier curves instead of line segments.
-function renderAllStrokes()
-{
-    statusMessage.innerText += "Render strokes as bezier curves."
-
-    // Clear the drawing surface of existing strokes.
-    inkContext.clearRect(0, 0, inkCanvas.width, inkCanvas.height);
-
-    // Enumerate through each stroke.
-    inkManager.getStrokes().forEach(
-        function (stroke)
+```csharp
+        public static Windows.UI.Xaml.Shapes.Path CreateBezierPath(Windows.UI.Input.Inking.InkStroke stroke)
         {
-            inkContext.beginPath();
-            inkContext.lineWidth = strokeWidth; 
-            inkContext.strokeStyle = strokeColor; 
+            // Create Bezier geometries using information provided by the stroke's segments
+            var figure = new Windows.UI.Xaml.Media.PathFigure();
+            var segments = stroke.GetRenderingSegments().GetEnumerator();
+            segments.MoveNext();
+            // First segment is degenerate and corresponds to initial position
+            figure.StartPoint = segments.Current.Position;
+            // Now loop through all remaining segments
+            while (segments.MoveNext())
+            {
+                var bs = new Windows.UI.Xaml.Media.BezierSegment();
+                bs.Point1 = segments.Current.BezierControlPoint1;
+                bs.Point2 = segments.Current.BezierControlPoint2;
+                bs.Point3 = segments.Current.Position;
+                figure.Segments.Add(bs);
+            }
 
-            // Enumerate through each line segment of the stroke.
-            var first = true;
-            var x = stroke.getRenderingSegments().length;
-            stroke.getRenderingSegments().forEach(
-                function (segment)
-                {
-                    // Move to the starting location of the stroke.
-                    if (first)
-                    {
-                        inkContext.moveTo(segment.position.x, segment.position.y);
-                        first = false;
-                    }
-                    // Calculate the bezier curve for the segment.
-                    else
-                    {
-                        inkContext.bezierCurveTo(segment.bezierControlPoint1.x, 
-                                                 segment.bezierControlPoint1.y,
-                                                 segment.bezierControlPoint2.x, 
-                                                 segment.bezierControlPoint2.y,
-                                                 segment.position.x, segment.position.y);
-                    }
-                }
-            );
-            
-            // Draw the stroke.
-            inkContext.stroke();
-            inkContext.closePath();
+            // Create and initialize the data structures necessary to render the figure
+            var geometry = new Windows.UI.Xaml.Media.PathGeometry();
+            geometry.Figures.Add(figure);
+            var path = new Windows.UI.Xaml.Shapes.Path();
+            path.Data = geometry;
+
+            // Set the stroke's graphical properties, which are controlled by the Path object
+            path.Stroke = new Windows.UI.Xaml.Media.SolidColorBrush(stroke.DrawingAttributes.Color);
+            path.StrokeThickness = stroke.DrawingAttributes.Size.Width;
+            path.StrokeLineJoin = Windows.UI.Xaml.Media.PenLineJoin.Round;
+            path.StrokeStartLineCap = Windows.UI.Xaml.Media.PenLineCap.Round;
+
+            return path;
         }
-    );
-}
 ```
 
-For the complete example, see [Ink App sample](https://go.microsoft.com/fwlink/p/?linkid=231622).
-
 ## -see-also
-[bezierCurveTo](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ff976007(v=vs.85)), [Pen and stylus interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Get started: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough), [Ink analysis sample (basic) (C#)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-analysis-basic.zip), [Ink handwriting recognition sample (C#)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-handwriting-reco.zip), [Save and load ink strokes from an Ink Serialized Format (ISF) file](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-store.zip), [Save and load ink strokes from the clipboard](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-store-clipboard.zip), [Ink toolbar location and orientation sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-toolbar-handedness.zip), [Ink toolbar location and orientation sample (dynamic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-toolbar-handedness-dynamic.zip), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample), [Inking sample (JavaScript)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink), [Simple inking sample (C#/C++)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk), [Complex inking sample (C++)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk), [Ink analysis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/InkAnalysis)
+[Pen and stylus interactions](/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Get started: Support ink in your UWP app](/windows/uwp/get-started/ink-walkthrough), [Ink analysis sample (basic) (C#)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-analysis-basic.zip), [Ink handwriting recognition sample (C#)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-handwriting-reco.zip), [Save and load ink strokes from an Ink Serialized Format (ISF) file](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-store.zip), [Save and load ink strokes from the clipboard](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-store-clipboard.zip), [Ink toolbar location and orientation sample (basic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-toolbar-handedness.zip), [Ink toolbar location and orientation sample (dynamic)](https://github.com/MicrosoftDocs/windows-topic-specific-samples/archive/uwp-ink-toolbar-handedness-dynamic.zip), [Coloring book sample](https://aka.ms/cpubsample-coloringbook), [Family notes sample](https://aka.ms/cpubsample-familynotessample), [Input: Simplified ink sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20Simplified%20ink%20sample), [Simple inking sample (C#/C++)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk), [Complex inking sample (C++)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk), [Ink analysis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/InkAnalysis)
 

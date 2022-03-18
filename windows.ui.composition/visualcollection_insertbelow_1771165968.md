@@ -12,6 +12,8 @@ public void InsertBelow(Windows.UI.Composition.Visual newChild, Windows.UI.Compo
 ## -description
 Insert a new visual below the specified visual in the visual collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.VisualCollection.InsertBelow](/windows/winui/api/microsoft.ui.composition.visualcollection.insertbelow).
+
 ## -parameters
 ### -param newChild
 The new visual to insert.

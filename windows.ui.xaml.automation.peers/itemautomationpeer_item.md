@@ -12,6 +12,8 @@ public object Item { get; }
 ## -description
 Gets the data item in the [Items](../windows.ui.xaml.controls/itemscontrol_items.md) collection that is associated with this [ItemAutomationPeer](itemautomationpeer.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.ItemAutomationPeer.Item](/windows/winui/api/microsoft.ui.xaml.automation.peers.itemautomationpeer.item).
+
 ## -property-value
 The data item.
 

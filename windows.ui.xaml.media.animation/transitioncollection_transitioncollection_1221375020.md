@@ -12,6 +12,8 @@ public TransitionCollection()
 ## -description
 Initializes a new instance of the [TransitionCollection](transitioncollection.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.TransitionCollection.TransitionCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.transitioncollection.#ctor).
+
 ## -remarks
 
 ## -examples

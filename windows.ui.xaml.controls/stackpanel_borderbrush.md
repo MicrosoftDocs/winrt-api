@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush BorderBrush { get;  set; }
 ## -description
 Gets or sets a brush that describes the border fill of the panel.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.StackPanel.BorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.stackpanel.borderbrush).
+
 ## -xaml-syntax
 ```xaml
 <Border BorderBrush="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <Border BorderBrush="colorString"/>
-
-```
-
-```xaml
+- or -
 <Border>
   <Border.BorderBrush>singleBrush</Border.BorderBrush>
 </Border>

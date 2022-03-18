@@ -27,7 +27,7 @@ When you call this method, the Appointment provider app displays in a light-dism
 
 This method may return false, even when the appointment was successfully removed.
 
-For info about how to manage appointments, see [Manage appointments](https://docs.microsoft.com/windows/uwp/contacts-and-calendar/managing-appointments).
+For info about how to manage appointments, see [Manage appointments](/windows/uwp/contacts-and-calendar/managing-appointments).
 
 
 

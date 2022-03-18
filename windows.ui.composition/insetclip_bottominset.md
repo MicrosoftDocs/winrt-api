@@ -12,12 +12,14 @@ public float BottomInset { get;  set; }
 ## -description
 The offset from the bottom of the visual. The portion of the visual below the BottomtInset will be clipped. Animatable.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.InsetClip.BottomInset](/windows/winui/api/microsoft.ui.composition.insetclip.bottominset).
+
 ## -property-value
 The offset from the bottom of the visual.
 
 ## -remarks
 
-This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](https://docs.microsoft.com/windows/uwp/composition/composition-animation).
+This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](/windows/uwp/composition/composition-animation).
 
 ## -examples
 

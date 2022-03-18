@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ScrollBarVisibility VerticalScrollBarVisibility 
 ## -description
 Gets or sets a value that indicates whether a vertical [ScrollBar](../windows.ui.xaml.controls.primitives/scrollbar.md) should be displayed.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.VerticalScrollBarVisibility](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.verticalscrollbarvisibility).
+
 ## -xaml-syntax
 ```xaml
 <ScrollViewer VerticalScrollBarVisibility="scrollBarVisibilityMemberName"/>

@@ -18,6 +18,8 @@ The PositionXChainingMode property defines the chaining behavior for an Interact
     **Never**
   . When chaining in the X direction is enabled, input will flow to the nearest ancestor's [VisualInteractionSource](visualinteractionsource.md) whenever the interaction (such as panning) would otherwise take [InteractionTracker](interactiontracker.md) ’s position past its minimum or maximum X position.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.PositionXChainingMode](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.positionxchainingmode).
+
 ## -property-value
 Chaining mode for the X-axis.
 

@@ -15,10 +15,11 @@ Occurs when the name of the device has changed.
 
 ## -remarks
 
+In your handler for this event, to get the name query the [BluetoothLEDevice.Name](/uwp/api/windows.devices.bluetooth.bluetoothledevice.name) property on the [BluetoothLEDevice](/uwp/api/windows.devices.bluetooth.bluetoothledevice) that's passed to your handler.
+
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 bluetooth

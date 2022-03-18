@@ -10,10 +10,9 @@ public ContactPicker()
 # Windows.ApplicationModel.Contacts.ContactPicker.ContactPicker
 
 ## -description
-Creates a new instance of the [ContactPicker](contactpicker.md) class.
+Initializes a new instance of the [ContactPicker](contactpicker.md) class.
 
 ## -remarks
-To select contacts, create an instance of this class and then use either the [PickSingleContactAsync](contactpicker_picksinglecontactasync_2033050338.md) or [PickMultipleContactsAsync](contactpicker_pickmultiplecontactsasync_1630502573.md) method.
 
 ## -examples
 

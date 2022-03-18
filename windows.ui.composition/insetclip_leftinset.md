@@ -12,12 +12,14 @@ public float LeftInset { get;  set; }
 ## -description
 The offset from the left of the visual. The portion of the visual to the left of the LeftInset will be clipped. Animatable.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.InsetClip.LeftInset](/windows/winui/api/microsoft.ui.composition.insetclip.leftinset).
+
 ## -property-value
 The offset from the left of the visual.
 
 ## -remarks
 
-This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](https://docs.microsoft.com/windows/uwp/composition/composition-animation).
+This property can be animated. Call [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) to associate it with a [CompositionAnimation](/windows/uwp/composition/composition-animation).
 
 ## -examples
 

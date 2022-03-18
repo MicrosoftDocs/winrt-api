@@ -12,10 +12,12 @@ public void RemoveAtEnd()
 ## -description
 Removes the last item in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.UIElementCollection.RemoveAtEnd](/windows/winui/api/microsoft.ui.xaml.controls.uielementcollection.removeatend).
+
 ## -remarks
 If successful, calling this method reduces the collection size by one.
 
-If you are programming using C# or Microsoft Visual Basic, see [RemoveAt](/uwp/api/windows.ui.xaml.controls.uielementcollection.removeat) (pass an *index* value of [Count](/dotnet/api/system.collections.generic.icollection-1.count) minus one).
+If you are programming using C# or Microsoft Visual Basic, see [RemoveAt](/uwp/api/windows.ui.xaml.controls.uielementcollection.removeat) (pass an *index* value of [Count](/dotnet/api/system.collections.generic.icollection-1.count?view=dotnet-uwp-10.0&preserve-view=true) minus one).
 
 ## -examples
 

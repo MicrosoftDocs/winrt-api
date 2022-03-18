@@ -10,7 +10,7 @@ public VideoFrame VideoFrame.CreateAsDirect3D11SurfaceBacked(DirectXPixelFormat 
 # Windows.Media.VideoFrame.CreateAsDirect3D11SurfaceBacked
 
 ## -description
-Creates a new instance of the [VideoFrame](videoframe.md) class for which the image data is stored in an [IDXGISurface](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) allocated by the default Direct3D device.
+Creates a new instance of the [VideoFrame](videoframe.md) class for which the image data is stored in an [IDXGISurface](/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) allocated by the default Direct3D device.
 
 ## -parameters
 ### -param format

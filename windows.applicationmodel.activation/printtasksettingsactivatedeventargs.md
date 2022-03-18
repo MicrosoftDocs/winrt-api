@@ -22,4 +22,4 @@ Provides information in response to the event that is raised when print task set
 ## -examples
 
 ## -see-also
-[Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [ device apps for printers](https://docs.microsoft.com/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers)
+[Windows.UI.Core.CoreApplicationView.Activated](../windows.applicationmodel.core/coreapplicationview_activated.md), [UWP device apps for printers](/windows-hardware/drivers/devapps/windows-store-device-apps-for-printers)

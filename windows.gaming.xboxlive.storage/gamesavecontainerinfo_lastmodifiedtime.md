@@ -15,7 +15,7 @@ Date and time that the game save container was last modified.
 
 ## -property-value
 
-Type: **Date** \[JavaScript\] | [System.DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN) \[.NET\] | [Windows::Foundation::DateTime](https://docs.microsoft.com/uwp/api/windows.foundation.datetime) \[C++\]
+Type: **Date** \[JavaScript\] | [System.DateTimeOffset](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true) \[.NET\] | [Windows::Foundation::DateTime](/uwp/api/windows.foundation.datetime) \[C++\]
 
 Date and time that the game save container was last modified.
 

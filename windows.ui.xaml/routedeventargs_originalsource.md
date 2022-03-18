@@ -12,6 +12,8 @@ public object OriginalSource { get; }
 ## -description
 Gets a reference to the object that raised the event. This is often a template part of a control rather than an element that was declared in your app UI.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.RoutedEventArgs.OriginalSource](/windows/winui/api/microsoft.ui.xaml.routedeventargs.originalsource).
+
 ## -property-value
 The object that raised the event.
 
@@ -26,4 +28,4 @@ In some cases, *sender* is not interesting, and you are instead interested in in
 ## -examples
 
 ## -see-also
-[Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10))
+[Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))

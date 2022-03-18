@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Data.RelativeSource RelativeSource { get;  set; }
 ## -description
 Gets or sets the binding source by specifying its location relative to the position of the binding target. This is most often used in bindings within XAML control templates.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.RelativeSource](/windows/winui/api/microsoft.ui.xaml.data.binding.relativesource).
+
 ## -xaml-syntax
 ```xaml
 <Binding RelativeSource="{RelativeSource TemplatedParent}"/>
@@ -29,7 +31,7 @@ Gets or sets the binding source by specifying its location relative to the posit
 The relative location of the binding source to use. The default is **null**.
 
 ## -remarks
-[Source](binding_source.md), RelativeSource, and [ElementName](binding_elementname.md) are mutually exclusive in a binding. If you have set one of these attributes, then setting either of the other two in a binding (through XAML or through code) will cause an exception. Setting RelativeSource in XAML always requires the use of the [{RelativeSource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/relativesource-markup-extension). This is also true if you are creating the entire binding as a [{Binding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/binding-markup-extension), in which case the [{RelativeSource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/relativesource-markup-extension) is nested within the RelativeSource component of the expression.
+[Source](binding_source.md), RelativeSource, and [ElementName](binding_elementname.md) are mutually exclusive in a binding. If you have set one of these attributes, then setting either of the other two in a binding (through XAML or through code) will cause an exception. Setting RelativeSource in XAML always requires the use of the [{RelativeSource} markup extension](/windows/uwp/xaml-platform/relativesource-markup-extension). This is also true if you are creating the entire binding as a [{Binding} markup extension](/windows/uwp/xaml-platform/binding-markup-extension), in which case the [{RelativeSource} markup extension](/windows/uwp/xaml-platform/relativesource-markup-extension) is nested within the RelativeSource component of the expression.
 
 You can't set the property values of a [Binding](binding.md) object after that binding has been attached to a target element and target property. If you attempt this you'll get a run-time exception.
 
@@ -62,4 +64,4 @@ This XAML example is taken from the generic.xaml file that defines the default v
 
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth), [{Binding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/binding-markup-extension), [{RelativeSource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/relativesource-markup-extension)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth), [{Binding} markup extension](/windows/uwp/xaml-platform/binding-markup-extension), [{RelativeSource} markup extension](/windows/uwp/xaml-platform/relativesource-markup-extension)

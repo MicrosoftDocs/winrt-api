@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DataTemplate HeaderTemplate { get;  set; }
 ## -description
 Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to display the content of the control's header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.HeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.combobox.headertemplate).
+
 ## -xaml-syntax
 ```xaml
 <ComboBox>
@@ -19,9 +21,7 @@ Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to disp
     singleDataTemplate
   </ComboBox.HeaderTemplate>
 </ComboBox>
-```
-
-```xaml
+- or -
 <ComboBox HeaderTemplate="resourceReferenceToDataTemplate"/>
 ```
 

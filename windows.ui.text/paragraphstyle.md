@@ -12,6 +12,8 @@ public enum Windows.UI.Text.ParagraphStyle : int
 ## -description
 Specifies the paragraph style.
 
+Equivalent WinUI enum: [ParagraphStyle](/windows/winui/api/microsoft.ui.text.paragraphstyle).
+
 ## -enum-fields
 ### -field Undefined:0
 The paragraph style is undefined.

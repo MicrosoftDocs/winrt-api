@@ -12,6 +12,8 @@ public bool SingleSelectionFollowsFocus { get;  set; }
 ## -description
 Gets or sets a value that indicates whether item selection changes when keyboard focus changes.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.SingleSelectionFollowsFocus](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.singleselectionfollowsfocus).
+
 ## -xaml-syntax
 ```xaml
 <listViewBase SingleSelectionFollowsFocus="bool" />
@@ -30,7 +32,7 @@ Set this property to **false** to let a user move focus without the item selecti
 
 ### Version compatibility
 
-The SingleSelectionFollowsFocus property is not available prior to Windows 10, version 1607. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+The SingleSelectionFollowsFocus property is not available prior to Windows 10, version 1607. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you must design and test your app to account for this. For more info, see [Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code).
 
 To avoid exceptions when your app runs on previous versions of Windows 10, do not set this property in XAML or use it without performing a runtime check. This example shows how to use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you set it.
 

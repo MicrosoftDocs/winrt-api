@@ -12,6 +12,8 @@ public bool Handled { get;  set; }
 ## -description
 Gets or sets a value that marks the event as handled. 
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs.Handled](/windows/winui/api/microsoft.ui.xaml.input.processkeyboardacceleratoreventargs.handled).
+
 ## -property-value
 **true** to mark the event handled. **false** to leave the event unhandled. The default is **false**.
 
@@ -23,7 +25,7 @@ Scoped accelerators are invoked only if focus is inside a specific scope. For ex
 If two accelerators are defined with the same key combination, the first accelerator found in the table is invoked.
 
 ## -see-also
-[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
+[Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators)
 
 ## -examples
 

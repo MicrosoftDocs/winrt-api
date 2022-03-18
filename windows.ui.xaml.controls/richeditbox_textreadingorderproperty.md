@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TextReadingOrderProperty { get; }
 ## -description
 Identifies the [TextReadingOrder](richeditbox_textreadingorder.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.TextReadingOrderProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.textreadingorderproperty).
+
 ## -property-value
 The identifier for the [TextReadingOrder](richeditbox_textreadingorder.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [TextReadingOrder](richeditbox_textreadingorder.md) depen
 ## -examples
 
 ## -see-also
-[TextReadingOrder](richeditbox_textreadingorder.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[TextReadingOrder](richeditbox_textreadingorder.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

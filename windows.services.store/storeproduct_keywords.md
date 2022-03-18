@@ -16,7 +16,7 @@ Gets the keywords that are associated with the product in [Partner Center](https
 A collection of strings that contain the keywords that are associated with the product in Partner Center.
 
 ## -remarks
-For more information about setting the keywords for an add-on in the dashboard, see [Enter add-on properties](https://docs.microsoft.com/windows/uwp/publish/enter-add-on-properties).
+For more information about setting the keywords for an add-on in the dashboard, see [Enter add-on properties](/windows/uwp/publish/enter-add-on-properties).
 
 ## -examples
 

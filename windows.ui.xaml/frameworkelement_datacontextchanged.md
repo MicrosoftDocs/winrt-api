@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler DataContextChanged<Windows.UI.
 ## -description
 Occurs when the value of the [FrameworkElement.DataContext](frameworkelement_datacontext.md) property changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.FrameworkElement.DataContextChanged](/windows/winui/api/microsoft.ui.xaml.frameworkelement.datacontextchanged).
+
 ## -xaml-syntax
 
 ```xaml
@@ -36,4 +38,4 @@ DataContextChanged is useful for scenarios where control logic or other code-bas
 ## -examples
 
 ## -see-also
-[DataContext](frameworkelement_datacontext.md), [DataContextChangedEventArgs](datacontextchangedeventargs.md), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[DataContext](frameworkelement_datacontext.md), [DataContextChangedEventArgs](datacontextchangedeventargs.md), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

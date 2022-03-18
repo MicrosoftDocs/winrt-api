@@ -14,7 +14,7 @@ public Windows.Foundation.Collections.IMapView<System.Guid, Windows.Perception.S
 Gets metadata for the set of surfaces observed within the bounding volume at the moment.
 
 ## -returns
-The observed surfaces.
+The observed surfaces within the bounding volume. If no bounding volume has been set, no surfaces will be returned.
 
 ## -remarks
 Each [SpatialSurfaceInfo](spatialsurfaceinfo.md) snapshot is immutable, so you can compare their values later to see if a given surface has recently experienced a mesh update.

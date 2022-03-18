@@ -12,14 +12,14 @@ public Windows.UI.Xaml.SetterBaseCollection Setters { get; }
 ## -description
 Gets a collection of [Setter](setter.md) objects.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Style.Setters](/windows/winui/api/microsoft.ui.xaml.style.setters).
+
 ## -xaml-syntax
 ```xaml
 <Style ...>
   oneOrMoreSetters
 </Style>
-```
-
-```xaml
+- or -
 <Style>
   <Style.Setters>
     oneOrMoreSetters

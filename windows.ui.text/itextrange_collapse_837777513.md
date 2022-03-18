@@ -12,6 +12,8 @@ public void Collapse(System.Boolean value)
 ## -description
 Collapses the text range into a degenerate point at either the beginning or end of the range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.Collapse](/windows/winui/api/microsoft.ui.text.itextrange.collapse).
+
 ## -parameters
 ### -param value
 True collapses at the start of the text range, and false collapses at the end of the range. The default value is true.

@@ -10,7 +10,7 @@ public PackageManagerDebugSettings DebugSettings { get; }
 # Windows.Management.Deployment.PackageManager.DebugSettings
 
 ## -description
-Get the debugging settings for package deployment.
+Get the debugging settings for [Package](/uwp/api/windows.applicationmodel.package) deployment.
 
 ## -property-value
 The debugging settings for package deployment.
@@ -19,5 +19,4 @@ The debugging settings for package deployment.
 
 ## -see-also
 
-## -examples
-
+[Package](/uwp/api/windows.applicationmodel.package)

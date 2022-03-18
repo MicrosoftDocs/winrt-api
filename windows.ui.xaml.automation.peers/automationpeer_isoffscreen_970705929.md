@@ -12,6 +12,8 @@ public bool IsOffscreen()
 ## -description
 Gets a value that indicates whether an element is off the screen.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsOffscreen](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.isoffscreen).
+
 ## -returns
 **true** if the element is not on the screen; otherwise, **false**.
 

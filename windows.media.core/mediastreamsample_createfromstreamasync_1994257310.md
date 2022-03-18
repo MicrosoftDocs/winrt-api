@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Media.Core.MediaStreamSample> 
 # Windows.Media.Core.MediaStreamSample.CreateFromStreamAsync
 
 ## -description
-Asynchronously creates a [MediaStreamSample](mediastreamsample.md) from an [IInputStream](https://docs.microsoft.com/previous-versions/hh438387(v=vs.85)).
+Asynchronously creates a [MediaStreamSample](mediastreamsample.md) from an [IInputStream](/previous-versions/hh438387(v=vs.85)).
 
 ## -parameters
 ### -param stream

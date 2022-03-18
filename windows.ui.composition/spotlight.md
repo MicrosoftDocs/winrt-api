@@ -12,6 +12,8 @@ public class SpotLight : Windows.UI.Composition.CompositionLight, Windows.UI.Com
 ## -description
 A light source that casts inner and outer cones of light. For example, a flashlight.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.SpotLight](/windows/winui/api/microsoft.ui.composition.spotlight).
+
 ## -remarks
 SpotLight is one of the four light types derived from [CompositionLight](compositionlight.md).
 

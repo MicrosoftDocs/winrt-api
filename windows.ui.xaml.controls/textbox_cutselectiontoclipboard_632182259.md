@@ -14,6 +14,8 @@ public void TextBox.CutSelectionToClipboard()
 
 Moves the selected content to the Windows clipboard and removes it from the text control.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBox.CutSelectionToClipboard](/windows/winui/api/microsoft.ui.xaml.controls.textbox.cutselectiontoclipboard).
+
 ## -remarks
 
 ## -see-also

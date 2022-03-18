@@ -12,6 +12,8 @@ public int NaturalVideoWidth { get; }
 ## -description
 Gets the width of the video associated with the media.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.NaturalVideoWidth](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.naturalvideowidth).
+
 ## -property-value
 The width of the video associated with the media. The default is 0.
 

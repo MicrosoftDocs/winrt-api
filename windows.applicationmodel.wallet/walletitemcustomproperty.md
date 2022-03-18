@@ -10,6 +10,9 @@ public class WalletItemCustomProperty : Windows.ApplicationModel.Wallet.IWalletI
 # Windows.ApplicationModel.Wallet.WalletItemCustomProperty
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Defines a custom property on a wallet item. Apps can show data in the details view or back of card view of the item.
 
 ## -remarks
@@ -18,4 +21,4 @@ WalletItemCustomProperty values are stored in the [DisplayProperties](walletitem
 ## -examples
 
 ## -see-also
-[WalletItem](walletitem.md), [WalletItem.DisplayProperties](walletitem_displayproperties.md), [Quickstart: Using the   APIs](https://docs.microsoft.com/previous-versions/windows/apps/dn631257(v=win.10))
+[WalletItem](walletitem.md), [WalletItem.DisplayProperties](walletitem_displayproperties.md), [Quickstart: Using the   APIs](/previous-versions/windows/apps/dn631257(v=win.10))

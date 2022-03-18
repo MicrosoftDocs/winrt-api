@@ -12,6 +12,8 @@ public bool IsOpen { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [AppBar](appbar.md) is open.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBar.IsOpen](/windows/winui/api/microsoft.ui.xaml.controls.appbar.isopen).
+
 ## -xaml-syntax
 ```xaml
 <AppBar IsOpen="bool"/>
@@ -22,7 +24,7 @@ Gets or sets a value that indicates whether the [AppBar](appbar.md) is open.
 **true** if the app bar is open; otherwise, **false**.
 
 ## -remarks
-How the app bar is displayed when it's open depends on the [ClosedDisplayMode](appbar_closeddisplaymode.md) property setting. For more info, see [App bar and command bar](https://docs.microsoft.com/windows/uwp/controls-and-patterns/app-bars).
+How the app bar is displayed when it's open depends on the [ClosedDisplayMode](appbar_closeddisplaymode.md) property setting. For more info, see [App bar and command bar](/windows/uwp/controls-and-patterns/app-bars).
 
 You can open and close the app bar programmatically by setting the IsOpen property. You can use the [Opening](appbar_opening.md), [Opened](appbar_opened.md), [Closing](appbar_closing.md), and [Closed](appbar_closed.md) events to respond to the app bar being opened or closed.
 
@@ -37,4 +39,4 @@ You can open and close the app bar programmatically by setting the IsOpen proper
 [!code-xaml[IsOpenXAML](../windows.ui.xaml.controls/code/AppBarSample/CS/SnippetsPage.xaml#SnippetIsOpenXAML)]
 
 ## -see-also
-[Quickstart: Adding app bars](https://docs.microsoft.com/previous-versions/windows/apps/hh781232(v=win.10))
+[Quickstart: Adding app bars](/previous-versions/windows/apps/hh781232(v=win.10))

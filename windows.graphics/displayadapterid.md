@@ -31,6 +31,6 @@ The low part of the LUID.
 ## -see-also
 
 [Windows.Graphics namespace](windows_graphics.md),
-[LUID](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549708(v=vs.85))
+[LUID](/previous-versions/windows/hardware/drivers/ff549708(v=vs.85))
 
 ## -examples

@@ -15,7 +15,7 @@ Supports network communication that allows reading and writing whole messages us
 
 ## -remarks
 
-The MessageWebSocket class provides a message-based abstraction of the [WebSocket protocol](https://go.microsoft.com/fwlink/p/?linkid=240293). When using MessageWebSocket, the entire WebSocket message is read or written in a single operation. In contrast, the [StreamWebSocket](streamwebsocket.md) allows sections of a message to be read with each read operation, rather than requiring the entire message to be read in a single operation.
+The MessageWebSocket class provides a message-based abstraction of the [WebSocket protocol](https://tools.ietf.org/html/rfc6455). When using MessageWebSocket, the entire WebSocket message is read or written in a single operation. In contrast, the [StreamWebSocket](streamwebsocket.md) allows sections of a message to be read with each read operation, rather than requiring the entire message to be read in a single operation.
 
 For UTF-8 messages, MessageWebSocket must be used. [StreamWebSocket](streamwebsocket.md) only supports binary messages.
 
@@ -25,7 +25,7 @@ You must write code to handle exceptions when you call asynchronous methods on t
 
 The [Windows.Networking.Sockets](windows_networking_sockets.md) namespace has a convenient helper method and enumeration for handling errors when using WebSockets. This can be useful for handling specific network exceptions differently in your app. An app can also use the **HRESULT** from the exception on parameter validation errors to learn more detailed information on the error that caused the exception.
 
-For more information on possible exceptions and how to handle exceptions, see [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)).
+For more information on possible exceptions and how to handle exceptions, see [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)).
 
 ### Using MessageWebSocket on Windows Server 2012
 
@@ -47,7 +47,7 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 
 ## -see-also
 
-[WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](https://docs.microsoft.com/previous-versions/windows/apps/dn263211(v=win.10)), [MessageWebSocketControl](messagewebsocketcontrol.md), [MessageWebSocketInformation](messagewebsocketinformation.md), [StreamWebSocket](streamwebsocket.md), [WebSocket sample](https://go.microsoft.com/fwlink/p/?LinkId=620623)
+[WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)), [MessageWebSocketControl](messagewebsocketcontrol.md), [MessageWebSocketInformation](messagewebsocketinformation.md), [StreamWebSocket](streamwebsocket.md), [WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket)
 
 ## -capabilities
 

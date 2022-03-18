@@ -12,15 +12,14 @@ public Windows.Foundation.IReference<Windows.UI.Color> To { get;  set; }
 ## -description
 Gets or sets the animation's ending value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorAnimation.To](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimation.to).
+
 ## -xaml-syntax
 ```xaml
 <ColorAnimation To="colorString"/>
 -or-
 <ColorAnimation To="referenceToColor"/>
-
-```
-
-```xaml
+- or -
 <ColorAnimation>
   <ColorAnimation.To>
     <Color>colorString</Color>

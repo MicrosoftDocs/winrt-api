@@ -16,13 +16,11 @@ Maps a URI to a file. Used to ensure that referenced content (such as an image) 
 Specifies a name/value pair that specifies the an HTML path with a corresponding [StreamReference](../windows.storage.streams/randomaccessstreamreference.md) object.
 
 ## -remarks
-HTML content often contains references to other files. The most common example is an img tag that refers to a specific file. To ensure that the image is sent with the rest of the HTML content, you need to use `ResourceMap`, which maps the URI string to the actual data. You can learn more about this in [How to share HTML](https://docs.microsoft.com/previous-versions/windows/apps/hh758310(v=win.10)).
+HTML content often contains references to other files. The most common example is an img tag that refers to a specific file. To ensure that the image is sent with the rest of the HTML content, you need to use `ResourceMap`, which maps the URI string to the actual data. You can learn more about this in [How to share HTML](/previous-versions/windows/apps/hh758310(v=win.10)).
 
 ## -examples
 
 
 [!code-csharp[HowToShareHtml](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareHTML.xaml.cs#SnippetHowToShareHtml_CS)]
-
-[!code-js[HowToShareHtml](../windows.applicationmodel.datatransfer/code/ShareMainBeta/javascript/js/ShareHtml.js#SnippetHowToShareHtml)]
 
 ## -see-also

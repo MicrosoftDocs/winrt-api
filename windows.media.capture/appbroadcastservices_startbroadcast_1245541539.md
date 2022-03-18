@@ -9,10 +9,10 @@ public void AppBroadcastServices.StartBroadcast()
 
 # Windows.Media.Capture.AppBroadcastServices.StartBroadcast
 
-## -description
-Starts app broadcasting.
 
-## -params
+## -description
+
+Starts app broadcasting.
 
 ## -remarks
 
@@ -20,7 +20,7 @@ Starts app broadcasting.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appBroadcast, appBroadcastSettings
+

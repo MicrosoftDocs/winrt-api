@@ -12,6 +12,8 @@ protected ListViewBase()
 ## -description
 Provides base-class initialization behavior for classes that are derived from the [ListViewBase](listviewbase.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ListViewBase.ListViewBase](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.#ctor).
+
 ## -remarks
 
 ## -examples

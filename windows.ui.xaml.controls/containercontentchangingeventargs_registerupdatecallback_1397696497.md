@@ -12,6 +12,8 @@ public void RegisterUpdateCallback(Windows.Foundation.TypedEventHandler<Windows.
 ## -description
 Registers the event handler to be called again during the next phase.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ContainerContentChangingEventArgs.RegisterUpdateCallback](/windows/winui/api/microsoft.ui.xaml.controls.containercontentchangingeventargs.registerupdatecallback).
+
 ## -parameters
 ### -param callback
 The event handler function.

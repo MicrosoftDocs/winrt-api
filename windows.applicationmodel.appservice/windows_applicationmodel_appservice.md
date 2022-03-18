@@ -15,4 +15,4 @@ Windows app services enable app-to-app communication by allowing your Universal 
 
 ## -see-also
 
-[Create and consume an app service](https://docs.microsoft.com/windows/uwp/launch-resume/how-to-create-and-consume-an-app-service), [App services sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620489)
+[Create and consume an app service](/windows/uwp/launch-resume/how-to-create-and-consume-an-app-service), [App services sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AppServices)

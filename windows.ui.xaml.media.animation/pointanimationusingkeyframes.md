@@ -12,6 +12,8 @@ public class PointAnimationUsingKeyFrames : Windows.UI.Xaml.Media.Animation.Time
 ## -description
 Animates the value of a [Point](../windows.foundation/point.md) property along a set of [KeyFrames](pointanimationusingkeyframes_keyframes.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimationusingkeyframes).
+
 ## -xaml-syntax
 ```xaml
 <PointAnimationUsingKeyFrames>
@@ -48,5 +50,5 @@ The following example moves an ellipse along a triangular path. The example uses
 [!code-vb[Pointanimationusingkeyframes_cs](../windows.ui.xaml/code/pointanimationusingkeyframes/vbnet/Page.xaml.vb#SnippetPointanimationusingkeyframes_cs)]
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations)
+[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations)
 p://msdn.microsoft.com/library/0cbceea0-2b0e-44a1-a09a-f7a939632f3a)

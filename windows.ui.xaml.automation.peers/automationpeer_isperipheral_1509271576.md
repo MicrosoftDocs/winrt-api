@@ -12,6 +12,8 @@ public bool IsPeripheral()
 ## -description
 Gets a Boolean value that indicates whether the automation element represents peripheral UI.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsPeripheral](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.isperipheral).
+
 ## -returns
 A Boolean value that indicates whether the automation element represents peripheral UI.
 

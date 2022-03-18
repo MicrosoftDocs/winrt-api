@@ -31,7 +31,7 @@ If you don't specify a language, the voice that most closely corresponds to the 
 
 Here, we show how to select a gender for the voice ([VoiceInformation.Gender](voiceinformation_gender.md)) by using either the first female voice ([VoiceGender](voicegender.md)) found, or just the default system voice ([SpeechSynthesizer.DefaultVoice](speechsynthesizer_defaultvoice.md)), if no female voice is found.
 
-``` csharp
+```csharp
 using (SpeechSynthesizer synthesizer = new SpeechSynthesizer())
 {
     VoiceInformation voiceInfo =
@@ -50,4 +50,4 @@ using (SpeechSynthesizer synthesizer = new SpeechSynthesizer())
 
 ## -see-also
 
-[Speech interactions](https://docs.microsoft.com/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[Speech interactions](/windows/uwp/design/input/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

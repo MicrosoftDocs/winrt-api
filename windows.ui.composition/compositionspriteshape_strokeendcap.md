@@ -13,6 +13,8 @@ public CompositionStrokeCap StrokeEndCap { get;  set; }
 
 Gets or sets a [CompositionStrokeCap](compositionstrokecap.md) enumeration value that specifies how the end of a line is drawn.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSpriteShape.StrokeEndCap](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.strokeendcap).
+
 ## -property-value
 
 An enumeration value that specifies how the end of a line is drawn. The default is **Flat**.

@@ -14,6 +14,8 @@ public void CompositionGraphicsDevice.Trim()
 
 Trims any graphics memory allocated by the graphics device on the app's behalf.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionGraphicsDevice.Trim](/windows/winui/api/microsoft.ui.composition.compositiongraphicsdevice.trim).
+
 ## -remarks
 
 ## -see-also

@@ -10,12 +10,13 @@ public event TypedEventHandler OcclusionsChanged<CoreInputView, CoreInputViewOcc
 # Windows.UI.ViewManagement.Core.CoreInputView.OcclusionsChanged
 
 ## -description
+
 Occurs when one or more [CoreInputViewOcclusion](coreinputviewocclusion.md) objects change their position or occluding area.
 
 ## -remarks
 
 ## -see-also
+
 [CoreInputViewOcclusionsChangedEventArgs](coreinputviewocclusionschangedeventargs.md)
 
 ## -examples
-

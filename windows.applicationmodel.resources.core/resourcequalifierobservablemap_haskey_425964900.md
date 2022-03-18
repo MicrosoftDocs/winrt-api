@@ -17,7 +17,7 @@ Determines whether the observable map contains the specified key.
 The key to locate in the observable map.
 
 ## -returns
- **TRUE** if the key is found, otherwise **FALSE** if it is not found.
+`true` if the key is found; otherwise, `false` if it is not found.
 
 ## -remarks
 

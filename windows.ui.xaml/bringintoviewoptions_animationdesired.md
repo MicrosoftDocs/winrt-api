@@ -12,6 +12,8 @@ public bool AnimationDesired { get;  set; }
 ## -description
 Gets or sets a value that indicates whether to use animation when the element is brought into view.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.BringIntoViewOptions.AnimationDesired](/windows/winui/api/microsoft.ui.xaml.bringintoviewoptions.animationdesired).
+
 ## -property-value
 **true** to use animation; otherwise, **false**. The default is **true**.
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Orientation Orientation { get;  set; }
 ## -description
 Gets or sets the orientation of a [Hub](hub.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.Orientation](/windows/winui/api/microsoft.ui.xaml.controls.hub.orientation).
+
 ## -xaml-syntax
 ```xaml
 <Hub Orientation="Horizontal"/>

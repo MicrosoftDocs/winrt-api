@@ -13,6 +13,8 @@ public void RichEditTextRange.SetRange(Int32 startPosition, Int32 endPosition)
 
 Sets the endpoints of the text range to the specified values.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.SetRange](/windows/winui/api/microsoft.ui.text.richedittextrange.setrange).
+
 ## -parameters
 ### -param startPosition
 

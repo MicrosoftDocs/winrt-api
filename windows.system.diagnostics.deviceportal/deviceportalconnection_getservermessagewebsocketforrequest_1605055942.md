@@ -17,7 +17,7 @@ Returns a server-side message WebSocket for use with Device Portal.
 The HTTP request message (found as a property of the **[DevicePortalConnectionRequestReceivedEventArgs](DevicePortalConnectionRequestReceivedEventArgs.md)** class).
 
 ### -param messageType
-A **[SocketMessageType](https://docs.microsoft.com/uwp/api/windows.networking.sockets.socketmessagetype)** value indicating the type of messaging that this WebSocket will use.
+A **[SocketMessageType](/uwp/api/windows.networking.sockets.socketmessagetype)** value indicating the type of messaging that this WebSocket will use.
 
 ### -param protocol
 The sub-protocol that this WebSocket will use.

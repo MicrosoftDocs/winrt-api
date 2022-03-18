@@ -20,48 +20,8 @@ Provides methods for accessing the storage functionality of a portable device th
 To access the device services, you must declare the device service in the capabilities section of the app manifest file. For a list of the GUIDs representing the device services, see [Windows.Devices.Portable](windows_devices_portable.md).
 
 ## -examples
-The following example shows how to get an interface ID using [GetDeviceSelector](storagedevice_getdeviceselector_838466080.md) and the [Windows.Devices.Enumeration](../windows.devices.enumeration/windows_devices_enumeration.md) API. It also shows how to pass it to [FromId](storagedevice_fromid_114571398.md) to get a [StorageFolder](../windows.storage/storagefolder.md) for a removable storage device.
 
-```javascript
-    Enum = Windows.Devices.Enumeration;
-
-    // Enumerate removable storage devices.
-    // The success callback selects the removable storage to use.
-    function pickStorageToGetImageFrom() {
-        Enum.DeviceInformation.findAllAsync(
-        Windows.Devices.Portable.StorageDevice.getDeviceSelector(),
-        null).then(
-            successCallback,
-            errorCallback);
-    }
-
-    // Handler that's called when removable storages are found.
-    // storageDevices: A collection of type
-    // Windows.Devices.Enumeration.DeviceInformationCollection.
-    // This example just takes the first storage found in the list.
-    function successCallback(storageDevices) {
-        var removableStorage = null;
-        if (storageDevices.length) {
-            try {
-                // Get the StorageFoler from the id for the first removable storage device
-                removableStorage = Windows.Devices.Portable.StorageDevice.fromId(
-                storageDevices.getAt(0).id);
-                // document.getElementById("output").innerHTML = storageDevices.getAt(0).name; 
-            } catch (e) {
-                document.getElementById("output").innerHTML =
-                "Error: " + e.message;
-            }
-            if (removableStorage != null) {
-                getImageFiles(removableStorage);
-            }
-        } else {
-            document.getElementById("output").innerHTML =
-                "No removable storage devices were found.";
-        }
-    }
-```
-
-The following examples show the syntax of a call to [FromId](storagedevice_fromid_114571398.md) in C# and C++.
+The following example shows the syntax of a call to [FromId](storagedevice_fromid_114571398.md).
 
 ```csharp
 var folder = StorageDevice.FromId(deviceInformationId);
@@ -71,12 +31,12 @@ var folder = StorageDevice.FromId(deviceInformationId);
 StorageFolder folder{ StorageDevice::FromId(deviceInformationId) };
 ```
 
-```cpp
+```cppcx
 StorageFolder^ folder = StorageDevice::FromId(deviceInformationId);
 ```
 
 ## -see-also
-[Removable Storage Sample](https://go.microsoft.com/fwlink/p/?linkid=242035)
+[Removable Storage Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/%5BC%23%5D-Windows%208.1%20Store%20app%20samples/Removable%20storage%20sample)
 
 ## -capabilities
 removableStorage

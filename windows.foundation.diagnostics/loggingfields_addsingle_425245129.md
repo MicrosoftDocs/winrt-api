@@ -10,7 +10,7 @@ public void AddSingle(System.String name, System.Single value)
 # Windows.Foundation.Diagnostics.LoggingFields.AddSingle
 
 ## -description
-Adds a [Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN) field with the specified field name.
+Adds a [Single](/dotnet/api/system.single?view=dotnet-uwp-10.0&preserve-view=true) field with the specified field name.
 
 ## -parameters
 ### -param name

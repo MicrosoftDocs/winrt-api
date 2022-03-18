@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty InputScopeProperty { get; }
 ## -description
 Identifies the [InputScope](passwordbox_inputscope.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.InputScopeProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.inputscopeproperty).
+
 ## -property-value
 The identifier for the [InputScope](passwordbox_inputscope.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [InputScope](passwordbox_inputscope.md) dependency proper
 ## -examples
 
 ## -see-also
-[InputScope](passwordbox_inputscope.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[InputScope](passwordbox_inputscope.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

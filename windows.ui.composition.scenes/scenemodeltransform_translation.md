@@ -12,15 +12,16 @@ public Vector3 Translation { get;  set; }
 
 ## -description
 
-Gets or sets the position of the node on the x, y, and x axes.
+Gets or sets the position of the node on the x, y, and z axes.
+
+Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneModelTransform.Translation](/windows/winui/api/microsoft.ui.composition.scenes.scenemodeltransform.translation).
 
 ## -property-value
 
-A vector that describes the position of the node on the x, y, and x axes.
+A vector that describes the position of the node on the x, y, and z axes.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

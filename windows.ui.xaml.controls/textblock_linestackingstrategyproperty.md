@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LineStackingStrategyProperty { get; }
 ## -description
 Identifies the [LineStackingStrategy](textblock_linestackingstrategy.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.LineStackingStrategyProperty](/windows/winui/api/microsoft.ui.xaml.controls.textblock.linestackingstrategyproperty).
+
 ## -property-value
 The identifier for the [LineStackingStrategy](textblock_linestackingstrategy.md) dependency property.
 

@@ -27,5 +27,5 @@ Represents a controller of any type that can be used for UI navigation. Most gam
 ## -see-also
 
 [Windows.Gaming.Input.IGameController](igamecontroller.md),
-[UI navigation controller](https://docs.microsoft.com/windows/uwp/gaming/ui-navigation-controller),
-[Input practices for games](https://docs.microsoft.com/windows/uwp/gaming/input-practices-for-games)
+[UI navigation controller](/windows/uwp/gaming/ui-navigation-controller),
+[Input practices for games](/windows/uwp/gaming/input-practices-for-games)

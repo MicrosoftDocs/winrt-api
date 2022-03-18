@@ -12,6 +12,8 @@ public PointAnimation()
 ## -description
 Initializes a new instance of the [PointAnimation](pointanimation.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.PointAnimation.PointAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimation.#ctor).
+
 ## -remarks
 
 ## -examples

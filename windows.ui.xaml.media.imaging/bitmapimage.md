@@ -13,6 +13,8 @@ public class BitmapImage : Windows.UI.Xaml.Media.Imaging.BitmapSource, Windows.U
 
 Provides the practical object source type for the [Image.Source](../windows.ui.xaml.controls/image_source.md) and [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md) properties. You can define a BitmapImage by using a Uniform Resource Identifier (URI) that references an image source file, or by calling [SetSourceAsync](bitmapsource_setsourceasync_1118221574.md) and supplying a stream.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage).
+
 ## -xaml-syntax
 
 ```xaml
@@ -44,7 +46,7 @@ The BitmapImage class represents an abstraction so that an image source can be s
 
 ### BitmapImage and encoding
 
-The underlying codec support for image files is supplied by Windows Imaging Component (WIC)  API in Windows. For more info on specific image formats as documented for the codecs, see [Native WIC Codecs](https://docs.microsoft.com/windows/desktop/wic/native-wic-codecs). For more info on formats and how to use Uniform Resource Identifier (URI) to access image source files that come from app resources, see [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes).
+The underlying codec support for image files is supplied by Windows Imaging Component (WIC)  API in Windows. For more info on specific image formats as documented for the codecs, see [Native WIC Codecs](/windows/desktop/wic/native-wic-codecs). For more info on formats and how to use Uniform Resource Identifier (URI) to access image source files that come from app resources, see [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes).
 
 The API for [Image](../windows.ui.xaml.controls/image.md), BitmapImage and [BitmapSource](bitmapsource.md) doesn't include any dedicated methods for encoding and decoding of media formats. All of the encode and decode operations are built-in, and at most will surface aspects of encode or decode as part of event data for load events. If you want to do any special work with image encode or decode, which you might use if your app is doing image conversions or manipulation, you should use the API that are available in the [Windows.Graphics.Imaging](../windows.graphics.imaging/windows_graphics_imaging.md) namespace. These imaging API can be used by either UWP app using C++, C#, or Visual Basic or Windows app using JavaScript. These APIs are also supported by the Windows Imaging Component (WIC) component of Windows 8.
 
@@ -59,7 +61,7 @@ Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.contr
 > [!NOTE]
 > For most apps, we recommend that you set [AutoPlay](bitmapimage_autoplay.md) to **false** if [UISettings.AnimationsEnabled](../windows.ui.viewmanagement/uisettings_animationsenabled.md) is **false**, to support the accessibility needs of users. Do not do this if the content of the animated GIF is important for the usability of your app.
 
-If your app runs on releases of Windows 10 prior to version 1607, you must use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of these members before you use them. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+If your app runs on releases of Windows 10 prior to version 1607, you must use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of these members before you use them. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](/windows/uwp/debug-test-perf/version-adaptive-code).
 
 This example shows how to use an animated GIF. A button lets the user start or stop the animation. This example uses version adaptive code so it can run on all versions of Windows 10. On versions prior to version 1607, the first frame of the GIF is shown, but it is not animated.
 
@@ -124,7 +126,7 @@ void playButton_Click(object sender, RoutedEventArgs e)
 }
 ```
 
-For more examples, see the [Animated GIF playback sample](https://go.microsoft.com/fwlink/p/?LinkId=624046).
+For more examples, see the [Animated GIF playback sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAnimatedGif).
 
 ### Version history
 
@@ -160,4 +162,4 @@ void Image_Loaded(object sender, RoutedEventArgs e)
 
 ## -see-also
 
-[Image](../windows.ui.xaml.controls/image.md), [BitmapSource](bitmapsource.md), [Image.Source](../windows.ui.xaml.controls/image_source.md), [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes), [Animated GIF playback (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAnimatedGif)
+[Image](../windows.ui.xaml.controls/image.md), [BitmapSource](bitmapsource.md), [Image.Source](../windows.ui.xaml.controls/image_source.md), [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md), [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes), [Animated GIF playback (XAML) sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAnimatedGif)

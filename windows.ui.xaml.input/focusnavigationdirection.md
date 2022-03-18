@@ -13,6 +13,8 @@ public enum Windows.UI.Xaml.Input.FocusNavigationDirection : int
 
 Specifies the direction that you can programmatically move focus from one element to another element within the app UI.
 
+Equivalent WinUI enum: [FocusNavigationDirection](/windows/winui/api/microsoft.ui.xaml.input.focusnavigationdirection).
+
 ## -enum-fields
 
 ### -field Next:0
@@ -62,4 +64,4 @@ FocusNavigationDirection.Previous and FocusNavigationDirection.Next cannot be us
 
 ## -see-also
 
-[TryMoveFocus](/uwp/api/windows.ui.xaml.input.focusmanager.trymovefocus), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[TryMoveFocus](/uwp/api/windows.ui.xaml.input.focusmanager.trymovefocus), [Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)

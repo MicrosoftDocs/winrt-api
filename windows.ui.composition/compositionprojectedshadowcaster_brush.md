@@ -14,6 +14,8 @@ public CompositionBrush Brush { get;  set; }
 
 Gets or sets the brush used to draw the shadow.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionProjectedShadowCaster.Brush](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcaster.brush).
+
 ## -property-value
 
 The brush used to draw the shadow.

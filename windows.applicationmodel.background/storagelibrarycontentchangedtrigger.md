@@ -18,4 +18,4 @@ Once you create a trigger, register it with a background task
 ## -examples
 
 ## -see-also
-[IBackgroundTrigger](ibackgroundtrigger.md),[Track file system changes in the background](https://docs.microsoft.com/windows/uwp/files/change-tracking-filesystem)
+[IBackgroundTrigger](ibackgroundtrigger.md),[Track file system changes in the background](/windows/uwp/files/change-tracking-filesystem)

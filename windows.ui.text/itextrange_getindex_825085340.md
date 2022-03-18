@@ -12,6 +12,8 @@ public int GetIndex(Windows.UI.Text.TextRangeUnit unit)
 ## -description
 Retrieves the story index of the text unit (word, line, sentence, paragraph, and so on) at the starting character position of the text range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.GetIndex](/windows/winui/api/microsoft.ui.text.itextrange.getindex).
+
 ## -parameters
 ### -param unit
 The text unit that is indexed.

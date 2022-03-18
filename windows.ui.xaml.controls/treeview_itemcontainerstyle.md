@@ -22,9 +22,7 @@ Gets or sets the style that is used when rendering the item containers.
     inlineStyle
   </TreeView.ItemContainerStyle>
 </TreeView>
-```
-
-```xaml
+- or -
 <TreeView ItemContainerStyle="resourceReferenceToStyle"/>
 ```
 

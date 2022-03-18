@@ -13,9 +13,11 @@ public int TabIndex { get;  set; }
 
 Gets or sets a value that determines the order in which elements receive focus when the user navigates through controls by pressing the Tab key.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.TabIndex](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.tabindex).
+
 ## -property-value
 
-A value that determines the order of logical navigation for a device. The default value is [MaxValue](https://docs.microsoft.com/dotnet/api/system.int32.maxvalue?redirectedfrom=MSDN).
+A value that determines the order of logical navigation for a device. The default value is [MaxValue](/dotnet/api/system.int32.maxvalue?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -remarks
 

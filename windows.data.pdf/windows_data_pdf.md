@@ -15,7 +15,7 @@ We recommend using the following API for these types of apps:
 
 + Use the [RenderToStreamAsync](pdfpage_rendertostreamasync_507686896.md) method if your UWP app:
   + Uses JavaScript and HTML.
-  + Uses C# and Extensible Application Markup Language (XAML), and you're not comfortable writing an interop layer over the corresponding Component Object Model (COM) API [RenderPageToSurface](https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetosurface) or [RenderPageToDeviceContext](https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetodevicecontext) by using C++.
+  + Uses C# and Extensible Application Markup Language (XAML), and you're not comfortable writing an interop layer over the corresponding Component Object Model (COM) API [RenderPageToSurface](/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetosurface) or [RenderPageToDeviceContext](/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetodevicecontext) by using C++.
 
 + Use the corresponding Component Object Model (COM) API **RenderPageToSurface** or **RenderPageToDeviceContext** if your UWP app:
   + Uses C++ and XAML.

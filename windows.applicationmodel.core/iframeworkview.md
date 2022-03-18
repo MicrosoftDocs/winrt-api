@@ -287,11 +287,11 @@ private:
 
 int __stdcall wWinMain(HINSTANCE, HINSTANCE, PWSTR, int)
 {
-    CoreApplication::Run(App());
+    CoreApplication::Run(winrt::make<App>());
 }
 ```
 
-```cpp
+```cppcx
 ref class MyFrameworkView : public IFrameworkView
 {
 private:
@@ -566,4 +566,4 @@ private:
 ## -examples
 
 ## -see-also
-[DirectX swap chain implementation sample](https://go.microsoft.com/fwlink/p/?linkid=258452), [IFrameworkViewSource](iframeworkviewsource.md)
+[DirectX swap chain implementation sample](https://github.com/microsoft/Win2D/tree/master/samples/CoreWindowExample), [IFrameworkViewSource](iframeworkviewsource.md)

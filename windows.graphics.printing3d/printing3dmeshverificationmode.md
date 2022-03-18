@@ -22,7 +22,7 @@ Wait to return results until the verification is complete.
 
 
 ## -remarks
-This API is designed for use with 3D Manufacturing Format (3MF) packages. For more info about 3MF, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
+This API is designed for use with 3D Manufacturing Format (3MF) packages. For more info about 3MF, see the [3MF Specification](https://3mf.io/specification/).
 
 ## -examples
 

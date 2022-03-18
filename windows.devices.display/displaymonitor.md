@@ -16,6 +16,12 @@ These data include commonly used information from the monitor's Extended Display
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | IsDolbyVisionSupportedInHdrMode |
+
 ## -see-also
 
 ## -examples

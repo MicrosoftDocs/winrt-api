@@ -13,6 +13,8 @@ public class InitialValueExpressionCollection : CompositionObject, CompositionOb
 
 A collection of values that specify where an animation will start.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.InitialValueExpressionCollection](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection).
+
 ## -remarks
 
 ## -see-also

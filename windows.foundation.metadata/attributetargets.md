@@ -15,7 +15,7 @@ Specifies the programming construct to which an attribute applies.
 
 
 > **.NET**
-> This type appears as [System.AttributeTargets](https://docs.microsoft.com/dotnet/api/system.attributetargets?redirectedfrom=MSDN).
+> This type appears as [System.AttributeTargets](/dotnet/api/system.attributetargets?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -enum-fields
 ### -field All:4294967295
@@ -59,7 +59,7 @@ The attribute applies to an API contract.
 
 
 ## -remarks
-When programming with .NET, this type is hidden and developers should use [System.AttributeTargets](https://docs.microsoft.com/dotnet/api/system.attributetargets?redirectedfrom=MSDN).
+When programming with .NET, this type is hidden and developers should use [System.AttributeTargets](/dotnet/api/system.attributetargets?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 

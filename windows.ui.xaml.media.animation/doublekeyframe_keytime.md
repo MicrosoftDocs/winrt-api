@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.Animation.KeyTime KeyTime { get;  set; }
 ## -description
 Gets or sets the time at which the key frame's target [Value](doublekeyframe_value.md) should be reached.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrame.KeyTime](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframe.keytime).
+
 ## -xaml-syntax
 ```xaml
 <doubleKeyFrame KeyTime="keyTimeString"/>

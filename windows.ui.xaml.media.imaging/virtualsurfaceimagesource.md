@@ -12,8 +12,10 @@ public class VirtualSurfaceImageSource : Windows.UI.Xaml.Media.Imaging.SurfaceIm
 ## -description
 Extends [SurfaceImageSource](surfaceimagesource.md) to support scenarios when the content is potentially larger than what can fit on screen and the content must be virtualized to render optimally.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Imaging.VirtualSurfaceImageSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.virtualsurfaceimagesource).
+
 ## -remarks
-This class has additional API, but those API are for Microsoft DirectX interoperation and are not part of the general app programming model otherwise described in this documentation. For example, from the Microsoft DirectX side, you can call **BeginDraw**. For more info on how to draw to a VirtualSurfaceImageSource, including sample code, see [DirectX and XAML interop](https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)).
+This class has additional API, but those API are for Microsoft DirectX interoperation and are not part of the general app programming model otherwise described in this documentation. For example, from the Microsoft DirectX side, you can call **BeginDraw**. For more info on how to draw to a VirtualSurfaceImageSource, including sample code, see [DirectX and XAML interop](/previous-versions/windows/apps/hh825871(v=win.10)).
 
 ## -examples
 

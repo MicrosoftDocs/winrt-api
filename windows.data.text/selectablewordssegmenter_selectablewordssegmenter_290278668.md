@@ -15,7 +15,7 @@ Creates a [SelectableWordsSegmenter](selectablewordssegmenter.md) object. See th
 
 ## -parameters
 ### -param language
-A [BCP-47](https://go.microsoft.com/fwlink/p/?LinkId=227302) language tag.
+A [BCP-47](https://tools.ietf.org/html/bcp47) language tag.
 
 ## -remarks
 

@@ -12,6 +12,8 @@ public void ScrollIntoView(System.Object item)
 ## -description
 Scrolls the list to bring the specified data item into view.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.ScrollIntoView](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.scrollintoview).
+
 ## -parameters
 ### -param item
 The data item to bring into view.

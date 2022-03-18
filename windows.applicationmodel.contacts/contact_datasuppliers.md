@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVector<string> DataSuppliers { get; }
 Gets the data suppliers for a contact. The maximum string length for each data supplier is 50 characters.
 
 ## -property-value
-An array of data suppliers for a contact.
+An array of data suppliers for a contact. The maximum string length for each data supplier is 50 characters.
 
 ## -remarks
 

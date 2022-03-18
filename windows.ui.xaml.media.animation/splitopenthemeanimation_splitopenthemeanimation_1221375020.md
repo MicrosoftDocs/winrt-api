@@ -12,6 +12,8 @@ public SplitOpenThemeAnimation()
 ## -description
 Initializes a new instance of the [SplitOpenThemeAnimation](splitopenthemeanimation.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation.SplitOpenThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public Windows.Foundation.Uri BaseUri { get; }
 ## -description
 Gets a Uniform Resource Identifier (URI) that represents the base Uniform Resource Identifier (URI) for an XAML-constructed object at XAML load time. This property is useful for Uniform Resource Identifier (URI) resolution at run time.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.BaseUri](/windows/winui/api/microsoft.ui.xaml.frameworkelement.baseuri).
+
 ## -property-value
 The base Uniform Resource Identifier (URI) for an object at XAML load time.
 
@@ -25,7 +27,7 @@ The XAML parser can evaluate references to resources based on the context of the
 In Windows 8, the **URI** returned by BaseUri from style or template parts could return values that represented a project default rather than a value that was specific for the XAML file that created an object. The BaseUri behavior has been corrected starting with Windows 8.1. But if you relied on the previous behavior of BaseUri and changed your XAML compositions or resource lookups because of it, you might want to examine the areas of your code that make BaseUri calls. Verify that the combined Uniform Resource Identifier (URI) you use for finding resources or localization info work as expected when your app is recompiled for Windows 8.1. Apps that were compiled for Windows 8 but running on Windows 8.1 continue to use the Windows 8 behavior.
 
 ## -examples
-This example uses BaseUri in an event handler that resets an image source to a backup/default. BaseUri is used for the "path" part of a new Uniform Resource Identifier (URI) that is used for a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) constructor call, the rest of the Uniform Resource Identifier (URI) points to an image file that the app has in its resources. To see this code in context, see the [CameraCaptureUI sample](https://go.microsoft.com/fwlink/p/?linkid=231481).
+This example uses BaseUri in an event handler that resets an image source to a backup/default. BaseUri is used for the "path" part of a new Uniform Resource Identifier (URI) that is used for a [BitmapImage](../windows.ui.xaml.media.imaging/bitmapimage.md) constructor call, the rest of the Uniform Resource Identifier (URI) points to an image file that the app has in its resources. To see this code in context, see the [CameraCaptureUI sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/CameraCaptureUI%20Sample).
 
 
 

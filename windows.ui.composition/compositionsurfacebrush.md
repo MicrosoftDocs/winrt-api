@@ -12,6 +12,8 @@ public class CompositionSurfaceBrush : Windows.UI.Composition.CompositionBrush, 
 ## -description
 Paints a [SpriteVisual](spritevisual.md) with pixels from an ICompositionSurface.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionSurfaceBrush](/windows/winui/api/microsoft.ui.composition.compositionsurfacebrush).
+
 ## -remarks
 
 The Stretch property, in conjunction with the HorizontalAlignmentRatio and VerticalAlignmentRatio properties, is used to specify the scale and positioning of the CompositionSurfaceBrush’s contents when painted onto a SpriteVisual.

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AlignTopWithPanelProperty { get; }
 ## -description
 Identifies the [RelativePanel.AlignTopWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.AlignTopWithPanelProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.aligntopwithpanelproperty).
+
 ## -property-value
 The identifier for the [RelativePanel.AlignTopWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties) XAML attached property.
 
@@ -23,4 +25,4 @@ To access the [RelativePanel.Above](/uwp/api/windows.ui.xaml.controls.relativepa
 ## -examples
 
 ## -see-also
-[RelativePanel.AlignTopWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview)
+[RelativePanel.AlignTopWithPanel](/uwp/api/windows.ui.xaml.controls.relativepanel#xaml-attached-properties), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

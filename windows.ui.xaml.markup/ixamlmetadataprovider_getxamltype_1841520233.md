@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Markup.IXamlType GetXamlType(Windows.UI.Xaml.Interop.Type
 ## -description
 Implements XAML schema context access to underlying type mapping, based on providing a helper value that describes a type.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmetadataprovider.getxamltype).
+
 ## -parameters
 ### -param type
 The type as represented by the relevant type system or interoperation support type.
@@ -23,7 +25,7 @@ The schema context's implementation of the [IXamlType](ixamltype.md) concept.
 > [!NOTE]
 > 
 
-If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN).
+If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true).
 
 For more info on [IXamlMetadataProvider](ixamlmetadataprovider.md), [IXamlType](ixamltype.md) and [IXamlMember](ixamlmember.md) and how these are used for XAML custom types, see "Remarks" section of [IXamlType](ixamltype.md).
 

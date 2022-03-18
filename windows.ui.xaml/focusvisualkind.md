@@ -13,6 +13,8 @@ public enum Windows.UI.Xaml.FocusVisualKind : int
 
 Specifies the visual feedback used to indicate the UI element with focus when navigating with a keyboard or gamepad.
 
+Equivalent WinUI enum: [FocusVisualKind](/windows/winui/api/microsoft.ui.xaml.focusvisualkind).
+
 ## -enum-fields
 
 ### -field DottedLine:0
@@ -47,4 +49,4 @@ Opt-in feature for Xbox with Windows 10 version 1803 (codenamed "Redstone 4") an
 
 ## -see-also
 
-[FocusVisualKind](https://docs.microsoft.com/uwp/api/windows.ui.xaml.application.FocusVisualKind)
+[FocusVisualKind](/uwp/api/windows.ui.xaml.application.FocusVisualKind)

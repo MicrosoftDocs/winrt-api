@@ -16,7 +16,7 @@ Gets a Boolean value that indicates if shared mode is currently enabled.
 A Boolean value that indicates if shared mode is currently enabled.
 
 ## -remarks
-Returns **true** when the [EnableSharedPCMode](https://docs.microsoft.com/windows/client-management/mdm/sharedpc-csp) policy is set.  
+Returns **true** when the [EnableSharedPCMode](/windows/client-management/mdm/sharedpc-csp) policy is set.  
 
 Returns **true** when running on a Surface Hub.  
 

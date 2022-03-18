@@ -10,6 +10,8 @@ public delegate void BindableVectorChangedEventHandler(Windows.UI.Xaml.Interop.I
 ## -description
 Represents the method that will handle the [VectorChanged](ibindableobservablevector_vectorchanged.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Interop.BindableVectorChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.interop.bindablevectorchangedeventhandler).
+
 ## -parameters
 ### -param vector
 The object where the handler is attached.
@@ -19,11 +21,11 @@ Event data, loosely typed.
 
 
 ## -remarks
-Analogous to the [VectorChangedEventHandler&lt;T&gt;](../windows.foundation.collections/vectorchangedeventhandler_1.md) delegate. Although the parameter *e* is of type [Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN), you can cast it to type [IVectorChangedEventArgs](../windows.foundation.collections/ivectorchangedeventargs.md).
+Analogous to the [VectorChangedEventHandler<T>](../windows.foundation.collections/vectorchangedeventhandler_1.md) delegate. Although the parameter *e* is of type [Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true), you can cast it to type [IVectorChangedEventArgs](../windows.foundation.collections/ivectorchangedeventargs.md).
 
-This delegate supports the creation of data bindable collections in C++. When programming with .NET, you should use [ObservableCollection(Of T)](https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1) or implement [IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) and [INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?redirectedfrom=MSDN). For more info, see [Binding to collections](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-quickstart).
+This delegate supports the creation of data bindable collections in C++. When programming with .NET, you should use [ObservableCollection(Of T)](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true) or implement [IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true) and [INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0&preserve-view=true). For more info, see [Binding to collections](/windows/uwp/data-binding/data-binding-quickstart).
 
 ## -examples
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind)

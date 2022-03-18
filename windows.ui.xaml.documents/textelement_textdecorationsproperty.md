@@ -12,6 +12,8 @@ public DependencyProperty TextDecorationsProperty { get; }
 ## -description
 Identifies the **TextDecorations** dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.TextDecorationsProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.textdecorationsproperty).
+
 ## -property-value
 The identifier for the **TextDecorations** dependency property.
 

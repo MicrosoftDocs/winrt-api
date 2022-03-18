@@ -17,15 +17,19 @@ Enables apps to load machine learning models, bind features, and evaluate the re
 ## -remarks
 
 ### Windows Server
+
 To use this API on Windows Server, you must use Windows Server 2019 with Desktop Experience.
 
 ### Thread safety
+
 This API is thread-safe.
 
 ## -see-also
-[Windows ML](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
+
+[Windows ML](/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
 
 ## -examples
+
 The following example loads a model, creates an evaluation session, gets the input and output features of the model, binds those features, and evaluates.
 
 ```csharp

@@ -14,6 +14,8 @@ public event TypedEventHandler SelectedDateChanged<DatePicker, DatePickerSelecte
 
 Occurs when the date value is changed.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.DatePicker.SelectedDateChanged](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.selecteddatechanged).
+
 ## -xaml-syntax
 
 ```xaml
@@ -22,7 +24,7 @@ Occurs when the date value is changed.
 
 ## -remarks
 
-When you handle this event, use the [OldDate](datepickerselectedvaluechangedeventargs_olddate.md) and [NewDate](datepickerselectedvaluechangedeventargs_newdate.md) properties of the [DatePickerSelectedValueChangedEventArgs](datepickerselectedvaluechangedeventargs.md) event data for your logic. These properties use different data types depending on your programming language (C# and Visual Basic use [System.DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN); Visual C++ component extensions (C++/CX) uses [Windows::Foundation::DateTime](https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime)).
+When you handle this event, use the [OldDate](datepickerselectedvaluechangedeventargs_olddate.md) and [NewDate](datepickerselectedvaluechangedeventargs_newdate.md) properties of the [DatePickerSelectedValueChangedEventArgs](datepickerselectedvaluechangedeventargs.md) event data for your logic. These properties use different data types depending on your programming language (C# and Visual Basic use [System.DateTimeOffset](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true); Visual C++ component extensions (C++/CX) uses [Windows::Foundation::DateTime](/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime)).
 
 ## -see-also
 

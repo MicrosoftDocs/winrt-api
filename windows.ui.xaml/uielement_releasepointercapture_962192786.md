@@ -13,6 +13,8 @@ public void ReleasePointerCapture(Windows.UI.Xaml.Input.Pointer value)
 
 Releases pointer captures for capture of one specific pointer by this [UIElement](uielement.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.ReleasePointerCapture](/windows/winui/api/microsoft.ui.xaml.uielement.releasepointercapture).
+
 ## -parameters
 
 ### -param value
@@ -31,7 +33,7 @@ You should only call ReleasePointerCapture if your app code has previously calle
 
 Your app code might call [CapturePointer](uielement_capturepointer_916768934.md) from a different [UIElement](uielement.md) than the one that has any current pointer capture. If so, that cancels any pointer capture previously made by other elements. 
 <!--Again, you won't have to explicitly call <xref targtype="method_winrt" rid="w_ui_xaml.uielement_releasepointercapture"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ReleasePointerCapture</xref>, release of pointer capture will just happen implicitly when another <xref targtype="class_winrt" rid="w_ui_xaml.uielement">UIElement</xref> calls <xref targtype="method_winrt" rid="w_ui_xaml.uielement_capturepointer">CapturePointer</xref>.-->
-A [UIElement](uielement.md)can capture multiple pointers to handle multiple touch points such as for manipulations, but only one [UIElement](uielement.md)in an app can have any pointer captures at any one time. For more info, see [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input).
+A [UIElement](uielement.md)can capture multiple pointers to handle multiple touch points such as for manipulations, but only one [UIElement](uielement.md)in an app can have any pointer captures at any one time. For more info, see [Handle pointer input](/windows/uwp/design/input/handle-pointer-input).
 
 ## -examples
 
@@ -45,4 +47,4 @@ It also shows code for capturing the pointer initially, and a pattern for tracki
 
 ## -see-also
 
-[Windows.UI.Xaml.UIElement.ReleasePointerCaptures](uielement_releasepointercaptures_190109337.md), [CapturePointer](uielement_capturepointer_916768934.md), [PointerReleased](uielement_pointerreleased.md), [PointerCaptureLost](uielement_pointercapturelost.md), [Relative mouse movement and CoreWindow](https://docs.microsoft.com/en-us/windows/uwp/gaming/relative-mouse-movement), [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855)
+[Windows.UI.Xaml.UIElement.ReleasePointerCaptures](uielement_releasepointercaptures_190109337.md), [CapturePointer](uielement_capturepointer_916768934.md), [PointerReleased](uielement_pointerreleased.md), [PointerCaptureLost](uielement_pointercapturelost.md), [Relative mouse movement and CoreWindow](/en-us/windows/uwp/gaming/relative-mouse-movement), [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample)

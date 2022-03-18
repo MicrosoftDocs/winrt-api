@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FlyoutProperty { get; }
 ## -description
 Identifies the [Flyout](button_flyout.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Button.FlyoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.button.flyoutproperty).
+
 ## -property-value
 The identifier for the [Flyout](button_flyout.md) dependency property.
 

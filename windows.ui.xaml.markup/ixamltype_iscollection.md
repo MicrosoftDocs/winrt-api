@@ -12,6 +12,8 @@ public bool IsCollection { get; }
 ## -description
 Gets a value that indicates whether this [IXamlType](ixamltype.md) represents a collection.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlType.IsCollection](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.iscollection).
+
 ## -property-value
 **true** if this [IXamlType](ixamltype.md) represents a collection; otherwise, **false**.
 
@@ -20,4 +22,4 @@ Gets a value that indicates whether this [IXamlType](ixamltype.md) represents a 
 ## -examples
 
 ## -see-also
-[XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)
+[XAML overview](/windows/uwp/xaml-platform/xaml-overview)

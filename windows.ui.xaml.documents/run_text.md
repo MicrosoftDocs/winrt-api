@@ -12,18 +12,18 @@ public string Text { get;  set; }
 ## -description
 Gets or sets the text contents of the [Run](run.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Run.Text](/windows/winui/api/microsoft.ui.xaml.documents.run.text).
+
 ## -xaml-syntax
 ```xaml
 <Run Text="text"/>
-```
-
-```xaml
+- or -
 <Run ...>text</Run>
 ```
 
 
 ## -property-value
-A string that specifies the text contents of the [Run](run.md). The default is [String.Empty](https://docs.microsoft.com/dotnet/api/system.string.empty?redirectedfrom=MSDN).
+A string that specifies the text contents of the [Run](run.md). The default is [String.Empty](/dotnet/api/system.string.empty?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -remarks
 

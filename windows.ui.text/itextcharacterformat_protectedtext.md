@@ -12,6 +12,8 @@ public Windows.UI.Text.FormatEffect ProtectedText { get;  set; }
 ## -description
 Gets or sets whether the characters are protected against attempts to modify them.
 
+Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.ProtectedText](/windows/winui/api/microsoft.ui.text.itextcharacterformat.protectedtext).
+
 ## -property-value
 The protected state.
 

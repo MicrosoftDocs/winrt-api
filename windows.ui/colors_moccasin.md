@@ -13,6 +13,8 @@ public Windows.UI.Color Moccasin { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFE4B5.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.Moccasin](/windows/winui/api/microsoft.ui.colors.moccasin).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFFFE4B5.

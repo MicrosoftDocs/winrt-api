@@ -12,6 +12,8 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Media.Animation.ColorKeyF
 ## -description
 Sets the value at the specified index to the [ColorKeyFrame](colorkeyframe.md) value specified.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframecollection.setat).
+
 ## -parameters
 ### -param index
 The index at which to set the value.

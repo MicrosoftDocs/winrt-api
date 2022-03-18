@@ -25,28 +25,36 @@ To use this API on Windows Server, you must use Windows Server 2019 with Desktop
 This API is thread-safe.
 
 ## -see-also
-[Windows ML](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
+[Windows ML](/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
 
 ## -examples
 The following example creates a [LearningModelSession](learningmodelsession.md) and a [LearningModelBinding](learningmodelbinding.md), binds the input to an **ImageFeatureValue** created from a **VideoFrame**, and then binds the output.
 
-```cpp
+```cppwinrt
+#include <winrt/Windows.AI.MachineLearning.h>
+#include <winrt/Windows.Media.h>
+using namespace winrt;
+using namespace Windows::AI::MachineLearning;
+using namespace Windows::Media;
+
+...
+
 void BindModel(
-    LearningModel model, 
+    LearningModel model,
     LearningModelDeviceKind deviceKind,
-    hstring inputName,
-    hstring outputName,
+    winrt::hstring inputName,
+    winrt::hstring outputName,
     VideoFrame imageFrame)
 {
-	// Create a session and binding
-	LearningModelSession session = LearningModelSession{ model, LearningModelDevice(deviceKind) };
-	LearningModelBinding binding = LearningModelBinding{ session };
+    // Create a session and binding.
+    LearningModelSession session = LearningModelSession{ model, LearningModelDevice(deviceKind) };
+    LearningModelBinding binding = LearningModelBinding{ session };
 
-	// Bind the intput image
-	binding.Bind(inputName, ImageFeatureValue::CreateFromVideoFrame(imageFrame));
+    // Bind the intput image.
+    binding.Bind(inputName, ImageFeatureValue::CreateFromVideoFrame(imageFrame));
 
-	// Bind the output
-	vector<int64_t> shape({ 1, 1000, 1, 1 });
-	binding.Bind(outputName, TensorFloat::Create(shape));
+    // Bind the output.
+    std::vector<int64_t> shape({ 1, 1000, 1, 1 });
+    binding.Bind(outputName, TensorFloat::Create(shape));
 }
 ```

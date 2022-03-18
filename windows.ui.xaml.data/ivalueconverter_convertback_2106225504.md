@@ -12,12 +12,14 @@ public object ConvertBack(System.Object value, Windows.UI.Xaml.Interop.TypeName 
 ## -description
 Modifies the target data before passing it to the source object. This method is called only in **TwoWay** bindings.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Data.IValueConverter.ConvertBack](/windows/winui/api/microsoft.ui.xaml.data.ivalueconverter.convertback).
+
 ## -parameters
 ### -param value
 The target data being passed to the source.
 
 ### -param targetType
-The type of the target property, as a type reference ([System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The type of the target property, as a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param parameter
 An optional parameter to be used in the converter logic.
@@ -34,4 +36,4 @@ If you don't use a converter for **TwoWay** bindings it's acceptable to leave Co
 ## -examples
 
 ## -see-also
-[Convert](ivalueconverter_convert_101701969.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Convert](ivalueconverter_convert_101701969.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

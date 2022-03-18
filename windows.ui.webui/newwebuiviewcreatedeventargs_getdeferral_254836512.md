@@ -12,7 +12,11 @@ public Deferral NewWebUIViewCreatedEventArgs.GetDeferral()
 
 ## -description
 
+Requests a delay before the new view is created.
+
 ## -returns
+
+A deferral that delays the creation of the new view.
 
 ## -remarks
 

@@ -21,4 +21,4 @@ This event is fired for each contact detected in the interaction session (except
 ## -examples
 
 ## -see-also
-[Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)
+[Handle pointer input](/windows/uwp/input-and-devices/handle-pointer-input)

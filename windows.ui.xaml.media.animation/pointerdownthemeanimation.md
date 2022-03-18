@@ -12,6 +12,8 @@ public class PointerDownThemeAnimation : Windows.UI.Xaml.Media.Animation.Timelin
 ## -description
 Represents a preconfigured animation that runs when a pointer down is detected on an item or element.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.PointerDownThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.pointerdownthemeanimation).
+
 ## -xaml-syntax
 ```xaml
 <PointerDownThemeAnimation .../>
@@ -114,7 +116,7 @@ void TapControl::OnPointerReleased(Windows::UI::Xaml::Input::PointerRoutedEventA
 }
 ```
 
-```cpp
+```cppcx
 // TapControl.h:
 public ref class TapControl sealed : public Windows::UI::Xaml::Controls::Control
 {
@@ -145,4 +147,4 @@ void SplitOpenControl::OnPointerReleased(PointerRoutedEventArgs^ e)
 ```
 
 ## -see-also
-[Timeline](timeline.md), [Animating pointer clicks](https://docs.microsoft.com/previous-versions/windows/apps/jj649432(v=win.10)), [Guidelines and checklist for pointer click animations](https://docs.microsoft.com/windows/uwp/style/motion-pointer)
+[Timeline](timeline.md), [Animating pointer clicks](/previous-versions/windows/apps/jj649432(v=win.10)), [Guidelines and checklist for pointer click animations](/windows/uwp/style/motion-pointer)

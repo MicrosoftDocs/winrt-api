@@ -12,10 +12,12 @@ public interface IXamlMember :
 ## -description
 Provides the means to report XAML-type system specifics about XAML members. Using this interface contract, XAML parsers can load any custom types and members thereof that are defined in your app and are referenced in XAML files.
 
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Markup.IXamlMember](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmember).
+
 ## -remarks
 For more info on [IXamlType](ixamltype.md) and IXamlMember and how these are used for XAML custom types, see "Remarks" section of [IXamlType](ixamltype.md).
 
 ## -examples
 
 ## -see-also
-[IXamlMetadataProvider](ixamlmetadataprovider.md), [IXamlType](ixamltype.md), [XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)
+[IXamlMetadataProvider](ixamlmetadataprovider.md), [IXamlType](ixamltype.md), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)

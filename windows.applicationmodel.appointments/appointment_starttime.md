@@ -23,7 +23,7 @@ appointment.startTime = new Date(2015, 9, 10, 9); // October 10th, 2015 at 9:00a
 
 
 + In Visual C++ component extensions (C++/CX), use a [DateTime](../windows.foundation/datetime.md) structure value.
-+ In C# or Microsoft Visual Basic, you use a [System.DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN) value. You can use utility API of [System.DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN) to generate a [DateTimeOffset](https://docs.microsoft.com/dotnet/api/system.datetimeoffset?redirectedfrom=MSDN) from different inputs (local time, parsed strings, and so on) and set the value.
++ In C# or Microsoft Visual Basic, you use a [System.DateTimeOffset](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true) value. You can use utility API of [System.DateTimeOffset](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true) to generate a [DateTimeOffset](/dotnet/api/system.datetimeoffset?view=dotnet-uwp-10.0&preserve-view=true) from different inputs (local time, parsed strings, and so on) and set the value.
 
 
 ## -examples

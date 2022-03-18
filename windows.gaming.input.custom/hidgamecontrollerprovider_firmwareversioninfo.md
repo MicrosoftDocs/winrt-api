@@ -21,7 +21,7 @@ The firmware version of the controller.
 
 ## -see-also
 
-* [Windows.Gaming.Input.Custom.GameControllerVersionInfo](gamecontrollerversioninfo.md)
+[Windows.Gaming.Input.Custom.GameControllerVersionInfo](gamecontrollerversioninfo.md)
 
 ## -examples
 

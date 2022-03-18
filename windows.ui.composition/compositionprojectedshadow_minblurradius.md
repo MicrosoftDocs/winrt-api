@@ -14,6 +14,8 @@ public float MinBlurRadius { get;  set; }
 
 Gets or sets the minimum blur radius of the shadow.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionProjectedShadow.MinBlurRadius](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadow.minblurradius).
+
 ## -property-value
 
 The minimum blur radius of the shadow.

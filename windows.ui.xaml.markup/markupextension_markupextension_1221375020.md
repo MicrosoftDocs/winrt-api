@@ -13,6 +13,8 @@ public MarkupExtension.MarkupExtension()
 
 Initializes a new instance of the MarkupExtension class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Markup.MarkupExtension.MarkupExtension](/windows/winui/api/microsoft.ui.xaml.markup.markupextension.#ctor).
+
 ## -remarks
 
 ## -see-also

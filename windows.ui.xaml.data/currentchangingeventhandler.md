@@ -10,6 +10,8 @@ public delegate void CurrentChangingEventHandler(System.Object sender, Windows.U
 ## -description
 Represents a method that can handle the [CurrentChanging](icollectionview_currentchanging.md) event of an [ICollectionView](icollectionview.md) implementation.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Data.CurrentChangingEventHandler](/windows/winui/api/microsoft.ui.xaml.data.currentchangingeventhandler).
+
 ## -parameters
 ### -param sender
 The source of the event.
@@ -33,4 +35,4 @@ The following code example demonstrates how to handle the [CurrentChanging](icol
 [!code-csharp[Code](../windows.ui.xaml.data/code/CurrentChangingExample/csharp/BlankPage.xaml.cs#SnippetCode)]
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

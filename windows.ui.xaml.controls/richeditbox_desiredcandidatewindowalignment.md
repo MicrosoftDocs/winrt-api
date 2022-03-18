@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.CandidateWindowAlignment DesiredCandidateWindowA
 ## -description
 Gets or sets a value that indicates the preferred alignment of the Input Method Editor (IME).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.DesiredCandidateWindowAlignment](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.desiredcandidatewindowalignment).
+
 ## -xaml-syntax
 ```xaml
 <RichEditBox DesiredCandidateWindowAlignment="candidateWindowAlignmentMemberName"/>

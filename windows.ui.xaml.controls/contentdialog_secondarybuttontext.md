@@ -12,6 +12,8 @@ public string SecondaryButtonText { get;  set; }
 ## -description
 Gets or sets the text to be displayed on the secondary button.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.SecondaryButtonText](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.secondarybuttontext).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog SecondaryButtonText="string"/>

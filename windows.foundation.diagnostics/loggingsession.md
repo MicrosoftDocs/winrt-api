@@ -29,4 +29,4 @@ You cannot have more than one session with the same name. In addition, each app 
 
 ## -see-also
 
-[LoggingChannel](loggingchannel.md), [ILoggingSession](iloggingsession.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620565)
+[LoggingChannel](loggingchannel.md), [ILoggingSession](iloggingsession.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Logging)

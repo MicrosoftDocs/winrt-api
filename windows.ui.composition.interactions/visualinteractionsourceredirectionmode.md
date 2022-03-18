@@ -10,21 +10,28 @@ public enum Windows.UI.Composition.Interactions.VisualInteractionSourceRedirecti
 # VisualInteractionSourceRedirectionMode
 
 ## -description
+
 Indicates what input should be redirected to the InteractionTracker.
 
+Equivalent WinUI enum: [VisualInteractionSourceRedirectionMode](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsourceredirectionmode).
+
 ## -enum-fields
+
 ### -field Off:0
+
 Redirection is off, all input goes to the UI thread.
 
 ### -field CapableTouchpadOnly:1
-Pointer input goes to the UI thread, Precision Touchpad input goes to the compositor.
 
+Pointer input goes to the UI thread, Precision Touchpad input goes to the compositor.
 
 ### -field CapableTouchpadAndPointerWheel:3
 
+Pointer input goes to the UI thread, Precision Touchpad and mouse wheel input goes to the compositor.
 
 ### -field PointerWheelOnly:2
 
+Pointer input goes to the UI thread, mouse wheel input goes to the compositor.
 
 ## -remarks
 

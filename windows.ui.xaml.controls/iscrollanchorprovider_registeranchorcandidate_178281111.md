@@ -14,6 +14,8 @@ public void IScrollAnchorProvider.RegisterAnchorCandidate(UIElement element)
 
 Registers a [UIElement](../windows.ui.xaml/uielement.md) as a potential scroll anchor candidate.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.IScrollAnchorProvider.RegisterAnchorCandidate](/windows/winui/api/microsoft.ui.xaml.controls.iscrollanchorprovider.registeranchorcandidate).
+
 ## -parameters
 
 ### -param element
@@ -28,7 +30,6 @@ Similarly, when the property is set to **false** (or an element is removed from 
 
 ## -see-also
 
-- [UnregisterAnchorCandidate](iscrollanchorprovider_unregisteranchorcandidate_667335027.md)
-- [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md)
+[UnregisterAnchorCandidate](iscrollanchorprovider_unregisteranchorcandidate_667335027.md), [CanBeScrollAnchor](../windows.ui.xaml/uielement_canbescrollanchor.md)
 
 ## -examples

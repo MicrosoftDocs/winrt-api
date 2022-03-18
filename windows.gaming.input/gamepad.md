@@ -33,13 +33,36 @@ Instances of the **Gamepad** class cannot be created directly; instead, instance
 
 The following code snippet shows how to loop through the **Gamepad.Gamepads** list and add each one to a vector. You'll need to put a lock on the vector, because things can change at any time (a controller might be disconnected or reconnected, for example).
 
-```cpp
+```cppwinrt
+#include <concrt.h>
+#include <winrt/Windows.Gaming.Input.h>
+using namespace winrt;
+using namespace Windows::Gaming::Input;
+...
+std::vector<Gamepad> myGamepads;
+concurrency::critical_section myLock{};
+
+for (auto const& gamepad : Gamepad::Gamepads())
+{
+    // Test whether the gamepad is already in myGamepads; if it isn't, add it.
+    concurrency::critical_section::scoped_lock lock{ myLock };
+    auto it{ std::find(begin(myGamepads), end(myGamepads), gamepad) };
+
+    if (it == end(myGamepads))
+    {
+        // This code assumes that you're interested in all gamepads.
+        myGamepads.push_back(gamepad);
+    }
+}
+```
+
+```cppcx
 auto myGamepads = ref new Vector<Gamepad^>();
 critical_section myLock{};
 
 for (auto gamepad : Gamepad::Gamepads)
 {
-    // Check if the gamepad is already in myGamepads; if it isn't, add it.
+    // Test whether the gamepad is already in myGamepads; if it isn't, add it.
     critical_section::scoped_lock lock{ myLock };
     auto it = std::find(begin(myGamepads), end(myGamepads), gamepad);
 
@@ -54,5 +77,5 @@ for (auto gamepad : Gamepad::Gamepads)
 ## -see-also
 
 [Windows.Gaming.Input.IGameController](igamecontroller.md),
-[Gamepad and vibration](https://docs.microsoft.com/windows/uwp/gaming/gamepad-and-vibration),
-[Input practices for games](https://docs.microsoft.com/windows/uwp/gaming/input-practices-for-games)
+[Gamepad and vibration](/windows/uwp/gaming/gamepad-and-vibration),
+[Input practices for games](/windows/uwp/gaming/input-practices-for-games)

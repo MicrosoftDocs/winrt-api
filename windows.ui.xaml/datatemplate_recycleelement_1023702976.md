@@ -14,6 +14,8 @@ public void DataTemplate.RecycleElement(ElementFactoryRecycleArgs args)
 
 Recycles a [UIElement](../windows.ui.xaml/uielement.md) that was previously retrieved using [GetElement](datatemplate_getelement_92222689.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.DataTemplate.RecycleElement](/windows/winui/api/microsoft.ui.xaml.datatemplate.recycleelement).
+
 ## -parameters
 
 ### -param args
@@ -41,18 +43,6 @@ Specifying the [Parent](elementfactoryrecycleargs_parent.md) is not required whe
 
 ## -see-also
 
-* [IElementFactory](ielementfactory.md)
-* DataTemplate
-  * [GetElement](datatemplate_getelement_92222689.md)
-  * RecycleElement
-* DataTemplateSelector
-  * [GetElement](../windows.ui.xaml.controls/datatemplateselector_getelement_92222689.md)
-  * [RecycleElement](../windows.ui.xaml.controls/datatemplateselector_recycleelement_1023702976.md)
-* [ElementFactoryGetArgs](elementfactorygetargs.md)
-* [ElementFactoryRecycleArgs](elementfactoryrecycleargs.md)
-* UIElement
-  * [GetChildrenInTabFocusOrder](uielement_getchildrenintabfocusorder_1610735643.md)
-* AutomationPeer
-  * [GetChildrenCore](../windows.ui.xaml.automation.peers/automationpeer_getchildrencore_766641859.md)
+[IElementFactory](ielementfactory.md), [DataTemplate.GetElement](/uwp/api/windows.ui.xaml.datatemplate.getelement), [DataTemplateSelector.GetElement](/uwp/api/windows.ui.xaml.controls.datatemplateselector.getelement), [DataTemplateSelector.RecycleElement](/uwp/api/windows.ui.xaml.controls.datatemplateselector.recycleelement), [ElementFactoryGetArgs](elementfactorygetargs.md), [ElementFactoryRecycleArgs](elementfactoryrecycleargs.md), [UIElement.GetChildrenInTabFocusOrder](/uwp/api/windows.ui.xaml.uielement.getchildrenintabfocusorder), [AutomationPeer.GetChildrenCore](/uwp/api/windows.ui.xaml.automation.peers.automationpeer.getchildrencore)
 
 ## -examples

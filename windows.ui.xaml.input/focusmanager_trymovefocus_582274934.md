@@ -13,6 +13,8 @@ public bool TryMoveFocus(Windows.UI.Xaml.Input.FocusNavigationDirection focusNav
 
 Attempts to change focus from the element with focus to the next focusable element in the specified direction.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Input.FocusManager.TryMoveFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.trymovefocus).
+
 ## -parameters
 
 ### -param focusNavigationDirection
@@ -42,4 +44,4 @@ You can also use either the [FindNextElement(FocusNavigationDirection, FindNextE
 
 ## -see-also
 
-[TryMoveFocus(FocusNavigationDirection focusNavigationDirection, FindNextElementOptions focusNavigationOptions)](focusmanager_trymovefocus_1178810148.md), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[TryMoveFocus(FocusNavigationDirection focusNavigationDirection, FindNextElementOptions focusNavigationOptions)](focusmanager_trymovefocus_1178810148.md), [Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)

@@ -12,6 +12,8 @@ public class MenuFlyoutItemBase : Windows.UI.Xaml.Controls.Control, Windows.UI.X
 ## -description
 Represents the base class for items in a [MenuFlyout](menuflyout.md) control.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitembase).
+
 ## -remarks
 There are three elements that you can use to compose the menu items in a [MenuFlyout](menuflyout.md) control: [MenuFlyoutItem](menuflyoutitem.md) , [ToggleMenuFlyoutItem](togglemenuflyoutitem.md), and [MenuFlyoutSeparator](menuflyoutseparator.md). You can use these in any combination.
 
@@ -22,4 +24,4 @@ MenuFlyoutItemBase is the parent class for [MenuFlyoutItem](menuflyoutitem.md) a
 ## -examples
 
 ## -see-also
-[Control](control.md), [MenuFlyoutItem](menuflyoutitem.md), [MenuFlyoutSeparator](menuflyoutseparator.md), [ToggleMenuFlyoutItem](togglemenuflyoutitem.md), [Quickstart: Adding a MenuFlyout](https://docs.microsoft.com/previous-versions/windows/apps/dn308516(v=win.10))
+[Control](control.md), [MenuFlyoutItem](menuflyoutitem.md), [MenuFlyoutSeparator](menuflyoutseparator.md), [ToggleMenuFlyoutItem](togglemenuflyoutitem.md), [Quickstart: Adding a MenuFlyout](/previous-versions/windows/apps/dn308516(v=win.10))

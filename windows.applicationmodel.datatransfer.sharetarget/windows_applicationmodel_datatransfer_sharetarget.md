@@ -15,4 +15,4 @@ Contains the classes and events that a target app uses to complete share operati
 
 ## -see-also
 
-[Share data](https://docs.microsoft.com/windows/uwp/app-to-app/share-data), [Quickstart: Sharing content ( apps using JavaScript and HTML)](https://docs.microsoft.com/previous-versions/windows/apps/hh465261(v=win.10)), [Sharing content target app sample](https://go.microsoft.com/fwlink/p/?LinkID=267177), [Sharing content target app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620597), [Sharing content source app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620596), [App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)
+[Share data](/windows/uwp/app-to-app/share-data), [Quickstart: Sharing content ( apps using JavaScript and HTML)](/previous-versions/windows/apps/hh465261(v=win.10)), [Sharing content target app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620597), [Sharing content source app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620596), [App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)

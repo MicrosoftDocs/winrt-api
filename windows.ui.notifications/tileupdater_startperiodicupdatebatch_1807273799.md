@@ -67,11 +67,11 @@ For periodic notifications, the expiration time is set in the X-WNS-Expires head
 + Sun Nov 6 08:49:37 1994
 
 
-For more information on the HTTP-date format, see the World Wide Web Consortium (W3C) [3 Protocol Parameters](https://go.microsoft.com/fwlink/p/?linkid=133333) document.
+For more information on the HTTP-date format, see the World Wide Web Consortium (W3C) [3 Protocol Parameters](https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html) document.
 
-For an example of a full implementation of periodic notifications used in conjunction with the notification queue, see Scenario 3 in the [Push and periodic notifications sample](https://go.microsoft.com/fwlink/p/?linkid=231476).
+For an example of a full implementation of periodic notifications used in conjunction with the notification queue, see Scenario 3 in the [Push and periodic notifications sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Push%20and%20periodic%20notifications%20client-side%20sample).
 
 ## -examples
 
 ## -see-also
-[StartPeriodicUpdateBatch(IIterable(Uri), PeriodicUpdateRecurrence)](tileupdater_startperiodicupdatebatch_1331011351.md), [StartPeriodicUpdate](tileupdater_startperiodicupdate_1369986471.md), [How to set up periodic notifications for tiles](https://docs.microsoft.com/previous-versions/windows/apps/hh761476(v=win.10)), [Guidelines and checklist for periodic notifications](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-periodic-notification-overview), [Tile and tile notification overview](https://docs.microsoft.com/previous-versions/windows/apps/hh779724(v=win.10))
+[StartPeriodicUpdateBatch(IIterable(Uri), PeriodicUpdateRecurrence)](tileupdater_startperiodicupdatebatch_1331011351.md), [StartPeriodicUpdate](tileupdater_startperiodicupdate_1369986471.md), [How to set up periodic notifications for tiles](/previous-versions/windows/apps/hh761476(v=win.10)), [Guidelines and checklist for periodic notifications](/windows/uwp/controls-and-patterns/tiles-and-notifications-periodic-notification-overview), [Tile and tile notification overview](/previous-versions/windows/apps/hh779724(v=win.10))

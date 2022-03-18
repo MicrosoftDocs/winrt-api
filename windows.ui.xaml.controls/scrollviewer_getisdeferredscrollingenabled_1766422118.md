@@ -12,6 +12,8 @@ public bool GetIsDeferredScrollingEnabled(Windows.UI.Xaml.DependencyObject eleme
 ## -description
 Gets the value of the [IsDeferredScrollingEnabled](scrollviewer_isdeferredscrollingenabled.md) dependency property / `ScrollViewer.IsDeferredScrollingInertiaEnabled` XAML attached property from a specified element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.GetIsDeferredScrollingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.getisdeferredscrollingenabled).
+
 ## -parameters
 ### -param element
 The element from which the property value is read.

@@ -12,6 +12,8 @@ public NotifyCollectionChangedEventArgs(Windows.UI.Xaml.Interop.NotifyCollection
 ## -description
 Initializes a new instance of the [NotifyCollectionChangedEventArgs](notifycollectionchangedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs.NotifyCollectionChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs.#ctor).
+
 ## -parameters
 ### -param action
 The [Action](notifycollectionchangedeventargs_action.md) value to report.
@@ -29,11 +31,11 @@ The [NewStartingIndex](notifycollectionchangedeventargs_newstartingindex.md) val
 The [OldStartingIndex](notifycollectionchangedeventargs_oldstartingindex.md) value to report.
 
 ## -remarks
-When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](https://docs.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?redirectedfrom=MSDN) class.
+When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?view=dotnet-uwp-10.0&preserve-view=true) class.
 
 Other than *action*, any of the values for this constructor can potentially be passed as null, depending on the collection change and corresponding [Action](notifycollectionchangedeventargs_action.md) being reported.
 
 ## -examples
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind)

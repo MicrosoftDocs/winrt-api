@@ -12,6 +12,8 @@ public double ToHorizontalOffset { get;  set; }
 ## -description
 Gets or sets the distance by which the target is translated in the horizontal direction when the animation is active.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SwipeHintThemeAnimation.ToHorizontalOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.swipehintthemeanimation.tohorizontaloffset).
+
 ## -xaml-syntax
 ```xaml
 <SwipeHintThemeAnimation ToHorizontalOffset="double" />
@@ -26,4 +28,4 @@ The horizontal offset translation, in pixels.
 ## -examples
 
 ## -see-also
-[Animating swipe gestures](https://docs.microsoft.com/previous-versions/windows/apps/jj649435(v=win.10))
+[Animating swipe gestures](/previous-versions/windows/apps/jj649435(v=win.10))

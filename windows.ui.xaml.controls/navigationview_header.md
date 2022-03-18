@@ -17,9 +17,7 @@ Gets or sets the header content.
 
 ```xaml
 <NavigationView Header="headerString"/>
-```
-
-```xaml
+- or -
 <NavigationView>
   <NavigationView.Header>
     headerObject

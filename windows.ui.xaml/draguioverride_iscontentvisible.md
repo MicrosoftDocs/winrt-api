@@ -12,6 +12,8 @@ public bool IsContentVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the content of the drag visual is shown.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.DragUIOverride.IsContentVisible](/windows/winui/api/microsoft.ui.xaml.draguioverride.iscontentvisible).
+
 ## -property-value
 **true** if the content is shown; otherwise, **false**.
 
@@ -20,3 +22,5 @@ Gets or sets a value that indicates whether the content of the drag visual is sh
 ## -examples
 
 ## -see-also
+
+[Drag-and-drop overview](/windows/uwp/design/input/drag-and-drop)

@@ -12,13 +12,12 @@ public Windows.UI.Xaml.Controls.IconElement QueryIcon { get;  set; }
 ## -description
 Gets or sets the graphic content of the button that is clicked to initiate a query.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.QueryIcon](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.queryicon).
+
 ## -xaml-syntax
 ```xaml
 <AutoSuggestBox QueryIcon="symbolName" .../>
-```
-
-```xaml
-
+- or -
 <AutoSuggestBox>
     <AutoSuggestBox.QueryIcon>
         iconElement

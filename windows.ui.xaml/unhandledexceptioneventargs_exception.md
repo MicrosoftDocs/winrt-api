@@ -12,12 +12,14 @@ public Windows.Foundation.HResult Exception { get; }
 ## -description
 Gets the **HRESULT** code associated with the unhandled exception.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UnhandledExceptionEventArgs.Exception](/windows/winui/api/microsoft.ui.xaml.unhandledexceptioneventargs.exception).
+
 ## -property-value
-The **HRESULT** code (for Visual C++ component extensions (C++/CX)), or a mapped common language runtime (CLR)  [System.Exception](https://docs.microsoft.com/dotnet/api/system.exception?redirectedfrom=MSDN).
+The **HRESULT** code (for Visual C++ component extensions (C++/CX)), or a mapped common language runtime (CLR)  [System.Exception](/dotnet/api/system.exception?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Exception handling for    in C# or Visual Basic](https://docs.microsoft.com/previous-versions/windows/apps/dn532194(v=win.10)), [Exceptions (C++/CX)](https://docs.microsoft.com/cpp/cppcx/exceptions-c-cx)
+[Exception handling for    in C# or Visual Basic](/previous-versions/windows/apps/dn532194(v=win.10)), [Exceptions (C++/CX)](/cpp/cppcx/exceptions-c-cx)

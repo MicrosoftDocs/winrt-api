@@ -20,4 +20,12 @@ By default, a cloned context has the same qualifier values as the default contex
 
 ## -examples
 
+```csharp
+// Use a cloned context so that qualifier values set
+// in this scenario don't impact behavior in other scenarios that
+// use a default context for the view (crossover effects between
+// the scenarios will not be expected).
+var context = ResourceContext.GetForCurrentView().Clone();
+```
+
 ## -see-also

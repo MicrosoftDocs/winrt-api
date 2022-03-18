@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CalendarItemBorderBrushProperty { get;
 ## -description
 Identifies the [CalendarItemBorderBrush](calendarview_calendaritemborderbrush.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarItemBorderBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.calendaritemborderbrushproperty).
+
 ## -property-value
 The identifier for the [CalendarItemBorderBrush](calendarview_calendaritemborderbrush.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [CalendarItemBorderBrush](calendarview_calendaritemborder
 ## -examples
 
 ## -see-also
-[CalendarItemBorderBrush](calendarview_calendaritemborderbrush.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[CalendarItemBorderBrush](calendarview_calendaritemborderbrush.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

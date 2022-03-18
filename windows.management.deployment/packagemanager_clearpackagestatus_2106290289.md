@@ -10,7 +10,7 @@ public void ClearPackageStatus(System.String packageFullName, Windows.Management
 # Windows.Management.Deployment.PackageManager.ClearPackageStatus
 
 ## -description
-Clears the status of a package.
+Clears the status of a [Package](/uwp/api/windows.applicationmodel.package).
 
 ## -parameters
 ### -param packageFullName
@@ -25,6 +25,7 @@ One of the enumeration values that specifies the status to clear.
 
 ## -see-also
 
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

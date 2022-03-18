@@ -12,6 +12,8 @@ public bool IsLightDismissEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines how the [Popup](popup.md) can be dismissed.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Popup.IsLightDismissEnabled](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.islightdismissenabled).
+
 ## -xaml-syntax
 ```xaml
 <Popup IsLightDismissEnabled="bool" />

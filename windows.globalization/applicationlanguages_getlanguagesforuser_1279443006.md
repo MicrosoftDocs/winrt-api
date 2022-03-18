@@ -17,7 +17,7 @@ Retrieves the language preferences of the specified user. This API is part of su
 The user to retrieve preferences for.
 
 ## -returns
-A list of normalized [BCP-47](https://go.microsoft.com/fwlink/p/?linkid=227302) language tags representing the language preferences of the specified user.
+A list of normalized [BCP-47](https://tools.ietf.org/html/bcp47) language tags representing the language preferences of the specified user.
 
 ## -remarks
 

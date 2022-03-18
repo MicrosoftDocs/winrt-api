@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LeftHeaderTemplateProperty { get; }
 ## -description
 Identifies the [LeftHeaderTemplate](pivot_leftheadertemplate.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.LeftHeaderTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.pivot.leftheadertemplateproperty).
+
 ## -property-value
 The identifier for the [LeftHeaderTemplate](pivot_leftheadertemplate.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [LeftHeaderTemplate](pivot_leftheadertemplate.md) depende
 ## -examples
 
 ## -see-also
-[LeftHeaderTemplate](pivot_leftheadertemplate.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[LeftHeaderTemplate](pivot_leftheadertemplate.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

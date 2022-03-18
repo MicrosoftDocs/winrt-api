@@ -14,6 +14,8 @@ Represents a linear function for interpolating between animation key frames.
 
 The linear function of another supported easing function that can be used with KeyFrame Animations. When used, the animating property will change in between two KeyFrames linearly over time.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.LinearEasingFunction](/windows/winui/api/microsoft.ui.composition.lineareasingfunction).
+
 ## -remarks
 
 ## -examples
@@ -34,4 +36,4 @@ animation.InsertKeyFrame(1.0f, 0.0f, linear);
 
 
 ## -see-also
-[Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060), [CompositionEasingFunction](compositioneasingfunction.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation), [CompositionEasingFunction](compositioneasingfunction.md), [IClosable](../windows.foundation/iclosable.md)

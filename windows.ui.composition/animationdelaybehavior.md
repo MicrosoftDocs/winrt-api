@@ -12,6 +12,8 @@ public enum AnimationDelayBehavior : int
 ## -description
 Specifies the animation delay behavior.
 
+Equivalent WinUI enum: [Microsoft.UI.Composition.AnimationDelayBehavior](/windows/winui/api/microsoft.ui.composition.animationdelaybehavior).
+
 ## -enum-fields
 ### -field SetInitialValueBeforeDelay:1
 Applies the initial value of the animation (i.e. the value at Keyframe 0) to the object before the delay time is elapsed (when there is a DelayTime specified), it then delays starting the animation according to the DelayTime. 

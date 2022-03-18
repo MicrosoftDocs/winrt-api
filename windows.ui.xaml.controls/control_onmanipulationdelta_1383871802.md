@@ -12,6 +12,8 @@ virtual protected void OnManipulationDelta(Windows.UI.Xaml.Input.ManipulationDel
 ## -description
 Called before the [ManipulationDelta](../windows.ui.xaml/uielement_manipulationdelta.md) event occurs.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnManipulationDelta](/windows/winui/api/microsoft.ui.xaml.controls.control.onmanipulationdelta).
+
 ## -parameters
 ### -param e
 Event data for the event.
@@ -21,4 +23,4 @@ Event data for the event.
 ## -examples
 
 ## -see-also
-[UIElement.ManipulationDelta](../windows.ui.xaml/uielement_manipulationdelta.md), [ManipulationDeltaRoutedEventArgs](../windows.ui.xaml.input/manipulationdeltaroutedeventargs.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Custom user interactions](https://docs.microsoft.com/windows/uwp/design/layout/index), [Handle pointer input](https://docs.microsoft.com/windows/uwp/input-and-devices/handle-pointer-input)
+[UIElement.ManipulationDelta](../windows.ui.xaml/uielement_manipulationdelta.md), [ManipulationDeltaRoutedEventArgs](../windows.ui.xaml.input/manipulationdeltaroutedeventargs.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [Custom user interactions](/windows/uwp/design/layout/index), [Handle pointer input](/windows/uwp/input-and-devices/handle-pointer-input)

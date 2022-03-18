@@ -13,6 +13,8 @@ public class ListPickerFlyout : Windows.UI.Xaml.Controls.Primitives.PickerFlyout
 
 Represents a control that allows a user to pick one or more items from a list. See Remarks.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ListPickerFlyout](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout).
+
 ## -remarks
 
 > [!IMPORTANT]

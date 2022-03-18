@@ -35,8 +35,7 @@ Since each game controller class implements [ICustomGameControllerFactory](icust
 
 ## -see-also
 
-* [Windows.Gaming.Input.IGameController](../windows.gaming.input/igamecontroller.md)
-* [Windows.Gaming.Input.Custom.ICustomGameControllerFactory](icustomgamecontrollerfactory.md)
+[Windows.Gaming.Input.IGameController](../windows.gaming.input/igamecontroller.md), [Windows.Gaming.Input.Custom.ICustomGameControllerFactory](icustomgamecontrollerfactory.md)
 
 ## -examples
 

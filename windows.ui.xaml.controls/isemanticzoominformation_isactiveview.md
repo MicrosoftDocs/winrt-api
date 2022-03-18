@@ -12,6 +12,8 @@ public bool IsActiveView { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the implementing view is the active view.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ISemanticZoomInformation.IsActiveView](/windows/winui/api/microsoft.ui.xaml.controls.isemanticzoominformation.isactiveview).
+
 ## -property-value
 **true** if the implementing view is the active view; otherwise, **false**.
 

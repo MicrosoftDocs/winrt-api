@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.Peers.AutomationPeer FromElement(Windows.UI.Xa
 ## -description
 Returns the [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) for the specified [UIElement](../windows.ui.xaml/uielement.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer.FromElement](/windows/winui/api/microsoft.ui.xaml.automation.peers.frameworkelementautomationpeer.fromelement).
+
 ## -parameters
 ### -param element
 The [UIElement](../windows.ui.xaml/uielement.md) that is associated with this [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md).
@@ -48,7 +50,7 @@ if (AutomationPeer.ListenerExists(AutomationEvents.PropertyChanged))
 
 ```
 
-```vbnet
+```vb
 If AutomationPeer.ListenerExists(AutomationEvents.PropertyChanged) Then
     Dim peer As MyDownAutomationPeer = _
     TryCast(FrameworkElementAutomationPeer.FromElement(myCtrl), MyAutomationPeer)

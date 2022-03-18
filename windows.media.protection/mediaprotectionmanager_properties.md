@@ -26,13 +26,12 @@ The following properties are defined:<table>
 </table>
 
 ## -examples
-```javascript
+```csharp
 var cpsystems = new Windows.Foundation.Collections.PropertySet();
 
 cpsystems["{1891D602-6F0A-40F7-90A1-3C24564F6D77}"] = "TestDRMInstall.Objects.AsfTrustedInput";
 
-contentProtectionManager.properties["Windows.Media.Protection.MediaProtectionSystemIdMapping"] = cpsystems;
-
+contentProtectionManager.Properties["Windows.Media.Protection.MediaProtectionSystemIdMapping"] = cpsystems;
 ```
 
 

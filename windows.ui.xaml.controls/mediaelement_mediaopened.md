@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.RoutedEventHandler MediaOpened
 ## -description
 Occurs when the media stream has been validated and opened, and the file headers have been read.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.MediaElement.MediaOpened](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.mediaopened).
+
 ## -xaml-syntax
 ```xaml
 <MediaElement MediaOpened="eventhandler" .../>

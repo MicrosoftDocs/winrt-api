@@ -12,13 +12,12 @@ public Windows.UI.Xaml.Media.SolidColorBrush SelectionHighlightColor { get;  set
 ## -description
 Gets or sets the brush used to highlight the selected text.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.SelectionHighlightColor](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.selectionhighlightcolor).
+
 ## -xaml-syntax
 ```xaml
 <PasswordBox SelectionHighlightColor="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <PasswordBox SelectionHighlightColor="colorString"/>
 
 ```
@@ -32,9 +31,9 @@ Gets or sets the brush used to highlight the selected text.
 The brush used to highlight the selected text. The default is a null brush from a pure code perspective, but the default control template for [PasswordBox](passwordbox.md) applies a theme resource brush for this in a runtime instance of a [PasswordBox](passwordbox.md) control.
 
 ## -remarks
-The control template sets the default selection highlight color to the system resource **TextSelectionHighlightColorThemeBrush**. To change the selection highlight color for all editable text controls in your app, you can override the **TextSelectionHighlightColorThemeBrush** system resource in App.xaml. This will affect [PasswordBox](passwordbox.md), [TextBox](textbox.md), and [RichEditBox](richeditbox.md) controls. For more info, see [XAML theme resources](https://docs.microsoft.com/windows/uwp/controls-and-patterns/xaml-theme-resources) or [PasswordBox styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles).
+The control template sets the default selection highlight color to the system resource **TextSelectionHighlightColorThemeBrush**. To change the selection highlight color for all editable text controls in your app, you can override the **TextSelectionHighlightColorThemeBrush** system resource in App.xaml. This will affect [PasswordBox](passwordbox.md), [TextBox](textbox.md), and [RichEditBox](richeditbox.md) controls. For more info, see [XAML theme resources](/windows/uwp/controls-and-patterns/xaml-theme-resources) or [PasswordBox styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles).
 
 ## -examples
 
 ## -see-also
-[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Use brushes](/windows/uwp/graphics/using-brushes)

@@ -10,6 +10,8 @@ public delegate void NavigationFailedEventHandler(System.Object sender, Windows.
 ## -description
 Represents a method that will handle the [WebView.NavigationFailed](../windows.ui.xaml.controls/webview_navigationfailed.md) and [Frame.NavigationFailed](../windows.ui.xaml.controls/frame_navigationfailed.md) events.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Navigation.NavigationFailedEventHandler](/windows/winui/api/microsoft.ui.xaml.navigation.navigationfailedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the handler is attached.

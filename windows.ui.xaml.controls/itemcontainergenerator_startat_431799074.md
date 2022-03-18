@@ -12,6 +12,8 @@ public void StartAt(Windows.UI.Xaml.Controls.Primitives.GeneratorPosition positi
 ## -description
 Prepares the generator to generate items, starting at the specified [GeneratorPosition](../windows.ui.xaml.controls.primitives/generatorposition.md) and moving in the specified [GeneratorDirection](../windows.ui.xaml.controls.primitives/generatordirection.md). This method also controls whether or not to start at a generated (realized) item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.StartAt](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.startat).
+
 ## -parameters
 ### -param position
 A [GeneratorPosition](../windows.ui.xaml.controls.primitives/generatorposition.md) that specifies the position of the item to start generating items at.

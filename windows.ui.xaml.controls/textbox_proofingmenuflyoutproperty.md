@@ -14,6 +14,8 @@ public DependencyProperty ProofingMenuFlyoutProperty { get; }
 
 Identifies the [ProofingMenuFlyout](textbox_proofingmenuflyout.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.ProofingMenuFlyoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.proofingmenuflyoutproperty).
+
 ## -property-value
 
 The identifier for the [ProofingMenuFlyout](textbox_proofingmenuflyout.md) dependency property.

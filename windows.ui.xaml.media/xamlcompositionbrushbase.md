@@ -12,10 +12,12 @@ public class XamlCompositionBrushBase : Brush, Brush
 ## -description
 Provides a base class used to create XAML brushes that paint an area with a [CompositionBrush](./../windows.ui.composition/compositionbrush.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.XamlCompositionBrushBase](/windows/winui/api/microsoft.ui.xaml.media.xamlcompositionbrushbase).
+
 ## -remarks
 You can use XamlCompositionBrushBase to create custom brushes. 
 
-For example, it can be used to create a brush that applies [effects](https://docs.microsoft.com/windows/uwp/composition/composition-effects) to XAML UIElements using a [CompositionEffectBrush](https://docs.microsoft.com/uwp/api/Windows.UI.Composition.CompositionEffectBrush), or a [SceneLightingEffect](https://docs.microsoft.com/uwp/api/Windows.UI.Composition.Effects.SceneLightingEffect) that controls the reflective properties of elements when being lit by a [XamlLight](xamllight.md), or a whole series of effects chained together to produce something more complex.
+For example, it can be used to create a brush that applies [effects](/windows/uwp/composition/composition-effects) to XAML UIElements using a [CompositionEffectBrush](/uwp/api/Windows.UI.Composition.CompositionEffectBrush), or a [SceneLightingEffect](/uwp/api/Windows.UI.Composition.Effects.SceneLightingEffect) that controls the reflective properties of elements when being lit by a [XamlLight](xamllight.md), or a whole series of effects chained together to produce something more complex.
 
 When creating a brush, it's usually a good practice to delay creating a [CompositionBrush](./../windows.ui.composition/compositionbrush.md) and any related resources until the brush is being used. The [OnConnected](xamlcompositionbrushbase_onconnected_591765711.md) method is called when a brush is first used on screen to paint an element, so you can override [OnConnected](xamlcompositionbrushbase_onconnected_591765711.md) to safely create resources only when they're needed. This means you can create an instance of a brush in a ResourceDictionary then reference that brush resource later from other parts of UI definitions and only pay the cost of creating composition resources when the brush is actually in use.
 
@@ -23,7 +25,7 @@ It's also a good practice to dispose of composition resources when they're no lo
 
 ## -examples
 
-This example shows the definition for a custom brush that draws a blurred copy of whatever is behind a UIElement where the brush is applied using a [Win2D](https://github.com/Microsoft/Win2D) blur effect and a [CompositionBackdropBrush](https://docs.microsoft.com/uwp/api/Windows.UI.Composition.CompositionBackdropBrush):
+This example shows the definition for a custom brush that draws a blurred copy of whatever is behind a UIElement where the brush is applied using a [Win2D](https://github.com/Microsoft/Win2D) blur effect and a [CompositionBackdropBrush](/uwp/api/Windows.UI.Composition.CompositionBackdropBrush):
 
 ```csharp
 public sealed class BackdropBlurBrush : XamlCompositionBrushBase
@@ -245,7 +247,7 @@ void BackdropBlurBrush::OnDisconnected()
 }
 ```
 
-```cpp
+```cppcx
 // WindowBlurBrush.h:
 public ref class BackdropBlurBrush sealed :
     public Windows::UI::Xaml::Media::XamlCompositionBrushBase
@@ -350,4 +352,4 @@ For [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt), 
 
 ## -see-also
 
-[Using XAML brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes), [Using the composition Visual Layer with XAML](https://docs.microsoft.com/windows/uwp/composition/using-the-visual-layer-with-xaml),[Composition brushes](https://docs.microsoft.com/windows/uwp/composition/composition-brushes)
+[Using XAML brushes](/windows/uwp/graphics/using-brushes), [Using the composition Visual Layer with XAML](/windows/uwp/composition/using-the-visual-layer-with-xaml),[Composition brushes](/windows/uwp/composition/composition-brushes)

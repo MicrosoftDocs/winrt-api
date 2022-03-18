@@ -14,6 +14,12 @@ Provides the ability to register or unregister a Cloud Storage Provider sync roo
 
 ## -remarks
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 2004 | 19041 | IsSupported |
+
 ## -see-also
 
 ## -examples

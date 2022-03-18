@@ -12,13 +12,12 @@ public double DisabledOpacity { get;  set; }
 ## -description
 Gets or sets the opacity of an item that is disabled.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.DisabledOpacity](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.disabledopacity).
+
 ## -xaml-syntax
 ```xaml
 <gridViewItemPresenterDisabledOpacity="themeResourceReference"/>
-
-```
-
-```xaml
+- or -
 <gridViewItemPresenter DisabledOpacity="double"/>
 ```
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Orientation Orientation { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the day, month, and year selectors are stacked horizontally or vertically.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.Orientation](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.orientation).
+
 ## -xaml-syntax
 ```xaml
 <DatePicker Orientation="Horizontal"/>

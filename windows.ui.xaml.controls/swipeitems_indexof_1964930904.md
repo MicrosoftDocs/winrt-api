@@ -13,6 +13,8 @@ public bool SwipeItems.IndexOf(SwipeItem value, UInt32 index)
 
 Retrieves the index of the specified item.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.SwipeItems.IndexOf](/windows/winui/api/microsoft.ui.xaml.controls.swipeitems.indexof).
+
 ## -parameters
 
 ### -param value

@@ -14,35 +14,60 @@ public class PrintTaskOptionChangedEventArgs : Windows.Graphics.Printing.OptionD
 Called when a print task option has changed.
 
 ## -remarks
-Here is a code snippet that shows how to retrieve the object, when a print task option has changed. First, the app must register to listen for option changes. Once the option is changed, a callback is made to the event listener. Note that in JavaScript, you must use **Direct2D** printing to change the preview or print content based on option changes because print template is no longer supported. For more information about **Direct2D** printing, see [Printing and command lists]( http://go.microsoft.com/fwlink/p/?LinkID=266323).
 
+Here is a code snippet that shows how to retrieve the object, when a print task option has changed. First, the app must register to listen for option changes. Once the option is changed, a callback is made to the event listener.
 
+```csharp
 
+//  Retrieve the advanced Print Task Options.
+PrintTaskOptionDetails printDetailedOptions = PrintTaskOptionDetails.GetFromPrintTaskOptions(printTask.Options);
 
+// Create a new list option.
+PrintCustomItemListOptionDetails margins = printDetailedOptions.CreateItemListOption("Margins", "Margins");
+margins.AddItem("WideMargins", "Wide", "Each margin is 20% of the paper size", await wideMarginsIconTask);
+margins.AddItem("ModerateMargins", "Moderate", "Each margin is 10% of the paper size", await moderateMarginsIconTask);
+margins.AddItem("NarrowMargins", "Narrow", "Each margin is 5% of the paper size", await narrowMarginsIconTask);
 
-```javascript
+// Add the custom option to the option list
+printDetailedOptions.DisplayedOptions.Add("Margins");
 
-// Retreive the advanced print task options
-var printDetailedOptions = Windows.Graphics.Printing.OptionDetails.PrintTaskOptionDetails.getFromPrintTaskOptions(printTask.options);
-
-// Create a new list option 
-var pageRange = printDetailedOptions.createItemListOption("PageRange", "Page Range"); 
-pageRange.addItem("PrintAll", "Print all"); 
-pageRange.addItem("PrintSelection", "Print Selection"); 
-pageRange.addItem("PrintRange", "Print Range"); 
-
-// Add the custom option to the option list 
-printDetailedOptions.displayedOptions.append("PageRange"); 
-
-// Register the handler for option change event. 
-printDetailedOptions.onoptionchanged = onOptionsChanged; 
-//The callback function for when an option has changed. optionsEvent is an object of type: PrintTaskOptionChangedEventArgs
-function onOptionsChanged(optionsEvent) { } 
- 
-
+printDetailedOptions.OptionChanged += printDetailedOptions_OptionChanged;
 ```
 
+```csharp
+async void printDetailedOptions_OptionChanged(PrintTaskOptionDetails sender, PrintTaskOptionChangedEventArgs args)
+{
+    string optionId = args.OptionId as string;
+    if (string.IsNullOrEmpty(optionId))
+    {
+        return;
+    }
 
+    if (optionId == "Margins")
+    {
+        PrintCustomItemListOptionDetails marginsOption = (PrintCustomItemListOptionDetails)sender.Options["Margins"];
+        string marginsValue = marginsOption.Value.ToString();
+
+        switch (marginsValue)
+        {
+            case "WideMargins":
+                ApplicationContentMarginTop = 0.2;
+                ApplicationContentMarginLeft = 0.2; 
+                break;
+            case "ModerateMargins":
+                ApplicationContentMarginTop = 0.1;
+                ApplicationContentMarginLeft = 0.1;
+                break;
+            case "NarrowMargins":
+                ApplicationContentMarginTop = 0.05;
+                ApplicationContentMarginLeft = 0.05;
+                break;
+        }
+    }
+}
+```
+
+To see the complete listing for this, and other printing scenarios using **PrintTask**, see [Printing](/windows/uwp/devices-sensors/print-from-your-app) and the [UWP print sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Printing).
 
 ## -examples
 

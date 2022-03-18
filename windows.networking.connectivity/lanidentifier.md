@@ -11,7 +11,7 @@ public class LanIdentifier : Windows.Networking.Connectivity.ILanIdentifier
 # Windows.Networking.Connectivity.LanIdentifier
 
 ## -description
-Represents physical identification data for a specific [NetworkAdapter](networkadapter.md) object. For a code example showing how to retrieve data represented by a LanIdentifier object, see [How to retrieve network adapter and locality information (XAML)](https://docs.microsoft.com/previous-versions/windows/apps/hh465168(v=win.10)).
+Represents physical identification data for a specific [NetworkAdapter](networkadapter.md) object. For a code example showing how to retrieve data represented by a LanIdentifier object, see [How to retrieve network adapter and locality information (XAML)](/previous-versions/windows/apps/hh465168(v=win.10)).
 
 
 ## -remarks
@@ -19,6 +19,6 @@ Location data is expressed either as a BSSID if the network adapter media type i
 
 ## -examples
 
-[How to retrieve network adapter and locality information (XAML)](https://docs.microsoft.com/previous-versions/windows/apps/hh465168(v=win.10))
+[How to retrieve network adapter and locality information (XAML)](/previous-versions/windows/apps/hh465168(v=win.10))
 
 ## -see-also

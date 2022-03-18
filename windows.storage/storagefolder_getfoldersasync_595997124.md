@@ -22,11 +22,11 @@ When this method completes successfully, it returns a list of subfolders. When t
 ## -exceptions
 ### System.UnauthorizedAccessException
 
-You don't have permission to access the contents of the current folder. For more information, see [File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions).
+You don't have permission to access the contents of the current folder. For more information, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[File access permissions](https://docs.microsoft.com/windows/uwp/files/file-access-permissions), [GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md), [GetFoldersAsync](storagefolder_getfoldersasync_592765033.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)
+[File access permissions](/windows/uwp/files/file-access-permissions), [GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md), [GetFoldersAsync](storagefolder_getfoldersasync_592765033.md), [GetItemsAsync](/uwp/api/windows.storage.storagefolder.getitemsasync)

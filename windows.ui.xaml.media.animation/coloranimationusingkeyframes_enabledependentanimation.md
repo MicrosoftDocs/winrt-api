@@ -12,6 +12,8 @@ public bool EnableDependentAnimation { get;  set; }
 ## -description
 Gets or sets a value that declares whether animated properties that are considered dependent animations should be permitted to use this animation declaration.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames.EnableDependentAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimationusingkeyframes.enabledependentanimation).
+
 ## -xaml-syntax
 ```xaml
 <ColorAnimationUsingKeyFrames EnableDependentAnimation="bool" />
@@ -28,7 +30,7 @@ Not all custom animations you create can run by default in a Windows Runtime app
 
 A dependent animation that's consuming extensive system resources on the UI thread can make the app appear unresponsive in certain situations. If your animation causes a layout change or otherwise has the potential to impact performance on the UI thread, you often need to explicitly enable the animation to see it run. That's what the **EnableDependentAnimation** property on specific animation classes is for. Use this property with caution, because setting it to **true** means you are deliberately acknowledging that the animation might slow down other operations on the UI thread when it runs.
 
-For more info, see [Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations). That topic includes a list of the criteria for an independent animation. An animation is a dependent animation if it doesn't satisfy at least one of those criteria. For the specific property you intend to animate, and for the specifics of your animation, compare your intended animation to the criteria to see whether it would be considered dependent or independent by the system.
+For more info, see [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations). That topic includes a list of the criteria for an independent animation. An animation is a dependent animation if it doesn't satisfy at least one of those criteria. For the specific property you intend to animate, and for the specifics of your animation, compare your intended animation to the criteria to see whether it would be considered dependent or independent by the system.
 
 Another way to discover whether your animations are dependent is that you might receive a warning from your XAML design surface or tool after you compose that animation, and the warning indicates that you'll need to set **EnableDependentAnimation** to **true** to see your animation run.
 
@@ -37,4 +39,4 @@ As an app developer, you can also choose to apply an app-wide setting that alway
 ## -examples
 
 ## -see-also
-[Storyboarded animations](https://docs.microsoft.com/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](https://docs.microsoft.com/previous-versions/windows/apps/jj819808(v=win.10))
+[Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](/previous-versions/windows/apps/jj819808(v=win.10))

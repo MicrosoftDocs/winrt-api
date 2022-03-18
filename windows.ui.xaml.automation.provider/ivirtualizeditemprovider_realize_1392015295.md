@@ -12,6 +12,8 @@ public void Realize()
 ## -description
 Makes the virtual item fully accessible as a UI Automation element.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.IVirtualizedItemProvider.Realize](/windows/winui/api/microsoft.ui.xaml.automation.provider.ivirtualizeditemprovider.realize).
+
 ## -remarks
 
 ## -examples

@@ -16,7 +16,7 @@ Gets the ID of an add-on (also called an in-app product or IAP). This ID is used
 The ID specified in [Partner Center](https://partner.microsoft.com/dashboard) to identify this add-on.
 
 ## -remarks
-The product ID is the string that the app uses to identify the add-on. You enter the product ID when [submitting your add-on](https://docs.microsoft.com/windows/uwp/publish/set-your-add-on-product-id) in Partner Center, where it is associated with the description, price tier and lifetime. For more information, see [How to use product IDs for add-ons in your code](https://docs.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#how-to-use-product-ids-for-add-ons-in-your-code).
+The product ID is the string that the app uses to identify the add-on. You enter the product ID when [submitting your add-on](/windows/uwp/publish/set-your-add-on-product-id) in Partner Center, where it is associated with the description, price tier and lifetime. For more information, see [How to use product IDs for add-ons in your code](/windows/uwp/monetize/in-app-purchases-and-trials#how-to-use-product-ids-for-add-ons-in-your-code).
 
 ## -examples
 

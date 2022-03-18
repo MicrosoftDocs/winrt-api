@@ -12,6 +12,8 @@ public Windows.Foundation.IAsyncAction RenderAsync(Windows.UI.Xaml.UIElement ele
 ## -description
 Renders a snapshot of a [UIElement](../windows.ui.xaml/uielement.md) visual tree to an image source. Specify values for *scaledWidth* and *scaledHeight* to alter the original source's rendering dimension.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap.RenderAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap.renderasync).
+
 ## -parameters
 ### -param element
 A [UIElement](../windows.ui.xaml/uielement.md) that represents the visual tree fragment to render.
@@ -23,7 +25,7 @@ Specifies the target width at which to render. The default is 0. *scaledWidth* a
 Specifies the target height at which to render. The default is 0. *scaledWidth* and/or *scaledHeight* can be optional; see Remarks.
 
 ## -returns
-When this method returns, an [IAsyncAction](../windows.foundation/iasyncaction.md) object that can be used to control the asynchronous operation.
+An [IAsyncAction](../windows.foundation/iasyncaction.md) object that you can use to control the asynchronous operation.
 
 ## -remarks
 The rendered image isn't returned by this method. But after it returns, so long as the async [Status](../windows.foundation/iasyncinfo_status.md) value doesn't indicate an error, the [RenderTargetBitmap](rendertargetbitmap.md) that called it will have valid image info. The [RenderTargetBitmap](rendertargetbitmap.md) can then be assigned in code as an image source for an [Image](../windows.ui.xaml.controls/image.md) control or [ImageBrush](../windows.ui.xaml.media/imagebrush.md) instance.
@@ -44,7 +46,7 @@ If either *scaledWidth* or *scaledHeight* but not both is specified, the value y
 
 You can call this method and leave the *scaledWidth* and *scaledHeight* values both as 0. In this case the [UIElement](../windows.ui.xaml/uielement.md) tree will be rendered at its native size. This is the same behavior as the [RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md) overload.
 
-The maximum rendered size of a XAML visual tree is restricted by the maximum dimensions of a Microsoft DirectX texture; for more info see [Resource Limits ()](https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-limits). This resource limit can vary depending on the hardware where the app runs. Very large content that exceeds this limit might be scaled to fit. If scaling limits are applied in this way, the rendered size after scaling can be queried using the [PixelWidth](rendertargetbitmap_pixelwidth.md) and [PixelHeight](rendertargetbitmap_pixelheight.md) properties. For example, a 10000 by 10000 pixel XAML visual tree might be scaled to 4096 by 4096 pixels, an example of a particular resource limit on 2D textures being applied.
+The maximum rendered size of a XAML visual tree is restricted by the maximum dimensions of a Microsoft DirectX texture; for more info see [Resource Limits ()](/windows/desktop/direct3d11/overviews-direct3d-11-resources-limits). This resource limit can vary depending on the hardware where the app runs. Very large content that exceeds this limit might be scaled to fit. If scaling limits are applied in this way, the rendered size after scaling can be queried using the [PixelWidth](rendertargetbitmap_pixelwidth.md) and [PixelHeight](rendertargetbitmap_pixelheight.md) properties. For example, a 10000 by 10000 pixel XAML visual tree might be scaled to 4096 by 4096 pixels, an example of a particular resource limit on 2D textures being applied.
 
 ### XAML visuals and **RenderTargetBitmap** capture capabilities
 
@@ -61,4 +63,4 @@ There are a few scenarios for XAML-composed visual content that you can't captur
 ## -examples
 
 ## -see-also
-[RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md), [XAML render to bitmap sample](https://go.microsoft.com/fwlink/p/?LinkID=309153)
+[RenderAsync(UIElement)](rendertargetbitmap_renderasync_1804035726.md), [XAML render to bitmap sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20render%20to%20bitmap%20sample)

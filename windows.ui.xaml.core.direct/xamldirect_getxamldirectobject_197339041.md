@@ -13,6 +13,8 @@ public IXamlDirectObject XamlDirect.GetXamlDirectObject(Object object)
 ## -description
 Gets the instance as an [IXamlDirectObject](ixamldirectobject.md) for a given XAML type. 
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetXamlDirectObject](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getxamldirectobject).
+
 ## -parameters
 ### -param object
 Refers to the specific XAML type (typically, but not always, a [DependencyObject](../windows.ui.xaml/dependencyobject.md)).
@@ -29,14 +31,14 @@ Use this method to convert from a full XAML type to its [XamlDirect](xamldirect.
 ## -examples
 The following example shows how to get the [IXamlDirectObject](ixamldirectobject.md) instance from a full XAML type.
 
-```C#
+```csharp
 XamlDirect xd = XamlDirect.GetDefault();
 
 Border border = new Border();
 IXamlDirectObject borderXDO = xd.GetXamlDirectObject(border);
 ```
 
-```CPP
+```cppcx
 XamlDirect^ xd = XamlDirect::GetDefault();
 
 Border^ border = ref new Border();

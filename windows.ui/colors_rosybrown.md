@@ -13,6 +13,8 @@ public Windows.UI.Color RosyBrown { get; }
 
 Gets the system-defined color that has an ARGB value of #FFBC8F8F.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.RosyBrown](/windows/winui/api/microsoft.ui.colors.rosybrown).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFBC8F8F.

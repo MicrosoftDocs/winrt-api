@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<bool> UpdateAsync()
 ## -description
 Updates a secondary tile after that tile is pinned to the Start screen.
 
-> On Windows Phone 8.1, your app is suspended and the user is taken to the Start screen when a secondary tile is pinned. Therefore, be aware that any code called after [RequestCreateAsync](secondarytile_requestcreateasync_1444672734.md) is not guaranteed to be run before the app is suspended. To avoid this potential issue you should use the OnSuspended event of your app to run any code, such as updating the pinned tile, that should be run before the app suspends. To see an example of this pattern, download and run the [Tile update on suspend sample](https://go.microsoft.com/fwlink/p/?LinkId=394144).
+> On Windows Phone 8.1, your app is suspended and the user is taken to the Start screen when a secondary tile is pinned. Therefore, be aware that any code called after [RequestCreateAsync](secondarytile_requestcreateasync_1444672734.md) is not guaranteed to be run before the app is suspended. To avoid this potential issue you should use the OnSuspended event of your app to run any code, such as updating the pinned tile, that should be run before the app suspends. To see an example of this pattern, download and run the [Tile update on suspend sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%20Phone%208.1%20samples/%5BC%23%5D-Windows%20Phone%208.1%20samples/Updating%20a%20pinned%20secondary%20tile%20on%20Suspend/C%23).
 
 ## -returns
 An object used to launch the asynchronous create operation as well as to retrieve information about it.

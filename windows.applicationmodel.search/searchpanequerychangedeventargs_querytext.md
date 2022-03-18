@@ -10,14 +10,17 @@ public string QueryText { get; }
 # Windows.ApplicationModel.Search.SearchPaneQueryChangedEventArgs.QueryText
 
 ## -description
-The text in the search box when the [querychanged](searchpane_querychanged.md) event fired.
+
+Gets the text in the search box when the [querychanged](searchpane_querychanged.md) event occurs.
 
 ## -property-value
-The text in the search box when the [querychanged](searchpane_querychanged.md) event fired.
+
+The text in the search box when the [querychanged](searchpane_querychanged.md) event occurs.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 [SearchPane.QueryChanged event](searchpane_querychanged.md), [SearchPaneQueryChangedEventArgs class](searchpanequerychangedeventargs.md), [ISearchPaneQueryChangedEventArgs.QueryText property](isearchpanequerychangedeventargs_querytext.md)

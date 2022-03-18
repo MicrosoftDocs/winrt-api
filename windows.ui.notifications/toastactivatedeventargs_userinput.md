@@ -12,7 +12,11 @@ public ValueSet UserInput { get; }
 
 ## -description
 
+For toast notifications that include text boxes for user input, contains the user input.
+
 ## -property-value
+
+The string, if any, that a user has entered into the toast notification.
 
 ## -remarks
 

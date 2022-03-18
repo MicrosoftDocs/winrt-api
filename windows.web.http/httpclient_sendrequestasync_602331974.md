@@ -25,13 +25,14 @@ This operation will not block. The returned [IAsyncOperationWithProgress](../win
 The [HttpRequestMessage](httprequestmessage.md) passed in the *request* parameter allows the SendRequestAsync method to set headers on the request message as well as on the HTTP content to be sent. In contrast, the [PostAsync](httpclient_postasync_1466488101.md) and [PutAsync](httpclient_putasync_552115331.md) methods only allow setting a more limited set of HTTP content headers.
 
 Below are the exceptions that this function throws.
-### E_INVALIDARG
-
-The *request* parameter was a **null** reference (**Nothing** in Visual Basic).
 
 ### E_ILLEGAL_METHOD_CALL
 
 The request message was already sent by the [HttpClient](httpclient.md) instance.
+
+### Exception handling
+
+You must write code to handle exceptions when you call this method. Exceptions can result from parameter validation errors, name resolutions failures, and network errors. Exceptions from network errors (loss of connectivity, connection failures, and HTTP server failures, for example) can happen at any time. These errors result in exceptions being thrown. If not handled by your app, an exception can cause your entire app to be terminated by the runtime. For more information on how to handle exceptions, see [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)) and [How to: Map HRESULTs and Exceptions](/dotnet/framework/interop/how-to-map-hresults-and-exceptions).
 
 ## -examples
 

@@ -12,8 +12,10 @@ public Windows.Foundation.Collections.IVector<float> ZoomSnapPoints { get; }
 ## -description
 Gets the observable collection of zoom snap point factors that are held by the [ScrollViewer](scrollviewer.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ZoomSnapPoints](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.zoomsnappoints).
+
 ## -property-value
-A collection of [Single](https://docs.microsoft.com/dotnet/api/system.single?redirectedfrom=MSDN) values that represent zoom factors as snap points.
+A collection of [Single](/dotnet/api/system.single?view=dotnet-uwp-10.0&preserve-view=true) values that represent zoom factors as snap points.
 
 
 <!--Not going to author XAML for this on basis of not a good scenario.-->

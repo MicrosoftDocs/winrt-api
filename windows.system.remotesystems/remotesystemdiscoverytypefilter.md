@@ -17,7 +17,7 @@ An [IRemoteSystemFilter](iremotesystemfilter.md) that limits the set of discover
 ## -examples
 
 ## -see-also
-[Connected apps and devices (Project Rome)](https://docs.microsoft.com/windows/uwp/launch-resume/connected-apps-and-devices), [IRemoteSystemFilter](iremotesystemfilter.md)
+[Connected apps and devices (Project Rome)](/windows/uwp/launch-resume/connected-apps-and-devices), [IRemoteSystemFilter](iremotesystemfilter.md)
 
 ## -capabilities
 remoteSystem

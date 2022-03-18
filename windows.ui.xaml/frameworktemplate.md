@@ -12,10 +12,12 @@ public class FrameworkTemplate : Windows.UI.Xaml.DependencyObject, Windows.UI.Xa
 ## -description
 Creates an element tree of elements. FrameworkTemplate is a base class for classes that have specific templating behavior, including [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) and [DataTemplate](datatemplate.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.FrameworkTemplate](/windows/winui/api/microsoft.ui.xaml.frameworktemplate).
+
 ## -remarks
 FrameworkTemplate has a [ContentPropertyAttribute](../windows.ui.xaml.markup/contentpropertyattribute.md) that indicates that its XAML content property is named "Template". FrameworkTemplate doesn't define a property of that name, nor do its derived types that have a practical usage ([ControlTemplate](../windows.ui.xaml.controls/controltemplate.md), [DataTemplate](datatemplate.md)). The content of a FrameworkTemplate is a root element that should be created when the template is applied to the object being templated, and isn't a conventional property in the object model. Content of a FrameworkTemplate is handled specially by the XAML parser when content is created from a template.
 
-For more info on how to use templates, see [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) and [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)).
+For more info on how to use templates, see [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) and [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)).
 
 ### **FrameworkTemplate** derived classes
 
@@ -30,4 +32,4 @@ FrameworkTemplate is the parent class for several immediately derived classes th
 ## -examples
 
 ## -see-also
-[DependencyObject](dependencyobject.md), [Control.Template](../windows.ui.xaml.controls/control_template.md), [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md), [DataTemplate](datatemplate.md), [ItemsPanelTemplate](../windows.ui.xaml.controls/itemspaneltemplate.md), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10))
+[DependencyObject](dependencyobject.md), [Control.Template](../windows.ui.xaml.controls/control_template.md), [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md), [DataTemplate](datatemplate.md), [ItemsPanelTemplate](../windows.ui.xaml.controls/itemspaneltemplate.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))

@@ -12,6 +12,8 @@ public ScrollViewerViewChangedEventArgs()
 ## -description
 Initializes a new instance of the [ScrollViewerViewChangedEventArgs](scrollviewerviewchangedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ScrollViewerViewChangedEventArgs.ScrollViewerViewChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewerviewchangedeventargs.#ctor).
+
 ## -remarks
 
 ## -examples

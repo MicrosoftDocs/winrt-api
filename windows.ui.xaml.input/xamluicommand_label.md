@@ -14,6 +14,8 @@ public string Label { get;  set; }
 
 Gets or sets the label for this element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.Label](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.label).
+
 ## -property-value
 
 The label for this element.
@@ -22,6 +24,6 @@ The label for this element.
 
 ## -see-also
 
-[StandardUICommand](standarduicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+[StandardUICommand](standarduicommand.md), [Command design basics](/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples

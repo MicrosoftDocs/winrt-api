@@ -10,10 +10,10 @@ public string Duration { get; }
 # Windows.Storage.SystemMediaProperties.Duration
 
 ## -description
-Gets the name of the [System.Media.Duration](https://docs.microsoft.com/windows/desktop/properties/props-system-media-duration) property (one of the [Windows media file properties](https://docs.microsoft.com/windows/desktop/properties/media-bumper).
+Gets the name of the [System.Media.Duration](/windows/desktop/properties/props-system-media-duration) property (one of the [Windows media file properties](/windows/desktop/properties/media-bumper).
 
 ## -property-value
-The name of the [System.Media.Duration](https://docs.microsoft.com/windows/desktop/properties/props-system-media-duration) file property.
+The name of the [System.Media.Duration](/windows/desktop/properties/props-system-media-duration) file property.
 
 ## -remarks
 

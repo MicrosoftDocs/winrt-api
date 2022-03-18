@@ -12,6 +12,8 @@ public GridViewItemDataAutomationPeer(System.Object item, Windows.UI.Xaml.Automa
 ## -description
 Initializes a new instance of the [GridViewItemDataAutomationPeer](gridviewitemdataautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.GridViewItemDataAutomationPeer.GridViewItemDataAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.gridviewitemdataautomationpeer.#ctor).
+
 ## -parameters
 ### -param item
 The specific data item.

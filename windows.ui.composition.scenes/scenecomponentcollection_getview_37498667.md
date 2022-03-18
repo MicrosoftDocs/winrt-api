@@ -14,6 +14,8 @@ public IVectorView<SceneComponent> SceneComponentCollection.GetView()
 
 Gets an immutable view into the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneComponentCollection.GetView](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponentcollection.getview).
+
 ## -returns
 
 An object representing the immutable collection view.

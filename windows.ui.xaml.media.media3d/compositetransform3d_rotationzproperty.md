@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty RotationZProperty { get; }
 ## -description
 Identifies the [RotationZ](compositetransform3d_rotationz.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Media3D.CompositeTransform3D.RotationZProperty](/windows/winui/api/microsoft.ui.xaml.media.media3d.compositetransform3d.rotationzproperty).
+
 ## -property-value
 The [RotationZ](compositetransform3d_rotationz.md) dependency property identifier.
 

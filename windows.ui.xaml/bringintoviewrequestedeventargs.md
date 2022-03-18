@@ -11,7 +11,9 @@ public class BringIntoViewRequestedEventArgs : RoutedEventArgs, RoutedEventArgs
 
 ## -description
 
-Provides data for the [UIElement.BringIntoViewRequested](uielement_bringintoviewrequested) event.
+Provides data for the [UIElement.BringIntoViewRequested](uielement_bringintoviewrequested.md) event.
+
+Equivalent WinUI class: [Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs](/windows/winui/api/microsoft.ui.xaml.bringintoviewrequestedeventargs).
 
 ## -remarks
 

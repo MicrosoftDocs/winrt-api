@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty CacheSizeProperty { get; }
 ## -description
 Identifies the [CacheSize](frame_cachesize.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Frame.CacheSizeProperty](/windows/winui/api/microsoft.ui.xaml.controls.frame.cachesizeproperty).
+
 ## -property-value
 The identifier for the [CacheSize](frame_cachesize.md) dependency property.
 

@@ -14,7 +14,7 @@ Checks if the specified application is already pinned to the taskbar.
 
 ## -parameters
 ### -param appListEntry
-An [AppListEntry](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.Core.AppListEntry) corresponding to the application to check.
+An [AppListEntry](/uwp/api/Windows.ApplicationModel.Core.AppListEntry) corresponding to the application to check.
 
 ## -returns
 A boolean representing whether the specified application is pinned to the taskbar.

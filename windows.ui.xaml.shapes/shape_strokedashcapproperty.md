@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty StrokeDashCapProperty { get; }
 ## -description
 Identifies the [StrokeDashCap](shape_strokedashcap.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.StrokeDashCapProperty](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokedashcapproperty).
+
 ## -property-value
 The identifier for the [StrokeDashCap](shape_strokedashcap.md) dependency property.
 

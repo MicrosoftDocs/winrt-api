@@ -15,4 +15,4 @@ Provides classes for creating and managing user interface (UI) elements that let
 
 ## -see-also
 
-[HomeGroup sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620549), [File picker sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619994), [Basic face detection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620512), [File picker provider sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620543), [Blobs sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MsBlobBuilder)
+[HomeGroup sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HomeGroup), [File picker sample (Windows 10)](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Basic face detection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620512), [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts), [Blobs sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MsBlobBuilder)

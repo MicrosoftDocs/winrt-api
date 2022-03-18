@@ -12,22 +12,18 @@ public Windows.UI.Xaml.Media.Brush Stroke { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that specifies how the [Shape](shape.md) outline is painted.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.Stroke](/windows/winui/api/microsoft.ui.xaml.shapes.shape.stroke).
+
 ## -xaml-syntax
+
 ```xaml
 <shape Stroke="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <shape Stroke="colorString"/>
-
-```
-
-```xaml
+- or -
 <shape>
   <shape.Stroke>singleBrush</shape.Stroke>
 </shape>
-
 ```
 
 
@@ -44,4 +40,4 @@ A [Brush](../windows.ui.xaml.media/brush.md) that specifies how the [Shape](shap
 ## -examples
 
 ## -see-also
-[Fill](shape_fill.md), [Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Fill](shape_fill.md), [Use brushes](/windows/uwp/graphics/using-brushes)

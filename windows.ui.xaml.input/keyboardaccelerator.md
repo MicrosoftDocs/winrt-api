@@ -15,6 +15,8 @@ Represents a keyboard shortcut (or accelerator) that lets a user perform an acti
 
 Accelerators are typically assigned to buttons or menu items.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.KeyboardAccelerator](/windows/winui/api/microsoft.ui.xaml.input.keyboardaccelerator).
+
 ## -remarks
 
 An accelerator key can be a single key, such as F1 - F12 and Esc, or a combination of keys (Ctrl + Shift + B, or Ctrl C) that invoke a command. They differ from access keys (mnemonics), which are typically modified with the Alt key and simply activate a command or control.
@@ -27,4 +29,4 @@ By default, an accelerator has global scope. However, you can constrain scope us
 
 ## -see-also
 
-[Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
+[Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators)

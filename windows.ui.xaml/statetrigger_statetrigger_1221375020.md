@@ -12,6 +12,8 @@ public StateTrigger()
 ## -description
 Initializes a new instance of the [StateTrigger](statetrigger.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.StateTrigger.StateTrigger](/windows/winui/api/microsoft.ui.xaml.statetrigger.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public class CompositionEffectSourceParameter : Windows.Graphics.Effects.IGraphi
 ## -description
 Used to declare an arbitrary name (a String) to be associated with a CompositionBrush (the “effect source”). The association of the given name and the effect source occurs when the [SetSourceParameter](compositioneffectbrush_setsourceparameter_49982457.md) method of a [CompositionEffectBrush](compositioneffectbrush.md) is called.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionEffectSourceParameter](/windows/winui/api/microsoft.ui.composition.compositioneffectsourceparameter).
+
 ## -remarks
 See the remarks section of [CompositionEffectBrush](compositioneffectbrush.md) for information on creating and using effects.
 
@@ -36,4 +38,4 @@ blurEffect.Source = new CompositionEffectSourceParameter("source");
 
 
 ## -see-also
-[Composition Brushes Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](https://go.microsoft.com/fwlink/p/?LinkID=692063)
+[Composition Brushes Overview](/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](/en-us/windows/uwp/composition/composition-effects)

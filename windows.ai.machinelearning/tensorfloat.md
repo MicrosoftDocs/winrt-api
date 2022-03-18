@@ -32,28 +32,8 @@ This API is thread-safe.
 | 1903 | 18362 | CreateFromShapeArrayAndDataArray |
 
 ## -see-also
-[Windows ML](https://docs.microsoft.com/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
+[Windows ML](/windows/ai/), [Windows ML samples (GitHub)](https://github.com/Microsoft/Windows-Machine-Learning/tree/master)
 
 ## -examples
-The following example creates a session and a binding, binds the input image, and then binds the output to a created **TensorFloat**:
 
-```cpp
-void BindModel(
-	LearningModel model, 
-	LearningModelDeviceKind deviceKind, 
-	hstring inputName, 
-	hstring outputName, 
-	VideoFrame imageFrame)
-{
-	// Create a session and binding
-	LearningModelSession session = LearningModelSession{ model, LearningModelDevice(deviceKind) };
-	LearningModelBinding binding = LearningModelBinding{ session };
-
-	// Bind the input image
-	binding.Bind(inputName, ImageFeatureValue::CreateFromVideoFrame(imageFrame));
-
-	// Bind the output
-	vector<int64_t> shape({ 1, 1000, 1, 1 });
-	binding.Bind(outputName, TensorFloat::Create(shape));
-}
-```
+For a code example, see [ImageFeatureValue](/uwp/api/windows.ai.machinelearning.imagefeaturevalue). The code example in that topic creates a session and a binding, binds the input image, and then binds the output to a created **TensorFloat**.

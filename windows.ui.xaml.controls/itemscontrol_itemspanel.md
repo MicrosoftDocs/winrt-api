@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ItemsPanelTemplate ItemsPanel { get;  set; }
 ## -description
 Gets or sets the template that defines the panel that controls the layout of items.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsPanel](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemspanel).
+
 ## -xaml-syntax
 ```xaml
 <itemsControl>
@@ -19,9 +21,7 @@ Gets or sets the template that defines the panel that controls the layout of ite
     singlePanelTemplate
   </itemsControl.ItemsPanel>
 </itemsControl>
-```
-
-```xaml
+- or -
 <itemsControl ItemsPanel="resourceReferenceToPanelTemplate"/>
 ```
 
@@ -33,10 +33,27 @@ Gets or sets the template that defines the panel that controls the layout of ite
 ## -property-value
 An [ItemsPanelTemplate](itemspaneltemplate.md) that defines the panel to use for the layout of the items. The default value for the [ItemsControl](itemscontrol.md) is an [ItemsPanelTemplate](itemspaneltemplate.md) that specifies a [StackPanel](stackpanel.md).
 
+Subtypes of ItemsControl may use different default ItemsPanelTemplates. For example, [ListView](/uwp/api/windows.ui.xaml.controls.listview)s by default use an [ItemsStackPanel](/uwp/api/Windows.UI.Xaml.Controls.ItemsStackPanel). Using a different type may cause unexpected behavior; for example using a plain StackPanel as the ListView's ItemsPanel can regress Narrator behavior during drag and drop.
+
 ## -remarks
 > [!NOTE]
 > [ComboBox](combobox.md) uses a [CarouselPanel](../windows.ui.xaml.controls.primitives/carouselpanel.md) as its ItemsPanel. Using a different panel as the ItemsPanel of [ComboBox](combobox.md) is not supported and might result in undesired behavior.
 
 ## -examples
+
+Replace the default panel used in a ListView with an [ItemsStackPanel](/uwp/api/Windows.UI.Xaml.Controls.ItemsStackPanel) that has its Orientation changed to Horizontal.
+
+```xaml
+<ListView>
+    <x:String>Hello</x:String>
+    <x:String>World</x:String>
+
+    <ItemsControl.ItemsPanel>
+        <ItemsPanelTemplate>
+            <ItemsStackPanel Orientation="Horizontal" />
+        </ItemsPanelTemplate>
+    </ItemsControl.ItemsPanel>
+</ListView>
+```
 
 ## -see-also

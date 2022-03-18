@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationLandmarkType : int
 ## -description
 Defines the automation landmark types for elements.
 
+Equivalent WinUI enum: [AutomationLandmarkType](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationlandmarktype).
+
 ## -enum-fields
 ### -field None:0
 No landmark type specified

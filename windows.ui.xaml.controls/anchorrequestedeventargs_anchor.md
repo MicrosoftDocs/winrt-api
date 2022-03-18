@@ -14,6 +14,8 @@ public UIElement Anchor { get;  set; }
 
 Gets or sets the *anchor element* to use when performing scroll anchoring.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AnchorRequestedEventArgs.Anchor](/windows/winui/api/microsoft.ui.xaml.controls.anchorrequestedeventargs.anchor).
+
 ## -property-value
 
 The [UIElement](../windows.ui.xaml/uielement.md) to use as the [CurrentAnchor](iscrollanchorprovider_currentanchor.md). The default is **null**.
@@ -24,8 +26,7 @@ The element must be a descendent of the scrolling control.
 
 ## -see-also
 
-* [IScrollAnchorProvider](iscrollanchorprovider.md)
-* [ScrollViewer.AnchorRequested](scrollviewer_anchorrequested.md)
+[IScrollAnchorProvider](iscrollanchorprovider.md), [ScrollViewer.AnchorRequested](scrollviewer_anchorrequested.md)
 
 ## -examples
 

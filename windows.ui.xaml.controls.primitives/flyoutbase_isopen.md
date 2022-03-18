@@ -14,6 +14,8 @@ public bool IsOpen { get; }
 
 Gets a value that indicates whether the flyout is open.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.IsOpen](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.isopen).
+
 ## -property-value
 
 **true** if the flyout is open; otherwise, **false**.

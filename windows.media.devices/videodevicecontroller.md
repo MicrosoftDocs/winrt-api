@@ -20,8 +20,9 @@ To get an instance of this object, retrieve the [MediaCapture.VideoDeviceControl
 
 Some drivers may require that the camera device preview to be in a running state before it can determine which controls are supported by the [VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md). If you check whether a certain control is supported by the [VideoDeviceController](../windows.media.capture/mediacapture_videodevicecontroller.md) before the preview stream is running, the control may be described as unsupported even though it is supported by the video device.
 
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
 
 ### Version history
 
@@ -34,6 +35,7 @@ Some drivers may require that the camera device preview to be in a running state
 | 1703 | 15063 | SetDevicePropertyById |
 | 1803 | 17134 | VideoTemporalDenoisingControl |
 | 1903 | 18362 | InfraredTorchControl |
+| 2004 | 19041 | PanelBasedOptimizationControl |
 
 ## -examples
 

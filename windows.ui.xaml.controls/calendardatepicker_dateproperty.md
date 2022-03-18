@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DateProperty { get; }
 ## -description
 Identifies the [Date](calendardatepicker_date.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.DateProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.dateproperty).
+
 ## -property-value
 The identifier for the [Date](calendardatepicker_date.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [Date](calendardatepicker_date.md) dependency property.
 ## -examples
 
 ## -see-also
-[Date](calendardatepicker_date.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[Date](calendardatepicker_date.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

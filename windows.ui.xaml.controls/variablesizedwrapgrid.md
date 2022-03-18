@@ -12,6 +12,8 @@ public class VariableSizedWrapGrid : Windows.UI.Xaml.Controls.Panel, Windows.UI.
 ## -description
 Provides a grid-style layout panel where each tile/cell can be variable size based on content.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid](/windows/winui/api/microsoft.ui.xaml.controls.variablesizedwrapgrid).
+
 ## -xaml-syntax
 ```xaml
 <VariableSizedWrapGrid ...>
@@ -61,17 +63,17 @@ You can set either or both of the RowSpan and ColumnSpan attached properties on 
 
 ### XAML attached properties
 
-VariableSizedWrapGrid is the host service class for several [XAML attached properties](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview). These attached properties enable child elements to report how they should be positioned in their grid parent.
+VariableSizedWrapGrid is the host service class for several [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview). These attached properties enable child elements to report how they should be positioned in their grid parent.
 
 In order to support XAML processor access to the attached properties, and also to expose equivalent _get_ and _set_ operations to code, each XAML attached property has a pair of Get and Set accessor methods. Another way to get or set the value in code is to use the dependency property system, calling either [GetValue](../windows.ui.xaml/dependencyobject_getvalue_1188551207.md) or [SetValue](../windows.ui.xaml/dependencyobject_setvalue_52578133.md) and passing the identifier field as the dependency property identifier.
 
 | Attached property | Description |
 | - | - |
-| ColumnSpan | Gets or sets a value that indicates the total number of columns that the element content spans within a parent VariableSizedWrapGrid.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.columnspanproperty">ColumnSpanProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.getcolumnspan">GetColumnSpan</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.setcolumnspan">SetColumnSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of columns are treated as if they specified the total number and will span all columns.|
-| RowSpan | Gets or sets a value that indicates the total number of rows that the element content spans within a parent VariableSizedWrapGrid.<ul><li>Type: int</li><li>Identifier field: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.rowspanproperty">RowSpanProperty</a></li><li>Accessor methods: <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.getrowspan">GetRowSpan</a>, <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.setrowspan">SetRowSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of rows are treated as if they specified the total number and will span all rows.|
+| ColumnSpan | Gets or sets a value that indicates the total number of columns that the element content spans within a parent VariableSizedWrapGrid.<ul><li>Type: int</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.columnspanproperty">ColumnSpanProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.getcolumnspan">GetColumnSpan</a>, <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.setcolumnspan">SetColumnSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of columns are treated as if they specified the total number and will span all columns.|
+| RowSpan | Gets or sets a value that indicates the total number of rows that the element content spans within a parent VariableSizedWrapGrid.<ul><li>Type: int</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.rowspanproperty">RowSpanProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.getrowspan">GetRowSpan</a>, <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.setrowspan">SetRowSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of rows are treated as if they specified the total number and will span all rows.|
 
 > [!NOTE]
-> VariableSizedWrapGrid is not supported for use as the [ItemsPanel](itemscontrol_itemspanel.md) of a [ListView](listview.md) control. You can use it as the [ItemsPanel](itemscontrol_itemspanel.md) in a [GridView](gridview.md) or [ItemsControl](itemscontrol.md), but the content of a VariableSizedWrapGrid is not virtualized. This can reduce performance when you work with large data sets. For more info about virtualization, see [Optimize ListView and GridView](https://docs.microsoft.com/windows/uwp/debug-test-perf/optimize-gridview-and-listview).
+> VariableSizedWrapGrid is not supported for use as the [ItemsPanel](itemscontrol_itemspanel.md) of a [ListView](listview.md) control. You can use it as the [ItemsPanel](itemscontrol_itemspanel.md) in a [GridView](gridview.md) or [ItemsControl](itemscontrol.md), but the content of a VariableSizedWrapGrid is not virtualized. This can reduce performance when you work with large data sets. For more info about virtualization, see [Optimize ListView and GridView](/windows/uwp/debug-test-perf/optimize-gridview-and-listview).
 
 ## -examples
 
@@ -83,4 +85,4 @@ In order to support XAML processor access to the attached properties, and also t
 > + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 ## -see-also
-[Panel](panel.md), [Define layouts](https://docs.microsoft.com/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](https://docs.microsoft.com/windows/uwp/layout/alignment-margin-padding), [Attached properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/attached-properties-overview), [Canvas](canvas.md), [Grid](grid.md), [ItemsWrapGrid](itemswrapgrid.md), [StackPanel](stackpanel.md), [WrapGrid](wrapgrid.md), [Controls list](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/), [Controls by function](https://docs.microsoft.com/windows/uwp/controls-and-patterns/controls-by-function)
+[Panel](panel.md), [Define layouts](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview), [Canvas](canvas.md), [Grid](grid.md), [ItemsWrapGrid](itemswrapgrid.md), [StackPanel](stackpanel.md), [WrapGrid](wrapgrid.md), [Controls list](/windows/uwp/design/controls-and-patterns/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)

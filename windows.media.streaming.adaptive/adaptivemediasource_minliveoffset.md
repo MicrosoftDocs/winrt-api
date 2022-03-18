@@ -16,7 +16,7 @@ Gets the minimum offset of live playback from the end of the known media content
 The minimum offset of live playback from the end of the known media content that has been downloaded.
 
 ## -remarks
-This property specifies the minimum value to which the [DesiredLiveOffset](adaptivemediasource_desiredliveoffset) property can be set. This value is specified by the media content or platform.
+This property specifies the minimum value to which the [DesiredLiveOffset](adaptivemediasource_desiredliveoffset.md) property can be set. This value is specified by the media content or platform.
 
 ## -see-also
 

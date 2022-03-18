@@ -223,7 +223,7 @@ This status code is documented in IETF [RFC 6585](https://tools.ietf.org/html/rf
 
 
 ## -remarks
-The HttpStatusCode enumeration contains the values of the status codes defined by the IETF in [RFC 2616](https://go.microsoft.com/fwlink/p/?LinkID=241642) for HTTP 1.1 and related RFCs.
+The HttpStatusCode enumeration contains the values of the status codes defined by the IETF in [RFC 2616](https://tools.ietf.org/html/rfc2616) for HTTP 1.1 and related RFCs.
 
 The status of an HTTP request is contained in the [StatusCode](httpresponsemessage_statuscode.md) property on the [HttpResponseMessage](httpresponsemessage.md) object.
 

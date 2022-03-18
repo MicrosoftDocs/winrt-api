@@ -14,7 +14,7 @@ public class SmsMessageReceivedTriggerDetails : Windows.Devices.Sms.ISmsMessageR
 Contains event details for the event raised when an SMS message is received.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](https://docs.microsoft.com/windows-hardware/drivers/mobilebroadband/index).
+> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators, mobile broadband adapter IHV, or OEM. For more information, see [Mobile Broadband:  device apps](/windows-hardware/drivers/mobilebroadband/index).
 
 ## -remarks
 You access an SmsMessageReceivedTriggerDetails object through the function that you implement to handle the [SmsMessageRegistration.MessageReceived](smsmessageregistration_messagereceived.md) event.

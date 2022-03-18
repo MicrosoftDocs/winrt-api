@@ -15,6 +15,8 @@ Specifies the disambiguation strategy used for navigating between multiple candi
 > [!NOTE]
 > Other factors, such as the previously focused element or proximity to the axis of the navigation direction, can influence the navigation end result.
 
+Equivalent WinUI enum: [Microsoft.UI.Xaml.Input.XYFocusNavigationStrategy](/windows/winui/api/microsoft.ui.xaml.input.xyfocusnavigationstrategy).
+
 ## -enum-fields
 ### -field Auto:0
 Indicates that navigation strategy is inherited from the element's ancestors. If all ancestors have a value of **Auto**, the fallback strategy is **Projection**. 
@@ -53,18 +55,10 @@ Here we show how focus moves from A to B based on rectilinear distance.
 *Focus moves from A to B based on rectilinear distance*
 
 ## -remarks
-XY navigation is used to navigate a user interface (UI) with a gamepad, remote control, or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/gamepad-and-remote-interactions)
+XY navigation is used to navigate a user interface (UI) with a gamepad, remote control, or keyboard directional arrows. For more info, see [Gamepad and remote control interactions](/windows/uwp/input-and-devices/gamepad-and-remote-interactions)
 
 ## -examples
 
 ## -see-also
 
-### Reference
-- [XYFocusNavigationStrategyOverride](xyfocusnavigationstrategyoverride.md)
-
-### Conceptual
-- [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/input-and-devices/focus-navigation-programmatic)
-- [Desiging for Xbox - XY focus navigation and interaction](https://docs.microsoft.com/windows/uwp/input-and-devices/designing-for-tv)
-
-
-
+[XYFocusNavigationStrategyOverride](xyfocusnavigationstrategyoverride.md), [Programmatic focus navigation](/windows/uwp/input-and-devices/focus-navigation-programmatic), [Desiging for Xbox - XY focus navigation and interaction](/windows/uwp/input-and-devices/designing-for-tv)

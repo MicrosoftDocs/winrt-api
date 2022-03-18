@@ -12,6 +12,8 @@ protected CompositionBrush CompositionBrush { get;  set; }
 ## -description
 Gets or sets the [CompositionBrush](./../windows.ui.composition/compositionbrush.md) used by this XAML brush.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.CompositionBrush](/windows/winui/api/microsoft.ui.xaml.media.xamlcompositionbrushbase.compositionbrush).
+
 ## -property-value
 The instance of [CompositionBrush](./../windows.ui.composition/compositionbrush.md) used by this XAML brush.
 

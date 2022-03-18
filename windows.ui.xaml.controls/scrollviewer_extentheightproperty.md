@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ExtentHeightProperty { get; }
 ## -description
 Identifier for the [ExtentHeight](scrollviewer_extentheight.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ExtentHeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.extentheightproperty).
+
 ## -property-value
 The identifier for the [ExtentHeight](scrollviewer_extentheight.md) dependency property.
 

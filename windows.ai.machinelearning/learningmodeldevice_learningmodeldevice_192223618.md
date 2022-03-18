@@ -25,6 +25,12 @@ To use this API on Windows Server, you must use Windows Server 2019 with Desktop
 ### Thread safety
 This API is thread-safe.
 
+### Using DirectX devices
+If you pass in any of the DirectX options to this constructor, a hardware device must be found. If no hardware device exists, ERROR_NOT_FOUND is displayed. You can use this error code if you choose to fall back to the CPU. To do your own hardware detection before you call this constructor, use the [DXGI APIs](/windows/win32/direct3ddxgi/d3d10-graphics-programming-guide-dxgi#enumerating-adapters).
+
+> [!NOTE]
+> Currently, this constructor succeeds and incorrectly returns the software adapter [DXGI_ADAPTER_FLAG_SOFTWARE](/windows/win32/api/dxgi/ne-dxgi-dxgi_adapter_flag) if no DirectX hardware device is found.
+
 ## -see-also
 
 ## -examples

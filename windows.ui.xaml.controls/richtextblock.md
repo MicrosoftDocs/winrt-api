@@ -12,6 +12,8 @@ public class RichTextBlock : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.C
 ## -description
 Represents a rich text display container that supports formatted text, hyperlinks, inline images, and other rich content. RichTextBlock supports a built-in overflow model.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RichTextBlock](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock).
+
 ## -xaml-syntax
 ```xaml
 <RichTextBlock .../>
@@ -31,7 +33,7 @@ The RichTextBlock control displays read-only text, and provides several features
 
 [TextBlock](textblock.md) provides a simpler content model, so it’s typically easier to use, and it can provide better text rendering performance than RichTextBlock. It also provides many of the same formatting options for customizing how your text is rendered. However, RichTextBlock provides several unique features that [TextBlock](textblock.md) doesn’t provide.
 
-For more info and examples, see the [RichTextBlock control guide](https://docs.microsoft.com/windows/uwp/controls-and-patterns/rich-text-block).
+For more info and examples, see the [RichTextBlock control guide](/windows/uwp/controls-and-patterns/rich-text-block).
 
 ### Paragraphs and formatting
 
@@ -203,4 +205,4 @@ Here, a RichTextBlock targets a [RichTextBlockOverflow](richtextblockoverflow.md
 [!code-xaml[RichTextOverflow](../windows.ui.xaml.controls/code/TextDisplaySnippets/CS/MainPage.xaml#SnippetRichTextOverflow)]
 
 ## -see-also
-[Rich text block overview](/windows/uwp/design/controls-and-patterns/rich-text-block), [Paragraph](../windows.ui.xaml.documents/paragraph.md), [OverflowContentTarget](richtextblock_overflowcontenttarget.md), [RichTextBlockOverflow](richtextblockoverflow.md), [RichTextBlockOverflow.OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md), [XAML text display sample](https://go.microsoft.com/fwlink/p/?linkid=238579)
+[Rich text block overview](/windows/uwp/design/controls-and-patterns/rich-text-block), [Paragraph](../windows.ui.xaml.documents/paragraph.md), [OverflowContentTarget](richtextblock_overflowcontenttarget.md), [RichTextBlockOverflow](richtextblockoverflow.md), [RichTextBlockOverflow.OverflowContentTarget](richtextblockoverflow_overflowcontenttarget.md), [XAML text display sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20text%20display%20sample)

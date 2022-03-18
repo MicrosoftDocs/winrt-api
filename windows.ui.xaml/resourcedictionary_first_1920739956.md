@@ -12,12 +12,14 @@ public Windows.Foundation.Collections.IIterator<Windows.Foundation.Collections.I
 ## -description
 Returns an iterator for the items in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.ResourceDictionary.First](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.first).
+
 ## -returns
 The iterator. The iterator's current position is at the 0-index position, or at the collection end if the collection is empty.
 
 ## -remarks
 <!--Begin NET note for IEnumerable support-->
-You can iterate through a [ResourceDictionary](resourcedictionary.md) in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable<KeyValuePair>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](https://docs.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator), cast to [IEnumerable<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1) with a **KeyValuePair&lt;Object,Object&gt;** constraint.
+You can iterate through a [ResourceDictionary](resourcedictionary.md) in C# or Microsoft Visual Basic. In many cases, such as using **foreach** syntax, the compiler does this casting for you and you won't need to cast to `IEnumerable<KeyValuePair>` explicitly. If you do need to cast explicitly, for example if you want to call [GetEnumerator](/dotnet/api/system.collections.ienumerable.getenumerator?view=dotnet-uwp-10.0&preserve-view=true), cast to [IEnumerable<T>](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true) with a **KeyValuePair&lt;Object,Object&gt;** constraint.
 
 
 <!--End NET note for IEnumerable support-->
@@ -25,4 +27,4 @@ You can iterate through a [ResourceDictionary](resourcedictionary.md) in C# or M
 ## -examples
 
 ## -see-also
-[ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

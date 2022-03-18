@@ -10,16 +10,17 @@ public Windows.Foundation.Numerics.Vector2 UnprojectAtUnitDepth(Windows.Foundati
 # Windows.Media.Devices.Core.CameraIntrinsics.UnprojectAtUnitDepth
 
 ## -description
-Unprojects pixel coordinates into a camera space ray from the camera origin, expressed as a X, Y coordinates on the plane at Z = 1.0.
+Unprojects pixel coordinates into a camera space ray from the camera origin, expressed as a X, Y coordinates on a plane one meter from the camera.
 
 ## -parameters
 ### -param pixelCoordinate
 The pixel coordinates to unproject into camera space.
 
 ## -returns
-The X, Y coordinates of the unprojected pixel on the plane at Z = 1.0.
+The X, Y coordinates of the unprojected pixel on a plane one meter from the camera.
 
 ## -remarks
+The image coordinate must be expressed in pixels, with the origin in the top-left corner of the image; that is, +X pointing right, and +Y pointing down. The unprojected coordinate will be expressed in meters, with +X pointing right, and +Y pointing up, on a plane located at the center (principal point) of the image, one meter away from the camera.
 
 ## -examples
 

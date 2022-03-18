@@ -9,10 +9,10 @@ public GattLocalDescriptorParameters.GattLocalDescriptorParameters()
 
 # Windows.Devices.Bluetooth.GenericAttributeProfile.GattLocalDescriptorParameters.GattLocalDescriptorParameters
 
-## -description
-Creates a new GattLocalDescriptorParameters object.
 
-## -parameters
+## -description
+
+Creates a new GattLocalDescriptorParameters object.
 
 ## -remarks
 
@@ -20,6 +20,7 @@ Creates a new GattLocalDescriptorParameters object.
 
 ## -examples
 
-
 ## -capabilities
+
 bluetooth
+

@@ -13,6 +13,8 @@ public TextHighlighter.TextHighlighter()
 
 Initializes a new instance of the TextHighlighter class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Documents.TextHighlighter.TextHighlighter](/windows/winui/api/microsoft.ui.xaml.documents.texthighlighter.#ctor).
+
 ## -remarks
 
 ## -see-also

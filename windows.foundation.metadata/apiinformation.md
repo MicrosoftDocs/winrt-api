@@ -19,4 +19,4 @@ Enables you to detect whether a specified member, type, or API contract is prese
 
 ## -see-also
 
-[Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)
+[Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code), [Version adaptive code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode)

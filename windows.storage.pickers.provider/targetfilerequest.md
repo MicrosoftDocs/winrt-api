@@ -11,16 +11,15 @@ public class TargetFileRequest : Windows.Storage.Pickers.Provider.ITargetFileReq
 # Windows.Storage.Pickers.Provider.TargetFileRequest
 
 ## -description
-Lets an app that provides a save location specify the [storageFile](../windows.storage/storagefile.md) that represents the file to save and get a deferral so the app can respond asynchronously to a [targetFileRequested](filesavepickerui_targetfilerequested.md) event.
+Lets an app that provides a save location specify the [StorageFile](../windows.storage/storagefile.md) that represents the file to save and get a deferral so the app can respond asynchronously to a [TargetFileRequested](filesavepickerui_targetfilerequested.md) event.
 
 ## -remarks
-If your app participates in the File Save Picker contract and a [targetfilerequested](filesavepickerui_targetfilerequested.md) event fires, your app should create a new [storageFile](../windows.storage/storagefile.md) that represents the file the user wants to save. The name of the [storageFile](../windows.storage/storagefile.md) you create must match the name of the file specified by the [fileName](filesavepickerui_filename.md) property. The [storageFile](../windows.storage/storagefile.md) you create is returned to the app that called the file picker (the calling app) so that the calling app can write content to the file. Learn more about responding to this event in [targetFileRequestedEventArgs](targetfilerequestedeventargs.md).
+If your app participates in the File Save Picker contract and a [Targetfilerequested](filesavepickerui_targetfilerequested.md) event fires, your app should create a new [StorageFile](../windows.storage/storagefile.md) that represents the file the user wants to save. The name of the [StorageFile](../windows.storage/storagefile.md) you create must match the name of the file specified by the [FileName](filesavepickerui_filename.md) property. The [StorageFile](../windows.storage/storagefile.md) you create is returned to the app that called the file picker (the calling app) so that the calling app can write content to the file. Learn more about responding to this event in [TargetFileRequestedEventArgs](targetfilerequestedeventargs.md).
 
 ## -examples
-The [File picker sample](https://go.microsoft.com/fwlink/p/?linkid=234890) demonstrates how to respond to a [targetfilerequested](filesavepickerui_targetfilerequested.md) event handler, including how to use the [Request](targetfilerequestedeventargs_request.md) property to get the TargetFileRequest.
+The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) demonstrates how to respond to a [TargetFileRequested](filesavepickerui_targetfilerequested.md) event handler, including how to use the [Request](targetfilerequestedeventargs_request.md) property to get the TargetFileRequest.
 
 ```csharp
-
 // Event handler
 private async void OnTargetFileRequested(FileSavePickerUI sender, TargetFileRequestedEventArgs e)
 {
@@ -38,29 +37,6 @@ private async void OnTargetFileRequested(FileSavePickerUI sender, TargetFileRequ
 
 // Register for the event
 fileSavePickerUI.TargetFileRequested += new TypedEventHandler<FileSavePickerUI, TargetFileRequestedEventArgs>(OnTargetFileRequested);
-```
-
-```javascript
-
-// Event handler
-function onTargetFileRequested(e) {
-    var deferral;
-    deferral = e.request.getDeferral();
-
-    // Create a file to pass to the file picker which then gives it to the calling app
-    Windows.Storage.ApplicationData.current.localFolder.createFileAsync(fileSavePickerUI.fileName).done(function (file) {
-            // Assign the resulting file to the targetFile property and complete the deferral to indicate success
-        e.request.targetFile = file;
-        deferral.complete();
-    }, function () {
-        // Set the targetFile property to null and complete the deferral to indicate failure
-        e.request.targetFile = null;
-        deferral.complete();
-    });
-};
-
-// Register for the event
-fileSavePickerUI.addEventListener("targetfilerequested", onTargetFileRequested, false);
 ```
 
 In the example, `e` contains a [TargetFileRequestedEventArgs](targetfilerequestedeventargs.md) object.

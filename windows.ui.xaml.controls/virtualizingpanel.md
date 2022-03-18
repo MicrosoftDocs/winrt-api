@@ -12,6 +12,8 @@ public class VirtualizingPanel : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml
 ## -description
 Provides a framework for [Panel](panel.md) elements that virtualize their visual children.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.VirtualizingPanel](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingpanel).
+
 ## -remarks
 VirtualizingPanel is not typically used as an object element in XAML. You typically use derived classes such as [VirtualizingStackPanel](virtualizingstackpanel.md).
 

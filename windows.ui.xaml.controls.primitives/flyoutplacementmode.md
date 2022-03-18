@@ -10,51 +10,68 @@ public enum Windows.UI.Xaml.Controls.Primitives.FlyoutPlacementMode : int
 # FlyoutPlacementMode
 
 ## -description
+
 Defines constants that specify the preferred location for positioning a [FlyoutBase](flyoutbase.md) derived control relative to a visual element.
 
+Equivalent WinUI enum: [FlyoutPlacementMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutplacementmode).
+
 ## -enum-fields
+
 ### -field Top:0
-The preferred location of the flyout is above the target element.
+
+Preferred location is above the target element.
 
 ### -field Bottom:1
-The preferred location of the flyout is below the target element.
+
+Preferred location is below the target element.
 
 ### -field Left:2
-The preferred location of the flyout is to the left of the target element.
+
+Preferred location is to the left of the target element.
 
 ### -field Right:3
-The preferred location of the flyout is to the right of the target element.
+
+Preferred location is to the right of the target element.
 
 ### -field Full:4
-The preferred location of the flyout is centered on the screen.
 
+Preferred location is centered on the screen.
 
 ### -field BottomEdgeAlignedLeft:7
 
+Preferred location is below the target element, with the left edge of flyout aligned with left edge of the target element.
 
 ### -field BottomEdgeAlignedRight:8
 
+Preferred location is below the target element, with the right edge of flyout aligned with right edge of the target element.
 
 ### -field LeftEdgeAlignedBottom:10
 
+Preferred location is to the left of the target element, with the bottom edge of flyout aligned with bottom edge of the target element.
 
 ### -field LeftEdgeAlignedTop:9
 
+Preferred location is to the left of the target element, with the top edge of flyout aligned with top edge of the target element.
 
 ### -field RightEdgeAlignedBottom:12
 
+Preferred location is to the right of the target element, with the bottom edge of flyout aligned with bottom edge of the target element.
 
 ### -field RightEdgeAlignedTop:11
 
+Preferred location is to the right of the target element, with the top edge of flyout aligned with top edge of the target element.
 
 ### -field TopEdgeAlignedLeft:5
 
+Preferred location is above the target element, with the left edge of flyout aligned with left edge of the target element.
 
 ### -field TopEdgeAlignedRight:6
 
+Preferred location is above the target element, with the right edge of flyout aligned with right edge of the target element.
 
 ### -field Auto:13
 
+Preferred location is determined automatically.
 
 ## -remarks
 

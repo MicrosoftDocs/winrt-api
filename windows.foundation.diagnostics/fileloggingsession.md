@@ -46,4 +46,4 @@ FileLoggingSession will close the current log file and start a new log file when
 
 ## -see-also
 
-[LoggingChannel](loggingchannel.md), [IFileLoggingSession](ifileloggingsession.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620565)
+[LoggingChannel](loggingchannel.md), [IFileLoggingSession](ifileloggingsession.md), [IClosable](../windows.foundation/iclosable.md), [Logging sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Logging)

@@ -12,6 +12,8 @@ public Setter(Windows.UI.Xaml.DependencyProperty targetProperty, System.Object v
 ## -description
 Initializes a new instance of the [Setter](setter.md) class with initial [Property](setter_property.md) and [Value](setter_value.md) information.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Setter.Setter](/windows/winui/api/microsoft.ui.xaml.setter.#ctor).
+
 ## -parameters
 ### -param targetProperty
 The dependency property identifier for the property that is being styled.

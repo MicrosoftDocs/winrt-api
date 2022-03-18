@@ -12,6 +12,8 @@ public object Parameter { get; }
 ## -description
 Gets any "Parameter" object passed to the target page for the navigation.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Navigation.NavigationEventArgs.Parameter](/windows/winui/api/microsoft.ui.xaml.navigation.navigationeventargs.parameter).
+
 ## -property-value
 An object that potentially passes parameters to the navigation target. May be null.
 

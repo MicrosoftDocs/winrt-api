@@ -13,6 +13,8 @@ public Windows.UI.Color MediumVioletRed { get; }
 
 Gets the system-defined color that has an ARGB value of #FFC71585.
 
+Equivalent WinUI property: [Microsoft.UI.Colors.MediumVioletRed](/windows/winui/api/microsoft.ui.colors.mediumvioletred).
+
 ## -property-value
 
 The system-defined color that has an ARGB value of #FFC71585.

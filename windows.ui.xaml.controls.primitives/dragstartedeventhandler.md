@@ -10,6 +10,8 @@ public delegate void DragStartedEventHandler(System.Object sender, Windows.UI.Xa
 ## -description
 Represents the method that will handle the [DragStarted](thumb_dragstarted.md) event of a [Thumb](thumb.md).
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.Primitives.DragStartedEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.primitives.dragstartedeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the event handler is attached.

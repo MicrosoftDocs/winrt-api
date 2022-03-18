@@ -12,6 +12,8 @@ public double DataFetchSize { get;  set; }
 ## -description
 Gets or sets the amount of data to fetch for virtualizing/prefetch operations.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.DataFetchSize](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.datafetchsize).
+
 ## -xaml-syntax
 ```xaml
 <listViewBase DataFetchSize="double" />
@@ -27,4 +29,4 @@ The amount of data to fetch per interval, in pages.
 ## -examples
 
 ## -see-also
-[IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md), [Using virtualization with a list or grid](https://docs.microsoft.com/previous-versions/windows/apps/hh780657(v=win.10))
+[IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md), [Using virtualization with a list or grid](/previous-versions/windows/apps/hh780657(v=win.10))

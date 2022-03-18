@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty TargetNameProperty { get; }
 ## -description
 Identifies the [TargetName](popinthemeanimation_targetname.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PopInThemeAnimation.TargetNameProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.popinthemeanimation.targetnameproperty).
+
 ## -property-value
 The identifier for the [TargetName](popinthemeanimation_targetname.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [TargetName](popinthemeanimation_targetname.md) dependenc
 ## -examples
 
 ## -see-also
-[Animating pop-up UI](https://docs.microsoft.com/previous-versions/windows/apps/jj649433(v=win.10)), [Guidelines and checklist for pop-up UI animations](https://docs.microsoft.com/windows/uwp/style/motion-popup-animations)
+[Animating pop-up UI](/previous-versions/windows/apps/jj649433(v=win.10)), [Guidelines and checklist for pop-up UI animations](/windows/uwp/style/motion-popup-animations)

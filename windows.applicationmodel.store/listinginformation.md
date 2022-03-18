@@ -32,21 +32,6 @@ You access this object through the [LoadListingInformationAsync](currentappsimul
 ## -examples
 This code example shows how to get the ListingInformation from simulated app data and then get the [ProductListing](productlisting.md) object for one of the features offered by the app.
 
-```javascript
-// get current app object using the simulator interface
-currentApp = Windows.ApplicationModel.Store.CurrentAppSimulator;
-
-// get the listing information for the products this app supports
-currentApp.loadListingInformationAsync().then(
-    function (listing) {
-        // loadListingInformationAsync returns the ListingInformation object in listing.
-        // get one of the listing properties
-        thisAppsPrice = listing.formattedPrice;
-    }
-);
-
-```
-
 ```csharp
 // get the license info for this app from the simulator
 ListingInformation listing = await CurrentAppSimulator.LoadListingInformationAsync();
@@ -55,8 +40,6 @@ ListingInformation listing = await CurrentAppSimulator.LoadListingInformationAsy
 String thisAppsPrice = listing.FormattedPrice;
 
 ```
-
-
 
 ## -see-also
 [ProductListing](productlisting.md), [ProductListings](listinginformation_productlistings.md)

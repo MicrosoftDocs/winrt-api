@@ -13,6 +13,8 @@ public bool RichEditTextRange.CanPaste(Int32 format)
 
 Determines whether the Clipboard contains content that can be pasted, using a specified format, into the current text range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.CanPaste](/windows/winui/api/microsoft.ui.text.richedittextrange.canpaste).
+
 ## -parameters
 ### -param format
 

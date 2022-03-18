@@ -24,7 +24,7 @@ The resolution in dots per inch (DPI) for the Y dimension of the page.
     
 
 ### -field ImageableRect
-The [Rect](../windows.foundation/rect.md) within the page size on which content may actually be printed. Content outside of the , whether less or greater than the page size, will be cropped by the print target. The  is specified in device independent pixels (DIPs).
+The [Rect](../windows.foundation/rect.md) within the page size on which content may actually be printed. Content outside of the rectangle, whether less or greater than the page size, will be cropped by the print target. The  is specified in device independent pixels (DIPs).
     
 
 ### -field PageSize

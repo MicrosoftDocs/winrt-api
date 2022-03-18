@@ -12,12 +12,12 @@ public Windows.UI.Xaml.DataTemplate HeaderTemplate { get;  set; }
 ## -description
 Gets or sets the template for the [Header](pivotitem_header.md) property of [PivotItem](pivotitem.md) children.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.HeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.pivot.headertemplate).
+
 ## -xaml-syntax
 ```xaml
 <Pivot HeaderTemplate="resourceReferenceToDataTemplate"/>
-```
-
-```xaml
+- or -
 <Pivot>
   <Pivot.HeaderTemplate>
      <DataTemplate>

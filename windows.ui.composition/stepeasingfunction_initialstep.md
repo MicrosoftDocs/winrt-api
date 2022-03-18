@@ -12,6 +12,8 @@ public int InitialStep { get;  set; }
 ## -description
 The step to start at.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.StepEasingFunction.InitialStep](/windows/winui/api/microsoft.ui.composition.stepeasingfunction.initialstep).
+
 ## -property-value
 The step to start at.
 

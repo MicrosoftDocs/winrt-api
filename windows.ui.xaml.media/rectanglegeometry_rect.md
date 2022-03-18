@@ -12,6 +12,8 @@ public Windows.Foundation.Rect Rect { get;  set; }
 ## -description
 Gets or sets the dimensions of the rectangle.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.RectangleGeometry.Rect](/windows/winui/api/microsoft.ui.xaml.media.rectanglegeometry.rect).
+
 ## -xaml-syntax
 ```xaml
 <RectangleGeometry Rect="x,y,width,height"/>

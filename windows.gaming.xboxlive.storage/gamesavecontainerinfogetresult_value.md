@@ -15,7 +15,7 @@ A collection of container information returned by [GameSaveContainerInfoQuery](g
 
 ## -property-value
 
-Type: **IVectorView\<;GameSaveContainerInfo>;** \[JavaScript/C++\] | [System.Collections.Generic.IReadOnlyList\<;GameSaveContainerInfo>;](https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1?redirectedfrom=MSDN) \[.NET\]
+Type: **IVectorView\<;GameSaveContainerInfo>;** \[JavaScript/C++\] | [System.Collections.Generic.IReadOnlyList\<;GameSaveContainerInfo>;](/dotnet/api/system.collections.generic.ireadonlylist-1?view=dotnet-uwp-10.0&preserve-view=true) \[.NET\]
 
 Collection of container information returned by [GameSaveContainerInfoQuery](gamesavecontainerinfoquery.md).
 

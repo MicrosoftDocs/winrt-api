@@ -13,11 +13,11 @@ public class Appointment : Windows.ApplicationModel.Appointments.IAppointment, W
 Represents an appointment in a calendar. This class is used when an app is activated using the **AppointmentsProvider** value for [ActivationKind](../windows.applicationmodel.activation/activationkind.md), as a value for [AppointmentInformation](../windows.applicationmodel.appointments.appointmentsprovider/addappointmentoperation_appointmentinformation.md) properties.
 
 ## -remarks
-For info about how to manage appointments, see [Managing appointments](https://docs.microsoft.com/windows/uwp/contacts-and-calendar/managing-appointments) and [Quickstart: Managing appointments ](https://docs.microsoft.com/previous-versions/windows/apps/dn495338(v=win.10)).
+For info about how to manage appointments, see [Managing appointments](/windows/uwp/contacts-and-calendar/managing-appointments) and [Quickstart: Managing appointments ](/previous-versions/windows/apps/dn495338(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[Appointments API sample](https://go.microsoft.com/fwlink/p/?linkid=309836)
+[Appointments API sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Appointments)
 ## -capabilities
 appointmentsSystem

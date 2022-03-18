@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty AutoPlayProperty { get; }
 ## -description
 Identifies the [AutoPlay](mediaelement_autoplay.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.AutoPlayProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.autoplayproperty).
+
 ## -property-value
 The identifier for the [AutoPlay](mediaelement_autoplay.md) dependency property.
 

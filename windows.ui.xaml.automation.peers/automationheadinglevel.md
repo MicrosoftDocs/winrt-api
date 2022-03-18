@@ -12,6 +12,8 @@ public enum AutomationHeadingLevel : int
 ## -description
 Defines the heading levels for UI Automation elements.
 
+Equivalent WinUI enum: [Microsoft.UI.Xaml.Automation.Peers.AutomationHeadingLevel](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationheadinglevel).
+
 ## -enum-fields
 ### -field None:0
 Not a heading.
@@ -46,6 +48,6 @@ Heading level 9.
 ## -remarks
 
 ## -see-also
-[Landmarks and Headings](https://docs.microsoft.com/windows/uwp/design/accessibility/landmarks-and-headings), [AutomationPeer.GetHeadingLevel](automationpeer_getheadinglevel_1176568834.md), [AutomationPeer.GetHeadingLevelCore](automationpeer_getheadinglevelcore_1105552106.md), [AutomationProperties.GetHeadingLevel](../windows.ui.xaml.automation/automationproperties_getheadinglevel_655629781.md), [AutomationProperties.SetHeadingLevel](../windows.ui.xaml.automation/automationproperties_setheadinglevel_870496555.md)
+[Landmarks and Headings](/windows/uwp/design/accessibility/landmarks-and-headings), [AutomationPeer.GetHeadingLevel](automationpeer_getheadinglevel_1176568834.md), [AutomationPeer.GetHeadingLevelCore](automationpeer_getheadinglevelcore_1105552106.md), [AutomationProperties.GetHeadingLevel](../windows.ui.xaml.automation/automationproperties_getheadinglevel_655629781.md), [AutomationProperties.SetHeadingLevel](../windows.ui.xaml.automation/automationproperties_setheadinglevel_870496555.md)
 
 ## -examples

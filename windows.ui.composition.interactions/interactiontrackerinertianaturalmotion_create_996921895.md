@@ -13,6 +13,8 @@ public InteractionTrackerInertiaNaturalMotion InteractionTrackerInertiaNaturalMo
 
 Creates an instance of [InteractionTrackerInertiaNaturalMotion](interactiontrackerinertianaturalmotion.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaNaturalMotion.Create](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertianaturalmotion.create).
+
 ## -parameters
 ### -param compositor
 

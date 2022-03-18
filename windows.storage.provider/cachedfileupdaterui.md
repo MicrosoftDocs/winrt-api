@@ -16,13 +16,11 @@ Used to interact with the file picker if your app provides file updates through 
 
 ## -remarks
 
-In JavaScript, retrieve a CachedFileUpdaterUI object using the [webuiCachedFileUpdaterActivatedEventArgs.cachedFileUpdaterUI](../windows.ui.webui/webuicachedfileupdateractivatedeventargs_cachedfileupdaterui.md) property.
-
-In C#, C++, and VB, retrieve a CachedFileUpdaterUI object using the [CachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs_cachedfileupdaterui.md) property.
+Retrieve a CachedFileUpdaterUI object using the [CachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs_cachedfileupdaterui.md) property.
 
 ## -examples
 
-The [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536) demonstrates how to respond to a [cachedFileUpdater](../windows.applicationmodel.activation/activationkind.md) activated event.
+The [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts) demonstrates how to respond to a [CachedFileUpdater](../windows.applicationmodel.activation/activationkind.md) activated event.
 
 ```csharp
 
@@ -56,40 +54,8 @@ public void Activate(CachedFileUpdaterActivatedEventArgs args)
         }
 ```
 
-```javascript
-
-// cachedFileUpdater activated event handler
-function activated(eventObject) {
-        // Identify whether app was launched for cachedFileUpdater
-        if (eventObject.detail.kind === Windows.ApplicationModel.Activation.ActivationKind.cachedFileUpdater) {
-            // Perform tasks to prepare your app to display its file picker page
-
-            // Get file picker UI
-            cachedFileUpdaterUI = eventObject.detail.cachedFileUpdaterUI;
-
-            cachedFileUpdaterUI.addEventListener("fileupdaterequested", onFileUpdateRequest);
-            cachedFileUpdaterUI.addEventListener("uirequested", onUIRequested);
-
-            switch (cachedFileUpdaterUI.updateTarget) {
-                case Windows.Storage.Provider.CachedFileTarget.local:
-                    scenarios = [{ url: "/html/cachedFileUpdaterScenario1.html", title: "Get latest version" }];
-                    break;
-                case Windows.Storage.Provider.CachedFileTarget.remote:
-                    scenarios = [{ url: "/html/cachedFileUpdaterScenario2.html", title: "Remote file update" }];
-                    break;
-            }
-            SdkSample.scenarios = scenarios;
-        }
-    }
-
-// Register the activated event handler
-WinJS.Application.addEventListener("activated", activated, false);
-```
-
-For JavaScript, `eventObject` contains a [webUICachedFileUpdaterActivatedEventArgs](../windows.ui.webui/webuicachedfileupdateractivatedeventargs.md) object.
-
-For C#, `args` contains a [CachedFileUpdaterActivatedEventArgs](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs.md) object. Additionally, the `OnCachedFileUpdaterActivated` is in the App.xaml.cs file and the `Activate` method is in the CachedFileUpdaterPage.xaml.cs file of the [File picker contracts sample](https://go.microsoft.com/fwlink/p/?linkid=231536).
+For C#, `args` contains a [CachedFileUpdaterActivatedEventArgs](../windows.applicationmodel.activation/cachedfileupdateractivatedeventargs.md) object. Additionally, the `OnCachedFileUpdaterActivated` is in the App.xaml.cs file and the `Activate` method is in the CachedFileUpdaterPage.xaml.cs file of the [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts).
 
 ## -see-also
 
-[File picker provider sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620543)
+[File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts)

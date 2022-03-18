@@ -10,7 +10,7 @@ public void SetDefaultPackageVolume(Windows.Management.Deployment.PackageVolume 
 # Windows.Management.Deployment.PackageManager.SetDefaultPackageVolume
 
 ## -description
-Sets the default package volume, which is the target of deployment operations such as the [AddPackageAsync](/uwp/api/windows.management.deployment.packagemanager.addpackageasync) method.
+Sets the default [Package](/uwp/api/windows.applicationmodel.package) volume, which is the target of deployment operations such as the [AddPackageAsync](/uwp/api/windows.management.deployment.packagemanager.addpackageasync) method.
 
 ## -parameters
 ### -param volume
@@ -22,6 +22,7 @@ The default package volume, which is the target of deployment operations such as
 
 ## -see-also
 
+[Package](/uwp/api/windows.applicationmodel.package)
 
 ## -capabilities
 packageManagement

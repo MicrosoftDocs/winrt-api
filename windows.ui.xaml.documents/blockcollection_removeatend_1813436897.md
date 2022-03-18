@@ -12,6 +12,8 @@ public void RemoveAtEnd()
 ## -description
 Removes the last item in the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.BlockCollection.RemoveAtEnd](/windows/winui/api/microsoft.ui.xaml.documents.blockcollection.removeatend).
+
 ## -remarks
 
 ## -examples

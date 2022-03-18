@@ -5,9 +5,9 @@
 
 <!-- Enumeration syntax.
 public enum GameControllerSwitchKind : int {
-	EightWay = 2
-	FourWay = 1
-	TwoWay = 0
+    EightWay = 2
+    FourWay = 1
+    TwoWay = 0
 }
 -->
 
@@ -19,15 +19,15 @@ The type of switch on the game controller.
 
 ## -enum-fields
 
-## -field TwoWay:0
+### -field TwoWay:0
 
 A two-way switch, which has **Up**, **Down**, and **Center** positions.
 
-## -field FourWay:1
+### -field FourWay:1
 
 A four-way switch, which has **Up**, **Down**, **Left**, **Right**, and **Center** positions.
 
-## -field EightWay:2
+### -field EightWay:2
 
 An eight-way switch, which has all positions in the **GameControllerSwitchPosition** enumeration.
 
@@ -35,6 +35,6 @@ An eight-way switch, which has all positions in the **GameControllerSwitchPositi
 
 ## -see-also
 
-* [GameControllerSwitchPosition](gamecontrollerswitchposition.md)
+[GameControllerSwitchPosition](gamecontrollerswitchposition.md)
 
 ## -examples

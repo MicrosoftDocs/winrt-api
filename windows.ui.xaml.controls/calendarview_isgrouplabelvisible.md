@@ -14,6 +14,8 @@ Gets or sets a value that indicates whether the month name is shown with the fir
 month when the DisplayMode is Month, or whether the year name is shown with the first month of the year 
 when the DisplayMode is Year.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.IsGroupLabelVisible](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.isgrouplabelvisible).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView IsGroupLabelVisible="bool" .../>

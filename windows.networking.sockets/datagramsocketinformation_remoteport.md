@@ -23,7 +23,7 @@ An app can set the remote hostname or IP address and remote service name or UDP 
 ## -examples
 
 ## -see-also
-[How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/hh780596(v=win.10)), [How to use advanced socket controls ](https://docs.microsoft.com/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.ConnectAsync](datagramsocket_connectasync_13692504.md), [DatagramSocket.GetOutputStreamAsync](datagramsocket_getoutputstreamasync_1619245957.md), [LocalAddress](datagramsocketinformation_localaddress.md), [LocalPort](datagramsocketinformation_localport.md), [RemoteAddress](datagramsocketinformation_remoteaddress.md)
+[How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.ConnectAsync](datagramsocket_connectasync_13692504.md), [DatagramSocket.GetOutputStreamAsync](datagramsocket_getoutputstreamasync_1619245957.md), [LocalAddress](datagramsocketinformation_localaddress.md), [LocalPort](datagramsocketinformation_localport.md), [RemoteAddress](datagramsocketinformation_remoteaddress.md)
 
 ## -capabilities
 ID_CAP_NETWORKING [Windows Phone]

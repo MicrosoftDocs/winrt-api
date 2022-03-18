@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty DirectionProperty { get; }
 ## -description
 Identifies the [Direction](dragoverthemeanimation_direction.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DragOverThemeAnimation.DirectionProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.dragoverthemeanimation.directionproperty).
+
 ## -property-value
 The identifier for the [Direction](dragoverthemeanimation_direction.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [Direction](dragoverthemeanimation_direction.md) dependen
 ## -examples
 
 ## -see-also
-[Animating drag-and-drop sequences](https://docs.microsoft.com/previous-versions/windows/apps/jj649427(v=win.10)), [Guidelines and checklist for drag-and-drop animations](https://docs.microsoft.com/windows/uwp/style/motion-dragdrop)
+[Animating drag-and-drop sequences](/previous-versions/windows/apps/jj649427(v=win.10)), [Guidelines and checklist for drag-and-drop animations](/windows/uwp/style/motion-dragdrop)

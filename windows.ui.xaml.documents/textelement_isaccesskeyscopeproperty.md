@@ -12,6 +12,8 @@ public DependencyProperty IsAccessKeyScopeProperty { get; }
 ## -description
 Identifies the **IsAccessKeyScope** dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.IsAccessKeyScopeProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.isaccesskeyscopeproperty).
+
 ## -property-value
 The identifier for the **IsAccessKeyScope** dependency property.
 

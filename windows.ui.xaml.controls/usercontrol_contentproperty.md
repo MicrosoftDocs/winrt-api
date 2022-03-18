@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ContentProperty { get; }
 ## -description
 Identifies the [Content](usercontrol_content.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.UserControl.ContentProperty](/windows/winui/api/microsoft.ui.xaml.controls.usercontrol.contentproperty).
+
 ## -property-value
 The identifier for the [Content](usercontrol_content.md) dependency property.
 

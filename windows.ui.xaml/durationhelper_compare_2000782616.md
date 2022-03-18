@@ -11,7 +11,9 @@ public int Compare(Windows.UI.Xaml.Duration duration1, Windows.UI.Xaml.Duration 
 
 ## -description
 
-Compares value equality of two [Duration](duration.md) structures. C# and Microsoft Visual Basic code should use [Duration.Compare](/dotnet/api/windows.ui.xaml.duration.compare) instead.
+Compares value equality of two [Duration](duration.md) structures. C# and Microsoft Visual Basic code should use [Duration.Compare](/dotnet/api/windows.ui.xaml.duration.compare?view=dotnet-uwp-10.0&preserve-view=true) instead.
+
+Equivalent WinUI method: [Microsoft.UI.Xaml.DurationHelper.Compare](/windows/winui/api/microsoft.ui.xaml.durationhelper.compare).
 
 ## -parameters
 

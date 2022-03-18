@@ -15,7 +15,7 @@ Size, in bytes, of the blob.
 
 ## -property-value
 
-Type: **Number** \[JavaScript\] | [System.UInt32](https://docs.microsoft.com/dotnet/api/system.uint32?redirectedfrom=MSDN) \[.NET\] | **uint32** \[C++\]
+Type: **Number** \[JavaScript\] | [System.UInt32](/dotnet/api/system.uint32?view=dotnet-uwp-10.0&preserve-view=true) \[.NET\] | **uint32** \[C++\]
 
 ## -remarks
 

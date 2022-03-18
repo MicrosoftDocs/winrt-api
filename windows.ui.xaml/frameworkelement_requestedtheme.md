@@ -12,6 +12,8 @@ public Windows.UI.Xaml.ElementTheme RequestedTheme { get;  set; }
 ## -description
 Gets or sets the UI theme that is used by the [UIElement](uielement.md) (and its child elements) for resource determination. The UI theme you specify with RequestedTheme can override the app-level [RequestedTheme](application_requestedtheme.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.RequestedTheme](/windows/winui/api/microsoft.ui.xaml.frameworkelement.requestedtheme).
+
 ## -xaml-syntax
 ```xaml
 <uiElement RequestedTheme="elementThemeMemberName" .../>
@@ -36,7 +38,7 @@ The RequestedTheme value you set on a [FrameworkElement](frameworkelement.md) wi
 
 
 
-The RequestedTheme property is ignored if the user is running in high contrast mode. See [High-contrast themes](https://docs.microsoft.com/windows/uwp/accessibility/high-contrast-themes) and [XAML high contrast style sample](https://go.microsoft.com/fwlink/p/?LinkID=254993).
+The RequestedTheme property is ignored if the user is running in high contrast mode. See [High-contrast themes](/windows/uwp/accessibility/high-contrast-themes) and [XAML high contrast style sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20high%20contrast%20style%20sample).
 
 
 
@@ -46,4 +48,4 @@ The RequestedTheme property is ignored if the user is running in high contrast m
 ## -examples
 
 ## -see-also
-[Application.RequestedTheme](application_requestedtheme.md), [XAML requested theme sample](https://go.microsoft.com/fwlink/p/?LinkId=306608), [{ThemeResource} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/themeresource-markup-extension)
+[Application.RequestedTheme](application_requestedtheme.md), [XAML requested theme sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/XAML%20requested%20theme%20sample), [{ThemeResource} markup extension](/windows/uwp/xaml-platform/themeresource-markup-extension)

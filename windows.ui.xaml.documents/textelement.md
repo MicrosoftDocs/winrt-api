@@ -12,6 +12,8 @@ public class TextElement : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Doc
 ## -description
 An abstract class used as the base class for the also-abstract [Block](block.md) and [Inline](inline.md) classes. TextElement supports common API for classes involved in the XAML text object model, such as properties that control text size, font families and so on.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.TextElement](/windows/winui/api/microsoft.ui.xaml.documents.textelement).
+
 ## -remarks
 The various properties defined by TextElement support a common API for classes involved in the XAML text object model. Here's a list of the most commonly used properties:
 + [FontFamily](textelement_fontfamily.md)
@@ -32,11 +34,11 @@ TextElement defines API that support examining the text object model as programm
 
  TextElement has four properties that provide access to [TextPointer](textpointer.md) objects from within text. These properties are: [ContentStart](textelement_contentstart.md), [ContentEnd](textelement_contentend.md), [ElementStart](textelement_elementstart.md), [ElementEnd](textelement_elementend.md). A Windows Runtime  [TextPointer](textpointer.md) object gives you an entry point for traversal of content. For more info, see [TextPointer](textpointer.md).
 
-TextElement is a class derived from [DependencyObject](../windows.ui.xaml/dependencyobject.md). That means it can define dependency properties, and each of the read-write properties of TextElement is a dependency property, with its property identifier also defined by TextElement. For more info on what dependency properties enable, see [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview).
+TextElement is a class derived from [DependencyObject](../windows.ui.xaml/dependencyobject.md). That means it can define dependency properties, and each of the read-write properties of TextElement is a dependency property, with its property identifier also defined by TextElement. For more info on what dependency properties enable, see [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).
 
 ### **TextElement** derived classes
 
-TextElement is the parent class for two derived classes that split the text object model into two text usage conventions: [Block](block.md), and [Inline](inline.md). [Block](block.md) and [Inline](inline.md) are both considered base classes (you don't typically see a `<Block>` tag in XAML) and exist in the hierarchy mainly to be the parent class of other practical text elements. For example, [Block](block.md) is the parent class of [Paragraph](paragraph.md). For more info on how to use block and inline elements, see [Quickstart: Displaying text](https://docs.microsoft.com/previous-versions/windows/apps/hh700392(v=win.10)).
+TextElement is the parent class for two derived classes that split the text object model into two text usage conventions: [Block](block.md), and [Inline](inline.md). [Block](block.md) and [Inline](inline.md) are both considered base classes (you don't typically see a `<Block>` tag in XAML) and exist in the hierarchy mainly to be the parent class of other practical text elements. For example, [Block](block.md) is the parent class of [Paragraph](paragraph.md). For more info on how to use block and inline elements, see [Quickstart: Displaying text](/previous-versions/windows/apps/hh700392(v=win.10)).
 
 ### Version history
 
@@ -59,4 +61,4 @@ TextElement is the parent class for two derived classes that split the text obje
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Block](block.md), [Inline](inline.md), [Typography](typography.md), [Quickstart: Displaying text](https://docs.microsoft.com/previous-versions/windows/apps/hh700392(v=win.10))
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [Block](block.md), [Inline](inline.md), [Typography](typography.md), [Quickstart: Displaying text](/previous-versions/windows/apps/hh700392(v=win.10))

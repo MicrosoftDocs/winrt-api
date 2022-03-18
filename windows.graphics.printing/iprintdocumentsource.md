@@ -14,7 +14,7 @@ public interface IPrintDocumentSource :
 The **IPrintDocumentSource** describes the source of the print document.
 
 ## -remarks
-This interface is implemented by the **[Windows.UI.Xaml.Printing.PrintDocument](https://docs.microsoft.com/uwp/api/windows.ui.xaml.printing.printdocument)** class. Its implementation must be carried through to the print system by the [SetSource](printtasksourcerequestedargs_setsource_1925283600.md) method in [PrintTaskSourceRequestedArgs](printtasksourcerequestedargs.md).
+This interface is implemented by the **[Windows.UI.Xaml.Printing.PrintDocument](/uwp/api/windows.ui.xaml.printing.printdocument)** class. Its implementation must be carried through to the print system by the [SetSource](printtasksourcerequestedargs_setsource_1925283600.md) method in [PrintTaskSourceRequestedArgs](printtasksourcerequestedargs.md).
 
 ## -examples
 

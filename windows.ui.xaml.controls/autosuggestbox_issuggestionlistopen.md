@@ -12,6 +12,8 @@ public bool IsSuggestionListOpen { get;  set; }
 ## -description
 Gets or sets a Boolean value indicating whether the drop-down portion of the [AutoSuggestBox](autosuggestbox.md) is open.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.IsSuggestionListOpen](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.issuggestionlistopen).
+
 ## -property-value
 A Boolean value indicating whether the drop-down portion of the [AutoSuggestBox](autosuggestbox.md) is open.
 

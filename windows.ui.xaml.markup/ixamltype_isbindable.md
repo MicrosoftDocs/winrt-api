@@ -12,6 +12,8 @@ public bool IsBindable { get; }
 ## -description
 Gets a value that declares whether the type is bindable.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlType.IsBindable](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.isbindable).
+
 ## -property-value
 **true** if the type is bindable, **false** if the type is not bindable.
 
@@ -21,4 +23,4 @@ The value of this property corresponds to application of the [BindableAttribute]
 ## -examples
 
 ## -see-also
-[XAML overview](https://docs.microsoft.com/windows/uwp/xaml-platform/xaml-overview)
+[XAML overview](/windows/uwp/xaml-platform/xaml-overview)

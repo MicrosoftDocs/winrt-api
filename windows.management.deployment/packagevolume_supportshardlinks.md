@@ -20,3 +20,6 @@ true if the volume supports the creation of hard links in its file system; other
 ## -examples
 
 ## -see-also
+
+[Package](/uwp/api/windows.applicationmodel.package)
+ 

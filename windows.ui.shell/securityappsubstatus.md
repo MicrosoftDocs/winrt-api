@@ -12,14 +12,24 @@ public enum SecurityAppSubstatus : int
 
 ## -description
 
+No description.
+
 ## -enum-fields
 ### -field Undetermined:0
 
+No description.
+
 ### -field NoActionNeeded:1
+
+No description.
 
 ### -field ActionRecommended:2
 
+No description.
+
 ### -field ActionNeeded:3
+
+No description.
 
 ## -remarks
 

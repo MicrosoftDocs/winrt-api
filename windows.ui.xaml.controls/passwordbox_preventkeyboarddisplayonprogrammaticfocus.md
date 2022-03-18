@@ -12,6 +12,8 @@ public bool PreventKeyboardDisplayOnProgrammaticFocus { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the on-screen keyboard is shown when the control receives focus programmatically.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.PreventKeyboardDisplayOnProgrammaticFocus](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.preventkeyboarddisplayonprogrammaticfocus).
+
 ## -xaml-syntax
 ```xaml
 <PasswordBox PreventKeyboardDisplayOnProgrammaticFocus="bool"/>

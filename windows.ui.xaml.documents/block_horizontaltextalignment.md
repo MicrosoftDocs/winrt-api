@@ -13,6 +13,8 @@ public TextAlignment HorizontalTextAlignment { get;  set; }
 
 Gets or sets a value that indicates how text is aligned in the Block.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Block.HorizontalTextAlignment](/windows/winui/api/microsoft.ui.xaml.documents.block.horizontaltextalignment).
+
 ## -xaml-syntax
 
 ```xaml

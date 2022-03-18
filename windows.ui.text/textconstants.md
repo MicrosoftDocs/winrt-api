@@ -12,6 +12,8 @@ public class TextConstants
 ## -description
 Defines a set of constants that are used with various methods in the [Windows.UI.Text](windows_ui_text.md) namespace.
 
+Equivalent WinUI class: [Microsoft.UI.Text.TextConstants](/windows/winui/api/microsoft.ui.text.textconstants).
+
 ## -remarks
 
 ## -examples

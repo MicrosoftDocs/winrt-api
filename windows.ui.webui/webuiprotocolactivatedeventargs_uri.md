@@ -20,4 +20,4 @@ The Uniform Resource Identifier (URI).
 ## -examples
 
 ## -see-also
-[Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [How to handle protocol activation](https://docs.microsoft.com/previous-versions/windows/apps/hh452686(v=win.10)), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [URI](../windows.foundation/uri.md), [WebUIApplication.ActivatedEventHandler](activatedeventhandler.md), [WinJS.Application.onactivated](https://docs.microsoft.com/previous-versions/windows/apps/br212679(v=win.10))
+[Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Association%20launching%20sample), [How to handle protocol activation](/previous-versions/windows/apps/hh452686(v=win.10)), [Guidelines for file types and URIs](/windows/uwp/files/index), [URI](../windows.foundation/uri.md), [WebUIApplication.ActivatedEventHandler](activatedeventhandler.md), [WinJS.Application.onactivated](/previous-versions/windows/apps/br212679(v=win.10))

@@ -10,7 +10,9 @@ public class AmbientLight : Windows.UI.Composition.CompositionLight, Windows.UI.
 # Windows.UI.Composition.AmbientLight
 
 ## -description
-A light that illuminates every targeted Visual equally.
+A light that illuminates every targeted Visual equally .
+
+Equivalent WinUI class: [Microsoft.UI.Composition.AmbientLight](/windows/winui/api/microsoft.ui.composition.ambientlight).
 
 ## -remarks
 AmbientLight is one of the four light types derived from [CompositionLight](compositionlight.md).

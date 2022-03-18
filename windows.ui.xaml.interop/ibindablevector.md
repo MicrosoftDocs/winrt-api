@@ -15,10 +15,12 @@ Represents a writeable vector collection of objects that is bindable.
 
 
 > **.NET**
-> This interface appears as [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN).
+> This interface appears as [System.Collections.IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true).
+
+Equivalent WinUI interface: [Microsoft.UI.Xaml.Interop.IBindableVector](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector).
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) interface.
+When programming with .NET, this interface is hidden and developers should use the [System.Collections.IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true) interface.
 
 ### Interface inheritance
 
@@ -27,4 +29,4 @@ IBindableVector inherits [IBindableIterable](ibindableiterable.md). Types that i
 ## -examples
 
 ## -see-also
-[IBindableIterable](ibindableiterable.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)
+[IBindableIterable](ibindableiterable.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind)

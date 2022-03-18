@@ -10,10 +10,10 @@ public string EncodingBitrate { get; }
 # Windows.Storage.SystemAudioProperties.EncodingBitrate
 
 ## -description
-Gets the name of the [System.Audio.EncodingBitrate](https://docs.microsoft.com/windows/desktop/properties/props-system-audio-encodingbitrate) property (one of the [Windows audio file properties](https://docs.microsoft.com/windows/desktop/properties/audio-bumper)).
+Gets the name of the [System.Audio.EncodingBitrate](/windows/desktop/properties/props-system-audio-encodingbitrate) property (one of the [Windows audio file properties](/windows/desktop/properties/audio-bumper)).
 
 ## -property-value
-The name of the [System.Audio.EncodingBitrate](https://docs.microsoft.com/windows/desktop/properties/props-system-audio-encodingbitrate) property.
+The name of the [System.Audio.EncodingBitrate](/windows/desktop/properties/props-system-audio-encodingbitrate) property.
 
 ## -remarks
 

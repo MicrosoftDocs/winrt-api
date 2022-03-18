@@ -12,6 +12,8 @@ public void PageDown()
 ## -description
 Scrolls content by one page toward the bottom.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.PageDown](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.pagedown).
+
 ## -remarks
 This implementation calls [SetVerticalOffset](orientedvirtualizingpanel_setverticaloffset_1333703417.md) using a value for "page" that is same as the [ViewportHeight](orientedvirtualizingpanel_viewportheight.md). 
 <!--Override the method and call <xref targtype="method_winrt" rid="w_ui_xaml_ctrl_prim.orientedvirtualizingpanel_setverticaloffset"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SetVerticalOffset</xref> using a different measurement to change the interpretation of "page" for a derivation of 

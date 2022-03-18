@@ -10,6 +10,8 @@ public delegate void CalendarViewDayItemChangingEventHandler(Windows.UI.Xaml.Con
 ## -description
 Represents the method that will handle the [CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md) event.
 
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.CalendarViewDayItemChangingEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitemchangingeventhandler).
+
 ## -parameters
 ### -param sender
 The object where the event handler is attached.

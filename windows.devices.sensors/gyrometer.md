@@ -17,7 +17,7 @@ This sensor returns angular velocity values with respect to the x, y, and z axes
 For an example implementation, see the [gyrometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Gyrometer).
 
 ## -remarks
-Sensor data is provided relative to the device's fixed sensor coordinate system, and is independent of display orientation. For applications that rely on sensor data for input control or to manipulate elements on the screen, the developer must take current display orientation into account and compensate the data appropriately. For more info about the sensor coordinate system, see [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)).
+Sensor data is provided relative to the device's fixed sensor coordinate system, and is independent of display orientation. For applications that rely on sensor data for input control or to manipulate elements on the screen, the developer must take current display orientation into account and compensate the data appropriately. For more info about the sensor coordinate system, see [Sensor data and display orientation](/previous-versions/windows/apps/dn440593(v=win.10)).
 
 The following example demonstrates how a UWP app built with XAML and C# uses the [GetDefault](gyrometer_getdefault_846721868.md) method to establish a connection to a gyrometer. If no integrated gyrometer is found, the method will return a null value.
 
@@ -39,8 +39,9 @@ The following example shows the [ReadingChanged](gyrometer_readingchanged.md) ev
 | 1709 | 16299 | GetDeviceSelector |
 | 1709 | 16299 | MaxBatchSize |
 | 1709 | 16299 | ReportLatency |
+| 2004 | 19041 | ReportThreshold |
 
 ## -examples
 
 ## -see-also
-[Gyrometer Sample](https://go.microsoft.com/fwlink/p/?linkid=241379), [Sensor data and display orientation](https://docs.microsoft.com/previous-versions/windows/apps/dn440593(v=win.10)), [Gyrometer sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620548)
+[Gyrometer Sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Gyrometer), [Sensor data and display orientation](/previous-versions/windows/apps/dn440593(v=win.10))

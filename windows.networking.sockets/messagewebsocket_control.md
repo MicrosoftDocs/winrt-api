@@ -40,4 +40,4 @@ Changes to any other property values on the [MessageWebSocketControl](messageweb
 ## -examples
 
 ## -see-also
-[How to use advanced WebSocket controls](https://docs.microsoft.com/previous-versions/windows/apps/hh761447(v=win.10)), [MaxMessageSize](messagewebsocketcontrol_maxmessagesize.md), [MessageType](messagewebsocketcontrol_messagetype.md), [MessageWebSocketControl](messagewebsocketcontrol.md), [OutboundBufferSizeInBytes](messagewebsocketcontrol_outboundbuffersizeinbytes.md), [ProxyCredential](messagewebsocketcontrol_proxycredential.md), [SupportedProtocols](messagewebsocketcontrol_supportedprotocols.md)
+[How to use advanced WebSocket controls](/previous-versions/windows/apps/hh994400(v=win.10)), [MaxMessageSize](messagewebsocketcontrol_maxmessagesize.md), [MessageType](messagewebsocketcontrol_messagetype.md), [MessageWebSocketControl](messagewebsocketcontrol.md), [OutboundBufferSizeInBytes](messagewebsocketcontrol_outboundbuffersizeinbytes.md), [ProxyCredential](messagewebsocketcontrol_proxycredential.md), [SupportedProtocols](messagewebsocketcontrol_supportedprotocols.md)

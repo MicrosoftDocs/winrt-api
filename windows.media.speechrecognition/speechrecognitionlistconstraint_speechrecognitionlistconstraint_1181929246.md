@@ -21,4 +21,4 @@ A string array of words or phrases that make up the constraint.
 ## -examples
 
 ## -see-also
-[SpeechRecognitionListConstraint(IIterable(String), String)](speechrecognitionlistconstraint_speechrecognitionlistconstraint_177128098.md), [Speech interactions](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech design guidelines](https://docs.microsoft.com/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://go.microsoft.com/fwlink/p/?LinkID=619897)
+[SpeechRecognitionListConstraint(IIterable(String), String)](speechrecognitionlistconstraint_speechrecognitionlistconstraint_177128098.md), [Speech interactions](/windows/uwp/input-and-devices/speech-interactions), [Speech recognition and speech synthesis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SpeechRecognitionAndSynthesis)

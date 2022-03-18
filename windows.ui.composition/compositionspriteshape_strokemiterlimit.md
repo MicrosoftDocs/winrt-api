@@ -13,6 +13,8 @@ public float StrokeMiterLimit { get;  set; }
 
 Gets or sets a limit on the ratio of the miter length to half the [StrokeThickness](compositionspriteshape_strokethickness.md) of a shape element.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSpriteShape.StrokeMiterLimit](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.strokemiterlimit).
+
 ## -property-value
 
 The limit on the ratio of the miter length to the [StrokeThickness](compositionspriteshape_strokethickness.md) of a shape element. This value is always a positive number that is greater than or equal to 1.

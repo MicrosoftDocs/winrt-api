@@ -9,13 +9,10 @@ public CortanaPermissionsManager CortanaPermissionsManager.GetDefault()
 
 # Windows.Services.Cortana.CortanaPermissionsManager.GetDefault
 
+
 ## -description
 
 Retrieves the Cortana permissions for the current user.
-
-## -parameters
-
-A CortanaPermissionsManager object.
 
 ## -returns
 
@@ -36,3 +33,4 @@ The [CortanaPermissionManager](cortanapermissionsmanager.md) class requires the 
 ## -see-also
 
 ## -examples
+

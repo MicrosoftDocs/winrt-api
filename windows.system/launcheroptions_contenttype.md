@@ -22,10 +22,10 @@ The **ContentType** property allows your app to specify a URI along with a conte
 
 If the handler is unable to work directly on the URI, a copy of the file will be downloaded on their behalf.
 
-Because **ContentType** allows you to directly launch a file handler the same security checks that apply to file launching apply to URI launches with this option specified. See [Launch the default app for a file](https://docs.microsoft.com/windows/uwp/launch-resume/launch-the-default-app-for-a-file) and [How to launch the default app for a file (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452687(v=win.10)) for more details on those security checks. 
+Because **ContentType** allows you to directly launch a file handler the same security checks that apply to file launching apply to URI launches with this option specified. See [Launch the default app for a file](/windows/uwp/launch-resume/launch-the-default-app-for-a-file) for more details on those security checks. 
 
 > [!NOTE]
-> This functionality only works if the default file handler supports being passed a URI to a file on the network. The default file handler must also be able to authenticate with the file’s server. Because of these limitations you should only use the **ContentType** property if you have thoroughly tested the end to end scenario between your app and the app’s that you expect to handle the files being launched
+> This functionality only works if the default file handler supports being passed a URI to a file on the network. The default file handler must also be able to authenticate with the file's server. Because of these limitations you should only use the **ContentType** property if you have thoroughly tested the end to end scenario between your app and the app's that you expect to handle the files being launched
 
 > [!IMPORTANT]
 > This property is only implemented on Desktop devices.
@@ -40,7 +40,7 @@ var uri = new Uri(uriToLaunch);
 
 async void DefaultLaunch()
 {
-   // Set the URI’s content type
+   // Set the URI's content type
    var options = new Windows.System.LauncherOptions();
    options.ContentType = "application/vnd.ms-word.document.12";
 
@@ -80,13 +80,13 @@ Windows::Foundation::IAsyncAction MainPage::DefaultLaunch()
 }
 ```
 
-```cpp
+```cppcx
 // The URI to launch.
 auto uri = ref new Windows::Foundation::Uri("http://www.contoso.com/SomeFile.docx");
 
 void MainPage::DefaultLaunch()
 {
-   // Set the URI’s content type
+   // Set the URI's content type
    auto launchOptions = ref new Windows::System::LauncherOptions();
    launchOptions->ContentType = "application/vnd.ms-word.document.12";
 
@@ -106,34 +106,13 @@ void MainPage::DefaultLaunch()
 }
 ```
 
-```javascript
-// The URI to launch
-var uriToLaunch = "http://www.contoso.com/SomeFile.docx";
-
-// Create a Uri object from a URI string 
-var uri = new Windows.Foundation.Uri(uriToLaunch);
-
-// Set the URI’s content type
-var options = new Windows.System.LauncherOptions();
-options.contentType = "application/vnd.ms-word.document.12";
-
-Windows.System.Launcher.launchUriAsync(uri, options).then(
-   function (success) {
-      if (success) {
-         // URI launched
-      } else {
-         // URI launch failed
-      }
-   });
-```
-
 ```vb
 ' The URI to launch
 Dim uri As New Uri("http://www.contoso.com/SomeFile.docx")
 
 async Sub DefaultLaunch()
 
-   ' Set the URI’s content type
+   ' Set the URI's content type
    Dim options = Windows.System.LauncherOptions()
    options.ContentType = "application/vnd.ms-word.document.12"
 
@@ -150,4 +129,4 @@ End Sub
 ```
 
 ## -see-also
-[Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [How to launch the default app for a file (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452687(v=win.10)), [Launch the default app for a file](https://docs.microsoft.com/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [How to launch the default app for a URI (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452690(v=win.10)), [Launch the default app for a URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md), [Launcher.LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md)
+[Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [Launch the default app for a file](/windows/uwp/launch-resume/launch-the-default-app-for-a-file), [Launch the default app for a URI](/windows/uwp/launch-resume/launch-default-app), [Guidelines for file types and URIs](/windows/uwp/files/index), [Launcher.LaunchFileAsync(IStorageFile, LauncherOptions)](launcher_launchfileasync_1480137410.md), [Launcher.LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md)

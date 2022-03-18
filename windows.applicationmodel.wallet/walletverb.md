@@ -10,6 +10,9 @@ public class WalletVerb : Windows.ApplicationModel.Wallet.IWalletVerb
 # Windows.ApplicationModel.Wallet.WalletVerb
 
 ## -description
+> [!CAUTION]
+> The ApplicationModel.Wallet namespace is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Represents a wallet verb, which is potentially used for app activation. This is a string suitable for UI that is descriptive of the action.
 
 ## -remarks
@@ -22,7 +25,7 @@ A WalletVerb object represents the individual items for the [WalletItem.Verbs](w
 
 The verb is a cue to the app of which UI to display on activation, which might be specific to the verb that was chosen by the user.
 
-For more info on using **Wallet** activation, see the "Handling app activation by Wallet " section of [Quickstart: Using the   APIs](https://docs.microsoft.com/previous-versions/windows/apps/dn631257(v=win.10)).
+For more info on using **Wallet** activation, see the "Handling app activation by Wallet " section of [Quickstart: Using the   APIs](/previous-versions/windows/apps/dn631257(v=win.10)).
 
 ## -examples
 

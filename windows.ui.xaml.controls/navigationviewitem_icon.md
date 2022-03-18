@@ -17,9 +17,7 @@ Gets or sets the icon to show next to the menu item text.
 
 ```xaml
 <NavigationViewItem Icon="symbolName" .../>
-```
-
-```xaml
+- or -
 <NavigationViewItem>
   <NavigationViewItem.Icon>
     iconElement
@@ -41,11 +39,13 @@ The icon to show next to the menu item text. The default in **null**.
 
 You can assign a value from the [Symbol](symbol.md) enumeration, or a Unicode string that references a glyph in the Segoe MDL2 Assets font.
 
-You can use the Character Map application that comes with Windows to browse the font's glyphs and find their Unicode values. Then, use the format **"&#x/_(UNICODE)_;"** in XAML, or the format **"\u/_(UNICODE)_"** in code, where **_(UNICODE)_** is the value of the glyph that indicates the location in the font file. 
+You can use the Character Map application that comes with Windows to browse the font's glyphs and find their Unicode values. Then, use the format `"&#x(UNICODE);"` in XAML, or the format `"\u(UNICODE)"` in code, where `(UNICODE)` is the value of the glyph that indicates the location in the font file. See [FontIcon](fonticon.md) for more examples.
 
 The Segoe MDL2 Assets font ships with Windows 10, and new glyphs might be added in every release. You should verify that the Unicode value you choose is available in the minimum SDK build version your project targets.
 
 ## -see-also
+
+[FontIcon](fonticon.md), [IconElement](iconelement.md)
 
 ## -examples
 

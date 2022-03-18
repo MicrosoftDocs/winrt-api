@@ -10,7 +10,9 @@ public void SetPropertyFromBoolean(System.Object dependencyObject, Windows.UI.Xa
 # Windows.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromBoolean
 
 ## -description
-Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value.
+Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) value.
+
+Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromBoolean](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromboolean).
 
 ## -parameters
 ### -param dependencyObject

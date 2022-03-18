@@ -9,12 +9,13 @@ public IBuffer NamedPolicyData.GetBinary()
 
 # Windows.Management.Policies.NamedPolicyData.GetBinary
 
+
 ## -description
+
 Gets the binary representation of the MDM policy value.
 
-## -params
-
 ## -returns
+
 IBuffer containing the binary value of the MDM policy.
 
 ## -remarks

@@ -12,6 +12,8 @@ public ListViewHeaderItemAutomationPeer(Windows.UI.Xaml.Controls.ListViewHeaderI
 ## -description
 Initializes a new instance of the [ListViewHeaderItemAutomationPeer](listviewheaderitemautomationpeer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.ListViewHeaderItemAutomationPeer.ListViewHeaderItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listviewheaderitemautomationpeer.#ctor).
+
 ## -parameters
 ### -param owner
 The [ListViewHeaderItem](../windows.ui.xaml.controls/listviewheaderitem.md) to create the peer for.

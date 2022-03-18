@@ -9,20 +9,29 @@ public LoadedImageSurface LoadedImageSurface.StartLoadFromUri(Uri uri, Size desi
 
 # Windows.UI.Xaml.Media.LoadedImageSurface.StartLoadFromUri
 
+
 ## -description
+
 Loads an image into a [LoadedImageSurface](loadedimagesurface.md) from the provided Uniform Resource Identifier (URI) with the desired maximum size.
 
-## -params
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.LoadedImageSurface.StartLoadFromUri](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface.startloadfromuri).
+
+## -parameters
+
 ### -param uri
+
 The URI from which the image is loaded.
 
 ### -param desiredMaxSize
+
 The desired maximum size of the image surface in device independent pixels.
 
 ## -returns
+
 An instance of [LoadedImageSurface](loadedimagesurface.md) with the image loaded onto its surface.
 
 ## -remarks
+
 By default, [LoadedImageSurface](loadedimagesurface.md) will fill up as much of the **desiredMaxSize** as possible while preserving the aspect ratio and image content
 of the incoming source. This may result in a decodedsize that differs from the input **desiredMaxSize**
 

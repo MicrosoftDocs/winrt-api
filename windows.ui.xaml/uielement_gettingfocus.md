@@ -13,6 +13,8 @@ public event TypedEventHandler GettingFocus<UIElement, GettingFocusEventArgs>
 
 Occurs before a [UIElement](uielement.md) receives focus. This event is raised synchronously to ensure focus isn't moved while the event is bubbling.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.GettingFocus](/windows/winui/api/microsoft.ui.xaml.uielement.gettingfocus).
+
 ## -xaml-syntax
 
 ```xaml
@@ -29,10 +31,10 @@ A control can get focus when another control loses focus, the application view c
 
 When programmatically navigating between elements, [FocusNavigationDirection.Previous](../windows.ui.xaml.input/focusnavigationdirection.md) and [FocusNavigationDirection.Next](../windows.ui.xaml.input/focusnavigationdirection.md) cannot be used with [FindNextElementOptions](../windows.ui.xaml.input/findnextelementoptions.md). Only [FocusNavigationDirection.Up](../windows.ui.xaml.input/focusnavigationdirection.md), [FocusNavigationDirection.Down](../windows.ui.xaml.input/focusnavigationdirection.md), [FocusNavigationDirection.Left](../windows.ui.xaml.input/focusnavigationdirection.md), or [FocusNavigationDirection.Right](../windows.ui.xaml.input/focusnavigationdirection.md) are valid.
 
-GettingFocus is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
+GettingFocus is a routed event. For more info on the routed event concept, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
 ## -see-also
 
-[GettingFocusEventArgs](../windows.ui.xaml.input/gettingfocuseventargs.md), [GotFocus](uielement_gotfocus.md), [LostFocus](uielement_lostfocus.md), [LosingFocusEvent](uielement_losingfocusevent.md), [LosingFocus](uielement_losingfocus.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview), [Keyboard interactions](https://docs.microsoft.com/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[GettingFocusEventArgs](../windows.ui.xaml.input/gettingfocuseventargs.md), [GotFocus](uielement_gotfocus.md), [LostFocus](uielement_lostfocus.md), [LosingFocusEvent](uielement_losingfocusevent.md), [LosingFocus](uielement_losingfocus.md), [Control.Focus](../windows.ui.xaml.controls/control_focus_195503898.md), [AddHandler](uielement_addhandler_2121467075.md), [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview), [Keyboard interactions](/windows/uwp/design/input/keyboard-interactions), [Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 ## -examples

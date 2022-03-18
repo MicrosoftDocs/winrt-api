@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.TransformCollection Children { get;  set; }
 ## -description
 Gets or sets the collection of child [Transform](transform.md) objects.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.TransformGroup.Children](/windows/winui/api/microsoft.ui.xaml.media.transformgroup.children).
+
 ## -xaml-syntax
 ```xaml
 <TransformGroup>

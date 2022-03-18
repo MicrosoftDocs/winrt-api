@@ -12,6 +12,8 @@ public CalendarView()
 ## -description
 Initializes a new instance of the [CalendarView](calendarview.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarView](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,6 +12,8 @@ public bool IsOpen { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [ToolTip](tooltip.md) is visible.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToolTip.IsOpen](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.isopen).
+
 ## -property-value
 **true** if the [ToolTip](tooltip.md) is visible; otherwise, **false**. The default is **false**.
 

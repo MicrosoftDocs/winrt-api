@@ -12,6 +12,8 @@ public double ExtentHeight { get; }
 ## -description
 Gets the vertical size of all the scrollable content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.ExtentHeight](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.extentheight).
+
 ## -property-value
 The vertical size of the all scrollable content.
 

@@ -13,6 +13,8 @@ public event TypedEventHandler CharacterReceived<UIElement, CharacterReceivedRou
 
 Occurs when a single, composed character is received by the input queue.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.CharacterReceived](/windows/winui/api/microsoft.ui.xaml.uielement.characterreceived).
+
 ## -xaml-syntax
 
 ```xaml
@@ -24,9 +26,9 @@ Occurs when a single, composed character is received by the input queue.
 > [!NOTE]
 > A composed character is a single visual object derived from a sequence of one or more other characters.
 
-CharacterReceived is a routed event. For more info on the routed event concept, see [Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview).
+CharacterReceived is a routed event. For more info on the routed event concept, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).
 
-Apps do not receive this event when an [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10)) is enabled. The Input Method Editor (IME) handles all keyboard input and sets [Handled](../windows.ui.xaml.input/characterreceivedroutedeventargs_handled.md) to true.
+Apps do not receive this event when an [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10)) is enabled. The Input Method Editor (IME) handles all keyboard input and sets [Handled](../windows.ui.xaml.input/characterreceivedroutedeventargs_handled.md) to true.
 
 This event is useful for text input scenarios such as "typeahead find or search" (also known as incremental search, incremental find, or real-time suggestions) where, as the user types, the control progressively searches for and filters text based on the characters in the input queue.
 

@@ -12,6 +12,8 @@ virtual protected string GetLocalizedControlTypeCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetLocalizedControlType](automationpeer_getlocalizedcontroltype_677460473.md) or an equivalent Microsoft UI Automation client API.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLocalizedControlTypeCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getlocalizedcontroltypecore).
+
 ## -returns
 The type of the control, as a string that is localized to be suitable for direct presentation to users by assistive technology.
 
@@ -21,4 +23,4 @@ This method is very rarely overridden by peers. So long as you provide a value f
 ## -examples
 
 ## -see-also
-[Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers)
+[Custom automation peers](/windows/uwp/accessibility/custom-automation-peers)

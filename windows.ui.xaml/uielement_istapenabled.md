@@ -12,6 +12,8 @@ public bool IsTapEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines whether the [Tapped](uielement_tapped.md) event can originate from that element.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.IsTapEnabled](/windows/winui/api/microsoft.ui.xaml.uielement.istapenabled).
+
 ## -xaml-syntax
 ```xaml
 <uiElementIsTapEnabled="bool" />
@@ -29,4 +31,4 @@ Another reason to suppress gesture events is if you are handling pointer-level e
 ## -examples
 
 ## -see-also
-[Tapped](uielement_tapped.md), [OnTapped](../windows.ui.xaml.controls/control_ontapped_449778764.md), [Handle pointer input](https://docs.microsoft.com/windows/uwp/design/input/handle-pointer-input)
+[Tapped](uielement_tapped.md), [OnTapped](../windows.ui.xaml.controls/control_ontapped_449778764.md), [Handle pointer input](/windows/uwp/design/input/handle-pointer-input)

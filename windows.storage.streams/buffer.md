@@ -13,9 +13,9 @@ public class Buffer : Windows.Storage.Streams.IBuffer
 Provides a default implementation of the [IBuffer](ibuffer.md) interface and its related interfaces.
 
 ## -remarks
-For more info, see [Create, write, and read a file](https://docs.microsoft.com/windows/uwp/files/quickstart-reading-and-writing-files), which shows how to read and write bytes to a file by using a Buffer.
+For more info, see [Create, write, and read a file](/windows/uwp/files/quickstart-reading-and-writing-files), which shows how to read and write bytes to a file by using a Buffer.
 
 ## -examples
 
 ## -see-also
-[Create, write, and read a file](https://docs.microsoft.com/windows/uwp/files/quickstart-reading-and-writing-files), [IBuffer](ibuffer.md)
+[Create, write, and read a file](/windows/uwp/files/quickstart-reading-and-writing-files), [IBuffer](ibuffer.md)

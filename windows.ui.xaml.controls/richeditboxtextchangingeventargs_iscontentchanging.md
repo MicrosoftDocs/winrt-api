@@ -12,6 +12,8 @@ public bool IsContentChanging { get; }
 ## -description
 Gets a value that indicates whether the event occured due to a change in the text content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBoxTextChangingEventArgs.IsContentChanging](/windows/winui/api/microsoft.ui.xaml.controls.richeditboxtextchangingeventargs.iscontentchanging).
+
 ## -property-value
 **true** if a change to the text content caused the event; otherwise, **false**.
 

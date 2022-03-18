@@ -20,4 +20,8 @@ An instance of [Windows.Networking.Connectivity.NetworkAdapter](../windows.netwo
 
 ## -examples
 
+See [Wi-Fi scanning sample](/samples/microsoft/windows-universal-samples/wifiscan/).
+
 ## -see-also
+
+[Wi-Fi scanning sample](/samples/microsoft/windows-universal-samples/wifiscan/)

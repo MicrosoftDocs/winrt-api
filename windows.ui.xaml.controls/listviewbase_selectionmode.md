@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ListViewSelectionMode SelectionMode { get;  set;
 ## -description
 Gets or sets the selection behavior for a [ListViewBase](listviewbase.md) instance.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.SelectionMode](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.selectionmode).
+
 ## -xaml-syntax
 ```xaml
 <listViewBase SelectionMode="listViewSelectionModeMemberName" />
@@ -26,18 +28,18 @@ One of the [ListViewSelectionMode](listviewselectionmode.md) enumeration values.
 
 ## -remarks
 By default, a user can select a single item in a view. You can set the SelectionMode property to a [ListViewSelectionMode](listviewselectionmode.md) enumeration value to enable multi-selection or to disable selection. Here are the selection mode values.<table>
-   <tr><td>[None](listviewselectionmode.md)</td><td>Item selection is disabled.</td></tr>
-   <tr><td>[Single](listviewselectionmode.md)</td><td>With no modifier keys:
+   <tr><td><a href="listviewselectionmode.md">None</a></td><td>Item selection is disabled.</td></tr>
+   <tr><td><a href="listviewselectionmode.md">Single</a></td><td>With no modifier keys:
 
 <ul><li>A user can select a single item using the space bar, mouse click, or touch tap.</li><li>A user can deselect an item using a downward swipe gesture.</li></ul>While pressing Ctrl:
 
 <ul><li>A user can deselect the item by using the space bar, mouse click, or touch tap.</li><li>Using the arrow keys, a user can move focus independently of selection.</li></ul></td></tr>
-   <tr><td>[Multiple](listviewselectionmode.md)</td><td>With no modifier keys:
+   <tr><td><a href="listviewselectionmode.md">Multiple</a></td><td>With no modifier keys:
 
 <ul><li>A user can select multiple items using the space bar, mouse click, or touch tap to toggle selection on the focused item.</li><li>Using the arrow keys, a user can move focus independently of selection.</li></ul></td></tr>
-   <tr><td>[Extended](listviewselectionmode.md)</td><td>With no modifier keys:
+   <tr><td><a href="listviewselectionmode.md">Extended</a></td><td>With no modifier keys:
 
-<ul><li>The behavior is the same as [Single](listviewselectionmode.md) selection.</li></ul>While pressing Ctrl:
+<ul><li>The behavior is the same as <a href="listviewselectionmode.md">Single</a> selection.</li></ul>While pressing Ctrl:
 
 <ul><li>A user can select multiple items using the space bar, mouse click, or touch tap to toggle selection on the focused item.</li><li>Using the arrow keys, a user can move focus independently of selection.</li></ul>While pressing Shift:
 
@@ -53,9 +55,9 @@ When SelectionMode is **Single**, use the [Selector.SelectedItem](../windows.ui.
 
 When item selection is disabled, you can make items respond to a user click like a button instead of being selected. To do this, set SelectionMode to [None](listviewselectionmode.md), the [IsItemClickEnabled](listviewbase_isitemclickenabled.md) property to **true**, and handle the [ItemClick](listviewbase_itemclick.md) event.
 
-For more info and examples, see [How to change the interaction mode](https://docs.microsoft.com/previous-versions/windows/apps/hh780625(v=win.10)).
+For more info and examples, see [How to change the interaction mode](/previous-versions/windows/apps/hh780625(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[SelectedItems](listviewbase_selecteditems.md), [Selector.SelectedItem](../windows.ui.xaml.controls.primitives/selector_selecteditem.md), [Selector.SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md), [Selector.SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md), [How to change the interaction mode](https://docs.microsoft.com/previous-versions/windows/apps/hh780625(v=win.10))
+[SelectedItems](listviewbase_selecteditems.md), [Selector.SelectedItem](../windows.ui.xaml.controls.primitives/selector_selecteditem.md), [Selector.SelectedIndex](../windows.ui.xaml.controls.primitives/selector_selectedindex.md), [Selector.SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md), [How to change the interaction mode](/previous-versions/windows/apps/hh780625(v=win.10))

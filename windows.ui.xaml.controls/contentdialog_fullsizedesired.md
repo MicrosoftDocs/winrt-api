@@ -12,6 +12,8 @@ public bool FullSizeDesired { get;  set; }
 ## -description
 Gets or sets a value that indicates whether a request is being made to display the dialog full screen.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.FullSizeDesired](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.fullsizedesired).
+
 ## -xaml-syntax
 ```xaml
 <ContentDialog FullSizeDesired="bool"/>

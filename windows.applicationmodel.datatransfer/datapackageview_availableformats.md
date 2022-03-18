@@ -20,4 +20,4 @@ The formats the [DataPackageView](datapackageview.md) contains.
 ## -examples
 
 ## -see-also
-[StandardDataFormats](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.DataTransfer.StandardDataFormats)
+[StandardDataFormats](/uwp/api/Windows.ApplicationModel.DataTransfer.StandardDataFormats)

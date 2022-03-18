@@ -24,26 +24,11 @@ The weight/style/stretch attributes are significant for some usage cases but not
 For some languages and scripts, the LanguageFontGroup may not provide a font recommendation for every usage case. For instance, fixed-width fonts are not provided in Windows for every script. See the remarks for each LanguageFontGroup property for additional information.
 
 > [!NOTE]
-> If your app passes language tags used in this class to any [National Language Support](https://docs.microsoft.com/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
+> If your app passes language tags used in this class to any [National Language Support](/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
 
 **Beginning in :** The LanguageFontGroup class returns font group data to match the target operating system for which an app was developed. Therefore, if you update your Windows 8 app to Windows 8.1, the fonts used in your app may change, and you may need to make adjustments to your UI layout.
 
 ## -examples
-
-```javascript
-// Get the recommended Japanese fonts for traditional documents and modern documents.
-var fonts = new Windows.Globalization.Fonts.LanguageFontGroup('ja-JP');
-var traditionalDocumentFont = fonts.traditionalDocumentFont;
-var modernDocumentFont = fonts.modernDocumentFont;
-
-// Obtain two properties of the traditional document font.
-var traditionalDocumentFontFontFamily = traditionalDocumentFont.fontFamily;   // "MS Mincho"
-var traditionalDocumentFontScaleFactor = traditionalDocumentFont.scaleFactor; // 100
-
-// Obtain two properties of the modern document font.
-var modernDocumentFontFontFamily = modernDocumentFont.fontFamily;             // "Meiryo"
-var modernDocumentFontScaleFactor = modernDocumentFont.scaleFactor;           // 90
-```
 
 ```csharp
 // Get the recommended Japanese fonts for traditional documents and modern documents.
@@ -62,4 +47,4 @@ var modernDocumentFontScaleFactor = modernDocumentFont.ScaleFactor;           //
 
 ## -see-also
 
-[Language font mapping sample](https://go.microsoft.com/fwlink/p/?linkid=231603), [Language font mapping sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620559)
+[Language font mapping sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BJavaScript%5D-Windows%208%20app%20samples/JavaScript/Windows%208%20app%20samples/Language%20font%20mapping%20sample%20(Windows%208)), [Language font mapping sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LanguageFont)

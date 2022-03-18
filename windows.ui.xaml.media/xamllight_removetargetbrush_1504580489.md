@@ -9,15 +9,22 @@ public void XamlLight.RemoveTargetBrush(String lightId, Brush brush)
 
 # Windows.UI.Xaml.Media.XamlLight.RemoveTargetBrush
 
-## -description
-Stops a [Brush](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Media.Brush) from being a target of a [XamlLight](XamlLight.md).
 
-## -params
+## -description
+
+Stops a [Brush](/uwp/api/Windows.UI.Xaml.Media.Brush) from being a target of a [XamlLight](XamlLight.md).
+
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.XamlLight.RemoveTargetBrush](/windows/winui/api/microsoft.ui.xaml.media.xamllight.removetargetbrush).
+
+## -parameters
+
 ### -param lightId
-The identifier for the [XamlLight](XamlLight.md) that should no longer target the [Brush](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Media.Brush).
+
+The identifier for the [XamlLight](XamlLight.md) that should no longer target the [Brush](/uwp/api/Windows.UI.Xaml.Media.Brush).
 
 ### -param brush
-The [Brush](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Media.Brush) that the light should no longer target.
+
+The [Brush](/uwp/api/Windows.UI.Xaml.Media.Brush) that the light should no longer target.
 
 ## -remarks
 

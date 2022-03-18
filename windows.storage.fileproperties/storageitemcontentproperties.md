@@ -24,7 +24,7 @@ You can get a StorageItemContentProperties object using the [Properties](../wind
 > [!NOTE]
 > Properties that are get or set using a property handler that is defined by another app (like Microsoft Word) may not be accessible. Instead, you can try to get these properties using a file query that is backed by the system index. For more information, see [QueryOptions](../windows.storage.search/queryoptions.md).
 
-For more code samples about accessing properties, see the [File access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445).
+For more code samples about accessing properties, see the [File access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess).
 
 ## -examples
 This example demonstrates how to retrieve content properties or specified properties from a file using [StorageFile.Properties](../windows.storage/storagefile_properties.md).
@@ -70,43 +70,9 @@ catch (FileNotFoundException)
 }
 ```
 
-```javascript
-
-var file = SdkSample.sampleFile;
-if (file !== null) {
-    var outputDiv = document.getElementById("output");
-
-    // Get image properties
-    file.properties.getImagePropertiesAsync().then(function (imageProperties) {
-        outputDiv.innerHTML += "Date taken: " + imageProperties.dateTaken + "<br/>";
-        outputDiv.innerHTML += "Rating: " + imageProperties.rating + "<br/>";
-
-        // Specify more properties to retrieve
-        var dateAccessedProperty = "System.DateAccessed";
-        var fileOwnerProperty    = "System.FileOwner";
-
-        // Get the specified properties through storageFile.properties
-        return file.properties.retrievePropertiesAsync([fileOwnerProperty, dateAccessedProperty]);
-    }).done(function (extraProperties) {
-        var propValue = extraProperties[dateAccessedProperty];
-        if (propValue !== null) {
-            outputDiv.innerHTML += "Date accessed: " + propValue + "<br/>";
-        }
-        propValue = extraProperties[fileOwnerProperty];
-        if (propValue !== null) {
-            outputDiv.innerHTML += "File owner: " + propValue;
-        }
-    },
-    // Handle errors with an error function
-    function (error) {
-        // Handle errors encountered while retrieving properties
-    });
-}
-```
-
-After [GetImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync_292219360.md) completes, **imageProperties** gets a [ImageProperties](imageproperties.md) object. Additionally, after [RetrievePropertiesAsync](storageitemcontentproperties_retrievepropertiesasync_507906171.md) completes, **extraProperties** gets an object that contains the specified properties (the list of supported properties can be found on the [Core properties page](https://docs.microsoft.com/windows/desktop/properties/core-bumper)).
+After [GetImagePropertiesAsync](storageitemcontentproperties_getimagepropertiesasync_292219360.md) completes, **imageProperties** gets a [ImageProperties](imageproperties.md) object. Additionally, after [RetrievePropertiesAsync](storageitemcontentproperties_retrievepropertiesasync_507906171.md) completes, **extraProperties** gets an object that contains the specified properties (the list of supported properties can be found on the [Core properties page](/windows/desktop/properties/core-bumper)).
 
 In the example, **file** contains a [StorageFile](../windows.storage/storagefile.md) that represents the file for which to retrieve properties.
 
 ## -see-also
-[Core properties page](https://docs.microsoft.com/windows/desktop/properties/core-bumper)
+[Core properties page](/windows/desktop/properties/core-bumper)

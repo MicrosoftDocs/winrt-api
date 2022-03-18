@@ -12,13 +12,12 @@ public Windows.UI.Xaml.Media.SolidColorBrush SelectionHighlightColor { get;  set
 ## -description
 Gets or sets the brush used to highlight the selected text.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.SelectionHighlightColor](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.selectionhighlightcolor).
+
 ## -xaml-syntax
 ```xaml
 <RichTextBlock SelectionHighlightColor="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <RichTextBlock SelectionHighlightColor="colorString"/>
 
 ```
@@ -32,9 +31,9 @@ Gets or sets the brush used to highlight the selected text.
 The brush used to highlight the selected text. The default is a null brush from a pure code perspective, but the default text styles for [RichTextBlock](richtextblock.md) content apply a theme resource brush for this in a runtime instance of a [RichTextBlock](richtextblock.md) control.
 
 ## -remarks
-A default text style sets the default selection highlight color to the system resource **TextSelectionHighlightColorThemeBrush**. To change the selection highlight color for all editable text controls in your app, you can override the **TextSelectionHighlightColorThemeBrush** system resource in App.xaml. This will affect [PasswordBox](passwordbox.md), [TextBox](textbox.md), and [RichEditBox](richeditbox.md) controls as well as [RichTextBlock](richtextblock.md) content. For more info, see [XAML theme resources](https://docs.microsoft.com/windows/uwp/controls-and-patterns/xaml-theme-resources).
+A default text style sets the default selection highlight color to the system resource **TextSelectionHighlightColorThemeBrush**. To change the selection highlight color for all editable text controls in your app, you can override the **TextSelectionHighlightColorThemeBrush** system resource in App.xaml. This will affect [PasswordBox](passwordbox.md), [TextBox](textbox.md), and [RichEditBox](richeditbox.md) controls as well as [RichTextBlock](richtextblock.md) content. For more info, see [XAML theme resources](/windows/uwp/controls-and-patterns/xaml-theme-resources).
 
 ## -examples
 
 ## -see-also
-[Use brushes](https://docs.microsoft.com/windows/uwp/graphics/using-brushes)
+[Use brushes](/windows/uwp/graphics/using-brushes)

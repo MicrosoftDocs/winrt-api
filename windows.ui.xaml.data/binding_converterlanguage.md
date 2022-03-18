@@ -12,6 +12,8 @@ public string ConverterLanguage { get;  set; }
 ## -description
 Gets or sets a value that names the language to pass to any converter specified by the [Converter](binding_converter.md) property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.ConverterLanguage](/windows/winui/api/microsoft.ui.xaml.data.binding.converterlanguage).
+
 ## -xaml-syntax
 ```xaml
 <Binding ConverterLanguage="string"/>
@@ -30,4 +32,4 @@ You can't set the property values of a [Binding](binding.md) object after that b
 ## -examples
 
 ## -see-also
-[Converter](binding_converter.md), [Convert](ivalueconverter_convert_101701969.md), [XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854), [Data binding in depth](https://docs.microsoft.com/windows/uwp/data-binding/data-binding-in-depth)
+[Converter](binding_converter.md), [Convert](ivalueconverter_convert_101701969.md), [XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind), [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth)

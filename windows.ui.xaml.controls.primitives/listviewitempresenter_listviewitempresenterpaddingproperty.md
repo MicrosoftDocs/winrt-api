@@ -15,6 +15,8 @@ public Windows.UI.Xaml.DependencyProperty ListViewItemPresenterPaddingProperty {
 
 Identifies the [ListViewItemPresenterPadding](listviewitempresenter_listviewitempresenterpadding.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterPaddingProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.listviewitempresenterpaddingproperty).
+
 ## -property-value
 The identifier for the [ListViewItemPresenterPadding](listviewitempresenter_listviewitempresenterpadding.md) dependency property.
 
@@ -23,4 +25,4 @@ The identifier for the [ListViewItemPresenterPadding](listviewitempresenter_list
 ## -examples
 
 ## -see-also
-[ListViewItemPresenterPadding](listviewitempresenter_listviewitempresenterpadding.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[ListViewItemPresenterPadding](listviewitempresenter_listviewitempresenterpadding.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

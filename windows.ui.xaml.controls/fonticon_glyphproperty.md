@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty GlyphProperty { get; }
 ## -description
 Gets the identifier for the [Glyph](fonticon_glyph.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.FontIcon.GlyphProperty](/windows/winui/api/microsoft.ui.xaml.controls.fonticon.glyphproperty).
+
 ## -property-value
 The identifier for the [Glyph](fonticon_glyph.md) dependency property.
 

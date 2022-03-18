@@ -10,10 +10,15 @@ public bool IsRequired { get; }
 # Windows.AI.MachineLearning.Preview.TensorVariableDescriptorPreview.IsRequired
 
 ## -description
+**Deprecated.** Gets whether the tensor is required.
 
 ## -property-value
+Whether the tensor is required.
 
 ## -remarks
+
+> [!Warning]
+> This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
 ## -see-also
 

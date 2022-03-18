@@ -20,4 +20,4 @@ Setting this property to **true** enables the [DatagramSocket](datagramsocket.md
 ## -examples
 
 ## -see-also
-[DatagramSocket sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620534)
+[DatagramSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)

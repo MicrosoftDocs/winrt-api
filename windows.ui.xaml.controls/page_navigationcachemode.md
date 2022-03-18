@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Navigation.NavigationCacheMode NavigationCacheMode { get;
 ## -description
 Gets or sets the navigation mode that indicates whether this [Page](page.md) is cached, and the period of time that the cache entry should persist.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Page.NavigationCacheMode](/windows/winui/api/microsoft.ui.xaml.controls.page.navigationcachemode).
+
 ## -xaml-syntax
 ```xaml
 <page NavigationCacheMode="navigationCacheModeMemberName" />
@@ -29,7 +31,7 @@ If you want to change the value of NavigationCacheMode programmatically to **Ena
 If you change the value of NavigationCacheMode from **Required** or **Enabled** to **Disabled**, the page is flushed from the cache. The page is not simply marked as available to be flushed when the configured [CacheSize](frame_cachesize.md) is exceeded.
 
 ## -examples
-For example code that uses NavigationCacheMode, see [Navigation](https://docs.microsoft.com/windows/uwp/layout/navigation-basics). For a complete sample that uses many of the [Page](page.md) and [Frame](frame.md) features together, see [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214).
+For example code that uses NavigationCacheMode, see [Navigation](/windows/uwp/layout/navigation-basics). For a complete sample that uses many of the [Page](page.md) and [Frame](frame.md) features together, see [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation).
 
 ## -see-also
-[Frame](frame.md), [Frame.CacheSize](frame_cachesize.md), [NavigationCacheMode](../windows.ui.xaml.navigation/navigationcachemode.md), [Navigation](https://docs.microsoft.com/windows/uwp/layout/navigation-basics), [XAML Navigation sample](https://go.microsoft.com/fwlink/p/?LinkID=330214)
+[Frame](frame.md), [Frame.CacheSize](frame_cachesize.md), [NavigationCacheMode](../windows.ui.xaml.navigation/navigationcachemode.md), [Navigation](/windows/uwp/layout/navigation-basics), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)

@@ -12,6 +12,8 @@ public ResourceDictionary()
 ## -description
 Initializes a new instance of the [ResourceDictionary](resourcedictionary.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.ResourceDictionary.ResourceDictionary](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.#ctor).
+
 ## -remarks
 
 ## -examples

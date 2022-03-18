@@ -12,13 +12,12 @@ public double ReorderHintOffset { get;  set; }
 ## -description
 Gets or sets the amount that the reorder hint is offset.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.ReorderHintOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.reorderhintoffset).
+
 ## -xaml-syntax
 ```xaml
 <gridViewItemPresenterReorderHintOffset="themeResourceReference"/>
-
-```
-
-```xaml
+- or -
 <gridViewItemPresenter ReorderHintOffset="double"/>
 ```
 

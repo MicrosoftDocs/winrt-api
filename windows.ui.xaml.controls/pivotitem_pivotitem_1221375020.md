@@ -12,6 +12,8 @@ public PivotItem()
 ## -description
 Initializes a new instance of the [PivotItem](pivotitem.md) type.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.PivotItem.PivotItem](/windows/winui/api/microsoft.ui.xaml.controls.pivotitem.#ctor).
+
 ## -remarks
 
 ## -examples

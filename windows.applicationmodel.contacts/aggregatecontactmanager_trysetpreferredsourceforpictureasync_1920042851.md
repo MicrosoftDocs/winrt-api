@@ -20,7 +20,7 @@ The aggregate contact on which to set the picture.
 The raw contact that provides the picture for the aggregate.
 
 ## -returns
-True if successful, otherwise false.
+`true` if successful; otherwise, `false`.
 
 ## -remarks
 

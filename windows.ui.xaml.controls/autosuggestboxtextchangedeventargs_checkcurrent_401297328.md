@@ -12,6 +12,8 @@ public bool CheckCurrent()
 ## -description
 Returns a Boolean value indicating if the current value of the [TextBox](textbox.md) is unchanged from the point in time when the [TextChanged](autosuggestbox_textchanged.md) event was raised.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.AutoSuggestBoxTextChangedEventArgs.CheckCurrent](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestboxtextchangedeventargs.checkcurrent).
+
 ## -returns
 Indicates if the current value of the [TextBox](textbox.md) is unchanged from the point in time when the [TextChanged](autosuggestbox_textchanged.md) event was raised.
 

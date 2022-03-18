@@ -12,6 +12,8 @@ public void SetMediaPlayer(Windows.Media.Playback.MediaPlayer mediaPlayer)
 ## -description
 Sets the [MediaPlayer](../windows.media.playback/mediaplayer.md) instance used to render media.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaPlayerElement.SetMediaPlayer](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerelement.setmediaplayer).
+
 ## -parameters
 ### -param mediaPlayer
 The new [MediaPlayer](../windows.media.playback/mediaplayer.md) instance used to render media.

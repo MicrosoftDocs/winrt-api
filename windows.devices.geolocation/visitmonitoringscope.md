@@ -20,12 +20,12 @@ Monitor all Visit-related events that concern changes in building-sized areas.
 Monitor only the Visit-related events that concern changes in city-sized areas. 
 
 ## -remarks
-A value must be specified when setting up a [GeovisitTrigger](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.geovisittrigger) or [GeovisitMonitor](GeovisitMonitor.md), in order to determine which Visit-related events will be processed.
+A value must be specified when setting up a [GeovisitTrigger](/uwp/api/windows.applicationmodel.background.geovisittrigger) or [GeovisitMonitor](GeovisitMonitor.md), in order to determine which Visit-related events will be processed.
 
 ## -see-also
 [GeovisitMonitor](GeovisitMonitor.md)
-[GeovisitTrigger](https://docs.microsoft.com/uwp/api/windows.applicationmodel.background.geovisittrigger)
-[Guidelines for using Visits tracking](https://docs.microsoft.com/windows/uwp/maps-and-location/guidelines-for-visits)
+[GeovisitTrigger](/uwp/api/windows.applicationmodel.background.geovisittrigger)
+[Guidelines for using Visits tracking](/windows/uwp/maps-and-location/guidelines-for-visits)
 
 ## -examples
 

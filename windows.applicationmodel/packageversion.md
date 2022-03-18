@@ -45,7 +45,7 @@ PackageId packageId = package.Id;
 PackageVersion version = packageId.Version;
 ```
 
-```vbnet
+```vb
 Dim package As Windows.ApplicationModel.Package = Windows.ApplicationModel.Package.Current
 Dim packageId As Windows.ApplicationModel.PackageId = package.Id
 Dim version As Windows.ApplicationModel.PackageVersion = packageId.Version
@@ -57,7 +57,7 @@ Windows::ApplicationModel::PackageId packageId{ package.Id() };
 Windows::ApplicationModel::PackageVersion version{ packageId.Version() };
 ```
 
-```cpp
+```cppcx
 Windows::ApplicationModel::Package^ package = Windows::ApplicationModel::Package::Current;
 Windows::ApplicationModel::PackageId^ packageId = package->Id;
 Windows::ApplicationModel::PackageVersion version = packageId->Version;

@@ -13,6 +13,8 @@ public void AnimationController.Resume()
 
 Starts playback of an animation that was previously paused.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.AnimationController.Resume](/windows/winui/api/microsoft.ui.composition.animationcontroller.resume).
+
 ## -remarks
 
 ## -see-also

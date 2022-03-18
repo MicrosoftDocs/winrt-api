@@ -27,5 +27,5 @@ After the asynchronous operation completes, check the [Status](gamesaveblobinfog
 
 ## -see-also
 
-[GameSaveBlobInfoQuery](gamesaveblobinfoquery.md)
+[GameSaveBlobInfoQuery](gamesaveblobinfoquery.md),
 [GetBlobInfoAsync(UInt32, UInt32)](gamesaveblobinfoquery_getblobinfoasync_1697460829.md)

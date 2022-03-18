@@ -10,7 +10,7 @@ public string Label { get;  set; }
 # Windows.Media.Core.TimedMetadataStreamDescriptor.Label
 
 ## -description
-Gets or sets an app-defined label that identifies a timed metadata stream in a [MediaEncodingProfile](https://docs.microsoft.com/uwp/api/Windows.Media.MediaProperties.MediaEncodingProfile) that contains multiple streams.
+Gets or sets an app-defined label that identifies a timed metadata stream in a [MediaEncodingProfile](/uwp/api/Windows.Media.MediaProperties.MediaEncodingProfile) that contains multiple streams.
 
 ## -property-value
 An app-defined label that identifies a timed metadata stream.

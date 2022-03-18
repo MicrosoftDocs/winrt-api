@@ -13,6 +13,8 @@ public SpringScalarNaturalMotionAnimation Compositor.CreateSpringScalarAnimation
 
 Creates an instance of [SpringScalarNaturalMotionAnimation](springscalarnaturalmotionanimation.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateSpringScalarAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createspringscalaranimation).
+
 ## -returns
 
 The created SpringScalarNaturalMotionAnimation object.

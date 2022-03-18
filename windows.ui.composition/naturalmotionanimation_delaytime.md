@@ -13,6 +13,8 @@ public TimeSpan DelayTime { get;  set; }
 
 Delay before the animation starts after [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) is called.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.NaturalMotionAnimation.DelayTime](/windows/winui/api/microsoft.ui.composition.naturalmotionanimation.delaytime).
+
 ## -property-value
 
 Delay before the animation starts after [CompositionObject.StartAnimation](compositionobject_startanimation_709050842.md) is called.

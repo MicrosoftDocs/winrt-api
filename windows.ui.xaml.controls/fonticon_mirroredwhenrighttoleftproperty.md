@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MirroredWhenRightToLeftProperty { get;
 ## -description
 Identifies the [MirroredWhenRightToLeft](fonticon_mirroredwhenrighttoleft.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.FontIcon.MirroredWhenRightToLeftProperty](/windows/winui/api/microsoft.ui.xaml.controls.fonticon.mirroredwhenrighttoleftproperty).
+
 ## -property-value
 The identifier for the [MirroredWhenRightToLeft](fonticon_mirroredwhenrighttoleft.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [MirroredWhenRightToLeft](fonticon_mirroredwhenrighttolef
 ## -examples
 
 ## -see-also
-[MirroredWhenRightToLeft](fonticon_mirroredwhenrighttoleft.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MirroredWhenRightToLeft](fonticon_mirroredwhenrighttoleft.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

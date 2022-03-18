@@ -21,4 +21,4 @@ A collection of named game save blobs retrieved from a [GameSaveContainer](games
 ## -examples
 
 ## -see-also
-[Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)
+[Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true)

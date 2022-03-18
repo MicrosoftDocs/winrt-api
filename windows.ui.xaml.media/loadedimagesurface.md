@@ -12,6 +12,8 @@ public class LoadedImageSurface : IClosable, ICompositionSurface
 ## -description
 Represents a composition surface that an image can be downloaded, decoded and loaded onto. You can load an image using a Uniform Resource Identifier (URI) that references an image source file, or supplying a [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.LoadedImageSurface](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface).
+
 ## -remarks
 A **LoadedImageSurface** can be sourced from these image file formats:
 
@@ -29,7 +31,7 @@ If the image source is a stream, that stream is expected to contain an image fil
 
 ### LoadedImageSurface encoding and decoding
 The underlying codec support for image files is supplied by Windows Imaging Component (WIC) API in Windows. For more info on specific image formats as documented for the codes, see
-[Native WIC Codecs](https://docs.microsoft.com/windows/desktop/wic/native-wic-codecs).
+[Native WIC Codecs](/windows/desktop/wic/native-wic-codecs).
 
 Using one of the factory methods, you can create an instance of **LoadedImageSurface** from different types of image sources and control the max size that the image decodes at. If 
 no max size is specified, then the image will decode to its natural size.
@@ -50,7 +52,8 @@ when the surface has been populated. During the loading process, the surface wil
 > than the 'introduced version' shown in the Requirements block later in this page, you cannot use this class.
 
 ## -see-also
-* [ICompositionSurface](../windows.ui.composition/icompositionsurface.md)
+
+[ICompositionSurface](../windows.ui.composition/icompositionsurface.md)
 
 ## -examples
 This example shows how to load an image from a local URI onto a surface and use it in a [CompositionSurfaceBrush](../windows.ui.composition/compositionsurfacebrush.md).

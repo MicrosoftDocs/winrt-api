@@ -13,6 +13,8 @@ public bool RichEditTextRange.IsEqual(ITextRange range)
 
 Determines whether this range has the same character positions and story as those of a specified range.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.IsEqual](/windows/winui/api/microsoft.ui.text.richedittextrange.isequal).
+
 ## -parameters
 ### -param range
 

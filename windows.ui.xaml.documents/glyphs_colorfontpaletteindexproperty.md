@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty ColorFontPaletteIndexProperty { get; }
 ## -description
 Identifies the [ColorFontPaletteIndex](glyphs_colorfontpaletteindex.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.ColorFontPaletteIndexProperty](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.colorfontpaletteindexproperty).
+
 ## -property-value
 The identifier for the [ColorFontPaletteIndex](glyphs_colorfontpaletteindex.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [ColorFontPaletteIndex](glyphs_colorfontpaletteindex.md) 
 ## -examples
 
 ## -see-also
-[ColorFontPaletteIndex](glyphs_colorfontpaletteindex.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[ColorFontPaletteIndex](glyphs_colorfontpaletteindex.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

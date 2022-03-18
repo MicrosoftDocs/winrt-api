@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty MinWindowHeightProperty { get; }
 ## -description
 Identifies the [MinWindowHeight](adaptivetrigger_minwindowheight.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.AdaptiveTrigger.MinWindowHeightProperty](/windows/winui/api/microsoft.ui.xaml.adaptivetrigger.minwindowheightproperty).
+
 ## -property-value
 The identifier for the [MinWindowHeight](adaptivetrigger_minwindowheight.md) dependency property.
 
@@ -23,4 +25,4 @@ To access the [MinWindowHeight](adaptivetrigger_minwindowheight.md) dependency p
 ## -examples
 
 ## -see-also
-[MinWindowHeight](adaptivetrigger_minwindowheight.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[MinWindowHeight](adaptivetrigger_minwindowheight.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

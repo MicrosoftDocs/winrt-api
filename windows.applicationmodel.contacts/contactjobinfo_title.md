@@ -10,10 +10,10 @@ public string Title { get;  set; }
 # Windows.ApplicationModel.Contacts.ContactJobInfo.Title
 
 ## -description
-Gets and sets the title of the job info for a contact. The maximum string length for the title is 1024 characters.
+Gets or sets the title of the job info for a contact. The maximum string length for the title is 1024 characters.
 
 ## -property-value
-The title of the job info for a contact.
+The title of the job info for a contact. The maximum string length for the title is 1024 characters.
 
 ## -remarks
 

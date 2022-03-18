@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Interop.TypeName TargetType { get;  set; }
 ## -description
 Gets or sets the type to which the [ControlTemplate](controltemplate.md) is applied.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ControlTemplate.TargetType](/windows/winui/api/microsoft.ui.xaml.controls.controltemplate.targettype).
+
 ## -xaml-syntax
 ```xaml
 <ControlTemplate TargetType="typeName"/>
@@ -29,10 +31,10 @@ The typical way to specify a TargetType value is through a XAML attribute on the
 
 In most cases, you will be setting the TargetType for a [ControlTemplate](controltemplate.md) where that [ControlTemplate](controltemplate.md) is within a [Setter](../windows.ui.xaml/setter.md) for the [Template](control_template.md) property. This in turn is within the implicit [Style](../windows.ui.xaml/style.md) you are defining for a control. The ControlTemplate.TargetType value and the [Style.TargetType](../windows.ui.xaml/style_targettype.md) value of the containing [Style](../windows.ui.xaml/style.md) should always be the same type reference, referring to the same implicitly named control. Otherwise the control template might not work.
 
-For more info on how to write a control template, see [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)).
+For more info on how to write a control template, see [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)).
 
 > [!NOTE]
-> If you have previously programmed XAML for Windows Presentation Foundation (WPF), then you might have used an **x:Type** markup extension to fill in any XAML values that take a [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN). The Windows Runtime XAML parser does not support **x:Type**. Instead, you should refer to the type by name without using any markup extension, and any necessary XAML-to-backing type conversion is already handled by the built-in conversion behavior described in the previous paragraph.
+> If you have previously programmed XAML for Windows Presentation Foundation (WPF), then you might have used an **x:Type** markup extension to fill in any XAML values that take a [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). The Windows Runtime XAML parser does not support **x:Type**. Instead, you should refer to the type by name without using any markup extension, and any necessary XAML-to-backing type conversion is already handled by the built-in conversion behavior described in the previous paragraph.
 
 ### Using **TargetType** in code
 
@@ -41,9 +43,9 @@ Setting TargetType in code is uncommon. The XAML style/template system is intend
 Getting a TargetType in code is also uncommon, but you might do this to double-check that a [ControlTemplate](controltemplate.md) that you've loaded from XAML is compatible with a given control target that you got from the runtime tree.
 
 > [!TIP]
-> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN). When programming using C#, you usually use the **typeof** operator to get references to the [System.Type](https://docs.microsoft.com/dotnet/api/system.type?redirectedfrom=MSDN) of a type based on a type name as a string. In Microsoft Visual Basic, use **GetType**.
+> If you are programming using a Microsoft .NET language (C# or Microsoft Visual Basic), the [TypeName](../windows.ui.xaml.interop/typename.md) type projects as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true). When programming using C#, you usually use the **typeof** operator to get references to the [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) of a type based on a type name as a string. In Microsoft Visual Basic, use **GetType**.
 
 ## -examples
 
 ## -see-also
-[Style.TargetType](../windows.ui.xaml/style_targettype.md), [Quickstart: Control templates](https://docs.microsoft.com/previous-versions/windows/apps/hh465374(v=win.10)), [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Style.TargetType](../windows.ui.xaml/style_targettype.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

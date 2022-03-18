@@ -13,6 +13,8 @@ public void CompositionShapeCollection.RemoveAt(UInt32 index)
 
 Removes the item at the specified index.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.RemoveAt](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.removeat).
+
 ## -parameters
 ### -param index
 

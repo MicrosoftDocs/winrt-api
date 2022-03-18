@@ -12,6 +12,8 @@ public void UIElement.TryInvokeKeyboardAccelerator(ProcessKeyboardAcceleratorEve
 ## -description
 Attempts to invoke a [keyboard shortcut (or accelerator)](../windows.ui.xaml.input/keyboardaccelerator.md) by searching the entire visual tree of the UIElement for the shortcut.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.TryInvokeKeyboardAccelerator](/windows/winui/api/microsoft.ui.xaml.uielement.tryinvokekeyboardaccelerator).
+
 ## -parameters
 ### -param args
 The [ProcessKeyboardAcceleratorEventArgs](../windows.ui.xaml.input/processkeyboardacceleratoreventargs.md).
@@ -22,4 +24,4 @@ Call this method in your [OnProcessKeyboardAccelerators](uielement_onprocesskeyb
 ## -examples
 
 ## -see-also
-[ProcessKeyboardAccelerators](uielement_processkeyboardaccelerators.md), [Keyboard Accelerators](https://docs.microsoft.com/windows/uwp/design/input/keyboard-accelerators)
+[ProcessKeyboardAccelerators](uielement_processkeyboardaccelerators.md), [Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators)

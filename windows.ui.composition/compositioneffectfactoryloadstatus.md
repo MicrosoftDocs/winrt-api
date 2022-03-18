@@ -12,6 +12,8 @@ public enum Windows.UI.Composition.CompositionEffectFactoryLoadStatus : int
 ## -description
 The status of the asynchronous compilation of a shader for an effect description.
 
+Equivalent WinUI enum: [CompositionEffectFactoryLoadStatus](/windows/winui/api/microsoft.ui.composition.compositioneffectfactoryloadstatus).
+
 ## -enum-fields
 ### -field Success:0
 The operation was successful.
@@ -31,4 +33,4 @@ Other error.
 ## -examples
 
 ## -see-also
-[Composition Brushes Overview](https://docs.microsoft.com/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](https://go.microsoft.com/fwlink/p/?LinkID=692063)
+[Composition Brushes Overview](/windows/uwp/graphics/composition-brushes), [Composition Effects Overview](/en-us/windows/uwp/composition/composition-effects)

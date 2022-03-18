@@ -12,6 +12,8 @@ virtual protected Windows.UI.Xaml.Automation.Peers.AutomationLiveSetting GetLive
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetLiveSetting](automationpeer_getlivesetting_295263812.md) or an equivalent Microsoft UI Automation client API.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLiveSettingCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getlivesettingcore).
+
 ## -returns
 A value of the enumeration that reports the live setting notification behavior for a peer implementation.
 
@@ -20,4 +22,4 @@ A value of the enumeration that reports the live setting notification behavior f
 ## -examples
 
 ## -see-also
-[AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties), [GetLiveSetting](automationpeer_getlivesetting_295263812.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [Accessibility](https://docs.microsoft.com/windows/uwp/accessibility/accessibility)
+[AutomationProperties.LiveSetting](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties), [GetLiveSetting](automationpeer_getlivesetting_295263812.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Accessibility](/windows/uwp/accessibility/accessibility)

@@ -12,6 +12,8 @@ public class ListBoxItem : Windows.UI.Xaml.Controls.Primitives.SelectorItem, Win
 ## -description
 Represents the container for an item in a [ListBox](listbox.md) control.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ListBoxItem](/windows/winui/api/microsoft.ui.xaml.controls.listboxitem).
+
 ## -xaml-syntax
 ```xaml
 <ListBoxItem .../>
@@ -37,4 +39,4 @@ You can specify the look of the ListBoxItem by setting the [ListBox](listbox.md)
 
 ## -see-also
 
-[SelectorItem](../windows.ui.xaml.controls.primitives/selectoritem.md), [ListBox](listbox.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md), [ListBoxItem styles and templates](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/xaml-styles)
+[SelectorItem](../windows.ui.xaml.controls.primitives/selectoritem.md), [ListBox](listbox.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md), [ListBoxItem styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles)

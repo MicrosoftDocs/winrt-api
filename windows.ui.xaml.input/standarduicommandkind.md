@@ -14,6 +14,8 @@ public enum StandardUICommandKind : int
 
 Specifies the set of platform commands (with pre-defined properties such as icon, keyboard accelerator, and description) that can be used with a [StandardUICommand](standarduicommand.md).
 
+Equivalent WinUI enum: [Microsoft.UI.Xaml.Input.StandardUICommandKind](/windows/winui/api/microsoft.ui.xaml.input.standarduicommandkind).
+
 ## -enum-fields
 
 ### -field None:0
@@ -88,6 +90,6 @@ Specifies the redo command.
 
 ## -see-also
 
-[Kind](standarduicommand_kind.md), [StandardUICommand(StandardUICommandKind kind)](standarduicommand_standarduicommand_1550060345.md), [Windows.UI.Xaml.Input.XamlUICommand](xamluicommand.md), [Command design basics](https://docs.microsoft.com/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/commanding)
+[Kind](standarduicommand_kind.md), [StandardUICommand(StandardUICommandKind kind)](standarduicommand_standarduicommand_1550060345.md), [Windows.UI.Xaml.Input.XamlUICommand](xamluicommand.md), [Command design basics](/windows/uwp/layout/commanding-basics), [Commanding in Universal Windows Platform apps using StandardUICommand, XamlUICommand, and ICommand](/windows/uwp/design/controls-and-patterns/commanding)
 
 ## -examples

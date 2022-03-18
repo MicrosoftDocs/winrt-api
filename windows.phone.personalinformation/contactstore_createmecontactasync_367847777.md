@@ -17,11 +17,11 @@ Establishes that the specified contact represents the current signed-in user of 
 The ID of the contact that represents the current signed-in user of the device.
 
 ## -returns
-An asynchronous operation that returns a [StoredContact](storedcontact.md) on successful completion. If you use [Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is [StoredContact](storedcontact.md).
+An asynchronous operation that returns a [StoredContact](storedcontact.md) on successful completion. If you use [Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps), the result type is [StoredContact](storedcontact.md).
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[Asynchronous programming](https://docs.microsoft.com/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)
+[Asynchronous programming](/windows/uwp/threading-async/asynchronous-programming-universal-windows-platform-apps)

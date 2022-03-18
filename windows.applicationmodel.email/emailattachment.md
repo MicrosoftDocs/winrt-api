@@ -14,12 +14,12 @@ Represents an email attachment.
 
 ## -remarks
 
-Attachments that you add to an email by using the [EmailAttachment](https://docs.microsoft.com/uwp/api/windows.applicationmodel.email.emailattachment) class will appear only in the Mail app. If users have any other mail program configured as their default mail program, the compose window will appear without the attachment. This is a known issue.
+Attachments that you add to an email by using the [EmailAttachment](/uwp/api/windows.applicationmodel.email.emailattachment) class will appear only in the Mail app. If users have any other mail program configured as their default mail program, the compose window will appear without the attachment. This is a known issue.
 
 ## -examples
 
 ## -see-also
-[Object](https://docs.microsoft.com/dotnet/api/system.object?redirectedfrom=MSDN)
+[Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true)
 
 ## -capabilities
 email, emailSystem

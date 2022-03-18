@@ -22,8 +22,9 @@ An app currently open as a Share target cannot initiate an additional ShareOpera
 
 All ShareOperation APIs should only be called after the CoreWindow for the Share target has been [activated](../windows.ui.core/corewindow_activated.md). The Share platform creates an entry for share operation only after the window has been activated.
 
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
 
 ### Version history
 
@@ -39,4 +40,4 @@ The following example shows how to work with the ShareOperation object.
 
 ## -see-also
 
-[Sharing content source app sample](https://go.microsoft.com/fwlink/p/?linkid=231511), [Sharing content target app sample](https://go.microsoft.com/fwlink/p/?linkid=231519), [Quickstart: Sharing content ](https://docs.microsoft.com/previous-versions/windows/apps/hh465261(v=win.10)), [Share data](https://docs.microsoft.com/windows/uwp/app-to-app/share-data), [Quickstart: Receiving shared content ](https://docs.microsoft.com/previous-versions/windows/apps/hh465255(v=win.10)), [Receive data](https://docs.microsoft.com/windows/uwp/app-to-app/receive-data), [Sharing content target app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620597), [Sharing content source app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620596), [App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)
+[Quickstart: Sharing content ](/previous-versions/windows/apps/hh465261(v=win.10)), [Share data](/windows/uwp/app-to-app/share-data), [Quickstart: Receiving shared content ](/previous-versions/windows/apps/hh465255(v=win.10)), [Receive data](/windows/uwp/app-to-app/receive-data), [Sharing content target app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620597), [Sharing content source app sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620596), [App package information sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620581)

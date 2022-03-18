@@ -22,9 +22,7 @@ Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to disp
     singleDataTemplate
   </TreeView.ItemTemplate>
 </TreeView>
-```
-
-```xaml
+- or -
 <TreeView ItemTemplate="resourceReferenceToDataTemplate"/>
 ```
 
@@ -95,7 +93,7 @@ This example shows how to apply a [DataTemplate](../windows.ui.xaml/datatemplate
             <TreeViewItem ItemsSource="{x:Bind Children}"
                           Content="{x:Bind Name}"/>
         </DataTemplate>
-    <TreeView.ItemTemplate>
-<TreeView>
+    </TreeView.ItemTemplate>
+</TreeView>
 ```
 

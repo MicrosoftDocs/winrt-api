@@ -12,6 +12,8 @@ public DependencyObject SearchRoot { get;  set; }
 ## -description
 Gets or sets the object that must be the root from which to identify the next focus candidate to receive navigation focus.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.FindNextElementOptions.SearchRoot](/windows/winui/api/microsoft.ui.xaml.input.findnextelementoptions.searchroot).
+
 ## -property-value
 The root object. 
 
@@ -24,7 +26,7 @@ that place them outside of the directional area, these elements are still consid
 
 
 ## -see-also
-[Focus navigation for keyboard, gamepad, remote control, and accessibility tools](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](https://docs.microsoft.com/windows/uwp/design/input/focus-navigation-programmatic)
+[Focus navigation for keyboard, gamepad, remote control, and accessibility tools](/windows/uwp/design/input/focus-navigation), [Programmatic focus navigation](/windows/uwp/design/input/focus-navigation-programmatic)
 
 
 ## -examples

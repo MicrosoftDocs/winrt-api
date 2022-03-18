@@ -15,9 +15,9 @@ Provides functionality for capturing photos, audio, and videos from a capture de
 
 ## -remarks
 
-The MediaCapture class is used to capture audio, video, and images from a camera. For how-to guidance for displaying the camera preview, see [Display the camera preview](https://docs.microsoft.com/windows/uwp/audio-video-camera/simple-camera-preview-access). To quickly get started capturing photos, audio, or video, see [Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+The MediaCapture class is used to capture audio, video, and images from a camera. For how-to guidance for displaying the camera preview, see [Display the camera preview](/windows/uwp/audio-video-camera/simple-camera-preview-access). To quickly get started capturing photos, audio, or video, see [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 
-The [Camera](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera) page is the main hub for how-to guidance for using **MediaCapture** in your app. In addition to the basic camera tasks, this page links to how-to articles for advanced scenarios including:
+The [Camera](/windows/uwp/audio-video-camera/camera) page is the main hub for how-to guidance for using **MediaCapture** in your app. In addition to the basic camera tasks, this page links to how-to articles for advanced scenarios including:
 
 + Using the hardware camera button on devices that have one
 + Handling device and screen orientation
@@ -30,9 +30,9 @@ The [Camera](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera) p
 + Using [MediaFrameReader](../windows.media.capture.frames/mediaframereader.md) to get a stream of frames from one or more cameras, including rgb, infrared, and depth cameras
 + Getting a frame from the preview stream
 
-The [Camera](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera) article also links to all of the UWP SDK samples for camera, such as the [Camera starter kit](https://go.microsoft.com/fwlink/p/?LinkID=619479&amp;clcid=0x409) sample.
+The [Camera](/windows/uwp/audio-video-camera/camera) article also links to all of the UWP SDK samples for camera, such as the [Camera starter kit](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraStarterKit?amp;clcid=0x409) sample.
 
-The [InitializeAsync](mediacapture_initializeasync_315323248.md) method, which initializes the **MediaCapture** object, must be called before you can start previewing or capturing from the device. In C# or C++ apps, the first use of the **MediaCapture** object to call **InitializeAsync** should be on the STA thread. Calls from an MTA thread may result in undefined behavior. [InitializeAsync](mediacapture_initializeasync_315323248.md) will launch a consent prompt to get the user's permission for the app to access the microphone or camera. **InitializeAsync** should be called from the main UI thread of your app. Apps must handle app suspension or termination by properly cleaning up media capture resources. For information on shutting down the **MediaCapture** object properly, see [Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+The [InitializeAsync](mediacapture_initializeasync_315323248.md) method, which initializes the **MediaCapture** object, must be called before you can start previewing or capturing from the device. In C# or C++ apps, the first use of the **MediaCapture** object to call **InitializeAsync** should be on the STA thread. Calls from an MTA thread may result in undefined behavior. [InitializeAsync](mediacapture_initializeasync_315323248.md) will launch a consent prompt to get the user's permission for the app to access the microphone or camera. **InitializeAsync** should be called from the main UI thread of your app. Apps must handle app suspension or termination by properly cleaning up media capture resources. For information on shutting down the **MediaCapture** object properly, see [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
 
 > On Windows, music and media capture apps should monitor the [SystemMediaTransportControls.SoundLevel](../windows.media/systemmediatransportcontrols_soundlevel.md) to determine whether the audio streams on the app have been [Muted](../windows.media/soundlevel.md). For apps using the MediaCapture object, capture will be automatically stopped when the capture streams of the app are muted. Capture is not re-started automatically when the audio streams are unmuted, so the [SoundLevel](../windows.media/systemmediatransportcontrols_soundlevel.md) changed notification can be used to restart capture. Use the [SystemMediaTransportControls.PropertyChanged](../windows.media/systemmediatransportcontrols_propertychanged.md) event to determine when the [SoundLevel](../windows.media/systemmediatransportcontrols_soundlevel.md) property changes.
 
@@ -50,8 +50,9 @@ MediaCapture only supports one pass CBR encoding.
 
 **Notes on H.264:** If the native type is H.264, you can record using a video media type with type identical to the native type. You cannot add an effect to an H.264 native type stream. To capture video, the image encoding profile can be set to Auto or you need to specify an encoding profile that matches the native type.
 
+<!-- confirmed -->
 > [!NOTE]
-> : This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](https://go.microsoft.com/fwlink/p/?linkid=258275) and [Using Windows Runtime objects in a multithreaded environment (.NET)](https://go.microsoft.com/fwlink/p/?linkid=258277).
+> This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
 
 ### Version history
 
@@ -66,6 +67,7 @@ MediaCapture only supports one pass CBR encoding.
 | 1607 | 14393 | StopRecordWithResultAsync |
 | 1703 | 15063 | CaptureDeviceExclusiveControlStatusChanged |
 | 1703 | 15063 | CreateMultiSourceFrameReaderAsync |
+| 2004 | 19041 | CreateRelativePanelWatcher |
 
 ## -examples
 
@@ -73,15 +75,13 @@ The following code sample shows how to create and initialize a **MediaCapture** 
 
 [!code-csharp[MediaCaptureVideo_InitMCobject](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetMediaCaptureVideo_InitMCobjectCS)]
 
-[!code-js[MediaCaptureVideo_InitMCobject](../windows.media.capture/code/MediaCaptureVideo/javascript/default.js#SnippetMediaCaptureVideo_InitMCobject)]
-
 [!code-xaml[MediaCapturePreviewXAML](../windows.media.capture/code/MediaCapture/csharp/MainPage.xaml#SnippetMediaCapturePreviewXAML)]
 
 [!code-csharp[MediaCapturePreviewCode](../windows.media.capture/code/MediaCapture/csharp/MainPage.xaml.cs#SnippetMediaCapturePreviewCode)]
 
 ## -see-also
 
-[Camera](https://docs.microsoft.com/windows/uwp/audio-video-camera/camera), [Basic photo, video, and audio capture with MediaCapture](https://docs.microsoft.com/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture), [Media capture sample](https://go.microsoft.com/fwlink/p/?linkid=241428), [Camera capture UI sample](https://go.microsoft.com/fwlink/p/?linkid=249441), [Camera options UI sample](https://go.microsoft.com/fwlink/p/?linkid=228588 ), [Device enumeration sample](https://go.microsoft.com/fwlink/p/?linkid=231541 ), [Real-Time communication sample](https://go.microsoft.com/fwlink/p/?linkid=245973), [Media extension sample](https://go.microsoft.com/fwlink/p/?linkid=241427), [Supported audio and video formats](https://docs.microsoft.com/previous-versions/windows/apps/hh986969(v=win.10)), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600), [Camera preview frame sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/CameraGetPreviewFrame), [Video stabilization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraVideoStabilization), [Holographic Mixed Reality Capture sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicMixedRealityCapture)
+[Camera](/windows/uwp/audio-video-camera/camera), [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture), [Media capture sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/CameraStarterKit), [Camera capture UI sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/CameraCaptureUI%20Sample%20(Windows%208)), [Camera options UI sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/CameraOptionsUI%20Sample%20(Windows%208)), [Device enumeration sample](/samples/browse/), [Real-Time communication sample](hhttps://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Real-time%20communication%20sample%20(Windows%208)), [Media extension sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Media%20extensions%20sample), [Supported audio and video formats](/previous-versions/windows/apps/hh986969(v=win.10)), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600), [Camera preview frame sample](https://github.com/Microsoft/Windows-universal-samples/tree/dev/Samples/CameraGetPreviewFrame), [Video stabilization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraVideoStabilization), [Holographic Mixed Reality Capture sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HolographicMixedRealityCapture)
 
 ## -capabilities
 

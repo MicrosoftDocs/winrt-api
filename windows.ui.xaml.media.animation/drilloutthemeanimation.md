@@ -12,6 +12,8 @@ public class DrillOutThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline, 
 ## -description
 Represents a preconfigured animation that runs when a user navigates backward in a logical hierarchy, like from a detail page to a master page.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DrillOutThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.drilloutthemeanimation).
+
 ## -remarks
 
 ## -examples

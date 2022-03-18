@@ -12,6 +12,8 @@ public bool IndexOf(System.Object value, System.UInt32 index)
 ## -description
 Returns the index of a specified item in the vector.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableVectorView.IndexOf](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevectorview.indexof).
+
 ## -parameters
 ### -param value
 The item to find in the vector.
@@ -23,9 +25,9 @@ The zero-based index of the item if found. 0 is returned if the item is not foun
 **true** if the item is found; **false** if the item is not found.
 
 ## -remarks
-This interface supports the creation of data bindable collections in C++. When programming with .NET, you should use [ObservableCollection(Of T)](https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1) or implement [IList](https://docs.microsoft.com/dotnet/api/system.collections.ilist?redirectedfrom=MSDN) and [INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?redirectedfrom=MSDN).
+This interface supports the creation of data bindable collections in C++. When programming with .NET, you should use [ObservableCollection(Of T)](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true) or implement [IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true) and [INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 
 ## -see-also
-[XAML data binding sample](https://go.microsoft.com/fwlink/p/?linkid=226854)
+[XAML data binding sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlBind)

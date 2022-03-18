@@ -18,4 +18,4 @@ Get an instance of this object by using the [GetChangeReader](storagelibrarychan
 ## -examples
 
 ## -see-also
-[Track file system changes in the background](https://docs.microsoft.com/windows/uwp/files/change-tracking-filesystem)
+[Track file system changes in the background](/windows/uwp/files/change-tracking-filesystem)

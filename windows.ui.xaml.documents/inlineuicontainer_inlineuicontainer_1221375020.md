@@ -12,6 +12,8 @@ public InlineUIContainer()
 ## -description
 Initializes a new instance of the [InlineUIContainer](inlineuicontainer.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Documents.InlineUIContainer.InlineUIContainer](/windows/winui/api/microsoft.ui.xaml.documents.inlineuicontainer.#ctor).
+
 ## -remarks
 
 ## -examples

@@ -12,18 +12,14 @@ public Windows.UI.Xaml.Media.Brush OutOfScopeBackground { get;  set; }
 ## -description
 Gets or sets a brush that provides the background of a date that's out of scope.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.OutOfScopeBackground](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.outofscopebackground).
+
 ## -xaml-syntax
 ```xaml
 <CalendarView OutOfScopeBackground="{StaticResource resourceName}"/>
-
-```
-
-```xaml
+- or -
 <CalendarView OutOfScopeBackground="colorString"/>
-
-```
-
-```xaml
+- or -
 <CalendarView>
   CalendarView.OutOfScopeBackground>singleBrush</CalendarView.OutOfScopeBackground>
 </CalendarView>

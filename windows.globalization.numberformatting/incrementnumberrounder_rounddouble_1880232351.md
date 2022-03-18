@@ -28,7 +28,7 @@ The rounded number. This result is a double precision floating point number, whi
 The rounding strategy is based on the values of [Increment](incrementnumberrounder_increment.md) and [RoundingAlgorithm](incrementnumberrounder_roundingalgorithm.md).
 
 > [!NOTE]
-> This method is precise only within the limits of the [Double](https://docs.microsoft.com/dotnet/api/system.double?redirectedfrom=MSDN) data type, or approximately 15 digits.
+> This method is precise only within the limits of the [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) data type, or approximately 15 digits.
 
 ## -examples
 

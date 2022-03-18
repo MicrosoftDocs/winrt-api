@@ -10,15 +10,15 @@ public Windows.Foundation.IAsyncOperationWithProgress<string, ulong> ReadAsStrin
 # Windows.Web.Http.IHttpContent.ReadAsStringAsync
 
 ## -description
-Serialize the HTTP content to a [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN) as an asynchronous operation.
+Serialize the HTTP content to a [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) as an asynchronous operation.
 
 ## -returns
 The object representing the asynchronous operation.
 
 ## -remarks
-This operation will not block. The returned [IAsyncOperationWithProgress(String, UInt64)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after all of the content has been written to the [String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN).
+This operation will not block. The returned [IAsyncOperationWithProgress(String, UInt64)](../windows.foundation/iasyncoperationwithprogress_2.md) object will complete after all of the content has been written to the [String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true).
 
 ## -examples
 
 ## -see-also
-[String](https://docs.microsoft.com/dotnet/api/system.string?redirectedfrom=MSDN)
+[String](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true)

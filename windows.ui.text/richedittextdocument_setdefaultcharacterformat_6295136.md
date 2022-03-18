@@ -12,6 +12,8 @@ public void RichEditTextDocument.SetDefaultCharacterFormat(ITextCharacterFormat 
 ## -description
 Sets the default character formatting attributes of the document.
 
+Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.SetDefaultCharacterFormat](/windows/winui/api/microsoft.ui.text.richedittextdocument.setdefaultcharacterformat).
+
 ## -parameters
 
 ### -param value

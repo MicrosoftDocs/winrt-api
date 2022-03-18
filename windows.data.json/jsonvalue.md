@@ -19,10 +19,10 @@ A JsonValue object can represent the three primitive JSON value types of Boolean
 
 A JsonValue object has overloaded constructors to instantiate a new object from a JSON String, Number or Boolean value and a default constructor that instantiates a JsonValue object with a [ValueType](ijsonvalue_valuetype.md) of **NULL**.
 
-For an example of how these class methods are used to parse a number or string from a JSON string and convert it into a JsonValue object, see [Using JavaScript Object Notation (JSON)](https://docs.microsoft.com/previous-versions/windows/apps/hh770289(v=win.10)).
+For an example of how these class methods are used to parse a number or string from a JSON string and convert it into a JsonValue object, see [Using JavaScript Object Notation (JSON)](/previous-versions/windows/apps/hh770289(v=win.10)).
 
 ## -examples
 
 ## -see-also
 
-[Using JavaScript Object Notation (JSON)](https://docs.microsoft.com/previous-versions/windows/apps/hh770289(v=win.10)), [ValueType](ijsonvalue_valuetype.md), [JSON sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620556)
+[Using JavaScript Object Notation (JSON)](/previous-versions/windows/apps/hh770289(v=win.10)), [ValueType](ijsonvalue_valuetype.md), [JSON sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Json)

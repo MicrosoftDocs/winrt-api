@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.RoutedEventHandler Click
 ## -description
 Occurs when a menu item is clicked.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem.Click](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem.click).
+
 ## -xaml-syntax
 ```xaml
 <MenuFlyoutItem Click="eventhandler"/>
@@ -23,4 +25,4 @@ Occurs when a menu item is clicked.
 ## -examples
 
 ## -see-also
-[Events and routed events overview](https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview)
+[Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview)

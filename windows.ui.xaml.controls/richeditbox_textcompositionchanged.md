@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler TextCompositionChanged<Windows
 ## -description
 Occurs when text being composed through an Input Method Editor (IME) changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.RichEditBox.TextCompositionChanged](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.textcompositionchanged).
+
 ## -xaml-syntax
 
 ```xaml
@@ -21,7 +23,7 @@ Occurs when text being composed through an Input Method Editor (IME) changes.
 ## -remarks
 For event data, see [TextCompositionChangedEventArgs](textcompositionchangedeventargs.md).
 
-This event occurs only when text is composed through an [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10)). Text composition events occur in the following order:
+This event occurs only when text is composed through an [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10)). Text composition events occur in the following order:
 + [TextCompositionStarted](richeditbox_textcompositionstarted.md)
 + [TextChanging](richeditbox_textchanging.md)
 + [TextChanged](richeditbox_textchanged.md)
@@ -36,4 +38,4 @@ After the [TextCompositionStarted](richeditbox_textcompositionstarted.md) event,
 ## -examples
 
 ## -see-also
-[TextCompositionChangedEventArgs](textcompositionchangedeventargs.md), [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10))
+[TextCompositionChangedEventArgs](textcompositionchangedeventargs.md), [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10))

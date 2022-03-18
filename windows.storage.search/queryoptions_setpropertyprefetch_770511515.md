@@ -19,7 +19,7 @@ A value that specifies the set of properties to retrieve in advance.
 The possible property sets match the sets of properties available on from the [StorageFile](../windows.storage/storagefile.md) class. For example, [PropertyPrefetchOptions.BasicProperties](../windows.storage.fileproperties/propertyprefetchoptions.md) will retrieve all of the properties available through [StorageFile.GetBasicPropertiesAsync](../windows.storage/storagefile_getbasicpropertiesasync_375277280.md) in advance.
 
 ### -param propertiesToRetrieve
-A custom list of properties to retrieve in advance as an array of property names. Use the system property names to specify properties, for example [System.Copyright](https://docs.microsoft.com/windows/desktop/properties/props-system-copyright) and [System.Image.ColorSpace](https://docs.microsoft.com/windows/desktop/properties/props-system-image-colorspace).
+A custom list of properties to retrieve in advance as an array of property names. Use the system property names to specify properties, for example [System.Copyright](/windows/desktop/properties/props-system-copyright) and [System.Image.ColorSpace](/windows/desktop/properties/props-system-image-colorspace).
 
 A list of additional properties to retrieve.
 
@@ -28,4 +28,4 @@ A list of additional properties to retrieve.
 ## -examples
 
 ## -see-also
-[Folder enumeration sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=619993)
+[Folder enumeration sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FolderEnumeration)

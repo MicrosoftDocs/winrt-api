@@ -16,7 +16,7 @@ Sends a message to a USSD session and returns a handler to retrieve the reply as
 > [!NOTE]
 > This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations). 
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations). 
 
 ## -parameters
 ### -param message
@@ -40,7 +40,7 @@ Windows::Foundation::TimeSpan delay{ std::chrono::seconds(1) };
 ThreadPoolTimer timer{ ThreadPoolTimer::CreateTimer(TimerElapsedHandler(timerDelegate), delay) };
 ```
 
-```cpp
+```cppcx
 auto timerDelegate = [ussdSession](Windows::System::Threading::ThreadPoolTimer^ timer) {};
 Windows::Foundation::TimeSpan delay;
 delay.Duration = 1; // non-zero value

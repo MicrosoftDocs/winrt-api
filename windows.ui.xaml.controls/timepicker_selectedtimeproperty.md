@@ -14,6 +14,8 @@ public DependencyProperty SelectedTimeProperty { get; }
 
 Identifies the [SelectedTime](timepicker_selectedtime.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.SelectedTimeProperty](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.selectedtimeproperty).
+
 ## -property-value
 
 The identifier for the [SelectedTime](timepicker_selectedtime.md) dependency property.

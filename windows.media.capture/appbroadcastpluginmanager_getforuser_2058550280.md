@@ -9,16 +9,20 @@ public AppBroadcastPlugInManager AppBroadcastPlugInManager.GetForUser(User user)
 
 # Windows.Media.Capture.AppBroadcastPlugInManager.GetForUser
 
+
 ## -description
+
 Gets the app broadcast plugin associated with the specified user.
 
-## -params
+## -parameters
 
-## -param user
+### -param user
+
 The user for which the app broadcast plugin should be retrieved.
 
 ## -returns
-The app broadcast plugin associated with the specified user. 
+
+The app broadcast plugin associated with the specified user.
 
 ## -remarks
 
@@ -26,7 +30,7 @@ The app broadcast plugin associated with the specified user.
 
 ## -examples
 
-
-
 ## -capabilities
+
 appBroadcast, appBroadcastSettings
+

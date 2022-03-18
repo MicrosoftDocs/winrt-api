@@ -13,7 +13,7 @@ public bool IsDefault { get; }
 Indicates whether this qualifier should be considered as a default match when no match is found.
 
 ## -property-value
-**TRUE** if this candidate can be used as a default fallback value for any context; otherwise, **FALSE**.
+`true` if this candidate can be used as a default fallback value for any context; otherwise, `false`.
 
 ## -remarks
 

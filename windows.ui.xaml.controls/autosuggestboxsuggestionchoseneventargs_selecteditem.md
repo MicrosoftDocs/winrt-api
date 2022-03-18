@@ -12,6 +12,8 @@ public object SelectedItem { get; }
 ## -description
 Gets a reference to the selected item.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBoxSuggestionChosenEventArgs.SelectedItem](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestboxsuggestionchoseneventargs.selecteditem).
+
 ## -property-value
 A reference to the selected item.
 

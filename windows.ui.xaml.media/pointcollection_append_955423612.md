@@ -12,6 +12,8 @@ public void Append(Windows.Foundation.Point value)
 ## -description
 Adds a new item to the collection.
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PointCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.pointcollection.append).
+
 ## -parameters
 ### -param value
 Adds a new item to the collection.

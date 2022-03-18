@@ -13,7 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.WiFi.WiFiAdapter> From
 ## -description
 A static method that initiates an asynchronous operation to get a [WiFiAdapter](wifiadapter.md) object.
 
-Note that if you do not specify that your app has the [wiFiControl](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations) capability in your app manifest, this method fails.
+Note that if you do not specify that your app has the [wiFiControl](/windows/uwp/packaging/app-capability-declarations) capability in your app manifest, this method fails.
 
 ## -parameters
 ### -param deviceId
@@ -22,7 +22,7 @@ The Device ID of the Wi-Fi adapter to be retrieved. Obtain a Device ID through t
 ## -returns
 An asynchronous get operation. On successful completion, returns a [WiFiAdapter](wifiadapter.md) object specific to the requested Device ID.
 
-If you do not specify that your app has the [wiFiControl](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations) capability in your app manifest, this method fails.
+If you do not specify that your app has the [wiFiControl](/windows/uwp/packaging/app-capability-declarations) capability in your app manifest, this method fails.
 
 ## -remarks
 

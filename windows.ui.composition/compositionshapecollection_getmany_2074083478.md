@@ -13,6 +13,8 @@ public uint CompositionShapeCollection.GetMany(UInt32 startIndex, CompositionSha
 
 Retrieves multiple elements in a single pass through the iterator.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.GetMany](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.getmany).
+
 ## -parameters
 ### -param startIndex
 

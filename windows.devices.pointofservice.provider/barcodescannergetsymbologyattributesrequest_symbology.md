@@ -10,7 +10,7 @@ public uint Symbology { get; }
 # Windows.Devices.PointOfService.Provider.BarcodeScannerGetSymbologyAttributesRequest.Symbology
 
 ## -description
-Gets the barcode symbology.  Possible values are defined in the [BarcodeSymbologies](https://docs.microsoft.com/uwp/api/windows.devices.pointofservice.barcodesymbologies) class.
+Gets the barcode symbology.  Possible values are defined in the [BarcodeSymbologies](/uwp/api/windows.devices.pointofservice.barcodesymbologies) class.
 
 ## -property-value
 The specific barcode symbology.

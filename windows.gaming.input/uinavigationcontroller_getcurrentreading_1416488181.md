@@ -21,4 +21,4 @@ The state of the UI navigation controller.
 
 ## -see-also
 
-* [Windows.Gaming.Input.UINavigationReading](uinavigationreading.md)
+[Windows.Gaming.Input.UINavigationReading](uinavigationreading.md)

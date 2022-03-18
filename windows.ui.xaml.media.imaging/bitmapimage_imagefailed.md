@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.ExceptionRoutedEventHandler ImageFailed
 ## -description
 Occurs when there is an error associated with image retrieval or format.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.ImageFailed](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.imagefailed).
+
 ## -xaml-syntax
 ```xaml
 <BitmapImage ImageFailed="eventhandler"/>
@@ -35,4 +37,4 @@ private void BitmapImage_ImageFailed(object sender, ExceptionRoutedEventArgs e) 
 ## -examples
 
 ## -see-also
-[ImageOpened](bitmapimage_imageopened.md), [Image.ImageFailed](../windows.ui.xaml.controls/image_imagefailed.md), [ImageBrush.ImageFailed](../windows.ui.xaml.media/imagebrush_imagefailed.md), [Image control](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](https://docs.microsoft.com/windows/uwp/controls-and-patterns/images-imagebrushes)
+[ImageOpened](bitmapimage_imageopened.md), [Image.ImageFailed](../windows.ui.xaml.controls/image_imagefailed.md), [ImageBrush.ImageFailed](../windows.ui.xaml.media/imagebrush_imagefailed.md), [Image control](../windows.ui.xaml.controls/image.md), [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes)

@@ -12,11 +12,13 @@ public bool AutoPlay { get;  set; }
 ## -description
 Gets or sets a value that indicates whether an animated image should play as soon as it loads.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.AutoPlay](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.autoplay).
+
 ## -property-value
 **true** if an animated image should play as soon as it loads; otherwise, **false**. The default is **true**.
 
 ## -remarks
-Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.controls/image.md) element supports animated GIF images. When you use a [BitmapImage](bitmapimage.md) as the image [Source](../windows.ui.xaml.controls/image_source.md), you can access [BitmapImage](bitmapimage.md)  API to control playback of the animated GIF image. For more info, see the 'Animated images' section of the [BitmapImage](bitmapimage.md) class Remarks and the [Animated GIF playback sample](https://go.microsoft.com/fwlink/p/?LinkId=624046).
+Starting in Windows 10, version 1607, the XAML [Image](../windows.ui.xaml.controls/image.md) element supports animated GIF images. When you use a [BitmapImage](bitmapimage.md) as the image [Source](../windows.ui.xaml.controls/image_source.md), you can access [BitmapImage](bitmapimage.md)  API to control playback of the animated GIF image. For more info, see the 'Animated images' section of the [BitmapImage](bitmapimage.md) class Remarks and the [Animated GIF playback sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAnimatedGif).
 
 Use the AutoPlay property, which defaults to **true**, to specify whether or not an animated bitmap plays as soon as it loads.
 
@@ -25,7 +27,7 @@ Use the AutoPlay property, which defaults to **true**, to specify whether or not
 
 ### Compatibility notes
 
-If your app runs on releases of Windows 10 prior to version 1607, you must set this property in code and use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you use it. If you set this property in XAML, you will get a XAML compiler error. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code).
+If your app runs on releases of Windows 10 prior to version 1607, you must set this property in code and use the [ApiInformation](../windows.foundation.metadata/apiinformation.md) class to check for the presence of this property before you use it. If you set this property in XAML, you will get a XAML compiler error. For more info, see [Version adaptive code: Use new APIs while maintaining compatibility with previous versions](/windows/uwp/debug-test-perf/version-adaptive-code).
 
 ## -examples
 This example shows how to use version adaptive code to use this property in an app that runs on all versions of Windows 10. On versions prior to version 1607, the first frame of the GIF is shown, but it is not animated.

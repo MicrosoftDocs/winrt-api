@@ -14,7 +14,7 @@ public class Print3DTaskRequestedEventArgs : Windows.Graphics.Printing3D.IPrint3
 Provides data for the [TaskRequested](print3dmanager_taskrequested.md) event.
 
 ## -remarks
-This API is designed for use with 3D Manufacturing Format (3MF) packages. For more info about 3MF, see the [3MF Specification](https://go.microsoft.com/fwlink/p/?LinkId=616252).
+This API is designed for use with 3D Manufacturing Format (3MF) packages. For more info about 3MF, see the [3MF Specification](https://3mf.io/specification/).
 
 ## -examples
 

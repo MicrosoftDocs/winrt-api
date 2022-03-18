@@ -12,6 +12,8 @@ public Windows.Foundation.TimeSpan Duration { get;  set; }
 ## -description
 The duration of the animation.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.KeyFrameAnimation.Duration](/windows/winui/api/microsoft.ui.composition.keyframeanimation.duration).
+
 ## -property-value
 The duration of the animation. Minimum allowed value is 1ms and maximum allowed value is 24 days.
 

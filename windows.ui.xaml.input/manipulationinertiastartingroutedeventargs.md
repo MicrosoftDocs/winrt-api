@@ -12,10 +12,12 @@ public class ManipulationInertiaStartingRoutedEventArgs : Windows.UI.Xaml.Routed
 ## -description
 Provides data for the [ManipulationInertiaStarting](../windows.ui.xaml/uielement_manipulationinertiastarting.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.manipulationinertiastartingroutedeventargs).
+
 ## -remarks
 
 ## -examples
-The following code example shows scenario 4 from the [Input sample](https://go.microsoft.com/fwlink/p/?linkid=226855). This code shows some usage patterns for direct manipulation using the [ManipulationStarting](../windows.ui.xaml/uielement_manipulationstarting.md), [ManipulationStarted](../windows.ui.xaml/uielement_manipulationstarted.md), [ManipulationDelta](../windows.ui.xaml/uielement_manipulationdelta.md), [ManipulationInertiaStarting](../windows.ui.xaml/uielement_manipulationinertiastarting.md), and [ManipulationCompleted](../windows.ui.xaml/uielement_manipulationcompleted.md) events.
+The following code example shows scenario 4 from the [Input sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Input%20XAML%20user%20input%20events%20sample). This code shows some usage patterns for direct manipulation using the [ManipulationStarting](../windows.ui.xaml/uielement_manipulationstarting.md), [ManipulationStarted](../windows.ui.xaml/uielement_manipulationstarted.md), [ManipulationDelta](../windows.ui.xaml/uielement_manipulationdelta.md), [ManipulationInertiaStarting](../windows.ui.xaml/uielement_manipulationinertiastarting.md), and [ManipulationCompleted](../windows.ui.xaml/uielement_manipulationcompleted.md) events.
 
 
 

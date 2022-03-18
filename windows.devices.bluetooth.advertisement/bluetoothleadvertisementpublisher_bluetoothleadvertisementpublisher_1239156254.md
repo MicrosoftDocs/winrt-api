@@ -18,7 +18,7 @@ Creates a new [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublis
 The Bluetooth LE advertisement to publish.
 
 ## -remarks
-There are additional policy restrictions on certain system-reserved data types that cannot be advertised through using the [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md). Advertisement containing these data types will be rejected and an exception will be thrown when the [Start](https://docs.microsoft.com/uwp/api/Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementPublisher.Start) method is called.
+There are additional policy restrictions on certain system-reserved data types that cannot be advertised through using the [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md). Advertisement containing these data types will be rejected and an exception will be thrown when the [Start](/uwp/api/Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementPublisher.Start) method is called.
 
 ## -examples
 

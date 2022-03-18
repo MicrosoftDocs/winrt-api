@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty FirstOfMonthLabelFontWeightProperty { 
 ## -description
 Identifies the [FirstOfMonthLabelFontWeight](calendarview_firstofmonthlabelfontweight.md)  dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.FirstOfMonthLabelFontWeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.firstofmonthlabelfontweightproperty).
+
 ## -property-value
 The identifier for the [FirstOfMonthLabelFontWeight](calendarview_firstofmonthlabelfontweight.md)   dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [FirstOfMonthLabelFontWeight](calendarview_firstofmonthla
 ## -examples
 
 ## -see-also
-[FirstOfMonthLabelFontWeight](calendarview_firstofmonthlabelfontweight.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[FirstOfMonthLabelFontWeight](calendarview_firstofmonthlabelfontweight.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

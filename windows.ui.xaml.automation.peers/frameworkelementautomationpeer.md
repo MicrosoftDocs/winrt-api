@@ -12,10 +12,12 @@ public class FrameworkElementAutomationPeer : Windows.UI.Xaml.Automation.Peers.A
 ## -description
 Exposes [FrameworkElement](../windows.ui.xaml/frameworkelement.md) derived types (including all controls) to Microsoft UI Automation.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.frameworkelementautomationpeer).
+
 ## -remarks
 There is no "ControlAutomationPeer" class. FrameworkElementAutomationPeer serves as implementation for all basic [Control](../windows.ui.xaml.controls/control.md) class scenarios that involve Microsoft UI Automation. This includes behavior that does not necessarily appear as a public API exposure, such as the practical implementations of many of the **Core** methods from [AutomationPeer](automationpeer.md).
 
-FrameworkElementAutomationPeer includes extensive base implementation of peer behavior that other peers can use to report information that comes from owner classes at the [UIElement](../windows.ui.xaml/uielement.md) and [FrameworkElement](../windows.ui.xaml/frameworkelement.md) level. For more info, see the "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers).
+FrameworkElementAutomationPeer includes extensive base implementation of peer behavior that other peers can use to report information that comes from owner classes at the [UIElement](../windows.ui.xaml/uielement.md) and [FrameworkElement](../windows.ui.xaml/frameworkelement.md) level. For more info, see the "Base implementation in FrameworkElementAutomationPeer" section of [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers).
 <!--Maybe eventually also put this info in the Core methods, because it is overriders that most want to know the specifics of each such behavior whereas general consumers might want big picture or the semi client perspective you get from the non Core descs-->
 
 In addition to the **Core** overrides, FrameworkElementAutomationPeer has two static utility methods that are useful for getting a peer handle from within control code, or for generating items peers from an item container peer for Microsoft UI Automation support. These are:
@@ -65,7 +67,7 @@ FrameworkElementAutomationPeer is the parent class for several immediately deriv
 ## -examples
 This example shows the basic subclass requirements for deriving a peer from FrameworkElementAutomationPeer and supporting at least one control pattern.
 
-This code is an excerpt from the [XAML accessibility sample](https://go.microsoft.com/fwlink/p/?linkid=238570).
+This code is an excerpt from the [XAML accessibility sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/XAML%20accessibility%20sample).
 
 > [!NOTE]
 > **This sample is not maintained and might not compile.**
@@ -177,7 +179,7 @@ struct MediaContainerAP : MediaContainerAPT<MediaContainerAP>
 };
 ```
 
-```cpp
+```cppcx
 // header
         public ref class MediaContainerAP sealed :  Windows::UI::Xaml::Automation::Peers::FrameworkElementAutomationPeer
                                                     ,Windows::UI::Xaml::Automation::Provider::IRangeValueProvider
@@ -218,7 +220,7 @@ struct MediaContainerAP : MediaContainerAPT<MediaContainerAP>
 // pattern implementation omitted
 ```
 
-```vbnet
+```vb
     Public Class MediaContainerAP
         Inherits FrameworkElementAutomationPeer
         Implements IRangeValueProvider
@@ -251,4 +253,4 @@ End Class
 ```
 
 ## -see-also
-[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Custom automation peers](https://docs.microsoft.com/windows/uwp/accessibility/custom-automation-peers), [AutomationPeer](automationpeer.md), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](https://docs.microsoft.com/accessibility-tools-docs/)
+[FrameworkElement](../windows.ui.xaml/frameworkelement.md), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [AutomationPeer](automationpeer.md), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](/accessibility-tools-docs/)

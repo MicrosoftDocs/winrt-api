@@ -12,6 +12,8 @@ public bool IsAccessKeyScope { get;  set; }
 ## -description
 Gets or sets a value that indicates whether an element defines its own access key scope.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.IsAccessKeyScope](/windows/winui/api/microsoft.ui.xaml.documents.textelement.isaccesskeyscope).
+
 ## -property-value
 **true** if an element defines its own scope; otherwise, **false**.
 

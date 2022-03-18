@@ -12,6 +12,8 @@ public event TypedEventHandler ShutdownStarting<DispatcherQueue, DispatcherQueue
 ## -description
 Fires before the dispatcher queue initiates an exit from its event loop.
 
+Equivalent WinUI event: [Microsoft.System.DispatcherQueue.ShutdownStarting](/windows/winui/api/microsoft.system.dispatcherqueue.shutdownstarting).
+
 ## -remarks
 The event is fired on the thread running the **DispatcherQueue** event loop.
 

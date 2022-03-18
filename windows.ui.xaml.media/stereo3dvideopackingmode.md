@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Media.Stereo3DVideoPackingMode : int
 ## -description
 Describes the frame-packing mode for stereo 3-D video content.
 
+Equivalent WinUI enum: [Stereo3DVideoPackingMode](/windows/winui/api/microsoft.ui.xaml.media.stereo3dvideopackingmode).
+
 ## -xaml-syntax
 ```xaml
 <object property="enumMemberName"/>

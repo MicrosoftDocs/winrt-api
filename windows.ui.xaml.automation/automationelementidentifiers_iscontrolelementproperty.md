@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty IsControlElementProperty { 
 ## -description
 Identifies the control element determination automation property. The control element status indicates whether the element contains user interface components that can be manipulated. The current status is returned by the [IsControlElement](../windows.ui.xaml.automation.peers/automationpeer_iscontrolelement_1004644794.md) method.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsControlElementProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.iscontrolelementproperty).
+
 ## -property-value
 The automation property identifier.
 

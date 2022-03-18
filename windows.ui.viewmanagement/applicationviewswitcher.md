@@ -26,4 +26,4 @@ Represents the app view switching behaviors for an app.
 
 ## -see-also
 
-[Multiple views sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620574), [Projection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620587)
+[Multiple views sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MultipleViews), [Projection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620587)

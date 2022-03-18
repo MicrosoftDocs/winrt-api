@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.ElementCompositeMode CompositeMode { get;  set; }
 ## -description
 Gets or sets a property that declares alternate composition and blending modes for the element in its parent layout and window. This is relevant for elements that are involved in a mixed XAML / Microsoft DirectX UI.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.CompositeMode](/windows/winui/api/microsoft.ui.xaml.uielement.compositemode).
+
 ## -xaml-syntax
 ```xaml
 <uiElement CompositeMode="elementCompositeModeMemberName" />
@@ -32,4 +34,4 @@ Setting a value of **MinBlend** is typically most relevant for a [SwapChainPanel
 ## -examples
 
 ## -see-also
-[SwapChainBackgroundPanel](../windows.ui.xaml.controls/swapchainbackgroundpanel.md), [DirectX and XAML interop](https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10))
+[SwapChainBackgroundPanel](../windows.ui.xaml.controls/swapchainbackgroundpanel.md), [DirectX and XAML interop](/previous-versions/windows/apps/hh825871(v=win.10))

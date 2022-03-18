@@ -14,7 +14,7 @@ public string ResolvedLanguage { get; }
 Gets the language tag of the successfully created [TextReverseConversionGenerator](textreverseconversiongenerator.md) object.
 
 ## -property-value
-The [BCP-47](https://go.microsoft.com/fwlink/p/?LinkId=227302) language tag of the reverse conversion generator.
+The [BCP-47](https://tools.ietf.org/html/bcp47) language tag of the reverse conversion generator.
 
 ## -remarks
 

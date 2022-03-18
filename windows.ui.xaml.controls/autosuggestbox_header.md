@@ -12,19 +12,17 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the header object for the text box portion of this control.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.Header](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.header).
+
 ## -xaml-syntax
 ```xaml
 <AutoSuggestBox Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <AutoSuggestBox>
   <AutoSuggestBox.Header>
     headerObject
   </AutoSuggestBox.Header>
 </AutoSuggestBox>
-
 ```
 
 

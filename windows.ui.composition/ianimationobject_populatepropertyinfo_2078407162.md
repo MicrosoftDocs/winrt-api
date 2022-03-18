@@ -13,6 +13,8 @@ public void IAnimationObject.PopulatePropertyInfo(String propertyName, Animation
 
 Defines a property that can be animated.
 
+Equivalent WinUI method: [Microsoft.UI.Composition.IAnimationObject.PopulatePropertyInfo](/windows/winui/api/microsoft.ui.composition.ianimationobject.populatepropertyinfo).
+
 ## -parameters
 ### -param propertyName
 

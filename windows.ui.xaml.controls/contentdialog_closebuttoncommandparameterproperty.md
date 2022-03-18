@@ -12,6 +12,8 @@ public DependencyProperty CloseButtonCommandParameterProperty { get; }
 ## -description
 Gets the identifier of the CloseButtonCommandParameter dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.CloseButtonCommandParameterProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.closebuttoncommandparameterproperty).
+
 ## -property-value
 The identifier of the CloseButtonCommandParameter dependency property.
 

@@ -12,6 +12,8 @@ public WriteableBitmap(System.Int32 pixelWidth, System.Int32 pixelHeight)
 ## -description
 Initializes a new instance of the [WriteableBitmap](writeablebitmap.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Imaging.WriteableBitmap.WriteableBitmap](/windows/winui/api/microsoft.ui.xaml.media.imaging.writeablebitmap.#ctor).
+
 ## -parameters
 ### -param pixelWidth
 The width of the bitmap in pixels.

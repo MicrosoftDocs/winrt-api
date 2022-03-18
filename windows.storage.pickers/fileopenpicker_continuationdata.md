@@ -16,9 +16,9 @@ Gets a set of values to be populated by the app before [PickSingleFileAndContinu
 A set of values to be populated by the app before [PickSingleFileAndContinue](fileopenpicker_picksinglefileandcontinue_1567473542.md) or [PickMultipleFilesAndContinue](fileopenpicker_pickmultiplefilesandcontinue_984499149.md) operation.
 
 ## -remarks
-> Windows Phone 8.x app only. For more info, see [How to continue your Windows Phone app after calling a file picker](https://docs.microsoft.com/previous-versions/windows/apps/dn614994(v=win.10)).
+> Windows Phone 8.x app only. For more info, see [How to continue your Windows Phone app after calling a file picker](/previous-versions/windows/apps/dn614994(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[How to continue your Windows Phone app after calling a file picker](https://docs.microsoft.com/previous-versions/windows/apps/dn614994(v=win.10))
+[How to continue your Windows Phone app after calling a file picker](/previous-versions/windows/apps/dn614994(v=win.10))

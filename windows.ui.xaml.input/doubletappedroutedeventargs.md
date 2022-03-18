@@ -12,6 +12,8 @@ public class DoubleTappedRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Wind
 ## -description
 Provides event data for the [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.DoubleTappedRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.doubletappedroutedeventargs).
+
 ## -remarks
 
 A [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md) event is sent whenever a mouse is double-clicked or a finger or pen taps the object twice in quick succession.
@@ -20,7 +22,35 @@ A [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md) event is sent whe
 
 The following snippets are from *Scenario 1 - Input events* of the [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/fe8567faf2efdea3672c2ba642ba7b925ff6467e/Samples/BasicInput).
 
-```cpp
+```cppwinrt
+Scenario1::Scenario1()
+{
+    InitializeComponent();
+
+    // pointer press/release handlers
+    pressedTarget.PointerPressed(this, &Scenario1::target_PointerPressed);
+    pressedTarget.PointerReleased(this, &Scenario1::target_PointerReleased);
+
+    // pointer enter/exit handlers
+    enterExitTarget.PointerEntered(this, &Scenario1::target_PointerEntered);
+    enterExitTarget.PointerExited(this, &Scenario1::target_PointerExited);
+
+    // gesture handlers
+    tapTarget.Tapped(this, &Scenario1::target_Tapped);
+    tapTarget.DoubleTapped(this, &Scenario1::target_DoubleTapped);
+
+    holdTarget.Holding(this, &Scenario1::target_Holding);
+    holdTarget.RightTapped(this, &Scenario1::target_RightTapped);
+}
+
+void Scenario1::target_DoubleTapped(Windows::Foundation::IInspectable const&, Windows::UI::Xaml::Input::DoubleTappedRoutedEventArgs const&)
+{
+    tapTarget.Background(Windows::UI::Xaml::Media::SolidColorBrush(Windows::UI::Colors::RoyalBlue()));
+    tapTargetText.Text(L"Double-Tapped");
+}
+```
+
+```cppcx
 Scenario1::Scenario1()
 {
     InitializeComponent();

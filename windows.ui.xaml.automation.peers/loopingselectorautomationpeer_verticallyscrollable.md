@@ -12,6 +12,8 @@ public bool VerticallyScrollable { get; }
 ## -description
 Gets a value that indicates whether the control can scroll vertically.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.VerticallyScrollable](/windows/winui/api/microsoft.ui.xaml.automation.peers.loopingselectorautomationpeer.verticallyscrollable).
+
 ## -property-value
 **true** if the control can scroll vertically; otherwise, **false**.
 

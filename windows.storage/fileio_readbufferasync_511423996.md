@@ -22,7 +22,7 @@ When this method completes, it returns an object (type [IBuffer](../windows.stor
 ## -remarks
 
 ## -examples
-The [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use ReadBufferAsync to read the contents of a file and return a buffer, like this:
+The [File Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess) shows you how to use ReadBufferAsync to read the contents of a file and return a buffer, like this:
 
 ```csharp
 
@@ -47,26 +47,8 @@ catch (FileNotFoundException)
 }
 ```
 
-```javascript
+In the example, `file` is a local variable that contains a [StorageFile](storagefile.md) that represents the file to read.
 
-if (file !== null) {
-    Windows.Storage.FileIO.readBufferAsync(sampleFile).then(function (buffer) {
-        // Perform additional tasks after file is read
-
-        // Use a dataReader object to read from the buffer
-        var dataReader = Windows.Storage.Streams.DataReader.fromBuffer(buffer);
-        var fileContent = dataReader.readString(buffer.length);
-        dataReader.close();
-    },
-    // Handle errors with an error function
-    function (error) {
-        // Handle errors encountered during write
-    });
-}
-```
-
-In the example, `file` is a local variable that contains a [storageFile](storagefile.md) that represents the file to read.
-
-After [readTextAsync](fileio_readtextasync_1063800.md) completes, the `buffer` variable gets the contents of the file as an [IBuffer](https://docs.microsoft.com/previous-versions/hh438362(v=vs.85)) object. You can then read from the buffer using a [dataReader](../windows.storage.streams/datareader.md) object and process the file contents as appropriate (as shown in the example.)
+After [ReadTextAsync](fileio_readtextasync_1063800.md) completes, the `buffer` variable gets the contents of the file as an [IBuffer](../windows.storage.streams/ibuffer.md) object. You can then read from the buffer using a [DataReader](../windows.storage.streams/datareader.md) object and process the file contents as appropriate (as shown in the example.)
 
 ## -see-also

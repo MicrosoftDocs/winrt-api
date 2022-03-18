@@ -12,6 +12,8 @@ public string Author { get; }
 ## -description
 Gets the name of the annotation author.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IAnnotationProvider.Author](/windows/winui/api/microsoft.ui.xaml.automation.provider.iannotationprovider.author).
+
 ## -property-value
 The name of the annotation author.
 

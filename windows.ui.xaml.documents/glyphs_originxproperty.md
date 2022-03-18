@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty OriginXProperty { get; }
 ## -description
 Identifies the [OriginX](glyphs_originx.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.OriginXProperty](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.originxproperty).
+
 ## -property-value
 The identifier for the [OriginX](glyphs_originx.md) dependency property.
 

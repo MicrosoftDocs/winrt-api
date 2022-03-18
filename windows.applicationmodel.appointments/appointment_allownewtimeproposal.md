@@ -13,7 +13,7 @@ public bool AllowNewTimeProposal { get;  set; }
 Gets or sets a value that indicates whether the appointment will allow users to propose a new time.
 
 ## -property-value
-A [Boolean](https://docs.microsoft.com/dotnet/api/system.boolean?redirectedfrom=MSDN) value that indicates whether the appointment will allow users to propose a new time. **TRUE** indicates that the appointment does allow new time proposal; otherwise **FALSE**.
+A [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) value that indicates whether the appointment will allow users to propose a new time. **TRUE** indicates that the appointment does allow new time proposal; otherwise **FALSE**.
 
 ## -remarks
 

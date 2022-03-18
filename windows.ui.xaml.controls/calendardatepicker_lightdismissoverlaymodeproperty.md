@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty LightDismissOverlayModeProperty { get;
 ## -description
 Identifies the [LightDismissOverlayMode](calendardatepicker_lightdismissoverlaymode.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.LightDismissOverlayModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.lightdismissoverlaymodeproperty).
+
 ## -property-value
 The identifier for the [LightDismissOverlayMode](calendardatepicker_lightdismissoverlaymode.md) dependency property.
 

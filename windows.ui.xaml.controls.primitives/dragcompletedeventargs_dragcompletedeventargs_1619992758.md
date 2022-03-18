@@ -12,6 +12,8 @@ public DragCompletedEventArgs(System.Double horizontalChange, System.Double vert
 ## -description
 Initializes a new instance of the [DragCompletedEventArgs](dragcompletedeventargs.md) class.
 
+Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Primitives.DragCompletedEventArgs.DragCompletedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.primitives.dragcompletedeventargs.#ctor).
+
 ## -parameters
 ### -param horizontalChange
 The horizontal change in position of the [Thumb](thumb.md) control, resulting from the drag operation.

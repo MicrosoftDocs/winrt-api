@@ -12,6 +12,8 @@ public object Tag { get;  set; }
 ## -description
 Gets or sets an arbitrary object value that can be used to store custom information about this object.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.Tag](/windows/winui/api/microsoft.ui.xaml.frameworkelement.tag).
+
 ## -xaml-syntax
 ```xaml
 <frameworkElement>
@@ -19,9 +21,7 @@ Gets or sets an arbitrary object value that can be used to store custom informat
     object*
   </frameworkElement.Tag>
 </frameworkElement>
-```
-
-```xaml
+- or -
 <frameworkElement Tag="string"/>
 ```
 
@@ -34,7 +34,7 @@ Gets or sets an arbitrary object value that can be used to store custom informat
 The intended arbitrary object value. This property has no default value.
 
 ## -remarks
-The scenario for the Tag property is to provide an general-purpose property on all [FrameworkElement](frameworkelement.md) classes that supports data binding, animation and styles for itself but where the property's value does not have any implicit meaning to platform subsystems like layout, app model, text, input and so on. For example, you might put a value in the Tag property that has no meaning to the [FrameworkElement](frameworkelement.md) where it is set, but which could be useful as an [ElementName](../windows.ui.xaml.data/binding_elementname.md) binding value to some other element that uses the [FrameworkElement](frameworkelement.md) as a [DataContext](frameworkelement_datacontext.md) and processes the Tag value in its own way. Or you might use Tag as a way for an applied style to get a value from an arbitrary [FrameworkElement](frameworkelement.md) parent into a specific applied template using [{TemplateBinding} markup extension](https://docs.microsoft.com/windows/uwp/xaml-platform/templatebinding-markup-extension), without requiring XAML namespace mapping of a specific instance property in app XAML.
+The scenario for the Tag property is to provide an general-purpose property on all [FrameworkElement](frameworkelement.md) classes that supports data binding, animation and styles for itself but where the property's value does not have any implicit meaning to platform subsystems like layout, app model, text, input and so on. For example, you might put a value in the Tag property that has no meaning to the [FrameworkElement](frameworkelement.md) where it is set, but which could be useful as an [ElementName](../windows.ui.xaml.data/binding_elementname.md) binding value to some other element that uses the [FrameworkElement](frameworkelement.md) as a [DataContext](frameworkelement_datacontext.md) and processes the Tag value in its own way. Or you might use Tag as a way for an applied style to get a value from an arbitrary [FrameworkElement](frameworkelement.md) parent into a specific applied template using [{TemplateBinding} markup extension](/windows/uwp/xaml-platform/templatebinding-markup-extension), without requiring XAML namespace mapping of a specific instance property in app XAML.
 
 ## -examples
 

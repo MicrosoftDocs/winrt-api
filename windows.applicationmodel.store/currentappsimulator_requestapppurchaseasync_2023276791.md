@@ -26,7 +26,7 @@ This method returns a success value even if:
 + The user's authentication fails.
  You should treat a success result as indicating the async process completed without errors. To ensure that the transaction itself was successful, check the **LicenseInformation** element in the returned receipt.
 
-For more information about the contents of the receipt, see [Using receipts to verify product purchases](https://docs.microsoft.com/windows/uwp/monetize/use-receipts-to-verify-product-purchases).
+For more information about the contents of the receipt, see [Using receipts to verify product purchases](/windows/uwp/monetize/use-receipts-to-verify-product-purchases).
 
 ## -examples
 

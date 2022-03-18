@@ -27,7 +27,7 @@ An asynchronous operation that returns the new **MiracastReceiverSession** objec
 
 ## -see-also
 
-[CoreApplicationView](..\Windows.ApplicationModel.Core\coreapplicationview.md),
+[CoreApplicationView](../Windows.ApplicationModel.Core/coreapplicationview.md),
 [CreateSession](miracastreceiver_createsession_1495869043.md)
 
 ## -examples

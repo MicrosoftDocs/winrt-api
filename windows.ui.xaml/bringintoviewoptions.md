@@ -12,6 +12,8 @@ public class BringIntoViewOptions
 ## -description
 Represents the options that can be applied when an element is brought into view.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.BringIntoViewOptions](/windows/winui/api/microsoft.ui.xaml.bringintoviewoptions).
+
 ## -remarks
 For more info, see the [UIElement.StartBringIntoView](uielement_startbringintoview_713992446.md) method.
 

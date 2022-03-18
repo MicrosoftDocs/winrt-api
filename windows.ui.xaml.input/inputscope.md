@@ -13,6 +13,8 @@ public class InputScope : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Inpu
 
 Represents information related to the data provided by an input method.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Input.InputScope](/windows/winui/api/microsoft.ui.xaml.input.inputscope).
+
 ## -remarks
 
 > [!NOTE]
@@ -23,4 +25,4 @@ The input scope indicates the expected input so that the XAML framework can disp
 ## -examples
 
 ## -see-also
-[Windows.UI.Xaml.Input](windows_ui_xaml_input.md), [DependencyObject](../windows.ui.xaml/dependencyobject.md), [Use input scope to change the touch keyboard](https://docs.microsoft.com/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[Windows.UI.Xaml.Input](windows_ui_xaml_input.md), [DependencyObject](../windows.ui.xaml/dependencyobject.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

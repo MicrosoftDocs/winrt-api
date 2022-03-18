@@ -10,18 +10,20 @@ public void LoadPriFiles(Windows.Foundation.Collections.IIterable<Windows.Storag
 # Windows.ApplicationModel.Resources.Core.ResourceManager.LoadPriFiles
 
 ## -description
-Loads one or more resource index ("PRI") files and adds their contents to the default resource manager.
+Loads one or more Package Resource Index (PRI) files and adds their contents to the default resource manager.
 
 ## -parameters
 ### -param files
-The files you want to add.
+The Package Resource Index (PRI) files you want to add.
 
 ## -remarks
-The LoadPRIFiles method accepts files only from inside the app package or dependent packages. See [How to load string resources](https://docs.microsoft.com/previous-versions/windows/apps/hh465248(v=win.10)).
+The `LoadPRIFiles` method accepts files only from inside the app package or dependent packages.
 
 If resource packs are used by an app, this method will always fail.
+
+For more info about PRI files, see [Resource Management System](/windows/uwp/app-resources/resource-management-system).
 
 ## -examples
 
 ## -see-also
-[How to load string resources](https://docs.microsoft.com/previous-versions/windows/apps/hh465248(v=win.10))
+[Localize strings in your UI and app package manifest](/windows/uwp/app-resources/localize-strings-ui-manifest), [Resource Management System](/windows/uwp/app-resources/resource-management-system)

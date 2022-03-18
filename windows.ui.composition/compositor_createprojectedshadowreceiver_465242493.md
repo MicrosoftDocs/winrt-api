@@ -14,6 +14,8 @@ public CompositionProjectedShadowReceiver Compositor.CreateProjectedShadowReceiv
 
 Creates an instance of [CompositionProjectedShadowReceiver](compositionprojectedshadowreceiver.md).
 
+Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateProjectedShadowReceiver](/windows/winui/api/microsoft.ui.composition.compositor.createprojectedshadowreceiver).
+
 ## -returns
 
 Returns the created [CompositionProjectedShadowReceiver](compositionprojectedshadowreceiver.md) object.

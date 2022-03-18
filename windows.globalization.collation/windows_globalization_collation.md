@@ -6,6 +6,7 @@
 # Windows.Globalization.Collation
 
 ## -description
+
 Provides read-only lists of character groupings.
 
 ## -remarks

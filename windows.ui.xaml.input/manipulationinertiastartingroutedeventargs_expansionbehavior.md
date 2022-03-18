@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Input.InertiaExpansionBehavior ExpansionBehavior { get;  
 ## -description
 Get or sets the rate of slowdown of expansion inertial movement.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.ExpansionBehavior](/windows/winui/api/microsoft.ui.xaml.input.manipulationinertiastartingroutedeventargs.expansionbehavior).
+
 ## -property-value
 The rate of slowdown of expansion inertial movement
 

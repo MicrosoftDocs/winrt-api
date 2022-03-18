@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Automation.AutomationProperty LevelProperty { get; }
 ## -description
 Gets the identifier for the level automation property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.LevelProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.levelproperty).
+
 ## -property-value
 The identifier for the level automation property.
 

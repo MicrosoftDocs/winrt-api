@@ -10,17 +10,17 @@ public VideoFrame VideoFrame.CreateWithDirect3D11Surface(IDirect3DSurface surfac
 # Windows.Media.VideoFrame.CreateWithDirect3D11Surface
 
 ## -description
-Creates a new instance of the [VideoFrame](videoframe.md) class for which the image data is stored in the provided [IDXGISurface](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface).
+Creates a new instance of the [VideoFrame](videoframe.md) class for which the image data is stored in the provided [IDXGISurface](/windows/desktop/api/dxgi/nn-dxgi-idxgisurface).
 
 ## -parameters
 ### -param surface
-The [IDXGISurface](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) in which the image data is stored.
+The [IDXGISurface](/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) in which the image data is stored.
 
 ## -returns
 A **VideoFrame**.
 
 ## -remarks
-If the *surface* parameter is null, an argument exception will occur. The supplied [IDXGISurface](https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) must use one of the supported pixel formats. **VideoFrame** supports the formats corresponding to the following [DirectXPixelFormat](../windows.graphics.directx/directxpixelformat.md) values:
+If the *surface* parameter is null, an argument exception will occur. The supplied [IDXGISurface](/windows/desktop/api/dxgi/nn-dxgi-idxgisurface) must use one of the supported pixel formats. **VideoFrame** supports the formats corresponding to the following [DirectXPixelFormat](../windows.graphics.directx/directxpixelformat.md) values:
 
 * **DirectXPixelFormat_R16G16B16A16UIntNormalized** 
 * **DirectXPixelFormat_R8G8B8A8UIntNormalized**

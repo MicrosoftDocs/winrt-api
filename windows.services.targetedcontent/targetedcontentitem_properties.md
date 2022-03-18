@@ -10,7 +10,9 @@ public IMapView<TargetedContentValue> Properties { get; }
 # Windows.Services.TargetedContent.TargetedContentItem.Properties
 
 ## -description
-Gets a collection containing property name as keys and TargetedContentValues in the TargetedContentItem object.
+
+Gets a collection containing property names (as keys) and [TargetedContentValue](targetedcontentvalue.md) objects.
+
 ## -property-value
 
 ## -remarks
@@ -19,6 +21,6 @@ Gets a collection containing property name as keys and TargetedContentValues in 
 
 ## -examples
 
-
 ## -capabilities
+
 secondaryAuthenticationFactor

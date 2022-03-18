@@ -10,10 +10,11 @@ public Windows.Foundation.Collections.IVectorView<Windows.ApplicationModel.Conta
 # Windows.ApplicationModel.Contacts.ContactInformation.QueryCustomFields
 
 ## -description
-> [!NOTE]
-> [ContactInformation](contactinformation.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [Contact](contact.md).
 
 Enables you to get the value for a custom field that is stored with a contact.
+
+> [!NOTE]
+> [ContactInformation](contactinformation.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [Contact](contact.md).
 
 ## -parameters
 ### -param customName

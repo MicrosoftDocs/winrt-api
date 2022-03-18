@@ -16,10 +16,9 @@ Represents a write transaction for a random-access stream.
 
 
 ## -examples
-The [File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445) shows you how to use a StorageStreamTransaction object to perform a transacted write operation on a file.
+The [File Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess) shows you how to use a StorageStreamTransaction object to perform a transacted write operation on a file.
 
 ```csharp
-
 try
 {
     if (file != null)
@@ -42,32 +41,7 @@ catch (FileNotFoundException)
 }
 ```
 
-```javascript
-
-if ( file !== null) {
-    file.openTransactedWriteAsync().then(
-        function (transaction) {
-            var dataWriter = new Windows.Storage.Streams.DataWriter(transaction.stream);
-            dataWriter.writeString("Swift as a shadow");
-            dataWriter.storeAsync().then(function (size) {
-                transaction.stream.size = size; // reset stream size to override the file
-                transaction.commitAsync().done(function () {
-                    // Text written to file
-
-                    // Close stream
-                    transaction.close();
-                });
-            });
-        },
-        // Handle errors with an error function
-        function (error) {
-            // Proccess errors
-        }
-    );
-}
-```
-
-In the example, `file` is a local variable that contains a [storageFile](storagefile.md) that represents the file to write.
+In the example, `file` is a local variable that contains a [StorageFile](storagefile.md) that represents the file to write.
 
 ## -see-also
-[File Access sample]( http://go.microsoft.com/fwlink/p/?linkid=231445), [IClosable](../windows.foundation/iclosable.md)
+[File Access sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FileAccess), [IClosable](../windows.foundation/iclosable.md)

@@ -13,6 +13,8 @@ public class CompositionEllipseGeometry : CompositionGeometry, CompositionGeomet
 
 Represents an ellipse with the specified center and radius.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionEllipseGeometry](/windows/winui/api/microsoft.ui.composition.compositionellipsegeometry).
+
 ## -remarks
 
 ## -see-also

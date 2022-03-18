@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty PointerOverForegroundProperty { get; }
 ## -description
 Identifies the [PointerOverForeground](listviewitempresenter_pointeroverforeground.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.pointeroverforegroundproperty).
+
 ## -property-value
 The identifier for the [PointerOverForeground](listviewitempresenter_pointeroverforeground.md) dependency property.
 
@@ -20,4 +22,4 @@ The identifier for the [PointerOverForeground](listviewitempresenter_pointerover
 ## -examples
 
 ## -see-also
-[PointerOverForeground](listviewitempresenter_pointeroverforeground.md), [Dependency properties overview](https://docs.microsoft.com/windows/uwp/xaml-platform/dependency-properties-overview)
+[PointerOverForeground](listviewitempresenter_pointeroverforeground.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview)

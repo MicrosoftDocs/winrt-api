@@ -39,9 +39,10 @@ The following example shows the [ReadingChanged](lightsensor_readingchanged.md) 
 | 1709 | 16299 | GetDeviceSelector |
 | 1709 | 16299 | MaxBatchSize |
 | 1709 | 16299 | ReportLatency |
+| 2004 | 19041 | ReportThreshold |
 
 ## -examples
 
 ## -see-also
 
-[LightSensor Sample](https://go.microsoft.com/fwlink/p/?linkid=241381), [Light sensor sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620561)
+[LightSensor Sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LightSensor), [Light sensor sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620561)

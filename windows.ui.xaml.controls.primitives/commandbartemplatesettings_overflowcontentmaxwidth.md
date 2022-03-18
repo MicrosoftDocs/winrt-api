@@ -12,6 +12,8 @@ public double OverflowContentMaxWidth { get; }
 ## -description
 Gets the maximum width value of the overflow content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings.OverflowContentMaxWidth](/windows/winui/api/microsoft.ui.xaml.controls.primitives.commandbartemplatesettings.overflowcontentmaxwidth).
+
 ## -property-value
 The maximum width value of the overflow content.
 

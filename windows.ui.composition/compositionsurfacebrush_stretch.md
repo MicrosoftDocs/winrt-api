@@ -12,6 +12,8 @@ public Windows.UI.Composition.CompositionStretch Stretch { get;  set; }
 ## -description
 Controls the scaling that is applied to the contents the [ICompositionSurface](icompositionsurface.md) with respect to the size of the [SpriteVisual](spritevisual.md) that is being painted.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSurfaceBrush.Stretch](/windows/winui/api/microsoft.ui.composition.compositionsurfacebrush.stretch).
+
 ## -property-value
 Controls how the brush's content is scaled with respect to the size of the [SpriteVisual](spritevisual.md) it is painted onto.
 

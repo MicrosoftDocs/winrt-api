@@ -12,6 +12,8 @@ public enum Windows.UI.Xaml.Controls.Primitives.ScrollingIndicatorMode : int
 ## -description
 Defines constants that specify input-specific transition animations that are part of the default template for [ScrollBar](scrollbar.md).
 
+Equivalent WinUI enum: [ScrollingIndicatorMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrollingindicatormode).
+
 ## -xaml-syntax
 ```xaml
 <objectproperty="enumMemberName" />

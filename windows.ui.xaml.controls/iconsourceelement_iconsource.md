@@ -14,6 +14,8 @@ public IconSource IconSource { get;  set; }
 
 Gets or sets the IconSource used as the icon content.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.IconSourceElement.IconSource](/windows/winui/api/microsoft.ui.xaml.controls.iconsourceelement.iconsource).
+
 ## -property-value
 
 The IconSource used as the icon content. The default is **null**.

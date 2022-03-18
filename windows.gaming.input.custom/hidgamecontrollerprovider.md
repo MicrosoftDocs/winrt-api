@@ -21,7 +21,7 @@ This class also exposes the HID page and usage of the TLC (top-level collection)
 
 ## -see-also
 
-* [IGameControllerProvider](igamecontrollerprovider.md)
+[IGameControllerProvider](igamecontrollerprovider.md)
 
 ## -examples
 

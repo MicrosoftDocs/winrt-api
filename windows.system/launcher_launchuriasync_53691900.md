@@ -86,7 +86,7 @@ Windows::Foundation::IAsyncAction MainPage::DefaultLaunch()
 }
 ```
 
-```cpp
+```cppcx
 // The URI to launch
 auto uri = ref new Windows::Foundation::Uri("http://www.bing.com");
 
@@ -108,25 +108,7 @@ void MainPage::DefaultLaunch()
 }
 ```
 
-```javascript
-// The URI to launch
-var uriToLaunch = "http://www.bing.com";
-
-// Create a Uri object from a URI string 
-var uri = new Windows.Foundation.Uri(uriToLaunch);
-
-// Launch the URI
-Windows.System.Launcher.launchUriAsync(uri).then(   
-   function (success) {
-      if (success) {
-        // URI launched
-      } else {
-        // URI launch failed
-      }
-   });
-```
-
-```vbnet
+```vb
 ' The URI to launch
 Dim uri As New Uri("http://www.bing.com")
 
@@ -145,4 +127,4 @@ End Sub
 ```
 
 ## -see-also
-[LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md), [LaunchUriAsync(Uri, LauncherOptions, ValueSet)](launcher_launchuriasync_569877360.md), [Association launching sample](https://go.microsoft.com/fwlink/p/?linkid=231484), [Guidelines for file types and URIs](https://docs.microsoft.com/windows/uwp/files/index), [How to launch the default app for a URI (JavaScript)](https://docs.microsoft.com/previous-versions/windows/apps/hh452690(v=win.10)), [Launch the default app for a URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app)
+[LaunchUriAsync(Uri, LauncherOptions)](launcher_launchuriasync_68890748.md), [LaunchUriAsync(Uri, LauncherOptions, ValueSet)](launcher_launchuriasync_569877360.md), [Association launching sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Association%20launching%20sample), [Guidelines for file types and URIs](/windows/uwp/files/index), [Launch the default app for a URI](/windows/uwp/launch-resume/launch-default-app)

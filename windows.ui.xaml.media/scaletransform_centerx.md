@@ -12,6 +12,8 @@ public double CenterX { get;  set; }
 ## -description
 Gets or sets the x-coordinate of the center point of this [ScaleTransform](scaletransform.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ScaleTransform.CenterX](/windows/winui/api/microsoft.ui.xaml.media.scaletransform.centerx).
+
 ## -xaml-syntax
 ```xaml
 <ScaleTransform CenterX="double"/>

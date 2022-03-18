@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler TextCompositionStarted<Windows
 ## -description
 Occurs when a user starts composing text through an Input Method Editor (IME).
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.RichEditBox.TextCompositionStarted](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.textcompositionstarted).
+
 ## -xaml-syntax
 
 ```xaml
@@ -21,7 +23,7 @@ Occurs when a user starts composing text through an Input Method Editor (IME).
 ## -remarks
 For event data, see [TextCompositionStartedEventArgs](textcompositionstartedeventargs.md).
 
-This event occurs only when text is composed through an [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10)). Text composition events occur in the following order:
+This event occurs only when text is composed through an [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10)). Text composition events occur in the following order:
 + TextCompositionStarted
 + [TextChanging](richeditbox_textchanging.md)
 + [TextChanged](richeditbox_textchanged.md)
@@ -36,4 +38,4 @@ After the TextCompositionStarted event, the [TextChanging](richeditbox_textchang
 ## -examples
 
 ## -see-also
-[TextCompositionStartedEventArgs](textcompositionstartedeventargs.md), [Input Method Editor (IME)](https://docs.microsoft.com/previous-versions/windows/apps/hh967427(v=win.10))
+[TextCompositionStartedEventArgs](textcompositionstartedeventargs.md), [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10))

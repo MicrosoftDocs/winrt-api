@@ -13,6 +13,8 @@ public event Windows.UI.Xaml.RoutedEventHandler SeekCompleted
 Occurs when the seek point of a requested seek operation is ready for playback. 
 <!--Are seeks asynch? Found spec that says so but it might be a specific application and not really the Seek API.-->
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.MediaElement.SeekCompleted](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.seekcompleted).
+
 ## -xaml-syntax
 ```xaml
 <MediaElement SeekCompleted="eventhandler"/>

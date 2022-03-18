@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyProperty HeaderTemplateProperty { get; }
 ## -description
 Identifies the [HeaderTemplate](hubsection_headertemplate.md) dependency property.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.HubSection.HeaderTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.hubsection.headertemplateproperty).
+
 ## -property-value
 The identifier for the [HeaderTemplate](hubsection_headertemplate.md) dependency property.
 

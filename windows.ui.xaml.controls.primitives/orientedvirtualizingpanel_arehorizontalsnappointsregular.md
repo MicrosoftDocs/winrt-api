@@ -12,6 +12,8 @@ public bool AreHorizontalSnapPointsRegular { get; }
 ## -description
 Gets a value that indicates whether the horizontal snap points for the [OrientedVirtualizingPanel](orientedvirtualizingpanel.md) are equidistant from each other.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.AreHorizontalSnapPointsRegular](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.arehorizontalsnappointsregular).
+
 ## -property-value
 **true** if the horizontal snap points for the [OrientedVirtualizingPanel](orientedvirtualizingpanel.md) are equidistant from each other; otherwise, **false**.
 
