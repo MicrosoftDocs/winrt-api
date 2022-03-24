@@ -28,4 +28,4 @@ The collection is not necessarily indexed by [PointerId](../windows.ui.xaml.inpu
 ## -examples
 
 ## -see-also
-[CapturePointer](uielement_capturepointer_916768934.md), PointerCaptures, [Pointer](../windows.ui.xaml.input/pointer.md), [Handle pointer input](/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](/en-us/windows/uwp/gaming/relative-mouse-movement)
+[CapturePointer](uielement_capturepointer_916768934.md), PointerCaptures, [Pointer](../windows.ui.xaml.input/pointer.md), [Handle pointer input](/windows/uwp/design/input/handle-pointer-input), [Relative mouse movement and CoreWindow](/windows/uwp/gaming/relative-mouse-movement)

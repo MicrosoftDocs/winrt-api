@@ -13,7 +13,8 @@ public DispatcherQueue DispatcherQueue.GetForCurrentThread()
 Gets the **DispatcherQueue** associated with the current thread.
 
 ## -returns
-A **DispatcherQueue** instance that will execute tasks serially on the current thread.
+A **DispatcherQueue** instance that will execute tasks serially on the current thread,
+or null if no such **DispatcherQueue** exists.
 
 ## -remarks
 

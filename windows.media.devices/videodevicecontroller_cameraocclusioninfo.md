@@ -20,6 +20,8 @@ The [CameraOcclusionInfo](videodevicecontroller_cameraocclusioninfo.md) for the 
 
 ## -remarks
 
+You should only use the shutter state data obtained through this property while the camera is actively streaming. Apps should respond in a logical manner when they detect that the shutter is closed. This should include an in-app message to open the shutter. Applications must not automatically take an action (e.g., turning the camera off) or block the user from doing an action (e.g., turning on the camera) based on the shutter state, as not every camera will reliably report the shutter state when not streaming. Applications must not treat the reported shutter state as an absolute privacy indicator – it is only a notification that the camera believes the shutter is closed.
+
 
 ## -see-also
 

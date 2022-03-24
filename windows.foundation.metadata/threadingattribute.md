@@ -10,7 +10,7 @@ public class ThreadingAttribute : System.Attribute
 # Windows.Foundation.Metadata.ThreadingAttribute
 
 ## -description
-Indicates the threading model of a Windows Runtime component.
+Indicates the threading model of a Windows Runtime class.
 
 ## -remarks
 

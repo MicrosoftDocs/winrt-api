@@ -12,6 +12,8 @@ public class StoreContext : Windows.Services.Store.IStoreContext, Windows.Servic
 ## -description
 Provides members you can use to access and manage Microsoft Store-related data for the current app. For example, you can use members of this class to get Microsoft Store listing and license info for the current app, purchase the current app or products that are offered by the app, or download and install package updates for the app.
 
+In a desktop app, before using an instance of this class in a way that displays UI, you'll need to associate the object with its owner's window handle. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
+
 ## -remarks
 
 > [!NOTE]
@@ -33,9 +35,6 @@ To get a StoreContext object, use one of these static methods:
   var users = await Windows.System.User.FindAllAsync();
   Windows.Services.Store.StoreContext context = StoreContext.GetForUser(users[0]);
   ```
-
-> [!NOTE]
-> To use an instance of this class in a desktop app (.NET or native C++), you must cast the instance to the [IInitializeWithWindow](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow) interface and pass the owner window for the operation to the [Initialize](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) method. For more information, see [Using the StoreContext class in a desktop app](/windows/uwp/monetize/in-app-purchases-and-trials#desktop) and [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow).
 
 After you have a StoreContext object, you can start calling methods to purchase an app or add-on for the current user and other tasks. For more information, see the following articles:
 + [In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials)
@@ -72,5 +71,5 @@ You can also use a StoreContext object to download and install package updates f
 ## -examples
 
 ## -see-also
-[In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials), [Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store), [Classes that use IInitializeWithWindow](/windows/apps/desktop/modernize/desktop-to-uwp-supported-api#classes-that-use-iinitializewithwindow)
+[In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials), [Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)
 

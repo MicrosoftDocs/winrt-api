@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Security.Credentials.UI.UserCo
 # Windows.Security.Credentials.UI.UserConsentVerifier.RequestVerificationAsync
 
 ## -description
-Performs a verification using a device such as Microsoft Passport PIN, Windows Hello, or a fingerprint reader.
+Performs a verification using a device such as Microsoft Passport PIN, Windows Hello, or a fingerprint reader. This API is for Universal Windows Platform (UWP) apps. The alternative API to use for a desktop app is described in **Examples** in [UserConsentVerifier class](/uwp/api/windows.security.credentials.ui.userconsentverifier).
 
 ## -parameters
 ### -param message
@@ -24,5 +24,7 @@ You can use the RequestVerificationAsync method to request user consent for auth
 
 ## -examples
 
+See **Examples** in [UserConsentVerifier class](/uwp/api/windows.security.credentials.ui.userconsentverifier).
+
 ## -see-also
-[Fingerprint biometrics](/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/UserConsentVerifier), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](/windows/uwp/security/authentication-and-user-identity)
+[UserConsentVerifier class](/uwp/api/windows.security.credentials.ui.userconsentverifier), [Fingerprint biometrics](/windows/uwp/security/fingerprint-biometrics), [UserConsentVerifier sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/UserConsentVerifier), [Windows.Security.Credentials.UI](windows_security_credentials_ui.md), [Authentication and user identity](/windows/uwp/security/authentication-and-user-identity)

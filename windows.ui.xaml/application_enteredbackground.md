@@ -23,4 +23,4 @@ The EnteredBackground event runs in the apartment it was registered in.
 
 ## -see-also
 
-[Processes threads and apartments](/en-us/windows/win32/com/processes--threads--and-apartments)
+[Processes threads and apartments](/windows/win32/com/processes--threads--and-apartments)

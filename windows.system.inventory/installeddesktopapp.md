@@ -19,9 +19,9 @@ InstalledDesktopApp checks for the **packageQuery** capability and returns an em
 
 ## -examples
 ```csharp
-IList<IInstalledDesktopApp> installedApps = await InstalledDesktopApp::GetInventoryAsync();
+IReadOnlyList<IInstalledDesktopApp> installedApps = await InstalledDesktopApp.GetInventoryAsync();
     
-foreach(var app in installedApps)
+foreach (var app in installedApps)
 {
     Console.WriteLine("Display Name: " + app.DisplayName);
     Console.WriteLine("Application ID: " + app.Id);

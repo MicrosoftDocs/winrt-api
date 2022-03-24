@@ -16,7 +16,9 @@ public SecondaryTile(System.String tileId, System.String shortName, System.Strin
 
 Creates a [SecondaryTile](secondarytile.md) object as a wide tile.
 
-> On Windows Phone 8.1, all tiles— including secondary tiles— are pinned at as medium tiles, after which they can be resized by the user. This constructor provides that option of resizing to a wide tile.
+In a desktop app, before using an instance of this class in a way that displays UI, you'll need to associate the object with its owner's window handle. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
+
+> On Windows Phone 8.1, all tiles&mdash;including secondary tiles&mdash;are pinned as medium tiles, after which they can be resized by the user. This constructor provides that option of resizing to a wide tile.
 
 ## -parameters
 ### -param tileId
@@ -46,7 +48,6 @@ A reference to a medium logo image stored at a Uniform Resource Identifier (URI)
 A reference to a wide logo image stored at a Uniform Resource Identifier (URI). Can be set or retrieved through the [WideLogo](secondarytile_widelogo.md) property. This value can be expressed using one of these schemes: <termdeflist><termdef><name>ms-appx:///</name>A path within the deployed app package. This path is resolved for languages and DPI plateau supported by the app.</termdef><termdef><name>ms-appdata:///local/</name>A file found in the per-user app storage.</termdef></termdeflist>
 
 ## -remarks
-To use this object from a desktop app, create the object, and then use [the IInitializeWithWindow::Initialize method](/en-us/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) to associate the object with a window handle.
 
 ## -examples
 

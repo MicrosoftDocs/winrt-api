@@ -17,6 +17,7 @@ Gets the Id of the of the app.
 The Id of the app.
 
 ## -remarks
+Activity attributed to the system is reported with an empty string as the AttributionId.
 
 ## -examples
 

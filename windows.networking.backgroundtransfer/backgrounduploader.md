@@ -77,7 +77,7 @@ Four scenarios using Microsoft Visual Studio can cause this issue.
 + You add or remove a capability in the package manifest (adding **Enterprise Authentication**, for example) in an existing project.
  Regular app servicing, including manifest updates which add or remove capabilities, do not trigger this issue on end user deployments of your app.
 
-To work around this issue, completely uninstall all versions of the app and re-deploy with the new language, architecture, culture, or capability. This can be done via the **Start** screen or using PowerShell and the <cmd_line>Remove-AppxPackage</cmd_line> cmdlet.
+To work around this issue, completely uninstall all versions of the app and re-deploy with the new language, architecture, culture, or capability. This can be done via the **Start** screen or using PowerShell and the `Remove-AppxPackage` cmdlet.
 
 ## -examples
 

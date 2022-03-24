@@ -20,7 +20,7 @@ The zero-based index of the item.
 The item at the specified index.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the [System.Collections.Generic.IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true) interface.
+When programming with .NET, this interface is hidden, and you should use the [System.Collections.Generic.IList\<T\>](/dotnet/api/system.collections.generic.ilist-1) interface.
 
 If the index is out of range,
 the view will throw an exception.

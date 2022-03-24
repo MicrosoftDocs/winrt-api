@@ -24,4 +24,4 @@ The Resuming event runs in the same apartment it was registered in.
 ## -examples
 
 ## -see-also
-[Suspending](application_suspending.md), [OnActivated](application_onactivated_603737819.md), [Launching and resuming apps](/windows/uwp/launch-resume/), [Processes threads and apartments](/en-us/windows/win32/com/processes--threads--and-apartments)
+[Suspending](application_suspending.md), [OnActivated](application_onactivated_603737819.md), [Launching and resuming apps](/windows/uwp/launch-resume/), [Processes threads and apartments](/windows/win32/com/processes--threads--and-apartments)

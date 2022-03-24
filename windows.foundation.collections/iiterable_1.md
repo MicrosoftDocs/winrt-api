@@ -37,6 +37,7 @@ auto end() const;
 
 Returns an iterator to one past the last element of the collection, for use in C++ algorithms such as range-based `for` loops.
 
+
 ## -examples
 
 ## -see-also

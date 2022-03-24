@@ -170,6 +170,7 @@ Here, a GridView is bound to a grouped [CollectionViewSource](../windows.ui.xaml
                 </GroupStyle>
             </GridView.GroupStyle>
         </GridView>
+    </Grid>
 </Page>
 ```
 

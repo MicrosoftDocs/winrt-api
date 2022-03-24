@@ -23,6 +23,7 @@ Additional info about the view, such as its class name in the app code.
 The view.
 
 ## -remarks
+You cannot create a new view while the app is suspending or resuming.
 
 ## -examples
 
