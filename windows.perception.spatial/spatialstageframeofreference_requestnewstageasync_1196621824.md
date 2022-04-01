@@ -20,6 +20,8 @@ An app may call RequestNewStageAsync if there is no stage defined or if the curr
 
 ## -remarks
 
+This API must be called from within an ASTA thread (also known as a UI thread).
+
 ## -see-also
 
 ## -examples
