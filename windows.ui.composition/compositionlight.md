@@ -19,13 +19,12 @@ Equivalent WinUI class: [Microsoft.UI.Composition.CompositionLight](/windows/win
 ## -remarks
 CompositionLight is the base class for four light types.
 
-<table>
-   <tr><th>Light</th><th>Description</th></tr>
-   <tr><td>[AmbientLight](ambientlight.md)</td><td>A light source that emits non directional light that appears to have been reflected by everything in the scene.</td></tr>
-   <tr><td>[DistantLight](distantlight.md)</td><td>An infinitely large distant light source that emits light in a single direction.</td></tr>
-   <tr><td>[PointLight](pointlight.md)</td><td>A point source of light that emits light in all directions.</td></tr>
-   <tr><td>[SpotLight](spotlight.md)</td><td>A light source that emits inner and outer cones of light.</td></tr>
-</table>
+| Light | Description |
+|---|---|
+| [AmbientLight](ambientlight.md) | A light source that emits non directional light that appears to have been reflected by everything in the scene. |
+| [DistantLight](distantlight.md) | An infinitely large distant light source that emits light in a single direction. |
+| [PointLight](pointlight.md) | A point source of light that emits light in all directions. |
+| [SpotLight](spotlight.md) | A light source that emits inner and outer cones of light. |
 
 > [!NOTE]
 > A Visual cannot be targeted by more than two non-ambient lights (PointLight, SpotLight or DistantLight).

@@ -35,21 +35,14 @@ Some methods take a value from the [CommonFolderQuery](../windows.storage.search
 
 To get deep query results from a folder that's not a library folder, call the [CreateFolderQueryWithOptions(QueryOptions)](storagefolder_createfolderquerywithoptions_573382953.md) method and specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.
 
-<table>
-   <tr><th>Method</th><th>Create a shallow query that only returns subfolders from the current folder</th><th>Create a deep query that returns all nested subfolders</th></tr>
-   <tr><td>GetFoldersAsync()</td><td>Default behavior of this method.</td><td>N/A</td></tr>
-   <tr><td>[GetFoldersAsync(CommonFileQuery)](storagefolder_getfoldersasync_595997124.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
-   <tr><td>[GetFoldersAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
-   <tr><td>[CreateFolderQuery()](storagefolder_createfolderquery_325438332.md)</td><td>Default behavior of this method.</td><td>N/A</td></tr>
-   <tr><td>[CreateFolderQuery(CommonFileQuery)](storagefolder_createfolderquery_330767063.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
-   <tr><td>[CreateFolderQueryWithOptions(QueryOptions)](storagefolder_createfolderquerywithoptions_573382953.md)</td><td><ul><li>Default behavior of this method if none of the following options are specified.
-
-- or -</li><li>Specify **DefaultQuery** as the value of [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.
-
-- or -</li><li>Specify **Shallow** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.</li></ul></td><td><ul><li>For a library folder, specify a value other than **DefaultQuery** as the value of [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.
-
-- or -</li><li>For any folder, specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md).</li></ul></td></tr>
-</table>
+| Method | Create a shallow query that only returns subfolders from the current folder | Create a deep query that returns all nested subfolders |
+|---|---|---|
+| GetFoldersAsync() | Default behavior of this method. | N/A |
+| [GetFoldersAsync(CommonFileQuery)](storagefolder_getfoldersasync_595997124.md) | Specify the **DefaultQuery** option. | For a library folder, specify an option other than **DefaultQuery**. |
+| [GetFoldersAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md) | Specify the **DefaultQuery** option. | For a library folder, specify an option other than **DefaultQuery**. |
+| [CreateFolderQuery()](storagefolder_createfolderquery_325438332.md) | Default behavior of this method. | N/A |
+| [CreateFolderQuery(CommonFileQuery)](storagefolder_createfolderquery_330767063.md) | Specify the **DefaultQuery** option. | For a library folder, specify an option other than **DefaultQuery**. |
+| [CreateFolderQueryWithOptions(QueryOptions)](storagefolder_createfolderquerywithoptions_573382953.md) | Default behavior of this method if none of the following options are specified.<br/>- or -<br/>Specify **DefaultQuery** as the value of [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.<br/>- or -<br/>Specify **Shallow** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object. | For a library folder, specify a value other than **DefaultQuery** as the value of [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.<br/>- or -<br/>For any folder, specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md). |
 
 ## -examples
 The following example shows how to get the contents of the subfolders in the user's Pictures folder, grouped by month, by calling the [GetFoldersAsync(CommonFolderQuery, UInt32, UInt32)](storagefolder_getfoldersasync_731846614.md) method. (Files from the root of the current folder are not included.) This example returns a maximum of 4 folders, starting with the folder at index 0. Since the [CommonFolderQuery.GroupByMonth](../windows.storage.search/commonfolderquery.md) option sorts dates in descending order (that is, from newest to oldest), this example returns folders for the 4 most recent months for which the user has photos. Each folder contains all the user's photos from that month.

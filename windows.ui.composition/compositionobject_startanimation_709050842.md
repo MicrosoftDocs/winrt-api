@@ -26,55 +26,53 @@ If an animation is already bound to an object's property when StartAnimation is 
 
 The following table shows the list of animatable properties:
 
-<table>
-   <tr><th>Object</th><th>Property Name</th><th>Property Type</th></tr>
-   <tr><td>[Visual](visual.md)</td><td>[AnchorPoint](visual_anchorpoint.md)</td><td>Vector2</td></tr>
-   <tr><td /><td>[CenterPoint](visual_centerpoint.md)</td><td>Vector3</td></tr>
-   <tr><td /><td>[Offset](visual_offset.md)</td><td>Vector3</td></tr>
-   <tr><td /><td>[Opacity](visual_opacity.md)</td><td>Scalar</td></tr>
-   <tr><td /><td>[Orientation](visual_orientation.md)</td><td>Vector4</td></tr>
-   <tr><td /><td>[RotationAngle](visual_rotationangle.md)</td><td>Scalar</td></tr>
-   <tr><td /><td>[RotationAxis](visual_rotationaxis.md)</td><td>Vector3</td></tr>
-   <tr><td /><td>[Size](visual_size.md)</td><td>Vector2</td></tr>
-   <tr><td /><td>[TransformMatrix](visual_transformmatrix.md)</td><td>Matrix4x4</td></tr>
-   <tr><td>[InsetClip](insetclip.md)</td><td>[BottomInset](insetclip_bottominset.md)</td><td>Scalar</td></tr>
-   <tr><td /><td>[LeftInset](insetclip_leftinset.md)</td><td>Scalar</td></tr>
-   <tr><td /><td>[RightInset](insetclip_rightinset.md)</td><td>Scalar</td></tr>
-   <tr><td /><td>[TopInset](insetclip_topinset.md)</td><td>Scalar</td></tr>
-   <tr><td>[CompositionColorBrush](compositioncolorbrush.md)</td><td>[Color](compositioncolorbrush_color.md)</td><td>Windows.UI.Color</td></tr>
-   <tr><td>[CompositionPropertySet](compositionpropertyset.md)</td><td>Set of properties specified by the developer.</td><td /></tr>
-</table>
+| Object | Property Name | Property Type |
+|---------|---------|---------|
+| [Visual](visual.md) | [AnchorPoint](visual_anchorpoint.md) | Vector2 |
+|  | [CenterPoint](visual_centerpoint.md) | Vector3 |
+|  | [Offset](visual_offset.md) | Vector3 |
+|  | [Opacity](visual_opacity.md) | Scalar |
+|  | [Orientation](visual_orientation.md) | Vector4 |
+|  | [RotationAngle](visual_rotationangle.md) | Scalar |
+|  | [RotationAxis](visual_rotationaxis.md) | Vector3 |
+|  | [Size](visual_size.md) | Vector2 |
+|  | [TransformMatrix](visual_transformmatrix.md) | Matrix4x4 |
+| [InsetClip](insetclip.md) | [BottomInset](insetclip_bottominset.md) | Scalar |
+|  | [LeftInset](insetclip_leftinset.md) | Scalar |
+|  | [RightInset](insetclip_rightinset.md) | Scalar |
+|  | [TopInset](insetclip_topinset.md) | Scalar |
+| [CompositionColorBrush](compositioncolorbrush.md) | [Color](compositioncolorbrush_color.md) | Windows.UI.Color |
+| [CompositionPropertySet](compositionpropertyset.md) | Set of properties specified by the developer. |  |
 
 In addition, properties of some effects under the [CompositionEffectBrush](compositioneffectbrush.md) object can be animated:
 
-<table>
-   <tr><th>Effect Name</th><th>Property Name</th><th>Property Type</th></tr>
-   <tr><td>SaturationEffect</td><td>Saturation</td><td>Scalar</td></tr>
-   <tr><td>ColorSourceEffect</td><td>Color</td><td>Vector4</td></tr>
-   <tr><td>ArithmeticComposite</td><td>Offset</td><td>Scalar</td></tr>
-   <tr><td /><td>Source1Amount</td><td>Scalar</td></tr>
-   <tr><td /><td>Source2Amount</td><td>Scalar</td></tr>
-   <tr><td /><td>MultiplyAmount</td><td>Scalar</td></tr>
-   <tr><td>Transform2D</td><td>TransformMatrix</td><td>Matrix3x2</td></tr>
-   <tr><td>ContrastEffect</td><td>Contrast</td><td>Float</td></tr>
-   <tr><td>ExposureEffect</td><td>Exposure</td><td>Float</td></tr>
-   <tr><td>HueRotationEffect</td><td>Angle</td><td>Float</td></tr>
-   <tr><td>SepiaEffect</td><td>Intensity</td><td>Float</td></tr>
-   <tr><td>TemperatureAndTintEffect</td><td>Temperature</td><td>Float</td></tr>
-   <tr><td /><td>Tint</td><td>Float</td></tr>
-   <tr><td>GammaTransferEffect</td><td>RedAmplitude</td><td>Float</td></tr>
-   <tr><td /><td>RedExponent</td><td>Float</td></tr>
-   <tr><td /><td>RedOffset</td><td>Float</td></tr>
-   <tr><td /><td>GreenAmplitude</td><td>Float</td></tr>
-   <tr><td /><td>GreenExponent</td><td>Float</td></tr>
-   <tr><td /><td>GreenOffset</td><td>Float</td></tr>
-   <tr><td /><td>BlueAmplitude</td><td>Float</td></tr>
-   <tr><td /><td>BlueExponent</td><td>Float</td></tr>
-   <tr><td /><td>BlueOffset</td><td>Float</td></tr>
-   <tr><td /><td>AlphaAmplitude</td><td>Float</td></tr>
-   <tr><td /><td>AlphaExponent</td><td>Float</td></tr>
-   <tr><td /><td>AlphaOffset</td><td>Float</td></tr>
-</table>
+| Effect Name | Property Name | Property Type |
+|---|---|---|
+| SaturationEffect | Saturation | Scalar |
+| ColorSourceEffect | Color | Vector4 |
+| ArithmeticComposite | Offset | Scalar |
+| | Source1Amount | Scalar |
+| | Source2Amount | Scalar |
+| | MultiplyAmount | Scalar |
+| Transform2D | TransformMatrix | Matrix3x2 |
+| ContrastEffect | Contrast | Float |
+| ExposureEffect | Exposure | Float |
+| HueRotationEffect | Angle | Float |
+| SepiaEffect | Intensity | Float |
+| TemperatureAndTintEffect | Temperature | Float |
+| | Tint | Float |
+| GammaTransferEffect | RedAmplitude | Float |
+| | RedExponent | Float |
+| | RedOffset | Float |
+| | GreenAmplitude | Float |
+| | GreenExponent | Float |
+| | GreenOffset | Float |
+| | BlueAmplitude | Float |
+| | BlueExponent | Float |
+| | BlueOffset | Float |
+| | AlphaAmplitude | Float |
+| | AlphaExponent | Float |
+| | AlphaOffset | Float |
 
 ## -examples
 ```csharp
