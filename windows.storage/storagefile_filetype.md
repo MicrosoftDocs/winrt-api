@@ -19,7 +19,7 @@ The file name extension of the file.
 
 ## -remarks
 
-For example, an image file might have the ".jpg" file type. The file type includes all characters starting with (and including) the final "." in the file name.
+The file type includes all characters starting with (and including) the final "." in the file name. For example, an image file might have the ".jpg" file type.
 
 ## -examples
 
