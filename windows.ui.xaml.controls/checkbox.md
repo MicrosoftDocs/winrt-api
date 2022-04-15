@@ -36,12 +36,13 @@ CheckBox is a control that a user can select or clear.
 
 Use the CheckBox control to provide a list of options that a user can select, such as a list of settings to apply to an application. Both CheckBox and [RadioButton](radiobutton.md) controls allow the user to select from a list of options. CheckBox controls allow the user to select a combination of options. In contrast, [RadioButton](radiobutton.md) controls allow the user to select from mutually exclusive options.
 
-The CheckBox control inherits from [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) and can have three states: <table>
-   <tr><th>State</th><th>Property</th><th>Value</th></tr>
-   <tr><td>checked</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**true**</td></tr>
-   <tr><td>unchecked</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**false**</td></tr>
-   <tr><td>indeterminate</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**null**</td></tr>
-</table>
+The CheckBox control inherits from [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) and can have three states:
+
+| State | Property | Value |
+|---|---|---|
+| checked | [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) | **true** |
+| unchecked | [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) | **false** |
+| indeterminate | [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) | **null** |
 
  For the CheckBox to report the indeterminate state, you must set the [IsThreeState](../windows.ui.xaml.controls.primitives/togglebutton_isthreestate.md) property to **true**.
 

@@ -21,21 +21,22 @@ The Taiwan calendar works exactly like the [Gregorian](calendaridentifiers_grego
 
 Leap years in the Taiwan calendar correspond to the same leap years in the Gregorian calendar. A leap year in the Gregorian calendar is defined as a Gregorian year that is evenly divisible by four, except if it is divisible by 100. However, Gregorian years that are divisible by 400 are leap years. A common year has 365 days and a leap year has 366 days.
 
-The Taiwan calendar has 12 months with 28 to 31 days each:<table>
-   <tr><th>[MonthAsNumericString](calendar_monthasnumericstring_952914344.md)</th><th>Month</th><th>Days in common years</th><th>Days in leap years</th></tr>
-   <tr><td>1</td><td>1月 (January)</td><td>31</td><td>31</td></tr>
-   <tr><td>2</td><td>2月 (February)</td><td>28</td><td>29</td></tr>
-   <tr><td>3</td><td>3月 (March)</td><td>31</td><td>31</td></tr>
-   <tr><td>4</td><td>4月 (April)</td><td>30</td><td>30</td></tr>
-   <tr><td>5</td><td>5月 (May)</td><td>31</td><td>31</td></tr>
-   <tr><td>6</td><td>6月 (June)</td><td>30</td><td>30</td></tr>
-   <tr><td>7</td><td>7月 (July)</td><td>31</td><td>31</td></tr>
-   <tr><td>8</td><td>8月 (August)</td><td>31</td><td>31</td></tr>
-   <tr><td>9</td><td>9月 (September)</td><td>30</td><td>30</td></tr>
-   <tr><td>10</td><td>10月 (October)</td><td>31</td><td>31</td></tr>
-   <tr><td>11</td><td>11月 (November)</td><td>30</td><td>30</td></tr>
-   <tr><td>12</td><td>12月 (December)</td><td>31</td><td>31</td></tr>
-</table>
+The Taiwan calendar has 12 months with 28 to 31 days each:
+
+| [MonthAsNumericString](calendar_monthasnumericstring_952914344.md) | Month | Days in common years | Days in leap years |
+|---|---|---|---|
+| 1 | 1月 (January) | 31 | 31 |
+| 2 | 2月 (February) | 28 | 29 |
+| 3 | 3月 (March) | 31 | 31 |
+| 4 | 4月 (April) | 30 | 30 |
+| 5 | 5月 (May) | 31 | 31 |
+| 6 | 6月 (June) | 30 | 30 |
+| 7 | 7月 (July) | 31 | 31 |
+| 8 | 8月 (August) | 31 | 31 |
+| 9 | 9月 (September) | 30 | 30 |
+| 10 | 10月 (October) | 31 | 31 |
+| 11 | 11月 (November) | 30 | 30 |
+| 12 | 12月 (December) | 31 | 31 |
 
 February has 29 days during leap years and 28 during common years.
 

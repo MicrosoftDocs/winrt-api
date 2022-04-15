@@ -55,33 +55,32 @@ For additional examples that demonstrate how this class is used to represent fee
 
 The following table maps SyndicationItem properties to RSS and Atom feed elements.
 
-<table>
-   <tr><th>SyndicationItem</th><th>RSS Channel/Item</th><th>Atom entry</th><th>[AtomPub](../windows.web.atompub/windows_web_atompub.md)</th></tr>
-   <tr><td>[AttributeExtensions](syndicationitem_attributeextensions.md) (foreign markup)</td><td /><td /><td /></tr>
-   <tr><td>[Authors](syndicationitem_authors.md)</td><td>author</td><td>authors</td><td /></tr>
-   <tr><td>[BaseUri](syndicationitem_baseuri.md)</td><td /><td /><td /></tr>
-   <tr><td>[Categories](syndicationitem_categories.md)</td><td>category</td><td>category</td><td /></tr>
-   <tr><td>[CommentsUri](syndicationitem_commentsuri.md)</td><td>comments</td><td /><td /></tr>
-   <tr><td>[Content](syndicationitem_content.md)</td><td /><td>content</td><td /></tr>
-   <tr><td>[Contributors](syndicationitem_contributors.md)</td><td /><td>contributor</td><td /></tr>
-   <tr><td>[EditMediaUri](syndicationitem_editmediauri.md)</td><td /><td>link with rel="edit-media"</td><td /></tr>
-   <tr><td>[EditUri](syndicationitem_edituri.md)</td><td /><td>link with rel="edit"</td><td /></tr>
-   <tr><td>[ElementExtensions](syndicationitem_elementextensions.md) (foreign markup)</td><td /><td /><td /></tr>
-   <tr><td>**Etag**</td><td /><td /><td>ETag header after [CreateResourceAsync](../windows.web.atompub/atompubclient_createresourceasync_823380555.md)</td></tr>
-   <tr><td>[Id](syndicationitem_id.md)</td><td>guid</td><td>id</td><td>Location header after [CreateResourceAsync](../windows.web.atompub/atompubclient_createresourceasync_823380555.md)</td></tr>
-   <tr><td>[ItemUri](syndicationitem_itemuri.md)</td><td /><td /><td /></tr>
-   <tr><td>[Language](syndicationitem_language.md)</td><td>xml:lang</td><td>xml:lang</td><td /></tr>
-   <tr><td>[LastUpdatedTime](syndicationitem_lastupdatedtime.md)</td><td /><td>updated</td><td /></tr>
-   <tr><td>[Links](syndicationitem_links.md)</td><td>link/enclosure</td><td>link</td><td /></tr>
-   <tr><td>[NodeName](syndicationitem_nodename.md)</td><td /><td /><td /></tr>
-   <tr><td>[NodeNamespace](syndicationitem_nodenamespace.md)</td><td /><td /><td /></tr>
-   <tr><td>[NodeValue](syndicationitem_nodevalue.md)</td><td /><td /><td /></tr>
-   <tr><td>[PublishedDate](syndicationitem_publisheddate.md)</td><td>pubDate</td><td>published</td><td /></tr>
-   <tr><td>[Rights](syndicationitem_rights.md)</td><td /><td>rights</td><td /></tr>
-   <tr><td>[Source](syndicationitem_source.md)</td><td>source</td><td>source</td><td /></tr>
-   <tr><td>[Summary](syndicationitem_summary.md)</td><td>description</td><td>summary</td><td /></tr>
-   <tr><td>[Title](syndicationitem_title.md)</td><td>title</td><td>title</td><td /></tr>
-</table>
+| SyndicationItem | RSS Channel/Item | Atom entry | [AtomPub](../windows.web.atompub/windows_web_atompub.md) |
+|---|---|---|---|
+| [AttributeExtensions](syndicationitem_attributeextensions.md) (foreign markup) |---|---|---|
+| [Authors](syndicationitem_authors.md) | author | authors |---|
+| [BaseUri](syndicationitem_baseuri.md) |---|---|---|
+| [Categories](syndicationitem_categories.md) | category | category |---|
+| [CommentsUri](syndicationitem_commentsuri.md) | comments |---|---|
+| [Content](syndicationitem_content.md) |---| content |---|
+| [Contributors](syndicationitem_contributors.md) |---| contributor |---|
+| [EditMediaUri](syndicationitem_editmediauri.md) |---| link with rel="edit-media" |---|
+| [EditUri](syndicationitem_edituri.md) |---| link with rel="edit" |---|
+| [ElementExtensions](syndicationitem_elementextensions.md) (foreign markup) |---|---|---|
+| **Etag** |---|---| ETag header after [CreateResourceAsync](../windows.web.atompub/atompubclient_createresourceasync_823380555.md) |
+| [Id](syndicationitem_id.md) | guid | id | Location header after [CreateResourceAsync](../windows.web.atompub/atompubclient_createresourceasync_823380555.md) |
+| [ItemUri](syndicationitem_itemuri.md) |---|---|---|
+| [Language](syndicationitem_language.md) | xml:lang | xml:lang |---|
+| [LastUpdatedTime](syndicationitem_lastupdatedtime.md) |---| updated |---|
+| [Links](syndicationitem_links.md) | link/enclosure | link |---|
+| [NodeName](syndicationitem_nodename.md) |---|---|---|
+| [NodeNamespace](syndicationitem_nodenamespace.md) |---|---|---|
+| [NodeValue](syndicationitem_nodevalue.md) |---|---|---|
+| [PublishedDate](syndicationitem_publisheddate.md) | pubDate | published |---|
+| [Rights](syndicationitem_rights.md) |---| rights |---|
+| [Source](syndicationitem_source.md) | source | source |---|
+| [Summary](syndicationitem_summary.md) | description | summary |---|
+| [Title](syndicationitem_title.md) | title | title |---|
 
 ## -examples
 

@@ -16,14 +16,14 @@ Gets the ID of the tile that was invoked to launch the app.
 The ID of the tile that launched the app. If the app's main tile was used, this value is "App". If a secondary tile is used, the [SecondaryTile.TileId](../windows.ui.startscreen/secondarytile_tileid.md) value, assigned to the secondary tile when it was created, is returned.
 
 ## -remarks
-Starting with Windows 10, **TileId** behavior is different for apps that are launched after having been terminated. Previously, the **TileId** always returned the ID of the tile that launched the app. The **TileId** behavior now depends on how the app is reactivated:<table>
-   <tr><td>How the app is reactivated</td><td>Behavior of **TileId**</td></tr>
-   <tr><td>The user switches to the app by using the task switcher or by using the global back key</td><td>Returns the empty string `("")`.</td></tr>
-   <tr><td>The user taps the app tile</td><td>Returns the tile ID.</td></tr>
-</table>
+Starting with Windows 10, **TileId** behavior is different for apps that are launched after having been terminated. Previously, the **TileId** always returned the ID of the tile that launched the app. The **TileId** behavior now depends on how the app is reactivated:
+
+| How the app is reactivated | Behavior of TileId |
+|---|---|
+| The user switches to the app by using the task switcher or by using the global back key | Returns the empty string `("")`. |
+| The user taps the app tile | Returns the tile ID. |
 
 The new behavior makes it possible to differentiate between a switch to the app versus a re-launch of the app. If your app uses tile ID information during activation, handle the `TileId==""` case. For example:
-
 
 
 ```csharp

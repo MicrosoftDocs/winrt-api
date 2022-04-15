@@ -27,14 +27,16 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ToggleButton.I
 **True** if the control supports three states; otherwise, **false**. The default is **false**.
 
 ## -remarks
-[ToggleButton](togglebutton.md) and can have three states: <table>
-   <tr><th>State</th><th>Property</th><th>Value</th></tr>
-   <tr><td>checked</td><td>[  IsChecked](togglebutton_ischecked.md)</td><td>**true**</td></tr>
-   <tr><td>unchecked</td><td>[  IsChecked](togglebutton_ischecked.md)</td><td>**false**</td></tr>
-   <tr><td>indeterminate</td><td>[  IsChecked](togglebutton_ischecked.md)</td><td>**null**</td></tr>
-</table>
 
- For the [ToggleButton](togglebutton.md) to report the indeterminate state, you must set the IsThreeState property to **true**.
+[ToggleButton](togglebutton.md) and can have three states:
+
+| State | Property | Value |
+|---|---|---|
+| checked | [IsChecked](togglebutton_ischecked.md) | **true** |
+| unchecked | [IsChecked](togglebutton_ischecked.md) | **false** |
+| indeterminate | [IsChecked](togglebutton_ischecked.md) | **null** |
+
+For the [ToggleButton](togglebutton.md) to report the indeterminate state, you must set the IsThreeState property to **true**.
 
 > [!NOTE]
 > [ToggleButton](togglebutton.md) has the same visual state for the indeterminate and unchecked states. Derived controls, like [CheckBox](../windows.ui.xaml.controls/checkbox.md), may define different visual states for each state.

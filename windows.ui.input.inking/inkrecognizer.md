@@ -14,15 +14,12 @@ public class InkRecognizer : Windows.UI.Input.Inking.IInkRecognizer
 Manages all aspects of handwriting recognition.
 
 ## -remarks
-<table>
-   <tr><th>JavaScript (usage)</th></tr>
-   <tr><td>var inkRecognizers = [Windows.UI.Input.Inking.InkManager.getRecognizers()](inkmanager_getrecognizers_2048895795.md);
 
-var inkRecognizer = inkRecognizers[...];</td></tr>
-   <tr><td>var inkRecognizers = [Windows.UI.Input.Inking.inkRecognizerContainer.getRecognizers()](inkrecognizercontainer_getrecognizers_2048895795.md);
+| JavaScript (usage) |
+|---|
+| var inkRecognizers = [Windows.UI.Input.Inking.InkManager.getRecognizers()](inkmanager_getrecognizers_2048895795.md);<br/><br/>var inkRecognizer = inkRecognizers[...]; |
+| var inkRecognizers = [Windows.UI.Input.Inking.inkRecognizerContainer.getRecognizers()](inkrecognizercontainer_getrecognizers_2048895795.md);<br/><br/>var inkRecognizer = inkRecognizers[...]; |
 
-var inkRecognizer = inkRecognizers[...];</td></tr>
-</table>
 
 <!-- confirmed -->
 > [!NOTE]

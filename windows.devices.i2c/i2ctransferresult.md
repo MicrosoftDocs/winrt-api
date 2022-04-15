@@ -21,13 +21,11 @@ An enumeration value that indicates if the read or write operation transferred t
 ### -field BytesTransferred
 The actual number of bytes that the operation actually transferred. The following table describes what this value represents for each method.
 
-<table>
-   <tr><th>Method</th><th>Description</th></tr>
-   <tr><td>[ReadPartial](i2cdevice_readpartial_589466211.md)</td><td>The actual number of bytes that the read operation read into the buffer. If the value of the **Status** member is **I2CTransferStatus.PartialTransfer**, this value may be less than the number of bytes in the buffer that you specified in the *buffer* parameter.</td></tr>
-   <tr><td>[WritePartial](i2cdevice_writepartial_1107922632.md)</td><td>The actual number of bytes that the write operation transferred to the I<sup>2</sup> C device. If the value of the **Status** member is **I2CTransferStatus.PartialTransfer**, this value may be less than the number of bytes in the buffer that you specified in the *buffer* parameter.</td></tr>
-   <tr><td>[WriteReadPartial](i2cdevice_writereadpartial_776061530.md)</td><td>The actual number of bytes that the operation transferred, which is the sum of the number of bytes that the operation wrote and the number of bytes that the operation read. If the value of the **Status** member is **I2CTransferStatus.PartialTransfer**, this value may be less than the sum of lengths of the buffers that you specified in the *writeBuffer* and *readBuffer* parameters.</td></tr>
-</table>
-    
+| Method | Description |
+|---|---|
+| [ReadPartial](i2cdevice_readpartial_589466211.md) | The actual number of bytes that the read operation read into the buffer. If the value of the **Status** member is **I2CTransferStatus.PartialTransfer**, this value may be less than the number of bytes in the buffer that you specified in the *buffer* parameter. |
+| [WritePartial](i2cdevice_writepartial_1107922632.md) | The actual number of bytes that the write operation transferred to the I2 C device. If the value of the **Status** member is **I2CTransferStatus.PartialTransfer**, this value may be less than the number of bytes in the buffer that you specified in the *buffer* parameter. |
+| [WriteReadPartial](i2cdevice_writereadpartial_776061530.md) | The actual number of bytes that the operation transferred, which is the sum of the number of bytes that the operation wrote and the number of bytes that the operation read. If the value of the **Status** member is **I2CTransferStatus.PartialTransfer**, this value may be less than the sum of lengths of the buffers that you specified in the *writeBuffer* and *readBuffer* parameters. |
 
 ## -remarks
 

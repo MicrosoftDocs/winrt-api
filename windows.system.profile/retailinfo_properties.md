@@ -27,31 +27,32 @@ The collection is represented by a different interface/object depending on which
 + If you're using C++/CX, the collection is an [IMapView(String, Object)](../windows.foundation.collections/imapview_2.md) instance, which can be used as [Platform::Collections::MapView](/cpp/cppcx/platform-collections-mapview-class). It has string keys and nominally untyped ([Platform::Object](/cpp/cppcx/platform-object-class)) values. Use **Lookup** to get the values of specific properties. Always use [KnownRetailInfoProperties](knownretailinfoproperties.md) properties to specify the *key* parameters.
 + If you're using JavaScript, the object represents [IMapView](../windows.foundation.collections/imapview_2.md) API with string keys and untyped values. Use [Lookup](../windows.foundation.collections/imapview_2_lookup_1104382727.md) to get the values of specific properties.
 
+The values you get for the properties are technically untyped objects (variants) because they are being reported directly from registry info (HKLM). Here are the types that you can use as type-casting options (which might be needed for UI display) for each of the properties:
 
-The values you get for the properties are technically untyped objects (variants) because they are being reported directly from registry info (HKLM). Here are the types that you can use as type-casting options (which might be needed for UI display) for each of the properties:<table>
-   <tr><td>[BatteryLifeDescription](knownretailinfoproperties_batterylifedescription.md)</td><td>**String**</td></tr>
-   <tr><td>[DisplayDescription](knownretailinfoproperties_displaydescription.md)</td><td>**String**</td></tr>
-   <tr><td>[DisplayModelName](knownretailinfoproperties_displaymodelname.md)</td><td>**String**</td></tr>
-   <tr><td>[FormFactor](knownretailinfoproperties_formfactor.md)</td><td>**String**</td></tr>
-   <tr><td>[FrontCameraDescription](knownretailinfoproperties_frontcameradescription.md)</td><td>**String**</td></tr>
-   <tr><td>[GraphicsDescription](knownretailinfoproperties_graphicsdescription.md)</td><td>**String**</td></tr>
-   <tr><td>[HasNfc](knownretailinfoproperties_hasnfc.md)</td><td>**Boolean**</td></tr>
-   <tr><td>[HasOpticalDrive](knownretailinfoproperties_hasopticaldrive.md)</td><td>**Boolean**</td></tr>
-   <tr><td>[HasSdSlot](knownretailinfoproperties_hassdslot.md)</td><td>**Boolean**</td></tr>
-   <tr><td>[IsFeatured](knownretailinfoproperties_isfeatured.md)</td><td>**Boolean**</td></tr>
-   <tr><td>[IsOfficeInstalled](knownretailinfoproperties_isofficeinstalled.md)</td><td>**Boolean**</td></tr>
-   <tr><td>[ManufacturerName](knownretailinfoproperties_manufacturername.md)</td><td>**String**</td></tr>
-   <tr><td>[Memory](knownretailinfoproperties_memory.md)</td><td>**String**</td></tr>
-   <tr><td>[ModelName](knownretailinfoproperties_modelname.md)</td><td>**String**</td></tr>
-   <tr><td>[Price](knownretailinfoproperties_price.md)</td><td>**Double**</td></tr>
-   <tr><td>[ProcessorDescription](knownretailinfoproperties_processordescription.md)</td><td>**String**</td></tr>
-   <tr><td>[RearCameraDescription](knownretailinfoproperties_rearcameradescription.md)</td><td>**String**</td></tr>
-   <tr><td>[RetailAccessCode](knownretailinfoproperties_retailaccesscode.md)</td><td>**String**</td></tr>
-   <tr><td>[ScreenSize](knownretailinfoproperties_screensize.md)</td><td>**String**</td></tr>
-   <tr><td>[StorageDescription](knownretailinfoproperties_storagedescription.md)</td><td>**String**</td></tr>
-   <tr><td>[Weight](knownretailinfoproperties_weight.md)</td><td>**String**</td></tr>
-   <tr><td>[WindowsEdition](knownretailinfoproperties_windowsedition.md)</td><td>**String**</td></tr>
-</table>
+| Property | Type |
+|---|---|
+| [BatteryLifeDescription](knownretailinfoproperties_batterylifedescription.md) | **String** |
+| [DisplayDescription](knownretailinfoproperties_displaydescription.md) | **String** |
+| [DisplayModelName](knownretailinfoproperties_displaymodelname.md) | **String** |
+| [FormFactor](knownretailinfoproperties_formfactor.md) | **String** |
+| [FrontCameraDescription](knownretailinfoproperties_frontcameradescription.md) | **String** |
+| [GraphicsDescription](knownretailinfoproperties_graphicsdescription.md) | **String** |
+| [HasNfc](knownretailinfoproperties_hasnfc.md) | **Boolean** |
+| [HasOpticalDrive](knownretailinfoproperties_hasopticaldrive.md) | **Boolean** |
+| [HasSdSlot](knownretailinfoproperties_hassdslot.md) | **Boolean** |
+| [IsFeatured](knownretailinfoproperties_isfeatured.md) | **Boolean** |
+| [IsOfficeInstalled](knownretailinfoproperties_isofficeinstalled.md) | **Boolean** |
+| [ManufacturerName](knownretailinfoproperties_manufacturername.md) | **String** |
+| [Memory](knownretailinfoproperties_memory.md) | **String** |
+| [ModelName](knownretailinfoproperties_modelname.md) | **String** |
+| [Price](knownretailinfoproperties_price.md) | **Double** |
+| [ProcessorDescription](knownretailinfoproperties_processordescription.md) | **String** |
+| [RearCameraDescription](knownretailinfoproperties_rearcameradescription.md) | **String** |
+| [RetailAccessCode](knownretailinfoproperties_retailaccesscode.md) | **String** |
+| [ScreenSize](knownretailinfoproperties_screensize.md) | **String** |
+| [StorageDescription](knownretailinfoproperties_storagedescription.md) | **String** |
+| [Weight](knownretailinfoproperties_weight.md) | **String** |
+| [WindowsEdition](knownretailinfoproperties_windowsedition.md) | **String** |
 
 ## -examples
 

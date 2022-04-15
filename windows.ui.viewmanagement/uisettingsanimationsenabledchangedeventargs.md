@@ -15,7 +15,14 @@ Contains event data for the [AnimationsEnabledChanged](uisettings_animationsenab
 
 ## -remarks
 
+These animations can be set by the user through the **Accessibility** visual effects settings (Settings -> Accessibility -> Visual effects).
+
+The settings include persistent scrollbars, transparency effects, animation effects, and notification duration.
+
+:::image type="content" source="images/accessibility-display-settings.png" alt-text="Screenshot of the Accessibility Visual effects settings dialog.":::
+
 ## -see-also
 
-## -examples
+[ViewManagement.Core.UISettingsController](../windows.ui.viewmanagement.core/uisettingscontroller.md)
 
+## -examples

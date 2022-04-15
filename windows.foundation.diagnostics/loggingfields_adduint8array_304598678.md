@@ -23,20 +23,20 @@ The value for the event field. The default format for the array is binary. See t
 The format of the event field. Specifies an optional formatting hint that may be used by Event Tracing for Windows (ETW) tools.
 
 ## -remarks
-Use the *format* parameter to specify the format of the array. You may use the following [LoggingFieldFormat](loggingfieldformat.md) formats:<table>
-   <tr><td>Default</td><td>No format is specified.</td></tr>
-   <tr><td>Boolean</td><td>Data is treated as an array of boolean values</td></tr>
-   <tr><td>Hexadecimal</td><td>Data is treated as an array of 8-bit integers, formatted as hexadecimal</td></tr>
-   <tr><td>Ipv6Address</td><td>Data is treated as an IPv6 address</td></tr>
-   <tr><td>Json</td><td>Data is treated as a Multi-Byte Character Set (MBCS) JavaScript Object Notation (JSON) string</td></tr>
-   <tr><td>Signed</td><td>Data is treated as an array of signed 8-bit integers</td></tr>
-   <tr><td>String</td><td>Data is treated as a MBCS string</td></tr>
-   <tr><td>SocketAddress</td><td>Data is treated as a [sockaddr](/windows/desktop/WinSock/sockaddr-2)</td></tr>
-   <tr><td>Unsigned</td><td>Data is treated as an array of unsigned 8-bit integers</td></tr>
-   <tr><td>XML</td><td>Data is treated as an MBCS XML string</td></tr>
-</table>
+Use the *format* parameter to specify the format of the array. You may use the following [LoggingFieldFormat](loggingfieldformat.md) formats:
 
-
+| Value | Description |
+|---|---|
+| Default | No format is specified. |
+| Boolean | Data is treated as an array of boolean values |
+| Hexadecimal | Data is treated as an array of 8-bit integers, formatted as hexadecimal |
+| Ipv6Address | Data is treated as an IPv6 address |
+| Json | Data is treated as a Multi-Byte Character Set (MBCS) JavaScript Object Notation (JSON) string |
+| Signed | Data is treated as an array of signed 8-bit integers |
+| String | Data is treated as a MBCS string |
+| SocketAddress | Data is treated as a [sockaddr](/windows/desktop/WinSock/sockaddr-2) |
+| Unsigned | Data is treated as an array of unsigned 8-bit integers |
+| XML | Data is treated as an MBCS XML string |
 
 ## -examples
 

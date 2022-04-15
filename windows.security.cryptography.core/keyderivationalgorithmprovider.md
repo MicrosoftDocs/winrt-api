@@ -17,12 +17,11 @@ When two or more parties share a secret symmetric key, it is often necessary to 
 
 You can use the static [DeriveKeyMaterial](cryptographicengine_derivekeymaterial_1370645582.md) method in the [CryptographicEngine](cryptographicengine.md) class and the following methods in the [KeyDerivationParameters](keyderivationparameters.md) class to derive a key.
 
-<table>
-   <tr><th>Method</th><th>Description</th></tr>
-   <tr><td>[BuildForPbkdf2](keyderivationparameters_buildforpbkdf2_636237279.md)</td><td>Creates a [KeyDerivationParameters](keyderivationparameters.md) object for use in the password-based key derivation function 2 (PBKDF2).</td></tr>
-   <tr><td>[BuildForSP800108](keyderivationparameters_buildforsp800108_1459175055.md)</td><td>Creates a [KeyDerivationParameters](keyderivationparameters.md) object for use in a counter mode, hash-based message authentication code (HMAC) key derivation function.</td></tr>
-   <tr><td>[BuildForSP80056a](keyderivationparameters_buildforsp80056a_870294687.md)</td><td>Creates a [KeyDerivationParameters](keyderivationparameters.md) object for use in the SP800-56A key derivation function.</td></tr>
-</table>
+| Method | Description |
+|---|---|
+| [BuildForPbkdf2](keyderivationparameters_buildforpbkdf2_636237279.md) | Creates a [KeyDerivationParameters](keyderivationparameters.md) object for use in the password-based key derivation function 2 (PBKDF2). |
+| [BuildForSP800108](keyderivationparameters_buildforsp800108_1459175055.md) | Creates a [KeyDerivationParameters](keyderivationparameters.md) object for use in a counter mode, hash-based message authentication code (HMAC) key derivation function. |
+| [BuildForSP80056a](keyderivationparameters_buildforsp80056a_870294687.md) | Creates a [KeyDerivationParameters](keyderivationparameters.md) object for use in the SP800-56A key derivation function. |
 
 You create a KeyDerivationAlgorithmProvider object by calling the static [OpenAlgorithm](keyderivationalgorithmprovider_openalgorithm_637226074.md) method.
 

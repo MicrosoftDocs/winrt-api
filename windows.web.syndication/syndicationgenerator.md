@@ -15,12 +15,11 @@ Describes the agent or the tool used to generate the feed. This class encapsulat
 ## -remarks
 The following table maps SyndicationGenerator properties to RSS and Atom feed elements.
 
-<table>
-   <tr><th>SyndicationGenerator</th><th>RSS</th><th>Atom</th></tr>
-   <tr><td>[Text](syndicationgenerator_text.md)</td><td>(node value)</td><td>(node value)</td></tr>
-   <tr><td>[Uri](syndicationgenerator_uri.md)</td><td /><td>uri (attribute)</td></tr>
-   <tr><td>[Version](syndicationgenerator_version.md)</td><td /><td>version (attribute)</td></tr>
-</table>
+| SyndicationGenerator | RSS | Atom |
+|---|---|---|
+| [Text](syndicationgenerator_text.md) | (node value) | (node value) |
+| [Uri](syndicationgenerator_uri.md) | uri (attribute) |
+| [Version](syndicationgenerator_version.md) | version (attribute) |
 
 ## -examples
 
