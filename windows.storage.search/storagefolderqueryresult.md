@@ -37,7 +37,7 @@ This example demonstrates how to get a list folders (or file groups) from a Stor
 ```csharp
 
 // Get the Pictures library
-Windows.Storage.StorageFolder picturesFolder = Windows.Storage.KnownFolders.PicturesLibrary;
+Windows.Storage.StorageFolder picturesLibrary = Windows.Storage.KnownFolders.PicturesLibrary;
 
 // Set query options to create groups of files within result
 QueryOptions queryOptions = new QueryOptions(Windows.Storage.Search.CommonFolderQuery.GroupByMonth);
