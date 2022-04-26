@@ -15,8 +15,9 @@ Represents a context menu.
 ## -remarks
 context menu can show a maximum of six commands. This limit helps to ensure that the context menu remains uncluttered, usable, and directly relevant to users.
 
-You can see complete code examples that demonstrate how to create and customize context menu in the [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample) on the [ sample home page](/samples/browse/).
+You can see complete code examples that demonstrate how to create and customize context menu in the [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525) and [Context menu sample (Windows 8.1)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample).
 
+For XAML-based desktop applications, we recommend to [use a menu flyout to implement context menus](/windows/apps/design/controls/menus-and-context-menus).
 <!-- confirmed -->
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
@@ -37,4 +38,4 @@ To customize the context menu, call [preventDefault](/previous-versions/windows/
 [!code-js[newcontextmenu_js](../windows.ui.popups/code/ContextMenu/js/js/scenario1.js#Snippetnewcontextmenu_js)]
 
 ## -see-also
-[Adding context menus](/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample), [Guidelines and checklist for ](/windows/uwp/design/controls-and-patterns/index), [PopupMenu.Commands](popupmenu_commands.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525)
+[Adding context menus](/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525), [Menus and context menus for desktop apps](/windows/apps/design/controls/menus), [PopupMenu.Commands](popupmenu_commands.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md)

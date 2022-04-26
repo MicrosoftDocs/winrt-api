@@ -6,7 +6,7 @@
 # Windows.Media.DialProtocol
 
 ## -description
-The DIAL protocol (**DI** scover **A** nd **L** aunch) lets people launches media apps from a primary device, like a phone or tablet, to a remote device like a television. See [http://www.dial-multiscreen.org/home](https://www.dial-multiscreen.org/home) for more information in the industry-standard protocol.
+The DIAL protocol (**DI** scover **A** nd **L** aunch) lets people launches media apps from a primary device, like a phone or tablet, to a remote device like a television. See [http://www.dial-multiscreen.org](http://www.dial-multiscreen.org) for more information in the industry-standard protocol.
 
 ## -remarks
 

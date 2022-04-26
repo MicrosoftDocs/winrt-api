@@ -16,7 +16,7 @@ Represents a dialog for showing messages to the user.
 ## -remarks
 
 > [!IMPORTANT]
-> You should use MessageDialog only when you are upgrading a Universal Windows 8 app that uses MessageDialog, and need to minimize changes. For new apps in Windows 10, we recommend using the [ContentDialog](./../windows.ui.xaml.controls/contentdialog.md) control instead.
+> You should use MessageDialog only when you are upgrading a Universal Windows 8.x app that uses MessageDialog, and need to minimize changes or if your app isn't XAML. For new XAML apps in Windows 10+, we recommend using the [ContentDialog](./../windows.ui.xaml.controls/contentdialog.md) control instead.
 
 <!-- confirmed -->
 > [!NOTE]

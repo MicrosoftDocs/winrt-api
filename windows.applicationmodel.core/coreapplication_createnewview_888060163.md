@@ -16,6 +16,7 @@ Creates a new view for the app.
 The view.
 
 ## -remarks
+You cannot create a new view while the app is suspending or resuming.
 
 ## -examples
 

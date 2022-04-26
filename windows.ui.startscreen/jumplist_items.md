@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.StartScreen.JumpListIte
 # Windows.UI.StartScreen.JumpList.Items
 
 ## -description
-Gets the list of [JumpListItem](jumplistitem.md)'s for the jump list.Items is of type [IVector(JumpListItem)](../windows.foundation.collections/ivector_1.md).
+Gets the list of [JumpListItem](jumplistitem.md)'s for the jump list.  Items is of type [IVector(JumpListItem)](../windows.foundation.collections/ivector_1.md).
 
 ## -property-value
 The list of [JumpListItem](jumplistitem.md)'s for the jump list.

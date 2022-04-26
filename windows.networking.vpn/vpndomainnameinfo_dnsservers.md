@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVector<Windows.Networking.HostName> DnsSe
 Gets a list of DNS servers to perform DNS resolution against when resolving a name in the namespace.
 
 ## -property-value
-A list of DNS servers to perform DNS resolution against when resolving a name in the namespace.
+A list of DNS servers to perform DNS resolution against when resolving a name in the namespace. Windows has a limit of 50 DNS suffixes that can be set. Windows name resolution will apply each suffix in order. Long DNS suffix lists may impact performance.
 
 ## -remarks
 

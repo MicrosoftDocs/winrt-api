@@ -18,6 +18,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemCollection.Size](/win
 The count of items in the collection.
 
 ## -remarks
+When programming with .NET, this property is projected as Count.
 
 ## -examples
 

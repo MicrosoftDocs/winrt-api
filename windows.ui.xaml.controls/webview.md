@@ -33,6 +33,8 @@ As indicated in the Events table, WebView doesn’t support most of the user inp
 
 In apps compiled for Windows 10, WebView uses the Microsoft Edge rendering engine to display HTML content. In apps compiled for Windows 8 or Windows 8.1, WebView uses Internet Explorer 11 in document mode. It does not support any Microsoft ActiveX controls or plugins like Microsoft Silverlight or Portable Document Format (PDF) files.
 
+**XAML Islands**: This control is not supported in XAML Islands apps. For alternatives, see [XAML Islands - Web view controls](/windows/apps/desktop/modernize/xaml-islands#web-view-controls).
+
 ### Navigating to content
 
 WebView provides several API for basic navigation: [GoBack](webview_goback_1030386674.md), [GoForward](webview_goforward_1537152893.md), [Stop](webview_stop_1201535524.md), [Refresh](webview_refresh_839939657.md), [CanGoBack](webview_cangoback.md), and [CanGoForward](webview_cangoforward.md). You can use these to add typical web browsing capabilities to your app.

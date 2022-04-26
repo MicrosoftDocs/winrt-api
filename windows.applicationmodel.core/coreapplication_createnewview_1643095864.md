@@ -20,6 +20,7 @@ The view provider for the new view.
 The view.
 
 ## -remarks
+You cannot create a new view while the app is suspending or resuming.
 
 ## -examples
 
