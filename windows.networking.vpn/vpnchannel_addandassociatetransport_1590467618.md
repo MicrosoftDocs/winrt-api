@@ -25,11 +25,6 @@ If the function succeeds, the return value is **S_OK**, otherwise the function w
 > [!NOTE]
 > Any call to this API outside of a connected VPN plug-in will fail, as activity and interactions between the VPN plug-in and the system are controlled by the VPN profile. The call will fail if the VPN framework does not support the specified type of transport implemented by the *transport* object. The socket must have not been connected at the time of this call, otherwise the call will fail with an invalid parameter error.
 
-A plugin may choose between the following combinations of sockets: 
-+ One TCP socket ([StreamSocket](../windows.networking.sockets/streamsocket.md)),
-+ One UDP socket ([DatagramSocket](../windows.networking.sockets/datagramsocket.md)),
-+ Two TCP sockets, or
-+ Two sockets, one TCP and one UDP.
 
 ## -see-also
 
