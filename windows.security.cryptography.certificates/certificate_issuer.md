@@ -10,10 +10,12 @@ public string Issuer { get; }
 # Windows.Security.Cryptography.Certificates.Certificate.Issuer
 
 ## -description
-Gets the name of the certificate issuer.
+
+Gets the Common Name (CN) of the certificate issuer.
 
 ## -property-value
-The name of the certificate issuer.
+
+The Common Name (CN) of the certificate issuer.
 
 ## -remarks
 
