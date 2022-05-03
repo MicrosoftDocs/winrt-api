@@ -36,13 +36,12 @@ To get started accessing files and folders file picker, see [Files, folders, and
 
 ## -examples
 
-The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) demonstrates how to check whether the app is snapped, how to set file picker properties, and how to show a file picker so that the user can save a file.
+The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) is available in C# and C++/WinRT versions. It demonstrates how to check whether the app is snapped, how to set file picker properties, and how to show a file picker so that the user can save a file.
+
+Here's an excerpt from the C# version of the samle app.
 
 [!code-csharp[all_savepicker_checksnapped_show](../windows.storage.pickers/code/FilePicker/CS/Scenario4.xaml.cs#Snippetall_savepicker_checksnapped_show)]
-
-[!code-cpp[all_savepicker_checksnapped_show](../windows.storage.pickers/code/FilePicker/CPP/Scenario4.xaml.cpp#Snippetall_savepicker_checksnapped_show)]
 
 ## -see-also
 
 [File picker sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Files, folders, and libraries](/windows/uwp/files/index), [How to save files with a file picker](/windows/uwp/files/quickstart-save-a-file-with-a-picker),  [Windows.Storage.StorageFile class](../windows.storage/storagefile.md), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)
-
