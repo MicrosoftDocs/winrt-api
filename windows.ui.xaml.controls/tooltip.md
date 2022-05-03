@@ -11,7 +11,7 @@ public class ToolTip : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xaml.
 
 ## -description
 
-Represents a control that creates a pop-up window that displays information for an element in the UI.
+Represents a pop-up window for displaying information about an element in the UI.
 
 
 ## -xaml-syntax
@@ -29,7 +29,10 @@ Represents a control that creates a pop-up window that displays information for 
 
 ## -remarks
 
-A ToolTip is a short description that is linked to another control or object. ToolTips help users understand unfamiliar objects that aren't described directly in the UI. They display automatically when the user presses and holds or hovers the mouse pointer over a control. The ToolTip disappears after a short time, or when the user moves the pointer.
+A tooltip is a popup that contains additional information about another control or object. Tooltips display automatically when the user moves focus to, presses and holds, or hovers the pointer over the associated control. The tooltip disappears when the user moves focus from, stops pressing on, or stops hovering the pointer over the associated control (unless the pointer is moving towards the tooltip).
+
+> [!NOTE]
+> Starting with Windows 11 version 21H2, a tooltip can also be dismissed by pressing the CTRL key.
 
 Here's a ToolTip for a [Button](button.md).
 
