@@ -41,6 +41,14 @@ The [INavigate](inavigate.md) interface is mainly infrastructure. It's not expec
 | 1809 | 17763 | NavigateToType |
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see the [Navigation design basics overview](/windows/uwp/design/basics/navigation-basics).
+>
+> If you have the **WinUI 2 Gallery** app installed, [open the app to see Page and Frame features in action](winui2gallery:).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+
 The following code example is from the Blank App template in Microsoft Visual Studio. This code shows how an [OnLaunched](../windows.ui.xaml/application_onlaunched_859642554.md) method override initializes the app window. If the app is resuming after being suspended, then the window might already be initialized. If not, this code sets the app window to a new Frame, then navigates the frame to the default initial page.
 
 ```csharp
@@ -236,7 +244,7 @@ Private Sub OnNavigationFailed(sender As Object, e As NavigationFailedEventArgs)
 End Sub
 ```
 
-For a complete sample that uses many of the [Page](page.md) and Frame features together, see the [XAML Controls Gallery](https://github.com/microsoft/Xaml-Controls-Gallery).
+For a more detailed sample, see the [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation).
 
 ## -see-also
-[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md), [Navigation design basics overview](/windows/uwp/design/basics/navigation-basics), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)
+[Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md)

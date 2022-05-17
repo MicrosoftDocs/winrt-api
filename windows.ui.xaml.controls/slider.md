@@ -79,9 +79,9 @@ This table shows the resources used by the Slider control.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Sliders](/windows/uwp/design/controls-and-patterns/slider).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Slider in action](xamlcontrolsgallery:/item/Slider).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the Slider in action](winui2gallery:/item/Slider).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 The following code example shows several slider controls and how to handle the [ValueChanged](../windows.ui.xaml.controls.primitives/rangebase_valuechanged.md) event. The [ValueChanged](../windows.ui.xaml.controls.primitives/rangebase_valuechanged.md) event is used to update the value of a [TextBlock](textblock.md) as the [Value](../windows.ui.xaml.controls.primitives/rangebase_value.md) property of the slider changes.
 

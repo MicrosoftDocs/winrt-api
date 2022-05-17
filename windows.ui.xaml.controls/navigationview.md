@@ -145,6 +145,6 @@ private void NavigationView_Loaded(object sender, RoutedEventArgs e)
 > [!TIP]
 > For more info, design guidance, and code examples, see [Navigation view](/windows/uwp/design/controls-and-patterns/navigationview).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the NavigationView in action](xamlcontrolsgallery:/item/NavigationView).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the NavigationView in action](winui2gallery:/item/NavigationView).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)

@@ -156,9 +156,9 @@ This table shows the resources used by the AutoSuggestBox control. Resources tha
 > [!TIP]
 > For more info, design guidance, and code examples, see [Auto-suggest box](/windows/uwp/design/controls-and-patterns/auto-suggest-box).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the AutoSuggestBox in action](xamlcontrolsgallery:/item/AutoSuggestBox).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the AutoSuggestBox in action](winui2gallery:/item/AutoSuggestBox).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 To see a complete working example of AutoSuggestBox, see the [AutoSuggestBox migration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox?amp;amp;clcid=0x409).
 

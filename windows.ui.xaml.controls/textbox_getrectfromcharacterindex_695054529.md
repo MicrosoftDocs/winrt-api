@@ -25,7 +25,7 @@ A zero-based index of the character for which to retrieve the rectangle.
 A rectangle for the edge of the character at the specified index.
 
 ## -remarks
-To override the context menu, you can handle the [ContextMenuOpening](textbox_contextmenuopening.md) event and replace the default menu with a custom menu. Use GetRectFromCharacterIndex to determine where to position the custom menu. For an example of this, see Scenario 2 of the [ContextMenu sample](https://github.com/microsoft/Windows-universal-samples/tree/master/archived/ContextMenu). For design info, see [Guidelines for context menus](/windows/uwp/design/controls-and-patterns/index).
+To override the context menu, handle the [ContextMenuOpening](textbox_contextmenuopening.md) event and replace the default menu with a custom menu. Use GetRectFromCharacterIndex to determine where to position the custom menu. For an example of this, see Scenario 2 of the [ContextMenu sample](https://github.com/microsoft/Windows-universal-samples/tree/master/archived/ContextMenu). For design info, see [Guidelines for context menus](/windows/uwp/design/controls-and-patterns/index).
 
 Because this method returns a rectangle that represents a character edge, the width of the rectangle that's returned is always 0. To get the width of a character, you must subtract the **X** value of the leading [Rect](../windows.foundation/rect.md) from the **X** value of the trailing [Rect](../windows.foundation/rect.md).
 
