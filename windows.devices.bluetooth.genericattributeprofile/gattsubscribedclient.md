@@ -14,10 +14,12 @@ This class represents a subscribed client of a GATT session.
 
 ## -remarks
 
+Also see [Send notifications to subscribed clients](/windows/uwp/devices-sensors/gatt-server#send-notifications-to-subscribed-clients).
+
 ## -see-also
+[Send notifications to subscribed clients](/windows/uwp/devices-sensors/gatt-server#send-notifications-to-subscribed-clients)
 
 ## -examples
-
 
 ## -capabilities
 bluetooth
