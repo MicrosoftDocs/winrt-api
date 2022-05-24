@@ -12,7 +12,6 @@ public Windows.UI.Xaml.DependencyProperty FromVerticalOffsetProperty { get; }
 ## -description
 Identifies the [FromVerticalOffset](entrancethemetransition_fromverticaloffset.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.EntranceThemeTransition.FromVerticalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancethemetransition.fromverticaloffsetproperty).
 
 ## -property-value
 The identifier for the [FromVerticalOffset](entrancethemetransition_fromverticaloffset.md) dependency property.

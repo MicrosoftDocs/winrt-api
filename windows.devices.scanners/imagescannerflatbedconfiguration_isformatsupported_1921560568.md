@@ -10,7 +10,7 @@ public bool IsFormatSupported(Windows.Devices.Scanners.ImageScannerFormat value)
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.IsFormatSupported
 
 ## -description
-Determines whether the scanner's Flatbed supports the specified file format or not.
+Determines whether the scanner's flatbed supports the specified file format or not.
 
 ## -parameters
 ### -param value

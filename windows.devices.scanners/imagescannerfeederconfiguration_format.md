@@ -10,7 +10,7 @@ public Windows.Devices.Scanners.ImageScannerFormat Format { get;  set; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.Format
 
 ## -description
-Gets or sets the current file transfer format for image data acquisition from the scanner's Feeder to the client app.
+Gets or sets the current file transfer format for image data acquisition from the scanner's feeder to the client app.
 
 ## -property-value
 The file type.

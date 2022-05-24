@@ -19,6 +19,8 @@ The capture item representing the target that the customer picked.
 
 ## -remarks
 
+This API must be called on the UI thread or an exception will be thrown. For more information, see [CoreDispatcher.RunAsync](/uwp/api/windows.ui.core.coredispatcher.runasync).
+
 ## -see-also
 
 ## -examples

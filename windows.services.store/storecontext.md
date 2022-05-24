@@ -12,6 +12,8 @@ public class StoreContext : Windows.Services.Store.IStoreContext, Windows.Servic
 ## -description
 Provides members you can use to access and manage Microsoft Store-related data for the current app. For example, you can use members of this class to get Microsoft Store listing and license info for the current app, purchase the current app or products that are offered by the app, or download and install package updates for the app.
 
+In a desktop app, before using an instance of this class in a way that displays UI, you'll need to associate the object with its owner's window handle. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
+
 ## -remarks
 
 > [!NOTE]
@@ -34,9 +36,6 @@ To get a StoreContext object, use one of these static methods:
   Windows.Services.Store.StoreContext context = StoreContext.GetForUser(users[0]);
   ```
 
-> [!NOTE]
-> In a Windows desktop application that uses the [Desktop Bridge](https://developer.microsoft.com/windows/bridges/desktop), you must add some additional code to configure the StoreContext object before your app can use this object. For more information, see [Using the StoreContext class in a desktop application that uses the Desktop Bridge](/windows/uwp/monetize/in-app-purchases-and-trials).
-
 After you have a StoreContext object, you can start calling methods to purchase an app or add-on for the current user and other tasks. For more information, see the following articles:
 + [In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials)
 + [Get product info for apps and add-ons](/windows/uwp/monetize/get-product-info-for-apps-and-add-ons)
@@ -57,9 +56,9 @@ You can also use a StoreContext object to download and install package updates f
 | 1803 | 17134 | CanSilentlyDownloadStorePackageUpdates |
 | 1803 | 17134 | DownloadAndInstallStorePackagesAsync |
 | 1803 | 17134 | GetAssociatedStoreQueueItemsAsync |
-| 1803 | 17134 | GetStoreProductsAsync(IEnumerable<String>,IEnumerable<String>,StoreProductOptions) |
+| 1803 | 17134 | GetStoreProductsAsync(IEnumerable&lt;String&gt;,IEnumerable&lt;String&gt;,StoreProductOptions) |
 | 1803 | 17134 | GetStoreQueueItemsAsync |
-| 1803 | 17134 | RequestDownloadAndInstallStorePackagesAsync(IEnumerable<String>,StorePackageInstallOptions) |
+| 1803 | 17134 | RequestDownloadAndInstallStorePackagesAsync(IEnumerable&lt;String&gt;,StorePackageInstallOptions) |
 | 1803 | 17134 | RequestUninstallStorePackageAsync |
 | 1803 | 17134 | RequestUninstallStorePackageByStoreIdAsync |
 | 1803 | 17134 | TrySilentDownloadAndInstallStorePackageUpdatesAsync |
@@ -72,4 +71,5 @@ You can also use a StoreContext object to download and install package updates f
 ## -examples
 
 ## -see-also
-[In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials), [Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store)
+[In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials), [Download and install package updates for your app](/windows/uwp/packaging/self-install-package-updates), [Store sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Store), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)
+

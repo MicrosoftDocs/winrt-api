@@ -12,7 +12,6 @@ public AppBarButtonAutomationPeer(Windows.UI.Xaml.Controls.AppBarButton owner)
 ## -description
 Initializes a new instance of the [AppBarButtonAutomationPeer](appbarbuttonautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.AppBarButtonAutomationPeer.AppBarButtonAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarbuttonautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

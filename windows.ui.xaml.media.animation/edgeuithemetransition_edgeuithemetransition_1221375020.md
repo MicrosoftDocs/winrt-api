@@ -12,7 +12,6 @@ public EdgeUIThemeTransition()
 ## -description
 Initializes a new instance of the [EdgeUIThemeTransition](edgeuithemetransition.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.EdgeUIThemeTransition.EdgeUIThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.edgeuithemetransition.#ctor).
 
 ## -remarks
 

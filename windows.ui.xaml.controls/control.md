@@ -96,29 +96,6 @@ Text properties on Control also inherit implicitly for a control that has a [Con
 
 <!--Content alignment and content presenters-->
 
-### **Control** derived classes
-
-**Control** is the parent class for these immediately derived control classes. Some of these are practical controls. Others are intermediate base classes for various controls that share characteristics.
-
-+ [AppBarSeparator](appbarseparator.md)
-+ [ContentControl](contentcontrol.md)
-+ [DatePicker](datepicker.md)
-+ [Hub](hub.md)
-+ [HubSection](hubsection.md)
-+ [ItemsControl](itemscontrol.md)
-+ [MenuFlyoutItemBase](menuflyoutitembase.md)
-+ [PasswordBox](passwordbox.md)
-+ [ProgressRing](progressring.md)
-+ [RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md)
-+ [RichEditBox](richeditbox.md)
-+ [SearchBox](searchbox.md)
-+ [SemanticZoom](semanticzoom.md)
-+ [TextBox](textbox.md)
-+ [Thumb](../windows.ui.xaml.controls.primitives/thumb.md)
-+ [TimePicker](timepicker.md)
-+ [ToggleSwitch](toggleswitch.md)
-+ [UserControl](usercontrol.md)
-
 ### XAML attached properties
 
 Control is the host service class for several [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview).
@@ -127,8 +104,8 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| IsTemplateFocusTarget | Gets or sets a value that indicates whether this element is the part of a control template that has the focus visual.<ul><li>Type: Boolean</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.control.istemplatefocustargetproperty">IsTemplateFocusTargetProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.control.getistemplatefocustarget">GetIsTemplateFocusTarget</a>, <a href="/uwp/api/windows.ui.xaml.controls.control.setistemplatefocustarget">SetIsTemplateFocusTarget</a></li></ul> This property is for use in a [ControlTemplate](controltemplate.md) only. If it's set outside of a ControlTemplate, it's ignored. If this attached property is set more than once in a ControlTemplate, an exception is thrown. |
-| IsTemplateKeyTipTarget | Gets or sets a value that indicates whether this element is the part of a control template where the KeyTip is placed.<ul><li>Type: Boolean</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.control.istemplatekeytiptargetproperty">IsTemplateKeyTipTargetProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.control.getistemplatekeytiptarget">GetIsTemplateKeyTipTarget</a>, <a href="/uwp/api/windows.ui.xaml.controls.control.setistemplatekeytiptarget">SetIsTemplateKeyTipTarget</a></li></ul> This property is for use in a [ControlTemplate](controltemplate.md) only. If it's set outside of a ControlTemplate, it's ignored. If this attached property is set more than once in a ControlTemplate, an exception is thrown. |
+| [IsTemplateFocusTarget](control_istemplatefocustarget.md) | Gets or sets a value that indicates whether this element is the part of a control template that has the focus visual. |
+| [IsTemplateKeyTipTarget](control_istemplatekeytiptarget.md) | Gets or sets a value that indicates whether this element is the part of a control template where the `KeyTip` is placed. |
 
 ### Version history
 

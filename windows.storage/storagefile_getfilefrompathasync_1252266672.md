@@ -22,15 +22,15 @@ If your path uses slashes, make sure you use backslashes (\\). Forward slashes (
 When this method completes, it returns the file as a [StorageFile](storagefile.md).
 
 ## -exceptions
-### System.IO.FileNotFoundException
+### T:System.IO.FileNotFoundException
 
 The specified file does not exist. Check the value of *path*.
 
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to access the specified file. For more information, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
-### System.ArgumentException
+### T:System.ArgumentException
 
 The path cannot be a relative path or a Uri. Check the value of *path*.
 

@@ -23,7 +23,18 @@ If the item is found, this is the zero-based index of the item; otherwise, this 
 **true** if the item is found; otherwise, **false**.
 
 ## -remarks
-When programming with .NET, this interface is hidden and developers should use the  interface.
+When programming with .NET, this interface is hidden and developers should use the IReadOnlyList&lt;T&gt; interface.
+
+If the underlying collection has changed,
+the view may throw an exception.
+
+> [**C++/WinRT**](/windows/uwp/cpp-and-winrt-apis/)
+> If the underlying collection has changed,
+> the view may throw a `hresult_changed_state` exception.
+
+> [**C++/CX**](/cpp/cppcx/)
+> If the underlying collection has changed,
+> the view may throw a `ChangedStateException` exception.
 
 ## -examples
 

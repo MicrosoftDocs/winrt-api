@@ -26,9 +26,9 @@ The number of items returned.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [CopyTo](setterbasecollection_copyto.md).
+> The equivalent Microsoft .NET API is [CopyTo](/dotnet/api/system.collections.objectmodel.collection-1.copyto).
 
 ## -examples
 
 ## -see-also
-[CopyTo](setterbasecollection_copyto.md)
+[CopyTo](/dotnet/api/system.collections.objectmodel.collection-1.copyto)

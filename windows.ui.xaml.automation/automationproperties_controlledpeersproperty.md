@@ -11,22 +11,24 @@ public Windows.UI.Xaml.DependencyProperty ControlledPeersProperty { get; }
 
 ## -description
 
-Identifies the ControlledPeers attached property, which is used for a collection of automation elements that can be manipulated by the specified automation element.
+Identifies the [AutomationProperties.ControlledPeers](automationproperties_controlledpeers.md) attached property.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.ControlledPeersProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.controlledpeersproperty).
 
 ## -property-value
 
-The identifier for the ControlledPeers attached property.
+The identifier for the [AutomationProperties.ControlledPeers](automationproperties_controlledpeers.md) attached property.
 
 ## -remarks
 
-There's no public attached property for **ControlledPeers** because this is an advanced scenario. Use [GetControlledPeers](automationproperties_getcontrolledpeers_853183966.md) to get the list of controlled automation elements.
+> [!NOTE]
 
-**ControlledPeers** is used when an automation element affects one or more segments of either the application UI or the desktop. This makes it easier to associate the impact of the control operation on other UI elements.
+`ControlledPeers` is used when an automation element affects one or more segments of either the application UI or the desktop. This makes it easier to associate the impact of the control operation on other UI elements.
+
+> `AutomationProperties.ControlledPeers` is an atypical attached property because it does not have a `Set` accessor, and thus is not really a XAML attached property with a markup usage. It uses the attached property model as a property store, but does not support an Extensible Application Markup Language (XAML) usage. To get the collection of elements, call [GetControlledPeers](automationproperties_getcontrolledpeers_853183966.md), passing the item as the input parameter.
 
 ## -examples
 
 ## -see-also
 
-[Accessible text requirements](/en-us/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility), [Custom automation peers](/en-us/windows/uwp/design/accessibility/custom-automation-peers)
+[Accessible text requirements](/windows/uwp/design/accessibility/accessible-text-requirements#auto-suggest-accessibility), [Custom automation peers](/windows/uwp/design/accessibility/custom-automation-peers)

@@ -27,3 +27,5 @@ The described by collection is used when an automation element is explained by a
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.DescribedBy](automationproperties_describedby.md)

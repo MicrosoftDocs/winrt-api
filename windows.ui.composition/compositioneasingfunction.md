@@ -22,4 +22,4 @@ Equivalent WinUI class: [Microsoft.UI.Composition.CompositionEasingFunction](/wi
 ## -examples
 
 ## -see-also
-[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[Composition Animations Overview](/windows/uwp/composition/composition-animation), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

@@ -19,6 +19,8 @@ A **HidFeatureReport** object.
 ## -remarks
 This instance of the method retrieves the first available feature report.
 
+The device must be opened with either [FileAccessMode.Read](../windows.storage/fileaccessmode.md) or [FileAccessMode.ReadWrite](../windows.storage/fileaccessmode.md).
+
 ## -examples
 
 ## -see-also

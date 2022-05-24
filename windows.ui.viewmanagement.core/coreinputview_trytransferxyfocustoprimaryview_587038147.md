@@ -25,11 +25,14 @@ The direction of navigation. If the input pane is not located in the specified d
 
 ## -returns
 
-True, if the input pane received focus; otherwise, false.
+True, if the input pane received focus. Otherwise, false.
 
 ## -remarks
 
+Primary view refers to either of the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1) or [CoreInputViewKind.Handwriting](coreinputviewkind.md#-field-handwriting2) views, while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
+
 ## -see-also
+
 [Rect](../windows.foundation/rect.md), [CoreInputViewXYFocusTransferDirection](coreinputviewxyfocustransferdirection.md), [XYFocusTransferredToPrimaryView](coreinputview_xyfocustransferredtoprimaryview.md), [XYFocusTransferringFromPrimaryView](coreinputview_xyfocustransferringfromprimaryview.md)
 
 ## -examples

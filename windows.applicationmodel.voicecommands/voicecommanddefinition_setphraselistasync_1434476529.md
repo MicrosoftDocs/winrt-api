@@ -20,11 +20,11 @@ The string that corresponds to the label attribute of the `PhraseList` element.
 A string array of values that will be added to the `PhraseList` element as `Item` elements.
 
 ## -returns
-A string array of values that will be added to the [PhraseList](../windows.media.speechrecognition/voice_command_elements_and_attributes.md) element as [Item](../windows.media.speechrecognition/voice_command_elements_and_attributes.md) elements.
+A string array of values that will be added to the [PhraseList](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) element as [Item](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) elements.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[ elements and attributes v1.2](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2), [Cortana interactions](/windows/uwp/input-and-devices/cortana-interactions), [Cortana design guidelines](/windows/uwp/input-and-devices/cortana-design-guidelines), [Cortana voice command sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CortanaVoiceCommand)
+[Voice Command Definition (VCD) elements and attributes v1.2](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2), [Cortana interactions](/windows/apps/design/input/cortana-interactions), [Cortana design guidelines](/windows/apps/design/input/cortana-design-guidelines), [Cortana voice command sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CortanaVoiceCommand)

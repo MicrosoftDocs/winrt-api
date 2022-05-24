@@ -14,8 +14,6 @@ public delegate void DispatcherQueueHandler()
 
 A callback that will be executed on the **DispatcherQueue** thread.
 
-Equivalent WinUI delegate: [Microsoft.System.DispatcherQueueHandler](/windows/winui/api/microsoft.system.dispatcherqueuehandler).
-
 ## -remarks
 
 ## -see-also

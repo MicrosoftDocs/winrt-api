@@ -5,7 +5,7 @@
 
 ## -description
 
-Creates a new instance of the [MediaCaptureRelativePanelWatcher](mediacapturerelativepanelwatcher) class, which monitors the panel associated with the provided [DisplayRegion](/uwp/api/windows.ui.windowmanagement.displayregion), so that the app receives notifications when the relative location of the panel changes. 
+Creates a new instance of the [MediaCaptureRelativePanelWatcher](mediacapturerelativepanelwatcher.md) class, which monitors the panel associated with the provided [DisplayRegion](/uwp/api/windows.ui.windowmanagement.displayregion), so that the app receives notifications when the relative location of the panel changes. 
 
 ## -parameters
 
@@ -19,15 +19,15 @@ A [DisplayRegion](/uwp/api/windows.ui.windowmanagement.displayregion) for which 
 
 ## -returns
 
-A new instance of the [MediaCaptureRelativePanelWatcher](windows.media.capture.mediacapture.createrelativepanelwatcher) class.
+A new instance of the [MediaCaptureRelativePanelWatcher](mediacapturerelativepanelwatcher.md) class.
 
 ## -remarks
 
-Apps should implement a handler for the [DisplayRegion.Changed Event](/en-us/uwp/api/windows.ui.windowmanagement.displayregion.changed) that is raised whenever the **DisplayRegion** associated with the watcher changes. In this handler, apps should dispose of the watcher object, recreate the object, and reregister a handler for the [MediaCaptureRelativePanelWatcher.Changed](mediacapturerelativepanelwatcher_changed) event. 
+Apps should implement a handler for the [DisplayRegion.Changed Event](/en-us/uwp/api/windows.ui.windowmanagement.displayregion.changed) that is raised whenever the **DisplayRegion** associated with the watcher changes. In this handler, apps should dispose of the watcher object, recreate the object, and reregister a handler for the [MediaCaptureRelativePanelWatcher.Changed](mediacapturerelativepanelwatcher_changed.md) event. 
 
 ## -see-also
 
-[MediaCaptureRelativePanelWatcher](windows.media.capture.mediacapture.createrelativepanelwatcher)
+[MediaCaptureRelativePanelWatcher](mediacapturerelativepanelwatcher.md)
 [DisplayRegion](/uwp/api/windows.ui.windowmanagement.displayregion)
 
 ## -examples

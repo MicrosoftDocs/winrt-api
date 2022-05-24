@@ -11,7 +11,7 @@ public enum Windows.UI.Input.Inking.InkInputProcessingMode : int
 # InkInputProcessingMode
 
 ## -description
-Specifies how the [InkPresenter](inkpresenter.md) object interprets input from it's associated [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control.
+Specifies how the [InkPresenter](inkpresenter.md) object interprets input from its associated [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control.
 
 By default, input is handled as standard ink or erase strokes, or it can be passed as [UnprocessedInput](inkpresenter_unprocessedinput.md) to your app for custom processing.
 

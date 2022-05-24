@@ -13,7 +13,6 @@ public void XamlDirect.SetCornerRadiusProperty(IXamlDirectObject xamlDirectObjec
 ## -description
 Sets the value of a [CornerRadius](../windows.ui.xaml/cornerradius.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetCornerRadiusProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setcornerradiusproperty).
 
 ## -parameters
 ### -param xamlDirectObject

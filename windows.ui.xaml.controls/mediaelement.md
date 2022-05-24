@@ -13,7 +13,6 @@ public class MediaElement : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Co
 
 Represents an object that renders audio and video to the display. See Remarks.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MediaElement](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement).
 
 ## -xaml-syntax
 
@@ -23,9 +22,8 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MediaElement](/windows/winui
 
 ## -remarks
 
-> [!IMPORTANT] In Windows 10, build 1607 and on we recommend that you use [MediaPlayerElement](mediaplayerelement.md) in place of MediaElement. **MediaPlayerElement**
-> has the same functionality as **MediaElement**, while also enabling more advanced media playback scenarios. Additionally, all future improvements in media playback will happen in
-> **MediaPlayerElement**.
+> [!IMPORTANT] 
+> In Windows 10, build 1607 and on we recommend that you use [MediaPlayerElement](mediaplayerelement.md) in place of MediaElement. **MediaPlayerElement** has the same functionality as **MediaElement**, while also enabling more advanced media playback scenarios. Additionally, all future improvements in media playback will happen in **MediaPlayerElement**.
 
 > [!TIP]
 > For more info, design guidance, and code examples, see [Media playback](/windows/uwp/design/controls-and-patterns/media-playback).
@@ -259,9 +257,9 @@ Windows Phone 8.x app must use [PickSingleFileAndContinue](../windows.storage.pi
 > [!TIP]
 > For more info, design guidance, and code examples, see [Media playback](/windows/uwp/design/controls-and-patterns/media-playback).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the MediaElement in action](xamlcontrolsgallery:/item/MediaElement).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the MediaElement in action](winui2gallery:/item/MediaElement).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This code creates a MediaElement with the [AutoPlay](mediaelement_autoplay.md) property explicitly set to **true** and the [Source](mediaelement_source.md) set to the path of a video file that is included in the app.
 

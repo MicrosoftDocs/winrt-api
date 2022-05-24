@@ -18,6 +18,5 @@ Allows access to the security health of the system device.
 
 ## -see-also
 
-
 ## -capabilities
 networkingVpnProvider

@@ -42,7 +42,7 @@ Palm rejection for the specified inking region is deactivated if the region is s
 
 Use [PalmRejectionDelayZonePreview.CreateForVisual(Visual inputPanelVisual, Rect inputPanelRect)](palmrejectiondelayzonepreview_createforvisual_1931711328.md) if you do not need to specify an enclosing viewport for your inking region.
 
-If either *viewportRect* or *inputPanelRect* changes, you must call [PalmRejectionDelayZonePreview.Dispose](dispose.md) to release the [PalmRejectionDelayZonePreview](palmrejectiondelayzonepreview.md) object and then call [CreateForVisual](https://review.docs.microsoft.com/uwp/api/windows.ui.input.inking.preview.palmrejectiondelayzonepreview.createforvisual) with the updated rectangles to create a new palm rejection region.
+If either *viewportRect* or *inputPanelRect* changes, you must call [PalmRejectionDelayZonePreview.Dispose](/uwp/api/windows.ui.input.inking.preview.palmrejectiondelayzonepreview.dispose) to release the [PalmRejectionDelayZonePreview](palmrejectiondelayzonepreview.md) object and then call [CreateForVisual](/uwp/api/windows.ui.input.inking.preview.palmrejectiondelayzonepreview.createforvisual) with the updated rectangles to create a new palm rejection region.
 
 ## -see-also
 

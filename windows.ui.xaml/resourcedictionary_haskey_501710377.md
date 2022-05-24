@@ -23,9 +23,9 @@ The requested key.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NETAPI is [ContainsKey](resourcedictionary_containskey.md).
+> The equivalent Microsoft .NET API is [Contains](/dotnet/api/system.windows.resourcedictionary.contains).
 
 ## -examples
 
 ## -see-also
-[ContainsKey](resourcedictionary_containskey.md), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Contains](/dotnet/api/system.windows.resourcedictionary.contains), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)

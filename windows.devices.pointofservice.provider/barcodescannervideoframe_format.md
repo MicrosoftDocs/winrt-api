@@ -14,7 +14,7 @@ public BitmapPixelFormat Format { get; }
 Gets the format of the video frame.
 
 ## -property-value
-The format of the video frame as a [BitmapPixelFormat](..\windows.graphics.imaging\bitmappixelformat.md) object.
+The format of the video frame as a [BitmapPixelFormat](../windows.graphics.imaging/bitmappixelformat.md) object.
 
 ## -remarks
 

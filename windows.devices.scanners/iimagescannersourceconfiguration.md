@@ -10,7 +10,7 @@ public interface IImageScannerSourceConfiguration : Windows.Devices.Scanners.IIm
 # Windows.Devices.Scanners.IImageScannerSourceConfiguration
 
 ## -description
-Queries and configures scan settings that are common to both Flatbed and Feeder sources.
+Queries and configures scan settings that are common to both flatbed and feeder sources.
 
 The scan settings are:
 

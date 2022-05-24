@@ -13,7 +13,6 @@ public void XamlDirect.InsertIntoCollectionAt(IXamlDirectObject xamlDirectObject
 ## -description
 Inserts a value into the specified [IXamlDirectObject](ixamldirectobject.md) collection at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.InsertIntoCollectionAt](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.insertintocollectionat).
 
 ## -parameters
 ### -param xamlDirectObject
@@ -27,7 +26,8 @@ Refers to the [IXamlDirectObject](ixamldirectobject.md) value to add to the coll
 
 ## -see-also
 
-[XamlDirect.RemoveFromCollectionAt](xamldirect_removefromcollectionat_1250477505.md), [XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md), [XamlDirect.RemoveFromCollection](removefromcollection_1992847812.md), [XamlDirect.ClearCollection](xamldirect_clearcollection_1428253299.md)
+[XamlDirect.RemoveFromCollectionAt](xamldirect_removefromcollectionat_1250477505.md), [XamlDirect.AddToCollection](xamldirect_addtocollection_1437837191.md), [XamlDirect.RemoveFromCollection](xamldirect_removefromcollection_1992847812.md
+), [XamlDirect.ClearCollection](xamldirect_clearcollection_1428253299.md)
 
 ## -examples
 The following example shows how to insert a value into a collection at a specific index using [XamlDirect](xamldirect.md) APIs.

@@ -12,7 +12,6 @@ public Windows.UI.Xaml.DependencyProperty IsCompactProperty { get; }
 ## -description
 Identifies the [IsCompact](mediatransportcontrols_iscompact.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsCompactProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.iscompactproperty).
 
 ## -property-value
 The identifier for the [IsCompact](mediatransportcontrols_iscompact.md)   dependency property.

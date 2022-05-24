@@ -10,7 +10,7 @@ public string GetAutomationId(Windows.UI.Xaml.DependencyObject element)
 # Windows.UI.Xaml.Automation.AutomationProperties.GetAutomationId
 
 ## -description
-Gets the value of the [AutomationProperties.AutomationId](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Gets the value of the [AutomationProperties.AutomationId](automationproperties_automationid.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetAutomationId](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getautomationid).
 
@@ -26,3 +26,5 @@ The UI Automation identifier for the specified element.
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.AutomationId](automationproperties_automationid.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

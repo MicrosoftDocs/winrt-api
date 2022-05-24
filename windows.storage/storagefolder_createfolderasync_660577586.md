@@ -20,11 +20,11 @@ The name of the new subfolder to create in the current folder.
 When this method completes, it returns a [StorageFolder](storagefolder.md) that represents the new subfolder.
 
 ## -exceptions
-### System.IO.FileNotFoundException
+### T:System.IO.FileNotFoundException
 
 The folder name contains invalid characters, or the format of the folder name is incorrect. Check the value of *desiredName*.
 
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to create a subfolder in the current folder.
 

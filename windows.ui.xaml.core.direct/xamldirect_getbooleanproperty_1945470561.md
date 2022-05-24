@@ -13,7 +13,6 @@ public bool XamlDirect.GetBooleanProperty(IXamlDirectObject xamlDirectObject, Xa
 ## -description
 Gets the value of a _Boolean_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetBooleanProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getbooleanproperty).
 
 ## -parameters
 ### -param xamlDirectObject

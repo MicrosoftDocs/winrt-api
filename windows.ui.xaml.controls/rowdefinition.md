@@ -24,7 +24,7 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RowDefinition](/windows/winu
 ## -remarks
 
 ## -examples
-The following example uses three [ColumnDefinitions](grid_columndefinitions.md) and three [RowDefinitions](grid_rowdefinitions.md) to create a grid that has nine cells, such as in a worksheet. Each cell contains a [TextBlock](textblock.md) element that represents data, and the top row contains a [TextBlock](textblock.md) with the [ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) property applied.
+The following example uses three [ColumnDefinitions](grid_columndefinitions.md) and three [RowDefinitions](grid_rowdefinitions.md) to create a grid that has nine cells, such as in a worksheet. Each cell contains a [TextBlock](textblock.md) element that represents data, and the top row contains a [TextBlock](textblock.md) with the [ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid.columnspan) property applied.
 
 
 

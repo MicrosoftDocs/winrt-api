@@ -26,7 +26,7 @@ The text label "More" is shown next to the chevron.
 
 ## -remarks
 
-The overflow menu is shown only when [NavigationView.PaneDisplayMode](navigationview_panedisplaymode) is **Top** and the window is not wide enough to show all navigation menu items.
+The overflow menu is shown only when [NavigationView.PaneDisplayMode](navigationviewpanedisplaymode.md) is **Top** and the window is not wide enough to show all navigation menu items.
 
 ## -see-also
 

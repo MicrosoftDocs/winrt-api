@@ -39,9 +39,9 @@ Use a ProgressRing to visually indicate that an operation is in progress. Set th
 > [!TIP]
 > For more info, design guidance, and code examples, see [[Progress controls](/windows/uwp/controls-and-patterns/progress-controls).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ProgressRing in action](xamlcontrolsgallery:/item/ProgressRing).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ProgressRing in action](winui2gallery:/item/ProgressRing).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This example shows how to set the [IsActive](progressring_isactive.md) property of a ProgressRing in code. A [ToggleSwitch](toggleswitch.md) is used to turn theProgressRing control on or off.
 

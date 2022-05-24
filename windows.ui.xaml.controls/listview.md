@@ -13,7 +13,6 @@ public class ListView : Windows.UI.Xaml.Controls.ListViewBase, Windows.UI.Xaml.C
 
 Represents a control that displays data items in a vertical stack.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ListView](/windows/winui/api/microsoft.ui.xaml.controls.listview).
 
 ## -xaml-syntax
 
@@ -47,7 +46,7 @@ If you use the ListView to display large sets of data, see [Optimize ListView an
 > <strong>Windows 10, version 1709 (SDK 16299) - Behavior change</strong>
 > </div>
 > By default, instead of performing selection, an active pen now scrolls/pans a list in UWP apps (like touch, touchpad, and passive pen).
-> If your app depends on the previous behavior, you can override pen scrolling and revert to the previous behavior. See the <a Scroll​Viewer href="scrollviewer.md">ScrollViewer</a> class reference for details.
+> If your app depends on the previous behavior, you can override pen scrolling and revert to the previous behavior. See [ScrollViewer](scrollviewer.md) for details.
 
 By default, a user can select a single item in a ListView. You can set the [SelectionMode](listviewbase_selectionmode.md) property to a [ListViewSelectionMode](listviewselectionmode.md) enumeration value to allow multi-selection or to disable selection. You can also change the ListView interaction mode to make items respond to a user click like a button instead of being selected.
 
@@ -67,7 +66,7 @@ This table shows the ways a user can interact with a ListView, and how you can r
 ListView supports data virtualization to improve performance with large data sets. Random access virtualization is supported when the data source implements the appropriate interfaces, which vary depending on the programming language:
 
 + Visual C++ component extensions (C++/CX) apps should implement [IObservableVector](../windows.foundation.collections/iobservablevector_1.md).
-+ C# or Visual Basic apps should implement [INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0&preserve-view=true) and [System.Collections.IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true) (not [IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true)). Virtualization requires both of these interfaces.
++ C# or Visual Basic apps should implement [INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0&preserve-view=true) and [System.Collections.IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true) (not [IList&lt;T&gt;](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true)). Virtualization requires both of these interfaces.
  Incremental loading virtualization is supported when the data source implements the [ISupportIncrementalLoading](../windows.ui.xaml.data/isupportincrementalloading.md) interface. When incremental loading is supported, you can use these members to control data loading: [DataFetchSize](listviewbase_datafetchsize.md), [IncrementalLoadingThreshold](listviewbase_incrementalloadingthreshold.md), [IncrementalLoadingTrigger](listviewbase_incrementalloadingtrigger.md), [LoadMoreItemsAsync](listviewbase_loadmoreitemsasync_1264491126.md).
 
 > **Windows 8**
@@ -81,14 +80,23 @@ If you need to handle pointer events for a [UIElement](../windows.ui.xaml/uielem
 
 List controls that derive from [Selector](../windows.ui.xaml.controls.primitives/selector.md) have a default selection behavior that depends on what the items source is (the type that's used for [ItemsSource](itemscontrol_itemssource.md)). If the items source is a [CollectionViewSource](../windows.ui.xaml.data/collectionviewsource.md) instance, then the behavior in the selection control is that the selection will default to the current item. When the list is first displayed, the selection defaults to the first item as current item. If you don't want the first item to be selected in this case, set [IsSynchronizedWithCurrentItem](../windows.ui.xaml.controls.primitives/selector_issynchronizedwithcurrentitem.md) to **false** in the ListView.
 
+### Visual updates in WinUI 2.6
+In [WinUI 2.6](https://docs.microsoft.com/windows/apps/winui/winui2/release-notes/), new APIs and styles were added to update the visuals and design of ListView. These updated visuals include rounded corners, a selection indicator, and more. 
+
+If you'd like to use these new styles, first ensure that you're using WinUI 2.6 in your app. To get set up with WinUI 2, see [Getting started with the Windows UI 2.x Library](https://docs.microsoft.com/windows/apps/winui/winui2/getting-started). 
+
+
+You can always modify the look of a ListView by specifying Xaml resources in your app. A new resource that is available in WinUI 2.6 is `ListViewItemCornerRadius`, which controls the level of rounding on ListViewItem corners. By default, this theme resource is set to 4px. 
+
+
 ## -examples
 
 > [!TIP]
 > For more info, design guidance, and code examples, see [List view and grid view](/windows/uwp/design/controls-and-patterns/listview-and-gridview).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ListView in action](xamlcontrolsgallery:/item/ListView).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ListView in action](winui2gallery:/item/ListView).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a ListView is defined inline. Because the [ItemsSource](itemscontrol_itemssource.md) is set, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item.
 
@@ -111,6 +119,14 @@ In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a ListView 
         <ListViewItem>Two</ListViewItem>
     </ListView.Items>
 </ListView>
+```
+
+In the following example, the corners of items in every ListView throughout the app are rounded to 5px.
+
+```xml
+<Application.Resources>
+    <CornerRadius x:Key="ListViewItemCornerRadius">5</CornerRadius>
+</Application.Resources>
 ```
 
 ## -see-also

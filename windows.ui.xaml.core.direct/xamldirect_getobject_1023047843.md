@@ -13,7 +13,6 @@ public object XamlDirect.GetObject(IXamlDirectObject xamlDirectObject)
 ## -description
 Gets (and creates if necessary) the instance as its full XAML type of the specified [IXamlDirectObject](ixamldirectobject.md). 
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetObject](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getobject).
 
 ## -parameters
 ### -param xamlDirectObject

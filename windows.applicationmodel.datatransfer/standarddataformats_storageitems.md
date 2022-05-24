@@ -10,18 +10,17 @@ public string StorageItems { get; }
 # Windows.ApplicationModel.DataTransfer.StandardDataFormats.StorageItems
 
 ## -description
-A read-only property that returns the format ID string value corresponding to the StorageItem format.
+A read-only property that returns the format ID string value corresponding to the storage item format (for files and folders).
 
 ## -property-value
-The format ID string value corresponding to the StorageItem format.
+The format ID string value corresponding to the storage item format (for files and folders).
 
 ## -remarks
 
 ## -examples
-This example demonstrates the use of the **StorageItems** property. To use the code in this example, add an event listener to your app to handle the [activated](../windows.applicationmodel.core/coreapplicationview_activated.md) event. Then put this code in the function that this event listener calls.
 
+This example demonstrates the use of the **StorageItems** property. For more examples, see the [Clipboard sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Clipboard) and the [ShareTarget sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ShareTarget).
 
-
-[!code-csharp[HowToShareFiles](../windows.applicationmodel.datatransfer/code/ShareMainBeta/cs/ShareFiles.xaml.cs#SnippetHowToShareFiles_CS)]
+[!code-cs[HowToReceiveShare](../windows.applicationmodel.datatransfer.sharetarget/code/ShareTargetBeta/cs/MainPage.xaml.cs#Snippetcs_HandleShare)]
 
 ## -see-also

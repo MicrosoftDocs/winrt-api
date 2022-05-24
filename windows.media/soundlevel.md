@@ -29,4 +29,4 @@ The sound level of an application applies to the state of its capture and render
 ## -examples
 
 ## -see-also
-[SoundLevel property](mediacontrol_soundlevel.md), [Windows Media Enumerations](windows_media_enumerations.md)
+[SoundLevel property](mediacontrol_soundlevel.md)

@@ -27,7 +27,6 @@ Indicates whether the item is found.
 **true** if the [HttpChallengeHeaderValue](httpchallengeheadervalue.md) item is found; otherwise, **false**.
 
 ## -remarks
-If you are programming using C# or Microsoft Visual Basic, the equivalent method is [IndexOf](httpchallengeheadervaluecollection_indexof_1.md).
 
 ## -examples
 

@@ -22,8 +22,6 @@ The value, if an item with the specified key exists. Use the **HasKey** method t
 ## -remarks
 Use the [HasKey](httpresponseheadercollection_haskey_425964900.md) method to determine whether the key exists in the [HttpResponseHeaderCollection](httpresponseheadercollection.md).
 
-When programming with .NET, this method is hidden and developers should use the [Item](httpresponseheadercollection_item.md) indexer.
-
 ## -examples
 
 ## -see-also

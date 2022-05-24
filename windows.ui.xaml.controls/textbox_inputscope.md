@@ -10,11 +10,13 @@ public Windows.UI.Xaml.Input.InputScope InputScope { get;  set; }
 # Windows.UI.Xaml.Controls.TextBox.InputScope
 
 ## -description
+
 Gets or sets the context for input used by this [TextBox](textbox.md).
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.InputScope](/windows/winui/api/microsoft.ui.xaml.controls.textbox.inputscope).
 
 ## -xaml-syntax
+
 ```xaml
 <TextBox InputScope="inputScopeName" .../>
 - or -
@@ -29,14 +31,17 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.InputScope](/wind
 </TextBox>
 ```
 
-
 ## -xaml-values
-<dl><dt>inputScopeName</dt><dd>inputScopeNameA string that matches one of the named constants of the InputScopeNameValue enumeration, such as Number.</dd>
+
+<dl><dt>inputScopeName</dt><dd>A string that matches one of the named constants of the [InputScopeNameValue](../windows.ui.xaml.input/inputscopenamevalue.md) enumeration, such as NumericPin.</dd>
 </dl>
+
 ## -property-value
-The input scope, which provides a hint at the type of text input expected by the control.
+
+The input scope, which provides a hint at the type of text input expected by the control. The default is **null**.
 
 ## -remarks
+
 The input scope provides a hint at the type of text input expected by the control. Various elements of the system can respond to the hint provided by the input scope and provide a specialized UI for the input type. For example, the touch keyboard might show a number pad for text input when the control has its [InputScope](../windows.ui.xaml.input/inputscope.md) set to **Number**.
 
 The control might also interpret the data being entered differently (typically for East Asian related input scopes). The input scope does not perform any validation, and does not prevent the user from providing any input through a hardware keyboard or other input device.
@@ -47,6 +52,7 @@ Other properties that affect the touch keyboard are [IsSpellCheckEnabled](textbo
 > While this property can hold a collection of InputeNameScope values, only the first is used, and the rest are ignored.
 
 ## -examples
+
 Here's how to set the [InputScope](../windows.ui.xaml.input/inputscope.md) in XAML and in code.
 
 ```xaml
@@ -65,7 +71,6 @@ scope.Names.Add(scopeName);
 phoneNumberTextBox.InputScope = scope;
 ```
 
-
-
 ## -see-also
+
 [IsSpellCheckEnabled](textbox_isspellcheckenabledproperty.md), [IsTextPredictionEnabled](textbox_istextpredictionenabledproperty.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

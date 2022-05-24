@@ -11,9 +11,8 @@ public class ToolTip : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xaml.
 
 ## -description
 
-Represents a control that creates a pop-up window that displays information for an element in the UI.
+Represents a pop-up window for displaying information about an element in the UI.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ToolTip](/windows/winui/api/microsoft.ui.xaml.controls.tooltip).
 
 ## -xaml-syntax
 
@@ -30,7 +29,10 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ToolTip](/windows/winui/api/
 
 ## -remarks
 
-A ToolTip is a short description that is linked to another control or object. ToolTips help users understand unfamiliar objects that aren't described directly in the UI. They display automatically when the user presses and holds or hovers the mouse pointer over a control. The ToolTip disappears after a short time, or when the user moves the pointer.
+A tooltip is a popup that contains additional information about another control or object. Tooltips display automatically when the user moves focus to, presses and holds, or hovers the pointer over the associated control. The tooltip disappears when the user moves focus from, stops pressing on, or stops hovering the pointer over the associated control (unless the pointer is moving towards the tooltip).
+
+> [!NOTE]
+> Starting with Windows 11 version 21H2, a tooltip can also be dismissed by pressing the CTRL key.
 
 Here's a ToolTip for a [Button](button.md).
 
@@ -42,7 +44,7 @@ For design guidelines, see [Guidelines for tooltips](/windows/uwp/controls-and-p
 
 A ToolTip must be assigned to another UI element that is its owner. The [ToolTipService](tooltipservice.md) class provides static methods to display a ToolTip.
 
-+ In XAML, use the [ToolTipService.Tooltip](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) attached property to assign the ToolTip to an owner.
++ In XAML, use the [ToolTipService.Tooltip](/uwp/api/windows.ui.xaml.controls.tooltipservice.tooltip) attached property to assign the ToolTip to an owner.
 ```xaml
 <Button Content="Submit" ToolTipService.ToolTip="Click to submit"/>
 ```
@@ -72,7 +74,7 @@ You can use any object as the [Content](contentcontrol_content.md) of a ToolTip.
 
 By default, a ToolTip is displayed centered above the pointer. The placement is not constrained by the app window, so the ToolTip might be displayed partially or completely outside of the app window bounds.
 
-If a ToolTip obscures the content it is referring to, you can adjust it's placement. Use the [Placement](tooltip_placement.md) property or [ToolTipService.Placement](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) attached property to place the ToolTip above, below, left, or right of the pointer. You can set the [VerticalOffset](tooltip_verticaloffset.md) and [HorizontalOffset](tooltip_horizontaloffset.md) properties to change the distance between the pointer and the ToolTip.
+If a ToolTip obscures the content it is referring to, you can adjust its placement. Use the [Placement](tooltip_placement.md) property or [ToolTipService.Placement](/uwp/api/windows.ui.xaml.controls.tooltipservice.placement) attached property to place the ToolTip above, below, left, or right of the pointer. You can set the [VerticalOffset](tooltip_verticaloffset.md) and [HorizontalOffset](tooltip_horizontaloffset.md) properties to change the distance between the pointer and the ToolTip.
 
 ### Control style and template
 
@@ -107,9 +109,9 @@ This table shows the resources used by the ToolTip control.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Tooltips](/windows/uwp/design/controls-and-patterns/tooltips).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ToolTip in action](xamlcontrolsgallery:/item/ToolTip).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ToolTip in action](winui2gallery:/item/ToolTip).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This example demonstrates basic tooltips and the properties for placement.
 

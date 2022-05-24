@@ -13,7 +13,6 @@ public class AutoSuggestBox : Windows.UI.Xaml.Controls.ItemsControl, Windows.UI.
 
 Represents a text control that makes suggestions to users as they enter text using a keyboard or pen (using ink and handwriting recognition). The app is notified when text has been changed by the user and is responsible for providing relevant suggestions for this control to display.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.AutoSuggestBox](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox).
 
 ## -xaml-syntax
 
@@ -81,7 +80,7 @@ See [Auto-suggest accessibility](/windows/uwp/design/accessibility/accessible-te
 
 ## Pen input
 
-Starting with Windows 10, version 1803, XAML text input boxes feature embedded support for pen input using [Windows Ink](../input/pen-and-stylus-interactions.md). When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
+Starting with Windows 10, version 1803, XAML text input boxes feature embedded support for pen input using [Windows Ink](/windows/uwp/input-and-devices/pen-and-stylus-interactions). When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
 
 You can configure the handwriting view of the AutoSuggestBox through its TextBox control, as we show here.
 
@@ -157,9 +156,9 @@ This table shows the resources used by the AutoSuggestBox control. Resources tha
 > [!TIP]
 > For more info, design guidance, and code examples, see [Auto-suggest box](/windows/uwp/design/controls-and-patterns/auto-suggest-box).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the AutoSuggestBox in action](xamlcontrolsgallery:/item/AutoSuggestBox).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the AutoSuggestBox in action](winui2gallery:/item/AutoSuggestBox).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 To see a complete working example of AutoSuggestBox, see the [AutoSuggestBox migration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox?amp;amp;clcid=0x409).
 

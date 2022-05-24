@@ -12,7 +12,6 @@ public NotifyCollectionChangedEventArgs(Windows.UI.Xaml.Interop.NotifyCollection
 ## -description
 Initializes a new instance of the [NotifyCollectionChangedEventArgs](notifycollectionchangedeventargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs.NotifyCollectionChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs.#ctor).
 
 ## -parameters
 ### -param action

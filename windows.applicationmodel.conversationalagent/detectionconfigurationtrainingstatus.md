@@ -50,6 +50,14 @@ Training data cannot be processed by the signal detector due to poor quality of 
 
 An internal error, unrelated to the input data format, was encountered during signal detection training.
 
+### -field TrainingTimedOut: 8
+
+Training process took too long and has timed out. Any training data provided during this training cycle is discarded.
+
+### -field ConfigurationNotFound: 9
+
+The request failed because a configuration with the specified parameters was not found.
+
 ## -remarks
 
 Digital assistant applications can train keyword detectors to more accurately recognize an individual user's voice by algorithmically applying customizations to the detector based on speech data. For example, training a spoken keyword detector to only detect the keyword when spoken by a specific person.

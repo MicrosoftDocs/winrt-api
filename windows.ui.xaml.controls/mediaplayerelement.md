@@ -13,7 +13,6 @@ public class MediaPlayerElement : Windows.UI.Xaml.Controls.Control, Windows.UI.X
 
 Represents an object that uses a [MediaPlayer](../windows.media.playback/mediaplayer.md) to render audio and video to the display.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.MediaPlayerElement](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerelement).
 
 ## -xaml-syntax
 
@@ -48,7 +47,7 @@ Here’s how to create a MediaPlayerElement in XAML with the [Source](mediaplaye
 
 Here’s how to create the MediaPlayerElement in code.
 
-```xaml
+```csharp
 MediaPlayerElement mediaPlayerElement1 = new MediaPlayerElement();
 mediaPlayerElement1.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Media/video1.mp4"));
 mediaPlayerElement1.AutoPlay = true;
@@ -93,7 +92,6 @@ Here, you use the [PlaybackStateChanged](../windows.media.playback/mediaplayback
 ```
 
 ```csharp
-
 // Create this variable at a global scope. Set it to null.
 private DisplayRequest appDisplayRequest = null;
 
@@ -128,7 +126,6 @@ private void MediaPlayerElement_CurrentStateChanged(MediaPlaybackSession sender,
         }
     }
 }
-
 ```
 
 ### Poster source
@@ -145,9 +142,9 @@ You can use the [PosterSource](mediaplayerelement_postersource.md) property to p
 > [!TIP]
 > For more info, design guidance, and code examples, see [Media playback](/windows/uwp/design/controls-and-patterns/media-playback).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the MediaPlayerElement in action](xamlcontrolsgallery:/item/MediaPlayerElement).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the MediaPlayerElement in action](winui2gallery:/item/MediaPlayerElement).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This code creates a MediaPlayerElement with the [AutoPlay](mediaplayerelement_autoplay.md) property explicitly set to **true** and the [Source](mediaplayerelement_source.md) set to the path of a video file that is included in the app.
 
@@ -181,7 +178,6 @@ This example shows how to use a MediaPlayerElement in a Popup.
 ```
 
 ```csharp
-
 long token;
 
 protected override void OnNavigatedTo(NavigationEventArgs e)

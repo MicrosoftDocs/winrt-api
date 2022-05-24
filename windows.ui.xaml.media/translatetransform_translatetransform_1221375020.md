@@ -12,7 +12,6 @@ public TranslateTransform()
 ## -description
 Initializes a new instance of the [TranslateTransform](translatetransform.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.TranslateTransform.TranslateTransform](/windows/winui/api/microsoft.ui.xaml.media.translatetransform.#ctor).
 
 ## -remarks
 

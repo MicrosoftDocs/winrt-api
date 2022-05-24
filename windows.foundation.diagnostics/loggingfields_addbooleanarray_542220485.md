@@ -27,4 +27,4 @@ The format of the event field. Specifies an optional formatting hint that may be
 ## -examples
 
 ## -see-also
-[AddBooleanArray(String, Boolean[])](loggingfields_addbooleanarray_1862884831.md), [AddBooleanArray(String, Boolean[], LoggingFieldFormat, Int32)](loggingfields_addbooleanarray_93428475.md)
+[AddBooleanArray(String, Boolean\[\])](loggingfields_addbooleanarray_1862884831.md), [AddBooleanArray(String, Boolean\[\], LoggingFieldFormat, Int32)](loggingfields_addbooleanarray_93428475.md)

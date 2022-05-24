@@ -12,7 +12,6 @@ public PickerConfirmedEventArgs()
 ## -description
 Initializes a new instance of the [PickerConfirmedEventArgs](pickerconfirmedeventargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.PickerConfirmedEventArgs.PickerConfirmedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.pickerconfirmedeventargs.#ctor).
 
 ## -remarks
 

@@ -16,15 +16,11 @@ Provides properties and methods to manage [InkStroke](inkstroke.md) handwriting 
 Recognition results are produced for each word detected by an [InkRecognizer](inkrecognizer.md).
 
 ## -remarks
-<table>
-   <tr><th>JavaScript (usage)</th></tr>
-   <tr><td>var inkRecognitionResults = [Windows.UI.Input.Inking.InkManager.getRecognitionResults()](inkmanager_getrecognitionresults_1073930605.md);
 
-var inkRecognitionResult = inkRecognitionResults[...];</td></tr>
-   <tr><td>var inkRecognitionResults =[Windows.UI.Input.Inking.InkStrokeContainer.getRecognitionResults()](inkstrokecontainer_getrecognitionresults_1073930605.md);
-
-var inkRecognitionResult = inkRecognitionResults[...];</td></tr>
-</table>
+| JavaScript (usage) |
+|---|
+| var inkRecognitionResults = [Windows.UI.Input.Inking.InkManager.getRecognitionResults()](inkmanager_getrecognitionresults_1073930605.md);<br/><br/>var inkRecognitionResult = inkRecognitionResults[...]; |
+| var inkRecognitionResults =[Windows.UI.Input.Inking.InkStrokeContainer.getRecognitionResults()](inkstrokecontainer_getrecognitionresults_1073930605.md);<br/><br/>var inkRecognitionResult = inkRecognitionResults[...]; |
 
 ## -examples
 

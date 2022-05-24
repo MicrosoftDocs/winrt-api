@@ -12,7 +12,6 @@ public KeySpline()
 ## -description
 Initializes a new instance of the [KeySpline](keyspline.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.KeySpline.KeySpline](/windows/winui/api/microsoft.ui.xaml.media.animation.keyspline.#ctor).
 
 ## -remarks
 

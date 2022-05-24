@@ -27,7 +27,7 @@ The elements are copied to the array in the same order in which the enumerator i
 
 This method will throw an exception if the number of elements in the source collection is greater than the length of the destination array specified in *items*.
 
-If you are programming using Visual C++ component extensions (C++/CX) or JavaScript, [CopyTo](httpchallengeheadervaluecollection_copyto.md) has similar behavior to GetMany, but note that the parameters are in a different order. Or you can make an [IVectorView](../windows.foundation.collections/ivectorview_1.md) copy by calling the [GetView](httpchallengeheadervaluecollection_getview_37498667.md) method.
+If you are programming using Visual C++ component extensions (C++/CX) or JavaScript, you can make an [IVectorView](../windows.foundation.collections/ivectorview_1.md) copy by calling the [GetView](httpchallengeheadervaluecollection_getview_37498667.md) method.
 
 ## -examples
 

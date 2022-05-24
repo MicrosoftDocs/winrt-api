@@ -25,7 +25,7 @@ The implementation requires the RFC 2045 media type and subtype identifiers, for
 Note that the terms content type and type are well known historically as *MIME type*.
 
 ### -param keySystem
-A string identifying the PlayReady namespace to check query against, specifying hardware or software protection. Use "com.microsoft.playready.hardware" for hardware queries (PlayReady must have support for hardware offload), "com.microsoft.playready.software" for explicitly querying for software protection support, and "com.microsoft.playready" for general queries (must answer for software protection support to guarantee backward compatibility).
+A string identifying the PlayReady namespace to check query against, specifying hardware or software protection. Use "com.microsoft.playready.recommendation.3000" for hardware queries (PlayReady must have support for hardware offload), "com.microsoft.playready.recommendation.2000" for explicitly querying for software protection support, and "com.microsoft.playready.recommendation" for general queries (must answer for software protection support to guarantee backward compatibility).
 
 ## -returns
 A value indicating if the queried capabilities are likely supported, are possibly supported, or are unsupported.
@@ -77,6 +77,8 @@ The following table lists the supported individual feature queries, organized by
 |3     |Display 2<sup>*</sup>|hdr         |1 (supported)         |Does the target support High Dynamic Range (HDR) rendering         |Y       |
 |4     |Output Protection|hdcp         |0 (off), 1 (on without HDCP 2.2 Type 1 restriction), 2 (on with HDCP 2.2 Type 1 restriction         |Do all intersecting enabled displays support at least the request protection level?         |Y       |
 |5     |General: Efficiency<sup>**</sup>|efficiency-setting         |0 (off = no restriction), 1 (on = limit resolution when on battery power)         |Does the user want battery life, streaming overhead, and/or download speed in preference to highest resolution?<sup>****</sup>         |Y       |
+|6a     |Decryption|encryption-type         |“cenc” or “cbcs”        |Is this encryption type supported for decryption with the specified codec / key-system? If value is unspecified, default value of "cenc" is used.        |N       |
+|6b     |Decryption|encryption-iv-size         |8 or 16 |Is this Initialization Vector (IV) size (in bytes) supported for decryption with the specified codec / key-system? If value is unspecified, default value of 8 is used.        |N       |
 
 <sup>*</sup> Only supported on Windows 10, version 1607 and newer OS versions
 
@@ -108,25 +110,25 @@ The feature query result reflects the maximum theoretical capabilities of the su
 ### Hardware DRM query examples
 The following shows the most common usage for 4K 10-bit HEVC Standard Dynamic Range (SDR) content with hardware DRM and HDCP 2.2 Type 1 restriction:
 
-`IsTypeSupported(‘com.microsoft.playready.hardware’,’video/mp4;codecs=”hvc1,mp4a”;features=”decode-res-x=3840,decode-res-y=2160,decode-bitrate=20000,decode-fps=30,decode-bpc=10,display-res-x=3840,display-res-y=2160,display-bpc=8,hdcp=2”’);`
+`IsTypeSupported(‘com.microsoft.playready.recommendation.3000’,’video/mp4;codecs=”hvc1,mp4a”;features=”decode-res-x=3840,decode-res-y=2160,decode-bitrate=20000,decode-fps=30,decode-bpc=10,display-res-x=3840,display-res-y=2160,display-bpc=8,hdcp=2”’);`
 
 Where `mp4a` may be replaced with `mp3`, `ac-3`, or `ec-3`.  Decode-bitrate may be adjusted per the content provider’s encoding.  `decode-fps` may be set to 60 rather than 30 but may be gated by throughput capability of the hardware DRM security processor.  `display-res-x` and `display-res-y` values may be set lower than full 4K if the provider wishes to push 4K streams to 3200 x 1800, 3000 x 2000, or 2560 x 1440 displays, for example.
 
 As decode query results aren’t expected to change dynamically, successive polling for `hdcp=2` while in Maybe can use a shorter form as a small optimization
 
-`IsTypeSupported(‘com.microsoft.playready.hardware’,’video/mp4;codecs=”hvc1,mp4a”;features=”hdcp=2”’);`
+`IsTypeSupported(‘com.microsoft.playready.recommendation.3000’,’video/mp4;codecs=”hvc1,mp4a”;features=”hdcp=2”’);`
 
 Of course, this optimization won’t catch a dynamic monitor resolution change, but such a change would likely disrupt HDCP establishment in progress anyway.
 
 The following shows the most common usage for 4K 10-bit HEVC High Dynamic Range (HDR) content with hardware DRM and HDCP 2.2 Type 1 restriction:
 
-`IsTypeSupported(‘com.microsoft.playready.hardware’,’video/mp4;codecs=”hvc1,mp4a”;features=”decode-res-x=3840,decode-res-y=2160,decode-bitrate=20000,decode-fps=30,decode-bpc=10,display-res-x=3840,display-res-y=2160,display-bpc=8,hdr=1,hdcp=2”’);`
+`IsTypeSupported(‘com.microsoft.playready.recommendation.3000’,’video/mp4;codecs=”hvc1,mp4a”;features=”decode-res-x=3840,decode-res-y=2160,decode-bitrate=20000,decode-fps=30,decode-bpc=10,display-res-x=3840,display-res-y=2160,display-bpc=8,hdr=1,hdcp=2”’);`
 
 Note:  For Windows 10, version 1607, `hdr=1` indicates that either 10-bit MPO support with **DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P2020** or **DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709** or **DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020** is present, or that the development-only HighColor registry key is present and has been set: `HKLM\SOFTWARE\Microsoft\Windows\DWM key HighColor` as a DWORD value of 1. 
 
 The following shows the most common usage for 1080p 8-bit H.264 SDR content with hardware DRM and HDCP without 2.2 Type 1 restriction:
 
-`IsTypeSupported(‘com.microsoft.playready.hardware’,’video/mp4;codecs=”avc1,mp4a”;features=”decode-res-x=1920,decode-res-y=1080,decode-bitrate=10000,decode-fps=30,decode-bpc=8,display-res-x=1920,display-res-y=1080,display-bpc=8,hdcp=1”’);`
+`IsTypeSupported(‘com.microsoft.playready.recommendation.3000’,’video/mp4;codecs=”avc1,mp4a”;features=”decode-res-x=1920,decode-res-y=1080,decode-bitrate=10000,decode-fps=30,decode-bpc=8,display-res-x=1920,display-res-y=1080,display-bpc=8,hdcp=1”’);`
 
 A convenient way to try out the queries is to use Microsoft Edge’s F12 console.  Click on the ellipsis (**…**) menu and select **F12 Developer Tools**.  Select **Console** from the headings in the toolbar.  In the console command prompt, enter "MSMediaKeys.isTypeSupportedWithFeatures" and paste in the entire query strings above, including parentheses.  Results will be “” for **NotSupported**, “maybe” for **Maybe**, and “probably” for **Probably**.
 

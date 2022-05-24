@@ -12,7 +12,6 @@ public ScrollViewer()
 ## -description
 Initializes a new instance of the [ScrollViewer](scrollviewer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ScrollViewer.ScrollViewer](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.#ctor).
 
 ## -remarks
 

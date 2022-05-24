@@ -24,4 +24,4 @@ The value for the event field.
 ## -examples
 
 ## -see-also
-[AddStringArray(String, String[], LoggingFieldFormat)](loggingfields_addstringarray_1270192757.md), [AddStringArray(String, String[], LoggingFieldFormat, Int32)](loggingfields_addstringarray_1853202507.md)
+[AddStringArray(String, String\[\], LoggingFieldFormat)](loggingfields_addstringarray_1270192757.md), [AddStringArray(String, String\[\], LoggingFieldFormat, Int32)](loggingfields_addstringarray_1853202507.md)

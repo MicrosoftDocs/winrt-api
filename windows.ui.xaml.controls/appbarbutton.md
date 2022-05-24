@@ -13,7 +13,6 @@ public class AppBarButton : Windows.UI.Xaml.Controls.Button, Windows.UI.Xaml.Con
 
 Represents a templated button control to be displayed in an [AppBar](appbar.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.AppBarButton](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton).
 
 ## -xaml-syntax
 
@@ -89,9 +88,9 @@ This table shows the resources used by the AppBarButton control.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Command bar](/windows/uwp/controls-and-patterns/app-bars).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the AppBarButton in action](xamlcontrolsgallery:/item/AppBarButton).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the AppBarButton in action](winui2gallery:/item/AppBarButton).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This example shows AppBarButton controls with each type of icon:
 

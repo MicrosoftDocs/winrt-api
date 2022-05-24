@@ -14,7 +14,6 @@ public SvgImageSource.SvgImageSource()
 
 Initializes a new instance of the [SvgImageSource](svgimagesource.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.SvgImageSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.#ctor).
 
 ## -remarks
 

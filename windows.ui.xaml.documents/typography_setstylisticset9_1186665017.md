@@ -10,13 +10,13 @@ public void SetStylisticSet9(Windows.UI.Xaml.DependencyObject element, System.Bo
 # Windows.UI.Xaml.Documents.Typography.SetStylisticSet9
 
 ## -description
-Sets the value of the [StylisticSet9](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
+Sets the value of the [StylisticSet9](typography_stylisticset9.md) attached property for a specified dependency object.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet9](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset9).
 
 ## -parameters
 ### -param element
-The dependency object for which to set the value of the [StylisticSet9](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) property.
+The dependency object for which to set the value of the [StylisticSet9](typography_stylisticset9.md) property.
 
 ### -param value
 The new value to set the property to.
@@ -26,3 +26,5 @@ The new value to set the property to.
 ## -examples
 
 ## -see-also
+
+[Typography.StylisticSet9](typography_stylisticset9.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

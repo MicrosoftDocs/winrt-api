@@ -13,7 +13,6 @@ public GridLength XamlDirect.GetGridLengthProperty(IXamlDirectObject xamlDirectO
 ## -description
 Gets the value of a [GridLength](../windows.ui.xaml/gridlength.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetGridLengthProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getgridlengthproperty).
 
 ## -parameters
 ### -param xamlDirectObject

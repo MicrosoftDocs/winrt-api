@@ -19,7 +19,11 @@ The **IDirect3DSurface** to which the video frame is copied.
 
 ## -remarks
 
+For information on using **CopyFrameToVideoSurface** to apply GPU effects to video frames, see the [Use MediaPlayer in frame server mode](/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer#use-mediaplayer-in-frame-server-mode) section of [Play audio and video with MediaPlayer](/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer).
+
 ## -see-also
+
+[Use MediaPlayer in frame server mode](/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer#use-mediaplayer-in-frame-server-mode) 
 
 ## -examples
 

@@ -33,4 +33,4 @@ The response from the background app service for progress, completion, confirmat
 ## -examples
 
 ## -see-also
-[CreateResponse(VoiceCommandUserMessage)](voicecommandresponse_createresponse_707865524.md), [ elements and attributes v1.2](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2), [Cortana interactions](/windows/uwp/input-and-devices/cortana-interactions), [Cortana design guidelines](/windows/uwp/input-and-devices/cortana-design-guidelines), [Cortana voice command sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CortanaVoiceCommand)
+[CreateResponse(VoiceCommandUserMessage)](voicecommandresponse_createresponse_707865524.md), [ elements and attributes v1.2](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2), [Cortana interactions](/windows/apps/design/input/cortana-interactions), [Cortana design guidelines](/windows/apps/design/input/cortana-design-guidelines), [Cortana voice command sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CortanaVoiceCommand)

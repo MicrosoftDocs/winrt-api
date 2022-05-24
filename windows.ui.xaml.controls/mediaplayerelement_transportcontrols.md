@@ -12,7 +12,6 @@ public Windows.UI.Xaml.Controls.MediaTransportControls TransportControls { get; 
 ## -description
 Gets or sets the transport controls for the media.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaPlayerElement.TransportControls](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerelement.transportcontrols).
 
 ## -property-value
 The transport controls for the media.

@@ -10,7 +10,7 @@ public bool AutoDetectPageSize { get;  set; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.AutoDetectPageSize
 
 ## -description
-Gets or sets the page size automatic detection feature for the scanner's Feeder.
+Gets or sets the page size automatic detection feature for the scanner's feeder.
 
 ## -property-value
 True if the page size automatic detection feature is enabled; otherwise False.

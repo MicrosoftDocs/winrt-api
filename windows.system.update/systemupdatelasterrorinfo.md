@@ -16,7 +16,7 @@ Information about the last failed system update.
 ## -remarks
 
 ## -see-also
-[Windows.System.Update.SystemUpdateManager.LastErrorInfo](systemupdatemanager_lasterrorinfo)
+[Windows.System.Update.SystemUpdateManager.LastErrorInfo](systemupdatemanager_lasterrorinfo.md)
 
 ## -examples
 

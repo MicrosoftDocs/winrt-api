@@ -10,7 +10,7 @@ public int GetColumnSpan(Windows.UI.Xaml.UIElement element)
 # Windows.UI.Xaml.Controls.VariableSizedWrapGrid.GetColumnSpan
 
 ## -description
-Gets the value of the [VariableSizedWrapGrid.ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property from a target element.
+Gets the value of the [VariableSizedWrapGrid.ColumnSpan](variablesizedwrapgrid_columnspanproperty.md) XAML attached property from a target element.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.GetColumnSpan](/windows/winui/api/microsoft.ui.xaml.controls.variablesizedwrapgrid.getcolumnspan).
 
@@ -22,9 +22,10 @@ The target element.
 The obtained value.
 
 ## -remarks
-For more info, see the [VariableSizedWrapGrid.ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) attached property.
+For more info, see the [VariableSizedWrapGrid.ColumnSpan](variablesizedwrapgrid_columnspanproperty.md) attached property.
 
 ## -examples
 
 ## -see-also
-[VariableSizedWrapGrid.ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties)
+
+[VariableSizedWrapGrid.ColumnSpan](variablesizedwrapgrid_columnspanproperty.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

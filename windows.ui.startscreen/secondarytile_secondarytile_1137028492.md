@@ -13,6 +13,8 @@ public SecondaryTile(System.String tileId, System.String displayName, System.Str
 ## -description
 Creates a [SecondaryTile](secondarytile.md) object that includes all of the mandatory properties required to create a medium tile.
 
+In a desktop app, before using an instance of this class in a way that displays UI, you'll need to associate the object with its owner's window handle. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
+
 ## -parameters
 ### -param tileId
 A string that will uniquely identify the tile within your app's package. Choose a unique ID that is descriptive and meaningful to your app. It is limited to 64 characters and must begin with a number or letter and be composed of the characters a-z, A-Z, 0-9, period (.), or underscore (_). If you provide the same ID as that of an existing secondary tile, the existing secondary tile will be overwritten. Can be set or retrieved through the [TileId](secondarytile_tileid.md) property.
@@ -37,7 +39,6 @@ The size of tile to pin. This value must be **Default** (which provides Windows�
 > The *desiredSize* parameter is ignored on Windows Phone 8.1. On the phone, all tiles— including secondary tiles— are pinned as medium tiles, after which they can be resized by the user.
 
 ## -remarks
-To use this object from a desktop app, create the object, and then use [the IInitializeWithWindow::Initialize method](/en-us/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize) to associate the object with a window handle.
 
 ## -examples
 

@@ -10,10 +10,10 @@ public DependencyProperty HeadingProperty { get; }
 # Windows.UI.Xaml.Controls.Maps.MapElement3D.HeadingProperty
 
 ## -description
-Identifies the [Heading](mapelement3d_heading.md) dependency property.
+Gets the dependency property that backs the [Heading](mapelement3d_heading.md) Windows Runtime property.
 
 ## -property-value
-The [Heading](mapelement3d_heading.md) dependency property.
+The dependency property that backs the [Heading](mapelement3d_heading.md) Windows Runtime property.
 
 ## -remarks
 

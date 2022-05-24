@@ -10,7 +10,7 @@ public bool IsAutoCroppingModeSupported(Windows.Devices.Scanners.ImageScannerAut
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.IsAutoCroppingModeSupported
 
 ## -description
-Returns whether the scanner's Flatbed supports the specified [ImageScannerAutoCroppingMode](imagescannerautocroppingmode.md).
+Returns whether the scanner's flatbed supports the specified [ImageScannerAutoCroppingMode](imagescannerautocroppingmode.md).
 
 ## -parameters
 ### -param value

@@ -10,10 +10,10 @@ public DependencyProperty ScaleProperty { get; }
 # Windows.UI.Xaml.Controls.Maps.MapElement3D.ScaleProperty
 
 ## -description
-Identifies the [Roll](mapelement3d_roll.md) dependency property.
+Gets the dependency property that backs the [Scale](mapelement3d_scale.md) Windows Runtime property.
 
 ## -property-value
-The [Roll](mapelement3d_roll.md) dependency property.
+The dependency property that backs the [Scale](mapelement3d_scale.md) Windows Runtime property.
 
 ## -remarks
 

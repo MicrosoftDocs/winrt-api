@@ -78,8 +78,6 @@ Drawing is recognized as a circle.
 ## -remarks
 
 ## -see-also
-[InkAnalysisNode.Kind](inkanalysisnode_kind.md)
-[InkDrawing](inkanalysisnodekind.md)
+[InkAnalysisNode.Kind](inkanalysisnode_kind.md), [InkDrawing](inkanalysisnodekind.md)
 
 ## -examples
-

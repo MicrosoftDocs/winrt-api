@@ -20,7 +20,7 @@ Indicates which body stream, plain text or HTML.
 The message for the specified body stream.
 
 >[!Note]
-The [EmailManager.ShowComposeNewEmailAsync](emailmanager_showcomposenewemailasync_1879015237), and [EmailManagerForUser.ShowComposeNewEmailAsync](emailmanagerforuser_showcomposenewemailasync_1879015237) methods won't recognize an HTML formatted body. You can only use those methods to send email in plain text.
+The [EmailManager.ShowComposeNewEmailAsync](emailmanager_showcomposenewemailasync_1879015237.md), and [EmailManagerForUser.ShowComposeNewEmailAsync](emailmanagerforuser_showcomposenewemailasync_1879015237.md) methods won't recognize an HTML formatted body. You can only use those methods to send email in plain text.
 
 ## -remarks
 

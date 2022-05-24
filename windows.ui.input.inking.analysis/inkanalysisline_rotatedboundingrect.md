@@ -22,7 +22,7 @@ The X, Y coordinates for each vertex point of the bounding box for the InkAnalys
 ## -remarks
 
 ## -see-also
-[InkAnalysisInkLine.BoundingRect](inkanalysisinkline_boundingrect.md)
+[InkAnalysisLine.BoundingRect](inkanalysisline_boundingrect.md)
 
 ## -examples
 

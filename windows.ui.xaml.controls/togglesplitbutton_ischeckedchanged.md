@@ -18,7 +18,7 @@ Occurs when the value of the IsChecked property is changed.
 
 ## -see-also
 
-[ToggleSplitButton.IsChecked](togglesplitbutton.ischecked.md)
+[ToggleSplitButton.IsChecked](togglesplitbutton_ischecked.md)
 
 ## -examples
 

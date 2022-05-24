@@ -12,8 +12,6 @@ public IAsyncAction DispatcherQueueController.ShutdownQueueAsync()
 ## -description
 Stops the **DispatcherQueue** associated with this **DispatcherQueueController**. Shuts down the thread if the **DispatcherQueueController** was created by **CreateOnDedicatedThread**.
 
-Equivalent WinUI method: [Microsoft.System.DispatcherQueueController.ShutdownQueueAsync](/windows/winui/api/microsoft.system.dispatcherqueuecontroller.shutdownqueueasync).
-
 ## -returns
 An asynchronous operation which will complete after the queue has dispatched all of its remaining work.
 

@@ -12,7 +12,6 @@ public class RadioButton : Windows.UI.Xaml.Controls.Primitives.ToggleButton, Win
 ## -description
 Represents a button that allows a user to select a single option from a group of options.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RadioButton](/windows/winui/api/microsoft.ui.xaml.controls.radiobutton).
 
 ## -xaml-syntax
 ```xaml
@@ -89,9 +88,9 @@ This table shows the resources used by the RadioButton control.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Radio buttons](/windows/uwp/design/controls-and-patterns/radio-button).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the RadioButton in action](xamlcontrolsgallery:/item/RadioButton).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the RadioButton in action](winui2gallery:/item/RadioButton).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 The following example shows three radio buttons. The first two radio buttons are grouped together. The remaining radio button is not grouped explicitly, which means that you can select the third radio button and either the first or second. When you select a radio button, a [TextBlock](textblock.md) displays the name of the group, if the radio button has an explicit group name, and the name of the radio button.
 

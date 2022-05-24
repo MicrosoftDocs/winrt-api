@@ -10,15 +10,19 @@ public Windows.UI.Xaml.DependencyProperty FlowsFromProperty { get; }
 # Windows.UI.Xaml.Automation.AutomationProperties.FlowsFromProperty
 
 ## -description
-Gets the identifier for the **FlowsFrom** attached property, which is an array of automation elements that suggests the reading order before the current automation element.
+
+Identifies the [FlowsFrom](automationproperties_flowsfrom.md) attached property.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.FlowsFromProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.flowsfromproperty).
 
 ## -property-value
-The identifier for the **FlowsFrom** attached property.
+
+The identifier for the [FlowsFrom](automationproperties_flowsfrom.md) attached property.
 
 ## -remarks
-The **FlowsFrom** property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the **FlowsFrom** property can specify multiple preceding elements, it typically contains only the prior element in the reading order.
+
+> [!NOTE]
+> `AutomationProperties.FlowsFrom` is an atypical attached property because it does not have a `Set` accessor, and thus is not really a XAML attached property with a markup usage. It uses the attached property model as a property store, but does not support an Extensible Application Markup Language (XAML) usage. To get the array of elements, call [GetFlowsFrom](automationproperties_getflowsfrom_1915156123.md), passing the item as the input parameter.
 
 ## -examples
 

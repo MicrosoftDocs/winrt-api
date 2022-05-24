@@ -17,7 +17,7 @@ public class TensorVariableDescriptorPreview : ILearningModelVariableDescriptorP
 > [!Warning]
 > This is a deprecated API. Please use the [Windows.AI.MachineLearning](../windows.ai.machinelearning/windows_ai_machinelearning.md) namespace instead.
 
-This type maps to a multi-dimensional array or the .NET Tensor<T>
+This type maps to a multi-dimensional array or the .NET Tensor
 
 A tensor type, regardless of its dimension, is mapped to IList.
 

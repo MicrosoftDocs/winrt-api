@@ -12,7 +12,6 @@ public BindingBase()
 ## -description
 Initializes a new instance of the [BindingBase](bindingbase.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Data.BindingBase.BindingBase](/windows/winui/api/microsoft.ui.xaml.data.bindingbase.#ctor).
 
 ## -remarks
 

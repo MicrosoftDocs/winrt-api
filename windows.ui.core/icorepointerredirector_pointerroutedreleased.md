@@ -10,12 +10,13 @@ abstract public event Windows.Foundation.TypedEventHandler PointerRoutedReleased
 # Windows.UI.Core.ICorePointerRedirector.PointerRoutedReleased
 
 ## -description
-Occurs on all processes ever associated with, but not currently receiving input from, a pointer that fires a [PointerReleased](corewindow_pointerreleased.md) event on the current process.
 
-An implementation of the [ICorePointerRedirector](icorepointerredirector.md) interface is provided by the [CoreWindow](corewindow.md) class ([PointerRoutedReleased](corewindow_pointerroutedreleased.md)).
+Occurs on all input objects ever associated with, but not currently receiving input from, a pointer that fires a [CoreIndependentInputSource.PointerReleased](coreindependentinputsource_pointerreleased.md) event on an input object.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[CoreWindow.PointerRoutedReleased](corewindow_pointerroutedreleased.md), [CoreIndependentInputSource.PointerRoutedReleased](coreindependentinputsource_pointerroutedreleased.md), [CoreWindow.PointerReleased](corewindow_pointerreleased.md), [CoreIndependentInputSource.PointerReleased](coreindependentinputsource_pointerreleased.md)

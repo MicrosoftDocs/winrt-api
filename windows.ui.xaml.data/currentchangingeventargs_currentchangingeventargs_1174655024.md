@@ -12,7 +12,6 @@ public CurrentChangingEventArgs(System.Boolean isCancelable)
 ## -description
 Initializes a new instance of the [CurrentChangingEventArgs](currentchangingeventargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Data.CurrentChangingEventArgs.CurrentChangingEventArgs](/windows/winui/api/microsoft.ui.xaml.data.currentchangingeventargs.#ctor).
 
 ## -parameters
 ### -param isCancelable

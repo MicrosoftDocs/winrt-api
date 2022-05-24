@@ -17,4 +17,4 @@ Defines a [TimedTextStyle](timedtextstyle.md) for a substring in a [TimedTextLin
 ## -examples
 
 ## -see-also
-[ITimedTextSubformat](itimedtextsubformat.md), [TimedTextLine](timedtextline.md)
+[TimedTextLine](timedtextline.md)

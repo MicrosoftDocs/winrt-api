@@ -29,7 +29,7 @@ When this method completes, it returns a [StorageFile](storagefile.md) that repr
 > When StorageFile.CopyAsync is used to copy a file that is encrypted to a destination that is not encrypted, the call will fail with the following exception: `System.UnauthorizedAccessException: Access is denied. (Excep_FromHResult 0x80070005)`
 
 ## -exceptions
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to copy a file into the destination folder.
 

@@ -11,7 +11,7 @@ public enum Windows.UI.Xaml.FontVariants : int
 
 ## -description
 
-Describes a font variant value for the [Typography.Variants](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+Describes a font variant value for the [Typography.Variants](/uwp/api/windows.ui.xaml.documents.typography.variants) attached property.
 
 Equivalent WinUI enum: [FontVariants](/windows/winui/api/microsoft.ui.xaml.fontvariants).
 
@@ -49,11 +49,11 @@ Replaces a default glyph with a smaller Japanese Kana glyph. This is used to cla
 
 ## -remarks
 
-This enumeration is used by the [Typography.Variants](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+This enumeration is used by the [Typography.Variants](/uwp/api/windows.ui.xaml.documents.typography.variants) attached property.
 
 Some fonts might support a subset of variant values, or ignore the setting completely.
 
-Some fonts might also algorithmically approximate a font form instead of supporting [Typography.Variants](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties). 
+Some fonts might also algorithmically approximate a font form instead of supporting [Typography.Variants](/uwp/api/windows.ui.xaml.documents.typography.variants). 
 
 ## -examples
 

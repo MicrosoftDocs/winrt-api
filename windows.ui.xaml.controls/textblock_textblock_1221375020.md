@@ -12,7 +12,6 @@ public TextBlock()
 ## -description
 Initializes a new instance of the [TextBlock](textblock.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.TextBlock.TextBlock](/windows/winui/api/microsoft.ui.xaml.controls.textblock.#ctor).
 
 ## -remarks
 

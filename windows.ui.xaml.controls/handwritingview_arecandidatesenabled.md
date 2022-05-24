@@ -11,7 +11,7 @@ public bool AreCandidatesEnabled { get;  set; }
 
 ## -description
 
-Gets or sets a value that specifies whether auto-completion candidates are shown as the use writes.
+Gets or sets a value that specifies whether auto-completion candidates are shown as the user writes.
 
 ## -property-value
 
@@ -24,4 +24,3 @@ Gets or sets a value that specifies whether auto-completion candidates are shown
 [Text input with the handwriting view](/windows/uwp/design/controls-and-patterns/text-handwriting-view)
 
 ## -examples
-

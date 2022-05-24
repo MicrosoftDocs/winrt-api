@@ -13,7 +13,6 @@ public class RichEditBox : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Con
 
 Represents a rich text editing control that supports formatted text, hyperlinks, and other rich content.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RichEditBox](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox).
 
 ## -xaml-syntax
 
@@ -35,7 +34,7 @@ For more info and examples, see the [RichEditBox control guide](/windows/uwp/con
 
 ### Pen input
 
-Starting with Windows 10, version 1803, XAML text input boxes feature embedded support for pen input using [Windows Ink](../input/pen-and-stylus-interactions.md). When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
+Starting with Windows 10, version 1803, XAML text input boxes feature embedded support for pen input using [Windows Ink](/windows/uwp/input-and-devices/pen-and-stylus-interactions). When a user taps into a text input box using a Windows pen, the text box transforms to let the user write directly into it with a pen, rather than opening a separate input panel.
 
 <img src="images/controls/handwritingview-inksuggestion1.gif" alt="Text box with ink and suggestions" />
 
@@ -112,9 +111,9 @@ This table shows the resources used by the RichEditBox control. Resources that s
 > [!TIP]
 > For more info, design guidance, and code examples, see [Rich edit box](/windows/uwp/design/controls-and-patterns/rich-edit-box).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the RichEditBox in action](xamlcontrolsgallery:/item/RichEditBox).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the RichEditBox in action](winui2gallery:/item/RichEditBox).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This example shows how to use the [ITextDocument.SetText](../windows.ui.text/itextdocument_settext_522499431.md) method to programmatically add text to a RichEditBox.
 

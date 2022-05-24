@@ -10,7 +10,7 @@ public Windows.Devices.Scanners.ImageScannerFormat DefaultFormat { get; }
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.DefaultFormat
 
 ## -description
-Gets the default file format for the scanner's Flatbed at the beginning of a new scan session.
+Gets the default file format for the scanner's flatbed at the beginning of a new scan session.
 
 ## -property-value
 The file type.

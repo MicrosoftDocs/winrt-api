@@ -12,7 +12,6 @@ public class ComboBox : Windows.UI.Xaml.Controls.Primitives.Selector, Windows.UI
 ## -description
 Represents a selection control that combines a non-editable text box and a drop-down list box that allows users to select an item from a list.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ComboBox](/windows/winui/api/microsoft.ui.xaml.controls.combobox).
 
 ## -xaml-syntax
 ```xaml
@@ -92,9 +91,9 @@ This table shows the resources used by the ComboBox control.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Combo box](/windows/uwp/design/controls-and-patterns/combo-box).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ComboBox in action](xamlcontrolsgallery:/item/ComboBox).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ComboBox in action](winui2gallery:/item/ComboBox).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 The following example demonstrates binding a ComboBox to a collection of [FontFamily](../windows.ui.xaml.media/fontfamily.md) objects.
 

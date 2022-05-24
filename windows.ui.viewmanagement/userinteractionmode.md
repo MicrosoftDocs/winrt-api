@@ -21,9 +21,15 @@ The device UI is optimized for touch input.
 
 
 ## -remarks
-Some devices (PC, laptop, tablet) support both a Desktop (mouse-optimized) and a Tablet (touch-optimized) mode.
 
-Users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
+### Tablet mode (Windows 10 only)
+
+> [!NOTE]
+> In Windows 11, [Tablet mode](/windows-hardware/design/device-experiences/continuum) is removed and new functionality is included for keyboard attach and detach postures.
+
+Some devices (PC, laptop, tablet) support both a Desktop and [Tablet](/windows-hardware/design/device-experiences/continuum) mode.
+
+On Windows 10 only, users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
 
 ## -examples
 

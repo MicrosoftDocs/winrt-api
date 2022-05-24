@@ -24,8 +24,7 @@ The PhoneLineTransportDevice or null if DeviceId does not correspond to existing
 ## -remarks
 
 ## -see-also
-[PhoneLine.TransportDeviceId](phoneline_transportdeviceid.md)
-[PhoneLineTransportDevice.DeviceId](phonelinetransportdevice_deviceid.md)
+[PhoneLine.TransportDeviceId](phoneline_transportdeviceid.md), [PhoneLineTransportDevice.DeviceId](phonelinetransportdevice_deviceid.md)
 
 ## -examples
 

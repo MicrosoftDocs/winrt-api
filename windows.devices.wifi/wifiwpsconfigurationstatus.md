@@ -22,5 +22,5 @@ Connection succeeded.
 
 ## -see-also
 [GetWpsConfigurationAsync](wifiadapter_getwpsconfigurationasync_1613138554.md)
-## -examples
 
+## -examples

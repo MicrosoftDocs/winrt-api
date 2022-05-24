@@ -11,7 +11,7 @@ public IVectorView<ActivationSignalDetector> ConversationalAgentDetectorManager.
 
 ## -description
 
-Gets all [ActivationSignalDetector](activationsignaldetector.md) objects available on the system that are associated with this manager.
+Retrieves all [ActivationSignalDetector](activationsignaldetector.md) objects available on the system that are associated with this manager.
 
 > [!Important]
 > To avoid possible concurrency issues, we recommend using [GetActivationSignalDetectorsAsync](conversationalagentdetectormanager_getactivationsignaldetectorsasync_591441886.md) instead.

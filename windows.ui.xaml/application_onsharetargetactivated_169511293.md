@@ -12,8 +12,6 @@ virtual protected void OnShareTargetActivated(Windows.ApplicationModel.Activatio
 ## -description
 Invoked when the application is activated through sharing association.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Application.OnShareTargetActivated](/windows/winui/api/microsoft.ui.xaml.application.onsharetargetactivated).
-
 ## -parameters
 ### -param args
 Event data for the event.

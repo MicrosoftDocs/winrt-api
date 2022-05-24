@@ -16,6 +16,12 @@ Equivalent WinUI class: [Microsoft.UI.Composition.CompositionDrawingSurface](/wi
 
 ## -remarks
 
+`CompositionDrawingSurface` is a fixed sized surface that can be rendered with:
+
+- an image using [LoadedImageSurface](/uwp/api/windows.ui.xaml.media.loadedimagesurface).
+- a custom drawing using [Win2D](https://github.com/Microsoft/Win2D) (orD2D).
+- a video using [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer).
+
 ### Version history
 
 | Windows version | SDK version | Value added |

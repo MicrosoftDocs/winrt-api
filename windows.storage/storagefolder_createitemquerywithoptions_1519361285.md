@@ -22,11 +22,11 @@ A query result object. Call the [GetItemsAsync](../windows.storage.search/storag
 To work with the returned items, call the [IsOfType](istorageitem_isoftype_1417811226.md) method of the [IStorageItem](istorageitem.md) interface to determine whether each item is a file or a folder. Then cast the item to a [StorageFolder](storagefolder.md) or [StorageFile](storagefile.md).
 
 ## -exceptions
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to access the contents of the current folder.
 
-### System.ArgumentException
+### T:System.ArgumentException
 
 You specified a value other than **DefaultQuery** from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) or [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) enumeration for a folder that's not a library folder.
 

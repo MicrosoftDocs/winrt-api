@@ -12,7 +12,6 @@ public CommandBar()
 ## -description
 Initializes a new instance of the [CommandBar](commandbar.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.CommandBar.CommandBar](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.#ctor).
 
 ## -remarks
 

@@ -12,7 +12,6 @@ protected XamlCompositionBrushBase.XamlCompositionBrushBase()
 ## -description
 Provides base class initialization behavior for **XamlCompositionBrushBase** derived classes.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.XamlCompositionBrushBase](/windows/winui/api/microsoft.ui.xaml.media.xamlcompositionbrushbase.#ctor).
 
 ## -remarks
 

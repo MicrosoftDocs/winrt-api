@@ -18,4 +18,3 @@ Get an instance of this class by handling the [TimedMetadataTrack.CueEntered](ti
 ## -examples
 
 ## -see-also
-[IMediaCueEventArgs](imediacueeventargs.md)

@@ -22,9 +22,6 @@ A watcher that can raise events related to the status of a specific User's disco
 ## -remarks
 
 ## -see-also
-[CreateWatcher](remotesystem_createwatcher_1506431823.md)
-[CreateWatcherForUser](remotesystem_createwatcherforuser_380170586.md)
-[RemoteSystemWatcher](remotesystemwatcher.md)
+[CreateWatcher](remotesystem_createwatcher_1506431823.md), [CreateWatcherForUser](remotesystem_createwatcherforuser_380170586.md), [RemoteSystemWatcher](remotesystemwatcher.md)
 
 ## -examples
-

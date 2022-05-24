@@ -13,6 +13,8 @@ public class BluetoothLEDevice : Windows.Devices.Bluetooth.IBluetoothLEDevice, W
 ## -description
 Represents a Bluetooth LE device.
 
+For code examples, see [Bluetooth Low Energy sample](/samples/microsoft/windows-universal-samples/bluetoothle/) and [Device enumeration and pairing sample](/samples/microsoft/windows-universal-samples/deviceenumerationandpairing/).
+
 ## -remarks
 
 ### Version history
@@ -41,7 +43,7 @@ Represents a Bluetooth LE device.
 ## -examples
 
 ## -see-also
-[GattDeviceService](../windows.devices.bluetooth.genericattributeprofile/gattdeviceservice.md), [GattDeviceService.Device](../windows.devices.bluetooth.genericattributeprofile/gattdeviceservice_device.md)
+[GattDeviceService](../windows.devices.bluetooth.genericattributeprofile/gattdeviceservice.md), [GattDeviceService.Device](../windows.devices.bluetooth.genericattributeprofile/gattdeviceservice_device.md), [Bluetooth Low Energy sample](/samples/microsoft/windows-universal-samples/bluetoothle/), [Device enumeration and pairing sample](/samples/microsoft/windows-universal-samples/deviceenumerationandpairing/)
 
 ## -capabilities
 bluetooth

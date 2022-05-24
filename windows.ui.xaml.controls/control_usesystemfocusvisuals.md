@@ -111,4 +111,4 @@ Some elements of the control template aren't shown to make the relevant parts mo
 
 
 ## -see-also
-[FocusState](control_focusstate.md), [Control.IsTemplateFocusTarget](/uwp/api/windows.ui.xaml.controls.control#xaml-attached-properties), [Button styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles)
+[FocusState](control_focusstate.md), [Control.IsTemplateFocusTarget](/uwp/api/windows.ui.xaml.controls.control.istemplatefocustarget), [Button styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles)

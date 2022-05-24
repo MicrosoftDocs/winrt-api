@@ -12,8 +12,6 @@ virtual protected void OnFileActivated(Windows.ApplicationModel.Activation.FileA
 ## -description
 Invoked when the application is activated through file-open.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Application.OnFileActivated](/windows/winui/api/microsoft.ui.xaml.application.onfileactivated).
-
 ## -parameters
 ### -param args
 Event data for the event.

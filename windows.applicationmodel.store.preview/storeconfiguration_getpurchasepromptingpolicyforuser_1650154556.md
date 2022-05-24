@@ -17,11 +17,12 @@ Gets a value that indicates whether the Windows Store prompts the specified user
 An object that identifies the user for which to query.
 
 ## -returns
-A **UInt32** value that indicates whether the Windows Store prompts the specified user before making a purchase. <table>
-   <tr><th>Value</th><th>Description</th></tr>
-   <tr><td>**1**</td><td>The Windows Store prompts the specified user before making a purchase.</td></tr>
-   <tr><td>**0**</td><td>The Windows Store does not prompt the specified user before making a purchase.</td></tr>
-</table>
+A **UInt32** value that indicates whether the Windows Store prompts the specified user before making a purchase.
+
+| Value | Description |
+|---|---|
+| **1** | The Windows Store prompts the specified user before making a purchase. |
+| **0** | The Windows Store does not prompt the specified user before making a purchase. |
 
 ## -remarks
 

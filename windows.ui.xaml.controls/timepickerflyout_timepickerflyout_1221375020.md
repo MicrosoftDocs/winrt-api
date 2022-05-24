@@ -12,7 +12,6 @@ public TimePickerFlyout()
 ## -description
 Initializes a new instance of the [TimePickerFlyout](timepickerflyout.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.TimePickerFlyout.TimePickerFlyout](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyout.#ctor).
 
 ## -remarks
 

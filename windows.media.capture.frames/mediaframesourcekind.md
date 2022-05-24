@@ -31,6 +31,10 @@ The media frame source produces audio data.
 ### -field Image:5
 The media frame source produces image data.
 
+### -field Metadata:6
+The media frame source produces metadata.
+
+
 ## -remarks
 
 ### Version history

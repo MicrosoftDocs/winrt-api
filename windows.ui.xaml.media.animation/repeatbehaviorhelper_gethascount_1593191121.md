@@ -10,7 +10,7 @@ public bool GetHasCount(Windows.UI.Xaml.Media.Animation.RepeatBehavior target)
 # Windows.UI.Xaml.Media.Animation.RepeatBehaviorHelper.GetHasCount
 
 ## -description
-Returns whether a specified [RepeatBehavior](repeatbehavior.md) has a **RepeatBehaviorType** of **Count** and a nonzero **Count** value. C# and Microsoft Visual Basic code should use [HasCount](repeatbehavior_hascount.md) instead.
+Returns whether a specified [RepeatBehavior](repeatbehavior.md) has a **RepeatBehaviorType** of **Count** and a nonzero **Count** value. C# and Microsoft Visual Basic code should use [HasCount](/dotnet/api/windows.ui.xaml.media.animation.repeatbehavior.hascount) instead.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.RepeatBehaviorHelper.GetHasCount](/windows/winui/api/microsoft.ui.xaml.media.animation.repeatbehaviorhelper.gethascount).
 

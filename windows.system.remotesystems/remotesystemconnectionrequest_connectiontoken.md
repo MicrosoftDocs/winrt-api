@@ -18,7 +18,7 @@ A string of the ConnectionToken.
 ## -remarks
 
 ## -see-also
-[CreateFromConnectionToken](remotesytemconnectionrequest_createfromconnectiontoken.md)
-[CreateFromConnectionTokenForUser](remotesytemconnectionrequest_createfromconnectiontokenforuser.md)
+[CreateFromConnectionToken](remotesystemconnectionrequest_createfromconnectiontoken_1615549595.md)
+[CreateFromConnectionTokenForUser](remotesystemconnectionrequest_createfromconnectiontokenforuser_1550514484.md)
 ## -examples
 

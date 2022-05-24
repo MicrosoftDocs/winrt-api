@@ -12,7 +12,7 @@ public event TypedEventHandler SelectedTimeChanged<TimePicker, TimePickerSelecte
 
 ## -description
 
-Occurs when the selected time value is changed.
+Occurs when the value of the `SelectedTime` property is changed.
 
 Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TimePicker.SelectedTimeChanged](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.selectedtimechanged).
 
@@ -28,3 +28,26 @@ Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TimePicker.SelectedTimeChang
 
 ## -examples
 
+For an example of using a `DatePicker` and `TimePicker` together to update a single `DateTime` value, see [Calendar, date, and time controls - Use a date picker and time picker together](/windows/uwp/design/controls-and-patterns/date-and-time#use-a-date-picker-and-time-picker-together).
+
+```xaml
+ <TimePicker SelectedTimeChanged="TimePicker_SelectedTimeChanged"/>
+ <TextBlock x:Name="resultText"/>
+```
+
+```csharp
+private void TimePicker_SelectedTimeChanged(TimePicker sender, TimePickerSelectedValueChangedEventArgs args)
+{
+    DateTime myTime = DateTime.Today + (TimeSpan)args.NewTime;
+    if (DateTime.Now >= myTime)
+    {
+        resultText.Text = "Your selected time has already past.";
+    }
+    else
+    {
+        string hrs = (myTime - DateTime.Now).Hours.ToString();
+        string mins = (myTime - DateTime.Now).Minutes.ToString();
+        resultText.Text = string.Format("Your selected time is {0} hours, {1} minutes from now.", hrs, mins);
+    }
+}
+```

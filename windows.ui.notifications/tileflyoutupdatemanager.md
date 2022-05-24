@@ -16,7 +16,7 @@ Creates [TileFlyoutUpdater](tileflyoutupdater.md) objects specific to an app's p
 This class is part of the following general API usage pattern: 
 + Call [TileFlyoutUpdateManager.GetTemplateContent](tileflyoutupdatemanager_gettemplatecontent_739748376.md) to retrieve and fill in a blank tile flyout notification XML template
 + Call the [TileFlyoutNotification](tileflyoutnotification_tileflyoutnotification_93177318.md) constructor to encapsulate the template content as a flyout notification
-+ Call one of the [TileFlyoutUpdateManager](tileflyout.md) methods to create a [TileFlyoutUpdater](tileflyoutupdater.md)
++ Call one of the **TileFlyoutUpdateManager** methods to create a [TileFlyoutUpdater](tileflyoutupdater.md)
 + Call [TileFlyoutUpdater.Update](tileflyoutupdater_update_298111616.md) to send the [TileFlyoutNotification](tileflyoutnotification.md) to the tile
 
 

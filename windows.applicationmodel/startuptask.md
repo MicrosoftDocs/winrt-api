@@ -21,7 +21,7 @@ UWP apps must call [RequestEnableAsync](/uwp/api/Windows.ApplicationModel.Startu
 
 If **RequestEnableAsync** is called from a packaged desktop app, no user-consent dialog is shown. Desktop apps can set their startup tasks to **Enabled** in the manifest, in which case they do not need to call [RequestEnableAsync](/uwp/api/Windows.ApplicationModel.StartupTask.RequestEnableAsync).
 
-In both cases, the app must be launched by the user at least once for startup functionality to be enabled. Once enabled, the user is in control and can change the enabled state of your app at any time via the **Startup** tab in Task Manager.
+In both cases, to enable startup functionality, the user must either launch the app at least once, or they must enable startup functionality for the app on the **Startup** page in **Settings**. Once enabled, the user is in control and can change the enabled state of your app at any time via the **Startup** page in **Settings** or the **Startup** tab in Task Manager.
 
 The following extension declaration goes in the app package manifest. The declaration that you use depends on whether your startup task will be a UWP app or desktop app background task.
 

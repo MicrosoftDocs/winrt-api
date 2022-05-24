@@ -11,11 +11,11 @@ public DependencyProperty IsOpenProperty { get; }
 
 ## -description
 
-Identifies the IsOpen dependency property.
+Identifies the [IsOpen](handwritingview_isopen.md) dependency property.
 
 ## -property-value
 
-The identifier for the IsOpen dependency property.
+The identifier for the [IsOpen](handwritingview_isopen.md) dependency property.
 
 ## -remarks
 

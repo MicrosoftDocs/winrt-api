@@ -12,7 +12,6 @@ public bool IsCompact { get;  set; }
 ## -description
 Gets or sets a value that indicates whether transport controls are shown on one row instead of two.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsCompact](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.iscompact).
 
 ## -xaml-syntax
 ```xaml

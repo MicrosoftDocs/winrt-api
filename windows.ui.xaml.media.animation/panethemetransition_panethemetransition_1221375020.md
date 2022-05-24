@@ -12,7 +12,6 @@ public PaneThemeTransition()
 ## -description
 Initializes a new instance of the [PaneThemeTransition](panethemetransition.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.PaneThemeTransition.PaneThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.panethemetransition.#ctor).
 
 ## -remarks
 

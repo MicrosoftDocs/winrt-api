@@ -10,21 +10,34 @@ public Windows.UI.ViewManagement.UserInteractionMode UserInteractionMode { get; 
 # Windows.UI.ViewManagement.UIViewSettings.UserInteractionMode
 
 ## -description
+
 Gets a value that indicates whether the device UI is optimized for touch input or mouse input.
 
 ## -property-value
+
 A value that indicates the input type (mouse or touch) the device UI is optimized for.
 
 ## -remarks
+
 This property can be used to optimize your app based on input type.
 
-Some devices (PC, laptop, tablet) support both a Desktop (mouse-optimized) and a Tablet (touch-optimized) mode.
+### Tablet mode
 
-Users can switch between running in Tablet mode and Desktop mode by going to **Settings &gt; System &gt; Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
+> [!Important]
+> **Windows 11 and newer**
+>
+> Tablet Mode is not supported.
+>
+> Pending new functionality, please use [Convertible Slate Mode (CSM)](/windows-hardware/customize/desktop/unattend/microsoft-windows-gpiobuttons-convertibleslatemode) to detect the keyboard attach and detach events.
+
+Some devices (PC, laptop, tablet) support both a Desktop (mouse-optimized) and a [Tablet](/windows-hardware/design/device-experiences/continuum) (touch-optimized) mode.
+
+On Windows 10 only, users can switch between running in Tablet mode and Desktop mode by going to **Settings > System > Tablet mode** and setting **Make Windows more touch-friendly when using your device as a tablet**.
 
 In Tablet mode, app views are auto-maximized and the title bar is hidden. The taskbar remains visible. The system raises the [CoreWindow.SizeChanged](../windows.ui.core/corewindow_sizechanged.md) event when the value of this property changes. This is exposed to XAML apps as the [Window.SizeChanged](../windows.ui.xaml/window_sizechanged.md) event and to HTML apps as the [window.resize](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741886(v=vs.85)) event.
 
 ## -examples
+
 Here, we show how to use the interaction mode to optimize the app layout on launch or when the device mode is changed.
 
 ```csharp
@@ -58,7 +71,5 @@ public sealed partial class MainPage : Page
   }
 }
 ```
-
-
 
 ## -see-also

@@ -22,6 +22,6 @@ The X, Y coordinates (top left) and dimensions (length and width) of the boundin
 ## -remarks
 
 ## -see-also
-[InkAnalysisLine.RotatedBoundingRect](inkanalysisinkline_rotatedboundingrect.md)
+[InkAnalysisLine.RotatedBoundingRect](inkanalysisline_rotatedboundingrect.md)
 
 ## -examples

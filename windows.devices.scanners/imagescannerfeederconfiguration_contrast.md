@@ -10,7 +10,7 @@ public int Contrast { get;  set; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.Contrast
 
 ## -description
-Sets or gets the current contrast level for capturing image data from the scanner's Feeder. At the beginning of a new scan session this property is set to the [DefaultContrast](imagescannerfeederconfiguration_defaultcontrast.md) property.
+Sets or gets the current contrast level for capturing image data from the scanner's feeder. At the beginning of a new scan session this property is set to the [DefaultContrast](imagescannerfeederconfiguration_defaultcontrast.md) property.
 
 ## -property-value
 The contrast level.

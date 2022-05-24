@@ -44,7 +44,7 @@ Actual sizes are dependent on the capabilities of the target printer, but approx
    <tr><td>6</td><td>0.750 - 0.847 mm</td><td>2.000 - 2.258 mm</td></tr>
 </table>
 
-See the remarks in [POS Printer](pos_printer.md) for more information on ESC/POS.
+See the remarks in [POS Printer](posprinter.md) for more information on ESC/POS.
 
 ### -param textPosition
 The vertical position of the barcode text relative to the barcode.

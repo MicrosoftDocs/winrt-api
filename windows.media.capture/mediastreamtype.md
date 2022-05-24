@@ -26,6 +26,8 @@ An audio stream.
 A photo stream.
 <!--to edit: In Win32 docs, I have been calling this a "still image stream" - but "photo" seems friendlier. If not, then I prefer "still image" over something like "photograhic".-->
 
+### -field Metadata:4
+A metadata stream.
 
 ## -remarks
 

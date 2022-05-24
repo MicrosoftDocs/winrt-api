@@ -24,4 +24,4 @@ The value for the event field.
 ## -examples
 
 ## -see-also
-[AddRectArray(String, Rect[], LoggingFieldFormat)](loggingfields_addrectarray_354715758.md), [AddRectArray(String, Rect[], LoggingFieldFormat, Int32)](loggingfields_addrectarray_820294226.md)
+[AddRectArray(String, Rect\[\], LoggingFieldFormat)](loggingfields_addrectarray_354715758.md), [AddRectArray(String, Rect\[\], LoggingFieldFormat, Int32)](loggingfields_addrectarray_820294226.md)

@@ -27,4 +27,7 @@ A constant that indicates the version that the deprecation applies to.
 ## -examples
 
 ## -see-also
-[DeprecatedAttribute(String, DeprecationType, UInt32, Platform)](deprecatedattribute_deprecatedattribute_1103216178.md)
+
+[DeprecatedAttribute(String, DeprecationType, UInt32, Platform)](deprecatedattribute_deprecatedattribute_1103216178.md),
+[DeprecatedAttribute(String, DeprecationType, UInt32, String)](deprecatedattribute_deprecatedattribute_1176550422.md),
+[DeprecatedAttribute(String, DeprecationType, UInt32, Type)](deprecatedattribute_deprecatedattribute_1908385198.md)

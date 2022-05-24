@@ -24,4 +24,4 @@ The array values for the event field.
 ## -examples
 
 ## -see-also
-[AddGuidArray(String, Guid[], LoggingFieldFormat)](loggingfields_addguidarray_1689054002.md), [AddGuidArray(String, Guid[], LoggingFieldFormat, Int32)](loggingfields_addguidarray_1097650446.md)
+[AddGuidArray(String, Guid\[\], LoggingFieldFormat)](loggingfields_addguidarray_1689054002.md), [AddGuidArray(String, Guid\[\], LoggingFieldFormat, Int32)](loggingfields_addguidarray_1097650446.md)

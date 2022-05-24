@@ -10,9 +10,8 @@ public void SetDropoutOrder(Windows.UI.Xaml.UIElement element, Windows.Foundatio
 # Windows.UI.Xaml.Controls.MediaTransportControlsHelper.SetDropoutOrder
 
 ## -description
-Sets the value of the [MediaTransportControlsHelper.DropoutOrder](/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper#xaml-attached-properties) XAML attached property for a target element.
+Sets the value of the [MediaTransportControlsHelper.DropoutOrder](mediatransportcontrolshelper_dropoutorder.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaTransportControlsHelper.SetDropoutOrder](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrolshelper.setdropoutorder).
 
 ## -parameters
 ### -param element
@@ -22,9 +21,10 @@ The object to which the property value is written.
 The value to set. (The dropout priority of the control relative to other transport controls.)
 
 ## -remarks
-This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [MediaTransportControlsHelper.DropoutOrder](/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper#xaml-attached-properties) XAML attached property in XAML and won't need this method. For more info, see the [MediaTransportControlsHelper.DropoutOrder](/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper#xaml-attached-properties) attached property.
+This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [MediaTransportControlsHelper.DropoutOrder](mediatransportcontrolshelper_dropoutorder.md) XAML attached property in XAML and won't need this method. For more info, see the [MediaTransportControlsHelper.DropoutOrder](mediatransportcontrolshelper_dropoutorder.md) attached property.
 
 ## -examples
 
 ## -see-also
-[MediaTransportControlsHelper.DropoutOrder](/uwp/api/windows.ui.xaml.controls.mediatransportcontrolshelper#xaml-attached-properties), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)
+
+[MediaTransportControlsHelper.DropoutOrder](mediatransportcontrolshelper_dropoutorder.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

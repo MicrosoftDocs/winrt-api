@@ -13,7 +13,6 @@ public class SymbolIcon : Windows.UI.Xaml.Controls.IconElement, Windows.UI.Xaml.
 
 Represents an icon that uses a glyph from the Segoe MDL2 Assets font as its content.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SymbolIcon](/windows/winui/api/microsoft.ui.xaml.controls.symbolicon).
 
 ## -xaml-syntax
 
@@ -36,9 +35,9 @@ The most common way to specify the icon for an app bar button is to use one of t
 > [!TIP]
 > For more info, design guidance, and code examples, see [Command bar](/windows/uwp/controls-and-patterns/app-bars).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the SymbolIcon in action](xamlcontrolsgallery:/item/AppBarButton).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the SymbolIcon in action](winui2gallery:/item/AppBarButton).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This example shows two ways to use a SymbolIcon an [AppBarButton](appbarbutton.md). The second button icon has its [Foreground](iconelement_foreground.md) set to "Green".
 

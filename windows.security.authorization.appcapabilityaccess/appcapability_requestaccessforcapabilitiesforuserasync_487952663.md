@@ -28,7 +28,7 @@ RequestAccessForCapabilitiesForUserAsync does not create any new objects and can
 > Note: Must be called from the UI thread.
 
 ## -see-also
-[RequestAccessForCapabilitiesAsync](appcapability_requestaccessforcapabilitiesasync.md)
+[RequestAccessForCapabilitiesAsync](appcapability_requestaccessforcapabilitiesasync_382595932.md)
 
 ## -examples
 

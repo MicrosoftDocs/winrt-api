@@ -19,7 +19,7 @@ The state of this **UserActivity**.
 
 ## -remarks
 
-Knowing that a **UserActivity** is **New** versus **Published** can be used to determine whether [GetOrCreateUserActivityAsync()](useractivitychannel_getorcreateuseractivityasync_1786538190.md) returned a newly created **UserActivity** or one that had been previously created.
+Knowing that a **UserActivity** is **New** versus **Published** can be used to determine whether [GetOrCreateUserActivityAsync()](useractivitychannel_getorcreateuseractivityasync_1939478900.md) returned a newly created **UserActivity** or one that had been previously created.
 
 ## -see-also
 

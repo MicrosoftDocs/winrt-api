@@ -24,7 +24,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Input.CanExecuteRequestedEventArgs
 
 ## -see-also
 
-[CanExecuteRequested](icommand_canexecuterequested.md)
+[CanExecuteRequested](xamluicommand_canexecuterequested.md)
 
 ## -examples
 

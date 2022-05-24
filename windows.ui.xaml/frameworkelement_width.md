@@ -44,14 +44,23 @@ Negative values for Width are not permitted.
 TODO investigate voldemort layout rounding-->
 Also, do not set Width to a value that is significantly larger than the maximum size of any possible visual display.
 
-### "Auto" layout and Double.NaN
+### "Auto" and NaN
 
-The default value of [Height](frameworkelement_height.md) and Width is not 0, it is [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true). [Height](frameworkelement_height.md) and Width support the ability to be an unset "Auto" value. Because [Height](frameworkelement_height.md) and Width are **Double** values, [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true) is used as a special value to represent this "Auto" behavior. The layout system interprets the "Auto" value to generally mean that the object should be sized to the available size in layout, instead of to a specific pixel value. If you want the "Auto" behavior for an object when it is used in layout, leave [Height](frameworkelement_height.md) and Width unset at their [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true) default value. If you have previously set values and want to reenable the "Auto" behavior with run-time code, set to [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true). In XAML such as templates, you can set attribute values using the string "Auto". 
+The default value of [Height](frameworkelement_height.md) and Width is "Auto", represented by NaN. In XAML markup, you can use the string "Auto" to set the value to NaN. 
 <!--Setting Auto in XAML is a special behavior of the XAML parser, not a TypeConverter behavior.-->
 
-
 > [!NOTE]
-> Visual C++ component extensions (C++/CX) doesn't have a constant for **NaN**, it uses a value, which appears as "-1.#IND" followed by zeros.
+> In C#, you can obtain NaN from [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true).
+>
+> In C++, you can obtain NaN by using the [`NAN` macro](/cpp/standard-library/cmath) or [`std::numeric_limits<double>::quiet_NaN()`](/cpp/standard-library/numeric-limits-class#quiet_nan).
+>
+> Do not use the `==` operator to test for NaN.
+>
+> In C#, use [Double.IsNaN()](/dotnet/api/system.double.isnan?view=dotnet-uwp-10.0&preserve-view=true) to test for NaN.
+>
+> In C++, use [isnan()](/cpp/c-runtime-library/reference/isnan-isnan-isnanf) to test for NaN.
+
+The layout system interprets the "Auto" value to generally mean that the object should be sized to the available size in layout, instead of to a specific pixel value.
 
 ## -examples
 This example shows a simple property set of a UI element that is created at run time and needs initialization of its content and basic display properties such as [Height](frameworkelement_height.md) and Width and [Background](../windows.ui.xaml.controls/control_background.md). ([Background](../windows.ui.xaml.controls/control_background.md) is actually a [Control](../windows.ui.xaml.controls/control.md) property, not defined by [FrameworkElement](frameworkelement.md).)
@@ -64,4 +73,3 @@ This example shows a simple property set of a UI element that is created at run 
 
 ## -see-also
 [Control](../windows.ui.xaml.controls/control.md), [Height](frameworkelement_height.md), [ActualWidth](frameworkelement_actualwidth.md), [MinWidth](frameworkelement_minwidth.md), [MaxWidth](frameworkelement_maxwidth.md), [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding)
-abd4-3674-4865-b07d-64c7c26e4842)

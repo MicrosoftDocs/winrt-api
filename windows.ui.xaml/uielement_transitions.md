@@ -12,7 +12,6 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection Transitions { get;  
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to a [UIElement](uielement.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Transitions](/windows/winui/api/microsoft.ui.xaml.uielement.transitions).
 
 ## -xaml-syntax
 ```xaml
@@ -60,9 +59,9 @@ It's not common to set the value of the Transitions property directly on a [UIEl
 > [!TIP]
 > For more info, design guidance, and code examples, see [Motion](/windows/uwp/design/motion/).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to open the app and see [Implicit Transitions](xamlcontrolsgallery:/item/ImplicitTransitions) and [Theme Transitions](xamlcontrolsgallery:/item/ThemeTransitions) in action.
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to open the app and see [Implicit Transitions](winui2gallery:/item/ImplicitTransitions) and [Theme Transitions](winui2gallery:/item/ThemeTransitions) in action.
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This XAML example shows a single [EntranceThemeTransition](../windows.ui.xaml.media.animation/entrancethemetransition.md) as defined in a [Style](style.md) for a [Button](../windows.ui.xaml.controls/button.md). Transition animation properties are typically set in styles and templates rather than as properties directly in a UI definition. Styles are typically stored as a XAML resource.
 

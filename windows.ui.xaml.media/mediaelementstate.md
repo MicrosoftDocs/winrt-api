@@ -12,7 +12,6 @@ public enum Windows.UI.Xaml.Media.MediaElementState : int
 ## -description
 Defines the potential states of a [MediaElement](../windows.ui.xaml.controls/mediaelement.md) object.
 
-Equivalent WinUI enum: [MediaElementState](/windows/winui/api/microsoft.ui.xaml.media.mediaelementstate).
 
 ## -xaml-syntax
 ```xaml

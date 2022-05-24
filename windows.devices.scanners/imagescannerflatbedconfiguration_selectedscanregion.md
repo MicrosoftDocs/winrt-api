@@ -19,7 +19,7 @@ The location and size of a rectangle.
 This table describes the property's restrictions. Default values are set at the beginning of a new scan session.
 
 <table>
-   <tr><th>Name</th><th>Default value</th><th>Valid Flatbed values</th><th>Valid Feeder values</th></tr>
+   <tr><th>Name</th><th>Default value</th><th>Valid flatbed values</th><th>Valid feeder values</th></tr>
    <tr><td>SelectedScanRegion.X</td><td>0</td><td>between 0 and MaximumScanArea.Width - 1</td><td>between 0 and PageSizeDimenstions.Width</td></tr>
    <tr><td>SelectedScanRegion.Y</td><td>0</td><td>between 0 and MaximumScanArea.Height - 1</td><td>between 0 and PageSizeDimenstions.Height</td></tr>
    <tr><td>SelectedScanRegion.Width</td><td>MaximumScanArea.Width</td><td>between MinimumScanArea.Width and (MaximumScanArea.Width – SelectedScanRegion.X)</td><td>between MinimumScanArea.Width and PageSizeDimensions.Width</td></tr>

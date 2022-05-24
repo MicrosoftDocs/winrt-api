@@ -15,5 +15,5 @@ Wifi configuration result returned by a call to [GetWpsConfigurationAsync](wifia
 
 ## -see-also
 [GetWpsConfigurationAsync](wifiadapter_getwpsconfigurationasync_1613138554.md)
-## -examples
 
+## -examples

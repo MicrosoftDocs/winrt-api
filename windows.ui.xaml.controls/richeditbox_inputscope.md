@@ -10,11 +10,13 @@ public Windows.UI.Xaml.Input.InputScope InputScope { get;  set; }
 # Windows.UI.Xaml.Controls.RichEditBox.InputScope
 
 ## -description
+
 Gets or sets the context for input used by this [RichEditBox](richeditbox.md).
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.InputScope](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.inputscope).
 
 ## -xaml-syntax
+
 ```xaml
 <RichEditBox InputScope="inputScopeName" .../>
 - or -
@@ -29,22 +31,26 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.InputScope](/
 </RichEditBox>
 ```
 
-
 ## -xaml-values
-<dl><dt>inputScopeName</dt><dd>inputScopeNameA string that matches one of the named constants of the InputScopeNameValue enumeration, such as Number.</dd>
+
+<dl><dt>inputScopeName</dt><dd>A string that matches one of the named constants of the [InputScopeNameValue](../windows.ui.xaml.input/inputscopenamevalue.md) enumeration, such as NumericPin.</dd>
 </dl>
+
 ## -property-value
-The input scope, which provides a hint at the type of text input expected by the control.
+
+The input scope, which provides a hint at the type of text input expected by the control. The default is **null**.
 
 ## -remarks
+
 The input scope provides a hint at the type of text input expected by the control. Various elements of the system can respond to the hint provided by the input scope and provide a specialized UI for the input type. For example, the soft keyboard might show a number pad for text input when the control has its [InputScope](../windows.ui.xaml.input/inputscope.md) set to **Number**.
 
-The control might also interpret the data being entered differently (typically for East Asian related input scopes). The input scope does not perform any validation, and does not prevent the user from providing any input through a hardware keyboard or other input device.
+The control might also interpret the data being entered differently (typically for East Asian related input scopes). The input scope does not perform any validation, and does not prevent the user from providing input through a hardware keyboard or other input device.
 
-> [!NOTE]
-> While this property can hold a collection of InputeNameScope values, only the first is used, and the rest are ignored.
+> [!Important]
+> While this property can hold a collection of InputNameScope values, in most cases just the first is used. The only exception to this is when Private is specified as a value. Private is never ignored, regardless of its location in the collection.  If Private is the first item in the collection, the next item in the collection (if present) is also used.
 
 ## -examples
+
 Here's how to set the [InputScope](../windows.ui.xaml.input/inputscope.md) in XAML and in code.
 
 ```xaml
@@ -62,7 +68,6 @@ scope.Names.Add(scopeName);
 editBox.InputScope = scope;
 ```
 
-
-
 ## -see-also
+
 [InputScopeNameValue](../windows.ui.xaml.input/inputscopenamevalue.md)

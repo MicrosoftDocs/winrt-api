@@ -12,7 +12,6 @@ public VisualStateChangedEventArgs()
 ## -description
 Initializes a new instance of the [VisualStateChangedEventArgs](visualstatechangedeventargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.VisualStateChangedEventArgs.VisualStateChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.visualstatechangedeventargs.#ctor).
 
 ## -remarks
 

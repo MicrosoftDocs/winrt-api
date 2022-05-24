@@ -12,7 +12,6 @@ public RichEditBoxAutomationPeer(Windows.UI.Xaml.Controls.RichEditBox owner)
 ## -description
 Initializes a new instance of the [RichEditBoxAutomationPeer](richeditboxautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.RichEditBoxAutomationPeer.RichEditBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.richeditboxautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

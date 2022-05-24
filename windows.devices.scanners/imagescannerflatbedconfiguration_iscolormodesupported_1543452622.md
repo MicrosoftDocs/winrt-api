@@ -10,7 +10,7 @@ public bool IsColorModeSupported(Windows.Devices.Scanners.ImageScannerColorMode 
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.IsColorModeSupported
 
 ## -description
-Returns whether the scanner's Flatbed can scan and transfer images in the specified color mode.
+Returns whether the scanner's flatbed can scan and transfer images in the specified color mode.
 
 ## -parameters
 ### -param value

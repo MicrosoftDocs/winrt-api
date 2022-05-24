@@ -27,4 +27,7 @@ The version.
 ## -examples
 
 ## -see-also
-[ComposableAttribute(Type, CompositionType, UInt32, Platform)](composableattribute_composableattribute_1123439749.md)
+
+[ComposableAttribute(Type, CompositionType, UInt32, Platform)](composableattribute_composableattribute_1123439749.md),
+[ComposableAttribute(Type, CompositionType, UInt32, String)](composableattribute_composableattribute_1159157411.md),
+[ComposableAttribute(Type, CompositionType, UInt32, Type)](composableattribute_composableattribute_1921535771.md)

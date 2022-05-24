@@ -12,7 +12,6 @@ public bool IsSkipBackwardButtonVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the skip backward button is shown.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaTransportControls.IsSkipBackwardButtonVisible](/windows/winui/api/microsoft.ui.xaml.controls.mediatransportcontrols.isskipbackwardbuttonvisible).
 
 ## -xaml-syntax
 ```xaml

@@ -26,7 +26,7 @@ The maximum number of folders to retrieve.
 When this method completes successfully, it returns a list of subfolders. When the value of the *query* argument is something other than [CommonFolderQuery.DefaultQuery](../windows.storage.search/commonfolderquery.md), this method returns a list of virtual folders that represent containers for groups of files in the subfolders of the current folder. (Files from the current folder are not included.) The files are grouped as specified by *query*. The list is of type **IReadOnlyList**&lt;[StorageFolder](storagefolder.md)&gt;. Each folder in the list is represented by a [StorageFolder](storagefolder.md) object.
 
 ## -exceptions
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to access the contents of the current folder. For more information, see [File access permissions](/windows/uwp/files/file-access-permissions).
 

@@ -20,9 +20,8 @@ The key.
 True if the value set has an item with the specified key; otherwise, false.
 
 ## -remarks
-Some functionality in this class is restricted to specific development languages. The parent topic, [ValueSet](valueset.md) class, indicates which members are accessible in specific languages. For functionality similar to this member, see [ContainsKey](valueset_containskey.md).
+Some functionality in this class is restricted to specific development languages. The parent topic, [ValueSet](valueset.md) class, indicates which members are accessible in specific languages. 
 
 ## -examples
 
 ## -see-also
-[ContainsKey](valueset_containskey.md)

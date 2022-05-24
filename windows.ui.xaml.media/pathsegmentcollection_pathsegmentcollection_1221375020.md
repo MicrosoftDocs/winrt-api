@@ -12,7 +12,6 @@ public PathSegmentCollection()
 ## -description
 Initializes a new instance of the [PathSegmentCollection](pathsegmentcollection.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.PathSegmentCollection.PathSegmentCollection](/windows/winui/api/microsoft.ui.xaml.media.pathsegmentcollection.#ctor).
 
 ## -remarks
 

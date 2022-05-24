@@ -3,27 +3,32 @@
 -api-type: winrt enum
 ---
 
-<!-- Enumeration syntax
-public enum Windows.Storage.ApplicationDataLocality : int
+# Windows.Storage.ApplicationDataLocality
+
+<!--
+public enum ApplicationDataLocality
 -->
 
-# ApplicationDataLocality
 
 ## -description
 Specifies the type of an application data store.
 
 ## -enum-fields
-### -field Local:0
+### -field Local
 The data resides in the local application data store.
 
-### -field Roaming:1
+### -field LocalCache
+The data resides in the local cache for the application data store.
+
+### -field Roaming
 The data resides in the roaming application data store.
 
-### -field Temporary:2
+### -field SharedLocal
+The data resides in the shared local application data store.
+
+### -field Temporary
 The data resides in the temporary application data store.
 
-### -field LocalCache:3
-The data resides in the local cache for the application data store.
 
 ## -remarks
 

@@ -10,6 +10,10 @@ public class WebUIWalletActionActivatedEventArgs : Windows.ApplicationModel.Acti
 # Windows.UI.WebUI.WebUIWalletActionActivatedEventArgs
 
 ## -description
+
+> [!CAUTION] 
+> The WebUI.WebUIWalletActionActivatedEventArgs class is no longer supported, and will soon be deprecated. Developers are encouraged to avoid using this namespace.
+
 Provides information to an app that was launched as the result of a wallet action.
 
 ## -remarks

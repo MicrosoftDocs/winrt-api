@@ -12,7 +12,6 @@ public AutoSuggestBoxTextChangedEventArgs()
 ## -description
 Initializes a new instance of the [AutoSuggestBoxTextChangedEventArgs](autosuggestboxtextchangedeventargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.AutoSuggestBoxTextChangedEventArgs.AutoSuggestBoxTextChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestboxtextchangedeventargs.#ctor).
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public class FolderInformation : Windows.Storage.BulkAccess.IStorageItemInformat
 # Windows.Storage.BulkAccess.FolderInformation
 
 ## -description
-Provides synchronous access to the properties exposed off [StorageFolder](../windows.storage/storagefolder.md) and lets an app perform asynchronous management operations such as copy, delete, move, and rename.
+Provides synchronous access to the properties exposed off [StorageFolder](../windows.storage/storagefolder.md) and lets an app perform asynchronous management operations such as delete and rename.
 
 ## -remarks
 > [!NOTE]

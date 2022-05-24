@@ -42,4 +42,4 @@ Here are some downloadable samples demonstrating basic input and input injection
 
 ## -see-also
 
-[InjectedInputGamepadInfo](GamepadReading reading), [Simulate user input through input injection](/windows/uwp/design/input/input-injection)
+[InjectedInputGamepadInfo(GamepadReading)](/uwp/api/windows.ui.input.preview.injection.injectedinputgamepadinfo.-ctor), [Simulate user input through input injection](/windows/uwp/design/input/input-injection)

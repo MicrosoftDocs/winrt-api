@@ -20,7 +20,7 @@ The new item to add.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [Add](triggercollection_add.md).
+> The equivalent Microsoft .NET API is [Add](/dotnet/api/system.collections.objectmodel.collection-1.add).
 
 ## -examples
 

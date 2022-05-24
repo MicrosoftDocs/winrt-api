@@ -15,12 +15,11 @@ Implements the [ISyndicationText](isyndicationtext.md) interface that encapsulat
 ## -remarks
 The following table maps SyndicationText properties to RSS and Atom feed elements.
 
-<table>
-   <tr><th>SyndicationText</th><th>RSS</th><th>Atom</th></tr>
-   <tr><td>[Text](syndicationtext_text.md)</td><td>(node value)</td><td>(node value)</td></tr>
-   <tr><td>[Type](syndicationtext_type.md)</td><td /><td>type (attribute)</td></tr>
-   <tr><td>[Xml](syndicationtext_xml.md)</td><td /><td>(xhtml node value)</td></tr>
-</table>
+| SyndicationText | RSS | Atom |
+|---|---|---|
+| [Text](syndicationtext_text.md) | (node value) | (node value) |
+| [Type](syndicationtext_type.md) |---| type (attribute) |
+| [Xml](syndicationtext_xml.md) |---| (xhtml node value) |
 
 ## -examples
 

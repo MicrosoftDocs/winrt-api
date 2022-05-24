@@ -26,3 +26,5 @@ The localized full description of the object specified in the *element* paramete
 ## -examples
 
 ## -see-also
+
+[FullDescription](automationproperties_fulldescription.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

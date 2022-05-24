@@ -18,8 +18,6 @@ Get an instance of this class by accessing the [Diagnostics](adaptivemediasource
 The diagnostics provided by this class are not intended to be used to change the behavior of an app at runtime. Instead, these are provided to enable telemetry collection.
 
 ## -see-also
-[AdaptiveMediaSource](adaptivemediasource.md)
-[Diagnostics](adaptivemediasource_diagnostics.md)
+[AdaptiveMediaSource](adaptivemediasource.md), [Diagnostics](adaptivemediasource_diagnostics.md)
 
 ## -examples
-

@@ -21,23 +21,24 @@ The Hebrew calendar recognizes two eras: B.C.E. (before the common era) and C.E.
 
 In every 19-year cycle that ends with a year that is evenly divisible by 19, the 3rd, 6th, 8th, 11th, 14th, 17th, and 19th years are leap years. A common year can have from 353 to 355 days, depending on the placement of Jewish holidays. A leap year can have from 383 to 385 days.
 
-The Hebrew calendar has 12 months during common years and 13 months during leap years:<table>
-   <tr><th>[MonthAsNumericString](calendar_monthasnumericstring_952914344.md) (common year)</th><th>[MonthAsNumericString](calendar_monthasnumericstring_952914344.md) (leap year)</th><th>Month</th><th>Days in common years</th><th>Days in leap years</th></tr>
-   <tr><td>1</td><td>1</td><td>תשרי (Tishrei)</td><td>30</td><td>30</td></tr>
-   <tr><td>2</td><td>2</td><td>חשון (Cheshvan)</td><td>29/30</td><td>29/30</td></tr>
-   <tr><td>3</td><td>3</td><td>כסלו (Kislev)</td><td>29/30</td><td>29/30</td></tr>
-   <tr><td>4</td><td>4</td><td>טבת (Tevet)</td><td>29</td><td>29</td></tr>
-   <tr><td>5</td><td>5</td><td>שבט (Shevat)</td><td>30</td><td>30</td></tr>
-   <tr><td>6</td><td>-</td><td>אדר (Adar)</td><td>29</td><td>-</td></tr>
-   <tr><td>-</td><td>6</td><td>אדר א (Adar Alef)</td><td>-</td><td>30</td></tr>
-   <tr><td>-</td><td>7</td><td>אדר ב (Adar Beit)</td><td>-</td><td>29</td></tr>
-   <tr><td>7</td><td>8</td><td>ניסן (Nissan)</td><td>30</td><td>30</td></tr>
-   <tr><td>8</td><td>9</td><td>אייר (Iyar)</td><td>29</td><td>29</td></tr>
-   <tr><td>9</td><td>10</td><td>סיון (Sivan)</td><td>30</td><td>30</td></tr>
-   <tr><td>10</td><td>11</td><td>תמוז (Tamuz)</td><td>29</td><td>29</td></tr>
-   <tr><td>11</td><td>12</td><td>אב (Av)</td><td>30</td><td>30</td></tr>
-   <tr><td>12</td><td>13</td><td>אלול (Elul)</td><td>29</td><td>29</td></tr>
-</table>
+The Hebrew calendar has 12 months during common years and 13 months during leap years:
+
+| [MonthAsNumericString](calendar_monthasnumericstring_952914344.md) (common year) | [MonthAsNumericString](calendar_monthasnumericstring_952914344.md) (leap year) | Month | Days in common years | Days in leap years |
+|---|---|---|---|---|
+| 1 | 1 | תשרי (Tishrei) | 30 | 30 |
+| 2 | 2 | חשון (Cheshvan) | 29/30 | 29/30 |
+| 3 | 3 | כסלו (Kislev) | 29/30 | 29/30 |
+| 4 | 4 | טבת (Tevet) | 29 | 29 |
+| 5 | 5 | שבט (Shevat) | 30 | 30 |
+| 6 | - | אדר (Adar) | 29 | - |
+| - | 6 | אדר א (Adar Alef) | - | 30 |
+| - | 7 | אדר ב (Adar Beit) | - | 29 |
+| 7 | 8 | ניסן (Nissan) | 30 | 30 |
+| 8 | 9 | אייר (Iyar) | 29 | 29 |
+| 9 | 10 | סיון (Sivan) | 30 | 30 |
+| 10 | 11 | תמוז (Tamuz) | 29 | 29 |
+| 11 | 12 | אב (Av) | 30 | 30 |
+| 12 | 13 | אלול (Elul) | 29 | 29 |
 
 The days in Cheshvan and Kislev vary depending on the placement of Jewish holidays. During leap years, Adar is replaced by Adar Alef with 30 days and Adar Beit with 29 days. Adar Beit is considered the leap month. The last day of Adar Alef and all the days in Adar Beit are considered leap days.
 

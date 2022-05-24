@@ -15,8 +15,6 @@ A [HolographicFrameRenderingReport](holographicframerenderingreport.md) containi
 
 ## -see-also
 
-[HolographicFrameRenderingReport](holographicframerenderingreport.md)
-[HolographicFrame](holographicframe.md)
+[HolographicFrameRenderingReport](holographicframerenderingreport.md), [HolographicFrame](holographicframe.md)
 
 ## -examples
-

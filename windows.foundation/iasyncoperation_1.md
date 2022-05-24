@@ -23,6 +23,23 @@ It's not common to use IAsyncOperation&lt;TResult&gt; directly even if you don't
 
 Instead of using IAsyncOperation&lt;TResult&gt;, some Windows Runtime asynchronous methods use custom operation types. For example, [DataReaderLoadOperation](../windows.storage.streams/datareaderloadoperation.md) is a Windows Runtime type that implements IAsyncOperation using **uint** as the result type. The [DataReaderLoadOperation](../windows.storage.streams/datareaderloadoperation.md) type is then used as the custom operation/result type for the [DataReader.LoadAsync](../windows.storage.streams/datareader_loadasync_972718946.md) method.
 
+### C++/WinRT extension functions
+
+> [!NOTE]
+> Extension functions exist on the C++/WinRT projection types for certain Windows Runtime APIs. For example, **winrt::Windows::Foundation::IAsyncAction** is the C++/WinRT projection type for [IAsyncAction](/uwp/api/windows.foundation.iasyncaction). The extension functions aren't part of the application binary interface (ABI) surface of the actual Windows Runtime types, so they're not listed as members of the Windows Runtime APIs. But you can call them from within any C++/WinRT project. See [C++/WinRT functions that extend Windows Runtime APIs](/uwp/cpp-ref-for-winrt/winrt#cwinrt-functions-that-extend-windows-runtime-apis).
+
+```cppwinrt
+TResult get() const;
+```
+
+Waits synchronously for the operation to complete, and returns the completed value. Throws a corresponding exception if the operation is canceled, or enters an error state. You mustn't call it from a single-threaded apartment. For more info, and code examples showing how to call **get**, see [Write a coroutine](/windows/uwp/cpp-and-winrt-apis/concurrency#write-a-coroutine).
+
+```cppwinrt
+AsyncStatus wait_for(TimeSpan const& timeout) const;
+```
+
+Waits synchronously for the operation to complete, or for the specified timeout. Returns the state of the **IAsyncOperation**, or [AsyncStatus::Started](/uwp/api/windows.foundation.asyncstatus) if the timeout elapsed. If the action didn't time out, then call [GetResults](/uwp/api/windows.foundation.iasyncoperation-1.getresults) to obtain the results of the operation. For more info, and code examples showing how to call **wait_for**, see [Asynchronous timeouts made easy](/windows/uwp/cpp-and-winrt-apis/concurrency-2#asynchronous-timeouts-made-easy).
+
 ### Interface inheritance
 
 IAsyncOperation&lt;TResult&gt; inherits [IAsyncInfo](iasyncinfo.md). Types that implement IAsyncOperation&lt;TResult&gt; also implement the interface members of [IAsyncInfo](iasyncinfo.md): 
@@ -31,7 +48,6 @@ IAsyncOperation&lt;TResult&gt; inherits [IAsyncInfo](iasyncinfo.md). Types that 
 + [ErrorCode](iasyncinfo_errorcode.md) property
 + [Id](iasyncinfo_id.md) property
 + [Status](iasyncinfo_status.md) property
-
 
 ### Notes to implementers
 

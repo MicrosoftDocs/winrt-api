@@ -18,9 +18,9 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetH
 The help text.
 
 ## -remarks
-Specifying a control behavior for help text is uncommon. In most cases, apps that need it will establish help text information in the UI by applying the [AutomationProperties.HelpText](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property to the UI definition XAML.
+Specifying a control behavior for help text is uncommon. In most cases, apps that need it will establish help text information in the UI by applying the [AutomationProperties.HelpText](/uwp/api/windows.ui.xaml.automation.automationproperties.helptext) attached property to the UI definition XAML.
 
 ## -examples
 
 ## -see-also
-[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [AutomationProperties.HelpText](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Accessibility](/windows/uwp/accessibility/accessibility)
+[FrameworkElementAutomationPeer](frameworkelementautomationpeer.md), [AutomationProperties.HelpText](/uwp/api/windows.ui.xaml.automation.automationproperties.helptext), [Custom automation peers](/windows/uwp/accessibility/custom-automation-peers), [Accessibility](/windows/uwp/accessibility/accessibility)

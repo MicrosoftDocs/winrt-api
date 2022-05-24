@@ -24,4 +24,6 @@ Occluding events can be handled by your app first. If your app doesn't handle th
 
 ## -see-also
 
+[CoreFrameworkInputView.OcclusionsChanged](coreframeworkinputview_occlusionschanged.md), [CoreFrameworkInputViewOcclusionsChangedEventArgs](coreframeworkinputviewocclusionschangedeventargs.md)
+
 ## -examples

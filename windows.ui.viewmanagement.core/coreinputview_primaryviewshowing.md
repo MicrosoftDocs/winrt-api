@@ -15,6 +15,8 @@ Occurs before the input pane associated with the [CoreInputView](coreinputview.m
 
 ## -remarks
 
+Primary view refers to either of the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1) or [CoreInputViewKind.Handwriting](coreinputviewkind.md#-field-handwriting2) views, while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
+
 ## -see-also
 
 [Windows.UI.ViewManagement.Core.CoreInputView.PrimaryViewHiding](coreinputview_primaryviewhiding.md), [Windows.UI.ViewManagement.Core.CoreInputViewShowingEventArgs](coreinputviewshowingeventargs.md)

@@ -16,7 +16,7 @@ Occurs when the wheel device is pressed.
 
 ## -see-also
 
-[ButtonReleased](buttonreleased.md)
+[ButtonReleased](radialcontroller_buttonreleased.md)
 
 ## -examples
 

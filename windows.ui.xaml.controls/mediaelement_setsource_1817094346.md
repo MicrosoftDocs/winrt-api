@@ -12,7 +12,6 @@ public void SetSource(Windows.Storage.Streams.IRandomAccessStream stream, System
 ## -description
 Sets the [Source](mediaelement_source.md) property using the specified stream and MIME type.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaElement.SetSource](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.setsource).
 
 ## -parameters
 ### -param stream

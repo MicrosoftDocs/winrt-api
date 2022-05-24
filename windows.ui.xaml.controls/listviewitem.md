@@ -39,6 +39,7 @@ Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resourc
 
 This table shows the resources used by the ListViewItem control.
 
+*Resources marked with an asterisk are only available when using [WinUI 2.6](https://docs.microsoft.com/en-us/windows/apps/winui/winui2/release-notes/).
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
    <tr><td>ListViewItemForeground</td><td>Text color at rest</td></tr>
@@ -61,14 +62,33 @@ This table shows the resources used by the ListViewItem control.
    <tr><td>ListViewItemPlaceholderBackground</td><td>Background color of item placeholder</td></tr>
    <tr><td>ListViewItemSelectionCheckMarkVisualEnabled</td><td>Boolean that specifies whether checkmark visual is shown</td></tr>
    <tr><td>ListViewItemCheckMode</td><td>Specifies how checkmark is shown ("Overlay" or "Inline")</td></tr>
+   <tr><td>ListViewItemSelectionIndicatorMode*</td><td>Specifies how selection indicator is shown ("Overlay" or "Inline")</td></tr>
+   <tr><td>ListViewItemSelectionIndicatorVisualEnabled*</td><td>Boolean that specifies if selection indicator is shown</td></tr>
+   <tr><td>ListViewItemSelectionIndicatorDisabledBrush*</td><td>Color of selection indicator when item is selected and disabled</td></tr>
+   <tr><td>ListViewItemSelectionIndicatorPressedBrush*</td><td>Color of selection indicator when item is selected and pressed</td></tr>
+   <tr><td>ListViewItemSelectionIndicatorPointerOverBrush*</td><td>Color of selection indicator on hover when item is selected</td></tr>
+   <tr><td>ListViewItemSelectionIndicatorBrush*</td><td>Color of selection indicator</td></tr>
+   <tr><td>ListViewItemCheckBoxDisabledBrush*</td><td>Background color of checkmark box when disabled</td></tr>
+   <tr><td>ListViewItemCheckBoxSelectedBrush*</td><td>Background color of checkmark box when item is selected</td></tr>
+   <tr><td>ListViewItemCheckBoxSelectedPointerOverBrush*</td><td>Background color of checkmark box on hover when item is selected</td></tr>
+   <tr><td>ListViewItemCheckBoxSelectedPressedBrush*</td><td>Background color of checkmark box when item is selected and pressed</td></tr>
+   <tr><td>ListViewItemCheckBoxSelectedDisabledBrush*</td><td>Background color of checkmark box when item is selected and disabled</td></tr>
+   <tr><td>ListViewItemCheckBoxBorderBrush*</td><td>Border color of checkmark box</td></tr>
+   <tr><td>ListViewItemCheckBoxPointerOverBorderBrush*</td><td>Border color of checkmark box on hover</td></tr>
+   <tr><td>ListViewItemCheckBoxPressedBorderBrush*</td><td>Border color of checkmark box when presed</td></tr>
+   <tr><td>ListViewItemCheckBoxDisabledBorderBrush*</td><td>Border color of checkmark box when disabled</td></tr>
+   <tr><td>ListViewItemSelectionIndicatorCornerRadius*</td><td>Corner radius of selection indicator</td></tr>
+   <tr><td>ListViewItemCheckBoxCornerRadius*</td><td>Corner radius of checkmark box</td></tr>
+   <tr><td>ListViewItemCornerRadius*</td><td>Corner radius of entire ListView item</td></tr>
 </table>
 
+
 > **Windows 8.1**
-> To assign a custom value based on the data item to the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property, you must bind to the item container's [Content](contentcontrol_content.md) property. For example, assume you have a `Customer` data item that has a `Name` property and you want to use the `Customer.Name` property as the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) value.
+> To assign a custom value based on the data item to the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties.name) attached property, you must bind to the item container's [Content](contentcontrol_content.md) property. For example, assume you have a `Customer` data item that has a `Name` property and you want to use the `Customer.Name` property as the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties.name) value.
 
 In Windows 8, the data item is set as the [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) of the item container, so you can use a binding like this: `AutomationProperties.Name="{Binding Name}"`.
 
-In Windows 8.1, the item container's [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) is not set. To bind the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) value to the data item's `Name` property, use a binding like this: `AutomationProperties.Name="{Binding Path=Content.Name,RelativeSource={RelativeSource Mode=Self}}"`.
+In Windows 8.1, the item container's [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) is not set. To bind the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties.name) value to the data item's `Name` property, use a binding like this: `AutomationProperties.Name="{Binding Path=Content.Name,RelativeSource={RelativeSource Mode=Self}}"`.
 
 ## -examples
 

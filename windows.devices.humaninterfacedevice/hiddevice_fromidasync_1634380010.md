@@ -15,7 +15,7 @@ Opens a handle to the device identified by the *deviceId* parameter. The access 
 
 ## -parameters
 ### -param deviceId
-The [DeviceInformation]( http://go.microsoft.com/fwlink/p/?LinkID=296709) ID that identifies the HID device.
+The [DeviceInformation](/uwp/api/Windows.Devices.Enumeration.DeviceInformation) ID that identifies the HID device.
 
 ### -param accessMode
 Specifies the access mode. The supported access modes are Read and ReadWrite.
@@ -27,6 +27,8 @@ A **HidDevice** object.  If HID device capabilities are absent or incorrect, thi
 The first time this method is invoked by a store app, it should be called from a UI thread in order to display the consent prompt. After the user has granted consent, the method can be invoked from any application thread.
 
 The application manifest must declare HID device capabilities before invoking this method. If HID device capabilities are missing or incorrectly specified, the returned value will be `null` and no exception will be thrown.
+
+The device must be opened with [FileAccessMode.ReadWrite](../windows.storage/fileaccessmode.md) to call [SendOutputReportAsync](hiddevice_sendoutputreportasync_1405795481.md) or the call will fail with a `System.UnauthorizedAccessException: Access is denied. (Excep_FromHResult 0x80070005)` exception. To call [SendFeatureReportAsync](hiddevice_sendfeaturereportasync_25126117.md), [GetFeatureReportAsync](hiddevice_getfeaturereportasync_706664006.md) or [GetInputReportAsync](hiddevice_getinputreportasync_2092816092.md), the device must be opened with either [FileAccessMode.Read](../windows.storage/fileaccessmode.md) or [FileAccessMode.ReadWrite](../windows.storage/fileaccessmode.md)
 
 ## -examples
 

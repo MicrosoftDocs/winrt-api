@@ -12,7 +12,6 @@ public PivotItemAutomationPeer(Windows.UI.Xaml.Controls.PivotItem owner)
 ## -description
 Initializes a new instance of the [PivotItemAutomationPeer](pivotitemautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.PivotItemAutomationPeer.PivotItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.pivotitemautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

@@ -15,8 +15,6 @@ Provides the result of an attempt to change an app's execution state (such as fr
 ## -remarks
 
 ## -see-also
-[AppResourceGroupInfo.StartResumeAsync](appresourcegroupinfo_startresumeasync_33622166.md)
-[AppResourceGroupInfo.StartSuspendAsync](appresourcegroupinfo_startsuspendasync_14116800.md)
-[AppResourceGroupInfo.StartTerminateAsync](appresourcegroupinfo_startterminateasync_808786991.md)
+[AppResourceGroupInfo.StartResumeAsync](appresourcegroupinfo_startresumeasync_33622166.md), [AppResourceGroupInfo.StartSuspendAsync](appresourcegroupinfo_startsuspendasync_14116800.md), [AppResourceGroupInfo.StartTerminateAsync](appresourcegroupinfo_startterminateasync_808786991.md)
 
 ## -examples

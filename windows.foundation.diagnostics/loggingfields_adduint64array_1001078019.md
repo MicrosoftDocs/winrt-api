@@ -24,4 +24,4 @@ The value for the event field.
 ## -examples
 
 ## -see-also
-[AddUInt64Array(String, UInt64[], LoggingFieldFormat)](loggingfields_adduint64array_1962131481.md), [AddUInt64Array(String, UInt64[], LoggingFieldFormat, Int32)](loggingfields_adduint64array_1362360871.md)
+[AddUInt64Array(String, UInt64\[\], LoggingFieldFormat)](loggingfields_adduint64array_1962131481.md), [AddUInt64Array(String, UInt64\[\], LoggingFieldFormat, Int32)](loggingfields_adduint64array_1362360871.md)

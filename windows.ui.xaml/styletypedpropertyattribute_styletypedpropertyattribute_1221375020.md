@@ -12,7 +12,6 @@ public StyleTypedPropertyAttribute()
 ## -description
 Initializes a new instance of the [StyleTypedPropertyAttribute](styletypedpropertyattribute.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.StyleTypedPropertyAttribute.StyleTypedPropertyAttribute](/windows/winui/api/microsoft.ui.xaml.styletypedpropertyattribute.#ctor).
 
 ## -remarks
 

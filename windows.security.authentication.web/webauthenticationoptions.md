@@ -17,7 +17,7 @@ Contains the options available to the asynchronous operation.
 No options are requested.
 
 ### -field SilentMode:1
-Tells the web authentication broker to not render any UI. This option will throw an exception if used with [AuthenticateAndContinue](webauthenticationbroker_authenticateandcontinue_ol.md); [AuthenticateSilentlyAsync](webauthenticationbroker_authenticatesilentlyasync_ol.md), which includes this option implicitly, should be used instead.
+Tells the web authentication broker to not render any UI. This option will throw an exception if used with [AuthenticateAndContinue](webauthenticationbroker_authenticateandcontinue_1571442307.md); [AuthenticateSilentlyAsync](webauthenticationbroker_authenticatesilentlyasync_444210422.md), which includes this option implicitly, should be used instead.
 
 ### -field UseTitle:2
 Tells the web authentication broker to return the window title string of the webpage in the [ResponseData](webauthenticationresult_responsedata.md) property.

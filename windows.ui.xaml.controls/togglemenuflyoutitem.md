@@ -12,7 +12,6 @@ public class ToggleMenuFlyoutItem : Windows.UI.Xaml.Controls.MenuFlyoutItem, Win
 ## -description
 Represents an item in a [MenuFlyout](menuflyout.md) that a user can change between two states, checked or unchecked.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem](/windows/winui/api/microsoft.ui.xaml.controls.togglemenuflyoutitem).
 
 ## -xaml-syntax
 ```xaml
@@ -54,9 +53,9 @@ This table shows the resources used by the ToggleMenuFlyoutItem control.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Menus and context menus](/windows/uwp/design/controls-and-patterns/menus).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ToggleMenuFlyoutItem in action](xamlcontrolsgallery:/item/MenuFlyout).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ToggleMenuFlyoutItem in action](winui2gallery:/item/MenuFlyout).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 ## -see-also
 [MenuFlyout](menuflyout.md), [MenuFlyoutItem](menuflyoutitem.md), [ToggleMenuFlyoutItem styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles)

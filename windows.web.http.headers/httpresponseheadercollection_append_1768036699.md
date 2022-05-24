@@ -24,4 +24,3 @@ The item value to add.
 ## -examples
 
 ## -see-also
-[Add(KeyValuePair)](httpresponseheadercollection_add_1.md), [Add(String)](httpresponseheadercollection_add_2.md)

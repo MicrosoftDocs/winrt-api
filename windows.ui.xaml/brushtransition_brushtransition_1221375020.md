@@ -13,7 +13,6 @@ public BrushTransition.BrushTransition()
 ## -description
 Initializes a new instance of the BrushTransition class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.BrushTransition.BrushTransition](/windows/winui/api/microsoft.ui.xaml.brushtransition.#ctor).
 
 ## -remarks
 

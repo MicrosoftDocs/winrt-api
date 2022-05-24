@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler PointerLost<Windows.UI.Input.I
 # Windows.UI.Input.Inking.Core.CoreInkIndependentInputSource.PointerLost
 
 ## -description
+
 Occurs as a pointer is no longer detected in, or over, the hit test, or bounding, area of the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) associated with the [InkPresenter](coreinkindependentinputsource_inkpresenter.md) object.
 
 Typically, a pointer is lost if the contact moves outside the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control or the contact is captured by another element.
@@ -19,4 +20,5 @@ Typically, a pointer is lost if the contact moves outside the [InkCanvas](../win
 ## -examples
 
 ## -see-also
+
 [Pen and stylus interactions](/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Ink sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink), [Simple ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620314)

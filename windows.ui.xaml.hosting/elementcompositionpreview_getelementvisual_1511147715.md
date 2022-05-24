@@ -16,7 +16,7 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.Hosting.ElementCompositionPreview.Ge
 
 ## -parameters
 ### -param element
-The element to retrieve the [Visual](../windows.ui.composition/visual.md) for.
+The element for which to retrieve the [Visual](../windows.ui.composition/visual.md).
 
 ## -returns
 The [Windows.UI.Composition.Visual](../windows.ui.composition/visual.md) object that backs the XAML element.

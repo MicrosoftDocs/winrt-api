@@ -13,7 +13,6 @@ public class FontIcon : Windows.UI.Xaml.Controls.IconElement, Windows.UI.Xaml.Co
 
 Represents an icon that uses a glyph from the specified font.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.FontIcon](/windows/winui/api/microsoft.ui.xaml.controls.fonticon).
 
 ## -xaml-syntax
 
@@ -35,9 +34,9 @@ You can set the [MirroredWhenRightToLeft](fonticon_mirroredwhenrighttoleft.md) p
 > [!TIP]
 > For more info, design guidance, and code examples, see [Command bar](/windows/uwp/controls-and-patterns/app-bars).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the FontIcon in action](xamlcontrolsgallery:/item/AppBarButton).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the FontIcon in action](winui2gallery:/item/AppBarButton).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This example shows an [AppBarToggleButton](appbartogglebutton.md) with a FontIcon.
 

@@ -21,8 +21,8 @@ See [Request a maps authentication key](/windows/uwp/maps-and-location/authentic
 
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
-| 1703 | 15063 | GetDrivingRouteFromEnhancedWaypointsAsync(IEnumerable<EnhancedWaypoint>) |
-| 1703 | 15063 | GetDrivingRouteFromEnhancedWaypointsAsync(IEnumerable<EnhancedWaypoint>,MapRouteDrivingOptions) |
+| 1703 | 15063 | GetDrivingRouteFromEnhancedWaypointsAsync(IEnumerable&lt;EnhancedWaypoint&gt;) |
+| 1703 | 15063 | GetDrivingRouteFromEnhancedWaypointsAsync(IEnumerable&lt;EnhancedWaypoint&gt;,MapRouteDrivingOptions) |
 
 ## -examples
 

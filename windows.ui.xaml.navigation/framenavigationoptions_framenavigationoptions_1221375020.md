@@ -14,7 +14,6 @@ public FrameNavigationOptions.FrameNavigationOptions()
 
 Initializes a new instance of the [FrameNavigationOptions](framenavigationoptions.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.FrameNavigationOptions](/windows/winui/api/microsoft.ui.xaml.navigation.framenavigationoptions.#ctor).
 
 ## -remarks
 

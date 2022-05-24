@@ -36,7 +36,7 @@ A [TypeKind](/uwp/api/windows.ui.xaml.interop.typekind) value containing basic g
 
 ### Projection and members of TypeName
 
-If you are using Visual C++ component extensions (C++/CX), then [Name](typename_name.md) and [Kind](typename_kind.md) are read-write properties, not fields. This definition of the structure is provided by platform.winmd, as part of the extension behavior.
+If you are using Visual C++ component extensions (C++/CX), then **Name** and **Kind** are read-write properties, not fields. This definition of the structure is provided by platform.winmd, as part of the extension behavior.
 
 If you are programming with C++ using the Windows Runtime Template Library (WRL), then **Name** and **Kind** are fields.
 

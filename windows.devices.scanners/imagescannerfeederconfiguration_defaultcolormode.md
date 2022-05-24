@@ -10,7 +10,7 @@ public Windows.Devices.Scanners.ImageScannerColorMode DefaultColorMode { get; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.DefaultColorMode
 
 ## -description
-Gets the default color mode for the scanner's Feeder.
+Gets the default color mode for the scanner's feeder.
 
 ## -property-value
 The color mode.

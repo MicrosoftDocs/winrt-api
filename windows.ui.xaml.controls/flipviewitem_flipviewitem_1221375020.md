@@ -12,7 +12,6 @@ public FlipViewItem()
 ## -description
 Initializes a new instance of the [FlipViewItem](flipviewitem.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.FlipViewItem.FlipViewItem](/windows/winui/api/microsoft.ui.xaml.controls.flipviewitem.#ctor).
 
 ## -remarks
 

@@ -18,8 +18,6 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.DependencyObjectCollection.Size](/
 The count of items in the collection.
 
 ## -remarks
-> [!NOTE]
-> The equivalent Microsoft .NET  API is [Count](dependencyobjectcollection_count.md).
 
 ## -examples
 

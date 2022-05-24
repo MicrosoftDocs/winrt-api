@@ -14,7 +14,6 @@ public XamlLight.XamlLight()
 
 Initializes a new instance of the **XamlLight** class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.XamlLight.XamlLight](/windows/winui/api/microsoft.ui.xaml.media.xamllight.#ctor).
 
 ## -remarks
 

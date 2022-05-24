@@ -20,15 +20,15 @@ The name (or path relative to the current folder) of the file to get.
 When this method completes successfully, it returns a [StorageFile](storagefile.md) that represents the specified file.
 
 ## -exceptions
-### System.IO.FileNotFoundException
+### T:System.IO.FileNotFoundException
 
 The specified file does not exist. Check the value of *name*.
 
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to access the specified file. For more information, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
-### System.ArgumentException
+### T:System.ArgumentException
 
 The path cannot be in Uri format (for example, /image.jpg). Check the value of *name*.
 

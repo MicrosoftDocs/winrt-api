@@ -29,7 +29,7 @@ Information about the property to be animated.
 
 ## -see-also
 
-[UIElement.StartAnimation](uielement_startanimation_466567403.md)
+[UIElement.StartAnimation](uielement_startanimation_1375408558.md)
 
 ## -examples
 

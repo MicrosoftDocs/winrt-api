@@ -12,8 +12,6 @@ virtual protected void OnCachedFileUpdaterActivated(Windows.ApplicationModel.Act
 ## -description
 Invoked when the application is activated due to an activation contract with [ActivationKind](../windows.applicationmodel.activation/activationkind.md) as **CachedFileUpdater**.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Application.OnCachedFileUpdaterActivated](/windows/winui/api/microsoft.ui.xaml.application.oncachedfileupdateractivated).
-
 ## -parameters
 ### -param args
 Event data for the event.

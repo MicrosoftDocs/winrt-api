@@ -12,7 +12,6 @@ public void SetPlaybackSource(Windows.Media.Playback.IMediaPlaybackSource source
 ## -description
 Sets the source of the [MediaElement](mediaelement.md) to the specified media playback source.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaElement.SetPlaybackSource](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.setplaybacksource).
 
 ## -parameters
 ### -param source

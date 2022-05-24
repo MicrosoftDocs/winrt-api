@@ -21,7 +21,7 @@ Use **Remove** if you need to delete a property from the [DataPackagePropertySet
 
 For more info, see [IMapView(String, Object)](../windows.foundation.collections/imapview_2.md).
 
-For the C# and Microsoft Visual Basic version of the **Remove(String)** method, see [Remove](datapackagepropertyset_remove_2.md).
+For the C# and Microsoft Visual Basic version of the **Remove(String)** method, see [Remove](/uwp/api/windows.applicationmodel.datatransfer.datapackagepropertyset.remove).
 
 ## -examples
 

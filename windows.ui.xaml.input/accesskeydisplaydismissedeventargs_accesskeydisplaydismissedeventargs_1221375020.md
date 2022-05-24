@@ -12,7 +12,6 @@ public AccessKeyDisplayDismissedEventArgs()
 ## -description
 Initializes a new instance of the [AccessKeyDisplayDismissedEventArgs](accesskeydisplaydismissedeventargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.AccessKeyDisplayDismissedEventArgs.AccessKeyDisplayDismissedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.accesskeydisplaydismissedeventargs.#ctor).
 
 ## -remarks
 

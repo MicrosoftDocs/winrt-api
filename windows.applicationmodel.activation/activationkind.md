@@ -136,6 +136,19 @@ The app was launched from the command line. Introduced in Windows 10, version 17
 ### -field BarcodeScannerProvider:1022
 The app was activated as a barcode scanner provider. 
 
+### -field PrintSupportJobUI: 1023
+The app was activated as a print support settings UI extension. For more information, see For more information, see [PrintWorkflowJobUISession](../windows.graphics.printing.workflow/printworkflowjobuisession.md).
+
+### -field PrintSupportSettingsUI: 1024
+The app was activated as a print workflow job UI extension. For more information, see [PrintSupportSettingsUISession](../windows.graphics.printing.printsupport/printsupportsettingsuisession.md).
+
+### -field PhoneCallActivation: 1025
+The app was activated in response to a phone call.
+
+
+### -field VpnForeground: 1026
+The app is a VPN foreground app that was activated by the plugin. For more details, see [VpnChannel.ActivateForeground](../windows.networking.vpn/ivpnplugin_encapsulate_494498240.md).
+
 ## -remarks
 Values are mutually exclusive and cannot be combined. Each one relates to a different type of activation, and an app instance can be activated in only one way at a time.
 

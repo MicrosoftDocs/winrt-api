@@ -10,7 +10,7 @@ public int GetColumn(Windows.UI.Xaml.FrameworkElement element)
 # Windows.UI.Xaml.Controls.Grid.GetColumn
 
 ## -description
-Gets the value of the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property from the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
+Gets the value of the [Grid.Column](grid_column.md) XAML attached property from the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Grid.GetColumn](/windows/winui/api/microsoft.ui.xaml.controls.grid.getcolumn).
 
@@ -19,10 +19,10 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Grid.GetColumn](/windows/wi
 The element from which to read the property value.
 
 ## -returns
-The value of the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property on the target element. This is a zero-based index.
+The value of the [Grid.Column](grid_column.md) XAML attached property on the target element. This is a zero-based index.
 
 ## -remarks
-This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property in XAML and won't need this method. For more info, see the [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) XAML attached property.
+This method is a utility method for the property system, and isn't used in most app scenarios. In most cases you set the [Grid.Column](grid_column.md) XAML attached property in XAML and won't need this method. For more info, see the [Grid.Column](grid_column.md) XAML attached property.
 
 ## -examples
 The following example shows how to get the row and column of the element that raised an event.
@@ -52,4 +52,5 @@ The following example shows how to get the row and column of the element that ra
  -->
 
 ## -see-also
-[Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties)
+
+[Grid.Column](grid_column.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

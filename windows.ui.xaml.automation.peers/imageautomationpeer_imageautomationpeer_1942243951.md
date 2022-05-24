@@ -12,7 +12,6 @@ public ImageAutomationPeer(Windows.UI.Xaml.Controls.Image owner)
 ## -description
 Initializes a new instance of the [ImageAutomationPeer](imageautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.ImageAutomationPeer.ImageAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.imageautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

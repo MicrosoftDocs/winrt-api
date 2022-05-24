@@ -12,7 +12,6 @@ public PopupThemeTransition()
 ## -description
 Initializes a new instance of the [PopUpThemeTransition](popupthemetransition.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.PopupThemeTransition.PopupThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.popupthemetransition.#ctor).
 
 ## -remarks
 

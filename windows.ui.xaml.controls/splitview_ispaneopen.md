@@ -26,12 +26,13 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.IsPaneOpen](/wi
 **true** if the pane is expanded to its full width; otherwise, **false**. The default is **true**.
 
 ## -remarks
-The effects of this property are influenced by the value of the [DisplayMode](splitview_displaymode.md) property. <table>
-   <tr><th>DisplayMode</th><th>Effect</th></tr>
-   <tr><td>**Inline**</td><td>IsPaneOpen is **true**.</td></tr>
-   <tr><td>**Overlay**</td><td>When IsPaneOpen is **false**, the pane is hidden.</td></tr>
-   <tr><td>**Compact**</td><td>When IsPaneOpen is **false**, the pane is shown in its compact size (see [CompactPaneLength](splitview_compactpanelength.md)).</td></tr>
-</table>
+The effects of this property are influenced by the value of the [DisplayMode](splitview_displaymode.md) property. 
+
+| DisplayMode | Effect |
+|---|---|
+| **Inline** | IsPaneOpen is **true**. |
+| **Overlay** | When IsPaneOpen is **false**, the pane is hidden. |
+| **Compact** | When IsPaneOpen is **false**, the pane is shown in its compact size (see [CompactPaneLength](splitview_compactpanelength.md)). |
 
 ## -examples
 

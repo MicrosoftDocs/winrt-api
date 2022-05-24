@@ -12,7 +12,6 @@ protected ObjectKeyFrame()
 ## -description
 Provides base class initialization behavior for [ObjectKeyFrame](objectkeyframe.md)-derived classes.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrame.ObjectKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframe.#ctor).
 
 ## -remarks
 

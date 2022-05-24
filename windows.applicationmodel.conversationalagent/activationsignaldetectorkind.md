@@ -31,6 +31,6 @@ Audio input has hit a signal threshold (for example, voice activity detection).
 
 ## -see-also
 
-[ActivationSignalDetector.Kind](activationsignaldetector_kind.md)
+[ActivationSignalDetector.Kind](activationsignaldetector_kind.md), [ConversationalAgentSignal.DetectorKind](conversationalagentsignal_detectorkind.md)
 
 ## -examples

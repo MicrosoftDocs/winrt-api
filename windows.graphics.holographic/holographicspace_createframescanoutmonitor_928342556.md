@@ -23,8 +23,6 @@ The caller is responsible for calling [ReadReports](holographicframescanoutmonit
 
 ## -see-also
 
-[HolographicFrameScanoutReport](holographicframescanoutreport.md)
-[ReadReports](holographicframescanoutmonitor_readreports_231406138.md)
+[HolographicFrameScanoutReport](holographicframescanoutreport.md), [ReadReports](holographicframescanoutmonitor_readreports_231406138.md)
 
 ## -examples
-

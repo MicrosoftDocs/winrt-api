@@ -18,7 +18,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.PropertyPath.Path](/windows/winui/
 The path value held by this [PropertyPath](propertypath.md).
 
 ## -remarks
-To establish a value for [Path](propertypath_path_1221375020.md), create a new [PropertyPath](propertypath.md) using the [PropertyPath(String)](propertypath_propertypath_290278668.md) constructor.
+To establish a value for [Path](propertypath_path.md), create a new [PropertyPath](propertypath.md) using the [PropertyPath(String)](propertypath_propertypath_290278668.md) constructor.
 
 ## -examples
 

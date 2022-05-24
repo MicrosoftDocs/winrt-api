@@ -12,7 +12,6 @@ protected XamlRenderingBackgroundTask()
 ## -description
 Initializes a new instance of the [XamlRenderingBackgroundTask](xamlrenderingbackgroundtask.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Imaging.XamlRenderingBackgroundTask.XamlRenderingBackgroundTask](/windows/winui/api/microsoft.ui.xaml.media.imaging.xamlrenderingbackgroundtask.#ctor).
 
 ## -remarks
 > [!IMPORTANT]

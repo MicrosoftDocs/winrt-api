@@ -13,7 +13,6 @@ public DateTime XamlDirect.GetDateTimeProperty(IXamlDirectObject xamlDirectObjec
 ## -description
 Gets the value of a _DateTimeOffset_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetDateTimeProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getdatetimeproperty).
 
 ## -parameters
 ### -param xamlDirectObject

@@ -25,6 +25,6 @@ This is achieved through a series of [ActivationSignalDetectionConfiguration](ac
 
 ## -see-also
 
-[ActivationSignalDetector](activationsignaldetector.md), [ApplyTrainingData](activationsignaldetectionconfiguration_applytrainingdata_740648587.md), [ApplyTrainingDataAsync](activationsignaldetectionconfiguration_applytrainingdataasync_907910427.md)
+[TrainingStepsCompleted](activationsignaldetectionconfiguration_trainingstepscompleted.md), [TrainingStepCompletionMaxAllowedTime](activationsignaldetectionconfiguration_trainingstepcompletionmaxallowedtime.md), [ActivationSignalDetector](activationsignaldetector.md), [ApplyTrainingData](activationsignaldetectionconfiguration_applytrainingdata_740648587.md), [ApplyTrainingDataAsync](activationsignaldetectionconfiguration_applytrainingdataasync_907910427.md)
 
 ## -examples

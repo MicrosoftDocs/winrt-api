@@ -18,8 +18,6 @@ The number of objects in the [HttpContentHeaderCollection](httpcontentheadercoll
 ## -remarks
 The Size property returns the true number of items.
 
-If you are programming using C# or Microsoft Visual Basic, the equivalent method is [Count](httpcontentheadercollection_count.md).
-
 ## -examples
 
 ## -see-also

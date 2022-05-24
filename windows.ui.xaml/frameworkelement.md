@@ -12,7 +12,6 @@ public class FrameworkElement : Windows.UI.Xaml.UIElement, Windows.UI.Xaml.IFram
 ## -description
 Provides a base element class for Windows Runtime UI objects. FrameworkElement defines common API that support UI interaction and the automatic layout system. FrameworkElement  also defines API related to data binding, defining and examining the object tree, and tracking object lifetime.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.FrameworkElement](/windows/winui/api/microsoft.ui.xaml.frameworkelement).
 
 ## -remarks
 FrameworkElement is a base element: it's a class that many other Windows Runtime classes inherit from in order to support the XAML UI element model. Properties, methods and events that FrameworkElement defines are inherited by hundreds of other Windows Runtime classes.

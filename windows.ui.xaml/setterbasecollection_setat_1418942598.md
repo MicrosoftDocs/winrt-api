@@ -27,9 +27,9 @@ The value to set.
 
 
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [Item](setterbasecollection_item.md) (the indexer).
+> The equivalent Microsoft .NET API is [Item](/dotnet/api/system.collections.objectmodel.collection-1.item) (the indexer).
 
 ## -examples
 
 ## -see-also
-[Item](setterbasecollection_item.md)
+[Item](/dotnet/api/system.collections.objectmodel.collection-1.item)

@@ -10,7 +10,7 @@ public bool IsAutoCroppingModeSupported(Windows.Devices.Scanners.ImageScannerAut
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.IsAutoCroppingModeSupported
 
 ## -description
-Returns whether the scanner's Feeder supports the specified [ImageScannerAutoCroppingMode](imagescannerautocroppingmode.md).
+Returns whether the scanner's feeder supports the specified [ImageScannerAutoCroppingMode](imagescannerautocroppingmode.md).
 
 ## -parameters
 ### -param value

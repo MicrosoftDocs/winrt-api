@@ -17,8 +17,6 @@ A 64-bit integer value uniquely identifying a **HolographicFrame**.
 
 ## -see-also
 
-[HolographicFrame](holographicframe.md)
-[HolographicSpace](holographicspace.md)
+[HolographicFrame](holographicframe.md), [HolographicSpace](holographicspace.md)
 
 ## -examples
-

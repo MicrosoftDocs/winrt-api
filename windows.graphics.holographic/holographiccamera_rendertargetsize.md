@@ -15,7 +15,7 @@ public Windows.Foundation.Size RenderTargetSize { get; }
 Gets the dimensions in pixels of the back buffers allocated for this camera.
 
 ## -property-value
-The width and height of the [HolographicCamera](holographiccamera) render target.
+The width and height of the [HolographicCamera](holographiccamera.md) render target.
 
 ## -remarks
 Each frame, your application may set [ViewportScaleFactor](holographiccamera_viewportscalefactor.md) to decide how much of the back buffer to use for rendering.  The system will scale the rendered image to fill the display.

@@ -14,7 +14,6 @@ public UIElementWeakCollection.UIElementWeakCollection()
 
 Initializes a new instance of the [UIElementWeakCollection](uielementweakcollection.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.UIElementWeakCollection.UIElementWeakCollection](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.#ctor).
 
 ## -remarks
 

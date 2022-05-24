@@ -12,7 +12,6 @@ public DropTargetItemThemeAnimation()
 ## -description
 Initializes a new instance of the [DropTargetItemThemeAnimation](droptargetitemthemeanimation.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DropTargetItemThemeAnimation.DropTargetItemThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.droptargetitemthemeanimation.#ctor).
 
 ## -remarks
 

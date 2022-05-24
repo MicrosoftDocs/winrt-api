@@ -12,7 +12,6 @@ public AdaptiveTrigger()
 ## -description
 Initializes a new instance of the [AdaptiveTrigger](adaptivetrigger.md) class
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.AdaptiveTrigger.AdaptiveTrigger](/windows/winui/api/microsoft.ui.xaml.adaptivetrigger.#ctor).
 
 ## -remarks
 

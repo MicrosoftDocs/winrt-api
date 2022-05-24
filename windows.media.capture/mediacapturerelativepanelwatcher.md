@@ -11,13 +11,13 @@ Monitors the panel associated with a [DisplayRegion](/uwp/api/windows.ui.windowm
 
 This API is intended for camera-based scenarios on hinged devices for which the relative location of a display region can change at runtime, allowing apps to modify their camera capture behavior dynamically.
 
-Get an instance of this class by calling [MediaCapture.CreateRelativePanelWatcher](mediacapture_createrelativepanelwatcher_958015644).
+Get an instance of this class by calling [MediaCapture.CreateRelativePanelWatcher](mediacapture_createrelativepanelwatcher_958015644.md).
 
 
 
 ## -see-also
 
-[MediaCapture.CreateRelativePanelWatcher](mediacapture_createrelativepanelwatcher_958015644)
+[MediaCapture.CreateRelativePanelWatcher](mediacapture_createrelativepanelwatcher_958015644.md)
 [DisplayRegion](/uwp/api/windows.ui.windowmanagement.displayregion)
 
 ## -examples

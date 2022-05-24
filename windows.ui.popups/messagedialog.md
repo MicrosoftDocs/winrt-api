@@ -11,24 +11,21 @@ public class MessageDialog : Windows.UI.Popups.IMessageDialog
 
 ## -description
 
-Represents a dialog for showing messages to the user. 
+Represents a dialog for showing messages to the user.
 
-## -remarks
+In a desktop app, before using an instance of this class in a way that displays UI, you'll need to associate the object with its owner's window handle. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
 
 > [!IMPORTANT]
 > You should use MessageDialog only when you are upgrading a Universal Windows 8.x app that uses MessageDialog, and need to minimize changes or if your app isn't XAML. For new XAML apps in Windows 10+, we recommend using the [ContentDialog](./../windows.ui.xaml.controls/contentdialog.md) control instead.
 
-<!-- confirmed -->
+## -remarks
+
 > [!NOTE]
 > This class is not agile, which means that you need to consider its threading model and marshaling behavior. For more info, see [Threading and Marshaling (C++/CX)](/cpp/cppcx/threading-and-marshaling-c-cx) and [Using Windows Runtime objects in a multithreaded environment (.NET)](/windows/uwp/threading-async/using-windows-runtime-objects-in-a-multithreaded-environment).
 
-The dialog has a command bar that can support up to 3 commands in desktop apps, or 2 commands in mobile apps. If you don't specify any commands, then a default command is added to close the dialog.
+The dialog has a command bar that can support up to three commands in desktop apps, or two commands in mobile apps. If you don't specify any commands, then a default command is added to close the dialog. The dialog dims the screen behind it, and blocks touch events from passing to the app's canvas until the user responds.
 
-The dialog dims the screen behind it and blocks touch events from passing to the app's canvas until the user responds.
-
-Message dialogs should be used sparingly, and only for critical messages or simple questions that must block the user's flow.
-
-Here's an example of a dialog created by the code in the Examples section.
+Message dialogs should be used sparingly, and only for critical messages or simple questions that must block the user's flow. Here's an example of a dialog created by the code in the **Examples** section.
 
 <img src="images/MessageDialogWithTwoCommands.png" alt="Message dialog with two commands" />
 
@@ -224,4 +221,4 @@ End Class
 
 ## -see-also
 
-[Message dialog sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Message%20dialog%20sample), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570)
+[Message dialog sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Message%20dialog%20sample), [Message dialog sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620570), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)

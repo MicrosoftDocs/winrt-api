@@ -18,4 +18,4 @@ After creating a **TimeTextCue**, you can add it to a [TimedMetadataTrack](timed
 ## -examples
 
 ## -see-also
-[ITimedTextCue](itimedtextcue.md), [IMediaCue](imediacue.md), [TimedMetadataTrack](timedmetadatatrack.md)
+[IMediaCue](imediacue.md), [TimedMetadataTrack](timedmetadatatrack.md)

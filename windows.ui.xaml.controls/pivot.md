@@ -13,7 +13,6 @@ public class Pivot : Windows.UI.Xaml.Controls.ItemsControl, Windows.UI.Xaml.Cont
 
 Represents a control that provides quick navigation of views within an app.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Pivot](/windows/winui/api/microsoft.ui.xaml.controls.pivot).
 
 ## -xaml-syntax
 
@@ -82,7 +81,7 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| SlideInAnimationGroup | Gets or sets the slide-in animation group of a child element in a Pivot container.<ul><li>Type: [PivotSlideInAnimationGroup](pivotslideinanimationgroup.md)</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.pivot.slideinanimationgroupproperty">SlideInAnimationGroupProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.pivot.getslideinanimationgroup">GetSlideInAnimationGroup</a>, <a href="/uwp/api/windows.ui.xaml.controls.pivot.setslideinanimationgroup">SetSlideInAnimationGroup</a></li></ul> |
+| [SlideInAnimationGroup](pivot_slideinanimationgroup.md) | Gets or sets the slide-in animation group of a child element in a Pivot container. |
 
 ### Version history
 
@@ -96,9 +95,9 @@ In order to support XAML processor access to the attached properties, and also t
 > [!TIP]
 > For more info, design guidance, and code examples, see [Pivot](/windows/uwp/design/controls-and-patterns/pivot).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Pivot in action](xamlcontrolsgallery:/item/Pivot).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the Pivot in action](winui2gallery:/item/Pivot).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 For more examples, see the [Pivot sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlPivot).
 

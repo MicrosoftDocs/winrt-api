@@ -10,7 +10,7 @@ public int MaxContrast { get; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.MaxContrast
 
 ## -description
-Gets the maximum contrast level supported by the scanner's Feeder.
+Gets the maximum contrast level supported by the scanner's feeder.
 
 ## -property-value
 The maximum contrast level, typically 1000.

@@ -13,7 +13,6 @@ public DesktopWindowXamlSource.DesktopWindowXamlSource()
 ## -description
 Initializes a new instance of the [DesktopWindowXamlSource](desktopwindowxamlsource.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Hosting.DesktopWindowXamlSource.DesktopWindowXamlSource](/windows/winui/api/microsoft.ui.xaml.hosting.desktopwindowxamlsource.#ctor).
 
 ## -remarks
 

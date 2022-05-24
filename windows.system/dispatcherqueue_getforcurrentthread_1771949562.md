@@ -12,10 +12,9 @@ public DispatcherQueue DispatcherQueue.GetForCurrentThread()
 ## -description
 Gets the **DispatcherQueue** associated with the current thread.
 
-Equivalent WinUI method: [Microsoft.System.DispatcherQueue.GetForCurrentThread](/windows/winui/api/microsoft.system.dispatcherqueue.getforcurrentthread).
-
 ## -returns
-A **DispatcherQueue** instance that will execute tasks serially on the current thread.
+A **DispatcherQueue** instance that will execute tasks serially on the current thread,
+or null if no such **DispatcherQueue** exists.
 
 ## -remarks
 

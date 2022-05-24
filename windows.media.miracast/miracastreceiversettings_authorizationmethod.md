@@ -24,8 +24,6 @@ By default, the authorization method is only used the first time a Miracast Tran
 
 ## -see-also
 
-[MiracastReceiverAuthorizationMethod](miracastreceiverauthorizationmethod.md),
-[RequireAuthorizationFromKnownTransmitters](miracastreceiversettings_requireauthorizationfromknowntransmitters.md)
+[MiracastReceiverAuthorizationMethod](miracastreceiverauthorizationmethod.md), [RequireAuthorizationFromKnownTransmitters](miracastreceiversettings_requireauthorizationfromknowntransmitters.md)
 
 ## -examples
-

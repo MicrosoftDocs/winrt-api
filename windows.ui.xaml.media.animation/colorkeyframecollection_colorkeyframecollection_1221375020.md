@@ -12,7 +12,6 @@ public ColorKeyFrameCollection()
 ## -description
 Initializes a new instance of the [ColorKeyFrameCollection](colorkeyframecollection.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.ColorKeyFrameCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframecollection.#ctor).
 
 ## -remarks
 

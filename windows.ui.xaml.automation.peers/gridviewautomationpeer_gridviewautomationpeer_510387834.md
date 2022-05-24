@@ -12,7 +12,6 @@ public GridViewAutomationPeer(Windows.UI.Xaml.Controls.GridView owner)
 ## -description
 Initializes a new instance of the [GridViewAutomationPeer](gridviewautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.GridViewAutomationPeer.GridViewAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.gridviewautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

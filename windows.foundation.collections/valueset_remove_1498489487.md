@@ -17,9 +17,8 @@ Removes an item from the value set.
 The key.
 
 ## -remarks
-Some functionality in this class is restricted to specific development languages. The parent topic, [ValueSet](valueset.md) class, indicates which members are accessible in specific languages. For functionality similar to this member, see [Remove(String)](valueset_remove_2.md) and [Remove(KeyValuePair)](valueset_remove_1.md).
+Some functionality in this class is restricted to specific development languages. The parent topic, [ValueSet](valueset.md) class, indicates which members are accessible in specific languages. 
 
 ## -examples
 
 ## -see-also
-[Remove(String)](valueset_remove_2.md), [Remove(KeyValuePair)](valueset_remove_1.md)

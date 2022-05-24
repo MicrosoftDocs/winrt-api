@@ -12,7 +12,7 @@ public string FontFamilyName { get; }
 
 ## -description
 
-Gets the font used for converting ink to text input in a text control (when [HandwritingView](..\windows.ui.xaml.controls\handwritingview.md) is enabled).
+Gets the font used for converting ink to text input in a text control (when [HandwritingView](../windows.ui.xaml.controls/handwritingview.md) is enabled).
 
 ## -property-value
 

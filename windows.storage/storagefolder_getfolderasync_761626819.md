@@ -20,15 +20,15 @@ The name (or path relative to the current folder) of the subfolder to get.
 When this method completes successfully, it returns a [StorageFolder](storagefolder.md) that represents the specified subfolder.
 
 ## -exceptions
-### System.IO.FileNotFoundException
+### T:System.IO.FileNotFoundException
 
 The specified folder does not exist. Check the value of *name*.
 
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to access the specified folder. For more information, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
-### System.ArgumentException
+### T:System.ArgumentException
 
 The path cannot be in Uri format (for example, /Assets). Check the value of *name*.
 

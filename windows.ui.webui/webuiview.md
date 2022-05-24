@@ -17,7 +17,7 @@ Represents a view (window) of the app to the application background script.
 
 Windows 10 web apps support an optional per-application background script that starts before any views are activated and runs for the duration of the process. With this, you can monitor and modify navigations, track state across navigations, monitor navigation errors, and run code before views are activated.
 
-When this background script is specified as the [StartPage](/uwp/schemas/appxpackage/appxmanifestschema2010-v2/element-application) in your [app manifest](/uwp/schemas/appxpackage/appx-package-manifest), each of the app's views (windows) are exposed to the script as instances of the `WebUIView` class, providing the same events, properties, and methods as a general (Win32) [WebView](../windows.web.ui/webuiview.md).
+When this background script is specified as the [StartPage](/uwp/schemas/appxpackage/appxmanifestschema2010-v2/element-application) in your [app manifest](/uwp/schemas/appxpackage/appx-package-manifest), each of the app's views (windows) are exposed to the script as instances of the `WebUIView` class, providing the same events, properties, and methods as a general (Win32) [WebView](/uwp/api/windows.ui.xaml.controls.webview).
 
 There are several differences between the HTML [webview](/microsoft-edge/hosting/webview) (x-ms-webview/MSHTMLWebViewElement) and the `WebUIView` class:
 
@@ -33,7 +33,7 @@ Any app activation with the background script as the StartPage will rely on the 
 
 ## -examples
 
-Your app can listen for the [NewWebUIViewCreated](../windows.ui.webui/webuiapplication_newwebuiviewcreated.md) event to intercept control of the navigation for a new view (exposed from [NewWebUIEventCreatedEventArgs.WebUIView](.\newwebuiviewcreatedeventargs_webuiview.md)):
+Your app can listen for the [NewWebUIViewCreated](../windows.ui.webui/webuiapplication_newwebuiviewcreated.md) event to intercept control of the navigation for a new view (exposed from [NewWebUIEventCreatedEventArgs.WebUIView](./newwebuiviewcreatedeventargs_webuiview.md)):
 
 ```javascript
 Windows.UI.WebUI.WebUIApplication.addEventListener("newwebuiviewcreated", newWebUIViewCreatedEventHandler);

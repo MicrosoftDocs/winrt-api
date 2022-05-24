@@ -24,4 +24,4 @@ The array values for the event field.
 ## -examples
 
 ## -see-also
-[AddBooleanArray(String, Boolean[], LoggingFieldFormat)](loggingfields_addbooleanarray_542220485.md), [AddBooleanArray(String, Boolean[], LoggingFieldFormat, Int32)](loggingfields_addbooleanarray_93428475.md)
+[AddBooleanArray(String, Boolean\[\], LoggingFieldFormat)](loggingfields_addbooleanarray_542220485.md), [AddBooleanArray(String, Boolean\[\], LoggingFieldFormat, Int32)](loggingfields_addbooleanarray_93428475.md)

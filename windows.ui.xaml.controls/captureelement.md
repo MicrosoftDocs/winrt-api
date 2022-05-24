@@ -12,7 +12,6 @@ public class CaptureElement : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.
 ## -description
  Renders a stream from a capture device, such as a camera or webcam.  CaptureElement is used in conjunction with the [Windows.Media.Capture.MediaCapture](../windows.media.capture/mediacapture.md) API, and must be hooked up in the code behind.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CaptureElement](/windows/winui/api/microsoft.ui.xaml.controls.captureelement).
 
 ## -xaml-syntax
 ```xaml

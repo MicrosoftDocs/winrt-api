@@ -12,7 +12,6 @@ public class VariableSizedWrapGrid : Windows.UI.Xaml.Controls.Panel, Windows.UI.
 ## -description
 Provides a grid-style layout panel where each tile/cell can be variable size based on content.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid](/windows/winui/api/microsoft.ui.xaml.controls.variablesizedwrapgrid).
 
 ## -xaml-syntax
 ```xaml
@@ -69,8 +68,8 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| ColumnSpan | Gets or sets a value that indicates the total number of columns that the element content spans within a parent VariableSizedWrapGrid.<ul><li>Type: int</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.columnspanproperty">ColumnSpanProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.getcolumnspan">GetColumnSpan</a>, <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.setcolumnspan">SetColumnSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of columns are treated as if they specified the total number and will span all columns.|
-| RowSpan | Gets or sets a value that indicates the total number of rows that the element content spans within a parent VariableSizedWrapGrid.<ul><li>Type: int</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.rowspanproperty">RowSpanProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.getrowspan">GetRowSpan</a>, <a href="/uwp/api/windows.ui.xaml.controls.variablesizedwrapgrid.setrowspan">SetRowSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of rows are treated as if they specified the total number and will span all rows.|
+| [ColumnSpan](variablesizedwrapgrid_columnspan.md) | Gets or sets a value that indicates the total number of columns that the element content spans within a parent VariableSizedWrapGrid. |
+| [RowSpan](variablesizedwrapgrid_rowspan.md) | Gets or sets a value that indicates the total number of rows that the element content spans within a parent VariableSizedWrapGrid. |
 
 > [!NOTE]
 > VariableSizedWrapGrid is not supported for use as the [ItemsPanel](itemscontrol_itemspanel.md) of a [ListView](listview.md) control. You can use it as the [ItemsPanel](itemscontrol_itemspanel.md) in a [GridView](gridview.md) or [ItemsControl](itemscontrol.md), but the content of a VariableSizedWrapGrid is not virtualized. This can reduce performance when you work with large data sets. For more info about virtualization, see [Optimize ListView and GridView](/windows/uwp/debug-test-perf/optimize-gridview-and-listview).
@@ -80,9 +79,9 @@ In order to support XAML processor access to the attached properties, and also t
 > [!TIP]
 > For more info, design guidance, and code examples, see [Layout panels](/windows/uwp/design/layout/layout-panels#variablesizedwrapgrid).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the VariableSizedWrapGrid in action](xamlcontrolsgallery:/item/VariableSizedWrapGrid).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the VariableSizedWrapGrid in action](winui2gallery:/item/VariableSizedWrapGrid).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 ## -see-also
 [Panel](panel.md), [Define layouts](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview), [Canvas](canvas.md), [Grid](grid.md), [ItemsWrapGrid](itemswrapgrid.md), [StackPanel](stackpanel.md), [WrapGrid](wrapgrid.md), [Controls list](/windows/uwp/design/controls-and-patterns/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)

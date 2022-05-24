@@ -10,7 +10,7 @@ public Windows.Devices.Scanners.ImageScannerResolution MaxResolution { get; }
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.MaxResolution
 
 ## -description
-Gets the maximum horizontal and vertical scan resolution of the scanner's Flatbed in DPI.
+Gets the maximum horizontal and vertical scan resolution of the scanner's flatbed in DPI.
 
 ## -property-value
 The horizontal and vertical resolution, in pixels.

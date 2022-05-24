@@ -23,7 +23,7 @@ The **MiracastTransmitter** to be removed.
 
 ## -see-also
 
-[ClearKnownTransmitters](miracastreceiver_clearknowntransmitters_1513662921),
+[ClearKnownTransmitters](miracastreceiver_clearknowntransmitters_1513662921.md),
 [MiracastTransmitter](miracasttransmitter.md)
 
 ## -examples

@@ -19,7 +19,7 @@ Indicates whether a user can sign out of the app, and whether to show the sign o
 **True** if the user can sign out and the sign out link should be shown in the app, otherwise **false**.
 
 ## -remarks
-An app that uses the [OnlineIdAuthenticator](onlineidauthenticator.md) class must show an option for the user to sign out. The sign out option must appear in the Settings charm, and the app must create a new page for its user account settings in Accounts. To see an example of how to add the sign out option and the account setting page, see the [Windows Account Authorization sample]( http://go.microsoft.com/fwlink/p/?linkid=251224).
+An app that uses the [OnlineIdAuthenticator](onlineidauthenticator.md) class must show an option for the user to sign out. The sign out option must appear in the Settings charm, and the app must create a new page for its user account settings in Accounts. To see an example of how to add the sign out option and the account setting page, see the [Windows Account Authorization sample](https://github.com/microsoft/VCSamples/tree/9e1d4475555b76a17a3568369867f1d7b6cc6126/VC2012Samples/Windows%208%20samples/C%2B%2B/Windows%208%20app%20samples/Windows%20account%20authorization%20sample%20(Windows%208)).
 
 If the user has a connected account, they can sign out by visiting the Users page in PC Settings.
 

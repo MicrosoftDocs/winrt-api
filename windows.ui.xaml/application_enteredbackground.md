@@ -12,8 +12,6 @@ public event Windows.UI.Xaml.EnteredBackgroundEventHandler EnteredBackground
 ## -description
 Occurs when the app moves from the foreground to the background.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Application.EnteredBackground](/windows/winui/api/microsoft.ui.xaml.application.enteredbackground).
-
 ## -remarks
 This event is fired when the user navigates away from the app. There is a limited amount of time that an event handler for this event can run. 
 
@@ -25,4 +23,4 @@ The EnteredBackground event runs in the apartment it was registered in.
 
 ## -see-also
 
-[Processes threads and apartments](/en-us/windows/win32/com/processes--threads--and-apartments)
+[Processes threads and apartments](/windows/win32/com/processes--threads--and-apartments)

@@ -12,7 +12,6 @@ public DragOverThemeAnimation()
 ## -description
 Initializes a new instance of the [DragOverThemeAnimation](dragoverthemeanimation.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DragOverThemeAnimation.DragOverThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.dragoverthemeanimation.#ctor).
 
 ## -remarks
 

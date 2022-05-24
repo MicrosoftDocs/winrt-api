@@ -15,7 +15,6 @@ Specifies the disambiguation strategy used for navigating between multiple candi
 > [!NOTE]
 > Other factors, such as the previously focused element or proximity to the axis of the navigation direction, can influence the navigation end result.
 
-Equivalent WinUI enum: [Microsoft.UI.Xaml.Input.XYFocusNavigationStrategy](/windows/winui/api/microsoft.ui.xaml.input.xyfocusnavigationstrategy).
 
 ## -enum-fields
 ### -field Auto:0

@@ -77,7 +77,7 @@ void MainPage::AddToolTip()
 void MainPage::AddButton()
 {
     // <SnippetBasicButtonCode>
-    // Create a new button, set it's content,
+    // Create a new button, set its content,
     // and add a Click event handler.
     Button^ button1 = ref new Button();
     button1->Content = "Button";
@@ -99,7 +99,7 @@ void MainPage::Button_Click(Object^ sender, RoutedEventArgs^ e)
 void MainPage::AddToggleButton()
 {
     // <SnippetBasicToggleButtonCode>
-    // Create a new toggle button, set it's content,
+    // Create a new toggle button, set its content,
     // and add a Checked event handler.
     ToggleButton^ toggleButton1 = ref new ToggleButton();
     toggleButton1->Content = "Button";
@@ -122,7 +122,7 @@ void MainPage::ToggleButton_Checked(Object^ sender, RoutedEventArgs^ e)
 void MainPage::AddRepeatButton()
 {
     // <SnippetBasicRepeatButtonCode>
-    // Create a new repeat button, set it's content,
+    // Create a new repeat button, set its content,
     // and add a Click event handler.
     RepeatButton^ repeatButton1 = ref new RepeatButton();
     repeatButton1->Content = "Repeat Button";
@@ -146,7 +146,7 @@ void MainPage::RepeatButton_Click(Object^ sender, RoutedEventArgs^ e)
 void MainPage::AddHyperlinkButton()
 {
     // <SnippetBasicHyperlinkButtonCode>
-    // Create a new button, set it's content,
+    // Create a new button, set its content,
     // and a Click event handler.
     HyperlinkButton^ hyperlinkButton1 = ref new HyperlinkButton();
     hyperlinkButton1->Content = "www.microsoft.com";
@@ -161,7 +161,7 @@ void MainPage::AddHyperlinkButton()
 void MainPage::AddCheckBox()
 {
     // <SnippetBasicCheckBoxCode>
-    // Create a new check box, set it's content, 
+    // Create a new check box, set its content, 
     // and add a Checked event handler.
     CheckBox^ checkBox1 = ref new CheckBox();
     checkBox1->Content = "CheckBox";
@@ -239,7 +239,7 @@ void MainPage::Slider_ValueChanged(Object^ sender, RangeBaseValueChangedEventArg
 void MainPage::AddToggleSwitch()
 {
     // <SnippetBasicToggleSwitchCode>
-    // Create a new toggle switch, set it's content, 
+    // Create a new toggle switch, set its content, 
     // and add a Toggled event handler.
     ToggleSwitch^ toggleSwitch1 = ref new ToggleSwitch();
     toggleSwitch1->Header = "Toggle Switch";
@@ -272,7 +272,7 @@ void MainPage::AddBoundComboBox()
     fonts->Append("Item 2");
     fonts->Append("Item 3");
 
-    // Create a new combo box, set it's items source, and add a SelectionChanged handler.
+    // Create a new combo box, set its items source, and add a SelectionChanged handler.
     ComboBox^ comboBox1 = ref new ComboBox();
     comboBox1->Width = 200;
     comboBox1->ItemsSource = fonts;
@@ -321,7 +321,7 @@ void MainPage::AddBoundListBox()
     fonts->Append("Item 2");
     fonts->Append("Item 3");
 
-    // Create a new list box, set it's items source, and add a SelectionChanged handler.
+    // Create a new list box, set its items source, and add a SelectionChanged handler.
     ListBox^ listBox1 = ref new ListBox();
     listBox1->Width = 140;
     listBox1->ItemsSource = fonts;
@@ -364,7 +364,7 @@ void MainPage::AddProgressBar()
     double progressValue = 45.0;
 
     // <SnippetBasicProgressBarCode>
-    // Create a new progress bar and set it's Value property to a double value.
+    // Create a new progress bar and set its Value property to a double value.
     ProgressBar^ progressBar1 = ref new ProgressBar();
     progressBar1->Value = (double)progressValue;
     progressBar1->Width = 100;
@@ -377,7 +377,7 @@ void MainPage::AddProgressBar()
 void MainPage::AddIndeterminateProgressBar()
 {
     // <SnippetInderminateProgressBarCode>
-    // Create a new progress bar and set it's IsIndeterminate property to true.
+    // Create a new progress bar and set its IsIndeterminate property to true.
     ProgressBar^ progressBar1 = ref new ProgressBar();
     progressBar1->IsIndeterminate = true;
     progressBar1->Width = 100;
@@ -391,7 +391,7 @@ void MainPage::AddIndeterminateProgressBar()
 void MainPage::AddProgressRing()
 {
     // <SnippetBasicProgressRingCode>
-    // Create a new progress ring and set it's IsActive property to true.
+    // Create a new progress ring and set its IsActive property to true.
     ProgressRing^ progressRing1 = ref new ProgressRing();
     progressRing1->IsActive = true;
     progressRing1->Visibility = Windows::UI::Xaml::Visibility::Visible;
@@ -409,7 +409,7 @@ void MainPage::AddImage()
     stackPanel1->Children->Append(canvas1);
 
     // <SnippetBasicImageCode>
-    // Create a new image control and set it's Source property.
+    // Create a new image control and set its Source property.
     Image^ image1 = ref new Image();
     image1->Source = 
 		ref new Windows::UI::Xaml::Media::Imaging::BitmapImage
@@ -424,7 +424,7 @@ void MainPage::AddImage()
 void MainPage::AddTextBlock()
 {
     // <SnippetBasicTextBlockCode>
-    // Create a new text block and set it's Text property.
+    // Create a new text block and set its Text property.
     TextBlock^ textBlock1 = ref new TextBlock();
     textBlock1->Text = "I am a TextBlock.";
 
@@ -437,7 +437,7 @@ void MainPage::AddTextBlock()
 void MainPage::AddTextBox()
 {
     // <SnippetBasicTextBoxCode>
-    // Create a new text box, set it's Text property, 
+    // Create a new text box, set its Text property, 
     // and add a TextChanged event handler.
     TextBox^ textBox1 = ref new TextBox();
     textBox1->Text = "I am a TextBox.";

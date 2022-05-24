@@ -15,8 +15,6 @@ A [HolographicFrameId](holographicframeid.md) representing the unique identifier
 
 ## -see-also
 
-[HolographicFrame](holographicframe.md)
-[HolographicFrameRenderingReport](holographicframerenderingreport.md)
+[HolographicFrame](holographicframe.md), [HolographicFrameRenderingReport](holographicframerenderingreport.md)
 
 ## -examples
-

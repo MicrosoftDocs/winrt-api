@@ -12,7 +12,6 @@ public ContinuumNavigationTransitionInfo()
 ## -description
 Initializes a new instance of the [ContinuumNavigationTransitionInfo](continuumnavigationtransitioninfo.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.ContinuumNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.#ctor).
 
 ## -remarks
 

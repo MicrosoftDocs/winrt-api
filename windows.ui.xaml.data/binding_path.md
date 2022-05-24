@@ -33,7 +33,7 @@ To set the data source to be the [Source](binding_source.md) object, the path sh
 
 When using the [{Binding} markup extension](/windows/uwp/xaml-platform/binding-markup-extension), the Path value can be set using the argument immediately following the `{Binding` part of the extension usage, you don't need to explicitly include `Path=`. For example, `{Binding Albums}` sets the Path value of that binding to be a [PropertyPath](../windows.ui.xaml/propertypath.md) constructed from the string "Albums" (no other [Binding](binding.md) properties are set).
 
-Most usages of Path involve setting its value. For scenarios where you are getting the value to examine the properties of an existing binding, the [PropertyPath.Path](../windows.ui.xaml/propertypath_path_1221375020.md) value contains the string that represents the path.
+Most usages of Path involve setting its value. For scenarios where you are getting the value to examine the properties of an existing binding, the [PropertyPath.Path](../windows.ui.xaml/propertypath_path.md) value contains the string that represents the path.
 
 You can't set the property values of a [Binding](binding.md) object after that binding has been attached to a target element and target property. If you attempt this you'll get a run-time exception.
 

@@ -12,7 +12,6 @@ public void Clear()
 ## -description
 Removes all items from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TimelineMarkerCollection.Clear](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkercollection.clear).
 
 ## -remarks
 

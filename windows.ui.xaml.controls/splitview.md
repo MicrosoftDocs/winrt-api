@@ -13,7 +13,6 @@ public class SplitView : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Contr
 
 Represents a container with two views; one view for the main content and another view that is typically used for navigation commands.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SplitView](/windows/winui/api/microsoft.ui.xaml.controls.splitview).
 
 ## -xaml-syntax
 
@@ -63,9 +62,9 @@ Set the [DisplayMode](splitview_displaymode.md) property to configure the intera
 > [!TIP]
 > For more info, design guidance, and code examples, see [Split view](/windows/uwp/design/controls-and-patterns/split-view).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the SplitView in action](xamlcontrolsgallery:/item/SplitView).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the SplitView in action](winui2gallery:/item/SplitView).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 Here's a SplitView control with an open [Pane](splitview_pane.md) appearing inline next to the [Content](splitview_content.md).
 

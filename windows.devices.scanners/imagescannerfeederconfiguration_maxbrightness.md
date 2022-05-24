@@ -10,7 +10,7 @@ public int MaxBrightness { get; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.MaxBrightness
 
 ## -description
-Gets the maximum brightness level supported by the scanner's Feeder.
+Gets the maximum brightness level supported by the scanner's feeder.
 
 ## -property-value
 The maximum brightness level, typically 1000.

@@ -31,6 +31,6 @@ Returns an [IAsyncAction](../windows.foundation/iasyncaction.md) object that is 
 
 ## -see-also
 
-[ActivationSignalDetector](activationsignaldetector.md)
+[SetModelData](activationsignaldetectionconfiguration_setmodeldata_1028385656.md), [SetModelDataWithResult(System.String,Windows.Storage.Streams.IInputStream)](activationsignaldetectionconfiguration_setmodeldatawithresult_384345367.md), [SetModelDataWithResultAsync(System.String,Windows.Storage.Streams.IInputStream)](activationsignaldetectionconfiguration_setmodeldatawithresultasync_1134103402.md), [ActivationSignalDetector](activationsignaldetector.md)
 
 ## -examples

@@ -18,7 +18,7 @@ When this method completes successfully, it returns a list of the files and fold
 To work with the returned items, call the [IsOfType](istorageitem_isoftype_1417811226.md) method of the [IStorageItem](istorageitem.md) interface to determine whether each item is a file or a folder. Then cast the item to a [StorageFolder](storagefolder.md) or [StorageFile](storagefile.md).
 
 ## -exceptions
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to access the contents of the current folder. For more information, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
@@ -27,19 +27,12 @@ The following table lists methods of the [StorageFolder](storagefolder.md) class
 
 To get deep query results from a folder that's not a library folder, call the [CreateItemQueryWithOptions(QueryOptions)](storagefolder_createitemquerywithoptions_1519361285.md) method and specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.
 
-<table>
-   <tr><th>Method</th><th>Create a shallow query that only returns items from the current folder</th><th>Create a deep query that returns items from the current folder and from its subfolders</th></tr>
-   <tr><td>GetItemsAsync()</td><td>Default behavior of this method.</td><td>N/A</td></tr>
-   <tr><td>[GetItemsAsync(UInt32, UInt32)](storagefolder_getitemsasync_561011846.md)</td><td>Default behavior of this method.</td><td>N/A</td></tr>
-   <tr><td>[CreateItemQuery()](storagefolder_createitemquery_543424716.md)</td><td>Default behavior of this method.</td><td>N/A</td></tr>
-   <tr><td>[CreateItemQueryWithOptions(QueryOptions)](storagefolder_createitemquerywithoptions_1519361285.md)</td><td><ul><li>Default behavior of this method if none of the following options are specified.
-
-- or -</li><li>Specify **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) or [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.
-
-- or -</li><li>Specify **Shallow** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.</li></ul></td><td><ul><li>For a library folder, specify a value other than **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) or [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.
-
-- or -</li><li>For any folder, specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md).</li></ul></td></tr>
-</table>
+| Method | Create a shallow query that only returns items from the current folder | Create a deep query that returns items from the current folder and from its subfolders |
+|---|---|---|
+| GetItemsAsync() | Default behavior of this method. | N/A |
+| [GetItemsAsync(UInt32, UInt32)](storagefolder_getitemsasync_561011846.md) | Default behavior of this method. | N/A |
+| [CreateItemQuery()](storagefolder_createitemquery_543424716.md) | Default behavior of this method. | N/A |
+| [CreateItemQueryWithOptions(QueryOptions)](storagefolder_createitemquerywithoptions_1519361285.md) | Default behavior of this method if none of the following options are specified.<br/>- or -<br/>Specify **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) or [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.<br/>- or -<br/>Specify **Shallow** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object. | For a library folder, specify a value other than **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) or [CommonFolderQuery](../windows.storage.search/commonfolderquery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.<br/>- or -<br/>For any folder, specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md). |
 
 To get only files, call the [GetFilesAsync](storagefolder_getfilesasync_1429382825.md) method. To get only folders, call the [GetFoldersAsync](storagefolder_getfoldersasync_592765033.md) method.
 

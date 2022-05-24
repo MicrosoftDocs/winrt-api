@@ -23,7 +23,7 @@ The scanned image file.
 The progress of the scan and the scanned file format.
 
 ## -remarks
-Attempting to preview from a Feeder that supports preview but is empty at the time will result in a successful completion of the async call. The app should check for the returned [ImageScannerPreviewResult.Succeeded](imagescannerpreviewresult.md) result before attempting to read data from the stream, especially when scanning from the Feeder.
+Attempting to preview from a feeder that supports preview but is empty at the time will result in a successful completion of the async call. The app should check for the returned [ImageScannerPreviewResult.Succeeded](imagescannerpreviewresult.md) result before attempting to read data from the stream, especially when scanning from the feeder.
 
 ## -examples
 

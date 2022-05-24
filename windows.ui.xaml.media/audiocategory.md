@@ -13,7 +13,6 @@ public enum Windows.UI.Xaml.Media.AudioCategory : int
 
 Describes the purpose of the audio information in an audio stream. Used as a value by [AudioCategory](../windows.ui.xaml.controls/mediaelement_audiocategory.md).
 
-Equivalent WinUI enum: [AudioCategory](/windows/winui/api/microsoft.ui.xaml.media.audiocategory).
 
 ## -enum-fields
 
@@ -69,7 +68,7 @@ Stream that includes audio without dialog.
 
 These enumeration values are used by the [MediaElement.AudioCategory](../windows.ui.xaml.controls/mediaelement_audiocategory.md) property. If you use the [MediaPlayerElement](../windows.ui.xaml.controls/mediaplayerelement.md) control, you use the [MediaPlayerAudioCategory](../windows.media.playback/mediaplayeraudiocategory.md) enumeration values to set the [AudioCategory](../windows.media.playback/mediaplayer_audiocategory.md) directly on the underlying [MediaPlayer](../windows.media.playback/mediaplayer.md) instead.
 
-Starting in Windows 10, version 1511 the **ForegroundOnlyMedia** and **BackgroundCapableMedia** enumeration values are deprecated. For more info about using background audio in your app, see [Play media in the background]( http://go.microsoft.com/fwlink/?LinkId=824832).
+Starting in Windows 10, version 1511 the **ForegroundOnlyMedia** and **BackgroundCapableMedia** enumeration values are deprecated. For more info about using background audio in your app, see [Play media in the background](/windows/uwp/audio-video-camera/background-audio).
 
 Games should categorize their music streams as **GameMedia** so that game music mutes automatically if another application plays music in the background. Music or video applications should categorize their streams as **Media** or **Movie** so they will take priority over **GameMedia** streams. Game audio for in-game cinematics or cutscenes, when the audio is premixed or for creative reasons should take priority over background audio, should also be categorized as **Media** or **Movie**.
 

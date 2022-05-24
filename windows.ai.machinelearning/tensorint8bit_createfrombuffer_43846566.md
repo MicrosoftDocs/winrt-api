@@ -21,7 +21,7 @@ The size of the buffer.
 The buffer to use during evaluation.
 
 ## -returns
-An 8-bit signed integer tensor object backed by a buffer reference to the provided [IBuffer](..\windows.storage.streams\ibuffer.md) *buffer*.
+An 8-bit signed integer tensor object backed by a buffer reference to the provided [IBuffer](../windows.storage.streams/ibuffer.md) *buffer*.
 
 ## -remarks
 No copies are performed during the creation of this object and the underlying buffer in *buffer* is used directly by the engine.

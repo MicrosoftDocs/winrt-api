@@ -23,7 +23,7 @@ The [TriggerAction](triggeraction.md) value at the specified index.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [Item](triggeractioncollection_item.md) (the indexer).
+> The equivalent Microsoft .NET API is [Item](/dotnet/api/system.windows.triggeractioncollection.item) (the indexer).
 
 ## -examples
 

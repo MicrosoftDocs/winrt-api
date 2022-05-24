@@ -10,13 +10,13 @@ public void SetFraction(Windows.UI.Xaml.DependencyObject element, Windows.UI.Xam
 # Windows.UI.Xaml.Documents.Typography.SetFraction
 
 ## -description
-Sets the value of the [Fraction](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property for a specified dependency object.
+Sets the value of the [Fraction](typography_fraction.md) attached property for a specified dependency object.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetFraction](/windows/winui/api/microsoft.ui.xaml.documents.typography.setfraction).
 
 ## -parameters
 ### -param element
-The dependency object for which to set the value of the [Fraction](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) property.
+The dependency object for which to set the value of the [Fraction](typography_fraction.md) property.
 
 ### -param value
 The new value to set the property to.
@@ -26,3 +26,5 @@ The new value to set the property to.
 ## -examples
 
 ## -see-also
+
+[Fraction](typography_fraction.md), [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview)

@@ -17,8 +17,6 @@ Provides event data for RefreshRequested events.
 
 ## -see-also
 
-[RefreshContainer.RefreshRequested](refreshcontainer_refreshrequested.md)
-[RefreshVisualizer.RefreshRequested](refreshvisualizer_refreshrequested.md)
+[RefreshContainer.RefreshRequested](refreshcontainer_refreshrequested.md), [RefreshVisualizer.RefreshRequested](refreshvisualizer_refreshrequested.md)
 
 ## -examples
-

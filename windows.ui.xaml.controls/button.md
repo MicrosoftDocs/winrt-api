@@ -12,7 +12,6 @@ public class Button : Windows.UI.Xaml.Controls.Primitives.ButtonBase, Windows.UI
 ## -description
 Represents a templated button control that interprets a [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) user interaction.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Button](/windows/winui/api/microsoft.ui.xaml.controls.button).
 
 ## -xaml-syntax
 ```xaml
@@ -80,9 +79,9 @@ This table shows the resources used by the Button control.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Buttons](/windows/uwp/design/controls-and-patterns/buttons).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Button in action](xamlcontrolsgallery:/item/Button).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the Button in action](winui2gallery:/item/Button).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 The following example shows three buttons that respond to clicks in three different ways based on their [ClickMode](../windows.ui.xaml.controls.primitives/buttonbase_clickmode.md) property value.
 

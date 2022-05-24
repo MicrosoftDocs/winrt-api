@@ -3,11 +3,11 @@
 -api-type: winrt method
 ---
 
-<!-- Method syntax
-public void Encapsulate(Windows.Networking.Vpn.VpnChannel channel, Windows.Networking.Vpn.VpnPacketBufferList packets, Windows.Networking.Vpn.VpnPacketBufferList encapsulatedPackets)
--->
+# Windows.Networking.Vpn.IVpnPlugIn.Encapsulate(Windows.Networking.Vpn.VpnChannel,Windows.Networking.Vpn.VpnPacketBufferList,Windows.Networking.Vpn.VpnPacketBufferList)
 
-# Windows.Networking.Vpn.IVpnPlugIn.Encapsulate
+<!--
+public void Encapsulate (Windows.Networking.Vpn.VpnChannel channel, Windows.Networking.Vpn.VpnPacketBufferList packets, Windows.Networking.Vpn.VpnPacketBufferList encapulatedPackets);
+-->
 
 ## -description
 This method instructs the VPN plug-in to prepare the indicated L3 IP packet for transmission to the VPN server. The process might include any encapsulation specific to the VPN protocol.
@@ -28,7 +28,6 @@ If an error occurs the packets will simply be dropped. It is required that any *
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 networkingVpnProvider

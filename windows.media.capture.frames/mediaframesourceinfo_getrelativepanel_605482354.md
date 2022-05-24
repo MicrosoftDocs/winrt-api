@@ -29,10 +29,7 @@ This API is useful for hinged devices where the relative location of a **Display
 
 ## -see-also
 
-[MediaFrameSource](mediaframesource.md)
-[DisplayRegion](/uwp/api/windows.ui.windowmanagement.displayregion)
-[PanelBasedOptimizationControl Class](/uwp/api/windows.media.devices.panelbasedoptimizationcontrol)
-[Panel](/uwp/api/windows.devices.enumeration.panel)
+[MediaFrameSource](mediaframesource.md),[DisplayRegion](/uwp/api/windows.ui.windowmanagement.displayregion),[PanelBasedOptimizationControl Class](/uwp/api/windows.media.devices.panelbasedoptimizationcontrol),[Panel](/uwp/api/windows.devices.enumeration.panel)
 
 ## -examples
 

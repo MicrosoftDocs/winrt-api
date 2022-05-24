@@ -37,6 +37,7 @@ Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resourc
 
 This table shows the resources used by the GridViewItem control.
 
+*Resources marked with an asterisk are only available when using [WinUI 2.6](https://docs.microsoft.com/en-us/windows/apps/winui/winui2/release-notes/).
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
    <tr><td>GridViewItemForeground</td><td>Text color at rest</td></tr>
@@ -59,14 +60,33 @@ This table shows the resources used by the GridViewItem control.
    <tr><td>GridViewItemPlaceholderBackground</td><td>Background color of item placeholder</td></tr>
    <tr><td>GridViewItemSelectionCheckMarkVisualEnabled</td><td>Boolean that specifies whether checkmark visual is shown</td></tr>
    <tr><td>GridViewItemCheckMode</td><td>Specifies how checkmark is shown ("Overlay" or "Inline")</td></tr>
+   <tr><td>GridViewItemBackgroundSelectedDisabled*</td><td>Item background color when item is selected and disabled</td></tr>
+   <tr><td>GridViewItemSelectedBorderBrush*</td><td>Border color on selected item</td></tr>
+   <tr><td>GridViewItemSelectedPointerOverBorderBrush*</td><td>Border color on selected item on hover</td></tr>
+   <tr><td>GridViewItemSelectedPressedBorderBrush*</td><td>Border color on selected item when pressed</td></tr>
+   <tr><td>GridViewItemSelectedDisabledBorderBrush*</td><td>Border color on selected item when disabled</td></tr>
+   <tr><td>GridViewItemCheckBoxDisabledBrush*</td><td>Background color of checkmark box when item is disabled</td></tr>
+   <tr><td>GridViewItemCheckBoxSelectedBrush*</td><td>Background color of checkmark box when item is selected</td></tr>
+   <tr><td>GridViewItemCheckBoxSelectedPointerOverBrush*</td><td>Background color of checkmark box on hover when item is selected</td></tr>
+   <tr><td>GridViewItemCheckBoxSelectedPressedBrush*</td><td>Background color of checkmark box on selected item when pressed </td></tr>
+   <tr><td>GridViewItemCheckBoxSelectedDisabledBrush*</td><td>Background color of checkmark box on selected item when disabled </td></tr>
+   <tr><td>GridViewItemCheckBoxBorderBrush*</td><td>Border color of checkmark box</td></tr>
+   <tr><td>GridViewItemCheckBoxPointerOverBorderBrush*</td><td>Border color of checkmark box on hover</td></tr>
+   <tr><td>GridViewItemCheckBoxPressedBorderBrush*</td><td>Border color of checkmark box when pressed</td></tr>
+   <tr><td>GridViewItemCheckBoxDisabledBorderBrush*</td><td>Border color of checkmark box when item is disabled</td></tr>
+   <tr><td>GridViewItemSelectedInnerBorderBrush*</td><td>Color of inner item border</td></tr>
+   <tr><td>GridViewItemCheckBoxCornerRadius*</td><td>Corner radius of checkmark box</td></tr>
+   <tr><td>GridViewItemCornerRadius*</td><td>Corner radius of entire GridView item</td></tr>
+
 </table>
 
+
 > **Windows 8.1**
-> To assign a custom value based on the data item to the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property, you must bind to the item container's [Content](contentcontrol_content.md) property. For example, assume you have a `Customer` data item that has a `Name` property and you want to use the `Customer.Name` property as the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) value.
+> To assign a custom value based on the data item to the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties.name) attached property, you must bind to the item container's [Content](contentcontrol_content.md) property. For example, assume you have a `Customer` data item that has a `Name` property and you want to use the `Customer.Name` property as the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties.name) value.
 
 In Windows 8, the data item is set as the [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) of the item container, so you can use a binding like this: `AutomationProperties.Name="{Binding Name}"`.
 
-In Windows 8.1, the item container's [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) is not set. To bind the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) value to the data item's `Name` property, use a binding like this: `AutomationProperties.Name="{Binding Path=Content.Name,RelativeSource={RelativeSource Mode=Self}}"`.
+In Windows 8.1, the item container's [DataContext](../windows.ui.xaml/frameworkelement_datacontext.md) is not set. To bind the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties.name) value to the data item's `Name` property, use a binding like this: `AutomationProperties.Name="{Binding Path=Content.Name,RelativeSource={RelativeSource Mode=Self}}"`.
 
 ## -examples
 

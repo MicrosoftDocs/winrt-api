@@ -12,7 +12,6 @@ public SolidColorBrush()
 ## -description
 Initializes a new instance of the [SolidColorBrush](solidcolorbrush.md) class with no color.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.SolidColorBrush.SolidColorBrush](/windows/winui/api/microsoft.ui.xaml.media.solidcolorbrush.#ctor).
 
 ## -remarks
 

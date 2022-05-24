@@ -12,8 +12,6 @@ public event Windows.UI.Xaml.SuspendingEventHandler Suspending
 ## -description
 Occurs when the application transitions to Suspended state from some other state.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Application.Suspending](/windows/winui/api/microsoft.ui.xaml.application.suspending).
-
 ## -remarks
 The system suspends your app whenever the user switches to another app or to the desktop, and resumes your app whenever the user switches back to it. However, the system can also terminate your app while it is suspended in order to free up resources. Therefore, you should handle the Suspending event to perform the following operations:
 
@@ -51,5 +49,5 @@ End Sub
 
 
 ## -see-also
-[OnActivated](application_onactivated_603737819.md), [Resuming](application_resuming.md), [Launching and resuming apps](/windows/uwp/launch-resume/), [Processes threads and apartments](/en-us/windows/win32/com/processes--threads--and-apartments)
+[OnActivated](application_onactivated_603737819.md), [Resuming](application_resuming.md), [Launching and resuming apps](/windows/uwp/launch-resume/), [Processes threads and apartments](/windows/win32/com/processes--threads--and-apartments)
 

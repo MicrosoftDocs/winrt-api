@@ -10,7 +10,7 @@ public bool GetIsRequiredForForm(Windows.UI.Xaml.DependencyObject element)
 # Windows.UI.Xaml.Automation.AutomationProperties.GetIsRequiredForForm
 
 ## -description
-Gets the value of the [AutomationProperties.IsRequiredForForm](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Gets the value of the [AutomationProperties.IsRequiredForForm](automationproperties_isrequiredforform.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetIsRequiredForForm](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getisrequiredforform).
 
@@ -26,3 +26,5 @@ The [DependencyObject](../windows.ui.xaml/dependencyobject.md) to check.
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.IsRequiredForForm](automationproperties_isrequiredforform.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

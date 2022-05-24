@@ -12,7 +12,6 @@ public enum Windows.UI.Xaml.Media.FastPlayFallbackBehaviour : int
 ## -description
 Defines constants that specify how [MediaTransportControls](../windows.ui.xaml.controls/mediatransportcontrols.md) fast-forward/backward buttons behave.
 
-Equivalent WinUI enum: [FastPlayFallbackBehaviour](/windows/winui/api/microsoft.ui.xaml.media.fastplayfallbackbehaviour).
 
 ## -enum-fields
 ### -field Skip:0

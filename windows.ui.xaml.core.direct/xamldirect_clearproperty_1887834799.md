@@ -13,7 +13,6 @@ public void XamlDirect.ClearProperty(IXamlDirectObject xamlDirectObject, XamlPro
 ## -description
 Clears the value of the specified property on a given [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.ClearProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.clearproperty).
 
 ## -parameters
 ### -param xamlDirectObject

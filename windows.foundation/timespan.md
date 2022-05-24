@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Foundation.TimeSpan
 -api-type: winrt struct
+ms.custom: project-verbatim
 ---
 
 <!-- Structure syntax.
@@ -17,6 +18,8 @@ Represents a time interval as a signed 64-bit integer value.
 
 > **C++/WinRT**
 > This type is a specialization of [std::chrono::duration](/cpp/standard-library/duration-class).
+
+**TimeSpan** is used in the [Adaptive streaming sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AdaptiveStreaming).
 
 ## -struct-fields
 
@@ -37,4 +40,5 @@ In JavaScript, this structure is accessed as a value, not as an object. For exam
 ## -examples
 
 ## -see-also
-[DateTime](datetime.md), [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true)
+
+[DateTime](datetime.md), [System.TimeSpan](/dotnet/api/system.timespan?view=dotnet-uwp-10.0&preserve-view=true), [Adaptive streaming sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/AdaptiveStreaming)

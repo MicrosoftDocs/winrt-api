@@ -12,8 +12,6 @@ virtual protected void OnFileOpenPickerActivated(Windows.ApplicationModel.Activa
 ## -description
 Invoked when the application is activated through file-open dialog association.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Application.OnFileOpenPickerActivated](/windows/winui/api/microsoft.ui.xaml.application.onfileopenpickeractivated).
-
 ## -parameters
 ### -param args
 Event data for the event.

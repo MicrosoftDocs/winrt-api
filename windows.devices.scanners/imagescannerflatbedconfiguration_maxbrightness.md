@@ -10,7 +10,7 @@ public int MaxBrightness { get; }
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.MaxBrightness
 
 ## -description
-Gets the maximum brightness level supported by the scanner's Flatbed.
+Gets the maximum brightness level supported by the scanner's flatbed.
 
 ## -property-value
 The maximum brightness level, typically 1000.

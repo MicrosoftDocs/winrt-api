@@ -11,15 +11,15 @@ public Windows.UI.Core.CoreCursor PointerCursor { get;  set; }
 
 ## -description
 
-Gets or sets the cursor used by the app.
+Gets or sets the pointer cursor used by the app.
 
 ## -property-value
 
-The app's cursor.
+The pointer cursor used by the app.
 
 ## -remarks
 
-Some applications, such as games, need to track relative mouse movements for specific functionality (for example, a virtual trackball or the viewing camera) and don't use the system cursor or absolute screen coordinates. For details on hiding the mouse cursor and ignoring absolute mouse data, see [Relative mouse movement and CoreWindow](/en-us/windows/uwp/gaming/relative-mouse-movement).
+Some applications, such as games, need to track relative mouse movements for specific functionality (for example, a virtual trackball or the viewing camera) and don't use the system cursor or absolute screen coordinates. For details on hiding the mouse cursor and ignoring absolute mouse data, see [Relative mouse movement and CoreWindow](/windows/uwp/gaming/relative-mouse-movement).
 
 ## -examples
 

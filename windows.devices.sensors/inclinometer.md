@@ -11,11 +11,7 @@ public class Inclinometer : Windows.Devices.Sensors.IInclinometer, Windows.Devic
 
 ## -description
 
-Represents an inclinometer sensor.
-
-This sensor returns pitch, roll, and yaw values that correspond to rotation angles around the x, y, and z axes, respectively.
-
-For an example implementation, see the inclinometer sample [https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Inclinometer](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Inclinometer).
+Represents an inclinometer sensor that provides pitch, roll, and yaw values corresponding to rotation angles around the x, y, and z axes, respectively.
 
 ## -remarks
 
@@ -45,6 +41,8 @@ The following example shows the [ReadingChanged](inclinometer_readingchanged.md)
 | 2004 | 19041 | ReportThreshold |
 
 ## -examples
+
+For an example implementation, see the inclinometer sample [https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Inclinometer](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Inclinometer).
 
 ## -see-also
 

@@ -19,6 +19,17 @@ The zero-based index of the vector item to remove.
 ## -remarks
 When programming with .NET, this interface is hidden, and you should use the [System.Collections.Generic.IList\<T\>](/dotnet/api/system.collections.generic.ilist-1) interface.
 
+If the index is out of range,
+the view will throw an exception.
+
+> [**C++/WinRT**](/windows/uwp/cpp-and-winrt-apis/)
+> If the index is out of range,
+> the vector will throw a `hresult_out_of_bounds` exception.
+
+> [**C++/CX**](/cpp/cppcx/)
+> If the index is out of range,
+> the vector will throw a `OutOfBoundsException` exception.
+
 ## -examples
 
 ## -see-also

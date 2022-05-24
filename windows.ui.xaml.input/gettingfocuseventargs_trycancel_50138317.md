@@ -12,7 +12,6 @@ public bool GettingFocusEventArgs.TryCancel()
 ## -description
 Attempts to cancel the ongoing focus action.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.TryCancel](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.trycancel).
 
 ## -returns
 True, if the focus action is canceled; otherwise, false.
@@ -24,7 +23,7 @@ The [GotFocus](../windows.ui.xaml/uielement_gotfocus.md) routed event is raised 
 
 The [GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md) and [LosingFocus](../windows.ui.xaml/uielement_losingfocus.md) routed events occur before the focus change takes place, which enables your application to modify or cancel the focus change behavior.   
 
-[GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md) and [LosingFocus](../windows.ui.xaml/uielement_losingfocus.md) are raised synchronously, while [GotFocus](../windows.ui.xaml/uielement_gotfocus.md) and [LostFocus](../windows.ui.xaml/uielement_lostfocus.md) are raised asynchronously. For example, if your app calls the [Focus](../windows.ui.xaml.controls.control#Windows_UI_Xaml_Controls_Control_Focus_Windows_UI_Xaml_FocusState_) method of a control, GettingFocus is raised during the call, but GotFocus is raised after the call completes. 
+[GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md) and [LosingFocus](../windows.ui.xaml/uielement_losingfocus.md) are raised synchronously, while [GotFocus](../windows.ui.xaml/uielement_gotfocus.md) and [LostFocus](../windows.ui.xaml/uielement_lostfocus.md) are raised asynchronously. For example, if your app calls the [Focus](../windows.ui.xaml.controls/control#controls-and-focus) method of a control, GettingFocus is raised during the call, but GotFocus is raised after the call completes. 
 
 If focus is moved while these events are still bubbling, an exception is thrown.
 

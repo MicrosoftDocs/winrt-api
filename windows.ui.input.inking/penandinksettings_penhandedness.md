@@ -12,15 +12,17 @@ public PenHandedness PenHandedness { get; }
 
 ## -description
 
-Gets whether the user prefers to write with their left or right hand.
+Gets the user's preferred hand (left or right) for pen and ink input, and related UI.
 
 ## -property-value
 
-The user's preferred writing hand. The default is Right.
+The user's preferred writing hand. The default is [Right](penhandedness.md#-field-right0).
 
 ## -remarks
 
 This value can be set by the user through the *Pen & Windows Ink* settings screen.
+
+In order to minimize UI being hidden by the user's hand, this setting affects the direction and orientation of menus and other interface elements that are displayed based on pen movement and gestures.
 
 ## -see-also
 

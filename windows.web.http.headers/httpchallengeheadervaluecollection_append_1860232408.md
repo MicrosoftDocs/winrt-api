@@ -21,10 +21,6 @@ After you've added an item, you can use the [IndexOf](httpchallengeheadervalueco
 
 To add an item to a position in the collection that's not at the collection end, use the [InsertAt](httpchallengeheadervaluecollection_insertat_1228553710.md) method.
 
-If you are programming using C# or Microsoft Visual Basic, the equivalent method is [Add](httpchallengeheadervaluecollection_add.md).
-
-
-
 ## -examples
 
 ## -see-also

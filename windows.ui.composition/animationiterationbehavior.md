@@ -27,4 +27,4 @@ The animation should loop forever.
 ## -examples
 
 ## -see-also
-[Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation)
+[Composition Animations Overview](/windows/uwp/composition/composition-animation)

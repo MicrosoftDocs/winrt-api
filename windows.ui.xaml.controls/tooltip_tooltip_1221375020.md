@@ -12,7 +12,6 @@ public ToolTip()
 ## -description
 Initializes a new instance of the [ToolTip](tooltip.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ToolTip.ToolTip](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.#ctor).
 
 ## -remarks
 

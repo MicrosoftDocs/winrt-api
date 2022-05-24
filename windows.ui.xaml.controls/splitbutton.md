@@ -23,6 +23,6 @@ Represents a button with two parts that can be invoked separately. One part beha
 > [!TIP]
 > For more info, design guidance, and code examples, see [Buttons](/windows/uwp/design/controls-and-patterns/buttons).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the SplitButton in action](xamlcontrolsgallery:/item/SplitButton).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the SplitButton in action](winui2gallery:/item/SplitButton).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)

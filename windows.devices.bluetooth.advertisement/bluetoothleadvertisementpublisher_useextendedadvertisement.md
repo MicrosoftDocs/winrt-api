@@ -22,8 +22,6 @@ Indicates whether or not the Extended Advertising format should be used. The def
 Enabling the Extended Advertising format is necessary to enable several other related properties of the [BluetoothLEAdvertisementPublisher](bluetoothleadvertisementpublisher.md) class.
 
 ## -see-also
-[BluetoothLEAdvertisementPublisher.IncludeTransmitPowerLevel](bluetoothleadvertisementpublisher_includetransmitpowerlevel.md)
-
-[BluetoothLEAdvertisementPublisher.IsAnonymous](bluetoothleadvertisementpublisher_isanonymous.md)
+[BluetoothLEAdvertisementPublisher.IncludeTransmitPowerLevel](bluetoothleadvertisementpublisher_includetransmitpowerlevel.md), [BluetoothLEAdvertisementPublisher.IsAnonymous](bluetoothleadvertisementpublisher_isanonymous.md)
 
 ## -examples

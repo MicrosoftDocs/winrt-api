@@ -29,4 +29,4 @@ For how-to guidance for working with external timed text sources, see [Media ite
 ## -examples
 
 ## -see-also
-[ITimedTextSource](itimedtextsource.md), [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource)
+[Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource)

@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.Media.Capture.MediaCapture
 -api-type: winrt class
+ms.custom: project-verbatim
 ---
 
 <!-- Class syntax.
@@ -74,6 +75,8 @@ MediaCapture only supports one pass CBR encoding.
 The following code sample shows how to create and initialize a **MediaCapture** object.
 
 [!code-csharp[MediaCaptureVideo_InitMCobject](../windows.media.capture/code/MediaCaptureVideo/csharp/MainPage.xaml.cs#SnippetMediaCaptureVideo_InitMCobjectCS)]
+
+For info about how to handle suspension, see [Handle app suspend](/windows/uwp/launch-resume/suspend-an-app).
 
 [!code-xaml[MediaCapturePreviewXAML](../windows.media.capture/code/MediaCapture/csharp/MainPage.xaml#SnippetMediaCapturePreviewXAML)]
 

@@ -13,14 +13,14 @@ public class SyndicationPerson : Windows.Web.Syndication.ISyndicationNode, Windo
 Represents an author or contributor of syndication content.
 
 ## -remarks
+
 The following table maps SyndicationPerson properties to RSS and Atom feed elements.
 
-<table>
-   <tr><th>SyndicationPerson</th><th>RSS</th><th>Atom</th></tr>
-   <tr><td>[Email](syndicationperson_email.md)</td><td>(node value)</td><td>email</td></tr>
-   <tr><td>[Name](syndicationperson_name.md)</td><td /><td>name</td></tr>
-   <tr><td>[Uri](syndicationperson_uri.md)</td><td /><td>uri</td></tr>
-</table>
+| SyndicationPerson | RSS | Atom |
+|---|---|---|
+| [Email](syndicationperson_email.md) | (node value) | email |
+| [Name](syndicationperson_name.md) |---| name |
+| [Uri](syndicationperson_uri.md) |---| uri |
 
 ## -examples
 

@@ -10,14 +10,14 @@ public Rect CoreIncrementalInkStroke.AppendInkPoints(IIterable<InkPoint> inkPoin
 # Windows.UI.Input.Inking.Core.CoreIncrementalInkStroke.AppendInkPoints
 
 ## -description
-Appends one or more [InkPoint](inkpoint.md) objects to the collection of [InkPoint](inkpoint.md) objects that compose the [CoreIncrementalInkStroke](coreincrementalinkstroke.md).
+Appends one or more [InkPoint](../windows.ui.input.inking/inkpoint.md) objects to the collection of [InkPoint](../windows.ui.input.inking/inkpoint.md) objects that compose the [CoreIncrementalInkStroke](coreincrementalinkstroke.md).
 
 ## -parameters
 ### -param inkPoints
-The collection of [InkPoint](inkpoint.md) objects to append.
+The collection of [InkPoint](../windows.ui.input.inking/inkpoint.md) objects to append.
 
 ## -returns
-The bounding rectangle of the appended [InkPoint](inkpoint.md) objects.
+The bounding rectangle of the appended [InkPoint](../windows.ui.input.inking/inkpoint.md) objects.
 
 ## -remarks
 

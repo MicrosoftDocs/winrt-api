@@ -15,7 +15,7 @@ Represents a standard statistics category selector.
 ## -remarks
 
 ## -see-also
-[ClaimedLineDisplay.GetStatisticsAsync(IEnumerable<String>)](claimedlinedisplay_getstatisticsasync_980600774.md)
+[ClaimedLineDisplay.GetStatisticsAsync(IEnumerable&lt;String&gt;)](claimedlinedisplay_getstatisticsasync_980600774.md)
 
 ## -examples
 

@@ -10,7 +10,7 @@ public class WebUICommandBarSizeChangedEventArgs : Windows.UI.WebUI.Core.IWebUIC
 # Windows.UI.WebUI.Core.WebUICommandBarSizeChangedEventArgs
 
 ## -description
-**Deprecated.** Contains event data about the [WebUICommandBar](webuicommandbar.md)[SizeChanged](webuicommandbar_sizechanged.md) event.
+**Deprecated.** Contains event data about the [WebUICommandBar.SizeChanged](webuicommandbar_sizechanged.md) event.
 
 ## -remarks
 Use of the *Command Bar* (also known as "App Bar") UX element is deprecated for UWP apps using JavaScript and no longer supported.

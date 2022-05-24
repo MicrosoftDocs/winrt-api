@@ -12,7 +12,6 @@ public class ToggleSwitch : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Co
 ## -description
 Represents a switch that can be toggled between two states.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ToggleSwitch](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch).
 
 ## -xaml-syntax
 ```xaml
@@ -84,9 +83,9 @@ This table shows the resources used by the ToggleSwitch control.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Toggle switches](/windows/uwp/design/controls-and-patterns/toggles).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ToggleSwitch in action](xamlcontrolsgallery:/item/ToggleSwitch).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ToggleSwitch in action](winui2gallery:/item/ToggleSwitch).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This example shows how to set the [Header](toggleswitch_header.md), [OnContent](toggleswitch_oncontent.md), and [OffContent](toggleswitch_offcontent.md) properties of a toggle switch. The [Toggled](toggleswitch_toggled.md) event is handled to turn a [ProgressRing](progressring.md) control on or off.
 
@@ -119,7 +118,26 @@ This example shows how to set the [Header](toggleswitch_header.md), [OnContent](
         }
 ```
 
-
+```cppwinrt
+using namespace winrt::Windows::UI::Xaml::Controls;
+void MainPage::ToggleSwitch_Toggled(IInspectable const& sender, RoutedEventArgs const& /* args */)
+{
+    ToggleSwitch toggleSwitch = sender.as<ToggleSwitch>();
+    if (toggleSwitch)
+    {
+        if (toggleSwitch.IsOn())
+        {
+            progress1().IsActive(true);
+            progress1().Visibility(Visibility::Visible);
+        }
+        else
+        {
+            progress1().IsActive(false);
+            progress1().Visibility(Visibility::Collapsed);
+        }
+    }
+}
+```
 
 ## -see-also
 [Toggle switches overview](/windows/uwp/controls-and-patterns/toggles), [ToggleSwitch styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [CheckBox](checkbox.md), [RadioButton](radiobutton.md), [Controls list](/windows/uwp/design/controls-and-patterns/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)

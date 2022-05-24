@@ -22,29 +22,29 @@ An asynchronous operation to retrieve the base64 encoded PKCS #10 certificate re
 ## -remarks
 Certificate enrollment can be performed in an app container. We recommend that you use the following request objects to submit the request:
 
-
 + [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) (JavaScript)
 + [HttpWebRequest](/dotnet/api/system.net.httpwebrequest?view=dotnet-uwp-10.0&preserve-view=true) (C#)
 + [IXMLHTTPRequest](/previous-versions/windows/desktop/ms759148(v=vs.85)) (C++)
+
 The [CertificateRequestProperties](certificaterequestproperties.md) object contains the following default values.
 
-<table>
-   <tr><th>Property</th><th>Default value</th></tr>
-   <tr><td>[Subject](certificaterequestproperties_subject.md)</td><td>Empty string</td></tr>
-   <tr><td>[KeyAlgorithmName](certificaterequestproperties_keyalgorithmname.md)</td><td>RSA</td></tr>
-   <tr><td>[KeySize](certificaterequestproperties_keysize.md)</td><td>2048 bits</td></tr>
-   <tr><td>[FriendlyName](certificaterequestproperties_friendlyname.md)</td><td>Empty String</td></tr>
-   <tr><td>[HashAlgorithmName](certificaterequestproperties_hashalgorithmname.md)</td><td>SHA256</td></tr>
-   <tr><td>[Exportable](certificaterequestproperties_exportable.md)</td><td>Not Exportable</td></tr>
-   <tr><td>[KeyUsages](certificaterequestproperties_keyusages.md)</td><td>Signing</td></tr>
-   <tr><td>[KeyProtectionLevel](certificaterequestproperties_keyprotectionlevel.md)</td><td>NoConsent</td></tr>
-   <tr><td>[KeyStorageProviderName](certificaterequestproperties_keystorageprovidername.md)</td><td>Microsoft Software Key Storage Provider</td></tr>
-</table>
+| Property | Default value |
+|---|---|
+| [Subject](certificaterequestproperties_subject.md) | Empty string |
+| [KeyAlgorithmName](certificaterequestproperties_keyalgorithmname.md) | RSA |
+| [KeySize](certificaterequestproperties_keysize.md) | 2048 bits |
+| [FriendlyName](certificaterequestproperties_friendlyname.md) | Empty String |
+| [HashAlgorithmName](certificaterequestproperties_hashalgorithmname.md) | SHA256 |
+| [Exportable](certificaterequestproperties_exportable.md) | Not Exportable |
+| [KeyUsages](certificaterequestproperties_keyusages.md) | Signing |
+| [KeyProtectionLevel](certificaterequestproperties_keyprotectionlevel.md) | NoConsent |
+| [KeyStorageProviderName](certificaterequestproperties_keystorageprovidername.md) | Microsoft Software Key Storage Provider |
+
 
 While the CreateRequestAsync method creates the certificate request, you will need to submit the request to an http enrollment end point. You can then take the response from the http enrollment end point and then call the [InstallCertificateAsync](usercertificateenrollmentmanager_installcertificateasync_225635424.md) method to install the response.
 
 > [!NOTE]
-> You must include the **Signing** value in the [KeyUsages](certificaterequestproperties_keyusages.md) property in any[ CertificateRequestProperties](certificaterequestproperties.md) object that you use in a call to **CreateRequestAsync**. If you wish to set [KeyUsages](certificaterequestproperties_keyusages.md) to **Decryption** or **KeyAgreement**, you must also OR in **Signing**. Otherwise, the call to **CreateRequestAsync** will fail.
+> You must include the **Signing** value in the [KeyUsages](certificaterequestproperties_keyusages.md) property in any [CertificateRequestProperties](certificaterequestproperties.md) object that you use in a call to **CreateRequestAsync**. If you wish to set [KeyUsages](certificaterequestproperties_keyusages.md) to **Decryption** or **KeyAgreement**, you must also OR in **Signing**. Otherwise, the call to **CreateRequestAsync** will fail.
 
 ## -examples
 

@@ -24,4 +24,7 @@ The version in which the static interface was added.
 ## -examples
 
 ## -see-also
-[StaticAttribute(Type, UInt32, Platform)](staticattribute_staticattribute_708913573.md)
+
+[StaticAttribute(Type, UInt32, Platform)](staticattribute_staticattribute_708913573.md),
+[StaticAttribute(Type, UInt32, Type)](staticattribute_staticattribute_847127659.md),
+[StaticAttribute(Type, UInt32, String)](staticattribute_staticattribute_1447974729.md)

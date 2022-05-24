@@ -10,13 +10,11 @@ public class Gyrometer : Windows.Devices.Sensors.IGyrometer, Windows.Devices.Sen
 # Windows.Devices.Sensors.Gyrometer
 
 ## -description
-Represents a gyrometer sensor.
 
-This sensor returns angular velocity values with respect to the x, y, and z axes.
-
-For an example implementation, see the [gyrometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Gyrometer).
+Represents a gyrometer sensor that provides angular velocity values with respect to the x, y, and z axes.
 
 ## -remarks
+
 Sensor data is provided relative to the device's fixed sensor coordinate system, and is independent of display orientation. For applications that rely on sensor data for input control or to manipulate elements on the screen, the developer must take current display orientation into account and compensate the data appropriately. For more info about the sensor coordinate system, see [Sensor data and display orientation](/previous-versions/windows/apps/dn440593(v=win.10)).
 
 The following example demonstrates how a UWP app built with XAML and C# uses the [GetDefault](gyrometer_getdefault_846721868.md) method to establish a connection to a gyrometer. If no integrated gyrometer is found, the method will return a null value.
@@ -43,5 +41,8 @@ The following example shows the [ReadingChanged](gyrometer_readingchanged.md) ev
 
 ## -examples
 
+For an example implementation, see the [gyrometer sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Gyrometer).
+
 ## -see-also
+
 [Gyrometer Sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Gyrometer), [Sensor data and display orientation](/previous-versions/windows/apps/dn440593(v=win.10))

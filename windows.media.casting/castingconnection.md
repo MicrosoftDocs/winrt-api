@@ -19,4 +19,4 @@ Get an instance of this class by calling [CreateCastingConnection](castingdevice
 ## -examples
 
 ## -see-also
-[ICastingConnection](icastingconnection.md), [IClosable](../windows.foundation/iclosable.md)
+[IClosable](../windows.foundation/iclosable.md)

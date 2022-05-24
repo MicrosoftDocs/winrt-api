@@ -51,7 +51,7 @@ Public NotInheritable Class MainPage
     ' BUTTON
     Private Sub AddButton()
         ' <SnippetBasicButtonCode>
-        ' Create a new button, set it's content,
+        ' Create a new button, set its content,
         ' and add a Click event handler.
         Dim button1 = New Button()
         button1.Content = "Button"
@@ -71,7 +71,7 @@ Public NotInheritable Class MainPage
     ' TOGGLEBUTTON
     Private Sub AddToggleButton()
         ' <SnippetBasicToggleButtonCode>
-        ' Create a new toggle button, set it's content,
+        ' Create a new toggle button, set its content,
         ' and add a Checked event handler.
         Dim toggleButton1 = New ToggleButton()
         toggleButton1.Content = "Button"
@@ -90,7 +90,7 @@ Public NotInheritable Class MainPage
 
     Private Sub AddRepeatButton()
         ' <SnippetBasicRepeatButtonCode>
-        ' Create a new repeat button, set it's content,
+        ' Create a new repeat button, set its content,
         ' and add a Click event handler.
         Dim repeatButton1 = New RepeatButton()
         repeatButton1.Content = "Repeat Button"
@@ -111,7 +111,7 @@ Public NotInheritable Class MainPage
     ' HYPERLINKBUTTON
     Private Sub AddHyperlinkButton()
         ' <SnippetBasicHyperlinkButtonCode>
-        ' Create a new button, set it's content,
+        ' Create a new button, set its content,
         ' and set Uri to navigate to.
         Dim hyperlinkButton1 = New HyperlinkButton()
         hyperlinkButton1.Content = "www.microsoft.com"
@@ -125,7 +125,7 @@ Public NotInheritable Class MainPage
     ' CHECKBOX
     Private Sub AddCheckBox()
         ' <SnippetBasicCheckBoxCode>
-        ' Create a new check box, set it's content, 
+        ' Create a new check box, set its content, 
         ' and add a Checked event handler.
         Dim checkBox1 = New CheckBox()
         checkBox1.Content = "CheckBox"
@@ -188,7 +188,7 @@ Public NotInheritable Class MainPage
 
     Private Sub AddToggleSwitch()
         ' <SnippetBasicToggleSwitchCode>
-        ' Create a new toggle switch, set it's content, 
+        ' Create a new toggle switch, set its content, 
         ' and add a Toggled event handler.
         Dim toggleSwitch1 = New ToggleSwitch()
         toggleSwitch1.Header = "Toggle Switch"
@@ -215,7 +215,7 @@ Public NotInheritable Class MainPage
         fonts.Add("Item 2")
         fonts.Add("Item 3")
 
-        ' Create a new combo box, set it's items source, and add a SelectionChanged handler.
+        ' Create a new combo box, set its items source, and add a SelectionChanged handler.
         Dim comboBox1 = New ComboBox()
         comboBox1.Width = 200
         comboBox1.ItemsSource = fonts
@@ -255,7 +255,7 @@ Public NotInheritable Class MainPage
         fonts.Add("Item 2")
         fonts.Add("Item 3")
 
-        ' Create a new list box, set it's items source, and add a SelectionChanged handler.
+        ' Create a new list box, set its items source, and add a SelectionChanged handler.
         Dim listBox1 = New ListBox()
         listBox1.Width = 140
         listBox1.ItemsSource = fonts
@@ -290,7 +290,7 @@ Public NotInheritable Class MainPage
     Private Sub AddProgressBar()
         Dim progressValue = 45.0
         ' <SnippetBasicProgressBarCode>
-        ' Create a new progress bar and set it's Value property to a double value.
+        ' Create a new progress bar and set its Value property to a double value.
         Dim progressBar1 = New ProgressBar()
         progressBar1.Value = progressValue
         progressBar1.Width = 100
@@ -302,7 +302,7 @@ Public NotInheritable Class MainPage
 
     Private Sub AddIndeterminateProgressBar()
         ' <SnippetInderminateProgressBarCode>
-        ' Create a new progress bar and set it's IsIndeterminate property to true.
+        ' Create a new progress bar and set its IsIndeterminate property to true.
         Dim progressBar1 = New ProgressBar()
         progressBar1.IsIndeterminate = True
         progressBar1.Width = 100
@@ -314,7 +314,7 @@ Public NotInheritable Class MainPage
 
     Private Sub AddProgressRing()
         ' <SnippetBasicProgressRingCode>
-        ' Create a new progress ring and set it's IsActive property to true.
+        ' Create a new progress ring and set its IsActive property to true.
         Dim progressRing1 = New ProgressRing()
         progressRing1.IsActive = True
         progressRing1.Visibility = Visibility.Visible
@@ -330,7 +330,7 @@ Public NotInheritable Class MainPage
         stackPanel1.Children.Add(canvas1)
 
         ' <SnippetBasicImageCode>
-        ' Create a new image control and set it's Source property.
+        ' Create a new image control and set its Source property.
         Dim image1 = New Image()
         image1.Source = New Windows.UI.Xaml.Media.Imaging.BitmapImage(New Uri("ms-appx:///Assets/Logo.png"))
 
@@ -341,7 +341,7 @@ Public NotInheritable Class MainPage
 
     Private Sub AddTextBlock()
         ' <SnippetBasicTextBlockCode>
-        ' Create a new text block and set it's Text property.
+        ' Create a new text block and set its Text property.
         Dim textBlock1 = New TextBlock()
         textBlock1.Text = "I am a TextBlock."
 
@@ -352,7 +352,7 @@ Public NotInheritable Class MainPage
 
     Private Sub AddTextBox()
         ' <SnippetBasicTextBoxCode>
-        ' Create a new text box, set it's Text property, 
+        ' Create a new text box, set its Text property, 
         ' and add a TextChanged event handler.
         Dim textBox1 = New TextBox()
         textBox1.Text = "I am a TextBox."

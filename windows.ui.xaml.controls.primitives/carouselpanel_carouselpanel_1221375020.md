@@ -12,7 +12,6 @@ public CarouselPanel()
 ## -description
 Initializes a new instance of the [CarouselPanel](carouselpanel.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel.CarouselPanel](/windows/winui/api/microsoft.ui.xaml.controls.primitives.carouselpanel.#ctor).
 
 ## -remarks
 

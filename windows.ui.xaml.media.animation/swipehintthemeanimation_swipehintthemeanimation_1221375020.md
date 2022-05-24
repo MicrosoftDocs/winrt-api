@@ -12,7 +12,6 @@ public SwipeHintThemeAnimation()
 ## -description
 Initializes a new instance of the [SwipeHintThemeAnimation](swipehintthemeanimation.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.SwipeHintThemeAnimation.SwipeHintThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.swipehintthemeanimation.#ctor).
 
 ## -remarks
 

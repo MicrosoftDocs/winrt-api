@@ -12,7 +12,6 @@ public class ContentDialog : Windows.UI.Xaml.Controls.ContentControl, Windows.UI
 ## -description
 Represents a dialog box that can be customized to contain checkboxes, hyperlinks, buttons and any other XAML content.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ContentDialog](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog).
 
 ## -xaml-syntax
 ```xaml
@@ -24,7 +23,6 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ContentDialog](/windows/winu
 -or-
 <ContentDialog>stringContent</ContentDialog>
 ```
-
 
 ## -remarks
 
@@ -41,7 +39,7 @@ The ContentDialog has 3 built-in buttons that describe the actions that the user
 Use the [CloseButtonText](contentdialog_closebuttontext.md) and property to set the display text for the safe, non-destructive button. The dialog's close button will also be invoked when the user performs a Cancel action, like pressing the ESC key or pressing the system back button.
 Use the [PrimaryButtonText](contentdialog_primarybuttontext.md) and [SecondaryButtonText](contentdialog_secondarybuttontext.md) properties to display responses to the main question or action posed by the dialog.
 
-The [CloseButtonText](contentdialog_closebuttontext.md) property is not available prior to Windows 10, version 1703. If your app’s 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you should use the [SecondaryButtonText](contentdialog_secondarybuttontext.md) property instead. For more info, see [Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code).
+The [CloseButtonText](contentdialog_closebuttontext.md) property is not available prior to Windows 10, version 1703. If your app's 'minimum platform version' setting in Microsoft Visual Studio is less than the 'introduced version' shown in the Requirements block later in this page, you should use the [SecondaryButtonText](contentdialog_secondarybuttontext.md) property instead. For more info, see [Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code).
 
 To show the dialog, call the [ShowAsync](contentdialog_showasync_1208475713.md) method. Use the result of this method to determine which of the buttons was clicked, if any button was clicked. If the user presses ESC, the system back arrow, or Gamepad B, the result of this method will be None.
 
@@ -50,6 +48,29 @@ You may optionally choose to differentiate one of the three buttons as the dialo
 You may wish to do some work before the dialog closes (for example, to verify that the user entered into form fields before submitting a request). You have two ways to do work before the dialog closes. You can handle the [PrimaryButtonClick](contentdialog_primarybuttonclick.md), [SecondaryButtonClick](contentdialog_secondarybuttonclick.md), or [CloseButtonClick](contentdialog_closebuttonclick.md) events to get the user's response when the user presses a button and verify the state of the dialog before it closes. You can also handle the [Closing](contentdialog_closing.md) event to do work before the dialog closes.
 
 Only one ContentDialog can be shown at a time. To chain together more than one ContentDialog, handle the [Closing](contentdialog_closing.md) event of the first ContentDialog. In the [Closing](contentdialog_closing.md) event handler, call [ShowAsync](contentdialog_showasync_1208475713.md) on the second dialog to show it.
+
+## Derived controls with WinUI styles
+
+> NOTE: This section applies only to apps that use WinUI 2.2 or later..
+
+The [Windows UI Library](/uwp/toolkits/winui/) 2.2 or later includes a new template for this control that uses updated styles. If you derive a custom control from an existing XAML control, it will not get the WinUI 2 styles by default. To apply the WinUI 2 styles:
+
+- Create a new [Style](/uwp/api/windows.ui.xaml.style) with its [TargetType](/uwp/api/windows.ui.xaml.style.targettype) set to your custom control.
+- Base the Style on the default style of the control you derived from.
+
+One common scenario for this is to derive a new control from [ContentDialog](/uwp/api/windows.ui.xaml.controls.contentdialog). This example shows how to create a new Style that applies `DefaultContentDialogStyle` to your custom dialog. 
+
+```xaml
+<ContentDialog
+    x:Class="ExampleApp.SignInContentDialog"
+    ... >
+    <ContentDialog.Resources>
+        <Style TargetType="local:SignInContentDialog" BasedOn="{StaticResource DefaultContentDialogStyle}"/>
+        ...
+    </ContentDialog.Resources> 
+    <!-- CONTENT -->
+</ContentDialog>        
+```
 
 ## ContentDialog in AppWindow or Xaml Islands
 
@@ -118,9 +139,9 @@ This table shows the resources used by the ContentDialog control.
 > For more info, design guidance, and code examples, see [Dialog controls](/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/dialogs
 ).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ContentDialog in action](xamlcontrolsgallery:/item/ContentDialog).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ContentDialog in action](winui2gallery:/item/ContentDialog).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This example shows how to create and show a simple ContentDialog in code.
 
@@ -206,7 +227,7 @@ private void ConfirmAgeCheckBox_Unchecked(object sender, RoutedEventArgs e)
 }
 ```
 
-This example shows how to create and use a custom dialog (`SignInContentDialog`) derived from ContentDialog.
+This example shows how to create and use a custom dialog (`SignInContentDialog`) derived from ContentDialog. If you are using WinUI 2.2 or later, also see [Derived controls with WinUI styles](#derived_controls_with_winui_styles).
 
 ```xaml
 
@@ -226,6 +247,9 @@ This example shows how to create and use a custom dialog (`SignInContentDialog`)
     CloseButtonClick="ContentDialog_CloseButtonClick">
 
     <ContentDialog.Resources>
+    <!-- Uncomment this Style if using WinUI 2.2 or later. -->
+    <!-- <Style TargetType="local:SignInContentDialog" BasedOn="{StaticResource DefaultContentDialogStyle}"/> -->
+
     <!-- These flyouts or used for confirmation when the user changes
          the option to save their user name. -->
         <Flyout x:Key="DiscardNameFlyout" Closed="Flyout_Closed">
@@ -409,7 +433,7 @@ namespace ExampleApp
 
 ```
 
-Here's code that shows the `SignInContentDialog` and uses it's custom `SignInResult`.
+Here's code that shows the `SignInContentDialog` and uses its custom `SignInResult`.
 
 ```csharp
 
@@ -432,8 +456,6 @@ private async void ShowSignInDialogButton_Click(object sender, RoutedEventArgs e
     }
 }
 ```
-
-
 
 ## -see-also
 [ContentControl](contentcontrol.md), [ContentDialog styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [Dialogs and flyouts](/windows/uwp/design/controls-and-patterns/dialogs)

@@ -10,7 +10,7 @@ public Windows.Media.Casting.CastingSource GetAsCastingSource()
 # Windows.Media.Playback.MediaPlayer.GetAsCastingSource
 
 ## -description
-Gets a [CastingSource](../windows.media.casting/castingsource.md) representing the [MediaPlayer](mediaplayer.md), which allows it's media to be cast to other devices.
+Gets a [CastingSource](../windows.media.casting/castingsource.md) representing the [MediaPlayer](mediaplayer.md), which allows its media to be cast to other devices.
 
 ## -returns
 The casting source.

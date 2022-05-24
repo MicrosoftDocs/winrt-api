@@ -16,7 +16,7 @@ Asynchronously allows all traffic through the modem.
 An asynchronous action.
 
 ## -remarks
-If you called [ApplyConfigurationAsync](mobilebroadbandmodemisolation_applyconfigurationasync_10015633.md) to isolate the modem, then calling this method clears that isolation configuration. If you called [AllowDataProvisioning](mobilebroadbandmodemisolation_allowdataprovisioning_1931471842.md) to add data-provisioning rules, then calling this method clears those rules.
+If you called [ApplyConfigurationAsync](mobilebroadbandmodemisolation_applyconfigurationasync_10015633.md) to isolate the modem, then calling this method clears that isolation configuration.
 
 ## -see-also
 

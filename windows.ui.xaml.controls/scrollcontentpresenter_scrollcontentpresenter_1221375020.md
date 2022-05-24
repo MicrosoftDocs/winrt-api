@@ -12,7 +12,6 @@ public ScrollContentPresenter()
 ## -description
 Initializes a new instance of the [ScrollContentPresenter](scrollcontentpresenter.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.ScrollContentPresenter](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.#ctor).
 
 ## -remarks
 

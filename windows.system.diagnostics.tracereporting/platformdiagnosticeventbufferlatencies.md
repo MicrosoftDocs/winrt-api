@@ -32,4 +32,4 @@ Less strict than **Normal**. If, after three days, there has been no opportunity
 > Only first-party applications should use this type.
 
 ## -see-also
-[ForceUpload()](ForceUpload.md)
+[ForceUpload()](platformdiagnosticactions_forceupload_1947368557.md)

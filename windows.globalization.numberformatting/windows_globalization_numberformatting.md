@@ -9,6 +9,9 @@
 
 Provides classes for formatting currencies, decimal numbers, percent values, and permille values, based on the user's languages and geographic region.
 
+> [!NOTE]
+> If you're using C++ or C, then also consider the [International Components for Unicode (ICU)](/windows/win32/intl/international-components-for-unicode--icu-).
+
 ## -remarks
 
 If your app passes language tags from this namespace to any [National Language Support](/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](/windows/desktop/api/winnls/nf-winnls-resolvelocalename).

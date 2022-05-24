@@ -30,4 +30,7 @@ A value of the enumeration. The default is **Windows**.
 ## -examples
 
 ## -see-also
+
+[ComposableAttribute(Type, CompositionType, UInt32, String)](composableattribute_composableattribute_1159157411.md),
+[ComposableAttribute(Type, CompositionType, UInt32, Type)](composableattribute_composableattribute_1921535771.md),
 [ComposableAttribute(Type, CompositionType, UInt32)](composableattribute_composableattribute_1994874973.md)

@@ -14,7 +14,7 @@ public void RemoveFromSchedule(Windows.UI.Notifications.ScheduledToastNotificati
 Cancels the scheduled display of a specified [ScheduledToastNotification](scheduledtoastnotification.md).
 
 > [!IMPORTANT]
-> This method cannot be used by desktop callers.
+> This method is only supported in applications which use WinRT as their default application framework.
 
 ## -parameters
 ### -param scheduledToast

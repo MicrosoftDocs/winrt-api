@@ -13,7 +13,6 @@ public uint XamlDirect.GetCollectionCount(IXamlDirectObject xamlDirectObject)
 ## -description
 Returns the count of items in the specified [IXamlDirectObject](ixamldirectobject.md) collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetCollectionCount](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getcollectioncount).
 
 ## -parameters
 ### -param xamlDirectObject

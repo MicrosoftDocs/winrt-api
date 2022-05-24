@@ -10,10 +10,10 @@ public DependencyProperty PitchProperty { get; }
 # Windows.UI.Xaml.Controls.Maps.MapElement3D.PitchProperty
 
 ## -description
-Identifies the [Pitch](mapelement3d_pitch.md) dependency property.
+Gets the dependency property that backs the [Pitch](mapelement3d_pitch.md) Windows Runtime property.
 
 ## -property-value
-The [Pitch](mapelement3d_pitch.md) dependency property.
+The dependency property that backs the [Pitch](mapelement3d_pitch.md) Windows Runtime property.
 
 ## -remarks
 

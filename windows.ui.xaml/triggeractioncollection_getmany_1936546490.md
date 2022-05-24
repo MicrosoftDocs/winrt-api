@@ -26,7 +26,7 @@ The number of items retrieved.
 
 ## -remarks
 > [!NOTE]
-> The equivalent Microsoft .NET  API is [CopyTo](triggeractioncollection_copyto.md).
+> The equivalent Microsoft .NET API is [CopyTo](/dotnet/api/system.windows.triggeractioncollection.copyto).
 
 ## -examples
 

@@ -18,9 +18,7 @@ Identifier values within a **HolographicSpace** are guaranteed to be strictly in
 
 ## -see-also
 
-[HolographicFrame](holographicframe.md)
-[HolographicFrameId](holographicframeid.md)
-[HolographicSpace](holographicspace.md)
+[HolographicFrame](holographicframe.md), [HolographicFrameId](holographicframeid.md), [HolographicSpace](holographicspace.md)
 
 ## -examples
 

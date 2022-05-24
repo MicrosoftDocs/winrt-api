@@ -15,7 +15,7 @@ Gets a [Human Interface Device (HID)](https://www.usb.org/hid) input report for 
 
 ## -property-value
 
-A [HidInputReport](..\windows.devices.input.preview\gazepointpreview_hidinputreport.md) object.
+A [HidInputReport](../windows.devices.humaninterfacedevice/hidinputreport.md) object.
 
 ## -remarks
 

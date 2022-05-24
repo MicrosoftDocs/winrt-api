@@ -10,7 +10,7 @@ public void SetAcceleratorKey(Windows.UI.Xaml.DependencyObject element, System.S
 # Windows.UI.Xaml.Automation.AutomationProperties.SetAcceleratorKey
 
 ## -description
-Sets the value of the [AutomationProperties.AcceleratorKey](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
+Sets the value of the [AutomationProperties.AcceleratorKey](automationproperties_acceleratorkey.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetAcceleratorKey](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setacceleratorkey).
 
@@ -26,3 +26,5 @@ The accelerator key value to set.
 ## -examples
 
 ## -see-also
+
+[AutomationProperties.AcceleratorKey](automationproperties_acceleratorkey.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

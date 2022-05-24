@@ -26,7 +26,7 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.VisualStateGroup](/windows/winui/api/
 
 
 ## -remarks
-Each VisualStateGroup declared in XAML as part of a control template should always have an [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute) set on it. Each name string used in the set of [VisualStateGroups](visualstatemanager_visualstategroups.md) in a control template must be unique in that template. It's common to use the same group names for different controls though. For example, almost all existing control templates have a VisualStateGroup with [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute) of "CommonStates".
+Each VisualStateGroup declared in XAML as part of a control template should always have an [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute) set on it. Each name string used in the set of [VisualStateGroups](/dotnet/api/system.windows.visualstatemanager.visualstategroups) in a control template must be unique in that template. It's common to use the same group names for different controls though. For example, almost all existing control templates have a VisualStateGroup with [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute) of "CommonStates".
 
 The set of visual states within each VisualStateGroup should be mutually exclusive in the group. In other words, the control should be using exactly one of the visual states from each of its defined VisualStateGroup groups at all times. Whenever there's a case where a control is intended to be simultaneously in two states, make sure that the two states are in different groups. For example, it's possible for a drop-down control to simultaneously be focused and have its drop-down open. In a correct visual state design, you'd have a separate VisualStateGroup for each state so they can both be active at once. Such groups might have names like "FocusStates" and "DropDownStates".
 
@@ -43,7 +43,7 @@ When using [StateTriggers](visualstate_statetriggers.md) to control visual state
 
 If there are multiple active triggers at a time that have a conflict in scoring (i.e. two active custom triggers), then the first one declared in the markup file takes precedence.
 
-Note: While [AdaptiveTrigger](adaptive_trigger.md) does derive from [StateTriggerBase](statetriggerbase.md), it can only be activated through setting [MinWindowWidth](adaptivetrigger_minwindowwidth.md) and/or [MinWindowHeight](adaptivetrigger_minwindowheight.md).
+Note: While [AdaptiveTrigger](adaptivetrigger.md) does derive from [StateTriggerBase](statetriggerbase.md), it can only be activated through setting [MinWindowWidth](adaptivetrigger_minwindowwidth.md) and/or [MinWindowHeight](adaptivetrigger_minwindowheight.md).
 
 ###  **VisualStateGroup**  API that support custom **VisualStateManager** implementation
 

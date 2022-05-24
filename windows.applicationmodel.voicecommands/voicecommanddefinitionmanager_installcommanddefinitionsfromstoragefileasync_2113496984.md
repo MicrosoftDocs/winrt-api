@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncAction InstallCommandDefinitionsFromStorageFileA
 # Windows.ApplicationModel.VoiceCommands.VoiceCommandDefinitionManager.InstallCommandDefinitionsFromStorageFileAsync
 
 ## -description
-Installs the [CommandSet](../windows.media.speechrecognition/voice_command_elements_and_attributes.md) elements in a Voice Command Definition (VCD) file.
+Installs the [CommandSet](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) elements in a Voice Command Definition (VCD) file.
 
 ## -parameters
 ### -param file
@@ -27,4 +27,4 @@ Do not call this method from a [Suspending](../windows.applicationmodel.core/cor
 ## -examples
 
 ## -see-also
-[ elements and attributes v1.2](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2), [Cortana interactions](/windows/uwp/input-and-devices/cortana-interactions), [Cortana design guidelines](/windows/uwp/input-and-devices/cortana-design-guidelines), [Cortana voice command sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CortanaVoiceCommand)
+[Voice Command Definition (VCD) elements and attributes v1.2](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2), [Cortana interactions](/windows/apps/design/input/cortana-interactions), [Cortana design guidelines](/windows/apps/design/input/cortana-design-guidelines), [Cortana voice command sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CortanaVoiceCommand)

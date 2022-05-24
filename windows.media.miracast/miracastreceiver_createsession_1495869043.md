@@ -17,7 +17,7 @@ Creates a new [MiracastReceiverSession](miracastreceiversession.md) object, need
 ## -parameters
 ### -param view
 
-The [CoreApplicationView](..\Windows.ApplicationModel.Core\coreapplicationview.md) used by the app when displaying the Miracast video stream.
+The [CoreApplicationView](../windows.applicationmodel.core/coreapplicationview.md) used by the app when displaying the Miracast video stream.
 
 ## -returns
 
@@ -29,7 +29,7 @@ Because this method may block for a noticeable period of time, you should not ca
 
 ## -see-also
 
-[CoreApplicationView](../Windows.ApplicationModel.Core/coreapplicationview.md),
+[CoreApplicationView](/windows.applicationmodel.core/coreapplicationview.md),
 [CreateSessionAsync](miracastreceiver_createsessionasync_1751251082.md),
 [MiracastReceiverSession](miracastreceiversession.md)
 

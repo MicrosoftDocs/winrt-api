@@ -29,6 +29,6 @@ Represents a control that displays the avatar image for a person, if one is avai
 > [!TIP]
 > For more info, design guidance, and code examples, see [Person picture](/windows/uwp/design/controls-and-patterns/person-picture).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the PersonPicture in action](xamlcontrolsgallery:/item/PersonPicture).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the PersonPicture in action](winui2gallery:/item/PersonPicture).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)

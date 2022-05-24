@@ -12,7 +12,6 @@ public class ElementSoundPlayer : Windows.UI.Xaml.IElementSoundPlayer
 ## -description
 Represents a player for XAML control sounds.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.ElementSoundPlayer](/windows/winui/api/microsoft.ui.xaml.elementsoundplayer).
 
 ## -remarks
 For more info, see [Sound in UWP apps](/windows/uwp/style/sound).
@@ -28,8 +27,8 @@ For more info, see [Sound in UWP apps](/windows/uwp/style/sound).
 > [!TIP]
 > For more info, design guidance, and code examples, see [Sound](/windows/uwp/design/style/sound).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ElementSoundPlayer in action](xamlcontrolsgallery:/item/Sound).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ElementSoundPlayer in action](winui2gallery:/item/Sound).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 ## -see-also

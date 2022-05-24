@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.Devices.Bluetooth.GenericAttributeProfile.GattReadRequest.RespondWithProtocolError(System.Byte)
 -api-type: winrt method
+ms.custom: project-verbatim
 ---
 
 <!-- Method syntax.
@@ -22,7 +23,6 @@ The protocol error to send. A list of errors with the byte values can be found i
 ## -see-also
 
 ## -examples
-
 
 ## -capabilities
 bluetooth

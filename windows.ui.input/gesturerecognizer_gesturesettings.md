@@ -13,7 +13,7 @@ public Windows.UI.Input.GestureSettings GestureSettings { get;  set; }
 Gets or sets a value that indicates the gesture and manipulation settings supported by an application.
 
 ## -property-value
-The gesture settings supported by an application. The value of this property is a bitwise OR of members of GestureSettings enumeration.
+A bitwise combination of gesture and manipulation settings supported by an application.
 
 ## -remarks
 

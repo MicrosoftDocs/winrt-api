@@ -10,7 +10,7 @@ public Windows.Devices.Scanners.ImageScannerColorMode DefaultColorMode { get; }
 # Windows.Devices.Scanners.ImageScannerFlatbedConfiguration.DefaultColorMode
 
 ## -description
-Gets the default color mode for the scanner's Flatbed.
+Gets the default color mode for the scanner's flatbed.
 
 ## -property-value
 The color mode.

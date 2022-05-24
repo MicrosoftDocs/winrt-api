@@ -12,7 +12,6 @@ public DoubleCollection()
 ## -description
 Initializes a new instance of the [DoubleCollection](doublecollection.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.DoubleCollection.DoubleCollection](/windows/winui/api/microsoft.ui.xaml.media.doublecollection.#ctor).
 
 ## -remarks
 

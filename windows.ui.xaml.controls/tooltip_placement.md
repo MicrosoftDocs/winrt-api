@@ -27,7 +27,7 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToolTip.Placement](/windo
 One of the [PlacementMode](../windows.ui.xaml.controls.primitives/placementmode.md) values.
 
 ## -remarks
-If there is no explicit [PlacementTarget](tooltip_placementtarget.md), the placement target for a [ToolTip](tooltip.md) is the element that specifies the [ToolTip](slider_isthumbtooltipenabled.md) as the value for its [TooltipService.ToolTip](/uwp/api/windows.ui.xaml.controls.tooltipservice#xaml-attached-properties) attached property value, and any Placement value applies to that target.
+If there is no explicit [PlacementTarget](tooltip_placementtarget.md), the placement target for a [ToolTip](tooltip.md) is the element that specifies the [ToolTip](slider_isthumbtooltipenabled.md) as the value for its [TooltipService.ToolTip](/uwp/api/windows.ui.xaml.controls.tooltipservice.tooltip) attached property value, and any Placement value applies to that target.
 
 Placement and [PlacementTarget](tooltip_placementtarget.md) are usually left as the defaults. The scenario for specifying either or both of these properties is if you are trying to avoid a case where the tooltip obscures the content it is referring to while the tooltip is displayed.
 

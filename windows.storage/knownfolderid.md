@@ -3,63 +3,67 @@
 -api-type: winrt enum
 ---
 
-<!-- Enumeration syntax
-public enum Windows.Storage.KnownFolderId : int
--->
+# Windows.Storage.KnownFolderId
 
-# KnownFolderId
+<!--
+public enum KnownFolderId
+-->
 
 ## -description
 Provides values that identify storage folders.
 
 ## -enum-fields
-### -field AppCaptures:0
-App Captures folder.
 
-### -field CameraRoll:1
-Camera Roll folder.
-
-### -field DocumentsLibrary:2
-Documents library folder.
-
-### -field HomeGroup:3
-HomeGroup folder.
-
-### -field MediaServerDevices:4
-The folder of media server (Digital Living Network Alliance (DLNA)) devices.
-
-### -field MusicLibrary:5
-Music library folder.
-
-### -field Objects3D:6
-Objects 3D folder.
-
-### -field PicturesLibrary:7
-Pictures library folder.
-
-### -field Playlists:8
-Playlists folder.
-
-### -field RecordedCalls:9
-Recorded calls folder.
-
-### -field RemovableDevices:10
-Removable devices folder.
-
-### -field SavedPictures:11
-Saved pictures folder.
-
-### -field Screenshots:12
-Screenshots folder.
-
-### -field VideosLibrary:13
-Videos library folder.
-
-### -field AllAppMods:14
+### -field AllAppMods
 All app modifications folder.
 
-### -field CurrentAppMods:15
+### -field AppCaptures
+App Captures folder.
+
+### -field CameraRoll
+Camera Roll folder.
+
+### -field CurrentAppMods
 Current app modifications folder.
+
+### -field DocumentsLibrary
+Documents library folder.
+
+### -field DownloadsFolder
+Downloads library folder.
+
+### -field HomeGroup
+HomeGroup folder.
+
+### -field MediaServerDevices
+The folder of media server (Digital Living Network Alliance (DLNA)) devices.
+
+### -field MusicLibrary
+Music library folder.
+
+### -field Objects3D
+Objects 3D folder.
+
+### -field PicturesLibrary
+Pictures library folder.
+
+### -field Playlists
+Playlists folder.
+
+### -field RecordedCalls
+Recorded calls folder.
+
+### -field RemovableDevices
+Removable devices folder.
+
+### -field SavedPictures
+Saved pictures folder.
+
+### -field Screenshots
+Screenshots folder.
+
+### -field VideosLibrary
+Videos library folder.
 
 ## -remarks
 

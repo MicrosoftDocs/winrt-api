@@ -14,7 +14,6 @@ public void DataTemplate.RecycleElement(ElementFactoryRecycleArgs args)
 
 Recycles a [UIElement](../windows.ui.xaml/uielement.md) that was previously retrieved using [GetElement](datatemplate_getelement_92222689.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DataTemplate.RecycleElement](/windows/winui/api/microsoft.ui.xaml.datatemplate.recycleelement).
 
 ## -parameters
 
@@ -39,7 +38,7 @@ Specifying the [Parent](elementfactoryrecycleargs_parent.md) is not required whe
 >
 > If you're creating a custom virtualizing control from scratch or calling RecycleElement in one-off scenarios then be aware it is your responsibility to exclude recycled elements from the tab order and the tree of automation peers.
 >
-> You can override [GetChildrenInTabFocusOrder](uielement_getchildrenintabfocusorder_1610735643) and provide the subset of realized elements the framework should use for Tab focus. Similarly, the automation peer for the control should override its [GetChildrenCore](../windows.ui.xaml.automation.peers/automationpeer_getchildrencore_766641859) and exclude recycled elements.
+> You can override [GetChildrenInTabFocusOrder](uielement_getchildrenintabfocusorder_1610735643.md) and provide the subset of realized elements the framework should use for Tab focus. Similarly, the automation peer for the control should override its [GetChildrenCore](../windows.ui.xaml.automation.peers/automationpeer_getchildrencore_766641859) and exclude recycled elements.
 
 ## -see-also
 

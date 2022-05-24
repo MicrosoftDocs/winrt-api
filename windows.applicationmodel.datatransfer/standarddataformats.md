@@ -44,10 +44,9 @@ The Windows Runtime provides limited support for metafiles. Specifically, the Wi
 | 1803 | 17134 | UserActivityJsonArray |
 
 ## -examples
-This example shows how to retrieve shared text.
 
+This example shows how to retrieve shared text (by using **StandardDataFormats.Text**) or a shared file or folder (by using **StandardDataFormats.StorageItems**). For more examples, see the [Clipboard sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Clipboard) and the [ShareTarget sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ShareTarget).
 
-
-[!code-js[HowToReceiveSharedText](../windows.applicationmodel.datatransfer.sharetarget/code/ShareTargetBeta/javascript/js/ReceivedShardText.js#SnippetHowToReceiveSharedText)]
+[!code-cs[HowToReceiveShare](../windows.applicationmodel.datatransfer.sharetarget/code/ShareTargetBeta/cs/MainPage.xaml.cs#Snippetcs_HandleShare)]
 
 ## -see-also

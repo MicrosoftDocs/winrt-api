@@ -15,8 +15,6 @@ Close an open connection by calling [Close](audioplaybackconnection_close_811482
 
 ## -see-also
 
-[Open](audioplaybackconnection_open_389234318.md)
-[OpenAsync](audioplaybackconnection_openasync_171309613.md)
+[Open](audioplaybackconnection_open_389234318.md), [OpenAsync](audioplaybackconnection_openasync_171309613.md)
 
 ## -examples
-

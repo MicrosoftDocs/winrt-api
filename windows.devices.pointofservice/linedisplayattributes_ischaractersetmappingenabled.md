@@ -16,9 +16,9 @@ Gets or sets whether character set mapping is enabled.
 True if character set mapping is enabled; otherwise, False.
 
 ## -remarks
-When [LineDisplayCapabilities.CanMapCharacterSets](LineDisplayCapabilities.CanMapCharacterSets) is True, this writeable property controls whether character mapping is enabled. When character mapping is enabled, characters sent by the application are mapped by the device driver/the Service Object to the characters supported by the device.
+When [LineDisplayCapabilities.CanMapCharacterSets](linedisplaycapabilities_canmapcharactersets.md) is True, this writeable property controls whether character mapping is enabled. When character mapping is enabled, characters sent by the application are mapped by the device driver/the Service Object to the characters supported by the device.
 
-When [LineDisplayCapabilities.CanMapCharacterSets](LineDisplayCapabilities.CanMapCharacterSets) is False the value of this property is fixed to False and cannot be changed.
+When [LineDisplayCapabilities.CanMapCharacterSets](linedisplaycapabilities_canmapcharactersets.md) is False the value of this property is fixed to False and cannot be changed.
 
 Changes to this property are committed to the device on the next call to [ClaimedLineDisplay.TryUpdateAttributesAsync(LineDisplayAttributes)](claimedlinedisplay_tryupdateattributesasync_1303674463.md).
 

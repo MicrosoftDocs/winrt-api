@@ -12,7 +12,6 @@ public class ToggleButton : Windows.UI.Xaml.Controls.Primitives.ButtonBase, Wind
 ## -description
 Represents a control that a user can select (check) or clear (uncheck). Base class for controls that can switch states, such as [CheckBox](../windows.ui.xaml.controls/checkbox.md) and [RadioButton](../windows.ui.xaml.controls/radiobutton.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.ToggleButton](/windows/winui/api/microsoft.ui.xaml.controls.primitives.togglebutton).
 
 ## -xaml-syntax
 ```xaml
@@ -53,9 +52,9 @@ ToggleButton is the parent class for several immediately derived controls that t
 > [!TIP]
 > For more info, design guidance, and code examples, see [Toggle switches](/windows/uwp/design/controls-and-patterns/toggles).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ToggleButton in action](xamlcontrolsgallery:/item/ToggleButton).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ToggleButton in action](winui2gallery:/item/ToggleButton).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 The following example shows how to create a three-state ToggleButton control.
 

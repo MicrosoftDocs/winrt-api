@@ -14,7 +14,6 @@ public ElementFactoryGetArgs.ElementFactoryGetArgs()
 
 Initializes a new instance of the [ElementFactoryGetArgs](elementfactorygetargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.ElementFactoryGetArgs.ElementFactoryGetArgs](/windows/winui/api/microsoft.ui.xaml.elementfactorygetargs.#ctor).
 
 ## -remarks
 

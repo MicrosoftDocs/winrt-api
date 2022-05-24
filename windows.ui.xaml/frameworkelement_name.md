@@ -34,7 +34,7 @@ Name should never be localized. Name is used as a field name variable in code-be
 
 ### Scenarios for Name
 
-Setting **x:Name** or Name in the XAML that defines UI elements supports several major scenarios: + **Animation targeting** To apply an animation to an object property, you must target a specific instance. You do that by setting the [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) attached property on any [Timeline](../windows.ui.xaml.media.animation/timeline.md). The value that you set here is the string that you assigned as the **x:Name** or Name. For more info, see [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations).
+Setting **x:Name** or Name in the XAML that defines UI elements supports several major scenarios: + **Animation targeting** To apply an animation to an object property, you must target a specific instance. You do that by setting the [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard.targetname) attached property on any [Timeline](../windows.ui.xaml.media.animation/timeline.md). The value that you set here is the string that you assigned as the **x:Name** or Name. For more info, see [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations).
 + **Parts of a control template** In order to support the visual state model and control initialization, control authors should specify **Name** values for the key parts of a templated control. For more info see [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)).
 + **General run time interaction** For example, code within an event handler might handle an event on an object that provides the change UI, but the change to properties occurs on another nearby UI element. The easiest way to write code for this situation is to use the field reference generated from a **Name**.
 
@@ -62,7 +62,7 @@ It can be difficult to know which Name values already exist in the XAML namescop
 Note that you can only set Name at run time for objects that are a [FrameworkElement](frameworkelement.md) or an [Inline](../windows.ui.xaml.documents/inline.md). If an object does not have a **Name** property, and setting the name in XAML would have required using the **x:Name** attribute rather than **Name**, there is no run-time API available for setting such an object's run-time name.
 
 ## -examples
-This example gets a value for Name from an existing object, and uses that name to retarget an animation. You target an animation by setting the [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties) attached property.
+This example gets a value for Name from an existing object, and uses that name to retarget an animation. You target an animation by setting the [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard.targetname) attached property.
 
 
 
@@ -71,5 +71,5 @@ This example gets a value for Name from an existing object, and uses that name t
 [!code-vb[Change_targetname_1_cs](../windows.ui.xaml/code/change_targetname_1/vbnet/Page.xaml.vb#SnippetChange_targetname_1_cs)]
 
 ## -see-also
-[x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute), [FindName](frameworkelement_findname_634111277.md), [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard#xaml-attached-properties), [XAML namescopes](/windows/uwp/xaml-platform/xaml-namescopes), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)
+[x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute), [FindName](frameworkelement_findname_634111277.md), [Storyboard.TargetName](/uwp/api/windows.ui.xaml.media.animation.storyboard.targetname), [XAML namescopes](/windows/uwp/xaml-platform/xaml-namescopes), [XAML overview](/windows/uwp/xaml-platform/xaml-overview)
 1b37-f1a8-44a4-bb8e-1d4de30e7823)

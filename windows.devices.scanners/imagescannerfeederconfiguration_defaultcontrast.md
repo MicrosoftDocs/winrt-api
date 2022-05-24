@@ -10,7 +10,7 @@ public int DefaultContrast { get; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.DefaultContrast
 
 ## -description
-Gets the default contrast level for the scanner's Feeder.
+Gets the default contrast level for the scanner's feeder.
 
 ## -property-value
 The default contrast level.

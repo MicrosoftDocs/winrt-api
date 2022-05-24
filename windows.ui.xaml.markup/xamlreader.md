@@ -12,7 +12,6 @@ public class XamlReader : Windows.UI.Xaml.Markup.IXamlReader
 ## -description
 Provides a XAML processor engine for parsing XAML and creating corresponding object trees.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Markup.XamlReader](/windows/winui/api/microsoft.ui.xaml.markup.xamlreader).
 
 ## -remarks
 XamlReader  is a utility class with methods that create objects based on an input of XAML markup in string form. XamlReader provides object construction behavior that parallels how XAML is parsed by the Windows Runtime XAML parser and the use of XAML for defining the UI of a UWP app.

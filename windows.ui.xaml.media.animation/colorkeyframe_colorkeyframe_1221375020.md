@@ -12,7 +12,6 @@ protected ColorKeyFrame()
 ## -description
 Provides base class initialization behavior for [ColorKeyFrame](colorkeyframe.md)-derived classes.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame.ColorKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframe.#ctor).
 
 ## -remarks
 

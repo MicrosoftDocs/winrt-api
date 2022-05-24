@@ -18,8 +18,6 @@ Empties the collection of known [MiracastTransmitter](miracasttransmitter.md) ob
 
 ## -see-also
 
-[MiracastTransmitter](miracasttransmitter.md),
-[RemoveKnownTransmitter](miracastreceiver_removeknowntransmitter_1355701555.md)
+[MiracastTransmitter](miracasttransmitter.md), [RemoveKnownTransmitter](miracastreceiver_removeknowntransmitter_1355701555.md)
 
 ## -examples
-

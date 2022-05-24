@@ -10,7 +10,7 @@ public void TetheringEntitlementCheckTriggerDetails.AllowTethering()
 # Windows.Networking.NetworkOperators.TetheringEntitlementCheckTriggerDetails.AllowTethering
 
 ## -description
-Indicates that tethering is permitted for the network account ID (SSID) for the device.
+Indicates that tethering is permitted for the service set identifier (SSID) for the device.
 
 ## -remarks
 

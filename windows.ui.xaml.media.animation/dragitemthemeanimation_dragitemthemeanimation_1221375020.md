@@ -12,7 +12,6 @@ public DragItemThemeAnimation()
 ## -description
 Initializes a new instance of the [DragItemThemeAnimation](dragitemthemeanimation.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DragItemThemeAnimation.DragItemThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.dragitemthemeanimation.#ctor).
 
 ## -remarks
 

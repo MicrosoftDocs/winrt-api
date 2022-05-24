@@ -23,17 +23,23 @@ Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.Ite
 
 
 ## -property-value
-The width of the layout area for each item that is contained in a [VariableSizedWrapGrid](variablesizedwrapgrid.md). The default is [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true), which results in the "Auto" layout behavior.
+The width of the layout area for each item that is contained in a [VariableSizedWrapGrid](variablesizedwrapgrid.md). The default is NaN. See Remarks below.
 
 ## -remarks
-### "Auto" layout and Double.NaN
 
-The default value of [ItemHeight](variablesizedwrapgrid_itemheight.md) and ItemWidth is not 0, it is [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true). [ItemHeight](variablesizedwrapgrid_itemheight.md) and ItemWidth support the ability to be an unset "Auto" value. Because [ItemHeight](variablesizedwrapgrid_itemheight.md) and ItemWidth are **Double** values, [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true) is used as a special value to represent this "Auto" behavior. The layout system interprets the "Auto" value to generally mean that the object should be sized to the available size in layout, instead of to a specific pixel value. If you want the "Auto" behavior for an object when it is used in layout, leave [ItemHeight](variablesizedwrapgrid_itemheight.md) and ItemWidth unset at their [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true) default value. If you have previously set values and want to reenable the "Auto" behavior with run-time code, set to [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true). In XAML such as templates, you can set attribute values using the string "Auto". 
-<!--Setting Auto in XAML is a special behavior of the XAML parser, not a TypeConverter behavior.-->
-
+<!-- "Auto" is not supported in XAML markup for this property -->
+If ItemWidth is NaN, then the VariableSizedWrapGrid uses the width of the first cell.
 
 > [!NOTE]
-> Visual C++ component extensions (C++/CX) doesn't have a constant for **NaN**, it uses a value, which appears as "-1.#IND" followed by zeros.
+> In C#, you can obtain NaN from [Double.NaN](/dotnet/api/system.double.nan?view=dotnet-uwp-10.0&preserve-view=true).
+>
+> In C++, you can obtain NaN by using the [`NAN` macro](/cpp/standard-library/cmath) or [`std::numeric_limits<double>::quiet_NaN()`](/cpp/standard-library/numeric-limits-class#quiet_nan).
+>
+> Do not use the `==` operator to test for NaN.
+>
+> In C#, use [Double.IsNaN()](/dotnet/api/system.double.isnan?view=dotnet-uwp-10.0&preserve-view=true) to test for NaN.
+>
+> In C++, use [isnan()](/cpp/c-runtime-library/reference/isnan-isnan-isnanf) to test for NaN.
 
 ## -examples
 

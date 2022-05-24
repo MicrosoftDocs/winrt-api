@@ -13,7 +13,6 @@ public object XamlDirect.GetObjectProperty(IXamlDirectObject xamlDirectObject, X
 ## -description
 Gets the value of an _object_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetObjectProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getobjectproperty).
 
 ## -parameters
 ### -param xamlDirectObject

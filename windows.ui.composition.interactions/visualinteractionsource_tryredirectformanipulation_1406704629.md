@@ -53,7 +53,7 @@ Internally, the system GestureRecognizer is being used to route input. Apps can 
 //
 // This is accomplished in three main steps:
 //
-// 1) Creating a InteractionTracker and setting (or binding) it's boundaries.
+// 1) Creating a InteractionTracker and setting (or binding) its boundaries.
 //
 // 2) Creating at least one Interaction source and associating it with the InteractionTracker.
 //

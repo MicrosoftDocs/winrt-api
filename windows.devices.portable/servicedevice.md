@@ -19,7 +19,7 @@ The [GetDeviceSelector](servicedevice_getdeviceselector_1045577800.md) and [GetD
 
 Examples of device services are the Media Transfer Protocol (MTP) device services that allow access to device status, contacts, calendar, tasks, and ringtones on a device. For more information, see [MTP Device Services for Windows](/previous-versions/windows/hardware/design/dn613966(v=vs.85)).
 
-The [Portable Device Services Sample]( http://go.microsoft.com/fwlink/p/?linkid=242031) demonstrates how to access the device service once you have discovered it.
+The [Portable Device Services Sample](https://github.com/microsoft/Windows-classic-samples/tree/340d6c8c537919663cb122d1a3cf76bed91c06f8/Samples/PortableDeviceServices) demonstrates how to access the device service once you have discovered it.
 
 > [!NOTE]
 > Access to a device service using this API is only available to Microsoft Store device apps given privileged access to a device by the device manufacturer. For more information about Microsoft Store device apps, see [Windows 8 Device Experience: .](http://msdn.microsoft.com/en-us/library/windows/hardware/br259108.aspx)
@@ -27,4 +27,4 @@ The [Portable Device Services Sample]( http://go.microsoft.com/fwlink/p/?linkid=
 ## -examples
 
 ## -see-also
-[Windows 8 Device Experience: ](http://msdn.microsoft.com/en-us/library/windows/hardware/br259108.aspx), [Portable Device Services Sample](/samples/browse/), [Enumerating Common Devices](/previous-versions/windows/apps/hh464974(v=win.10))
+[Windows 8 Device Experience: ](http://msdn.microsoft.com/en-us/library/windows/hardware/br259108.aspx), [Portable Device Services Sample](https://github.com/microsoft/Windows-classic-samples/tree/340d6c8c537919663cb122d1a3cf76bed91c06f8/Samples/PortableDeviceServices), [Enumerating Common Devices](/previous-versions/windows/apps/hh464974(v=win.10))

@@ -12,7 +12,6 @@ public VariableSizedWrapGrid()
 ## -description
 Initializes a new instance of the [VariableSizedWrapGrid](variablesizedwrapgrid.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.VariableSizedWrapGrid](/windows/winui/api/microsoft.ui.xaml.controls.variablesizedwrapgrid.#ctor).
 
 ## -remarks
 

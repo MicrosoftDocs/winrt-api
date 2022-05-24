@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Media.Animation.RepeatBehavior FromDuration(Windows.Found
 # Windows.UI.Xaml.Media.Animation.RepeatBehaviorHelper.FromDuration
 
 ## -description
-Creates a new [RepeatBehavior](repeatbehavior.md) based on a timespan. C# and Microsoft Visual Basic code should use [RepeatBehavior(TimeSpan)](repeatbehavior_repeatbehavior_2.md) instead.
+Creates a new [RepeatBehavior](repeatbehavior.md) based on a timespan. C# and Microsoft Visual Basic code should use [RepeatBehavior(TimeSpan)](/dotnet/api/windows.ui.xaml.media.animation.repeatbehavior.-ctor?view=dotnet-plat-ext-3.1#Windows_UI_Xaml_Media_Animation_RepeatBehavior__ctor_System_TimeSpan_) instead.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.RepeatBehaviorHelper.FromDuration](/windows/winui/api/microsoft.ui.xaml.media.animation.repeatbehaviorhelper.fromduration).
 

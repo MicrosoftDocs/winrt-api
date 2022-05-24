@@ -30,4 +30,4 @@ The user-defined tag for the event field. Specifies up to twenty-eight bits of u
 ## -examples
 
 ## -see-also
-[AddTimeSpanArray(String, TimeSpan[])](loggingfields_addtimespanarray_120746009.md), [AddTimeSpanArray(String, TimeSpan[], LoggingFieldFormat)](loggingfields_addtimespanarray_1214942467.md)
+[AddTimeSpanArray(String, TimeSpan\[\])](loggingfields_addtimespanarray_120746009.md), [AddTimeSpanArray(String, TimeSpan\[\], LoggingFieldFormat)](loggingfields_addtimespanarray_1214942467.md)

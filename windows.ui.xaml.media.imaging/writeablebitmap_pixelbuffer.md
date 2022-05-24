@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Xaml.Media.Imaging.WriteableBitmap.PixelBuffer
 -api-type: winrt property
+ms.custom: project-verbatim
 ---
 
 <!-- Property syntax
@@ -152,6 +153,10 @@ bufferByteAccess->Buffer(&pBuffer);
 ```
 
 ## -remarks
+
+> [!NOTE]
+> Use the **Language** picker (near the title) to choose a programming language for the code example.
+
 The [IBuffer](/uwp/api/windows.storage.streams.ibuffer) returned by **PixelBuffer** can't be written to directly. But you can use language-specific techniques to write to the underlying pixel content in the buffer.
 
 - To access the pixel content from C# or Microsoft Visual Basic, you can use the [WindowsRuntimeBufferExtensions.AsStream method](/dotnet/api/system.runtime.interopservices.windowsruntime.windowsruntimebufferextensions.asstream?view=dotnet-uwp-10.0&preserve-view=true) to access the underlying buffer as a stream. This is shown in the C# code example.

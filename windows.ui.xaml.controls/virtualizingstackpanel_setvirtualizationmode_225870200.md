@@ -10,7 +10,7 @@ public void SetVirtualizationMode(Windows.UI.Xaml.DependencyObject element, Wind
 # Windows.UI.Xaml.Controls.VirtualizingStackPanel.SetVirtualizationMode
 
 ## -description
-Sets the [VirtualizingStackPanel.VirtualizationMode](/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel#xaml-attached-properties) XAML attached property on the specified target element.
+Sets the [VirtualizingStackPanel.VirtualizationMode](virtualizingstackpanel_virtualizationmode.md) XAML attached property on the specified target element.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel.SetVirtualizationMode](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel.setvirtualizationmode).
 
@@ -22,9 +22,10 @@ The target element.
 One of the enumeration values that specifies whether *element* uses container recycling.
 
 ## -remarks
-For more info, see the [VirtualizingStackPanel.VirtualizationMode](/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel#xaml-attached-properties) attached property.
+For more info, see the [VirtualizingStackPanel.VirtualizationMode](virtualizingstackpanel_virtualizationmode.md) attached property.
 
 ## -examples
 
 ## -see-also
-[VirtualizingStackPanel.VirtualizationMode](/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel#xaml-attached-properties)
+
+[VirtualizingStackPanel.VirtualizationMode](virtualizingstackpanel_virtualizationmode.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

@@ -12,7 +12,7 @@ public class ControlChannelTrigger : Windows.Foundation.IClosable, Windows.Netwo
 ## -description
 Enables real time notifications to be received in the background for objects that establish a TCP connection and wish to be notified of incoming traffic.
 
-Call [**BackgroundExecutionManager.RequestAccessAsync**](../windows.applicationmodel.background.backgroundexecutionmanager.md#Windows_ApplicationModel_Background_BackgroundExecutionManager_RequestAccessAsync) before using **ControlChannelTrigger**.
+Call [**BackgroundExecutionManager.RequestAccessAsync**](../windows.applicationmodel.background/backgroundexecutionmanager_requestaccessasync_1328635663.md) before using **ControlChannelTrigger**.
 
 > [!NOTE]
 > This class is not supported on Windows Phone.

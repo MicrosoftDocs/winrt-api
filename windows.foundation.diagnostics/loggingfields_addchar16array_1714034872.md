@@ -24,4 +24,4 @@ The array of values for the event field.
 ## -examples
 
 ## -see-also
-[AddChar16Array(String, Char[], LoggingFieldFormat)](loggingfields_addchar16array_695395748.md), [AddChar16Array(String, Char[], LoggingFieldFormat, Int32)](loggingfields_addchar16array_213049244.md)
+[AddChar16Array(String, Char\[\], LoggingFieldFormat)](loggingfields_addchar16array_695395748.md), [AddChar16Array(String, Char\[\], LoggingFieldFormat, Int32)](loggingfields_addchar16array_213049244.md)

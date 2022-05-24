@@ -20,11 +20,6 @@ This is a Single User Aware (SUA) method.
 If the app does not have access because it isn’t manifested with the required capability, the user denied access from a prompt or the settings page, or a system administrator has disabled access, then this call will fail with access denied.
 
 ## -see-also
-[KnownFolderId](knownfolderid.md)
-
-[StorageFolder](storagefolder.md)
-
-[GetFolderForUserAsync](knownfolders_getfolderforuserasync_705109113.md)
+[KnownFolderId](knownfolderid.md), [StorageFolder](storagefolder.md), [GetFolderForUserAsync](knownfolders_getfolderforuserasync_705109113.md)
 
 ## -examples
-

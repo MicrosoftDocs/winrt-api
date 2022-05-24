@@ -12,7 +12,6 @@ public void ReplaceAll(Windows.UI.Xaml.Media.TimelineMarker[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TimelineMarkerCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.media.timelinemarkercollection.replaceall).
 
 ## -parameters
 ### -param items

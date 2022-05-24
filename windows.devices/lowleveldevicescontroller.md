@@ -10,7 +10,7 @@ public class LowLevelDevicesController : Windows.Devices.ILowLevelDevicesControl
 # Windows.Devices.LowLevelDevicesController
 
 ## -description
-Represents a low level bus device controller, and it's associated provider.
+Represents a low level bus device controller, and its associated provider.
 
 ## -remarks
 

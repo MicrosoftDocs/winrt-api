@@ -22,6 +22,4 @@ When the CheckSupportedHardware property returns false when querying the Hardwar
 ## -examples
 
 ## -see-also
-HardwareDRMDisabledUntilTime
-[ResetHardwareDRMDisabled](playreadystatics_resethardwaredrmdisabled_231965222.md)
-
+[HardwareDRMDisabledUntilTime](playreadystatics_hardwaredrmdisableduntiltime.md), [ResetHardwareDRMDisabled](playreadystatics_resethardwaredrmdisabled_231965222.md)

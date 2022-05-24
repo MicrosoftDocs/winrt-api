@@ -17,7 +17,7 @@ Removes an item from the property set.
 The key of the item to remove.
 
 ## -remarks
-For the C# and Microsoft Visual Basic version of the **Remove(Guid)** method, see [Remove](mediapropertyset_remove_2.md).
+For the C# and Microsoft Visual Basic version of the **Remove(Guid)** method, see [Remove](/uwp/api/windows.media.mediaproperties.mediapropertyset.remove).
 
 ## -examples
 

@@ -30,4 +30,9 @@ A value of the enumeration. The default is **Windows**.
 ## -examples
 
 ## -see-also
+
+## -see-also
+
+[DeprecatedAttribute(String, DeprecationType, UInt32, String)](deprecatedattribute_deprecatedattribute_1176550422.md),
+[DeprecatedAttribute(String, DeprecationType, UInt32, Type)](deprecatedattribute_deprecatedattribute_1908385198.md),
 [DeprecatedAttribute(String, DeprecationType, UInt32)](deprecatedattribute_deprecatedattribute_1976601322.md)

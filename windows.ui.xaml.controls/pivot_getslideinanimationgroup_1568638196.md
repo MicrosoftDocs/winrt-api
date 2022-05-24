@@ -26,3 +26,5 @@ The slide-in animation group that this [FrameworkElement](../windows.ui.xaml/fra
 ## -examples
 
 ## -see-also
+
+[Pivot.SlideInAnimationGroup](pivot_slideinanimationgroup.md), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

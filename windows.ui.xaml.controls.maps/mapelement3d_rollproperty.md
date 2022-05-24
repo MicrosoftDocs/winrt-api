@@ -10,10 +10,10 @@ public DependencyProperty RollProperty { get; }
 # Windows.UI.Xaml.Controls.Maps.MapElement3D.RollProperty
 
 ## -description
-Identifies the [Pitch](mapelement3d_pitch.md) dependency property.
+Gets the dependency property that backs the [Roll](mapelement3d_roll.md) Windows Runtime property.
 
 ## -property-value
-The [Pitch](mapelement3d_pitch.md) dependency property.
+The dependency property that backs the [Roll](mapelement3d_roll.md) Windows Runtime property.
 
 ## -remarks
 

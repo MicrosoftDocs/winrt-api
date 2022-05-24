@@ -12,7 +12,6 @@ public Rectangle()
 ## -description
 Initializes a new instance of the [Rectangle](rectangle.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Shapes.Rectangle.Rectangle](/windows/winui/api/microsoft.ui.xaml.shapes.rectangle.#ctor).
 
 ## -remarks
 

@@ -13,7 +13,6 @@ public Point XamlDirect.GetPointProperty(IXamlDirectObject xamlDirectObject, Xam
 ## -description
 Gets the value of a [Point](../windows.foundation/point.md) property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetPointProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getpointproperty).
 
 ## -parameters
 ### -param xamlDirectObject

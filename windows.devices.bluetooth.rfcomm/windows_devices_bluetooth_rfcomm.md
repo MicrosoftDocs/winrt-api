@@ -7,7 +7,7 @@
 
 ## -description
 
-The **Windows.Devices.Bluetooth.Rfcomm** namespace defines Windows Runtime classes that a UWP app and desktop applications can use to communicate with Bluetooth devices. For more information, see [Bluetooth](/windows/uwp/devices-sensors/bluetooth)To learn more about how to use **Windows.Devices.Bluetooth.Rfcomm**, see the [Bluetooth Rfcomm Chat Sample]( http://go.microsoft.com/fwlink/p/?LinkID=309279).
+The **Windows.Devices.Bluetooth.Rfcomm** namespace defines Windows Runtime classes that a UWP app and desktop applications can use to communicate with Bluetooth devices. For more information, see [Bluetooth](/windows/uwp/devices-sensors/bluetooth)To learn more about how to use **Windows.Devices.Bluetooth.Rfcomm**, see the [Bluetooth Rfcomm Chat Sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/BluetoothRfcommChat).
 
 ## -remarks
 

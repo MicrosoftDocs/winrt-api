@@ -13,7 +13,7 @@ public class MapCamera : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Contr
 Represents the position of a camera to define the view of a map.
 
 ## -remarks
-The MapCamera class uses a position to define the view of a map in the same way that the position of a real camera determines it's view of the earth.
+The MapCamera class uses a position to define the view of a map in the same way that the position of a real camera determines its view of the Earth.
 
 ## -examples
 

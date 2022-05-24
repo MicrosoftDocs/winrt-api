@@ -18,7 +18,7 @@ When this event is raised, you can get the latest app license from the Microsoft
 For more information about the OfflineLicensesChanged event, including a code example, see [Implement a trial version of your app](/windows/uwp/monetize/implement-a-trial-version-of-your-app).
 
 > [!NOTE]
-> This event is the equivalent of the [LicenseChanged](..\windows.applicationmodel.store\licenseinformation_licensechanged.md) event in the [Windows.ApplicationModel.Store](..\windows.applicationmodel.store\windows_applicationmodel_store.md) namespace.
+> This event is the equivalent of the [LicenseChanged](../windows.applicationmodel.store/licenseinformation_licensechanged.md) event in the [Windows.ApplicationModel.Store](../windows.applicationmodel.store/windows_applicationmodel_store.md) namespace.
 
 ## -examples
 

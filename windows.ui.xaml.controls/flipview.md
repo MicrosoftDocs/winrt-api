@@ -12,7 +12,6 @@ public class FlipView : Windows.UI.Xaml.Controls.Primitives.Selector, Windows.UI
 ## -description
 Represents an items control that displays one item at a time, and enables "flip" behavior for traversing its collection of items.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.FlipView](/windows/winui/api/microsoft.ui.xaml.controls.flipview).
 
 ## -xaml-syntax
 ```xaml
@@ -70,9 +69,9 @@ This table shows the resources used by the FlipView control.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Flip view](/windows/uwp/design/controls-and-patterns/flipview).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the FlipView in action](xamlcontrolsgallery:/item/FlipView).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the FlipView in action](winui2gallery:/item/FlipView).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a FlipView is defined inline.
 

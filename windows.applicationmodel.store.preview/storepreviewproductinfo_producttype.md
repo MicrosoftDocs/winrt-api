@@ -13,12 +13,13 @@ public string ProductType { get; }
 Gets the type of the in-app product.
 
 ## -property-value
-One of the following strings that specifies the type of the in-app product. <table>
-   <tr><th>String</th><th>Description</th></tr>
-   <tr><td>**Durable**</td><td>A durable product.</td></tr>
-   <tr><td>**Consumable**</td><td>A consumable product.</td></tr>
-   <tr><td>**Unknown**</td><td>The product type is unknown.</td></tr>
-</table>
+One of the following strings that specifies the type of the in-app product. 
+
+| String | Description |
+|---|---|
+| **Durable** | A durable product. |
+| **Consumable** | A consumable product. |
+| **Unknown** | The product type is unknown. |
 
 ## -remarks
 

@@ -20,8 +20,6 @@ The maximum number of [HolographicFrameScanoutReport](holographicframescanoutrep
 
 ## -see-also
 
-[HolographicFrameScanoutReport](holographicframescanoutreport.md)
-[HolographicFrame](holographicframe.md)
+[HolographicFrameScanoutReport](holographicframescanoutreport.md), [HolographicFrame](holographicframe.md)
 
 ## -examples
-

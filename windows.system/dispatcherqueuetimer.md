@@ -10,9 +10,7 @@ public class DispatcherQueueTimer
 # Windows.System.DispatcherQueueTimer
 
 ## -description
-Executes a task in a **DispatcherQueue** periodically after a time interval has elapsed.
-
-Equivalent WinUI class: [Microsoft.System.DispatcherQueueTimer](/windows/winui/api/microsoft.system.dispatcherqueuetimer).
+Periodically executes a task on a **DispatcherQueue** thread after a time interval has elapsed.
 
 ## -remarks
 The system guarantees to invoke the event handler only after the specified duration expires. However, there may be some delay before the tick handler is invoked if there are other pending work items in the queue.

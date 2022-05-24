@@ -13,7 +13,6 @@ public CompositionDebugSettings CompositionDebugSettings.TryGetSettings(Composit
 
 Attempts to get an instance of CompositionDebugSettings for the specified compositor.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Diagnostics.CompositionDebugSettings.TryGetSettings](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugsettings.trygetsettings).
 
 ## -parameters
 ### -param compositor

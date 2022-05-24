@@ -10,9 +10,8 @@ public class Grid : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.Controls.IGr
 # Windows.UI.Xaml.Controls.Grid
 
 ## -description
-Defines a flexible grid area that consists of columns and rows. Child elements of the Grid are measured and arranged according to their row/column assignments (set by using [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) attached properties) and other logic.
+Defines a flexible grid area that consists of columns and rows. Child elements of the Grid are measured and arranged according to their row/column assignments (set by using [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid.row) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid.column) attached properties) and other logic.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Grid](/windows/winui/api/microsoft.ui.xaml.controls.grid).
 
 ## -xaml-syntax
 ```xaml
@@ -33,11 +32,11 @@ Grid is a layout panel that supports arranging child elements in rows and column
 
 <img alt="Grid layout panel" src="images/controls/Grid.png" />
 
-You typically define layout behavior for a Grid in XAML by providing one or more [RowDefinition](rowdefinition.md) elements as the value of [Grid.RowDefinitions](grid_rowdefinitions.md), and one or more [ColumnDefinition](columndefinition.md) elements as the value of [Grid.ColumnDefinitions](grid_columndefinitions.md). Then, you apply the [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) attached properties to each of the element children of the Grid, to indicate which row/column combination is used to position that element within the parent Grid.
+You typically define layout behavior for a Grid in XAML by providing one or more [RowDefinition](rowdefinition.md) elements as the value of [Grid.RowDefinitions](grid_rowdefinitions.md), and one or more [ColumnDefinition](columndefinition.md) elements as the value of [Grid.ColumnDefinitions](grid_columndefinitions.md). Then, you apply the [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid.row) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid.column) attached properties to each of the element children of the Grid, to indicate which row/column combination is used to position that element within the parent Grid.
 
 To set the height of rows and the width of columns, you set [RowDefinition.Height](rowdefinition_height.md) for each [RowDefinition](rowdefinition.md) and [ColumnDefinition.Width](columndefinition_width.md) for each [ColumnDefinition](columndefinition.md). By default, each row or column divides layout space equally. You can change this behavior either by providing absolute pixel values, or a **Star** sizing that divides available space using a weighted factor. For more info on how to use **Star** sizing in a Grid, see [Define layouts with XAML](/windows/uwp/layout/layouts-with-xaml) or [GridLength](../windows.ui.xaml/gridlength.md). You also can use an **Auto** sizing that sizes to content.
 
-To indicate that an element child should span multiple rows or multiple columns in the Grid, you can apply the [Grid.RowSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) or [Grid.ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) attached properties to child elements of a Grid.
+To indicate that an element child should span multiple rows or multiple columns in the Grid, you can apply the [Grid.RowSpan](/uwp/api/windows.ui.xaml.controls.grid.rowspan) or [Grid.ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid.columnspan) attached properties to child elements of a Grid.
 
 By default, a Grid contains one row and one column.
 
@@ -76,10 +75,6 @@ Grid defines border properties that let you draw a border around the Grid withou
 </Grid>
 ```
 
-### **Grid** derived classes
-
-Grid is the parent class for [SwapChainPanel](swapchainpanel.md) and [SwapChainBackgroundPanel](swapchainbackgroundpanel.md).
-
 ### XAML attached properties
 
 Grid is the host service class for several [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview). These attached properties enable child elements to report how they should be positioned in their Grid parent.
@@ -88,10 +83,10 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| Column | Gets or sets the column alignment of an element when child layout is processed by a parent Grid layout container.<ul><li>Type: int</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.grid.columnproperty">ColumnProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.grid.getcolumn">GetColumn</a>, <a href="/uwp/api/windows.ui.xaml.controls.grid.setcolumn">SetColumn</a></li></ul>The value is the zero-based index of the Grid column that the element should appear within. Negative values are not permitted.|
-| ColumnSpan | Gets or sets a value that indicates the total number of columns that the element content spans within a parent Grid.<ul><li>Type: int</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.grid.columnspanproperty">ColumnSpanProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.grid.getcolumnspan">GetColumnSpan</a>, <a href="/uwp/api/windows.ui.xaml.controls.grid.setcolumnspan">SetColumnSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of columns are treated as if they specified the total number and will span all columns.|
-| Row | Gets or sets the row alignment of an element when child layout is processed by a parent Grid layout container.<ul><li>Type: int</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.grid.rowproperty">RowProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.grid.getrow">GetRow</a>, <a href="/uwp/api/windows.ui.xaml.controls.grid.setrow">SetRow</a></li></ul>The value is the zero-based index of the Grid row that the element should appear within. Negative values are not permitted.|
-| RowSpan | Gets or sets a value that indicates the total number of rows that the element content spans within a parent Grid.<ul><li>Type: int</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.grid.rowspanproperty">RowSpanProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.grid.getrowspan">GetRowSpan</a>, <a href="/uwp/api/windows.ui.xaml.controls.grid.setrowspan">SetRowSpan</a></li></ul> Zero or negative integer values are not permitted. Values that are greater than the total number of rows are treated as if they specified the total number and will span all rows.|
+| [Column](grid_column.md) | Gets or sets the column alignment of an element when child layout is processed by a parent Grid layout container. |
+| [ColumnSpan](grid_columnspan.md) | Gets or sets a value that indicates the total number of columns that the element content spans within a parent Grid. |
+| [Row](grid_row.md) | Gets or sets the row alignment of an element when child layout is processed by a parent Grid layout container. |
+| [RowSpan](grid_rowspan.md) | Gets or sets a value that indicates the total number of rows that the element content spans within a parent Grid. |
 
 ### Version history
 
@@ -106,9 +101,9 @@ In order to support XAML processor access to the attached properties, and also t
 > [!TIP]
 > For more info, design guidance, and code examples, see [Layout panels](/windows/uwp/design/layout/layout-panels#grid).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the Grid in action](xamlcontrolsgallery:/item/Grid).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the Grid in action](winui2gallery:/item/Grid).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 
 This XAML example shows how to design a layout by using a Grid.
@@ -120,4 +115,5 @@ This XAML example shows how to design a layout by using a Grid.
 [!code-vb[GridClassCode](../windows.ui.xaml/code/GridReferenceSample/vbnet/Page.xaml.vb#SnippetGridClassCode)]
 
 ## -see-also
-[Panel](panel.md), [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties), [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties), [Define layouts](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview), [Canvas](canvas.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [WrapGrid](wrapgrid.md), [Controls list](/windows/uwp/design/controls-and-patterns/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)
+
+[Panel](panel.md), [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid.row), [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid.column), [Define layouts](/windows/uwp/layout/layouts-with-xaml), [Alignment, margin, and padding](/windows/uwp/layout/alignment-margin-padding), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview), [Canvas](canvas.md), [StackPanel](stackpanel.md), [VariableSizedWrapGrid](variablesizedwrapgrid.md), [WrapGrid](wrapgrid.md), [Controls list](/windows/uwp/design/controls-and-patterns/), [Controls by function](/windows/uwp/controls-and-patterns/controls-by-function)

@@ -10,20 +10,24 @@ public event Windows.UI.Xaml.Controls.ContextMenuOpeningEventHandler ContextMenu
 # Windows.UI.Xaml.Controls.RichEditBox.ContextMenuOpening
 
 ## -description
+
 Occurs when the system processes an interaction that displays a context menu.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.RichEditBox.ContextMenuOpening](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.contextmenuopening).
-
 ## -xaml-syntax
+
 ```xaml
 <RichEditBox ContextMenuOpening="eventhandler" />
 ```
 
-
 ## -remarks
 
-To override or add commands to the context menu, you can handle the ContextMenuOpening event and replace the default menu with a custom menu. For an example of this, see the **Customizing RichEditBox's CommandBarFlyout - adding 'Share'** example in the <a href="xamlcontrolsgallery:/item/RichEditBox">XAML Controls Gallery</a>. For design info, see [Guidelines for context menus](/windows/uwp/design/controls-and-patterns/menus)
-
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Guidelines for context menus](/windows/uwp/design/controls-and-patterns/menus).
+>
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the **Customizing RichEditBox's CommandBarFlyout - adding 'Share'** example](winui2gallery:/item/RichEditBox).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 ## -see-also

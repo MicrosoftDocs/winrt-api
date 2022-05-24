@@ -16,9 +16,9 @@ Attempts to hide (if visible) the input pane associated with the [CoreInputView]
 
 ## -returns
 
-**true** if the request to show the input pane was accepted; otherwise **false**.
+True, if the request to hide the input pane was accepted. Otherwise, false.
 
-If this method is called from an app that is not in foreground, the request is rejected and **false** is returned.
+If this method is called from an app that is not in foreground, the request is rejected and false is returned.
 
 ## -remarks
 

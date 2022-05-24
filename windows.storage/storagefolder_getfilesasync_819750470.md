@@ -16,7 +16,7 @@ Gets the files in the current folder.
 When this method completes successfully, it returns a list of the files in the current folder. The list is of type **IReadOnlyList**&lt;[StorageFile](storagefile.md)&gt;. Each file in the list is represented by a [StorageFile](storagefile.md) object.
 
 ## -exceptions
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to access the contents of the current folder. For more information, see [File access permissions](/windows/uwp/files/file-access-permissions).
 
@@ -32,21 +32,14 @@ Some methods take a value from the [CommonFileQuery](../windows.storage.search/c
 
 To get deep query results from a folder that's not a library folder, call the [CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions_2038131323.md) method and specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.
 
-<table>
-   <tr><th>Method</th><th>Create a shallow query that only returns files from the current folder</th><th>Create a deep query that returns files from the current folder and from its subfolders</th></tr>
-   <tr><td>GetFilesAsync()</td><td>Default behavior of this method.</td><td>N/A</td></tr>
-   <tr><td>[GetFilesAsync(CommonFileQuery)](storagefolder_getfilesasync_1429382825.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
-   <tr><td>[GetFilesAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
-   <tr><td>[CreateFileQuery()](storagefolder_createfilequery_70815642.md)</td><td>Default behavior of this method.</td><td>N/A</td></tr>
-   <tr><td>[CreateFileQuery(CommonFileQuery)](storagefolder_createfilequery_1641434999.md)</td><td>Specify the **DefaultQuery** option.</td><td>For a library folder, specify an option other than **DefaultQuery**.</td></tr>
-   <tr><td>[CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions_2038131323.md)</td><td><ul><li>Default behavior of this method if none of the following options are specified.
-
-- or -</li><li>Specify **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.
-
-- or -</li><li>Specify **Shallow** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.</li></ul></td><td><ul><li>For a library folder, specify a value other than **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.
-
-- or -</li><li>For any folder, specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md).</li></ul></td></tr>
-</table>
+| Method | Create a shallow query that only returns files from the current folder | Create a deep query that returns files from the current folder and from its subfolders |
+|---|---|---|
+| GetFilesAsync() | Default behavior of this method. | N/A |
+| [GetFilesAsync(CommonFileQuery)](storagefolder_getfilesasync_1429382825.md) | Specify the **DefaultQuery** option. | For a library folder, specify an option other than **DefaultQuery**. |
+| [GetFilesAsync(CommonFileQuery, UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md) | Specify the **DefaultQuery** option. | For a library folder, specify an option other than **DefaultQuery**. |
+| [CreateFileQuery()](storagefolder_createfilequery_70815642.md) | Default behavior of this method. | N/A |
+| [CreateFileQuery(CommonFileQuery)](storagefolder_createfilequery_1641434999.md) | Specify the **DefaultQuery** option. | For a library folder, specify an option other than **DefaultQuery**. |
+| [CreateFileQueryWithOptions(QueryOptions)](storagefolder_createfilequerywithoptions_2038131323.md) | Default behavior of this method if none of the following options are specified.<br/>- or -<br/>Specify **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.<br/>- or -<br/>Specify **Shallow** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object. | For a library folder, specify a value other than **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.<br/>- or -<br/>For any folder, specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md). |
 
 ## -examples
 The following example shows how to get the contents of the user's Pictures folder and its subfolders, sorted by date, by calling the [GetFilesAsync(CommonFileQuery,  UInt32, UInt32)](storagefolder_getfilesasync_1563132095.md) overloaded method. This example returns a maximum of 20 files, starting with the file at index 0. Since the [CommonFileQuery.OrderByDate](../windows.storage.search/commonfilequery.md) option sorts dates in descending order (that is, from newest to oldest), this example returns the user's 20 most recent photos.

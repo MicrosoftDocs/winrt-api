@@ -14,7 +14,6 @@ public Shadow Shadow { get;  set; }
 
 Gets or sets the shadow effect cast by the element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Shadow](/windows/winui/api/microsoft.ui.xaml.uielement.shadow).
 
 ## -property-value
 
@@ -40,8 +39,8 @@ The UIElement.Shadow property can be used to cast shadows from additional visual
 >
 > Many common controls automatically cast shadows using a [ThemeShadow](../windows.ui.xaml.media/themeshadow.md). 
 >
-> If you have the **XAML Controls Gallery** app installed and meet the minimum Windows 10 version requirements above, [click here to open the app and see the default shadows on common controls](xamlcontrolsgallery:/).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed and meet the minimum Windows 10 version requirements above, [click here to open the app and see the default shadows on common controls](winui2gallery:/).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 

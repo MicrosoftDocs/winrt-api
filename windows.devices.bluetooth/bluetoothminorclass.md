@@ -63,7 +63,7 @@ Fully available.
 17% to 33% utilized.
 
 ### -field NetworkUsed33To50Percent:24
-335 to 50% utilized.
+33% to 50% utilized.
 
 ### -field NetworkUsed50To67Percent:32
 50% to 67% utilized.

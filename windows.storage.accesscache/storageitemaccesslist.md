@@ -42,6 +42,39 @@ else
 }
 ```
 
+```cppwinrt
+#include <sstream>
+#include <winrt/Windows.Storage.h>
+#include <winrt/Windows.Storage.AccessCache.h>
+#include <winrt/Windows.Storage.Pickers.h>
+using namespace winrt;
+using namespace Windows::Storage::Pickers;
+using namespace Windows::Storage;
+...
+winrt::fire_and_forget AddToLists()
+{
+    FileSavePicker savePicker;
+    auto plainTextExtensions{ winrt::single_threaded_vector<winrt::hstring>() };
+    plainTextExtensions.Append(L".txt");
+    savePicker.FileTypeChoices().Insert(L"Plain Text", plainTextExtensions);
+    savePicker.SuggestedFileName(L"New Document");
+
+    StorageFile file{ co_await savePicker.PickSaveFileAsync() };
+    if (file)
+    {
+        // Add to MRU with metadata (For example, a string that represents the date)
+        winrt::hstring mruToken { Windows::Storage::AccessCache::StorageApplicationPermissions::MostRecentlyUsedList().Add(file, L"20120716") };
+
+        // Add to FA without metadata
+        winrt::hstring faToken { Windows::Storage::AccessCache::StorageApplicationPermissions::FutureAccessList().Add(file) };
+    }
+    else
+    {
+        // The file picker was dismissed with no file selected to save
+    }
+}
+```
+
 We recommend that you store the tokens that are returned by [StorageApplicationPermissions.MostRecentlyUsedList.Add](storageitemmostrecentlyusedlist_add_118555710.md) and [StorageApplicationPermissions.FutureAccessList.Add](storageitemaccesslist_add_118555710.md) so that you can use them to retrieve the respective list entry for the item that you added. In the example, we store the tokens in `mruToken` and `faToken` respectively but we don't do anything else with them.
 
 Additionally, the `savePicker` variable in the example contains a [FileSavePicker](../windows.storage.pickers/filesavepicker.md) object that was created by the sample. To learn more about using the file picker, see [Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers) and [Save a file with a picker](/windows/uwp/files/quickstart-save-a-file-with-a-picker).

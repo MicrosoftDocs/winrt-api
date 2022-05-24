@@ -23,15 +23,15 @@ One of the enumeration values that determines how to handle the collision if a f
 When this method completes, it returns a [StorageFile](storagefile.md) that represents the new file.
 
 ## -exceptions
-### System.Exception
+### T:System.Exception
 
 You specified **CreationCollisionOption.FailIfExists** and a file with the specified *desiredName* already exists in the current folder.
 
-### System.IO.FileNotFoundException
+### T:System.IO.FileNotFoundException
 
 The format of the filename is incorrect. Check the value of *desiredName*.
 
-### System.UnauthorizedAccessException
+### T:System.UnauthorizedAccessException
 
 You don't have permission to create a file in the current folder.
 

@@ -12,7 +12,6 @@ public DirectConnectedAnimationConfiguration.DirectConnectedAnimationConfigurati
 ## -description
 Initializes a new instance of the DirectConnectedAnimationConfiguration class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.DirectConnectedAnimationConfiguration.DirectConnectedAnimationConfiguration](/windows/winui/api/microsoft.ui.xaml.media.animation.directconnectedanimationconfiguration.#ctor).
 
 ## -remarks
 

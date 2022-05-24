@@ -10,7 +10,7 @@ public int MinBrightness { get; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.MinBrightness
 
 ## -description
-Gets the minimum brightness level supported by the scanner's Feeder.
+Gets the minimum brightness level supported by the scanner's feeder.
 
 ## -property-value
 The minimum brightness level, typically -1000.

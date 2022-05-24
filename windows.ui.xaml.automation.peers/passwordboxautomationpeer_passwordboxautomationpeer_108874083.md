@@ -12,7 +12,6 @@ public PasswordBoxAutomationPeer(Windows.UI.Xaml.Controls.PasswordBox owner)
 ## -description
 Initializes a new instance of the [PasswordBoxAutomationPeer](passwordboxautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.PasswordBoxAutomationPeer.PasswordBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.passwordboxautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

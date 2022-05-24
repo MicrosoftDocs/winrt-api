@@ -15,8 +15,6 @@ Each **HolographicFrameScanoutReport** also contains a reference to a correspond
 
 ## -see-also
 
-[HolographicFrameRenderingReport](holographicframerenderingreport.md)
-[HolographicFrame](holographicframe.md)
+[HolographicFrameRenderingReport](holographicframerenderingreport.md), [HolographicFrame](holographicframe.md)
 
 ## -examples
-

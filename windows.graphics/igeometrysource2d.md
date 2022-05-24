@@ -13,8 +13,6 @@ public interface IGeometrySource2D
 
 Allows for classes that implement this interface to be expressed as a [CompositionPath](../windows.ui.composition/compositionpath.md) for the purposes of using the [Windows.UI.Composition](../windows.ui.composition/windows_ui_composition.md) APIs.
 
-Equivalent WinUI interface: [Microsoft.Graphics.IGeometrySource2D](/windows/winui/api/microsoft.graphics.igeometrysource2d).
-
 ## -remarks
 
 ## -see-also

@@ -12,7 +12,6 @@ public TimelineCollection()
 ## -description
 Initializes a new instance of the [TimelineCollection](timelinecollection.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.TimelineCollection.TimelineCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.timelinecollection.#ctor).
 
 ## -remarks
 

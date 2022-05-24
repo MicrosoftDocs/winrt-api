@@ -21,4 +21,4 @@ The base price is the default price for the app. If the app is on sale in the cu
 ## -examples
 
 ## -see-also
-[Put apps on sale](m_selling.put_apps_and_iaps_on_sale)
+[Put apps and add-ons on sale](/windows/uwp/publish/put-apps-and-add-ons-on-sale)

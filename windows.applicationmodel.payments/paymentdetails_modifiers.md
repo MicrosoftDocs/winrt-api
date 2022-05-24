@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.ApplicationModel.Payme
 # Windows.ApplicationModel.Payments.PaymentDetails.Modifiers
 
 ## -description
-A collection of [PaymentDetailsModifier ](../windows.payments/paymentdetailsmodifier.md) classes for which provide the ability to change the transaction cost based on the payment method used.
+A collection of [PaymentDetailsModifier](paymentdetailsmodifier.md) classes for which provide the ability to change the transaction cost based on the payment method used.
 
 ## -property-value
 Gets or sets the Modifiers.

@@ -12,7 +12,6 @@ public VisualStateManager()
 ## -description
 Initializes a new instance of the [VisualStateManager](visualstatemanager.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.VisualStateManager.VisualStateManager](/windows/winui/api/microsoft.ui.xaml.visualstatemanager.#ctor).
 
 ## -remarks
 

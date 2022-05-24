@@ -19,11 +19,11 @@ Observable collections are mainly useful for XAML data binding scenarios. For mo
 
 ### Interface inheritance
 
-IObservableMap&lt;K,V&gt; inherits [IMap<K,V>](imap_2.md) and [IIterable<T>](iiterable_1.md). Types that implement IObservableMap&lt;K,V&gt; also implement the interface members of [IMap<K,V>](imap_2.md) and [IIterable<T>](iiterable_1.md), with an [IKeyValuePair<K,V>](ikeyvaluepair_2.md) type constraint.
+IObservableMap&lt;K,V&gt; inherits [IMap<K,V>](imap_2.md) and [IIterable&lt;T&gt;](iiterable_1.md). Types that implement IObservableMap&lt;K,V&gt; also implement the interface members of [IMap<K,V>](imap_2.md) and [IIterable&lt;T&gt;](iiterable_1.md), with an [IKeyValuePair<K,V>](ikeyvaluepair_2.md) type constraint.
 
 ### .NET usage
 
-IObservableMap&lt;K,V&gt; isn't hidden for .NET usage. However, it's more common to use the .NET [ObservableCollection\<T\>](/dotnet/api/system.collections.objectmodel.observablecollection-1) type (using a [KeyValuePair](/dotnet/api/system.collections.generic.keyvaluepair-2) as *T*) as a base class, or implement a **Dictionary** type or interface (generic or nongeneric) and **INotifyCollectionChanged** separately. If you do use IObservableMap&lt;K,V&gt; for .NET code, the base interfaces (and their members) project as [System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;](/dotnet/api/system.collections.generic.idictionary-2) and [IEnumerable\<T\>](/dotnet/api/system.collections.generic.ienumerable-1) (with [KeyValuePair](/dotnet/api/system.collections.generic.keyvaluepair-2)).
+IObservableMap&lt;K,V&gt; isn't hidden for .NET usage. However, it's more common to use the .NET [ObservableCollection&lt;T&gt;](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true) type (using a [KeyValuePair](/dotnet/api/system.collections.generic.keyvaluepair-2?view=dotnet-uwp-10.0&preserve-view=true) as *T*) as a base class, or implement a **Dictionary** type or interface (generic or nongeneric) and **INotifyCollectionChanged** separately. If you do use IObservableMap&lt;K,V&gt; for .NET code, the base interfaces (and their members) project as [System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;](/dotnet/api/system.collections.generic.idictionary-2?view=dotnet-uwp-10.0&preserve-view=true) and [IEnumerable&lt;T&gt;](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true) (with [KeyValuePair](/dotnet/api/system.collections.generic.keyvaluepair-2?view=dotnet-uwp-10.0&preserve-view=true)).
 
 ## -examples
 

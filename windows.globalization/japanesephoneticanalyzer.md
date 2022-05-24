@@ -21,12 +21,13 @@ Each [JapanesePhoneme](japanesephoneme.md) object represents a single Japanese w
 
 **Example**
 
-When the method [JapanesePhoneticAnalyzer.GetWords(input)](japanesephoneticanalyzer_getwords_1967945274.md) analyzes the string "今日はいい天気です", it returns a vector of [JapanesePhoneme](japanesephoneme.md) with these properties:<table>
-   <tr><th /><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
-   <tr><th>[DisplayText](japanesephoneme_displaytext.md)</th><td>今日</td><td>は</td><td>いい</td><td>天気</td><td>です</td></tr>
-   <tr><th>[YomiText](japanesephoneme_yomitext.md) (reading)</th><td>きょう</td><td>は</td><td>いい</td><td>てんき</td><td>です</td></tr>
-   <tr><th>[IsPhraseStart](japanesephoneme_isphrasestart.md)</th><td>true</td><td>false</td><td>true</td><td>true</td><td>false</td></tr>
-</table>
+When the method [JapanesePhoneticAnalyzer.GetWords(input)](japanesephoneticanalyzer_getwords_1967945274.md) analyzes the string "今日はいい天気です", it returns a vector of [JapanesePhoneme](japanesephoneme.md) with these properties:
+
+| | 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|---|
+| [DisplayText](japanesephoneme_displaytext.md) | 今日 | は | いい | 天気 | です |
+| [YomiText](japanesephoneme_yomitext.md) (reading) | きょう | は | いい | てんき | です |
+| [IsPhraseStart](japanesephoneme_isphrasestart.md) | true | false | true | true | false |
 
 You can also use the method overload [JapanesePhoneticAnalyzer.GetWords(input, monoRuby)](japanesephoneticanalyzer_getwords_1758641726.md) to specify the use of a word-breaking strategy called "Mono Ruby", which more aggressively attempts to break multi-Kanji words into multiple Kanji words. In the above example, using Mono Ruby, "天気" is further broken into "天" and "気". However, "今日" still remains unbroken due to the nature of the Japanese language.
 

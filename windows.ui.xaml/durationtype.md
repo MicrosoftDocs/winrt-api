@@ -30,7 +30,7 @@ This value is used by the **Duration.Type** field, when you use C++ code and acc
 
 For a [Duration](duration.md) the [Automatic](durationhelper_automatic.md) and [Forever](durationhelper_forever.md) values have different meaning depending on whether the [Duration](duration.md) is being used for the [Duration](../windows.ui.xaml.media.animation/timeline_duration.md) property on a [Storyboard](visualstate_storyboard.md) rather than on an individual storyboarded animation. For more info, see [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations).
 
-For C# and Microsoft Visual Basic there is no **Type** property but you can use [HasTimeSpan](duration_hastimespan.md) to get similar information.
+For C# and Microsoft Visual Basic there is no **Type** property but you can use [HasTimeSpan](/dotnet/api/windows.ui.xaml.duration.hastimespan?view=dotnet-uwp-10.0&preserve-view=true) to get similar information.
 
 ## -examples
 

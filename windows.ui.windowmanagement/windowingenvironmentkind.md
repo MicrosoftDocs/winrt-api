@@ -30,7 +30,7 @@ The windowing environment supports windows that overlap.
 
 ## -remarks
 
-An example of an Overlapped environment is the classic Windows desktop experience that supports overlapped windows. Examples of Tiled environments are PC Tablet Mode or Xbox.
+An example of an Overlapped environment is the classic Windows desktop experience that supports overlapped windows. Examples of Tiled environments are PC [Tablet mode (Windows 10 only)](/windows-hardware/design/device-experiences/continuum) or Xbox.
 
 ## -see-also
 

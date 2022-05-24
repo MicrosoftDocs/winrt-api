@@ -15,10 +15,10 @@ Creates a new [BarcodeScannerFrameReader](barcodescannerframereader.md) instance
 
 ## -parameters
 ### -param preferredFormat
-The preferred image format as a [BitmapPixelFormat](..\windows.graphics.imaging\bitmappixelformat.md).
+The preferred image format as a [BitmapPixelFormat](../windows.graphics.imaging/bitmappixelformat.md).
 
 ### -param preferredSize
-The preferred frame size as a [BitmapSize](..\windows.graphics.imaging\bitmapsize.md) in pixels.
+The preferred frame size as a [BitmapSize](../windows.graphics.imaging/bitmapsize.md) in pixels.
 
 ## -returns
 A new **BarcodeScannerFrameReader** instance that reads frames from this **BarcodeScannerProviderConnection**.

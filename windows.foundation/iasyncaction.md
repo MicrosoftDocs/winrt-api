@@ -23,10 +23,22 @@ It's not common to use IAsyncAction directly even if you don't use a language-sp
 
 Instead of using IAsyncAction, some Windows Runtime asynchronous methods use custom action types (which might have "Operation" rather than "Action" in their name). For example, [SignOutUserOperation](../windows.security.authentication.onlineid/signoutuseroperation.md) is a Windows Runtime type that implements IAsyncAction. The [SignOutUserOperation](../windows.security.authentication.onlineid/signoutuseroperation.md) type is then used as the custom action return type for the [SignOutUserAsync](../windows.security.authentication.onlineid/onlineidauthenticator_signoutuserasync_658229157.md) method.
 
+### C++/WinRT extension functions
+
 > [!NOTE]
-> The **get** function exists on the C++/WinRT projection type **winrt::Windows::Foundation::IAsyncAction**, so you can call the function from within any C++/WinRT project. You will not find the function listed as a member of the **IAsyncAction** interface, because **get** is not part of the application binary interface (ABI) surface of the actual Windows Runtime type **IAsyncAction**. For more info, and code examples showing how to call **get**, see [Write a coroutine](/windows/uwp/cpp-and-winrt-apis/concurrency#write-a-coroutine).
->
-> Like **get**, the **wait_for** function exists only on the C++/WinRT projection. For more info, and code examples showing how to call **wait_for**, see [Asynchronous timeouts made easy](/windows/uwp/cpp-and-winrt-apis/concurrency-2#asynchronous-timeouts-made-easy).
+> Extension functions exist on the C++/WinRT projection types for certain Windows Runtime APIs. For example, **winrt::Windows::Foundation::IAsyncAction** is the C++/WinRT projection type for **IAsyncAction**. The extension functions aren't part of the application binary interface (ABI) surface of the actual Windows Runtime types, so they're not listed as members of the Windows Runtime APIs. But you can call them from within any C++/WinRT project. See [C++/WinRT functions that extend Windows Runtime APIs](/uwp/cpp-ref-for-winrt/winrt#cwinrt-functions-that-extend-windows-runtime-apis).
+
+```cppwinrt
+void get() const;
+```
+
+Waits synchronously for the action to complete. Throws a corresponding exception if the action is canceled, or enters an error state. You mustn't call it from a single-threaded apartment. For more info, and code examples showing how to call **get**, see [Write a coroutine](/windows/uwp/cpp-and-winrt-apis/concurrency#write-a-coroutine).
+
+```cppwinrt
+AsyncStatus wait_for(TimeSpan const& timeout) const;
+```
+
+Waits synchronously for the action to complete, or for the specified timeout. Returns the state of the **IAsyncAction**, or [AsyncStatus::Started](/uwp/api/windows.foundation.asyncstatus) if the timeout elapsed. If the action didn't time out, then call [GetResults](/uwp/api/windows.foundation.iasyncaction.getresults) to obtain the results of the action. For more info, and code examples showing how to call **wait_for**, see [Asynchronous timeouts made easy](/windows/uwp/cpp-and-winrt-apis/concurrency-2#asynchronous-timeouts-made-easy).
 
 ### Interface inheritance
 
@@ -36,7 +48,6 @@ IAsyncAction inherits [IAsyncInfo](iasyncinfo.md). Types that implement IAsyncAc
 + [ErrorCode](iasyncinfo_errorcode.md) property
 + [Id](iasyncinfo_id.md) property
 + [Status](iasyncinfo_status.md) property
-
 
 ### Notes to implementers
 

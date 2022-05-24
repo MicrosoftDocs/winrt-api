@@ -12,7 +12,6 @@ public EllipseGeometry()
 ## -description
 Initializes a new instance of the [EllipseGeometry](ellipsegeometry.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.EllipseGeometry.EllipseGeometry](/windows/winui/api/microsoft.ui.xaml.media.ellipsegeometry.#ctor).
 
 ## -remarks
 

@@ -10,7 +10,7 @@ public class NetworkOperatorTetheringAccessPointConfiguration : Windows.Networki
 # Windows.Networking.NetworkOperators.NetworkOperatorTetheringAccessPointConfiguration
 
 ## -description
-Provides the ability to configure and create a NetworkOperatorTetheringAccessPointConfiguration object that contains a specific network account ID (SSID) and specifies the passphrase used to authenticate clients trying to establish a network connection to the tethering network.
+Provides the ability to configure and create an object that contains a specific tethering network SSID, and specifies the passphrase used to authenticate clients trying to establish a network connection to the tethering network.
 
 Tethering allows a Windows device to function as a mobile hotspot providing internet connections over Wi-Fi or Bluetooth. Properties can be configured on the Wi-Fi access point such as the network SSID, the password, and the wireless frequency band.
 

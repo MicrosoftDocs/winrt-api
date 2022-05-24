@@ -22,7 +22,7 @@ A value of the enumeration. A value of **Unfocused** indicates that the link doe
 > [!IMPORTANT]
 > This API supports content links. The Windows features that enable content links are not available in versions of Windows after Windows 10 version 1903. Content links for XAML text controls will not function in versions of Windows later than version 1903.
 
-For more info, see [Control.FocusState](../windows.ui.xaml.controls/control#Windows_UI_Xaml_Controls_Control_FocusState).
+For more info, see [Control.FocusState](../windows.ui.xaml.controls/control_focusstate.md).
 
 ## -see-also
 

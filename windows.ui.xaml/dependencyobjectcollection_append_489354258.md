@@ -19,8 +19,6 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyObjectCollection.Append](/
 The new item to add.
 
 ## -remarks
-> [!NOTE]
-> The equivalent Microsoft .NET  API is [Add](dependencyobjectcollection_add.md).
 
 ## -examples
 

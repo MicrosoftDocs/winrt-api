@@ -12,7 +12,6 @@ public ContentPresenter()
 ## -description
 Initializes a new instance of the [ContentPresenter](contentpresenter.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.ContentPresenter.ContentPresenter](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.#ctor).
 
 ## -remarks
 

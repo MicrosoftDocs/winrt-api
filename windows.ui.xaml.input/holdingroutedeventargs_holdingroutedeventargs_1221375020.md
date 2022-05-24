@@ -12,7 +12,6 @@ public HoldingRoutedEventArgs()
 ## -description
 Initializes a new instance of the [HoldingRoutedEventArgs](holdingroutedeventargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Input.HoldingRoutedEventArgs.HoldingRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.holdingroutedeventargs.#ctor).
 
 ## -remarks
 

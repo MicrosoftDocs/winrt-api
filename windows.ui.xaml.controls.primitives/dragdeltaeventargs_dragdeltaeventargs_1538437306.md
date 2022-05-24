@@ -12,7 +12,6 @@ public DragDeltaEventArgs(System.Double horizontalChange, System.Double vertical
 ## -description
 Initializes a new instance of the [DragDeltaEventArgs](dragdeltaeventargs.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.Primitives.DragDeltaEventArgs.DragDeltaEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.primitives.dragdeltaeventargs.#ctor).
 
 ## -parameters
 ### -param horizontalChange

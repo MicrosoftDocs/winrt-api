@@ -12,7 +12,6 @@ public MediaPlayerElement()
 ## -description
 Initializes a new instance of the [MediaPlayerElement](mediaplayerelement.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.MediaPlayerElement.MediaPlayerElement](/windows/winui/api/microsoft.ui.xaml.controls.mediaplayerelement.#ctor).
 
 ## -remarks
 

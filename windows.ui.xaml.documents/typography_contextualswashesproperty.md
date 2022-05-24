@@ -10,15 +10,17 @@ public Windows.UI.Xaml.DependencyProperty ContextualSwashesProperty { get; }
 # Windows.UI.Xaml.Documents.Typography.ContextualSwashesProperty
 
 ## -description
-Identifies the [ContextualSwashes](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+Identifies the [ContextualSwashes](typography_contextualswashes.md) attached property.
 
 Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.ContextualSwashesProperty](/windows/winui/api/microsoft.ui.xaml.documents.typography.contextualswashesproperty).
 
 ## -property-value
-The identifier for the [ContextualSwashes](/uwp/api/windows.ui.xaml.documents.typography#xaml-attached-properties) attached property.
+The identifier for the [ContextualSwashes](typography_contextualswashes.md) attached property.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[ContextualSwashes](typography_contextualswashes.md), [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview)

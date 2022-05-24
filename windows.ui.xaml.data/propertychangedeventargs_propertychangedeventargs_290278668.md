@@ -15,7 +15,6 @@ Initializes a new instance of the [PropertyChangedEventArgs](propertychangedeven
 > **.NET**
 > This type is hidden, use [System.ComponentModel.PropertyChangedEventArgs](/dotnet/api/system.componentmodel.propertychangedeventargs?view=dotnet-uwp-10.0&preserve-view=true).
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Data.PropertyChangedEventArgs.PropertyChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.data.propertychangedeventargs.#ctor).
 
 ## -parameters
 ### -param name

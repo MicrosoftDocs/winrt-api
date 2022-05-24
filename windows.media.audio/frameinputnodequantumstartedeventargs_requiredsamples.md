@@ -20,6 +20,8 @@ Pass an [AudioFrame](audioframecompletedeventargs.md) into the [AddFrame](audiof
 
 If the amount of data currently in the node is more than enough to fill one quantum, **RequiredSamples** will be 0.
 
+Note that the count returned by this property represents the required number of audio frames to fill the quantum. The number of samples required depends on the number of channels in the audio encoding settings. For example, for 2-channel audio the required number of samples is actually twice the value returned by this property.
+
 ## -examples
 
 ## -see-also

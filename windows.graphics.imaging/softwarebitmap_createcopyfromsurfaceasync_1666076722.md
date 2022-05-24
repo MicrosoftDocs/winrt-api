@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Graphics.Imaging.SoftwareBitma
 # Windows.Graphics.Imaging.SoftwareBitmap.CreateCopyFromSurfaceAsync
 
 ## -description
-Asynchronously creates a new [SoftwareBitmap](softwarebitmap.md) by performing a deep copy of the provided [IDirect3DSurface](../windows.graphics.directx.direct3d11/idirect3dsurface.md) . Modifications to the data in the new [SoftwareBitmap](softwarebitmap.md) will not effect the surface from which it was created.
+Asynchronously creates a new [SoftwareBitmap](softwarebitmap.md) by performing a deep copy of the provided [IDirect3DSurface](../windows.graphics.directx.direct3d11/idirect3dsurface.md). Modifications to the data in the new [SoftwareBitmap](softwarebitmap.md) will not effect the surface from which it was created.
 
 ## -parameters
 ### -param surface

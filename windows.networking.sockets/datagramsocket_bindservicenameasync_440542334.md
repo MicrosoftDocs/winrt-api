@@ -27,7 +27,7 @@ The [BindServiceNameAsync(String, NetworkAdapter) method binds to a network inte
 
 The name resolution mechanism used by the [BindServiceNameAsync(String, NetworkAdapter) method is limited to the specified interface for the domain name system (DNS) namespace.
 
-The BindServiceNameAsync method will fail if another app using UDP (another [DatagramSocket](datagramsocket.md), for example) has already been bound to the local UDP port specified in the *localServiceName* parameter on the same network interface.
+Unless you've used the [DatagramSocketControl.MulticastOnly](/uwp/api/windows.networking.sockets.datagramsocketcontrol.multicastonly) property, the BindServiceNameAsync method will fail if another app using UDP (another [DatagramSocket](datagramsocket.md), for example) has already been bound to the local UDP port specified in the *localServiceName* parameter on the same network interface.
 
 Binding is essential for receiving data from any remote endpoint on a [DatagramSocket](datagramsocket.md), and is commonly done after a socket is created and the [MessageReceived](datagramsocket_messagereceived.md) event has been set. The BindServiceNameAsync or [BindEndpointAsync](datagramsocket_bindendpointasync_1396029045.md) method is used to bind a [DatagramSocket](datagramsocket.md) to a local service name or UDP port. The [ConnectAsync](datagramsocket_connectasync_13692504.md) methods will also result in a bind operation, but can't be limited to a specific network adapter. Writing to a stream returned by one of the [GetOutputStreamAsync](datagramsocket_getoutputstreamasync_1619245957.md) methods will also result in a bind operation if the socket isn't already bound, but can't be limited to a specific network adapter.
 

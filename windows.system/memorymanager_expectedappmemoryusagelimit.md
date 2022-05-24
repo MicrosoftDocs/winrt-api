@@ -21,7 +21,6 @@ When an app launches on Xbox, it is initially given a small app memory usage lim
 When an app launches on a non-Xbox system, the memory usage limit the app gets at launch remains the same and this property will return the same value as [Windows.System.MemoryManager.AppMemoryUsageLimit](memorymanager_appmemoryusagelimit.md).
 
 ## -see-also
-[](memorymanager_appmemoryusagelimitchanging.md)
-[](memorymanager_trysetappmemoryusagelimit_415446483.md)
+[Windows.System.MemoryManager.AppMemoryUsageLimitChanging](memorymanager_appmemoryusagelimitchanging.md), [Windows.System.MemoryManager.TrySetAppMemoryUsageLimit](memorymanager_trysetappmemoryusagelimit_415446483.md)
 
 ## -examples

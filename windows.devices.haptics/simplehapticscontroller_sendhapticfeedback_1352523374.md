@@ -10,21 +10,24 @@ public void SimpleHapticsController.SendHapticFeedback(SimpleHapticsControllerFe
 # Windows.Devices.Haptics.SimpleHapticsController.SendHapticFeedback
 
 ## -description
+
 Start haptic feedback by the input device with the specified intensity.
 
 ## -parameters
 
 ### -param feedback
+
 The type of haptic feedback.
 
 ### -param intensity
+
 The strength of the haptic feedback based on the capability of the input device.
+
 - 0 disables haptic feedback
-- 1.0 is maximum strength 
+- 1.0 is maximum strength
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-

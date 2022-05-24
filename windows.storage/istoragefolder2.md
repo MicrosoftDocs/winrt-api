@@ -12,15 +12,12 @@ public interface IStorageFolder2 :
 ## -description
 Manipulates folders and their contents, and provides information about them.
 
-
-
-> > [!IMPORTANT]
+> [!IMPORTANT]
 > If you simply want to work with folders in your app, see the [StorageFolder](storagefolder.md) class.
 
 ## -remarks
 
-
-> > [!IMPORTANT]
+> [!IMPORTANT]
 > If you simply want to work with folders in your app, see the [StorageFolder](storagefolder.md) class.
 
 ## -examples

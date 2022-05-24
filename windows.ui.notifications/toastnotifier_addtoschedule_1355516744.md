@@ -14,7 +14,7 @@ public void AddToSchedule(Windows.UI.Notifications.ScheduledToastNotification sc
 Adds a [ScheduledToastNotification](scheduledtoastnotification.md) for later display by Windows.
 
 > [!IMPORTANT]
-> This method cannot be used by desktop callers.
+> This method is only supported in applications which use WinRT as their default application framework.
 
 ## -parameters
 ### -param scheduledToast
@@ -23,7 +23,7 @@ The scheduled toast notification, which includes its content and timing instruct
 ## -remarks
 This method passes the toast notification to the schedule but doesn't specify the time the toast should display. That information is included in the [ScheduledToastNotification](scheduledtoastnotification.md).
 
-If your call to this method returns a failure code, examine these possible causes: 
+Be sure to handle these exceptions when calling **AddToSchedule**:
 
 * **Exception**: `System.Exception: 'Not enough quota is available to process this command. (Exception from HRESULT: 0x80070718)'`
 + **Possible cause**: You've exceeded the maximum allowed number of scheduled notifications.

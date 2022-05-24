@@ -10,11 +10,9 @@ public event Windows.Foundation.TypedEventHandler Closed<Windows.UI.Core.CoreWin
 # Windows.UI.Core.CoreWindow.Closed
 
 ## -description
-Is fired when the app terminates.
+Occurs when a window is closed (or the app terminates altogether).
 
 ## -remarks
-> [!NOTE]
-> Apps are typically suspended, not terminated. As a result, this event is rarely fired, if ever.
 
 ## -examples
 

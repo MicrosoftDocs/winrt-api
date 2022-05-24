@@ -13,10 +13,7 @@ public class RadialController : Windows.UI.Input.IRadialController, Windows.UI.I
 
 Represents a wheel input device or accessory such as the Surface Dial.
 
-> [!NOTE]
-> Wheel devices are a new category of input device (supported in Windows 10, version 1607 and newer).
-
-<img src="images/dial-pen-studio-600px.png" alt="Surface Dial with Surface Studio and Pen " />
+:::image type="content" source="images/dial-pen-studio-600px.png" alt-text="Surface Dial with Surface Studio and Pen.":::
 
 With a form factor based on a rotate action (or gesture), the Surface Dial is intended as a secondary, multi-modal input device that complements input from a primary device. In most cases, the device is manipulated by a user's non-dominant hand while performing a task with their dominant hand (such as inking with a pen). It is not designed for precision pointer input (like touch, pen, or mouse).
 

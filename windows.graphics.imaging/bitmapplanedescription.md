@@ -27,7 +27,7 @@ The height of the plane, in pixels.
     
 
 ### -field Stride
-The stride of the bitmap data.
+The stride of the bitmap data, in bytes.
     
 
 ## -remarks

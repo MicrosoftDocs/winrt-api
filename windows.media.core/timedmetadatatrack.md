@@ -25,4 +25,4 @@ For how-to guidance for working with timed metadata tracks, see [Media items, pl
 ## -examples
 
 ## -see-also
-[ITimedMediaTrack](itimedmediatrack.md), [IMediaTrack](imediatrack.md), [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource)
+[IMediaTrack](imediatrack.md), [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource)

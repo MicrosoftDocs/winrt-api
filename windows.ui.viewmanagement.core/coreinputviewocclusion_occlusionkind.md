@@ -11,11 +11,11 @@ public CoreInputViewOcclusionKind OcclusionKind { get; }
 
 ## -description
 
-The type of occluding input pane (and associated UI).
+The type of occluding input pane.
 
 ## -property-value
 
-A value from the [CoreInputViewOcclusionKind](coreinputviewocclusionkind.md) enumeration that indicates the type of input pane supported by the [CoreInputViewOcclusion](coreoccludinginputview.md) object.
+The type of input pane supported by the [CoreInputViewOcclusion](coreinputviewocclusion.md) object.
 
 ## -remarks
 

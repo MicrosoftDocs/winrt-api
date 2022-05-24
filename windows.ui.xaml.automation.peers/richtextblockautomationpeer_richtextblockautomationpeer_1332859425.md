@@ -12,7 +12,6 @@ public RichTextBlockAutomationPeer(Windows.UI.Xaml.Controls.RichTextBlock owner)
 ## -description
 Initializes a new instance of the [RichTextBlockAutomationPeer](richtextblockautomationpeer.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Automation.Peers.RichTextBlockAutomationPeer.RichTextBlockAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.richtextblockautomationpeer.#ctor).
 
 ## -parameters
 ### -param owner

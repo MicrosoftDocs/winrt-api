@@ -12,7 +12,6 @@ public void AddVideoEffect(System.String effectID, System.Boolean effectOptional
 ## -description
 Applies a video effect to playback. Takes effect for the next source that is set on this [MediaElement](mediaelement.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.MediaElement.AddVideoEffect](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.addvideoeffect).
 
 ## -parameters
 ### -param effectID

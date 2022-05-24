@@ -13,7 +13,6 @@ public void XamlDirect.SetDateTimeProperty(IXamlDirectObject xamlDirectObject, X
 ## -description
 Sets the value of a _DateTimeOffset_ property for a specific [IXamlDirectObject](ixamldirectobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.SetDateTimeProperty](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.setdatetimeproperty).
 
 ## -parameters
 ### -param xamlDirectObject

@@ -10,7 +10,7 @@ public DateTime Timestamp { get; }
 # Windows.System.Preview.TwoPanelHingedDevicePosturePreviewReading.Timestamp
 
 ## -description
-Describes when a [TwoPanelHingedDevicePosturePreviewReading](twopanelhingeddeviceposturepreviewreading) was taken.
+Describes when a [TwoPanelHingedDevicePosturePreviewReading](twopanelhingeddeviceposturepreviewreading.md) was taken.
 
 ## -property-value
 The timestamp when the reading was taken.

@@ -24,11 +24,11 @@ The show mode is determined automatically based on the method used to show the f
 
 ### -field Standard:1
 
-Behavior is typical of a flyout shown reactively, like a context menu. The open flyout takes focus. For a CommandBarFlyout, it opens in it's expanded state.
+Behavior is typical of a flyout shown reactively, like a context menu. The open flyout takes focus. For a CommandBarFlyout, it opens in its expanded state.
 
 ### -field Transient:2
 
-Behavior is typical of a flyout shown proactively. The open flyout does not take focus. For a CommandBarFlyout, it opens in it's collapsed state.
+Behavior is typical of a flyout shown proactively. The open flyout does not take focus. For a CommandBarFlyout, it opens in its collapsed state.
 
 ### -field TransientWithDismissOnPointerMoveAway:3
 

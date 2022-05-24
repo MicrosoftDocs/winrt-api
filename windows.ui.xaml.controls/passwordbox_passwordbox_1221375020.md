@@ -12,7 +12,6 @@ public PasswordBox()
 ## -description
 Initializes a new instance of the [PasswordBox](passwordbox.md) class
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.PasswordBox.PasswordBox](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.#ctor).
 
 ## -remarks
 

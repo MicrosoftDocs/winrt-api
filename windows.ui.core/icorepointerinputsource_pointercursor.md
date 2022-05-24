@@ -10,10 +10,12 @@ public Windows.UI.Core.CoreCursor PointerCursor { get;  set; }
 # Windows.UI.Core.ICorePointerInputSource.PointerCursor
 
 ## -description
-Gets or sets the current pointer cursor type.
+
+Gets or sets the pointer cursor type.
 
 ## -property-value
-The current pointer cursor.
+
+The pointer cursor type.
 
 ## -remarks
 

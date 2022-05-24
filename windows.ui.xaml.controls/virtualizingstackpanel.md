@@ -39,8 +39,8 @@ In order to support XAML processor access to the attached properties, and also t
 
 | Attached property | Description |
 | - | - |
-| IsVirtualizing | See Remarks<ul><li>Type: Boolean</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel.isvirtualizingproperty">IsVirtualizingProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel.getisvirtualizing">GetIsVirtualizing</a></li></ul>**VirtualizingStackPanel.IsVirtualizing** uses the attached property model as a property store, but does not support a Extensible Application Markup Language (XAML) usage. Instead, the property serves as a sentinel that any VirtualizingStackPanel child element can check to determine whether that child is currently being represented as virtualized. To find out if an item is being virtualized, call [GetIsVirtualizing](virtualizingstackpanel_getisvirtualizing_1946654319.md), passing the item as the input parameter. |
-| VirtualizationMode | Gets or sets a value that indicates the virtualization mode of items being virtualized by a parent VirtualizingStackPanel and items set. <ul><li>Type: [VirtualizationMode](virtualizationmode.md)</li><li>Identifier field: <a href="/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel.virtualizationmodeproperty">VirtualizationModeProperty</a></li><li>Accessor methods: <a href="/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel.getvirtualizationmode">GetVirtualizationMode</a>, <a href="/uwp/api/windows.ui.xaml.controls.virtualizingstackpanel.setvirtualizationmode">SetVirtualizationMode</a></li></ul> Child elements set this property in markup to declare how the item should be virtualized when included as a VirtualizingStackPanel child element.|
+| [IsVirtualizing](virtualizingstackpanel_isvirtualizing.md) | See Remarks on property page. |
+| [VirtualizationMode](virtualizingstackpanel_virtualizationmode.md) | Gets or sets a value that indicates the virtualization mode of items being virtualized by a parent VirtualizingStackPanel and items set. |
 
 ## -examples
 

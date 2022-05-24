@@ -12,7 +12,6 @@ public RowDefinition()
 ## -description
 Initializes a new instance of the [RowDefinition](rowdefinition.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.RowDefinition.RowDefinition](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.#ctor).
 
 ## -remarks
 

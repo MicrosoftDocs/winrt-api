@@ -34,8 +34,8 @@ When the app cancels the async call, it initiates a cancellation request of the 
 
 
 + It takes a few seconds before the scanner stops scanning.
-+ It stops only when it runs out of paper (for a Feeder acquisition).
-+ It completes running the scan head to the end of the bed and then fully returns the scan head to its parked location (for a Flatbed acquisition).
++ It stops only when it runs out of paper (for a feeder acquisition).
++ It completes running the scan head to the end of the bed and then fully returns the scan head to its parked location (for a flatbed acquisition).
 
 
 Internally the async cancelation will flag the current WIA 2.0 scan job as canceled from within the app. If the WIA device makes the next callback to the WIA service the job cancellation may or may not be successfully communicated to the WIA driver. But, even if the WIA driver receives the cancel request from one of its callbacks there is no guarantee that the driver can successfully stop the scanner from scanning, immediately or after any predictable period of time.

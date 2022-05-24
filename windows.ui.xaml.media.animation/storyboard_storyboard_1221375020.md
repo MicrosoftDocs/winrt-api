@@ -12,7 +12,6 @@ public Storyboard()
 ## -description
 Initializes a new instance of the [Storyboard](storyboard.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.Storyboard.Storyboard](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.#ctor).
 
 ## -remarks
 

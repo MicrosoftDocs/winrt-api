@@ -24,7 +24,13 @@ The output report which the host sends to the device.
 
 Specifies the count of bytes written to the device.
 
+## -exceptions
+### T:System.UnauthorizedAccessException
+
+This device does not have permission to send an output report. To send this report, the device must be opened with [FileAccessMode.ReadWrite](../windows.storage/fileaccessmode.md).
+
 ## -remarks
+The device must be opened with [FileAccessMode.ReadWrite](../windows.storage/fileaccessmode.md).
 
 ## -examples
 

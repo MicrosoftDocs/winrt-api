@@ -10,24 +10,30 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.DependencyObject> 
 # Windows.UI.Xaml.Automation.AutomationProperties.GetFlowsTo
 
 ## -description
+
 Gets a list of automation elements that suggests the reading order after the specified automation element.
 
 Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetFlowsTo](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getflowsto).
 
 ## -parameters
+
 ### -param element
+
 The element for which to get the following reading order elements.
 
 ## -returns
+
 A list of automation elements that suggests the reading order after the automation element specified by the *element* parameter.
 
 ## -remarks
+
 Get the list, then call the [Add](/dotnet/api/system.collections.generic.icollection-1.add?view=dotnet-uwp-10.0&preserve-view=true) method to add a new element.
 
-> [!Important] > When modifying the flow, be careful not to create a situation where the user gets stuck in a navigation loop that they can't escape if they are only using a keyboard.
-
+> [!IMPORTANT]
+> When modifying the flow, be careful not to create a situation where the user gets stuck in a navigation loop that they can't escape if they are only using a keyboard.
 
 ## -examples
+
 ```xaml
 <StackPanel>
     <Button x:Name="first">First</Button>

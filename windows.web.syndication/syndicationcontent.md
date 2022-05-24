@@ -15,13 +15,12 @@ Represents feed content including Text, HTML, XHTML, URL, and XML. This object e
 ## -remarks
 The following table maps SyndicationContent properties to RSS and Atom feed elements.
 
-<table>
-   <tr><th>SyndicationContent</th><th>RSS</th><th>Atom</th></tr>
-   <tr><td>[SourceUri](syndicationcontent_sourceuri.md)</td><td /><td>src (attribute)</td></tr>
-   <tr><td>[Text](syndicationcontent_text.md)</td><td>(node value)</td><td>(node value)</td></tr>
-   <tr><td>[Type](syndicationcontent_type.md)</td><td /><td>type (attribute)</td></tr>
-   <tr><td>[Xml](syndicationcontent_xml.md)</td><td /><td>(xhtml node value)</td></tr>
-</table>
+| SyndicationContent | RSS | Atom |
+|---|---|---|
+| [SourceUri](syndicationcontent_sourceuri.md) | src (attribute) |
+| [Text](syndicationcontent_text.md) | (node value) | (node value) |
+| [Type](syndicationcontent_type.md) | type (attribute) |
+| [Xml](syndicationcontent_xml.md) | (xhtml node value) |
 
 ## -examples
 

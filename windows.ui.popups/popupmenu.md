@@ -12,8 +12,11 @@ public class PopupMenu : Windows.UI.Popups.IPopupMenu
 ## -description
 Represents a context menu.
 
+In a desktop app, before using an instance of this class in a way that displays UI, you'll need to associate the object with its owner's window handle. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
+
 ## -remarks
-context menu can show a maximum of six commands. This limit helps to ensure that the context menu remains uncluttered, usable, and directly relevant to users.
+
+A context menu can show a maximum of six commands. This limit helps to ensure that the context menu remains uncluttered, usable, and directly relevant to users.
 
 You can see complete code examples that demonstrate how to create and customize context menu in the [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525) and [Context menu sample (Windows 8.1)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample).
 
@@ -37,5 +40,7 @@ To customize the context menu, call [preventDefault](/previous-versions/windows/
 
 [!code-js[newcontextmenu_js](../windows.ui.popups/code/ContextMenu/js/js/scenario1.js#Snippetnewcontextmenu_js)]
 
+
 ## -see-also
-[Adding context menus](/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525), [Menus and context menus for desktop apps](/windows/apps/design/controls/menus), [PopupMenu.Commands](popupmenu_commands.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md)
+
+[Adding context menus](/previous-versions/windows/apps/hh465300(v=win.10)), [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample), [Context menu sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620525), [Menus and context menus for desktop apps](/windows/apps/design/controls/menus), [PopupMenu.Commands](popupmenu_commands.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [UICommand](uicommand.md), [UICommandSeparator](uicommandseparator.md), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)

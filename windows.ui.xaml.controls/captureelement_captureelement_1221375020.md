@@ -12,7 +12,6 @@ public CaptureElement()
 ## -description
 Initializes a new instance of the [CaptureElement](captureelement.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.CaptureElement.CaptureElement](/windows/winui/api/microsoft.ui.xaml.controls.captureelement.#ctor).
 
 ## -remarks
 

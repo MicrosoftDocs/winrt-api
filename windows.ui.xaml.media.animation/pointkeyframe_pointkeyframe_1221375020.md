@@ -12,7 +12,6 @@ protected PointKeyFrame()
 ## -description
 Provides base class initialization behavior for [PointKeyFrame](pointkeyframe.md)-derived classes.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.PointKeyFrame.PointKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.pointkeyframe.#ctor).
 
 ## -remarks
 

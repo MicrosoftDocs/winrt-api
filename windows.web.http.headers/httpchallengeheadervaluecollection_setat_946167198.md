@@ -20,7 +20,6 @@ The zero-based index at which to set the [HttpChallengeHeaderValue](httpchalleng
 The item to set.
 
 ## -remarks
-If you are programming using C# or Microsoft Visual Basic, the equivalent method is [Item](httpchallengeheadervaluecollection_item.md) for the [GetAt](httpchallengeheadervaluecollection_getat_496709656.md) and SetAt methods.
 
 ## -examples
 

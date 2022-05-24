@@ -16,7 +16,6 @@ Implements a XAML layout surface target for Microsoft DirectX interoperation sce
 > [!IMPORTANT]
 > SwapChainBackgroundPanel may be altered or unavailable for releases after Windows 8.1 Instead, use [SwapChainPanel](swapchainpanel.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SwapChainBackgroundPanel](/windows/winui/api/microsoft.ui.xaml.controls.swapchainbackgroundpanel).
 
 ## -xaml-syntax
 
@@ -31,7 +30,7 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SwapChainBackgroundPanel](/w
 
 For most scenarios a [SwapChainPanel](swapchainpanel.md) will provide a more versatile Microsoft DirectX interop render surface than a SwapChainBackgroundPanel does. That's because a [SwapChainPanel](swapchainpanel.md) doesn't have many of the XAML-side composition limitations that are listed in the "Composition limitations" section below. For example you can apply a [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) to a [SwapChainPanel](swapchainpanel.md). For more info, see [DirectX and XAML interop](/previous-versions/windows/apps/hh825871(v=win.10)) and [SwapChainPanel](swapchainpanel.md).
 
-A SwapChainBackgroundPanel is a [Grid](grid.md) subclass, so you can use [ColumnDefinitions](grid_columndefinitions.md) and [RowDefinitions](grid_rowdefinitions.md) properties to declare the panel's characteristics, and the attached properties of [Grid](grid.md) such as [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) on child elements to position those child elements in the layout.
+A SwapChainBackgroundPanel is a [Grid](grid.md) subclass, so you can use [ColumnDefinitions](grid_columndefinitions.md) and [RowDefinitions](grid_rowdefinitions.md) properties to declare the panel's characteristics, and the attached properties of [Grid](grid.md) such as [Grid.Row](/uwp/api/windows.ui.xaml.controls.grid.row) and [Grid.Column](/uwp/api/windows.ui.xaml.controls.grid.column) on child elements to position those child elements in the layout.
 
 For more info on how to use SwapChainBackgroundPanel, including sample code, see [DirectX and XAML interop](/previous-versions/windows/apps/hh825871(v=win.10)).
 

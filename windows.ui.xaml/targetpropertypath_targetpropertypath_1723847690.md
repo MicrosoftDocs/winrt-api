@@ -12,7 +12,6 @@ public TargetPropertyPath(Windows.UI.Xaml.DependencyProperty targetProperty)
 ## -description
 Initializes a new instance of the [TargetPropertyPath](targetpropertypath.md) class with the specified target property.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.TargetPropertyPath.TargetPropertyPath](/windows/winui/api/microsoft.ui.xaml.targetpropertypath.#ctor).
 
 ## -parameters
 ### -param targetProperty

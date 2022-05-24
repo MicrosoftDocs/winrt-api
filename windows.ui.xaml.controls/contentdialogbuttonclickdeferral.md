@@ -15,7 +15,7 @@ Represents a deferral that can be used by an app to respond asynchronously to a 
 Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ContentDialogButtonClickDeferral](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogbuttonclickdeferral).
 
 ## -remarks
-You can get an instance of this class by calling [ContentDialogButtonClickEventArgs.GetDeferral](contentdialogbuttonclickeventargs_getdeferral_1807836922.md).
+You can get an instance of this class by calling [ContentDialogButtonClickEventArgs.GetDeferral](contentdialogbuttonclickeventargs_getdeferral_254836512.md).
 
 ## -examples
 

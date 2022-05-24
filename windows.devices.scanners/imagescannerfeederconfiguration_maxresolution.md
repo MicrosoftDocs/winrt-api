@@ -10,7 +10,7 @@ public Windows.Devices.Scanners.ImageScannerResolution MaxResolution { get; }
 # Windows.Devices.Scanners.ImageScannerFeederConfiguration.MaxResolution
 
 ## -description
-Gets the maximum horizontal and vertical scan resolution of the scanner's Feeder in DPI.
+Gets the maximum horizontal and vertical scan resolution of the scanner's feeder in DPI.
 
 ## -property-value
 The horizontal and vertical resolution, in pixels.

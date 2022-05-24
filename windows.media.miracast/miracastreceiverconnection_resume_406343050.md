@@ -16,7 +16,7 @@ Requests the Miracast Transmitter to resume streaming audio and video data to th
 
 ## -remarks
 
-Because this method may block for a noticeable period of time, you should not call it from the UI thread or from a single-threaded apartment. Instead, use the asyncronous method [ResumeAsync](resumeasync_801976564.md).
+Because this method may block for a noticeable period of time, you should not call it from the UI thread or from a single-threaded apartment. Instead, use the asyncronous method [ResumeAsync](miracastreceiverconnection_resumeasync_801976564.md).
 
 ## -see-also
 

@@ -12,7 +12,6 @@ protected DependencyObject()
 ## -description
 Provides base class initialization behavior for [DependencyObject](dependencyobject.md) derived classes.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.DependencyObject.DependencyObject](/windows/winui/api/microsoft.ui.xaml.dependencyobject.#ctor).
 
 ## -remarks
 

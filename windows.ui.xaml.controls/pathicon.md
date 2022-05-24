@@ -13,7 +13,6 @@ public class PathIcon : Windows.UI.Xaml.Controls.IconElement, Windows.UI.Xaml.Co
 
 Represents an icon that uses a vector path as its content.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.PathIcon](/windows/winui/api/microsoft.ui.xaml.controls.pathicon).
 
 ## -xaml-syntax
 
@@ -31,9 +30,9 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.PathIcon](/windows/winui/api
 > [!TIP]
 > For more info, design guidance, and code examples, see [Command bar](/windows/uwp/controls-and-patterns/app-bars).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the PathIcon in action](xamlcontrolsgallery:/item/AppBarButton).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the PathIcon in action](winui2gallery:/item/AppBarButton).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 This example shows an [AppBarButton](appbarbutton.md) with a PathIcon.
 

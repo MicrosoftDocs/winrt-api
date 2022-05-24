@@ -27,5 +27,9 @@ The last version of the previous contract to which the type was associated.
 
 ## -see-also
 
+[PreviousContractVersionAttribute(String, UInt32, UInt32, String)](previouscontractversionattribute_previouscontractversionattribute_715415014.md),
+[PreviousContractVersionAttribute(Type, UInt32, UInt32, Type)](previouscontractversionattribute_previouscontractversionattribute_1003005803.md),
+[PreviousContractVersionAttribute(Type, UInt32, UInt32)](previouscontractversionattribute_previouscontractversionattribute_1067943981.md)
+
 ## -examples
 

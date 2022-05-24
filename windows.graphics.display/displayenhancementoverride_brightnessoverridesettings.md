@@ -17,7 +17,7 @@ Gets and sets the brightness override settings.
 
 ## -property-value
 
-The brightness override settings. A null [BrightnessOverrideSettings](brightnessoverridesettings.md) property means that the [DisplayEnhancementOverride](displayenhancementoverride) does not want to override brightness settings. This property is null by default.
+The brightness override settings. A null [BrightnessOverrideSettings](brightnessoverridesettings.md) property means that the [DisplayEnhancementOverride](displayenhancementoverride.md) does not want to override brightness settings. This property is null by default.
 
 ## -remarks
 

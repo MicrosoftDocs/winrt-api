@@ -27,5 +27,4 @@ Use [SubmitUpdatesAsync](gamesavecontainer_submitupdatesasync_1002100950.md) or 
 
 ## -see-also
 
-[GameSaveContainerInfo](gamesavecontainerinfo.md)
-[Name](gamesavecontainerinfo_name.md)
+[GameSaveContainerInfo](gamesavecontainerinfo.md), [Name](gamesavecontainerinfo_name.md)

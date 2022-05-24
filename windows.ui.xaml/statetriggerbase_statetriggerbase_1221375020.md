@@ -12,7 +12,6 @@ protected StateTriggerBase()
 ## -description
 Initializes a new instance of the [StateTriggerBase](statetriggerbase.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.StateTriggerBase.StateTriggerBase](/windows/winui/api/microsoft.ui.xaml.statetriggerbase.#ctor).
 
 ## -remarks
 

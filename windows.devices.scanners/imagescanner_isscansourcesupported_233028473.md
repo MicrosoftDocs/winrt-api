@@ -17,7 +17,7 @@ Determines if the specified scan source is available on the scanner.
 The scan source.
 
 ## -returns
-True if the scan source, Flatbed or Feeder, is available; otherwise False.
+True if the scan source, flatbed or feeder, is available; otherwise False.
 
 ## -remarks
 

@@ -44,9 +44,9 @@ The [IsIndeterminate](progressbar_isindeterminate.md) property determines the ap
 > [!TIP]
 > For more info, design guidance, and code examples, see [Progress controls](/windows/uwp/controls-and-patterns/progress-controls).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the ProgressBar in action](xamlcontrolsgallery:/item/ProgressBar).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ProgressBar in action](winui2gallery:/item/ProgressBar).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 The following example demonstrates a value-based ProgressBar and an indeterminate ProgressBar.
 

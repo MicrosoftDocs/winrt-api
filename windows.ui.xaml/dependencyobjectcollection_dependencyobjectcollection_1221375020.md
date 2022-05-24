@@ -12,7 +12,6 @@ public DependencyObjectCollection()
 ## -description
 Initializes a new instance of the [DependencyObjectCollection](dependencyobjectcollection.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.DependencyObjectCollection.DependencyObjectCollection](/windows/winui/api/microsoft.ui.xaml.dependencyobjectcollection.#ctor).
 
 ## -remarks
 

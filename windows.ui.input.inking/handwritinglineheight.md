@@ -12,7 +12,7 @@ public enum HandwritingLineHeight : int
 
 ## -description
 
-Specifies the handwriting space available when using ink for text input in a text control (when [HandwritingView](..\windows.ui.xaml.controls\handwritingview.md) is enabled).
+Specifies the handwriting space available when using ink for text input in a text control (when [HandwritingView](../windows.ui.xaml.controls/handwritingview.md) is enabled).
 
 ## -enum-fields
 

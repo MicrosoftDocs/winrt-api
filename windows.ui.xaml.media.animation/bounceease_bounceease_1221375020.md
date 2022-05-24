@@ -12,7 +12,6 @@ public BounceEase()
 ## -description
 Initializes a new instance of the [BounceEase](bounceease.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Media.Animation.BounceEase.BounceEase](/windows/winui/api/microsoft.ui.xaml.media.animation.bounceease.#ctor).
 
 ## -remarks
 

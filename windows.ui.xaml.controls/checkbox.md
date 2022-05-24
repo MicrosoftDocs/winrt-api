@@ -12,7 +12,6 @@ public class CheckBox : Windows.UI.Xaml.Controls.Primitives.ToggleButton, Window
 ## -description
 Represents a control that a user can select (check) or clear (uncheck). A CheckBox can also report its value as indeterminate.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CheckBox](/windows/winui/api/microsoft.ui.xaml.controls.checkbox).
 
 ## -xaml-syntax
 ```xaml
@@ -37,12 +36,13 @@ CheckBox is a control that a user can select or clear.
 
 Use the CheckBox control to provide a list of options that a user can select, such as a list of settings to apply to an application. Both CheckBox and [RadioButton](radiobutton.md) controls allow the user to select from a list of options. CheckBox controls allow the user to select a combination of options. In contrast, [RadioButton](radiobutton.md) controls allow the user to select from mutually exclusive options.
 
-The CheckBox control inherits from [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) and can have three states: <table>
-   <tr><th>State</th><th>Property</th><th>Value</th></tr>
-   <tr><td>checked</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**true**</td></tr>
-   <tr><td>unchecked</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**false**</td></tr>
-   <tr><td>indeterminate</td><td>[  IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md)</td><td>**null**</td></tr>
-</table>
+The CheckBox control inherits from [ToggleButton](../windows.ui.xaml.controls.primitives/togglebutton.md) and can have three states:
+
+| State | Property | Value |
+|---|---|---|
+| checked | [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) | **true** |
+| unchecked | [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) | **false** |
+| indeterminate | [IsChecked](../windows.ui.xaml.controls.primitives/togglebutton_ischecked.md) | **null** |
 
  For the CheckBox to report the indeterminate state, you must set the [IsThreeState](../windows.ui.xaml.controls.primitives/togglebutton_isthreestate.md) property to **true**.
 
@@ -135,9 +135,9 @@ This table shows the resources used by the CheckBox control.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Check boxes](/windows/uwp/design/controls-and-patterns/checkbox).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the CheckBox in action](xamlcontrolsgallery:/item/CheckBox).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the CheckBox in action](winui2gallery:/item/CheckBox).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 The following example shows two check box controls. The first check box demonstrates the checked and unchecked states. The second check box demonstrates the checked, unchecked, and indeterminate states. You can select the controls to change their appearance and see which state they are in.
 

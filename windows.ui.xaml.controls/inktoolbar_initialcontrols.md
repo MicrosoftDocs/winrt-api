@@ -20,7 +20,7 @@ By default, the [InkToolbar](inktoolbar.md) consists of two distinct groups of b
 + A [RadioButton](radiobutton.md) group containing the built-in drawing ([InkToolbarBallpointPenButton](inktoolbarballpointpenbutton.md), [InkToolbarPencilButton](inktoolbarpencilbutton.md)), erasing ([InkToolbarEraserButton](inktoolbareraserbutton.md)), and highlighting ([InkToolbarHighlighterButton](inktoolbarhighlighterbutton.md)) buttons. This group is where [InkToolbarCustomPenButton](inktoolbarcustompenbutton.md) and [InkToolbarCustomToolButton](inktoolbarcustomtoolbutton.md) objects are added.
 
 > Feature selection is mutually exclusive.
-+ A toggle button group containing the built-in ruler ([InkToolbarRulerButton](inktoolbarrulerbutton.md)) button. This group is where [InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md) objects are added.
++ A second group of "toggle" buttons containing the built-in stencil ([InkToolbarStencilButton](inktoolbarstencilbutton.md)) button (or the [InkToolbarRulerButton](inktoolbarrulerbutton.md) button). Custom toggles ([InkToolbarCustomToggleButton](inktoolbarcustomtogglebutton.md)) are added here.
 
 > Features are not mutually exclusive and can be used concurrently with other active tools.
 

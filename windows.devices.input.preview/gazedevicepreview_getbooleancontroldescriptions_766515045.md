@@ -25,7 +25,7 @@ The usage identifier for the eye-tracking device.
 
 ## -returns
 
-A vector of [HidNumericControlDescription](hidnumericcontroldescription.md) objects.
+A vector of [HidNumericControlDescription](../windows.devices.humaninterfacedevice/hidnumericcontroldescription.md) objects.
 
 ## -remarks
 

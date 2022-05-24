@@ -12,7 +12,6 @@ public Windows.UI.Xaml.DependencyProperty PlaybackRateProperty { get; }
 ## -description
 Identifies the [PlaybackRate](mediaelement_playbackrate.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.PlaybackRateProperty](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.playbackrateproperty).
 
 ## -property-value
 The identifier for the [PlaybackRate](mediaelement_playbackrate.md) dependency property.

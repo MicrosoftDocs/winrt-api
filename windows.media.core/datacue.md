@@ -24,4 +24,4 @@ A **DataCue** can be added to a [TimedMetadataTrack](timedmetadatatrack.md) with
 ## -examples
 
 ## -see-also
-[IDataCue](idatacue.md), [IMediaCue](imediacue.md)
+[IMediaCue](imediacue.md)

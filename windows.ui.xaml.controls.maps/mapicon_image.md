@@ -14,6 +14,7 @@ Gets or sets the image for the [MapIcon](mapicon.md). Provide an optional custom
 The following stream formats are supported:
 * PNG - a compressed PNG formatted stream
 * JPG - a compressed JPG formatted stream
+* SVG - a compressed SVG formatted stream
 * BMP - an uncompressed BMP format stream
 * Raw RGB bytes. The size of the image is assumed to be square. This is only valid for a stream with an integral square root length. 
 

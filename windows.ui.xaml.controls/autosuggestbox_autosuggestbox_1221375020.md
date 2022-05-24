@@ -12,7 +12,6 @@ public AutoSuggestBox()
 ## -description
 Initializes a new instance of the [AutoSuggestBox](autosuggestbox.md) class.
 
-Equivalent WinUI constructor: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.AutoSuggestBox](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.#ctor).
 
 ## -remarks
 

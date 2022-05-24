@@ -14,7 +14,6 @@ public class StandardUICommand : UICommand, UICommand
 
 Derives from [XamlUICommand](xamluicommand.md), adding a set of standard platform commands with pre-defined properties.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.StandardUICommand](/windows/winui/api/microsoft.ui.xaml.input.standarduicommand).
 
 ## -remarks
 
@@ -50,6 +49,6 @@ The platform provides the following set of commands.
 > [!TIP]
 > For more info, design guidance, and code examples, see [Command design basics](/windows/uwp/layout/commanding-basics).
 >
-> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see the StandardUICommand in action](xamlcontrolsgallery:/item/StandardUICommand).
-> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the StandardUICommand in action](winui2gallery:/item/StandardUICommand).
+> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
