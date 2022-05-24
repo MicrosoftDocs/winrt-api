@@ -11,11 +11,7 @@ public class LightSensor : Windows.Devices.Sensors.ILightSensor, Windows.Devices
 
 ## -description
 
-Represents an ambient-light sensor.
-
-This sensor returns the ambient-light reading as a LUX value.
-
-For an example implementation, see the [light sensor sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LightSensor).
+Represents an ambient-light sensor that provides the ambient-light reading as a LUX value.
 
 ## -remarks
 
@@ -42,6 +38,8 @@ The following example shows the [ReadingChanged](lightsensor_readingchanged.md) 
 | 2004 | 19041 | ReportThreshold |
 
 ## -examples
+
+For an example implementation, see the [light sensor sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/LightSensor).
 
 ## -see-also
 

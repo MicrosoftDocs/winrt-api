@@ -11,7 +11,7 @@ public int Index { get; }
 
 ## -description
 
-Gets the 0-based slot index.
+Gets the 0-based slot index. **MobileBroadbandSlotInfo.Index** matches the [SlotIndex](esim_slotindex.md) property of the corresponding [ESim](esim.md) object.
 
 > [!NOTE]
 > This functionality is available only to mobile operator apps and UWP apps given privileged access by mobile network operators.
