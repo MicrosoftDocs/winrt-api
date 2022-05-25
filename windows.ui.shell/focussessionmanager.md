@@ -18,7 +18,7 @@ Provides APIs that allow apps to manage the state of the Focus Session feature o
 
 Get an instance of **FocusSessionManager** by calling [GetDefault](focussessionmanager_getdefault_846721868.md).
 
-When enabled, Focus Session, called Focus Assist in previous versions of Windows, will filter notifications based on type and the application that originates them. It is sensitive to modes of the system such as presentation or game play and supports an alarms app only mode.
+**FocusSessionManager** provides a programmatic way to read and manipulate the state of Focus, which is a feature intended to reduce distractions in Windows.
 
 ## -see-also
 
