@@ -12,7 +12,7 @@ public class PasswordVault : Windows.Security.Credentials.IPasswordVault
 ## -description
 Represents a Credential Locker of credentials. Lockers are specific to a user.
 
-Apps running in an AppContainer (e.g. UWP apps) can only access the contents of their own locker (for the current user). Apps not running in an AppContainer (e.g. regular Desktop apps) can access all the user's lockers, including those of AppContainer apps.
+Apps running in an AppContainer (for example, UWP apps) can only access the contents of their own locker (for the current user). Apps not running in an AppContainer (for example, regular Desktop apps) can access all the user's lockers, including those of AppContainer apps.
 
 ## -remarks
 
