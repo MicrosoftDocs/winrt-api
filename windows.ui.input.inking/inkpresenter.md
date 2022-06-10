@@ -11,8 +11,6 @@ public class InkPresenter : Windows.UI.Input.Inking.IInkPresenter, Windows.UI.In
 # Windows.UI.Input.Inking.InkPresenter
 
 ## -description
-> [!NOTE]
-> For Universal Windows app using Extensible Application Markup Language (XAML), we recommend using InkPresenter and the [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control instead of [InkManager](inkmanager.md).
 
 Provides properties, methods, and events for managing the input, processing, and rendering of ink input (standard and modified) for an [InkCanvas](../windows.ui.xaml.controls/inkcanvas.md) control.
 
