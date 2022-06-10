@@ -10,9 +10,11 @@ public Windows.Foundation.Collections.IVectorView<Windows.ApplicationModel.Packa
 # Windows.ApplicationModel.Package.Dependencies
 
 ## -description
+
 Gets the packages on which the current package depends.
 
 ## -property-value
+
 The packages on which the current package depends.
 
 ## -remarks
@@ -31,4 +33,7 @@ IReadOnlyList<Package> dependencies = currentPackage.Dependencies;
 ```
 
 ## -see-also
+
+[FindRelatedPackages](package_findrelatedpackages_1584363112.md)
+
 [App package information sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package)
