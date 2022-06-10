@@ -16,7 +16,7 @@ Represents a dialog for showing messages to the user.
 In a desktop app, before using an instance of this class in a way that displays UI, you'll need to associate the object with its owner's window handle. For more info, and code examples, see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects#winui-3-with-c).
 
 > [!IMPORTANT]
-> For a new app, we recommend [ContentDialog](/uwp/api/windows.ui.xaml.controls.contentdialog). You should use **MessageDialog** only when you're upgrading a Windows 8.x app that already uses it, and you need to minimize changes.
+> You should use MessageDialog only when you are upgrading a Universal Windows 8.x app that uses MessageDialog, and need to minimize changes or if your app isn't XAML. For new XAML apps in Windows 10+, we recommend using the [ContentDialog](./../windows.ui.xaml.controls/contentdialog.md) control instead.
 
 ## -remarks
 

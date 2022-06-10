@@ -17,6 +17,8 @@ The current item in the collection.
 
 ## -remarks
 
+It is an error to access this property if the iterator has no current item.
+
 If the underlying collection has changed,
 the iterator may throw an exception.
 

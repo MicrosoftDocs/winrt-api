@@ -13,7 +13,7 @@ public class AudioEffect : Windows.Media.Effects.IAudioEffect
 Represents an audio effect.
 
 ## -remarks
-The [AudioCaptureEffectsManager](audiocaptureeffectsmanager.md) and [AudioRenderEffectsManager](audiorendereffectsmanager.md) classes can be used to discovery the audio processing chain on a device.
+The [AudioCaptureEffectsManager](audiocaptureeffectsmanager.md) and [AudioRenderEffectsManager](audiorendereffectsmanager.md) classes can be used to discover the audio processing chain on a device.
 
 See the [Audio effects discovery sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Audio%20effects%20discovery%20sample) for an example of how to query and monitor audio effects on render and capture audio devices.
 

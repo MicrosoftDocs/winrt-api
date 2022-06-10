@@ -42,7 +42,7 @@ The following advertisement types are system-reserved and are not allowed:
 + Simple Pairing Randomizer R192 (0x0F)
 + Security Manager TK Values (0x10)
 + Security Manager Out-of-Band Flags (0x11)
-+ Slave Connection Interval Range (0x12)
++ Peripheral Connection Interval Range (0x12)
 + List of 16-bit Service Solicitation UUIDs (0x14)
 + List of 32-bit Service Solicitation UUIDs (0x1F)
 + List of 128-bit Service Solicitation UUIDs (0x15)

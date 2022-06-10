@@ -25,17 +25,17 @@ The following example expands on the example shown in [SystemTrigger](systemtrig
 //
 // A friendly task name.
 //
-String name = "ExampleTaskName";
+string name = "ExampleTaskName";
 
 //
 // Must be the same entry point that is specified in the manifest.
 //
-String taskEntryPoint = "ExampleNamespace.ExampleTaskName";
+string taskEntryPoint = "ExampleNamespace.ExampleTaskName";
 
 //
 // A system trigger that goes off whenever the time zone is changed, or a change occurs with daylight savings time.
 //
-IBackgroundTrigger trigger = IBackgroundTrigger trigger = new SystemTrigger(SystemTriggerType.TimeZoneChange, false);
+IBackgroundTrigger trigger = new SystemTrigger(SystemTriggerType.TimeZoneChange, false);
 
 //
 // A system condition indicating that the background task shouldn't run until the user is present.

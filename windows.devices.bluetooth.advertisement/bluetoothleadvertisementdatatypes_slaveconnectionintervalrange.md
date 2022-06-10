@@ -11,10 +11,10 @@ public byte SlaveConnectionIntervalRange { get; }
 # Windows.Devices.Bluetooth.Advertisement.BluetoothLEAdvertisementDataTypes.SlaveConnectionIntervalRange
 
 ## -description
-Section data type for the slave connection interval range.
+This API is obsolete in favor of the [BluetoothLEAdvertisementDataTypes.PeripheralConnectionIntervalRange](bluetoothleadvertisementdatatypes_peripheralconnectionintervalrange.md) property.
 
 ## -property-value
-The slave connection interval range.
+Not applicable.
 
 ## -remarks
 

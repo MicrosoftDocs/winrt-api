@@ -41,10 +41,19 @@ Returns an iterator to one past the last element of the collection, for use in C
 
 ### Interface inheritance
 
+<<<<<<< HEAD
+IVector inherits [IIterable](iiterable_1.md). Types that implement IVector also implement the interface members of [IIterable](iiterable_1.md). Similarly, if you're using .NET, there is support for [IEnumerable\<T\>](/dotnet/api/system.collections.generic.ienumerable-1).
+=======
 IVector inherits [IIterable](iiterable_1.md). Types that implement IVector also implement the interface members of [IIterable](iiterable_1.md). Similarly, if you're using .NET, there is support for [IEnumerable&lt;T&gt;](/dotnet/api/system.collections.generic.ienumerable-1?view=dotnet-uwp-10.0&preserve-view=true).
+>>>>>>> cd84458f70e29e2fa6b720ec78056581fa3bce0b
 
 ## -examples
 
 ## -see-also
+<<<<<<< HEAD
+[Collections (C++/CX)](/cpp/cppcx/collections-c-cx), [System.Collections.Generic.IList\<T\>](/dotnet/api/system.collections.generic.ilist-1)
+[Collections (C++/CX)](/cpp/cppcx/collections-c-cx), [System.Collections.Generic.IList\<T\>](/dotnet/api/system.collections.generic.ilist-1)
+=======
 
 [Collections (C++/CX)](/cpp/cppcx/collections-c-cx), [System.Collections.Generic.IList<T>](/dotnet/api/system.collections.generic.ilist-1?view=dotnet-uwp-10.0&preserve-view=true)
+>>>>>>> cd84458f70e29e2fa6b720ec78056581fa3bce0b

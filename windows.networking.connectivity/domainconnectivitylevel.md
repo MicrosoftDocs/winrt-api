@@ -22,7 +22,6 @@ A domain controller has been detected, but the current user or local machine hav
 ### -field Authenticated:2
 The machine or user is authenticated on the domain connection.
 
-
 ## -remarks
 
 ## -examples
