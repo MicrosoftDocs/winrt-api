@@ -9,8 +9,7 @@
 
 Provides UI controls and classes that support existing and custom UWP controls.
 
->**[WinUI 2](/windows/apps/winui/winui2/) API for UWP**: [Microsoft.UI.Xaml.Controls](/windows/winui/api/microsoft.ui.xaml.controls).<br/>
->**[Windows App SDK](/windows/apps/windows-app-sdk/) API**: [Microsoft.UI.Xaml.Controls](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls](/windows/winui/api/microsoft.ui.xaml.controls) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 
