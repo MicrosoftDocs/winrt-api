@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush SelectedBackground { get;  set; }
 ## -description
 Gets or sets the brush used to render the background of an item that's selected.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBackground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.selectedbackground).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBackground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.selectedbackground).
 
 ## -xaml-syntax
 ```xaml

@@ -14,7 +14,7 @@ public bool IsDefaultShadowEnabled { get;  set; }
 
 Gets or sets a value that indicates whether the default shadow effect is shown.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutPresenter.IsDefaultShadowEnabled](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutpresenter.isdefaultshadowenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutPresenter.IsDefaultShadowEnabled](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutpresenter.isdefaultshadowenabled).
 
 ## -property-value
 

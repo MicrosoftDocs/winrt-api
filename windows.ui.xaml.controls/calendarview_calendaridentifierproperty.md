@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CalendarIdentifierProperty { get; }
 ## -description
 Identifies the [CalendarIdentifier](calendarview_calendaridentifier.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarIdentifierProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.calendaridentifierproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarIdentifierProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.calendaridentifierproperty).
 
 ## -property-value
 The identifier for the   [CalendarIdentifier](calendarview_calendaridentifier.md) dependency property.

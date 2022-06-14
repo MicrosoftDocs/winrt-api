@@ -14,7 +14,7 @@ public class InteractionSourceConfiguration : CompositionObject, CompositionObje
 
 Represents the configuration of a VisualInteractionSource input.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionSourceConfiguration](/windows/winui/api/microsoft.ui.composition.interactions.interactionsourceconfiguration).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionSourceConfiguration](/windows/winui/api/microsoft.ui.composition.interactions.interactionsourceconfiguration).
 
 ## -remarks
 

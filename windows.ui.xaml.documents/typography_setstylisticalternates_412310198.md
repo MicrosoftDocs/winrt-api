@@ -12,7 +12,7 @@ public void SetStylisticAlternates(Windows.UI.Xaml.DependencyObject element, Sys
 ## -description
 Sets the value of the [StylisticAlternates](typography_stylisticalternates.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticAlternates](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticalternates).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticAlternates](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticalternates).
 
 ## -parameters
 ### -param element

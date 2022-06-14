@@ -12,7 +12,7 @@ public interface IDataTemplateExtension :
 ## -description
 Defines helper methods for phased rendering of a data template.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.IDataTemplateExtension](/windows/winui/api/microsoft.ui.xaml.idatatemplateextension).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.IDataTemplateExtension](/windows/winui/api/microsoft.ui.xaml.idatatemplateextension).
 
 ## -remarks
 

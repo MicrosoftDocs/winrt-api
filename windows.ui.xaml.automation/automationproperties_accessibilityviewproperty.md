@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AccessibilityViewProperty { get; }
 ## -description
 Identifies the [AutomationProperties.AccessibilityView](automationproperties_accessibilityview.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.AccessibilityViewProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.accessibilityviewproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.AccessibilityViewProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.accessibilityviewproperty).
 
 ## -property-value
 The identifier for the [AutomationProperties.AccessibilityView](automationproperties_accessibilityview.md) attached property.

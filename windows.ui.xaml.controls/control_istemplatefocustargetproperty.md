@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsTemplateFocusTargetProperty { get; }
 ## -description
 Identifies the [Control.IsTemplateFocusTarget](control_istemplatefocustarget.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.IsTemplateFocusTargetProperty](/windows/winui/api/microsoft.ui.xaml.controls.control.istemplatefocustargetproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.IsTemplateFocusTargetProperty](/windows/winui/api/microsoft.ui.xaml.controls.control.istemplatefocustargetproperty).
 
 ## -property-value
 The identifier for the [Control.IsTemplateFocusTarget](control_istemplatefocustarget.md) XAML attached property.

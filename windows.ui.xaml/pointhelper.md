@@ -13,7 +13,7 @@ public class PointHelper : Windows.UI.Xaml.IPointHelper
 
 Provides helper methods to set [Point](../windows.foundation/point.md) values. C# and Microsoft Visual Basic code should use methods of [Point](../windows.foundation/point.md) instead.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.PointHelper](/windows/winui/api/microsoft.ui.xaml.pointhelper).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.PointHelper](/windows/winui/api/microsoft.ui.xaml.pointhelper).
 
 ## -remarks
 

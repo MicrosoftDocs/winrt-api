@@ -12,7 +12,7 @@ public void Start(Windows.UI.Xaml.ApplicationInitializationCallback callback)
 ## -description
 Provides the entry point and requests initialization of the application. Use the callback to instantiate the [Application](application.md) class.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Application.Start](/windows/winui/api/microsoft.ui.xaml.application.start).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Application.Start](/windows/winui/api/microsoft.ui.xaml.application.start).
 
 ## -parameters
 ### -param callback

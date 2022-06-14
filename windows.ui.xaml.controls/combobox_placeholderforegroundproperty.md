@@ -13,7 +13,7 @@ public DependencyProperty PlaceholderForegroundProperty { get; }
 
 Identifies the PlaceholderForeground dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.PlaceholderForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.combobox.placeholderforegroundproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ComboBox.PlaceholderForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.combobox.placeholderforegroundproperty).
 
 ## -property-value
 

@@ -14,7 +14,7 @@ public ExpandCollapseState ExpandCollapseState { get; }
 
 Gets the state, expanded or collapsed, of the control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.AppBarButtonAutomationPeer.ExpandCollapseState](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarbuttonautomationpeer.expandcollapsestate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AppBarButtonAutomationPeer.ExpandCollapseState](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarbuttonautomationpeer.expandcollapsestate).
 
 ## -property-value
 

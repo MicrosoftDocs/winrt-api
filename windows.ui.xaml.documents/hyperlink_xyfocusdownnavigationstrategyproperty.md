@@ -12,7 +12,7 @@ public DependencyProperty XYFocusDownNavigationStrategyProperty { get; }
 ## -description
 Identifies the [XYFocusDownNavigationStrategy](hyperlink_xyfocusdownnavigationstrategy.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusDownNavigationStrategyProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.xyfocusdownnavigationstrategyproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusDownNavigationStrategyProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.xyfocusdownnavigationstrategyproperty).
 
 ## -property-value
 The identifier for the [XYFocusDownNavigationStrategy](hyperlink_xyfocusdownnavigationstrategy.md) dependency property.

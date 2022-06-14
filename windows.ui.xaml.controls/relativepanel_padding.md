@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Thickness Padding { get;  set; }
 ## -description
 Gets or sets the distance between the border and its child object.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.Padding](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.padding).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.Padding](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.padding).
 
 ## -xaml-syntax
 ```xaml

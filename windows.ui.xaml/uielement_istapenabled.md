@@ -12,7 +12,7 @@ public bool IsTapEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines whether the [Tapped](uielement_tapped.md) event can originate from that element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.IsTapEnabled](/windows/winui/api/microsoft.ui.xaml.uielement.istapenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.IsTapEnabled](/windows/winui/api/microsoft.ui.xaml.uielement.istapenabled).
 
 ## -xaml-syntax
 ```xaml

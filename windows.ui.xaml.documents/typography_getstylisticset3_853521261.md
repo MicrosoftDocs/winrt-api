@@ -12,7 +12,7 @@ public bool GetStylisticSet3(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [StylisticSet3](typography_stylisticset3.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetStylisticSet3](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstylisticset3).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.GetStylisticSet3](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstylisticset3).
 
 ## -parameters
 ### -param element

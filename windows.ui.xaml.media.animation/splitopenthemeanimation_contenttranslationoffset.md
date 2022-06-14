@@ -12,7 +12,7 @@ public double ContentTranslationOffset { get;  set; }
 ## -description
 Gets or sets the pixels to translate by when the animation runs.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation.ContentTranslationOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation.contenttranslationoffset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation.ContentTranslationOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation.contenttranslationoffset).
 
 ## -xaml-syntax
 ```xaml

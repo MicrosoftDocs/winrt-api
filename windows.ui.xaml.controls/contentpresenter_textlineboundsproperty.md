@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TextLineBoundsProperty { get; }
 ## -description
 Identifies the [TextLineBounds](contentpresenter_textlinebounds.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.TextLineBoundsProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.textlineboundsproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentPresenter.TextLineBoundsProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.textlineboundsproperty).
 
 ## -property-value
 The identifier for the [TextLineBounds](contentpresenter_textlinebounds.md) dependency property.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty NineGridProperty { get; }
 ## -description
 Identifies the [NineGrid](image_ninegrid.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Image.NineGridProperty](/windows/winui/api/microsoft.ui.xaml.controls.image.ninegridproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Image.NineGridProperty](/windows/winui/api/microsoft.ui.xaml.controls.image.ninegridproperty).
 
 ## -property-value
 The identifier for the [NineGrid](image_ninegrid.md) dependency property.

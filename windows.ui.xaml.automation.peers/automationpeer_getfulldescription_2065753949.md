@@ -12,7 +12,7 @@ public string GetFullDescription()
 ## -description
 Gets a localized string that describes the actual visual appearance or contents of something such as an image or image control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetFullDescription](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getfulldescription).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetFullDescription](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getfulldescription).
 
 ## -returns
 A localized string that describes the actual visual appearance or contents of something such as an image or image control.

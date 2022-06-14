@@ -12,7 +12,7 @@ public CompositionVirtualDrawingSurface CompositionGraphicsDevice.CreateVirtualD
 ## -description
 Creates an instance of CompositionVirtualDrawingSurface.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionGraphicsDevice.CreateVirtualDrawingSurface](/windows/winui/api/microsoft.ui.composition.compositiongraphicsdevice.createvirtualdrawingsurface).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionGraphicsDevice.CreateVirtualDrawingSurface](/windows/winui/api/microsoft.ui.composition.compositiongraphicsdevice.createvirtualdrawingsurface).
 
 ## -parameters
 

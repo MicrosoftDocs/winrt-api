@@ -12,7 +12,7 @@ public object GetAbove(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [RelativePanel.Above](relativepanel_above.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.GetAbove](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getabove).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.GetAbove](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getabove).
 
 ## -parameters
 ### -param element

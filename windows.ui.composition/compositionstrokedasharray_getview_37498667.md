@@ -13,7 +13,7 @@ public IVectorView<float> CompositionStrokeDashArray.GetView()
 
 Gets an immutable view into the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionStrokeDashArray.GetView](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.getview).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionStrokeDashArray.GetView](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.getview).
 
 ## -returns
 

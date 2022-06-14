@@ -13,7 +13,7 @@ public class ShapeVisual : ContainerVisual, ContainerVisual
 
 Represents a visual tree node that is the root of a CompositionShape.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.ShapeVisual](/windows/winui/api/microsoft.ui.composition.shapevisual).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ShapeVisual](/windows/winui/api/microsoft.ui.composition.shapevisual).
 
 ## -remarks
 

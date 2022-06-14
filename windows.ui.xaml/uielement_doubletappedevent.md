@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent DoubleTappedEvent { get; }
 ## -description
 Gets the identifier for the [DoubleTapped](uielement_doubletapped.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.DoubleTappedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.doubletappedevent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.DoubleTappedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.doubletappedevent).
 
 ## -property-value
 The identifier for the [DoubleTapped](uielement_doubletapped.md) routed event.

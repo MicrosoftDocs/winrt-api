@@ -12,7 +12,7 @@ public bool GetIsPeripheral(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets a Boolean value that indicates whether the specified element represents peripheral UI.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetIsPeripheral](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getisperipheral).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetIsPeripheral](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getisperipheral).
 
 ## -parameters
 ### -param element

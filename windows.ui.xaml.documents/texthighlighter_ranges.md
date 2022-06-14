@@ -13,7 +13,7 @@ public IVector<TextRange> Ranges { get; }
 
 Gets the text ranges to highlight.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextHighlighter.Ranges](/windows/winui/api/microsoft.ui.xaml.documents.texthighlighter.ranges).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextHighlighter.Ranges](/windows/winui/api/microsoft.ui.xaml.documents.texthighlighter.ranges).
 
 ## -property-value
 

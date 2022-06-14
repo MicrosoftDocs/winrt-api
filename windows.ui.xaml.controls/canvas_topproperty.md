@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TopProperty { get; }
 ## -description
 Identifies the [Canvas.Top](canvas_top.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Canvas.TopProperty](/windows/winui/api/microsoft.ui.xaml.controls.canvas.topproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Canvas.TopProperty](/windows/winui/api/microsoft.ui.xaml.controls.canvas.topproperty).
 
 ## -property-value
 The identifier for the [Canvas.Top](canvas_top.md) XAML attached property.

@@ -12,7 +12,7 @@ public class ContentDialogButtonClickEventArgs : Windows.UI.Xaml.Controls.IConte
 ## -description
 Provides data for the button click events.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ContentDialogButtonClickEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogbuttonclickeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentDialogButtonClickEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogbuttonclickeventargs).
 
 ## -remarks
 

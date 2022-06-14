@@ -12,7 +12,7 @@ public class Brush : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Media.IBr
 ## -description
 Defines objects used to paint graphical objects. Classes that derive from Brush describe how the area is painted.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Brush](/windows/winui/api/microsoft.ui.xaml.media.brush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Brush](/windows/winui/api/microsoft.ui.xaml.media.brush).
 
 ## -xaml-syntax
 ```xaml

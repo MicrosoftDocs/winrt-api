@@ -12,7 +12,7 @@ public class VisualTransition : Windows.UI.Xaml.DependencyObject, Windows.UI.Xam
 ## -description
 Represents the visual behavior that occurs when the control transitions from one visual state to another.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.VisualTransition](/windows/winui/api/microsoft.ui.xaml.visualtransition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualTransition](/windows/winui/api/microsoft.ui.xaml.visualtransition).
 
 ## -xaml-syntax
 ```xaml

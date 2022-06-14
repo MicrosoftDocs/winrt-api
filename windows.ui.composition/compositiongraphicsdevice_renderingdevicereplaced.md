@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler RenderingDeviceReplaced<Window
 ## -description
 Event triggered when the rendering device has been replaced.
 
-Equivalent WinUI event: [Microsoft.UI.Composition.CompositionGraphicsDevice.RenderingDeviceReplaced](/windows/winui/api/microsoft.ui.composition.compositiongraphicsdevice.renderingdevicereplaced).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionGraphicsDevice.RenderingDeviceReplaced](/windows/winui/api/microsoft.ui.composition.compositiongraphicsdevice.renderingdevicereplaced).
 
 ## -remarks
 

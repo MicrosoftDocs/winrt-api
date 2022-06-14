@@ -12,7 +12,7 @@ public int ItemCount { get; }
 ## -description
 Gets the number of items that were involved in the change.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.ItemCount](/windows/winui/api/microsoft.ui.xaml.controls.primitives.itemschangedeventargs.itemcount).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.ItemCount](/windows/winui/api/microsoft.ui.xaml.controls.primitives.itemschangedeventargs.itemcount).
 
 ## -property-value
 Integer that represents the number of items involved in the change.

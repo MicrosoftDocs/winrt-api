@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SecondaryButtonCommandParameterPropert
 ## -description
 Gets the identifier of the SecondaryButtonCommandParameter dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.SecondaryButtonCommandParameterProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.secondarybuttoncommandparameterproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentDialog.SecondaryButtonCommandParameterProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.secondarybuttoncommandparameterproperty).
 
 ## -property-value
 The identifier of the SecondaryButtonCommandParameter dependency property.

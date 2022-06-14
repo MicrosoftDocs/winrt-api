@@ -13,7 +13,7 @@ public ElementTheme ActualTheme { get; }
 
 Gets the UI theme that is currently used by the element, which might be different than the [RequestedTheme](frameworkelement_requestedtheme.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.ActualTheme](/windows/winui/api/microsoft.ui.xaml.frameworkelement.actualtheme).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.ActualTheme](/windows/winui/api/microsoft.ui.xaml.frameworkelement.actualtheme).
 
 ## -property-value
 

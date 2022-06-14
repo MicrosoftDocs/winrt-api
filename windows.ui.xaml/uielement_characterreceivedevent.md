@@ -12,7 +12,7 @@ public RoutedEvent CharacterReceivedEvent { get; }
 ## -description
 Gets the identifier for the [CharacterReceived](uielement_characterreceived.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.CharacterReceivedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.characterreceivedevent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.CharacterReceivedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.characterreceivedevent).
 
 ## -property-value
 The identifier for the [CharacterReceived](uielement_characterreceived.md) routed event.

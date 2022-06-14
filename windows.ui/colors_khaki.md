@@ -13,7 +13,7 @@ public Windows.UI.Color Khaki { get; }
 
 Gets the system-defined color that has an ARGB value of #FFF0E68C.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Khaki](/windows/winui/api/microsoft.ui.colors.khaki).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Khaki](/windows/winui/api/microsoft.ui.colors.khaki).
 
 ## -property-value
 

@@ -12,7 +12,7 @@ virtual protected bool GoToElementStateCore(System.String stateName, System.Bool
 ## -description
 When implemented in a derived class, enables per-state construction of a visual tree for a control template in code, rather than by loading XAML for all states at control startup.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkElement.GoToElementStateCore](/windows/winui/api/microsoft.ui.xaml.frameworkelement.gotoelementstatecore).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.GoToElementStateCore](/windows/winui/api/microsoft.ui.xaml.frameworkelement.gotoelementstatecore).
 
 ## -parameters
 ### -param stateName

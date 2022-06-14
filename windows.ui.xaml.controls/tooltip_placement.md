@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Primitives.PlacementMode Placement { get;  set; 
 ## -description
 Gets or sets how a [ToolTip](tooltip.md) is positioned in relation to the placement target element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToolTip.Placement](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.placement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToolTip.Placement](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.placement).
 
 ## -xaml-syntax
 ```xaml

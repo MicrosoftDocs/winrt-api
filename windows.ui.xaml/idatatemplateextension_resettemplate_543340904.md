@@ -12,7 +12,7 @@ public void ResetTemplate()
 ## -description
 Disconnects any event listeners so the data template can be recycled.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.IDataTemplateExtension.ResetTemplate](/windows/winui/api/microsoft.ui.xaml.idatatemplateextension.resettemplate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.IDataTemplateExtension.ResetTemplate](/windows/winui/api/microsoft.ui.xaml.idatatemplateextension.resettemplate).
 
 ## -remarks
 

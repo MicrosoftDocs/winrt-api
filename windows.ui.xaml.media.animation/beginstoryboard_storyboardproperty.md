@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty StoryboardProperty { get; }
 ## -description
 Identifies the [BeginStoryboard.Storyboard](beginstoryboard_storyboard.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.BeginStoryboard.StoryboardProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.beginstoryboard.storyboardproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.BeginStoryboard.StoryboardProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.beginstoryboard.storyboardproperty).
 
 ## -property-value
 The identifier for the [BeginStoryboard.Storyboard](beginstoryboard_storyboard.md) dependency property.

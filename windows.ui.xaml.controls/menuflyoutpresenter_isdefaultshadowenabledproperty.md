@@ -14,7 +14,7 @@ public DependencyProperty IsDefaultShadowEnabledProperty { get; }
 
 Identifies the [IsDefaultShadowEnabled](menuflyoutpresenter_isdefaultshadowenabled.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.IsDefaultShadowEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutpresenter.isdefaultshadowenabledproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.IsDefaultShadowEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutpresenter.isdefaultshadowenabledproperty).
 
 ## -property-value
 

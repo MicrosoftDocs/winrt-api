@@ -12,7 +12,7 @@ public double OriginY { get;  set; }
 ## -description
 Gets or sets the y origin for the glyphs.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.OriginY](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.originy).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Glyphs.OriginY](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.originy).
 
 ## -xaml-syntax
 ```xaml

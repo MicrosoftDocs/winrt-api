@@ -12,7 +12,7 @@ public void Remove(System.Object key)
 ## -description
 Removes a specific item from the [ResourceDictionary](resourcedictionary.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.ResourceDictionary.Remove](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.remove).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ResourceDictionary.Remove](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.remove).
 
 ## -parameters
 ### -param key

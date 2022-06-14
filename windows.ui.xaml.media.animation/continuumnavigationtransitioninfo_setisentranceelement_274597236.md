@@ -12,7 +12,7 @@ public void SetIsEntranceElement(Windows.UI.Xaml.UIElement element, System.Boole
 ## -description
 Sets a Boolean value indicating if the specified **UIElement** is the entrance element for the continuum navigation.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.SetIsEntranceElement](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.setisentranceelement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.SetIsEntranceElement](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.setisentranceelement).
 
 ## -parameters
 ### -param element

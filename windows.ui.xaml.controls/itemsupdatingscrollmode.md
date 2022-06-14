@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.ItemsUpdatingScrollMode : int
 ## -description
 Defines constants that specify the scrolling behavior of items while updating.
 
-Equivalent WinUI enum: [ItemsUpdatingScrollMode](/windows/winui/api/microsoft.ui.xaml.controls.itemsupdatingscrollmode).
+Equivalent **WinUI 2 API for UWP**: [ItemsUpdatingScrollMode](/windows/winui/api/microsoft.ui.xaml.controls.itemsupdatingscrollmode).
 
 ## -enum-fields
 ### -field KeepItemsInView:0

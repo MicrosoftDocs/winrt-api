@@ -12,7 +12,7 @@ public class ButtonBase : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xa
 ## -description
 Represents the base class for all button controls, such as [Button](../windows.ui.xaml.controls/button.md), [RepeatButton](repeatbutton.md), and [HyperlinkButton](../windows.ui.xaml.controls/hyperlinkbutton.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase).
 
 ## -remarks
 ### **ButtonBase** derived classes

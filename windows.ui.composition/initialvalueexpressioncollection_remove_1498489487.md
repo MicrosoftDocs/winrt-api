@@ -13,7 +13,7 @@ public void InitialValueExpressionCollection.Remove(String key)
 
 Removes the specified item from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.InitialValueExpressionCollection.Remove](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.remove).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.InitialValueExpressionCollection.Remove](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.remove).
 
 ## -parameters
 

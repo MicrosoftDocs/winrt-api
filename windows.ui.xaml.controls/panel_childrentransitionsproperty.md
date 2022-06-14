@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ChildrenTransitionsProperty { get; }
 ## -description
 Identifies the [ChildrenTransitions](panel_childrentransitions.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Panel.ChildrenTransitionsProperty](/windows/winui/api/microsoft.ui.xaml.controls.panel.childrentransitionsproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Panel.ChildrenTransitionsProperty](/windows/winui/api/microsoft.ui.xaml.controls.panel.childrentransitionsproperty).
 
 ## -property-value
 The identifier for the [ChildrenTransitions](panel_childrentransitions.md) dependency property.

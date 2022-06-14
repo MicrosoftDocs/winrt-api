@@ -14,7 +14,7 @@ public DependencyProperty AccessKeyProperty { get; }
 
 Identifies the [AccessKey](xamluicommand_accesskey.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.AccessKeyProperty](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.accesskeyproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.XamlUICommand.AccessKeyProperty](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.accesskeyproperty).
 
 ## -property-value
 

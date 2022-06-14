@@ -13,7 +13,7 @@ public interface ICompositionSurface :
 
 Represents the content of a surface that can be used to paint the bounds of a `SpriteVisual`.
 
-Equivalent WinUI interface: [Microsoft.UI.Composition.ICompositionSurface](/windows/winui/api/microsoft.ui.composition.icompositionsurface).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ICompositionSurface](/windows/winui/api/microsoft.ui.composition.icompositionsurface).
 
 ## -remarks
 

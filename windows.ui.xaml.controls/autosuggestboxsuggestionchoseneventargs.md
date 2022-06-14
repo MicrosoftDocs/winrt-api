@@ -12,7 +12,7 @@ public class AutoSuggestBoxSuggestionChosenEventArgs : Windows.UI.Xaml.Dependenc
 ## -description
 Provides data for the [SuggestionChosen](autosuggestbox_suggestionchosen.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.AutoSuggestBoxSuggestionChosenEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestboxsuggestionchoseneventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AutoSuggestBoxSuggestionChosenEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestboxsuggestionchoseneventargs).
 
 ## -remarks
 

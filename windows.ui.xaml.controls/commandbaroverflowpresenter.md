@@ -12,7 +12,7 @@ public class CommandBarOverflowPresenter : Windows.UI.Xaml.Controls.ItemsControl
 ## -description
 Displays the overflow content of a [CommandBar](commandbar.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CommandBarOverflowPresenter](/windows/winui/api/microsoft.ui.xaml.controls.commandbaroverflowpresenter).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CommandBarOverflowPresenter](/windows/winui/api/microsoft.ui.xaml.controls.commandbaroverflowpresenter).
 
 ## -xaml-syntax
 ```xaml

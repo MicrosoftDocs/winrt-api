@@ -12,7 +12,7 @@ public int FinalStep { get;  set; }
 ## -description
 The step to end at.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.StepEasingFunction.FinalStep](/windows/winui/api/microsoft.ui.composition.stepeasingfunction.finalstep).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.StepEasingFunction.FinalStep](/windows/winui/api/microsoft.ui.composition.stepeasingfunction.finalstep).
 
 ## -property-value
 The step to end at.

@@ -12,7 +12,7 @@ public void SetKerning(Windows.UI.Xaml.DependencyObject element, System.Boolean 
 ## -description
 Sets the value of the [Kerning](typography_kerning.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetKerning](/windows/winui/api/microsoft.ui.xaml.documents.typography.setkerning).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetKerning](/windows/winui/api/microsoft.ui.xaml.documents.typography.setkerning).
 
 ## -parameters
 ### -param element

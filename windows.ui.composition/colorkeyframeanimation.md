@@ -14,7 +14,7 @@ A time-based animation that targets the Color property with one or more color ke
 
 The ColorKeyFrameAnimation class is one of the supported types of [KeyFrameAnimation](keyframeanimation.md)s that is used to animate the [Color](compositioncolorbrush_color.md) property off of the [Brush](spritevisual_brush.md) property on a [SpriteVisual](spritevisual.md). When working with ColorKeyFrameAnimation s, utilize Windows.UI.Color objects for the values of keyframes. Utilize the InterpolationColorSpace property to define which color space the system will interpolate through for the animation.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.ColorKeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.colorkeyframeanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ColorKeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.colorkeyframeanimation).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public void SetExitElementContainer(Windows.UI.Xaml.Controls.ListViewBase elemen
 ## -description
 Sets a Boolean value indicating that the specified element is the exit element container for the continuum navigation.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.SetExitElementContainer](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.setexitelementcontainer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.SetExitElementContainer](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.setexitelementcontainer).
 
 ## -parameters
 ### -param element

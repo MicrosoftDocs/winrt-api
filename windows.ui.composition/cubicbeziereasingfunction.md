@@ -13,7 +13,7 @@ public class CubicBezierEasingFunction : Windows.UI.Composition.CompositionEasin
 
 Represents a cubic-bezier function for interpolating between animation key frames.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CubicBezierEasingFunction](/windows/winui/api/microsoft.ui.composition.cubicbeziereasingfunction).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CubicBezierEasingFunction](/windows/winui/api/microsoft.ui.composition.cubicbeziereasingfunction).
 
 ## -remarks
 

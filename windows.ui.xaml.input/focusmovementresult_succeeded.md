@@ -13,7 +13,7 @@ public bool Succeeded { get; }
 
 Gets a boolean value that indicates whether focus can be assigned to an object.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.FocusMovementResult.Succeeded](/windows/winui/api/microsoft.ui.xaml.input.focusmovementresult.succeeded).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FocusMovementResult.Succeeded](/windows/winui/api/microsoft.ui.xaml.input.focusmovementresult.succeeded).
 
 ## -property-value
 

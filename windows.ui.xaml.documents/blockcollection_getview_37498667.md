@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Documents.Bloc
 ## -description
 Gets an immutable view into the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.BlockCollection.GetView](/windows/winui/api/microsoft.ui.xaml.documents.blockcollection.getview).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.BlockCollection.GetView](/windows/winui/api/microsoft.ui.xaml.documents.blockcollection.getview).
 
 ## -returns
 An object representing the immutable collection view.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsDraggingProperty { get; }
 ## -description
 Identifies the [IsDragging](thumb_isdragging.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Thumb.IsDraggingProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.thumb.isdraggingproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.Thumb.IsDraggingProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.thumb.isdraggingproperty).
 
 ## -property-value
 The identifier for the [IsDragging](thumb_isdragging.md) dependency property.

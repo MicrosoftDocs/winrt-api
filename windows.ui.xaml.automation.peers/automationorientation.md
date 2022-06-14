@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationOrientation : int
 ## -description
 Specifies the orientation direction in which a control can be presented. Values are used by [GetOrientation](automationpeer_getorientation_419829207.md).
 
-Equivalent WinUI enum: [AutomationOrientation](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationorientation).
+Equivalent **WinUI 2 API for UWP**: [AutomationOrientation](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationorientation).
 
 ## -enum-fields
 ### -field None:0

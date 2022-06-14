@@ -12,7 +12,7 @@ public void SetZIndex(Windows.UI.Xaml.UIElement element, System.Int32 value)
 ## -description
 Sets the value of the [Canvas.ZIndex](canvas_zindex.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Canvas.SetZIndex](/windows/winui/api/microsoft.ui.xaml.controls.canvas.setzindex).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Canvas.SetZIndex](/windows/winui/api/microsoft.ui.xaml.controls.canvas.setzindex).
 
 ## -parameters
 ### -param element

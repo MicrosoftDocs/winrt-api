@@ -12,7 +12,7 @@ public double BaselineOffset { get; }
 ## -description
 Returns a value by which each line of text is offset from a baseline.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.BaselineOffset](/windows/winui/api/microsoft.ui.xaml.controls.textblock.baselineoffset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBlock.BaselineOffset](/windows/winui/api/microsoft.ui.xaml.controls.textblock.baselineoffset).
 
 ## -property-value
 The amount by which each line of text is offset from the baseline, in device independent pixels. The default is NaN. See Remarks below.

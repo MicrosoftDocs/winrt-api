@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Input.InputScope InputScope { get;  set; }
 
 Gets or sets the context for input used by this [TextBox](textbox.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.InputScope](/windows/winui/api/microsoft.ui.xaml.controls.textbox.inputscope).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.InputScope](/windows/winui/api/microsoft.ui.xaml.controls.textbox.inputscope).
 
 ## -xaml-syntax
 

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationStructureChangeType : int
 ## -description
 Defines the types of change in the Microsoft UI Automation tree structure.
 
-Equivalent WinUI enum: [AutomationStructureChangeType](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationstructurechangetype).
+Equivalent **WinUI 2 API for UWP**: [AutomationStructureChangeType](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationstructurechangetype).
 
 ## -enum-fields
 ### -field ChildAdded:0

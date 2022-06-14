@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ForegroundProperty { get; }
 ## -description
 Identifies the [Foreground](textelement_foreground.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.ForegroundProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.foregroundproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextElement.ForegroundProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.foregroundproperty).
 
 ## -property-value
 Identifier for the [Foreground](textelement_foreground.md) dependency property.

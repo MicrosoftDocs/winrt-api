@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AttachedFlyoutProperty { get; }
 ## -description
 Identifies the [FlyoutBase.AttachedFlyout](flyoutbase_attachedflyout.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AttachedFlyoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.attachedflyoutproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AttachedFlyoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.attachedflyoutproperty).
 
 ## -property-value
 The identifier for the [FlyoutBase.AttachedFlyout](flyoutbase_attachedflyout.md) XAML attached property.

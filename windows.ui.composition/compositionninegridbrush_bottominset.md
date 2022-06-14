@@ -12,7 +12,7 @@ public float BottomInset { get;  set; }
 ## -description
 Inset from the bottom edge of the source content that specifies the thickness of the bottom row. Defaults to 0.0f.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionNineGridBrush.BottomInset](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.bottominset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionNineGridBrush.BottomInset](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.bottominset).
 
 ## -property-value
 Inset from the bottom edge of the source content that specifies the thickness of the bottom row. Defaults to 0.0f.

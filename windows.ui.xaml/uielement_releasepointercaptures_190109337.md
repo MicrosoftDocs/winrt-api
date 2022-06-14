@@ -13,7 +13,7 @@ public void ReleasePointerCaptures()
 
 Releases all pointer captures held by this element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.ReleasePointerCaptures](/windows/winui/api/microsoft.ui.xaml.uielement.releasepointercaptures).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ReleasePointerCaptures](/windows/winui/api/microsoft.ui.xaml.uielement.releasepointercaptures).
 
 ## -remarks
 

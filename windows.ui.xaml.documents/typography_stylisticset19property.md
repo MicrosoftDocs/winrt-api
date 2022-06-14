@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty StylisticSet19Property { get; }
 ## -description
 Identifies the [StylisticSet19](typography_stylisticset19.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.StylisticSet19Property](/windows/winui/api/microsoft.ui.xaml.documents.typography.stylisticset19property).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.StylisticSet19Property](/windows/winui/api/microsoft.ui.xaml.documents.typography.stylisticset19property).
 
 ## -property-value
 The identifier for the [StylisticSet19](typography_stylisticset19.md) attached property.

@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerCanceled
 
 Occurs when a pointer that made contact abnormally loses contact.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.PointerCanceled](/windows/winui/api/microsoft.ui.xaml.uielement.pointercanceled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.PointerCanceled](/windows/winui/api/microsoft.ui.xaml.uielement.pointercanceled).
 
 ## -xaml-syntax
 

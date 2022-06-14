@@ -12,7 +12,7 @@ public bool GetExitElementContainer(Windows.UI.Xaml.Controls.ListViewBase elemen
 ## -description
 Returns a Boolean value indicating if the specified element is the [ExitElement](continuumnavigationtransitioninfo_exitelement.md) container.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.GetExitElementContainer](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.getexitelementcontainer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.GetExitElementContainer](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.getexitelementcontainer).
 
 ## -parameters
 ### -param element

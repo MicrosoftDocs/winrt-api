@@ -12,7 +12,7 @@ public bool ConfirmationButtonsVisible { get;  set; }
 ## -description
 Gets or sets whether the confirmation buttons are visible.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PickerFlyout.ConfirmationButtonsVisible](/windows/winui/api/microsoft.ui.xaml.controls.pickerflyout.confirmationbuttonsvisible).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.PickerFlyout.ConfirmationButtonsVisible](/windows/winui/api/microsoft.ui.xaml.controls.pickerflyout.confirmationbuttonsvisible).
 
 ## -property-value
 True of the confirmation buttons are visible; Otherwise, false.

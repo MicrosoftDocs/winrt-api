@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ListViewSelectionMode SelectionMode { get;  set;
 ## -description
 Gets or sets the selection behavior for a [ListViewBase](listviewbase.md) instance.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.SelectionMode](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.selectionmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.SelectionMode](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.selectionmode).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public string Glyph { get;  set; }
 ## -description
 Gets or sets the character code that identifies the icon glyph.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.FontIcon.Glyph](/windows/winui/api/microsoft.ui.xaml.controls.fonticon.glyph).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.FontIcon.Glyph](/windows/winui/api/microsoft.ui.xaml.controls.fonticon.glyph).
 
 ## -xaml-syntax
 ```xaml

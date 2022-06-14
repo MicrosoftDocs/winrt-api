@@ -12,7 +12,7 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the control's header.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.Header](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.header).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.PasswordBox.Header](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.header).
 
 ## -xaml-syntax
 ```xaml

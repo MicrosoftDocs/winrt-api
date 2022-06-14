@@ -12,7 +12,7 @@ public DependencyProperty LightsProperty { get; }
 ## -description
 Identifies the [Lights](uielement_lights.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.LightsProperty](/windows/winui/api/microsoft.ui.xaml.uielement.lightsproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.LightsProperty](/windows/winui/api/microsoft.ui.xaml.uielement.lightsproperty).
 
 ## -property-value
 The identifier for the [Lights](uielement_lights.md) dependency property.

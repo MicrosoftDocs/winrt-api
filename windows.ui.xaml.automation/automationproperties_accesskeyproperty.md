@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AccessKeyProperty { get; }
 ## -description
 Identifies the [AutomationProperties.AccessKey](automationproperties_accesskey.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.AccessKeyProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.accesskeyproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.AccessKeyProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.accesskeyproperty).
 
 ## -property-value
 The identifier for the [AutomationProperties.AccessKey](automationproperties_accesskey.md) attached property.

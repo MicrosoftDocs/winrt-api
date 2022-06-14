@@ -14,7 +14,7 @@ public CompositionMipmapSurface CompositionGraphicsDevice.CreateMipmapSurface(Si
 
 Creates an instance of [CompositionMipMapSurface](compositionmipmapsurface.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionGraphicsDevice.CreateMipmapSurface](/windows/winui/api/microsoft.ui.composition.compositiongraphicsdevice.createmipmapsurface).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionGraphicsDevice.CreateMipmapSurface](/windows/winui/api/microsoft.ui.composition.compositiongraphicsdevice.createmipmapsurface).
 
 ## -parameters
 ### -param sizePixels

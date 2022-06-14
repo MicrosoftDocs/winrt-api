@@ -14,7 +14,7 @@ public DependencyProperty SelectionFlyoutProperty { get; }
 
 Identifies the SelectionFlyout dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.SelectionFlyoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectionflyoutproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.SelectionFlyoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectionflyoutproperty).
 
 ## -property-value
 

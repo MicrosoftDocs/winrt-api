@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty ItemStatusProperty { get; }
 
 Identifies the [AutomationProperties.ItemStatus](automationproperties_itemstatus.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.ItemStatusProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.itemstatusproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.ItemStatusProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.itemstatusproperty).
 
 ## -property-value
 

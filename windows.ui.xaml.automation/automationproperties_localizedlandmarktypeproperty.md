@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty LocalizedLandmarkTypeProperty { get; }
 
 Identifies the [AutomationProperties.LocalizedLandmarkType](automationproperties_localizedlandmarktype.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.LocalizedLandmarkTypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.localizedlandmarktypeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.LocalizedLandmarkTypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.localizedlandmarktypeproperty).
 
 ## -property-value
 

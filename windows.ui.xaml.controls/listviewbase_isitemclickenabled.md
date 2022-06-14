@@ -12,7 +12,7 @@ public bool IsItemClickEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether items in the view fire an [ItemClick](listviewbase_itemclick.md) event in response to interaction.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.IsItemClickEnabled](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.isitemclickenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.IsItemClickEnabled](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.isitemclickenabled).
 
 ## -xaml-syntax
 ```xaml

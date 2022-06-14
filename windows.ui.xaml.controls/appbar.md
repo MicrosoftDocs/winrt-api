@@ -13,7 +13,7 @@ public class AppBar : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xaml.C
 
 Represents the container control that holds app UI components for commanding and experiences. For Windows 10, see Remarks.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.AppBar](/windows/winui/api/microsoft.ui.xaml.controls.appbar).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AppBar](/windows/winui/api/microsoft.ui.xaml.controls.appbar).
 
 ## -xaml-syntax
 

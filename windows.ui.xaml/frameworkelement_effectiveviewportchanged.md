@@ -14,7 +14,7 @@ public event TypedEventHandler EffectiveViewportChanged<FrameworkElement, Effect
 
 Occurs when the [FrameworkElement](frameworkelement.md)'s *effective viewport* changes.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.FrameworkElement.EffectiveViewportChanged](/windows/winui/api/microsoft.ui.xaml.frameworkelement.effectiveviewportchanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.EffectiveViewportChanged](/windows/winui/api/microsoft.ui.xaml.frameworkelement.effectiveviewportchanged).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public void SelectAll()
 ## -description
 Selects all the items in a view.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.SelectAll](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.selectall).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.SelectAll](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.selectall).
 
 ## -remarks
 > [!WARNING]

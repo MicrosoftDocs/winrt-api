@@ -12,7 +12,7 @@ public class CompositionCommitBatch : Windows.UI.Composition.CompositionObject, 
 ## -description
 A group of active animations or effects.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionCommitBatch](/windows/winui/api/microsoft.ui.composition.compositioncommitbatch).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionCommitBatch](/windows/winui/api/microsoft.ui.composition.compositioncommitbatch).
 
 ## -remarks
 Represents a group of active animations or effects and triggers a callback when all members of the group have completed. A CompositionCommitBatch is implicitly created but must be retrieved in order declare the completed event. A Commit batch will be implicitly closed at the end of each commit cycle.

@@ -13,7 +13,7 @@ public char Character { get;  set; }
 
 Gets or sets the first character of the text range; that is, the character associated with the StartPosition property.
 
-Equivalent WinUI property: [Microsoft.UI.Text.RichEditTextRange.Character](/windows/winui/api/microsoft.ui.text.richedittextrange.character).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.Character](/windows/winui/api/microsoft.ui.text.richedittextrange.character).
 
 ## -property-value
 

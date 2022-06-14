@@ -13,7 +13,7 @@ public float Offset { get;  set; }
 
 Gets or sets the location of the gradient stop within the gradient vector.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionColorGradientStop.Offset](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstop.offset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionColorGradientStop.Offset](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstop.offset).
 
 ## -property-value
 

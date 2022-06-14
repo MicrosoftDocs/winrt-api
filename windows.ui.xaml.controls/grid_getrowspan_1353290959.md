@@ -12,7 +12,7 @@ public int GetRowSpan(Windows.UI.Xaml.FrameworkElement element)
 ## -description
 Gets the value of the [Grid.RowSpan](grid_rowspan.md) XAML attached property from the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Grid.GetRowSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid.getrowspan).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Grid.GetRowSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid.getrowspan).
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ public bool IsBlackout { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the date is unavailable.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarViewDayItem.IsBlackout](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitem.isblackout).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarViewDayItem.IsBlackout](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitem.isblackout).
 
 ## -xaml-syntax
 ```xaml

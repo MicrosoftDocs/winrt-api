@@ -12,7 +12,7 @@ public Windows.Foundation.Uri Source { get;  set; }
 ## -description
 Gets or sets a Uniform Resource Identifier (URI) that provides the source location of a merged resource dictionary.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ResourceDictionary.Source](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.source).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ResourceDictionary.Source](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.source).
 
 ## -xaml-syntax
 ```xaml

@@ -14,7 +14,7 @@ public DependencyProperty ShowModeProperty { get; }
 
 Identifies the [ShowMode](flyoutbase_showmode.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShowModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.showmodeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShowModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.showmodeproperty).
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationEvents : int
 ## -description
 Specifies the event that is raised by the element through the associated [AutomationPeer](automationpeer.md). Used by [RaiseAutomationEvent](automationpeer_raiseautomationevent_2027563412.md).
 
-Equivalent WinUI enum: [AutomationEvents](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationevents).
+Equivalent **WinUI 2 API for UWP**: [AutomationEvents](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationevents).
 
 ## -enum-fields
 ### -field ToolTipOpened:0

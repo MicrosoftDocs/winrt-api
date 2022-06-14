@@ -12,7 +12,7 @@ public void SetStylisticSet19(Windows.UI.Xaml.DependencyObject element, System.B
 ## -description
 Sets the value of the [StylisticSet19](typography_stylisticset19.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet19](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset19).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet19](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset19).
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ public class ListViewHeaderItemAutomationPeer : Windows.UI.Xaml.Automation.Peers
 ## -description
 Exposes [ListViewHeaderItem](../windows.ui.xaml.controls/listviewheaderitem.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ListViewHeaderItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listviewheaderitemautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ListViewHeaderItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listviewheaderitemautomationpeer).
 
 ## -remarks
 

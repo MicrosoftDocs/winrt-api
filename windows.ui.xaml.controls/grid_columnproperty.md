@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ColumnProperty { get; }
 ## -description
 Identifies the [Grid.Column](grid_column.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.ColumnProperty](/windows/winui/api/microsoft.ui.xaml.controls.grid.columnproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Grid.ColumnProperty](/windows/winui/api/microsoft.ui.xaml.controls.grid.columnproperty).
 
 ## -property-value
 The identifier for the [Grid.Column](grid_column.md) XAML attached property.

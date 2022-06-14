@@ -12,7 +12,7 @@ public bool GetAlignBottomWithPanel(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [RelativePanel.AlignBottomWithPanel](relativepanel_alignbottomwithpanel.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.GetAlignBottomWithPanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getalignbottomwithpanel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.GetAlignBottomWithPanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getalignbottomwithpanel).
 
 ## -parameters
 ### -param element

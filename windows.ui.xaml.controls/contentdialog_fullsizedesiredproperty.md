@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FullSizeDesiredProperty { get; }
 ## -description
 Gets the identifier of the FullSizeDesired dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.FullSizeDesiredProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.fullsizedesiredproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentDialog.FullSizeDesiredProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.fullsizedesiredproperty).
 
 ## -property-value
 The identifier of the FullSizeDesired dependency property.

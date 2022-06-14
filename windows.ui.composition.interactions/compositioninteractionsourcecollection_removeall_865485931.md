@@ -12,7 +12,7 @@ public void RemoveAll()
 ## -description
 Removes all interaction sources from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.RemoveAll](/windows/winui/api/microsoft.ui.composition.interactions.compositioninteractionsourcecollection.removeall).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.RemoveAll](/windows/winui/api/microsoft.ui.composition.interactions.compositioninteractionsourcecollection.removeall).
 
 ## -remarks
 

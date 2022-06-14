@@ -12,7 +12,7 @@ public class ColumnDefinition : Windows.UI.Xaml.DependencyObject, Windows.UI.Xam
 ## -description
 Defines column-specific properties that apply to [Grid](grid.md) objects.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ColumnDefinition](/windows/winui/api/microsoft.ui.xaml.controls.columndefinition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ColumnDefinition](/windows/winui/api/microsoft.ui.xaml.controls.columndefinition).
 
 ## -xaml-syntax
 ```xaml

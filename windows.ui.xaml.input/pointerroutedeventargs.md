@@ -13,7 +13,7 @@ public class PointerRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.U
 
 Contains the arguments returned by the last pointer event message.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.PointerRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.pointerroutedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.PointerRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.pointerroutedeventargs).
 
 ## -remarks
 

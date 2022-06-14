@@ -13,7 +13,7 @@ public class IsTextTrimmedChangedEventArgs
 
 Provides event data for the **IsTextTrimmedChanged** event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.IsTextTrimmedChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.istexttrimmedchangedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.IsTextTrimmedChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.istexttrimmedchangedeventargs).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public float MinScale { get;  set; }
 ## -description
 The minimum scale for the [InteractionTracker](interactiontracker.md).
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTracker.MinScale](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.minscale).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.MinScale](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.minscale).
 
 ## -property-value
 The minimum scale for the [InteractionTracker](interactiontracker.md).

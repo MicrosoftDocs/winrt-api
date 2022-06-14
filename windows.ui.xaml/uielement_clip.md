@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.RectangleGeometry Clip { get;  set; }
 ## -description
 Gets or sets the [RectangleGeometry](../windows.ui.xaml.media/rectanglegeometry.md) used to define the outline of the contents of a [UIElement](uielement.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Clip](/windows/winui/api/microsoft.ui.xaml.uielement.clip).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.Clip](/windows/winui/api/microsoft.ui.xaml.uielement.clip).
 
 ## -xaml-syntax
 ```xaml

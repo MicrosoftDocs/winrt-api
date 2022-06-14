@@ -12,7 +12,7 @@ public void Clear()
 ## -description
 Removes all items from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathSegmentCollection.Clear](/windows/winui/api/microsoft.ui.xaml.media.pathsegmentcollection.clear).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PathSegmentCollection.Clear](/windows/winui/api/microsoft.ui.xaml.media.pathsegmentcollection.clear).
 
 ## -remarks
 

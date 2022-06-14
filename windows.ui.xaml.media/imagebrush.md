@@ -12,7 +12,7 @@ public class ImageBrush : Windows.UI.Xaml.Media.TileBrush, Windows.UI.Xaml.Media
 ## -description
 Paints an area with an image. The image source is typically obtained from file formats such as Joint Photographic Experts Group (JPEG).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.ImageBrush](/windows/winui/api/microsoft.ui.xaml.media.imagebrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.ImageBrush](/windows/winui/api/microsoft.ui.xaml.media.imagebrush).
 
 ## -xaml-syntax
 ```xaml

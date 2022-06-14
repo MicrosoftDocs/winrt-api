@@ -14,7 +14,7 @@ public IReference<Color> BaseMediumHigh { get;  set; }
 
 Gets or sets the BaseMediumHigh color value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.BaseMediumHigh](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.basemediumhigh).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ColorPaletteResources.BaseMediumHigh](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.basemediumhigh).
 
 ## -property-value
 

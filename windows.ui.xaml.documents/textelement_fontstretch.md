@@ -12,7 +12,7 @@ public Windows.UI.Text.FontStretch FontStretch { get;  set; }
 ## -description
 Gets or sets the glyph width of the font in a family to select.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.FontStretch](/windows/winui/api/microsoft.ui.xaml.documents.textelement.fontstretch).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextElement.FontStretch](/windows/winui/api/microsoft.ui.xaml.documents.textelement.fontstretch).
 
 ## -xaml-syntax
 ```xaml

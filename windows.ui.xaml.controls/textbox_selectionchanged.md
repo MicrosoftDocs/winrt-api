@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.RoutedEventHandler SelectionChanged
 
 Occurs when the text selection has changed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TextBox.SelectionChanged](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectionchanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.SelectionChanged](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectionchanged).
 
 ## -xaml-syntax
 

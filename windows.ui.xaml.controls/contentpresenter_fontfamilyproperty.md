@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FontFamilyProperty { get; }
 ## -description
 Identifies the [FontFamily](contentpresenter_fontfamily.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.FontFamilyProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.fontfamilyproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentPresenter.FontFamilyProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.fontfamilyproperty).
 
 ## -property-value
 The identifier for the [FontFamily](contentpresenter_fontfamily.md) dependency property.

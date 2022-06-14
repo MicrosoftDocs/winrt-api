@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Primitives.FlyoutBase GetAttachedFlyout(Windows.
 ## -description
 Gets the flyout associated with the specified element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.GetAttachedFlyout](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.getattachedflyout).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.GetAttachedFlyout](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.getattachedflyout).
 
 ## -parameters
 ### -param element

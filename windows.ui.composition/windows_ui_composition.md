@@ -9,7 +9,7 @@
 
 Provides APIs for user interface composition.
 
-Equivalent WinUI namespace: [Microsoft.UI.Composition](/windows/winui/api/microsoft.ui.composition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition](/windows/winui/api/microsoft.ui.composition).
 
 ## -remarks
 

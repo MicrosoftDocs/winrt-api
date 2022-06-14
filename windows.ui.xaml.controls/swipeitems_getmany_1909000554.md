@@ -13,7 +13,7 @@ public uint SwipeItems.GetMany(UInt32 startIndex, SwipeItem[] items)
 
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.SwipeItems.GetMany](/windows/winui/api/microsoft.ui.xaml.controls.swipeitems.getmany).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SwipeItems.GetMany](/windows/winui/api/microsoft.ui.xaml.controls.swipeitems.getmany).
 
 ## -parameters
 

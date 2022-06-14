@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ComputedVerticalScrollBarVisibilityPro
 ## -description
 Identifies the [ComputedVerticalScrollBarVisibility](scrollviewer_computedverticalscrollbarvisibility.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ComputedVerticalScrollBarVisibilityProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.computedverticalscrollbarvisibilityproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.ComputedVerticalScrollBarVisibilityProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.computedverticalscrollbarvisibilityproperty).
 
 ## -property-value
 The identifier for the [ComputedVerticalScrollBarVisibility](scrollviewer_computedverticalscrollbarvisibility.md)  dependency property.

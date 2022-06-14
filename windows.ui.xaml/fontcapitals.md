@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.FontCapitals : int
 ## -description
 Describes the capital letter style value for the [Typography.Capitals](/uwp/api/windows.ui.xaml.documents.typography.capitals) attached property.
 
-Equivalent WinUI enum: [FontCapitals](/windows/winui/api/microsoft.ui.xaml.fontcapitals).
+Equivalent **WinUI 2 API for UWP**: [FontCapitals](/windows/winui/api/microsoft.ui.xaml.fontcapitals).
 
 ## -xaml-syntax
 ```xaml

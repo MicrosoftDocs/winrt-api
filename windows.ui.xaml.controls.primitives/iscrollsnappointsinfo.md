@@ -12,7 +12,7 @@ public interface IScrollSnapPointsInfo :
 ## -description
 Describes snap point behavior for objects that contain and present items.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo](/windows/winui/api/microsoft.ui.xaml.controls.primitives.iscrollsnappointsinfo).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo](/windows/winui/api/microsoft.ui.xaml.controls.primitives.iscrollsnappointsinfo).
 
 ## -remarks
 

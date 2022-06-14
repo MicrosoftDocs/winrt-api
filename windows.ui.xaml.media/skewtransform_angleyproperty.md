@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AngleYProperty { get; }
 ## -description
 Identifies the [AngleY](skewtransform_angley.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.SkewTransform.AngleYProperty](/windows/winui/api/microsoft.ui.xaml.media.skewtransform.angleyproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.SkewTransform.AngleYProperty](/windows/winui/api/microsoft.ui.xaml.media.skewtransform.angleyproperty).
 
 ## -property-value
 The identifier for the [AngleY](skewtransform_angley.md) dependency property.

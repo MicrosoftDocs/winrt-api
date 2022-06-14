@@ -12,7 +12,7 @@ public Windows.UI.Composition.VisualCollection Children { get; }
 ## -description
 The children of the [ContainerVisual](containervisual.md).
 
-Equivalent WinUI property: [Microsoft.UI.Composition.ContainerVisual.Children](/windows/winui/api/microsoft.ui.composition.containervisual.children).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ContainerVisual.Children](/windows/winui/api/microsoft.ui.composition.containervisual.children).
 
 ## -property-value
 The children of the [ContainerVisual](containervisual.md).

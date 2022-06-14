@@ -12,7 +12,7 @@ public bool IsEnabled()
 ## -description
 Gets a value that indicates whether the element associated with this automation peer supports interaction.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsEnabled](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.isenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsEnabled](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.isenabled).
 
 ## -returns
 **true** if the element supports interaction; otherwise, **false**.

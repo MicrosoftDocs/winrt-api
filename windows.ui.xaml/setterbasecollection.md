@@ -12,7 +12,7 @@ public class SetterBaseCollection : Windows.Foundation.Collections.IIterable<Win
 ## -description
 Represents a collection of objects that inherit from [SetterBase](setterbase.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.SetterBaseCollection](/windows/winui/api/microsoft.ui.xaml.setterbasecollection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.SetterBaseCollection](/windows/winui/api/microsoft.ui.xaml.setterbasecollection).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.VirtualizationMode GetVirtualizationMode(Windows
 ## -description
 Gets the [VirtualizingStackPanel.VirtualizationMode](virtualizingstackpanel_virtualizationmode.md) XAML attached property value for the specified target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel.GetVirtualizationMode](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel.getvirtualizationmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel.GetVirtualizationMode](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel.getvirtualizationmode).
 
 ## -parameters
 ### -param element

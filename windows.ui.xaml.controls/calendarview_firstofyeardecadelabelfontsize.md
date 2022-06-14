@@ -12,7 +12,7 @@ public double FirstOfYearDecadeLabelFontSize { get;  set; }
 ## -description
 Gets or sets the font size used to display the first-of-year banner in the calendar.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.FirstOfYearDecadeLabelFontSize](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.firstofyeardecadelabelfontsize).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.FirstOfYearDecadeLabelFontSize](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.firstofyeardecadelabelfontsize).
 
 ## -xaml-syntax
 ```xaml

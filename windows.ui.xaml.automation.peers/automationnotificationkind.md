@@ -12,7 +12,7 @@ public enum AutomationNotificationKind : int
 ## -description
 Indicates the type of notification when calling [RaiseNotificationEvent](automationpeer_raisenotificationevent_1452378292.md)
 
-Equivalent WinUI enum: [Microsoft.UI.Xaml.Automation.Peers.AutomationNotificationKind](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationnotificationkind).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationNotificationKind](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationnotificationkind).
 
 ## -enum-fields
 ### -field ItemAdded:0

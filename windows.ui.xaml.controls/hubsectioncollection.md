@@ -12,7 +12,7 @@ public class HubSectionCollection : Windows.Foundation.Collections.IIterable<Win
 ## -description
 Represents an ordered collection of [HubSection](hubsection.md) objects.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.HubSectionCollection](/windows/winui/api/microsoft.ui.xaml.controls.hubsectioncollection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.HubSectionCollection](/windows/winui/api/microsoft.ui.xaml.controls.hubsectioncollection).
 
 ## -xaml-syntax
 ```xaml

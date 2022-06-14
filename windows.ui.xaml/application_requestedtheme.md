@@ -13,7 +13,7 @@ public Windows.UI.Xaml.ApplicationTheme RequestedTheme { get;  set; }
 
 Gets or sets a value that determines the light-dark preference for the overall theme of an app.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Application.RequestedTheme](/windows/winui/api/microsoft.ui.xaml.application.requestedtheme).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Application.RequestedTheme](/windows/winui/api/microsoft.ui.xaml.application.requestedtheme).
 
 ## -xaml-syntax
 

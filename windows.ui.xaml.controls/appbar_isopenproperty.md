@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsOpenProperty { get; }
 ## -description
 Identifies the [IsOpen](appbar_isopen.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBar.IsOpenProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbar.isopenproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AppBar.IsOpenProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbar.isopenproperty).
 
 ## -property-value
 The identifier for the [IsOpen](appbar_isopen.md) dependency property.

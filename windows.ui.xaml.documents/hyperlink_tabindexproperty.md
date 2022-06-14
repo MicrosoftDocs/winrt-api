@@ -13,7 +13,7 @@ public DependencyProperty TabIndexProperty { get; }
 
 Identifies the TabIndex dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.TabIndexProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.tabindexproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Hyperlink.TabIndexProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.tabindexproperty).
 
 ## -property-value
 

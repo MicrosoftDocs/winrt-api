@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.CalendarViewSelectionMode SelectionMode { get;  
 ## -description
 Gets or sets a value that indicates what kind of selections are allowed.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.SelectionMode](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selectionmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.SelectionMode](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selectionmode).
 
 ## -xaml-syntax
 ```xaml

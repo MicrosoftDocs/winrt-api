@@ -14,7 +14,7 @@ public class SceneSurfaceMaterialInput : SceneMaterialInput, SceneMaterialInput
 
 Represents an input to a composition surface.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.SceneSurfaceMaterialInput](/windows/winui/api/microsoft.ui.composition.scenes.scenesurfacematerialinput).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneSurfaceMaterialInput](/windows/winui/api/microsoft.ui.composition.scenes.scenesurfacematerialinput).
 
 ## -remarks
 

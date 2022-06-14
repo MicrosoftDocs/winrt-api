@@ -12,7 +12,7 @@ public class HyperlinkClickEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.
 ## -description
 Provides data for the [Hyperlink.Click](hyperlink_click.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.HyperlinkClickEventArgs](/windows/winui/api/microsoft.ui.xaml.documents.hyperlinkclickeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.HyperlinkClickEventArgs](/windows/winui/api/microsoft.ui.xaml.documents.hyperlinkclickeventargs).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.HorizontalAlignment : int
 ## -description
 Indicates where an element should be displayed on the horizontal axis relative to the allocated layout slot of the parent element.
 
-Equivalent WinUI enum: [HorizontalAlignment](/windows/winui/api/microsoft.ui.xaml.horizontalalignment).
+Equivalent **WinUI 2 API for UWP**: [HorizontalAlignment](/windows/winui/api/microsoft.ui.xaml.horizontalalignment).
 
 ## -xaml-syntax
 ```xaml

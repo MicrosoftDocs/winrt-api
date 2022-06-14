@@ -14,7 +14,7 @@ public DependencyProperty DescriptionProperty { get; }
 
 Identifies the [Description](calendardatepicker_description.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.DescriptionProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.descriptionproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.DescriptionProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.descriptionproperty).
 
 ## -property-value
 

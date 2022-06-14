@@ -13,7 +13,7 @@ public float RotationAngle { get;  set; }
 
 Gets or sets the rotation angle of the brush in radians.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGradientBrush.RotationAngle](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.rotationangle).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionGradientBrush.RotationAngle](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.rotationangle).
 
 ## -property-value
 

@@ -13,7 +13,7 @@ public int GetPositionInSet(Windows.UI.Xaml.DependencyObject element)
 
 Gets the value of the [AutomationProperties.PositionInSet](automationproperties_positioninset.md) property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetPositionInSet](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getpositioninset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetPositionInSet](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getpositioninset).
 
 ## -parameters
 

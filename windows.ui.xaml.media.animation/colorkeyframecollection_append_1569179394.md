@@ -12,7 +12,7 @@ public void Append(Windows.UI.Xaml.Media.Animation.ColorKeyFrame value)
 ## -description
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframecollection.append).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframecollection.append).
 
 ## -parameters
 ### -param value

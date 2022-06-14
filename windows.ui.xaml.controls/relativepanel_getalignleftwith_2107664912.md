@@ -12,7 +12,7 @@ public object GetAlignLeftWith(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [RelativePanel.AlignLeftWith](relativepanel_alignleftwith.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.GetAlignLeftWith](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getalignleftwith).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.GetAlignLeftWith](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getalignleftwith).
 
 ## -parameters
 ### -param element

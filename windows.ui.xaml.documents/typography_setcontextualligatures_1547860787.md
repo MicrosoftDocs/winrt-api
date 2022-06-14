@@ -12,7 +12,7 @@ public void SetContextualLigatures(Windows.UI.Xaml.DependencyObject element, Sys
 ## -description
 Sets the value of the [ContextualLigatures](typography_contextualligatures.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetContextualLigatures](/windows/winui/api/microsoft.ui.xaml.documents.typography.setcontextualligatures).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetContextualLigatures](/windows/winui/api/microsoft.ui.xaml.documents.typography.setcontextualligatures).
 
 ## -parameters
 ### -param element

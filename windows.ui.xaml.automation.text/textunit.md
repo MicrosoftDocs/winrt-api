@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.Text.TextUnit : int
 ## -description
 Represents predefined units of text for the purposes of navigation within a document.
 
-Equivalent WinUI enum: [TextUnit](/windows/winui/api/microsoft.ui.xaml.automation.text.textunit).
+Equivalent **WinUI 2 API for UWP**: [TextUnit](/windows/winui/api/microsoft.ui.xaml.automation.text.textunit).
 
 ## -enum-fields
 ### -field Character:0

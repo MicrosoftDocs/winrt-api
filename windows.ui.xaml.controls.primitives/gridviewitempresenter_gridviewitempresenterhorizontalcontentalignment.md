@@ -15,7 +15,7 @@ public Windows.UI.Xaml.HorizontalAlignment GridViewItemPresenterHorizontalConten
 
 Gets or sets the horizontal alignment of the content being presented.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.GridViewItemPresenterHorizontalContentAlignment](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.gridviewitempresenterhorizontalcontentalignment).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.GridViewItemPresenterHorizontalContentAlignment](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.gridviewitempresenterhorizontalcontentalignment).
 
 ## -property-value
 A value of the enumeration.

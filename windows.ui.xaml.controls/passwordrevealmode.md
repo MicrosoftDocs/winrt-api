@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.PasswordRevealMode : int
 ## -description
 Defines constants that specify the password reveal behavior of a [PasswordBox](passwordbox.md).
 
-Equivalent WinUI enum: [PasswordRevealMode](/windows/winui/api/microsoft.ui.xaml.controls.passwordrevealmode).
+Equivalent **WinUI 2 API for UWP**: [PasswordRevealMode](/windows/winui/api/microsoft.ui.xaml.controls.passwordrevealmode).
 
 ## -enum-fields
 ### -field Peek:0

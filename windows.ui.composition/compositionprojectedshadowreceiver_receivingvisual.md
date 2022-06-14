@@ -14,7 +14,7 @@ public Visual ReceivingVisual { get;  set; }
 
 Gets or sets the Visual that the shadow is cast on.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionProjectedShadowReceiver.ReceivingVisual](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowreceiver.receivingvisual).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionProjectedShadowReceiver.ReceivingVisual](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowreceiver.receivingvisual).
 
 ## -property-value
 

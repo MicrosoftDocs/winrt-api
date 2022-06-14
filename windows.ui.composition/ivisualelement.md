@@ -14,7 +14,7 @@ public interface IVisualElement
 
 Marks an object to indicate to the system that it can resolve to a composition [Visual](visual.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Composition.IVisualElement](/windows/winui/api/microsoft.ui.composition.ivisualelement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.IVisualElement](/windows/winui/api/microsoft.ui.composition.ivisualelement).
 
 ## -remarks
 

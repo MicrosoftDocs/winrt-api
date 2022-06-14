@@ -14,7 +14,7 @@ public IReference<Color> AltHigh { get;  set; }
 
 Gets or sets the AltHigh color value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.AltHigh](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.althigh).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ColorPaletteResources.AltHigh](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.althigh).
 
 ## -property-value
 

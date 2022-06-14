@@ -12,7 +12,7 @@ public class SolidColorBrush : Windows.UI.Xaml.Media.Brush, Windows.UI.Xaml.Medi
 ## -description
 Paints an area with a solid color. The solid color is defined by a [Color](../windows.ui/color.md) value.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.SolidColorBrush](/windows/winui/api/microsoft.ui.xaml.media.solidcolorbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.SolidColorBrush](/windows/winui/api/microsoft.ui.xaml.media.solidcolorbrush).
 
 ## -xaml-syntax
 ```xaml

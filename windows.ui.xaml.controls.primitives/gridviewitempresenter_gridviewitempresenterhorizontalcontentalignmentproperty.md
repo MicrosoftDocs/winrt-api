@@ -15,7 +15,7 @@ public Windows.UI.Xaml.DependencyProperty GridViewItemPresenterHorizontalContent
 
 Identifies the [GridViewItemPresenterHorizontalContentAlignment](gridviewitempresenter_gridviewitempresenterhorizontalcontentalignment.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.GridViewItemPresenterHorizontalContentAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.gridviewitempresenterhorizontalcontentalignmentproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.GridViewItemPresenterHorizontalContentAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.gridviewitempresenterhorizontalcontentalignmentproperty).
 
 ## -property-value
 The identifier for the [GridViewItemPresenterHorizontalContentAlignment](gridviewitempresenter_gridviewitempresenterhorizontalcontentalignment.md) dependency property.

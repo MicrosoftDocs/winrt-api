@@ -9,7 +9,7 @@
 
 Provides types related to imaging and obtaining resources and source files for bitmap images.
 
-Equivalent WinUI namespace: [Microsoft.UI.Xaml.Media.Imaging](/windows/winui/api/microsoft.ui.xaml.media.imaging).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging](/windows/winui/api/microsoft.ui.xaml.media.imaging).
 
 ## -remarks
 

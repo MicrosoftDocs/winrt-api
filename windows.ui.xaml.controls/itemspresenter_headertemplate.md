@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DataTemplate HeaderTemplate { get;  set; }
 ## -description
 Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to display the content of the items header.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.headertemplate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.headertemplate).
 
 ## -xaml-syntax
 ```xaml

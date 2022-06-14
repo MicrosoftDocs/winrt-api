@@ -14,7 +14,7 @@ public CompositionProjectedShadow Compositor.CreateProjectedShadow()
 
 Creates an instance of [CompositionProjectedShadow](compositionprojectedshadow.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateProjectedShadow](/windows/winui/api/microsoft.ui.composition.compositor.createprojectedshadow).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateProjectedShadow](/windows/winui/api/microsoft.ui.composition.compositor.createprojectedshadow).
 
 ## -returns
 

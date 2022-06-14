@@ -14,7 +14,7 @@ public IReference<Color> ChromeGray { get;  set; }
 
 Gets or sets the ChromeGray color value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeGray](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromegray).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeGray](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromegray).
 
 ## -property-value
 

@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler DragStarting<Windows.UI.Xaml.U
 
 Occurs when a drag operation is initiated.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.DragStarting](/windows/winui/api/microsoft.ui.xaml.uielement.dragstarting).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.DragStarting](/windows/winui/api/microsoft.ui.xaml.uielement.dragstarting).
 
 ## -xaml-syntax
 

@@ -12,7 +12,7 @@ public class SplinePointKeyFrame : Windows.UI.Xaml.Media.Animation.PointKeyFrame
 ## -description
 Animates from the [Point](../windows.foundation/point.md) value of the previous key frame to its own [Value](pointkeyframe_value.md) using splined interpolation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.SplinePointKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.splinepointkeyframe).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SplinePointKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.splinepointkeyframe).
 
 ## -xaml-syntax
 ```xaml

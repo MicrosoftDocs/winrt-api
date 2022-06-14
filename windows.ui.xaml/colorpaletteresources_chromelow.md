@@ -14,7 +14,7 @@ public IReference<Color> ChromeLow { get;  set; }
 
 Gets or sets the ChromeLow color value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeLow](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromelow).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeLow](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromelow).
 
 ## -property-value
 

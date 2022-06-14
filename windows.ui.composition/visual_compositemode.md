@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionCompositeMode CompositeMode { get;  set
 ## -description
 Specifies how a visual's bitmap is blended with the screen.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Visual.CompositeMode](/windows/winui/api/microsoft.ui.composition.visual.compositemode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual.CompositeMode](/windows/winui/api/microsoft.ui.composition.visual.compositemode).
 
 ## -property-value
 How a visual's bitmap is blended with the screen.

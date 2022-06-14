@@ -13,7 +13,7 @@ public IIterator<CompositionColorGradientStop> CompositionColorGradientStopColle
 
 Returns an iterator for the items in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.First](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.first).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.First](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.first).
 
 ## -returns
 

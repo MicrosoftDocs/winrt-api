@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Peers.RawElementProviderRuntimeId GenerateRawE
 ## -description
 Generates a runtime identifier for the element that is associated with the automation peer.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GenerateRawElementProviderRuntimeId](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.generaterawelementproviderruntimeid).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GenerateRawElementProviderRuntimeId](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.generaterawelementproviderruntimeid).
 
 ## -returns
 The runtime identifier for the element .

@@ -13,7 +13,7 @@ public void UIElement.StartAnimation(ICompositionAnimationBase animation)
 ## -description
 Begins the specified animation on the element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.StartAnimation](/windows/winui/api/microsoft.ui.xaml.uielement.startanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.StartAnimation](/windows/winui/api/microsoft.ui.xaml.uielement.startanimation).
 
 ## -parameters
 ### -param animation

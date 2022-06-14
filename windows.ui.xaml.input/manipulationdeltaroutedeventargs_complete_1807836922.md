@@ -12,7 +12,7 @@ public void Complete()
 ## -description
 Completes the manipulation without inertia.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Complete](/windows/winui/api/microsoft.ui.xaml.input.manipulationdeltaroutedeventargs.complete).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Complete](/windows/winui/api/microsoft.ui.xaml.input.manipulationdeltaroutedeventargs.complete).
 
 ## -remarks
 

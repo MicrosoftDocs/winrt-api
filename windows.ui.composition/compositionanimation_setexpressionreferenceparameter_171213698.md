@@ -14,7 +14,7 @@ public void CompositionAnimation.SetExpressionReferenceParameter(String paramete
 
 Sets an IAnimationObject value parameter for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe_1955314135.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionAnimation.SetExpressionReferenceParameter](/windows/winui/api/microsoft.ui.composition.compositionanimation.setexpressionreferenceparameter).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionAnimation.SetExpressionReferenceParameter](/windows/winui/api/microsoft.ui.composition.compositionanimation.setexpressionreferenceparameter).
 
 ## -parameters
 ### -param parameterName

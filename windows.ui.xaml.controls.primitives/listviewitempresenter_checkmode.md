@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenterCheckMode CheckM
 ## -description
 Gets or sets the style of checkbox shown for selecting an item.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.checkmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.checkmode).
 
 ## -xaml-syntax
 ```xaml

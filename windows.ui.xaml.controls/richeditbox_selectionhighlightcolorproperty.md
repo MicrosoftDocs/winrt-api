@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectionHighlightColorProperty { get;
 ## -description
 Identifies the [SelectionHighlightColor](richeditbox_selectionhighlightcolor.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.SelectionHighlightColorProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.selectionhighlightcolorproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBox.SelectionHighlightColorProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.selectionhighlightcolorproperty).
 
 ## -property-value
 The identifier for the [SelectionHighlightColor](richeditbox_selectionhighlightcolor.md) dependency property.

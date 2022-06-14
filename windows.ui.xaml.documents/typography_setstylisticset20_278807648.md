@@ -12,7 +12,7 @@ public void SetStylisticSet20(Windows.UI.Xaml.DependencyObject element, System.B
 ## -description
 Sets the value of the [StylisticSet20](typography_stylisticset20.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet20](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset20).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet20](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset20).
 
 ## -parameters
 ### -param element

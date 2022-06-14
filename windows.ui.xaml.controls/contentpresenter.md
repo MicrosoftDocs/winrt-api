@@ -12,7 +12,7 @@ public class ContentPresenter : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xam
 ## -description
 Displays the content of a [ContentControl](contentcontrol.md). Can also provide content presentation for non-controls. Provides a base class for specialized presenters such as [ScrollContentPresenter](scrollcontentpresenter.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ContentPresenter](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentPresenter](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter).
 
 ## -xaml-syntax
 ```xaml

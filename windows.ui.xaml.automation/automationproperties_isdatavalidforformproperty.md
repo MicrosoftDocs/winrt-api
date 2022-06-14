@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsDataValidForFormProperty { get; }
 ## -description
 Identifies the [AutomationProperties.IsDataValidForForm](automationproperties_isdatavalidforform.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.IsDataValidForFormProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.isdatavalidforformproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.IsDataValidForFormProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.isdatavalidforformproperty).
 
 ## -property-value
 The identifier for the [AutomationProperties.IsDataValidForForm](automationproperties_isdatavalidforform.md) XAML attached property.

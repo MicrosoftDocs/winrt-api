@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler Completed<object,  Windows.UI.
 ## -description
 Event triggered once all animations and effects in the [CompositionScopedBatch](compositionscopedbatch.md) have completed.
 
-Equivalent WinUI event: [Microsoft.UI.Composition.CompositionScopedBatch.Completed](/windows/winui/api/microsoft.ui.composition.compositionscopedbatch.completed).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionScopedBatch.Completed](/windows/winui/api/microsoft.ui.composition.compositionscopedbatch.completed).
 
 ## -remarks
 

@@ -14,7 +14,7 @@ public void AutomationProperties.SetIsDialog(DependencyObject element, Boolean v
 
 Sets a Boolean value that indicates whether the specified element should be identified as a dialog window.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetIsDialog](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setisdialog).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetIsDialog](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setisdialog).
 
 ## -parameters
 

@@ -14,7 +14,7 @@ public void UIElementWeakCollection.InsertAt(UInt32 index, UIElement value)
 
 Inserts the specified item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.insertat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElementWeakCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.insertat).
 
 ## -parameters
 ### -param index

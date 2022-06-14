@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SnapsToProperty { get; }
 ## -description
 Identifies the [SnapsTo](slider_snapsto.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Slider.SnapsToProperty](/windows/winui/api/microsoft.ui.xaml.controls.slider.snapstoproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Slider.SnapsToProperty](/windows/winui/api/microsoft.ui.xaml.controls.slider.snapstoproperty).
 
 ## -property-value
 The identifier for the [SnapsTo](slider_snapsto.md) dependency property.

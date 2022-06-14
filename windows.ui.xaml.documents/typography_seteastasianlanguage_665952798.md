@@ -12,7 +12,7 @@ public void SetEastAsianLanguage(Windows.UI.Xaml.DependencyObject element, Windo
 ## -description
 Sets the value of the [EastAsianLanguage](typography_eastasianlanguage.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetEastAsianLanguage](/windows/winui/api/microsoft.ui.xaml.documents.typography.seteastasianlanguage).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetEastAsianLanguage](/windows/winui/api/microsoft.ui.xaml.documents.typography.seteastasianlanguage).
 
 ## -parameters
 ### -param element

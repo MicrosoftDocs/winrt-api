@@ -12,7 +12,7 @@ public Windows.UI.Xaml.FontNumeralStyle GetNumeralStyle(Windows.UI.Xaml.Dependen
 ## -description
 Returns the value of the [NumeralStyle](typography_numeralstyle.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetNumeralStyle](/windows/winui/api/microsoft.ui.xaml.documents.typography.getnumeralstyle).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.GetNumeralStyle](/windows/winui/api/microsoft.ui.xaml.documents.typography.getnumeralstyle).
 
 ## -parameters
 ### -param element

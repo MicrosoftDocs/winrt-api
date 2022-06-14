@@ -14,7 +14,7 @@ public object GetFocusedElement()
 
 Retrieves the element in the UI that has focus.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.FocusManager.GetFocusedElement](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.getfocusedelement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FocusManager.GetFocusedElement](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.getfocusedelement).
 
 ## -returns
 

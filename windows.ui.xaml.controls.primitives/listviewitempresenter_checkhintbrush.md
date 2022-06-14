@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush CheckHintBrush { get;  set; }
 ## -description
 Gets or sets the brush used to render the check mark hint. This property is ignored for a Windows 10 app.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckHintBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.checkhintbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckHintBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.checkhintbrush).
 
 ## -xaml-syntax
 ```xaml

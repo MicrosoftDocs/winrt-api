@@ -12,7 +12,7 @@ virtual protected void OnItemsChanged(System.Object sender, Windows.UI.Xaml.Cont
 ## -description
 Called when the [Items](itemscontrol_items.md) collection that is associated with the [ItemsControl](itemscontrol.md) for this [Panel](panel.md) changes.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VirtualizingPanel.OnItemsChanged](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingpanel.onitemschanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VirtualizingPanel.OnItemsChanged](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingpanel.onitemschanged).
 
 ## -parameters
 ### -param sender

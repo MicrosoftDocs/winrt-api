@@ -10,7 +10,7 @@ public delegate void ItemsChangedEventHandler(System.Object sender, Windows.UI.X
 ## -description
 Represents the method that will handle the [ItemsChanged](../windows.ui.xaml.controls/itemcontainergenerator_itemschanged.md) event.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.primitives.itemschangedeventhandler).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.primitives.itemschangedeventhandler).
 
 ## -parameters
 ### -param sender

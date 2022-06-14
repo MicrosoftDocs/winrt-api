@@ -12,7 +12,7 @@ public Windows.Foundation.Rect GetLayoutSlot(Windows.UI.Xaml.FrameworkElement el
 ## -description
 Returns the layout slot, or bounding box, that contains the specified element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.LayoutInformation.GetLayoutSlot](/windows/winui/api/microsoft.ui.xaml.controls.primitives.layoutinformation.getlayoutslot).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LayoutInformation.GetLayoutSlot](/windows/winui/api/microsoft.ui.xaml.controls.primitives.layoutinformation.getlayoutslot).
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ public object GetRightOf(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [RelativePanel.RightOf](relativepanel_rightof.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.GetRightOf](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getrightof).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.GetRightOf](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getrightof).
 
 ## -parameters
 ### -param element

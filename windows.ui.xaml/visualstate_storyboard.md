@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.Storyboard Storyboard { get;  set; }
 ## -description
 Gets or sets a [Storyboard](../windows.ui.xaml.media.animation/storyboard.md) that defines state-specific property values and appearance of the control when it is using this visual state.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.VisualState.Storyboard](/windows/winui/api/microsoft.ui.xaml.visualstate.storyboard).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualState.Storyboard](/windows/winui/api/microsoft.ui.xaml.visualstate.storyboard).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.Peers.PatternInterface : int
 ## -description
 Specifies the control pattern that the [GetPattern](automationpeer_getpattern_2046576749.md) method returns.
 
-Equivalent WinUI enum: [PatternInterface](/windows/winui/api/microsoft.ui.xaml.automation.peers.patterninterface).
+Equivalent **WinUI 2 API for UWP**: [PatternInterface](/windows/winui/api/microsoft.ui.xaml.automation.peers.patterninterface).
 
 ## -enum-fields
 ### -field Invoke:0

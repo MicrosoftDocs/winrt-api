@@ -12,7 +12,7 @@ public DependencyProperty AccessKeyScopeOwnerProperty { get; }
 ## -description
 Identifies the **AccessKeyScopeOwner** dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.AccessKeyScopeOwnerProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.accesskeyscopeownerproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextElement.AccessKeyScopeOwnerProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.accesskeyscopeownerproperty).
 
 ## -property-value
 The identifier for the **AccessKeyScopeOwner** dependency property.

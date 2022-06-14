@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection KeyFrames { get; 
 ## -description
 Gets the collection of [ColorKeyFrame](colorkeyframe.md) objects that define the animation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames.KeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimationusingkeyframes.keyframes).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames.KeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimationusingkeyframes.keyframes).
 
 ## -xaml-syntax
 ```xaml

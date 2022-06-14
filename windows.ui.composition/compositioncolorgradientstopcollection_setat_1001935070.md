@@ -13,7 +13,7 @@ public void CompositionColorGradientStopCollection.SetAt(UInt32 index, Compositi
 
 Sets the value at the specified index to the [CompositionColorGradientStop](compositioncolorgradientstop.md) value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.SetAt](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.setat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.SetAt](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.setat).
 
 ## -parameters
 ### -param index

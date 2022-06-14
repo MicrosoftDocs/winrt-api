@@ -13,7 +13,7 @@ public Windows.UI.Color Salmon { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFA8072.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Salmon](/windows/winui/api/microsoft.ui.colors.salmon).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Salmon](/windows/winui/api/microsoft.ui.colors.salmon).
 
 ## -property-value
 

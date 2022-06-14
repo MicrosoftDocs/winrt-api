@@ -12,7 +12,7 @@ public void SetEastAsianWidths(Windows.UI.Xaml.DependencyObject element, Windows
 ## -description
 Sets the value of the [EastAsianWidths](typography_eastasianwidths.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetEastAsianWidths](/windows/winui/api/microsoft.ui.xaml.documents.typography.seteastasianwidths).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetEastAsianWidths](/windows/winui/api/microsoft.ui.xaml.documents.typography.seteastasianwidths).
 
 ## -parameters
 ### -param element

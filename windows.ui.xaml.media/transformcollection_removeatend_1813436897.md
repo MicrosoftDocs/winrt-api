@@ -12,7 +12,7 @@ public void RemoveAtEnd()
 ## -description
 Removes the last item in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TransformCollection.RemoveAtEnd](/windows/winui/api/microsoft.ui.xaml.media.transformcollection.removeatend).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.TransformCollection.RemoveAtEnd](/windows/winui/api/microsoft.ui.xaml.media.transformcollection.removeatend).
 
 ## -remarks
 

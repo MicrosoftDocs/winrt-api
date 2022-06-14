@@ -13,7 +13,7 @@ public AnimationControllerProgressBehavior ProgressBehavior { get;  set; }
 
 Gets or sets a value that indicates how progress is determined.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.AnimationController.ProgressBehavior](/windows/winui/api/microsoft.ui.composition.animationcontroller.progressbehavior).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.AnimationController.ProgressBehavior](/windows/winui/api/microsoft.ui.composition.animationcontroller.progressbehavior).
 
 ## -property-value
 

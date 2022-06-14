@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Thickness BorderThickness { get;  set; }
 ## -description
 Gets or sets the border thickness of the panel.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.BorderThickness](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.borderthickness).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.BorderThickness](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.borderthickness).
 
 ## -xaml-syntax
 ```xaml

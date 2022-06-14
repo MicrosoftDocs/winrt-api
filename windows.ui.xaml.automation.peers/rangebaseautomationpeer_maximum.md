@@ -12,7 +12,7 @@ public double Maximum { get; }
 ## -description
 Gets the maximum range value that is supported by the control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Maximum](/windows/winui/api/microsoft.ui.xaml.automation.peers.rangebaseautomationpeer.maximum).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Maximum](/windows/winui/api/microsoft.ui.xaml.automation.peers.rangebaseautomationpeer.maximum).
 
 ## -property-value
 The maximum range value supported by the control.

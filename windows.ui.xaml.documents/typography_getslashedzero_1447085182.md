@@ -12,7 +12,7 @@ public bool GetSlashedZero(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [SlashedZero](typography_slashedzero.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetSlashedZero](/windows/winui/api/microsoft.ui.xaml.documents.typography.getslashedzero).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.GetSlashedZero](/windows/winui/api/microsoft.ui.xaml.documents.typography.getslashedzero).
 
 ## -parameters
 ### -param element

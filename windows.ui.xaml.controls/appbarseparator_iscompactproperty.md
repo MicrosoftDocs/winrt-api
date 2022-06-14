@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsCompactProperty { get; }
 ## -description
 Identifies the [IsCompact](appbarseparator_iscompact.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarSeparator.IsCompactProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbarseparator.iscompactproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AppBarSeparator.IsCompactProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbarseparator.iscompactproperty).
 
 ## -property-value
 The identifier for the [IsCompact](appbarseparator_iscompact.md) dependency property.

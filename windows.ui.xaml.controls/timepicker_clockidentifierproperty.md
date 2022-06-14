@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ClockIdentifierProperty { get; }
 ## -description
 Gets the identifier for the [ClockIdentifier](timepicker_clockidentifier.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.ClockIdentifierProperty](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.clockidentifierproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TimePicker.ClockIdentifierProperty](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.clockidentifierproperty).
 
 ## -property-value
 The identifier for the [ClockIdentifier](timepicker_clockidentifier.md) dependency property.

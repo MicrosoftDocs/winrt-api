@@ -12,7 +12,7 @@ public void InertiaStateEntered(Windows.UI.Composition.Interactions.InteractionT
 ## -description
 Callback triggered when an [InteractionTracker](interactiontracker.md) enters the inertia state.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.InertiaStateEntered](/windows/winui/api/microsoft.ui.composition.interactions.iinteractiontrackerowner.inertiastateentered).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.InertiaStateEntered](/windows/winui/api/microsoft.ui.composition.interactions.iinteractiontrackerowner.inertiastateentered).
 
 ## -parameters
 ### -param sender

@@ -13,7 +13,7 @@ public float GetBottom(Windows.Foundation.Rect target)
 
 Gets a "Bottom" value for the specified [Rect](../windows.foundation/rect.md). So long as **Height** is positive, "Bottom" is evaluated as **Y** + **Height**. C# and Microsoft Visual Basic code should use [Rect.Bottom](/dotnet/api/windows.foundation.rect.bottom?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.RectHelper.GetBottom](/windows/winui/api/microsoft.ui.xaml.recthelper.getbottom).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.RectHelper.GetBottom](/windows/winui/api/microsoft.ui.xaml.recthelper.getbottom).
 
 ## -parameters
 

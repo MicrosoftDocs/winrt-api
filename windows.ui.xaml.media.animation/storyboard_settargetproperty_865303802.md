@@ -12,7 +12,7 @@ public void SetTargetProperty(Windows.UI.Xaml.Media.Animation.Timeline element, 
 ## -description
 Sets the value of the [Storyboard.TargetProperty](/uwp/api/windows.ui.xaml.media.animation.storyboard.targetproperty) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.Storyboard.SetTargetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.settargetproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Storyboard.SetTargetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.settargetproperty).
 
 ## -parameters
 ### -param element

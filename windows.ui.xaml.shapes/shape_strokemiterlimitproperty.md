@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty StrokeMiterLimitProperty { get; }
 ## -description
 Identifies the [StrokeMiterLimit](shape_strokemiterlimit.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.StrokeMiterLimitProperty](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokemiterlimitproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Shape.StrokeMiterLimitProperty](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokemiterlimitproperty).
 
 ## -property-value
 The identifier for the [StrokeMiterLimit](shape_strokemiterlimit.md) dependency property.

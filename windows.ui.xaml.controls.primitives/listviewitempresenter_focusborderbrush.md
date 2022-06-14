@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush FocusBorderBrush { get;  set; }
 ## -description
 Gets or sets the brush used to render the border of an item that has focus. Also see [FocusSecondaryBorderBrush](listviewitempresenter_focussecondaryborderbrush.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.focusborderbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.focusborderbrush).
 
 ## -xaml-syntax
 ```xaml

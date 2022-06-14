@@ -12,7 +12,7 @@ public void RichEditTextDocument.LoadFromStream(TextSetOptions options, IRandomA
 ## -description
 Loads a document from a stream.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.LoadFromStream](/windows/winui/api/microsoft.ui.text.richedittextdocument.loadfromstream).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextDocument.LoadFromStream](/windows/winui/api/microsoft.ui.text.richedittextdocument.loadfromstream).
 
 ## -parameters
 

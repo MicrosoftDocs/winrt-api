@@ -13,7 +13,7 @@ public PathKeyFrameAnimation Compositor.CreatePathKeyFrameAnimation()
 
 Creates an instance of [PathKeyFrameAnimation](pathkeyframeanimation.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreatePathKeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createpathkeyframeanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreatePathKeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createpathkeyframeanimation).
 
 ## -returns
 

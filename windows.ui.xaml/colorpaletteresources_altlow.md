@@ -14,7 +14,7 @@ public IReference<Color> AltLow { get;  set; }
 
 Gets or sets the AltLow color value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.AltLow](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.altlow).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ColorPaletteResources.AltLow](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.altlow).
 
 ## -property-value
 

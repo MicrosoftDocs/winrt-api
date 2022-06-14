@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AcceleratorKeyProperty { get; }
 ## -description
 Identifies the [AutomationProperties.AcceleratorKey](automationproperties_acceleratorkey.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.AcceleratorKeyProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.acceleratorkeyproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.AcceleratorKeyProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.acceleratorkeyproperty).
 
 ## -property-value
 The identifier for the [AutomationProperties.AcceleratorKey](automationproperties_acceleratorkey.md) attached property.

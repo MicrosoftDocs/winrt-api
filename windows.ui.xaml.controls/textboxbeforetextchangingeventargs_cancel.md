@@ -13,7 +13,7 @@ public bool Cancel { get;  set; }
 
 Gets or sets a value that indicates whether to cancel the text changes.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBoxBeforeTextChangingEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.controls.textboxbeforetextchangingeventargs.cancel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBoxBeforeTextChangingEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.controls.textboxbeforetextchangingeventargs.cancel).
 
 ## -property-value
 

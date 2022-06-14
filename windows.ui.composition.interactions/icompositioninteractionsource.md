@@ -12,7 +12,7 @@ public interface ICompositionInteractionSource :
 ## -description
 An object that is being tracked for interactions in the compositor.
 
-Equivalent WinUI interface: [Microsoft.UI.Composition.Interactions.ICompositionInteractionSource](/windows/winui/api/microsoft.ui.composition.interactions.icompositioninteractionsource).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.ICompositionInteractionSource](/windows/winui/api/microsoft.ui.composition.interactions.icompositioninteractionsource).
 
 ## -remarks
 

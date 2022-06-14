@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FillRuleProperty { get; }
 ## -description
 Identifies the [FillRule](polygon_fillrule.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Polygon.FillRuleProperty](/windows/winui/api/microsoft.ui.xaml.shapes.polygon.fillruleproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Polygon.FillRuleProperty](/windows/winui/api/microsoft.ui.xaml.shapes.polygon.fillruleproperty).
 
 ## -property-value
 The identifier for the [FillRule](polygon_fillrule.md) dependency property.

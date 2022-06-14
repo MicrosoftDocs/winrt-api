@@ -14,7 +14,7 @@ public IReference<DateTime> SelectedDate { get;  set; }
 
 Gets or sets the date currently selected in the date picker, or **null** if no date is selected.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.SelectedDate](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.selecteddate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePicker.SelectedDate](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.selecteddate).
 
 ## -property-value
 

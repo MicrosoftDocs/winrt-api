@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler Opened<Windows.UI.Xaml.Control
 ## -description
 Occurs after the dialog is opened.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ContentDialog.Opened](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.opened).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentDialog.Opened](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.opened).
 
 ## -xaml-syntax
 ```xaml

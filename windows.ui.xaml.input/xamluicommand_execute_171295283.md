@@ -14,7 +14,7 @@ public void XamlUICommand.Execute(Object parameter)
 
 Invokes the command.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.XamlUICommand.Execute](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.execute).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.XamlUICommand.Execute](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.execute).
 
 ## -parameters
 

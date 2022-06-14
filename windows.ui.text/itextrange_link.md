@@ -12,7 +12,7 @@ public string Link { get;  set; }
 ## -description
 Gets or sets the URL text associated with a text range.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextRange.Link](/windows/winui/api/microsoft.ui.text.itextrange.link).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.Link](/windows/winui/api/microsoft.ui.text.itextrange.link).
 
 ## -property-value
 The URL as text.

@@ -13,7 +13,7 @@ public enum DisabledFormattingAccelerators : uint
 
 Defines constants that specify which keyboard shortcuts for formatting are disabled in a [RichEditBox](richeditbox.md).
 
-Equivalent WinUI enum: [Microsoft.UI.Xaml.Controls.DisabledFormattingAccelerators](/windows/winui/api/microsoft.ui.xaml.controls.disabledformattingaccelerators).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DisabledFormattingAccelerators](/windows/winui/api/microsoft.ui.xaml.controls.disabledformattingaccelerators).
 
 ## -enum-fields
 ### -field Underline:4

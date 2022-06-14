@@ -12,7 +12,7 @@ public class PlaneProjection : Windows.UI.Xaml.Media.Projection, Windows.UI.Xaml
 ## -description
 Represents a perspective transform (a 3-D-like effect) on an object.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.PlaneProjection](/windows/winui/api/microsoft.ui.xaml.media.planeprojection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PlaneProjection](/windows/winui/api/microsoft.ui.xaml.media.planeprojection).
 
 ## -xaml-syntax
 ```xaml

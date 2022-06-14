@@ -12,7 +12,7 @@ public bool Control.GetIsTemplateKeyTipTarget(DependencyObject element)
 ## -description
 Gets the value of the [Control.IsTemplateKeyTipTarget](control_istemplatekeytiptarget.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.GetIsTemplateKeyTipTarget](/windows/winui/api/microsoft.ui.xaml.controls.control.getistemplatekeytiptarget).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.GetIsTemplateKeyTipTarget](/windows/winui/api/microsoft.ui.xaml.controls.control.getistemplatekeytiptarget).
 
 ## -parameters
 ### -param element

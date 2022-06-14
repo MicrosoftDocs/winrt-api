@@ -12,7 +12,7 @@ public uint Size { get; }
 ## -description
 Gets the size (count) of the collection.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemCollection.Size](/windows/winui/api/microsoft.ui.xaml.controls.itemcollection.size).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemCollection.Size](/windows/winui/api/microsoft.ui.xaml.controls.itemcollection.size).
 
 ## -property-value
 The count of items in the collection.

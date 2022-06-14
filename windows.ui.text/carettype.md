@@ -12,7 +12,7 @@ public enum Windows.UI.Text.CaretType : int
 ## -description
 Specifies the caret type.
 
-Equivalent WinUI enum: [CaretType](/windows/winui/api/microsoft.ui.text.carettype).
+Equivalent **WinUI 2 API for UWP**: [CaretType](/windows/winui/api/microsoft.ui.text.carettype).
 
 ## -enum-fields
 ### -field Normal:0

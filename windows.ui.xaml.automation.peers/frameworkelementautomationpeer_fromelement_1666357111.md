@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Peers.AutomationPeer FromElement(Windows.UI.Xa
 ## -description
 Returns the [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md) for the specified [UIElement](../windows.ui.xaml/uielement.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer.FromElement](/windows/winui/api/microsoft.ui.xaml.automation.peers.frameworkelementautomationpeer.fromelement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer.FromElement](/windows/winui/api/microsoft.ui.xaml.automation.peers.frameworkelementautomationpeer.fromelement).
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ public Windows.Foundation.Point Transform(Windows.UI.Xaml.Media.Matrix target, W
 ## -description
 Transforms a provided [Matrix](matrix.md) using a [Point](../windows.foundation/point.md) input, and returns a [Point](../windows.foundation/point.md) result.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.MatrixHelper.Transform](/windows/winui/api/microsoft.ui.xaml.media.matrixhelper.transform).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.MatrixHelper.Transform](/windows/winui/api/microsoft.ui.xaml.media.matrixhelper.transform).
 
 ## -parameters
 ### -param target

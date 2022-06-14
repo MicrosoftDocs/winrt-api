@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty OrientationProperty { get; }
 ## -description
 Identifies the [Orientation](scrollbar_orientation.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ScrollBar.OrientationProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrollbar.orientationproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ScrollBar.OrientationProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrollbar.orientationproperty).
 
 ## -property-value
 The identifier for the [Orientation](scrollbar_orientation.md) dependency property.

@@ -13,7 +13,7 @@ public class TextHighlighterBase : DependencyObject, DependencyObject
 
 The base class for [TextHighlighter](texthighlighter.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.TextHighlighterBase](/windows/winui/api/microsoft.ui.xaml.documents.texthighlighterbase).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextHighlighterBase](/windows/winui/api/microsoft.ui.xaml.documents.texthighlighterbase).
 
 ## -remarks
 

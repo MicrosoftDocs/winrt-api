@@ -12,7 +12,7 @@ public class FlyoutPresenter : Windows.UI.Xaml.Controls.ContentControl, Windows.
 ## -description
 Displays the content of a [Flyout](flyout.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.FlyoutPresenter](/windows/winui/api/microsoft.ui.xaml.controls.flyoutpresenter).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.FlyoutPresenter](/windows/winui/api/microsoft.ui.xaml.controls.flyoutpresenter).
 
 ## -xaml-syntax
 ```xaml

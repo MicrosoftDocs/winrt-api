@@ -13,7 +13,7 @@ public CompositionPathGeometry Compositor.CreatePathGeometry()
 
 Creates an instance of [CompositionPathGeometry](compositionpathgeometry.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreatePathGeometry](/windows/winui/api/microsoft.ui.composition.compositor.createpathgeometry).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreatePathGeometry](/windows/winui/api/microsoft.ui.composition.compositor.createpathgeometry).
 
 ## -returns
 

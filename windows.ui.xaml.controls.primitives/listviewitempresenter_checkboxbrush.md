@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush CheckBoxBrush { get;  set; }
 ## -description
 In a [ListView](../windows.ui.xaml.controls/listview.md) in multiple selection mode, gets or sets the brush used to render an item's check box border. In a [GridView](../windows.ui.xaml.controls/gridview.md), the check box background is set rather than the border, and only for unselected items.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBoxBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.checkboxbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBoxBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.checkboxbrush).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.Primitives.EdgeTransitionLocation : int
 ## -description
 Defines constants that specify the location of edge transitions for edge UI, such as app bars.
 
-Equivalent WinUI enum: [EdgeTransitionLocation](/windows/winui/api/microsoft.ui.xaml.controls.primitives.edgetransitionlocation).
+Equivalent **WinUI 2 API for UWP**: [EdgeTransitionLocation](/windows/winui/api/microsoft.ui.xaml.controls.primitives.edgetransitionlocation).
 
 ## -enum-fields
 ### -field Left:0

@@ -13,7 +13,7 @@ public IMapView<string, string> InitialValueExpressionCollection.GetView()
 
 Gets an immutable view into the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.InitialValueExpressionCollection.GetView](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.getview).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.InitialValueExpressionCollection.GetView](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.getview).
 
 ## -returns
 

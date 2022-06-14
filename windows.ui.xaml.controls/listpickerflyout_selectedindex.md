@@ -12,7 +12,7 @@ public int SelectedIndex { get;  set; }
 ## -description
 Gets or sets the index of the selected item.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.SelectedIndex](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.selectedindex).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.SelectedIndex](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.selectedindex).
 
 ## -property-value
 The index of the selected item. The default is -1.

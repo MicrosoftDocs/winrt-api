@@ -12,7 +12,7 @@ public int NewStartingIndex { get; }
 ## -description
 Gets the index at which the change occurred.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs.NewStartingIndex](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs.newstartingindex).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs.NewStartingIndex](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs.newstartingindex).
 
 ## -property-value
 The index at which the change occurred.

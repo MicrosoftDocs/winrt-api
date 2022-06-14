@@ -12,7 +12,7 @@ public class Style : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.IStyle
 ## -description
 Contains property setters that can be shared between instances of a type. A Style is usually declared in a resources collection so that it can be shared and used for applying control templates and other styles.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Style](/windows/winui/api/microsoft.ui.xaml.style).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Style](/windows/winui/api/microsoft.ui.xaml.style).
 
 ## -xaml-syntax
 ```xaml

@@ -13,7 +13,7 @@ public uint Size { get; }
 
 Gets the size (count) of the collection.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.InitialValueExpressionCollection.Size](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.size).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.InitialValueExpressionCollection.Size](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.size).
 
 ## -property-value
 

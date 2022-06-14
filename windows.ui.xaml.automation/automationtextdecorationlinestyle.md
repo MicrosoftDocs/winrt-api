@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.AutomationTextDecorationLineStyle : int
 ## -description
 Defines the line style of text decorations.
 
-Equivalent WinUI enum: [AutomationTextDecorationLineStyle](/windows/winui/api/microsoft.ui.xaml.automation.automationtextdecorationlinestyle).
+Equivalent **WinUI 2 API for UWP**: [AutomationTextDecorationLineStyle](/windows/winui/api/microsoft.ui.xaml.automation.automationtextdecorationlinestyle).
 
 ## -enum-fields
 ### -field None:0

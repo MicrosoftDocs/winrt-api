@@ -13,7 +13,7 @@ public CompositionBrush StrokeBrush { get;  set; }
 
 Gets or sets the brush that paints the outline of the shape.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSpriteShape.StrokeBrush](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.strokebrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionSpriteShape.StrokeBrush](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.strokebrush).
 
 ## -property-value
 

@@ -14,7 +14,7 @@ public class CompositionRadialGradientBrush : CompositionGradientBrush, Composit
 
 Represents a brush that paints an area with a radial gradient.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionRadialGradientBrush](/windows/winui/api/microsoft.ui.composition.compositionradialgradientbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionRadialGradientBrush](/windows/winui/api/microsoft.ui.composition.compositionradialgradientbrush).
 
 ## -remarks
 

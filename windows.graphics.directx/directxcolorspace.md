@@ -14,7 +14,7 @@ public enum DirectXColorSpace : int
 
 This is a Windows Runtime equivalent of the Desktop [DXGI_COLOR_SPACE_TYPE](/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) enumeration.
 
-Equivalent WinUI enum: [Microsoft.Graphics.DirectX.DirectXColorSpace](/windows/winui/api/microsoft.graphics.directx.directxcolorspace).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.Graphics.DirectX.DirectXColorSpace](/windows/winui/api/microsoft.graphics.directx.directxcolorspace).
 
 ## -enum-fields
 

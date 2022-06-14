@@ -12,7 +12,7 @@ static public event Windows.Foundation.EventHandler Rendering<object>
 ## -description
 Occurs when the core rendering process renders a frame.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Media.CompositionTarget.Rendering](/windows/winui/api/microsoft.ui.xaml.media.compositiontarget.rendering).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.CompositionTarget.Rendering](/windows/winui/api/microsoft.ui.xaml.media.compositiontarget.rendering).
 
 ## -remarks
 Handling Rendering can be useful if you have interop scenarios with Microsoft DirectX content. For example you might want to know when the XAML framework is rendering a frame and synchronize that with your Microsoft DirectX generated content in a [SwapChainPanel](../windows.ui.xaml.controls/swapchainpanel.md) or [SurfaceImageSource](../windows.ui.xaml.media.imaging/surfaceimagesource.md) so visual updates are presented to the screen at the same time. For more info, see [DirectX and XAML interop](/windows/uwp/gaming/directx-and-xaml-interop).

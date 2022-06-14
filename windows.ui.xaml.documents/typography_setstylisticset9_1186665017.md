@@ -12,7 +12,7 @@ public void SetStylisticSet9(Windows.UI.Xaml.DependencyObject element, System.Bo
 ## -description
 Sets the value of the [StylisticSet9](typography_stylisticset9.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet9](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset9).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet9](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset9).
 
 ## -parameters
 ### -param element

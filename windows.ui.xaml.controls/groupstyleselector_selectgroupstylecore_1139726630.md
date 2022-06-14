@@ -12,7 +12,7 @@ virtual protected Windows.UI.Xaml.Controls.GroupStyle SelectGroupStyleCore(Syste
 ## -description
 When implemented by a derived class, returns a specific [GroupStyle](groupstyle.md) for a given group and level.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.GroupStyleSelector.SelectGroupStyleCore](/windows/winui/api/microsoft.ui.xaml.controls.groupstyleselector.selectgroupstylecore).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.GroupStyleSelector.SelectGroupStyleCore](/windows/winui/api/microsoft.ui.xaml.controls.groupstyleselector.selectgroupstylecore).
 
 ## -parameters
 ### -param group

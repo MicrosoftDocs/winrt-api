@@ -12,7 +12,7 @@ public string AccessKey { get;  set; }
 ## -description
 Gets or sets the access key (mnemonic) for this element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.AccessKey](/windows/winui/api/microsoft.ui.xaml.uielement.accesskey).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.AccessKey](/windows/winui/api/microsoft.ui.xaml.uielement.accesskey).
 
 ## -property-value
 The access key (mnemonic) for this element.

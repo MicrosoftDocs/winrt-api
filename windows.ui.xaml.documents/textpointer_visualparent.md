@@ -12,7 +12,7 @@ public Windows.UI.Xaml.FrameworkElement VisualParent { get; }
 ## -description
 Gets the user interface (UI) element that "owns" this [TextPointer](textpointer.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextPointer.VisualParent](/windows/winui/api/microsoft.ui.xaml.documents.textpointer.visualparent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextPointer.VisualParent](/windows/winui/api/microsoft.ui.xaml.documents.textpointer.visualparent).
 
 ## -property-value
 The UI element that "owns" this [TextPointer](textpointer.md).

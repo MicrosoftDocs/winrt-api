@@ -13,7 +13,7 @@ public void InitialValueExpressionCollection.Clear()
 
 Removes all items from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.InitialValueExpressionCollection.Clear](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.clear).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.InitialValueExpressionCollection.Clear](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.clear).
 
 ## -remarks
 

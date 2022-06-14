@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PlaceholderBackgroundProperty { get; }
 ## -description
 Identifies the [PlaceholderBackground](listviewitempresenter_placeholderbackground.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PlaceholderBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.placeholderbackgroundproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PlaceholderBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.placeholderbackgroundproperty).
 
 ## -property-value
 The identifier for the [PlaceholderBackground](listviewitempresenter_placeholderbackground.md) dependency property.

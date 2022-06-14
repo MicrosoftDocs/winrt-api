@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CompositionScaleXProperty { get; }
 ## -description
 Identifies the [CompositionScaleX](swapchainpanel_compositionscalex.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SwapChainPanel.CompositionScaleXProperty](/windows/winui/api/microsoft.ui.xaml.controls.swapchainpanel.compositionscalexproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SwapChainPanel.CompositionScaleXProperty](/windows/winui/api/microsoft.ui.xaml.controls.swapchainpanel.compositionscalexproperty).
 
 ## -property-value
 The identifier for the [CompositionScaleX](swapchainpanel_compositionscalex.md) dependency property.

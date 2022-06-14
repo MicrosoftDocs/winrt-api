@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty OrientationProperty { get; }
 ## -description
 Identifies the [Orientation](virtualizingstackpanel_orientation.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel.OrientationProperty](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel.orientationproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel.OrientationProperty](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel.orientationproperty).
 
 ## -property-value
 The identifier for the [Orientation](virtualizingstackpanel_orientation.md) dependency property.

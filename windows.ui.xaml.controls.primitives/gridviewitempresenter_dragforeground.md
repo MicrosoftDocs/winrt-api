@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush DragForeground { get;  set; }
 ## -description
 Gets or sets the brush used to render the foreground of an item that's being dragged.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.DragForeground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.dragforeground).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.DragForeground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.dragforeground).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ContentDialogResult Result { get; }
 ## -description
 Gets the [ContentDialogResult](contentdialogresult.md) of the closing event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialogClosingEventArgs.Result](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogclosingeventargs.result).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentDialogClosingEventArgs.Result](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogclosingeventargs.result).
 
 ## -property-value
 The [ContentDialogResult](contentdialogresult.md) of the closing event.

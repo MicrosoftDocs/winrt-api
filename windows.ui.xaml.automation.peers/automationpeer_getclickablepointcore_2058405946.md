@@ -12,7 +12,7 @@ virtual protected Windows.Foundation.Point GetClickablePointCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetClickablePoint](automationpeer_getclickablepoint_955785073.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetClickablePointCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getclickablepointcore).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetClickablePointCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getclickablepointcore).
 
 ## -returns
 A point within the clickable area of the element.

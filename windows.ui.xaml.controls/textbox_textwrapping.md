@@ -12,7 +12,7 @@ public Windows.UI.Xaml.TextWrapping TextWrapping { get;  set; }
 ## -description
 Gets or sets how line breaking occurs if a line of text extends beyond the available width of the text box.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.TextWrapping](/windows/winui/api/microsoft.ui.xaml.controls.textbox.textwrapping).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.TextWrapping](/windows/winui/api/microsoft.ui.xaml.controls.textbox.textwrapping).
 
 ## -xaml-syntax
 ```xaml

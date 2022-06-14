@@ -12,7 +12,7 @@ public bool GetStylisticSet8(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [StylisticSet8](typography_stylisticset8.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetStylisticSet8](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstylisticset8).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.GetStylisticSet8](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstylisticset8).
 
 ## -parameters
 ### -param element

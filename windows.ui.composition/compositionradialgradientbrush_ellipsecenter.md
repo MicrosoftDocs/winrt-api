@@ -14,7 +14,7 @@ public Vector2 EllipseCenter { get;  set; }
 
 Gets or sets the two-dimensional coordinates of the center of the ellipse that contains the gradient.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionRadialGradientBrush.EllipseCenter](/windows/winui/api/microsoft.ui.composition.compositionradialgradientbrush.ellipsecenter).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionRadialGradientBrush.EllipseCenter](/windows/winui/api/microsoft.ui.composition.compositionradialgradientbrush.ellipsecenter).
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public int MaxLength { get;  set; }
 ## -description
 Gets or sets the maximum length for passwords to be handled by this [PasswordBox](passwordbox.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.MaxLength](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.maxlength).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.PasswordBox.MaxLength](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.maxlength).
 
 ## -xaml-syntax
 ```xaml

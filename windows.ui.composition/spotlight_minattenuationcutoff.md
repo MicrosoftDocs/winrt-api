@@ -13,7 +13,7 @@ public float MinAttenuationCutoff { get;  set; }
 
 Gets or sets the minimum range at which this light is effective.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.SpotLight.MinAttenuationCutoff](/windows/winui/api/microsoft.ui.composition.spotlight.minattenuationcutoff).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpotLight.MinAttenuationCutoff](/windows/winui/api/microsoft.ui.composition.spotlight.minattenuationcutoff).
 
 ## -property-value
 

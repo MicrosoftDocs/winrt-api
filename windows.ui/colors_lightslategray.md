@@ -13,7 +13,7 @@ public Windows.UI.Color LightSlateGray { get; }
 
 Gets the system-defined color that has an ARGB value of #FF778899.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.LightSlateGray](/windows/winui/api/microsoft.ui.colors.lightslategray).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.LightSlateGray](/windows/winui/api/microsoft.ui.colors.lightslategray).
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public string PlaceholderText { get;  set; }
 ## -description
 Gets or sets the placeholder text to be displayed in the control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.PlaceholderText](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.placeholdertext).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.PlaceholderText](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.placeholdertext).
 
 ## -xaml-syntax
 ```xaml

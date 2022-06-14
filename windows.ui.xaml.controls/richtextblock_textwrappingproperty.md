@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TextWrappingProperty { get; }
 ## -description
 Identifies the [TextWrapping](richtextblock_textwrapping.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextWrappingProperty](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.textwrappingproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextWrappingProperty](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.textwrappingproperty).
 
 ## -property-value
 The identifier for the [TextWrapping](richtextblock_textwrapping.md) dependency property.

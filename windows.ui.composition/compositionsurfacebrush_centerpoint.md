@@ -12,7 +12,7 @@ public Windows.Foundation.Numerics.Vector2 CenterPoint { get;  set; }
 ## -description
 The point about which the brush is rotated and scaled.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSurfaceBrush.CenterPoint](/windows/winui/api/microsoft.ui.composition.compositionsurfacebrush.centerpoint).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionSurfaceBrush.CenterPoint](/windows/winui/api/microsoft.ui.composition.compositionsurfacebrush.centerpoint).
 
 ## -property-value
 The point about which the brush is rotated and scaled.

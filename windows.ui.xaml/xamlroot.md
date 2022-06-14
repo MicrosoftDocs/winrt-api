@@ -14,7 +14,7 @@ public class XamlRoot
 
 Represents a tree of XAML content and information about the context in which it is hosted.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.XamlRoot](/windows/winui/api/microsoft.ui.xaml.xamlroot).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.XamlRoot](/windows/winui/api/microsoft.ui.xaml.xamlroot).
 
 ## -remarks
 

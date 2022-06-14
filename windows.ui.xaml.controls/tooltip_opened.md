@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.RoutedEventHandler Opened
 ## -description
 Occurs when a [ToolTip](tooltip.md) becomes visible.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ToolTip.Opened](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.opened).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToolTip.Opened](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.opened).
 
 ## -xaml-syntax
 ```xaml

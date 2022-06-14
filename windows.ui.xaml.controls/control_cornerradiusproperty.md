@@ -14,7 +14,7 @@ public DependencyProperty CornerRadiusProperty { get; }
 
 Identifies the [CornerRadius](control_cornerradius.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.CornerRadiusProperty](/windows/winui/api/microsoft.ui.xaml.controls.control.cornerradiusproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.CornerRadiusProperty](/windows/winui/api/microsoft.ui.xaml.controls.control.cornerradiusproperty).
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Thickness Padding { get;  set; }
 ## -description
 Gets or sets the distance between the [ItemsPresenter](itemspresenter.md) and its child objects.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPresenter.Padding](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.padding).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsPresenter.Padding](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.padding).
 
 ## -xaml-syntax
 ```xaml

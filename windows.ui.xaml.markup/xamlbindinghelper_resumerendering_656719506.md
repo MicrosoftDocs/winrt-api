@@ -12,7 +12,7 @@ public void ResumeRendering(Windows.UI.Xaml.UIElement target)
 ## -description
 Resumes rendering of the specified element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.ResumeRendering](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.resumerendering).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.ResumeRendering](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.resumerendering).
 
 ## -parameters
 ### -param target

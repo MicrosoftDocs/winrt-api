@@ -13,7 +13,7 @@ public class ScalarTransition
 ## -description
 Provides the animated transition behavior when an element's Opacity or Rotation properties change.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.ScalarTransition](/windows/winui/api/microsoft.ui.xaml.scalartransition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ScalarTransition](/windows/winui/api/microsoft.ui.xaml.scalartransition).
 
 ## -remarks
 

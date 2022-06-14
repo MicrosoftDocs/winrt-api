@@ -12,7 +12,7 @@ public void PageRight()
 ## -description
 Scrolls right within the content by one page.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.PageRight](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.pageright).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.PageRight](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.pageright).
 
 ## -remarks
 

@@ -13,7 +13,7 @@ public float MaxGlobalPlaybackRate { get; }
 
 Gets the maximum allowed playback rate for all KeyFrame animations created by this compositor..
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Compositor.MaxGlobalPlaybackRate](/windows/winui/api/microsoft.ui.composition.compositor.maxglobalplaybackrate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.MaxGlobalPlaybackRate](/windows/winui/api/microsoft.ui.composition.compositor.maxglobalplaybackrate).
 
 ## -property-value
 

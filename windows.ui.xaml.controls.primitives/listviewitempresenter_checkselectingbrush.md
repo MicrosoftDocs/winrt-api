@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush CheckSelectingBrush { get;  set; }
 ## -description
 Gets or sets the brush used to render the check mark on an item while it's being selected using a swipe interaction. This property is ignored for a Windows 10 app.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckSelectingBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.checkselectingbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckSelectingBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.checkselectingbrush).
 
 ## -xaml-syntax
 ```xaml

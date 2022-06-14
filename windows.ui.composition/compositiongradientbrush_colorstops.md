@@ -13,7 +13,7 @@ public CompositionColorGradientStopCollection ColorStops { get; }
 
 Gets the brush's gradient stops.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGradientBrush.ColorStops](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.colorstops).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionGradientBrush.ColorStops](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.colorstops).
 
 ## -property-value
 

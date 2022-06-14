@@ -14,7 +14,7 @@ public DependencyProperty CanContentRenderOutsideBoundsProperty { get; }
 
 Identifies the [CanContentRenderOutsideBounds](scrollcontentpresenter_cancontentrenderoutsidebounds.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.CanContentRenderOutsideBoundsProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.cancontentrenderoutsideboundsproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.CanContentRenderOutsideBoundsProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.cancontentrenderoutsideboundsproperty).
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public class FocusEngagedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI
 ## -description
 Provides data for the [FocusEngaged](control_focusengaged.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.FocusEngagedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.focusengagedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.FocusEngagedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.focusengagedeventargs).
 
 ## -remarks
 

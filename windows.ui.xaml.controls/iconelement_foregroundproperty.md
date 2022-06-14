@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ForegroundProperty { get; }
 ## -description
 Identifies the [Foreground](iconelement_foreground.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.IconElement.ForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.iconelement.foregroundproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.IconElement.ForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.iconelement.foregroundproperty).
 
 ## -property-value
 The identifier for the [Foreground](iconelement_foreground.md) dependency property.

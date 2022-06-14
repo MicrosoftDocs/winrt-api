@@ -12,7 +12,7 @@ public bool CanDragItems { get;  set; }
 ## -description
 Gets or sets a value that indicates whether items in the view can be dragged as data payload.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.CanDragItems](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.candragitems).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.CanDragItems](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.candragitems).
 
 ## -xaml-syntax
 ```xaml

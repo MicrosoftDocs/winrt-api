@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.Storyboard Storyboard { get;  set; }
 ## -description
 Gets or sets the [Storyboard](../windows.ui.xaml.media.animation/storyboard.md) that runs when the transition occurs.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.VisualTransition.Storyboard](/windows/winui/api/microsoft.ui.xaml.visualtransition.storyboard).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualTransition.Storyboard](/windows/winui/api/microsoft.ui.xaml.visualtransition.storyboard).
 
 ## -xaml-syntax
 ```xaml

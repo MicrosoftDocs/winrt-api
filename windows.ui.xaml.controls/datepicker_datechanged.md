@@ -13,7 +13,7 @@ public event Windows.Foundation.EventHandler DateChanged<Windows.UI.Xaml.Control
 
 Occurs when the date value is changed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.DatePicker.DateChanged](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.datechanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePicker.DateChanged](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.datechanged).
 
 ## -xaml-syntax
 

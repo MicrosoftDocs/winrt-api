@@ -12,7 +12,7 @@ public int GetZIndex(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [Canvas.ZIndex](canvas_zindex.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Canvas.GetZIndex](/windows/winui/api/microsoft.ui.xaml.controls.canvas.getzindex).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Canvas.GetZIndex](/windows/winui/api/microsoft.ui.xaml.controls.canvas.getzindex).
 
 ## -parameters
 ### -param element

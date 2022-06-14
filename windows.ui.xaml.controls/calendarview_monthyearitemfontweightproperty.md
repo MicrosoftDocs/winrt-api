@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty MonthYearItemFontWeightProperty { get;
 ## -description
 Identifies the [MonthYearItemFontWeight](calendarview_monthyearitemfontweight.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.MonthYearItemFontWeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.monthyearitemfontweightproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.MonthYearItemFontWeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.monthyearitemfontweightproperty).
 
 ## -property-value
 The identifier for the [MonthYearItemFontWeight](calendarview_monthyearitemfontweight.md)   dependency property.

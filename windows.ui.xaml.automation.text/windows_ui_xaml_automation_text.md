@@ -8,7 +8,7 @@
 ## -description
 Contains enumerations that report specifics about text automation patterns.
 
-Equivalent WinUI namespace: [Microsoft.UI.Xaml.Automation.Text](/windows/winui/api/microsoft.ui.xaml.automation.text).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Text](/windows/winui/api/microsoft.ui.xaml.automation.text).
 
 ## -remarks
 

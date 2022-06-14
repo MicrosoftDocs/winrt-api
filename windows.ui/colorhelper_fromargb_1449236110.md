@@ -12,7 +12,7 @@ public Windows.UI.Color FromArgb(System.Byte a, System.Byte r, System.Byte g, Sy
 ## -description
 Generates a [Color](color.md) structure, based on discrete **Byte** values for **ARGB** components. C# and Microsoft Visual Basic code should use **Color.FromArgb** instead.
 
-Equivalent WinUI method: [Microsoft.UI.ColorHelper.FromArgb](/windows/winui/api/microsoft.ui.colorhelper.fromargb).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.ColorHelper.FromArgb](/windows/winui/api/microsoft.ui.colorhelper.fromargb).
 
 ## -parameters
 ### -param a

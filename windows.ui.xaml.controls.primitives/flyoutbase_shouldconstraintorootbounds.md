@@ -14,7 +14,7 @@ public bool ShouldConstrainToRootBounds { get;  set; }
 
 Gets or sets a value that indicates whether the flyout should be shown within the bounds of the XAML root.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShouldConstrainToRootBounds](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.shouldconstraintorootbounds).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShouldConstrainToRootBounds](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.shouldconstraintorootbounds).
 
 ## -property-value
 

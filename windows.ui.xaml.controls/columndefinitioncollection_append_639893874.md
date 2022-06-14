@@ -12,7 +12,7 @@ public void Append(Windows.UI.Xaml.Controls.ColumnDefinition value)
 ## -description
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ColumnDefinitionCollection.Append](/windows/winui/api/microsoft.ui.xaml.controls.columndefinitioncollection.append).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ColumnDefinitionCollection.Append](/windows/winui/api/microsoft.ui.xaml.controls.columndefinitioncollection.append).
 
 ## -parameters
 ### -param value

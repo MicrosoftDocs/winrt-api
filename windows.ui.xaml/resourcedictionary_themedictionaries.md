@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IMap<object, object> ThemeDictionaries { g
 ## -description
 Gets a collection of merged resource dictionaries that are specifically keyed and composed to address theme scenarios, for example supplying theme values for "HighContrast".
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ResourceDictionary.ThemeDictionaries](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.themedictionaries).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ResourceDictionary.ThemeDictionaries](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.themedictionaries).
 
 ## -xaml-syntax
 ```xaml

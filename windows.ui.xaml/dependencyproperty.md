@@ -12,7 +12,7 @@ public class DependencyProperty : Windows.UI.Xaml.IDependencyProperty
 ## -description
 Represents a dependency property that is registered with the dependency property system. Dependency properties provide support for value expressions, data binding, animation, and property change notification. For more info on how DependencyProperty values serve as identifiers for dependency properties, see [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.DependencyProperty](/windows/winui/api/microsoft.ui.xaml.dependencyproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DependencyProperty](/windows/winui/api/microsoft.ui.xaml.dependencyproperty).
 
 ## -xaml-syntax
 ```xaml

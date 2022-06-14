@@ -12,7 +12,7 @@ public void AutomationProperties.SetHeadingLevel(DependencyObject element, Autom
 ## -description
 Sets the value of the [AutomationProperties.HeadingLevel](automationproperties_headinglevelproperty.md) property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetHeadingLevel](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setheadinglevel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetHeadingLevel](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setheadinglevel).
 
 ## -parameters
 ### -param element

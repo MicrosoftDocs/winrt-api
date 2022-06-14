@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty HistoricalLigaturesProperty { get; }
 ## -description
 Identifies the [HistoricalLigatures](typography_historicalligatures.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.HistoricalLigaturesProperty](/windows/winui/api/microsoft.ui.xaml.documents.typography.historicalligaturesproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.HistoricalLigaturesProperty](/windows/winui/api/microsoft.ui.xaml.documents.typography.historicalligaturesproperty).
 
 ## -property-value
 The identifier for the [HistoricalLigatures](typography_historicalligatures.md) attached property.

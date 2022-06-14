@@ -12,7 +12,7 @@ public void ScrollIntoView(System.Object item)
 ## -description
 Causes the object to scroll into view.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListBox.ScrollIntoView](/windows/winui/api/microsoft.ui.xaml.controls.listbox.scrollintoview).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListBox.ScrollIntoView](/windows/winui/api/microsoft.ui.xaml.controls.listbox.scrollintoview).
 
 ## -parameters
 ### -param item

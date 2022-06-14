@@ -12,7 +12,7 @@ public void SetTargetName(Windows.UI.Xaml.Media.Animation.Timeline element, Syst
 ## -description
 Sets the value of the [Storyboard.TargetName](storyboard_targetname.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.Storyboard.SetTargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.settargetname).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Storyboard.SetTargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.settargetname).
 
 ## -parameters
 ### -param element

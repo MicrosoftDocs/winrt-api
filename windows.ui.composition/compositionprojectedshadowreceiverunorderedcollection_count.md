@@ -14,7 +14,7 @@ public int Count { get; }
 
 Gets the size (count) of the collection.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionProjectedShadowReceiverUnorderedCollection.Count](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowreceiverunorderedcollection.count).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionProjectedShadowReceiverUnorderedCollection.Count](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowreceiverunorderedcollection.count).
 
 ## -property-value
 

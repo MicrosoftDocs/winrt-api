@@ -12,7 +12,7 @@ public void SetVariants(Windows.UI.Xaml.DependencyObject element, Windows.UI.Xam
 ## -description
 Sets the value of the [Variants](typography_variants.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetVariants](/windows/winui/api/microsoft.ui.xaml.documents.typography.setvariants).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetVariants](/windows/winui/api/microsoft.ui.xaml.documents.typography.setvariants).
 
 ## -parameters
 ### -param element

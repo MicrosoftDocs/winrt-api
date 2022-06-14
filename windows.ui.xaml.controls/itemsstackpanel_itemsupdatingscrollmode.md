@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ItemsUpdatingScrollMode ItemsUpdatingScrollMode 
 ## -description
 Gets or sets a value that specifies scrolling behavior when the [ItemsSource](itemscontrol_itemssource.md) is updated.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsStackPanel.ItemsUpdatingScrollMode](/windows/winui/api/microsoft.ui.xaml.controls.itemsstackpanel.itemsupdatingscrollmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsStackPanel.ItemsUpdatingScrollMode](/windows/winui/api/microsoft.ui.xaml.controls.itemsstackpanel.itemsupdatingscrollmode).
 
 ## -xaml-syntax
 ```xaml

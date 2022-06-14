@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.Orientation : int
 ## -description
 Defines constants that specify the different orientations that a control or layout can have.
 
-Equivalent WinUI enum: [Orientation](/windows/winui/api/microsoft.ui.xaml.controls.orientation).
+Equivalent **WinUI 2 API for UWP**: [Orientation](/windows/winui/api/microsoft.ui.xaml.controls.orientation).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Text.ITextDocument Document { get; }
 ## -description
 Gets an object that enables access to the text object model for the text contained in a [RichEditBox](richeditbox.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.Document](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.document).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBox.Document](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.document).
 
 ## -property-value
 An object that enables access to the text object model.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty VirtualizationModeProperty { get; }
 ## -description
 Identifies the [VirtualizingStackPanel.VirtualizationMode](virtualizingstackpanel_virtualizationmode.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel.VirtualizationModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel.virtualizationmodeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel.VirtualizationModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel.virtualizationmodeproperty).
 
 ## -property-value
 The identifier for the [VirtualizingStackPanel.VirtualizationMode](virtualizingstackpanel_virtualizationmode.md) XAML attached property.

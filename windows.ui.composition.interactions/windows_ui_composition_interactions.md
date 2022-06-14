@@ -8,7 +8,7 @@
 ## -description
 Provides functionality that enables input driven animations in the visual layer.
 
-Equivalent WinUI namespace: [Microsoft.UI.Composition.Interactions](/windows/winui/api/microsoft.ui.composition.interactions).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions](/windows/winui/api/microsoft.ui.composition.interactions).
 
 ## -remarks
 

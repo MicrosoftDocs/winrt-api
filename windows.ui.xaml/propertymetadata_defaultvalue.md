@@ -12,7 +12,7 @@ public object DefaultValue { get; }
 ## -description
 Gets the default value for the dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.PropertyMetadata.DefaultValue](/windows/winui/api/microsoft.ui.xaml.propertymetadata.defaultvalue).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.PropertyMetadata.DefaultValue](/windows/winui/api/microsoft.ui.xaml.propertymetadata.defaultvalue).
 
 ## -property-value
 The default value for the dependency property.

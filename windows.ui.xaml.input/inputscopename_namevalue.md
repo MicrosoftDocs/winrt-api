@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Input.InputScopeNameValue NameValue { get;  set; }
 
 Gets or sets the specific input scope name value for this [InputScopeName](inputscopename.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.InputScopeName.NameValue](/windows/winui/api/microsoft.ui.xaml.input.inputscopename.namevalue).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.InputScopeName.NameValue](/windows/winui/api/microsoft.ui.xaml.input.inputscopename.namevalue).
 
 ## -property-value
 

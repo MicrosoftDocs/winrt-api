@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionGetValueStatus TryGetBoolean(System.Str
 ## -description
 Retrieves the specified boolean property value.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.TryGetBoolean](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.trygetboolean).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionPropertySet.TryGetBoolean](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.trygetboolean).
 
 ## -parameters
 ### -param propertyName

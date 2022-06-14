@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty StrokeThicknessProperty { get; }
 ## -description
 Identifies the [StrokeThickness](shape_strokethickness.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.StrokeThicknessProperty](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokethicknessproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Shape.StrokeThicknessProperty](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokethicknessproperty).
 
 ## -property-value
 The identifier for the [StrokeThickness](shape_strokethickness.md) dependency property.

@@ -12,7 +12,7 @@ public bool DayVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the day selector is shown.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.DayVisible](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.dayvisible).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePicker.DayVisible](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.dayvisible).
 
 ## -xaml-syntax
 ```xaml

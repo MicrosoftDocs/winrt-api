@@ -9,7 +9,7 @@
 
 Defines the data binding infrastructure for apps.
 
-Equivalent WinUI namespace: [Microsoft.UI.Xaml.Data](/windows/winui/api/microsoft.ui.xaml.data).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data](/windows/winui/api/microsoft.ui.xaml.data).
 
 ## -remarks
 

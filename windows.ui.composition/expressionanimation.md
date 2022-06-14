@@ -12,7 +12,7 @@ public class ExpressionAnimation : Windows.UI.Composition.CompositionAnimation, 
 ## -description
 A Composition Animation that uses a mathematical equation to calculate the value for an animating property every frame.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.ExpressionAnimation](/windows/winui/api/microsoft.ui.composition.expressionanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ExpressionAnimation](/windows/winui/api/microsoft.ui.composition.expressionanimation).
 
 ## -remarks
 

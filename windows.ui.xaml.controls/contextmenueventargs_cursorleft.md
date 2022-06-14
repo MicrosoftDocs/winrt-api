@@ -12,7 +12,7 @@ public double CursorLeft { get; }
 ## -description
 Gets the pixel offset of the text cursor horizontal position.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContextMenuEventArgs.CursorLeft](/windows/winui/api/microsoft.ui.xaml.controls.contextmenueventargs.cursorleft).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContextMenuEventArgs.CursorLeft](/windows/winui/api/microsoft.ui.xaml.controls.contextmenueventargs.cursorleft).
 
 ## -property-value
 A value in pixels.

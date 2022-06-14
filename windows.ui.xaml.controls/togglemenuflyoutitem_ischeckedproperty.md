@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsCheckedProperty { get; }
 ## -description
 Identifies the [IsChecked](togglemenuflyoutitem_ischecked.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem.IsCheckedProperty](/windows/winui/api/microsoft.ui.xaml.controls.togglemenuflyoutitem.ischeckedproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem.IsCheckedProperty](/windows/winui/api/microsoft.ui.xaml.controls.togglemenuflyoutitem.ischeckedproperty).
 
 ## -property-value
 The identifier for the [IsChecked](togglemenuflyoutitem_ischecked.md) dependency property.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty DayFormatProperty { get; }
 ## -description
 Gets the identifier for the [DayFormat](datepicker_dayformat.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.DayFormatProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.dayformatproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePicker.DayFormatProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.dayformatproperty).
 
 ## -property-value
 The identifier for the [DayFormat](datepicker_dayformat.md) dependency property.

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.AutomationTextAttributesEnum : int
 ## -description
 Defines constants that identify text attributes of a Microsoft UI Automation text range.
 
-Equivalent WinUI enum: [AutomationTextAttributesEnum](/windows/winui/api/microsoft.ui.xaml.automationtextattributesenum).
+Equivalent **WinUI 2 API for UWP**: [AutomationTextAttributesEnum](/windows/winui/api/microsoft.ui.xaml.automationtextattributesenum).
 
 ## -enum-fields
 ### -field AnimationStyleAttribute:40000

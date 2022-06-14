@@ -12,7 +12,7 @@ public void RichEditTextDocument.SetText(TextSetOptions options, String value)
 ## -description
 Sets the text of the document.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.SetText](/windows/winui/api/microsoft.ui.text.richedittextdocument.settext).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextDocument.SetText](/windows/winui/api/microsoft.ui.text.richedittextdocument.settext).
 
 ## -parameters
 

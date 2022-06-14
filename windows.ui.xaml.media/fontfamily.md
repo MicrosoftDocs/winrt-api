@@ -12,7 +12,7 @@ public class FontFamily : Windows.UI.Xaml.Media.IFontFamily
 ## -description
 Represents a family of related fonts.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.FontFamily](/windows/winui/api/microsoft.ui.xaml.media.fontfamily).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.FontFamily](/windows/winui/api/microsoft.ui.xaml.media.fontfamily).
 
 ## -xaml-syntax
 ```xaml

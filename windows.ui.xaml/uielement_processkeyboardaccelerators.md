@@ -13,7 +13,7 @@ public event TypedEventHandler ProcessKeyboardAccelerators<UIElement, ProcessKey
 
 Occurs when a [keyboard shortcut (or accelerator)](../windows.ui.xaml.input/keyboardaccelerator.md) is pressed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.ProcessKeyboardAccelerators](/windows/winui/api/microsoft.ui.xaml.uielement.processkeyboardaccelerators).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ProcessKeyboardAccelerators](/windows/winui/api/microsoft.ui.xaml.uielement.processkeyboardaccelerators).
 
 ## -xaml-syntax
 

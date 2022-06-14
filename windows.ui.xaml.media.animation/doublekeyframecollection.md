@@ -12,7 +12,7 @@ public class DoubleKeyFrameCollection : Windows.Foundation.Collections.IIterable
 ## -description
 Represents a collection of [DoubleKeyFrame](doublekeyframe.md) objects that can be individually accessed by index. DoubleKeyFrameCollection is the value of the [DoubleAnimationUsingKeyFrames.KeyFrames](doubleanimationusingkeyframes_keyframes.md) property.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrameCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframecollection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrameCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframecollection).
 
 ## -remarks
 <!--Begin NET note for IEnumerable support-->

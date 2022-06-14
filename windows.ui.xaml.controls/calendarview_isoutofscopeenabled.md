@@ -12,7 +12,7 @@ public bool IsOutOfScopeEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether out-of-scope calendar items are shown with a unique foreground color.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.IsOutOfScopeEnabled](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.isoutofscopeenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.IsOutOfScopeEnabled](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.isoutofscopeenabled).
 
 ## -xaml-syntax
 ```xaml

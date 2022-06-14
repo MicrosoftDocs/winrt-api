@@ -13,7 +13,7 @@ public Windows.UI.Color Bisque { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFE4C4.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Bisque](/windows/winui/api/microsoft.ui.colors.bisque).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Bisque](/windows/winui/api/microsoft.ui.colors.bisque).
 
 ## -property-value
 

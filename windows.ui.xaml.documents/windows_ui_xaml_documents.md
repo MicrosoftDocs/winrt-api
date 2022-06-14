@@ -8,7 +8,7 @@
 ## -description
 Provides basic text and document model classes.
 
-Equivalent WinUI namespace: [Microsoft.UI.Xaml.Documents](/windows/winui/api/microsoft.ui.xaml.documents).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents](/windows/winui/api/microsoft.ui.xaml.documents).
 
 ## -remarks
 

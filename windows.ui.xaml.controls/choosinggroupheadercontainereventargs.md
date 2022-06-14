@@ -12,7 +12,7 @@ public class ChoosingGroupHeaderContainerEventArgs : Windows.UI.Xaml.Controls.IC
 ## -description
 Provides event data for the [ListViewBase.ChoosingGroupHeaderContainer](listviewbase_choosinggroupheadercontainer.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ChoosingGroupHeaderContainerEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.choosinggroupheadercontainereventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ChoosingGroupHeaderContainerEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.choosinggroupheadercontainereventargs).
 
 ## -remarks
 

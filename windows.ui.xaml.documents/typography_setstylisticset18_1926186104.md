@@ -12,7 +12,7 @@ public void SetStylisticSet18(Windows.UI.Xaml.DependencyObject element, System.B
 ## -description
 Sets the value of the [StylisticSet18](typography_stylisticset18.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet18](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset18).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet18](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset18).
 
 ## -parameters
 ### -param element

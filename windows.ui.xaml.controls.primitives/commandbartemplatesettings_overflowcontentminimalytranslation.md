@@ -14,7 +14,7 @@ public double OverflowContentMinimalYTranslation { get; }
 
 Gets the translation of the overflow content on the Y-axis in the minimal state.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings.OverflowContentMinimalYTranslation](/windows/winui/api/microsoft.ui.xaml.controls.primitives.commandbartemplatesettings.overflowcontentminimalytranslation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings.OverflowContentMinimalYTranslation](/windows/winui/api/microsoft.ui.xaml.controls.primitives.commandbartemplatesettings.overflowcontentminimalytranslation).
 
 ## -property-value
 

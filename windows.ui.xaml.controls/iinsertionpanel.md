@@ -12,7 +12,7 @@ public interface IInsertionPanel :
 ## -description
 Provides methods to let an item be inserted between other items in a drag-and-drop operation.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Controls.IInsertionPanel](/windows/winui/api/microsoft.ui.xaml.controls.iinsertionpanel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.IInsertionPanel](/windows/winui/api/microsoft.ui.xaml.controls.iinsertionpanel).
 
 ## -remarks
 

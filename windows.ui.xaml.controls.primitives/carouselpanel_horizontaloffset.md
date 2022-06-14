@@ -12,7 +12,7 @@ public double HorizontalOffset { get; }
 ## -description
 Gets the horizontal offset of the scrolled content.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel.HorizontalOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.carouselpanel.horizontaloffset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel.HorizontalOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.carouselpanel.horizontaloffset).
 
 ## -property-value
 A value in pixels.

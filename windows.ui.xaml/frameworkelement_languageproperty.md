@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty LanguageProperty { get; }
 ## -description
 Identifies the [Language](frameworkelement_language.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.LanguageProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.languageproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.LanguageProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.languageproperty).
 
 ## -property-value
 The identifier for the [Language](frameworkelement_language.md) dependency property.

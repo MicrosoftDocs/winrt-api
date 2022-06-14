@@ -14,7 +14,7 @@ public DependencyProperty LabelProperty { get; }
 
 Identifies the [Label](xamluicommand_label.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.LabelProperty](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.labelproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.XamlUICommand.LabelProperty](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.labelproperty).
 
 ## -property-value
 

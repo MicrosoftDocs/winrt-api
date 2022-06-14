@@ -14,7 +14,7 @@ public DependencyProperty CommandProperty { get; }
 
 Identifies the [Command](xamluicommand_command.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.CommandProperty](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.commandproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.XamlUICommand.CommandProperty](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.commandproperty).
 
 ## -property-value
 

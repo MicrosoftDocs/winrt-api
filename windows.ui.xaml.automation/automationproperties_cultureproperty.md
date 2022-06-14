@@ -12,7 +12,7 @@ public DependencyProperty CultureProperty { get; }
 ## -description
 Identifies the [AutomationProperties.Culture](automationproperties_culture.md) attached property.  
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.CultureProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.cultureproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.CultureProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.cultureproperty).
 
 ## -property-value
 The identifier for the [AutomationProperties.Culture](automationproperties_culture.md) attached property.  

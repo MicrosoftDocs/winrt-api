@@ -12,7 +12,7 @@ public enum Windows.UI.Composition.AnimationDirection : int
 ## -description
 Specifies the play direction of an animation.
 
-Equivalent WinUI enum: [AnimationDirection](/windows/winui/api/microsoft.ui.composition.animationdirection).
+Equivalent **WinUI 2 API for UWP**: [AnimationDirection](/windows/winui/api/microsoft.ui.composition.animationdirection).
 
 ## -enum-fields
 ### -field Normal:0

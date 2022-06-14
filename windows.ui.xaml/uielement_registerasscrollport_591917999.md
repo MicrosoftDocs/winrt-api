@@ -13,7 +13,7 @@ public void UIElement.RegisterAsScrollPort(UIElement element)
 
 Registers an element as representing a scrollable viewport.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.RegisterAsScrollPort](/windows/winui/api/microsoft.ui.xaml.uielement.registerasscrollport).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.RegisterAsScrollPort](/windows/winui/api/microsoft.ui.xaml.uielement.registerasscrollport).
 
 ## -parameters
 

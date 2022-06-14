@@ -13,7 +13,7 @@ public bool GetIsDataValidForForm(Windows.UI.Xaml.DependencyObject element)
 
 Gets the value of the [AutomationProperties.IsDataValidForForm](automationproperties_isdatavalidforform.md) property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetIsDataValidForForm](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getisdatavalidforform).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetIsDataValidForForm](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getisdatavalidforform).
 
 ## -parameters
 

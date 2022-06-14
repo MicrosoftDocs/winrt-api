@@ -12,7 +12,7 @@ public class HubAutomationPeer : Windows.UI.Xaml.Automation.Peers.FrameworkEleme
 ## -description
 Exposes [Hub](../windows.ui.xaml.controls/hub.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.HubAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.hubautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.HubAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.hubautomationpeer).
 
 ## -remarks
 The Windows Runtime  [Hub](../windows.ui.xaml.controls/hub.md) class creates a new HubAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from HubAutomationPeer if you are deriving a custom class from [Hub](../windows.ui.xaml.controls/hub.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

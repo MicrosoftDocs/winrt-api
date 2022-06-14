@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ZIndexProperty { get; }
 ## -description
 Identifies the [Canvas.ZIndex](canvas_zindex.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Canvas.ZIndexProperty](/windows/winui/api/microsoft.ui.xaml.controls.canvas.zindexproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Canvas.ZIndexProperty](/windows/winui/api/microsoft.ui.xaml.controls.canvas.zindexproperty).
 
 ## -property-value
 The identifier for the [Canvas.ZIndex](canvas_zindex.md) XAML attached property.

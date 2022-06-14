@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectedItemProperty { get; }
 ## -description
 Identifies the [SelectedItem](listpickerflyout_selecteditem.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.SelectedItemProperty](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.selecteditemproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.SelectedItemProperty](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.selecteditemproperty).
 
 ## -property-value
 Identifies the [SelectedItem](listpickerflyout_selecteditem.md) dependency property.

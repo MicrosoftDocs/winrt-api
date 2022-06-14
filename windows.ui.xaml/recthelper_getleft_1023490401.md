@@ -13,7 +13,7 @@ public float GetLeft(Windows.Foundation.Rect target)
 
 Gets a "Left" value for the specified [Rect](../windows.foundation/rect.md). So long as **Width** is positive, "Left" is evaluated as **X**. C# and Microsoft Visual Basic code should use [Rect.Left](/dotnet/api/windows.foundation.rect.left?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.RectHelper.GetLeft](/windows/winui/api/microsoft.ui.xaml.recthelper.getleft).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.RectHelper.GetLeft](/windows/winui/api/microsoft.ui.xaml.recthelper.getleft).
 
 ## -parameters
 

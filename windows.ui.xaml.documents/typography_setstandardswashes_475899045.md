@@ -12,7 +12,7 @@ public void SetStandardSwashes(Windows.UI.Xaml.DependencyObject element, System.
 ## -description
 Sets the value of the [StandardSwashes](typography_standardswashes.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStandardSwashes](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstandardswashes).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetStandardSwashes](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstandardswashes).
 
 ## -parameters
 ### -param element

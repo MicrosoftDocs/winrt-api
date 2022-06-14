@@ -12,7 +12,7 @@ public bool Navigate(Windows.UI.Xaml.Interop.TypeName sourcePageType)
 ## -description
 Causes the [Frame](frame.md) to load content represented by the specified [Page](page.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Frame.Navigate](/windows/winui/api/microsoft.ui.xaml.controls.frame.navigate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Frame.Navigate](/windows/winui/api/microsoft.ui.xaml.controls.frame.navigate).
 
 ## -parameters
 ### -param sourcePageType

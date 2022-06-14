@@ -13,7 +13,7 @@ public void CompositionColorGradientStopCollection.RemoveAt(UInt32 index)
 
 Removes the item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.RemoveAt](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.removeat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.RemoveAt](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.removeat).
 
 ## -parameters
 ### -param index

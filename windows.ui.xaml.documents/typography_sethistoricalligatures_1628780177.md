@@ -12,7 +12,7 @@ public void SetHistoricalLigatures(Windows.UI.Xaml.DependencyObject element, Sys
 ## -description
 Sets the value of the [HistoricalLigatures](typography_historicalligatures.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetHistoricalLigatures](/windows/winui/api/microsoft.ui.xaml.documents.typography.sethistoricalligatures).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetHistoricalLigatures](/windows/winui/api/microsoft.ui.xaml.documents.typography.sethistoricalligatures).
 
 ## -parameters
 ### -param element

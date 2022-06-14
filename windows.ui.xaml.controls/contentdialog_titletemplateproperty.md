@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TitleTemplateProperty { get; }
 ## -description
 Gets the identifier of the TitleTemplate dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.TitleTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.titletemplateproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentDialog.TitleTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.titletemplateproperty).
 
 ## -property-value
 The identifier of the TitleTemplate dependency property.

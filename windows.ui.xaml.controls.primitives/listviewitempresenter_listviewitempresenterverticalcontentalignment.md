@@ -15,7 +15,7 @@ public Windows.UI.Xaml.VerticalAlignment ListViewItemPresenterVerticalContentAli
 
 Gets or sets the vertical alignment of the content being presented.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterVerticalContentAlignment](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.listviewitempresenterverticalcontentalignment).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterVerticalContentAlignment](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.listviewitempresenterverticalcontentalignment).
 
 ## -property-value
 A value of the enumeration.

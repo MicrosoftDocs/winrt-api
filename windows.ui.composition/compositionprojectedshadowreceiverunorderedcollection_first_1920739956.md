@@ -14,7 +14,7 @@ public IIterator<CompositionProjectedShadowReceiver> CompositionProjectedShadowR
 
 Returns an iterator for the items in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionProjectedShadowReceiverUnorderedCollection.First](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowreceiverunorderedcollection.first).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionProjectedShadowReceiverUnorderedCollection.First](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowreceiverunorderedcollection.first).
 
 ## -returns
 

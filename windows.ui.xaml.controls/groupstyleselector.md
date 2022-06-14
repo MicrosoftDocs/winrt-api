@@ -12,7 +12,7 @@ public class GroupStyleSelector : Windows.UI.Xaml.Controls.IGroupStyleSelector, 
 ## -description
 Enables custom group style selection logic as a function of the parent group and its level.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.GroupStyleSelector](/windows/winui/api/microsoft.ui.xaml.controls.groupstyleselector).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.GroupStyleSelector](/windows/winui/api/microsoft.ui.xaml.controls.groupstyleselector).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.UI.Text.FormatEffect KeepTogether { get;  set; }
 ## -description
 Gets or sets whether page breaks are allowed in paragraphs.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.KeepTogether](/windows/winui/api/microsoft.ui.text.itextparagraphformat.keeptogether).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.KeepTogether](/windows/winui/api/microsoft.ui.text.itextparagraphformat.keeptogether).
 
 ## -property-value
 A value that indicates whether page breaks are allowed.

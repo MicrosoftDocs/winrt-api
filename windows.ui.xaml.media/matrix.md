@@ -11,7 +11,7 @@ public struct Matrix
 
 ## -description
 Represents a 3 × 3 affine transformation matrix used for transformations in two-dimensional space.
-Equivalent WinUI struct: [Matrix](/windows/winui/api/microsoft.ui.xaml.media.matrix).
+Equivalent **WinUI 2 API for UWP**: [Matrix](/windows/winui/api/microsoft.ui.xaml.media.matrix).
 
 ## -xaml-syntax
 ```xaml

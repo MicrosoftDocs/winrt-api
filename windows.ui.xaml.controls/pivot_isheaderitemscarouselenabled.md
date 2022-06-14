@@ -12,7 +12,7 @@ public bool IsHeaderItemsCarouselEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the selected header moves to the first position.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.IsHeaderItemsCarouselEnabled](/windows/winui/api/microsoft.ui.xaml.controls.pivot.isheaderitemscarouselenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Pivot.IsHeaderItemsCarouselEnabled](/windows/winui/api/microsoft.ui.xaml.controls.pivot.isheaderitemscarouselenabled).
 
 ## -xaml-syntax
 ```xaml

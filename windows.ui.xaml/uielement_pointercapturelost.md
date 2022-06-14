@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerCaptureLost
 
 Occurs when pointer capture previously held by this element moves to another element or elsewhere.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.PointerCaptureLost](/windows/winui/api/microsoft.ui.xaml.uielement.pointercapturelost).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.PointerCaptureLost](/windows/winui/api/microsoft.ui.xaml.uielement.pointercapturelost).
 
 ## -xaml-syntax
 

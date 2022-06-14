@@ -12,7 +12,7 @@ public void SetHistoricalForms(Windows.UI.Xaml.DependencyObject element, System.
 ## -description
 Sets the value of the [HistoricalForms](typography_historicalforms.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetHistoricalForms](/windows/winui/api/microsoft.ui.xaml.documents.typography.sethistoricalforms).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetHistoricalForms](/windows/winui/api/microsoft.ui.xaml.documents.typography.sethistoricalforms).
 
 ## -parameters
 ### -param element

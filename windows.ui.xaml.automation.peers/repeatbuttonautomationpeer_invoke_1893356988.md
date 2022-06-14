@@ -14,7 +14,7 @@ public void RepeatButtonAutomationPeer.Invoke()
 
 Sends a request to click the repeat button associated with the automation peer.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.RepeatButtonAutomationPeer.Invoke](/windows/winui/api/microsoft.ui.xaml.automation.peers.repeatbuttonautomationpeer.invoke).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.RepeatButtonAutomationPeer.Invoke](/windows/winui/api/microsoft.ui.xaml.automation.peers.repeatbuttonautomationpeer.invoke).
 
 ## -remarks
 

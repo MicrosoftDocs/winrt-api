@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AreStickyGroupHeadersEnabledProperty {
 ## -description
 Identifies the [AreStickyGroupHeadersEnabled](itemswrapgrid_arestickygroupheadersenabled.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid.AreStickyGroupHeadersEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid.arestickygroupheadersenabledproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid.AreStickyGroupHeadersEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid.arestickygroupheadersenabledproperty).
 
 ## -property-value
 The identifier for the [AreStickyGroupHeadersEnabled](itemswrapgrid_arestickygroupheadersenabled.md) dependency property.

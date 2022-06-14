@@ -12,7 +12,7 @@ public void Append(Windows.UI.Xaml.TriggerBase value)
 ## -description
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.TriggerCollection.Append](/windows/winui/api/microsoft.ui.xaml.triggercollection.append).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.TriggerCollection.Append](/windows/winui/api/microsoft.ui.xaml.triggercollection.append).
 
 ## -parameters
 ### -param value

@@ -10,7 +10,7 @@ public delegate void EnteredBackgroundEventHandler(System.Object sender, Windows
 ## -description
 Represents the method that will handle the [Application.EnteredBackground](application_enteredbackground.md) event.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.EnteredBackgroundEventHandler](/windows/winui/api/microsoft.ui.xaml.enteredbackgroundeventhandler).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.EnteredBackgroundEventHandler](/windows/winui/api/microsoft.ui.xaml.enteredbackgroundeventhandler).
 
 ## -parameters
 ### -param sender

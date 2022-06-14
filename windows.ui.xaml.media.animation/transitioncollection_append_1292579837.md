@@ -12,7 +12,7 @@ public void Append(Windows.UI.Xaml.Media.Animation.Transition value)
 ## -description
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.TransitionCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.animation.transitioncollection.append).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.TransitionCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.animation.transitioncollection.append).
 
 ## -parameters
 ### -param value

@@ -12,7 +12,7 @@ public Windows.Foundation.TimeSpan OldTime { get; }
 ## -description
 Gets the old time value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePickedEventArgs.OldTime](/windows/winui/api/microsoft.ui.xaml.controls.timepickedeventargs.oldtime).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TimePickedEventArgs.OldTime](/windows/winui/api/microsoft.ui.xaml.controls.timepickedeventargs.oldtime).
 
 ## -property-value
 The old time value.

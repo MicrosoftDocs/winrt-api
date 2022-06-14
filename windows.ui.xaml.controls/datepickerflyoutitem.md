@@ -12,7 +12,7 @@ public class DatePickerFlyoutItem : Windows.UI.Xaml.DependencyObject, Windows.UI
 ## -description
 Represents the container for an item in the [DatePickerFlyout](datepickerflyout.md) control.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem).
 
 ## -remarks
 

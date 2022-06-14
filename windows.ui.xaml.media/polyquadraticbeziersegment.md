@@ -12,7 +12,7 @@ public class PolyQuadraticBezierSegment : Windows.UI.Xaml.Media.PathSegment, Win
 ## -description
 Represents a set of quadratic Bezier segments.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.PolyQuadraticBezierSegment](/windows/winui/api/microsoft.ui.xaml.media.polyquadraticbeziersegment).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PolyQuadraticBezierSegment](/windows/winui/api/microsoft.ui.xaml.media.polyquadraticbeziersegment).
 
 ## -xaml-syntax
 ```xaml

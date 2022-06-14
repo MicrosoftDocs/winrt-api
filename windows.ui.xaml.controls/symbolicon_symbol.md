@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Symbol Symbol { get;  set; }
 ## -description
 Gets or sets the Segoe MDL2 Assets glyph used as the icon content.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SymbolIcon.Symbol](/windows/winui/api/microsoft.ui.xaml.controls.symbolicon.symbol).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SymbolIcon.Symbol](/windows/winui/api/microsoft.ui.xaml.controls.symbolicon.symbol).
 
 ## -xaml-syntax
 ```xaml

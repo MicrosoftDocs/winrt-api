@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty GroupHeaderPlacementProperty { get; }
 ## -description
 Identifies the [GroupHeaderPlacement](itemsstackpanel_groupheaderplacement.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsStackPanel.GroupHeaderPlacementProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemsstackpanel.groupheaderplacementproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsStackPanel.GroupHeaderPlacementProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemsstackpanel.groupheaderplacementproperty).
 
 ## -property-value
 The identifier for the [GroupHeaderPlacement](itemsstackpanel_groupheaderplacement.md) dependency property.

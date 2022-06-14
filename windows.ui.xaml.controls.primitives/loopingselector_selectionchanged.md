@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.Controls.SelectionChangedEventHandler SelectionChan
 ## -description
 Occurs when the currently selected item changes.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.SelectionChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.selectionchanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.SelectionChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.selectionchanged).
 
 ## -remarks
 

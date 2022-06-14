@@ -12,7 +12,7 @@ public void SetAccessibilityView(Windows.UI.Xaml.DependencyObject element, Windo
 ## -description
 Sets the value of the [AutomationProperties.AccessibilityView](automationproperties_accessibilityview.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetAccessibilityView](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setaccessibilityview).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetAccessibilityView](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setaccessibilityview).
 
 ## -parameters
 ### -param element

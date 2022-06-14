@@ -12,7 +12,7 @@ public class TextPointer : Windows.UI.Xaml.Documents.ITextPointer
 ## -description
 Represents a position within a text element.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.TextPointer](/windows/winui/api/microsoft.ui.xaml.documents.textpointer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextPointer](/windows/winui/api/microsoft.ui.xaml.documents.textpointer).
 
 ## -remarks
 

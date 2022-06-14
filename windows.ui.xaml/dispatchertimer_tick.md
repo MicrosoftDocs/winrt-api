@@ -12,7 +12,7 @@ public event Windows.Foundation.EventHandler Tick<object>
 ## -description
 Occurs when the timer interval has elapsed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.DispatcherTimer.Tick](/windows/winui/api/microsoft.ui.xaml.dispatchertimer.tick).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DispatcherTimer.Tick](/windows/winui/api/microsoft.ui.xaml.dispatchertimer.tick).
 
 ## -remarks
 

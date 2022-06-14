@@ -12,7 +12,7 @@ public bool GetStandardLigatures(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [StandardLigatures](typography_standardligatures.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetStandardLigatures](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstandardligatures).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.GetStandardLigatures](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstandardligatures).
 
 ## -parameters
 ### -param element

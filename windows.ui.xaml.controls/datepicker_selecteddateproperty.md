@@ -14,7 +14,7 @@ public DependencyProperty SelectedDateProperty { get; }
 
 Identifies the [SelectedDate](datepicker_selecteddate.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.SelectedDateProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.selecteddateproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePicker.SelectedDateProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.selecteddateproperty).
 
 ## -property-value
 

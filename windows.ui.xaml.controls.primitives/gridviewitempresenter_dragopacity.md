@@ -12,7 +12,7 @@ public double DragOpacity { get;  set; }
 ## -description
 Gets or sets the opacity of an item that's being dragged.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.DragOpacity](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.dragopacity).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.DragOpacity](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.dragopacity).
 
 ## -xaml-syntax
 ```xaml

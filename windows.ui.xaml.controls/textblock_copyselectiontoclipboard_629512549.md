@@ -14,7 +14,7 @@ public void TextBlock.CopySelectionToClipboard()
 
 Copies the selected content to the Windows clipboard.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBlock.CopySelectionToClipboard](/windows/winui/api/microsoft.ui.xaml.controls.textblock.copyselectiontoclipboard).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBlock.CopySelectionToClipboard](/windows/winui/api/microsoft.ui.xaml.controls.textblock.copyselectiontoclipboard).
 
 ## -remarks
 

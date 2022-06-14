@@ -14,7 +14,7 @@ public DependencyProperty ShadowProperty { get; }
 
 Identifies the [Shadow](uielement_shadow.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ShadowProperty](/windows/winui/api/microsoft.ui.xaml.uielement.shadowproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ShadowProperty](/windows/winui/api/microsoft.ui.xaml.uielement.shadowproperty).
 
 ## -property-value
 

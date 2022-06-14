@@ -12,7 +12,7 @@ public object Navigate(Windows.UI.Xaml.Automation.Peers.AutomationNavigationDire
 ## -description
 Gets the element in the specified direction within the UI automation tree.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.Navigate](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.navigate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.Navigate](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.navigate).
 
 ## -parameters
 ### -param direction

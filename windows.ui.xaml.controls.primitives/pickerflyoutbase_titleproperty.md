@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TitleProperty { get; }
 ## -description
 Gets the identifier for the attached title property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.PickerFlyoutBase.TitleProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pickerflyoutbase.titleproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.PickerFlyoutBase.TitleProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pickerflyoutbase.titleproperty).
 
 ## -property-value
 The identifier for the attached title property.

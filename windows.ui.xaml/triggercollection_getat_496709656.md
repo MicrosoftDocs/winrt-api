@@ -12,7 +12,7 @@ public Windows.UI.Xaml.TriggerBase GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.TriggerCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.triggercollection.getat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.TriggerCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.triggercollection.getat).
 
 ## -parameters
 ### -param index

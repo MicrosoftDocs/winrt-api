@@ -12,7 +12,7 @@ public void SetFocus()
 ## -description
 Sets the keyboard focus on the element that is associated with this automation peer.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.SetFocus](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.setfocus).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.SetFocus](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.setfocus).
 
 ## -remarks
 
