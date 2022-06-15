@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Foundation.DateTime> A
 ## -description
 Gets a collection that contains the items that were selected.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarViewSelectedDatesChangedEventArgs.AddedDates](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewselecteddateschangedeventargs.addeddates).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarViewSelectedDatesChangedEventArgs.AddedDates](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewselecteddateschangedeventargs.addeddates) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The items that were selected since the last time the [SelectedDatesChanged](calendarview_selecteddateschanged.md) event occurred.

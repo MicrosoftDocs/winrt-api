@@ -12,7 +12,7 @@ public class ItemsChangedEventArgs : Windows.UI.Xaml.Controls.Primitives.IItemsC
 ## -description
 Provides data for the [ItemsChanged](../windows.ui.xaml.controls/itemcontainergenerator_itemschanged.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.primitives.itemschangedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.primitives.itemschangedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

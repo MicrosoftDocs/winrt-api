@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CanReorderItemsProperty { get; }
 ## -description
 Identifies the [CanReorderItems](listviewbase_canreorderitems.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.CanReorderItemsProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.canreorderitemsproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.CanReorderItemsProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.canreorderitemsproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [CanReorderItems](listviewbase_canreorderitems.md) dependency property.

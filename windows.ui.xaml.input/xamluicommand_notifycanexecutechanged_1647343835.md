@@ -14,7 +14,7 @@ public void XamlUICommand.NotifyCanExecuteChanged()
 
 Notifies the system that the command state has changed.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.XamlUICommand.NotifyCanExecuteChanged](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.notifycanexecutechanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.XamlUICommand.NotifyCanExecuteChanged](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.notifycanexecutechanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

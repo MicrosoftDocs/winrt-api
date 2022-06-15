@@ -12,7 +12,7 @@ public bool Cancel { get;  set; }
 ## -description
 Specifies whether a pending navigation should be canceled.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Navigation.NavigatingCancelEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.navigation.navigatingcanceleventargs.cancel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Navigation.NavigatingCancelEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.navigation.navigatingcanceleventargs.cancel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** to cancel the pending cancelable navigation; **false** to continue with navigation.

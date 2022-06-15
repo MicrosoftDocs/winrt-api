@@ -12,7 +12,7 @@ public void ScrollIntoView()
 ## -description
 Scrolls the content area of the parent container in order to display the item within the visible region (viewport) of the container.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.HubSectionAutomationPeer.ScrollIntoView](/windows/winui/api/microsoft.ui.xaml.automation.peers.hubsectionautomationpeer.scrollintoview).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.HubSectionAutomationPeer.ScrollIntoView](/windows/winui/api/microsoft.ui.xaml.automation.peers.hubsectionautomationpeer.scrollintoview) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

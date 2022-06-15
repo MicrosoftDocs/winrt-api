@@ -12,7 +12,7 @@ public void ValuesChanged(Windows.UI.Composition.Interactions.InteractionTracker
 ## -description
 Callback that is triggered when the [InteractionTracker](interactiontracker.md)'s output values have changed.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.ValuesChanged](/windows/winui/api/microsoft.ui.composition.interactions.iinteractiontrackerowner.valueschanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.ValuesChanged](/windows/winui/api/microsoft.ui.composition.interactions.iinteractiontrackerowner.valueschanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param sender

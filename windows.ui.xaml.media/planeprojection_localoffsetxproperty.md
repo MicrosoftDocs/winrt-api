@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty LocalOffsetXProperty { get; }
 ## -description
 Identifies the [LocalOffsetX](planeprojection_localoffsetx.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.LocalOffsetXProperty](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.localoffsetxproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PlaneProjection.LocalOffsetXProperty](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.localoffsetxproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [LocalOffsetX](planeprojection_localoffsetx.md)  dependency property.

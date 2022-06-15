@@ -12,7 +12,7 @@ public interface ITextRangeProvider :
 ## -description
 Exposes methods and properties to support Microsoft UI Automation client access to a span of continuous text in a text container that implements [ITextProvider](itextprovider.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 For more info on this pattern, see [Text and TextRange Control Patterns](/windows/desktop/WinAuto/uiauto-implementingtextandtextrange).

@@ -12,7 +12,7 @@ public class TileBrush : Windows.UI.Xaml.Media.Brush, Windows.UI.Xaml.Media.ITil
 ## -description
 Base class that describes a way to paint a region. Parent of [ImageBrush](imagebrush.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.TileBrush](/windows/winui/api/microsoft.ui.xaml.media.tilebrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.TileBrush](/windows/winui/api/microsoft.ui.xaml.media.tilebrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 ### **TileBrush** derived classes

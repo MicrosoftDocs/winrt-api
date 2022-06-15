@@ -12,7 +12,7 @@ public void CompositionDrawingSurface.Scroll(PointInt32 offset, RectInt32 scroll
 ## -description
 Scrolls the drawing surface.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionDrawingSurface.Scroll](/windows/winui/api/microsoft.ui.composition.compositiondrawingsurface.scroll).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionDrawingSurface.Scroll](/windows/winui/api/microsoft.ui.composition.compositiondrawingsurface.scroll) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

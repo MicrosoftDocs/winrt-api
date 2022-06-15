@@ -12,7 +12,7 @@ public void SetPropertyFromInt64(System.Object dependencyObject, Windows.UI.Xaml
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Int64](/dotnet/api/system.int64?view=dotnet-uwp-10.0&preserve-view=true) value.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromInt64](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromint64).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromInt64](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromint64) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param dependencyObject

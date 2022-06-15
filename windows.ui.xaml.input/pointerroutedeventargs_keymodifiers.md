@@ -12,7 +12,7 @@ public Windows.System.VirtualKeyModifiers KeyModifiers { get; }
 ## -description
 Gets a value that indicates which key modifiers were active at the time that the pointer event was initiated.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.PointerRoutedEventArgs.KeyModifiers](/windows/winui/api/microsoft.ui.xaml.input.pointerroutedeventargs.keymodifiers).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.PointerRoutedEventArgs.KeyModifiers](/windows/winui/api/microsoft.ui.xaml.input.pointerroutedeventargs.keymodifiers) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A value or values of the enumeration.

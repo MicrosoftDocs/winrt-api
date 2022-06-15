@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.WindowInteractionState InteractionState { get;
 ## -description
 Gets the interaction state of the window.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.InteractionState](/windows/winui/api/microsoft.ui.xaml.automation.provider.iwindowprovider.interactionstate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.InteractionState](/windows/winui/api/microsoft.ui.xaml.automation.provider.iwindowprovider.interactionstate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The interaction state of the control, as a value of the enumeration.

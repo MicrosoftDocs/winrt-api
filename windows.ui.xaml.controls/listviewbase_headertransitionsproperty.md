@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty HeaderTransitionsProperty { get; }
 ## -description
 Identifies the [HeaderTransitions](listviewbase_headertransitions.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.HeaderTransitionsProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.headertransitionsproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.HeaderTransitionsProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.headertransitionsproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [HeaderTransitions](listviewbase_headertransitions.md) dependency property.

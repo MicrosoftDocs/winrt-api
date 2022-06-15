@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.GridUnitType : int
 ## -description
 Describes the kind of value that a [GridLength](gridlength.md) object is holding.
 
-Equivalent WinUI enum: [GridUnitType](/windows/winui/api/microsoft.ui.xaml.gridunittype).
+Equivalent **WinUI 2 API for UWP**: [GridUnitType](/windows/winui/api/microsoft.ui.xaml.gridunittype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

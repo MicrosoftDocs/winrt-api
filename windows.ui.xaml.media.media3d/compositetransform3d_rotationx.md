@@ -12,7 +12,7 @@ public double RotationX { get;  set; }
 ## -description
 Gets or sets the angle in degrees of counterclockwise rotation around the x-axis.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Media3D.CompositeTransform3D.RotationX](/windows/winui/api/microsoft.ui.xaml.media.media3d.compositetransform3d.rotationx).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Media3D.CompositeTransform3D.RotationX](/windows/winui/api/microsoft.ui.xaml.media.media3d.compositetransform3d.rotationx) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The angle of rotation around the x-axis, given in degrees in a counterclockwise direction. The default value is 0 degrees.

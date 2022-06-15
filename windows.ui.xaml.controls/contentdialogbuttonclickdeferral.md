@@ -12,7 +12,7 @@ public class ContentDialogButtonClickDeferral : Windows.UI.Xaml.Controls.IConten
 ## -description
 Represents a deferral that can be used by an app to respond asynchronously to a button click event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ContentDialogButtonClickDeferral](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogbuttonclickdeferral).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentDialogButtonClickDeferral](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogbuttonclickdeferral) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 You can get an instance of this class by calling [ContentDialogButtonClickEventArgs.GetDeferral](contentdialogbuttonclickeventargs_getdeferral_254836512.md).

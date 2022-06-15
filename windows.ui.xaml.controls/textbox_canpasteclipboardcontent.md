@@ -14,7 +14,7 @@ public bool CanPasteClipboardContent { get; }
 
 Gets a value that indicates whether clipboard content can be pasted into the control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.CanPasteClipboardContent](/windows/winui/api/microsoft.ui.xaml.controls.textbox.canpasteclipboardcontent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.CanPasteClipboardContent](/windows/winui/api/microsoft.ui.xaml.controls.textbox.canpasteclipboardcontent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

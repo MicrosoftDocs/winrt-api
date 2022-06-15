@@ -12,7 +12,7 @@ public void InsertExpressionKeyFrame(System.Single normalizedProgressKey, System
 ## -description
 Inserts an expression key frame.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.KeyFrameAnimation.InsertExpressionKeyFrame](/windows/winui/api/microsoft.ui.composition.keyframeanimation.insertexpressionkeyframe).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.KeyFrameAnimation.InsertExpressionKeyFrame](/windows/winui/api/microsoft.ui.composition.keyframeanimation.insertexpressionkeyframe) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param normalizedProgressKey

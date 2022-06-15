@@ -12,7 +12,7 @@ public class ListViewItemDataAutomationPeer : Windows.UI.Xaml.Automation.Peers.S
 ## -description
 Exposes [ListView](../windows.ui.xaml.controls/listview.md) items to Microsoft UI Automation, using a data representation of the item so that the peer supports scrolling to that item with data awareness.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ListViewItemDataAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listviewitemdataautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ListViewItemDataAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listviewitemdataautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
  ListViewItemDataAutomationPeer is generated from [ListViewAutomationPeer](listviewautomationpeer.md) logic, not an associated control class.

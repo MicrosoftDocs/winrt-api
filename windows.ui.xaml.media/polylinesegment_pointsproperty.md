@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PointsProperty { get; }
 ## -description
 Identifies the [Points](polylinesegment_points.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PolyLineSegment.PointsProperty](/windows/winui/api/microsoft.ui.xaml.media.polylinesegment.pointsproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PolyLineSegment.PointsProperty](/windows/winui/api/microsoft.ui.xaml.media.polylinesegment.pointsproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Points](polylinesegment_points.md)  dependency property.

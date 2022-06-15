@@ -12,7 +12,7 @@ public Windows.Foundation.Numerics.Vector3 Offset { get;  set; }
 ## -description
 Offset of the shadow relative to its SpriteVisual. Animatable.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.DropShadow.Offset](/windows/winui/api/microsoft.ui.composition.dropshadow.offset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.DropShadow.Offset](/windows/winui/api/microsoft.ui.composition.dropshadow.offset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 Offset of the shadow relative to its SpriteVisual.

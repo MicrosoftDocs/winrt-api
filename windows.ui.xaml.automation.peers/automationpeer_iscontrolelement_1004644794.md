@@ -12,7 +12,7 @@ public bool IsControlElement()
 ## -description
 Gets a value that indicates whether the element is understood by the user as interactive or as contributing to the logical structure of the control in the GUI.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsControlElement](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.iscontrolelement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsControlElement](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.iscontrolelement) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 **true** if the element is a control; otherwise, **false**.

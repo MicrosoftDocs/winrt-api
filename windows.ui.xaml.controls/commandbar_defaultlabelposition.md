@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.CommandBarDefaultLabelPosition DefaultLabelPosit
 ## -description
 Gets or sets a value that indicates the placement and visibility of the labels on the command bar's buttons.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CommandBar.DefaultLabelPosition](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.defaultlabelposition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CommandBar.DefaultLabelPosition](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.defaultlabelposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

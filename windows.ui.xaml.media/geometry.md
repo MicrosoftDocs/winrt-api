@@ -12,7 +12,7 @@ public class Geometry : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Media.
 ## -description
 Provides a base class for objects that define geometric shapes. Geometry objects can be used for clipping regions and as geometry definitions for rendering two-dimensional graphical data as a [Path](../windows.ui.xaml.shapes/path.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Geometry](/windows/winui/api/microsoft.ui.xaml.media.geometry).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Geometry](/windows/winui/api/microsoft.ui.xaml.media.geometry) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 For properties that take a Geometry, you need to specify a nonabstract derived type of Geometry, as an object element for XAML, or as a defined instance for code. For details, see reference pages for [EllipseGeometry](ellipsegeometry.md), [GeometryGroup](geometrygroup.md), [LineGeometry](linegeometry.md), [PathGeometry](pathgeometry.md), or [RectangleGeometry](rectanglegeometry.md).

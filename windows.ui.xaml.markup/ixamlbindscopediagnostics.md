@@ -14,7 +14,7 @@ public interface IXamlBindScopeDiagnostics
 
 Provides methods that enable a debugger to disable generated binding code.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Markup.IXamlBindScopeDiagnostics](/windows/winui/api/microsoft.ui.xaml.markup.ixamlbindscopediagnostics).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.IXamlBindScopeDiagnostics](/windows/winui/api/microsoft.ui.xaml.markup.ixamlbindscopediagnostics) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

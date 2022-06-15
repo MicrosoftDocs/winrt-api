@@ -12,7 +12,7 @@ public bool CanWrite { get; }
 ## -description
 Gets a value that determines whether the custom property supports write access.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.ICustomProperty.CanWrite](/windows/winui/api/microsoft.ui.xaml.data.icustomproperty.canwrite).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICustomProperty.CanWrite](/windows/winui/api/microsoft.ui.xaml.data.icustomproperty.canwrite) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if the value can be written to through a data source relationship in a two-way binding. **false** if the property cannot be written to.

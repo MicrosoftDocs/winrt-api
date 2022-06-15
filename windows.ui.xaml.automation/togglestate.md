@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.ToggleState : int
 ## -description
 Contains values that specify the [ToggleState](../windows.ui.xaml.automation.peers/togglebuttonautomationpeer_togglestate.md) of a UI Automation element.
 
-Equivalent WinUI enum: [ToggleState](/windows/winui/api/microsoft.ui.xaml.automation.togglestate).
+Equivalent **WinUI 2 API for UWP**: [ToggleState](/windows/winui/api/microsoft.ui.xaml.automation.togglestate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Off:0

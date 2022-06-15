@@ -12,7 +12,7 @@ public int StepCount { get;  set; }
 ## -description
 The number of steps between the starting value and the end value.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.StepEasingFunction.StepCount](/windows/winui/api/microsoft.ui.composition.stepeasingfunction.stepcount).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.StepEasingFunction.StepCount](/windows/winui/api/microsoft.ui.composition.stepeasingfunction.stepcount) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The number of steps between the starting value and the end value.

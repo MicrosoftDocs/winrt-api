@@ -13,7 +13,7 @@ public CompositionStrokeDashArray StrokeDashArray { get; }
 
 Gets the collection of values that indicates the pattern of dashes and gaps used to outline shapes.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSpriteShape.StrokeDashArray](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.strokedasharray).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionSpriteShape.StrokeDashArray](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.strokedasharray) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

@@ -13,7 +13,7 @@ public Windows.UI.Color Azure { get; }
 
 Gets the system-defined color that has an ARGB value of #FFF0FFFF.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Azure](/windows/winui/api/microsoft.ui.colors.azure).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Azure](/windows/winui/api/microsoft.ui.colors.azure) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

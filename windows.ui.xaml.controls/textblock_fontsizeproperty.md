@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FontSizeProperty { get; }
 ## -description
 Identifies the [FontSize](textblock_fontsize.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.FontSizeProperty](/windows/winui/api/microsoft.ui.xaml.controls.textblock.fontsizeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBlock.FontSizeProperty](/windows/winui/api/microsoft.ui.xaml.controls.textblock.fontsizeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [FontSize](textblock_fontsize.md) dependency property.

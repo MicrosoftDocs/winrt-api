@@ -12,7 +12,7 @@ public bool IsEqual(Windows.UI.Text.ITextParagraphFormat format)
 ## -description
 Determines whether this paragraph format object has the same properties as the specified paragraph format object.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextParagraphFormat.IsEqual](/windows/winui/api/microsoft.ui.text.itextparagraphformat.isequal).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.IsEqual](/windows/winui/api/microsoft.ui.text.itextparagraphformat.isequal) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param format

@@ -12,7 +12,7 @@ public int MaxLength { get;  set; }
 ## -description
 Gets or sets the value that specifies the maximum number of characters allowed for user input.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.MaxLength](/windows/winui/api/microsoft.ui.xaml.controls.textbox.maxlength).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.MaxLength](/windows/winui/api/microsoft.ui.xaml.controls.textbox.maxlength) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

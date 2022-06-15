@@ -13,7 +13,7 @@ public float TopInset { get;  set; }
 
 Gets or sets the offset from the top of the visual. The portion of the visual above the TopInset will be clipped. Animatable.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.InsetClip.TopInset](/windows/winui/api/microsoft.ui.composition.insetclip.topinset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.InsetClip.TopInset](/windows/winui/api/microsoft.ui.composition.insetclip.topinset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

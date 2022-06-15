@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TextReadingOrderProperty { get; }
 ## -description
 Identifies the [TextReadingOrder](passwordbox_textreadingorder.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.TextReadingOrderProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.textreadingorderproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.PasswordBox.TextReadingOrderProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.textreadingorderproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [TextReadingOrder](passwordbox_textreadingorder.md) dependency property.

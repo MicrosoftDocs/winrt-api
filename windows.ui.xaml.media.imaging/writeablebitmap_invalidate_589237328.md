@@ -12,7 +12,7 @@ public void Invalidate()
 ## -description
 Requests a draw or redraw of the entire bitmap.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.WriteableBitmap.Invalidate](/windows/winui/api/microsoft.ui.xaml.media.imaging.writeablebitmap.invalidate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.WriteableBitmap.Invalidate](/windows/winui/api/microsoft.ui.xaml.media.imaging.writeablebitmap.invalidate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

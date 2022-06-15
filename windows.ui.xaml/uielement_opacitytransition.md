@@ -13,7 +13,7 @@ public ScalarTransition OpacityTransition { get;  set; }
 ## -description
 Gets or sets the ScalarTransition that animates changes to the Opacity property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.OpacityTransition](/windows/winui/api/microsoft.ui.xaml.uielement.opacitytransition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.OpacityTransition](/windows/winui/api/microsoft.ui.xaml.uielement.opacitytransition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

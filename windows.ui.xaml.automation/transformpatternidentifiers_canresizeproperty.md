@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty CanResizeProperty { get; }
 ## -description
 Identifies the [CanResize](../windows.ui.xaml.automation.provider/itransformprovider_canresize.md) automation property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.TransformPatternIdentifiers.CanResizeProperty](/windows/winui/api/microsoft.ui.xaml.automation.transformpatternidentifiers.canresizeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.TransformPatternIdentifiers.CanResizeProperty](/windows/winui/api/microsoft.ui.xaml.automation.transformpatternidentifiers.canresizeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The automation property identifier.

@@ -12,7 +12,7 @@ public class GradientStopCollection : Windows.Foundation.Collections.IIterable<W
 ## -description
 Represents a collection of [GradientStop](gradientstop.md) objects that can be individually accessed by index.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.GradientStopCollection](/windows/winui/api/microsoft.ui.xaml.media.gradientstopcollection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.GradientStopCollection](/windows/winui/api/microsoft.ui.xaml.media.gradientstopcollection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

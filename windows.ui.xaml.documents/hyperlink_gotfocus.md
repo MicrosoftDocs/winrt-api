@@ -12,7 +12,7 @@ public event RoutedEventHandler GotFocus
 ## -description
 Occurs when a **Hyperlink** receives focus.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Documents.Hyperlink.GotFocus](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.gotfocus).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Hyperlink.GotFocus](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.gotfocus) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

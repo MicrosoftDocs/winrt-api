@@ -12,7 +12,7 @@ public Windows.UI.Composition.Vector3KeyFrameAnimation CreateVector3KeyFrameAnim
 ## -description
 Creates an instance of [Vector3KeyFrameAnimation](vector3keyframeanimation.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateVector3KeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createvector3keyframeanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateVector3KeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createvector3keyframeanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 Returns the created [Vector3KeyFrameAnimation](vector3keyframeanimation.md) object.

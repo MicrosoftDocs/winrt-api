@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.Controls.ItemClickEventHandler ItemClick
 ## -description
 Occurs when an item in the list view receives an interaction, and the [IsItemClickEnabled](listviewbase_isitemclickenabled.md) property is **true**.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ListViewBase.ItemClick](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.itemclick).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.ItemClick](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.itemclick) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

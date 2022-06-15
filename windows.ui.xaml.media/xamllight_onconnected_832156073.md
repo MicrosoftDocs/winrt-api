@@ -18,7 +18,7 @@ This provides an opportunity to create resources such as the CompositionLight on
 
 [OnDisconnected](xamllight_ondisconnected_213178242.md) will be called when the XamlLight is no longer being used to light any UIElements or Brushes.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.XamlLight.OnConnected](/windows/winui/api/microsoft.ui.xaml.media.xamllight.onconnected).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.XamlLight.OnConnected](/windows/winui/api/microsoft.ui.xaml.media.xamllight.onconnected) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

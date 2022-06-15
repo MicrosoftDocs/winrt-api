@@ -12,7 +12,7 @@ virtual protected void OnItemsChanged(System.Object e)
 ## -description
 Invoked when the value of the [Items](itemscontrol_items.md) property changes.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemsControl.OnItemsChanged](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.onitemschanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.OnItemsChanged](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.onitemschanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param e

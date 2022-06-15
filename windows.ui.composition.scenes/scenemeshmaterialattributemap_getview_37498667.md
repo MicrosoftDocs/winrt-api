@@ -14,7 +14,7 @@ public IMapView<SceneAttributeSemantic> SceneMeshMaterialAttributeMap.GetView()
 
 Returns an immutable view of the map.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneMeshMaterialAttributeMap.GetView](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshmaterialattributemap.getview).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneMeshMaterialAttributeMap.GetView](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshmaterialattributemap.getview) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 

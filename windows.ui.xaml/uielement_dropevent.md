@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent DropEvent { get; }
 ## -description
 Gets the identifier for the [Drop](uielement_drop.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.DropEvent](/windows/winui/api/microsoft.ui.xaml.uielement.dropevent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.DropEvent](/windows/winui/api/microsoft.ui.xaml.uielement.dropevent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Drop](uielement_drop.md) routed event.

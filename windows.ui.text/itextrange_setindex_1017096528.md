@@ -12,7 +12,7 @@ public void SetIndex(Windows.UI.Text.TextRangeUnit unit, System.Int32 index, Sys
 ## -description
 Moves the text range to the specified unit of the story.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.SetIndex](/windows/winui/api/microsoft.ui.text.itextrange.setindex).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.SetIndex](/windows/winui/api/microsoft.ui.text.itextrange.setindex) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param unit

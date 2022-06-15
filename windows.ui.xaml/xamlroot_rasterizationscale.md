@@ -14,7 +14,7 @@ public double RasterizationScale { get; }
 
 Gets a value that represents the number of raw (physical) pixels for each view pixel.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.XamlRoot.RasterizationScale](/windows/winui/api/microsoft.ui.xaml.xamlroot.rasterizationscale).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.XamlRoot.RasterizationScale](/windows/winui/api/microsoft.ui.xaml.xamlroot.rasterizationscale) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

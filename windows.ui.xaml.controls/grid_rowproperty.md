@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty RowProperty { get; }
 ## -description
 Identifies the [Grid.Row](grid_row.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.RowProperty](/windows/winui/api/microsoft.ui.xaml.controls.grid.rowproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Grid.RowProperty](/windows/winui/api/microsoft.ui.xaml.controls.grid.rowproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Grid.Row](grid_row.md) XAML attached property.

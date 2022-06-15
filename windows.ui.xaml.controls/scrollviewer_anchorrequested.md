@@ -14,7 +14,7 @@ public event TypedEventHandler AnchorRequested<ScrollViewer, AnchorRequestedEven
 
 Occurs when an anchor is requested at the beginning of the Arrange pass. Handle this event to override the ScrollViewer's default logic to select an anchor element as part of *scroll anchoring*.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ScrollViewer.AnchorRequested](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.anchorrequested).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.AnchorRequested](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.anchorrequested) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

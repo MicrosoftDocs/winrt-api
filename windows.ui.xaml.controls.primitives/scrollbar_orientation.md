@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Orientation Orientation { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [ScrollBar](scrollbar.md) is displayed horizontally or vertically.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ScrollBar.Orientation](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrollbar.orientation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ScrollBar.Orientation](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrollbar.orientation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

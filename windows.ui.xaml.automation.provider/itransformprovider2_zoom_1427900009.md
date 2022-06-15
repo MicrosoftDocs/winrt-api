@@ -12,7 +12,7 @@ public void Zoom(System.Double zoom)
 ## -description
 Zooms the viewport of the control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.Zoom](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider2.zoom).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.Zoom](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider2.zoom) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param zoom

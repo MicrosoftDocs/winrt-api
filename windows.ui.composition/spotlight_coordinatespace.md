@@ -16,7 +16,7 @@ The Visual used to determine the light's direction and offset. The light's offse
     **SpotLight.CoordinateSpace**
    is not set, the SpotLight will not render.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.SpotLight.CoordinateSpace](/windows/winui/api/microsoft.ui.composition.spotlight.coordinatespace).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpotLight.CoordinateSpace](/windows/winui/api/microsoft.ui.composition.spotlight.coordinatespace) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The visual the light's offset is relative to.

@@ -12,7 +12,7 @@ public class TimePickerFlyoutPresenterAutomationPeer : Windows.UI.Xaml.Automatio
 ## -description
 Exposes [TimePickerFlyoutPresenter](../windows.ui.xaml.controls/timepickerflyoutpresenter.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.TimePickerFlyoutPresenterAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.timepickerflyoutpresenterautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.TimePickerFlyoutPresenterAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.timepickerflyoutpresenterautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public double ScaleY { get;  set; }
 ## -description
 Gets or sets the y-axis scale factor. You can use this property to stretch or shrink an object vertically.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.CompositeTransform.ScaleY](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.scaley).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.CompositeTransform.ScaleY](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.scaley) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

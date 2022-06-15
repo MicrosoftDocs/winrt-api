@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.ExpandCollapseState : int
 ## -description
 Contains values that specify the [ExpandCollapseState](../windows.ui.xaml.automation.provider/iexpandcollapseprovider_expandcollapsestate.md) automation property value of a UI Automation element.
 
-Equivalent WinUI enum: [ExpandCollapseState](/windows/winui/api/microsoft.ui.xaml.automation.expandcollapsestate).
+Equivalent **WinUI 2 API for UWP**: [ExpandCollapseState](/windows/winui/api/microsoft.ui.xaml.automation.expandcollapsestate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Collapsed:0

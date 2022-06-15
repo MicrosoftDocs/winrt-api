@@ -12,7 +12,7 @@ public Windows.Foundation.Numerics.Vector3 RotationAxis { get;  set; }
 ## -description
 The axis to rotate the visual around. Animatable.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Visual.RotationAxis](/windows/winui/api/microsoft.ui.composition.visual.rotationaxis).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual.RotationAxis](/windows/winui/api/microsoft.ui.composition.visual.rotationaxis) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The axis to rotate the visual around. For example, a value of Vector3(1,0,0) indicates rotation along the x-axis.

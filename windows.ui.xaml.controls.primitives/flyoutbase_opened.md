@@ -12,7 +12,7 @@ public event Windows.Foundation.EventHandler Opened<object>
 ## -description
 Occurs when the flyout is shown.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Opened](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.opened).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Opened](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.opened) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

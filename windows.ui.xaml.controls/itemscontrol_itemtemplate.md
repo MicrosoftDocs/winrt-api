@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DataTemplate ItemTemplate { get;  set; }
 ## -description
 Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to display each item.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemTemplate](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemtemplate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemTemplate](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemtemplate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

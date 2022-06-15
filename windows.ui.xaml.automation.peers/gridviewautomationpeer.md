@@ -12,7 +12,7 @@ public class GridViewAutomationPeer : Windows.UI.Xaml.Automation.Peers.ListViewB
 ## -description
 Exposes [GridView](../windows.ui.xaml.controls/gridview.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.GridViewAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.gridviewautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.GridViewAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.gridviewautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 The Windows Runtime  [GridView](../windows.ui.xaml.controls/gridview.md) class creates a new GridViewAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from GridViewAutomationPeer if you are deriving a custom class from [GridView](../windows.ui.xaml.controls/gridview.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

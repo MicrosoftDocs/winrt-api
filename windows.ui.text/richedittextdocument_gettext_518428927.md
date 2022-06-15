@@ -12,7 +12,7 @@ public void RichEditTextDocument.GetText(TextGetOptions options, String value)
 ## -description
 Gets the text in the active story (document).
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.GetText](/windows/winui/api/microsoft.ui.text.richedittextdocument.gettext).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextDocument.GetText](/windows/winui/api/microsoft.ui.text.richedittextdocument.gettext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

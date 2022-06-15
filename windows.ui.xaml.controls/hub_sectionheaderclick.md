@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.Controls.HubSectionHeaderClickEventHandler SectionH
 ## -description
 Occurs when a section header is clicked and the section's [IsHeaderInteractive](hubsection_isheaderinteractive.md) property is **true**.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Hub.SectionHeaderClick](/windows/winui/api/microsoft.ui.xaml.controls.hub.sectionheaderclick).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Hub.SectionHeaderClick](/windows/winui/api/microsoft.ui.xaml.controls.hub.sectionheaderclick) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

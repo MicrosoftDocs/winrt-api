@@ -12,7 +12,7 @@ public object Tag { get;  set; }
 ## -description
 Gets or sets an arbitrary object value that can be used to store custom information about this object.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.Tag](/windows/winui/api/microsoft.ui.xaml.frameworkelement.tag).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.Tag](/windows/winui/api/microsoft.ui.xaml.frameworkelement.tag) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public void GetRect(Windows.UI.Text.PointOptions options, Windows.Foundation.Rec
 ## -description
 Retrieves the bounding rectangle that encompasses the text range on the screen.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.GetRect](/windows/winui/api/microsoft.ui.text.itextrange.getrect).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.GetRect](/windows/winui/api/microsoft.ui.text.itextrange.getrect) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param options

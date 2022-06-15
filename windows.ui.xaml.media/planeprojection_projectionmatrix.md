@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Media3D.Matrix3D ProjectionMatrix { get; }
 ## -description
 Gets the projection matrix of the [PlaneProjection](planeprojection.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.ProjectionMatrix](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.projectionmatrix).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PlaneProjection.ProjectionMatrix](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.projectionmatrix) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The projection matrix of the [PlaneProjection](planeprojection.md). The default value is null.

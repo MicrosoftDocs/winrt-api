@@ -13,7 +13,7 @@ public void RichEditTextRange.SetText(TextSetOptions options, String value)
 
 Replaces the text in the text range.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.SetText](/windows/winui/api/microsoft.ui.text.richedittextrange.settext).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.SetText](/windows/winui/api/microsoft.ui.text.richedittextrange.settext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param options

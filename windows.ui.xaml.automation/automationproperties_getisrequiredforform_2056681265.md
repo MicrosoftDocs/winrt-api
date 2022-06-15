@@ -12,7 +12,7 @@ public bool GetIsRequiredForForm(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets the value of the [AutomationProperties.IsRequiredForForm](automationproperties_isrequiredforform.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetIsRequiredForForm](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getisrequiredforform).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetIsRequiredForForm](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getisrequiredforform) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

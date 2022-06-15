@@ -14,7 +14,7 @@ static public event EventHandler LosingFocus<LosingFocusEventArgs>
 
 Occurs before focus moves from the current element with focus to the target element. This event is raised synchronously to ensure focus isn't moved while the event is bubbling.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Input.FocusManager.LosingFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.losingfocus).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FocusManager.LosingFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.losingfocus) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

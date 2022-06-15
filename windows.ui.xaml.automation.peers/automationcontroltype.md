@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationControlType : int
 ## -description
 Specifies the control type that is exposed to the Microsoft UI Automation client. Used by [GetAutomationControlType](automationpeer_getautomationcontroltype_1156384152.md).
 
-Equivalent WinUI enum: [AutomationControlType](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationcontroltype).
+Equivalent **WinUI 2 API for UWP**: [AutomationControlType](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationcontroltype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Button:0

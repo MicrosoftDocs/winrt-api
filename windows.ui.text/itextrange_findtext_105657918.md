@@ -12,7 +12,7 @@ public int FindText(System.String value, System.Int32 scanLength, Windows.UI.Tex
 ## -description
 Searches for a particular text string in a range and, if found, selects the string.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.FindText](/windows/winui/api/microsoft.ui.text.itextrange.findtext).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.FindText](/windows/winui/api/microsoft.ui.text.itextrange.findtext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param value

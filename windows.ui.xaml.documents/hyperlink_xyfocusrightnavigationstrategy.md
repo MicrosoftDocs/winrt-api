@@ -12,7 +12,7 @@ public XYFocusNavigationStrategy XYFocusRightNavigationStrategy { get;  set; }
 ## -description
 Gets or sets a value that specifies the strategy used to determine the target element of a right navigation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusRightNavigationStrategy](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.xyfocusrightnavigationstrategy).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusRightNavigationStrategy](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.xyfocusrightnavigationstrategy) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

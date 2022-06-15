@@ -12,7 +12,7 @@ public Windows.Foundation.HResult Exception { get; }
 ## -description
 Gets the result code for the exception that is associated with the failed navigation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Navigation.NavigationFailedEventArgs.Exception](/windows/winui/api/microsoft.ui.xaml.navigation.navigationfailedeventargs.exception).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Navigation.NavigationFailedEventArgs.Exception](/windows/winui/api/microsoft.ui.xaml.navigation.navigationfailedeventargs.exception) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A system exception result code.

@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionEffectBrush Effect { get;  set; }
 ## -description
 The effect to be applied to the flattened representation of the children of a [LayerVisual](layervisual.md).
 
-Equivalent WinUI property: [Microsoft.UI.Composition.LayerVisual.Effect](/windows/winui/api/microsoft.ui.composition.layervisual.effect).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.LayerVisual.Effect](/windows/winui/api/microsoft.ui.composition.layervisual.effect) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The effect to be applied to the flattened representation of the children of a [LayerVisual](layervisual.md).

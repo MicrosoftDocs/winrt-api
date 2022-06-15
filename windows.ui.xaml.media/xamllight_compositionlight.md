@@ -12,7 +12,7 @@ protected CompositionLight CompositionLight { get;  set; }
 ## -description
 Gets or sets the [CompositionLight](./../windows.ui.composition/compositionlight.md) instance used to apply lighting effects.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.XamlLight.CompositionLight](/windows/winui/api/microsoft.ui.xaml.media.xamllight.compositionlight).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.XamlLight.CompositionLight](/windows/winui/api/microsoft.ui.xaml.media.xamllight.compositionlight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 An instance of a [CompositionLight](./../windows.ui.composition/compositionlight.md) derived class used to apply lighting effects.

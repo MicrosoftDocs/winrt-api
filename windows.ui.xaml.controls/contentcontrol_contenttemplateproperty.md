@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ContentTemplateProperty { get; }
 ## -description
 Identifies the [ContentTemplate](contentcontrol_contenttemplate.md) dependency property
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentControl.ContentTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentcontrol.contenttemplateproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentControl.ContentTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentcontrol.contenttemplateproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ContentTemplate](contentcontrol_contenttemplate.md) dependency property.

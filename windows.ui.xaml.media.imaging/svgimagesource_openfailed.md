@@ -12,7 +12,7 @@ public event TypedEventHandler OpenFailed<SvgImageSource, SvgImageSourceFailedEv
 ## -description
 Occurs when there is an error associated with SVG retrieval or format.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.OpenFailed](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.openfailed).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.OpenFailed](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.openfailed) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

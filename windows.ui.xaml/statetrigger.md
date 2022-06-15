@@ -13,7 +13,7 @@ public class StateTrigger : Windows.UI.Xaml.StateTriggerBase, Windows.UI.Xaml.IS
 
 Represents a trigger that applies visual states conditionally.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.StateTrigger](/windows/winui/api/microsoft.ui.xaml.statetrigger).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.StateTrigger](/windows/winui/api/microsoft.ui.xaml.statetrigger) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

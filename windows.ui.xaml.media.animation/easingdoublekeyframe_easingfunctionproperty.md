@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty EasingFunctionProperty { get; }
 ## -description
 Identifies the [EasingFunction](easingdoublekeyframe_easingfunction.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.EasingDoubleKeyFrame.EasingFunctionProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.easingdoublekeyframe.easingfunctionproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.EasingDoubleKeyFrame.EasingFunctionProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.easingdoublekeyframe.easingfunctionproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [EasingFunction](easingdoublekeyframe_easingfunction.md) dependency property.

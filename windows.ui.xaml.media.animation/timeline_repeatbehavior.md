@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.RepeatBehavior RepeatBehavior { get;  set
 ## -description
 Gets or sets the repeating behavior of this timeline.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.RepeatBehavior](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.repeatbehavior).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Timeline.RepeatBehavior](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.repeatbehavior) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

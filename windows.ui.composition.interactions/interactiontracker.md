@@ -13,7 +13,7 @@ public class InteractionTracker : Windows.UI.Composition.CompositionObject, Wind
 
 Handles the logic of input that can be used as targets in ExpressionAnimations—typically to drive the motion of visuals based on input.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionTracker](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

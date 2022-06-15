@@ -12,7 +12,7 @@ public Windows.UI.Xaml.VerticalAlignment VerticalContentAlignment { get;  set; }
 ## -description
 Gets or sets the vertical alignment of the content.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.VerticalContentAlignment](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.verticalcontentalignment).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentPresenter.VerticalContentAlignment](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.verticalcontentalignment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

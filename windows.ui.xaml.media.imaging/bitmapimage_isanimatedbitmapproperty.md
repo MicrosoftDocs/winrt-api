@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsAnimatedBitmapProperty { get; }
 ## -description
 Identifies the [IsAnimatedBitmap](bitmapimage_isanimatedbitmap.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.IsAnimatedBitmapProperty](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.isanimatedbitmapproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.IsAnimatedBitmapProperty](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.isanimatedbitmapproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [IsAnimatedBitmap](bitmapimage_isanimatedbitmap.md) dependency property.

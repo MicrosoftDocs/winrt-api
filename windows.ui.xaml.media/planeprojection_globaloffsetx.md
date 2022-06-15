@@ -12,7 +12,7 @@ public double GlobalOffsetX { get;  set; }
 ## -description
 Gets or sets the distance that the object is translated along the x-axis of the screen.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.GlobalOffsetX](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.globaloffsetx).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PlaneProjection.GlobalOffsetX](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.globaloffsetx) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

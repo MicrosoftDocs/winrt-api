@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Matrix Identity { get; }
 ## -description
 Gets a static constructed [Matrix](matrix.md) where the values established are representative of an **Identity** transform.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.MatrixHelper.Identity](/windows/winui/api/microsoft.ui.xaml.media.matrixhelper.identity).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.MatrixHelper.Identity](/windows/winui/api/microsoft.ui.xaml.media.matrixhelper.identity) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A static constructed [Matrix](matrix.md) where the values established are representative of an **Identity** transform.

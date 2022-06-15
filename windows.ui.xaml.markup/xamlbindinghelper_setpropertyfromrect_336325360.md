@@ -12,7 +12,7 @@ public void SetPropertyFromRect(System.Object dependencyObject, Windows.UI.Xaml.
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Rect](../windows.foundation/rect.md) value.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromRect](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromrect).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromRect](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromrect) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param dependencyObject

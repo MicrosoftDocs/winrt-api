@@ -12,7 +12,7 @@ public bool GetIsEntranceElement(Windows.UI.Xaml.UIElement element)
 ## -description
 Returns a Boolean value indicating if the specified **UIElement** is the entrance element for the continuum navigation.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.GetIsEntranceElement](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.getisentranceelement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.GetIsEntranceElement](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.getisentranceelement) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ public bool IndexOf(Windows.UI.Xaml.Media.PathSegment value, System.UInt32 index
 ## -description
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathSegmentCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.pathsegmentcollection.indexof).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PathSegmentCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.pathsegmentcollection.indexof) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param value

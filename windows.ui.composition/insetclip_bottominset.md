@@ -13,7 +13,7 @@ public float BottomInset { get;  set; }
 
 Gets or sets the offset from the bottom of the visual. The portion of the visual below the BottomtInset will be clipped. Animatable.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.InsetClip.BottomInset](/windows/winui/api/microsoft.ui.composition.insetclip.bottominset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.InsetClip.BottomInset](/windows/winui/api/microsoft.ui.composition.insetclip.bottominset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

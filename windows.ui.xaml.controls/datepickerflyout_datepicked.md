@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler DatePicked<Windows.UI.Xaml.Con
 ## -description
 Occurs when a date has been picked by the user.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.DatePickerFlyout.DatePicked](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyout.datepicked).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePickerFlyout.DatePicked](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyout.datepicked) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

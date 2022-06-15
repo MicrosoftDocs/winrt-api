@@ -13,7 +13,7 @@ public class DragUI : Windows.UI.Xaml.IDragUI
 
 Provides the visual representation of the data being dragged at the start of a drag-and-drop operation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.DragUI](/windows/winui/api/microsoft.ui.xaml.dragui).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DragUI](/windows/winui/api/microsoft.ui.xaml.dragui) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

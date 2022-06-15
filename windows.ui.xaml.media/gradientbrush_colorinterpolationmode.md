@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.ColorInterpolationMode ColorInterpolationMode { get
 ## -description
 Gets or sets a [ColorInterpolationMode](colorinterpolationmode.md) enumeration value that specifies how the gradient's colors are interpolated.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.GradientBrush.ColorInterpolationMode](/windows/winui/api/microsoft.ui.xaml.media.gradientbrush.colorinterpolationmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.GradientBrush.ColorInterpolationMode](/windows/winui/api/microsoft.ui.xaml.media.gradientbrush.colorinterpolationmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Primitives.GeneratorPosition GeneratorPositionFr
 ## -description
 Gets the generated position of the item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.GeneratorPositionFromIndex](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.generatorpositionfromindex).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.GeneratorPositionFromIndex](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.generatorpositionfromindex) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param itemIndex

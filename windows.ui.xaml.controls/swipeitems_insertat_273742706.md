@@ -13,7 +13,7 @@ public void SwipeItems.InsertAt(UInt32 index, SwipeItem value)
 
 Inserts the specified item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.SwipeItems.InsertAt](/windows/winui/api/microsoft.ui.xaml.controls.swipeitems.insertat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SwipeItems.InsertAt](/windows/winui/api/microsoft.ui.xaml.controls.swipeitems.insertat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

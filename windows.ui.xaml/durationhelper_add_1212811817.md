@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Duration Add(Windows.UI.Xaml.Duration target, Windows.UI.
 
 Adds the **TimeSpan** component of two [Duration](duration.md) values. C# and Microsoft Visual Basic code should use the [Addition](/dotnet/api/windows.ui.xaml.duration.op_addition?view=dotnet-uwp-10.0&preserve-view=true) (+) operator or the [Duration.Add](/dotnet/api/windows.ui.xaml.duration.add?view=dotnet-uwp-10.0&preserve-view=true) method instead.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DurationHelper.Add](/windows/winui/api/microsoft.ui.xaml.durationhelper.add).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DurationHelper.Add](/windows/winui/api/microsoft.ui.xaml.durationhelper.add) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

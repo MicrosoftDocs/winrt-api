@@ -12,7 +12,7 @@ public class LineBreak : Windows.UI.Xaml.Documents.Inline, Windows.UI.Xaml.Docum
 ## -description
 Represents an inline element that causes a new line to begin in content when rendered in a text container.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.LineBreak](/windows/winui/api/microsoft.ui.xaml.documents.linebreak).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.LineBreak](/windows/winui/api/microsoft.ui.xaml.documents.linebreak) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public int Interval { get;  set; }
 ## -description
 Gets or sets the time, in milliseconds, between repetitions of the click action, as soon as repeating starts.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RepeatButton.Interval](/windows/winui/api/microsoft.ui.xaml.controls.primitives.repeatbutton.interval).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.RepeatButton.Interval](/windows/winui/api/microsoft.ui.xaml.controls.primitives.repeatbutton.interval) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

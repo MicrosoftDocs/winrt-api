@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.DockPosition : int
 ## -description
 Contains values that specify the dock position of an object within a docking container. Used by [IDockProvider.DockPosition](../windows.ui.xaml.automation.provider/idockprovider_dockposition.md).
 
-Equivalent WinUI enum: [DockPosition](/windows/winui/api/microsoft.ui.xaml.automation.dockposition).
+Equivalent **WinUI 2 API for UWP**: [DockPosition](/windows/winui/api/microsoft.ui.xaml.automation.dockposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Top:0

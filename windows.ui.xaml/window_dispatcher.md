@@ -12,7 +12,7 @@ public Windows.UI.Core.CoreDispatcher Dispatcher { get; }
 ## -description
 Gets the [CoreDispatcher](../windows.ui.core/coredispatcher.md) object for the [Window](window.md), which is generally the [CoreDispatcher](../windows.ui.core/coredispatcher.md) for the UI thread.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Window.Dispatcher](/windows/winui/api/microsoft.ui.xaml.window.dispatcher).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Window.Dispatcher](/windows/winui/api/microsoft.ui.xaml.window.dispatcher) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 An object that references the UI thread for the [Window](window.md).

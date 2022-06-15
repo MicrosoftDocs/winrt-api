@@ -12,7 +12,7 @@ public int GetColumnSpan(Windows.UI.Xaml.FrameworkElement element)
 ## -description
 Gets the value of the [Grid.ColumnSpan](grid_columnspan.md) XAML attached property from the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Grid.GetColumnSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid.getcolumnspan).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Grid.GetColumnSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid.getcolumnspan) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

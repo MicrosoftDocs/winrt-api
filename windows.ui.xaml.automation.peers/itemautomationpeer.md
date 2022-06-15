@@ -12,7 +12,7 @@ public class ItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.AutomationPee
 ## -description
 Exposes a data item in an [Items](../windows.ui.xaml.controls/itemscontrol_items.md) collection to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.itemautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.itemautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
  ItemAutomationPeer is generated from items control logic and [ItemsControlAutomationPeer](itemscontrolautomationpeer.md), not an associated control class.

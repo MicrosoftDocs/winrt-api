@@ -12,7 +12,7 @@ public object CurrentItem { get; }
 ## -description
 Gets the current item in the view.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.ICollectionView.CurrentItem](/windows/winui/api/microsoft.ui.xaml.data.icollectionview.currentitem).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICollectionView.CurrentItem](/windows/winui/api/microsoft.ui.xaml.data.icollectionview.currentitem) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The current item in the view or null if there is no current item.

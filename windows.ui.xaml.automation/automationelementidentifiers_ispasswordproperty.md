@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty IsPasswordProperty { get; }
 ## -description
 Identifies the password determination automation property. The password status indicates whether the item referenced by the automation peer contains a password. The current status is returned by the [IsPassword](../windows.ui.xaml.automation.peers/automationpeer_ispassword_1875117543.md) method.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsPasswordProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.ispasswordproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsPasswordProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.ispasswordproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The automation property identifier.

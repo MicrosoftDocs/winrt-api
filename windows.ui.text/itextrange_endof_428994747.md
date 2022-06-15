@@ -12,7 +12,7 @@ public int EndOf(Windows.UI.Text.TextRangeUnit unit, System.Boolean extend)
 ## -description
 Moves or extends the text range to the end of the nearest specified text unit. The text range is moved or extended forward in the document.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.EndOf](/windows/winui/api/microsoft.ui.text.itextrange.endof).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.EndOf](/windows/winui/api/microsoft.ui.text.itextrange.endof) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param unit

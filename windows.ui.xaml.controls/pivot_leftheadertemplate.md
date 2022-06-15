@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DataTemplate LeftHeaderTemplate { get;  set; }
 ## -description
 Gets or sets the template for the header on the control's left side.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.LeftHeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.pivot.leftheadertemplate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Pivot.LeftHeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.pivot.leftheadertemplate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

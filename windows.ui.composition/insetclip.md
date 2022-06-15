@@ -13,7 +13,7 @@ public class InsetClip : Windows.UI.Composition.CompositionClip, Windows.UI.Comp
 
 Represents a rectangle that clips a portion of a visual. The portion of the visual inside the rectangle is visible; the portion of the visual outside the rectangle is clipped.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.InsetClip](/windows/winui/api/microsoft.ui.composition.insetclip).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.InsetClip](/windows/winui/api/microsoft.ui.composition.insetclip) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

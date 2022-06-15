@@ -12,7 +12,7 @@ public double MaxWidth { get;  set; }
 ## -description
 Gets or sets the maximum width constraint of a [FrameworkElement](frameworkelement.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.MaxWidth](/windows/winui/api/microsoft.ui.xaml.frameworkelement.maxwidth).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.MaxWidth](/windows/winui/api/microsoft.ui.xaml.frameworkelement.maxwidth) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

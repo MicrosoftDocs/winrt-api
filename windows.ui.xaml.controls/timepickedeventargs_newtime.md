@@ -12,7 +12,7 @@ public Windows.Foundation.TimeSpan NewTime { get; }
 ## -description
 Gets the time that was selected by the user.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePickedEventArgs.NewTime](/windows/winui/api/microsoft.ui.xaml.controls.timepickedeventargs.newtime).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TimePickedEventArgs.NewTime](/windows/winui/api/microsoft.ui.xaml.controls.timepickedeventargs.newtime) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The time that was selected by the user.

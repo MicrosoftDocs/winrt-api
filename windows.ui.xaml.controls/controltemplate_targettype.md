@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.TypeName TargetType { get;  set; }
 ## -description
 Gets or sets the type to which the [ControlTemplate](controltemplate.md) is applied.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ControlTemplate.TargetType](/windows/winui/api/microsoft.ui.xaml.controls.controltemplate.targettype).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ControlTemplate.TargetType](/windows/winui/api/microsoft.ui.xaml.controls.controltemplate.targettype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

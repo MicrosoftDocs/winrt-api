@@ -12,7 +12,7 @@ public double CenterX { get;  set; }
 ## -description
 Gets or sets the x-coordinate of the rotation center point for this transformation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.RotateTransform.CenterX](/windows/winui/api/microsoft.ui.xaml.media.rotatetransform.centerx).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.RotateTransform.CenterX](/windows/winui/api/microsoft.ui.xaml.media.rotatetransform.centerx) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

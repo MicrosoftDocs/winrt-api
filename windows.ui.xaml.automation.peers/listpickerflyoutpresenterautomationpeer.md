@@ -12,7 +12,7 @@ public class ListPickerFlyoutPresenterAutomationPeer : Windows.UI.Xaml.Automatio
 ## -description
 Exposes [ListPickerFlyoutPresenter](../windows.ui.xaml.controls/listpickerflyoutpresenter.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ListPickerFlyoutPresenterAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listpickerflyoutpresenterautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ListPickerFlyoutPresenterAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listpickerflyoutpresenterautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

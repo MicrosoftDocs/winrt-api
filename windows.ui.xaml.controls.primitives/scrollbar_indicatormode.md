@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Primitives.ScrollingIndicatorMode IndicatorMode 
 ## -description
 Gets or sets a value that results in different input indicator modes for the [ScrollBar](scrollbar.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ScrollBar.IndicatorMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrollbar.indicatormode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ScrollBar.IndicatorMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrollbar.indicatormode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

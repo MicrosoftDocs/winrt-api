@@ -16,7 +16,7 @@ Returns the most appropriate string value of a resource, specified by resource i
 
 <!--Writer todo: Link to how to create and identify resources.-->
 
-Equivalent WinUI method: [Microsoft.Windows.ApplicationModel.Resources.ResourceLoader.GetString](/windows/windows-app-sdk/api/winrt/microsoft.windows.applicationmodel.resources.resourceloader.getstring).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.Windows.ApplicationModel.Resources.ResourceLoader.GetString](/windows/windows-app-sdk/api/winrt/microsoft.windows.applicationmodel.resources.resourceloader.getstring) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param resource

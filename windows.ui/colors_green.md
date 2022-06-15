@@ -13,7 +13,7 @@ public Windows.UI.Color Green { get; }
 
 Gets the system-defined color that has the ARGB value of #FF008000.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Green](/windows/winui/api/microsoft.ui.colors.green).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Green](/windows/winui/api/microsoft.ui.colors.green) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

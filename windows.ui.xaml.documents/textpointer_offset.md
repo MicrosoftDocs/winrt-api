@@ -12,7 +12,7 @@ public int Offset { get; }
 ## -description
 Gets the character index of a [TextPointer](textpointer.md) within its container.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextPointer.Offset](/windows/winui/api/microsoft.ui.xaml.documents.textpointer.offset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextPointer.Offset](/windows/winui/api/microsoft.ui.xaml.documents.textpointer.offset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The character index of a [TextPointer](textpointer.md) within its container.

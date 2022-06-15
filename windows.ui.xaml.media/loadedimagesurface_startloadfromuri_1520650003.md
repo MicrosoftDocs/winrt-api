@@ -14,7 +14,7 @@ public LoadedImageSurface LoadedImageSurface.StartLoadFromUri(Uri uri)
 
 Loads an image into a [LoadedImageSurface](loadedimagesurface.md) from the provided Uniform Resource Identifier (URI) at the natural size defined in the image source.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.LoadedImageSurface.StartLoadFromUri](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface.startloadfromuri).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.LoadedImageSurface.StartLoadFromUri](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface.startloadfromuri) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

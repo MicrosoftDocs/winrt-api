@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DataTemplate RightHeaderTemplate { get;  set; }
 ## -description
 Gets or sets the template for the header on the control's right side.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.RightHeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.pivot.rightheadertemplate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Pivot.RightHeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.pivot.rightheadertemplate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

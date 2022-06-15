@@ -17,7 +17,7 @@ public enum LoadedImageSourceLoadStatus : int {
 ## -description
 Defines constants that specify whether an image loaded, or why it failed to load.
 
-Equivalent WinUI enum: [Microsoft.UI.Xaml.Media.LoadedImageSourceLoadStatus](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesourceloadstatus).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.LoadedImageSourceLoadStatus](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesourceloadstatus) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Success:0

@@ -12,7 +12,7 @@ public void StartViewChangeTo(Windows.UI.Xaml.Controls.SemanticZoomLocation sour
 ## -description
 Initializes item-wise operations that are related to a view change when the source view is a different view and the pending destination view is the [Hub](hub.md) instance.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Hub.StartViewChangeTo](/windows/winui/api/microsoft.ui.xaml.controls.hub.startviewchangeto).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Hub.StartViewChangeTo](/windows/winui/api/microsoft.ui.xaml.controls.hub.startviewchangeto) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param source

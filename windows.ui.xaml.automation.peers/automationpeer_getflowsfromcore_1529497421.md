@@ -12,7 +12,7 @@ virtual protected Windows.Foundation.Collections.IIterable<Windows.UI.Xaml.Autom
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetFlowsFrom](../windows.ui.xaml.automation/automationproperties_getflowsfrom_1915156123.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetFlowsFromCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getflowsfromcore).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetFlowsFromCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getflowsfromcore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 A list of automation elements that suggests the reading order before the current automation element.

@@ -12,7 +12,7 @@ public int TabCount { get; }
 ## -description
 Retrieves the tab count.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.TabCount](/windows/winui/api/microsoft.ui.text.itextparagraphformat.tabcount).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.TabCount](/windows/winui/api/microsoft.ui.text.itextparagraphformat.tabcount) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The tab count.

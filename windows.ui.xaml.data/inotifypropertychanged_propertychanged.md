@@ -12,7 +12,7 @@ abstract public event Windows.UI.Xaml.Data.PropertyChangedEventHandler PropertyC
 ## -description
 Occurs when a property value changes.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Data.INotifyPropertyChanged.PropertyChanged](/windows/winui/api/microsoft.ui.xaml.data.inotifypropertychanged.propertychanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.INotifyPropertyChanged.PropertyChanged](/windows/winui/api/microsoft.ui.xaml.data.inotifypropertychanged.propertychanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 When building UWP app with the Microsoft .NET Framework, this interface is hidden and developers should use the [System.ComponentModel.INotifyPropertyChanged](/dotnet/api/system.componentmodel.inotifypropertychanged?view=dotnet-uwp-10.0&preserve-view=true) interface.

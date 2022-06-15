@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.ManipulationInertiaStartingEventHandler Manip
 
 Occurs when the input device loses contact with the [UIElement](uielement.md) object during a manipulation and inertia begins.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.ManipulationInertiaStarting](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationinertiastarting).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ManipulationInertiaStarting](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationinertiastarting) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

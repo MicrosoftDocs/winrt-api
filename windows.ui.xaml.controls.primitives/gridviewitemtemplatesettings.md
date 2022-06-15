@@ -12,7 +12,7 @@ public class GridViewItemTemplateSettings : Windows.UI.Xaml.DependencyObject, Wi
 ## -description
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for a [GridView](../windows.ui.xaml.controls/gridview.md) control. Not intended for general use.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitemtemplatesettings).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitemtemplatesettings) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ abstract public event Windows.UI.Xaml.Interop.BindableVectorChangedEventHandler 
 ## -description
 Occurs when the vector collection changes (add, delete, item change).
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Interop.IBindableObservableVector.VectorChanged](/windows/winui/api/microsoft.ui.xaml.interop.ibindableobservablevector.vectorchanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.IBindableObservableVector.VectorChanged](/windows/winui/api/microsoft.ui.xaml.interop.ibindableobservablevector.vectorchanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 This interface supports the creation of data bindable collections in C++. When programming with .NET, you should use [ObservableCollection(Of T)](/dotnet/api/system.collections.objectmodel.observablecollection-1?view=dotnet-uwp-10.0&preserve-view=true) or implement [IList](/dotnet/api/system.collections.ilist?view=dotnet-uwp-10.0&preserve-view=true) and [INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0&preserve-view=true).

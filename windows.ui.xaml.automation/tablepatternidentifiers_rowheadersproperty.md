@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty RowHeadersProperty { get; }
 ## -description
 Identifies the automation property that is accessed by the [GetRowHeaders](../windows.ui.xaml.automation.provider/itableprovider_getrowheaders_1973743761.md) method.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.TablePatternIdentifiers.RowHeadersProperty](/windows/winui/api/microsoft.ui.xaml.automation.tablepatternidentifiers.rowheadersproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.TablePatternIdentifiers.RowHeadersProperty](/windows/winui/api/microsoft.ui.xaml.automation.tablepatternidentifiers.rowheadersproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The automation property identifier.

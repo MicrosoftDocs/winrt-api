@@ -9,7 +9,7 @@ ms.custom: 19H1
 ## -description
 Specifies pixel formats, and other enumerated constants, for use with Windows Runtime Direct3D 11 interop surfaces.
 
-Equivalent WinUI namespace: [Microsoft.Graphics.DirectX](/windows/winui/api/microsoft.graphics.directx).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.Graphics.DirectX](/windows/winui/api/microsoft.graphics.directx) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

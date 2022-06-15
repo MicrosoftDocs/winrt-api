@@ -14,7 +14,7 @@ public ICommand Command { get;  set; }
 
 Gets or sets the command behavior of an interactive UI element that performs an action when invoked, such as sending an email, deleting an item, or submitting a form.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.Command](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.command).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.XamlUICommand.Command](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.command) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

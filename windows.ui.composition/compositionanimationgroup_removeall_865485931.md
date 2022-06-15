@@ -12,7 +12,7 @@ public void RemoveAll()
 ## -description
 Removes all animations from the group.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionAnimationGroup.RemoveAll](/windows/winui/api/microsoft.ui.composition.compositionanimationgroup.removeall).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionAnimationGroup.RemoveAll](/windows/winui/api/microsoft.ui.composition.compositionanimationgroup.removeall) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

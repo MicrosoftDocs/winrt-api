@@ -14,7 +14,7 @@ Provides support for the Windows input system. This includes:
 + Inertia configuration, detection, and handling.
 + Input pointer management.
 
-Equivalent WinUI namespace: [Microsoft.UI.Input](/windows/winui/api/microsoft.ui.input).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Input](/windows/winui/api/microsoft.ui.input) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ScrollViewerView FinalView { get; }
 ## -description
 Gets the view that the [ScrollViewer](scrollviewer.md) will show when the view comes to rest after a pan/zoom manipulation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewerViewChangingEventArgs.FinalView](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewerviewchangingeventargs.finalview).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewerViewChangingEventArgs.FinalView](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewerviewchangingeventargs.finalview) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The view that the [ScrollViewer](scrollviewer.md) will show when the view comes to rest after a pan/zoom manipulation.

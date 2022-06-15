@@ -14,7 +14,7 @@ public void UIElementWeakCollection.SetAt(UInt32 index, UIElement value)
 
 Sets the value at the specified index to the specified UIElement value.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.setat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElementWeakCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.setat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param index

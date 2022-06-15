@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Controls.HubSectio
 ## -description
 Gets all the hub sections in the [Hub](hub.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.Sections](/windows/winui/api/microsoft.ui.xaml.controls.hub.sections).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Hub.Sections](/windows/winui/api/microsoft.ui.xaml.controls.hub.sections) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

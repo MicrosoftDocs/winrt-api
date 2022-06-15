@@ -12,7 +12,7 @@ public Windows.UI.Composition.ImplicitAnimationCollection CreateImplicitAnimatio
 ## -description
 Creates an instance of [ImplicitAnimationCollection](implicitanimationcollection.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateImplicitAnimationCollection](/windows/winui/api/microsoft.ui.composition.compositor.createimplicitanimationcollection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateImplicitAnimationCollection](/windows/winui/api/microsoft.ui.composition.compositor.createimplicitanimationcollection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 Returns the created [ImplicitAnimationCollection](implicitanimationcollection.md) object.

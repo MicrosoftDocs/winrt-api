@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectedBorderBrushProperty { get; }
 ## -description
 Identifies the  [SelectedBorderBrush](calendarview_selectedborderbrush.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.SelectedBorderBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selectedborderbrushproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.SelectedBorderBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selectedborderbrushproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [SelectedBorderBrush](calendarview_selectedborderbrush.md)   dependency property.

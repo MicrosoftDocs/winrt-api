@@ -12,7 +12,7 @@ public void ConnectedAnimation.SetAnimationComponent(ConnectedAnimationComponent
 ## -description
 Sets a custom [CompositionAnimation](./../windows.ui.composition/compositionanimation.md) to change the motion of a particular part of the connected animation.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimation.SetAnimationComponent](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimation.setanimationcomponent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimation.SetAnimationComponent](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimation.setanimationcomponent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

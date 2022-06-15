@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty ToggleStateProperty { get; 
 ## -description
 Identifies the [ToggleState](togglestate.md) automation property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.TogglePatternIdentifiers.ToggleStateProperty](/windows/winui/api/microsoft.ui.xaml.automation.togglepatternidentifiers.togglestateproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.TogglePatternIdentifiers.ToggleStateProperty](/windows/winui/api/microsoft.ui.xaml.automation.togglepatternidentifiers.togglestateproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The automation property identifier.

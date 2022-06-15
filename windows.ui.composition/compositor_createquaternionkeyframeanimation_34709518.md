@@ -12,7 +12,7 @@ public Windows.UI.Composition.QuaternionKeyFrameAnimation CreateQuaternionKeyFra
 ## -description
 Creates an instance of [QuaternionKeyFrameAnimation](quaternionkeyframeanimation.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateQuaternionKeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createquaternionkeyframeanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateQuaternionKeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createquaternionkeyframeanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 Returns the created [QuaternionKeyFrameAnimation](quaternionkeyframeanimation.md) object.

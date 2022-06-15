@@ -15,7 +15,7 @@ Gets or sets a string that overrides the default key combination string associat
 ![Example of a menu showing keyboard accelerators for various menu items](images/keyboard-accelerators.png)  
 *Example of a menu showing keyboard accelerators for various menu items*
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarToggleButton.KeyboardAcceleratorTextOverride](/windows/winui/api/microsoft.ui.xaml.controls.appbartogglebutton.keyboardacceleratortextoverride).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AppBarToggleButton.KeyboardAcceleratorTextOverride](/windows/winui/api/microsoft.ui.xaml.controls.appbartogglebutton.keyboardacceleratortextoverride) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The string to replace the default key combination string. The default is null.

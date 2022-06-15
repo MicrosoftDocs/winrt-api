@@ -12,7 +12,7 @@ public class QuadraticBezierSegment : Windows.UI.Xaml.Media.PathSegment, Windows
 ## -description
 Creates a quadratic Bezier curve between two points in a [PathFigure](pathfigure.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.QuadraticBezierSegment](/windows/winui/api/microsoft.ui.xaml.media.quadraticbeziersegment).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.QuadraticBezierSegment](/windows/winui/api/microsoft.ui.xaml.media.quadraticbeziersegment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.AutomationActiveEnd : int
 ## -description
 Defines values for the SelectionActiveEnd text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text.
 
-Equivalent WinUI enum: [AutomationActiveEnd](/windows/winui/api/microsoft.ui.xaml.automation.automationactiveend).
+Equivalent **WinUI 2 API for UWP**: [AutomationActiveEnd](/windows/winui/api/microsoft.ui.xaml.automation.automationactiveend) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field None:0

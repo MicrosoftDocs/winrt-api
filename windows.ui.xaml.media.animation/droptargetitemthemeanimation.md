@@ -12,7 +12,7 @@ public class DropTargetItemThemeAnimation : Windows.UI.Xaml.Media.Animation.Time
 ## -description
 Represents the preconfigured animation that applies to potential drop target elements.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DropTargetItemThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.droptargetitemthemeanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DropTargetItemThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.droptargetitemthemeanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

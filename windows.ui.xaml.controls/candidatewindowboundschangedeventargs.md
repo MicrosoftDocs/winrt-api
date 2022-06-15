@@ -12,7 +12,7 @@ public class CandidateWindowBoundsChangedEventArgs : Windows.UI.Xaml.Controls.IC
 ## -description
 Provides event data for the **CandidateWindowBoundsChanged** event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CandidateWindowBoundsChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.candidatewindowboundschangedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CandidateWindowBoundsChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.candidatewindowboundschangedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 For more info, see [TextBox.CandidateWindowBoundsChanged](textbox_candidatewindowboundschanged.md) and [RichEditBox.CandidateWindowBoundsChanged](richeditbox_candidatewindowboundschanged.md).

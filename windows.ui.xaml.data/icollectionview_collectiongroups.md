@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IObservableVector<object> CollectionGroups
 ## -description
 Returns any collection groups that are associated with the view.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.ICollectionView.CollectionGroups](/windows/winui/api/microsoft.ui.xaml.data.icollectionview.collectiongroups).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICollectionView.CollectionGroups](/windows/winui/api/microsoft.ui.xaml.data.icollectionview.collectiongroups) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A vector collection of possible views.

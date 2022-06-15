@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FontWeightProperty { get; }
 ## -description
 Identifies the [FontWeight](contentpresenter_fontweight.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.FontWeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.fontweightproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentPresenter.FontWeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.fontweightproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [FontWeight](contentpresenter_fontweight.md) dependency property.

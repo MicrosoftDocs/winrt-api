@@ -13,7 +13,7 @@ public bool RichEditTextRange.InStory(ITextRange range)
 
 Determines whether this range's story is the same as a specified range's story.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.InStory](/windows/winui/api/microsoft.ui.text.richedittextrange.instory).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.InStory](/windows/winui/api/microsoft.ui.text.richedittextrange.instory) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param range

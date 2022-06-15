@@ -13,7 +13,7 @@ public class ComboBoxTextSubmittedEventArgs
 ## -description
 Provides data when the user enters custom text into the ComboBox.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ComboBoxTextSubmittedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.comboboxtextsubmittedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ComboBoxTextSubmittedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.comboboxtextsubmittedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

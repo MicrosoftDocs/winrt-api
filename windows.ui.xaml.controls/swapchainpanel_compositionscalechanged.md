@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler CompositionScaleChanged<Window
 ## -description
 Occurs when the composition scale factor of the [SwapChainPanel](swapchainpanel.md) has changed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.SwapChainPanel.CompositionScaleChanged](/windows/winui/api/microsoft.ui.xaml.controls.swapchainpanel.compositionscalechanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SwapChainPanel.CompositionScaleChanged](/windows/winui/api/microsoft.ui.xaml.controls.swapchainpanel.compositionscalechanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

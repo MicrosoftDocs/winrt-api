@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerMoved
 
 Occurs when a pointer moves while the pointer remains within the hit test area of this element.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.PointerMoved](/windows/winui/api/microsoft.ui.xaml.uielement.pointermoved).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.PointerMoved](/windows/winui/api/microsoft.ui.xaml.uielement.pointermoved) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

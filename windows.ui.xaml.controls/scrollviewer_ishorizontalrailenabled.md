@@ -12,7 +12,7 @@ public bool IsHorizontalRailEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the scroll rail is enabled for the horizontal axis.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.IsHorizontalRailEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.ishorizontalrailenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.IsHorizontalRailEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.ishorizontalrailenabled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

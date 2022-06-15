@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.TypeName SourcePageType { get; }
 ## -description
 Gets the data type of the source page.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Navigation.NavigationEventArgs.SourcePageType](/windows/winui/api/microsoft.ui.xaml.navigation.navigationeventargs.sourcepagetype).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Navigation.NavigationEventArgs.SourcePageType](/windows/winui/api/microsoft.ui.xaml.navigation.navigationeventargs.sourcepagetype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The data type of the source page, represented as *namespace*.*type* or simply *type*.

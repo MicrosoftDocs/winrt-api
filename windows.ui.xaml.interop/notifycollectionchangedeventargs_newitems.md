@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.IBindableVector NewItems { get; }
 ## -description
 Gets the items affected by an action.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs.NewItems](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs.newitems).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs.NewItems](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs.newitems) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The bindable vector of items affected by an action.

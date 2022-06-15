@@ -12,7 +12,7 @@ public bool IsDictionary { get; }
 ## -description
 Gets a value that indicates whether this [IXamlType](ixamltype.md) represents a dictionary/map.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlType.IsDictionary](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.isdictionary).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.IXamlType.IsDictionary](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.isdictionary) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if this [IXamlType](ixamltype.md) represents a dictionary/map; otherwise, **false**.

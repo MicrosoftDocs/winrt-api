@@ -14,7 +14,7 @@ public bool RichEditTextDocument.CanUndo()
 
 Determines whether one or more undo operations exist.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.CanUndo](/windows/winui/api/microsoft.ui.text.richedittextdocument.canundo).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextDocument.CanUndo](/windows/winui/api/microsoft.ui.text.richedittextdocument.canundo) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 

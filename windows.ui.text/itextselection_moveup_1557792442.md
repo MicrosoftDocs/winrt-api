@@ -12,7 +12,7 @@ public int MoveUp(Windows.UI.Text.TextRangeUnit unit, System.Int32 count, System
 ## -description
 Moves the insertion point or the active end of the text selection up, mimicking the functionality of the Up Arrow or Page Up keys.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextSelection.MoveUp](/windows/winui/api/microsoft.ui.text.itextselection.moveup).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextSelection.MoveUp](/windows/winui/api/microsoft.ui.text.itextselection.moveup) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param unit

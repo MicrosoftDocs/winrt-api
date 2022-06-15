@@ -12,7 +12,7 @@ public Windows.Foundation.Uri UriSource { get;  set; }
 ## -description
 Gets or sets the Uniform Resource Identifier (URI) of the graphics source file that generated this [BitmapImage](bitmapimage.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.UriSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.urisource).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.UriSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.urisource) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

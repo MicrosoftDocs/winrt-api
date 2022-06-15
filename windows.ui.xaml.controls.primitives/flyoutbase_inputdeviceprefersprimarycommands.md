@@ -14,7 +14,7 @@ public bool InputDevicePrefersPrimaryCommands { get; }
 
 Gets a value that indicates whether the input device used to open the flyout does not easily open the secondary commands.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.InputDevicePrefersPrimaryCommands](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.inputdeviceprefersprimarycommands).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.InputDevicePrefersPrimaryCommands](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.inputdeviceprefersprimarycommands) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

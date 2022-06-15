@@ -13,7 +13,7 @@ public Vector2 StartPoint { get;  set; }
 
 Gets or sets the starting two-dimensional coordinates of the linear gradient.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionLinearGradientBrush.StartPoint](/windows/winui/api/microsoft.ui.composition.compositionlineargradientbrush.startpoint).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionLinearGradientBrush.StartPoint](/windows/winui/api/microsoft.ui.composition.compositionlineargradientbrush.startpoint) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

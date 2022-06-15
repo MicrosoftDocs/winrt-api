@@ -12,7 +12,7 @@ public enum Windows.UI.Text.ParagraphStyle : int
 ## -description
 Specifies the paragraph style.
 
-Equivalent WinUI enum: [ParagraphStyle](/windows/winui/api/microsoft.ui.text.paragraphstyle).
+Equivalent **WinUI 2 API for UWP**: [ParagraphStyle](/windows/winui/api/microsoft.ui.text.paragraphstyle) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Undefined:0

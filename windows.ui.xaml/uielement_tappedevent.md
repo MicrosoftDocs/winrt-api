@@ -13,7 +13,7 @@ public Windows.UI.Xaml.RoutedEvent TappedEvent { get; }
 
 Gets the identifier for the [Tapped](uielement_tapped.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.TappedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.tappedevent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.TappedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.tappedevent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

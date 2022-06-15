@@ -12,7 +12,7 @@ public void Add(Windows.UI.Composition.CompositionAnimation value)
 ## -description
 Adds an animation to the animation group.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionAnimationGroup.Add](/windows/winui/api/microsoft.ui.composition.compositionanimationgroup.add).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionAnimationGroup.Add](/windows/winui/api/microsoft.ui.composition.compositionanimationgroup.add) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param value

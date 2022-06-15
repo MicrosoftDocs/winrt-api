@@ -12,7 +12,7 @@ public double SpeedRatio { get;  set; }
 ## -description
 Gets or sets the rate, relative to its parent, at which time progresses for this [Timeline](timeline.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.SpeedRatio](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.speedratio).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Timeline.SpeedRatio](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.speedratio) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

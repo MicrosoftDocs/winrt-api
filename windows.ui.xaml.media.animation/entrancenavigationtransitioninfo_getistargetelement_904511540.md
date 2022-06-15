@@ -12,7 +12,7 @@ public bool GetIsTargetElement(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [EntranceNavigationTransitionInfo.IsTargetElement](entrancenavigationtransitioninfo_istargetelement.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.EntranceNavigationTransitionInfo.GetIsTargetElement](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancenavigationtransitioninfo.getistargetelement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.EntranceNavigationTransitionInfo.GetIsTargetElement](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancenavigationtransitioninfo.getistargetelement) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

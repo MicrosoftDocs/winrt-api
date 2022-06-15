@@ -12,7 +12,7 @@ public Windows.Foundation.TimeSpan Interval { get;  set; }
 ## -description
 Gets or sets the amount of time between timer ticks.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.DispatcherTimer.Interval](/windows/winui/api/microsoft.ui.xaml.dispatchertimer.interval).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DispatcherTimer.Interval](/windows/winui/api/microsoft.ui.xaml.dispatchertimer.interval) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The amount of time between ticks. The default is a **TimeSpan**

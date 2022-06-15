@@ -12,7 +12,7 @@ public Windows.Foundation.Numerics.Matrix4x4 TransformMatrix { get;  set; }
 ## -description
 The transformation matrix to apply to the visual. Animatable.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Visual.TransformMatrix](/windows/winui/api/microsoft.ui.composition.visual.transformmatrix).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual.TransformMatrix](/windows/winui/api/microsoft.ui.composition.visual.transformmatrix) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The transformation matrix to apply to the visual.

@@ -16,7 +16,7 @@ public class CompositionRectangleGeometry : CompositionGeometry, CompositionGeom
 
 Represents a rectangle shape of the specified size. To obtain a **CompositionRectangleGeometry** instance, call [Compositor.CreateRectangleGeometry](/uwp/api/windows.ui.composition.compositor.createrectanglegeometry).
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionRectangleGeometry](/windows/winui/api/microsoft.ui.composition.compositionrectanglegeometry).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionRectangleGeometry](/windows/winui/api/microsoft.ui.composition.compositionrectanglegeometry) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

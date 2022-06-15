@@ -14,7 +14,7 @@ public DependencyProperty IsDialogProperty { get; }
 
 Identifies the [AutomationProperties.IsDialog](automationproperties_isdialog.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.IsDialogProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.isdialogproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.IsDialogProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.isdialogproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

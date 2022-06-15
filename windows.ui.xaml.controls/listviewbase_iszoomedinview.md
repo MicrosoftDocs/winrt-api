@@ -12,7 +12,7 @@ public bool IsZoomedInView { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [ListViewBase](listviewbase.md) instance is the zoomed-in view in its owning [SemanticZoom](semanticzoom.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.IsZoomedInView](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.iszoomedinview).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.IsZoomedInView](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.iszoomedinview) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if the [ListViewBase](listviewbase.md) is the zoomed-in view; otherwise, **false**.

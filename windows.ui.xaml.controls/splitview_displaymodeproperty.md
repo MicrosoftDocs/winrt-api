@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty DisplayModeProperty { get; }
 ## -description
 Identifies the [DisplayMode](splitview_displaymode.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.DisplayModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.splitview.displaymodeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SplitView.DisplayModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.splitview.displaymodeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [DisplayMode](splitview_displaymode.md)  dependency property.

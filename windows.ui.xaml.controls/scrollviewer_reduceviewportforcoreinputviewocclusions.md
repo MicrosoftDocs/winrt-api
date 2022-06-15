@@ -14,7 +14,7 @@ public bool ReduceViewportForCoreInputViewOcclusions { get;  set; }
 
 Gets or sets a value that indicates whether the ScrollViewer should try to adjust its content to keep it visible when a docked CoreInputView occludes part of it.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ReduceViewportForCoreInputViewOcclusions](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.reduceviewportforcoreinputviewocclusions).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.ReduceViewportForCoreInputViewOcclusions](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.reduceviewportforcoreinputviewocclusions) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

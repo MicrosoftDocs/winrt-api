@@ -12,7 +12,7 @@ public enum Windows.UI.Text.TextGetOptions : uint
 ## -description
 Specifies options for retrieving the text in a document or text range.
 
-Equivalent WinUI enum: [TextGetOptions](/windows/winui/api/microsoft.ui.text.textgetoptions).
+Equivalent **WinUI 2 API for UWP**: [TextGetOptions](/windows/winui/api/microsoft.ui.text.textgetoptions) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field None:0

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent ManipulationStartedEvent { get; }
 ## -description
 Gets the identifier for the [ManipulationStarted](uielement_manipulationstarted.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ManipulationStartedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationstartedevent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ManipulationStartedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationstartedevent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ManipulationStarted](uielement_manipulationstarted.md) routed event.

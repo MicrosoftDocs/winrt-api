@@ -12,7 +12,7 @@ virtual protected bool GoToStateCore(Windows.UI.Xaml.Controls.Control control, W
 ## -description
 When overridden in a derived class, transitions a control between states.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.VisualStateManager.GoToStateCore](/windows/winui/api/microsoft.ui.xaml.visualstatemanager.gotostatecore).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualStateManager.GoToStateCore](/windows/winui/api/microsoft.ui.xaml.visualstatemanager.gotostatecore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param control

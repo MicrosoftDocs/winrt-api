@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionSurfaceBrush CreateSurfaceBrush()
 ## -description
 Creates an instance of [CompositionSurfaceBrush](compositionsurfacebrush.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateSurfaceBrush](/windows/winui/api/microsoft.ui.composition.compositor.createsurfacebrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateSurfaceBrush](/windows/winui/api/microsoft.ui.composition.compositor.createsurfacebrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 Returns the created [CompositionSurfaceBrush](compositionsurfacebrush.md) object.

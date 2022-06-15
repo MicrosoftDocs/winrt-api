@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.AlignmentY : int
 ## -description
 Describes how content is positioned vertically in a container.
 
-Equivalent WinUI enum: [AlignmentY](/windows/winui/api/microsoft.ui.xaml.media.alignmenty).
+Equivalent **WinUI 2 API for UWP**: [AlignmentY](/windows/winui/api/microsoft.ui.xaml.media.alignmenty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

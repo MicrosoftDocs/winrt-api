@@ -12,7 +12,7 @@ public bool IsInertial { get; }
 ## -description
 Gets whether the [ManipulationCompleted](../windows.ui.xaml/uielement_manipulationcompleted.md) event occurs during inertia.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs.IsInertial](/windows/winui/api/microsoft.ui.xaml.input.manipulationcompletedroutedeventargs.isinertial).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs.IsInertial](/windows/winui/api/microsoft.ui.xaml.input.manipulationcompletedroutedeventargs.isinertial) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if the [ManipulationCompleted](../windows.ui.xaml/uielement_manipulationcompleted.md) event occurs during inertia; **false** if the event occurs while the user's input device has contact with the element.

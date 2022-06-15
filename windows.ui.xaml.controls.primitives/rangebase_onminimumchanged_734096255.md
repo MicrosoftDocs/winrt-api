@@ -12,7 +12,7 @@ virtual protected void OnMinimumChanged(System.Double oldMinimum, System.Double 
 ## -description
 Called when the [Minimum](rangebase_minimum.md) property changes.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.OnMinimumChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.onminimumchanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.OnMinimumChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.onminimumchanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param oldMinimum

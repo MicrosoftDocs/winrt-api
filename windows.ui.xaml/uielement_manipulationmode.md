@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Input.ManipulationModes ManipulationMode { get;  set; }
 ## -description
 Gets or sets the [ManipulationModes](../windows.ui.xaml.input/manipulationmodes.md) value used for [UIElement](uielement.md) behavior and interaction with gestures. Setting this value enables handling the manipulation events from this element in app code.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ManipulationMode](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ManipulationMode](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

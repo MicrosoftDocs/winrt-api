@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Navigation.PageSta
 ## -description
 Gets a collection of [PageStackEntry](../windows.ui.xaml.navigation/pagestackentry.md) instances representing the forward navigation history of the [Frame](frame.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Frame.ForwardStack](/windows/winui/api/microsoft.ui.xaml.controls.frame.forwardstack).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Frame.ForwardStack](/windows/winui/api/microsoft.ui.xaml.controls.frame.forwardstack) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The forward navigation stack.

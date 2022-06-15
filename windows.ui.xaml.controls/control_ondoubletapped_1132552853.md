@@ -12,7 +12,7 @@ virtual protected void OnDoubleTapped(Windows.UI.Xaml.Input.DoubleTappedRoutedEv
 ## -description
 Called before the [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnDoubleTapped](/windows/winui/api/microsoft.ui.xaml.controls.control.ondoubletapped).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.OnDoubleTapped](/windows/winui/api/microsoft.ui.xaml.controls.control.ondoubletapped) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param e

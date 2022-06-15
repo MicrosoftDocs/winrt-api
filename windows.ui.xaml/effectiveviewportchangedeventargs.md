@@ -14,7 +14,7 @@ public class EffectiveViewportChangedEventArgs
 
 Provides data for the [FrameworkElement.EffectiveViewportChanged](frameworkelement_effectiveviewportchanged.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.EffectiveViewportChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.effectiveviewportchangedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.EffectiveViewportChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.effectiveviewportchangedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

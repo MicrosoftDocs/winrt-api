@@ -12,7 +12,7 @@ public event TypedEventHandler AccessKeyDisplayDismissed<TextElement, AccessKeyD
 ## -description
 Occurs when the access key sequence is complete to notify controls that they should hide access key visuals.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Documents.TextElement.AccessKeyDisplayDismissed](/windows/winui/api/microsoft.ui.xaml.documents.textelement.accesskeydisplaydismissed).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextElement.AccessKeyDisplayDismissed](/windows/winui/api/microsoft.ui.xaml.documents.textelement.accesskeydisplaydismissed) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

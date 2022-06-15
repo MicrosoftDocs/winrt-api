@@ -12,7 +12,7 @@ public int EndPosition { get;  set; }
 ## -description
 Gets or sets the end character position of the text range.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextRange.EndPosition](/windows/winui/api/microsoft.ui.text.itextrange.endposition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.EndPosition](/windows/winui/api/microsoft.ui.text.itextrange.endposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The end character position.

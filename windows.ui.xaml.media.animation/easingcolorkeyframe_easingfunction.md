@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.EasingFunctionBase EasingFunction { get; 
 ## -description
 Gets or sets the easing function that is applied to the key frame.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.EasingColorKeyFrame.EasingFunction](/windows/winui/api/microsoft.ui.xaml.media.animation.easingcolorkeyframe.easingfunction).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.EasingColorKeyFrame.EasingFunction](/windows/winui/api/microsoft.ui.xaml.media.animation.easingcolorkeyframe.easingfunction) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public float RotationAngleInDegrees { get;  set; }
 ## -description
 The rotation angle, in degrees, of the brush.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSurfaceBrush.RotationAngleInDegrees](/windows/winui/api/microsoft.ui.composition.compositionsurfacebrush.rotationangleindegrees).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionSurfaceBrush.RotationAngleInDegrees](/windows/winui/api/microsoft.ui.composition.compositionsurfacebrush.rotationangleindegrees) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The rotation angle, in degrees, of the brush.

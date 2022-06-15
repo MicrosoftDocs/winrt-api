@@ -12,7 +12,7 @@ public object GetFocusedElement()
 ## -description
 Gets the element that currently has the focus.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetFocusedElement](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getfocusedelement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetFocusedElement](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getfocusedelement) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 The element that currently has the focus.

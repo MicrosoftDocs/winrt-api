@@ -12,7 +12,7 @@ virtual protected void OnValueChanged(System.Double oldValue, System.Double newV
 ## -description
 Fires the [ValueChanged](rangebase_valuechanged.md) routed event.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.OnValueChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.onvaluechanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.OnValueChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.onvaluechanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param oldValue

@@ -14,7 +14,7 @@ public float NormalScale { get;  set; }
 
 Gets or sets the normal scale for the material.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.NormalScale](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.normalscale).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.NormalScale](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.normalscale) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

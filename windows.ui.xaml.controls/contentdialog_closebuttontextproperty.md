@@ -12,7 +12,7 @@ public DependencyProperty CloseButtonTextProperty { get; }
 ## -description
 Gets the identifier of the CloseButtonText dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.CloseButtonTextProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.closebuttontextproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentDialog.CloseButtonTextProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.closebuttontextproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier of the CloseButtonText dependency property.

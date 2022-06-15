@@ -12,7 +12,7 @@ public class GetPreviewPageEventArgs : Windows.UI.Xaml.Printing.IGetPreviewPageE
 ## -description
 Provides event data for the [GetPreviewPage](printdocument_getpreviewpage.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Printing.GetPreviewPageEventArgs](/windows/winui/api/microsoft.ui.xaml.printing.getpreviewpageeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Printing.GetPreviewPageEventArgs](/windows/winui/api/microsoft.ui.xaml.printing.getpreviewpageeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public void Select(Windows.UI.Xaml.Documents.TextPointer start, Windows.UI.Xaml.
 ## -description
 Selects a range of text in the [TextBlock](textblock.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBlock.Select](/windows/winui/api/microsoft.ui.xaml.controls.textblock.select).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBlock.Select](/windows/winui/api/microsoft.ui.xaml.controls.textblock.select) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param start

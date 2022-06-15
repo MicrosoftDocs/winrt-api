@@ -12,7 +12,7 @@ public bool IsDragSource()
 ## -description
 Returns a value that indicates whether the list view is both the drag source and drop target in a drag-and-drop operation.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.IsDragSource](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.isdragsource).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.IsDragSource](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.isdragsource) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 **true** if the list view is both the drag source and drop target; otherwise, **false**.

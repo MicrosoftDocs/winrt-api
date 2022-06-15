@@ -12,7 +12,7 @@ public void RequestIgnored(Windows.UI.Composition.Interactions.InteractionTracke
 ## -description
 Callback that is triggered when the [InteractionTracker](interactiontracker.md) has ignored a request.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.RequestIgnored](/windows/winui/api/microsoft.ui.composition.interactions.iinteractiontrackerowner.requestignored).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.RequestIgnored](/windows/winui/api/microsoft.ui.composition.interactions.iinteractiontrackerowner.requestignored) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param sender

@@ -12,7 +12,7 @@ public bool MonthVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the month selector is shown.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.MonthVisible](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.monthvisible).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePicker.MonthVisible](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.monthvisible) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

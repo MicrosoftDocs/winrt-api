@@ -12,7 +12,7 @@ public string ExtendedProperties { get; }
 ## -description
 Gets a string value that contains additional property info. The info is for properties are that are not included in this control pattern, but that provide information about the document content that might be useful to the user.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IStylesProvider.ExtendedProperties](/windows/winui/api/microsoft.ui.xaml.automation.provider.istylesprovider.extendedproperties).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IStylesProvider.ExtendedProperties](/windows/winui/api/microsoft.ui.xaml.automation.provider.istylesprovider.extendedproperties) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A localized, formatted string that contains the list of extended properties. The string must be formatted as a list of name/value pairs, as follows: "prop1=value;prop2=value2".

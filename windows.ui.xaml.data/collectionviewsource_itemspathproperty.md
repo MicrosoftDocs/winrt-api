@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ItemsPathProperty { get; }
 ## -description
 Identifies the [ItemsPath](collectionviewsource_itemspath.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.CollectionViewSource.ItemsPathProperty](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.itemspathproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.CollectionViewSource.ItemsPathProperty](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.itemspathproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ItemsPath](collectionviewsource_itemspath.md) dependency property.

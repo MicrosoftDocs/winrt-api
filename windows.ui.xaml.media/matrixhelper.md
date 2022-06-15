@@ -12,7 +12,7 @@ public class MatrixHelper : Windows.UI.Xaml.Media.IMatrixHelper
 ## -description
 Provides static helper methods for processing [Matrix](matrix.md) values. C# and Microsoft Visual Basic code should use members of [Matrix](matrix.md) instead.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.MatrixHelper](/windows/winui/api/microsoft.ui.xaml.media.matrixhelper).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.MatrixHelper](/windows/winui/api/microsoft.ui.xaml.media.matrixhelper) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

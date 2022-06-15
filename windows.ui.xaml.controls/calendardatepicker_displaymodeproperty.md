@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty DisplayModeProperty { get; }
 ## -description
 Identifies the [DisplayMode](calendardatepicker_displaymode.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.DisplayModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.displaymodeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.DisplayModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.displaymodeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [DisplayMode](calendardatepicker_displaymode.md) dependency property.

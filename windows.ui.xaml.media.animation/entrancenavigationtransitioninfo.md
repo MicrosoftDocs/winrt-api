@@ -12,7 +12,7 @@ public class EntranceNavigationTransitionInfo : Windows.UI.Xaml.Media.Animation.
 ## -description
 Specifies the animation to run when content appears on a [Page](../windows.ui.xaml.controls/page.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.EntranceNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancenavigationtransitioninfo).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.EntranceNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancenavigationtransitioninfo) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 The **EntranceNavigationTransitionInfo** class represents the page refresh animation. Page refresh is a combination of a slide up animation and a fade in animation for the incoming content. 

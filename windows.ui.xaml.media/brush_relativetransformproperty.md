@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty RelativeTransformProperty { get; }
 ## -description
 Identifies the [RelativeTransform](brush_relativetransform.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Brush.RelativeTransformProperty](/windows/winui/api/microsoft.ui.xaml.media.brush.relativetransformproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Brush.RelativeTransformProperty](/windows/winui/api/microsoft.ui.xaml.media.brush.relativetransformproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The [RelativeTransform](brush_relativetransform.md) dependency property identifier.

@@ -12,7 +12,7 @@ public float LeftInset { get;  set; }
 ## -description
 Inset from the left edge of the source content that specifies the thickness of the left column. Defaults to 0.0f.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionNineGridBrush.LeftInset](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.leftinset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionNineGridBrush.LeftInset](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.leftinset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 Inset from the left edge of the source content that specifies the thickness of the left column. Defaults to 0.0f.

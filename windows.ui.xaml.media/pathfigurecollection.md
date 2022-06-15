@@ -12,7 +12,7 @@ public class PathFigureCollection : Windows.Foundation.Collections.IIterable<Win
 ## -description
 Represents a collection of [PathFigure](pathfigure.md) objects that collectively make up the geometry of a [PathGeometry](pathgeometry.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.PathFigureCollection](/windows/winui/api/microsoft.ui.xaml.media.pathfigurecollection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PathFigureCollection](/windows/winui/api/microsoft.ui.xaml.media.pathfigurecollection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

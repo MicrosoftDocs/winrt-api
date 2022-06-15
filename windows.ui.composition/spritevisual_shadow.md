@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionShadow Shadow { get;  set; }
 ## -description
 The shadow for the [SpriteVisual](spritevisual.md).
 
-Equivalent WinUI property: [Microsoft.UI.Composition.SpriteVisual.Shadow](/windows/winui/api/microsoft.ui.composition.spritevisual.shadow).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpriteVisual.Shadow](/windows/winui/api/microsoft.ui.composition.spritevisual.shadow) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The shadow for the [SpriteVisual](spritevisual.md).

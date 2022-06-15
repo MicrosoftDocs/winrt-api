@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IIterator<Windows.Foundation.Collections.I
 ## -description
 Retrieves the first animation in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.ImplicitAnimationCollection.First](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.first).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ImplicitAnimationCollection.First](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.first) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 Retrieves the first animation in the collection.

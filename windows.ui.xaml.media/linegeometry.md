@@ -12,7 +12,7 @@ public class LineGeometry : Windows.UI.Xaml.Media.Geometry, Windows.UI.Xaml.Medi
 ## -description
 Represents the geometry of a line.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.LineGeometry](/windows/winui/api/microsoft.ui.xaml.media.linegeometry).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.LineGeometry](/windows/winui/api/microsoft.ui.xaml.media.linegeometry) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

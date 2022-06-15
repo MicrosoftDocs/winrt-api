@@ -12,7 +12,7 @@ public class Frame : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xaml.Co
 ## -description
 Displays [Page](page.md) instances, supports navigation to new pages, and maintains a navigation history to support forward and backward navigation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Frame](/windows/winui/api/microsoft.ui.xaml.controls.frame).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Frame](/windows/winui/api/microsoft.ui.xaml.controls.frame) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

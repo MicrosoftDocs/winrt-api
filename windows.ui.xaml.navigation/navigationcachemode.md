@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Navigation.NavigationCacheMode : int
 ## -description
 Specifies caching characteristics for a page involved in a navigation.
 
-Equivalent WinUI enum: [NavigationCacheMode](/windows/winui/api/microsoft.ui.xaml.navigation.navigationcachemode).
+Equivalent **WinUI 2 API for UWP**: [NavigationCacheMode](/windows/winui/api/microsoft.ui.xaml.navigation.navigationcachemode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Disabled:0

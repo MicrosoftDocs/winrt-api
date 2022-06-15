@@ -14,7 +14,7 @@ public SceneComponentType ComponentType { get; }
 
 Gets a value that indicates what kind of component this is.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneComponent.ComponentType](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponent.componenttype).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneComponent.ComponentType](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponent.componenttype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

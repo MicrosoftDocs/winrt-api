@@ -14,7 +14,7 @@ static public event EventHandler GettingFocus<GettingFocusEventArgs>
 
 Occurs before an element actually receives focus. This event is raised synchronously to ensure focus isn't moved while the event is bubbling.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Input.FocusManager.GettingFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.gettingfocus).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FocusManager.GettingFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.gettingfocus) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

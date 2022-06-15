@@ -12,7 +12,7 @@ public enum Windows.UI.Text.SelectionType : int
 ## -description
 Specifies the type of a selection.
 
-Equivalent WinUI enum: [SelectionType](/windows/winui/api/microsoft.ui.text.selectiontype).
+Equivalent **WinUI 2 API for UWP**: [SelectionType](/windows/winui/api/microsoft.ui.text.selectiontype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field None:0

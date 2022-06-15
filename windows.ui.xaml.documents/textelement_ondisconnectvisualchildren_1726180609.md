@@ -12,7 +12,7 @@ virtual protected void OnDisconnectVisualChildren()
 ## -description
 Override this method to implement how layout and logic should behave when items are removed from a class-specific content or child property.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.TextElement.OnDisconnectVisualChildren](/windows/winui/api/microsoft.ui.xaml.documents.textelement.ondisconnectvisualchildren).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextElement.OnDisconnectVisualChildren](/windows/winui/api/microsoft.ui.xaml.documents.textelement.ondisconnectvisualchildren) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 [TextElement](textelement.md) does not define any of the content or children properties that OnDisconnectVisualChildren might act upon. Such properties are introduced by derived classes such as [Paragraph](paragraph.md).

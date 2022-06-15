@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TextIndentProperty { get; }
 ## -description
 Identifies the [TextIndent](paragraph_textindent.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Paragraph.TextIndentProperty](/windows/winui/api/microsoft.ui.xaml.documents.paragraph.textindentproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Paragraph.TextIndentProperty](/windows/winui/api/microsoft.ui.xaml.documents.paragraph.textindentproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [TextIndent](paragraph_textindent.md) dependency property.

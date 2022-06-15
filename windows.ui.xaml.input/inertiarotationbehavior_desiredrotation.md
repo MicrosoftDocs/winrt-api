@@ -12,7 +12,7 @@ public double DesiredRotation { get;  set; }
 ## -description
 Gets or sets the rotation, in degrees, at the end of the inertial movement.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.InertiaRotationBehavior.DesiredRotation](/windows/winui/api/microsoft.ui.xaml.input.inertiarotationbehavior.desiredrotation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.InertiaRotationBehavior.DesiredRotation](/windows/winui/api/microsoft.ui.xaml.input.inertiarotationbehavior.desiredrotation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The rotation, in degrees, at the end of the inertial movement.

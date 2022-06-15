@@ -13,7 +13,7 @@ public Windows.UI.Color SandyBrown { get; }
 
 Gets the system-defined color that has an ARGB value of #FFF4A460.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.SandyBrown](/windows/winui/api/microsoft.ui.colors.sandybrown).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.SandyBrown](/windows/winui/api/microsoft.ui.colors.sandybrown) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

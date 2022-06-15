@@ -13,7 +13,7 @@ public class CompositionLineGeometry : CompositionGeometry, CompositionGeometry
 
 Represents a straight line between two points.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionLineGeometry](/windows/winui/api/microsoft.ui.composition.compositionlinegeometry).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionLineGeometry](/windows/winui/api/microsoft.ui.composition.compositionlinegeometry) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

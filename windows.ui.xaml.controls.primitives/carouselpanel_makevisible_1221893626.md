@@ -12,7 +12,7 @@ public Windows.Foundation.Rect MakeVisible(Windows.UI.Xaml.UIElement visual, Win
 ## -description
 Changes existing offsets in order to make the provided element visible in the viewport, and returns a [Rect](../windows.foundation/rect.md) measurement and position of the area.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel.MakeVisible](/windows/winui/api/microsoft.ui.xaml.controls.primitives.carouselpanel.makevisible).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel.MakeVisible](/windows/winui/api/microsoft.ui.xaml.controls.primitives.carouselpanel.makevisible) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param visual

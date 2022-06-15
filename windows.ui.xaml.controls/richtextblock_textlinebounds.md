@@ -12,7 +12,7 @@ public Windows.UI.Xaml.TextLineBounds TextLineBounds { get;  set; }
 ## -description
 Gets or sets a value that indicates how the line box height is determined for each line of text in the [RichTextBlock](richtextblock.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextLineBounds](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.textlinebounds).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextLineBounds](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.textlinebounds) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

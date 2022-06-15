@@ -13,7 +13,7 @@ public class FocusManager : Windows.UI.Xaml.Input.IFocusManager
 
 A helper class that enables global management of focus actions and events across all elements in an application.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.FocusManager](/windows/winui/api/microsoft.ui.xaml.input.focusmanager).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FocusManager](/windows/winui/api/microsoft.ui.xaml.input.focusmanager) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

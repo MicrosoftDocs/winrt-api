@@ -12,7 +12,7 @@ public void SetRightOf(Windows.UI.Xaml.UIElement element, System.Object value)
 ## -description
 Sets the value of the [RelativePanel.RightOf](relativepanel_rightof.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.SetRightOf](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setrightof).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.SetRightOf](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setrightof) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

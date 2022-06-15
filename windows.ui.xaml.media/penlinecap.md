@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.PenLineCap : int
 ## -description
 Describes the shape at the end of a line or segment.
 
-Equivalent WinUI enum: [PenLineCap](/windows/winui/api/microsoft.ui.xaml.media.penlinecap).
+Equivalent **WinUI 2 API for UWP**: [PenLineCap](/windows/winui/api/microsoft.ui.xaml.media.penlinecap) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

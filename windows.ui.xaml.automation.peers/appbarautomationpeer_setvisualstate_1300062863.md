@@ -12,7 +12,7 @@ public void SetVisualState(Windows.UI.Xaml.Automation.WindowVisualState state)
 ## -description
 Changes the visual state of the app bar (such as minimizing or maximizing it).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.SetVisualState](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarautomationpeer.setvisualstate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.SetVisualState](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarautomationpeer.setvisualstate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param state

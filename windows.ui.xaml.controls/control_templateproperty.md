@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TemplateProperty { get; }
 ## -description
 Identifies the [Template](control_template.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.TemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.control.templateproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.TemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.control.templateproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Template](control_template.md)  dependency property.

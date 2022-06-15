@@ -12,7 +12,7 @@ public void SetTitle(Windows.UI.Xaml.DependencyObject element, System.String val
 ## -description
 Sets the title displayed on a picker control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.PickerFlyoutBase.SetTitle](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pickerflyoutbase.settitle).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.PickerFlyoutBase.SetTitle](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pickerflyoutbase.settitle) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ public delegate void TextChangedEventHandler(System.Object sender, Windows.UI.Xa
 
 Represents the method that will handle the [TextChanged](textbox_textchanged.md) event.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.TextChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.textchangedeventhandler).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.textchangedeventhandler) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

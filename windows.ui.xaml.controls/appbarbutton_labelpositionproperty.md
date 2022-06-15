@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty LabelPositionProperty { get; }
 ## -description
 Identifies the [LabelPosition](appbarbutton_labelposition.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarButton.LabelPositionProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton.labelpositionproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AppBarButton.LabelPositionProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton.labelpositionproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [LabelPosition](appbarbutton_labelposition.md) dependency property.

@@ -12,7 +12,7 @@ public void DeleteTab(System.Single position)
 ## -description
 Deletes the tab at the specified position.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextParagraphFormat.DeleteTab](/windows/winui/api/microsoft.ui.text.itextparagraphformat.deletetab).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.DeleteTab](/windows/winui/api/microsoft.ui.text.itextparagraphformat.deletetab) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param position

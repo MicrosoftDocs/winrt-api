@@ -12,7 +12,7 @@ public double FontSize { get;  set; }
 ## -description
 Gets or sets the font size for the content of the element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.FontSize](/windows/winui/api/microsoft.ui.xaml.documents.textelement.fontsize).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextElement.FontSize](/windows/winui/api/microsoft.ui.xaml.documents.textelement.fontsize) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public object UnsetValue { get; }
 ## -description
 Specifies a static value that is used by the property system rather than **null** to indicate that the property exists, but does not have its value set by the property system or by any app code.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.DependencyProperty.UnsetValue](/windows/winui/api/microsoft.ui.xaml.dependencyproperty.unsetvalue).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DependencyProperty.UnsetValue](/windows/winui/api/microsoft.ui.xaml.dependencyproperty.unsetvalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The sentinel value for an unset value.

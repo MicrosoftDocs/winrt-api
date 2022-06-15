@@ -12,7 +12,7 @@ public float Kerning { get;  set; }
 ## -description
 Gets or sets the minimum font size at which kerning occurs.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.Kerning](/windows/winui/api/microsoft.ui.text.itextcharacterformat.kerning).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.Kerning](/windows/winui/api/microsoft.ui.text.itextcharacterformat.kerning) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The kerning size, in floating-point points.

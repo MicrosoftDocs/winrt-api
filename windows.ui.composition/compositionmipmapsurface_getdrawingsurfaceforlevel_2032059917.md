@@ -14,7 +14,7 @@ public CompositionDrawingSurface CompositionMipmapSurface.GetDrawingSurfaceForLe
 
 Retrieves the texture at the specified level of the mipmap.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionMipmapSurface.GetDrawingSurfaceForLevel](/windows/winui/api/microsoft.ui.composition.compositionmipmapsurface.getdrawingsurfaceforlevel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionMipmapSurface.GetDrawingSurfaceForLevel](/windows/winui/api/microsoft.ui.composition.compositionmipmapsurface.getdrawingsurfaceforlevel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param level

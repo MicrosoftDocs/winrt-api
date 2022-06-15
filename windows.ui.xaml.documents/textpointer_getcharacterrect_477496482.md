@@ -12,7 +12,7 @@ public Windows.Foundation.Rect GetCharacterRect(Windows.UI.Xaml.Documents.Logica
 ## -description
 Returns a bounding box for content that borders the current [TextPointer](textpointer.md) in the specified logical direction.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.TextPointer.GetCharacterRect](/windows/winui/api/microsoft.ui.xaml.documents.textpointer.getcharacterrect).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextPointer.GetCharacterRect](/windows/winui/api/microsoft.ui.xaml.documents.textpointer.getcharacterrect) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param direction

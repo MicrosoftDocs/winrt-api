@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty GlobalOffsetZProperty { get; }
 ## -description
 Identifies the [GlobalOffsetZ](planeprojection_globaloffsetz.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.GlobalOffsetZProperty](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.globaloffsetzproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PlaneProjection.GlobalOffsetZProperty](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.globaloffsetzproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [GlobalOffsetZ](planeprojection_globaloffsetz.md)  dependency property.

@@ -12,7 +12,7 @@ public object ReadLocalValue(Windows.UI.Xaml.DependencyProperty dp)
 ## -description
 Returns the local value of a dependency property, if a local value is set.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyObject.ReadLocalValue](/windows/winui/api/microsoft.ui.xaml.dependencyobject.readlocalvalue).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DependencyObject.ReadLocalValue](/windows/winui/api/microsoft.ui.xaml.dependencyobject.readlocalvalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param dp

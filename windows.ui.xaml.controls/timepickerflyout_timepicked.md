@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler TimePicked<Windows.UI.Xaml.Con
 ## -description
 Occurs when the user has selected a time in the time picker flyout.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TimePickerFlyout.TimePicked](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyout.timepicked).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TimePickerFlyout.TimePicked](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyout.timepicked) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -13,7 +13,7 @@ public enum Windows.UI.Xaml.FontVariants : int
 
 Describes a font variant value for the [Typography.Variants](/uwp/api/windows.ui.xaml.documents.typography.variants) attached property.
 
-Equivalent WinUI enum: [FontVariants](/windows/winui/api/microsoft.ui.xaml.fontvariants).
+Equivalent **WinUI 2 API for UWP**: [FontVariants](/windows/winui/api/microsoft.ui.xaml.fontvariants) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

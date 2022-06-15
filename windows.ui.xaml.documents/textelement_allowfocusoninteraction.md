@@ -12,7 +12,7 @@ public bool AllowFocusOnInteraction { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the element automatically gets focus when the user interacts with it.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.AllowFocusOnInteraction](/windows/winui/api/microsoft.ui.xaml.documents.textelement.allowfocusoninteraction).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextElement.AllowFocusOnInteraction](/windows/winui/api/microsoft.ui.xaml.documents.textelement.allowfocusoninteraction) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

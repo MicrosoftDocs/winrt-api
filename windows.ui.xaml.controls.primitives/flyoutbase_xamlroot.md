@@ -14,7 +14,7 @@ public XamlRoot XamlRoot { get;  set; }
 
 Gets or sets the XamlRoot in which this flyout is being viewed.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.XamlRoot](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.xamlroot).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.XamlRoot](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.xamlroot) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

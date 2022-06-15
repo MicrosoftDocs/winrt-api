@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.Symbol : int
 ## -description
 Defines constants that specify a glyph from the **Segoe MDL2 Assets** font to use as the content of a [SymbolIcon](symbolicon.md).
 
-Equivalent WinUI enum: [Symbol](/windows/winui/api/microsoft.ui.xaml.controls.symbol).
+Equivalent **WinUI 2 API for UWP**: [Symbol](/windows/winui/api/microsoft.ui.xaml.controls.symbol) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

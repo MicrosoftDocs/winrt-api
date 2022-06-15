@@ -12,7 +12,7 @@ public Windows.UI.Composition.ExpressionAnimation CreateExpressionAnimation()
 ## -description
 Creates an instance of [ExpressionAnimation](expressionanimation.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateExpressionAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createexpressionanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateExpressionAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createexpressionanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 Returns the created [ExpressionAnimation](expressionanimation.md) object.

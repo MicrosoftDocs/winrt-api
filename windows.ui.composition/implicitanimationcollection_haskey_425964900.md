@@ -12,7 +12,7 @@ public bool HasKey(System.String key)
 ## -description
 Returns a boolean indicating whether the collection contains the specified key.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.ImplicitAnimationCollection.HasKey](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.haskey).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ImplicitAnimationCollection.HasKey](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.haskey) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param key

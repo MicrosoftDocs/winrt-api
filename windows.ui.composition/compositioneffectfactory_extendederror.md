@@ -12,7 +12,7 @@ public Windows.Foundation.HResult ExtendedError { get; }
 ## -description
 An extended error code for the result of a call to [CreateBrush](compositioneffectfactory_createbrush_639615316.md).
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionEffectFactory.ExtendedError](/windows/winui/api/microsoft.ui.composition.compositioneffectfactory.extendederror).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionEffectFactory.ExtendedError](/windows/winui/api/microsoft.ui.composition.compositioneffectfactory.extendederror) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 An extended error code for the result of a call to [CreateBrush](compositioneffectfactory_createbrush_639615316.md).

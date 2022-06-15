@@ -12,7 +12,7 @@ public Windows.UI.Text.FontStyle MonthYearItemFontStyle { get;  set; }
 ## -description
 Gets or sets the font style used to display the month and year items in the calendar.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.MonthYearItemFontStyle](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.monthyearitemfontstyle).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.MonthYearItemFontStyle](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.monthyearitemfontstyle) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

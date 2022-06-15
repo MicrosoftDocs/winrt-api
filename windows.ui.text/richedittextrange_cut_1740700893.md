@@ -13,7 +13,7 @@ public void RichEditTextRange.Cut()
 
 Moves the text of the text range to the Clipboard.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.Cut](/windows/winui/api/microsoft.ui.text.richedittextrange.cut).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.Cut](/windows/winui/api/microsoft.ui.text.richedittextrange.cut) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

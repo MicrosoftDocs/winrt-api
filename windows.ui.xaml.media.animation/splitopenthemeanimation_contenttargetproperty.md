@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ContentTargetProperty { get; }
 ## -description
 Identifies the [ContentTarget](splitopenthemeanimation_contenttarget.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation.ContentTargetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation.contenttargetproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation.ContentTargetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation.contenttargetproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ContentTarget](splitopenthemeanimation_contenttarget.md) dependency property.

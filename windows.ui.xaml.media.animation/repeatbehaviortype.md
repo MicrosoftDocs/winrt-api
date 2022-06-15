@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.Animation.RepeatBehaviorType : int
 ## -description
 Specifies the repeat mode that a [RepeatBehavior](repeatbehavior.md) raw value represents.
 
-Equivalent WinUI enum: [RepeatBehaviorType](/windows/winui/api/microsoft.ui.xaml.media.animation.repeatbehaviortype).
+Equivalent **WinUI 2 API for UWP**: [RepeatBehaviorType](/windows/winui/api/microsoft.ui.xaml.media.animation.repeatbehaviortype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Count:0

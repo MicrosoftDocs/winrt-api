@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionBrush Brush { get;  set; }
 ## -description
 A [CompositionBrush](compositionbrush.md) describing how the [SpriteVisual](spritevisual.md) is painted.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.SpriteVisual.Brush](/windows/winui/api/microsoft.ui.composition.spritevisual.brush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpriteVisual.Brush](/windows/winui/api/microsoft.ui.composition.spritevisual.brush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A [CompositionBrush](compositionbrush.md) describing how the [SpriteVisual](spritevisual.md) is painted.

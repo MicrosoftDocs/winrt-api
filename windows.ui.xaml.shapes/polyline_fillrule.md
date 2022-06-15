@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.FillRule FillRule { get;  set; }
 ## -description
 Gets or sets a value that specifies how the interior fill of the shape is determined.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Polyline.FillRule](/windows/winui/api/microsoft.ui.xaml.shapes.polyline.fillrule).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Polyline.FillRule](/windows/winui/api/microsoft.ui.xaml.shapes.polyline.fillrule) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

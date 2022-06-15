@@ -12,7 +12,7 @@ public int SelectedIndex { get;  set; }
 ## -description
 Gets or sets the index of the [LoopingSelectorItem](loopingselectoritem.md) that is displayed in the [LoopingSelector](loopingselector.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.SelectedIndex](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.selectedindex).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.SelectedIndex](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.selectedindex) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The index of the [LoopingSelectorItem](loopingselectoritem.md) that is visible in the [LoopingSelector](loopingselector.md).

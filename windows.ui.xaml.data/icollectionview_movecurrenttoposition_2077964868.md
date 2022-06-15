@@ -12,7 +12,7 @@ public bool MoveCurrentToPosition(System.Int32 index)
 ## -description
 Sets the item at the specified index to be the [CurrentItem](icollectionview_currentitem.md) in the view.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Data.ICollectionView.MoveCurrentToPosition](/windows/winui/api/microsoft.ui.xaml.data.icollectionview.movecurrenttoposition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICollectionView.MoveCurrentToPosition](/windows/winui/api/microsoft.ui.xaml.data.icollectionview.movecurrenttoposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param index

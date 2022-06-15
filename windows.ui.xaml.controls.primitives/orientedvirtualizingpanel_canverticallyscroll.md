@@ -12,7 +12,7 @@ public bool CanVerticallyScroll { get;  set; }
 ## -description
 Gets or sets a value that determines how the [OrientedVirtualizingPanel](orientedvirtualizingpanel.md) measures space for child elements for possible scrolling in the vertical dimension.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.CanVerticallyScroll](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.canverticallyscroll).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.CanVerticallyScroll](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.canverticallyscroll) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** to support a potentially infinite vertical layout dimension. **false** to restrict to available size.

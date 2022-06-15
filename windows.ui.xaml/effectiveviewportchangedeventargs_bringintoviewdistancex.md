@@ -14,7 +14,7 @@ public double BringIntoViewDistanceX { get; }
 
 Gets the sum of translation in the X-axis that is required to bring the [FrameworkElement](frameworkelement.md) into view of each viewport containing the element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.EffectiveViewportChangedEventArgs.BringIntoViewDistanceX](/windows/winui/api/microsoft.ui.xaml.effectiveviewportchangedeventargs.bringintoviewdistancex).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.EffectiveViewportChangedEventArgs.BringIntoViewDistanceX](/windows/winui/api/microsoft.ui.xaml.effectiveviewportchangedeventargs.bringintoviewdistancex) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

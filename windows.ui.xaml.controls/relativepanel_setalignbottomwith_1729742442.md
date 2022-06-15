@@ -12,7 +12,7 @@ public void SetAlignBottomWith(Windows.UI.Xaml.UIElement element, System.Object 
 ## -description
 Sets the value of the [RelativePanel.AlignBottomWith](relativepanel_alignbottomwith.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.SetAlignBottomWith](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setalignbottomwith).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.SetAlignBottomWith](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setalignbottomwith) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

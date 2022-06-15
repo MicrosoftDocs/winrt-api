@@ -12,7 +12,7 @@ public bool GetIsVerticalRailEnabled(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets the value of the [IsVerticalRailEnabled](scrollviewer_isverticalrailenabled.md) dependency property / `ScrollViewer.IsVerticalRailEnabled` XAML attached property from a specified element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.GetIsVerticalRailEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.getisverticalrailenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.GetIsVerticalRailEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.getisverticalrailenabled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

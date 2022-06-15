@@ -12,7 +12,7 @@ public void SetStylisticSet8(Windows.UI.Xaml.DependencyObject element, System.Bo
 ## -description
 Sets the value of the [StylisticSet8](typography_stylisticset8.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet8](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset8).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet8](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset8) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ virtual protected int GetLevelCore()
 ## -description
 Provides the behavior of the peer when a Microsoft UI Automation client calls [GetLevel](automationpeer_getlevel_533003345.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLevelCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getlevelcore).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLevelCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getlevelcore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 The behavior of the peer.

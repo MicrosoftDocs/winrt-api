@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ShouldLoopProperty { get; }
 ## -description
 Identifies the [ShouldLoop](loopingselector_shouldloop.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.ShouldLoopProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.shouldloopproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.ShouldLoopProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.shouldloopproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ShouldLoop](loopingselector_shouldloop.md) dependency property.

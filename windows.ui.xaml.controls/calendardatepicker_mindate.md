@@ -12,7 +12,7 @@ public Windows.Foundation.DateTime MinDate { get;  set; }
 ## -description
 Gets or sets the earliest date that can be set in the picker.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.MinDate](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.mindate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.MinDate](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.mindate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The earliest date that can be set.

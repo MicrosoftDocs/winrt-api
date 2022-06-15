@@ -12,7 +12,7 @@ public double ActualHeight { get; }
 ## -description
 Gets a value that represents the calculated height of the [RowDefinition](rowdefinition.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RowDefinition.ActualHeight](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.actualheight).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RowDefinition.ActualHeight](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.actualheight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A value that represents the calculated height in pixels. The default value is 0.

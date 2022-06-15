@@ -16,7 +16,7 @@ When implemented in a derived class, you can safely dispose of the compostion br
 
 [OnConnected](xamlcompositionbrushbase_onconnected_591765711.md) will be called again if the brush is later used to paint any elements after being disconnected.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.OnDisconnected](/windows/winui/api/microsoft.ui.xaml.media.xamlcompositionbrushbase.ondisconnected).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.OnDisconnected](/windows/winui/api/microsoft.ui.xaml.media.xamlcompositionbrushbase.ondisconnected) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

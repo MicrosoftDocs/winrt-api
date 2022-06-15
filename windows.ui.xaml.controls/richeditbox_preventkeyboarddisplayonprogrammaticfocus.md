@@ -12,7 +12,7 @@ public bool PreventKeyboardDisplayOnProgrammaticFocus { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the on-screen keyboard is shown when the control receives focus programmatically.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.PreventKeyboardDisplayOnProgrammaticFocus](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.preventkeyboarddisplayonprogrammaticfocus).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBox.PreventKeyboardDisplayOnProgrammaticFocus](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.preventkeyboarddisplayonprogrammaticfocus) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public enum Windows.UI.Text.RangeGravity : int
 ## -description
 Specifies the gravity for a text range.
 
-Equivalent WinUI enum: [RangeGravity](/windows/winui/api/microsoft.ui.text.rangegravity).
+Equivalent **WinUI 2 API for UWP**: [RangeGravity](/windows/winui/api/microsoft.ui.text.rangegravity) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field UIBehavior:0

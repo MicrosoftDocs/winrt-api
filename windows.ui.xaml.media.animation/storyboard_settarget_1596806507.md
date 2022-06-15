@@ -12,7 +12,7 @@ public void SetTarget(Windows.UI.Xaml.Media.Animation.Timeline timeline, Windows
 ## -description
 Causes the specified [Timeline](timeline.md) to target the specified object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.Storyboard.SetTarget](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.settarget).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Storyboard.SetTarget](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.settarget) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param timeline

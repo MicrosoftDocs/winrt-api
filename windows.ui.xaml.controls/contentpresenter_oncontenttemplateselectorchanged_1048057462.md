@@ -12,7 +12,7 @@ virtual protected void OnContentTemplateSelectorChanged(Windows.UI.Xaml.Controls
 ## -description
 Invoked when the value of the [ContentTemplateSelector](contentpresenter_contenttemplateselector.md) property changes.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ContentPresenter.OnContentTemplateSelectorChanged](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.oncontenttemplateselectorchanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentPresenter.OnContentTemplateSelectorChanged](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.oncontenttemplateselectorchanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param oldContentTemplateSelector

@@ -12,7 +12,7 @@ public class DiscreteDoubleKeyFrame : Windows.UI.Xaml.Media.Animation.DoubleKeyF
 ## -description
 Animates from the [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) value of the previous key frame to its own [Value](doublekeyframe_value.md) using discrete values.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DiscreteDoubleKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.discretedoublekeyframe).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DiscreteDoubleKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.discretedoublekeyframe) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

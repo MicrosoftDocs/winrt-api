@@ -12,7 +12,7 @@ public bool CanVerticallyScroll { get;  set; }
 ## -description
 Gets or sets a value that indicates whether scrolling on the vertical axis is possible.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.CanVerticallyScroll](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.canverticallyscroll).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.CanVerticallyScroll](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.canverticallyscroll) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if scrolling is possible; otherwise, **false**.

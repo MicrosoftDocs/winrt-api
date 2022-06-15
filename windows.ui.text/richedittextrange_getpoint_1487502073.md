@@ -13,7 +13,7 @@ public void RichEditTextRange.GetPoint(HorizontalCharacterAlignment horizontalAl
 
 Retrieves the screen coordinates of a particular location in the text range.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.GetPoint](/windows/winui/api/microsoft.ui.text.richedittextrange.getpoint).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.GetPoint](/windows/winui/api/microsoft.ui.text.richedittextrange.getpoint) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param horizontalAlign

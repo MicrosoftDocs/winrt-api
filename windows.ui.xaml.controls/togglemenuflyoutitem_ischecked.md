@@ -12,7 +12,7 @@ public bool IsChecked { get;  set; }
 ## -description
 Gets or sets whether the [ToggleMenuFlyoutItem](togglemenuflyoutitem.md) is checked.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem.IsChecked](/windows/winui/api/microsoft.ui.xaml.controls.togglemenuflyoutitem.ischecked).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem.IsChecked](/windows/winui/api/microsoft.ui.xaml.controls.togglemenuflyoutitem.ischecked) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

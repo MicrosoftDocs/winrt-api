@@ -13,7 +13,7 @@ public void CompositionDebugHeatMaps.Hide(Visual subtree)
 
 Hides the heatmap for the specified subtree.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Diagnostics.CompositionDebugHeatMaps.Hide](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugheatmaps.hide).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Diagnostics.CompositionDebugHeatMaps.Hide](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugheatmaps.hide) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param subtree

@@ -17,7 +17,7 @@ Provides the event data for a [CollectionChanged](inotifycollectionchanged_colle
 > **.NET**
 > This class appears as [System.Collections.Specialized.NotifyCollectionChangedEventArgs](/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?view=dotnet-uwp-10.0&preserve-view=true).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 When programming with .NET, this class is hidden and developers should use the [System.Collections.Specialized.NotifyCollectionChangedEventArgs](/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs?view=dotnet-uwp-10.0&preserve-view=true) class.

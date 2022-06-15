@@ -14,7 +14,7 @@ public DependencyProperty IsNavigationStackEnabledProperty { get; }
 
 Identifies the IsNavigationStackEnabled dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Frame.IsNavigationStackEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.frame.isnavigationstackenabledproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Frame.IsNavigationStackEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.frame.isnavigationstackenabledproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

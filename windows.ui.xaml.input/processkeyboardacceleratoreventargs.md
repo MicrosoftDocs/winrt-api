@@ -12,7 +12,7 @@ public class ProcessKeyboardAcceleratorEventArgs
 ## -description
 Provides event data for the [ProcessKeyboardAccelerators](../windows.ui.xaml/uielement_processkeyboardaccelerators.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs](/windows/winui/api/microsoft.ui.xaml.input.processkeyboardacceleratoreventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs](/windows/winui/api/microsoft.ui.xaml.input.processkeyboardacceleratoreventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

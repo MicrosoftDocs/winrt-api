@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.ElementSoundKind : int
 ## -description
 Defines constants that specify the sound played by the [ElementSoundPlayer.Play](elementsoundplayer_play_1940496813.md) method.
 
-Equivalent WinUI enum: [ElementSoundKind](/windows/winui/api/microsoft.ui.xaml.elementsoundkind).
+Equivalent **WinUI 2 API for UWP**: [ElementSoundKind](/windows/winui/api/microsoft.ui.xaml.elementsoundkind) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Focus:0

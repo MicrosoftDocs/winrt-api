@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Transform Transform { get;  set; }
 ## -description
 Gets or sets the transformation that is applied to the brush.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Brush.Transform](/windows/winui/api/microsoft.ui.xaml.media.brush.transform).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Brush.Transform](/windows/winui/api/microsoft.ui.xaml.media.brush.transform) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

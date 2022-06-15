@@ -14,7 +14,7 @@ public bool IsInertiaFromImpulse { get; }
 
 Gets a value that indicates whether the inertia is the result of an impulse.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaStateEnteredArgs.IsInertiaFromImpulse](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiastateenteredargs.isinertiafromimpulse).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaStateEnteredArgs.IsInertiaFromImpulse](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiastateenteredargs.isinertiafromimpulse) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

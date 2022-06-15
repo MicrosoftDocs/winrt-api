@@ -12,7 +12,7 @@ public Windows.UI.Color InnerConeColor { get;  set; }
 ## -description
 Color of the spotlight's inner cone. Animatable.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.SpotLight.InnerConeColor](/windows/winui/api/microsoft.ui.composition.spotlight.innerconecolor).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpotLight.InnerConeColor](/windows/winui/api/microsoft.ui.composition.spotlight.innerconecolor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 Color of the spotlight's inner cone.

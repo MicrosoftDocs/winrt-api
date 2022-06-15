@@ -13,7 +13,7 @@ public TimeSpan Duration { get;  set; }
 ## -description
 Gets or sets the duration of the transition.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Vector3Transition.Duration](/windows/winui/api/microsoft.ui.xaml.vector3transition.duration).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Vector3Transition.Duration](/windows/winui/api/microsoft.ui.xaml.vector3transition.duration) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

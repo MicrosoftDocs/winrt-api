@@ -13,7 +13,7 @@ public DependencyProperty ColumnSpacingProperty { get; }
 
 Identifies the ColumnSpacing dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.ColumnSpacingProperty](/windows/winui/api/microsoft.ui.xaml.controls.grid.columnspacingproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Grid.ColumnSpacingProperty](/windows/winui/api/microsoft.ui.xaml.controls.grid.columnspacingproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

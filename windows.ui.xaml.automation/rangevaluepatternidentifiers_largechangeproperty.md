@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty LargeChangeProperty { get; 
 ## -description
 Identifies the [LargeChange](../windows.ui.xaml.automation.provider/irangevalueprovider_largechange.md) automation property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.RangeValuePatternIdentifiers.LargeChangeProperty](/windows/winui/api/microsoft.ui.xaml.automation.rangevaluepatternidentifiers.largechangeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.RangeValuePatternIdentifiers.LargeChangeProperty](/windows/winui/api/microsoft.ui.xaml.automation.rangevaluepatternidentifiers.largechangeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The automation property identifier.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.GridLength Width { get;  set; }
 ## -description
 Gets the calculated width of a [ColumnDefinition](columndefinition.md) element, or sets the [GridLength](../windows.ui.xaml/gridlength.md) value of a column that is defined by the [ColumnDefinition](columndefinition.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ColumnDefinition.Width](/windows/winui/api/microsoft.ui.xaml.controls.columndefinition.width).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ColumnDefinition.Width](/windows/winui/api/microsoft.ui.xaml.controls.columndefinition.width) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

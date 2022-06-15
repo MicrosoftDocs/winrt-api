@@ -12,7 +12,7 @@ public interface IItemContainerMapping :
 ## -description
 Provides methods that let an [ItemsControl](itemscontrol.md) map data items to UI containers.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Controls.IItemContainerMapping](/windows/winui/api/microsoft.ui.xaml.controls.iitemcontainermapping).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.IItemContainerMapping](/windows/winui/api/microsoft.ui.xaml.controls.iitemcontainermapping) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

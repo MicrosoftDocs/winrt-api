@@ -12,7 +12,7 @@ public double CurtainOffToOnOffset { get; }
 ## -description
 Gets the calculated value of the offset for the "curtain" element of the [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md), in "Off" to "On" direction.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings.CurtainOffToOnOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.toggleswitchtemplatesettings.curtainofftoonoffset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings.CurtainOffToOnOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.toggleswitchtemplatesettings.curtainofftoonoffset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A value in pixels.

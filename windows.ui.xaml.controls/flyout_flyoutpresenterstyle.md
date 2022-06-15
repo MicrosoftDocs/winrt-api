@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Style FlyoutPresenterStyle { get;  set; }
 ## -description
 Gets or sets the [Style](../windows.ui.xaml/style.md) applied to the [Flyout](flyout.md) content.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Flyout.FlyoutPresenterStyle](/windows/winui/api/microsoft.ui.xaml.controls.flyout.flyoutpresenterstyle).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Flyout.FlyoutPresenterStyle](/windows/winui/api/microsoft.ui.xaml.controls.flyout.flyoutpresenterstyle) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

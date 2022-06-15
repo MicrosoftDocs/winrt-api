@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.ApplicationTheme : int
 ## -description
 Declares the theme preference for an app.
 
-Equivalent WinUI enum: [ApplicationTheme](/windows/winui/api/microsoft.ui.xaml.applicationtheme).
+Equivalent **WinUI 2 API for UWP**: [ApplicationTheme](/windows/winui/api/microsoft.ui.xaml.applicationtheme) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

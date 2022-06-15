@@ -12,7 +12,7 @@ protected void InsertInternalChild(System.Int32 index, Windows.UI.Xaml.UIElement
 ## -description
 Adds the specified [UIElement](../windows.ui.xaml/uielement.md) to the collection of a [VirtualizingPanel](virtualizingpanel.md) element at the specified index position.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VirtualizingPanel.InsertInternalChild](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingpanel.insertinternalchild).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VirtualizingPanel.InsertInternalChild](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingpanel.insertinternalchild) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param index

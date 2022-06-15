@@ -12,7 +12,7 @@ public Windows.Foundation.IAsyncAction SetBitmapAsync(Windows.Graphics.Imaging.S
 ## -description
 Sets the source [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.md) to be used as an image source.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.SoftwareBitmapSource.SetBitmapAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.softwarebitmapsource.setbitmapasync).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.SoftwareBitmapSource.SetBitmapAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.softwarebitmapsource.setbitmapasync) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param softwareBitmap

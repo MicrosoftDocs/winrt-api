@@ -12,7 +12,7 @@ virtual protected void OnDropDownOpened(System.Object e)
 ## -description
 Invoked when the [DropDownOpened](combobox_dropdownopened.md) event is raised.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ComboBox.OnDropDownOpened](/windows/winui/api/microsoft.ui.xaml.controls.combobox.ondropdownopened).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ComboBox.OnDropDownOpened](/windows/winui/api/microsoft.ui.xaml.controls.combobox.ondropdownopened) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param e

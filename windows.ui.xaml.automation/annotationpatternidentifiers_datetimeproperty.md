@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty DateTimeProperty { get; }
 ## -description
 Gets the identifier for the [DateTime](../windows.ui.xaml.automation.provider/iannotationprovider_datetime.md) automation property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.DateTimeProperty](/windows/winui/api/microsoft.ui.xaml.automation.annotationpatternidentifiers.datetimeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.DateTimeProperty](/windows/winui/api/microsoft.ui.xaml.automation.annotationpatternidentifiers.datetimeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The automation property identifier.

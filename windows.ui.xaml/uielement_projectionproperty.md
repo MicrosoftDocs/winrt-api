@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ProjectionProperty { get; }
 ## -description
 Identifies the [Projection](uielement_projection.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ProjectionProperty](/windows/winui/api/microsoft.ui.xaml.uielement.projectionproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ProjectionProperty](/windows/winui/api/microsoft.ui.xaml.uielement.projectionproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Projection](uielement_projection.md) dependency property.

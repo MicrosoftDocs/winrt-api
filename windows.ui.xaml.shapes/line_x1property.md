@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty X1Property { get; }
 ## -description
 Identifies the [X1](line_x1.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Line.X1Property](/windows/winui/api/microsoft.ui.xaml.shapes.line.x1property).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Line.X1Property](/windows/winui/api/microsoft.ui.xaml.shapes.line.x1property) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [X1](line_x1.md) dependency property.

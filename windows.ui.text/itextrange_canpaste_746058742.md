@@ -12,7 +12,7 @@ public bool CanPaste(System.Int32 format)
 ## -description
 Determines whether the Clipboard contains content that can be pasted, using a specified format, into the current text range.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.CanPaste](/windows/winui/api/microsoft.ui.text.itextrange.canpaste).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.CanPaste](/windows/winui/api/microsoft.ui.text.itextrange.canpaste) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param format

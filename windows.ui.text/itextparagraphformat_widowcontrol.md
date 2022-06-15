@@ -12,7 +12,7 @@ public Windows.UI.Text.FormatEffect WidowControl { get;  set; }
 ## -description
 Gets or sets whether widow and orphan suppression is on or off.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.WidowControl](/windows/winui/api/microsoft.ui.text.itextparagraphformat.widowcontrol).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.WidowControl](/windows/winui/api/microsoft.ui.text.itextparagraphformat.widowcontrol) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The state of widow and orphan suppression.

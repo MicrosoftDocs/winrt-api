@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AlignVerticalCenterWithProperty { get;
 ## -description
 Gets the value of the [RelativePanel.AlignVerticalCenterWith](relativepanel_alignverticalcenterwith.md) XAML attached property for the target element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.AlignVerticalCenterWithProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.alignverticalcenterwithproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.AlignVerticalCenterWithProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.alignverticalcenterwithproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [RelativePanel.AlignVerticalCenterWith](relativepanel_alignverticalcenterwith.md) XAML attached property.

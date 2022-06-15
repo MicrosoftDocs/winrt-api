@@ -10,7 +10,7 @@ public delegate void PaginateEventHandler(System.Object sender, Windows.UI.Xaml.
 ## -description
 Represents the method that will handle the [Paginate](printdocument_paginate.md) event.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.Printing.PaginateEventHandler](/windows/winui/api/microsoft.ui.xaml.printing.paginateeventhandler).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Printing.PaginateEventHandler](/windows/winui/api/microsoft.ui.xaml.printing.paginateeventhandler) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param sender

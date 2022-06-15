@@ -12,7 +12,7 @@ public int RequestId { get; }
 ## -description
 The ID of the request that triggered the callback.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTrackerInteractingStateEnteredArgs.RequestId](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinteractingstateenteredargs.requestid).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTrackerInteractingStateEnteredArgs.RequestId](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinteractingstateenteredargs.requestid) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The ID of the request that triggered the callback.

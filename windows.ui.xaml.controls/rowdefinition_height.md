@@ -12,7 +12,7 @@ public Windows.UI.Xaml.GridLength Height { get;  set; }
 ## -description
 Gets the calculated height of a [RowDefinition](rowdefinition.md) element, or sets the [GridLength](../windows.ui.xaml/gridlength.md) value of a row that is defined by the [RowDefinition](rowdefinition.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RowDefinition.Height](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.height).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RowDefinition.Height](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.height) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

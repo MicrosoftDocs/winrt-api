@@ -12,7 +12,7 @@ public bool IndexOf(Windows.UI.Xaml.Media.Animation.PointKeyFrame value, System.
 ## -description
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.animation.pointkeyframecollection.indexof).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.animation.pointkeyframecollection.indexof) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param value

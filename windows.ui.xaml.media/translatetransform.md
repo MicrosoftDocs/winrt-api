@@ -12,7 +12,7 @@ public class TranslateTransform : Windows.UI.Xaml.Media.Transform, Windows.UI.Xa
 ## -description
 Translates (moves) an object in the two-dimensional x-y coordinate system.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.TranslateTransform](/windows/winui/api/microsoft.ui.xaml.media.translatetransform).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.TranslateTransform](/windows/winui/api/microsoft.ui.xaml.media.translatetransform) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

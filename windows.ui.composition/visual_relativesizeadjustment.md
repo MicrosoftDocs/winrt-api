@@ -13,7 +13,7 @@ public Vector2 RelativeSizeAdjustment { get;  set; }
 
 Gets or sets the size of the visual with respect to the size of its parent visual.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Visual.RelativeSizeAdjustment](/windows/winui/api/microsoft.ui.composition.visual.relativesizeadjustment).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual.RelativeSizeAdjustment](/windows/winui/api/microsoft.ui.composition.visual.relativesizeadjustment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

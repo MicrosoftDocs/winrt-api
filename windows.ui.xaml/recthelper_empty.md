@@ -13,7 +13,7 @@ public Windows.Foundation.Rect Empty { get; }
 
 Gets a static [Rect](../windows.foundation/rect.md) value where the [Rect](../windows.foundation/rect.md) has no size or position (all values 0). C# and Microsoft Visual Basic code should use [Rect.Empty](/dotnet/api/windows.foundation.rect.empty?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.RectHelper.Empty](/windows/winui/api/microsoft.ui.xaml.recthelper.empty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.RectHelper.Empty](/windows/winui/api/microsoft.ui.xaml.recthelper.empty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

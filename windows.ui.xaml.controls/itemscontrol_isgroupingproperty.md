@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsGroupingProperty { get; }
 ## -description
 Identifies the [IsGrouping](itemscontrol_isgrouping.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.IsGroupingProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.isgroupingproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.IsGroupingProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.isgroupingproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [IsGrouping](itemscontrol_isgrouping.md) dependency property.

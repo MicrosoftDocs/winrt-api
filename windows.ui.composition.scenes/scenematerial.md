@@ -14,7 +14,7 @@ public class SceneMaterial : SceneObject, SceneObject
 
 Represents an asset that describes how a surface is rendered.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.SceneMaterial](/windows/winui/api/microsoft.ui.composition.scenes.scenematerial).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneMaterial](/windows/winui/api/microsoft.ui.composition.scenes.scenematerial) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

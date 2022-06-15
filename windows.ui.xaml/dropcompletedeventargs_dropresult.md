@@ -12,7 +12,7 @@ public Windows.ApplicationModel.DataTransfer.DataPackageOperation DropResult { g
 ## -description
 Gets a value that indicates the type of drag-and-drop operation, and whether the operation was successful.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.DropCompletedEventArgs.DropResult](/windows/winui/api/microsoft.ui.xaml.dropcompletedeventargs.dropresult).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DropCompletedEventArgs.DropResult](/windows/winui/api/microsoft.ui.xaml.dropcompletedeventargs.dropresult) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 An enumeration value that indicates the type of drag-and-drop operation, and whether the operation was successful.

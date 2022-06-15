@@ -12,7 +12,7 @@ public class EasingColorKeyFrame : Windows.UI.Xaml.Media.Animation.ColorKeyFrame
 ## -description
 Associates easing functions with a [ColorAnimationUsingKeyFrames](coloranimationusingkeyframes.md) key-frame animation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.EasingColorKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.easingcolorkeyframe).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.EasingColorKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.easingcolorkeyframe) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

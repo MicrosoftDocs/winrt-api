@@ -12,7 +12,7 @@ public bool IsTopmost { get; }
 ## -description
 Gets a Boolean value indicating if the [ComboBox](../windows.ui.xaml.controls/combobox.md) control is topmost.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.IsTopmost](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxautomationpeer.istopmost).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.IsTopmost](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxautomationpeer.istopmost) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A Boolean value indicating if the [ComboBox](../windows.ui.xaml.controls/combobox.md) control is topmost.

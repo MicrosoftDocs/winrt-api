@@ -12,7 +12,7 @@ public class SpriteVisual : Windows.UI.Composition.ContainerVisual, Windows.UI.C
 ## -description
 Hosts 2D boxed content of type [CompositionBrush](compositionbrush.md). Any part of the visual not covered by pixels from the brush are rendered as transparent pixels. CompositionBrush can be either a [CompositionBackdropBrush](compositionbackdropbrush.md), [CompositionColorBrush](compositioncolorbrush.md), a [CompositionSurfaceBrush](compositionsurfacebrush.md) or a [CompositionEffectBrush](compositioneffectbrush.md).
 
-Equivalent WinUI class: [Microsoft.UI.Composition.SpriteVisual](/windows/winui/api/microsoft.ui.composition.spritevisual).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpriteVisual](/windows/winui/api/microsoft.ui.composition.spritevisual) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

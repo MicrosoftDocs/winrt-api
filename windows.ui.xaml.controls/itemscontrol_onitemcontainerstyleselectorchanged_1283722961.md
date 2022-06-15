@@ -12,7 +12,7 @@ virtual protected void OnItemContainerStyleSelectorChanged(Windows.UI.Xaml.Contr
 ## -description
 Invoked when the value of the [ItemContainerStyleSelector](itemscontrol_itemcontainerstyleselector.md) property changes.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemsControl.OnItemContainerStyleSelectorChanged](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.onitemcontainerstyleselectorchanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.OnItemContainerStyleSelectorChanged](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.onitemcontainerstyleselectorchanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param oldItemContainerStyleSelector

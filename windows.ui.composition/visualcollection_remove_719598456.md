@@ -12,7 +12,7 @@ public void Remove(Windows.UI.Composition.Visual child)
 ## -description
 Removes the specified visual instance from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.VisualCollection.Remove](/windows/winui/api/microsoft.ui.composition.visualcollection.remove).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.VisualCollection.Remove](/windows/winui/api/microsoft.ui.composition.visualcollection.remove) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param child

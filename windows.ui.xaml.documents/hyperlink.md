@@ -12,7 +12,7 @@ public class Hyperlink : Windows.UI.Xaml.Documents.Span, Windows.UI.Xaml.Documen
 ## -description
 Provides an inline-level content element that provides facilities for hosting hyperlinks.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.Hyperlink](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Hyperlink](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

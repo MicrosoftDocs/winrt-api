@@ -13,7 +13,7 @@ public Windows.UI.Color Firebrick { get; }
 
 Gets the system-defined color that has an ARGB value of #FFB22222.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Firebrick](/windows/winui/api/microsoft.ui.colors.firebrick).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Firebrick](/windows/winui/api/microsoft.ui.colors.firebrick) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

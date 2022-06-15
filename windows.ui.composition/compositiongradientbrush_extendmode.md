@@ -13,7 +13,7 @@ public CompositionGradientExtendMode ExtendMode { get;  set; }
 
 Gets or sets a value that specifies how to draw the gradient outside the brush's gradient vector or space.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGradientBrush.ExtendMode](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.extendmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionGradientBrush.ExtendMode](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.extendmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

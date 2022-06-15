@@ -12,7 +12,7 @@ public Windows.UI.Composition.AmbientLight CreateAmbientLight()
 ## -description
 Creates an instance of [AmbientLight](ambientlight.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateAmbientLight](/windows/winui/api/microsoft.ui.composition.compositor.createambientlight).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateAmbientLight](/windows/winui/api/microsoft.ui.composition.compositor.createambientlight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 Returns the created [AmbientLight](ambientlight.md) object.

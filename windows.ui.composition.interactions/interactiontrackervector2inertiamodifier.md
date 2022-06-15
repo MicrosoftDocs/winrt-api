@@ -13,7 +13,7 @@ public class InteractionTrackerVector2InertiaModifier : CompositionObject, Compo
 
 Base class for [InteractionTrackerVector2InertiaNaturalMotion](interactiontrackervector2inertianaturalmotion.md).
 
-Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionTrackerVector2InertiaModifier](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackervector2inertiamodifier).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTrackerVector2InertiaModifier](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackervector2inertiamodifier) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

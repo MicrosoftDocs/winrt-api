@@ -12,7 +12,7 @@ public void AdjustPositionXIfGreaterThanThreshold(System.Single adjustment, Syst
 ## -description
 Adjusts the position x coordinate if it is greater than the specified threshold.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTracker.AdjustPositionXIfGreaterThanThreshold](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.adjustpositionxifgreaterthanthreshold).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.AdjustPositionXIfGreaterThanThreshold](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.adjustpositionxifgreaterthanthreshold) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param adjustment

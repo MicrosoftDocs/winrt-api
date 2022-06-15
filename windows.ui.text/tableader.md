@@ -12,7 +12,7 @@ public enum Windows.UI.Text.TabLeader : int
 ## -description
 The character that is used to fill the space taken by a tab character.
 
-Equivalent WinUI enum: [TabLeader](/windows/winui/api/microsoft.ui.text.tableader).
+Equivalent **WinUI 2 API for UWP**: [TabLeader](/windows/winui/api/microsoft.ui.text.tableader) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Spaces:0

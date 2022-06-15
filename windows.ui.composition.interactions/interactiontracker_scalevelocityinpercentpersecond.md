@@ -14,7 +14,7 @@ The rate of change for scale.
 
 The ScaleVelocityInPercentPerSecond property represents the current scale velocity of [InteractionTracker](interactiontracker.md) while in Inertia. Grabbing the position velocity of [InteractionTracker](interactiontracker.md) right after an Interaction has occurred or reference the most current velocity of [InteractionTracker](interactiontracker.md) in an [ExpressionAnimation](../windows.ui.composition/expressionanimation.md).
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTracker.ScaleVelocityInPercentPerSecond](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.scalevelocityinpercentpersecond).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.ScaleVelocityInPercentPerSecond](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.scalevelocityinpercentpersecond) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The rate of change for scale.

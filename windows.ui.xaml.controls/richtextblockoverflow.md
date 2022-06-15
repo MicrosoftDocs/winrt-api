@@ -12,7 +12,7 @@ public class RichTextBlockOverflow : Windows.UI.Xaml.FrameworkElement, Windows.U
 ## -description
 Represents a rich text display overflow container. This element cannot have direct content. The only purpose of RichTextBlockOverflow is to display text content that does not fit in the bounds of a [RichTextBlock](richtextblock.md) or another RichTextBlockOverflow element.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RichTextBlockOverflow](/windows/winui/api/microsoft.ui.xaml.controls.richtextblockoverflow).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichTextBlockOverflow](/windows/winui/api/microsoft.ui.xaml.controls.richtextblockoverflow) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

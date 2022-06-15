@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.AppBarClosedDisplayMode ClosedDisplayMode { get;
 ## -description
 Gets or sets a value that indicates whether icon buttons are displayed when the app bar is not completely open.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBar.ClosedDisplayMode](/windows/winui/api/microsoft.ui.xaml.controls.appbar.closeddisplaymode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AppBar.ClosedDisplayMode](/windows/winui/api/microsoft.ui.xaml.controls.appbar.closeddisplaymode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

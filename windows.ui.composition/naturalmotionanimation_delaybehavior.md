@@ -13,7 +13,7 @@ public AnimationDelayBehavior DelayBehavior { get;  set; }
 
 The delay behavior of the NaturalMotionAnimation.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.NaturalMotionAnimation.DelayBehavior](/windows/winui/api/microsoft.ui.composition.naturalmotionanimation.delaybehavior).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.NaturalMotionAnimation.DelayBehavior](/windows/winui/api/microsoft.ui.composition.naturalmotionanimation.delaybehavior) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

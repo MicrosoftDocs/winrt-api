@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.FillRule FillRule { get;  set; }
 ## -description
 Gets or sets a value that determines how the intersecting areas contained in the [PathGeometry](pathgeometry.md) are combined.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PathGeometry.FillRule](/windows/winui/api/microsoft.ui.xaml.media.pathgeometry.fillrule).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PathGeometry.FillRule](/windows/winui/api/microsoft.ui.xaml.media.pathgeometry.fillrule) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

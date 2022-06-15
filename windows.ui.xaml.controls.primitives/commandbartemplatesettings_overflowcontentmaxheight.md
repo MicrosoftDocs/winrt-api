@@ -12,7 +12,7 @@ public double OverflowContentMaxHeight { get; }
 ## -description
 Gets the maximum height value of the overflow content.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings.OverflowContentMaxHeight](/windows/winui/api/microsoft.ui.xaml.controls.primitives.commandbartemplatesettings.overflowcontentmaxheight).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings.OverflowContentMaxHeight](/windows/winui/api/microsoft.ui.xaml.controls.primitives.commandbartemplatesettings.overflowcontentmaxheight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The maximum height value of the overflow content.

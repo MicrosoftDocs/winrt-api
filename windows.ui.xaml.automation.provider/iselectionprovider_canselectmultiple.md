@@ -12,7 +12,7 @@ public bool CanSelectMultiple { get; }
 ## -description
 Gets a value that indicates whether the Microsoft UI Automation provider allows more than one child element to be selected concurrently.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.CanSelectMultiple](/windows/winui/api/microsoft.ui.xaml.automation.provider.iselectionprovider.canselectmultiple).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.CanSelectMultiple](/windows/winui/api/microsoft.ui.xaml.automation.provider.iselectionprovider.canselectmultiple) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if multiple selection is allowed; otherwise, **false**.

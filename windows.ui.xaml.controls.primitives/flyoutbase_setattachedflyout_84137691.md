@@ -12,7 +12,7 @@ public void SetAttachedFlyout(Windows.UI.Xaml.FrameworkElement element, Windows.
 ## -description
 Associates the specified flyout with the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.SetAttachedFlyout](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.setattachedflyout).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.SetAttachedFlyout](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.setattachedflyout) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

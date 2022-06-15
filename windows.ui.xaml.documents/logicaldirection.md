@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Documents.LogicalDirection : int
 ## -description
 Specifies a logical direction in which to perform certain text operations, such as inserting, retrieving, or navigating through text relative to a specified position (a [TextPointer](textpointer.md)).
 
-Equivalent WinUI enum: [LogicalDirection](/windows/winui/api/microsoft.ui.xaml.documents.logicaldirection).
+Equivalent **WinUI 2 API for UWP**: [LogicalDirection](/windows/winui/api/microsoft.ui.xaml.documents.logicaldirection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

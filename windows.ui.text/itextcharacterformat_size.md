@@ -12,7 +12,7 @@ public float Size { get;  set; }
 ## -description
 Gets or sets the font size.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.Size](/windows/winui/api/microsoft.ui.text.itextcharacterformat.size).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.Size](/windows/winui/api/microsoft.ui.text.itextcharacterformat.size) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The font size, in floating-point points.

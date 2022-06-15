@@ -12,7 +12,7 @@ public bool EnableDependentAnimation { get;  set; }
 ## -description
 Gets or sets a value that declares whether animated properties that are considered dependent animations should be permitted to use this animation declaration.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames.EnableDependentAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimationusingkeyframes.enabledependentanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames.EnableDependentAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimationusingkeyframes.enabledependentanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

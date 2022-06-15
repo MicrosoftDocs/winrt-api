@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IObservableVector<object> SectionHeaders {
 ## -description
 Gets a collection of the headers of the hub sections.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.SectionHeaders](/windows/winui/api/microsoft.ui.xaml.controls.hub.sectionheaders).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Hub.SectionHeaders](/windows/winui/api/microsoft.ui.xaml.controls.hub.sectionheaders) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The headers of the hub sections. The default is an empty collection.

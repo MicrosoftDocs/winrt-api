@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Data.BindingExpression GetBindingExpression(Windows.UI.Xa
 ## -description
 Returns the [BindingExpression](../windows.ui.xaml.data/bindingexpression.md) that represents the binding on the specified property.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkElement.GetBindingExpression](/windows/winui/api/microsoft.ui.xaml.frameworkelement.getbindingexpression).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.GetBindingExpression](/windows/winui/api/microsoft.ui.xaml.frameworkelement.getbindingexpression) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param dp

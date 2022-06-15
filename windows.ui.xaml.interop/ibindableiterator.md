@@ -13,7 +13,7 @@ public interface IBindableIterator :
 
 Supports bindable iteration over a collection.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Interop.IBindableIterator](/windows/winui/api/microsoft.ui.xaml.interop.ibindableiterator).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.IBindableIterator](/windows/winui/api/microsoft.ui.xaml.interop.ibindableiterator) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

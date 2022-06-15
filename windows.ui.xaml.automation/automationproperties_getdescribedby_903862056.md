@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.DependencyObject> 
 ## -description
 Gets a collection of elements that provide more information about the specified automation element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetDescribedBy](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getdescribedby).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetDescribedBy](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getdescribedby) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Data.BindingMode : int
 ## -description
 Describes how the data propagates in a binding.
 
-Equivalent WinUI enum: [BindingMode](/windows/winui/api/microsoft.ui.xaml.data.bindingmode).
+Equivalent **WinUI 2 API for UWP**: [BindingMode](/windows/winui/api/microsoft.ui.xaml.data.bindingmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

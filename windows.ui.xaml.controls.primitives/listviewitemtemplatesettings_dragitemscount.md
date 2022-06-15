@@ -12,7 +12,7 @@ public int DragItemsCount { get; }
 ## -description
 Gets the number of items for a drag payload that contains this item as an origin.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemTemplateSettings.DragItemsCount](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitemtemplatesettings.dragitemscount).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemTemplateSettings.DragItemsCount](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitemtemplatesettings.dragitemscount) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The number of items for a drag payload.

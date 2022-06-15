@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsStaggeringEnabledProperty { get; }
 ## -description
 Identifies the [IsStaggeringEnabled](repositionthemetransition_isstaggeringenabled.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeTransition.IsStaggeringEnabledProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemetransition.isstaggeringenabledproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeTransition.IsStaggeringEnabledProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemetransition.isstaggeringenabledproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [IsStaggeringEnabled](repositionthemetransition_isstaggeringenabled.md) dependency property.

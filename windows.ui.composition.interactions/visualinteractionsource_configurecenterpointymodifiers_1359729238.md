@@ -12,7 +12,7 @@ public void VisualInteractionSource.ConfigureCenterPointYModifiers(IIterable<Com
 ## -description
 Takes an ordered list of CompositionConditionalValue. In a frame, the first CompositionConditionalValue to have its “.Condition” evaluate to true replaces the zoom CenterPointY value the VisualInteractionSource provides with its “.Value”. If none evaluate to true, the CenterPointY is not replaced that frame.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.ConfigureCenterPointYModifiers](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.configurecenterpointymodifiers).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.ConfigureCenterPointYModifiers](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.configurecenterpointymodifiers) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

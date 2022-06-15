@@ -13,7 +13,7 @@ public Vector2 AnchorPoint { get;  set; }
 
 Gets or sets the point on the brush to be positioned at the brush's offset.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGradientBrush.AnchorPoint](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.anchorpoint).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionGradientBrush.AnchorPoint](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.anchorpoint) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

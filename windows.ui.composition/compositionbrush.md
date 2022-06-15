@@ -12,7 +12,7 @@ public class CompositionBrush : Windows.UI.Composition.CompositionObject, Window
 ## -description
 Base class for brushes used to paint a [SpriteVisual](spritevisual.md).
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionBrush](/windows/winui/api/microsoft.ui.composition.compositionbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionBrush](/windows/winui/api/microsoft.ui.composition.compositionbrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

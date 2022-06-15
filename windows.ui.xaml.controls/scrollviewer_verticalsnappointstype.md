@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.SnapPointsType VerticalSnapPointsType { get;  se
 ## -description
 Gets or sets a value that declares how manipulation behavior reacts to the snap points along the vertical axis.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.VerticalSnapPointsType](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.verticalsnappointstype).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.VerticalSnapPointsType](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.verticalsnappointstype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

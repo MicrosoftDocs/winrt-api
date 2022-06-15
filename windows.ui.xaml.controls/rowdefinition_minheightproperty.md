@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty MinHeightProperty { get; }
 ## -description
 Identifies the [MinHeight](rowdefinition_minheight.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RowDefinition.MinHeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.minheightproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RowDefinition.MinHeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.minheightproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [MinHeight](rowdefinition_minheight.md) dependency property.

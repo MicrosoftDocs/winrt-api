@@ -12,7 +12,7 @@ public bool ShouldLoop { get;  set; }
 ## -description
 Gets or sets a value that determines whether the [LoopingSelector](loopingselector.md) loops indefinitely.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.ShouldLoop](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.shouldloop).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.ShouldLoop](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.shouldloop) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **True** if the [LoopingSelector](loopingselector.md) loops through all [LoopingSelectorItem](loopingselectoritem.md) items indefinitely; otherwise, **false**.

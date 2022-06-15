@@ -13,7 +13,7 @@ public Windows.UI.Color BurlyWood { get; }
 
 Gets the system-defined color that has an ARGB value of #FFDEB887.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.BurlyWood](/windows/winui/api/microsoft.ui.colors.burlywood).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.BurlyWood](/windows/winui/api/microsoft.ui.colors.burlywood) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

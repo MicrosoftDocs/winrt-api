@@ -12,7 +12,7 @@ public DependencyProperty KeyboardAcceleratorTextOverrideProperty { get; }
 ## -description
 Identifies the [MenuFlyoutItem.KeyboardAcceleratorTextOverride](menuflyoutitem_keyboardacceleratortextoverride.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem.KeyboardAcceleratorTextOverrideProperty](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem.keyboardacceleratortextoverrideproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem.KeyboardAcceleratorTextOverrideProperty](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem.keyboardacceleratortextoverrideproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [MenuFlyoutItem.KeyboardAcceleratorTextOverride](menuflyoutitem_keyboardacceleratortextoverride.md) dependency property.

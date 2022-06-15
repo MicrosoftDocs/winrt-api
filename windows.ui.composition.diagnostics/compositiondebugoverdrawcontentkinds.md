@@ -13,7 +13,7 @@ public enum CompositionDebugOverdrawContentKinds : uint
 
 Defines constants that specify what kinds of content are shown on an overdraw heatmap.
 
-Equivalent WinUI enum: [Microsoft.UI.Composition.Diagnostics.CompositionDebugOverdrawContentKinds](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugoverdrawcontentkinds).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Diagnostics.CompositionDebugOverdrawContentKinds](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugoverdrawcontentkinds) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field SwapChains:64

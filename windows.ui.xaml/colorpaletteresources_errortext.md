@@ -14,7 +14,7 @@ public IReference<Color> ErrorText { get;  set; }
 
 Gets or sets the ErrorText color value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.ErrorText](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.errortext).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ColorPaletteResources.ErrorText](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.errortext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public Windows.Foundation.Point Position { get; }
 ## -description
 Gets the point from which the manipulation originated.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Position](/windows/winui/api/microsoft.ui.xaml.input.manipulationstartedroutedeventargs.position).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Position](/windows/winui/api/microsoft.ui.xaml.input.manipulationstartedroutedeventargs.position) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The point from which the manipulation originated.

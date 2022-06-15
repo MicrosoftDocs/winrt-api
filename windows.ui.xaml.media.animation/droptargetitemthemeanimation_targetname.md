@@ -12,7 +12,7 @@ public string TargetName { get;  set; }
 ## -description
 Gets or sets the reference name of the control element being targeted.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DropTargetItemThemeAnimation.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.droptargetitemthemeanimation.targetname).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DropTargetItemThemeAnimation.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.droptargetitemthemeanimation.targetname) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

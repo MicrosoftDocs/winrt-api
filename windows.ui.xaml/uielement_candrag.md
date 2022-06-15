@@ -12,7 +12,7 @@ public bool CanDrag { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the element can be dragged as data in a drag-and-drop operation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.CanDrag](/windows/winui/api/microsoft.ui.xaml.uielement.candrag).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.CanDrag](/windows/winui/api/microsoft.ui.xaml.uielement.candrag) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if the element can be dragged as data in a drag-and-drop operation; otherwise, **false**. The default is **false**.

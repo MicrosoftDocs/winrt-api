@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty IsGrabbedProperty { get; }
 ## -description
 Gets the identifier for the [IsGrabbed](../windows.ui.xaml.automation.provider/idragprovider_isgrabbed.md) automation property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.DragPatternIdentifiers.IsGrabbedProperty](/windows/winui/api/microsoft.ui.xaml.automation.dragpatternidentifiers.isgrabbedproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.DragPatternIdentifiers.IsGrabbedProperty](/windows/winui/api/microsoft.ui.xaml.automation.dragpatternidentifiers.isgrabbedproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The automation property identifier.

@@ -14,7 +14,7 @@ public enum InteractionBindingAxisModes : uint
 
 Defines constants that specify which axis is bound between two interaction trackers.
 
-Equivalent WinUI enum: [Microsoft.UI.Composition.Interactions.InteractionBindingAxisModes](/windows/winui/api/microsoft.ui.composition.interactions.interactionbindingaxismodes).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionBindingAxisModes](/windows/winui/api/microsoft.ui.composition.interactions.interactionbindingaxismodes) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Scale:4

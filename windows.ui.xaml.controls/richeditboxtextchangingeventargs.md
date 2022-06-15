@@ -12,7 +12,7 @@ public class RichEditBoxTextChangingEventArgs : Windows.UI.Xaml.Controls.IRichEd
 ## -description
 Provides event data for the [RichEditBox.TextChanging](richeditbox_textchanging.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RichEditBoxTextChangingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.richeditboxtextchangingeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBoxTextChangingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.richeditboxtextchangingeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 An instance of this class is passed as a parameter to the [TextChanging](richeditbox_textchanging.md) event handler.

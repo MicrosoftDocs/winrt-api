@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Matrix FromElements(System.Double m11, System.Doubl
 ## -description
 Creates a new [Matrix](matrix.md) based on provided initial [Matrix](matrix.md) data values.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.MatrixHelper.FromElements](/windows/winui/api/microsoft.ui.xaml.media.matrixhelper.fromelements).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.MatrixHelper.FromElements](/windows/winui/api/microsoft.ui.xaml.media.matrixhelper.fromelements) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param m11

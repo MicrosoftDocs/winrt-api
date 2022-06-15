@@ -12,7 +12,7 @@ public Windows.UI.Text.LineSpacingRule LineSpacingRule { get; }
 ## -description
 Gets the paragraph line-spacing rule.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.LineSpacingRule](/windows/winui/api/microsoft.ui.text.itextparagraphformat.linespacingrule).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.LineSpacingRule](/windows/winui/api/microsoft.ui.text.itextparagraphformat.linespacingrule) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The paragraph line-spacing rule.

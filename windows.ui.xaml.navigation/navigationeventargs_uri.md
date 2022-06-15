@@ -12,7 +12,7 @@ public Windows.Foundation.Uri Uri { get;  set; }
 ## -description
 Gets the Uniform Resource Identifier (URI) of the target.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Navigation.NavigationEventArgs.Uri](/windows/winui/api/microsoft.ui.xaml.navigation.navigationeventargs.uri).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Navigation.NavigationEventArgs.Uri](/windows/winui/api/microsoft.ui.xaml.navigation.navigationeventargs.uri) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A value that represents the Uniform Resource Identifier (URI).

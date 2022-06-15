@@ -13,7 +13,7 @@ public Windows.UI.Color Lavender { get; }
 
 Gets the system-defined color that has an ARGB value of #FFE6E6FA.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Lavender](/windows/winui/api/microsoft.ui.colors.lavender).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Lavender](/windows/winui/api/microsoft.ui.colors.lavender) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

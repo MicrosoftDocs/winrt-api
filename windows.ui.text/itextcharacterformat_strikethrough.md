@@ -12,7 +12,7 @@ public Windows.UI.Text.FormatEffect Strikethrough { get;  set; }
 ## -description
 Gets or sets whether characters are displayed with a horizontal line through the center.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.Strikethrough](/windows/winui/api/microsoft.ui.text.itextcharacterformat.strikethrough).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.Strikethrough](/windows/winui/api/microsoft.ui.text.itextcharacterformat.strikethrough) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The strikethrough state.

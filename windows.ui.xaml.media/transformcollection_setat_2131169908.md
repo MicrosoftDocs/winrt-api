@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Media.Transform value)
 ## -description
 Sets the value at the specified index to the [Transform](transform.md) value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TransformCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.transformcollection.setat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.TransformCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.transformcollection.setat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param index

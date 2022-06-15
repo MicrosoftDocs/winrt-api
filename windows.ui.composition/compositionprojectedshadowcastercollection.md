@@ -14,7 +14,7 @@ public class CompositionProjectedShadowCasterCollection : CompositionObject, Com
 
 Represents a collection of CompositionProjectedShadowCaster objects.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcastercollection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcastercollection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

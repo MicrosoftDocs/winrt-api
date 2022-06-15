@@ -13,7 +13,7 @@ public class MenuFlyoutItemTemplateSettings : DependencyObject, DependencyObject
 
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for a [MenuFlyoutItem](../windows.ui.xaml.controls/menuflyoutitem.md) control. Not intended for general use.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.MenuFlyoutItemTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.menuflyoutitemtemplatesettings).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.MenuFlyoutItemTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.menuflyoutitemtemplatesettings) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

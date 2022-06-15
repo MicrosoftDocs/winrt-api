@@ -12,7 +12,7 @@ public int MoveLeft(Windows.UI.Text.TextRangeUnit unit, System.Int32 count, Syst
 ## -description
 Moves the insertion point or the active end of the text selection to the left, mimicking the functionality of the Left Arrow key.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextSelection.MoveLeft](/windows/winui/api/microsoft.ui.text.itextselection.moveleft).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextSelection.MoveLeft](/windows/winui/api/microsoft.ui.text.itextselection.moveleft) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param unit

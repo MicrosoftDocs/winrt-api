@@ -12,7 +12,7 @@ public class LoopingSelectorAutomationPeer : Windows.UI.Xaml.Automation.Peers.Fr
 ## -description
 Exposes [LoopingSelector](../windows.ui.xaml.controls.primitives/loopingselector.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.loopingselectorautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.loopingselectorautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

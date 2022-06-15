@@ -12,7 +12,7 @@ public double VerticalChange { get; }
 ## -description
 Gets the vertical distance between the current mouse position and the thumb coordinates.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.DragCompletedEventArgs.VerticalChange](/windows/winui/api/microsoft.ui.xaml.controls.primitives.dragcompletedeventargs.verticalchange).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.DragCompletedEventArgs.VerticalChange](/windows/winui/api/microsoft.ui.xaml.controls.primitives.dragcompletedeventargs.verticalchange) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The vertical distance between the current mouse position and the thumb coordinates.

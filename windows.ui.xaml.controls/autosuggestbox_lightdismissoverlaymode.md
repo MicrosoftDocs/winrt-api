@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.LightDismissOverlayMode LightDismissOverlayMode 
 ## -description
 Gets or sets a value that specifies whether the area outside of a *light-dismiss* UI is darkened.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.LightDismissOverlayMode](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.lightdismissoverlaymode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.LightDismissOverlayMode](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.lightdismissoverlaymode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A value of the enumeration that specifies whether the area outside of a light-dismiss UI is darkened. The default is **Auto**.

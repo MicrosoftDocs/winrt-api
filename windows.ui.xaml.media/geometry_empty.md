@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Geometry Empty { get; }
 ## -description
 Gets an empty geometry object.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Geometry.Empty](/windows/winui/api/microsoft.ui.xaml.media.geometry.empty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Geometry.Empty](/windows/winui/api/microsoft.ui.xaml.media.geometry.empty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The empty geometry object.

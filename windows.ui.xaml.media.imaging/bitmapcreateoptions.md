@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.Imaging.BitmapCreateOptions : uint
 ## -description
 Specifies initialization options for a bitmap image.
 
-Equivalent WinUI enum: [BitmapCreateOptions](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapcreateoptions).
+Equivalent **WinUI 2 API for UWP**: [BitmapCreateOptions](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapcreateoptions) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field None:0

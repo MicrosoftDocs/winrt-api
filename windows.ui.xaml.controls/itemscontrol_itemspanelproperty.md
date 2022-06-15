@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ItemsPanelProperty { get; }
 ## -description
 Identifies the [ItemsPanel](itemscontrol_itemspanel.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsPanelProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemspanelproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsPanelProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemspanelproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ItemsPanel](itemscontrol_itemspanel.md) dependency property.

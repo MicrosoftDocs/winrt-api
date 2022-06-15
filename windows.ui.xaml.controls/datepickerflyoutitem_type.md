@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.TypeName Type { get; }
 ## -description
 Gets the type of the item.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem.Type](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem.type).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem.Type](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem.type) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The type of the item, specified as a [TypeName](../windows.ui.xaml.interop/typename.md) wrapper.

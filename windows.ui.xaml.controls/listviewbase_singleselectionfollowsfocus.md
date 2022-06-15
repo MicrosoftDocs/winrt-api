@@ -12,7 +12,7 @@ public bool SingleSelectionFollowsFocus { get;  set; }
 ## -description
 Gets or sets a value that indicates whether item selection changes when keyboard focus changes.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.SingleSelectionFollowsFocus](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.singleselectionfollowsfocus).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.SingleSelectionFollowsFocus](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.singleselectionfollowsfocus) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

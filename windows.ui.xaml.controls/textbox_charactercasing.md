@@ -13,7 +13,7 @@ public CharacterCasing CharacterCasing { get;  set; }
 
 Gets or sets a value that indicates how the control modifies the case of characters as they are typed.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.CharacterCasing](/windows/winui/api/microsoft.ui.xaml.controls.textbox.charactercasing).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.CharacterCasing](/windows/winui/api/microsoft.ui.xaml.controls.textbox.charactercasing) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

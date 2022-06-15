@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty MaxSuggestionListHeightProperty { get;
 ## -description
 Identifies the [MaxSuggestionListHeight](autosuggestbox_maxsuggestionlistheight.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.MaxSuggestionListHeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.maxsuggestionlistheightproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.MaxSuggestionListHeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.maxsuggestionlistheightproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 Identifier for the [MaxSuggestionListHeight](autosuggestbox_maxsuggestionlistheight.md) dependency property.

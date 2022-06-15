@@ -12,7 +12,7 @@ public Windows.UI.Xaml.FrameworkElement Target { get; }
 ## -description
 Gets the element to use as the flyout's placement target.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Target](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.target).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Target](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.target) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

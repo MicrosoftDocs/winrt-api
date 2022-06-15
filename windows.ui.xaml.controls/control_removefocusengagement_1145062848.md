@@ -12,7 +12,7 @@ public void RemoveFocusEngagement()
 ## -description
 Releases focus from the control boundaries for a control that has focus engagement (for game pad/remote interaction).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.RemoveFocusEngagement](/windows/winui/api/microsoft.ui.xaml.controls.control.removefocusengagement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.RemoveFocusEngagement](/windows/winui/api/microsoft.ui.xaml.controls.control.removefocusengagement) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 Focus engagement makes it easier to use a game pad or remote control to interact with an app. Setting focus engagement does not affect keyboard or other input devices.

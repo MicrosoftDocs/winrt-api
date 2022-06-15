@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty LabeledByProperty { get; }
 
 Identifies the [AutomationProperties.LabeledBy](automationproperties_labeledby.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.LabeledByProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.labeledbyproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.LabeledByProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.labeledbyproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

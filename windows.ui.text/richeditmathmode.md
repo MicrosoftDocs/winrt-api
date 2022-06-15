@@ -16,7 +16,7 @@ Defines constants that specify whether a [RichEditBox](../windows.ui.xaml.contro
 > [!IMPORTANT]
 > The math mode APIs are a limited access feature. Please contact [richeditmathml@microsoft.com](mailto:richeditmathml@microsoft.com) for more info, or to request an unlock token.
 
-Equivalent WinUI enum: [Microsoft.UI.Text.RichEditMathMode](/windows/winui/api/microsoft.ui.text.richeditmathmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditMathMode](/windows/winui/api/microsoft.ui.text.richeditmathmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 

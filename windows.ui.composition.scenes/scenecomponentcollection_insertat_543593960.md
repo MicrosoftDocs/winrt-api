@@ -14,7 +14,7 @@ public void SceneComponentCollection.InsertAt(UInt32 index, SceneComponent value
 
 Inserts the specified item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneComponentCollection.InsertAt](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponentcollection.insertat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneComponentCollection.InsertAt](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponentcollection.insertat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param index

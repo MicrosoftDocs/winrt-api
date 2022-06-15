@@ -13,7 +13,7 @@ public Windows.UI.Composition.AnimationController CreateAnimationController ();
 
 Creates an instance of [AnimationController](animationcontroller.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateAnimationController](/windows/winui/api/microsoft.ui.composition.compositor.createanimationcontroller).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateAnimationController](/windows/winui/api/microsoft.ui.composition.compositor.createanimationcontroller) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 

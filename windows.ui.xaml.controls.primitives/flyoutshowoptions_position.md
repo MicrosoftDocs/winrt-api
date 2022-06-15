@@ -14,7 +14,7 @@ public IReference<Point> Position { get;  set; }
 
 Gets or sets the position where the flyout opens.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.Position](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutshowoptions.position).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.Position](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutshowoptions.position) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

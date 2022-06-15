@@ -12,7 +12,7 @@ public Windows.Graphics.DirectX.DirectXAlphaMode AlphaMode { get; }
 ## -description
 The alpha mode of the drawing surface.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionDrawingSurface.AlphaMode](/windows/winui/api/microsoft.ui.composition.compositiondrawingsurface.alphamode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionDrawingSurface.AlphaMode](/windows/winui/api/microsoft.ui.composition.compositiondrawingsurface.alphamode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The alpha mode of the drawing surface.

@@ -13,7 +13,7 @@ public RoutedEvent BringIntoViewRequestedEvent { get; }
 
 Gets the identifier for the BringIntoViewRequested routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.BringIntoViewRequestedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.bringintoviewrequestedevent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.BringIntoViewRequestedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.bringintoviewrequestedevent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

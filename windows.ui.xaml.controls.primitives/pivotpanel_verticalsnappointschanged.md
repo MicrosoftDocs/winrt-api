@@ -12,7 +12,7 @@ public event Windows.Foundation.EventHandler VerticalSnapPointsChanged<object>
 ## -description
 This property is reserved for internal use and is not intended to be used in your code.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.PivotPanel.VerticalSnapPointsChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pivotpanel.verticalsnappointschanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.PivotPanel.VerticalSnapPointsChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pivotpanel.verticalsnappointschanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

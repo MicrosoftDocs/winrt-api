@@ -12,7 +12,7 @@ virtual protected void OnRightTapped(Windows.UI.Xaml.Input.RightTappedRoutedEven
 ## -description
 Called before the [RightTapped](../windows.ui.xaml/uielement_righttapped.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnRightTapped](/windows/winui/api/microsoft.ui.xaml.controls.control.onrighttapped).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.OnRightTapped](/windows/winui/api/microsoft.ui.xaml.controls.control.onrighttapped) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param e

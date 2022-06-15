@@ -13,7 +13,7 @@ public bool Handled { get;  set; }
 
 Gets or sets a value that marks the routed event as handled. A **true** value prevents most handlers along the event route from handling the same event again.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.Handled](/windows/winui/api/microsoft.ui.xaml.bringintoviewrequestedeventargs.handled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.Handled](/windows/winui/api/microsoft.ui.xaml.bringintoviewrequestedeventargs.handled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

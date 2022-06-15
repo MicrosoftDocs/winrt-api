@@ -12,7 +12,7 @@ public string Name { get; }
 ## -description
 Gets the path-relevant name of the property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.ICustomProperty.Name](/windows/winui/api/microsoft.ui.xaml.data.icustomproperty.name).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICustomProperty.Name](/windows/winui/api/microsoft.ui.xaml.data.icustomproperty.name) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The name of the property as it would be specified in a binding expression.

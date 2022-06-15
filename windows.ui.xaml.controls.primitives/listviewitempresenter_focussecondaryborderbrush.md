@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush FocusSecondaryBorderBrush { get;  set; }
 ## -description
 Gets or sets the brush used to render the second color of the border around an item that has focus. Focus is rendered as a composition of two brushes. This property is used together the [FocusBorderBrush](listviewitempresenter_focusborderbrush.md) to specify these two brushes.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusSecondaryBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.focussecondaryborderbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusSecondaryBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.focussecondaryborderbrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

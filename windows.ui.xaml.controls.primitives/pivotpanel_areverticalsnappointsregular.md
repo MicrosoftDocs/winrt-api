@@ -12,7 +12,7 @@ public bool AreVerticalSnapPointsRegular { get; }
 ## -description
 This property is reserved for internal use and is not intended to be used in your code.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.PivotPanel.AreVerticalSnapPointsRegular](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pivotpanel.areverticalsnappointsregular).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.PivotPanel.AreVerticalSnapPointsRegular](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pivotpanel.areverticalsnappointsregular) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 Reserved.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.FontFamily FirstOfMonthLabelFontFamily { get;  set;
 ## -description
 Gets or sets the font used to display the first-of-month banner in the calendar.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.FirstOfMonthLabelFontFamily](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.firstofmonthlabelfontfamily).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.FirstOfMonthLabelFontFamily](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.firstofmonthlabelfontfamily) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

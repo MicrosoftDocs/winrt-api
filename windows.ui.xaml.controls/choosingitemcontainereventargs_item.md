@@ -12,7 +12,7 @@ public object Item { get; }
 ## -description
 Gets the data item associated with this [ItemContainer](choosingitemcontainereventargs_itemcontainer.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.Item](/windows/winui/api/microsoft.ui.xaml.controls.choosingitemcontainereventargs.item).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.Item](/windows/winui/api/microsoft.ui.xaml.controls.choosingitemcontainereventargs.item) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The data item associated with this [ItemContainer](choosingitemcontainereventargs_itemcontainer.md).

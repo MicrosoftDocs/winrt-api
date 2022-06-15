@@ -12,7 +12,7 @@ public Windows.UI.Xaml.ElementSoundPlayerState State { get;  set; }
 ## -description
 Gets or sets a value that specifies whether the system plays control sounds.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ElementSoundPlayer.State](/windows/winui/api/microsoft.ui.xaml.elementsoundplayer.state).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ElementSoundPlayer.State](/windows/winui/api/microsoft.ui.xaml.elementsoundplayer.state) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A value of the enumeration that specifies whether the system plays control sounds. The default is **Auto**.

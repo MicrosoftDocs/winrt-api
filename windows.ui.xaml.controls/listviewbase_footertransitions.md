@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection FooterTransitions { 
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to the view footer.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.FooterTransitions](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.footertransitions).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.FooterTransitions](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.footertransitions) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Markup.IXamlMember GetMember(System.String name)
 ## -description
 Returns the [IXamlMember](ixamlmember.md) information for a specific named member from this [IXamlType](ixamltype.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IXamlType.GetMember](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.getmember).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.IXamlType.GetMember](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.getmember) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param name

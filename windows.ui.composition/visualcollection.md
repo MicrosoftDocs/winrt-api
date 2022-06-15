@@ -12,7 +12,7 @@ public class VisualCollection : Windows.UI.Composition.CompositionObject, Window
 ## -description
 Represents a collection of visual instances.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.VisualCollection](/windows/winui/api/microsoft.ui.composition.visualcollection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.VisualCollection](/windows/winui/api/microsoft.ui.composition.visualcollection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 VisualCollections are ordered from bottom to top and iterating or enumerating through a collection is always done from bottom to top.

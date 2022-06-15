@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FillProperty { get; }
 ## -description
 Identifies the [Fill](glyphs_fill.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.FillProperty](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.fillproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Glyphs.FillProperty](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.fillproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Fill](glyphs_fill.md) dependency property.

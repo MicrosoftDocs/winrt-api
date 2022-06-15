@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PlaceholderBackgroundProperty { get; }
 ## -description
 Identifies the [PlaceholderBackground](gridviewitempresenter_placeholderbackground.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.PlaceholderBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.placeholderbackgroundproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.PlaceholderBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.placeholderbackgroundproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [PlaceholderBackground](gridviewitempresenter_placeholderbackground.md) dependency property.

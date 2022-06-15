@@ -13,7 +13,7 @@ public class Vector3Transition
 ## -description
 Provides the animated transition behavior when an element's Translation or Scale properties change.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Vector3Transition](/windows/winui/api/microsoft.ui.xaml.vector3transition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Vector3Transition](/windows/winui/api/microsoft.ui.xaml.vector3transition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

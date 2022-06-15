@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ExitTargetProperty { get; }
 ## -description
 Identifies the [ExitTarget](drillinthemeanimation_exittarget.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DrillInThemeAnimation.ExitTargetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.drillinthemeanimation.exittargetproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DrillInThemeAnimation.ExitTargetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.drillinthemeanimation.exittargetproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ExitTarget](drillinthemeanimation_exittarget.md) dependency property.

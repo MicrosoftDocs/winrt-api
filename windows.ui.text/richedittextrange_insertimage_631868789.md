@@ -13,7 +13,7 @@ public void RichEditTextRange.InsertImage(Int32 width, Int32 height, Int32 ascen
 
 Inserts an image into this range.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.InsertImage](/windows/winui/api/microsoft.ui.text.richedittextrange.insertimage).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.InsertImage](/windows/winui/api/microsoft.ui.text.richedittextrange.insertimage) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param width

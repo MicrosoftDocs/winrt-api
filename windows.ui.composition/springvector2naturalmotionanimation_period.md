@@ -13,7 +13,7 @@ public TimeSpan Period { get;  set; }
 
 Gets or sets the time for the Spring to complete a single oscillation.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.SpringVector2NaturalMotionAnimation.Period](/windows/winui/api/microsoft.ui.composition.springvector2naturalmotionanimation.period).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpringVector2NaturalMotionAnimation.Period](/windows/winui/api/microsoft.ui.composition.springvector2naturalmotionanimation.period) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

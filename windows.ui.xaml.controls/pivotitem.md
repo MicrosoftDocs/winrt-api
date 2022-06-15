@@ -12,7 +12,7 @@ public class PivotItem : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xam
 ## -description
 Represents the container for an item in a [Pivot](pivot.md) control.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.PivotItem](/windows/winui/api/microsoft.ui.xaml.controls.pivotitem).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.PivotItem](/windows/winui/api/microsoft.ui.xaml.controls.pivotitem) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

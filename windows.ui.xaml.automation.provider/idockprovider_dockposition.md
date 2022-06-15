@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.DockPosition DockPosition { get; }
 ## -description
 Gets the current [DockPosition](../windows.ui.xaml.automation/dockposition.md) of the control in a docking container.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IDockProvider.DockPosition](/windows/winui/api/microsoft.ui.xaml.automation.provider.idockprovider.dockposition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IDockProvider.DockPosition](/windows/winui/api/microsoft.ui.xaml.automation.provider.idockprovider.dockposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The [DockPosition](../windows.ui.xaml.automation/dockposition.md) of the control, relative to the boundaries of the docking container and to other elements in the container.

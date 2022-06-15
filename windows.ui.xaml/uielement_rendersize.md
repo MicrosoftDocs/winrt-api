@@ -12,7 +12,7 @@ public Windows.Foundation.Size RenderSize { get; }
 ## -description
 Gets the final render size of a [UIElement](uielement.md). Use is not recommended, see Remarks.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.RenderSize](/windows/winui/api/microsoft.ui.xaml.uielement.rendersize).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.RenderSize](/windows/winui/api/microsoft.ui.xaml.uielement.rendersize) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The rendered size for this object. There is no default value.

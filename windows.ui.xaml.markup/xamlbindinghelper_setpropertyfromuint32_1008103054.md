@@ -12,7 +12,7 @@ public void SetPropertyFromUInt32(System.Object dependencyObject, Windows.UI.Xam
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [UInt32](/dotnet/api/system.uint32?view=dotnet-uwp-10.0&preserve-view=true) value.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromUInt32](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromuint32).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromUInt32](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromuint32) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param dependencyObject

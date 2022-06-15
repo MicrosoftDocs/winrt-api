@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectedPressedBackgroundProperty { ge
 ## -description
 Identifies the [SelectedPressedBackground](listviewitempresenter_selectedpressedbackground.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPressedBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.selectedpressedbackgroundproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPressedBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.selectedpressedbackgroundproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [SelectedPressedBackground](listviewitempresenter_selectedpressedbackground.md) dependency property.

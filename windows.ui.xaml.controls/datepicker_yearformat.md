@@ -13,7 +13,7 @@ public string YearFormat { get;  set; }
 
 Gets or sets the display format for the year value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.YearFormat](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.yearformat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePicker.YearFormat](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.yearformat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

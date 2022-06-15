@@ -12,7 +12,7 @@ public Windows.Foundation.IAsyncAction SetSourceAsync(Windows.Storage.Streams.IR
 ## -description
 Sets the source image for a [BitmapSource](bitmapsource.md) by accessing a stream and processing the result asynchronously.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.BitmapSource.SetSourceAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapsource.setsourceasync).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.BitmapSource.SetSourceAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapsource.setsourceasync) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param streamSource

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Provider.ITextRangeProvider FindText(System.St
 ## -description
 Returns a text range subset that contains the specified text.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.FindText](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.findtext).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.FindText](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.findtext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param text

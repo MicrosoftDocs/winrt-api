@@ -12,7 +12,7 @@ public class PopupThemeTransition : Windows.UI.Xaml.Media.Animation.Transition, 
 ## -description
 Provides the animated transition behavior that applies to pop-in components of controls (for example, tooltip-like UI on an object) as they appear.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.PopupThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.popupthemetransition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.PopupThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.popupthemetransition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

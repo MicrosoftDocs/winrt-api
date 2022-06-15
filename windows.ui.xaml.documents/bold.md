@@ -12,7 +12,7 @@ public class Bold : Windows.UI.Xaml.Documents.Span, Windows.UI.Xaml.Documents.IB
 ## -description
 Provides an inline-level content element that causes content to render with a bold font weight.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.Bold](/windows/winui/api/microsoft.ui.xaml.documents.bold).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Bold](/windows/winui/api/microsoft.ui.xaml.documents.bold) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

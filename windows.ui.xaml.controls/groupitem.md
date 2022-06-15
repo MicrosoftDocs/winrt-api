@@ -12,7 +12,7 @@ public class GroupItem : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.Xam
 ## -description
 Represents the root element for a subtree that is created for a group.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.GroupItem](/windows/winui/api/microsoft.ui.xaml.controls.groupitem).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.GroupItem](/windows/winui/api/microsoft.ui.xaml.controls.groupitem) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public class SplitOpenThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline,
 ## -description
 Represents the preconfigured animation that reveals a target UI using a *split* animation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TitleTemplateProperty { get; }
 ## -description
 Identifies the [TitleTemplate](pivot_titletemplate.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.TitleTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.pivot.titletemplateproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Pivot.TitleTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.pivot.titletemplateproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [TitleTemplate](pivot_titletemplate.md) dependency property.

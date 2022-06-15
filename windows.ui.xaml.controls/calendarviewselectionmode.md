@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.CalendarViewSelectionMode : int
 ## -description
 Defines constants that specify what kind of date selections are allowed in the calendar.
 
-Equivalent WinUI enum: [CalendarViewSelectionMode](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewselectionmode).
+Equivalent **WinUI 2 API for UWP**: [CalendarViewSelectionMode](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewselectionmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field None:0

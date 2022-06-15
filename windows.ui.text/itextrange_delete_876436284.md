@@ -12,7 +12,7 @@ public int Delete(Windows.UI.Text.TextRangeUnit unit, System.Int32 count)
 ## -description
 Deletes text from the text range.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.Delete](/windows/winui/api/microsoft.ui.text.itextrange.delete).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.Delete](/windows/winui/api/microsoft.ui.text.itextrange.delete) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param unit

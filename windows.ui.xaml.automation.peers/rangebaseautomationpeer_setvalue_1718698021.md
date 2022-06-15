@@ -12,7 +12,7 @@ public void SetValue(System.Double value)
 ## -description
 Sets the value of the control, as an implementation of the [IValueProvider](../windows.ui.xaml.automation.provider/ivalueprovider.md) pattern.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.SetValue](/windows/winui/api/microsoft.ui.xaml.automation.peers.rangebaseautomationpeer.setvalue).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.SetValue](/windows/winui/api/microsoft.ui.xaml.automation.peers.rangebaseautomationpeer.setvalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param value

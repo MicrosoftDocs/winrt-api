@@ -12,7 +12,7 @@ public bool IsTextPredictionEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether text prediction features ("autocomplete") are enabled for this [RichEditBox](richeditbox.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.IsTextPredictionEnabled](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.istextpredictionenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBox.IsTextPredictionEnabled](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.istextpredictionenabled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

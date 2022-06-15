@@ -14,7 +14,7 @@ public void SelectAll()
 
 Selects the entire contents in the [TextBlock](textblock.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBlock.SelectAll](/windows/winui/api/microsoft.ui.xaml.controls.textblock.selectall).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBlock.SelectAll](/windows/winui/api/microsoft.ui.xaml.controls.textblock.selectall) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

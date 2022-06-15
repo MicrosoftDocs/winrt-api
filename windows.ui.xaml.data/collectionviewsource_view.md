@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Data.ICollectionView View { get; }
 ## -description
 Gets the view object that is currently associated with this instance of [CollectionViewSource](collectionviewsource.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.CollectionViewSource.View](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.view).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.CollectionViewSource.View](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.view) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The view object that is currently associated with this instance of [CollectionViewSource](collectionviewsource.md).

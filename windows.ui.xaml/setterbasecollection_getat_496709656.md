@@ -12,7 +12,7 @@ public Windows.UI.Xaml.SetterBase GetAt(System.UInt32 index)
 ## -description
 Returns the [SetterBase](setterbase.md) located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.SetterBaseCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.setterbasecollection.getat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.SetterBaseCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.setterbasecollection.getat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param index

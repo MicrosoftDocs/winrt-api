@@ -12,7 +12,7 @@ public void SetColumnSpan(Windows.UI.Xaml.FrameworkElement element, System.Int32
 ## -description
 Sets the value of the [Grid.ColumnSpan](grid_columnspan.md) XAML attached property on the specified [FrameworkElement](../windows.ui.xaml/frameworkelement.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Grid.SetColumnSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid.setcolumnspan).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Grid.SetColumnSpan](/windows/winui/api/microsoft.ui.xaml.controls.grid.setcolumnspan) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

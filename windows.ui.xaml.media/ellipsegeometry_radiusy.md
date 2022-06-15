@@ -12,7 +12,7 @@ public double RadiusY { get;  set; }
 ## -description
 Gets or sets the y-radius value of the [EllipseGeometry](ellipsegeometry.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.EllipseGeometry.RadiusY](/windows/winui/api/microsoft.ui.xaml.media.ellipsegeometry.radiusy).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.EllipseGeometry.RadiusY](/windows/winui/api/microsoft.ui.xaml.media.ellipsegeometry.radiusy) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

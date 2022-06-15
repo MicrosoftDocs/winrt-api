@@ -12,7 +12,7 @@ public void LineRight()
 ## -description
 Scrolls the [ScrollContentPresenter](scrollcontentpresenter.md) content to the right by a predetermined amount.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.LineRight](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.lineright).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.LineRight](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.lineright) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

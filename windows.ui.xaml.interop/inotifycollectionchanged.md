@@ -17,7 +17,7 @@ Provides a collection-changed pattern interface for C++ bindable classes.
 > **.NET**
 > This interface appears as [System.Collections.Specialized.INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0&preserve-view=true).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Interop.INotifyCollectionChanged](/windows/winui/api/microsoft.ui.xaml.interop.inotifycollectionchanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.INotifyCollectionChanged](/windows/winui/api/microsoft.ui.xaml.interop.inotifycollectionchanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 When programming with .NET, this interface is hidden and developers should use the [System.Collections.Specialized.INotifyCollectionChanged](/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0&preserve-view=true) interface.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ColorInterpolationModeProperty { get; 
 ## -description
 Identifies the [ColorInterpolationMode](gradientbrush_colorinterpolationmode.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.GradientBrush.ColorInterpolationModeProperty](/windows/winui/api/microsoft.ui.xaml.media.gradientbrush.colorinterpolationmodeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.GradientBrush.ColorInterpolationModeProperty](/windows/winui/api/microsoft.ui.xaml.media.gradientbrush.colorinterpolationmodeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ColorInterpolationMode](gradientbrush_colorinterpolationmode.md) dependency property.

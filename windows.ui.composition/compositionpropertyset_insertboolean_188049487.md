@@ -12,7 +12,7 @@ public void InsertBoolean(System.String propertyName, System.Boolean value)
 ## -description
 Inserts a boolean key-value pair.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.InsertBoolean](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.insertboolean).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionPropertySet.InsertBoolean](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.insertboolean) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param propertyName

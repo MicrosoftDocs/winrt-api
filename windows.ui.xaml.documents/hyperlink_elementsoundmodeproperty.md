@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ElementSoundModeProperty { get; }
 ## -description
 Identifies the [ElementSoundMode](hyperlink_elementsoundmode.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.ElementSoundModeProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.elementsoundmodeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Hyperlink.ElementSoundModeProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.elementsoundmodeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ElementSoundMode](hyperlink_elementsoundmode.md) dependency property.

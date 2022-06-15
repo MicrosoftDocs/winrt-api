@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty HeaderTemplateProperty { get; }
 ## -description
 Identifies the [HeaderTemplate](toggleswitch_headertemplate.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToggleSwitch.HeaderTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch.headertemplateproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToggleSwitch.HeaderTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch.headertemplateproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [HeaderTemplate](toggleswitch_headertemplate.md) dependency property.

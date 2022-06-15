@@ -14,7 +14,7 @@ public Size Size { get; }
 
 Gets the width and height of the content area.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.XamlRoot.Size](/windows/winui/api/microsoft.ui.xaml.xamlroot.size).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.XamlRoot.Size](/windows/winui/api/microsoft.ui.xaml.xamlroot.size) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

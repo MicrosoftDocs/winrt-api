@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Markup.IXamlType GetXamlType(System.String fullName)
 ## -description
 Implements XAML schema context access to underlying type mapping, based on specifying a full type name.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmetadataprovider.getxamltype).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmetadataprovider.getxamltype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param fullName

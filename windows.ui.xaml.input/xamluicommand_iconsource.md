@@ -14,7 +14,7 @@ public IconSource IconSource { get;  set; }
 
 Gets or sets a glyph from the Segoe MDL2 Assets font for this element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.IconSource](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.iconsource).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.XamlUICommand.IconSource](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.iconsource) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

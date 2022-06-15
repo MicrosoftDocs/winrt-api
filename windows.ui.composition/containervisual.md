@@ -13,7 +13,7 @@ public class ContainerVisual : Windows.UI.Composition.Visual, Windows.UI.Composi
 
 A node in the visual tree that can have children.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.ContainerVisual](/windows/winui/api/microsoft.ui.composition.containervisual).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ContainerVisual](/windows/winui/api/microsoft.ui.composition.containervisual) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 
