@@ -12,7 +12,7 @@ public class Binding : Windows.UI.Xaml.Data.BindingBase, Windows.UI.Xaml.Data.IB
 ## -description
 Defines a binding that connects the properties of binding targets and data sources.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.Binding](/windows/winui/api/microsoft.ui.xaml.data.binding).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.Binding](/windows/winui/api/microsoft.ui.xaml.data.binding) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

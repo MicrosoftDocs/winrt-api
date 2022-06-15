@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty NavigateUriProperty { get; }
 ## -description
 Identifies the [NavigateUri](hyperlink_navigateuri.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Hyperlink.NavigateUriProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.navigateuriproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Hyperlink.NavigateUriProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.navigateuriproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [NavigateUri](hyperlink_navigateuri.md) dependency property.

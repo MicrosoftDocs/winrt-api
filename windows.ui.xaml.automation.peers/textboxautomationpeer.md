@@ -12,7 +12,7 @@ public class TextBoxAutomationPeer : Windows.UI.Xaml.Automation.Peers.FrameworkE
 ## -description
 Exposes [TextBox](../windows.ui.xaml.controls/textbox.md) types to Microsoft UI Automation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.TextBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.textboxautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.TextBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.textboxautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 The Windows Runtime  [TextBox](../windows.ui.xaml.controls/textbox.md) class creates a new TextBoxAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from TextBoxAutomationPeer if you are deriving a custom class from [TextBox](../windows.ui.xaml.controls/textbox.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

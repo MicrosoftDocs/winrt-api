@@ -12,7 +12,7 @@ public double VerticalAlignmentRatio { get; }
 ## -description
 Gets the requested vertical alignment ratio which controls the alignment of the horizontal axis of the TargetRect with respect to the horizontal axis of the viewport. 
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.VerticalAlignmentRatio](/windows/winui/api/microsoft.ui.xaml.bringintoviewrequestedeventargs.verticalalignmentratio).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.VerticalAlignmentRatio](/windows/winui/api/microsoft.ui.xaml.bringintoviewrequestedeventargs.verticalalignmentratio) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

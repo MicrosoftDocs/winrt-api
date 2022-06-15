@@ -12,7 +12,7 @@ public void SetToolTip(Windows.UI.Xaml.DependencyObject element, System.Object v
 ## -description
 Sets the value of the [ToolTipService.ToolTip](tooltipservice_tooltip.md) XAML attached property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToolTipService.SetToolTip](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice.settooltip).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToolTipService.SetToolTip](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice.settooltip) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

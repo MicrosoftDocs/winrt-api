@@ -12,7 +12,7 @@ public void RemoveHandler(Windows.UI.Xaml.RoutedEvent routedEvent, System.Object
 ## -description
 Removes the specified routed event handler from this [UIElement](uielement.md). Typically the handler in question was added by [AddHandler](uielement_addhandler_2121467075.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.RemoveHandler](/windows/winui/api/microsoft.ui.xaml.uielement.removehandler).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.RemoveHandler](/windows/winui/api/microsoft.ui.xaml.uielement.removehandler) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param routedEvent

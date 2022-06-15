@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.Controls.CleanUpVirtualizedItemEventHandler CleanUp
 ## -description
 Occurs when an item that is hosted by the [VirtualizingStackPanel](virtualizingstackpanel.md) is re-virtualized.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel.CleanUpVirtualizedItemEvent](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel.cleanupvirtualizeditemevent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel.CleanUpVirtualizedItemEvent](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel.cleanupvirtualizeditemevent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

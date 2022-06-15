@@ -14,7 +14,7 @@ public class CompositionProjectedShadow : CompositionObject, CompositionObject
 
 Represents a scene-based shadow calculated using the relationship between the light, the visual that casts the shadow,and the visual that receives the shadow, such that the shadow is drawn differently on each receiver.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionProjectedShadow](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadow).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionProjectedShadow](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadow) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

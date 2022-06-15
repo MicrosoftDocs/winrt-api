@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsAccessKeyScopeProperty { get; }
 ## -description
 Identifies for the [IsAccessKeyScope](uielement_isaccesskeyscope.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.IsAccessKeyScopeProperty](/windows/winui/api/microsoft.ui.xaml.uielement.isaccesskeyscopeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.IsAccessKeyScopeProperty](/windows/winui/api/microsoft.ui.xaml.uielement.isaccesskeyscopeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [IsAccessKeyScope](uielement_isaccesskeyscope.md) dependency property.

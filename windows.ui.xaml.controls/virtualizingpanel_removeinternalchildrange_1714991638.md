@@ -12,7 +12,7 @@ protected void RemoveInternalChildRange(System.Int32 index, System.Int32 range)
 ## -description
 Removes child elements from the [Children](panel_children.md) collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VirtualizingPanel.RemoveInternalChildRange](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingpanel.removeinternalchildrange).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VirtualizingPanel.RemoveInternalChildRange](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingpanel.removeinternalchildrange) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param index

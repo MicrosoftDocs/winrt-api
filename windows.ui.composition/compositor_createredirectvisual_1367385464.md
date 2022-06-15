@@ -14,7 +14,7 @@ public RedirectVisual Compositor.CreateRedirectVisual()
 
 Creates an instance of [RedirectVisual](redirectvisual.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateRedirectVisual](/windows/winui/api/microsoft.ui.composition.compositor.createredirectvisual).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateRedirectVisual](/windows/winui/api/microsoft.ui.composition.compositor.createredirectvisual) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 

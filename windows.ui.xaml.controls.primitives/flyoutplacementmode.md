@@ -13,7 +13,7 @@ public enum Windows.UI.Xaml.Controls.Primitives.FlyoutPlacementMode : int
 
 Defines constants that specify the preferred location for positioning a [FlyoutBase](flyoutbase.md) derived control relative to a visual element.
 
-Equivalent **WinUI 2 API for UWP**: [FlyoutPlacementMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutplacementmode).
+Equivalent **WinUI 2 API for UWP**: [FlyoutPlacementMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutplacementmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 

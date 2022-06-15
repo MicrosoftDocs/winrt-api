@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Data.ICollectionView CreateView()
 ## -description
 Creates an [ICollectionView](icollectionview.md) instance using default settings.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICollectionViewFactory.CreateView](/windows/winui/api/microsoft.ui.xaml.data.icollectionviewfactory.createview).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICollectionViewFactory.CreateView](/windows/winui/api/microsoft.ui.xaml.data.icollectionviewfactory.createview) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 The default view.

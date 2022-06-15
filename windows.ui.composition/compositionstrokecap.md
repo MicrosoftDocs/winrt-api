@@ -13,7 +13,7 @@ public enum CompositionStrokeCap : int
 
 Defines constants that specify the shape at the end of a line or segment.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionStrokeCap](/windows/winui/api/microsoft.ui.composition.compositionstrokecap).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionStrokeCap](/windows/winui/api/microsoft.ui.composition.compositionstrokecap) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 

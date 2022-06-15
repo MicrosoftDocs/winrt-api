@@ -12,7 +12,7 @@ public Windows.UI.Xaml.SetterBaseCollection Setters { get; }
 ## -description
 Gets a collection of [Setter](setter.md) objects that define discrete property values that control the appearance of [UIElement](uielement.md)s when this [VisualState](visualstate.md) is applied.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualState.Setters](/windows/winui/api/microsoft.ui.xaml.visualstate.setters).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualState.Setters](/windows/winui/api/microsoft.ui.xaml.visualstate.setters) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A collection of [Setter](setter.md) objects. The default is an empty collection.

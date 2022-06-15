@@ -12,7 +12,7 @@ public bool IsSelected(System.Int32 index)
 ## -description
 Provides info about whether the item in the data source at the specified *index* is selected in the list control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ISelectionInfo.IsSelected](/windows/winui/api/microsoft.ui.xaml.data.iselectioninfo.isselected).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ISelectionInfo.IsSelected](/windows/winui/api/microsoft.ui.xaml.data.iselectioninfo.isselected) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param index

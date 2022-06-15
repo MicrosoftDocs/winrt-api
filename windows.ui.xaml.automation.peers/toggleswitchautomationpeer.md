@@ -12,7 +12,7 @@ public class ToggleSwitchAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 ## -description
 Exposes [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) types to Microsoft UI Automation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.toggleswitchautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.toggleswitchautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 The Windows Runtime  [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) class creates a new ToggleSwitchAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) is sealed, so the normal scenario of deriving from the [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md) class and its existing peer isn't applicable to ToggleSwitchAutomationPeer.

@@ -12,7 +12,7 @@ public void Clear()
 ## -description
 Removes all animations from the collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ImplicitAnimationCollection.Clear](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.clear).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ImplicitAnimationCollection.Clear](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.clear) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

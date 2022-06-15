@@ -12,7 +12,7 @@ public ExpressionAnimation Condition { get;  set; }
 ## -description
 The condition expression that determines when to apply modifiers to the visual interaction source.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.CompositionConditionalValue.Condition](/windows/winui/api/microsoft.ui.composition.interactions.compositionconditionalvalue.condition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.CompositionConditionalValue.Condition](/windows/winui/api/microsoft.ui.composition.interactions.compositionconditionalvalue.condition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The condition expression that determines when to apply modifiers to the visual interaction source.

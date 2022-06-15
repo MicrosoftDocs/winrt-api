@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.Primitives.SnapPointsAlignment : int
 ## -description
 Defines constants that specify options for snap point alignment relative to an edge. Which edge depends on the orientation of the object where the alignment is applied.
 
-Equivalent **WinUI 2 API for UWP**: [SnapPointsAlignment](/windows/winui/api/microsoft.ui.xaml.controls.primitives.snappointsalignment).
+Equivalent **WinUI 2 API for UWP**: [SnapPointsAlignment](/windows/winui/api/microsoft.ui.xaml.controls.primitives.snappointsalignment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

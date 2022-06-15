@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationLandmarkType : int
 ## -description
 Defines the automation landmark types for elements.
 
-Equivalent **WinUI 2 API for UWP**: [AutomationLandmarkType](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationlandmarktype).
+Equivalent **WinUI 2 API for UWP**: [AutomationLandmarkType](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationlandmarktype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field None:0

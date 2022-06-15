@@ -12,7 +12,7 @@ public class KeyboardAcceleratorInvokedEventArgs
 ## -description
 Provides event data for the [Invoked](keyboardaccelerator_invoked.md) event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.keyboardacceleratorinvokedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.keyboardacceleratorinvokedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

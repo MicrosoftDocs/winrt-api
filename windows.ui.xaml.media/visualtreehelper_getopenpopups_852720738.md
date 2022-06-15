@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Controls.Primi
 ## -description
 Retrieves a collection of all open popup controls from the target [Window](../windows.ui.xaml/window.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.VisualTreeHelper.GetOpenPopups](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.getopenpopups).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.VisualTreeHelper.GetOpenPopups](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.getopenpopups) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param window

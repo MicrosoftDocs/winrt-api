@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Provider.ITextRangeProvider GetActiveCompositi
 ## -description
 Gets the active composition.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITextEditProvider.GetActiveComposition](/windows/winui/api/microsoft.ui.xaml.automation.provider.itexteditprovider.getactivecomposition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITextEditProvider.GetActiveComposition](/windows/winui/api/microsoft.ui.xaml.automation.provider.itexteditprovider.getactivecomposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 The active composition.

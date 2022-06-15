@@ -12,7 +12,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IBuffer> GetPi
 ## -description
 Retrieves the previously rendered [RenderTargetBitmap](rendertargetbitmap.md) image as a buffered stream of bytes in **BGRA8** format.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap.GetPixelsAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap.getpixelsasync).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap.GetPixelsAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap.getpixelsasync) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 An asynchronous operation object from which, on successful completion, you can retrieve an [IBuffer](../windows.storage.streams/ibuffer.md) stream that contains bytes. This is the binary data for the image and can be converted to a byte array in **BGRA8** format

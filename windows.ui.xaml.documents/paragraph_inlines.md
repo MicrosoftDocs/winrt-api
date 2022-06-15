@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Documents.InlineCollection Inlines { get; }
 ## -description
 Gets an [InlineCollection](inlinecollection.md) containing the top-level [Inline](inline.md) elements that include the contents of the [Paragraph](paragraph.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Paragraph.Inlines](/windows/winui/api/microsoft.ui.xaml.documents.paragraph.inlines).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Paragraph.Inlines](/windows/winui/api/microsoft.ui.xaml.documents.paragraph.inlines) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

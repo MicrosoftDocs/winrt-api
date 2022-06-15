@@ -12,7 +12,7 @@ public void SetIndents(System.Single start, System.Single left, System.Single ri
 ## -description
 Sets the first-line indent, the left indent, and the right indent for a paragraph.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.SetIndents](/windows/winui/api/microsoft.ui.text.itextparagraphformat.setindents).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.SetIndents](/windows/winui/api/microsoft.ui.text.itextparagraphformat.setindents) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param start

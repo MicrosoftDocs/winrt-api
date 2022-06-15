@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TranslateXProperty { get; }
 ## -description
 Identifies the [TranslateX](compositetransform3d_translatex.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Media3D.CompositeTransform3D.TranslateXProperty](/windows/winui/api/microsoft.ui.xaml.media.media3d.compositetransform3d.translatexproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Media3D.CompositeTransform3D.TranslateXProperty](/windows/winui/api/microsoft.ui.xaml.media.media3d.compositetransform3d.translatexproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The [TranslateX](compositetransform3d_translatex.md) dependency property identifier.

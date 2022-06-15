@@ -13,7 +13,7 @@ public Windows.UI.Xaml.RoutedEvent PointerMovedEvent { get; }
 
 Gets the identifier for the [PointerMoved](uielement_pointermoved.md) routed event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.PointerMovedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.pointermovedevent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.PointerMovedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.pointermovedevent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

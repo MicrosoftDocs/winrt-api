@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionScopedBatch CreateScopedBatch(Windows.U
 ## -description
 Creates an instance of [CompositionScopedBatch](compositionscopedbatch.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateScopedBatch](/windows/winui/api/microsoft.ui.composition.compositor.createscopedbatch).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateScopedBatch](/windows/winui/api/microsoft.ui.composition.compositor.createscopedbatch) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param batchType

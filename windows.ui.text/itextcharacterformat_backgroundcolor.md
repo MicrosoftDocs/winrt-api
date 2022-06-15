@@ -12,7 +12,7 @@ public Windows.UI.Color BackgroundColor { get;  set; }
 ## -description
 Gets or sets the text background (highlight) color.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.BackgroundColor](/windows/winui/api/microsoft.ui.text.itextcharacterformat.backgroundcolor).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.BackgroundColor](/windows/winui/api/microsoft.ui.text.itextcharacterformat.backgroundcolor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The text background color.

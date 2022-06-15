@@ -14,7 +14,7 @@ Source mode for the Y-axis.
 
 The PositionYSourceMode property defines how interactions are processed for a [VisualInteractionSource](visualinteractionsource.md) on the Y-axis. There are 3 types of [InteractionSourceMode](interactionsourcemode.md)s to choose from: Interactions are Disabled, EnabledWithInertia and EnabledWithoutInertia. This property must be enabled to allow the [VisualInteractionSource](visualinteractionsource.md) to send Y-axis data to [InteractionTracker](interactiontracker.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.PositionYSourceMode](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.positionysourcemode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.PositionYSourceMode](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.positionysourcemode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 Source mode for the Y-axis.

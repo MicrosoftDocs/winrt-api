@@ -14,7 +14,7 @@ public Vector3 ActualOffset { get; }
 
 Gets the position of this UIElement, relative to its parent, computed during the arrange pass of the layout process.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ActualOffset](/windows/winui/api/microsoft.ui.xaml.uielement.actualoffset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ActualOffset](/windows/winui/api/microsoft.ui.xaml.uielement.actualoffset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

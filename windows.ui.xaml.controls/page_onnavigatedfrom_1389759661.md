@@ -12,7 +12,7 @@ virtual protected void OnNavigatedFrom(Windows.UI.Xaml.Navigation.NavigationEven
 ## -description
 Invoked immediately after the [Page](page.md) is unloaded and is no longer the current source of a parent [Frame](frame.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Page.OnNavigatedFrom](/windows/winui/api/microsoft.ui.xaml.controls.page.onnavigatedfrom).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Page.OnNavigatedFrom](/windows/winui/api/microsoft.ui.xaml.controls.page.onnavigatedfrom) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param e

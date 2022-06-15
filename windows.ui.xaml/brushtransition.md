@@ -13,7 +13,7 @@ public class BrushTransition
 ## -description
 Provides the animated transition behavior when an element's brush changes. Currently limited to changes between SolidColorBrush objects.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.BrushTransition](/windows/winui/api/microsoft.ui.xaml.brushtransition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.BrushTransition](/windows/winui/api/microsoft.ui.xaml.brushtransition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

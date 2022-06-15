@@ -14,7 +14,7 @@ public SceneMaterialInput EmissiveInput { get;  set; }
 
 Gets or sets the input for the material's emissive value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.EmissiveInput](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.emissiveinput).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.EmissiveInput](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.emissiveinput) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

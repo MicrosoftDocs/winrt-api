@@ -12,7 +12,7 @@ public string ErrorMessage { get; }
 ## -description
 Gets the message component of the exception, as a string.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ExceptionRoutedEventArgs.ErrorMessage](/windows/winui/api/microsoft.ui.xaml.exceptionroutedeventargs.errormessage).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ExceptionRoutedEventArgs.ErrorMessage](/windows/winui/api/microsoft.ui.xaml.exceptionroutedeventargs.errormessage) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The message component of the exception.

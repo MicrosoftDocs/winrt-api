@@ -12,7 +12,7 @@ public class Page : Windows.UI.Xaml.Controls.UserControl, Windows.UI.Xaml.Contro
 ## -description
 Represents content that a [Frame](frame.md) control can navigate to.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Page](/windows/winui/api/microsoft.ui.xaml.controls.page).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Page](/windows/winui/api/microsoft.ui.xaml.controls.page) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

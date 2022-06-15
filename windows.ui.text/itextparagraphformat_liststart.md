@@ -12,7 +12,7 @@ public int ListStart { get;  set; }
 ## -description
 Gets or sets the starting value or code of a list numbering sequence.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.ListStart](/windows/winui/api/microsoft.ui.text.itextparagraphformat.liststart).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.ListStart](/windows/winui/api/microsoft.ui.text.itextparagraphformat.liststart) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The starting value or code of a list numbering sequence.

@@ -12,7 +12,7 @@ public void Remove(System.String key)
 ## -description
 Removes the specified animation from the collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ImplicitAnimationCollection.Remove](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.remove).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ImplicitAnimationCollection.Remove](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.remove) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param key

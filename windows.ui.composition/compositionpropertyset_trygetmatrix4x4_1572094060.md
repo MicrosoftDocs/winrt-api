@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionGetValueStatus TryGetMatrix4x4(System.S
 ## -description
 Retrieves the specified [Matrix4x4](../windows.foundation.numerics/matrix4x4.md) property value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionPropertySet.TryGetMatrix4x4](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.trygetmatrix4x4).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionPropertySet.TryGetMatrix4x4](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.trygetmatrix4x4) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param propertyName

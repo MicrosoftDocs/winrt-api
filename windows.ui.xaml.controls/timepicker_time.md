@@ -13,7 +13,7 @@ public Windows.Foundation.TimeSpan Time { get;  set; }
 
 Gets or sets the time currently set in the time picker.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TimePicker.Time](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.time).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TimePicker.Time](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.time) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

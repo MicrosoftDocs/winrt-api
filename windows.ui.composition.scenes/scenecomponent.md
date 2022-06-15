@@ -14,7 +14,7 @@ public class SceneComponent : SceneObject, SceneObject
 
 Represents a functional part of a scene.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneComponent](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneComponent](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

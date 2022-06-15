@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Style BasedOn { get;  set; }
 ## -description
 Gets or sets a defined style that is the basis of the current style.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Style.BasedOn](/windows/winui/api/microsoft.ui.xaml.style.basedon).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Style.BasedOn](/windows/winui/api/microsoft.ui.xaml.style.basedon) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

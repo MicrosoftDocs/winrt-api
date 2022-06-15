@@ -14,7 +14,7 @@ public class FlyoutShowOptions : DependencyObject, DependencyObject
 
 Represents the options used to show a flyout.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutshowoptions).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutshowoptions) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

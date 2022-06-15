@@ -13,7 +13,7 @@ public int RichEditTextRange.Delete(TextRangeUnit unit, Int32 count)
 
 Deletes text from the text range.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.Delete](/windows/winui/api/microsoft.ui.text.richedittextrange.delete).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.Delete](/windows/winui/api/microsoft.ui.text.richedittextrange.delete) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param unit

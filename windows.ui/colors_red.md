@@ -13,7 +13,7 @@ public Windows.UI.Color Red { get; }
 
 Gets the system-defined color that has the ARGB value of #FFFF0000.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Red](/windows/winui/api/microsoft.ui.colors.red).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Red](/windows/winui/api/microsoft.ui.colors.red) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

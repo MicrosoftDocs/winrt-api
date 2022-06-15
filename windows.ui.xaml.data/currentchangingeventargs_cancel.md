@@ -12,7 +12,7 @@ public bool Cancel { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [CurrentItem](icollectionview_currentitem.md) change should be canceled.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.CurrentChangingEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.data.currentchangingeventargs.cancel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.CurrentChangingEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.data.currentchangingeventargs.cancel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if the event should be canceled; otherwise, **false**. The default is **false**.

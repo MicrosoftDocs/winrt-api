@@ -12,7 +12,7 @@ virtual protected object GetResource(System.String resourceId, System.String obj
 ## -description
 When overridden in a derived class, specifies the logic of resource lookup for this [CustomXamlResourceLoader](customxamlresourceloader.md). Given a resource ID and some type information about the expected result, returns the requested resource.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Resources.CustomXamlResourceLoader.GetResource](/windows/winui/api/microsoft.ui.xaml.resources.customxamlresourceloader.getresource).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Resources.CustomXamlResourceLoader.GetResource](/windows/winui/api/microsoft.ui.xaml.resources.customxamlresourceloader.getresource) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param resourceId

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PreventKeyboardDisplayOnProgrammaticFo
 ## -description
 Identifies the [PreventKeyboardDisplayOnProgrammaticFocus](passwordbox_preventkeyboarddisplayonprogrammaticfocus.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.PasswordBox.PreventKeyboardDisplayOnProgrammaticFocusProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.preventkeyboarddisplayonprogrammaticfocusproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.PasswordBox.PreventKeyboardDisplayOnProgrammaticFocusProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.preventkeyboarddisplayonprogrammaticfocusproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [PreventKeyboardDisplayOnProgrammaticFocus](passwordbox_preventkeyboarddisplayonprogrammaticfocus.md) dependency property.

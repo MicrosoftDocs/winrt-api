@@ -12,7 +12,7 @@ public double X1 { get;  set; }
 ## -description
 Gets or sets the x-coordinate of the [Line](line.md) start point.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Line.X1](/windows/winui/api/microsoft.ui.xaml.shapes.line.x1).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Line.X1](/windows/winui/api/microsoft.ui.xaml.shapes.line.x1) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

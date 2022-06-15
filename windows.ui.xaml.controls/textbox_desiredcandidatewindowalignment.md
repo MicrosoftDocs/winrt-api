@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.CandidateWindowAlignment DesiredCandidateWindowA
 ## -description
 Gets or sets a value that indicates the preferred alignment of the Input Method Editor (IME).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.DesiredCandidateWindowAlignment](/windows/winui/api/microsoft.ui.xaml.controls.textbox.desiredcandidatewindowalignment).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.DesiredCandidateWindowAlignment](/windows/winui/api/microsoft.ui.xaml.controls.textbox.desiredcandidatewindowalignment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

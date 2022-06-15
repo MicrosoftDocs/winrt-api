@@ -13,7 +13,7 @@ public enum ContentDialogPlacement : int
 
 Defines constants that specify where in the XAML visual tree a ContentDialog is rooted.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentDialogPlacement](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogplacement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentDialogPlacement](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogplacement) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Popup:0

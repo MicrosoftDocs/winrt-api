@@ -12,7 +12,7 @@ public enum Windows.UI.Composition.CompositionGetValueStatus : int
 ## -description
 Indicates the outcome of an attempt to retrieve the value of a key-value pair.
 
-Equivalent **WinUI 2 API for UWP**: [CompositionGetValueStatus](/windows/winui/api/microsoft.ui.composition.compositiongetvaluestatus).
+Equivalent **WinUI 2 API for UWP**: [CompositionGetValueStatus](/windows/winui/api/microsoft.ui.composition.compositiongetvaluestatus) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Succeeded:0

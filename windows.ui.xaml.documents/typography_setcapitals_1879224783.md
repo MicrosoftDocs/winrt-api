@@ -12,7 +12,7 @@ public void SetCapitals(Windows.UI.Xaml.DependencyObject element, Windows.UI.Xam
 ## -description
 Sets the value of the [Capitals](typography_capitals.md) attached property for a specified dependency object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetCapitals](/windows/winui/api/microsoft.ui.xaml.documents.typography.setcapitals).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.SetCapitals](/windows/winui/api/microsoft.ui.xaml.documents.typography.setcapitals) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

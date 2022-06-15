@@ -12,7 +12,7 @@ public void SetPoint(Windows.Foundation.Point point, Windows.UI.Text.PointOption
 ## -description
 Changes the text range based on the specified point.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.SetPoint](/windows/winui/api/microsoft.ui.text.itextrange.setpoint).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.SetPoint](/windows/winui/api/microsoft.ui.text.itextrange.setpoint) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param point

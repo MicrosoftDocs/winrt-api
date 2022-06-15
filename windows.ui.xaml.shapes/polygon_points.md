@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.PointCollection Points { get;  set; }
 ## -description
 Gets or sets a collection that contains the vertex points of the polygon.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Polygon.Points](/windows/winui/api/microsoft.ui.xaml.shapes.polygon.points).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Polygon.Points](/windows/winui/api/microsoft.ui.xaml.shapes.polygon.points) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

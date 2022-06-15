@@ -14,7 +14,7 @@ public ICompositionSurface Surface { get;  set; }
 
 Gets or sets the composition surface.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneSurfaceMaterialInput.Surface](/windows/winui/api/microsoft.ui.composition.scenes.scenesurfacematerialinput.surface).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneSurfaceMaterialInput.Surface](/windows/winui/api/microsoft.ui.composition.scenes.scenesurfacematerialinput.surface) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

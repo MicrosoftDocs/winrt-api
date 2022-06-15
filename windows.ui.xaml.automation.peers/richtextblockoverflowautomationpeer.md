@@ -12,7 +12,7 @@ public class RichTextBlockOverflowAutomationPeer : Windows.UI.Xaml.Automation.Pe
 ## -description
 Exposes [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) types to Microsoft UI Automation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.RichTextBlockOverflowAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.richtextblockoverflowautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.RichTextBlockOverflowAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.richtextblockoverflowautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 The Windows Runtime  [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) class creates a new RichTextBlockOverflowAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) is sealed, so the normal scenario of deriving from the [RichTextBlockOverflow](../windows.ui.xaml.controls/richtextblockoverflow.md) class and its existing peer isn't applicable to RichTextBlockOverflowAutomationPeer.

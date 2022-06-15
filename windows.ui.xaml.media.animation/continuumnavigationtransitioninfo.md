@@ -12,7 +12,7 @@ public class ContinuumNavigationTransitionInfo : Windows.UI.Xaml.Media.Animation
 ## -description
 Specifies the object that will fly between pages to provide context during a continuum transition.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

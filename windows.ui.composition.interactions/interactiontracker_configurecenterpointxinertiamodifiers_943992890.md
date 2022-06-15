@@ -12,7 +12,7 @@ public void InteractionTracker.ConfigureCenterPointXInertiaModifiers(IIterable<C
 ## -description
 Takes an ordered list of CompositionConditionalValue. In a frame, while the tracker is in Inertia, the first CompositionConditionalValue to have its “.Condition” evaluate to true replaces the zoom CenterPointX value the tracker uses with its “.Value”. If none evaluate to true, the CenterPointX is not replaced that frame.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.ConfigureCenterPointXInertiaModifiers](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.configurecenterpointxinertiamodifiers).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.ConfigureCenterPointXInertiaModifiers](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.configurecenterpointxinertiamodifiers) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

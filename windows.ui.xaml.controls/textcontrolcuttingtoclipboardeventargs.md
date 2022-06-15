@@ -13,7 +13,7 @@ public class TextControlCuttingToClipboardEventArgs
 
 Provides event data for the **CuttingToClipboard** event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextControlCuttingToClipboardEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.textcontrolcuttingtoclipboardeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextControlCuttingToClipboardEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.textcontrolcuttingtoclipboardeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

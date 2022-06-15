@@ -12,7 +12,7 @@ public float Opacity { get;  set; }
 ## -description
 The opacity of the shadow. Animatable.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.DropShadow.Opacity](/windows/winui/api/microsoft.ui.composition.dropshadow.opacity).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.DropShadow.Opacity](/windows/winui/api/microsoft.ui.composition.dropshadow.opacity) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The opacity of the shadow.

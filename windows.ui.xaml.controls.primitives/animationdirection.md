@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.Primitives.AnimationDirection : int
 ## -description
 Defines constants that specify the direction in which an animation translates from start to end.
 
-Equivalent **WinUI 2 API for UWP**: [AnimationDirection](/windows/winui/api/microsoft.ui.xaml.controls.primitives.animationdirection).
+Equivalent **WinUI 2 API for UWP**: [AnimationDirection](/windows/winui/api/microsoft.ui.xaml.controls.primitives.animationdirection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -13,7 +13,7 @@ public void Execute(System.Object parameter)
 
 Defines the method to be called when the command is invoked.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ICommand.Execute](/windows/winui/api/microsoft.ui.xaml.input.icommand.execute).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ICommand.Execute](/windows/winui/api/microsoft.ui.xaml.input.icommand.execute) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

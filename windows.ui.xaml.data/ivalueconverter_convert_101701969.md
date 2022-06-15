@@ -12,7 +12,7 @@ public object Convert(System.Object value, Windows.UI.Xaml.Interop.TypeName targ
 ## -description
 Modifies the source data before passing it to the target for display in the UI.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.IValueConverter.Convert](/windows/winui/api/microsoft.ui.xaml.data.ivalueconverter.convert).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.IValueConverter.Convert](/windows/winui/api/microsoft.ui.xaml.data.ivalueconverter.convert) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param value

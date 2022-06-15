@@ -12,7 +12,7 @@ public double CurtainCurrentToOnOffset { get; }
 ## -description
 Gets the calculated value of the offset for the "curtain" element of the [ToggleSwitch](../windows.ui.xaml.controls/toggleswitch.md), calculated for an "On" action and current switch position.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings.CurtainCurrentToOnOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.toggleswitchtemplatesettings.curtaincurrenttoonoffset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings.CurtainCurrentToOnOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.toggleswitchtemplatesettings.curtaincurrenttoonoffset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A value in pixels.

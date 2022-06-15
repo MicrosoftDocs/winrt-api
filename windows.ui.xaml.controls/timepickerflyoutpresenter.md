@@ -12,7 +12,7 @@ public class TimePickerFlyoutPresenter : Windows.UI.Xaml.Controls.Control, Windo
 ## -description
 Represents the visual container for the [TimePickerFlyout](timepickerflyout.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyoutpresenter).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyoutpresenter) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 ### Control style and template

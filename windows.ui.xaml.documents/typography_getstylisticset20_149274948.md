@@ -12,7 +12,7 @@ public bool GetStylisticSet20(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [StylisticSet20](typography_stylisticset20.md) attached property for a specified dependency object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.GetStylisticSet20](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstylisticset20).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.GetStylisticSet20](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstylisticset20) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

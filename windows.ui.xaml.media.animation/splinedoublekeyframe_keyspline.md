@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.KeySpline KeySpline { get;  set; }
 ## -description
 Gets or sets the two control points that define animation progress for this key frame.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SplineDoubleKeyFrame.KeySpline](/windows/winui/api/microsoft.ui.xaml.media.animation.splinedoublekeyframe.keyspline).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SplineDoubleKeyFrame.KeySpline](/windows/winui/api/microsoft.ui.xaml.media.animation.splinedoublekeyframe.keyspline) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

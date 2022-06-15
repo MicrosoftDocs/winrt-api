@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionBorderMode BorderMode { get;  set; }
 ## -description
 Specifies how to compose the edges of bitmaps and clips associated with a visual, or with all visuals in the subtree rooted at this visual. Setting BorderMode at a parent Visual will affect all children visuals in the subtree and can be selectively turned off at each child visual.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual.BorderMode](/windows/winui/api/microsoft.ui.composition.visual.bordermode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual.BorderMode](/windows/winui/api/microsoft.ui.composition.visual.bordermode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 How to compose the edges of bitmaps and clips associated with a visual, or with all visuals in the subtree rooted at this visual.

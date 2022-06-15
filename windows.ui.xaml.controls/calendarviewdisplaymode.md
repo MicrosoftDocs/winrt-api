@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.CalendarViewDisplayMode : int
 ## -description
 Defines constants that specify which view of the calendar is shown.
 
-Equivalent **WinUI 2 API for UWP**: [CalendarViewDisplayMode](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdisplaymode).
+Equivalent **WinUI 2 API for UWP**: [CalendarViewDisplayMode](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdisplaymode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Month:0

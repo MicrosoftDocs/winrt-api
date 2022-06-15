@@ -12,7 +12,7 @@ public void SetText(Windows.UI.Text.TextSetOptions options, System.String value)
 ## -description
 Replaces the text in the text range.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.SetText](/windows/winui/api/microsoft.ui.text.itextrange.settext).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.SetText](/windows/winui/api/microsoft.ui.text.itextrange.settext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param options

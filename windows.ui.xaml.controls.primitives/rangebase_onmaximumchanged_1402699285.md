@@ -12,7 +12,7 @@ virtual protected void OnMaximumChanged(System.Double oldMaximum, System.Double 
 ## -description
 Called when the [Maximum](rangebase_maximum.md) property changes.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.OnMaximumChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.onmaximumchanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.OnMaximumChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.onmaximumchanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param oldMaximum

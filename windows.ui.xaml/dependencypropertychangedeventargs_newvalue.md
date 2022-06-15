@@ -12,7 +12,7 @@ public object NewValue { get; }
 ## -description
 Gets the value of the dependency property after the reported change.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs.NewValue](/windows/winui/api/microsoft.ui.xaml.dependencypropertychangedeventargs.newvalue).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs.NewValue](/windows/winui/api/microsoft.ui.xaml.dependencypropertychangedeventargs.newvalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The dependency property value after the change.

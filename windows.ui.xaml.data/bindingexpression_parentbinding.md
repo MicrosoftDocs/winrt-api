@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Data.Binding ParentBinding { get; }
 ## -description
 Gets the [Binding](binding.md) object of this [BindingExpression](bindingexpression.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.BindingExpression.ParentBinding](/windows/winui/api/microsoft.ui.xaml.data.bindingexpression.parentbinding).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.BindingExpression.ParentBinding](/windows/winui/api/microsoft.ui.xaml.data.bindingexpression.parentbinding) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The [Binding](binding.md) object of the current binding expression.

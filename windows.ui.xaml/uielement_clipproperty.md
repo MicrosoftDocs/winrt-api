@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ClipProperty { get; }
 ## -description
 Identifies the [Clip](uielement_clip.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ClipProperty](/windows/winui/api/microsoft.ui.xaml.uielement.clipproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ClipProperty](/windows/winui/api/microsoft.ui.xaml.uielement.clipproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Clip](uielement_clip.md) dependency property.

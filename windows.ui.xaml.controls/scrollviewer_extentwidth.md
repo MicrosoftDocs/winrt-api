@@ -12,7 +12,7 @@ public double ExtentWidth { get; }
 ## -description
 Gets the horizontal size of all the scrollable content in the [ScrollViewer](scrollviewer.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.ExtentWidth](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.extentwidth).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.ExtentWidth](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.extentwidth) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The horizontal size of all the scrollable content in the [ScrollViewer](scrollviewer.md).

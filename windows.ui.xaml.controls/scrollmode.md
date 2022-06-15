@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.ScrollMode : int
 ## -description
 Defines constants that specify scrolling behavior for [ScrollViewer](scrollviewer.md) and other parts involved in scrolling scenarios.
 
-Equivalent **WinUI 2 API for UWP**: [ScrollMode](/windows/winui/api/microsoft.ui.xaml.controls.scrollmode).
+Equivalent **WinUI 2 API for UWP**: [ScrollMode](/windows/winui/api/microsoft.ui.xaml.controls.scrollmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Disabled:0

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.UIElement Container { get;  set; }
 ## -description
 Gets the [UIElement](../windows.ui.xaml/uielement.md) that is considered the container of the manipulation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Container](/windows/winui/api/microsoft.ui.xaml.input.manipulationstartingroutedeventargs.container).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Container](/windows/winui/api/microsoft.ui.xaml.input.manipulationstartingroutedeventargs.container) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The [UIElement](../windows.ui.xaml/uielement.md) that is considered the container of the manipulation.

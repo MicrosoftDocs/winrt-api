@@ -12,7 +12,7 @@ public double MinWindowHeight { get;  set; }
 ## -description
 Gets or sets the minimum window height at which the [VisualState](visualstate.md) should be applied.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.AdaptiveTrigger.MinWindowHeight](/windows/winui/api/microsoft.ui.xaml.adaptivetrigger.minwindowheight).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.AdaptiveTrigger.MinWindowHeight](/windows/winui/api/microsoft.ui.xaml.adaptivetrigger.minwindowheight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

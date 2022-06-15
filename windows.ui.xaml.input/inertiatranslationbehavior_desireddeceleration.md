@@ -12,7 +12,7 @@ public double DesiredDeceleration { get;  set; }
 ## -description
 Gets or sets the rate the linear movement slows in device-independent units (1/96th inch per unit) per squared millisecond.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.InertiaTranslationBehavior.DesiredDeceleration](/windows/winui/api/microsoft.ui.xaml.input.inertiatranslationbehavior.desireddeceleration).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.InertiaTranslationBehavior.DesiredDeceleration](/windows/winui/api/microsoft.ui.xaml.input.inertiatranslationbehavior.desireddeceleration) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The rate the linear movement slows in device-independent units (1/96th inch per unit) per squared millisecond. 

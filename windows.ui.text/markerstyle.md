@@ -12,7 +12,7 @@ public enum Windows.UI.Text.MarkerStyle : int
 ## -description
 Specifies the style used to mark the item paragraphs in a list.
 
-Equivalent **WinUI 2 API for UWP**: [MarkerStyle](/windows/winui/api/microsoft.ui.text.markerstyle).
+Equivalent **WinUI 2 API for UWP**: [MarkerStyle](/windows/winui/api/microsoft.ui.text.markerstyle) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Undefined:0

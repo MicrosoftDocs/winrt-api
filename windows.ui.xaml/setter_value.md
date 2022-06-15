@@ -12,7 +12,7 @@ public object Value { get;  set; }
 ## -description
 Gets or sets the value to apply to the property that is specified by the [Setter](setter.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Setter.Value](/windows/winui/api/microsoft.ui.xaml.setter.value).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Setter.Value](/windows/winui/api/microsoft.ui.xaml.setter.value) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

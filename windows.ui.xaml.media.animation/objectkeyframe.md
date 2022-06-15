@@ -12,7 +12,7 @@ public class ObjectKeyFrame : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.
 ## -description
 Defines an animation segment with its own target value and interpolation method for an [ObjectAnimationUsingKeyFrames](objectanimationusingkeyframes.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframe).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframe) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 ### **ObjectKeyFrame** derived classes

@@ -12,7 +12,7 @@ public KeyTipPlacementMode KeyTipPlacementMode { get;  set; }
 ## -description
 Gets or sets a value that indicates where the access key Key Tip is placed in relation to the boundary of the UIElement.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.KeyTipPlacementMode](/windows/winui/api/microsoft.ui.xaml.uielement.keytipplacementmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.KeyTipPlacementMode](/windows/winui/api/microsoft.ui.xaml.uielement.keytipplacementmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

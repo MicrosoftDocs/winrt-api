@@ -13,7 +13,7 @@ public int RichEditTextRange.EndOf(TextRangeUnit unit, Boolean extend)
 
 Moves or extends the text range to the end of the nearest specified text unit. The text range is moved or extended forward in the document.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.EndOf](/windows/winui/api/microsoft.ui.text.richedittextrange.endof).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.EndOf](/windows/winui/api/microsoft.ui.text.richedittextrange.endof) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param unit

@@ -14,7 +14,7 @@ public class FrameNavigationOptions
 
 Represents options for a frame navigation, including whether it is recorded in the navigation stack and what transition animation is used.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Navigation.FrameNavigationOptions](/windows/winui/api/microsoft.ui.xaml.navigation.framenavigationoptions).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Navigation.FrameNavigationOptions](/windows/winui/api/microsoft.ui.xaml.navigation.framenavigationoptions) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

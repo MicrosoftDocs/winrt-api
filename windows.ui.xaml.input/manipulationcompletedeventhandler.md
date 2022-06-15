@@ -10,7 +10,7 @@ public delegate void ManipulationCompletedEventHandler(System.Object sender, Win
 ## -description
 Represents the method that will handle [ManipulationCompleted](../windows.ui.xaml/uielement_manipulationcompleted.md) and related events.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationCompletedEventHandler](/windows/winui/api/microsoft.ui.xaml.input.manipulationcompletedeventhandler).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationCompletedEventHandler](/windows/winui/api/microsoft.ui.xaml.input.manipulationcompletedeventhandler) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param sender

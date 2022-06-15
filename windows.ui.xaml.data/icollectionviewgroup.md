@@ -12,7 +12,7 @@ public interface ICollectionViewGroup :
 ## -description
 Represents any grouped items within a view.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICollectionViewGroup](/windows/winui/api/microsoft.ui.xaml.data.icollectionviewgroup).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICollectionViewGroup](/windows/winui/api/microsoft.ui.xaml.data.icollectionviewgroup) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 ICollectionViewGroup is used like a view model to represent a group within a collection. When implementing a custom grouped data source, your data source should implement [ICollectionViewFactory](icollectionviewfactory.md). For more info, see [ICollectionViewFactory](icollectionviewfactory.md) and [ICollectionView](icollectionview.md).

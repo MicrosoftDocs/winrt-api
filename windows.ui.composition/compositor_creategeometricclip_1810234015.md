@@ -16,7 +16,7 @@ public CompositionGeometricClip Compositor.CreateGeometricClip()
 
 Creates an instance of [CompositionGeometricClip](compositiongeometricclip.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateGeometricClip](/windows/winui/api/microsoft.ui.composition.compositor.creategeometricclip).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateGeometricClip](/windows/winui/api/microsoft.ui.composition.compositor.creategeometricclip) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

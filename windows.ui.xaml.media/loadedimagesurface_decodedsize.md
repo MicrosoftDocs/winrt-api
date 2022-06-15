@@ -12,7 +12,7 @@ public Size DecodedSize { get; }
 ## -description
 Gets the size of the decoded image in device independent pixels.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.LoadedImageSurface.DecodedSize](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface.decodedsize).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.LoadedImageSurface.DecodedSize](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface.decodedsize) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The size of the decoded image in device independent pixels.

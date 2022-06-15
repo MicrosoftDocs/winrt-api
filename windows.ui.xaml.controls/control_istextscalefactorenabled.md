@@ -12,7 +12,7 @@ public bool IsTextScaleFactorEnabled { get;  set; }
 ## -description
 Gets or sets whether automatic text enlargement, to reflect the system text size setting, is enabled.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.IsTextScaleFactorEnabled](/windows/winui/api/microsoft.ui.xaml.controls.control.istextscalefactorenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.IsTextScaleFactorEnabled](/windows/winui/api/microsoft.ui.xaml.controls.control.istextscalefactorenabled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

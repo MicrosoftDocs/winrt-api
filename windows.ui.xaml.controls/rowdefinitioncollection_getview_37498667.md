@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Controls.RowDe
 ## -description
 Gets an immutable view into the collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RowDefinitionCollection.GetView](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinitioncollection.getview).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RowDefinitionCollection.GetView](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinitioncollection.getview) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 An object representing the immutable collection view.

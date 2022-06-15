@@ -12,7 +12,7 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the hub section header.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.HubSection.Header](/windows/winui/api/microsoft.ui.xaml.controls.hubsection.header).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.HubSection.Header](/windows/winui/api/microsoft.ui.xaml.controls.hubsection.header) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

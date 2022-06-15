@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Provider.ITextRangeProvider FindAttribute(Syst
 ## -description
 Returns a text range subset that has the specified attribute ID and attribute value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.FindAttribute](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.findattribute).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.FindAttribute](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.findattribute) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param attributeId

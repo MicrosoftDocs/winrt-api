@@ -12,7 +12,7 @@ public bool HidesIfEmpty { get;  set; }
 ## -description
 Gets or sets a value that indicates whether items corresponding to empty groups should be displayed.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.GroupStyle.HidesIfEmpty](/windows/winui/api/microsoft.ui.xaml.controls.groupstyle.hidesifempty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.GroupStyle.HidesIfEmpty](/windows/winui/api/microsoft.ui.xaml.controls.groupstyle.hidesifempty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

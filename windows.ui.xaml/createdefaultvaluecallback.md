@@ -10,7 +10,7 @@ public delegate object CreateDefaultValueCallback()
 ## -description
 Represents the method that can be invoked as part of a [PropertyMetadata](propertymetadata.md) constructor to defer definition of a dependency property default value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.CreateDefaultValueCallback](/windows/winui/api/microsoft.ui.xaml.createdefaultvaluecallback).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.CreateDefaultValueCallback](/windows/winui/api/microsoft.ui.xaml.createdefaultvaluecallback) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 The desired default value.

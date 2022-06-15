@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Stretch Stretch { get;  set; }
 ## -description
 Gets or sets a [Stretch](../windows.ui.xaml.media/stretch.md) enumeration value that describes how the shape fills its allocated space.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Shape.Stretch](/windows/winui/api/microsoft.ui.xaml.shapes.shape.stretch).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Shape.Stretch](/windows/winui/api/microsoft.ui.xaml.shapes.shape.stretch) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

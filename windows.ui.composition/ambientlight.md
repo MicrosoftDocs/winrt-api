@@ -12,7 +12,7 @@ public class AmbientLight : Windows.UI.Composition.CompositionLight, Windows.UI.
 ## -description
 A light that illuminates every targeted Visual equally .
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.AmbientLight](/windows/winui/api/microsoft.ui.composition.ambientlight).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.AmbientLight](/windows/winui/api/microsoft.ui.composition.ambientlight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 AmbientLight is one of the four light types derived from [CompositionLight](compositionlight.md).

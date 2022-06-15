@@ -12,7 +12,7 @@ public void SetScrollPercent(System.Double horizontalPercent, System.Double vert
 ## -description
 Sets the horizontal and vertical scroll position as a percentage of the total content area within the control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.SetScrollPercent](/windows/winui/api/microsoft.ui.xaml.automation.provider.iscrollprovider.setscrollpercent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.SetScrollPercent](/windows/winui/api/microsoft.ui.xaml.automation.provider.iscrollprovider.setscrollpercent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param horizontalPercent

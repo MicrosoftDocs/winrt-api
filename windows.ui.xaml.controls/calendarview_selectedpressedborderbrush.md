@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush SelectedPressedBorderBrush { get;  set; }
 ## -description
 Gets or sets a brush that provides the border of a selected calendar item while it's pressed.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.SelectedPressedBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selectedpressedborderbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.SelectedPressedBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selectedpressedborderbrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

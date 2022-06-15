@@ -12,7 +12,7 @@ public class CustomXamlResourceLoader : Windows.UI.Xaml.Resources.ICustomXamlRes
 ## -description
 Enables loading of custom resource dictionaries as sources. Override [GetResource](customxamlresourceloader_getresource_689752583.md) to provide the logic that a XAML parser can use to look up the necessary resources at load time.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Resources.CustomXamlResourceLoader](/windows/winui/api/microsoft.ui.xaml.resources.customxamlresourceloader).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Resources.CustomXamlResourceLoader](/windows/winui/api/microsoft.ui.xaml.resources.customxamlresourceloader) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 CustomXamlResourceLoader supports a markup extension usage `{CustomResource}`. This markup extension is unique to the Windows Runtime XAML framework (it did not exist in precursor XAML technologies such as Windows Presentation Foundation (WPF) and Microsoft Silverlight.)

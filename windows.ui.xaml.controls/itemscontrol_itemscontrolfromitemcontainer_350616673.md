@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ItemsControl ItemsControlFromItemContainer(Windo
 ## -description
 Returns the [ItemsControl](itemscontrol.md) that owns the specified container element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsControlFromItemContainer](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemscontrolfromitemcontainer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsControlFromItemContainer](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemscontrolfromitemcontainer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param container

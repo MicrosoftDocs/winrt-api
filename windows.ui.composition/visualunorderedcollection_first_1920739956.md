@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IIterator<Windows.UI.Composition.Visual> F
 ## -description
 Retrieves the first visual in the collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.VisualUnorderedCollection.First](/windows/winui/api/microsoft.ui.composition.visualunorderedcollection.first).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.VisualUnorderedCollection.First](/windows/winui/api/microsoft.ui.composition.visualunorderedcollection.first) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 The first visual in the collection.

@@ -14,7 +14,7 @@ public CompositionProjectedShadowReceiverUnorderedCollection Receivers { get; }
 
 Gets the collection of objects that the shadow is cast on.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionProjectedShadow.Receivers](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadow.receivers).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionProjectedShadow.Receivers](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadow.receivers) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

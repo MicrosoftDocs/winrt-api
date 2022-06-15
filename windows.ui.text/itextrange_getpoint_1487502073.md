@@ -12,7 +12,7 @@ public void GetPoint(Windows.UI.Text.HorizontalCharacterAlignment horizontalAlig
 ## -description
 Retrieves the screen coordinates of a particular location in the text range.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.GetPoint](/windows/winui/api/microsoft.ui.text.itextrange.getpoint).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.GetPoint](/windows/winui/api/microsoft.ui.text.itextrange.getpoint) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param horizontalAlign

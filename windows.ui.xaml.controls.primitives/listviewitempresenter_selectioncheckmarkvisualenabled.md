@@ -12,7 +12,7 @@ public bool SelectionCheckMarkVisualEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the check mark is shown when the item is selected.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectionCheckMarkVisualEnabled](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.selectioncheckmarkvisualenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectionCheckMarkVisualEnabled](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.selectioncheckmarkvisualenabled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

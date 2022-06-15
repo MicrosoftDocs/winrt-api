@@ -12,7 +12,7 @@ public enum Windows.UI.Composition.CompositionEffectFactoryLoadStatus : int
 ## -description
 The status of the asynchronous compilation of a shader for an effect description.
 
-Equivalent **WinUI 2 API for UWP**: [CompositionEffectFactoryLoadStatus](/windows/winui/api/microsoft.ui.composition.compositioneffectfactoryloadstatus).
+Equivalent **WinUI 2 API for UWP**: [CompositionEffectFactoryLoadStatus](/windows/winui/api/microsoft.ui.composition.compositioneffectfactoryloadstatus) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Success:0

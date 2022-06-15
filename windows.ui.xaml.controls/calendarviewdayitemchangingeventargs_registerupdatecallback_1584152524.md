@@ -12,7 +12,7 @@ public void RegisterUpdateCallback(System.UInt32 callbackPhase, Windows.Foundati
 ## -description
 Registers the event handler to be called again during the specified phase.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarViewDayItemChangingEventArgs.RegisterUpdateCallback](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitemchangingeventargs.registerupdatecallback).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarViewDayItemChangingEventArgs.RegisterUpdateCallback](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitemchangingeventargs.registerupdatecallback) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param callbackPhase

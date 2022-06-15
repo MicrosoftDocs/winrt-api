@@ -12,7 +12,7 @@ public class TriggerActionCollection : Windows.Foundation.Collections.IIterable<
 ## -description
 Represents a collection of [BeginStoryboard](../windows.ui.xaml.media.animation/beginstoryboard.md) objects.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.TriggerActionCollection](/windows/winui/api/microsoft.ui.xaml.triggeractioncollection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.TriggerActionCollection](/windows/winui/api/microsoft.ui.xaml.triggeractioncollection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

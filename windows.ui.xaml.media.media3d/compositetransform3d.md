@@ -13,7 +13,7 @@ public class CompositeTransform3D : Windows.UI.Xaml.Media.Media3D.Transform3D, W
 
 Represents 3-D scale, rotation, and translate transforms to be applied to an element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Media3D.CompositeTransform3D](/windows/winui/api/microsoft.ui.xaml.media.media3d.compositetransform3d).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Media3D.CompositeTransform3D](/windows/winui/api/microsoft.ui.xaml.media.media3d.compositetransform3d) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

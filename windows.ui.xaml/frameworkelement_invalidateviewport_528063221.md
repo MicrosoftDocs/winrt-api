@@ -14,7 +14,7 @@ public void FrameworkElement.InvalidateViewport()
 
 Invalidates the viewport state for a [UIElement](uielement.md) that is used to calculate the *effective viewport*.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.InvalidateViewport](/windows/winui/api/microsoft.ui.xaml.frameworkelement.invalidateviewport).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.InvalidateViewport](/windows/winui/api/microsoft.ui.xaml.frameworkelement.invalidateviewport) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -13,7 +13,7 @@ public void CompositionStrokeDashArray.Clear()
 
 Removes all items from the collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionStrokeDashArray.Clear](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.clear).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionStrokeDashArray.Clear](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.clear) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

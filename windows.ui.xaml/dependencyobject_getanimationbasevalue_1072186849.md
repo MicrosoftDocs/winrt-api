@@ -12,7 +12,7 @@ public object GetAnimationBaseValue(Windows.UI.Xaml.DependencyProperty dp)
 ## -description
 Returns any base value established for a dependency property, which would apply in cases where an animation is not active.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DependencyObject.GetAnimationBaseValue](/windows/winui/api/microsoft.ui.xaml.dependencyobject.getanimationbasevalue).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DependencyObject.GetAnimationBaseValue](/windows/winui/api/microsoft.ui.xaml.dependencyobject.getanimationbasevalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param dp

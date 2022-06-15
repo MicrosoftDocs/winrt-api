@@ -12,7 +12,7 @@ public interface IRangeValueProvider :
 ## -description
 Exposes methods and properties to support access by a Microsoft UI Automation client to controls that can be set to a value within a range. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.RangeValue](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.irangevalueprovider).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.irangevalueprovider) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [RangeValue Control Pattern](/windows/desktop/WinAuto/uiauto-implementingrangevalue).

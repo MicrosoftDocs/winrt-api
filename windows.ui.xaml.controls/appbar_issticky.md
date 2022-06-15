@@ -12,7 +12,7 @@ public bool IsSticky { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [AppBar](appbar.md) does not close on light dismiss.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AppBar.IsSticky](/windows/winui/api/microsoft.ui.xaml.controls.appbar.issticky).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AppBar.IsSticky](/windows/winui/api/microsoft.ui.xaml.controls.appbar.issticky) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

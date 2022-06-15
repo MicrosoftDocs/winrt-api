@@ -12,7 +12,7 @@ public double HorizontalAlignmentRatio { get;  set; }
 ## -description
 Controls the positioning of the vertical axis of the TargetRect with respect to the vertical axis of the viewport. The value is clamped from 0.0f to 1.0f with 0.0f representing the left vertical edge and 1.0f representing the right vertical edge. By default this is set to 0.0f.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.BringIntoViewOptions.HorizontalAlignmentRatio](/windows/winui/api/microsoft.ui.xaml.bringintoviewoptions.horizontalalignmentratio).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.BringIntoViewOptions.HorizontalAlignmentRatio](/windows/winui/api/microsoft.ui.xaml.bringintoviewoptions.horizontalalignmentratio) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

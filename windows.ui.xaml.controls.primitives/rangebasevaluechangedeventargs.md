@@ -12,7 +12,7 @@ public class RangeBaseValueChangedEventArgs : Windows.UI.Xaml.RoutedEventArgs, W
 ## -description
 Provides data about a change in range value for the [ValueChanged](rangebase_valuechanged.md) event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebasevaluechangedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebasevaluechangedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

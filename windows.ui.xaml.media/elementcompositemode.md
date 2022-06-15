@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.ElementCompositeMode : int
 ## -description
 Declares alternate composition and blending modes for elements in mixed XAML / Microsoft DirectX UI.
 
-Equivalent **WinUI 2 API for UWP**: [ElementCompositeMode](/windows/winui/api/microsoft.ui.xaml.media.elementcompositemode).
+Equivalent **WinUI 2 API for UWP**: [ElementCompositeMode](/windows/winui/api/microsoft.ui.xaml.media.elementcompositemode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Inherit:0

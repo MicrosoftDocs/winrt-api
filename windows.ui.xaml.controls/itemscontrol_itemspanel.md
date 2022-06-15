@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ItemsPanelTemplate ItemsPanel { get;  set; }
 ## -description
 Gets or sets the template that defines the panel that controls the layout of items.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsPanel](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemspanel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsPanel](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemspanel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

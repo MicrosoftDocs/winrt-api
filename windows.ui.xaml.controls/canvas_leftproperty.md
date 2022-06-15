@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty LeftProperty { get; }
 ## -description
 Identifies the [Canvas.Left](canvas_left.md) XAML attached property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Canvas.LeftProperty](/windows/winui/api/microsoft.ui.xaml.controls.canvas.leftproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Canvas.LeftProperty](/windows/winui/api/microsoft.ui.xaml.controls.canvas.leftproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Canvas.Left](canvas_left.md) XAML attached property.

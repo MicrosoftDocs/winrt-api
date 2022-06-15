@@ -12,7 +12,7 @@ public IAsyncOperation<SvgImageSourceLoadStatus> SvgImageSource.SetSourceAsync(I
 ## -description
 Sets the source SVG for a [SvgImageSource](svgimagesource.md) by accessing a stream and processing the result asynchronously.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.SetSourceAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.setsourceasync).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.SetSourceAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.setsourceasync) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param streamSource

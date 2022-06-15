@@ -12,7 +12,7 @@ virtual protected void OnItemTemplateChanged(Windows.UI.Xaml.DataTemplate oldIte
 ## -description
 Invoked when the value of the [ItemTemplate](itemscontrol_itemtemplate.md) property changes.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.OnItemTemplateChanged](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.onitemtemplatechanged).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.OnItemTemplateChanged](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.onitemtemplatechanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param oldItemTemplate

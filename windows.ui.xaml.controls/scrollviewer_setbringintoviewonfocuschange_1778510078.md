@@ -12,7 +12,7 @@ public void SetBringIntoViewOnFocusChange(Windows.UI.Xaml.DependencyObject eleme
 ## -description
 Sets the value of the [BringIntoViewOnFocusChange](scrollviewer_bringintoviewonfocuschange.md) dependency property / `ScrollViewer.BringIntoViewOnFocusChange` XAML attached property on a specified element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.SetBringIntoViewOnFocusChange](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.setbringintoviewonfocuschange).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.SetBringIntoViewOnFocusChange](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.setbringintoviewonfocuschange) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

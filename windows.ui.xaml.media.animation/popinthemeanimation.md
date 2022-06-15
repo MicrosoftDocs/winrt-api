@@ -12,7 +12,7 @@ public class PopInThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline, Win
 ## -description
 Represents the preconfigured animation that applies to pop-in components of controls (for example, tooltip-like UI on an object) as they appear. This animation combines opacity and translation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.PopInThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.popinthemeanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.PopInThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.popinthemeanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

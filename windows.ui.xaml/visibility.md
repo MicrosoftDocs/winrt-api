@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Visibility : int
 ## -description
 Specifies the display state of an element.
 
-Equivalent **WinUI 2 API for UWP**: [Visibility](/windows/winui/api/microsoft.ui.xaml.visibility).
+Equivalent **WinUI 2 API for UWP**: [Visibility](/windows/winui/api/microsoft.ui.xaml.visibility) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.UIElement Content { get;  set; }
 ## -description
 Gets or sets the contents of the main panel of a [SplitView](splitview.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SplitView.Content](/windows/winui/api/microsoft.ui.xaml.controls.splitview.content).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SplitView.Content](/windows/winui/api/microsoft.ui.xaml.controls.splitview.content) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

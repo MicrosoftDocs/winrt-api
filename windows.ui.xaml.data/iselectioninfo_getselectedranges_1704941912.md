@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Data.ItemIndex
 ## -description
 Returns the collection of ranges of items in the data source that are selected in the list control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ISelectionInfo.GetSelectedRanges](/windows/winui/api/microsoft.ui.xaml.data.iselectioninfo.getselectedranges).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ISelectionInfo.GetSelectedRanges](/windows/winui/api/microsoft.ui.xaml.data.iselectioninfo.getselectedranges) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 A collection of ranges of items in the data source that are selected in the list control..

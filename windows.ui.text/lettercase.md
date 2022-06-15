@@ -12,7 +12,7 @@ public enum Windows.UI.Text.LetterCase : int
 ## -description
 Represents the character case formatting.
 
-Equivalent **WinUI 2 API for UWP**: [LetterCase](/windows/winui/api/microsoft.ui.text.lettercase).
+Equivalent **WinUI 2 API for UWP**: [LetterCase](/windows/winui/api/microsoft.ui.text.lettercase) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Lower:0

@@ -13,7 +13,7 @@ public Windows.UI.Color CadetBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FF5F9EA0.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.CadetBlue](/windows/winui/api/microsoft.ui.colors.cadetblue).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.CadetBlue](/windows/winui/api/microsoft.ui.colors.cadetblue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

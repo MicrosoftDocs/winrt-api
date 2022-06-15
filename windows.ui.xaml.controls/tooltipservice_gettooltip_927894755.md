@@ -12,7 +12,7 @@ public object GetToolTip(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets the value of the [ToolTipService.ToolTip](tooltipservice_tooltip.md) XAML attached property for an object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToolTipService.GetToolTip](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice.gettooltip).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToolTipService.GetToolTip](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice.gettooltip) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

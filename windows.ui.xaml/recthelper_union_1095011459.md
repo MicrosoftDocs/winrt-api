@@ -13,7 +13,7 @@ public Windows.Foundation.Rect Union(Windows.Foundation.Rect target, Windows.Fou
 
 Creates a rectangle that is exactly large enough to contain the two specified rectangles. C# and Microsoft Visual Basic code should use [Rect.Union(Rect)](/dotnet/api/windows.foundation.rect.union?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.RectHelper.Union](/windows/winui/api/microsoft.ui.xaml.recthelper.union).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.RectHelper.Union](/windows/winui/api/microsoft.ui.xaml.recthelper.union) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

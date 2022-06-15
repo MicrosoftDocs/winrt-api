@@ -12,7 +12,7 @@ public string Value { get; }
 ## -description
 Gets the value of the control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Value](/windows/winui/api/microsoft.ui.xaml.automation.peers.calendardatepickerautomationpeer.value).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Value](/windows/winui/api/microsoft.ui.xaml.automation.peers.calendardatepickerautomationpeer.value) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The value of the control, as a string.

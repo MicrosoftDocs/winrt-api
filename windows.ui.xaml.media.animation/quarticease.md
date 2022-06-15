@@ -12,7 +12,7 @@ public class QuarticEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBase, W
 ## -description
 Represents an easing function that creates an animation that accelerates and/or decelerates using the formula *f* (*t*) = *t*<sup>4</sup>.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.QuarticEase](/windows/winui/api/microsoft.ui.xaml.media.animation.quarticease).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.QuarticEase](/windows/winui/api/microsoft.ui.xaml.media.animation.quarticease) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

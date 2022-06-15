@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Data.ICustomProperty GetIndexedProperty(System.String nam
 ## -description
 Gets a custom property's [ICustomProperty](icustomproperty.md) support object by specifying a property name and the type of the indexed collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICustomPropertyProvider.GetIndexedProperty](/windows/winui/api/microsoft.ui.xaml.data.icustompropertyprovider.getindexedproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICustomPropertyProvider.GetIndexedProperty](/windows/winui/api/microsoft.ui.xaml.data.icustompropertyprovider.getindexedproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param name

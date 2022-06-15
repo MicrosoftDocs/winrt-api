@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.DependencyObject> 
 
 Gets a list of automation elements that suggests the reading order before the specified automation element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetFlowsFrom](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getflowsfrom).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetFlowsFrom](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getflowsfrom) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

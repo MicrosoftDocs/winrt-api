@@ -14,7 +14,7 @@ public XamlRoot XamlRoot { get;  set; }
 
 Gets or sets the XamlRoot in which this element is being viewed.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.XamlRoot](/windows/winui/api/microsoft.ui.xaml.uielement.xamlroot).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.XamlRoot](/windows/winui/api/microsoft.ui.xaml.uielement.xamlroot) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

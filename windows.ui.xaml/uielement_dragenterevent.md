@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent DragEnterEvent { get; }
 ## -description
 Gets the identifier for the [DragEnter](uielement_dragenter.md) routed event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.DragEnterEvent](/windows/winui/api/microsoft.ui.xaml.uielement.dragenterevent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.DragEnterEvent](/windows/winui/api/microsoft.ui.xaml.uielement.dragenterevent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [DragEnter](uielement_dragenter.md) routed event.

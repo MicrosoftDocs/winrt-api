@@ -12,7 +12,7 @@ protected Windows.UI.Xaml.DependencyObject GetTemplateChild(System.String childN
 ## -description
 Retrieves the named element in the instantiated [ControlTemplate](controltemplate.md) visual tree.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.GetTemplateChild](/windows/winui/api/microsoft.ui.xaml.controls.control.gettemplatechild).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.GetTemplateChild](/windows/winui/api/microsoft.ui.xaml.controls.control.gettemplatechild) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param childName

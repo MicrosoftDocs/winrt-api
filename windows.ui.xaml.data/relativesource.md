@@ -12,7 +12,7 @@ public class RelativeSource : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.
 ## -description
 Implements a markup extension that describes the location of the binding source relative to the position of the binding target.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.RelativeSource](/windows/winui/api/microsoft.ui.xaml.data.relativesource).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.RelativeSource](/windows/winui/api/microsoft.ui.xaml.data.relativesource) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

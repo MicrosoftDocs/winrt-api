@@ -12,7 +12,7 @@ public class Block : Windows.UI.Xaml.Documents.TextElement, Windows.UI.Xaml.Docu
 ## -description
 An abstract class that provides a base for all block-level content elements.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Block](/windows/winui/api/microsoft.ui.xaml.documents.block).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Block](/windows/winui/api/microsoft.ui.xaml.documents.block) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 Block defines text formatting properties that should apply to all types of Block content. These properties are: [LineHeight](block_lineheight.md), [LineStackingStrategy](block_linestackingstrategy.md), [Margin](block_margin.md), and [TextAlignment](block_textalignment.md). Block also inherits the text formatting properties and other API of [TextElement](textelement.md).

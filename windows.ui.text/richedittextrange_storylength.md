@@ -13,7 +13,7 @@ public int StoryLength { get; }
 
 Gets the count of characters in the story of the text range.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.StoryLength](/windows/winui/api/microsoft.ui.text.richedittextrange.storylength).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.StoryLength](/windows/winui/api/microsoft.ui.text.richedittextrange.storylength) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

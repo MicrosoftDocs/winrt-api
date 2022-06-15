@@ -12,7 +12,7 @@ public Windows.UI.Color FillPatternColor { get; }
 ## -description
 Gets the color of the pattern used to fill an element in a document.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IStylesProvider.FillPatternColor](/windows/winui/api/microsoft.ui.xaml.automation.provider.istylesprovider.fillpatterncolor).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IStylesProvider.FillPatternColor](/windows/winui/api/microsoft.ui.xaml.automation.provider.istylesprovider.fillpatterncolor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The color of the fill pattern, represented as a Windows Runtime  [Color](../windows.ui/color.md) value.

@@ -14,7 +14,7 @@ public object Description { get;  set; }
 
 Gets or sets content that is shown below the control. The content should provide guidance about the input expected by the control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.Description](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.description).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.Description](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.description) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

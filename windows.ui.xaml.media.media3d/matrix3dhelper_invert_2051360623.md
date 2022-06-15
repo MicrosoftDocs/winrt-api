@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Media3D.Matrix3D Invert(Windows.UI.Xaml.Media.Media
 ## -description
 Returns a potentially new [Matrix3D](matrix3d.md) value that represents the inversion of the provided [Matrix3D](matrix3d.md). C# and Microsoft Visual Basic code should use [Invert](/dotnet/api/windows.ui.xaml.media.media3d.matrix3d.invert) instead.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Media3D.Matrix3DHelper.Invert](/windows/winui/api/microsoft.ui.xaml.media.media3d.matrix3dhelper.invert).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Media3D.Matrix3DHelper.Invert](/windows/winui/api/microsoft.ui.xaml.media.media3d.matrix3dhelper.invert) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param target

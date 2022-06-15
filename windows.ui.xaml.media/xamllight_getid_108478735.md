@@ -16,7 +16,7 @@ In most cases you should use a unique identifier to prevent conflicts. For examp
 
 The identifier is used to add and remove Brushes and UIElements as targets for a specific light type.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.XamlLight.GetId](/windows/winui/api/microsoft.ui.xaml.media.xamllight.getid).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.XamlLight.GetId](/windows/winui/api/microsoft.ui.xaml.media.xamllight.getid) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 The identifier for the [XamlLight](xamllight.md).

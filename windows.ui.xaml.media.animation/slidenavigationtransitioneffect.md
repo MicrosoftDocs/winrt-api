@@ -13,7 +13,7 @@ public enum SlideNavigationTransitionEffect : int
 ## -description
 Defines constants that describe the type of animation to play during a slide transition.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SlideNavigationTransitionEffect](/windows/winui/api/microsoft.ui.xaml.media.animation.slidenavigationtransitioneffect).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SlideNavigationTransitionEffect](/windows/winui/api/microsoft.ui.xaml.media.animation.slidenavigationtransitioneffect) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field FromRight:2

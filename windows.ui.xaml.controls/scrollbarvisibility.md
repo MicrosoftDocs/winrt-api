@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.ScrollBarVisibility : int
 ## -description
 Defines constants that specify the visibility of a scrollbar within a [ScrollViewer](scrollviewer.md) control.
 
-Equivalent **WinUI 2 API for UWP**: [ScrollBarVisibility](/windows/winui/api/microsoft.ui.xaml.controls.scrollbarvisibility).
+Equivalent **WinUI 2 API for UWP**: [ScrollBarVisibility](/windows/winui/api/microsoft.ui.xaml.controls.scrollbarvisibility) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

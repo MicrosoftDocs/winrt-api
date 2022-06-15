@@ -12,7 +12,7 @@ public class ManipulationStartingRoutedEventArgs : Windows.UI.Xaml.RoutedEventAr
 ## -description
 Provides data for the [ManipulationStarting](../windows.ui.xaml/uielement_manipulationstarting.md), event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.manipulationstartingroutedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.manipulationstartingroutedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

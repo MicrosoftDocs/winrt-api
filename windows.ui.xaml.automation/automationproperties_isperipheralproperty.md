@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty IsPeripheralProperty { get; }
 
 Identifies [AutomationProperties.IsPeripheral](automationproperties_isperipheral.md) XAML attached property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.IsPeripheralProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.isperipheralproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.IsPeripheralProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.isperipheralproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The dependency property identifier.

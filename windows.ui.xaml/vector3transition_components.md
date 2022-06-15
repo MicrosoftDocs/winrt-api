@@ -13,7 +13,7 @@ public Vector3TransitionComponents Components { get;  set; }
 ## -description
 Gets or sets a value that specifies whether to animate changes in the three subchannels of the Vector3.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Vector3Transition.Components](/windows/winui/api/microsoft.ui.xaml.vector3transition.components).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Vector3Transition.Components](/windows/winui/api/microsoft.ui.xaml.vector3transition.components) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

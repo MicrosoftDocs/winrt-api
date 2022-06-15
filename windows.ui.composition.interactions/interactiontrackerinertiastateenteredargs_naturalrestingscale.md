@@ -14,7 +14,7 @@ The [InteractionTracker](interactiontracker.md)'s resting scale when inertia com
 
 The NaturalRestingScale property represents the system’s calculation of [InteractionTracker](interactiontracker.md) ’s final natural resting scale position based on an interaction. Unlike the [ModifiedRestingScale](interactiontrackerinertiastateenteredargs_modifiedrestingscale.md), NaturalRestingScale will be calculated without any other factors that impact [InteractionTracker](interactiontracker.md) ’s motion such as [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md)s and Min/Max boundaries.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaStateEnteredArgs.NaturalRestingScale](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiastateenteredargs.naturalrestingscale).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaStateEnteredArgs.NaturalRestingScale](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiastateenteredargs.naturalrestingscale) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The [InteractionTracker](interactiontracker.md)'s resting scale when inertia completes, without accounting for [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md)s or boundaries.

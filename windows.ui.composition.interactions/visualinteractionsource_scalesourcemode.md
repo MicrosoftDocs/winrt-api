@@ -18,7 +18,7 @@ Defines how interactions are processed for an [VisualInteractionSource](visualin
     **EnabledWithoutInertia**
   . This property must be enabled to allow the [VisualInteractionSource](visualinteractionsource.md) to send scale data to [InteractionTracker](interactiontracker.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.ScaleSourceMode](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.scalesourcemode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.ScaleSourceMode](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.scalesourcemode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 Source mode for the scale axis.

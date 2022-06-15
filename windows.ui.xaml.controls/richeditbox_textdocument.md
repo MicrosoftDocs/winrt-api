@@ -14,7 +14,7 @@ public RichEditTextDocument TextDocument { get; }
 
 Gets an object that enables access to the text object model for the text contained in a [RichEditBox](richeditbox.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBox.TextDocument](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.textdocument).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBox.TextDocument](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.textdocument) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

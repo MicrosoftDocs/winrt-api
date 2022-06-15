@@ -11,7 +11,7 @@ public struct KeyTime
 
 ## -description
 Specifies when a particular key frame should take place during an animation.
-Equivalent **WinUI 2 API for UWP**: [KeyTime](/windows/winui/api/microsoft.ui.xaml.media.animation.keytime).
+Equivalent **WinUI 2 API for UWP**: [KeyTime](/windows/winui/api/microsoft.ui.xaml.media.animation.keytime) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

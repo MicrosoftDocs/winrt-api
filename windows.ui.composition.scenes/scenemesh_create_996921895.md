@@ -14,7 +14,7 @@ public SceneMesh SceneMesh.Create(Compositor compositor)
 
 Creates an instance of SceneMesh.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneMesh.Create](/windows/winui/api/microsoft.ui.composition.scenes.scenemesh.create).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneMesh.Create](/windows/winui/api/microsoft.ui.composition.scenes.scenemesh.create) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param compositor

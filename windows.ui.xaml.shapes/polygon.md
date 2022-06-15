@@ -12,7 +12,7 @@ public class Polygon : Windows.UI.Xaml.Shapes.Shape, Windows.UI.Xaml.Shapes.IPol
 ## -description
 Draws a polygon, which is a connected series of lines that form a closed shape.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Polygon](/windows/winui/api/microsoft.ui.xaml.shapes.polygon).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Polygon](/windows/winui/api/microsoft.ui.xaml.shapes.polygon) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

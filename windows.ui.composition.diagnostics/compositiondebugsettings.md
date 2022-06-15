@@ -13,7 +13,7 @@ public class CompositionDebugSettings
 
 Hosts diagnostic and debugging features such as heatmaps.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Diagnostics.CompositionDebugSettings](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugsettings).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Diagnostics.CompositionDebugSettings](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugsettings) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

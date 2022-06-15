@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectedIndexProperty { get; }
 ## -description
 Identifies the [SelectedIndex](selector_selectedindex.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.Selector.SelectedIndexProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.selector.selectedindexproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.Selector.SelectedIndexProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.selector.selectedindexproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [SelectedIndex](selector_selectedindex.md) dependency property.

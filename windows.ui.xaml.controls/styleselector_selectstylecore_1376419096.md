@@ -12,7 +12,7 @@ virtual protected Windows.UI.Xaml.Style SelectStyleCore(System.Object item, Wind
 ## -description
 When implemented by a derived class, returns a specific [Style](../windows.ui.xaml/style.md) based on custom logic.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.StyleSelector.SelectStyleCore](/windows/winui/api/microsoft.ui.xaml.controls.styleselector.selectstylecore).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.StyleSelector.SelectStyleCore](/windows/winui/api/microsoft.ui.xaml.controls.styleselector.selectstylecore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param item

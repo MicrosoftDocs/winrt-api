@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.Text.TextPatternRangeEndpoint : int
 ## -description
 Identifies text range endpoints for methods of [ITextRangeProvider](../windows.ui.xaml.automation.provider/itextrangeprovider.md).
 
-Equivalent **WinUI 2 API for UWP**: [TextPatternRangeEndpoint](/windows/winui/api/microsoft.ui.xaml.automation.text.textpatternrangeendpoint).
+Equivalent **WinUI 2 API for UWP**: [TextPatternRangeEndpoint](/windows/winui/api/microsoft.ui.xaml.automation.text.textpatternrangeendpoint) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Start:0

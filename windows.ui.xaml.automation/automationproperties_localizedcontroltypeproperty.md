@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty LocalizedControlTypeProperty { get; }
 ## -description
 Identifies the [AutomationProperties.LocalizedControlType](automationproperties_localizedcontroltype.md) XAML attached property, which is a text string describing the type of control that the automation element represents.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.LocalizedControlTypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.localizedcontroltypeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.LocalizedControlTypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.localizedcontroltypeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [AutomationProperties.LocalizedControlType](automationproperties_localizedcontroltype.md) XAML attached property.

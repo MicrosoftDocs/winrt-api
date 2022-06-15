@@ -12,7 +12,7 @@ public bool UseLayoutRounding { get;  set; }
 ## -description
 Gets or sets a value that determines whether rendering for the object and its visual subtree should use rounding behavior that aligns rendering to whole pixels.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.UseLayoutRounding](/windows/winui/api/microsoft.ui.xaml.uielement.uselayoutrounding).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.UseLayoutRounding](/windows/winui/api/microsoft.ui.xaml.uielement.uselayoutrounding) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

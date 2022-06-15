@@ -13,7 +13,7 @@ public Windows.UI.Color White { get; }
 
 Gets the system-defined color that has the ARGB value of #FFFFFFFF.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.White](/windows/winui/api/microsoft.ui.colors.white).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.White](/windows/winui/api/microsoft.ui.colors.white) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

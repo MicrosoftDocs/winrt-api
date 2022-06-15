@@ -13,7 +13,7 @@ public class CompositorController : IClosable
 
 Represents a compositor on which intended composition changes must be explicitly committed.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Core.CompositorController](/windows/winui/api/microsoft.ui.composition.core.compositorcontroller).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Core.CompositorController](/windows/winui/api/microsoft.ui.composition.core.compositorcontroller) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

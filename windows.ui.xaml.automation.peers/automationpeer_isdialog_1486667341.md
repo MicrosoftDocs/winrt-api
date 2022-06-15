@@ -14,7 +14,7 @@ public bool AutomationPeer.IsDialog()
 
 Gets a value that indicates whether the element associated with this automation peer is a dialog window.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsDialog](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.isdialog).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsDialog](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.isdialog) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 

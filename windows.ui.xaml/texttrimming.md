@@ -13,7 +13,7 @@ public enum Windows.UI.Xaml.TextTrimming : int
 
 Describes how text is trimmed when it overflows the edge of its containing box.
 
-Equivalent **WinUI 2 API for UWP**: [TextTrimming](/windows/winui/api/microsoft.ui.xaml.texttrimming).
+Equivalent **WinUI 2 API for UWP**: [TextTrimming](/windows/winui/api/microsoft.ui.xaml.texttrimming) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

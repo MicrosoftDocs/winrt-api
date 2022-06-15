@@ -12,7 +12,7 @@ public Windows.Foundation.Point Point2 { get;  set; }
 ## -description
 Gets or sets the second control point of the curve.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.BezierSegment.Point2](/windows/winui/api/microsoft.ui.xaml.media.beziersegment.point2).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.BezierSegment.Point2](/windows/winui/api/microsoft.ui.xaml.media.beziersegment.point2) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

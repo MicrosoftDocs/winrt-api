@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FooterProperty { get; }
 ## -description
 Identifies the [Footer](listviewbase_footer.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.FooterProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.footerproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.FooterProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.footerproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Footer](listviewbase_footer.md) dependency property.

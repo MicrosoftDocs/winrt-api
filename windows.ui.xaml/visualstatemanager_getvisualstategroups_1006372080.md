@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.VisualStateGroup> 
 
 Retrieves the collection of [VisualStateGroup](visualstategroup.md) objects associated with the specified [FrameworkElement](frameworkelement.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualStateManager.GetVisualStateGroups](/windows/winui/api/microsoft.ui.xaml.visualstatemanager.getvisualstategroups).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualStateManager.GetVisualStateGroups](/windows/winui/api/microsoft.ui.xaml.visualstatemanager.getvisualstategroups) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

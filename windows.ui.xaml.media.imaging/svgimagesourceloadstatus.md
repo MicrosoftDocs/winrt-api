@@ -17,7 +17,7 @@ public enum SvgImageSourceLoadStatus : int {
 ## -description
 Defines constants that specify the result of loading an [SvgImageSource](svgimagesource.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSourceLoadStatus](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesourceloadstatus).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSourceLoadStatus](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesourceloadstatus) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Success:0

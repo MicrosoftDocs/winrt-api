@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler TextCompositionEnded<Windows.U
 
 Occurs when a user stops composing text through an Input Method Editor (IME).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.TextCompositionEnded](/windows/winui/api/microsoft.ui.xaml.controls.textbox.textcompositionended).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.TextCompositionEnded](/windows/winui/api/microsoft.ui.xaml.controls.textbox.textcompositionended) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

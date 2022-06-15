@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionColorBrush CreateColorBrush(Windows.UI.
 ## -description
 Creates an instance of [CompositionColorBrush](compositioncolorbrush.md) using the specified color.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateColorBrush](/windows/winui/api/microsoft.ui.composition.compositor.createcolorbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateColorBrush](/windows/winui/api/microsoft.ui.composition.compositor.createcolorbrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param color

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Data.ICustomProperty GetCustomProperty(System.String name
 ## -description
 Gets a custom property's [ICustomProperty](icustomproperty.md) support object by specifying a property name.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICustomPropertyProvider.GetCustomProperty](/windows/winui/api/microsoft.ui.xaml.data.icustompropertyprovider.getcustomproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICustomPropertyProvider.GetCustomProperty](/windows/winui/api/microsoft.ui.xaml.data.icustompropertyprovider.getcustomproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param name

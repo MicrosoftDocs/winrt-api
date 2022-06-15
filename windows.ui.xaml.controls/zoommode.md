@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.ZoomMode : int
 ## -description
 Defines constants that specify the current mode for zoom behavior in the [ScrollViewer](scrollviewer.md) content.
 
-Equivalent **WinUI 2 API for UWP**: [ZoomMode](/windows/winui/api/microsoft.ui.xaml.controls.zoommode).
+Equivalent **WinUI 2 API for UWP**: [ZoomMode](/windows/winui/api/microsoft.ui.xaml.controls.zoommode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

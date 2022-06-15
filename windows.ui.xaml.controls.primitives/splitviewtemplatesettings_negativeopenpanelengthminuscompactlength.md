@@ -12,7 +12,7 @@ public double NegativeOpenPaneLengthMinusCompactLength { get; }
 ## -description
 Gets the negative of the value calculated by subtracting the [CompactPaneLength](../windows.ui.xaml.controls/splitview_compactpanelength.md) value from the [OpenPaneLength](../windows.ui.xaml.controls/splitview_openpanelength.md) value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.SplitViewTemplateSettings.NegativeOpenPaneLengthMinusCompactLength](/windows/winui/api/microsoft.ui.xaml.controls.primitives.splitviewtemplatesettings.negativeopenpanelengthminuscompactlength).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.SplitViewTemplateSettings.NegativeOpenPaneLengthMinusCompactLength](/windows/winui/api/microsoft.ui.xaml.controls.primitives.splitviewtemplatesettings.negativeopenpanelengthminuscompactlength) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The negative of the [OpenPaneLength](../windows.ui.xaml.controls/splitview_openpanelength.md) value minus the [CompactPaneLength](../windows.ui.xaml.controls/splitview_compactpanelength.md) value.

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.Peers.AutomationNavigationDirection : int
 ## -description
 Defines the directions of navigation within the Microsoft UI Automation tree.
 
-Equivalent **WinUI 2 API for UWP**: [AutomationNavigationDirection](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationnavigationdirection).
+Equivalent **WinUI 2 API for UWP**: [AutomationNavigationDirection](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationnavigationdirection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Parent:0

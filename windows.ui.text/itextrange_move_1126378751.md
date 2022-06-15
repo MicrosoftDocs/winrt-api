@@ -12,7 +12,7 @@ public int Move(Windows.UI.Text.TextRangeUnit unit, System.Int32 count)
 ## -description
 Moves the insertion point forward or backward by the specified number of *units*. If the text range is nondegenerate, it is collapsed to an insertion point at the start or end position of the text range, depending on *count*, and then is moved.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.Move](/windows/winui/api/microsoft.ui.text.itextrange.move).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.Move](/windows/winui/api/microsoft.ui.text.itextrange.move) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param unit

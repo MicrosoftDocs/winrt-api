@@ -12,7 +12,7 @@ public Vector3 PositionVelocity { get; }
 ## -description
 The instantaneous rate of change of position in the interaction, in pixels per second. Defaults to 0. Readble only via expression/animation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.PositionVelocity](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.positionvelocity).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.PositionVelocity](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.positionvelocity) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The position velocity of the interaction source.

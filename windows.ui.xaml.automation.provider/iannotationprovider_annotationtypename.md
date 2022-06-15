@@ -12,7 +12,7 @@ public string AnnotationTypeName { get; }
 ## -description
 Gets the name of this annotation type.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IAnnotationProvider.AnnotationTypeName](/windows/winui/api/microsoft.ui.xaml.automation.provider.iannotationprovider.annotationtypename).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IAnnotationProvider.AnnotationTypeName](/windows/winui/api/microsoft.ui.xaml.automation.provider.iannotationprovider.annotationtypename) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The name of this annotation type.

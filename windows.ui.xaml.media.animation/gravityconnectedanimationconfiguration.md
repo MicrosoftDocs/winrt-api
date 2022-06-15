@@ -13,7 +13,7 @@ public class GravityConnectedAnimationConfiguration : ConnectedAnimationConfigur
 ## -description
 An object that configures the connected animation to play using the gravity configuration. 
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.GravityConnectedAnimationConfiguration](/windows/winui/api/microsoft.ui.xaml.media.animation.gravityconnectedanimationconfiguration).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.GravityConnectedAnimationConfiguration](/windows/winui/api/microsoft.ui.xaml.media.animation.gravityconnectedanimationconfiguration) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

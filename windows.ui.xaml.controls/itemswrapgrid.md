@@ -12,7 +12,7 @@ public class ItemsWrapGrid : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.Con
 ## -description
 Positions child elements sequentially from left to right or top to bottom in an [ItemsControl](itemscontrol.md) that shows multiple items. When elements extend beyond the container edge, elements are positioned in the next row or column. Supports pixel-based UI virtualization and grouped layouts.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

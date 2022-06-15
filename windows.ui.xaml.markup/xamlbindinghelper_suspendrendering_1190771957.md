@@ -12,7 +12,7 @@ public void SuspendRendering(Windows.UI.Xaml.UIElement target)
 ## -description
 Suspends rendering of the specified element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SuspendRendering](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.suspendrendering).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SuspendRendering](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.suspendrendering) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param target

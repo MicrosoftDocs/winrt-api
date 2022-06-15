@@ -14,7 +14,7 @@ public UIElement Parent { get;  set; }
 
 Gets or sets the [UIElement](uielement.md) that is expected to be the parent of the realized element from [GetElement](ielementfactory_getelement_92222689.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ElementFactoryGetArgs.Parent](/windows/winui/api/microsoft.ui.xaml.elementfactorygetargs.parent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ElementFactoryGetArgs.Parent](/windows/winui/api/microsoft.ui.xaml.elementfactorygetargs.parent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

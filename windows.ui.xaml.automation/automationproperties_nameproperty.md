@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty NameProperty { get; }
 
 Identifies the [AutomationProperties.Name](automationproperties_name.md) XAML attached property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.NameProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.nameproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.NameProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.nameproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [AutomationProperties.Name](/uwp/api/windows.ui.xaml.automation.automationproperties#xaml-attached-properties) attached property.

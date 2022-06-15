@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Navigation.NavigationMode : int
 ## -description
 Specifies the navigation stack characteristics of a navigation.
 
-Equivalent **WinUI 2 API for UWP**: [NavigationMode](/windows/winui/api/microsoft.ui.xaml.navigation.navigationmode).
+Equivalent **WinUI 2 API for UWP**: [NavigationMode](/windows/winui/api/microsoft.ui.xaml.navigation.navigationmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field New:0

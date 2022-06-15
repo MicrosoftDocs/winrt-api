@@ -14,7 +14,7 @@ static public event EventHandler GotFocus<FocusManagerGotFocusEventArgs>
 
 Occurs when an element within a container element (a focus scope) receives focus. This event is raised asynchronously, so focus might move before bubbling is complete.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FocusManager.GotFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.gotfocus).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FocusManager.GotFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.gotfocus) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ static public event EventHandler Rendered<RenderedEventArgs>
 ## -description
 Occurs immediately after the core rendering process renders a frame. This event lets you determine how long each frame takes to render.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.CompositionTarget.Rendered](/windows/winui/api/microsoft.ui.xaml.media.compositiontarget.rendered).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.CompositionTarget.Rendered](/windows/winui/api/microsoft.ui.xaml.media.compositiontarget.rendered) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

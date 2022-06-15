@@ -12,7 +12,7 @@ public double TextIndent { get;  set; }
 ## -description
 Gets or sets the indentation of the first line of text in a paragraph, in pixels.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Paragraph.TextIndent](/windows/winui/api/microsoft.ui.xaml.documents.paragraph.textindent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Paragraph.TextIndent](/windows/winui/api/microsoft.ui.xaml.documents.paragraph.textindent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

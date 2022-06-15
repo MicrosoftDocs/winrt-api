@@ -12,7 +12,7 @@ public class AccessKeyManager : Windows.UI.Xaml.Input.IAccessKeyManager
 ## -description
 A helper class that enables access keys (mnemonics) for XAML user interfaces.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.AccessKeyManager](/windows/winui/api/microsoft.ui.xaml.input.accesskeymanager).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.AccessKeyManager](/windows/winui/api/microsoft.ui.xaml.input.accesskeymanager) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 Available starting in Windows 10, version 1607.

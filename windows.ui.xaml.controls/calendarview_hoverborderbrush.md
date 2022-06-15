@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush HoverBorderBrush { get;  set; }
 ## -description
 Gets or sets a brush that provides the border of a calendar item while the pointer is over it.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.HoverBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.hoverborderbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.HoverBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.hoverborderbrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

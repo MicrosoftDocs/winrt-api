@@ -14,7 +14,7 @@ public bool IsDoubleSided { get;  set; }
 
 Gets or sets a value that indicates whether the material has two sides.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.IsDoubleSided](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.isdoublesided).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.ScenePbrMaterial.IsDoubleSided](/windows/winui/api/microsoft.ui.composition.scenes.scenepbrmaterial.isdoublesided) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

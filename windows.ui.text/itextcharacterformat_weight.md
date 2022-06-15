@@ -12,7 +12,7 @@ public int Weight { get;  set; }
 ## -description
 Gets or sets the font weight of the characters.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.Weight](/windows/winui/api/microsoft.ui.text.itextcharacterformat.weight).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.Weight](/windows/winui/api/microsoft.ui.text.itextcharacterformat.weight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The font weight expressed as a numeric value. See Remarks.

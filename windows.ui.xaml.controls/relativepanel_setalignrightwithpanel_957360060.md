@@ -12,7 +12,7 @@ public void SetAlignRightWithPanel(Windows.UI.Xaml.UIElement element, System.Boo
 ## -description
 Sets the value of the [RelativePanel.AlignRightWithPanel](relativepanel_alignrightwithpanel.md) XAML attached property for a target element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.SetAlignRightWithPanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setalignrightwithpanel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.SetAlignRightWithPanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setalignrightwithpanel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

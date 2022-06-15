@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush OutOfScopeForeground { get;  set; }
 ## -description
 Gets or sets a brush that provides the foreground of calendar items that are outside the current scope (month, year, or decade).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.OutOfScopeForeground](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.outofscopeforeground).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.OutOfScopeForeground](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.outofscopeforeground) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

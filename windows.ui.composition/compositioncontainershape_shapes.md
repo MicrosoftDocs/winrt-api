@@ -13,7 +13,7 @@ public CompositionShapeCollection Shapes { get; }
 
 Gets the collection of CompostionShapes in this container.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionContainerShape.Shapes](/windows/winui/api/microsoft.ui.composition.compositioncontainershape.shapes).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionContainerShape.Shapes](/windows/winui/api/microsoft.ui.composition.compositioncontainershape.shapes) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

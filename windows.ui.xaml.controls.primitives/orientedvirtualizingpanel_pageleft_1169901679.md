@@ -12,7 +12,7 @@ public void PageLeft()
 ## -description
 Scrolls content by one page toward the left.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.PageLeft](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.pageleft).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.PageLeft](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.pageleft) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 This implementation calls [SetHorizontalOffset](orientedvirtualizingpanel_sethorizontaloffset_1971679761.md) using a value for "page" that is same as the [ViewportWidth](orientedvirtualizingpanel_viewportwidth.md). 

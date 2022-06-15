@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.CommandBarLabelPosition : int
 ## -description
 Defines constants that specify the placement and visibility of an app bar button's label.
 
-Equivalent **WinUI 2 API for UWP**: [CommandBarLabelPosition](/windows/winui/api/microsoft.ui.xaml.controls.commandbarlabelposition).
+Equivalent **WinUI 2 API for UWP**: [CommandBarLabelPosition](/windows/winui/api/microsoft.ui.xaml.controls.commandbarlabelposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Default:0

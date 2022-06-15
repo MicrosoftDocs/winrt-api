@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ChildrenProperty { get; }
 ## -description
 Identifies the [Children](geometrygroup_children.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.GeometryGroup.ChildrenProperty](/windows/winui/api/microsoft.ui.xaml.media.geometrygroup.childrenproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.GeometryGroup.ChildrenProperty](/windows/winui/api/microsoft.ui.xaml.media.geometrygroup.childrenproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Children](geometrygroup_children.md) dependency property.

@@ -20,7 +20,7 @@ The Visual used to determine the light’s direction. The light's
     **CoordinateSpace**
    is not set, the [DistantLight](distantlight.md) will not render.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.DistantLight.CoordinateSpace](/windows/winui/api/microsoft.ui.composition.distantlight.coordinatespace).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.DistantLight.CoordinateSpace](/windows/winui/api/microsoft.ui.composition.distantlight.coordinatespace) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The Visual used to determine the light’s direction. The light's 

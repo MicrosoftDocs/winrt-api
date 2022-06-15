@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Transform Transform { get;  set; }
 ## -description
 Gets or sets the [Transform](transform.md) object applied to a [Geometry](geometry.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Geometry.Transform](/windows/winui/api/microsoft.ui.xaml.media.geometry.transform).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Geometry.Transform](/windows/winui/api/microsoft.ui.xaml.media.geometry.transform) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

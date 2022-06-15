@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ItemTemplateProperty { get; }
 ## -description
 Identifies the [ItemTemplate](loopingselector_itemtemplate.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.ItemTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.itemtemplateproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.ItemTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.itemtemplateproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ItemTemplate](loopingselector_itemtemplate.md) dependency property.

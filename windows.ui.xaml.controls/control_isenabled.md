@@ -12,7 +12,7 @@ public bool IsEnabled { get;  set; }
 ## -description
 Gets or sets a value indicating whether the user can interact with the control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.IsEnabled](/windows/winui/api/microsoft.ui.xaml.controls.control.isenabled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.IsEnabled](/windows/winui/api/microsoft.ui.xaml.controls.control.isenabled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

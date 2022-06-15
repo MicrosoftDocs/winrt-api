@@ -12,7 +12,7 @@ public class VirtualizingStackPanel : Windows.UI.Xaml.Controls.Primitives.Orient
 ## -description
 Arranges and virtualizes content on a single line that is oriented either horizontally or vertically. Can only be used to display items in an [ItemsControl](itemscontrol.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VirtualizingStackPanel](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingstackpanel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

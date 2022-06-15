@@ -13,7 +13,7 @@ public class KeyRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xa
 
 Provides event data for the [KeyUp](../windows.ui.xaml/uielement_keyup.md) and [KeyDown](../windows.ui.xaml/uielement_keydown.md) routed events.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.KeyRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.keyroutedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.KeyRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.keyroutedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

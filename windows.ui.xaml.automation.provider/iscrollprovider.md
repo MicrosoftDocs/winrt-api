@@ -12,7 +12,7 @@ public interface IScrollProvider :
 ## -description
 Exposes methods and properties to support access by a Microsoft UI Automation client to a control that acts as a scrollable container for a collection of child objects. The children of this element must implement [IScrollItemProvider](iscrollitemprovider.md). Implement IScrollProvider in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Scroll](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IScrollProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.iscrollprovider).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IScrollProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.iscrollprovider) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [Scroll Control Pattern](/windows/desktop/WinAuto/uiauto-implementingscroll).

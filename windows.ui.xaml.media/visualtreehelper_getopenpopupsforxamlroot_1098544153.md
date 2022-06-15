@@ -14,7 +14,7 @@ public IVectorView<Popup> VisualTreeHelper.GetOpenPopupsForXamlRoot(XamlRoot xam
 
 Retrieves a collection of all open popup controls from the target [XamlRoot](../windows.ui.xaml/xamlroot.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.VisualTreeHelper.GetOpenPopupsForXamlRoot](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.getopenpopupsforxamlroot).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.VisualTreeHelper.GetOpenPopupsForXamlRoot](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.getopenpopupsforxamlroot) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param xamlRoot

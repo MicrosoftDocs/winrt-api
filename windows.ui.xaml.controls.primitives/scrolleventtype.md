@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.Primitives.ScrollEventType : int
 ## -description
 Defines constants that specify the type of [Scroll](scrollbar_scroll.md) event that occurred.
 
-Equivalent **WinUI 2 API for UWP**: [ScrollEventType](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrolleventtype).
+Equivalent **WinUI 2 API for UWP**: [ScrollEventType](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrolleventtype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field SmallDecrement:0

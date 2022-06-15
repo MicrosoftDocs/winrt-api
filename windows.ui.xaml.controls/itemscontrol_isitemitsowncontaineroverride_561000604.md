@@ -12,7 +12,7 @@ virtual protected bool IsItemItsOwnContainerOverride(System.Object item)
 ## -description
 Determines whether the specified item is (or is eligible to be) its own container.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.IsItemItsOwnContainerOverride](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.isitemitsowncontaineroverride).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.IsItemItsOwnContainerOverride](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.isitemitsowncontaineroverride) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param item

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AreStickyGroupHeadersEnabledProperty {
 ## -description
 Identifies the [AreStickyGroupHeadersEnabled](itemsstackpanel_arestickygroupheadersenabled.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsStackPanel.AreStickyGroupHeadersEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemsstackpanel.arestickygroupheadersenabledproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsStackPanel.AreStickyGroupHeadersEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemsstackpanel.arestickygroupheadersenabledproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [AreStickyGroupHeadersEnabled](itemsstackpanel_arestickygroupheadersenabled.md) dependency property.

@@ -14,7 +14,7 @@ public int RichEditTextDocument.ApplyDisplayUpdates()
 
 Decrements an internal counter that controls whether text updates are displayed immediately or batched.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextDocument.ApplyDisplayUpdates](/windows/winui/api/microsoft.ui.text.richedittextdocument.applydisplayupdates).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextDocument.ApplyDisplayUpdates](/windows/winui/api/microsoft.ui.text.richedittextdocument.applydisplayupdates) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 

@@ -12,7 +12,7 @@ public class TimePickerAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framewo
 ## -description
 Exposes [TimePicker](../windows.ui.xaml.controls/timepicker.md) types to Microsoft UI Automation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.TimePickerAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.timepickerautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.TimePickerAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.timepickerautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 The Windows Runtime  [TimePicker](../windows.ui.xaml.controls/timepicker.md) class creates a new TimePickerAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from TimePickerAutomationPeer if you are deriving a custom class from [TimePicker](../windows.ui.xaml.controls/timepicker.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

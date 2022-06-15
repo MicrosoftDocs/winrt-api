@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Media3D.Matrix3D FromElements(System.Double m11, Sy
 ## -description
 Defines a new [Matrix3D](matrix3d.md) value, using element values for each of the possible values of a [Matrix3D](matrix3d.md) structure. C# and Microsoft Visual Basic code should use [Matrix3D](/dotnet/api/windows.ui.xaml.media.media3d.matrix3d.-ctor) constructor instead.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Media3D.Matrix3DHelper.FromElements](/windows/winui/api/microsoft.ui.xaml.media.media3d.matrix3dhelper.fromelements).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Media3D.Matrix3DHelper.FromElements](/windows/winui/api/microsoft.ui.xaml.media.media3d.matrix3dhelper.fromelements) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param m11

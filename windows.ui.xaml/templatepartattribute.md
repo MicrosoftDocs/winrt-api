@@ -12,7 +12,7 @@ public class TemplatePartAttribute : System.Attribute
 ## -description
 Represents an attribute that is applied to the class definition to identify the types of the named parts that are used for templating.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.TemplatePartAttribute](/windows/winui/api/microsoft.ui.xaml.templatepartattribute).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.TemplatePartAttribute](/windows/winui/api/microsoft.ui.xaml.templatepartattribute) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public object SelectionBoxItem { get; }
 ## -description
 Gets the item shown when the [ComboBox](combobox.md) is closed.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ComboBox.SelectionBoxItem](/windows/winui/api/microsoft.ui.xaml.controls.combobox.selectionboxitem).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ComboBox.SelectionBoxItem](/windows/winui/api/microsoft.ui.xaml.controls.combobox.selectionboxitem) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The item shown when the [ComboBox](combobox.md) is closed.

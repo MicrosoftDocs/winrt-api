@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent RoutedEvent { get;  set; }
 ## -description
 Gets or sets the name of the event that initiates the trigger. Not commonly set, see Remarks.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.EventTrigger.RoutedEvent](/windows/winui/api/microsoft.ui.xaml.eventtrigger.routedevent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.EventTrigger.RoutedEvent](/windows/winui/api/microsoft.ui.xaml.eventtrigger.routedevent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The name or identifier of the event.

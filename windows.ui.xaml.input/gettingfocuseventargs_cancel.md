@@ -13,7 +13,7 @@ public bool Cancel { get;  set; }
 
 Gets or sets whether focus navigation should be canceled.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.cancel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.cancel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

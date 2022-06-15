@@ -13,7 +13,7 @@ public enum Windows.Graphics.DirectX.DirectXAlphaMode : int
 ## -description
 Identifies the alpha value, transparency behavior, of a surface. This is a Windows Runtime equivalent of the Desktop [DXGI_ALPHA_MODE](/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_alpha_mode) enumeration.
 
-Equivalent **WinUI 2 API for UWP**: [DirectXAlphaMode](/windows/winui/api/microsoft.graphics.directx.directxalphamode).
+Equivalent **WinUI 2 API for UWP**: [DirectXAlphaMode](/windows/winui/api/microsoft.graphics.directx.directxalphamode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Unspecified:0

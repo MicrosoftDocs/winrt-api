@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DragUI DragUI { get; }
 ## -description
 Gets the visual representation of the data being dragged.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DragStartingEventArgs.DragUI](/windows/winui/api/microsoft.ui.xaml.dragstartingeventargs.dragui).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DragStartingEventArgs.DragUI](/windows/winui/api/microsoft.ui.xaml.dragstartingeventargs.dragui) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The visual representation of the data being dragged.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty OpenedTargetNameProperty { get; }
 ## -description
 Identifies the [OpenedTargetName](splitclosethemeanimation_openedtargetname.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SplitCloseThemeAnimation.OpenedTargetNameProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.splitclosethemeanimation.openedtargetnameproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SplitCloseThemeAnimation.OpenedTargetNameProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.splitclosethemeanimation.openedtargetnameproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [OpenedTargetName](splitclosethemeanimation_openedtargetname.md) dependency property.

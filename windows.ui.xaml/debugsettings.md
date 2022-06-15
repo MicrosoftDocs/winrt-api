@@ -12,7 +12,7 @@ public class DebugSettings : Windows.UI.Xaml.IDebugSettings, Windows.UI.Xaml.IDe
 ## -description
 Declares how certain aspects of the app behave when it is run in a debug environment
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DebugSettings](/windows/winui/api/microsoft.ui.xaml.debugsettings).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DebugSettings](/windows/winui/api/microsoft.ui.xaml.debugsettings) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 This class can't be constructed. Get the value from [Application.DebugSettings](application_debugsettings.md) and then change the properties as necessary.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SourceProperty { get; }
 ## -description
 Identifies the [Source](image_source.md)  dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Image.SourceProperty](/windows/winui/api/microsoft.ui.xaml.controls.image.sourceproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Image.SourceProperty](/windows/winui/api/microsoft.ui.xaml.controls.image.sourceproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Source](image_source.md)  dependency property.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.UIElement Pane { get;  set; }
 ## -description
 Gets or sets the contents of the pane of a [SplitView](splitview.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SplitView.Pane](/windows/winui/api/microsoft.ui.xaml.controls.splitview.pane).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SplitView.Pane](/windows/winui/api/microsoft.ui.xaml.controls.splitview.pane) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

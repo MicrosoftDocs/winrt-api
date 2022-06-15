@@ -13,7 +13,7 @@ public enum Windows.UI.Xaml.Controls.SnapPointsType : int
 Defines constants that specify how panning snap points are processed for gesture/manipulation input. 
 <!--This is a little guesswork.-->
 
-Equivalent **WinUI 2 API for UWP**: [SnapPointsType](/windows/winui/api/microsoft.ui.xaml.controls.snappointstype).
+Equivalent **WinUI 2 API for UWP**: [SnapPointsType](/windows/winui/api/microsoft.ui.xaml.controls.snappointstype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field None:0

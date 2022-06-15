@@ -12,7 +12,7 @@ public struct LoadMoreItemsResult
 ## -description
 Wraps the asynchronous results of a [LoadMoreItemsAsync](icollectionview_loadmoreitemsasync_928705393.md) call.
 
-Equivalent **WinUI 2 API for UWP**: [LoadMoreItemsResult](/windows/winui/api/microsoft.ui.xaml.data.loadmoreitemsresult).
+Equivalent **WinUI 2 API for UWP**: [LoadMoreItemsResult](/windows/winui/api/microsoft.ui.xaml.data.loadmoreitemsresult) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -struct-fields
 

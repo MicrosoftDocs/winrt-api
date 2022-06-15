@@ -12,7 +12,7 @@ public Windows.Foundation.Point TransformPoint(Windows.Foundation.Point point)
 ## -description
 Uses this transformation object's logic to transform the specified point, and returns the result.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.GeneralTransform.TransformPoint](/windows/winui/api/microsoft.ui.xaml.media.generaltransform.transformpoint).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.GeneralTransform.TransformPoint](/windows/winui/api/microsoft.ui.xaml.media.generaltransform.transformpoint) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param point

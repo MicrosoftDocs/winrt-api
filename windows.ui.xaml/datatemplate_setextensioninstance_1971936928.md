@@ -12,7 +12,7 @@ public void SetExtensionInstance(Windows.UI.Xaml.FrameworkElement element, Windo
 ## -description
 Sets the value of the [DataTemplate.ExtensionInstance](datatemplate_extensioninstance.md) XAML attached property for a target element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DataTemplate.SetExtensionInstance](/windows/winui/api/microsoft.ui.xaml.datatemplate.setextensioninstance).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DataTemplate.SetExtensionInstance](/windows/winui/api/microsoft.ui.xaml.datatemplate.setextensioninstance) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

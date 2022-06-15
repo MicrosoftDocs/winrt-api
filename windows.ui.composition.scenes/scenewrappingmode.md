@@ -14,7 +14,7 @@ public enum SceneWrappingMode : int
 
 Defines constants that specify how wrapping occurs for a scene.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneWrappingMode](/windows/winui/api/microsoft.ui.composition.scenes.scenewrappingmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneWrappingMode](/windows/winui/api/microsoft.ui.composition.scenes.scenewrappingmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 

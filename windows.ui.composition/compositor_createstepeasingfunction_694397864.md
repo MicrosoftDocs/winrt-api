@@ -12,7 +12,7 @@ public Windows.UI.Composition.StepEasingFunction CreateStepEasingFunction(System
 ## -description
 Creates an instance of [StepEasingFunction](stepeasingfunction.md) with the specified step count.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateStepEasingFunction](/windows/winui/api/microsoft.ui.composition.compositor.createstepeasingfunction).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateStepEasingFunction](/windows/winui/api/microsoft.ui.composition.compositor.createstepeasingfunction) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param stepCount

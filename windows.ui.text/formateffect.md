@@ -12,7 +12,7 @@ public enum Windows.UI.Text.FormatEffect : int
 ## -description
 Defines values that indicate the state of a character or paragraph formatting property.
 
-Equivalent **WinUI 2 API for UWP**: [FormatEffect](/windows/winui/api/microsoft.ui.text.formateffect).
+Equivalent **WinUI 2 API for UWP**: [FormatEffect](/windows/winui/api/microsoft.ui.text.formateffect) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Off:0

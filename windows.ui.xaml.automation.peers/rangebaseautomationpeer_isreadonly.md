@@ -12,7 +12,7 @@ public bool IsReadOnly { get; }
 ## -description
 Gets a value that indicates whether the value of a control is read-only.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.IsReadOnly](/windows/winui/api/microsoft.ui.xaml.automation.peers.rangebaseautomationpeer.isreadonly).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.IsReadOnly](/windows/winui/api/microsoft.ui.xaml.automation.peers.rangebaseautomationpeer.isreadonly) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if the value is read-only; **false** if it can be modified.

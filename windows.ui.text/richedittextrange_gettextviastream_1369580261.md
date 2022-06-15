@@ -13,7 +13,7 @@ public void RichEditTextRange.GetTextViaStream(TextGetOptions options, IRandomAc
 
 Retrieves the text in the text range according to the specified conversion flags, as a random access stream.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.GetTextViaStream](/windows/winui/api/microsoft.ui.text.richedittextrange.gettextviastream).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.GetTextViaStream](/windows/winui/api/microsoft.ui.text.richedittextrange.gettextviastream) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param options

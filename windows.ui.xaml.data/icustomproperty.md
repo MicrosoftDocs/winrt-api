@@ -12,7 +12,7 @@ public interface ICustomProperty :
 ## -description
 Implements custom property definition support for data binding sources that are implemented using COM.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICustomProperty](/windows/winui/api/microsoft.ui.xaml.data.icustomproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ICustomProperty](/windows/winui/api/microsoft.ui.xaml.data.icustomproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 ICustomProperty represents a property on an instance of an object, but the calling patterns support the ability to implement the interface per owner type.

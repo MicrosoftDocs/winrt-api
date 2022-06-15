@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.Controls.Primitives.DragStartedEventHandler DragSta
 ## -description
 Fires when a [Thumb](thumb.md) control receives logical focus and mouse capture.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.Thumb.DragStarted](/windows/winui/api/microsoft.ui.xaml.controls.primitives.thumb.dragstarted).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.Thumb.DragStarted](/windows/winui/api/microsoft.ui.xaml.controls.primitives.thumb.dragstarted) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

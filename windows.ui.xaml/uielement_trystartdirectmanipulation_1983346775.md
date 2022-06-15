@@ -12,7 +12,7 @@ public bool TryStartDirectManipulation(Windows.UI.Xaml.Input.Pointer value)
 ## -description
 Resumes direct manipulation processing (system-defined panning/zooming) on any [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) parent that contains the current [UIElement](uielement.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.TryStartDirectManipulation](/windows/winui/api/microsoft.ui.xaml.uielement.trystartdirectmanipulation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.TryStartDirectManipulation](/windows/winui/api/microsoft.ui.xaml.uielement.trystartdirectmanipulation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param value

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Thickness Margin { get;  set; }
 ## -description
 Gets or sets the amount of space around a [Block](block.md) element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Block.Margin](/windows/winui/api/microsoft.ui.xaml.documents.block.margin).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Block.Margin](/windows/winui/api/microsoft.ui.xaml.documents.block.margin) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

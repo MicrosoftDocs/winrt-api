@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CheckModeProperty { get; }
 ## -description
 Identifies the [CheckMode](listviewitempresenter_checkmode.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.checkmodeproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.checkmodeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [CheckMode](listviewitempresenter_checkmode.md) dependency property.

@@ -13,7 +13,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Input.InputScopeNa
 
 Gets a collection of valid [InputScopeName](inputscopename.md) items that are relevant to this [InputScope](inputscope.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.InputScope.Names](/windows/winui/api/microsoft.ui.xaml.input.inputscope.names).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.InputScope.Names](/windows/winui/api/microsoft.ui.xaml.input.inputscope.names) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

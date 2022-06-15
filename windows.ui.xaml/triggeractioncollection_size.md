@@ -12,7 +12,7 @@ public uint Size { get; }
 ## -description
 Gets the size (count) of the collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.TriggerActionCollection.Size](/windows/winui/api/microsoft.ui.xaml.triggeractioncollection.size).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.TriggerActionCollection.Size](/windows/winui/api/microsoft.ui.xaml.triggeractioncollection.size) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The count of items in the collection.

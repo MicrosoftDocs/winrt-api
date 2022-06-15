@@ -13,7 +13,7 @@ public CompositionDebugHeatMaps HeatMaps { get; }
 
 Gets the heatmaps for this debug settings instance.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Diagnostics.CompositionDebugSettings.HeatMaps](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugsettings.heatmaps).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Diagnostics.CompositionDebugSettings.HeatMaps](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugsettings.heatmaps) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

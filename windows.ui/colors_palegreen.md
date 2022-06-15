@@ -13,7 +13,7 @@ public Windows.UI.Color PaleGreen { get; }
 
 Gets the system-defined color that has an ARGB value of #FF98FB98.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.PaleGreen](/windows/winui/api/microsoft.ui.colors.palegreen).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.PaleGreen](/windows/winui/api/microsoft.ui.colors.palegreen) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

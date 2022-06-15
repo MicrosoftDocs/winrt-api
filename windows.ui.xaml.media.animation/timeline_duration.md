@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Duration Duration { get;  set; }
 ## -description
 Gets or sets the length of time for which this timeline plays, not counting repetitions.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Timeline.Duration](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.duration).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Timeline.Duration](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.duration) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

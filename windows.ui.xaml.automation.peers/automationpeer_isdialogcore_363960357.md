@@ -14,7 +14,7 @@ virtual protected bool AutomationPeer.IsDialogCore()
 
 Provides the peer's behavior when a Microsoft UI Automation client calls [IsDialog](automationpeer_isdialog_1486667341.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsDialogCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.isdialogcore).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsDialogCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.isdialogcore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 

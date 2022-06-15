@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.AutomationTextEditChangeType : int
 ## -description
 Defines the type of text edit change.
 
-Equivalent **WinUI 2 API for UWP**: [AutomationTextEditChangeType](/windows/winui/api/microsoft.ui.xaml.automation.automationtexteditchangetype).
+Equivalent **WinUI 2 API for UWP**: [AutomationTextEditChangeType](/windows/winui/api/microsoft.ui.xaml.automation.automationtexteditchangetype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field None:0

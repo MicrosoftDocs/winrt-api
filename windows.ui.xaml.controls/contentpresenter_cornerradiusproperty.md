@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CornerRadiusProperty { get; }
 ## -description
 Identifies the [CornerRadius](contentpresenter_cornerradius.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentPresenter.CornerRadiusProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.cornerradiusproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentPresenter.CornerRadiusProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.cornerradiusproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [CornerRadius](contentpresenter_cornerradius.md) dependency property.

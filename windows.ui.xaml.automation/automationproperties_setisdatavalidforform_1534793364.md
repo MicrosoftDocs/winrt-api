@@ -12,7 +12,7 @@ public void SetIsDataValidForForm(Windows.UI.Xaml.DependencyObject element, Syst
 ## -description
 Sets a Boolean value that indicates whether the entered or selected value is valid for the form rule associated with the specified element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetIsDataValidForForm](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setisdatavalidforform).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetIsDataValidForForm](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setisdatavalidforform) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

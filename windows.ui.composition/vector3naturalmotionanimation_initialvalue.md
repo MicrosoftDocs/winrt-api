@@ -13,7 +13,7 @@ public IReference<Vector3> InitialValue { get;  set; }
 
 Gets or sets a value that indicates where the animation starts.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Vector3NaturalMotionAnimation.InitialValue](/windows/winui/api/microsoft.ui.composition.vector3naturalmotionanimation.initialvalue).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Vector3NaturalMotionAnimation.InitialValue](/windows/winui/api/microsoft.ui.composition.vector3naturalmotionanimation.initialvalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

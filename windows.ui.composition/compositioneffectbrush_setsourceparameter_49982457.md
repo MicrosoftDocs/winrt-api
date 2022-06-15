@@ -12,7 +12,7 @@ public void SetSourceParameter(System.String name, Windows.UI.Composition.Compos
 ## -description
 Associates a name declared using [CompositionEffectSourceParameter](compositioneffectsourceparameter.md) to an effect source.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionEffectBrush.SetSourceParameter](/windows/winui/api/microsoft.ui.composition.compositioneffectbrush.setsourceparameter).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionEffectBrush.SetSourceParameter](/windows/winui/api/microsoft.ui.composition.compositioneffectbrush.setsourceparameter) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param name

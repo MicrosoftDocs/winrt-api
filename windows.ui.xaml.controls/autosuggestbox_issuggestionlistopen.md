@@ -12,7 +12,7 @@ public bool IsSuggestionListOpen { get;  set; }
 ## -description
 Gets or sets a Boolean value indicating whether the drop-down portion of the [AutoSuggestBox](autosuggestbox.md) is open.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.IsSuggestionListOpen](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.issuggestionlistopen).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.IsSuggestionListOpen](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.issuggestionlistopen) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A Boolean value indicating whether the drop-down portion of the [AutoSuggestBox](autosuggestbox.md) is open.

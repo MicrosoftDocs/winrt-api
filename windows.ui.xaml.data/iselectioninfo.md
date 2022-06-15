@@ -13,7 +13,7 @@ public interface ISelectionInfo :
 
 Manages whether items and ranges of items in the data source are selected in the list control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ISelectionInfo](/windows/winui/api/microsoft.ui.xaml.data.iselectioninfo).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ISelectionInfo](/windows/winui/api/microsoft.ui.xaml.data.iselectioninfo) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

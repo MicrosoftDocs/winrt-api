@@ -12,7 +12,7 @@ virtual protected int GetSizeOfSetCore()
 ## -description
 Provides the peer’s behavior when a Microsoft UI Automation client calls [GetSizeOfSet](automationpeer_getsizeofset_1955371227.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetSizeOfSetCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getsizeofsetcore).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetSizeOfSetCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getsizeofsetcore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 The peer’s behavior.

@@ -12,7 +12,7 @@ virtual protected Windows.Foundation.Collections.IIterable<Windows.UI.Xaml.Autom
 ## -description
 Gets a collection of elements that provide more information about the automation element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetDescribedByCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getdescribedbycore).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetDescribedByCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getdescribedbycore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 A collection of elements that provide more information about the automation element.

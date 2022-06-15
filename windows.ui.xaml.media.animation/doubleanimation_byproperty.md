@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ByProperty { get; }
 ## -description
 Identifies the [By](doubleanimation_by.md)  dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimation.ByProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimation.byproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimation.ByProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimation.byproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [By](doubleanimation_by.md)  dependency property.

@@ -14,7 +14,7 @@ public DependencyProperty SelectionFlyoutProperty { get; }
 
 Identifies the [SelectionFlyout](richeditbox_selectionflyout.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBox.SelectionFlyoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.selectionflyoutproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBox.SelectionFlyoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.selectionflyoutproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

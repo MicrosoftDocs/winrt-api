@@ -12,7 +12,7 @@ public void InvalidateScrollInfo()
 ## -description
 Called when the value of properties that describe the size and location of the scroll area change.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.InvalidateScrollInfo](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.invalidatescrollinfo).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.InvalidateScrollInfo](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.invalidatescrollinfo) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

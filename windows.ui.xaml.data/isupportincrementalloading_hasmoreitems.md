@@ -12,7 +12,7 @@ public bool HasMoreItems { get; }
 ## -description
 Gets a sentinel value that supports incremental loading implementations.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ISupportIncrementalLoading.HasMoreItems](/windows/winui/api/microsoft.ui.xaml.data.isupportincrementalloading.hasmoreitems).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.ISupportIncrementalLoading.HasMoreItems](/windows/winui/api/microsoft.ui.xaml.data.isupportincrementalloading.hasmoreitems) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if additional unloaded items remain in the view; otherwise, **false**.

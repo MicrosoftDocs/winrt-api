@@ -13,7 +13,7 @@ public interface ICommand :
 
 Defines the command behavior of an interactive UI element that performs an action when invoked, such as sending an email, deleting an item, or submitting a form.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ICommand](/windows/winui/api/microsoft.ui.xaml.input.icommand).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ICommand](/windows/winui/api/microsoft.ui.xaml.input.icommand) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

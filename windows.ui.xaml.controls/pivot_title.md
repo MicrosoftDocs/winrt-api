@@ -12,7 +12,7 @@ public object Title { get;  set; }
 ## -description
 Gets or sets the title to be optionally set above the headers.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Pivot.Title](/windows/winui/api/microsoft.ui.xaml.controls.pivot.title).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Pivot.Title](/windows/winui/api/microsoft.ui.xaml.controls.pivot.title) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

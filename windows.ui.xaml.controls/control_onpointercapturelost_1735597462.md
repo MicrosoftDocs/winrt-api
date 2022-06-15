@@ -12,7 +12,7 @@ virtual protected void OnPointerCaptureLost(Windows.UI.Xaml.Input.PointerRoutedE
 ## -description
 Called before the [PointerCaptureLost](../windows.ui.xaml/uielement_pointercapturelost.md) event occurs.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.OnPointerCaptureLost](/windows/winui/api/microsoft.ui.xaml.controls.control.onpointercapturelost).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.OnPointerCaptureLost](/windows/winui/api/microsoft.ui.xaml.controls.control.onpointercapturelost) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param e

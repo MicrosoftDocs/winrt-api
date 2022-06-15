@@ -12,7 +12,7 @@ public double MaxHeight { get;  set; }
 ## -description
 Gets or sets a value that represents the maximum height of a [RowDefinition](rowdefinition.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RowDefinition.MaxHeight](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.maxheight).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RowDefinition.MaxHeight](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition.maxheight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

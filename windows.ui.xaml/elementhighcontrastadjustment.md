@@ -16,7 +16,7 @@ public enum ElementHighContrastAdjustment : uint {
 ## -description
 Defines constants that specify whether the framework automatically adjusts visual properties for an element when high contrast themes are enabled.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ElementHighContrastAdjustment](/windows/winui/api/microsoft.ui.xaml.elementhighcontrastadjustment).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ElementHighContrastAdjustment](/windows/winui/api/microsoft.ui.xaml.elementhighcontrastadjustment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 

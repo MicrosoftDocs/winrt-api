@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ActualWidthProperty { get; }
 ## -description
 Identifies the [ActualWidth](frameworkelement_actualwidth.md)  dependency property. See Remarks.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.ActualWidthProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.actualwidthproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.ActualWidthProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.actualwidthproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ActualWidth](frameworkelement_actualwidth.md)  dependency property.

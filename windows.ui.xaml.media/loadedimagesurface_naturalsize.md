@@ -12,7 +12,7 @@ public Size NaturalSize { get; }
 ## -description
 Gets the natural size of the image in physical pixels, which is defined in the original image source.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.LoadedImageSurface.NaturalSize](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface.naturalsize).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.LoadedImageSurface.NaturalSize](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface.naturalsize) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The natural size of the image in physical pixels.

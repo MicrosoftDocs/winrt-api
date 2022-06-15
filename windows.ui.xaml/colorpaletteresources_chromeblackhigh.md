@@ -14,7 +14,7 @@ public IReference<Color> ChromeBlackHigh { get;  set; }
 
 Gets or sets the ChromeBlackHigh color value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeBlackHigh](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromeblackhigh).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeBlackHigh](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromeblackhigh) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

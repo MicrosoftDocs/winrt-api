@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Input.PointerPoint> Get
 ## -description
 Retrieves a collection of [PointerPoint](../windows.ui.input/pointerpoint.md) objects that represent the pointer history from the last pointer event up to and including the current pointer event. Each [PointerPoint](../windows.ui.input/pointerpoint.md) in the collection provides basic info on the pointer associated with the event.The last item in the collection is equivalent to the [PointerPoint](../windows.ui.input/pointerpoint.md) object returned by [GetCurrentPoint](pointerroutedeventargs_getcurrentpoint_1761708789.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.PointerRoutedEventArgs.GetIntermediatePoints](/windows/winui/api/microsoft.ui.xaml.input.pointerroutedeventargs.getintermediatepoints).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.PointerRoutedEventArgs.GetIntermediatePoints](/windows/winui/api/microsoft.ui.xaml.input.pointerroutedeventargs.getintermediatepoints) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param relativeTo

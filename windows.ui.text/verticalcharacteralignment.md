@@ -12,7 +12,7 @@ public enum Windows.UI.Text.VerticalCharacterAlignment : int
 ## -description
 Specifies the vertical position of a character relative to a bounding rectangle.
 
-Equivalent **WinUI 2 API for UWP**: [VerticalCharacterAlignment](/windows/winui/api/microsoft.ui.text.verticalcharacteralignment).
+Equivalent **WinUI 2 API for UWP**: [VerticalCharacterAlignment](/windows/winui/api/microsoft.ui.text.verticalcharacteralignment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Top:0

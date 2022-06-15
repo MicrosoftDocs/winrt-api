@@ -12,7 +12,7 @@ public uint GetMany(System.UInt32 startIndex, System.Double[] items)
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.DoubleCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.media.doublecollection.getmany).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.DoubleCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.media.doublecollection.getmany) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param startIndex

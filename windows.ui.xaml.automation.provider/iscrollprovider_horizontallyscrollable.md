@@ -12,7 +12,7 @@ public bool HorizontallyScrollable { get; }
 ## -description
 Gets a value that indicates whether the control can scroll horizontally.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontallyScrollable](/windows/winui/api/microsoft.ui.xaml.automation.provider.iscrollprovider.horizontallyscrollable).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontallyScrollable](/windows/winui/api/microsoft.ui.xaml.automation.provider.iscrollprovider.horizontallyscrollable) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if the control can scroll horizontally; otherwise, **false**.

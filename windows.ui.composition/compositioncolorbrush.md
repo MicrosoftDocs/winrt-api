@@ -12,7 +12,7 @@ public class CompositionColorBrush : Windows.UI.Composition.CompositionBrush, Wi
 ## -description
 Paints a [SpriteVisual](spritevisual.md) with a solid color.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionColorBrush](/windows/winui/api/microsoft.ui.composition.compositioncolorbrush).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionColorBrush](/windows/winui/api/microsoft.ui.composition.compositioncolorbrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

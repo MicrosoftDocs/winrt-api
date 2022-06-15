@@ -12,7 +12,7 @@ public void TypeText(System.String value)
 ## -description
 Enters text into the selection as if someone typed it.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextSelection.TypeText](/windows/winui/api/microsoft.ui.text.itextselection.typetext).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextSelection.TypeText](/windows/winui/api/microsoft.ui.text.itextselection.typetext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param value

@@ -12,7 +12,7 @@ public void Initialize(Windows.ApplicationModel.Core.CoreApplicationView applica
 ## -description
 Initializes the view.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkView.Initialize](/windows/winui/api/microsoft.ui.xaml.frameworkview.initialize).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkView.Initialize](/windows/winui/api/microsoft.ui.xaml.frameworkview.initialize) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param applicationView

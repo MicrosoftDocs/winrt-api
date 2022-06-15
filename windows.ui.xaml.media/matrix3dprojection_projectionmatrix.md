@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Media3D.Matrix3D ProjectionMatrix { get;  set; }
 ## -description
 Gets or sets the [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md) that is used for the projection that is applied to the object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Matrix3DProjection.ProjectionMatrix](/windows/winui/api/microsoft.ui.xaml.media.matrix3dprojection.projectionmatrix).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Matrix3DProjection.ProjectionMatrix](/windows/winui/api/microsoft.ui.xaml.media.matrix3dprojection.projectionmatrix) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

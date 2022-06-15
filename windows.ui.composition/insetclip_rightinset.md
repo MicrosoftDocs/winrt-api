@@ -13,7 +13,7 @@ public float RightInset { get;  set; }
 
 Gets or sets the offset from the right of the visual. The portion of the visual to the right of the RightInset will be clipped. Animatable.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.InsetClip.RightInset](/windows/winui/api/microsoft.ui.composition.insetclip.rightinset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.InsetClip.RightInset](/windows/winui/api/microsoft.ui.composition.insetclip.rightinset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public Windows.ApplicationModel.DataTransfer.DataPackage Data { get; }
 ## -description
 Gets the data payload associated with a drag action.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DragStartingEventArgs.Data](/windows/winui/api/microsoft.ui.xaml.dragstartingeventargs.data).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DragStartingEventArgs.Data](/windows/winui/api/microsoft.ui.xaml.dragstartingeventargs.data) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The data payload. The default is an empty [DataPackage](../windows.applicationmodel.datatransfer/datapackage.md).

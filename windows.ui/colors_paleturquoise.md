@@ -13,7 +13,7 @@ public Windows.UI.Color PaleTurquoise { get; }
 
 Gets the system-defined color that has an ARGB value of #FFAFEEEE.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.PaleTurquoise](/windows/winui/api/microsoft.ui.colors.paleturquoise).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.PaleTurquoise](/windows/winui/api/microsoft.ui.colors.paleturquoise) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

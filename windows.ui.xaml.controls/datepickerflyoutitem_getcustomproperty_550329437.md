@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Data.ICustomProperty GetCustomProperty(System.String name
 ## -description
 Retrieves an [ICustomProperty](../windows.ui.xaml.data/icustomproperty.md) object by specifying a property name.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem.GetCustomProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem.getcustomproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem.GetCustomProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem.getcustomproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param name

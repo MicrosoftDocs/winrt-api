@@ -12,7 +12,7 @@ public Windows.UI.Text.UnderlineType Underline { get;  set; }
 ## -description
 Gets or sets the type of underlining that the characters use.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.Underline](/windows/winui/api/microsoft.ui.text.itextcharacterformat.underline).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.Underline](/windows/winui/api/microsoft.ui.text.itextcharacterformat.underline) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The type of underlining.

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.RowOrColumnMajor : int
 ## -description
 Specifies whether data in a table should be read primarily by row or by column.
 
-Equivalent **WinUI 2 API for UWP**: [RowOrColumnMajor](/windows/winui/api/microsoft.ui.xaml.automation.roworcolumnmajor).
+Equivalent **WinUI 2 API for UWP**: [RowOrColumnMajor](/windows/winui/api/microsoft.ui.xaml.automation.roworcolumnmajor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field RowMajor:0

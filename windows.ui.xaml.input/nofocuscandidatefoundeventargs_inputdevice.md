@@ -12,7 +12,7 @@ public FocusInputDeviceKind InputDevice { get; }
 ## -description
 Gets the input device type from which input events are received.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.NoFocusCandidateFoundEventArgs.InputDevice](/windows/winui/api/microsoft.ui.xaml.input.nofocuscandidatefoundeventargs.inputdevice).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.NoFocusCandidateFoundEventArgs.InputDevice](/windows/winui/api/microsoft.ui.xaml.input.nofocuscandidatefoundeventargs.inputdevice) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The input device type.

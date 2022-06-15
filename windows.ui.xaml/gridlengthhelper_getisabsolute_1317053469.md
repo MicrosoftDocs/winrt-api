@@ -12,7 +12,7 @@ public bool GetIsAbsolute(Windows.UI.Xaml.GridLength target)
 ## -description
 Returns whether the evaluated [GridLength](gridlength.md) is the special "Absolute" value. C# and Microsoft Visual Basic code should use [GridLength.IsAbsolute](/dotnet/api/windows.ui.xaml.gridlength.isabsolute?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.GridLengthHelper.GetIsAbsolute](/windows/winui/api/microsoft.ui.xaml.gridlengthhelper.getisabsolute).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.GridLengthHelper.GetIsAbsolute](/windows/winui/api/microsoft.ui.xaml.gridlengthhelper.getisabsolute) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param target

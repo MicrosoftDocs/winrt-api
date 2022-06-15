@@ -12,7 +12,7 @@ public class GroupStyle : Windows.UI.Xaml.Controls.IGroupStyle, Windows.UI.Xaml.
 ## -description
 Describes how to display the grouped items in a collection, such as the collection from [GroupItems](../windows.ui.xaml.data/icollectionviewgroup_groupitems.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.GroupStyle](/windows/winui/api/microsoft.ui.xaml.controls.groupstyle).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.GroupStyle](/windows/winui/api/microsoft.ui.xaml.controls.groupstyle) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

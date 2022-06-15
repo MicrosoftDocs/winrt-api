@@ -12,7 +12,7 @@ public bool Minimizable { get; }
 ## -description
 Gets a Boolean value that indicates whether the app bar can be minimized.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Minimizable](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarautomationpeer.minimizable).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Minimizable](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarautomationpeer.minimizable) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if the app bar can be minimized; otherwise, **false**.

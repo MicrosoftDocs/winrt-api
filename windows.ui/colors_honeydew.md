@@ -13,7 +13,7 @@ public Windows.UI.Color Honeydew { get; }
 
 Gets the system-defined color that has an ARGB value of #FFF0FFF0.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Honeydew](/windows/winui/api/microsoft.ui.colors.honeydew).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Honeydew](/windows/winui/api/microsoft.ui.colors.honeydew) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

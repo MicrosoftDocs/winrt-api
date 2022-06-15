@@ -12,7 +12,7 @@ public Windows.UI.Composition.Vector4KeyFrameAnimation CreateVector4KeyFrameAnim
 ## -description
 Creates an instance of [Vector4KeyFrameAnimation](vector4keyframeanimation.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateVector4KeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createvector4keyframeanimation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateVector4KeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createvector4keyframeanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 Returns the created [Vector4KeyFrameAnimation](vector4keyframeanimation.md) object.

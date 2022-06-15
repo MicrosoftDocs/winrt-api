@@ -13,7 +13,7 @@ public enum Windows.UI.Xaml.TextWrapping : int
 
 Specifies whether text wraps when it reaches the edge of its container.
 
-Equivalent **WinUI 2 API for UWP**: [TextWrapping](/windows/winui/api/microsoft.ui.xaml.textwrapping).
+Equivalent **WinUI 2 API for UWP**: [TextWrapping](/windows/winui/api/microsoft.ui.xaml.textwrapping) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

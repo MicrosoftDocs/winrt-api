@@ -12,7 +12,7 @@ public void InsertKeyFrame(System.Single normalizedProgressKey, Windows.UI.Color
 ## -description
 Inserts a key frame with the specified easing function.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ColorKeyFrameAnimation.InsertKeyFrame](/windows/winui/api/microsoft.ui.composition.colorkeyframeanimation.insertkeyframe).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ColorKeyFrameAnimation.InsertKeyFrame](/windows/winui/api/microsoft.ui.composition.colorkeyframeanimation.insertkeyframe) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param normalizedProgressKey

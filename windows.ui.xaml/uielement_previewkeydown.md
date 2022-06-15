@@ -13,7 +13,7 @@ public event KeyEventHandler PreviewKeyDown
 
 Occurs when a keyboard key is pressed while the [UIElement](uielement.md) has focus.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.PreviewKeyDown](/windows/winui/api/microsoft.ui.xaml.uielement.previewkeydown).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.PreviewKeyDown](/windows/winui/api/microsoft.ui.xaml.uielement.previewkeydown) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

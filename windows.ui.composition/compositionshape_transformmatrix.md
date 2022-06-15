@@ -13,7 +13,7 @@ public Matrix3x2 TransformMatrix { get;  set; }
 
 Gets or sets the transform matrix to apply to the shape.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionShape.TransformMatrix](/windows/winui/api/microsoft.ui.composition.compositionshape.transformmatrix).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionShape.TransformMatrix](/windows/winui/api/microsoft.ui.composition.compositionshape.transformmatrix) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

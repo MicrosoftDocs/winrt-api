@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty StrokeStartLineCapProperty { get; }
 ## -description
 Identifies the [StrokeStartLineCap](shape_strokestartlinecap.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Shape.StrokeStartLineCapProperty](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokestartlinecapproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Shape.StrokeStartLineCapProperty](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokestartlinecapproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [StrokeStartLineCap](shape_strokestartlinecap.md) dependency property.

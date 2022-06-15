@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler DragItemsCompleted<Windows.UI.
 
 Occurs when a drag operation that involves one of the items in the view is ended.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.DragItemsCompleted](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.dragitemscompleted).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.DragItemsCompleted](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.dragitemscompleted) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

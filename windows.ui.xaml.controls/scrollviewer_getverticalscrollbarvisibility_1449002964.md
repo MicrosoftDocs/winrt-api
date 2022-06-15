@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ScrollBarVisibility GetVerticalScrollBarVisibili
 ## -description
 Gets the value of the [VerticalScrollBarVisibility](scrollviewer_verticalscrollbarvisibility.md) dependency property / `ScrollViewer.VerticalScrollBarVisibility` XAML attached property from a specified element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.GetVerticalScrollBarVisibility](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.getverticalscrollbarvisibility).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.GetVerticalScrollBarVisibility](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.getverticalscrollbarvisibility) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

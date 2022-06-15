@@ -13,7 +13,7 @@ static public event Windows.Foundation.EventHandler SurfaceContentsLost<object>
 Occurs when an underlying major change occurs, such as a DirectX device change. Typically the application must regenerate its surface contents when notified of this event.
 <!--This based on code crawl needs confirm-->
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.CompositionTarget.SurfaceContentsLost](/windows/winui/api/microsoft.ui.xaml.media.compositiontarget.surfacecontentslost).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.CompositionTarget.SurfaceContentsLost](/windows/winui/api/microsoft.ui.xaml.media.compositiontarget.surfacecontentslost) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

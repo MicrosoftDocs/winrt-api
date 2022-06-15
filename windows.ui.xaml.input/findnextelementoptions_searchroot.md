@@ -12,7 +12,7 @@ public DependencyObject SearchRoot { get;  set; }
 ## -description
 Gets or sets the object that must be the root from which to identify the next focus candidate to receive navigation focus.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FindNextElementOptions.SearchRoot](/windows/winui/api/microsoft.ui.xaml.input.findnextelementoptions.searchroot).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FindNextElementOptions.SearchRoot](/windows/winui/api/microsoft.ui.xaml.input.findnextelementoptions.searchroot) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The root object. 

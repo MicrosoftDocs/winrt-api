@@ -12,7 +12,7 @@ public double HorizontalOffset { get;  set; }
 ## -description
 Gets or sets the horizontal distance to add to the viewport-relative position of the TargetRect after satisfying the requested [HorizontalAlignmentRatio](bringintoviewrequestedeventargs_horizontalalignmentratio.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.HorizontalOffset](/windows/winui/api/microsoft.ui.xaml.bringintoviewrequestedeventargs.horizontaloffset).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.HorizontalOffset](/windows/winui/api/microsoft.ui.xaml.bringintoviewrequestedeventargs.horizontaloffset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

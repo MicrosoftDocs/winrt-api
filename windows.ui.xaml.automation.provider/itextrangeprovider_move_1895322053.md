@@ -12,7 +12,7 @@ public int Move(Windows.UI.Xaml.Automation.Text.TextUnit unit, System.Int32 coun
 ## -description
 Moves the text range the specified number of text units.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.Move](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.move).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.Move](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.move) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param unit

@@ -12,7 +12,7 @@ public Windows.Foundation.Uri UriSource { get;  set; }
 ## -description
 Gets or sets the Uniform Resource Identifier (URI) of the bitmap to use as the icon content.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.BitmapIcon.UriSource](/windows/winui/api/microsoft.ui.xaml.controls.bitmapicon.urisource).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.BitmapIcon.UriSource](/windows/winui/api/microsoft.ui.xaml.controls.bitmapicon.urisource) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

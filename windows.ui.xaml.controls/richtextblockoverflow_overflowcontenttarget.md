@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.RichTextBlockOverflow OverflowContentTarget { ge
 ## -description
 Gets or sets a reference to another [RichTextBlockOverflow](richtextblockoverflow.md) that is the linked target for any text overflow from this [RichTextBlockOverflow](richtextblockoverflow.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichTextBlockOverflow.OverflowContentTarget](/windows/winui/api/microsoft.ui.xaml.controls.richtextblockoverflow.overflowcontenttarget).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichTextBlockOverflow.OverflowContentTarget](/windows/winui/api/microsoft.ui.xaml.controls.richtextblockoverflow.overflowcontenttarget) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

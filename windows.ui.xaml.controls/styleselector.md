@@ -12,7 +12,7 @@ public class StyleSelector : Windows.UI.Xaml.Controls.IStyleSelector, Windows.UI
 ## -description
 Enables custom item style selection logic as a function of the content data and its specific item container.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.StyleSelector](/windows/winui/api/microsoft.ui.xaml.controls.styleselector).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.StyleSelector](/windows/winui/api/microsoft.ui.xaml.controls.styleselector) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

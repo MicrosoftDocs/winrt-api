@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ItemWidthProperty { get; }
 ## -description
 Identifies the [ItemWidth](loopingselector_itemwidth.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.ItemWidthProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.itemwidthproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.ItemWidthProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.itemwidthproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [ItemWidth](loopingselector_itemwidth.md) dependency property.

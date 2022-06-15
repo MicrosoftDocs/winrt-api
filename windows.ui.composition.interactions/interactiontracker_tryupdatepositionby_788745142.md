@@ -14,7 +14,7 @@ public int InteractionTracker.TryUpdatePositionBy(Vector3 amount, InteractionTra
 
 Tries to adjust the position of the [InteractionTracker](interactiontracker.md) by the specified amount using the specified clamping option.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.TryUpdatePositionBy](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.tryupdatepositionby).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.TryUpdatePositionBy](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.tryupdatepositionby) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

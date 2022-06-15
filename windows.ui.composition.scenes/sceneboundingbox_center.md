@@ -14,7 +14,7 @@ public Vector3 Center { get; }
 
 Gets the center of the bounding box.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneBoundingBox.Center](/windows/winui/api/microsoft.ui.composition.scenes.sceneboundingbox.center).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneBoundingBox.Center](/windows/winui/api/microsoft.ui.composition.scenes.sceneboundingbox.center) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

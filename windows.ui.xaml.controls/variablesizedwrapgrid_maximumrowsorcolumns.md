@@ -12,7 +12,7 @@ public int MaximumRowsOrColumns { get;  set; }
 ## -description
 Gets or sets a value that influences the wrap point, also accounting for [Orientation](variablesizedwrapgrid_orientation.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.MaximumRowsOrColumns](/windows/winui/api/microsoft.ui.xaml.controls.variablesizedwrapgrid.maximumrowsorcolumns).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.MaximumRowsOrColumns](/windows/winui/api/microsoft.ui.xaml.controls.variablesizedwrapgrid.maximumrowsorcolumns) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

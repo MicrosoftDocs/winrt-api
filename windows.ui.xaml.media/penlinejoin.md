@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.PenLineJoin : int
 ## -description
 Describes the shape that joins two lines or segments.
 
-Equivalent **WinUI 2 API for UWP**: [PenLineJoin](/windows/winui/api/microsoft.ui.xaml.media.penlinejoin).
+Equivalent **WinUI 2 API for UWP**: [PenLineJoin](/windows/winui/api/microsoft.ui.xaml.media.penlinejoin) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

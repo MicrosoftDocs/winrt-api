@@ -12,7 +12,7 @@ public void SetSlideInAnimationGroup(Windows.UI.Xaml.FrameworkElement element, W
 ## -description
 Assigns a [FrameworkElement](../windows.ui.xaml/frameworkelement.md) to a slide-in animation group so that element is animated at the same time as the other members of that group.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Pivot.SetSlideInAnimationGroup](/windows/winui/api/microsoft.ui.xaml.controls.pivot.setslideinanimationgroup).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Pivot.SetSlideInAnimationGroup](/windows/winui/api/microsoft.ui.xaml.controls.pivot.setslideinanimationgroup) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

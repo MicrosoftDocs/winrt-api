@@ -13,7 +13,7 @@ public float DampingRatio { get;  set; }
 
 Gets or sets a value that indicates how much damping is applied to the spring.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpringVector3NaturalMotionAnimation.DampingRatio](/windows/winui/api/microsoft.ui.composition.springvector3naturalmotionanimation.dampingratio).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpringVector3NaturalMotionAnimation.DampingRatio](/windows/winui/api/microsoft.ui.composition.springvector3naturalmotionanimation.dampingratio) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

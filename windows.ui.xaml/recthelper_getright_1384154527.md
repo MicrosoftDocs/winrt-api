@@ -13,7 +13,7 @@ public float GetRight(Windows.Foundation.Rect target)
 
 Gets a "Right" value for the specified [Rect](../windows.foundation/rect.md). So long as **Width** is positive, "Right" is evaluated as **X** + **Width**. C# and Microsoft Visual Basic code should use [Rect.Right](/dotnet/api/windows.foundation.rect.right?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.RectHelper.GetRight](/windows/winui/api/microsoft.ui.xaml.recthelper.getright).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.RectHelper.GetRight](/windows/winui/api/microsoft.ui.xaml.recthelper.getright) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

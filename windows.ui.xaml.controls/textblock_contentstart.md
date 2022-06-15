@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Documents.TextPointer ContentStart { get; }
 ## -description
 Gets a [TextPointer](../windows.ui.xaml.documents/textpointer.md) object for the start of text content in the [TextBlock](textblock.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBlock.ContentStart](/windows/winui/api/microsoft.ui.xaml.controls.textblock.contentstart).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBlock.ContentStart](/windows/winui/api/microsoft.ui.xaml.controls.textblock.contentstart) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 A [TextPointer](../windows.ui.xaml.documents/textpointer.md) object for the start of text content in the [TextBlock](textblock.md).

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CharacterSpacingProperty { get; }
 ## -description
 Identifies the [CharacterSpacing](textelement_characterspacing.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextElement.CharacterSpacingProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.characterspacingproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextElement.CharacterSpacingProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.characterspacingproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [CharacterSpacing](textelement_characterspacing.md) dependency property.

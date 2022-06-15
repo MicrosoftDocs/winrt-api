@@ -12,7 +12,7 @@ public class JumpListItemBackgroundConverter : Windows.UI.Xaml.DependencyObject,
 ## -description
 Provides the appropriate background Brush for elements in the item template of a jump list to bind to. The Brush reflects the current theme and accent color, and it's also used to shade empty-group jump list items. By default, the Brush matches built-in apps, but you can override that to suit your design needs using the [Enabled](jumplistitembackgroundconverter_enabled.md) and [Disabled](jumplistitembackgroundconverter_disabled.md) properties.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.JumpListItemBackgroundConverter](/windows/winui/api/microsoft.ui.xaml.controls.primitives.jumplistitembackgroundconverter).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.JumpListItemBackgroundConverter](/windows/winui/api/microsoft.ui.xaml.controls.primitives.jumplistitembackgroundconverter) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

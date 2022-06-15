@@ -12,7 +12,7 @@ public int IndexFromGeneratorPosition(Windows.UI.Xaml.Controls.Primitives.Genera
 ## -description
 Returns the index that maps to the specified [GeneratorPosition](../windows.ui.xaml.controls.primitives/generatorposition.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.IndexFromGeneratorPosition](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.indexfromgeneratorposition).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.IndexFromGeneratorPosition](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.indexfromgeneratorposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param position

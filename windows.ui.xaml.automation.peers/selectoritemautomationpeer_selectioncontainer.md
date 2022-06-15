@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple SelectionCo
 ## -description
 Gets the UI Automation provider that implements [ISelectionProvider](../windows.ui.xaml.automation.provider/iselectionprovider.md) and acts as container for the calling object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.SelectionContainer](/windows/winui/api/microsoft.ui.xaml.automation.peers.selectoritemautomationpeer.selectioncontainer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.SelectionContainer](/windows/winui/api/microsoft.ui.xaml.automation.peers.selectoritemautomationpeer.selectioncontainer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The UI Automation provider.

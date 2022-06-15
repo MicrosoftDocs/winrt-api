@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.ManipulationCompletedEventHandler Manipulatio
 
 Occurs when a manipulation on the [UIElement](uielement.md) is complete.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ManipulationCompleted](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationcompleted).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ManipulationCompleted](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationcompleted) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

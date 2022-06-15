@@ -14,7 +14,7 @@ public Quaternion Orientation { get;  set; }
 
 Gets or sets the orientation of the node.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneModelTransform.Orientation](/windows/winui/api/microsoft.ui.composition.scenes.scenemodeltransform.orientation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneModelTransform.Orientation](/windows/winui/api/microsoft.ui.composition.scenes.scenemodeltransform.orientation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

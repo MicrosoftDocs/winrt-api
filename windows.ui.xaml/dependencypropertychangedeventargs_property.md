@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty Property { get; }
 ## -description
 Gets the identifier for the dependency property where the value change occurred.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs.Property](/windows/winui/api/microsoft.ui.xaml.dependencypropertychangedeventargs.property).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DependencyPropertyChangedEventArgs.Property](/windows/winui/api/microsoft.ui.xaml.dependencypropertychangedeventargs.property) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier field of the dependency property where the value change occurred.

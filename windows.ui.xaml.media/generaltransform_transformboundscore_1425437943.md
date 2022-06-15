@@ -12,7 +12,7 @@ virtual protected Windows.Foundation.Rect TransformBoundsCore(Windows.Foundation
 ## -description
 Provides the means to override the [TransformBounds](generaltransform_transformbounds_2050801728.md) behavior in a derived transform class.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.GeneralTransform.TransformBoundsCore](/windows/winui/api/microsoft.ui.xaml.media.generaltransform.transformboundscore).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.GeneralTransform.TransformBoundsCore](/windows/winui/api/microsoft.ui.xaml.media.generaltransform.transformboundscore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param rect

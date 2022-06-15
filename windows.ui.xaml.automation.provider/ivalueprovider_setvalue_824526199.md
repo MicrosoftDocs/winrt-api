@@ -12,7 +12,7 @@ public void SetValue(System.String value)
 ## -description
 Sets the value of a control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IValueProvider.SetValue](/windows/winui/api/microsoft.ui.xaml.automation.provider.ivalueprovider.setvalue).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IValueProvider.SetValue](/windows/winui/api/microsoft.ui.xaml.automation.provider.ivalueprovider.setvalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param value

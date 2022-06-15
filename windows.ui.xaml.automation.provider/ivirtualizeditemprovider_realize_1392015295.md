@@ -12,7 +12,7 @@ public void Realize()
 ## -description
 Makes the virtual item fully accessible as a UI Automation element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IVirtualizedItemProvider.Realize](/windows/winui/api/microsoft.ui.xaml.automation.provider.ivirtualizeditemprovider.realize).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IVirtualizedItemProvider.Realize](/windows/winui/api/microsoft.ui.xaml.automation.provider.ivirtualizeditemprovider.realize) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

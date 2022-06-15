@@ -12,7 +12,7 @@ public bool GetIsTemplateFocusTarget(Windows.UI.Xaml.FrameworkElement element)
 ## -description
 Gets the value of the [Control.IsTemplateFocusTarget](control_istemplatefocustarget.md) XAML attached property for the target element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.GetIsTemplateFocusTarget](/windows/winui/api/microsoft.ui.xaml.controls.control.getistemplatefocustarget).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.GetIsTemplateFocusTarget](/windows/winui/api/microsoft.ui.xaml.controls.control.getistemplatefocustarget) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

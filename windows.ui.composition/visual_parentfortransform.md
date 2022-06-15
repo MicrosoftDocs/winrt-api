@@ -12,7 +12,7 @@ public Visual ParentForTransform { get;  set; }
 ## -description
 Visual specifying the coordinate system in which this visual is composed.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual.ParentForTransform](/windows/winui/api/microsoft.ui.composition.visual.parentfortransform).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual.ParentForTransform](/windows/winui/api/microsoft.ui.composition.visual.parentfortransform) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 Visual specifying the coordinate system in which this visual is composed.

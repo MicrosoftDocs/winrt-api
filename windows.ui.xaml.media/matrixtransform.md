@@ -12,7 +12,7 @@ public class MatrixTransform : Windows.UI.Xaml.Media.Transform, Windows.UI.Xaml.
 ## -description
 Creates an arbitrary affine matrix transformation that is used to manipulate objects or coordinate systems in a two-dimensional plane.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.MatrixTransform](/windows/winui/api/microsoft.ui.xaml.media.matrixtransform).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.MatrixTransform](/windows/winui/api/microsoft.ui.xaml.media.matrixtransform) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

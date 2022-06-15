@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent DragLeaveEvent { get; }
 ## -description
 Gets the identifier for the [DragLeave](uielement_dragleave.md) routed event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.DragLeaveEvent](/windows/winui/api/microsoft.ui.xaml.uielement.dragleaveevent).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.DragLeaveEvent](/windows/winui/api/microsoft.ui.xaml.uielement.dragleaveevent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [DragLeave](uielement_dragleave.md) routed event.

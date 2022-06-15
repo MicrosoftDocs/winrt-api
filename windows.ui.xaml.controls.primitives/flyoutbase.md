@@ -13,7 +13,7 @@ public class FlyoutBase : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Cont
 
 Represents the base class for flyout controls, such as [Flyout](../windows.ui.xaml.controls/flyout.md) and [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

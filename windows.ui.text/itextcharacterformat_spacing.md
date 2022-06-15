@@ -12,7 +12,7 @@ public float Spacing { get;  set; }
 ## -description
 Gets or sets the amount of horizontal spacing between characters.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.Spacing](/windows/winui/api/microsoft.ui.text.itextcharacterformat.spacing).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.Spacing](/windows/winui/api/microsoft.ui.text.itextcharacterformat.spacing) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The amount of horizontal spacing, in floating-point points.

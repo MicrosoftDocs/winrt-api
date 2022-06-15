@@ -12,7 +12,7 @@ public class SectionsInViewChangedEventArgs : Windows.UI.Xaml.Controls.ISections
 ## -description
 Provides data for the [Hub.SectionsInViewChanged](hub_sectionsinviewchanged.md) event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SectionsInViewChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.sectionsinviewchangedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SectionsInViewChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.sectionsinviewchangedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public bool IsInertial { get; }
 ## -description
 Gets a value that indicates whether the pan/zoom manipulation has an inertial component.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewerViewChangingEventArgs.IsInertial](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewerviewchangingeventargs.isinertial).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewerViewChangingEventArgs.IsInertial](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewerviewchangingeventargs.isinertial) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** if the pan/zoom manipulation has an inertial component; otherwise, **false**.

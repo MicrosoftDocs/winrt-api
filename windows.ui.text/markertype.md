@@ -12,7 +12,7 @@ public enum Windows.UI.Text.MarkerType : int
 ## -description
 Specifies the kind of characters used to mark the item paragraphs in a list.
 
-Equivalent **WinUI 2 API for UWP**: [MarkerType](/windows/winui/api/microsoft.ui.text.markertype).
+Equivalent **WinUI 2 API for UWP**: [MarkerType](/windows/winui/api/microsoft.ui.text.markertype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Undefined:0

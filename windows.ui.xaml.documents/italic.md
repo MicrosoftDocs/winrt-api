@@ -12,7 +12,7 @@ public class Italic : Windows.UI.Xaml.Documents.Span, Windows.UI.Xaml.Documents.
 ## -description
 Provides an inline-level flow content element that causes content to render with an italic font style.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Italic](/windows/winui/api/microsoft.ui.xaml.documents.italic).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Italic](/windows/winui/api/microsoft.ui.xaml.documents.italic) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

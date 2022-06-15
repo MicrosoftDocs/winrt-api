@@ -12,7 +12,7 @@ public class Underline : Windows.UI.Xaml.Documents.Span, Windows.UI.Xaml.Documen
 ## -description
 Provides an inline-level content element that causes content to render with an underlined text decoration.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Underline](/windows/winui/api/microsoft.ui.xaml.documents.underline).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Underline](/windows/winui/api/microsoft.ui.xaml.documents.underline) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

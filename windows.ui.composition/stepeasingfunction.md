@@ -13,7 +13,7 @@ public class StepEasingFunction : Windows.UI.Composition.CompositionEasingFuncti
 
 A step function for interpolating between animation key frames that advances animations in increments like steps which can be can be defined. Behaviors for initial and final steps can be customized.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.StepEasingFunction](/windows/winui/api/microsoft.ui.composition.stepeasingfunction).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.StepEasingFunction](/windows/winui/api/microsoft.ui.composition.stepeasingfunction) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public class XamlRenderingBackgroundTask : Windows.UI.Xaml.Media.Imaging.IXamlRe
 ## -description
 Provides the ability to create a bitmap from a XAML tree in a background task.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.XamlRenderingBackgroundTask](/windows/winui/api/microsoft.ui.xaml.media.imaging.xamlrenderingbackgroundtask).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.XamlRenderingBackgroundTask](/windows/winui/api/microsoft.ui.xaml.media.imaging.xamlrenderingbackgroundtask) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 > [!IMPORTANT]

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty EnableDependentAnimationProperty { get
 ## -description
 Identifies the [EnableDependentAnimation](pointanimationusingkeyframes_enabledependentanimation.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.EnableDependentAnimationProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimationusingkeyframes.enabledependentanimationproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.EnableDependentAnimationProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimationusingkeyframes.enabledependentanimationproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [EnableDependentAnimation](pointanimationusingkeyframes_enabledependentanimation.md) dependency property.

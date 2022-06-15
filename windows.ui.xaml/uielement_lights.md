@@ -12,7 +12,7 @@ public IVector<XamlLight> Lights { get; }
 ## -description
 Gets the collection of [XamlLight](../windows.ui.xaml.media/xamllight.md) objects attached to this element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.Lights](/windows/winui/api/microsoft.ui.xaml.uielement.lights).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.Lights](/windows/winui/api/microsoft.ui.xaml.uielement.lights) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

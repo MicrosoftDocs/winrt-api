@@ -13,7 +13,7 @@ public void RichEditTextRange.GetText(TextGetOptions options, String value)
 
 Retrieves the text in a text range according to the specified conversion flags.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.GetText](/windows/winui/api/microsoft.ui.text.richedittextrange.gettext).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.GetText](/windows/winui/api/microsoft.ui.text.richedittextrange.gettext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param options

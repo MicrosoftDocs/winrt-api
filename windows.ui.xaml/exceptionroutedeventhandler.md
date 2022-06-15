@@ -10,7 +10,7 @@ public delegate void ExceptionRoutedEventHandler(System.Object sender, Windows.U
 ## -description
 Represents the method that will handle certain events that report exceptions. These exceptions generally come from asynchronous operations.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ExceptionRoutedEventHandler](/windows/winui/api/microsoft.ui.xaml.exceptionroutedeventhandler).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ExceptionRoutedEventHandler](/windows/winui/api/microsoft.ui.xaml.exceptionroutedeventhandler) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param sender

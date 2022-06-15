@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Primitives.FlyoutBase Flyout { get;  set; }
 ## -description
 Gets or sets the flyout associated with this button.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Button.Flyout](/windows/winui/api/microsoft.ui.xaml.controls.button.flyout).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Button.Flyout](/windows/winui/api/microsoft.ui.xaml.controls.button.flyout) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

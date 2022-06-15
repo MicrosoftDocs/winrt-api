@@ -10,7 +10,7 @@ public delegate void ManipulationStartedEventHandler(System.Object sender, Windo
 ## -description
 Represents the method that will handle [ManipulationStarted](../windows.ui.xaml/uielement_manipulationstarted.md) and related events.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationStartedEventHandler](/windows/winui/api/microsoft.ui.xaml.input.manipulationstartedeventhandler).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationStartedEventHandler](/windows/winui/api/microsoft.ui.xaml.input.manipulationstartedeventhandler) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param sender

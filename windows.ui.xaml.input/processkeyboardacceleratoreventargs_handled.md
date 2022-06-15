@@ -12,7 +12,7 @@ public bool Handled { get;  set; }
 ## -description
 Gets or sets a value that marks the event as handled. 
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs.Handled](/windows/winui/api/microsoft.ui.xaml.input.processkeyboardacceleratoreventargs.handled).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs.Handled](/windows/winui/api/microsoft.ui.xaml.input.processkeyboardacceleratoreventargs.handled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 **true** to mark the event handled. **false** to leave the event unhandled. The default is **false**.

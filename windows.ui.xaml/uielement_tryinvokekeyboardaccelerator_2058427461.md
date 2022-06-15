@@ -12,7 +12,7 @@ public void UIElement.TryInvokeKeyboardAccelerator(ProcessKeyboardAcceleratorEve
 ## -description
 Attempts to invoke a [keyboard shortcut (or accelerator)](../windows.ui.xaml.input/keyboardaccelerator.md) by searching the entire visual tree of the UIElement for the shortcut.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.TryInvokeKeyboardAccelerator](/windows/winui/api/microsoft.ui.xaml.uielement.tryinvokekeyboardaccelerator).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.TryInvokeKeyboardAccelerator](/windows/winui/api/microsoft.ui.xaml.uielement.tryinvokekeyboardaccelerator) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param args

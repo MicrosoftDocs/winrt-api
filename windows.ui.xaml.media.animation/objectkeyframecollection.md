@@ -12,7 +12,7 @@ public class ObjectKeyFrameCollection : Windows.Foundation.Collections.IIterable
 ## -description
 Represents a collection of [ObjectKeyFrame](objectkeyframe.md) objects that can be individually accessed by index. ObjectKeyFrameCollection is the value of the [ObjectAnimationUsingKeyFrames.KeyFrames](objectanimationusingkeyframes_keyframes.md) property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrameCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframecollection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrameCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframecollection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 <!--Begin NET note for IEnumerable support-->

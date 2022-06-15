@@ -13,7 +13,7 @@ public DependencyProperty EffectProperty { get; }
 ## -description
 Identifies the Effect dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SlideNavigationTransitionInfo.EffectProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.slidenavigationtransitioninfo.effectproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SlideNavigationTransitionInfo.EffectProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.slidenavigationtransitioninfo.effectproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the Effect dependency property.

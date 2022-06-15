@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty BoundingRectangleProperty {
 ## -description
 Identifies the bounding rectangle automation property. The bounding rectangle property value is returned by the [GetBoundingRectangle](../windows.ui.xaml.automation.peers/automationpeer_getboundingrectangle_297705113.md) method.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.BoundingRectangleProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.boundingrectangleproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.BoundingRectangleProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.boundingrectangleproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The automation property identifier.

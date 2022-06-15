@@ -14,7 +14,7 @@ public void ScrollViewer.RegisterAnchorCandidate(UIElement element)
 
 Registers a [UIElement](../windows.ui.xaml/uielement.md) as a potential scroll anchor.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.RegisterAnchorCandidate](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.registeranchorcandidate).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.RegisterAnchorCandidate](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.registeranchorcandidate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

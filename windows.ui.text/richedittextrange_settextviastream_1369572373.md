@@ -13,7 +13,7 @@ public void RichEditTextRange.SetTextViaStream(TextSetOptions options, IRandomAc
 
 Sets the text in the text range based on the contents of a random access stream.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.SetTextViaStream](/windows/winui/api/microsoft.ui.text.richedittextrange.settextviastream).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.SetTextViaStream](/windows/winui/api/microsoft.ui.text.richedittextrange.settextviastream) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param options

@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.TappedEventHandler Tapped
 
 Occurs when an otherwise unhandled **Tap** interaction occurs over the hit test area of this element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.Tapped](/windows/winui/api/microsoft.ui.xaml.uielement.tapped).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.Tapped](/windows/winui/api/microsoft.ui.xaml.uielement.tapped) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

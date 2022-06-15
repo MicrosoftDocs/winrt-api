@@ -14,7 +14,7 @@ public bool XamlUICommand.CanExecute(Object parameter)
 
 Retrieves whether the command can execute in its current state.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.XamlUICommand.CanExecute](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.canexecute).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.XamlUICommand.CanExecute](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.canexecute) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

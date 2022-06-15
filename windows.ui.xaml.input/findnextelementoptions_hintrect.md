@@ -12,7 +12,7 @@ public Rect HintRect { get;  set; }
 ## -description
 Gets or sets a bounding rectangle used to identify the focus candidates most likely to receive navigation focus.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FindNextElementOptions.HintRect](/windows/winui/api/microsoft.ui.xaml.input.findnextelementoptions.hintrect).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FindNextElementOptions.HintRect](/windows/winui/api/microsoft.ui.xaml.input.findnextelementoptions.hintrect) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The bounding rectangle.

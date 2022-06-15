@@ -12,7 +12,7 @@ public void Begin()
 ## -description
 Initiates the set of animations associated with the storyboard.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Storyboard.Begin](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.begin).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Storyboard.Begin](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.begin) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 Calling this method begins all the animations that are in the [Children](storyboard_children.md) collection of the [Storyboard](storyboard.md).

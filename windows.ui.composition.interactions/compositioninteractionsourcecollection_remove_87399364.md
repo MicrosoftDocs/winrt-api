@@ -12,7 +12,7 @@ public void Remove(Windows.UI.Composition.Interactions.ICompositionInteractionSo
 ## -description
 Removes the specified interaction source from the collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.Remove](/windows/winui/api/microsoft.ui.composition.interactions.compositioninteractionsourcecollection.remove).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.Remove](/windows/winui/api/microsoft.ui.composition.interactions.compositioninteractionsourcecollection.remove) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param value

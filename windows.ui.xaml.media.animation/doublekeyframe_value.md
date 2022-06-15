@@ -12,7 +12,7 @@ public double Value { get;  set; }
 ## -description
 Gets or sets the key frame's target value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrame.Value](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframe.value).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrame.Value](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframe.value) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

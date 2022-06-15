@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler DropCompleted<Windows.UI.Xaml.
 
 Occurs when a drag-and-drop operation with this element as the source is ended.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.DropCompleted](/windows/winui/api/microsoft.ui.xaml.uielement.dropcompleted).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.DropCompleted](/windows/winui/api/microsoft.ui.xaml.uielement.dropcompleted) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 

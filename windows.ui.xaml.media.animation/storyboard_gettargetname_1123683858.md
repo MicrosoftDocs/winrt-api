@@ -12,7 +12,7 @@ public string GetTargetName(Windows.UI.Xaml.Media.Animation.Timeline element)
 ## -description
 Gets the value of the [Storyboard.TargetName](storyboard_targetname.md) XAML attached property from a target element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Storyboard.GetTargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.gettargetname).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Storyboard.GetTargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.gettargetname) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param element

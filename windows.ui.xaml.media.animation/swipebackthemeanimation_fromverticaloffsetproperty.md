@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FromVerticalOffsetProperty { get; }
 ## -description
 Identifies the [FromHorizontalOffset](swipebackthemeanimation_fromhorizontaloffset.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SwipeBackThemeAnimation.FromVerticalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.swipebackthemeanimation.fromverticaloffsetproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SwipeBackThemeAnimation.FromVerticalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.swipebackthemeanimation.fromverticaloffsetproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [FromHorizontalOffset](swipebackthemeanimation_fromhorizontaloffset.md) dependency property.

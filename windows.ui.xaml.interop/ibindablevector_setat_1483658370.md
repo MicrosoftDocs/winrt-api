@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, System.Object value)
 ## -description
 Sets the item value at the specified index of the vector.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.IBindableVector.SetAt](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector.setat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.IBindableVector.SetAt](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector.setat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param index

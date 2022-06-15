@@ -14,7 +14,7 @@ public void CompositionObject.PopulatePropertyInfo(String propertyName, Animatio
 
 Defines a property that can be animated.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionObject.PopulatePropertyInfo](/windows/winui/api/microsoft.ui.composition.compositionobject.populatepropertyinfo).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionObject.PopulatePropertyInfo](/windows/winui/api/microsoft.ui.composition.compositionobject.populatepropertyinfo) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param propertyName

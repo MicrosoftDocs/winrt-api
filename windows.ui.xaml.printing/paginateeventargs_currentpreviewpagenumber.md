@@ -12,7 +12,7 @@ public int CurrentPreviewPageNumber { get; }
 ## -description
 Gets the 1-based page number of the current preview page.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Printing.PaginateEventArgs.CurrentPreviewPageNumber](/windows/winui/api/microsoft.ui.xaml.printing.paginateeventargs.currentpreviewpagenumber).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Printing.PaginateEventArgs.CurrentPreviewPageNumber](/windows/winui/api/microsoft.ui.xaml.printing.paginateeventargs.currentpreviewpagenumber) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The page number.

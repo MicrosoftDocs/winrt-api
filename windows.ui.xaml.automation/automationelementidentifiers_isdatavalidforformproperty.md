@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty IsDataValidForFormProperty 
 ## -description
 Identifies the Boolean automation property that indicates if the data is valid for the form.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsDataValidForFormProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.isdatavalidforformproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsDataValidForFormProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.isdatavalidforformproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The automation property identifier.

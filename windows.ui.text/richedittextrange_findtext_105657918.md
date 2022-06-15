@@ -13,7 +13,7 @@ public int RichEditTextRange.FindText(String value, Int32 scanLength, FindOption
 
 Searches for a particular text string in a range and, if found, selects the string.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.FindText](/windows/winui/api/microsoft.ui.text.richedittextrange.findtext).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.FindText](/windows/winui/api/microsoft.ui.text.richedittextrange.findtext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param value

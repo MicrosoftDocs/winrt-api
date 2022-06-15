@@ -12,7 +12,7 @@ public class ImplicitAnimationCollection : Windows.UI.Composition.CompositionObj
 ## -description
 A collection of animations triggered when a condition is met.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ImplicitAnimationCollection](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ImplicitAnimationCollection](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

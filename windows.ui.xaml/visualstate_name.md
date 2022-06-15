@@ -12,7 +12,7 @@ public string Name { get; }
 ## -description
 Gets the name of the [VisualState](visualstate.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualState.Name](/windows/winui/api/microsoft.ui.xaml.visualstate.name).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualState.Name](/windows/winui/api/microsoft.ui.xaml.visualstate.name) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

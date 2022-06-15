@@ -12,7 +12,7 @@ public class PickerConfirmedEventArgs : Windows.UI.Xaml.DependencyObject, Window
 ## -description
 Provides data for the PickerConfirmed event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.PickerConfirmedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.pickerconfirmedeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.PickerConfirmedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.pickerconfirmedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

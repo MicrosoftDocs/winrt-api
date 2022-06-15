@@ -9,7 +9,7 @@
 
 Enables fundamental Windows Runtime functionality, including managing asynchronous operations and accessing property stores. This namespace also defines common value types that represent Uniform Resource Identifier (URI), dates and times, 2-D measurements, and other basic values.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.Foundation](/windows/winui/api/microsoft.foundation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.Foundation](/windows/winui/api/microsoft.foundation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

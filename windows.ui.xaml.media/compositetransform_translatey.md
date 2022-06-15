@@ -12,7 +12,7 @@ public double TranslateY { get;  set; }
 ## -description
 Gets or sets the distance to translate (move) an object along the y-axis.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.CompositeTransform.TranslateY](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.translatey).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.CompositeTransform.TranslateY](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.translatey) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -14,7 +14,7 @@ public class SceneNode : SceneObject, SceneObject
 
 Represents an element in the scene's visual tree.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneNode](/windows/winui/api/microsoft.ui.composition.scenes.scenenode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneNode](/windows/winui/api/microsoft.ui.composition.scenes.scenenode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

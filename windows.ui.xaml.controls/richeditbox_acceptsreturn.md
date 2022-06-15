@@ -12,7 +12,7 @@ public bool AcceptsReturn { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [RichEditBox](richeditbox.md) allows and displays the newline or return characters when the ENTER or RETURN keys are pressed.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBox.AcceptsReturn](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.acceptsreturn).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBox.AcceptsReturn](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.acceptsreturn) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public string GetLocalizedLandmarkType()
 ## -description
 Gets a localized string that represents the [AutomationLandmarkType](automationlandmarktype.md) value for the element that is associated with this automation peer.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLocalizedLandmarkType](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getlocalizedlandmarktype).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLocalizedLandmarkType](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getlocalizedlandmarktype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 The landmark type of the element.

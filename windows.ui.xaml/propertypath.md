@@ -12,7 +12,7 @@ public class PropertyPath : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.IP
 ## -description
 Implements a data structure for describing a property as a path below another property, or below an owning type. Property paths are used in data binding to objects.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.PropertyPath](/windows/winui/api/microsoft.ui.xaml.propertypath).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.PropertyPath](/windows/winui/api/microsoft.ui.xaml.propertypath) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 The main reason you might work with a PropertyPath object is to clone existing binding properties and use them somewhere else:

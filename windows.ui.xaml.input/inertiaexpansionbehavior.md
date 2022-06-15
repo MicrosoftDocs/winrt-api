@@ -12,7 +12,7 @@ public class InertiaExpansionBehavior : Windows.UI.Xaml.Input.IInertiaExpansionB
 ## -description
 Controls the deceleration of a resizing manipulation during inertia.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.InertiaExpansionBehavior](/windows/winui/api/microsoft.ui.xaml.input.inertiaexpansionbehavior).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.InertiaExpansionBehavior](/windows/winui/api/microsoft.ui.xaml.input.inertiaexpansionbehavior) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

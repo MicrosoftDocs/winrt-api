@@ -12,7 +12,7 @@ public double DisabledOpacity { get;  set; }
 ## -description
 Gets or sets the opacity of an item that is disabled.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DisabledOpacity](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.disabledopacity).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DisabledOpacity](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.disabledopacity) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

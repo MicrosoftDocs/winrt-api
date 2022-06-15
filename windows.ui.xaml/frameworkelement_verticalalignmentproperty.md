@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty VerticalAlignmentProperty { get; }
 ## -description
 Identifies the [VerticalAlignment](frameworkelement_verticalalignment.md)  dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.VerticalAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.verticalalignmentproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.VerticalAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.verticalalignmentproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The [VerticalAlignment](frameworkelement_verticalalignment.md)  dependency property identifier.

@@ -12,7 +12,7 @@ public object NavigateCustom(Windows.UI.Xaml.Automation.Peers.AutomationNavigati
 ## -description
 Gets the next element in the specified direction within the logical UI tree.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ICustomNavigationProvider.NavigateCustom](/windows/winui/api/microsoft.ui.xaml.automation.provider.icustomnavigationprovider.navigatecustom).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ICustomNavigationProvider.NavigateCustom](/windows/winui/api/microsoft.ui.xaml.automation.provider.icustomnavigationprovider.navigatecustom) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param direction

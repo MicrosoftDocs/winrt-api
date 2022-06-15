@@ -13,7 +13,7 @@ public ElementSpatialAudioMode SpatialAudioMode { get;  set; }
 
 Gets or sets a value that indicates whether spatial audio is on, off, or handled automatically.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ElementSoundPlayer.SpatialAudioMode](/windows/winui/api/microsoft.ui.xaml.elementsoundplayer.spatialaudiomode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ElementSoundPlayer.SpatialAudioMode](/windows/winui/api/microsoft.ui.xaml.elementsoundplayer.spatialaudiomode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

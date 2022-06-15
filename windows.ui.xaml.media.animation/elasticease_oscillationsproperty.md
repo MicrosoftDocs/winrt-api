@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty OscillationsProperty { get; }
 ## -description
 Identifies the [Oscillations](elasticease_oscillations.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ElasticEase.OscillationsProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.elasticease.oscillationsproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ElasticEase.OscillationsProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.elasticease.oscillationsproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [Oscillations](elasticease_oscillations.md) dependency property.

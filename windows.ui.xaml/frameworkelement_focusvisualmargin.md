@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Thickness FocusVisualMargin { get;  set; }
 
 Gets or sets the outer margin of the focus visual for a [FrameworkElement](frameworkelement.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.FocusVisualMargin](/windows/winui/api/microsoft.ui.xaml.frameworkelement.focusvisualmargin).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.FocusVisualMargin](/windows/winui/api/microsoft.ui.xaml.frameworkelement.focusvisualmargin) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

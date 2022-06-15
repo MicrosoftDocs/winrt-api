@@ -12,7 +12,7 @@ public event Windows.Foundation.EventHandler Opened<object>
 ## -description
 Fires when the [IsOpen](popup_isopen.md) property is set to true.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.Popup.Opened](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.opened).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.Popup.Opened](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.opened) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

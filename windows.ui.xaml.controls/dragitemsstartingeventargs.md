@@ -13,7 +13,7 @@ public class DragItemsStartingEventArgs : Windows.UI.Xaml.Controls.IDragItemsSta
 
 Provides event data for the [DragItemsStarting](listviewbase_dragitemsstarting.md) event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DragItemsStartingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.dragitemsstartingeventargs).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DragItemsStartingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.dragitemsstartingeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public double StepFrequency { get;  set; }
 ## -description
 Gets or sets the value part of a value range that steps should be created for.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Slider.StepFrequency](/windows/winui/api/microsoft.ui.xaml.controls.slider.stepfrequency).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Slider.StepFrequency](/windows/winui/api/microsoft.ui.xaml.controls.slider.stepfrequency) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, System.Double value)
 ## -description
 Sets the value at the specified index to the **Double** value specified.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.DoubleCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.doublecollection.setat).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.DoubleCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.doublecollection.setat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param index

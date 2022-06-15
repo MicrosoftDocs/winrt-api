@@ -13,7 +13,7 @@ public class Visual : Windows.UI.Composition.CompositionObject, Windows.UI.Compo
 
 The base visual object in the visual hierarchy.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual](/windows/winui/api/microsoft.ui.composition.visual).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual](/windows/winui/api/microsoft.ui.composition.visual) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 

@@ -14,7 +14,7 @@ The output position calculated by the [InteractionTracker](interactiontracker.md
 
 The position property of the InteractionTracker is a Vector3 representing position in the X, Y, and Z axis. The X and Y channels are the only components that will be updated by the InteractionTracker at this point. The channels of this Vector3 will not fluctuate outside of 0 (the default value) if the MinPosition and MaxPosition are not set.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.Position](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.position).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.Position](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.position) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The output position calculated by the [InteractionTracker](interactiontracker.md).

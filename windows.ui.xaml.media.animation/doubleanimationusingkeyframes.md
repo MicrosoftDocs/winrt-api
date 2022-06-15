@@ -12,7 +12,7 @@ public class DoubleAnimationUsingKeyFrames : Windows.UI.Xaml.Media.Animation.Tim
 ## -description
 Animates the value of a [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) property along a set of key frames.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimationusingkeyframes).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimationusingkeyframes) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public float QuadraticAttenuation { get;  set; }
 ## -description
 The quadratic portion of the attenuation equation that determines how the light falls off with distance. Animatable.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpotLight.QuadraticAttenuation](/windows/winui/api/microsoft.ui.composition.spotlight.quadraticattenuation).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpotLight.QuadraticAttenuation](/windows/winui/api/microsoft.ui.composition.spotlight.quadraticattenuation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The quadratic coefficient in the light's attenuation equation. Controls light intensity falloff based on distance squared. Range is from 0 to infinity.

@@ -12,7 +12,7 @@ public class FlipViewAutomationPeer : Windows.UI.Xaml.Automation.Peers.SelectorA
 ## -description
 Exposes [FlipView](../windows.ui.xaml.controls/flipview.md) types to Microsoft UI Automation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.FlipViewAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.flipviewautomationpeer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.FlipViewAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.flipviewautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 The Windows Runtime  [FlipView](../windows.ui.xaml.controls/flipview.md) class creates a new FlipViewAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from FlipViewAutomationPeer if you are deriving a custom class from [FlipView](../windows.ui.xaml.controls/flipview.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

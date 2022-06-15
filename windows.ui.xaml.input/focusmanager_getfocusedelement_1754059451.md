@@ -14,7 +14,7 @@ public object FocusManager.GetFocusedElement(XamlRoot xamlRoot)
 
 Retrieves the focused element within the Xaml island container.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FocusManager.GetFocusedElement](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.getfocusedelement).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FocusManager.GetFocusedElement](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.getfocusedelement) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

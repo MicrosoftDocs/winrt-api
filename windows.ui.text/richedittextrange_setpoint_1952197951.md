@@ -13,7 +13,7 @@ public void RichEditTextRange.SetPoint(Point point, PointOptions options, Boolea
 
 Changes the text range based on the specified point.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.SetPoint](/windows/winui/api/microsoft.ui.text.richedittextrange.setpoint).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.SetPoint](/windows/winui/api/microsoft.ui.text.richedittextrange.setpoint) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param point

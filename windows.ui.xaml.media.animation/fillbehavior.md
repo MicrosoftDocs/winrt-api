@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.Animation.FillBehavior : int
 ## -description
 Specifies how a [Timeline](timeline.md) behaves when it is outside its active period but its parent is inside its active or hold period.
 
-Equivalent **WinUI 2 API for UWP**: [FillBehavior](/windows/winui/api/microsoft.ui.xaml.media.animation.fillbehavior).
+Equivalent **WinUI 2 API for UWP**: [FillBehavior](/windows/winui/api/microsoft.ui.xaml.media.animation.fillbehavior) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

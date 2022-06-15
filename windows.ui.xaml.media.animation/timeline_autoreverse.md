@@ -12,7 +12,7 @@ public bool AutoReverse { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the timeline plays in reverse after it completes a forward iteration.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Timeline.AutoReverse](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.autoreverse).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.Timeline.AutoReverse](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.autoreverse) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

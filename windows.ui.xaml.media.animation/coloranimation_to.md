@@ -12,7 +12,7 @@ public Windows.Foundation.IReference<Windows.UI.Color> To { get;  set; }
 ## -description
 Gets or sets the animation's ending value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ColorAnimation.To](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimation.to).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.ColorAnimation.To](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimation.to) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

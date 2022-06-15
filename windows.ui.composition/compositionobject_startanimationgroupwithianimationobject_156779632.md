@@ -14,7 +14,7 @@ public void CompositionObject.StartAnimationGroupWithIAnimationObject(IAnimation
 
 Starts an animation group on the specified target.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionObject.StartAnimationGroupWithIAnimationObject](/windows/winui/api/microsoft.ui.composition.compositionobject.startanimationgroupwithianimationobject).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionObject.StartAnimationGroupWithIAnimationObject](/windows/winui/api/microsoft.ui.composition.compositionobject.startanimationgroupwithianimationobject) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param target

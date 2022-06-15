@@ -14,7 +14,7 @@ public void CompositionProjectedShadowCasterCollection.InsertAtTop(CompositionPr
 
 Adds a CompositionProjectedShadowCaster to the top of the collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection.InsertAtTop](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcastercollection.insertattop).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection.InsertAtTop](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcastercollection.insertattop) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param newCaster

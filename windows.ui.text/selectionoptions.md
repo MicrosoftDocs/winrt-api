@@ -12,7 +12,7 @@ public enum Windows.UI.Text.SelectionOptions : uint
 ## -description
 Describes the options that apply to a selection.
 
-Equivalent **WinUI 2 API for UWP**: [SelectionOptions](/windows/winui/api/microsoft.ui.text.selectionoptions).
+Equivalent **WinUI 2 API for UWP**: [SelectionOptions](/windows/winui/api/microsoft.ui.text.selectionoptions) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field StartActive:1

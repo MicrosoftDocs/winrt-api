@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.PanelScrollingDirection : int
 ## -description
 Defines constants that specify the direction that a panel is scrolling.
 
-Equivalent **WinUI 2 API for UWP**: [PanelScrollingDirection](/windows/winui/api/microsoft.ui.xaml.controls.panelscrollingdirection).
+Equivalent **WinUI 2 API for UWP**: [PanelScrollingDirection](/windows/winui/api/microsoft.ui.xaml.controls.panelscrollingdirection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field None:0

@@ -13,7 +13,7 @@ public enum Windows.UI.Xaml.Input.FocusNavigationDirection : int
 
 Specifies the direction that you can programmatically move focus from one element to another element within the app UI.
 
-Equivalent **WinUI 2 API for UWP**: [FocusNavigationDirection](/windows/winui/api/microsoft.ui.xaml.input.focusnavigationdirection).
+Equivalent **WinUI 2 API for UWP**: [FocusNavigationDirection](/windows/winui/api/microsoft.ui.xaml.input.focusnavigationdirection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 

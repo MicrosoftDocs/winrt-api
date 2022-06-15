@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectedItemProperty { get; }
 ## -description
 Identifies the [SelectedItem](loopingselector_selecteditem.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.SelectedItemProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.selecteditemproperty).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.SelectedItemProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.selecteditemproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 The identifier for the [SelectedItem](loopingselector_selecteditem.md) dependency property.

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Printing.PreviewPageCountType : int
 ## -description
 Describes the basis of the page count.
 
-Equivalent **WinUI 2 API for UWP**: [PreviewPageCountType](/windows/winui/api/microsoft.ui.xaml.printing.previewpagecounttype).
+Equivalent **WinUI 2 API for UWP**: [PreviewPageCountType](/windows/winui/api/microsoft.ui.xaml.printing.previewpagecounttype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Final:0

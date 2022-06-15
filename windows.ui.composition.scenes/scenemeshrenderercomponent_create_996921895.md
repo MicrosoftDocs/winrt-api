@@ -14,7 +14,7 @@ public SceneMeshRendererComponent SceneMeshRendererComponent.Create(Compositor c
 
 Creates an instance of SceneMeshRendererComponent.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneMeshRendererComponent.Create](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshrenderercomponent.create).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneMeshRendererComponent.Create](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshrenderercomponent.create) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param compositor

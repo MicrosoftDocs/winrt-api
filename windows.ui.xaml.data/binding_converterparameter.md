@@ -12,7 +12,7 @@ public object ConverterParameter { get;  set; }
 ## -description
 Gets or sets a parameter that can be used in the [Converter](binding_converter.md) logic.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.Binding.ConverterParameter](/windows/winui/api/microsoft.ui.xaml.data.binding.converterparameter).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.Binding.ConverterParameter](/windows/winui/api/microsoft.ui.xaml.data.binding.converterparameter) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

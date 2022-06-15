@@ -12,7 +12,7 @@ public void SetPropertyFromUri(System.Object dependencyObject, Windows.UI.Xaml.D
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Uri](../windows.foundation/uri.md) value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromUri](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromuri).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromUri](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromuri) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param dependencyObject

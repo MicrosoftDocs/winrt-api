@@ -12,7 +12,7 @@ public class OrientedVirtualizingPanel : Windows.UI.Xaml.Controls.VirtualizingPa
 ## -description
 Adds infrastructure (provides base class) for virtualizing layout containers that support spatial cues, such as [VirtualizingStackPanel](../windows.ui.xaml.controls/virtualizingstackpanel.md) and [WrapGrid](../windows.ui.xaml.controls/wrapgrid.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 ### **OrientedVirtualizingPanel** derived classes

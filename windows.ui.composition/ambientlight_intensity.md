@@ -13,7 +13,7 @@ public float Intensity { get;  set; }
 
 Gets or sets the intensity of the light.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.AmbientLight.Intensity](/windows/winui/api/microsoft.ui.composition.ambientlight.intensity).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.AmbientLight.Intensity](/windows/winui/api/microsoft.ui.composition.ambientlight.intensity) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -property-value
 

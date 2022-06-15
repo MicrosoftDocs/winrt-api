@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ClickMode ClickMode { get;  set; }
 ## -description
 Gets or sets a value that indicates when the [Click](buttonbase_click.md) event occurs, in terms of device behavior.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.ClickMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase.clickmode).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.ClickMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase.clickmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml
