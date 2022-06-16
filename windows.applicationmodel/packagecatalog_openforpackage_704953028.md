@@ -31,6 +31,8 @@ This API allows a package to listen to deployment notifications for another pack
 
 ## -examples
 
+This example uses the **OpenForPackage** method to listen to notifications on the current package (**Package.Current**). The event handler acts on any optional package that has finished updating.
+
 ```csharp
 void RegisterForDeploymentNotifications()
 {
@@ -54,8 +56,4 @@ void OptionalPackageUpdatingCallback(object sender, PackageUpdatingEventArgs arg
 
 ## -see-also
 
-[OpenForCurrentPackage](packagecatalog_openforcurrentpackage_1766019189.md)
-
-[Package](package.md)
-
-[PackageCatalog](packagecatalog.md)
+[OpenForCurrentPackage](packagecatalog_openforcurrentpackage_1766019189.md),[Package](package.md),[PackageCatalog](packagecatalog.md)

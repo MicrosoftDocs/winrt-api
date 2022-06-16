@@ -34,6 +34,4 @@ IReadOnlyList<Package> dependencies = currentPackage.Dependencies;
 
 ## -see-also
 
-[FindRelatedPackages](package_findrelatedpackages_1584363112.md)
-
-[App package information sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package)
+[FindRelatedPackages](package_findrelatedpackages_1584363112.md),[App package information sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package)

@@ -85,6 +85,4 @@ static IList<Package> GetNonOptionalDependenciesForCurrentPackage()
 
 ## -see-also
 
-[Package.Dependencies](package_dependencies.md)
-
-[FindRelatedPackageOptions](findrelatedpackagesoptions.md)
+[Package.Dependencies](package_dependencies.md),[FindRelatedPackageOptions](findrelatedpackagesoptions.md)
