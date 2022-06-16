@@ -54,8 +54,8 @@ void OptionalPackageUpdatingCallback(object sender, PackageUpdatingEventArgs arg
 
 ## -see-also
 
-[OpenForCurrentPackage](./packagecatalog_openforcurrentpackage_1766019189.md)
+[OpenForCurrentPackage](packagecatalog_openforcurrentpackage_1766019189.md)
 
-[Package](./package.md)
+[Package](package.md)
 
-[PackageCatalog](./packagecatalog.md)
+[PackageCatalog](packagecatalog.md)

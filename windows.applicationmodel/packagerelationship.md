@@ -31,6 +31,6 @@ Gets dependencies and dependents of the current package.
 
 ## -see-also
 
-[FindRelatedPackageOptions](./findrelatedpackagesoptions.md)
+[FindRelatedPackageOptions](findrelatedpackagesoptions.md)
 
 ## -examples

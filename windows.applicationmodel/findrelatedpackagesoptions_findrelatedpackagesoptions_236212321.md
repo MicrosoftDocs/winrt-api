@@ -11,13 +11,13 @@ public FindRelatedPackagesOptions (Windows.ApplicationModel.PackageRelationship 
 
 ## -description
 
-Creates a new instance of [FindRelatedPackagesOptions](./findrelatedpackagesoptions.md).
+Creates a new instance of [FindRelatedPackagesOptions](findrelatedpackagesoptions.md).
 
 ## -parameters
 
 ### -param Relationship
 
-A [PackageRelationship](./packagerelationship.md) which specifies the relationship of the packages to be retrieved.
+A [PackageRelationship](packagerelationship.md) which specifies the relationship of the packages to be retrieved.
 
 ## -remarks
 
@@ -25,4 +25,4 @@ A [PackageRelationship](./packagerelationship.md) which specifies the relationsh
 
 ## -see-also
 
-[PackageRelationship](./packagerelationship.md)
+[PackageRelationship](packagerelationship.md)

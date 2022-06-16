@@ -17,7 +17,7 @@ The **FindRelatedPackages** method provides the dependencies and then dependents
 
 ### -param options
 
-The [FindRelatedPackageOptions](./findrelatedpackagesoptions.md) which defines the search options.
+The [FindRelatedPackageOptions](findrelatedpackagesoptions.md) which defines the search options.
 
 ## -returns
 
@@ -85,6 +85,6 @@ static IList<Package> GetNonOptionalDependenciesForCurrentPackage()
 
 ## -see-also
 
-[Package.Dependencies](./package_dependencies.md)
+[Package.Dependencies](package_dependencies.md)
 
-[FindRelatedPackageOptions](./findrelatedpackagesoptions.md)
+[FindRelatedPackageOptions](findrelatedpackagesoptions.md)

@@ -21,4 +21,4 @@ The [PackageRelationship](./packagerelationship.md) specifies the relationship o
 
 ## -see-also
 
-[PackageRelationship](./packagerelationship.md)
+[PackageRelationship](packagerelationship.md)

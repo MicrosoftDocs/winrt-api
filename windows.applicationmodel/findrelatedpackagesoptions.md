@@ -19,4 +19,4 @@ Provides filtering when searching for packages.
 
 ## -see-also
 
-[FindRelatedPackages](./package_findrelatedpackages_1584363112.md)
+[FindRelatedPackages](package_findrelatedpackages_1584363112.md)
