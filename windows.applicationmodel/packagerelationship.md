@@ -25,7 +25,7 @@ Gets dependents of the current package.
 
 ### -field All: 2
 
-Gets dependencies and dependents of the current packages.
+Gets dependencies and dependents of the current package.
 
 ## -remarks
 
