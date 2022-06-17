@@ -20,7 +20,7 @@ The maximum size of the data, in KB.
 ## -remarks
 
 > [!WARNING]
-> Roaming data and settings is no longer supported as of Windows 11. The recommended replacement is [Azure App Service](/azure/app-service/). Azure App Service is widely supported, well documented, reliable, and supports cross-platform/cross-ecosystem scenarios such as iOS, Android and web.
+> Roaming data and settings is no longer supported as of Windows 11. The recommended replacement is [Azure App Service](/azure/app-service/). Azure App Service is widely supported, well documented, reliable, and supports cross-platform/cross-ecosystem scenarios such as iOS, Android and web. Settings stored here no longer roam (as of Windows 11), but the settings store is still available.
 > 
 > This documentation applies to Windows 10 versions 1909 and lower.
 
