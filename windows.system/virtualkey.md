@@ -71,7 +71,7 @@ The Ctrl key or button. This is the general Ctrl case, applicable to key layouts
 
 ### -field Menu:18
 
-The menu key or button.
+The Alt key or button. This is the general Alt case, applicable to key layouts with only one Alt key or that do not need to differentiate between left Alt and right Alt keystrokes.
 
 ### -field Pause:19
 
@@ -185,7 +185,7 @@ The execute key or button.
 
 ### -field Snapshot:44
 
-The snapshot key or button.
+The Print Screen key or button.
 
 ### -field Insert:45
 
@@ -585,11 +585,11 @@ The right Ctrl key or button.
 
 ### -field LeftMenu:164
 
-The left menu key or button.
+The left Alt key or button.
 
 ### -field RightMenu:165
 
-The right menu key or button.
+The right Alt key or button.
 
 ### -field GoBack:166
 
