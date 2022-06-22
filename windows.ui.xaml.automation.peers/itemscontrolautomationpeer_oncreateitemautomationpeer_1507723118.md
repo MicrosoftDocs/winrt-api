@@ -12,7 +12,7 @@ virtual protected Windows.UI.Xaml.Automation.Peers.ItemAutomationPeer OnCreateIt
 ## -description
 Invoked whenever a new instance of the [ItemAutomationPeer](itemautomationpeer.md) is created for a data item in the [Items](../windows.ui.xaml.controls/itemscontrol_items.md) collection of this [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ItemsControlAutomationPeer.OnCreateItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.itemscontrolautomationpeer.oncreateitemautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param item

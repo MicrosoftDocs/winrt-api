@@ -12,7 +12,7 @@ public void Append(System.Object value)
 ## -description
 Appends an item to the end of the vector.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.IBindableVector.Append](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector.append) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param value

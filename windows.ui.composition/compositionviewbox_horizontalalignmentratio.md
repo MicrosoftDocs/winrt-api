@@ -13,7 +13,7 @@ public float HorizontalAlignmentRatio { get;  set; }
 
 Gets or sets the horizontal alignment ratio of the view box.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionViewBox.HorizontalAlignmentRatio](/windows/winui/api/microsoft.ui.composition.compositionviewbox.horizontalalignmentratio) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

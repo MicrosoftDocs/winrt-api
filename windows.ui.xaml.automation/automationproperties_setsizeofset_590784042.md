@@ -12,7 +12,7 @@ public void SetSizeOfSet(Windows.UI.Xaml.DependencyObject element, System.Int32 
 ## -description
 Sets the value of the [AutomationProperties.SizeOfSet](automationproperties_sizeofset.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetSizeOfSet](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setsizeofset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param element

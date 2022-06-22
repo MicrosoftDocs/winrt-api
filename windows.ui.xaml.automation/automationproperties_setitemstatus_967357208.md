@@ -12,7 +12,7 @@ public void SetItemStatus(Windows.UI.Xaml.DependencyObject element, System.Strin
 ## -description
 Sets the value of the [AutomationProperties.ItemStatus](automationproperties_itemstatus.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetItemStatus](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setitemstatus) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param element

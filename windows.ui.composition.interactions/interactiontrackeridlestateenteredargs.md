@@ -12,7 +12,7 @@ public class InteractionTrackerIdleStateEnteredArgs : Windows.UI.Composition.Int
 ## -description
 Arguments for the [IInteractionTrackerOwner.IdleStateEntered](iinteractiontrackerowner_idlestateentered_677615450.md) callback.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTrackerIdleStateEnteredArgs](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackeridlestateenteredargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

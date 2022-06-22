@@ -12,7 +12,6 @@ virtual protected bool IsRequiredForFormCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [IsRequiredForForm](automationpeer_isrequiredforform_1300796554.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsRequiredForFormCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.isrequiredforformcore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 **true** if the element must be completed; otherwise, **false**.

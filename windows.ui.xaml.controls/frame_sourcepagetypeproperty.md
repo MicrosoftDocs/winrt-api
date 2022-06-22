@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SourcePageTypeProperty { get; }
 ## -description
 Identifies the [SourcePageType](frame_sourcepagetype.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Frame.SourcePageTypeProperty](/windows/winui/api/microsoft.ui.xaml.controls.frame.sourcepagetypeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [SourcePageType](frame_sourcepagetype.md) dependency property.

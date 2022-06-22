@@ -14,7 +14,7 @@ public bool RichEditTextDocument.CanCopy()
 
 Determines whether document content can be copied to the Clipboard.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextDocument.CanCopy](/windows/winui/api/microsoft.ui.text.richedittextdocument.cancopy) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 

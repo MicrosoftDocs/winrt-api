@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionMaskBrush CreateMaskBrush()
 ## -description
 Creates an instance of [CompositionMaskBrush](compositionmaskbrush.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateMaskBrush](/windows/winui/api/microsoft.ui.composition.compositor.createmaskbrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 Returns the created [CompositionMaskBrush](compositionmaskbrush.md) object.

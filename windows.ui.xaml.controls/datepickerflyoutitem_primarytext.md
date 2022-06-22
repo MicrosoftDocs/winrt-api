@@ -12,7 +12,7 @@ public string PrimaryText { get;  set; }
 ## -description
 Gets or sets the primary text of the item.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem.PrimaryText](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem.primarytext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The primary text of the item.

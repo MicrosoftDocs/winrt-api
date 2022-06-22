@@ -10,7 +10,7 @@ public delegate void DoubleTappedEventHandler(System.Object sender, Windows.UI.X
 ## -description
 Represents the method that will handle the [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md) event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.DoubleTappedEventHandler](/windows/winui/api/microsoft.ui.xaml.input.doubletappedeventhandler) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param sender

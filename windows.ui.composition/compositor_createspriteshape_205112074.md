@@ -13,7 +13,7 @@ public CompositionSpriteShape Compositor.CreateSpriteShape()
 
 Creates an instance of [CompositionSpriteShape](compositionspriteshape.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateSpriteShape](/windows/winui/api/microsoft.ui.composition.compositor.createspriteshape) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 

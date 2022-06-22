@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AboveProperty { get; }
 ## -description
 Identifies the [RelativePanel.Above](relativepanel_above.md) XAML attached property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.AboveProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.aboveproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [RelativePanel.Above](relativepanel_above.md) XAML attached property.

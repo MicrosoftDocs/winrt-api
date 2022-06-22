@@ -12,7 +12,7 @@ public Windows.UI.Input.ManipulationVelocities Velocities { get; }
 ## -description
 Gets the rates of the most recent changes to the manipulation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Velocities](/windows/winui/api/microsoft.ui.xaml.input.manipulationdeltaroutedeventargs.velocities) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The rates of the most recent changes to the manipulation.

@@ -12,7 +12,6 @@ public enum Windows.UI.Xaml.OpticalMarginAlignment : int
 ## -description
 Specifies how side bearing values in per-character typography are handled when aligning to a text container boundary.
 
-Equivalent **WinUI 2 API for UWP**: [OpticalMarginAlignment](/windows/winui/api/microsoft.ui.xaml.opticalmarginalignment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field None:0

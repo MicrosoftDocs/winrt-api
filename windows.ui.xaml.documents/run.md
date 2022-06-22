@@ -12,7 +12,7 @@ public class Run : Windows.UI.Xaml.Documents.Inline, Windows.UI.Xaml.Documents.I
 ## -description
 Represents a discrete section of formatted or unformatted text.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Run](/windows/winui/api/microsoft.ui.xaml.documents.run) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

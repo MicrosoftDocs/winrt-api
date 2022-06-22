@@ -12,7 +12,7 @@ public double VerticalOffset { get;  set; }
 ## -description
 Gets or sets the vertical distance between the target origin and the pop-up alignment point.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToolTip.VerticalOffset](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.verticaloffset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

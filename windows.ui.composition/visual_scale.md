@@ -12,7 +12,7 @@ public Windows.Foundation.Numerics.Vector3 Scale { get;  set; }
 ## -description
 The scale to apply to the visual.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual.Scale](/windows/winui/api/microsoft.ui.composition.visual.scale) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The scale to apply to the visual. A value of Vector3 (1.0,1.0,1.0) is equivalent to 100%.

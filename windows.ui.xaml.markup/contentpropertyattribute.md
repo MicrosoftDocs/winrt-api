@@ -12,7 +12,7 @@ public class ContentPropertyAttribute : System.Attribute
 ## -description
 Indicates which property of a type is the XAML content property. A XAML processor uses this information when processing XAML child elements of XAML representations of the attributed type.
 
-Equivalent **WinUI 2 API for UWP**: [*Microsoft.UI.Xaml.Markup.ContentPropertyAttribute*](/windows/winui/api/microsoft.ui.xaml.markup.contentpropertyattribute) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

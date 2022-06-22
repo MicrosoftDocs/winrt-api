@@ -8,7 +8,7 @@
 ## -description
 Provides XAML language support API for UWP app and the Windows Runtime.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup](/windows/winui/api/microsoft.ui.xaml.markup) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 Many of the types in this namespace are infrastructure or types that support uncommon scenarios. But there are two types in this namespace that apps might use in more typical app scenarios.

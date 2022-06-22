@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyObject Parent { get; }
 ## -description
 Gets the parent object of this [FrameworkElement](frameworkelement.md) in the object tree.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.Parent](/windows/winui/api/microsoft.ui.xaml.frameworkelement.parent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The parent object of this object in the object tree.

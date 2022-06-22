@@ -12,7 +12,7 @@ public float SpecularShine { get;  set; }
 ## -description
 Specular power for the Blinn-Phong lighting model.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Effects.SceneLightingEffect.SpecularShine](/windows/winui/api/microsoft.ui.composition.effects.scenelightingeffect.specularshine) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 Specular power for the Blinn-Phong lighting model. Value must be set between 1.0 and 128. The default value is 16.

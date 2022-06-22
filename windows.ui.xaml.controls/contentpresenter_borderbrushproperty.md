@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty BorderBrushProperty { get; }
 ## -description
 Identifies the [BorderBrush](contentpresenter_borderbrush.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentPresenter.BorderBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.borderbrushproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [BorderBrush](contentpresenter_borderbrush.md) dependency property.

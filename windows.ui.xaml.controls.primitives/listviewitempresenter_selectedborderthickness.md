@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Thickness SelectedBorderThickness { get;  set; }
 ## -description
 Gets or sets the thickness of the border around an item that's selected. This property is ignored for a Windows 10 app.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBorderThickness](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.selectedborderthickness) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

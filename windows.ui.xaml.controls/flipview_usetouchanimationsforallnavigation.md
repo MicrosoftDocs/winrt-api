@@ -12,7 +12,7 @@ public bool UseTouchAnimationsForAllNavigation { get;  set; }
 ## -description
 Gets or sets a value that indicates whether transition animations are always used whether the navigation is touch-based, button-based or programmatic.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.FlipView.UseTouchAnimationsForAllNavigation](/windows/winui/api/microsoft.ui.xaml.controls.flipview.usetouchanimationsforallnavigation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

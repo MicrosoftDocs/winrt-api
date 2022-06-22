@@ -12,7 +12,7 @@ public delegate void HoldingEventHandler(System.Object sender, Windows.UI.Xaml.I
 ## -description
 Represents the method that will handle the [Holding](../windows.ui.xaml/uielement_holding.md) event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.HoldingEventHandler](/windows/winui/api/microsoft.ui.xaml.input.holdingeventhandler) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 

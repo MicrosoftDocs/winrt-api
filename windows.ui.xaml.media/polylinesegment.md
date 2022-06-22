@@ -12,7 +12,7 @@ public class PolyLineSegment : Windows.UI.Xaml.Media.PathSegment, Windows.UI.Xam
 ## -description
 Represents a set of line segments defined by a [Point](../windows.foundation/point.md) collection with each [Point](../windows.foundation/point.md) specifying the end point of a line segment.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PolyLineSegment](/windows/winui/api/microsoft.ui.xaml.media.polylinesegment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

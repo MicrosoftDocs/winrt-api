@@ -14,7 +14,7 @@ The [InteractionTracker](interactiontracker.md)'s resting position when inertia 
 
 The ModifiedRestingPosition property represents the systems calculation of where the final resting position of [InteractionTracker](interactiontracker.md) will be based on an interaction. Unlike the [NaturalRestingPosition](interactiontrackerinertiastateenteredargs_naturalrestingposition.md), ModifiedRestingPosition will be calculated based on other factors that affect the motion of [InteractionTracker](interactiontracker.md) such as InertiaModifiers and Min/Max boundaries.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaStateEnteredArgs.ModifiedRestingPosition](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiastateenteredargs.modifiedrestingposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The [InteractionTracker](interactiontracker.md)'s resting position when inertia completes after [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md)s and boundaries have been applied.

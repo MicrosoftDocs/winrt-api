@@ -12,7 +12,7 @@ public enum Windows.UI.Text.TabAlignment : int
 ## -description
 Alignment options for tab positions.
 
-Equivalent **WinUI 2 API for UWP**: [TabAlignment](/windows/winui/api/microsoft.ui.text.tabalignment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -enum-fields
 ### -field Left:0

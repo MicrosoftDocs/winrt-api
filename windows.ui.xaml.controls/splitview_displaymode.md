@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.SplitViewDisplayMode DisplayMode { get;  set; }
 ## -description
 Gets of sets a value that specifies how the pane and content areas of a [SplitView](splitview.md) are shown.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SplitView.DisplayMode](/windows/winui/api/microsoft.ui.xaml.controls.splitview.displaymode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

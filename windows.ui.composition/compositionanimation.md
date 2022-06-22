@@ -12,7 +12,7 @@ public class CompositionAnimation : Windows.UI.Composition.CompositionObject, Wi
 ## -description
 Represents the base animation class.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionAnimation](/windows/winui/api/microsoft.ui.composition.compositionanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public void MakeVisible(Windows.UI.Xaml.Controls.SemanticZoomLocation item)
 ## -description
 Forces content in the view to scroll until the item that's specified by [SemanticZoomLocation](semanticzoomlocation.md) is visible. Also focuses the item if it finds the item.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.MakeVisible](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.makevisible) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param item

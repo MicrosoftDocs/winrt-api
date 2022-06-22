@@ -12,7 +12,7 @@ public class CompositionTarget : Windows.UI.Xaml.Media.ICompositionTarget
 ## -description
 Represents the composited display surface for an app. This class provides application-wide rendering events.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.CompositionTarget](/windows/winui/api/microsoft.ui.xaml.media.compositiontarget) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

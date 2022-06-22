@@ -13,7 +13,7 @@ public event TypedEventHandler CopyingToClipboard<RichEditBox, TextControlCopyin
 
 Occurs before copied text is moved to the clipboard.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichEditBox.CopyingToClipboard](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.copyingtoclipboard) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

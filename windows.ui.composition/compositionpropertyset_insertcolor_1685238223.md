@@ -12,7 +12,7 @@ public void InsertColor(System.String propertyName, Windows.UI.Color value)
 ## -description
 Inserts a [Color](../windows.ui/color.md) key-value pair.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionPropertySet.InsertColor](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.insertcolor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param propertyName

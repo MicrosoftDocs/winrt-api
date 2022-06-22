@@ -15,7 +15,7 @@ Produces a binary representation of XAML. Input streams are produced in text rep
 > [!IMPORTANT]
 > [XamlBinaryWriter](xamlbinarywriter.md) is not intended for use by typical app code. It is intended for use by tools and processes that are directly involved in producing an app package on a developer's machine.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.XamlBinaryWriter.Write](/windows/winui/api/microsoft.ui.xaml.markup.xamlbinarywriter.write) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param inputStreams

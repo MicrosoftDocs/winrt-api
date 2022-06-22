@@ -12,7 +12,7 @@ public class LoopingSelector : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml
 ## -description
 An infinitely scrolling selection control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

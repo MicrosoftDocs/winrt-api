@@ -13,7 +13,7 @@ public void CompositorController.Commit()
 
 Calls commit on the compositor associated with this CompositorController.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Core.CompositorController.Commit](/windows/winui/api/microsoft.ui.composition.core.compositorcontroller.commit) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

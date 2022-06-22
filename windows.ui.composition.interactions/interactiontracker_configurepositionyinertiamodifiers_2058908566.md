@@ -14,7 +14,7 @@ Applies a collection of InteractionTrackerInertiaModifier objects to the y inert
 
 The ConfigurePositionYInertiaModifiers method applies an individual or a collection of [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md)s to the y component of [InteractionTracker](interactiontracker.md). The system will evaluate each of Y modifier’s condition property in the order they were added to [InteractionTracker](interactiontracker.md). Thus, the order that the [InteractionTrackerInertiaModifier](interactiontrackerinertiamodifier.md) have in the collection will be the same order that the system will evaluate with.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.ConfigurePositionYInertiaModifiers](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.configurepositionyinertiamodifiers) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param modifiers

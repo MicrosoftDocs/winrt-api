@@ -12,8 +12,6 @@ public enum AutomationNotificationProcessing : int
 ## -description
 Specifies the order in which to process a notification.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationNotificationProcessing](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationnotificationprocessing) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
-
 ## -enum-fields
 ### -field ImportantAll:0
 These notifications should be presented to the user as soon as possible. All of the notifications from this source should be delivered to the user.  

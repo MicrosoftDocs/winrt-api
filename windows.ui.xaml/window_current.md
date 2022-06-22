@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Window Current { get; }
 ## -description
 Gets the window of the current thread.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Window.Current](/windows/winui/api/microsoft.ui.xaml.window.current) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The currently activated window.

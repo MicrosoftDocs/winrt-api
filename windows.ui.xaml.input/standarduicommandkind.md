@@ -14,7 +14,7 @@ public enum StandardUICommandKind : int
 
 Specifies the set of platform commands (with pre-defined properties such as icon, keyboard accelerator, and description) that can be used with a [StandardUICommand](standarduicommand.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.StandardUICommandKind](/windows/winui/api/microsoft.ui.xaml.input.standarduicommandkind) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -enum-fields
 

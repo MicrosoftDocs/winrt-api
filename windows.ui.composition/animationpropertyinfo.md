@@ -14,7 +14,7 @@ public class AnimationPropertyInfo : CompositionObject, CompositionObject
 
 Represents information about a property that can be animated.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.AnimationPropertyInfo](/windows/winui/api/microsoft.ui.composition.animationpropertyinfo) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

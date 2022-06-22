@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PlaceholderTextProperty { get; }
 ## -description
 Identifies the [PlaceholderText](calendardatepicker_placeholdertext.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.PlaceholderTextProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.placeholdertextproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [PlaceholderText](calendardatepicker_placeholdertext.md) dependency property.

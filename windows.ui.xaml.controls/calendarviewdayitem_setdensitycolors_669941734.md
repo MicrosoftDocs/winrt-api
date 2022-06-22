@@ -12,7 +12,7 @@ public void SetDensityColors(Windows.Foundation.Collections.IIterable<Windows.UI
 ## -description
 Sets the collection of [Color](../windows.ui/color.md) values used to display the density bar.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarViewDayItem.SetDensityColors](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitem.setdensitycolors) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param colors

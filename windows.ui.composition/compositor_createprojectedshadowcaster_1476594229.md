@@ -14,7 +14,7 @@ public CompositionProjectedShadowCaster Compositor.CreateProjectedShadowCaster()
 
 Creates an instance of [CompositionProjectedShadowCaster](compositionprojectedshadowcaster.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateProjectedShadowCaster](/windows/winui/api/microsoft.ui.composition.compositor.createprojectedshadowcaster) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 

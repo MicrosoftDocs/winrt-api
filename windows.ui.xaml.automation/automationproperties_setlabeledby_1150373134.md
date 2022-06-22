@@ -12,7 +12,7 @@ public void SetLabeledBy(Windows.UI.Xaml.DependencyObject element, Windows.UI.Xa
 ## -description
 Sets the value of the [AutomationProperties.LabeledBy](automationproperties_labeledby.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetLabeledBy](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setlabeledby) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush Disabled { get;  set; }
 ## -description
 Gets or sets the brush to be used for the background when the group is empty and the jump list item is disabled.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.JumpListItemBackgroundConverter.Disabled](/windows/winui/api/microsoft.ui.xaml.controls.primitives.jumplistitembackgroundconverter.disabled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The brush to be used for the background when the group is empty and the jump list item is disabled.

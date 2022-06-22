@@ -12,7 +12,7 @@ public Windows.Foundation.IReference<bool> IsSynchronizedWithCurrentItem { get; 
 ## -description
 Gets or sets a value that indicates whether a [Selector](selector.md) should keep the [SelectedItem](selector_selecteditem.md) synchronized with the current item in the [Items](../windows.ui.xaml.controls/itemscontrol_items.md) property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.Selector.IsSynchronizedWithCurrentItem](/windows/winui/api/microsoft.ui.xaml.controls.primitives.selector.issynchronizedwithcurrentitem) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

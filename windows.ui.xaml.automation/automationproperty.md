@@ -12,7 +12,7 @@ public class AutomationProperty : Windows.UI.Xaml.Automation.IAutomationProperty
 ## -description
 Identifies a property of [AutomationElementIdentifiers](automationelementidentifiers.md) or of a specific control pattern.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 Static AutomationProperty values are implemented in specific classes also in the [Windows.UI.Xaml.Automation](windows_ui_xaml_automation.md) namespace. The values are the identifiers for the Windows Runtime implementation of a common provider pattern for Microsoft UI Automation, or for the general [IAccessible](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) peer pattern.

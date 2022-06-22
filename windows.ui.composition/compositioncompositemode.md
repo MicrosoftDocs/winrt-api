@@ -12,7 +12,7 @@ public enum Windows.UI.Composition.CompositionCompositeMode : int
 ## -description
 Determines how a non-opaque visual's content is blended with the background content behind the visual.
 
-Equivalent **WinUI 2 API for UWP**: [CompositionCompositeMode](/windows/winui/api/microsoft.ui.composition.compositioncompositemode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -enum-fields
 ### -field Inherit:0

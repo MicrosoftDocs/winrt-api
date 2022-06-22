@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty VerticalContentAlignmentProperty { get
 ## -description
 Identifies the [VerticalContentAlignment](contentpresenter_verticalcontentalignment.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentPresenter.VerticalContentAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.verticalcontentalignmentproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [VerticalContentAlignment](contentpresenter_verticalcontentalignment.md) dependency property.

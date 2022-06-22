@@ -12,7 +12,7 @@ public object ItemsSource { get;  set; }
 ## -description
 Gets or sets an object source used to generate the content of the [ItemsControl](itemscontrol.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsSource](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemssource) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

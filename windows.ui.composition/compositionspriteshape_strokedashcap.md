@@ -13,7 +13,7 @@ public CompositionStrokeCap StrokeDashCap { get;  set; }
 
 Gets or sets a [CompositionStrokeCap](compositionstrokecap.md) enumeration value that specifies how the ends of a dash are drawn.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionSpriteShape.StrokeDashCap](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.strokedashcap) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

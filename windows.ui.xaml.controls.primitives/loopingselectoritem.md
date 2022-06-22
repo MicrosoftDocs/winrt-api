@@ -12,7 +12,7 @@ public class LoopingSelectorItem : Windows.UI.Xaml.Controls.ContentControl, Wind
 ## -description
 An item that is contained in a [LoopingSelector](loopingselector.md) control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorItem](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselectoritem) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

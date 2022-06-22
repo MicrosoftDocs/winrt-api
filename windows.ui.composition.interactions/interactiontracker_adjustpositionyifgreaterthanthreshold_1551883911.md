@@ -12,7 +12,7 @@ public void AdjustPositionYIfGreaterThanThreshold(System.Single adjustment, Syst
 ## -description
 Adjusts the position y coordinate if it is greater than the specified threshold.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.AdjustPositionYIfGreaterThanThreshold](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.adjustpositionyifgreaterthanthreshold) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param adjustment

@@ -13,7 +13,7 @@ public void AutomationProperties.SetCulture(DependencyObject element, Int32 valu
 
 Sets the value of the [Culture](automationproperties_culture.md) attached property for the specified [DependencyObject](/uwp/api/windows.ui.xaml.dependencyobject).  
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetCulture](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setculture) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 

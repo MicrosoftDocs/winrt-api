@@ -12,7 +12,7 @@ public object Convert(System.Object value, Windows.UI.Xaml.Interop.TypeName targ
 ## -description
 Returns the enabled brush if the item is not empty, otherwise returns the disabled brush.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.JumpListItemForegroundConverter.Convert](/windows/winui/api/microsoft.ui.xaml.controls.primitives.jumplistitemforegroundconverter.convert) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param value

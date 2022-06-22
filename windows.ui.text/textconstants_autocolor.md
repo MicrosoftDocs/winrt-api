@@ -12,7 +12,7 @@ public Windows.UI.Color AutoColor { get; }
 ## -description
 Gets the default color.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.TextConstants.AutoColor](/windows/winui/api/microsoft.ui.text.textconstants.autocolor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The default color.

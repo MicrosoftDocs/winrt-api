@@ -12,7 +12,7 @@ public double MaxDropDownHeight { get;  set; }
 ## -description
  Gets or sets the maximum height for a combo box drop-down. 
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ComboBox.MaxDropDownHeight](/windows/winui/api/microsoft.ui.xaml.controls.combobox.maxdropdownheight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

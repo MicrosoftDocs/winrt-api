@@ -12,7 +12,7 @@ public double MinZoom { get; }
 ## -description
 Gets the minimum zoom level of the element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.MinZoom](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider2.minzoom) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The minimum zoom level, as a percentage.

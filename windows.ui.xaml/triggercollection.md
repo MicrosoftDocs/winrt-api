@@ -12,7 +12,7 @@ public class TriggerCollection : Windows.Foundation.Collections.IIterable<Window
 ## -description
 Represents a collection of [EventTrigger](eventtrigger.md) objects.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.TriggerCollection](/windows/winui/api/microsoft.ui.xaml.triggercollection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

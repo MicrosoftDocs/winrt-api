@@ -12,7 +12,7 @@ public double VerticalScrollPercent { get; }
 ## -description
 Gets the current vertical scroll position.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.VerticalScrollPercent](/windows/winui/api/microsoft.ui.xaml.automation.peers.loopingselectorautomationpeer.verticalscrollpercent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The vertical scroll position as a percentage of the total content area within the control.

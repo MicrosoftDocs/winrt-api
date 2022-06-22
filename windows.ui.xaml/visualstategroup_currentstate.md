@@ -12,7 +12,7 @@ public Windows.UI.Xaml.VisualState CurrentState { get; }
 ## -description
 Gets the most recently set [VisualState](visualstate.md) from a successful call to the [GoToState](visualstatemanager_gotostate_443481648.md) method.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualStateGroup.CurrentState](/windows/winui/api/microsoft.ui.xaml.visualstategroup.currentstate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The most recently set [VisualState](visualstate.md) from a successful call to the [GoToState](visualstatemanager_gotostate_443481648.md) method, or **null**.

@@ -12,7 +12,7 @@ public enum Windows.UI.Composition.Interactions.InteractionChainingMode : int
 ## -description
 Defines the chaining behavior for a [VisualInteractionSource](visualinteractionsource.md). There are three options: Always chain, never chain or auto chain (let the system choose). If chaining is enabled, when an [InteractionTracker](interactiontracker.md) reaches its minimum or maximum bounds, it will instead send the input to the next ancestor [VisualInteractionSource](visualinteractionsource.md).
 
-Equivalent **WinUI 2 API for UWP**: [InteractionChainingMode](/windows/winui/api/microsoft.ui.composition.interactions.interactionchainingmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -enum-fields
 ### -field Auto:0

@@ -12,7 +12,7 @@ public void InsertAtBottom(Windows.UI.Composition.Visual newChild)
 ## -description
 Inserts a new visual at the bottom of the visual collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.VisualCollection.InsertAtBottom](/windows/winui/api/microsoft.ui.composition.visualcollection.insertatbottom) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param newChild

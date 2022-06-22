@@ -12,7 +12,7 @@ public class InlineUIContainer : Windows.UI.Xaml.Documents.Inline, Windows.UI.Xa
 ## -description
 Provides an inline content element that enables [UIElement](../windows.ui.xaml/uielement.md) types to be embedded in the content of a [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.InlineUIContainer](/windows/winui/api/microsoft.ui.xaml.documents.inlineuicontainer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

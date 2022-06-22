@@ -12,7 +12,7 @@ public bool GetIsZoomChainingEnabled(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets the value of the [IsZoomChainingEnabled](scrollviewer_iszoomchainingenabled.md) dependency property / `ScrollViewer.IsZoomChainingEnabled` XAML attached property from a specified element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.GetIsZoomChainingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.getiszoomchainingenabled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param element

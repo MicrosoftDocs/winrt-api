@@ -12,7 +12,7 @@ public Windows.UI.Xaml.TriggerActionCollection Actions { get; }
 ## -description
 Gets the collection of [BeginStoryboard](../windows.ui.xaml.media.animation/beginstoryboard.md) objects that this [EventTrigger](eventtrigger.md) maintains.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.EventTrigger.Actions](/windows/winui/api/microsoft.ui.xaml.eventtrigger.actions) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

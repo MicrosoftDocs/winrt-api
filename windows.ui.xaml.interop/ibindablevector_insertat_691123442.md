@@ -12,7 +12,7 @@ public void InsertAt(System.UInt32 index, System.Object value)
 ## -description
 Inserts an item into a vector at a specified index.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.IBindableVector.InsertAt](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector.insertat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param index

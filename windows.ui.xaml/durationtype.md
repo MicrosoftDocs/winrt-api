@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.DurationType : int
 ## -description
 Declares whether a [Duration](duration.md) has a special value of [Automatic](durationhelper_automatic.md) or [Forever](durationhelper_forever.md), or has valid information in its **TimeSpan** component.
 
-Equivalent **WinUI 2 API for UWP**: [DurationType](/windows/winui/api/microsoft.ui.xaml.durationtype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -enum-fields
 ### -field Automatic:0

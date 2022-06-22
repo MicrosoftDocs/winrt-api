@@ -12,7 +12,7 @@ virtual protected void OnNavigatedTo(Windows.UI.Xaml.Navigation.NavigationEventA
 ## -description
 Invoked when the [Page](page.md) is loaded and becomes the current source of a parent [Frame](frame.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Page.OnNavigatedTo](/windows/winui/api/microsoft.ui.xaml.controls.page.onnavigatedto) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param e

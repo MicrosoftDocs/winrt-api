@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionGetValueStatus TryGetQuaternion(System.
 ## -description
 Retrieves the specified quaternion property value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionPropertySet.TryGetQuaternion](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.trygetquaternion) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param propertyName

@@ -12,7 +12,7 @@ public void SetAccessKey(Windows.UI.Xaml.DependencyObject element, System.String
 ## -description
 Sets the value of the [AutomationProperties.AccessKey](automationproperties_accesskey.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetAccessKey](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setaccesskey) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param element

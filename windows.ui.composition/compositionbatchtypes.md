@@ -12,7 +12,7 @@ public enum Windows.UI.Composition.CompositionBatchTypes : uint
 ## -description
 Batch types for [CompositionCommitBatch](compositioncommitbatch.md) and [CompositionScopedBatch](compositionscopedbatch.md).
 
-Equivalent **WinUI 2 API for UWP**: [CompositionBatchTypes](/windows/winui/api/microsoft.ui.composition.compositionbatchtypes) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -enum-fields
 ### -field None:0

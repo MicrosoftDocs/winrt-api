@@ -12,7 +12,7 @@ public Windows.Foundation.Numerics.Vector2 CenterPoint { get;  set; }
 ## -description
 The point about which rotation or scaling occurs.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionClip.CenterPoint](/windows/winui/api/microsoft.ui.composition.compositionclip.centerpoint) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The point about which rotation or scaling occurs. Value is in pixels within the local coordinate space of the visual on which the clip is applied.

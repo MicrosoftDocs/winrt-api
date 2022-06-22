@@ -12,7 +12,7 @@ public Windows.UI.Xaml.TriggerCollection Triggers { get; }
 ## -description
 Gets the collection of triggers for animations that are defined for a [FrameworkElement](frameworkelement.md). Not commonly used. See Remarks.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.Triggers](/windows/winui/api/microsoft.ui.xaml.frameworkelement.triggers) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

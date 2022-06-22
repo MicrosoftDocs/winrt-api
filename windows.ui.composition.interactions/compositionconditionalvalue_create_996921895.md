@@ -12,7 +12,7 @@ public CompositionConditionalValue CompositionConditionalValue.Create(Compositor
 ## -description
 Creates an instance of CompositionConditionalValue.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.CompositionConditionalValue.Create](/windows/winui/api/microsoft.ui.composition.interactions.compositionconditionalvalue.create) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 

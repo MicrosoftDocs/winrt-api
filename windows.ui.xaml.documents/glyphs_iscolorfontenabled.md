@@ -12,7 +12,7 @@ public bool IsColorFontEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines whether font glyphs that contain color layers, such as Segoe UI Emoji, are rendered in color.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Glyphs.IsColorFontEnabled](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.iscolorfontenabled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 **true** if color glyphs show in color; otherwise, **false**. The default is **true**.

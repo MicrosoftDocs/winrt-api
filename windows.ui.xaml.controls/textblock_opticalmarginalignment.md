@@ -12,7 +12,7 @@ public Windows.UI.Xaml.OpticalMarginAlignment OpticalMarginAlignment { get;  set
 ## -description
 Get or sets a value that indicates how the font is modified to align with fonts of different sizes.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBlock.OpticalMarginAlignment](/windows/winui/api/microsoft.ui.xaml.controls.textblock.opticalmarginalignment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

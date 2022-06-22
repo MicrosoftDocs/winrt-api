@@ -12,7 +12,7 @@ public void RemoveAll()
 ## -description
 Removes all visuals from the collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.VisualUnorderedCollection.RemoveAll](/windows/winui/api/microsoft.ui.composition.visualunorderedcollection.removeall) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

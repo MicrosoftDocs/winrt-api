@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionBrush Source { get;  set; }
 ## -description
 The brush whose content is to be Nine-Grid stretched. Can be of type CompositionSurfaceBrush or CompositionColorBrush.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionNineGridBrush.Source](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.source) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The brush whose content is to be scaled using Nine-Grid Scaling. Can be of type CompositionSurfaceBrush or CompositionColorBrush.

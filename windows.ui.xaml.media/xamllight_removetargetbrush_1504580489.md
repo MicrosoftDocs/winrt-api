@@ -14,7 +14,7 @@ public void XamlLight.RemoveTargetBrush(String lightId, Brush brush)
 
 Stops a [Brush](/uwp/api/Windows.UI.Xaml.Media.Brush) from being a target of a [XamlLight](XamlLight.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.XamlLight.RemoveTargetBrush](/windows/winui/api/microsoft.ui.xaml.media.xamllight.removetargetbrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 

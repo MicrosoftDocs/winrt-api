@@ -12,7 +12,7 @@ public void InsertAt(System.UInt32 index, System.Object value)
 ## -description
 Inserts the specified item at the specified index.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.controls.itemcollection.insertat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param index

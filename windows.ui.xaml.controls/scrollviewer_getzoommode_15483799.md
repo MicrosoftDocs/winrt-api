@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ZoomMode GetZoomMode(Windows.UI.Xaml.DependencyO
 ## -description
 Gets the value of the [ZoomMode](scrollviewer_zoommode.md) dependency property / `ScrollViewer.ZoomMode` XAML attached property from a specified element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.GetZoomMode](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.getzoommode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param element

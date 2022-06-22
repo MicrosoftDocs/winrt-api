@@ -12,7 +12,7 @@ public Windows.Foundation.Numerics.Vector3 Direction { get;  set; }
 ## -description
 The direction in which the light is pointing, specified relative to its CoordinateSpace Visual.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpotLight.Direction](/windows/winui/api/microsoft.ui.composition.spotlight.direction) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The direction in which the light is pointing, specified relative to its coordinate space Visual.

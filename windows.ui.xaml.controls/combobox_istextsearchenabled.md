@@ -12,7 +12,7 @@ public bool IsTextSearchEnabled { get;  set; }
 ## -description
 Gets or sets a value that specifies whether a user can jump to a value by typing.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ComboBox.IsTextSearchEnabled](/windows/winui/api/microsoft.ui.xaml.controls.combobox.istextsearchenabled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

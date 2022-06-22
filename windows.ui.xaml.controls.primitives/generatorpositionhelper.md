@@ -12,7 +12,7 @@ public class GeneratorPositionHelper : Windows.UI.Xaml.Controls.Primitives.IGene
 ## -description
 Provides utility methods for evaluating and creating [GeneratorPosition](generatorposition.md) structure values. C# and Microsoft Visual Basic code should use members of [GeneratorPosition](generatorposition.md) instead.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.GeneratorPositionHelper](/windows/winui/api/microsoft.ui.xaml.controls.primitives.generatorpositionhelper) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

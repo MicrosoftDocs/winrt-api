@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Input.ICommand SecondaryButtonCommand { get;  set; }
 ## -description
 Gets or sets the command to invoke when the secondary button is tapped.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentDialog.SecondaryButtonCommand](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.secondarybuttoncommand) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

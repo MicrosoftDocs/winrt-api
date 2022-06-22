@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty ItemTypeProperty { get; }
 ## -description
 Identifies the item type automation property. The item type value is returned by [GetItemType](../windows.ui.xaml.automation.peers/automationpeer_getitemtype_747068727.md) method.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.ItemTypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.itemtypeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The automation property identifier.

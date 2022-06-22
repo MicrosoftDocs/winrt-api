@@ -12,7 +12,7 @@ public void LineLeft()
 ## -description
 Scrolls the [ScrollContentPresenter](scrollcontentpresenter.md) content to the left by a predetermined amount.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.LineLeft](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.lineleft) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

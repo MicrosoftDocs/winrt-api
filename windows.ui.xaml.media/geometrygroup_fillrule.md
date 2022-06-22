@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.FillRule FillRule { get;  set; }
 ## -description
 Gets or sets how the intersecting areas of the objects contained in this [GeometryGroup](geometrygroup.md) are combined.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.GeometryGroup.FillRule](/windows/winui/api/microsoft.ui.xaml.media.geometrygroup.fillrule) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

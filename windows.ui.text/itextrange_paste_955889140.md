@@ -12,7 +12,7 @@ public void Paste(System.Int32 format)
 ## -description
 Pastes text from the Clipboard into the text range.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.Paste](/windows/winui/api/microsoft.ui.text.itextrange.paste) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param format

@@ -12,7 +12,7 @@ public class LoopingSelectorPanel : Windows.UI.Xaml.Controls.Canvas, Windows.UI.
 ## -description
 A panel for positioning and arranging child [LoopingSelector](loopingselector.md) elements.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselectorpanel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

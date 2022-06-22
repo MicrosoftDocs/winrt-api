@@ -12,7 +12,7 @@ public double TranslateX { get;  set; }
 ## -description
 Gets or sets the distance to translate along the x-axis.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.CompositeTransform.TranslateX](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.translatex) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

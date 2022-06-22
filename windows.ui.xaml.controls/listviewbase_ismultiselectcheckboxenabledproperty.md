@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsMultiSelectCheckBoxEnabledProperty {
 ## -description
 Get the identifier for the [IsMultiSelectCheckBoxEnabled](listviewbase_ismultiselectcheckboxenabled.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListViewBase.IsMultiSelectCheckBoxEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.ismultiselectcheckboxenabledproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [IsMultiSelectCheckBoxEnabled](listviewbase_ismultiselectcheckboxenabled.md) dependency property.

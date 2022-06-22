@@ -12,7 +12,7 @@ public void RaisePropertyChangedEvent(Windows.UI.Xaml.Automation.AutomationPrope
 ## -description
 Raises an event to notify the automation client of a changed property value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.RaisePropertyChangedEvent](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.raisepropertychangedevent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param automationProperty

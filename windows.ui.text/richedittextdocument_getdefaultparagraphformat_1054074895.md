@@ -14,7 +14,7 @@ public ITextParagraphFormat RichEditTextDocument.GetDefaultParagraphFormat()
 
 Retrieves the default paragraph formatting attributes of the document.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextDocument.GetDefaultParagraphFormat](/windows/winui/api/microsoft.ui.text.richedittextdocument.getdefaultparagraphformat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 

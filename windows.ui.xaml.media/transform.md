@@ -12,7 +12,7 @@ public class Transform : Windows.UI.Xaml.Media.GeneralTransform, Windows.UI.Xaml
 ## -description
 Defines functionality that enables transformations in a two-dimensional plane.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Transform](/windows/winui/api/microsoft.ui.xaml.media.transform) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 Transformation types include rotation ([RotateTransform](rotatetransform.md)), scale ([ScaleTransform](scaletransform.md)), skew/shear ([SkewTransform](skewtransform.md)), and translation ([TranslateTransform](translatetransform.md)).

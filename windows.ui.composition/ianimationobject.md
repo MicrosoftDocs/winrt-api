@@ -14,7 +14,7 @@ public interface IAnimationObject
 
 Represents an object that has properties that can be referenced by an animation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.IAnimationObject](/windows/winui/api/microsoft.ui.composition.ianimationobject) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

@@ -13,7 +13,7 @@ public class Colors : Windows.UI.IColors
 
 Implements a set of predefined colors. See [Color](color.md) for usage information.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors](/windows/winui/api/microsoft.ui.colors) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

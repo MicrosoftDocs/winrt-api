@@ -13,7 +13,7 @@ public event TypedEventHandler IsTextTrimmedChanged<RichTextBlockOverflow, IsTex
 
 Occurs when the [IsTextTrimmed](richtextblockoverflow_istexttrimmed.md) property value has changed.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichTextBlockOverflow.IsTextTrimmedChanged](/windows/winui/api/microsoft.ui.xaml.controls.richtextblockoverflow.istexttrimmedchanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

@@ -13,7 +13,7 @@ public IReference<float> FinalValue { get;  set; }
 
 Gets or sets a value that indicates where the animation ends.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.ScalarNaturalMotionAnimation.FinalValue](/windows/winui/api/microsoft.ui.composition.scalarnaturalmotionanimation.finalvalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

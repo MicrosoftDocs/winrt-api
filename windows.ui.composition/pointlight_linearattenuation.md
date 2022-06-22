@@ -12,7 +12,7 @@ public float LinearAttenuation { get;  set; }
 ## -description
 The linear coefficient in the light's attenuation equation that determines how the light falls-off with distance.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.PointLight.LinearAttenuation](/windows/winui/api/microsoft.ui.composition.pointlight.linearattenuation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The linear coefficient in the light's attenuation equation that determines how the light falls-off with distance. Range is from 0 to infinity.

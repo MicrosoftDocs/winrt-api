@@ -13,7 +13,7 @@ public int EndPosition { get;  set; }
 
 Gets or sets the end character position of the text range.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.EndPosition](/windows/winui/api/microsoft.ui.text.richedittextrange.endposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

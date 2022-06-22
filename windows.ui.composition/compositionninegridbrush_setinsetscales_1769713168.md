@@ -12,7 +12,7 @@ public void SetInsetScales(System.Single left, System.Single top, System.Single 
 ## -description
 Sets the scale to be applied to the left, top, right, and bottom insets respectively. Defaults to 1.0f.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionNineGridBrush.SetInsetScales](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.setinsetscales) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param left

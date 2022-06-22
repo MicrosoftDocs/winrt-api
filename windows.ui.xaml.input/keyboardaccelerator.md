@@ -15,7 +15,7 @@ Represents a keyboard shortcut (or accelerator) that lets a user perform an acti
 
 Accelerators are typically assigned to buttons or menu items.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.KeyboardAccelerator](/windows/winui/api/microsoft.ui.xaml.input.keyboardaccelerator) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

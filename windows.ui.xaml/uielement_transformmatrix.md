@@ -13,7 +13,7 @@ public Matrix4x4 TransformMatrix { get;  set; }
 ## -description
 Gets or sets the transformation matrix to apply to the element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.TransformMatrix](/windows/winui/api/microsoft.ui.xaml.uielement.transformmatrix) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

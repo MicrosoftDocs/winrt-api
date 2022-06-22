@@ -12,7 +12,7 @@ virtual protected void OnContentTemplateChanged(Windows.UI.Xaml.DataTemplate old
 ## -description
 Invoked when the value of the [ContentTemplate](contentcontrol_contenttemplate.md) property changes.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentControl.OnContentTemplateChanged](/windows/winui/api/microsoft.ui.xaml.controls.contentcontrol.oncontenttemplatechanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param oldContentTemplate

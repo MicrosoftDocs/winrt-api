@@ -12,7 +12,7 @@ public bool CancelDirectManipulations()
 ## -description
 Cancels ongoing direct manipulation processing (system-defined panning/zooming) on any [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) parent that contains the current [UIElement](uielement.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.CancelDirectManipulations](/windows/winui/api/microsoft.ui.xaml.uielement.canceldirectmanipulations) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 **true** if a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) parent exists and setting the value resulted in canceling the panning/zooming action. **false** if calling the method results in no action.

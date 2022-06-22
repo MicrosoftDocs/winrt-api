@@ -13,7 +13,7 @@ public int InteractionTracker.TryUpdatePosition(Vector3 value, InteractionTracke
 
 Tries to update the position of the [InteractionTracker](interactiontracker.md) using the specified clamping option.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.TryUpdatePosition](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.tryupdateposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 

@@ -18,7 +18,7 @@ Accelerators are typically assigned to buttons or menu items.
 ![Example of a menu showing keyboard accelerators for various menu items](images/keyboard-accelerators.png)<br/>
 *Example of a menu showing keyboard accelerators for various menu items*
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.KeyboardAccelerators](/windows/winui/api/microsoft.ui.xaml.uielement.keyboardaccelerators) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

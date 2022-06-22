@@ -12,7 +12,7 @@ public string Caption { get;  set; }
 ## -description
 Gets or sets the caption text that overlays the drag visual. The text typically describes the drag-and-drop action.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DragUIOverride.Caption](/windows/winui/api/microsoft.ui.xaml.draguioverride.caption) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The caption text that overlays the drag visual.

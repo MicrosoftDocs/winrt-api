@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Media.DoubleCollection StrokeDashArray { get;  set; }
 
 Gets or sets a collection of [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) values that indicates the pattern of dashes and gaps that is used to outline shapes.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Shape.StrokeDashArray](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokedasharray) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

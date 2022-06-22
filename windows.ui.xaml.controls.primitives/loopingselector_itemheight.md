@@ -12,7 +12,7 @@ public int ItemHeight { get;  set; }
 ## -description
 Gets or sets the height of a [LoopingSelectorItem](loopingselectoritem.md) that is contained in a [LoopingSelector](loopingselector.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector.ItemHeight](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselector.itemheight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The height of the layout area for the [LoopingSelectorItem](loopingselectoritem.md) that is contained in the [LoopingSelector](loopingselector.md).

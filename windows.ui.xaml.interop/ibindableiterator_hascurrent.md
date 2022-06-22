@@ -12,7 +12,7 @@ public bool HasCurrent { get; }
 ## -description
 Gets a value that indicates whether there is a current item or the iterator is at the end of the collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.IBindableIterator.HasCurrent](/windows/winui/api/microsoft.ui.xaml.interop.ibindableiterator.hascurrent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 **true** if the iterator refers to a valid item that is in the collection; otherwise, **false**.

@@ -12,7 +12,7 @@ public bool InStory(Windows.UI.Text.ITextRange range)
 ## -description
 Determines whether this range's story is the same as a specified range's story.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.InStory](/windows/winui/api/microsoft.ui.text.itextrange.instory) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param range

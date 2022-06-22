@@ -12,7 +12,7 @@ public string Name { get; }
 ## -description
 Gets or sets a unique identification for the object. Name can only be set from initial parsing of XAML.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.TextElement.Name](/windows/winui/api/microsoft.ui.xaml.documents.textelement.name) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

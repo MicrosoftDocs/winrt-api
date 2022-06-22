@@ -12,7 +12,7 @@ public AutomationHeadingLevel AutomationPeer.GetHeadingLevel()
 ## -description
 Gets the heading level of the UI Automation element that is associated with this automation peer.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetHeadingLevel](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getheadinglevel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 The text heading level.

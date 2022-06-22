@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Input.KeyboardNavigationMode : int
 ## -description
 Specifies the tabbing behavior across tab stops for a tabbing sequence within a container.
 
-Equivalent **WinUI 2 API for UWP**: [KeyboardNavigationMode](/windows/winui/api/microsoft.ui.xaml.input.keyboardnavigationmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

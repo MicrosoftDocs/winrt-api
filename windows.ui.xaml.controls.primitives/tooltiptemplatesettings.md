@@ -12,7 +12,7 @@ public class ToolTipTemplateSettings : Windows.UI.Xaml.DependencyObject, Windows
 ## -description
 Provides calculated values that can be referenced as **TemplatedParent** sources when defining templates for a [ToolTip](../windows.ui.xaml.controls/tooltip.md) control. Not intended for general use.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ToolTipTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.primitives.tooltiptemplatesettings) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

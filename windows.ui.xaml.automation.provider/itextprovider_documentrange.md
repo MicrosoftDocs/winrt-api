@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Provider.ITextRangeProvider DocumentRange { ge
 ## -description
 Gets a text range that encloses the main text of a document.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITextProvider.DocumentRange](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextprovider.documentrange) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 A text range that encloses the main text of a document.

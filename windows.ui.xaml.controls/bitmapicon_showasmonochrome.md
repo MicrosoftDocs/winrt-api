@@ -13,7 +13,7 @@ public bool ShowAsMonochrome { get;  set; }
 
 Gets or sets a value that indicates whether the bitmap is shown in a single color.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.BitmapIcon.ShowAsMonochrome](/windows/winui/api/microsoft.ui.xaml.controls.bitmapicon.showasmonochrome) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

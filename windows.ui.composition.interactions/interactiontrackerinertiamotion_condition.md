@@ -14,7 +14,7 @@ An [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) descr
 
 The Condition property is an [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) that defines when the specified motion equation is utilized by [InteractionTracker](interactiontracker.md) during Inertia. This expression gets evaluated once after the interaction occurs and must resolve to a type Bool, otherwise an error will be thrown when the condition is evaluated. See the [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) class page for more details on building expressions.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaMotion.Condition](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiamotion.condition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 An [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) describing when the modifier should be applied.

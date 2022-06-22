@@ -12,7 +12,7 @@ public Windows.ApplicationModel.DataTransfer.DataPackageOperation AcceptedOperat
 ## -description
 Gets or sets a value that specifies which operations are allowed by the originator of the drag event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DragEventArgs.AcceptedOperation](/windows/winui/api/microsoft.ui.xaml.drageventargs.acceptedoperation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 A member of the [DataPackageOperation](../windows.applicationmodel.datatransfer/datapackageoperation.md) enumeration that specifies which operations are allowed by the originator of the drag event.

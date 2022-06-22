@@ -12,7 +12,7 @@ public double LocalOffsetY { get;  set; }
 ## -description
 Gets or sets the distance that the object is translated along the y-axis of the plane of the object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PlaneProjection.LocalOffsetY](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.localoffsety) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

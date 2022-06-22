@@ -12,7 +12,7 @@ public Windows.Foundation.HResult Exception { get; }
 ## -description
 Gets the **HRESULT** code associated with the unhandled exception.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UnhandledExceptionEventArgs.Exception](/windows/winui/api/microsoft.ui.xaml.unhandledexceptioneventargs.exception) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The **HRESULT** code (for Visual C++ component extensions (C++/CX)), or a mapped common language runtime (CLR)  [System.Exception](/dotnet/api/system.exception?view=dotnet-uwp-10.0&preserve-view=true).

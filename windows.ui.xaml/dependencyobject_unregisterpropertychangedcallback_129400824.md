@@ -12,7 +12,7 @@ public void UnregisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty
 ## -description
 Cancels a change notification that was previously registered by calling [RegisterPropertyChangedCallback](dependencyobject_registerpropertychangedcallback_1557279748.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DependencyObject.UnregisterPropertyChangedCallback](/windows/winui/api/microsoft.ui.xaml.dependencyobject.unregisterpropertychangedcallback) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param dp

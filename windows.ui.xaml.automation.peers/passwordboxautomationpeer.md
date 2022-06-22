@@ -12,7 +12,6 @@ public class PasswordBoxAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framew
 ## -description
 Exposes [PasswordBox](../windows.ui.xaml.controls/passwordbox.md) types to Microsoft UI Automation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.PasswordBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.passwordboxautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -remarks
 The Windows Runtime  [PasswordBox](../windows.ui.xaml.controls/passwordbox.md) class creates a new PasswordBoxAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [PasswordBox](../windows.ui.xaml.controls/passwordbox.md) is sealed, so the normal scenario of deriving from the [PasswordBox](../windows.ui.xaml.controls/passwordbox.md) class and its existing peer isn't applicable to PasswordBoxAutomationPeer.

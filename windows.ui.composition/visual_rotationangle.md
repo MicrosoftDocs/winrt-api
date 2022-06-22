@@ -13,7 +13,7 @@ public float RotationAngle { get;  set; }
 
 The rotation angle in radians of the visual. Animatable.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual.RotationAngle](/windows/winui/api/microsoft.ui.composition.visual.rotationangle) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The rotation angle in radians of the visual.

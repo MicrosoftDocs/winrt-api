@@ -12,7 +12,7 @@ public double KeyTipHorizontalOffset { get;  set; }
 ## -description
 Gets or sets a value that indicates how far left or right the Key Tip is placed in relation to the UIElement.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.KeyTipHorizontalOffset](/windows/winui/api/microsoft.ui.xaml.uielement.keytiphorizontaloffset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

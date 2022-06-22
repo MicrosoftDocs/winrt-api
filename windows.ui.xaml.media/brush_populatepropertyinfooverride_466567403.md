@@ -14,7 +14,7 @@ virtual protected void Brush.PopulatePropertyInfoOverride(String propertyName, A
 
 When overridden in a derived class, defines a property that can be animated.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Brush.PopulatePropertyInfoOverride](/windows/winui/api/microsoft.ui.xaml.media.brush.populatepropertyinfooverride) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param propertyName

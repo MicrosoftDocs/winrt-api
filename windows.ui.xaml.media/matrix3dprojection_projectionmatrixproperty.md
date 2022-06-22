@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ProjectionMatrixProperty { get; }
 ## -description
 Identifies the [ProjectionMatrix](matrix3dprojection_projectionmatrix.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Matrix3DProjection.ProjectionMatrixProperty](/windows/winui/api/microsoft.ui.xaml.media.matrix3dprojection.projectionmatrixproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [ProjectionMatrix](matrix3dprojection_projectionmatrix.md) dependency property.

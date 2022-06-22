@@ -12,7 +12,7 @@ public Windows.UI.Color Color { get;  set; }
 ## -description
 Color of the emitted DistantLight.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.DistantLight.Color](/windows/winui/api/microsoft.ui.composition.distantlight.color) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 Color of the emitted DistantLight.

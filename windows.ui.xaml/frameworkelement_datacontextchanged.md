@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler DataContextChanged<Windows.UI.
 ## -description
 Occurs when the value of the [FrameworkElement.DataContext](frameworkelement_datacontext.md) property changes.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.DataContextChanged](/windows/winui/api/microsoft.ui.xaml.frameworkelement.datacontextchanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

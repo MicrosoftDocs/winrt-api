@@ -12,7 +12,7 @@ public class ContentControl : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.
 ## -description
 Represents a control with a single piece of content. Controls such as [Button](button.md), [CheckBox](checkbox.md), and [ScrollViewer](scrollviewer.md) directly or indirectly inherit from this class.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ContentControl](/windows/winui/api/microsoft.ui.xaml.controls.contentcontrol) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

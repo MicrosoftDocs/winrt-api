@@ -13,7 +13,7 @@ public DependencyObject OverlayInputPassThroughElement { get;  set; }
 
 Gets or sets an element that should receive pointer input events even when underneath the flyout's overlay. 
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.OverlayInputPassThroughElement](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.overlayinputpassthroughelement) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

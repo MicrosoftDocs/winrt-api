@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsThumbToolTipEnabledProperty { get; }
 ## -description
 Identifies the [IsThumbToolTipEnabled](slider_isthumbtooltipenabled.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Slider.IsThumbToolTipEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.slider.isthumbtooltipenabledproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [IsThumbToolTipEnabled](slider_isthumbtooltipenabled.md) dependency property.

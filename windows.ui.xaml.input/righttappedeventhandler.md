@@ -10,7 +10,7 @@ public delegate void RightTappedEventHandler(System.Object sender, Windows.UI.Xa
 ## -description
 Represents the method that will handle a [RightTapped](../windows.ui.xaml/uielement_righttapped.md) routed event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.RightTappedEventHandler](/windows/winui/api/microsoft.ui.xaml.input.righttappedeventhandler) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param sender

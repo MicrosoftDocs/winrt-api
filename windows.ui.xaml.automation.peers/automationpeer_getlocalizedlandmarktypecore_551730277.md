@@ -12,7 +12,7 @@ virtual protected string GetLocalizedLandmarkTypeCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetLocalizedLandmarkType](automationpeer_getlocalizedlandmarktype_372977641.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLocalizedLandmarkTypeCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getlocalizedlandmarktypecore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 The landmark type of the peer, as a string that is localized to be suitable for direct presentation to users by assistive technology.

@@ -13,7 +13,7 @@ public Compositor Compositor { get; }
 
 Gets the compositor associated with this composition controller.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Core.CompositorController.Compositor](/windows/winui/api/microsoft.ui.composition.core.compositorcontroller.compositor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

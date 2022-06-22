@@ -12,7 +12,7 @@ public void MoveEndpointByRange(Windows.UI.Xaml.Automation.Text.TextPatternRange
 ## -description
 Moves one endpoint of a text range to the specified endpoint of a second text range.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.MoveEndpointByRange](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.moveendpointbyrange) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param endpoint

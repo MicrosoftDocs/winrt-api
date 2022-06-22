@@ -12,7 +12,7 @@ public void CustomAnimationStateEntered(Windows.UI.Composition.Interactions.Inte
 ## -description
 Callback triggered when an [InteractionTracker](interactiontracker.md) enters the custom animation state.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.CustomAnimationStateEntered](/windows/winui/api/microsoft.ui.composition.interactions.iinteractiontrackerowner.customanimationstateentered) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param sender

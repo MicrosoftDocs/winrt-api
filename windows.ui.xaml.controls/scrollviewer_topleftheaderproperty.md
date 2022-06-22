@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TopLeftHeaderProperty { get; }
 ## -description
 Identifies the [TopLeftHeader](scrollviewer_topleftheader.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.TopLeftHeaderProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.topleftheaderproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [TopLeftHeader](scrollviewer_topleftheader.md) dependency property.
