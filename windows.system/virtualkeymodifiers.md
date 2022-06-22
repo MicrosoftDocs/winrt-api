@@ -17,10 +17,10 @@ Specifies the virtual key used to modify another keypress. For example, the Ctrl
 No virtual key modifier.
 
 ### -field Control:1
-The Ctrl (control) virtual key.
+The Ctrl virtual key.
 
 ### -field Menu:2
-The Menu virtual key.
+The Alt virtual key.
 
 ### -field Shift:4
 The Shift virtual key.
