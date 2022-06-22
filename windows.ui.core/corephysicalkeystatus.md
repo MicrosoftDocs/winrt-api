@@ -17,27 +17,27 @@ Specifies the set of physical key status items that can be obtained.
 
 ### -field RepeatCount
 
-The number of times a key was pressed.
+The number of times a key was pressed.  See [Repeat Count](/windows/win32/inputdev/about-keyboard-input#repeat-count) for more info.
 
 ### -field ScanCode
 
-The scan code for a key that was pressed.
+The scan code for a key that was pressed. See [Scan Code](/windows/win32/inputdev/about-keyboard-input#scan-code) for more info.
 
 ### -field IsExtendedKey
 
-Whether the key that was pressed maps to an extended ASCII character.
+Whether the key is an extended key, such as the right-hand ALT and CTRL keys that appear on an Enhanced 101/102-key keyboard. See [Extended-Key Flag](/windows/win32/inputdev/about-keyboard-input#extended-key-flag) for more info.
 
 ### -field IsMenuKeyDown
 
-Whether the Alt key (represented by the VirtualKey.Menu value) is currently pressed down.
+Whether the Alt key (represented by the VirtualKey.Menu value) is currently pressed down. See [Context Code](/windows/win32/inputdev/about-keyboard-input#context-code) for more info.
 
 ### -field WasKeyDown
 
-Whether a key is currently pressed down.
+Whether a key is currently pressed down. See [Previous Key-State Flag](/windows/win32/inputdev/about-keyboard-input#previous-key-state-flag) for more info.
 
 ### -field IsKeyReleased
 
-Whether a key has moved from a pressed to a released status.
+Whether a key has moved from a pressed to a released status. See [Transition-State Flag](/windows/win32/inputdev/about-keyboard-input#transition-state-flag) for more info.
 
 ## -remarks
 
