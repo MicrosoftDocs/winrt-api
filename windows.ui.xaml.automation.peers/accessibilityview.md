@@ -12,8 +12,6 @@ public enum Windows.UI.Xaml.Automation.Peers.AccessibilityView : int
 ## -description
 Declares how a control should included in different views of a Microsoft UI Automation tree.
 
-Equivalent **WinUI 2 API for UWP**: [AccessibilityView](/windows/winui/api/microsoft.ui.xaml.automation.peers.accessibilityview) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
-
 ## -enum-fields
 ### -field Raw:0
 The control is included in the **Raw** view of a Microsoft UI Automation tree.

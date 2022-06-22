@@ -12,7 +12,7 @@ public class Selector : Windows.UI.Xaml.Controls.ItemsControl, Windows.UI.Xaml.C
 ## -description
 Represents a control that enables a user to select an item from a collection of items.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.Selector](/windows/winui/api/microsoft.ui.xaml.controls.primitives.selector) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

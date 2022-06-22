@@ -12,7 +12,7 @@ public object GetPattern(Windows.UI.Xaml.Automation.Peers.PatternInterface patte
 ## -description
 Gets the control pattern that is associated with the specified [PatternInterface](patterninterface.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetPattern](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getpattern) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param patternInterface

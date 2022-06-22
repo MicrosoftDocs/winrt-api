@@ -12,7 +12,7 @@ public Windows.Foundation.Numerics.Quaternion Orientation { get;  set; }
 ## -description
 A quaternion describing an orientation and rotation in 3D space that will be applied to the visual. Animatable.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Visual.Orientation](/windows/winui/api/microsoft.ui.composition.visual.orientation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 A [Quaternion](../windows.foundation.numerics/quaternion.md) describing an orientation and rotation in 3D space that will be applied to the visual.

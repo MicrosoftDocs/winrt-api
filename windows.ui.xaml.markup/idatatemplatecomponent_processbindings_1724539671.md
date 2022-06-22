@@ -12,7 +12,7 @@ public void ProcessBindings(System.Object item, System.Int32 itemIndex, System.I
 ## -description
 Updates the compiled data bindings.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.IDataTemplateComponent.ProcessBindings](/windows/winui/api/microsoft.ui.xaml.markup.idatatemplatecomponent.processbindings) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param item

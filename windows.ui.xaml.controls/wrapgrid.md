@@ -13,7 +13,7 @@ public class WrapGrid : Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizing
 
 Positions child elements sequentially from left to right or top to bottom. When elements extend beyond the container edge, elements are positioned in the next row or column. Can only be used to display items in an [ItemsControl](itemscontrol.md). See Remarks.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.WrapGrid](/windows/winui/api/microsoft.ui.xaml.controls.wrapgrid) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

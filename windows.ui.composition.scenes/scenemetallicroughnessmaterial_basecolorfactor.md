@@ -14,7 +14,7 @@ public Vector4 BaseColorFactor { get;  set; }
 
 Gets or sets a value that indicates the base color.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneMetallicRoughnessMaterial.BaseColorFactor](/windows/winui/api/microsoft.ui.composition.scenes.scenemetallicroughnessmaterial.basecolorfactor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

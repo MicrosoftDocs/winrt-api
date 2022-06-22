@@ -12,7 +12,7 @@ public float Position { get;  set; }
 ## -description
 Gets or sets the character offset relative to the baseline.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.Position](/windows/winui/api/microsoft.ui.text.itextcharacterformat.position) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The character offset, in floating-point points.

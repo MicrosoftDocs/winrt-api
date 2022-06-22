@@ -12,7 +12,7 @@ public double CacheLength { get;  set; }
 ## -description
 Gets or sets the size of the buffers for items outside the viewport, in multiples of the viewport size.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid.CacheLength](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid.cachelength) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

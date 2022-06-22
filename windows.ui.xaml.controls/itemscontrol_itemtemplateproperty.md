@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ItemTemplateProperty { get; }
 ## -description
 Identifies the [ItemTemplate](itemscontrol_itemtemplate.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemtemplateproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [ItemTemplate](itemscontrol_itemtemplate.md) dependency property.

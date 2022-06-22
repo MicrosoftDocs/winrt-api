@@ -12,7 +12,7 @@ public bool Handled { get;  set; }
 ## -description
 Gets or sets a value that indicates the present state of the event handling for a routed event as it travels the route.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DragEventArgs.Handled](/windows/winui/api/microsoft.ui.xaml.drageventargs.handled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 **true** if the event is marked handled; otherwise, **false**. The default value is **false**.

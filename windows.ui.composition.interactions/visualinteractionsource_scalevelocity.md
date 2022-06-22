@@ -12,7 +12,7 @@ public float ScaleVelocity { get; }
 ## -description
 The instantaneous rate of change of scale in the interaction, in percent per second. Additive. Defaults to 0. Readble only via expression/animation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.ScaleVelocity](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.scalevelocity) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The scale velocity of the interaction source.

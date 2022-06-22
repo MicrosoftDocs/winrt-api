@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ControlTemplate Template { get;  set; }
 ## -description
 Gets or sets a control template. The control template defines the visual appearance of a control in UI, and is defined in XAML markup.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.Template](/windows/winui/api/microsoft.ui.xaml.controls.control.template) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

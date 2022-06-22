@@ -12,7 +12,7 @@ public Windows.UI.Composition.LayerVisual CreateLayerVisual()
 ## -description
 Creates an instance of [LayerVisual](layervisual.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateLayerVisual](/windows/winui/api/microsoft.ui.composition.compositor.createlayervisual) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 Returns the created [LayerVisual](layervisual.md) object.

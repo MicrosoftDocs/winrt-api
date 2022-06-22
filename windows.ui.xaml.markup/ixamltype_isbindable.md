@@ -12,7 +12,7 @@ public bool IsBindable { get; }
 ## -description
 Gets a value that declares whether the type is bindable.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.IXamlType.IsBindable](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.isbindable) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 **true** if the type is bindable, **false** if the type is not bindable.

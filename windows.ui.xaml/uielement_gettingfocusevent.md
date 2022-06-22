@@ -13,7 +13,7 @@ public RoutedEvent GettingFocusEvent { get; }
 
 Gets the identifier for the [GettingFocus](uielement_gettingfocus.md) routed event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.GettingFocusEvent](/windows/winui/api/microsoft.ui.xaml.uielement.gettingfocusevent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

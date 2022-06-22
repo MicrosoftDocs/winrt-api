@@ -12,7 +12,7 @@ public class GeometryGroup : Windows.UI.Xaml.Media.Geometry, Windows.UI.Xaml.Med
 ## -description
 Represents a composite geometry, composed of other [Geometry](geometry.md) objects.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.GeometryGroup](/windows/winui/api/microsoft.ui.xaml.media.geometrygroup) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

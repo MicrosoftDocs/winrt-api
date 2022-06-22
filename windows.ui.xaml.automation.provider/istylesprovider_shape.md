@@ -12,7 +12,7 @@ public string Shape { get; }
 ## -description
 Gets a string that represents the shape of an element in a document.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IStylesProvider.Shape](/windows/winui/api/microsoft.ui.xaml.automation.provider.istylesprovider.shape) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 A localized string that indicates the shape.

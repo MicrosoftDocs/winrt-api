@@ -14,7 +14,7 @@ Natural resting position for the [InteractionTracker](interactiontracker.md).
 
 The NaturalRestingPosition property is the calculated position that [InteractionTracker](interactiontracker.md) will come to a stop at without accounting for boundaries or inertia modifiers. This property is often useful for actions like virtualization in a scrolling experience, where it is important to know the location of where [InteractionTracker](interactiontracker.md) will stop. There are two main use cases for using the NaturalRestingPosition property: Retrieving its current value in the [InertiaStateEntered](iinteractiontrackerowner_inertiastateentered_615555038.md) event args or referencing this property in an [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) when creating things like inertia modifiers.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.NaturalRestingPosition](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.naturalrestingposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 Natural resting position for the [InteractionTracker](interactiontracker.md).

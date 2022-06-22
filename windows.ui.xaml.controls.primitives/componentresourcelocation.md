@@ -12,7 +12,6 @@ public enum Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation : int
 ## -description
 Defines constants that specify the lookup behavior for references to application resources by Uniform Resource Identifier (URI) path.
 
-Equivalent **WinUI 2 API for UWP**: [ComponentResourceLocation](/windows/winui/api/microsoft.ui.xaml.controls.primitives.componentresourcelocation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Application:0

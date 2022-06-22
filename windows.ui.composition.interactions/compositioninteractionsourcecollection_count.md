@@ -12,7 +12,7 @@ public int Count { get; }
 ## -description
 The number of interaction sources in the collection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.Count](/windows/winui/api/microsoft.ui.composition.interactions.compositioninteractionsourcecollection.count) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The number of interaction sources in the collection.

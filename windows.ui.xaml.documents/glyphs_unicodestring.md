@@ -12,7 +12,7 @@ public string UnicodeString { get;  set; }
 ## -description
 Gets or sets the Unicode string to render in glyphs.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Glyphs.UnicodeString](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.unicodestring) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

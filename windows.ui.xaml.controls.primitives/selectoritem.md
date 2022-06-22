@@ -12,7 +12,7 @@ public class SelectorItem : Windows.UI.Xaml.Controls.ContentControl, Windows.UI.
 ## -description
 Provides a base class for item types in a selection control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.SelectorItem](/windows/winui/api/microsoft.ui.xaml.controls.primitives.selectoritem) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 SelectorItem is a companion base class to the [Selector](selector.md) base class. Basically SelectorItem is the shared base class for all the specialized items that are the item type of various [Selector](selector.md) controls. For example, [ListBox](../windows.ui.xaml.controls/listbox.md) is a [Selector](selector.md) subclass, and its [ListBoxItem](../windows.ui.xaml.controls/listboxitem.md) item type is a SelectorItem subclass.

@@ -12,7 +12,7 @@ public float RightInsetScale { get;  set; }
 ## -description
 Scale to be applied to RightInset. Defaults to 1.0f.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionNineGridBrush.RightInsetScale](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.rightinsetscale) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 Scale to be applied to RightInset. Defaults to 1.0f.

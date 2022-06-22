@@ -12,7 +12,7 @@ public string DisplayMemberPath { get;  set; }
 ## -description
 Gets or sets the name or path of the property that is displayed for each data item
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.DisplayMemberPath](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.displaymemberpath) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The name or path of the property that is displayed for each the data item in the control. The default is an empty string ("").

@@ -14,7 +14,7 @@ public enum CompositionMappingMode : int
 
 Defines constants that specify whether the gradient brush's positioning coordinates (StartPoint, EndPoint) are absolute or relative to the output area.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionMappingMode](/windows/winui/api/microsoft.ui.composition.compositionmappingmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -enum-fields
 ### -field Relative:1

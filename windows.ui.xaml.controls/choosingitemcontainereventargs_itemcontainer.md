@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Primitives.SelectorItem ItemContainer { get;  se
 ## -description
 Gets or sets the UI container that will be used to display the current data item.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.ItemContainer](/windows/winui/api/microsoft.ui.xaml.controls.choosingitemcontainereventargs.itemcontainer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The UI container that will be used to display the current data item.

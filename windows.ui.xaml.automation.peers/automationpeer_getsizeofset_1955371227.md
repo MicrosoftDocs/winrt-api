@@ -12,7 +12,7 @@ public int GetSizeOfSet()
 ## -description
 Returns the 1-based integer for the size of the set where the element that is associated with the automation peer is located.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetSizeOfSet](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getsizeofset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 The 1-based integer for the size of the set.

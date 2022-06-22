@@ -12,7 +12,7 @@ public string DropEffect { get; }
 ## -description
 Gets a string that indicates what will happen when the item is dropped.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.IDragProvider.DropEffect](/windows/winui/api/microsoft.ui.xaml.automation.provider.idragprovider.dropeffect) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 A string that indicates what will happen when the item is dropped.

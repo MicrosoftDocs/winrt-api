@@ -13,7 +13,7 @@ public SceneLightingEffectReflectanceModel ReflectanceModel { get;  set; }
 
 Gets or sets a value that indicates how the reflectance of a [SceneLightingEffect](scenelightingeffect.md) is modeled.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Effects.SceneLightingEffect.ReflectanceModel](/windows/winui/api/microsoft.ui.composition.effects.scenelightingeffect.reflectancemodel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public event Windows.Foundation.Collections.VectorChangedEventHandler VectorChan
 ## -description
 Occurs when the items list of the collection has changed, or the collection is reset.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemCollection.VectorChanged](/windows/winui/api/microsoft.ui.xaml.controls.itemcollection.vectorchanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty ControlTypeProperty { get; 
 ## -description
 Identifies the control type automation property. The control type property value is returned by the [GetAutomationControlType](../windows.ui.xaml.automation.peers/automationpeer_getautomationcontroltype_1156384152.md) method.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.ControlTypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.controltypeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The automation property identifier.

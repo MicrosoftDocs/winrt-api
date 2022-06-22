@@ -13,7 +13,7 @@ public string InitialValueExpressionCollection.Lookup(String key)
 
 Retrieves the item associated with the specified key.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.InitialValueExpressionCollection.Lookup](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.lookup) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 

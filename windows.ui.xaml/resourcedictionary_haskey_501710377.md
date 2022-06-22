@@ -12,7 +12,7 @@ public bool HasKey(System.Object key)
 ## -description
 Returns whether the [ResourceDictionary](resourcedictionary.md) has an entry with the requested key.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ResourceDictionary.HasKey](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.haskey) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param key

@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.Controls.TextControlPasteEventHandler Paste
 ## -description
 Occurs when text is pasted into the control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.PasswordBox.Paste](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.paste) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

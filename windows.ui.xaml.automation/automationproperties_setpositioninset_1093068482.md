@@ -12,7 +12,7 @@ public void SetPositionInSet(Windows.UI.Xaml.DependencyObject element, System.In
 ## -description
 Sets the value of the [AutomationProperties.PositionInSet](automationproperties_positioninset.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetPositionInSet](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setpositioninset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param element

@@ -13,7 +13,7 @@ public bool CompositionStrokeDashArray.IndexOf(Single value, UInt32 index)
 
 Retrieves the index of the specified item.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionStrokeDashArray.IndexOf](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.indexof) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param value

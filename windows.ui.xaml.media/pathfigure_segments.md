@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.PathSegmentCollection Segments { get;  set; }
 ## -description
 Gets or sets the collection of segments that define the shape of this [PathFigure](pathfigure.md) object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.PathFigure.Segments](/windows/winui/api/microsoft.ui.xaml.media.pathfigure.segments) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

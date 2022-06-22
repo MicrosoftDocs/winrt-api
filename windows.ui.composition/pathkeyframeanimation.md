@@ -17,7 +17,7 @@ public class PathKeyFrameAnimation : KeyFrameAnimation, KeyFrameAnimation
 Represents a time-based animation with one or more key frames where each key frame value is represented by a
 [CompositionPath](compositionpath.md). The easing specifies the interopolation between paths.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.PathKeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.pathkeyframeanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

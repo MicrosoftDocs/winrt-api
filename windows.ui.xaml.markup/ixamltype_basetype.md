@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Markup.IXamlType BaseType { get; }
 ## -description
 Gets the [IXamlType](ixamltype.md) for the immediate base type of the XAML type. Determination of this value is based on the underlying type for core types.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.IXamlType.BaseType](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.basetype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The [IXamlType](ixamltype.md) for the immediate base type of the XAML type.

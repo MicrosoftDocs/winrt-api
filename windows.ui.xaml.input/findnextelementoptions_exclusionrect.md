@@ -12,7 +12,7 @@ public Rect ExclusionRect { get;  set; }
 ## -description
 Gets or sets a bounding rectangle where all overlapping navigation candidates are excluded from navigation focus.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.FindNextElementOptions.ExclusionRect](/windows/winui/api/microsoft.ui.xaml.input.findnextelementoptions.exclusionrect) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The bounding rectangle.

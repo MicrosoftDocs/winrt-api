@@ -12,7 +12,7 @@ public Windows.UI.Composition.ContainerVisual CreateContainerVisual()
 ## -description
 Creates an instance of [ContainerVisual](containervisual.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateContainerVisual](/windows/winui/api/microsoft.ui.composition.compositor.createcontainervisual) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 Returns the created [ContainerVisual](containervisual.md) object.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.CornerRadius CornerRadius { get;  set; }
 ## -description
 Gets or sets the radius for the corners of the border.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Border.CornerRadius](/windows/winui/api/microsoft.ui.xaml.controls.border.cornerradius) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

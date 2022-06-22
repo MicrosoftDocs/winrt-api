@@ -14,7 +14,7 @@ public UIElementWeakCollection Receivers { get; }
 
 Gets a collection of UI elements that this ThemeShadow is cast on.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.ThemeShadow.Receivers](/windows/winui/api/microsoft.ui.xaml.media.themeshadow.receivers) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

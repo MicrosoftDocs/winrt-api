@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler TextCompositionStarted<Windows
 
 Occurs when a user starts composing text through an Input Method Editor (IME).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.TextCompositionStarted](/windows/winui/api/microsoft.ui.xaml.controls.textbox.textcompositionstarted) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

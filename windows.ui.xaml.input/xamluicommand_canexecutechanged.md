@@ -14,7 +14,7 @@ public event EventHandler CanExecuteChanged<object>
 
 Occurs whenever something happens that affects whether the command can execute.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.XamlUICommand.CanExecuteChanged](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.canexecutechanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

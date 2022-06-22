@@ -12,7 +12,6 @@ public enum Windows.UI.Xaml.Controls.Primitives.PlacementMode : int
 ## -description
 Defines constants that specify the preferred location for positioning a [ToolTip](../windows.ui.xaml.controls/tooltip.md) relative to a visual element.
 
-Equivalent **WinUI 2 API for UWP**: [PlacementMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.placementmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -xaml-syntax
 ```xaml

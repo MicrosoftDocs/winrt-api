@@ -12,7 +12,7 @@ public bool IsEqual(Windows.UI.Text.ITextCharacterFormat format)
 ## -description
 Determines whether this character format object has the same properties as the specified character format object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextCharacterFormat.IsEqual](/windows/winui/api/microsoft.ui.text.itextcharacterformat.isequal) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param format

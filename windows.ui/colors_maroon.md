@@ -13,7 +13,7 @@ public Windows.UI.Color Maroon { get; }
 
 Gets the system-defined color that has an ARGB value of #FF800000.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.Maroon](/windows/winui/api/microsoft.ui.colors.maroon) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

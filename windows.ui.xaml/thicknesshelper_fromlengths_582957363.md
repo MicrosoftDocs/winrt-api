@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Thickness FromLengths(System.Double left, System.Double t
 
 Creates a [Thickness](thickness.md) value based on element values. C# and Microsoft Visual Basic code should use the [Thickness(Double,Double,Double,Double)](/dotnet/api/windows.ui.xaml.gridlength.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_GridLength__ctor_System_Double_Windows_UI_Xaml_GridUnitType_) constructor instead.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.ThicknessHelper.FromLengths](/windows/winui/api/microsoft.ui.xaml.thicknesshelper.fromlengths) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 

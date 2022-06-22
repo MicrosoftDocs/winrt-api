@@ -12,7 +12,7 @@ public class Vector2KeyFrameAnimation : Windows.UI.Composition.KeyFrameAnimation
 ## -description
 A time-based animation that targets any Vector2-based property with one or more key frames.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Vector2KeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.vector2keyframeanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CanGoBackProperty { get; }
 ## -description
 Identifies the [CanGoBack](frame_cangoback.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Frame.CanGoBackProperty](/windows/winui/api/microsoft.ui.xaml.controls.frame.cangobackproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [CanGoBack](frame_cangoback.md) dependency property.

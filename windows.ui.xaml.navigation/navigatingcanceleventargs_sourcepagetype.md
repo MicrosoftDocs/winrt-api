@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.TypeName SourcePageType { get; }
 ## -description
 Gets the value of the *SourcePageType* parameter from the originating [Navigate](../windows.ui.xaml.controls/frame_navigate_1426351961.md) call.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Navigation.NavigatingCancelEventArgs.SourcePageType](/windows/winui/api/microsoft.ui.xaml.navigation.navigatingcanceleventargs.sourcepagetype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The value of the *SourcePageType* parameter from the originating [Navigate](../windows.ui.xaml.controls/frame_navigate_1426351961.md) call, as a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).

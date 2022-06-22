@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty RightOfProperty { get; }
 ## -description
 Identifies the [RelativePanel.RightOf](relativepanel_rightof.md) XAML attached property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.RightOfProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.rightofproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [RelativePanel.RightOf](relativepanel_rightof.md) XAML attached property.

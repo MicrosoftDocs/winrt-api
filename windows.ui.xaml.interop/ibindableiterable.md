@@ -15,7 +15,7 @@ Extends [IIterable](../windows.foundation.collections/iiterable_1.md) to enable 
 > **.NET**
 > This interface appears as [System.Collections.IEnumerable](/dotnet/api/system.collections.ienumerable?view=dotnet-uwp-10.0&preserve-view=true).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.IBindableIterable](/windows/winui/api/microsoft.ui.xaml.interop.ibindableiterable) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 When programming with .NET, this interface is hidden and developers should use the [System.Collections.IEnumerable](/dotnet/api/system.collections.ienumerable?view=dotnet-uwp-10.0&preserve-view=true) interface.

@@ -12,7 +12,7 @@ public bool GetStylisticSet13(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [StylisticSet13](typography_stylisticset13.md) attached property for a specified dependency object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.GetStylisticSet13](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstylisticset13) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param element

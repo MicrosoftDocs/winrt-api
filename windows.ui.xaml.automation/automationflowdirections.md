@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.AutomationFlowDirections : int
 ## -description
 Defines the direction of flow.
 
-Equivalent **WinUI 2 API for UWP**: [AutomationFlowDirections](/windows/winui/api/microsoft.ui.xaml.automation.automationflowdirections) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -enum-fields
 ### -field Default:0

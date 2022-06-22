@@ -12,7 +12,7 @@ public enum Windows.UI.Composition.AnimationStopBehavior : int
 ## -description
 Specifies the behavior of an animation when it stops.
 
-Equivalent **WinUI 2 API for UWP**: [AnimationStopBehavior](/windows/winui/api/microsoft.ui.composition.animationstopbehavior) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -enum-fields
 ### -field LeaveCurrentValue:0

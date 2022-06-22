@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Style TextBoxStyle { get;  set; }
 ## -description
 Gets or sets the style of the auto-suggest text box.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.TextBoxStyle](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.textboxstyle) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

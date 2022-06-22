@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerWheelChanged
 
 Occurs when the delta value of a pointer wheel changes.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.PointerWheelChanged](/windows/winui/api/microsoft.ui.xaml.uielement.pointerwheelchanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

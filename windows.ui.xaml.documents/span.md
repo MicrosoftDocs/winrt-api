@@ -12,7 +12,7 @@ public class Span : Windows.UI.Xaml.Documents.Inline, Windows.UI.Xaml.Documents.
 ## -description
 Groups other [Inline](inline.md) content elements. Parent class for [Bold](bold.md), [Hyperlink](hyperlink.md), [Italic](italic.md) and [Underline](underline.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Span](/windows/winui/api/microsoft.ui.xaml.documents.span) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

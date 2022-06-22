@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler AccessKeyInvoked<Windows.UI.Xa
 
 Occurs when a user completes an access key sequence.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.AccessKeyInvoked](/windows/winui/api/microsoft.ui.xaml.uielement.accesskeyinvoked) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

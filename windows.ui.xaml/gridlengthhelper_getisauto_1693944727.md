@@ -12,7 +12,7 @@ public bool GetIsAuto(Windows.UI.Xaml.GridLength target)
 ## -description
 Returns whether the evaluated [GridLength](gridlength.md) is the special "Auto" value. C# and Microsoft Visual Basic code should use [GridLength.IsAuto](/dotnet/api/windows.ui.xaml.gridlength.auto?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.GridLengthHelper.GetIsAuto](/windows/winui/api/microsoft.ui.xaml.gridlengthhelper.getisauto) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param target

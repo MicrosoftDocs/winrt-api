@@ -12,7 +12,7 @@ public float UndefinedFloatValue { get; }
 ## -description
 Gets the undefined floating-point value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.TextConstants.UndefinedFloatValue](/windows/winui/api/microsoft.ui.text.textconstants.undefinedfloatvalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The undefined floating-point value.

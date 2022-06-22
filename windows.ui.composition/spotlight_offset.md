@@ -12,7 +12,7 @@ public Windows.Foundation.Numerics.Vector3 Offset { get;  set; }
 ## -description
 Offset of the light source relative to its [CoordinateSpace](spotlight_coordinatespace.md) Visual. Animatable.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpotLight.Offset](/windows/winui/api/microsoft.ui.composition.spotlight.offset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 Offset of the light source relative to its coordinate space Visual.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush DragBackground { get;  set; }
 ## -description
 Gets or sets the brush used to render the background of an item that's being dragged.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragBackground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.dragbackground) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

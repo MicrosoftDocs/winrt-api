@@ -14,7 +14,7 @@ public enum SceneAttributeSemantic : int
 
 Defines constants that specify scene attribute semantics.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Scenes.SceneAttributeSemantic](/windows/winui/api/microsoft.ui.composition.scenes.sceneattributesemantic) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -enum-fields
 

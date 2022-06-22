@@ -13,7 +13,7 @@ public uint CompositionColorGradientStopCollection.GetMany(UInt32 startIndex, Co
 
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.GetMany](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.getmany) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param startIndex

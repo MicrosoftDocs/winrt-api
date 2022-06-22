@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsDynamicOverflowEnabledProperty { get
 ## -description
 Identifies the [IsDynamicOverflowEnabled](commandbar_isdynamicoverflowenabled.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CommandBar.IsDynamicOverflowEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.isdynamicoverflowenabledproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [IsDynamicOverflowEnabled](commandbar_isdynamicoverflowenabled.md) dependency property.

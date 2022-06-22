@@ -12,7 +12,7 @@ public string GetText(System.Int32 maxLength)
 ## -description
 Retrieves the plain text of the range.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.GetText](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.gettext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param maxLength

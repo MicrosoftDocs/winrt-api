@@ -13,7 +13,7 @@ public struct Duration
 
 Represents the duration of time that a [Timeline](../windows.ui.xaml.media.animation/timeline.md) is active, or more generally represents a duration of time that also supports two special values **Automatic** and **Forever**.
 
-Equivalent **WinUI 2 API for UWP**: [Duration](/windows/winui/api/microsoft.ui.xaml.duration) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

@@ -12,7 +12,7 @@ public Windows.Foundation.Rect Bounds { get; }
 ## -description
 Gets the [Rect](../windows.foundation/rect.md) that defines the size and location of the Input Method Editor (IME) window, in the coordinate space of the text edit control.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CandidateWindowBoundsChangedEventArgs.Bounds](/windows/winui/api/microsoft.ui.xaml.controls.candidatewindowboundschangedeventargs.bounds) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The [Rect](../windows.foundation/rect.md) that defines the size and location of the Input Method Editor (IME) window

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush OutOfScopeBackground { get;  set; }
 ## -description
 Gets or sets a brush that provides the background of a date that's out of scope.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarView.OutOfScopeBackground](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.outofscopebackground) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

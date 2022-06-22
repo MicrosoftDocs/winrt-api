@@ -14,7 +14,7 @@ Tries to update the [InteractionTracker](interactiontracker.md)'s position by ad
 
 The TryUpdatePositionWithAdditionalVelocity method adds the input Vector3 representing additional velocity to the current velocity of [InteractionTracker](interactiontracker.md). As a result, because the velocity of [InteractionTracker](interactiontracker.md) has now changed, the targeted rest position for [InteractionTracker](interactiontracker.md) now changes. TryUpdatePositionWithAdditionalVelocity can be called from either Idle, Inertia or CustomAnimation states – doing so will either add or update the velocity of [InteractionTracker](interactiontracker.md) and enter the Inertia state.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.InteractionTracker.TryUpdatePositionWithAdditionalVelocity](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.tryupdatepositionwithadditionalvelocity) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param velocityInPixelsPerSecond

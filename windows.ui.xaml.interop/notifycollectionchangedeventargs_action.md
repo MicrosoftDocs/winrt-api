@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.NotifyCollectionChangedAction Action { get; }
 ## -description
 Gets the description of the action that caused the event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs.Action](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs.action) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The description of the action that caused the event, as a value of the enumeration.

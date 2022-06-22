@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CurrentSourcePageTypeProperty { get; }
 ## -description
 Identifies the [CurrentSourcePageType](frame_currentsourcepagetype.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Frame.CurrentSourcePageTypeProperty](/windows/winui/api/microsoft.ui.xaml.controls.frame.currentsourcepagetypeproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [CurrentSourcePageType](frame_currentsourcepagetype.md) dependency property.

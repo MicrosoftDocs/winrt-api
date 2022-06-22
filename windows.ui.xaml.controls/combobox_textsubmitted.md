@@ -13,7 +13,7 @@ public event TypedEventHandler TextSubmitted<ComboBox, ComboBoxTextSubmittedEven
 ## -description
 Occurs when the user submits some text that does not correspond to an item in the ComboBox dropdown list.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ComboBox.TextSubmitted](/windows/winui/api/microsoft.ui.xaml.controls.combobox.textsubmitted) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

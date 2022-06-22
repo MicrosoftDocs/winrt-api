@@ -12,7 +12,7 @@ public void Copy()
 ## -description
 Copies the text of the text range to the Clipboard.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.Copy](/windows/winui/api/microsoft.ui.text.itextrange.copy) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 > [!NOTE]

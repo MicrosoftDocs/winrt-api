@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AlignHorizontalCenterWithProperty { ge
 ## -description
 Gets the value of the [RelativePanel.AlignHorizontalCenterWith](relativepanel_alignhorizontalcenterwith.md) XAML attached property for the target element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RelativePanel.AlignHorizontalCenterWithProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.alignhorizontalcenterwithproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [RelativePanel.AlignHorizontalCenterWith](relativepanel_alignhorizontalcenterwith.md) XAML attached property.

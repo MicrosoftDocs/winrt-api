@@ -13,7 +13,7 @@ public Windows.UI.Color LightGreen { get; }
 
 Gets the system-defined color that has an ARGB value of #FF90EE90.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.LightGreen](/windows/winui/api/microsoft.ui.colors.lightgreen) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

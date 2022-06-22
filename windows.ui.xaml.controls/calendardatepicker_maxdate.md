@@ -12,7 +12,7 @@ public Windows.Foundation.DateTime MaxDate { get;  set; }
 ## -description
 Gets or sets the latest date that can be set in the picker.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.MaxDate](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.maxdate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The latest date that can be set.

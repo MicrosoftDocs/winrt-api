@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.CandidateWindowAlignment : int
 ## -description
 Defines constants that specify how the Input Method Editor (IME) window for text predictions is aligned with a text edit control.
 
-Equivalent **WinUI 2 API for UWP**: [CandidateWindowAlignment](/windows/winui/api/microsoft.ui.xaml.controls.candidatewindowalignment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

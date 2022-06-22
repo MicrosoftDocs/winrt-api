@@ -12,7 +12,7 @@ public class HubSectionHeaderClickEventArgs : Windows.UI.Xaml.Controls.IHubSecti
 ## -description
 Provides data for the [Hub.SectionHeaderClick](hub_sectionheaderclick.md) event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.HubSectionHeaderClickEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.hubsectionheaderclickeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

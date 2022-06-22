@@ -13,7 +13,7 @@ public class Vector2NaturalMotionAnimation : NaturalMotionAnimation, NaturalMoti
 
 The base Vector2 NaturalMotionAnimation used to target a Vector2 property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Vector2NaturalMotionAnimation](/windows/winui/api/microsoft.ui.composition.vector2naturalmotionanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

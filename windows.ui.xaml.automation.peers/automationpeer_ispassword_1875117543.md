@@ -12,7 +12,6 @@ public bool IsPassword()
 ## -description
 Gets a value that indicates whether the element contains sensitive content.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsPassword](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.ispassword) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -returns
 **true** if the element contains sensitive content such as a password; otherwise, **false**.

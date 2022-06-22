@@ -12,7 +12,7 @@ public event Windows.Foundation.EventHandler LayoutUpdated<object>
 ## -description
 Occurs when the layout of the visual tree changes, due to layout-relevant properties changing value or some other action that refreshes the layout.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.LayoutUpdated](/windows/winui/api/microsoft.ui.xaml.frameworkelement.layoutupdated) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

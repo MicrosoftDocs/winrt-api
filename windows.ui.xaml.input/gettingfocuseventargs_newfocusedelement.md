@@ -13,7 +13,7 @@ public DependencyObject NewFocusedElement { get;  set; }
 
 Gets the most recent focused object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.NewFocusedElement](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.newfocusedelement) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

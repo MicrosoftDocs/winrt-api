@@ -12,7 +12,7 @@ public class CompositionNineGridBrush : Windows.UI.Composition.CompositionBrush,
 ## -description
 Paints a [SpriteVisual](spritevisual.md) with a CompositionBrush after applying Nine-Grid Stretching to the contents of the Source brush. The source of the nine-grid stretch can by any CompositionBrush of type CompositionColorBrush, CompositionSurfaceBrush or a CompositionEffectBrush.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionNineGridBrush](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 Nine-Grid stretching refers to the partitioning of visual content (the content of the source brush to be painted onto a [SpriteVisual](spritevisual.md)) into a grid of nine rectangles such that the sizes of the corner rectangles are preserved upon resizing, as shown in the diagram below:

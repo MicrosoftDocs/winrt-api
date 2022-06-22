@@ -12,7 +12,6 @@ public enum Windows.UI.Xaml.Controls.ScrollIntoViewAlignment : int
 ## -description
 Defines constants that describe how an item that is programmatically scrolled into view aligns with the visible area.
 
-Equivalent **WinUI 2 API for UWP**: [ScrollIntoViewAlignment](/windows/winui/api/microsoft.ui.xaml.controls.scrollintoviewalignment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -enum-fields
 ### -field Default:0

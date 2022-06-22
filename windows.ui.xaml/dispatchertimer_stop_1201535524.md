@@ -12,7 +12,7 @@ public void Stop()
 ## -description
 Stops the [DispatcherTimer](dispatchertimer.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DispatcherTimer.Stop](/windows/winui/api/microsoft.ui.xaml.dispatchertimer.stop) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 If Stop is called when the timer interval has just elapsed, it's possible that the timer already queued a Tick event. This event will still be raised.

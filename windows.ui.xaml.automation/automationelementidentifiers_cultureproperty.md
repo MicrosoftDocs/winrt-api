@@ -12,7 +12,7 @@ public AutomationProperty CultureProperty { get; }
 ## -description
 Identifies the Culture property, which contains a locale identifier for the automation element (for example, 0x0409 for "en-US" or English (United States)).  
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.CultureProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.cultureproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The culture property identifier.  

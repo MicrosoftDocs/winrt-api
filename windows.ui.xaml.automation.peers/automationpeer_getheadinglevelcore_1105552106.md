@@ -12,7 +12,7 @@ virtual protected AutomationHeadingLevel AutomationPeer.GetHeadingLevelCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetHeadingLevel](automationpeer_getheadinglevel_1176568834.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetHeadingLevelCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getheadinglevelcore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 The heading level.

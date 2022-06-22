@@ -12,7 +12,7 @@ public Vector3 Position { get; }
 ## -description
 The total amount of position change since the start of the interaction. Defaults to 0. Readable only via expression/animation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Interactions.VisualInteractionSource.Position](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsource.position) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The position of the interaction source.

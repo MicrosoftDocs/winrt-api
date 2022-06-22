@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.PivotSlideInAnimationGroup : int
 ## -description
 Defines constants that specify the different slide-in animation groups that [Pivot](pivot.md) elements can belong to.
 
-Equivalent **WinUI 2 API for UWP**: [PivotSlideInAnimationGroup](/windows/winui/api/microsoft.ui.xaml.controls.pivotslideinanimationgroup) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -enum-fields
 ### -field Default:0

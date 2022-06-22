@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectedForegroundProperty { get; }
 ## -description
 Identifies the [SelectedForeground](listviewitempresenter_selectedforeground.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.selectedforegroundproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [SelectedForeground](listviewitempresenter_selectedforeground.md) dependency property.

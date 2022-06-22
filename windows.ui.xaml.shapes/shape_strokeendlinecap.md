@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.PenLineCap StrokeEndLineCap { get;  set; }
 ## -description
 Gets or sets a [PenLineCap](../windows.ui.xaml.media/penlinecap.md) enumeration value that describes the [Shape](shape.md) at the end of a line.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Shape.StrokeEndLineCap](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokeendlinecap) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

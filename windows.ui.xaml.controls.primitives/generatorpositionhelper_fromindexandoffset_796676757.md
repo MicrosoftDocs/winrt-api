@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Primitives.GeneratorPosition FromIndexAndOffset(
 ## -description
 Creates a [GeneratorPosition](generatorposition.md) value using provided values for index and offset. C# and Microsoft Visual Basic code should use [GeneratorPosition(Int32,Int32)](/dotnet/api/windows.ui.xaml.controls.primitives.generatorposition.-ctor) instead.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.GeneratorPositionHelper.FromIndexAndOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.generatorpositionhelper.fromindexandoffset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param index

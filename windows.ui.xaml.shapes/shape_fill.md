@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush Fill { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that paints the interior area of the shape.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Shape.Fill](/windows/winui/api/microsoft.ui.xaml.shapes.shape.fill) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

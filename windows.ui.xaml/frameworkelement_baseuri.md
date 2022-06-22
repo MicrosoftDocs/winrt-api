@@ -12,7 +12,7 @@ public Windows.Foundation.Uri BaseUri { get; }
 ## -description
 Gets a Uniform Resource Identifier (URI) that represents the base Uniform Resource Identifier (URI) for an XAML-constructed object at XAML load time. This property is useful for Uniform Resource Identifier (URI) resolution at run time.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkElement.BaseUri](/windows/winui/api/microsoft.ui.xaml.frameworkelement.baseuri) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The base Uniform Resource Identifier (URI) for an object at XAML load time.

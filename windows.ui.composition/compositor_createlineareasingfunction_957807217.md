@@ -12,7 +12,7 @@ public Windows.UI.Composition.LinearEasingFunction CreateLinearEasingFunction()
 ## -description
 Creates an instance of [LinearEasingFunction](lineareasingfunction.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Compositor.CreateLinearEasingFunction](/windows/winui/api/microsoft.ui.composition.compositor.createlineareasingfunction) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 Returns the created [LinearEasingFunction](lineareasingfunction.md) object.

@@ -12,7 +12,7 @@ public Windows.UI.Color UndefinedColor { get; }
 ## -description
 Gets the undefined color value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.TextConstants.UndefinedColor](/windows/winui/api/microsoft.ui.text.textconstants.undefinedcolor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The undefined color.

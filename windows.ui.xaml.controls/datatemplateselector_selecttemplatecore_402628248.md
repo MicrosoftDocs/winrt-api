@@ -12,7 +12,7 @@ virtual protected Windows.UI.Xaml.DataTemplate SelectTemplateCore(System.Object 
 ## -description
 When implemented by a derived class, returns a specific [DataTemplate](../windows.ui.xaml/datatemplate.md) for a given item or container.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DataTemplateSelector.SelectTemplateCore](/windows/winui/api/microsoft.ui.xaml.controls.datatemplateselector.selecttemplatecore) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param item

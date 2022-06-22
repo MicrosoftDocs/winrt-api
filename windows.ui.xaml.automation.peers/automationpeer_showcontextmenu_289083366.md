@@ -12,7 +12,7 @@ public void ShowContextMenu()
 ## -description
 Shows the available context menu for the owner element.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.ShowContextMenu](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.showcontextmenu) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 Calling ShowContextMenu throws an error if a context menu cannot be shown. If no context menu is available directly on the element on which it was invoked, the Microsoft UI Automation logic implemented by a provider should attempt to show a context menu for the Microsoft UI Automation tree parent of the element.

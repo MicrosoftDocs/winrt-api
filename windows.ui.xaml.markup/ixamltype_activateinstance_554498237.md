@@ -12,7 +12,7 @@ public object ActivateInstance()
 ## -description
 Given a XAML type, sets its values for initialization and returns a usable instance.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.IXamlType.ActivateInstance](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.activateinstance) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 The usable instance.

@@ -12,7 +12,7 @@ public float LeftIndent { get; }
 ## -description
 Gets the amount used to indent all lines except the first line of a paragraph.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.LeftIndent](/windows/winui/api/microsoft.ui.text.itextparagraphformat.leftindent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The amount of left indentation, in floating-point points. Indentation is relative to the left margin.

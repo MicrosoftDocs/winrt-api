@@ -12,7 +12,7 @@ public int ItemIndex { get; }
 ## -description
 Gets the index in the [ItemsSource](itemscontrol_itemssource.md) of the data item for which a container is being selected.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.ItemIndex](/windows/winui/api/microsoft.ui.xaml.controls.choosingitemcontainereventargs.itemindex) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The index in the [ItemsSource](itemscontrol_itemssource.md) of the data item for which a container is being selected.

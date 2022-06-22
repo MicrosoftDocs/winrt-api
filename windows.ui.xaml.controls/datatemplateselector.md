@@ -12,7 +12,7 @@ public class DataTemplateSelector : Windows.UI.Xaml.Controls.IDataTemplateSelect
 ## -description
 Enables custom template selection logic at the application level.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DataTemplateSelector](/windows/winui/api/microsoft.ui.xaml.controls.datatemplateselector) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

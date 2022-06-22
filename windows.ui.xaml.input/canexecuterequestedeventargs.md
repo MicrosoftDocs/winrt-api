@@ -14,7 +14,7 @@ public class CanExecuteRequestedEventArgs
 
 Provides event data for the [CanExecuteRequested](xamluicommand_canexecuterequested.md) event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Input.CanExecuteRequestedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.canexecuterequestedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

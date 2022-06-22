@@ -12,7 +12,7 @@ public interface INavigate :
 ## -description
 Defines the navigation action for navigation hosts and navigation initiators.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.INavigate](/windows/winui/api/microsoft.ui.xaml.controls.inavigate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 This interface is mainly infrastructure. It's not expected that typical UWP app will implement this interface. Most apps would use [Page](page.md) and [Frame](frame.md) for their navigation structure instead. The Visual Studio templates create this navigation structure for you both for apps/projects and for items/pages.

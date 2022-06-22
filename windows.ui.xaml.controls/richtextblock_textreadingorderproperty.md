@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TextReadingOrderProperty { get; }
 ## -description
 Identifies the [TextReadingOrder](richtextblock_textreadingorder.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextReadingOrderProperty](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.textreadingorderproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [TextReadingOrder](richtextblock_textreadingorder.md) dependency property.

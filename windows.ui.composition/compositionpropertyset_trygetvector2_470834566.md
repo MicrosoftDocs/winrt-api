@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionGetValueStatus TryGetVector2(System.Str
 ## -description
 Retrieves the specified [Vector2](../windows.foundation.numerics/vector2.md) property value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionPropertySet.TryGetVector2](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.trygetvector2) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param propertyName

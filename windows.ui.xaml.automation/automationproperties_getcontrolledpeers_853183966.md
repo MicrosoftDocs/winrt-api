@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.UIElement> GetCont
 ## -description
 A static utility method that retrieves the list of controlled peers from a target owner.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetControlledPeers](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getcontrolledpeers) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param element

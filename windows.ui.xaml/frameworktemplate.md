@@ -12,7 +12,7 @@ public class FrameworkTemplate : Windows.UI.Xaml.DependencyObject, Windows.UI.Xa
 ## -description
 Creates an element tree of elements. FrameworkTemplate is a base class for classes that have specific templating behavior, including [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md) and [DataTemplate](datatemplate.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.FrameworkTemplate](/windows/winui/api/microsoft.ui.xaml.frameworktemplate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 FrameworkTemplate has a [ContentPropertyAttribute](../windows.ui.xaml.markup/contentpropertyattribute.md) that indicates that its XAML content property is named "Template". FrameworkTemplate doesn't define a property of that name, nor do its derived types that have a practical usage ([ControlTemplate](../windows.ui.xaml.controls/controltemplate.md), [DataTemplate](datatemplate.md)). The content of a FrameworkTemplate is a root element that should be created when the template is applied to the object being templated, and isn't a conventional property in the object model. Content of a FrameworkTemplate is handled specially by the XAML parser when content is created from a template.

@@ -13,7 +13,7 @@ virtual protected IIterable<DependencyObject> UIElement.GetChildrenInTabFocusOrd
 
 Enables a [UIElement](uielement.md) subclass to expose child elements that take part in Tab focus.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.GetChildrenInTabFocusOrder](/windows/winui/api/microsoft.ui.xaml.uielement.getchildrenintabfocusorder) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 

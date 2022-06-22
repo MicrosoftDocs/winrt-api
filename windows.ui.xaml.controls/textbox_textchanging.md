@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler TextChanging<Windows.UI.Xaml.C
 
 Occurs synchronously when the text in the text box starts to change, but before it is rendered.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.TextChanging](/windows/winui/api/microsoft.ui.xaml.controls.textbox.textchanging) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

@@ -12,7 +12,7 @@ public void SetValue(Windows.UI.Xaml.DependencyProperty dp, System.Object value)
 ## -description
 Sets the local value of a dependency property on a [DependencyObject](dependencyobject.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DependencyObject.SetValue](/windows/winui/api/microsoft.ui.xaml.dependencyobject.setvalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param dp

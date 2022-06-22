@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler ContextCanceled<Windows.UI.Xam
 
 Occurs when a context input gesture continues into a manipulation gesture, to notify the element that the context flyout should not be opened.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.ContextCanceled](/windows/winui/api/microsoft.ui.xaml.uielement.contextcanceled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

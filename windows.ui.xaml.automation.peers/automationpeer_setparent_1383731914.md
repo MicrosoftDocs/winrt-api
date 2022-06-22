@@ -12,7 +12,7 @@ public void SetParent(Windows.UI.Xaml.Automation.Peers.AutomationPeer peer)
 ## -description
 Sets the [AutomationPeer](automationpeer.md) that is the parent of this [AutomationPeer](automationpeer.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.SetParent](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.setparent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param peer

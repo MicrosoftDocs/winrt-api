@@ -13,7 +13,7 @@ public void RichEditTextRange.MatchSelection()
 
 Sets the start and end positions of this range to match the active selection.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.RichEditTextRange.MatchSelection](/windows/winui/api/microsoft.ui.text.richedittextrange.matchselection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

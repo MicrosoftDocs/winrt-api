@@ -12,7 +12,7 @@ public string PlaceholderText { get;  set; }
 ## -description
 Gets or sets the text that is displayed in the control until the value is changed by a user action or some other operation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.PasswordBox.PlaceholderText](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.placeholdertext) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

@@ -14,7 +14,7 @@ public Windows.UI.Xaml.Media.SolidColorBrush SelectionHighlightColor { get;  set
 
 Gets or sets the brush used to highlight the selected text.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBlock.SelectionHighlightColor](/windows/winui/api/microsoft.ui.xaml.controls.textblock.selectionhighlightcolor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

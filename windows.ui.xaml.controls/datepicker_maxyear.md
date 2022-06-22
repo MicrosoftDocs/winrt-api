@@ -13,7 +13,7 @@ public Windows.Foundation.DateTime MaxYear { get;  set; }
 
 Gets or sets the maximum Gregorian year available for picking.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DatePicker.MaxYear](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.maxyear) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

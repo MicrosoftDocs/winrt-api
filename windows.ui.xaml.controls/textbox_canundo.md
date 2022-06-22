@@ -14,7 +14,7 @@ public bool CanUndo { get; }
 
 Gets a value that indicates whether the undo buffer contains an action that can be undone.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.CanUndo](/windows/winui/api/microsoft.ui.xaml.controls.textbox.canundo) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

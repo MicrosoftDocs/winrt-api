@@ -15,7 +15,7 @@ public Windows.UI.Xaml.VerticalAlignment GridViewItemPresenterVerticalContentAli
 
 Gets or sets the vertical alignment of the content being presented.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.GridViewItemPresenterVerticalContentAlignment](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.gridviewitempresenterverticalcontentalignment) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 A value of the enumeration.

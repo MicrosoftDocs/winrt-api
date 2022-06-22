@@ -12,7 +12,7 @@ public Windows.ApplicationModel.DataTransfer.DataPackageOperation AllowedOperati
 ## -description
 Gets the allowed data package operations (none, move, copy, and/or link) for the drag and drop operation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DragEventArgs.AllowedOperations](/windows/winui/api/microsoft.ui.xaml.drageventargs.allowedoperations) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The allowed data operations.

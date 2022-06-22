@@ -12,7 +12,7 @@ public class PointLight : Windows.UI.Composition.CompositionLight, Windows.UI.Co
 ## -description
 A point source of light that emanates light in all directions.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.PointLight](/windows/winui/api/microsoft.ui.composition.pointlight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 A PointLight gives off light equally in all directions.

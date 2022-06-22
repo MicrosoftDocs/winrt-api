@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler Closing<Windows.UI.Xaml.Contro
 ## -description
 Occurs when the flyout starts to be hidden.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Closing](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.closing) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

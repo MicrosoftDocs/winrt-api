@@ -12,7 +12,7 @@ public bool Visible { get; }
 ## -description
 Gets a value that reports whether the window is visible.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Window.Visible](/windows/winui/api/microsoft.ui.xaml.window.visible) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 **true** if the window is visible; **false** if the window is not visible.

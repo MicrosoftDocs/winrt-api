@@ -12,7 +12,7 @@ public double StandardFlatteningTolerance { get; }
 ## -description
 Gets the standard tolerance used for polygonal approximation.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Geometry.StandardFlatteningTolerance](/windows/winui/api/microsoft.ui.xaml.media.geometry.standardflatteningtolerance) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The standard tolerance. The default value is 0.25.

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.AppBarClosedDisplayMode : int
 ## -description
 Defines constants that specify whether icon buttons are displayed when an app bar is not completely open.
 
-Equivalent **WinUI 2 API for UWP**: [AppBarClosedDisplayMode](/windows/winui/api/microsoft.ui.xaml.controls.appbarcloseddisplaymode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

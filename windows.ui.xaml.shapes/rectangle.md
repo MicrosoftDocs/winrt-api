@@ -12,7 +12,7 @@ public class Rectangle : Windows.UI.Xaml.Shapes.Shape, Windows.UI.Xaml.Shapes.IR
 ## -description
 Draws a rectangle with a given [Height](../windows.ui.xaml/frameworkelement_height.md) and [Width](../windows.ui.xaml/frameworkelement_width.md) specified in device-independent pixel (DIP).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Shapes.Rectangle](/windows/winui/api/microsoft.ui.xaml.shapes.rectangle) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

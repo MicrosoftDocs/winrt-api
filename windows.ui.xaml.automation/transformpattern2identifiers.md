@@ -12,7 +12,7 @@ public class TransformPattern2Identifiers : Windows.UI.Xaml.Automation.ITransfor
 ## -description
 Contains values used as identifiers by [ITransformProvider2](../windows.ui.xaml.automation.provider/itransformprovider2.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.TransformPattern2Identifiers](/windows/winui/api/microsoft.ui.xaml.automation.transformpattern2identifiers) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 [ITransformProvider2](../windows.ui.xaml.automation.provider/itransformprovider2.md) extends the [ITransformProvider](../windows.ui.xaml.automation.provider/itransformprovider.md) interface to enable Microsoft UI Automation providers to expose properties to support the viewport zooming functionality of a control.

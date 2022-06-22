@@ -12,7 +12,7 @@ public SolidColorBrush SelectionHighlightColorWhenNotFocused { get;  set; }
 ## -description
 Gets or sets the brush used to highlight the selected text when the TextBox does not have focus.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextBox.SelectionHighlightColorWhenNotFocused](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectionhighlightcolorwhennotfocused) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.VisualState> State
 ## -description
 Gets the collection of mutually exclusive [VisualState](visualstate.md) objects.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.VisualStateGroup.States](/windows/winui/api/microsoft.ui.xaml.visualstategroup.states) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

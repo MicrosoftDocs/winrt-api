@@ -14,7 +14,7 @@ public double HorizontalAnchorRatio { get;  set; }
 
 Determines the horizontal position of the ScrollViewer's *anchor point* with respect to the viewport. By default, the ScrollViewer selects an element as its [CurrentAnchor](iscrollanchorprovider_currentanchor.md) by identifying the element in its viewport nearest to the anchor point.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ScrollViewer.HorizontalAnchorRatio](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.horizontalanchorratio) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

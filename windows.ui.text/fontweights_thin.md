@@ -13,7 +13,7 @@ public Windows.UI.Text.FontWeight Thin { get; }
 
 Specifies a font weight value of 100.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.FontWeights.Thin](/windows/winui/api/microsoft.ui.text.fontweights.thin) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

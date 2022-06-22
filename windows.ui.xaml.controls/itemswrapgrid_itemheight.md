@@ -12,7 +12,7 @@ public double ItemHeight { get;  set; }
 ## -description
 Gets or sets the height of the layout area for each item that is contained in an [ItemsWrapGrid](itemswrapgrid.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsWrapGrid.ItemHeight](/windows/winui/api/microsoft.ui.xaml.controls.itemswrapgrid.itemheight) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

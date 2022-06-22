@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IIterator<Windows.UI.Composition.Compositi
 ## -description
 Retrieves the first animation in the group.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionAnimationGroup.First](/windows/winui/api/microsoft.ui.composition.compositionanimationgroup.first) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 Returns the first animation in the group.

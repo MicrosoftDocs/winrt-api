@@ -12,7 +12,7 @@ public Windows.UI.Xaml.FontCapitals GetCapitals(Windows.UI.Xaml.DependencyObject
 ## -description
 Returns the value of the [Capitals](typography_capitals.md) attached property for a specified dependency object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Documents.Typography.GetCapitals](/windows/winui/api/microsoft.ui.xaml.documents.typography.getcapitals) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param element

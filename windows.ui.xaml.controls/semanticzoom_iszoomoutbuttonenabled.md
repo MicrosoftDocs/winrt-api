@@ -12,7 +12,7 @@ public bool IsZoomOutButtonEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [ZoomedInView](semanticzoom_zoomedinview.md) shows a button that activates the [ZoomedOutView](semanticzoom_zoomedoutview.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SemanticZoom.IsZoomOutButtonEnabled](/windows/winui/api/microsoft.ui.xaml.controls.semanticzoom.iszoomoutbuttonenabled) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

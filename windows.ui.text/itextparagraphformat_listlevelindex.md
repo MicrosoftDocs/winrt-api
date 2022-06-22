@@ -12,7 +12,7 @@ public int ListLevelIndex { get;  set; }
 ## -description
 Gets or sets the list level index used with paragraphs.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.ListLevelIndex](/windows/winui/api/microsoft.ui.text.itextparagraphformat.listlevelindex) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The list level index. It can be a value of 0 or higher, as described in the following table. <table>

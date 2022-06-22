@@ -12,7 +12,7 @@ virtual protected void OnManipulationCompleted(Windows.UI.Xaml.Input.Manipulatio
 ## -description
 Called before the [ManipulationCompleted](../windows.ui.xaml/uielement_manipulationcompleted.md) event occurs.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Control.OnManipulationCompleted](/windows/winui/api/microsoft.ui.xaml.controls.control.onmanipulationcompleted) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param e

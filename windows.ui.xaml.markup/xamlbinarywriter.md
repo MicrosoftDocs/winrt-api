@@ -12,7 +12,7 @@ public class XamlBinaryWriter : Windows.UI.Xaml.Markup.IXamlBinaryWriter
 ## -description
 Produces a pre-parsed binary representation of a XAML production.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Markup.XamlBinaryWriter](/windows/winui/api/microsoft.ui.xaml.markup.xamlbinarywriter) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 The binary representation of XAML uses an XBF file extension. The binary representation enables performance advantages versus loading and parsing a XAML file as text. Loading the binary representation is most useful when loading XAML files that define large resources, such as the generic.xaml files that define templates.

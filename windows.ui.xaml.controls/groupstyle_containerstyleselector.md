@@ -15,7 +15,7 @@ public Windows.UI.Xaml.Controls.StyleSelector ContainerStyleSelector { get;  set
 
 Gets or sets a reference to a custom [StyleSelector](styleselector.md) logic class. The [StyleSelector](styleselector.md) referenced by this property returns a style to apply to each generated [GroupItem](groupitem.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.GroupStyle.ContainerStyleSelector](/windows/winui/api/microsoft.ui.xaml.controls.groupstyle.containerstyleselector) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

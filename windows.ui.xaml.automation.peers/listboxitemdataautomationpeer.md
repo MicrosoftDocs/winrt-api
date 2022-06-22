@@ -12,7 +12,7 @@ public class ListBoxItemDataAutomationPeer : Windows.UI.Xaml.Automation.Peers.Se
 ## -description
 Exposes [ListBox](../windows.ui.xaml.controls/listbox.md) items to Microsoft UI Automation, using a data representation of the item so that the peer supports scrolling to that item with data awareness.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ListBoxItemDataAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.listboxitemdataautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
  ListBoxItemDataAutomationPeer is generated from [ListBoxAutomationPeer](listboxautomationpeer.md) logic, not an associated control class.

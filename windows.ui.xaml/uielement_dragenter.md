@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.DragEventHandler DragEnter
 
 Occurs when the input system reports an underlying drag event with this element as the target.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.UIElement.DragEnter](/windows/winui/api/microsoft.ui.xaml.uielement.dragenter) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 

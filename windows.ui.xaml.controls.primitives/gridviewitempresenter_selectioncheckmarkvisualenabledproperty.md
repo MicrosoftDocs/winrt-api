@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectionCheckMarkVisualEnabledPropert
 ## -description
 Identifies the [SelectionCheckMarkVisualEnabled](gridviewitempresenter_selectioncheckmarkvisualenabled.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.SelectionCheckMarkVisualEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.selectioncheckmarkvisualenabledproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [SelectionCheckMarkVisualEnabled](gridviewitempresenter_selectioncheckmarkvisualenabled.md) dependency property.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.UIElementCollection Children { get; }
 ## -description
 Gets the collection of child elements of the panel.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Panel.Children](/windows/winui/api/microsoft.ui.xaml.controls.panel.children) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

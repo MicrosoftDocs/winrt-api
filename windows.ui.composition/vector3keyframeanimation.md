@@ -12,7 +12,7 @@ public class Vector3KeyFrameAnimation : Windows.UI.Composition.KeyFrameAnimation
 ## -description
 A time-based animation that targets any Vector3-based property with one or more keyframes.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.Vector3KeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.vector3keyframeanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

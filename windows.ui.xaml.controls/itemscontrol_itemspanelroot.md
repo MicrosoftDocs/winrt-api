@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Panel ItemsPanelRoot { get; }
 ## -description
 Gets the [Panel](panel.md) specified by [ItemsPanel](itemscontrol_itemspanel.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemsPanelRoot](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemspanelroot) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The [Panel](panel.md) specified by [ItemsPanel](itemscontrol_itemspanel.md). The default is **null**.

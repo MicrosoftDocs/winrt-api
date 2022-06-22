@@ -13,7 +13,7 @@ public Windows.UI.Color DarkBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FF00008B.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Colors.DarkBlue](/windows/winui/api/microsoft.ui.colors.darkblue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 

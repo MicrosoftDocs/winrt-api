@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DragOperationDeferral GetDeferral()
 ## -description
 Supports asynchronous drag-and-drop operations by creating and returning a [DragOperationDeferral](dragoperationdeferral.md) object.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DragEventArgs.GetDeferral](/windows/winui/api/microsoft.ui.xaml.drageventargs.getdeferral) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -returns
 A deferral object that you can use to identify when the generation of the data package is complete.

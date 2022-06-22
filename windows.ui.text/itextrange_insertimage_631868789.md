@@ -12,7 +12,7 @@ public void InsertImage(System.Int32 width, System.Int32 height, System.Int32 as
 ## -description
 Inserts an image into this range.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextRange.InsertImage](/windows/winui/api/microsoft.ui.text.itextrange.insertimage) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param width

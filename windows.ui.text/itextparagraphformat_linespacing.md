@@ -12,7 +12,7 @@ public float LineSpacing { get; }
 ## -description
 Gets the paragraph line-spacing value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Text.ITextParagraphFormat.LineSpacing](/windows/winui/api/microsoft.ui.text.itextparagraphformat.linespacing) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The line spacing value. The meaning depends on the value of the [LineSpacingRule](itextparagraphformat_linespacingrule.md) property. The line spacing value is in floating-point points except when the line-spacing rule is **Multiple** or **Percent**.

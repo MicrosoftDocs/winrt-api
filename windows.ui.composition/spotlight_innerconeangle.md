@@ -12,7 +12,7 @@ public float InnerConeAngle { get;  set; }
 ## -description
 The SpotLight’s inner cone angle, expressed as a semi-vertical angle in radians. Animatable.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.SpotLight.InnerConeAngle](/windows/winui/api/microsoft.ui.composition.spotlight.innerconeangle) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The SpotLight’s inner cone angle, expressed as a semi-vertical angle in radians.

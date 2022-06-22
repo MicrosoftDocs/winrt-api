@@ -12,7 +12,7 @@ public bool EnableFrameRateCounter { get;  set; }
 ## -description
 Gets or sets a value that indicates whether to display frame-rate and per-frame CPU usage info. These display as an overlay of counters in the window chrome while the app runs.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.DebugSettings.EnableFrameRateCounter](/windows/winui/api/microsoft.ui.xaml.debugsettings.enableframeratecounter) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 **true** to display the overlay debug counters; otherwise, **false**.

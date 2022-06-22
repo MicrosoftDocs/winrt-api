@@ -12,7 +12,7 @@ public void InsertVector2(System.String propertyName, Windows.Foundation.Numeric
 ## -description
 Inserts a Vector2 key-value pair.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Composition.CompositionPropertySet.InsertVector2](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.insertvector2) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param propertyName

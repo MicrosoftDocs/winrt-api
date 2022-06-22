@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.TypeName CurrentSourcePageType { get; }
 ## -description
 Gets a type reference for the content that is currently displayed.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Frame.CurrentSourcePageType](/windows/winui/api/microsoft.ui.xaml.controls.frame.currentsourcepagetype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 A type reference for the content that is currently displayed.

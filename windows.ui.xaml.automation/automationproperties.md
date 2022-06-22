@@ -12,7 +12,7 @@ public class AutomationProperties : Windows.UI.Xaml.Automation.IAutomationProper
 ## -description
 Provides support for getting or setting instance-level values of automation properties. These property values are set as attached properties (typically in XAML) and supplement or override automation property values from a control's [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.AutomationProperties](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

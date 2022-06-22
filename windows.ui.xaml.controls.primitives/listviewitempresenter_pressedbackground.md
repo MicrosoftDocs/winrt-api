@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush PressedBackground { get;  set; }
 ## -description
 In a [ListView](../windows.ui.xaml.controls/listview.md), gets or sets the brush used to render the background of an unselected item while the user is pressing it. In a [GridView](../windows.ui.xaml.controls/gridview.md), the item's border is set rather than the background.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PressedBackground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.pressedbackground) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml
