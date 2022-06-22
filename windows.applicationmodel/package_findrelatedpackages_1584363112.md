@@ -72,10 +72,10 @@ static IList<Package> GetNonOptionalDependenciesForCurrentPackage()
   var pkgdependents = PackageRelationship.Dependencies;                      
   FindRelatedPackagesOptions nonOptionalDependency = new(pkgdependents)
   {
-      IncludeFrameworks = false,
-      IncludeHostRuntimes = false,
+      IncludeFrameworks = true,
+      IncludeHostRuntimes = true,
       IncludeOptionals = false,
-      IncludeResources = false
+      IncludeResources = true
   };
 
   // Find and return the packages which are non-optional dependencies
