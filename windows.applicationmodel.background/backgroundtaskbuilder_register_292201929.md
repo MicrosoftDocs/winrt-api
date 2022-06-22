@@ -21,6 +21,8 @@ An instance of a [BackgroundTaskRegistration](backgroundtaskregistration.md) obj
 
 The task must have an event trigger for the Register method to succeed. The system schedules the background task when its trigger event occurs and all of its conditions have been met.
 
+An out-of-process background task must also specify a task entry point. See [Create and register an in-process background task](/windows/uwp/launch-resume/create-and-register-an-inproc-background-task) and [Create and register an out-of-process background task](/windows/uwp/launch-resume/create-and-register-a-background-task) for details about registering each kind of task.
+
 ### Background task parameter validation
 
 > **Windows 8**
