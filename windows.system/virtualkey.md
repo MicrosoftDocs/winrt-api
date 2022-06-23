@@ -717,11 +717,13 @@ The gamepad right thumbstick left.
 
 ## -remarks
 
-This enum is used with the [Key](../windows.ui.xaml.input/keyboardaccelerator_key.md) property of a [KeyboardAccelerator](../windows.ui.xaml.input/keyboardaccelerator.md) object. For more information, including code examples, see [Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators).
+This enum is used in [Windows.UI.Core.KeyEventArgs.VirtualKey](../windows.ui.core/keyeventargs_virtualkey.md) and [Windows.UI.Core.AcceleratorKeyEventArgs.VirtualKey](../windows.ui.core/acceleratorkeyeventargs_virtualkey.md) properties.
+
+This enum is used in [Windows.UI.Xaml.Input.KeyRoutedEventArgs.Key](../windows.ui.xaml.input/keyroutedeventargs_key.md), [Windows.UI.Xaml.Input.KeyboardAccelerator.Key](../windows.ui.xaml.input/keyboardaccelerator_key.md) and [Windows.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs.Key](../windows.ui.xaml.input/processkeyboardacceleratoreventargs_key.md) properties. For more information, including code examples, see [Keyboard events](/windows/apps/design/input/keyboard-events) and [Keyboard Accelerators](/windows/apps/design/input/keyboard-accelerators).
 
 ## -examples
 
 ## -see-also
 
-[Keyboard Accelerators](/windows/uwp/design/input/keyboard-accelerators), [Windows.System.VirtualKeyModifiers](virtualkeymodifiers.md)
+[Keyboard events](/windows/apps/design/input/keyboard-events), [Keyboard Accelerators](/windows/apps/design/input/keyboard-accelerators), [Windows.System.VirtualKeyModifiers](virtualkeymodifiers.md), [Windows.UI.Core.KeyEventArgs.VirtualKey](../windows.ui.core/keyeventargs_virtualkey.md), [Windows.UI.Core.AcceleratorKeyEventArgs.VirtualKey](../windows.ui.core/acceleratorkeyeventargs_virtualkey.md),[Windows.UI.Xaml.Input.KeyRoutedEventArgs.Key](../windows.ui.xaml.input/keyroutedeventargs_key.md), [Windows.UI.Xaml.Input.KeyboardAccelerator.Key](../windows.ui.xaml.input/keyboardaccelerator_key.md), [Windows.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs.Key](../windows.ui.xaml.input/processkeyboardacceleratoreventargs_key.md)
 
