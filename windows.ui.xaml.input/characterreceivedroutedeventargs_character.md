@@ -10,7 +10,7 @@ public char Character { get; }
 # Windows.UI.Xaml.Input.CharacterReceivedRoutedEventArgs.Character
 
 ## -description
-Gets the composed character associated with the [UIElement.CharacterReceived](../windows.ui.xaml/uielement_characterreceived.md) event. 
+Gets [UTF-16 code unit](/dotnet/api/system.char) of a the composed character associated with the [UIElement.CharacterReceived](../windows.ui.xaml/uielement_characterreceived.md) event. 
 
 > [!NOTE]
 > A composed character is a single visual object derived from a sequence of one or more other characters. 
