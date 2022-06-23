@@ -40,8 +40,6 @@ The following sample shows how to track changes to the Clipboard. If the Clipboa
 
 [!code-csharp[TrackClipboardChanges](../windows.applicationmodel.datatransfer/code/ClipBoardBeta/cs/BlankPage.xaml.cs#Snippetcs_TrackClipboardChanges)]
 
-[!code-js[TrackClipboardChanges](../windows.applicationmodel.datatransfer/code/ClipBoardBeta/js/default.js#SnippetTrackClipboardChanges)]
-
 ## -see-also
 
 [Clipboard sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Clipboard)
