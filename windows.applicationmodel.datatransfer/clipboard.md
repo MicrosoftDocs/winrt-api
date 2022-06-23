@@ -38,7 +38,8 @@ You can only access the clipboard when the calling application is in focus on th
 
 The following sample shows how to track changes to the Clipboard. If the Clipboard has text, the code adds the text to an HTML page.
 
-[!code-js[TrackClipboardChanges](../windows.applicationmodel.datatransfer/code/ClipBoardBeta/js/default.js#SnippetTrackClipboardChanges)]
+:::code language="js" source="../windows.applicationmodel.datatransfer/code/ClipBoardBeta/js/default.js" id="SnippetTrackClipboardChanges":::
+:::code language="csharp" source="../windows.applicationmodel.datatransfer/code/ClipBoardBeta/cs/BlankPage.xaml.cs" id="Snippetcs_TrackClipboardChanges":::
 
 ## -see-also
 
