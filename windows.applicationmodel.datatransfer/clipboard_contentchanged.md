@@ -19,7 +19,7 @@ This event is helpful in situations when your app contains logic that varies dep
 
 ## -examples
 
-The following example shows how to track changes to the [Clipboard](clipboard.md). The first code snippet registers a handler for the ContentChanged event. The second code snippet shows the event handler, which enables the app's paste command if the [Clipboard](clipboard.md) contains a bitmap.
+The following example shows how to track changes to the [Clipboard](clipboard.md). The first code snippet registers a handler for the ContentChanged event. The second code snippet shows the event handler, which displays the text contents of the [Clipboard](clipboard.md) in a **TextBlock** control.
 
 [!code-csharp[AddContentChangedHandler](../windows.applicationmodel.datatransfer/code/ClipBoardBeta/cs/BlankPage.xaml.cs#Snippetcs_AddContentChangedHandler)]
 
