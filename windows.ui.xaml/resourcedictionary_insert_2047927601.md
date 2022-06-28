@@ -22,7 +22,7 @@ The object key for the resource to insert.
 The object value for the resource to insert.
 
 ## -returns
-**true** if calling the method replaced a value that already existed for the key; **false** if calling the method defined a new key.
+**false** if calling the method defined a new key. If the key already existed, an exception is thrown.
 
 ## -remarks
 > [!NOTE]
