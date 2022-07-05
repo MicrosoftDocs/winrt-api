@@ -17,7 +17,7 @@ Provides event data for the [KeyUp](../windows.ui.xaml/uielement_keyup.md) and [
 
 ## -remarks
 
-Button input is mapped to differerent key values for various devices, including gamepad and the Xbox One infrared remote.
+Button input is mapped to different key values for various devices, including gamepad and the Xbox One infrared remote.
 
 This table provides the mapping detail for these devices.
 
@@ -45,14 +45,6 @@ This table provides the mapping detail for these devices.
 
 ## -examples
 
-Here, we demonstrate how to handle the [KeyUp](../windows.ui.xaml/uielement_keyup.md) event to navigate to a URL if the [virtual key](../windows.system/virtualkey.md) associated with the event is the **Enter** key. For the complete code listing, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
-
-[!code-cpp[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/cpp/Scenario1.xaml.cpp#SnippetWebViewNavigation)]
-
-[!code-csharp[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/csharp/Scenario1.xaml.cs#SnippetWebViewNavigation)]
-
-[!code-vb[WebViewNavigation](../windows.ui.xaml.input/code/Controls_WebView/vbnet/Scenario1.xaml.vb#SnippetWebViewNavigation)]
-
 ## -see-also
 
-[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [WebView](../windows.ui.xaml.controls/webview.md), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)
+[RoutedEventArgs](../windows.ui.xaml/routedeventargs.md), [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView)
