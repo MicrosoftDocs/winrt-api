@@ -13,7 +13,7 @@ public Windows.Storage.Streams.IBuffer PixelBuffer { get; }
 ## -description
 Gets an access for the direct buffer where each pixel of the [WriteableBitmap](writeablebitmap.md) is written to.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.WriteableBitmap.PixelBuffer](/windows/winui/api/microsoft.ui.xaml.media.imaging.writeablebitmap.pixelbuffer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 A reference to the pixel buffer.

@@ -12,7 +12,7 @@ public double OffsetFromCenter { get;  set; }
 ## -description
 Gets or sets an offset from the center of the *opened* target.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation.OffsetFromCenter](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation.offsetfromcenter) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

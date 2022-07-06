@@ -12,8 +12,6 @@ public Windows.UI.Xaml.CreateDefaultValueCallback CreateDefaultValueCallback { g
 ## -description
 Gets a reference to the callback method that provides a default property value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.PropertyMetadata.CreateDefaultValueCallback](/windows/winui/api/microsoft.ui.xaml.propertymetadata.createdefaultvaluecallback) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
-
 ## -property-value
 A reference to the callback method that provides a default property value.
 

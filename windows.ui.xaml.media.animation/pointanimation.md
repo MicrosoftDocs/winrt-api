@@ -12,7 +12,7 @@ public class PointAnimation : Windows.UI.Xaml.Media.Animation.Timeline, Windows.
 ## -description
 Animates the value of a [Point](../windows.foundation/point.md) property between two target values using linear interpolation over a specified [Duration](timeline_duration.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.PointAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

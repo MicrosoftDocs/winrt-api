@@ -12,7 +12,7 @@ public class CurrentChangingEventArgs : Windows.UI.Xaml.Data.ICurrentChangingEve
 ## -description
 Provides data for the [CurrentChanging](icollectionview_currentchanging.md) event.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.CurrentChangingEventArgs](/windows/winui/api/microsoft.ui.xaml.data.currentchangingeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 The [CurrentChanging](icollectionview_currentchanging.md) event occurs when the [CurrentItem](icollectionview_currentitem.md) property value changes in an [ICollectionView](icollectionview.md) implementation. The [ICollectionView](icollectionview.md) implementation uses the CurrentChangingEventArgs constructor to specify whether you can cancel the [CurrentItem](icollectionview_currentitem.md) change in a [CurrentChanging](icollectionview_currentchanging.md) event handler. If the [IsCancelable](currentchangingeventargs_iscancelable.md) property value is **true**, you can cancel the [CurrentItem](icollectionview_currentitem.md) change by setting the [Cancel](currentchangingeventargs_cancel.md) property to **true**. Otherwise, you cannot cancel the [CurrentItem](icollectionview_currentitem.md) change.

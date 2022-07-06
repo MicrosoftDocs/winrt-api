@@ -12,7 +12,7 @@ public class BindingBase : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Dat
 ## -description
 Provides a base class for the [Binding](binding.md) class.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.BindingBase](/windows/winui/api/microsoft.ui.xaml.data.bindingbase) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.RepeatBehavior FromCount(System.Double co
 ## -description
 Creates a new [RepeatBehavior](repeatbehavior.md) based on a repeat count. This corresponds to the *int***x** form when provided as XAML attribute value. C# and Microsoft Visual Basic code should use [RepeatBehavior(Double)](/dotnet/api/windows.ui.xaml.media.animation.repeatbehavior.-ctor?view=dotnet-plat-ext-3.1#Windows_UI_Xaml_Media_Animation_RepeatBehavior__ctor_System_Double_) instead.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.RepeatBehaviorHelper.FromCount](/windows/winui/api/microsoft.ui.xaml.media.animation.repeatbehaviorhelper.fromcount) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param count

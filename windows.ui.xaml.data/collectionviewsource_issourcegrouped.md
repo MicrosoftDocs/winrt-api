@@ -12,7 +12,7 @@ public bool IsSourceGrouped { get;  set; }
 ## -description
 Gets or sets a value that indicates whether source data is grouped.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.CollectionViewSource.IsSourceGrouped](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.issourcegrouped) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

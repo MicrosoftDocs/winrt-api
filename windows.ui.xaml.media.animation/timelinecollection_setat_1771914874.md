@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Media.Animation.Timeline 
 ## -description
 Sets the value at the specified index to the [Timeline](timeline.md) value specified.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.TimelineCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.animation.timelinecollection.setat) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param index

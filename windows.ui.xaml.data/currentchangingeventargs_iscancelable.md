@@ -12,7 +12,7 @@ public bool IsCancelable { get; }
 ## -description
 Gets a value that indicates whether the [CurrentItem](icollectionview_currentitem.md) change can be canceled.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.CurrentChangingEventArgs.IsCancelable](/windows/winui/api/microsoft.ui.xaml.data.currentchangingeventargs.iscancelable) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 **true** if the event can be canceled; **false** if the event cannot be canceled.

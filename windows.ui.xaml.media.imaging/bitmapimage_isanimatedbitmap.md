@@ -12,7 +12,7 @@ public bool IsAnimatedBitmap { get; }
 ## -description
 Gets a value that indicates whether an image is animated.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.IsAnimatedBitmap](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.isanimatedbitmap) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 **true** if the image is animated; otherwise, **false**.

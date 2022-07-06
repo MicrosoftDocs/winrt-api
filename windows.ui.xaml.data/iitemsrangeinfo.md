@@ -13,7 +13,7 @@ public interface IItemsRangeInfo : Windows.Foundation.IClosable
 
 Provides info about a range of items in the data source.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.IItemsRangeInfo](/windows/winui/api/microsoft.ui.xaml.data.iitemsrangeinfo) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

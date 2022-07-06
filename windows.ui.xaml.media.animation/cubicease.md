@@ -12,7 +12,7 @@ public class CubicEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBase, Win
 ## -description
 Represents an easing function that creates an animation that accelerates and/or decelerates using the formula *f* (*t*) = *t*<sup>3</sup>.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.CubicEase](/windows/winui/api/microsoft.ui.xaml.media.animation.cubicease) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public int DecodePixelWidth { get;  set; }
 ## -description
 Gets or sets the width to use for image decoding operations.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelWidth](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.decodepixelwidth) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

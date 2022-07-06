@@ -12,7 +12,7 @@ public class DrillInNavigationTransitionInfo : Windows.UI.Xaml.Media.Animation.N
 ## -description
 Specifies the animation to run when a user navigates forward in a logical hierarchy, like from a master list to a detail page.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DrillInNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.drillinnavigationtransitioninfo) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public class BindingExpression : Windows.UI.Xaml.Data.BindingExpressionBase, Win
 ## -description
 Contains information about a single instance of a [Binding](binding.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.BindingExpression](/windows/winui/api/microsoft.ui.xaml.data.bindingexpression) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 The [Binding](binding.md) class is the high-level class for the declaration of a binding. The BindingExpression class is the underlying object that maintains the connection between the binding source and the binding target. A [Binding](binding.md) contains all the information that can be shared across several BindingExpression objects. A BindingExpression is an instance expression that cannot be shared and that contains all the instance information about the [Binding](binding.md).
