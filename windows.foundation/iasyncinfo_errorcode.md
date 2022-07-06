@@ -13,7 +13,7 @@ public Windows.Foundation.HResult ErrorCode { get; }
 Gets a string that describes an error condition of the asynchronous operation.
 
 ## -property-value
-The error string.
+A string that describes an error condition of the asynchronous operation.
 
 ## -remarks
 Error codes are exposed as different types depending on the programming language you are using. Similarly, each language has different techniques for wrapping asynchronous method calls so that error conditions or cancellation can be handled. For more info see one of these topics:
