@@ -12,7 +12,7 @@ public Windows.Foundation.IReference<Windows.Foundation.Point> From { get;  set;
 ## -description
 Gets or sets the animation's starting value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.PointAnimation.From](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimation.from) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

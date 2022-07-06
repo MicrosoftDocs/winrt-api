@@ -12,7 +12,7 @@ public Windows.Foundation.IReference<double> From { get;  set; }
 ## -description
 Gets or sets the animation's starting value.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimation.From](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimation.from) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

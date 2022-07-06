@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ViewProperty { get; }
 ## -description
 Identifies the [View](collectionviewsource_view.md) dependency property.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.CollectionViewSource.ViewProperty](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.viewproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The identifier for the [View](collectionviewsource_view.md) dependency property.

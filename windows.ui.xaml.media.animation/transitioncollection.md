@@ -12,7 +12,7 @@ public class TransitionCollection : Windows.Foundation.Collections.IIterable<Win
 ## -description
 Represents a collection of [Transition](transition.md) objects. Each [Transition](transition.md) object represents a different theme transition, part of the Windows Runtime animation library.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.TransitionCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.transitioncollection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.Foundation.Point ControlPoint2 { get;  set; }
 ## -description
 Gets or sets the second control point used to define a Bezier curve that describes a [KeySpline](keyspline.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.KeySpline.ControlPoint2](/windows/winui/api/microsoft.ui.xaml.media.animation.keyspline.controlpoint2) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

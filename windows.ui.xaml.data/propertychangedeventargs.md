@@ -17,7 +17,7 @@ Provides data for the [PropertyChanged](inotifypropertychanged_propertychanged.m
 > **.NET**
 > This class appears as [System.ComponentModel.PropertyChangedEventArgs](/dotnet/api/system.componentmodel.propertychangedeventargs?view=dotnet-uwp-10.0&preserve-view=true).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.PropertyChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.data.propertychangedeventargs) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -remarks
 When programming with .NET, this class is hidden and developers should use the [System.ComponentModel.PropertyChangedEventArgs](/dotnet/api/system.componentmodel.propertychangedeventargs?view=dotnet-uwp-10.0&preserve-view=true) class.

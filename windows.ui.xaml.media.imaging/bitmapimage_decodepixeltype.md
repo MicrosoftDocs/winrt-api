@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Imaging.DecodePixelType DecodePixelType { get;  set
 ## -description
 Gets or sets a value that determines how [DecodePixelWidth](bitmapimage_decodepixelwidth.md) and [DecodePixelHeight](bitmapimage_decodepixelheight.md) values are interpreted for decoding operations.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelType](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.decodepixeltype) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 A value of the enumeration. The default is **Physical**.

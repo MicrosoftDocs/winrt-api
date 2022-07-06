@@ -12,7 +12,7 @@ public int Progress { get;  set; }
 ## -description
 Gets download progress as a value that is between 0 and 100.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.DownloadProgressEventArgs.Progress](/windows/winui/api/microsoft.ui.xaml.media.imaging.downloadprogresseventargs.progress) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 The download progress. A value of 0 indicates no progress; 100 indicates that the download is complete.

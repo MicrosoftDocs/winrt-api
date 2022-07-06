@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.KeyTime FromTimeSpan(Windows.Foundation.T
 ## -description
 Generates a new [KeyTime](keytime.md) with initial data based on the specified [TimeSpan](../windows.foundation/timespan.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.KeyTimeHelper.FromTimeSpan](/windows/winui/api/microsoft.ui.xaml.media.animation.keytimehelper.fromtimespan) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -parameters
 ### -param timeSpan

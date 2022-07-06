@@ -12,7 +12,7 @@ public SvgImageSourceLoadStatus Status { get; }
 ## -description
 Gets a value that indicates the reason for the SVG loading failure.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSourceFailedEventArgs.Status](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesourcefailedeventargs.status) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -property-value
 A value of the enumeration.

@@ -12,7 +12,7 @@ public string ElementName { get;  set; }
 ## -description
 Gets or sets the name of the element to use as the binding source for the [Binding](binding.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Data.Binding.ElementName](/windows/winui/api/microsoft.ui.xaml.data.binding.elementname) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml

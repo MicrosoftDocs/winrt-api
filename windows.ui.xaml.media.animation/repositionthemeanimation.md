@@ -12,7 +12,7 @@ public class RepositionThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline
 ## -description
 Use to animate an object that is being repositioned.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemeanimation) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 
 ## -xaml-syntax
 ```xaml
