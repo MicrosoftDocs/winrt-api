@@ -10,7 +10,7 @@ public interface IXamlMetadataProvider :
 # Windows.UI.Xaml.Markup.IXamlMetadataProvider
 
 ## -description
-Implements XAML type resolution, binding types identifed in markup with classes implemented in an application or component.
+Implements XAML type resolution and provides the mapping between types used in markup and the corresponding classes implemented in an application or component.
 
 Equivalent WinUI interface: [Microsoft.UI.Xaml.Markup.IXamlMetadataProvider](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmetadataprovider).
 
