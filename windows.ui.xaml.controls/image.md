@@ -204,11 +204,12 @@ Apps that were compiled for Windows 8 but running on Windows 8.1 continue to u
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Images and image brushes](/windows/uwp/design/controls-and-patterns/images-imagebrushes).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the Image in action](winui2gallery:/item/Image).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Image](/windows/apps/design/controls/images-imagebrushes).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the Image in action](winui2gallery:/item/Image)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 ## -see-also
 

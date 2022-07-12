@@ -154,13 +154,12 @@ This table shows the resources used by the AutoSuggestBox control. Resources tha
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Auto-suggest box](/windows/uwp/design/controls-and-patterns/auto-suggest-box).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the AutoSuggestBox in action](winui2gallery:/item/AutoSuggestBox).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Auto-suggest box](/windows/apps/design/controls/auto-suggest-box).
 
-To see a complete working example of AutoSuggestBox, see the [AutoSuggestBox migration sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox?amp;amp;clcid=0x409).
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the AutoSuggestBox in action](winui2gallery:/item/AutoSuggestBox)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 Here is a simple AutoSuggestBox with the required event handlers.
 

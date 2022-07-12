@@ -89,11 +89,12 @@ This table shows the resources used by the ComboBox control.
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Combo box](/windows/uwp/design/controls-and-patterns/combo-box).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ComboBox in action](winui2gallery:/item/ComboBox).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Combo box](/windows/apps/design/controls/combo-box).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the ComboBox in action](winui2gallery:/item/ComboBox)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 The following example demonstrates binding a ComboBox to a collection of [FontFamily](../windows.ui.xaml.media/fontfamily.md) objects.
 

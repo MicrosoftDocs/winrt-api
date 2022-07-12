@@ -69,11 +69,12 @@ There's nothing you can do within the [Click](../windows.ui.xaml.controls.primit
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Hyperlinks](/windows/uwp/design/controls-and-patterns/hyperlinks).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the HyperlinkButton in action](winui2gallery:/item/HyperlinkButton).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Hyperlink button](/windows/apps/design/controls/hyperlinks).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the HyperlinkButton in action](winui2gallery:/item/HyperlinkButton)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 Here's a HyperlinkButton as declared in XAML. It declares a string value for [Content](contentcontrol_content.md) and also a [NavigateUri](hyperlinkbutton_navigateuri.md) value.
 

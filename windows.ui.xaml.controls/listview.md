@@ -92,11 +92,12 @@ You can always modify the look of a ListView by specifying Xaml resources in you
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [List view and grid view](/windows/uwp/design/controls-and-patterns/listview-and-gridview).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the ListView in action](winui2gallery:/item/ListView).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [List View](/windows/apps/design/controls/listview-and-gridview).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see ListView in action](winui2gallery:/item/ListView)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a ListView is defined inline. Because the [ItemsSource](itemscontrol_itemssource.md) is set, the [ItemTemplate](itemscontrol_itemtemplate.md) is applied to every item.
 

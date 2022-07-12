@@ -27,8 +27,9 @@ Represents a control that displays the avatar image for a person, if one is avai
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Person picture](/windows/uwp/design/controls-and-patterns/person-picture).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the PersonPicture in action](winui2gallery:/item/PersonPicture).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Person picture](/windows/apps/design/controls/person-picture).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the PersonPicture in action](winui2gallery:/item/PersonPicture)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).

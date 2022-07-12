@@ -109,11 +109,12 @@ In Windows Phone, the user reveals the password by checking a checkbox, so the p
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Password box](/windows/uwp/design/controls-and-patterns/password-box).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the PasswordBox in action](winui2gallery:/item/PasswordBox).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Password box](/windows/apps/design/controls/password-box).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the PasswordBox in action](winui2gallery:/item/PasswordBox)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 This example shows a PasswordBox control that demonstrates the [Password](passwordbox_password.md) property and the [PasswordChanged](passwordbox_passwordchanged.md) event. When the user enters text into this PasswordBox, it's checked to see if it's the literal value, "Password". If it is, a message is displayed to the user.
 

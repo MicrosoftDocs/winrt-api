@@ -86,11 +86,12 @@ This table shows the resources used by the RadioButton control.
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Radio buttons](/windows/uwp/design/controls-and-patterns/radio-button).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the RadioButton in action](winui2gallery:/item/RadioButton).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Radio button](/windows/apps/design/controls/radio-button).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the RadioButton in action](winui2gallery:/item/RadioButton)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 The following example shows three radio buttons. The first two radio buttons are grouped together. The remaining radio button is not grouped explicitly, which means that you can select the third radio button and either the first or second. When you select a radio button, a [TextBlock](textblock.md) displays the name of the group, if the radio button has an explicit group name, and the name of the radio button.
 

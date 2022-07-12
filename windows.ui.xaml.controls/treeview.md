@@ -41,8 +41,9 @@ If you need to handle pointer events for a [UIElement](../windows.ui.xaml/uielem
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Tree view](/windows/uwp/design/controls-and-patterns/tree-view).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the TreeView in action](winui2gallery:/item/TreeView).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Tree view](/windows/apps/design/controls/tree-view).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the TreeView in action](winui2gallery:/item/TreeView)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).

@@ -67,11 +67,12 @@ This table shows the resources used by the FlipView control.
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Flip view](/windows/uwp/design/controls-and-patterns/flipview).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the FlipView in action](winui2gallery:/item/FlipView).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Flip view](/windows/apps/design/controls/flipview).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the FlipView in action](winui2gallery:/item/FlipView)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 In this example, the [ItemTemplate](itemscontrol_itemtemplate.md) of a FlipView is defined inline.
 
