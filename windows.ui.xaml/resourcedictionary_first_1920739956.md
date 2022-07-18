@@ -27,4 +27,4 @@ You can iterate through a [ResourceDictionary](resourcedictionary.md) in C# or M
 ## -examples
 
 ## -see-also
-[ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

@@ -81,4 +81,4 @@ Here's a HyperlinkButton as declared in XAML. It declares a string value for [Co
 [!code-xaml[BasicHyperlinkButtonXAML](../windows.ui.xaml.controls/code/BasicControlSnippets/CS/MainPage.xaml#SnippetBasicHyperlinkButtonXAML)]
 
 ## -see-also
-[ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md), [HyperlinkButton styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [Hyperlinks overview](/windows/uwp/design/controls-and-patterns/hyperlinks)
+[ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md), [Hyperlinks overview](/windows/uwp/design/controls-and-patterns/hyperlinks)

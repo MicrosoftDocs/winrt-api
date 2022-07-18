@@ -61,4 +61,4 @@ When you use a [GridView](gridview.md) in a SemanticZoom control, always set the
 > The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 ## -see-also
-[Control](control.md), [SemanticZoom styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [Semantic zoom overview](/windows/uwp/design/controls-and-patterns/semantic-zoom), [GridView](gridview.md), [Hub](hub.md), [ListView](listview.md),
+[Control](control.md), [Semantic zoom overview](/windows/uwp/design/controls-and-patterns/semantic-zoom), [GridView](gridview.md), [Hub](hub.md), [ListView](listview.md),

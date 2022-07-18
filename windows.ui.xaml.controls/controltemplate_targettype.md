@@ -48,4 +48,4 @@ Getting a TargetType in code is also uncommon, but you might do this to double-c
 ## -examples
 
 ## -see-also
-[Style.TargetType](../windows.ui.xaml/style_targettype.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Style.TargetType](../windows.ui.xaml/style_targettype.md), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10)), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

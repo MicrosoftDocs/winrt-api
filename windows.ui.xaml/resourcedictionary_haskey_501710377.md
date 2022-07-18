@@ -28,4 +28,4 @@ The requested key.
 ## -examples
 
 ## -see-also
-[Contains](/dotnet/api/system.windows.resourcedictionary.contains), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Contains](/dotnet/api/system.windows.resourcedictionary.contains), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

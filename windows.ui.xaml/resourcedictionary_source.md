@@ -28,4 +28,4 @@ A Uniform Resource Identifier (URI) that provides the source location of a merge
 ## -examples
 
 ## -see-also
-[ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

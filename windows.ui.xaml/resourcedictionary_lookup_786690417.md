@@ -28,4 +28,4 @@ The value, if an item with the specified key exists. Use the **HasKey** method t
 ## -examples
 
 ## -see-also
-@P:System.Collections.Generic.IDictionary`2.Item(`0), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+@P:System.Collections.Generic.IDictionary`2.Item(`0), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

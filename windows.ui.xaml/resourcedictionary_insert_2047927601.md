@@ -31,4 +31,4 @@ The object value for the resource to insert.
 ## -examples
 
 ## -see-also
-[Add](/dotnet/api/system.windows.resourcedictionary.add), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Add](/dotnet/api/system.windows.resourcedictionary.add), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

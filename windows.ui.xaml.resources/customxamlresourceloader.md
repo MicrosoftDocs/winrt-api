@@ -30,4 +30,4 @@ The way in which the CustomXamlResourceLoader stores its resources is probably n
 ## -examples
 
 ## -see-also
-[{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

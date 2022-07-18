@@ -36,4 +36,4 @@ There are three elements that you can use to compose the menu items in a [MenuFl
 > + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
 
 ## -see-also
-[MenuFlyoutItemBase](menuflyoutitembase.md), [MenuFlyoutSeparator styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles)
+[MenuFlyoutItemBase](menuflyoutitembase.md)

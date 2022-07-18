@@ -35,4 +35,4 @@ If you set this property while the search pane is open, the change won't take ef
 
 ## -see-also
 
-[Guidelines and checklist for search](/windows/uwp/controls-and-patterns/search), [SearchPane class](searchpane.md), [SearchPane.SearchHistoryContext property](searchpane_searchhistorycontext.md)
+[SearchPane class](searchpane.md), [SearchPane.SearchHistoryContext property](searchpane_searchhistorycontext.md)

@@ -80,4 +80,4 @@ The following example shows how to set different types of content for two [Butto
 
 
 ## -see-also
-[Control](control.md), [ContentControl styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles)
+[Control](control.md)

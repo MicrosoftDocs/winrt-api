@@ -24,4 +24,4 @@ The view object.
 ## -examples
 
 ## -see-also
-[CopyTo](/dotnet/api/system.windows.resourcedictionary.copyto), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[CopyTo](/dotnet/api/system.windows.resourcedictionary.copyto), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)
