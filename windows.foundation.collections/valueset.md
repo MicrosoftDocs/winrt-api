@@ -10,7 +10,7 @@ public class ValueSet : Windows.Foundation.Collections.IIterable<Windows.Foundat
 # Windows.Foundation.Collections.ValueSet
 
 ## -description
-Implements a map with keys of type **String** and values of type [Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true). Object must be a WinRT [PropertyValue](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) or ValueSet. As a PropertyValue, it can be any type except [PropertyType](/windows/win32/api/windows.foundation/ne-windows-foundation-propertytype) **InspectableArray**. This limitation exists to ensure that the value can be serialized; passed by value accoss a process boundary.
+Implements a map with keys of type **String** and values of type [Object](/dotnet/api/system.object?view=dotnet-uwp-10.0&preserve-view=true). Object must be a WinRT [PropertyValue](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) or ValueSet. As a PropertyValue, it can be any type except [PropertyType](/windows/win32/api/windows.foundation/ne-windows-foundation-propertytype) **InspectableArray**. This limitation exists to ensure that the value can be serialized; passed by value across a process boundary.
 
 > [!NOTE]
 > Some members are only available for the specified language.
