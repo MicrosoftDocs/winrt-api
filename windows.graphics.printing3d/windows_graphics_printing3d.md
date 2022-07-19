@@ -13,7 +13,6 @@ Provides APIs for working with 3D printers.
 
 These APIs are designed for use with 3D Manufacturing Format (3MF) packages. For more information about 3MF, see the [3MF Specification](http://3mf.io/what-is-3mf/3mf-specification/).
 
-To learn more about the 3D model repair algorithm implemented in these APIs and test it out quickly, go to the [3D Model Repair service](https://aka.ms/modelrepair).
 
 ## -examples
 
