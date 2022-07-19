@@ -14,11 +14,15 @@ public class ToastNotification : Windows.UI.Notifications.IToastNotification, Wi
 Defines the content, associated metadata and events, and expiration time of a toast notification.
 
 ## -remarks
-- Handling activation guidance
-    - UWP Applications should use the [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) for handling toast activations.
-    - Staring WinRT Build 19041, MSIX and Sparsed Sign Packaged applications are able to use [ToastNotificationActionTrigger](../windows.applicationmodel.background/toastnotificationactiontrigger.md) for handling activations [for more details](/windows/uwp/launch-resume/create-and-register-a-winmain-background-task#add-the-support-code-to-instantiate-the-com-class).
-    - Desktop apps can use COM activation by following [Desktop - Send Local Toast](/windows/uwp/design/shell/tiles-and-notifications/send-local-toast-desktop?tabs=msix-sparse#step-1-install-the-notifications-library).
-    - If none of the activation options fit your application, follow the example in this document for properly using event handlers.
+
+For how-to guidance for implementing toast notifications in your app, see [Send a local toast notification from C# apps](/windows/apps/design/shell/tiles-and-notifications/send-local-toast).
+
+Guidance for handling app activation for toast notifications:
+
+- UWP Applications should use the [OnActivated](../windows.ui.xaml/application_onactivated_603737819.md) for handling toast activations.
+- Staring WinRT Build 19041, MSIX and Sparsed Sign Packaged applications are able to use [ToastNotificationActionTrigger](../windows.applicationmodel.background/toastnotificationactiontrigger.md) for handling activations [for more details](/windows/uwp/launch-resume/create-and-register-a-winmain-background-task#add-the-support-code-to-instantiate-the-com-class).
+- Desktop apps can use COM activation by following [Desktop - Send Local Toast](/windows/uwp/design/shell/tiles-and-notifications/send-local-toast-desktop?tabs=msix-sparse#step-1-install-the-notifications-library).
+- If none of the activation options fit your application, follow the example in this document for properly using event handlers.
 
 ### Version history
 
@@ -30,109 +34,7 @@ Defines the content, associated metadata and events, and expiration time of a to
 | 1703 | 15063 | Priority |
 | 1903 | 18362 | ExpiresOnReboot |
 
-## -examples
-The following example shows how to create and send a toast notification that includes text and images, including use of the [ToastNotification](toastnotification_toastnotification_93177318.md) constructor.
 
-```javascript
-
-var notifications = Windows.UI.Notifications;
-
-// Get the toast notification manager for the current app.
-var notificationManager = notifications.ToastNotificationManager;
-
-// The getTemplateContent method returns a Windows.Data.Xml.Dom.XmlDocument object
-// that contains the toast notification XML content.
-var template = notifications.toastTemplateType.toastImageAndText01;
-var toastXml = notificationManager.getTemplateContent(notifications.ToastTemplateType[template]);
-
-// You can use the methods from the XML document to specify the required elements for the toast.
-var images = toastXml.getElementsByTagName("image");
-images[0].setAttribute("src", "images/toastImageAndText.png");
-
-var textNodes = toastXml.getElementsByTagName("text");
-textNodes.forEach(function (value, index) {
-    var textNumber = index + 1;
-    var text = "";
-    for (var j = 0; j < 10; j++) {
-        text += "Text input " + /*@static_cast(String)*/textNumber + " ";
-    }
-    value.appendChild(toastXml.createTextNode(text));
-});
-
-// Create a toast notification from the XML, then create a ToastNotifier object
-// to send the toast.
-var toast = new notifications.ToastNotification(toastXml);
-
-notificationManager.createToastNotifier().show(toast);
-```
-
-The following example shows how to listen for and handle the [Dismissed](toastnotification_dismissed.md) event.
-
-```javascript
-
-var notifications = Windows.UI.Notifications;
-
-yourToastNotification.addEventListener("dismissed", function (e) {
-    switch (e.reason) {
-        case notifications.ToastDismissalReason.applicationHidden:
-            // The application hid the toast using ToastNotifier.hide.
-            break;
-        case notifications.ToastDismissalReason.userCanceled:
-            // The user dismissed the toast.
-            break;
-        case notifications.ToastDismissalReason.timedOut:
-            // The toast has expired.
-            break;
-    }
-}
-```
-**Using Event Handlers**
-
-The following example shows how to add an event handler for toast activation on running desktop apps. ToastNotifications need to be persisted in a list to maintain a reference to the toast for later callbacks. A similar pattern can be followed for dismissed and expired toast events.
-> [!IMPORTANT]
-> Ensure event handlers are unsubscribed to when no longer needed to avoid memory leaks.
-
-```csharp
-class AppNotification
-{
-    protected List<ToastNotification> toastNotificationList = new List<ToastNotification>();
-
-    public void SendToastNotification()
-    {
-        // Constructs the content
-        ToastContent content = new ToastContentBuilder()
-            .AddText("Firing Toast")
-            .GetToastContent();
-
-        // Creates the notification
-        ToastNotification notification = new ToastNotification(content.GetXml());
-
-        //Add an in memory event handler
-        notification.Activated += ToastNotificationCallback_Activated;
-
-        //Adds toast notification to list to persist toast
-        toastNotificationList.Add(notification);
-
-        //Sends the notification
-        ToastNotificationManager.CreateToastNotifier().Show(notification);
-    }
-
-    private void ToastNotificationCallback_Activated(ToastNotification sender, object args)
-    {
-        //Handle Activation Here
-    }
-
-    ~AppNotification()
-    {
-        foreach(ToastNotification tn in toastNotificationList)
-        {
-            //Unsubscribe
-            tn.Activated -= ToastNotificationCallback_Activated;
-        }
-        toastNotificationList.Clear();
-    }
-}
-```
 
 
 ## -see-also
